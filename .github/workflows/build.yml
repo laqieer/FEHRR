@@ -18,7 +18,7 @@ jobs:
         submodules: recursive
       
     - name: Mock base ROM
-      run: head -c 8MB /dev/urandom > baserom.gba
+      run: head -c 8M /dev/urandom > baserom.gba
       
     - name: Run make
       run: make
