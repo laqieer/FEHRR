@@ -1,5 +1,7 @@
 # FEHRR
 
+[![Build CI](https://github.com/laqieer/FEHRR/actions/workflows/build.yml/badge.svg)](https://github.com/laqieer/FEHRR/actions/workflows/build.yml)
+
 Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%BC%E3%82%A8%E3%83%A0%E3%83%96%E3%83%AC%E3%83%A0_%E5%B0%81%E5%8D%B0%E3%81%AE%E5%89%A3).
 
 ## Base ROM
