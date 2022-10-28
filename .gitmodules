@@ -1,0 +1,3 @@
+[submodule "ldscript/decomp"]
+	path = ldscript/decomp
+	url = https://github.com/laqieer/FE-Clib-Decomp.git
