@@ -1,0 +1,24 @@
+name: Build CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container: devkitpro/devkitarm
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: recursive
+      
+    - name: Mock base ROM
+      run: head -c 8MB /dev/urandom > baserom.gba
+      
+    - name: Run make
+      run: make
