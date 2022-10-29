@@ -1,3 +1,6 @@
 [submodule "ldscript/decomp"]
 	path = ldscript/decomp
 	url = https://github.com/laqieer/FE-Clib-Decomp.git
+[submodule "include/decomp"]
+	path = include/decomp
+	url = https://github.com/StanHash/fe6.git

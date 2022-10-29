@@ -1,0 +1,1 @@
+INCLUDE ../ldscript/main.lds

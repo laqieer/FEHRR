@@ -23,7 +23,7 @@ include $(DEVKITARM)/gba_rules
 TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
 SOURCES		:= source
-INCLUDES	:= include
+INCLUDES	:= include include/decomp/include
 DATA		:=
 MUSIC		:=
 LDSCRIPTS	:= ldscript
@@ -40,6 +40,9 @@ CFLAGS	:=	-g -Wall -O2\
 CFLAGS	+=	$(INCLUDE)
 
 CFLAGS	+=	-ffunction-sections -fdata-sections -fno-reorder-functions -fno-inline -fomit-frame-pointer -ffast-math -mlong-calls
+
+GIT_VERSION := "$(shell git describe --abbrev=7 --dirty --always --tags)"
+CFLAGS += -DGIT_VERSION=\"$(GIT_VERSION)\"
 
 CXXFLAGS	:=	$(CFLAGS) -fno-rtti -fno-exceptions
 
