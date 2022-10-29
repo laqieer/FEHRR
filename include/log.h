@@ -1,5 +1,6 @@
 #pragma once
 
+#include <stdlib.h>
 #include <string.h>
 
 #include "mgba.h"
@@ -14,9 +15,12 @@
                             NoCashGBAPrintf(format, __VA_ARGS__)
 
 #define LogFatal(string) mgba_printf(MGBA_LOG_FATAL, string); \
-                            NoCashGBAPrint("[FATAL] "string)
+                            NoCashGBAPrint("[FATAL] "string); \
+                            abort()
+
 #define LogFatalf(format, ...) mgba_printf(MGBA_LOG_FATAL, format, __VA_ARGS__); \
-                            NoCashGBAPrintf("[FATAL] "format, __VA_ARGS__)
+                            NoCashGBAPrintf("[FATAL] "format, __VA_ARGS__); \
+                            abort()
 
 #define LogError(string) mgba_printf(MGBA_LOG_ERROR, string); \
                             NoCashGBAPrint("[ERROR] "string)
@@ -57,3 +61,5 @@
 
 #define Debug(string) LogDebugf("%s:%d(%s): %s", __FILENAME__, __LINE__, __func__, string)
 #define Debugf(format, ...) LogDebugf("%s:%d(%s): "format, __FILENAME__, __LINE__, __func__, __VA_ARGS__)
+
+#define Assert(condition) if (!(condition)) { Fatal("Assertion failed: " #condition); }
