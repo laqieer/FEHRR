@@ -3,26 +3,40 @@
 #include <string.h>
 
 #include "mgba.h"
+#include "nocashgba.h"
+// AgbPrint in vba series is not supported here because it is implemented based on a custom swi which breaks on hardware.
 
-void LogInit();
+#define LogInit mgba_open
 
-#define LogPrint(string) mgba_printf(MGBA_LOG_INFO, string)
-#define LogPrintf(format, ...) mgba_printf(MGBA_LOG_INFO, format, __VA_ARGS__)
+#define LogPrint(string) mgba_printf(MGBA_LOG_INFO, string); \
+                            NoCashGBAPrint(string)
+#define LogPrintf(format, ...) mgba_printf(MGBA_LOG_INFO, format, __VA_ARGS__); \
+                            NoCashGBAPrintf(format, __VA_ARGS__)
 
-#define LogFatal(string) mgba_printf(MGBA_LOG_FATAL, string)
-#define LogFatalf(format, ...) mgba_printf(MGBA_LOG_FATAL, format, __VA_ARGS__)
+#define LogFatal(string) mgba_printf(MGBA_LOG_FATAL, string); \
+                            NoCashGBAPrint("[FATAL] "string)
+#define LogFatalf(format, ...) mgba_printf(MGBA_LOG_FATAL, format, __VA_ARGS__); \
+                            NoCashGBAPrintf("[FATAL] "format, __VA_ARGS__)
 
-#define LogError(string) mgba_printf(MGBA_LOG_ERROR, string)
-#define LogErrorf(format, ...) mgba_printf(MGBA_LOG_ERROR, format, __VA_ARGS__)
+#define LogError(string) mgba_printf(MGBA_LOG_ERROR, string); \
+                            NoCashGBAPrint("[ERROR] "string)
+#define LogErrorf(format, ...) mgba_printf(MGBA_LOG_ERROR, format, __VA_ARGS__); \
+                            NoCashGBAPrintf("[ERROR] "format, __VA_ARGS__)
 
-#define LogWarn(string) mgba_printf(MGBA_LOG_WARN, string)
-#define LogWarnf(format, ...) mgba_printf(MGBA_LOG_WARN, format, __VA_ARGS__)
+#define LogWarn(string) mgba_printf(MGBA_LOG_WARN, string); \
+                            NoCashGBAPrint("[WARN] "string)
+#define LogWarnf(format, ...) mgba_printf(MGBA_LOG_WARN, format, __VA_ARGS__); \
+                            NoCashGBAPrintf("[WARN] "format, __VA_ARGS__)
 
-#define LogInfo(string) mgba_printf(MGBA_LOG_INFO, string)
-#define LogInfof(format, ...) mgba_printf(MGBA_LOG_INFO, format, __VA_ARGS__)
+#define LogInfo(string) mgba_printf(MGBA_LOG_INFO, string); \
+                            NoCashGBAPrint("[INFO] "string)
+#define LogInfof(format, ...) mgba_printf(MGBA_LOG_INFO, format, __VA_ARGS__); \
+                            NoCashGBAPrintf("[INFO] "format, __VA_ARGS__)
 
-#define LogDebug(string) mgba_printf(MGBA_LOG_DEBUG, string)
-#define LogDebugf(format, ...) mgba_printf(MGBA_LOG_DEBUG, format, __VA_ARGS__)
+#define LogDebug(string) mgba_printf(MGBA_LOG_DEBUG, string); \
+                            NoCashGBAPrint("[DEBUG] "string)
+#define LogDebugf(format, ...) mgba_printf(MGBA_LOG_DEBUG, format, __VA_ARGS__); \
+                            NoCashGBAPrintf("[DEBUG] "format, __VA_ARGS__)
 
 #define __FILENAME__ (strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : __FILE__)
 
