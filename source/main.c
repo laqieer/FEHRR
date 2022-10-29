@@ -15,29 +15,39 @@
 #include "debugtext.h"
 #include "debugmenu.h"
 
-void func_fe6_080841FC(void);
-void func_fe6_0808439C(void);
+#include "log.h"
+
+#ifndef GIT_VERSION
+    #define GIT_VERSION "unknown"
+#endif
 
 void PutBuildInfoNew()
 {
+    Infof("Build info: %s %s", GIT_VERSION, __DATE__ " " __TIME__);
+
     DebugScreenInit();
     DebugPutStr(gBg2Tm + TM_OFFSET(0, 0), "FEHRR by laqieer");
     DebugPutStr(gBg2Tm + TM_OFFSET(0, 1), GIT_VERSION);
     DebugPutStr(gBg2Tm + TM_OFFSET(0, 2), __DATE__ " " __TIME__);
 }
 
-void ShowDebugMenu()
+void ShowStartupMenu()
 {
     func_fe6_0801AAE0();
 
     PutBuildInfoNew();
 }
 
+void func_fe6_080841FC(void);
+void func_fe6_0808439C(void);
+
 void AgbMain();
 
 void AgbMainNew()
 {
     // AgbMain();
+
+    LogInit();
 
     // clear RAM
     DmaFill32(3, 0, (void *) IWRAM_START, 0x7F80);
@@ -70,7 +80,7 @@ void AgbMainNew()
     SetOnVBlank(OnVBlank);
 
     // StartGame();
-    ShowDebugMenu();
+    ShowStartupMenu();
 
     while (TRUE)
     {
@@ -79,4 +89,4 @@ void AgbMainNew()
     }
 }
 
-void (*AgbMainOld)() = AgbMainNew;
+void (*const AgbMainOld)() = AgbMainNew;

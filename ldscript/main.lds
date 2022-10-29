@@ -1,2 +1,2 @@
 . = 0x8000220;
-.data.AgbMainOld : {*(.data.AgbMainOld)}
+.rodata.AgbMainOld : {*(.rodata.AgbMainOld)}
