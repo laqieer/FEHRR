@@ -121,7 +121,7 @@ export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
 export LDSFILES	:=	$(foreach file,$(foreach dir,$(LDSCRIPTS),$(wildcard $(dir)/*.lds)),../$(file)) \
 					$(OUTPUT).lds ../$(LDSCRIPTS)/decomp/output/fe6.lds
 
-.PHONY: $(BUILD) clean
+.PHONY: $(BUILD) clean .FORCE
 
 #---------------------------------------------------------------------------------
 $(BUILD):
@@ -148,6 +148,10 @@ $(OUTPUT).elf	:	$(OFILES) $(LDSFILES)
 	$(SILENTCMD)$(OBJCOPY) --set-section-flags .baserom="r,c,a" $@
 
 $(OFILES_SOURCES) : $(HFILES)
+
+# Rebuild it each time to update build info
+main.o	:	.FORCE
+.FORCE	:
 
 #---------------------------------------------------------------------------------
 # The bin2o rule should be copied and modified
