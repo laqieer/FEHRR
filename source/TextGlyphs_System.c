@@ -12179,7 +12179,7 @@ const struct GlyphNew TextGlyphs_System_e591a8 = { // 周
     .bitmap = TextGlyphs_System_e591a8_bitmap,
 };
 
-struct GlyphNew const * const TextGlyphs_SystemNew[] = {
+struct GlyphNew const * const TextGlyphs_SystemNew[0x100 - 0x20] = {
     [0xe3 - 0x20] = &TextGlyphs_System_e38293,
     [0xe2 - 0x20] = &TextGlyphs_System_e28a87,
     [0xe6 - 0x20] = &TextGlyphs_System_e694b9,

@@ -13952,7 +13952,7 @@ const struct GlyphNew TextGlyphs_Talk_e9a3be = { // 飾
     .bitmap = TextGlyphs_Talk_e9a3be_bitmap,
 };
 
-struct GlyphNew const * const TextGlyphs_TalkNew[] = {
+struct GlyphNew const * const TextGlyphs_TalkNew[0x100 - 0x20] = {
     [0xe3 - 0x20] = &TextGlyphs_Talk_e38293,
     [0xe2 - 0x20] = &TextGlyphs_Talk_e28792,
     [0xe6 - 0x20] = &TextGlyphs_Talk_e694b9,

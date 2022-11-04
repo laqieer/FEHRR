@@ -54,7 +54,7 @@ def make_C_source_file(glyphs, filename):
             f.write(f'    .utf_byte_4 = 0x{b[3]:02x},\n')
             f.write(f'    .bitmap = {Path(filename).stem}_{"".join("{:02x}".format(x) for x in character.encode("utf-8"))}_bitmap,\n')
             f.write('};\n\n')
-        f.write(f'struct GlyphNew const * const {Path(filename).stem}New[] = {{\n')
+        f.write(f'struct GlyphNew const * const {Path(filename).stem}New[0x100 - 0x20] = {{\n')
         for byte1, character in g.items():
             f.write(f'    [0x{byte1:02x} - 0x20] = &{Path(filename).stem}_{"".join("{:02x}".format(x) for x in character.encode("utf-8"))},\n')
         f.write('};\n')
