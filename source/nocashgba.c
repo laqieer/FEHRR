@@ -2,11 +2,11 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-#define NOCASHGBAPRINTADDR1 0x4FFFA10
+#define NOCASHGBAPRINTADDR 0x4FFFA18
 
 void NoCashGBAPrint(const char *pBuf)
 {
-    *(volatile u32 *)NOCASHGBAPRINTADDR1 = (u32)pBuf;
+    *(volatile u32 *)NOCASHGBAPRINTADDR = (u32)pBuf;
 }
 
 void NoCashGBAPrintf(const char *pBuf, ...)
