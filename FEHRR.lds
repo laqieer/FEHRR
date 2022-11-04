@@ -2,6 +2,7 @@ OUTPUT_ARCH(arm)
 ENTRY(_start)
 
 INCLUDE ../ldscript/decomp/output/fe6.lds
+INCLUDE ../ldscript/fe6.lds
 
 SECTIONS
 {

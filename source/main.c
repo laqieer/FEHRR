@@ -17,6 +17,8 @@
 
 #include "log.h"
 
+#include "textNew.h"
+
 #ifndef GIT_VERSION
     #define GIT_VERSION "unknown"
 #endif
@@ -78,6 +80,9 @@ void AgbMainNew()
 
     m4aSoundInit();
     SetOnVBlank(OnVBlank);
+
+    // PrintSystemGlyphs();
+    // PrintTalkGlyphs();
 
     // StartGame();
     ShowStartupMenu();
