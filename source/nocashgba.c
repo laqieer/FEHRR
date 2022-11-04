@@ -14,7 +14,7 @@ void NoCashGBAPrintf(const char *pBuf, ...)
     char bufPrint[0x100];
     va_list vArgv;
     va_start(vArgv, pBuf);
-    vsprintf(bufPrint, pBuf, vArgv);
+    vsnprintf(bufPrint, sizeof(bufPrint), pBuf, vArgv);
     va_end(vArgv);
     NoCashGBAPrint(bufPrint);
 }
