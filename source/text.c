@@ -1,6 +1,7 @@
 #include "common.h"
 #include "text.h"
 #include "textNew.h"
+#include "msg.h"
 
 #include "hardware.h"
 #include "ramfunc.h"
@@ -99,6 +100,7 @@ int GetStringTextLenNew(char const * str)
 
     // if (gActiveFont->lang == LANG_ENGLISH)
     //     return GetStringTextLenAscii(str);
+    str = GetMsg((int)str);
 
     while (*str > 1)
     {
@@ -222,6 +224,7 @@ void Text_DrawStringNew(struct Text * text, char const * str)
     //     Text_DrawStringAscii(text, str);
     //     return;
     // }
+    str = GetMsg((int)str);
 
     while (*str > 1)
     {
