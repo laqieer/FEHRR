@@ -51,10 +51,13 @@ LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(OUTPUT).map
 
 LDFLAGS	+=	-nostartfiles
 
+## Create a gfx library variable
+GFXLIBS     ?= libgfx.a
+
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:= -lmm -lgba
+LIBS	:= -lmm -lgba -lgfx
 
 
 #---------------------------------------------------------------------------------
@@ -116,7 +119,7 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES),-iquote $(CURDIR)/$(dir)) \
 					$(foreach dir,$(LIBDIRS),-I$(dir)/include) \
 					-I$(CURDIR)/$(BUILD)
 
-export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
+export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib) -L$(DEPSDIR)
 
 export LDSFILES	:=	$(foreach file,$(foreach dir,$(LDSCRIPTS),$(wildcard $(dir)/*.lds)),../$(file)) \
 					$(OUTPUT).lds ../$(LDSCRIPTS)/decomp/output/fe6.lds
@@ -126,6 +129,7 @@ export LDSFILES	:=	$(foreach file,$(foreach dir,$(LDSCRIPTS),$(wildcard $(dir)/*
 #---------------------------------------------------------------------------------
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
+	@$(MAKE) --no-print-directory -f $(CURDIR)/gfxmake
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
 #---------------------------------------------------------------------------------
@@ -143,7 +147,7 @@ else
 
 $(OUTPUT).gba	:	$(OUTPUT).elf
 
-$(OUTPUT).elf	:	$(OFILES) $(LDSFILES)
+$(OUTPUT).elf	:	$(OFILES) $(LDSFILES) $(GFXLIBS)
 	$(SILENTCMD)$(LD)  $(LDFLAGS) $(OFILES) $(LIBPATHS) $(LIBS) -o $@ -T $(OUTPUT).lds
 	$(SILENTCMD)$(OBJCOPY) --set-section-flags .baserom="r,c,a" $@
 

@@ -18,8 +18,10 @@ struct GlyphNew
     u8 width;
     u8 utf_byte_3;
     u8 utf_byte_4;
-    const u32 * bitmap;
+    const unsigned int * bitmap;
 };
+
+void SetLang(int lang);
 
 void PrintSystemGlyphs();
 void PrintTalkGlyphs();

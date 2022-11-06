@@ -81,6 +81,7 @@ void AgbMainNew()
     m4aSoundInit();
     SetOnVBlank(OnVBlank);
 
+    SetLang(LANGUAGE_ENGLISH);
     // PrintSystemGlyphs();
     // PrintTalkGlyphs();
 

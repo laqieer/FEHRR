@@ -18477,7 +18477,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3079] = {
         [LANGUAGE_JAPANESE] = "コンバートのため""\x03\x01""",
-        [LANGUAGE_ENGLISH] = "^ンモ[[0x83]gYPh""\x03\x01""",
+        [LANGUAGE_ENGLISH] = "For combat!""\x03\x01""",
         [LANGUAGE_CHINESE] = "为了战斗！""\x03\x01""",
     },
 
@@ -20655,49 +20655,49 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3442] = {
         [LANGUAGE_JAPANESE] = "ー""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "ー",
         [LANGUAGE_CHINESE] = "—""\x01""",
     },
 
     [3443] = {
         [LANGUAGE_JAPANESE] = "炎""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "炎""\x01""",
     },
 
     [3444] = {
         [LANGUAGE_JAPANESE] = "雷""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "雷""\x01""",
     },
 
     [3445] = {
         [LANGUAGE_JAPANESE] = "風""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "风""\x01""",
     },
 
     [3446] = {
         [LANGUAGE_JAPANESE] = "氷""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "冰""\x01""",
     },
 
     [3447] = {
         [LANGUAGE_JAPANESE] = "闇""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
     [3448] = {
         [LANGUAGE_JAPANESE] = "光""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "光""\x01""",
     },
 
     [3449] = {
         [LANGUAGE_JAPANESE] = "理""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "理""\x01""",
     },
 
@@ -20793,7 +20793,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3465] = {
         [LANGUAGE_JAPANESE] = "ーーー""\x01""",
-        [LANGUAGE_ENGLISH] = "チチチ""\x01""",
+        [LANGUAGE_ENGLISH] = "ーーー""\x01""",
         [LANGUAGE_CHINESE] = "———""\x01""",
     },
 
@@ -20835,49 +20835,49 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3472] = {
         [LANGUAGE_JAPANESE] = "ファイルをクリアずみに""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "Delete save?",
         [LANGUAGE_CHINESE] = "你确定要将存档""\x01""",
     },
 
     [3473] = {
         [LANGUAGE_JAPANESE] = "しますか？""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "删除吗？""\x01""",
     },
 
     [3474] = {
         [LANGUAGE_JAPANESE] = "クリアずみファイルでは""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "You cannot play it",
         [LANGUAGE_CHINESE] = "被删除的存档""\x01""",
     },
 
     [3475] = {
         [LANGUAGE_JAPANESE] = "以後プレイできません""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "anymore",
         [LANGUAGE_CHINESE] = "就不能再玩了""\x01""",
     },
 
     [3476] = {
         [LANGUAGE_JAPANESE] = "　　　　　　　　　了解""\x01""",
-        [LANGUAGE_ENGLISH] = "　　　　　　　　　了解""\x01""",
+        [LANGUAGE_ENGLISH] = "　　　　　　　　　Yes""\x01""",
         [LANGUAGE_CHINESE] = "         是的""\x01""",
     },
 
     [3477] = {
         [LANGUAGE_JAPANESE] = "　リリースエントリ""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "  Release Entry",
         [LANGUAGE_CHINESE] = " 释放项目""\x01""",
     },
 
     [3478] = {
         [LANGUAGE_JAPANESE] = "　どこでも再開""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "  Free Continue",
         [LANGUAGE_CHINESE] = " 继续游戏""\x01""",
     },
 
     [3479] = {
         [LANGUAGE_JAPANESE] = "　手再開""\x01""",
-        [LANGUAGE_ENGLISH] = "　手再開""\x01""",
+        [LANGUAGE_ENGLISH] = "  Manual Continue""\x01""",
         [LANGUAGE_CHINESE] = " 继续""\x01""",
     },
 
@@ -20925,13 +20925,13 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3487] = {
         [LANGUAGE_JAPANESE] = "　クリアずみ""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "Deleted",
         [LANGUAGE_CHINESE] = " 删除完成""\x01""",
     },
 
     [3488] = {
         [LANGUAGE_JAPANESE] = "　おやすみなさい""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "Good night",
         [LANGUAGE_CHINESE] = " 晚安""\x01""",
     },
 
@@ -21147,7 +21147,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3524] = {
         [LANGUAGE_JAPANESE] = "　中断""\x01""",
-        [LANGUAGE_ENGLISH] = "Suspend""\x01""",
+        [LANGUAGE_ENGLISH] = "Suspnd""\x01""",
         [LANGUAGE_CHINESE] = " 中断""\x01""",
     },
 
@@ -21573,7 +21573,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3595] = {
         [LANGUAGE_JAPANESE] = "ーーー""\x01""",
-        [LANGUAGE_ENGLISH] = "---""\x01""",
+        [LANGUAGE_ENGLISH] = "ーーー""\x01""",
         [LANGUAGE_CHINESE] = "———""\x01""",
     },
 
@@ -21699,7 +21699,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3616] = {
         [LANGUAGE_JAPANESE] = "tech""\x01""",
-        [LANGUAGE_ENGLISH] = "tech""\x01""",
+        [LANGUAGE_ENGLISH] = "skl""\x01""",
         [LANGUAGE_CHINESE] = "tech""\x01""",
     },
 
@@ -21711,7 +21711,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3618] = {
         [LANGUAGE_JAPANESE] = "quick""\x01""",
-        [LANGUAGE_ENGLISH] = "quick""\x01""",
+        [LANGUAGE_ENGLISH] = "spd""\x01""",
         [LANGUAGE_CHINESE] = "quick""\x01""",
     },
 
@@ -21735,7 +21735,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3622] = {
         [LANGUAGE_JAPANESE] = "mdef""\x01""",
-        [LANGUAGE_ENGLISH] = "mdef""\x01""",
+        [LANGUAGE_ENGLISH] = "res""\x01""",
         [LANGUAGE_CHINESE] = "mdef""\x01""",
     },
 
@@ -21759,7 +21759,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3626] = {
         [LANGUAGE_JAPANESE] = "build""\x01""",
-        [LANGUAGE_ENGLISH] = "build""\x01""",
+        [LANGUAGE_ENGLISH] = "con""\x01""",
         [LANGUAGE_CHINESE] = "build""\x01""",
     },
 
@@ -21963,7 +21963,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3660] = {
         [LANGUAGE_JAPANESE] = "ーーー""\x01""",
-        [LANGUAGE_ENGLISH] = "---""\x01""",
+        [LANGUAGE_ENGLISH] = "ーーー""\x01""",
         [LANGUAGE_CHINESE] = "———""\x01""",
     },
 
@@ -21993,97 +21993,97 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3665] = {
         [LANGUAGE_JAPANESE] = "剣""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "剑""\x01""",
     },
 
     [3666] = {
         [LANGUAGE_JAPANESE] = "Sword""\x01""",
-        [LANGUAGE_ENGLISH] = "Sword""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Sword""\x01""",
     },
 
     [3667] = {
         [LANGUAGE_JAPANESE] = "槍""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "枪""\x01""",
     },
 
     [3668] = {
         [LANGUAGE_JAPANESE] = "Lance""\x01""",
-        [LANGUAGE_ENGLISH] = "Lance""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Lance""\x01""",
     },
 
     [3669] = {
         [LANGUAGE_JAPANESE] = "斧""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "斧""\x01""",
     },
 
     [3670] = {
         [LANGUAGE_JAPANESE] = "Axe""\x01""",
-        [LANGUAGE_ENGLISH] = "Axe""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Axe""\x01""",
     },
 
     [3671] = {
         [LANGUAGE_JAPANESE] = "弓""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "弓""\x01""",
     },
 
     [3672] = {
         [LANGUAGE_JAPANESE] = "Bow""\x01""",
-        [LANGUAGE_ENGLISH] = "Bow""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Bow""\x01""",
     },
 
     [3673] = {
         [LANGUAGE_JAPANESE] = "杖""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "杖""\x01""",
     },
 
     [3674] = {
         [LANGUAGE_JAPANESE] = "Wand""\x01""",
-        [LANGUAGE_ENGLISH] = "Wand""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Wand""\x01""",
     },
 
     [3675] = {
         [LANGUAGE_JAPANESE] = "理""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "理""\x01""",
     },
 
     [3676] = {
         [LANGUAGE_JAPANESE] = "Magic""\x01""",
-        [LANGUAGE_ENGLISH] = "Magic""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Magic""\x01""",
     },
 
     [3677] = {
         [LANGUAGE_JAPANESE] = "光""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "光""\x01""",
     },
 
     [3678] = {
         [LANGUAGE_JAPANESE] = "Lightning""\x01""",
-        [LANGUAGE_ENGLISH] = "Lightning""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Lightning""\x01""",
     },
 
     [3679] = {
         [LANGUAGE_JAPANESE] = "闇""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
     [3680] = {
         [LANGUAGE_JAPANESE] = "Darkness""\x01""",
-        [LANGUAGE_ENGLISH] = "Darkness""\x01""",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "Darkness""\x01""",
     },
 

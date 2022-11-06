@@ -58,3 +58,6 @@ dkms.conf
 *.sa?
 *.sg?
 *.ss?
+
+# Built files
+build/

@@ -294,6 +294,7 @@ void Text_DrawNumberNew(struct Text * text, int number)
 
     char str[12];
     sprintf(str, "%d", number);
+    text->x -= GetStringTextLenNew(str);
     Text_DrawStringNew(text, str);
 }
 
@@ -364,9 +365,9 @@ void DrawTextGlyphNew(struct Text * text, struct GlyphNew const * glyph)
 {
     u8 * draw_dest = gActiveFont->get_draw_dest(text);
     int subx = text->x & 7;
-    u32 const * bitmap = glyph->bitmap;
+    unsigned int const * bitmap = glyph->bitmap;
 
-    DrawGlyphRam(GetColorLut(text->color), draw_dest, bitmap, subx);
+    DrawGlyphRam(GetColorLut(text->color), draw_dest, (const u32 *)bitmap, subx);
     text->x += glyph->width;
 }
 
@@ -381,7 +382,7 @@ void DrawTextGlyphNoClearNew(struct Text * text, struct GlyphNew const * glyph)
 
     u32 * dst = (u32 *) gActiveFont->get_draw_dest(text);
     int subx = text->x & 7;
-    u32 const * bitmap = glyph->bitmap;
+    unsigned int const * bitmap = glyph->bitmap;
 
     u64 bitmapRow;
 
@@ -422,7 +423,7 @@ void DrawSpriteTextGlyphNew(struct Text * text, struct GlyphNew const * glyph)
 
     u32 * dst = (u32 *) gActiveFont->get_draw_dest(text);
     int subx = text->x & 7;
-    u32 const * bitmap = glyph->bitmap;
+    unsigned int const * bitmap = glyph->bitmap;
 
     u64 bitmapRow;
 

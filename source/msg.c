@@ -16,6 +16,9 @@ extern int sActiveMsg;
 
 char const * GetMsg(int id)
 {
+    if (id < 0 || id > 0x1000000) {
+        Debugf("Get raw message at 0x%x: %s", id, (char const *)id);
+    }
     return (id < 0 || id > 0x1000000) ? (char const *)id : gMsgTableNew[id][GetLang()];
 }
 
