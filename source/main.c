@@ -81,7 +81,7 @@ void AgbMainNew()
     m4aSoundInit();
     SetOnVBlank(OnVBlank);
 
-    SetLang(LANGUAGE_ENGLISH);
+    SetLang(LANGUAGE_CHINESE);
     // PrintSystemGlyphs();
     // PrintTalkGlyphs();
 

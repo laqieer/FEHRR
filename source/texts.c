@@ -20866,7 +20866,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     [3477] = {
         [LANGUAGE_JAPANESE] = "　リリースエントリ""\x01""",
         [LANGUAGE_ENGLISH] = "  Release Entry",
-        [LANGUAGE_CHINESE] = " 释放项目""\x01""",
+        [LANGUAGE_CHINESE] = " 正式版入口""\x01""",
     },
 
     [3478] = {

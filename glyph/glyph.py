@@ -84,11 +84,13 @@ def main():
     make_linker_script_file(glyphs, "ldscript/TextGlyphs_System.lds")
     make_C_header_file(glyphs, "include/TextGlyphs_System.h")
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.System)
+    read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.System)
     make_C_source_file(glyphs, "source/TextGlyphs_System.c")
     glyphs = read_glyphs_from_file("glyph/TextGlyphs_Talk.txt")
     make_linker_script_file(glyphs, "ldscript/TextGlyphs_Talk.lds")
     make_C_header_file(glyphs, "include/TextGlyphs_Talk.h")
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.Talk)
+    read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.Talk)
     make_C_source_file(glyphs, "source/TextGlyphs_Talk.c")
 
 if __name__ == "__main__":

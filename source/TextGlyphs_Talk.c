@@ -15321,16 +15321,13147 @@ const struct GlyphNew TextGlyphs_Talk_C3BC = { /* ü */
     .bitmap = TextGlyphs_Talk_C3BCTiles,
 };
 
+const struct GlyphNew TextGlyphs_Talk_E38083 = { /* 〃 */
+    .next = &TextGlyphs_Talk_E38293,
+    .width = 5,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E38083Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_C2B0 = { /* ° */
+    .next = &TextGlyphs_Talk_C2BF,
+    .width = 5,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_C2B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E595B0 = { /* 啰 */
+    .next = &TextGlyphs_Talk_E591A8,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E595B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5958A = { /* 啊 */
+    .next = &TextGlyphs_Talk_E595B0,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5958ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E998BF = { /* 阿 */
+    .next = &TextGlyphs_Talk_E9A3BE,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E998BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59F83 = { /* 埃 */
+    .next = &TextGlyphs_Talk_E5958A,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59F83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68CA8 = { /* 挨 */
+    .next = &TextGlyphs_Talk_E694B9,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68CA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5938E = { /* 哎 */
+    .next = &TextGlyphs_Talk_E59F83,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5938ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59489 = { /* 唉 */
+    .next = &TextGlyphs_Talk_E5938E,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59489Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E894BC = { /* 蔼 */
+    .next = &TextGlyphs_Talk_E88289,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E894BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79FAE = { /* 矮 */
+    .next = &TextGlyphs_Talk_E7B79A,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79FAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E889BE = { /* 艾 */
+    .next = &TextGlyphs_Talk_E894BC,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E889BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A28D = { /* 碍 */
+    .next = &TextGlyphs_Talk_E79FAE,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A28DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E788B1 = { /* 爱 */
+    .next = &TextGlyphs_Talk_E7A28D,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E788B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68C89 = { /* 按 */
+    .next = &TextGlyphs_Talk_E68CA8,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68C89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E882AE = { /* 肮 */
+    .next = &TextGlyphs_Talk_E889BE,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E882AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BFB1 = { /* 翱 */
+    .next = &TextGlyphs_Talk_E788B1,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BFB1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E582B2 = { /* 傲 */
+    .next = &TextGlyphs_Talk_E59489,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E582B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E590A7 = { /* 吧 */
+    .next = &TextGlyphs_Talk_E582B2,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E590A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B7B4 = { /* 巴 */
+    .next = &TextGlyphs_Talk_E590A7,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B7B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68B94 = { /* 拔 */
+    .next = &TextGlyphs_Talk_E68C89,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68B94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B78B = { /* 跋 */
+    .next = &TextGlyphs_Talk_E882AE,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B78BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99CB8 = { /* 霸 */
+    .next = &TextGlyphs_Talk_E998BF,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99CB8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BDA2 = { /* 罢 */
+    .next = &TextGlyphs_Talk_E7BFB1,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BDA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E788B8 = { /* 爸 */
+    .next = &TextGlyphs_Talk_E7BDA2,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E788B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69186 = { /* 摆 */
+    .next = &TextGlyphs_Talk_E68B94,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69186Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4A5 = { /* 败 */
+    .next = &TextGlyphs_Talk_E8B78B,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68B9C = { /* 拜 */
+    .next = &TextGlyphs_Talk_E69186,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68B9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69691 = { /* 斑 */
+    .next = &TextGlyphs_Talk_E68B9C,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69691Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78FAD = { /* 班 */
+    .next = &TextGlyphs_Talk_E788B8,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78FADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E690AC = { /* 搬 */
+    .next = &TextGlyphs_Talk_E69691,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E690ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689B3 = { /* 扳 */
+    .next = &TextGlyphs_Talk_E690AC,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E888AC = { /* 般 */
+    .next = &TextGlyphs_Talk_E8B4A5,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E888ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69DBF = { /* 板 */
+    .next = &TextGlyphs_Talk_E689B3,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69DBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78988 = { /* 版 */
+    .next = &TextGlyphs_Talk_E78FAD,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78988Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689AE = { /* 扮 */
+    .next = &TextGlyphs_Talk_E69DBF,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BCB4 = { /* 伴 */
+    .next = &TextGlyphs_Talk_E4B9B3,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BCB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58A9E = { /* 办 */
+    .next = &TextGlyphs_Talk_E5B7B4,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58A9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB8A = { /* 绊 */
+    .next = &TextGlyphs_Talk_E78988,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB8ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E982A6 = { /* 邦 */
+    .next = &TextGlyphs_Talk_E99CB8,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E982A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B8AE = { /* 帮 */
+    .next = &TextGlyphs_Talk_E58A9E,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B8AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A69C = { /* 榜 */
+    .next = &TextGlyphs_Talk_E689AE,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A69CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88680 = { /* 膀 */
+    .next = &TextGlyphs_Talk_E888AC,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88680Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB91 = { /* 绑 */
+    .next = &TextGlyphs_Talk_E7BB8A,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5828D = { /* 傍 */
+    .next = &TextGlyphs_Talk_E5B8AE,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5828DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8839E = { /* 胞 */
+    .next = &TextGlyphs_Talk_E88680,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8839ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E589A5 = { /* 剥 */
+    .next = &TextGlyphs_Talk_E5828D,
+    .width = 12,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E589A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89684 = { /* 薄 */
+    .next = &TextGlyphs_Talk_E8839E,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89684Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A0A1 = { /* 堡 */
+    .next = &TextGlyphs_Talk_E589A5,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A0A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A5B1 = { /* 饱 */
+    .next = &TextGlyphs_Talk_E982A6,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A5B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68AA5 = { /* 报 */
+    .next = &TextGlyphs_Talk_E6A69C,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68AA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B28D = { /* 鲍 */
+    .next = &TextGlyphs_Talk_E9A5B1,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B28DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78886 = { /* 爆 */
+    .next = &TextGlyphs_Talk_E7BB91,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78886Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BE88 = { /* 辈 */
+    .next = &TextGlyphs_Talk_E89684,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BE88Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B49D = { /* 贝 */
+    .next = &TextGlyphs_Talk_E8BE88,
+    .width = 12,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B49DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A487 = { /* 备 */
+    .next = &TextGlyphs_Talk_E5A0A1,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A487Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E683AB = { /* 惫 */
+    .next = &TextGlyphs_Talk_E68AA5,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E683ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A594 = { /* 奔 */
+    .next = &TextGlyphs_Talk_E5A487,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A594Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7ACA8 = { /* 笨 */
+    .next = &TextGlyphs_Talk_E78886,
+    .width = 13,
+    .utf_byte_2 = 0xac,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7ACA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BFB8 = { /* 迸 */
+    .next = &TextGlyphs_Talk_E8B49D,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BFB8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E980BC = { /* 逼 */
+    .next = &TextGlyphs_Talk_E9B28D,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E980BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BCBB = { /* 鼻 */
+    .next = &TextGlyphs_Talk_E980BC,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BCBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98499 = { /* 鄙 */
+    .next = &TextGlyphs_Talk_E9BCBB,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98499Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AC94 = { /* 笔 */
+    .next = &TextGlyphs_Talk_E7ACA8,
+    .width = 13,
+    .utf_byte_2 = 0xac,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AC94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A2A7 = { /* 碧 */
+    .next = &TextGlyphs_Talk_E7AC94,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A2A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E894BD = { /* 蔽 */
+    .next = &TextGlyphs_Talk_E8BFB8,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E894BDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6AF95 = { /* 毕 */
+    .next = &TextGlyphs_Talk_E683AB,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6AF95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B881 = { /* 币 */
+    .next = &TextGlyphs_Talk_E5A594,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B881Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BA87 = { /* 庇 */
+    .next = &TextGlyphs_Talk_E5B881,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BA87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997AD = { /* 闭 */
+    .next = &TextGlyphs_Talk_E98499,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88782 = { /* 臂 */
+    .next = &TextGlyphs_Talk_E894BD,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88782Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99EAD = { /* 鞭 */
+    .next = &TextGlyphs_Talk_E997AD,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99EADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BEB9 = { /* 边 */
+    .next = &TextGlyphs_Talk_E88782,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BEB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC96 = { /* 编 */
+    .next = &TextGlyphs_Talk_E7A2A7,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4AC = { /* 贬 */
+    .next = &TextGlyphs_Talk_E8BEB9,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58F98 = { /* 变 */
+    .next = &TextGlyphs_Talk_E5BA87,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58F98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BEA8 = { /* 辨 */
+    .next = &TextGlyphs_Talk_E8B4AC,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BEA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9818D = { /* 遍 */
+    .next = &TextGlyphs_Talk_E99EAD,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9818DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A087 = { /* 标 */
+    .next = &TextGlyphs_Talk_E6AF95,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A087Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B396 = { /* 鳖 */
+    .next = &TextGlyphs_Talk_E9818D,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B396Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E588AB = { /* 别 */
+    .next = &TextGlyphs_Talk_E58F98,
+    .width = 12,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E588ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E586B0 = { /* 冰 */
+    .next = &TextGlyphs_Talk_E588AB,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E586B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B9B6 = { /* 并 */
+    .next = &TextGlyphs_Talk_E586B0,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B9B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E692AD = { /* 播 */
+    .next = &TextGlyphs_Talk_E6A087,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E692ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D9A = { /* 博 */
+    .next = &TextGlyphs_Talk_E5B9B6,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6908F = { /* 搏 */
+    .next = &TextGlyphs_Talk_E692AD,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6908FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88496 = { /* 脖 */
+    .next = &TextGlyphs_Talk_E8BEA8,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88496Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D9C = { /* 卜 */
+    .next = &TextGlyphs_Talk_E58D9A,
+    .width = 12,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A1A5 = { /* 补 */
+    .next = &TextGlyphs_Talk_E88496,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A1A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ADA5 = { /* 步 */
+    .next = &TextGlyphs_Talk_E6908F,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ADA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E693A6 = { /* 擦 */
+    .next = &TextGlyphs_Talk_E6ADA5,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E693A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4A2 = { /* 财 */
+    .next = &TextGlyphs_Talk_E8A1A5,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B8A9 = { /* 踩 */
+    .next = &TextGlyphs_Talk_E8B4A2,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B8A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98787 = { /* 采 */
+    .next = &TextGlyphs_Talk_E9B396,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98787Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BDA9 = { /* 彩 */
+    .next = &TextGlyphs_Talk_E58D9C,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BDA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88F9C = { /* 菜 */
+    .next = &TextGlyphs_Talk_E8B8A9,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88F9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A490 = { /* 餐 */
+    .next = &TextGlyphs_Talk_E98787,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A490Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88B8D = { /* 苍 */
+    .next = &TextGlyphs_Talk_E88F9C,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88B8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8978F = { /* 藏 */
+    .next = &TextGlyphs_Talk_E88B8D,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8978FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BEA7 = { /* 侧 */
+    .next = &TextGlyphs_Talk_E4BCB4,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BEA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B58B = { /* 测 */
+    .next = &TextGlyphs_Talk_E693A6,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B58BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B182 = { /* 层 */
+    .next = &TextGlyphs_Talk_E5BDA9,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B182Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B9AD = { /* 蹭 */
+    .next = &TextGlyphs_Talk_E8978F,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B9ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69FA5 = { /* 查 */
+    .next = &TextGlyphs_Talk_E6B58B,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69FA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B294 = { /* 岔 */
+    .next = &TextGlyphs_Talk_E5B182,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B294Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69FB4 = { /* 柴 */
+    .next = &TextGlyphs_Talk_E69FA5,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69FB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BCA0 = { /* 缠 */
+    .next = &TextGlyphs_Talk_E7BC96,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BCA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E993B2 = { /* 铲 */
+    .next = &TextGlyphs_Talk_E9A490,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E993B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BAA7 = { /* 产 */
+    .next = &TextGlyphs_Talk_E4BEA7,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BAA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A2A4 = { /* 颤 */
+    .next = &TextGlyphs_Talk_E993B2,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A2A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6988C = { /* 昌 */
+    .next = &TextGlyphs_Talk_E69FB4,
+    .width = 12,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6988CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59CBA = { /* 场 */
+    .next = &TextGlyphs_Talk_E5B294,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59CBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B09D = { /* 尝 */
+    .next = &TextGlyphs_Talk_E59CBA,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B09DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E995BF = { /* 长 */
+    .next = &TextGlyphs_Talk_E9A2A4,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E995BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E581BF = { /* 偿 */
+    .next = &TextGlyphs_Talk_E5B09D,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E581BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E882A0 = { /* 肠 */
+    .next = &TextGlyphs_Talk_E8B9AD,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E882A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79585 = { /* 畅 */
+    .next = &TextGlyphs_Talk_E7BCA0,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79585Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68A84 = { /* 抄 */
+    .next = &TextGlyphs_Talk_E6988C,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68A84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B7A2 = { /* 巢 */
+    .next = &TextGlyphs_Talk_E581BF,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B7A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E590B5 = { /* 吵 */
+    .next = &TextGlyphs_Talk_E5B7A2,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E590B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDA6 = { /* 车 */
+    .next = &TextGlyphs_Talk_E882A0,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689AF = { /* 扯 */
+    .next = &TextGlyphs_Talk_E68A84,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BDBB = { /* 彻 */
+    .next = &TextGlyphs_Talk_E590B5,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BDBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B098 = { /* 尘 */
+    .next = &TextGlyphs_Talk_E5BDBB,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B098Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B289 = { /* 沉 */
+    .next = &TextGlyphs_Talk_E689AF,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B289Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B681 = { /* 趁 */
+    .next = &TextGlyphs_Talk_E8BDA6,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B681Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69291 = { /* 撑 */
+    .next = &TextGlyphs_Talk_E6B289,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69291Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59188 = { /* 呈 */
+    .next = &TextGlyphs_Talk_E5B098,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59188Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B998 = { /* 乘 */
+    .next = &TextGlyphs_Talk_E4BAA7,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B998Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E683A9 = { /* 惩 */
+    .next = &TextGlyphs_Talk_E69291,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E683A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF9A = { /* 诚 */
+    .next = &TextGlyphs_Talk_E8B681,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9809E = { /* 逞 */
+    .next = &TextGlyphs_Talk_E995BF,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9809ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA8B = { /* 骋 */
+    .next = &TextGlyphs_Talk_E9809E,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59083 = { /* 吃 */
+    .next = &TextGlyphs_Talk_E59188,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59083Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E797B4 = { /* 痴 */
+    .next = &TextGlyphs_Talk_E79585,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E797B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58C99 = { /* 匙 */
+    .next = &TextGlyphs_Talk_E59083,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58C99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF9F = { /* 迟 */
+    .next = &TextGlyphs_Talk_E8AF9A,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF9FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BC9B = { /* 弛 */
+    .next = &TextGlyphs_Talk_E58C99,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BC9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A9B0 = { /* 驰 */
+    .next = &TextGlyphs_Talk_E9AA8B,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A9B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E880BB = { /* 耻 */
+    .next = &TextGlyphs_Talk_E8BF9F,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E880BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BF85 = { /* 翅 */
+    .next = &TextGlyphs_Talk_E797B4,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BF85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E696A5 = { /* 斥 */
+    .next = &TextGlyphs_Talk_E683A9,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E696A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58585 = { /* 充 */
+    .next = &TextGlyphs_Talk_E5BC9B,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58585Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E586B2 = { /* 冲 */
+    .next = &TextGlyphs_Talk_E58585,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E586B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AEA0 = { /* 宠 */
+    .next = &TextGlyphs_Talk_E586B2,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AEA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E985AC = { /* 酬 */
+    .next = &TextGlyphs_Talk_E9A9B0,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E985ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E795B4 = { /* 畴 */
+    .next = &TextGlyphs_Talk_E7BF85,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E795B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B88C = { /* 踌 */
+    .next = &TextGlyphs_Talk_E880BB,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B88CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68481 = { /* 愁 */
+    .next = &TextGlyphs_Talk_E696A5,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68481Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B891 = { /* 丑 */
+    .next = &TextGlyphs_Talk_E4B998,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B891Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E887AD = { /* 臭 */
+    .next = &TextGlyphs_Talk_E8B88C,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E887ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58EA8 = { /* 厨 */
+    .next = &TextGlyphs_Talk_E5AEA0,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58EA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BA87 = { /* 躇 */
+    .next = &TextGlyphs_Talk_E887AD,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BA87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A59A = { /* 楚 */
+    .next = &TextGlyphs_Talk_E68481,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A59ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A180 = { /* 础 */
+    .next = &TextGlyphs_Talk_E795B4,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A180Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E582A8 = { /* 储 */
+    .next = &TextGlyphs_Talk_E58EA8,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E582A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A484 = { /* 处 */
+    .next = &TextGlyphs_Talk_E582A8,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A484Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A9BF = { /* 穿 */
+    .next = &TextGlyphs_Talk_E7A180,
+    .width = 12,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A9BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BCA0 = { /* 传 */
+    .next = &TextGlyphs_Talk_E4B891,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BCA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59698 = { /* 喘 */
+    .next = &TextGlyphs_Talk_E5A484,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59698Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8B2 = { /* 串 */
+    .next = &TextGlyphs_Talk_E4BCA0,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AA97 = { /* 窗 */
+    .next = &TextGlyphs_Talk_E7A9BF,
+    .width = 12,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AA97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997AF = { /* 闯 */
+    .next = &TextGlyphs_Talk_E985AC,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5889B = { /* 创 */
+    .next = &TextGlyphs_Talk_E59698,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5889BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E994A4 = { /* 锤 */
+    .next = &TextGlyphs_Talk_E997AF,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E994A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59E82 = { /* 垂 */
+    .next = &TextGlyphs_Talk_E5889B,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59E82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAAF = { /* 纯 */
+    .next = &TextGlyphs_Talk_E7AA97,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A0A2 = { /* 蠢 */
+    .next = &TextGlyphs_Talk_E8BA87,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A0A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E688B3 = { /* 戳 */
+    .next = &TextGlyphs_Talk_E6A59A,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E688B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99B8C = { /* 雌 */
+    .next = &TextGlyphs_Talk_E994A4,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99B8CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF8D = { /* 词 */
+    .next = &TextGlyphs_Talk_E8A0A2,
+    .width = 12,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ADA4 = { /* 此 */
+    .next = &TextGlyphs_Talk_E688B3,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ADA4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E588BA = { /* 刺 */
+    .next = &TextGlyphs_Talk_E59E82,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E588BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B590 = { /* 赐 */
+    .next = &TextGlyphs_Talk_E8AF8D,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B590Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E881AA = { /* 聪 */
+    .next = &TextGlyphs_Talk_E8B590,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E881AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58C86 = { /* 匆 */
+    .next = &TextGlyphs_Talk_E588BA,
+    .width = 12,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58C86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB8E = { /* 从 */
+    .next = &TextGlyphs_Talk_E4B8B2,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AA9C = { /* 窜 */
+    .next = &TextGlyphs_Talk_E7BAAF,
+    .width = 12,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AA9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E691A7 = { /* 摧 */
+    .next = &TextGlyphs_Talk_E6ADA4,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E691A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B494 = { /* 崔 */
+    .next = &TextGlyphs_Talk_E58C86,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B494Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88486 = { /* 脆 */
+    .next = &TextGlyphs_Talk_E881AA,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88486Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79881 = { /* 瘁 */
+    .next = &TextGlyphs_Talk_E7AA9C,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79881Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B2B9 = { /* 粹 */
+    .next = &TextGlyphs_Talk_E79881,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B2B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A38B = { /* 磋 */
+    .next = &TextGlyphs_Talk_E7B2B9,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A38BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69093 = { /* 搓 */
+    .next = &TextGlyphs_Talk_E691A7,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69093Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99499 = { /* 错 */
+    .next = &TextGlyphs_Talk_E99B8C,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99499Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E690AD = { /* 搭 */
+    .next = &TextGlyphs_Talk_E69093,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E690ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BEBE = { /* 达 */
+    .next = &TextGlyphs_Talk_E88486,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BEBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ADB9 = { /* 歹 */
+    .next = &TextGlyphs_Talk_E690AD,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ADB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E688B4 = { /* 戴 */
+    .next = &TextGlyphs_Talk_E6ADB9,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E688B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B8A6 = { /* 带 */
+    .next = &TextGlyphs_Talk_E5B494,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B8A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E980AE = { /* 逮 */
+    .next = &TextGlyphs_Talk_E99499,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E980AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D95 = { /* 单 */
+    .next = &TextGlyphs_Talk_E5B8A6,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88386 = { /* 胆 */
+    .next = &TextGlyphs_Talk_E8BEBE,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88386Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E697A6 = { /* 旦 */
+    .next = &TextGlyphs_Talk_E688B4,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E697A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BD86 = { /* 但 */
+    .next = &TextGlyphs_Talk_E4BB8E,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BD86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B7A1 = { /* 淡 */
+    .next = &TextGlyphs_Talk_E697A6,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B7A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF9E = { /* 诞 */
+    .next = &TextGlyphs_Talk_E88386,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89B8B = { /* 蛋 */
+    .next = &TextGlyphs_Talk_E8AF9E,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89B8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68CA1 = { /* 挡 */
+    .next = &TextGlyphs_Talk_E6B7A1,
+    .width = 12,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68CA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88DA1 = { /* 荡 */
+    .next = &TextGlyphs_Talk_E89B8B,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88DA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A1A3 = { /* 档 */
+    .next = &TextGlyphs_Talk_E68CA1,
+    .width = 12,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A1A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68DA3 = { /* 捣 */
+    .next = &TextGlyphs_Talk_E6A1A3,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68DA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B988 = { /* 蹈 */
+    .next = &TextGlyphs_Talk_E88DA1,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B988Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B29B = { /* 岛 */
+    .next = &TextGlyphs_Talk_E58D95,
+    .width = 12,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B29BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A5B7 = { /* 祷 */
+    .next = &TextGlyphs_Talk_E7A38B,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A5B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AFBC = { /* 导 */
+    .next = &TextGlyphs_Talk_E5B29B,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AFBCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BEB7 = { /* 德 */
+    .next = &TextGlyphs_Talk_E5AFBC,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BEB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B9AC = { /* 蹬 */
+    .next = &TextGlyphs_Talk_E8B988,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B9ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E781AF = { /* 灯 */
+    .next = &TextGlyphs_Talk_E7A5B7,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E781AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E799BB = { /* 登 */
+    .next = &TextGlyphs_Talk_E781AF,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E799BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79EAA = { /* 瞪 */
+    .next = &TextGlyphs_Talk_E799BB,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79EAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BFAA = { /* 迪 */
+    .next = &TextGlyphs_Talk_E8B9AC,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BFAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6958C = { /* 敌 */
+    .next = &TextGlyphs_Talk_E68DA3,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6958CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89282 = { /* 蒂 */
+    .next = &TextGlyphs_Talk_E8BFAA,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89282Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC94 = { /* 缔 */
+    .next = &TextGlyphs_Talk_E79EAA,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A2A0 = { /* 颠 */
+    .next = &TextGlyphs_Talk_E980AE,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A2A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59EAB = { /* 垫 */
+    .next = &TextGlyphs_Talk_E5BEB7,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59EABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E794B5 = { /* 电 */
+    .next = &TextGlyphs_Talk_E7BC94,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E794B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58881 = { /* 刁 */
+    .next = &TextGlyphs_Talk_E59EAB,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58881Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68E89 = { /* 掉 */
+    .next = &TextGlyphs_Talk_E6958C,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68E89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5908A = { /* 吊 */
+    .next = &TextGlyphs_Talk_E58881,
+    .width = 12,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5908ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99293 = { /* 钓 */
+    .next = &TextGlyphs_Talk_E9A2A0,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99293Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B083 = { /* 调 */
+    .next = &TextGlyphs_Talk_E89282,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B083Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B78C = { /* 跌 */
+    .next = &TextGlyphs_Talk_E8B083,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B78CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A29F = { /* 碟 */
+    .next = &TextGlyphs_Talk_E794B5,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A29FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89DB6 = { /* 蝶 */
+    .next = &TextGlyphs_Talk_E8B78C,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89DB6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B08D = { /* 谍 */
+    .next = &TextGlyphs_Talk_E89DB6,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B08DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79BAF = { /* 盯 */
+    .next = &TextGlyphs_Talk_E7A29F,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79BAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99289 = { /* 钉 */
+    .next = &TextGlyphs_Talk_E99293,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99289Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A1B6 = { /* 顶 */
+    .next = &TextGlyphs_Talk_E99289,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A1B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEA2 = { /* 订 */
+    .next = &TextGlyphs_Talk_E8B08D,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8A2 = { /* 丢 */
+    .next = &TextGlyphs_Talk_E4BD86,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B89C = { /* 东 */
+    .next = &TextGlyphs_Talk_E4B8A2,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B89CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68782 = { /* 懂 */
+    .next = &TextGlyphs_Talk_E68E89,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68782Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58AA8 = { /* 动 */
+    .next = &TextGlyphs_Talk_E5908A,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58AA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E586BB = { /* 冻 */
+    .next = &TextGlyphs_Talk_E58AA8,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E586BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5859C = { /* 兜 */
+    .next = &TextGlyphs_Talk_E586BB,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5859CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68A96 = { /* 抖 */
+    .next = &TextGlyphs_Talk_E68782,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68A96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69697 = { /* 斗 */
+    .next = &TextGlyphs_Talk_E68A96,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69697Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98097 = { /* 逗 */
+    .next = &TextGlyphs_Talk_E9A1B6,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98097Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFBB = { /* 读 */
+    .next = &TextGlyphs_Talk_E8AEA2,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A0B5 = { /* 堵 */
+    .next = &TextGlyphs_Talk_E5859C,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A0B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B58C = { /* 赌 */
+    .next = &TextGlyphs_Talk_E8AFBB,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B58CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8829A = { /* 肚 */
+    .next = &TextGlyphs_Talk_E8B58C,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8829ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A692 = { /* 妒 */
+    .next = &TextGlyphs_Talk_E5A0B5,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A692Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E994BB = { /* 锻 */
+    .next = &TextGlyphs_Talk_E98097,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E994BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A086 = { /* 堆 */
+    .next = &TextGlyphs_Talk_E5A692,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A086Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9989F = { /* 队 */
+    .next = &TextGlyphs_Talk_E994BB,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9989FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AFB9 = { /* 对 */
+    .next = &TextGlyphs_Talk_E5A086,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AFB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A1BF = { /* 顿 */
+    .next = &TextGlyphs_Talk_E9989F,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A1BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9929D = { /* 钝 */
+    .next = &TextGlyphs_Talk_E9A1BF,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9929DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A4BA = { /* 夺 */
+    .next = &TextGlyphs_Talk_E5AFB9,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A4BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BAB2 = { /* 躲 */
+    .next = &TextGlyphs_Talk_E8829A,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BAB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69CB5 = { /* 朵 */
+    .next = &TextGlyphs_Talk_E69697,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69CB5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A095 = { /* 堕 */
+    .next = &TextGlyphs_Talk_E5A4BA,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A095Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E681B6 = { /* 恶 */
+    .next = &TextGlyphs_Talk_E69CB5,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E681B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A5BF = { /* 饿 */
+    .next = &TextGlyphs_Talk_E9929D,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A5BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8808C = { /* 而 */
+    .next = &TextGlyphs_Talk_E8BAB2,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8808CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E584BF = { /* 儿 */
+    .next = &TextGlyphs_Talk_E5A095,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E584BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B094 = { /* 尔 */
+    .next = &TextGlyphs_Talk_E584BF,
+    .width = 12,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B094Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58F91 = { /* 发 */
+    .next = &TextGlyphs_Talk_E5B094,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58F91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BD9A = { /* 罚 */
+    .next = &TextGlyphs_Talk_E79BAF,
+    .width = 12,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BD9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78F90 = { /* 珐 */
+    .next = &TextGlyphs_Talk_E7BD9A,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78F90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BFBB = { /* 翻 */
+    .next = &TextGlyphs_Talk_E78F90,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BFBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E783A6 = { /* 烦 */
+    .next = &TextGlyphs_Talk_E7BFBB,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E783A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88C83 = { /* 范 */
+    .next = &TextGlyphs_Talk_E8808C,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88C83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78AAF = { /* 犯 */
+    .next = &TextGlyphs_Talk_E783A6,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78AAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A5AD = { /* 饭 */
+    .next = &TextGlyphs_Talk_E9A5BF,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A5ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88AB3 = { /* 芳 */
+    .next = &TextGlyphs_Talk_E88C83,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88AB3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E688BF = { /* 房 */
+    .next = &TextGlyphs_Talk_E681B6,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E688BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A6A8 = { /* 妨 */
+    .next = &TextGlyphs_Talk_E58F91,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A6A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BBBF = { /* 仿 */
+    .next = &TextGlyphs_Talk_E4B89C,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BBBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEBF = { /* 访 */
+    .next = &TextGlyphs_Talk_E88AB3,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88FB2 = { /* 菲 */
+    .next = &TextGlyphs_Talk_E8AEBF,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88FB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A39E = { /* 飞 */
+    .next = &TextGlyphs_Talk_E9A5AD,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A39ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58CAA = { /* 匪 */
+    .next = &TextGlyphs_Talk_E5A6A8,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58CAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BA9F = { /* 废 */
+    .next = &TextGlyphs_Talk_E58CAA,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BA9FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B2B8 = { /* 沸 */
+    .next = &TextGlyphs_Talk_E688BF,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B2B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4B9 = { /* 费 */
+    .next = &TextGlyphs_Talk_E88FB2,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88AAC = { /* 芬 */
+    .next = &TextGlyphs_Talk_E8B4B9,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88AACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E590A9 = { /* 吩 */
+    .next = &TextGlyphs_Talk_E5BA9F,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E590A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B09B = { /* 氛 */
+    .next = &TextGlyphs_Talk_E6B2B8,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B09BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B289 = { /* 粉 */
+    .next = &TextGlyphs_Talk_E78AAF,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B289Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A58B = { /* 奋 */
+    .next = &TextGlyphs_Talk_E590A9,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A58BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BBBD = { /* 份 */
+    .next = &TextGlyphs_Talk_E4BBBF,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BBBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E684A4 = { /* 愤 */
+    .next = &TextGlyphs_Talk_E6B09B,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E684A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8B0 = { /* 丰 */
+    .next = &TextGlyphs_Talk_E4BBBD,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9948B = { /* 锋 */
+    .next = &TextGlyphs_Talk_E9A39E,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9948BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A38E = { /* 风 */
+    .next = &TextGlyphs_Talk_E9948B,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A38ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E796AF = { /* 疯 */
+    .next = &TextGlyphs_Talk_E7B289,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E796AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E980A2 = { /* 逢 */
+    .next = &TextGlyphs_Talk_E9A38E,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E980A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC9D = { /* 缝 */
+    .next = &TextGlyphs_Talk_E796AF,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC9DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEBD = { /* 讽 */
+    .next = &TextGlyphs_Talk_E88AAC,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A589 = { /* 奉 */
+    .next = &TextGlyphs_Talk_E5A58B,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A589Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E882A4 = { /* 肤 */
+    .next = &TextGlyphs_Talk_E8AEBD,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E882A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689B6 = { /* 扶 */
+    .next = &TextGlyphs_Talk_E684A4,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68B82 = { /* 拂 */
+    .next = &TextGlyphs_Talk_E689B6,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68B82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7ACA6 = { /* 符 */
+    .next = &TextGlyphs_Talk_E7BC9D,
+    .width = 13,
+    .utf_byte_2 = 0xac,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7ACA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BF98 = { /* 俘 */
+    .next = &TextGlyphs_Talk_E4B8B0,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BF98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BC97 = { /* 弗 */
+    .next = &TextGlyphs_Talk_E5A589,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BC97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68A9A = { /* 抚 */
+    .next = &TextGlyphs_Talk_E68B82,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68A9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BE85 = { /* 辅 */
+    .next = &TextGlyphs_Talk_E882A4,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BE85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BFAF = { /* 俯 */
+    .next = &TextGlyphs_Talk_E4BF98,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BFAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E589AF = { /* 副 */
+    .next = &TextGlyphs_Talk_E5BC97,
+    .width = 12,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E589AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A686 = { /* 覆 */
+    .next = &TextGlyphs_Talk_E8BE85,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A686Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B58B = { /* 赋 */
+    .next = &TextGlyphs_Talk_E8A686,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B58BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A48D = { /* 复 */
+    .next = &TextGlyphs_Talk_E589AF,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A48DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B49F = { /* 负 */
+    .next = &TextGlyphs_Talk_E8B58B,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B49FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99984 = { /* 附 */
+    .next = &TextGlyphs_Talk_E980A2,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99984Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A687 = { /* 妇 */
+    .next = &TextGlyphs_Talk_E5A48D,
+    .width = 12,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A687Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC9A = { /* 缚 */
+    .next = &TextGlyphs_Talk_E7ACA6,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59290 = { /* 咐 */
+    .next = &TextGlyphs_Talk_E5A687,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59290Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFA5 = { /* 该 */
+    .next = &TextGlyphs_Talk_E8B49F,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A682 = { /* 概 */
+    .next = &TextGlyphs_Talk_E68A9A,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A682Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79B96 = { /* 盖 */
+    .next = &TextGlyphs_Talk_E7BC9A,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79B96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69D86 = { /* 杆 */
+    .next = &TextGlyphs_Talk_E6A682,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69D86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B5B6 = { /* 赶 */
+    .next = &TextGlyphs_Talk_E8AFA5,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B5B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E695A2 = { /* 敢 */
+    .next = &TextGlyphs_Talk_E69D86,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E695A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58688 = { /* 冈 */
+    .next = &TextGlyphs_Talk_E59290,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58688Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5889A = { /* 刚 */
+    .next = &TextGlyphs_Talk_E58688,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5889ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E992A2 = { /* 钢 */
+    .next = &TextGlyphs_Talk_E99984,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E992A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8868F = { /* 膏 */
+    .next = &TextGlyphs_Talk_E8B5B6,
+    .width = 12,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8868FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BE94 = { /* 羔 */
+    .next = &TextGlyphs_Talk_E79B96,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BE94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B395 = { /* 糕 */
+    .next = &TextGlyphs_Talk_E7BE94,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B395Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6909E = { /* 搞 */
+    .next = &TextGlyphs_Talk_E695A2,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6909ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E593A5 = { /* 哥 */
+    .next = &TextGlyphs_Talk_E5889A,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E593A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68888 = { /* 戈 */
+    .next = &TextGlyphs_Talk_E6909E,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68888Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8919B = { /* 葛 */
+    .next = &TextGlyphs_Talk_E8868F,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8919BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99881 = { /* 阁 */
+    .next = &TextGlyphs_Talk_E992A2,
+    .width = 12,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99881Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99A94 = { /* 隔 */
+    .next = &TextGlyphs_Talk_E99881,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99A94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8AA = { /* 个 */
+    .next = &TextGlyphs_Talk_E4BFAF,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB99 = { /* 给 */
+    .next = &TextGlyphs_Talk_E7B395,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B79F = { /* 跟 */
+    .next = &TextGlyphs_Talk_E8919B,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B79FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88095 = { /* 耕 */
+    .next = &TextGlyphs_Talk_E8B79F,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88095Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E880BF = { /* 耿 */
+    .next = &TextGlyphs_Talk_E88095,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E880BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B7A5 = { /* 工 */
+    .next = &TextGlyphs_Talk_E593A5,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B7A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E681AD = { /* 恭 */
+    .next = &TextGlyphs_Talk_E68888,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E681ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BAAC = { /* 躬 */
+    .next = &TextGlyphs_Talk_E880BF,
+    .width = 12,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BAACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AEAB = { /* 宫 */
+    .next = &TextGlyphs_Talk_E5B7A5,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AEABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B7A9 = { /* 巩 */
+    .next = &TextGlyphs_Talk_E5AEAB,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B7A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4A1 = { /* 贡 */
+    .next = &TextGlyphs_Talk_E8BAAC,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58BBE = { /* 勾 */
+    .next = &TextGlyphs_Talk_E5B7A9,
+    .width = 12,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58BBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78B97 = { /* 狗 */
+    .next = &TextGlyphs_Talk_E7BB99,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78B97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69E84 = { /* 构 */
+    .next = &TextGlyphs_Talk_E681AD,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69E84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4AD = { /* 购 */
+    .next = &TextGlyphs_Talk_E8B4A1,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A49F = { /* 够 */
+    .next = &TextGlyphs_Talk_E58BBE,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A49FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BE9C = { /* 辜 */
+    .next = &TextGlyphs_Talk_E8B4AD,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BE9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BCB0 = { /* 估 */
+    .next = &TextGlyphs_Talk_E4B8AA,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BCB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A791 = { /* 姑 */
+    .next = &TextGlyphs_Talk_E5A49F,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A791Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BC93 = { /* 鼓 */
+    .next = &TextGlyphs_Talk_E99A94,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BC93Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E882A1 = { /* 股 */
+    .next = &TextGlyphs_Talk_E8BE9C,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E882A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A1BE = { /* 顾 */
+    .next = &TextGlyphs_Talk_E9BC93,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A1BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E588AE = { /* 刮 */
+    .next = &TextGlyphs_Talk_E5A791,
+    .width = 12,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E588AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7939C = { /* 瓜 */
+    .next = &TextGlyphs_Talk_E78B97,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7939CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68C82 = { /* 挂 */
+    .next = &TextGlyphs_Talk_E69E84,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68C82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B996 = { /* 乖 */
+    .next = &TextGlyphs_Talk_E4BCB0,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B996Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A3BA = { /* 棺 */
+    .next = &TextGlyphs_Talk_E68C82,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A3BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585B3 = { /* 关 */
+    .next = &TextGlyphs_Talk_E588AE,
+    .width = 12,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A782 = { /* 观 */
+    .next = &TextGlyphs_Talk_E882A1,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A782Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A686 = { /* 馆 */
+    .next = &TextGlyphs_Talk_E9A1BE,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A686Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BD90 = { /* 罐 */
+    .next = &TextGlyphs_Talk_E7939C,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BD90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E683AF = { /* 惯 */
+    .next = &TextGlyphs_Talk_E6A3BA,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E683AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7818C = { /* 灌 */
+    .next = &TextGlyphs_Talk_E7BD90,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7818CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4AF = { /* 贯 */
+    .next = &TextGlyphs_Talk_E8A782,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B9BF = { /* 广 */
+    .next = &TextGlyphs_Talk_E585B3,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B9BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A784 = { /* 规 */
+    .next = &TextGlyphs_Talk_E8B4AF,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A784Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BD92 = { /* 归 */
+    .next = &TextGlyphs_Talk_E5B9BF,
+    .width = 12,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BD92Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDA8 = { /* 轨 */
+    .next = &TextGlyphs_Talk_E8A784,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFA1 = { /* 诡 */
+    .next = &TextGlyphs_Talk_E8BDA8,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4B5 = { /* 贵 */
+    .next = &TextGlyphs_Talk_E8AFA1,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BB9A = { /* 滚 */
+    .next = &TextGlyphs_Talk_E683AF,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BB9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF87 = { /* 过 */
+    .next = &TextGlyphs_Talk_E8B4B5,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59388 = { /* 哈 */
+    .next = &TextGlyphs_Talk_E5BD92,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59388Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5ADA9 = { /* 孩 */
+    .next = &TextGlyphs_Talk_E59388,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5ADA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA87 = { /* 骇 */
+    .next = &TextGlyphs_Talk_E9A686,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E590AB = { /* 含 */
+    .next = &TextGlyphs_Talk_E5ADA9,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E590ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5968A = { /* 喊 */
+    .next = &TextGlyphs_Talk_E590AB,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5968ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BD95 = { /* 罕 */
+    .next = &TextGlyphs_Talk_E7818C,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BD95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BFB0 = { /* 翰 */
+    .next = &TextGlyphs_Talk_E7BD95,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BFB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E692BC = { /* 撼 */
+    .next = &TextGlyphs_Talk_E6BB9A,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E692BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E686BE = { /* 憾 */
+    .next = &TextGlyphs_Talk_E692BC,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E686BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6828D = { /* 悍 */
+    .next = &TextGlyphs_Talk_E686BE,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6828DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B189 = { /* 汉 */
+    .next = &TextGlyphs_Talk_E6828D,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B189Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E888AA = { /* 航 */
+    .next = &TextGlyphs_Talk_E8BF87,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E888AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59A8E = { /* 嚎 */
+    .next = &TextGlyphs_Talk_E5968A,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59A8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6AFAB = { /* 毫 */
+    .next = &TextGlyphs_Talk_E6B189,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6AFABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88097 = { /* 耗 */
+    .next = &TextGlyphs_Talk_E888AA,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88097Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E591B5 = { /* 呵 */
+    .next = &TextGlyphs_Talk_E59A8E,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E591B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5969D = { /* 喝 */
+    .next = &TextGlyphs_Talk_E591B5,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5969DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B5AB = { /* 赫 */
+    .next = &TextGlyphs_Talk_E88097,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B5ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4BA = { /* 贺 */
+    .next = &TextGlyphs_Talk_E8B5AB,
+    .width = 12,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E598BF = { /* 嘿 */
+    .next = &TextGlyphs_Talk_E5969D,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E598BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BB91 = { /* 黑 */
+    .next = &TextGlyphs_Talk_E9AA87,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BB91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79795 = { /* 痕 */
+    .next = &TextGlyphs_Talk_E7BFB0,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79795Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BE88 = { /* 很 */
+    .next = &TextGlyphs_Talk_E598BF,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BE88Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78BA0 = { /* 狠 */
+    .next = &TextGlyphs_Talk_E79795,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78BA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E593BC = { /* 哼 */
+    .next = &TextGlyphs_Talk_E5BE88,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E593BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A1A1 = { /* 衡 */
+    .next = &TextGlyphs_Talk_E8B4BA,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A1A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68192 = { /* 恒 */
+    .next = &TextGlyphs_Talk_E6AFAB,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68192Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDB0 = { /* 轰 */
+    .next = &TextGlyphs_Talk_E8A1A1,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE8F = { /* 宏 */
+    .next = &TextGlyphs_Talk_E593BC,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAA2 = { /* 红 */
+    .next = &TextGlyphs_Talk_E78BA0,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5908E = { /* 后 */
+    .next = &TextGlyphs_Talk_E5AE8F,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5908ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B98E = { /* 乎 */
+    .next = &TextGlyphs_Talk_E4B996,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B98ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BFBD = { /* 忽 */
+    .next = &TextGlyphs_Talk_E5908E,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BFBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E883A1 = { /* 胡 */
+    .next = &TextGlyphs_Talk_E8BDB0,
+    .width = 12,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E883A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89DB4 = { /* 蝴 */
+    .next = &TextGlyphs_Talk_E883A1,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89DB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B38A = { /* 糊 */
+    .next = &TextGlyphs_Talk_E7BAA2,
+    .width = 12,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B38ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68AA4 = { /* 护 */
+    .next = &TextGlyphs_Talk_E68192,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68AA4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E688B7 = { /* 户 */
+    .next = &TextGlyphs_Talk_E68AA4,
+    .width = 12,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E688B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D8E = { /* 华 */
+    .next = &TextGlyphs_Talk_E5BFBD,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78CBE = { /* 猾 */
+    .next = &TextGlyphs_Talk_E7B38A,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78CBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58892 = { /* 划 */
+    .next = &TextGlyphs_Talk_E58D8E,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58892Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF9D = { /* 话 */
+    .next = &TextGlyphs_Talk_E89DB4,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF9DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BE8A = { /* 徊 */
+    .next = &TextGlyphs_Talk_E58892,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BE8ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68080 = { /* 怀 */
+    .next = &TextGlyphs_Talk_E688B7,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68080Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D8F = { /* 坏 */
+    .next = &TextGlyphs_Talk_E5BE8A,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ACA2 = { /* 欢 */
+    .next = &TextGlyphs_Talk_E68080,
+    .width = 13,
+    .utf_byte_2 = 0xac,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ACA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78EAF = { /* 环 */
+    .next = &TextGlyphs_Talk_E78CBE,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78EAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF98 = { /* 还 */
+    .next = &TextGlyphs_Talk_E8AF9D,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC93 = { /* 缓 */
+    .next = &TextGlyphs_Talk_E78EAF,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC93Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68DA2 = { /* 换 */
+    .next = &TextGlyphs_Talk_E6ACA2,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68DA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E682A3 = { /* 患 */
+    .next = &TextGlyphs_Talk_E68DA2,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E682A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E594A4 = { /* 唤 */
+    .next = &TextGlyphs_Talk_E59D8F,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E594A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B6A3 = { /* 涣 */
+    .next = &TextGlyphs_Talk_E682A3,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B6A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6858C = { /* 慌 */
+    .next = &TextGlyphs_Talk_E6B6A3,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6858CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E683B6 = { /* 惶 */
+    .next = &TextGlyphs_Talk_E6858C,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E683B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69983 = { /* 晃 */
+    .next = &TextGlyphs_Talk_E683B6,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69983Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B08E = { /* 谎 */
+    .next = &TextGlyphs_Talk_E8BF98,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B08ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68CA5 = { /* 挥 */
+    .next = &TextGlyphs_Talk_E69983,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68CA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BE89 = { /* 辉 */
+    .next = &TextGlyphs_Talk_E8B08E,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BE89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E681A2 = { /* 恢 */
+    .next = &TextGlyphs_Talk_E68CA5,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E681A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6AF81 = { /* 毁 */
+    .next = &TextGlyphs_Talk_E681A2,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6AF81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E685A7 = { /* 慧 */
+    .next = &TextGlyphs_Talk_E6AF81,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E685A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E683A0 = { /* 惠 */
+    .next = &TextGlyphs_Talk_E685A7,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E683A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4BF = { /* 贿 */
+    .next = &TextGlyphs_Talk_E8BE89,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B187 = { /* 汇 */
+    .next = &TextGlyphs_Talk_E683A0,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B187Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFB2 = { /* 诲 */
+    .next = &TextGlyphs_Talk_E8B4BF,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB98 = { /* 绘 */
+    .next = &TextGlyphs_Talk_E7BC93,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6988F = { /* 昏 */
+    .next = &TextGlyphs_Talk_E6B187,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6988FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BC99 = { /* 伙 */
+    .next = &TextGlyphs_Talk_E4B98E,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BC99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88EB7 = { /* 获 */
+    .next = &TextGlyphs_Talk_E8AFB2,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88EB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68896 = { /* 或 */
+    .next = &TextGlyphs_Talk_E6988F,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68896Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4A7 = { /* 货 */
+    .next = &TextGlyphs_Talk_E88EB7,
+    .width = 12,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A5B8 = { /* 祸 */
+    .next = &TextGlyphs_Talk_E7BB98,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A5B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E587BB = { /* 击 */
+    .next = &TextGlyphs_Talk_E594A4,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E587BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59CBE = { /* 圾 */
+    .next = &TextGlyphs_Talk_E587BB,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59CBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69CBA = { /* 机 */
+    .next = &TextGlyphs_Talk_E68896,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69CBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A7AF = { /* 积 */
+    .next = &TextGlyphs_Talk_E7A5B8,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A7AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A5A5 = { /* 饥 */
+    .next = &TextGlyphs_Talk_E9BB91,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A5A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BFB9 = { /* 迹 */
+    .next = &TextGlyphs_Talk_E8B4A7,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BFB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B8A1 = { /* 鸡 */
+    .next = &TextGlyphs_Talk_E9A5A5,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B8A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A7AC = { /* 姬 */
+    .next = &TextGlyphs_Talk_E59CBE,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A7ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBA9 = { /* 绩 */
+    .next = &TextGlyphs_Talk_E7A7AF,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC89 = { /* 缉 */
+    .next = &TextGlyphs_Talk_E7BBA9,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69E81 = { /* 极 */
+    .next = &TextGlyphs_Talk_E69CBA,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69E81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A398 = { /* 棘 */
+    .next = &TextGlyphs_Talk_E69E81,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A398Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B18D = { /* 籍 */
+    .next = &TextGlyphs_Talk_E7BC89,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B18DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58F8A = { /* 及 */
+    .next = &TextGlyphs_Talk_E5A7AC,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58F8ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAA7 = { /* 级 */
+    .next = &TextGlyphs_Talk_E7B18D,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E587A0 = { /* 几 */
+    .next = &TextGlyphs_Talk_E58F8A,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E587A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BC8E = { /* 伎 */
+    .next = &TextGlyphs_Talk_E4BC99,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BC8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B58E = { /* 济 */
+    .next = &TextGlyphs_Talk_E6A398,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B58ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AF82 = { /* 寂 */
+    .next = &TextGlyphs_Talk_E587A0,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AF82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEA1 = { /* 计 */
+    .next = &TextGlyphs_Talk_E8BFB9,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEB0 = { /* 记 */
+    .next = &TextGlyphs_Talk_E8AEA1,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E697A2 = { /* 既 */
+    .next = &TextGlyphs_Talk_E6B58E,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E697A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99985 = { /* 际 */
+    .next = &TextGlyphs_Talk_E9B8A1,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99985Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBA7 = { /* 继 */
+    .next = &TextGlyphs_Talk_E7BAA7,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAAA = { /* 纪 */
+    .next = &TextGlyphs_Talk_E7BBA7,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59889 = { /* 嘉 */
+    .next = &TextGlyphs_Talk_E5AF82,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59889Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A4B9 = { /* 夹 */
+    .next = &TextGlyphs_Talk_E59889,
+    .width = 12,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A4B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BDB3 = { /* 佳 */
+    .next = &TextGlyphs_Talk_E4BC8E,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BDB3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58187 = { /* 假 */
+    .next = &TextGlyphs_Talk_E5A4B9,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58187Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BBB7 = { /* 价 */
+    .next = &TextGlyphs_Talk_E4BDB3,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BBB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69EB6 = { /* 架 */
+    .next = &TextGlyphs_Talk_E697A2,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69EB6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A9BE = { /* 驾 */
+    .next = &TextGlyphs_Talk_E99985,
+    .width = 12,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A9BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ADBC = { /* 歼 */
+    .next = &TextGlyphs_Talk_E69EB6,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ADBCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79B91 = { /* 监 */
+    .next = &TextGlyphs_Talk_E7BAAA,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79B91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D9A = { /* 坚 */
+    .next = &TextGlyphs_Talk_E58187,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B096 = { /* 尖 */
+    .next = &TextGlyphs_Talk_E59D9A,
+    .width = 12,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B096Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997B4 = { /* 间 */
+    .next = &TextGlyphs_Talk_E9A9BE,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585BC = { /* 兼 */
+    .next = &TextGlyphs_Talk_E5B096,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E889B0 = { /* 艰 */
+    .next = &TextGlyphs_Talk_E8AEB0,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E889B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A5B8 = { /* 奸 */
+    .next = &TextGlyphs_Talk_E585BC,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A5B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68DA1 = { /* 捡 */
+    .next = &TextGlyphs_Talk_E6ADBC,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68DA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AE80 = { /* 简 */
+    .next = &TextGlyphs_Talk_E79B91,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AE80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5878F = { /* 减 */
+    .next = &TextGlyphs_Talk_E5A5B8,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5878FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88D90 = { /* 荐 */
+    .next = &TextGlyphs_Talk_E889B0,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88D90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4B1 = { /* 贱 */
+    .next = &TextGlyphs_Talk_E88D90,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A781 = { /* 见 */
+    .next = &TextGlyphs_Talk_E8B4B1,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A781Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E994AE = { /* 键 */
+    .next = &TextGlyphs_Talk_E997B4,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E994AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AEAD = { /* 箭 */
+    .next = &TextGlyphs_Talk_E7AE80,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AEADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58991 = { /* 剑 */
+    .next = &TextGlyphs_Talk_E5878F,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58991Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B890 = { /* 渐 */
+    .next = &TextGlyphs_Talk_E68DA1,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B890Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A596 = { /* 奖 */
+    .next = &TextGlyphs_Talk_E58991,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A596Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEB2 = { /* 讲 */
+    .next = &TextGlyphs_Talk_E8A781,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA84 = { /* 骄 */
+    .next = &TextGlyphs_Talk_E994AE,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A887 = { /* 娇 */
+    .next = &TextGlyphs_Talk_E5A596,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A887Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69085 = { /* 搅 */
+    .next = &TextGlyphs_Talk_E6B890,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69085Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BEA5 = { /* 侥 */
+    .next = &TextGlyphs_Talk_E4BBB7,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BEA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8849A = { /* 脚 */
+    .next = &TextGlyphs_Talk_E8AEB2,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8849ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78BA1 = { /* 狡 */
+    .next = &TextGlyphs_Talk_E7AEAD,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78BA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E589BF = { /* 剿 */
+    .next = &TextGlyphs_Talk_E5A887,
+    .width = 12,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E589BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BE83 = { /* 较 */
+    .next = &TextGlyphs_Talk_E8849A,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BE83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E998B6 = { /* 阶 */
+    .next = &TextGlyphs_Talk_E9AA84,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E998B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58AAB = { /* 劫 */
+    .next = &TextGlyphs_Talk_E589BF,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58AABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88A82 = { /* 节 */
+    .next = &TextGlyphs_Talk_E8BE83,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88A82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69DB0 = { /* 杰 */
+    .next = &TextGlyphs_Talk_E69085,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69DB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68DB7 = { /* 捷 */
+    .next = &TextGlyphs_Talk_E69DB0,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68DB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7ABAD = { /* 竭 */
+    .next = &TextGlyphs_Talk_E78BA1,
+    .width = 13,
+    .utf_byte_2 = 0xab,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7ABADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B481 = { /* 洁 */
+    .next = &TextGlyphs_Talk_E68DB7,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B481Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB93 = { /* 结 */
+    .next = &TextGlyphs_Talk_E7ABAD,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB93Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A790 = { /* 姐 */
+    .next = &TextGlyphs_Talk_E58AAB,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A790Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B4A5 = { /* 津 */
+    .next = &TextGlyphs_Talk_E6B481,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B4A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B4A7 = { /* 紧 */
+    .next = &TextGlyphs_Talk_E7BB93,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B4A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB85 = { /* 仅 */
+    .next = &TextGlyphs_Talk_E4BEA5,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B0A8 = { /* 谨 */
+    .next = &TextGlyphs_Talk_E88A82,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B0A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF9B = { /* 进 */
+    .next = &TextGlyphs_Talk_E8B0A8,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6998B = { /* 晋 */
+    .next = &TextGlyphs_Talk_E6B4A5,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6998BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E783AC = { /* 烬 */
+    .next = &TextGlyphs_Talk_E7B4A7,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E783ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B5B8 = { /* 浸 */
+    .next = &TextGlyphs_Talk_E6998B,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B5B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58AB2 = { /* 劲 */
+    .next = &TextGlyphs_Talk_E5A790,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58AB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79D9B = { /* 睛 */
+    .next = &TextGlyphs_Talk_E783AC,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79D9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6838A = { /* 惊 */
+    .next = &TextGlyphs_Talk_E6B5B8,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6838ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB8F = { /* 经 */
+    .next = &TextGlyphs_Talk_E79D9B,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BA95 = { /* 井 */
+    .next = &TextGlyphs_Talk_E4BB85,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BA95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9959C = { /* 镜 */
+    .next = &TextGlyphs_Talk_E998B6,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9959CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AB9F = { /* 竟 */
+    .next = &TextGlyphs_Talk_E7BB8F,
+    .width = 13,
+    .utf_byte_2 = 0xab,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AB9FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AB9E = { /* 竞 */
+    .next = &TextGlyphs_Talk_E7AB9F,
+    .width = 13,
+    .utf_byte_2 = 0xab,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AB9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58780 = { /* 净 */
+    .next = &TextGlyphs_Talk_E58AB2,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58780Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68FAA = { /* 揪 */
+    .next = &TextGlyphs_Talk_E6838A,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68FAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAA0 = { /* 纠 */
+    .next = &TextGlyphs_Talk_E7AB9E,
+    .width = 12,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88885 = { /* 舅 */
+    .next = &TextGlyphs_Talk_E8BF9B,
+    .width = 12,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88885Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B0B1 = { /* 就 */
+    .next = &TextGlyphs_Talk_E58780,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B0B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99EA0 = { /* 鞠 */
+    .next = &TextGlyphs_Talk_E9959C,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99EA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68B98 = { /* 拘 */
+    .next = &TextGlyphs_Talk_E68FAA,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68B98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79FA9 = { /* 矩 */
+    .next = &TextGlyphs_Talk_E7BAA0,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79FA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8BE = { /* 举 */
+    .next = &TextGlyphs_Talk_E4BA95,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B2AE = { /* 沮 */
+    .next = &TextGlyphs_Talk_E68B98,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B2AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8819A = { /* 聚 */
+    .next = &TextGlyphs_Talk_E88885,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8819ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68DAE = { /* 据 */
+    .next = &TextGlyphs_Talk_E6B2AE,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68DAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B89E = { /* 踞 */
+    .next = &TextGlyphs_Talk_E8819A,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B89ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E683A7 = { /* 惧 */
+    .next = &TextGlyphs_Talk_E68DAE,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E683A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E589A7 = { /* 剧 */
+    .next = &TextGlyphs_Talk_E5B0B1,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E589A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E580A6 = { /* 倦 */
+    .next = &TextGlyphs_Talk_E589A7,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E580A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79CB7 = { /* 眷 */
+    .next = &TextGlyphs_Talk_E79FA9,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79CB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58DB7 = { /* 卷 */
+    .next = &TextGlyphs_Talk_E580A6,
+    .width = 12,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58DB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A789 = { /* 觉 */
+    .next = &TextGlyphs_Talk_E8B89E,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A789Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E586B3 = { /* 决 */
+    .next = &TextGlyphs_Talk_E58DB7,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E586B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF80 = { /* 诀 */
+    .next = &TextGlyphs_Talk_E8A789,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB9D = { /* 绝 */
+    .next = &TextGlyphs_Talk_E79CB7,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB9DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D87 = { /* 均 */
+    .next = &TextGlyphs_Talk_E586B3,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5869B = { /* 军 */
+    .next = &TextGlyphs_Talk_E59D87,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5869BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B3BB = { /* 峻 */
+    .next = &TextGlyphs_Talk_E5869B,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B3BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BF8A = { /* 俊 */
+    .next = &TextGlyphs_Talk_E4B8BE,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BF8ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58DA1 = { /* 卡 */
+    .next = &TextGlyphs_Talk_E5B3BB,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58DA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E592AF = { /* 咯 */
+    .next = &TextGlyphs_Talk_E58DA1,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E592AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BC80 = { /* 开 */
+    .next = &TextGlyphs_Talk_E592AF,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BC80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A5B7 = { /* 楷 */
+    .next = &TextGlyphs_Talk_E683A7,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A5B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E587AF = { /* 凯 */
+    .next = &TextGlyphs_Talk_E5BC80,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E587AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E685A8 = { /* 慨 */
+    .next = &TextGlyphs_Talk_E6A5B7,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E685A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A0AA = { /* 堪 */
+    .next = &TextGlyphs_Talk_E587AF,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A0AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D8E = { /* 坎 */
+    .next = &TextGlyphs_Talk_E5A0AA,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A08D = { /* 砍 */
+    .next = &TextGlyphs_Talk_E7BB9D,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A08DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79C8B = { /* 看 */
+    .next = &TextGlyphs_Talk_E7A08D,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79C8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BAB7 = { /* 康 */
+    .next = &TextGlyphs_Talk_E59D8E,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BAB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BB7 = { /* 拷 */
+    .next = &TextGlyphs_Talk_E685A8,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99DA0 = { /* 靠 */
+    .next = &TextGlyphs_Talk_E99EA0,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99DA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69FAF = { /* 柯 */
+    .next = &TextGlyphs_Talk_E68BB7,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69FAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A3B5 = { /* 棵 */
+    .next = &TextGlyphs_Talk_E69FAF,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A3B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A395 = { /* 磕 */
+    .next = &TextGlyphs_Talk_E79C8B,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A395Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A297 = { /* 颗 */
+    .next = &TextGlyphs_Talk_E99DA0,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A297Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A791 = { /* 科 */
+    .next = &TextGlyphs_Talk_E7A395,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A791Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E592B3 = { /* 咳 */
+    .next = &TextGlyphs_Talk_E5BAB7,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E592B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5858B = { /* 克 */
+    .next = &TextGlyphs_Talk_E592B3,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5858BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFBE = { /* 课 */
+    .next = &TextGlyphs_Talk_E8AF80,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E882AF = { /* 肯 */
+    .next = &TextGlyphs_Talk_E8AFBE,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E882AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59583 = { /* 啃 */
+    .next = &TextGlyphs_Talk_E5858B,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59583Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59EA6 = { /* 垦 */
+    .next = &TextGlyphs_Talk_E59583,
+    .width = 12,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59EA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E681B3 = { /* 恳 */
+    .next = &TextGlyphs_Talk_E6A3B5,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E681B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D91 = { /* 坑 */
+    .next = &TextGlyphs_Talk_E59EA6,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AD94 = { /* 孔 */
+    .next = &TextGlyphs_Talk_E59D91,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AD94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689A3 = { /* 扣 */
+    .next = &TextGlyphs_Talk_E681B3,
+    .width = 12,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E593AD = { /* 哭 */
+    .next = &TextGlyphs_Talk_E5AD94,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E593ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BA93 = { /* 库 */
+    .next = &TextGlyphs_Talk_E593AD,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BA93Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A4B8 = { /* 夸 */
+    .next = &TextGlyphs_Talk_E5BA93,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A4B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D97 = { /* 块 */
+    .next = &TextGlyphs_Talk_E5A4B8,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AEBD = { /* 宽 */
+    .next = &TextGlyphs_Talk_E59D97,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AEBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79FBF = { /* 矿 */
+    .next = &TextGlyphs_Talk_E7A791,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79FBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E586B5 = { /* 况 */
+    .next = &TextGlyphs_Talk_E5AEBD,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E586B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BA8F = { /* 亏 */
+    .next = &TextGlyphs_Talk_E4BF8A,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BA8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79B94 = { /* 盔 */
+    .next = &TextGlyphs_Talk_E79FBF,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79B94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AAA5 = { /* 窥 */
+    .next = &TextGlyphs_Talk_E79B94,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AAA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AD81 = { /* 魁 */
+    .next = &TextGlyphs_Talk_E9A297,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AD81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58280 = { /* 傀 */
+    .next = &TextGlyphs_Talk_E586B5,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58280Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E684A7 = { /* 愧 */
+    .next = &TextGlyphs_Talk_E689A3,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E684A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BA83 = { /* 溃 */
+    .next = &TextGlyphs_Talk_E684A7,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BA83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BAC = { /* 括 */
+    .next = &TextGlyphs_Talk_E6BA83,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689A9 = { /* 扩 */
+    .next = &TextGlyphs_Talk_E68BAC,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99894 = { /* 阔 */
+    .next = &TextGlyphs_Talk_E9AD81,
+    .width = 12,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99894Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59E83 = { /* 垃 */
+    .next = &TextGlyphs_Talk_E58280,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59E83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68B89 = { /* 拉 */
+    .next = &TextGlyphs_Talk_E689A9,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68B89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E595A6 = { /* 啦 */
+    .next = &TextGlyphs_Talk_E59E83,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E595A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88EB1 = { /* 莱 */
+    .next = &TextGlyphs_Talk_E882AF,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88EB1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B596 = { /* 赖 */
+    .next = &TextGlyphs_Talk_E88EB1,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B596Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8939D = { /* 蓝 */
+    .next = &TextGlyphs_Talk_E8B596,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8939DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A08F = { /* 栏 */
+    .next = &TextGlyphs_Talk_E68B89,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A08FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AFAE = { /* 篮 */
+    .next = &TextGlyphs_Talk_E7AAA5,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AFAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585B0 = { /* 兰 */
+    .next = &TextGlyphs_Talk_E595A6,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A788 = { /* 览 */
+    .next = &TextGlyphs_Talk_E8939D,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A788Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68792 = { /* 懒 */
+    .next = &TextGlyphs_Talk_E6A08F,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68792Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC86 = { /* 缆 */
+    .next = &TextGlyphs_Talk_E7AFAE,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78382 = { /* 烂 */
+    .next = &TextGlyphs_Talk_E7BC86,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78382Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BBA5 = { /* 滥 */
+    .next = &TextGlyphs_Talk_E68792,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BBA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58AB3 = { /* 劳 */
+    .next = &TextGlyphs_Talk_E585B0,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58AB3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B990 = { /* 乐 */
+    .next = &TextGlyphs_Talk_E4BA8F,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B990Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E895BE = { /* 蕾 */
+    .next = &TextGlyphs_Talk_E8A788,
+    .width = 12,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E895BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B4AF = { /* 累 */
+    .next = &TextGlyphs_Talk_E78382,
+    .width = 12,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B4AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E584A1 = { /* 儡 */
+    .next = &TextGlyphs_Talk_E58AB3,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E584A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59E92 = { /* 垒 */
+    .next = &TextGlyphs_Talk_E584A1,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59E92Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B1BB = { /* 类 */
+    .next = &TextGlyphs_Talk_E7B4AF,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B1BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B3AA = { /* 泪 */
+    .next = &TextGlyphs_Talk_E6BBA5,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B3AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A59E = { /* 楞 */
+    .next = &TextGlyphs_Talk_E6B3AA,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A59ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A6BB = { /* 离 */
+    .next = &TextGlyphs_Talk_E7B1BB,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A6BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88E89 = { /* 莉 */
+    .next = &TextGlyphs_Talk_E895BE,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88E89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8BD = { /* 丽 */
+    .next = &TextGlyphs_Talk_E4B990,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8BDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58E89 = { /* 厉 */
+    .next = &TextGlyphs_Talk_E59E92,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58E89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58E86 = { /* 历 */
+    .next = &TextGlyphs_Talk_E58E89,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58E86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99AB6 = { /* 隶 */
+    .next = &TextGlyphs_Talk_E99894,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99AB6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E593A9 = { /* 哩 */
+    .next = &TextGlyphs_Talk_E58E86,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E593A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BFA9 = { /* 俩 */
+    .next = &TextGlyphs_Talk_E4B8BD,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BFA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88194 = { /* 联 */
+    .next = &TextGlyphs_Talk_E88E89,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88194Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88EB2 = { /* 莲 */
+    .next = &TextGlyphs_Talk_E88194,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88EB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF9E = { /* 连 */
+    .next = &TextGlyphs_Talk_E88EB2,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6809C = { /* 怜 */
+    .next = &TextGlyphs_Talk_E6A59E,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6809CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E884B8 = { /* 脸 */
+    .next = &TextGlyphs_Talk_E8BF9E,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E884B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E993BE = { /* 链 */
+    .next = &TextGlyphs_Talk_E99AB6,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E993BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E782BC = { /* 炼 */
+    .next = &TextGlyphs_Talk_E7A6BB,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E782BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB83 = { /* 练 */
+    .next = &TextGlyphs_Talk_E782BC,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B2AE = { /* 粮 */
+    .next = &TextGlyphs_Talk_E7BB83,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B2AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58789 = { /* 凉 */
+    .next = &TextGlyphs_Talk_E593A9,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58789Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8A4 = { /* 两 */
+    .next = &TextGlyphs_Talk_E4BFA9,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BAAE = { /* 亮 */
+    .next = &TextGlyphs_Talk_E4B8A4,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BAAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B085 = { /* 谅 */
+    .next = &TextGlyphs_Talk_E884B8,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B085Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8818A = { /* 聊 */
+    .next = &TextGlyphs_Talk_E8B085,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8818ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79697 = { /* 疗 */
+    .next = &TextGlyphs_Talk_E7B2AE,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79697Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58897 = { /* 列 */
+    .next = &TextGlyphs_Talk_E58789,
+    .width = 12,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58897Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78C8E = { /* 猎 */
+    .next = &TextGlyphs_Talk_E79697,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78C8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8B4 = { /* 临 */
+    .next = &TextGlyphs_Talk_E4BAAE,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E982BB = { /* 邻 */
+    .next = &TextGlyphs_Talk_E993BE,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E982BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B39E = { /* 鳞 */
+    .next = &TextGlyphs_Talk_E982BB,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B39ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5879B = { /* 凛 */
+    .next = &TextGlyphs_Talk_E58897,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5879BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99BB6 = { /* 零 */
+    .next = &TextGlyphs_Talk_E9B39E,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99BB6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BE84 = { /* 龄 */
+    .next = &TextGlyphs_Talk_E99BB6,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BE84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5878C = { /* 凌 */
+    .next = &TextGlyphs_Talk_E5879B,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5878CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E781B5 = { /* 灵 */
+    .next = &TextGlyphs_Talk_E78C8E,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E781B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A286 = { /* 领 */
+    .next = &TextGlyphs_Talk_E9BE84,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A286Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58FA6 = { /* 另 */
+    .next = &TextGlyphs_Talk_E5878C,
+    .width = 12,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58FA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BA9C = { /* 溜 */
+    .next = &TextGlyphs_Talk_E6809C,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BA9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BE99 = { /* 龙 */
+    .next = &TextGlyphs_Talk_E9A286,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BE99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8818B = { /* 聋 */
+    .next = &TextGlyphs_Talk_E8818A,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8818BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7ACBC = { /* 笼 */
+    .next = &TextGlyphs_Talk_E781B5,
+    .width = 13,
+    .utf_byte_2 = 0xac,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7ACBCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99A86 = { /* 隆 */
+    .next = &TextGlyphs_Talk_E9BE99,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99A86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A5BC = { /* 楼 */
+    .next = &TextGlyphs_Talk_E6BA9C,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A5BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BC8F = { /* 漏 */
+    .next = &TextGlyphs_Talk_E6A5BC,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BC8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9998B = { /* 陋 */
+    .next = &TextGlyphs_Talk_E99A86,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9998BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58DA2 = { /* 卢 */
+    .next = &TextGlyphs_Talk_E58FA6,
+    .width = 12,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58DA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8998F = { /* 虏 */
+    .next = &TextGlyphs_Talk_E8818B,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8998FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B281 = { /* 鲁 */
+    .next = &TextGlyphs_Talk_E9998B,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B281Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99CB2 = { /* 露 */
+    .next = &TextGlyphs_Talk_E9B281,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99CB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B582 = { /* 赂 */
+    .next = &TextGlyphs_Talk_E8998F,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B582Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BD95 = { /* 录 */
+    .next = &TextGlyphs_Talk_E58DA2,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BD95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99986 = { /* 陆 */
+    .next = &TextGlyphs_Talk_E99CB2,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99986Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BEA3 = { /* 侣 */
+    .next = &TextGlyphs_Talk_E4B8B4,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BEA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B1A1 = { /* 屡 */
+    .next = &TextGlyphs_Talk_E5BD95,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B1A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89991 = { /* 虑 */
+    .next = &TextGlyphs_Talk_E8B582,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89991Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBBF = { /* 绿 */
+    .next = &TextGlyphs_Talk_E7ACBC,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDAE = { /* 轮 */
+    .next = &TextGlyphs_Talk_E89991,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BCA6 = { /* 伦 */
+    .next = &TextGlyphs_Talk_E4BEA3,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BCA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B2A6 = { /* 沦 */
+    .next = &TextGlyphs_Talk_E6BC8F,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B2A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEBA = { /* 论 */
+    .next = &TextGlyphs_Talk_E8BDAE,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BD97 = { /* 罗 */
+    .next = &TextGlyphs_Talk_E7BBBF,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BD97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B49B = { /* 洛 */
+    .next = &TextGlyphs_Talk_E6B2A6,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B49BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB9C = { /* 络 */
+    .next = &TextGlyphs_Talk_E7BD97,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A688 = { /* 妈 */
+    .next = &TextGlyphs_Talk_E5B1A1,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A688Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BABB = { /* 麻 */
+    .next = &TextGlyphs_Talk_E99986,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BABBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78E9B = { /* 玛 */
+    .next = &TextGlyphs_Talk_E7BB9C,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78E9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A081 = { /* 码 */
+    .next = &TextGlyphs_Talk_E78E9B,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A081Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A9AC = { /* 马 */
+    .next = &TextGlyphs_Talk_E9BABB,
+    .width = 12,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A9ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA82 = { /* 骂 */
+    .next = &TextGlyphs_Talk_E9A9AC,
+    .width = 12,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5989B = { /* 嘛 */
+    .next = &TextGlyphs_Talk_E5A688,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5989BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59097 = { /* 吗 */
+    .next = &TextGlyphs_Talk_E5989B,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59097Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B9B0 = { /* 买 */
+    .next = &TextGlyphs_Talk_E4BCA6,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B9B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D96 = { /* 卖 */
+    .next = &TextGlyphs_Talk_E59097,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF88 = { /* 迈 */
+    .next = &TextGlyphs_Talk_E8AEBA,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF88Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88489 = { /* 脉 */
+    .next = &TextGlyphs_Talk_E8BF88,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88489Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79E92 = { /* 瞒 */
+    .next = &TextGlyphs_Talk_E7A081,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79E92Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BBA1 = { /* 满 */
+    .next = &TextGlyphs_Talk_E6B49B,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BBA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89493 = { /* 蔓 */
+    .next = &TextGlyphs_Talk_E88489,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89493Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BCAB = { /* 漫 */
+    .next = &TextGlyphs_Talk_E6BBA1,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BCABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88A92 = { /* 芒 */
+    .next = &TextGlyphs_Talk_E89493,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88A92Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88CAB = { /* 茫 */
+    .next = &TextGlyphs_Talk_E88A92,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88CABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79BB2 = { /* 盲 */
+    .next = &TextGlyphs_Talk_E79E92,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79BB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B093 = { /* 氓 */
+    .next = &TextGlyphs_Talk_E6BCAB,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B093Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88EBD = { /* 莽 */
+    .next = &TextGlyphs_Talk_E88CAB,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88EBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88C85 = { /* 茅 */
+    .next = &TextGlyphs_Talk_E88EBD,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88C85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88C82 = { /* 茂 */
+    .next = &TextGlyphs_Talk_E88C85,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88C82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58692 = { /* 冒 */
+    .next = &TextGlyphs_Talk_E58D96,
+    .width = 12,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58692Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B28C = { /* 貌 */
+    .next = &TextGlyphs_Talk_E88C82,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B28CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B988 = { /* 么 */
+    .next = &TextGlyphs_Talk_E4B9B0,
+    .width = 12,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B988Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A285 = { /* 梅 */
+    .next = &TextGlyphs_Talk_E6B093,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A285Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99C89 = { /* 霉 */
+    .next = &TextGlyphs_Talk_E9AA82,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99C89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79C89 = { /* 眉 */
+    .next = &TextGlyphs_Talk_E79BB2,
+    .width = 12,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79C89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6AF8F = { /* 每 */
+    .next = &TextGlyphs_Talk_E6A285,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6AF8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E698A7 = { /* 昧 */
+    .next = &TextGlyphs_Talk_E6AF8F,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E698A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AA9A = { /* 媚 */
+    .next = &TextGlyphs_Talk_E58692,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AA9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997A8 = { /* 门 */
+    .next = &TextGlyphs_Talk_E99C89,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997B7 = { /* 闷 */
+    .next = &TextGlyphs_Talk_E997A8,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BBAC = { /* 们 */
+    .next = &TextGlyphs_Talk_E4B988,
+    .width = 12,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BBACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89299 = { /* 蒙 */
+    .next = &TextGlyphs_Talk_E8B28C,
+    .width = 12,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89299Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A2A6 = { /* 梦 */
+    .next = &TextGlyphs_Talk_E698A7,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A2A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B09C = { /* 谜 */
+    .next = &TextGlyphs_Talk_E89299,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B09CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BCA5 = { /* 弥 */
+    .next = &TextGlyphs_Talk_E5AA9A,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BCA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B1B3 = { /* 米 */
+    .next = &TextGlyphs_Talk_E79C89,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B1B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58695 = { /* 冕 */
+    .next = &TextGlyphs_Talk_E5BCA5,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58695Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88B97 = { /* 苗 */
+    .next = &TextGlyphs_Talk_E8B09C,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88B97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68F8F = { /* 描 */
+    .next = &TextGlyphs_Talk_E6A2A6,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68F8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79E84 = { /* 瞄 */
+    .next = &TextGlyphs_Talk_E7B1B3,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79E84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B8BA = { /* 渺 */
+    .next = &TextGlyphs_Talk_E68F8F,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B8BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E781AD = { /* 灭 */
+    .next = &TextGlyphs_Talk_E79E84,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E781ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6958F = { /* 敏 */
+    .next = &TextGlyphs_Talk_E6B8BA,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6958FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B0AC = { /* 谬 */
+    .next = &TextGlyphs_Talk_E88B97,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B0ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E691B8 = { /* 摸 */
+    .next = &TextGlyphs_Talk_E6958F,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E691B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68AB9 = { /* 抹 */
+    .next = &TextGlyphs_Talk_E691B8,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68AB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88EAB = { /* 莫 */
+    .next = &TextGlyphs_Talk_E8B0AC,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88EABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BB98 = { /* 默 */
+    .next = &TextGlyphs_Talk_E997B7,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BB98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AF9E = { /* 寞 */
+    .next = &TextGlyphs_Talk_E58695,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AF9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9998C = { /* 陌 */
+    .next = &TextGlyphs_Talk_E9BB98,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9998CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B08B = { /* 谋 */
+    .next = &TextGlyphs_Talk_E88EAB,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B08BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69F90 = { /* 某 */
+    .next = &TextGlyphs_Talk_E68AB9,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69F90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A786 = { /* 姆 */
+    .next = &TextGlyphs_Talk_E5AF9E,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A786Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79DA6 = { /* 睦 */
+    .next = &TextGlyphs_Talk_E781AD,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79DA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A986 = { /* 穆 */
+    .next = &TextGlyphs_Talk_E79DA6,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A986Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BBF = { /* 拿 */
+    .next = &TextGlyphs_Talk_E69F90,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E593AA = { /* 哪 */
+    .next = &TextGlyphs_Talk_E5A786,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E593AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E992A0 = { /* 钠 */
+    .next = &TextGlyphs_Talk_E9998C,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E992A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E982A3 = { /* 那 */
+    .next = &TextGlyphs_Talk_E992A0,
+    .width = 12,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E982A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A89C = { /* 娜 */
+    .next = &TextGlyphs_Talk_E593AA,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A89CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAB3 = { /* 纳 */
+    .next = &TextGlyphs_Talk_E7A986,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAB3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A5B6 = { /* 奶 */
+    .next = &TextGlyphs_Talk_E5A89C,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A5B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A588 = { /* 奈 */
+    .next = &TextGlyphs_Talk_E5A5B6,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A588Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99ABE = { /* 难 */
+    .next = &TextGlyphs_Talk_E982A3,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99ABETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68CA0 = { /* 挠 */
+    .next = &TextGlyphs_Talk_E68BBF,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68CA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88491 = { /* 脑 */
+    .next = &TextGlyphs_Talk_E8B08B,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88491Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E681BC = { /* 恼 */
+    .next = &TextGlyphs_Talk_E68CA0,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E681BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997B9 = { /* 闹 */
+    .next = &TextGlyphs_Talk_E99ABE,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E591A2 = { /* 呢 */
+    .next = &TextGlyphs_Talk_E5A588,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E591A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5ABA9 = { /* 嫩 */
+    .next = &TextGlyphs_Talk_E591A2,
+    .width = 13,
+    .utf_byte_2 = 0xab,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5ABA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A6AE = { /* 妮 */
+    .next = &TextGlyphs_Talk_E5ABA9,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A6AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B0BC = { /* 尼 */
+    .next = &TextGlyphs_Talk_E5A6AE,
+    .width = 12,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B0BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BDA0 = { /* 你 */
+    .next = &TextGlyphs_Talk_E4BBAC,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BDA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B89F = { /* 鸟 */
+    .next = &TextGlyphs_Talk_E997B9,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B89FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E682A8 = { /* 您 */
+    .next = &TextGlyphs_Talk_E681BC,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E682A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5879D = { /* 凝 */
+    .next = &TextGlyphs_Talk_E5B0BC,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5879DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE81 = { /* 宁 */
+    .next = &TextGlyphs_Talk_E5879D,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7899B = { /* 牛 */
+    .next = &TextGlyphs_Talk_E7BAB3,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7899BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689AD = { /* 扭 */
+    .next = &TextGlyphs_Talk_E682A8,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B593 = { /* 浓 */
+    .next = &TextGlyphs_Talk_E689AD,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B593Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5869C = { /* 农 */
+    .next = &TextGlyphs_Talk_E5AE81,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5869CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BC84 = { /* 弄 */
+    .next = &TextGlyphs_Talk_E5869C,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BC84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E687A6 = { /* 懦 */
+    .next = &TextGlyphs_Talk_E6B593,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E687A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFBA = { /* 诺 */
+    .next = &TextGlyphs_Talk_E88491,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E593A6 = { /* 哦 */
+    .next = &TextGlyphs_Talk_E5BC84,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E593A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E788AC = { /* 爬 */
+    .next = &TextGlyphs_Talk_E7899B,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E788ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68095 = { /* 怕 */
+    .next = &TextGlyphs_Talk_E687A6,
+    .width = 12,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68095Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68E92 = { /* 排 */
+    .next = &TextGlyphs_Talk_E68095,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68E92Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7898C = { /* 牌 */
+    .next = &TextGlyphs_Talk_E788AC,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7898CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BE98 = { /* 徘 */
+    .next = &TextGlyphs_Talk_E593A6,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BE98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BD98 = { /* 潘 */
+    .next = &TextGlyphs_Talk_E68E92,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BD98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79B98 = { /* 盘 */
+    .next = &TextGlyphs_Talk_E7898C,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79B98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A390 = { /* 磐 */
+    .next = &TextGlyphs_Talk_E79B98,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A390Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79BBC = { /* 盼 */
+    .next = &TextGlyphs_Talk_E7A390,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79BBCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BA9E = { /* 庞 */
+    .next = &TextGlyphs_Talk_E5BE98,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BA9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69781 = { /* 旁 */
+    .next = &TextGlyphs_Talk_E6BD98,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69781Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88396 = { /* 胖 */
+    .next = &TextGlyphs_Talk_E8AFBA,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88396Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68A9B = { /* 抛 */
+    .next = &TextGlyphs_Talk_E69781,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68A9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A28D = { /* 袍 */
+    .next = &TextGlyphs_Talk_E88396,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A28DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B791 = { /* 跑 */
+    .next = &TextGlyphs_Talk_E8A28D,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B791Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B3A1 = { /* 泡 */
+    .next = &TextGlyphs_Talk_E68A9B,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B3A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E591B8 = { /* 呸 */
+    .next = &TextGlyphs_Talk_E5BA9E,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E591B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59FB9 = { /* 培 */
+    .next = &TextGlyphs_Talk_E591B8,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59FB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B594 = { /* 赔 */
+    .next = &TextGlyphs_Talk_E8B791,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B594Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E999AA = { /* 陪 */
+    .next = &TextGlyphs_Talk_E9B89F,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E999AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BDA9 = { /* 佩 */
+    .next = &TextGlyphs_Talk_E4BDA0,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BDA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E596B7 = { /* 喷 */
+    .next = &TextGlyphs_Talk_E59FB9,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E596B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E893AC = { /* 蓬 */
+    .next = &TextGlyphs_Talk_E8B594,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E893ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69C8B = { /* 朋 */
+    .next = &TextGlyphs_Talk_E6B3A1,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69C8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A2B0 = { /* 碰 */
+    .next = &TextGlyphs_Talk_E79BBC,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A2B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689B9 = { /* 批 */
+    .next = &TextGlyphs_Talk_E69C8B,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E884BE = { /* 脾 */
+    .next = &TextGlyphs_Talk_E893AC,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E884BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E796B2 = { /* 疲 */
+    .next = &TextGlyphs_Talk_E7A2B0,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E796B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79AAE = { /* 皮 */
+    .next = &TextGlyphs_Talk_E796B2,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79AAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58CB9 = { /* 匹 */
+    .next = &TextGlyphs_Talk_E596B7,
+    .width = 12,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58CB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E583BB = { /* 僻 */
+    .next = &TextGlyphs_Talk_E58CB9,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E583BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B181 = { /* 屁 */
+    .next = &TextGlyphs_Talk_E583BB,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B181Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5818F = { /* 偏 */
+    .next = &TextGlyphs_Talk_E5B181,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5818FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA97 = { /* 骗 */
+    .next = &TextGlyphs_Talk_E999AA,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A398 = { /* 飘 */
+    .next = &TextGlyphs_Talk_E9AA97,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A398Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BC82 = { /* 漂 */
+    .next = &TextGlyphs_Talk_E689B9,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BC82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BBC = { /* 拼 */
+    .next = &TextGlyphs_Talk_E6BC82,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BBCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A291 = { /* 频 */
+    .next = &TextGlyphs_Talk_E9A398,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A291Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4AB = { /* 贫 */
+    .next = &TextGlyphs_Talk_E884BE,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E587AD = { /* 凭 */
+    .next = &TextGlyphs_Talk_E5818F,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E587ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF84 = { /* 评 */
+    .next = &TextGlyphs_Talk_E8B4AB,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B18F = { /* 屏 */
+    .next = &TextGlyphs_Talk_E587AD,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B18FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B3BC = { /* 泼 */
+    .next = &TextGlyphs_Talk_E68BBC,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B3BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AD84 = { /* 魄 */
+    .next = &TextGlyphs_Talk_E9A291,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AD84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB86 = { /* 仆 */
+    .next = &TextGlyphs_Talk_E4BDA9,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69CB4 = { /* 朴 */
+    .next = &TextGlyphs_Talk_E6B3BC,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69CB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ACBA = { /* 欺 */
+    .next = &TextGlyphs_Talk_E69CB4,
+    .width = 13,
+    .utf_byte_2 = 0xac,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ACBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585B6 = { /* 其 */
+    .next = &TextGlyphs_Talk_E5B18F,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A38B = { /* 棋 */
+    .next = &TextGlyphs_Talk_E6ACBA,
+    .width = 13,
+    .utf_byte_2 = 0xa3,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A38BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BD90 = { /* 齐 */
+    .next = &TextGlyphs_Talk_E9AD84,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BD90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA91 = { /* 骑 */
+    .next = &TextGlyphs_Talk_E9BD90,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B282 = { /* 岂 */
+    .next = &TextGlyphs_Talk_E585B6,
+    .width = 12,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B282Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B99E = { /* 乞 */
+    .next = &TextGlyphs_Talk_E4BB86,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B99ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E590AF = { /* 启 */
+    .next = &TextGlyphs_Talk_E5B282,
+    .width = 12,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E590AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B094 = { /* 气 */
+    .next = &TextGlyphs_Talk_E6A38B,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B094Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BC83 = { /* 弃 */
+    .next = &TextGlyphs_Talk_E590AF,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BC83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68E90 = { /* 掐 */
+    .next = &TextGlyphs_Talk_E6B094,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68E90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E789B5 = { /* 牵 */
+    .next = &TextGlyphs_Talk_E79AAE,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E789B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF81 = { /* 迁 */
+    .next = &TextGlyphs_Talk_E8AF84,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7ADBE = { /* 签 */
+    .next = &TextGlyphs_Talk_E789B5,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7ADBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B0A6 = { /* 谦 */
+    .next = &TextGlyphs_Talk_E8BF81,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B0A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E992B1 = { /* 钱 */
+    .next = &TextGlyphs_Talk_E9AA91,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E992B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BD9C = { /* 潜 */
+    .next = &TextGlyphs_Talk_E68E90,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BD9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B58C = { /* 嵌 */
+    .next = &TextGlyphs_Talk_E5BC83,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B58CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6AD89 = { /* 歉 */
+    .next = &TextGlyphs_Talk_E6BD9C,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6AD89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69EAA = { /* 枪 */
+    .next = &TextGlyphs_Talk_E6AD89,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69EAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88594 = { /* 腔 */
+    .next = &TextGlyphs_Talk_E8B0A6,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88594Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A299 = { /* 墙 */
+    .next = &TextGlyphs_Talk_E5B58C,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A299Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BCBA = { /* 强 */
+    .next = &TextGlyphs_Talk_E5A299,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BCBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68AA2 = { /* 抢 */
+    .next = &TextGlyphs_Talk_E69EAA,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68AA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E695B2 = { /* 敲 */
+    .next = &TextGlyphs_Talk_E68AA2,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E695B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68284 = { /* 悄 */
+    .next = &TextGlyphs_Talk_E695B2,
+    .width = 12,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68284Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A1A5 = { /* 桥 */
+    .next = &TextGlyphs_Talk_E68284,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A1A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79EA7 = { /* 瞧 */
+    .next = &TextGlyphs_Talk_E7ADBE,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79EA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B7A7 = { /* 巧 */
+    .next = &TextGlyphs_Talk_E5BCBA,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B7A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BF98 = { /* 翘 */
+    .next = &TextGlyphs_Talk_E79EA7,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BF98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AA8D = { /* 窍 */
+    .next = &TextGlyphs_Talk_E7BF98,
+    .width = 12,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AA8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B894 = { /* 且 */
+    .next = &TextGlyphs_Talk_E4B99E,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B894Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E680AF = { /* 怯 */
+    .next = &TextGlyphs_Talk_E6A1A5,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E680AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BAB2 = { /* 亲 */
+    .next = &TextGlyphs_Talk_E4B894,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BAB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58BA4 = { /* 勤 */
+    .next = &TextGlyphs_Talk_E5B7A7,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58BA4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDBB = { /* 轻 */
+    .next = &TextGlyphs_Talk_E88594,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E580BE = { /* 倾 */
+    .next = &TextGlyphs_Talk_E58BA4,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E580BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFB7 = { /* 请 */
+    .next = &TextGlyphs_Talk_E8BDBB,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BA86 = { /* 庆 */
+    .next = &TextGlyphs_Talk_E580BE,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BA86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A9B7 = { /* 穷 */
+    .next = &TextGlyphs_Talk_E7AA8D,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A9B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58CBA = { /* 区 */
+    .next = &TextGlyphs_Talk_E5BA86,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58CBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A9B1 = { /* 驱 */
+    .next = &TextGlyphs_Talk_E992B1,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A9B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A8B6 = { /* 娶 */
+    .next = &TextGlyphs_Talk_E58CBA,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A8B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B6A3 = { /* 趣 */
+    .next = &TextGlyphs_Talk_E8AFB7,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B6A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59C88 = { /* 圈 */
+    .next = &TextGlyphs_Talk_E5A8B6,
+    .width = 12,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59C88Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69D83 = { /* 权 */
+    .next = &TextGlyphs_Talk_E680AF,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69D83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7978A = { /* 痊 */
+    .next = &TextGlyphs_Talk_E7A9B7,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7978ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BB3 = { /* 拳 */
+    .next = &TextGlyphs_Talk_E69D83,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BB3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E588B8 = { /* 券 */
+    .next = &TextGlyphs_Talk_E59C88,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E588B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58A9D = { /* 劝 */
+    .next = &TextGlyphs_Talk_E588B8,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58A9DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BCBA = { /* 缺 */
+    .next = &TextGlyphs_Talk_E7978A,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BCBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A1AE = { /* 确 */
+    .next = &TextGlyphs_Talk_E7BCBA,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A1AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59AB7 = { /* 嚷 */
+    .next = &TextGlyphs_Talk_E58A9D,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59AB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEA9 = { /* 让 */
+    .next = &TextGlyphs_Talk_E8B6A3,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A5B6 = { /* 饶 */
+    .next = &TextGlyphs_Talk_E9A9B1,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A5B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689B0 = { /* 扰 */
+    .next = &TextGlyphs_Talk_E68BB3,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB95 = { /* 绕 */
+    .next = &TextGlyphs_Talk_E7A1AE,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E683B9 = { /* 惹 */
+    .next = &TextGlyphs_Talk_E689B0,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E683B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E783AD = { /* 热 */
+    .next = &TextGlyphs_Talk_E7BB95,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E783ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB81 = { /* 仁 */
+    .next = &TextGlyphs_Talk_E4BAB2,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99FA7 = { /* 韧 */
+    .next = &TextGlyphs_Talk_E9A5B6,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99FA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEA4 = { /* 认 */
+    .next = &TextGlyphs_Talk_E8AEA9,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEA4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68994 = { /* 扔 */
+    .next = &TextGlyphs_Talk_E683B9,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68994Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB8D = { /* 仍 */
+    .next = &TextGlyphs_Talk_E4BB81,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6888E = { /* 戎 */
+    .next = &TextGlyphs_Talk_E68994,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6888ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88DA3 = { /* 荣 */
+    .next = &TextGlyphs_Talk_E8AEA4,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88DA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89E8D = { /* 融 */
+    .next = &TextGlyphs_Talk_E88DA3,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89E8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78694 = { /* 熔 */
+    .next = &TextGlyphs_Talk_E783AD,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78694Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69F94 = { /* 柔 */
+    .next = &TextGlyphs_Talk_E6888E,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69F94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A682 = { /* 如 */
+    .next = &TextGlyphs_Talk_E59AB7,
+    .width = 12,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A682Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDAF = { /* 软 */
+    .next = &TextGlyphs_Talk_E89E8D,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7919E = { /* 瑞 */
+    .next = &TextGlyphs_Talk_E78694,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7919ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99490 = { /* 锐 */
+    .next = &TextGlyphs_Talk_E99FA7,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99490Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69292 = { /* 撒 */
+    .next = &TextGlyphs_Talk_E69F94,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69292Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E890A8 = { /* 萨 */
+    .next = &TextGlyphs_Talk_E8BDAF,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E890A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B59B = { /* 赛 */
+    .next = &TextGlyphs_Talk_E890A8,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B59BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59793 = { /* 嗓 */
+    .next = &TextGlyphs_Talk_E5A682,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59793Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8A7 = { /* 丧 */
+    .next = &TextGlyphs_Talk_E4BB8D,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA9A = { /* 骚 */
+    .next = &TextGlyphs_Talk_E99490,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689AB = { /* 扫 */
+    .next = &TextGlyphs_Talk_E69292,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B6A9 = { /* 涩 */
+    .next = &TextGlyphs_Talk_E689AB,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B6A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69D80 = { /* 杀 */
+    .next = &TextGlyphs_Talk_E6B6A9,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69D80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B299 = { /* 沙 */
+    .next = &TextGlyphs_Talk_E69D80,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B299Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E582BB = { /* 傻 */
+    .next = &TextGlyphs_Talk_E59793,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E582BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E595A5 = { /* 啥 */
+    .next = &TextGlyphs_Talk_E582BB,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E595A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E588A0 = { /* 删 */
+    .next = &TextGlyphs_Talk_E595A5,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E588A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997AA = { /* 闪 */
+    .next = &TextGlyphs_Talk_E9AA9A,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69385 = { /* 擅 */
+    .next = &TextGlyphs_Talk_E6B299,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69385Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BCA4 = { /* 伤 */
+    .next = &TextGlyphs_Talk_E4B8A7,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BCA4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B58F = { /* 赏 */
+    .next = &TextGlyphs_Talk_E8B59B,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B58FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A88D = { /* 稍 */
+    .next = &TextGlyphs_Talk_E7919E,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A88DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E783A7 = { /* 烧 */
+    .next = &TextGlyphs_Talk_E7A88D,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E783A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB8D = { /* 绍 */
+    .next = &TextGlyphs_Talk_E783A7,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89B87 = { /* 蛇 */
+    .next = &TextGlyphs_Talk_E8B58F,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89B87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8888D = { /* 舍 */
+    .next = &TextGlyphs_Talk_E89B87,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8888DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B689 = { /* 涉 */
+    .next = &TextGlyphs_Talk_E69385,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B689Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEBE = { /* 设 */
+    .next = &TextGlyphs_Talk_E8888D,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E591BB = { /* 呻 */
+    .next = &TextGlyphs_Talk_E588A0,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E591BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BCB8 = { /* 伸 */
+    .next = &TextGlyphs_Talk_E4BCA4,
+    .width = 12,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BCB8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB85 = { /* 绅 */
+    .next = &TextGlyphs_Talk_E7BB8D,
+    .width = 12,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A9B6 = { /* 婶 */
+    .next = &TextGlyphs_Talk_E591BB,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A9B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7949A = { /* 甚 */
+    .next = &TextGlyphs_Talk_E7BB85,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7949ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D87 = { /* 升 */
+    .next = &TextGlyphs_Talk_E5A9B6,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E589A9 = { /* 剩 */
+    .next = &TextGlyphs_Talk_E58D87,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E589A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8839C = { /* 胜 */
+    .next = &TextGlyphs_Talk_E8AEBE,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8839CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59CA3 = { /* 圣 */
+    .next = &TextGlyphs_Talk_E589A9,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59CA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B888 = { /* 师 */
+    .next = &TextGlyphs_Talk_E59CA3,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B888Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78BAE = { /* 狮 */
+    .next = &TextGlyphs_Talk_E7949A,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78BAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B9BF = { /* 湿 */
+    .next = &TextGlyphs_Talk_E6B689,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B9BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF97 = { /* 诗 */
+    .next = &TextGlyphs_Talk_E8839C,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B0B8 = { /* 尸 */
+    .next = &TextGlyphs_Talk_E5B888,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B0B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BBE = { /* 拾 */
+    .next = &TextGlyphs_Talk_E6B9BF,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E697B6 = { /* 时 */
+    .next = &TextGlyphs_Talk_E68BBE,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E697B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB80 = { /* 什 */
+    .next = &TextGlyphs_Talk_E4BCB8,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE9E = { /* 实 */
+    .next = &TextGlyphs_Talk_E5B0B8,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF86 = { /* 识 */
+    .next = &TextGlyphs_Talk_E8AF97,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B18E = { /* 屎 */
+    .next = &TextGlyphs_Talk_E5AE9E,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B18ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58ABF = { /* 势 */
+    .next = &TextGlyphs_Talk_E5B18E,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58ABFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E599AC = { /* 噬 */
+    .next = &TextGlyphs_Talk_E58ABF,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E599ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98082 = { /* 适 */
+    .next = &TextGlyphs_Talk_E997AA,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98082Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BE8D = { /* 侍 */
+    .next = &TextGlyphs_Talk_E4BB80,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BE8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9878A = { /* 释 */
+    .next = &TextGlyphs_Talk_E98082,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9878ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A5B0 = { /* 饰 */
+    .next = &TextGlyphs_Talk_E9878A,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A5B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A786 = { /* 视 */
+    .next = &TextGlyphs_Talk_E8AF86,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A786Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF95 = { /* 试 */
+    .next = &TextGlyphs_Talk_E8A786,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E694B6 = { /* 收 */
+    .next = &TextGlyphs_Talk_E697B6,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E694B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A2B3 = { /* 梳 */
+    .next = &TextGlyphs_Talk_E694B6,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A2B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BE93 = { /* 输 */
+    .next = &TextGlyphs_Talk_E8AF95,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BE93Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58F94 = { /* 叔 */
+    .next = &TextGlyphs_Talk_E599AC,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58F94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88892 = { /* 舒 */
+    .next = &TextGlyphs_Talk_E8BE93,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88892Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B791 = { /* 淑 */
+    .next = &TextGlyphs_Talk_E6A2B3,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B791Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7968F = { /* 疏 */
+    .next = &TextGlyphs_Talk_E78BAE,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7968FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B9A6 = { /* 书 */
+    .next = &TextGlyphs_Talk_E4BE8D,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B9A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B58E = { /* 赎 */
+    .next = &TextGlyphs_Talk_E88892,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B58ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69A91 = { /* 暑 */
+    .next = &TextGlyphs_Talk_E6B791,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69A91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BDB2 = { /* 署 */
+    .next = &TextGlyphs_Talk_E7968F,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BDB2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BCA0 = { /* 鼠 */
+    .next = &TextGlyphs_Talk_E9A5B0,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BCA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69CAF = { /* 术 */
+    .next = &TextGlyphs_Talk_E69A91,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69CAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BFB0 = { /* 述 */
+    .next = &TextGlyphs_Talk_E8B58E,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BFB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A091 = { /* 树 */
+    .next = &TextGlyphs_Talk_E69CAF,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A091Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68195 = { /* 恕 */
+    .next = &TextGlyphs_Talk_E6A091,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68195Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8808D = { /* 耍 */
+    .next = &TextGlyphs_Talk_E8BFB0,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8808DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69194 = { /* 摔 */
+    .next = &TextGlyphs_Talk_E68195,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69194Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E794A9 = { /* 甩 */
+    .next = &TextGlyphs_Talk_E7BDB2,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E794A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B885 = { /* 帅 */
+    .next = &TextGlyphs_Talk_E58F94,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B885Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E788BD = { /* 爽 */
+    .next = &TextGlyphs_Talk_E794A9,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E788BDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B081 = { /* 谁 */
+    .next = &TextGlyphs_Talk_E8808D,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B081Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79DA1 = { /* 睡 */
+    .next = &TextGlyphs_Talk_E788BD,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79DA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A1BA = { /* 顺 */
+    .next = &TextGlyphs_Talk_E9BCA0,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A1BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFB4 = { /* 说 */
+    .next = &TextGlyphs_Talk_E8B081,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E696AF = { /* 斯 */
+    .next = &TextGlyphs_Talk_E69194,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E696AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69295 = { /* 撕 */
+    .next = &TextGlyphs_Talk_E696AF,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69295Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B89D = { /* 丝 */
+    .next = &TextGlyphs_Talk_E4B9A6,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B89DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88286 = { /* 肆 */
+    .next = &TextGlyphs_Talk_E8AFB4,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88286Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BCBA = { /* 伺 */
+    .next = &TextGlyphs_Talk_E4B89D,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BCBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A5B2 = { /* 饲 */
+    .next = &TextGlyphs_Talk_E9A1BA,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A5B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69DBE = { /* 松 */
+    .next = &TextGlyphs_Talk_E69295,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69DBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E880B8 = { /* 耸 */
+    .next = &TextGlyphs_Talk_E88286,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E880B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6909C = { /* 搜 */
+    .next = &TextGlyphs_Talk_E69DBE,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6909CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88998 = { /* 艘 */
+    .next = &TextGlyphs_Talk_E880B8,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88998Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88B8F = { /* 苏 */
+    .next = &TextGlyphs_Talk_E88998,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88B8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BF97 = { /* 俗 */
+    .next = &TextGlyphs_Talk_E4BCBA,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BF97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF89 = { /* 诉 */
+    .next = &TextGlyphs_Talk_E88B8F,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88283 = { /* 肃 */
+    .next = &TextGlyphs_Talk_E8AF89,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88283Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E985B8 = { /* 酸 */
+    .next = &TextGlyphs_Talk_E9A5B2,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E985B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E899BD = { /* 虽 */
+    .next = &TextGlyphs_Talk_E88283,
+    .width = 12,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E899BDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99A8F = { /* 随 */
+    .next = &TextGlyphs_Talk_E985B8,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99A8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AB93 = { /* 髓 */
+    .next = &TextGlyphs_Talk_E99A8F,
+    .width = 13,
+    .utf_byte_2 = 0xab,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AB93Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A28E = { /* 碎 */
+    .next = &TextGlyphs_Talk_E79DA1,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A28ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B281 = { /* 岁 */
+    .next = &TextGlyphs_Talk_E5B885,
+    .width = 12,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B281Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AD99 = { /* 孙 */
+    .next = &TextGlyphs_Talk_E5B281,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AD99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68D9F = { /* 损 */
+    .next = &TextGlyphs_Talk_E6909C,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68D9FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BCA9 = { /* 缩 */
+    .next = &TextGlyphs_Talk_E7A28E,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BCA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79090 = { /* 琐 */
+    .next = &TextGlyphs_Talk_E7BCA9,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79090Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B4A2 = { /* 索 */
+    .next = &TextGlyphs_Talk_E79090,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B4A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99481 = { /* 锁 */
+    .next = &TextGlyphs_Talk_E9AB93,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99481Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A18C = { /* 塌 */
+    .next = &TextGlyphs_Talk_E5AD99,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A18CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE83 = { /* 它 */
+    .next = &TextGlyphs_Talk_E5A18C,
+    .width = 12,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A5B9 = { /* 她 */
+    .next = &TextGlyphs_Talk_E5AE83,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A5B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68AAC = { /* 抬 */
+    .next = &TextGlyphs_Talk_E68D9F,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68AACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68081 = { /* 态 */
+    .next = &TextGlyphs_Talk_E68AAC,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68081Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6918A = { /* 摊 */
+    .next = &TextGlyphs_Talk_E68081,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6918ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4AA = { /* 贪 */
+    .next = &TextGlyphs_Talk_E899BD,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D9B = { /* 坛 */
+    .next = &TextGlyphs_Talk_E5A5B9,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B088 = { /* 谈 */
+    .next = &TextGlyphs_Talk_E8B4AA,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B088Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59DA6 = { /* 坦 */
+    .next = &TextGlyphs_Talk_E59D9B,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59DA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58FB9 = { /* 叹 */
+    .next = &TextGlyphs_Talk_E59DA6,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58FB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B1A4 = { /* 汤 */
+    .next = &TextGlyphs_Talk_E6918A,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B1A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E690AA = { /* 搪 */
+    .next = &TextGlyphs_Talk_E6B1A4,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E690AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8869B = { /* 膛 */
+    .next = &TextGlyphs_Talk_E8B088,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8869BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B69F = { /* 趟 */
+    .next = &TextGlyphs_Talk_E8869B,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B69FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A183 = { /* 桃 */
+    .next = &TextGlyphs_Talk_E690AA,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A183Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEA8 = { /* 讨 */
+    .next = &TextGlyphs_Talk_E8B69F,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A597 = { /* 套 */
+    .next = &TextGlyphs_Talk_E58FB9,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A597Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E885BE = { /* 腾 */
+    .next = &TextGlyphs_Talk_E8AEA8,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E885BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E796BC = { /* 疼 */
+    .next = &TextGlyphs_Talk_E7B4A2,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E796BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A2AF = { /* 梯 */
+    .next = &TextGlyphs_Talk_E6A183,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A2AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68F90 = { /* 提 */
+    .next = &TextGlyphs_Talk_E6A2AF,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68F90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A298 = { /* 题 */
+    .next = &TextGlyphs_Talk_E99481,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A298Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69BBF = { /* 替 */
+    .next = &TextGlyphs_Talk_E68F90,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69BBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68395 = { /* 惕 */
+    .next = &TextGlyphs_Talk_E69BBF,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68395Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B7BB = { /* 添 */
+    .next = &TextGlyphs_Talk_E68395,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B7BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7949C = { /* 甜 */
+    .next = &TextGlyphs_Talk_E796BC,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7949CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BFA2 = { /* 迢 */
+    .next = &TextGlyphs_Talk_E885BE,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BFA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B7B3 = { /* 跳 */
+    .next = &TextGlyphs_Talk_E8BFA2,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B7B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4B4 = { /* 贴 */
+    .next = &TextGlyphs_Talk_E8B7B3,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99381 = { /* 铁 */
+    .next = &TextGlyphs_Talk_E9A298,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99381Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58E85 = { /* 厅 */
+    .next = &TextGlyphs_Talk_E5A597,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58E85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E590AC = { /* 听 */
+    .next = &TextGlyphs_Talk_E58E85,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E590ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5819C = { /* 停 */
+    .next = &TextGlyphs_Talk_E590AC,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5819CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BAAD = { /* 亭 */
+    .next = &TextGlyphs_Talk_E4BF97,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BAADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68CBA = { /* 挺 */
+    .next = &TextGlyphs_Talk_E6B7BB,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68CBATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A1B6 = { /* 桶 */
+    .next = &TextGlyphs_Talk_E68CBA,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A1B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB9F = { /* 统 */
+    .next = &TextGlyphs_Talk_E7949C,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB9FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E581B7 = { /* 偷 */
+    .next = &TextGlyphs_Talk_E5819C,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E581B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A4B4 = { /* 头 */
+    .next = &TextGlyphs_Talk_E581B7,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A4B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9808F = { /* 透 */
+    .next = &TextGlyphs_Talk_E99381,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9808FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59BBE = { /* 图 */
+    .next = &TextGlyphs_Talk_E5A4B4,
+    .width = 12,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59BBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B682 = { /* 涂 */
+    .next = &TextGlyphs_Talk_E6A1B6,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B682Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59090 = { /* 吐 */
+    .next = &TextGlyphs_Talk_E59BBE,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59090Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59BA2 = { /* 团 */
+    .next = &TextGlyphs_Talk_E59090,
+    .width = 12,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59BA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68EA8 = { /* 推 */
+    .next = &TextGlyphs_Talk_E6B682,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68EA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E885BF = { /* 腿 */
+    .next = &TextGlyphs_Talk_E8B4B4,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E885BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5909E = { /* 吞 */
+    .next = &TextGlyphs_Talk_E59BA2,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5909ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68B96 = { /* 拖 */
+    .next = &TextGlyphs_Talk_E68EA8,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68B96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68998 = { /* 托 */
+    .next = &TextGlyphs_Talk_E68B96,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68998Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68C96 = { /* 挖 */
+    .next = &TextGlyphs_Talk_E68998,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68C96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59387 = { /* 哇 */
+    .next = &TextGlyphs_Talk_E5909E,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59387Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89B99 = { /* 蛙 */
+    .next = &TextGlyphs_Talk_E885BF,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89B99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A883 = { /* 娃 */
+    .next = &TextGlyphs_Talk_E59387,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A883Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E793A6 = { /* 瓦 */
+    .next = &TextGlyphs_Talk_E7BB9F,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E793A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ADAA = { /* 歪 */
+    .next = &TextGlyphs_Talk_E68C96,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ADAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BCAF = { /* 弯 */
+    .next = &TextGlyphs_Talk_E5A883,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BCAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78EA9 = { /* 玩 */
+    .next = &TextGlyphs_Talk_E793A6,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78EA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A1BD = { /* 顽 */
+    .next = &TextGlyphs_Talk_E9808F,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A1BDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68CBD = { /* 挽 */
+    .next = &TextGlyphs_Talk_E6ADAA,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68CBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6999A = { /* 晚 */
+    .next = &TextGlyphs_Talk_E68CBD,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6999ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69E89 = { /* 枉 */
+    .next = &TextGlyphs_Talk_E6999A,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69E89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BD91 = { /* 网 */
+    .next = &TextGlyphs_Talk_E78EA9,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BD91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BE80 = { /* 往 */
+    .next = &TextGlyphs_Talk_E5BCAF,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BE80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A684 = { /* 妄 */
+    .next = &TextGlyphs_Talk_E5BE80,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A684Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99FA6 = { /* 韦 */
+    .next = &TextGlyphs_Talk_E9A1BD,
+    .width = 12,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99FA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF9D = { /* 违 */
+    .next = &TextGlyphs_Talk_E89B99,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF9DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59BB4 = { /* 围 */
+    .next = &TextGlyphs_Talk_E5A684,
+    .width = 12,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59BB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8BA = { /* 为 */
+    .next = &TextGlyphs_Talk_E4BAAD,
+    .width = 12,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBB4 = { /* 维 */
+    .next = &TextGlyphs_Talk_E7BD91,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BC9F = { /* 伟 */
+    .next = &TextGlyphs_Talk_E4B8BA,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BC9FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B0BE = { /* 尾 */
+    .next = &TextGlyphs_Talk_E59BB4,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B0BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88383 = { /* 胃 */
+    .next = &TextGlyphs_Talk_E8BF9D,
+    .width = 12,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88383Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59682 = { /* 喂 */
+    .next = &TextGlyphs_Talk_E5B0BE,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59682Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B093 = { /* 谓 */
+    .next = &TextGlyphs_Talk_E88383,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B093Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58DAB = { /* 卫 */
+    .next = &TextGlyphs_Talk_E59682,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58DABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997BB = { /* 闻 */
+    .next = &TextGlyphs_Talk_E99FA6,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAB9 = { /* 纹 */
+    .next = &TextGlyphs_Talk_E7BBB4,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E590BB = { /* 吻 */
+    .next = &TextGlyphs_Talk_E58DAB,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E590BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A8B3 = { /* 稳 */
+    .next = &TextGlyphs_Talk_E7BAB9,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A8B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B48A = { /* 紊 */
+    .next = &TextGlyphs_Talk_E7A8B3,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B48ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997AE = { /* 问 */
+    .next = &TextGlyphs_Talk_E997BB,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BF81 = { /* 翁 */
+    .next = &TextGlyphs_Talk_E7B48A,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BF81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E793AE = { /* 瓮 */
+    .next = &TextGlyphs_Talk_E7BF81,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E793AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AA9D = { /* 窝 */
+    .next = &TextGlyphs_Talk_E793AE,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AA9DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58DA7 = { /* 卧 */
+    .next = &TextGlyphs_Talk_E590BB,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58DA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B283 = { /* 沃 */
+    .next = &TextGlyphs_Talk_E69E89,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B283Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5919C = { /* 呜 */
+    .next = &TextGlyphs_Talk_E58DA7,
+    .width = 12,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5919CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B98C = { /* 乌 */
+    .next = &TextGlyphs_Talk_E4BC9F,
+    .width = 12,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B98CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B1A1 = { /* 污 */
+    .next = &TextGlyphs_Talk_E6B283,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B1A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFAC = { /* 诬 */
+    .next = &TextGlyphs_Talk_E8B093,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E697A0 = { /* 无 */
+    .next = &TextGlyphs_Talk_E6B1A1,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E697A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88A9C = { /* 芜 */
+    .next = &TextGlyphs_Talk_E8AFAC,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88A9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BC8D = { /* 伍 */
+    .next = &TextGlyphs_Talk_E4B98C,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BC8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99BBE = { /* 雾 */
+    .next = &TextGlyphs_Talk_E997AE,
+    .width = 13,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99BBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58BBF = { /* 勿 */
+    .next = &TextGlyphs_Talk_E5919C,
+    .width = 12,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58BBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58AA1 = { /* 务 */
+    .next = &TextGlyphs_Talk_E58BBF,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58AA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFAF = { /* 误 */
+    .next = &TextGlyphs_Talk_E88A9C,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E789BA = { /* 牺 */
+    .next = &TextGlyphs_Talk_E7AA9D,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E789BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68289 = { /* 悉 */
+    .next = &TextGlyphs_Talk_E697A0,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68289Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BAAA = { /* 溪 */
+    .next = &TextGlyphs_Talk_E68289,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BAAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A2AD = { /* 袭 */
+    .next = &TextGlyphs_Talk_E8AFAF,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A2ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B9A0 = { /* 习 */
+    .next = &TextGlyphs_Talk_E4BC8D,
+    .width = 12,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B9A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AAB3 = { /* 媳 */
+    .next = &TextGlyphs_Talk_E58AA1,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AAB3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B497 = { /* 洗 */
+    .next = &TextGlyphs_Talk_E6BAAA,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B497Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99A99 = { /* 隙 */
+    .next = &TextGlyphs_Talk_E99BBE,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99A99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6888F = { /* 戏 */
+    .next = &TextGlyphs_Talk_E6B497,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6888FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB86 = { /* 细 */
+    .next = &TextGlyphs_Talk_E789BA,
+    .width = 12,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79E8E = { /* 瞎 */
+    .next = &TextGlyphs_Talk_E7BB86,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79E8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BE96 = { /* 辖 */
+    .next = &TextGlyphs_Talk_E8A2AD,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BE96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BEA0 = { /* 侠 */
+    .next = &TextGlyphs_Talk_E4B9A0,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BEA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78BAD = { /* 狭 */
+    .next = &TextGlyphs_Talk_E79E8E,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78BADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59093 = { /* 吓 */
+    .next = &TextGlyphs_Talk_E5AAB3,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59093Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68E80 = { /* 掀 */
+    .next = &TextGlyphs_Talk_E6888F,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68E80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B29C = { /* 鲜 */
+    .next = &TextGlyphs_Talk_E99A99,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B29CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4A4 = { /* 贤 */
+    .next = &TextGlyphs_Talk_E8BE96,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E997B2 = { /* 闲 */
+    .next = &TextGlyphs_Talk_E9B29C,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E997B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BCA6 = { /* 弦 */
+    .next = &TextGlyphs_Talk_E59093,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BCA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E698BE = { /* 显 */
+    .next = &TextGlyphs_Talk_E68E80,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E698BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E999A9 = { /* 险 */
+    .next = &TextGlyphs_Talk_E997B2,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E999A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78EB0 = { /* 现 */
+    .next = &TextGlyphs_Talk_E78BAD,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78EB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78CAE = { /* 献 */
+    .next = &TextGlyphs_Talk_E78EB0,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78CAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BEA1 = { /* 羡 */
+    .next = &TextGlyphs_Talk_E78CAE,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BEA1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E999B7 = { /* 陷 */
+    .next = &TextGlyphs_Talk_E999A9,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E999B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BABF = { /* 线 */
+    .next = &TextGlyphs_Talk_E7BEA1,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BABFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58EA2 = { /* 厢 */
+    .next = &TextGlyphs_Talk_E5BCA6,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58EA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A699 = { /* 香 */
+    .next = &TextGlyphs_Talk_E999B7,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A699Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B9A1 = { /* 乡 */
+    .next = &TextGlyphs_Talk_E4BEA0,
+    .width = 12,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xa1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B9A1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BF94 = { /* 翔 */
+    .next = &TextGlyphs_Talk_E7BABF,
+    .width = 12,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BF94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A5A5 = { /* 祥 */
+    .next = &TextGlyphs_Talk_E7BF94,
+    .width = 13,
+    .utf_byte_2 = 0xa5,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A5A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFA6 = { /* 详 */
+    .next = &TextGlyphs_Talk_E8B4A4,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5938D = { /* 响 */
+    .next = &TextGlyphs_Talk_E58EA2,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5938DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BAAB = { /* 享 */
+    .next = &TextGlyphs_Talk_E4B9A1,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BAABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A1B9 = { /* 项 */
+    .next = &TextGlyphs_Talk_E9A699,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A1B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5898A = { /* 削 */
+    .next = &TextGlyphs_Talk_E5938D,
+    .width = 12,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5898ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59AA3 = { /* 嚣 */
+    .next = &TextGlyphs_Talk_E5898A,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59AA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99480 = { /* 销 */
+    .next = &TextGlyphs_Talk_E9A1B9,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99480Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69993 = { /* 晓 */
+    .next = &TextGlyphs_Talk_E698BE,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69993Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69588 = { /* 效 */
+    .next = &TextGlyphs_Talk_E69993,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69588Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BA9B = { /* 些 */
+    .next = &TextGlyphs_Talk_E4BAAB,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BA9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99E8B = { /* 鞋 */
+    .next = &TextGlyphs_Talk_E99480,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99E8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D8F = { /* 协 */
+    .next = &TextGlyphs_Talk_E59AA3,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E690BA = { /* 携 */
+    .next = &TextGlyphs_Talk_E69588,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E690BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88381 = { /* 胁 */
+    .next = &TextGlyphs_Talk_E8AFA6,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88381Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68788 = { /* 懈 */
+    .next = &TextGlyphs_Talk_E690BA,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68788Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B384 = { /* 泄 */
+    .next = &TextGlyphs_Talk_E68788,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B384Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B0A2 = { /* 谢 */
+    .next = &TextGlyphs_Talk_E88381,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B0A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6ACA3 = { /* 欣 */
+    .next = &TextGlyphs_Talk_E6B384,
+    .width = 13,
+    .utf_byte_2 = 0xac,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6ACA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E885A5 = { /* 腥 */
+    .next = &TextGlyphs_Talk_E8B0A2,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E885A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585B4 = { /* 兴 */
+    .next = &TextGlyphs_Talk_E58D8F,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98692 = { /* 醒 */
+    .next = &TextGlyphs_Talk_E99E8B,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98692Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A793 = { /* 姓 */
+    .next = &TextGlyphs_Talk_E585B4,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A793Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BE9E = { /* 羞 */
+    .next = &TextGlyphs_Talk_E7A5A5,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BE9ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69CBD = { /* 朽 */
+    .next = &TextGlyphs_Talk_E6ACA3,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69CBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A296 = { /* 袖 */
+    .next = &TextGlyphs_Talk_E885A5,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A296Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A29F = { /* 墟 */
+    .next = &TextGlyphs_Talk_E5A793,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A29FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99C80 = { /* 需 */
+    .next = &TextGlyphs_Talk_E98692,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99C80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8999A = { /* 虚 */
+    .next = &TextGlyphs_Talk_E8A296,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8999ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59898 = { /* 嘘 */
+    .next = &TextGlyphs_Talk_E5A29F,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59898Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A1BB = { /* 须 */
+    .next = &TextGlyphs_Talk_E99C80,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A1BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEB8 = { /* 许 */
+    .next = &TextGlyphs_Talk_E8999A,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEB8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89384 = { /* 蓄 */
+    .next = &TextGlyphs_Talk_E8AEB8,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89384Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A9BF = { /* 婿 */
+    .next = &TextGlyphs_Talk_E59898,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A9BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBAA = { /* 绪 */
+    .next = &TextGlyphs_Talk_E7BE9E,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBAD = { /* 续 */
+    .next = &TextGlyphs_Talk_E7BBAA,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E682AC = { /* 悬 */
+    .next = &TextGlyphs_Talk_E69CBD,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E682ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98089 = { /* 选 */
+    .next = &TextGlyphs_Talk_E9A1BB,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98089Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99DB4 = { /* 靴 */
+    .next = &TextGlyphs_Talk_E98089,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99DB4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58B8B = { /* 勋 */
+    .next = &TextGlyphs_Talk_E5A9BF,
+    .width = 12,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58B8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BEAA = { /* 循 */
+    .next = &TextGlyphs_Talk_E58B8B,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BEAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFA2 = { /* 询 */
+    .next = &TextGlyphs_Talk_E89384,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFA2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AFBB = { /* 寻 */
+    .next = &TextGlyphs_Talk_E5BEAA,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AFBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEAD = { /* 训 */
+    .next = &TextGlyphs_Talk_E8AFA2,
+    .width = 12,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEAF = { /* 讯 */
+    .next = &TextGlyphs_Talk_E8AEAD,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF85 = { /* 迅 */
+    .next = &TextGlyphs_Talk_E8AEAF,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58E8B = { /* 压 */
+    .next = &TextGlyphs_Talk_E5AFBB,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58E8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B8A6 = { /* 鸦 */
+    .next = &TextGlyphs_Talk_E99DB4,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B8A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59180 = { /* 呀 */
+    .next = &TextGlyphs_Talk_E58E8B,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59180Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8AB = { /* 丫 */
+    .next = &TextGlyphs_Talk_E4BA9B,
+    .width = 11,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88ABD = { /* 芽 */
+    .next = &TextGlyphs_Talk_E8BF85,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88ABDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B496 = { /* 崖 */
+    .next = &TextGlyphs_Talk_E59180,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B496Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BA9A = { /* 亚 */
+    .next = &TextGlyphs_Talk_E4B8AB,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BA9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEB6 = { /* 讶 */
+    .next = &TextGlyphs_Talk_E88ABD,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEB6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7839F = { /* 烟 */
+    .next = &TextGlyphs_Talk_E7BBAD,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7839FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B7B9 = { /* 淹 */
+    .next = &TextGlyphs_Talk_E682AC,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B7B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B8A5 = { /* 严 */
+    .next = &TextGlyphs_Talk_E4BA9A,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B8A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A29C = { /* 颜 */
+    .next = &TextGlyphs_Talk_E9B8A6,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A29CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B2BF = { /* 沿 */
+    .next = &TextGlyphs_Talk_E6B7B9,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B2BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68EA9 = { /* 掩 */
+    .next = &TextGlyphs_Talk_E6B2BF,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68EA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A18D = { /* 衍 */
+    .next = &TextGlyphs_Talk_E8AEB6,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A18DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BC94 = { /* 演 */
+    .next = &TextGlyphs_Talk_E68EA9,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BC94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E889B3 = { /* 艳 */
+    .next = &TextGlyphs_Talk_E8A18D,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E889B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58E8C = { /* 厌 */
+    .next = &TextGlyphs_Talk_E5B496,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58E8CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E784B0 = { /* 焰 */
+    .next = &TextGlyphs_Talk_E7839F,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E784B0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9AA8C = { /* 验 */
+    .next = &TextGlyphs_Talk_E9A29C,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9AA8CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6AE83 = { /* 殃 */
+    .next = &TextGlyphs_Talk_E6BC94,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6AE83Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689AC = { /* 扬 */
+    .next = &TextGlyphs_Talk_E6AE83,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B48B = { /* 洋 */
+    .next = &TextGlyphs_Talk_E689AC,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B48BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E998B3 = { /* 阳 */
+    .next = &TextGlyphs_Talk_E9AA8C,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E998B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BBB0 = { /* 仰 */
+    .next = &TextGlyphs_Talk_E4B8A5,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BBB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585BB = { /* 养 */
+    .next = &TextGlyphs_Talk_E58E8C,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A0B7 = { /* 样 */
+    .next = &TextGlyphs_Talk_E6B48B,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A0B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98280 = { /* 邀 */
+    .next = &TextGlyphs_Talk_E998B3,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98280Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A696 = { /* 妖 */
+    .next = &TextGlyphs_Talk_E585BB,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A696Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69187 = { /* 摇 */
+    .next = &TextGlyphs_Talk_E6A0B7,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69187Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E981A5 = { /* 遥 */
+    .next = &TextGlyphs_Talk_E98280,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E981A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88DAF = { /* 药 */
+    .next = &TextGlyphs_Talk_E889B3,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88DAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88080 = { /* 耀 */
+    .next = &TextGlyphs_Talk_E88DAF,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88080Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E788B7 = { /* 爷 */
+    .next = &TextGlyphs_Talk_E784B0,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E788B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B99F = { /* 也 */
+    .next = &TextGlyphs_Talk_E4BBB0,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B99FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B89A = { /* 业 */
+    .next = &TextGlyphs_Talk_E4B99F,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B89ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58FB6 = { /* 叶 */
+    .next = &TextGlyphs_Talk_E5A696,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58FB6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B6B2 = { /* 液 */
+    .next = &TextGlyphs_Talk_E69187,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B6B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58CBB = { /* 医 */
+    .next = &TextGlyphs_Talk_E58FB6,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58CBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BE9D = { /* 依 */
+    .next = &TextGlyphs_Talk_E4B89A,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BE9DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BC8A = { /* 伊 */
+    .next = &TextGlyphs_Talk_E4BE9D,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BC8ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98197 = { /* 遗 */
+    .next = &TextGlyphs_Talk_E981A5,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98197Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BBAA = { /* 仪 */
+    .next = &TextGlyphs_Talk_E4BC8A,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BBAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE9C = { /* 宜 */
+    .next = &TextGlyphs_Talk_E58CBB,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A7A8 = { /* 姨 */
+    .next = &TextGlyphs_Talk_E5AE9C,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A7A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B7B2 = { /* 已 */
+    .next = &TextGlyphs_Talk_E5A7A8,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B7B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E889BA = { /* 艺 */
+    .next = &TextGlyphs_Talk_E88080,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E889BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68A91 = { /* 抑 */
+    .next = &TextGlyphs_Talk_E6B6B2,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68A91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BAA6 = { /* 亦 */
+    .next = &TextGlyphs_Talk_E4BBAA,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BAA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BF86 = { /* 忆 */
+    .next = &TextGlyphs_Talk_E5B7B2,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BF86Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B989 = { /* 义 */
+    .next = &TextGlyphs_Talk_E4BAA6,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B989Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEAE = { /* 议 */
+    .next = &TextGlyphs_Talk_E889BA,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BC82 = { /* 异 */
+    .next = &TextGlyphs_Talk_E5BF86,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BC82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88DAB = { /* 荫 */
+    .next = &TextGlyphs_Talk_E8AEAE,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88DABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E998B4 = { /* 阴 */
+    .next = &TextGlyphs_Talk_E98197,
+    .width = 12,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E998B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E993B6 = { /* 银 */
+    .next = &TextGlyphs_Talk_E998B4,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xb6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E993B6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99A90 = { /* 隐 */
+    .next = &TextGlyphs_Talk_E993B6,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99A90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A9B4 = { /* 婴 */
+    .next = &TextGlyphs_Talk_E5BC82,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A9B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BA94 = { /* 应 */
+    .next = &TextGlyphs_Talk_E5A9B4,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BA94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E890A5 = { /* 营 */
+    .next = &TextGlyphs_Talk_E88DAB,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E890A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B5A2 = { /* 赢 */
+    .next = &TextGlyphs_Talk_E890A5,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B5A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A1AC = { /* 硬 */
+    .next = &TextGlyphs_Talk_E788B7,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A1ACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5939F = { /* 哟 */
+    .next = &TextGlyphs_Talk_E5BA94,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5939FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BA5 = { /* 拥 */
+    .next = &TextGlyphs_Talk_E68A91,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BA5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BDA3 = { /* 佣 */
+    .next = &TextGlyphs_Talk_E4B989,
+    .width = 12,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BDA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BAB8 = { /* 庸 */
+    .next = &TextGlyphs_Talk_E5939F,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BAB8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B9BD = { /* 幽 */
+    .next = &TextGlyphs_Talk_E5BAB8,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B9BDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BC98 = { /* 优 */
+    .next = &TextGlyphs_Talk_E4BDA3,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BC98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E682A0 = { /* 悠 */
+    .next = &TextGlyphs_Talk_E68BA5,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E682A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BFA7 = { /* 忧 */
+    .next = &TextGlyphs_Talk_E5B9BD,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BFA7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B0A4 = { /* 尤 */
+    .next = &TextGlyphs_Talk_E5BFA7,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B0A4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78AB9 = { /* 犹 */
+    .next = &TextGlyphs_Talk_E7A1AC,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78AB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B8B8 = { /* 游 */
+    .next = &TextGlyphs_Talk_E682A0,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B8B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BD91 = { /* 佑 */
+    .next = &TextGlyphs_Talk_E4BC98,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BD91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFB1 = { /* 诱 */
+    .next = &TextGlyphs_Talk_E8B5A2,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFB1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58F88 = { /* 又 */
+    .next = &TextGlyphs_Talk_E5B0A4,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58F88Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BA8E = { /* 于 */
+    .next = &TextGlyphs_Talk_E4BD91,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BA8ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6849A = { /* 愚 */
+    .next = &TextGlyphs_Talk_E6B8B8,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6849ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B1BC = { /* 鱼 */
+    .next = &TextGlyphs_Talk_E99A90,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B1BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B1BF = { /* 屿 */
+    .next = &TextGlyphs_Talk_E58F88,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B1BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE87 = { /* 宇 */
+    .next = &TextGlyphs_Talk_E5B1BF,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFAD = { /* 语 */
+    .next = &TextGlyphs_Talk_E8AFB1,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98381 = { /* 郁 */
+    .next = &TextGlyphs_Talk_E9B1BC,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98381Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E596BB = { /* 喻 */
+    .next = &TextGlyphs_Talk_E5AE87,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E596BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68488 = { /* 愈 */
+    .next = &TextGlyphs_Talk_E6849A,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68488Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78BB1 = { /* 狱 */
+    .next = &TextGlyphs_Talk_E78AB9,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78BB1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A284 = { /* 预 */
+    .next = &TextGlyphs_Talk_E98381,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A284Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B1AB = { /* 豫 */
+    .next = &TextGlyphs_Talk_E8AFAD,
+    .width = 13,
+    .utf_byte_2 = 0xb1,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B1ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A9AD = { /* 驭 */
+    .next = &TextGlyphs_Talk_E9A284,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A9ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B88A = { /* 渊 */
+    .next = &TextGlyphs_Talk_E68488,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B88ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59BAD = { /* 园 */
+    .next = &TextGlyphs_Talk_E596BB,
+    .width = 12,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59BADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59198 = { /* 员 */
+    .next = &TextGlyphs_Talk_E59BAD,
+    .width = 12,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59198Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC98 = { /* 缘 */
+    .next = &TextGlyphs_Talk_E78BB1,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC98Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF9C = { /* 远 */
+    .next = &TextGlyphs_Talk_E8B1AB,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E684BF = { /* 愿 */
+    .next = &TextGlyphs_Talk_E6B88A,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E684BFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E680A8 = { /* 怨 */
+    .next = &TextGlyphs_Talk_E684BF,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E680A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAA6 = { /* 约 */
+    .next = &TextGlyphs_Talk_E7BC98,
+    .width = 12,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B783 = { /* 跃 */
+    .next = &TextGlyphs_Talk_E8BF9C,
+    .width = 13,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B783Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E992A5 = { /* 钥 */
+    .next = &TextGlyphs_Talk_E9A9AD,
+    .width = 12,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E992A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E682A6 = { /* 悦 */
+    .next = &TextGlyphs_Talk_E680A8,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E682A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99885 = { /* 阅 */
+    .next = &TextGlyphs_Talk_E992A5,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99885Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BA91 = { /* 云 */
+    .next = &TextGlyphs_Talk_E4BA8E,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BA91Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58581 = { /* 允 */
+    .next = &TextGlyphs_Talk_E59198,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58581Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF90 = { /* 运 */
+    .next = &TextGlyphs_Talk_E8B783,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69995 = { /* 晕 */
+    .next = &TextGlyphs_Talk_E682A6,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69995Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AD95 = { /* 孕 */
+    .next = &TextGlyphs_Talk_E58581,
+    .width = 13,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AD95Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A0B8 = { /* 砸 */
+    .next = &TextGlyphs_Talk_E7BAA6,
+    .width = 13,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A0B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69D82 = { /* 杂 */
+    .next = &TextGlyphs_Talk_E69995,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69D82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E781BE = { /* 灾 */
+    .next = &TextGlyphs_Talk_E7A0B8,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E781BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDBD = { /* 载 */
+    .next = &TextGlyphs_Talk_E8BF90,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69492 = { /* 攒 */
+    .next = &TextGlyphs_Talk_E69D82,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69492Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69A82 = { /* 暂 */
+    .next = &TextGlyphs_Talk_E69492,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69A82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B59E = { /* 赞 */
+    .next = &TextGlyphs_Talk_E8BDBD,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B59ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8848F = { /* 脏 */
+    .next = &TextGlyphs_Talk_E8B59E,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8848FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E981AD = { /* 遭 */
+    .next = &TextGlyphs_Talk_E99885,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E981ADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7B39F = { /* 糟 */
+    .next = &TextGlyphs_Talk_E781BE,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7B39FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4A3 = { /* 责 */
+    .next = &TextGlyphs_Talk_E8848F,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BA9 = { /* 择 */
+    .next = &TextGlyphs_Talk_E69A82,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58899 = { /* 则 */
+    .next = &TextGlyphs_Talk_E5AD95,
+    .width = 12,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58899Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B3BD = { /* 泽 */
+    .next = &TextGlyphs_Talk_E68BA9,
+    .width = 13,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B3BDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4BC = { /* 贼 */
+    .next = &TextGlyphs_Talk_E8B4A3,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6808E = { /* 怎 */
+    .next = &TextGlyphs_Talk_E6B3BD,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6808ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A29E = { /* 增 */
+    .next = &TextGlyphs_Talk_E58899,
+    .width = 13,
+    .utf_byte_2 = 0xa2,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A29ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69BBE = { /* 曾 */
+    .next = &TextGlyphs_Talk_E6808E,
+    .width = 12,
+    .utf_byte_2 = 0x9b,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69BBETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B5A0 = { /* 赠 */
+    .next = &TextGlyphs_Talk_E8B4BC,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B5A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6898E = { /* 扎 */
+    .next = &TextGlyphs_Talk_E69BBE,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6898ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E596B3 = { /* 喳 */
+    .next = &TextGlyphs_Talk_E5A29E,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E596B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B8A3 = { /* 渣 */
+    .next = &TextGlyphs_Talk_E6898E,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B8A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79CA8 = { /* 眨 */
+    .next = &TextGlyphs_Talk_E7B39F,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79CA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5928B = { /* 咋 */
+    .next = &TextGlyphs_Talk_E596B3,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5928BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B98D = { /* 乍 */
+    .next = &TextGlyphs_Talk_E4BA91,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B98DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69198 = { /* 摘 */
+    .next = &TextGlyphs_Talk_E6B8A3,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69198Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE85 = { /* 宅 */
+    .next = &TextGlyphs_Talk_E5928B,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AA84 = { /* 窄 */
+    .next = &TextGlyphs_Talk_E79CA8,
+    .width = 13,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AA84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E580BA = { /* 债 */
+    .next = &TextGlyphs_Talk_E5AE85,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E580BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AFA8 = { /* 寨 */
+    .next = &TextGlyphs_Talk_E580BA,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AFA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79EBB = { /* 瞻 */
+    .next = &TextGlyphs_Talk_E7AA84,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79EBBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B2BE = { /* 沾 */
+    .next = &TextGlyphs_Talk_E69198,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B2BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E696A9 = { /* 斩 */
+    .next = &TextGlyphs_Talk_E6B2BE,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E696A9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68898 = { /* 战 */
+    .next = &TextGlyphs_Talk_E696A9,
+    .width = 13,
+    .utf_byte_2 = 0x88,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68898Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7AB99 = { /* 站 */
+    .next = &TextGlyphs_Talk_E79EBB,
+    .width = 13,
+    .utf_byte_2 = 0xab,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7AB99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBBD = { /* 绽 */
+    .next = &TextGlyphs_Talk_E7AB99,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BDB0 = { /* 彰 */
+    .next = &TextGlyphs_Talk_E5AFA8,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xb0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BDB0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BCA0 = { /* 张 */
+    .next = &TextGlyphs_Talk_E5BDB0,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BCA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68E8C = { /* 掌 */
+    .next = &TextGlyphs_Talk_E68898,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68E8CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B6A8 = { /* 涨 */
+    .next = &TextGlyphs_Talk_E68E8C,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B6A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B890 = { /* 帐 */
+    .next = &TextGlyphs_Talk_E5BCA0,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B890Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB97 = { /* 仗 */
+    .next = &TextGlyphs_Talk_E4B98D,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689BE = { /* 找 */
+    .next = &TextGlyphs_Talk_E6B6A8,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58586 = { /* 兆 */
+    .next = &TextGlyphs_Talk_E5B890,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58586Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E981AE = { /* 遮 */
+    .next = &TextGlyphs_Talk_E981AD,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E981AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BF99 = { /* 这 */
+    .next = &TextGlyphs_Talk_E8B5A0,
+    .width = 13,
+    .utf_byte_2 = 0xbf,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BF99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78F8D = { /* 珍 */
+    .next = &TextGlyphs_Talk_E7BBBD,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78F8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99288 = { /* 针 */
+    .next = &TextGlyphs_Talk_E981AE,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99288Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BEA6 = { /* 侦 */
+    .next = &TextGlyphs_Talk_E4BB97,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BEA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99C87 = { /* 震 */
+    .next = &TextGlyphs_Talk_E99288,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99C87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99587 = { /* 镇 */
+    .next = &TextGlyphs_Talk_E99C87,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99587Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E998B5 = { /* 阵 */
+    .next = &TextGlyphs_Talk_E99587,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E998B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68CA3 = { /* 挣 */
+    .next = &TextGlyphs_Talk_E689BE,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68CA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79D81 = { /* 睁 */
+    .next = &TextGlyphs_Talk_E78F8D,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79D81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BAF = { /* 拯 */
+    .next = &TextGlyphs_Talk_E68CA3,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BAFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E98391 = { /* 郑 */
+    .next = &TextGlyphs_Talk_E998B5,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E98391Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF81 = { /* 证 */
+    .next = &TextGlyphs_Talk_E8BF99,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88482 = { /* 脂 */
+    .next = &TextGlyphs_Talk_E8AF81,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88482Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B98B = { /* 之 */
+    .next = &TextGlyphs_Talk_E4BEA6,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B98BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB87 = { /* 织 */
+    .next = &TextGlyphs_Talk_E79D81,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8818C = { /* 职 */
+    .next = &TextGlyphs_Talk_E88482,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8818CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A48D = { /* 植 */
+    .next = &TextGlyphs_Talk_E68BAF,
+    .width = 13,
+    .utf_byte_2 = 0xa4,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A48DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6AE96 = { /* 殖 */
+    .next = &TextGlyphs_Talk_E6A48D,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6AE96Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E689A7 = { /* 执 */
+    .next = &TextGlyphs_Talk_E6AE96,
+    .width = 13,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E689A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E580BC = { /* 值 */
+    .next = &TextGlyphs_Talk_E58586,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E580BCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D80 = { /* 址 */
+    .next = &TextGlyphs_Talk_E580BC,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B6BE = { /* 趾 */
+    .next = &TextGlyphs_Talk_E8818C,
+    .width = 13,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B6BETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58FAA = { /* 只 */
+    .next = &TextGlyphs_Talk_E59D80,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58FAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E697A8 = { /* 旨 */
+    .next = &TextGlyphs_Talk_E689A7,
+    .width = 12,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E697A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAB8 = { /* 纸 */
+    .next = &TextGlyphs_Talk_E7BB87,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAB8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68C9A = { /* 挚 */
+    .next = &TextGlyphs_Talk_E697A8,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68C9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68EB7 = { /* 掷 */
+    .next = &TextGlyphs_Talk_E68C9A,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68EB7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E699BA = { /* 智 */
+    .next = &TextGlyphs_Talk_E68EB7,
+    .width = 12,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0xba,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E699BATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A89A = { /* 稚 */
+    .next = &TextGlyphs_Talk_E7BAB8,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A89ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B4A8 = { /* 质 */
+    .next = &TextGlyphs_Talk_E8B6BE,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B4A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9929F = { /* 钟 */
+    .next = &TextGlyphs_Talk_E98391,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x9f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9929FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A1B7 = { /* 衷 */
+    .next = &TextGlyphs_Talk_E8B4A8,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A1B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB88 = { /* 终 */
+    .next = &TextGlyphs_Talk_E7A89A,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB88Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A78D = { /* 种 */
+    .next = &TextGlyphs_Talk_E7BB88,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A78DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BC97 = { /* 众 */
+    .next = &TextGlyphs_Talk_E4B98B,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BC97Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B4B2 = { /* 洲 */
+    .next = &TextGlyphs_Talk_E699BA,
+    .width = 13,
+    .utf_byte_2 = 0xb4,
+    .utf_byte_3 = 0xb2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B4B2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59292 = { /* 咒 */
+    .next = &TextGlyphs_Talk_E58FAA,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59292Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79AB1 = { /* 皱 */
+    .next = &TextGlyphs_Talk_E7A78D,
+    .width = 13,
+    .utf_byte_2 = 0x9a,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79AB1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5AE99 = { /* 宙 */
+    .next = &TextGlyphs_Talk_E59292,
+    .width = 12,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5AE99Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69CB1 = { /* 朱 */
+    .next = &TextGlyphs_Talk_E6B4B2,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69CB1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78CAA = { /* 猪 */
+    .next = &TextGlyphs_Talk_E79AB1,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78CAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AFB8 = { /* 诸 */
+    .next = &TextGlyphs_Talk_E8A1B7,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AFB8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7ABB9 = { /* 竹 */
+    .next = &TextGlyphs_Talk_E78CAA,
+    .width = 13,
+    .utf_byte_2 = 0xab,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7ABB9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E598B1 = { /* 嘱 */
+    .next = &TextGlyphs_Talk_E5AE99,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E598B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89197 = { /* 著 */
+    .next = &TextGlyphs_Talk_E8AFB8,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89197Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69FB1 = { /* 柱 */
+    .next = &TextGlyphs_Talk_E69CB1,
+    .width = 13,
+    .utf_byte_2 = 0x9f,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69FB1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9A9BB = { /* 驻 */
+    .next = &TextGlyphs_Talk_E9929F,
+    .width = 13,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9A9BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68A93 = { /* 抓 */
+    .next = &TextGlyphs_Talk_E69FB1,
+    .width = 13,
+    .utf_byte_2 = 0x8a,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68A93Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68BBD = { /* 拽 */
+    .next = &TextGlyphs_Talk_E68A93,
+    .width = 13,
+    .utf_byte_2 = 0x8b,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68BBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4B893 = { /* 专 */
+    .next = &TextGlyphs_Talk_E4BC97,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4B893Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BDAC = { /* 转 */
+    .next = &TextGlyphs_Talk_E89197,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xac,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BDACTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B59A = { /* 赚 */
+    .next = &TextGlyphs_Talk_E8BDAC,
+    .width = 13,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B59ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BA84 = { /* 庄 */
+    .next = &TextGlyphs_Talk_E598B1,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BA84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6929E = { /* 撞 */
+    .next = &TextGlyphs_Talk_E68BBD,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6929ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59DA0 = { /* 坠 */
+    .next = &TextGlyphs_Talk_E5BA84,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59DA0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58786 = { /* 准 */
+    .next = &TextGlyphs_Talk_E59DA0,
+    .width = 13,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x86,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58786Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68D89 = { /* 捉 */
+    .next = &TextGlyphs_Talk_E6929E,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68D89Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6A18C = { /* 桌 */
+    .next = &TextGlyphs_Talk_E68D89,
+    .width = 13,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6A18CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E790A2 = { /* 琢 */
+    .next = &TextGlyphs_Talk_E7ABB9,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0xa2,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E790A2Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585B9 = { /* 兹 */
+    .next = &TextGlyphs_Talk_E58786,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xb9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585B9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B584 = { /* 资 */
+    .next = &TextGlyphs_Talk_E8B59A,
+    .width = 12,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B584Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6BB8B = { /* 滋 */
+    .next = &TextGlyphs_Talk_E6A18C,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6BB8BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BB94 = { /* 仔 */
+    .next = &TextGlyphs_Talk_E4B893,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BB94Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B8AA = { /* 踪 */
+    .next = &TextGlyphs_Talk_E8B584,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B8AATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BBBC = { /* 综 */
+    .next = &TextGlyphs_Talk_E790A2,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0xbc,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BBBCTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E680BB = { /* 总 */
+    .next = &TextGlyphs_Talk_E6BB8B,
+    .width = 13,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E680BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAB5 = { /* 纵 */
+    .next = &TextGlyphs_Talk_E7BBBC,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAB5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68F8D = { /* 揍 */
+    .next = &TextGlyphs_Talk_E680BB,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68F8DTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58D92 = { /* 卒 */
+    .next = &TextGlyphs_Talk_E585B9,
+    .width = 13,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58D92Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AF85 = { /* 诅 */
+    .next = &TextGlyphs_Talk_E8B8AA,
+    .width = 13,
+    .utf_byte_2 = 0xaf,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AF85Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BB84 = { /* 组 */
+    .next = &TextGlyphs_Talk_E7BAB5,
+    .width = 13,
+    .utf_byte_2 = 0xbb,
+    .utf_byte_3 = 0x84,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BB84Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E992BB = { /* 钻 */
+    .next = &TextGlyphs_Talk_E9A9BB,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xbb,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E992BBTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E598B4 = { /* 嘴 */
+    .next = &TextGlyphs_Talk_E58D92,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xb4,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E598B4Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E981B5 = { /* 遵 */
+    .next = &TextGlyphs_Talk_E992BB,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E981B5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E698A8 = { /* 昨 */
+    .next = &TextGlyphs_Talk_E68F8D,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E698A8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BD90 = { /* 佐 */
+    .next = &TextGlyphs_Talk_E4BB94,
+    .width = 13,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BD90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5819A = { /* 做 */
+    .next = &TextGlyphs_Talk_E598B4,
+    .width = 13,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5819ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59D90 = { /* 坐 */
+    .next = &TextGlyphs_Talk_E5819A,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59D90Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58EAE = { /* 厮 */
+    .next = &TextGlyphs_Talk_E59D90,
+    .width = 13,
+    .utf_byte_2 = 0x8e,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58EAETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E585AE = { /* 兮 */
+    .next = &TextGlyphs_Talk_E58EAE,
+    .width = 13,
+    .utf_byte_2 = 0x85,
+    .utf_byte_3 = 0xae,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E585AETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E4BAB5 = { /* 亵 */
+    .next = &TextGlyphs_Talk_E4BD90,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xb5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E4BAB5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7A680 = { /* 禀 */
+    .next = &TextGlyphs_Talk_E7BB84,
+    .width = 13,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7A680Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E586A5 = { /* 冥 */
+    .next = &TextGlyphs_Talk_E585AE,
+    .width = 13,
+    .utf_byte_2 = 0x86,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E586A5Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8AEAA = { /* 讪 */
+    .next = &TextGlyphs_Talk_E8AF85,
+    .width = 13,
+    .utf_byte_2 = 0xae,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8AEAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B099 = { /* 谙 */
+    .next = &TextGlyphs_Talk_E8AEAA,
+    .width = 13,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B099Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E998B1 = { /* 阱 */
+    .next = &TextGlyphs_Talk_E981B5,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E998B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E982B8 = { /* 邸 */
+    .next = &TextGlyphs_Talk_E998B1,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E982B8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E88C9C = { /* 茜 */
+    .next = &TextGlyphs_Talk_E8B099,
+    .width = 13,
+    .utf_byte_2 = 0x8c,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E88C9CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89083 = { /* 萃 */
+    .next = &TextGlyphs_Talk_E88C9C,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89083Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58FBD = { /* 叽 */
+    .next = &TextGlyphs_Talk_E586A5,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xbd,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58FBDTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E58FA8 = { /* 叨 */
+    .next = &TextGlyphs_Talk_E58FBD,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0xa8,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E58FA8Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59096 = { /* 吖 */
+    .next = &TextGlyphs_Talk_E58FA8,
+    .width = 13,
+    .utf_byte_2 = 0x90,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59096Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59183 = { /* 呃 */
+    .next = &TextGlyphs_Talk_E59096,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0x83,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59183Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E591B1 = { /* 呱 */
+    .next = &TextGlyphs_Talk_E59183,
+    .width = 13,
+    .utf_byte_2 = 0x91,
+    .utf_byte_3 = 0xb1,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E591B1Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E592A6 = { /* 咦 */
+    .next = &TextGlyphs_Talk_E591B1,
+    .width = 13,
+    .utf_byte_2 = 0x92,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E592A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E594A0 = { /* 唠 */
+    .next = &TextGlyphs_Talk_E592A6,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E594A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59494 = { /* 唔 */
+    .next = &TextGlyphs_Talk_E594A0,
+    .width = 13,
+    .utf_byte_2 = 0x94,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59494Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E595A7 = { /* 啧 */
+    .next = &TextGlyphs_Talk_E59494,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E595A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59694 = { /* 喔 */
+    .next = &TextGlyphs_Talk_E595A7,
+    .width = 13,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59694Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E597A6 = { /* 嗦 */
+    .next = &TextGlyphs_Talk_E59694,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E597A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E597AF = { /* 嗯 */
+    .next = &TextGlyphs_Talk_E597A6,
+    .width = 13,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E597AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59881 = { /* 嘁 */
+    .next = &TextGlyphs_Talk_E597AF,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59881Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E59997 = { /* 噗 */
+    .next = &TextGlyphs_Talk_E59881,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E59997Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B8B7 = { /* 帷 */
+    .next = &TextGlyphs_Talk_E59997,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B8B7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5B29A = { /* 岚 */
+    .next = &TextGlyphs_Talk_E5B8B7,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5B29ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E68398 = { /* 惘 */
+    .next = &TextGlyphs_Talk_E698A8,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E68398Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E684A3 = { /* 愣 */
+    .next = &TextGlyphs_Talk_E68398,
+    .width = 13,
+    .utf_byte_2 = 0x84,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E684A3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B28C = { /* 沌 */
+    .next = &TextGlyphs_Talk_E684A3,
+    .width = 13,
+    .utf_byte_2 = 0xb2,
+    .utf_byte_3 = 0x8c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B28CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E6B88E = { /* 渎 */
+    .next = &TextGlyphs_Talk_E6B28C,
+    .width = 13,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E6B88ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5BCA9 = { /* 弩 */
+    .next = &TextGlyphs_Talk_E5B29A,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xa9,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5BCA9Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E5A885 = { /* 娅 */
+    .next = &TextGlyphs_Talk_E5BCA9,
+    .width = 13,
+    .utf_byte_2 = 0xa8,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E5A885Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BAA3 = { /* 纣 */
+    .next = &TextGlyphs_Talk_E7A680,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xa3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BAA3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BC87 = { /* 缇 */
+    .next = &TextGlyphs_Talk_E7BAA3,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x87,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BC87Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BCAA = { /* 缪 */
+    .next = &TextGlyphs_Talk_E7BC87,
+    .width = 13,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0xaa,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BCAATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78F82 = { /* 珂 */
+    .next = &TextGlyphs_Talk_E7BCAA,
+    .width = 12,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78F82Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E78F80 = { /* 珀 */
+    .next = &TextGlyphs_Talk_E78F82,
+    .width = 13,
+    .utf_byte_2 = 0x8f,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E78F80Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69EAD = { /* 枭 */
+    .next = &TextGlyphs_Talk_E6B88E,
+    .width = 13,
+    .utf_byte_2 = 0x9e,
+    .utf_byte_3 = 0xad,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69EADTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A78A = { /* 觊 */
+    .next = &TextGlyphs_Talk_E89083,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A78ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8A78E = { /* 觎 */
+    .next = &TextGlyphs_Talk_E8A78A,
+    .width = 13,
+    .utf_byte_2 = 0xa7,
+    .utf_byte_3 = 0x8e,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8A78ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69595 = { /* 敕 */
+    .next = &TextGlyphs_Talk_E69EAD,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69595Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E883A7 = { /* 胧 */
+    .next = &TextGlyphs_Talk_E8A78E,
+    .width = 13,
+    .utf_byte_2 = 0x83,
+    .utf_byte_3 = 0xa7,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E883A7Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E69CA6 = { /* 朦 */
+    .next = &TextGlyphs_Talk_E69595,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E69CA6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E782AB = { /* 炫 */
+    .next = &TextGlyphs_Talk_E78F80,
+    .width = 13,
+    .utf_byte_2 = 0x82,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E782ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E79DBF = { /* 睿 */
+    .next = &TextGlyphs_Talk_E782AB,
+    .width = 13,
+    .utf_byte_2 = 0x9d,
+    .utf_byte_3 = 0xbf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E79DBFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E7BE81 = { /* 羁 */
+    .next = &TextGlyphs_Talk_E79DBF,
+    .width = 13,
+    .utf_byte_2 = 0xbe,
+    .utf_byte_3 = 0x81,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E7BE81Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E993A0 = { /* 铠 */
+    .next = &TextGlyphs_Talk_E982B8,
+    .width = 13,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E993A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E99596 = { /* 镖 */
+    .next = &TextGlyphs_Talk_E993A0,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E99596Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E995AF = { /* 镯 */
+    .next = &TextGlyphs_Talk_E99596,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xaf,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E995AFTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E995B3 = { /* 镳 */
+    .next = &TextGlyphs_Talk_E995AF,
+    .width = 13,
+    .utf_byte_2 = 0x95,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E995B3Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9B9AB = { /* 鹫 */
+    .next = &TextGlyphs_Talk_E995B3,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9B9ABTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E798A0 = { /* 瘠 */
+    .next = &TextGlyphs_Talk_E7BE81,
+    .width = 13,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0xa0,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E798A0Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89994 = { /* 虔 */
+    .next = &TextGlyphs_Talk_E883A7,
+    .width = 13,
+    .utf_byte_2 = 0x99,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89994Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E89C9A = { /* 蜚 */
+    .next = &TextGlyphs_Talk_E89994,
+    .width = 13,
+    .utf_byte_2 = 0x9c,
+    .utf_byte_3 = 0x9a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E89C9ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8B982 = { /* 蹂 */
+    .next = &TextGlyphs_Talk_E89C9A,
+    .width = 13,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x82,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8B982Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E8BA8F = { /* 躏 */
+    .next = &TextGlyphs_Talk_E8B982,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E8BA8FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_E9BABE = { /* 麾 */
+    .next = &TextGlyphs_Talk_E9B9AB,
+    .width = 13,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0xbe,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_E9BABETiles,
+};
+
 struct GlyphNew const * const TextGlyphs_TalkNew[0x100 - 0x20] = {
-    [0xe3 - 0x20] = &TextGlyphs_Talk_E38293,
+    [0xe3 - 0x20] = &TextGlyphs_Talk_E38083,
     [0xe2 - 0x20] = &TextGlyphs_Talk_E28792,
-    [0xe6 - 0x20] = &TextGlyphs_Talk_E694B9,
-    [0xe9 - 0x20] = &TextGlyphs_Talk_E9A3BE,
-    [0xe5 - 0x20] = &TextGlyphs_Talk_E591A8,
-    [0xe8 - 0x20] = &TextGlyphs_Talk_E88289,
-    [0xe7 - 0x20] = &TextGlyphs_Talk_E7B79A,
+    [0xe6 - 0x20] = &TextGlyphs_Talk_E69CA6,
+    [0xe9 - 0x20] = &TextGlyphs_Talk_E9BABE,
+    [0xe5 - 0x20] = &TextGlyphs_Talk_E5A885,
+    [0xe8 - 0x20] = &TextGlyphs_Talk_E8BA8F,
+    [0xe7 - 0x20] = &TextGlyphs_Talk_E798A0,
     [0xef - 0x20] = &TextGlyphs_Talk_EFBD9A,
-    [0xe4 - 0x20] = &TextGlyphs_Talk_E4B9B3,
+    [0xe4 - 0x20] = &TextGlyphs_Talk_E4BAB5,
     [0xd0 - 0x20] = &TextGlyphs_Talk_D0B4,
     [0xc3 - 0x20] = &TextGlyphs_Talk_C3BC,
     [0xce - 0x20] = &TextGlyphs_Talk_CEB5,
@@ -15429,5 +28560,5 @@ struct GlyphNew const * const TextGlyphs_TalkNew[0x100 - 0x20] = {
     [0x7c - 0x20] = &TextGlyphs_Talk_7C,
     [0x7d - 0x20] = &TextGlyphs_Talk_7D,
     [0x7e - 0x20] = &TextGlyphs_Talk_7E,
-    [0xc2 - 0x20] = &TextGlyphs_Talk_C2BF,
+    [0xc2 - 0x20] = &TextGlyphs_Talk_C2B0,
 };
