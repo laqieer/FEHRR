@@ -22,6 +22,7 @@ struct GlyphNew
 };
 
 void SetLang(int lang);
+void ChangeLang(void);
 
 void PrintSystemGlyphs();
 void PrintTalkGlyphs();

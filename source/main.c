@@ -18,6 +18,7 @@
 #include "log.h"
 
 #include "textNew.h"
+#include "menuNew.h"
 
 #ifndef GIT_VERSION
     #define GIT_VERSION "unknown"
@@ -35,7 +36,8 @@ void PutBuildInfoNew()
 
 void ShowStartupMenu()
 {
-    func_fe6_0801AAE0();
+    // func_fe6_0801AAE0();
+    StartMenu_Debug_StartUp();
 
     PutBuildInfoNew();
 }
@@ -81,7 +83,7 @@ void AgbMainNew()
     m4aSoundInit();
     SetOnVBlank(OnVBlank);
 
-    SetLang(LANGUAGE_CHINESE);
+    // SetLang(LANGUAGE_CHINESE);
     // PrintSystemGlyphs();
     // PrintTalkGlyphs();
 

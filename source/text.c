@@ -71,6 +71,11 @@ void SetLang(int lang)
     gLang = lang;
 }
 
+void ChangeLang(void)
+{
+    gLang = (gLang + 1) % LANGUAGE_NUM;
+}
+
 void SetTextFontGlyphsNew(int glyphSet)
 {
     if (glyphSet == TEXT_GLYPHS_SYSTEM)

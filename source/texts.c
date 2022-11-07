@@ -20865,20 +20865,20 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3477] = {
         [LANGUAGE_JAPANESE] = "　リリースエントリ""\x01""",
-        [LANGUAGE_ENGLISH] = "  Release Entry",
-        [LANGUAGE_CHINESE] = " 正式版入口""\x01""",
+        [LANGUAGE_ENGLISH] = " Release Entry",
+        [LANGUAGE_CHINESE] = "  正式版入口""\x01""",
     },
 
     [3478] = {
         [LANGUAGE_JAPANESE] = "　どこでも再開""\x01""",
-        [LANGUAGE_ENGLISH] = "  Free Continue",
-        [LANGUAGE_CHINESE] = " 继续游戏""\x01""",
+        [LANGUAGE_ENGLISH] = " Free Continue",
+        [LANGUAGE_CHINESE] = "  继续游戏""\x01""",
     },
 
     [3479] = {
         [LANGUAGE_JAPANESE] = "　手再開""\x01""",
-        [LANGUAGE_ENGLISH] = "  Manual Continue""\x01""",
-        [LANGUAGE_CHINESE] = " 继续""\x01""",
+        [LANGUAGE_ENGLISH] = " Manual Continue""\x01""",
+        [LANGUAGE_CHINESE] = "  继续""\x01""",
     },
 
     [3480] = {
@@ -22263,14 +22263,20 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3710] = {
         [LANGUAGE_JAPANESE] = "ファイアーエムブレム・メインテーマ""\x01""",
-        [LANGUAGE_ENGLISH] = "ファ<アー>ムブレム・メ<ンテーマ""\x01""",
+        [LANGUAGE_ENGLISH] = "Fire Emblem Main Theme""\x01""",
         [LANGUAGE_CHINESE] = "火焰之纹章·主旋律""\x01""",
     },
 
     [3711] = {
         [LANGUAGE_JAPANESE] = "タイトル画面""\x01""",
-        [LANGUAGE_ENGLISH] = "~<トル画面""\x01""",
+        [LANGUAGE_ENGLISH] = "Title Screen""\x01""",
         [LANGUAGE_CHINESE] = "标题画面""\x01""",
+    },
+
+    [3712] = {
+        [LANGUAGE_JAPANESE] = "　表示言語切替""\x01""",
+        [LANGUAGE_ENGLISH] = " Change Language""\x01""",
+        [LANGUAGE_CHINESE] = "  切换显示语言""\x01""",
     },
 
 };
