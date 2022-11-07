@@ -91,10 +91,6 @@ void SetTextFontGlyphsOld(int glyphSet)
 int GetStringTextLenNew(char const * str)
 {
     struct GlyphNew const * glyph;
-    u8 byte1 = 0;
-    u8 byte2 = 0;
-    u8 byte3 = 0;
-    u8 byte4 = 0;
 
     int result = 0;
 
@@ -104,6 +100,11 @@ int GetStringTextLenNew(char const * str)
 
     while (*str > 1)
     {
+        u8 byte1 = 0;
+        u8 byte2 = 0;
+        u8 byte3 = 0;
+        u8 byte4 = 0;
+
         byte1 = *str++;
 
         if (byte1 < 0x20)
@@ -214,10 +215,6 @@ char const * GetStringLineEndOld(char const * str)
 void Text_DrawStringNew(struct Text * text, char const * str)
 {
     struct GlyphNew const * glyph;
-    u8 byte1 = 0;
-    u8 byte2 = 0;
-    u8 byte3 = 0;
-    u8 byte4 = 0;
 
     // if (gActiveFont->lang != LANG_JAPANESE)
     // {
@@ -228,6 +225,11 @@ void Text_DrawStringNew(struct Text * text, char const * str)
 
     while (*str > 1)
     {
+        u8 byte1 = 0;
+        u8 byte2 = 0;
+        u8 byte3 = 0;
+        u8 byte4 = 0;
+
         byte1 = *str++;
 
         if (byte1 < 0x20)
