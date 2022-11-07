@@ -296,7 +296,7 @@ void Text_DrawNumberNew(struct Text * text, int number)
 
     char str[12];
     sprintf(str, "%d", number);
-    text->x -= GetStringTextLenNew(str);
+    text->x -= GetStringTextLenNew(str) - 8;
     Text_DrawStringNew(text, str);
 }
 
