@@ -31,15 +31,14 @@ def read_glyphs_from_file(filename):
 def read_more_glyphs(glyphs, dirname, type):
     with open(Path(dirname)/'font.fontall.txt', 'r', encoding='utf-8') as f:
         for line in f:
-            match = re.search(fr'^(.)\t{FontType[type]}\t([0-9]+)\tFont{FontType[type].capitalize()}_([0-9a-fA-F]+).png$', line)
+            match = re.search(fr'^(.)\t{FontType[type]}\t([0-9]+)\tFont{FontType[type].capitalize()}(.+).png$', line)
             if match:
                 character = match.group(1)
                 if character not in glyphs:
                     glyphs[character] = {
                         "width": int(match.group(2), 10),
                     }
-                    assert(match.group(3) == "".join("{:02X}".format(x) for x in character.encode("utf-8")))
-                    shutil.copyfile(Path(dirname)/f'Font{FontType[type].capitalize()}_{match.group(3)}.png', Path('gfx/glyph')/f'TextGlyphs_{type.name}_{match.group(3)}.png')
+                    shutil.copyfile(Path(dirname)/f'Font{FontType[type].capitalize()}{match.group(3)}.png', Path('gfx/glyph')/f'TextGlyphs_{type.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
 
 def make_linker_script_file(glyphs, filename):
     with open(filename, 'w', encoding='utf-8') as f:
@@ -85,12 +84,14 @@ def main():
     make_C_header_file(glyphs, "include/TextGlyphs_System.h")
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.System)
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.System)
+    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/道具标点", GlyphType.System)
     make_C_source_file(glyphs, "source/TextGlyphs_System.c")
     glyphs = read_glyphs_from_file("glyph/TextGlyphs_Talk.txt")
     make_linker_script_file(glyphs, "ldscript/TextGlyphs_Talk.lds")
     make_C_header_file(glyphs, "include/TextGlyphs_Talk.h")
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.Talk)
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.Talk)
+    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/对话标点", GlyphType.Talk)
     make_C_source_file(glyphs, "source/TextGlyphs_Talk.c")
 
 if __name__ == "__main__":

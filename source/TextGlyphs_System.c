@@ -27750,15 +27750,159 @@ const struct GlyphNew TextGlyphs_System_E9BABE = { /* 麾 */
     .bitmap = TextGlyphs_System_E9BABETiles,
 };
 
+const struct GlyphNew TextGlyphs_System_EFBC9B = { /* ； */
+    .next = &TextGlyphs_System_EFBD9A,
+    .width = 10,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_EFBC9BTiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E28098 = { /* ‘ */
+    .next = &TextGlyphs_System_E28A87,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E28098Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E28099 = { /* ’ */
+    .next = &TextGlyphs_System_E28098,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E28099Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E2809C = { /* “ */
+    .next = &TextGlyphs_System_E28099,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E2809CTiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E2809D = { /* ” */
+    .next = &TextGlyphs_System_E2809C,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E2809DTiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E38094 = { /* 〔 */
+    .next = &TextGlyphs_System_E38083,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E38094Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E38095 = { /* 〕 */
+    .next = &TextGlyphs_System_E38094,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E38095Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E38090 = { /* 【 */
+    .next = &TextGlyphs_System_E38095,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E38090Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E38091 = { /* 】 */
+    .next = &TextGlyphs_System_E38090,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E38091Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E28094 = { /* — */
+    .next = &TextGlyphs_System_E2809D,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E28094Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E280A6 = { /* … */
+    .next = &TextGlyphs_System_E28094,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E280A6Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E28093 = { /* – */
+    .next = &TextGlyphs_System_E280A6,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E28093Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E3808A = { /* 《 */
+    .next = &TextGlyphs_System_E38091,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x8a,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E3808ATiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E3808B = { /* 》 */
+    .next = &TextGlyphs_System_E3808A,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E3808BTiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E38088 = { /* 〈 */
+    .next = &TextGlyphs_System_E3808B,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x88,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E38088Tiles,
+};
+
+const struct GlyphNew TextGlyphs_System_E38089 = { /* 〉 */
+    .next = &TextGlyphs_System_E38088,
+    .width = 10,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x89,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_System_E38089Tiles,
+};
+
 struct GlyphNew const * const TextGlyphs_SystemNew[0x100 - 0x20] = {
-    [0xe3 - 0x20] = &TextGlyphs_System_E38083,
-    [0xe2 - 0x20] = &TextGlyphs_System_E28A87,
+    [0xe3 - 0x20] = &TextGlyphs_System_E38089,
+    [0xe2 - 0x20] = &TextGlyphs_System_E28093,
     [0xe6 - 0x20] = &TextGlyphs_System_E69CA6,
     [0xe9 - 0x20] = &TextGlyphs_System_E9BABE,
     [0xe5 - 0x20] = &TextGlyphs_System_E5A885,
     [0xe8 - 0x20] = &TextGlyphs_System_E8BA8F,
     [0xe7 - 0x20] = &TextGlyphs_System_E798A0,
-    [0xef - 0x20] = &TextGlyphs_System_EFBD9A,
+    [0xef - 0x20] = &TextGlyphs_System_EFBC9B,
     [0xe4 - 0x20] = &TextGlyphs_System_E4BAB5,
     [0xce - 0x20] = &TextGlyphs_System_CEB5,
     [0x20 - 0x20] = &TextGlyphs_System_20,
