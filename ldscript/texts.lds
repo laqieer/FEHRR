@@ -852,3 +852,7 @@
 .rodata.textId_3724_0 : {*(.rodata.textId_3724_0)}
 . = 0x8690db4;
 .rodata.textId_3725_0 : {*(.rodata.textId_3725_0)}
+. = 0x810e264;
+.rodata.textId_3727_0 : {*(.rodata.textId_3727_0)}
+. = 0x8073804;
+.rodata.textId_3727_1 : {*(.rodata.textId_3727_1)}

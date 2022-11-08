@@ -22341,7 +22341,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3723] = {
         [LANGUAGE_JAPANESE] = "ファイアーエムブレム・メインテーマ""\x01""",
-        [LANGUAGE_ENGLISH] = "Fire Emblem Main Theme""\x01""",
+        [LANGUAGE_ENGLISH] = "Fire Emblem - Main Theme""\x01""",
         [LANGUAGE_CHINESE] = "火焰之纹章·主旋律""\x01""",
     },
 
@@ -22361,6 +22361,12 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_JAPANESE] = "　表示言語切替""\x01""",
         [LANGUAGE_ENGLISH] = " Change Language""\x01""",
         [LANGUAGE_CHINESE] = " 切换显示语言""\x01""",
+    },
+
+    [3727] = {
+        [LANGUAGE_JAPANESE] = "Ｇ""\x01""",
+        [LANGUAGE_ENGLISH] = "G""\x01""",
+        [LANGUAGE_CHINESE] = "G""\x01""",
     },
 
 };
@@ -22792,3 +22798,5 @@ const int textId_3722_0 = 3722;
 const int textId_3723_0 = 3723;
 const int textId_3724_0 = 3724;
 const int textId_3725_0 = 3725;
+const int textId_3727_0 = 3727;
+const int textId_3727_1 = 3727;
