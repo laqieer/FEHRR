@@ -88,25 +88,25 @@ fu8 ChangeLanguage(struct MenuProc * menu, struct MenuEntProc * ent)
 struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
 {
     {
-        .label = (const char *)3712, // 表示言語切替
+        .label = (const char *)3726, // 表示言語切替
         .available = MenuEntryEnabled,
         .on_select = ChangeLanguage,
     },
 
     {
-        .label = (const char *)3477, // リリースエントリ
+        .label = (const char *)3498, // リリースエントリ
         .available = MenuEntryEnabled,
         .on_select = func_fe6_0801AEBC,
     },
 
     {
-        .label = (const char *)3478, // どこでも再開
+        .label = (const char *)3499, // どこでも再開
         .available = func_fe6_0801ADB4,
         .on_select = func_fe6_0801ADCC,
     },
 
     {
-        .label = (const char *)3479, // 手再開
+        .label = (const char *)3500, // 手再開
         .available = func_fe6_0801AD6C,
         .on_select = func_fe6_0801AD84,
     },

@@ -21,6 +21,7 @@ struct GlyphNew
     const unsigned int * bitmap;
 };
 
+int GetLangNew(void);
 void SetLang(int lang);
 void ChangeLang(void);
 

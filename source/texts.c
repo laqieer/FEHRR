@@ -20054,111 +20054,111 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3342] = {
+        [LANGUAGE_JAPANESE] = "ー""\x01""",
+        [LANGUAGE_ENGLISH] = "ー""\x01""",
+        [LANGUAGE_CHINESE] = "—""\x01""",
+    },
+
+    [3343] = {
         [LANGUAGE_JAPANESE] = "周回数""\x01""",
         [LANGUAGE_ENGLISH] = "Null""\x01""",
         [LANGUAGE_CHINESE] = "周回数""\x01""",
     },
 
-    [3343] = {
+    [3344] = {
         [LANGUAGE_JAPANESE] = "周目""\x01""",
         [LANGUAGE_ENGLISH] = "Null""\x01""",
         [LANGUAGE_CHINESE] = "周目""\x01""",
     },
 
-    [3344] = {
+    [3345] = {
+        [LANGUAGE_JAPANESE] = "Ｓ""\x01""",
+        [LANGUAGE_ENGLISH] = "S""\x01""",
+        [LANGUAGE_CHINESE] = "S""\x01""",
+    },
+
+    [3346] = {
         [LANGUAGE_JAPANESE] = "赤軍""\x01""",
         [LANGUAGE_ENGLISH] = "赤軍""\x01""",
         [LANGUAGE_CHINESE] = "红军""\x01""",
     },
 
-    [3345] = {
+    [3347] = {
         [LANGUAGE_JAPANESE] = "緑軍""\x01""",
         [LANGUAGE_ENGLISH] = "緑軍""\x01""",
         [LANGUAGE_CHINESE] = "绿军""\x01""",
     },
 
-    [3346] = {
+    [3348] = {
         [LANGUAGE_JAPANESE] = "属性""\x01""",
         [LANGUAGE_ENGLISH] = "Affi""\x01""",
         [LANGUAGE_CHINESE] = "属性""\x01""",
     },
 
-    [3347] = {
+    [3349] = {
         [LANGUAGE_JAPANESE] = "攻撃""\x01""",
         [LANGUAGE_ENGLISH] = "Atk""\x01""",
         [LANGUAGE_CHINESE] = "攻击""\x01""",
     },
 
-    [3348] = {
+    [3350] = {
         [LANGUAGE_JAPANESE] = "命中""\x01""",
         [LANGUAGE_ENGLISH] = "Hit""\x01""",
         [LANGUAGE_CHINESE] = "命中""\x01""",
     },
 
-    [3349] = {
+    [3351] = {
         [LANGUAGE_JAPANESE] = "必殺""\x01""",
         [LANGUAGE_ENGLISH] = "Crit""\x01""",
         [LANGUAGE_CHINESE] = "必杀""\x01""",
     },
 
-    [3350] = {
+    [3352] = {
         [LANGUAGE_JAPANESE] = "回避""\x01""",
         [LANGUAGE_ENGLISH] = "Avo""\x01""",
         [LANGUAGE_CHINESE] = "回避""\x01""",
     },
 
-    [3351] = {
+    [3353] = {
+        [LANGUAGE_JAPANESE] = "ＨＰ""\x01""",
+        [LANGUAGE_ENGLISH] = "HP""\x01""",
+        [LANGUAGE_CHINESE] = "HP""\x01""",
+    },
+
+    [3354] = {
         [LANGUAGE_JAPANESE] = "体格""\x01""",
         [LANGUAGE_ENGLISH] = "Con""\x01""",
         [LANGUAGE_CHINESE] = "体格""\x01""",
     },
 
-    [3352] = {
+    [3355] = {
         [LANGUAGE_JAPANESE] = "救出""\x01""",
         [LANGUAGE_ENGLISH] = "Aid""\x01""",
         [LANGUAGE_CHINESE] = "救出""\x01""",
     },
 
-    [3353] = {
+    [3356] = {
         [LANGUAGE_JAPANESE] = "状態""\x01""",
         [LANGUAGE_ENGLISH] = "Cond""\x01""",
         [LANGUAGE_CHINESE] = "状态""\x01""",
     },
 
-    [3354] = {
+    [3357] = {
         [LANGUAGE_JAPANESE] = "魔防""\x01""",
         [LANGUAGE_ENGLISH] = "Res""\x01""",
         [LANGUAGE_CHINESE] = "魔防""\x01""",
     },
 
-    [3355] = {
-        [LANGUAGE_JAPANESE] = "魔防""\x01""",
-        [LANGUAGE_ENGLISH] = "Res""\x01""",
-        [LANGUAGE_CHINESE] = "魔防""\x01""",
-    },
-
-    [3356] = {
+    [3358] = {
         [LANGUAGE_JAPANESE] = "命中""\x01""",
         [LANGUAGE_ENGLISH] = "Hit""\x01""",
         [LANGUAGE_CHINESE] = "命中""\x01""",
     },
 
-    [3357] = {
+    [3359] = {
         [LANGUAGE_JAPANESE] = "何もありません""\x01""",
         [LANGUAGE_ENGLISH] = "Empty""\x01""",
         [LANGUAGE_CHINESE] = "什么也没有""\x01""",
-    },
-
-    [3358] = {
-        [LANGUAGE_JAPANESE] = "未　使　用""\x01""",
-        [LANGUAGE_ENGLISH] = "NO DATA""\x01""",
-        [LANGUAGE_CHINESE] = "未 使 用""\x01""",
-    },
-
-    [3359] = {
-        [LANGUAGE_JAPANESE] = "未　使　用""\x01""",
-        [LANGUAGE_ENGLISH] = "NO DATA""\x01""",
-        [LANGUAGE_CHINESE] = "未 使 用""\x01""",
     },
 
     [3360] = {
@@ -20168,327 +20168,327 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3361] = {
-        [LANGUAGE_JAPANESE] = "未　使　用""\x01""",
-        [LANGUAGE_ENGLISH] = "NO DATA""\x01""",
-        [LANGUAGE_CHINESE] = "未 使 用""\x01""",
-    },
-
-    [3362] = {
         [LANGUAGE_JAPANESE] = "未選択""\x01""",
         [LANGUAGE_ENGLISH] = "NOT SELECTED""\x01""",
         [LANGUAGE_CHINESE] = "未选择""\x01""",
     },
 
-    [3363] = {
+    [3362] = {
         [LANGUAGE_JAPANESE] = "消す　　　やめる""\x01""",
         [LANGUAGE_ENGLISH] = "Erase""\x01""",
         [LANGUAGE_CHINESE] = "删除   不要""\x01""",
     },
 
-    [3364] = {
+    [3363] = {
         [LANGUAGE_JAPANESE] = "戻る　　　やめる""\x01""",
         [LANGUAGE_ENGLISH] = "Back""\x01""",
         [LANGUAGE_CHINESE] = "返回   不要""\x01""",
     },
 
-    [3365] = {
+    [3364] = {
         [LANGUAGE_JAPANESE] = "ＮＯＷ　ＬＯＡＤＩＮＧ""\x01""",
         [LANGUAGE_ENGLISH] = "ＮＯＷ　ＬＯＡＤＩＮＧ""\x01""",
         [LANGUAGE_CHINESE] = "NOW LOADING""\x01""",
     },
 
-    [3366] = {
+    [3365] = {
         [LANGUAGE_JAPANESE] = "位""\x01""",
         [LANGUAGE_ENGLISH] = "１st""\x01""",
         [LANGUAGE_CHINESE] = "位""\x01""",
     },
 
-    [3367] = {
+    [3366] = {
         [LANGUAGE_JAPANESE] = "人""\x01""",
         [LANGUAGE_ENGLISH] = "P""\x01""",
         [LANGUAGE_CHINESE] = "人""\x01""",
     },
 
-    [3368] = {
+    [3367] = {
         [LANGUAGE_JAPANESE] = "チーム名""\x01""",
         [LANGUAGE_ENGLISH] = "Name""\x01""",
         [LANGUAGE_CHINESE] = "小队名""\x01""",
+    },
+
+    [3368] = {
+        [LANGUAGE_JAPANESE] = "得点""\x01""",
+        [LANGUAGE_ENGLISH] = "Points""\x01""",
+        [LANGUAGE_CHINESE] = "得分""\x01""",
     },
 
     [3369] = {
-        [LANGUAGE_JAPANESE] = "得点""\x01""",
-        [LANGUAGE_ENGLISH] = "Points""\x01""",
-        [LANGUAGE_CHINESE] = "得分""\x01""",
+        [LANGUAGE_JAPANESE] = "順位""\x01""",
+        [LANGUAGE_ENGLISH] = "Rank""\x01""",
+        [LANGUAGE_CHINESE] = "名次""\x01""",
     },
 
     [3370] = {
-        [LANGUAGE_JAPANESE] = "順位""\x01""",
-        [LANGUAGE_ENGLISH] = "Rank""\x01""",
-        [LANGUAGE_CHINESE] = "名次""\x01""",
+        [LANGUAGE_JAPANESE] = "人数""\x01""",
+        [LANGUAGE_ENGLISH] = "Players""\x01""",
+        [LANGUAGE_CHINESE] = "人数""\x01""",
     },
 
     [3371] = {
-        [LANGUAGE_JAPANESE] = "人数""\x01""",
-        [LANGUAGE_ENGLISH] = "Players""\x01""",
-        [LANGUAGE_CHINESE] = "人数""\x01""",
-    },
-
-    [3372] = {
-        [LANGUAGE_JAPANESE] = "チーム名""\x01""",
-        [LANGUAGE_ENGLISH] = "Name""\x01""",
-        [LANGUAGE_CHINESE] = "小队名""\x01""",
-    },
-
-    [3373] = {
-        [LANGUAGE_JAPANESE] = "得点""\x01""",
-        [LANGUAGE_ENGLISH] = "Points""\x01""",
-        [LANGUAGE_CHINESE] = "得分""\x01""",
-    },
-
-    [3374] = {
-        [LANGUAGE_JAPANESE] = "順位""\x01""",
-        [LANGUAGE_ENGLISH] = "Rank""\x01""",
-        [LANGUAGE_CHINESE] = "名次""\x01""",
-    },
-
-    [3375] = {
-        [LANGUAGE_JAPANESE] = "人数""\x01""",
-        [LANGUAGE_ENGLISH] = "Players""\x01""",
-        [LANGUAGE_CHINESE] = "人数""\x01""",
-    },
-
-    [3376] = {
         [LANGUAGE_JAPANESE] = "送信中""\x01""",
         [LANGUAGE_ENGLISH] = "送信中""\x01""",
         [LANGUAGE_CHINESE] = "发送中""\x01""",
     },
 
-    [3377] = {
+    [3372] = {
         [LANGUAGE_JAPANESE] = "受信中""\x01""",
         [LANGUAGE_ENGLISH] = "受信中""\x01""",
         [LANGUAGE_CHINESE] = "接收中""\x01""",
     },
 
-    [3378] = {
+    [3373] = {
         [LANGUAGE_JAPANESE] = "準備中""\x01""",
         [LANGUAGE_ENGLISH] = "準備中""\x01""",
         [LANGUAGE_CHINESE] = "准备中""\x01""",
     },
 
-    [3379] = {
+    [3374] = {
         [LANGUAGE_JAPANESE] = "ＧＥＴ　ＰＯＩＮＴ""\x01""",
         [LANGUAGE_ENGLISH] = "Point""\x01""",
         [LANGUAGE_CHINESE] = "GET POINT""\x01""",
     },
 
-    [3380] = {
+    [3375] = {
+        [LANGUAGE_JAPANESE] = "門""\x01""",
+        [LANGUAGE_ENGLISH] = "Gate""\x01""",
+        [LANGUAGE_CHINESE] = "大门""\x01""",
+    },
+
+    [3376] = {
         [LANGUAGE_JAPANESE] = "ＨＰ""\x01""",
         [LANGUAGE_ENGLISH] = "HP""\x01""",
         [LANGUAGE_CHINESE] = "HP""\x01""",
     },
 
-    [3381] = {
+    [3377] = {
         [LANGUAGE_JAPANESE] = "魔力""\x01""",
         [LANGUAGE_ENGLISH] = "Mag""\x01""",
         [LANGUAGE_CHINESE] = "魔力""\x01""",
     },
 
-    [3382] = {
+    [3378] = {
         [LANGUAGE_JAPANESE] = "力""\x01""",
         [LANGUAGE_ENGLISH] = "Str""\x01""",
         [LANGUAGE_CHINESE] = "力量""\x01""",
     },
 
-    [3383] = {
+    [3379] = {
         [LANGUAGE_JAPANESE] = "射程""\x01""",
         [LANGUAGE_ENGLISH] = "Rng""\x01""",
         [LANGUAGE_CHINESE] = "射程""\x01""",
     },
 
-    [3384] = {
+    [3380] = {
         [LANGUAGE_JAPANESE] = "重さ""\x01""",
         [LANGUAGE_ENGLISH] = "Wt""\x01""",
         [LANGUAGE_CHINESE] = "重量""\x01""",
     },
 
-    [3385] = {
+    [3381] = {
         [LANGUAGE_JAPANESE] = "威力""\x01""",
         [LANGUAGE_ENGLISH] = "Mt""\x01""",
         [LANGUAGE_CHINESE] = "威力""\x01""",
     },
 
-    [3386] = {
+    [3382] = {
         [LANGUAGE_JAPANESE] = "命中""\x01""",
         [LANGUAGE_ENGLISH] = "Hit""\x01""",
         [LANGUAGE_CHINESE] = "命中""\x01""",
     },
 
-    [3387] = {
+    [3383] = {
         [LANGUAGE_JAPANESE] = "必殺""\x01""",
         [LANGUAGE_ENGLISH] = "Crit""\x01""",
         [LANGUAGE_CHINESE] = "必杀""\x01""",
     },
 
-    [3388] = {
+    [3384] = {
         [LANGUAGE_JAPANESE] = "杖""\x01""",
         [LANGUAGE_ENGLISH] = "Staff""\x01""",
         [LANGUAGE_CHINESE] = "杖""\x01""",
     },
 
-    [3389] = {
-        [LANGUAGE_JAPANESE] = "射程""\x01""",
-        [LANGUAGE_ENGLISH] = "Rng""\x01""",
-        [LANGUAGE_CHINESE] = "射程""\x01""",
-    },
-
-    [3390] = {
+    [3385] = {
         [LANGUAGE_JAPANESE] = "周目""\x01""",
         [LANGUAGE_ENGLISH] = "Run""\x01""",
         [LANGUAGE_CHINESE] = "周目""\x01""",
     },
 
-    [3391] = {
+    [3386] = {
         [LANGUAGE_JAPANESE] = "名　前""\x01""",
         [LANGUAGE_ENGLISH] = "Name""\x01""",
         [LANGUAGE_CHINESE] = "名 字""\x01""",
     },
 
-    [3392] = {
+    [3387] = {
         [LANGUAGE_JAPANESE] = "ーーーー""\x01""",
         [LANGUAGE_ENGLISH] = "ーーーー""\x01""",
         [LANGUAGE_CHINESE] = "————""\x01""",
     },
 
-    [3393] = {
+    [3388] = {
         [LANGUAGE_JAPANESE] = "１""\x01""",
         [LANGUAGE_ENGLISH] = "１""\x01""",
         [LANGUAGE_CHINESE] = "1""\x01""",
     },
 
-    [3394] = {
+    [3389] = {
         [LANGUAGE_JAPANESE] = "２""\x01""",
         [LANGUAGE_ENGLISH] = "２""\x01""",
         [LANGUAGE_CHINESE] = "2""\x01""",
     },
 
-    [3395] = {
+    [3390] = {
         [LANGUAGE_JAPANESE] = "オフ""\x01""",
         [LANGUAGE_ENGLISH] = "OFF""\x01""",
         [LANGUAGE_CHINESE] = "关""\x01""",
     },
 
-    [3396] = {
+    [3391] = {
         [LANGUAGE_JAPANESE] = "ーーー""\x01""",
         [LANGUAGE_ENGLISH] = "ーーー""\x01""",
         [LANGUAGE_CHINESE] = "———""\x01""",
     },
 
-    [3397] = {
+    [3392] = {
         [LANGUAGE_JAPANESE] = "残り""\x01""",
         [LANGUAGE_ENGLISH] = "Units""\x01""",
         [LANGUAGE_CHINESE] = "余""\x01""",
     },
 
-    [3398] = {
+    [3393] = {
         [LANGUAGE_JAPANESE] = "人""\x01""",
-        [LANGUAGE_ENGLISH] = "  /""\x01""",
+        [LANGUAGE_ENGLISH] = "P""\x01""",
         [LANGUAGE_CHINESE] = "人""\x01""",
     },
 
-    [3399] = {
+    [3394] = {
         [LANGUAGE_JAPANESE] = "属性""\x01""",
         [LANGUAGE_ENGLISH] = "Affi""\x01""",
         [LANGUAGE_CHINESE] = "属性""\x01""",
     },
 
-    [3400] = {
+    [3395] = {
         [LANGUAGE_JAPANESE] = "威力""\x01""",
         [LANGUAGE_ENGLISH] = "Atk""\x01""",
         [LANGUAGE_CHINESE] = "威力""\x01""",
     },
 
-    [3401] = {
+    [3396] = {
         [LANGUAGE_JAPANESE] = "命中""\x01""",
         [LANGUAGE_ENGLISH] = "Hit""\x01""",
         [LANGUAGE_CHINESE] = "命中""\x01""",
     },
 
-    [3402] = {
+    [3397] = {
         [LANGUAGE_JAPANESE] = "必殺""\x01""",
         [LANGUAGE_ENGLISH] = "Crit""\x01""",
         [LANGUAGE_CHINESE] = "必杀""\x01""",
     },
 
-    [3403] = {
+    [3398] = {
         [LANGUAGE_JAPANESE] = "重さ""\x01""",
         [LANGUAGE_ENGLISH] = "Wt""\x01""",
         [LANGUAGE_CHINESE] = "重量""\x01""",
     },
 
-    [3404] = {
+    [3399] = {
         [LANGUAGE_JAPANESE] = "何もありません""\x01""",
         [LANGUAGE_ENGLISH] = "--Nothing--""\x01""",
         [LANGUAGE_CHINESE] = "什么也没有""\x01""",
     },
 
-    [3405] = {
+    [3400] = {
         [LANGUAGE_JAPANESE] = "輸送隊""\x01""",
         [LANGUAGE_ENGLISH] = "Supply""\x01""",
         [LANGUAGE_CHINESE] = "运输队""\x01""",
     },
 
-    [3406] = {
-        [LANGUAGE_JAPANESE] = "輸送隊""\x01""",
-        [LANGUAGE_ENGLISH] = "Stock""\x01""",
-        [LANGUAGE_CHINESE] = "运输队""\x01""",
-    },
-
-    [3407] = {
+    [3401] = {
         [LANGUAGE_JAPANESE] = "あずける""\x01""",
         [LANGUAGE_ENGLISH] = "Give""\x01""",
         [LANGUAGE_CHINESE] = "寄存""\x01""",
     },
 
-    [3408] = {
+    [3402] = {
         [LANGUAGE_JAPANESE] = "うけとる""\x01""",
         [LANGUAGE_ENGLISH] = "Take""\x01""",
         [LANGUAGE_CHINESE] = "取出""\x01""",
     },
 
-    [3409] = {
+    [3403] = {
         [LANGUAGE_JAPANESE] = "すてる""\x01""",
         [LANGUAGE_ENGLISH] = "Discard""\x01""",
         [LANGUAGE_CHINESE] = "丢弃""\x01""",
     },
 
-    [3410] = {
+    [3404] = {
         [LANGUAGE_JAPANESE] = "本当に""\x01""",
         [LANGUAGE_ENGLISH] = "Disca rd?""\x01""",
         [LANGUAGE_CHINESE] = "确定""\x01""",
     },
 
-    [3411] = {
+    [3405] = {
+        [LANGUAGE_JAPANESE] = "すてますか""\x01""",
+        [LANGUAGE_ENGLISH] = "rd?""\x01""",
+        [LANGUAGE_CHINESE] = "丢弃吗？""\x01""",
+    },
+
+    [3406] = {
         [LANGUAGE_JAPANESE] = "はい""\x01""",
         [LANGUAGE_ENGLISH] = "Yes""\x01""",
         [LANGUAGE_CHINESE] = "是的""\x01""",
     },
 
-    [3412] = {
+    [3407] = {
         [LANGUAGE_JAPANESE] = "いいえ""\x01""",
         [LANGUAGE_ENGLISH] = "No""\x01""",
         [LANGUAGE_CHINESE] = "不要""\x01""",
     },
 
-    [3413] = {
+    [3408] = {
         [LANGUAGE_JAPANESE] = "本当に""\x01""",
         [LANGUAGE_ENGLISH] = "Disca rd?""\x01""",
         [LANGUAGE_CHINESE] = "确定""\x01""",
     },
 
-    [3414] = {
+    [3409] = {
         [LANGUAGE_JAPANESE] = "すてますか""\x01""",
         [LANGUAGE_ENGLISH] = "rd?""\x01""",
         [LANGUAGE_CHINESE] = "丢弃吗？""\x01""",
+    },
+
+    [3410] = {
+        [LANGUAGE_JAPANESE] = "はい""\x01""",
+        [LANGUAGE_ENGLISH] = "Yes""\x01""",
+        [LANGUAGE_CHINESE] = "是的""\x01""",
+    },
+
+    [3411] = {
+        [LANGUAGE_JAPANESE] = "いいえ""\x01""",
+        [LANGUAGE_ENGLISH] = "No""\x01""",
+        [LANGUAGE_CHINESE] = "不要""\x01""",
+    },
+
+    [3412] = {
+        [LANGUAGE_JAPANESE] = "２""\x01""",
+        [LANGUAGE_ENGLISH] = "２""\x01""",
+        [LANGUAGE_CHINESE] = "2""\x01""",
+    },
+
+    [3413] = {
+        [LANGUAGE_JAPANESE] = "ノーマル　ハード""\x01""",
+        [LANGUAGE_ENGLISH] = "Normal""\x01""",
+        [LANGUAGE_CHINESE] = "普通   困难""\x01""",
+    },
+
+    [3414] = {
+        [LANGUAGE_JAPANESE] = "このマップでよろしいですか？""\x01""",
+        [LANGUAGE_ENGLISH] = "Play this map?""\x01""",
+        [LANGUAGE_CHINESE] = "选择这个地图吗？""\x01""",
     },
 
     [3415] = {
@@ -20504,2150 +20504,2291 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3417] = {
-        [LANGUAGE_JAPANESE] = "ノーマル　ハード""\x01""",
-        [LANGUAGE_ENGLISH] = "Normal""\x01""",
-        [LANGUAGE_CHINESE] = "普通   困难""\x01""",
-    },
-
-    [3418] = {
-        [LANGUAGE_JAPANESE] = "このマップでよろしいですか？""\x01""",
-        [LANGUAGE_ENGLISH] = "Play this map?""\x01""",
-        [LANGUAGE_CHINESE] = "选择这个地图吗？""\x01""",
-    },
-
-    [3419] = {
-        [LANGUAGE_JAPANESE] = "はい""\x01""",
-        [LANGUAGE_ENGLISH] = "Yes""\x01""",
-        [LANGUAGE_CHINESE] = "是的""\x01""",
-    },
-
-    [3420] = {
-        [LANGUAGE_JAPANESE] = "いいえ""\x01""",
-        [LANGUAGE_ENGLISH] = "No""\x01""",
-        [LANGUAGE_CHINESE] = "不要""\x01""",
-    },
-
-    [3421] = {
         [LANGUAGE_JAPANESE] = "目的：""\x01""",
         [LANGUAGE_ENGLISH] = "Objective:""\x01""",
         [LANGUAGE_CHINESE] = "目的：""\x01""",
     },
 
-    [3422] = {
+    [3418] = {
         [LANGUAGE_JAPANESE] = "ＢＧＭ再生""\x01""",
         [LANGUAGE_ENGLISH] = "Play""\x01""",
         [LANGUAGE_CHINESE] = "BGM播放""\x01""",
     },
 
-    [3423] = {
+    [3419] = {
         [LANGUAGE_JAPANESE] = "ＢＧＭ停止""\x01""",
         [LANGUAGE_ENGLISH] = "Stop""\x01""",
         [LANGUAGE_CHINESE] = "BGM停止""\x01""",
     },
 
-    [3424] = {
+    [3420] = {
         [LANGUAGE_JAPANESE] = "終わる""\x01""",
         [LANGUAGE_ENGLISH] = "Exit""\x01""",
         [LANGUAGE_CHINESE] = "结束""\x01""",
     },
 
-    [3425] = {
+    [3421] = {
         [LANGUAGE_JAPANESE] = "魔力""\x01""",
         [LANGUAGE_ENGLISH] = "Mag""\x01""",
         [LANGUAGE_CHINESE] = "魔力""\x01""",
     },
 
-    [3426] = {
+    [3422] = {
+        [LANGUAGE_JAPANESE] = "床""\x01""",
+        [LANGUAGE_ENGLISH] = "Floor""\x01""",
+        [LANGUAGE_CHINESE] = "地板""\x01""",
+    },
+
+    [3423] = {
         [LANGUAGE_JAPANESE] = "１～魔力""\x01""",
         [LANGUAGE_ENGLISH] = "    Mag""\x01""",
         [LANGUAGE_CHINESE] = "1～魔力""\x01""",
     },
 
-    [3427] = {
+    [3424] = {
+        [LANGUAGE_JAPANESE] = "　　　１""\x01""",
+        [LANGUAGE_ENGLISH] = "       1""\x01""",
+        [LANGUAGE_CHINESE] = "       1""\x01""",
+    },
+
+    [3425] = {
+        [LANGUAGE_JAPANESE] = "　　　２""\x01""",
+        [LANGUAGE_ENGLISH] = "       2""\x01""",
+        [LANGUAGE_CHINESE] = "       2""\x01""",
+    },
+
+    [3426] = {
         [LANGUAGE_JAPANESE] = "ー""\x01""",
         [LANGUAGE_ENGLISH] = "ー""\x01""",
         [LANGUAGE_CHINESE] = "—""\x01""",
     },
 
-    [3428] = {
+    [3427] = {
         [LANGUAGE_JAPANESE] = "Ｅ""\x01""",
         [LANGUAGE_ENGLISH] = "E""\x01""",
         [LANGUAGE_CHINESE] = "E""\x01""",
     },
 
-    [3429] = {
+    [3428] = {
         [LANGUAGE_JAPANESE] = "Ｄ""\x01""",
         [LANGUAGE_ENGLISH] = "D""\x01""",
         [LANGUAGE_CHINESE] = "D""\x01""",
     },
 
-    [3430] = {
+    [3429] = {
         [LANGUAGE_JAPANESE] = "Ｃ""\x01""",
         [LANGUAGE_ENGLISH] = "C""\x01""",
         [LANGUAGE_CHINESE] = "C""\x01""",
     },
 
-    [3431] = {
+    [3430] = {
         [LANGUAGE_JAPANESE] = "Ｂ""\x01""",
         [LANGUAGE_ENGLISH] = "B""\x01""",
         [LANGUAGE_CHINESE] = "B""\x01""",
     },
 
-    [3432] = {
+    [3431] = {
         [LANGUAGE_JAPANESE] = "Ａ""\x01""",
         [LANGUAGE_ENGLISH] = "A""\x01""",
         [LANGUAGE_CHINESE] = "A""\x01""",
     },
 
-    [3433] = {
+    [3432] = {
         [LANGUAGE_JAPANESE] = "Ｓ""\x01""",
         [LANGUAGE_ENGLISH] = "S""\x01""",
         [LANGUAGE_CHINESE] = "S""\x01""",
     },
 
+    [3433] = {
+        [LANGUAGE_JAPANESE] = "剣""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "剑""\x01""",
+    },
+
     [3434] = {
+        [LANGUAGE_JAPANESE] = "槍""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "枪""\x01""",
+    },
+
+    [3435] = {
         [LANGUAGE_JAPANESE] = "斧""\x01""",
         [LANGUAGE_ENGLISH] = "Axe""\x01""",
         [LANGUAGE_CHINESE] = "斧""\x01""",
     },
 
-    [3435] = {
+    [3436] = {
         [LANGUAGE_JAPANESE] = "弓""\x01""",
         [LANGUAGE_ENGLISH] = "Bow""\x01""",
         [LANGUAGE_CHINESE] = "弓""\x01""",
     },
 
-    [3436] = {
+    [3437] = {
         [LANGUAGE_JAPANESE] = "杖""\x01""",
         [LANGUAGE_ENGLISH] = "Staff""\x01""",
         [LANGUAGE_CHINESE] = "杖""\x01""",
     },
 
-    [3437] = {
+    [3438] = {
+        [LANGUAGE_JAPANESE] = "理""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "理""\x01""",
+    },
+
+    [3439] = {
         [LANGUAGE_JAPANESE] = "光""\x01""",
         [LANGUAGE_ENGLISH] = "Light""\x01""",
         [LANGUAGE_CHINESE] = "光""\x01""",
     },
 
-    [3438] = {
+    [3440] = {
         [LANGUAGE_JAPANESE] = "闇""\x01""",
         [LANGUAGE_ENGLISH] = "Dark""\x01""",
         [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
-    [3439] = {
+    [3441] = {
         [LANGUAGE_JAPANESE] = "道""\x01""",
         [LANGUAGE_ENGLISH] = "Road""\x01""",
         [LANGUAGE_CHINESE] = "道""\x01""",
     },
 
-    [3440] = {
+    [3442] = {
         [LANGUAGE_JAPANESE] = "ア""\x01""",
         [LANGUAGE_ENGLISH] = "A""\x01""",
         [LANGUAGE_CHINESE] = "吖""\x01""",
     },
 
-    [3441] = {
+    [3443] = {
         [LANGUAGE_JAPANESE] = "竜""\x01""",
         [LANGUAGE_ENGLISH] = "DRG""\x01""",
         [LANGUAGE_CHINESE] = "龙""\x01""",
     },
 
-    [3442] = {
-        [LANGUAGE_JAPANESE] = "ー""\x01""",
-        [LANGUAGE_ENGLISH] = "ー",
-        [LANGUAGE_CHINESE] = "—""\x01""",
-    },
-
-    [3443] = {
-        [LANGUAGE_JAPANESE] = "炎""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "炎""\x01""",
-    },
-
     [3444] = {
-        [LANGUAGE_JAPANESE] = "雷""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "雷""\x01""",
+        [LANGUAGE_JAPANESE] = "Ｃ""\x01""",
+        [LANGUAGE_ENGLISH] = "C""\x01""",
+        [LANGUAGE_CHINESE] = "C""\x01""",
     },
 
     [3445] = {
-        [LANGUAGE_JAPANESE] = "風""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "风""\x01""",
+        [LANGUAGE_JAPANESE] = "人""\x01""",
+        [LANGUAGE_ENGLISH] = "P""\x01""",
+        [LANGUAGE_CHINESE] = "人""\x01""",
     },
 
     [3446] = {
-        [LANGUAGE_JAPANESE] = "氷""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "冰""\x01""",
+        [LANGUAGE_JAPANESE] = "ー""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "—""\x01""",
     },
 
     [3447] = {
-        [LANGUAGE_JAPANESE] = "闇""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "暗""\x01""",
+        [LANGUAGE_JAPANESE] = "炎""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "炎""\x01""",
     },
 
     [3448] = {
-        [LANGUAGE_JAPANESE] = "光""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "光""\x01""",
+        [LANGUAGE_JAPANESE] = "雷""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "雷""\x01""",
     },
 
     [3449] = {
-        [LANGUAGE_JAPANESE] = "理""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "理""\x01""",
+        [LANGUAGE_JAPANESE] = "風""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "风""\x01""",
     },
 
     [3450] = {
-        [LANGUAGE_JAPANESE] = "ユニットを隠す""\x01""",
-        [LANGUAGE_ENGLISH] = "Hide Units""\x01""",
-        [LANGUAGE_CHINESE] = "隐藏人物""\x01""",
+        [LANGUAGE_JAPANESE] = "氷""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "冰""\x01""",
     },
 
     [3451] = {
-        [LANGUAGE_JAPANESE] = "オン""\x01""",
-        [LANGUAGE_ENGLISH] = "On""\x01""",
-        [LANGUAGE_CHINESE] = "开""\x01""",
+        [LANGUAGE_JAPANESE] = "闇""\x01""",
+        [LANGUAGE_ENGLISH] = "Dark""\x01""",
+        [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
     [3452] = {
-        [LANGUAGE_JAPANESE] = "オフ""\x01""",
-        [LANGUAGE_ENGLISH] = "Off""\x01""",
-        [LANGUAGE_CHINESE] = "关""\x01""",
+        [LANGUAGE_JAPANESE] = "光""\x01""",
+        [LANGUAGE_ENGLISH] = "Light""\x01""",
+        [LANGUAGE_CHINESE] = "光""\x01""",
     },
 
     [3453] = {
-        [LANGUAGE_JAPANESE] = "対戦勝利条件""\x01""",
-        [LANGUAGE_ENGLISH] = "Victory Cond.""\x01""",
-        [LANGUAGE_CHINESE] = "对战胜利条件""\x01""",
+        [LANGUAGE_JAPANESE] = "理""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "理""\x01""",
     },
 
     [3454] = {
-        [LANGUAGE_JAPANESE] = "ポイント""\x01""",
-        [LANGUAGE_ENGLISH] = "Point""\x01""",
-        [LANGUAGE_CHINESE] = "得分""\x01""",
+        [LANGUAGE_JAPANESE] = "ア""\x01""",
+        [LANGUAGE_ENGLISH] = "A""\x01""",
+        [LANGUAGE_CHINESE] = "吖""\x01""",
     },
 
     [3455] = {
-        [LANGUAGE_JAPANESE] = "サバイバル""\x01""",
-        [LANGUAGE_ENGLISH] = "Survival""\x01""",
-        [LANGUAGE_CHINESE] = "生存""\x01""",
+        [LANGUAGE_JAPANESE] = "Ａ""\x01""",
+        [LANGUAGE_ENGLISH] = "A""\x01""",
+        [LANGUAGE_CHINESE] = "A""\x01""",
     },
 
     [3456] = {
-        [LANGUAGE_JAPANESE] = "自動武器選択""\x01""",
-        [LANGUAGE_ENGLISH] = "AutoWeapon""\x01""",
-        [LANGUAGE_CHINESE] = "自动选择武器""\x01""",
+        [LANGUAGE_JAPANESE] = "Ｂ""\x01""",
+        [LANGUAGE_ENGLISH] = "B""\x01""",
+        [LANGUAGE_CHINESE] = "B""\x01""",
     },
 
     [3457] = {
-        [LANGUAGE_JAPANESE] = "オン""\x01""",
-        [LANGUAGE_ENGLISH] = "On""\x01""",
-        [LANGUAGE_CHINESE] = "开""\x01""",
+        [LANGUAGE_JAPANESE] = "Ｃ""\x01""",
+        [LANGUAGE_ENGLISH] = "C""\x01""",
+        [LANGUAGE_CHINESE] = "C""\x01""",
     },
 
     [3458] = {
-        [LANGUAGE_JAPANESE] = "オフ""\x01""",
-        [LANGUAGE_ENGLISH] = "Off""\x01""",
-        [LANGUAGE_CHINESE] = "关""\x01""",
+        [LANGUAGE_JAPANESE] = "Ｄ""\x01""",
+        [LANGUAGE_ENGLISH] = "D""\x01""",
+        [LANGUAGE_CHINESE] = "D""\x01""",
     },
 
     [3459] = {
-        [LANGUAGE_JAPANESE] = "ＨＰ""\x01""",
-        [LANGUAGE_ENGLISH] = "HP""\x01""",
-        [LANGUAGE_CHINESE] = "HP""\x01""",
+        [LANGUAGE_JAPANESE] = "Ｅ""\x01""",
+        [LANGUAGE_ENGLISH] = "E""\x01""",
+        [LANGUAGE_CHINESE] = "E""\x01""",
     },
 
     [3460] = {
-        [LANGUAGE_JAPANESE] = "力""\x01""",
-        [LANGUAGE_ENGLISH] = "Str""\x01""",
-        [LANGUAGE_CHINESE] = "力量""\x01""",
+        [LANGUAGE_JAPANESE] = "１""\x01""",
+        [LANGUAGE_ENGLISH] = "１""\x01""",
+        [LANGUAGE_CHINESE] = "1""\x01""",
     },
 
     [3461] = {
-        [LANGUAGE_JAPANESE] = "技""\x01""",
-        [LANGUAGE_ENGLISH] = "Skill""\x01""",
-        [LANGUAGE_CHINESE] = "技术""\x01""",
+        [LANGUAGE_JAPANESE] = "２""\x01""",
+        [LANGUAGE_ENGLISH] = "２""\x01""",
+        [LANGUAGE_CHINESE] = "2""\x01""",
     },
 
     [3462] = {
-        [LANGUAGE_JAPANESE] = "速さ""\x01""",
-        [LANGUAGE_ENGLISH] = "Spd""\x01""",
-        [LANGUAGE_CHINESE] = "速度""\x01""",
+        [LANGUAGE_JAPANESE] = "Ｓ""\x01""",
+        [LANGUAGE_ENGLISH] = "S""\x01""",
+        [LANGUAGE_CHINESE] = "S""\x01""",
     },
 
     [3463] = {
-        [LANGUAGE_JAPANESE] = "守備""\x01""",
-        [LANGUAGE_ENGLISH] = "Def""\x01""",
-        [LANGUAGE_CHINESE] = "守备""\x01""",
+        [LANGUAGE_JAPANESE] = "竜""\x01""",
+        [LANGUAGE_ENGLISH] = "DRG""\x01""",
+        [LANGUAGE_CHINESE] = "龙""\x01""",
     },
 
     [3464] = {
-        [LANGUAGE_JAPANESE] = "魔防""\x01""",
-        [LANGUAGE_ENGLISH] = "Res""\x01""",
-        [LANGUAGE_CHINESE] = "魔防""\x01""",
-    },
-
-    [3465] = {
-        [LANGUAGE_JAPANESE] = "ーーー""\x01""",
-        [LANGUAGE_ENGLISH] = "ーーー""\x01""",
-        [LANGUAGE_CHINESE] = "———""\x01""",
-    },
-
-    [3466] = {
-        [LANGUAGE_JAPANESE] = "ポイズン""\x01""",
-        [LANGUAGE_ENGLISH] = "Poison""\x01""",
-        [LANGUAGE_CHINESE] = "中毒""\x01""",
-    },
-
-    [3467] = {
-        [LANGUAGE_JAPANESE] = "スリープ""\x01""",
-        [LANGUAGE_ENGLISH] = "Sleep""\x01""",
-        [LANGUAGE_CHINESE] = "昏睡""\x01""",
-    },
-
-    [3468] = {
-        [LANGUAGE_JAPANESE] = "サイレス""\x01""",
-        [LANGUAGE_ENGLISH] = "Silence""\x01""",
-        [LANGUAGE_CHINESE] = "沉默""\x01""",
-    },
-
-    [3469] = {
-        [LANGUAGE_JAPANESE] = "バサーク""\x01""",
-        [LANGUAGE_ENGLISH] = "Berserk""\x01""",
-        [LANGUAGE_CHINESE] = "狂乱""\x01""",
-    },
-
-    [3470] = {
-        [LANGUAGE_JAPANESE] = "　チュートリアルを続ける""\x01""",
-        [LANGUAGE_ENGLISH] = "Continue""\x01""",
-        [LANGUAGE_CHINESE] = " 继续训练模式""\x01""",
-    },
-
-    [3471] = {
-        [LANGUAGE_JAPANESE] = "　チュートリアルをやめる""\x01""",
-        [LANGUAGE_ENGLISH] = "Quit""\x01""",
-        [LANGUAGE_CHINESE] = " 结束训练模式""\x01""",
-    },
-
-    [3472] = {
-        [LANGUAGE_JAPANESE] = "ファイルをクリアずみに""\x01""",
-        [LANGUAGE_ENGLISH] = "Delete save?",
-        [LANGUAGE_CHINESE] = "你确定要将存档""\x01""",
-    },
-
-    [3473] = {
-        [LANGUAGE_JAPANESE] = "しますか？""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "删除吗？""\x01""",
-    },
-
-    [3474] = {
-        [LANGUAGE_JAPANESE] = "クリアずみファイルでは""\x01""",
-        [LANGUAGE_ENGLISH] = "You cannot play it",
-        [LANGUAGE_CHINESE] = "被删除的存档""\x01""",
-    },
-
-    [3475] = {
-        [LANGUAGE_JAPANESE] = "以後プレイできません""\x01""",
-        [LANGUAGE_ENGLISH] = "anymore",
-        [LANGUAGE_CHINESE] = "就不能再玩了""\x01""",
-    },
-
-    [3476] = {
-        [LANGUAGE_JAPANESE] = "　　　　　　　　　了解""\x01""",
-        [LANGUAGE_ENGLISH] = "　　　　　　　　　Yes""\x01""",
-        [LANGUAGE_CHINESE] = "         是的""\x01""",
-    },
-
-    [3477] = {
-        [LANGUAGE_JAPANESE] = "　リリースエントリ""\x01""",
-        [LANGUAGE_ENGLISH] = " Release Entry",
-        [LANGUAGE_CHINESE] = "  正式版入口""\x01""",
-    },
-
-    [3478] = {
-        [LANGUAGE_JAPANESE] = "　どこでも再開""\x01""",
-        [LANGUAGE_ENGLISH] = " Free Continue",
-        [LANGUAGE_CHINESE] = "  继续游戏""\x01""",
-    },
-
-    [3479] = {
-        [LANGUAGE_JAPANESE] = "　手再開""\x01""",
-        [LANGUAGE_ENGLISH] = " Manual Continue""\x01""",
-        [LANGUAGE_CHINESE] = "  继续""\x01""",
-    },
-
-    [3480] = {
-        [LANGUAGE_JAPANESE] = "　手中断""\x01""",
-        [LANGUAGE_ENGLISH] = "　手中断""\x01""",
-        [LANGUAGE_CHINESE] = " 中断""\x01""",
-    },
-
-    [3481] = {
-        [LANGUAGE_JAPANESE] = "　手再開""\x01""",
-        [LANGUAGE_ENGLISH] = "　手再開""\x01""",
-        [LANGUAGE_CHINESE] = " 继续""\x01""",
-    },
-
-    [3482] = {
-        [LANGUAGE_JAPANESE] = "　マップ""\x01""",
-        [LANGUAGE_ENGLISH] = "　マップ""\x01""",
-        [LANGUAGE_CHINESE] = " 地图""\x01""",
-    },
-
-    [3483] = {
-        [LANGUAGE_JAPANESE] = "　デブ情報""\x01""",
-        [LANGUAGE_ENGLISH] = "　デブ情報""\x01""",
-        [LANGUAGE_CHINESE] = " 调试信息""\x01""",
-    },
-
-    [3484] = {
-        [LANGUAGE_JAPANESE] = "　天気""\x01""",
-        [LANGUAGE_ENGLISH] = "　天気""\x01""",
-        [LANGUAGE_CHINESE] = " 天气""\x01""",
-    },
-
-    [3485] = {
-        [LANGUAGE_JAPANESE] = "　索敵""\x01""",
-        [LANGUAGE_ENGLISH] = "　索敵""\x01""",
-        [LANGUAGE_CHINESE] = " 索敌""\x01""",
-    },
-
-    [3486] = {
-        [LANGUAGE_JAPANESE] = "　周回数""\x01""",
-        [LANGUAGE_ENGLISH] = "　周回数""\x01""",
-        [LANGUAGE_CHINESE] = " 周回数""\x01""",
-    },
-
-    [3487] = {
-        [LANGUAGE_JAPANESE] = "　クリアずみ""\x01""",
-        [LANGUAGE_ENGLISH] = "Deleted",
-        [LANGUAGE_CHINESE] = " 删除完成""\x01""",
-    },
-
-    [3488] = {
-        [LANGUAGE_JAPANESE] = "　おやすみなさい""\x01""",
-        [LANGUAGE_ENGLISH] = "Good night",
-        [LANGUAGE_CHINESE] = " 晚安""\x01""",
-    },
-
-    [3489] = {
-        [LANGUAGE_JAPANESE] = "　アーチ攻撃""\x01""",
-        [LANGUAGE_ENGLISH] = "Ballista""\x01""",
-        [LANGUAGE_CHINESE] = " 弩攻击""\x01""",
-    },
-
-    [3490] = {
-        [LANGUAGE_JAPANESE] = "　通常攻撃""\x01""",
-        [LANGUAGE_ENGLISH] = "Equipment""\x01""",
-        [LANGUAGE_CHINESE] = " 通常攻击""\x01""",
-    },
-
-    [3491] = {
-        [LANGUAGE_JAPANESE] = "はい""\x01""",
-        [LANGUAGE_ENGLISH] = "Yes""\x01""",
-        [LANGUAGE_CHINESE] = "是的""\x01""",
-    },
-
-    [3492] = {
-        [LANGUAGE_JAPANESE] = "いいえ""\x01""",
-        [LANGUAGE_ENGLISH] = "No""\x01""",
-        [LANGUAGE_CHINESE] = "不要""\x01""",
-    },
-
-    [3493] = {
-        [LANGUAGE_JAPANESE] = "使う""\x01""",
-        [LANGUAGE_ENGLISH] = "Use""\x01""",
-        [LANGUAGE_CHINESE] = "使用""\x01""",
-    },
-
-    [3494] = {
-        [LANGUAGE_JAPANESE] = "装備""\x01""",
-        [LANGUAGE_ENGLISH] = "Equip""\x01""",
-        [LANGUAGE_CHINESE] = "装备""\x01""",
-    },
-
-    [3495] = {
-        [LANGUAGE_JAPANESE] = "交換""\x01""",
-        [LANGUAGE_ENGLISH] = "Trade""\x01""",
-        [LANGUAGE_CHINESE] = "交换""\x01""",
-    },
-
-    [3496] = {
-        [LANGUAGE_JAPANESE] = "捨てる""\x01""",
-        [LANGUAGE_ENGLISH] = "Discard""\x01""",
-        [LANGUAGE_CHINESE] = "丢弃""\x01""",
-    },
-
-    [3497] = {
-        [LANGUAGE_JAPANESE] = "　制圧""\x01""",
-        [LANGUAGE_ENGLISH] = "Seize""\x01""",
-        [LANGUAGE_CHINESE] = " 占领""\x01""",
-    },
-
-    [3498] = {
-        [LANGUAGE_JAPANESE] = "　攻撃""\x01""",
-        [LANGUAGE_ENGLISH] = "Attack""\x01""",
-        [LANGUAGE_CHINESE] = " 攻击""\x01""",
-    },
-
-    [3499] = {
-        [LANGUAGE_JAPANESE] = "　杖""\x01""",
-        [LANGUAGE_ENGLISH] = "Staff""\x01""",
-        [LANGUAGE_CHINESE] = " 杖""\x01""",
-    },
-
-    [3500] = {
-        [LANGUAGE_JAPANESE] = "　奏でる""\x01""",
-        [LANGUAGE_ENGLISH] = "Play""\x01""",
-        [LANGUAGE_CHINESE] = " 演奏""\x01""",
-    },
-
-    [3501] = {
-        [LANGUAGE_JAPANESE] = "　踊る""\x01""",
-        [LANGUAGE_ENGLISH] = "Dance""\x01""",
-        [LANGUAGE_CHINESE] = " 舞蹈""\x01""",
-    },
-
-    [3502] = {
-        [LANGUAGE_JAPANESE] = "　盗む""\x01""",
-        [LANGUAGE_ENGLISH] = "Steal""\x01""",
-        [LANGUAGE_CHINESE] = " 盗取""\x01""",
-    },
-
-    [3503] = {
-        [LANGUAGE_JAPANESE] = "　話す""\x01""",
-        [LANGUAGE_ENGLISH] = "Talk""\x01""",
-        [LANGUAGE_CHINESE] = " 对话""\x01""",
-    },
-
-    [3504] = {
-        [LANGUAGE_JAPANESE] = "　支援""\x01""",
-        [LANGUAGE_ENGLISH] = "Support""\x01""",
-        [LANGUAGE_CHINESE] = " 支援""\x01""",
-    },
-
-    [3505] = {
-        [LANGUAGE_JAPANESE] = "　訪問""\x01""",
-        [LANGUAGE_ENGLISH] = "Visit""\x01""",
-        [LANGUAGE_CHINESE] = " 访问""\x01""",
-    },
-
-    [3506] = {
-        [LANGUAGE_JAPANESE] = "　宝箱""\x01""",
-        [LANGUAGE_ENGLISH] = "Unlock""\x01""",
-        [LANGUAGE_CHINESE] = " 宝箱""\x01""",
-    },
-
-    [3507] = {
-        [LANGUAGE_JAPANESE] = "　扉""\x01""",
-        [LANGUAGE_ENGLISH] = "Unlock""\x01""",
-        [LANGUAGE_CHINESE] = " 开门""\x01""",
-    },
-
-    [3508] = {
-        [LANGUAGE_JAPANESE] = "　武器屋""\x01""",
-        [LANGUAGE_ENGLISH] = "Armory""\x01""",
-        [LANGUAGE_CHINESE] = " 武器店""\x01""",
-    },
-
-    [3509] = {
-        [LANGUAGE_JAPANESE] = "　道具屋""\x01""",
-        [LANGUAGE_ENGLISH] = "Vendor""\x01""",
-        [LANGUAGE_CHINESE] = " 道具店""\x01""",
-    },
-
-    [3510] = {
-        [LANGUAGE_JAPANESE] = "　秘密店""\x01""",
-        [LANGUAGE_ENGLISH] = "Secret""\x01""",
-        [LANGUAGE_CHINESE] = " 秘密店""\x01""",
-    },
-
-    [3511] = {
-        [LANGUAGE_JAPANESE] = "　闘技場""\x01""",
-        [LANGUAGE_ENGLISH] = "Arena""\x01""",
-        [LANGUAGE_CHINESE] = " 斗技场""\x01""",
-    },
-
-    [3512] = {
-        [LANGUAGE_JAPANESE] = "　救出""\x01""",
-        [LANGUAGE_ENGLISH] = "Rescue""\x01""",
-        [LANGUAGE_CHINESE] = " 救出""\x01""",
-    },
-
-    [3513] = {
-        [LANGUAGE_JAPANESE] = "　降ろす""\x01""",
-        [LANGUAGE_ENGLISH] = "Drop""\x01""",
-        [LANGUAGE_CHINESE] = " 放下""\x01""",
-    },
-
-    [3514] = {
-        [LANGUAGE_JAPANESE] = "　引受け""\x01""",
-        [LANGUAGE_ENGLISH] = "Take""\x01""",
-        [LANGUAGE_CHINESE] = " 接受""\x01""",
-    },
-
-    [3515] = {
-        [LANGUAGE_JAPANESE] = "　引渡し""\x01""",
-        [LANGUAGE_ENGLISH] = "Give""\x01""",
-        [LANGUAGE_CHINESE] = " 转移""\x01""",
-    },
-
-    [3516] = {
-        [LANGUAGE_JAPANESE] = "　持ち物""\x01""",
-        [LANGUAGE_ENGLISH] = "Item""\x01""",
-        [LANGUAGE_CHINESE] = " 物品""\x01""",
-    },
-
-    [3517] = {
-        [LANGUAGE_JAPANESE] = "　交換""\x01""",
-        [LANGUAGE_ENGLISH] = "Trade""\x01""",
-        [LANGUAGE_CHINESE] = " 交换""\x01""",
-    },
-
-    [3518] = {
-        [LANGUAGE_JAPANESE] = "　輸送隊""\x01""",
-        [LANGUAGE_ENGLISH] = "Merch""\x01""",
-        [LANGUAGE_CHINESE] = " 运输队""\x01""",
-    },
-
-    [3519] = {
-        [LANGUAGE_JAPANESE] = "　待機""\x01""",
-        [LANGUAGE_ENGLISH] = "Wait""\x01""",
-        [LANGUAGE_CHINESE] = " 待机""\x01""",
-    },
-
-    [3520] = {
-        [LANGUAGE_JAPANESE] = "　進撃準備へ""\x01""",
-        [LANGUAGE_ENGLISH] = "Return""\x01""",
-        [LANGUAGE_CHINESE] = " 出击准备""\x01""",
-    },
-
-    [3521] = {
-        [LANGUAGE_JAPANESE] = "　部隊""\x01""",
-        [LANGUAGE_ENGLISH] = "Unit""\x01""",
-        [LANGUAGE_CHINESE] = " 部队""\x01""",
-    },
-
-    [3522] = {
-        [LANGUAGE_JAPANESE] = "　状況""\x01""",
-        [LANGUAGE_ENGLISH] = "Status""\x01""",
-        [LANGUAGE_CHINESE] = " 状态""\x01""",
-    },
-
-    [3523] = {
-        [LANGUAGE_JAPANESE] = "　設定""\x01""",
-        [LANGUAGE_ENGLISH] = "Options""\x01""",
-        [LANGUAGE_CHINESE] = " 设定""\x01""",
-    },
-
-    [3524] = {
-        [LANGUAGE_JAPANESE] = "　中断""\x01""",
-        [LANGUAGE_ENGLISH] = "Suspnd""\x01""",
-        [LANGUAGE_CHINESE] = " 中断""\x01""",
-    },
-
-    [3525] = {
-        [LANGUAGE_JAPANESE] = "　終了""\x01""",
-        [LANGUAGE_ENGLISH] = "End""\x01""",
-        [LANGUAGE_CHINESE] = " 结束""\x01""",
-    },
-
-    [3526] = {
-        [LANGUAGE_JAPANESE] = "威力""\x01""",
-        [LANGUAGE_ENGLISH] = "Mt""\x01""",
-        [LANGUAGE_CHINESE] = "威力""\x01""",
-    },
-
-    [3527] = {
-        [LANGUAGE_JAPANESE] = "命中""\x01""",
-        [LANGUAGE_ENGLISH] = "Hit""\x01""",
-        [LANGUAGE_CHINESE] = "命中""\x01""",
-    },
-
-    [3528] = {
-        [LANGUAGE_JAPANESE] = "必殺""\x01""",
-        [LANGUAGE_ENGLISH] = "Crit""\x01""",
-        [LANGUAGE_CHINESE] = "必杀""\x01""",
-    },
-
-    [3529] = {
-        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
-        [LANGUAGE_ENGLISH] = "Atk""\x01""",
-        [LANGUAGE_CHINESE] = "攻击""\x01""",
-    },
-
-    [3530] = {
-        [LANGUAGE_JAPANESE] = "守備""\x01""",
-        [LANGUAGE_ENGLISH] = "Def""\x01""",
-        [LANGUAGE_CHINESE] = "守备""\x01""",
-    },
-
-    [3531] = {
-        [LANGUAGE_JAPANESE] = "攻速""\x01""",
-        [LANGUAGE_ENGLISH] = "AS""\x01""",
-        [LANGUAGE_CHINESE] = "攻速""\x01""",
-    },
-
-    [3532] = {
-        [LANGUAGE_JAPANESE] = "未　接　続""\x01""",
-        [LANGUAGE_ENGLISH] = "Not Linked""\x01""",
-        [LANGUAGE_CHINESE] = "未 连 接""\x01""",
-    },
-
-    [3533] = {
-        [LANGUAGE_JAPANESE] = "準　備　中""\x01""",
-        [LANGUAGE_ENGLISH] = "Connecting""\x01""",
-        [LANGUAGE_CHINESE] = "准 备 中""\x01""",
-    },
-
-    [3534] = {
-        [LANGUAGE_JAPANESE] = "接続エラー""\x01""",
-        [LANGUAGE_ENGLISH] = "Link Error""\x01""",
-        [LANGUAGE_CHINESE] = "连接出错""\x01""",
-    },
-
-    [3535] = {
-        [LANGUAGE_JAPANESE] = "接続　成功""\x01""",
-        [LANGUAGE_ENGLISH] = "Link OK""\x01""",
-        [LANGUAGE_CHINESE] = "连接成功""\x01""",
-    },
-
-    [3536] = {
-        [LANGUAGE_JAPANESE] = "チーム作成""\x01""",
-        [LANGUAGE_ENGLISH] = "Build Team""\x01""",
-        [LANGUAGE_CHINESE] = "编制小队""\x01""",
-    },
-
-    [3537] = {
-        [LANGUAGE_JAPANESE] = "部隊表""\x01""",
-        [LANGUAGE_ENGLISH] = "Unit List""\x01""",
-        [LANGUAGE_CHINESE] = "部队表""\x01""",
-    },
-
-    [3538] = {
-        [LANGUAGE_JAPANESE] = "チーム入替え""\x01""",
-        [LANGUAGE_ENGLISH] = "Swap""\x01""",
-        [LANGUAGE_CHINESE] = "交换小队""\x01""",
-    },
-
-    [3539] = {
-        [LANGUAGE_JAPANESE] = "チーム削除""\x01""",
-        [LANGUAGE_ENGLISH] = "Disband""\x01""",
-        [LANGUAGE_CHINESE] = "删除小队""\x01""",
-    },
-
-    [3540] = {
-        [LANGUAGE_JAPANESE] = "通信メニュー""\x01""",
-        [LANGUAGE_ENGLISH] = "Link Menu""\x01""",
-        [LANGUAGE_CHINESE] = "通信菜单""\x01""",
-    },
-
-    [3541] = {
-        [LANGUAGE_JAPANESE] = "対戦チーム""\x01""",
-        [LANGUAGE_ENGLISH] = "Team""\x01""",
-        [LANGUAGE_CHINESE] = "对战小队""\x01""",
-    },
-
-    [3542] = {
-        [LANGUAGE_JAPANESE] = "部隊表""\x01""",
-        [LANGUAGE_ENGLISH] = "Unit List""\x01""",
-        [LANGUAGE_CHINESE] = "部队表""\x01""",
-    },
-
-    [3543] = {
-        [LANGUAGE_JAPANESE] = "通信メニュー""\x01""",
-        [LANGUAGE_ENGLISH] = "Link Menu""\x01""",
-        [LANGUAGE_CHINESE] = "通信菜单""\x01""",
-    },
-
-    [3544] = {
-        [LANGUAGE_JAPANESE] = "ーー""\x01""",
-        [LANGUAGE_ENGLISH] = "--""\x01""",
-        [LANGUAGE_CHINESE] = "——""\x01""",
-    },
-
-    [3545] = {
-        [LANGUAGE_JAPANESE] = "平地""\x01""",
-        [LANGUAGE_ENGLISH] = "Plains""\x01""",
-        [LANGUAGE_CHINESE] = "平地""\x01""",
-    },
-
-    [3546] = {
         [LANGUAGE_JAPANESE] = "道""\x01""",
         [LANGUAGE_ENGLISH] = "Road""\x01""",
         [LANGUAGE_CHINESE] = "道路""\x01""",
     },
 
-    [3547] = {
-        [LANGUAGE_JAPANESE] = "村""\x01""",
-        [LANGUAGE_ENGLISH] = "Village""\x01""",
-        [LANGUAGE_CHINESE] = "村庄""\x01""",
+    [3465] = {
+        [LANGUAGE_JAPANESE] = "ー""\x01""",
+        [LANGUAGE_ENGLISH] = "ー""\x01""",
+        [LANGUAGE_CHINESE] = "—""\x01""",
     },
 
-    [3548] = {
-        [LANGUAGE_JAPANESE] = "閉じ村""\x01""",
-        [LANGUAGE_ENGLISH] = "Closed""\x01""",
-        [LANGUAGE_CHINESE] = "已关闭""\x01""",
+    [3466] = {
+        [LANGUAGE_JAPANESE] = "光""\x01""",
+        [LANGUAGE_ENGLISH] = "Light""\x01""",
+        [LANGUAGE_CHINESE] = "光""\x01""",
     },
 
-    [3549] = {
-        [LANGUAGE_JAPANESE] = "民家""\x01""",
-        [LANGUAGE_ENGLISH] = "House""\x01""",
-        [LANGUAGE_CHINESE] = "民房""\x01""",
+    [3467] = {
+        [LANGUAGE_JAPANESE] = "闇""\x01""",
+        [LANGUAGE_ENGLISH] = "Dark""\x01""",
+        [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
-    [3550] = {
-        [LANGUAGE_JAPANESE] = "武器屋""\x01""",
-        [LANGUAGE_ENGLISH] = "Armory""\x01""",
-        [LANGUAGE_CHINESE] = "武器店""\x01""",
+    [3468] = {
+        [LANGUAGE_JAPANESE] = "理""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "理""\x01""",
     },
 
-    [3551] = {
-        [LANGUAGE_JAPANESE] = "道具屋""\x01""",
-        [LANGUAGE_ENGLISH] = "Vendor""\x01""",
-        [LANGUAGE_CHINESE] = "道具店""\x01""",
+    [3469] = {
+        [LANGUAGE_JAPANESE] = "ユニットを隠す""\x01""",
+        [LANGUAGE_ENGLISH] = "Hide Units""\x01""",
+        [LANGUAGE_CHINESE] = "隐藏人物""\x01""",
     },
 
-    [3552] = {
-        [LANGUAGE_JAPANESE] = "闘技場""\x01""",
-        [LANGUAGE_ENGLISH] = "Arena""\x01""",
-        [LANGUAGE_CHINESE] = "斗技场""\x01""",
+    [3470] = {
+        [LANGUAGE_JAPANESE] = "オン""\x01""",
+        [LANGUAGE_ENGLISH] = "On""\x01""",
+        [LANGUAGE_CHINESE] = "开""\x01""",
     },
 
-    [3553] = {
-        [LANGUAGE_JAPANESE] = "預り所""\x01""",
-        [LANGUAGE_ENGLISH] = "Storage""\x01""",
-        [LANGUAGE_CHINESE] = "寄存处""\x01""",
+    [3471] = {
+        [LANGUAGE_JAPANESE] = "オフ""\x01""",
+        [LANGUAGE_ENGLISH] = "Off""\x01""",
+        [LANGUAGE_CHINESE] = "关""\x01""",
     },
 
-    [3554] = {
-        [LANGUAGE_JAPANESE] = "砦""\x01""",
-        [LANGUAGE_ENGLISH] = "Fort""\x01""",
-        [LANGUAGE_CHINESE] = "要塞""\x01""",
+    [3472] = {
+        [LANGUAGE_JAPANESE] = "対戦勝利条件""\x01""",
+        [LANGUAGE_ENGLISH] = "Victory Cond.""\x01""",
+        [LANGUAGE_CHINESE] = "对战胜利条件""\x01""",
     },
 
-    [3555] = {
-        [LANGUAGE_JAPANESE] = "城門""\x01""",
-        [LANGUAGE_ENGLISH] = "Gate""\x01""",
-        [LANGUAGE_CHINESE] = "城门""\x01""",
+    [3473] = {
+        [LANGUAGE_JAPANESE] = "ポイント""\x01""",
+        [LANGUAGE_ENGLISH] = "Point""\x01""",
+        [LANGUAGE_CHINESE] = "得分""\x01""",
     },
 
-    [3556] = {
-        [LANGUAGE_JAPANESE] = "森""\x01""",
-        [LANGUAGE_ENGLISH] = "Forest""\x01""",
-        [LANGUAGE_CHINESE] = "森林""\x01""",
+    [3474] = {
+        [LANGUAGE_JAPANESE] = "サバイバル""\x01""",
+        [LANGUAGE_ENGLISH] = "Survival""\x01""",
+        [LANGUAGE_CHINESE] = "生存""\x01""",
     },
 
-    [3557] = {
-        [LANGUAGE_JAPANESE] = "深い森""\x01""",
-        [LANGUAGE_ENGLISH] = "Woods""\x01""",
-        [LANGUAGE_CHINESE] = "密林""\x01""",
+    [3475] = {
+        [LANGUAGE_JAPANESE] = "自動武器選択""\x01""",
+        [LANGUAGE_ENGLISH] = "AutoWeapon""\x01""",
+        [LANGUAGE_CHINESE] = "自动选择武器""\x01""",
     },
 
-    [3558] = {
-        [LANGUAGE_JAPANESE] = "砂地""\x01""",
-        [LANGUAGE_ENGLISH] = "Sand""\x01""",
-        [LANGUAGE_CHINESE] = "沙地""\x01""",
-    },
-
-    [3559] = {
-        [LANGUAGE_JAPANESE] = "砂漠""\x01""",
-        [LANGUAGE_ENGLISH] = "Desert""\x01""",
-        [LANGUAGE_CHINESE] = "沙漠""\x01""",
-    },
-
-    [3560] = {
-        [LANGUAGE_JAPANESE] = "川""\x01""",
-        [LANGUAGE_ENGLISH] = "River""\x01""",
-        [LANGUAGE_CHINESE] = "河""\x01""",
-    },
-
-    [3561] = {
-        [LANGUAGE_JAPANESE] = "山""\x01""",
-        [LANGUAGE_ENGLISH] = "Mtn""\x01""",
-        [LANGUAGE_CHINESE] = "山""\x01""",
-    },
-
-    [3562] = {
-        [LANGUAGE_JAPANESE] = "高い山""\x01""",
-        [LANGUAGE_ENGLISH] = "Peak""\x01""",
-        [LANGUAGE_CHINESE] = "高山""\x01""",
-    },
-
-    [3563] = {
-        [LANGUAGE_JAPANESE] = "橋""\x01""",
-        [LANGUAGE_ENGLISH] = "Bridge""\x01""",
-        [LANGUAGE_CHINESE] = "桥""\x01""",
-    },
-
-    [3564] = {
-        [LANGUAGE_JAPANESE] = "はね橋""\x01""",
-        [LANGUAGE_ENGLISH] = "Bridge""\x01""",
-        [LANGUAGE_CHINESE] = "吊桥""\x01""",
-    },
-
-    [3565] = {
-        [LANGUAGE_JAPANESE] = "海""\x01""",
-        [LANGUAGE_ENGLISH] = "Sea""\x01""",
-        [LANGUAGE_CHINESE] = "海""\x01""",
-    },
-
-    [3566] = {
-        [LANGUAGE_JAPANESE] = "湖""\x01""",
-        [LANGUAGE_ENGLISH] = "Lake""\x01""",
-        [LANGUAGE_CHINESE] = "湖""\x01""",
-    },
-
-    [3567] = {
-        [LANGUAGE_JAPANESE] = "床""\x01""",
-        [LANGUAGE_ENGLISH] = "Floor""\x01""",
-        [LANGUAGE_CHINESE] = "地板""\x01""",
-    },
-
-    [3568] = {
-        [LANGUAGE_JAPANESE] = "床""\x01""",
-        [LANGUAGE_ENGLISH] = "Floor""\x01""",
-        [LANGUAGE_CHINESE] = "地板""\x01""",
-    },
-
-    [3569] = {
-        [LANGUAGE_JAPANESE] = "塀""\x01""",
-        [LANGUAGE_ENGLISH] = "Wall""\x01""",
-        [LANGUAGE_CHINESE] = "围墙""\x01""",
-    },
-
-    [3570] = {
-        [LANGUAGE_JAPANESE] = "壁""\x01""",
-        [LANGUAGE_ENGLISH] = "Wall""\x01""",
-        [LANGUAGE_CHINESE] = "墙壁""\x01""",
-    },
-
-    [3571] = {
-        [LANGUAGE_JAPANESE] = "壁""\x01""",
-        [LANGUAGE_ENGLISH] = "Wall""\x01""",
-        [LANGUAGE_CHINESE] = "墙壁""\x01""",
-    },
-
-    [3572] = {
-        [LANGUAGE_JAPANESE] = "壊れた壁""\x01""",
-        [LANGUAGE_ENGLISH] = "Broken""\x01""",
-        [LANGUAGE_CHINESE] = "破壁""\x01""",
-    },
-
-    [3573] = {
-        [LANGUAGE_JAPANESE] = "柱""\x01""",
-        [LANGUAGE_ENGLISH] = "Pillar""\x01""",
-        [LANGUAGE_CHINESE] = "柱子""\x01""",
-    },
-
-    [3574] = {
-        [LANGUAGE_JAPANESE] = "扉""\x01""",
-        [LANGUAGE_ENGLISH] = "Door""\x01""",
-        [LANGUAGE_CHINESE] = "门""\x01""",
-    },
-
-    [3575] = {
-        [LANGUAGE_JAPANESE] = "玉座""\x01""",
-        [LANGUAGE_ENGLISH] = "Throne""\x01""",
-        [LANGUAGE_CHINESE] = "宝座""\x01""",
-    },
-
-    [3576] = {
-        [LANGUAGE_JAPANESE] = "空宝箱""\x01""",
-        [LANGUAGE_ENGLISH] = "Chest""\x01""",
-        [LANGUAGE_CHINESE] = "空宝箱""\x01""",
-    },
-
-    [3577] = {
-        [LANGUAGE_JAPANESE] = "宝箱""\x01""",
-        [LANGUAGE_ENGLISH] = "Chest""\x01""",
-        [LANGUAGE_CHINESE] = "宝箱""\x01""",
-    },
-
-    [3578] = {
-        [LANGUAGE_JAPANESE] = "屋根""\x01""",
-        [LANGUAGE_ENGLISH] = "Roof""\x01""",
-        [LANGUAGE_CHINESE] = "屋顶""\x01""",
-    },
-
-    [3579] = {
-        [LANGUAGE_JAPANESE] = "門""\x01""",
-        [LANGUAGE_ENGLISH] = "Gate""\x01""",
-        [LANGUAGE_CHINESE] = "大门""\x01""",
-    },
-
-    [3580] = {
-        [LANGUAGE_JAPANESE] = "教会""\x01""",
-        [LANGUAGE_ENGLISH] = "Church""\x01""",
-        [LANGUAGE_CHINESE] = "教会""\x01""",
-    },
-
-    [3581] = {
-        [LANGUAGE_JAPANESE] = "廃墟""\x01""",
-        [LANGUAGE_ENGLISH] = "Ruins""\x01""",
-        [LANGUAGE_CHINESE] = "废墟""\x01""",
-    },
-
-    [3582] = {
-        [LANGUAGE_JAPANESE] = "がけ""\x01""",
-        [LANGUAGE_ENGLISH] = "Cliff""\x01""",
-        [LANGUAGE_CHINESE] = "悬崖""\x01""",
-    },
-
-    [3583] = {
-        [LANGUAGE_JAPANESE] = "アーチ""\x01""",
-        [LANGUAGE_ENGLISH] = "Arch""\x01""",
-        [LANGUAGE_CHINESE] = "弩""\x01""",
-    },
-
-    [3584] = {
-        [LANGUAGE_JAPANESE] = "ロング""\x01""",
-        [LANGUAGE_ENGLISH] = "Long""\x01""",
-        [LANGUAGE_CHINESE] = "远程""\x01""",
-    },
-
-    [3585] = {
-        [LANGUAGE_JAPANESE] = "キラー""\x01""",
-        [LANGUAGE_ENGLISH] = "Killer""\x01""",
-        [LANGUAGE_CHINESE] = "必杀""\x01""",
-    },
-
-    [3586] = {
-        [LANGUAGE_JAPANESE] = "荒地""\x01""",
-        [LANGUAGE_ENGLISH] = "Land""\x01""",
-        [LANGUAGE_CHINESE] = "荒地""\x01""",
-    },
-
-    [3587] = {
-        [LANGUAGE_JAPANESE] = "壊れた家""\x01""",
-        [LANGUAGE_ENGLISH] = "Broken""\x01""",
-        [LANGUAGE_CHINESE] = "破屋""\x01""",
-    },
-
-    [3588] = {
-        [LANGUAGE_JAPANESE] = "ーー""\x01""",
-        [LANGUAGE_ENGLISH] = "--""\x01""",
-        [LANGUAGE_CHINESE] = "——""\x01""",
-    },
-
-    [3589] = {
-        [LANGUAGE_JAPANESE] = "階段""\x01""",
-        [LANGUAGE_ENGLISH] = "Stairs""\x01""",
-        [LANGUAGE_CHINESE] = "楼梯""\x01""",
-    },
-
-    [3590] = {
-        [LANGUAGE_JAPANESE] = "ーー""\x01""",
-        [LANGUAGE_ENGLISH] = "--""\x01""",
-        [LANGUAGE_CHINESE] = "——""\x01""",
-    },
-
-    [3591] = {
-        [LANGUAGE_JAPANESE] = "氷河""\x01""",
-        [LANGUAGE_ENGLISH] = "Glacier""\x01""",
-        [LANGUAGE_CHINESE] = "冰川""\x01""",
-    },
-
-    [3592] = {
-        [LANGUAGE_JAPANESE] = "通信闘技""\x01""",
-        [LANGUAGE_ENGLISH] = "Arena""\x01""",
-        [LANGUAGE_CHINESE] = "通信斗技""\x01""",
-    },
-
-    [3593] = {
-        [LANGUAGE_JAPANESE] = "谷""\x01""",
-        [LANGUAGE_ENGLISH] = "Valley""\x01""",
-        [LANGUAGE_CHINESE] = "谷""\x01""",
-    },
-
-    [3594] = {
-        [LANGUAGE_JAPANESE] = "塀""\x01""",
-        [LANGUAGE_ENGLISH] = "Wall""\x01""",
-        [LANGUAGE_CHINESE] = "围墙""\x01""",
-    },
-
-    [3595] = {
-        [LANGUAGE_JAPANESE] = "ーーー""\x01""",
-        [LANGUAGE_ENGLISH] = "ーーー""\x01""",
-        [LANGUAGE_CHINESE] = "———""\x01""",
-    },
-
-    [3596] = {
-        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
-        [LANGUAGE_ENGLISH] = "ATK""\x01""",
-        [LANGUAGE_CHINESE] = "攻击""\x01""",
-    },
-
-    [3597] = {
-        [LANGUAGE_JAPANESE] = "攻撃デ""\x01""",
-        [LANGUAGE_ENGLISH] = "'De'""\x01""",
-        [LANGUAGE_CHINESE] = "A07""\x01""",
-    },
-
-    [3598] = {
-        [LANGUAGE_JAPANESE] = "攻撃リ""\x01""",
-        [LANGUAGE_ENGLISH] = "'Ri'""\x01""",
-        [LANGUAGE_CHINESE] = "A06""\x01""",
-    },
-
-    [3599] = {
-        [LANGUAGE_JAPANESE] = "攻撃毒""\x01""",
-        [LANGUAGE_ENGLISH] = "ATKP""\x01""",
-        [LANGUAGE_CHINESE] = "A05""\x01""",
-    },
-
-    [3600] = {
-        [LANGUAGE_JAPANESE] = "必殺""\x01""",
-        [LANGUAGE_ENGLISH] = "CRT""\x01""",
-        [LANGUAGE_CHINESE] = "必杀""\x01""",
-    },
-
-    [3601] = {
-        [LANGUAGE_JAPANESE] = "必殺デ""\x01""",
-        [LANGUAGE_ENGLISH] = "'De'""\x01""",
-        [LANGUAGE_CHINESE] = "A04""\x01""",
-    },
-
-    [3602] = {
-        [LANGUAGE_JAPANESE] = "必殺リ""\x01""",
-        [LANGUAGE_ENGLISH] = "'Ri'""\x01""",
-        [LANGUAGE_CHINESE] = "A03""\x01""",
-    },
-
-    [3603] = {
-        [LANGUAGE_JAPANESE] = "必殺毒""\x01""",
-        [LANGUAGE_ENGLISH] = "CRTP""\x01""",
-        [LANGUAGE_CHINESE] = "A02""\x01""",
-    },
-
-    [3604] = {
-        [LANGUAGE_JAPANESE] = "空ぶり""\x01""",
-        [LANGUAGE_ENGLISH] = "EMPB""\x01""",
-        [LANGUAGE_CHINESE] = "A01""\x01""",
-    },
-
-    [3605] = {
-        [LANGUAGE_JAPANESE] = "ＬＶ""\x01""",
-        [LANGUAGE_ENGLISH] = "Lv""\x01""",
-        [LANGUAGE_CHINESE] = "LV""\x01""",
-    },
-
-    [3606] = {
-        [LANGUAGE_JAPANESE] = "Lv""\x01""",
-        [LANGUAGE_ENGLISH] = "Lv""\x01""",
-        [LANGUAGE_CHINESE] = "Lv""\x01""",
-    },
-
-    [3607] = {
-        [LANGUAGE_JAPANESE] = "ＥＸ""\x01""",
-        [LANGUAGE_ENGLISH] = "E""\x01""",
-        [LANGUAGE_CHINESE] = "EX""\x01""",
-    },
-
-    [3608] = {
-        [LANGUAGE_JAPANESE] = "Ex""\x01""",
-        [LANGUAGE_ENGLISH] = "Ex""\x01""",
-        [LANGUAGE_CHINESE] = "Ex""\x01""",
-    },
-
-    [3609] = {
+    [3476] = {
         [LANGUAGE_JAPANESE] = "ＨＰ""\x01""",
         [LANGUAGE_ENGLISH] = "HP""\x01""",
         [LANGUAGE_CHINESE] = "HP""\x01""",
     },
 
-    [3610] = {
-        [LANGUAGE_JAPANESE] = "HP""\x01""",
-        [LANGUAGE_ENGLISH] = "HP""\x01""",
-        [LANGUAGE_CHINESE] = "HP""\x01""",
-    },
-
-    [3611] = {
+    [3477] = {
         [LANGUAGE_JAPANESE] = "力""\x01""",
         [LANGUAGE_ENGLISH] = "Str""\x01""",
         [LANGUAGE_CHINESE] = "力量""\x01""",
     },
 
-    [3612] = {
-        [LANGUAGE_JAPANESE] = "str""\x01""",
-        [LANGUAGE_ENGLISH] = "str""\x01""",
-        [LANGUAGE_CHINESE] = "str""\x01""",
-    },
-
-    [3613] = {
-        [LANGUAGE_JAPANESE] = "魔力""\x01""",
-        [LANGUAGE_ENGLISH] = "Mag""\x01""",
-        [LANGUAGE_CHINESE] = "魔力""\x01""",
-    },
-
-    [3614] = {
-        [LANGUAGE_JAPANESE] = "mag""\x01""",
-        [LANGUAGE_ENGLISH] = "mag""\x01""",
-        [LANGUAGE_CHINESE] = "mag""\x01""",
-    },
-
-    [3615] = {
+    [3478] = {
         [LANGUAGE_JAPANESE] = "技""\x01""",
         [LANGUAGE_ENGLISH] = "Skill""\x01""",
         [LANGUAGE_CHINESE] = "技术""\x01""",
     },
 
-    [3616] = {
-        [LANGUAGE_JAPANESE] = "tech""\x01""",
-        [LANGUAGE_ENGLISH] = "skl""\x01""",
-        [LANGUAGE_CHINESE] = "tech""\x01""",
-    },
-
-    [3617] = {
+    [3479] = {
         [LANGUAGE_JAPANESE] = "速さ""\x01""",
         [LANGUAGE_ENGLISH] = "Spd""\x01""",
         [LANGUAGE_CHINESE] = "速度""\x01""",
     },
 
-    [3618] = {
-        [LANGUAGE_JAPANESE] = "quick""\x01""",
-        [LANGUAGE_ENGLISH] = "spd""\x01""",
-        [LANGUAGE_CHINESE] = "quick""\x01""",
-    },
-
-    [3619] = {
+    [3480] = {
         [LANGUAGE_JAPANESE] = "守備""\x01""",
         [LANGUAGE_ENGLISH] = "Def""\x01""",
         [LANGUAGE_CHINESE] = "守备""\x01""",
     },
 
-    [3620] = {
-        [LANGUAGE_JAPANESE] = "def""\x01""",
-        [LANGUAGE_ENGLISH] = "def""\x01""",
-        [LANGUAGE_CHINESE] = "def""\x01""",
-    },
-
-    [3621] = {
+    [3481] = {
         [LANGUAGE_JAPANESE] = "魔防""\x01""",
         [LANGUAGE_ENGLISH] = "Res""\x01""",
         [LANGUAGE_CHINESE] = "魔防""\x01""",
     },
 
-    [3622] = {
-        [LANGUAGE_JAPANESE] = "mdef""\x01""",
-        [LANGUAGE_ENGLISH] = "res""\x01""",
-        [LANGUAGE_CHINESE] = "mdef""\x01""",
+    [3482] = {
+        [LANGUAGE_JAPANESE] = "扉""\x01""",
+        [LANGUAGE_ENGLISH] = "Door""\x01""",
+        [LANGUAGE_CHINESE] = "门""\x01""",
     },
 
-    [3623] = {
-        [LANGUAGE_JAPANESE] = "幸運""\x01""",
-        [LANGUAGE_ENGLISH] = "Luck""\x01""",
-        [LANGUAGE_CHINESE] = "幸运""\x01""",
+    [3483] = {
+        [LANGUAGE_JAPANESE] = "闇""\x01""",
+        [LANGUAGE_ENGLISH] = "Dark""\x01""",
+        [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
-    [3624] = {
-        [LANGUAGE_JAPANESE] = "luck""\x01""",
-        [LANGUAGE_ENGLISH] = "luck""\x01""",
-        [LANGUAGE_CHINESE] = "luck""\x01""",
+    [3484] = {
+        [LANGUAGE_JAPANESE] = "川""\x01""",
+        [LANGUAGE_ENGLISH] = "River""\x01""",
+        [LANGUAGE_CHINESE] = "河""\x01""",
     },
 
-    [3625] = {
-        [LANGUAGE_JAPANESE] = "体格""\x01""",
-        [LANGUAGE_ENGLISH] = "Con""\x01""",
-        [LANGUAGE_CHINESE] = "体格""\x01""",
+    [3485] = {
+        [LANGUAGE_JAPANESE] = "位""\x01""",
+        [LANGUAGE_ENGLISH] = "１st""\x01""",
+        [LANGUAGE_CHINESE] = "位""\x01""",
     },
 
-    [3626] = {
-        [LANGUAGE_JAPANESE] = "build""\x01""",
-        [LANGUAGE_ENGLISH] = "con""\x01""",
-        [LANGUAGE_CHINESE] = "build""\x01""",
-    },
-
-    [3627] = {
-        [LANGUAGE_JAPANESE] = "救出""\x01""",
-        [LANGUAGE_ENGLISH] = "Aid""\x01""",
-        [LANGUAGE_CHINESE] = "救出""\x01""",
-    },
-
-    [3628] = {
-        [LANGUAGE_JAPANESE] = "res""\x01""",
-        [LANGUAGE_ENGLISH] = "res""\x01""",
-        [LANGUAGE_CHINESE] = "res""\x01""",
-    },
-
-    [3629] = {
-        [LANGUAGE_JAPANESE] = "移動""\x01""",
-        [LANGUAGE_ENGLISH] = "Move""\x01""",
-        [LANGUAGE_CHINESE] = "移动""\x01""",
-    },
-
-    [3630] = {
-        [LANGUAGE_JAPANESE] = "mob""\x01""",
-        [LANGUAGE_ENGLISH] = "mob""\x01""",
-        [LANGUAGE_CHINESE] = "mob""\x01""",
-    },
-
-    [3631] = {
-        [LANGUAGE_JAPANESE] = "同行""\x01""",
-        [LANGUAGE_ENGLISH] = "Trv""\x01""",
-        [LANGUAGE_CHINESE] = "同行""\x01""",
-    },
-
-    [3632] = {
-        [LANGUAGE_JAPANESE] = "save""\x01""",
-        [LANGUAGE_ENGLISH] = "save""\x01""",
-        [LANGUAGE_CHINESE] = "save""\x01""",
-    },
-
-    [3633] = {
-        [LANGUAGE_JAPANESE] = "属性""\x01""",
-        [LANGUAGE_ENGLISH] = "Affin""\x01""",
-        [LANGUAGE_CHINESE] = "属性""\x01""",
-    },
-
-    [3634] = {
-        [LANGUAGE_JAPANESE] = "attr""\x01""",
-        [LANGUAGE_ENGLISH] = "attr""\x01""",
-        [LANGUAGE_CHINESE] = "attr""\x01""",
-    },
-
-    [3635] = {
-        [LANGUAGE_JAPANESE] = "射程""\x01""",
-        [LANGUAGE_ENGLISH] = "Rng""\x01""",
-        [LANGUAGE_CHINESE] = "射程""\x01""",
-    },
-
-    [3636] = {
-        [LANGUAGE_JAPANESE] = "rng""\x01""",
-        [LANGUAGE_ENGLISH] = "rng""\x01""",
-        [LANGUAGE_CHINESE] = "rng""\x01""",
-    },
-
-    [3637] = {
-        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
-        [LANGUAGE_ENGLISH] = "Atk""\x01""",
-        [LANGUAGE_CHINESE] = "攻击""\x01""",
-    },
-
-    [3638] = {
-        [LANGUAGE_JAPANESE] = "pow""\x01""",
-        [LANGUAGE_ENGLISH] = "pow""\x01""",
-        [LANGUAGE_CHINESE] = "pow""\x01""",
-    },
-
-    [3639] = {
-        [LANGUAGE_JAPANESE] = "命中""\x01""",
-        [LANGUAGE_ENGLISH] = "Hit""\x01""",
-        [LANGUAGE_CHINESE] = "命中""\x01""",
-    },
-
-    [3640] = {
-        [LANGUAGE_JAPANESE] = "hit""\x01""",
-        [LANGUAGE_ENGLISH] = "hit""\x01""",
-        [LANGUAGE_CHINESE] = "hit""\x01""",
-    },
-
-    [3641] = {
-        [LANGUAGE_JAPANESE] = "必殺""\x01""",
-        [LANGUAGE_ENGLISH] = "Crit""\x01""",
-        [LANGUAGE_CHINESE] = "必杀""\x01""",
-    },
-
-    [3642] = {
-        [LANGUAGE_JAPANESE] = "crit""\x01""",
-        [LANGUAGE_ENGLISH] = "crit""\x01""",
-        [LANGUAGE_CHINESE] = "crit""\x01""",
-    },
-
-    [3643] = {
-        [LANGUAGE_JAPANESE] = "回避""\x01""",
-        [LANGUAGE_ENGLISH] = "Avoid""\x01""",
-        [LANGUAGE_CHINESE] = "回避""\x01""",
-    },
-
-    [3644] = {
-        [LANGUAGE_JAPANESE] = "avoid""\x01""",
-        [LANGUAGE_ENGLISH] = "avoid""\x01""",
-        [LANGUAGE_CHINESE] = "avoid""\x01""",
-    },
-
-    [3645] = {
-        [LANGUAGE_JAPANESE] = "状態""\x01""",
-        [LANGUAGE_ENGLISH] = "Cond""\x01""",
-        [LANGUAGE_CHINESE] = "状态""\x01""",
-    },
-
-    [3646] = {
-        [LANGUAGE_JAPANESE] = "cond""\x01""",
-        [LANGUAGE_ENGLISH] = "cond""\x01""",
-        [LANGUAGE_CHINESE] = "cond""\x01""",
-    },
-
-    [3647] = {
-        [LANGUAGE_JAPANESE] = "威力""\x01""",
-        [LANGUAGE_ENGLISH] = "Mt""\x01""",
-        [LANGUAGE_CHINESE] = "威力""\x01""",
-    },
-
-    [3648] = {
-        [LANGUAGE_JAPANESE] = "pow""\x01""",
-        [LANGUAGE_ENGLISH] = "pow""\x01""",
-        [LANGUAGE_CHINESE] = "pow""\x01""",
-    },
-
-    [3649] = {
-        [LANGUAGE_JAPANESE] = "重さ""\x01""",
-        [LANGUAGE_ENGLISH] = "Weight""\x01""",
-        [LANGUAGE_CHINESE] = "重量""\x01""",
-    },
-
-    [3650] = {
-        [LANGUAGE_JAPANESE] = "wgt""\x01""",
-        [LANGUAGE_ENGLISH] = "wgt""\x01""",
-        [LANGUAGE_CHINESE] = "wgt""\x01""",
-    },
-
-    [3651] = {
-        [LANGUAGE_JAPANESE] = "　　異常""\x01""",
-        [LANGUAGE_ENGLISH] = "  Strangeness""\x01""",
-        [LANGUAGE_CHINESE] = "  异常""\x01""",
-    },
-
-    [3652] = {
-        [LANGUAGE_JAPANESE] = "１－魔力""\x01""",
-        [LANGUAGE_ENGLISH] = "1""\x01""",
-        [LANGUAGE_CHINESE] = "1－魔力""\x01""",
-    },
-
-    [3653] = {
-        [LANGUAGE_JAPANESE] = "　　　１""\x01""",
-        [LANGUAGE_ENGLISH] = "   1""\x01""",
-        [LANGUAGE_CHINESE] = "   1""\x01""",
-    },
-
-    [3654] = {
-        [LANGUAGE_JAPANESE] = "　１－２""\x01""",
-        [LANGUAGE_ENGLISH] = " 1-2""\x01""",
-        [LANGUAGE_CHINESE] = " 1－2""\x01""",
-    },
-
-    [3655] = {
-        [LANGUAGE_JAPANESE] = "　１－３""\x01""",
-        [LANGUAGE_ENGLISH] = " 1-3""\x01""",
-        [LANGUAGE_CHINESE] = " 1－3""\x01""",
-    },
-
-    [3656] = {
-        [LANGUAGE_JAPANESE] = "　　　２""\x01""",
-        [LANGUAGE_ENGLISH] = "   2""\x01""",
-        [LANGUAGE_CHINESE] = "   2""\x01""",
-    },
-
-    [3657] = {
-        [LANGUAGE_JAPANESE] = "　２－３""\x01""",
-        [LANGUAGE_ENGLISH] = " 2-3""\x01""",
-        [LANGUAGE_CHINESE] = " 2－3""\x01""",
-    },
-
-    [3658] = {
-        [LANGUAGE_JAPANESE] = "３－１０""\x01""",
-        [LANGUAGE_ENGLISH] = "3-10""\x01""",
-        [LANGUAGE_CHINESE] = "3－10""\x01""",
-    },
-
-    [3659] = {
-        [LANGUAGE_JAPANESE] = "３－１５""\x01""",
-        [LANGUAGE_ENGLISH] = "3-15""\x01""",
-        [LANGUAGE_CHINESE] = "3－15""\x01""",
-    },
-
-    [3660] = {
+    [3486] = {
         [LANGUAGE_JAPANESE] = "ーーー""\x01""",
-        [LANGUAGE_ENGLISH] = "ーーー""\x01""",
+        [LANGUAGE_ENGLISH] = "---""\x01""",
         [LANGUAGE_CHINESE] = "———""\x01""",
     },
 
-    [3661] = {
-        [LANGUAGE_JAPANESE] = "どく""\x01""",
-        [LANGUAGE_ENGLISH] = "Pois""\x01""",
+    [3487] = {
+        [LANGUAGE_JAPANESE] = "ポイズン""\x01""",
+        [LANGUAGE_ENGLISH] = "Poison""\x01""",
         [LANGUAGE_CHINESE] = "中毒""\x01""",
     },
 
-    [3662] = {
-        [LANGUAGE_JAPANESE] = "すいみん""\x01""",
-        [LANGUAGE_ENGLISH] = "Slep""\x01""",
+    [3488] = {
+        [LANGUAGE_JAPANESE] = "スリープ""\x01""",
+        [LANGUAGE_ENGLISH] = "Sleep""\x01""",
         [LANGUAGE_CHINESE] = "昏睡""\x01""",
     },
 
-    [3663] = {
-        [LANGUAGE_JAPANESE] = "ちんもく""\x01""",
+    [3489] = {
+        [LANGUAGE_JAPANESE] = "サイレス""\x01""",
         [LANGUAGE_ENGLISH] = "Silence""\x01""",
         [LANGUAGE_CHINESE] = "沉默""\x01""",
     },
 
-    [3664] = {
-        [LANGUAGE_JAPANESE] = "はっきょう""\x01""",
+    [3490] = {
+        [LANGUAGE_JAPANESE] = "バサーク""\x01""",
         [LANGUAGE_ENGLISH] = "Berserk""\x01""",
         [LANGUAGE_CHINESE] = "狂乱""\x01""",
     },
 
-    [3665] = {
-        [LANGUAGE_JAPANESE] = "剣""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "剑""\x01""",
+    [3491] = {
+        [LANGUAGE_JAPANESE] = "　チュートリアルを続ける""\x01""",
+        [LANGUAGE_ENGLISH] = "Continue""\x01""",
+        [LANGUAGE_CHINESE] = " 继续训练模式""\x01""",
     },
 
-    [3666] = {
-        [LANGUAGE_JAPANESE] = "Sword""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Sword""\x01""",
+    [3492] = {
+        [LANGUAGE_JAPANESE] = "　チュートリアルをやめる""\x01""",
+        [LANGUAGE_ENGLISH] = "Quit""\x01""",
+        [LANGUAGE_CHINESE] = " 结束训练模式""\x01""",
     },
 
-    [3667] = {
-        [LANGUAGE_JAPANESE] = "槍""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "枪""\x01""",
+    [3493] = {
+        [LANGUAGE_JAPANESE] = "ファイルをクリアずみに""\x01""",
+        [LANGUAGE_ENGLISH] = "Are you sure to""\x01""",
+        [LANGUAGE_CHINESE] = "你确定要将存档""\x01""",
     },
 
-    [3668] = {
-        [LANGUAGE_JAPANESE] = "Lance""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Lance""\x01""",
+    [3494] = {
+        [LANGUAGE_JAPANESE] = "しますか？""\x01""",
+        [LANGUAGE_ENGLISH] = " delete save?""\x01""",
+        [LANGUAGE_CHINESE] = "删除吗？""\x01""",
     },
 
-    [3669] = {
-        [LANGUAGE_JAPANESE] = "斧""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "斧""\x01""",
+    [3495] = {
+        [LANGUAGE_JAPANESE] = "クリアずみファイルでは""\x01""",
+        [LANGUAGE_ENGLISH] = "You cannot play""\x01""",
+        [LANGUAGE_CHINESE] = "被删除的存档""\x01""",
     },
 
-    [3670] = {
-        [LANGUAGE_JAPANESE] = "Axe""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Axe""\x01""",
+    [3496] = {
+        [LANGUAGE_JAPANESE] = "以後プレイできません""\x01""",
+        [LANGUAGE_ENGLISH] = " deleted save""\x01""",
+        [LANGUAGE_CHINESE] = "就不能再玩了""\x01""",
     },
 
-    [3671] = {
-        [LANGUAGE_JAPANESE] = "弓""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "弓""\x01""",
+    [3497] = {
+        [LANGUAGE_JAPANESE] = "　　　　　　　　　了解""\x01""",
+        [LANGUAGE_ENGLISH] = "　　　　　　　　　了解""\x01""",
+        [LANGUAGE_CHINESE] = "         是的""\x01""",
     },
 
-    [3672] = {
-        [LANGUAGE_JAPANESE] = "Bow""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Bow""\x01""",
+    [3498] = {
+        [LANGUAGE_JAPANESE] = "　リリースエントリ""\x01""",
+        [LANGUAGE_ENGLISH] = " Release Entry""\x01""",
+        [LANGUAGE_CHINESE] = " 正式版入口""\x01""",
     },
 
-    [3673] = {
-        [LANGUAGE_JAPANESE] = "杖""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "杖""\x01""",
+    [3499] = {
+        [LANGUAGE_JAPANESE] = "　どこでも再開""\x01""",
+        [LANGUAGE_ENGLISH] = " Free Continue""\x01""",
+        [LANGUAGE_CHINESE] = " 继续游戏""\x01""",
     },
 
-    [3674] = {
-        [LANGUAGE_JAPANESE] = "Wand""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Wand""\x01""",
+    [3500] = {
+        [LANGUAGE_JAPANESE] = "　手再開""\x01""",
+        [LANGUAGE_ENGLISH] = " Manual Continue""\x01""",
+        [LANGUAGE_CHINESE] = " 手动继续""\x01""",
     },
 
-    [3675] = {
-        [LANGUAGE_JAPANESE] = "理""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "理""\x01""",
+    [3501] = {
+        [LANGUAGE_JAPANESE] = "　手中断""\x01""",
+        [LANGUAGE_ENGLISH] = "　手中断""\x01""",
+        [LANGUAGE_CHINESE] = " 中断""\x01""",
     },
 
-    [3676] = {
-        [LANGUAGE_JAPANESE] = "Magic""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Magic""\x01""",
+    [3502] = {
+        [LANGUAGE_JAPANESE] = "　マップ""\x01""",
+        [LANGUAGE_ENGLISH] = "　マップ""\x01""",
+        [LANGUAGE_CHINESE] = " 地图""\x01""",
     },
 
-    [3677] = {
-        [LANGUAGE_JAPANESE] = "光""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "光""\x01""",
+    [3503] = {
+        [LANGUAGE_JAPANESE] = "　デブ情報""\x01""",
+        [LANGUAGE_ENGLISH] = "　デブ情報""\x01""",
+        [LANGUAGE_CHINESE] = " 调试信息""\x01""",
     },
 
-    [3678] = {
-        [LANGUAGE_JAPANESE] = "Lightning""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Lightning""\x01""",
+    [3504] = {
+        [LANGUAGE_JAPANESE] = "　天気""\x01""",
+        [LANGUAGE_ENGLISH] = "　天気""\x01""",
+        [LANGUAGE_CHINESE] = " 天气""\x01""",
     },
 
-    [3679] = {
-        [LANGUAGE_JAPANESE] = "闇""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "暗""\x01""",
+    [3505] = {
+        [LANGUAGE_JAPANESE] = "　索敵""\x01""",
+        [LANGUAGE_ENGLISH] = "　索敵""\x01""",
+        [LANGUAGE_CHINESE] = " 索敌""\x01""",
     },
 
-    [3680] = {
-        [LANGUAGE_JAPANESE] = "Darkness""\x01""",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "Darkness""\x01""",
+    [3506] = {
+        [LANGUAGE_JAPANESE] = "　周回数""\x01""",
+        [LANGUAGE_ENGLISH] = "　周回数""\x01""",
+        [LANGUAGE_CHINESE] = " 周回数""\x01""",
     },
 
-    [3681] = {
-        [LANGUAGE_JAPANESE] = "名前""\x01""",
-        [LANGUAGE_ENGLISH] = "Name""\x01""",
-        [LANGUAGE_CHINESE] = "名字""\x01""",
+    [3507] = {
+        [LANGUAGE_JAPANESE] = "　クリアずみ""\x01""",
+        [LANGUAGE_ENGLISH] = " Deleted""\x01""",
+        [LANGUAGE_CHINESE] = " 删除完成""\x01""",
     },
 
-    [3682] = {
-        [LANGUAGE_JAPANESE] = "クラス""\x01""",
-        [LANGUAGE_ENGLISH] = "Class""\x01""",
-        [LANGUAGE_CHINESE] = "职业""\x01""",
+    [3508] = {
+        [LANGUAGE_JAPANESE] = "　おやすみなさい""\x01""",
+        [LANGUAGE_ENGLISH] = " Good Night""\x01""",
+        [LANGUAGE_CHINESE] = " 晚安""\x01""",
     },
 
-    [3683] = {
+    [3509] = {
+        [LANGUAGE_JAPANESE] = "　アーチ攻撃""\x01""",
+        [LANGUAGE_ENGLISH] = "Ballista""\x01""",
+        [LANGUAGE_CHINESE] = " 弩攻击""\x01""",
+    },
+
+    [3510] = {
+        [LANGUAGE_JAPANESE] = "　通常攻撃""\x01""",
+        [LANGUAGE_ENGLISH] = "Equipment""\x01""",
+        [LANGUAGE_CHINESE] = " 通常攻击""\x01""",
+    },
+
+    [3511] = {
+        [LANGUAGE_JAPANESE] = "はい""\x01""",
+        [LANGUAGE_ENGLISH] = "Yes""\x01""",
+        [LANGUAGE_CHINESE] = "是的""\x01""",
+    },
+
+    [3512] = {
+        [LANGUAGE_JAPANESE] = "いいえ""\x01""",
+        [LANGUAGE_ENGLISH] = "No""\x01""",
+        [LANGUAGE_CHINESE] = "不要""\x01""",
+    },
+
+    [3513] = {
+        [LANGUAGE_JAPANESE] = "使う""\x01""",
+        [LANGUAGE_ENGLISH] = "Use""\x01""",
+        [LANGUAGE_CHINESE] = "使用""\x01""",
+    },
+
+    [3514] = {
         [LANGUAGE_JAPANESE] = "装備""\x01""",
         [LANGUAGE_ENGLISH] = "Equip""\x01""",
         [LANGUAGE_CHINESE] = "装备""\x01""",
     },
 
-    [3684] = {
-        [LANGUAGE_JAPANESE] = "アニメ""\x01""",
-        [LANGUAGE_ENGLISH] = "Anim""\x01""",
-        [LANGUAGE_CHINESE] = "动画""\x01""",
+    [3515] = {
+        [LANGUAGE_JAPANESE] = "交換""\x01""",
+        [LANGUAGE_ENGLISH] = "Trade""\x01""",
+        [LANGUAGE_CHINESE] = "交换""\x01""",
     },
 
-    [3685] = {
-        [LANGUAGE_JAPANESE] = "ＥＸ""\x01""",
-        [LANGUAGE_ENGLISH] = "Exp""\x01""",
-        [LANGUAGE_CHINESE] = "EX""\x01""",
+    [3516] = {
+        [LANGUAGE_JAPANESE] = "捨てる""\x01""",
+        [LANGUAGE_ENGLISH] = "Discard""\x01""",
+        [LANGUAGE_CHINESE] = "丢弃""\x01""",
     },
 
-    [3686] = {
-        [LANGUAGE_JAPANESE] = "ＨＰ""\x01""",
-        [LANGUAGE_ENGLISH] = "HP""\x01""",
-        [LANGUAGE_CHINESE] = "HP""\x01""",
+    [3517] = {
+        [LANGUAGE_JAPANESE] = "　制圧""\x01""",
+        [LANGUAGE_ENGLISH] = "Seize""\x01""",
+        [LANGUAGE_CHINESE] = " 占领""\x01""",
     },
 
-    [3687] = {
-        [LANGUAGE_JAPANESE] = "ＭＨＰ""\x01""",
-        [LANGUAGE_ENGLISH] = "Max""\x01""",
-        [LANGUAGE_CHINESE] = "MHP""\x01""",
+    [3518] = {
+        [LANGUAGE_JAPANESE] = "　攻撃""\x01""",
+        [LANGUAGE_ENGLISH] = "Attack""\x01""",
+        [LANGUAGE_CHINESE] = " 攻击""\x01""",
     },
 
-    [3688] = {
-        [LANGUAGE_JAPANESE] = "力／魔""\x01""",
-        [LANGUAGE_ENGLISH] = "S/M""\x01""",
-        [LANGUAGE_CHINESE] = "力／魔""\x01""",
+    [3519] = {
+        [LANGUAGE_JAPANESE] = "　杖""\x01""",
+        [LANGUAGE_ENGLISH] = "Staff""\x01""",
+        [LANGUAGE_CHINESE] = " 杖""\x01""",
     },
 
-    [3689] = {
-        [LANGUAGE_JAPANESE] = "技""\x01""",
-        [LANGUAGE_ENGLISH] = "Skill""\x01""",
-        [LANGUAGE_CHINESE] = "技术""\x01""",
+    [3520] = {
+        [LANGUAGE_JAPANESE] = "　奏でる""\x01""",
+        [LANGUAGE_ENGLISH] = "Play""\x01""",
+        [LANGUAGE_CHINESE] = " 演奏""\x01""",
     },
 
-    [3690] = {
-        [LANGUAGE_JAPANESE] = "速さ""\x01""",
-        [LANGUAGE_ENGLISH] = "Spd""\x01""",
-        [LANGUAGE_CHINESE] = "速度""\x01""",
+    [3521] = {
+        [LANGUAGE_JAPANESE] = "　踊る""\x01""",
+        [LANGUAGE_ENGLISH] = "Dance""\x01""",
+        [LANGUAGE_CHINESE] = " 舞蹈""\x01""",
     },
 
-    [3691] = {
-        [LANGUAGE_JAPANESE] = "幸運""\x01""",
-        [LANGUAGE_ENGLISH] = "Luck""\x01""",
-        [LANGUAGE_CHINESE] = "幸运""\x01""",
+    [3522] = {
+        [LANGUAGE_JAPANESE] = "　盗む""\x01""",
+        [LANGUAGE_ENGLISH] = "Steal""\x01""",
+        [LANGUAGE_CHINESE] = " 盗取""\x01""",
     },
 
-    [3692] = {
-        [LANGUAGE_JAPANESE] = "守備""\x01""",
-        [LANGUAGE_ENGLISH] = "Def""\x01""",
-        [LANGUAGE_CHINESE] = "守备""\x01""",
+    [3523] = {
+        [LANGUAGE_JAPANESE] = "　話す""\x01""",
+        [LANGUAGE_ENGLISH] = "Talk""\x01""",
+        [LANGUAGE_CHINESE] = " 对话""\x01""",
     },
 
-    [3693] = {
-        [LANGUAGE_JAPANESE] = "魔防""\x01""",
-        [LANGUAGE_ENGLISH] = "Res""\x01""",
-        [LANGUAGE_CHINESE] = "魔防""\x01""",
+    [3524] = {
+        [LANGUAGE_JAPANESE] = "　支援""\x01""",
+        [LANGUAGE_ENGLISH] = "Support""\x01""",
+        [LANGUAGE_CHINESE] = " 支援""\x01""",
     },
 
-    [3694] = {
-        [LANGUAGE_JAPANESE] = "属性""\x01""",
-        [LANGUAGE_ENGLISH] = "Affin""\x01""",
-        [LANGUAGE_CHINESE] = "属性""\x01""",
+    [3525] = {
+        [LANGUAGE_JAPANESE] = "　訪問""\x01""",
+        [LANGUAGE_ENGLISH] = "Visit""\x01""",
+        [LANGUAGE_CHINESE] = " 访问""\x01""",
     },
 
-    [3695] = {
-        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
-        [LANGUAGE_ENGLISH] = "Atk""\x01""",
-        [LANGUAGE_CHINESE] = "攻击""\x01""",
+    [3526] = {
+        [LANGUAGE_JAPANESE] = "　宝箱""\x01""",
+        [LANGUAGE_ENGLISH] = "Unlock""\x01""",
+        [LANGUAGE_CHINESE] = " 宝箱""\x01""",
     },
 
-    [3696] = {
+    [3527] = {
+        [LANGUAGE_JAPANESE] = "　扉""\x01""",
+        [LANGUAGE_ENGLISH] = "Unlock""\x01""",
+        [LANGUAGE_CHINESE] = " 开门""\x01""",
+    },
+
+    [3528] = {
+        [LANGUAGE_JAPANESE] = "　武器屋""\x01""",
+        [LANGUAGE_ENGLISH] = "Armory""\x01""",
+        [LANGUAGE_CHINESE] = " 武器店""\x01""",
+    },
+
+    [3529] = {
+        [LANGUAGE_JAPANESE] = "　道具屋""\x01""",
+        [LANGUAGE_ENGLISH] = "Vendor""\x01""",
+        [LANGUAGE_CHINESE] = " 道具店""\x01""",
+    },
+
+    [3530] = {
+        [LANGUAGE_JAPANESE] = "　秘密店""\x01""",
+        [LANGUAGE_ENGLISH] = "Secret""\x01""",
+        [LANGUAGE_CHINESE] = " 秘密店""\x01""",
+    },
+
+    [3531] = {
+        [LANGUAGE_JAPANESE] = "　闘技場""\x01""",
+        [LANGUAGE_ENGLISH] = "Arena""\x01""",
+        [LANGUAGE_CHINESE] = " 斗技场""\x01""",
+    },
+
+    [3532] = {
+        [LANGUAGE_JAPANESE] = "　救出""\x01""",
+        [LANGUAGE_ENGLISH] = "Rescue""\x01""",
+        [LANGUAGE_CHINESE] = " 救出""\x01""",
+    },
+
+    [3533] = {
+        [LANGUAGE_JAPANESE] = "　降ろす""\x01""",
+        [LANGUAGE_ENGLISH] = "Drop""\x01""",
+        [LANGUAGE_CHINESE] = " 放下""\x01""",
+    },
+
+    [3534] = {
+        [LANGUAGE_JAPANESE] = "　引受け""\x01""",
+        [LANGUAGE_ENGLISH] = "Take""\x01""",
+        [LANGUAGE_CHINESE] = " 接受""\x01""",
+    },
+
+    [3535] = {
+        [LANGUAGE_JAPANESE] = "　引渡し""\x01""",
+        [LANGUAGE_ENGLISH] = "Give""\x01""",
+        [LANGUAGE_CHINESE] = " 转移""\x01""",
+    },
+
+    [3536] = {
+        [LANGUAGE_JAPANESE] = "　持ち物""\x01""",
+        [LANGUAGE_ENGLISH] = "Item""\x01""",
+        [LANGUAGE_CHINESE] = " 物品""\x01""",
+    },
+
+    [3537] = {
+        [LANGUAGE_JAPANESE] = "　交換""\x01""",
+        [LANGUAGE_ENGLISH] = "Trade""\x01""",
+        [LANGUAGE_CHINESE] = " 交换""\x01""",
+    },
+
+    [3538] = {
+        [LANGUAGE_JAPANESE] = "　輸送隊""\x01""",
+        [LANGUAGE_ENGLISH] = "Merch""\x01""",
+        [LANGUAGE_CHINESE] = " 运输队""\x01""",
+    },
+
+    [3539] = {
+        [LANGUAGE_JAPANESE] = "　待機""\x01""",
+        [LANGUAGE_ENGLISH] = "Wait""\x01""",
+        [LANGUAGE_CHINESE] = " 待机""\x01""",
+    },
+
+    [3540] = {
+        [LANGUAGE_JAPANESE] = "　進撃準備へ""\x01""",
+        [LANGUAGE_ENGLISH] = "Return""\x01""",
+        [LANGUAGE_CHINESE] = " 出击准备""\x01""",
+    },
+
+    [3541] = {
+        [LANGUAGE_JAPANESE] = "　部隊""\x01""",
+        [LANGUAGE_ENGLISH] = "Unit""\x01""",
+        [LANGUAGE_CHINESE] = " 部队""\x01""",
+    },
+
+    [3542] = {
+        [LANGUAGE_JAPANESE] = "　状況""\x01""",
+        [LANGUAGE_ENGLISH] = "Status""\x01""",
+        [LANGUAGE_CHINESE] = " 状态""\x01""",
+    },
+
+    [3543] = {
+        [LANGUAGE_JAPANESE] = "　設定""\x01""",
+        [LANGUAGE_ENGLISH] = "Options""\x01""",
+        [LANGUAGE_CHINESE] = " 设定""\x01""",
+    },
+
+    [3544] = {
+        [LANGUAGE_JAPANESE] = "　中断""\x01""",
+        [LANGUAGE_ENGLISH] = "Suspend""\x01""",
+        [LANGUAGE_CHINESE] = " 中断""\x01""",
+    },
+
+    [3545] = {
+        [LANGUAGE_JAPANESE] = "　終了""\x01""",
+        [LANGUAGE_ENGLISH] = "End""\x01""",
+        [LANGUAGE_CHINESE] = " 结束""\x01""",
+    },
+
+    [3546] = {
+        [LANGUAGE_JAPANESE] = "威力""\x01""",
+        [LANGUAGE_ENGLISH] = "Mt""\x01""",
+        [LANGUAGE_CHINESE] = "威力""\x01""",
+    },
+
+    [3547] = {
         [LANGUAGE_JAPANESE] = "命中""\x01""",
         [LANGUAGE_ENGLISH] = "Hit""\x01""",
         [LANGUAGE_CHINESE] = "命中""\x01""",
     },
 
-    [3697] = {
-        [LANGUAGE_JAPANESE] = "回避""\x01""",
-        [LANGUAGE_ENGLISH] = "Avoid""\x01""",
-        [LANGUAGE_CHINESE] = "回避""\x01""",
+    [3548] = {
+        [LANGUAGE_JAPANESE] = "必殺""\x01""",
+        [LANGUAGE_ENGLISH] = "Crit""\x01""",
+        [LANGUAGE_CHINESE] = "必杀""\x01""",
     },
 
-    [3698] = {
-        [LANGUAGE_JAPANESE] = "移動""\x01""",
-        [LANGUAGE_ENGLISH] = "Move""\x01""",
-        [LANGUAGE_CHINESE] = "移动""\x01""",
+    [3549] = {
+        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
+        [LANGUAGE_ENGLISH] = "Atk""\x01""",
+        [LANGUAGE_CHINESE] = "攻击""\x01""",
     },
 
-    [3699] = {
+    [3550] = {
+        [LANGUAGE_JAPANESE] = "守備""\x01""",
+        [LANGUAGE_ENGLISH] = "Def""\x01""",
+        [LANGUAGE_CHINESE] = "守备""\x01""",
+    },
+
+    [3551] = {
+        [LANGUAGE_JAPANESE] = "攻速""\x01""",
+        [LANGUAGE_ENGLISH] = "AS""\x01""",
+        [LANGUAGE_CHINESE] = "攻速""\x01""",
+    },
+
+    [3552] = {
+        [LANGUAGE_JAPANESE] = "未　接　続""\x01""",
+        [LANGUAGE_ENGLISH] = "Not Linked""\x01""",
+        [LANGUAGE_CHINESE] = "未 连 接""\x01""",
+    },
+
+    [3553] = {
+        [LANGUAGE_JAPANESE] = "準　備　中""\x01""",
+        [LANGUAGE_ENGLISH] = "Connecting""\x01""",
+        [LANGUAGE_CHINESE] = "准 备 中""\x01""",
+    },
+
+    [3554] = {
+        [LANGUAGE_JAPANESE] = "接続エラー""\x01""",
+        [LANGUAGE_ENGLISH] = "Link Error""\x01""",
+        [LANGUAGE_CHINESE] = "连接出错""\x01""",
+    },
+
+    [3555] = {
+        [LANGUAGE_JAPANESE] = "接続　成功""\x01""",
+        [LANGUAGE_ENGLISH] = "Link OK""\x01""",
+        [LANGUAGE_CHINESE] = "连接成功""\x01""",
+    },
+
+    [3556] = {
+        [LANGUAGE_JAPANESE] = "チーム作成""\x01""",
+        [LANGUAGE_ENGLISH] = "Build Team""\x01""",
+        [LANGUAGE_CHINESE] = "编制小队""\x01""",
+    },
+
+    [3557] = {
+        [LANGUAGE_JAPANESE] = "部隊表""\x01""",
+        [LANGUAGE_ENGLISH] = "Unit List""\x01""",
+        [LANGUAGE_CHINESE] = "部队表""\x01""",
+    },
+
+    [3558] = {
+        [LANGUAGE_JAPANESE] = "チーム入替え""\x01""",
+        [LANGUAGE_ENGLISH] = "Swap""\x01""",
+        [LANGUAGE_CHINESE] = "交换小队""\x01""",
+    },
+
+    [3559] = {
+        [LANGUAGE_JAPANESE] = "チーム削除""\x01""",
+        [LANGUAGE_ENGLISH] = "Disband""\x01""",
+        [LANGUAGE_CHINESE] = "删除小队""\x01""",
+    },
+
+    [3560] = {
+        [LANGUAGE_JAPANESE] = "通信メニュー""\x01""",
+        [LANGUAGE_ENGLISH] = "Link Menu""\x01""",
+        [LANGUAGE_CHINESE] = "通信菜单""\x01""",
+    },
+
+    [3561] = {
+        [LANGUAGE_JAPANESE] = "対戦チーム""\x01""",
+        [LANGUAGE_ENGLISH] = "Team""\x01""",
+        [LANGUAGE_CHINESE] = "对战小队""\x01""",
+    },
+
+    [3562] = {
+        [LANGUAGE_JAPANESE] = "ーー""\x01""",
+        [LANGUAGE_ENGLISH] = "--""\x01""",
+        [LANGUAGE_CHINESE] = "——""\x01""",
+    },
+
+    [3563] = {
+        [LANGUAGE_JAPANESE] = "平地""\x01""",
+        [LANGUAGE_ENGLISH] = "Plains""\x01""",
+        [LANGUAGE_CHINESE] = "平地""\x01""",
+    },
+
+    [3564] = {
+        [LANGUAGE_JAPANESE] = "道""\x01""",
+        [LANGUAGE_ENGLISH] = "Road""\x01""",
+        [LANGUAGE_CHINESE] = "道路""\x01""",
+    },
+
+    [3565] = {
+        [LANGUAGE_JAPANESE] = "村""\x01""",
+        [LANGUAGE_ENGLISH] = "Village""\x01""",
+        [LANGUAGE_CHINESE] = "村庄""\x01""",
+    },
+
+    [3566] = {
+        [LANGUAGE_JAPANESE] = "閉じ村""\x01""",
+        [LANGUAGE_ENGLISH] = "Closed""\x01""",
+        [LANGUAGE_CHINESE] = "已关闭""\x01""",
+    },
+
+    [3567] = {
+        [LANGUAGE_JAPANESE] = "民家""\x01""",
+        [LANGUAGE_ENGLISH] = "House""\x01""",
+        [LANGUAGE_CHINESE] = "民房""\x01""",
+    },
+
+    [3568] = {
+        [LANGUAGE_JAPANESE] = "武器屋""\x01""",
+        [LANGUAGE_ENGLISH] = "Armory""\x01""",
+        [LANGUAGE_CHINESE] = "武器店""\x01""",
+    },
+
+    [3569] = {
+        [LANGUAGE_JAPANESE] = "道具屋""\x01""",
+        [LANGUAGE_ENGLISH] = "Vendor""\x01""",
+        [LANGUAGE_CHINESE] = "道具店""\x01""",
+    },
+
+    [3570] = {
+        [LANGUAGE_JAPANESE] = "闘技場""\x01""",
+        [LANGUAGE_ENGLISH] = "Arena""\x01""",
+        [LANGUAGE_CHINESE] = "斗技场""\x01""",
+    },
+
+    [3571] = {
+        [LANGUAGE_JAPANESE] = "預り所""\x01""",
+        [LANGUAGE_ENGLISH] = "Storage""\x01""",
+        [LANGUAGE_CHINESE] = "寄存处""\x01""",
+    },
+
+    [3572] = {
+        [LANGUAGE_JAPANESE] = "砦""\x01""",
+        [LANGUAGE_ENGLISH] = "Fort""\x01""",
+        [LANGUAGE_CHINESE] = "要塞""\x01""",
+    },
+
+    [3573] = {
+        [LANGUAGE_JAPANESE] = "城門""\x01""",
+        [LANGUAGE_ENGLISH] = "Gate""\x01""",
+        [LANGUAGE_CHINESE] = "城门""\x01""",
+    },
+
+    [3574] = {
+        [LANGUAGE_JAPANESE] = "森""\x01""",
+        [LANGUAGE_ENGLISH] = "Forest""\x01""",
+        [LANGUAGE_CHINESE] = "森林""\x01""",
+    },
+
+    [3575] = {
+        [LANGUAGE_JAPANESE] = "深い森""\x01""",
+        [LANGUAGE_ENGLISH] = "Woods""\x01""",
+        [LANGUAGE_CHINESE] = "密林""\x01""",
+    },
+
+    [3576] = {
+        [LANGUAGE_JAPANESE] = "砂地""\x01""",
+        [LANGUAGE_ENGLISH] = "Sand""\x01""",
+        [LANGUAGE_CHINESE] = "沙地""\x01""",
+    },
+
+    [3577] = {
+        [LANGUAGE_JAPANESE] = "砂漠""\x01""",
+        [LANGUAGE_ENGLISH] = "Desert""\x01""",
+        [LANGUAGE_CHINESE] = "沙漠""\x01""",
+    },
+
+    [3578] = {
+        [LANGUAGE_JAPANESE] = "川""\x01""",
+        [LANGUAGE_ENGLISH] = "River""\x01""",
+        [LANGUAGE_CHINESE] = "河""\x01""",
+    },
+
+    [3579] = {
+        [LANGUAGE_JAPANESE] = "山""\x01""",
+        [LANGUAGE_ENGLISH] = "Mtn""\x01""",
+        [LANGUAGE_CHINESE] = "山""\x01""",
+    },
+
+    [3580] = {
+        [LANGUAGE_JAPANESE] = "高い山""\x01""",
+        [LANGUAGE_ENGLISH] = "Peak""\x01""",
+        [LANGUAGE_CHINESE] = "高山""\x01""",
+    },
+
+    [3581] = {
+        [LANGUAGE_JAPANESE] = "橋""\x01""",
+        [LANGUAGE_ENGLISH] = "Bridge""\x01""",
+        [LANGUAGE_CHINESE] = "桥""\x01""",
+    },
+
+    [3582] = {
+        [LANGUAGE_JAPANESE] = "はね橋""\x01""",
+        [LANGUAGE_ENGLISH] = "Bridge""\x01""",
+        [LANGUAGE_CHINESE] = "吊桥""\x01""",
+    },
+
+    [3583] = {
+        [LANGUAGE_JAPANESE] = "海""\x01""",
+        [LANGUAGE_ENGLISH] = "Sea""\x01""",
+        [LANGUAGE_CHINESE] = "海""\x01""",
+    },
+
+    [3584] = {
+        [LANGUAGE_JAPANESE] = "湖""\x01""",
+        [LANGUAGE_ENGLISH] = "Lake""\x01""",
+        [LANGUAGE_CHINESE] = "湖""\x01""",
+    },
+
+    [3585] = {
+        [LANGUAGE_JAPANESE] = "床""\x01""",
+        [LANGUAGE_ENGLISH] = "Floor""\x01""",
+        [LANGUAGE_CHINESE] = "地板""\x01""",
+    },
+
+    [3586] = {
+        [LANGUAGE_JAPANESE] = "塀""\x01""",
+        [LANGUAGE_ENGLISH] = "Wall""\x01""",
+        [LANGUAGE_CHINESE] = "围墙""\x01""",
+    },
+
+    [3587] = {
+        [LANGUAGE_JAPANESE] = "壁""\x01""",
+        [LANGUAGE_ENGLISH] = "Wall""\x01""",
+        [LANGUAGE_CHINESE] = "墙壁""\x01""",
+    },
+
+    [3588] = {
+        [LANGUAGE_JAPANESE] = "壊れた壁""\x01""",
+        [LANGUAGE_ENGLISH] = "Broken""\x01""",
+        [LANGUAGE_CHINESE] = "破壁""\x01""",
+    },
+
+    [3589] = {
+        [LANGUAGE_JAPANESE] = "柱""\x01""",
+        [LANGUAGE_ENGLISH] = "Pillar""\x01""",
+        [LANGUAGE_CHINESE] = "柱子""\x01""",
+    },
+
+    [3590] = {
+        [LANGUAGE_JAPANESE] = "扉""\x01""",
+        [LANGUAGE_ENGLISH] = "Door""\x01""",
+        [LANGUAGE_CHINESE] = "门""\x01""",
+    },
+
+    [3591] = {
+        [LANGUAGE_JAPANESE] = "玉座""\x01""",
+        [LANGUAGE_ENGLISH] = "Throne""\x01""",
+        [LANGUAGE_CHINESE] = "宝座""\x01""",
+    },
+
+    [3592] = {
+        [LANGUAGE_JAPANESE] = "空宝箱""\x01""",
+        [LANGUAGE_ENGLISH] = "Chest""\x01""",
+        [LANGUAGE_CHINESE] = "空宝箱""\x01""",
+    },
+
+    [3593] = {
+        [LANGUAGE_JAPANESE] = "宝箱""\x01""",
+        [LANGUAGE_ENGLISH] = "Chest""\x01""",
+        [LANGUAGE_CHINESE] = "宝箱""\x01""",
+    },
+
+    [3594] = {
+        [LANGUAGE_JAPANESE] = "屋根""\x01""",
+        [LANGUAGE_ENGLISH] = "Roof""\x01""",
+        [LANGUAGE_CHINESE] = "屋顶""\x01""",
+    },
+
+    [3595] = {
+        [LANGUAGE_JAPANESE] = "門""\x01""",
+        [LANGUAGE_ENGLISH] = "Gate""\x01""",
+        [LANGUAGE_CHINESE] = "大门""\x01""",
+    },
+
+    [3596] = {
+        [LANGUAGE_JAPANESE] = "教会""\x01""",
+        [LANGUAGE_ENGLISH] = "Church""\x01""",
+        [LANGUAGE_CHINESE] = "教会""\x01""",
+    },
+
+    [3597] = {
+        [LANGUAGE_JAPANESE] = "廃墟""\x01""",
+        [LANGUAGE_ENGLISH] = "Ruins""\x01""",
+        [LANGUAGE_CHINESE] = "废墟""\x01""",
+    },
+
+    [3598] = {
+        [LANGUAGE_JAPANESE] = "がけ""\x01""",
+        [LANGUAGE_ENGLISH] = "Cliff""\x01""",
+        [LANGUAGE_CHINESE] = "悬崖""\x01""",
+    },
+
+    [3599] = {
+        [LANGUAGE_JAPANESE] = "アーチ""\x01""",
+        [LANGUAGE_ENGLISH] = "Arch""\x01""",
+        [LANGUAGE_CHINESE] = "弩""\x01""",
+    },
+
+    [3600] = {
+        [LANGUAGE_JAPANESE] = "ロング""\x01""",
+        [LANGUAGE_ENGLISH] = "Long""\x01""",
+        [LANGUAGE_CHINESE] = "远程""\x01""",
+    },
+
+    [3601] = {
+        [LANGUAGE_JAPANESE] = "キラー""\x01""",
+        [LANGUAGE_ENGLISH] = "Killer""\x01""",
+        [LANGUAGE_CHINESE] = "必杀""\x01""",
+    },
+
+    [3602] = {
+        [LANGUAGE_JAPANESE] = "荒地""\x01""",
+        [LANGUAGE_ENGLISH] = "Land""\x01""",
+        [LANGUAGE_CHINESE] = "荒地""\x01""",
+    },
+
+    [3603] = {
+        [LANGUAGE_JAPANESE] = "壊れた家""\x01""",
+        [LANGUAGE_ENGLISH] = "Broken""\x01""",
+        [LANGUAGE_CHINESE] = "破屋""\x01""",
+    },
+
+    [3604] = {
+        [LANGUAGE_JAPANESE] = "階段""\x01""",
+        [LANGUAGE_ENGLISH] = "Stairs""\x01""",
+        [LANGUAGE_CHINESE] = "楼梯""\x01""",
+    },
+
+    [3605] = {
+        [LANGUAGE_JAPANESE] = "氷河""\x01""",
+        [LANGUAGE_ENGLISH] = "Glacier""\x01""",
+        [LANGUAGE_CHINESE] = "冰川""\x01""",
+    },
+
+    [3606] = {
+        [LANGUAGE_JAPANESE] = "通信闘技""\x01""",
+        [LANGUAGE_ENGLISH] = "Arena""\x01""",
+        [LANGUAGE_CHINESE] = "通信斗技""\x01""",
+    },
+
+    [3607] = {
+        [LANGUAGE_JAPANESE] = "谷""\x01""",
+        [LANGUAGE_ENGLISH] = "Valley""\x01""",
+        [LANGUAGE_CHINESE] = "谷""\x01""",
+    },
+
+    [3608] = {
+        [LANGUAGE_JAPANESE] = "ーーー""\x01""",
+        [LANGUAGE_ENGLISH] = "---""\x01""",
+        [LANGUAGE_CHINESE] = "———""\x01""",
+    },
+
+    [3609] = {
+        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
+        [LANGUAGE_ENGLISH] = "ATK""\x01""",
+        [LANGUAGE_CHINESE] = "攻击""\x01""",
+    },
+
+    [3610] = {
+        [LANGUAGE_JAPANESE] = "攻撃デ""\x01""",
+        [LANGUAGE_ENGLISH] = "'De'""\x01""",
+        [LANGUAGE_CHINESE] = "A07""\x01""",
+    },
+
+    [3611] = {
+        [LANGUAGE_JAPANESE] = "攻撃リ""\x01""",
+        [LANGUAGE_ENGLISH] = "'Ri'""\x01""",
+        [LANGUAGE_CHINESE] = "A06""\x01""",
+    },
+
+    [3612] = {
+        [LANGUAGE_JAPANESE] = "攻撃毒""\x01""",
+        [LANGUAGE_ENGLISH] = "ATKP""\x01""",
+        [LANGUAGE_CHINESE] = "A05""\x01""",
+    },
+
+    [3613] = {
+        [LANGUAGE_JAPANESE] = "必殺""\x01""",
+        [LANGUAGE_ENGLISH] = "CRT""\x01""",
+        [LANGUAGE_CHINESE] = "必杀""\x01""",
+    },
+
+    [3614] = {
+        [LANGUAGE_JAPANESE] = "必殺デ""\x01""",
+        [LANGUAGE_ENGLISH] = "'De'""\x01""",
+        [LANGUAGE_CHINESE] = "A04""\x01""",
+    },
+
+    [3615] = {
+        [LANGUAGE_JAPANESE] = "必殺リ""\x01""",
+        [LANGUAGE_ENGLISH] = "'Ri'""\x01""",
+        [LANGUAGE_CHINESE] = "A03""\x01""",
+    },
+
+    [3616] = {
+        [LANGUAGE_JAPANESE] = "必殺毒""\x01""",
+        [LANGUAGE_ENGLISH] = "CRTP""\x01""",
+        [LANGUAGE_CHINESE] = "A02""\x01""",
+    },
+
+    [3617] = {
+        [LANGUAGE_JAPANESE] = "空ぶり""\x01""",
+        [LANGUAGE_ENGLISH] = "EMPB""\x01""",
+        [LANGUAGE_CHINESE] = "A01""\x01""",
+    },
+
+    [3618] = {
+        [LANGUAGE_JAPANESE] = "１""\x01""",
+        [LANGUAGE_ENGLISH] = "１""\x01""",
+        [LANGUAGE_CHINESE] = "1""\x01""",
+    },
+
+    [3619] = {
+        [LANGUAGE_JAPANESE] = "２""\x01""",
+        [LANGUAGE_ENGLISH] = "２""\x01""",
+        [LANGUAGE_CHINESE] = "2""\x01""",
+    },
+
+    [3620] = {
+        [LANGUAGE_JAPANESE] = "ＬＶ""\x01""",
+        [LANGUAGE_ENGLISH] = "Lv""\x01""",
+        [LANGUAGE_CHINESE] = "LV""\x01""",
+    },
+
+    [3621] = {
+        [LANGUAGE_JAPANESE] = "Lv""\x01""",
+        [LANGUAGE_ENGLISH] = "Lv""\x01""",
+        [LANGUAGE_CHINESE] = "Lv""\x01""",
+    },
+
+    [3622] = {
+        [LANGUAGE_JAPANESE] = "ＥＸ""\x01""",
+        [LANGUAGE_ENGLISH] = "E""\x01""",
+        [LANGUAGE_CHINESE] = "EX""\x01""",
+    },
+
+    [3623] = {
+        [LANGUAGE_JAPANESE] = "Ex""\x01""",
+        [LANGUAGE_ENGLISH] = "Ex""\x01""",
+        [LANGUAGE_CHINESE] = "Ex""\x01""",
+    },
+
+    [3624] = {
+        [LANGUAGE_JAPANESE] = "ＨＰ""\x01""",
+        [LANGUAGE_ENGLISH] = "HP""\x01""",
+        [LANGUAGE_CHINESE] = "HP""\x01""",
+    },
+
+    [3625] = {
+        [LANGUAGE_JAPANESE] = "HP""\x01""",
+        [LANGUAGE_ENGLISH] = "HP""\x01""",
+        [LANGUAGE_CHINESE] = "HP""\x01""",
+    },
+
+    [3626] = {
+        [LANGUAGE_JAPANESE] = "力""\x01""",
+        [LANGUAGE_ENGLISH] = "Str""\x01""",
+        [LANGUAGE_CHINESE] = "力量""\x01""",
+    },
+
+    [3627] = {
+        [LANGUAGE_JAPANESE] = "str""\x01""",
+        [LANGUAGE_ENGLISH] = "str""\x01""",
+        [LANGUAGE_CHINESE] = "str""\x01""",
+    },
+
+    [3628] = {
+        [LANGUAGE_JAPANESE] = "魔力""\x01""",
+        [LANGUAGE_ENGLISH] = "Mag""\x01""",
+        [LANGUAGE_CHINESE] = "魔力""\x01""",
+    },
+
+    [3629] = {
+        [LANGUAGE_JAPANESE] = "mag""\x01""",
+        [LANGUAGE_ENGLISH] = "mag""\x01""",
+        [LANGUAGE_CHINESE] = "mag""\x01""",
+    },
+
+    [3630] = {
+        [LANGUAGE_JAPANESE] = "技""\x01""",
+        [LANGUAGE_ENGLISH] = "Skill""\x01""",
+        [LANGUAGE_CHINESE] = "技术""\x01""",
+    },
+
+    [3631] = {
+        [LANGUAGE_JAPANESE] = "tech""\x01""",
+        [LANGUAGE_ENGLISH] = "tech""\x01""",
+        [LANGUAGE_CHINESE] = "tech""\x01""",
+    },
+
+    [3632] = {
+        [LANGUAGE_JAPANESE] = "速さ""\x01""",
+        [LANGUAGE_ENGLISH] = "Spd""\x01""",
+        [LANGUAGE_CHINESE] = "速度""\x01""",
+    },
+
+    [3633] = {
+        [LANGUAGE_JAPANESE] = "quick""\x01""",
+        [LANGUAGE_ENGLISH] = "quick""\x01""",
+        [LANGUAGE_CHINESE] = "quick""\x01""",
+    },
+
+    [3634] = {
+        [LANGUAGE_JAPANESE] = "守備""\x01""",
+        [LANGUAGE_ENGLISH] = "Def""\x01""",
+        [LANGUAGE_CHINESE] = "守备""\x01""",
+    },
+
+    [3635] = {
+        [LANGUAGE_JAPANESE] = "def""\x01""",
+        [LANGUAGE_ENGLISH] = "def""\x01""",
+        [LANGUAGE_CHINESE] = "def""\x01""",
+    },
+
+    [3636] = {
+        [LANGUAGE_JAPANESE] = "魔防""\x01""",
+        [LANGUAGE_ENGLISH] = "Res""\x01""",
+        [LANGUAGE_CHINESE] = "魔防""\x01""",
+    },
+
+    [3637] = {
+        [LANGUAGE_JAPANESE] = "mdef""\x01""",
+        [LANGUAGE_ENGLISH] = "mdef""\x01""",
+        [LANGUAGE_CHINESE] = "mdef""\x01""",
+    },
+
+    [3638] = {
+        [LANGUAGE_JAPANESE] = "幸運""\x01""",
+        [LANGUAGE_ENGLISH] = "Luck""\x01""",
+        [LANGUAGE_CHINESE] = "幸运""\x01""",
+    },
+
+    [3639] = {
+        [LANGUAGE_JAPANESE] = "luck""\x01""",
+        [LANGUAGE_ENGLISH] = "luck""\x01""",
+        [LANGUAGE_CHINESE] = "luck""\x01""",
+    },
+
+    [3640] = {
         [LANGUAGE_JAPANESE] = "体格""\x01""",
         [LANGUAGE_ENGLISH] = "Con""\x01""",
         [LANGUAGE_CHINESE] = "体格""\x01""",
     },
 
-    [3700] = {
+    [3641] = {
+        [LANGUAGE_JAPANESE] = "build""\x01""",
+        [LANGUAGE_ENGLISH] = "build""\x01""",
+        [LANGUAGE_CHINESE] = "build""\x01""",
+    },
+
+    [3642] = {
         [LANGUAGE_JAPANESE] = "救出""\x01""",
         [LANGUAGE_ENGLISH] = "Aid""\x01""",
         [LANGUAGE_CHINESE] = "救出""\x01""",
     },
 
-    [3701] = {
+    [3643] = {
+        [LANGUAGE_JAPANESE] = "res""\x01""",
+        [LANGUAGE_ENGLISH] = "res""\x01""",
+        [LANGUAGE_CHINESE] = "res""\x01""",
+    },
+
+    [3644] = {
+        [LANGUAGE_JAPANESE] = "移動""\x01""",
+        [LANGUAGE_ENGLISH] = "Move""\x01""",
+        [LANGUAGE_CHINESE] = "移动""\x01""",
+    },
+
+    [3645] = {
+        [LANGUAGE_JAPANESE] = "mob""\x01""",
+        [LANGUAGE_ENGLISH] = "mob""\x01""",
+        [LANGUAGE_CHINESE] = "mob""\x01""",
+    },
+
+    [3646] = {
         [LANGUAGE_JAPANESE] = "同行""\x01""",
         [LANGUAGE_ENGLISH] = "Trv""\x01""",
         [LANGUAGE_CHINESE] = "同行""\x01""",
     },
 
-    [3702] = {
+    [3647] = {
+        [LANGUAGE_JAPANESE] = "save""\x01""",
+        [LANGUAGE_ENGLISH] = "save""\x01""",
+        [LANGUAGE_CHINESE] = "save""\x01""",
+    },
+
+    [3648] = {
+        [LANGUAGE_JAPANESE] = "属性""\x01""",
+        [LANGUAGE_ENGLISH] = "Affin""\x01""",
+        [LANGUAGE_CHINESE] = "属性""\x01""",
+    },
+
+    [3649] = {
+        [LANGUAGE_JAPANESE] = "attr""\x01""",
+        [LANGUAGE_ENGLISH] = "attr""\x01""",
+        [LANGUAGE_CHINESE] = "attr""\x01""",
+    },
+
+    [3650] = {
+        [LANGUAGE_JAPANESE] = "射程""\x01""",
+        [LANGUAGE_ENGLISH] = "Rng""\x01""",
+        [LANGUAGE_CHINESE] = "射程""\x01""",
+    },
+
+    [3651] = {
+        [LANGUAGE_JAPANESE] = "rng""\x01""",
+        [LANGUAGE_ENGLISH] = "rng""\x01""",
+        [LANGUAGE_CHINESE] = "rng""\x01""",
+    },
+
+    [3652] = {
+        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
+        [LANGUAGE_ENGLISH] = "Atk""\x01""",
+        [LANGUAGE_CHINESE] = "攻击""\x01""",
+    },
+
+    [3653] = {
+        [LANGUAGE_JAPANESE] = "pow""\x01""",
+        [LANGUAGE_ENGLISH] = "pow""\x01""",
+        [LANGUAGE_CHINESE] = "pow""\x01""",
+    },
+
+    [3654] = {
+        [LANGUAGE_JAPANESE] = "命中""\x01""",
+        [LANGUAGE_ENGLISH] = "Hit""\x01""",
+        [LANGUAGE_CHINESE] = "命中""\x01""",
+    },
+
+    [3655] = {
+        [LANGUAGE_JAPANESE] = "hit""\x01""",
+        [LANGUAGE_ENGLISH] = "hit""\x01""",
+        [LANGUAGE_CHINESE] = "hit""\x01""",
+    },
+
+    [3656] = {
+        [LANGUAGE_JAPANESE] = "必殺""\x01""",
+        [LANGUAGE_ENGLISH] = "Crit""\x01""",
+        [LANGUAGE_CHINESE] = "必杀""\x01""",
+    },
+
+    [3657] = {
+        [LANGUAGE_JAPANESE] = "crit""\x01""",
+        [LANGUAGE_ENGLISH] = "crit""\x01""",
+        [LANGUAGE_CHINESE] = "crit""\x01""",
+    },
+
+    [3658] = {
+        [LANGUAGE_JAPANESE] = "回避""\x01""",
+        [LANGUAGE_ENGLISH] = "Avoid""\x01""",
+        [LANGUAGE_CHINESE] = "回避""\x01""",
+    },
+
+    [3659] = {
+        [LANGUAGE_JAPANESE] = "avoid""\x01""",
+        [LANGUAGE_ENGLISH] = "avoid""\x01""",
+        [LANGUAGE_CHINESE] = "avoid""\x01""",
+    },
+
+    [3660] = {
         [LANGUAGE_JAPANESE] = "状態""\x01""",
         [LANGUAGE_ENGLISH] = "Cond""\x01""",
         [LANGUAGE_CHINESE] = "状态""\x01""",
     },
 
+    [3661] = {
+        [LANGUAGE_JAPANESE] = "cond""\x01""",
+        [LANGUAGE_ENGLISH] = "cond""\x01""",
+        [LANGUAGE_CHINESE] = "cond""\x01""",
+    },
+
+    [3662] = {
+        [LANGUAGE_JAPANESE] = "威力""\x01""",
+        [LANGUAGE_ENGLISH] = "Mt""\x01""",
+        [LANGUAGE_CHINESE] = "威力""\x01""",
+    },
+
+    [3663] = {
+        [LANGUAGE_JAPANESE] = "重さ""\x01""",
+        [LANGUAGE_ENGLISH] = "Weight""\x01""",
+        [LANGUAGE_CHINESE] = "重量""\x01""",
+    },
+
+    [3664] = {
+        [LANGUAGE_JAPANESE] = "wgt""\x01""",
+        [LANGUAGE_ENGLISH] = "wgt""\x01""",
+        [LANGUAGE_CHINESE] = "wgt""\x01""",
+    },
+
+    [3665] = {
+        [LANGUAGE_JAPANESE] = "　　異常""\x01""",
+        [LANGUAGE_ENGLISH] = "  Strangeness""\x01""",
+        [LANGUAGE_CHINESE] = "  异常""\x01""",
+    },
+
+    [3666] = {
+        [LANGUAGE_JAPANESE] = "１－魔力""\x01""",
+        [LANGUAGE_ENGLISH] = "1""\x01""",
+        [LANGUAGE_CHINESE] = "1－魔力""\x01""",
+    },
+
+    [3667] = {
+        [LANGUAGE_JAPANESE] = "　　　１""\x01""",
+        [LANGUAGE_ENGLISH] = "       1""\x01""",
+        [LANGUAGE_CHINESE] = "       1""\x01""",
+    },
+
+    [3668] = {
+        [LANGUAGE_JAPANESE] = "　１－２""\x01""",
+        [LANGUAGE_ENGLISH] = "     1-2""\x01""",
+        [LANGUAGE_CHINESE] = "    1－2""\x01""",
+    },
+
+    [3669] = {
+        [LANGUAGE_JAPANESE] = "　１－３""\x01""",
+        [LANGUAGE_ENGLISH] = "     1-3""\x01""",
+        [LANGUAGE_CHINESE] = "    1－3""\x01""",
+    },
+
+    [3670] = {
+        [LANGUAGE_JAPANESE] = "　　　２""\x01""",
+        [LANGUAGE_ENGLISH] = "       2""\x01""",
+        [LANGUAGE_CHINESE] = "       2""\x01""",
+    },
+
+    [3671] = {
+        [LANGUAGE_JAPANESE] = "　２－３""\x01""",
+        [LANGUAGE_ENGLISH] = "     2-3""\x01""",
+        [LANGUAGE_CHINESE] = "    2－3""\x01""",
+    },
+
+    [3672] = {
+        [LANGUAGE_JAPANESE] = "３－１０""\x01""",
+        [LANGUAGE_ENGLISH] = "    3-10""\x01""",
+        [LANGUAGE_CHINESE] = "   3－10""\x01""",
+    },
+
+    [3673] = {
+        [LANGUAGE_JAPANESE] = "３－１５""\x01""",
+        [LANGUAGE_ENGLISH] = "    3-15""\x01""",
+        [LANGUAGE_CHINESE] = "   3－15""\x01""",
+    },
+
+    [3674] = {
+        [LANGUAGE_JAPANESE] = "ーーー""\x01""",
+        [LANGUAGE_ENGLISH] = "---""\x01""",
+        [LANGUAGE_CHINESE] = "———""\x01""",
+    },
+
+    [3675] = {
+        [LANGUAGE_JAPANESE] = "どく""\x01""",
+        [LANGUAGE_ENGLISH] = "Pois""\x01""",
+        [LANGUAGE_CHINESE] = "中毒""\x01""",
+    },
+
+    [3676] = {
+        [LANGUAGE_JAPANESE] = "すいみん""\x01""",
+        [LANGUAGE_ENGLISH] = "Slep""\x01""",
+        [LANGUAGE_CHINESE] = "昏睡""\x01""",
+    },
+
+    [3677] = {
+        [LANGUAGE_JAPANESE] = "ちんもく""\x01""",
+        [LANGUAGE_ENGLISH] = "Silence""\x01""",
+        [LANGUAGE_CHINESE] = "沉默""\x01""",
+    },
+
+    [3678] = {
+        [LANGUAGE_JAPANESE] = "はっきょう""\x01""",
+        [LANGUAGE_ENGLISH] = "Berserk""\x01""",
+        [LANGUAGE_CHINESE] = "狂乱""\x01""",
+    },
+
+    [3679] = {
+        [LANGUAGE_JAPANESE] = "剣""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "剑""\x01""",
+    },
+
+    [3680] = {
+        [LANGUAGE_JAPANESE] = "Sword""\x01""",
+        [LANGUAGE_ENGLISH] = "Sword""\x01""",
+        [LANGUAGE_CHINESE] = "Sword""\x01""",
+    },
+
+    [3681] = {
+        [LANGUAGE_JAPANESE] = "槍""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "枪""\x01""",
+    },
+
+    [3682] = {
+        [LANGUAGE_JAPANESE] = "Lance""\x01""",
+        [LANGUAGE_ENGLISH] = "Lance""\x01""",
+        [LANGUAGE_CHINESE] = "Lance""\x01""",
+    },
+
+    [3683] = {
+        [LANGUAGE_JAPANESE] = "斧""\x01""",
+        [LANGUAGE_ENGLISH] = "Axe""\x01""",
+        [LANGUAGE_CHINESE] = "斧""\x01""",
+    },
+
+    [3684] = {
+        [LANGUAGE_JAPANESE] = "Axe""\x01""",
+        [LANGUAGE_ENGLISH] = "Axe""\x01""",
+        [LANGUAGE_CHINESE] = "Axe""\x01""",
+    },
+
+    [3685] = {
+        [LANGUAGE_JAPANESE] = "弓""\x01""",
+        [LANGUAGE_ENGLISH] = "Bow""\x01""",
+        [LANGUAGE_CHINESE] = "弓""\x01""",
+    },
+
+    [3686] = {
+        [LANGUAGE_JAPANESE] = "Bow""\x01""",
+        [LANGUAGE_ENGLISH] = "Bow""\x01""",
+        [LANGUAGE_CHINESE] = "Bow""\x01""",
+    },
+
+    [3687] = {
+        [LANGUAGE_JAPANESE] = "杖""\x01""",
+        [LANGUAGE_ENGLISH] = "Staff""\x01""",
+        [LANGUAGE_CHINESE] = "杖""\x01""",
+    },
+
+    [3688] = {
+        [LANGUAGE_JAPANESE] = "Wand""\x01""",
+        [LANGUAGE_ENGLISH] = "Wand""\x01""",
+        [LANGUAGE_CHINESE] = "Wand""\x01""",
+    },
+
+    [3689] = {
+        [LANGUAGE_JAPANESE] = "理""\x01""",
+        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_CHINESE] = "理""\x01""",
+    },
+
+    [3690] = {
+        [LANGUAGE_JAPANESE] = "Magic""\x01""",
+        [LANGUAGE_ENGLISH] = "Magic""\x01""",
+        [LANGUAGE_CHINESE] = "Magic""\x01""",
+    },
+
+    [3691] = {
+        [LANGUAGE_JAPANESE] = "光""\x01""",
+        [LANGUAGE_ENGLISH] = "Light""\x01""",
+        [LANGUAGE_CHINESE] = "光""\x01""",
+    },
+
+    [3692] = {
+        [LANGUAGE_JAPANESE] = "Lightning""\x01""",
+        [LANGUAGE_ENGLISH] = "Lightning""\x01""",
+        [LANGUAGE_CHINESE] = "Lightning""\x01""",
+    },
+
+    [3693] = {
+        [LANGUAGE_JAPANESE] = "闇""\x01""",
+        [LANGUAGE_ENGLISH] = "Dark""\x01""",
+        [LANGUAGE_CHINESE] = "暗""\x01""",
+    },
+
+    [3694] = {
+        [LANGUAGE_JAPANESE] = "Darkness""\x01""",
+        [LANGUAGE_ENGLISH] = "Darkness""\x01""",
+        [LANGUAGE_CHINESE] = "Darkness""\x01""",
+    },
+
+    [3695] = {
+        [LANGUAGE_JAPANESE] = "名前""\x01""",
+        [LANGUAGE_ENGLISH] = "Name""\x01""",
+        [LANGUAGE_CHINESE] = "名字""\x01""",
+    },
+
+    [3696] = {
+        [LANGUAGE_JAPANESE] = "クラス""\x01""",
+        [LANGUAGE_ENGLISH] = "Class""\x01""",
+        [LANGUAGE_CHINESE] = "职业""\x01""",
+    },
+
+    [3697] = {
+        [LANGUAGE_JAPANESE] = "装備""\x01""",
+        [LANGUAGE_ENGLISH] = "Equip""\x01""",
+        [LANGUAGE_CHINESE] = "装备""\x01""",
+    },
+
+    [3698] = {
+        [LANGUAGE_JAPANESE] = "アニメ""\x01""",
+        [LANGUAGE_ENGLISH] = "Anim""\x01""",
+        [LANGUAGE_CHINESE] = "动画""\x01""",
+    },
+
+    [3699] = {
+        [LANGUAGE_JAPANESE] = "ＬＶ""\x01""",
+        [LANGUAGE_ENGLISH] = "Lv""\x01""",
+        [LANGUAGE_CHINESE] = "LV""\x01""",
+    },
+
+    [3700] = {
+        [LANGUAGE_JAPANESE] = "ＥＸ""\x01""",
+        [LANGUAGE_ENGLISH] = "Exp""\x01""",
+        [LANGUAGE_CHINESE] = "EX""\x01""",
+    },
+
+    [3701] = {
+        [LANGUAGE_JAPANESE] = "ＨＰ""\x01""",
+        [LANGUAGE_ENGLISH] = "HP""\x01""",
+        [LANGUAGE_CHINESE] = "HP""\x01""",
+    },
+
+    [3702] = {
+        [LANGUAGE_JAPANESE] = "ＭＨＰ""\x01""",
+        [LANGUAGE_ENGLISH] = "Max""\x01""",
+        [LANGUAGE_CHINESE] = "MHP""\x01""",
+    },
+
     [3703] = {
+        [LANGUAGE_JAPANESE] = "力／魔""\x01""",
+        [LANGUAGE_ENGLISH] = "S/M""\x01""",
+        [LANGUAGE_CHINESE] = "力／魔""\x01""",
+    },
+
+    [3704] = {
+        [LANGUAGE_JAPANESE] = "技""\x01""",
+        [LANGUAGE_ENGLISH] = "Skill""\x01""",
+        [LANGUAGE_CHINESE] = "技术""\x01""",
+    },
+
+    [3705] = {
+        [LANGUAGE_JAPANESE] = "速さ""\x01""",
+        [LANGUAGE_ENGLISH] = "Spd""\x01""",
+        [LANGUAGE_CHINESE] = "速度""\x01""",
+    },
+
+    [3706] = {
+        [LANGUAGE_JAPANESE] = "幸運""\x01""",
+        [LANGUAGE_ENGLISH] = "Luck""\x01""",
+        [LANGUAGE_CHINESE] = "幸运""\x01""",
+    },
+
+    [3707] = {
+        [LANGUAGE_JAPANESE] = "守備""\x01""",
+        [LANGUAGE_ENGLISH] = "Def""\x01""",
+        [LANGUAGE_CHINESE] = "守备""\x01""",
+    },
+
+    [3708] = {
+        [LANGUAGE_JAPANESE] = "魔防""\x01""",
+        [LANGUAGE_ENGLISH] = "Res""\x01""",
+        [LANGUAGE_CHINESE] = "魔防""\x01""",
+    },
+
+    [3709] = {
+        [LANGUAGE_JAPANESE] = "属性""\x01""",
+        [LANGUAGE_ENGLISH] = "Affin""\x01""",
+        [LANGUAGE_CHINESE] = "属性""\x01""",
+    },
+
+    [3710] = {
+        [LANGUAGE_JAPANESE] = "攻撃""\x01""",
+        [LANGUAGE_ENGLISH] = "Atk""\x01""",
+        [LANGUAGE_CHINESE] = "攻击""\x01""",
+    },
+
+    [3711] = {
+        [LANGUAGE_JAPANESE] = "命中""\x01""",
+        [LANGUAGE_ENGLISH] = "Hit""\x01""",
+        [LANGUAGE_CHINESE] = "命中""\x01""",
+    },
+
+    [3712] = {
+        [LANGUAGE_JAPANESE] = "回避""\x01""",
+        [LANGUAGE_ENGLISH] = "Avoid""\x01""",
+        [LANGUAGE_CHINESE] = "回避""\x01""",
+    },
+
+    [3713] = {
+        [LANGUAGE_JAPANESE] = "移動""\x01""",
+        [LANGUAGE_ENGLISH] = "Move""\x01""",
+        [LANGUAGE_CHINESE] = "移动""\x01""",
+    },
+
+    [3714] = {
+        [LANGUAGE_JAPANESE] = "体格""\x01""",
+        [LANGUAGE_ENGLISH] = "Con""\x01""",
+        [LANGUAGE_CHINESE] = "体格""\x01""",
+    },
+
+    [3715] = {
+        [LANGUAGE_JAPANESE] = "救出""\x01""",
+        [LANGUAGE_ENGLISH] = "Aid""\x01""",
+        [LANGUAGE_CHINESE] = "救出""\x01""",
+    },
+
+    [3716] = {
+        [LANGUAGE_JAPANESE] = "同行""\x01""",
+        [LANGUAGE_ENGLISH] = "Trv""\x01""",
+        [LANGUAGE_CHINESE] = "同行""\x01""",
+    },
+
+    [3717] = {
+        [LANGUAGE_JAPANESE] = "状態""\x01""",
+        [LANGUAGE_ENGLISH] = "Cond""\x01""",
+        [LANGUAGE_CHINESE] = "状态""\x01""",
+    },
+
+    [3718] = {
         [LANGUAGE_JAPANESE] = "相手""\x01""",
         [LANGUAGE_ENGLISH] = "Ally""\x01""",
         [LANGUAGE_CHINESE] = "配合""\x01""",
     },
 
-    [3704] = {
+    [3719] = {
         [LANGUAGE_JAPANESE] = "はじめる　やめる""\x01""",
         [LANGUAGE_ENGLISH] = "Start""\x01""",
         [LANGUAGE_CHINESE] = "开始   取消""\x01""",
     },
 
-    [3705] = {
+    [3720] = {
         [LANGUAGE_JAPANESE] = "うつす　　やめる""\x01""",
         [LANGUAGE_ENGLISH] = "Start""\x01""",
         [LANGUAGE_CHINESE] = "覆盖   取消""\x01""",
     },
 
-    [3706] = {
+    [3721] = {
         [LANGUAGE_JAPANESE] = "消す　　　やめる""\x01""",
         [LANGUAGE_ENGLISH] = "Erase""\x01""",
         [LANGUAGE_CHINESE] = "删除   取消""\x01""",
     },
 
-    [3707] = {
-        [LANGUAGE_JAPANESE] = "はじめる　やめる""\x01""",
-        [LANGUAGE_ENGLISH] = "Start""\x01""",
-        [LANGUAGE_CHINESE] = "开始   取消""\x01""",
-    },
-
-    [3708] = {
-        [LANGUAGE_JAPANESE] = "はじめる　やめる""\x01""",
-        [LANGUAGE_ENGLISH] = "Start""\x01""",
-        [LANGUAGE_CHINESE] = "开始   取消""\x01""",
-    },
-
-    [3709] = {
+    [3722] = {
         [LANGUAGE_JAPANESE] = "記録　　　やめる""\x01""",
         [LANGUAGE_ENGLISH] = "Save""\x01""",
         [LANGUAGE_CHINESE] = "记录   取消""\x01""",
     },
 
-    [3710] = {
+    [3723] = {
         [LANGUAGE_JAPANESE] = "ファイアーエムブレム・メインテーマ""\x01""",
         [LANGUAGE_ENGLISH] = "Fire Emblem Main Theme""\x01""",
         [LANGUAGE_CHINESE] = "火焰之纹章·主旋律""\x01""",
     },
 
-    [3711] = {
+    [3724] = {
         [LANGUAGE_JAPANESE] = "タイトル画面""\x01""",
         [LANGUAGE_ENGLISH] = "Title Screen""\x01""",
         [LANGUAGE_CHINESE] = "标题画面""\x01""",
     },
 
-    [3712] = {
+    [3725] = {
+        [LANGUAGE_JAPANESE] = "Sword""\x01""",
+        [LANGUAGE_ENGLISH] = "Sword""\x01""",
+        [LANGUAGE_CHINESE] = "Sword""\x01""",
+    },
+
+    [3726] = {
         [LANGUAGE_JAPANESE] = "　表示言語切替""\x01""",
         [LANGUAGE_ENGLISH] = " Change Language""\x01""",
-        [LANGUAGE_CHINESE] = "  切换显示语言""\x01""",
+        [LANGUAGE_CHINESE] = " 切换显示语言""\x01""",
     },
 
 };
 
-const int textId_3342 = 3342;
-const int textId_3343 = 3343;
-const int textId_3344 = 3344;
-const int textId_3345 = 3345;
-const int textId_3346 = 3346;
-const int textId_3347 = 3347;
-const int textId_3348 = 3348;
-const int textId_3349 = 3349;
-const int textId_3350 = 3350;
-const int textId_3351 = 3351;
-const int textId_3352 = 3352;
-const int textId_3353 = 3353;
-const int textId_3354 = 3354;
-const int textId_3355 = 3355;
-const int textId_3356 = 3356;
-const int textId_3357 = 3357;
-const int textId_3358 = 3358;
-const int textId_3359 = 3359;
-const int textId_3360 = 3360;
-const int textId_3361 = 3361;
-const int textId_3362 = 3362;
-const int textId_3363 = 3363;
-const int textId_3364 = 3364;
-const int textId_3365 = 3365;
-const int textId_3366 = 3366;
-const int textId_3367 = 3367;
-const int textId_3368 = 3368;
-const int textId_3369 = 3369;
-const int textId_3370 = 3370;
-const int textId_3371 = 3371;
-const int textId_3372 = 3372;
-const int textId_3373 = 3373;
-const int textId_3374 = 3374;
-const int textId_3375 = 3375;
-const int textId_3376 = 3376;
-const int textId_3377 = 3377;
-const int textId_3378 = 3378;
-const int textId_3379 = 3379;
-const int textId_3380 = 3380;
-const int textId_3381 = 3381;
-const int textId_3382 = 3382;
-const int textId_3383 = 3383;
-const int textId_3384 = 3384;
-const int textId_3385 = 3385;
-const int textId_3386 = 3386;
-const int textId_3387 = 3387;
-const int textId_3388 = 3388;
-const int textId_3389 = 3389;
-const int textId_3390 = 3390;
-const int textId_3391 = 3391;
-const int textId_3392 = 3392;
-const int textId_3393 = 3393;
-const int textId_3394 = 3394;
-const int textId_3395 = 3395;
-const int textId_3396 = 3396;
-const int textId_3397 = 3397;
-const int textId_3398 = 3398;
-const int textId_3399 = 3399;
-const int textId_3400 = 3400;
-const int textId_3401 = 3401;
-const int textId_3402 = 3402;
-const int textId_3403 = 3403;
-const int textId_3404 = 3404;
-const int textId_3405 = 3405;
-const int textId_3406 = 3406;
-const int textId_3407 = 3407;
-const int textId_3408 = 3408;
-const int textId_3409 = 3409;
-const int textId_3410 = 3410;
-const int textId_3411 = 3411;
-const int textId_3412 = 3412;
-const int textId_3413 = 3413;
-const int textId_3414 = 3414;
-const int textId_3415 = 3415;
-const int textId_3416 = 3416;
-const int textId_3417 = 3417;
-const int textId_3418 = 3418;
-const int textId_3419 = 3419;
-const int textId_3420 = 3420;
-const int textId_3421 = 3421;
-const int textId_3422 = 3422;
-const int textId_3423 = 3423;
-const int textId_3424 = 3424;
-const int textId_3425 = 3425;
-const int textId_3426 = 3426;
-const int textId_3427 = 3427;
-const int textId_3428 = 3428;
-const int textId_3429 = 3429;
-const int textId_3430 = 3430;
-const int textId_3431 = 3431;
-const int textId_3432 = 3432;
-const int textId_3433 = 3433;
-const int textId_3434 = 3434;
-const int textId_3435 = 3435;
-const int textId_3436 = 3436;
-const int textId_3437 = 3437;
-const int textId_3438 = 3438;
-const int textId_3439 = 3439;
-const int textId_3440 = 3440;
-const int textId_3441 = 3441;
-const int textId_3442 = 3442;
-const int textId_3443 = 3443;
-const int textId_3444 = 3444;
-const int textId_3445 = 3445;
-const int textId_3446 = 3446;
-const int textId_3447 = 3447;
-const int textId_3448 = 3448;
-const int textId_3449 = 3449;
-const int textId_3450 = 3450;
-const int textId_3451 = 3451;
-const int textId_3452 = 3452;
-const int textId_3453 = 3453;
-const int textId_3454 = 3454;
-const int textId_3455 = 3455;
-const int textId_3456 = 3456;
-const int textId_3457 = 3457;
-const int textId_3458 = 3458;
-const int textId_3459 = 3459;
-const int textId_3460 = 3460;
-const int textId_3461 = 3461;
-const int textId_3462 = 3462;
-const int textId_3463 = 3463;
-const int textId_3464 = 3464;
-const int textId_3465 = 3465;
-const int textId_3466 = 3466;
-const int textId_3467 = 3467;
-const int textId_3468 = 3468;
-const int textId_3469 = 3469;
-const int textId_3470 = 3470;
-const int textId_3471 = 3471;
-const int textId_3472 = 3472;
-const int textId_3473 = 3473;
-const int textId_3474 = 3474;
-const int textId_3475 = 3475;
-const int textId_3476 = 3476;
-const int textId_3477 = 3477;
-const int textId_3478 = 3478;
-const int textId_3479 = 3479;
-const int textId_3480 = 3480;
-const int textId_3481 = 3481;
-const int textId_3482 = 3482;
-const int textId_3483 = 3483;
-const int textId_3484 = 3484;
-const int textId_3485 = 3485;
-const int textId_3486 = 3486;
-const int textId_3487 = 3487;
-const int textId_3488 = 3488;
-const int textId_3489 = 3489;
-const int textId_3490 = 3490;
-const int textId_3491 = 3491;
-const int textId_3492 = 3492;
-const int textId_3493 = 3493;
-const int textId_3494 = 3494;
-const int textId_3495 = 3495;
-const int textId_3496 = 3496;
-const int textId_3497 = 3497;
-const int textId_3498 = 3498;
-const int textId_3499 = 3499;
-const int textId_3500 = 3500;
-const int textId_3501 = 3501;
-const int textId_3502 = 3502;
-const int textId_3503 = 3503;
-const int textId_3504 = 3504;
-const int textId_3505 = 3505;
-const int textId_3506 = 3506;
-const int textId_3507 = 3507;
-const int textId_3508 = 3508;
-const int textId_3509 = 3509;
-const int textId_3510 = 3510;
-const int textId_3511 = 3511;
-const int textId_3512 = 3512;
-const int textId_3513 = 3513;
-const int textId_3514 = 3514;
-const int textId_3515 = 3515;
-const int textId_3516 = 3516;
-const int textId_3517 = 3517;
-const int textId_3518 = 3518;
-const int textId_3519 = 3519;
-const int textId_3520 = 3520;
-const int textId_3521 = 3521;
-const int textId_3522 = 3522;
-const int textId_3523 = 3523;
-const int textId_3524 = 3524;
-const int textId_3525 = 3525;
-const int textId_3526 = 3526;
-const int textId_3527 = 3527;
-const int textId_3528 = 3528;
-const int textId_3529 = 3529;
-const int textId_3530 = 3530;
-const int textId_3531 = 3531;
-const int textId_3532 = 3532;
-const int textId_3533 = 3533;
-const int textId_3534 = 3534;
-const int textId_3535 = 3535;
-const int textId_3536 = 3536;
-const int textId_3537 = 3537;
-const int textId_3538 = 3538;
-const int textId_3539 = 3539;
-const int textId_3540 = 3540;
-const int textId_3541 = 3541;
-const int textId_3542 = 3542;
-const int textId_3543 = 3543;
-const int textId_3544 = 3544;
-const int textId_3545 = 3545;
-const int textId_3546 = 3546;
-const int textId_3547 = 3547;
-const int textId_3548 = 3548;
-const int textId_3549 = 3549;
-const int textId_3550 = 3550;
-const int textId_3551 = 3551;
-const int textId_3552 = 3552;
-const int textId_3553 = 3553;
-const int textId_3554 = 3554;
-const int textId_3555 = 3555;
-const int textId_3556 = 3556;
-const int textId_3557 = 3557;
-const int textId_3558 = 3558;
-const int textId_3559 = 3559;
-const int textId_3560 = 3560;
-const int textId_3561 = 3561;
-const int textId_3562 = 3562;
-const int textId_3563 = 3563;
-const int textId_3564 = 3564;
-const int textId_3565 = 3565;
-const int textId_3566 = 3566;
-const int textId_3567 = 3567;
-const int textId_3568 = 3568;
-const int textId_3569 = 3569;
-const int textId_3570 = 3570;
-const int textId_3571 = 3571;
-const int textId_3572 = 3572;
-const int textId_3573 = 3573;
-const int textId_3574 = 3574;
-const int textId_3575 = 3575;
-const int textId_3576 = 3576;
-const int textId_3577 = 3577;
-const int textId_3578 = 3578;
-const int textId_3579 = 3579;
-const int textId_3580 = 3580;
-const int textId_3581 = 3581;
-const int textId_3582 = 3582;
-const int textId_3583 = 3583;
-const int textId_3584 = 3584;
-const int textId_3585 = 3585;
-const int textId_3586 = 3586;
-const int textId_3587 = 3587;
-const int textId_3588 = 3588;
-const int textId_3589 = 3589;
-const int textId_3590 = 3590;
-const int textId_3591 = 3591;
-const int textId_3592 = 3592;
-const int textId_3593 = 3593;
-const int textId_3594 = 3594;
-const int textId_3595 = 3595;
-const int textId_3596 = 3596;
-const int textId_3597 = 3597;
-const int textId_3598 = 3598;
-const int textId_3599 = 3599;
-const int textId_3600 = 3600;
-const int textId_3601 = 3601;
-const int textId_3602 = 3602;
-const int textId_3603 = 3603;
-const int textId_3604 = 3604;
-const int textId_3605 = 3605;
-const int textId_3606 = 3606;
-const int textId_3607 = 3607;
-const int textId_3608 = 3608;
-const int textId_3609 = 3609;
-const int textId_3610 = 3610;
-const int textId_3611 = 3611;
-const int textId_3612 = 3612;
-const int textId_3613 = 3613;
-const int textId_3614 = 3614;
-const int textId_3615 = 3615;
-const int textId_3616 = 3616;
-const int textId_3617 = 3617;
-const int textId_3618 = 3618;
-const int textId_3619 = 3619;
-const int textId_3620 = 3620;
-const int textId_3621 = 3621;
-const int textId_3622 = 3622;
-const int textId_3623 = 3623;
-const int textId_3624 = 3624;
-const int textId_3625 = 3625;
-const int textId_3626 = 3626;
-const int textId_3627 = 3627;
-const int textId_3628 = 3628;
-const int textId_3629 = 3629;
-const int textId_3630 = 3630;
-const int textId_3631 = 3631;
-const int textId_3632 = 3632;
-const int textId_3633 = 3633;
-const int textId_3634 = 3634;
-const int textId_3635 = 3635;
-const int textId_3636 = 3636;
-const int textId_3637 = 3637;
-const int textId_3638 = 3638;
-const int textId_3639 = 3639;
-const int textId_3640 = 3640;
-const int textId_3641 = 3641;
-const int textId_3642 = 3642;
-const int textId_3643 = 3643;
-const int textId_3644 = 3644;
-const int textId_3645 = 3645;
-const int textId_3646 = 3646;
-const int textId_3647 = 3647;
-const int textId_3648 = 3648;
-const int textId_3649 = 3649;
-const int textId_3650 = 3650;
-const int textId_3651 = 3651;
-const int textId_3652 = 3652;
-const int textId_3653 = 3653;
-const int textId_3654 = 3654;
-const int textId_3655 = 3655;
-const int textId_3656 = 3656;
-const int textId_3657 = 3657;
-const int textId_3658 = 3658;
-const int textId_3659 = 3659;
-const int textId_3660 = 3660;
-const int textId_3661 = 3661;
-const int textId_3662 = 3662;
-const int textId_3663 = 3663;
-const int textId_3664 = 3664;
-const int textId_3665 = 3665;
-const int textId_3666 = 3666;
-const int textId_3667 = 3667;
-const int textId_3668 = 3668;
-const int textId_3669 = 3669;
-const int textId_3670 = 3670;
-const int textId_3671 = 3671;
-const int textId_3672 = 3672;
-const int textId_3673 = 3673;
-const int textId_3674 = 3674;
-const int textId_3675 = 3675;
-const int textId_3676 = 3676;
-const int textId_3677 = 3677;
-const int textId_3678 = 3678;
-const int textId_3679 = 3679;
-const int textId_3680 = 3680;
-const int textId_3681 = 3681;
-const int textId_3682 = 3682;
-const int textId_3683 = 3683;
-const int textId_3684 = 3684;
-const int textId_3685 = 3685;
-const int textId_3686 = 3686;
-const int textId_3687 = 3687;
-const int textId_3688 = 3688;
-const int textId_3689 = 3689;
-const int textId_3690 = 3690;
-const int textId_3691 = 3691;
-const int textId_3692 = 3692;
-const int textId_3693 = 3693;
-const int textId_3694 = 3694;
-const int textId_3695 = 3695;
-const int textId_3696 = 3696;
-const int textId_3697 = 3697;
-const int textId_3698 = 3698;
-const int textId_3699 = 3699;
-const int textId_3700 = 3700;
-const int textId_3701 = 3701;
-const int textId_3702 = 3702;
-const int textId_3703 = 3703;
-const int textId_3704 = 3704;
-const int textId_3705 = 3705;
-const int textId_3706 = 3706;
-const int textId_3707 = 3707;
-const int textId_3708 = 3708;
-const int textId_3709 = 3709;
-const int textId_3710 = 3710;
-const int textId_3711 = 3711;
+const int textId_3342_0 = 3342;
+const int textId_3343_0 = 3343;
+const int textId_3344_0 = 3344;
+const int textId_3345_0 = 3345;
+const int textId_3346_0 = 3346;
+const int textId_3347_0 = 3347;
+const int textId_3348_0 = 3348;
+const int textId_3349_0 = 3349;
+const int textId_3350_0 = 3350;
+const int textId_3351_0 = 3351;
+const int textId_3352_0 = 3352;
+const int textId_3353_0 = 3353;
+const int textId_3354_0 = 3354;
+const int textId_3355_0 = 3355;
+const int textId_3356_0 = 3356;
+const int textId_3357_0 = 3357;
+const int textId_3357_1 = 3357;
+const int textId_3358_0 = 3358;
+const int textId_3359_0 = 3359;
+const int textId_3360_0 = 3360;
+const int textId_3360_1 = 3360;
+const int textId_3360_2 = 3360;
+const int textId_3360_3 = 3360;
+const int textId_3361_0 = 3361;
+const int textId_3362_0 = 3362;
+const int textId_3363_0 = 3363;
+const int textId_3364_0 = 3364;
+const int textId_3365_0 = 3365;
+const int textId_3366_0 = 3366;
+const int textId_3367_0 = 3367;
+const int textId_3367_1 = 3367;
+const int textId_3368_0 = 3368;
+const int textId_3368_1 = 3368;
+const int textId_3369_0 = 3369;
+const int textId_3369_1 = 3369;
+const int textId_3370_0 = 3370;
+const int textId_3370_1 = 3370;
+const int textId_3371_0 = 3371;
+const int textId_3372_0 = 3372;
+const int textId_3373_0 = 3373;
+const int textId_3374_0 = 3374;
+const int textId_3374_1 = 3374;
+const int textId_3374_2 = 3374;
+const int textId_3375_0 = 3375;
+const int textId_3376_0 = 3376;
+const int textId_3377_0 = 3377;
+const int textId_3378_0 = 3378;
+const int textId_3379_0 = 3379;
+const int textId_3379_1 = 3379;
+const int textId_3380_0 = 3380;
+const int textId_3381_0 = 3381;
+const int textId_3382_0 = 3382;
+const int textId_3383_0 = 3383;
+const int textId_3384_0 = 3384;
+const int textId_3385_0 = 3385;
+const int textId_3386_0 = 3386;
+const int textId_3387_0 = 3387;
+const int textId_3387_1 = 3387;
+const int textId_3388_0 = 3388;
+const int textId_3389_0 = 3389;
+const int textId_3390_0 = 3390;
+const int textId_3391_0 = 3391;
+const int textId_3391_1 = 3391;
+const int textId_3392_0 = 3392;
+const int textId_3393_0 = 3393;
+const int textId_3394_0 = 3394;
+const int textId_3395_0 = 3395;
+const int textId_3396_0 = 3396;
+const int textId_3397_0 = 3397;
+const int textId_3398_0 = 3398;
+const int textId_3399_0 = 3399;
+const int textId_3400_0 = 3400;
+const int textId_3400_1 = 3400;
+const int textId_3401_0 = 3401;
+const int textId_3402_0 = 3402;
+const int textId_3403_0 = 3403;
+const int textId_3404_0 = 3404;
+const int textId_3405_0 = 3405;
+const int textId_3406_0 = 3406;
+const int textId_3407_0 = 3407;
+const int textId_3408_0 = 3408;
+const int textId_3409_0 = 3409;
+const int textId_3410_0 = 3410;
+const int textId_3411_0 = 3411;
+const int textId_3412_0 = 3412;
+const int textId_3413_0 = 3413;
+const int textId_3414_0 = 3414;
+const int textId_3415_0 = 3415;
+const int textId_3416_0 = 3416;
+const int textId_3417_0 = 3417;
+const int textId_3418_0 = 3418;
+const int textId_3419_0 = 3419;
+const int textId_3420_0 = 3420;
+const int textId_3421_0 = 3421;
+const int textId_3422_0 = 3422;
+const int textId_3423_0 = 3423;
+const int textId_3424_0 = 3424;
+const int textId_3425_0 = 3425;
+const int textId_3426_0 = 3426;
+const int textId_3427_0 = 3427;
+const int textId_3428_0 = 3428;
+const int textId_3429_0 = 3429;
+const int textId_3430_0 = 3430;
+const int textId_3431_0 = 3431;
+const int textId_3432_0 = 3432;
+const int textId_3433_0 = 3433;
+const int textId_3434_0 = 3434;
+const int textId_3435_0 = 3435;
+const int textId_3436_0 = 3436;
+const int textId_3437_0 = 3437;
+const int textId_3438_0 = 3438;
+const int textId_3439_0 = 3439;
+const int textId_3440_0 = 3440;
+const int textId_3441_0 = 3441;
+const int textId_3442_0 = 3442;
+const int textId_3443_0 = 3443;
+const int textId_3444_0 = 3444;
+const int textId_3445_0 = 3445;
+const int textId_3446_0 = 3446;
+const int textId_3447_0 = 3447;
+const int textId_3448_0 = 3448;
+const int textId_3449_0 = 3449;
+const int textId_3450_0 = 3450;
+const int textId_3451_0 = 3451;
+const int textId_3452_0 = 3452;
+const int textId_3453_0 = 3453;
+const int textId_3454_0 = 3454;
+const int textId_3455_0 = 3455;
+const int textId_3456_0 = 3456;
+const int textId_3457_0 = 3457;
+const int textId_3458_0 = 3458;
+const int textId_3459_0 = 3459;
+const int textId_3460_0 = 3460;
+const int textId_3461_0 = 3461;
+const int textId_3462_0 = 3462;
+const int textId_3463_0 = 3463;
+const int textId_3464_0 = 3464;
+const int textId_3465_0 = 3465;
+const int textId_3465_1 = 3465;
+const int textId_3466_0 = 3466;
+const int textId_3467_0 = 3467;
+const int textId_3468_0 = 3468;
+const int textId_3469_0 = 3469;
+const int textId_3470_0 = 3470;
+const int textId_3470_1 = 3470;
+const int textId_3471_0 = 3471;
+const int textId_3471_1 = 3471;
+const int textId_3472_0 = 3472;
+const int textId_3473_0 = 3473;
+const int textId_3474_0 = 3474;
+const int textId_3475_0 = 3475;
+const int textId_3476_0 = 3476;
+const int textId_3477_0 = 3477;
+const int textId_3478_0 = 3478;
+const int textId_3479_0 = 3479;
+const int textId_3480_0 = 3480;
+const int textId_3481_0 = 3481;
+const int textId_3482_0 = 3482;
+const int textId_3483_0 = 3483;
+const int textId_3484_0 = 3484;
+const int textId_3485_0 = 3485;
+const int textId_3486_0 = 3486;
+const int textId_3487_0 = 3487;
+const int textId_3488_0 = 3488;
+const int textId_3489_0 = 3489;
+const int textId_3490_0 = 3490;
+const int textId_3491_0 = 3491;
+const int textId_3492_0 = 3492;
+const int textId_3493_0 = 3493;
+const int textId_3494_0 = 3494;
+const int textId_3495_0 = 3495;
+const int textId_3496_0 = 3496;
+const int textId_3497_0 = 3497;
+const int textId_3498_0 = 3498;
+const int textId_3499_0 = 3499;
+const int textId_3500_0 = 3500;
+const int textId_3500_1 = 3500;
+const int textId_3501_0 = 3501;
+const int textId_3502_0 = 3502;
+const int textId_3503_0 = 3503;
+const int textId_3504_0 = 3504;
+const int textId_3505_0 = 3505;
+const int textId_3506_0 = 3506;
+const int textId_3507_0 = 3507;
+const int textId_3508_0 = 3508;
+const int textId_3509_0 = 3509;
+const int textId_3510_0 = 3510;
+const int textId_3511_0 = 3511;
+const int textId_3512_0 = 3512;
+const int textId_3513_0 = 3513;
+const int textId_3514_0 = 3514;
+const int textId_3515_0 = 3515;
+const int textId_3516_0 = 3516;
+const int textId_3517_0 = 3517;
+const int textId_3518_0 = 3518;
+const int textId_3519_0 = 3519;
+const int textId_3520_0 = 3520;
+const int textId_3521_0 = 3521;
+const int textId_3522_0 = 3522;
+const int textId_3523_0 = 3523;
+const int textId_3524_0 = 3524;
+const int textId_3525_0 = 3525;
+const int textId_3526_0 = 3526;
+const int textId_3527_0 = 3527;
+const int textId_3528_0 = 3528;
+const int textId_3529_0 = 3529;
+const int textId_3530_0 = 3530;
+const int textId_3531_0 = 3531;
+const int textId_3532_0 = 3532;
+const int textId_3533_0 = 3533;
+const int textId_3534_0 = 3534;
+const int textId_3535_0 = 3535;
+const int textId_3536_0 = 3536;
+const int textId_3537_0 = 3537;
+const int textId_3538_0 = 3538;
+const int textId_3539_0 = 3539;
+const int textId_3540_0 = 3540;
+const int textId_3541_0 = 3541;
+const int textId_3542_0 = 3542;
+const int textId_3543_0 = 3543;
+const int textId_3544_0 = 3544;
+const int textId_3545_0 = 3545;
+const int textId_3546_0 = 3546;
+const int textId_3547_0 = 3547;
+const int textId_3548_0 = 3548;
+const int textId_3549_0 = 3549;
+const int textId_3550_0 = 3550;
+const int textId_3551_0 = 3551;
+const int textId_3552_0 = 3552;
+const int textId_3553_0 = 3553;
+const int textId_3554_0 = 3554;
+const int textId_3555_0 = 3555;
+const int textId_3555_1 = 3555;
+const int textId_3556_0 = 3556;
+const int textId_3557_0 = 3557;
+const int textId_3557_1 = 3557;
+const int textId_3558_0 = 3558;
+const int textId_3559_0 = 3559;
+const int textId_3560_0 = 3560;
+const int textId_3560_1 = 3560;
+const int textId_3561_0 = 3561;
+const int textId_3562_0 = 3562;
+const int textId_3562_1 = 3562;
+const int textId_3562_2 = 3562;
+const int textId_3563_0 = 3563;
+const int textId_3564_0 = 3564;
+const int textId_3565_0 = 3565;
+const int textId_3566_0 = 3566;
+const int textId_3567_0 = 3567;
+const int textId_3568_0 = 3568;
+const int textId_3569_0 = 3569;
+const int textId_3570_0 = 3570;
+const int textId_3571_0 = 3571;
+const int textId_3572_0 = 3572;
+const int textId_3573_0 = 3573;
+const int textId_3574_0 = 3574;
+const int textId_3575_0 = 3575;
+const int textId_3576_0 = 3576;
+const int textId_3577_0 = 3577;
+const int textId_3578_0 = 3578;
+const int textId_3579_0 = 3579;
+const int textId_3580_0 = 3580;
+const int textId_3581_0 = 3581;
+const int textId_3582_0 = 3582;
+const int textId_3583_0 = 3583;
+const int textId_3584_0 = 3584;
+const int textId_3585_0 = 3585;
+const int textId_3585_1 = 3585;
+const int textId_3586_0 = 3586;
+const int textId_3586_1 = 3586;
+const int textId_3587_0 = 3587;
+const int textId_3587_1 = 3587;
+const int textId_3588_0 = 3588;
+const int textId_3589_0 = 3589;
+const int textId_3590_0 = 3590;
+const int textId_3591_0 = 3591;
+const int textId_3592_0 = 3592;
+const int textId_3593_0 = 3593;
+const int textId_3594_0 = 3594;
+const int textId_3595_0 = 3595;
+const int textId_3596_0 = 3596;
+const int textId_3597_0 = 3597;
+const int textId_3598_0 = 3598;
+const int textId_3599_0 = 3599;
+const int textId_3600_0 = 3600;
+const int textId_3601_0 = 3601;
+const int textId_3602_0 = 3602;
+const int textId_3603_0 = 3603;
+const int textId_3604_0 = 3604;
+const int textId_3605_0 = 3605;
+const int textId_3606_0 = 3606;
+const int textId_3607_0 = 3607;
+const int textId_3608_0 = 3608;
+const int textId_3609_0 = 3609;
+const int textId_3610_0 = 3610;
+const int textId_3611_0 = 3611;
+const int textId_3612_0 = 3612;
+const int textId_3613_0 = 3613;
+const int textId_3614_0 = 3614;
+const int textId_3615_0 = 3615;
+const int textId_3616_0 = 3616;
+const int textId_3617_0 = 3617;
+const int textId_3618_0 = 3618;
+const int textId_3619_0 = 3619;
+const int textId_3620_0 = 3620;
+const int textId_3621_0 = 3621;
+const int textId_3622_0 = 3622;
+const int textId_3623_0 = 3623;
+const int textId_3624_0 = 3624;
+const int textId_3625_0 = 3625;
+const int textId_3626_0 = 3626;
+const int textId_3627_0 = 3627;
+const int textId_3628_0 = 3628;
+const int textId_3629_0 = 3629;
+const int textId_3630_0 = 3630;
+const int textId_3631_0 = 3631;
+const int textId_3632_0 = 3632;
+const int textId_3633_0 = 3633;
+const int textId_3634_0 = 3634;
+const int textId_3635_0 = 3635;
+const int textId_3636_0 = 3636;
+const int textId_3637_0 = 3637;
+const int textId_3638_0 = 3638;
+const int textId_3639_0 = 3639;
+const int textId_3640_0 = 3640;
+const int textId_3641_0 = 3641;
+const int textId_3642_0 = 3642;
+const int textId_3643_0 = 3643;
+const int textId_3644_0 = 3644;
+const int textId_3645_0 = 3645;
+const int textId_3646_0 = 3646;
+const int textId_3647_0 = 3647;
+const int textId_3648_0 = 3648;
+const int textId_3649_0 = 3649;
+const int textId_3650_0 = 3650;
+const int textId_3651_0 = 3651;
+const int textId_3652_0 = 3652;
+const int textId_3653_0 = 3653;
+const int textId_3653_1 = 3653;
+const int textId_3654_0 = 3654;
+const int textId_3655_0 = 3655;
+const int textId_3656_0 = 3656;
+const int textId_3657_0 = 3657;
+const int textId_3658_0 = 3658;
+const int textId_3659_0 = 3659;
+const int textId_3660_0 = 3660;
+const int textId_3661_0 = 3661;
+const int textId_3662_0 = 3662;
+const int textId_3663_0 = 3663;
+const int textId_3664_0 = 3664;
+const int textId_3665_0 = 3665;
+const int textId_3666_0 = 3666;
+const int textId_3667_0 = 3667;
+const int textId_3668_0 = 3668;
+const int textId_3669_0 = 3669;
+const int textId_3670_0 = 3670;
+const int textId_3671_0 = 3671;
+const int textId_3672_0 = 3672;
+const int textId_3673_0 = 3673;
+const int textId_3674_0 = 3674;
+const int textId_3675_0 = 3675;
+const int textId_3676_0 = 3676;
+const int textId_3677_0 = 3677;
+const int textId_3678_0 = 3678;
+const int textId_3679_0 = 3679;
+const int textId_3680_0 = 3680;
+const int textId_3681_0 = 3681;
+const int textId_3682_0 = 3682;
+const int textId_3683_0 = 3683;
+const int textId_3684_0 = 3684;
+const int textId_3685_0 = 3685;
+const int textId_3686_0 = 3686;
+const int textId_3687_0 = 3687;
+const int textId_3688_0 = 3688;
+const int textId_3689_0 = 3689;
+const int textId_3690_0 = 3690;
+const int textId_3691_0 = 3691;
+const int textId_3692_0 = 3692;
+const int textId_3693_0 = 3693;
+const int textId_3694_0 = 3694;
+const int textId_3695_0 = 3695;
+const int textId_3695_1 = 3695;
+const int textId_3695_2 = 3695;
+const int textId_3695_3 = 3695;
+const int textId_3695_4 = 3695;
+const int textId_3695_5 = 3695;
+const int textId_3695_6 = 3695;
+const int textId_3695_7 = 3695;
+const int textId_3695_8 = 3695;
+const int textId_3695_9 = 3695;
+const int textId_3696_0 = 3696;
+const int textId_3696_1 = 3696;
+const int textId_3697_0 = 3697;
+const int textId_3697_1 = 3697;
+const int textId_3698_0 = 3698;
+const int textId_3699_0 = 3699;
+const int textId_3700_0 = 3700;
+const int textId_3701_0 = 3701;
+const int textId_3702_0 = 3702;
+const int textId_3703_0 = 3703;
+const int textId_3704_0 = 3704;
+const int textId_3705_0 = 3705;
+const int textId_3706_0 = 3706;
+const int textId_3707_0 = 3707;
+const int textId_3708_0 = 3708;
+const int textId_3709_0 = 3709;
+const int textId_3710_0 = 3710;
+const int textId_3711_0 = 3711;
+const int textId_3712_0 = 3712;
+const int textId_3713_0 = 3713;
+const int textId_3714_0 = 3714;
+const int textId_3715_0 = 3715;
+const int textId_3716_0 = 3716;
+const int textId_3717_0 = 3717;
+const int textId_3718_0 = 3718;
+const int textId_3718_1 = 3718;
+const int textId_3718_2 = 3718;
+const int textId_3718_3 = 3718;
+const int textId_3719_0 = 3719;
+const int textId_3719_1 = 3719;
+const int textId_3719_2 = 3719;
+const int textId_3720_0 = 3720;
+const int textId_3721_0 = 3721;
+const int textId_3722_0 = 3722;
+const int textId_3723_0 = 3723;
+const int textId_3724_0 = 3724;
+const int textId_3725_0 = 3725;
