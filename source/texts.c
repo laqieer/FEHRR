@@ -20601,49 +20601,49 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3433] = {
         [LANGUAGE_JAPANESE] = "剣""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "SW",
         [LANGUAGE_CHINESE] = "剑""\x01""",
     },
 
     [3434] = {
         [LANGUAGE_JAPANESE] = "槍""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "LA",
         [LANGUAGE_CHINESE] = "枪""\x01""",
     },
 
     [3435] = {
         [LANGUAGE_JAPANESE] = "斧""\x01""",
-        [LANGUAGE_ENGLISH] = "Axe""\x01""",
+        [LANGUAGE_ENGLISH] = "AX""\x01""",
         [LANGUAGE_CHINESE] = "斧""\x01""",
     },
 
     [3436] = {
         [LANGUAGE_JAPANESE] = "弓""\x01""",
-        [LANGUAGE_ENGLISH] = "Bow""\x01""",
+        [LANGUAGE_ENGLISH] = "BO""\x01""",
         [LANGUAGE_CHINESE] = "弓""\x01""",
     },
 
     [3437] = {
         [LANGUAGE_JAPANESE] = "杖""\x01""",
-        [LANGUAGE_ENGLISH] = "Staff""\x01""",
+        [LANGUAGE_ENGLISH] = "ST""\x01""",
         [LANGUAGE_CHINESE] = "杖""\x01""",
     },
 
     [3438] = {
         [LANGUAGE_JAPANESE] = "理""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "MA",
         [LANGUAGE_CHINESE] = "理""\x01""",
     },
 
     [3439] = {
         [LANGUAGE_JAPANESE] = "光""\x01""",
-        [LANGUAGE_ENGLISH] = "Light""\x01""",
+        [LANGUAGE_ENGLISH] = "LI""\x01""",
         [LANGUAGE_CHINESE] = "光""\x01""",
     },
 
     [3440] = {
         [LANGUAGE_JAPANESE] = "闇""\x01""",
-        [LANGUAGE_ENGLISH] = "Dark""\x01""",
+        [LANGUAGE_ENGLISH] = "DA""\x01""",
         [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
@@ -22077,7 +22077,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3679] = {
         [LANGUAGE_JAPANESE] = "剣""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "SW",
         [LANGUAGE_CHINESE] = "剑""\x01""",
     },
 
@@ -22089,7 +22089,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3681] = {
         [LANGUAGE_JAPANESE] = "槍""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "LA",
         [LANGUAGE_CHINESE] = "枪""\x01""",
     },
 
@@ -22101,7 +22101,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3683] = {
         [LANGUAGE_JAPANESE] = "斧""\x01""",
-        [LANGUAGE_ENGLISH] = "Axe""\x01""",
+        [LANGUAGE_ENGLISH] = "AX""\x01""",
         [LANGUAGE_CHINESE] = "斧""\x01""",
     },
 
@@ -22113,7 +22113,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3685] = {
         [LANGUAGE_JAPANESE] = "弓""\x01""",
-        [LANGUAGE_ENGLISH] = "Bow""\x01""",
+        [LANGUAGE_ENGLISH] = "BO""\x01""",
         [LANGUAGE_CHINESE] = "弓""\x01""",
     },
 
@@ -22125,7 +22125,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3687] = {
         [LANGUAGE_JAPANESE] = "杖""\x01""",
-        [LANGUAGE_ENGLISH] = "Staff""\x01""",
+        [LANGUAGE_ENGLISH] = "ST""\x01""",
         [LANGUAGE_CHINESE] = "杖""\x01""",
     },
 
@@ -22137,7 +22137,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3689] = {
         [LANGUAGE_JAPANESE] = "理""\x01""",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "MA",
         [LANGUAGE_CHINESE] = "理""\x01""",
     },
 
@@ -22149,7 +22149,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3691] = {
         [LANGUAGE_JAPANESE] = "光""\x01""",
-        [LANGUAGE_ENGLISH] = "Light""\x01""",
+        [LANGUAGE_ENGLISH] = "LI""\x01""",
         [LANGUAGE_CHINESE] = "光""\x01""",
     },
 
@@ -22161,7 +22161,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3693] = {
         [LANGUAGE_JAPANESE] = "闇""\x01""",
-        [LANGUAGE_ENGLISH] = "Dark""\x01""",
+        [LANGUAGE_ENGLISH] = "DA""\x01""",
         [LANGUAGE_CHINESE] = "暗""\x01""",
     },
 
