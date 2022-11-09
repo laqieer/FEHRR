@@ -856,3 +856,17 @@
 .rodata.textId_3727_0 : {*(.rodata.textId_3727_0)}
 . = 0x8073804;
 .rodata.textId_3727_1 : {*(.rodata.textId_3727_1)}
+. = 0x8105790;
+.rodata.textId_3728_0 : {*(.rodata.textId_3728_0)}
+. = 0x8105794;
+.rodata.textId_3729_0 : {*(.rodata.textId_3729_0)}
+. = 0x810579c;
+.rodata.textId_3730_0 : {*(.rodata.textId_3730_0)}
+. = 0x81057a0;
+.rodata.textId_3731_0 : {*(.rodata.textId_3731_0)}
+. = 0x81057a4;
+.rodata.textId_3732_0 : {*(.rodata.textId_3732_0)}
+. = 0x81057a8;
+.rodata.textId_3733_0 : {*(.rodata.textId_3733_0)}
+. = 0x81057ac;
+.rodata.textId_3734_0 : {*(.rodata.textId_3734_0)}

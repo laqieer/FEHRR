@@ -73,12 +73,12 @@ class ROM:
 
 def main():
     rom = ROM('baserom.gba')
-    for p in [Pointer(x) for x in [0x810571c, 0x832724c, 0x8327244, 0x832722c, 0x832723c, 0x8327170, 0x83198c0, 0x81057f0]]:
+    for p in [Pointer(x) for x in [0x8105710, 0x810571c, 0x8105728, 0x8105734, 0x8105740, 0x810574c, 0x8105758, 0x8105764, 0x8105770, 0x810577c]]:
         string = rom.read_string(p.to_offset())
         print(f'{p}: {string}')
         pointers = rom.find_string(string)
         for pointer in pointers:
-            if(0 == rom.read_u8(pointer.to_offset() - 1) and string == rom.read_string(pointer.to_offset())):
+            if(string == rom.read_string(pointer.to_offset())):
                 results = rom.find_pointer(pointer)
                 if len(results) > 0:
                     print(f'{pointer}: {results}')

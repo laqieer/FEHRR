@@ -22369,6 +22369,54 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "G""\x01""",
     },
 
+    [3728] = {
+        [LANGUAGE_JAPANESE] = "　１ー２",
+        [LANGUAGE_ENGLISH] = "　１-２",
+        [LANGUAGE_CHINESE] = "　１—２",
+    },
+
+    [3729] = {
+        [LANGUAGE_JAPANESE] = "　１ー３",
+        [LANGUAGE_ENGLISH] = "　１-３",
+        [LANGUAGE_CHINESE] = "　１—３",
+    },
+
+    [3730] = {
+        [LANGUAGE_JAPANESE] = "　２ー３",
+        [LANGUAGE_ENGLISH] = "　２-３",
+        [LANGUAGE_CHINESE] = "　２—３",
+    },
+
+    [3731] = {
+        [LANGUAGE_JAPANESE] = "３ー１０",
+        [LANGUAGE_ENGLISH] = "３-１０",
+        [LANGUAGE_CHINESE] = "３—１０",
+    },
+
+    [3732] = {
+        [LANGUAGE_JAPANESE] = "３ー１５",
+        [LANGUAGE_ENGLISH] = "３-１５",
+        [LANGUAGE_CHINESE] = "３—１５",
+    },
+
+    [3733] = {
+        [LANGUAGE_JAPANESE] = "　　全体",
+        [LANGUAGE_ENGLISH] = "　　All",
+        [LANGUAGE_CHINESE] = "　　全体",
+    },
+
+    [3734] = {
+        [LANGUAGE_JAPANESE] = "　　ーー",
+        [LANGUAGE_ENGLISH] = "　　--",
+        [LANGUAGE_CHINESE] = "　　——",
+    },
+
+    [3735] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
 };
 
 const int textId_3342_0 = 3342;
@@ -22800,3 +22848,10 @@ const int textId_3724_0 = 3724;
 const int textId_3725_0 = 3725;
 const int textId_3727_0 = 3727;
 const int textId_3727_1 = 3727;
+const int textId_3728_0 = 3728;
+const int textId_3729_0 = 3729;
+const int textId_3730_0 = 3730;
+const int textId_3731_0 = 3731;
+const int textId_3732_0 = 3732;
+const int textId_3733_0 = 3733;
+const int textId_3734_0 = 3734;
