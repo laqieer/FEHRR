@@ -13953,9 +13953,387 @@ const struct GlyphNew TextGlyphs_Talk_E9A3BE = { /* 飾 */
     .bitmap = TextGlyphs_Talk_E9A3BETiles,
 };
 
-const struct GlyphNew TextGlyphs_Talk_20 = { /*   */
+const struct GlyphNew TextGlyphs_Talk_61 = { /* a */
     .next = NULL,
     .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_61Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_62 = { /* b */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_62Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_63 = { /* c */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_63Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_64 = { /* d */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_64Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_65 = { /* e */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_65Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_66 = { /* f */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_66Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_67 = { /* g */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_67Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_68 = { /* h */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_68Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_74 = { /* t */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_74Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_6B = { /* k */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_6BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_6E = { /* n */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_6ETiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_6F = { /* o */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_6FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_6A = { /* j */
+    .next = NULL,
+    .width = 3,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_6ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_70 = { /* p */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_70Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_71 = { /* q */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_71Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_72 = { /* r */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_72Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_73 = { /* s */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_73Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_75 = { /* u */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_75Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_76 = { /* v */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_76Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_78 = { /* x */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_78Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_79 = { /* y */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_79Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_41 = { /* A */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_41Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_42 = { /* B */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_42Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_43 = { /* C */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_43Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_44 = { /* D */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_44Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_45 = { /* E */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_45Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_46 = { /* F */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_46Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_47 = { /* G */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_47Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_48 = { /* H */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_48Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_4A = { /* J */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_4ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_4B = { /* K */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_4BTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_4C = { /* L */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_4CTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_4F = { /* O */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_4FTiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_50 = { /* P */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_50Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_51 = { /* Q */
+    .next = NULL,
+    .width = 6,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_51Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_52 = { /* R */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_52Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_53 = { /* S */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_53Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_55 = { /* U */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_55Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_56 = { /* V */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_56Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_58 = { /* X */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_58Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_59 = { /* Y */
+    .next = NULL,
+    .width = 4,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_59Tiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_5A = { /* Z */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = TextGlyphs_Talk_5ATiles,
+};
+
+const struct GlyphNew TextGlyphs_Talk_20 = { /*   */
+    .next = NULL,
+    .width = 2,
     .utf_byte_2 = 0x00,
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,
@@ -14250,78 +14628,6 @@ const struct GlyphNew TextGlyphs_Talk_40 = { /* @ */
     .bitmap = TextGlyphs_Talk_40Tiles,
 };
 
-const struct GlyphNew TextGlyphs_Talk_41 = { /* A */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_41Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_42 = { /* B */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_42Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_43 = { /* C */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_43Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_44 = { /* D */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_44Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_45 = { /* E */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_45Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_46 = { /* F */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_46Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_47 = { /* G */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_47Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_48 = { /* H */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_48Tiles,
-};
-
 const struct GlyphNew TextGlyphs_Talk_49 = { /* I */
     .next = NULL,
     .width = 4,
@@ -14329,33 +14635,6 @@ const struct GlyphNew TextGlyphs_Talk_49 = { /* I */
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,
     .bitmap = TextGlyphs_Talk_49Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_4A = { /* J */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_4ATiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_4B = { /* K */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_4BTiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_4C = { /* L */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_4CTiles,
 };
 
 const struct GlyphNew TextGlyphs_Talk_4D = { /* M */
@@ -14376,51 +14655,6 @@ const struct GlyphNew TextGlyphs_Talk_4E = { /* N */
     .bitmap = TextGlyphs_Talk_4ETiles,
 };
 
-const struct GlyphNew TextGlyphs_Talk_4F = { /* O */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_4FTiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_50 = { /* P */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_50Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_51 = { /* Q */
-    .next = NULL,
-    .width = 7,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_51Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_52 = { /* R */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_52Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_53 = { /* S */
-    .next = NULL,
-    .width = 7,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_53Tiles,
-};
-
 const struct GlyphNew TextGlyphs_Talk_54 = { /* T */
     .next = NULL,
     .width = 6,
@@ -14430,24 +14664,6 @@ const struct GlyphNew TextGlyphs_Talk_54 = { /* T */
     .bitmap = TextGlyphs_Talk_54Tiles,
 };
 
-const struct GlyphNew TextGlyphs_Talk_55 = { /* U */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_55Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_56 = { /* V */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_56Tiles,
-};
-
 const struct GlyphNew TextGlyphs_Talk_57 = { /* W */
     .next = NULL,
     .width = 8,
@@ -14455,33 +14671,6 @@ const struct GlyphNew TextGlyphs_Talk_57 = { /* W */
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,
     .bitmap = TextGlyphs_Talk_57Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_58 = { /* X */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_58Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_59 = { /* Y */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_59Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_5A = { /* Z */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_5ATiles,
 };
 
 const struct GlyphNew TextGlyphs_Talk_5B = { /* [ */
@@ -14538,78 +14727,6 @@ const struct GlyphNew TextGlyphs_Talk_60 = { /* ` */
     .bitmap = TextGlyphs_Talk_60Tiles,
 };
 
-const struct GlyphNew TextGlyphs_Talk_61 = { /* a */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_61Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_62 = { /* b */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_62Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_63 = { /* c */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_63Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_64 = { /* d */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_64Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_65 = { /* e */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_65Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_66 = { /* f */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_66Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_67 = { /* g */
-    .next = NULL,
-    .width = 7,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_67Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_68 = { /* h */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_68Tiles,
-};
-
 const struct GlyphNew TextGlyphs_Talk_69 = { /* i */
     .next = NULL,
     .width = 2,
@@ -14617,24 +14734,6 @@ const struct GlyphNew TextGlyphs_Talk_69 = { /* i */
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,
     .bitmap = TextGlyphs_Talk_69Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_6A = { /* j */
-    .next = NULL,
-    .width = 3,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_6ATiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_6B = { /* k */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_6BTiles,
 };
 
 const struct GlyphNew TextGlyphs_Talk_6C = { /* l */
@@ -14655,87 +14754,6 @@ const struct GlyphNew TextGlyphs_Talk_6D = { /* m */
     .bitmap = TextGlyphs_Talk_6DTiles,
 };
 
-const struct GlyphNew TextGlyphs_Talk_6E = { /* n */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_6ETiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_6F = { /* o */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_6FTiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_70 = { /* p */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_70Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_71 = { /* q */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_71Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_72 = { /* r */
-    .next = NULL,
-    .width = 4,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_72Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_73 = { /* s */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_73Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_74 = { /* t */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_74Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_75 = { /* u */
-    .next = NULL,
-    .width = 5,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_75Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_76 = { /* v */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_76Tiles,
-};
-
 const struct GlyphNew TextGlyphs_Talk_77 = { /* w */
     .next = NULL,
     .width = 6,
@@ -14743,24 +14761,6 @@ const struct GlyphNew TextGlyphs_Talk_77 = { /* w */
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,
     .bitmap = TextGlyphs_Talk_77Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_78 = { /* x */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_78Tiles,
-};
-
-const struct GlyphNew TextGlyphs_Talk_79 = { /* y */
-    .next = NULL,
-    .width = 4,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = TextGlyphs_Talk_79Tiles,
 };
 
 const struct GlyphNew TextGlyphs_Talk_7A = { /* z */
@@ -28618,6 +28618,48 @@ struct GlyphNew const * const TextGlyphs_TalkNew[0x100 - 0x20] = {
     [0xd0 - 0x20] = &TextGlyphs_Talk_D0B4,
     [0xc3 - 0x20] = &TextGlyphs_Talk_C3BC,
     [0xce - 0x20] = &TextGlyphs_Talk_CEB5,
+    [0x61 - 0x20] = &TextGlyphs_Talk_61,
+    [0x62 - 0x20] = &TextGlyphs_Talk_62,
+    [0x63 - 0x20] = &TextGlyphs_Talk_63,
+    [0x64 - 0x20] = &TextGlyphs_Talk_64,
+    [0x65 - 0x20] = &TextGlyphs_Talk_65,
+    [0x66 - 0x20] = &TextGlyphs_Talk_66,
+    [0x67 - 0x20] = &TextGlyphs_Talk_67,
+    [0x68 - 0x20] = &TextGlyphs_Talk_68,
+    [0x74 - 0x20] = &TextGlyphs_Talk_74,
+    [0x6b - 0x20] = &TextGlyphs_Talk_6B,
+    [0x6e - 0x20] = &TextGlyphs_Talk_6E,
+    [0x6f - 0x20] = &TextGlyphs_Talk_6F,
+    [0x6a - 0x20] = &TextGlyphs_Talk_6A,
+    [0x70 - 0x20] = &TextGlyphs_Talk_70,
+    [0x71 - 0x20] = &TextGlyphs_Talk_71,
+    [0x72 - 0x20] = &TextGlyphs_Talk_72,
+    [0x73 - 0x20] = &TextGlyphs_Talk_73,
+    [0x75 - 0x20] = &TextGlyphs_Talk_75,
+    [0x76 - 0x20] = &TextGlyphs_Talk_76,
+    [0x78 - 0x20] = &TextGlyphs_Talk_78,
+    [0x79 - 0x20] = &TextGlyphs_Talk_79,
+    [0x41 - 0x20] = &TextGlyphs_Talk_41,
+    [0x42 - 0x20] = &TextGlyphs_Talk_42,
+    [0x43 - 0x20] = &TextGlyphs_Talk_43,
+    [0x44 - 0x20] = &TextGlyphs_Talk_44,
+    [0x45 - 0x20] = &TextGlyphs_Talk_45,
+    [0x46 - 0x20] = &TextGlyphs_Talk_46,
+    [0x47 - 0x20] = &TextGlyphs_Talk_47,
+    [0x48 - 0x20] = &TextGlyphs_Talk_48,
+    [0x4a - 0x20] = &TextGlyphs_Talk_4A,
+    [0x4b - 0x20] = &TextGlyphs_Talk_4B,
+    [0x4c - 0x20] = &TextGlyphs_Talk_4C,
+    [0x4f - 0x20] = &TextGlyphs_Talk_4F,
+    [0x50 - 0x20] = &TextGlyphs_Talk_50,
+    [0x51 - 0x20] = &TextGlyphs_Talk_51,
+    [0x52 - 0x20] = &TextGlyphs_Talk_52,
+    [0x53 - 0x20] = &TextGlyphs_Talk_53,
+    [0x55 - 0x20] = &TextGlyphs_Talk_55,
+    [0x56 - 0x20] = &TextGlyphs_Talk_56,
+    [0x58 - 0x20] = &TextGlyphs_Talk_58,
+    [0x59 - 0x20] = &TextGlyphs_Talk_59,
+    [0x5a - 0x20] = &TextGlyphs_Talk_5A,
     [0x20 - 0x20] = &TextGlyphs_Talk_20,
     [0x21 - 0x20] = &TextGlyphs_Talk_21,
     [0x22 - 0x20] = &TextGlyphs_Talk_22,
@@ -28651,63 +28693,21 @@ struct GlyphNew const * const TextGlyphs_TalkNew[0x100 - 0x20] = {
     [0x3e - 0x20] = &TextGlyphs_Talk_3E,
     [0x3f - 0x20] = &TextGlyphs_Talk_3F,
     [0x40 - 0x20] = &TextGlyphs_Talk_40,
-    [0x41 - 0x20] = &TextGlyphs_Talk_41,
-    [0x42 - 0x20] = &TextGlyphs_Talk_42,
-    [0x43 - 0x20] = &TextGlyphs_Talk_43,
-    [0x44 - 0x20] = &TextGlyphs_Talk_44,
-    [0x45 - 0x20] = &TextGlyphs_Talk_45,
-    [0x46 - 0x20] = &TextGlyphs_Talk_46,
-    [0x47 - 0x20] = &TextGlyphs_Talk_47,
-    [0x48 - 0x20] = &TextGlyphs_Talk_48,
     [0x49 - 0x20] = &TextGlyphs_Talk_49,
-    [0x4a - 0x20] = &TextGlyphs_Talk_4A,
-    [0x4b - 0x20] = &TextGlyphs_Talk_4B,
-    [0x4c - 0x20] = &TextGlyphs_Talk_4C,
     [0x4d - 0x20] = &TextGlyphs_Talk_4D,
     [0x4e - 0x20] = &TextGlyphs_Talk_4E,
-    [0x4f - 0x20] = &TextGlyphs_Talk_4F,
-    [0x50 - 0x20] = &TextGlyphs_Talk_50,
-    [0x51 - 0x20] = &TextGlyphs_Talk_51,
-    [0x52 - 0x20] = &TextGlyphs_Talk_52,
-    [0x53 - 0x20] = &TextGlyphs_Talk_53,
     [0x54 - 0x20] = &TextGlyphs_Talk_54,
-    [0x55 - 0x20] = &TextGlyphs_Talk_55,
-    [0x56 - 0x20] = &TextGlyphs_Talk_56,
     [0x57 - 0x20] = &TextGlyphs_Talk_57,
-    [0x58 - 0x20] = &TextGlyphs_Talk_58,
-    [0x59 - 0x20] = &TextGlyphs_Talk_59,
-    [0x5a - 0x20] = &TextGlyphs_Talk_5A,
     [0x5b - 0x20] = &TextGlyphs_Talk_5B,
     [0x5c - 0x20] = &TextGlyphs_Talk_5C,
     [0x5d - 0x20] = &TextGlyphs_Talk_5D,
     [0x5e - 0x20] = &TextGlyphs_Talk_5E,
     [0x5f - 0x20] = &TextGlyphs_Talk_5F,
     [0x60 - 0x20] = &TextGlyphs_Talk_60,
-    [0x61 - 0x20] = &TextGlyphs_Talk_61,
-    [0x62 - 0x20] = &TextGlyphs_Talk_62,
-    [0x63 - 0x20] = &TextGlyphs_Talk_63,
-    [0x64 - 0x20] = &TextGlyphs_Talk_64,
-    [0x65 - 0x20] = &TextGlyphs_Talk_65,
-    [0x66 - 0x20] = &TextGlyphs_Talk_66,
-    [0x67 - 0x20] = &TextGlyphs_Talk_67,
-    [0x68 - 0x20] = &TextGlyphs_Talk_68,
     [0x69 - 0x20] = &TextGlyphs_Talk_69,
-    [0x6a - 0x20] = &TextGlyphs_Talk_6A,
-    [0x6b - 0x20] = &TextGlyphs_Talk_6B,
     [0x6c - 0x20] = &TextGlyphs_Talk_6C,
     [0x6d - 0x20] = &TextGlyphs_Talk_6D,
-    [0x6e - 0x20] = &TextGlyphs_Talk_6E,
-    [0x6f - 0x20] = &TextGlyphs_Talk_6F,
-    [0x70 - 0x20] = &TextGlyphs_Talk_70,
-    [0x71 - 0x20] = &TextGlyphs_Talk_71,
-    [0x72 - 0x20] = &TextGlyphs_Talk_72,
-    [0x73 - 0x20] = &TextGlyphs_Talk_73,
-    [0x74 - 0x20] = &TextGlyphs_Talk_74,
-    [0x75 - 0x20] = &TextGlyphs_Talk_75,
-    [0x76 - 0x20] = &TextGlyphs_Talk_76,
     [0x77 - 0x20] = &TextGlyphs_Talk_77,
-    [0x78 - 0x20] = &TextGlyphs_Talk_78,
-    [0x79 - 0x20] = &TextGlyphs_Talk_79,
     [0x7a - 0x20] = &TextGlyphs_Talk_7A,
     [0x7b - 0x20] = &TextGlyphs_Talk_7B,
     [0x7c - 0x20] = &TextGlyphs_Talk_7C,

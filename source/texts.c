@@ -20985,26 +20985,26 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3497] = {
         [LANGUAGE_JAPANESE] = "　　　　　　　　　了解""\x01""",
-        [LANGUAGE_ENGLISH] = "　　　　　　　　　了解""\x01""",
-        [LANGUAGE_CHINESE] = "         是的""\x01""",
+        [LANGUAGE_ENGLISH] = "　　　　　　　　　Yes""\x01""",
+        [LANGUAGE_CHINESE] = "　　　　　　　　　是的""\x01""",
     },
 
     [3498] = {
         [LANGUAGE_JAPANESE] = "　リリースエントリ""\x01""",
-        [LANGUAGE_ENGLISH] = " Release Entry""\x01""",
-        [LANGUAGE_CHINESE] = " 正式版入口""\x01""",
+        [LANGUAGE_ENGLISH] = "　Release Entry""\x01""",
+        [LANGUAGE_CHINESE] = "　正式版入口""\x01""",
     },
 
     [3499] = {
         [LANGUAGE_JAPANESE] = "　どこでも再開""\x01""",
-        [LANGUAGE_ENGLISH] = " Free Continue""\x01""",
-        [LANGUAGE_CHINESE] = " 继续游戏""\x01""",
+        [LANGUAGE_ENGLISH] = "　Free Continue""\x01""",
+        [LANGUAGE_CHINESE] = "　继续游戏""\x01""",
     },
 
     [3500] = {
         [LANGUAGE_JAPANESE] = "　手再開""\x01""",
-        [LANGUAGE_ENGLISH] = " Manual Continue""\x01""",
-        [LANGUAGE_CHINESE] = " 手动继续""\x01""",
+        [LANGUAGE_ENGLISH] = "　Manual Continue""\x01""",
+        [LANGUAGE_CHINESE] = "　手动继续""\x01""",
     },
 
     [3501] = {
@@ -22359,8 +22359,8 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3726] = {
         [LANGUAGE_JAPANESE] = "　表示言語切替""\x01""",
-        [LANGUAGE_ENGLISH] = " Change Language""\x01""",
-        [LANGUAGE_CHINESE] = " 切换显示语言""\x01""",
+        [LANGUAGE_ENGLISH] = "　Change Language""\x01""",
+        [LANGUAGE_CHINESE] = "　切换显示语言""\x01""",
     },
 
     [3727] = {
