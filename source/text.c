@@ -52,8 +52,8 @@ extern struct SpecialCharSt sSpecialCharStList[0x40];
 extern u16 const * const s2bppTo4bppLutTable[];
 
 // extern struct GlyphNew const * const TextGlyphs_SpecialNew[];
-extern struct GlyphNew const * const TextGlyphs_SystemNew[];
-extern struct GlyphNew const * const TextGlyphs_TalkNew[];
+extern struct GlyphNew const * const GlyphSysNew[];
+extern struct GlyphNew const * const GlyphTalkNew[];
 // #define TextGlyphs_SystemNew TextGlyphs_System
 // #define TextGlyphs_TalkNew TextGlyphs_Talk
 
@@ -80,11 +80,11 @@ void SetTextFontGlyphsNew(int glyphSet)
 {
     if (glyphSet == TEXT_GLYPHS_SYSTEM)
     {
-        gActiveFont->glyphs = (const struct Glyph * const *)TextGlyphs_SystemNew;
+        gActiveFont->glyphs = (const struct Glyph * const *)GlyphSysNew;
     }
     else
     {
-        gActiveFont->glyphs = (const struct Glyph * const *)TextGlyphs_TalkNew;
+        gActiveFont->glyphs = (const struct Glyph * const *)GlyphTalkNew;
     }
 }
 

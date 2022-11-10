@@ -7,15 +7,15 @@ from pathlib import Path
 from enum import Enum
 
 class GlyphType(Enum):
-    System = 0
+    Sys = 0
     Talk = 1
 
 FontType = {
-    GlyphType.System: 'item',
+    GlyphType.Sys: 'item',
     GlyphType.Talk: 'text',
 }
 
-def read_glyphs_from_file(filename):
+def read_vanilla_glyphs(filename):
     glyphs = {}
     with open(filename, 'r') as f:
         for line in f:
@@ -37,7 +37,7 @@ def read_narrow_glyphs(glyphs, filename):
             isCapital = False
             if match[0].startswith('Up'):
                 isCapital = True
-            type = GlyphType.System
+            type = GlyphType.Sys
             if match[0].endswith('S'):
                 type = GlyphType.Talk
             else:
@@ -49,7 +49,7 @@ def read_narrow_glyphs(glyphs, filename):
                 glyphs[character] = {
                     "width": int(match[2], 16),
                 }
-                shutil.copyfile(Path(filename).parent/f'{match[3]}.png', Path('gfx/glyph')/f'TextGlyphs_{type.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
+                shutil.copyfile(Path(filename).parent/f'{match[3]}.png', Path('gfx/glyph')/f'Glyph{type.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
 
 def read_more_glyphs(glyphs, dirname, type):
     with open(Path(dirname)/'font.fontall.txt', 'r', encoding='utf-8') as f:
@@ -61,7 +61,7 @@ def read_more_glyphs(glyphs, dirname, type):
                     glyphs[character] = {
                         "width": int(match.group(2), 10),
                     }
-                    shutil.copyfile(Path(dirname)/f'Font{FontType[type].capitalize()}{match.group(3)}.png', Path('gfx/glyph')/f'TextGlyphs_{type.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
+                    shutil.copyfile(Path(dirname)/f'Font{FontType[type].capitalize()}{match.group(3)}.png', Path('gfx/glyph')/f'Glyph{type.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
 
 def make_linker_script_file(glyphs, filename):
     with open(filename, 'w', encoding='utf-8') as f:
@@ -79,7 +79,7 @@ def make_C_source_file(glyphs, filename):
         f.write('#include <stddef.h>\n')
         f.write('#include "textNew.h"\n')
         f.write('#include "all_gfx.h"\n')
-        f.write(f'#include "{Path(filename).stem}.h"\n\n')
+        # f.write(f'#include "{Path(filename).stem}.h"\n\n')
         g = {}
         for character, glyph in glyphs.items():
             b = [x for x in character.encode("utf-8")]
@@ -102,26 +102,24 @@ def make_C_source_file(glyphs, filename):
         f.write('};\n')
 
 def main():
-    glyphs = read_glyphs_from_file("glyph/TextGlyphs_System.txt")
-    make_linker_script_file(glyphs, "ldscript/TextGlyphs_System.lds")
-    make_C_header_file(glyphs, "include/TextGlyphs_System.h")
+    glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuLowercase/LowercaseMenu.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
-    read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.System)
-    read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.System)
-    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/道具标点", GlyphType.System)
+    read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.Sys)
+    read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.Sys)
+    read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.Sys)
+    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/道具标点", GlyphType.Sys)
     set_space_width(glyphs, 2) # short space
-    make_C_source_file(glyphs, "source/TextGlyphs_System.c")
-    glyphs = read_glyphs_from_file("glyph/TextGlyphs_Talk.txt")
-    make_linker_script_file(glyphs, "ldscript/TextGlyphs_Talk.lds")
-    make_C_header_file(glyphs, "include/TextGlyphs_Talk.h")
+    make_C_source_file(glyphs, "source/GlyphSys.c")
+    glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifLowercase/LowercaseSerif.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifUppercase/UppercaseSerif.txt")
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.Talk)
+    read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.Talk)
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.Talk)
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/对话标点", GlyphType.Talk)
     set_space_width(glyphs, 2) # short space
-    make_C_source_file(glyphs, "source/TextGlyphs_Talk.c")
+    make_C_source_file(glyphs, "source/GlyphTalk.c")
 
 if __name__ == "__main__":
     main()
