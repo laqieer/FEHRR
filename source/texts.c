@@ -20763,13 +20763,13 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3460] = {
         [LANGUAGE_JAPANESE] = "１""\x01""",
-        [LANGUAGE_ENGLISH] = "１""\x01""",
+        [LANGUAGE_ENGLISH] = "1""\x01""",
         [LANGUAGE_CHINESE] = "1""\x01""",
     },
 
     [3461] = {
         [LANGUAGE_JAPANESE] = "２""\x01""",
-        [LANGUAGE_ENGLISH] = "２""\x01""",
+        [LANGUAGE_ENGLISH] = "2""\x01""",
         [LANGUAGE_CHINESE] = "2""\x01""",
     },
 
@@ -20913,7 +20913,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3485] = {
         [LANGUAGE_JAPANESE] = "位""\x01""",
-        [LANGUAGE_ENGLISH] = "１st""\x01""",
+        [LANGUAGE_ENGLISH] = "1st""\x01""",
         [LANGUAGE_CHINESE] = "位""\x01""",
     },
 
@@ -20985,61 +20985,61 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3497] = {
         [LANGUAGE_JAPANESE] = "　　　　　　　　　了解""\x01""",
-        [LANGUAGE_ENGLISH] = "　　　　　　　　　Yes""\x01""",
-        [LANGUAGE_CHINESE] = "　　　　　　　　　是的""\x01""",
+        [LANGUAGE_ENGLISH] = "                                    Yes""\x01""",
+        [LANGUAGE_CHINESE] = "                  是的""\x01""",
     },
 
     [3498] = {
         [LANGUAGE_JAPANESE] = "　リリースエントリ""\x01""",
-        [LANGUAGE_ENGLISH] = "　Release Entry""\x01""",
-        [LANGUAGE_CHINESE] = "　正式版入口""\x01""",
+        [LANGUAGE_ENGLISH] = "    Release Entry""\x01""",
+        [LANGUAGE_CHINESE] = "  正式版入口""\x01""",
     },
 
     [3499] = {
         [LANGUAGE_JAPANESE] = "　どこでも再開""\x01""",
-        [LANGUAGE_ENGLISH] = "　Free Continue""\x01""",
-        [LANGUAGE_CHINESE] = "　继续游戏""\x01""",
+        [LANGUAGE_ENGLISH] = "    Free Continue""\x01""",
+        [LANGUAGE_CHINESE] = "  继续游戏""\x01""",
     },
 
     [3500] = {
         [LANGUAGE_JAPANESE] = "　手再開""\x01""",
-        [LANGUAGE_ENGLISH] = "　Manual Continue""\x01""",
-        [LANGUAGE_CHINESE] = "　手动继续""\x01""",
+        [LANGUAGE_ENGLISH] = "    Manual Continue""\x01""",
+        [LANGUAGE_CHINESE] = "  手动继续""\x01""",
     },
 
     [3501] = {
         [LANGUAGE_JAPANESE] = "　手中断""\x01""",
-        [LANGUAGE_ENGLISH] = "　手中断""\x01""",
+        [LANGUAGE_ENGLISH] = "  手中断""\x01""",
         [LANGUAGE_CHINESE] = " 中断""\x01""",
     },
 
     [3502] = {
         [LANGUAGE_JAPANESE] = "　マップ""\x01""",
-        [LANGUAGE_ENGLISH] = "　マップ""\x01""",
+        [LANGUAGE_ENGLISH] = "  マップ""\x01""",
         [LANGUAGE_CHINESE] = " 地图""\x01""",
     },
 
     [3503] = {
         [LANGUAGE_JAPANESE] = "　デブ情報""\x01""",
-        [LANGUAGE_ENGLISH] = "　デブ情報""\x01""",
+        [LANGUAGE_ENGLISH] = "  デブ情報""\x01""",
         [LANGUAGE_CHINESE] = " 调试信息""\x01""",
     },
 
     [3504] = {
         [LANGUAGE_JAPANESE] = "　天気""\x01""",
-        [LANGUAGE_ENGLISH] = "　天気""\x01""",
+        [LANGUAGE_ENGLISH] = "  天気""\x01""",
         [LANGUAGE_CHINESE] = " 天气""\x01""",
     },
 
     [3505] = {
         [LANGUAGE_JAPANESE] = "　索敵""\x01""",
-        [LANGUAGE_ENGLISH] = "　索敵""\x01""",
+        [LANGUAGE_ENGLISH] = "  索敵""\x01""",
         [LANGUAGE_CHINESE] = " 索敌""\x01""",
     },
 
     [3506] = {
         [LANGUAGE_JAPANESE] = "　周回数""\x01""",
-        [LANGUAGE_ENGLISH] = "　周回数""\x01""",
+        [LANGUAGE_ENGLISH] = "  周回数""\x01""",
         [LANGUAGE_CHINESE] = " 周回数""\x01""",
     },
 
@@ -21711,13 +21711,13 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3618] = {
         [LANGUAGE_JAPANESE] = "１""\x01""",
-        [LANGUAGE_ENGLISH] = "１""\x01""",
+        [LANGUAGE_ENGLISH] = "1""\x01""",
         [LANGUAGE_CHINESE] = "1""\x01""",
     },
 
     [3619] = {
         [LANGUAGE_JAPANESE] = "２""\x01""",
-        [LANGUAGE_ENGLISH] = "２""\x01""",
+        [LANGUAGE_ENGLISH] = "2""\x01""",
         [LANGUAGE_CHINESE] = "2""\x01""",
     },
 
@@ -22359,8 +22359,8 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3726] = {
         [LANGUAGE_JAPANESE] = "　表示言語切替""\x01""",
-        [LANGUAGE_ENGLISH] = "　Change Language""\x01""",
-        [LANGUAGE_CHINESE] = "　切换显示语言""\x01""",
+        [LANGUAGE_ENGLISH] = "    Change Language""\x01""",
+        [LANGUAGE_CHINESE] = "  切换显示语言""\x01""",
     },
 
     [3727] = {
@@ -22371,44 +22371,44 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3728] = {
         [LANGUAGE_JAPANESE] = "　１ー２",
-        [LANGUAGE_ENGLISH] = "　１-２",
-        [LANGUAGE_CHINESE] = "　１—２",
+        [LANGUAGE_ENGLISH] = "    1-2",
+        [LANGUAGE_CHINESE] = "  1—2",
     },
 
     [3729] = {
         [LANGUAGE_JAPANESE] = "　１ー３",
-        [LANGUAGE_ENGLISH] = "　１-３",
-        [LANGUAGE_CHINESE] = "　１—３",
+        [LANGUAGE_ENGLISH] = "    1-3",
+        [LANGUAGE_CHINESE] = "  1—3",
     },
 
     [3730] = {
         [LANGUAGE_JAPANESE] = "　２ー３",
-        [LANGUAGE_ENGLISH] = "　２-３",
-        [LANGUAGE_CHINESE] = "　２—３",
+        [LANGUAGE_ENGLISH] = "    2-3",
+        [LANGUAGE_CHINESE] = "  2—3",
     },
 
     [3731] = {
         [LANGUAGE_JAPANESE] = "３ー１０",
-        [LANGUAGE_ENGLISH] = "３-１０",
-        [LANGUAGE_CHINESE] = "３—１０",
+        [LANGUAGE_ENGLISH] = "3-10",
+        [LANGUAGE_CHINESE] = "3—10",
     },
 
     [3732] = {
         [LANGUAGE_JAPANESE] = "３ー１５",
-        [LANGUAGE_ENGLISH] = "３-１５",
-        [LANGUAGE_CHINESE] = "３—１５",
+        [LANGUAGE_ENGLISH] = "3-15",
+        [LANGUAGE_CHINESE] = "3—15",
     },
 
     [3733] = {
         [LANGUAGE_JAPANESE] = "　　全体",
-        [LANGUAGE_ENGLISH] = "　　All",
-        [LANGUAGE_CHINESE] = "　　全体",
+        [LANGUAGE_ENGLISH] = "        All",
+        [LANGUAGE_CHINESE] = "    全体",
     },
 
     [3734] = {
         [LANGUAGE_JAPANESE] = "　　ーー",
-        [LANGUAGE_ENGLISH] = "　　--",
-        [LANGUAGE_CHINESE] = "　　——",
+        [LANGUAGE_ENGLISH] = "        --",
+        [LANGUAGE_CHINESE] = "    ——",
     },
 
     [3735] = {
