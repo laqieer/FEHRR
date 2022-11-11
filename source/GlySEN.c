@@ -687,7 +687,7 @@ const struct GlyphNew GlySEN_40 = { /* @ */
 
 const struct GlyphNew GlySEN_49 = { /* I */
     .next = NULL,
-    .width = 2,
+    .width = 4,
     .utf_byte_2 = 0x00,
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,
@@ -858,7 +858,7 @@ const struct GlyphNew GlySEN_7E = { /* ~ */
 
 const struct GlyphNew GlySEN_7F = { /*  */
     .next = NULL,
-    .width = 6,
+    .width = 8,
     .utf_byte_2 = 0x00,
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,

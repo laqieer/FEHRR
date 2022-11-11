@@ -399,7 +399,7 @@ const struct GlyphNew GlyTEN_21 = { /* ! */
 
 const struct GlyphNew GlyTEN_22 = { /* " */
     .next = NULL,
-    .width = 5,
+    .width = 4,
     .utf_byte_2 = 0x00,
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,

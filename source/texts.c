@@ -11342,7 +11342,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1890] = {
-        [LANGUAGE_JAPANESE] = "(ｻﾝﾀﾞｰｽﾄｰﾑ)",
+        [LANGUAGE_JAPANESE] = "①②③④⑤⑥⑦", // "ｻﾝﾀﾞｰｽﾄｰﾑ"
         [LANGUAGE_ENGLISH] = "Bolting",
         [LANGUAGE_CHINESE] = "雷暴",
     },
@@ -12020,7 +12020,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [2003] = {
-        [LANGUAGE_JAPANESE] = "(ﾌｧﾙｺﾝﾅｲﾄ)",
+        [LANGUAGE_JAPANESE] = "ⅠⅡⅢⅣⅤⅥⅦ", // "ﾌｧﾙｺﾝﾅｲﾄ"
         [LANGUAGE_ENGLISH] = "Falcoknight",
         [LANGUAGE_CHINESE] = "隼骑士",
     },
@@ -12038,13 +12038,13 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [2006] = {
-        [LANGUAGE_JAPANESE] = "(ﾄﾞﾗｺﾞﾝﾏｽﾀｰ)",
+        [LANGUAGE_JAPANESE] = "⑪⑫⑬⑭⑮⑯⑰", // "ﾄﾞﾗｺﾞﾝﾏｽﾀｰ"
         [LANGUAGE_ENGLISH] = "Wyvern Lord",
         [LANGUAGE_CHINESE] = "龙骑统帅",
     },
 
     [2007] = {
-        [LANGUAGE_JAPANESE] = "(ﾄﾞﾗｺﾞﾝﾏｽﾀｰ)",
+        [LANGUAGE_JAPANESE] = "⑪⑫⑬⑭⑮⑯⑰", // "ﾄﾞﾗｺﾞﾝﾏｽﾀｰ"
         [LANGUAGE_ENGLISH] = "Wyvern Lord",
         [LANGUAGE_CHINESE] = "龙骑统帅",
     },

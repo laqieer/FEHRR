@@ -20145,7 +20145,7 @@ const struct GlyphNew GlyTZH_E9BABE = { /* 麾 */
 
 const struct GlyphNew GlyTZH_E38082 = { /* 。 */
     .next = NULL,
-    .width = 12,
+    .width = 7,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x82,
     .utf_byte_4 = 0x00,
@@ -20154,7 +20154,7 @@ const struct GlyphNew GlyTZH_E38082 = { /* 。 */
 
 const struct GlyphNew GlyTZH_EFBC9F = { /* ？ */
     .next = NULL,
-    .width = 12,
+    .width = 9,
     .utf_byte_2 = 0xbc,
     .utf_byte_3 = 0x9f,
     .utf_byte_4 = 0x00,
@@ -20163,7 +20163,7 @@ const struct GlyphNew GlyTZH_EFBC9F = { /* ？ */
 
 const struct GlyphNew GlyTZH_EFBC81 = { /* ！ */
     .next = &GlyTZH_EFBC9F,
-    .width = 12,
+    .width = 5,
     .utf_byte_2 = 0xbc,
     .utf_byte_3 = 0x81,
     .utf_byte_4 = 0x00,
@@ -20172,7 +20172,7 @@ const struct GlyphNew GlyTZH_EFBC81 = { /* ！ */
 
 const struct GlyphNew GlyTZH_EFBC8C = { /* ， */
     .next = &GlyTZH_EFBC81,
-    .width = 12,
+    .width = 5,
     .utf_byte_2 = 0xbc,
     .utf_byte_3 = 0x8c,
     .utf_byte_4 = 0x00,
@@ -20181,7 +20181,7 @@ const struct GlyphNew GlyTZH_EFBC8C = { /* ， */
 
 const struct GlyphNew GlyTZH_E38081 = { /* 、 */
     .next = &GlyTZH_E38082,
-    .width = 12,
+    .width = 6,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x81,
     .utf_byte_4 = 0x00,
@@ -20190,7 +20190,7 @@ const struct GlyphNew GlyTZH_E38081 = { /* 、 */
 
 const struct GlyphNew GlyTZH_EFBC9A = { /* ： */
     .next = &GlyTZH_EFBC8C,
-    .width = 12,
+    .width = 5,
     .utf_byte_2 = 0xbc,
     .utf_byte_3 = 0x9a,
     .utf_byte_4 = 0x00,
@@ -20199,7 +20199,7 @@ const struct GlyphNew GlyTZH_EFBC9A = { /* ： */
 
 const struct GlyphNew GlyTZH_E3808C = { /* 「 */
     .next = &GlyTZH_E38081,
-    .width = 12,
+    .width = 6,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x8c,
     .utf_byte_4 = 0x00,
@@ -20208,7 +20208,7 @@ const struct GlyphNew GlyTZH_E3808C = { /* 「 */
 
 const struct GlyphNew GlyTZH_E3808D = { /* 」 */
     .next = &GlyTZH_E3808C,
-    .width = 12,
+    .width = 6,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x8d,
     .utf_byte_4 = 0x00,
@@ -20217,7 +20217,7 @@ const struct GlyphNew GlyTZH_E3808D = { /* 」 */
 
 const struct GlyphNew GlyTZH_E3808E = { /* 『 */
     .next = &GlyTZH_E3808D,
-    .width = 12,
+    .width = 8,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x8e,
     .utf_byte_4 = 0x00,
@@ -20226,7 +20226,7 @@ const struct GlyphNew GlyTZH_E3808E = { /* 『 */
 
 const struct GlyphNew GlyTZH_E3808F = { /* 』 */
     .next = &GlyTZH_E3808E,
-    .width = 12,
+    .width = 8,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x8f,
     .utf_byte_4 = 0x00,
@@ -20235,7 +20235,7 @@ const struct GlyphNew GlyTZH_E3808F = { /* 』 */
 
 const struct GlyphNew GlyTZH_E2809C = { /* “ */
     .next = NULL,
-    .width = 12,
+    .width = 8,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x9c,
     .utf_byte_4 = 0x00,
@@ -20244,7 +20244,7 @@ const struct GlyphNew GlyTZH_E2809C = { /* “ */
 
 const struct GlyphNew GlyTZH_E2809D = { /* ” */
     .next = &GlyTZH_E2809C,
-    .width = 12,
+    .width = 8,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0x9d,
     .utf_byte_4 = 0x00,
@@ -20253,7 +20253,7 @@ const struct GlyphNew GlyTZH_E2809D = { /* ” */
 
 const struct GlyphNew GlyTZH_EFBC88 = { /* （ */
     .next = &GlyTZH_EFBC9A,
-    .width = 12,
+    .width = 6,
     .utf_byte_2 = 0xbc,
     .utf_byte_3 = 0x88,
     .utf_byte_4 = 0x00,
@@ -20262,7 +20262,7 @@ const struct GlyphNew GlyTZH_EFBC88 = { /* （ */
 
 const struct GlyphNew GlyTZH_EFBC89 = { /* ） */
     .next = &GlyTZH_EFBC88,
-    .width = 12,
+    .width = 6,
     .utf_byte_2 = 0xbc,
     .utf_byte_3 = 0x89,
     .utf_byte_4 = 0x00,
@@ -20280,11 +20280,74 @@ const struct GlyphNew GlyTZH_E28094 = { /* — */
 
 const struct GlyphNew GlyTZH_E280A6 = { /* … */
     .next = &GlyTZH_E28094,
-    .width = 12,
+    .width = 13,
     .utf_byte_2 = 0x80,
     .utf_byte_3 = 0xa6,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTZH_E280A6Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC8B = { /* ＋ */
+    .next = &GlyTZH_EFBC89,
+    .width = 10,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x8b,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC8BTiles,
+};
+
+const struct GlyphNew GlyTZH_C2B7 = { /* · */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0xb7,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_C2B7Tiles,
+};
+
+const struct GlyphNew GlyTZH_2B = { /* + */
+    .next = NULL,
+    .width = 10,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_2BTiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC8F = { /* ／ */
+    .next = &GlyTZH_EFBC8B,
+    .width = 9,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC8FTiles,
+};
+
+const struct GlyphNew GlyTZH_EFBD9E = { /* ～ */
+    .next = &GlyTZH_EFBC8F,
+    .width = 9,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x9e,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBD9ETiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC8D = { /* － */
+    .next = &GlyTZH_EFBD9E,
+    .width = 9,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x8d,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC8DTiles,
+};
+
+const struct GlyphNew GlyTZH_C397 = { /* × */
+    .next = NULL,
+    .width = 7,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_C397Tiles,
 };
 
 const struct GlyphNew GlyTZH_20 = { /*   */
@@ -20384,15 +20447,6 @@ const struct GlyphNew GlyTZH_2A = { /* * */
     .utf_byte_3 = 0x00,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTZH_2ATiles,
-};
-
-const struct GlyphNew GlyTZH_2B = { /* + */
-    .next = NULL,
-    .width = 8,
-    .utf_byte_2 = 0x00,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_2BTiles,
 };
 
 const struct GlyphNew GlyTZH_2C = { /* , */
@@ -21150,8 +21204,11 @@ struct GlyphNew const * const GlyTZHNew[0x100 - 0x20] = {
     [0xe7 - 0x20] = &GlyTZH_E798A0,
     [0xe4 - 0x20] = &GlyTZH_E4BAB5,
     [0xe3 - 0x20] = &GlyTZH_E3808F,
-    [0xef - 0x20] = &GlyTZH_EFBC89,
+    [0xef - 0x20] = &GlyTZH_EFBC8D,
     [0xe2 - 0x20] = &GlyTZH_E280A6,
+    [0xc2 - 0x20] = &GlyTZH_C2B7,
+    [0x2b - 0x20] = &GlyTZH_2B,
+    [0xc3 - 0x20] = &GlyTZH_C397,
     [0x20 - 0x20] = &GlyTZH_20,
     [0x21 - 0x20] = &GlyTZH_21,
     [0x22 - 0x20] = &GlyTZH_22,
@@ -21163,7 +21220,6 @@ struct GlyphNew const * const GlyTZHNew[0x100 - 0x20] = {
     [0x28 - 0x20] = &GlyTZH_28,
     [0x29 - 0x20] = &GlyTZH_29,
     [0x2a - 0x20] = &GlyTZH_2A,
-    [0x2b - 0x20] = &GlyTZH_2B,
     [0x2c - 0x20] = &GlyTZH_2C,
     [0x2d - 0x20] = &GlyTZH_2D,
     [0x2e - 0x20] = &GlyTZH_2E,

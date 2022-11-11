@@ -145,34 +145,52 @@ def main():
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuLowercase/LowercaseMenu.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
+    read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyS, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.EN)
     set_space_width(glyphs, 2) # short space
     make_C_source_file(glyphs, "source/GlySEN.c")
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyS, Language.JA)
+    read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyS, Language.JA)
+    read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.JA)
     make_C_source_file(glyphs, "source/GlySJA.c")
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.GlyS, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/fe7cn", GlyphType.GlyS, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/fe8cn", GlyphType.GlyS, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/标点符号/道具标点", GlyphType.GlyS, Language.ZH)
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/道具标点", GlyphType.GlyS, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/一级道具字体", GlyphType.GlyS, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/二级道具字体", GlyphType.GlyS, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyS, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.ZH)
     make_C_source_file(glyphs, "source/GlySZH.c")
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifLowercase/LowercaseSerif.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifUppercase/UppercaseSerif.txt")
+    read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyT, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.EN)
     set_space_width(glyphs, 2) # short space
     make_C_source_file(glyphs, "source/GlyTEN.c")
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyT, Language.JA)
+    read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyT, Language.JA)
+    read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.JA)
     make_C_source_file(glyphs, "source/GlyTJA.c")
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.GlyT, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/fe7cn", GlyphType.GlyT, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/fe8cn", GlyphType.GlyT, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/标点符号/对话标点", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/对话标点", GlyphType.GlyT, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/一级对话字体", GlyphType.GlyT, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/二级对话字体", GlyphType.GlyT, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.ZH)
     make_C_source_file(glyphs, "source/GlyTZH.c")
-    print('Glyphs not found:')
+    # print missing glyphs
     for language in Language:
         glyphs = {k: v for k, v in freqs[language].items() if v != -1}
         if len(glyphs) > 0:
