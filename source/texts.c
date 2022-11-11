@@ -2799,133 +2799,133 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [466] = {
         [LANGUAGE_JAPANESE] = "こうして　後に「ベルン動乱」とよばれる",
-        [LANGUAGE_ENGLISH] = "JCLS　後V「ベルン動乱」Tl(po",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "被后世称为『伯尔尼动乱』",
     },
 
     [467] = {
         [LANGUAGE_JAPANESE] = "大陸全土をまきこんだ大乱は　幕を閉じた",
-        [LANGUAGE_ENGLISH] = "大陸全土seGJt#大乱Z　幕s閉  P",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "席卷了整个大陆的战争就这样落下了帷幕",
     },
 
     [468] = {
         [LANGUAGE_JAPANESE] = "ベルン王国は　国王ゼフィールの死とともに",
-        [LANGUAGE_ENGLISH] = "ベルン王国Z　国王ゼフィールY死TTiV",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "在国王塞菲尔死后",
     },
 
     [469] = {
         [LANGUAGE_JAPANESE] = "エトルリア王国に降伏した",
-        [LANGUAGE_ENGLISH] = ">トルリア王国V降伏LP",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "伯尔尼王国向艾特鲁斯坎王国投降",
     },
 
     [470] = {
         [LANGUAGE_JAPANESE] = "エトルリア王国は　一度　ベルン王国を解体",
-        [LANGUAGE_ENGLISH] = ">トルリア王国Z　一度　ベルン王国s解体",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "艾特鲁斯坎王国曾一度将伯尔尼王国解体",
     },
 
     [471] = {
         [LANGUAGE_JAPANESE] = "遠方であることを理由に直接の統治はせず",
-        [LANGUAGE_ENGLISH] = "遠方&AoJTs理由V直接Y統治ZN ",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "但因相隔遥远不易直接统治",
     },
 
     [472] = {
         [LANGUAGE_JAPANESE] = "改めてベルンの地に　ギネヴィアを",
-        [LANGUAGE_ENGLISH] = "改hSベルンY地V　ギネヴィアs",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "而改为拥立基内维娅为女王",
     },
 
     [473] = {
         [LANGUAGE_JAPANESE] = "女王とする新ベルン王国を建国させる",
-        [LANGUAGE_ENGLISH] = "女王TMo新ベルン王国s建国KNo",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "创建了新伯尔尼王国",
     },
 
     [474] = {
         [LANGUAGE_JAPANESE] = "『ファイアーエムブレム』を敵にわたし",
-        [LANGUAGE_ENGLISH] = "『ファ<アー>ムブレム』s敵VrPL",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "因为将『火焰之纹章』交给敌人",
     },
 
     [475] = {
         [LANGUAGE_JAPANESE] = "ベルン敗北のきっかけを作ったギネヴィアへの",
-        [LANGUAGE_ENGLISH] = "ベルン敗北YG7FIs作7PギネヴィアcY",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "从而导致伯尔尼败北的基内维娅",
     },
 
     [476] = {
         [LANGUAGE_JAPANESE] = "ベルン旧臣や国民の反発には根強いものが",
-        [LANGUAGE_ENGLISH] = "ベルン旧臣j国民Y反発VZ根強BiYu",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "受到伯尔尼旧臣和国民强烈的仇视",
     },
 
     [477] = {
         [LANGUAGE_JAPANESE] = "あったが　ギネヴィアの粘り強い努力の結果",
-        [LANGUAGE_ENGLISH] = "A7Pu　ギネヴィアY粘n強B努力Y結果",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "但是在基内维娅不屈不挠的努力下",
     },
 
     [478] = {
         [LANGUAGE_JAPANESE] = "新生ベルン王国は　順調とはいえないまでも",
-        [LANGUAGE_ENGLISH] = "新生ベルン王国Z　順調TZBDUBe&i",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "新生伯尔尼王国慢慢地",
     },
 
     [479] = {
         [LANGUAGE_JAPANESE] = "復興への道を突きすすむこととなる",
-        [LANGUAGE_ENGLISH] = "復興cY道s突GMMgJTTUo",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "开始走上复兴的道路",
     },
 
     [480] = {
         [LANGUAGE_JAPANESE] = "ゼフィールの側近く仕えた「暗闇の巫女」",
-        [LANGUAGE_ENGLISH] = "ゼフィールY側近H仕DP「暗闇Y巫女」",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "随侍在塞菲尔身边的『暗黑巫女』",
     },
 
     [481] = {
         [LANGUAGE_JAPANESE] = "イドゥンの行方は　つかめずに終わった",
-        [LANGUAGE_ENGLISH] = "<ドゥンY行方Z　RFh V終r7P",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "伊冬已不知所踪",
     },
 
     [482] = {
         [LANGUAGE_JAPANESE] = "世界は　エトルリア王国の主導のもと",
-        [LANGUAGE_ENGLISH] = "世界Z　>トルリア王国Y主導YiT",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "世界在艾特鲁斯坎王国的主导下",
     },
 
     [483] = {
         [LANGUAGE_JAPANESE] = "再び安定と平和を取り戻していった",
-        [LANGUAGE_ENGLISH] = "再)安定T平和s取n戻LSB7P",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "又恢复了安定与和平",
     },
 
     [484] = {
         [LANGUAGE_JAPANESE] = "やがて　エレブ大陸は",
-        [LANGUAGE_ENGLISH] = "juS　>レブ大陸Z",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "之后，艾雷布大陆",
     },
 
     [485] = {
         [LANGUAGE_JAPANESE] = "ロイたちより　はるか後の時代に",
-        [LANGUAGE_ENGLISH] = "ロ<PQln　ZoF後Y時代V",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "在经过了悠久的岁月之后",
     },
 
     [486] = {
         [LANGUAGE_JAPANESE] = "一つの国にまとまっていくことになるのだが",
-        [LANGUAGE_ENGLISH] = "一RY国VeTe7SBHJTVUoY#u",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "终于被统一成了一个国家",
     },
 
     [487] = {
         [LANGUAGE_JAPANESE] = "それは　また　別の物語である・・・",
-        [LANGUAGE_ENGLISH] = "OpZ　eP　別Y物語&Ao・・・",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "不过那又是另外一个故事了……",
     },
 
@@ -7430,15 +7430,15 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1238] = {
-        [LANGUAGE_JAPANESE] = "ディークと共に戦う戦士""\x01",
+        [LANGUAGE_JAPANESE] = "ディークと共に戦う戦士",
         [LANGUAGE_ENGLISH] = "A young man fighting alongside""\x01""Dieck. Brash and impulsive.",
-        [LANGUAGE_CHINESE] = "和迪克共同战斗的战士""\x01",
+        [LANGUAGE_CHINESE] = "和迪克共同战斗的战士",
     },
 
     [1239] = {
-        [LANGUAGE_JAPANESE] = "ディークと共に戦う戦士""\x01",
+        [LANGUAGE_JAPANESE] = "ディークと共に戦う戦士",
         [LANGUAGE_ENGLISH] = "A young man fighting alongside""\x01""Dieck. Calculating and cautious.",
-        [LANGUAGE_CHINESE] = "和迪克共同战斗的战士""\x01",
+        [LANGUAGE_CHINESE] = "和迪克共同战斗的战士",
     },
 
     [1240] = {
@@ -8559,7 +8559,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [1426] = {
         [LANGUAGE_JAPANESE] = "ユニットの兵種です""\x01""それぞれに特徴があります",
-        [LANGUAGE_ENGLISH] = "The unit's class.""\x01""Each class possesses unique traits.""\x01",
+        [LANGUAGE_ENGLISH] = "The unit's class.""\x01""Each class possesses unique traits.",
         [LANGUAGE_CHINESE] = "人物的职业""\x01""各种职业都拥有不同的特征",
     },
 
@@ -9554,9 +9554,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1592] = {
-        [LANGUAGE_JAPANESE] = "敵ユニットを攻撃します""\x01",
+        [LANGUAGE_JAPANESE] = "敵ユニットを攻撃します",
         [LANGUAGE_ENGLISH] = "Attack an enemy unit.",
-        [LANGUAGE_CHINESE] = "攻击敌方人员""\x01",
+        [LANGUAGE_CHINESE] = "攻击敌方人员",
     },
 
     [1593] = {
@@ -9692,9 +9692,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1615] = {
-        [LANGUAGE_JAPANESE] = "通常の弓攻撃を行います""\x01",
+        [LANGUAGE_JAPANESE] = "通常の弓攻撃を行います",
         [LANGUAGE_ENGLISH] = "Attacks with a bow.",
-        [LANGUAGE_CHINESE] = "进行一般的弓箭射击""\x01",
+        [LANGUAGE_CHINESE] = "进行一般的弓箭射击",
     },
 
     [1616] = {
@@ -10245,7 +10245,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [1707] = {
         [LANGUAGE_JAPANESE] = "戦闘における　すばやさです""\x01""攻撃回数にかかわります",
-        [LANGUAGE_ENGLISH] = "Unit's speed. Determines if unit""\x01""will dodge and or double attack.""\x01",
+        [LANGUAGE_ENGLISH] = "Unit's speed. Determines if unit""\x01""will dodge and or double attack.",
         [LANGUAGE_CHINESE] = "在战斗的时行动变迅速""\x01""与攻击次数相关",
     },
 
@@ -11091,7 +11091,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [1848] = {
         [LANGUAGE_JAPANESE] = "封印の剣",
-        [LANGUAGE_ENGLISH] = "ｋiｎｄiｎｇ ｋlａｄｅ",
+        [LANGUAGE_ENGLISH] = "Binding Blade",
         [LANGUAGE_CHINESE] = "封印之剑",
     },
 
@@ -12225,7 +12225,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2037] = {
         [LANGUAGE_JAPANESE] = "ウェンディ",
-        [LANGUAGE_ENGLISH] = "ｍwｅｎｄｏlｙｎ",
+        [LANGUAGE_ENGLISH] = "Wendy",
         [LANGUAGE_CHINESE] = "温迪",
     },
 
@@ -13857,7 +13857,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2309] = {
         [LANGUAGE_JAPANESE] = "その道を極めた剣士に与えられる称号""\x01""素早い動きと一撃必殺の技を持つ剣の達人",
-        [LANGUAGE_ENGLISH] = "Masters of the blade who cut""\x01""their foes down with ease.""\x01",
+        [LANGUAGE_ENGLISH] = "Masters of the blade who cut""\x01""their foes down with ease.",
         [LANGUAGE_CHINESE] = "达到『剑人合一』境界后的剑士""\x01""动作飞快的剑之达人",
     },
 
@@ -13917,229 +13917,229 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2319] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2320] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2321] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2322] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2323] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2324] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2325] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2326] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2327] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2328] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2329] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2330] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2331] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2332] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2333] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2334] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2335] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2336] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2337] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2338] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2339] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2340] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2341] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2342] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2343] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2344] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2345] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2346] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2347] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2348] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2349] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2350] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2351] = {
         [LANGUAGE_JAPANESE] = "真の城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize correct gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize correct gate",
         [LANGUAGE_CHINESE] = "占领真正的城门",
     },
 
     [2352] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2353] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2354] = {
         [LANGUAGE_JAPANESE] = "玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize throne""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize throne",
         [LANGUAGE_CHINESE] = "占领宝座",
     },
 
     [2355] = {
         [LANGUAGE_JAPANESE] = "城門の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize gate""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize gate",
         [LANGUAGE_CHINESE] = "占领城门",
     },
 
     [2356] = {
         [LANGUAGE_JAPANESE] = "すべての玉座の制圧",
-        [LANGUAGE_ENGLISH] = "        Seize thrones""\x01",
+        [LANGUAGE_ENGLISH] = "        Seize thrones",
         [LANGUAGE_CHINESE] = "全部占领宝座",
     },
 
@@ -14151,7 +14151,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2358] = {
         [LANGUAGE_JAPANESE] = "ベルン王国が降伏""\x03",
-        [LANGUAGE_ENGLISH] = "Build3""\x01",
+        [LANGUAGE_ENGLISH] = "Build3",
         [LANGUAGE_CHINESE] = "伯尔尼王国降伏了。""\x03",
     },
 
@@ -15855,7 +15855,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2642] = {
         [LANGUAGE_JAPANESE] = "ナバタの守護神",
-        [LANGUAGE_ENGLISH] = "Nａｖａtａ ｉｒｏtｅｃtｏｒ",
+        [LANGUAGE_ENGLISH] = "Nabata Protector",
         [LANGUAGE_CHINESE] = "钠巴塔的守护神",
     },
 
@@ -15951,7 +15951,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2658] = {
         [LANGUAGE_JAPANESE] = "真実を見る者",
-        [LANGUAGE_ENGLISH] = "ｌｎｅ ｏf ｔｒｕｅ ｆiｇｈt",
+        [LANGUAGE_ENGLISH] = "Truth Seeker",
         [LANGUAGE_CHINESE] = "窥见真实的人",
     },
 
@@ -15999,7 +15999,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2666] = {
         [LANGUAGE_JAPANESE] = "西方の女神",
-        [LANGUAGE_ENGLISH] = "ｗｎｙiｅlｄiｎｇ Iｄｅａliｓt",
+        [LANGUAGE_ENGLISH] = "Western Goddess",
         [LANGUAGE_CHINESE] = "西方的女神",
     },
 
@@ -16095,13 +16095,13 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2682] = {
         [LANGUAGE_JAPANESE] = "複数の領主たちが手を結び""\x01""二大王国に対する『リキア同盟』""\x03",
-        [LANGUAGE_ENGLISH] = "the Lycian League, whose numerous""\x01""territories are independently ruled""\x03\x01""by a number of marquesses that are ""\x01""bound by a vow of allegianceア""\x03",
+        [LANGUAGE_ENGLISH] = "the Lycian League, whose numerous""\x01""territories are independently ruled""\x03\x01""by a number of marquesses that are ""\x01""bound by a vow of allegiance""\x03",
         [LANGUAGE_CHINESE] = "这些小势力联合起来，形成了足以""\x01""对抗两大王国的『利西亚同盟』。""\x03",
     },
 
     [2683] = {
         [LANGUAGE_JAPANESE] = "民と共に荒地を切り開く""\x01""『イリア』地方の諸騎士団""\x03",
-        [LANGUAGE_ENGLISH] = "Ilia, where the people arduously""\x01""till the frozen soil and many""\x03\x01""become mercenaries to earn""\x01""money to surviveア""\x03",
+        [LANGUAGE_ENGLISH] = "Ilia, where the people arduously""\x01""till the frozen soil and many""\x03\x01""become mercenaries to earn""\x01""money to survive""\x03",
         [LANGUAGE_CHINESE] = "在北方有和百姓一起开拓荒地的""\x01""『伊利亚』地区各骑士团。""\x03",
     },
 
@@ -18783,7 +18783,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3130] = {
         [LANGUAGE_JAPANESE] = "武器、魔法、杖以外は修復できません",
-        [LANGUAGE_ENGLISH] = "Only weapons, spells, and""\x01""staves can be repaired.""\x01",
+        [LANGUAGE_ENGLISH] = "Only weapons, spells, and""\x01""staves can be repaired.",
         [LANGUAGE_CHINESE] = "武器、魔法、杖以外的不能修复",
     },
 
@@ -18861,7 +18861,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3143] = {
         [LANGUAGE_JAPANESE] = "輸送隊がいっぱいになりました""\x01""いらないアイテムを１つ選んで""\x01""捨ててください""\x03",
-        [LANGUAGE_ENGLISH] = "The transporter's inventory is full.""\x01""Select an item to discard.""\x01",
+        [LANGUAGE_ENGLISH] = "The transporter's inventory is full.""\x01""Select an item to discard.",
         [LANGUAGE_CHINESE] = "运输队满了""\x01""请选一个不需要的物品""\x01""将其丢弃""\x03",
     },
 
@@ -19101,13 +19101,13 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3183] = {
         [LANGUAGE_JAPANESE] = "ベルン",
-        [LANGUAGE_ENGLISH] = "Weapon Level",
+        [LANGUAGE_ENGLISH] = "Bern",
         [LANGUAGE_CHINESE] = "伯尔尼",
     },
 
     [3184] = {
         [LANGUAGE_JAPANESE] = "武器レベル",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Weapon Level",
         [LANGUAGE_CHINESE] = "武器使用等级",
     },
 
@@ -20055,19 +20055,19 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3342] = {
         [LANGUAGE_JAPANESE] = "ー",
-        [LANGUAGE_ENGLISH] = "ー",
+        [LANGUAGE_ENGLISH] = "-",
         [LANGUAGE_CHINESE] = "—",
     },
 
     [3343] = {
         [LANGUAGE_JAPANESE] = "周回数",
-        [LANGUAGE_ENGLISH] = "Null",
+        [LANGUAGE_ENGLISH] = "Runs",
         [LANGUAGE_CHINESE] = "周回数",
     },
 
     [3344] = {
         [LANGUAGE_JAPANESE] = "周目",
-        [LANGUAGE_ENGLISH] = "Null",
+        [LANGUAGE_ENGLISH] = "Run",
         [LANGUAGE_CHINESE] = "周目",
     },
 
@@ -20079,13 +20079,13 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3346] = {
         [LANGUAGE_JAPANESE] = "赤軍",
-        [LANGUAGE_ENGLISH] = "赤軍",
+        [LANGUAGE_ENGLISH] = "Red",
         [LANGUAGE_CHINESE] = "红军",
     },
 
     [3347] = {
         [LANGUAGE_JAPANESE] = "緑軍",
-        [LANGUAGE_ENGLISH] = "緑軍",
+        [LANGUAGE_ENGLISH] = "Green",
         [LANGUAGE_CHINESE] = "绿军",
     },
 
@@ -20175,25 +20175,25 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3362] = {
         [LANGUAGE_JAPANESE] = "消す　　　やめる",
-        [LANGUAGE_ENGLISH] = "Erase",
+        [LANGUAGE_ENGLISH] = "Erase      Cancel",
         [LANGUAGE_CHINESE] = "删除   不要",
     },
 
     [3363] = {
         [LANGUAGE_JAPANESE] = "戻る　　　やめる",
-        [LANGUAGE_ENGLISH] = "Back",
+        [LANGUAGE_ENGLISH] = "Back      Cancel",
         [LANGUAGE_CHINESE] = "返回   不要",
     },
 
     [3364] = {
         [LANGUAGE_JAPANESE] = "ＮＯＷ　ＬＯＡＤＩＮＧ",
-        [LANGUAGE_ENGLISH] = "ＮＯＷ　ＬＯＡＤＩＮＧ",
+        [LANGUAGE_ENGLISH] = "NOW LOADING",
         [LANGUAGE_CHINESE] = "NOW LOADING",
     },
 
     [3365] = {
         [LANGUAGE_JAPANESE] = "位",
-        [LANGUAGE_ENGLISH] = "１st",
+        [LANGUAGE_ENGLISH] = "1st",
         [LANGUAGE_CHINESE] = "位",
     },
 
@@ -20229,19 +20229,19 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3371] = {
         [LANGUAGE_JAPANESE] = "送信中",
-        [LANGUAGE_ENGLISH] = "送信中",
+        [LANGUAGE_ENGLISH] = "Sending",
         [LANGUAGE_CHINESE] = "发送中",
     },
 
     [3372] = {
         [LANGUAGE_JAPANESE] = "受信中",
-        [LANGUAGE_ENGLISH] = "受信中",
+        [LANGUAGE_ENGLISH] = "Receiving",
         [LANGUAGE_CHINESE] = "接收中",
     },
 
     [3373] = {
         [LANGUAGE_JAPANESE] = "準備中",
-        [LANGUAGE_ENGLISH] = "準備中",
+        [LANGUAGE_ENGLISH] = "Connecting",
         [LANGUAGE_CHINESE] = "准备中",
     },
 
@@ -20325,19 +20325,19 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3387] = {
         [LANGUAGE_JAPANESE] = "ーーーー",
-        [LANGUAGE_ENGLISH] = "ーーーー",
+        [LANGUAGE_ENGLISH] = "----",
         [LANGUAGE_CHINESE] = "————",
     },
 
     [3388] = {
         [LANGUAGE_JAPANESE] = "１",
-        [LANGUAGE_ENGLISH] = "１",
+        [LANGUAGE_ENGLISH] = "1",
         [LANGUAGE_CHINESE] = "1",
     },
 
     [3389] = {
         [LANGUAGE_JAPANESE] = "２",
-        [LANGUAGE_ENGLISH] = "２",
+        [LANGUAGE_ENGLISH] = "2",
         [LANGUAGE_CHINESE] = "2",
     },
 
@@ -20349,7 +20349,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3391] = {
         [LANGUAGE_JAPANESE] = "ーーー",
-        [LANGUAGE_ENGLISH] = "ーーー",
+        [LANGUAGE_ENGLISH] = "---",
         [LANGUAGE_CHINESE] = "———",
     },
 
@@ -20475,7 +20475,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3412] = {
         [LANGUAGE_JAPANESE] = "２",
-        [LANGUAGE_ENGLISH] = "２",
+        [LANGUAGE_ENGLISH] = "2",
         [LANGUAGE_CHINESE] = "2",
     },
 
@@ -20559,7 +20559,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3426] = {
         [LANGUAGE_JAPANESE] = "ー",
-        [LANGUAGE_ENGLISH] = "ー",
+        [LANGUAGE_ENGLISH] = "-",
         [LANGUAGE_CHINESE] = "—",
     },
 
@@ -20679,49 +20679,49 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3446] = {
         [LANGUAGE_JAPANESE] = "ー",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "—",
     },
 
     [3447] = {
         [LANGUAGE_JAPANESE] = "炎",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "炎",
     },
 
     [3448] = {
         [LANGUAGE_JAPANESE] = "雷",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "雷",
     },
 
     [3449] = {
         [LANGUAGE_JAPANESE] = "風",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "风",
     },
 
     [3450] = {
         [LANGUAGE_JAPANESE] = "氷",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "冰",
     },
 
     [3451] = {
         [LANGUAGE_JAPANESE] = "闇",
-        [LANGUAGE_ENGLISH] = "Dark",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "暗",
     },
 
     [3452] = {
         [LANGUAGE_JAPANESE] = "光",
-        [LANGUAGE_ENGLISH] = "Light",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "光",
     },
 
     [3453] = {
         [LANGUAGE_JAPANESE] = "理",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "理",
     },
 
@@ -20793,25 +20793,25 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3465] = {
         [LANGUAGE_JAPANESE] = "ー",
-        [LANGUAGE_ENGLISH] = "ー",
+        [LANGUAGE_ENGLISH] = "-",
         [LANGUAGE_CHINESE] = "—",
     },
 
     [3466] = {
         [LANGUAGE_JAPANESE] = "光",
-        [LANGUAGE_ENGLISH] = "Light",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "光",
     },
 
     [3467] = {
         [LANGUAGE_JAPANESE] = "闇",
-        [LANGUAGE_ENGLISH] = "Dark",
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "暗",
     },
 
     [3468] = {
         [LANGUAGE_JAPANESE] = "理",
-        [LANGUAGE_ENGLISH] = "", // TODO: Translate it
+        [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "理",
     },
 
@@ -21009,37 +21009,37 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3501] = {
         [LANGUAGE_JAPANESE] = "　手中断",
-        [LANGUAGE_ENGLISH] = "  手中断",
+        [LANGUAGE_ENGLISH] = "  Suspend",
         [LANGUAGE_CHINESE] = " 中断",
     },
 
     [3502] = {
         [LANGUAGE_JAPANESE] = "　マップ",
-        [LANGUAGE_ENGLISH] = "  マップ",
+        [LANGUAGE_ENGLISH] = "  Map",
         [LANGUAGE_CHINESE] = " 地图",
     },
 
     [3503] = {
         [LANGUAGE_JAPANESE] = "　デブ情報",
-        [LANGUAGE_ENGLISH] = "  デブ情報",
+        [LANGUAGE_ENGLISH] = "  D.Info",
         [LANGUAGE_CHINESE] = " 调试信息",
     },
 
     [3504] = {
         [LANGUAGE_JAPANESE] = "　天気",
-        [LANGUAGE_ENGLISH] = "  天気",
+        [LANGUAGE_ENGLISH] = "  Weather",
         [LANGUAGE_CHINESE] = " 天气",
     },
 
     [3505] = {
         [LANGUAGE_JAPANESE] = "　索敵",
-        [LANGUAGE_ENGLISH] = "  索敵",
+        [LANGUAGE_ENGLISH] = "  Fog",
         [LANGUAGE_CHINESE] = " 索敌",
     },
 
     [3506] = {
         [LANGUAGE_JAPANESE] = "　周回数",
-        [LANGUAGE_ENGLISH] = "  周回数",
+        [LANGUAGE_ENGLISH] = "  Runs",
         [LANGUAGE_CHINESE] = " 周回数",
     },
 

@@ -3,6 +3,7 @@
 
 import re
 import shutil
+import warnings
 from pathlib import Path
 from enum import Enum
 
@@ -44,6 +45,8 @@ def count_glyph_frequency(filename):
                 for character in match.group(2):
                     if is_ascii(character):
                         continue
+                    if language == Language.EN:
+                        warnings.warn(f'Non-ASCII character {character} found in English text: {match.group(2)}')
                     if character not in freqs[language]:
                         freqs[language][character] = 0
                     freqs[language][character] += 1
@@ -93,6 +96,7 @@ def read_more_glyphs(glyphs, dirname, type, language):
                 if not is_ascii(character) and character not in freqs[language]:
                     continue
                 if character not in glyphs:
+                    freqs[language][character] = -1
                     glyphs[character] = {
                         "width": int(match.group(2), 10),
                     }
@@ -138,7 +142,6 @@ def make_C_source_file(glyphs, filename):
 
 def main():
     count_glyph_frequency('source/texts.c')
-    print(freqs)
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuLowercase/LowercaseMenu.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
@@ -169,6 +172,11 @@ def main():
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/对话标点", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.ZH)
     make_C_source_file(glyphs, "source/GlyTZH.c")
+    print('Glyphs not found:')
+    for language in Language:
+        glyphs = {k: v for k, v in freqs[language].items() if v != -1}
+        if len(glyphs) > 0:
+            print(f'{language.name} : {glyphs}')
 
 if __name__ == "__main__":
     main()
