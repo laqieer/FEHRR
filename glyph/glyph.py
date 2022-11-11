@@ -20,6 +20,34 @@ FontType = {
     GlyphType.GlyT: 'text',
 }
 
+TextLanguage = {
+    'ENGLISH': Language.EN,
+    'JAPANESE': Language.JA,
+    'CHINESE': Language.ZH,
+}
+
+freqs = {
+    Language.EN: {},
+    Language.JA: {},
+    Language.ZH: {},
+}
+
+def is_ascii(c):
+    return ord(c) < 128
+
+def count_glyph_frequency(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        for line in f:
+            match = re.search(r'^\s*\[LANGUAGE_([A-Z]+)\] = "(.*)",.*$', line)
+            if match:
+                language = TextLanguage[match.group(1)]
+                for character in match.group(2):
+                    if is_ascii(character):
+                        continue
+                    if character not in freqs[language]:
+                        freqs[language][character] = 0
+                    freqs[language][character] += 1
+
 def read_vanilla_glyphs(filename):
     glyphs = {}
     with open(filename, 'r') as f:
@@ -62,6 +90,8 @@ def read_more_glyphs(glyphs, dirname, type, language):
             match = re.search(fr'^(.)\t{FontType[type]}\t([0-9]+)\tFont{FontType[type].capitalize()}(.+).png$', line)
             if match:
                 character = match.group(1)
+                if not is_ascii(character) and character not in freqs[language]:
+                    continue
                 if character not in glyphs:
                     glyphs[character] = {
                         "width": int(match.group(2), 10),
@@ -107,6 +137,8 @@ def make_C_source_file(glyphs, filename):
         f.write('};\n')
 
 def main():
+    count_glyph_frequency('source/texts.c')
+    print(freqs)
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuLowercase/LowercaseMenu.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
