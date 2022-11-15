@@ -21,6 +21,8 @@ struct GlyphNew
     const unsigned int * bitmap;
 };
 
+extern const int textId_max;
+
 int GetLangNew(void);
 void SetLang(int lang);
 void ChangeLang(void);

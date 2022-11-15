@@ -22412,12 +22412,20 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3735] = {
+        [LANGUAGE_JAPANESE] = "　文字列テスト",
+        [LANGUAGE_ENGLISH] = "    Test Text",
+        [LANGUAGE_CHINESE] = "  测试文本",
+    },
+
+    [3736] = {
         [LANGUAGE_JAPANESE] = "",
         [LANGUAGE_ENGLISH] = "",
         [LANGUAGE_CHINESE] = "",
     },
 
 };
+
+const int textId_max = sizeof(gMsgTableNew) / sizeof(gMsgTableNew[0]) - 1;
 
 const int textId_3342_0 = 3342;
 const int textId_3343_0 = 3343;

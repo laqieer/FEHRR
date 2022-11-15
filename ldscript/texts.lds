@@ -870,3 +870,5 @@
 .rodata.textId_3733_0 : {*(.rodata.textId_3733_0)}
 . = 0x81057ac;
 .rodata.textId_3734_0 : {*(.rodata.textId_3734_0)}
+. = 0x800CC74;
+.rodata.textId_max : {*(.rodata.textId_max)}

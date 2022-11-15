@@ -39,6 +39,7 @@
 
 // New headers
 
+#include "talk.h"
 #include "textNew.h"
 #include "log.h"
 
@@ -85,6 +86,16 @@ fu8 ChangeLanguage(struct MenuProc * menu, struct MenuEntProc * ent)
     return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A;
 }
 
+fu8 DebugTalk(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    FreezeMenu();
+    EndMuralBackground();
+    DebugScreenInit();
+    StartTalkDebug();
+
+    return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
+}
+
 struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
 {
     {
@@ -111,12 +122,18 @@ struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
         .on_select = func_fe6_0801AD84,
     },
 
+    {
+        .label = (const char *)3735, // 文字列テスト
+        .available = MenuEntryEnabled,
+        .on_select = DebugTalk,
+    },
+
     { 0 }, // end
 };
 
 struct MenuInfo const MenuInfo_Debug_StartUp =
 {
-    .rect = { 9, 4, 12, 0 },
+    .rect = { 9, 3, 12, 0 },
     .entries = MenuEntInfo_Debug_StartUp,
     .on_init = func_fe6_0801AB64,
     .on_end = func_fe6_0801ABE8,
