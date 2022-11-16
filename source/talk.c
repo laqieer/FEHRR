@@ -22,6 +22,8 @@
 #include "constants/videoalloc_global.h"
 #include "constants/songs.h"
 
+#include "constants/faces.h"
+
 #include "log.h"
 
 struct TalkChoiceEnt
@@ -482,4 +484,47 @@ int TalkInterpretNew(ProcPtr proc)
 int TalkInterpretOld(ProcPtr proc)
 {
     return TalkInterpretNew(proc);
+}
+
+void TalkInterpretNewFaceNew(ProcPtr proc)
+{
+    int faceDisp = 0;
+    int fid;
+
+    if (sTalkSt->active_talk_face == TALK_FACE_NONE)
+        SetActiveTalkFace(TALK_FACE_1);
+
+    if (func_fe6_080425C4())
+        SetFightEventFaceConfig();
+    else
+        faceDisp |= FACE_DISP_KIND(FACE_96x80);
+
+    if (GetTalkFaceHPos(sTalkSt->active_talk_face) <= 14)
+        faceDisp |= FACE_DISP_FLIPPED;
+    else
+        faceDisp |= 0;
+
+    fid = (sTalkSt->str[0]);
+    fid = (sTalkSt->str[1] * 0x100) + fid;
+
+    if (fid == UINT16_MAX)
+        if (IsTalkDebugActive())
+            fid = FID_ROY;
+        else
+            fid = GetUnitFid(gActiveUnit);
+    else
+        fid = fid - 0x100;
+
+    sTalkSt->faces[sTalkSt->active_talk_face] = StartFaceAuto(fid,
+        GetTalkFaceHPos(sTalkSt->active_talk_face)*8, 80, faceDisp);
+
+    StartFaceFadeIn(sTalkSt->faces[sTalkSt->active_talk_face]);
+
+    SetTalkFaceLayer(sTalkSt->active_talk_face, CheckTalkFlag(TALK_FLAG_4));
+    StartTemporaryLock(proc, 8);
+}
+
+void TalkInterpretNewFaceOld(ProcPtr proc)
+{
+    TalkInterpretNewFaceNew(proc);
 }

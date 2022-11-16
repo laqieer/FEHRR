@@ -4,3 +4,5 @@
 .text.StartTalkOpenOld : {*(.text.StartTalkOpenOld)}
 . = 0x8009970;
 .text.TalkInterpretOld : {*(.text.TalkInterpretOld)}
+. = 0x800a4f4;
+.text.TalkInterpretNewFaceOld : {*(.text.TalkInterpretNewFaceOld)}
