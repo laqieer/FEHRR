@@ -1,4 +1,5 @@
 INCLUDE ../ldscript/main.lds
+INCLUDE ../ldscript/gamecontroller.lds
 INCLUDE ../ldscript/msg.lds
 INCLUDE ../ldscript/statscreen.lds
 INCLUDE ../ldscript/talk.lds
