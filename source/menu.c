@@ -91,6 +91,7 @@ fu8 DebugTalk(struct MenuProc * menu, struct MenuEntProc * ent)
     FreezeMenu();
     EndMuralBackground();
     DebugScreenInit();
+    DebugInitObj(-1, 9);
     StartTalkDebug();
 
     return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
