@@ -153,6 +153,7 @@ def main():
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyS, Language.JA)
+    read_more_glyphs(glyphs, "glyph/日语汉字增补/Microsoft Sans Serif", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.JA)
     make_C_source_file(glyphs, "source/GlySJA.c")
     glyphs = {}
@@ -177,6 +178,7 @@ def main():
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyT, Language.JA)
+    read_more_glyphs(glyphs, "glyph/日语汉字增补/Microsoft Sans Serif", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.JA)
     make_C_source_file(glyphs, "source/GlyTJA.c")
     glyphs = {}
