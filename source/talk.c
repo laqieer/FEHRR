@@ -11,6 +11,7 @@
 #include "text.h"
 #include "sprite.h"
 #include "face.h"
+#include "faceNew.h"
 #include "event.h"
 #include "msg.h"
 #include "util.h"
@@ -354,7 +355,8 @@ int TalkInterpretNew(ProcPtr proc)
         if (TalkHasCorrectBubble())
             ClearTalkBubble();
 
-        StartFaceFadeOut(sTalkSt->faces[sTalkSt->active_talk_face]);
+        // StartFaceFadeOut(sTalkSt->faces[sTalkSt->active_talk_face]);
+        StartFaceFadeOutNew((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face]);
         sTalkSt->faces[sTalkSt->active_talk_face] = NULL;
 
         sTalkSt->str++;
@@ -515,10 +517,18 @@ void TalkInterpretNewFaceNew(ProcPtr proc)
     else
         fid = fid - 0x100;
 
-    sTalkSt->faces[sTalkSt->active_talk_face] = StartFaceAuto(fid,
-        GetTalkFaceHPos(sTalkSt->active_talk_face)*8, 80, faceDisp);
-
-    StartFaceFadeIn(sTalkSt->faces[sTalkSt->active_talk_face]);
+    if (IsNewFace(fid))
+    {
+        sTalkSt->faces[sTalkSt->active_talk_face] = StartFaceAuto(fid,
+            DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, faceDisp);
+        StartFaceFadeInNew((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face]);
+    }
+    else
+    {
+        sTalkSt->faces[sTalkSt->active_talk_face] = StartFaceAuto(fid,
+            GetTalkFaceHPos(sTalkSt->active_talk_face)*8, 80, faceDisp);
+        StartFaceFadeIn(sTalkSt->faces[sTalkSt->active_talk_face]);
+    }
 
     SetTalkFaceLayer(sTalkSt->active_talk_face, CheckTalkFlag(TALK_FLAG_4));
     StartTemporaryLock(proc, 8);
