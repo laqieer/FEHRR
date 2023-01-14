@@ -65,7 +65,7 @@ extern struct FaceVramEnt sFaceConfig[4];
 
 bool IsNewFace(int fid)
 {
-    return fid >= FID_NEW;
+    return fid >= FID_NEW && fid < FID_FACTION_CHIBI;
 }
 
 struct FaceInfo const * GetFaceInfo(int fid);
@@ -283,6 +283,7 @@ void UnpackFaceChibiGraphicsNew(int fid, int chr, int pal)
     struct FaceInfoNew const * info = GetFaceInfoNew(fid);
 
     RegisterVramMove(info->img_chibi, VRAM + chr * CHR_SIZE, 0x10 * CHR_SIZE);
+    // Decompress(info->img_chibi, (u8 *) VRAM + chr * CHR_SIZE); // if compressed
     ApplyPalette(info->pal_chibi, pal);
 }
 
@@ -310,6 +311,7 @@ void UnpackFaceChibiSprGraphicsNew(int fid, int chr, int pal)
     {
         struct FaceInfoNew const * info = GetFaceInfoNew(fid);
 
+        // it doesn't work if compressed
         RegisterVramMove(info->img_chibi + CHR_SIZE * 0,  (chr + 0x00) * CHR_SIZE, 4 * CHR_SIZE);
         RegisterVramMove(info->img_chibi + CHR_SIZE * 4,  (chr + 0x20) * CHR_SIZE, 4 * CHR_SIZE);
         RegisterVramMove(info->img_chibi + CHR_SIZE * 8,  (chr + 0x04) * CHR_SIZE, 4 * CHR_SIZE);
