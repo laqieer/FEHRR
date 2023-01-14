@@ -6,13 +6,13 @@ INCLUDE ../ldscript/fe6.lds
 
 SECTIONS
 {
-    . = 0x203D3E0;
+    . = FreeRamSpace;
 	.bss : { *(.bss.*) *(.bss) }
     __end__ = .;
-	. = 0x8000000;
+	. = BaseRomSpace;
 	.baserom : { KEEP (*(.baserom)) }
     INCLUDE ../ldscript/hack.lds
-    . = 0x87FF0A4;
+    . = FreeRomSpace;
 	.text : { *(.text.*) *(.text) }
 	. = ALIGN(4);
     .rodata : { *(.rodata.*) *(.rodata) }

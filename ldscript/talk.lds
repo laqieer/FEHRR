@@ -1,10 +1,10 @@
-. = 0x8008e58;
+. = InitTalk - 1;
 .text.InitTalkOld : {*(.text.InitTalkOld)}
-. = 0x800c084;
+. = StartTalkOpen - 1;
 .text.StartTalkOpenOld : {*(.text.StartTalkOpenOld)}
-. = 0x8009970;
+. = TalkInterpret - 1;
 .text.TalkInterpretOld : {*(.text.TalkInterpretOld)}
-. = 0x800a4f4;
+. = TalkInterpretNewFace - 1;
 .text.TalkInterpretNewFaceOld : {*(.text.TalkInterpretNewFaceOld)}
 . = PutTalkBubble - 1;
 .text.PutTalkBubbleOld : {*(.text.PutTalkBubbleOld)}

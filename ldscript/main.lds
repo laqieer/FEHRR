@@ -1,2 +1,2 @@
-. = 0x8000220;
+. = AgbMainPtr;
 .rodata.AgbMainOld : {*(.rodata.AgbMainOld)}

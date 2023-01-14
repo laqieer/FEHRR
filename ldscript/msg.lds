@@ -1,2 +1,2 @@
-. = 0x8013ad0;
+. = DecodeMsg - 1;
 .text.DecodeMsgOld : {*(.text.DecodeMsgOld)}

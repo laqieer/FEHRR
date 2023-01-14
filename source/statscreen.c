@@ -32,7 +32,7 @@ struct StatScreenTextInfo
     /* 0C */ char const * const * str_list;
 };
 
-void func_fe6_0806EB00New(struct StatScreenTextInfo const * list)
+void PutStatScreenTextNew(struct StatScreenTextInfo const * list)
 {
     while (list->text != NULL)
     {
@@ -50,7 +50,7 @@ void func_fe6_0806EB00New(struct StatScreenTextInfo const * list)
     }
 }
 
-void func_fe6_0806EB00Old(struct StatScreenTextInfo const * list)
+void PutStatScreenTextOld(struct StatScreenTextInfo const * list)
 {
-    func_fe6_0806EB00New(list);
+    PutStatScreenTextNew(list);
 }

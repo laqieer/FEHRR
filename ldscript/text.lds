@@ -1,22 +1,22 @@
-. = 0x800562c;
+. = GetLang - 1;
 .text.GetLangNew : {*(.text.GetLangNew)}
-. = 0x8005704;
+. = SetTextFontGlyphs - 1;
 .text.SetTextFontGlyphsOld : {*(.text.SetTextFontGlyphsOld)}
-. = 0x8005b94;
+. = GetStringTextLen - 1;
 .text.GetStringTextLenOld : {*(.text.GetStringTextLenOld)}
-. = 0x8005c4c;
+. = GetCharTextLen - 1;
 .text.GetCharTextLenOld : {*(.text.GetCharTextLenOld)}
-. = 0x8005d6c;
+. = GetStringLineEnd - 1;
 .text.GetStringLineEndOld : {*(.text.GetStringLineEndOld)}
-. = 0x8005da4;
+. = Text_DrawString - 1;
 .text.Text_DrawStringOld : {*(.text.Text_DrawStringOld)}
-. = 0x8005e78;
+. = Text_DrawNumber - 1;
 .text.Text_DrawNumberOld : {*(.text.Text_DrawNumberOld)}
-. = 0x8005f40;
+. = Text_DrawCharacter - 1;
 .text.Text_DrawCharacterOld : {*(.text.Text_DrawCharacterOld)}
-. = 0x8006074;
+. = DrawTextGlyph - 1;
 .text.DrawTextGlyphOld : {*(.text.DrawTextGlyphOld)}
-. = 0x80060e4;
+. = DrawTextGlyphNoClear - 1;
 .text.DrawTextGlyphNoClearOld : {*(.text.DrawTextGlyphNoClearOld)}
-. = 0x80067f4;
+. = DrawSpriteTextGlyph - 1;
 .text.DrawSpriteTextGlyphOld : {*(.text.DrawSpriteTextGlyphOld)}

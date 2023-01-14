@@ -1,2 +1,2 @@
-. = 0x85c4a34;
+. = ProcScr_GameController;
 .rodata.ProcScr_GameControllerNew : {*(.rodata.ProcScr_GameControllerNew)}
