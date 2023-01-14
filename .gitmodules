@@ -4,3 +4,6 @@
 [submodule "include/decomp"]
 	path = include/decomp
 	url = https://github.com/StanHash/fe6.git
+[submodule "asset/json"]
+	path = asset/json
+	url = https://github.com/HertzDevil/feh-assets-json.git
