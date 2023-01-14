@@ -538,3 +538,93 @@ void TalkInterpretNewFaceOld(ProcPtr proc)
 {
     TalkInterpretNewFaceNew(proc);
 }
+
+void PutTalkBubbleNew(int xAnchor, int yAnchor, int width, int height)
+{
+    int xTail;
+    int kind;
+    int tmp;
+    int x, y;
+
+    xTail = 0;
+
+    x = 0;
+    y = 0;
+
+    TmFill(gBg1Tm, 0);
+
+    if (xAnchor < 16)
+        kind = 0;
+    else
+        kind = 1;
+
+    if (func_fe6_080425C4())
+        kind += 2;
+
+    y = yAnchor - height + 1;
+
+    switch (kind)
+    {
+
+    case 0:
+        xTail = xAnchor + 3;
+
+        tmp = xTail - width / 2;
+
+        if (tmp <= 0)
+            x = 1;
+        else
+            x = tmp;
+
+        break;
+
+    case 1:
+        xTail = xAnchor - 5;
+
+        tmp = xTail + (width + 1) / 2;
+
+        if (tmp > 29)
+            x = 29 - width;
+        else
+            x = xTail - width / 2;
+
+        break;
+
+    case 2:
+        x = 9;
+        y = 14;
+
+        width = 20;
+        xTail = x - 1;
+        yAnchor = y + 2;
+
+        break;
+
+    case 3:
+        x = 1;
+        y = 14;
+
+        width = 20;
+        xTail = x + width - 1;
+        yAnchor = y + 2;
+
+        break;
+    }
+
+    sTalkSt->x_text = x + 1;
+    sTalkSt->y_text = y + 1;
+
+    PutTalkBubbleTm(x, y, width, height);
+    if (!IsNewFace(((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face])->fid))
+        PutTalkBubbleTail(xTail, yAnchor, kind);
+    InitTalkTextWin(x, y, width, height);
+
+    StartOpenTalkBubble();
+
+    TalkBgSync(BG1_SYNC_BIT);
+}
+
+void PutTalkBubbleOld(int xAnchor, int yAnchor, int width, int height)
+{
+    PutTalkBubbleNew(xAnchor, yAnchor, width, height);
+}

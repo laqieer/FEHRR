@@ -6,3 +6,5 @@
 .text.TalkInterpretOld : {*(.text.TalkInterpretOld)}
 . = 0x800a4f4;
 .text.TalkInterpretNewFaceOld : {*(.text.TalkInterpretNewFaceOld)}
+. = PutTalkBubble - 1;
+.text.PutTalkBubbleOld : {*(.text.PutTalkBubbleOld)}
