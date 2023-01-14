@@ -9,6 +9,7 @@
 #include "gamecontroller.h"
 #include "bm.h"
 #include "mu.h"
+#include "save.h"
 
 #include "m4a.h"
 
@@ -42,8 +43,8 @@ void ShowStartupMenu()
     PutBuildInfoNew();
 }
 
-void func_fe6_080841FC(void);
-void func_fe6_0808439C(void);
+void SramInit(void);
+void InitGlobalSaveInfo(void);
 
 void AgbMain();
 
@@ -69,7 +70,7 @@ void AgbMainNew()
     RefreshKeySt(gKeySt);
 
     InitRamFuncs();
-    func_fe6_080841FC();
+    SramInit();
     InitProcs();
     InitSpriteAnims();
     InitMus();
@@ -78,7 +79,7 @@ void AgbMainNew()
     RandInit(RandNextB());
 
     if (!LoadGlobalSaveInfo(NULL))
-        func_fe6_0808439C();
+        InitGlobalSaveInfo();
 
     m4aSoundInit();
     SetOnVBlank(OnVBlank);

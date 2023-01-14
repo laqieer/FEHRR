@@ -9,6 +9,8 @@
 #include "debugmenu.h"
 #include "mapmenu.h"
 #include "ui.h"
+#include "save.h"
+#include "statscreen.h"
 
 #include "constants/msg.h"
 
