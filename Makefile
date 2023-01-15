@@ -27,6 +27,7 @@ INCLUDES	:= include include/decomp/include
 DATA		:=
 MUSIC		:=
 LDSCRIPTS	:= ldscript
+GRAPHICS	:= gfx/face gfx/glyph
 
 #---------------------------------------------------------------------------------
 # options for code generation
@@ -52,12 +53,12 @@ LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(OUTPUT).map
 LDFLAGS	+=	-nostartfiles
 
 ## Create a gfx library variable
-GFXLIBS     ?= libgfx.a
+GFXLIBS     ?= $(foreach dir,$(GRAPHICS),lib$(subst /,_,$(dir)).a)
 
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:= -lmm -lgba -lgfx
+LIBS	:= -lmm -lgba $(foreach dir,$(GRAPHICS),-l$(subst /,_,$(dir)))
 
 
 #---------------------------------------------------------------------------------
@@ -129,7 +130,9 @@ export LDSFILES	:=	$(foreach file,$(foreach dir,$(LDSCRIPTS),$(wildcard $(dir)/*
 #---------------------------------------------------------------------------------
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
-	@$(MAKE) --no-print-directory -f $(CURDIR)/gfxmake
+	@for dir in $(GRAPHICS); do \
+		GFXDIR=$$dir $(MAKE) --no-print-directory -f $(CURDIR)/gfxmake; \
+	done
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
 #---------------------------------------------------------------------------------

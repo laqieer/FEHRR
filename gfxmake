@@ -30,16 +30,19 @@ include $(DEVKITARM)/base_rules
 # (1) PROJECT DETAILS
 # ---------------------------------------------------------------------
 
+# GFXDIR	: Directory for graphics files. Should NOT be empty!
 # GFXTITLE  : Graphics library name
 # BUILD     : Directory for build process temporaries. Should NOT be empty!
 # GFXDIRS   : List of graphics directories
 # GFXEXTS   : Graphics extensions.
 # General note: use . for the current dir, don't leave them empty.
 
+GFXDIR		?= gfx
+LIBNAME	 	?= $(subst /,_,$(GFXDIR))
 BUILD       := build
-GFXDIRS     := $(shell find gfx -type d)
-GFXLIB      ?= libgfx.a
-GFXHDR      ?= all_gfx.h
+GFXDIRS     := $(shell find $(GFXDIR) -type d)
+GFXLIB      ?= lib$(LIBNAME).a
+GFXHDR      ?= $(LIBNAME).h
 
 GFXEXTS     := png bmp
 

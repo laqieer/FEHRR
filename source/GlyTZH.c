@@ -1,6 +1,6 @@
 #include <stddef.h>
 #include "textNew.h"
-#include "all_gfx.h"
+#include "gfx_glyph.h"
 const struct GlyphNew GlyTZH_E595B0 = { /* 啰 */
     .next = NULL,
     .width = 13,

@@ -368,7 +368,7 @@ void PutFace80x72New(u16 * tm, int fid, int chr, int pal) // hackbox
         {
             FixTilesPal((vu16 *) (VRAM + chr * CHR_SIZE), NEW_FULL_FACE_WIDTH * NEW_FULL_FACE_HEIGHT, pal);
             ApplyPalettes(info->pal, pal, NEW_FACE_PAL_CNT);
-            PutFaceTmNew(tm, 10, 9, chr / 2 + 16 * info->y_box + info->x_box - 512);
+            PutFaceTmNew(tm, 10, 9, chr / 2 + 16 * info->y_box + info->x_box + (NEW_FULL_FACE_WIDTH - 80) / 2 / 8 - 512);
         }
         else
         {
