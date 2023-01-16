@@ -1,5 +1,6 @@
 #include "textNew.h"
 #include "facesNew.h"
+#include "texts.h"
 
 const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     [0] = {
@@ -22424,11 +22425,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = FaceTestText,
     },
 
-    [3737] = {
-        [LANGUAGE_JAPANESE] = "",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "",
-    },
+    #include "scenarioTexts.h"
 
 };
 

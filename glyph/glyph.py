@@ -39,7 +39,7 @@ def is_ascii(c):
 def count_glyph_frequency(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         for line in f:
-            match = re.search(r'^\s*\[LANGUAGE_([A-Z]+)\] = "(.*)",.*$', line)
+            match = re.search(r'^\s*\[LANGUAGE_([A-Z]+)\] = (.*)$', line)
             if match:
                 language = TextLanguage[match.group(1)]
                 for character in match.group(2):
@@ -85,7 +85,7 @@ def read_narrow_glyphs(glyphs, filename):
                 glyphs[character] = {
                     "width": int(match[2], 16),
                 }
-                shutil.copyfile(Path(filename).parent/f'{match[3]}.png', Path('gfx/glyph')/f'{type.name}{Language.EN.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
+                shutil.copyfile(Path(filename).parent/f'{match[3]}.png', Path(f'gfx/glyph/{Language.EN.name}')/f'{type.name}{Language.EN.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
 
 def read_more_glyphs(glyphs, dirname, type, language):
     with open(Path(dirname)/'font.fontall.txt', 'r', encoding='utf-8') as f:
@@ -100,7 +100,7 @@ def read_more_glyphs(glyphs, dirname, type, language):
                     glyphs[character] = {
                         "width": int(match.group(2), 10),
                     }
-                    shutil.copyfile(Path(dirname)/f'Font{FontType[type].capitalize()}{match.group(3)}.png', Path('gfx/glyph')/f'{type.name}{language.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
+                    shutil.copyfile(Path(dirname)/f'Font{FontType[type].capitalize()}{match.group(3)}.png', Path(f'gfx/glyph/{language.name}')/f'{type.name}{language.name}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}.png')
 
 def make_linker_script_file(glyphs, filename):
     with open(filename, 'w', encoding='utf-8') as f:
@@ -113,11 +113,11 @@ def make_C_header_file(glyphs, filename):
         for character in glyphs.keys():
             f.write(f'extern const unsigned int {Path(filename).stem}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))}Tiles[]; /* {character} */\n')
 
-def make_C_source_file(glyphs, filename):
+def make_C_source_file(glyphs, filename, language):
     with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include <stddef.h>\n')
         f.write('#include "textNew.h"\n')
-        f.write('#include "gfx_glyph.h"\n')
+        f.write(f'#include "gfx_glyph_{language.name}.h"\n')
         # f.write(f'#include "{Path(filename).stem}.h"\n\n')
         g = {}
         for character, glyph in glyphs.items():
@@ -142,20 +142,21 @@ def make_C_source_file(glyphs, filename):
 
 def main():
     count_glyph_frequency('source/texts.c')
+    count_glyph_frequency('include/scenarioTexts.h')
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuLowercase/LowercaseMenu.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
     read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyS, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.EN)
     set_space_width(glyphs, 2) # short space
-    make_C_source_file(glyphs, "source/GlySEN.c")
+    make_C_source_file(glyphs, "source/GlySEN.c", Language.EN)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/日语汉字增补/Microsoft Sans Serif", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.JA)
-    make_C_source_file(glyphs, "source/GlySJA.c")
+    make_C_source_file(glyphs, "source/GlySJA.c", Language.JA)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.GlyS, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe7cn", GlyphType.GlyS, Language.ZH)
@@ -166,21 +167,21 @@ def main():
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/二级道具字体", GlyphType.GlyS, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyS, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.ZH)
-    make_C_source_file(glyphs, "source/GlySZH.c")
+    make_C_source_file(glyphs, "source/GlySZH.c", Language.ZH)
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifLowercase/LowercaseSerif.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifUppercase/UppercaseSerif.txt")
     read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyT, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.EN)
     set_space_width(glyphs, 2) # short space
-    make_C_source_file(glyphs, "source/GlyTEN.c")
+    make_C_source_file(glyphs, "source/GlyTEN.c", Language.EN)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/日语汉字增补/Microsoft Sans Serif", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.JA)
-    make_C_source_file(glyphs, "source/GlyTJA.c")
+    make_C_source_file(glyphs, "source/GlyTJA.c", Language.JA)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe7cn", GlyphType.GlyT, Language.ZH)
@@ -191,7 +192,7 @@ def main():
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/二级对话字体", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.ZH)
-    make_C_source_file(glyphs, "source/GlyTZH.c")
+    make_C_source_file(glyphs, "source/GlyTZH.c", Language.ZH)
     # print missing glyphs
     for language in Language:
         glyphs = {k: v for k, v in freqs[language].items() if v != -1}

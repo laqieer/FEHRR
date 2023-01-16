@@ -1,6 +1,6 @@
 #include <stddef.h>
 #include "textNew.h"
-#include "gfx_glyph.h"
+#include "gfx_glyph_EN.h"
 const struct GlyphNew GlySEN_61 = { /* a */
     .next = NULL,
     .width = 5,
@@ -865,6 +865,87 @@ const struct GlyphNew GlySEN_7F = { /*  */
     .bitmap = GlySEN_7FTiles,
 };
 
+const struct GlyphNew GlySEN_C381 = { /* Á */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x81,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C381Tiles,
+};
+
+const struct GlyphNew GlySEN_C393 = { /* Ó */
+    .next = &GlySEN_C381,
+    .width = 5,
+    .utf_byte_2 = 0x93,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C393Tiles,
+};
+
+const struct GlyphNew GlySEN_C3A0 = { /* à */
+    .next = &GlySEN_C393,
+    .width = 6,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3A0Tiles,
+};
+
+const struct GlyphNew GlySEN_C3A1 = { /* á */
+    .next = &GlySEN_C3A0,
+    .width = 6,
+    .utf_byte_2 = 0xa1,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3A1Tiles,
+};
+
+const struct GlyphNew GlySEN_C3A9 = { /* é */
+    .next = &GlySEN_C3A1,
+    .width = 5,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3A9Tiles,
+};
+
+const struct GlyphNew GlySEN_C3AD = { /* í */
+    .next = &GlySEN_C3A9,
+    .width = 3,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3ADTiles,
+};
+
+const struct GlyphNew GlySEN_C3B3 = { /* ó */
+    .next = &GlySEN_C3AD,
+    .width = 5,
+    .utf_byte_2 = 0xb3,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3B3Tiles,
+};
+
+const struct GlyphNew GlySEN_C3B6 = { /* ö */
+    .next = &GlySEN_C3B3,
+    .width = 5,
+    .utf_byte_2 = 0xb6,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3B6Tiles,
+};
+
+const struct GlyphNew GlySEN_C3BA = { /* ú */
+    .next = &GlySEN_C3B6,
+    .width = 5,
+    .utf_byte_2 = 0xba,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3BATiles,
+};
+
 struct GlyphNew const * const GlySENNew[0x100 - 0x20] = {
     [0x61 - 0x20] = &GlySEN_61,
     [0x62 - 0x20] = &GlySEN_62,
@@ -962,4 +1043,5 @@ struct GlyphNew const * const GlySENNew[0x100 - 0x20] = {
     [0x7d - 0x20] = &GlySEN_7D,
     [0x7e - 0x20] = &GlySEN_7E,
     [0x7f - 0x20] = &GlySEN_7F,
+    [0xc3 - 0x20] = &GlySEN_C3BA,
 };
