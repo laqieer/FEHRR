@@ -634,9 +634,9 @@ const struct FaceInfoNew newFaces[] = {
     },
 
     [FID_ch00_32_Fafnir2_M_Stain - FID_NEW] = {
-        .img = ch00_32_Fafnir2_M_Stain_FaceTiles,
+        .img = ch00_32_Fafnir2_M_Stain_Face_Normal2Tiles,
         .img_chibi = NULL,
-        .pal = ch00_32_Fafnir2_M_Stain_FacePal,
+        .pal = ch00_32_Fafnir2_M_Stain_Face_Normal2Pal,
         .x_mouth = 0,
         .y_mouth = 0,
         .x_box = 0,
@@ -3956,9 +3956,9 @@ const struct FaceInfoNew newFaces[] = {
     },
 
     [FID_ch00_43_Embla_F_Disappear - FID_NEW] = {
-        .img = ch00_43_Embla_F_Disappear_FaceTiles,
+        .img = ch00_43_Embla_F_Disappear_Face_Cool2Tiles,
         .img_chibi = NULL,
-        .pal = ch00_43_Embla_F_Disappear_FacePal,
+        .pal = ch00_43_Embla_F_Disappear_Face_Cool2Pal,
         .x_mouth = 0,
         .y_mouth = 0,
         .x_box = 0,

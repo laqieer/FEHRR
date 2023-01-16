@@ -83,8 +83,8 @@ def make_faces(src_folder, dst_folder, filename):
             if not os.path.exists(os.path.join(src_folder, face)):
                 warnings.warn('%s does not exist' % face)
                 continue
-            src = os.path.join(src_folder, face, 'Face.png')
-            dst = os.path.join(dst_folder, 'full', '%s_Face.png' % face)
+            face_file = 'Face.png'
+            src = os.path.join(src_folder, face, face_file)
             im = None
             try:
                 im = Image.open(src)
@@ -92,6 +92,7 @@ def make_faces(src_folder, dst_folder, filename):
                 for root, dirs, files in os.walk(os.path.join(src_folder, face)):
                     for file in files:
                         if re.match(r'Face_Normal\w+\.png$', file):
+                            face_file = file
                             src = os.path.join(root, file)
                             im = Image.open(src)
                             break
@@ -99,6 +100,7 @@ def make_faces(src_folder, dst_folder, filename):
                 for root, dirs, files in os.walk(os.path.join(src_folder, face)):
                     for file in files:
                         if re.match(r'Face_Cool\w+\.png$', file):
+                            face_file = file
                             src = os.path.join(root, file)
                             im = Image.open(src)
                             break
@@ -110,6 +112,7 @@ def make_faces(src_folder, dst_folder, filename):
             im = im.resize((128, 128))
             im = im.quantize(colors=64, dither=Image.Dither.NONE)
             # im = im.convert('P', dither=Image.Dither.NONE, palette=Image.Palette.ADAPTIVE, colors=64)
+            dst = os.path.join(dst_folder, 'full', '%s_%s' % (face, face_file))
             im.save(dst)
             hasChibiFace = True
             try:
@@ -122,13 +125,14 @@ def make_faces(src_folder, dst_folder, filename):
                 im.save(dst)
             except FileNotFoundError:
                 hasChibiFace = False
+            face_file = os.path.splitext(face_file)[0]
             f.write('    [FID_%s - FID_NEW] = {\n' % face)
-            f.write('        .img = %s_FaceTiles,\n' % face)
+            f.write('        .img = %s_%sTiles,\n' % (face, face_file))
             if hasChibiFace:
                 f.write('        .img_chibi = %s_Face_FCTiles,\n' % face)
             else:
                 f.write('        .img_chibi = NULL,\n')
-            f.write('        .pal = %s_FacePal,\n' % face)
+            f.write('        .pal = %s_%sPal,\n' % (face, face_file))
             f.write('        .x_mouth = 0,\n')
             f.write('        .y_mouth = 0,\n')
             f.write('        .x_box = 0,\n')
