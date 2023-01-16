@@ -91,7 +91,14 @@ def make_faces(src_folder, dst_folder, filename):
             except:
                 for root, dirs, files in os.walk(os.path.join(src_folder, face)):
                     for file in files:
-                        if re.match(r'Face_\w+\.png$', file):
+                        if re.match(r'Face_Normal\w+\.png$', file):
+                            src = os.path.join(root, file)
+                            im = Image.open(src)
+                            break
+            if im is None:
+                for root, dirs, files in os.walk(os.path.join(src_folder, face)):
+                    for file in files:
+                        if re.match(r'Face_Cool\w+\.png$', file):
                             src = os.path.join(root, file)
                             im = Image.open(src)
                             break
@@ -149,6 +156,24 @@ def make_header(filename):
             id += 0x200
             f.write('#define %s "\\x%x\\x%x"\n' % (face, id & 0xff, id >> 8))
 
+def make_test_text(filename):
+    with open(filename, 'w') as f:
+        f.write('#include "textNew.h"\n')
+        f.write('#include "facesNew.h"\n')
+        f.write('\n')
+        f.write('const char FaceTestText[] =\\')
+        for i, face in enumerate(faces):
+            if i % 2 == 0:
+                f.write('\n    TEXT_CMD_LEFT ')
+            else:
+                f.write('\n    TEXT_CMD_RIGHT ')
+            f.write('TEXT_CMD_FACE %s "%s" TEXT_CMD_WAIT TEXT_CMD_CLEAR' % (face, face))
+            if i == len(faces) - 1:
+                f.write(';')
+            else:
+                f.write(' \\')
+        f.write('\n')
+
 def main():
     load_hero_faces('asset/json/files/assets/Common/SRPG/Person/')
     load_hero_faces('asset/json/files/assets/Common/SRPG/Enemy/')
@@ -162,6 +187,7 @@ def main():
     # print(face_ids)
     make_header('include/facesNew.h')
     make_faces('/mnt/c/Users/laqie/Projects/FEH/assets/Common/Face/', 'gfx/face/', 'source/faces.c')
+    make_test_text('source/facesTest.c')
 
 if __name__ == '__main__':
     main()

@@ -134,9 +134,18 @@ u16 const Sprite_Face128x128[] =
     OAM0_SHAPE_64x64 + OAM0_Y(64), OAM1_SIZE_64x64,               OAM2_CHR(0x110),  // lower right
 };
 
+u16 const Sprite_Face128x128_Flipped[] =
+{
+    4,
+    OAM0_SHAPE_64x64,              OAM1_SIZE_64x64 + OAM1_HFLIP + OAM1_X(-64), OAM2_CHR(0x10),   // upper left
+    OAM0_SHAPE_64x64,              OAM1_SIZE_64x64 + OAM1_HFLIP,               OAM2_CHR(0x00),   // upper right
+    OAM0_SHAPE_64x64 + OAM0_Y(64), OAM1_SIZE_64x64 + OAM1_HFLIP + OAM1_X(-64), OAM2_CHR(0x110),  // lower left
+    OAM0_SHAPE_64x64 + OAM0_Y(64), OAM1_SIZE_64x64 + OAM1_HFLIP,               OAM2_CHR(0x100),  // lower right
+};
+
 void FaceRefreshSpriteNew(struct FaceProcNew * proc)
 {
-    proc->sprite = Sprite_Face128x128;
+    proc->sprite = proc->x_disp > DISPLAY_WIDTH / 2 ? Sprite_Face128x128 : Sprite_Face128x128_Flipped;
 }
 
 struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)

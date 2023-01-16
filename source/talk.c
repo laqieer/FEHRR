@@ -520,7 +520,8 @@ void TalkInterpretNewFaceNew(ProcPtr proc)
     if (IsNewFace(fid))
     {
         sTalkSt->faces[sTalkSt->active_talk_face] = StartFaceAuto(fid,
-            DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, faceDisp);
+            GetTalkFaceHPos(sTalkSt->active_talk_face)*8 > DISPLAY_WIDTH / 2 ? NEW_FULL_FACE_WIDTH / 2 : DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2,
+            DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, faceDisp);
         StartFaceFadeInNew((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face]);
     }
     else

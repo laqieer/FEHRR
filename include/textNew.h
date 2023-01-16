@@ -29,3 +29,13 @@ void ChangeLang(void);
 
 void PrintSystemGlyphs();
 void PrintTalkGlyphs();
+
+#define TEXT_CMD_END "\0"
+#define TEXT_CMD_NEWLINE "\1"
+#define TEXT_CMD_WAIT "\3"
+#define TEXT_CMD_LEFT "\xe"
+#define TEXT_CMD_RIGHT "\xf"
+#define TEXT_CMD_FACE "\x10"
+#define TEXT_CMD_CLEAR "\x11"
+
+extern const char FaceTestText[];

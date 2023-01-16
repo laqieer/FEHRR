@@ -1,4 +1,5 @@
 #include "textNew.h"
+#include "facesNew.h"
 
 const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     [0] = {
@@ -22418,9 +22419,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3736] = {
-        [LANGUAGE_JAPANESE] = "\x08\x10\x01\x02""アンナの顔画像です""\x03",
-        [LANGUAGE_ENGLISH] = "\x08\x10\x01\x02""Anna's face""\x03",
-        [LANGUAGE_CHINESE] = "\x08\x10\x01\x02""安娜的头像""\x03",
+        [LANGUAGE_JAPANESE] = FaceTestText,
+        [LANGUAGE_ENGLISH] = FaceTestText,
+        [LANGUAGE_CHINESE] = FaceTestText,
     },
 
     [3737] = {
