@@ -46,8 +46,8 @@ def count_glyph_frequency(filename):
                 for character in match.group(2):
                     if is_ascii(character):
                         continue
-                    if language == Language.EN:
-                        warnings.warn(f'Non-ASCII character {character} found in English text: {match.group(2)}')
+                    # if language == Language.EN:
+                    #     warnings.warn(f'Non-ASCII character {character} found in English text: {match.group(2)}')
                     if character not in freqs[language]:
                         freqs[language][character] = 0
                     freqs[language][character] += 1
@@ -162,14 +162,16 @@ def main():
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
     read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyS, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.EN)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyS, Language.EN)
     set_space_width(glyphs, 2) # short space
     make_C_source_file(glyphs, "source/GlySEN.c", Language.EN)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyS, Language.JA)
-    read_more_glyphs(glyphs, "glyph/日语汉字增补/Microsoft Sans Serif", GlyphType.GlyS, Language.JA)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/常用日语汉字", GlyphType.GlyS, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.JA)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyS, Language.JA)
     make_C_source_file(glyphs, "source/GlySJA.c", Language.JA)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.GlyS, Language.ZH)
@@ -181,20 +183,23 @@ def main():
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/二级道具字体", GlyphType.GlyS, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyS, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyS, Language.ZH)
     make_C_source_file(glyphs, "source/GlySZH.c", Language.ZH)
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifLowercase/LowercaseSerif.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifUppercase/UppercaseSerif.txt")
     read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyT, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.EN)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyT, Language.EN)
     set_space_width(glyphs, 2) # short space
     make_C_source_file(glyphs, "source/GlyTEN.c", Language.EN)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe7j", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyT, Language.JA)
-    read_more_glyphs(glyphs, "glyph/日语汉字增补/Microsoft Sans Serif", GlyphType.GlyT, Language.JA)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/常用日语汉字", GlyphType.GlyT, Language.JA)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.JA)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyT, Language.JA)
     make_C_source_file(glyphs, "source/GlyTJA.c", Language.JA)
     glyphs = {}
     read_more_glyphs(glyphs, "glyph/fe6cn", GlyphType.GlyT, Language.ZH)
@@ -206,12 +211,14 @@ def main():
     read_more_glyphs(glyphs, "glyph/GBA火纹中文字库/二级对话字体", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8j", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.ZH)
+    read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyT, Language.ZH)
     make_C_source_file(glyphs, "source/GlyTZH.c", Language.ZH)
     # print missing glyphs
+    print('Missing glyphs:')
     for language in Language:
         glyphs = {k: v for k, v in freqs[language].items() if v != -1}
         if len(glyphs) > 0:
-            print(f'{language.name} : {glyphs}')
+            print(f'{language.name} : {"".join(glyphs.keys())}')
 
 if __name__ == "__main__":
     main()

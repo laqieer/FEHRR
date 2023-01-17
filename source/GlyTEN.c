@@ -964,6 +964,204 @@ const struct GlyphNew GlyTEN_C3BA = { /* ú */
     .bitmap = GlyTEN_C3BATiles,
 };
 
+const struct GlyphNew GlyTEN_E29885 = { /* ★ */
+    .next = NULL,
+    .width = 11,
+    .utf_byte_2 = 0x98,
+    .utf_byte_3 = 0x85,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E29885Tiles,
+};
+
+const struct GlyphNew GlyTEN_E38090 = { /* 【 */
+    .next = NULL,
+    .width = 5,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E38090Tiles,
+};
+
+const struct GlyphNew GlyTEN_E38091 = { /* 】 */
+    .next = &GlyTEN_E38090,
+    .width = 4,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E38091Tiles,
+};
+
+const struct GlyphNew GlyTEN_EFBC92 = { /* ２ */
+    .next = NULL,
+    .width = 7,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_EFBC92Tiles,
+};
+
+const struct GlyphNew GlyTEN_EFBC93 = { /* ３ */
+    .next = &GlyTEN_EFBC92,
+    .width = 7,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_EFBC93Tiles,
+};
+
+const struct GlyphNew GlyTEN_E28094 = { /* — */
+    .next = &GlyTEN_E29885,
+    .width = 6,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E28094Tiles,
+};
+
+const struct GlyphNew GlyTEN_EFBC95 = { /* ５ */
+    .next = &GlyTEN_EFBC93,
+    .width = 7,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_EFBC95Tiles,
+};
+
+const struct GlyphNew GlyTEN_EFBC96 = { /* ６ */
+    .next = &GlyTEN_EFBC95,
+    .width = 7,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_EFBC96Tiles,
+};
+
+const struct GlyphNew GlyTEN_EFBC97 = { /* ７ */
+    .next = &GlyTEN_EFBC96,
+    .width = 7,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_EFBC97Tiles,
+};
+
+const struct GlyphNew GlyTEN_E28099 = { /* ’ */
+    .next = &GlyTEN_E28094,
+    .width = 3,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E28099Tiles,
+};
+
+const struct GlyphNew GlyTEN_E2809C = { /* “ */
+    .next = &GlyTEN_E28099,
+    .width = 4,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x9c,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E2809CTiles,
+};
+
+const struct GlyphNew GlyTEN_E2809D = { /* ” */
+    .next = &GlyTEN_E2809C,
+    .width = 4,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x9d,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E2809DTiles,
+};
+
+const struct GlyphNew GlyTEN_E280A6 = { /* … */
+    .next = &GlyTEN_E2809D,
+    .width = 6,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0xa6,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E280A6Tiles,
+};
+
+const struct GlyphNew GlyTEN_E289A4 = { /* ≤ */
+    .next = &GlyTEN_E280A6,
+    .width = 5,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa4,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E289A4Tiles,
+};
+
+const struct GlyphNew GlyTEN_E289A5 = { /* ≥ */
+    .next = &GlyTEN_E289A4,
+    .width = 5,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0xa5,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E289A5Tiles,
+};
+
+const struct GlyphNew GlyTEN_7F = { /*  */
+    .next = NULL,
+    .width = 1,
+    .utf_byte_2 = 0x00,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_7FTiles,
+};
+
+const struct GlyphNew GlyTEN_CEA9 = { /* Ω */
+    .next = NULL,
+    .width = 9,
+    .utf_byte_2 = 0xa9,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_CEA9Tiles,
+};
+
+const struct GlyphNew GlyTEN_C397 = { /* × */
+    .next = &GlyTEN_C3BA,
+    .width = 6,
+    .utf_byte_2 = 0x97,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_C397Tiles,
+};
+
+const struct GlyphNew GlyTEN_C3A6 = { /* æ */
+    .next = &GlyTEN_C397,
+    .width = 10,
+    .utf_byte_2 = 0xa6,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_C3A6Tiles,
+};
+
+const struct GlyphNew GlyTEN_C3B0 = { /* ð */
+    .next = &GlyTEN_C3A6,
+    .width = 6,
+    .utf_byte_2 = 0xb0,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_C3B0Tiles,
+};
+
+const struct GlyphNew GlyTEN_C3B8 = { /* ø */
+    .next = &GlyTEN_C3B0,
+    .width = 6,
+    .utf_byte_2 = 0xb8,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_C3B8Tiles,
+};
+
+const struct GlyphNew GlyTEN_C3BD = { /* ý */
+    .next = &GlyTEN_C3B8,
+    .width = 5,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_C3BDTiles,
+};
+
 struct GlyphNew const * const GlyTENNew[0x100 - 0x20] = {
     [0x61 - 0x20] = &GlyTEN_61,
     [0x62 - 0x20] = &GlyTEN_62,
@@ -1060,5 +1258,10 @@ struct GlyphNew const * const GlyTENNew[0x100 - 0x20] = {
     [0x7c - 0x20] = &GlyTEN_7C,
     [0x7d - 0x20] = &GlyTEN_7D,
     [0x7e - 0x20] = &GlyTEN_7E,
-    [0xc3 - 0x20] = &GlyTEN_C3BA,
+    [0xc3 - 0x20] = &GlyTEN_C3BD,
+    [0xe2 - 0x20] = &GlyTEN_E289A5,
+    [0xe3 - 0x20] = &GlyTEN_E38091,
+    [0xef - 0x20] = &GlyTEN_EFBC97,
+    [0x7f - 0x20] = &GlyTEN_7F,
+    [0xce - 0x20] = &GlyTEN_CEA9,
 };
