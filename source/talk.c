@@ -9,6 +9,7 @@
 #include "proc.h"
 #include "debugtext.h"
 #include "text.h"
+#include "textNew.h"
 #include "sprite.h"
 #include "face.h"
 #include "faceNew.h"
@@ -628,4 +629,91 @@ void PutTalkBubbleNew(int xAnchor, int yAnchor, int width, int height)
 void PutTalkBubbleOld(int xAnchor, int yAnchor, int width, int height)
 {
     PutTalkBubbleNew(xAnchor, yAnchor, width, height);
+}
+
+void TalkDebug_OnIdleNew(struct GenericProc * proc)
+{
+    int msg = proc->x;
+
+    if (IsTalkLocked())
+        ResumeTalk();
+
+    if (IsEventRunning())
+        return;
+
+    if (proc->unk34 == 0)
+    {
+        DebugInitObj(-1, 9);
+        TalkDebug_Unk_0800CA88(proc);
+    }
+
+    DebugPutObjNumber(112, 100, msg, 5);
+
+    if (gKeySt->pressed & KEY_BUTTON_SELECT)
+    {
+        Proc_Break(proc);
+        return;
+    }
+
+    if (gKeySt->repeated & KEY_DPAD_UP)
+        msg++;
+
+    if (gKeySt->repeated & KEY_DPAD_DOWN)
+        msg--;
+
+    if (gKeySt->repeated & KEY_DPAD_RIGHT)
+        msg += 10;
+
+    if (gKeySt->repeated & KEY_DPAD_LEFT)
+        msg -= 10;
+
+    if (gKeySt->repeated & KEY_BUTTON_R)
+        msg += 100;
+
+    if (gKeySt->repeated & KEY_BUTTON_L)
+        msg -= 100;
+
+    if (msg < 0)
+        msg = 0;
+
+    if (msg > textId_max)
+        msg = textId_max;
+
+    if (msg != proc->x)
+    {
+        ClearTalk();
+        EndTalk();
+
+        DebugInitObj(-1, 9);
+
+        proc->x = msg;
+
+        InitTalk(0x80, 2, TRUE);
+        StartTalkMsg(1, 1, proc->x);
+
+        SetTalkFlag(TALK_FLAG_INSTANTSHIFT);
+        SetTalkFlag(TALK_FLAG_NOBUBBLE);
+        SetTalkFlag(TALK_FLAG_NOSKIP);
+
+        SetTalkPrintDelay(-1);
+
+        TalkBgSync(BG0_SYNC_BIT);
+
+        return;
+    }
+
+    if (gKeySt->pressed & KEY_BUTTON_A)
+    {
+        ClearTalk();
+        EndTalk();
+
+        proc->unk34 = 0;
+
+        StartTalkEvent(proc->x);
+    }
+}
+
+void TalkDebug_OnIdleOld(struct GenericProc * proc)
+{
+    TalkDebug_OnIdleNew(proc);
 }
