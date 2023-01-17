@@ -874,8 +874,26 @@ const struct GlyphNew GlySEN_C381 = { /* Á */
     .bitmap = GlySEN_C381Tiles,
 };
 
-const struct GlyphNew GlySEN_C393 = { /* Ó */
+const struct GlyphNew GlySEN_C389 = { /* É */
     .next = &GlySEN_C381,
+    .width = 5,
+    .utf_byte_2 = 0x89,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C389Tiles,
+};
+
+const struct GlyphNew GlySEN_C38D = { /* Í */
+    .next = &GlySEN_C389,
+    .width = 3,
+    .utf_byte_2 = 0x8d,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C38DTiles,
+};
+
+const struct GlyphNew GlySEN_C393 = { /* Ó */
+    .next = &GlySEN_C38D,
     .width = 5,
     .utf_byte_2 = 0x93,
     .utf_byte_3 = 0x00,
@@ -937,8 +955,17 @@ const struct GlyphNew GlySEN_C3B6 = { /* ö */
     .bitmap = GlySEN_C3B6Tiles,
 };
 
-const struct GlyphNew GlySEN_C3BA = { /* ú */
+const struct GlyphNew GlySEN_C3B9 = { /* ù */
     .next = &GlySEN_C3B6,
+    .width = 5,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0x00,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySEN_C3B9Tiles,
+};
+
+const struct GlyphNew GlySEN_C3BA = { /* ú */
+    .next = &GlySEN_C3B9,
     .width = 5,
     .utf_byte_2 = 0xba,
     .utf_byte_3 = 0x00,

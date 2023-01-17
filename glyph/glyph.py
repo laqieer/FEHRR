@@ -143,6 +143,8 @@ def make_C_source_file(glyphs, filename, language):
 def main():
     count_glyph_frequency('source/texts.c')
     count_glyph_frequency('include/scenarioTexts.h')
+    count_glyph_frequency('include/unitTexts.h')
+    count_glyph_frequency('include/skillTexts.h')
     glyphs = {}
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuLowercase/LowercaseMenu.txt")
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
