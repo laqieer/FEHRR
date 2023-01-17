@@ -22429,6 +22429,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     #include "unitTexts.h"
     #include "skillTexts.h"
     #include "stageTexts.h"
+    #include "musicTexts.h"
 
 };
 

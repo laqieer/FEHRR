@@ -21,6 +21,7 @@ class TextType(Enum):
     UNIT = 3
     SKILL = 4
     STAGE = 5
+    MUSIC = 6
 
 my_names = {
     Language.LANGUAGE_JAPANESE: 'エクラ',
@@ -205,6 +206,12 @@ def get_text_keys(type):
             if re.match(r'^MID_STAGE_S\d{4}$', key):
                 keys.append(key)
         return keys
+    if type == TextType.MUSIC:
+        type = TextType.DATA
+        for key in texts[type]:
+            if key.startswith('MID_MUSIC_NAME_'):
+                keys.append(key)
+        return keys
     keys = [k for k in texts[type]]
     return keys
 
@@ -219,7 +226,7 @@ def write_texts(type, filename):
             text_keys.append(key)
             f.write('\n[' + validate_text_key(key) + '] = {\n')
             for language in Language:
-                if type in (TextType.UNIT, TextType.SKILL, TextType.STAGE):
+                if type in (TextType.UNIT, TextType.SKILL, TextType.STAGE, TextType.MUSIC):
                     type = TextType.DATA
                 if language in texts[type][key]:
                     f.write('    [%s] = %s,\n' % (language.name, texts[type][key][language]))
@@ -259,6 +266,7 @@ def main():
     write_texts(TextType.UNIT, 'include/unitTexts.h')
     write_texts(TextType.SKILL, 'include/skillTexts.h')
     write_texts(TextType.STAGE, 'include/stageTexts.h')
+    write_texts(TextType.MUSIC, 'include/musicTexts.h')
     write_header('include/texts.h')
 
 if __name__ == '__main__':
