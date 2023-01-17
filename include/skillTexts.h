@@ -109,6 +109,18 @@
     [LANGUAGE_CHINESE] = "给予１．５倍的伤害",
 },
 
+[MSID_銀の剣] = {
+    [LANGUAGE_JAPANESE] = "銀の剣",
+    [LANGUAGE_ENGLISH] = "Silver Sword",
+    [LANGUAGE_CHINESE] = "银剑",
+},
+
+[MSID_H_銀の剣] = {
+    [LANGUAGE_JAPANESE] = "",
+    [LANGUAGE_ENGLISH] = "",
+    [LANGUAGE_CHINESE] = "",
+},
+
 [MSID_氷蒼] = {
     [LANGUAGE_JAPANESE] = "氷蒼",
     [LANGUAGE_ENGLISH] = "Iceberg",
@@ -131,18 +143,6 @@
     [LANGUAGE_JAPANESE] = "攻撃、速さ、守備、魔防＋３" TEXT_CMD_NEWLINE "戦闘後、自分に６ダメージ",
     [LANGUAGE_ENGLISH] = "Grants Atk/Spd/Def/Res+3. After combat, deals 6" TEXT_CMD_NEWLINE "damage to unit.",
     [LANGUAGE_CHINESE] = "攻击、速度、防守、魔防＋３" TEXT_CMD_NEWLINE "战斗后给予自己６伤害",
-},
-
-[MSID_銀の剣] = {
-    [LANGUAGE_JAPANESE] = "銀の剣",
-    [LANGUAGE_ENGLISH] = "Silver Sword",
-    [LANGUAGE_CHINESE] = "银剑",
-},
-
-[MSID_H_銀の剣] = {
-    [LANGUAGE_JAPANESE] = "",
-    [LANGUAGE_ENGLISH] = "",
-    [LANGUAGE_CHINESE] = "",
 },
 
 [MSID_鉄の槍] = {
@@ -205,18 +205,6 @@
     [LANGUAGE_CHINESE] = "增加攻击×３０％的奥义伤害",
 },
 
-[MSID_氷点] = {
-    [LANGUAGE_JAPANESE] = "氷点",
-    [LANGUAGE_ENGLISH] = "Chilling Wind",
-    [LANGUAGE_CHINESE] = "冰点",
-},
-
-[MSID_H_氷点] = {
-    [LANGUAGE_JAPANESE] = "魔防の５０％を奥義ダメージに加算",
-    [LANGUAGE_ENGLISH] = "Boosts damage by 50% of unit's Res.",
-    [LANGUAGE_CHINESE] = "增加魔防×５０％的奥义伤害",
-},
-
 [MSID_鬼神の一撃3] = {
     [LANGUAGE_JAPANESE] = "鬼神の一撃３",
     [LANGUAGE_ENGLISH] = "Death Blow 3",
@@ -229,6 +217,18 @@
     [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗中的攻击＋６",
 },
 
+[MSID_氷点] = {
+    [LANGUAGE_JAPANESE] = "氷点",
+    [LANGUAGE_ENGLISH] = "Chilling Wind",
+    [LANGUAGE_CHINESE] = "冰点",
+},
+
+[MSID_H_氷点] = {
+    [LANGUAGE_JAPANESE] = "魔防の５０％を奥義ダメージに加算",
+    [LANGUAGE_ENGLISH] = "Boosts damage by 50% of unit's Res.",
+    [LANGUAGE_CHINESE] = "增加魔防×５０％的奥义伤害",
+},
+
 [MSID_銀の槍] = {
     [LANGUAGE_JAPANESE] = "銀の槍",
     [LANGUAGE_ENGLISH] = "Silver Lance",
@@ -236,6 +236,18 @@
 },
 
 [MSID_H_銀の槍] = {
+    [LANGUAGE_JAPANESE] = "",
+    [LANGUAGE_ENGLISH] = "",
+    [LANGUAGE_CHINESE] = "",
+},
+
+[MSID_鉄の斧] = {
+    [LANGUAGE_JAPANESE] = "鉄の斧",
+    [LANGUAGE_ENGLISH] = "Iron Axe",
+    [LANGUAGE_CHINESE] = "铁斧",
+},
+
+[MSID_H_鉄の斧] = {
     [LANGUAGE_JAPANESE] = "",
     [LANGUAGE_ENGLISH] = "",
     [LANGUAGE_CHINESE] = "",
@@ -251,18 +263,6 @@
     [LANGUAGE_JAPANESE] = "対象を自分の反対側の位置に移動させる",
     [LANGUAGE_ENGLISH] = "Target ally moves to opposite side of unit.",
     [LANGUAGE_CHINESE] = "让指定目标移动至自己的另一侧",
-},
-
-[MSID_鉄の斧] = {
-    [LANGUAGE_JAPANESE] = "鉄の斧",
-    [LANGUAGE_ENGLISH] = "Iron Axe",
-    [LANGUAGE_CHINESE] = "铁斧",
-},
-
-[MSID_H_鉄の斧] = {
-    [LANGUAGE_JAPANESE] = "",
-    [LANGUAGE_ENGLISH] = "",
-    [LANGUAGE_CHINESE] = "",
 },
 
 [MSID_死の吐息3] = {
@@ -349,6 +349,18 @@
     [LANGUAGE_CHINESE] = "使用回复之杖时，回复效果＋１０",
 },
 
+[MSID_銀の斧] = {
+    [LANGUAGE_JAPANESE] = "銀の斧",
+    [LANGUAGE_ENGLISH] = "Silver Axe",
+    [LANGUAGE_CHINESE] = "银斧",
+},
+
+[MSID_H_銀の斧] = {
+    [LANGUAGE_JAPANESE] = "",
+    [LANGUAGE_ENGLISH] = "",
+    [LANGUAGE_CHINESE] = "",
+},
+
 [MSID_リブローP] = {
     [LANGUAGE_JAPANESE] = "リブロー＋",
     [LANGUAGE_ENGLISH] = "Physic+",
@@ -383,18 +395,6 @@
     [LANGUAGE_JAPANESE] = "自分のＨＰが２以上で敵の致死攻撃を受けた時、" TEXT_CMD_NEWLINE "ダメージをＨＰが１残るように軽減",
     [LANGUAGE_ENGLISH] = "If unit’s HP > 1 and foe would reduce unit’s HP" TEXT_CMD_NEWLINE "to 0, unit survives with 1 HP.",
     [LANGUAGE_CHINESE] = "当自己的ＨＰ高于２，且遭受敌人致命攻击时，" TEXT_CMD_NEWLINE "将伤害降低至自身ＨＰ会剩下１",
-},
-
-[MSID_銀の斧] = {
-    [LANGUAGE_JAPANESE] = "銀の斧",
-    [LANGUAGE_ENGLISH] = "Silver Axe",
-    [LANGUAGE_CHINESE] = "银斧",
-},
-
-[MSID_H_銀の斧] = {
-    [LANGUAGE_JAPANESE] = "",
-    [LANGUAGE_ENGLISH] = "",
-    [LANGUAGE_CHINESE] = "",
 },
 
 [MSID_銀の斧P] = {
@@ -467,6 +467,18 @@
     [LANGUAGE_JAPANESE] = "",
     [LANGUAGE_ENGLISH] = "",
     [LANGUAGE_CHINESE] = "",
+},
+
+[MSID_陽影] = {
+    [LANGUAGE_JAPANESE] = "陽影",
+    [LANGUAGE_ENGLISH] = "Daylight",
+    [LANGUAGE_CHINESE] = "黎明",
+},
+
+[MSID_H_陽影] = {
+    [LANGUAGE_JAPANESE] = "与えたダメージの３０％自分を回復",
+    [LANGUAGE_ENGLISH] = "Restores HP = 30% of damage dealt.",
+    [LANGUAGE_CHINESE] = "让自己回复给予敌人伤害的３０％",
 },
 
 [MSID_引き寄せ] = {
@@ -587,18 +599,6 @@
     [LANGUAGE_JAPANESE] = "１０回復",
     [LANGUAGE_ENGLISH] = "Restores 10 HP to target ally.",
     [LANGUAGE_CHINESE] = "回复１０ＨＰ",
-},
-
-[MSID_陽影] = {
-    [LANGUAGE_JAPANESE] = "陽影",
-    [LANGUAGE_ENGLISH] = "Daylight",
-    [LANGUAGE_CHINESE] = "黎明",
-},
-
-[MSID_H_陽影] = {
-    [LANGUAGE_JAPANESE] = "与えたダメージの３０％自分を回復",
-    [LANGUAGE_ENGLISH] = "Restores HP = 30% of damage dealt.",
-    [LANGUAGE_CHINESE] = "让自己回复给予敌人伤害的３０％",
 },
 
 [MSID_キャンセル3] = {
@@ -805,6 +805,18 @@
     [LANGUAGE_CHINESE] = "",
 },
 
+[MSID_流星] = {
+    [LANGUAGE_JAPANESE] = "流星",
+    [LANGUAGE_ENGLISH] = "Astra",
+    [LANGUAGE_CHINESE] = "流星",
+},
+
+[MSID_H_流星] = {
+    [LANGUAGE_JAPANESE] = "与えるダメージ２．５倍",
+    [LANGUAGE_ENGLISH] = "Boosts damage dealt by 150%.",
+    [LANGUAGE_CHINESE] = "给予２．５倍的伤害",
+},
+
 [MSID_遠距離防御3] = {
     [LANGUAGE_JAPANESE] = "遠距離防御３",
     [LANGUAGE_ENGLISH] = "Distant Def 3",
@@ -827,18 +839,6 @@
     [LANGUAGE_JAPANESE] = "",
     [LANGUAGE_ENGLISH] = "",
     [LANGUAGE_CHINESE] = "",
-},
-
-[MSID_流星] = {
-    [LANGUAGE_JAPANESE] = "流星",
-    [LANGUAGE_ENGLISH] = "Astra",
-    [LANGUAGE_CHINESE] = "流星",
-},
-
-[MSID_H_流星] = {
-    [LANGUAGE_JAPANESE] = "与えるダメージ２．５倍",
-    [LANGUAGE_ENGLISH] = "Boosts damage dealt by 150%.",
-    [LANGUAGE_CHINESE] = "给予２．５倍的伤害",
 },
 
 [MSID_始まりの鼓動3] = {
@@ -959,6 +959,18 @@
     [LANGUAGE_JAPANESE] = "与えたダメージの３０％自分を回復",
     [LANGUAGE_ENGLISH] = "Restores HP = 30% of damage dealt.",
     [LANGUAGE_CHINESE] = "让自己回复给予敌人伤害的３０％",
+},
+
+[MSID_攻撃の応援] = {
+    [LANGUAGE_JAPANESE] = "攻撃の応援",
+    [LANGUAGE_ENGLISH] = "Rally Attack",
+    [LANGUAGE_CHINESE] = "攻击支援",
+},
+
+[MSID_H_攻撃の応援] = {
+    [LANGUAGE_JAPANESE] = "対象の攻撃＋４（１ターン）",
+    [LANGUAGE_ENGLISH] = "Grants Atk+4 to target ally for 1 turn.",
+    [LANGUAGE_CHINESE] = "指定目标的攻击＋４（１回合）",
 },
 
 [MSID_灼熱のブレス] = {
@@ -1127,18 +1139,6 @@
     [LANGUAGE_JAPANESE] = "飛行特効　奥義が発動しやすい（発動カウント－１）",
     [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1)." TEXT_CMD_NEWLINE "Effective against flying foes.",
     [LANGUAGE_CHINESE] = "克制飞行　容易发动奥义（发动计量－１）",
-},
-
-[MSID_攻撃の応援] = {
-    [LANGUAGE_JAPANESE] = "攻撃の応援",
-    [LANGUAGE_ENGLISH] = "Rally Attack",
-    [LANGUAGE_CHINESE] = "攻击支援",
-},
-
-[MSID_H_攻撃の応援] = {
-    [LANGUAGE_JAPANESE] = "対象の攻撃＋４（１ターン）",
-    [LANGUAGE_ENGLISH] = "Grants Atk+4 to target ally for 1 turn.",
-    [LANGUAGE_CHINESE] = "指定目标的攻击＋４（１回合）",
 },
 
 [MSID_ミィル] = {
@@ -1537,6 +1537,30 @@
     [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗后，" TEXT_CMD_NEWLINE "让敌人移动到自己的所在位置，自己则后退１格",
 },
 
+[MSID_攻撃の紋章1] = {
+    [LANGUAGE_JAPANESE] = "攻撃の紋章１",
+    [LANGUAGE_ENGLISH] = "Spur Atk 1",
+    [LANGUAGE_CHINESE] = "攻击纹章１",
+},
+
+[MSID_H_攻撃の紋章1] = {
+    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、攻撃＋２",
+    [LANGUAGE_ENGLISH] = "Grants Atk+2 to adjacent allies during combat.",
+    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的攻击＋２",
+},
+
+[MSID_待ち伏せ3] = {
+    [LANGUAGE_JAPANESE] = "待ち伏せ３",
+    [LANGUAGE_ENGLISH] = "Vantage 3",
+    [LANGUAGE_CHINESE] = "埋伏３",
+},
+
+[MSID_H_待ち伏せ3] = {
+    [LANGUAGE_JAPANESE] = "自分のＨＰが７５％以下で、" TEXT_CMD_NEWLINE "敵から攻撃された時、先制攻撃",
+    [LANGUAGE_ENGLISH] = "If unit’s HP ≤ 75% and foe initiates combat, unit" TEXT_CMD_NEWLINE "can counterattack before foe’s first attack.",
+    [LANGUAGE_CHINESE] = "若自身ＨＰ低于７５％，" TEXT_CMD_NEWLINE "受到敌人攻击时，可抢先攻击",
+},
+
 [MSID_キラーアクス2P] = {
     [LANGUAGE_JAPANESE] = "キラーアクス鍛＋",
     [LANGUAGE_ENGLISH] = "Slaying Axe+",
@@ -1561,6 +1585,18 @@
     [LANGUAGE_CHINESE] = "回复８ＨＰ　射程２",
 },
 
+[MSID_鬼神の一撃1] = {
+    [LANGUAGE_JAPANESE] = "鬼神の一撃１",
+    [LANGUAGE_ENGLISH] = "Death Blow 1",
+    [LANGUAGE_CHINESE] = "鬼神一击１",
+},
+
+[MSID_H_鬼神の一撃1] = {
+    [LANGUAGE_JAPANESE] = "自分から攻撃した時、戦闘中の攻撃＋２",
+    [LANGUAGE_ENGLISH] = "If unit initiates combat, grants Atk+2 during" TEXT_CMD_NEWLINE "combat.",
+    [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗中的攻击＋２",
+},
+
 [MSID_編隊飛行3] = {
     [LANGUAGE_JAPANESE] = "編隊飛行３",
     [LANGUAGE_ENGLISH] = "Flier Formation 3",
@@ -1583,18 +1619,6 @@
     [LANGUAGE_JAPANESE] = "敵の２距離攻撃のダメージを３０％軽減",
     [LANGUAGE_ENGLISH] = "If foe is 2 spaces from unit, reduces damage" TEXT_CMD_NEWLINE "from foe's attack by 30%.",
     [LANGUAGE_CHINESE] = "受到敌人的２格距离攻击时，降低伤害３０％",
-},
-
-[MSID_攻撃の紋章1] = {
-    [LANGUAGE_JAPANESE] = "攻撃の紋章１",
-    [LANGUAGE_ENGLISH] = "Spur Atk 1",
-    [LANGUAGE_CHINESE] = "攻击纹章１",
-},
-
-[MSID_H_攻撃の紋章1] = {
-    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、攻撃＋２",
-    [LANGUAGE_ENGLISH] = "Grants Atk+2 to adjacent allies during combat.",
-    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的攻击＋２",
 },
 
 [MSID_ぶちかまし] = {
@@ -1657,16 +1681,16 @@
     [LANGUAGE_CHINESE] = "指定目标的防守＋４（１回合）",
 },
 
-[MSID_待ち伏せ3] = {
-    [LANGUAGE_JAPANESE] = "待ち伏せ３",
-    [LANGUAGE_ENGLISH] = "Vantage 3",
-    [LANGUAGE_CHINESE] = "埋伏３",
+[MSID_太陽] = {
+    [LANGUAGE_JAPANESE] = "太陽",
+    [LANGUAGE_ENGLISH] = "Sol",
+    [LANGUAGE_CHINESE] = "太阳",
 },
 
-[MSID_H_待ち伏せ3] = {
-    [LANGUAGE_JAPANESE] = "自分のＨＰが７５％以下で、" TEXT_CMD_NEWLINE "敵から攻撃された時、先制攻撃",
-    [LANGUAGE_ENGLISH] = "If unit’s HP ≤ 75% and foe initiates combat, unit" TEXT_CMD_NEWLINE "can counterattack before foe’s first attack.",
-    [LANGUAGE_CHINESE] = "若自身ＨＰ低于７５％，" TEXT_CMD_NEWLINE "受到敌人攻击时，可抢先攻击",
+[MSID_H_太陽] = {
+    [LANGUAGE_JAPANESE] = "与えたダメージの５０％自分を回復",
+    [LANGUAGE_ENGLISH] = "Restores HP = 50% of damage dealt.",
+    [LANGUAGE_CHINESE] = "让自己回复给予敌人伤害的５０％",
 },
 
 [MSID_聖兜] = {
@@ -1691,18 +1715,6 @@
     [LANGUAGE_JAPANESE] = "自分から攻撃した時、戦闘後、自分の周囲１マスの" TEXT_CMD_NEWLINE "味方の守備、魔防＋４（１ターン）",
     [LANGUAGE_ENGLISH] = "If unit initiates combat, grants Def/Res+4 to" TEXT_CMD_NEWLINE "adjacent allies for 1 turn after combat.",
     [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗后，自己周围１格内我方的" TEXT_CMD_NEWLINE "防守及魔防＋４（１回合）",
-},
-
-[MSID_鬼神の一撃1] = {
-    [LANGUAGE_JAPANESE] = "鬼神の一撃１",
-    [LANGUAGE_ENGLISH] = "Death Blow 1",
-    [LANGUAGE_CHINESE] = "鬼神一击１",
-},
-
-[MSID_H_鬼神の一撃1] = {
-    [LANGUAGE_JAPANESE] = "自分から攻撃した時、戦闘中の攻撃＋２",
-    [LANGUAGE_ENGLISH] = "If unit initiates combat, grants Atk+2 during" TEXT_CMD_NEWLINE "combat.",
-    [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗中的攻击＋２",
 },
 
 [MSID_空からの先導3] = {
@@ -1811,18 +1823,6 @@
     [LANGUAGE_JAPANESE] = "速さが敵より高い時、受けた範囲奥義のダメージと、" TEXT_CMD_NEWLINE "戦闘中に攻撃を受けた時のダメージを" TEXT_CMD_NEWLINE "速さの差×４％軽減（最大４０％）" TEXT_CMD_NEWLINE "（巨影の範囲奥義を除く）" TEXT_CMD_NEWLINE "自身のＨＰ７５％以下で、攻撃時発動の奥義装備時、" TEXT_CMD_NEWLINE "奥義発動時、奥義によるダメージ＋５",
     [LANGUAGE_ENGLISH] = "If unit's Spd > foe's Spd, reduces damage from" TEXT_CMD_NEWLINE "attacks during combat and from area-of-effect" TEXT_CMD_NEWLINE "Specials (excluding Røkkr area-of-effect" TEXT_CMD_NEWLINE "Specials) by percentage = difference between" TEXT_CMD_NEWLINE "stats × 4 (max 40%). If unit's HP ≤ 75% and" TEXT_CMD_NEWLINE "unit's attack can trigger their Special, deals +5" TEXT_CMD_NEWLINE "damage when Special triggers.",
     [LANGUAGE_CHINESE] = "速度高于敌人时，受到的范围奥义伤害" TEXT_CMD_NEWLINE "以及战斗中所受到的攻击伤害" TEXT_CMD_NEWLINE "降低速度差×４％（最大４０％）" TEXT_CMD_NEWLINE "（巨影的范围奥义除外）" TEXT_CMD_NEWLINE "若自身ＨＰ在７５％以下，且装备有在攻击时发动的奥义，" TEXT_CMD_NEWLINE "发动奥义时，奥义造成的伤害＋５",
-},
-
-[MSID_太陽] = {
-    [LANGUAGE_JAPANESE] = "太陽",
-    [LANGUAGE_ENGLISH] = "Sol",
-    [LANGUAGE_CHINESE] = "太阳",
-},
-
-[MSID_H_太陽] = {
-    [LANGUAGE_JAPANESE] = "与えたダメージの５０％自分を回復",
-    [LANGUAGE_ENGLISH] = "Restores HP = 50% of damage dealt.",
-    [LANGUAGE_CHINESE] = "让自己回复给予敌人伤害的５０％",
 },
 
 [MSID_剣殺し3] = {
@@ -2197,6 +2197,18 @@
     [LANGUAGE_CHINESE] = "指定目标的魔防＋４（１回合）",
 },
 
+[MSID_魔防の紋章1] = {
+    [LANGUAGE_JAPANESE] = "魔防の紋章１",
+    [LANGUAGE_ENGLISH] = "Spur Res 1",
+    [LANGUAGE_CHINESE] = "魔防纹章１",
+},
+
+[MSID_H_魔防の紋章1] = {
+    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、魔防＋２",
+    [LANGUAGE_ENGLISH] = "Grants Res+2 to adjacent allies during combat.",
+    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的魔防＋２",
+},
+
 [MSID_攻撃魔防の渾身3] = {
     [LANGUAGE_JAPANESE] = "攻撃魔防の渾身３",
     [LANGUAGE_ENGLISH] = "Atk/Res Push 3",
@@ -2425,18 +2437,6 @@
     [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的防守＋２",
 },
 
-[MSID_魔防の紋章1] = {
-    [LANGUAGE_JAPANESE] = "魔防の紋章１",
-    [LANGUAGE_ENGLISH] = "Spur Res 1",
-    [LANGUAGE_CHINESE] = "魔防纹章１",
-},
-
-[MSID_H_魔防の紋章1] = {
-    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、魔防＋２",
-    [LANGUAGE_ENGLISH] = "Grants Res+2 to adjacent allies during combat.",
-    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的魔防＋２",
-},
-
 [MSID_騎刃の紋章] = {
     [LANGUAGE_JAPANESE] = "騎刃の紋章",
     [LANGUAGE_ENGLISH] = "Goad Cavalry",
@@ -2519,6 +2519,18 @@
     [LANGUAGE_JAPANESE] = "周囲２マス以内の味方は、" TEXT_CMD_NEWLINE "戦闘中、魔防＋４" TEXT_CMD_NEWLINE "周囲２マス以内に味方がいる時、" TEXT_CMD_NEWLINE "戦闘中、自身の魔防＋４",
     [LANGUAGE_ENGLISH] = "Grants Res+4 to allies within 2 spaces during" TEXT_CMD_NEWLINE "combat. If unit is within 2 spaces of an ally," TEXT_CMD_NEWLINE "grants Res+4 to unit during combat.",
     [LANGUAGE_CHINESE] = "周围２格内的我方" TEXT_CMD_NEWLINE "战斗中的魔防＋４" TEXT_CMD_NEWLINE "周围２格内有我方单位时，" TEXT_CMD_NEWLINE "自己在战斗中的魔防＋４",
+},
+
+[MSID_攻撃の紋章2] = {
+    [LANGUAGE_JAPANESE] = "攻撃の紋章２",
+    [LANGUAGE_ENGLISH] = "Spur Atk 2",
+    [LANGUAGE_CHINESE] = "攻击纹章２",
+},
+
+[MSID_H_攻撃の紋章2] = {
+    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、攻撃＋３",
+    [LANGUAGE_ENGLISH] = "Grants Atk+3 to adjacent allies during combat.",
+    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的攻击＋３",
 },
 
 [MSID_速さ魔防の凪3] = {
@@ -2783,18 +2795,6 @@
     [LANGUAGE_JAPANESE] = "攻撃、速さ＋４　守備、魔防－４",
     [LANGUAGE_ENGLISH] = "Grants Atk/Spd+4." TEXT_CMD_NEWLINE "Inflicts Def/Res-4.",
     [LANGUAGE_CHINESE] = "攻击及速度＋４　防守及魔防－４",
-},
-
-[MSID_攻撃の紋章2] = {
-    [LANGUAGE_JAPANESE] = "攻撃の紋章２",
-    [LANGUAGE_ENGLISH] = "Spur Atk 2",
-    [LANGUAGE_CHINESE] = "攻击纹章２",
-},
-
-[MSID_H_攻撃の紋章2] = {
-    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、攻撃＋３",
-    [LANGUAGE_ENGLISH] = "Grants Atk+3 to adjacent allies during combat.",
-    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的攻击＋３",
 },
 
 [MSID_守備の封印3] = {
@@ -3373,6 +3373,18 @@
     [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗中的攻击＋６、防守＋１０" TEXT_CMD_NEWLINE "且敌方无法追击",
 },
 
+[MSID_攻撃の紋章3] = {
+    [LANGUAGE_JAPANESE] = "攻撃の紋章３",
+    [LANGUAGE_ENGLISH] = "Spur Atk 3",
+    [LANGUAGE_CHINESE] = "攻击纹章３",
+},
+
+[MSID_H_攻撃の紋章3] = {
+    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、攻撃＋４",
+    [LANGUAGE_ENGLISH] = "Grants Atk+4 to adjacent allies during combat.",
+    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的攻击＋４",
+},
+
 [MSID_離脱の行路3] = {
     [LANGUAGE_JAPANESE] = "離脱の行路３",
     [LANGUAGE_ENGLISH] = "Escape Route 3",
@@ -3661,6 +3673,30 @@
     [LANGUAGE_CHINESE] = "和无属性的敌人战斗时，" TEXT_CMD_NEWLINE "自己在三角互克中占优势，敌人居劣势",
 },
 
+[MSID_鬼神の一撃2] = {
+    [LANGUAGE_JAPANESE] = "鬼神の一撃２",
+    [LANGUAGE_ENGLISH] = "Death Blow 2",
+    [LANGUAGE_CHINESE] = "鬼神一击２",
+},
+
+[MSID_H_鬼神の一撃2] = {
+    [LANGUAGE_JAPANESE] = "自分から攻撃した時、戦闘中の攻撃＋４",
+    [LANGUAGE_ENGLISH] = "If unit initiates combat, grants Atk+4 during" TEXT_CMD_NEWLINE "combat.",
+    [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗中的攻击＋４",
+},
+
+[MSID_速さ3] = {
+    [LANGUAGE_JAPANESE] = "速さ３",
+    [LANGUAGE_ENGLISH] = "Speed +3",
+    [LANGUAGE_CHINESE] = "速度３",
+},
+
+[MSID_H_速さ3] = {
+    [LANGUAGE_JAPANESE] = "速さ＋３",
+    [LANGUAGE_ENGLISH] = "Grants Spd+3.",
+    [LANGUAGE_CHINESE] = "速度＋３",
+},
+
 [MSID_金剛の構え1] = {
     [LANGUAGE_JAPANESE] = "金剛の構え１",
     [LANGUAGE_ENGLISH] = "Steady Stance 1",
@@ -3755,18 +3791,6 @@
     [LANGUAGE_JAPANESE] = "ターン開始時、自分のＨＰが５０％以下なら攻撃＋７",
     [LANGUAGE_ENGLISH] = "At start of turn, if unit's HP ≤ 50%, grants Atk+7" TEXT_CMD_NEWLINE "for 1 turn.",
     [LANGUAGE_CHINESE] = "回合开始时，若自身ＨＰ低于５０％，则攻击＋７",
-},
-
-[MSID_攻撃の紋章3] = {
-    [LANGUAGE_JAPANESE] = "攻撃の紋章３",
-    [LANGUAGE_ENGLISH] = "Spur Atk 3",
-    [LANGUAGE_CHINESE] = "攻击纹章３",
-},
-
-[MSID_H_攻撃の紋章3] = {
-    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、攻撃＋４",
-    [LANGUAGE_ENGLISH] = "Grants Atk+4 to adjacent allies during combat.",
-    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的攻击＋４",
 },
 
 [MSID_不治の幻煙3] = {
@@ -4009,16 +4033,16 @@
     [LANGUAGE_CHINESE] = "容易发动奥义（发动计量－１）" TEXT_CMD_NEWLINE "若在战斗时进行攻击，战斗后" TEXT_CMD_NEWLINE "对方与其周围２格内的敌人防守及魔防－７" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
 },
 
-[MSID_鬼神の一撃2] = {
-    [LANGUAGE_JAPANESE] = "鬼神の一撃２",
-    [LANGUAGE_ENGLISH] = "Death Blow 2",
-    [LANGUAGE_CHINESE] = "鬼神一击２",
+[MSID_魔防の紋章2] = {
+    [LANGUAGE_JAPANESE] = "魔防の紋章２",
+    [LANGUAGE_ENGLISH] = "Spur Res 2",
+    [LANGUAGE_CHINESE] = "魔防纹章２",
 },
 
-[MSID_H_鬼神の一撃2] = {
-    [LANGUAGE_JAPANESE] = "自分から攻撃した時、戦闘中の攻撃＋４",
-    [LANGUAGE_ENGLISH] = "If unit initiates combat, grants Atk+4 during" TEXT_CMD_NEWLINE "combat.",
-    [LANGUAGE_CHINESE] = "由自己发动攻击时，战斗中的攻击＋４",
+[MSID_H_魔防の紋章2] = {
+    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、魔防＋３",
+    [LANGUAGE_ENGLISH] = "Grants Res+3 to adjacent allies during combat.",
+    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的魔防＋３",
 },
 
 [MSID_ホースキラーP] = {
@@ -4175,18 +4199,6 @@
     [LANGUAGE_JAPANESE] = "周囲２マスの敵は、" TEXT_CMD_NEWLINE "戦闘中、攻撃、守備－４",
     [LANGUAGE_ENGLISH] = "Inflicts Atk/Def-4 on foes within 2 spaces" TEXT_CMD_NEWLINE "during combat.",
     [LANGUAGE_CHINESE] = "周围２格内的敌人" TEXT_CMD_NEWLINE "战斗中的攻击及防守－４",
-},
-
-[MSID_速さ3] = {
-    [LANGUAGE_JAPANESE] = "速さ３",
-    [LANGUAGE_ENGLISH] = "Speed +3",
-    [LANGUAGE_CHINESE] = "速度３",
-},
-
-[MSID_H_速さ3] = {
-    [LANGUAGE_JAPANESE] = "速さ＋３",
-    [LANGUAGE_ENGLISH] = "Grants Spd+3.",
-    [LANGUAGE_CHINESE] = "速度＋３",
 },
 
 [MSID_魔防1] = {
@@ -4513,6 +4525,54 @@
     [LANGUAGE_CHINESE] = "和无属性的敌人战斗时，" TEXT_CMD_NEWLINE "自己在三角互克中占优势，敌人居劣势",
 },
 
+[MSID_速さ1] = {
+    [LANGUAGE_JAPANESE] = "速さ１",
+    [LANGUAGE_ENGLISH] = "Speed +1",
+    [LANGUAGE_CHINESE] = "速度１",
+},
+
+[MSID_H_速さ1] = {
+    [LANGUAGE_JAPANESE] = "速さ＋１",
+    [LANGUAGE_ENGLISH] = "Grants Spd+1.",
+    [LANGUAGE_CHINESE] = "速度＋１",
+},
+
+[MSID_守備の鼓舞2] = {
+    [LANGUAGE_JAPANESE] = "守備の鼓舞２",
+    [LANGUAGE_ENGLISH] = "Fortify Def 2",
+    [LANGUAGE_CHINESE] = "防守鼓舞２",
+},
+
+[MSID_H_守備の鼓舞2] = {
+    [LANGUAGE_JAPANESE] = "ターン開始時、周囲１マスの味方の" TEXT_CMD_NEWLINE "守備＋３（１ターン）",
+    [LANGUAGE_ENGLISH] = "At start of turn, grants Def+3 to adjacent allies for" TEXT_CMD_NEWLINE "1 turn.",
+    [LANGUAGE_CHINESE] = "回合开始时，周围１格内我方的" TEXT_CMD_NEWLINE "防守＋３（１回合）",
+},
+
+[MSID_待ち伏せ2] = {
+    [LANGUAGE_JAPANESE] = "待ち伏せ２",
+    [LANGUAGE_ENGLISH] = "Vantage 2",
+    [LANGUAGE_CHINESE] = "埋伏２",
+},
+
+[MSID_H_待ち伏せ2] = {
+    [LANGUAGE_JAPANESE] = "自分のＨＰが５０％以下で、" TEXT_CMD_NEWLINE "敵から攻撃された時、先制攻撃",
+    [LANGUAGE_ENGLISH] = "If unit’s HP ≤ 50% and foe initiates combat, unit" TEXT_CMD_NEWLINE "can counterattack before foe’s first attack.",
+    [LANGUAGE_CHINESE] = "若自身ＨＰ低于５０％，" TEXT_CMD_NEWLINE "受到敌人攻击时，可抢先攻击",
+},
+
+[MSID_魔防の紋章3] = {
+    [LANGUAGE_JAPANESE] = "魔防の紋章３",
+    [LANGUAGE_ENGLISH] = "Spur Res 3",
+    [LANGUAGE_CHINESE] = "魔防纹章３",
+},
+
+[MSID_H_魔防の紋章3] = {
+    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、魔防＋４",
+    [LANGUAGE_ENGLISH] = "Grants Res+4 to adjacent allies during combat.",
+    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的魔防＋４",
+},
+
 [MSID_牽制の弓P] = {
     [LANGUAGE_JAPANESE] = "牽制の弓＋",
     [LANGUAGE_ENGLISH] = "Rein Bow+",
@@ -4619,18 +4679,6 @@
     [LANGUAGE_JAPANESE] = "敵のＨＰが１００％で戦闘開始時、または" TEXT_CMD_NEWLINE "敵が【不利な状態異常】を受けている時、" TEXT_CMD_NEWLINE "戦闘中、自分の攻撃、速さ＋５" TEXT_CMD_NEWLINE "【不利な状態異常】" TEXT_CMD_NEWLINE "「敵の次回行動終了まで」の効果全般" TEXT_CMD_NEWLINE "（弱化、移動制限、パニック、反撃不可、" TEXT_CMD_NEWLINE "　相性激化、キャンセル等）",
     [LANGUAGE_ENGLISH] = "At start of combat, if foe’s HP = 100% or" TEXT_CMD_NEWLINE "if【Penalty】is active on foe, grants Atk/Spd+5" TEXT_CMD_NEWLINE "to unit during combat." TEXT_CMD_NEWLINE "【Penalty】" TEXT_CMD_NEWLINE "All effects that last \"on foe through its next" TEXT_CMD_NEWLINE "action.\" Includes penalties inflicted by a skill" TEXT_CMD_NEWLINE "like Panic or Threaten and negative status" TEXT_CMD_NEWLINE "effects (preventing counterattacks, restricting" TEXT_CMD_NEWLINE "movement, or the effects of a skill like" TEXT_CMD_NEWLINE "Triangle Adept or Guard).",
     [LANGUAGE_CHINESE] = "在敌人的ＨＰ为１００％的状态下展开战斗时，" TEXT_CMD_NEWLINE "或敌人受到【不利的异常状态】时，" TEXT_CMD_NEWLINE "自己在战斗中的攻击及速度＋５" TEXT_CMD_NEWLINE "【不利的异常状态】" TEXT_CMD_NEWLINE "「直到敌人下次行动结束」的所有效果" TEXT_CMD_NEWLINE "（弱化、移动限制、慌乱、无法反击、" TEXT_CMD_NEWLINE "　强化互克、取消等）",
-},
-
-[MSID_魔防の紋章2] = {
-    [LANGUAGE_JAPANESE] = "魔防の紋章２",
-    [LANGUAGE_ENGLISH] = "Spur Res 2",
-    [LANGUAGE_CHINESE] = "魔防纹章２",
-},
-
-[MSID_H_魔防の紋章2] = {
-    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、魔防＋３",
-    [LANGUAGE_ENGLISH] = "Grants Res+3 to adjacent allies during combat.",
-    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的魔防＋３",
 },
 
 [MSID_飛燕の構え1] = {
@@ -5137,6 +5185,42 @@
     [LANGUAGE_CHINESE] = "速度高于敌人时，受到的范围奥义伤害" TEXT_CMD_NEWLINE "以及战斗中所受到的攻击伤害" TEXT_CMD_NEWLINE "降低速度差×４％（最大４０％）" TEXT_CMD_NEWLINE "（巨影的范围奥义除外）" TEXT_CMD_NEWLINE "由自己发动攻击时，" TEXT_CMD_NEWLINE "战斗后让敌人朝自己的反方向移动１格",
 },
 
+[MSID_守備の鼓舞1] = {
+    [LANGUAGE_JAPANESE] = "守備の鼓舞１",
+    [LANGUAGE_ENGLISH] = "Fortify Def 1",
+    [LANGUAGE_CHINESE] = "防守鼓舞１",
+},
+
+[MSID_H_守備の鼓舞1] = {
+    [LANGUAGE_JAPANESE] = "ターン開始時、周囲１マスの味方の" TEXT_CMD_NEWLINE "守備＋２（１ターン）",
+    [LANGUAGE_ENGLISH] = "At start of turn, grants Def+2 to adjacent allies for" TEXT_CMD_NEWLINE "1 turn.",
+    [LANGUAGE_CHINESE] = "回合开始时，周围１格内我方的" TEXT_CMD_NEWLINE "防守＋２（１回合）",
+},
+
+[MSID_守備の鼓舞3] = {
+    [LANGUAGE_JAPANESE] = "守備の鼓舞３",
+    [LANGUAGE_ENGLISH] = "Fortify Def 3",
+    [LANGUAGE_CHINESE] = "防守鼓舞３",
+},
+
+[MSID_H_守備の鼓舞3] = {
+    [LANGUAGE_JAPANESE] = "ターン開始時、周囲１マスの味方の" TEXT_CMD_NEWLINE "守備＋４（１ターン）",
+    [LANGUAGE_ENGLISH] = "At start of turn, grants Def+4 to adjacent allies for" TEXT_CMD_NEWLINE "1 turn.",
+    [LANGUAGE_CHINESE] = "回合开始时，周围１格内我方的" TEXT_CMD_NEWLINE "防守＋４（１回合）",
+},
+
+[MSID_待ち伏せ1] = {
+    [LANGUAGE_JAPANESE] = "待ち伏せ１",
+    [LANGUAGE_ENGLISH] = "Vantage 1",
+    [LANGUAGE_CHINESE] = "埋伏１",
+},
+
+[MSID_H_待ち伏せ1] = {
+    [LANGUAGE_JAPANESE] = "自分のＨＰが２５％以下で、" TEXT_CMD_NEWLINE "敵から攻撃された時、先制攻撃",
+    [LANGUAGE_ENGLISH] = "If unit’s HP ≤ 25% and foe initiates combat, unit" TEXT_CMD_NEWLINE "can counterattack before foe’s first attack.",
+    [LANGUAGE_CHINESE] = "若自身ＨＰ低于２５％，" TEXT_CMD_NEWLINE "受到敌人攻击时，可抢先攻击",
+},
+
 [MSID_速さの波・奇数3] = {
     [LANGUAGE_JAPANESE] = "速さの波・奇数３",
     [LANGUAGE_ENGLISH] = "Odd Spd Wave 3",
@@ -5183,18 +5267,6 @@
     [LANGUAGE_JAPANESE] = "自身が" TEXT_CMD_NEWLINE "受けるダメージは０になる。",
     [LANGUAGE_ENGLISH] = "Reduces damage dealt to unit to 0.",
     [LANGUAGE_CHINESE] = "将自身所受到的伤害变成０。",
-},
-
-[MSID_速さ1] = {
-    [LANGUAGE_JAPANESE] = "速さ１",
-    [LANGUAGE_ENGLISH] = "Speed +1",
-    [LANGUAGE_CHINESE] = "速度１",
-},
-
-[MSID_H_速さ1] = {
-    [LANGUAGE_JAPANESE] = "速さ＋１",
-    [LANGUAGE_ENGLISH] = "Grants Spd+1.",
-    [LANGUAGE_CHINESE] = "速度＋１",
 },
 
 [MSID_奥義発動の暗器P] = {
@@ -5255,18 +5327,6 @@
     [LANGUAGE_JAPANESE] = "敵の「敵の守備か魔防の低い方でダメージ計算」と" TEXT_CMD_NEWLINE "「杖は他の武器同様のダメージ計算になる」を無効化" TEXT_CMD_NEWLINE "戦闘後、ＨＰ６回復",
     [LANGUAGE_ENGLISH] = "Disables foe's skills that \"calculate damage" TEXT_CMD_NEWLINE "using the lower of foe's Def or Res\" and" TEXT_CMD_NEWLINE "\"calculate damage from staff like other" TEXT_CMD_NEWLINE "weapons.\" Restores 6 HP after combat.",
     [LANGUAGE_CHINESE] = "抵销敌人的「以其防守及魔防中较低方计算伤害」及" TEXT_CMD_NEWLINE "「杖的伤害计算公式和其他武器相同」效果" TEXT_CMD_NEWLINE "战斗后，回复６ＨＰ",
-},
-
-[MSID_魔防の紋章3] = {
-    [LANGUAGE_JAPANESE] = "魔防の紋章３",
-    [LANGUAGE_ENGLISH] = "Spur Res 3",
-    [LANGUAGE_CHINESE] = "魔防纹章３",
-},
-
-[MSID_H_魔防の紋章3] = {
-    [LANGUAGE_JAPANESE] = "周囲１マスの味方は、" TEXT_CMD_NEWLINE "戦闘中、魔防＋４",
-    [LANGUAGE_ENGLISH] = "Grants Res+4 to adjacent allies during combat.",
-    [LANGUAGE_CHINESE] = "周围１格内的我方，" TEXT_CMD_NEWLINE "战斗中的魔防＋４",
 },
 
 [MSID_強化増幅3] = {
@@ -5569,18 +5629,6 @@
     [LANGUAGE_CHINESE] = "若自身ＨＰ低于５０％，且装备有在攻击时发动的奥义，" TEXT_CMD_NEWLINE "回合开始时，奥义发动计量－１" TEXT_CMD_NEWLINE "发动奥义时，奥义造成的伤害＋１０",
 },
 
-[MSID_待ち伏せ2] = {
-    [LANGUAGE_JAPANESE] = "待ち伏せ２",
-    [LANGUAGE_ENGLISH] = "Vantage 2",
-    [LANGUAGE_CHINESE] = "埋伏２",
-},
-
-[MSID_H_待ち伏せ2] = {
-    [LANGUAGE_JAPANESE] = "自分のＨＰが５０％以下で、" TEXT_CMD_NEWLINE "敵から攻撃された時、先制攻撃",
-    [LANGUAGE_ENGLISH] = "If unit’s HP ≤ 50% and foe initiates combat, unit" TEXT_CMD_NEWLINE "can counterattack before foe’s first attack.",
-    [LANGUAGE_CHINESE] = "若自身ＨＰ低于５０％，" TEXT_CMD_NEWLINE "受到敌人攻击时，可抢先攻击",
-},
-
 [MSID_速さの威嚇1] = {
     [LANGUAGE_JAPANESE] = "速さの威嚇１",
     [LANGUAGE_ENGLISH] = "Threaten Spd 1",
@@ -5603,18 +5651,6 @@
     [LANGUAGE_JAPANESE] = "ターン開始時、周囲２マスの敵の" TEXT_CMD_NEWLINE "速さ－５（敵の次回行動終了まで）",
     [LANGUAGE_ENGLISH] = "At start of turn, inflicts Spd-5 on foes within" TEXT_CMD_NEWLINE "2 spaces through their next actions.",
     [LANGUAGE_CHINESE] = "回合开始时，周围２格内敌人的" TEXT_CMD_NEWLINE "速度－５（直到敌人下次行动结束）",
-},
-
-[MSID_守備の鼓舞2] = {
-    [LANGUAGE_JAPANESE] = "守備の鼓舞２",
-    [LANGUAGE_ENGLISH] = "Fortify Def 2",
-    [LANGUAGE_CHINESE] = "防守鼓舞２",
-},
-
-[MSID_H_守備の鼓舞2] = {
-    [LANGUAGE_JAPANESE] = "ターン開始時、周囲１マスの味方の" TEXT_CMD_NEWLINE "守備＋３（１ターン）",
-    [LANGUAGE_ENGLISH] = "At start of turn, grants Def+3 to adjacent allies for" TEXT_CMD_NEWLINE "1 turn.",
-    [LANGUAGE_CHINESE] = "回合开始时，周围１格内我方的" TEXT_CMD_NEWLINE "防守＋３（１回合）",
 },
 
 [MSID_守備の覚醒2] = {
@@ -6301,18 +6337,6 @@
     [LANGUAGE_CHINESE] = "战斗中的攻击、速度、防守、魔防提升" TEXT_CMD_NEWLINE "（提升数值为：紧邻自己的我方人数×２)",
 },
 
-[MSID_守備の鼓舞3] = {
-    [LANGUAGE_JAPANESE] = "守備の鼓舞３",
-    [LANGUAGE_ENGLISH] = "Fortify Def 3",
-    [LANGUAGE_CHINESE] = "防守鼓舞３",
-},
-
-[MSID_H_守備の鼓舞3] = {
-    [LANGUAGE_JAPANESE] = "ターン開始時、周囲１マスの味方の" TEXT_CMD_NEWLINE "守備＋４（１ターン）",
-    [LANGUAGE_ENGLISH] = "At start of turn, grants Def+4 to adjacent allies for" TEXT_CMD_NEWLINE "1 turn.",
-    [LANGUAGE_CHINESE] = "回合开始时，周围１格内我方的" TEXT_CMD_NEWLINE "防守＋４（１回合）",
-},
-
 [MSID_神罰の杖3] = {
     [LANGUAGE_JAPANESE] = "神罰の杖３",
     [LANGUAGE_ENGLISH] = "Wrathful Staff 3",
@@ -6457,18 +6481,6 @@
     [LANGUAGE_CHINESE] = "战斗后，敌人的防守及魔防－５" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
 },
 
-[MSID_待ち伏せ1] = {
-    [LANGUAGE_JAPANESE] = "待ち伏せ１",
-    [LANGUAGE_ENGLISH] = "Vantage 1",
-    [LANGUAGE_CHINESE] = "埋伏１",
-},
-
-[MSID_H_待ち伏せ1] = {
-    [LANGUAGE_JAPANESE] = "自分のＨＰが２５％以下で、" TEXT_CMD_NEWLINE "敵から攻撃された時、先制攻撃",
-    [LANGUAGE_ENGLISH] = "If unit’s HP ≤ 25% and foe initiates combat, unit" TEXT_CMD_NEWLINE "can counterattack before foe’s first attack.",
-    [LANGUAGE_CHINESE] = "若自身ＨＰ低于２５％，" TEXT_CMD_NEWLINE "受到敌人攻击时，可抢先攻击",
-},
-
 [MSID_静水の祝福] = {
     [LANGUAGE_JAPANESE] = "静水の祝福",
     [LANGUAGE_ENGLISH] = "Still-Water Balm",
@@ -6479,18 +6491,6 @@
     [LANGUAGE_JAPANESE] = "回復の杖使用時、自分を除く" TEXT_CMD_NEWLINE "全味方の魔防＋４（１ターン）",
     [LANGUAGE_ENGLISH] = "When healing an ally with a staff, grants Res+4 to" TEXT_CMD_NEWLINE "all allies for 1 turn.",
     [LANGUAGE_CHINESE] = "使用回复之杖时，让自己以外的" TEXT_CMD_NEWLINE "所有我方的魔防＋４（１回合）",
-},
-
-[MSID_守備の鼓舞1] = {
-    [LANGUAGE_JAPANESE] = "守備の鼓舞１",
-    [LANGUAGE_ENGLISH] = "Fortify Def 1",
-    [LANGUAGE_CHINESE] = "防守鼓舞１",
-},
-
-[MSID_H_守備の鼓舞1] = {
-    [LANGUAGE_JAPANESE] = "ターン開始時、周囲１マスの味方の" TEXT_CMD_NEWLINE "守備＋２（１ターン）",
-    [LANGUAGE_ENGLISH] = "At start of turn, grants Def+2 to adjacent allies for" TEXT_CMD_NEWLINE "1 turn.",
-    [LANGUAGE_CHINESE] = "回合开始时，周围１格内我方的" TEXT_CMD_NEWLINE "防守＋２（１回合）",
 },
 
 [MSID_飛刃の鼓舞] = {
@@ -6851,6 +6851,18 @@
     [LANGUAGE_JAPANESE] = "ターン開始時、" TEXT_CMD_NEWLINE "敵軍内で最も攻撃＋速さの合計値が高い敵の" TEXT_CMD_NEWLINE "攻撃、速さ－５" TEXT_CMD_NEWLINE "（敵の次回行動終了まで）",
     [LANGUAGE_ENGLISH] = "At start of turn, inflicts Atk/Spd-5 on foe on" TEXT_CMD_NEWLINE "the enemy team with the highest Atk+Spd total" TEXT_CMD_NEWLINE "through its next action.",
     [LANGUAGE_CHINESE] = "回合开始时，" TEXT_CMD_NEWLINE "敌军内攻击＋速度合计值最高的敌人" TEXT_CMD_NEWLINE "攻击及速度－５" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
+},
+
+[MSID_速さ2] = {
+    [LANGUAGE_JAPANESE] = "速さ２",
+    [LANGUAGE_ENGLISH] = "Speed +2",
+    [LANGUAGE_CHINESE] = "速度２",
+},
+
+[MSID_H_速さ2] = {
+    [LANGUAGE_JAPANESE] = "速さ＋２",
+    [LANGUAGE_ENGLISH] = "Grants Spd+2.",
+    [LANGUAGE_CHINESE] = "速度＋２",
 },
 
 [MSID_攻撃魔防の万全3] = {
@@ -8075,18 +8087,6 @@
     [LANGUAGE_JAPANESE] = "周囲１マス以内に味方がいない時、" TEXT_CMD_NEWLINE "戦闘中、敵の攻撃、魔防－５、" TEXT_CMD_NEWLINE "かつ、敵が攻撃、魔防の弱化を受けていれば、" TEXT_CMD_NEWLINE "戦闘中、敵の攻撃、魔防が弱化の値だけ減少" TEXT_CMD_NEWLINE "（能力値ごとに計算）" TEXT_CMD_NEWLINE "（例えば、攻撃－７の弱化を受けていれば、" TEXT_CMD_NEWLINE "　－７－７－５で、戦闘中、攻撃－１９となる）",
     [LANGUAGE_ENGLISH] = "If unit is not adjacent to an ally, inflicts penalty" TEXT_CMD_NEWLINE "on foe's Atk/Res during combat = 5 + any" TEXT_CMD_NEWLINE "current penalty on each of those stats." TEXT_CMD_NEWLINE "(Example: if foe has -7 penalty to Atk, inflicts" TEXT_CMD_NEWLINE "Atk-12, for a net penalty of Atk-19 during" TEXT_CMD_NEWLINE "combat.) Calculates each stat penalty" TEXT_CMD_NEWLINE "independently.",
     [LANGUAGE_CHINESE] = "周围１格以内没有我方单位时，" TEXT_CMD_NEWLINE "战斗中，敌人的攻击及魔防－５，" TEXT_CMD_NEWLINE "且若敌人的攻击及魔防受到弱化，" TEXT_CMD_NEWLINE "战斗中，敌人的攻击及魔防再下降" TEXT_CMD_NEWLINE "（下降数值为：敌人所受到的攻击及魔防的弱化值）" TEXT_CMD_NEWLINE "（依能力值不同分开计算）" TEXT_CMD_NEWLINE "（例如：攻击受到了－７的弱化，其计算方式为" TEXT_CMD_NEWLINE "　－７－７－５，合计后于战斗中的攻击－１９）",
-},
-
-[MSID_速さ2] = {
-    [LANGUAGE_JAPANESE] = "速さ２",
-    [LANGUAGE_ENGLISH] = "Speed +2",
-    [LANGUAGE_CHINESE] = "速度２",
-},
-
-[MSID_H_速さ2] = {
-    [LANGUAGE_JAPANESE] = "速さ＋２",
-    [LANGUAGE_ENGLISH] = "Grants Spd+2.",
-    [LANGUAGE_CHINESE] = "速度＋２",
 },
 
 [MSID_ニーウ] = {
@@ -13717,6 +13717,18 @@
     [LANGUAGE_CHINESE] = "受到敌人攻击时，战斗中的速度及防守＋６" TEXT_CMD_NEWLINE "且敌人奥义发动计量变化量－１" TEXT_CMD_NEWLINE "（若有多个相同系统效果，仅取最大值）",
 },
 
+[MSID_フォルクヴァング] = {
+    [LANGUAGE_JAPANESE] = "フォルクヴァング",
+    [LANGUAGE_ENGLISH] = "Fólkvangr",
+    [LANGUAGE_CHINESE] = "弗尔克范格",
+},
+
+[MSID_H_フォルクヴァング] = {
+    [LANGUAGE_JAPANESE] = "ターン開始時、自分のＨＰが５０％以下なら攻撃＋５",
+    [LANGUAGE_ENGLISH] = "At start of turn, if unit's HP ≤ 50%, grants Atk+5" TEXT_CMD_NEWLINE "for 1 turn.",
+    [LANGUAGE_CHINESE] = "回合开始时，若自身ＨＰ低于５０％，则攻击＋５",
+},
+
 [MSID_トリレンマ] = {
     [LANGUAGE_JAPANESE] = "トリレンマ",
     [LANGUAGE_ENGLISH] = "Trilemma",
@@ -16931,6 +16943,30 @@
     [LANGUAGE_JAPANESE] = "獣特効　速さ＋３" TEXT_CMD_NEWLINE "戦闘開始時、自身のＨＰが５０％以上なら" TEXT_CMD_NEWLINE "敵の魔防でダメージ計算、かつ、" TEXT_CMD_NEWLINE "戦闘中、敵の速さ、魔防－５",
     [LANGUAGE_ENGLISH] = "Effective against beast foes. Grants Spd+3." TEXT_CMD_NEWLINE "At start of combat, if unit's HP ≥ 50%," TEXT_CMD_NEWLINE "calculates damage using foe's Res, and inflicts" TEXT_CMD_NEWLINE "Spd/Res-5 on foe during combat.",
     [LANGUAGE_CHINESE] = "克制兽　速度＋３" TEXT_CMD_NEWLINE "若战斗开始时，自身ＨＰ在５０％以上" TEXT_CMD_NEWLINE "以敌人的魔防计算伤害" TEXT_CMD_NEWLINE "且战斗中，敌人的速度及魔防－５",
+},
+
+[MSID_フェンサリル] = {
+    [LANGUAGE_JAPANESE] = "フェンサリル",
+    [LANGUAGE_ENGLISH] = "Fensalir",
+    [LANGUAGE_CHINESE] = "芬萨里尔",
+},
+
+[MSID_H_フェンサリル] = {
+    [LANGUAGE_JAPANESE] = "ターン開始時、周囲２マスの敵の" TEXT_CMD_NEWLINE "攻撃－４（敵の次回行動終了まで）",
+    [LANGUAGE_ENGLISH] = "At start of turn, inflicts Atk-4 on foes within" TEXT_CMD_NEWLINE "2 spaces through their next actions.",
+    [LANGUAGE_CHINESE] = "回合开始时，周围２格内敌人的" TEXT_CMD_NEWLINE "攻击－４（直到敌人下次行动结束）",
+},
+
+[MSID_ノーアトゥーン] = {
+    [LANGUAGE_JAPANESE] = "ノーアトゥーン",
+    [LANGUAGE_ENGLISH] = "Nóatún",
+    [LANGUAGE_CHINESE] = "诺欧通",
+},
+
+[MSID_H_ノーアトゥーン] = {
+    [LANGUAGE_JAPANESE] = "自分のＨＰが４０％以下の時、" TEXT_CMD_NEWLINE "味方の隣接マスへ移動可能",
+    [LANGUAGE_ENGLISH] = "If unit’s HP ≤ 40%, unit can move to a space" TEXT_CMD_NEWLINE "adjacent to any ally.",
+    [LANGUAGE_CHINESE] = "若自身ＨＰ低于４０％，" TEXT_CMD_NEWLINE "可移动至我方的相邻格子",
 },
 
 [MSID_速さ魔防の防壁1] = {
@@ -20231,18 +20267,6 @@
     [LANGUAGE_JAPANESE] = "戦闘中、敵が受けている強化の合計値を攻撃に加算" TEXT_CMD_NEWLINE "戦闘開始時、敵のＨＰが７５％以上の時、または、" TEXT_CMD_NEWLINE "敵が【有利な状態】の時、戦闘中、攻撃、速さ＋５" TEXT_CMD_NEWLINE "【暗器（７）】効果" TEXT_CMD_NEWLINE "【有利な状態】" TEXT_CMD_NEWLINE "「１ターン」の効果全般" TEXT_CMD_NEWLINE "（強化、移動＋１、敵弱化ダメージ＋等）" TEXT_CMD_NEWLINE "【暗器（７）】" TEXT_CMD_NEWLINE "戦闘中に攻撃していれば、戦闘後に" TEXT_CMD_NEWLINE "敵と、その周囲２マスの敵の" TEXT_CMD_NEWLINE "守備、魔防－７（敵の次回行動終了まで）",
     [LANGUAGE_ENGLISH] = "Grants bonus to unit's Atk = total bonuses on" TEXT_CMD_NEWLINE "foe during combat. At start of combat, if foe's" TEXT_CMD_NEWLINE "HP ≥ 75% or【Bonus】is active on foe," TEXT_CMD_NEWLINE "grants Atk/Spd+5 to unit during combat." TEXT_CMD_NEWLINE "Effect:【Dagger ７】" TEXT_CMD_NEWLINE "【Bonus】" TEXT_CMD_NEWLINE "All effects that last \"for 1 turn\" or \"that turn" TEXT_CMD_NEWLINE "only.\" Includes bonuses granted by a skill" TEXT_CMD_NEWLINE "like Rally or Hone and positive status effects" TEXT_CMD_NEWLINE "(extra movement or effects like Dominance)." TEXT_CMD_NEWLINE "【Dagger ７】" TEXT_CMD_NEWLINE "After combat, if unit attacked, inflicts" TEXT_CMD_NEWLINE "Def/Res-７ on target and foes within" TEXT_CMD_NEWLINE "2 spaces of target through their next actions.",
     [LANGUAGE_CHINESE] = "战斗中，将敌人受到的强化状态合计值计入攻击" TEXT_CMD_NEWLINE "战斗开始时，若敌人的ＨＰ为７５％以上，" TEXT_CMD_NEWLINE "或敌人受到【有利的状态】时，" TEXT_CMD_NEWLINE "战斗中的攻击及速度＋５" TEXT_CMD_NEWLINE "【暗器（７）】效果" TEXT_CMD_NEWLINE "【有利的状态】" TEXT_CMD_NEWLINE "「１回合」的所有效果" TEXT_CMD_NEWLINE "（强化、移动＋１、敌人弱化伤害＋等）" TEXT_CMD_NEWLINE "【暗器（７）】" TEXT_CMD_NEWLINE "若在战斗时进行攻击，战斗后，" TEXT_CMD_NEWLINE "对方与其周围２格内的敌人防守及魔防－７" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
-},
-
-[MSID_フォルクヴァング] = {
-    [LANGUAGE_JAPANESE] = "フォルクヴァング",
-    [LANGUAGE_ENGLISH] = "Fólkvangr",
-    [LANGUAGE_CHINESE] = "弗尔克范格",
-},
-
-[MSID_H_フォルクヴァング] = {
-    [LANGUAGE_JAPANESE] = "ターン開始時、自分のＨＰが５０％以下なら攻撃＋５",
-    [LANGUAGE_ENGLISH] = "At start of turn, if unit's HP ≤ 50%, grants Atk+5" TEXT_CMD_NEWLINE "for 1 turn.",
-    [LANGUAGE_CHINESE] = "回合开始时，若自身ＨＰ低于５０％，则攻击＋５",
 },
 
 [MSID_竜の逆鱗3] = {

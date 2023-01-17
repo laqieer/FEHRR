@@ -47,6 +47,14 @@ def read_unit_infos(folder):
                     unit_infos[unit['id_tag']] = unit
 
 def count_units_and_skills(folder):
+    for unit in ('PID_アルフォンス', 'PID_シャロン', 'PID_アンナ'):
+        unit_counts[unit] = 9999
+        for skills in unit_infos[unit]['skills']:
+            for skill in skills:
+                if skill is not None:
+                    if skill not in skill_counts:
+                        skill_counts[skill] = 0
+                    skill_counts[skill] += 1
     for root, dirs, files in os.walk(folder):
         for file in files:
             if re.match(r'S\d{4}C\.json$', file):

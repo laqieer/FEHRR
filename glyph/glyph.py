@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Path: glyph/glyph.py
 
+import os
 import re
 import shutil
 import warnings
@@ -140,7 +141,16 @@ def make_C_source_file(glyphs, filename, language):
             f.write(f'    [0x{byte1:02x} - 0x20] = &{Path(filename).stem}_{"".join("{:02X}".format(x) for x in character.encode("utf-8"))},\n')
         f.write('};\n')
 
+def clear_glyphs(dirname, language):
+    dirname = Path(dirname)/language.name
+    for filename in os.listdir(dirname):
+        if filename.endswith('.png'):
+            os.remove(Path(dirname)/filename)
+
 def main():
+    clear_glyphs('gfx/glyph', Language.EN)
+    clear_glyphs('gfx/glyph', Language.JA)
+    clear_glyphs('gfx/glyph', Language.ZH)
     count_glyph_frequency('source/texts.c')
     count_glyph_frequency('include/scenarioTexts.h')
     count_glyph_frequency('include/unitTexts.h')
