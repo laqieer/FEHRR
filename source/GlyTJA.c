@@ -19425,7 +19425,7 @@ const struct GlyphNew GlyTJA_E98281 = { /* 邁 */
 
 const struct GlyphNew GlyTJA_E98282 = { /* 邂 */
     .next = &GlyTJA_E98281,
-    .width = 7,
+    .width = 11,
     .utf_byte_2 = 0x82,
     .utf_byte_3 = 0x82,
     .utf_byte_4 = 0x00,
