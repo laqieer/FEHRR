@@ -163,6 +163,18 @@
     [LANGUAGE_CHINESE] = "以绿属性魔道战斗的魔道士。" TEXT_CMD_NEWLINE "能力平均。",
 },
 
+[MEID_アクスナイト] = {
+    [LANGUAGE_JAPANESE] = "アクスナイト",
+    [LANGUAGE_ENGLISH] = "Axe Cavalier",
+    [LANGUAGE_CHINESE] = "斧骑士",
+},
+
+[MEID_H_アクスナイト] = {
+    [LANGUAGE_JAPANESE] = "斧で戦う騎馬兵。" TEXT_CMD_NEWLINE "移動力に優れるが、林に移動できない。",
+    [LANGUAGE_ENGLISH] = "Mounted soldier who uses an axe." TEXT_CMD_NEWLINE "Moves far, but can't enter forests.",
+    [LANGUAGE_CHINESE] = "用斧战斗的骑兵。" TEXT_CMD_NEWLINE "移动范围虽广，但无法移动到林地。",
+},
+
 [MEID_ランスナイト] = {
     [LANGUAGE_JAPANESE] = "ランスナイト",
     [LANGUAGE_ENGLISH] = "Lance Cavalier",
@@ -185,18 +197,6 @@
     [LANGUAGE_JAPANESE] = "剣で戦う歩兵。" TEXT_CMD_NEWLINE "平均的な能力を持つ。",
     [LANGUAGE_ENGLISH] = "Foot soldier who uses a" TEXT_CMD_NEWLINE "sword. Average ability.",
     [LANGUAGE_CHINESE] = "用剑战斗的步兵。" TEXT_CMD_NEWLINE "能力平均。",
-},
-
-[MEID_アクスナイト] = {
-    [LANGUAGE_JAPANESE] = "アクスナイト",
-    [LANGUAGE_ENGLISH] = "Axe Cavalier",
-    [LANGUAGE_CHINESE] = "斧骑士",
-},
-
-[MEID_H_アクスナイト] = {
-    [LANGUAGE_JAPANESE] = "斧で戦う騎馬兵。" TEXT_CMD_NEWLINE "移動力に優れるが、林に移動できない。",
-    [LANGUAGE_ENGLISH] = "Mounted soldier who uses an axe." TEXT_CMD_NEWLINE "Moves far, but can't enter forests.",
-    [LANGUAGE_CHINESE] = "用斧战斗的骑兵。" TEXT_CMD_NEWLINE "移动范围虽广，但无法移动到林地。",
 },
 
 [MEID_ソードペガサス] = {
@@ -223,6 +223,18 @@
     [LANGUAGE_CHINESE] = "用斧战斗的重装兵。" TEXT_CMD_NEWLINE "移动虽慢，但能力值高。",
 },
 
+[MEID_シーフ] = {
+    [LANGUAGE_JAPANESE] = "シーフ",
+    [LANGUAGE_ENGLISH] = "Thief",
+    [LANGUAGE_CHINESE] = "小偷",
+},
+
+[MEID_H_シーフ] = {
+    [LANGUAGE_JAPANESE] = "暗器で戦う盗賊。" TEXT_CMD_NEWLINE "暗器で敵能力を減少させる。",
+    [LANGUAGE_ENGLISH] = "A thief who uses daggers, which" TEXT_CMD_NEWLINE "lower an enemy's stats.",
+    [LANGUAGE_CHINESE] = "用暗器战斗的盗贼。" TEXT_CMD_NEWLINE "能用暗器降低敌方能力。",
+},
+
 [MEID_ボウナイト] = {
     [LANGUAGE_JAPANESE] = "ボウナイト",
     [LANGUAGE_ENGLISH] = "Bow Cavalier",
@@ -235,16 +247,16 @@
     [LANGUAGE_CHINESE] = "用弓战斗的骑兵。" TEXT_CMD_NEWLINE "移动范围虽广，但无法移动到林地。",
 },
 
-[MEID_シーフ] = {
-    [LANGUAGE_JAPANESE] = "シーフ",
-    [LANGUAGE_ENGLISH] = "Thief",
-    [LANGUAGE_CHINESE] = "小偷",
+[MEID_アクスドラゴン] = {
+    [LANGUAGE_JAPANESE] = "アクスドラゴン",
+    [LANGUAGE_ENGLISH] = "Axe Dragon",
+    [LANGUAGE_CHINESE] = "斧飞龙骑士",
 },
 
-[MEID_H_シーフ] = {
-    [LANGUAGE_JAPANESE] = "暗器で戦う盗賊。" TEXT_CMD_NEWLINE "暗器で敵能力を減少させる。",
-    [LANGUAGE_ENGLISH] = "A thief who uses daggers, which" TEXT_CMD_NEWLINE "lower an enemy's stats.",
-    [LANGUAGE_CHINESE] = "用暗器战斗的盗贼。" TEXT_CMD_NEWLINE "能用暗器降低敌方能力。",
+[MEID_H_アクスドラゴン] = {
+    [LANGUAGE_JAPANESE] = "斧で戦う飛行兵。飛竜に騎乗している。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "Wyvern rider with an axe. Flies over rivers" TEXT_CMD_NEWLINE "and mountains. Weak against bows.",
+    [LANGUAGE_CHINESE] = "骑乘飞龙、用斧战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
 [MEID_ソードアーマー] = {
@@ -271,18 +283,6 @@
     [LANGUAGE_CHINESE] = "赤属性的龙族。" TEXT_CMD_NEWLINE "战斗时会化身为龙。",
 },
 
-[MEID_アクスドラゴン] = {
-    [LANGUAGE_JAPANESE] = "アクスドラゴン",
-    [LANGUAGE_ENGLISH] = "Axe Dragon",
-    [LANGUAGE_CHINESE] = "斧飞龙骑士",
-},
-
-[MEID_H_アクスドラゴン] = {
-    [LANGUAGE_JAPANESE] = "斧で戦う飛行兵。飛竜に騎乗している。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "Wyvern rider with an axe. Flies over rivers" TEXT_CMD_NEWLINE "and mountains. Weak against bows.",
-    [LANGUAGE_CHINESE] = "骑乘飞龙、用斧战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
-},
-
 [MEID_ロッドナイト] = {
     [LANGUAGE_JAPANESE] = "ロッドナイト",
     [LANGUAGE_ENGLISH] = "Troubadour",
@@ -307,18 +307,6 @@
     [LANGUAGE_CHINESE] = "骑乘飞龙、用剑战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
-[MEID_ボウペガサス] = {
-    [LANGUAGE_JAPANESE] = "ボウペガサス",
-    [LANGUAGE_ENGLISH] = "Bow Flier",
-    [LANGUAGE_CHINESE] = "弓飞马骑士",
-},
-
-[MEID_H_ボウペガサス] = {
-    [LANGUAGE_JAPANESE] = "弓で戦う飛行兵。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "Pegasus rider with a bow. Flies over" TEXT_CMD_NEWLINE "rivers and mountains. Weak against" TEXT_CMD_NEWLINE "bows.",
-    [LANGUAGE_CHINESE] = "用弓战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
-},
-
 [MEID_ブルーナイト] = {
     [LANGUAGE_JAPANESE] = "ブルーナイト",
     [LANGUAGE_ENGLISH] = "Blue Cavalier",
@@ -331,6 +319,18 @@
     [LANGUAGE_CHINESE] = "以青属性魔道战斗的魔道骑兵。" TEXT_CMD_NEWLINE "移动范围虽广，但无法移动到林地。",
 },
 
+[MEID_ボウペガサス] = {
+    [LANGUAGE_JAPANESE] = "ボウペガサス",
+    [LANGUAGE_ENGLISH] = "Bow Flier",
+    [LANGUAGE_CHINESE] = "弓飞马骑士",
+},
+
+[MEID_H_ボウペガサス] = {
+    [LANGUAGE_JAPANESE] = "弓で戦う飛行兵。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "Pegasus rider with a bow. Flies over" TEXT_CMD_NEWLINE "rivers and mountains. Weak against" TEXT_CMD_NEWLINE "bows.",
+    [LANGUAGE_CHINESE] = "用弓战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
+},
+
 [MEID_ラウアファヴニル] = {
     [LANGUAGE_JAPANESE] = "ラウアファヴニル",
     [LANGUAGE_ENGLISH] = "Red Fáfnir",
@@ -341,30 +341,6 @@
     [LANGUAGE_JAPANESE] = "赤属性の飛行マムクート。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
     [LANGUAGE_ENGLISH] = "A flying red manakete. Flies over" TEXT_CMD_NEWLINE "rivers and mountains. Weak against" TEXT_CMD_NEWLINE "bows.",
     [LANGUAGE_CHINESE] = "赤属性的飞行龙族。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
-},
-
-[MEID_ブラーファヴニル] = {
-    [LANGUAGE_JAPANESE] = "ブラーファヴニル",
-    [LANGUAGE_ENGLISH] = "Blue Fáfnir",
-    [LANGUAGE_CHINESE] = "苍蓝法夫尼尔",
-},
-
-[MEID_H_ブラーファヴニル] = {
-    [LANGUAGE_JAPANESE] = "青属性の飛行マムクート。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "A flying blue manakete. Flies over" TEXT_CMD_NEWLINE "rivers and mountains. Weak against" TEXT_CMD_NEWLINE "bows.",
-    [LANGUAGE_CHINESE] = "青属性的飞行龙族。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
-},
-
-[MEID_アクスペガサス] = {
-    [LANGUAGE_JAPANESE] = "アクスペガサス",
-    [LANGUAGE_ENGLISH] = "Axe Flier",
-    [LANGUAGE_CHINESE] = "斧飞马骑士",
-},
-
-[MEID_H_アクスペガサス] = {
-    [LANGUAGE_JAPANESE] = "斧で戦う飛行兵。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "Pegasus rider with an axe. Flies over rivers" TEXT_CMD_NEWLINE "and mountains. Weak against bows.",
-    [LANGUAGE_CHINESE] = "用斧战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
 [MEID_グリーンナイト] = {
@@ -391,6 +367,30 @@
     [LANGUAGE_CHINESE] = "绿属性的龙族。" TEXT_CMD_NEWLINE "战斗时会化身为龙。",
 },
 
+[MEID_アクスペガサス] = {
+    [LANGUAGE_JAPANESE] = "アクスペガサス",
+    [LANGUAGE_ENGLISH] = "Axe Flier",
+    [LANGUAGE_CHINESE] = "斧飞马骑士",
+},
+
+[MEID_H_アクスペガサス] = {
+    [LANGUAGE_JAPANESE] = "斧で戦う飛行兵。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "Pegasus rider with an axe. Flies over rivers" TEXT_CMD_NEWLINE "and mountains. Weak against bows.",
+    [LANGUAGE_CHINESE] = "用斧战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
+},
+
+[MEID_ブラーファヴニル] = {
+    [LANGUAGE_JAPANESE] = "ブラーファヴニル",
+    [LANGUAGE_ENGLISH] = "Blue Fáfnir",
+    [LANGUAGE_CHINESE] = "苍蓝法夫尼尔",
+},
+
+[MEID_H_ブラーファヴニル] = {
+    [LANGUAGE_JAPANESE] = "青属性の飛行マムクート。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "A flying blue manakete. Flies over" TEXT_CMD_NEWLINE "rivers and mountains. Weak against" TEXT_CMD_NEWLINE "bows.",
+    [LANGUAGE_CHINESE] = "青属性的飞行龙族。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
+},
+
 [MEID_グリーンペガサス] = {
     [LANGUAGE_JAPANESE] = "グリーンペガサス",
     [LANGUAGE_ENGLISH] = "Green Flier",
@@ -403,16 +403,16 @@
     [LANGUAGE_CHINESE] = "以绿属性魔道战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
-[MEID_ランスファイター] = {
-    [LANGUAGE_JAPANESE] = "ランスファイター",
-    [LANGUAGE_ENGLISH] = "Lance Fighter",
-    [LANGUAGE_CHINESE] = "枪战士",
+[MEID_レッドペガサス] = {
+    [LANGUAGE_JAPANESE] = "レッドペガサス",
+    [LANGUAGE_ENGLISH] = "Red Flier",
+    [LANGUAGE_CHINESE] = "红飞马魔法师",
 },
 
-[MEID_H_ランスファイター] = {
-    [LANGUAGE_JAPANESE] = "槍で戦う歩兵。" TEXT_CMD_NEWLINE "平均的な能力を持つ。",
-    [LANGUAGE_ENGLISH] = "Foot soldier who uses a" TEXT_CMD_NEWLINE "lance. Average ability.",
-    [LANGUAGE_CHINESE] = "用枪战斗的步兵。" TEXT_CMD_NEWLINE "能力平均。",
+[MEID_H_レッドペガサス] = {
+    [LANGUAGE_JAPANESE] = "赤属性の魔道で戦う飛行兵。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "Pegasus rider with red magic. Flies" TEXT_CMD_NEWLINE "over rivers and mountains. Weak" TEXT_CMD_NEWLINE "against bows.",
+    [LANGUAGE_CHINESE] = "以赤属性魔道战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
 [MEID_ブルーペガサス] = {
@@ -427,16 +427,16 @@
     [LANGUAGE_CHINESE] = "以青属性魔道战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
-[MEID_レッドペガサス] = {
-    [LANGUAGE_JAPANESE] = "レッドペガサス",
-    [LANGUAGE_ENGLISH] = "Red Flier",
-    [LANGUAGE_CHINESE] = "红飞马魔法师",
+[MEID_ランスファイター] = {
+    [LANGUAGE_JAPANESE] = "ランスファイター",
+    [LANGUAGE_ENGLISH] = "Lance Fighter",
+    [LANGUAGE_CHINESE] = "枪战士",
 },
 
-[MEID_H_レッドペガサス] = {
-    [LANGUAGE_JAPANESE] = "赤属性の魔道で戦う飛行兵。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "Pegasus rider with red magic. Flies" TEXT_CMD_NEWLINE "over rivers and mountains. Weak" TEXT_CMD_NEWLINE "against bows.",
-    [LANGUAGE_CHINESE] = "以赤属性魔道战斗的飞行兵。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
+[MEID_H_ランスファイター] = {
+    [LANGUAGE_JAPANESE] = "槍で戦う歩兵。" TEXT_CMD_NEWLINE "平均的な能力を持つ。",
+    [LANGUAGE_ENGLISH] = "Foot soldier who uses a" TEXT_CMD_NEWLINE "lance. Average ability.",
+    [LANGUAGE_CHINESE] = "用枪战斗的步兵。" TEXT_CMD_NEWLINE "能力平均。",
 },
 
 [MEID_ブラーマムクート] = {
@@ -523,6 +523,24 @@
     [LANGUAGE_CHINESE] = "杀戮的剑士",
 },
 
+[MEID_レティシア] = {
+    [LANGUAGE_JAPANESE] = "レティシア",
+    [LANGUAGE_ENGLISH] = "Letizia",
+    [LANGUAGE_CHINESE] = "莱蒂西亚",
+},
+
+[MEID_H_レティシア] = {
+    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇族。" TEXT_CMD_NEWLINE "ヴェロニカとは姉妹同然の間柄だった。",
+    [LANGUAGE_ENGLISH] = "Royalty in the line of succession to the throne" TEXT_CMD_NEWLINE "of the Emblian Empire. Growing up, she and" TEXT_CMD_NEWLINE "Veronica were as close as sisters.",
+    [LANGUAGE_CHINESE] = "恩布拉帝国的皇族。" TEXT_CMD_NEWLINE "曾和维洛妮卡情同姊妹。",
+},
+
+[MEID_HONOR_レティシア] = {
+    [LANGUAGE_JAPANESE] = "【呪詛部隊】の長",
+    [LANGUAGE_ENGLISH] = "Curse Director",
+    [LANGUAGE_CHINESE] = "【诅咒部队】队长",
+},
+
 [MEID_ブルーノ] = {
     [LANGUAGE_JAPANESE] = "？？？",
     [LANGUAGE_ENGLISH] = "???",
@@ -551,60 +569,6 @@
     [LANGUAGE_JAPANESE] = "赤属性の弓で戦う歩兵。" TEXT_CMD_NEWLINE "平均的な能力を持つ。",
     [LANGUAGE_ENGLISH] = "Foot soldier who uses a" TEXT_CMD_NEWLINE "red bow. Average ability.",
     [LANGUAGE_CHINESE] = "用赤属性弓战斗的步兵。" TEXT_CMD_NEWLINE "能力平均。",
-},
-
-[MEID_レティシア] = {
-    [LANGUAGE_JAPANESE] = "レティシア",
-    [LANGUAGE_ENGLISH] = "Letizia",
-    [LANGUAGE_CHINESE] = "莱蒂西亚",
-},
-
-[MEID_H_レティシア] = {
-    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇族。" TEXT_CMD_NEWLINE "ヴェロニカとは姉妹同然の間柄だった。",
-    [LANGUAGE_ENGLISH] = "Royalty in the line of succession to the throne" TEXT_CMD_NEWLINE "of the Emblian Empire. Growing up, she and" TEXT_CMD_NEWLINE "Veronica were as close as sisters.",
-    [LANGUAGE_CHINESE] = "恩布拉帝国的皇族。" TEXT_CMD_NEWLINE "曾和维洛妮卡情同姊妹。",
-},
-
-[MEID_HONOR_レティシア] = {
-    [LANGUAGE_JAPANESE] = "【呪詛部隊】の長",
-    [LANGUAGE_ENGLISH] = "Curse Director",
-    [LANGUAGE_CHINESE] = "【诅咒部队】队长",
-},
-
-[MEID_スラシル] = {
-    [LANGUAGE_JAPANESE] = "スラシル",
-    [LANGUAGE_ENGLISH] = "Thrasir",
-    [LANGUAGE_CHINESE] = "史菈希尔",
-},
-
-[MEID_H_スラシル] = {
-    [LANGUAGE_JAPANESE] = "死の王国ヘルの将。女王ヘルの命令を受け、" TEXT_CMD_NEWLINE "生者を死者とするために戦う魔女。",
-    [LANGUAGE_ENGLISH] = "General of the realm of the dead. At her queen's" TEXT_CMD_NEWLINE "command, this witch uses her powers to swell" TEXT_CMD_NEWLINE "the ranks of the dead.",
-    [LANGUAGE_CHINESE] = "死之王国赫尔的将领。受女王赫尔之命，" TEXT_CMD_NEWLINE "为了将生者杀尽而战的魔女。",
-},
-
-[MEID_HONOR_スラシル] = {
-    [LANGUAGE_JAPANESE] = "鏖殺の魔女",
-    [LANGUAGE_ENGLISH] = "Omnicidal Witch",
-    [LANGUAGE_CHINESE] = "灭绝的魔女",
-},
-
-[MEID_レーヴァテイン] = {
-    [LANGUAGE_JAPANESE] = "レーヴァテイン",
-    [LANGUAGE_ENGLISH] = "Laevatein",
-    [LANGUAGE_CHINESE] = "瑞瓦提恩",
-},
-
-[MEID_H_レーヴァテイン] = {
-    [LANGUAGE_JAPANESE] = "炎の王国ムスペルの第二王女。" TEXT_CMD_NEWLINE "みずからを剣と称し、自身の感情に乏しい。",
-    [LANGUAGE_ENGLISH] = "The second princess of Múspell, the Kingdom" TEXT_CMD_NEWLINE "of Flame. She sees herself and the blade she" TEXT_CMD_NEWLINE "wields as one and the same, and keeps her" TEXT_CMD_NEWLINE "emotions in check.",
-    [LANGUAGE_CHINESE] = "炎之王国穆斯贝尔的第二公主。" TEXT_CMD_NEWLINE "将自己比喻为剑，缺乏感情波动。",
-},
-
-[MEID_HONOR_レーヴァテイン] = {
-    [LANGUAGE_JAPANESE] = "炎剣",
-    [LANGUAGE_ENGLISH] = "Searing Steel",
-    [LANGUAGE_CHINESE] = "炎剑",
 },
 
 [MEID_オッテル] = {
@@ -643,6 +607,42 @@
     [LANGUAGE_CHINESE] = "恶梦的",
 },
 
+[MEID_スラシル] = {
+    [LANGUAGE_JAPANESE] = "スラシル",
+    [LANGUAGE_ENGLISH] = "Thrasir",
+    [LANGUAGE_CHINESE] = "史菈希尔",
+},
+
+[MEID_H_スラシル] = {
+    [LANGUAGE_JAPANESE] = "死の王国ヘルの将。女王ヘルの命令を受け、" TEXT_CMD_NEWLINE "生者を死者とするために戦う魔女。",
+    [LANGUAGE_ENGLISH] = "General of the realm of the dead. At her queen's" TEXT_CMD_NEWLINE "command, this witch uses her powers to swell" TEXT_CMD_NEWLINE "the ranks of the dead.",
+    [LANGUAGE_CHINESE] = "死之王国赫尔的将领。受女王赫尔之命，" TEXT_CMD_NEWLINE "为了将生者杀尽而战的魔女。",
+},
+
+[MEID_HONOR_スラシル] = {
+    [LANGUAGE_JAPANESE] = "鏖殺の魔女",
+    [LANGUAGE_ENGLISH] = "Omnicidal Witch",
+    [LANGUAGE_CHINESE] = "灭绝的魔女",
+},
+
+[MEID_レーヴァテイン] = {
+    [LANGUAGE_JAPANESE] = "レーヴァテイン",
+    [LANGUAGE_ENGLISH] = "Laevatein",
+    [LANGUAGE_CHINESE] = "瑞瓦提恩",
+},
+
+[MEID_H_レーヴァテイン] = {
+    [LANGUAGE_JAPANESE] = "炎の王国ムスペルの第二王女。" TEXT_CMD_NEWLINE "みずからを剣と称し、自身の感情に乏しい。",
+    [LANGUAGE_ENGLISH] = "The second princess of Múspell, the Kingdom" TEXT_CMD_NEWLINE "of Flame. She sees herself and the blade she" TEXT_CMD_NEWLINE "wields as one and the same, and keeps her" TEXT_CMD_NEWLINE "emotions in check.",
+    [LANGUAGE_CHINESE] = "炎之王国穆斯贝尔的第二公主。" TEXT_CMD_NEWLINE "将自己比喻为剑，缺乏感情波动。",
+},
+
+[MEID_HONOR_レーヴァテイン] = {
+    [LANGUAGE_JAPANESE] = "炎剣",
+    [LANGUAGE_ENGLISH] = "Searing Steel",
+    [LANGUAGE_CHINESE] = "炎剑",
+},
+
 [MEID_グリーンシーフ] = {
     [LANGUAGE_JAPANESE] = "グリーンシーフ",
     [LANGUAGE_ENGLISH] = "Green Thief",
@@ -665,24 +665,6 @@
     [LANGUAGE_JAPANESE] = "青属性の弓で戦う歩兵。" TEXT_CMD_NEWLINE "平均的な能力を持つ。",
     [LANGUAGE_ENGLISH] = "Foot soldier who uses a" TEXT_CMD_NEWLINE "blue bow. Average ability.",
     [LANGUAGE_CHINESE] = "用青属性弓战斗的步兵。" TEXT_CMD_NEWLINE "能力平均。",
-},
-
-[MEID_エルム] = {
-    [LANGUAGE_JAPANESE] = "エルム",
-    [LANGUAGE_ENGLISH] = "Elm",
-    [LANGUAGE_CHINESE] = "埃尔姆",
-},
-
-[MEID_H_エルム] = {
-    [LANGUAGE_JAPANESE] = "閉ざす神エンブラのしもべである眷属。" TEXT_CMD_NEWLINE "冷酷な性格で、直截で棘のある言葉を使う。",
-    [LANGUAGE_ENGLISH] = "Retainer to Embla, god of barriers and broken" TEXT_CMD_NEWLINE "bonds. Snide and shameless, he lines his words" TEXT_CMD_NEWLINE "with barbs meant to wound.",
-    [LANGUAGE_CHINESE] = "效忠于封闭之神恩布拉的眷属。" TEXT_CMD_NEWLINE "个性冷酷，说话直接尖锐。",
-},
-
-[MEID_HONOR_エルム] = {
-    [LANGUAGE_JAPANESE] = "エンブラの眷属",
-    [LANGUAGE_ENGLISH] = "Retainer to Embla",
-    [LANGUAGE_CHINESE] = "恩布拉的眷属",
 },
 
 [MEID_ランススチーム] = {
@@ -715,6 +697,24 @@
     [LANGUAGE_CHINESE] = "调皮捣蛋",
 },
 
+[MEID_エルム] = {
+    [LANGUAGE_JAPANESE] = "エルム",
+    [LANGUAGE_ENGLISH] = "Elm",
+    [LANGUAGE_CHINESE] = "埃尔姆",
+},
+
+[MEID_H_エルム] = {
+    [LANGUAGE_JAPANESE] = "閉ざす神エンブラのしもべである眷属。" TEXT_CMD_NEWLINE "冷酷な性格で、直截で棘のある言葉を使う。",
+    [LANGUAGE_ENGLISH] = "Retainer to Embla, god of barriers and broken" TEXT_CMD_NEWLINE "bonds. Snide and shameless, he lines his words" TEXT_CMD_NEWLINE "with barbs meant to wound.",
+    [LANGUAGE_CHINESE] = "效忠于封闭之神恩布拉的眷属。" TEXT_CMD_NEWLINE "个性冷酷，说话直接尖锐。",
+},
+
+[MEID_HONOR_エルム] = {
+    [LANGUAGE_JAPANESE] = "エンブラの眷属",
+    [LANGUAGE_ENGLISH] = "Retainer to Embla",
+    [LANGUAGE_CHINESE] = "恩布拉的眷属",
+},
+
 [MEID_レッドシーフ] = {
     [LANGUAGE_JAPANESE] = "レッドシーフ",
     [LANGUAGE_ENGLISH] = "Red Thief",
@@ -727,16 +727,16 @@
     [LANGUAGE_CHINESE] = "用赤属性暗器战斗的盗贼。" TEXT_CMD_NEWLINE "能用暗器降低敌方能力。",
 },
 
-[MEID_グリーンボウ] = {
-    [LANGUAGE_JAPANESE] = "グリーンボウ",
-    [LANGUAGE_ENGLISH] = "Green Bow",
-    [LANGUAGE_CHINESE] = "绿弓战士",
+[MEID_アクススチーム] = {
+    [LANGUAGE_JAPANESE] = "アクススチーム",
+    [LANGUAGE_ENGLISH] = "Steam Axe",
+    [LANGUAGE_CHINESE] = "斧蒸气机兵",
 },
 
-[MEID_H_グリーンボウ] = {
-    [LANGUAGE_JAPANESE] = "緑属性の弓で戦う歩兵。" TEXT_CMD_NEWLINE "平均的な能力を持つ。",
-    [LANGUAGE_ENGLISH] = "Foot soldier who uses a" TEXT_CMD_NEWLINE "green bow. Average ability.",
-    [LANGUAGE_CHINESE] = "用绿属性弓战斗的步兵。" TEXT_CMD_NEWLINE "能力平均。",
+[MEID_H_アクススチーム] = {
+    [LANGUAGE_JAPANESE] = "斧で戦う魔道科学騎兵。" TEXT_CMD_NEWLINE "移動力に優れるが、林に移動できない。",
+    [LANGUAGE_ENGLISH] = "Seiðjárn-powered mounted soldier with an axe." TEXT_CMD_NEWLINE "Moves far, but can't enter forests.",
+    [LANGUAGE_CHINESE] = "用斧战斗的魔道科学骑兵。" TEXT_CMD_NEWLINE "移动范围虽广，但无法移动到林地。",
 },
 
 [MEID_ソードスチーム] = {
@@ -751,16 +751,16 @@
     [LANGUAGE_CHINESE] = "用剑战斗的魔道科学骑兵。" TEXT_CMD_NEWLINE "移动范围虽广，但无法移动到林地。",
 },
 
-[MEID_ブラーバット] = {
-    [LANGUAGE_JAPANESE] = "ブラーバット",
-    [LANGUAGE_ENGLISH] = "Blue Bat",
-    [LANGUAGE_CHINESE] = "苍蓝蝙蝠",
+[MEID_グリーンボウ] = {
+    [LANGUAGE_JAPANESE] = "グリーンボウ",
+    [LANGUAGE_ENGLISH] = "Green Bow",
+    [LANGUAGE_CHINESE] = "绿弓战士",
 },
 
-[MEID_H_ブラーバット] = {
-    [LANGUAGE_JAPANESE] = "青属性の飛行する蝙蝠。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "A flying blue bat. Flies over rivers and" TEXT_CMD_NEWLINE "mountains. Weak against bows.",
-    [LANGUAGE_CHINESE] = "青属性的飞行蝙蝠。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
+[MEID_H_グリーンボウ] = {
+    [LANGUAGE_JAPANESE] = "緑属性の弓で戦う歩兵。" TEXT_CMD_NEWLINE "平均的な能力を持つ。",
+    [LANGUAGE_ENGLISH] = "Foot soldier who uses a" TEXT_CMD_NEWLINE "green bow. Average ability.",
+    [LANGUAGE_CHINESE] = "用绿属性弓战斗的步兵。" TEXT_CMD_NEWLINE "能力平均。",
 },
 
 [MEID_スルト] = {
@@ -779,6 +779,18 @@
     [LANGUAGE_JAPANESE] = "炎の王",
     [LANGUAGE_ENGLISH] = "Ruler of Flame",
     [LANGUAGE_CHINESE] = "炎之王",
+},
+
+[MEID_ブラーバット] = {
+    [LANGUAGE_JAPANESE] = "ブラーバット",
+    [LANGUAGE_ENGLISH] = "Blue Bat",
+    [LANGUAGE_CHINESE] = "苍蓝蝙蝠",
+},
+
+[MEID_H_ブラーバット] = {
+    [LANGUAGE_JAPANESE] = "青属性の飛行する蝙蝠。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "A flying blue bat. Flies over rivers and" TEXT_CMD_NEWLINE "mountains. Weak against bows.",
+    [LANGUAGE_CHINESE] = "青属性的飞行蝙蝠。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
 [MEID_ブルーシーフ] = {
@@ -811,16 +823,58 @@
     [LANGUAGE_CHINESE] = "死之王",
 },
 
-[MEID_アクススチーム] = {
-    [LANGUAGE_JAPANESE] = "アクススチーム",
-    [LANGUAGE_ENGLISH] = "Steam Axe",
-    [LANGUAGE_CHINESE] = "斧蒸气机兵",
+[MEID_ヘルビンディ] = {
+    [LANGUAGE_JAPANESE] = "ヘルビンディ",
+    [LANGUAGE_ENGLISH] = "Helbindi",
+    [LANGUAGE_CHINESE] = "赫尔宾迪",
 },
 
-[MEID_H_アクススチーム] = {
-    [LANGUAGE_JAPANESE] = "斧で戦う魔道科学騎兵。" TEXT_CMD_NEWLINE "移動力に優れるが、林に移動できない。",
-    [LANGUAGE_ENGLISH] = "Seiðjárn-powered mounted soldier with an axe." TEXT_CMD_NEWLINE "Moves far, but can't enter forests.",
-    [LANGUAGE_CHINESE] = "用斧战斗的魔道科学骑兵。" TEXT_CMD_NEWLINE "移动范围虽广，但无法移动到林地。",
+[MEID_H_ヘルビンディ] = {
+    [LANGUAGE_JAPANESE] = "炎の王国ムスペルの将。最下層の貧民街の生まれ。" TEXT_CMD_NEWLINE "みずからの武勇で成り上がりを望む粗暴な将。",
+    [LANGUAGE_ENGLISH] = "Rough and tumble general of Múspell, the" TEXT_CMD_NEWLINE "Kingdom of Flame. Came from nothing and" TEXT_CMD_NEWLINE "rose through the ranks thanks to his talent" TEXT_CMD_NEWLINE "in battle.",
+    [LANGUAGE_CHINESE] = "炎之王国穆斯贝尔的将军，出生在最底层的贫民区。" TEXT_CMD_NEWLINE "盼望能凭借自己的勇猛出人头地的粗暴将领。",
+},
+
+[MEID_HONOR_ヘルビンディ] = {
+    [LANGUAGE_JAPANESE] = "地獄の底の",
+    [LANGUAGE_ENGLISH] = "Savage Scourge",
+    [LANGUAGE_CHINESE] = "来自地狱深渊",
+},
+
+[MPID_マークス] = {
+    [LANGUAGE_JAPANESE] = "マークス",
+    [LANGUAGE_ENGLISH] = "Xander",
+    [LANGUAGE_CHINESE] = "马克斯",
+},
+
+[MPID_H_マークス] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の王子。神器【ジークフリート】の使い手。" TEXT_CMD_NEWLINE "騎士道を重んじており、兵からの人望も厚い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Nohrian prince respected for his military" TEXT_CMD_NEWLINE "prowess. Wields the divine blade Siegfried." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的王子，神器【西格弗里德】的主人。" TEXT_CMD_NEWLINE "重视骑士精神，在军中极富声望。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_マークス] = {
+    [LANGUAGE_JAPANESE] = "暗夜の騎士",
+    [LANGUAGE_ENGLISH] = "Paragon Knight",
+    [LANGUAGE_CHINESE] = "暗夜骑士",
+},
+
+[MEID_プルメリア] = {
+    [LANGUAGE_JAPANESE] = "プルメリア",
+    [LANGUAGE_ENGLISH] = "Plumeria",
+    [LANGUAGE_CHINESE] = "普路梅莉亚",
+},
+
+[MEID_H_プルメリア] = {
+    [LANGUAGE_JAPANESE] = "悪夢の国スヴァルトアルフの妖精。淫らな夢を見せる。" TEXT_CMD_NEWLINE "潔癖な性格で、人間が抱く欲望を嫌っている。",
+    [LANGUAGE_ENGLISH] = "A jaded dökkálfr from Dökkálfheimr, the realm" TEXT_CMD_NEWLINE "of nightmares. She delivers salacious dreams" TEXT_CMD_NEWLINE "to mortals. Though she would wish to do away" TEXT_CMD_NEWLINE "with all cloying mortal desires, she cannot.",
+    [LANGUAGE_CHINESE] = "恶梦之国斯瓦尔塔亚尔芙的妖精。能使人梦见淫秽的梦。" TEXT_CMD_NEWLINE "有心理洁癖，厌恶人类拥有的欲望。",
+},
+
+[MEID_HONOR_プルメリア] = {
+    [LANGUAGE_JAPANESE] = "淫夢の",
+    [LANGUAGE_ENGLISH] = "Lewd Dream",
+    [LANGUAGE_CHINESE] = "淫梦的",
 },
 
 [MEID_ヴェロニカ] = {
@@ -859,24 +913,6 @@
     [LANGUAGE_CHINESE] = "旷野之王",
 },
 
-[MPID_マークス] = {
-    [LANGUAGE_JAPANESE] = "マークス",
-    [LANGUAGE_ENGLISH] = "Xander",
-    [LANGUAGE_CHINESE] = "马克斯",
-},
-
-[MPID_H_マークス] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の王子。神器【ジークフリート】の使い手。" TEXT_CMD_NEWLINE "騎士道を重んじており、兵からの人望も厚い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Nohrian prince respected for his military" TEXT_CMD_NEWLINE "prowess. Wields the divine blade Siegfried." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的王子，神器【西格弗里德】的主人。" TEXT_CMD_NEWLINE "重视骑士精神，在军中极富声望。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_マークス] = {
-    [LANGUAGE_JAPANESE] = "暗夜の騎士",
-    [LANGUAGE_ENGLISH] = "Paragon Knight",
-    [LANGUAGE_CHINESE] = "暗夜骑士",
-},
-
 [MEID_レーギャルン] = {
     [LANGUAGE_JAPANESE] = "レーギャルン",
     [LANGUAGE_ENGLISH] = "Laegjarn",
@@ -895,24 +931,6 @@
     [LANGUAGE_CHINESE] = "炎剑之鞘",
 },
 
-[MEID_プルメリア] = {
-    [LANGUAGE_JAPANESE] = "プルメリア",
-    [LANGUAGE_ENGLISH] = "Plumeria",
-    [LANGUAGE_CHINESE] = "普路梅莉亚",
-},
-
-[MEID_H_プルメリア] = {
-    [LANGUAGE_JAPANESE] = "悪夢の国スヴァルトアルフの妖精。淫らな夢を見せる。" TEXT_CMD_NEWLINE "潔癖な性格で、人間が抱く欲望を嫌っている。",
-    [LANGUAGE_ENGLISH] = "A jaded dökkálfr from Dökkálfheimr, the realm" TEXT_CMD_NEWLINE "of nightmares. She delivers salacious dreams" TEXT_CMD_NEWLINE "to mortals. Though she would wish to do away" TEXT_CMD_NEWLINE "with all cloying mortal desires, she cannot.",
-    [LANGUAGE_CHINESE] = "恶梦之国斯瓦尔塔亚尔芙的妖精。能使人梦见淫秽的梦。" TEXT_CMD_NEWLINE "有心理洁癖，厌恶人类拥有的欲望。",
-},
-
-[MEID_HONOR_プルメリア] = {
-    [LANGUAGE_JAPANESE] = "淫夢の",
-    [LANGUAGE_ENGLISH] = "Lewd Dream",
-    [LANGUAGE_CHINESE] = "淫梦的",
-},
-
 [MPID_メイ] = {
     [LANGUAGE_JAPANESE] = "メイ",
     [LANGUAGE_ENGLISH] = "Mae",
@@ -929,24 +947,6 @@
     [LANGUAGE_JAPANESE] = "空回る元気",
     [LANGUAGE_ENGLISH] = "Bundle of Energy",
     [LANGUAGE_CHINESE] = "空转的活力",
-},
-
-[MPID_ジェニー] = {
-    [LANGUAGE_JAPANESE] = "ジェニー",
-    [LANGUAGE_ENGLISH] = "Genny",
-    [LANGUAGE_CHINESE] = "杰妮",
-},
-
-[MPID_H_ジェニー] = {
-    [LANGUAGE_JAPANESE] = "ノーヴァ島のシスター。幼くおっとりとした性格。" TEXT_CMD_NEWLINE "空想したり物語を書くのが好き。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A meek young cleric from Novis. Likes to" TEXT_CMD_NEWLINE "write her own stories. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "诺瓦岛的年轻修女，个性文静。" TEXT_CMD_NEWLINE "喜欢幻想和写故事。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_ジェニー] = {
-    [LANGUAGE_JAPANESE] = "甘え上手",
-    [LANGUAGE_ENGLISH] = "Endearing Ally",
-    [LANGUAGE_CHINESE] = "讨人喜欢",
 },
 
 [MPID_ティアマト] = {
@@ -985,58 +985,76 @@
     [LANGUAGE_CHINESE] = "冷酷的参谋",
 },
 
-[MEID_ヘルビンディ] = {
-    [LANGUAGE_JAPANESE] = "ヘルビンディ",
-    [LANGUAGE_ENGLISH] = "Helbindi",
-    [LANGUAGE_CHINESE] = "赫尔宾迪",
+[MPID_ジェニー] = {
+    [LANGUAGE_JAPANESE] = "ジェニー",
+    [LANGUAGE_ENGLISH] = "Genny",
+    [LANGUAGE_CHINESE] = "杰妮",
 },
 
-[MEID_H_ヘルビンディ] = {
-    [LANGUAGE_JAPANESE] = "炎の王国ムスペルの将。最下層の貧民街の生まれ。" TEXT_CMD_NEWLINE "みずからの武勇で成り上がりを望む粗暴な将。",
-    [LANGUAGE_ENGLISH] = "Rough and tumble general of Múspell, the" TEXT_CMD_NEWLINE "Kingdom of Flame. Came from nothing and" TEXT_CMD_NEWLINE "rose through the ranks thanks to his talent" TEXT_CMD_NEWLINE "in battle.",
-    [LANGUAGE_CHINESE] = "炎之王国穆斯贝尔的将军，出生在最底层的贫民区。" TEXT_CMD_NEWLINE "盼望能凭借自己的勇猛出人头地的粗暴将领。",
+[MPID_H_ジェニー] = {
+    [LANGUAGE_JAPANESE] = "ノーヴァ島のシスター。幼くおっとりとした性格。" TEXT_CMD_NEWLINE "空想したり物語を書くのが好き。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A meek young cleric from Novis. Likes to" TEXT_CMD_NEWLINE "write her own stories. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "诺瓦岛的年轻修女，个性文静。" TEXT_CMD_NEWLINE "喜欢幻想和写故事。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MEID_HONOR_ヘルビンディ] = {
-    [LANGUAGE_JAPANESE] = "地獄の底の",
-    [LANGUAGE_ENGLISH] = "Savage Scourge",
-    [LANGUAGE_CHINESE] = "来自地狱深渊",
+[MPID_HONOR_ジェニー] = {
+    [LANGUAGE_JAPANESE] = "甘え上手",
+    [LANGUAGE_ENGLISH] = "Endearing Ally",
+    [LANGUAGE_CHINESE] = "讨人喜欢",
 },
 
-[MPID_コーマ] = {
-    [LANGUAGE_JAPANESE] = "コーマ",
-    [LANGUAGE_ENGLISH] = "Colm",
-    [LANGUAGE_CHINESE] = "寇马",
+[MPID_闇リリス] = {
+    [LANGUAGE_JAPANESE] = "リリス",
+    [LANGUAGE_ENGLISH] = "Lilith",
+    [LANGUAGE_CHINESE] = "莉莉丝",
 },
 
-[MPID_H_コーマ] = {
-    [LANGUAGE_JAPANESE] = "ルネス王国ラクの村出身の盗賊。" TEXT_CMD_NEWLINE "村を焼いた山賊団の根城へ単身乗り込む胆力を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A thief from a village in Renais called Lark." TEXT_CMD_NEWLINE "Daring enough to infiltrate the lair of the bandits" TEXT_CMD_NEWLINE "who burned down his village, and do so alone." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "路奈斯王国拉克村出身的盗贼。" TEXT_CMD_NEWLINE "只身潜入烧毁村庄的山贼团据点也毫不畏惧。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+[MPID_H_闇リリス] = {
+    [LANGUAGE_JAPANESE] = "透魔竜ハイドラの娘。父のためにすべてを捧げ、" TEXT_CMD_NEWLINE "父の邪魔をする存在を許さない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Anankos. Wholly dedicated to" TEXT_CMD_NEWLINE "serving her father and removing any obstacles" TEXT_CMD_NEWLINE "from his path. Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "透魔龙海卓拉的女儿。愿为父亲付出一切，" TEXT_CMD_NEWLINE "不会容许任何人阻碍父亲。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_コーマ] = {
-    [LANGUAGE_JAPANESE] = "腕利きの盗賊",
-    [LANGUAGE_ENGLISH] = "Capable Thief",
-    [LANGUAGE_CHINESE] = "本领高强的盗贼",
+[MPID_HONOR_闇リリス] = {
+    [LANGUAGE_JAPANESE] = "透魔竜の娘",
+    [LANGUAGE_ENGLISH] = "Silent Broodling",
+    [LANGUAGE_CHINESE] = "透魔龙的女儿",
 },
 
-[MPID_エリンシア] = {
-    [LANGUAGE_JAPANESE] = "エリンシア",
-    [LANGUAGE_ENGLISH] = "Elincia",
-    [LANGUAGE_CHINESE] = "艾琳西亚",
+[MPID_開花ヒルダ] = {
+    [LANGUAGE_JAPANESE] = "ヒルダ",
+    [LANGUAGE_ENGLISH] = "Hilda",
+    [LANGUAGE_CHINESE] = "希尔妲",
 },
 
-[MPID_H_エリンシア] = {
-    [LANGUAGE_JAPANESE] = "クリミア王国の王女。公にはその存在を隠されていた。" TEXT_CMD_NEWLINE "心優しく、民や国を心から大切に思っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "The princess of Crimea, whose existence was" TEXT_CMD_NEWLINE "concealed. Cares for her kingdom and people." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "克里米亚王国的公主，她的存在一直未曾对外公开。" TEXT_CMD_NEWLINE "心地善良，打从心底重视著人民及国家。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+[MPID_H_開花ヒルダ] = {
+    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の貴族、ゴネリル公の娘。" TEXT_CMD_NEWLINE "ものぐさな性格だが、珍しくやる気を出している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Noble of the Leicester Alliance and daughter of" TEXT_CMD_NEWLINE "House Goneril. Despite lacking enthusiasm for" TEXT_CMD_NEWLINE "work, she is willing to lend her aid...sometimes." TEXT_CMD_NEWLINE "Appears in Fire Emblem Warriors: Three Hopes.",
+    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，哥纳利尔公爵之女。" TEXT_CMD_NEWLINE "个性懒惰讨厌麻烦，但这次难得提起了干劲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
 },
 
-[MPID_HONOR_エリンシア] = {
-    [LANGUAGE_JAPANESE] = "亡国の王女",
-    [LANGUAGE_ENGLISH] = "Lost Princess",
-    [LANGUAGE_CHINESE] = "亡国的公主",
+[MPID_HONOR_開花ヒルダ] = {
+    [LANGUAGE_JAPANESE] = "一肌脱ぎますか！",
+    [LANGUAGE_ENGLISH] = "Helping Hand",
+    [LANGUAGE_CHINESE] = "来助你一臂之力吧！",
+},
+
+[MPID_ネフェニー] = {
+    [LANGUAGE_JAPANESE] = "ネフェニー",
+    [LANGUAGE_ENGLISH] = "Nephenee",
+    [LANGUAGE_CHINESE] = "涅菲妮",
+},
+
+[MPID_H_ネフェニー] = {
+    [LANGUAGE_JAPANESE] = "クリミア王国の村人。祖国のために民兵に志願した。" TEXT_CMD_NEWLINE "寡黙でほとんど喋ることはないが、実は…" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A militia member from the Crimean countryside." TEXT_CMD_NEWLINE "Since she's quiet, people think she's shy, but..." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "克里米亚王国的村民，为了祖国而志愿成为民兵。" TEXT_CMD_NEWLINE "个性沉默，鲜少开口说话，其实是因为……" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_ネフェニー] = {
+    [LANGUAGE_JAPANESE] = "寡黙な村娘",
+    [LANGUAGE_ENGLISH] = "Fierce Halberdier",
+    [LANGUAGE_CHINESE] = "沉默的村姑",
 },
 
 [MPID_オスカー] = {
@@ -1057,76 +1075,130 @@
     [LANGUAGE_CHINESE] = "灵活的骑士",
 },
 
-[MPID_ハピ] = {
-    [LANGUAGE_JAPANESE] = "ハピ",
-    [LANGUAGE_ENGLISH] = "Hapi",
-    [LANGUAGE_CHINESE] = "哈琵",
+[MPID_エリンシア] = {
+    [LANGUAGE_JAPANESE] = "エリンシア",
+    [LANGUAGE_ENGLISH] = "Elincia",
+    [LANGUAGE_CHINESE] = "艾琳西亚",
 },
 
-[MPID_H_ハピ] = {
-    [LANGUAGE_JAPANESE] = "いつも無気力な少女。" TEXT_CMD_NEWLINE "ため息をつくと魔物を呼んでしまう特異な体質を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "An apathetic young woman whose sighs have" TEXT_CMD_NEWLINE "the unique ability to draw monsters to her." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "总是无精打采的少女。" TEXT_CMD_NEWLINE "有著一叹气就会唤来魔物的特异体质。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+[MPID_H_エリンシア] = {
+    [LANGUAGE_JAPANESE] = "クリミア王国の王女。公にはその存在を隠されていた。" TEXT_CMD_NEWLINE "心優しく、民や国を心から大切に思っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "The princess of Crimea, whose existence was" TEXT_CMD_NEWLINE "concealed. Cares for her kingdom and people." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "克里米亚王国的公主，她的存在一直未曾对外公开。" TEXT_CMD_NEWLINE "心地善良，打从心底重视著人民及国家。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
 },
 
-[MPID_HONOR_ハピ] = {
-    [LANGUAGE_JAPANESE] = "魔物を呼ぶため息",
-    [LANGUAGE_ENGLISH] = "Drawn-Out Sigh",
-    [LANGUAGE_CHINESE] = "呼唤魔物的叹息",
+[MPID_HONOR_エリンシア] = {
+    [LANGUAGE_JAPANESE] = "亡国の王女",
+    [LANGUAGE_ENGLISH] = "Lost Princess",
+    [LANGUAGE_CHINESE] = "亡国的公主",
 },
 
-[MPID_ビラク] = {
-    [LANGUAGE_JAPANESE] = "ビラク",
-    [LANGUAGE_ENGLISH] = "Vyland",
-    [LANGUAGE_CHINESE] = "比拉克",
+[MPID_ティータ] = {
+    [LANGUAGE_JAPANESE] = "ティータ",
+    [LANGUAGE_ENGLISH] = "Tatiana",
+    [LANGUAGE_CHINESE] = "蒂塔",
 },
 
-[MPID_H_ビラク] = {
-    [LANGUAGE_JAPANESE] = "オレルアンの精鋭部隊【狼騎士団】の一員。" TEXT_CMD_NEWLINE "ウルフ、ザガロ、ロシェとは兄弟同然の仲間。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Member of the Coyote's Men of Aurelis. To him," TEXT_CMD_NEWLINE "Wolf, Sedgar, and Roshea are considered to be" TEXT_CMD_NEWLINE "nothing less than brothers. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "奥雷鲁昂的精锐部队【狼骑士团】的一员。" TEXT_CMD_NEWLINE "与乌尔夫、札卡罗、罗榭是情同手足的伙伴。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_ティータ] = {
+    [LANGUAGE_JAPANESE] = "リゲル帝国のシスター。そそっかしいが" TEXT_CMD_NEWLINE "慈愛に溢れ、ジークを深く愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Cleric of the Rigelian Empire who tends toward" TEXT_CMD_NEWLINE "thoughtlessness, but she's also very generous" TEXT_CMD_NEWLINE "and loves Zeke deeply. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "利盖尔帝国的修女。虽然粗心大意，" TEXT_CMD_NEWLINE "但充满慈爱之心，深爱著吉克。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_ビラク] = {
-    [LANGUAGE_JAPANESE] = "律義の狼",
-    [LANGUAGE_ENGLISH] = "Coyote's Justice",
-    [LANGUAGE_CHINESE] = "律仪之狼",
+[MPID_HONOR_ティータ] = {
+    [LANGUAGE_JAPANESE] = "献身の聖女",
+    [LANGUAGE_ENGLISH] = "Devoted Saint",
+    [LANGUAGE_CHINESE] = "奉献的圣女",
 },
 
-[MPID_ロシェ] = {
-    [LANGUAGE_JAPANESE] = "ロシェ",
-    [LANGUAGE_ENGLISH] = "Roshea",
-    [LANGUAGE_CHINESE] = "罗榭",
+[MPID_総選挙マリアンヌ] = {
+    [LANGUAGE_JAPANESE] = "マリアンヌ",
+    [LANGUAGE_ENGLISH] = "Marianne",
+    [LANGUAGE_CHINESE] = "玛莉安奴",
 },
 
-[MPID_H_ロシェ] = {
-    [LANGUAGE_JAPANESE] = "オレルアンの精鋭部隊【狼騎士団】の一員。" TEXT_CMD_NEWLINE "暗黒戦争後、軍を退いた時期がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Member of the Coyote's Men of Aurelis. After" TEXT_CMD_NEWLINE "the War of Shadows, he retired from the army" TEXT_CMD_NEWLINE "but eventually returned to the field. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "奥雷鲁昂的精锐部队【狼骑士团】的一员。" TEXT_CMD_NEWLINE "暗黑战争后曾有段从军中引退的时期。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_総選挙マリアンヌ] = {
+    [LANGUAGE_JAPANESE] = "エドマンド辺境伯の養女。" TEXT_CMD_NEWLINE "動物と会話ができ、女神への祈りを欠かさない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Adopted daughter of Margrave Edmund. She" TEXT_CMD_NEWLINE "can often be found speaking with animals or" TEXT_CMD_NEWLINE "praying to the goddess. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "艾德蒙边境伯爵家的养女。" TEXT_CMD_NEWLINE "能与动物对话，总是勤恳地向女神祈祷。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_ロシェ] = {
-    [LANGUAGE_JAPANESE] = "信義の狼",
-    [LANGUAGE_ENGLISH] = "Coyote's Faithful",
-    [LANGUAGE_CHINESE] = "信义之狼",
+[MPID_HONOR_総選挙マリアンヌ] = {
+    [LANGUAGE_JAPANESE] = "穏やかなる祈り",
+    [LANGUAGE_ENGLISH] = "Serene Adherent",
+    [LANGUAGE_CHINESE] = "平静的祈祷",
 },
 
-[MEID_ファフニール] = {
-    [LANGUAGE_JAPANESE] = "ファフニール",
-    [LANGUAGE_ENGLISH] = "Fáfnir",
-    [LANGUAGE_CHINESE] = "法夫纳",
+[MPID_ジャムカ] = {
+    [LANGUAGE_JAPANESE] = "ジャムカ",
+    [LANGUAGE_ENGLISH] = "Jamke",
+    [LANGUAGE_CHINESE] = "嘉姆卡",
 },
 
-[MEID_H_ファフニール] = {
-    [LANGUAGE_JAPANESE] = "ニザヴェリル王国の王。一兵士から成り上がった。" TEXT_CMD_NEWLINE "過去の記憶を失っている。",
-    [LANGUAGE_ENGLISH] = "King of Niðavellir who rose from his station as" TEXT_CMD_NEWLINE "a lowly soldier. Remembers nothing of his past.",
-    [LANGUAGE_CHINESE] = "尼德威阿尔王国之王。从一名士兵登上了王位。" TEXT_CMD_NEWLINE "失去了过去的记忆。",
+[MPID_H_ジャムカ] = {
+    [LANGUAGE_JAPANESE] = "ヴェルダンの王子。聖戦士の血は流れていない。" TEXT_CMD_NEWLINE "戦争を止めるため、祖国に弓を引く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "The prince of Verdane. He does not carry the" TEXT_CMD_NEWLINE "blood of a crusader in his veins. He turns his" TEXT_CMD_NEWLINE "bow against his homeland to try to stop the war." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the Holy" TEXT_CMD_NEWLINE "War.",
+    [LANGUAGE_CHINESE] = "凡尔登的王子，并未继承圣战士的血脉。" TEXT_CMD_NEWLINE "为了终止这场战争，将弓箭指向了自己的祖国。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
 },
 
-[MEID_HONOR_ファフニール] = {
-    [LANGUAGE_JAPANESE] = "曠野の王",
-    [LANGUAGE_ENGLISH] = "King of Desolation",
-    [LANGUAGE_CHINESE] = "旷野之王",
+[MPID_HONOR_ジャムカ] = {
+    [LANGUAGE_JAPANESE] = "ヴェルダンの王子",
+    [LANGUAGE_ENGLISH] = "Prince of Verdane",
+    [LANGUAGE_CHINESE] = "凡尔登的王子",
+},
+
+[MPID_シルク] = {
+    [LANGUAGE_JAPANESE] = "シルク",
+    [LANGUAGE_ENGLISH] = "Silque",
+    [LANGUAGE_CHINESE] = "希尔科",
+},
+
+[MPID_H_シルク] = {
+    [LANGUAGE_JAPANESE] = "ノーヴァ島の修道院のシスター。" TEXT_CMD_NEWLINE "使命を受けてアルムを訪ねて来た。真面目。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A cleric from Novis who sought out Alm in" TEXT_CMD_NEWLINE "order to deliver a certain item to him. Has a" TEXT_CMD_NEWLINE "sweet but serious personality. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "诺瓦岛修道院的修女。" TEXT_CMD_NEWLINE "奉命前来造访阿雷武。个性严谨。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_シルク] = {
+    [LANGUAGE_JAPANESE] = "教えを胸に",
+    [LANGUAGE_ENGLISH] = "Adherent of Mila",
+    [LANGUAGE_CHINESE] = "教诲谨记在心",
+},
+
+[MPID_外伝エスト] = {
+    [LANGUAGE_JAPANESE] = "エスト",
+    [LANGUAGE_ENGLISH] = "Est",
+    [LANGUAGE_CHINESE] = "爱丝特",
+},
+
+[MPID_H_外伝エスト] = {
+    [LANGUAGE_JAPANESE] = "ペガサス三姉妹の末っ子。マケドニア白騎士団をやめ、" TEXT_CMD_NEWLINE "現在は商店を営んでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "The youngest of three pegasus knight sisters." TEXT_CMD_NEWLINE "Left the Macedonian Whitewings and now runs" TEXT_CMD_NEWLINE "her own shop. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "飞马三姊妹的老么。退出了马其顿白骑士团，" TEXT_CMD_NEWLINE "现在转为经营商店。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_外伝エスト] = {
+    [LANGUAGE_JAPANESE] = "天真爛漫な末っ子",
+    [LANGUAGE_ENGLISH] = "Sweet Baby Sis",
+    [LANGUAGE_CHINESE] = "天真烂漫的老么",
+},
+
+[MPID_アトラス] = {
+    [LANGUAGE_JAPANESE] = "アトラス",
+    [LANGUAGE_ENGLISH] = "Atlas",
+    [LANGUAGE_CHINESE] = "阿特拉斯",
+},
+
+[MPID_H_アトラス] = {
+    [LANGUAGE_JAPANESE] = "ソフィア王国の山間の村に住む木こり。" TEXT_CMD_NEWLINE "セリカに受けた恩を返すために同行する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A woodcutter from a Zofian mountain village." TEXT_CMD_NEWLINE "He accompanies Celica to repay a debt of" TEXT_CMD_NEWLINE "gratitude he owes her. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "住在索菲亚王国山间村落的樵夫。" TEXT_CMD_NEWLINE "为了向赛莉卡报恩而与她同行。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_アトラス] = {
+    [LANGUAGE_JAPANESE] = "森の剛腕",
+    [LANGUAGE_ENGLISH] = "Forest Muscle",
+    [LANGUAGE_CHINESE] = "森林的铁臂",
 },
 
 [MPID_マリク] = {
@@ -1165,268 +1237,58 @@
     [LANGUAGE_CHINESE] = "吕基亚第一的骑士",
 },
 
-[MPID_開花ヒルダ] = {
-    [LANGUAGE_JAPANESE] = "ヒルダ",
-    [LANGUAGE_ENGLISH] = "Hilda",
-    [LANGUAGE_CHINESE] = "希尔妲",
+[MEID_フード無印] = {
+    [LANGUAGE_JAPANESE] = "？？？",
+    [LANGUAGE_ENGLISH] = "???",
+    [LANGUAGE_CHINESE] = "？？？",
 },
 
-[MPID_H_開花ヒルダ] = {
-    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の貴族、ゴネリル公の娘。" TEXT_CMD_NEWLINE "ものぐさな性格だが、珍しくやる気を出している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Noble of the Leicester Alliance and daughter of" TEXT_CMD_NEWLINE "House Goneril. Despite lacking enthusiasm for" TEXT_CMD_NEWLINE "work, she is willing to lend her aid...sometimes." TEXT_CMD_NEWLINE "Appears in Fire Emblem Warriors: Three Hopes.",
-    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，哥纳利尔公爵之女。" TEXT_CMD_NEWLINE "个性懒惰讨厌麻烦，但这次难得提起了干劲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
+[MEID_H_フード無印] = {
+    [LANGUAGE_JAPANESE] = "？？？",
+    [LANGUAGE_ENGLISH] = "???",
+    [LANGUAGE_CHINESE] = "？？？",
 },
 
-[MPID_HONOR_開花ヒルダ] = {
-    [LANGUAGE_JAPANESE] = "一肌脱ぎますか！",
-    [LANGUAGE_ENGLISH] = "Helping Hand",
-    [LANGUAGE_CHINESE] = "来助你一臂之力吧！",
+[MEID_HONOR_フード無印] = {
+    [LANGUAGE_JAPANESE] = "呼び出されたもの",
+    [LANGUAGE_ENGLISH] = "Summoned One",
+    [LANGUAGE_CHINESE] = "被召唤的存在",
 },
 
-[MPID_ペトラ] = {
-    [LANGUAGE_JAPANESE] = "ペトラ",
-    [LANGUAGE_ENGLISH] = "Petra",
-    [LANGUAGE_CHINESE] = "佩托拉",
+[MPID_カンナ女] = {
+    [LANGUAGE_JAPANESE] = "カンナ",
+    [LANGUAGE_ENGLISH] = "Kana",
+    [LANGUAGE_CHINESE] = "神流",
 },
 
-[MPID_H_ペトラ] = {
-    [LANGUAGE_JAPANESE] = "帝国に従属するブリギット諸島の王の孫。" TEXT_CMD_NEWLINE "言葉は不慣れだが、何事にも一生懸命に取り組む。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Granddaughter of the king of Brigid, a vassal" TEXT_CMD_NEWLINE "state of the Empire. Although her speech is not" TEXT_CMD_NEWLINE "perfect, she gives her all in everything she does." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "附属于帝国的布里基特群岛之皇室的王孙。" TEXT_CMD_NEWLINE "虽然尚未熟练异国语言，但不管任何事都会全力以赴。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+[MPID_H_カンナ女] = {
+    [LANGUAGE_JAPANESE] = "カムイの娘。明るく素直で元気だが、" TEXT_CMD_NEWLINE "本当は寂しがり屋で泣き虫。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Corrin's daughter. Cheerful and honest but" TEXT_CMD_NEWLINE "has lived a lonely life so far. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "神威的女儿。虽然开朗率直又有活力，" TEXT_CMD_NEWLINE "其实是个怕寂寞的爱哭鬼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_ペトラ] = {
-    [LANGUAGE_JAPANESE] = "異境の姫",
-    [LANGUAGE_ENGLISH] = "Princess of Brigid",
-    [LANGUAGE_CHINESE] = "异境公主",
+[MPID_HONOR_カンナ女] = {
+    [LANGUAGE_JAPANESE] = "竜の幼姫",
+    [LANGUAGE_ENGLISH] = "Dragon Princess",
+    [LANGUAGE_CHINESE] = "龙之幼姬",
 },
 
-[MPID_マーク女] = {
-    [LANGUAGE_JAPANESE] = "マーク",
-    [LANGUAGE_ENGLISH] = "Morgan",
-    [LANGUAGE_CHINESE] = "马可",
+[MPID_キュアン] = {
+    [LANGUAGE_JAPANESE] = "キュアン",
+    [LANGUAGE_ENGLISH] = "Quan",
+    [LANGUAGE_CHINESE] = "乔安",
 },
 
-[MPID_H_マーク女] = {
-    [LANGUAGE_JAPANESE] = "ルフレの娘。記憶喪失の軍師見習い。" TEXT_CMD_NEWLINE "勉強好きで、とても明るく自由な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Robin's daughter. An aspiring tactician with" TEXT_CMD_NEWLINE "no memory. Cheerful and loves to study." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "鲁弗莱的女儿，失去记忆的见习军师。" TEXT_CMD_NEWLINE "喜爱学习，个性开朗奔放。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_キュアン] = {
+    [LANGUAGE_JAPANESE] = "レンスター王国王子。地槍【ゲイボルグ】の継承者。" TEXT_CMD_NEWLINE "妻は親友シグルドの妹エスリン。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Prince of Leonster and inheritor of the lance" TEXT_CMD_NEWLINE "Gáe Bolg. Husband of Ethlyn, the younger sister" TEXT_CMD_NEWLINE "of his close friend Sigurd. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "伦斯特王国的王子，地枪【盖伯尔加】的继承者。" TEXT_CMD_NEWLINE "妻子为挚友西格尔特的妹妹艾丝琳。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
 },
 
-[MPID_HONOR_マーク女] = {
-    [LANGUAGE_JAPANESE] = "異界より来た少女",
-    [LANGUAGE_ENGLISH] = "Lass from Afar",
-    [LANGUAGE_CHINESE] = "来自异界的少女",
-},
-
-[MPID_セリカ] = {
-    [LANGUAGE_JAPANESE] = "セリカ",
-    [LANGUAGE_ENGLISH] = "Celica",
-    [LANGUAGE_CHINESE] = "赛莉卡",
-},
-
-[MPID_H_セリカ] = {
-    [LANGUAGE_JAPANESE] = "ノーヴァ島の神官。正体はソフィア王国の王女。" TEXT_CMD_NEWLINE "慈悲深い性格で争いを嫌う。右手に聖痕を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "The princess of Zofia; trained as a priestess." TEXT_CMD_NEWLINE "Caring toward others, and dislikes fighting." TEXT_CMD_NEWLINE "Bears the Brand on her right hand. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "诺瓦岛的神官，真正的身分是索菲亚王国的公主。" TEXT_CMD_NEWLINE "个性悲天悯人、不喜争斗，右手有圣痕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_セリカ] = {
-    [LANGUAGE_JAPANESE] = "慈愛の王女",
-    [LANGUAGE_ENGLISH] = "Caring Princess",
-    [LANGUAGE_CHINESE] = "慈悲的公主",
-},
-
-[MPID_ボーイ] = {
-    [LANGUAGE_JAPANESE] = "ボーイ",
-    [LANGUAGE_ENGLISH] = "Boey",
-    [LANGUAGE_CHINESE] = "波伊",
-},
-
-[MPID_H_ボーイ] = {
-    [LANGUAGE_JAPANESE] = "ノーヴァ島の魔道士。貧乏育ちの苦労人。" TEXT_CMD_NEWLINE "常に冷静だが魔物には弱い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A mage from Novis who grew up dirt-" TEXT_CMD_NEWLINE "poor. Of calm demeanor, but not great" TEXT_CMD_NEWLINE "at magic. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "诺瓦岛的魔道士，出身贫困的劳碌命。" TEXT_CMD_NEWLINE "总是保持冷静，但不擅长应付魔物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_ボーイ] = {
-    [LANGUAGE_JAPANESE] = "クールな苦労人",
-    [LANGUAGE_ENGLISH] = "Skillful Survivor",
-    [LANGUAGE_CHINESE] = "冷静的劳碌命",
-},
-
-[MPID_総選挙マリアンヌ] = {
-    [LANGUAGE_JAPANESE] = "マリアンヌ",
-    [LANGUAGE_ENGLISH] = "Marianne",
-    [LANGUAGE_CHINESE] = "玛莉安奴",
-},
-
-[MPID_H_総選挙マリアンヌ] = {
-    [LANGUAGE_JAPANESE] = "エドマンド辺境伯の養女。" TEXT_CMD_NEWLINE "動物と会話ができ、女神への祈りを欠かさない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Adopted daughter of Margrave Edmund. She" TEXT_CMD_NEWLINE "can often be found speaking with animals or" TEXT_CMD_NEWLINE "praying to the goddess. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "艾德蒙边境伯爵家的养女。" TEXT_CMD_NEWLINE "能与动物对话，总是勤恳地向女神祈祷。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_総選挙マリアンヌ] = {
-    [LANGUAGE_JAPANESE] = "穏やかなる祈り",
-    [LANGUAGE_ENGLISH] = "Serene Adherent",
-    [LANGUAGE_CHINESE] = "平静的祈祷",
-},
-
-[MPID_シノン] = {
-    [LANGUAGE_JAPANESE] = "シノン",
-    [LANGUAGE_ENGLISH] = "Shinon",
-    [LANGUAGE_CHINESE] = "席诺",
-},
-
-[MPID_H_シノン] = {
-    [LANGUAGE_JAPANESE] = "グレイル傭兵団に所属する狙撃手。" TEXT_CMD_NEWLINE "皮肉屋だが、弓の腕前は自他ともに認めるところ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A sniper with the Greil Mercenaries. Has" TEXT_CMD_NEWLINE "a sharp tongue and is a master of the bow," TEXT_CMD_NEWLINE "a fact that neither he nor his foes will deny." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "隶属格莱尔佣兵团的狙击手。" TEXT_CMD_NEWLINE "虽然很爱挖苦人，却身怀众人认可的一流弓术。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_シノン] = {
-    [LANGUAGE_JAPANESE] = "辛辣皮肉の射手",
-    [LANGUAGE_ENGLISH] = "Scathing Archer",
-    [LANGUAGE_CHINESE] = "刻薄讽刺的射手",
-},
-
-[MPID_アレス] = {
-    [LANGUAGE_JAPANESE] = "アレス",
-    [LANGUAGE_ENGLISH] = "Ares",
-    [LANGUAGE_CHINESE] = "阿瑞斯",
-},
-
-[MPID_H_アレス] = {
-    [LANGUAGE_JAPANESE] = "エルトシャンの子。【ミストルティン】の継承者。" TEXT_CMD_NEWLINE "両親と死別後、傭兵隊長ジャバローに拾われた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Eldigan's son and heir to Mystletainn. After" TEXT_CMD_NEWLINE "his parents passed away, he joined up with" TEXT_CMD_NEWLINE "a mercenary captain called Javarro. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "艾尔多尚之子，【米斯特汀】的继承者。" TEXT_CMD_NEWLINE "在双亲离世后，被佣兵队长贾瓦罗收留。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_アレス] = {
-    [LANGUAGE_JAPANESE] = "黒騎士",
-    [LANGUAGE_ENGLISH] = "Black Knight",
-    [LANGUAGE_CHINESE] = "黑骑士",
-},
-
-[MPID_ナンナ] = {
-    [LANGUAGE_JAPANESE] = "ナンナ",
-    [LANGUAGE_ENGLISH] = "Nanna",
-    [LANGUAGE_CHINESE] = "南娜",
-},
-
-[MPID_H_ナンナ] = {
-    [LANGUAGE_JAPANESE] = "ラケシスの娘。母親譲りの容姿と気品で" TEXT_CMD_NEWLINE "周囲の目を引くカリスマの持ち主。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Lachesis's daughter. A charismatic young" TEXT_CMD_NEWLINE "lady, she has her mother's graceful bearing." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "拉克西丝之女。遗传了母亲的容貌与气质，" TEXT_CMD_NEWLINE "拥有引人注目的强烈魅力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_ナンナ] = {
-    [LANGUAGE_JAPANESE] = "ノディオンの王女",
-    [LANGUAGE_ENGLISH] = "Nordion Princess",
-    [LANGUAGE_CHINESE] = "诺狄恩的公主",
-},
-
-[MPID_フィン] = {
-    [LANGUAGE_JAPANESE] = "フィン",
-    [LANGUAGE_ENGLISH] = "Finn",
-    [LANGUAGE_CHINESE] = "芬恩",
-},
-
-[MPID_H_フィン] = {
-    [LANGUAGE_JAPANESE] = "レンスター王家に仕える忠臣。リーフの父キュアンに" TEXT_CMD_NEWLINE "忠誠を誓い、リーフを守り抜くために戦い続ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "A servant of Leonster who swore his loyalty" TEXT_CMD_NEWLINE "to Leif's father, Quan. His main objective in" TEXT_CMD_NEWLINE "life is to protect Leif. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
-    [LANGUAGE_CHINESE] = "侍奉著伦斯特王族的忠臣。向里弗的父亲乔安宣示忠诚，" TEXT_CMD_NEWLINE "为誓死守护里弗而持续在沙场上争战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_フィン] = {
-    [LANGUAGE_JAPANESE] = "伝説の槍騎士",
-    [LANGUAGE_ENGLISH] = "Lance of Legend",
-    [LANGUAGE_CHINESE] = "传说中的枪骑士",
-},
-
-[MPID_ラインハルト2] = {
-    [LANGUAGE_JAPANESE] = "ラインハルト",
-    [LANGUAGE_ENGLISH] = "Reinhardt",
-    [LANGUAGE_CHINESE] = "莱茵哈特",
-},
-
-[MPID_H_ラインハルト2] = {
-    [LANGUAGE_JAPANESE] = "フリージ軍の魔道騎士で、オルエンの兄。" TEXT_CMD_NEWLINE "トラキア大河の戦いで、リーフ王子達に敗れた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "A formidable mage knight in Friege's" TEXT_CMD_NEWLINE "army and Olwen's older brother. He was" TEXT_CMD_NEWLINE "defeated by Prince Leif. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "弗立吉军的魔道骑士，欧尔玟的兄长。" TEXT_CMD_NEWLINE "在色雷斯大河的战斗中，败给了里弗王子一行人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_ラインハルト2] = {
-    [LANGUAGE_JAPANESE] = "雷神の剣",
-    [LANGUAGE_ENGLISH] = "Thunder's Sword",
-    [LANGUAGE_CHINESE] = "雷神之剑",
-},
-
-[MEID_グルンバット] = {
-    [LANGUAGE_JAPANESE] = "グルンバット",
-    [LANGUAGE_ENGLISH] = "Green Bat",
-    [LANGUAGE_CHINESE] = "翠绿蝙蝠",
-},
-
-[MEID_H_グルンバット] = {
-    [LANGUAGE_JAPANESE] = "緑属性の飛行する蝙蝠。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "A flying green bat. Flies over rivers and" TEXT_CMD_NEWLINE "mountains. Weak against bows.",
-    [LANGUAGE_CHINESE] = "绿属性的飞行蝙蝠。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
-},
-
-[MPID_サザ] = {
-    [LANGUAGE_JAPANESE] = "サザ",
-    [LANGUAGE_ENGLISH] = "Sothe",
-    [LANGUAGE_CHINESE] = "萨札",
-},
-
-[MPID_H_サザ] = {
-    [LANGUAGE_JAPANESE] = "義賊「暁の団」に所属する盗賊。基本的に" TEXT_CMD_NEWLINE "他人に興味がないが、姉のミカヤに対してはとても過保護。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "A thief for the Dawn Brigade. He generally" TEXT_CMD_NEWLINE "shows little interest in others but tends to be" TEXT_CMD_NEWLINE "overprotective of Micaiah, who's like a sister" TEXT_CMD_NEWLINE "to him. Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "隶属于义贼「晓团」的盗贼。基本上对旁人" TEXT_CMD_NEWLINE "兴趣缺缺，对姊姊米卡雅则是非常地过度保护。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_サザ] = {
-    [LANGUAGE_JAPANESE] = "緑風",
-    [LANGUAGE_ENGLISH] = "Zephyr",
-    [LANGUAGE_CHINESE] = "绿风",
-},
-
-[MPID_外伝エスト] = {
-    [LANGUAGE_JAPANESE] = "エスト",
-    [LANGUAGE_ENGLISH] = "Est",
-    [LANGUAGE_CHINESE] = "爱丝特",
-},
-
-[MPID_H_外伝エスト] = {
-    [LANGUAGE_JAPANESE] = "ペガサス三姉妹の末っ子。マケドニア白騎士団をやめ、" TEXT_CMD_NEWLINE "現在は商店を営んでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "The youngest of three pegasus knight sisters." TEXT_CMD_NEWLINE "Left the Macedonian Whitewings and now runs" TEXT_CMD_NEWLINE "her own shop. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "飞马三姊妹的老么。退出了马其顿白骑士团，" TEXT_CMD_NEWLINE "现在转为经营商店。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_外伝エスト] = {
-    [LANGUAGE_JAPANESE] = "天真爛漫な末っ子",
-    [LANGUAGE_ENGLISH] = "Sweet Baby Sis",
-    [LANGUAGE_CHINESE] = "天真烂漫的老么",
-},
-
-[MPID_リアーネ] = {
-    [LANGUAGE_JAPANESE] = "リアーネ",
-    [LANGUAGE_ENGLISH] = "Leanne",
-    [LANGUAGE_CHINESE] = "莉娅妮",
-},
-
-[MPID_H_リアーネ] = {
-    [LANGUAGE_JAPANESE] = "旧セリノス王国の王女。リュシオンの妹。" TEXT_CMD_NEWLINE "古代語を用い、共通語はあまり話せない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "Princess of Serenes. Reyson's younger sister." TEXT_CMD_NEWLINE "She speaks the ancient tongue and has not yet" TEXT_CMD_NEWLINE "mastered the language of Tellius. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "旧赛利诺斯王国的公主。琉希昂的妹妹。" TEXT_CMD_NEWLINE "说话时使用古语，不太会说现代语。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_リアーネ] = {
-    [LANGUAGE_JAPANESE] = "麗しき歌姫",
-    [LANGUAGE_ENGLISH] = "Forest's Song",
-    [LANGUAGE_CHINESE] = "美丽的歌姬",
+[MPID_HONOR_キュアン] = {
+    [LANGUAGE_JAPANESE] = "聖光の槍騎士",
+    [LANGUAGE_ENGLISH] = "Luminous Lancer",
+    [LANGUAGE_CHINESE] = "圣光枪骑士",
 },
 
 [MPID_バルボ] = {
@@ -1447,112 +1309,40 @@
     [LANGUAGE_CHINESE] = "豪放磊落",
 },
 
-[MPID_フレン] = {
-    [LANGUAGE_JAPANESE] = "フレン",
-    [LANGUAGE_ENGLISH] = "Flayn",
-    [LANGUAGE_CHINESE] = "芙莲",
+[MPID_ビラク] = {
+    [LANGUAGE_JAPANESE] = "ビラク",
+    [LANGUAGE_ENGLISH] = "Vyland",
+    [LANGUAGE_CHINESE] = "比拉克",
 },
 
-[MPID_H_フレン] = {
-    [LANGUAGE_JAPANESE] = "セテスの妹。兄から溺愛されている。" TEXT_CMD_NEWLINE "常識を欠くところがある、ふわふわしたお嬢様。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Younger sister of Seteth, who dotes on her" TEXT_CMD_NEWLINE "constantly. Having lived a sheltered life, she" TEXT_CMD_NEWLINE "sometimes appears to lack common sense." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "西提司的妹妹。相当受到哥哥的溺爱。" TEXT_CMD_NEWLINE "在某些地方缺乏常识，是个娇柔的大小姐。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+[MPID_H_ビラク] = {
+    [LANGUAGE_JAPANESE] = "オレルアンの精鋭部隊【狼騎士団】の一員。" TEXT_CMD_NEWLINE "ウルフ、ザガロ、ロシェとは兄弟同然の仲間。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Member of the Coyote's Men of Aurelis. To him," TEXT_CMD_NEWLINE "Wolf, Sedgar, and Roshea are considered to be" TEXT_CMD_NEWLINE "nothing less than brothers. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "奥雷鲁昂的精锐部队【狼骑士团】的一员。" TEXT_CMD_NEWLINE "与乌尔夫、札卡罗、罗榭是情同手足的伙伴。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
 },
 
-[MPID_HONOR_フレン] = {
-    [LANGUAGE_JAPANESE] = "おとぼけお嬢様",
-    [LANGUAGE_ENGLISH] = "Playing Innocent",
-    [LANGUAGE_CHINESE] = "迷糊的大小姐",
+[MPID_HONOR_ビラク] = {
+    [LANGUAGE_JAPANESE] = "律義の狼",
+    [LANGUAGE_ENGLISH] = "Coyote's Justice",
+    [LANGUAGE_CHINESE] = "律仪之狼",
 },
 
-[MPID_アイク] = {
-    [LANGUAGE_JAPANESE] = "アイク",
-    [LANGUAGE_ENGLISH] = "Ike",
-    [LANGUAGE_CHINESE] = "艾克",
+[MPID_ロシェ] = {
+    [LANGUAGE_JAPANESE] = "ロシェ",
+    [LANGUAGE_ENGLISH] = "Roshea",
+    [LANGUAGE_CHINESE] = "罗榭",
 },
 
-[MPID_H_アイク] = {
-    [LANGUAGE_JAPANESE] = "父の後を継ぎ、グレイル傭兵団の長となった青年。" TEXT_CMD_NEWLINE "口数少なく無愛想だが、心根は優しい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A kindhearted but stoic young man who has" TEXT_CMD_NEWLINE "taken command of his father's mercenary band." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "继承父亲衣钵、成为格莱尔佣兵团团长的青年。" TEXT_CMD_NEWLINE "虽然沉默寡言又冷淡，其实心地相当善良。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+[MPID_H_ロシェ] = {
+    [LANGUAGE_JAPANESE] = "オレルアンの精鋭部隊【狼騎士団】の一員。" TEXT_CMD_NEWLINE "暗黒戦争後、軍を退いた時期がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Member of the Coyote's Men of Aurelis. After" TEXT_CMD_NEWLINE "the War of Shadows, he retired from the army" TEXT_CMD_NEWLINE "but eventually returned to the field. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "奥雷鲁昂的精锐部队【狼骑士团】的一员。" TEXT_CMD_NEWLINE "暗黑战争后曾有段从军中引退的时期。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
 },
 
-[MPID_HONOR_アイク] = {
-    [LANGUAGE_JAPANESE] = "傭兵団の青年",
-    [LANGUAGE_ENGLISH] = "Young Mercenary",
-    [LANGUAGE_CHINESE] = "佣兵团的青年",
-},
-
-[MPID_シルク] = {
-    [LANGUAGE_JAPANESE] = "シルク",
-    [LANGUAGE_ENGLISH] = "Silque",
-    [LANGUAGE_CHINESE] = "希尔科",
-},
-
-[MPID_H_シルク] = {
-    [LANGUAGE_JAPANESE] = "ノーヴァ島の修道院のシスター。" TEXT_CMD_NEWLINE "使命を受けてアルムを訪ねて来た。真面目。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A cleric from Novis who sought out Alm in" TEXT_CMD_NEWLINE "order to deliver a certain item to him. Has a" TEXT_CMD_NEWLINE "sweet but serious personality. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "诺瓦岛修道院的修女。" TEXT_CMD_NEWLINE "奉命前来造访阿雷武。个性严谨。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_シルク] = {
-    [LANGUAGE_JAPANESE] = "教えを胸に",
-    [LANGUAGE_ENGLISH] = "Adherent of Mila",
-    [LANGUAGE_CHINESE] = "教诲谨记在心",
-},
-
-[MPID_レオ] = {
-    [LANGUAGE_JAPANESE] = "レオ",
-    [LANGUAGE_ENGLISH] = "Leon",
-    [LANGUAGE_CHINESE] = "雷欧",
-},
-
-[MPID_H_レオ] = {
-    [LANGUAGE_JAPANESE] = "ソフィア王国のアーチャー。美形でナルシスト。" TEXT_CMD_NEWLINE "兄貴分のバルボを慕っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A handsome but narcissistic Zofian archer." TEXT_CMD_NEWLINE "Adores his friend Valbar. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "索菲亚王国的弓箭手，自恋的美男子。" TEXT_CMD_NEWLINE "对老大哥巴尔博相当仰慕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_レオ] = {
-    [LANGUAGE_JAPANESE] = "心は乙女",
-    [LANGUAGE_ENGLISH] = "True of Heart",
-    [LANGUAGE_CHINESE] = "少女心",
-},
-
-[MPID_アトラス] = {
-    [LANGUAGE_JAPANESE] = "アトラス",
-    [LANGUAGE_ENGLISH] = "Atlas",
-    [LANGUAGE_CHINESE] = "阿特拉斯",
-},
-
-[MPID_H_アトラス] = {
-    [LANGUAGE_JAPANESE] = "ソフィア王国の山間の村に住む木こり。" TEXT_CMD_NEWLINE "セリカに受けた恩を返すために同行する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A woodcutter from a Zofian mountain village." TEXT_CMD_NEWLINE "He accompanies Celica to repay a debt of" TEXT_CMD_NEWLINE "gratitude he owes her. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "住在索菲亚王国山间村落的樵夫。" TEXT_CMD_NEWLINE "为了向赛莉卡报恩而与她同行。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_アトラス] = {
-    [LANGUAGE_JAPANESE] = "森の剛腕",
-    [LANGUAGE_ENGLISH] = "Forest Muscle",
-    [LANGUAGE_CHINESE] = "森林的铁臂",
-},
-
-[MPID_闇リリス] = {
-    [LANGUAGE_JAPANESE] = "リリス",
-    [LANGUAGE_ENGLISH] = "Lilith",
-    [LANGUAGE_CHINESE] = "莉莉丝",
-},
-
-[MPID_H_闇リリス] = {
-    [LANGUAGE_JAPANESE] = "透魔竜ハイドラの娘。父のためにすべてを捧げ、" TEXT_CMD_NEWLINE "父の邪魔をする存在を許さない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Anankos. Wholly dedicated to" TEXT_CMD_NEWLINE "serving her father and removing any obstacles" TEXT_CMD_NEWLINE "from his path. Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "透魔龙海卓拉的女儿。愿为父亲付出一切，" TEXT_CMD_NEWLINE "不会容许任何人阻碍父亲。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_闇リリス] = {
-    [LANGUAGE_JAPANESE] = "透魔竜の娘",
-    [LANGUAGE_ENGLISH] = "Silent Broodling",
-    [LANGUAGE_CHINESE] = "透魔龙的女儿",
+[MPID_HONOR_ロシェ] = {
+    [LANGUAGE_JAPANESE] = "信義の狼",
+    [LANGUAGE_ENGLISH] = "Coyote's Faithful",
+    [LANGUAGE_CHINESE] = "信义之狼",
 },
 
 [MPID_ウルフ] = {
@@ -1591,78 +1381,6 @@
     [LANGUAGE_CHINESE] = "友义之狼",
 },
 
-[MPID_ジャムカ] = {
-    [LANGUAGE_JAPANESE] = "ジャムカ",
-    [LANGUAGE_ENGLISH] = "Jamke",
-    [LANGUAGE_CHINESE] = "嘉姆卡",
-},
-
-[MPID_H_ジャムカ] = {
-    [LANGUAGE_JAPANESE] = "ヴェルダンの王子。聖戦士の血は流れていない。" TEXT_CMD_NEWLINE "戦争を止めるため、祖国に弓を引く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "The prince of Verdane. He does not carry the" TEXT_CMD_NEWLINE "blood of a crusader in his veins. He turns his" TEXT_CMD_NEWLINE "bow against his homeland to try to stop the war." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the Holy" TEXT_CMD_NEWLINE "War.",
-    [LANGUAGE_CHINESE] = "凡尔登的王子，并未继承圣战士的血脉。" TEXT_CMD_NEWLINE "为了终止这场战争，将弓箭指向了自己的祖国。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_ジャムカ] = {
-    [LANGUAGE_JAPANESE] = "ヴェルダンの王子",
-    [LANGUAGE_ENGLISH] = "Prince of Verdane",
-    [LANGUAGE_CHINESE] = "凡尔登的王子",
-},
-
-[MPID_キュアン] = {
-    [LANGUAGE_JAPANESE] = "キュアン",
-    [LANGUAGE_ENGLISH] = "Quan",
-    [LANGUAGE_CHINESE] = "乔安",
-},
-
-[MPID_H_キュアン] = {
-    [LANGUAGE_JAPANESE] = "レンスター王国王子。地槍【ゲイボルグ】の継承者。" TEXT_CMD_NEWLINE "妻は親友シグルドの妹エスリン。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Prince of Leonster and inheritor of the lance" TEXT_CMD_NEWLINE "Gáe Bolg. Husband of Ethlyn, the younger sister" TEXT_CMD_NEWLINE "of his close friend Sigurd. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "伦斯特王国的王子，地枪【盖伯尔加】的继承者。" TEXT_CMD_NEWLINE "妻子为挚友西格尔特的妹妹艾丝琳。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_キュアン] = {
-    [LANGUAGE_JAPANESE] = "聖光の槍騎士",
-    [LANGUAGE_ENGLISH] = "Luminous Lancer",
-    [LANGUAGE_CHINESE] = "圣光枪骑士",
-},
-
-[MPID_ニュクス] = {
-    [LANGUAGE_JAPANESE] = "ニュクス",
-    [LANGUAGE_ENGLISH] = "Nyx",
-    [LANGUAGE_CHINESE] = "妮克丝",
-},
-
-[MPID_H_ニュクス] = {
-    [LANGUAGE_JAPANESE] = "己の才能におぼれて禁忌の呪術を暴走させてしまい、" TEXT_CMD_NEWLINE "尋常ならざる被害を起こした忌まわしい過去を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A mage who once grew so overwhelmed by her" TEXT_CMD_NEWLINE "own power, she cast a forbidden spell, inflicting" TEXT_CMD_NEWLINE "unspeakable loss. Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "拥有令人忌讳的过去。曾因沉醉于自己的才能，" TEXT_CMD_NEWLINE "使禁忌的咒术失控并引发非比寻常的灾难。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ニュクス] = {
-    [LANGUAGE_JAPANESE] = "禁忌の呪術師",
-    [LANGUAGE_ENGLISH] = "Rulebreaker Mage",
-    [LANGUAGE_CHINESE] = "禁忌的咒术师",
-},
-
-[MPID_ソニア] = {
-    [LANGUAGE_JAPANESE] = "ソニア",
-    [LANGUAGE_ENGLISH] = "Sonya",
-    [LANGUAGE_CHINESE] = "索尼娅",
-},
-
-[MPID_H_ソニア] = {
-    [LANGUAGE_JAPANESE] = "ギースに雇われていた魔道士。クールで派手好き。" TEXT_CMD_NEWLINE "ジュダの娘で彼に復讐を誓っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A mage hired by Grieth. Cool but flamboyant." TEXT_CMD_NEWLINE "Vowed vengeance upon her father, Jedah." TEXT_CMD_NEWLINE "Appears in Fire Emblem Echoes: Shadows of" TEXT_CMD_NEWLINE "Valentia.",
-    [LANGUAGE_CHINESE] = "受雇于吉斯的魔道士，个性冷静，喜爱华丽装扮。" TEXT_CMD_NEWLINE "虽是朱达的女儿，却立誓对父亲复仇。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_ソニア] = {
-    [LANGUAGE_JAPANESE] = "復讐の魔道士",
-    [LANGUAGE_ENGLISH] = "Vengeful Mage",
-    [LANGUAGE_CHINESE] = "复仇的魔道士",
-},
-
 [MPID_カトリーヌ] = {
     [LANGUAGE_JAPANESE] = "カトリーヌ",
     [LANGUAGE_ENGLISH] = "Catherine",
@@ -1681,40 +1399,40 @@
     [LANGUAGE_CHINESE] = "「雷霆」的骑士",
 },
 
-[MEID_フード無印] = {
-    [LANGUAGE_JAPANESE] = "？？？",
-    [LANGUAGE_ENGLISH] = "???",
-    [LANGUAGE_CHINESE] = "？？？",
+[MEID_ファフニール] = {
+    [LANGUAGE_JAPANESE] = "ファフニール",
+    [LANGUAGE_ENGLISH] = "Fáfnir",
+    [LANGUAGE_CHINESE] = "法夫纳",
 },
 
-[MEID_H_フード無印] = {
-    [LANGUAGE_JAPANESE] = "？？？",
-    [LANGUAGE_ENGLISH] = "???",
-    [LANGUAGE_CHINESE] = "？？？",
+[MEID_H_ファフニール] = {
+    [LANGUAGE_JAPANESE] = "ニザヴェリル王国の王。一兵士から成り上がった。" TEXT_CMD_NEWLINE "過去の記憶を失っている。",
+    [LANGUAGE_ENGLISH] = "King of Niðavellir who rose from his station as" TEXT_CMD_NEWLINE "a lowly soldier. Remembers nothing of his past.",
+    [LANGUAGE_CHINESE] = "尼德威阿尔王国之王。从一名士兵登上了王位。" TEXT_CMD_NEWLINE "失去了过去的记忆。",
 },
 
-[MEID_HONOR_フード無印] = {
-    [LANGUAGE_JAPANESE] = "呼び出されたもの",
-    [LANGUAGE_ENGLISH] = "Summoned One",
-    [LANGUAGE_CHINESE] = "被召唤的存在",
+[MEID_HONOR_ファフニール] = {
+    [LANGUAGE_JAPANESE] = "曠野の王",
+    [LANGUAGE_ENGLISH] = "King of Desolation",
+    [LANGUAGE_CHINESE] = "旷野之王",
 },
 
-[MPID_カンナ女] = {
-    [LANGUAGE_JAPANESE] = "カンナ",
-    [LANGUAGE_ENGLISH] = "Kana",
-    [LANGUAGE_CHINESE] = "神流",
+[MPID_ペトラ] = {
+    [LANGUAGE_JAPANESE] = "ペトラ",
+    [LANGUAGE_ENGLISH] = "Petra",
+    [LANGUAGE_CHINESE] = "佩托拉",
 },
 
-[MPID_H_カンナ女] = {
-    [LANGUAGE_JAPANESE] = "カムイの娘。明るく素直で元気だが、" TEXT_CMD_NEWLINE "本当は寂しがり屋で泣き虫。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Corrin's daughter. Cheerful and honest but" TEXT_CMD_NEWLINE "has lived a lonely life so far. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "神威的女儿。虽然开朗率直又有活力，" TEXT_CMD_NEWLINE "其实是个怕寂寞的爱哭鬼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+[MPID_H_ペトラ] = {
+    [LANGUAGE_JAPANESE] = "帝国に従属するブリギット諸島の王の孫。" TEXT_CMD_NEWLINE "言葉は不慣れだが、何事にも一生懸命に取り組む。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Granddaughter of the king of Brigid, a vassal" TEXT_CMD_NEWLINE "state of the Empire. Although her speech is not" TEXT_CMD_NEWLINE "perfect, she gives her all in everything she does." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "附属于帝国的布里基特群岛之皇室的王孙。" TEXT_CMD_NEWLINE "虽然尚未熟练异国语言，但不管任何事都会全力以赴。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_カンナ女] = {
-    [LANGUAGE_JAPANESE] = "竜の幼姫",
-    [LANGUAGE_ENGLISH] = "Dragon Princess",
-    [LANGUAGE_CHINESE] = "龙之幼姬",
+[MPID_HONOR_ペトラ] = {
+    [LANGUAGE_JAPANESE] = "異境の姫",
+    [LANGUAGE_ENGLISH] = "Princess of Brigid",
+    [LANGUAGE_CHINESE] = "异境公主",
 },
 
 [MPID_アゼル] = {
@@ -1735,40 +1453,88 @@
     [LANGUAGE_CHINESE] = "年轻火焰",
 },
 
-[MPID_ネフェニー] = {
-    [LANGUAGE_JAPANESE] = "ネフェニー",
-    [LANGUAGE_ENGLISH] = "Nephenee",
-    [LANGUAGE_CHINESE] = "涅菲妮",
+[MPID_レオ] = {
+    [LANGUAGE_JAPANESE] = "レオ",
+    [LANGUAGE_ENGLISH] = "Leon",
+    [LANGUAGE_CHINESE] = "雷欧",
 },
 
-[MPID_H_ネフェニー] = {
-    [LANGUAGE_JAPANESE] = "クリミア王国の村人。祖国のために民兵に志願した。" TEXT_CMD_NEWLINE "寡黙でほとんど喋ることはないが、実は…" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A militia member from the Crimean countryside." TEXT_CMD_NEWLINE "Since she's quiet, people think she's shy, but..." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "克里米亚王国的村民，为了祖国而志愿成为民兵。" TEXT_CMD_NEWLINE "个性沉默，鲜少开口说话，其实是因为……" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+[MPID_H_レオ] = {
+    [LANGUAGE_JAPANESE] = "ソフィア王国のアーチャー。美形でナルシスト。" TEXT_CMD_NEWLINE "兄貴分のバルボを慕っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A handsome but narcissistic Zofian archer." TEXT_CMD_NEWLINE "Adores his friend Valbar. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "索菲亚王国的弓箭手，自恋的美男子。" TEXT_CMD_NEWLINE "对老大哥巴尔博相当仰慕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_ネフェニー] = {
-    [LANGUAGE_JAPANESE] = "寡黙な村娘",
-    [LANGUAGE_ENGLISH] = "Fierce Halberdier",
-    [LANGUAGE_CHINESE] = "沉默的村姑",
+[MPID_HONOR_レオ] = {
+    [LANGUAGE_JAPANESE] = "心は乙女",
+    [LANGUAGE_ENGLISH] = "True of Heart",
+    [LANGUAGE_CHINESE] = "少女心",
 },
 
-[MPID_魔剣マリータ] = {
-    [LANGUAGE_JAPANESE] = "マリータ",
-    [LANGUAGE_ENGLISH] = "Mareeta",
-    [LANGUAGE_CHINESE] = "玛丽塔",
+[MPID_フレン] = {
+    [LANGUAGE_JAPANESE] = "フレン",
+    [LANGUAGE_ENGLISH] = "Flayn",
+    [LANGUAGE_CHINESE] = "芙莲",
 },
 
-[MPID_H_魔剣マリータ] = {
-    [LANGUAGE_JAPANESE] = "フィアナ村の領主エーヴェルの養女。" TEXT_CMD_NEWLINE "奸計によって呪いの魔剣を手にしてしまった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Foster daughter of Eyvel, mistress of Fiana. As" TEXT_CMD_NEWLINE "part of a wicked plot, she laid hands on a cursed" TEXT_CMD_NEWLINE "sword. Appears in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "费亚纳村的领主爱薇尔的养女。" TEXT_CMD_NEWLINE "受奸计所陷，而手持诅咒的魔剑。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+[MPID_H_フレン] = {
+    [LANGUAGE_JAPANESE] = "セテスの妹。兄から溺愛されている。" TEXT_CMD_NEWLINE "常識を欠くところがある、ふわふわしたお嬢様。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Younger sister of Seteth, who dotes on her" TEXT_CMD_NEWLINE "constantly. Having lived a sheltered life, she" TEXT_CMD_NEWLINE "sometimes appears to lack common sense." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "西提司的妹妹。相当受到哥哥的溺爱。" TEXT_CMD_NEWLINE "在某些地方缺乏常识，是个娇柔的大小姐。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_魔剣マリータ] = {
-    [LANGUAGE_JAPANESE] = "魔剣に囚われし者",
-    [LANGUAGE_ENGLISH] = "The Blade's Pawn",
-    [LANGUAGE_CHINESE] = "受魔剑所困之人",
+[MPID_HONOR_フレン] = {
+    [LANGUAGE_JAPANESE] = "おとぼけお嬢様",
+    [LANGUAGE_ENGLISH] = "Playing Innocent",
+    [LANGUAGE_CHINESE] = "迷糊的大小姐",
+},
+
+[MPID_マーク女] = {
+    [LANGUAGE_JAPANESE] = "マーク",
+    [LANGUAGE_ENGLISH] = "Morgan",
+    [LANGUAGE_CHINESE] = "马可",
+},
+
+[MPID_H_マーク女] = {
+    [LANGUAGE_JAPANESE] = "ルフレの娘。記憶喪失の軍師見習い。" TEXT_CMD_NEWLINE "勉強好きで、とても明るく自由な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Robin's daughter. An aspiring tactician with" TEXT_CMD_NEWLINE "no memory. Cheerful and loves to study." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "鲁弗莱的女儿，失去记忆的见习军师。" TEXT_CMD_NEWLINE "喜爱学习，个性开朗奔放。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_マーク女] = {
+    [LANGUAGE_JAPANESE] = "異界より来た少女",
+    [LANGUAGE_ENGLISH] = "Lass from Afar",
+    [LANGUAGE_CHINESE] = "来自异界的少女",
+},
+
+[MPID_コーマ] = {
+    [LANGUAGE_JAPANESE] = "コーマ",
+    [LANGUAGE_ENGLISH] = "Colm",
+    [LANGUAGE_CHINESE] = "寇马",
+},
+
+[MPID_H_コーマ] = {
+    [LANGUAGE_JAPANESE] = "ルネス王国ラクの村出身の盗賊。" TEXT_CMD_NEWLINE "村を焼いた山賊団の根城へ単身乗り込む胆力を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A thief from a village in Renais called Lark." TEXT_CMD_NEWLINE "Daring enough to infiltrate the lair of the bandits" TEXT_CMD_NEWLINE "who burned down his village, and do so alone." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "路奈斯王国拉克村出身的盗贼。" TEXT_CMD_NEWLINE "只身潜入烧毁村庄的山贼团据点也毫不畏惧。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_コーマ] = {
+    [LANGUAGE_JAPANESE] = "腕利きの盗賊",
+    [LANGUAGE_ENGLISH] = "Capable Thief",
+    [LANGUAGE_CHINESE] = "本领高强的盗贼",
+},
+
+[MEID_グルンバット] = {
+    [LANGUAGE_JAPANESE] = "グルンバット",
+    [LANGUAGE_ENGLISH] = "Green Bat",
+    [LANGUAGE_CHINESE] = "翠绿蝙蝠",
+},
+
+[MEID_H_グルンバット] = {
+    [LANGUAGE_JAPANESE] = "緑属性の飛行する蝙蝠。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "A flying green bat. Flies over rivers and" TEXT_CMD_NEWLINE "mountains. Weak against bows.",
+    [LANGUAGE_CHINESE] = "绿属性的飞行蝙蝠。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
 },
 
 [MPID_フィーナ] = {
@@ -1789,22 +1555,40 @@
     [LANGUAGE_CHINESE] = "瓦莲的舞娘",
 },
 
-[MPID_ティータ] = {
-    [LANGUAGE_JAPANESE] = "ティータ",
-    [LANGUAGE_ENGLISH] = "Tatiana",
-    [LANGUAGE_CHINESE] = "蒂塔",
+[MPID_リアーネ] = {
+    [LANGUAGE_JAPANESE] = "リアーネ",
+    [LANGUAGE_ENGLISH] = "Leanne",
+    [LANGUAGE_CHINESE] = "莉娅妮",
 },
 
-[MPID_H_ティータ] = {
-    [LANGUAGE_JAPANESE] = "リゲル帝国のシスター。そそっかしいが" TEXT_CMD_NEWLINE "慈愛に溢れ、ジークを深く愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Cleric of the Rigelian Empire who tends toward" TEXT_CMD_NEWLINE "thoughtlessness, but she's also very generous" TEXT_CMD_NEWLINE "and loves Zeke deeply. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "利盖尔帝国的修女。虽然粗心大意，" TEXT_CMD_NEWLINE "但充满慈爱之心，深爱著吉克。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+[MPID_H_リアーネ] = {
+    [LANGUAGE_JAPANESE] = "旧セリノス王国の王女。リュシオンの妹。" TEXT_CMD_NEWLINE "古代語を用い、共通語はあまり話せない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "Princess of Serenes. Reyson's younger sister." TEXT_CMD_NEWLINE "She speaks the ancient tongue and has not yet" TEXT_CMD_NEWLINE "mastered the language of Tellius. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "旧赛利诺斯王国的公主。琉希昂的妹妹。" TEXT_CMD_NEWLINE "说话时使用古语，不太会说现代语。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
 },
 
-[MPID_HONOR_ティータ] = {
-    [LANGUAGE_JAPANESE] = "献身の聖女",
-    [LANGUAGE_ENGLISH] = "Devoted Saint",
-    [LANGUAGE_CHINESE] = "奉献的圣女",
+[MPID_HONOR_リアーネ] = {
+    [LANGUAGE_JAPANESE] = "麗しき歌姫",
+    [LANGUAGE_ENGLISH] = "Forest's Song",
+    [LANGUAGE_CHINESE] = "美丽的歌姬",
+},
+
+[MPID_ボーイ] = {
+    [LANGUAGE_JAPANESE] = "ボーイ",
+    [LANGUAGE_ENGLISH] = "Boey",
+    [LANGUAGE_CHINESE] = "波伊",
+},
+
+[MPID_H_ボーイ] = {
+    [LANGUAGE_JAPANESE] = "ノーヴァ島の魔道士。貧乏育ちの苦労人。" TEXT_CMD_NEWLINE "常に冷静だが魔物には弱い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A mage from Novis who grew up dirt-" TEXT_CMD_NEWLINE "poor. Of calm demeanor, but not great" TEXT_CMD_NEWLINE "at magic. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "诺瓦岛的魔道士，出身贫困的劳碌命。" TEXT_CMD_NEWLINE "总是保持冷静，但不擅长应付魔物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_ボーイ] = {
+    [LANGUAGE_JAPANESE] = "クールな苦労人",
+    [LANGUAGE_ENGLISH] = "Skillful Survivor",
+    [LANGUAGE_CHINESE] = "冷静的劳碌命",
 },
 
 [MPID_ミスト] = {
@@ -1825,6 +1609,168 @@
     [LANGUAGE_CHINESE] = "喜欢照顾人的妹妹",
 },
 
+[MPID_アレス] = {
+    [LANGUAGE_JAPANESE] = "アレス",
+    [LANGUAGE_ENGLISH] = "Ares",
+    [LANGUAGE_CHINESE] = "阿瑞斯",
+},
+
+[MPID_H_アレス] = {
+    [LANGUAGE_JAPANESE] = "エルトシャンの子。【ミストルティン】の継承者。" TEXT_CMD_NEWLINE "両親と死別後、傭兵隊長ジャバローに拾われた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Eldigan's son and heir to Mystletainn. After" TEXT_CMD_NEWLINE "his parents passed away, he joined up with" TEXT_CMD_NEWLINE "a mercenary captain called Javarro. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "艾尔多尚之子，【米斯特汀】的继承者。" TEXT_CMD_NEWLINE "在双亲离世后，被佣兵队长贾瓦罗收留。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_アレス] = {
+    [LANGUAGE_JAPANESE] = "黒騎士",
+    [LANGUAGE_ENGLISH] = "Black Knight",
+    [LANGUAGE_CHINESE] = "黑骑士",
+},
+
+[MPID_アイク] = {
+    [LANGUAGE_JAPANESE] = "アイク",
+    [LANGUAGE_ENGLISH] = "Ike",
+    [LANGUAGE_CHINESE] = "艾克",
+},
+
+[MPID_H_アイク] = {
+    [LANGUAGE_JAPANESE] = "父の後を継ぎ、グレイル傭兵団の長となった青年。" TEXT_CMD_NEWLINE "口数少なく無愛想だが、心根は優しい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A kindhearted but stoic young man who has" TEXT_CMD_NEWLINE "taken command of his father's mercenary band." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "继承父亲衣钵、成为格莱尔佣兵团团长的青年。" TEXT_CMD_NEWLINE "虽然沉默寡言又冷淡，其实心地相当善良。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_アイク] = {
+    [LANGUAGE_JAPANESE] = "傭兵団の青年",
+    [LANGUAGE_ENGLISH] = "Young Mercenary",
+    [LANGUAGE_CHINESE] = "佣兵团的青年",
+},
+
+[MPID_シノン] = {
+    [LANGUAGE_JAPANESE] = "シノン",
+    [LANGUAGE_ENGLISH] = "Shinon",
+    [LANGUAGE_CHINESE] = "席诺",
+},
+
+[MPID_H_シノン] = {
+    [LANGUAGE_JAPANESE] = "グレイル傭兵団に所属する狙撃手。" TEXT_CMD_NEWLINE "皮肉屋だが、弓の腕前は自他ともに認めるところ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A sniper with the Greil Mercenaries. Has" TEXT_CMD_NEWLINE "a sharp tongue and is a master of the bow," TEXT_CMD_NEWLINE "a fact that neither he nor his foes will deny." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "隶属格莱尔佣兵团的狙击手。" TEXT_CMD_NEWLINE "虽然很爱挖苦人，却身怀众人认可的一流弓术。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_シノン] = {
+    [LANGUAGE_JAPANESE] = "辛辣皮肉の射手",
+    [LANGUAGE_ENGLISH] = "Scathing Archer",
+    [LANGUAGE_CHINESE] = "刻薄讽刺的射手",
+},
+
+[MPID_ハピ] = {
+    [LANGUAGE_JAPANESE] = "ハピ",
+    [LANGUAGE_ENGLISH] = "Hapi",
+    [LANGUAGE_CHINESE] = "哈琵",
+},
+
+[MPID_H_ハピ] = {
+    [LANGUAGE_JAPANESE] = "いつも無気力な少女。" TEXT_CMD_NEWLINE "ため息をつくと魔物を呼んでしまう特異な体質を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "An apathetic young woman whose sighs have" TEXT_CMD_NEWLINE "the unique ability to draw monsters to her." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "总是无精打采的少女。" TEXT_CMD_NEWLINE "有著一叹气就会唤来魔物的特异体质。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_ハピ] = {
+    [LANGUAGE_JAPANESE] = "魔物を呼ぶため息",
+    [LANGUAGE_ENGLISH] = "Drawn-Out Sigh",
+    [LANGUAGE_CHINESE] = "呼唤魔物的叹息",
+},
+
+[MPID_ユリシーズ] = {
+    [LANGUAGE_JAPANESE] = "ユリシーズ",
+    [LANGUAGE_ENGLISH] = "Bastian",
+    [LANGUAGE_CHINESE] = "尤里西斯",
+},
+
+[MPID_H_ユリシーズ] = {
+    [LANGUAGE_JAPANESE] = "新女王が信頼するクリミアの副宰相。" TEXT_CMD_NEWLINE "戦中戦後の諸国を歴訪し、外交政策に手腕を発揮した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "Deputy prime minister of Crimea and trusted" TEXT_CMD_NEWLINE "ally of the new queen. During the war, he visited" TEXT_CMD_NEWLINE "many countries to engage them in diplomacy." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "克里米亚的副宰相，深受新女王信任。" TEXT_CMD_NEWLINE "于战争时期及战后周游列国，在外交政策上大显身手。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_ユリシーズ] = {
+    [LANGUAGE_JAPANESE] = "王国の要",
+    [LANGUAGE_ENGLISH] = "Crimea's Keystone",
+    [LANGUAGE_CHINESE] = "王国的中枢",
+},
+
+[MPID_ラインハルト2] = {
+    [LANGUAGE_JAPANESE] = "ラインハルト",
+    [LANGUAGE_ENGLISH] = "Reinhardt",
+    [LANGUAGE_CHINESE] = "莱茵哈特",
+},
+
+[MPID_H_ラインハルト2] = {
+    [LANGUAGE_JAPANESE] = "フリージ軍の魔道騎士で、オルエンの兄。" TEXT_CMD_NEWLINE "トラキア大河の戦いで、リーフ王子達に敗れた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "A formidable mage knight in Friege's" TEXT_CMD_NEWLINE "army and Olwen's older brother. He was" TEXT_CMD_NEWLINE "defeated by Prince Leif. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "弗立吉军的魔道骑士，欧尔玟的兄长。" TEXT_CMD_NEWLINE "在色雷斯大河的战斗中，败给了里弗王子一行人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_ラインハルト2] = {
+    [LANGUAGE_JAPANESE] = "雷神の剣",
+    [LANGUAGE_ENGLISH] = "Thunder's Sword",
+    [LANGUAGE_CHINESE] = "雷神之剑",
+},
+
+[MPID_ナンナ] = {
+    [LANGUAGE_JAPANESE] = "ナンナ",
+    [LANGUAGE_ENGLISH] = "Nanna",
+    [LANGUAGE_CHINESE] = "南娜",
+},
+
+[MPID_H_ナンナ] = {
+    [LANGUAGE_JAPANESE] = "ラケシスの娘。母親譲りの容姿と気品で" TEXT_CMD_NEWLINE "周囲の目を引くカリスマの持ち主。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Lachesis's daughter. A charismatic young" TEXT_CMD_NEWLINE "lady, she has her mother's graceful bearing." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "拉克西丝之女。遗传了母亲的容貌与气质，" TEXT_CMD_NEWLINE "拥有引人注目的强烈魅力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_ナンナ] = {
+    [LANGUAGE_JAPANESE] = "ノディオンの王女",
+    [LANGUAGE_ENGLISH] = "Nordion Princess",
+    [LANGUAGE_CHINESE] = "诺狄恩的公主",
+},
+
+[MPID_ソニア] = {
+    [LANGUAGE_JAPANESE] = "ソニア",
+    [LANGUAGE_ENGLISH] = "Sonya",
+    [LANGUAGE_CHINESE] = "索尼娅",
+},
+
+[MPID_H_ソニア] = {
+    [LANGUAGE_JAPANESE] = "ギースに雇われていた魔道士。クールで派手好き。" TEXT_CMD_NEWLINE "ジュダの娘で彼に復讐を誓っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A mage hired by Grieth. Cool but flamboyant." TEXT_CMD_NEWLINE "Vowed vengeance upon her father, Jedah." TEXT_CMD_NEWLINE "Appears in Fire Emblem Echoes: Shadows of" TEXT_CMD_NEWLINE "Valentia.",
+    [LANGUAGE_CHINESE] = "受雇于吉斯的魔道士，个性冷静，喜爱华丽装扮。" TEXT_CMD_NEWLINE "虽是朱达的女儿，却立誓对父亲复仇。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_ソニア] = {
+    [LANGUAGE_JAPANESE] = "復讐の魔道士",
+    [LANGUAGE_ENGLISH] = "Vengeful Mage",
+    [LANGUAGE_CHINESE] = "复仇的魔道士",
+},
+
+[MPID_ニュクス] = {
+    [LANGUAGE_JAPANESE] = "ニュクス",
+    [LANGUAGE_ENGLISH] = "Nyx",
+    [LANGUAGE_CHINESE] = "妮克丝",
+},
+
+[MPID_H_ニュクス] = {
+    [LANGUAGE_JAPANESE] = "己の才能におぼれて禁忌の呪術を暴走させてしまい、" TEXT_CMD_NEWLINE "尋常ならざる被害を起こした忌まわしい過去を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A mage who once grew so overwhelmed by her" TEXT_CMD_NEWLINE "own power, she cast a forbidden spell, inflicting" TEXT_CMD_NEWLINE "unspeakable loss. Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "拥有令人忌讳的过去。曾因沉醉于自己的才能，" TEXT_CMD_NEWLINE "使禁忌的咒术失控并引发非比寻常的灾难。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ニュクス] = {
+    [LANGUAGE_JAPANESE] = "禁忌の呪術師",
+    [LANGUAGE_ENGLISH] = "Rulebreaker Mage",
+    [LANGUAGE_CHINESE] = "禁忌的咒术师",
+},
+
 [MPID_バルタザール] = {
     [LANGUAGE_JAPANESE] = "バルタザール",
     [LANGUAGE_ENGLISH] = "Balthus",
@@ -1843,688 +1789,184 @@
     [LANGUAGE_CHINESE] = "雷斯塔格斗王",
 },
 
-[MPID_開花チキ] = {
-    [LANGUAGE_JAPANESE] = "チキ",
-    [LANGUAGE_ENGLISH] = "Tiki",
-    [LANGUAGE_CHINESE] = "琪姬",
+[MPID_サザ] = {
+    [LANGUAGE_JAPANESE] = "サザ",
+    [LANGUAGE_ENGLISH] = "Sothe",
+    [LANGUAGE_CHINESE] = "萨札",
 },
 
-[MPID_H_開花チキ] = {
-    [LANGUAGE_JAPANESE] = "賢者ガトーにより眠りについていた、神竜族の王女。" TEXT_CMD_NEWLINE "マルスに導かれ、再び目覚める。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Divine Dragon princess, entrusted to slumber" TEXT_CMD_NEWLINE "by the White Sage, Gotoh, reawakened after" TEXT_CMD_NEWLINE "the restoration of the Binding Shield. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "因贤者迦图而进入沉眠的神龙族的公主。" TEXT_CMD_NEWLINE "在马尔斯的引导下再次苏醒。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_サザ] = {
+    [LANGUAGE_JAPANESE] = "義賊「暁の団」に所属する盗賊。基本的に" TEXT_CMD_NEWLINE "他人に興味がないが、姉のミカヤに対してはとても過保護。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "A thief for the Dawn Brigade. He generally" TEXT_CMD_NEWLINE "shows little interest in others but tends to be" TEXT_CMD_NEWLINE "overprotective of Micaiah, who's like a sister" TEXT_CMD_NEWLINE "to him. Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "隶属于义贼「晓团」的盗贼。基本上对旁人" TEXT_CMD_NEWLINE "兴趣缺缺，对姊姊米卡雅则是非常地过度保护。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
 },
 
-[MPID_HONOR_開花チキ] = {
-    [LANGUAGE_JAPANESE] = "ゆらめく神竜の血",
-    [LANGUAGE_ENGLISH] = "Awakened Blood",
-    [LANGUAGE_CHINESE] = "摇曳的神龙血脉",
+[MPID_HONOR_サザ] = {
+    [LANGUAGE_JAPANESE] = "緑風",
+    [LANGUAGE_ENGLISH] = "Zephyr",
+    [LANGUAGE_CHINESE] = "绿风",
 },
 
-[MPID_エリス] = {
-    [LANGUAGE_JAPANESE] = "エリス",
-    [LANGUAGE_ENGLISH] = "Elice",
-    [LANGUAGE_CHINESE] = "艾莉丝",
+[MPID_セリカ] = {
+    [LANGUAGE_JAPANESE] = "セリカ",
+    [LANGUAGE_ENGLISH] = "Celica",
+    [LANGUAGE_CHINESE] = "赛莉卡",
 },
 
-[MPID_H_エリス] = {
-    [LANGUAGE_JAPANESE] = "心優しきアリティアの王女。王子マルスの姉。" TEXT_CMD_NEWLINE "自分の身よりも、大切な人を守ろうとする心の持ち主。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Gentle princess of Altea and Marth's" TEXT_CMD_NEWLINE "older sister. Noble with a heart that places" TEXT_CMD_NEWLINE "the lives of those she cares for above her own." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "心地善良的阿利提亚公主。王子马尔斯的姊姊。" TEXT_CMD_NEWLINE "有一颗比起自己更想保护重要的人的心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_セリカ] = {
+    [LANGUAGE_JAPANESE] = "ノーヴァ島の神官。正体はソフィア王国の王女。" TEXT_CMD_NEWLINE "慈悲深い性格で争いを嫌う。右手に聖痕を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "The princess of Zofia; trained as a priestess." TEXT_CMD_NEWLINE "Caring toward others, and dislikes fighting." TEXT_CMD_NEWLINE "Bears the Brand on her right hand. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "诺瓦岛的神官，真正的身分是索菲亚王国的公主。" TEXT_CMD_NEWLINE "个性悲天悯人、不喜争斗，右手有圣痕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_エリス] = {
-    [LANGUAGE_JAPANESE] = "アリティアの王女",
-    [LANGUAGE_ENGLISH] = "Altean Princess",
-    [LANGUAGE_CHINESE] = "阿利提亚的公主",
+[MPID_HONOR_セリカ] = {
+    [LANGUAGE_JAPANESE] = "慈愛の王女",
+    [LANGUAGE_ENGLISH] = "Caring Princess",
+    [LANGUAGE_CHINESE] = "慈悲的公主",
 },
 
-[MPID_ブレディ] = {
-    [LANGUAGE_JAPANESE] = "ブレディ",
-    [LANGUAGE_ENGLISH] = "Brady",
-    [LANGUAGE_CHINESE] = "布莱迪",
+[MPID_フィン] = {
+    [LANGUAGE_JAPANESE] = "フィン",
+    [LANGUAGE_ENGLISH] = "Finn",
+    [LANGUAGE_CHINESE] = "芬恩",
 },
 
-[MPID_H_ブレディ] = {
-    [LANGUAGE_JAPANESE] = "マリアベルの息子。強面だが心優しく涙もろい。" TEXT_CMD_NEWLINE "貴族の作法も身に着けており、特技はバイオリン。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Maribelle's son. He has a fierce countenance," TEXT_CMD_NEWLINE "but is quite kind and easily moved. He is" TEXT_CMD_NEWLINE "schooled in etiquette and can play the violin." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "玛利亚贝尔的儿子。虽长相凶悍，" TEXT_CMD_NEWLINE "但个性温柔且情感丰富。" TEXT_CMD_NEWLINE "也熟习贵族的礼法，特技是小提琴。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_フィン] = {
+    [LANGUAGE_JAPANESE] = "レンスター王家に仕える忠臣。リーフの父キュアンに" TEXT_CMD_NEWLINE "忠誠を誓い、リーフを守り抜くために戦い続ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "A servant of Leonster who swore his loyalty" TEXT_CMD_NEWLINE "to Leif's father, Quan. His main objective in" TEXT_CMD_NEWLINE "life is to protect Leif. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
+    [LANGUAGE_CHINESE] = "侍奉著伦斯特王族的忠臣。向里弗的父亲乔安宣示忠诚，" TEXT_CMD_NEWLINE "为誓死守护里弗而持续在沙场上争战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
 },
 
-[MPID_HONOR_ブレディ] = {
-    [LANGUAGE_JAPANESE] = "強面の僧侶",
-    [LANGUAGE_ENGLISH] = "Daunting Priest",
-    [LANGUAGE_CHINESE] = "长相凶悍的僧侣",
+[MPID_HONOR_フィン] = {
+    [LANGUAGE_JAPANESE] = "伝説の槍騎士",
+    [LANGUAGE_ENGLISH] = "Lance of Legend",
+    [LANGUAGE_CHINESE] = "传说中的枪骑士",
 },
 
-[MPID_シャンブレー] = {
-    [LANGUAGE_JAPANESE] = "シャンブレー",
-    [LANGUAGE_ENGLISH] = "Yarne",
-    [LANGUAGE_CHINESE] = "夏布雷",
+[MPID_魔剣マリータ] = {
+    [LANGUAGE_JAPANESE] = "マリータ",
+    [LANGUAGE_ENGLISH] = "Mareeta",
+    [LANGUAGE_CHINESE] = "玛丽塔",
 },
 
-[MPID_H_シャンブレー] = {
-    [LANGUAGE_JAPANESE] = "ベルベットの息子。タグエル最後の生き残り。" TEXT_CMD_NEWLINE "自分が死ぬことで種が絶えることを恐れている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Panne's son. The last of the taguel. Continually" TEXT_CMD_NEWLINE "terrified that his death will mark the end of his" TEXT_CMD_NEWLINE "race. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "贝尔贝特的儿子，是塔格艾尔最后的幸存者。" TEXT_CMD_NEWLINE "深怕种族会因自己的死而断绝。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_魔剣マリータ] = {
+    [LANGUAGE_JAPANESE] = "フィアナ村の領主エーヴェルの養女。" TEXT_CMD_NEWLINE "奸計によって呪いの魔剣を手にしてしまった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Foster daughter of Eyvel, mistress of Fiana. As" TEXT_CMD_NEWLINE "part of a wicked plot, she laid hands on a cursed" TEXT_CMD_NEWLINE "sword. Appears in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "费亚纳村的领主爱薇尔的养女。" TEXT_CMD_NEWLINE "受奸计所陷，而手持诅咒的魔剑。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
 },
 
-[MPID_HONOR_シャンブレー] = {
-    [LANGUAGE_JAPANESE] = "怖がりタグエル",
-    [LANGUAGE_ENGLISH] = "Timid Taguel",
-    [LANGUAGE_CHINESE] = "胆小的塔格艾尔",
+[MPID_HONOR_魔剣マリータ] = {
+    [LANGUAGE_JAPANESE] = "魔剣に囚われし者",
+    [LANGUAGE_ENGLISH] = "The Blade's Pawn",
+    [LANGUAGE_CHINESE] = "受魔剑所困之人",
 },
 
-[MEID_ヴェロニカ洗脳] = {
-    [LANGUAGE_JAPANESE] = "ヴェロニカ",
-    [LANGUAGE_ENGLISH] = "Veronica",
-    [LANGUAGE_CHINESE] = "维洛妮卡",
+[MPID_開花ヨシュア] = {
+    [LANGUAGE_JAPANESE] = "ヨシュア",
+    [LANGUAGE_ENGLISH] = "Joshua",
+    [LANGUAGE_CHINESE] = "约书亚",
 },
 
-[MEID_H_ヴェロニカ洗脳] = {
-    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇女。" TEXT_CMD_NEWLINE "その身は、憑竜エンブラに支配されつつある。",
-    [LANGUAGE_ENGLISH] = "Imperial princess of the Emblian Empire, her" TEXT_CMD_NEWLINE "body and mind slowly being overpowered by" TEXT_CMD_NEWLINE "the dragon Embla, succumbing to her control.",
-    [LANGUAGE_CHINESE] = "恩布拉帝国的皇女。" TEXT_CMD_NEWLINE "她的身体渐渐地被凭龙恩布拉所支配。",
+[MPID_H_開花ヨシュア] = {
+    [LANGUAGE_JAPANESE] = "身分を捨て、諸国を流浪していたジャハナの王子。" TEXT_CMD_NEWLINE "母の遺志を継ぎ、祖国と世界を守ると誓う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Prince of Jehanna who tossed his status aside" TEXT_CMD_NEWLINE "to wander the land. Heir to his mother's dream," TEXT_CMD_NEWLINE "he's sworn to protect his homeland and world." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "舍弃身分，流浪于各国的贾哈纳王子。" TEXT_CMD_NEWLINE "继承母亲的遗志，发誓守护祖国和世界。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
 },
 
-[MEID_HONOR_ヴェロニカ洗脳] = {
-    [LANGUAGE_JAPANESE] = "憑かれし皇女",
-    [LANGUAGE_ENGLISH] = "Princess Beset",
-    [LANGUAGE_CHINESE] = "被附身的皇女",
+[MPID_HONOR_開花ヨシュア] = {
+    [LANGUAGE_JAPANESE] = "決意の風来王",
+    [LANGUAGE_ENGLISH] = "Resolute Tempest",
+    [LANGUAGE_CHINESE] = "决意的飘忽不定",
 },
 
-[MPID_漆黒の騎士] = {
-    [LANGUAGE_JAPANESE] = "漆黒の騎士",
-    [LANGUAGE_ENGLISH] = "Black Knight",
-    [LANGUAGE_CHINESE] = "漆黑骑士",
+[MPID_魔器アルフレッド] = {
+    [LANGUAGE_JAPANESE] = "アルフレッド",
+    [LANGUAGE_ENGLISH] = "Alfred",
+    [LANGUAGE_CHINESE] = "阿尔弗雷德",
 },
 
-[MPID_H_漆黒の騎士] = {
-    [LANGUAGE_JAPANESE] = "デイン王国の四将軍【四駿】の一人。" TEXT_CMD_NEWLINE "全身を漆黒の鎧で固める不気味な騎士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "One of Daein's Four Riders. An enigmatic" TEXT_CMD_NEWLINE "knight encased in pitch-black armor." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "戴因王国的四大将军——【四骏】之一，" TEXT_CMD_NEWLINE "全身披挂著漆黑铠甲的恐怖骑士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+[MPID_H_魔器アルフレッド] = {
+    [LANGUAGE_JAPANESE] = "平和を愛する国、フィレネ王国の第一王子。" TEXT_CMD_NEWLINE "己の強靭な肉体のために鍛錬している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　エンゲージ』）",
+    [LANGUAGE_ENGLISH] = "Crown prince of Firene, a peace-loving land." TEXT_CMD_NEWLINE "He trains constantly with the intent of improving" TEXT_CMD_NEWLINE "his constitution. Appears in Fire Emblem Engage.",
+    [LANGUAGE_CHINESE] = "爱好和平之国──费列聂王国的第一王子。" TEXT_CMD_NEWLINE "为了获得强健的体魄而每日锻炼身体。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM ENGAGE』）",
 },
 
-[MPID_HONOR_漆黒の騎士] = {
-    [LANGUAGE_JAPANESE] = "四駿の将",
-    [LANGUAGE_ENGLISH] = "Sinister General",
-    [LANGUAGE_CHINESE] = "四骏之将",
+[MPID_HONOR_魔器アルフレッド] = {
+    [LANGUAGE_JAPANESE] = "笑み護る花",
+    [LANGUAGE_ENGLISH] = "Floral Protector",
+    [LANGUAGE_CHINESE] = "守护笑容之花",
 },
 
-[MPID_開花イドゥン] = {
-    [LANGUAGE_JAPANESE] = "イドゥン",
-    [LANGUAGE_ENGLISH] = "Idunn",
-    [LANGUAGE_CHINESE] = "伊敦",
+[MPID_フィオーラ] = {
+    [LANGUAGE_JAPANESE] = "フィオーラ",
+    [LANGUAGE_ENGLISH] = "Fiora",
+    [LANGUAGE_CHINESE] = "菲奥拉",
 },
 
-[MPID_H_開花イドゥン] = {
-    [LANGUAGE_JAPANESE] = "心を奪われ、戦闘竜を生み出す魔竜と化した元神竜。" TEXT_CMD_NEWLINE "ベルン動乱後はナバタの里に保護され、新たな生を送る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "Once a Divine Dragon, she was transformed" TEXT_CMD_NEWLINE "into the Demon Dragon. After the uprising in" TEXT_CMD_NEWLINE "Bern, she began a new life in Nabata. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "原为神龙，在被夺去心后变成生产战斗龙的「魔龙」。" TEXT_CMD_NEWLINE "伯尔尼的动乱后被纳巴塔村落收留，过著全新的生活。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+[MPID_H_フィオーラ] = {
+    [LANGUAGE_JAPANESE] = "イリアの傭兵天馬騎士。ファリナ、フロリーナの姉。" TEXT_CMD_NEWLINE "家族と母国を愛する、誇り高き騎士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A pegasus knight of Ilia. Older sister of Farina" TEXT_CMD_NEWLINE "and Florina. A knight full of pride for both her" TEXT_CMD_NEWLINE "country and family. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "伊利亚的佣兵天马骑士。法丽娜与芙罗利娜的姊姊。" TEXT_CMD_NEWLINE "深爱家人与母国，是名身怀荣耀的骑士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
 },
 
-[MPID_HONOR_開花イドゥン] = {
-    [LANGUAGE_JAPANESE] = "神と魔の間で",
-    [LANGUAGE_ENGLISH] = "Divine Demon",
-    [LANGUAGE_CHINESE] = "介于神与魔之间",
+[MPID_HONOR_フィオーラ] = {
+    [LANGUAGE_JAPANESE] = "穢れなき白翼",
+    [LANGUAGE_ENGLISH] = "Airborne Warrior",
+    [LANGUAGE_CHINESE] = "纯洁无瑕的白翼",
 },
 
-[MPID_コンスタンツェ] = {
-    [LANGUAGE_JAPANESE] = "コンスタンツェ",
-    [LANGUAGE_ENGLISH] = "Constance",
-    [LANGUAGE_CHINESE] = "康丝坦洁",
+[MPID_フュリー] = {
+    [LANGUAGE_JAPANESE] = "フュリー",
+    [LANGUAGE_ENGLISH] = "Erinys",
+    [LANGUAGE_CHINESE] = "菲莉",
 },
 
-[MPID_H_コンスタンツェ] = {
-    [LANGUAGE_JAPANESE] = "没落した帝国貴族ヌーヴェル家の息女。" TEXT_CMD_NEWLINE "高飛車だが、明るい場所だと性格が一変。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Young lady of the fallen Imperial house" TEXT_CMD_NEWLINE "of Nuvelle. Has an overbearing attitude until" TEXT_CMD_NEWLINE "she's somewhere with sunlight. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "没落的帝国贵族努维尔家的女儿。" TEXT_CMD_NEWLINE "虽然姿态高傲，但在明亮的场所时会性格突变。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+[MPID_H_フュリー] = {
+    [LANGUAGE_JAPANESE] = "シレジア四天馬騎士の一員で、マーニャの妹。" TEXT_CMD_NEWLINE "生真面目すぎる性格をレヴィン王子にからかわれている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "One of the Four Heavenly Knights of Silesse and" TEXT_CMD_NEWLINE "Annand's younger sister. Has a serious outlook" TEXT_CMD_NEWLINE "that Prince Lewyn teases her about. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "西里西亚四天马骑士的一员，玛妮娅的妹妹。" TEXT_CMD_NEWLINE "因为性格太过一板一眼，总是被雷文王子捉弄。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
 },
 
-[MPID_HONOR_コンスタンツェ] = {
-    [LANGUAGE_JAPANESE] = "雌伏令嬢",
-    [LANGUAGE_ENGLISH] = "Fallen Noble",
-    [LANGUAGE_CHINESE] = "雌伏千金",
+[MPID_HONOR_フュリー] = {
+    [LANGUAGE_JAPANESE] = "真面目な天馬騎士",
+    [LANGUAGE_ENGLISH] = "Earnest Knight",
+    [LANGUAGE_CHINESE] = "认真的天马骑士",
 },
 
-[MPID_ミネルバ] = {
-    [LANGUAGE_JAPANESE] = "ミネルバ",
-    [LANGUAGE_ENGLISH] = "Minerva",
-    [LANGUAGE_CHINESE] = "米奈娃",
+[MPID_モゥディ] = {
+    [LANGUAGE_JAPANESE] = "モゥディ",
+    [LANGUAGE_ENGLISH] = "Mordecai",
+    [LANGUAGE_CHINESE] = "摩迪",
 },
 
-[MPID_H_ミネルバ] = {
-    [LANGUAGE_JAPANESE] = "【赤い竜騎士】と呼ばれるマケドニア王女。" TEXT_CMD_NEWLINE "敬愛していた兄ミシェイルと袂を分かち、相争った。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Princess of Macedon who took up arms" TEXT_CMD_NEWLINE "against her brother, Michalis. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "被称为【赤色龙骑士】的马其顿公主。" TEXT_CMD_NEWLINE "和原本敬爱的兄长米谢尔断绝关系、彼此争战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_モゥディ] = {
+    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国の虎の民の戦士。" TEXT_CMD_NEWLINE "心優しい巨漢で、争いごとは嫌い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "A tiger warrior from Gallia, the home of the" TEXT_CMD_NEWLINE "beast tribe of laguz. A kind, peace-loving giant." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "居住在加利亚王国的兽牙族的虎之民战士。" TEXT_CMD_NEWLINE "心地善良的大汉，讨厌与人竞争。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
 },
 
-[MPID_HONOR_ミネルバ] = {
-    [LANGUAGE_JAPANESE] = "赤い竜騎士",
-    [LANGUAGE_ENGLISH] = "Red Dragoon",
-    [LANGUAGE_CHINESE] = "赤色龙骑士",
+[MPID_HONOR_モゥディ] = {
+    [LANGUAGE_JAPANESE] = "優しき背",
+    [LANGUAGE_ENGLISH] = "Kindhearted Tiger",
+    [LANGUAGE_CHINESE] = "温柔的背影",
 },
 
-[MPID_総選挙ベレス] = {
-    [LANGUAGE_JAPANESE] = "ベレス",
-    [LANGUAGE_ENGLISH] = "Byleth",
-    [LANGUAGE_CHINESE] = "贝雷丝",
+[MPID_ライ] = {
+    [LANGUAGE_JAPANESE] = "ライ",
+    [LANGUAGE_ENGLISH] = "Ranulf",
+    [LANGUAGE_CHINESE] = "莱伊",
 },
 
-[MPID_H_総選挙ベレス] = {
-    [LANGUAGE_JAPANESE] = "ガルグ＝マク大修道院の元教師。" TEXT_CMD_NEWLINE "内なる女神の声に導かれ、世の闇を照らす。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "A former professor of Garreg Mach Monastery." TEXT_CMD_NEWLINE "Guided by the voice of the goddess within, she" TEXT_CMD_NEWLINE "aims to illuminate the darkness smothering the" TEXT_CMD_NEWLINE "world. Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "加尔古‧玛库大修道院的前教师。" TEXT_CMD_NEWLINE "受体内的女神之声引导，照亮世间的黑暗。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+[MPID_H_ライ] = {
+    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国の猫の民の戦士。" TEXT_CMD_NEWLINE "まだ若いが王の信頼厚く、次期王の右腕と目される。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "A cat warrior from Gallia, the home of the beast" TEXT_CMD_NEWLINE "tribe of laguz. Though young, his king trusts him" TEXT_CMD_NEWLINE "deeply. Considered the right hand of the future" TEXT_CMD_NEWLINE "king. Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "居住在加利亚王国的兽牙族的猫之民战士。" TEXT_CMD_NEWLINE "年纪轻轻就深受国王信任，被当作下任国王的左右手。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
 },
 
-[MPID_HONOR_総選挙ベレス] = {
-    [LANGUAGE_JAPANESE] = "覇天顕照",
-    [LANGUAGE_ENGLISH] = "Sublime Light",
-    [LANGUAGE_CHINESE] = "霸天显照",
-},
-
-[MPID_ルキナ] = {
-    [LANGUAGE_JAPANESE] = "ルキナ",
-    [LANGUAGE_ENGLISH] = "Lucina",
-    [LANGUAGE_CHINESE] = "露琪娜",
-},
-
-[MPID_H_ルキナ] = {
-    [LANGUAGE_JAPANESE] = "未来から来たクロムの娘。正義感に溢れた王女。" TEXT_CMD_NEWLINE "世界を救うことを自らの使命としている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A princess and daughter of Chrom who" TEXT_CMD_NEWLINE "traveled to her past to prevent apocalypse." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "来自未来的库洛武之女，是位充满正义感的公主。" TEXT_CMD_NEWLINE "以拯救世界为使命。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ルキナ] = {
-    [LANGUAGE_JAPANESE] = "未来を知る者",
-    [LANGUAGE_ENGLISH] = "Future Witness",
-    [LANGUAGE_CHINESE] = "知晓未来者",
-},
-
-[MPID_サイリ] = {
-    [LANGUAGE_JAPANESE] = "サイリ",
-    [LANGUAGE_ENGLISH] = "Say'ri",
-    [LANGUAGE_CHINESE] = "彩莉",
-},
-
-[MPID_H_サイリ] = {
-    [LANGUAGE_JAPANESE] = "ヴァルム大陸の小国ソンシンの王女。" TEXT_CMD_NEWLINE "曲がったことを許さない、まっすぐな性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "The upright and dignified princess of the" TEXT_CMD_NEWLINE "Chon'sin dynasty. She has a direct approach" TEXT_CMD_NEWLINE "and never forgives a crooked deed. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "瓦雷姆陆地的小国──索恩希的公主" TEXT_CMD_NEWLINE "个性直率，无法容忍不合理的事物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_サイリ] = {
-    [LANGUAGE_JAPANESE] = "ソンシンの剣姫",
-    [LANGUAGE_ENGLISH] = "Chon'sin's Blade",
-    [LANGUAGE_CHINESE] = "索恩希的剑姬",
-},
-
-[MPID_グレゴ] = {
-    [LANGUAGE_JAPANESE] = "グレゴ",
-    [LANGUAGE_ENGLISH] = "Gregor",
-    [LANGUAGE_CHINESE] = "固雷格",
-},
-
-[MPID_H_グレゴ] = {
-    [LANGUAGE_JAPANESE] = "各国を渡り歩いてきた傭兵。情に厚い性格。" TEXT_CMD_NEWLINE "おじさんっぽい言動が目立つが腕は確か。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A likable merc who has set foot on many" TEXT_CMD_NEWLINE "distant lands. The years of experience have" TEXT_CMD_NEWLINE "hardened him, and his age has begun to show." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "走遍各国的佣兵。个性很重情义。" TEXT_CMD_NEWLINE "大叔般的言行很引人注目，但拥有真本事。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_グレゴ] = {
-    [LANGUAGE_JAPANESE] = "不敵なる傭兵",
-    [LANGUAGE_ENGLISH] = "Swell Sword",
-    [LANGUAGE_CHINESE] = "无所畏惧的佣兵",
-},
-
-[MPID_リヒト] = {
-    [LANGUAGE_JAPANESE] = "リヒト",
-    [LANGUAGE_ENGLISH] = "Ricken",
-    [LANGUAGE_CHINESE] = "里希特",
-},
-
-[MPID_H_リヒト] = {
-    [LANGUAGE_JAPANESE] = "クロムに憧れ、クロム自警団見習いとして" TEXT_CMD_NEWLINE "日々努力を重ねている幼き魔道士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A mage who joined the Shepherds as an" TEXT_CMD_NEWLINE "apprentice in hopes of learning all he's able" TEXT_CMD_NEWLINE "from his mentor, Chrom. Young, but a hard" TEXT_CMD_NEWLINE "worker. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "憧憬库洛武，作为库洛武自卫团的见习生，" TEXT_CMD_NEWLINE "每天努力不懈的年轻魔道士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_リヒト] = {
-    [LANGUAGE_JAPANESE] = "自警団見習い",
-    [LANGUAGE_ENGLISH] = "Shepherd Novice",
-    [LANGUAGE_CHINESE] = "自卫团见习生",
-},
-
-[MPID_フォレオ] = {
-    [LANGUAGE_JAPANESE] = "フォレオ",
-    [LANGUAGE_ENGLISH] = "Forrest",
-    [LANGUAGE_CHINESE] = "法雷欧",
-},
-
-[MPID_H_フォレオ] = {
-    [LANGUAGE_JAPANESE] = "レオンの息子。優しく思いやりのある性格。" TEXT_CMD_NEWLINE "美的センスが高く、服飾作りが得意。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Son of Leo. A kind and compassionate soul," TEXT_CMD_NEWLINE "with a keen eye for aesthetics. Loves to sew." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "里昂的儿子。个性温柔，富有同理心。" TEXT_CMD_NEWLINE "对美的品味相当高，很擅长制作服饰。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_フォレオ] = {
-    [LANGUAGE_JAPANESE] = "可愛らしい王子",
-    [LANGUAGE_ENGLISH] = "Fashion Forward",
-    [LANGUAGE_CHINESE] = "可爱的王子",
-},
-
-[MPID_闇マーク女] = {
-    [LANGUAGE_JAPANESE] = "マーク",
-    [LANGUAGE_ENGLISH] = "Morgan",
-    [LANGUAGE_CHINESE] = "马可",
-},
-
-[MPID_H_闇マーク女] = {
-    [LANGUAGE_JAPANESE] = "クロムが導かれた絶望の未来で出会った謎の少女。" TEXT_CMD_NEWLINE "邪竜ギムレーに忠誠を誓う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A mysterious young woman from a future that" TEXT_CMD_NEWLINE "knows only despair. She has sworn allegiance" TEXT_CMD_NEWLINE "to the Fell Dragon, Grima. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "库洛武被引导到绝望未来时所遇见的神秘少女。" TEXT_CMD_NEWLINE "宣誓效忠邪龙津利。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_闇マーク女] = {
-    [LANGUAGE_JAPANESE] = "闇色の忠節",
-    [LANGUAGE_ENGLISH] = "Devoted Darkness",
-    [LANGUAGE_CHINESE] = "黑暗的忠义",
-},
-
-[MPID_闇マーク男] = {
-    [LANGUAGE_JAPANESE] = "マーク",
-    [LANGUAGE_ENGLISH] = "Morgan",
-    [LANGUAGE_CHINESE] = "马可",
-},
-
-[MPID_H_闇マーク男] = {
-    [LANGUAGE_JAPANESE] = "クロムが導かれた絶望の未来で出会った謎の少年。" TEXT_CMD_NEWLINE "その声には聞き覚えが…？" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A mysterious young man from a future that" TEXT_CMD_NEWLINE "knows only despair. His voice is somehow" TEXT_CMD_NEWLINE "familiar... Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "库洛武被引导到绝望未来时所遇见的神秘少年。" TEXT_CMD_NEWLINE "好像曾听过他的声音……？" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_闇マーク男] = {
-    [LANGUAGE_JAPANESE] = "闇色の未来",
-    [LANGUAGE_ENGLISH] = "Fated Darkness",
-    [LANGUAGE_CHINESE] = "黑暗的未来",
-},
-
-[MPID_闇ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "ディミトリ",
-    [LANGUAGE_ENGLISH] = "Dimitri",
-    [LANGUAGE_CHINESE] = "帝弥托利",
-},
-
-[MPID_H_闇ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "憎悪に駆られたファーガスの王子。" TEXT_CMD_NEWLINE "エーデルガルトに復讐を誓い、殺戮を重ねる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Prince of Faerghus overcome by hatred. Vowing" TEXT_CMD_NEWLINE "to have his revenge on Edelgard, he commits to" TEXT_CMD_NEWLINE "slaughtering his foes without mercy. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "受仇恨驱使的法嘉斯王子。" TEXT_CMD_NEWLINE "立誓要向艾黛尔贾特复仇而杀戮无数。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_闇ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "狂乱の王子",
-    [LANGUAGE_ENGLISH] = "Savage Boar",
-    [LANGUAGE_CHINESE] = "狂乱的王子",
-},
-
-[MPID_覇骸エーデルガルト] = {
-    [LANGUAGE_JAPANESE] = "エーデルガルト",
-    [LANGUAGE_ENGLISH] = "Edelgard",
-    [LANGUAGE_CHINESE] = "艾黛尔贾特",
-},
-
-[MPID_H_覇骸エーデルガルト] = {
-    [LANGUAGE_JAPANESE] = "自ら信じた理想のため、その身を異形へと変えた" TEXT_CMD_NEWLINE "アドラステア帝国皇帝。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Adrestian Emperor who has chosen to take on" TEXT_CMD_NEWLINE "a grotesque form for the sake of pursuing her" TEXT_CMD_NEWLINE "ideals. Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "为了自己所信的理想，变身为异形之姿。" TEXT_CMD_NEWLINE "阿德剌斯忒亚帝国的皇帝。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_覇骸エーデルガルト] = {
-    [LANGUAGE_JAPANESE] = "覇道の終着点",
-    [LANGUAGE_ENGLISH] = "Hegemon Husk",
-    [LANGUAGE_CHINESE] = "霸王之路的终点",
-},
-
-[MPID_ハーディン] = {
-    [LANGUAGE_JAPANESE] = "ハーディン",
-    [LANGUAGE_ENGLISH] = "Hardin",
-    [LANGUAGE_CHINESE] = "哈汀",
-},
-
-[MPID_H_ハーディン] = {
-    [LANGUAGE_JAPANESE] = "【草原の狼】の名を持つ、オレルアン王国の王弟。" TEXT_CMD_NEWLINE "アカネイア王女ニーナを救出した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Younger brother of the king of Aurelis," TEXT_CMD_NEWLINE "nicknamed the Coyote. Rescued the" TEXT_CMD_NEWLINE "Archanean Princess, Nyna. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "外号【草原之狼】，奥雷鲁昂王国的王弟。" TEXT_CMD_NEWLINE "救出了阿卡奈亚公主妮娜。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_ハーディン] = {
-    [LANGUAGE_JAPANESE] = "草原の狼",
-    [LANGUAGE_ENGLISH] = "The Coyote",
-    [LANGUAGE_CHINESE] = "草原之狼",
-},
-
-[MPID_アーサー] = {
-    [LANGUAGE_JAPANESE] = "アーサー",
-    [LANGUAGE_ENGLISH] = "Arthur",
-    [LANGUAGE_CHINESE] = "亚瑟",
-},
-
-[MPID_H_アーサー] = {
-    [LANGUAGE_JAPANESE] = "幼い頃に母と妹と生き別れ、一人シレジアで育った。" TEXT_CMD_NEWLINE "フリージ公爵家へ強い怒りを抱いている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Raised alone in Silesse, separated from his" TEXT_CMD_NEWLINE "sister and mother at a young age, he harbors" TEXT_CMD_NEWLINE "resentment toward House Friege. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "自幼便与母亲和妹妹分离，一个人在西里西亚长大。" TEXT_CMD_NEWLINE "对弗立吉公爵家抱有强烈的怒意。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_アーサー] = {
-    [LANGUAGE_JAPANESE] = "怒りの魔法戦士",
-    [LANGUAGE_ENGLISH] = "Furious Mage",
-    [LANGUAGE_CHINESE] = "愤怒的魔法战士",
-},
-
-[MPID_リンダ] = {
-    [LANGUAGE_JAPANESE] = "リンダ",
-    [LANGUAGE_ENGLISH] = "Linde",
-    [LANGUAGE_CHINESE] = "琳达",
-},
-
-[MPID_H_リンダ] = {
-    [LANGUAGE_JAPANESE] = "アカネイア聖王国の大司祭ミロアの娘。" TEXT_CMD_NEWLINE "光の書【オーラ】の継承者。父の敵討ちを望んでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Pontifex Miloah from Archanea." TEXT_CMD_NEWLINE "Inherited the light tome Aura. Wants to" TEXT_CMD_NEWLINE "avenge her father's death. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿卡奈亚圣王国大祭司米罗亚的女儿，" TEXT_CMD_NEWLINE "光之书【辉光】的继承者。期待著有一天能为父报仇。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_リンダ] = {
-    [LANGUAGE_JAPANESE] = "光の魔道士",
-    [LANGUAGE_ENGLISH] = "Light Mage",
-    [LANGUAGE_CHINESE] = "光之魔道士",
-},
-
-[MPID_ユリア] = {
-    [LANGUAGE_JAPANESE] = "ユリア",
-    [LANGUAGE_ENGLISH] = "Julia",
-    [LANGUAGE_CHINESE] = "尤莉亚",
-},
-
-[MPID_H_ユリア] = {
-    [LANGUAGE_JAPANESE] = "聖なる光の書【ナーガ】の継承者。セリスの異父妹。" TEXT_CMD_NEWLINE "物静かな性格だが、運命に立ち向かう強さも持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Inheritor of the Book of Naga. Seliph's" TEXT_CMD_NEWLINE "half sister by a different father. Gentle, yet" TEXT_CMD_NEWLINE "faces her destiny with strength. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "神圣的光之书【那迦】的继承者，赛列斯的异父妹妹。" TEXT_CMD_NEWLINE "个性文静，却也有著反抗命运的坚强意志。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_ユリア] = {
-    [LANGUAGE_JAPANESE] = "神竜を継ぐ者",
-    [LANGUAGE_ENGLISH] = "Naga's Blood",
-    [LANGUAGE_CHINESE] = "神龙的继承者",
-},
-
-[MPID_サイラス] = {
-    [LANGUAGE_JAPANESE] = "サイラス",
-    [LANGUAGE_ENGLISH] = "Silas",
-    [LANGUAGE_CHINESE] = "赛莱斯",
-},
-
-[MPID_H_サイラス] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の新人騎士。カムイの幼なじみ。" TEXT_CMD_NEWLINE "人が良く、相談事を持ちかけられることが多い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A newly appointed Nohrian knight and Corrin's" TEXT_CMD_NEWLINE "childhood friend. Often asked for advice." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的新人骑士，神威的儿时玩伴。" TEXT_CMD_NEWLINE "待人和善，很多人遇到事情都会找他商量。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_サイラス] = {
-    [LANGUAGE_JAPANESE] = "友情の騎士",
-    [LANGUAGE_ENGLISH] = "Loyal Knight",
-    [LANGUAGE_CHINESE] = "友情的骑士",
-},
-
-[MPID_ヘクトル] = {
-    [LANGUAGE_JAPANESE] = "ヘクトル",
-    [LANGUAGE_ENGLISH] = "Hector",
-    [LANGUAGE_CHINESE] = "海克托尔",
-},
-
-[MPID_H_ヘクトル] = {
-    [LANGUAGE_JAPANESE] = "オスティア侯弟。エリウッドの幼馴染。" TEXT_CMD_NEWLINE "堅苦しいことが苦手だが、情にあつい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Eliwood's friend and brother of the Marquess" TEXT_CMD_NEWLINE "of Ostia. Prefers action to court formality." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "奥斯提亚侯爵之弟，艾利乌德的儿时玩伴。" TEXT_CMD_NEWLINE "个性不拘小节，很重情义。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ヘクトル] = {
-    [LANGUAGE_JAPANESE] = "オスティアの勇将",
-    [LANGUAGE_ENGLISH] = "General of Ostia",
-    [LANGUAGE_CHINESE] = "奥斯提亚的勇将",
-},
-
-[MPID_リン] = {
-    [LANGUAGE_JAPANESE] = "リン",
-    [LANGUAGE_ENGLISH] = "Lyn",
-    [LANGUAGE_CHINESE] = "琳",
-},
-
-[MPID_H_リン] = {
-    [LANGUAGE_JAPANESE] = "キアラン公女、本名はリンディス。草原で一人、" TEXT_CMD_NEWLINE "生きてきた過去を持つ。気丈でさっぱりとした性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A woman who grew up on the plains before" TEXT_CMD_NEWLINE "learning she is nobility of Caelin. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "基亚兰女爵，本名是琳迪丝。过去曾经在" TEXT_CMD_NEWLINE "草原上独自一人生活。个性刚毅而爽朗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_リン] = {
-    [LANGUAGE_JAPANESE] = "草原の公女",
-    [LANGUAGE_ENGLISH] = "Lady of the Plains",
-    [LANGUAGE_CHINESE] = "草原的女爵",
-},
-
-[MPID_ガンズ] = {
-    [LANGUAGE_JAPANESE] = "ガンズ",
-    [LANGUAGE_ENGLISH] = "Hans",
-    [LANGUAGE_CHINESE] = "甘兹",
-},
-
-[MPID_H_ガンズ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王ガロン直属の近衛隊長。" TEXT_CMD_NEWLINE "敵に一切の情け容赦をかけないことで知られる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A soldier under the direct command of King" TEXT_CMD_NEWLINE "Garon of Nohr. Known for being merciless." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王加隆的直属近卫队长。" TEXT_CMD_NEWLINE "因对敌人绝不留情这一点而闻名。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ガンズ] = {
-    [LANGUAGE_JAPANESE] = "怪力栄進を欲す",
-    [LANGUAGE_ENGLISH] = "Ambitious Brute",
-    [LANGUAGE_CHINESE] = "狼子野心",
-},
-
-[MPID_レイラ] = {
-    [LANGUAGE_JAPANESE] = "レイラ",
-    [LANGUAGE_ENGLISH] = "Leila",
-    [LANGUAGE_CHINESE] = "蕾拉",
-},
-
-[MPID_H_レイラ] = {
-    [LANGUAGE_JAPANESE] = "暗殺集団【黒い牙】の一員。" TEXT_CMD_NEWLINE "その正体は、オスティアに仕える凄腕の密偵。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A member of the Black Fang group of assassins" TEXT_CMD_NEWLINE "whose true loyalties lie with Ostia, which she" TEXT_CMD_NEWLINE "serves as a spy and skilled infiltrator. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员。" TEXT_CMD_NEWLINE "其真实身分为侍奉奥斯提亚的高强密探。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_レイラ] = {
-    [LANGUAGE_JAPANESE] = "牙の巣に潜む花",
-    [LANGUAGE_ENGLISH] = "Rose amid Fangs",
-    [LANGUAGE_CHINESE] = "潜藏在牙之巢的花朵",
-},
-
-[MPID_ラス] = {
-    [LANGUAGE_JAPANESE] = "ラス",
-    [LANGUAGE_ENGLISH] = "Rath",
-    [LANGUAGE_CHINESE] = "勒斯",
-},
-
-[MPID_H_ラス] = {
-    [LANGUAGE_JAPANESE] = "遊牧民クトラの現族長ダヤンの息子。" TEXT_CMD_NEWLINE "サカの戦士として、誇り高く生きる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Son of the Kutolah tribe's chieftain, Dayan, the" TEXT_CMD_NEWLINE "Silver Wolf. Lives as a proud Sacaen warrior." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "游牧民族库特拉的现任族长大阳的儿子。" TEXT_CMD_NEWLINE "作为一名塞迦的战士，满怀荣耀地生活著。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ラス] = {
-    [LANGUAGE_JAPANESE] = "草原の若き狼",
-    [LANGUAGE_ENGLISH] = "Wolf of Sacae",
-    [LANGUAGE_CHINESE] = "草原的幼狼",
-},
-
-[MEID_ブルーノ素顔] = {
-    [LANGUAGE_JAPANESE] = "ブルーノ",
-    [LANGUAGE_ENGLISH] = "Bruno",
-    [LANGUAGE_CHINESE] = "布鲁诺",
-},
-
-[MEID_H_ブルーノ素顔] = {
-    [LANGUAGE_JAPANESE] = "元特務機関の一人で、アルフォンスの友。" TEXT_CMD_NEWLINE "エンブラ皇族の一人で、ヴェロニカの兄でもある。",
-    [LANGUAGE_ENGLISH] = "Former member of the Order of Heroes and" TEXT_CMD_NEWLINE "friend to Prince Alfonse. Member of the Emblian" TEXT_CMD_NEWLINE "royal family, and Veronica's elder brother.",
-    [LANGUAGE_CHINESE] = "曾为特务机关的一员，阿尔冯斯的好友。" TEXT_CMD_NEWLINE "恩布拉皇族之一，也是维洛妮卡的哥哥。",
-},
-
-[MEID_HONOR_ブルーノ素顔] = {
-    [LANGUAGE_JAPANESE] = "憑かれし皇子",
-    [LANGUAGE_ENGLISH] = "Prince Beset",
-    [LANGUAGE_CHINESE] = "被附身的皇子",
-},
-
-[MPID_アルテナ] = {
-    [LANGUAGE_JAPANESE] = "アルテナ",
-    [LANGUAGE_ENGLISH] = "Altena",
-    [LANGUAGE_CHINESE] = "阿尔缇娜",
-},
-
-[MPID_H_アルテナ] = {
-    [LANGUAGE_JAPANESE] = "キュアンとエスリンの娘で【地槍ゲイボルグ】の継承者。" TEXT_CMD_NEWLINE "仇敵トラバントの子として育てられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Quan and Ethlyn, and inheritor of" TEXT_CMD_NEWLINE "the Gáe Bolg. She was raised by her family's" TEXT_CMD_NEWLINE "enemy, Travant. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "乔安与艾丝琳的女儿，也是【地枪盖伯尔加】的继承者。" TEXT_CMD_NEWLINE "被仇敌托拉邦特当作自己的孩子扶养长大。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_アルテナ] = {
-    [LANGUAGE_JAPANESE] = "聖光の竜騎姫",
-    [LANGUAGE_ENGLISH] = "Luminous Rider",
-    [LANGUAGE_CHINESE] = "圣光龙骑姬",
-},
-
-[MPID_カチュア] = {
-    [LANGUAGE_JAPANESE] = "カチュア",
-    [LANGUAGE_ENGLISH] = "Catria",
-    [LANGUAGE_CHINESE] = "卡秋雅",
-},
-
-[MPID_H_カチュア] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の次女。" TEXT_CMD_NEWLINE "真面目で一途な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Middle of three sisters who are pegasus" TEXT_CMD_NEWLINE "knights for Macedon. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的次女。" TEXT_CMD_NEWLINE "个性严谨而专一。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_カチュア] = {
-    [LANGUAGE_JAPANESE] = "白騎の次姉",
-    [LANGUAGE_ENGLISH] = "Middle Whitewing",
-    [LANGUAGE_CHINESE] = "白骑的次女",
-},
-
-[MPID_パオラ] = {
-    [LANGUAGE_JAPANESE] = "パオラ",
-    [LANGUAGE_ENGLISH] = "Palla",
-    [LANGUAGE_CHINESE] = "帕奥拉",
-},
-
-[MPID_H_パオラ] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の長女。" TEXT_CMD_NEWLINE "世話好きで、包容力にあふれた性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Eldest of three sisters who are pegasus" TEXT_CMD_NEWLINE "knights for Macedon. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的长女。" TEXT_CMD_NEWLINE "喜欢照顾他人，充满了母性的包容力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_パオラ] = {
-    [LANGUAGE_JAPANESE] = "白騎の長姉",
-    [LANGUAGE_ENGLISH] = "Eldest Whitewing",
-    [LANGUAGE_CHINESE] = "白骑的长女",
-},
-
-[MPID_エスト] = {
-    [LANGUAGE_JAPANESE] = "エスト",
-    [LANGUAGE_ENGLISH] = "Est",
-    [LANGUAGE_CHINESE] = "爱丝特",
-},
-
-[MPID_H_エスト] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の末妹。" TEXT_CMD_NEWLINE "明るく子供っぽい性格。アベルとは恋仲。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Youngest of three sisters who are" TEXT_CMD_NEWLINE "pegasus knights for Macedon. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的么女。" TEXT_CMD_NEWLINE "个性开朗而孩子气，和阿贝尔是情侣。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_エスト] = {
-    [LANGUAGE_JAPANESE] = "白騎の末妹",
-    [LANGUAGE_ENGLISH] = "Junior Whitewing",
-    [LANGUAGE_CHINESE] = "白骑的么女",
-},
-
-[MPID_魔器ルフレ女] = {
-    [LANGUAGE_JAPANESE] = "ルフレ",
-    [LANGUAGE_ENGLISH] = "Robin",
-    [LANGUAGE_CHINESE] = "鲁弗莱",
-},
-
-[MPID_H_魔器ルフレ女] = {
-    [LANGUAGE_JAPANESE] = "邪竜ギムレーの魂を宿した存在。" TEXT_CMD_NEWLINE "手にした新たな力は世界を絶望にいざなうのか？" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A host for the soul of Grima, the Fell Dragon," TEXT_CMD_NEWLINE "bent on using her newfound power to sink the" TEXT_CMD_NEWLINE "world further into despair. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "邪龙津利之魂的寄宿者。" TEXT_CMD_NEWLINE "她会用到手的新力量将世界带向绝望吗？" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_魔器ルフレ女] = {
-    [LANGUAGE_JAPANESE] = "絶望へ導くもの",
-    [LANGUAGE_ENGLISH] = "Fell Tactician",
-    [LANGUAGE_CHINESE] = "引领至绝望之人",
-},
-
-[MPID_ギャンレル] = {
-    [LANGUAGE_JAPANESE] = "ギャンレル",
-    [LANGUAGE_ENGLISH] = "Gangrel",
-    [LANGUAGE_CHINESE] = "冈雷尔",
-},
-
-[MPID_H_ギャンレル] = {
-    [LANGUAGE_JAPANESE] = "ペレジア国王。争いを好み、" TEXT_CMD_NEWLINE "インバースとともにイーリス聖王国に戦争を仕掛ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "The King of Plegia, who thirsts for battle." TEXT_CMD_NEWLINE "Together with Aversa, he begins a war against" TEXT_CMD_NEWLINE "the Halidom of Ylisse. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Awakening.",
-    [LANGUAGE_CHINESE] = "佩莱吉亚国王。喜好斗争，" TEXT_CMD_NEWLINE "与茵巴丝一同布局设计了伊里斯圣王国的战争。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ギャンレル] = {
-    [LANGUAGE_JAPANESE] = "暗愚王",
-    [LANGUAGE_ENGLISH] = "Plegia's Mad King",
-    [LANGUAGE_CHINESE] = "暗愚王",
-},
-
-[MPID_覚醒アンナ] = {
-    [LANGUAGE_JAPANESE] = "アンナ",
-    [LANGUAGE_ENGLISH] = "Anna",
-    [LANGUAGE_CHINESE] = "安娜",
-},
-
-[MPID_H_覚醒アンナ] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国を拠点に商いを続ける行商人。" TEXT_CMD_NEWLINE "同じ顔と名前の姉妹がたくさんいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A merchant who travels the Halidom of Ylisse." TEXT_CMD_NEWLINE "She has many sisters who share both her face" TEXT_CMD_NEWLINE "and name. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "以伊里斯圣王国为据点持续行商的旅行商人。" TEXT_CMD_NEWLINE "有著许多长相及名字相同的姊妹。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_覚醒アンナ] = {
-    [LANGUAGE_JAPANESE] = "秘密多き行商人",
-    [LANGUAGE_ENGLISH] = "Secret Seller",
-    [LANGUAGE_CHINESE] = "充满秘密的旅行商人",
-},
-
-[MPID_ムスタファー] = {
-    [LANGUAGE_JAPANESE] = "ムスタファー",
-    [LANGUAGE_ENGLISH] = "Mustafa",
-    [LANGUAGE_CHINESE] = "穆斯塔法",
-},
-
-[MPID_H_ムスタファー] = {
-    [LANGUAGE_JAPANESE] = "ペレジアの将軍。王命に忠実だが" TEXT_CMD_NEWLINE "敵への非道は禁ずる、正々堂々とした武人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "General of Plegia. He is endlessly loyal to his" TEXT_CMD_NEWLINE "king, but he is a military man who prefers a fair" TEXT_CMD_NEWLINE "fight to besting his foes through trickery." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "佩莱吉亚的将军。虽忠于王命，但下令禁止对敌人" TEXT_CMD_NEWLINE "做出惨无人道的行径，是个堂堂正正的武者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ムスタファー] = {
-    [LANGUAGE_JAPANESE] = "ペレジアの武臣",
-    [LANGUAGE_ENGLISH] = "Plegian Champion",
-    [LANGUAGE_CHINESE] = "佩莱吉亚的武臣",
+[MPID_HONOR_ライ] = {
+    [LANGUAGE_JAPANESE] = "良き友",
+    [LANGUAGE_ENGLISH] = "Friend of Nations",
+    [LANGUAGE_CHINESE] = "知心好友",
 },
 
 [MPID_クロム2] = {
@@ -2545,436 +1987,22 @@
     [LANGUAGE_CHINESE] = "伊里斯的圣骑士",
 },
 
-[MPID_ジェローム] = {
-    [LANGUAGE_JAPANESE] = "ジェローム",
-    [LANGUAGE_ENGLISH] = "Gerome",
-    [LANGUAGE_CHINESE] = "杰洛姆",
+[MEID_ブルーノ素顔] = {
+    [LANGUAGE_JAPANESE] = "ブルーノ",
+    [LANGUAGE_ENGLISH] = "Bruno",
+    [LANGUAGE_CHINESE] = "布鲁诺",
 },
 
-[MPID_H_ジェローム] = {
-    [LANGUAGE_JAPANESE] = "セルジュの息子。人と馴れ合うのを好まない。" TEXT_CMD_NEWLINE "愛竜は母親の形見であるミネルヴァ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Cherche's son. Unaccustomed to interpersonal" TEXT_CMD_NEWLINE "interactions. His wyvern Minerva belonged to his" TEXT_CMD_NEWLINE "late mother. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "塞尔裘的儿子，不喜欢与他人亲近。" TEXT_CMD_NEWLINE "爱龙为母亲留下的米奈瓦。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MEID_H_ブルーノ素顔] = {
+    [LANGUAGE_JAPANESE] = "元特務機関の一人で、アルフォンスの友。" TEXT_CMD_NEWLINE "エンブラ皇族の一人で、ヴェロニカの兄でもある。",
+    [LANGUAGE_ENGLISH] = "Former member of the Order of Heroes and" TEXT_CMD_NEWLINE "friend to Prince Alfonse. Member of the Emblian" TEXT_CMD_NEWLINE "royal family, and Veronica's elder brother.",
+    [LANGUAGE_CHINESE] = "曾为特务机关的一员，阿尔冯斯的好友。" TEXT_CMD_NEWLINE "恩布拉皇族之一，也是维洛妮卡的哥哥。",
 },
 
-[MPID_HONOR_ジェローム] = {
-    [LANGUAGE_JAPANESE] = "鉄仮面の竜騎士",
-    [LANGUAGE_ENGLISH] = "Masked Rider",
-    [LANGUAGE_CHINESE] = "铁面的龙骑士",
-},
-
-[MPID_ティト] = {
-    [LANGUAGE_JAPANESE] = "ティト",
-    [LANGUAGE_ENGLISH] = "Thea",
-    [LANGUAGE_CHINESE] = "蒂特",
-},
-
-[MPID_H_ティト] = {
-    [LANGUAGE_JAPANESE] = "シャニーの姉で、天馬騎士団の部隊長。" TEXT_CMD_NEWLINE "誠実で腕が立つが、融通が利かない一面も。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "The second of three sisters who are Pegasus" TEXT_CMD_NEWLINE "Knights of Ilia. She is talented and sincere," TEXT_CMD_NEWLINE "but she can be lacking in flexibility. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "夏妮的姊姊，同时也是天马骑士团的部队队长。" TEXT_CMD_NEWLINE "个性真诚且手腕高超，但也有不懂得变通的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_ティト] = {
-    [LANGUAGE_JAPANESE] = "疾風の天馬騎士",
-    [LANGUAGE_ENGLISH] = "Stormy Flier",
-    [LANGUAGE_CHINESE] = "疾风的天马骑士",
-},
-
-[MPID_ヒューベルト] = {
-    [LANGUAGE_JAPANESE] = "ヒューベルト",
-    [LANGUAGE_ENGLISH] = "Hubert",
-    [LANGUAGE_CHINESE] = "修伯特",
-},
-
-[MPID_H_ヒューベルト] = {
-    [LANGUAGE_JAPANESE] = "アドラステア帝国の宮内卿、ベストラ侯の嫡子。" TEXT_CMD_NEWLINE "エーデルガルトに絶対の忠誠を誓っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "The Adrestian Empire's Minister of the Imperial" TEXT_CMD_NEWLINE "Household and legitimate son of Marquis Vestra." TEXT_CMD_NEWLINE "Has sworn complete fealty to Edelgard." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的宫内卿——贝斯特拉侯爵的嫡子。" TEXT_CMD_NEWLINE "立誓对艾黛尔贾特绝对忠诚。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_ヒューベルト] = {
-    [LANGUAGE_JAPANESE] = "冷酷陰険従者",
-    [LANGUAGE_ENGLISH] = "Sinister Servant",
-    [LANGUAGE_CHINESE] = "冷酷阴险的随从",
-},
-
-[MPID_ヒルダ] = {
-    [LANGUAGE_JAPANESE] = "ヒルダ",
-    [LANGUAGE_ENGLISH] = "Hilda",
-    [LANGUAGE_CHINESE] = "希尔妲",
-},
-
-[MPID_H_ヒルダ] = {
-    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の貴族、ゴネリル公の娘。" TEXT_CMD_NEWLINE "怠惰な性格で、面倒事は他人に押し付けがち。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Noble of the Leicester Alliance and daughter of" TEXT_CMD_NEWLINE "House Goneril. Has a lazy personality and a" TEXT_CMD_NEWLINE "habit of manipulating people into doing things" TEXT_CMD_NEWLINE "for her. Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，哥纳利尔公爵之女。" TEXT_CMD_NEWLINE "个性懒惰散漫，总是把麻烦的事丢给其他人。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_ヒルダ] = {
-    [LANGUAGE_JAPANESE] = "ものぐさ令嬢",
-    [LANGUAGE_ENGLISH] = "Idle Maiden",
-    [LANGUAGE_CHINESE] = "懒惰的大小姐",
-},
-
-[MPID_メルセデス] = {
-    [LANGUAGE_JAPANESE] = "メルセデス",
-    [LANGUAGE_ENGLISH] = "Mercedes",
-    [LANGUAGE_CHINESE] = "梅尔赛德司",
-},
-
-[MPID_H_メルセデス] = {
-    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の商家の養女。元貴族。" TEXT_CMD_NEWLINE "おっとりとした性格で、流されるまま生きている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Adopted daughter of a merchant family in the" TEXT_CMD_NEWLINE "Holy Kingdom of Faerghus. Former nobility with" TEXT_CMD_NEWLINE "a gentle, easygoing personality. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的商家的养女。原为贵族。" TEXT_CMD_NEWLINE "个性稳重，过著随波逐流的生活" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_メルセデス] = {
-    [LANGUAGE_JAPANESE] = "おっとり修道士",
-    [LANGUAGE_ENGLISH] = "Kindly Devotee",
-    [LANGUAGE_CHINESE] = "稳重的修道士",
-},
-
-[MPID_死神騎士] = {
-    [LANGUAGE_JAPANESE] = "死神騎士",
-    [LANGUAGE_ENGLISH] = "Death Knight",
-    [LANGUAGE_CHINESE] = "死神骑士",
-},
-
-[MPID_H_死神騎士] = {
-    [LANGUAGE_JAPANESE] = "炎帝の配下で、強者を求める騎士。" TEXT_CMD_NEWLINE "黒馬を駆り大鎌を振るう姿からこの名で呼ばれる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "The Flame Emperor's subordinate, a knight" TEXT_CMD_NEWLINE "who desires only to fight the strong. Given his" TEXT_CMD_NEWLINE "name due to his scythe and dark steed. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "炎帝的属下，渴求著强者的骑士。" TEXT_CMD_NEWLINE "以骑著黑马挥舞大镰的姿态得名。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_死神騎士] = {
-    [LANGUAGE_JAPANESE] = "闇夜の悪鬼",
-    [LANGUAGE_ENGLISH] = "The Reaper",
-    [LANGUAGE_CHINESE] = "暗夜的恶鬼",
-},
-
-[MPID_パリス] = {
-    [LANGUAGE_JAPANESE] = "パリス",
-    [LANGUAGE_ENGLISH] = "Priam",
-    [LANGUAGE_CHINESE] = "巴利斯",
-},
-
-[MPID_H_パリス] = {
-    [LANGUAGE_JAPANESE] = "隠れ里に住む、蒼炎の勇者の末裔。" TEXT_CMD_NEWLINE "強さを追い求める求道者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Descendant of the Radiant Hero who hails from" TEXT_CMD_NEWLINE "a distant village. An earnest seeker of strength." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "苍炎勇者的后裔，居住在隐密村落。" TEXT_CMD_NEWLINE "追寻强大的求道者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_パリス] = {
-    [LANGUAGE_JAPANESE] = "蒼炎の末裔",
-    [LANGUAGE_ENGLISH] = "Radiant Hero",
-    [LANGUAGE_CHINESE] = "苍炎的后裔",
-},
-
-[MPID_ミリエル] = {
-    [LANGUAGE_JAPANESE] = "ミリエル",
-    [LANGUAGE_ENGLISH] = "Miriel",
-    [LANGUAGE_CHINESE] = "米莉艾尔",
-},
-
-[MPID_H_ミリエル] = {
-    [LANGUAGE_JAPANESE] = "クロム自警団の一員。真面目で几帳面。" TEXT_CMD_NEWLINE "研究熱心で、様々な知識を持っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A serious and methodical Shepherd. Loves to" TEXT_CMD_NEWLINE "research and is knowledgeable on a wide range" TEXT_CMD_NEWLINE "of subjects. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，认真且严谨。" TEXT_CMD_NEWLINE "热衷研究，博学多闻。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ミリエル] = {
-    [LANGUAGE_JAPANESE] = "理知の瞳",
-    [LANGUAGE_ENGLISH] = "Rapier Intellect",
-    [LANGUAGE_CHINESE] = "知性之眼",
-},
-
-[MPID_バジーリオ] = {
-    [LANGUAGE_JAPANESE] = "バジーリオ",
-    [LANGUAGE_ENGLISH] = "Basilio",
-    [LANGUAGE_CHINESE] = "巴基里奥",
-},
-
-[MPID_H_バジーリオ] = {
-    [LANGUAGE_JAPANESE] = "軍事国家フェリアの西の王。" TEXT_CMD_NEWLINE "裏表がなく、単純明快を好む武人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "West-Khan of Regna Ferox, a country led by" TEXT_CMD_NEWLINE "its preference for battle over politics. A simple" TEXT_CMD_NEWLINE "warrior who has nothing to hide. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "军事之国菲利亚的西境之王。" TEXT_CMD_NEWLINE "表里如一，喜欢直来直往的武者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_バジーリオ] = {
-    [LANGUAGE_JAPANESE] = "フェリアの西王",
-    [LANGUAGE_ENGLISH] = "Feroxi West-Khan",
-    [LANGUAGE_CHINESE] = "菲利亚的西境王",
-},
-
-[MPID_ステラ] = {
-    [LANGUAGE_JAPANESE] = "ステラ",
-    [LANGUAGE_ENGLISH] = "Astrid",
-    [LANGUAGE_CHINESE] = "史黛拉",
-},
-
-[MPID_H_ステラ] = {
-    [LANGUAGE_JAPANESE] = "ベグニオン帝国ディアメル伯爵家の令嬢。" TEXT_CMD_NEWLINE "貴族の娘たる生き方を甘受せず、騎士に志願した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "Lady of Begnion's House Damiell. Refusing the" TEXT_CMD_NEWLINE "life of an aristocrat's daughter, she enlisted and" TEXT_CMD_NEWLINE "became a knight. Appears in Fire Emblem: Path" TEXT_CMD_NEWLINE "of Radiance.",
-    [LANGUAGE_CHINESE] = "贝格尼昂帝国帝雅梅尔伯爵家的千金。" TEXT_CMD_NEWLINE "不愿接受身为贵族之女的生活方式，志愿成为骑士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_ステラ] = {
-    [LANGUAGE_JAPANESE] = "覚悟の伯爵家令嬢",
-    [LANGUAGE_ENGLISH] = "Resolute Damsel",
-    [LANGUAGE_CHINESE] = "下决心的伯爵家千金",
-},
-
-[MPID_総選挙リシテア] = {
-    [LANGUAGE_JAPANESE] = "リシテア",
-    [LANGUAGE_ENGLISH] = "Lysithea",
-    [LANGUAGE_CHINESE] = "莉丝缇亚",
-},
-
-[MPID_H_総選挙リシテア] = {
-    [LANGUAGE_JAPANESE] = "レスター諸侯同盟領の貴族、コーデリア伯の娘。" TEXT_CMD_NEWLINE "士官学校の経験を経て成長を遂げる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Count Ordelia and noble of the" TEXT_CMD_NEWLINE "Leicester Alliance. Her monastery experience" TEXT_CMD_NEWLINE "allowed her to achieve much growth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，科迪利亚伯爵之女。" TEXT_CMD_NEWLINE "在士官学校中的经验使其有所成长。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_総選挙リシテア] = {
-    [LANGUAGE_JAPANESE] = "真摯なる求道者",
-    [LANGUAGE_ENGLISH] = "Earnest Seeker",
-    [LANGUAGE_CHINESE] = "勤奋认真的求道者",
-},
-
-[MPID_ロイ] = {
-    [LANGUAGE_JAPANESE] = "ロイ",
-    [LANGUAGE_ENGLISH] = "Roy",
-    [LANGUAGE_CHINESE] = "罗伊",
-},
-
-[MPID_H_ロイ] = {
-    [LANGUAGE_JAPANESE] = "フェレ侯エリウッドの嫡男。若いながらも" TEXT_CMD_NEWLINE "優れた統率力でフェレ軍の指揮官を務める。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "The son of Eliwood, Marquess of Pherae." TEXT_CMD_NEWLINE "Talented leader of Pherae's army. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "费雷侯爵艾利乌德的嫡子。年纪轻轻，却拥有" TEXT_CMD_NEWLINE "优异的指挥能力，担任费雷军的指挥官。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_ロイ] = {
-    [LANGUAGE_JAPANESE] = "若き獅子",
-    [LANGUAGE_ENGLISH] = "Young Lion",
-    [LANGUAGE_CHINESE] = "幼狮",
-},
-
-[MPID_暴走カムイ女] = {
-    [LANGUAGE_JAPANESE] = "カムイ",
-    [LANGUAGE_ENGLISH] = "Corrin",
-    [LANGUAGE_CHINESE] = "神威",
-},
-
-[MPID_H_暴走カムイ女] = {
-    [LANGUAGE_JAPANESE] = "暗夜・白夜両国にまたがる数奇な運命を背負う者。" TEXT_CMD_NEWLINE "その身に秘める力の昂ぶりに翻弄される。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Unfortunate soul torn between both Nohr and" TEXT_CMD_NEWLINE "Hoshido, overtaken by the power lurking in her" TEXT_CMD_NEWLINE "blood. Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "背负著交错于暗夜、白夜两国动荡的命运之人。" TEXT_CMD_NEWLINE "被隐匿于己身中的力量恣意摆布。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_暴走カムイ女] = {
-    [LANGUAGE_JAPANESE] = "禍つ魂の慟哭",
-    [LANGUAGE_ENGLISH] = "Wailing Soul",
-    [LANGUAGE_CHINESE] = "灾祸之魂的恸哭",
-},
-
-[MPID_ファリナ] = {
-    [LANGUAGE_JAPANESE] = "ファリナ",
-    [LANGUAGE_ENGLISH] = "Farina",
-    [LANGUAGE_CHINESE] = "法丽娜",
-},
-
-[MPID_H_ファリナ] = {
-    [LANGUAGE_JAPANESE] = "イリア傭兵天馬騎士でフィオーラの妹、フロリーナの姉。" TEXT_CMD_NEWLINE "現実的な価値観を持ち、見方によっては非常にがめつい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "An Ilian pegasus knight; younger sister to Fiora" TEXT_CMD_NEWLINE "and older sister to Florina. Her pragmatic" TEXT_CMD_NEWLINE "worldview can sometimes border on avarice." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "伊利亚的佣兵天马骑士。菲奥拉之妹，芙罗利娜之姊。" TEXT_CMD_NEWLINE "价值观十分实际，从另一方面来看可说是非常唯利是图。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ファリナ] = {
-    [LANGUAGE_JAPANESE] = "すご腕の天馬騎士",
-    [LANGUAGE_ENGLISH] = "The Great Wing",
-    [LANGUAGE_CHINESE] = "出众的天马骑士",
-},
-
-[MPID_オフェリア] = {
-    [LANGUAGE_JAPANESE] = "オフェリア",
-    [LANGUAGE_ENGLISH] = "Ophelia",
-    [LANGUAGE_CHINESE] = "欧菲莉亚",
-},
-
-[MPID_H_オフェリア] = {
-    [LANGUAGE_JAPANESE] = "オーディンの娘。夢見がちな性格で、" TEXT_CMD_NEWLINE "星や石などを用いて独自のまじないをする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Odin's daughter. A daydreamer who applies a" TEXT_CMD_NEWLINE "flair for the dramatic to her magic. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "奥丁的女儿，喜欢作梦，" TEXT_CMD_NEWLINE "会用繁星及石块等自己创造咒语。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_オフェリア] = {
-    [LANGUAGE_JAPANESE] = "乙女心の躍動",
-    [LANGUAGE_ENGLISH] = "Dramatic Heroine",
-    [LANGUAGE_CHINESE] = "少女心的跃动",
-},
-
-[MPID_エポニーヌ] = {
-    [LANGUAGE_JAPANESE] = "エポニーヌ",
-    [LANGUAGE_ENGLISH] = "Nina",
-    [LANGUAGE_CHINESE] = "艾波宁",
-},
-
-[MPID_H_エポニーヌ] = {
-    [LANGUAGE_JAPANESE] = "ゼロの娘。冷静沈着で頭も良いが、" TEXT_CMD_NEWLINE "あやしい妄想家でもある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Niles's daughter. Calm and intelligent but prone" TEXT_CMD_NEWLINE "to intense bouts of daydreaming. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "零的女儿，虽然沉著冷静、头脑清晰，" TEXT_CMD_NEWLINE "但也经常会冒出危险的妄想。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_エポニーヌ] = {
-    [LANGUAGE_JAPANESE] = "邪な空想",
-    [LANGUAGE_ENGLISH] = "Eye Spy",
-    [LANGUAGE_CHINESE] = "邪恶的妄想",
-},
-
-[MPID_スミア] = {
-    [LANGUAGE_JAPANESE] = "スミア",
-    [LANGUAGE_ENGLISH] = "Sumia",
-    [LANGUAGE_CHINESE] = "丝米亚",
-},
-
-[MPID_H_スミア] = {
-    [LANGUAGE_JAPANESE] = "クロム自警団の一員。花占いが好き。" TEXT_CMD_NEWLINE "心優しく、動物と心を通わせることができる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A gentle Shepherd who enjoys flower fortunes." TEXT_CMD_NEWLINE "Shows talent at working with animals. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，喜欢用花来占卜。" TEXT_CMD_NEWLINE "心地善良，能与动物心意相通。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_スミア] = {
-    [LANGUAGE_JAPANESE] = "花占いの乙女",
-    [LANGUAGE_ENGLISH] = "Maid of Flowers",
-    [LANGUAGE_CHINESE] = "以花占卜的少女",
-},
-
-[MPID_セライナ] = {
-    [LANGUAGE_JAPANESE] = "セライナ",
-    [LANGUAGE_ENGLISH] = "Selena",
-    [LANGUAGE_CHINESE] = "瑟莱娜",
-},
-
-[MPID_H_セライナ] = {
-    [LANGUAGE_JAPANESE] = "寒村の平民の出身ながら、グラド帝国皇帝の懐刀として" TEXT_CMD_NEWLINE "帝国三騎【蛍石】の名を受けるほどの魔道の使い手。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Commoner from out of a desolate village who" TEXT_CMD_NEWLINE "used her magic ability to become the Fluorspar" TEXT_CMD_NEWLINE "of the Imperial Three. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "虽是出身于贫困村落的平民，" TEXT_CMD_NEWLINE "却是格拉多帝国皇帝的亲信，" TEXT_CMD_NEWLINE "也是别名为帝国三骑【萤石】的优秀魔道士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_セライナ] = {
-    [LANGUAGE_JAPANESE] = "蛍石",
-    [LANGUAGE_ENGLISH] = "Fluorspar",
-    [LANGUAGE_CHINESE] = "萤石",
-},
-
-[MPID_ガトリー] = {
-    [LANGUAGE_JAPANESE] = "ガトリー",
-    [LANGUAGE_ENGLISH] = "Gatrie",
-    [LANGUAGE_CHINESE] = "嘉德列",
-},
-
-[MPID_H_ガトリー] = {
-    [LANGUAGE_JAPANESE] = "グレイル傭兵団に所属する重歩兵。" TEXT_CMD_NEWLINE "お調子者で女性に目がなく、声をかけては振られている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A knight with the Greil Mercenaries. Easily" TEXT_CMD_NEWLINE "excited, he flirts with women at every turn" TEXT_CMD_NEWLINE "but suffers rejection just as often. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "隶属格莱尔佣兵团的重步兵。" TEXT_CMD_NEWLINE "容易得意忘形且非常喜欢女性，搭讪总是失败。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_ガトリー] = {
-    [LANGUAGE_JAPANESE] = "惚れっぽい重歩兵",
-    [LANGUAGE_ENGLISH] = "Armored Amour",
-    [LANGUAGE_CHINESE] = "容易动心的重步兵",
-},
-
-[MPID_外伝カチュア] = {
-    [LANGUAGE_JAPANESE] = "カチュア",
-    [LANGUAGE_ENGLISH] = "Catria",
-    [LANGUAGE_CHINESE] = "卡秋雅",
-},
-
-[MPID_H_外伝カチュア] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の次女。" TEXT_CMD_NEWLINE "さらわれた妹を追ってバレンシア大陸にやって来た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "The middle sister of three pegasus knights of" TEXT_CMD_NEWLINE "Macedon who ventured to Valentia to rescue" TEXT_CMD_NEWLINE "her kidnapped younger sister. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的次女。" TEXT_CMD_NEWLINE "追寻被掳走的妹妹的踪迹而来到瓦伦西亚陆地。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_外伝カチュア] = {
-    [LANGUAGE_JAPANESE] = "冷静な次女",
-    [LANGUAGE_ENGLISH] = "Mild Middle Sister",
-    [LANGUAGE_CHINESE] = "沉著的次女",
-},
-
-[MPID_コンラート] = {
-    [LANGUAGE_JAPANESE] = "コンラート",
-    [LANGUAGE_ENGLISH] = "Conrad",
-    [LANGUAGE_CHINESE] = "孔拉特",
-},
-
-[MPID_H_コンラート] = {
-    [LANGUAGE_JAPANESE] = "セリカの危機に駆けつける謎の騎士。" TEXT_CMD_NEWLINE "仮面をつけると人格が変わる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A mysterious knight who rushes to Celica's aid" TEXT_CMD_NEWLINE "whenever she is in danger. When he wears his" TEXT_CMD_NEWLINE "mask, his personality changes entirely. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "在赛莉卡陷入危机时赶至她身边的" TEXT_CMD_NEWLINE "神秘骑士。戴上面具后人格就会改变。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_コンラート] = {
-    [LANGUAGE_JAPANESE] = "仮面の騎士",
-    [LANGUAGE_ENGLISH] = "Masked Knight",
-    [LANGUAGE_CHINESE] = "覆面骑士",
-},
-
-[MPID_リーフ] = {
-    [LANGUAGE_JAPANESE] = "リーフ",
-    [LANGUAGE_ENGLISH] = "Leif",
-    [LANGUAGE_CHINESE] = "里弗",
-},
-
-[MPID_H_リーフ] = {
-    [LANGUAGE_JAPANESE] = "キュアンの子。フィアナ村に潜伏していたが" TEXT_CMD_NEWLINE "帝国兵の襲撃をきっかけに立ち上がる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Quan's son. He was hiding in Fiana" TEXT_CMD_NEWLINE "but rose up after an attack by imperial" TEXT_CMD_NEWLINE "forces. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
-    [LANGUAGE_CHINESE] = "乔安之子。原本潜伏在费亚纳村之中，" TEXT_CMD_NEWLINE "因受到帝国军的袭击决定挺身而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_リーフ] = {
-    [LANGUAGE_JAPANESE] = "レンスターの王子",
-    [LANGUAGE_ENGLISH] = "Prince of Leonster",
-    [LANGUAGE_CHINESE] = "伦斯特的王子",
-},
-
-[MPID_オルエン2] = {
-    [LANGUAGE_JAPANESE] = "オルエン",
-    [LANGUAGE_ENGLISH] = "Olwen",
-    [LANGUAGE_CHINESE] = "欧尔玟",
-},
-
-[MPID_H_オルエン2] = {
-    [LANGUAGE_JAPANESE] = "フリージ軍の魔道騎士で、ラインハルトの妹。" TEXT_CMD_NEWLINE "かつて尊敬する兄と袂を分かち、自身の道を歩んでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "A mage knight in Friege's army. She" TEXT_CMD_NEWLINE "now walks her own path after parting" TEXT_CMD_NEWLINE "ways with her beloved brother, Reinhardt." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "弗立吉军的魔道骑士，莱茵哈特的妹妹。" TEXT_CMD_NEWLINE "与曾经尊敬的兄长断绝关系，步上属于自己的道路。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_オルエン2] = {
-    [LANGUAGE_JAPANESE] = "緑の魔道騎士",
-    [LANGUAGE_ENGLISH] = "Righteous Knight",
-    [LANGUAGE_CHINESE] = "绿色魔道骑士",
-},
-
-[MPID_開花マリータ] = {
-    [LANGUAGE_JAPANESE] = "マリータ",
-    [LANGUAGE_ENGLISH] = "Mareeta",
-    [LANGUAGE_CHINESE] = "玛丽塔",
-},
-
-[MPID_H_開花マリータ] = {
-    [LANGUAGE_JAPANESE] = "フィアナ村の領主エーヴェルの養女。" TEXT_CMD_NEWLINE "流星の輝きを得て、その剣技は無双の境地へ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Foster daughter of Eyvel, mistress of Fiana." TEXT_CMD_NEWLINE "The gleaming strength of Astra is hers, and" TEXT_CMD_NEWLINE "she is now beyond peer. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "费亚纳村的领主爱薇尔的养女。" TEXT_CMD_NEWLINE "领悟流星的光辉后，剑技达到举世无双的境界。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_開花マリータ] = {
-    [LANGUAGE_JAPANESE] = "流星開眼",
-    [LANGUAGE_ENGLISH] = "Astra Awakened",
-    [LANGUAGE_CHINESE] = "领悟流星",
+[MEID_HONOR_ブルーノ素顔] = {
+    [LANGUAGE_JAPANESE] = "憑かれし皇子",
+    [LANGUAGE_ENGLISH] = "Prince Beset",
+    [LANGUAGE_CHINESE] = "被附身的皇子",
 },
 
 [MPID_リョウマ] = {
@@ -3067,130 +2095,238 @@
     [LANGUAGE_CHINESE] = "豪迈武士",
 },
 
-[MPID_タクミ] = {
-    [LANGUAGE_JAPANESE] = "タクミ",
-    [LANGUAGE_ENGLISH] = "Takumi",
-    [LANGUAGE_CHINESE] = "拓海",
+[MPID_ジーク] = {
+    [LANGUAGE_JAPANESE] = "ジーク",
+    [LANGUAGE_ENGLISH] = "Zeke",
+    [LANGUAGE_CHINESE] = "吉克",
 },
 
-[MPID_H_タクミ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の王子。神器【風神弓】の使い手。" TEXT_CMD_NEWLINE "自己顕示欲が強く、ひねくれ屋。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Prince of Hoshido who wields the divine" TEXT_CMD_NEWLINE "bow Fujin Yumi. Prickly at times." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的王子，神器【风神弓】的主人。" TEXT_CMD_NEWLINE "个性别扭，亟欲表现自我。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+[MPID_H_ジーク] = {
+    [LANGUAGE_JAPANESE] = "リゲル帝国の将軍。記憶を失って" TEXT_CMD_NEWLINE "倒れているところをティータに助けられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "General of the Rigelian Empire. Tatiana found" TEXT_CMD_NEWLINE "him unconscious, his memory lost. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "利盖尔帝国的将军。失去了记忆，" TEXT_CMD_NEWLINE "倒在海边时被蒂塔所救。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_タクミ] = {
-    [LANGUAGE_JAPANESE] = "神弓の使い手",
-    [LANGUAGE_ENGLISH] = "Wild Card",
-    [LANGUAGE_CHINESE] = "神弓射手",
+[MPID_HONOR_ジーク] = {
+    [LANGUAGE_JAPANESE] = "失いし過去",
+    [LANGUAGE_ENGLISH] = "Past Unknown",
+    [LANGUAGE_CHINESE] = "遗失的过往",
 },
 
-[MPID_サクラ] = {
-    [LANGUAGE_JAPANESE] = "サクラ",
-    [LANGUAGE_ENGLISH] = "Sakura",
-    [LANGUAGE_CHINESE] = "樱",
+[MPID_サイリ] = {
+    [LANGUAGE_JAPANESE] = "サイリ",
+    [LANGUAGE_ENGLISH] = "Say'ri",
+    [LANGUAGE_CHINESE] = "彩莉",
 },
 
-[MPID_H_サクラ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の王女。人を癒す力を持つ。" TEXT_CMD_NEWLINE "内気で照れ屋だが、優しい心の持ち主。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Princess of Hoshido who is a gentle healer." TEXT_CMD_NEWLINE "Struggles with her shyness. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的公主，具有治愈他人的力量。" TEXT_CMD_NEWLINE "个性文静害羞，心地善良。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+[MPID_H_サイリ] = {
+    [LANGUAGE_JAPANESE] = "ヴァルム大陸の小国ソンシンの王女。" TEXT_CMD_NEWLINE "曲がったことを許さない、まっすぐな性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "The upright and dignified princess of the" TEXT_CMD_NEWLINE "Chon'sin dynasty. She has a direct approach" TEXT_CMD_NEWLINE "and never forgives a crooked deed. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "瓦雷姆陆地的小国──索恩希的公主" TEXT_CMD_NEWLINE "个性直率，无法容忍不合理的事物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_サクラ] = {
-    [LANGUAGE_JAPANESE] = "慈しみの巫女",
-    [LANGUAGE_ENGLISH] = "Loving Priestess",
-    [LANGUAGE_CHINESE] = "慈悲的巫女",
+[MPID_HONOR_サイリ] = {
+    [LANGUAGE_JAPANESE] = "ソンシンの剣姫",
+    [LANGUAGE_ENGLISH] = "Chon'sin's Blade",
+    [LANGUAGE_CHINESE] = "索恩希的剑姬",
 },
 
-[MPID_ヒノカ] = {
-    [LANGUAGE_JAPANESE] = "ヒノカ",
-    [LANGUAGE_ENGLISH] = "Hinoka",
-    [LANGUAGE_CHINESE] = "火乃香",
+[MPID_総選挙ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "ディミトリ",
+    [LANGUAGE_ENGLISH] = "Dimitri",
+    [LANGUAGE_CHINESE] = "帝弥托利",
 },
 
-[MPID_H_ヒノカ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の王女。面倒見の良い性格。" TEXT_CMD_NEWLINE "実直で朴訥としており、王女というより武人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Hoshidan princess who prefers battles over" TEXT_CMD_NEWLINE "court life. Excels at watching over others." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的公主，很会照顾他人。" TEXT_CMD_NEWLINE "个性耿直而木讷，与其说是公主，更像是一位武者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+[MPID_H_総選挙ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の王。" TEXT_CMD_NEWLINE "一時は自分を見失うも、正しき王の道を歩みはじめる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "King of the Holy Kingdom of Faerghus. Although" TEXT_CMD_NEWLINE "he lost himself for a time, he now walks the path" TEXT_CMD_NEWLINE "of a great ruler. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Three Houses.",
+    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的王。" TEXT_CMD_NEWLINE "虽然曾一时迷失自我，但也开始步上了王者的正道。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_ヒノカ] = {
-    [LANGUAGE_JAPANESE] = "紅の戦姫",
-    [LANGUAGE_ENGLISH] = "Warrior Princess",
-    [LANGUAGE_CHINESE] = "赤色战姬",
+[MPID_HONOR_総選挙ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "ファーガス王",
+    [LANGUAGE_ENGLISH] = "King of Faerghus",
+    [LANGUAGE_CHINESE] = "法嘉斯王",
 },
 
-[MPID_エレミヤ] = {
-    [LANGUAGE_JAPANESE] = "エレミヤ",
-    [LANGUAGE_ENGLISH] = "Eremiya",
-    [LANGUAGE_CHINESE] = "艾蕾米雅",
+[MPID_フォルス] = {
+    [LANGUAGE_JAPANESE] = "フォルス",
+    [LANGUAGE_ENGLISH] = "Forsyth",
+    [LANGUAGE_CHINESE] = "弗鲁斯",
 },
 
-[MPID_H_エレミヤ] = {
-    [LANGUAGE_JAPANESE] = "謎の暗殺者集団を率い、ガーネフに従う司祭。" TEXT_CMD_NEWLINE "かつては多くの戦災孤児を救っていたというが……。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A bishop in service of Gharnef, and leader of" TEXT_CMD_NEWLINE "a group of assassins. Formerly a kind-hearted" TEXT_CMD_NEWLINE "caretaker of war orphans. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: New Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "率领神秘暗杀集团，服从加内夫的祭司。" TEXT_CMD_NEWLINE "据说她曾拯救许多战争孤儿，然而……" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
+[MPID_H_フォルス] = {
+    [LANGUAGE_JAPANESE] = "ソフィア解放軍のソルジャー。" TEXT_CMD_NEWLINE "クレーベの副官で彼に忠誠を誓う熱血漢。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A soldier with the Deliverance. Advisor" TEXT_CMD_NEWLINE "to Clive, whom he has sworn an ardent" TEXT_CMD_NEWLINE "allegiance to. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "索菲亚解放军的士兵。" TEXT_CMD_NEWLINE "向克雷贝宣誓效忠的副官，是名热血男子。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_エレミヤ] = {
-    [LANGUAGE_JAPANESE] = "嘆きの司祭",
-    [LANGUAGE_ENGLISH] = "Bishop of Woe",
-    [LANGUAGE_CHINESE] = "悲叹的祭司",
+[MPID_HONOR_フォルス] = {
+    [LANGUAGE_JAPANESE] = "忠実なる副官",
+    [LANGUAGE_ENGLISH] = "Loyal Lieutenant",
+    [LANGUAGE_CHINESE] = "忠实的副官",
 },
 
-[MPID_ミカヤ] = {
-    [LANGUAGE_JAPANESE] = "ミカヤ",
-    [LANGUAGE_ENGLISH] = "Micaiah",
-    [LANGUAGE_CHINESE] = "米卡雅",
+[MPID_パイソン] = {
+    [LANGUAGE_JAPANESE] = "パイソン",
+    [LANGUAGE_ENGLISH] = "Python",
+    [LANGUAGE_CHINESE] = "帕伊宋",
 },
 
-[MPID_H_ミカヤ] = {
-    [LANGUAGE_JAPANESE] = "義賊「暁の団」に所属する、輝く銀色の髪の少女。" TEXT_CMD_NEWLINE "不思議な力を持つ。サザとは血の繋がらない姉弟同士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "A member of the Dawn Brigade with silver hair" TEXT_CMD_NEWLINE "and mysterious powers. As close with Sothe as" TEXT_CMD_NEWLINE "a sister, though they're not related by blood." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "隶属于义贼「晓团」，有著一头闪耀银发的少女。" TEXT_CMD_NEWLINE "拥有不可思议的力量。和萨札是没有血缘关系的姊弟。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+[MPID_H_パイソン] = {
+    [LANGUAGE_JAPANESE] = "ソフィア解放軍のアーチャー。" TEXT_CMD_NEWLINE "やる気はないが根は真面目で仲間思い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "An archer with the Deliverance. His nonchalant" TEXT_CMD_NEWLINE "exterior belies a serious character that cares" TEXT_CMD_NEWLINE "deeply for his allies. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "索菲亚解放军的弓箭手。看似没有干劲，" TEXT_CMD_NEWLINE "但其实个性认真且很为伙伴著想。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_ミカヤ] = {
-    [LANGUAGE_JAPANESE] = "銀の髪の乙女",
-    [LANGUAGE_ENGLISH] = "Priestess of Dawn",
-    [LANGUAGE_CHINESE] = "银发少女",
+[MPID_HONOR_パイソン] = {
+    [LANGUAGE_JAPANESE] = "冷笑の弓使い",
+    [LANGUAGE_ENGLISH] = "Apathetic Archer",
+    [LANGUAGE_CHINESE] = "冷笑的弓箭手",
 },
 
-[MPID_ニルス] = {
-    [LANGUAGE_JAPANESE] = "ニルス",
-    [LANGUAGE_ENGLISH] = "Nils",
-    [LANGUAGE_CHINESE] = "尼尔斯",
+[MPID_開花セリカ] = {
+    [LANGUAGE_JAPANESE] = "セリカ",
+    [LANGUAGE_ENGLISH] = "Celica",
+    [LANGUAGE_CHINESE] = "赛莉卡",
 },
 
-[MPID_H_ニルス] = {
-    [LANGUAGE_JAPANESE] = "姉のニニアンと共に旅する少年。" TEXT_CMD_NEWLINE "その笛は不思議な音色で皆を元気づける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A young boy who travels with his older sister," TEXT_CMD_NEWLINE "Ninian. The charming sound of his flute's song" TEXT_CMD_NEWLINE "has an energizing effect on those who hear it." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "与姊姊尼尼安一同旅行的少年。" TEXT_CMD_NEWLINE "经常用笛子吹出不可思议的音色鼓舞人们。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+[MPID_H_開花セリカ] = {
+    [LANGUAGE_JAPANESE] = "ソフィア王リマ４世の血を引く王女。" TEXT_CMD_NEWLINE "仲間たちとの旅を通して強く成長する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Princess of Zofia and member of Lima IV's line." TEXT_CMD_NEWLINE "She has grown stronger over the course of her" TEXT_CMD_NEWLINE "journeys with her friends. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "继承索菲亚王利马４世血脉的公主。" TEXT_CMD_NEWLINE "在与伙伴们一同旅行的途中成长茁壮。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_ニルス] = {
-    [LANGUAGE_JAPANESE] = "清朗なる笛の音",
-    [LANGUAGE_ENGLISH] = "Bright Bard",
-    [LANGUAGE_CHINESE] = "爽朗的笛音",
+[MPID_HONOR_開花セリカ] = {
+    [LANGUAGE_JAPANESE] = "バレンシアの希望",
+    [LANGUAGE_ENGLISH] = "Valentia's Hope",
+    [LANGUAGE_CHINESE] = "瓦伦西亚的希望",
 },
 
-[MPID_フィオーラ] = {
-    [LANGUAGE_JAPANESE] = "フィオーラ",
-    [LANGUAGE_ENGLISH] = "Fiora",
-    [LANGUAGE_CHINESE] = "菲奥拉",
+[MPID_外伝カムイ] = {
+    [LANGUAGE_JAPANESE] = "カムイ",
+    [LANGUAGE_ENGLISH] = "Kamui",
+    [LANGUAGE_CHINESE] = "卡武伊",
 },
 
-[MPID_H_フィオーラ] = {
-    [LANGUAGE_JAPANESE] = "イリアの傭兵天馬騎士。ファリナ、フロリーナの姉。" TEXT_CMD_NEWLINE "家族と母国を愛する、誇り高き騎士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A pegasus knight of Ilia. Older sister of Farina" TEXT_CMD_NEWLINE "and Florina. A knight full of pride for both her" TEXT_CMD_NEWLINE "country and family. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "伊利亚的佣兵天马骑士。法丽娜与芙罗利娜的姊姊。" TEXT_CMD_NEWLINE "深爱家人与母国，是名身怀荣耀的骑士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+[MPID_H_外伝カムイ] = {
+    [LANGUAGE_JAPANESE] = "各地を転々とさすらう傭兵。" TEXT_CMD_NEWLINE "束縛を嫌い、呑気でおおらかな性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A mercenary who drifts from place to place." TEXT_CMD_NEWLINE "He hates being tied down and models a carefree" TEXT_CMD_NEWLINE "yet composed attitude. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "辗转于各地的流浪佣兵。" TEXT_CMD_NEWLINE "讨厌受到束缚，个性不拘小节且坦率大方。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_HONOR_フィオーラ] = {
-    [LANGUAGE_JAPANESE] = "穢れなき白翼",
-    [LANGUAGE_ENGLISH] = "Airborne Warrior",
-    [LANGUAGE_CHINESE] = "纯洁无瑕的白翼",
+[MPID_HONOR_外伝カムイ] = {
+    [LANGUAGE_JAPANESE] = "流れ者の傭兵",
+    [LANGUAGE_ENGLISH] = "Wandering Blade",
+    [LANGUAGE_CHINESE] = "流浪的佣兵",
+},
+
+[MPID_リンダ] = {
+    [LANGUAGE_JAPANESE] = "リンダ",
+    [LANGUAGE_ENGLISH] = "Linde",
+    [LANGUAGE_CHINESE] = "琳达",
+},
+
+[MPID_H_リンダ] = {
+    [LANGUAGE_JAPANESE] = "アカネイア聖王国の大司祭ミロアの娘。" TEXT_CMD_NEWLINE "光の書【オーラ】の継承者。父の敵討ちを望んでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Pontifex Miloah from Archanea." TEXT_CMD_NEWLINE "Inherited the light tome Aura. Wants to" TEXT_CMD_NEWLINE "avenge her father's death. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿卡奈亚圣王国大祭司米罗亚的女儿，" TEXT_CMD_NEWLINE "光之书【辉光】的继承者。期待著有一天能为父报仇。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_リンダ] = {
+    [LANGUAGE_JAPANESE] = "光の魔道士",
+    [LANGUAGE_ENGLISH] = "Light Mage",
+    [LANGUAGE_CHINESE] = "光之魔道士",
+},
+
+[MPID_ユリア] = {
+    [LANGUAGE_JAPANESE] = "ユリア",
+    [LANGUAGE_ENGLISH] = "Julia",
+    [LANGUAGE_CHINESE] = "尤莉亚",
+},
+
+[MPID_H_ユリア] = {
+    [LANGUAGE_JAPANESE] = "聖なる光の書【ナーガ】の継承者。セリスの異父妹。" TEXT_CMD_NEWLINE "物静かな性格だが、運命に立ち向かう強さも持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Inheritor of the Book of Naga. Seliph's" TEXT_CMD_NEWLINE "half sister by a different father. Gentle, yet" TEXT_CMD_NEWLINE "faces her destiny with strength. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "神圣的光之书【那迦】的继承者，赛列斯的异父妹妹。" TEXT_CMD_NEWLINE "个性文静，却也有著反抗命运的坚强意志。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_ユリア] = {
+    [LANGUAGE_JAPANESE] = "神竜を継ぐ者",
+    [LANGUAGE_ENGLISH] = "Naga's Blood",
+    [LANGUAGE_CHINESE] = "神龙的继承者",
+},
+
+[MPID_ケセルダ] = {
+    [LANGUAGE_JAPANESE] = "ケセルダ",
+    [LANGUAGE_ENGLISH] = "Caellach",
+    [LANGUAGE_CHINESE] = "凯瑟尔达",
+},
+
+[MPID_H_ケセルダ] = {
+    [LANGUAGE_JAPANESE] = "グラド帝国の帝国六将【虎目石】。" TEXT_CMD_NEWLINE "傭兵からの成り上がりで、目的達成への手段を選ばない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "The Tiger Eye of Grado's six generals. Rose" TEXT_CMD_NEWLINE "from mercenary life doing whatever it takes" TEXT_CMD_NEWLINE "to achieve his goals. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "格拉多帝国的帝国六将【虎眼石】。" TEXT_CMD_NEWLINE "从佣兵的身分爬到现在的地位，为达目的不择手段。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_ケセルダ] = {
+    [LANGUAGE_JAPANESE] = "虎目石",
+    [LANGUAGE_ENGLISH] = "Tiger Eye",
+    [LANGUAGE_CHINESE] = "虎眼石",
+},
+
+[MPID_ガルザス] = {
+    [LANGUAGE_JAPANESE] = "ガルザス",
+    [LANGUAGE_ENGLISH] = "Galzus",
+    [LANGUAGE_CHINESE] = "嘉尔札斯",
+},
+
+[MPID_H_ガルザス] = {
+    [LANGUAGE_JAPANESE] = "奴隷商人にさらわれ、生き別れになった娘を捜す傭兵。" TEXT_CMD_NEWLINE "彼と彼の娘には、剣聖オードの聖痕がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Lives the life of a mercenary, searching for" TEXT_CMD_NEWLINE "the daughter that was stolen from him. Both of" TEXT_CMD_NEWLINE "them carry the blood of Od, the Sword Saint." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "与遭到奴隶商人掳走的女儿分离，到处寻找女儿的" TEXT_CMD_NEWLINE "佣兵。父女俩都有著剑圣奥德的圣痕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_ガルザス] = {
+    [LANGUAGE_JAPANESE] = "オードの黒剣士",
+    [LANGUAGE_ENGLISH] = "Dark Blade of Od",
+    [LANGUAGE_CHINESE] = "奥德的黑剑士",
+},
+
+[MPID_開花マリータ] = {
+    [LANGUAGE_JAPANESE] = "マリータ",
+    [LANGUAGE_ENGLISH] = "Mareeta",
+    [LANGUAGE_CHINESE] = "玛丽塔",
+},
+
+[MPID_H_開花マリータ] = {
+    [LANGUAGE_JAPANESE] = "フィアナ村の領主エーヴェルの養女。" TEXT_CMD_NEWLINE "流星の輝きを得て、その剣技は無双の境地へ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Foster daughter of Eyvel, mistress of Fiana." TEXT_CMD_NEWLINE "The gleaming strength of Astra is hers, and" TEXT_CMD_NEWLINE "she is now beyond peer. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "费亚纳村的领主爱薇尔的养女。" TEXT_CMD_NEWLINE "领悟流星的光辉后，剑技达到举世无双的境界。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_開花マリータ] = {
+    [LANGUAGE_JAPANESE] = "流星開眼",
+    [LANGUAGE_ENGLISH] = "Astra Awakened",
+    [LANGUAGE_CHINESE] = "领悟流星",
+},
+
+[MPID_カリン] = {
+    [LANGUAGE_JAPANESE] = "カリン",
+    [LANGUAGE_ENGLISH] = "Karin",
+    [LANGUAGE_CHINESE] = "花凛",
+},
+
+[MPID_H_カリン] = {
+    [LANGUAGE_JAPANESE] = "姿を消したセティ王子を捜すシレジアのペガサス乗り。" TEXT_CMD_NEWLINE "愛馬エルメスと共に、危険な戦地でも明るさを失わない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Pegasus rider from Silesse searching for the" TEXT_CMD_NEWLINE "missing prince, Ced. She can face the most" TEXT_CMD_NEWLINE "trying battles with the support of her beloved" TEXT_CMD_NEWLINE "pegasus. Appears in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "西里西亚的飞马骑手，寻找著销声匿迹的赛提王子。" TEXT_CMD_NEWLINE "带著爱马艾尔梅斯，即使身处危险战场也不失开朗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_カリン] = {
+    [LANGUAGE_JAPANESE] = "天馬を駆る少女",
+    [LANGUAGE_ENGLISH] = "Driven Knight",
+    [LANGUAGE_CHINESE] = "驾驭天马的少女",
 },
 
 [MPID_キサラギ] = {
@@ -3229,112 +2365,1834 @@
     [LANGUAGE_CHINESE] = "无精打采的使杖者",
 },
 
-[MPID_アスベル] = {
-    [LANGUAGE_JAPANESE] = "アスベル",
-    [LANGUAGE_ENGLISH] = "Asbel",
-    [LANGUAGE_CHINESE] = "亚斯贝尔",
+[MPID_フォレオ] = {
+    [LANGUAGE_JAPANESE] = "フォレオ",
+    [LANGUAGE_ENGLISH] = "Forrest",
+    [LANGUAGE_CHINESE] = "法雷欧",
 },
 
-[MPID_H_アスベル] = {
-    [LANGUAGE_JAPANESE] = "アルスターの小都市フレストの魔道士。" TEXT_CMD_NEWLINE "リーフと交わした誓いを守るべく旅に出る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "A wind mage from a small city in Ulster, Hrest." TEXT_CMD_NEWLINE "Undertakes a long journey in search of Leif" TEXT_CMD_NEWLINE "in order to fulfill his pledge. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "出身于阿尔斯特的小城市——弗勒司特的魔道士。" TEXT_CMD_NEWLINE "为了实现与里弗订下的誓约而踏上旅程。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+[MPID_H_フォレオ] = {
+    [LANGUAGE_JAPANESE] = "レオンの息子。優しく思いやりのある性格。" TEXT_CMD_NEWLINE "美的センスが高く、服飾作りが得意。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Son of Leo. A kind and compassionate soul," TEXT_CMD_NEWLINE "with a keen eye for aesthetics. Loves to sew." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "里昂的儿子。个性温柔，富有同理心。" TEXT_CMD_NEWLINE "对美的品味相当高，很擅长制作服饰。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_アスベル] = {
-    [LANGUAGE_JAPANESE] = "風に導かれた少年",
-    [LANGUAGE_ENGLISH] = "Windswept Youth",
-    [LANGUAGE_CHINESE] = "受风指引的少年",
+[MPID_HONOR_フォレオ] = {
+    [LANGUAGE_JAPANESE] = "可愛らしい王子",
+    [LANGUAGE_ENGLISH] = "Fashion Forward",
+    [LANGUAGE_CHINESE] = "可爱的王子",
 },
 
-[MPID_ゲイル] = {
-    [LANGUAGE_JAPANESE] = "ゲイル",
-    [LANGUAGE_ENGLISH] = "Galle",
-    [LANGUAGE_CHINESE] = "盖尔",
+[MPID_パント] = {
+    [LANGUAGE_JAPANESE] = "パント",
+    [LANGUAGE_ENGLISH] = "Pent",
+    [LANGUAGE_CHINESE] = "庞托",
 },
 
-[MPID_H_ゲイル] = {
-    [LANGUAGE_JAPANESE] = "ベルン王国軍屈指の強者と評されるドラゴンマスター。" TEXT_CMD_NEWLINE "【三竜将】筆頭マードックからの信も厚い忠義の志士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "Considered by many to be the strongest Wyvern" TEXT_CMD_NEWLINE "Lord of Bern's army, he is loyal to the leader of" TEXT_CMD_NEWLINE "the Wyvern Generals, Murdock. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "飞龙将领，被誉为伯尔尼王国军首屈一指的强者。" TEXT_CMD_NEWLINE "是名忠义志士，深受统领【三龙将】的墨德克的信任。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+[MPID_H_パント] = {
+    [LANGUAGE_JAPANESE] = "エトルリア王国屈指の大貴族、リグレ公爵家の当主。" TEXT_CMD_NEWLINE "魔道の探求者として世界に名を馳せる。ルイーズの夫。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Count Reglay. Husband of Louise and leader of" TEXT_CMD_NEWLINE "Etruria's most prominent noble house. Known" TEXT_CMD_NEWLINE "to all as a seeker of magical knowledge." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "伊特鲁里亚王国屈指可数的大贵族" TEXT_CMD_NEWLINE "——利格雷公爵家当家。" TEXT_CMD_NEWLINE "以魔道探求者的身分驰名天下。露依丝的丈夫。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
 },
 
-[MPID_HONOR_ゲイル] = {
-    [LANGUAGE_JAPANESE] = "蒼穹の竜騎士",
-    [LANGUAGE_ENGLISH] = "Azure Rider",
-    [LANGUAGE_CHINESE] = "苍穹龙骑士",
+[MPID_HONOR_パント] = {
+    [LANGUAGE_JAPANESE] = "銀の魔道軍将",
+    [LANGUAGE_ENGLISH] = "Mage General",
+    [LANGUAGE_CHINESE] = "银之魔道军将",
 },
 
-[MPID_カミラ] = {
-    [LANGUAGE_JAPANESE] = "カミラ",
-    [LANGUAGE_ENGLISH] = "Camilla",
-    [LANGUAGE_CHINESE] = "卡美拉",
+[MPID_ファリナ] = {
+    [LANGUAGE_JAPANESE] = "ファリナ",
+    [LANGUAGE_ENGLISH] = "Farina",
+    [LANGUAGE_CHINESE] = "法丽娜",
 },
 
-[MPID_H_カミラ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の王女。カムイを溺愛している。" TEXT_CMD_NEWLINE "優しく穏やかな性格だが、敵に対しては冷酷。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Princess of Nohr who dotes on her" TEXT_CMD_NEWLINE "sibling Corrin and is merciless to foes." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的公主，相当溺爱神威。" TEXT_CMD_NEWLINE "性情敦厚、待人和善，但对敌人却毫不留情。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+[MPID_H_ファリナ] = {
+    [LANGUAGE_JAPANESE] = "イリア傭兵天馬騎士でフィオーラの妹、フロリーナの姉。" TEXT_CMD_NEWLINE "現実的な価値観を持ち、見方によっては非常にがめつい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "An Ilian pegasus knight; younger sister to Fiora" TEXT_CMD_NEWLINE "and older sister to Florina. Her pragmatic" TEXT_CMD_NEWLINE "worldview can sometimes border on avarice." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "伊利亚的佣兵天马骑士。菲奥拉之妹，芙罗利娜之姊。" TEXT_CMD_NEWLINE "价值观十分实际，从另一方面来看可说是非常唯利是图。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
 },
 
-[MPID_HONOR_カミラ] = {
-    [LANGUAGE_JAPANESE] = "妖艶な花",
-    [LANGUAGE_ENGLISH] = "Bewitching Beauty",
-    [LANGUAGE_CHINESE] = "妖艳之花",
+[MPID_HONOR_ファリナ] = {
+    [LANGUAGE_JAPANESE] = "すご腕の天馬騎士",
+    [LANGUAGE_ENGLISH] = "The Great Wing",
+    [LANGUAGE_CHINESE] = "出众的天马骑士",
 },
 
-[MPID_フィレイン] = {
-    [LANGUAGE_JAPANESE] = "フィレイン",
-    [LANGUAGE_ENGLISH] = "Phila",
-    [LANGUAGE_CHINESE] = "菲莲",
+[MPID_ベロア] = {
+    [LANGUAGE_JAPANESE] = "ベロア",
+    [LANGUAGE_ENGLISH] = "Velouria",
+    [LANGUAGE_CHINESE] = "蓓罗亚",
 },
 
-[MPID_H_フィレイン] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国天馬騎士団団長。" TEXT_CMD_NEWLINE "責任感が強く、後進の指導に心血を注いでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Leader of Ylisse's pegasus knights. She pours" TEXT_CMD_NEWLINE "everything she has into training the future" TEXT_CMD_NEWLINE "generation of pegasus knights. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国天马骑士团团长。" TEXT_CMD_NEWLINE "有著强烈的责任感，对指导后辈不遗余力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_ベロア] = {
+    [LANGUAGE_JAPANESE] = "フランネルの娘で人狼の血を引く。" TEXT_CMD_NEWLINE "毛玉やホコリ、ガラクタを収拾する癖がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Keaton's daughter, carrying wolfskin blood." TEXT_CMD_NEWLINE "Has a habit of collecting dust bunnies, furballs," TEXT_CMD_NEWLINE "and other random junk. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Fates.",
+    [LANGUAGE_CHINESE] = "弗朗诺的女儿，继承了狼人的血统。" TEXT_CMD_NEWLINE "有收集毛球、灰尘，还有没用杂物的癖好。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_フィレイン] = {
-    [LANGUAGE_JAPANESE] = "天馬の忠臣",
-    [LANGUAGE_ENGLISH] = "Pegasus Master",
-    [LANGUAGE_CHINESE] = "天马的忠臣",
+[MPID_HONOR_ベロア] = {
+    [LANGUAGE_JAPANESE] = "狼の娘",
+    [LANGUAGE_ENGLISH] = "Wolf Cub",
+    [LANGUAGE_CHINESE] = "狼之女",
 },
 
-[MPID_レギン] = {
-    [LANGUAGE_JAPANESE] = "レギン",
-    [LANGUAGE_ENGLISH] = "Reginn",
-    [LANGUAGE_CHINESE] = "雷金",
+[MPID_キヌ] = {
+    [LANGUAGE_JAPANESE] = "キヌ",
+    [LANGUAGE_ENGLISH] = "Selkie",
+    [LANGUAGE_CHINESE] = "绢",
 },
 
-[MPID_H_レギン] = {
-    [LANGUAGE_JAPANESE] = "ニザヴェリル王ファフニールの義理の妹。" TEXT_CMD_NEWLINE "豹変した兄を止めるためアスク王国に協力する。",
-    [LANGUAGE_ENGLISH] = "Adoptive sister of Niðavellir's king, Fáfnir." TEXT_CMD_NEWLINE "Chooses to work together with Askr to" TEXT_CMD_NEWLINE "stop her suddenly changing brother.",
-    [LANGUAGE_CHINESE] = "尼德威阿尔王法夫纳的妹妹，但两人并无血缘关系。" TEXT_CMD_NEWLINE "为了阻止性格大变的哥哥而协助亚斯克王国。",
+[MPID_H_キヌ] = {
+    [LANGUAGE_JAPANESE] = "ニシキの娘で妖狐の血を引く。" TEXT_CMD_NEWLINE "好奇心が強く、なんでも挑戦する恐れ知らず。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Kaden's daughter, carrying kitsune blood. Highly" TEXT_CMD_NEWLINE "curious and fearless. Ready to take on any" TEXT_CMD_NEWLINE "challenge. Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "锦的女儿，继承了妖狐的血统。" TEXT_CMD_NEWLINE "好奇心旺盛、天不怕地不怕，喜好挑战所有事物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_レギン] = {
-    [LANGUAGE_JAPANESE] = "希望の駿馬",
-    [LANGUAGE_ENGLISH] = "Bearing Hope",
-    [LANGUAGE_CHINESE] = "希望的骏马",
+[MPID_HONOR_キヌ] = {
+    [LANGUAGE_JAPANESE] = "じゃれつき妖狐",
+    [LANGUAGE_ENGLISH] = "Free Spirit",
+    [LANGUAGE_CHINESE] = "嬉闹妖狐",
 },
 
-[MPID_フラヴィア] = {
-    [LANGUAGE_JAPANESE] = "フラヴィア",
-    [LANGUAGE_ENGLISH] = "Flavia",
-    [LANGUAGE_CHINESE] = "芙拉维亚",
+[MPID_ハーディン] = {
+    [LANGUAGE_JAPANESE] = "ハーディン",
+    [LANGUAGE_ENGLISH] = "Hardin",
+    [LANGUAGE_CHINESE] = "哈汀",
 },
 
-[MPID_H_フラヴィア] = {
-    [LANGUAGE_JAPANESE] = "軍事国家フェリアの東の王。" TEXT_CMD_NEWLINE "豪快な性格で、修羅場にも臆することがない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "East-Khan of Regna Ferox, a country led by" TEXT_CMD_NEWLINE "its preference for battle over politics. Boldly" TEXT_CMD_NEWLINE "faces even the most perilous situations without" TEXT_CMD_NEWLINE "fear. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "军事之国菲利亚的东境之王。" TEXT_CMD_NEWLINE "个性豪爽，在战场上也无所畏惧。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_ハーディン] = {
+    [LANGUAGE_JAPANESE] = "【草原の狼】の名を持つ、オレルアン王国の王弟。" TEXT_CMD_NEWLINE "アカネイア王女ニーナを救出した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Younger brother of the king of Aurelis," TEXT_CMD_NEWLINE "nicknamed the Coyote. Rescued the" TEXT_CMD_NEWLINE "Archanean Princess, Nyna. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "外号【草原之狼】，奥雷鲁昂王国的王弟。" TEXT_CMD_NEWLINE "救出了阿卡奈亚公主妮娜。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
 },
 
-[MPID_HONOR_フラヴィア] = {
-    [LANGUAGE_JAPANESE] = "フェリアの東王",
-    [LANGUAGE_ENGLISH] = "Feroxi East-Khan",
-    [LANGUAGE_CHINESE] = "菲利亚的东境王",
+[MPID_HONOR_ハーディン] = {
+    [LANGUAGE_JAPANESE] = "草原の狼",
+    [LANGUAGE_ENGLISH] = "The Coyote",
+    [LANGUAGE_CHINESE] = "草原之狼",
+},
+
+[MPID_カンナ男] = {
+    [LANGUAGE_JAPANESE] = "カンナ",
+    [LANGUAGE_ENGLISH] = "Kana",
+    [LANGUAGE_CHINESE] = "神流",
+},
+
+[MPID_H_カンナ男] = {
+    [LANGUAGE_JAPANESE] = "カムイの息子。明るく素直で元気だが、" TEXT_CMD_NEWLINE "本当は寂しがり屋で泣き虫。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Corrin's son. Cheerful and honest but has" TEXT_CMD_NEWLINE "lived a lonely life so far. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "神威的儿子。虽然开朗率直又有活力，" TEXT_CMD_NEWLINE "其实是个怕寂寞的爱哭鬼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_カンナ男] = {
+    [LANGUAGE_JAPANESE] = "竜の御子",
+    [LANGUAGE_ENGLISH] = "Dragon Spawn",
+    [LANGUAGE_CHINESE] = "龙之御子",
+},
+
+[MPID_ンン] = {
+    [LANGUAGE_JAPANESE] = "ンン",
+    [LANGUAGE_ENGLISH] = "Nah",
+    [LANGUAGE_CHINESE] = "恩恩",
+},
+
+[MPID_H_ンン] = {
+    [LANGUAGE_JAPANESE] = "ノノの娘。幼いがしっかりした性格。" TEXT_CMD_NEWLINE "聞き分けの良い子であろうとする癖がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Nowi's daughter. She might look young, but" TEXT_CMD_NEWLINE "she's actually very responsible. She tries to" TEXT_CMD_NEWLINE "control her emotions and act maturely. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "侬侬的女儿。尽管年幼，但个性沉稳。" TEXT_CMD_NEWLINE "有强迫自己当个懂事乖孩子的倾向。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ンン] = {
+    [LANGUAGE_JAPANESE] = "大人しい子供",
+    [LANGUAGE_ENGLISH] = "Little Miss",
+    [LANGUAGE_CHINESE] = "成熟的孩子",
+},
+
+[MPID_シンシア] = {
+    [LANGUAGE_JAPANESE] = "シンシア",
+    [LANGUAGE_ENGLISH] = "Cynthia",
+    [LANGUAGE_CHINESE] = "欣西亚",
+},
+
+[MPID_H_シンシア] = {
+    [LANGUAGE_JAPANESE] = "スミアの娘。正義感が強く勇敢。" TEXT_CMD_NEWLINE "ヒーローに憧れており、戦闘前には口上を述べる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Sumia's daughter. Has a strong sense of justice." TEXT_CMD_NEWLINE "Enters combat with a speech on her lips, and" TEXT_CMD_NEWLINE "aches to perform valorous deeds. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "丝米亚的女儿。充满正义感，不但强大且勇敢。" TEXT_CMD_NEWLINE "对英雄充满憧憬，在战斗前总会说句开场白。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_シンシア] = {
+    [LANGUAGE_JAPANESE] = "英雄志願",
+    [LANGUAGE_ENGLISH] = "Hero Chaser",
+    [LANGUAGE_CHINESE] = "英雄志愿",
+},
+
+[MPID_シャミア] = {
+    [LANGUAGE_JAPANESE] = "シャミア",
+    [LANGUAGE_ENGLISH] = "Shamir",
+    [LANGUAGE_CHINESE] = "萨米亚",
+},
+
+[MPID_H_シャミア] = {
+    [LANGUAGE_JAPANESE] = "セイロス騎士団の一員で、狙撃手。" TEXT_CMD_NEWLINE "騎士団の中では珍しくセイロス教を信奉しない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "A member of the Knights of Seiros and a sniper." TEXT_CMD_NEWLINE "Unusual among her peers in that she does not" TEXT_CMD_NEWLINE "believe in the Church of Seiros's teachings." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "赛罗司骑士团的一员，是名狙击手。" TEXT_CMD_NEWLINE "在骑士团中是少数不信奉赛罗司教的人之一。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_シャミア] = {
+    [LANGUAGE_JAPANESE] = "孤高の射手",
+    [LANGUAGE_ENGLISH] = "Archer Apart",
+    [LANGUAGE_CHINESE] = "孤高的射手",
+},
+
+[MPID_ラガルト] = {
+    [LANGUAGE_JAPANESE] = "ラガルト",
+    [LANGUAGE_ENGLISH] = "Legault",
+    [LANGUAGE_CHINESE] = "拉加尔托",
+},
+
+[MPID_H_ラガルト] = {
+    [LANGUAGE_JAPANESE] = "元【黒い牙】の構成員で粛清を担っていた。" TEXT_CMD_NEWLINE "変貌する組織に見切りをつけ、足抜けする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Former member of the Black Fang. He was one" TEXT_CMD_NEWLINE "of the founding members and is known as the" TEXT_CMD_NEWLINE "\"cleaner.\" Left the group when it lost its way." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "原为【黑牙】的一员，负责肃清背叛组织的成员。" TEXT_CMD_NEWLINE "对日渐变调的组织感到失望而选择脱离。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+},
+
+[MPID_HONOR_ラガルト] = {
+    [LANGUAGE_JAPANESE] = "疾風",
+    [LANGUAGE_ENGLISH] = "The Hurricane",
+    [LANGUAGE_CHINESE] = "疾风",
+},
+
+[MPID_ニノ2] = {
+    [LANGUAGE_JAPANESE] = "ニノ",
+    [LANGUAGE_ENGLISH] = "Nino",
+    [LANGUAGE_CHINESE] = "妮诺",
+},
+
+[MPID_H_ニノ2] = {
+    [LANGUAGE_JAPANESE] = "暗殺集団【黒い牙】にいた少女。" TEXT_CMD_NEWLINE "仲間の助けで、ペガサスと心を通わせる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A young woman who was part of the assassin" TEXT_CMD_NEWLINE "group Black Fang. Now she communes with" TEXT_CMD_NEWLINE "a pegasus in order to aid her allies. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "曾隶属暗杀集团【黑牙】的少女。" TEXT_CMD_NEWLINE "在伙伴的帮助下，能与飞马心灵相通。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+},
+
+[MPID_HONOR_ニノ2] = {
+    [LANGUAGE_JAPANESE] = "闇の白い花",
+    [LANGUAGE_ENGLISH] = "Pale Flower",
+    [LANGUAGE_CHINESE] = "幽暗的白花",
+},
+
+[MPID_ウルスラ] = {
+    [LANGUAGE_JAPANESE] = "ウルスラ",
+    [LANGUAGE_ENGLISH] = "Ursula",
+    [LANGUAGE_CHINESE] = "乌尔斯拉",
+},
+
+[MPID_H_ウルスラ] = {
+    [LANGUAGE_JAPANESE] = "【蒼鴉】と呼ばれる、暗殺集団【黒い牙】の一員。" TEXT_CMD_NEWLINE "酷薄な性格で、完璧な人間に仕えることが喜び。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A cruel member of the Black Fang assassins." TEXT_CMD_NEWLINE "Lends her service only to someone truly perfect." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员，人称【苍鸦】。" TEXT_CMD_NEWLINE "个性冷酷无情，以侍奉完美的主人为乐。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ウルスラ] = {
+    [LANGUAGE_JAPANESE] = "蒼鴉",
+    [LANGUAGE_ENGLISH] = "Blue Crow",
+    [LANGUAGE_CHINESE] = "苍鸦",
+},
+
+[MPID_カナス] = {
+    [LANGUAGE_JAPANESE] = "カナス",
+    [LANGUAGE_ENGLISH] = "Canas",
+    [LANGUAGE_CHINESE] = "卡纳斯",
+},
+
+[MPID_H_カナス] = {
+    [LANGUAGE_JAPANESE] = "【山の隠者】ニイメの四男。" TEXT_CMD_NEWLINE "知識の探究に余念がなく読書を欠かさない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Fourth son of Niime, the Mountain Hermit." TEXT_CMD_NEWLINE "Devoted entirely to research and reading." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "【山之隐者】尼伊玫的四男" TEXT_CMD_NEWLINE "不懈怠于读书，专心致志地探求知识。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+},
+
+[MPID_HONOR_カナス] = {
+    [LANGUAGE_JAPANESE] = "知識の探究者",
+    [LANGUAGE_ENGLISH] = "Wisdom Seeker",
+    [LANGUAGE_CHINESE] = "知识的探究者",
+},
+
+[MPID_ライナス] = {
+    [LANGUAGE_JAPANESE] = "ライナス",
+    [LANGUAGE_ENGLISH] = "Linus",
+    [LANGUAGE_CHINESE] = "莱纳斯",
+},
+
+[MPID_H_ライナス] = {
+    [LANGUAGE_JAPANESE] = "【狂犬】の異名を持つ【黒い牙】の一員。" TEXT_CMD_NEWLINE "兄ロイドと並ぶ凄腕で悪人を裁く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A member of the Black Fang known as Mad" TEXT_CMD_NEWLINE "Dog and an equal match for his brother Lloyd." TEXT_CMD_NEWLINE "He brings judgment down on those he deems" TEXT_CMD_NEWLINE "evil. Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "别名为【狂犬】的【黑牙】成员。" TEXT_CMD_NEWLINE "以和哥哥洛伊德并驾的实力制裁恶人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+},
+
+[MPID_HONOR_ライナス] = {
+    [LANGUAGE_JAPANESE] = "狂犬",
+    [LANGUAGE_ENGLISH] = "Mad Dog",
+    [LANGUAGE_CHINESE] = "狂犬",
+},
+
+[MPID_ロイド] = {
+    [LANGUAGE_JAPANESE] = "ロイド",
+    [LANGUAGE_ENGLISH] = "Lloyd",
+    [LANGUAGE_CHINESE] = "洛伊德",
+},
+
+[MPID_H_ロイド] = {
+    [LANGUAGE_JAPANESE] = "【白狼】と呼ばれる、暗殺組織【黒い牙】の一人。" TEXT_CMD_NEWLINE "首領の息子。悪人に裁きを下すため、任務につく。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A member of the Black Fang assassins. Delivers" TEXT_CMD_NEWLINE "justice to those they deem criminals. Known as" TEXT_CMD_NEWLINE "the White Wolf. Son of the group's leader." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员，人称【白狼】。" TEXT_CMD_NEWLINE "首领的儿子。为了制裁恶人而执行任务。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ロイド] = {
+    [LANGUAGE_JAPANESE] = "白狼",
+    [LANGUAGE_ENGLISH] = "White Wolf",
+    [LANGUAGE_CHINESE] = "白狼",
+},
+
+[MPID_エメリナ] = {
+    [LANGUAGE_JAPANESE] = "エメリナ",
+    [LANGUAGE_ENGLISH] = "Emmeryn",
+    [LANGUAGE_CHINESE] = "艾美莉娜",
+},
+
+[MPID_H_エメリナ] = {
+    [LANGUAGE_JAPANESE] = "すべてを包み込む愛をもって、" TEXT_CMD_NEWLINE "イーリス聖王国を治める女王。クロムとリズの姉。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Kind and loving Exalt who rules over the" TEXT_CMD_NEWLINE "Halidom of Ylisse. She is the sister of Chrom" TEXT_CMD_NEWLINE "and Lissa. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "怀著包容一切的爱治理伊里斯圣王国的女王。" TEXT_CMD_NEWLINE "库洛武与莉兹的姊姊。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_エメリナ] = {
+    [LANGUAGE_JAPANESE] = "慈愛の女王",
+    [LANGUAGE_ENGLISH] = "Gentle Exalt",
+    [LANGUAGE_CHINESE] = "慈悲的女王",
+},
+
+[MPID_ヒューベルト] = {
+    [LANGUAGE_JAPANESE] = "ヒューベルト",
+    [LANGUAGE_ENGLISH] = "Hubert",
+    [LANGUAGE_CHINESE] = "修伯特",
+},
+
+[MPID_H_ヒューベルト] = {
+    [LANGUAGE_JAPANESE] = "アドラステア帝国の宮内卿、ベストラ侯の嫡子。" TEXT_CMD_NEWLINE "エーデルガルトに絶対の忠誠を誓っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "The Adrestian Empire's Minister of the Imperial" TEXT_CMD_NEWLINE "Household and legitimate son of Marquis Vestra." TEXT_CMD_NEWLINE "Has sworn complete fealty to Edelgard." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的宫内卿——贝斯特拉侯爵的嫡子。" TEXT_CMD_NEWLINE "立誓对艾黛尔贾特绝对忠诚。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_ヒューベルト] = {
+    [LANGUAGE_JAPANESE] = "冷酷陰険従者",
+    [LANGUAGE_ENGLISH] = "Sinister Servant",
+    [LANGUAGE_CHINESE] = "冷酷阴险的随从",
+},
+
+[MPID_ヒルダ] = {
+    [LANGUAGE_JAPANESE] = "ヒルダ",
+    [LANGUAGE_ENGLISH] = "Hilda",
+    [LANGUAGE_CHINESE] = "希尔妲",
+},
+
+[MPID_H_ヒルダ] = {
+    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の貴族、ゴネリル公の娘。" TEXT_CMD_NEWLINE "怠惰な性格で、面倒事は他人に押し付けがち。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Noble of the Leicester Alliance and daughter of" TEXT_CMD_NEWLINE "House Goneril. Has a lazy personality and a" TEXT_CMD_NEWLINE "habit of manipulating people into doing things" TEXT_CMD_NEWLINE "for her. Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，哥纳利尔公爵之女。" TEXT_CMD_NEWLINE "个性懒惰散漫，总是把麻烦的事丢给其他人。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_ヒルダ] = {
+    [LANGUAGE_JAPANESE] = "ものぐさ令嬢",
+    [LANGUAGE_ENGLISH] = "Idle Maiden",
+    [LANGUAGE_CHINESE] = "懒惰的大小姐",
+},
+
+[MPID_メルセデス] = {
+    [LANGUAGE_JAPANESE] = "メルセデス",
+    [LANGUAGE_ENGLISH] = "Mercedes",
+    [LANGUAGE_CHINESE] = "梅尔赛德司",
+},
+
+[MPID_H_メルセデス] = {
+    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の商家の養女。元貴族。" TEXT_CMD_NEWLINE "おっとりとした性格で、流されるまま生きている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Adopted daughter of a merchant family in the" TEXT_CMD_NEWLINE "Holy Kingdom of Faerghus. Former nobility with" TEXT_CMD_NEWLINE "a gentle, easygoing personality. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的商家的养女。原为贵族。" TEXT_CMD_NEWLINE "个性稳重，过著随波逐流的生活" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_メルセデス] = {
+    [LANGUAGE_JAPANESE] = "おっとり修道士",
+    [LANGUAGE_ENGLISH] = "Kindly Devotee",
+    [LANGUAGE_CHINESE] = "稳重的修道士",
+},
+
+[MPID_死神騎士] = {
+    [LANGUAGE_JAPANESE] = "死神騎士",
+    [LANGUAGE_ENGLISH] = "Death Knight",
+    [LANGUAGE_CHINESE] = "死神骑士",
+},
+
+[MPID_H_死神騎士] = {
+    [LANGUAGE_JAPANESE] = "炎帝の配下で、強者を求める騎士。" TEXT_CMD_NEWLINE "黒馬を駆り大鎌を振るう姿からこの名で呼ばれる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "The Flame Emperor's subordinate, a knight" TEXT_CMD_NEWLINE "who desires only to fight the strong. Given his" TEXT_CMD_NEWLINE "name due to his scythe and dark steed. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "炎帝的属下，渴求著强者的骑士。" TEXT_CMD_NEWLINE "以骑著黑马挥舞大镰的姿态得名。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_死神騎士] = {
+    [LANGUAGE_JAPANESE] = "闇夜の悪鬼",
+    [LANGUAGE_ENGLISH] = "The Reaper",
+    [LANGUAGE_CHINESE] = "暗夜的恶鬼",
+},
+
+[MPID_ラス] = {
+    [LANGUAGE_JAPANESE] = "ラス",
+    [LANGUAGE_ENGLISH] = "Rath",
+    [LANGUAGE_CHINESE] = "勒斯",
+},
+
+[MPID_H_ラス] = {
+    [LANGUAGE_JAPANESE] = "遊牧民クトラの現族長ダヤンの息子。" TEXT_CMD_NEWLINE "サカの戦士として、誇り高く生きる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Son of the Kutolah tribe's chieftain, Dayan, the" TEXT_CMD_NEWLINE "Silver Wolf. Lives as a proud Sacaen warrior." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "游牧民族库特拉的现任族长大阳的儿子。" TEXT_CMD_NEWLINE "作为一名塞迦的战士，满怀荣耀地生活著。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ラス] = {
+    [LANGUAGE_JAPANESE] = "草原の若き狼",
+    [LANGUAGE_ENGLISH] = "Wolf of Sacae",
+    [LANGUAGE_CHINESE] = "草原的幼狼",
+},
+
+[MPID_グスタフ味方] = {
+    [LANGUAGE_JAPANESE] = "グスタフ",
+    [LANGUAGE_ENGLISH] = "Gustav",
+    [LANGUAGE_CHINESE] = "古斯塔夫",
+},
+
+[MPID_H_グスタフ味方] = {
+    [LANGUAGE_JAPANESE] = "アスク王国の前国王。アルフォンスとシャロンの父。" TEXT_CMD_NEWLINE "死後、死の王ヘルに操られる。",
+    [LANGUAGE_ENGLISH] = "Former king of Askr and father of Alfonse" TEXT_CMD_NEWLINE "and Sharena. Slain by Hel, ruler of the dead," TEXT_CMD_NEWLINE "his body is now under her command.",
+    [LANGUAGE_CHINESE] = "亚斯克王国的前任国王。阿尔冯斯与夏蓉的父亲。" TEXT_CMD_NEWLINE "于去世后被死之王赫尔操控。",
+},
+
+[MPID_HONOR_グスタフ味方] = {
+    [LANGUAGE_JAPANESE] = "死せる王",
+    [LANGUAGE_ENGLISH] = "Sovereign Slain",
+    [LANGUAGE_CHINESE] = "已逝之王",
+},
+
+[MPID_外伝パオラ] = {
+    [LANGUAGE_JAPANESE] = "パオラ",
+    [LANGUAGE_ENGLISH] = "Palla",
+    [LANGUAGE_CHINESE] = "帕奥拉",
+},
+
+[MPID_H_外伝パオラ] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサスナイト。" TEXT_CMD_NEWLINE "妹を追ってバレンシア大陸にやって来た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Pegasus knight from Macedon who ventured" TEXT_CMD_NEWLINE "to Valentia in pursuit of her sister. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "马其顿王国的飞马骑士。" TEXT_CMD_NEWLINE "为了追寻妹妹而来到瓦伦西亚陆地。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_外伝パオラ] = {
+    [LANGUAGE_JAPANESE] = "優しき長女",
+    [LANGUAGE_ENGLISH] = "Kind Eldest Sister",
+    [LANGUAGE_CHINESE] = "温柔的长女",
+},
+
+[MPID_リュート] = {
+    [LANGUAGE_JAPANESE] = "リュート",
+    [LANGUAGE_ENGLISH] = "Luthier",
+    [LANGUAGE_CHINESE] = "鲁特",
+},
+
+[MPID_H_リュート] = {
+    [LANGUAGE_JAPANESE] = "ソフィア王国の魔道士。魔道に優れるが" TEXT_CMD_NEWLINE "変わり者で友達がいない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A mage and eccentric man of Zofia who excels" TEXT_CMD_NEWLINE "in magic but has no friends. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "索菲亚王国的魔道士。拥有优异的魔道才能，" TEXT_CMD_NEWLINE "但因为个性古怪所以没朋友。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_リュート] = {
+    [LANGUAGE_JAPANESE] = "我が道を往く",
+    [LANGUAGE_ENGLISH] = "Odd Wayfarer",
+    [LANGUAGE_CHINESE] = "迈向自己的道路",
+},
+
+[MPID_ギャンレル] = {
+    [LANGUAGE_JAPANESE] = "ギャンレル",
+    [LANGUAGE_ENGLISH] = "Gangrel",
+    [LANGUAGE_CHINESE] = "冈雷尔",
+},
+
+[MPID_H_ギャンレル] = {
+    [LANGUAGE_JAPANESE] = "ペレジア国王。争いを好み、" TEXT_CMD_NEWLINE "インバースとともにイーリス聖王国に戦争を仕掛ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "The King of Plegia, who thirsts for battle." TEXT_CMD_NEWLINE "Together with Aversa, he begins a war against" TEXT_CMD_NEWLINE "the Halidom of Ylisse. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Awakening.",
+    [LANGUAGE_CHINESE] = "佩莱吉亚国王。喜好斗争，" TEXT_CMD_NEWLINE "与茵巴丝一同布局设计了伊里斯圣王国的战争。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ギャンレル] = {
+    [LANGUAGE_JAPANESE] = "暗愚王",
+    [LANGUAGE_ENGLISH] = "Plegia's Mad King",
+    [LANGUAGE_CHINESE] = "暗愚王",
+},
+
+[MPID_覚醒アンナ] = {
+    [LANGUAGE_JAPANESE] = "アンナ",
+    [LANGUAGE_ENGLISH] = "Anna",
+    [LANGUAGE_CHINESE] = "安娜",
+},
+
+[MPID_H_覚醒アンナ] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国を拠点に商いを続ける行商人。" TEXT_CMD_NEWLINE "同じ顔と名前の姉妹がたくさんいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A merchant who travels the Halidom of Ylisse." TEXT_CMD_NEWLINE "She has many sisters who share both her face" TEXT_CMD_NEWLINE "and name. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "以伊里斯圣王国为据点持续行商的旅行商人。" TEXT_CMD_NEWLINE "有著许多长相及名字相同的姊妹。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_覚醒アンナ] = {
+    [LANGUAGE_JAPANESE] = "秘密多き行商人",
+    [LANGUAGE_ENGLISH] = "Secret Seller",
+    [LANGUAGE_CHINESE] = "充满秘密的旅行商人",
+},
+
+[MPID_ムスタファー] = {
+    [LANGUAGE_JAPANESE] = "ムスタファー",
+    [LANGUAGE_ENGLISH] = "Mustafa",
+    [LANGUAGE_CHINESE] = "穆斯塔法",
+},
+
+[MPID_H_ムスタファー] = {
+    [LANGUAGE_JAPANESE] = "ペレジアの将軍。王命に忠実だが" TEXT_CMD_NEWLINE "敵への非道は禁ずる、正々堂々とした武人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "General of Plegia. He is endlessly loyal to his" TEXT_CMD_NEWLINE "king, but he is a military man who prefers a fair" TEXT_CMD_NEWLINE "fight to besting his foes through trickery." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "佩莱吉亚的将军。虽忠于王命，但下令禁止对敌人" TEXT_CMD_NEWLINE "做出惨无人道的行径，是个堂堂正正的武者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ムスタファー] = {
+    [LANGUAGE_JAPANESE] = "ペレジアの武臣",
+    [LANGUAGE_ENGLISH] = "Plegian Champion",
+    [LANGUAGE_CHINESE] = "佩莱吉亚的武臣",
+},
+
+[MPID_ヒノカ] = {
+    [LANGUAGE_JAPANESE] = "ヒノカ",
+    [LANGUAGE_ENGLISH] = "Hinoka",
+    [LANGUAGE_CHINESE] = "火乃香",
+},
+
+[MPID_H_ヒノカ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の王女。面倒見の良い性格。" TEXT_CMD_NEWLINE "実直で朴訥としており、王女というより武人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Hoshidan princess who prefers battles over" TEXT_CMD_NEWLINE "court life. Excels at watching over others." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的公主，很会照顾他人。" TEXT_CMD_NEWLINE "个性耿直而木讷，与其说是公主，更像是一位武者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ヒノカ] = {
+    [LANGUAGE_JAPANESE] = "紅の戦姫",
+    [LANGUAGE_ENGLISH] = "Warrior Princess",
+    [LANGUAGE_CHINESE] = "赤色战姬",
+},
+
+[MPID_ツバキ] = {
+    [LANGUAGE_JAPANESE] = "ツバキ",
+    [LANGUAGE_ENGLISH] = "Subaki",
+    [LANGUAGE_CHINESE] = "椿",
+},
+
+[MPID_H_ツバキ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の天馬武者。サクラの臣下。" TEXT_CMD_NEWLINE "眉目秀麗、頭脳明晰な完璧主義者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Sky Knight of Hoshido who aims for" TEXT_CMD_NEWLINE "perfection. One of Sakura's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的天马武士，樱的部下。" TEXT_CMD_NEWLINE "是位眉清目秀、头脑清晰的完美主义者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ツバキ] = {
+    [LANGUAGE_JAPANESE] = "完璧主義",
+    [LANGUAGE_ENGLISH] = "Perfect Expert",
+    [LANGUAGE_CHINESE] = "完美主义",
+},
+
+[MPID_レナック] = {
+    [LANGUAGE_JAPANESE] = "レナック",
+    [LANGUAGE_ENGLISH] = "Rennac",
+    [LANGUAGE_CHINESE] = "雷纳克",
+},
+
+[MPID_H_レナック] = {
+    [LANGUAGE_JAPANESE] = "ラーチェルの破天荒な旅路に付き合わされている盗賊。" TEXT_CMD_NEWLINE "実はカルチノ一の豪商の家の出で、世事に長けている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A thief forced to accompany L'Arachel on her" TEXT_CMD_NEWLINE "adventures. Member of a wealthy merchant" TEXT_CMD_NEWLINE "family and well-versed in the ways of the world." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "被迫陪著拉切尔的盗贼，踏上了前所未闻的旅途。" TEXT_CMD_NEWLINE "实际上出身于卡尔奇诺的富商之家，通晓世事。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_レナック] = {
+    [LANGUAGE_JAPANESE] = "嘆きの盗賊",
+    [LANGUAGE_ENGLISH] = "Rich \"Merchant\"",
+    [LANGUAGE_CHINESE] = "悲叹的盗贼",
+},
+
+[MPID_クロエ] = {
+    [LANGUAGE_JAPANESE] = "クロエ",
+    [LANGUAGE_ENGLISH] = "Chloé",
+    [LANGUAGE_CHINESE] = "克萝艾",
+},
+
+[MPID_H_クロエ] = {
+    [LANGUAGE_JAPANESE] = "フィレネ王国の王城騎士。セリーヌの臣下。" TEXT_CMD_NEWLINE "御伽噺と珍味が大好きな淑女。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　エンゲージ』）",
+    [LANGUAGE_ENGLISH] = "Royal knight of Firene and retainer to Princess" TEXT_CMD_NEWLINE "Céline. Descended from a noble line, she also" TEXT_CMD_NEWLINE "loves fairy tales and folk food. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Engage.",
+    [LANGUAGE_CHINESE] = "费列聂王国的王城骑士。锡莉奴的部下。" TEXT_CMD_NEWLINE "是位喜欢童话故事与奇珍异味的淑女。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM ENGAGE』）",
+},
+
+[MPID_HONOR_クロエ] = {
+    [LANGUAGE_JAPANESE] = "空想を舞う翼",
+    [LANGUAGE_ENGLISH] = "Fairy-Tale Flier",
+    [LANGUAGE_CHINESE] = "遨游幻想之翼",
+},
+
+[MPID_ニルス] = {
+    [LANGUAGE_JAPANESE] = "ニルス",
+    [LANGUAGE_ENGLISH] = "Nils",
+    [LANGUAGE_CHINESE] = "尼尔斯",
+},
+
+[MPID_H_ニルス] = {
+    [LANGUAGE_JAPANESE] = "姉のニニアンと共に旅する少年。" TEXT_CMD_NEWLINE "その笛は不思議な音色で皆を元気づける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A young boy who travels with his older sister," TEXT_CMD_NEWLINE "Ninian. The charming sound of his flute's song" TEXT_CMD_NEWLINE "has an energizing effect on those who hear it." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "与姊姊尼尼安一同旅行的少年。" TEXT_CMD_NEWLINE "经常用笛子吹出不可思议的音色鼓舞人们。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ニルス] = {
+    [LANGUAGE_JAPANESE] = "清朗なる笛の音",
+    [LANGUAGE_ENGLISH] = "Bright Bard",
+    [LANGUAGE_CHINESE] = "爽朗的笛音",
+},
+
+[MPID_レイラ] = {
+    [LANGUAGE_JAPANESE] = "レイラ",
+    [LANGUAGE_ENGLISH] = "Leila",
+    [LANGUAGE_CHINESE] = "蕾拉",
+},
+
+[MPID_H_レイラ] = {
+    [LANGUAGE_JAPANESE] = "暗殺集団【黒い牙】の一員。" TEXT_CMD_NEWLINE "その正体は、オスティアに仕える凄腕の密偵。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A member of the Black Fang group of assassins" TEXT_CMD_NEWLINE "whose true loyalties lie with Ostia, which she" TEXT_CMD_NEWLINE "serves as a spy and skilled infiltrator. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员。" TEXT_CMD_NEWLINE "其真实身分为侍奉奥斯提亚的高强密探。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_レイラ] = {
+    [LANGUAGE_JAPANESE] = "牙の巣に潜む花",
+    [LANGUAGE_ENGLISH] = "Rose amid Fangs",
+    [LANGUAGE_CHINESE] = "潜藏在牙之巢的花朵",
+},
+
+[MPID_マーニャ] = {
+    [LANGUAGE_JAPANESE] = "マーニャ",
+    [LANGUAGE_ENGLISH] = "Annand",
+    [LANGUAGE_CHINESE] = "玛妮娅",
+},
+
+[MPID_H_マーニャ] = {
+    [LANGUAGE_JAPANESE] = "シレジア四天馬騎士の筆頭にして、フュリーの姉。" TEXT_CMD_NEWLINE "レヴィンへの慕情を胸に秘め、最期まで誇り高く戦った。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Leader of the Four Heavenly Knights of Silesse" TEXT_CMD_NEWLINE "and Erinys's elder sister. Conceals her longing" TEXT_CMD_NEWLINE "for Lewyn and fights to her last breath. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "西里西亚四天马骑士之首，菲莉的姊姊。" TEXT_CMD_NEWLINE "心中藏著对雷文的爱慕之情，" TEXT_CMD_NEWLINE "满怀荣耀地奋战至最后一刻。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_マーニャ] = {
+    [LANGUAGE_JAPANESE] = "護国の天馬騎士",
+    [LANGUAGE_ENGLISH] = "Knight-Defender",
+    [LANGUAGE_CHINESE] = "护国的天马骑士",
+},
+
+[MPID_エーヴェル] = {
+    [LANGUAGE_JAPANESE] = "エーヴェル",
+    [LANGUAGE_ENGLISH] = "Eyvel",
+    [LANGUAGE_CHINESE] = "爱薇尔",
+},
+
+[MPID_H_エーヴェル] = {
+    [LANGUAGE_JAPANESE] = "フィアナ村の領主にして義勇軍の主導者。" TEXT_CMD_NEWLINE "逃亡中のリーフ達をかくまっていた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Mistress of Fiana, leader of the Freeblades." TEXT_CMD_NEWLINE "Took in Leif and company when they fled the" TEXT_CMD_NEWLINE "Grannvale Empire. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
+    [LANGUAGE_CHINESE] = "费亚纳村的领主，义勇军的领袖。" TEXT_CMD_NEWLINE "包庇了逃亡中的里弗等人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_エーヴェル] = {
+    [LANGUAGE_JAPANESE] = "フィアナの女神",
+    [LANGUAGE_ENGLISH] = "Mistress of Fiana",
+    [LANGUAGE_CHINESE] = "费亚纳的女神",
+},
+
+[MPID_オーシン] = {
+    [LANGUAGE_JAPANESE] = "オーシン",
+    [LANGUAGE_ENGLISH] = "Osian",
+    [LANGUAGE_CHINESE] = "奥辛",
+},
+
+[MPID_H_オーシン] = {
+    [LANGUAGE_JAPANESE] = "フィアナ義勇軍の一員。" TEXT_CMD_NEWLINE "喧嘩っぱやいが、明るく気さくな性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "A member of the Fiana Freeblades. Bright and" TEXT_CMD_NEWLINE "friendly, but quick to lose his temper. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "费亚纳义勇军的一员。" TEXT_CMD_NEWLINE "粗鲁好战，但个性开朗直爽。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_オーシン] = {
+    [LANGUAGE_JAPANESE] = "怒れる斧戦士",
+    [LANGUAGE_ENGLISH] = "Scolded Soldier",
+    [LANGUAGE_CHINESE] = "愤怒的斧战士",
+},
+
+[MPID_タニア] = {
+    [LANGUAGE_JAPANESE] = "タニア",
+    [LANGUAGE_ENGLISH] = "Tanya",
+    [LANGUAGE_CHINESE] = "塔妮娅",
+},
+
+[MPID_H_タニア] = {
+    [LANGUAGE_JAPANESE] = "元山賊ダグダの娘。荒くれどもの中で" TEXT_CMD_NEWLINE "育てられたため、男勝りで気が強い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Dagdar, a former bandit. Grew up" TEXT_CMD_NEWLINE "among a rough crew, leaving her strong-willed" TEXT_CMD_NEWLINE "and hotheaded. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
+    [LANGUAGE_CHINESE] = "前山贼达古达之女。" TEXT_CMD_NEWLINE "由于在一群野蛮人的相伴下成长，因此个性相当强势。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_タニア] = {
+    [LANGUAGE_JAPANESE] = "ダグダの娘",
+    [LANGUAGE_ENGLISH] = "Dagdar's Kid",
+    [LANGUAGE_CHINESE] = "达古达之女",
+},
+
+[MPID_エルク] = {
+    [LANGUAGE_JAPANESE] = "エルク",
+    [LANGUAGE_ENGLISH] = "Erk",
+    [LANGUAGE_CHINESE] = "艾尔克",
+},
+
+[MPID_H_エルク] = {
+    [LANGUAGE_JAPANESE] = "エトルリアの魔道軍将パントの弟子。弟子として、" TEXT_CMD_NEWLINE "家族として迎えられたことを大恩に思っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Ward and student of Pent, Mage General of" TEXT_CMD_NEWLINE "Etruria. Feels a great debt of gratitude to his" TEXT_CMD_NEWLINE "foster family for raising him. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "伊特鲁里亚的魔道军将庞托的弟子。" TEXT_CMD_NEWLINE "对将自己视为弟子及家人接纳的庞托心怀感恩。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_エルク] = {
+    [LANGUAGE_JAPANESE] = "英知の魔道士",
+    [LANGUAGE_ENGLISH] = "Studious Mage",
+    [LANGUAGE_CHINESE] = "睿智的魔道士",
+},
+
+[MPID_デュッセル] = {
+    [LANGUAGE_JAPANESE] = "デュッセル",
+    [LANGUAGE_ENGLISH] = "Duessel",
+    [LANGUAGE_CHINESE] = "迪赛尔",
+},
+
+[MPID_H_デュッセル] = {
+    [LANGUAGE_JAPANESE] = "グラド帝国最古参の将軍の1人。" TEXT_CMD_NEWLINE "帝国三騎【黒曜石】の異名をもつ猛将。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "One of Grado's oldest generals, he is known" TEXT_CMD_NEWLINE "as the Obsidian, one of the Imperial Three." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "格拉多帝国最资深的将军之一。" TEXT_CMD_NEWLINE "别名为帝国三骑【黑曜石】的猛将。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_デュッセル] = {
+    [LANGUAGE_JAPANESE] = "黒曜石",
+    [LANGUAGE_ENGLISH] = "Obsidian",
+    [LANGUAGE_CHINESE] = "黑曜石",
+},
+
+[MPID_シルヴィア] = {
+    [LANGUAGE_JAPANESE] = "シルヴィア",
+    [LANGUAGE_ENGLISH] = "Silvia",
+    [LANGUAGE_CHINESE] = "希薇雅",
+},
+
+[MPID_H_シルヴィア] = {
+    [LANGUAGE_JAPANESE] = "各地を放浪するダンサー。可憐な見た目に反して言動は" TEXT_CMD_NEWLINE "意外と荒っぽい。大司祭ブラギの血を引く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "A dancer who travels the world. She looks" TEXT_CMD_NEWLINE "sweet, but she doesn't necessarily act that way." TEXT_CMD_NEWLINE "Descendant of the high priest Bragi. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "四处流浪的舞娘。与可爱的外表相反，" TEXT_CMD_NEWLINE "言行举止意外的粗野。继承大祭司布拉吉之血脉。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_シルヴィア] = {
+    [LANGUAGE_JAPANESE] = "旅の踊り子",
+    [LANGUAGE_ENGLISH] = "Traveling Dancer",
+    [LANGUAGE_CHINESE] = "旅行舞娘",
+},
+
+[MPID_レヴィン] = {
+    [LANGUAGE_JAPANESE] = "レヴィン",
+    [LANGUAGE_ENGLISH] = "Lewyn",
+    [LANGUAGE_CHINESE] = "雷文",
+},
+
+[MPID_H_レヴィン] = {
+    [LANGUAGE_JAPANESE] = "シレジア王国王子。十二聖戦士の【風使い】セティの" TEXT_CMD_NEWLINE "血を引く、風魔法【フォルセティ】の継承者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Prince of Silesse. A descendant of Ced, one of" TEXT_CMD_NEWLINE "the 12 legendary crusaders, and inheritor of the" TEXT_CMD_NEWLINE "wind tome Forseti. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "西里西亚王国的王子。继承十二圣战士【风使】赛提" TEXT_CMD_NEWLINE "之血脉，为风魔法【弗鲁赛提】的继承者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_レヴィン] = {
+    [LANGUAGE_JAPANESE] = "導きの風",
+    [LANGUAGE_ENGLISH] = "Guiding Breeze",
+    [LANGUAGE_CHINESE] = "引导之风",
+},
+
+[MPID_エスリン] = {
+    [LANGUAGE_JAPANESE] = "エスリン",
+    [LANGUAGE_ENGLISH] = "Ethlyn",
+    [LANGUAGE_CHINESE] = "艾丝琳",
+},
+
+[MPID_H_エスリン] = {
+    [LANGUAGE_JAPANESE] = "シアルフィ公子シグルドの妹。お転婆で、家族思い。" TEXT_CMD_NEWLINE "レンスターの王子キュアンに嫁ぎ、一男一女をもうける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "The younger sister of Lord Sigurd of Chalphy" TEXT_CMD_NEWLINE "with an adventurous spirit. She cares deeply" TEXT_CMD_NEWLINE "for her family. After she marries Prince Quan of" TEXT_CMD_NEWLINE "Leonster, the pair have a girl and a boy. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "希亚费勋爵西格尔特的妹妹，个性活泼、重视家人。" TEXT_CMD_NEWLINE "嫁给伦斯特的王子乔安，育有一男一女。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_エスリン] = {
+    [LANGUAGE_JAPANESE] = "お転婆な姫",
+    [LANGUAGE_ENGLISH] = "Spirited Princess",
+    [LANGUAGE_CHINESE] = "野丫头公主",
+},
+
+[MPID_外伝カチュア] = {
+    [LANGUAGE_JAPANESE] = "カチュア",
+    [LANGUAGE_ENGLISH] = "Catria",
+    [LANGUAGE_CHINESE] = "卡秋雅",
+},
+
+[MPID_H_外伝カチュア] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の次女。" TEXT_CMD_NEWLINE "さらわれた妹を追ってバレンシア大陸にやって来た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "The middle sister of three pegasus knights of" TEXT_CMD_NEWLINE "Macedon who ventured to Valentia to rescue" TEXT_CMD_NEWLINE "her kidnapped younger sister. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的次女。" TEXT_CMD_NEWLINE "追寻被掳走的妹妹的踪迹而来到瓦伦西亚陆地。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_外伝カチュア] = {
+    [LANGUAGE_JAPANESE] = "冷静な次女",
+    [LANGUAGE_ENGLISH] = "Mild Middle Sister",
+    [LANGUAGE_CHINESE] = "沉著的次女",
+},
+
+[MPID_コンラート] = {
+    [LANGUAGE_JAPANESE] = "コンラート",
+    [LANGUAGE_ENGLISH] = "Conrad",
+    [LANGUAGE_CHINESE] = "孔拉特",
+},
+
+[MPID_H_コンラート] = {
+    [LANGUAGE_JAPANESE] = "セリカの危機に駆けつける謎の騎士。" TEXT_CMD_NEWLINE "仮面をつけると人格が変わる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A mysterious knight who rushes to Celica's aid" TEXT_CMD_NEWLINE "whenever she is in danger. When he wears his" TEXT_CMD_NEWLINE "mask, his personality changes entirely. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "在赛莉卡陷入危机时赶至她身边的" TEXT_CMD_NEWLINE "神秘骑士。戴上面具后人格就会改变。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_コンラート] = {
+    [LANGUAGE_JAPANESE] = "仮面の騎士",
+    [LANGUAGE_ENGLISH] = "Masked Knight",
+    [LANGUAGE_CHINESE] = "覆面骑士",
+},
+
+[MPID_総選挙門番] = {
+    [LANGUAGE_JAPANESE] = "門番",
+    [LANGUAGE_ENGLISH] = "Gatekeeper",
+    [LANGUAGE_CHINESE] = "门卫",
+},
+
+[MPID_H_総選挙門番] = {
+    [LANGUAGE_JAPANESE] = "ガルグ＝マク大修道院の門を守る兵士。" TEXT_CMD_NEWLINE "常に英雄たちを案ずる優しさを持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "The guard who watches over the gates of" TEXT_CMD_NEWLINE "Garreg Mach Monastery. A kind man who cares" TEXT_CMD_NEWLINE "deeply for all Heroes who pass through his" TEXT_CMD_NEWLINE "gate. Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "守护加尔古‧玛库大修道院之门的士兵。" TEXT_CMD_NEWLINE "相当温柔，总是担心著英雄们。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_総選挙門番] = {
+    [LANGUAGE_JAPANESE] = "大修道院の",
+    [LANGUAGE_ENGLISH] = "Nothing to Report",
+    [LANGUAGE_CHINESE] = "大修道院的",
+},
+
+[MPID_総選挙エーデル] = {
+    [LANGUAGE_JAPANESE] = "エーデルガルト",
+    [LANGUAGE_ENGLISH] = "Edelgard",
+    [LANGUAGE_CHINESE] = "艾黛尔贾特",
+},
+
+[MPID_H_総選挙エーデル] = {
+    [LANGUAGE_JAPANESE] = "アドラステア皇帝に即位後、セイロス教団を打倒。" TEXT_CMD_NEWLINE "フォドラの大地を平定し覇を唱えた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "After ascending as Adrestian Emperor, she" TEXT_CMD_NEWLINE "defeated the Church of Seiros, solidifying her" TEXT_CMD_NEWLINE "reign over all of Fódlan. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "即位成为阿德剌斯忒亚的皇帝后，" TEXT_CMD_NEWLINE "打倒了赛罗司教团。" TEXT_CMD_NEWLINE "成就了平定并称霸芙朵拉大地的伟业。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_総選挙エーデル] = {
+    [LANGUAGE_JAPANESE] = "アドラステア皇帝",
+    [LANGUAGE_ENGLISH] = "Adrestian Emperor",
+    [LANGUAGE_CHINESE] = "阿德剌斯忒亚皇帝",
+},
+
+[MPID_開花チキ] = {
+    [LANGUAGE_JAPANESE] = "チキ",
+    [LANGUAGE_ENGLISH] = "Tiki",
+    [LANGUAGE_CHINESE] = "琪姬",
+},
+
+[MPID_H_開花チキ] = {
+    [LANGUAGE_JAPANESE] = "賢者ガトーにより眠りについていた、神竜族の王女。" TEXT_CMD_NEWLINE "マルスに導かれ、再び目覚める。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Divine Dragon princess, entrusted to slumber" TEXT_CMD_NEWLINE "by the White Sage, Gotoh, reawakened after" TEXT_CMD_NEWLINE "the restoration of the Binding Shield. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "因贤者迦图而进入沉眠的神龙族的公主。" TEXT_CMD_NEWLINE "在马尔斯的引导下再次苏醒。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_開花チキ] = {
+    [LANGUAGE_JAPANESE] = "ゆらめく神竜の血",
+    [LANGUAGE_ENGLISH] = "Awakened Blood",
+    [LANGUAGE_CHINESE] = "摇曳的神龙血脉",
+},
+
+[MPID_エリス] = {
+    [LANGUAGE_JAPANESE] = "エリス",
+    [LANGUAGE_ENGLISH] = "Elice",
+    [LANGUAGE_CHINESE] = "艾莉丝",
+},
+
+[MPID_H_エリス] = {
+    [LANGUAGE_JAPANESE] = "心優しきアリティアの王女。王子マルスの姉。" TEXT_CMD_NEWLINE "自分の身よりも、大切な人を守ろうとする心の持ち主。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Gentle princess of Altea and Marth's" TEXT_CMD_NEWLINE "older sister. Noble with a heart that places" TEXT_CMD_NEWLINE "the lives of those she cares for above her own." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "心地善良的阿利提亚公主。王子马尔斯的姊姊。" TEXT_CMD_NEWLINE "有一颗比起自己更想保护重要的人的心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_エリス] = {
+    [LANGUAGE_JAPANESE] = "アリティアの王女",
+    [LANGUAGE_ENGLISH] = "Altean Princess",
+    [LANGUAGE_CHINESE] = "阿利提亚的公主",
+},
+
+[MPID_スズカゼ] = {
+    [LANGUAGE_JAPANESE] = "スズカゼ",
+    [LANGUAGE_ENGLISH] = "Kaze",
+    [LANGUAGE_CHINESE] = "凉风",
+},
+
+[MPID_H_スズカゼ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の忍。サイゾウの双子の弟。" TEXT_CMD_NEWLINE "礼儀正しく真面目な性格で、異性に人気がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A serious and disciplined ninja from Hoshido." TEXT_CMD_NEWLINE "Has a twin brother, Saizo. Popular with women." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的忍者，彩造的双胞胎弟弟。" TEXT_CMD_NEWLINE "礼仪端正、个性严谨，很受异性欢迎。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_スズカゼ] = {
+    [LANGUAGE_JAPANESE] = "涼風の忍",
+    [LANGUAGE_ENGLISH] = "Easygoing Ninja",
+    [LANGUAGE_CHINESE] = "凉风之忍",
+},
+
+[MPID_ブレディ] = {
+    [LANGUAGE_JAPANESE] = "ブレディ",
+    [LANGUAGE_ENGLISH] = "Brady",
+    [LANGUAGE_CHINESE] = "布莱迪",
+},
+
+[MPID_H_ブレディ] = {
+    [LANGUAGE_JAPANESE] = "マリアベルの息子。強面だが心優しく涙もろい。" TEXT_CMD_NEWLINE "貴族の作法も身に着けており、特技はバイオリン。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Maribelle's son. He has a fierce countenance," TEXT_CMD_NEWLINE "but is quite kind and easily moved. He is" TEXT_CMD_NEWLINE "schooled in etiquette and can play the violin." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "玛利亚贝尔的儿子。虽长相凶悍，" TEXT_CMD_NEWLINE "但个性温柔且情感丰富。" TEXT_CMD_NEWLINE "也熟习贵族的礼法，特技是小提琴。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ブレディ] = {
+    [LANGUAGE_JAPANESE] = "強面の僧侶",
+    [LANGUAGE_ENGLISH] = "Daunting Priest",
+    [LANGUAGE_CHINESE] = "长相凶悍的僧侣",
+},
+
+[MPID_シャンブレー] = {
+    [LANGUAGE_JAPANESE] = "シャンブレー",
+    [LANGUAGE_ENGLISH] = "Yarne",
+    [LANGUAGE_CHINESE] = "夏布雷",
+},
+
+[MPID_H_シャンブレー] = {
+    [LANGUAGE_JAPANESE] = "ベルベットの息子。タグエル最後の生き残り。" TEXT_CMD_NEWLINE "自分が死ぬことで種が絶えることを恐れている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Panne's son. The last of the taguel. Continually" TEXT_CMD_NEWLINE "terrified that his death will mark the end of his" TEXT_CMD_NEWLINE "race. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "贝尔贝特的儿子，是塔格艾尔最后的幸存者。" TEXT_CMD_NEWLINE "深怕种族会因自己的死而断绝。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_シャンブレー] = {
+    [LANGUAGE_JAPANESE] = "怖がりタグエル",
+    [LANGUAGE_ENGLISH] = "Timid Taguel",
+    [LANGUAGE_CHINESE] = "胆小的塔格艾尔",
+},
+
+[MPID_ニシキ] = {
+    [LANGUAGE_JAPANESE] = "ニシキ",
+    [LANGUAGE_ENGLISH] = "Kaden",
+    [LANGUAGE_CHINESE] = "锦",
+},
+
+[MPID_H_ニシキ] = {
+    [LANGUAGE_JAPANESE] = "妖狐たちが隠れ住む里の長。" TEXT_CMD_NEWLINE "毛並みの美しさに絶対の自信を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "The chief of a hidden village of kitsune. He has" TEXT_CMD_NEWLINE "absolute confidence in the beauty of his fur." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "妖狐们隐居的村里的领导者。" TEXT_CMD_NEWLINE "对自己美丽的毛皮有绝对的自信。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ニシキ] = {
+    [LANGUAGE_JAPANESE] = "妖狐の長",
+    [LANGUAGE_ENGLISH] = "Kitsune Braggart",
+    [LANGUAGE_CHINESE] = "妖狐之长",
+},
+
+[MPID_ルフレ女] = {
+    [LANGUAGE_JAPANESE] = "ルフレ",
+    [LANGUAGE_ENGLISH] = "Robin",
+    [LANGUAGE_CHINESE] = "鲁弗莱",
+},
+
+[MPID_H_ルフレ女] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の軍師。クロムの半身。" TEXT_CMD_NEWLINE "クロムと出会うまでの記憶を失っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A tactician of Ylisse and Chrom's close ally." TEXT_CMD_NEWLINE "Lost memory of her life before meeting Chrom." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国的军师，库洛武的挚友。" TEXT_CMD_NEWLINE "失去了遇见库洛武之前的记忆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ルフレ女] = {
+    [LANGUAGE_JAPANESE] = "謎多き軍師",
+    [LANGUAGE_ENGLISH] = "Mystery Tactician",
+    [LANGUAGE_CHINESE] = "充满谜团的军师",
+},
+
+[MPID_魔器オフェリア] = {
+    [LANGUAGE_JAPANESE] = "オフェリア",
+    [LANGUAGE_ENGLISH] = "Ophelia",
+    [LANGUAGE_CHINESE] = "欧菲莉亚",
+},
+
+[MPID_H_魔器オフェリア] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国のダークマージ「漆黒のオーディン」の娘。" TEXT_CMD_NEWLINE "父から受け継いだ水晶玉は、星々の力で満ちている！" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Odin Dark, mage of Nohr. Received" TEXT_CMD_NEWLINE "a crystal ball filled with the power of the stars" TEXT_CMD_NEWLINE "from her father. Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的暗魔法师「漆黑的奥丁」之女。" TEXT_CMD_NEWLINE "继承自父亲的水晶球内充满了繁星的力量！" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_魔器オフェリア] = {
+    [LANGUAGE_JAPANESE] = "選ばれし星の乙女",
+    [LANGUAGE_ENGLISH] = "Starlit Maiden",
+    [LANGUAGE_CHINESE] = "被选中的星之少女",
+},
+
+[MPID_ミネルバ] = {
+    [LANGUAGE_JAPANESE] = "ミネルバ",
+    [LANGUAGE_ENGLISH] = "Minerva",
+    [LANGUAGE_CHINESE] = "米奈娃",
+},
+
+[MPID_H_ミネルバ] = {
+    [LANGUAGE_JAPANESE] = "【赤い竜騎士】と呼ばれるマケドニア王女。" TEXT_CMD_NEWLINE "敬愛していた兄ミシェイルと袂を分かち、相争った。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Princess of Macedon who took up arms" TEXT_CMD_NEWLINE "against her brother, Michalis. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "被称为【赤色龙骑士】的马其顿公主。" TEXT_CMD_NEWLINE "和原本敬爱的兄长米谢尔断绝关系、彼此争战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_ミネルバ] = {
+    [LANGUAGE_JAPANESE] = "赤い竜騎士",
+    [LANGUAGE_ENGLISH] = "Red Dragoon",
+    [LANGUAGE_CHINESE] = "赤色龙骑士",
+},
+
+[MPID_ジークベルト] = {
+    [LANGUAGE_JAPANESE] = "ジークベルト",
+    [LANGUAGE_ENGLISH] = "Siegbert",
+    [LANGUAGE_CHINESE] = "齐格贝尔特",
+},
+
+[MPID_H_ジークベルト] = {
+    [LANGUAGE_JAPANESE] = "マークスの息子。優しく真面目な常識人。" TEXT_CMD_NEWLINE "教養を叩き込まれたエリート。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Xander's son. As a king-to-be, he received" TEXT_CMD_NEWLINE "the finest education. Serious and kind." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "马克斯的儿子，善良、严谨、具备常识。" TEXT_CMD_NEWLINE "是位接受过严格教育的菁英。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ジークベルト] = {
+    [LANGUAGE_JAPANESE] = "未来の暗夜王",
+    [LANGUAGE_ENGLISH] = "Future King",
+    [LANGUAGE_CHINESE] = "未来的暗夜王",
+},
+
+[MPID_タクミ] = {
+    [LANGUAGE_JAPANESE] = "タクミ",
+    [LANGUAGE_ENGLISH] = "Takumi",
+    [LANGUAGE_CHINESE] = "拓海",
+},
+
+[MPID_H_タクミ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の王子。神器【風神弓】の使い手。" TEXT_CMD_NEWLINE "自己顕示欲が強く、ひねくれ屋。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Prince of Hoshido who wields the divine" TEXT_CMD_NEWLINE "bow Fujin Yumi. Prickly at times." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的王子，神器【风神弓】的主人。" TEXT_CMD_NEWLINE "个性别扭，亟欲表现自我。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_タクミ] = {
+    [LANGUAGE_JAPANESE] = "神弓の使い手",
+    [LANGUAGE_ENGLISH] = "Wild Card",
+    [LANGUAGE_CHINESE] = "神弓射手",
+},
+
+[MPID_サクラ] = {
+    [LANGUAGE_JAPANESE] = "サクラ",
+    [LANGUAGE_ENGLISH] = "Sakura",
+    [LANGUAGE_CHINESE] = "樱",
+},
+
+[MPID_H_サクラ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の王女。人を癒す力を持つ。" TEXT_CMD_NEWLINE "内気で照れ屋だが、優しい心の持ち主。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Princess of Hoshido who is a gentle healer." TEXT_CMD_NEWLINE "Struggles with her shyness. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的公主，具有治愈他人的力量。" TEXT_CMD_NEWLINE "个性文静害羞，心地善良。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_サクラ] = {
+    [LANGUAGE_JAPANESE] = "慈しみの巫女",
+    [LANGUAGE_ENGLISH] = "Loving Priestess",
+    [LANGUAGE_CHINESE] = "慈悲的巫女",
+},
+
+[MPID_ヒノカ2] = {
+    [LANGUAGE_JAPANESE] = "ヒノカ",
+    [LANGUAGE_ENGLISH] = "Hinoka",
+    [LANGUAGE_CHINESE] = "火乃香",
+},
+
+[MPID_H_ヒノカ2] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の王女。" TEXT_CMD_NEWLINE "伝説の金鵄を駆り、遥かな高みへと飛ぶ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Princess of Hoshido. Soars higher" TEXT_CMD_NEWLINE "and higher upon the back of a" TEXT_CMD_NEWLINE "legendary kinshi. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的公主。" TEXT_CMD_NEWLINE "乘驾著传说的金色大鸢，翱翔于遥远的天际之上。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ヒノカ2] = {
+    [LANGUAGE_JAPANESE] = "蒼天の戦姫",
+    [LANGUAGE_ENGLISH] = "Blue Sky Warrior",
+    [LANGUAGE_CHINESE] = "苍天战姬",
+},
+
+[MPID_シグレ] = {
+    [LANGUAGE_JAPANESE] = "シグレ",
+    [LANGUAGE_ENGLISH] = "Shigure",
+    [LANGUAGE_CHINESE] = "诗格莱",
+},
+
+[MPID_H_シグレ] = {
+    [LANGUAGE_JAPANESE] = "アクアの息子。物腰穏やかな性格。" TEXT_CMD_NEWLINE "感性が鋭く芸術家肌で、歌も上手い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Azura's son. A sensitive, gentle artist with" TEXT_CMD_NEWLINE "a voice to rival his mother's. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "阿库娅的儿子，言行举止相当稳重。" TEXT_CMD_NEWLINE "感受力强，有艺术家气质，歌声也相当美妙。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_シグレ] = {
+    [LANGUAGE_JAPANESE] = "青空に描く想い",
+    [LANGUAGE_ENGLISH] = "Uplifting Artist",
+    [LANGUAGE_CHINESE] = "描绘于蓝天的心意",
+},
+
+[MPID_総選挙マルス] = {
+    [LANGUAGE_JAPANESE] = "マルス",
+    [LANGUAGE_ENGLISH] = "Marth",
+    [LANGUAGE_CHINESE] = "马尔斯",
+},
+
+[MPID_H_総選挙マルス] = {
+    [LANGUAGE_JAPANESE] = "アリティア王国の王子。" TEXT_CMD_NEWLINE "英雄王と称えられ、数多くの功績を後世に遺した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Prince of Altea destined to be revered as the" TEXT_CMD_NEWLINE "Hero-King, having done countless deeds for the" TEXT_CMD_NEWLINE "good of those who came after him. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿利提亚王国的王子。" TEXT_CMD_NEWLINE "被誉为英雄王，其丰功伟业流传于世。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_総選挙マルス] = {
+    [LANGUAGE_JAPANESE] = "光の王子",
+    [LANGUAGE_ENGLISH] = "Prince of Light",
+    [LANGUAGE_CHINESE] = "光之王子",
+},
+
+[MPID_デジェル] = {
+    [LANGUAGE_JAPANESE] = "デジェル",
+    [LANGUAGE_ENGLISH] = "Kjelle",
+    [LANGUAGE_CHINESE] = "丹裘尔",
+},
+
+[MPID_H_デジェル] = {
+    [LANGUAGE_JAPANESE] = "ソワレの娘。鍛錬や手合わせを欠かさない。" TEXT_CMD_NEWLINE "女だからと手加減されることが大嫌い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Sully's daughter. Won't miss a chance to train" TEXT_CMD_NEWLINE "for battle. Determined to be the best soldier" TEXT_CMD_NEWLINE "she can be. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "索瓦蕾的女儿。决不疏于锻炼与实战练习。" TEXT_CMD_NEWLINE "最讨厌对手因为自己是女性而放水。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_デジェル] = {
+    [LANGUAGE_JAPANESE] = "正々堂々の",
+    [LANGUAGE_ENGLISH] = "Fair Fighter",
+    [LANGUAGE_CHINESE] = "堂堂正正的",
+},
+
+[MPID_総選挙リシテア] = {
+    [LANGUAGE_JAPANESE] = "リシテア",
+    [LANGUAGE_ENGLISH] = "Lysithea",
+    [LANGUAGE_CHINESE] = "莉丝缇亚",
+},
+
+[MPID_H_総選挙リシテア] = {
+    [LANGUAGE_JAPANESE] = "レスター諸侯同盟領の貴族、コーデリア伯の娘。" TEXT_CMD_NEWLINE "士官学校の経験を経て成長を遂げる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Count Ordelia and noble of the" TEXT_CMD_NEWLINE "Leicester Alliance. Her monastery experience" TEXT_CMD_NEWLINE "allowed her to achieve much growth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，科迪利亚伯爵之女。" TEXT_CMD_NEWLINE "在士官学校中的经验使其有所成长。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_総選挙リシテア] = {
+    [LANGUAGE_JAPANESE] = "真摯なる求道者",
+    [LANGUAGE_ENGLISH] = "Earnest Seeker",
+    [LANGUAGE_CHINESE] = "勤奋认真的求道者",
+},
+
+[MPID_フランネル] = {
+    [LANGUAGE_JAPANESE] = "フランネル",
+    [LANGUAGE_ENGLISH] = "Keaton",
+    [LANGUAGE_CHINESE] = "弗朗诺",
+},
+
+[MPID_H_フランネル] = {
+    [LANGUAGE_JAPANESE] = "カイエン峰を根城とする人狼、ガルーたちの長。" TEXT_CMD_NEWLINE "人懐っこいが、素直になれない性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Leader of the wolfskin who set up their" TEXT_CMD_NEWLINE "stronghold on Mount Garou. Sociable but isn't" TEXT_CMD_NEWLINE "always honest with himself or others. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "居住于凯茵峰的狼人──加鲁一族的首领。" TEXT_CMD_NEWLINE "虽然不怕生容易亲近，但个性不太坦率。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_フランネル] = {
+    [LANGUAGE_JAPANESE] = "人狼の長",
+    [LANGUAGE_ENGLISH] = "Lupine Collector",
+    [LANGUAGE_CHINESE] = "狼人之长",
+},
+
+[MPID_ベルベット] = {
+    [LANGUAGE_JAPANESE] = "ベルベット",
+    [LANGUAGE_ENGLISH] = "Panne",
+    [LANGUAGE_CHINESE] = "贝尔贝特",
+},
+
+[MPID_H_ベルベット] = {
+    [LANGUAGE_JAPANESE] = "獣に変身する種族であるタグエルの生き残り。" TEXT_CMD_NEWLINE "落ち着いていて、芯の強い性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "The last of the taguel, a rabbit-like race. Calm," TEXT_CMD_NEWLINE "sensible, and self-reliant. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "为能够化身为兽的种族「塔格艾尔」的幸存者。" TEXT_CMD_NEWLINE "性格沉著冷静、内心刚强。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ベルベット] = {
+    [LANGUAGE_JAPANESE] = "誇り高きタグエル",
+    [LANGUAGE_ENGLISH] = "Proud Taguel",
+    [LANGUAGE_CHINESE] = "荣耀的塔格艾尔",
+},
+
+[MPID_マトイ] = {
+    [LANGUAGE_JAPANESE] = "マトイ",
+    [LANGUAGE_ENGLISH] = "Caeldori",
+    [LANGUAGE_CHINESE] = "缠",
+},
+
+[MPID_H_マトイ] = {
+    [LANGUAGE_JAPANESE] = "憧れの父であるツバキにならい、完璧主義。" TEXT_CMD_NEWLINE "才色兼備の天才肌で、常に努力も怠らない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Strives for perfection, following in the footsteps" TEXT_CMD_NEWLINE "of the father she admires, Subaki. Naturally" TEXT_CMD_NEWLINE "talented, beautiful, and motivated. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "将憧憬的父亲椿视为楷模，同样是个完美主义者。" TEXT_CMD_NEWLINE "才貌双全的天才，相当努力从不懈怠。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_マトイ] = {
+    [LANGUAGE_JAPANESE] = "完璧を追う翼",
+    [LANGUAGE_ENGLISH] = "Perfect Angel",
+    [LANGUAGE_CHINESE] = "追逐完美之翼",
+},
+
+[MPID_レテ] = {
+    [LANGUAGE_JAPANESE] = "レテ",
+    [LANGUAGE_ENGLISH] = "Lethe",
+    [LANGUAGE_CHINESE] = "蕾媞",
+},
+
+[MPID_H_レテ] = {
+    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国の猫の民の戦士。かつては" TEXT_CMD_NEWLINE "ベオクを嫌悪していたが、その心情も変わりつつある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "A cat warrior from Gallia, the home of the beast" TEXT_CMD_NEWLINE "tribe of laguz. Once had a distrust of all beorc," TEXT_CMD_NEWLINE "but that's slowly changing. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "居住在加利亚王国的兽牙族的猫之民战士。" TEXT_CMD_NEWLINE "曾极度厌恶贝欧克，但这份情感正逐渐改变。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_レテ] = {
+    [LANGUAGE_JAPANESE] = "ガリアの女戦士",
+    [LANGUAGE_ENGLISH] = "Gallia's Valkyrie",
+    [LANGUAGE_CHINESE] = "加利亚的女战士",
+},
+
+[MPID_シノノメ] = {
+    [LANGUAGE_JAPANESE] = "シノノメ",
+    [LANGUAGE_ENGLISH] = "Shiro",
+    [LANGUAGE_CHINESE] = "东云",
+},
+
+[MPID_H_シノノメ] = {
+    [LANGUAGE_JAPANESE] = "リョウマの息子。強さを求め訓練を怠らない。" TEXT_CMD_NEWLINE "情に厚く、気さくで親しみやすい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Ryoma's son. Doesn't slack on training." TEXT_CMD_NEWLINE "Outgoing and easy to get along with." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "龙马的儿子，为了追求力量，训练时从不怠慢。" TEXT_CMD_NEWLINE "个性温和又好相处，相当重情义。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_シノノメ] = {
+    [LANGUAGE_JAPANESE] = "未完の大器",
+    [LANGUAGE_ENGLISH] = "Raw Talent",
+    [LANGUAGE_CHINESE] = "未完成的英才",
+},
+
+[MPID_暴走レア] = {
+    [LANGUAGE_JAPANESE] = "レア",
+    [LANGUAGE_ENGLISH] = "Rhea",
+    [LANGUAGE_CHINESE] = "蕾雅",
+},
+
+[MPID_H_暴走レア] = {
+    [LANGUAGE_JAPANESE] = "神祖ソティスに生み出された眷属。" TEXT_CMD_NEWLINE "力の暴走を抑えられず、竜に姿を変える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Child of the progenitor god Sothis. Unable to" TEXT_CMD_NEWLINE "control the power coursing through her, she" TEXT_CMD_NEWLINE "takes on a draconic form. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "神祖苏谛斯所创造的眷属。" TEXT_CMD_NEWLINE "因无法抑制失控的力量而化为龙的姿态。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_暴走レア] = {
+    [LANGUAGE_JAPANESE] = "白きもの",
+    [LANGUAGE_ENGLISH] = "Immaculate One",
+    [LANGUAGE_CHINESE] = "纯白无瑕者",
+},
+
+[MPID_マリス] = {
+    [LANGUAGE_JAPANESE] = "マリス",
+    [LANGUAGE_ENGLISH] = "Malice",
+    [LANGUAGE_CHINESE] = "玛丽丝",
+},
+
+[MPID_H_マリス] = {
+    [LANGUAGE_JAPANESE] = "父ダイスと共に傭兵をしている腕利きの女剣士。" TEXT_CMD_NEWLINE "稼ぎのほとんどはダイスの博打で消えていく。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A capable mercenary who works together with" TEXT_CMD_NEWLINE "her father, Dice, who in turn loses most of their" TEXT_CMD_NEWLINE "earnings gambling. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "New Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "本领高强的女剑士，与父亲戴斯一同担任佣兵。" TEXT_CMD_NEWLINE "赚取的报酬几乎都被戴斯赌光了。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
+},
+
+[MPID_HONOR_マリス] = {
+    [LANGUAGE_JAPANESE] = "剣舞の傭兵",
+    [LANGUAGE_ENGLISH] = "Deft Sellsword",
+    [LANGUAGE_CHINESE] = "舞剑的佣兵",
+},
+
+[MPID_セテス] = {
+    [LANGUAGE_JAPANESE] = "セテス",
+    [LANGUAGE_ENGLISH] = "Seteth",
+    [LANGUAGE_CHINESE] = "西提司",
+},
+
+[MPID_H_セテス] = {
+    [LANGUAGE_JAPANESE] = "セイロス聖教会でレアの補佐役を務める。" TEXT_CMD_NEWLINE "生真面目な堅物だが、妹のフレンを溺愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Serves the Church of Seiros as Rhea's right" TEXT_CMD_NEWLINE "hand. He is serious and stubborn with most," TEXT_CMD_NEWLINE "but dotes on his younger sister, Flayn. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "在赛罗司圣教会中担任辅佐蕾雅一职。" TEXT_CMD_NEWLINE "虽然个性一板一眼且相当严厉，但却溺爱著自己的妹妹芙莲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_セテス] = {
+    [LANGUAGE_JAPANESE] = "聖教会の石頭",
+    [LANGUAGE_ENGLISH] = "Seiros Adherent",
+    [LANGUAGE_CHINESE] = "圣教会的死脑筋",
+},
+
+[MPID_ロイ] = {
+    [LANGUAGE_JAPANESE] = "ロイ",
+    [LANGUAGE_ENGLISH] = "Roy",
+    [LANGUAGE_CHINESE] = "罗伊",
+},
+
+[MPID_H_ロイ] = {
+    [LANGUAGE_JAPANESE] = "フェレ侯エリウッドの嫡男。若いながらも" TEXT_CMD_NEWLINE "優れた統率力でフェレ軍の指揮官を務める。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "The son of Eliwood, Marquess of Pherae." TEXT_CMD_NEWLINE "Talented leader of Pherae's army. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "费雷侯爵艾利乌德的嫡子。年纪轻轻，却拥有" TEXT_CMD_NEWLINE "优异的指挥能力，担任费雷军的指挥官。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_ロイ] = {
+    [LANGUAGE_JAPANESE] = "若き獅子",
+    [LANGUAGE_ENGLISH] = "Young Lion",
+    [LANGUAGE_CHINESE] = "幼狮",
+},
+
+[MPID_漆黒の騎士] = {
+    [LANGUAGE_JAPANESE] = "漆黒の騎士",
+    [LANGUAGE_ENGLISH] = "Black Knight",
+    [LANGUAGE_CHINESE] = "漆黑骑士",
+},
+
+[MPID_H_漆黒の騎士] = {
+    [LANGUAGE_JAPANESE] = "デイン王国の四将軍【四駿】の一人。" TEXT_CMD_NEWLINE "全身を漆黒の鎧で固める不気味な騎士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "One of Daein's Four Riders. An enigmatic" TEXT_CMD_NEWLINE "knight encased in pitch-black armor." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "戴因王国的四大将军——【四骏】之一，" TEXT_CMD_NEWLINE "全身披挂著漆黑铠甲的恐怖骑士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_漆黒の騎士] = {
+    [LANGUAGE_JAPANESE] = "四駿の将",
+    [LANGUAGE_ENGLISH] = "Sinister General",
+    [LANGUAGE_CHINESE] = "四骏之将",
+},
+
+[MPID_モニカ] = {
+    [LANGUAGE_JAPANESE] = "モニカ",
+    [LANGUAGE_ENGLISH] = "Monica",
+    [LANGUAGE_CHINESE] = "莫妮卡",
+},
+
+[MPID_H_モニカ] = {
+    [LANGUAGE_JAPANESE] = "アドラステア帝国の貴族、オックス男爵の嫡子。" TEXT_CMD_NEWLINE "エーデルガルトに並々ならぬ想いを抱いている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Noble of the Adrestian Empire and daughter" TEXT_CMD_NEWLINE "of Baron Ochs. Endlessly faithful to Edelgard." TEXT_CMD_NEWLINE "Appears in Fire Emblem Warriors: Three Hopes.",
+    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的贵族——奥克斯男爵的嫡子。" TEXT_CMD_NEWLINE "对艾黛尔贾特有著非比寻常的忠诚之心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
+},
+
+[MPID_HONOR_モニカ] = {
+    [LANGUAGE_JAPANESE] = "女帝いちの家臣",
+    [LANGUAGE_ENGLISH] = "Favored Vassal",
+    [LANGUAGE_CHINESE] = "女帝的头号家臣",
+},
+
+[MPID_シェズ女] = {
+    [LANGUAGE_JAPANESE] = "シェズ",
+    [LANGUAGE_ENGLISH] = "Shez",
+    [LANGUAGE_CHINESE] = "谢兹",
+},
+
+[MPID_H_シェズ女] = {
+    [LANGUAGE_JAPANESE] = "フォドラを一人で放浪する根無し草の傭兵。" TEXT_CMD_NEWLINE "割り切った性格だが、奥底には熱き思いが眠る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "A mercenary who wandered Fódlan. Though" TEXT_CMD_NEWLINE "ordinarily rational, a burning desire sleeps" TEXT_CMD_NEWLINE "within her. Appears in Fire Emblem Warriors:" TEXT_CMD_NEWLINE "Three Hopes.",
+    [LANGUAGE_CHINESE] = "居无定所、独自一人在芙朵拉流浪的佣兵。" TEXT_CMD_NEWLINE "个性干脆果断，但沉睡著一颗热血的心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
+},
+
+[MPID_HONOR_シェズ女] = {
+    [LANGUAGE_JAPANESE] = "前途有為な傭兵",
+    [LANGUAGE_ENGLISH] = "Keen Mercenary",
+    [LANGUAGE_CHINESE] = "前途无量的佣兵",
+},
+
+[MPID_ジェローム] = {
+    [LANGUAGE_JAPANESE] = "ジェローム",
+    [LANGUAGE_ENGLISH] = "Gerome",
+    [LANGUAGE_CHINESE] = "杰洛姆",
+},
+
+[MPID_H_ジェローム] = {
+    [LANGUAGE_JAPANESE] = "セルジュの息子。人と馴れ合うのを好まない。" TEXT_CMD_NEWLINE "愛竜は母親の形見であるミネルヴァ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Cherche's son. Unaccustomed to interpersonal" TEXT_CMD_NEWLINE "interactions. His wyvern Minerva belonged to his" TEXT_CMD_NEWLINE "late mother. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "塞尔裘的儿子，不喜欢与他人亲近。" TEXT_CMD_NEWLINE "爱龙为母亲留下的米奈瓦。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ジェローム] = {
+    [LANGUAGE_JAPANESE] = "鉄仮面の竜騎士",
+    [LANGUAGE_ENGLISH] = "Masked Rider",
+    [LANGUAGE_CHINESE] = "铁面的龙骑士",
+},
+
+[MEID_ヴェロニカ洗脳] = {
+    [LANGUAGE_JAPANESE] = "ヴェロニカ",
+    [LANGUAGE_ENGLISH] = "Veronica",
+    [LANGUAGE_CHINESE] = "维洛妮卡",
+},
+
+[MEID_H_ヴェロニカ洗脳] = {
+    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇女。" TEXT_CMD_NEWLINE "その身は、憑竜エンブラに支配されつつある。",
+    [LANGUAGE_ENGLISH] = "Imperial princess of the Emblian Empire, her" TEXT_CMD_NEWLINE "body and mind slowly being overpowered by" TEXT_CMD_NEWLINE "the dragon Embla, succumbing to her control.",
+    [LANGUAGE_CHINESE] = "恩布拉帝国的皇女。" TEXT_CMD_NEWLINE "她的身体渐渐地被凭龙恩布拉所支配。",
+},
+
+[MEID_HONOR_ヴェロニカ洗脳] = {
+    [LANGUAGE_JAPANESE] = "憑かれし皇女",
+    [LANGUAGE_ENGLISH] = "Princess Beset",
+    [LANGUAGE_CHINESE] = "被附身的皇女",
+},
+
+[MPID_ネイミー] = {
+    [LANGUAGE_JAPANESE] = "ネイミー",
+    [LANGUAGE_ENGLISH] = "Neimi",
+    [LANGUAGE_CHINESE] = "奈弥",
+},
+
+[MPID_H_ネイミー] = {
+    [LANGUAGE_JAPANESE] = "ルネス王国ラクの村出身の狩人。" TEXT_CMD_NEWLINE "戦乱の中で故郷を山賊に焼かれ、ルネス軍に加わる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A hunter from Lark, a village in Renais. Joins the" TEXT_CMD_NEWLINE "Renais military after bandits burn her hometown" TEXT_CMD_NEWLINE "to the ground in the midst of war's chaos." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "路奈斯王国拉克村出身的猎人。" TEXT_CMD_NEWLINE "故乡在战乱时被山贼烧毁，便加入路奈斯军。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_ネイミー] = {
+    [LANGUAGE_JAPANESE] = "泣き撃ちの狩人",
+    [LANGUAGE_ENGLISH] = "Tearful Archer",
+    [LANGUAGE_CHINESE] = "爱哭的猎人",
+},
+
+[MPID_セリーヌ] = {
+    [LANGUAGE_JAPANESE] = "セリーヌ",
+    [LANGUAGE_ENGLISH] = "Céline",
+    [LANGUAGE_CHINESE] = "锡莉奴",
+},
+
+[MPID_H_セリーヌ] = {
+    [LANGUAGE_JAPANESE] = "フィレネ王国第一王女。アルフレッドの妹。" TEXT_CMD_NEWLINE "穏やかな性格で、大の紅茶好き。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　エンゲージ』）",
+    [LANGUAGE_ENGLISH] = "Princess of Firene and Alfred's younger sister." TEXT_CMD_NEWLINE "She has a gentle demeanor and a particular" TEXT_CMD_NEWLINE "love for tea. Appears in Fire Emblem Engage.",
+    [LANGUAGE_CHINESE] = "费列聂王国的第一公主。阿尔弗雷德的妹妹。" TEXT_CMD_NEWLINE "个性稳重，十分喜欢品茗红茶。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM ENGAGE』）",
+},
+
+[MPID_HONOR_セリーヌ] = {
+    [LANGUAGE_JAPANESE] = "幸福な王女",
+    [LANGUAGE_ENGLISH] = "Joyous Royal",
+    [LANGUAGE_CHINESE] = "幸福的公主",
+},
+
+[MPID_リュール女] = {
+    [LANGUAGE_JAPANESE] = "リュール",
+    [LANGUAGE_ENGLISH] = "Alear",
+    [LANGUAGE_CHINESE] = "琉尔",
+},
+
+[MPID_H_リュール女] = {
+    [LANGUAGE_JAPANESE] = "長い眠りから目覚めた、神竜の後継者。" TEXT_CMD_NEWLINE "紋章士を顕現し、世界を救うため戦う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　エンゲージ』）",
+    [LANGUAGE_ENGLISH] = "Successor to the Divine Dragon, awoken from" TEXT_CMD_NEWLINE "a long sleep. Summons Emblems to lead the" TEXT_CMD_NEWLINE "world to peace. Appears in Fire Emblem Engage.",
+    [LANGUAGE_CHINESE] = "从长眠中苏醒的神龙继承者。" TEXT_CMD_NEWLINE "能让纹章士显现，为了拯救世界而战。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM ENGAGE』）",
+},
+
+[MPID_HONOR_リュール女] = {
+    [LANGUAGE_JAPANESE] = "神竜の王女",
+    [LANGUAGE_ENGLISH] = "Dragon Child",
+    [LANGUAGE_CHINESE] = "神龙公主",
+},
+
+[MPID_マリータ] = {
+    [LANGUAGE_JAPANESE] = "マリータ",
+    [LANGUAGE_ENGLISH] = "Mareeta",
+    [LANGUAGE_CHINESE] = "玛丽塔",
+},
+
+[MPID_H_マリータ] = {
+    [LANGUAGE_JAPANESE] = "フィアナ村の領主エーヴェルの養女。" TEXT_CMD_NEWLINE "呪いを克服し、強き剣士を目指す少女。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Foster daughter of Eyvel, mistress of Fiana." TEXT_CMD_NEWLINE "Freed from a curse, she now seeks to become" TEXT_CMD_NEWLINE "a great swordmaster. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
+    [LANGUAGE_CHINESE] = "费亚纳村的领主爱薇尔的养女。" TEXT_CMD_NEWLINE "克服了诅咒，以成为强大剑士为目标的少女。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_マリータ] = {
+    [LANGUAGE_JAPANESE] = "月と星の剣士",
+    [LANGUAGE_ENGLISH] = "Sword of Stars",
+    [LANGUAGE_CHINESE] = "月与星的剑士",
+},
+
+[MPID_セライナ] = {
+    [LANGUAGE_JAPANESE] = "セライナ",
+    [LANGUAGE_ENGLISH] = "Selena",
+    [LANGUAGE_CHINESE] = "瑟莱娜",
+},
+
+[MPID_H_セライナ] = {
+    [LANGUAGE_JAPANESE] = "寒村の平民の出身ながら、グラド帝国皇帝の懐刀として" TEXT_CMD_NEWLINE "帝国三騎【蛍石】の名を受けるほどの魔道の使い手。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Commoner from out of a desolate village who" TEXT_CMD_NEWLINE "used her magic ability to become the Fluorspar" TEXT_CMD_NEWLINE "of the Imperial Three. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "虽是出身于贫困村落的平民，" TEXT_CMD_NEWLINE "却是格拉多帝国皇帝的亲信，" TEXT_CMD_NEWLINE "也是别名为帝国三骑【萤石】的优秀魔道士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_セライナ] = {
+    [LANGUAGE_JAPANESE] = "蛍石",
+    [LANGUAGE_ENGLISH] = "Fluorspar",
+    [LANGUAGE_CHINESE] = "萤石",
+},
+
+[MPID_ゼロ] = {
+    [LANGUAGE_JAPANESE] = "ゼロ",
+    [LANGUAGE_ENGLISH] = "Niles",
+    [LANGUAGE_CHINESE] = "零",
+},
+
+[MPID_H_ゼロ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国のシーフ。レオンの臣下。" TEXT_CMD_NEWLINE "男女問わず意味深な発言を投げかける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Nohrian scoundrel who wags his saucy" TEXT_CMD_NEWLINE "tongue at everyone. One of Leo's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的小偷，里昂的部下。" TEXT_CMD_NEWLINE "无论对方是男是女，都会说出一些暧昧的言语。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ゼロ] = {
+    [LANGUAGE_JAPANESE] = "加虐性癖",
+    [LANGUAGE_ENGLISH] = "Cruel to Be Kind",
+    [LANGUAGE_CHINESE] = "虐待狂",
+},
+
+[MPID_ガンズ] = {
+    [LANGUAGE_JAPANESE] = "ガンズ",
+    [LANGUAGE_ENGLISH] = "Hans",
+    [LANGUAGE_CHINESE] = "甘兹",
+},
+
+[MPID_H_ガンズ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王ガロン直属の近衛隊長。" TEXT_CMD_NEWLINE "敵に一切の情け容赦をかけないことで知られる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A soldier under the direct command of King" TEXT_CMD_NEWLINE "Garon of Nohr. Known for being merciless." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王加隆的直属近卫队长。" TEXT_CMD_NEWLINE "因对敌人绝不留情这一点而闻名。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ガンズ] = {
+    [LANGUAGE_JAPANESE] = "怪力栄進を欲す",
+    [LANGUAGE_ENGLISH] = "Ambitious Brute",
+    [LANGUAGE_CHINESE] = "狼子野心",
+},
+
+[MPID_クロム] = {
+    [LANGUAGE_JAPANESE] = "クロム",
+    [LANGUAGE_ENGLISH] = "Chrom",
+    [LANGUAGE_CHINESE] = "库洛武",
+},
+
+[MPID_H_クロム] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の王子。【英雄王】の末裔。" TEXT_CMD_NEWLINE "自警団の団長を務め、国の平和を守っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A prince of Ylisse and descendant of the" TEXT_CMD_NEWLINE "Hero-King. Leads the Shepherds. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国的王子，【英雄王】的后裔。" TEXT_CMD_NEWLINE "担任自卫团的团长，守护著国家和平。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_クロム] = {
+    [LANGUAGE_JAPANESE] = "新たなる聖王",
+    [LANGUAGE_ENGLISH] = "Exalted Prince",
+    [LANGUAGE_CHINESE] = "新的圣王",
+},
+
+[MPID_総選挙エイリーク] = {
+    [LANGUAGE_JAPANESE] = "エイリーク",
+    [LANGUAGE_ENGLISH] = "Eirika",
+    [LANGUAGE_CHINESE] = "艾莉可",
+},
+
+[MPID_H_総選挙エイリーク] = {
+    [LANGUAGE_JAPANESE] = "ルネス王国の王女。" TEXT_CMD_NEWLINE "兄より預かった槍を携え、未来を拓くために戦う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Princess of Renais. She has taken up her" TEXT_CMD_NEWLINE "brother's lance so she can defend their" TEXT_CMD_NEWLINE "kingdom's future. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "路奈斯王国的公主。" TEXT_CMD_NEWLINE "手持哥哥所托付的枪，为开拓未来而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_総選挙エイリーク] = {
+    [LANGUAGE_JAPANESE] = "誓いの優王女",
+    [LANGUAGE_ENGLISH] = "Pledged Restorer",
+    [LANGUAGE_CHINESE] = "起誓的善良公主",
+},
+
+[MPID_総選挙クロード] = {
+    [LANGUAGE_JAPANESE] = "クロード",
+    [LANGUAGE_ENGLISH] = "Claude",
+    [LANGUAGE_CHINESE] = "库罗德",
+},
+
+[MPID_H_総選挙クロード] = {
+    [LANGUAGE_JAPANESE] = "フォドラではレスター諸侯同盟の盟主として戦ったが、" TEXT_CMD_NEWLINE "その正体はパルミラの王族。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Fought as the leader of the Leicester Alliance," TEXT_CMD_NEWLINE "but is also a member of Almyra's royal family." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "虽作为雷斯塔诸侯同盟的盟主于芙朵拉作战，" TEXT_CMD_NEWLINE "但其真实身分是帕迈拉的王族。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_総選挙クロード] = {
+    [LANGUAGE_JAPANESE] = "パルミラ国王",
+    [LANGUAGE_ENGLISH] = "Almyra's King",
+    [LANGUAGE_CHINESE] = "帕迈拉国王",
+},
+
+[MEID_エンブラ] = {
+    [LANGUAGE_JAPANESE] = "エンブラ",
+    [LANGUAGE_ENGLISH] = "Embla",
+    [LANGUAGE_CHINESE] = "恩布拉",
+},
+
+[MEID_H_エンブラ] = {
+    [LANGUAGE_JAPANESE] = "閉ざされし国エンブラの神。" TEXT_CMD_NEWLINE "陰湿で嫉妬深い性格。アスクに関わる人間の死を望む。",
+    [LANGUAGE_ENGLISH] = "God of the closed kingdom, which shares her" TEXT_CMD_NEWLINE "name. Spite and jealousy rule her, and she" TEXT_CMD_NEWLINE "wishes death to any who side with Askr.",
+    [LANGUAGE_CHINESE] = "封闭帝国恩布拉的神。" TEXT_CMD_NEWLINE "个性阴沉而善妒，希望和亚斯克有关的人类死亡。",
+},
+
+[MEID_HONOR_エンブラ] = {
+    [LANGUAGE_JAPANESE] = "閉神",
+    [LANGUAGE_ENGLISH] = "God of Closure",
+    [LANGUAGE_CHINESE] = "闭神",
+},
+
+[MPID_カチュア] = {
+    [LANGUAGE_JAPANESE] = "カチュア",
+    [LANGUAGE_ENGLISH] = "Catria",
+    [LANGUAGE_CHINESE] = "卡秋雅",
+},
+
+[MPID_H_カチュア] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の次女。" TEXT_CMD_NEWLINE "真面目で一途な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Middle of three sisters who are pegasus" TEXT_CMD_NEWLINE "knights for Macedon. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的次女。" TEXT_CMD_NEWLINE "个性严谨而专一。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_カチュア] = {
+    [LANGUAGE_JAPANESE] = "白騎の次姉",
+    [LANGUAGE_ENGLISH] = "Middle Whitewing",
+    [LANGUAGE_CHINESE] = "白骑的次女",
+},
+
+[MPID_パオラ] = {
+    [LANGUAGE_JAPANESE] = "パオラ",
+    [LANGUAGE_ENGLISH] = "Palla",
+    [LANGUAGE_CHINESE] = "帕奥拉",
+},
+
+[MPID_H_パオラ] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の長女。" TEXT_CMD_NEWLINE "世話好きで、包容力にあふれた性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Eldest of three sisters who are pegasus" TEXT_CMD_NEWLINE "knights for Macedon. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的长女。" TEXT_CMD_NEWLINE "喜欢照顾他人，充满了母性的包容力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_パオラ] = {
+    [LANGUAGE_JAPANESE] = "白騎の長姉",
+    [LANGUAGE_ENGLISH] = "Eldest Whitewing",
+    [LANGUAGE_CHINESE] = "白骑的长女",
+},
+
+[MPID_エスト] = {
+    [LANGUAGE_JAPANESE] = "エスト",
+    [LANGUAGE_ENGLISH] = "Est",
+    [LANGUAGE_CHINESE] = "爱丝特",
+},
+
+[MPID_H_エスト] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサス三姉妹の末妹。" TEXT_CMD_NEWLINE "明るく子供っぽい性格。アベルとは恋仲。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Youngest of three sisters who are" TEXT_CMD_NEWLINE "pegasus knights for Macedon. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "马其顿王国飞马三姊妹中的么女。" TEXT_CMD_NEWLINE "个性开朗而孩子气，和阿贝尔是情侣。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_エスト] = {
+    [LANGUAGE_JAPANESE] = "白騎の末妹",
+    [LANGUAGE_ENGLISH] = "Junior Whitewing",
+    [LANGUAGE_CHINESE] = "白骑的么女",
+},
+
+[MPID_エイリーク2] = {
+    [LANGUAGE_JAPANESE] = "エイリーク",
+    [LANGUAGE_ENGLISH] = "Eirika",
+    [LANGUAGE_CHINESE] = "艾莉可",
+},
+
+[MPID_H_エイリーク2] = {
+    [LANGUAGE_JAPANESE] = "ルネス王国王女。エフラムの双子の妹。リオンの友。" TEXT_CMD_NEWLINE "幼い頃、エフラム、リオンと共に様々なことを学んだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Princess of Renais, Ephraim's twin sister," TEXT_CMD_NEWLINE "and Lyon's friend. The three of them studied" TEXT_CMD_NEWLINE "many things together in their youth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "路奈斯王国的公主，艾夫拉姆的双胞胎妹妹。利昂好友。" TEXT_CMD_NEWLINE "小时候和艾夫拉姆、利昂一起学习过许多技艺。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_エイリーク2] = {
+    [LANGUAGE_JAPANESE] = "追憶の優王女",
+    [LANGUAGE_ENGLISH] = "Anamnesis Lady",
+    [LANGUAGE_CHINESE] = "回忆的善良公主",
+},
+
+[MEID_ラウアバット] = {
+    [LANGUAGE_JAPANESE] = "ラウアバット",
+    [LANGUAGE_ENGLISH] = "Red Bat",
+    [LANGUAGE_CHINESE] = "赤红蝙蝠",
+},
+
+[MEID_H_ラウアバット] = {
+    [LANGUAGE_JAPANESE] = "赤属性の飛行する蝙蝠。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
+    [LANGUAGE_ENGLISH] = "A flying red bat. Flies over rivers and" TEXT_CMD_NEWLINE "mountains. Weak against bows.",
+    [LANGUAGE_CHINESE] = "赤属性的飞行蝙蝠。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
+},
+
+[MPID_クリス男] = {
+    [LANGUAGE_JAPANESE] = "クリス",
+    [LANGUAGE_ENGLISH] = "Kris",
+    [LANGUAGE_CHINESE] = "克里斯",
+},
+
+[MPID_H_クリス男] = {
+    [LANGUAGE_JAPANESE] = "アリティア王国セラ村の出身。新人騎士で編成された、" TEXT_CMD_NEWLINE "第七小隊のリーダー。近衛騎士としてマルスを支える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Hails from the Altean village of Sera. Leader" TEXT_CMD_NEWLINE "of the 7th Platoon, a group of newly appointed" TEXT_CMD_NEWLINE "knights. Serves Marth as a royal guard. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: New Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "出身于阿利提亚王国的瑟拉村，担任以新人骑士编组的" TEXT_CMD_NEWLINE "第七小队的队长。以近卫骑士的身分辅佐马尔斯。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
+},
+
+[MPID_HONOR_クリス男] = {
+    [LANGUAGE_JAPANESE] = "名も知らぬ英雄",
+    [LANGUAGE_ENGLISH] = "Unknown Hero",
+    [LANGUAGE_CHINESE] = "无名英雄",
+},
+
+[MPID_ノルン] = {
+    [LANGUAGE_JAPANESE] = "ノルン",
+    [LANGUAGE_ENGLISH] = "Norne",
+    [LANGUAGE_CHINESE] = "诺伦",
+},
+
+[MPID_H_ノルン] = {
+    [LANGUAGE_JAPANESE] = "祖国アリティアの危機に参じた義勇兵。" TEXT_CMD_NEWLINE "アリティア陥落の時、マルスの脱出を助けた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A volunteer who took up arms in the struggle" TEXT_CMD_NEWLINE "that consumed her homeland, Altea. She aided" TEXT_CMD_NEWLINE "Marth's escape when Altea fell. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: New Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "挺身面对祖国阿利提亚的危机的义勇兵。" TEXT_CMD_NEWLINE "在阿利提亚被攻陷之际帮助马尔斯逃脱。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
+},
+
+[MPID_HONOR_ノルン] = {
+    [LANGUAGE_JAPANESE] = "アリティア義勇兵",
+    [LANGUAGE_ENGLISH] = "The Volunteer",
+    [LANGUAGE_CHINESE] = "阿利提亚义勇兵",
+},
+
+[MPID_ナギ] = {
+    [LANGUAGE_JAPANESE] = "ナギ",
+    [LANGUAGE_ENGLISH] = "Nagi",
+    [LANGUAGE_CHINESE] = "娜琪",
+},
+
+[MPID_H_ナギ] = {
+    [LANGUAGE_JAPANESE] = "異界の塔で眠りについていたマムクート。" TEXT_CMD_NEWLINE "チキと共通点のある容姿で、神竜石を使う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A manakete who slept within the Alterspire." TEXT_CMD_NEWLINE "Her appearance is reminiscent of Tiki's," TEXT_CMD_NEWLINE "and she wields the Divinestone. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: New Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "曾经沉眠于异界之塔的龙族。" TEXT_CMD_NEWLINE "有著和琪姬相似的外貌，使用著神龙石。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
+},
+
+[MPID_HONOR_ナギ] = {
+    [LANGUAGE_JAPANESE] = "神竜王の化身",
+    [LANGUAGE_ENGLISH] = "Dragon Avatar",
+    [LANGUAGE_CHINESE] = "神龙王的化身",
+},
+
+[MPID_シリウス] = {
+    [LANGUAGE_JAPANESE] = "シリウス",
+    [LANGUAGE_ENGLISH] = "Sirius",
+    [LANGUAGE_CHINESE] = "希利乌斯",
+},
+
+[MPID_H_シリウス] = {
+    [LANGUAGE_JAPANESE] = "常に仮面で顔を隠している流浪の騎士。" TEXT_CMD_NEWLINE "英雄戦争の記録のみに登場する、謎の人物。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A wandering knight whose face is always hidden" TEXT_CMD_NEWLINE "under a mask. A mysterious figure told of only" TEXT_CMD_NEWLINE "in records of the War of Heroes. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "总是以面具隐藏面貌的流浪骑士。" TEXT_CMD_NEWLINE "只在英雄战争的纪录中出现过的神秘人物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_シリウス] = {
+    [LANGUAGE_JAPANESE] = "謎の仮面騎士",
+    [LANGUAGE_ENGLISH] = "Mysterious Knight",
+    [LANGUAGE_CHINESE] = "蒙面骑士",
+},
+
+[MPID_ブノワ] = {
+    [LANGUAGE_JAPANESE] = "ブノワ",
+    [LANGUAGE_ENGLISH] = "Benny",
+    [LANGUAGE_CHINESE] = "布诺瓦",
+},
+
+[MPID_H_ブノワ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の国境警備兵。屈強な大男。" TEXT_CMD_NEWLINE "強面だが優しく小心者で、動物に好かれる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A Nohrian border guard from a farming" TEXT_CMD_NEWLINE "village. A gentle giant loved by animals." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的国境警备兵。魁梧的壮汉。" TEXT_CMD_NEWLINE "面恶心善又胆小，很受动物喜爱。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ブノワ] = {
+    [LANGUAGE_JAPANESE] = "強面の重騎士",
+    [LANGUAGE_ENGLISH] = "Sensitive Soul",
+    [LANGUAGE_CHINESE] = "长相凶悍的重骑士",
+},
+
+[MPID_マリアベル] = {
+    [LANGUAGE_JAPANESE] = "マリアベル",
+    [LANGUAGE_ENGLISH] = "Maribelle",
+    [LANGUAGE_CHINESE] = "玛利亚贝尔",
+},
+
+[MPID_H_マリアベル] = {
+    [LANGUAGE_JAPANESE] = "クロム自警団の一員。リズの親友。" TEXT_CMD_NEWLINE "イーリス有数の名門貴族の令嬢で、気位が高い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A proud noble from one of Ylisse's most" TEXT_CMD_NEWLINE "well-to-do houses. A Shepherd and Lissa's" TEXT_CMD_NEWLINE "best friend. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，莉兹的挚友。" TEXT_CMD_NEWLINE "是伊里斯屈指可数的名门贵族千金，自尊心极高。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_マリアベル] = {
+    [LANGUAGE_JAPANESE] = "罵詈雑言の令嬢",
+    [LANGUAGE_ENGLISH] = "Dire Damsel",
+    [LANGUAGE_CHINESE] = "扬声恶骂的大小姐",
+},
+
+[MPID_リベラ] = {
+    [LANGUAGE_JAPANESE] = "リベラ",
+    [LANGUAGE_ENGLISH] = "Libra",
+    [LANGUAGE_CHINESE] = "利贝拉",
+},
+
+[MPID_H_リベラ] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の聖職者。穏やかな性格。" TEXT_CMD_NEWLINE "女性と間違えられるほどの美貌を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "An Ylissean priest with a calming mien. His" TEXT_CMD_NEWLINE "features are so lovely, he is often mistaken for" TEXT_CMD_NEWLINE "a woman. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国的圣职者，个性敦厚。" TEXT_CMD_NEWLINE "长相非常俊美，甚至会让人误以为是女性。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_リベラ] = {
+    [LANGUAGE_JAPANESE] = "美貌の僧侶",
+    [LANGUAGE_ENGLISH] = "Fetching Friar",
+    [LANGUAGE_CHINESE] = "美貌的僧侣",
+},
+
+[MPID_スミア] = {
+    [LANGUAGE_JAPANESE] = "スミア",
+    [LANGUAGE_ENGLISH] = "Sumia",
+    [LANGUAGE_CHINESE] = "丝米亚",
+},
+
+[MPID_H_スミア] = {
+    [LANGUAGE_JAPANESE] = "クロム自警団の一員。花占いが好き。" TEXT_CMD_NEWLINE "心優しく、動物と心を通わせることができる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A gentle Shepherd who enjoys flower fortunes." TEXT_CMD_NEWLINE "Shows talent at working with animals. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，喜欢用花来占卜。" TEXT_CMD_NEWLINE "心地善良，能与动物心意相通。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_スミア] = {
+    [LANGUAGE_JAPANESE] = "花占いの乙女",
+    [LANGUAGE_ENGLISH] = "Maid of Flowers",
+    [LANGUAGE_CHINESE] = "以花占卜的少女",
 },
 
 [MPID_ディーク] = {
@@ -3409,6 +4267,60 @@
     [LANGUAGE_CHINESE] = "红莲龙骑士",
 },
 
+[MPID_ゲイル] = {
+    [LANGUAGE_JAPANESE] = "ゲイル",
+    [LANGUAGE_ENGLISH] = "Galle",
+    [LANGUAGE_CHINESE] = "盖尔",
+},
+
+[MPID_H_ゲイル] = {
+    [LANGUAGE_JAPANESE] = "ベルン王国軍屈指の強者と評されるドラゴンマスター。" TEXT_CMD_NEWLINE "【三竜将】筆頭マードックからの信も厚い忠義の志士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "Considered by many to be the strongest Wyvern" TEXT_CMD_NEWLINE "Lord of Bern's army, he is loyal to the leader of" TEXT_CMD_NEWLINE "the Wyvern Generals, Murdock. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "飞龙将领，被誉为伯尔尼王国军首屈一指的强者。" TEXT_CMD_NEWLINE "是名忠义志士，深受统领【三龙将】的墨德克的信任。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_ゲイル] = {
+    [LANGUAGE_JAPANESE] = "蒼穹の竜騎士",
+    [LANGUAGE_ENGLISH] = "Azure Rider",
+    [LANGUAGE_CHINESE] = "苍穹龙骑士",
+},
+
+[MPID_フォルカ] = {
+    [LANGUAGE_JAPANESE] = "フォルカ",
+    [LANGUAGE_ENGLISH] = "Volke",
+    [LANGUAGE_CHINESE] = "弗尔加",
+},
+
+[MPID_H_フォルカ] = {
+    [LANGUAGE_JAPANESE] = "特定の主を持たない、裏稼業の男。" TEXT_CMD_NEWLINE "【火消し】の異名を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A man who makes his living as part of the" TEXT_CMD_NEWLINE "criminal underworld, answering to no one." TEXT_CMD_NEWLINE "Also occasionally referred to as \"fireman.\"" TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "从事地下生意的男子，没有特定的雇主。" TEXT_CMD_NEWLINE "别名为【救火队】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_フォルカ] = {
+    [LANGUAGE_JAPANESE] = "神出鬼没の情報屋",
+    [LANGUAGE_ENGLISH] = "Man of Mysteries",
+    [LANGUAGE_CHINESE] = "神出鬼没的情报商",
+},
+
+[MPID_ティバーン] = {
+    [LANGUAGE_JAPANESE] = "ティバーン",
+    [LANGUAGE_ENGLISH] = "Tibarn",
+    [LANGUAGE_CHINESE] = "狄邦",
+},
+
+[MPID_H_ティバーン] = {
+    [LANGUAGE_JAPANESE] = "鳥翼族、鷹の民の国フェニキスの王。" TEXT_CMD_NEWLINE "圧倒的な戦闘力と求心力で民を率いる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "King of Phoenicis, the nation of the hawk" TEXT_CMD_NEWLINE "laguz. Leads his people by dint of his" TEXT_CMD_NEWLINE "overwhelming fighting ability and charisma." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "鸟翼族，鹰之民王国菲尼奇斯之王。" TEXT_CMD_NEWLINE "以压倒性的战斗力和向心力率领人民。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_ティバーン] = {
+    [LANGUAGE_JAPANESE] = "大空の覇者",
+    [LANGUAGE_ENGLISH] = "Lord of the Air",
+    [LANGUAGE_CHINESE] = "天空的霸者",
+},
+
 [MPID_ニケ] = {
     [LANGUAGE_JAPANESE] = "ニケ",
     [LANGUAGE_ENGLISH] = "Nailah",
@@ -3427,130 +4339,256 @@
     [LANGUAGE_CHINESE] = "邪眼之主",
 },
 
-[MPID_シリウス] = {
-    [LANGUAGE_JAPANESE] = "シリウス",
-    [LANGUAGE_ENGLISH] = "Sirius",
-    [LANGUAGE_CHINESE] = "希利乌斯",
+[MPID_アーサー] = {
+    [LANGUAGE_JAPANESE] = "アーサー",
+    [LANGUAGE_ENGLISH] = "Arthur",
+    [LANGUAGE_CHINESE] = "亚瑟",
 },
 
-[MPID_H_シリウス] = {
-    [LANGUAGE_JAPANESE] = "常に仮面で顔を隠している流浪の騎士。" TEXT_CMD_NEWLINE "英雄戦争の記録のみに登場する、謎の人物。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A wandering knight whose face is always hidden" TEXT_CMD_NEWLINE "under a mask. A mysterious figure told of only" TEXT_CMD_NEWLINE "in records of the War of Heroes. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "总是以面具隐藏面貌的流浪骑士。" TEXT_CMD_NEWLINE "只在英雄战争的纪录中出现过的神秘人物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_アーサー] = {
+    [LANGUAGE_JAPANESE] = "幼い頃に母と妹と生き別れ、一人シレジアで育った。" TEXT_CMD_NEWLINE "フリージ公爵家へ強い怒りを抱いている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Raised alone in Silesse, separated from his" TEXT_CMD_NEWLINE "sister and mother at a young age, he harbors" TEXT_CMD_NEWLINE "resentment toward House Friege. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "自幼便与母亲和妹妹分离，一个人在西里西亚长大。" TEXT_CMD_NEWLINE "对弗立吉公爵家抱有强烈的怒意。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
 },
 
-[MPID_HONOR_シリウス] = {
-    [LANGUAGE_JAPANESE] = "謎の仮面騎士",
-    [LANGUAGE_ENGLISH] = "Mysterious Knight",
-    [LANGUAGE_CHINESE] = "蒙面骑士",
+[MPID_HONOR_アーサー] = {
+    [LANGUAGE_JAPANESE] = "怒りの魔法戦士",
+    [LANGUAGE_ENGLISH] = "Furious Mage",
+    [LANGUAGE_CHINESE] = "愤怒的魔法战士",
 },
 
-[MPID_クレーベ] = {
-    [LANGUAGE_JAPANESE] = "クレーベ",
-    [LANGUAGE_ENGLISH] = "Clive",
-    [LANGUAGE_CHINESE] = "克雷贝",
+[MPID_ドゥドゥ_] = {
+    [LANGUAGE_JAPANESE] = "ドゥドゥー",
+    [LANGUAGE_ENGLISH] = "Dedue",
+    [LANGUAGE_CHINESE] = "杜笃",
 },
 
-[MPID_H_クレーベ] = {
-    [LANGUAGE_JAPANESE] = "ソフィア解放軍のナイトで元リーダー。クレアの兄。" TEXT_CMD_NEWLINE "高潔な理想を持つ王国一の騎士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Former leader of the Deliverance and Clair's" TEXT_CMD_NEWLINE "brother. Idealistic and focused on the good of" TEXT_CMD_NEWLINE "the kingdom. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "索菲亚解放军的骑士，也是前首领。克莱尔的哥哥。" TEXT_CMD_NEWLINE "身为王国第一的骑士，拥有高洁理想。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+[MPID_H_ドゥドゥ_] = {
+    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の西部、ダスカー地方にかつて" TEXT_CMD_NEWLINE "暮らしていた民の生き残り。ディミトリに忠誠を誓う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Survivor of the tribe that inhabited the Duscur" TEXT_CMD_NEWLINE "Region west of the Holy Kingdom of Faerghus." TEXT_CMD_NEWLINE "Swore loyalty to Dimitri. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "曾生活于法嘉斯神圣王国西部的" TEXT_CMD_NEWLINE "达斯卡地区之民的幸存者。宣誓效忠帝弥托利。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_クレーベ] = {
-    [LANGUAGE_JAPANESE] = "理想のために",
-    [LANGUAGE_ENGLISH] = "Idealistic Knight",
-    [LANGUAGE_CHINESE] = "为理想而战",
+[MPID_HONOR_ドゥドゥ_] = {
+    [LANGUAGE_JAPANESE] = "ディミトリの従者",
+    [LANGUAGE_ENGLISH] = "Dimitri's Vassal",
+    [LANGUAGE_CHINESE] = "帝弥托利的随从",
 },
 
-[MPID_マチルダ] = {
-    [LANGUAGE_JAPANESE] = "マチルダ",
-    [LANGUAGE_ENGLISH] = "Mathilda",
-    [LANGUAGE_CHINESE] = "玛蒂尔达",
+[MPID_暗黒ハーディン] = {
+    [LANGUAGE_JAPANESE] = "ハーディン",
+    [LANGUAGE_ENGLISH] = "Hardin",
+    [LANGUAGE_CHINESE] = "哈汀",
 },
 
-[MPID_H_マチルダ] = {
-    [LANGUAGE_JAPANESE] = "ソフィア解放軍のパラディン。クレーベの恋人。" TEXT_CMD_NEWLINE "鬼神の如き強さと彼を包み込む優しさを併せ持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A paladin of the Deliverance and Clive's" TEXT_CMD_NEWLINE "betrothed. Strong as a demon, yet gentle to her" TEXT_CMD_NEWLINE "love. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "索菲亚解放军的圣骑士，是克雷贝的恋人。" TEXT_CMD_NEWLINE "同时具备鬼神般的强悍与疼爱恋人的温柔。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+[MPID_H_暗黒ハーディン] = {
+    [LANGUAGE_JAPANESE] = "アカネイア神聖帝国の皇帝。" TEXT_CMD_NEWLINE "多くの人々を殺し、【暗黒皇帝】と恐れられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Emperor of the Holy Empire of Archanea." TEXT_CMD_NEWLINE "Known as the Dark Emperor due to his" TEXT_CMD_NEWLINE "bloody reign. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿卡奈亚神圣帝国的皇帝。" TEXT_CMD_NEWLINE "杀害了无数人类，是人们所惧怕的【暗黑皇帝】。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　纹章の谜』）",
 },
 
-[MPID_HONOR_マチルダ] = {
-    [LANGUAGE_JAPANESE] = "伝説の女騎士",
-    [LANGUAGE_ENGLISH] = "Legendary Knight",
-    [LANGUAGE_CHINESE] = "传说中的女骑士",
+[MPID_HONOR_暗黒ハーディン] = {
+    [LANGUAGE_JAPANESE] = "暗黒皇帝",
+    [LANGUAGE_ENGLISH] = "Dark Emperor",
+    [LANGUAGE_CHINESE] = "暗黑皇帝",
 },
 
-[MPID_グレイ] = {
-    [LANGUAGE_JAPANESE] = "グレイ",
-    [LANGUAGE_ENGLISH] = "Gray",
-    [LANGUAGE_CHINESE] = "格莱",
+[MPID_闇マーク女] = {
+    [LANGUAGE_JAPANESE] = "マーク",
+    [LANGUAGE_ENGLISH] = "Morgan",
+    [LANGUAGE_CHINESE] = "马可",
 },
 
-[MPID_H_グレイ] = {
-    [LANGUAGE_JAPANESE] = "ラムの村の村人。アルムの幼なじみ。" TEXT_CMD_NEWLINE "世慣れていて要領がいい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Alm's childhood friend from Ram Village." TEXT_CMD_NEWLINE "Worldly and competent. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "拉姆村的村民，是阿雷武的儿时玩伴。" TEXT_CMD_NEWLINE "很懂人情世故，相当机灵。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+[MPID_H_闇マーク女] = {
+    [LANGUAGE_JAPANESE] = "クロムが導かれた絶望の未来で出会った謎の少女。" TEXT_CMD_NEWLINE "邪竜ギムレーに忠誠を誓う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A mysterious young woman from a future that" TEXT_CMD_NEWLINE "knows only despair. She has sworn allegiance" TEXT_CMD_NEWLINE "to the Fell Dragon, Grima. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "库洛武被引导到绝望未来时所遇见的神秘少女。" TEXT_CMD_NEWLINE "宣誓效忠邪龙津利。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_グレイ] = {
-    [LANGUAGE_JAPANESE] = "頼れる兄貴分",
-    [LANGUAGE_ENGLISH] = "Wry Comrade",
-    [LANGUAGE_CHINESE] = "可靠的大哥",
+[MPID_HONOR_闇マーク女] = {
+    [LANGUAGE_JAPANESE] = "闇色の忠節",
+    [LANGUAGE_ENGLISH] = "Devoted Darkness",
+    [LANGUAGE_CHINESE] = "黑暗的忠义",
 },
 
-[MPID_ロビン] = {
-    [LANGUAGE_JAPANESE] = "ロビン",
-    [LANGUAGE_ENGLISH] = "Tobin",
-    [LANGUAGE_CHINESE] = "罗宾",
+[MPID_闇マーク男] = {
+    [LANGUAGE_JAPANESE] = "マーク",
+    [LANGUAGE_ENGLISH] = "Morgan",
+    [LANGUAGE_CHINESE] = "马可",
 },
 
-[MPID_H_ロビン] = {
-    [LANGUAGE_JAPANESE] = "ラムの村の村人。アルムの幼なじみ。" TEXT_CMD_NEWLINE "真面目だが馬鹿正直で、損をすることが多い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Alm's childhood friend from Ram Village. Honest" TEXT_CMD_NEWLINE "to a fault, and suffers for it. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "拉姆村的村民，是阿雷武的儿时玩伴。" TEXT_CMD_NEWLINE "个性严谨，但太过老实，经常因此而吃亏。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+[MPID_H_闇マーク男] = {
+    [LANGUAGE_JAPANESE] = "クロムが導かれた絶望の未来で出会った謎の少年。" TEXT_CMD_NEWLINE "その声には聞き覚えが…？" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A mysterious young man from a future that" TEXT_CMD_NEWLINE "knows only despair. His voice is somehow" TEXT_CMD_NEWLINE "familiar... Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "库洛武被引导到绝望未来时所遇见的神秘少年。" TEXT_CMD_NEWLINE "好像曾听过他的声音……？" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_ロビン] = {
-    [LANGUAGE_JAPANESE] = "空気が読めない",
-    [LANGUAGE_ENGLISH] = "The Clueless One",
-    [LANGUAGE_CHINESE] = "不懂察言观色",
+[MPID_HONOR_闇マーク男] = {
+    [LANGUAGE_JAPANESE] = "闇色の未来",
+    [LANGUAGE_ENGLISH] = "Fated Darkness",
+    [LANGUAGE_CHINESE] = "黑暗的未来",
 },
 
-[MPID_リュシオン] = {
-    [LANGUAGE_JAPANESE] = "リュシオン",
-    [LANGUAGE_ENGLISH] = "Reyson",
-    [LANGUAGE_CHINESE] = "琉希昂",
+[MPID_闇ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "ディミトリ",
+    [LANGUAGE_ENGLISH] = "Dimitri",
+    [LANGUAGE_CHINESE] = "帝弥托利",
 },
 
-[MPID_H_リュシオン] = {
-    [LANGUAGE_JAPANESE] = "鳥翼族、白鷺の王国であった旧セリノス王国の王子。" TEXT_CMD_NEWLINE "外見に似合わず、気が強い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "Prince of Serenes, the former kingdom of the" TEXT_CMD_NEWLINE "heron laguz. Brother of Leanne. Frail, but strong" TEXT_CMD_NEWLINE "willed. Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "鸟翼族，为曾是白鹭王国的旧赛利诺斯王国的王子。" TEXT_CMD_NEWLINE "有著与外表不符的强硬个性。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+[MPID_H_闇ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "憎悪に駆られたファーガスの王子。" TEXT_CMD_NEWLINE "エーデルガルトに復讐を誓い、殺戮を重ねる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Prince of Faerghus overcome by hatred. Vowing" TEXT_CMD_NEWLINE "to have his revenge on Edelgard, he commits to" TEXT_CMD_NEWLINE "slaughtering his foes without mercy. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "受仇恨驱使的法嘉斯王子。" TEXT_CMD_NEWLINE "立誓要向艾黛尔贾特复仇而杀戮无数。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_リュシオン] = {
-    [LANGUAGE_JAPANESE] = "白の王子",
-    [LANGUAGE_ENGLISH] = "White Prince",
-    [LANGUAGE_CHINESE] = "纯白王子",
+[MPID_HONOR_闇ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "狂乱の王子",
+    [LANGUAGE_ENGLISH] = "Savage Boar",
+    [LANGUAGE_CHINESE] = "狂乱的王子",
 },
 
-[MPID_邪竜ルフレ男] = {
+[MPID_覇骸エーデルガルト] = {
+    [LANGUAGE_JAPANESE] = "エーデルガルト",
+    [LANGUAGE_ENGLISH] = "Edelgard",
+    [LANGUAGE_CHINESE] = "艾黛尔贾特",
+},
+
+[MPID_H_覇骸エーデルガルト] = {
+    [LANGUAGE_JAPANESE] = "自ら信じた理想のため、その身を異形へと変えた" TEXT_CMD_NEWLINE "アドラステア帝国皇帝。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Adrestian Emperor who has chosen to take on" TEXT_CMD_NEWLINE "a grotesque form for the sake of pursuing her" TEXT_CMD_NEWLINE "ideals. Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "为了自己所信的理想，变身为异形之姿。" TEXT_CMD_NEWLINE "阿德剌斯忒亚帝国的皇帝。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_覇骸エーデルガルト] = {
+    [LANGUAGE_JAPANESE] = "覇道の終着点",
+    [LANGUAGE_ENGLISH] = "Hegemon Husk",
+    [LANGUAGE_CHINESE] = "霸王之路的终点",
+},
+
+[MPID_暴走アイク] = {
+    [LANGUAGE_JAPANESE] = "アイク",
+    [LANGUAGE_ENGLISH] = "Ike",
+    [LANGUAGE_CHINESE] = "艾克",
+},
+
+[MPID_H_暴走アイク] = {
+    [LANGUAGE_JAPANESE] = "グレイル傭兵団の団長。" TEXT_CMD_NEWLINE "【負】の気に呑まれ、力を暴走させてしまう。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "Leader of the Greil Mercenaries. Overwhelmed" TEXT_CMD_NEWLINE "with negative energy, the power is enough for" TEXT_CMD_NEWLINE "him to lose control. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "格莱尔佣兵团的团长。" TEXT_CMD_NEWLINE "被【负】之气所吞噬，力量因此失控。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_暴走アイク] = {
+    [LANGUAGE_JAPANESE] = "暴走の闘気",
+    [LANGUAGE_ENGLISH] = "Zeal Unleashed",
+    [LANGUAGE_CHINESE] = "失控的斗气",
+},
+
+[MPID_催眠ユリア] = {
+    [LANGUAGE_JAPANESE] = "ユリア",
+    [LANGUAGE_ENGLISH] = "Julia",
+    [LANGUAGE_CHINESE] = "尤莉亚",
+},
+
+[MPID_H_催眠ユリア] = {
+    [LANGUAGE_JAPANESE] = "光の書【ナーガ】の継承者。" TEXT_CMD_NEWLINE "マンフロイに心を支配され、セリスと敵対する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Inheritor of the Book of Naga. Manipulated by" TEXT_CMD_NEWLINE "Manfroy, she has grown hostile toward Seliph." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the" TEXT_CMD_NEWLINE "Holy War.",
+    [LANGUAGE_CHINESE] = "光之书【那迦】的继承者。" TEXT_CMD_NEWLINE "内心被曼福洛伊所支配，与赛列斯为敌。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_催眠ユリア] = {
+    [LANGUAGE_JAPANESE] = "奪われた心",
+    [LANGUAGE_ENGLISH] = "Heart Usurped",
+    [LANGUAGE_CHINESE] = "被夺走的心",
+},
+
+[MPID_サイラス] = {
+    [LANGUAGE_JAPANESE] = "サイラス",
+    [LANGUAGE_ENGLISH] = "Silas",
+    [LANGUAGE_CHINESE] = "赛莱斯",
+},
+
+[MPID_H_サイラス] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の新人騎士。カムイの幼なじみ。" TEXT_CMD_NEWLINE "人が良く、相談事を持ちかけられることが多い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A newly appointed Nohrian knight and Corrin's" TEXT_CMD_NEWLINE "childhood friend. Often asked for advice." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的新人骑士，神威的儿时玩伴。" TEXT_CMD_NEWLINE "待人和善，很多人遇到事情都会找他商量。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_サイラス] = {
+    [LANGUAGE_JAPANESE] = "友情の騎士",
+    [LANGUAGE_ENGLISH] = "Loyal Knight",
+    [LANGUAGE_CHINESE] = "友情的骑士",
+},
+
+[MPID_ルフレ男] = {
     [LANGUAGE_JAPANESE] = "ルフレ",
     [LANGUAGE_ENGLISH] = "Robin",
     [LANGUAGE_CHINESE] = "鲁弗莱",
 },
 
-[MPID_H_邪竜ルフレ男] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の軍師であるルフレが、" TEXT_CMD_NEWLINE "邪竜ギムレーに心身を支配された姿。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "The Ylissean tactician Robin with body" TEXT_CMD_NEWLINE "and soul ruled by the Fell Dragon, Grima." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国的军师鲁弗莱，" TEXT_CMD_NEWLINE "其身心皆被邪龙津利支配的姿态。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　覚醒』）",
+[MPID_H_ルフレ男] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の軍師。クロムの半身。" TEXT_CMD_NEWLINE "クロムと出会うまでの記憶を失っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A tactician of Ylisse and Chrom's close ally." TEXT_CMD_NEWLINE "Lost memory of his life before meeting Chrom." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国的军师，库洛武的挚友。" TEXT_CMD_NEWLINE "失去了遇见库洛武之前的记忆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_邪竜ルフレ男] = {
-    [LANGUAGE_JAPANESE] = "邪竜の現身",
-    [LANGUAGE_ENGLISH] = "Fell Reincarnation",
-    [LANGUAGE_CHINESE] = "邪龙现身",
+[MPID_HONOR_ルフレ男] = {
+    [LANGUAGE_JAPANESE] = "聖王の軍師",
+    [LANGUAGE_ENGLISH] = "High Deliverer",
+    [LANGUAGE_CHINESE] = "圣王的军师",
+},
+
+[MPID_ルキナ] = {
+    [LANGUAGE_JAPANESE] = "ルキナ",
+    [LANGUAGE_ENGLISH] = "Lucina",
+    [LANGUAGE_CHINESE] = "露琪娜",
+},
+
+[MPID_H_ルキナ] = {
+    [LANGUAGE_JAPANESE] = "未来から来たクロムの娘。正義感に溢れた王女。" TEXT_CMD_NEWLINE "世界を救うことを自らの使命としている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A princess and daughter of Chrom who" TEXT_CMD_NEWLINE "traveled to her past to prevent apocalypse." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "来自未来的库洛武之女，是位充满正义感的公主。" TEXT_CMD_NEWLINE "以拯救世界为使命。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ルキナ] = {
+    [LANGUAGE_JAPANESE] = "未来を知る者",
+    [LANGUAGE_ENGLISH] = "Future Witness",
+    [LANGUAGE_CHINESE] = "知晓未来者",
+},
+
+[MPID_エーデルガルト] = {
+    [LANGUAGE_JAPANESE] = "エーデルガルト",
+    [LANGUAGE_ENGLISH] = "Edelgard",
+    [LANGUAGE_CHINESE] = "艾黛尔贾特",
+},
+
+[MPID_H_エーデルガルト] = {
+    [LANGUAGE_JAPANESE] = "アドラステア帝国の皇女。唯一の皇位継承者。" TEXT_CMD_NEWLINE "気品と自信に溢れ、野望を胸に秘めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Princess and heir apparent of the Adrestian" TEXT_CMD_NEWLINE "Empire. Her steadfast ambition is veiled by her" TEXT_CMD_NEWLINE "elegant, self-confident demeanor. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的皇女。皇位的唯一继承人。" TEXT_CMD_NEWLINE "气质高雅且充满自信，怀有深藏不露的野心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_エーデルガルト] = {
+    [LANGUAGE_JAPANESE] = "黒鷲を継ぐ者",
+    [LANGUAGE_ENGLISH] = "The Future",
+    [LANGUAGE_CHINESE] = "黑鹫的继承者",
+},
+
+[MPID_リーン] = {
+    [LANGUAGE_JAPANESE] = "リーン",
+    [LANGUAGE_ENGLISH] = "Lene",
+    [LANGUAGE_CHINESE] = "琳恩",
+},
+
+[MPID_H_リーン] = {
+    [LANGUAGE_JAPANESE] = "大司祭ブラギの血を引くダンサーの少女。" TEXT_CMD_NEWLINE "性根が強く、現実主義。黒騎士アレスと親しい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "A dancer and descendant of the high priest" TEXT_CMD_NEWLINE "Bragi. She understands how the world works," TEXT_CMD_NEWLINE "but she doesn't let it get her down. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "继承大祭司布拉吉血脉的少女舞者。" TEXT_CMD_NEWLINE "意志坚定的现实主义者。与黑骑士阿瑞斯很亲近。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_リーン] = {
+    [LANGUAGE_JAPANESE] = "ダーナの踊り子",
+    [LANGUAGE_ENGLISH] = "Yearning Dancer",
+    [LANGUAGE_CHINESE] = "达纳的舞娘",
 },
 
 [MPID_開花フロリーナ] = {
@@ -3607,256 +4645,112 @@
     [LANGUAGE_CHINESE] = "基亚兰的红骑士",
 },
 
-[MPID_カナス] = {
-    [LANGUAGE_JAPANESE] = "カナス",
-    [LANGUAGE_ENGLISH] = "Canas",
-    [LANGUAGE_CHINESE] = "卡纳斯",
+[MPID_オフェリア] = {
+    [LANGUAGE_JAPANESE] = "オフェリア",
+    [LANGUAGE_ENGLISH] = "Ophelia",
+    [LANGUAGE_CHINESE] = "欧菲莉亚",
 },
 
-[MPID_H_カナス] = {
-    [LANGUAGE_JAPANESE] = "【山の隠者】ニイメの四男。" TEXT_CMD_NEWLINE "知識の探究に余念がなく読書を欠かさない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Fourth son of Niime, the Mountain Hermit." TEXT_CMD_NEWLINE "Devoted entirely to research and reading." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "【山之隐者】尼伊玫的四男" TEXT_CMD_NEWLINE "不懈怠于读书，专心致志地探求知识。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+[MPID_H_オフェリア] = {
+    [LANGUAGE_JAPANESE] = "オーディンの娘。夢見がちな性格で、" TEXT_CMD_NEWLINE "星や石などを用いて独自のまじないをする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Odin's daughter. A daydreamer who applies a" TEXT_CMD_NEWLINE "flair for the dramatic to her magic. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "奥丁的女儿，喜欢作梦，" TEXT_CMD_NEWLINE "会用繁星及石块等自己创造咒语。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_カナス] = {
-    [LANGUAGE_JAPANESE] = "知識の探究者",
-    [LANGUAGE_ENGLISH] = "Wisdom Seeker",
-    [LANGUAGE_CHINESE] = "知识的探究者",
+[MPID_HONOR_オフェリア] = {
+    [LANGUAGE_JAPANESE] = "乙女心の躍動",
+    [LANGUAGE_ENGLISH] = "Dramatic Heroine",
+    [LANGUAGE_CHINESE] = "少女心的跃动",
 },
 
-[MPID_エーデルガルト] = {
-    [LANGUAGE_JAPANESE] = "エーデルガルト",
-    [LANGUAGE_ENGLISH] = "Edelgard",
-    [LANGUAGE_CHINESE] = "艾黛尔贾特",
+[MPID_フローラ] = {
+    [LANGUAGE_JAPANESE] = "フローラ",
+    [LANGUAGE_ENGLISH] = "Flora",
+    [LANGUAGE_CHINESE] = "芙洛拉",
 },
 
-[MPID_H_エーデルガルト] = {
-    [LANGUAGE_JAPANESE] = "アドラステア帝国の皇女。唯一の皇位継承者。" TEXT_CMD_NEWLINE "気品と自信に溢れ、野望を胸に秘めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Princess and heir apparent of the Adrestian" TEXT_CMD_NEWLINE "Empire. Her steadfast ambition is veiled by her" TEXT_CMD_NEWLINE "elegant, self-confident demeanor. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的皇女。皇位的唯一继承人。" TEXT_CMD_NEWLINE "气质高雅且充满自信，怀有深藏不露的野心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+[MPID_H_フローラ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国のメイド。カムイの臣下。" TEXT_CMD_NEWLINE "フェリシアの双子の姉で、真面目な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A Nohrian maid who serves Corrin. Tends to be" TEXT_CMD_NEWLINE "serious. Has a twin sister, Felicia. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的女仆，神威的部下。" TEXT_CMD_NEWLINE "菲利西亚的双胞胎姊姊，个性严谨。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_エーデルガルト] = {
-    [LANGUAGE_JAPANESE] = "黒鷲を継ぐ者",
-    [LANGUAGE_ENGLISH] = "The Future",
-    [LANGUAGE_CHINESE] = "黑鹫的继承者",
+[MPID_HONOR_フローラ] = {
+    [LANGUAGE_JAPANESE] = "氷のメイド",
+    [LANGUAGE_ENGLISH] = "Cold as Ice",
+    [LANGUAGE_CHINESE] = "冰之女仆",
 },
 
-[MPID_クロム] = {
-    [LANGUAGE_JAPANESE] = "クロム",
-    [LANGUAGE_ENGLISH] = "Chrom",
-    [LANGUAGE_CHINESE] = "库洛武",
+[MPID_ジル] = {
+    [LANGUAGE_JAPANESE] = "ジル",
+    [LANGUAGE_ENGLISH] = "Jill",
+    [LANGUAGE_CHINESE] = "吉尔",
 },
 
-[MPID_H_クロム] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の王子。【英雄王】の末裔。" TEXT_CMD_NEWLINE "自警団の団長を務め、国の平和を守っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A prince of Ylisse and descendant of the" TEXT_CMD_NEWLINE "Hero-King. Leads the Shepherds. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国的王子，【英雄王】的后裔。" TEXT_CMD_NEWLINE "担任自卫团的团长，守护著国家和平。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_ジル] = {
+    [LANGUAGE_JAPANESE] = "デイン王国の竜騎士。" TEXT_CMD_NEWLINE "ダルレカ領の領主、シハラム・フィザットの一人娘。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A wyvern rider of Daein. Only daughter of" TEXT_CMD_NEWLINE "Shiharam Fizzart, lord of Talrega. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "戴因王国的龙骑士。" TEXT_CMD_NEWLINE "答尔烈卡领领主——希哈拉姆・菲札德的独生女。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
 },
 
-[MPID_HONOR_クロム] = {
-    [LANGUAGE_JAPANESE] = "新たなる聖王",
-    [LANGUAGE_ENGLISH] = "Exalted Prince",
-    [LANGUAGE_CHINESE] = "新的圣王",
+[MPID_HONOR_ジル] = {
+    [LANGUAGE_JAPANESE] = "忠信の赤い竜騎士",
+    [LANGUAGE_ENGLISH] = "Fiery Dracoknight",
+    [LANGUAGE_CHINESE] = "忠信的赤色龙骑士",
 },
 
-[MPID_エーヴェル] = {
-    [LANGUAGE_JAPANESE] = "エーヴェル",
-    [LANGUAGE_ENGLISH] = "Eyvel",
-    [LANGUAGE_CHINESE] = "爱薇尔",
+[MPID_開花エリンシア] = {
+    [LANGUAGE_JAPANESE] = "エリンシア",
+    [LANGUAGE_ENGLISH] = "Elincia",
+    [LANGUAGE_CHINESE] = "艾琳西亚",
 },
 
-[MPID_H_エーヴェル] = {
-    [LANGUAGE_JAPANESE] = "フィアナ村の領主にして義勇軍の主導者。" TEXT_CMD_NEWLINE "逃亡中のリーフ達をかくまっていた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Mistress of Fiana, leader of the Freeblades." TEXT_CMD_NEWLINE "Took in Leif and company when they fled the" TEXT_CMD_NEWLINE "Grannvale Empire. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
-    [LANGUAGE_CHINESE] = "费亚纳村的领主，义勇军的领袖。" TEXT_CMD_NEWLINE "包庇了逃亡中的里弗等人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+[MPID_H_開花エリンシア] = {
+    [LANGUAGE_JAPANESE] = "戦禍による苦難と苦悩を乗り越えたエリンシア。" TEXT_CMD_NEWLINE "揺るがぬ信念と民への慈愛をもって、クリミアを導く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "Elincia, having overcome hardship. She leads" TEXT_CMD_NEWLINE "Crimea backed by her conviction and the" TEXT_CMD_NEWLINE "affection of her people. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "跨越了战祸所带来的苦难和苦恼的艾琳西亚。" TEXT_CMD_NEWLINE "怀抱著坚定不移的信念和对人民的慈爱，领导克里米亚。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
 },
 
-[MPID_HONOR_エーヴェル] = {
-    [LANGUAGE_JAPANESE] = "フィアナの女神",
-    [LANGUAGE_ENGLISH] = "Mistress of Fiana",
-    [LANGUAGE_CHINESE] = "费亚纳的女神",
+[MPID_HONOR_開花エリンシア] = {
+    [LANGUAGE_JAPANESE] = "清真女王",
+    [LANGUAGE_ENGLISH] = "Devoted Queen",
+    [LANGUAGE_CHINESE] = "纯洁女王",
 },
 
-[MPID_オーシン] = {
-    [LANGUAGE_JAPANESE] = "オーシン",
-    [LANGUAGE_ENGLISH] = "Osian",
-    [LANGUAGE_CHINESE] = "奥辛",
+[MPID_ルキノ] = {
+    [LANGUAGE_JAPANESE] = "ルキノ",
+    [LANGUAGE_ENGLISH] = "Lucia",
+    [LANGUAGE_CHINESE] = "露琪诺",
 },
 
-[MPID_H_オーシン] = {
-    [LANGUAGE_JAPANESE] = "フィアナ義勇軍の一員。" TEXT_CMD_NEWLINE "喧嘩っぱやいが、明るく気さくな性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "A member of the Fiana Freeblades. Bright and" TEXT_CMD_NEWLINE "friendly, but quick to lose his temper. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "费亚纳义勇军的一员。" TEXT_CMD_NEWLINE "粗鲁好战，但个性开朗直爽。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+[MPID_H_ルキノ] = {
+    [LANGUAGE_JAPANESE] = "名門デルブレー伯爵家の息女にして、剣の達人。" TEXT_CMD_NEWLINE "エリンシアを支え続け、姉妹以上の絆と讃えられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Count Delbray and master of" TEXT_CMD_NEWLINE "the blade. She supports Elincia, sharing a bond" TEXT_CMD_NEWLINE "stronger than that of most siblings. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "名门德尔布雷伯爵家的千金，也是剑术高手。" TEXT_CMD_NEWLINE "一直支持著艾琳西亚，" TEXT_CMD_NEWLINE "人们都称道两人的感情甚至比姊妹更深。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
 },
 
-[MPID_HONOR_オーシン] = {
-    [LANGUAGE_JAPANESE] = "怒れる斧戦士",
-    [LANGUAGE_ENGLISH] = "Scolded Soldier",
-    [LANGUAGE_CHINESE] = "愤怒的斧战士",
+[MPID_HONOR_ルキノ] = {
+    [LANGUAGE_JAPANESE] = "女王の姉妹",
+    [LANGUAGE_ENGLISH] = "Tireless Advisor",
+    [LANGUAGE_CHINESE] = "女王的姐妹",
 },
 
-[MPID_タニア] = {
-    [LANGUAGE_JAPANESE] = "タニア",
-    [LANGUAGE_ENGLISH] = "Tanya",
-    [LANGUAGE_CHINESE] = "塔妮娅",
+[MPID_開花イドゥン] = {
+    [LANGUAGE_JAPANESE] = "イドゥン",
+    [LANGUAGE_ENGLISH] = "Idunn",
+    [LANGUAGE_CHINESE] = "伊敦",
 },
 
-[MPID_H_タニア] = {
-    [LANGUAGE_JAPANESE] = "元山賊ダグダの娘。荒くれどもの中で" TEXT_CMD_NEWLINE "育てられたため、男勝りで気が強い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Dagdar, a former bandit. Grew up" TEXT_CMD_NEWLINE "among a rough crew, leaving her strong-willed" TEXT_CMD_NEWLINE "and hotheaded. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
-    [LANGUAGE_CHINESE] = "前山贼达古达之女。" TEXT_CMD_NEWLINE "由于在一群野蛮人的相伴下成长，因此个性相当强势。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+[MPID_H_開花イドゥン] = {
+    [LANGUAGE_JAPANESE] = "心を奪われ、戦闘竜を生み出す魔竜と化した元神竜。" TEXT_CMD_NEWLINE "ベルン動乱後はナバタの里に保護され、新たな生を送る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "Once a Divine Dragon, she was transformed" TEXT_CMD_NEWLINE "into the Demon Dragon. After the uprising in" TEXT_CMD_NEWLINE "Bern, she began a new life in Nabata. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "原为神龙，在被夺去心后变成生产战斗龙的「魔龙」。" TEXT_CMD_NEWLINE "伯尔尼的动乱后被纳巴塔村落收留，过著全新的生活。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
 },
 
-[MPID_HONOR_タニア] = {
-    [LANGUAGE_JAPANESE] = "ダグダの娘",
-    [LANGUAGE_ENGLISH] = "Dagdar's Kid",
-    [LANGUAGE_CHINESE] = "达古达之女",
-},
-
-[MPID_デュッセル] = {
-    [LANGUAGE_JAPANESE] = "デュッセル",
-    [LANGUAGE_ENGLISH] = "Duessel",
-    [LANGUAGE_CHINESE] = "迪赛尔",
-},
-
-[MPID_H_デュッセル] = {
-    [LANGUAGE_JAPANESE] = "グラド帝国最古参の将軍の1人。" TEXT_CMD_NEWLINE "帝国三騎【黒曜石】の異名をもつ猛将。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "One of Grado's oldest generals, he is known" TEXT_CMD_NEWLINE "as the Obsidian, one of the Imperial Three." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "格拉多帝国最资深的将军之一。" TEXT_CMD_NEWLINE "别名为帝国三骑【黑曜石】的猛将。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_デュッセル] = {
-    [LANGUAGE_JAPANESE] = "黒曜石",
-    [LANGUAGE_ENGLISH] = "Obsidian",
-    [LANGUAGE_CHINESE] = "黑曜石",
-},
-
-[MPID_リシテア] = {
-    [LANGUAGE_JAPANESE] = "リシテア",
-    [LANGUAGE_ENGLISH] = "Lysithea",
-    [LANGUAGE_CHINESE] = "莉丝缇亚",
-},
-
-[MPID_H_リシテア] = {
-    [LANGUAGE_JAPANESE] = "レスター諸侯同盟領の貴族、コーデリア伯の娘。" TEXT_CMD_NEWLINE "成績優秀で勝ち気。子供扱いされるのを嫌う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Count Ordelia and noble of the" TEXT_CMD_NEWLINE "Leicester Alliance. A determined high achiever" TEXT_CMD_NEWLINE "who hates being treated like a child. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，科迪利亚伯爵之女。" TEXT_CMD_NEWLINE "成绩优秀、个性好胜。讨厌被他人当成孩子对待。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_リシテア] = {
-    [LANGUAGE_JAPANESE] = "年下の優等生",
-    [LANGUAGE_ENGLISH] = "Child Prodigy",
-    [LANGUAGE_CHINESE] = "年幼的模范生",
-},
-
-[MEID_エンブラ] = {
-    [LANGUAGE_JAPANESE] = "エンブラ",
-    [LANGUAGE_ENGLISH] = "Embla",
-    [LANGUAGE_CHINESE] = "恩布拉",
-},
-
-[MEID_H_エンブラ] = {
-    [LANGUAGE_JAPANESE] = "閉ざされし国エンブラの神。" TEXT_CMD_NEWLINE "陰湿で嫉妬深い性格。アスクに関わる人間の死を望む。",
-    [LANGUAGE_ENGLISH] = "God of the closed kingdom, which shares her" TEXT_CMD_NEWLINE "name. Spite and jealousy rule her, and she" TEXT_CMD_NEWLINE "wishes death to any who side with Askr.",
-    [LANGUAGE_CHINESE] = "封闭帝国恩布拉的神。" TEXT_CMD_NEWLINE "个性阴沉而善妒，希望和亚斯克有关的人类死亡。",
-},
-
-[MEID_HONOR_エンブラ] = {
-    [LANGUAGE_JAPANESE] = "閉神",
-    [LANGUAGE_ENGLISH] = "God of Closure",
-    [LANGUAGE_CHINESE] = "闭神",
-},
-
-[MPID_マトイ] = {
-    [LANGUAGE_JAPANESE] = "マトイ",
-    [LANGUAGE_ENGLISH] = "Caeldori",
-    [LANGUAGE_CHINESE] = "缠",
-},
-
-[MPID_H_マトイ] = {
-    [LANGUAGE_JAPANESE] = "憧れの父であるツバキにならい、完璧主義。" TEXT_CMD_NEWLINE "才色兼備の天才肌で、常に努力も怠らない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Strives for perfection, following in the footsteps" TEXT_CMD_NEWLINE "of the father she admires, Subaki. Naturally" TEXT_CMD_NEWLINE "talented, beautiful, and motivated. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "将憧憬的父亲椿视为楷模，同样是个完美主义者。" TEXT_CMD_NEWLINE "才貌双全的天才，相当努力从不懈怠。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_マトイ] = {
-    [LANGUAGE_JAPANESE] = "完璧を追う翼",
-    [LANGUAGE_ENGLISH] = "Perfect Angel",
-    [LANGUAGE_CHINESE] = "追逐完美之翼",
-},
-
-[MPID_オロチ] = {
-    [LANGUAGE_JAPANESE] = "オロチ",
-    [LANGUAGE_ENGLISH] = "Orochi",
-    [LANGUAGE_CHINESE] = "远吕智",
-},
-
-[MPID_H_オロチ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国に仕える呪い師。幼いころから王宮に" TEXT_CMD_NEWLINE "出入りしているため王家の面々とも顔馴染み。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A Hoshidan diviner who was a frequent visitor" TEXT_CMD_NEWLINE "at the castle from a young age, quickly growing" TEXT_CMD_NEWLINE "familiar with the royal family. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "侍奉白夜王国的符咒师。自幼就出入王宫，" TEXT_CMD_NEWLINE "因此与王家的人们相熟。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_オロチ] = {
-    [LANGUAGE_JAPANESE] = "笑い上戸の呪い師",
-    [LANGUAGE_ENGLISH] = "Merry Diviner",
-    [LANGUAGE_CHINESE] = "爱笑的符咒师",
-},
-
-[MPID_シェンメイ] = {
-    [LANGUAGE_JAPANESE] = "シェンメイ",
-    [LANGUAGE_ENGLISH] = "Arete",
-    [LANGUAGE_CHINESE] = "萱玫",
-},
-
-[MPID_H_シェンメイ] = {
-    [LANGUAGE_JAPANESE] = "透魔においても、暗夜においても――" TEXT_CMD_NEWLINE "その姿にまして美しき歌声は、王の心を溶かしたという。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "The combination of her alluring figure and her" TEXT_CMD_NEWLINE "songbird voice are said to have entranced royals" TEXT_CMD_NEWLINE "everywhere from Valla to Nohr. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "据说不论在透魔还是暗夜，那姿态" TEXT_CMD_NEWLINE "再加上美丽的歌声都融化了王的心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_シェンメイ] = {
-    [LANGUAGE_JAPANESE] = "美哀の歌声",
-    [LANGUAGE_ENGLISH] = "Requiem's Beauty",
-    [LANGUAGE_CHINESE] = "凄美的歌声",
-},
-
-[MPID_フォルス] = {
-    [LANGUAGE_JAPANESE] = "フォルス",
-    [LANGUAGE_ENGLISH] = "Forsyth",
-    [LANGUAGE_CHINESE] = "弗鲁斯",
-},
-
-[MPID_H_フォルス] = {
-    [LANGUAGE_JAPANESE] = "ソフィア解放軍のソルジャー。" TEXT_CMD_NEWLINE "クレーベの副官で彼に忠誠を誓う熱血漢。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A soldier with the Deliverance. Advisor" TEXT_CMD_NEWLINE "to Clive, whom he has sworn an ardent" TEXT_CMD_NEWLINE "allegiance to. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "索菲亚解放军的士兵。" TEXT_CMD_NEWLINE "向克雷贝宣誓效忠的副官，是名热血男子。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_フォルス] = {
-    [LANGUAGE_JAPANESE] = "忠実なる副官",
-    [LANGUAGE_ENGLISH] = "Loyal Lieutenant",
-    [LANGUAGE_CHINESE] = "忠实的副官",
-},
-
-[MPID_パイソン] = {
-    [LANGUAGE_JAPANESE] = "パイソン",
-    [LANGUAGE_ENGLISH] = "Python",
-    [LANGUAGE_CHINESE] = "帕伊宋",
-},
-
-[MPID_H_パイソン] = {
-    [LANGUAGE_JAPANESE] = "ソフィア解放軍のアーチャー。" TEXT_CMD_NEWLINE "やる気はないが根は真面目で仲間思い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "An archer with the Deliverance. His nonchalant" TEXT_CMD_NEWLINE "exterior belies a serious character that cares" TEXT_CMD_NEWLINE "deeply for his allies. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "索菲亚解放军的弓箭手。看似没有干劲，" TEXT_CMD_NEWLINE "但其实个性认真且很为伙伴著想。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_パイソン] = {
-    [LANGUAGE_JAPANESE] = "冷笑の弓使い",
-    [LANGUAGE_ENGLISH] = "Apathetic Archer",
-    [LANGUAGE_CHINESE] = "冷笑的弓箭手",
+[MPID_HONOR_開花イドゥン] = {
+    [LANGUAGE_JAPANESE] = "神と魔の間で",
+    [LANGUAGE_ENGLISH] = "Divine Demon",
+    [LANGUAGE_CHINESE] = "介于神与魔之间",
 },
 
 [MPID_ヒュウ] = {
@@ -3895,96 +4789,6 @@
     [LANGUAGE_CHINESE] = "山之隐者",
 },
 
-[MPID_リーン] = {
-    [LANGUAGE_JAPANESE] = "リーン",
-    [LANGUAGE_ENGLISH] = "Lene",
-    [LANGUAGE_CHINESE] = "琳恩",
-},
-
-[MPID_H_リーン] = {
-    [LANGUAGE_JAPANESE] = "大司祭ブラギの血を引くダンサーの少女。" TEXT_CMD_NEWLINE "性根が強く、現実主義。黒騎士アレスと親しい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "A dancer and descendant of the high priest" TEXT_CMD_NEWLINE "Bragi. She understands how the world works," TEXT_CMD_NEWLINE "but she doesn't let it get her down. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "继承大祭司布拉吉血脉的少女舞者。" TEXT_CMD_NEWLINE "意志坚定的现实主义者。与黑骑士阿瑞斯很亲近。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_リーン] = {
-    [LANGUAGE_JAPANESE] = "ダーナの踊り子",
-    [LANGUAGE_ENGLISH] = "Yearning Dancer",
-    [LANGUAGE_CHINESE] = "达纳的舞娘",
-},
-
-[MPID_イシュタル] = {
-    [LANGUAGE_JAPANESE] = "イシュタル",
-    [LANGUAGE_ENGLISH] = "Ishtar",
-    [LANGUAGE_CHINESE] = "伊修达尔",
-},
-
-[MPID_H_イシュタル] = {
-    [LANGUAGE_JAPANESE] = "フリージの血族で【トールハンマー】の継承者。" TEXT_CMD_NEWLINE "愛するユリウスの変貌に心を痛めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "The heir to Mjölnir, she carries the blood of the" TEXT_CMD_NEWLINE "royal family of Friege. The descent of her love," TEXT_CMD_NEWLINE "Julius, into the darkness troubles her. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "弗立吉的血族，【雷神之槌】的继承者。" TEXT_CMD_NEWLINE "因心爱的尤利乌斯的改变而心痛不已。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_イシュタル] = {
-    [LANGUAGE_JAPANESE] = "雷神",
-    [LANGUAGE_ENGLISH] = "Thunder Goddess",
-    [LANGUAGE_CHINESE] = "雷神",
-},
-
-[MPID_クリス男] = {
-    [LANGUAGE_JAPANESE] = "クリス",
-    [LANGUAGE_ENGLISH] = "Kris",
-    [LANGUAGE_CHINESE] = "克里斯",
-},
-
-[MPID_H_クリス男] = {
-    [LANGUAGE_JAPANESE] = "アリティア王国セラ村の出身。新人騎士で編成された、" TEXT_CMD_NEWLINE "第七小隊のリーダー。近衛騎士としてマルスを支える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Hails from the Altean village of Sera. Leader" TEXT_CMD_NEWLINE "of the 7th Platoon, a group of newly appointed" TEXT_CMD_NEWLINE "knights. Serves Marth as a royal guard. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: New Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "出身于阿利提亚王国的瑟拉村，担任以新人骑士编组的" TEXT_CMD_NEWLINE "第七小队的队长。以近卫骑士的身分辅佐马尔斯。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
-},
-
-[MPID_HONOR_クリス男] = {
-    [LANGUAGE_JAPANESE] = "名も知らぬ英雄",
-    [LANGUAGE_ENGLISH] = "Unknown Hero",
-    [LANGUAGE_CHINESE] = "无名英雄",
-},
-
-[MPID_ジスト] = {
-    [LANGUAGE_JAPANESE] = "ジスト",
-    [LANGUAGE_ENGLISH] = "Gerik",
-    [LANGUAGE_CHINESE] = "吉斯特",
-},
-
-[MPID_H_ジスト] = {
-    [LANGUAGE_JAPANESE] = "ジスト傭兵団のリーダーで、百戦錬磨の傭兵。" TEXT_CMD_NEWLINE "テティス、ユアンの姉弟やマリカらを統率する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A veteran soldier who leads his own mercenary" TEXT_CMD_NEWLINE "band, Gerik's Mercenaries. He's the commander" TEXT_CMD_NEWLINE "of Tethys, Ewan, Marisa, and others. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "吉斯特佣兵团的领袖，是一名身经百战的佣兵。" TEXT_CMD_NEWLINE "统率著特媞丝、尤安姊弟与玛莉卡等人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_ジスト] = {
-    [LANGUAGE_JAPANESE] = "砂漠の虎",
-    [LANGUAGE_ENGLISH] = "Desert Tiger",
-    [LANGUAGE_CHINESE] = "沙漠之虎",
-},
-
-[MPID_テティス] = {
-    [LANGUAGE_JAPANESE] = "テティス",
-    [LANGUAGE_ENGLISH] = "Tethys",
-    [LANGUAGE_CHINESE] = "特媞丝",
-},
-
-[MPID_H_テティス] = {
-    [LANGUAGE_JAPANESE] = "ジスト傭兵団の一員で、艶やかな色気を持つ踊り子。" TEXT_CMD_NEWLINE "愛する弟ユアンとふたりで戦乱の世を生き抜く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A member of Gerik's Mercenaries who is a" TEXT_CMD_NEWLINE "talented and charming dancer. Together with" TEXT_CMD_NEWLINE "her dear brother Ewan, she strives to survive a" TEXT_CMD_NEWLINE "life torn apart by war. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "吉斯特佣兵团的一员，有著性感魅力的舞娘。" TEXT_CMD_NEWLINE "与心爱的弟弟尤安在乱世之中相依为命。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_テティス] = {
-    [LANGUAGE_JAPANESE] = "艶美の舞",
-    [LANGUAGE_ENGLISH] = "Beloved Dancer",
-    [LANGUAGE_CHINESE] = "艳美之舞",
-},
-
 [MPID_ミランダ] = {
     [LANGUAGE_JAPANESE] = "ミランダ",
     [LANGUAGE_ENGLISH] = "Miranda",
@@ -4003,364 +4807,40 @@
     [LANGUAGE_CHINESE] = "任性的公主",
 },
 
-[MPID_グスタフ味方] = {
-    [LANGUAGE_JAPANESE] = "グスタフ",
-    [LANGUAGE_ENGLISH] = "Gustav",
-    [LANGUAGE_CHINESE] = "古斯塔夫",
+[MPID_アルテナ] = {
+    [LANGUAGE_JAPANESE] = "アルテナ",
+    [LANGUAGE_ENGLISH] = "Altena",
+    [LANGUAGE_CHINESE] = "阿尔缇娜",
 },
 
-[MPID_H_グスタフ味方] = {
-    [LANGUAGE_JAPANESE] = "アスク王国の前国王。アルフォンスとシャロンの父。" TEXT_CMD_NEWLINE "死後、死の王ヘルに操られる。",
-    [LANGUAGE_ENGLISH] = "Former king of Askr and father of Alfonse" TEXT_CMD_NEWLINE "and Sharena. Slain by Hel, ruler of the dead," TEXT_CMD_NEWLINE "his body is now under her command.",
-    [LANGUAGE_CHINESE] = "亚斯克王国的前任国王。阿尔冯斯与夏蓉的父亲。" TEXT_CMD_NEWLINE "于去世后被死之王赫尔操控。",
+[MPID_H_アルテナ] = {
+    [LANGUAGE_JAPANESE] = "キュアンとエスリンの娘で【地槍ゲイボルグ】の継承者。" TEXT_CMD_NEWLINE "仇敵トラバントの子として育てられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Quan and Ethlyn, and inheritor of" TEXT_CMD_NEWLINE "the Gáe Bolg. She was raised by her family's" TEXT_CMD_NEWLINE "enemy, Travant. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "乔安与艾丝琳的女儿，也是【地枪盖伯尔加】的继承者。" TEXT_CMD_NEWLINE "被仇敌托拉邦特当作自己的孩子扶养长大。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
 },
 
-[MPID_HONOR_グスタフ味方] = {
-    [LANGUAGE_JAPANESE] = "死せる王",
-    [LANGUAGE_ENGLISH] = "Sovereign Slain",
-    [LANGUAGE_CHINESE] = "已逝之王",
+[MPID_HONOR_アルテナ] = {
+    [LANGUAGE_JAPANESE] = "聖光の竜騎姫",
+    [LANGUAGE_ENGLISH] = "Luminous Rider",
+    [LANGUAGE_CHINESE] = "圣光龙骑姬",
 },
 
-[MPID_エリーゼ] = {
-    [LANGUAGE_JAPANESE] = "エリーゼ",
-    [LANGUAGE_ENGLISH] = "Elise",
-    [LANGUAGE_CHINESE] = "艾丽泽",
+[MPID_カミラ] = {
+    [LANGUAGE_JAPANESE] = "カミラ",
+    [LANGUAGE_ENGLISH] = "Camilla",
+    [LANGUAGE_CHINESE] = "卡美拉",
 },
 
-[MPID_H_エリーゼ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の王女。兄や姉のことが大好き。" TEXT_CMD_NEWLINE "幼い性格だが、真実を見抜く純粋さも併せ持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Princess of Nohr who adores her siblings. A bit" TEXT_CMD_NEWLINE "childish, but has a pure heart and keen eyes." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的公主，最喜欢哥哥和姊姊。" TEXT_CMD_NEWLINE "虽然稚气未脱，但她的纯真总能看透真相。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+[MPID_H_カミラ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の王女。カムイを溺愛している。" TEXT_CMD_NEWLINE "優しく穏やかな性格だが、敵に対しては冷酷。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Princess of Nohr who dotes on her" TEXT_CMD_NEWLINE "sibling Corrin and is merciless to foes." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的公主，相当溺爱神威。" TEXT_CMD_NEWLINE "性情敦厚、待人和善，但对敌人却毫不留情。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_エリーゼ] = {
-    [LANGUAGE_JAPANESE] = "可憐な花",
-    [LANGUAGE_ENGLISH] = "Budding Flower",
-    [LANGUAGE_CHINESE] = "可爱之花",
-},
-
-[MPID_シルヴィア] = {
-    [LANGUAGE_JAPANESE] = "シルヴィア",
-    [LANGUAGE_ENGLISH] = "Silvia",
-    [LANGUAGE_CHINESE] = "希薇雅",
-},
-
-[MPID_H_シルヴィア] = {
-    [LANGUAGE_JAPANESE] = "各地を放浪するダンサー。可憐な見た目に反して言動は" TEXT_CMD_NEWLINE "意外と荒っぽい。大司祭ブラギの血を引く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "A dancer who travels the world. She looks" TEXT_CMD_NEWLINE "sweet, but she doesn't necessarily act that way." TEXT_CMD_NEWLINE "Descendant of the high priest Bragi. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "四处流浪的舞娘。与可爱的外表相反，" TEXT_CMD_NEWLINE "言行举止意外的粗野。继承大祭司布拉吉之血脉。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_シルヴィア] = {
-    [LANGUAGE_JAPANESE] = "旅の踊り子",
-    [LANGUAGE_ENGLISH] = "Traveling Dancer",
-    [LANGUAGE_CHINESE] = "旅行舞娘",
-},
-
-[MPID_レヴィン] = {
-    [LANGUAGE_JAPANESE] = "レヴィン",
-    [LANGUAGE_ENGLISH] = "Lewyn",
-    [LANGUAGE_CHINESE] = "雷文",
-},
-
-[MPID_H_レヴィン] = {
-    [LANGUAGE_JAPANESE] = "シレジア王国王子。十二聖戦士の【風使い】セティの" TEXT_CMD_NEWLINE "血を引く、風魔法【フォルセティ】の継承者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Prince of Silesse. A descendant of Ced, one of" TEXT_CMD_NEWLINE "the 12 legendary crusaders, and inheritor of the" TEXT_CMD_NEWLINE "wind tome Forseti. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "西里西亚王国的王子。继承十二圣战士【风使】赛提" TEXT_CMD_NEWLINE "之血脉，为风魔法【弗鲁赛提】的继承者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_レヴィン] = {
-    [LANGUAGE_JAPANESE] = "導きの風",
-    [LANGUAGE_ENGLISH] = "Guiding Breeze",
-    [LANGUAGE_CHINESE] = "引导之风",
-},
-
-[MPID_エスリン] = {
-    [LANGUAGE_JAPANESE] = "エスリン",
-    [LANGUAGE_ENGLISH] = "Ethlyn",
-    [LANGUAGE_CHINESE] = "艾丝琳",
-},
-
-[MPID_H_エスリン] = {
-    [LANGUAGE_JAPANESE] = "シアルフィ公子シグルドの妹。お転婆で、家族思い。" TEXT_CMD_NEWLINE "レンスターの王子キュアンに嫁ぎ、一男一女をもうける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "The younger sister of Lord Sigurd of Chalphy" TEXT_CMD_NEWLINE "with an adventurous spirit. She cares deeply" TEXT_CMD_NEWLINE "for her family. After she marries Prince Quan of" TEXT_CMD_NEWLINE "Leonster, the pair have a girl and a boy. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "希亚费勋爵西格尔特的妹妹，个性活泼、重视家人。" TEXT_CMD_NEWLINE "嫁给伦斯特的王子乔安，育有一男一女。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_エスリン] = {
-    [LANGUAGE_JAPANESE] = "お転婆な姫",
-    [LANGUAGE_ENGLISH] = "Spirited Princess",
-    [LANGUAGE_CHINESE] = "野丫头公主",
-},
-
-[MPID_ドゥドゥ_] = {
-    [LANGUAGE_JAPANESE] = "ドゥドゥー",
-    [LANGUAGE_ENGLISH] = "Dedue",
-    [LANGUAGE_CHINESE] = "杜笃",
-},
-
-[MPID_H_ドゥドゥ_] = {
-    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の西部、ダスカー地方にかつて" TEXT_CMD_NEWLINE "暮らしていた民の生き残り。ディミトリに忠誠を誓う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Survivor of the tribe that inhabited the Duscur" TEXT_CMD_NEWLINE "Region west of the Holy Kingdom of Faerghus." TEXT_CMD_NEWLINE "Swore loyalty to Dimitri. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "曾生活于法嘉斯神圣王国西部的" TEXT_CMD_NEWLINE "达斯卡地区之民的幸存者。宣誓效忠帝弥托利。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_ドゥドゥ_] = {
-    [LANGUAGE_JAPANESE] = "ディミトリの従者",
-    [LANGUAGE_ENGLISH] = "Dimitri's Vassal",
-    [LANGUAGE_CHINESE] = "帝弥托利的随从",
-},
-
-[MPID_魔器オフェリア] = {
-    [LANGUAGE_JAPANESE] = "オフェリア",
-    [LANGUAGE_ENGLISH] = "Ophelia",
-    [LANGUAGE_CHINESE] = "欧菲莉亚",
-},
-
-[MPID_H_魔器オフェリア] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国のダークマージ「漆黒のオーディン」の娘。" TEXT_CMD_NEWLINE "父から受け継いだ水晶玉は、星々の力で満ちている！" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Odin Dark, mage of Nohr. Received" TEXT_CMD_NEWLINE "a crystal ball filled with the power of the stars" TEXT_CMD_NEWLINE "from her father. Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的暗魔法师「漆黑的奥丁」之女。" TEXT_CMD_NEWLINE "继承自父亲的水晶球内充满了繁星的力量！" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_魔器オフェリア] = {
-    [LANGUAGE_JAPANESE] = "選ばれし星の乙女",
-    [LANGUAGE_ENGLISH] = "Starlit Maiden",
-    [LANGUAGE_CHINESE] = "被选中的星之少女",
-},
-
-[MPID_開花イシュタル] = {
-    [LANGUAGE_JAPANESE] = "イシュタル",
-    [LANGUAGE_ENGLISH] = "Ishtar",
-    [LANGUAGE_CHINESE] = "伊修达尔",
-},
-
-[MPID_H_開花イシュタル] = {
-    [LANGUAGE_JAPANESE] = "ユリウス皇子を愛したフリージの王女。ユリウスに" TEXT_CMD_NEWLINE "背いて密かに子供たちを救い、最後の聖戦へ臨んだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Princess of Friege who turned her back on her" TEXT_CMD_NEWLINE "lover, Julius, and secreted captured children to" TEXT_CMD_NEWLINE "safety. Later took part in the holy war. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "爱上尤利乌斯皇子的弗立吉公主。背著尤利乌斯" TEXT_CMD_NEWLINE "偷偷拯救孩子们，参加了最后的圣战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_開花イシュタル] = {
-    [LANGUAGE_JAPANESE] = "死地の雷神",
-    [LANGUAGE_ENGLISH] = "Echoing Thunder",
-    [LANGUAGE_CHINESE] = "死地的雷神",
-},
-
-[MPID_ウルスラ] = {
-    [LANGUAGE_JAPANESE] = "ウルスラ",
-    [LANGUAGE_ENGLISH] = "Ursula",
-    [LANGUAGE_CHINESE] = "乌尔斯拉",
-},
-
-[MPID_H_ウルスラ] = {
-    [LANGUAGE_JAPANESE] = "【蒼鴉】と呼ばれる、暗殺集団【黒い牙】の一員。" TEXT_CMD_NEWLINE "酷薄な性格で、完璧な人間に仕えることが喜び。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A cruel member of the Black Fang assassins." TEXT_CMD_NEWLINE "Lends her service only to someone truly perfect." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员，人称【苍鸦】。" TEXT_CMD_NEWLINE "个性冷酷无情，以侍奉完美的主人为乐。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ウルスラ] = {
-    [LANGUAGE_JAPANESE] = "蒼鴉",
-    [LANGUAGE_ENGLISH] = "Blue Crow",
-    [LANGUAGE_CHINESE] = "苍鸦",
-},
-
-[MPID_マリアベル] = {
-    [LANGUAGE_JAPANESE] = "マリアベル",
-    [LANGUAGE_ENGLISH] = "Maribelle",
-    [LANGUAGE_CHINESE] = "玛利亚贝尔",
-},
-
-[MPID_H_マリアベル] = {
-    [LANGUAGE_JAPANESE] = "クロム自警団の一員。リズの親友。" TEXT_CMD_NEWLINE "イーリス有数の名門貴族の令嬢で、気位が高い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A proud noble from one of Ylisse's most" TEXT_CMD_NEWLINE "well-to-do houses. A Shepherd and Lissa's" TEXT_CMD_NEWLINE "best friend. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，莉兹的挚友。" TEXT_CMD_NEWLINE "是伊里斯屈指可数的名门贵族千金，自尊心极高。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_マリアベル] = {
-    [LANGUAGE_JAPANESE] = "罵詈雑言の令嬢",
-    [LANGUAGE_ENGLISH] = "Dire Damsel",
-    [LANGUAGE_CHINESE] = "扬声恶骂的大小姐",
-},
-
-[MPID_リベラ] = {
-    [LANGUAGE_JAPANESE] = "リベラ",
-    [LANGUAGE_ENGLISH] = "Libra",
-    [LANGUAGE_CHINESE] = "利贝拉",
-},
-
-[MPID_H_リベラ] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の聖職者。穏やかな性格。" TEXT_CMD_NEWLINE "女性と間違えられるほどの美貌を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "An Ylissean priest with a calming mien. His" TEXT_CMD_NEWLINE "features are so lovely, he is often mistaken for" TEXT_CMD_NEWLINE "a woman. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国的圣职者，个性敦厚。" TEXT_CMD_NEWLINE "长相非常俊美，甚至会让人误以为是女性。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_リベラ] = {
-    [LANGUAGE_JAPANESE] = "美貌の僧侶",
-    [LANGUAGE_ENGLISH] = "Fetching Friar",
-    [LANGUAGE_CHINESE] = "美貌的僧侣",
-},
-
-[MPID_闇ベルクト] = {
-    [LANGUAGE_JAPANESE] = "ベルクト",
-    [LANGUAGE_ENGLISH] = "Berkut",
-    [LANGUAGE_CHINESE] = "贝尔克特",
-},
-
-[MPID_H_闇ベルクト] = {
-    [LANGUAGE_JAPANESE] = "リゲル帝国の王族。次期皇帝と目されていたがアルムの" TEXT_CMD_NEWLINE "正体を知り絶望し、ドーマ神に恋人を捧げ力を得た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Heir presumptive to the Rigelian throne. Fell" TEXT_CMD_NEWLINE "into a deep despair when the truth about Alm" TEXT_CMD_NEWLINE "came out. Gave his betrothed's life to Duma to" TEXT_CMD_NEWLINE "obtain power. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "利盖尔帝国的王族。本被视为下一任的皇帝，" TEXT_CMD_NEWLINE "但在得知阿雷武的真实身份后陷入绝望，" TEXT_CMD_NEWLINE "将恋人献给力之神多玛，继而获得力量。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_闇ベルクト] = {
-    [LANGUAGE_JAPANESE] = "煉獄の王子",
-    [LANGUAGE_ENGLISH] = "Purgatorial Prince",
-    [LANGUAGE_CHINESE] = "炼狱的王子",
-},
-
-[MPID_暴走レア] = {
-    [LANGUAGE_JAPANESE] = "レア",
-    [LANGUAGE_ENGLISH] = "Rhea",
-    [LANGUAGE_CHINESE] = "蕾雅",
-},
-
-[MPID_H_暴走レア] = {
-    [LANGUAGE_JAPANESE] = "神祖ソティスに生み出された眷属。" TEXT_CMD_NEWLINE "力の暴走を抑えられず、竜に姿を変える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Child of the progenitor god Sothis. Unable to" TEXT_CMD_NEWLINE "control the power coursing through her, she" TEXT_CMD_NEWLINE "takes on a draconic form. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "神祖苏谛斯所创造的眷属。" TEXT_CMD_NEWLINE "因无法抑制失控的力量而化为龙的姿态。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_暴走レア] = {
-    [LANGUAGE_JAPANESE] = "白きもの",
-    [LANGUAGE_ENGLISH] = "Immaculate One",
-    [LANGUAGE_CHINESE] = "纯白无瑕者",
-},
-
-[MPID_シャーロッテ] = {
-    [LANGUAGE_JAPANESE] = "シャーロッテ",
-    [LANGUAGE_ENGLISH] = "Charlotte",
-    [LANGUAGE_CHINESE] = "夏洛特",
-},
-
-[MPID_H_シャーロッテ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の国境警備兵。女性らしく清楚…" TEXT_CMD_NEWLINE "に振る舞っているが、裏の一面がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A Nohrian border guard who dreams of" TEXT_CMD_NEWLINE "rising above the class of her middling birth." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的国境警备兵。表面上是位清纯的女性……" TEXT_CMD_NEWLINE "其实有著不为人知的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_シャーロッテ] = {
-    [LANGUAGE_JAPANESE] = "女の本性",
-    [LANGUAGE_ENGLISH] = "Wily Warrior",
-    [LANGUAGE_CHINESE] = "女人的本性",
-},
-
-[MPID_ンン] = {
-    [LANGUAGE_JAPANESE] = "ンン",
-    [LANGUAGE_ENGLISH] = "Nah",
-    [LANGUAGE_CHINESE] = "恩恩",
-},
-
-[MPID_H_ンン] = {
-    [LANGUAGE_JAPANESE] = "ノノの娘。幼いがしっかりした性格。" TEXT_CMD_NEWLINE "聞き分けの良い子であろうとする癖がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Nowi's daughter. She might look young, but" TEXT_CMD_NEWLINE "she's actually very responsible. She tries to" TEXT_CMD_NEWLINE "control her emotions and act maturely. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "侬侬的女儿。尽管年幼，但个性沉稳。" TEXT_CMD_NEWLINE "有强迫自己当个懂事乖孩子的倾向。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ンン] = {
-    [LANGUAGE_JAPANESE] = "大人しい子供",
-    [LANGUAGE_ENGLISH] = "Little Miss",
-    [LANGUAGE_CHINESE] = "成熟的孩子",
-},
-
-[MPID_デジェル] = {
-    [LANGUAGE_JAPANESE] = "デジェル",
-    [LANGUAGE_ENGLISH] = "Kjelle",
-    [LANGUAGE_CHINESE] = "丹裘尔",
-},
-
-[MPID_H_デジェル] = {
-    [LANGUAGE_JAPANESE] = "ソワレの娘。鍛錬や手合わせを欠かさない。" TEXT_CMD_NEWLINE "女だからと手加減されることが大嫌い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Sully's daughter. Won't miss a chance to train" TEXT_CMD_NEWLINE "for battle. Determined to be the best soldier" TEXT_CMD_NEWLINE "she can be. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "索瓦蕾的女儿。决不疏于锻炼与实战练习。" TEXT_CMD_NEWLINE "最讨厌对手因为自己是女性而放水。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_デジェル] = {
-    [LANGUAGE_JAPANESE] = "正々堂々の",
-    [LANGUAGE_ENGLISH] = "Fair Fighter",
-    [LANGUAGE_CHINESE] = "堂堂正正的",
-},
-
-[MPID_シノノメ] = {
-    [LANGUAGE_JAPANESE] = "シノノメ",
-    [LANGUAGE_ENGLISH] = "Shiro",
-    [LANGUAGE_CHINESE] = "东云",
-},
-
-[MPID_H_シノノメ] = {
-    [LANGUAGE_JAPANESE] = "リョウマの息子。強さを求め訓練を怠らない。" TEXT_CMD_NEWLINE "情に厚く、気さくで親しみやすい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Ryoma's son. Doesn't slack on training." TEXT_CMD_NEWLINE "Outgoing and easy to get along with." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "龙马的儿子，为了追求力量，训练时从不怠慢。" TEXT_CMD_NEWLINE "个性温和又好相处，相当重情义。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_シノノメ] = {
-    [LANGUAGE_JAPANESE] = "未完の大器",
-    [LANGUAGE_ENGLISH] = "Raw Talent",
-    [LANGUAGE_CHINESE] = "未完成的英才",
-},
-
-[MPID_ジークベルト] = {
-    [LANGUAGE_JAPANESE] = "ジークベルト",
-    [LANGUAGE_ENGLISH] = "Siegbert",
-    [LANGUAGE_CHINESE] = "齐格贝尔特",
-},
-
-[MPID_H_ジークベルト] = {
-    [LANGUAGE_JAPANESE] = "マークスの息子。優しく真面目な常識人。" TEXT_CMD_NEWLINE "教養を叩き込まれたエリート。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Xander's son. As a king-to-be, he received" TEXT_CMD_NEWLINE "the finest education. Serious and kind." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "马克斯的儿子，善良、严谨、具备常识。" TEXT_CMD_NEWLINE "是位接受过严格教育的菁英。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ジークベルト] = {
-    [LANGUAGE_JAPANESE] = "未来の暗夜王",
-    [LANGUAGE_ENGLISH] = "Future King",
-    [LANGUAGE_CHINESE] = "未来的暗夜王",
-},
-
-[MPID_開花セリカ] = {
-    [LANGUAGE_JAPANESE] = "セリカ",
-    [LANGUAGE_ENGLISH] = "Celica",
-    [LANGUAGE_CHINESE] = "赛莉卡",
-},
-
-[MPID_H_開花セリカ] = {
-    [LANGUAGE_JAPANESE] = "ソフィア王リマ４世の血を引く王女。" TEXT_CMD_NEWLINE "仲間たちとの旅を通して強く成長する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Princess of Zofia and member of Lima IV's line." TEXT_CMD_NEWLINE "She has grown stronger over the course of her" TEXT_CMD_NEWLINE "journeys with her friends. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "继承索菲亚王利马４世血脉的公主。" TEXT_CMD_NEWLINE "在与伙伴们一同旅行的途中成长茁壮。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_開花セリカ] = {
-    [LANGUAGE_JAPANESE] = "バレンシアの希望",
-    [LANGUAGE_ENGLISH] = "Valentia's Hope",
-    [LANGUAGE_CHINESE] = "瓦伦西亚的希望",
-},
-
-[MPID_ベレス] = {
-    [LANGUAGE_JAPANESE] = "ベレス",
-    [LANGUAGE_ENGLISH] = "Byleth",
-    [LANGUAGE_CHINESE] = "贝雷丝",
-},
-
-[MPID_H_ベレス] = {
-    [LANGUAGE_JAPANESE] = "セイロス騎士団の元騎士団長ジェラルトの子。" TEXT_CMD_NEWLINE "感情に乏しいが、生徒たちの良き師となる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Child of the former captain of the Knights of" TEXT_CMD_NEWLINE "Seiros, Jeralt. A stoic, capable professor at the" TEXT_CMD_NEWLINE "Officers Academy. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Three Houses.",
-    [LANGUAGE_CHINESE] = "赛罗司骑士团的前任团长杰拉尔特之子。" TEXT_CMD_NEWLINE "虽然缺乏情绪起伏，但是学生们的良师。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_ベレス] = {
-    [LANGUAGE_JAPANESE] = "傭兵上がりの教師",
-    [LANGUAGE_ENGLISH] = "Proven Professor",
-    [LANGUAGE_CHINESE] = "佣兵出身的教师",
+[MPID_HONOR_カミラ] = {
+    [LANGUAGE_JAPANESE] = "妖艶な花",
+    [LANGUAGE_ENGLISH] = "Bewitching Beauty",
+    [LANGUAGE_CHINESE] = "妖艳之花",
 },
 
 [MPID_セーバー] = {
@@ -4381,1222 +4861,76 @@
     [LANGUAGE_CHINESE] = "另有隐情的佣兵",
 },
 
-[MPID_マリアンヌ] = {
-    [LANGUAGE_JAPANESE] = "マリアンヌ",
-    [LANGUAGE_ENGLISH] = "Marianne",
-    [LANGUAGE_CHINESE] = "玛莉安奴",
-},
-
-[MPID_H_マリアンヌ] = {
-    [LANGUAGE_JAPANESE] = "エドマンド辺境伯の養女。両親が失踪し、" TEXT_CMD_NEWLINE "論客と名高い現在の義父に引き取られた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Adopted daughter of Margrave Edmund. Came" TEXT_CMD_NEWLINE "under her current, renowned adoptive father" TEXT_CMD_NEWLINE "after losing both parents. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "艾德蒙边境伯爵家的养女。双亲失踪后，" TEXT_CMD_NEWLINE "被现在的养父收养，其养父以能言善道闻名。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_マリアンヌ] = {
-    [LANGUAGE_JAPANESE] = "エドマンド辺境伯家",
-    [LANGUAGE_ENGLISH] = "Adopted Daughter",
-    [LANGUAGE_CHINESE] = "艾德蒙边境伯爵家",
-},
-
-[MPID_ケセルダ] = {
-    [LANGUAGE_JAPANESE] = "ケセルダ",
-    [LANGUAGE_ENGLISH] = "Caellach",
-    [LANGUAGE_CHINESE] = "凯瑟尔达",
-},
-
-[MPID_H_ケセルダ] = {
-    [LANGUAGE_JAPANESE] = "グラド帝国の帝国六将【虎目石】。" TEXT_CMD_NEWLINE "傭兵からの成り上がりで、目的達成への手段を選ばない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "The Tiger Eye of Grado's six generals. Rose" TEXT_CMD_NEWLINE "from mercenary life doing whatever it takes" TEXT_CMD_NEWLINE "to achieve his goals. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "格拉多帝国的帝国六将【虎眼石】。" TEXT_CMD_NEWLINE "从佣兵的身分爬到现在的地位，为达目的不择手段。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_ケセルダ] = {
-    [LANGUAGE_JAPANESE] = "虎目石",
-    [LANGUAGE_ENGLISH] = "Tiger Eye",
-    [LANGUAGE_CHINESE] = "虎眼石",
-},
-
-[MPID_ジュリアン] = {
-    [LANGUAGE_JAPANESE] = "ジュリアン",
-    [LANGUAGE_ENGLISH] = "Julian",
-    [LANGUAGE_CHINESE] = "朱利安",
-},
-
-[MPID_H_ジュリアン] = {
-    [LANGUAGE_JAPANESE] = "かつて暗黒戦争を機に足を洗った元・盗賊。" TEXT_CMD_NEWLINE "シスター・レナと共に修道院で働く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A reformed thief who takes the War of Shadows" TEXT_CMD_NEWLINE "as a chance to atone for his crimes. Lives and" TEXT_CMD_NEWLINE "works in a convent with Sister Lena. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "过去以暗黑战争为契机，金盆洗手的前盗贼。" TEXT_CMD_NEWLINE "与蕾娜修女一起在修道院里工作。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_ジュリアン] = {
-    [LANGUAGE_JAPANESE] = "心優しき元盗賊",
-    [LANGUAGE_ENGLISH] = "Tender Thief",
-    [LANGUAGE_CHINESE] = "心地善良的前盗贼",
-},
-
-[MPID_レナ] = {
-    [LANGUAGE_JAPANESE] = "レナ",
-    [LANGUAGE_ENGLISH] = "Lena",
-    [LANGUAGE_CHINESE] = "蕾娜",
-},
-
-[MPID_H_レナ] = {
-    [LANGUAGE_JAPANESE] = "マケドニアの聖女と慕われるシスター。騎士マチスの妹。" TEXT_CMD_NEWLINE "暗黒戦争後は、修道院で孤児の世話をしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A cleric revered as Macedon's Angel. Cares for" TEXT_CMD_NEWLINE "orphans in her convent after the conclusion of" TEXT_CMD_NEWLINE "the War of Shadows. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "以马其顿圣女之名受到敬仰的修女。骑士玛吉斯的妹妹。" TEXT_CMD_NEWLINE "暗黑战争后便在修道院里照顾孤儿。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_レナ] = {
-    [LANGUAGE_JAPANESE] = "心優しき聖女",
-    [LANGUAGE_ENGLISH] = "Tender Angel",
-    [LANGUAGE_CHINESE] = "心地善良的圣女",
-},
-
-[MPID_ルフレ女] = {
-    [LANGUAGE_JAPANESE] = "ルフレ",
-    [LANGUAGE_ENGLISH] = "Robin",
-    [LANGUAGE_CHINESE] = "鲁弗莱",
-},
-
-[MPID_H_ルフレ女] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の軍師。クロムの半身。" TEXT_CMD_NEWLINE "クロムと出会うまでの記憶を失っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A tactician of Ylisse and Chrom's close ally." TEXT_CMD_NEWLINE "Lost memory of her life before meeting Chrom." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国的军师，库洛武的挚友。" TEXT_CMD_NEWLINE "失去了遇见库洛武之前的记忆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ルフレ女] = {
-    [LANGUAGE_JAPANESE] = "謎多き軍師",
-    [LANGUAGE_ENGLISH] = "Mystery Tactician",
-    [LANGUAGE_CHINESE] = "充满谜团的军师",
-},
-
-[MPID_ベロア] = {
-    [LANGUAGE_JAPANESE] = "ベロア",
-    [LANGUAGE_ENGLISH] = "Velouria",
-    [LANGUAGE_CHINESE] = "蓓罗亚",
-},
-
-[MPID_H_ベロア] = {
-    [LANGUAGE_JAPANESE] = "フランネルの娘で人狼の血を引く。" TEXT_CMD_NEWLINE "毛玉やホコリ、ガラクタを収拾する癖がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Keaton's daughter, carrying wolfskin blood." TEXT_CMD_NEWLINE "Has a habit of collecting dust bunnies, furballs," TEXT_CMD_NEWLINE "and other random junk. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Fates.",
-    [LANGUAGE_CHINESE] = "弗朗诺的女儿，继承了狼人的血统。" TEXT_CMD_NEWLINE "有收集毛球、灰尘，还有没用杂物的癖好。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ベロア] = {
-    [LANGUAGE_JAPANESE] = "狼の娘",
-    [LANGUAGE_ENGLISH] = "Wolf Cub",
-    [LANGUAGE_CHINESE] = "狼之女",
-},
-
-[MPID_キヌ] = {
-    [LANGUAGE_JAPANESE] = "キヌ",
-    [LANGUAGE_ENGLISH] = "Selkie",
-    [LANGUAGE_CHINESE] = "绢",
-},
-
-[MPID_H_キヌ] = {
-    [LANGUAGE_JAPANESE] = "ニシキの娘で妖狐の血を引く。" TEXT_CMD_NEWLINE "好奇心が強く、なんでも挑戦する恐れ知らず。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Kaden's daughter, carrying kitsune blood. Highly" TEXT_CMD_NEWLINE "curious and fearless. Ready to take on any" TEXT_CMD_NEWLINE "challenge. Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "锦的女儿，继承了妖狐的血统。" TEXT_CMD_NEWLINE "好奇心旺盛、天不怕地不怕，喜好挑战所有事物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_キヌ] = {
-    [LANGUAGE_JAPANESE] = "じゃれつき妖狐",
-    [LANGUAGE_ENGLISH] = "Free Spirit",
-    [LANGUAGE_CHINESE] = "嬉闹妖狐",
-},
-
-[MPID_レオン] = {
-    [LANGUAGE_JAPANESE] = "レオン",
-    [LANGUAGE_ENGLISH] = "Leo",
-    [LANGUAGE_CHINESE] = "里昂",
-},
-
-[MPID_H_レオン] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の王子。神器【ブリュンヒルデ】の使い手。" TEXT_CMD_NEWLINE "何でもこなす秀才で、魔道の才に長ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A talented Nohrian prince who wields" TEXT_CMD_NEWLINE "the divine tome Brynhildr. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的王子，神器【布伦希尔德】的主人。" TEXT_CMD_NEWLINE "资质优异、做任何事都能得心应手，擅长魔道。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_レオン] = {
-    [LANGUAGE_JAPANESE] = "闇の王子",
-    [LANGUAGE_ENGLISH] = "Sorcerous Prince",
-    [LANGUAGE_CHINESE] = "暗之王子",
-},
-
-[MPID_ルフレ男] = {
-    [LANGUAGE_JAPANESE] = "ルフレ",
-    [LANGUAGE_ENGLISH] = "Robin",
-    [LANGUAGE_CHINESE] = "鲁弗莱",
-},
-
-[MPID_H_ルフレ男] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の軍師。クロムの半身。" TEXT_CMD_NEWLINE "クロムと出会うまでの記憶を失っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A tactician of Ylisse and Chrom's close ally." TEXT_CMD_NEWLINE "Lost memory of his life before meeting Chrom." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国的军师，库洛武的挚友。" TEXT_CMD_NEWLINE "失去了遇见库洛武之前的记忆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ルフレ男] = {
-    [LANGUAGE_JAPANESE] = "聖王の軍師",
-    [LANGUAGE_ENGLISH] = "High Deliverer",
-    [LANGUAGE_CHINESE] = "圣王的军师",
-},
-
-[MPID_パント] = {
-    [LANGUAGE_JAPANESE] = "パント",
-    [LANGUAGE_ENGLISH] = "Pent",
-    [LANGUAGE_CHINESE] = "庞托",
-},
-
-[MPID_H_パント] = {
-    [LANGUAGE_JAPANESE] = "エトルリア王国屈指の大貴族、リグレ公爵家の当主。" TEXT_CMD_NEWLINE "魔道の探求者として世界に名を馳せる。ルイーズの夫。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Count Reglay. Husband of Louise and leader of" TEXT_CMD_NEWLINE "Etruria's most prominent noble house. Known" TEXT_CMD_NEWLINE "to all as a seeker of magical knowledge." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "伊特鲁里亚王国屈指可数的大贵族" TEXT_CMD_NEWLINE "——利格雷公爵家当家。" TEXT_CMD_NEWLINE "以魔道探求者的身分驰名天下。露依丝的丈夫。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_パント] = {
-    [LANGUAGE_JAPANESE] = "銀の魔道軍将",
-    [LANGUAGE_ENGLISH] = "Mage General",
-    [LANGUAGE_CHINESE] = "银之魔道军将",
-},
-
-[MPID_ギィ] = {
-    [LANGUAGE_JAPANESE] = "ギィ",
-    [LANGUAGE_ENGLISH] = "Guy",
-    [LANGUAGE_CHINESE] = "基",
-},
-
-[MPID_H_ギィ] = {
-    [LANGUAGE_JAPANESE] = "サカの三大部族の一つ、クトラ族の戦士。" TEXT_CMD_NEWLINE "剣の修行のために一人旅に出た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Swordsman of the Kutolah, one of the three" TEXT_CMD_NEWLINE "tribes of Sacae. He set out alone on a journey" TEXT_CMD_NEWLINE "to hone his skill with the blade. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "塞迦三大部落之一的库特拉族的战士。" TEXT_CMD_NEWLINE "为了磨练剑术而独自踏上旅途。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ギィ] = {
-    [LANGUAGE_JAPANESE] = "クトラ族の戦士",
-    [LANGUAGE_ENGLISH] = "Kutolah Blade",
-    [LANGUAGE_CHINESE] = "库特拉族的战士",
-},
-
-[MEID_ラウアバット] = {
-    [LANGUAGE_JAPANESE] = "ラウアバット",
-    [LANGUAGE_ENGLISH] = "Red Bat",
-    [LANGUAGE_CHINESE] = "赤红蝙蝠",
-},
-
-[MEID_H_ラウアバット] = {
-    [LANGUAGE_JAPANESE] = "赤属性の飛行する蝙蝠。" TEXT_CMD_NEWLINE "山や河にも移動できるが、弓に弱い。",
-    [LANGUAGE_ENGLISH] = "A flying red bat. Flies over rivers and" TEXT_CMD_NEWLINE "mountains. Weak against bows.",
-    [LANGUAGE_CHINESE] = "赤属性的飞行蝙蝠。" TEXT_CMD_NEWLINE "虽然能在山岳及河川移动，但弱点是弓箭。",
-},
-
-[MPID_カンナ男] = {
-    [LANGUAGE_JAPANESE] = "カンナ",
-    [LANGUAGE_ENGLISH] = "Kana",
-    [LANGUAGE_CHINESE] = "神流",
-},
-
-[MPID_H_カンナ男] = {
-    [LANGUAGE_JAPANESE] = "カムイの息子。明るく素直で元気だが、" TEXT_CMD_NEWLINE "本当は寂しがり屋で泣き虫。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Corrin's son. Cheerful and honest but has" TEXT_CMD_NEWLINE "lived a lonely life so far. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "神威的儿子。虽然开朗率直又有活力，" TEXT_CMD_NEWLINE "其实是个怕寂寞的爱哭鬼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_カンナ男] = {
-    [LANGUAGE_JAPANESE] = "竜の御子",
-    [LANGUAGE_ENGLISH] = "Dragon Spawn",
-    [LANGUAGE_CHINESE] = "龙之御子",
-},
-
-[MPID_ヒノカ2] = {
-    [LANGUAGE_JAPANESE] = "ヒノカ",
-    [LANGUAGE_ENGLISH] = "Hinoka",
-    [LANGUAGE_CHINESE] = "火乃香",
-},
-
-[MPID_H_ヒノカ2] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の王女。" TEXT_CMD_NEWLINE "伝説の金鵄を駆り、遥かな高みへと飛ぶ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Princess of Hoshido. Soars higher" TEXT_CMD_NEWLINE "and higher upon the back of a" TEXT_CMD_NEWLINE "legendary kinshi. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的公主。" TEXT_CMD_NEWLINE "乘驾著传说的金色大鸢，翱翔于遥远的天际之上。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ヒノカ2] = {
-    [LANGUAGE_JAPANESE] = "蒼天の戦姫",
-    [LANGUAGE_ENGLISH] = "Blue Sky Warrior",
-    [LANGUAGE_CHINESE] = "苍天战姬",
-},
-
-[MPID_シグレ] = {
-    [LANGUAGE_JAPANESE] = "シグレ",
-    [LANGUAGE_ENGLISH] = "Shigure",
-    [LANGUAGE_CHINESE] = "诗格莱",
-},
-
-[MPID_H_シグレ] = {
-    [LANGUAGE_JAPANESE] = "アクアの息子。物腰穏やかな性格。" TEXT_CMD_NEWLINE "感性が鋭く芸術家肌で、歌も上手い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Azura's son. A sensitive, gentle artist with" TEXT_CMD_NEWLINE "a voice to rival his mother's. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "阿库娅的儿子，言行举止相当稳重。" TEXT_CMD_NEWLINE "感受力强，有艺术家气质，歌声也相当美妙。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_シグレ] = {
-    [LANGUAGE_JAPANESE] = "青空に描く想い",
-    [LANGUAGE_ENGLISH] = "Uplifting Artist",
-    [LANGUAGE_CHINESE] = "描绘于蓝天的心意",
-},
-
-[MPID_スズカゼ] = {
-    [LANGUAGE_JAPANESE] = "スズカゼ",
-    [LANGUAGE_ENGLISH] = "Kaze",
-    [LANGUAGE_CHINESE] = "凉风",
-},
-
-[MPID_H_スズカゼ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の忍。サイゾウの双子の弟。" TEXT_CMD_NEWLINE "礼儀正しく真面目な性格で、異性に人気がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A serious and disciplined ninja from Hoshido." TEXT_CMD_NEWLINE "Has a twin brother, Saizo. Popular with women." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的忍者，彩造的双胞胎弟弟。" TEXT_CMD_NEWLINE "礼仪端正、个性严谨，很受异性欢迎。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_スズカゼ] = {
-    [LANGUAGE_JAPANESE] = "涼風の忍",
-    [LANGUAGE_ENGLISH] = "Easygoing Ninja",
-    [LANGUAGE_CHINESE] = "凉风之忍",
-},
-
-[MPID_ラガルト] = {
-    [LANGUAGE_JAPANESE] = "ラガルト",
-    [LANGUAGE_ENGLISH] = "Legault",
-    [LANGUAGE_CHINESE] = "拉加尔托",
-},
-
-[MPID_H_ラガルト] = {
-    [LANGUAGE_JAPANESE] = "元【黒い牙】の構成員で粛清を担っていた。" TEXT_CMD_NEWLINE "変貌する組織に見切りをつけ、足抜けする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Former member of the Black Fang. He was one" TEXT_CMD_NEWLINE "of the founding members and is known as the" TEXT_CMD_NEWLINE "\"cleaner.\" Left the group when it lost its way." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "原为【黑牙】的一员，负责肃清背叛组织的成员。" TEXT_CMD_NEWLINE "对日渐变调的组织感到失望而选择脱离。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
-},
-
-[MPID_HONOR_ラガルト] = {
-    [LANGUAGE_JAPANESE] = "疾風",
-    [LANGUAGE_ENGLISH] = "The Hurricane",
-    [LANGUAGE_CHINESE] = "疾风",
-},
-
-[MPID_シャミア] = {
-    [LANGUAGE_JAPANESE] = "シャミア",
-    [LANGUAGE_ENGLISH] = "Shamir",
-    [LANGUAGE_CHINESE] = "萨米亚",
-},
-
-[MPID_H_シャミア] = {
-    [LANGUAGE_JAPANESE] = "セイロス騎士団の一員で、狙撃手。" TEXT_CMD_NEWLINE "騎士団の中では珍しくセイロス教を信奉しない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "A member of the Knights of Seiros and a sniper." TEXT_CMD_NEWLINE "Unusual among her peers in that she does not" TEXT_CMD_NEWLINE "believe in the Church of Seiros's teachings." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "赛罗司骑士团的一员，是名狙击手。" TEXT_CMD_NEWLINE "在骑士团中是少数不信奉赛罗司教的人之一。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_シャミア] = {
-    [LANGUAGE_JAPANESE] = "孤高の射手",
-    [LANGUAGE_ENGLISH] = "Archer Apart",
-    [LANGUAGE_CHINESE] = "孤高的射手",
-},
-
-[MPID_セテス] = {
-    [LANGUAGE_JAPANESE] = "セテス",
-    [LANGUAGE_ENGLISH] = "Seteth",
-    [LANGUAGE_CHINESE] = "西提司",
-},
-
-[MPID_H_セテス] = {
-    [LANGUAGE_JAPANESE] = "セイロス聖教会でレアの補佐役を務める。" TEXT_CMD_NEWLINE "生真面目な堅物だが、妹のフレンを溺愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Serves the Church of Seiros as Rhea's right" TEXT_CMD_NEWLINE "hand. He is serious and stubborn with most," TEXT_CMD_NEWLINE "but dotes on his younger sister, Flayn. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "在赛罗司圣教会中担任辅佐蕾雅一职。" TEXT_CMD_NEWLINE "虽然个性一板一眼且相当严厉，但却溺爱著自己的妹妹芙莲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_セテス] = {
-    [LANGUAGE_JAPANESE] = "聖教会の石頭",
-    [LANGUAGE_ENGLISH] = "Seiros Adherent",
-    [LANGUAGE_CHINESE] = "圣教会的死脑筋",
-},
-
-[MPID_カリン] = {
-    [LANGUAGE_JAPANESE] = "カリン",
-    [LANGUAGE_ENGLISH] = "Karin",
-    [LANGUAGE_CHINESE] = "花凛",
-},
-
-[MPID_H_カリン] = {
-    [LANGUAGE_JAPANESE] = "姿を消したセティ王子を捜すシレジアのペガサス乗り。" TEXT_CMD_NEWLINE "愛馬エルメスと共に、危険な戦地でも明るさを失わない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Pegasus rider from Silesse searching for the" TEXT_CMD_NEWLINE "missing prince, Ced. She can face the most" TEXT_CMD_NEWLINE "trying battles with the support of her beloved" TEXT_CMD_NEWLINE "pegasus. Appears in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "西里西亚的飞马骑手，寻找著销声匿迹的赛提王子。" TEXT_CMD_NEWLINE "带著爱马艾尔梅斯，即使身处危险战场也不失开朗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_カリン] = {
-    [LANGUAGE_JAPANESE] = "天馬を駆る少女",
-    [LANGUAGE_ENGLISH] = "Driven Knight",
-    [LANGUAGE_CHINESE] = "驾驭天马的少女",
-},
-
-[MPID_モゥディ] = {
-    [LANGUAGE_JAPANESE] = "モゥディ",
-    [LANGUAGE_ENGLISH] = "Mordecai",
-    [LANGUAGE_CHINESE] = "摩迪",
-},
-
-[MPID_H_モゥディ] = {
-    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国の虎の民の戦士。" TEXT_CMD_NEWLINE "心優しい巨漢で、争いごとは嫌い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "A tiger warrior from Gallia, the home of the" TEXT_CMD_NEWLINE "beast tribe of laguz. A kind, peace-loving giant." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "居住在加利亚王国的兽牙族的虎之民战士。" TEXT_CMD_NEWLINE "心地善良的大汉，讨厌与人竞争。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_モゥディ] = {
-    [LANGUAGE_JAPANESE] = "優しき背",
-    [LANGUAGE_ENGLISH] = "Kindhearted Tiger",
-    [LANGUAGE_CHINESE] = "温柔的背影",
-},
-
-[MPID_ライ] = {
-    [LANGUAGE_JAPANESE] = "ライ",
-    [LANGUAGE_ENGLISH] = "Ranulf",
-    [LANGUAGE_CHINESE] = "莱伊",
-},
-
-[MPID_H_ライ] = {
-    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国の猫の民の戦士。" TEXT_CMD_NEWLINE "まだ若いが王の信頼厚く、次期王の右腕と目される。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "A cat warrior from Gallia, the home of the beast" TEXT_CMD_NEWLINE "tribe of laguz. Though young, his king trusts him" TEXT_CMD_NEWLINE "deeply. Considered the right hand of the future" TEXT_CMD_NEWLINE "king. Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "居住在加利亚王国的兽牙族的猫之民战士。" TEXT_CMD_NEWLINE "年纪轻轻就深受国王信任，被当作下任国王的左右手。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_ライ] = {
-    [LANGUAGE_JAPANESE] = "良き友",
-    [LANGUAGE_ENGLISH] = "Friend of Nations",
-    [LANGUAGE_CHINESE] = "知心好友",
-},
-
-[MPID_モニカ] = {
-    [LANGUAGE_JAPANESE] = "モニカ",
-    [LANGUAGE_ENGLISH] = "Monica",
-    [LANGUAGE_CHINESE] = "莫妮卡",
-},
-
-[MPID_H_モニカ] = {
-    [LANGUAGE_JAPANESE] = "アドラステア帝国の貴族、オックス男爵の嫡子。" TEXT_CMD_NEWLINE "エーデルガルトに並々ならぬ想いを抱いている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Noble of the Adrestian Empire and daughter" TEXT_CMD_NEWLINE "of Baron Ochs. Endlessly faithful to Edelgard." TEXT_CMD_NEWLINE "Appears in Fire Emblem Warriors: Three Hopes.",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的贵族——奥克斯男爵的嫡子。" TEXT_CMD_NEWLINE "对艾黛尔贾特有著非比寻常的忠诚之心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
-},
-
-[MPID_HONOR_モニカ] = {
-    [LANGUAGE_JAPANESE] = "女帝いちの家臣",
-    [LANGUAGE_ENGLISH] = "Favored Vassal",
-    [LANGUAGE_CHINESE] = "女帝的头号家臣",
-},
-
-[MPID_シェズ女] = {
-    [LANGUAGE_JAPANESE] = "シェズ",
-    [LANGUAGE_ENGLISH] = "Shez",
-    [LANGUAGE_CHINESE] = "谢兹",
-},
-
-[MPID_H_シェズ女] = {
-    [LANGUAGE_JAPANESE] = "フォドラを一人で放浪する根無し草の傭兵。" TEXT_CMD_NEWLINE "割り切った性格だが、奥底には熱き思いが眠る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "A mercenary who wandered Fódlan. Though" TEXT_CMD_NEWLINE "ordinarily rational, a burning desire sleeps" TEXT_CMD_NEWLINE "within her. Appears in Fire Emblem Warriors:" TEXT_CMD_NEWLINE "Three Hopes.",
-    [LANGUAGE_CHINESE] = "居无定所、独自一人在芙朵拉流浪的佣兵。" TEXT_CMD_NEWLINE "个性干脆果断，但沉睡著一颗热血的心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
-},
-
-[MPID_HONOR_シェズ女] = {
-    [LANGUAGE_JAPANESE] = "前途有為な傭兵",
-    [LANGUAGE_ENGLISH] = "Keen Mercenary",
-    [LANGUAGE_CHINESE] = "前途无量的佣兵",
-},
-
-[MPID_マリス] = {
-    [LANGUAGE_JAPANESE] = "マリス",
-    [LANGUAGE_ENGLISH] = "Malice",
-    [LANGUAGE_CHINESE] = "玛丽丝",
-},
-
-[MPID_H_マリス] = {
-    [LANGUAGE_JAPANESE] = "父ダイスと共に傭兵をしている腕利きの女剣士。" TEXT_CMD_NEWLINE "稼ぎのほとんどはダイスの博打で消えていく。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A capable mercenary who works together with" TEXT_CMD_NEWLINE "her father, Dice, who in turn loses most of their" TEXT_CMD_NEWLINE "earnings gambling. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "New Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "本领高强的女剑士，与父亲戴斯一同担任佣兵。" TEXT_CMD_NEWLINE "赚取的报酬几乎都被戴斯赌光了。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
-},
-
-[MPID_HONOR_マリス] = {
-    [LANGUAGE_JAPANESE] = "剣舞の傭兵",
-    [LANGUAGE_ENGLISH] = "Deft Sellsword",
-    [LANGUAGE_CHINESE] = "舞剑的佣兵",
-},
-
-[MPID_マーニャ] = {
-    [LANGUAGE_JAPANESE] = "マーニャ",
-    [LANGUAGE_ENGLISH] = "Annand",
-    [LANGUAGE_CHINESE] = "玛妮娅",
-},
-
-[MPID_H_マーニャ] = {
-    [LANGUAGE_JAPANESE] = "シレジア四天馬騎士の筆頭にして、フュリーの姉。" TEXT_CMD_NEWLINE "レヴィンへの慕情を胸に秘め、最期まで誇り高く戦った。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Leader of the Four Heavenly Knights of Silesse" TEXT_CMD_NEWLINE "and Erinys's elder sister. Conceals her longing" TEXT_CMD_NEWLINE "for Lewyn and fights to her last breath. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "西里西亚四天马骑士之首，菲莉的姊姊。" TEXT_CMD_NEWLINE "心中藏著对雷文的爱慕之情，" TEXT_CMD_NEWLINE "满怀荣耀地奋战至最后一刻。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_マーニャ] = {
-    [LANGUAGE_JAPANESE] = "護国の天馬騎士",
-    [LANGUAGE_ENGLISH] = "Knight-Defender",
-    [LANGUAGE_CHINESE] = "护国的天马骑士",
-},
-
-[MPID_フェルディナント] = {
-    [LANGUAGE_JAPANESE] = "フェルディナント",
-    [LANGUAGE_ENGLISH] = "Ferdinand",
-    [LANGUAGE_CHINESE] = "菲尔迪南特",
-},
-
-[MPID_H_フェルディナント] = {
-    [LANGUAGE_JAPANESE] = "アドラステア帝国の宰相、エーギル公の嫡子。" TEXT_CMD_NEWLINE "文武両道、貴族として恥じぬ生き方を邁進する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Son and heir of Duke Aegir, the Prime Minister" TEXT_CMD_NEWLINE "of the Adrestian Empire. Accomplished in both" TEXT_CMD_NEWLINE "literary and military arts, he works hard to live" TEXT_CMD_NEWLINE "nobly. Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的宰相——艾吉尔公爵的嫡子。" TEXT_CMD_NEWLINE "文武双全，在不愧对贵族身分的生存之道上迈进。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_フェルディナント] = {
-    [LANGUAGE_JAPANESE] = "貴族の中の貴族",
-    [LANGUAGE_ENGLISH] = "Noblest of Nobles",
-    [LANGUAGE_CHINESE] = "贵族中的贵族",
-},
-
-[MPID_総選挙クロム] = {
-    [LANGUAGE_JAPANESE] = "クロム",
-    [LANGUAGE_ENGLISH] = "Chrom",
-    [LANGUAGE_CHINESE] = "库洛武",
-},
-
-[MPID_H_総選挙クロム] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の王として立ったクロム。" TEXT_CMD_NEWLINE "尊敬する姉の志を継ぎ、絆を信じて運命と戦う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Chrom, exalt of the Halidom of Ylisse. Intent on" TEXT_CMD_NEWLINE "honoring his sister's dream, he faces his fate" TEXT_CMD_NEWLINE "with his treasured bonds close at heart. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "成为伊里斯圣王国国王的库洛武。" TEXT_CMD_NEWLINE "很尊敬姊姊并继承其意志，相信羁绊和命运对抗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_総選挙クロム] = {
-    [LANGUAGE_JAPANESE] = "覚醒せし正義",
-    [LANGUAGE_ENGLISH] = "Fated Honor",
-    [LANGUAGE_CHINESE] = "觉醒的正义",
-},
-
-[MPID_外伝カムイ] = {
+[MPID_暴走カムイ女] = {
     [LANGUAGE_JAPANESE] = "カムイ",
-    [LANGUAGE_ENGLISH] = "Kamui",
-    [LANGUAGE_CHINESE] = "卡武伊",
+    [LANGUAGE_ENGLISH] = "Corrin",
+    [LANGUAGE_CHINESE] = "神威",
 },
 
-[MPID_H_外伝カムイ] = {
-    [LANGUAGE_JAPANESE] = "各地を転々とさすらう傭兵。" TEXT_CMD_NEWLINE "束縛を嫌い、呑気でおおらかな性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A mercenary who drifts from place to place." TEXT_CMD_NEWLINE "He hates being tied down and models a carefree" TEXT_CMD_NEWLINE "yet composed attitude. Appears in Fire Emblem" TEXT_CMD_NEWLINE "Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "辗转于各地的流浪佣兵。" TEXT_CMD_NEWLINE "讨厌受到束缚，个性不拘小节且坦率大方。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+[MPID_H_暴走カムイ女] = {
+    [LANGUAGE_JAPANESE] = "暗夜・白夜両国にまたがる数奇な運命を背負う者。" TEXT_CMD_NEWLINE "その身に秘める力の昂ぶりに翻弄される。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Unfortunate soul torn between both Nohr and" TEXT_CMD_NEWLINE "Hoshido, overtaken by the power lurking in her" TEXT_CMD_NEWLINE "blood. Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "背负著交错于暗夜、白夜两国动荡的命运之人。" TEXT_CMD_NEWLINE "被隐匿于己身中的力量恣意摆布。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_外伝カムイ] = {
-    [LANGUAGE_JAPANESE] = "流れ者の傭兵",
-    [LANGUAGE_ENGLISH] = "Wandering Blade",
-    [LANGUAGE_CHINESE] = "流浪的佣兵",
+[MPID_HONOR_暴走カムイ女] = {
+    [LANGUAGE_JAPANESE] = "禍つ魂の慟哭",
+    [LANGUAGE_ENGLISH] = "Wailing Soul",
+    [LANGUAGE_CHINESE] = "灾祸之魂的恸哭",
 },
 
-[MPID_催眠チキ] = {
-    [LANGUAGE_JAPANESE] = "チキ",
-    [LANGUAGE_ENGLISH] = "Tiki",
-    [LANGUAGE_CHINESE] = "琪姬",
+[MPID_リシテア] = {
+    [LANGUAGE_JAPANESE] = "リシテア",
+    [LANGUAGE_ENGLISH] = "Lysithea",
+    [LANGUAGE_CHINESE] = "莉丝缇亚",
 },
 
-[MPID_H_催眠チキ] = {
-    [LANGUAGE_JAPANESE] = "神竜族の王女。連れ去られたラーマン神殿で、" TEXT_CMD_NEWLINE "ガーネフに操られるまま侵入者を焼き尽くそうとする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Princess of the Divine Dragon tribe. She was" TEXT_CMD_NEWLINE "taken to the Fane of Raman and, under" TEXT_CMD_NEWLINE "Gharnef's control, incinerated all those who" TEXT_CMD_NEWLINE "entered. Appears in Fire Emblem: Mystery of" TEXT_CMD_NEWLINE "the Emblem.",
-    [LANGUAGE_CHINESE] = "神龙族的公主。受到加内夫催眠，" TEXT_CMD_NEWLINE "被带去拉满神殿，在那里燃尽所有入侵者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_リシテア] = {
+    [LANGUAGE_JAPANESE] = "レスター諸侯同盟領の貴族、コーデリア伯の娘。" TEXT_CMD_NEWLINE "成績優秀で勝ち気。子供扱いされるのを嫌う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Count Ordelia and noble of the" TEXT_CMD_NEWLINE "Leicester Alliance. A determined high achiever" TEXT_CMD_NEWLINE "who hates being treated like a child. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，科迪利亚伯爵之女。" TEXT_CMD_NEWLINE "成绩优秀、个性好胜。讨厌被他人当成孩子对待。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_催眠チキ] = {
-    [LANGUAGE_JAPANESE] = "眠れる竜王女",
-    [LANGUAGE_ENGLISH] = "Torpid Dragon",
-    [LANGUAGE_CHINESE] = "沉睡的龙公主",
+[MPID_HONOR_リシテア] = {
+    [LANGUAGE_JAPANESE] = "年下の優等生",
+    [LANGUAGE_ENGLISH] = "Child Prodigy",
+    [LANGUAGE_CHINESE] = "年幼的模范生",
 },
 
-[MPID_エルク] = {
-    [LANGUAGE_JAPANESE] = "エルク",
-    [LANGUAGE_ENGLISH] = "Erk",
-    [LANGUAGE_CHINESE] = "艾尔克",
+[MPID_フラヴィア] = {
+    [LANGUAGE_JAPANESE] = "フラヴィア",
+    [LANGUAGE_ENGLISH] = "Flavia",
+    [LANGUAGE_CHINESE] = "芙拉维亚",
 },
 
-[MPID_H_エルク] = {
-    [LANGUAGE_JAPANESE] = "エトルリアの魔道軍将パントの弟子。弟子として、" TEXT_CMD_NEWLINE "家族として迎えられたことを大恩に思っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Ward and student of Pent, Mage General of" TEXT_CMD_NEWLINE "Etruria. Feels a great debt of gratitude to his" TEXT_CMD_NEWLINE "foster family for raising him. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "伊特鲁里亚的魔道军将庞托的弟子。" TEXT_CMD_NEWLINE "对将自己视为弟子及家人接纳的庞托心怀感恩。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+[MPID_H_フラヴィア] = {
+    [LANGUAGE_JAPANESE] = "軍事国家フェリアの東の王。" TEXT_CMD_NEWLINE "豪快な性格で、修羅場にも臆することがない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "East-Khan of Regna Ferox, a country led by" TEXT_CMD_NEWLINE "its preference for battle over politics. Boldly" TEXT_CMD_NEWLINE "faces even the most perilous situations without" TEXT_CMD_NEWLINE "fear. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "军事之国菲利亚的东境之王。" TEXT_CMD_NEWLINE "个性豪爽，在战场上也无所畏惧。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_エルク] = {
-    [LANGUAGE_JAPANESE] = "英知の魔道士",
-    [LANGUAGE_ENGLISH] = "Studious Mage",
-    [LANGUAGE_CHINESE] = "睿智的魔道士",
+[MPID_HONOR_フラヴィア] = {
+    [LANGUAGE_JAPANESE] = "フェリアの東王",
+    [LANGUAGE_ENGLISH] = "Feroxi East-Khan",
+    [LANGUAGE_CHINESE] = "菲利亚的东境王",
 },
 
-[MPID_シンシア] = {
-    [LANGUAGE_JAPANESE] = "シンシア",
-    [LANGUAGE_ENGLISH] = "Cynthia",
-    [LANGUAGE_CHINESE] = "欣西亚",
+[MPID_バジーリオ] = {
+    [LANGUAGE_JAPANESE] = "バジーリオ",
+    [LANGUAGE_ENGLISH] = "Basilio",
+    [LANGUAGE_CHINESE] = "巴基里奥",
 },
 
-[MPID_H_シンシア] = {
-    [LANGUAGE_JAPANESE] = "スミアの娘。正義感が強く勇敢。" TEXT_CMD_NEWLINE "ヒーローに憧れており、戦闘前には口上を述べる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Sumia's daughter. Has a strong sense of justice." TEXT_CMD_NEWLINE "Enters combat with a speech on her lips, and" TEXT_CMD_NEWLINE "aches to perform valorous deeds. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "丝米亚的女儿。充满正义感，不但强大且勇敢。" TEXT_CMD_NEWLINE "对英雄充满憧憬，在战斗前总会说句开场白。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_バジーリオ] = {
+    [LANGUAGE_JAPANESE] = "軍事国家フェリアの西の王。" TEXT_CMD_NEWLINE "裏表がなく、単純明快を好む武人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "West-Khan of Regna Ferox, a country led by" TEXT_CMD_NEWLINE "its preference for battle over politics. A simple" TEXT_CMD_NEWLINE "warrior who has nothing to hide. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "军事之国菲利亚的西境之王。" TEXT_CMD_NEWLINE "表里如一，喜欢直来直往的武者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_シンシア] = {
-    [LANGUAGE_JAPANESE] = "英雄志願",
-    [LANGUAGE_ENGLISH] = "Hero Chaser",
-    [LANGUAGE_CHINESE] = "英雄志愿",
-},
-
-[MPID_ノルン] = {
-    [LANGUAGE_JAPANESE] = "ノルン",
-    [LANGUAGE_ENGLISH] = "Norne",
-    [LANGUAGE_CHINESE] = "诺伦",
-},
-
-[MPID_H_ノルン] = {
-    [LANGUAGE_JAPANESE] = "祖国アリティアの危機に参じた義勇兵。" TEXT_CMD_NEWLINE "アリティア陥落の時、マルスの脱出を助けた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A volunteer who took up arms in the struggle" TEXT_CMD_NEWLINE "that consumed her homeland, Altea. She aided" TEXT_CMD_NEWLINE "Marth's escape when Altea fell. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: New Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "挺身面对祖国阿利提亚的危机的义勇兵。" TEXT_CMD_NEWLINE "在阿利提亚被攻陷之际帮助马尔斯逃脱。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
-},
-
-[MPID_HONOR_ノルン] = {
-    [LANGUAGE_JAPANESE] = "アリティア義勇兵",
-    [LANGUAGE_ENGLISH] = "The Volunteer",
-    [LANGUAGE_CHINESE] = "阿利提亚义勇兵",
-},
-
-[MPID_ナギ] = {
-    [LANGUAGE_JAPANESE] = "ナギ",
-    [LANGUAGE_ENGLISH] = "Nagi",
-    [LANGUAGE_CHINESE] = "娜琪",
-},
-
-[MPID_H_ナギ] = {
-    [LANGUAGE_JAPANESE] = "異界の塔で眠りについていたマムクート。" TEXT_CMD_NEWLINE "チキと共通点のある容姿で、神竜石を使う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A manakete who slept within the Alterspire." TEXT_CMD_NEWLINE "Her appearance is reminiscent of Tiki's," TEXT_CMD_NEWLINE "and she wields the Divinestone. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: New Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "曾经沉眠于异界之塔的龙族。" TEXT_CMD_NEWLINE "有著和琪姬相似的外貌，使用著神龙石。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
-},
-
-[MPID_HONOR_ナギ] = {
-    [LANGUAGE_JAPANESE] = "神竜王の化身",
-    [LANGUAGE_ENGLISH] = "Dragon Avatar",
-    [LANGUAGE_CHINESE] = "神龙王的化身",
-},
-
-[MPID_総選挙ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "ディミトリ",
-    [LANGUAGE_ENGLISH] = "Dimitri",
-    [LANGUAGE_CHINESE] = "帝弥托利",
-},
-
-[MPID_H_総選挙ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の王。" TEXT_CMD_NEWLINE "一時は自分を見失うも、正しき王の道を歩みはじめる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "King of the Holy Kingdom of Faerghus. Although" TEXT_CMD_NEWLINE "he lost himself for a time, he now walks the path" TEXT_CMD_NEWLINE "of a great ruler. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Three Houses.",
-    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的王。" TEXT_CMD_NEWLINE "虽然曾一时迷失自我，但也开始步上了王者的正道。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_総選挙ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "ファーガス王",
-    [LANGUAGE_ENGLISH] = "King of Faerghus",
-    [LANGUAGE_CHINESE] = "法嘉斯王",
-},
-
-[MPID_総選挙クロード] = {
-    [LANGUAGE_JAPANESE] = "クロード",
-    [LANGUAGE_ENGLISH] = "Claude",
-    [LANGUAGE_CHINESE] = "库罗德",
-},
-
-[MPID_H_総選挙クロード] = {
-    [LANGUAGE_JAPANESE] = "フォドラではレスター諸侯同盟の盟主として戦ったが、" TEXT_CMD_NEWLINE "その正体はパルミラの王族。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Fought as the leader of the Leicester Alliance," TEXT_CMD_NEWLINE "but is also a member of Almyra's royal family." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "虽作为雷斯塔诸侯同盟的盟主于芙朵拉作战，" TEXT_CMD_NEWLINE "但其真实身分是帕迈拉的王族。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_総選挙クロード] = {
-    [LANGUAGE_JAPANESE] = "パルミラ国王",
-    [LANGUAGE_ENGLISH] = "Almyra's King",
-    [LANGUAGE_CHINESE] = "帕迈拉国王",
-},
-
-[MPID_総選挙エーデル] = {
-    [LANGUAGE_JAPANESE] = "エーデルガルト",
-    [LANGUAGE_ENGLISH] = "Edelgard",
-    [LANGUAGE_CHINESE] = "艾黛尔贾特",
-},
-
-[MPID_H_総選挙エーデル] = {
-    [LANGUAGE_JAPANESE] = "アドラステア皇帝に即位後、セイロス教団を打倒。" TEXT_CMD_NEWLINE "フォドラの大地を平定し覇を唱えた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "After ascending as Adrestian Emperor, she" TEXT_CMD_NEWLINE "defeated the Church of Seiros, solidifying her" TEXT_CMD_NEWLINE "reign over all of Fódlan. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "即位成为阿德剌斯忒亚的皇帝后，" TEXT_CMD_NEWLINE "打倒了赛罗司教团。" TEXT_CMD_NEWLINE "成就了平定并称霸芙朵拉大地的伟业。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_総選挙エーデル] = {
-    [LANGUAGE_JAPANESE] = "アドラステア皇帝",
-    [LANGUAGE_ENGLISH] = "Adrestian Emperor",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚皇帝",
-},
-
-[MPID_総選挙セリス] = {
-    [LANGUAGE_JAPANESE] = "セリス",
-    [LANGUAGE_ENGLISH] = "Seliph",
-    [LANGUAGE_CHINESE] = "赛列斯",
-},
-
-[MPID_H_総選挙セリス] = {
-    [LANGUAGE_JAPANESE] = "聖戦士バルドの末裔、聖騎士シグルドの子。" TEXT_CMD_NEWLINE "長きに渡るユグドラルの聖戦に終止符を打つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Descendant of the crusader Baldr and son" TEXT_CMD_NEWLINE "of Sigurd. Brings Jugdral's long war to" TEXT_CMD_NEWLINE "its conclusion. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "圣战士巴尔德的后裔，圣骑士西格尔特之子。" TEXT_CMD_NEWLINE "为尤格多拉尔长久以来的圣战画下休止符。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_総選挙セリス] = {
-    [LANGUAGE_JAPANESE] = "父の志を追って",
-    [LANGUAGE_ENGLISH] = "Enduring Legacy",
-    [LANGUAGE_CHINESE] = "追随父亲的意志",
-},
-
-[MPID_総選挙覚醒チキ] = {
-    [LANGUAGE_JAPANESE] = "チキ",
-    [LANGUAGE_ENGLISH] = "Tiki",
-    [LANGUAGE_CHINESE] = "琪姬",
-},
-
-[MPID_H_総選挙覚醒チキ] = {
-    [LANGUAGE_JAPANESE] = "神話の時代から数えて数千年を生きる竜人。" TEXT_CMD_NEWLINE "神竜の巫女としてヴァルムの民に崇め祀られている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A manakete who has lived for thousands of" TEXT_CMD_NEWLINE "years, through many ages. Worshipped as the" TEXT_CMD_NEWLINE "Voice of the Divine Dragon by the people of" TEXT_CMD_NEWLINE "Valm. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "从神话时代起活了数千年的龙人。" TEXT_CMD_NEWLINE "作为神龙的巫女备受瓦雷姆的人民敬重。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_総選挙覚醒チキ] = {
-    [LANGUAGE_JAPANESE] = "神竜の目覚め",
-    [LANGUAGE_ENGLISH] = "Fated Divinity",
-    [LANGUAGE_CHINESE] = "神龙苏醒",
-},
-
-[MPID_フランネル] = {
-    [LANGUAGE_JAPANESE] = "フランネル",
-    [LANGUAGE_ENGLISH] = "Keaton",
-    [LANGUAGE_CHINESE] = "弗朗诺",
-},
-
-[MPID_H_フランネル] = {
-    [LANGUAGE_JAPANESE] = "カイエン峰を根城とする人狼、ガルーたちの長。" TEXT_CMD_NEWLINE "人懐っこいが、素直になれない性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Leader of the wolfskin who set up their" TEXT_CMD_NEWLINE "stronghold on Mount Garou. Sociable but isn't" TEXT_CMD_NEWLINE "always honest with himself or others. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "居住于凯茵峰的狼人──加鲁一族的首领。" TEXT_CMD_NEWLINE "虽然不怕生容易亲近，但个性不太坦率。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_フランネル] = {
-    [LANGUAGE_JAPANESE] = "人狼の長",
-    [LANGUAGE_ENGLISH] = "Lupine Collector",
-    [LANGUAGE_CHINESE] = "狼人之长",
-},
-
-[MPID_ジル] = {
-    [LANGUAGE_JAPANESE] = "ジル",
-    [LANGUAGE_ENGLISH] = "Jill",
-    [LANGUAGE_CHINESE] = "吉尔",
-},
-
-[MPID_H_ジル] = {
-    [LANGUAGE_JAPANESE] = "デイン王国の竜騎士。" TEXT_CMD_NEWLINE "ダルレカ領の領主、シハラム・フィザットの一人娘。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A wyvern rider of Daein. Only daughter of" TEXT_CMD_NEWLINE "Shiharam Fizzart, lord of Talrega. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "戴因王国的龙骑士。" TEXT_CMD_NEWLINE "答尔烈卡领领主——希哈拉姆・菲札德的独生女。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_ジル] = {
-    [LANGUAGE_JAPANESE] = "忠信の赤い竜騎士",
-    [LANGUAGE_ENGLISH] = "Fiery Dracoknight",
-    [LANGUAGE_CHINESE] = "忠信的赤色龙骑士",
-},
-
-[MPID_フュリー] = {
-    [LANGUAGE_JAPANESE] = "フュリー",
-    [LANGUAGE_ENGLISH] = "Erinys",
-    [LANGUAGE_CHINESE] = "菲莉",
-},
-
-[MPID_H_フュリー] = {
-    [LANGUAGE_JAPANESE] = "シレジア四天馬騎士の一員で、マーニャの妹。" TEXT_CMD_NEWLINE "生真面目すぎる性格をレヴィン王子にからかわれている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "One of the Four Heavenly Knights of Silesse and" TEXT_CMD_NEWLINE "Annand's younger sister. Has a serious outlook" TEXT_CMD_NEWLINE "that Prince Lewyn teases her about. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "西里西亚四天马骑士的一员，玛妮娅的妹妹。" TEXT_CMD_NEWLINE "因为性格太过一板一眼，总是被雷文王子捉弄。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_フュリー] = {
-    [LANGUAGE_JAPANESE] = "真面目な天馬騎士",
-    [LANGUAGE_ENGLISH] = "Earnest Knight",
-    [LANGUAGE_CHINESE] = "认真的天马骑士",
-},
-
-[MPID_ブノワ] = {
-    [LANGUAGE_JAPANESE] = "ブノワ",
-    [LANGUAGE_ENGLISH] = "Benny",
-    [LANGUAGE_CHINESE] = "布诺瓦",
-},
-
-[MPID_H_ブノワ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の国境警備兵。屈強な大男。" TEXT_CMD_NEWLINE "強面だが優しく小心者で、動物に好かれる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A Nohrian border guard from a farming" TEXT_CMD_NEWLINE "village. A gentle giant loved by animals." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的国境警备兵。魁梧的壮汉。" TEXT_CMD_NEWLINE "面恶心善又胆小，很受动物喜爱。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ブノワ] = {
-    [LANGUAGE_JAPANESE] = "強面の重騎士",
-    [LANGUAGE_ENGLISH] = "Sensitive Soul",
-    [LANGUAGE_CHINESE] = "长相凶悍的重骑士",
-},
-
-[MPID_外伝パオラ] = {
-    [LANGUAGE_JAPANESE] = "パオラ",
-    [LANGUAGE_ENGLISH] = "Palla",
-    [LANGUAGE_CHINESE] = "帕奥拉",
-},
-
-[MPID_H_外伝パオラ] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王国のペガサスナイト。" TEXT_CMD_NEWLINE "妹を追ってバレンシア大陸にやって来た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Pegasus knight from Macedon who ventured" TEXT_CMD_NEWLINE "to Valentia in pursuit of her sister. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "马其顿王国的飞马骑士。" TEXT_CMD_NEWLINE "为了追寻妹妹而来到瓦伦西亚陆地。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_外伝パオラ] = {
-    [LANGUAGE_JAPANESE] = "優しき長女",
-    [LANGUAGE_ENGLISH] = "Kind Eldest Sister",
-    [LANGUAGE_CHINESE] = "温柔的长女",
-},
-
-[MPID_リュート] = {
-    [LANGUAGE_JAPANESE] = "リュート",
-    [LANGUAGE_ENGLISH] = "Luthier",
-    [LANGUAGE_CHINESE] = "鲁特",
-},
-
-[MPID_H_リュート] = {
-    [LANGUAGE_JAPANESE] = "ソフィア王国の魔道士。魔道に優れるが" TEXT_CMD_NEWLINE "変わり者で友達がいない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A mage and eccentric man of Zofia who excels" TEXT_CMD_NEWLINE "in magic but has no friends. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "索菲亚王国的魔道士。拥有优异的魔道才能，" TEXT_CMD_NEWLINE "但因为个性古怪所以没朋友。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_リュート] = {
-    [LANGUAGE_JAPANESE] = "我が道を往く",
-    [LANGUAGE_ENGLISH] = "Odd Wayfarer",
-    [LANGUAGE_CHINESE] = "迈向自己的道路",
-},
-
-[MPID_ジーク] = {
-    [LANGUAGE_JAPANESE] = "ジーク",
-    [LANGUAGE_ENGLISH] = "Zeke",
-    [LANGUAGE_CHINESE] = "吉克",
-},
-
-[MPID_H_ジーク] = {
-    [LANGUAGE_JAPANESE] = "リゲル帝国の将軍。記憶を失って" TEXT_CMD_NEWLINE "倒れているところをティータに助けられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "General of the Rigelian Empire. Tatiana found" TEXT_CMD_NEWLINE "him unconscious, his memory lost. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "利盖尔帝国的将军。失去了记忆，" TEXT_CMD_NEWLINE "倒在海边时被蒂塔所救。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_ジーク] = {
-    [LANGUAGE_JAPANESE] = "失いし過去",
-    [LANGUAGE_ENGLISH] = "Past Unknown",
-    [LANGUAGE_CHINESE] = "遗失的过往",
-},
-
-[MPID_ニノ2] = {
-    [LANGUAGE_JAPANESE] = "ニノ",
-    [LANGUAGE_ENGLISH] = "Nino",
-    [LANGUAGE_CHINESE] = "妮诺",
-},
-
-[MPID_H_ニノ2] = {
-    [LANGUAGE_JAPANESE] = "暗殺集団【黒い牙】にいた少女。" TEXT_CMD_NEWLINE "仲間の助けで、ペガサスと心を通わせる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A young woman who was part of the assassin" TEXT_CMD_NEWLINE "group Black Fang. Now she communes with" TEXT_CMD_NEWLINE "a pegasus in order to aid her allies. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "曾隶属暗杀集团【黑牙】的少女。" TEXT_CMD_NEWLINE "在伙伴的帮助下，能与飞马心灵相通。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
-},
-
-[MPID_HONOR_ニノ2] = {
-    [LANGUAGE_JAPANESE] = "闇の白い花",
-    [LANGUAGE_ENGLISH] = "Pale Flower",
-    [LANGUAGE_CHINESE] = "幽暗的白花",
-},
-
-[MPID_ライナス] = {
-    [LANGUAGE_JAPANESE] = "ライナス",
-    [LANGUAGE_ENGLISH] = "Linus",
-    [LANGUAGE_CHINESE] = "莱纳斯",
-},
-
-[MPID_H_ライナス] = {
-    [LANGUAGE_JAPANESE] = "【狂犬】の異名を持つ【黒い牙】の一員。" TEXT_CMD_NEWLINE "兄ロイドと並ぶ凄腕で悪人を裁く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A member of the Black Fang known as Mad" TEXT_CMD_NEWLINE "Dog and an equal match for his brother Lloyd." TEXT_CMD_NEWLINE "He brings judgment down on those he deems" TEXT_CMD_NEWLINE "evil. Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "别名为【狂犬】的【黑牙】成员。" TEXT_CMD_NEWLINE "以和哥哥洛伊德并驾的实力制裁恶人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
-},
-
-[MPID_HONOR_ライナス] = {
-    [LANGUAGE_JAPANESE] = "狂犬",
-    [LANGUAGE_ENGLISH] = "Mad Dog",
-    [LANGUAGE_CHINESE] = "狂犬",
-},
-
-[MPID_ロイド] = {
-    [LANGUAGE_JAPANESE] = "ロイド",
-    [LANGUAGE_ENGLISH] = "Lloyd",
-    [LANGUAGE_CHINESE] = "洛伊德",
-},
-
-[MPID_H_ロイド] = {
-    [LANGUAGE_JAPANESE] = "【白狼】と呼ばれる、暗殺組織【黒い牙】の一人。" TEXT_CMD_NEWLINE "首領の息子。悪人に裁きを下すため、任務につく。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A member of the Black Fang assassins. Delivers" TEXT_CMD_NEWLINE "justice to those they deem criminals. Known as" TEXT_CMD_NEWLINE "the White Wolf. Son of the group's leader." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员，人称【白狼】。" TEXT_CMD_NEWLINE "首领的儿子。为了制裁恶人而执行任务。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ロイド] = {
-    [LANGUAGE_JAPANESE] = "白狼",
-    [LANGUAGE_ENGLISH] = "White Wolf",
-    [LANGUAGE_CHINESE] = "白狼",
-},
-
-[MPID_総選挙マルス] = {
-    [LANGUAGE_JAPANESE] = "マルス",
-    [LANGUAGE_ENGLISH] = "Marth",
-    [LANGUAGE_CHINESE] = "马尔斯",
-},
-
-[MPID_H_総選挙マルス] = {
-    [LANGUAGE_JAPANESE] = "アリティア王国の王子。" TEXT_CMD_NEWLINE "英雄王と称えられ、数多くの功績を後世に遺した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Prince of Altea destined to be revered as the" TEXT_CMD_NEWLINE "Hero-King, having done countless deeds for the" TEXT_CMD_NEWLINE "good of those who came after him. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿利提亚王国的王子。" TEXT_CMD_NEWLINE "被誉为英雄王，其丰功伟业流传于世。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_総選挙マルス] = {
-    [LANGUAGE_JAPANESE] = "光の王子",
-    [LANGUAGE_ENGLISH] = "Prince of Light",
-    [LANGUAGE_CHINESE] = "光之王子",
-},
-
-[MPID_総選挙門番] = {
-    [LANGUAGE_JAPANESE] = "門番",
-    [LANGUAGE_ENGLISH] = "Gatekeeper",
-    [LANGUAGE_CHINESE] = "门卫",
-},
-
-[MPID_H_総選挙門番] = {
-    [LANGUAGE_JAPANESE] = "ガルグ＝マク大修道院の門を守る兵士。" TEXT_CMD_NEWLINE "常に英雄たちを案ずる優しさを持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "The guard who watches over the gates of" TEXT_CMD_NEWLINE "Garreg Mach Monastery. A kind man who cares" TEXT_CMD_NEWLINE "deeply for all Heroes who pass through his" TEXT_CMD_NEWLINE "gate. Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "守护加尔古‧玛库大修道院之门的士兵。" TEXT_CMD_NEWLINE "相当温柔，总是担心著英雄们。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_総選挙門番] = {
-    [LANGUAGE_JAPANESE] = "大修道院の",
-    [LANGUAGE_ENGLISH] = "Nothing to Report",
-    [LANGUAGE_CHINESE] = "大修道院的",
-},
-
-[MPID_総選挙エイリーク] = {
-    [LANGUAGE_JAPANESE] = "エイリーク",
-    [LANGUAGE_ENGLISH] = "Eirika",
-    [LANGUAGE_CHINESE] = "艾莉可",
-},
-
-[MPID_H_総選挙エイリーク] = {
-    [LANGUAGE_JAPANESE] = "ルネス王国の王女。" TEXT_CMD_NEWLINE "兄より預かった槍を携え、未来を拓くために戦う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Princess of Renais. She has taken up her" TEXT_CMD_NEWLINE "brother's lance so she can defend their" TEXT_CMD_NEWLINE "kingdom's future. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "路奈斯王国的公主。" TEXT_CMD_NEWLINE "手持哥哥所托付的枪，为开拓未来而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_総選挙エイリーク] = {
-    [LANGUAGE_JAPANESE] = "誓いの優王女",
-    [LANGUAGE_ENGLISH] = "Pledged Restorer",
-    [LANGUAGE_CHINESE] = "起誓的善良公主",
-},
-
-[MPID_ゼロ] = {
-    [LANGUAGE_JAPANESE] = "ゼロ",
-    [LANGUAGE_ENGLISH] = "Niles",
-    [LANGUAGE_CHINESE] = "零",
-},
-
-[MPID_H_ゼロ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国のシーフ。レオンの臣下。" TEXT_CMD_NEWLINE "男女問わず意味深な発言を投げかける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Nohrian scoundrel who wags his saucy" TEXT_CMD_NEWLINE "tongue at everyone. One of Leo's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的小偷，里昂的部下。" TEXT_CMD_NEWLINE "无论对方是男是女，都会说出一些暧昧的言语。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ゼロ] = {
-    [LANGUAGE_JAPANESE] = "加虐性癖",
-    [LANGUAGE_ENGLISH] = "Cruel to Be Kind",
-    [LANGUAGE_CHINESE] = "虐待狂",
-},
-
-[MPID_セティ] = {
-    [LANGUAGE_JAPANESE] = "セティ",
-    [LANGUAGE_ENGLISH] = "Ced",
-    [LANGUAGE_CHINESE] = "赛提",
-},
-
-[MPID_H_セティ] = {
-    [LANGUAGE_JAPANESE] = "シレジアの四天馬騎士フュリーの子。" TEXT_CMD_NEWLINE "マンスター解放のために立ち上がる勇者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Son of Silesse's pegasus knight Erinys. A hero" TEXT_CMD_NEWLINE "that stood up for the liberation of Munster." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the" TEXT_CMD_NEWLINE "Holy War.",
-    [LANGUAGE_CHINESE] = "西里西亚的四天马骑士菲莉之子。" TEXT_CMD_NEWLINE "为了解放曼斯特挺身而战的勇者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_セティ] = {
-    [LANGUAGE_JAPANESE] = "風の勇者",
-    [LANGUAGE_ENGLISH] = "Hero on the Wind",
-    [LANGUAGE_CHINESE] = "风之勇者",
-},
-
-[MPID_ラクチェ] = {
-    [LANGUAGE_JAPANESE] = "ラクチェ",
-    [LANGUAGE_ENGLISH] = "Larcei",
-    [LANGUAGE_CHINESE] = "拉克榭",
-},
-
-[MPID_H_ラクチェ] = {
-    [LANGUAGE_JAPANESE] = "母アイラさながらの流麗な剣技の少女剣士。" TEXT_CMD_NEWLINE "双子の兄にスカサハ、従兄にシャナンがいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "A young warrior searching for her mother," TEXT_CMD_NEWLINE "elegantly fashioned blade in hand. Scáthach" TEXT_CMD_NEWLINE "is her twin brother, and Shannan is her cousin." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the" TEXT_CMD_NEWLINE "Holy War.",
-    [LANGUAGE_CHINESE] = "完美继承母亲艾伊拉华美剑技的少女剑士。" TEXT_CMD_NEWLINE "有一位双胞胎哥哥斯卡萨哈，与一位堂兄夏南。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_ラクチェ] = {
-    [LANGUAGE_JAPANESE] = "剣姫の娘",
-    [LANGUAGE_ENGLISH] = "Keen Kin",
-    [LANGUAGE_CHINESE] = "剑姬之女",
-},
-
-[MPID_エイリーク2] = {
-    [LANGUAGE_JAPANESE] = "エイリーク",
-    [LANGUAGE_ENGLISH] = "Eirika",
-    [LANGUAGE_CHINESE] = "艾莉可",
-},
-
-[MPID_H_エイリーク2] = {
-    [LANGUAGE_JAPANESE] = "ルネス王国王女。エフラムの双子の妹。リオンの友。" TEXT_CMD_NEWLINE "幼い頃、エフラム、リオンと共に様々なことを学んだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Princess of Renais, Ephraim's twin sister," TEXT_CMD_NEWLINE "and Lyon's friend. The three of them studied" TEXT_CMD_NEWLINE "many things together in their youth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "路奈斯王国的公主，艾夫拉姆的双胞胎妹妹。利昂好友。" TEXT_CMD_NEWLINE "小时候和艾夫拉姆、利昂一起学习过许多技艺。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_エイリーク2] = {
-    [LANGUAGE_JAPANESE] = "追憶の優王女",
-    [LANGUAGE_ENGLISH] = "Anamnesis Lady",
-    [LANGUAGE_CHINESE] = "回忆的善良公主",
-},
-
-[MPID_ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "ディミトリ",
-    [LANGUAGE_ENGLISH] = "Dimitri",
-    [LANGUAGE_CHINESE] = "帝弥托利",
-},
-
-[MPID_H_ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の王子で、王位継承者。" TEXT_CMD_NEWLINE "仲間想いで勇敢だが、どこか陰のある性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Crown prince of the Holy Kingdom of Faerghus." TEXT_CMD_NEWLINE "Known for his chivalry, it seems a darkness may" TEXT_CMD_NEWLINE "lurk beneath the surface. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的王子、王位继承人。" TEXT_CMD_NEWLINE "为同伴著想且勇敢，但个性中有著黑暗面。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_ディミトリ] = {
-    [LANGUAGE_JAPANESE] = "青獅子の守護者",
-    [LANGUAGE_ENGLISH] = "The Protector",
-    [LANGUAGE_CHINESE] = "青狮子的守护者",
-},
-
-[MPID_クロード] = {
-    [LANGUAGE_JAPANESE] = "クロード",
-    [LANGUAGE_ENGLISH] = "Claude",
-    [LANGUAGE_CHINESE] = "库罗德",
-},
-
-[MPID_H_クロード] = {
-    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の盟主リーガン公の跡取り。" TEXT_CMD_NEWLINE "飄々としていて、人懐こさと腹黒さを使い分ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Heir to House Riegan, the leading house of the" TEXT_CMD_NEWLINE "Leicester Alliance. Employs both an easygoing" TEXT_CMD_NEWLINE "attitude and an effortless skill for scheming." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的盟主里刚公爵的继承人。" TEXT_CMD_NEWLINE "我行我素飘忽不定，巧妙活用其不怕生、擅谋略之长处。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_クロード] = {
-    [LANGUAGE_JAPANESE] = "野望の寵児",
-    [LANGUAGE_ENGLISH] = "The Schemer",
-    [LANGUAGE_CHINESE] = "野心的宠儿",
-},
-
-[MPID_フォルカ] = {
-    [LANGUAGE_JAPANESE] = "フォルカ",
-    [LANGUAGE_ENGLISH] = "Volke",
-    [LANGUAGE_CHINESE] = "弗尔加",
-},
-
-[MPID_H_フォルカ] = {
-    [LANGUAGE_JAPANESE] = "特定の主を持たない、裏稼業の男。" TEXT_CMD_NEWLINE "【火消し】の異名を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A man who makes his living as part of the" TEXT_CMD_NEWLINE "criminal underworld, answering to no one." TEXT_CMD_NEWLINE "Also occasionally referred to as \"fireman.\"" TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "从事地下生意的男子，没有特定的雇主。" TEXT_CMD_NEWLINE "别名为【救火队】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_フォルカ] = {
-    [LANGUAGE_JAPANESE] = "神出鬼没の情報屋",
-    [LANGUAGE_ENGLISH] = "Man of Mysteries",
-    [LANGUAGE_CHINESE] = "神出鬼没的情报商",
-},
-
-[MPID_フローラ] = {
-    [LANGUAGE_JAPANESE] = "フローラ",
-    [LANGUAGE_ENGLISH] = "Flora",
-    [LANGUAGE_CHINESE] = "芙洛拉",
-},
-
-[MPID_H_フローラ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国のメイド。カムイの臣下。" TEXT_CMD_NEWLINE "フェリシアの双子の姉で、真面目な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A Nohrian maid who serves Corrin. Tends to be" TEXT_CMD_NEWLINE "serious. Has a twin sister, Felicia. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的女仆，神威的部下。" TEXT_CMD_NEWLINE "菲利西亚的双胞胎姊姊，个性严谨。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_フローラ] = {
-    [LANGUAGE_JAPANESE] = "氷のメイド",
-    [LANGUAGE_ENGLISH] = "Cold as Ice",
-    [LANGUAGE_CHINESE] = "冰之女仆",
-},
-
-[MPID_クリス女] = {
-    [LANGUAGE_JAPANESE] = "クリス",
-    [LANGUAGE_ENGLISH] = "Kris",
-    [LANGUAGE_CHINESE] = "克里斯",
-},
-
-[MPID_H_クリス女] = {
-    [LANGUAGE_JAPANESE] = "アリティア王国セラ村の出身。新人騎士で編成された、" TEXT_CMD_NEWLINE "第七小隊のリーダー。近衛騎士としてマルスを支える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Hails from the Altean village of Sera. Leader" TEXT_CMD_NEWLINE "of the 7th Platoon, a group of newly appointed" TEXT_CMD_NEWLINE "knights. Serves Marth as a royal guard. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: New Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "出身于阿利提亚王国的瑟拉村，担任以新人骑士编组的" TEXT_CMD_NEWLINE "第七小队的队长。以近卫骑士的身分辅佐马尔斯。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
-},
-
-[MPID_HONOR_クリス女] = {
-    [LANGUAGE_JAPANESE] = "語られざる英雄",
-    [LANGUAGE_ENGLISH] = "Unsung Hero",
-    [LANGUAGE_CHINESE] = "不为人知的英雄",
-},
-
-[MPID_暗黒ハーディン] = {
-    [LANGUAGE_JAPANESE] = "ハーディン",
-    [LANGUAGE_ENGLISH] = "Hardin",
-    [LANGUAGE_CHINESE] = "哈汀",
-},
-
-[MPID_H_暗黒ハーディン] = {
-    [LANGUAGE_JAPANESE] = "アカネイア神聖帝国の皇帝。" TEXT_CMD_NEWLINE "多くの人々を殺し、【暗黒皇帝】と恐れられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Emperor of the Holy Empire of Archanea." TEXT_CMD_NEWLINE "Known as the Dark Emperor due to his" TEXT_CMD_NEWLINE "bloody reign. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿卡奈亚神圣帝国的皇帝。" TEXT_CMD_NEWLINE "杀害了无数人类，是人们所惧怕的【暗黑皇帝】。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_暗黒ハーディン] = {
-    [LANGUAGE_JAPANESE] = "暗黒皇帝",
-    [LANGUAGE_ENGLISH] = "Dark Emperor",
-    [LANGUAGE_CHINESE] = "暗黑皇帝",
-},
-
-[MPID_サラ] = {
-    [LANGUAGE_JAPANESE] = "サラ",
-    [LANGUAGE_ENGLISH] = "Sara",
-    [LANGUAGE_CHINESE] = "莎拉",
-},
-
-[MPID_H_サラ] = {
-    [LANGUAGE_JAPANESE] = "ロプト教団の大司教マンフロイの孫娘。" TEXT_CMD_NEWLINE "親を害した祖父を嫌い、そのもとを飛び出す。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Granddaughter of Lord Manfroy, archbishop and" TEXT_CMD_NEWLINE "great priest of the Loptr Church. Hates Manfroy" TEXT_CMD_NEWLINE "for what he did to her parents. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "罗普托教团大司教曼福洛伊的孙女。" TEXT_CMD_NEWLINE "厌恶杀害父亲的祖父而离开他身边。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_サラ] = {
-    [LANGUAGE_JAPANESE] = "ロプトの姫",
-    [LANGUAGE_ENGLISH] = "Lady of Loptr",
-    [LANGUAGE_CHINESE] = "罗普托的公主",
-},
-
-[MPID_ゴードン] = {
-    [LANGUAGE_JAPANESE] = "ゴードン",
-    [LANGUAGE_ENGLISH] = "Gordin",
-    [LANGUAGE_CHINESE] = "哥顿",
-},
-
-[MPID_H_ゴードン] = {
-    [LANGUAGE_JAPANESE] = "アリティア王国の弓兵。幼く見られがちだが、" TEXT_CMD_NEWLINE "努力家で、弓の実力はアリティア随一。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Altean archer who is masterful with his bow." TEXT_CMD_NEWLINE "Looks younger than he actually is. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿利提亚王国的弓兵，虽然常被误以为是小朋友，" TEXT_CMD_NEWLINE "但是很努力，射箭的实力在阿利提亚首屈一指。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_ゴードン] = {
-    [LANGUAGE_JAPANESE] = "アリティアの弓兵",
-    [LANGUAGE_ENGLISH] = "Altean Archer",
-    [LANGUAGE_CHINESE] = "阿利提亚的弓兵",
-},
-
-[MPID_マルス] = {
-    [LANGUAGE_JAPANESE] = "マルス",
-    [LANGUAGE_ENGLISH] = "Marth",
-    [LANGUAGE_CHINESE] = "马尔斯",
-},
-
-[MPID_H_マルス] = {
-    [LANGUAGE_JAPANESE] = "アリティア王国の王子。祖国再興のために戦う。" TEXT_CMD_NEWLINE "優しい性格で、仲間を何より大切にしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Prince of Altea who fights for his homeland" TEXT_CMD_NEWLINE "and deeply values his friends. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿利提亚王国的王子，为了复兴祖国而战。" TEXT_CMD_NEWLINE "个性善良，看重伙伴甚于任何事物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_マルス] = {
-    [LANGUAGE_JAPANESE] = "アリティアの王子",
-    [LANGUAGE_ENGLISH] = "Altean Prince",
-    [LANGUAGE_CHINESE] = "阿利提亚的王子",
-},
-
-[MPID_シーダ] = {
-    [LANGUAGE_JAPANESE] = "シーダ",
-    [LANGUAGE_ENGLISH] = "Caeda",
-    [LANGUAGE_CHINESE] = "希达",
-},
-
-[MPID_H_シーダ] = {
-    [LANGUAGE_JAPANESE] = "タリス王女。マルス王子の婚約者。" TEXT_CMD_NEWLINE "敵味方を問わず、人を惹きつける魅力を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Princess of Talys who's as talented as she" TEXT_CMD_NEWLINE "is charming. Marth's betrothed. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "塔利斯的公主，马尔斯王子的未婚妻。" TEXT_CMD_NEWLINE "不论敌我，都会被她的魅力所吸引。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_シーダ] = {
-    [LANGUAGE_JAPANESE] = "タリスの王女",
-    [LANGUAGE_ENGLISH] = "Talys's Heart",
-    [LANGUAGE_CHINESE] = "塔利斯的公主",
-},
-
-[MPID_ニシキ] = {
-    [LANGUAGE_JAPANESE] = "ニシキ",
-    [LANGUAGE_ENGLISH] = "Kaden",
-    [LANGUAGE_CHINESE] = "锦",
-},
-
-[MPID_H_ニシキ] = {
-    [LANGUAGE_JAPANESE] = "妖狐たちが隠れ住む里の長。" TEXT_CMD_NEWLINE "毛並みの美しさに絶対の自信を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "The chief of a hidden village of kitsune. He has" TEXT_CMD_NEWLINE "absolute confidence in the beauty of his fur." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "妖狐们隐居的村里的领导者。" TEXT_CMD_NEWLINE "对自己美丽的毛皮有绝对的自信。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ニシキ] = {
-    [LANGUAGE_JAPANESE] = "妖狐の長",
-    [LANGUAGE_ENGLISH] = "Kitsune Braggart",
-    [LANGUAGE_CHINESE] = "妖狐之长",
-},
-
-[MPID_ベルベット] = {
-    [LANGUAGE_JAPANESE] = "ベルベット",
-    [LANGUAGE_ENGLISH] = "Panne",
-    [LANGUAGE_CHINESE] = "贝尔贝特",
-},
-
-[MPID_H_ベルベット] = {
-    [LANGUAGE_JAPANESE] = "獣に変身する種族であるタグエルの生き残り。" TEXT_CMD_NEWLINE "落ち着いていて、芯の強い性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "The last of the taguel, a rabbit-like race. Calm," TEXT_CMD_NEWLINE "sensible, and self-reliant. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "为能够化身为兽的种族「塔格艾尔」的幸存者。" TEXT_CMD_NEWLINE "性格沉著冷静、内心刚强。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ベルベット] = {
-    [LANGUAGE_JAPANESE] = "誇り高きタグエル",
-    [LANGUAGE_ENGLISH] = "Proud Taguel",
-    [LANGUAGE_CHINESE] = "荣耀的塔格艾尔",
+[MPID_HONOR_バジーリオ] = {
+    [LANGUAGE_JAPANESE] = "フェリアの西王",
+    [LANGUAGE_ENGLISH] = "Feroxi West-Khan",
+    [LANGUAGE_CHINESE] = "菲利亚的西境王",
 },
 
 [MPID_スカサハ] = {
@@ -5617,130 +4951,58 @@
     [LANGUAGE_CHINESE] = "奔驰大地的流星",
 },
 
-[MPID_ツバキ] = {
-    [LANGUAGE_JAPANESE] = "ツバキ",
-    [LANGUAGE_ENGLISH] = "Subaki",
-    [LANGUAGE_CHINESE] = "椿",
+[MPID_クリス女] = {
+    [LANGUAGE_JAPANESE] = "クリス",
+    [LANGUAGE_ENGLISH] = "Kris",
+    [LANGUAGE_CHINESE] = "克里斯",
 },
 
-[MPID_H_ツバキ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の天馬武者。サクラの臣下。" TEXT_CMD_NEWLINE "眉目秀麗、頭脳明晰な完璧主義者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Sky Knight of Hoshido who aims for" TEXT_CMD_NEWLINE "perfection. One of Sakura's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的天马武士，樱的部下。" TEXT_CMD_NEWLINE "是位眉清目秀、头脑清晰的完美主义者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+[MPID_H_クリス女] = {
+    [LANGUAGE_JAPANESE] = "アリティア王国セラ村の出身。新人騎士で編成された、" TEXT_CMD_NEWLINE "第七小隊のリーダー。近衛騎士としてマルスを支える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Hails from the Altean village of Sera. Leader" TEXT_CMD_NEWLINE "of the 7th Platoon, a group of newly appointed" TEXT_CMD_NEWLINE "knights. Serves Marth as a royal guard. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: New Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "出身于阿利提亚王国的瑟拉村，担任以新人骑士编组的" TEXT_CMD_NEWLINE "第七小队的队长。以近卫骑士的身分辅佐马尔斯。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
 },
 
-[MPID_HONOR_ツバキ] = {
-    [LANGUAGE_JAPANESE] = "完璧主義",
-    [LANGUAGE_ENGLISH] = "Perfect Expert",
-    [LANGUAGE_CHINESE] = "完美主义",
+[MPID_HONOR_クリス女] = {
+    [LANGUAGE_JAPANESE] = "語られざる英雄",
+    [LANGUAGE_ENGLISH] = "Unsung Hero",
+    [LANGUAGE_CHINESE] = "不为人知的英雄",
 },
 
-[MPID_ガルザス] = {
-    [LANGUAGE_JAPANESE] = "ガルザス",
-    [LANGUAGE_ENGLISH] = "Galzus",
-    [LANGUAGE_CHINESE] = "嘉尔札斯",
+[MPID_総選挙覚醒チキ] = {
+    [LANGUAGE_JAPANESE] = "チキ",
+    [LANGUAGE_ENGLISH] = "Tiki",
+    [LANGUAGE_CHINESE] = "琪姬",
 },
 
-[MPID_H_ガルザス] = {
-    [LANGUAGE_JAPANESE] = "奴隷商人にさらわれ、生き別れになった娘を捜す傭兵。" TEXT_CMD_NEWLINE "彼と彼の娘には、剣聖オードの聖痕がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Lives the life of a mercenary, searching for" TEXT_CMD_NEWLINE "the daughter that was stolen from him. Both of" TEXT_CMD_NEWLINE "them carry the blood of Od, the Sword Saint." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "与遭到奴隶商人掳走的女儿分离，到处寻找女儿的" TEXT_CMD_NEWLINE "佣兵。父女俩都有著剑圣奥德的圣痕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+[MPID_H_総選挙覚醒チキ] = {
+    [LANGUAGE_JAPANESE] = "神話の時代から数えて数千年を生きる竜人。" TEXT_CMD_NEWLINE "神竜の巫女としてヴァルムの民に崇め祀られている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A manakete who has lived for thousands of" TEXT_CMD_NEWLINE "years, through many ages. Worshipped as the" TEXT_CMD_NEWLINE "Voice of the Divine Dragon by the people of" TEXT_CMD_NEWLINE "Valm. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "从神话时代起活了数千年的龙人。" TEXT_CMD_NEWLINE "作为神龙的巫女备受瓦雷姆的人民敬重。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_ガルザス] = {
-    [LANGUAGE_JAPANESE] = "オードの黒剣士",
-    [LANGUAGE_ENGLISH] = "Dark Blade of Od",
-    [LANGUAGE_CHINESE] = "奥德的黑剑士",
+[MPID_HONOR_総選挙覚醒チキ] = {
+    [LANGUAGE_JAPANESE] = "神竜の目覚め",
+    [LANGUAGE_ENGLISH] = "Fated Divinity",
+    [LANGUAGE_CHINESE] = "神龙苏醒",
 },
 
-[MPID_レナック] = {
-    [LANGUAGE_JAPANESE] = "レナック",
-    [LANGUAGE_ENGLISH] = "Rennac",
-    [LANGUAGE_CHINESE] = "雷纳克",
+[MPID_開花イシュタル] = {
+    [LANGUAGE_JAPANESE] = "イシュタル",
+    [LANGUAGE_ENGLISH] = "Ishtar",
+    [LANGUAGE_CHINESE] = "伊修达尔",
 },
 
-[MPID_H_レナック] = {
-    [LANGUAGE_JAPANESE] = "ラーチェルの破天荒な旅路に付き合わされている盗賊。" TEXT_CMD_NEWLINE "実はカルチノ一の豪商の家の出で、世事に長けている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A thief forced to accompany L'Arachel on her" TEXT_CMD_NEWLINE "adventures. Member of a wealthy merchant" TEXT_CMD_NEWLINE "family and well-versed in the ways of the world." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "被迫陪著拉切尔的盗贼，踏上了前所未闻的旅途。" TEXT_CMD_NEWLINE "实际上出身于卡尔奇诺的富商之家，通晓世事。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+[MPID_H_開花イシュタル] = {
+    [LANGUAGE_JAPANESE] = "ユリウス皇子を愛したフリージの王女。ユリウスに" TEXT_CMD_NEWLINE "背いて密かに子供たちを救い、最後の聖戦へ臨んだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Princess of Friege who turned her back on her" TEXT_CMD_NEWLINE "lover, Julius, and secreted captured children to" TEXT_CMD_NEWLINE "safety. Later took part in the holy war. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "爱上尤利乌斯皇子的弗立吉公主。背著尤利乌斯" TEXT_CMD_NEWLINE "偷偷拯救孩子们，参加了最后的圣战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
 },
 
-[MPID_HONOR_レナック] = {
-    [LANGUAGE_JAPANESE] = "嘆きの盗賊",
-    [LANGUAGE_ENGLISH] = "Rich \"Merchant\"",
-    [LANGUAGE_CHINESE] = "悲叹的盗贼",
-},
-
-[MPID_ロナン] = {
-    [LANGUAGE_JAPANESE] = "ロナン",
-    [LANGUAGE_ENGLISH] = "Ronan",
-    [LANGUAGE_CHINESE] = "罗南",
-},
-
-[MPID_H_ロナン] = {
-    [LANGUAGE_JAPANESE] = "イスの村に住む猟師。" TEXT_CMD_NEWLINE "正義感が強く、海賊に対し強い怒りを抱く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "A hunter from the village Iz. Has a strong sense" TEXT_CMD_NEWLINE "for right and wrong, and a stronger distaste for" TEXT_CMD_NEWLINE "pirates. Appears in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "居住在伊斯村的猎人。" TEXT_CMD_NEWLINE "具有强烈的正义感，极度厌恶海盗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_ロナン] = {
-    [LANGUAGE_JAPANESE] = "イス村の若者",
-    [LANGUAGE_ENGLISH] = "Villager of Iz",
-    [LANGUAGE_CHINESE] = "伊斯村的年轻人",
-},
-
-[MPID_開花ヨシュア] = {
-    [LANGUAGE_JAPANESE] = "ヨシュア",
-    [LANGUAGE_ENGLISH] = "Joshua",
-    [LANGUAGE_CHINESE] = "约书亚",
-},
-
-[MPID_H_開花ヨシュア] = {
-    [LANGUAGE_JAPANESE] = "身分を捨て、諸国を流浪していたジャハナの王子。" TEXT_CMD_NEWLINE "母の遺志を継ぎ、祖国と世界を守ると誓う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Prince of Jehanna who tossed his status aside" TEXT_CMD_NEWLINE "to wander the land. Heir to his mother's dream," TEXT_CMD_NEWLINE "he's sworn to protect his homeland and world." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "舍弃身分，流浪于各国的贾哈纳王子。" TEXT_CMD_NEWLINE "继承母亲的遗志，发誓守护祖国和世界。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_開花ヨシュア] = {
-    [LANGUAGE_JAPANESE] = "決意の風来王",
-    [LANGUAGE_ENGLISH] = "Resolute Tempest",
-    [LANGUAGE_CHINESE] = "决意的飘忽不定",
-},
-
-[MPID_マリータ] = {
-    [LANGUAGE_JAPANESE] = "マリータ",
-    [LANGUAGE_ENGLISH] = "Mareeta",
-    [LANGUAGE_CHINESE] = "玛丽塔",
-},
-
-[MPID_H_マリータ] = {
-    [LANGUAGE_JAPANESE] = "フィアナ村の領主エーヴェルの養女。" TEXT_CMD_NEWLINE "呪いを克服し、強き剣士を目指す少女。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Foster daughter of Eyvel, mistress of Fiana." TEXT_CMD_NEWLINE "Freed from a curse, she now seeks to become" TEXT_CMD_NEWLINE "a great swordmaster. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
-    [LANGUAGE_CHINESE] = "费亚纳村的领主爱薇尔的养女。" TEXT_CMD_NEWLINE "克服了诅咒，以成为强大剑士为目标的少女。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_マリータ] = {
-    [LANGUAGE_JAPANESE] = "月と星の剣士",
-    [LANGUAGE_ENGLISH] = "Sword of Stars",
-    [LANGUAGE_CHINESE] = "月与星的剑士",
-},
-
-[MPID_暴走アイク] = {
-    [LANGUAGE_JAPANESE] = "アイク",
-    [LANGUAGE_ENGLISH] = "Ike",
-    [LANGUAGE_CHINESE] = "艾克",
-},
-
-[MPID_H_暴走アイク] = {
-    [LANGUAGE_JAPANESE] = "グレイル傭兵団の団長。" TEXT_CMD_NEWLINE "【負】の気に呑まれ、力を暴走させてしまう。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "Leader of the Greil Mercenaries. Overwhelmed" TEXT_CMD_NEWLINE "with negative energy, the power is enough for" TEXT_CMD_NEWLINE "him to lose control. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "格莱尔佣兵团的团长。" TEXT_CMD_NEWLINE "被【负】之气所吞噬，力量因此失控。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_暴走アイク] = {
-    [LANGUAGE_JAPANESE] = "暴走の闘気",
-    [LANGUAGE_ENGLISH] = "Zeal Unleashed",
-    [LANGUAGE_CHINESE] = "失控的斗气",
+[MPID_HONOR_開花イシュタル] = {
+    [LANGUAGE_JAPANESE] = "死地の雷神",
+    [LANGUAGE_ENGLISH] = "Echoing Thunder",
+    [LANGUAGE_CHINESE] = "死地的雷神",
 },
 
 [MEID_エイトリ] = {
@@ -5779,6 +5041,132 @@
     [LANGUAGE_CHINESE] = "帝国的白刃",
 },
 
+[MPID_ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "ディミトリ",
+    [LANGUAGE_ENGLISH] = "Dimitri",
+    [LANGUAGE_CHINESE] = "帝弥托利",
+},
+
+[MPID_H_ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の王子で、王位継承者。" TEXT_CMD_NEWLINE "仲間想いで勇敢だが、どこか陰のある性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Crown prince of the Holy Kingdom of Faerghus." TEXT_CMD_NEWLINE "Known for his chivalry, but it seems a darkness" TEXT_CMD_NEWLINE "may lurk beneath the surface. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的王子、王位继承人。" TEXT_CMD_NEWLINE "为同伴著想且勇敢，但个性中有著黑暗面。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_ディミトリ] = {
+    [LANGUAGE_JAPANESE] = "青獅子の守護者",
+    [LANGUAGE_ENGLISH] = "The Protector",
+    [LANGUAGE_CHINESE] = "青狮子的守护者",
+},
+
+[MPID_魔器ルフレ女] = {
+    [LANGUAGE_JAPANESE] = "ルフレ",
+    [LANGUAGE_ENGLISH] = "Robin",
+    [LANGUAGE_CHINESE] = "鲁弗莱",
+},
+
+[MPID_H_魔器ルフレ女] = {
+    [LANGUAGE_JAPANESE] = "邪竜ギムレーの魂を宿した存在。" TEXT_CMD_NEWLINE "手にした新たな力は世界を絶望にいざなうのか？" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A host for the soul of Grima, the Fell Dragon," TEXT_CMD_NEWLINE "bent on using her newfound power to sink the" TEXT_CMD_NEWLINE "world further into despair. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "邪龙津利之魂的寄宿者。" TEXT_CMD_NEWLINE "她会用到手的新力量将世界带向绝望吗？" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_魔器ルフレ女] = {
+    [LANGUAGE_JAPANESE] = "絶望へ導くもの",
+    [LANGUAGE_ENGLISH] = "Fell Tactician",
+    [LANGUAGE_CHINESE] = "引领至绝望之人",
+},
+
+[MPID_ゴードン] = {
+    [LANGUAGE_JAPANESE] = "ゴードン",
+    [LANGUAGE_ENGLISH] = "Gordin",
+    [LANGUAGE_CHINESE] = "哥顿",
+},
+
+[MPID_H_ゴードン] = {
+    [LANGUAGE_JAPANESE] = "アリティア王国の弓兵。幼く見られがちだが、" TEXT_CMD_NEWLINE "努力家で、弓の実力はアリティア随一。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Altean archer who is masterful with his bow." TEXT_CMD_NEWLINE "Looks younger than he actually is. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿利提亚王国的弓兵，虽然常被误以为是小朋友，" TEXT_CMD_NEWLINE "但是很努力，射箭的实力在阿利提亚首屈一指。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_ゴードン] = {
+    [LANGUAGE_JAPANESE] = "アリティアの弓兵",
+    [LANGUAGE_ENGLISH] = "Altean Archer",
+    [LANGUAGE_CHINESE] = "阿利提亚的弓兵",
+},
+
+[MPID_ティト] = {
+    [LANGUAGE_JAPANESE] = "ティト",
+    [LANGUAGE_ENGLISH] = "Thea",
+    [LANGUAGE_CHINESE] = "蒂特",
+},
+
+[MPID_H_ティト] = {
+    [LANGUAGE_JAPANESE] = "シャニーの姉で、天馬騎士団の部隊長。" TEXT_CMD_NEWLINE "誠実で腕が立つが、融通が利かない一面も。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "The second of three sisters who are Pegasus" TEXT_CMD_NEWLINE "Knights of Ilia. She is talented and sincere," TEXT_CMD_NEWLINE "but she can be lacking in flexibility. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "夏妮的姊姊，同时也是天马骑士团的部队队长。" TEXT_CMD_NEWLINE "个性真诚且手腕高超，但也有不懂得变通的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_ティト] = {
+    [LANGUAGE_JAPANESE] = "疾風の天馬騎士",
+    [LANGUAGE_ENGLISH] = "Stormy Flier",
+    [LANGUAGE_CHINESE] = "疾风的天马骑士",
+},
+
+[MPID_ジョフレ] = {
+    [LANGUAGE_JAPANESE] = "ジョフレ",
+    [LANGUAGE_ENGLISH] = "Geoffrey",
+    [LANGUAGE_CHINESE] = "乔弗雷",
+},
+
+[MPID_H_ジョフレ] = {
+    [LANGUAGE_JAPANESE] = "クリミアの槍騎将にして王宮騎士団長。祖国クリミアと" TEXT_CMD_NEWLINE "エリンシア女王のため、限りない忠節を示す。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "Paladin leader of the Royal Knights of Crimea." TEXT_CMD_NEWLINE "His loyalty for his homeland and Queen Elincia" TEXT_CMD_NEWLINE "knows no bounds. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "克里米亚的枪骑将，也是王宫骑士团团长。" TEXT_CMD_NEWLINE "为了祖国克里米亚和艾琳西亚女王，展现无尽的忠义。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_ジョフレ] = {
+    [LANGUAGE_JAPANESE] = "女王の騎士",
+    [LANGUAGE_ENGLISH] = "Realm's Protector",
+    [LANGUAGE_CHINESE] = "女王的骑士",
+},
+
+[MPID_アスベル] = {
+    [LANGUAGE_JAPANESE] = "アスベル",
+    [LANGUAGE_ENGLISH] = "Asbel",
+    [LANGUAGE_CHINESE] = "亚斯贝尔",
+},
+
+[MPID_H_アスベル] = {
+    [LANGUAGE_JAPANESE] = "アルスターの小都市フレストの魔道士。" TEXT_CMD_NEWLINE "リーフと交わした誓いを守るべく旅に出る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "A wind mage from a small city in Ulster, Hrest." TEXT_CMD_NEWLINE "Undertakes a long journey in search of Leif" TEXT_CMD_NEWLINE "in order to fulfill his pledge. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "出身于阿尔斯特的小城市——弗勒司特的魔道士。" TEXT_CMD_NEWLINE "为了实现与里弗订下的誓约而踏上旅程。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_アスベル] = {
+    [LANGUAGE_JAPANESE] = "風に導かれた少年",
+    [LANGUAGE_ENGLISH] = "Windswept Youth",
+    [LANGUAGE_CHINESE] = "受风指引的少年",
+},
+
+[MPID_セティ] = {
+    [LANGUAGE_JAPANESE] = "セティ",
+    [LANGUAGE_ENGLISH] = "Ced",
+    [LANGUAGE_CHINESE] = "赛提",
+},
+
+[MPID_H_セティ] = {
+    [LANGUAGE_JAPANESE] = "シレジアの四天馬騎士フュリーの子。" TEXT_CMD_NEWLINE "マンスター解放のために立ち上がる勇者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Son of Silesse's pegasus knight Erinys. A hero" TEXT_CMD_NEWLINE "that stood up for the liberation of Munster." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the" TEXT_CMD_NEWLINE "Holy War.",
+    [LANGUAGE_CHINESE] = "西里西亚的四天马骑士菲莉之子。" TEXT_CMD_NEWLINE "为了解放曼斯特挺身而战的勇者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_セティ] = {
+    [LANGUAGE_JAPANESE] = "風の勇者",
+    [LANGUAGE_ENGLISH] = "Hero on the Wind",
+    [LANGUAGE_CHINESE] = "风之勇者",
+},
+
 [MPID_ユーリス] = {
     [LANGUAGE_JAPANESE] = "ユーリス",
     [LANGUAGE_ENGLISH] = "Yuri",
@@ -5797,58 +5185,22 @@
     [LANGUAGE_CHINESE] = "灰色的侠义心",
 },
 
-[MPID_催眠ユリア] = {
-    [LANGUAGE_JAPANESE] = "ユリア",
-    [LANGUAGE_ENGLISH] = "Julia",
-    [LANGUAGE_CHINESE] = "尤莉亚",
+[MPID_ギィ] = {
+    [LANGUAGE_JAPANESE] = "ギィ",
+    [LANGUAGE_ENGLISH] = "Guy",
+    [LANGUAGE_CHINESE] = "基",
 },
 
-[MPID_H_催眠ユリア] = {
-    [LANGUAGE_JAPANESE] = "光の書【ナーガ】の継承者。" TEXT_CMD_NEWLINE "マンフロイに心を支配され、セリスと敵対する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Inheritor of the Book of Naga. Manipulated by" TEXT_CMD_NEWLINE "Manfroy, she has grown hostile toward Seliph." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the" TEXT_CMD_NEWLINE "Holy War.",
-    [LANGUAGE_CHINESE] = "光之书【那迦】的继承者。" TEXT_CMD_NEWLINE "内心被曼福洛伊所支配，与赛列斯为敌。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+[MPID_H_ギィ] = {
+    [LANGUAGE_JAPANESE] = "サカの三大部族の一つ、クトラ族の戦士。" TEXT_CMD_NEWLINE "剣の修行のために一人旅に出た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Swordsman of the Kutolah, one of the three" TEXT_CMD_NEWLINE "tribes of Sacae. He set out alone on a journey" TEXT_CMD_NEWLINE "to hone his skill with the blade. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "塞迦三大部落之一的库特拉族的战士。" TEXT_CMD_NEWLINE "为了磨练剑术而独自踏上旅途。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
 },
 
-[MPID_HONOR_催眠ユリア] = {
-    [LANGUAGE_JAPANESE] = "奪われた心",
-    [LANGUAGE_ENGLISH] = "Heart Usurped",
-    [LANGUAGE_CHINESE] = "被夺走的心",
-},
-
-[MPID_エメリナ] = {
-    [LANGUAGE_JAPANESE] = "エメリナ",
-    [LANGUAGE_ENGLISH] = "Emmeryn",
-    [LANGUAGE_CHINESE] = "艾美莉娜",
-},
-
-[MPID_H_エメリナ] = {
-    [LANGUAGE_JAPANESE] = "すべてを包み込む愛をもって、" TEXT_CMD_NEWLINE "イーリス聖王国を治める女王。クロムとリズの姉。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Kind and loving Exalt who rules over the" TEXT_CMD_NEWLINE "Halidom of Ylisse. She is the sister of Chrom" TEXT_CMD_NEWLINE "and Lissa. Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "怀著包容一切的爱治理伊里斯圣王国的女王。" TEXT_CMD_NEWLINE "库洛武与莉兹的姊姊。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_エメリナ] = {
-    [LANGUAGE_JAPANESE] = "慈愛の女王",
-    [LANGUAGE_ENGLISH] = "Gentle Exalt",
-    [LANGUAGE_CHINESE] = "慈悲的女王",
-},
-
-[MPID_ティバーン] = {
-    [LANGUAGE_JAPANESE] = "ティバーン",
-    [LANGUAGE_ENGLISH] = "Tibarn",
-    [LANGUAGE_CHINESE] = "狄邦",
-},
-
-[MPID_H_ティバーン] = {
-    [LANGUAGE_JAPANESE] = "鳥翼族、鷹の民の国フェニキスの王。" TEXT_CMD_NEWLINE "圧倒的な戦闘力と求心力で民を率いる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "King of Phoenicis, the nation of the hawk" TEXT_CMD_NEWLINE "laguz. Leads his people by dint of his" TEXT_CMD_NEWLINE "overwhelming fighting ability and charisma." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "鸟翼族，鹰之民王国菲尼奇斯之王。" TEXT_CMD_NEWLINE "以压倒性的战斗力和向心力率领人民。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_ティバーン] = {
-    [LANGUAGE_JAPANESE] = "大空の覇者",
-    [LANGUAGE_ENGLISH] = "Lord of the Air",
-    [LANGUAGE_CHINESE] = "天空的霸者",
+[MPID_HONOR_ギィ] = {
+    [LANGUAGE_JAPANESE] = "クトラ族の戦士",
+    [LANGUAGE_ENGLISH] = "Kutolah Blade",
+    [LANGUAGE_CHINESE] = "库特拉族的战士",
 },
 
 [MPID_比翼エフラム] = {
@@ -5869,40 +5221,364 @@
     [LANGUAGE_CHINESE] = "连翼的王子与皇子",
 },
 
-[MPID_レテ] = {
-    [LANGUAGE_JAPANESE] = "レテ",
-    [LANGUAGE_ENGLISH] = "Lethe",
-    [LANGUAGE_CHINESE] = "蕾媞",
+[MPID_ジスト] = {
+    [LANGUAGE_JAPANESE] = "ジスト",
+    [LANGUAGE_ENGLISH] = "Gerik",
+    [LANGUAGE_CHINESE] = "吉斯特",
 },
 
-[MPID_H_レテ] = {
-    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国の猫の民の戦士。かつては" TEXT_CMD_NEWLINE "ベオクを嫌悪していたが、その心情も変わりつつある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "A cat warrior from Gallia, the home of the beast" TEXT_CMD_NEWLINE "tribe of laguz. Once had a distrust of all beorc," TEXT_CMD_NEWLINE "but that's slowly changing. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "居住在加利亚王国的兽牙族的猫之民战士。" TEXT_CMD_NEWLINE "曾极度厌恶贝欧克，但这份情感正逐渐改变。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+[MPID_H_ジスト] = {
+    [LANGUAGE_JAPANESE] = "ジスト傭兵団のリーダーで、百戦錬磨の傭兵。" TEXT_CMD_NEWLINE "テティス、ユアンの姉弟やマリカらを統率する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A veteran soldier who leads his own mercenary" TEXT_CMD_NEWLINE "band, Gerik's Mercenaries. He's the commander" TEXT_CMD_NEWLINE "of Tethys, Ewan, Marisa, and others. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "吉斯特佣兵团的领袖，是一名身经百战的佣兵。" TEXT_CMD_NEWLINE "统率著特媞丝、尤安姊弟与玛莉卡等人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
 },
 
-[MPID_HONOR_レテ] = {
-    [LANGUAGE_JAPANESE] = "ガリアの女戦士",
-    [LANGUAGE_ENGLISH] = "Gallia's Valkyrie",
-    [LANGUAGE_CHINESE] = "加利亚的女战士",
+[MPID_HONOR_ジスト] = {
+    [LANGUAGE_JAPANESE] = "砂漠の虎",
+    [LANGUAGE_ENGLISH] = "Desert Tiger",
+    [LANGUAGE_CHINESE] = "沙漠之虎",
 },
 
-[MPID_ネイミー] = {
-    [LANGUAGE_JAPANESE] = "ネイミー",
-    [LANGUAGE_ENGLISH] = "Neimi",
-    [LANGUAGE_CHINESE] = "奈弥",
+[MPID_テティス] = {
+    [LANGUAGE_JAPANESE] = "テティス",
+    [LANGUAGE_ENGLISH] = "Tethys",
+    [LANGUAGE_CHINESE] = "特媞丝",
 },
 
-[MPID_H_ネイミー] = {
-    [LANGUAGE_JAPANESE] = "ルネス王国ラクの村出身の狩人。" TEXT_CMD_NEWLINE "戦乱の中で故郷を山賊に焼かれ、ルネス軍に加わる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A hunter from Lark, a village in Renais. Joins the" TEXT_CMD_NEWLINE "Renais military after bandits burn her hometown" TEXT_CMD_NEWLINE "to the ground in the midst of war's chaos." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "路奈斯王国拉克村出身的猎人。" TEXT_CMD_NEWLINE "故乡在战乱时被山贼烧毁，便加入路奈斯军。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+[MPID_H_テティス] = {
+    [LANGUAGE_JAPANESE] = "ジスト傭兵団の一員で、艶やかな色気を持つ踊り子。" TEXT_CMD_NEWLINE "愛する弟ユアンとふたりで戦乱の世を生き抜く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A member of Gerik's Mercenaries who is a" TEXT_CMD_NEWLINE "talented and charming dancer. Together with" TEXT_CMD_NEWLINE "her dear brother Ewan, she strives to survive a" TEXT_CMD_NEWLINE "life torn apart by war. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "吉斯特佣兵团的一员，有著性感魅力的舞娘。" TEXT_CMD_NEWLINE "与心爱的弟弟尤安在乱世之中相依为命。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
 },
 
-[MPID_HONOR_ネイミー] = {
-    [LANGUAGE_JAPANESE] = "泣き撃ちの狩人",
-    [LANGUAGE_ENGLISH] = "Tearful Archer",
-    [LANGUAGE_CHINESE] = "爱哭的猎人",
+[MPID_HONOR_テティス] = {
+    [LANGUAGE_JAPANESE] = "艶美の舞",
+    [LANGUAGE_ENGLISH] = "Beloved Dancer",
+    [LANGUAGE_CHINESE] = "艳美之舞",
+},
+
+[MPID_総選挙セリス] = {
+    [LANGUAGE_JAPANESE] = "セリス",
+    [LANGUAGE_ENGLISH] = "Seliph",
+    [LANGUAGE_CHINESE] = "赛列斯",
+},
+
+[MPID_H_総選挙セリス] = {
+    [LANGUAGE_JAPANESE] = "聖戦士バルドの末裔、聖騎士シグルドの子。" TEXT_CMD_NEWLINE "長きに渡るユグドラルの聖戦に終止符を打つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Descendant of the crusader Baldr and son" TEXT_CMD_NEWLINE "of Sigurd. Brings Jugdral's long war to" TEXT_CMD_NEWLINE "its conclusion. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "圣战士巴尔德的后裔，圣骑士西格尔特之子。" TEXT_CMD_NEWLINE "为尤格多拉尔长久以来的圣战画下休止符。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_総選挙セリス] = {
+    [LANGUAGE_JAPANESE] = "父の志を追って",
+    [LANGUAGE_ENGLISH] = "Enduring Legacy",
+    [LANGUAGE_CHINESE] = "追随父亲的意志",
+},
+
+[MPID_エレミヤ] = {
+    [LANGUAGE_JAPANESE] = "エレミヤ",
+    [LANGUAGE_ENGLISH] = "Eremiya",
+    [LANGUAGE_CHINESE] = "艾蕾米雅",
+},
+
+[MPID_H_エレミヤ] = {
+    [LANGUAGE_JAPANESE] = "謎の暗殺者集団を率い、ガーネフに従う司祭。" TEXT_CMD_NEWLINE "かつては多くの戦災孤児を救っていたというが……。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　新・紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A bishop in service of Gharnef, and leader of" TEXT_CMD_NEWLINE "a group of assassins. Formerly a kind-hearted" TEXT_CMD_NEWLINE "caretaker of war orphans. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: New Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "率领神秘暗杀集团，服从加内夫的祭司。" TEXT_CMD_NEWLINE "据说她曾拯救许多战争孤儿，然而……" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　新・纹章の谜』）",
+},
+
+[MPID_HONOR_エレミヤ] = {
+    [LANGUAGE_JAPANESE] = "嘆きの司祭",
+    [LANGUAGE_ENGLISH] = "Bishop of Woe",
+    [LANGUAGE_CHINESE] = "悲叹的祭司",
+},
+
+[MPID_レナ] = {
+    [LANGUAGE_JAPANESE] = "レナ",
+    [LANGUAGE_ENGLISH] = "Lena",
+    [LANGUAGE_CHINESE] = "蕾娜",
+},
+
+[MPID_H_レナ] = {
+    [LANGUAGE_JAPANESE] = "マケドニアの聖女と慕われるシスター。騎士マチスの妹。" TEXT_CMD_NEWLINE "暗黒戦争後は、修道院で孤児の世話をしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A cleric revered as Macedon's Angel. Cares for" TEXT_CMD_NEWLINE "orphans in her convent after the conclusion of" TEXT_CMD_NEWLINE "the War of Shadows. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "以马其顿圣女之名受到敬仰的修女。骑士玛吉斯的妹妹。" TEXT_CMD_NEWLINE "暗黑战争后便在修道院里照顾孤儿。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_レナ] = {
+    [LANGUAGE_JAPANESE] = "心優しき聖女",
+    [LANGUAGE_ENGLISH] = "Tender Angel",
+    [LANGUAGE_CHINESE] = "心地善良的圣女",
+},
+
+[MPID_ジュリアン] = {
+    [LANGUAGE_JAPANESE] = "ジュリアン",
+    [LANGUAGE_ENGLISH] = "Julian",
+    [LANGUAGE_CHINESE] = "朱利安",
+},
+
+[MPID_H_ジュリアン] = {
+    [LANGUAGE_JAPANESE] = "かつて暗黒戦争を機に足を洗った元・盗賊。" TEXT_CMD_NEWLINE "シスター・レナと共に修道院で働く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A reformed thief who takes the War of Shadows" TEXT_CMD_NEWLINE "as a chance to atone for his crimes. Lives and" TEXT_CMD_NEWLINE "works in a convent with Sister Lena. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "过去以暗黑战争为契机，金盆洗手的前盗贼。" TEXT_CMD_NEWLINE "与蕾娜修女一起在修道院里工作。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_ジュリアン] = {
+    [LANGUAGE_JAPANESE] = "心優しき元盗賊",
+    [LANGUAGE_ENGLISH] = "Tender Thief",
+    [LANGUAGE_CHINESE] = "心地善良的前盗贼",
+},
+
+[MPID_オロチ] = {
+    [LANGUAGE_JAPANESE] = "オロチ",
+    [LANGUAGE_ENGLISH] = "Orochi",
+    [LANGUAGE_CHINESE] = "远吕智",
+},
+
+[MPID_H_オロチ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国に仕える呪い師。幼いころから王宮に" TEXT_CMD_NEWLINE "出入りしているため王家の面々とも顔馴染み。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A Hoshidan diviner who was a frequent visitor" TEXT_CMD_NEWLINE "at the castle from a young age, quickly growing" TEXT_CMD_NEWLINE "familiar with the royal family. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "侍奉白夜王国的符咒师。自幼就出入王宫，" TEXT_CMD_NEWLINE "因此与王家的人们相熟。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_オロチ] = {
+    [LANGUAGE_JAPANESE] = "笑い上戸の呪い師",
+    [LANGUAGE_ENGLISH] = "Merry Diviner",
+    [LANGUAGE_CHINESE] = "爱笑的符咒师",
+},
+
+[MPID_シェンメイ] = {
+    [LANGUAGE_JAPANESE] = "シェンメイ",
+    [LANGUAGE_ENGLISH] = "Arete",
+    [LANGUAGE_CHINESE] = "萱玫",
+},
+
+[MPID_H_シェンメイ] = {
+    [LANGUAGE_JAPANESE] = "透魔においても、暗夜においても――" TEXT_CMD_NEWLINE "その姿にまして美しき歌声は、王の心を溶かしたという。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "The combination of her alluring figure and her" TEXT_CMD_NEWLINE "songbird voice are said to have entranced royals" TEXT_CMD_NEWLINE "everywhere from Valla to Nohr. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "据说不论在透魔还是暗夜，那姿态" TEXT_CMD_NEWLINE "再加上美丽的歌声都融化了王的心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_シェンメイ] = {
+    [LANGUAGE_JAPANESE] = "美哀の歌声",
+    [LANGUAGE_ENGLISH] = "Requiem's Beauty",
+    [LANGUAGE_CHINESE] = "凄美的歌声",
+},
+
+[MPID_シャーロッテ] = {
+    [LANGUAGE_JAPANESE] = "シャーロッテ",
+    [LANGUAGE_ENGLISH] = "Charlotte",
+    [LANGUAGE_CHINESE] = "夏洛特",
+},
+
+[MPID_H_シャーロッテ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の国境警備兵。女性らしく清楚…" TEXT_CMD_NEWLINE "に振る舞っているが、裏の一面がある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A Nohrian border guard who dreams of" TEXT_CMD_NEWLINE "rising above the class of her middling birth." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的国境警备兵。表面上是位清纯的女性……" TEXT_CMD_NEWLINE "其实有著不为人知的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_シャーロッテ] = {
+    [LANGUAGE_JAPANESE] = "女の本性",
+    [LANGUAGE_ENGLISH] = "Wily Warrior",
+    [LANGUAGE_CHINESE] = "女人的本性",
+},
+
+[MPID_マリアンヌ] = {
+    [LANGUAGE_JAPANESE] = "マリアンヌ",
+    [LANGUAGE_ENGLISH] = "Marianne",
+    [LANGUAGE_CHINESE] = "玛莉安奴",
+},
+
+[MPID_H_マリアンヌ] = {
+    [LANGUAGE_JAPANESE] = "エドマンド辺境伯の養女。両親が失踪し、" TEXT_CMD_NEWLINE "論客と名高い現在の義父に引き取られた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Adopted daughter of Margrave Edmund. Came" TEXT_CMD_NEWLINE "under her current, renowned adoptive father" TEXT_CMD_NEWLINE "after losing both parents. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "艾德蒙边境伯爵家的养女。双亲失踪后，" TEXT_CMD_NEWLINE "被现在的养父收养，其养父以能言善道闻名。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_マリアンヌ] = {
+    [LANGUAGE_JAPANESE] = "エドマンド辺境伯家",
+    [LANGUAGE_ENGLISH] = "Adopted Daughter",
+    [LANGUAGE_CHINESE] = "艾德蒙边境伯爵家",
+},
+
+[MPID_フェルディナント] = {
+    [LANGUAGE_JAPANESE] = "フェルディナント",
+    [LANGUAGE_ENGLISH] = "Ferdinand",
+    [LANGUAGE_CHINESE] = "菲尔迪南特",
+},
+
+[MPID_H_フェルディナント] = {
+    [LANGUAGE_JAPANESE] = "アドラステア帝国の宰相、エーギル公の嫡子。" TEXT_CMD_NEWLINE "文武両道、貴族として恥じぬ生き方を邁進する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Son and heir of Duke Aegir, the Prime Minister" TEXT_CMD_NEWLINE "of the Adrestian Empire. Accomplished in both" TEXT_CMD_NEWLINE "literary and military arts, he works hard to live" TEXT_CMD_NEWLINE "nobly. Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的宰相——艾吉尔公爵的嫡子。" TEXT_CMD_NEWLINE "文武双全，在不愧对贵族身分的生存之道上迈进。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_フェルディナント] = {
+    [LANGUAGE_JAPANESE] = "貴族の中の貴族",
+    [LANGUAGE_ENGLISH] = "Noblest of Nobles",
+    [LANGUAGE_CHINESE] = "贵族中的贵族",
+},
+
+[MPID_ミリエル] = {
+    [LANGUAGE_JAPANESE] = "ミリエル",
+    [LANGUAGE_ENGLISH] = "Miriel",
+    [LANGUAGE_CHINESE] = "米莉艾尔",
+},
+
+[MPID_H_ミリエル] = {
+    [LANGUAGE_JAPANESE] = "クロム自警団の一員。真面目で几帳面。" TEXT_CMD_NEWLINE "研究熱心で、様々な知識を持っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A serious and methodical Shepherd. Loves to" TEXT_CMD_NEWLINE "research and is knowledgeable on a wide range" TEXT_CMD_NEWLINE "of subjects. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，认真且严谨。" TEXT_CMD_NEWLINE "热衷研究，博学多闻。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ミリエル] = {
+    [LANGUAGE_JAPANESE] = "理知の瞳",
+    [LANGUAGE_ENGLISH] = "Rapier Intellect",
+    [LANGUAGE_CHINESE] = "知性之眼",
+},
+
+[MPID_エリーゼ] = {
+    [LANGUAGE_JAPANESE] = "エリーゼ",
+    [LANGUAGE_ENGLISH] = "Elise",
+    [LANGUAGE_CHINESE] = "艾丽泽",
+},
+
+[MPID_H_エリーゼ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の王女。兄や姉のことが大好き。" TEXT_CMD_NEWLINE "幼い性格だが、真実を見抜く純粋さも併せ持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Princess of Nohr who adores her siblings. A bit" TEXT_CMD_NEWLINE "childish, but has a pure heart and keen eyes." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的公主，最喜欢哥哥和姊姊。" TEXT_CMD_NEWLINE "虽然稚气未脱，但她的纯真总能看透真相。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_エリーゼ] = {
+    [LANGUAGE_JAPANESE] = "可憐な花",
+    [LANGUAGE_ENGLISH] = "Budding Flower",
+    [LANGUAGE_CHINESE] = "可爱之花",
+},
+
+[MPID_オルエン2] = {
+    [LANGUAGE_JAPANESE] = "オルエン",
+    [LANGUAGE_ENGLISH] = "Olwen",
+    [LANGUAGE_CHINESE] = "欧尔玟",
+},
+
+[MPID_H_オルエン2] = {
+    [LANGUAGE_JAPANESE] = "フリージ軍の魔道騎士で、ラインハルトの妹。" TEXT_CMD_NEWLINE "かつて尊敬する兄と袂を分かち、自身の道を歩んでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "A mage knight in Friege's army. She" TEXT_CMD_NEWLINE "now walks her own path after parting" TEXT_CMD_NEWLINE "ways with her beloved brother, Reinhardt." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "弗立吉军的魔道骑士，莱茵哈特的妹妹。" TEXT_CMD_NEWLINE "与曾经尊敬的兄长断绝关系，步上属于自己的道路。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_オルエン2] = {
+    [LANGUAGE_JAPANESE] = "緑の魔道騎士",
+    [LANGUAGE_ENGLISH] = "Righteous Knight",
+    [LANGUAGE_CHINESE] = "绿色魔道骑士",
+},
+
+[MPID_リュシオン] = {
+    [LANGUAGE_JAPANESE] = "リュシオン",
+    [LANGUAGE_ENGLISH] = "Reyson",
+    [LANGUAGE_CHINESE] = "琉希昂",
+},
+
+[MPID_H_リュシオン] = {
+    [LANGUAGE_JAPANESE] = "鳥翼族、白鷺の王国であった旧セリノス王国の王子。" TEXT_CMD_NEWLINE "外見に似合わず、気が強い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "Prince of Serenes, the former kingdom of the" TEXT_CMD_NEWLINE "heron laguz. Brother of Leanne. Frail, but strong" TEXT_CMD_NEWLINE "willed. Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "鸟翼族，为曾是白鹭王国的旧赛利诺斯王国的王子。" TEXT_CMD_NEWLINE "有著与外表不符的强硬个性。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_リュシオン] = {
+    [LANGUAGE_JAPANESE] = "白の王子",
+    [LANGUAGE_ENGLISH] = "White Prince",
+    [LANGUAGE_CHINESE] = "纯白王子",
+},
+
+[MPID_闇ベルクト] = {
+    [LANGUAGE_JAPANESE] = "ベルクト",
+    [LANGUAGE_ENGLISH] = "Berkut",
+    [LANGUAGE_CHINESE] = "贝尔克特",
+},
+
+[MPID_H_闇ベルクト] = {
+    [LANGUAGE_JAPANESE] = "リゲル帝国の王族。次期皇帝と目されていたがアルムの" TEXT_CMD_NEWLINE "正体を知り絶望し、ドーマ神に恋人を捧げ力を得た。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Heir presumptive to the Rigelian throne. Fell" TEXT_CMD_NEWLINE "into a deep despair when the truth about Alm" TEXT_CMD_NEWLINE "came out. Gave his betrothed's life to Duma to" TEXT_CMD_NEWLINE "obtain power. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "利盖尔帝国的王族。本被视为下一任的皇帝，" TEXT_CMD_NEWLINE "但在得知阿雷武的真实身份后陷入绝望，" TEXT_CMD_NEWLINE "将恋人献给力之神多玛，继而获得力量。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_闇ベルクト] = {
+    [LANGUAGE_JAPANESE] = "煉獄の王子",
+    [LANGUAGE_ENGLISH] = "Purgatorial Prince",
+    [LANGUAGE_CHINESE] = "炼狱的王子",
+},
+
+[MPID_ヘクトル] = {
+    [LANGUAGE_JAPANESE] = "ヘクトル",
+    [LANGUAGE_ENGLISH] = "Hector",
+    [LANGUAGE_CHINESE] = "海克托尔",
+},
+
+[MPID_H_ヘクトル] = {
+    [LANGUAGE_JAPANESE] = "オスティア侯弟。エリウッドの幼馴染。" TEXT_CMD_NEWLINE "堅苦しいことが苦手だが、情にあつい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Eliwood's friend and brother of the Marquess" TEXT_CMD_NEWLINE "of Ostia. Prefers action to court formality." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "奥斯提亚侯爵之弟，艾利乌德的儿时玩伴。" TEXT_CMD_NEWLINE "个性不拘小节，很重情义。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ヘクトル] = {
+    [LANGUAGE_JAPANESE] = "オスティアの勇将",
+    [LANGUAGE_ENGLISH] = "General of Ostia",
+    [LANGUAGE_CHINESE] = "奥斯提亚的勇将",
+},
+
+[MPID_リン] = {
+    [LANGUAGE_JAPANESE] = "リン",
+    [LANGUAGE_ENGLISH] = "Lyn",
+    [LANGUAGE_CHINESE] = "琳",
+},
+
+[MPID_H_リン] = {
+    [LANGUAGE_JAPANESE] = "キアラン公女、本名はリンディス。草原で一人、" TEXT_CMD_NEWLINE "生きてきた過去を持つ。気丈でさっぱりとした性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A woman who grew up on the plains before" TEXT_CMD_NEWLINE "learning she is nobility of Caelin. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "基亚兰女爵，本名是琳迪丝。过去曾经在" TEXT_CMD_NEWLINE "草原上独自一人生活。个性刚毅而爽朗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_リン] = {
+    [LANGUAGE_JAPANESE] = "草原の公女",
+    [LANGUAGE_ENGLISH] = "Lady of the Plains",
+    [LANGUAGE_CHINESE] = "草原的女爵",
+},
+
+[MPID_サラ] = {
+    [LANGUAGE_JAPANESE] = "サラ",
+    [LANGUAGE_ENGLISH] = "Sara",
+    [LANGUAGE_CHINESE] = "莎拉",
+},
+
+[MPID_H_サラ] = {
+    [LANGUAGE_JAPANESE] = "ロプト教団の大司教マンフロイの孫娘。" TEXT_CMD_NEWLINE "親を害した祖父を嫌い、そのもとを飛び出す。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Granddaughter of Lord Manfroy, archbishop and" TEXT_CMD_NEWLINE "great priest of the Loptr Church. Hates Manfroy" TEXT_CMD_NEWLINE "for what he did to her parents. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "罗普托教团大司教曼福洛伊的孙女。" TEXT_CMD_NEWLINE "厌恶杀害父亲的祖父而离开他身边。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_サラ] = {
+    [LANGUAGE_JAPANESE] = "ロプトの姫",
+    [LANGUAGE_ENGLISH] = "Lady of Loptr",
+    [LANGUAGE_CHINESE] = "罗普托的公主",
+},
+
+[MPID_ラクチェ] = {
+    [LANGUAGE_JAPANESE] = "ラクチェ",
+    [LANGUAGE_ENGLISH] = "Larcei",
+    [LANGUAGE_CHINESE] = "拉克榭",
+},
+
+[MPID_H_ラクチェ] = {
+    [LANGUAGE_JAPANESE] = "母アイラさながらの流麗な剣技の少女剣士。" TEXT_CMD_NEWLINE "双子の兄にスカサハ、従兄にシャナンがいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "A young warrior searching for her mother," TEXT_CMD_NEWLINE "elegantly fashioned blade in hand. Scáthach" TEXT_CMD_NEWLINE "is her twin brother, and Shannan is her cousin." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Genealogy of the" TEXT_CMD_NEWLINE "Holy War.",
+    [LANGUAGE_CHINESE] = "完美继承母亲艾伊拉华美剑技的少女剑士。" TEXT_CMD_NEWLINE "有一位双胞胎哥哥斯卡萨哈，与一位堂兄夏南。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_ラクチェ] = {
+    [LANGUAGE_JAPANESE] = "剣姫の娘",
+    [LANGUAGE_ENGLISH] = "Keen Kin",
+    [LANGUAGE_CHINESE] = "剑姬之女",
 },
 
 [MPID_シャナン] = {
@@ -5921,6 +5597,456 @@
     [LANGUAGE_JAPANESE] = "流星の剣士",
     [LANGUAGE_ENGLISH] = "Wielder of Astra",
     [LANGUAGE_CHINESE] = "流星的剑士",
+},
+
+[MPID_フィレイン] = {
+    [LANGUAGE_JAPANESE] = "フィレイン",
+    [LANGUAGE_ENGLISH] = "Phila",
+    [LANGUAGE_CHINESE] = "菲莲",
+},
+
+[MPID_H_フィレイン] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国天馬騎士団団長。" TEXT_CMD_NEWLINE "責任感が強く、後進の指導に心血を注いでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Leader of Ylisse's pegasus knights. She pours" TEXT_CMD_NEWLINE "everything she has into training the future" TEXT_CMD_NEWLINE "generation of pegasus knights. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国天马骑士团团长。" TEXT_CMD_NEWLINE "有著强烈的责任感，对指导后辈不遗余力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_フィレイン] = {
+    [LANGUAGE_JAPANESE] = "天馬の忠臣",
+    [LANGUAGE_ENGLISH] = "Pegasus Master",
+    [LANGUAGE_CHINESE] = "天马的忠臣",
+},
+
+[MPID_ガトリー] = {
+    [LANGUAGE_JAPANESE] = "ガトリー",
+    [LANGUAGE_ENGLISH] = "Gatrie",
+    [LANGUAGE_CHINESE] = "嘉德列",
+},
+
+[MPID_H_ガトリー] = {
+    [LANGUAGE_JAPANESE] = "グレイル傭兵団に所属する重歩兵。" TEXT_CMD_NEWLINE "お調子者で女性に目がなく、声をかけては振られている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A knight with the Greil Mercenaries. Easily" TEXT_CMD_NEWLINE "excited, he flirts with women at every turn" TEXT_CMD_NEWLINE "but suffers rejection just as often. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "隶属格莱尔佣兵团的重步兵。" TEXT_CMD_NEWLINE "容易得意忘形且非常喜欢女性，搭讪总是失败。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_ガトリー] = {
+    [LANGUAGE_JAPANESE] = "惚れっぽい重歩兵",
+    [LANGUAGE_ENGLISH] = "Armored Amour",
+    [LANGUAGE_CHINESE] = "容易动心的重步兵",
+},
+
+[MPID_コンスタンツェ] = {
+    [LANGUAGE_JAPANESE] = "コンスタンツェ",
+    [LANGUAGE_ENGLISH] = "Constance",
+    [LANGUAGE_CHINESE] = "康丝坦洁",
+},
+
+[MPID_H_コンスタンツェ] = {
+    [LANGUAGE_JAPANESE] = "没落した帝国貴族ヌーヴェル家の息女。" TEXT_CMD_NEWLINE "高飛車だが、明るい場所だと性格が一変。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Young lady of the fallen Imperial house" TEXT_CMD_NEWLINE "of Nuvelle. Has an overbearing attitude until" TEXT_CMD_NEWLINE "she's somewhere with sunlight. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "没落的帝国贵族努维尔家的女儿。" TEXT_CMD_NEWLINE "虽然姿态高傲，但在明亮的场所时会性格突变。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_コンスタンツェ] = {
+    [LANGUAGE_JAPANESE] = "雌伏令嬢",
+    [LANGUAGE_ENGLISH] = "Fallen Noble",
+    [LANGUAGE_CHINESE] = "雌伏千金",
+},
+
+[MPID_エポニーヌ] = {
+    [LANGUAGE_JAPANESE] = "エポニーヌ",
+    [LANGUAGE_ENGLISH] = "Nina",
+    [LANGUAGE_CHINESE] = "艾波宁",
+},
+
+[MPID_H_エポニーヌ] = {
+    [LANGUAGE_JAPANESE] = "ゼロの娘。冷静沈着で頭も良いが、" TEXT_CMD_NEWLINE "あやしい妄想家でもある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Niles's daughter. Calm and intelligent but prone" TEXT_CMD_NEWLINE "to intense bouts of daydreaming. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "零的女儿，虽然沉著冷静、头脑清晰，" TEXT_CMD_NEWLINE "但也经常会冒出危险的妄想。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_エポニーヌ] = {
+    [LANGUAGE_JAPANESE] = "邪な空想",
+    [LANGUAGE_ENGLISH] = "Eye Spy",
+    [LANGUAGE_CHINESE] = "邪恶的妄想",
+},
+
+[MPID_マルス] = {
+    [LANGUAGE_JAPANESE] = "マルス",
+    [LANGUAGE_ENGLISH] = "Marth",
+    [LANGUAGE_CHINESE] = "马尔斯",
+},
+
+[MPID_H_マルス] = {
+    [LANGUAGE_JAPANESE] = "アリティア王国の王子。祖国再興のために戦う。" TEXT_CMD_NEWLINE "優しい性格で、仲間を何より大切にしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Prince of Altea who fights for his homeland" TEXT_CMD_NEWLINE "and deeply values his friends. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿利提亚王国的王子，为了复兴祖国而战。" TEXT_CMD_NEWLINE "个性善良，看重伙伴甚于任何事物。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_マルス] = {
+    [LANGUAGE_JAPANESE] = "アリティアの王子",
+    [LANGUAGE_ENGLISH] = "Altean Prince",
+    [LANGUAGE_CHINESE] = "阿利提亚的王子",
+},
+
+[MPID_シーダ] = {
+    [LANGUAGE_JAPANESE] = "シーダ",
+    [LANGUAGE_ENGLISH] = "Caeda",
+    [LANGUAGE_CHINESE] = "希达",
+},
+
+[MPID_H_シーダ] = {
+    [LANGUAGE_JAPANESE] = "タリス王女。マルス王子の婚約者。" TEXT_CMD_NEWLINE "敵味方を問わず、人を惹きつける魅力を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Princess of Talys who's as talented as she" TEXT_CMD_NEWLINE "is charming. Marth's betrothed. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "塔利斯的公主，马尔斯王子的未婚妻。" TEXT_CMD_NEWLINE "不论敌我，都会被她的魅力所吸引。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_シーダ] = {
+    [LANGUAGE_JAPANESE] = "タリスの王女",
+    [LANGUAGE_ENGLISH] = "Talys's Heart",
+    [LANGUAGE_CHINESE] = "塔利斯的公主",
+},
+
+[MPID_総選挙ベレス] = {
+    [LANGUAGE_JAPANESE] = "ベレス",
+    [LANGUAGE_ENGLISH] = "Byleth",
+    [LANGUAGE_CHINESE] = "贝雷丝",
+},
+
+[MPID_H_総選挙ベレス] = {
+    [LANGUAGE_JAPANESE] = "ガルグ＝マク大修道院の元教師。" TEXT_CMD_NEWLINE "内なる女神の声に導かれ、世の闇を照らす。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "A former professor of Garreg Mach Monastery." TEXT_CMD_NEWLINE "Guided by the voice of the goddess within, she" TEXT_CMD_NEWLINE "aims to illuminate the darkness smothering the" TEXT_CMD_NEWLINE "world. Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "加尔古‧玛库大修道院的前教师。" TEXT_CMD_NEWLINE "受体内的女神之声引导，照亮世间的黑暗。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_総選挙ベレス] = {
+    [LANGUAGE_JAPANESE] = "覇天顕照",
+    [LANGUAGE_ENGLISH] = "Sublime Light",
+    [LANGUAGE_CHINESE] = "霸天显照",
+},
+
+[MPID_総選挙クロム] = {
+    [LANGUAGE_JAPANESE] = "クロム",
+    [LANGUAGE_ENGLISH] = "Chrom",
+    [LANGUAGE_CHINESE] = "库洛武",
+},
+
+[MPID_H_総選挙クロム] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の王として立ったクロム。" TEXT_CMD_NEWLINE "尊敬する姉の志を継ぎ、絆を信じて運命と戦う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Chrom, exalt of the Halidom of Ylisse. Intent on" TEXT_CMD_NEWLINE "honoring his sister's dream, he faces his fate" TEXT_CMD_NEWLINE "with his treasured bonds close at heart. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "成为伊里斯圣王国国王的库洛武。" TEXT_CMD_NEWLINE "很尊敬姊姊并继承其意志，相信羁绊和命运对抗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_総選挙クロム] = {
+    [LANGUAGE_JAPANESE] = "覚醒せし正義",
+    [LANGUAGE_ENGLISH] = "Fated Honor",
+    [LANGUAGE_CHINESE] = "觉醒的正义",
+},
+
+[MPID_パリス] = {
+    [LANGUAGE_JAPANESE] = "パリス",
+    [LANGUAGE_ENGLISH] = "Priam",
+    [LANGUAGE_CHINESE] = "巴利斯",
+},
+
+[MPID_H_パリス] = {
+    [LANGUAGE_JAPANESE] = "隠れ里に住む、蒼炎の勇者の末裔。" TEXT_CMD_NEWLINE "強さを追い求める求道者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Descendant of the Radiant Hero who hails from" TEXT_CMD_NEWLINE "a distant village. An earnest seeker of strength." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "苍炎勇者的后裔，居住在隐密村落。" TEXT_CMD_NEWLINE "追寻强大的求道者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_パリス] = {
+    [LANGUAGE_JAPANESE] = "蒼炎の末裔",
+    [LANGUAGE_ENGLISH] = "Radiant Hero",
+    [LANGUAGE_CHINESE] = "苍炎的后裔",
+},
+
+[MPID_リーフ] = {
+    [LANGUAGE_JAPANESE] = "リーフ",
+    [LANGUAGE_ENGLISH] = "Leif",
+    [LANGUAGE_CHINESE] = "里弗",
+},
+
+[MPID_H_リーフ] = {
+    [LANGUAGE_JAPANESE] = "キュアンの子。フィアナ村に潜伏していたが" TEXT_CMD_NEWLINE "帝国兵の襲撃をきっかけに立ち上がる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Quan's son. He was hiding in Fiana" TEXT_CMD_NEWLINE "but rose up after an attack by imperial" TEXT_CMD_NEWLINE "forces. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Thracia 776.",
+    [LANGUAGE_CHINESE] = "乔安之子。原本潜伏在费亚纳村之中，" TEXT_CMD_NEWLINE "因受到帝国军的袭击决定挺身而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_リーフ] = {
+    [LANGUAGE_JAPANESE] = "レンスターの王子",
+    [LANGUAGE_ENGLISH] = "Prince of Leonster",
+    [LANGUAGE_CHINESE] = "伦斯特的王子",
+},
+
+[MPID_催眠チキ] = {
+    [LANGUAGE_JAPANESE] = "チキ",
+    [LANGUAGE_ENGLISH] = "Tiki",
+    [LANGUAGE_CHINESE] = "琪姬",
+},
+
+[MPID_H_催眠チキ] = {
+    [LANGUAGE_JAPANESE] = "神竜族の王女。連れ去られたラーマン神殿で、" TEXT_CMD_NEWLINE "ガーネフに操られるまま侵入者を焼き尽くそうとする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Princess of the Divine Dragon tribe. She was" TEXT_CMD_NEWLINE "taken to the Fane of Raman and, under" TEXT_CMD_NEWLINE "Gharnef's control, incinerated all those who" TEXT_CMD_NEWLINE "entered. Appears in Fire Emblem: Mystery of" TEXT_CMD_NEWLINE "the Emblem.",
+    [LANGUAGE_CHINESE] = "神龙族的公主。受到加内夫催眠，" TEXT_CMD_NEWLINE "被带去拉满神殿，在那里燃尽所有入侵者。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_催眠チキ] = {
+    [LANGUAGE_JAPANESE] = "眠れる竜王女",
+    [LANGUAGE_ENGLISH] = "Torpid Dragon",
+    [LANGUAGE_CHINESE] = "沉睡的龙公主",
+},
+
+[MPID_グレイ] = {
+    [LANGUAGE_JAPANESE] = "グレイ",
+    [LANGUAGE_ENGLISH] = "Gray",
+    [LANGUAGE_CHINESE] = "格莱",
+},
+
+[MPID_H_グレイ] = {
+    [LANGUAGE_JAPANESE] = "ラムの村の村人。アルムの幼なじみ。" TEXT_CMD_NEWLINE "世慣れていて要領がいい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Alm's childhood friend from Ram Village." TEXT_CMD_NEWLINE "Worldly and competent. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "拉姆村的村民，是阿雷武的儿时玩伴。" TEXT_CMD_NEWLINE "很懂人情世故，相当机灵。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_グレイ] = {
+    [LANGUAGE_JAPANESE] = "頼れる兄貴分",
+    [LANGUAGE_ENGLISH] = "Wry Comrade",
+    [LANGUAGE_CHINESE] = "可靠的大哥",
+},
+
+[MPID_ロビン] = {
+    [LANGUAGE_JAPANESE] = "ロビン",
+    [LANGUAGE_ENGLISH] = "Tobin",
+    [LANGUAGE_CHINESE] = "罗宾",
+},
+
+[MPID_H_ロビン] = {
+    [LANGUAGE_JAPANESE] = "ラムの村の村人。アルムの幼なじみ。" TEXT_CMD_NEWLINE "真面目だが馬鹿正直で、損をすることが多い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Alm's childhood friend from Ram Village. Honest" TEXT_CMD_NEWLINE "to a fault, and suffers for it. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "拉姆村的村民，是阿雷武的儿时玩伴。" TEXT_CMD_NEWLINE "个性严谨，但太过老实，经常因此而吃亏。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_ロビン] = {
+    [LANGUAGE_JAPANESE] = "空気が読めない",
+    [LANGUAGE_ENGLISH] = "The Clueless One",
+    [LANGUAGE_CHINESE] = "不懂察言观色",
+},
+
+[MPID_クレーベ] = {
+    [LANGUAGE_JAPANESE] = "クレーベ",
+    [LANGUAGE_ENGLISH] = "Clive",
+    [LANGUAGE_CHINESE] = "克雷贝",
+},
+
+[MPID_H_クレーベ] = {
+    [LANGUAGE_JAPANESE] = "ソフィア解放軍のナイトで元リーダー。クレアの兄。" TEXT_CMD_NEWLINE "高潔な理想を持つ王国一の騎士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Former leader of the Deliverance and Clair's" TEXT_CMD_NEWLINE "brother. Idealistic and focused on the good of" TEXT_CMD_NEWLINE "the kingdom. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "索菲亚解放军的骑士，也是前首领。克莱尔的哥哥。" TEXT_CMD_NEWLINE "身为王国第一的骑士，拥有高洁理想。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_クレーベ] = {
+    [LANGUAGE_JAPANESE] = "理想のために",
+    [LANGUAGE_ENGLISH] = "Idealistic Knight",
+    [LANGUAGE_CHINESE] = "为理想而战",
+},
+
+[MPID_マチルダ] = {
+    [LANGUAGE_JAPANESE] = "マチルダ",
+    [LANGUAGE_ENGLISH] = "Mathilda",
+    [LANGUAGE_CHINESE] = "玛蒂尔达",
+},
+
+[MPID_H_マチルダ] = {
+    [LANGUAGE_JAPANESE] = "ソフィア解放軍のパラディン。クレーベの恋人。" TEXT_CMD_NEWLINE "鬼神の如き強さと彼を包み込む優しさを併せ持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A paladin of the Deliverance and Clive's" TEXT_CMD_NEWLINE "betrothed. Strong as a demon, yet gentle to her" TEXT_CMD_NEWLINE "love. Appears in Fire Emblem Echoes:" TEXT_CMD_NEWLINE "Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "索菲亚解放军的圣骑士，是克雷贝的恋人。" TEXT_CMD_NEWLINE "同时具备鬼神般的强悍与疼爱恋人的温柔。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_マチルダ] = {
+    [LANGUAGE_JAPANESE] = "伝説の女騎士",
+    [LANGUAGE_ENGLISH] = "Legendary Knight",
+    [LANGUAGE_CHINESE] = "传说中的女骑士",
+},
+
+[MPID_レギン] = {
+    [LANGUAGE_JAPANESE] = "レギン",
+    [LANGUAGE_ENGLISH] = "Reginn",
+    [LANGUAGE_CHINESE] = "雷金",
+},
+
+[MPID_H_レギン] = {
+    [LANGUAGE_JAPANESE] = "ニザヴェリル王ファフニールの義理の妹。" TEXT_CMD_NEWLINE "豹変した兄を止めるためアスク王国に協力する。",
+    [LANGUAGE_ENGLISH] = "Adoptive sister of Niðavellir's king, Fáfnir." TEXT_CMD_NEWLINE "Chooses to work together with Askr to" TEXT_CMD_NEWLINE "stop her suddenly changing brother.",
+    [LANGUAGE_CHINESE] = "尼德威阿尔王法夫纳的妹妹，但两人并无血缘关系。" TEXT_CMD_NEWLINE "为了阻止性格大变的哥哥而协助亚斯克王国。",
+},
+
+[MPID_HONOR_レギン] = {
+    [LANGUAGE_JAPANESE] = "希望の駿馬",
+    [LANGUAGE_ENGLISH] = "Bearing Hope",
+    [LANGUAGE_CHINESE] = "希望的骏马",
+},
+
+[MPID_ミカヤ] = {
+    [LANGUAGE_JAPANESE] = "ミカヤ",
+    [LANGUAGE_ENGLISH] = "Micaiah",
+    [LANGUAGE_CHINESE] = "米卡雅",
+},
+
+[MPID_H_ミカヤ] = {
+    [LANGUAGE_JAPANESE] = "義賊「暁の団」に所属する、輝く銀色の髪の少女。" TEXT_CMD_NEWLINE "不思議な力を持つ。サザとは血の繋がらない姉弟同士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "A member of the Dawn Brigade with silver hair" TEXT_CMD_NEWLINE "and mysterious powers. As close with Sothe as" TEXT_CMD_NEWLINE "a sister, though they're not related by blood." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "隶属于义贼「晓团」，有著一头闪耀银发的少女。" TEXT_CMD_NEWLINE "拥有不可思议的力量。和萨札是没有血缘关系的姊弟。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_ミカヤ] = {
+    [LANGUAGE_JAPANESE] = "銀の髪の乙女",
+    [LANGUAGE_ENGLISH] = "Priestess of Dawn",
+    [LANGUAGE_CHINESE] = "银发少女",
+},
+
+[MPID_ステラ] = {
+    [LANGUAGE_JAPANESE] = "ステラ",
+    [LANGUAGE_ENGLISH] = "Astrid",
+    [LANGUAGE_CHINESE] = "史黛拉",
+},
+
+[MPID_H_ステラ] = {
+    [LANGUAGE_JAPANESE] = "ベグニオン帝国ディアメル伯爵家の令嬢。" TEXT_CMD_NEWLINE "貴族の娘たる生き方を甘受せず、騎士に志願した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "Lady of Begnion's House Damiell. Refusing the" TEXT_CMD_NEWLINE "life of an aristocrat's daughter, she enlisted and" TEXT_CMD_NEWLINE "became a knight. Appears in Fire Emblem: Path" TEXT_CMD_NEWLINE "of Radiance.",
+    [LANGUAGE_CHINESE] = "贝格尼昂帝国帝雅梅尔伯爵家的千金。" TEXT_CMD_NEWLINE "不愿接受身为贵族之女的生活方式，志愿成为骑士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_ステラ] = {
+    [LANGUAGE_JAPANESE] = "覚悟の伯爵家令嬢",
+    [LANGUAGE_ENGLISH] = "Resolute Damsel",
+    [LANGUAGE_CHINESE] = "下决心的伯爵家千金",
+},
+
+[MPID_ベレス] = {
+    [LANGUAGE_JAPANESE] = "ベレス",
+    [LANGUAGE_ENGLISH] = "Byleth",
+    [LANGUAGE_CHINESE] = "贝雷丝",
+},
+
+[MPID_H_ベレス] = {
+    [LANGUAGE_JAPANESE] = "セイロス騎士団の元騎士団長ジェラルトの子。" TEXT_CMD_NEWLINE "感情に乏しいが、生徒たちの良き師となる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Child of the former captain of the Knights of" TEXT_CMD_NEWLINE "Seiros, Jeralt. A stoic, capable professor at the" TEXT_CMD_NEWLINE "Officers Academy. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Three Houses.",
+    [LANGUAGE_CHINESE] = "赛罗司骑士团的前任团长杰拉尔特之子。" TEXT_CMD_NEWLINE "虽然缺乏情绪起伏，但是学生们的良师。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_ベレス] = {
+    [LANGUAGE_JAPANESE] = "傭兵上がりの教師",
+    [LANGUAGE_ENGLISH] = "Proven Professor",
+    [LANGUAGE_CHINESE] = "佣兵出身的教师",
+},
+
+[MPID_クロード] = {
+    [LANGUAGE_JAPANESE] = "クロード",
+    [LANGUAGE_ENGLISH] = "Claude",
+    [LANGUAGE_CHINESE] = "库罗德",
+},
+
+[MPID_H_クロード] = {
+    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の盟主リーガン公の跡取り。" TEXT_CMD_NEWLINE "飄々としていて、人懐こさと腹黒さを使い分ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Heir to House Riegan, the leading house of the" TEXT_CMD_NEWLINE "Leicester Alliance. Employs both an easygoing" TEXT_CMD_NEWLINE "attitude and an effortless skill for scheming." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的盟主里刚公爵的继承人。" TEXT_CMD_NEWLINE "我行我素飘忽不定，巧妙活用其不怕生、擅谋略之长处。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_クロード] = {
+    [LANGUAGE_JAPANESE] = "野望の寵児",
+    [LANGUAGE_ENGLISH] = "The Schemer",
+    [LANGUAGE_CHINESE] = "野心的宠儿",
+},
+
+[MPID_イシュタル] = {
+    [LANGUAGE_JAPANESE] = "イシュタル",
+    [LANGUAGE_ENGLISH] = "Ishtar",
+    [LANGUAGE_CHINESE] = "伊修达尔",
+},
+
+[MPID_H_イシュタル] = {
+    [LANGUAGE_JAPANESE] = "フリージの血族で【トールハンマー】の継承者。" TEXT_CMD_NEWLINE "愛するユリウスの変貌に心を痛めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "The heir to Mjölnir, she carries the blood of the" TEXT_CMD_NEWLINE "royal family of Friege. The descent of her love," TEXT_CMD_NEWLINE "Julius, into the darkness troubles her. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "弗立吉的血族，【雷神之槌】的继承者。" TEXT_CMD_NEWLINE "因心爱的尤利乌斯的改变而心痛不已。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_イシュタル] = {
+    [LANGUAGE_JAPANESE] = "雷神",
+    [LANGUAGE_ENGLISH] = "Thunder Goddess",
+    [LANGUAGE_CHINESE] = "雷神",
+},
+
+[MPID_グレゴ] = {
+    [LANGUAGE_JAPANESE] = "グレゴ",
+    [LANGUAGE_ENGLISH] = "Gregor",
+    [LANGUAGE_CHINESE] = "固雷格",
+},
+
+[MPID_H_グレゴ] = {
+    [LANGUAGE_JAPANESE] = "各国を渡り歩いてきた傭兵。情に厚い性格。" TEXT_CMD_NEWLINE "おじさんっぽい言動が目立つが腕は確か。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A likable merc who has set foot on many" TEXT_CMD_NEWLINE "distant lands. The years of experience have" TEXT_CMD_NEWLINE "hardened him, and his age has begun to show." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "走遍各国的佣兵。个性很重情义。" TEXT_CMD_NEWLINE "大叔般的言行很引人注目，但拥有真本事。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_グレゴ] = {
+    [LANGUAGE_JAPANESE] = "不敵なる傭兵",
+    [LANGUAGE_ENGLISH] = "Swell Sword",
+    [LANGUAGE_CHINESE] = "无所畏惧的佣兵",
+},
+
+[MPID_リヒト] = {
+    [LANGUAGE_JAPANESE] = "リヒト",
+    [LANGUAGE_ENGLISH] = "Ricken",
+    [LANGUAGE_CHINESE] = "里希特",
+},
+
+[MPID_H_リヒト] = {
+    [LANGUAGE_JAPANESE] = "クロムに憧れ、クロム自警団見習いとして" TEXT_CMD_NEWLINE "日々努力を重ねている幼き魔道士。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A mage who joined the Shepherds as an" TEXT_CMD_NEWLINE "apprentice in hopes of learning all he's able" TEXT_CMD_NEWLINE "from his mentor, Chrom. Young, but a hard" TEXT_CMD_NEWLINE "worker. Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "憧憬库洛武，作为库洛武自卫团的见习生，" TEXT_CMD_NEWLINE "每天努力不懈的年轻魔道士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_リヒト] = {
+    [LANGUAGE_JAPANESE] = "自警団見習い",
+    [LANGUAGE_ENGLISH] = "Shepherd Novice",
+    [LANGUAGE_CHINESE] = "自卫团见习生",
+},
+
+[MPID_ロナン] = {
+    [LANGUAGE_JAPANESE] = "ロナン",
+    [LANGUAGE_ENGLISH] = "Ronan",
+    [LANGUAGE_CHINESE] = "罗南",
+},
+
+[MPID_H_ロナン] = {
+    [LANGUAGE_JAPANESE] = "イスの村に住む猟師。" TEXT_CMD_NEWLINE "正義感が強く、海賊に対し強い怒りを抱く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "A hunter from the village Iz. Has a strong sense" TEXT_CMD_NEWLINE "for right and wrong, and a stronger distaste for" TEXT_CMD_NEWLINE "pirates. Appears in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "居住在伊斯村的猎人。" TEXT_CMD_NEWLINE "具有强烈的正义感，极度厌恶海盗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_ロナン] = {
+    [LANGUAGE_JAPANESE] = "イス村の若者",
+    [LANGUAGE_ENGLISH] = "Villager of Iz",
+    [LANGUAGE_CHINESE] = "伊斯村的年轻人",
+},
+
+[MPID_邪竜ルフレ男] = {
+    [LANGUAGE_JAPANESE] = "ルフレ",
+    [LANGUAGE_ENGLISH] = "Robin",
+    [LANGUAGE_CHINESE] = "鲁弗莱",
+},
+
+[MPID_H_邪竜ルフレ男] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の軍師であるルフレが、" TEXT_CMD_NEWLINE "邪竜ギムレーに心身を支配された姿。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "The Ylissean tactician Robin with body" TEXT_CMD_NEWLINE "and soul ruled by the Fell Dragon, Grima." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国的军师鲁弗莱，" TEXT_CMD_NEWLINE "其身心皆被邪龙津利支配的姿态。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_邪竜ルフレ男] = {
+    [LANGUAGE_JAPANESE] = "邪竜の現身",
+    [LANGUAGE_ENGLISH] = "Fell Reincarnation",
+    [LANGUAGE_CHINESE] = "邪龙现身",
 },
 
 [MPID_スー] = {
@@ -5959,382 +6085,40 @@
     [LANGUAGE_CHINESE] = "孤高的剑士",
 },
 
-[MPID_総選挙アイク] = {
-    [LANGUAGE_JAPANESE] = "アイク",
-    [LANGUAGE_ENGLISH] = "Ike",
-    [LANGUAGE_CHINESE] = "艾克",
+[MPID_レオン] = {
+    [LANGUAGE_JAPANESE] = "レオン",
+    [LANGUAGE_ENGLISH] = "Leo",
+    [LANGUAGE_CHINESE] = "里昂",
 },
 
-[MPID_H_総選挙アイク] = {
-    [LANGUAGE_JAPANESE] = "父の後を継ぎ、グレイル傭兵団の長となった青年。" TEXT_CMD_NEWLINE "武器は、父グレイルの斧を受け継いでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A kindhearted but stoic young man who has" TEXT_CMD_NEWLINE "taken command of his father's mercenary band." TEXT_CMD_NEWLINE "Wields the axe of his father, Greil. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "继承父亲衣钵、成为格莱尔佣兵团团长的青年。" TEXT_CMD_NEWLINE "使用武器为继承自父亲格莱尔的战斧。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+[MPID_H_レオン] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の王子。神器【ブリュンヒルデ】の使い手。" TEXT_CMD_NEWLINE "何でもこなす秀才で、魔道の才に長ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A talented Nohrian prince who wields" TEXT_CMD_NEWLINE "the divine tome Brynhildr. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的王子，神器【布伦希尔德】的主人。" TEXT_CMD_NEWLINE "资质优异、做任何事都能得心应手，擅长魔道。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_総選挙アイク] = {
-    [LANGUAGE_JAPANESE] = "大いなる傭兵",
-    [LANGUAGE_ENGLISH] = "Brave Mercenary",
-    [LANGUAGE_CHINESE] = "伟大的佣兵",
+[MPID_HONOR_レオン] = {
+    [LANGUAGE_JAPANESE] = "闇の王子",
+    [LANGUAGE_ENGLISH] = "Sorcerous Prince",
+    [LANGUAGE_CHINESE] = "暗之王子",
 },
 
-[MPID_チキ] = {
-    [LANGUAGE_JAPANESE] = "チキ",
-    [LANGUAGE_ENGLISH] = "Tiki",
-    [LANGUAGE_CHINESE] = "琪姬",
+[MPID_エーティエ] = {
+    [LANGUAGE_JAPANESE] = "エーティエ",
+    [LANGUAGE_ENGLISH] = "Etie",
+    [LANGUAGE_CHINESE] = "艾媞耶",
 },
 
-[MPID_H_チキ] = {
-    [LANGUAGE_JAPANESE] = "神竜族の王女。竜としての暴走を抑えるため、" TEXT_CMD_NEWLINE "永い眠りについていた。人との関わりを求めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A young Divine Dragon once put into a timeless" TEXT_CMD_NEWLINE "sleep to keep her dragon impulses in check." TEXT_CMD_NEWLINE "Now longs for human company. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "神龙族的公主。身为龙，为了不让自己失控，" TEXT_CMD_NEWLINE "曾进入漫长的沉眠。渴望与人类之间的交流。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_エーティエ] = {
+    [LANGUAGE_JAPANESE] = "フィレネ王国の騎士。アルフレッドの臣下。" TEXT_CMD_NEWLINE "貴族生まれの淑女だが、筋肉鍛錬を好む。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　エンゲージ』）",
+    [LANGUAGE_ENGLISH] = "Royal knight of Firene and retainer to Prince" TEXT_CMD_NEWLINE "Alfred. She is a noble lady who seeks out any" TEXT_CMD_NEWLINE "opportunity to continually build her muscle." TEXT_CMD_NEWLINE "Appears in Fire Emblem Engage.",
+    [LANGUAGE_CHINESE] = "费列聂王国的骑士。阿尔弗雷德的部下。" TEXT_CMD_NEWLINE "出身自贵族门第的淑女，但非常喜欢锻炼肌肉。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM ENGAGE』）",
 },
 
-[MPID_HONOR_チキ] = {
-    [LANGUAGE_JAPANESE] = "神竜族の王女",
-    [LANGUAGE_ENGLISH] = "Dragon Scion",
-    [LANGUAGE_CHINESE] = "神龙族的公主",
-},
-
-[MPID_チキ覚醒] = {
-    [LANGUAGE_JAPANESE] = "チキ",
-    [LANGUAGE_ENGLISH] = "Tiki",
-    [LANGUAGE_CHINESE] = "琪姬",
-},
-
-[MPID_H_チキ覚醒] = {
-    [LANGUAGE_JAPANESE] = "神竜族の巫女。神話の時代から生き続けており、" TEXT_CMD_NEWLINE "【英雄王】マルスとはかつて共に戦った仲。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Known as the Voice of the Divine Dragon." TEXT_CMD_NEWLINE "Has lived for ages. Once friends with Marth." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "神龙族的巫女，从神话时代一直活到现在，" TEXT_CMD_NEWLINE "曾与【英雄王】马尔斯并肩奋战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_チキ覚醒] = {
-    [LANGUAGE_JAPANESE] = "神竜の巫女",
-    [LANGUAGE_ENGLISH] = "Naga's Voice",
-    [LANGUAGE_CHINESE] = "神龙的巫女",
-},
-
-[MPID_マクベス] = {
-    [LANGUAGE_JAPANESE] = "マクベス",
-    [LANGUAGE_ENGLISH] = "Iago",
-    [LANGUAGE_CHINESE] = "马克白",
-},
-
-[MPID_H_マクベス] = {
-    [LANGUAGE_JAPANESE] = "暗夜王ガロンに仕える軍師。" TEXT_CMD_NEWLINE "冷酷な策略と幻術で数多くの敵対者を苦しめた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Tactician in the service of the Nohrian king," TEXT_CMD_NEWLINE "Garon. He uses cruel schemes and malicious" TEXT_CMD_NEWLINE "magic to plague the enemies of Nohr. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "侍奉暗夜王加隆的军师。" TEXT_CMD_NEWLINE "以冷酷的策略及幻术使众多敌人受尽苦难。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_マクベス] = {
-    [LANGUAGE_JAPANESE] = "暗夜王の軍師",
-    [LANGUAGE_ENGLISH] = "Nohr's Tactician",
-    [LANGUAGE_CHINESE] = "暗夜王的军师",
-},
-
-[MPID_魔王リオン] = {
-    [LANGUAGE_JAPANESE] = "リオン",
-    [LANGUAGE_ENGLISH] = "Lyon",
-    [LANGUAGE_CHINESE] = "利昂",
-},
-
-[MPID_H_魔王リオン] = {
-    [LANGUAGE_JAPANESE] = "魔王フォデスの力を宿すグラド帝国の皇子リオン。" TEXT_CMD_NEWLINE "その心は果たしてどちらのものか。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Prince Lyon of Grado, having become a vessel" TEXT_CMD_NEWLINE "for the Demon King Fomortiis's power. It is" TEXT_CMD_NEWLINE "uncertain who directs his heart. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "格拉多帝国的皇子利昂，体内寄宿著魔王弗德斯的力量。" TEXT_CMD_NEWLINE "其心究竟为两者中的何人所有呢？" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_魔王リオン] = {
-    [LANGUAGE_JAPANESE] = "蘇りし魔王",
-    [LANGUAGE_ENGLISH] = "Demon King",
-    [LANGUAGE_CHINESE] = "复苏的魔王",
-},
-
-[MPID_セリス] = {
-    [LANGUAGE_JAPANESE] = "セリス",
-    [LANGUAGE_ENGLISH] = "Seliph",
-    [LANGUAGE_CHINESE] = "赛列斯",
-},
-
-[MPID_H_セリス] = {
-    [LANGUAGE_JAPANESE] = "聖剣【ティルフィング】の継承者で、ユリアの異父兄。" TEXT_CMD_NEWLINE "光の公子、救世主と称えられるが、争いを好まない性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Inheritor of the sacred sword Tyrfing." TEXT_CMD_NEWLINE "A savior in his time, but dislikes battle." TEXT_CMD_NEWLINE "Julia's half brother. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "圣剑【斩裂剑】的继承者，尤莉亚的异父兄长。" TEXT_CMD_NEWLINE "虽被誉为光之勋爵和救世主，但个性不喜争斗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_セリス] = {
-    [LANGUAGE_JAPANESE] = "光を継ぐ者",
-    [LANGUAGE_ENGLISH] = "Heir of Light",
-    [LANGUAGE_CHINESE] = "光之继承者",
-},
-
-[MPID_ホルスト] = {
-    [LANGUAGE_JAPANESE] = "ホルスト",
-    [LANGUAGE_ENGLISH] = "Holst",
-    [LANGUAGE_CHINESE] = "荷尔斯特",
-},
-
-[MPID_H_ホルスト] = {
-    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の貴族、ゴネリル公の嫡子。" TEXT_CMD_NEWLINE "無双の勇士だが、妹のヒルダを溺愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Noble of the Leicester Alliance and son of" TEXT_CMD_NEWLINE "House Goneril. Unmatched in combat, but still" TEXT_CMD_NEWLINE "prone to doting on his sister, Hilda. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Warriors: Three Hopes.",
-    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，哥纳利尔公爵的嫡子。" TEXT_CMD_NEWLINE "虽为举世无双的勇士，却非常溺爱妹妹希尔妲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
-},
-
-[MPID_HONOR_ホルスト] = {
-    [LANGUAGE_JAPANESE] = "レスターの勇者",
-    [LANGUAGE_ENGLISH] = "Hero of Leicester",
-    [LANGUAGE_CHINESE] = "雷斯塔的勇者",
-},
-
-[MPID_リリス] = {
-    [LANGUAGE_JAPANESE] = "リリス",
-    [LANGUAGE_ENGLISH] = "Lilith",
-    [LANGUAGE_CHINESE] = "莉莉丝",
-},
-
-[MPID_H_リリス] = {
-    [LANGUAGE_JAPANESE] = "カムイに仕える従者。その正体は星竜で、" TEXT_CMD_NEWLINE "カムイの危機を救うために真の姿を見せる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Corrin's attendant, whose true form is that" TEXT_CMD_NEWLINE "of an astral dragon. She reveals her true self" TEXT_CMD_NEWLINE "to rescue Corrin from a crisis. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "侍奉神威的随从。真实身分是星龙，" TEXT_CMD_NEWLINE "为了将神威从危机中救出，展现了真正的姿态。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_リリス] = {
-    [LANGUAGE_JAPANESE] = "星竜の子",
-    [LANGUAGE_ENGLISH] = "Astral Daughter",
-    [LANGUAGE_CHINESE] = "星龙之子",
-},
-
-[MPID_リリーナ] = {
-    [LANGUAGE_JAPANESE] = "リリーナ",
-    [LANGUAGE_ENGLISH] = "Lilina",
-    [LANGUAGE_CHINESE] = "莉莉娜",
-},
-
-[MPID_H_リリーナ] = {
-    [LANGUAGE_JAPANESE] = "オスティア公女で、ロイとは幼馴染。" TEXT_CMD_NEWLINE "天才的な魔道の才能を秘めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "A noble of Ostia with a natural gift for magic." TEXT_CMD_NEWLINE "Roy's friend since childhood. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "奥斯提亚的女爵，跟罗伊是幼时玩伴。" TEXT_CMD_NEWLINE "是很有才华的魔道天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_リリーナ] = {
-    [LANGUAGE_JAPANESE] = "美しき盟主",
-    [LANGUAGE_ENGLISH] = "Delightful Noble",
-    [LANGUAGE_CHINESE] = "美丽的盟主",
-},
-
-[MPID_ウェンディ] = {
-    [LANGUAGE_JAPANESE] = "ウェンディ",
-    [LANGUAGE_ENGLISH] = "Gwendolyn",
-    [LANGUAGE_CHINESE] = "温蒂",
-},
-
-[MPID_H_ウェンディ] = {
-    [LANGUAGE_JAPANESE] = "オスティアの重騎士。まっすぐで意志の強い性格。" TEXT_CMD_NEWLINE "鎧のせいで大柄に見られがちなことを気にしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "Armored knight of Ostia. Intent on mastering" TEXT_CMD_NEWLINE "defense, despite feeling awkward in armor." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "奥斯提亚的重骑士，个性真挚而坚强。" TEXT_CMD_NEWLINE "很在意因为身上的盔甲而被误以为虎背熊腰。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_ウェンディ] = {
-    [LANGUAGE_JAPANESE] = "可憐な重騎士",
-    [LANGUAGE_ENGLISH] = "Adorable Knight",
-    [LANGUAGE_CHINESE] = "可爱的重骑士",
-},
-
-[MPID_ソーニャ] = {
-    [LANGUAGE_JAPANESE] = "ソーニャ",
-    [LANGUAGE_ENGLISH] = "Sonia",
-    [LANGUAGE_CHINESE] = "索妮娅",
-},
-
-[MPID_H_ソーニャ] = {
-    [LANGUAGE_JAPANESE] = "【黒い牙】首領の後妻におさまった謎の美女。" TEXT_CMD_NEWLINE "実質的な指導者ネルガルに忠誠を誓い、暗躍する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A mysterious woman who seduced the leader" TEXT_CMD_NEWLINE "of the Black Fang. Her true loyalty lies with" TEXT_CMD_NEWLINE "Nergal, at whose instruction she secretly" TEXT_CMD_NEWLINE "manipulates events. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "成为【黑牙】首领第二任妻子的神秘美女。" TEXT_CMD_NEWLINE "效忠于其真正的领袖涅尔加鲁，为他在暗中活动。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ソーニャ] = {
-    [LANGUAGE_JAPANESE] = "冷酷非情の妖姫",
-    [LANGUAGE_ENGLISH] = "Inhuman Beauty",
-    [LANGUAGE_CHINESE] = "冷酷无情的妖姬",
-},
-
-[MPID_リンカ] = {
-    [LANGUAGE_JAPANESE] = "リンカ",
-    [LANGUAGE_ENGLISH] = "Rinkah",
-    [LANGUAGE_CHINESE] = "凛火",
-},
-
-[MPID_H_リンカ] = {
-    [LANGUAGE_JAPANESE] = "炎の部族の族長の娘。" TEXT_CMD_NEWLINE "孤高を旨とするが、内には熱い魂を秘めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Daughter of the Flame Tribe chieftain. Her aloof" TEXT_CMD_NEWLINE "disposition belies the wildness in her heart." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "炎之部落的族长之女。" TEXT_CMD_NEWLINE "奉孤傲为宗旨，但心中却隐藏著炙热的灵魂。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_リンカ] = {
-    [LANGUAGE_JAPANESE] = "炎の娘",
-    [LANGUAGE_ENGLISH] = "Scion of Flame",
-    [LANGUAGE_CHINESE] = "炎之女",
-},
-
-[MPID_ロス] = {
-    [LANGUAGE_JAPANESE] = "ロス",
-    [LANGUAGE_ENGLISH] = "Ross",
-    [LANGUAGE_CHINESE] = "罗斯",
-},
-
-[MPID_H_ロス] = {
-    [LANGUAGE_JAPANESE] = "ルネス王国の戦士ガルシアの息子。" TEXT_CMD_NEWLINE "男手一本で育ててくれた父の武に憧れる、実直な少年。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Son of Garcia, a warrior of Renais. A very" TEXT_CMD_NEWLINE "straightforward and honest lad raised without" TEXT_CMD_NEWLINE "a mother. He greatly admires his father's skill." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "路奈斯王国的战士贾西亚的儿子。" TEXT_CMD_NEWLINE "由父亲一手带大并憧憬父亲的武勇，是位耿直的少年。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_ロス] = {
-    [LANGUAGE_JAPANESE] = "受け継がれし豪腕",
-    [LANGUAGE_ENGLISH] = "His Father's Son",
-    [LANGUAGE_CHINESE] = "继承的力士",
-},
-
-[MPID_ユアン] = {
-    [LANGUAGE_JAPANESE] = "ユアン",
-    [LANGUAGE_ENGLISH] = "Ewan",
-    [LANGUAGE_CHINESE] = "尤安",
-},
-
-[MPID_H_ユアン] = {
-    [LANGUAGE_JAPANESE] = "ジスト傭兵団の一員で、テティスの弟。" TEXT_CMD_NEWLINE "賢者サレフに師事する押しかけ弟子でもある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A member of Gerik's Mercenaries. Tethys's" TEXT_CMD_NEWLINE "brother. He reveres Saleh, his teacher. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "吉斯特佣兵团的一员，特媞丝的弟弟。" TEXT_CMD_NEWLINE "强硬地拜贤者塞勒夫为师，成为其徒弟。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_ユアン] = {
-    [LANGUAGE_JAPANESE] = "あどけなき魔道",
-    [LANGUAGE_ENGLISH] = "Eager Student",
-    [LANGUAGE_CHINESE] = "天真无邪的魔道",
-},
-
-[MPID_イレース] = {
-    [LANGUAGE_JAPANESE] = "イレース",
-    [LANGUAGE_ENGLISH] = "Ilyana",
-    [LANGUAGE_CHINESE] = "伊蕾思",
-},
-
-[MPID_H_イレース] = {
-    [LANGUAGE_JAPANESE] = "いつも空腹の青息吐息で、周囲を心配させる少女。" TEXT_CMD_NEWLINE "１０人分の料理を食べても平然としている大食家。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "A girl whose constant hunger pangs cause" TEXT_CMD_NEWLINE "stress for her and worry for others. Has a" TEXT_CMD_NEWLINE "seemingly bottomless stomach. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "总是因肚子饿而唉声叹气，令周遭的人相当担心的少女。" TEXT_CMD_NEWLINE "就算吃掉十人份的料理，还是面不改色的大胃王。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_イレース] = {
-    [LANGUAGE_JAPANESE] = "空腹の魔道士",
-    [LANGUAGE_ENGLISH] = "Hungering Mage",
-    [LANGUAGE_CHINESE] = "肚子饿的魔道士",
-},
-
-[MPID_マーク男] = {
-    [LANGUAGE_JAPANESE] = "マーク",
-    [LANGUAGE_ENGLISH] = "Morgan",
-    [LANGUAGE_CHINESE] = "马可",
-},
-
-[MPID_H_マーク男] = {
-    [LANGUAGE_JAPANESE] = "ルフレの息子。記憶喪失の軍師見習い。" TEXT_CMD_NEWLINE "勉強好きで、とても明るく自由な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Robin's son. An aspiring tactician with" TEXT_CMD_NEWLINE "no memory. Cheerful and loves to study." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "鲁弗莱的儿子，失去记忆的见习军师。" TEXT_CMD_NEWLINE "喜爱学习，个性开朗奔放。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_マーク男] = {
-    [LANGUAGE_JAPANESE] = "異界より来た少年",
-    [LANGUAGE_ENGLISH] = "Lad from Afar",
-    [LANGUAGE_CHINESE] = "来自异界的少年",
-},
-
-[MPID_ゼルギウス] = {
-    [LANGUAGE_JAPANESE] = "ゼルギウス",
-    [LANGUAGE_ENGLISH] = "Zelgius",
-    [LANGUAGE_CHINESE] = "塞尔吉乌斯",
-},
-
-[MPID_H_ゼルギウス] = {
-    [LANGUAGE_JAPANESE] = "黒鎧に身を固め、漆黒の騎士と呼ばれていた将。" TEXT_CMD_NEWLINE "手にした神剣【エタルド】は天をも裂く力を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "A general clad head to toe in the blackest of" TEXT_CMD_NEWLINE "armor, naturally known as the Black Knight. His" TEXT_CMD_NEWLINE "holy sword, Alondite, has the power to rend the" TEXT_CMD_NEWLINE "heavens. Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "身披黑色铠甲，人称漆黑骑士的将领。" TEXT_CMD_NEWLINE "手上的神剑【艾塔尔德】具有足以斩裂天空的力量。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_ゼルギウス] = {
-    [LANGUAGE_JAPANESE] = "漆黒の将",
-    [LANGUAGE_ENGLISH] = "Jet-Black General",
-    [LANGUAGE_CHINESE] = "漆黑之将",
-},
-
-[MPID_魔女セリカ] = {
-    [LANGUAGE_JAPANESE] = "セリカ",
-    [LANGUAGE_ENGLISH] = "Celica",
-    [LANGUAGE_CHINESE] = "赛莉卡",
-},
-
-[MPID_H_魔女セリカ] = {
-    [LANGUAGE_JAPANESE] = "魂を邪神ドーマに捧げられ、魔女となったセリカの姿。" TEXT_CMD_NEWLINE "たまに過去の記憶が蘇ることがあるようだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "Celica's form as a witch after giving her" TEXT_CMD_NEWLINE "soul to Duma. It seems her old memories" TEXT_CMD_NEWLINE "occassionally rise to the surface. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "将灵魂献给邪神多玛，化身为魔女的赛莉卡。" TEXT_CMD_NEWLINE "过去的记忆偶有苏醒之时。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_魔女セリカ] = {
-    [LANGUAGE_JAPANESE] = "捕らわれし魂",
-    [LANGUAGE_ENGLISH] = "Imprisoned Soul",
-    [LANGUAGE_CHINESE] = "被困的灵魂",
-},
-
-[MPID_ベルカ] = {
-    [LANGUAGE_JAPANESE] = "ベルカ",
-    [LANGUAGE_ENGLISH] = "Beruka",
-    [LANGUAGE_CHINESE] = "贝尔卡",
-},
-
-[MPID_H_ベルカ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の竜騎士。カミラの臣下。" TEXT_CMD_NEWLINE "凄腕の殺し屋で、人を寄せ付けない雰囲気を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Wyvern-riding assassin who seems devoid" TEXT_CMD_NEWLINE "of emotion. One of Camilla's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的龙骑士，卡美拉的部下，" TEXT_CMD_NEWLINE "本领高强的杀手，散发著令人不敢靠近的氛围。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ベルカ] = {
-    [LANGUAGE_JAPANESE] = "殺し屋",
-    [LANGUAGE_ENGLISH] = "Quiet Assassin",
-    [LANGUAGE_CHINESE] = "杀手",
-},
-
-[MPID_ルーナ] = {
-    [LANGUAGE_JAPANESE] = "ルーナ",
-    [LANGUAGE_ENGLISH] = "Selena",
-    [LANGUAGE_CHINESE] = "露娜",
-},
-
-[MPID_H_ルーナ] = {
-    [LANGUAGE_JAPANESE] = "カミラの臣下。その出自や経歴は不明。" TEXT_CMD_NEWLINE "わがままで負けず嫌いだが、努力の天才。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A mysterious woman devoted to service." TEXT_CMD_NEWLINE "One of Camilla's retainers. Snarky." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "卡美拉的部下，出身与经历均无人知晓。" TEXT_CMD_NEWLINE "虽然很任性又不服输，却是个努力型的天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ルーナ] = {
-    [LANGUAGE_JAPANESE] = "秘めた憧憬",
-    [LANGUAGE_ENGLISH] = "Cutting Wit",
-    [LANGUAGE_CHINESE] = "深藏的憧憬",
-},
-
-[MEID_ヴェロニカ2] = {
-    [LANGUAGE_JAPANESE] = "ヴェロニカ",
-    [LANGUAGE_ENGLISH] = "Veronica",
-    [LANGUAGE_CHINESE] = "维洛妮卡",
-},
-
-[MEID_H_ヴェロニカ2] = {
-    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇女。" TEXT_CMD_NEWLINE "その身は、憑竜エンブラに憑依されている。",
-    [LANGUAGE_ENGLISH] = "Imperial princess of the Emblian Empire, her will" TEXT_CMD_NEWLINE "dominated by Embla herself.",
-    [LANGUAGE_CHINESE] = "恩布拉帝国的皇女。" TEXT_CMD_NEWLINE "她的身体已被凭龙恩布拉所附身。",
-},
-
-[MEID_HONOR_ヴェロニカ2] = {
-    [LANGUAGE_JAPANESE] = "憑かれし皇女",
-    [LANGUAGE_ENGLISH] = "Princess Beset",
-    [LANGUAGE_CHINESE] = "被附身的皇女",
+[MPID_HONOR_エーティエ] = {
+    [LANGUAGE_JAPANESE] = "剛腕の令嬢",
+    [LANGUAGE_ENGLISH] = "Fitness Fighter",
+    [LANGUAGE_CHINESE] = "铁腕大小姐",
 },
 
 [MPID_フィル] = {
@@ -6391,40 +6175,832 @@
     [LANGUAGE_CHINESE] = "爽朗的天马骑士",
 },
 
-[MEID_レティシア洗脳] = {
-    [LANGUAGE_JAPANESE] = "レティシア",
-    [LANGUAGE_ENGLISH] = "Letizia",
-    [LANGUAGE_CHINESE] = "莱蒂西亚",
+[MPID_ホルスト] = {
+    [LANGUAGE_JAPANESE] = "ホルスト",
+    [LANGUAGE_ENGLISH] = "Holst",
+    [LANGUAGE_CHINESE] = "荷尔斯特",
 },
 
-[MEID_H_レティシア洗脳] = {
-    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇族。" TEXT_CMD_NEWLINE "ヴェロニカとは姉妹同然の間柄だった。",
-    [LANGUAGE_ENGLISH] = "Royalty in the line of succession to the throne" TEXT_CMD_NEWLINE "of the Emblian Empire. Growing up, she and" TEXT_CMD_NEWLINE "Veronica were as close as sisters.",
-    [LANGUAGE_CHINESE] = "恩布拉帝国的皇族。" TEXT_CMD_NEWLINE "曾和维洛妮卡情同姊妹。",
+[MPID_H_ホルスト] = {
+    [LANGUAGE_JAPANESE] = "レスター諸侯同盟の貴族、ゴネリル公の嫡子。" TEXT_CMD_NEWLINE "無双の勇士だが、妹のヒルダを溺愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Noble of the Leicester Alliance and son of" TEXT_CMD_NEWLINE "House Goneril. Unmatched in combat, but still" TEXT_CMD_NEWLINE "prone to doting on his sister, Hilda. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Warriors: Three Hopes.",
+    [LANGUAGE_CHINESE] = "雷斯塔诸侯同盟的贵族，哥纳利尔公爵的嫡子。" TEXT_CMD_NEWLINE "虽为举世无双的勇士，却非常溺爱妹妹希尔妲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
 },
 
-[MEID_HONOR_レティシア洗脳] = {
-    [LANGUAGE_JAPANESE] = "【呪詛部隊】の長",
-    [LANGUAGE_ENGLISH] = "Curse Director",
-    [LANGUAGE_CHINESE] = "【诅咒部队】队长",
+[MPID_HONOR_ホルスト] = {
+    [LANGUAGE_JAPANESE] = "レスターの勇者",
+    [LANGUAGE_ENGLISH] = "Hero of Leicester",
+    [LANGUAGE_CHINESE] = "雷斯塔的勇者",
 },
 
-[MPID_リムステラ] = {
-    [LANGUAGE_JAPANESE] = "リムステラ",
-    [LANGUAGE_ENGLISH] = "Limstella",
-    [LANGUAGE_CHINESE] = "莉姆思黛拉",
+[MEID_ヴェロニカ洗脳2] = {
+    [LANGUAGE_JAPANESE] = "ヴェロニカ",
+    [LANGUAGE_ENGLISH] = "Veronica",
+    [LANGUAGE_CHINESE] = "维洛妮卡",
 },
 
-[MPID_H_リムステラ] = {
-    [LANGUAGE_JAPANESE] = "古代魔道により創り出された【モルフ】と呼ばれる者。" TEXT_CMD_NEWLINE "創造主たるネルガルに忠実に仕える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A constructed being known as a morph," TEXT_CMD_NEWLINE "created with ancient magics. They serve" TEXT_CMD_NEWLINE "Nergal with absolute loyalty. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "由古代魔道所创造，被称为【魔路俘】的人。" TEXT_CMD_NEWLINE "忠心耿耿地侍奉创造者涅尔加鲁。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+[MEID_H_ヴェロニカ洗脳2] = {
+    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇女。" TEXT_CMD_NEWLINE "その身は、憑竜エンブラに憑依されている。",
+    [LANGUAGE_ENGLISH] = "Imperial princess of the Emblian Empire, her will" TEXT_CMD_NEWLINE "dominated by Embla herself.",
+    [LANGUAGE_CHINESE] = "恩布拉帝国的皇女。" TEXT_CMD_NEWLINE "她的身体已被凭龙恩布拉所附身。",
 },
 
-[MPID_HONOR_リムステラ] = {
-    [LANGUAGE_JAPANESE] = "創られし命",
-    [LANGUAGE_ENGLISH] = "Living Construct",
-    [LANGUAGE_CHINESE] = "被创造的生命",
+[MEID_HONOR_ヴェロニカ洗脳2] = {
+    [LANGUAGE_JAPANESE] = "憑かれし皇女",
+    [LANGUAGE_ENGLISH] = "Princess Beset",
+    [LANGUAGE_CHINESE] = "被附身的皇女",
+},
+
+[MPID_セリス] = {
+    [LANGUAGE_JAPANESE] = "セリス",
+    [LANGUAGE_ENGLISH] = "Seliph",
+    [LANGUAGE_CHINESE] = "赛列斯",
+},
+
+[MPID_H_セリス] = {
+    [LANGUAGE_JAPANESE] = "聖剣【ティルフィング】の継承者で、ユリアの異父兄。" TEXT_CMD_NEWLINE "光の公子、救世主と称えられるが、争いを好まない性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Inheritor of the sacred sword Tyrfing." TEXT_CMD_NEWLINE "A savior in his time, but dislikes battle." TEXT_CMD_NEWLINE "Julia's half brother. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "圣剑【斩裂剑】的继承者，尤莉亚的异父兄长。" TEXT_CMD_NEWLINE "虽被誉为光之勋爵和救世主，但个性不喜争斗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_セリス] = {
+    [LANGUAGE_JAPANESE] = "光を継ぐ者",
+    [LANGUAGE_ENGLISH] = "Heir of Light",
+    [LANGUAGE_CHINESE] = "光之继承者",
+},
+
+[MPID_ケンプフ] = {
+    [LANGUAGE_JAPANESE] = "ケンプフ",
+    [LANGUAGE_ENGLISH] = "Kempf",
+    [LANGUAGE_CHINESE] = "肯普夫",
+},
+
+[MPID_H_ケンプフ] = {
+    [LANGUAGE_JAPANESE] = "グランベル帝国軍第１２軍団の将軍。" TEXT_CMD_NEWLINE "ラインハルトを強く意識する野望の男。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "General of the 12th division of the Grannvale" TEXT_CMD_NEWLINE "Empire's army. A man of ambition and single-" TEXT_CMD_NEWLINE "minded focus on his rival, Reinhardt. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "格兰贝鲁帝国军第１２军团的将军。" TEXT_CMD_NEWLINE "视莱茵哈特为眼中钉，是个充满野心的男人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_ケンプフ] = {
+    [LANGUAGE_JAPANESE] = "フリージの智将",
+    [LANGUAGE_ENGLISH] = "Conniving General",
+    [LANGUAGE_CHINESE] = "弗立吉的智将",
+},
+
+[MPID_ナバール] = {
+    [LANGUAGE_JAPANESE] = "ナバール",
+    [LANGUAGE_ENGLISH] = "Navarre",
+    [LANGUAGE_CHINESE] = "拿巴尔",
+},
+
+[MPID_H_ナバール] = {
+    [LANGUAGE_JAPANESE] = "【紅の剣士】の異名を持つ凄腕の剣士。" TEXT_CMD_NEWLINE "口数は少なく、冷徹な一面も持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Skilled fighter known as the Scarlet Sword." TEXT_CMD_NEWLINE "Prefers his blade to do the talking. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "别名为【赤色剑士】的高强剑客。" TEXT_CMD_NEWLINE "沉默寡言，另有冷酷的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_ナバール] = {
+    [LANGUAGE_JAPANESE] = "紅の剣士",
+    [LANGUAGE_ENGLISH] = "Scarlet Sword",
+    [LANGUAGE_CHINESE] = "赤色剑士",
+},
+
+[MPID_リフ] = {
+    [LANGUAGE_JAPANESE] = "リフ",
+    [LANGUAGE_ENGLISH] = "Wrys",
+    [LANGUAGE_CHINESE] = "利夫",
+},
+
+[MPID_H_リフ] = {
+    [LANGUAGE_JAPANESE] = "タリス島に隠棲していた僧侶。" TEXT_CMD_NEWLINE "戦いは不得手だが、治療の杖で仲間を癒す。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暗黒竜と光の剣』）",
+    [LANGUAGE_ENGLISH] = "Humble priest of Talys who likes a quiet life." TEXT_CMD_NEWLINE "Despises battle, preferring to heal allies." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Shadow Dragon &" TEXT_CMD_NEWLINE "the Blade of Light.",
+    [LANGUAGE_CHINESE] = "隐居于塔利斯岛的僧侣。" TEXT_CMD_NEWLINE "虽不擅长战斗，但会以治疗之杖治愈伙伴。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暗黒竜と光の剣』）",
+},
+
+[MPID_HONOR_リフ] = {
+    [LANGUAGE_JAPANESE] = "僧侶",
+    [LANGUAGE_ENGLISH] = "Kindly Priest",
+    [LANGUAGE_CHINESE] = "僧侣",
+},
+
+[MPID_ロンクー] = {
+    [LANGUAGE_JAPANESE] = "ロンクー",
+    [LANGUAGE_ENGLISH] = "Lon'qu",
+    [LANGUAGE_CHINESE] = "隆克",
+},
+
+[MPID_H_ロンクー] = {
+    [LANGUAGE_JAPANESE] = "フェリア国の剣士。女性が苦手。" TEXT_CMD_NEWLINE "無口で無愛想だが、剣の腕は確か。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A skilled swordsman of Regna Ferox who" TEXT_CMD_NEWLINE "is oddly skittish around women. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "菲利亚国的剑客，不擅长面对女性。" TEXT_CMD_NEWLINE "沉默寡言、态度冷漠，但剑术造诣极高。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ロンクー] = {
+    [LANGUAGE_JAPANESE] = "女嫌いの剣士",
+    [LANGUAGE_ENGLISH] = "Solitary Blade",
+    [LANGUAGE_CHINESE] = "讨厌女人的剑客",
+},
+
+[MPID_オリヴィエ] = {
+    [LANGUAGE_JAPANESE] = "オリヴィエ",
+    [LANGUAGE_ENGLISH] = "Olivia",
+    [LANGUAGE_CHINESE] = "奥利薇",
+},
+
+[MPID_H_オリヴィエ] = {
+    [LANGUAGE_JAPANESE] = "各国を旅する踊り子。恥ずかしがり屋だが、" TEXT_CMD_NEWLINE "天才的な踊りの才能を持っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A dancer who travels widely and is quite" TEXT_CMD_NEWLINE "gifted, despite extreme shyness. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "周游各国的舞娘。虽然容易害羞，" TEXT_CMD_NEWLINE "但却是很有才华的舞蹈天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_オリヴィエ] = {
+    [LANGUAGE_JAPANESE] = "恥ずかしがり屋の",
+    [LANGUAGE_ENGLISH] = "Blushing Beauty",
+    [LANGUAGE_CHINESE] = "害羞的",
+},
+
+[MPID_マクベス] = {
+    [LANGUAGE_JAPANESE] = "マクベス",
+    [LANGUAGE_ENGLISH] = "Iago",
+    [LANGUAGE_CHINESE] = "马克白",
+},
+
+[MPID_H_マクベス] = {
+    [LANGUAGE_JAPANESE] = "暗夜王ガロンに仕える軍師。" TEXT_CMD_NEWLINE "冷酷な策略と幻術で数多くの敵対者を苦しめた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Tactician in the service of the Nohrian king," TEXT_CMD_NEWLINE "Garon. He uses cruel schemes and malicious" TEXT_CMD_NEWLINE "magic to plague the enemies of Nohr. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "侍奉暗夜王加隆的军师。" TEXT_CMD_NEWLINE "以冷酷的策略及幻术使众多敌人受尽苦难。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_マクベス] = {
+    [LANGUAGE_JAPANESE] = "暗夜王の軍師",
+    [LANGUAGE_ENGLISH] = "Nohr's Tactician",
+    [LANGUAGE_CHINESE] = "暗夜王的军师",
+},
+
+[MPID_ジョルジュ] = {
+    [LANGUAGE_JAPANESE] = "ジョルジュ",
+    [LANGUAGE_ENGLISH] = "Jeorge",
+    [LANGUAGE_CHINESE] = "乔尔裘",
+},
+
+[MPID_H_ジョルジュ] = {
+    [LANGUAGE_JAPANESE] = "アカネイア聖王国の弓騎士。策謀の才を持つ。" TEXT_CMD_NEWLINE "大陸一の弓使いと称されている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Archanean archer thought to be the best on" TEXT_CMD_NEWLINE "his continent. A skilled strategist. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿卡奈亚圣王国的弓骑士，擅长谋略，" TEXT_CMD_NEWLINE "被誉为陆地第一的弓箭手。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_ジョルジュ] = {
+    [LANGUAGE_JAPANESE] = "大陸一の弓騎士",
+    [LANGUAGE_ENGLISH] = "Perfect Shot",
+    [LANGUAGE_CHINESE] = "陆地第一的弓骑士",
+},
+
+[MPID_バーツ] = {
+    [LANGUAGE_JAPANESE] = "バーツ",
+    [LANGUAGE_ENGLISH] = "Barst",
+    [LANGUAGE_CHINESE] = "巴兹",
+},
+
+[MPID_H_バーツ] = {
+    [LANGUAGE_JAPANESE] = "タリス王国の戦士。オグマの部下。" TEXT_CMD_NEWLINE "木こりや海賊など、さまざまな過去を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Warrior of Talys who works for Ogma and" TEXT_CMD_NEWLINE "has been a pirate and woodcutter. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "塔利斯王国的战士，奥古马的部下。" TEXT_CMD_NEWLINE "人生经历丰富，曾当过樵夫及海盗等等。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_バーツ] = {
+    [LANGUAGE_JAPANESE] = "タリスの義勇兵",
+    [LANGUAGE_ENGLISH] = "The Hatchet",
+    [LANGUAGE_CHINESE] = "塔利斯的义勇兵",
+},
+
+[MPID_ミルラ] = {
+    [LANGUAGE_JAPANESE] = "ミルラ",
+    [LANGUAGE_ENGLISH] = "Myrrh",
+    [LANGUAGE_CHINESE] = "梅尔",
+},
+
+[MPID_H_ミルラ] = {
+    [LANGUAGE_JAPANESE] = "竜人族の少女。外見よりも年齢はずっと上。" TEXT_CMD_NEWLINE "人見知りだが、エフラムには不思議となついている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A manakete who is much older than her" TEXT_CMD_NEWLINE "appearance suggests. She's shy but oddly" TEXT_CMD_NEWLINE "attached to Ephraim. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "龙人族的少女。实际年龄远比外表年长。" TEXT_CMD_NEWLINE "虽然很怕生，却神奇地很喜欢黏著艾夫拉姆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_ミルラ] = {
+    [LANGUAGE_JAPANESE] = "無垢なる竜人",
+    [LANGUAGE_ENGLISH] = "Great Dragon",
+    [LANGUAGE_CHINESE] = "纯真的龙人",
+},
+
+[MPID_ジャファル] = {
+    [LANGUAGE_JAPANESE] = "ジャファル",
+    [LANGUAGE_ENGLISH] = "Jaffar",
+    [LANGUAGE_CHINESE] = "贾法尔",
+},
+
+[MPID_H_ジャファル] = {
+    [LANGUAGE_JAPANESE] = "【死神】と呼ばれる、暗殺組織【黒い牙】の一人。" TEXT_CMD_NEWLINE "感情を一切あらわすことなく、ただ暗殺を遂行する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "An emotionless member of the Black Fang" TEXT_CMD_NEWLINE "assassins. Known as the Angel of Death." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员，人称【死神】。" TEXT_CMD_NEWLINE "从不显露情感，只是不断执行暗杀任务。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ジャファル] = {
+    [LANGUAGE_JAPANESE] = "死神",
+    [LANGUAGE_ENGLISH] = "Angel of Death",
+    [LANGUAGE_CHINESE] = "死神",
+},
+
+[MPID_ヒース] = {
+    [LANGUAGE_JAPANESE] = "ヒース",
+    [LANGUAGE_ENGLISH] = "Heath",
+    [LANGUAGE_CHINESE] = "希斯",
+},
+
+[MPID_H_ヒース] = {
+    [LANGUAGE_JAPANESE] = "理想の騎士像と現実との差に悩む青年。" TEXT_CMD_NEWLINE "事情により母国ベルンを離れ、傭兵をしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A young man troubled by the contrast between" TEXT_CMD_NEWLINE "his knightly ideal and reality. Forced to leave his" TEXT_CMD_NEWLINE "homeland, Bern, before becoming a mercenary." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "因理想中的骑士与现实有落差而苦恼不已的青年。" TEXT_CMD_NEWLINE "在诸多原因下离开了母国伯尔尼，并成为了佣兵。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ヒース] = {
+    [LANGUAGE_JAPANESE] = "国境なき騎士",
+    [LANGUAGE_ENGLISH] = "Wandering Knight",
+    [LANGUAGE_CHINESE] = "无国界骑士",
+},
+
+[MPID_クラリーネ] = {
+    [LANGUAGE_JAPANESE] = "クラリーネ",
+    [LANGUAGE_ENGLISH] = "Clarine",
+    [LANGUAGE_CHINESE] = "克拉莉涅",
+},
+
+[MPID_H_クラリーネ] = {
+    [LANGUAGE_JAPANESE] = "エトルリア王国の名家リグレ家の令嬢。" TEXT_CMD_NEWLINE "世間知らずで高飛車だが、兄クレインを敬愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "Noble daughter of Count Reglay of Etruria. Fond" TEXT_CMD_NEWLINE "of her brother, Klein. Has lived a privileged life." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "伊特鲁里亚王国名门利格雷家的千金小姐。" TEXT_CMD_NEWLINE "虽然姿态高傲又不懂世故，但相当敬爱兄长克莱因。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_クラリーネ] = {
+    [LANGUAGE_JAPANESE] = "気ままな姫将軍",
+    [LANGUAGE_ENGLISH] = "Refined Noble",
+    [LANGUAGE_CHINESE] = "任性的公主将军",
+},
+
+[MPID_セシリア] = {
+    [LANGUAGE_JAPANESE] = "セシリア",
+    [LANGUAGE_ENGLISH] = "Cecilia",
+    [LANGUAGE_CHINESE] = "瑟西莉亚",
+},
+
+[MPID_H_セシリア] = {
+    [LANGUAGE_JAPANESE] = "エトルリア王国の【魔道軍将】。" TEXT_CMD_NEWLINE "幼いロイやリリーナの教師を務めていた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "Mage General of Etruria. Taught Roy and" TEXT_CMD_NEWLINE "Lilina when they were young. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "伊特鲁里亚王国的【魔道军将】。" TEXT_CMD_NEWLINE "曾任罗伊及莉莉娜幼时的教师。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_セシリア] = {
+    [LANGUAGE_JAPANESE] = "王国の娘",
+    [LANGUAGE_ENGLISH] = "Etrurian General",
+    [LANGUAGE_CHINESE] = "王国之女",
+},
+
+[MPID_アサマ] = {
+    [LANGUAGE_JAPANESE] = "アサマ",
+    [LANGUAGE_ENGLISH] = "Azama",
+    [LANGUAGE_CHINESE] = "浅间",
+},
+
+[MPID_H_アサマ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の修験者。ヒノカの臣下。" TEXT_CMD_NEWLINE "人当たりがよい温厚な人柄だが毒舌家。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A monk of Hoshido with a curious sense" TEXT_CMD_NEWLINE "of humor. One of Hinoka's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的修道者，火乃香的部下。" TEXT_CMD_NEWLINE "虽然个性敦厚、待人随和，但嘴巴相当毒辣。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_アサマ] = {
+    [LANGUAGE_JAPANESE] = "飄々とした僧",
+    [LANGUAGE_ENGLISH] = "Carefree Monk",
+    [LANGUAGE_CHINESE] = "飘逸的僧侣",
+},
+
+[MPID_セツナ] = {
+    [LANGUAGE_JAPANESE] = "セツナ",
+    [LANGUAGE_ENGLISH] = "Setsuna",
+    [LANGUAGE_CHINESE] = "刹那",
+},
+
+[MPID_H_セツナ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の弓使い。ヒノカの臣下。" TEXT_CMD_NEWLINE "かなりぼんやりした性格で、神経が図太い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Hoshidan archer who is either fearless or" TEXT_CMD_NEWLINE "daydreaming. One of Hinoka's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的弓箭手，也是火乃香的部下。" TEXT_CMD_NEWLINE "个性相当糊涂且神经大条。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_セツナ] = {
+    [LANGUAGE_JAPANESE] = "ぼんやり",
+    [LANGUAGE_ENGLISH] = "Absent Archer",
+    [LANGUAGE_CHINESE] = "迷糊蛋",
+},
+
+[MPID_カイネギス] = {
+    [LANGUAGE_JAPANESE] = "カイネギス",
+    [LANGUAGE_ENGLISH] = "Caineghis",
+    [LANGUAGE_CHINESE] = "凯内基斯",
+},
+
+[MPID_H_カイネギス] = {
+    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国を統べる獅子の民の王。" TEXT_CMD_NEWLINE "知勇を兼備し、ベオクとの友好の道を模索している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "The lion ruler of Gallia, the home of the beast" TEXT_CMD_NEWLINE "tribe of laguz. Uses his wisdom and courage to" TEXT_CMD_NEWLINE "seek a path toward peace with the beorc." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "狮子之民，统御兽牙族居住的加利亚王国的王。" TEXT_CMD_NEWLINE "智勇双全，极力探求与贝欧克建立友好关系的方法。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_カイネギス] = {
+    [LANGUAGE_JAPANESE] = "ガリアの獅子王",
+    [LANGUAGE_ENGLISH] = "Gallia's Lion King",
+    [LANGUAGE_CHINESE] = "加利亚的狮子王",
+},
+
+[MPID_マーク男] = {
+    [LANGUAGE_JAPANESE] = "マーク",
+    [LANGUAGE_ENGLISH] = "Morgan",
+    [LANGUAGE_CHINESE] = "马可",
+},
+
+[MPID_H_マーク男] = {
+    [LANGUAGE_JAPANESE] = "ルフレの息子。記憶喪失の軍師見習い。" TEXT_CMD_NEWLINE "勉強好きで、とても明るく自由な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Robin's son. An aspiring tactician with" TEXT_CMD_NEWLINE "no memory. Cheerful and loves to study." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "鲁弗莱的儿子，失去记忆的见习军师。" TEXT_CMD_NEWLINE "喜爱学习，个性开朗奔放。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_マーク男] = {
+    [LANGUAGE_JAPANESE] = "異界より来た少年",
+    [LANGUAGE_ENGLISH] = "Lad from Afar",
+    [LANGUAGE_CHINESE] = "来自异界的少年",
+},
+
+[MEID_ダグ] = {
+    [LANGUAGE_JAPANESE] = "ダグ",
+    [LANGUAGE_ENGLISH] = "Dagr",
+    [LANGUAGE_CHINESE] = "达古",
+},
+
+[MEID_H_ダグ] = {
+    [LANGUAGE_JAPANESE] = "ヨトゥン王国の第二王女。ノートの双子の妹。" TEXT_CMD_NEWLINE "陽気で大らか。好戦的な性格。",
+    [LANGUAGE_ENGLISH] = "The younger of the princesses of Jötunheimr," TEXT_CMD_NEWLINE "and Nótt's twin sister. Cheerful and big-hearted," TEXT_CMD_NEWLINE "but also ready for a scrap when the time comes.",
+    [LANGUAGE_CHINESE] = "约顿王国的第二公主。诺特的双胞胎妹妹。" TEXT_CMD_NEWLINE "个性开朗大方且好战。",
+},
+
+[MEID_HONOR_ダグ] = {
+    [LANGUAGE_JAPANESE] = "陽光の耀き",
+    [LANGUAGE_ENGLISH] = "Sun's Radiance",
+    [LANGUAGE_CHINESE] = "耀眼的阳光",
+},
+
+[MPID_セイラム] = {
+    [LANGUAGE_JAPANESE] = "セイラム",
+    [LANGUAGE_ENGLISH] = "Salem",
+    [LANGUAGE_CHINESE] = "塞拉姆",
+},
+
+[MPID_H_セイラム] = {
+    [LANGUAGE_JAPANESE] = "ロプト教団の司祭であったが、" TEXT_CMD_NEWLINE "教団に疑問を抱き、命を賭して裏切り者となった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
+    [LANGUAGE_ENGLISH] = "Although he was a priest of the Loptr Church," TEXT_CMD_NEWLINE "his doubts drove him to risk his life to leave it." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
+    [LANGUAGE_CHINESE] = "原为罗普托教团的祭司，" TEXT_CMD_NEWLINE "因对教团抱持疑问而赌上性命成为叛徒。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
+},
+
+[MPID_HONOR_セイラム] = {
+    [LANGUAGE_JAPANESE] = "暗黒魔道士",
+    [LANGUAGE_ENGLISH] = "Dark Sage",
+    [LANGUAGE_CHINESE] = "暗黑魔道士",
+},
+
+[MEID_ブルーノ洗脳] = {
+    [LANGUAGE_JAPANESE] = "ブルーノ",
+    [LANGUAGE_ENGLISH] = "Bruno",
+    [LANGUAGE_CHINESE] = "布鲁诺",
+},
+
+[MEID_H_ブルーノ洗脳] = {
+    [LANGUAGE_JAPANESE] = "元特務機関の一人で、アルフォンスの友。" TEXT_CMD_NEWLINE "エンブラ皇族の一人で、ヴェロニカの兄でもある。",
+    [LANGUAGE_ENGLISH] = "Former member of the Order of Heroes and" TEXT_CMD_NEWLINE "friend to Prince Alfonse. Member of the Emblian" TEXT_CMD_NEWLINE "royal family, and Veronica's elder brother.",
+    [LANGUAGE_CHINESE] = "曾为特务机关的一员，阿尔冯斯的好友。" TEXT_CMD_NEWLINE "恩布拉皇族之一，也是维洛妮卡的哥哥。",
+},
+
+[MEID_HONOR_ブルーノ洗脳] = {
+    [LANGUAGE_JAPANESE] = "憑かれし皇子",
+    [LANGUAGE_ENGLISH] = "Prince Beset",
+    [LANGUAGE_CHINESE] = "被附身的皇子",
+},
+
+[MPID_マリカ] = {
+    [LANGUAGE_JAPANESE] = "マリカ",
+    [LANGUAGE_ENGLISH] = "Marisa",
+    [LANGUAGE_CHINESE] = "玛莉卡",
+},
+
+[MPID_H_マリカ] = {
+    [LANGUAGE_JAPANESE] = "ジスト率いる傭兵団の剣士。" TEXT_CMD_NEWLINE "常に沈着冷静で、「緋閃」の異名で恐れられている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "An aloof swordfighter in a mercenary group led" TEXT_CMD_NEWLINE "by Gerik. Her nom de guerre, Crimson Flash," TEXT_CMD_NEWLINE "strikes fear in others. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "吉斯特所率领的佣兵团中的剑客。" TEXT_CMD_NEWLINE "总是沉著冷静，外号「绯闪」令人闻风丧胆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_マリカ] = {
+    [LANGUAGE_JAPANESE] = "緋閃",
+    [LANGUAGE_ENGLISH] = "Crimson Flash",
+    [LANGUAGE_CHINESE] = "绯闪",
+},
+
+[MPID_ドニ] = {
+    [LANGUAGE_JAPANESE] = "ドニ",
+    [LANGUAGE_ENGLISH] = "Donnel",
+    [LANGUAGE_CHINESE] = "多尼",
+},
+
+[MPID_H_ドニ] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の村人。畑仕事が得意。" TEXT_CMD_NEWLINE "訛りのある、独特な話し方をする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A farm boy from a country village in" TEXT_CMD_NEWLINE "the Halidom of Ylisse. Handy and hardy." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国的村民，擅长耕作。" TEXT_CMD_NEWLINE "说话带有独特的方言口音。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ドニ] = {
+    [LANGUAGE_JAPANESE] = "村人",
+    [LANGUAGE_ENGLISH] = "Village Hero",
+    [LANGUAGE_CHINESE] = "村民",
+},
+
+[MPID_リリス] = {
+    [LANGUAGE_JAPANESE] = "リリス",
+    [LANGUAGE_ENGLISH] = "Lilith",
+    [LANGUAGE_CHINESE] = "莉莉丝",
+},
+
+[MPID_H_リリス] = {
+    [LANGUAGE_JAPANESE] = "カムイに仕える従者。その正体は星竜で、" TEXT_CMD_NEWLINE "カムイの危機を救うために真の姿を見せる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Corrin's attendant, whose true form is that" TEXT_CMD_NEWLINE "of an astral dragon. She reveals her true self" TEXT_CMD_NEWLINE "to rescue Corrin from a crisis. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "侍奉神威的随从。真实身分是星龙，" TEXT_CMD_NEWLINE "为了将神威从危机中救出，展现了真正的姿态。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_リリス] = {
+    [LANGUAGE_JAPANESE] = "星竜の子",
+    [LANGUAGE_ENGLISH] = "Astral Daughter",
+    [LANGUAGE_CHINESE] = "星龙之子",
+},
+
+[MPID_チキ] = {
+    [LANGUAGE_JAPANESE] = "チキ",
+    [LANGUAGE_ENGLISH] = "Tiki",
+    [LANGUAGE_CHINESE] = "琪姬",
+},
+
+[MPID_H_チキ] = {
+    [LANGUAGE_JAPANESE] = "神竜族の王女。竜としての暴走を抑えるため、" TEXT_CMD_NEWLINE "永い眠りについていた。人との関わりを求めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A young Divine Dragon once put into a timeless" TEXT_CMD_NEWLINE "sleep to keep her dragon impulses in check." TEXT_CMD_NEWLINE "Now longs for human company. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "神龙族的公主。身为龙，为了不让自己失控，" TEXT_CMD_NEWLINE "曾进入漫长的沉眠。渴望与人类之间的交流。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_チキ] = {
+    [LANGUAGE_JAPANESE] = "神竜族の王女",
+    [LANGUAGE_ENGLISH] = "Dragon Scion",
+    [LANGUAGE_CHINESE] = "神龙族的公主",
+},
+
+[MPID_ソーニャ] = {
+    [LANGUAGE_JAPANESE] = "ソーニャ",
+    [LANGUAGE_ENGLISH] = "Sonia",
+    [LANGUAGE_CHINESE] = "索妮娅",
+},
+
+[MPID_H_ソーニャ] = {
+    [LANGUAGE_JAPANESE] = "【黒い牙】首領の後妻におさまった謎の美女。" TEXT_CMD_NEWLINE "実質的な指導者ネルガルに忠誠を誓い、暗躍する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A mysterious woman who seduced the leader" TEXT_CMD_NEWLINE "of the Black Fang. Her true loyalty lies with" TEXT_CMD_NEWLINE "Nergal, at whose instruction she secretly" TEXT_CMD_NEWLINE "manipulates events. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "成为【黑牙】首领第二任妻子的神秘美女。" TEXT_CMD_NEWLINE "效忠于其真正的领袖涅尔加鲁，为他在暗中活动。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ソーニャ] = {
+    [LANGUAGE_JAPANESE] = "冷酷非情の妖姫",
+    [LANGUAGE_ENGLISH] = "Inhuman Beauty",
+    [LANGUAGE_CHINESE] = "冷酷无情的妖姬",
+},
+
+[MPID_ソレイユ] = {
+    [LANGUAGE_JAPANESE] = "ソレイユ",
+    [LANGUAGE_ENGLISH] = "Soleil",
+    [LANGUAGE_CHINESE] = "索雷优",
+},
+
+[MPID_H_ソレイユ] = {
+    [LANGUAGE_JAPANESE] = "ラズワルドの娘。明るく元気な性格。" TEXT_CMD_NEWLINE "かっこいい女性に憧れているが、羞恥心が薄い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Laslow's daughter. Cheerful and not even" TEXT_CMD_NEWLINE "slightly shy. Looks up to cool women." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "拉兹沃德的女儿，个性开朗活泼。" TEXT_CMD_NEWLINE "十分憧憬帅气的女性，但缺乏羞耻观念。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ソレイユ] = {
+    [LANGUAGE_JAPANESE] = "女の子好き",
+    [LANGUAGE_ENGLISH] = "Adorable Adorer",
+    [LANGUAGE_CHINESE] = "热爱女孩",
+},
+
+[MPID_催眠ニニアン] = {
+    [LANGUAGE_JAPANESE] = "ニニアン",
+    [LANGUAGE_ENGLISH] = "Ninian",
+    [LANGUAGE_CHINESE] = "尼尼安",
+},
+
+[MPID_H_催眠ニニアン] = {
+    [LANGUAGE_JAPANESE] = "竜の門を開く巫女。ネルガルに操られ、" TEXT_CMD_NEWLINE "竜の力を強制的に引き出される。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Oracle who opens the Dragon's Gate, her" TEXT_CMD_NEWLINE "draconic strength now forcefully harnessed" TEXT_CMD_NEWLINE "by Nergal. Appears in Fire Emblem: The" TEXT_CMD_NEWLINE "Blazing Blade.",
+    [LANGUAGE_CHINESE] = "开启龙门的巫女。受到涅尔加鲁操控，" TEXT_CMD_NEWLINE "被强行引出龙之力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_催眠ニニアン] = {
+    [LANGUAGE_JAPANESE] = "心を奪われし氷竜",
+    [LANGUAGE_ENGLISH] = "Frozen Heart",
+    [LANGUAGE_CHINESE] = "被夺去心灵的冰龙",
+},
+
+[MPID_マチス] = {
+    [LANGUAGE_JAPANESE] = "マチス",
+    [LANGUAGE_ENGLISH] = "Matthis",
+    [LANGUAGE_CHINESE] = "玛吉斯",
+},
+
+[MPID_H_マチス] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王国の貴族出身の騎士。" TEXT_CMD_NEWLINE "戦いは嫌いだが、強引に出撃させられてしまった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A noble knight of Macedon. Though he would" TEXT_CMD_NEWLINE "prefer to avoid bloodshed, he had no choice" TEXT_CMD_NEWLINE "but to take up arms. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "马其顿王国贵族出身的骑士。" TEXT_CMD_NEWLINE "讨厌战争却被迫出战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_マチス] = {
+    [LANGUAGE_JAPANESE] = "シスターレナの兄",
+    [LANGUAGE_ENGLISH] = "Brother to Lena",
+    [LANGUAGE_CHINESE] = "蕾娜修女的哥哥",
+},
+
+[MPID_ティアモ] = {
+    [LANGUAGE_JAPANESE] = "ティアモ",
+    [LANGUAGE_ENGLISH] = "Cordelia",
+    [LANGUAGE_CHINESE] = "蒂亚莫",
+},
+
+[MPID_H_ティアモ] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の天馬騎士団唯一の生き残り。" TEXT_CMD_NEWLINE "何でもそつなくこなせる天才肌。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "The sole survivor of Ylisse's pegasus" TEXT_CMD_NEWLINE "knights. Humble and supremely talented." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国天马骑士团唯一的幸存者，" TEXT_CMD_NEWLINE "不管做什么都得心应手的天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ティアモ] = {
+    [LANGUAGE_JAPANESE] = "若き天才騎士",
+    [LANGUAGE_ENGLISH] = "Knight Paragon",
+    [LANGUAGE_CHINESE] = "年轻的天才骑士",
+},
+
+[MPID_ミドリコ] = {
+    [LANGUAGE_JAPANESE] = "ミドリコ",
+    [LANGUAGE_ENGLISH] = "Midori",
+    [LANGUAGE_CHINESE] = "翠子",
+},
+
+[MPID_H_ミドリコ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の忍、スズカゼの娘。" TEXT_CMD_NEWLINE "しっかり者で薬草を調合する技術に長ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Daughter of the stalwart Hoshidan ninja Kaze." TEXT_CMD_NEWLINE "An expert when it comes to crafting balms and" TEXT_CMD_NEWLINE "poultices from medicinal herbs. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的忍者，凉风的女儿。" TEXT_CMD_NEWLINE "是个可靠的人，调配药草的技术相当高超。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ミドリコ] = {
+    [LANGUAGE_JAPANESE] = "しっかり者の",
+    [LANGUAGE_ENGLISH] = "Reliable Chemist",
+    [LANGUAGE_CHINESE] = "可靠的",
+},
+
+[MPID_ナターシャ] = {
+    [LANGUAGE_JAPANESE] = "ナターシャ",
+    [LANGUAGE_ENGLISH] = "Natasha",
+    [LANGUAGE_CHINESE] = "娜塔夏",
+},
+
+[MPID_H_ナターシャ] = {
+    [LANGUAGE_JAPANESE] = "グラド帝国出身のシスター。" TEXT_CMD_NEWLINE "真面目でしとやかな、美しい女性。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A gentle cleric from Grado, and a woman" TEXT_CMD_NEWLINE "of beauty and grace. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "出身于格拉多帝国的修女。" TEXT_CMD_NEWLINE "是位认真又娴淑的美丽女性。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_ナターシャ] = {
+    [LANGUAGE_JAPANESE] = "癒しの聖女",
+    [LANGUAGE_ENGLISH] = "Sacred Healer",
+    [LANGUAGE_CHINESE] = "治愈圣女",
+},
+
+[MPID_ノール] = {
+    [LANGUAGE_JAPANESE] = "ノール",
+    [LANGUAGE_ENGLISH] = "Knoll",
+    [LANGUAGE_CHINESE] = "诺尔",
+},
+
+[MPID_H_ノール] = {
+    [LANGUAGE_JAPANESE] = "グラド帝国で闇魔道の研究を行っていた宮廷魔道士。" TEXT_CMD_NEWLINE "リオン皇子の変質と魔石誕生の経緯を知る1人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Royal mage of Grado and researcher of dark" TEXT_CMD_NEWLINE "magic. He knows the secret of Prince Lyon's" TEXT_CMD_NEWLINE "change and the Dark Stone's creation. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "曾在格拉多帝国研究暗魔道的宫廷魔道士。" TEXT_CMD_NEWLINE "知晓利昂皇子性情大变及魔石诞生的来龙去脉。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_ノール] = {
+    [LANGUAGE_JAPANESE] = "闇からの予見",
+    [LANGUAGE_ENGLISH] = "Darkness Watcher",
+    [LANGUAGE_CHINESE] = "来自黑暗的预知",
+},
+
+[MPID_ルイーズ] = {
+    [LANGUAGE_JAPANESE] = "ルイーズ",
+    [LANGUAGE_ENGLISH] = "Louise",
+    [LANGUAGE_CHINESE] = "露依丝",
+},
+
+[MPID_H_ルイーズ] = {
+    [LANGUAGE_JAPANESE] = "エトルリア王国リグレ公爵パントの妻。" TEXT_CMD_NEWLINE "その美しさと弓の腕前に多くの人が魅了されたという。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Wife of Pent, Count Reglay of Etruria. Said" TEXT_CMD_NEWLINE "to have caught the eye of many an admirer" TEXT_CMD_NEWLINE "with her dazzling beauty and impeccable aim." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "伊特鲁里亚王国利格雷公爵庞托之妻。" TEXT_CMD_NEWLINE "据说其美貌和弓术造诣迷倒了不少人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ルイーズ] = {
+    [LANGUAGE_JAPANESE] = "金紫の貴婦人",
+    [LANGUAGE_ENGLISH] = "Lady of Violets",
+    [LANGUAGE_CHINESE] = "金紫的贵妇",
+},
+
+[MPID_マリア] = {
+    [LANGUAGE_JAPANESE] = "マリア",
+    [LANGUAGE_ENGLISH] = "Maria",
+    [LANGUAGE_CHINESE] = "玛莉亚",
+},
+
+[MPID_H_マリア] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王女。ミシェイル、ミネルバの妹。" TEXT_CMD_NEWLINE "家族思いで、心優しい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Princess of Macedon. Younger sister of Minerva" TEXT_CMD_NEWLINE "and Michalis, whom she loves dearly. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "马其顿的公主，米谢尔及米奈娃的妹妹。" TEXT_CMD_NEWLINE "心地善良，相当重视家人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_マリア] = {
+    [LANGUAGE_JAPANESE] = "ミネルバの妹",
+    [LANGUAGE_ENGLISH] = "Minerva's Sister",
+    [LANGUAGE_CHINESE] = "米奈娃之妹",
+},
+
+[MPID_カアラ] = {
+    [LANGUAGE_JAPANESE] = "カアラ",
+    [LANGUAGE_ENGLISH] = "Karla",
+    [LANGUAGE_CHINESE] = "卡菈",
+},
+
+[MPID_H_カアラ] = {
+    [LANGUAGE_JAPANESE] = "兄の姿を求めて旅する剣士。" TEXT_CMD_NEWLINE "美貌と腕前で各地の闘技場を賑わせている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A traveling swordswoman in search of" TEXT_CMD_NEWLINE "her brother. Her impressive skills and" TEXT_CMD_NEWLINE "good looks have enlivened many arenas." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "为了追寻哥哥的踪迹踏上旅途的剑士。" TEXT_CMD_NEWLINE "凭著美貌及其本领让各地斗技场充满生气。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+},
+
+[MPID_HONOR_カアラ] = {
+    [LANGUAGE_JAPANESE] = "剣姫",
+    [LANGUAGE_ENGLISH] = "Sword Vassal",
+    [LANGUAGE_CHINESE] = "剑姬",
+},
+
+[MEID_フード] = {
+    [LANGUAGE_JAPANESE] = "？？？",
+    [LANGUAGE_ENGLISH] = "???",
+    [LANGUAGE_CHINESE] = "？？？",
+},
+
+[MEID_H_フード] = {
+    [LANGUAGE_JAPANESE] = "？？？",
+    [LANGUAGE_ENGLISH] = "???",
+    [LANGUAGE_CHINESE] = "？？？",
+},
+
+[MEID_HONOR_フード] = {
+    [LANGUAGE_JAPANESE] = "半身の友",
+    [LANGUAGE_ENGLISH] = "Near and Dear",
+    [LANGUAGE_CHINESE] = "手足之交",
+},
+
+[MPID_リリーナ] = {
+    [LANGUAGE_JAPANESE] = "リリーナ",
+    [LANGUAGE_ENGLISH] = "Lilina",
+    [LANGUAGE_CHINESE] = "莉莉娜",
+},
+
+[MPID_H_リリーナ] = {
+    [LANGUAGE_JAPANESE] = "オスティア公女で、ロイとは幼馴染。" TEXT_CMD_NEWLINE "天才的な魔道の才能を秘めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "A noble of Ostia with a natural gift for magic." TEXT_CMD_NEWLINE "Roy's friend since childhood. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "奥斯提亚的女爵，跟罗伊是幼时玩伴。" TEXT_CMD_NEWLINE "是很有才华的魔道天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_リリーナ] = {
+    [LANGUAGE_JAPANESE] = "美しき盟主",
+    [LANGUAGE_ENGLISH] = "Delightful Noble",
+    [LANGUAGE_CHINESE] = "美丽的盟主",
+},
+
+[MPID_ウェンディ] = {
+    [LANGUAGE_JAPANESE] = "ウェンディ",
+    [LANGUAGE_ENGLISH] = "Gwendolyn",
+    [LANGUAGE_CHINESE] = "温蒂",
+},
+
+[MPID_H_ウェンディ] = {
+    [LANGUAGE_JAPANESE] = "オスティアの重騎士。まっすぐで意志の強い性格。" TEXT_CMD_NEWLINE "鎧のせいで大柄に見られがちなことを気にしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "Armored knight of Ostia. Intent on mastering" TEXT_CMD_NEWLINE "defense, despite feeling awkward in armor." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "奥斯提亚的重骑士，个性真挚而坚强。" TEXT_CMD_NEWLINE "很在意因为身上的盔甲而被误以为虎背熊腰。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_ウェンディ] = {
+    [LANGUAGE_JAPANESE] = "可憐な重騎士",
+    [LANGUAGE_ENGLISH] = "Adorable Knight",
+    [LANGUAGE_CHINESE] = "可爱的重骑士",
+},
+
+[MPID_総選挙アイク] = {
+    [LANGUAGE_JAPANESE] = "アイク",
+    [LANGUAGE_ENGLISH] = "Ike",
+    [LANGUAGE_CHINESE] = "艾克",
+},
+
+[MPID_H_総選挙アイク] = {
+    [LANGUAGE_JAPANESE] = "父の後を継ぎ、グレイル傭兵団の長となった青年。" TEXT_CMD_NEWLINE "武器は、父グレイルの斧を受け継いでいる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A kindhearted but stoic young man who has" TEXT_CMD_NEWLINE "taken command of his father's mercenary band." TEXT_CMD_NEWLINE "Wields the axe of his father, Greil. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "继承父亲衣钵、成为格莱尔佣兵团团长的青年。" TEXT_CMD_NEWLINE "使用武器为继承自父亲格莱尔的战斧。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_総選挙アイク] = {
+    [LANGUAGE_JAPANESE] = "大いなる傭兵",
+    [LANGUAGE_ENGLISH] = "Brave Mercenary",
+    [LANGUAGE_CHINESE] = "伟大的佣兵",
+},
+
+[MPID_シェズ男] = {
+    [LANGUAGE_JAPANESE] = "シェズ",
+    [LANGUAGE_ENGLISH] = "Shez",
+    [LANGUAGE_CHINESE] = "谢兹",
+},
+
+[MPID_H_シェズ男] = {
+    [LANGUAGE_JAPANESE] = "フォドラを一人で放浪する根無し草の傭兵。" TEXT_CMD_NEWLINE "割り切った性格だが、奥底には熱き思いが眠る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "A mercenary who wandered Fódlan. Though" TEXT_CMD_NEWLINE "ordinarily rational, a burning desire sleeps" TEXT_CMD_NEWLINE "within him. Appears in Fire Emblem Warriors:" TEXT_CMD_NEWLINE "Three Hopes.",
+    [LANGUAGE_CHINESE] = "居无定所、独自一人在芙朵拉流浪的佣兵。" TEXT_CMD_NEWLINE "个性干脆果断，但沉睡著一颗热血的心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
+},
+
+[MPID_HONOR_シェズ男] = {
+    [LANGUAGE_JAPANESE] = "新進気鋭の傭兵",
+    [LANGUAGE_ENGLISH] = "Rising Mercenary",
+    [LANGUAGE_CHINESE] = "新锐佣兵",
+},
+
+[MPID_カザハナ] = {
+    [LANGUAGE_JAPANESE] = "カザハナ",
+    [LANGUAGE_ENGLISH] = "Hana",
+    [LANGUAGE_CHINESE] = "风花",
+},
+
+[MPID_H_カザハナ] = {
+    [LANGUAGE_JAPANESE] = "白夜王国の侍。サクラの臣下で親友。" TEXT_CMD_NEWLINE "国でも指折りの刀の使い手で、明るくお転婆。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A noble who is skilled with the katana." TEXT_CMD_NEWLINE "One of Sakura's retainers. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "白夜王国的武士，是樱的部下兼好友。" TEXT_CMD_NEWLINE "为全国首屈一指的使刀高手，个性开朗而活泼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_カザハナ] = {
+    [LANGUAGE_JAPANESE] = "お転婆侍",
+    [LANGUAGE_ENGLISH] = "Focused Samurai",
+    [LANGUAGE_CHINESE] = "野丫头武士",
+},
+
+[MPID_アーヴ] = {
+    [LANGUAGE_JAPANESE] = "アーヴ",
+    [LANGUAGE_ENGLISH] = "Riev",
+    [LANGUAGE_CHINESE] = "亚维",
+},
+
+[MPID_H_アーヴ] = {
+    [LANGUAGE_JAPANESE] = "グラド帝国六将【血碧石】の名を授かった異端の司祭。" TEXT_CMD_NEWLINE "ルネス侵攻において登用され、素性は謎に包まれている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A heretical priest shrouded in mystery. As one" TEXT_CMD_NEWLINE "of Grado's six generals, he is known by the" TEXT_CMD_NEWLINE "name Blood Beryl. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "格拉多帝国六将中别名为【血碧石】的异端祭司。" TEXT_CMD_NEWLINE "在侵略路奈斯时受到重用，来历不明。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_アーヴ] = {
+    [LANGUAGE_JAPANESE] = "血碧石",
+    [LANGUAGE_ENGLISH] = "Blood Beryl",
+    [LANGUAGE_CHINESE] = "血碧石",
+},
+
+[MPID_アルム] = {
+    [LANGUAGE_JAPANESE] = "アルム",
+    [LANGUAGE_ENGLISH] = "Alm",
+    [LANGUAGE_CHINESE] = "阿雷武",
+},
+
+[MPID_H_アルム] = {
+    [LANGUAGE_JAPANESE] = "ラムの村で英雄マイセンに育てられた少年戦士。" TEXT_CMD_NEWLINE "勇敢で心優しく、左手に聖痕を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A brave but kind young warrior, raised by the" TEXT_CMD_NEWLINE "hero Mycen in Ram Village. His left hand is" TEXT_CMD_NEWLINE "marked with the Brand. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "在拉姆村受到英雄玛伊森薰陶培育的少年战士。" TEXT_CMD_NEWLINE "既勇敢又善良，左手有圣痕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_アルム] = {
+    [LANGUAGE_JAPANESE] = "予言の勇者",
+    [LANGUAGE_ENGLISH] = "Hero of Prophecy",
+    [LANGUAGE_CHINESE] = "预言的勇者",
 },
 
 [MPID_フレデリク] = {
@@ -6481,366 +7057,6 @@
     [LANGUAGE_CHINESE] = "最后的公主",
 },
 
-[MPID_デューテ] = {
-    [LANGUAGE_JAPANESE] = "デューテ",
-    [LANGUAGE_ENGLISH] = "Delthea",
-    [LANGUAGE_CHINESE] = "迪优特",
-},
-
-[MPID_H_デューテ] = {
-    [LANGUAGE_JAPANESE] = "森の村の魔道士。リュートの妹。" TEXT_CMD_NEWLINE "天才的な魔道の才能を持つが、修行と努力が大嫌い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A naturally talented mage who hates training" TEXT_CMD_NEWLINE "and hard work. Has a brother, Luthier. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "森林村落的魔道士，鲁特的妹妹。" TEXT_CMD_NEWLINE "虽然是个魔道天才，但非常讨厌修练及努力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_デューテ] = {
-    [LANGUAGE_JAPANESE] = "やりたい放題",
-    [LANGUAGE_ENGLISH] = "Free Spirit",
-    [LANGUAGE_CHINESE] = "不受拘束",
-},
-
-[MPID_ゴンザレス] = {
-    [LANGUAGE_JAPANESE] = "ゴンザレス",
-    [LANGUAGE_ENGLISH] = "Gonzalez",
-    [LANGUAGE_CHINESE] = "冈萨雷斯",
-},
-
-[MPID_H_ゴンザレス] = {
-    [LANGUAGE_JAPANESE] = "西方三島生まれの巨漢。" TEXT_CMD_NEWLINE "獣のような姿を恐れられ、居場所を求めて山賊になった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "An uncommonly large man, born in the Western" TEXT_CMD_NEWLINE "Isles. Searching for a group who would accept" TEXT_CMD_NEWLINE "him for who he is, he wound up with bandits." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "生于西方三岛的壮汉。因野兽般的外貌" TEXT_CMD_NEWLINE "受到人们畏惧，为求容身之地而成为山贼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_ゴンザレス] = {
-    [LANGUAGE_JAPANESE] = "心やさしき山賊",
-    [LANGUAGE_ENGLISH] = "Kindly Bandit",
-    [LANGUAGE_CHINESE] = "内心温柔的山贼",
-},
-
-[MPID_ロンクー] = {
-    [LANGUAGE_JAPANESE] = "ロンクー",
-    [LANGUAGE_ENGLISH] = "Lon'qu",
-    [LANGUAGE_CHINESE] = "隆克",
-},
-
-[MPID_H_ロンクー] = {
-    [LANGUAGE_JAPANESE] = "フェリア国の剣士。女性が苦手。" TEXT_CMD_NEWLINE "無口で無愛想だが、剣の腕は確か。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A skilled swordsman of Regna Ferox who" TEXT_CMD_NEWLINE "is oddly skittish around women. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "菲利亚国的剑客，不擅长面对女性。" TEXT_CMD_NEWLINE "沉默寡言、态度冷漠，但剑术造诣极高。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ロンクー] = {
-    [LANGUAGE_JAPANESE] = "女嫌いの剣士",
-    [LANGUAGE_ENGLISH] = "Solitary Blade",
-    [LANGUAGE_CHINESE] = "讨厌女人的剑客",
-},
-
-[MPID_オリヴィエ] = {
-    [LANGUAGE_JAPANESE] = "オリヴィエ",
-    [LANGUAGE_ENGLISH] = "Olivia",
-    [LANGUAGE_CHINESE] = "奥利薇",
-},
-
-[MPID_H_オリヴィエ] = {
-    [LANGUAGE_JAPANESE] = "各国を旅する踊り子。恥ずかしがり屋だが、" TEXT_CMD_NEWLINE "天才的な踊りの才能を持っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A dancer who travels widely and is quite" TEXT_CMD_NEWLINE "gifted, despite extreme shyness. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "周游各国的舞娘。虽然容易害羞，" TEXT_CMD_NEWLINE "但却是很有才华的舞蹈天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_オリヴィエ] = {
-    [LANGUAGE_JAPANESE] = "恥ずかしがり屋の",
-    [LANGUAGE_ENGLISH] = "Blushing Beauty",
-    [LANGUAGE_CHINESE] = "害羞的",
-},
-
-[MPID_スルト味方] = {
-    [LANGUAGE_JAPANESE] = "スルト",
-    [LANGUAGE_ENGLISH] = "Surtr",
-    [LANGUAGE_CHINESE] = "斯尔特",
-},
-
-[MPID_H_スルト味方] = {
-    [LANGUAGE_JAPANESE] = "炎の王国ムスペルの王。炎竜の血を引く。" TEXT_CMD_NEWLINE "苛烈な性格で、征服欲が極めて強い。",
-    [LANGUAGE_ENGLISH] = "King of Múspell, the Kingdom of Flame. Carries" TEXT_CMD_NEWLINE "the blood of the Flame Dragon. A harsh ruler" TEXT_CMD_NEWLINE "whose desire for conquest is relentless.",
-    [LANGUAGE_CHINESE] = "炎之王国穆斯贝尔的国王，继承了炎龙的血脉。" TEXT_CMD_NEWLINE "个性严厉冷酷，拥有极强的征服欲。",
-},
-
-[MPID_HONOR_スルト味方] = {
-    [LANGUAGE_JAPANESE] = "炎の王",
-    [LANGUAGE_ENGLISH] = "Ruler of Flame",
-    [LANGUAGE_CHINESE] = "炎之王",
-},
-
-[MPID_ミシェイル] = {
-    [LANGUAGE_JAPANESE] = "ミシェイル",
-    [LANGUAGE_ENGLISH] = "Michalis",
-    [LANGUAGE_CHINESE] = "米谢尔",
-},
-
-[MPID_H_ミシェイル] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王。ミネルバ、マリアの兄。" TEXT_CMD_NEWLINE "父王を殺害し、大陸の覇者たらんとして戦った。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "King of Macedon who had great ambitions" TEXT_CMD_NEWLINE "for his country. Murdered his father." TEXT_CMD_NEWLINE "Brother to Minerva and Maria. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "马其顿之王，米奈娃及玛莉亚的兄长。" TEXT_CMD_NEWLINE "杀害了自己的父王，并为了统治全陆地而掀起战乱。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_ミシェイル] = {
-    [LANGUAGE_JAPANESE] = "野望の王",
-    [LANGUAGE_ENGLISH] = "Ambitious King",
-    [LANGUAGE_CHINESE] = "野心之王",
-},
-
-[MPID_カミュ] = {
-    [LANGUAGE_JAPANESE] = "カミュ",
-    [LANGUAGE_ENGLISH] = "Camus",
-    [LANGUAGE_CHINESE] = "卡谬",
-},
-
-[MPID_H_カミュ] = {
-    [LANGUAGE_JAPANESE] = "【黒騎士】と呼ばれるグルニア王国騎士。" TEXT_CMD_NEWLINE "神槍【グラディウス】を手に、祖国に殉じた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A knight who's devoted to his motherland," TEXT_CMD_NEWLINE "Grust. Wields the lance Gradivus. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "被称为【黑骑士】的哥尔尼亚王国骑士。" TEXT_CMD_NEWLINE "手握神枪【古拉迪乌斯】，为了祖国而牺牲。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_カミュ] = {
-    [LANGUAGE_JAPANESE] = "黒騎士",
-    [LANGUAGE_ENGLISH] = "Sable Knight",
-    [LANGUAGE_CHINESE] = "黑骑士",
-},
-
-[MPID_催眠ニニアン] = {
-    [LANGUAGE_JAPANESE] = "ニニアン",
-    [LANGUAGE_ENGLISH] = "Ninian",
-    [LANGUAGE_CHINESE] = "尼尼安",
-},
-
-[MPID_H_催眠ニニアン] = {
-    [LANGUAGE_JAPANESE] = "竜の門を開く巫女。ネルガルに操られ、" TEXT_CMD_NEWLINE "竜の力を強制的に引き出される。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Oracle who opens the Dragon's Gate, her" TEXT_CMD_NEWLINE "draconic strength now forcefully harnessed" TEXT_CMD_NEWLINE "by Nergal. Appears in Fire Emblem: The" TEXT_CMD_NEWLINE "Blazing Blade.",
-    [LANGUAGE_CHINESE] = "开启龙门的巫女。受到涅尔加鲁操控，" TEXT_CMD_NEWLINE "被强行引出龙之力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_催眠ニニアン] = {
-    [LANGUAGE_JAPANESE] = "心を奪われし氷竜",
-    [LANGUAGE_ENGLISH] = "Frozen Heart",
-    [LANGUAGE_CHINESE] = "被夺去心灵的冰龙",
-},
-
-[MPID_ハロルド] = {
-    [LANGUAGE_JAPANESE] = "ハロルド",
-    [LANGUAGE_ENGLISH] = "Arthur",
-    [LANGUAGE_CHINESE] = "哈洛德",
-},
-
-[MPID_H_ハロルド] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国の戦士。エリーゼの臣下。" TEXT_CMD_NEWLINE "常に正しさを追求し続けるが、極端に運が悪い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A sworn ally of justice with uncannily bad" TEXT_CMD_NEWLINE "luck. One of Elise's retainers. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的战士，艾丽泽的部下。" TEXT_CMD_NEWLINE "时时刻刻都在追寻正道，但是非常倒楣。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ハロルド] = {
-    [LANGUAGE_JAPANESE] = "不運なヒーロー",
-    [LANGUAGE_ENGLISH] = "Hapless Hero",
-    [LANGUAGE_CHINESE] = "倒楣的英雄",
-},
-
-[MPID_エルフィ] = {
-    [LANGUAGE_JAPANESE] = "エルフィ",
-    [LANGUAGE_ENGLISH] = "Effie",
-    [LANGUAGE_CHINESE] = "艾尔菲",
-},
-
-[MPID_H_エルフィ] = {
-    [LANGUAGE_JAPANESE] = "暗夜王国重騎士。エリーゼの臣下で親友。" TEXT_CMD_NEWLINE "仲間想いで優しい性格。怪力でもある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A gentle knight with great strength and" TEXT_CMD_NEWLINE "devotion. One of Elise's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "暗夜王国的重骑士，是艾丽泽的部下兼好友。" TEXT_CMD_NEWLINE "个性和善，很替伙伴著想，还拥有一身怪力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_エルフィ] = {
-    [LANGUAGE_JAPANESE] = "怪力の重騎士",
-    [LANGUAGE_ENGLISH] = "Army of One",
-    [LANGUAGE_CHINESE] = "怪力的重骑士",
-},
-
-[MPID_オリヴァー] = {
-    [LANGUAGE_JAPANESE] = "オリヴァー",
-    [LANGUAGE_ENGLISH] = "Oliver",
-    [LANGUAGE_CHINESE] = "奥利瓦",
-},
-
-[MPID_H_オリヴァー] = {
-    [LANGUAGE_JAPANESE] = "ベグニオン帝国の元老院に名を連ねる聖者。" TEXT_CMD_NEWLINE "美しいものを好み、芸術などの保全に力を注いだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "A member of the Begnion Senate. Cherishes" TEXT_CMD_NEWLINE "everything beautiful and puts all his effort into" TEXT_CMD_NEWLINE "the preservation of the arts. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "名列贝格尼昂帝国元老院成员的圣职者。" TEXT_CMD_NEWLINE "喜爱美丽的事物，对保护艺术等工作不遗余力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_オリヴァー] = {
-    [LANGUAGE_JAPANESE] = "美の探究者",
-    [LANGUAGE_ENGLISH] = "Admirer of Beauty",
-    [LANGUAGE_CHINESE] = "美的求道者",
-},
-
-[MPID_レイヴァン] = {
-    [LANGUAGE_JAPANESE] = "レイヴァン",
-    [LANGUAGE_ENGLISH] = "Raven",
-    [LANGUAGE_CHINESE] = "瑞文",
-},
-
-[MPID_H_レイヴァン] = {
-    [LANGUAGE_JAPANESE] = "コンウォル侯爵家の嫡男で、本名はレイモンド。" TEXT_CMD_NEWLINE "復讐のため、傭兵に身をやつしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A noble heir whose true name is Raymond." TEXT_CMD_NEWLINE "Works as a mercenary to enact revenge." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "康沃尔侯爵家的嫡子，本名为瑞蒙。" TEXT_CMD_NEWLINE "为了复仇而乔装为佣兵。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_レイヴァン] = {
-    [LANGUAGE_JAPANESE] = "気高き傭兵",
-    [LANGUAGE_ENGLISH] = "Peerless Fighter",
-    [LANGUAGE_CHINESE] = "高傲的佣兵",
-},
-
-[MPID_ニノ] = {
-    [LANGUAGE_JAPANESE] = "ニノ",
-    [LANGUAGE_ENGLISH] = "Nino",
-    [LANGUAGE_CHINESE] = "妮诺",
-},
-
-[MPID_H_ニノ] = {
-    [LANGUAGE_JAPANESE] = "暗殺集団【黒い牙】の心優しい少女。" TEXT_CMD_NEWLINE "母の役に立ちたい一心で健気に尽くしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A kindhearted member of the Black Fang" TEXT_CMD_NEWLINE "assassins. Longed to help her mother. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "隶属于暗杀集团【黑牙】的善良少女。" TEXT_CMD_NEWLINE "一心想帮助母亲而坚强地牺牲奉献。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ニノ] = {
-    [LANGUAGE_JAPANESE] = "魔道の申し子",
-    [LANGUAGE_ENGLISH] = "Pious Mage",
-    [LANGUAGE_CHINESE] = "魔道骄子",
-},
-
-[MPID_リンハルト] = {
-    [LANGUAGE_JAPANESE] = "リンハルト",
-    [LANGUAGE_ENGLISH] = "Linhardt",
-    [LANGUAGE_CHINESE] = "林哈尔特",
-},
-
-[MPID_H_リンハルト] = {
-    [LANGUAGE_JAPANESE] = "アドラステア帝国ヘヴリング伯爵家の嫡男。" TEXT_CMD_NEWLINE "ベルグリーズ伯爵家の次男カスパルと親交が深い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Heir to House Hevring of the Adrestian Empire." TEXT_CMD_NEWLINE "Has deep friendship with the second son of" TEXT_CMD_NEWLINE "House Bergliez, Caspar. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国海弗林格伯爵家的嫡子。" TEXT_CMD_NEWLINE "与贝尔谷里斯伯爵家的次男卡斯帕尔交情甚深。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_リンハルト] = {
-    [LANGUAGE_JAPANESE] = "ヘヴリング伯爵家",
-    [LANGUAGE_ENGLISH] = "Hevring's Heir",
-    [LANGUAGE_CHINESE] = "海弗林格伯爵家",
-},
-
-[MPID_ルゥ] = {
-    [LANGUAGE_JAPANESE] = "ルゥ",
-    [LANGUAGE_ENGLISH] = "Lugh",
-    [LANGUAGE_CHINESE] = "鲁格",
-},
-
-[MPID_H_ルゥ] = {
-    [LANGUAGE_JAPANESE] = "孤児院出身の少年。レイとは双子の兄弟。" TEXT_CMD_NEWLINE "ほがらかな性格で、心優しい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "A boy from an orphanage. Raigh's twin brother." TEXT_CMD_NEWLINE "He's cheerful and tender-hearted. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "出自孤儿院的少年，是雷伊的双胞胎兄弟。" TEXT_CMD_NEWLINE "性情开朗，拥有一颗温柔的心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_ルゥ] = {
-    [LANGUAGE_JAPANESE] = "理の申し子",
-    [LANGUAGE_ENGLISH] = "Anima Child",
-    [LANGUAGE_CHINESE] = "理之骄子",
-},
-
-[MPID_神階エイル] = {
-    [LANGUAGE_JAPANESE] = "エイル",
-    [LANGUAGE_ENGLISH] = "Eir",
-    [LANGUAGE_CHINESE] = "埃尔",
-},
-
-[MPID_H_神階エイル] = {
-    [LANGUAGE_JAPANESE] = "死の王国ヘルの王女。母であるヘルを愛する反面、" TEXT_CMD_NEWLINE "人間に対する母の無慈悲な行為に、胸を痛めている。",
-    [LANGUAGE_ENGLISH] = "Princess of Hel, the realm of the dead. Dearly" TEXT_CMD_NEWLINE "loves her mother, Hel, who rules it. She finds" TEXT_CMD_NEWLINE "Hel's increasing mercilessness toward the living" TEXT_CMD_NEWLINE "disquieting.",
-    [LANGUAGE_CHINESE] = "死之王国赫尔的公主。深爱著母亲赫尔的同时，" TEXT_CMD_NEWLINE "也因为母亲对人类的残酷行为而感到心痛。",
-},
-
-[MPID_HONOR_神階エイル] = {
-    [LANGUAGE_JAPANESE] = "優しき死神",
-    [LANGUAGE_ENGLISH] = "Merciful Death",
-    [LANGUAGE_CHINESE] = "温柔的死神",
-},
-
-[MPID_アネット] = {
-    [LANGUAGE_JAPANESE] = "アネット",
-    [LANGUAGE_ENGLISH] = "Annette",
-    [LANGUAGE_CHINESE] = "雅妮特",
-},
-
-[MPID_H_アネット] = {
-    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の貴族、ドミニク男爵の姪。" TEXT_CMD_NEWLINE "明るい頑張り屋だが、頑張り過ぎるきらいがある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Noblewoman of the Holy Kingdom of Faerghus" TEXT_CMD_NEWLINE "and niece to Baron Dominic. Ever the good" TEXT_CMD_NEWLINE "student, she can sometimes overdo it. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的贵族，多米尼克男爵的姪女。" TEXT_CMD_NEWLINE "个性开朗且勤奋努力，但有过度努力的倾向。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_アネット] = {
-    [LANGUAGE_JAPANESE] = "頑張り中毒",
-    [LANGUAGE_ENGLISH] = "Overachiever",
-    [LANGUAGE_CHINESE] = "努力成瘾",
-},
-
-[MPID_クラリーネ] = {
-    [LANGUAGE_JAPANESE] = "クラリーネ",
-    [LANGUAGE_ENGLISH] = "Clarine",
-    [LANGUAGE_CHINESE] = "克拉莉涅",
-},
-
-[MPID_H_クラリーネ] = {
-    [LANGUAGE_JAPANESE] = "エトルリア王国の名家リグレ家の令嬢。" TEXT_CMD_NEWLINE "世間知らずで高飛車だが、兄クレインを敬愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "Noble daughter of Count Reglay of Etruria. Fond" TEXT_CMD_NEWLINE "of her brother, Klein. Has lived a privileged life." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "伊特鲁里亚王国名门利格雷家的千金小姐。" TEXT_CMD_NEWLINE "虽然姿态高傲又不懂世故，但相当敬爱兄长克莱因。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_クラリーネ] = {
-    [LANGUAGE_JAPANESE] = "気ままな姫将軍",
-    [LANGUAGE_ENGLISH] = "Refined Noble",
-    [LANGUAGE_CHINESE] = "任性的公主将军",
-},
-
-[MPID_セシリア] = {
-    [LANGUAGE_JAPANESE] = "セシリア",
-    [LANGUAGE_ENGLISH] = "Cecilia",
-    [LANGUAGE_CHINESE] = "瑟西莉亚",
-},
-
-[MPID_H_セシリア] = {
-    [LANGUAGE_JAPANESE] = "エトルリア王国の【魔道軍将】。" TEXT_CMD_NEWLINE "幼いロイやリリーナの教師を務めていた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "Mage General of Etruria. Taught Roy and" TEXT_CMD_NEWLINE "Lilina when they were young. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "伊特鲁里亚王国的【魔道军将】。" TEXT_CMD_NEWLINE "曾任罗伊及莉莉娜幼时的教师。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_セシリア] = {
-    [LANGUAGE_JAPANESE] = "王国の娘",
-    [LANGUAGE_ENGLISH] = "Etrurian General",
-    [LANGUAGE_CHINESE] = "王国之女",
-},
-
-[MPID_オリヴィエ2] = {
-    [LANGUAGE_JAPANESE] = "オリヴィエ",
-    [LANGUAGE_ENGLISH] = "Olivia",
-    [LANGUAGE_CHINESE] = "奥利薇",
-},
-
-[MPID_H_オリヴィエ2] = {
-    [LANGUAGE_JAPANESE] = "各国を旅する踊り子。恥ずかしがり屋。" TEXT_CMD_NEWLINE "空の舞台で、踊りはより大胆かつ華やかに！" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A dancer who travels widely and is quite gifted," TEXT_CMD_NEWLINE "despite extreme shyness. Dancing in the sky" TEXT_CMD_NEWLINE "has opened new horizons of boldness for her!" TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "周游各国的舞娘。容易害羞。" TEXT_CMD_NEWLINE "在天空的舞台上，舞蹈也变得比以往更加大胆华丽！" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_オリヴィエ2] = {
-    [LANGUAGE_JAPANESE] = "空舞う踊り子",
-    [LANGUAGE_ENGLISH] = "Sky-High Dancer",
-    [LANGUAGE_CHINESE] = "漫舞空中的舞娘",
-},
-
 [MEID_グルヴェイグ] = {
     [LANGUAGE_JAPANESE] = "グルヴェイグ",
     [LANGUAGE_ENGLISH] = "Gullveig",
@@ -6859,76 +7075,112 @@
     [LANGUAGE_CHINESE] = "黄金魔女",
 },
 
-[MPID_ナバール] = {
-    [LANGUAGE_JAPANESE] = "ナバール",
-    [LANGUAGE_ENGLISH] = "Navarre",
-    [LANGUAGE_CHINESE] = "拿巴尔",
+[MPID_ソール] = {
+    [LANGUAGE_JAPANESE] = "ソール",
+    [LANGUAGE_ENGLISH] = "Stahl",
+    [LANGUAGE_CHINESE] = "索尔",
 },
 
-[MPID_H_ナバール] = {
-    [LANGUAGE_JAPANESE] = "【紅の剣士】の異名を持つ凄腕の剣士。" TEXT_CMD_NEWLINE "口数は少なく、冷徹な一面も持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Skilled fighter known as the Scarlet Sword." TEXT_CMD_NEWLINE "Prefers his blade to do the talking. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "别名为【赤色剑士】的高强剑客。" TEXT_CMD_NEWLINE "沉默寡言，另有冷酷的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_ソール] = {
+    [LANGUAGE_JAPANESE] = "クロム自警団の一員。騎士を目指している。" TEXT_CMD_NEWLINE "少々おっちょこちょいだが人が良く、優しい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A kind but slightly scatterbrained knight" TEXT_CMD_NEWLINE "who serves with the Shepherds." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，立志成为骑士。" TEXT_CMD_NEWLINE "虽然个性有点冒失，但为人相当和善。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_ナバール] = {
-    [LANGUAGE_JAPANESE] = "紅の剣士",
-    [LANGUAGE_ENGLISH] = "Scarlet Sword",
-    [LANGUAGE_CHINESE] = "赤色剑士",
+[MPID_HONOR_ソール] = {
+    [LANGUAGE_JAPANESE] = "碧の騎士",
+    [LANGUAGE_ENGLISH] = "Viridian Knight",
+    [LANGUAGE_CHINESE] = "碧绿骑士",
 },
 
-[MPID_リフ] = {
-    [LANGUAGE_JAPANESE] = "リフ",
-    [LANGUAGE_ENGLISH] = "Wrys",
-    [LANGUAGE_CHINESE] = "利夫",
+[MPID_ソワレ] = {
+    [LANGUAGE_JAPANESE] = "ソワレ",
+    [LANGUAGE_ENGLISH] = "Sully",
+    [LANGUAGE_CHINESE] = "索瓦蕾",
 },
 
-[MPID_H_リフ] = {
-    [LANGUAGE_JAPANESE] = "タリス島に隠棲していた僧侶。" TEXT_CMD_NEWLINE "戦いは不得手だが、治療の杖で仲間を癒す。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暗黒竜と光の剣』）",
-    [LANGUAGE_ENGLISH] = "Humble priest of Talys who likes a quiet life." TEXT_CMD_NEWLINE "Despises battle, preferring to heal allies." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Shadow Dragon &" TEXT_CMD_NEWLINE "the Blade of Light.",
-    [LANGUAGE_CHINESE] = "隐居于塔利斯岛的僧侣。" TEXT_CMD_NEWLINE "虽不擅长战斗，但会以治疗之杖治愈伙伴。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暗黒竜と光の剣』）",
+[MPID_H_ソワレ] = {
+    [LANGUAGE_JAPANESE] = "クロム自警団の一員。男勝りで爽やかな性格。" TEXT_CMD_NEWLINE "騎士を目指しており、常に訓練を怠らない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A member of the Shepherds who is serious" TEXT_CMD_NEWLINE "about becoming a great knight. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，个性直爽的巾帼英雄。" TEXT_CMD_NEWLINE "立志成为骑士，随时不忘训练。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
-[MPID_HONOR_リフ] = {
-    [LANGUAGE_JAPANESE] = "僧侶",
-    [LANGUAGE_ENGLISH] = "Kindly Priest",
-    [LANGUAGE_CHINESE] = "僧侣",
+[MPID_HONOR_ソワレ] = {
+    [LANGUAGE_JAPANESE] = "紅の騎士",
+    [LANGUAGE_ENGLISH] = "Crimson Knight",
+    [LANGUAGE_CHINESE] = "赤红骑士",
 },
 
-[MPID_セルバンテス] = {
-    [LANGUAGE_JAPANESE] = "セルバンテス",
-    [LANGUAGE_ENGLISH] = "Cervantes",
-    [LANGUAGE_CHINESE] = "塞凡提斯",
+[MPID_リンカ] = {
+    [LANGUAGE_JAPANESE] = "リンカ",
+    [LANGUAGE_ENGLISH] = "Rinkah",
+    [LANGUAGE_CHINESE] = "凛火",
 },
 
-[MPID_H_セルバンテス] = {
-    [LANGUAGE_JAPANESE] = "ヴァルム帝国を支える将軍の一人。" TEXT_CMD_NEWLINE "ひげを伸ばしてからは一度も負けたことがない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A general backing the Valmese Empire's war" TEXT_CMD_NEWLINE "effort, having not lost a single battle since" TEXT_CMD_NEWLINE "deciding to let his whiskers go unshaven." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "支撑著瓦鲁姆帝国的将军之一。" TEXT_CMD_NEWLINE "留了胡子后从来没战败过。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_リンカ] = {
+    [LANGUAGE_JAPANESE] = "炎の部族の族長の娘。" TEXT_CMD_NEWLINE "孤高を旨とするが、内には熱い魂を秘めている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Daughter of the Flame Tribe chieftain. Her aloof" TEXT_CMD_NEWLINE "disposition belies the wildness in her heart." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "炎之部落的族长之女。" TEXT_CMD_NEWLINE "奉孤傲为宗旨，但心中却隐藏著炙热的灵魂。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_セルバンテス] = {
-    [LANGUAGE_JAPANESE] = "不敗の将",
-    [LANGUAGE_ENGLISH] = "Invincible General",
-    [LANGUAGE_CHINESE] = "不败的将领",
+[MPID_HONOR_リンカ] = {
+    [LANGUAGE_JAPANESE] = "炎の娘",
+    [LANGUAGE_ENGLISH] = "Scion of Flame",
+    [LANGUAGE_CHINESE] = "炎之女",
 },
 
-[MPID_ドニ] = {
-    [LANGUAGE_JAPANESE] = "ドニ",
-    [LANGUAGE_ENGLISH] = "Donnel",
-    [LANGUAGE_CHINESE] = "多尼",
+[MPID_ラーチェル] = {
+    [LANGUAGE_JAPANESE] = "ラーチェル",
+    [LANGUAGE_ENGLISH] = "L'Arachel",
+    [LANGUAGE_CHINESE] = "拉切尔",
 },
 
-[MPID_H_ドニ] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の村人。畑仕事が得意。" TEXT_CMD_NEWLINE "訛りのある、独特な話し方をする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A farm boy from a country village in" TEXT_CMD_NEWLINE "the Halidom of Ylisse. Handy and hardy." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国的村民，擅长耕作。" TEXT_CMD_NEWLINE "说话带有独特的方言口音。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MPID_H_ラーチェル] = {
+    [LANGUAGE_JAPANESE] = "ロストン聖教国の姫。ドズラとレナックを率いて" TEXT_CMD_NEWLINE "マギ・ヴァル大陸各地の魔物を倒す旅に出ている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Princess of Rausten. Dozla and Rennac" TEXT_CMD_NEWLINE "accompany her on their quest to defeat" TEXT_CMD_NEWLINE "the monsters around Magvel. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "罗斯通圣教国的公主。为了打倒麦格维尔陆地" TEXT_CMD_NEWLINE "各地的魔物，率领多兹拉和雷纳克踏上旅程。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
 },
 
-[MPID_HONOR_ドニ] = {
-    [LANGUAGE_JAPANESE] = "村人",
-    [LANGUAGE_ENGLISH] = "Village Hero",
-    [LANGUAGE_CHINESE] = "村民",
+[MPID_HONOR_ラーチェル] = {
+    [LANGUAGE_JAPANESE] = "光の聖王女",
+    [LANGUAGE_ENGLISH] = "Princess of Light",
+    [LANGUAGE_CHINESE] = "光之圣公主",
+},
+
+[MPID_シャラ] = {
+    [LANGUAGE_JAPANESE] = "シャラ",
+    [LANGUAGE_ENGLISH] = "Rhajat",
+    [LANGUAGE_CHINESE] = "夏拉",
+},
+
+[MPID_H_シャラ] = {
+    [LANGUAGE_JAPANESE] = "ツクヨミの娘。思い込みが激しく、" TEXT_CMD_NEWLINE "気に入った相手につきまとうことも多い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Hayato's daughter. Tends toward the" TEXT_CMD_NEWLINE "obsessive and has a horrifying temper." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "月读的女儿。很容易钻牛角尖，" TEXT_CMD_NEWLINE "也常对喜欢的人纠缠不休。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_シャラ] = {
+    [LANGUAGE_JAPANESE] = "執念の呪い師",
+    [LANGUAGE_ENGLISH] = "Black Magician",
+    [LANGUAGE_CHINESE] = "执著的符咒师",
+},
+
+[MPID_レックス] = {
+    [LANGUAGE_JAPANESE] = "レックス",
+    [LANGUAGE_ENGLISH] = "Lex",
+    [LANGUAGE_CHINESE] = "雷克斯",
+},
+
+[MPID_H_レックス] = {
+    [LANGUAGE_JAPANESE] = "ドズル公爵家ランゴバルト卿の次男坊。" TEXT_CMD_NEWLINE "シグルドの下へ、親友アゼルと共に参陣した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Second son of Duke Lombard of House Dozel." TEXT_CMD_NEWLINE "Joins the army under Sigurd's command along" TEXT_CMD_NEWLINE "with his friend Azelle. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "多兹尔公爵家隆巴尔特公卿的二少爷。" TEXT_CMD_NEWLINE "与挚友艾泽尔一同加入西格尔特军。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_HONOR_レックス] = {
+    [LANGUAGE_JAPANESE] = "若き戦刃",
+    [LANGUAGE_ENGLISH] = "Young Blade",
+    [LANGUAGE_CHINESE] = "年轻战刃",
 },
 
 [MPID_ファ] = {
@@ -6985,76 +7237,22 @@
     [LANGUAGE_CHINESE] = "暗之骄子",
 },
 
-[MPID_サーリャ] = {
-    [LANGUAGE_JAPANESE] = "サーリャ",
-    [LANGUAGE_ENGLISH] = "Tharja",
-    [LANGUAGE_CHINESE] = "撒拉",
+[MEID_フロージ] = {
+    [LANGUAGE_JAPANESE] = "フロージ",
+    [LANGUAGE_ENGLISH] = "Freyr",
+    [LANGUAGE_CHINESE] = "佛罗金",
 },
 
-[MPID_H_サーリャ] = {
-    [LANGUAGE_JAPANESE] = "ペレジア国の呪術師。陰湿で嫉妬深い。" TEXT_CMD_NEWLINE "ルフレのことを運命の相手と呼び、日夜つけ回す。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A mage from Plegia with a dark side and a" TEXT_CMD_NEWLINE "possessive streak, especially with Robin." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "佩莱吉亚国的咒术师，个性阴沉而善妒。" TEXT_CMD_NEWLINE "将鲁弗莱称为命中注定的对象，日夜纠缠不休。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+[MEID_H_フロージ] = {
+    [LANGUAGE_JAPANESE] = "夢の国アルフの王。" TEXT_CMD_NEWLINE "夢を司る神で、人々の安らぎを望んでいる。",
+    [LANGUAGE_ENGLISH] = "Dream-King of Ljósálfheimr, the dream realm." TEXT_CMD_NEWLINE "He is the god of dreams and wishes for all to" TEXT_CMD_NEWLINE "lead tranquil, blissful lives.",
+    [LANGUAGE_CHINESE] = "梦之国亚尔芙的国王。" TEXT_CMD_NEWLINE "掌管梦境的神，期望人们的安宁。",
 },
 
-[MPID_HONOR_サーリャ] = {
-    [LANGUAGE_JAPANESE] = "物陰の闇使い",
-    [LANGUAGE_ENGLISH] = "Dark Shadow",
-    [LANGUAGE_CHINESE] = "阴沉的暗影法师",
-},
-
-[MPID_レックス] = {
-    [LANGUAGE_JAPANESE] = "レックス",
-    [LANGUAGE_ENGLISH] = "Lex",
-    [LANGUAGE_CHINESE] = "雷克斯",
-},
-
-[MPID_H_レックス] = {
-    [LANGUAGE_JAPANESE] = "ドズル公爵家ランゴバルト卿の次男坊。" TEXT_CMD_NEWLINE "シグルドの下へ、親友アゼルと共に参陣した。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Second son of Duke Lombard of House Dozel." TEXT_CMD_NEWLINE "Joins the army under Sigurd's command along" TEXT_CMD_NEWLINE "with his friend Azelle. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "多兹尔公爵家隆巴尔特公卿的二少爷。" TEXT_CMD_NEWLINE "与挚友艾泽尔一同加入西格尔特军。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_レックス] = {
-    [LANGUAGE_JAPANESE] = "若き戦刃",
-    [LANGUAGE_ENGLISH] = "Young Blade",
-    [LANGUAGE_CHINESE] = "年轻战刃",
-},
-
-[MPID_ティニー] = {
-    [LANGUAGE_JAPANESE] = "ティニー",
-    [LANGUAGE_ENGLISH] = "Tine",
-    [LANGUAGE_CHINESE] = "媞妮",
-},
-
-[MPID_H_ティニー] = {
-    [LANGUAGE_JAPANESE] = "アルスターを治めるフリージ公ブルームの姪。" TEXT_CMD_NEWLINE "生き別れの兄アーサーと再会し、解放軍へ参加する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
-    [LANGUAGE_ENGLISH] = "Niece of Bloom, ruler of Ulster and duke" TEXT_CMD_NEWLINE "of Friege. Reuniting with her older brother," TEXT_CMD_NEWLINE "Arthur, she joins the liberation army. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
-    [LANGUAGE_CHINESE] = "治理阿尔斯特的弗立吉公爵——布鲁姆的姪女。" TEXT_CMD_NEWLINE "和分离的哥哥亚瑟重逢，加入解放军。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
-},
-
-[MPID_HONOR_ティニー] = {
-    [LANGUAGE_JAPANESE] = "受難の雷姫",
-    [LANGUAGE_ENGLISH] = "Rumbling Thunder",
-    [LANGUAGE_CHINESE] = "受难的雷姬",
-},
-
-[MEID_フード] = {
-    [LANGUAGE_JAPANESE] = "？？？",
-    [LANGUAGE_ENGLISH] = "???",
-    [LANGUAGE_CHINESE] = "？？？",
-},
-
-[MEID_H_フード] = {
-    [LANGUAGE_JAPANESE] = "？？？",
-    [LANGUAGE_ENGLISH] = "???",
-    [LANGUAGE_CHINESE] = "？？？",
-},
-
-[MEID_HONOR_フード] = {
-    [LANGUAGE_JAPANESE] = "半身の友",
-    [LANGUAGE_ENGLISH] = "Near and Dear",
-    [LANGUAGE_CHINESE] = "手足之交",
+[MEID_HONOR_フロージ] = {
+    [LANGUAGE_JAPANESE] = "夢の王",
+    [LANGUAGE_ENGLISH] = "Dream-King",
+    [LANGUAGE_CHINESE] = "梦之王",
 },
 
 [MPID_アウグスト] = {
@@ -7075,22 +7273,436 @@
     [LANGUAGE_CHINESE] = "洞察时代的军师",
 },
 
-[MPID_シェズ男] = {
-    [LANGUAGE_JAPANESE] = "シェズ",
-    [LANGUAGE_ENGLISH] = "Shez",
-    [LANGUAGE_CHINESE] = "谢兹",
+[MPID_マシュー] = {
+    [LANGUAGE_JAPANESE] = "マシュー",
+    [LANGUAGE_ENGLISH] = "Matthew",
+    [LANGUAGE_CHINESE] = "马修",
 },
 
-[MPID_H_シェズ男] = {
-    [LANGUAGE_JAPANESE] = "フォドラを一人で放浪する根無し草の傭兵。" TEXT_CMD_NEWLINE "割り切った性格だが、奥底には熱き思いが眠る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム無双　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "A mercenary who wandered Fódlan. Though" TEXT_CMD_NEWLINE "ordinarily rational, a burning desire sleeps" TEXT_CMD_NEWLINE "within him. Appears in Fire Emblem Warriors:" TEXT_CMD_NEWLINE "Three Hopes.",
-    [LANGUAGE_CHINESE] = "居无定所、独自一人在芙朵拉流浪的佣兵。" TEXT_CMD_NEWLINE "个性干脆果断，但沉睡著一颗热血的心。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM无双　风花雪月』）",
+[MPID_H_マシュー] = {
+    [LANGUAGE_JAPANESE] = "オスティア侯弟ヘクトルに仕える密偵。" TEXT_CMD_NEWLINE "飄々とした性格だが、抜け目ない一面も持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Happy-go-lucky spy who's actually quite sly." TEXT_CMD_NEWLINE "Serves Hector, brother of the Marquess of Ostia." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "侍奉奥斯提亚侯爵之弟海克托尔的密探，" TEXT_CMD_NEWLINE "个性很自在随意，但也有精明的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
 },
 
-[MPID_HONOR_シェズ男] = {
-    [LANGUAGE_JAPANESE] = "新進気鋭の傭兵",
-    [LANGUAGE_ENGLISH] = "Rising Mercenary",
-    [LANGUAGE_CHINESE] = "新锐佣兵",
+[MPID_HONOR_マシュー] = {
+    [LANGUAGE_JAPANESE] = "義の盗賊",
+    [LANGUAGE_ENGLISH] = "Faithful Spy",
+    [LANGUAGE_CHINESE] = "义贼",
+},
+
+[MPID_セーラ] = {
+    [LANGUAGE_JAPANESE] = "セーラ",
+    [LANGUAGE_ENGLISH] = "Serra",
+    [LANGUAGE_CHINESE] = "赛拉",
+},
+
+[MPID_H_セーラ] = {
+    [LANGUAGE_JAPANESE] = "オスティア侯弟ヘクトルに仕えるシスター。" TEXT_CMD_NEWLINE "自由奔放な言動で、常に周囲を騒がせている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Cleric who thinks less of others, more of herself." TEXT_CMD_NEWLINE "Serves Hector, brother of the Marquess of Ostia." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "侍奉奥斯提亚侯爵之弟海克托尔的修女。" TEXT_CMD_NEWLINE "言行举止自由奔放，时常会惊扰到周遭的人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_セーラ] = {
+    [LANGUAGE_JAPANESE] = "かしましシスター",
+    [LANGUAGE_ENGLISH] = "Outspoken Cleric",
+    [LANGUAGE_CHINESE] = "吵闹的修女",
+},
+
+[MPID_スルト味方] = {
+    [LANGUAGE_JAPANESE] = "スルト",
+    [LANGUAGE_ENGLISH] = "Surtr",
+    [LANGUAGE_CHINESE] = "斯尔特",
+},
+
+[MPID_H_スルト味方] = {
+    [LANGUAGE_JAPANESE] = "炎の王国ムスペルの王。炎竜の血を引く。" TEXT_CMD_NEWLINE "苛烈な性格で、征服欲が極めて強い。",
+    [LANGUAGE_ENGLISH] = "King of Múspell, the Kingdom of Flame. Carries" TEXT_CMD_NEWLINE "the blood of the Flame Dragon. A harsh ruler" TEXT_CMD_NEWLINE "whose desire for conquest is relentless.",
+    [LANGUAGE_CHINESE] = "炎之王国穆斯贝尔的国王，继承了炎龙的血脉。" TEXT_CMD_NEWLINE "个性严厉冷酷，拥有极强的征服欲。",
+},
+
+[MPID_HONOR_スルト味方] = {
+    [LANGUAGE_JAPANESE] = "炎の王",
+    [LANGUAGE_ENGLISH] = "Ruler of Flame",
+    [LANGUAGE_CHINESE] = "炎之王",
+},
+
+[MPID_イドゥン] = {
+    [LANGUAGE_JAPANESE] = "イドゥン",
+    [LANGUAGE_ENGLISH] = "Idunn",
+    [LANGUAGE_CHINESE] = "伊敦",
+},
+
+[MPID_H_イドゥン] = {
+    [LANGUAGE_JAPANESE] = "人竜戦役の際に竜族により魔竜と化した者。" TEXT_CMD_NEWLINE "ゼフィールの手で目覚め、その野望に協力する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "Transformed into a Demon Dragon and sealed" TEXT_CMD_NEWLINE "during the Scouring. She was awoken by Zephiel" TEXT_CMD_NEWLINE "and serves him so he may realize his ambition." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "在人龙战役时，被龙族改造为魔龙。" TEXT_CMD_NEWLINE "由赛菲尔亲手唤醒，协助他完成野心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_イドゥン] = {
+    [LANGUAGE_JAPANESE] = "暗闇の巫女",
+    [LANGUAGE_ENGLISH] = "Dark Priestess",
+    [LANGUAGE_CHINESE] = "黑暗巫女",
+},
+
+[MPID_暴走カムイ男] = {
+    [LANGUAGE_JAPANESE] = "カムイ",
+    [LANGUAGE_ENGLISH] = "Corrin",
+    [LANGUAGE_CHINESE] = "神威",
+},
+
+[MPID_H_暴走カムイ男] = {
+    [LANGUAGE_JAPANESE] = "白夜王国で生まれ、暗夜王国で育った王子。" TEXT_CMD_NEWLINE "その身に流れる血には荒々しい獣が眠る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A prince born in Hoshido but raised in Nohr." TEXT_CMD_NEWLINE "Within the blood coursing through his veins," TEXT_CMD_NEWLINE "a brutal presence lies sleeping. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
+    [LANGUAGE_CHINESE] = "生于白夜王国，长于暗夜王国的王子。" TEXT_CMD_NEWLINE "体内流淌的血液中沉睡著狂暴的野兽。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_暴走カムイ男] = {
+    [LANGUAGE_JAPANESE] = "その血に眠る獣",
+    [LANGUAGE_ENGLISH] = "Bloodbound Beast",
+    [LANGUAGE_CHINESE] = "沉眠于血液中的野兽",
+},
+
+[MPID_ロス] = {
+    [LANGUAGE_JAPANESE] = "ロス",
+    [LANGUAGE_ENGLISH] = "Ross",
+    [LANGUAGE_CHINESE] = "罗斯",
+},
+
+[MPID_H_ロス] = {
+    [LANGUAGE_JAPANESE] = "ルネス王国の戦士ガルシアの息子。" TEXT_CMD_NEWLINE "男手一本で育ててくれた父の武に憧れる、実直な少年。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Son of Garcia, a warrior of Renais. A very" TEXT_CMD_NEWLINE "straightforward and honest lad raised without" TEXT_CMD_NEWLINE "a mother. He greatly admires his father's skill." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "路奈斯王国的战士贾西亚的儿子。" TEXT_CMD_NEWLINE "由父亲一手带大并憧憬父亲的武勇，是位耿直的少年。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_ロス] = {
+    [LANGUAGE_JAPANESE] = "受け継がれし豪腕",
+    [LANGUAGE_ENGLISH] = "His Father's Son",
+    [LANGUAGE_CHINESE] = "继承的力士",
+},
+
+[MPID_ユアン] = {
+    [LANGUAGE_JAPANESE] = "ユアン",
+    [LANGUAGE_ENGLISH] = "Ewan",
+    [LANGUAGE_CHINESE] = "尤安",
+},
+
+[MPID_H_ユアン] = {
+    [LANGUAGE_JAPANESE] = "ジスト傭兵団の一員で、テティスの弟。" TEXT_CMD_NEWLINE "賢者サレフに師事する押しかけ弟子でもある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A member of Gerik's Mercenaries. Tethys's" TEXT_CMD_NEWLINE "brother. He reveres Saleh, his teacher. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "吉斯特佣兵团的一员，特媞丝的弟弟。" TEXT_CMD_NEWLINE "强硬地拜贤者塞勒夫为师，成为其徒弟。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_ユアン] = {
+    [LANGUAGE_JAPANESE] = "あどけなき魔道",
+    [LANGUAGE_ENGLISH] = "Eager Student",
+    [LANGUAGE_CHINESE] = "天真无邪的魔道",
+},
+
+[MPID_オグマ] = {
+    [LANGUAGE_JAPANESE] = "オグマ",
+    [LANGUAGE_ENGLISH] = "Ogma",
+    [LANGUAGE_CHINESE] = "奥古马",
+},
+
+[MPID_H_オグマ] = {
+    [LANGUAGE_JAPANESE] = "タリス王女シーダに仕える、傭兵隊隊長。" TEXT_CMD_NEWLINE "奴隷剣闘士だった過去を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A mercenary who was once a slave gladiator." TEXT_CMD_NEWLINE "Serves Princess Caeda of Talys. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "侍奉塔利斯公主希达的佣兵队队长。" TEXT_CMD_NEWLINE "过去曾是奴隶剑斗士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_オグマ] = {
+    [LANGUAGE_JAPANESE] = "タリスの傭兵",
+    [LANGUAGE_ENGLISH] = "Loyal Blade",
+    [LANGUAGE_CHINESE] = "塔利斯的佣兵",
+},
+
+[MPID_ガイア] = {
+    [LANGUAGE_JAPANESE] = "ガイア",
+    [LANGUAGE_ENGLISH] = "Gaius",
+    [LANGUAGE_CHINESE] = "盖亚",
+},
+
+[MPID_H_ガイア] = {
+    [LANGUAGE_JAPANESE] = "イーリス聖王国の盗賊。冷静で手先が器用。" TEXT_CMD_NEWLINE "甘いものに目がなく、全身に菓子を隠し持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Thief of Ylisse known for his nimble hands and" TEXT_CMD_NEWLINE "sweet tooth. Hides sweets in his pockets." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "伊里斯圣王国的盗贼，个性冷静，手艺相当灵巧。" TEXT_CMD_NEWLINE "对甜食毫无抵抗力，全身上下藏满了甜点。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_ガイア] = {
+    [LANGUAGE_JAPANESE] = "お菓子好き盗賊",
+    [LANGUAGE_ENGLISH] = "Candy Stealer",
+    [LANGUAGE_CHINESE] = "喜爱甜点的盗贼",
+},
+
+[MPID_セルバンテス] = {
+    [LANGUAGE_JAPANESE] = "セルバンテス",
+    [LANGUAGE_ENGLISH] = "Cervantes",
+    [LANGUAGE_CHINESE] = "塞凡提斯",
+},
+
+[MPID_H_セルバンテス] = {
+    [LANGUAGE_JAPANESE] = "ヴァルム帝国を支える将軍の一人。" TEXT_CMD_NEWLINE "ひげを伸ばしてからは一度も負けたことがない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A general backing the Valmese Empire's war" TEXT_CMD_NEWLINE "effort, having not lost a single battle since" TEXT_CMD_NEWLINE "deciding to let his whiskers go unshaven." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "支撑著瓦鲁姆帝国的将军之一。" TEXT_CMD_NEWLINE "留了胡子后从来没战败过。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_セルバンテス] = {
+    [LANGUAGE_JAPANESE] = "不敗の将",
+    [LANGUAGE_ENGLISH] = "Invincible General",
+    [LANGUAGE_CHINESE] = "不败的将领",
+},
+
+[MEID_レティシア洗脳] = {
+    [LANGUAGE_JAPANESE] = "レティシア",
+    [LANGUAGE_ENGLISH] = "Letizia",
+    [LANGUAGE_CHINESE] = "莱蒂西亚",
+},
+
+[MEID_H_レティシア洗脳] = {
+    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇族。" TEXT_CMD_NEWLINE "ヴェロニカとは姉妹同然の間柄だった。",
+    [LANGUAGE_ENGLISH] = "Royalty in the line of succession to the throne" TEXT_CMD_NEWLINE "of the Emblian Empire. Growing up, she and" TEXT_CMD_NEWLINE "Veronica were as close as sisters.",
+    [LANGUAGE_CHINESE] = "恩布拉帝国的皇族。" TEXT_CMD_NEWLINE "曾和维洛妮卡情同姊妹。",
+},
+
+[MEID_HONOR_レティシア洗脳] = {
+    [LANGUAGE_JAPANESE] = "【呪詛部隊】の長",
+    [LANGUAGE_ENGLISH] = "Curse Director",
+    [LANGUAGE_CHINESE] = "【诅咒部队】队长",
+},
+
+[MPID_リムステラ] = {
+    [LANGUAGE_JAPANESE] = "リムステラ",
+    [LANGUAGE_ENGLISH] = "Limstella",
+    [LANGUAGE_CHINESE] = "莉姆思黛拉",
+},
+
+[MPID_H_リムステラ] = {
+    [LANGUAGE_JAPANESE] = "古代魔道により創り出された【モルフ】と呼ばれる者。" TEXT_CMD_NEWLINE "創造主たるネルガルに忠実に仕える。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A constructed being known as a morph," TEXT_CMD_NEWLINE "created with ancient magics. They serve" TEXT_CMD_NEWLINE "Nergal with absolute loyalty. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "由古代魔道所创造，被称为【魔路俘】的人。" TEXT_CMD_NEWLINE "忠心耿耿地侍奉创造者涅尔加鲁。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_リムステラ] = {
+    [LANGUAGE_JAPANESE] = "創られし命",
+    [LANGUAGE_ENGLISH] = "Living Construct",
+    [LANGUAGE_CHINESE] = "被创造的生命",
+},
+
+[MEID_ネルトゥス] = {
+    [LANGUAGE_JAPANESE] = "ネルトゥス",
+    [LANGUAGE_ENGLISH] = "Nerþuz",
+    [LANGUAGE_CHINESE] = "那瑟斯",
+},
+
+[MEID_H_ネルトゥス] = {
+    [LANGUAGE_JAPANESE] = "光の国ヴァナの女神。母性に溢れ、" TEXT_CMD_NEWLINE "地に生きる動物や人間を溺愛している。",
+    [LANGUAGE_ENGLISH] = "Goddess of Vanaheimr, the realm of light." TEXT_CMD_NEWLINE "She exudes a maternal aura and adores all" TEXT_CMD_NEWLINE "the many creatures who live upon the land.",
+    [LANGUAGE_CHINESE] = "光之王国华纳的女神。充满母性，" TEXT_CMD_NEWLINE "宠爱著生活在大地上的动物和人类。",
+},
+
+[MEID_HONOR_ネルトゥス] = {
+    [LANGUAGE_JAPANESE] = "地の女神",
+    [LANGUAGE_ENGLISH] = "God of the Land",
+    [LANGUAGE_CHINESE] = "地之女神",
+},
+
+[MPID_ベルカ] = {
+    [LANGUAGE_JAPANESE] = "ベルカ",
+    [LANGUAGE_ENGLISH] = "Beruka",
+    [LANGUAGE_CHINESE] = "贝尔卡",
+},
+
+[MPID_H_ベルカ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の竜騎士。カミラの臣下。" TEXT_CMD_NEWLINE "凄腕の殺し屋で、人を寄せ付けない雰囲気を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "Wyvern-riding assassin who seems devoid" TEXT_CMD_NEWLINE "of emotion. One of Camilla's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的龙骑士，卡美拉的部下，" TEXT_CMD_NEWLINE "本领高强的杀手，散发著令人不敢靠近的氛围。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ベルカ] = {
+    [LANGUAGE_JAPANESE] = "殺し屋",
+    [LANGUAGE_ENGLISH] = "Quiet Assassin",
+    [LANGUAGE_CHINESE] = "杀手",
+},
+
+[MPID_ルーナ] = {
+    [LANGUAGE_JAPANESE] = "ルーナ",
+    [LANGUAGE_ENGLISH] = "Selena",
+    [LANGUAGE_CHINESE] = "露娜",
+},
+
+[MPID_H_ルーナ] = {
+    [LANGUAGE_JAPANESE] = "カミラの臣下。その出自や経歴は不明。" TEXT_CMD_NEWLINE "わがままで負けず嫌いだが、努力の天才。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A mysterious woman devoted to service." TEXT_CMD_NEWLINE "One of Camilla's retainers. Snarky." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "卡美拉的部下，出身与经历均无人知晓。" TEXT_CMD_NEWLINE "虽然很任性又不服输，却是个努力型的天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_HONOR_ルーナ] = {
+    [LANGUAGE_JAPANESE] = "秘めた憧憬",
+    [LANGUAGE_ENGLISH] = "Cutting Wit",
+    [LANGUAGE_CHINESE] = "深藏的憧憬",
+},
+
+[MPID_レイヴァン] = {
+    [LANGUAGE_JAPANESE] = "レイヴァン",
+    [LANGUAGE_ENGLISH] = "Raven",
+    [LANGUAGE_CHINESE] = "瑞文",
+},
+
+[MPID_H_レイヴァン] = {
+    [LANGUAGE_JAPANESE] = "コンウォル侯爵家の嫡男で、本名はレイモンド。" TEXT_CMD_NEWLINE "復讐のため、傭兵に身をやつしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A noble heir whose true name is Raymond." TEXT_CMD_NEWLINE "Works as a mercenary to enact revenge." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "康沃尔侯爵家的嫡子，本名为瑞蒙。" TEXT_CMD_NEWLINE "为了复仇而乔装为佣兵。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_レイヴァン] = {
+    [LANGUAGE_JAPANESE] = "気高き傭兵",
+    [LANGUAGE_ENGLISH] = "Peerless Fighter",
+    [LANGUAGE_CHINESE] = "高傲的佣兵",
+},
+
+[MPID_ニノ] = {
+    [LANGUAGE_JAPANESE] = "ニノ",
+    [LANGUAGE_ENGLISH] = "Nino",
+    [LANGUAGE_CHINESE] = "妮诺",
+},
+
+[MPID_H_ニノ] = {
+    [LANGUAGE_JAPANESE] = "暗殺集団【黒い牙】の心優しい少女。" TEXT_CMD_NEWLINE "母の役に立ちたい一心で健気に尽くしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "A kindhearted member of the Black Fang" TEXT_CMD_NEWLINE "assassins. Longed to help her mother. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "隶属于暗杀集团【黑牙】的善良少女。" TEXT_CMD_NEWLINE "一心想帮助母亲而坚强地牺牲奉献。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+},
+
+[MPID_HONOR_ニノ] = {
+    [LANGUAGE_JAPANESE] = "魔道の申し子",
+    [LANGUAGE_ENGLISH] = "Pious Mage",
+    [LANGUAGE_CHINESE] = "魔道骄子",
+},
+
+[MPID_リンハルト] = {
+    [LANGUAGE_JAPANESE] = "リンハルト",
+    [LANGUAGE_ENGLISH] = "Linhardt",
+    [LANGUAGE_CHINESE] = "林哈尔特",
+},
+
+[MPID_H_リンハルト] = {
+    [LANGUAGE_JAPANESE] = "アドラステア帝国ヘヴリング伯爵家の嫡男。" TEXT_CMD_NEWLINE "ベルグリーズ伯爵家の次男カスパルと親交が深い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Heir to House Hevring of the Adrestian Empire." TEXT_CMD_NEWLINE "Has deep friendship with the second son of" TEXT_CMD_NEWLINE "House Bergliez, Caspar. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国海弗林格伯爵家的嫡子。" TEXT_CMD_NEWLINE "与贝尔谷里斯伯爵家的次男卡斯帕尔交情甚深。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+},
+
+[MPID_HONOR_リンハルト] = {
+    [LANGUAGE_JAPANESE] = "ヘヴリング伯爵家",
+    [LANGUAGE_ENGLISH] = "Hevring's Heir",
+    [LANGUAGE_CHINESE] = "海弗林格伯爵家",
+},
+
+[MPID_ミシェイル] = {
+    [LANGUAGE_JAPANESE] = "ミシェイル",
+    [LANGUAGE_ENGLISH] = "Michalis",
+    [LANGUAGE_CHINESE] = "米谢尔",
+},
+
+[MPID_H_ミシェイル] = {
+    [LANGUAGE_JAPANESE] = "マケドニア王。ミネルバ、マリアの兄。" TEXT_CMD_NEWLINE "父王を殺害し、大陸の覇者たらんとして戦った。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "King of Macedon who had great ambitions" TEXT_CMD_NEWLINE "for his country. Murdered his father." TEXT_CMD_NEWLINE "Brother to Minerva and Maria. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "马其顿之王，米奈娃及玛莉亚的兄长。" TEXT_CMD_NEWLINE "杀害了自己的父王，并为了统治全陆地而掀起战乱。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_ミシェイル] = {
+    [LANGUAGE_JAPANESE] = "野望の王",
+    [LANGUAGE_ENGLISH] = "Ambitious King",
+    [LANGUAGE_CHINESE] = "野心之王",
+},
+
+[MPID_カミュ] = {
+    [LANGUAGE_JAPANESE] = "カミュ",
+    [LANGUAGE_ENGLISH] = "Camus",
+    [LANGUAGE_CHINESE] = "卡谬",
+},
+
+[MPID_H_カミュ] = {
+    [LANGUAGE_JAPANESE] = "【黒騎士】と呼ばれるグルニア王国騎士。" TEXT_CMD_NEWLINE "神槍【グラディウス】を手に、祖国に殉じた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "A knight who's devoted to his motherland," TEXT_CMD_NEWLINE "Grust. Wields the lance Gradivus. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "被称为【黑骑士】的哥尔尼亚王国骑士。" TEXT_CMD_NEWLINE "手握神枪【古拉迪乌斯】，为了祖国而牺牲。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_カミュ] = {
+    [LANGUAGE_JAPANESE] = "黒騎士",
+    [LANGUAGE_ENGLISH] = "Sable Knight",
+    [LANGUAGE_CHINESE] = "黑骑士",
+},
+
+[MPID_オリヴァー] = {
+    [LANGUAGE_JAPANESE] = "オリヴァー",
+    [LANGUAGE_ENGLISH] = "Oliver",
+    [LANGUAGE_CHINESE] = "奥利瓦",
+},
+
+[MPID_H_オリヴァー] = {
+    [LANGUAGE_JAPANESE] = "ベグニオン帝国の元老院に名を連ねる聖者。" TEXT_CMD_NEWLINE "美しいものを好み、芸術などの保全に力を注いだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "A member of the Begnion Senate. Cherishes" TEXT_CMD_NEWLINE "everything beautiful and puts all his effort into" TEXT_CMD_NEWLINE "the preservation of the arts. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "名列贝格尼昂帝国元老院成员的圣职者。" TEXT_CMD_NEWLINE "喜爱美丽的事物，对保护艺术等工作不遗余力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_オリヴァー] = {
+    [LANGUAGE_JAPANESE] = "美の探究者",
+    [LANGUAGE_ENGLISH] = "Admirer of Beauty",
+    [LANGUAGE_CHINESE] = "美的求道者",
+},
+
+[MPID_アストリア] = {
+    [LANGUAGE_JAPANESE] = "アストリア",
+    [LANGUAGE_ENGLISH] = "Astram",
+    [LANGUAGE_CHINESE] = "阿斯托利亚",
+},
+
+[MPID_H_アストリア] = {
+    [LANGUAGE_JAPANESE] = "アカネイア聖王国の傭兵隊長。" TEXT_CMD_NEWLINE "忠義厚き勇者として宝剣【メリクル】を授かる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Captain of Archanea's free company. Awarded" TEXT_CMD_NEWLINE "the sword Mercurius in light of his heroism and" TEXT_CMD_NEWLINE "loyalty. Appears in Fire Emblem: Mystery of" TEXT_CMD_NEWLINE "the Emblem.",
+    [LANGUAGE_CHINESE] = "阿卡奈亚圣王国的佣兵队长。" TEXT_CMD_NEWLINE "作为忠心赤胆的勇者被授予宝剑【墨丘利】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_アストリア] = {
+    [LANGUAGE_JAPANESE] = "アカネイアの勇者",
+    [LANGUAGE_ENGLISH] = "Midia's Hero",
+    [LANGUAGE_CHINESE] = "阿卡奈亚的勇者",
+},
+
+[MPID_カイン] = {
+    [LANGUAGE_JAPANESE] = "カイン",
+    [LANGUAGE_ENGLISH] = "Cain",
+    [LANGUAGE_CHINESE] = "凯因",
+},
+
+[MPID_H_カイン] = {
+    [LANGUAGE_JAPANESE] = "アリティア騎士。アベルと共にマルス王子に仕えた。" TEXT_CMD_NEWLINE "猪突猛進な性格で、【猛牛】の異名を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Altean cavalier known for recklessness." TEXT_CMD_NEWLINE "Rode with Abel in service of Marth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿利提亚的骑士，与阿贝尔一起侍奉马尔斯王子。" TEXT_CMD_NEWLINE "由于个性莽撞，因此别名为【猛牛】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_カイン] = {
+    [LANGUAGE_JAPANESE] = "猛牛",
+    [LANGUAGE_ENGLISH] = "The Bull",
+    [LANGUAGE_CHINESE] = "猛牛",
+},
+
+[MPID_アベル] = {
+    [LANGUAGE_JAPANESE] = "アベル",
+    [LANGUAGE_ENGLISH] = "Abel",
+    [LANGUAGE_CHINESE] = "阿贝尔",
+},
+
+[MPID_H_アベル] = {
+    [LANGUAGE_JAPANESE] = "アリティア騎士。カインと共にマルス王子に仕えた。" TEXT_CMD_NEWLINE "冷静沈着な性格で、【黒豹】の異名を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Altean cavalier known for his sensibility." TEXT_CMD_NEWLINE "Rode with Cain in service of Marth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿利提亚的骑士，与凯因一起侍奉马尔斯王子。" TEXT_CMD_NEWLINE "由于个性沉著冷静，因此别名为【黑豹】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+},
+
+[MPID_HONOR_アベル] = {
+    [LANGUAGE_JAPANESE] = "黒豹",
+    [LANGUAGE_ENGLISH] = "The Panther",
+    [LANGUAGE_CHINESE] = "黑豹",
 },
 
 [MPID_ヴィオール] = {
@@ -7129,22 +7741,166 @@
     [LANGUAGE_CHINESE] = "喜欢龙的龙骑士",
 },
 
-[MPID_ヒース] = {
-    [LANGUAGE_JAPANESE] = "ヒース",
-    [LANGUAGE_ENGLISH] = "Heath",
-    [LANGUAGE_CHINESE] = "希斯",
+[MPID_魔王リオン] = {
+    [LANGUAGE_JAPANESE] = "リオン",
+    [LANGUAGE_ENGLISH] = "Lyon",
+    [LANGUAGE_CHINESE] = "利昂",
 },
 
-[MPID_H_ヒース] = {
-    [LANGUAGE_JAPANESE] = "理想の騎士像と現実との差に悩む青年。" TEXT_CMD_NEWLINE "事情により母国ベルンを離れ、傭兵をしている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A young man troubled by the contrast between" TEXT_CMD_NEWLINE "his knightly ideal and reality. Forced to leave his" TEXT_CMD_NEWLINE "homeland, Bern, before becoming a mercenary." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "因理想中的骑士与现实有落差而苦恼不已的青年。" TEXT_CMD_NEWLINE "在诸多原因下离开了母国伯尔尼，并成为了佣兵。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+[MPID_H_魔王リオン] = {
+    [LANGUAGE_JAPANESE] = "魔王フォデスの力を宿すグラド帝国の皇子リオン。" TEXT_CMD_NEWLINE "その心は果たしてどちらのものか。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Prince Lyon of Grado, having become a vessel" TEXT_CMD_NEWLINE "for the Demon King Fomortiis's power. It is" TEXT_CMD_NEWLINE "uncertain who directs his heart. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "格拉多帝国的皇子利昂，体内寄宿著魔王弗德斯的力量。" TEXT_CMD_NEWLINE "其心究竟为两者中的何人所有呢？" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
 },
 
-[MPID_HONOR_ヒース] = {
-    [LANGUAGE_JAPANESE] = "国境なき騎士",
-    [LANGUAGE_ENGLISH] = "Wandering Knight",
-    [LANGUAGE_CHINESE] = "无国界骑士",
+[MPID_HONOR_魔王リオン] = {
+    [LANGUAGE_JAPANESE] = "蘇りし魔王",
+    [LANGUAGE_ENGLISH] = "Demon King",
+    [LANGUAGE_CHINESE] = "复苏的魔王",
+},
+
+[MPID_ゴンザレス] = {
+    [LANGUAGE_JAPANESE] = "ゴンザレス",
+    [LANGUAGE_ENGLISH] = "Gonzalez",
+    [LANGUAGE_CHINESE] = "冈萨雷斯",
+},
+
+[MPID_H_ゴンザレス] = {
+    [LANGUAGE_JAPANESE] = "西方三島生まれの巨漢。" TEXT_CMD_NEWLINE "獣のような姿を恐れられ、居場所を求めて山賊になった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "An uncommonly large man, born in the Western" TEXT_CMD_NEWLINE "Isles. Searching for a group who would accept" TEXT_CMD_NEWLINE "him for who he is, he wound up with bandits." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "生于西方三岛的壮汉。因野兽般的外貌" TEXT_CMD_NEWLINE "受到人们畏惧，为求容身之地而成为山贼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_ゴンザレス] = {
+    [LANGUAGE_JAPANESE] = "心やさしき山賊",
+    [LANGUAGE_ENGLISH] = "Kindly Bandit",
+    [LANGUAGE_CHINESE] = "内心温柔的山贼",
+},
+
+[MPID_魔女セリカ] = {
+    [LANGUAGE_JAPANESE] = "セリカ",
+    [LANGUAGE_ENGLISH] = "Celica",
+    [LANGUAGE_CHINESE] = "赛莉卡",
+},
+
+[MPID_H_魔女セリカ] = {
+    [LANGUAGE_JAPANESE] = "魂を邪神ドーマに捧げられ、魔女となったセリカの姿。" TEXT_CMD_NEWLINE "たまに過去の記憶が蘇ることがあるようだ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "Celica's form as a witch after giving her" TEXT_CMD_NEWLINE "soul to Duma. It seems her old memories" TEXT_CMD_NEWLINE "occassionally rise to the surface. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "将灵魂献给邪神多玛，化身为魔女的赛莉卡。" TEXT_CMD_NEWLINE "过去的记忆偶有苏醒之时。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_魔女セリカ] = {
+    [LANGUAGE_JAPANESE] = "捕らわれし魂",
+    [LANGUAGE_ENGLISH] = "Imprisoned Soul",
+    [LANGUAGE_CHINESE] = "被困的灵魂",
+},
+
+[MPID_キャス] = {
+    [LANGUAGE_JAPANESE] = "キャス",
+    [LANGUAGE_ENGLISH] = "Cath",
+    [LANGUAGE_CHINESE] = "凯丝",
+},
+
+[MPID_H_キャス] = {
+    [LANGUAGE_JAPANESE] = "お宝のあるところに現れる神出鬼没の少女。" TEXT_CMD_NEWLINE "その正体は、強欲な貴族や金持ちのハナをあかす怪盗。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "Mysterious girl who always seems to show up" TEXT_CMD_NEWLINE "where there's treasure to be found. In truth, she" TEXT_CMD_NEWLINE "is a thief known for outsmarting rich nobles." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "有宝藏的地方就有她的踪影，神出鬼没的少女。" TEXT_CMD_NEWLINE "其真实身分是令贪婪的贵族和有钱人措手不及的怪盗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_キャス] = {
+    [LANGUAGE_JAPANESE] = "怪盗",
+    [LANGUAGE_ENGLISH] = "Master Thief",
+    [LANGUAGE_CHINESE] = "怪盗",
+},
+
+[MPID_神階エイル] = {
+    [LANGUAGE_JAPANESE] = "エイル",
+    [LANGUAGE_ENGLISH] = "Eir",
+    [LANGUAGE_CHINESE] = "埃尔",
+},
+
+[MPID_H_神階エイル] = {
+    [LANGUAGE_JAPANESE] = "死の王国ヘルの王女。母であるヘルを愛する反面、" TEXT_CMD_NEWLINE "人間に対する母の無慈悲な行為に、胸を痛めている。",
+    [LANGUAGE_ENGLISH] = "Princess of Hel, the realm of the dead. Dearly" TEXT_CMD_NEWLINE "loves her mother, Hel, who rules it. She finds" TEXT_CMD_NEWLINE "Hel's increasing mercilessness toward the living" TEXT_CMD_NEWLINE "disquieting.",
+    [LANGUAGE_CHINESE] = "死之王国赫尔的公主。深爱著母亲赫尔的同时，" TEXT_CMD_NEWLINE "也因为母亲对人类的残酷行为而感到心痛。",
+},
+
+[MPID_HONOR_神階エイル] = {
+    [LANGUAGE_JAPANESE] = "優しき死神",
+    [LANGUAGE_ENGLISH] = "Merciful Death",
+    [LANGUAGE_CHINESE] = "温柔的死神",
+},
+
+[MPID_プラハ] = {
+    [LANGUAGE_JAPANESE] = "プラハ",
+    [LANGUAGE_ENGLISH] = "Petrine",
+    [LANGUAGE_CHINESE] = "普拉哈",
+},
+
+[MPID_H_プラハ] = {
+    [LANGUAGE_JAPANESE] = "デイン王国の誇る四将軍【四駿】の一人。" TEXT_CMD_NEWLINE "フレイムランスの使い手で、非情な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "One of Daein's Four Riders. Wields the" TEXT_CMD_NEWLINE "Flame Lance with a callous disdain for" TEXT_CMD_NEWLINE "those around her. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Path of Radiance.",
+    [LANGUAGE_CHINESE] = "戴因王国引以为傲的四大将军——【四骏】之一。" TEXT_CMD_NEWLINE "炎之枪的主人，个性相当冷酷无情。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_プラハ] = {
+    [LANGUAGE_JAPANESE] = "炎槍冷血の騎将",
+    [LANGUAGE_ENGLISH] = "Icy Flame-Lancer",
+    [LANGUAGE_CHINESE] = "炎枪冷血的骑将",
+},
+
+[MPID_サーリャ] = {
+    [LANGUAGE_JAPANESE] = "サーリャ",
+    [LANGUAGE_ENGLISH] = "Tharja",
+    [LANGUAGE_CHINESE] = "撒拉",
+},
+
+[MPID_H_サーリャ] = {
+    [LANGUAGE_JAPANESE] = "ペレジア国の呪術師。陰湿で嫉妬深い。" TEXT_CMD_NEWLINE "ルフレのことを運命の相手と呼び、日夜つけ回す。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A mage from Plegia with a dark side and a" TEXT_CMD_NEWLINE "possessive streak, especially with Robin." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "佩莱吉亚国的咒术师，个性阴沉而善妒。" TEXT_CMD_NEWLINE "将鲁弗莱称为命中注定的对象，日夜纠缠不休。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_サーリャ] = {
+    [LANGUAGE_JAPANESE] = "物陰の闇使い",
+    [LANGUAGE_ENGLISH] = "Dark Shadow",
+    [LANGUAGE_CHINESE] = "阴沉的暗影法师",
+},
+
+[MPID_クーガー] = {
+    [LANGUAGE_JAPANESE] = "クーガー",
+    [LANGUAGE_ENGLISH] = "Cormag",
+    [LANGUAGE_CHINESE] = "库格",
+},
+
+[MPID_H_クーガー] = {
+    [LANGUAGE_JAPANESE] = "グラド帝国の竜騎士で、【日長石】グレンの弟。" TEXT_CMD_NEWLINE "変容する軍を離れ、祖国への愛と誇りを胸に戦う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A wyvern knight of Grado and younger brother" TEXT_CMD_NEWLINE "of the Sunstone, Glen. Although he left his army" TEXT_CMD_NEWLINE "behind, he fights with love and pride for his" TEXT_CMD_NEWLINE "homeland. Appears in Fire Emblem: The Sacred" TEXT_CMD_NEWLINE "Stones.",
+    [LANGUAGE_CHINESE] = "格拉多帝国的龙骑士，也是【日长石】格伦的弟弟。" TEXT_CMD_NEWLINE "离开了产生变化的军队，胸怀对祖国的爱与荣耀而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
+[MPID_HONOR_クーガー] = {
+    [LANGUAGE_JAPANESE] = "孤高の槍",
+    [LANGUAGE_ENGLISH] = "Aloof Lanceman",
+    [LANGUAGE_CHINESE] = "孤高之枪",
+},
+
+[MEID_ノート] = {
+    [LANGUAGE_JAPANESE] = "ノート",
+    [LANGUAGE_ENGLISH] = "Nótt",
+    [LANGUAGE_CHINESE] = "诺特",
+},
+
+[MEID_H_ノート] = {
+    [LANGUAGE_JAPANESE] = "ヨトゥン王国の第一王女。ダグの双子の姉。" TEXT_CMD_NEWLINE "優雅で美しいものを好む。",
+    [LANGUAGE_ENGLISH] = "The crown princess of Jötunheimr and twin" TEXT_CMD_NEWLINE "sister of Dagr. Appreciates the finer things" TEXT_CMD_NEWLINE "in life, prizing beauty and elegance.",
+    [LANGUAGE_CHINESE] = "约顿王国的第一公主。达古的双胞胎姊姊。" TEXT_CMD_NEWLINE "举止优雅，喜欢美丽的事物。",
+},
+
+[MEID_HONOR_ノート] = {
+    [LANGUAGE_JAPANESE] = "魅惑の月光",
+    [LANGUAGE_ENGLISH] = "Moon's Elegance",
+    [LANGUAGE_CHINESE] = "魅惑的月光",
 },
 
 [MPID_ヘルビンディ味方] = {
@@ -7183,112 +7939,94 @@
     [LANGUAGE_CHINESE] = "带来战乱之人",
 },
 
-[MEID_ヴェロニカ洗脳2] = {
-    [LANGUAGE_JAPANESE] = "ヴェロニカ",
-    [LANGUAGE_ENGLISH] = "Veronica",
-    [LANGUAGE_CHINESE] = "维洛妮卡",
+[MPID_ハロルド] = {
+    [LANGUAGE_JAPANESE] = "ハロルド",
+    [LANGUAGE_ENGLISH] = "Arthur",
+    [LANGUAGE_CHINESE] = "哈洛德",
 },
 
-[MEID_H_ヴェロニカ洗脳2] = {
-    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇女。" TEXT_CMD_NEWLINE "その身は、憑竜エンブラに憑依されている。",
-    [LANGUAGE_ENGLISH] = "Imperial princess of the Emblian Empire, her will" TEXT_CMD_NEWLINE "dominated by Embla herself.",
-    [LANGUAGE_CHINESE] = "恩布拉帝国的皇女。" TEXT_CMD_NEWLINE "她的身体已被凭龙恩布拉所附身。",
+[MPID_H_ハロルド] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国の戦士。エリーゼの臣下。" TEXT_CMD_NEWLINE "常に正しさを追求し続けるが、極端に運が悪い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A sworn ally of justice with uncannily bad" TEXT_CMD_NEWLINE "luck. One of Elise's retainers. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的战士，艾丽泽的部下。" TEXT_CMD_NEWLINE "时时刻刻都在追寻正道，但是非常倒楣。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MEID_HONOR_ヴェロニカ洗脳2] = {
-    [LANGUAGE_JAPANESE] = "憑かれし皇女",
-    [LANGUAGE_ENGLISH] = "Princess Beset",
-    [LANGUAGE_CHINESE] = "被附身的皇女",
+[MPID_HONOR_ハロルド] = {
+    [LANGUAGE_JAPANESE] = "不運なヒーロー",
+    [LANGUAGE_ENGLISH] = "Hapless Hero",
+    [LANGUAGE_CHINESE] = "倒楣的英雄",
 },
 
-[MPID_ルイーズ] = {
-    [LANGUAGE_JAPANESE] = "ルイーズ",
-    [LANGUAGE_ENGLISH] = "Louise",
-    [LANGUAGE_CHINESE] = "露依丝",
+[MPID_エルフィ] = {
+    [LANGUAGE_JAPANESE] = "エルフィ",
+    [LANGUAGE_ENGLISH] = "Effie",
+    [LANGUAGE_CHINESE] = "艾尔菲",
 },
 
-[MPID_H_ルイーズ] = {
-    [LANGUAGE_JAPANESE] = "エトルリア王国リグレ公爵パントの妻。" TEXT_CMD_NEWLINE "その美しさと弓の腕前に多くの人が魅了されたという。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Wife of Pent, Count Reglay of Etruria. Said" TEXT_CMD_NEWLINE "to have caught the eye of many an admirer" TEXT_CMD_NEWLINE "with her dazzling beauty and impeccable aim." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "伊特鲁里亚王国利格雷公爵庞托之妻。" TEXT_CMD_NEWLINE "据说其美貌和弓术造诣迷倒了不少人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+[MPID_H_エルフィ] = {
+    [LANGUAGE_JAPANESE] = "暗夜王国重騎士。エリーゼの臣下で親友。" TEXT_CMD_NEWLINE "仲間想いで優しい性格。怪力でもある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
+    [LANGUAGE_ENGLISH] = "A gentle knight with great strength and" TEXT_CMD_NEWLINE "devotion. One of Elise's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
+    [LANGUAGE_CHINESE] = "暗夜王国的重骑士，是艾丽泽的部下兼好友。" TEXT_CMD_NEWLINE "个性和善，很替伙伴著想，还拥有一身怪力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
 },
 
-[MPID_HONOR_ルイーズ] = {
-    [LANGUAGE_JAPANESE] = "金紫の貴婦人",
-    [LANGUAGE_ENGLISH] = "Lady of Violets",
-    [LANGUAGE_CHINESE] = "金紫的贵妇",
+[MPID_HONOR_エルフィ] = {
+    [LANGUAGE_JAPANESE] = "怪力の重騎士",
+    [LANGUAGE_ENGLISH] = "Army of One",
+    [LANGUAGE_CHINESE] = "怪力的重骑士",
 },
 
-[MPID_オグマ] = {
-    [LANGUAGE_JAPANESE] = "オグマ",
-    [LANGUAGE_ENGLISH] = "Ogma",
-    [LANGUAGE_CHINESE] = "奥古马",
+[MPID_ジェイガン] = {
+    [LANGUAGE_JAPANESE] = "ジェイガン",
+    [LANGUAGE_ENGLISH] = "Jagen",
+    [LANGUAGE_CHINESE] = "杰刚",
 },
 
-[MPID_H_オグマ] = {
-    [LANGUAGE_JAPANESE] = "タリス王女シーダに仕える、傭兵隊隊長。" TEXT_CMD_NEWLINE "奴隷剣闘士だった過去を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A mercenary who was once a slave gladiator." TEXT_CMD_NEWLINE "Serves Princess Caeda of Talys. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "侍奉塔利斯公主希达的佣兵队队长。" TEXT_CMD_NEWLINE "过去曾是奴隶剑斗士。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_ジェイガン] = {
+    [LANGUAGE_JAPANESE] = "アリティア騎士であり、マルスの守り役。" TEXT_CMD_NEWLINE "マルスがまだ幼い頃から、長年に渡り支えてきた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
+    [LANGUAGE_ENGLISH] = "Veteran knight of Altea who protected" TEXT_CMD_NEWLINE "Marth since he was young. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
+    [LANGUAGE_CHINESE] = "阿利提亚的骑士，身负守护马尔斯的重责大任。" TEXT_CMD_NEWLINE "自马尔斯年幼起，就一直陪伴在身边支持他。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
 },
 
-[MPID_HONOR_オグマ] = {
-    [LANGUAGE_JAPANESE] = "タリスの傭兵",
-    [LANGUAGE_ENGLISH] = "Loyal Blade",
-    [LANGUAGE_CHINESE] = "塔利斯的佣兵",
+[MPID_HONOR_ジェイガン] = {
+    [LANGUAGE_JAPANESE] = "マルスの軍師",
+    [LANGUAGE_ENGLISH] = "Veteran Knight",
+    [LANGUAGE_CHINESE] = "马尔斯的军师",
 },
 
-[MEID_フロージ] = {
-    [LANGUAGE_JAPANESE] = "フロージ",
-    [LANGUAGE_ENGLISH] = "Freyr",
-    [LANGUAGE_CHINESE] = "佛罗金",
+[MPID_イングリット] = {
+    [LANGUAGE_JAPANESE] = "イングリット",
+    [LANGUAGE_ENGLISH] = "Ingrid",
+    [LANGUAGE_CHINESE] = "英谷莉特",
 },
 
-[MEID_H_フロージ] = {
-    [LANGUAGE_JAPANESE] = "夢の国アルフの王。" TEXT_CMD_NEWLINE "夢を司る神で、人々の安らぎを望んでいる。",
-    [LANGUAGE_ENGLISH] = "Dream-King of Ljósálfheimr, the dream realm." TEXT_CMD_NEWLINE "He is the god of dreams and wishes for all to" TEXT_CMD_NEWLINE "lead tranquil, blissful lives.",
-    [LANGUAGE_CHINESE] = "梦之国亚尔芙的国王。" TEXT_CMD_NEWLINE "掌管梦境的神，期望人们的安宁。",
+[MPID_H_イングリット] = {
+    [LANGUAGE_JAPANESE] = "ファーガス神聖王国ガラテア伯爵家の嫡女。" TEXT_CMD_NEWLINE "生来の婚約者を「ダスカーの悲劇」で失っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Heir to House Galatea of the Holy Kingdom of" TEXT_CMD_NEWLINE "Faerghus. Lost her fiancé in the Tragedy of" TEXT_CMD_NEWLINE "Duscur. Appears in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "法嘉斯神圣王国贾拉提雅伯爵家的嫡女。" TEXT_CMD_NEWLINE "在「达斯卡悲剧」中失去了指腹为婚的未婚夫。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MEID_HONOR_フロージ] = {
-    [LANGUAGE_JAPANESE] = "夢の王",
-    [LANGUAGE_ENGLISH] = "Dream-King",
-    [LANGUAGE_CHINESE] = "梦之王",
+[MPID_HONOR_イングリット] = {
+    [LANGUAGE_JAPANESE] = "ガラテア伯爵家",
+    [LANGUAGE_ENGLISH] = "Galatea's Heir",
+    [LANGUAGE_CHINESE] = "贾拉提雅伯爵家",
 },
 
-[MEID_ダグ] = {
-    [LANGUAGE_JAPANESE] = "ダグ",
-    [LANGUAGE_ENGLISH] = "Dagr",
-    [LANGUAGE_CHINESE] = "达古",
+[MPID_アネット] = {
+    [LANGUAGE_JAPANESE] = "アネット",
+    [LANGUAGE_ENGLISH] = "Annette",
+    [LANGUAGE_CHINESE] = "雅妮特",
 },
 
-[MEID_H_ダグ] = {
-    [LANGUAGE_JAPANESE] = "ヨトゥン王国の第二王女。ノートの双子の妹。" TEXT_CMD_NEWLINE "陽気で大らか。好戦的な性格。",
-    [LANGUAGE_ENGLISH] = "The younger of the princesses of Jötunheimr," TEXT_CMD_NEWLINE "and Nótt's twin sister. Cheerful and big-hearted," TEXT_CMD_NEWLINE "but also ready for a scrap when the time comes.",
-    [LANGUAGE_CHINESE] = "约顿王国的第二公主。诺特的双胞胎妹妹。" TEXT_CMD_NEWLINE "个性开朗大方且好战。",
+[MPID_H_アネット] = {
+    [LANGUAGE_JAPANESE] = "ファーガス神聖王国の貴族、ドミニク男爵の姪。" TEXT_CMD_NEWLINE "明るい頑張り屋だが、頑張り過ぎるきらいがある。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Noblewoman of the Holy Kingdom of Faerghus" TEXT_CMD_NEWLINE "and niece to Baron Dominic. Ever the good" TEXT_CMD_NEWLINE "student, she can sometimes overdo it. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "法嘉斯神圣王国的贵族，多米尼克男爵的姪女。" TEXT_CMD_NEWLINE "个性开朗且勤奋努力，但有过度努力的倾向。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MEID_HONOR_ダグ] = {
-    [LANGUAGE_JAPANESE] = "陽光の耀き",
-    [LANGUAGE_ENGLISH] = "Sun's Radiance",
-    [LANGUAGE_CHINESE] = "耀眼的阳光",
-},
-
-[MPID_ガイア] = {
-    [LANGUAGE_JAPANESE] = "ガイア",
-    [LANGUAGE_ENGLISH] = "Gaius",
-    [LANGUAGE_CHINESE] = "盖亚",
-},
-
-[MPID_H_ガイア] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の盗賊。冷静で手先が器用。" TEXT_CMD_NEWLINE "甘いものに目がなく、全身に菓子を隠し持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "Thief of Ylisse known for his nimble hands and" TEXT_CMD_NEWLINE "sweet tooth. Hides sweets in his pockets." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国的盗贼，个性冷静，手艺相当灵巧。" TEXT_CMD_NEWLINE "对甜食毫无抵抗力，全身上下藏满了甜点。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ガイア] = {
-    [LANGUAGE_JAPANESE] = "お菓子好き盗賊",
-    [LANGUAGE_ENGLISH] = "Candy Stealer",
-    [LANGUAGE_CHINESE] = "喜爱甜点的盗贼",
+[MPID_HONOR_アネット] = {
+    [LANGUAGE_JAPANESE] = "頑張り中毒",
+    [LANGUAGE_ENGLISH] = "Overachiever",
+    [LANGUAGE_CHINESE] = "努力成瘾",
 },
 
 [MPID_ピエリ] = {
@@ -7327,22 +8065,58 @@
     [LANGUAGE_CHINESE] = "绽开的笑容",
 },
 
-[MPID_ジャファル] = {
-    [LANGUAGE_JAPANESE] = "ジャファル",
-    [LANGUAGE_ENGLISH] = "Jaffar",
-    [LANGUAGE_CHINESE] = "贾法尔",
+[MPID_ティニー] = {
+    [LANGUAGE_JAPANESE] = "ティニー",
+    [LANGUAGE_ENGLISH] = "Tine",
+    [LANGUAGE_CHINESE] = "媞妮",
 },
 
-[MPID_H_ジャファル] = {
-    [LANGUAGE_JAPANESE] = "【死神】と呼ばれる、暗殺組織【黒い牙】の一人。" TEXT_CMD_NEWLINE "感情を一切あらわすことなく、ただ暗殺を遂行する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "An emotionless member of the Black Fang" TEXT_CMD_NEWLINE "assassins. Known as the Angel of Death." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "暗杀集团【黑牙】的一员，人称【死神】。" TEXT_CMD_NEWLINE "从不显露情感，只是不断执行暗杀任务。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
+[MPID_H_ティニー] = {
+    [LANGUAGE_JAPANESE] = "アルスターを治めるフリージ公ブルームの姪。" TEXT_CMD_NEWLINE "生き別れの兄アーサーと再会し、解放軍へ参加する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖戦の系譜』）",
+    [LANGUAGE_ENGLISH] = "Niece of Bloom, ruler of Ulster and duke" TEXT_CMD_NEWLINE "of Friege. Reuniting with her older brother," TEXT_CMD_NEWLINE "Arthur, she joins the liberation army. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Genealogy of the Holy War.",
+    [LANGUAGE_CHINESE] = "治理阿尔斯特的弗立吉公爵——布鲁姆的姪女。" TEXT_CMD_NEWLINE "和分离的哥哥亚瑟重逢，加入解放军。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
 },
 
-[MPID_HONOR_ジャファル] = {
-    [LANGUAGE_JAPANESE] = "死神",
-    [LANGUAGE_ENGLISH] = "Angel of Death",
-    [LANGUAGE_CHINESE] = "死神",
+[MPID_HONOR_ティニー] = {
+    [LANGUAGE_JAPANESE] = "受難の雷姫",
+    [LANGUAGE_ENGLISH] = "Rumbling Thunder",
+    [LANGUAGE_CHINESE] = "受难的雷姬",
+},
+
+[MPID_ゼルギウス] = {
+    [LANGUAGE_JAPANESE] = "ゼルギウス",
+    [LANGUAGE_ENGLISH] = "Zelgius",
+    [LANGUAGE_CHINESE] = "塞尔吉乌斯",
+},
+
+[MPID_H_ゼルギウス] = {
+    [LANGUAGE_JAPANESE] = "黒鎧に身を固め、漆黒の騎士と呼ばれていた将。" TEXT_CMD_NEWLINE "手にした神剣【エタルド】は天をも裂く力を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
+    [LANGUAGE_ENGLISH] = "A general clad head to toe in the blackest of" TEXT_CMD_NEWLINE "armor, naturally known as the Black Knight. His" TEXT_CMD_NEWLINE "holy sword, Alondite, has the power to rend the" TEXT_CMD_NEWLINE "heavens. Appears in Fire Emblem: Radiant Dawn.",
+    [LANGUAGE_CHINESE] = "身披黑色铠甲，人称漆黑骑士的将领。" TEXT_CMD_NEWLINE "手上的神剑【艾塔尔德】具有足以斩裂天空的力量。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
+},
+
+[MPID_HONOR_ゼルギウス] = {
+    [LANGUAGE_JAPANESE] = "漆黒の将",
+    [LANGUAGE_ENGLISH] = "Jet-Black General",
+    [LANGUAGE_CHINESE] = "漆黑之将",
+},
+
+[MPID_マーシャ] = {
+    [LANGUAGE_JAPANESE] = "マーシャ",
+    [LANGUAGE_ENGLISH] = "Marcia",
+    [LANGUAGE_CHINESE] = "玛夏",
+},
+
+[MPID_H_マーシャ] = {
+    [LANGUAGE_JAPANESE] = "栄光のベグニオン聖天馬騎士団から理由あって脱走。" TEXT_CMD_NEWLINE "行方知れずの兄マカロフを捜して各地を転々とする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "Left her position in Begnion's Holy Guard for" TEXT_CMD_NEWLINE "personal reasons, choosing to travel the land" TEXT_CMD_NEWLINE "in search of her missing brother, Makalov." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "因某个理由逃离了光荣的贝格尼昂圣天马骑士团。" TEXT_CMD_NEWLINE "为了寻找行踪不明的哥哥马卡洛夫辗转于各地。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_マーシャ] = {
+    [LANGUAGE_JAPANESE] = "嘆きの天馬騎士",
+    [LANGUAGE_ENGLISH] = "Petulant Knight",
+    [LANGUAGE_CHINESE] = "悲叹的天马骑士",
 },
 
 [MPID_バヌトゥ] = {
@@ -7363,6 +8137,96 @@
     [LANGUAGE_CHINESE] = "琪姬的守护者",
 },
 
+[MPID_オリヴィエ2] = {
+    [LANGUAGE_JAPANESE] = "オリヴィエ",
+    [LANGUAGE_ENGLISH] = "Olivia",
+    [LANGUAGE_CHINESE] = "奥利薇",
+},
+
+[MPID_H_オリヴィエ2] = {
+    [LANGUAGE_JAPANESE] = "各国を旅する踊り子。恥ずかしがり屋。" TEXT_CMD_NEWLINE "空の舞台で、踊りはより大胆かつ華やかに！" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "A dancer who travels widely and is quite gifted," TEXT_CMD_NEWLINE "despite extreme shyness. Dancing in the sky" TEXT_CMD_NEWLINE "has opened new horizons of boldness for her!" TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "周游各国的舞娘。容易害羞。" TEXT_CMD_NEWLINE "在天空的舞台上，舞蹈也变得比以往更加大胆华丽！" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_オリヴィエ2] = {
+    [LANGUAGE_JAPANESE] = "空舞う踊り子",
+    [LANGUAGE_ENGLISH] = "Sky-High Dancer",
+    [LANGUAGE_CHINESE] = "漫舞空中的舞娘",
+},
+
+[MPID_イレース] = {
+    [LANGUAGE_JAPANESE] = "イレース",
+    [LANGUAGE_ENGLISH] = "Ilyana",
+    [LANGUAGE_CHINESE] = "伊蕾思",
+},
+
+[MPID_H_イレース] = {
+    [LANGUAGE_JAPANESE] = "いつも空腹の青息吐息で、周囲を心配させる少女。" TEXT_CMD_NEWLINE "１０人分の料理を食べても平然としている大食家。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "A girl whose constant hunger pangs cause" TEXT_CMD_NEWLINE "stress for her and worry for others. Has a" TEXT_CMD_NEWLINE "seemingly bottomless stomach. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Path of Radiance.",
+    [LANGUAGE_CHINESE] = "总是因肚子饿而唉声叹气，令周遭的人相当担心的少女。" TEXT_CMD_NEWLINE "就算吃掉十人份的料理，还是面不改色的大胃王。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
+},
+
+[MPID_HONOR_イレース] = {
+    [LANGUAGE_JAPANESE] = "空腹の魔道士",
+    [LANGUAGE_ENGLISH] = "Hungering Mage",
+    [LANGUAGE_CHINESE] = "肚子饿的魔道士",
+},
+
+[MPID_チキ覚醒] = {
+    [LANGUAGE_JAPANESE] = "チキ",
+    [LANGUAGE_ENGLISH] = "Tiki",
+    [LANGUAGE_CHINESE] = "琪姬",
+},
+
+[MPID_H_チキ覚醒] = {
+    [LANGUAGE_JAPANESE] = "神竜族の巫女。神話の時代から生き続けており、" TEXT_CMD_NEWLINE "【英雄王】マルスとはかつて共に戦った仲。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
+    [LANGUAGE_ENGLISH] = "Known as the Voice of the Divine Dragon." TEXT_CMD_NEWLINE "Has lived for ages. Once friends with Marth." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
+    [LANGUAGE_CHINESE] = "神龙族的巫女，从神话时代一直活到现在，" TEXT_CMD_NEWLINE "曾与【英雄王】马尔斯并肩奋战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
+},
+
+[MPID_HONOR_チキ覚醒] = {
+    [LANGUAGE_JAPANESE] = "神竜の巫女",
+    [LANGUAGE_ENGLISH] = "Naga's Voice",
+    [LANGUAGE_CHINESE] = "神龙的巫女",
+},
+
+[MEID_グスタフ] = {
+    [LANGUAGE_JAPANESE] = "グスタフ",
+    [LANGUAGE_ENGLISH] = "Gustav",
+    [LANGUAGE_CHINESE] = "古斯塔夫",
+},
+
+[MEID_H_グスタフ] = {
+    [LANGUAGE_JAPANESE] = "死の王国ヘルの将。女王ヘルに呪縛され、" TEXT_CMD_NEWLINE "生者を死者とするために戦う騎士。",
+    [LANGUAGE_ENGLISH] = "General of Hel, realm of the dead. Under the" TEXT_CMD_NEWLINE "spell of Hel's queen, he is a tool of war made" TEXT_CMD_NEWLINE "for converting the living into new recruits for" TEXT_CMD_NEWLINE "the army of the dead.",
+    [LANGUAGE_CHINESE] = "死之王国赫尔的将领。被女王赫尔的诅咒束缚，" TEXT_CMD_NEWLINE "成了为将生者杀尽而战的骑士。",
+},
+
+[MEID_HONOR_グスタフ] = {
+    [LANGUAGE_JAPANESE] = "暴殺の騎士",
+    [LANGUAGE_ENGLISH] = "Exsanguinator",
+    [LANGUAGE_CHINESE] = "暴杀骑士",
+},
+
+[MPID_ルゥ] = {
+    [LANGUAGE_JAPANESE] = "ルゥ",
+    [LANGUAGE_ENGLISH] = "Lugh",
+    [LANGUAGE_CHINESE] = "鲁格",
+},
+
+[MPID_H_ルゥ] = {
+    [LANGUAGE_JAPANESE] = "孤児院出身の少年。レイとは双子の兄弟。" TEXT_CMD_NEWLINE "ほがらかな性格で、心優しい。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "A boy from an orphanage. Raigh's twin brother." TEXT_CMD_NEWLINE "He's cheerful and tender-hearted. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "出自孤儿院的少年，是雷伊的双胞胎兄弟。" TEXT_CMD_NEWLINE "性情开朗，拥有一颗温柔的心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
+},
+
+[MPID_HONOR_ルゥ] = {
+    [LANGUAGE_JAPANESE] = "理の申し子",
+    [LANGUAGE_ENGLISH] = "Anima Child",
+    [LANGUAGE_CHINESE] = "理之骄子",
+},
+
 [MPID_オーディン] = {
     [LANGUAGE_JAPANESE] = "オーディン",
     [LANGUAGE_ENGLISH] = "Odin",
@@ -7381,112 +8245,130 @@
     [LANGUAGE_CHINESE] = "封印著力量之人",
 },
 
-[MPID_イングリット] = {
-    [LANGUAGE_JAPANESE] = "イングリット",
-    [LANGUAGE_ENGLISH] = "Ingrid",
-    [LANGUAGE_CHINESE] = "英谷莉特",
+[MPID_ホークアイ] = {
+    [LANGUAGE_JAPANESE] = "ホークアイ",
+    [LANGUAGE_ENGLISH] = "Hawkeye",
+    [LANGUAGE_CHINESE] = "霍克艾",
 },
 
-[MPID_H_イングリット] = {
-    [LANGUAGE_JAPANESE] = "ファーガス神聖王国ガラテア伯爵家の嫡女。" TEXT_CMD_NEWLINE "生来の婚約者を「ダスカーの悲劇」で失っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Heir to House Galatea of the Holy Kingdom of" TEXT_CMD_NEWLINE "Faerghus. Lost her fiancé in the Tragedy of" TEXT_CMD_NEWLINE "Duscur. Appears in Fire Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "法嘉斯神圣王国贾拉提雅伯爵家的嫡女。" TEXT_CMD_NEWLINE "在「达斯卡悲剧」中失去了指腹为婚的未婚夫。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
+[MPID_H_ホークアイ] = {
+    [LANGUAGE_JAPANESE] = "ナバタ砂漠の守護者。寡黙で、己の役割に忠実。" TEXT_CMD_NEWLINE "人と竜が暮らす理想郷の平和を守っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Guardian of the Nabata Desert and Arcadia," TEXT_CMD_NEWLINE "where dragons and humans live in harmony." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "人类与龙共存的纳巴塔沙漠的守护者，沉默寡言、" TEXT_CMD_NEWLINE "尽忠职守。为了守护理想乡的和平而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
 },
 
-[MPID_HONOR_イングリット] = {
-    [LANGUAGE_JAPANESE] = "ガラテア伯爵家",
-    [LANGUAGE_ENGLISH] = "Galatea's Heir",
-    [LANGUAGE_CHINESE] = "贾拉提雅伯爵家",
+[MPID_HONOR_ホークアイ] = {
+    [LANGUAGE_JAPANESE] = "砂漠の守護者",
+    [LANGUAGE_ENGLISH] = "Desert Guardian",
+    [LANGUAGE_CHINESE] = "沙漠的守护者",
 },
 
-[MPID_マリカ] = {
-    [LANGUAGE_JAPANESE] = "マリカ",
-    [LANGUAGE_ENGLISH] = "Marisa",
-    [LANGUAGE_CHINESE] = "玛莉卡",
+[MPID_フロリーナ] = {
+    [LANGUAGE_JAPANESE] = "フロリーナ",
+    [LANGUAGE_ENGLISH] = "Florina",
+    [LANGUAGE_CHINESE] = "芙罗利娜",
 },
 
-[MPID_H_マリカ] = {
-    [LANGUAGE_JAPANESE] = "ジスト率いる傭兵団の剣士。" TEXT_CMD_NEWLINE "常に沈着冷静で、「緋閃」の異名で恐れられている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "An aloof swordfighter in a mercenary group led" TEXT_CMD_NEWLINE "by Gerik. Her nom de guerre, Crimson Flash," TEXT_CMD_NEWLINE "strikes fear in others. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "吉斯特所率领的佣兵团中的剑客。" TEXT_CMD_NEWLINE "总是沉著冷静，外号「绯闪」令人闻风丧胆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+[MPID_H_フロリーナ] = {
+    [LANGUAGE_JAPANESE] = "イリア天馬騎士団の三姉妹の末妹。リンの親友。" TEXT_CMD_NEWLINE "動物好きで心優しく、内気な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
+    [LANGUAGE_ENGLISH] = "Youngest of three sisters who are" TEXT_CMD_NEWLINE "Pegasus Knights of Ilia. Shy, gentle" TEXT_CMD_NEWLINE "girl who loves animals. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
+    [LANGUAGE_CHINESE] = "伊利亚天马骑士团三姊妹中的么女，也是琳的挚友。" TEXT_CMD_NEWLINE "爱好动物、心地善良，个性相当腼腆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
 },
 
-[MPID_HONOR_マリカ] = {
-    [LANGUAGE_JAPANESE] = "緋閃",
-    [LANGUAGE_ENGLISH] = "Crimson Flash",
-    [LANGUAGE_CHINESE] = "绯闪",
+[MPID_HONOR_フロリーナ] = {
+    [LANGUAGE_JAPANESE] = "可憐な天馬騎士",
+    [LANGUAGE_ENGLISH] = "Lovely Flier",
+    [LANGUAGE_CHINESE] = "可爱的天马骑士",
 },
 
-[MPID_カアラ] = {
-    [LANGUAGE_JAPANESE] = "カアラ",
-    [LANGUAGE_ENGLISH] = "Karla",
-    [LANGUAGE_CHINESE] = "卡菈",
+[MPID_ゼフィール] = {
+    [LANGUAGE_JAPANESE] = "ゼフィール",
+    [LANGUAGE_ENGLISH] = "Zephiel",
+    [LANGUAGE_CHINESE] = "赛菲尔",
 },
 
-[MPID_H_カアラ] = {
-    [LANGUAGE_JAPANESE] = "兄の姿を求めて旅する剣士。" TEXT_CMD_NEWLINE "美貌と腕前で各地の闘技場を賑わせている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "A traveling swordswoman in search of" TEXT_CMD_NEWLINE "her brother. Her impressive skills and" TEXT_CMD_NEWLINE "good looks have enlivened many arenas." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "为了追寻哥哥的踪迹踏上旅途的剑士。" TEXT_CMD_NEWLINE "凭著美貌及其本领让各地斗技场充满生气。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム 烈火の剣』）",
+[MPID_H_ゼフィール] = {
+    [LANGUAGE_JAPANESE] = "ベルン国王。幼い頃は優しい性格だったが、" TEXT_CMD_NEWLINE "人間に絶望し、世界を竜に支配させることを望む。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "King of Bern. Once a kindhearted boy who" TEXT_CMD_NEWLINE "became disillusioned with humanity. Wants" TEXT_CMD_NEWLINE "his world to be ruled by dragons. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "伯尔尼国王，年幼时个性很善良，后来却" TEXT_CMD_NEWLINE "对人类感到绝望，企盼由龙来支配世界。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
 },
 
-[MPID_HONOR_カアラ] = {
-    [LANGUAGE_JAPANESE] = "剣姫",
-    [LANGUAGE_ENGLISH] = "Sword Vassal",
-    [LANGUAGE_CHINESE] = "剑姬",
+[MPID_HONOR_ゼフィール] = {
+    [LANGUAGE_JAPANESE] = "解放の王",
+    [LANGUAGE_ENGLISH] = "The Liberator",
+    [LANGUAGE_CHINESE] = "解放之王",
 },
 
-[MPID_ラーチェル] = {
-    [LANGUAGE_JAPANESE] = "ラーチェル",
-    [LANGUAGE_ENGLISH] = "L'Arachel",
-    [LANGUAGE_CHINESE] = "拉切尔",
+[MPID_ナーシェン] = {
+    [LANGUAGE_JAPANESE] = "ナーシェン",
+    [LANGUAGE_ENGLISH] = "Narcian",
+    [LANGUAGE_CHINESE] = "拿榭恩",
 },
 
-[MPID_H_ラーチェル] = {
-    [LANGUAGE_JAPANESE] = "ロストン聖教国の姫。ドズラとレナックを率いて" TEXT_CMD_NEWLINE "マギ・ヴァル大陸各地の魔物を倒す旅に出ている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Princess of Rausten. Dozla and Rennac" TEXT_CMD_NEWLINE "accompany her on their quest to defeat" TEXT_CMD_NEWLINE "the monsters around Magvel. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "罗斯通圣教国的公主。为了打倒麦格维尔陆地" TEXT_CMD_NEWLINE "各地的魔物，率领多兹拉和雷纳克踏上旅程。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+[MPID_H_ナーシェン] = {
+    [LANGUAGE_JAPANESE] = "ベルン【三竜将】の一人。自尊心が極度に強く、" TEXT_CMD_NEWLINE "自分の栄誉のためなら卑劣な手段も厭わない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
+    [LANGUAGE_ENGLISH] = "One of three Wyvern Generals of Bern." TEXT_CMD_NEWLINE "Conceited and vainglorious. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
+    [LANGUAGE_CHINESE] = "伯尔尼的【三龙将】之一。自尊心极强，" TEXT_CMD_NEWLINE "为了自己的荣誉，甚至不惜使用卑鄙的手段。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
 },
 
-[MPID_HONOR_ラーチェル] = {
-    [LANGUAGE_JAPANESE] = "光の聖王女",
-    [LANGUAGE_ENGLISH] = "Princess of Light",
-    [LANGUAGE_CHINESE] = "光之圣公主",
+[MPID_HONOR_ナーシェン] = {
+    [LANGUAGE_JAPANESE] = "三竜将",
+    [LANGUAGE_ENGLISH] = "Wyvern General",
+    [LANGUAGE_CHINESE] = "三龙将",
 },
 
-[MPID_マチス] = {
-    [LANGUAGE_JAPANESE] = "マチス",
-    [LANGUAGE_ENGLISH] = "Matthis",
-    [LANGUAGE_CHINESE] = "玛吉斯",
+[MPID_ベルナデッタ] = {
+    [LANGUAGE_JAPANESE] = "ベルナデッタ",
+    [LANGUAGE_ENGLISH] = "Bernadetta",
+    [LANGUAGE_CHINESE] = "贝尔娜提塔",
 },
 
-[MPID_H_マチス] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王国の貴族出身の騎士。" TEXT_CMD_NEWLINE "戦いは嫌いだが、強引に出撃させられてしまった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "A noble knight of Macedon. Though he would" TEXT_CMD_NEWLINE "prefer to avoid bloodshed, he had no choice" TEXT_CMD_NEWLINE "but to take up arms. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "马其顿王国贵族出身的骑士。" TEXT_CMD_NEWLINE "讨厌战争却被迫出战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
+[MPID_H_ベルナデッタ] = {
+    [LANGUAGE_JAPANESE] = "アドラステア帝国の教務卿、ヴァーリ伯の娘。" TEXT_CMD_NEWLINE "臆病で人見知りな、筋金入りの引き籠もり。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
+    [LANGUAGE_ENGLISH] = "Daughter of Count Varley, Minister of Religion" TEXT_CMD_NEWLINE "to the Adrestian Empire. Anxious, she staunchly" TEXT_CMD_NEWLINE "avoids social interaction. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
+    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的教务卿——瓦立伯爵之女。" TEXT_CMD_NEWLINE "个性胆小怕生，是个意志坚定的家里蹲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
 },
 
-[MPID_HONOR_マチス] = {
-    [LANGUAGE_JAPANESE] = "シスターレナの兄",
-    [LANGUAGE_ENGLISH] = "Brother to Lena",
-    [LANGUAGE_CHINESE] = "蕾娜修女的哥哥",
+[MPID_HONOR_ベルナデッタ] = {
+    [LANGUAGE_JAPANESE] = "永遠の引き籠もり",
+    [LANGUAGE_ENGLISH] = "Eternal Loner",
+    [LANGUAGE_CHINESE] = "永远的家里蹲",
 },
 
-[MEID_ブルーノ洗脳] = {
-    [LANGUAGE_JAPANESE] = "ブルーノ",
-    [LANGUAGE_ENGLISH] = "Bruno",
-    [LANGUAGE_CHINESE] = "布鲁诺",
+[MPID_ベウフォレス] = {
+    [LANGUAGE_JAPANESE] = "ベウフォレス",
+    [LANGUAGE_ENGLISH] = "Bertram",
+    [LANGUAGE_CHINESE] = "贝佛雷斯",
 },
 
-[MEID_H_ブルーノ洗脳] = {
-    [LANGUAGE_JAPANESE] = "元特務機関の一人で、アルフォンスの友。" TEXT_CMD_NEWLINE "エンブラ皇族の一人で、ヴェロニカの兄でもある。",
-    [LANGUAGE_ENGLISH] = "Former member of the Order of Heroes and" TEXT_CMD_NEWLINE "friend to Prince Alfonse. Member of the Emblian" TEXT_CMD_NEWLINE "royal family, and Veronica's elder brother.",
-    [LANGUAGE_CHINESE] = "曾为特务机关的一员，阿尔冯斯的好友。" TEXT_CMD_NEWLINE "恩布拉皇族之一，也是维洛妮卡的哥哥。",
+[MPID_H_ベウフォレス] = {
+    [LANGUAGE_JAPANESE] = "デイン王国最強の四将軍【四駿】の一角。" TEXT_CMD_NEWLINE "鎧兜に隠された素性を知る者はいない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
+    [LANGUAGE_ENGLISH] = "One of the Four Riders, the strongest of Daein's" TEXT_CMD_NEWLINE "generals. No one knows who it is that wears the" TEXT_CMD_NEWLINE "helm and armor. Appears in Fire Emblem: Path" TEXT_CMD_NEWLINE "of Radiance.",
+    [LANGUAGE_CHINESE] = "戴因王国最强的四大将军——【四骏】之一。" TEXT_CMD_NEWLINE "无人知晓其藏于铠甲下的真面目。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
 },
 
-[MEID_HONOR_ブルーノ洗脳] = {
-    [LANGUAGE_JAPANESE] = "憑かれし皇子",
-    [LANGUAGE_ENGLISH] = "Prince Beset",
-    [LANGUAGE_CHINESE] = "被附身的皇子",
+[MPID_HONOR_ベウフォレス] = {
+    [LANGUAGE_JAPANESE] = "闇より来たる魔将",
+    [LANGUAGE_ENGLISH] = "Dread Cavalier",
+    [LANGUAGE_CHINESE] = "自黑暗而来的魔将",
+},
+
+[MPID_デューテ] = {
+    [LANGUAGE_JAPANESE] = "デューテ",
+    [LANGUAGE_ENGLISH] = "Delthea",
+    [LANGUAGE_CHINESE] = "迪优特",
+},
+
+[MPID_H_デューテ] = {
+    [LANGUAGE_JAPANESE] = "森の村の魔道士。リュートの妹。" TEXT_CMD_NEWLINE "天才的な魔道の才能を持つが、修行と努力が大嫌い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
+    [LANGUAGE_ENGLISH] = "A naturally talented mage who hates training" TEXT_CMD_NEWLINE "and hard work. Has a brother, Luthier. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Echoes: Shadows of Valentia.",
+    [LANGUAGE_CHINESE] = "森林村落的魔道士，鲁特的妹妹。" TEXT_CMD_NEWLINE "虽然是个魔道天才，但非常讨厌修练及努力。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
+},
+
+[MPID_HONOR_デューテ] = {
+    [LANGUAGE_JAPANESE] = "やりたい放題",
+    [LANGUAGE_ENGLISH] = "Free Spirit",
+    [LANGUAGE_CHINESE] = "不受拘束",
 },
 
 [MPID_ネサラ] = {
@@ -7543,722 +8425,20 @@
     [LANGUAGE_CHINESE] = "心灵崩坏的",
 },
 
-[MPID_ミルラ] = {
-    [LANGUAGE_JAPANESE] = "ミルラ",
-    [LANGUAGE_ENGLISH] = "Myrrh",
-    [LANGUAGE_CHINESE] = "梅尔",
+[MEID_ヴェロニカ2] = {
+    [LANGUAGE_JAPANESE] = "ヴェロニカ",
+    [LANGUAGE_ENGLISH] = "Veronica",
+    [LANGUAGE_CHINESE] = "维洛妮卡",
 },
 
-[MPID_H_ミルラ] = {
-    [LANGUAGE_JAPANESE] = "竜人族の少女。外見よりも年齢はずっと上。" TEXT_CMD_NEWLINE "人見知りだが、エフラムには不思議となついている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A manakete who is much older than her" TEXT_CMD_NEWLINE "appearance suggests. She's shy but oddly" TEXT_CMD_NEWLINE "attached to Ephraim. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "龙人族的少女。实际年龄远比外表年长。" TEXT_CMD_NEWLINE "虽然很怕生，却神奇地很喜欢黏著艾夫拉姆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+[MEID_H_ヴェロニカ2] = {
+    [LANGUAGE_JAPANESE] = "エンブラ帝国の皇女。" TEXT_CMD_NEWLINE "その身は、憑竜エンブラに憑依されている。",
+    [LANGUAGE_ENGLISH] = "Imperial princess of the Emblian Empire, her will" TEXT_CMD_NEWLINE "dominated by Embla herself.",
+    [LANGUAGE_CHINESE] = "恩布拉帝国的皇女。" TEXT_CMD_NEWLINE "她的身体已被凭龙恩布拉所附身。",
 },
 
-[MPID_HONOR_ミルラ] = {
-    [LANGUAGE_JAPANESE] = "無垢なる竜人",
-    [LANGUAGE_ENGLISH] = "Great Dragon",
-    [LANGUAGE_CHINESE] = "纯真的龙人",
-},
-
-[MPID_ケンプフ] = {
-    [LANGUAGE_JAPANESE] = "ケンプフ",
-    [LANGUAGE_ENGLISH] = "Kempf",
-    [LANGUAGE_CHINESE] = "肯普夫",
-},
-
-[MPID_H_ケンプフ] = {
-    [LANGUAGE_JAPANESE] = "グランベル帝国軍第１２軍団の将軍。" TEXT_CMD_NEWLINE "ラインハルトを強く意識する野望の男。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "General of the 12th division of the Grannvale" TEXT_CMD_NEWLINE "Empire's army. A man of ambition and single-" TEXT_CMD_NEWLINE "minded focus on his rival, Reinhardt. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "格兰贝鲁帝国军第１２军团的将军。" TEXT_CMD_NEWLINE "视莱茵哈特为眼中钉，是个充满野心的男人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_ケンプフ] = {
-    [LANGUAGE_JAPANESE] = "フリージの智将",
-    [LANGUAGE_ENGLISH] = "Conniving General",
-    [LANGUAGE_CHINESE] = "弗立吉的智将",
-},
-
-[MPID_ベルナデッタ] = {
-    [LANGUAGE_JAPANESE] = "ベルナデッタ",
-    [LANGUAGE_ENGLISH] = "Bernadetta",
-    [LANGUAGE_CHINESE] = "贝尔娜提塔",
-},
-
-[MPID_H_ベルナデッタ] = {
-    [LANGUAGE_JAPANESE] = "アドラステア帝国の教務卿、ヴァーリ伯の娘。" TEXT_CMD_NEWLINE "臆病で人見知りな、筋金入りの引き籠もり。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　風花雪月』）",
-    [LANGUAGE_ENGLISH] = "Daughter of Count Varley, Minister of Religion" TEXT_CMD_NEWLINE "to the Adrestian Empire. Anxious, she staunchly" TEXT_CMD_NEWLINE "avoids social interaction. Appears in Fire" TEXT_CMD_NEWLINE "Emblem: Three Houses.",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚帝国的教务卿——瓦立伯爵之女。" TEXT_CMD_NEWLINE "个性胆小怕生，是个意志坚定的家里蹲。" TEXT_CMD_NEWLINE "（登场作品：『FIRE EMBLEM　风花雪月』）",
-},
-
-[MPID_HONOR_ベルナデッタ] = {
-    [LANGUAGE_JAPANESE] = "永遠の引き籠もり",
-    [LANGUAGE_ENGLISH] = "Eternal Loner",
-    [LANGUAGE_CHINESE] = "永远的家里蹲",
-},
-
-[MPID_カイン] = {
-    [LANGUAGE_JAPANESE] = "カイン",
-    [LANGUAGE_ENGLISH] = "Cain",
-    [LANGUAGE_CHINESE] = "凯因",
-},
-
-[MPID_H_カイン] = {
-    [LANGUAGE_JAPANESE] = "アリティア騎士。アベルと共にマルス王子に仕えた。" TEXT_CMD_NEWLINE "猪突猛進な性格で、【猛牛】の異名を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Altean cavalier known for recklessness." TEXT_CMD_NEWLINE "Rode with Abel in service of Marth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿利提亚的骑士，与阿贝尔一起侍奉马尔斯王子。" TEXT_CMD_NEWLINE "由于个性莽撞，因此别名为【猛牛】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_カイン] = {
-    [LANGUAGE_JAPANESE] = "猛牛",
-    [LANGUAGE_ENGLISH] = "The Bull",
-    [LANGUAGE_CHINESE] = "猛牛",
-},
-
-[MPID_アベル] = {
-    [LANGUAGE_JAPANESE] = "アベル",
-    [LANGUAGE_ENGLISH] = "Abel",
-    [LANGUAGE_CHINESE] = "阿贝尔",
-},
-
-[MPID_H_アベル] = {
-    [LANGUAGE_JAPANESE] = "アリティア騎士。カインと共にマルス王子に仕えた。" TEXT_CMD_NEWLINE "冷静沈着な性格で、【黒豹】の異名を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Altean cavalier known for his sensibility." TEXT_CMD_NEWLINE "Rode with Cain in service of Marth. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿利提亚的骑士，与凯因一起侍奉马尔斯王子。" TEXT_CMD_NEWLINE "由于个性沉著冷静，因此别名为【黑豹】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_アベル] = {
-    [LANGUAGE_JAPANESE] = "黒豹",
-    [LANGUAGE_ENGLISH] = "The Panther",
-    [LANGUAGE_CHINESE] = "黑豹",
-},
-
-[MPID_ジェイガン] = {
-    [LANGUAGE_JAPANESE] = "ジェイガン",
-    [LANGUAGE_ENGLISH] = "Jagen",
-    [LANGUAGE_CHINESE] = "杰刚",
-},
-
-[MPID_H_ジェイガン] = {
-    [LANGUAGE_JAPANESE] = "アリティア騎士であり、マルスの守り役。" TEXT_CMD_NEWLINE "マルスがまだ幼い頃から、長年に渡り支えてきた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Veteran knight of Altea who protected" TEXT_CMD_NEWLINE "Marth since he was young. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿利提亚的骑士，身负守护马尔斯的重责大任。" TEXT_CMD_NEWLINE "自马尔斯年幼起，就一直陪伴在身边支持他。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_ジェイガン] = {
-    [LANGUAGE_JAPANESE] = "マルスの軍師",
-    [LANGUAGE_ENGLISH] = "Veteran Knight",
-    [LANGUAGE_CHINESE] = "马尔斯的军师",
-},
-
-[MPID_ミドリコ] = {
-    [LANGUAGE_JAPANESE] = "ミドリコ",
-    [LANGUAGE_ENGLISH] = "Midori",
-    [LANGUAGE_CHINESE] = "翠子",
-},
-
-[MPID_H_ミドリコ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の忍、スズカゼの娘。" TEXT_CMD_NEWLINE "しっかり者で薬草を調合する技術に長ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Daughter of the stalwart Hoshidan ninja Kaze." TEXT_CMD_NEWLINE "An expert when it comes to crafting balms and" TEXT_CMD_NEWLINE "poultices from medicinal herbs. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的忍者，凉风的女儿。" TEXT_CMD_NEWLINE "是个可靠的人，调配药草的技术相当高超。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ミドリコ] = {
-    [LANGUAGE_JAPANESE] = "しっかり者の",
-    [LANGUAGE_ENGLISH] = "Reliable Chemist",
-    [LANGUAGE_CHINESE] = "可靠的",
-},
-
-[MPID_セイラム] = {
-    [LANGUAGE_JAPANESE] = "セイラム",
-    [LANGUAGE_ENGLISH] = "Salem",
-    [LANGUAGE_CHINESE] = "塞拉姆",
-},
-
-[MPID_H_セイラム] = {
-    [LANGUAGE_JAPANESE] = "ロプト教団の司祭であったが、" TEXT_CMD_NEWLINE "教団に疑問を抱き、命を賭して裏切り者となった。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　トラキア７７６』）",
-    [LANGUAGE_ENGLISH] = "Although he was a priest of the Loptr Church," TEXT_CMD_NEWLINE "his doubts drove him to risk his life to leave it." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Thracia 776.",
-    [LANGUAGE_CHINESE] = "原为罗普托教团的祭司，" TEXT_CMD_NEWLINE "因对教团抱持疑问而赌上性命成为叛徒。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　トラキア７７６』）",
-},
-
-[MPID_HONOR_セイラム] = {
-    [LANGUAGE_JAPANESE] = "暗黒魔道士",
-    [LANGUAGE_ENGLISH] = "Dark Sage",
-    [LANGUAGE_CHINESE] = "暗黑魔道士",
-},
-
-[MPID_アサマ] = {
-    [LANGUAGE_JAPANESE] = "アサマ",
-    [LANGUAGE_ENGLISH] = "Azama",
-    [LANGUAGE_CHINESE] = "浅间",
-},
-
-[MPID_H_アサマ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の修験者。ヒノカの臣下。" TEXT_CMD_NEWLINE "人当たりがよい温厚な人柄だが毒舌家。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A monk of Hoshido with a curious sense" TEXT_CMD_NEWLINE "of humor. One of Hinoka's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的修道者，火乃香的部下。" TEXT_CMD_NEWLINE "虽然个性敦厚、待人随和，但嘴巴相当毒辣。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_アサマ] = {
-    [LANGUAGE_JAPANESE] = "飄々とした僧",
-    [LANGUAGE_ENGLISH] = "Carefree Monk",
-    [LANGUAGE_CHINESE] = "飘逸的僧侣",
-},
-
-[MPID_セツナ] = {
-    [LANGUAGE_JAPANESE] = "セツナ",
-    [LANGUAGE_ENGLISH] = "Setsuna",
-    [LANGUAGE_CHINESE] = "刹那",
-},
-
-[MPID_H_セツナ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の弓使い。ヒノカの臣下。" TEXT_CMD_NEWLINE "かなりぼんやりした性格で、神経が図太い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Hoshidan archer who is either fearless or" TEXT_CMD_NEWLINE "daydreaming. One of Hinoka's retainers." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的弓箭手，也是火乃香的部下。" TEXT_CMD_NEWLINE "个性相当糊涂且神经大条。" TEXT_CMD_NEWLINE "（登场：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_セツナ] = {
-    [LANGUAGE_JAPANESE] = "ぼんやり",
-    [LANGUAGE_ENGLISH] = "Absent Archer",
-    [LANGUAGE_CHINESE] = "迷糊蛋",
-},
-
-[MPID_アルム] = {
-    [LANGUAGE_JAPANESE] = "アルム",
-    [LANGUAGE_ENGLISH] = "Alm",
-    [LANGUAGE_CHINESE] = "阿雷武",
-},
-
-[MPID_H_アルム] = {
-    [LANGUAGE_JAPANESE] = "ラムの村で英雄マイセンに育てられた少年戦士。" TEXT_CMD_NEWLINE "勇敢で心優しく、左手に聖痕を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　Echoes』）",
-    [LANGUAGE_ENGLISH] = "A brave but kind young warrior, raised by the" TEXT_CMD_NEWLINE "hero Mycen in Ram Village. His left hand is" TEXT_CMD_NEWLINE "marked with the Brand. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Echoes: Shadows of Valentia.",
-    [LANGUAGE_CHINESE] = "在拉姆村受到英雄玛伊森薰陶培育的少年战士。" TEXT_CMD_NEWLINE "既勇敢又善良，左手有圣痕。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
-},
-
-[MPID_HONOR_アルム] = {
-    [LANGUAGE_JAPANESE] = "予言の勇者",
-    [LANGUAGE_ENGLISH] = "Hero of Prophecy",
-    [LANGUAGE_CHINESE] = "预言的勇者",
-},
-
-[MPID_アストリア] = {
-    [LANGUAGE_JAPANESE] = "アストリア",
-    [LANGUAGE_ENGLISH] = "Astram",
-    [LANGUAGE_CHINESE] = "阿斯托利亚",
-},
-
-[MPID_H_アストリア] = {
-    [LANGUAGE_JAPANESE] = "アカネイア聖王国の傭兵隊長。" TEXT_CMD_NEWLINE "忠義厚き勇者として宝剣【メリクル】を授かる。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Captain of Archanea's free company. Awarded" TEXT_CMD_NEWLINE "the sword Mercurius in light of his heroism and" TEXT_CMD_NEWLINE "loyalty. Appears in Fire Emblem: Mystery of" TEXT_CMD_NEWLINE "the Emblem.",
-    [LANGUAGE_CHINESE] = "阿卡奈亚圣王国的佣兵队长。" TEXT_CMD_NEWLINE "作为忠心赤胆的勇者被授予宝剑【墨丘利】。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_アストリア] = {
-    [LANGUAGE_JAPANESE] = "アカネイアの勇者",
-    [LANGUAGE_ENGLISH] = "Midia's Hero",
-    [LANGUAGE_CHINESE] = "阿卡奈亚的勇者",
-},
-
-[MPID_ソレイユ] = {
-    [LANGUAGE_JAPANESE] = "ソレイユ",
-    [LANGUAGE_ENGLISH] = "Soleil",
-    [LANGUAGE_CHINESE] = "索雷优",
-},
-
-[MPID_H_ソレイユ] = {
-    [LANGUAGE_JAPANESE] = "ラズワルドの娘。明るく元気な性格。" TEXT_CMD_NEWLINE "かっこいい女性に憧れているが、羞恥心が薄い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Laslow's daughter. Cheerful and not even" TEXT_CMD_NEWLINE "slightly shy. Looks up to cool women." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "拉兹沃德的女儿，个性开朗活泼。" TEXT_CMD_NEWLINE "十分憧憬帅气的女性，但缺乏羞耻观念。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_ソレイユ] = {
-    [LANGUAGE_JAPANESE] = "女の子好き",
-    [LANGUAGE_ENGLISH] = "Adorable Adorer",
-    [LANGUAGE_CHINESE] = "热爱女孩",
-},
-
-[MPID_ゼフィール] = {
-    [LANGUAGE_JAPANESE] = "ゼフィール",
-    [LANGUAGE_ENGLISH] = "Zephiel",
-    [LANGUAGE_CHINESE] = "赛菲尔",
-},
-
-[MPID_H_ゼフィール] = {
-    [LANGUAGE_JAPANESE] = "ベルン国王。幼い頃は優しい性格だったが、" TEXT_CMD_NEWLINE "人間に絶望し、世界を竜に支配させることを望む。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "King of Bern. Once a kindhearted boy who" TEXT_CMD_NEWLINE "became disillusioned with humanity. Wants" TEXT_CMD_NEWLINE "his world to be ruled by dragons. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "伯尔尼国王，年幼时个性很善良，后来却" TEXT_CMD_NEWLINE "对人类感到绝望，企盼由龙来支配世界。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_ゼフィール] = {
-    [LANGUAGE_JAPANESE] = "解放の王",
-    [LANGUAGE_ENGLISH] = "The Liberator",
-    [LANGUAGE_CHINESE] = "解放之王",
-},
-
-[MPID_ナーシェン] = {
-    [LANGUAGE_JAPANESE] = "ナーシェン",
-    [LANGUAGE_ENGLISH] = "Narcian",
-    [LANGUAGE_CHINESE] = "拿榭恩",
-},
-
-[MPID_H_ナーシェン] = {
-    [LANGUAGE_JAPANESE] = "ベルン【三竜将】の一人。自尊心が極度に強く、" TEXT_CMD_NEWLINE "自分の栄誉のためなら卑劣な手段も厭わない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "One of three Wyvern Generals of Bern." TEXT_CMD_NEWLINE "Conceited and vainglorious. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "伯尔尼的【三龙将】之一。自尊心极强，" TEXT_CMD_NEWLINE "为了自己的荣誉，甚至不惜使用卑鄙的手段。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_ナーシェン] = {
-    [LANGUAGE_JAPANESE] = "三竜将",
-    [LANGUAGE_ENGLISH] = "Wyvern General",
-    [LANGUAGE_CHINESE] = "三龙将",
-},
-
-[MPID_マーシャ] = {
-    [LANGUAGE_JAPANESE] = "マーシャ",
-    [LANGUAGE_ENGLISH] = "Marcia",
-    [LANGUAGE_CHINESE] = "玛夏",
-},
-
-[MPID_H_マーシャ] = {
-    [LANGUAGE_JAPANESE] = "栄光のベグニオン聖天馬騎士団から理由あって脱走。" TEXT_CMD_NEWLINE "行方知れずの兄マカロフを捜して各地を転々とする。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "Left her position in Begnion's Holy Guard for" TEXT_CMD_NEWLINE "personal reasons, choosing to travel the land" TEXT_CMD_NEWLINE "in search of her missing brother, Makalov." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Path of Radiance.",
-    [LANGUAGE_CHINESE] = "因某个理由逃离了光荣的贝格尼昂圣天马骑士团。" TEXT_CMD_NEWLINE "为了寻找行踪不明的哥哥马卡洛夫辗转于各地。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_マーシャ] = {
-    [LANGUAGE_JAPANESE] = "嘆きの天馬騎士",
-    [LANGUAGE_ENGLISH] = "Petulant Knight",
-    [LANGUAGE_CHINESE] = "悲叹的天马骑士",
-},
-
-[MPID_マシュー] = {
-    [LANGUAGE_JAPANESE] = "マシュー",
-    [LANGUAGE_ENGLISH] = "Matthew",
-    [LANGUAGE_CHINESE] = "马修",
-},
-
-[MPID_H_マシュー] = {
-    [LANGUAGE_JAPANESE] = "オスティア侯弟ヘクトルに仕える密偵。" TEXT_CMD_NEWLINE "飄々とした性格だが、抜け目ない一面も持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Happy-go-lucky spy who's actually quite sly." TEXT_CMD_NEWLINE "Serves Hector, brother of the Marquess of Ostia." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "侍奉奥斯提亚侯爵之弟海克托尔的密探，" TEXT_CMD_NEWLINE "个性很自在随意，但也有精明的一面。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_マシュー] = {
-    [LANGUAGE_JAPANESE] = "義の盗賊",
-    [LANGUAGE_ENGLISH] = "Faithful Spy",
-    [LANGUAGE_CHINESE] = "义贼",
-},
-
-[MPID_セーラ] = {
-    [LANGUAGE_JAPANESE] = "セーラ",
-    [LANGUAGE_ENGLISH] = "Serra",
-    [LANGUAGE_CHINESE] = "赛拉",
-},
-
-[MPID_H_セーラ] = {
-    [LANGUAGE_JAPANESE] = "オスティア侯弟ヘクトルに仕えるシスター。" TEXT_CMD_NEWLINE "自由奔放な言動で、常に周囲を騒がせている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Cleric who thinks less of others, more of herself." TEXT_CMD_NEWLINE "Serves Hector, brother of the Marquess of Ostia." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "侍奉奥斯提亚侯爵之弟海克托尔的修女。" TEXT_CMD_NEWLINE "言行举止自由奔放，时常会惊扰到周遭的人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_セーラ] = {
-    [LANGUAGE_JAPANESE] = "かしましシスター",
-    [LANGUAGE_ENGLISH] = "Outspoken Cleric",
-    [LANGUAGE_CHINESE] = "吵闹的修女",
-},
-
-[MPID_ソール] = {
-    [LANGUAGE_JAPANESE] = "ソール",
-    [LANGUAGE_ENGLISH] = "Stahl",
-    [LANGUAGE_CHINESE] = "索尔",
-},
-
-[MPID_H_ソール] = {
-    [LANGUAGE_JAPANESE] = "クロム自警団の一員。騎士を目指している。" TEXT_CMD_NEWLINE "少々おっちょこちょいだが人が良く、優しい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A kind but slightly scatterbrained knight" TEXT_CMD_NEWLINE "who serves with the Shepherds." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，立志成为骑士。" TEXT_CMD_NEWLINE "虽然个性有点冒失，但为人相当和善。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ソール] = {
-    [LANGUAGE_JAPANESE] = "碧の騎士",
-    [LANGUAGE_ENGLISH] = "Viridian Knight",
-    [LANGUAGE_CHINESE] = "碧绿骑士",
-},
-
-[MPID_ソワレ] = {
-    [LANGUAGE_JAPANESE] = "ソワレ",
-    [LANGUAGE_ENGLISH] = "Sully",
-    [LANGUAGE_CHINESE] = "索瓦蕾",
-},
-
-[MPID_H_ソワレ] = {
-    [LANGUAGE_JAPANESE] = "クロム自警団の一員。男勝りで爽やかな性格。" TEXT_CMD_NEWLINE "騎士を目指しており、常に訓練を怠らない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "A member of the Shepherds who is serious" TEXT_CMD_NEWLINE "about becoming a great knight. Appears in" TEXT_CMD_NEWLINE "Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "库洛武自卫团的一员，个性直爽的巾帼英雄。" TEXT_CMD_NEWLINE "立志成为骑士，随时不忘训练。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ソワレ] = {
-    [LANGUAGE_JAPANESE] = "紅の騎士",
-    [LANGUAGE_ENGLISH] = "Crimson Knight",
-    [LANGUAGE_CHINESE] = "赤红骑士",
-},
-
-[MPID_カザハナ] = {
-    [LANGUAGE_JAPANESE] = "カザハナ",
-    [LANGUAGE_ENGLISH] = "Hana",
-    [LANGUAGE_CHINESE] = "风花",
-},
-
-[MPID_H_カザハナ] = {
-    [LANGUAGE_JAPANESE] = "白夜王国の侍。サクラの臣下で親友。" TEXT_CMD_NEWLINE "国でも指折りの刀の使い手で、明るくお転婆。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A noble who is skilled with the katana." TEXT_CMD_NEWLINE "One of Sakura's retainers. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "白夜王国的武士，是樱的部下兼好友。" TEXT_CMD_NEWLINE "为全国首屈一指的使刀高手，个性开朗而活泼。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_カザハナ] = {
-    [LANGUAGE_JAPANESE] = "お転婆侍",
-    [LANGUAGE_ENGLISH] = "Focused Samurai",
-    [LANGUAGE_CHINESE] = "野丫头武士",
-},
-
-[MPID_イドゥン] = {
-    [LANGUAGE_JAPANESE] = "イドゥン",
-    [LANGUAGE_ENGLISH] = "Idunn",
-    [LANGUAGE_CHINESE] = "伊敦",
-},
-
-[MPID_H_イドゥン] = {
-    [LANGUAGE_JAPANESE] = "人竜戦役の際に竜族により魔竜と化した者。" TEXT_CMD_NEWLINE "ゼフィールの手で目覚め、その野望に協力する。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "Transformed into a Demon Dragon and sealed" TEXT_CMD_NEWLINE "during the Scouring. She was awoken by Zephiel" TEXT_CMD_NEWLINE "and serves him so he may realize his ambition." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "在人龙战役时，被龙族改造为魔龙。" TEXT_CMD_NEWLINE "由赛菲尔亲手唤醒，协助他完成野心。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_イドゥン] = {
-    [LANGUAGE_JAPANESE] = "暗闇の巫女",
-    [LANGUAGE_ENGLISH] = "Dark Priestess",
-    [LANGUAGE_CHINESE] = "黑暗巫女",
-},
-
-[MPID_クーガー] = {
-    [LANGUAGE_JAPANESE] = "クーガー",
-    [LANGUAGE_ENGLISH] = "Cormag",
-    [LANGUAGE_CHINESE] = "库格",
-},
-
-[MPID_H_クーガー] = {
-    [LANGUAGE_JAPANESE] = "グラド帝国の竜騎士で、【日長石】グレンの弟。" TEXT_CMD_NEWLINE "変容する軍を離れ、祖国への愛と誇りを胸に戦う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A wyvern knight of Grado and younger brother" TEXT_CMD_NEWLINE "of the Sunstone, Glen. Although he left his army" TEXT_CMD_NEWLINE "behind, he fights with love and pride for his" TEXT_CMD_NEWLINE "homeland. Appears in Fire Emblem: The Sacred" TEXT_CMD_NEWLINE "Stones.",
-    [LANGUAGE_CHINESE] = "格拉多帝国的龙骑士，也是【日长石】格伦的弟弟。" TEXT_CMD_NEWLINE "离开了产生变化的军队，胸怀对祖国的爱与荣耀而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_クーガー] = {
-    [LANGUAGE_JAPANESE] = "孤高の槍",
-    [LANGUAGE_ENGLISH] = "Aloof Lanceman",
-    [LANGUAGE_CHINESE] = "孤高之枪",
-},
-
-[MPID_ベウフォレス] = {
-    [LANGUAGE_JAPANESE] = "ベウフォレス",
-    [LANGUAGE_ENGLISH] = "Bertram",
-    [LANGUAGE_CHINESE] = "贝佛雷斯",
-},
-
-[MPID_H_ベウフォレス] = {
-    [LANGUAGE_JAPANESE] = "デイン王国最強の四将軍【四駿】の一角。" TEXT_CMD_NEWLINE "鎧兜に隠された素性を知る者はいない。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "One of the Four Riders, the strongest of Daein's" TEXT_CMD_NEWLINE "generals. No one knows who it is that wears the" TEXT_CMD_NEWLINE "helm and armor. Appears in Fire Emblem: Path" TEXT_CMD_NEWLINE "of Radiance.",
-    [LANGUAGE_CHINESE] = "戴因王国最强的四大将军——【四骏】之一。" TEXT_CMD_NEWLINE "无人知晓其藏于铠甲下的真面目。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_ベウフォレス] = {
-    [LANGUAGE_JAPANESE] = "闇より来たる魔将",
-    [LANGUAGE_ENGLISH] = "Dread Cavalier",
-    [LANGUAGE_CHINESE] = "自黑暗而来的魔将",
-},
-
-[MPID_ジョルジュ] = {
-    [LANGUAGE_JAPANESE] = "ジョルジュ",
-    [LANGUAGE_ENGLISH] = "Jeorge",
-    [LANGUAGE_CHINESE] = "乔尔裘",
-},
-
-[MPID_H_ジョルジュ] = {
-    [LANGUAGE_JAPANESE] = "アカネイア聖王国の弓騎士。策謀の才を持つ。" TEXT_CMD_NEWLINE "大陸一の弓使いと称されている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Archanean archer thought to be the best on" TEXT_CMD_NEWLINE "his continent. A skilled strategist. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "阿卡奈亚圣王国的弓骑士，擅长谋略，" TEXT_CMD_NEWLINE "被誉为陆地第一的弓箭手。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_ジョルジュ] = {
-    [LANGUAGE_JAPANESE] = "大陸一の弓騎士",
-    [LANGUAGE_ENGLISH] = "Perfect Shot",
-    [LANGUAGE_CHINESE] = "陆地第一的弓骑士",
-},
-
-[MPID_バーツ] = {
-    [LANGUAGE_JAPANESE] = "バーツ",
-    [LANGUAGE_ENGLISH] = "Barst",
-    [LANGUAGE_CHINESE] = "巴兹",
-},
-
-[MPID_H_バーツ] = {
-    [LANGUAGE_JAPANESE] = "タリス王国の戦士。オグマの部下。" TEXT_CMD_NEWLINE "木こりや海賊など、さまざまな過去を持つ。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Warrior of Talys who works for Ogma and" TEXT_CMD_NEWLINE "has been a pirate and woodcutter. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "塔利斯王国的战士，奥古马的部下。" TEXT_CMD_NEWLINE "人生经历丰富，曾当过樵夫及海盗等等。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_バーツ] = {
-    [LANGUAGE_JAPANESE] = "タリスの義勇兵",
-    [LANGUAGE_ENGLISH] = "The Hatchet",
-    [LANGUAGE_CHINESE] = "塔利斯的义勇兵",
-},
-
-[MPID_カイネギス] = {
-    [LANGUAGE_JAPANESE] = "カイネギス",
-    [LANGUAGE_ENGLISH] = "Caineghis",
-    [LANGUAGE_CHINESE] = "凯内基斯",
-},
-
-[MPID_H_カイネギス] = {
-    [LANGUAGE_JAPANESE] = "獣牙族の住むガリア王国を統べる獅子の民の王。" TEXT_CMD_NEWLINE "知勇を兼備し、ベオクとの友好の道を模索している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　暁の女神』）",
-    [LANGUAGE_ENGLISH] = "The lion ruler of Gallia, the home of the beast" TEXT_CMD_NEWLINE "tribe of laguz. Uses his wisdom and courage to" TEXT_CMD_NEWLINE "seek a path toward peace with the beorc." TEXT_CMD_NEWLINE "Appears in Fire Emblem: Radiant Dawn.",
-    [LANGUAGE_CHINESE] = "狮子之民，统御兽牙族居住的加利亚王国的王。" TEXT_CMD_NEWLINE "智勇双全，极力探求与贝欧克建立友好关系的方法。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　暁の女神』）",
-},
-
-[MPID_HONOR_カイネギス] = {
-    [LANGUAGE_JAPANESE] = "ガリアの獅子王",
-    [LANGUAGE_ENGLISH] = "Gallia's Lion King",
-    [LANGUAGE_CHINESE] = "加利亚的狮子王",
-},
-
-[MPID_アーヴ] = {
-    [LANGUAGE_JAPANESE] = "アーヴ",
-    [LANGUAGE_ENGLISH] = "Riev",
-    [LANGUAGE_CHINESE] = "亚维",
-},
-
-[MPID_H_アーヴ] = {
-    [LANGUAGE_JAPANESE] = "グラド帝国六将【血碧石】の名を授かった異端の司祭。" TEXT_CMD_NEWLINE "ルネス侵攻において登用され、素性は謎に包まれている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A heretical priest shrouded in mystery. As one" TEXT_CMD_NEWLINE "of Grado's six generals, he is known by the" TEXT_CMD_NEWLINE "name Blood Beryl. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "格拉多帝国六将中别名为【血碧石】的异端祭司。" TEXT_CMD_NEWLINE "在侵略路奈斯时受到重用，来历不明。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_アーヴ] = {
-    [LANGUAGE_JAPANESE] = "血碧石",
-    [LANGUAGE_ENGLISH] = "Blood Beryl",
-    [LANGUAGE_CHINESE] = "血碧石",
-},
-
-[MPID_キャス] = {
-    [LANGUAGE_JAPANESE] = "キャス",
-    [LANGUAGE_ENGLISH] = "Cath",
-    [LANGUAGE_CHINESE] = "凯丝",
-},
-
-[MPID_H_キャス] = {
-    [LANGUAGE_JAPANESE] = "お宝のあるところに現れる神出鬼没の少女。" TEXT_CMD_NEWLINE "その正体は、強欲な貴族や金持ちのハナをあかす怪盗。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
-    [LANGUAGE_ENGLISH] = "Mysterious girl who always seems to show up" TEXT_CMD_NEWLINE "where there's treasure to be found. In truth, she" TEXT_CMD_NEWLINE "is a thief known for outsmarting rich nobles." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
-    [LANGUAGE_CHINESE] = "有宝藏的地方就有她的踪影，神出鬼没的少女。" TEXT_CMD_NEWLINE "其真实身分是令贪婪的贵族和有钱人措手不及的怪盗。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　封印の剣』）",
-},
-
-[MPID_HONOR_キャス] = {
-    [LANGUAGE_JAPANESE] = "怪盗",
-    [LANGUAGE_ENGLISH] = "Master Thief",
-    [LANGUAGE_CHINESE] = "怪盗",
-},
-
-[MPID_マリア] = {
-    [LANGUAGE_JAPANESE] = "マリア",
-    [LANGUAGE_ENGLISH] = "Maria",
-    [LANGUAGE_CHINESE] = "玛莉亚",
-},
-
-[MPID_H_マリア] = {
-    [LANGUAGE_JAPANESE] = "マケドニア王女。ミシェイル、ミネルバの妹。" TEXT_CMD_NEWLINE "家族思いで、心優しい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
-    [LANGUAGE_ENGLISH] = "Princess of Macedon. Younger sister of Minerva" TEXT_CMD_NEWLINE "and Michalis, whom she loves dearly. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: Mystery of the Emblem.",
-    [LANGUAGE_CHINESE] = "马其顿的公主，米谢尔及米奈娃的妹妹。" TEXT_CMD_NEWLINE "心地善良，相当重视家人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　纹章の谜』）",
-},
-
-[MPID_HONOR_マリア] = {
-    [LANGUAGE_JAPANESE] = "ミネルバの妹",
-    [LANGUAGE_ENGLISH] = "Minerva's Sister",
-    [LANGUAGE_CHINESE] = "米奈娃之妹",
-},
-
-[MPID_ホークアイ] = {
-    [LANGUAGE_JAPANESE] = "ホークアイ",
-    [LANGUAGE_ENGLISH] = "Hawkeye",
-    [LANGUAGE_CHINESE] = "霍克艾",
-},
-
-[MPID_H_ホークアイ] = {
-    [LANGUAGE_JAPANESE] = "ナバタ砂漠の守護者。寡黙で、己の役割に忠実。" TEXT_CMD_NEWLINE "人と竜が暮らす理想郷の平和を守っている。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Guardian of the Nabata Desert and Arcadia," TEXT_CMD_NEWLINE "where dragons and humans live in harmony." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "人类与龙共存的纳巴塔沙漠的守护者，沉默寡言、" TEXT_CMD_NEWLINE "尽忠职守。为了守护理想乡的和平而战。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_ホークアイ] = {
-    [LANGUAGE_JAPANESE] = "砂漠の守護者",
-    [LANGUAGE_ENGLISH] = "Desert Guardian",
-    [LANGUAGE_CHINESE] = "沙漠的守护者",
-},
-
-[MPID_フロリーナ] = {
-    [LANGUAGE_JAPANESE] = "フロリーナ",
-    [LANGUAGE_ENGLISH] = "Florina",
-    [LANGUAGE_CHINESE] = "芙罗利娜",
-},
-
-[MPID_H_フロリーナ] = {
-    [LANGUAGE_JAPANESE] = "イリア天馬騎士団の三姉妹の末妹。リンの親友。" TEXT_CMD_NEWLINE "動物好きで心優しく、内気な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　烈火の剣』）",
-    [LANGUAGE_ENGLISH] = "Youngest of three sisters who are" TEXT_CMD_NEWLINE "Pegasus Knights of Ilia. Shy, gentle" TEXT_CMD_NEWLINE "girl who loves animals. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: The Blazing Blade.",
-    [LANGUAGE_CHINESE] = "伊利亚天马骑士团三姊妹中的么女，也是琳的挚友。" TEXT_CMD_NEWLINE "爱好动物、心地善良，个性相当腼腆。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　烈火の剣』）",
-},
-
-[MPID_HONOR_フロリーナ] = {
-    [LANGUAGE_JAPANESE] = "可憐な天馬騎士",
-    [LANGUAGE_ENGLISH] = "Lovely Flier",
-    [LANGUAGE_CHINESE] = "可爱的天马骑士",
-},
-
-[MEID_グスタフ] = {
-    [LANGUAGE_JAPANESE] = "グスタフ",
-    [LANGUAGE_ENGLISH] = "Gustav",
-    [LANGUAGE_CHINESE] = "古斯塔夫",
-},
-
-[MEID_H_グスタフ] = {
-    [LANGUAGE_JAPANESE] = "死の王国ヘルの将。女王ヘルに呪縛され、" TEXT_CMD_NEWLINE "生者を死者とするために戦う騎士。",
-    [LANGUAGE_ENGLISH] = "General of Hel, realm of the dead. Under the" TEXT_CMD_NEWLINE "spell of Hel's queen, he is a tool of war made" TEXT_CMD_NEWLINE "for converting the living into new recruits for" TEXT_CMD_NEWLINE "the army of the dead.",
-    [LANGUAGE_CHINESE] = "死之王国赫尔的将领。被女王赫尔的诅咒束缚，" TEXT_CMD_NEWLINE "成了为将生者杀尽而战的骑士。",
-},
-
-[MEID_HONOR_グスタフ] = {
-    [LANGUAGE_JAPANESE] = "暴殺の騎士",
-    [LANGUAGE_ENGLISH] = "Exsanguinator",
-    [LANGUAGE_CHINESE] = "暴杀骑士",
-},
-
-[MPID_暴走カムイ男] = {
-    [LANGUAGE_JAPANESE] = "カムイ",
-    [LANGUAGE_ENGLISH] = "Corrin",
-    [LANGUAGE_CHINESE] = "神威",
-},
-
-[MPID_H_暴走カムイ男] = {
-    [LANGUAGE_JAPANESE] = "白夜王国で生まれ、暗夜王国で育った王子。" TEXT_CMD_NEWLINE "その身に流れる血には荒々しい獣が眠る。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "A prince born in Hoshido but raised in Nohr." TEXT_CMD_NEWLINE "Within the blood coursing through his veins," TEXT_CMD_NEWLINE "a brutal presence lies sleeping. Appears in Fire" TEXT_CMD_NEWLINE "Emblem Fates.",
-    [LANGUAGE_CHINESE] = "生于白夜王国，长于暗夜王国的王子。" TEXT_CMD_NEWLINE "体内流淌的血液中沉睡著狂暴的野兽。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_暴走カムイ男] = {
-    [LANGUAGE_JAPANESE] = "その血に眠る獣",
-    [LANGUAGE_ENGLISH] = "Bloodbound Beast",
-    [LANGUAGE_CHINESE] = "沉眠于血液中的野兽",
-},
-
-[MPID_シャラ] = {
-    [LANGUAGE_JAPANESE] = "シャラ",
-    [LANGUAGE_ENGLISH] = "Rhajat",
-    [LANGUAGE_CHINESE] = "夏拉",
-},
-
-[MPID_H_シャラ] = {
-    [LANGUAGE_JAPANESE] = "ツクヨミの娘。思い込みが激しく、" TEXT_CMD_NEWLINE "気に入った相手につきまとうことも多い。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
-    [LANGUAGE_ENGLISH] = "Hayato's daughter. Tends toward the" TEXT_CMD_NEWLINE "obsessive and has a horrifying temper." TEXT_CMD_NEWLINE "Appears in Fire Emblem Fates.",
-    [LANGUAGE_CHINESE] = "月读的女儿。很容易钻牛角尖，" TEXT_CMD_NEWLINE "也常对喜欢的人纠缠不休。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
-},
-
-[MPID_HONOR_シャラ] = {
-    [LANGUAGE_JAPANESE] = "執念の呪い師",
-    [LANGUAGE_ENGLISH] = "Black Magician",
-    [LANGUAGE_CHINESE] = "执著的符咒师",
-},
-
-[MPID_ナターシャ] = {
-    [LANGUAGE_JAPANESE] = "ナターシャ",
-    [LANGUAGE_ENGLISH] = "Natasha",
-    [LANGUAGE_CHINESE] = "娜塔夏",
-},
-
-[MPID_H_ナターシャ] = {
-    [LANGUAGE_JAPANESE] = "グラド帝国出身のシスター。" TEXT_CMD_NEWLINE "真面目でしとやかな、美しい女性。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "A gentle cleric from Grado, and a woman" TEXT_CMD_NEWLINE "of beauty and grace. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "出身于格拉多帝国的修女。" TEXT_CMD_NEWLINE "是位认真又娴淑的美丽女性。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_ナターシャ] = {
-    [LANGUAGE_JAPANESE] = "癒しの聖女",
-    [LANGUAGE_ENGLISH] = "Sacred Healer",
-    [LANGUAGE_CHINESE] = "治愈圣女",
-},
-
-[MPID_ノール] = {
-    [LANGUAGE_JAPANESE] = "ノール",
-    [LANGUAGE_ENGLISH] = "Knoll",
-    [LANGUAGE_CHINESE] = "诺尔",
-},
-
-[MPID_H_ノール] = {
-    [LANGUAGE_JAPANESE] = "グラド帝国で闇魔道の研究を行っていた宮廷魔道士。" TEXT_CMD_NEWLINE "リオン皇子の変質と魔石誕生の経緯を知る1人。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
-    [LANGUAGE_ENGLISH] = "Royal mage of Grado and researcher of dark" TEXT_CMD_NEWLINE "magic. He knows the secret of Prince Lyon's" TEXT_CMD_NEWLINE "change and the Dark Stone's creation. Appears" TEXT_CMD_NEWLINE "in Fire Emblem: The Sacred Stones.",
-    [LANGUAGE_CHINESE] = "曾在格拉多帝国研究暗魔道的宫廷魔道士。" TEXT_CMD_NEWLINE "知晓利昂皇子性情大变及魔石诞生的来龙去脉。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
-},
-
-[MPID_HONOR_ノール] = {
-    [LANGUAGE_JAPANESE] = "闇からの予見",
-    [LANGUAGE_ENGLISH] = "Darkness Watcher",
-    [LANGUAGE_CHINESE] = "来自黑暗的预知",
-},
-
-[MPID_プラハ] = {
-    [LANGUAGE_JAPANESE] = "プラハ",
-    [LANGUAGE_ENGLISH] = "Petrine",
-    [LANGUAGE_CHINESE] = "普拉哈",
-},
-
-[MPID_H_プラハ] = {
-    [LANGUAGE_JAPANESE] = "デイン王国の誇る四将軍【四駿】の一人。" TEXT_CMD_NEWLINE "フレイムランスの使い手で、非情な性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　蒼炎の軌跡』）",
-    [LANGUAGE_ENGLISH] = "One of Daein's Four Riders. Wields the" TEXT_CMD_NEWLINE "Flame Lance with a callous disdain for" TEXT_CMD_NEWLINE "those around her. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Path of Radiance.",
-    [LANGUAGE_CHINESE] = "戴因王国引以为傲的四大将军——【四骏】之一。" TEXT_CMD_NEWLINE "炎之枪的主人，个性相当冷酷无情。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　苍炎の轨迹』）",
-},
-
-[MPID_HONOR_プラハ] = {
-    [LANGUAGE_JAPANESE] = "炎槍冷血の騎将",
-    [LANGUAGE_ENGLISH] = "Icy Flame-Lancer",
-    [LANGUAGE_CHINESE] = "炎枪冷血的骑将",
-},
-
-[MPID_ティアモ] = {
-    [LANGUAGE_JAPANESE] = "ティアモ",
-    [LANGUAGE_ENGLISH] = "Cordelia",
-    [LANGUAGE_CHINESE] = "蒂亚莫",
-},
-
-[MPID_H_ティアモ] = {
-    [LANGUAGE_JAPANESE] = "イーリス聖王国の天馬騎士団唯一の生き残り。" TEXT_CMD_NEWLINE "何でもそつなくこなせる天才肌。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
-    [LANGUAGE_ENGLISH] = "The sole survivor of Ylisse's pegasus" TEXT_CMD_NEWLINE "knights. Humble and supremely talented." TEXT_CMD_NEWLINE "Appears in Fire Emblem Awakening.",
-    [LANGUAGE_CHINESE] = "伊里斯圣王国天马骑士团唯一的幸存者，" TEXT_CMD_NEWLINE "不管做什么都得心应手的天才。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
-},
-
-[MPID_HONOR_ティアモ] = {
-    [LANGUAGE_JAPANESE] = "若き天才騎士",
-    [LANGUAGE_ENGLISH] = "Knight Paragon",
-    [LANGUAGE_CHINESE] = "年轻的天才骑士",
-},
-
-[MEID_ノート] = {
-    [LANGUAGE_JAPANESE] = "ノート",
-    [LANGUAGE_ENGLISH] = "Nótt",
-    [LANGUAGE_CHINESE] = "诺特",
-},
-
-[MEID_H_ノート] = {
-    [LANGUAGE_JAPANESE] = "ヨトゥン王国の第一王女。ダグの双子の姉。" TEXT_CMD_NEWLINE "優雅で美しいものを好む。",
-    [LANGUAGE_ENGLISH] = "The crown princess of Jötunheimr and twin" TEXT_CMD_NEWLINE "sister of Dagr. Appreciates the finer things" TEXT_CMD_NEWLINE "in life, prizing beauty and elegance.",
-    [LANGUAGE_CHINESE] = "约顿王国的第一公主。达古的双胞胎姊姊。" TEXT_CMD_NEWLINE "举止优雅，喜欢美丽的事物。",
-},
-
-[MEID_HONOR_ノート] = {
-    [LANGUAGE_JAPANESE] = "魅惑の月光",
-    [LANGUAGE_ENGLISH] = "Moon's Elegance",
-    [LANGUAGE_CHINESE] = "魅惑的月光",
+[MEID_HONOR_ヴェロニカ2] = {
+    [LANGUAGE_JAPANESE] = "憑かれし皇女",
+    [LANGUAGE_ENGLISH] = "Princess Beset",
+    [LANGUAGE_CHINESE] = "被附身的皇女",
 },

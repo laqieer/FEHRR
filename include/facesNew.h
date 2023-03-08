@@ -25,429 +25,441 @@ enum {
     FID_ch00_19_Hell_F_Normal = 0x115,
     FID_ch00_35_Eitri_F_Normal = 0x116,
     FID_ch00_43_Embla_Normal = 0x117,
-    FID_ch00_24_Scabiosa_F_Normal = 0x118,
-    FID_ch00_08_Loki_F_Normal = 0x119,
-    FID_ch00_13_Gustaf_M_Normal = 0x11a,
-    FID_ch00_40_Elm_M_Normal = 0x11b,
-    FID_ch00_33_Nott_F_Normal = 0x11c,
-    FID_ch00_15_Yurg_F_Normal = 0x11d,
-    FID_ch00_12_Helbindi_M_Normal = 0x11e,
-    FID_ch00_14_Henriette_F_Normal = 0x11f,
-    FID_ch00_26_Froda_M_Normal = 0x120,
-    FID_ch00_28_Lupine_F_Normal = 0x121,
-    FID_ch00_25_Plumeria_F_Normal = 0x122,
-    FID_ch00_18_Srasir_F_Normal = 0x123,
-    FID_ch00_05_Bruno_M_Plain = 0x124,
-    FID_ch00_04_Veronica2_F_Normal = 0x125,
+    FID_ch00_46_Seith_F_Normal = 0x118,
+    FID_ch00_24_Scabiosa_F_Normal = 0x119,
+    FID_ch00_08_Loki_F_Normal = 0x11a,
+    FID_ch00_13_Gustaf_M_Normal = 0x11b,
+    FID_ch00_15_Yurg_F_Normal = 0x11c,
+    FID_ch00_12_Helbindi_M_Normal = 0x11d,
+    FID_ch00_40_Elm_M_Normal = 0x11e,
+    FID_ch00_33_Nott_F_Normal = 0x11f,
+    FID_ch00_14_Henriette_F_Normal = 0x120,
+    FID_ch00_26_Froda_M_Normal = 0x121,
+    FID_ch00_28_Lupine_F_Normal = 0x122,
+    FID_ch00_25_Plumeria_F_Normal = 0x123,
+    FID_ch00_18_Srasir_F_Normal = 0x124,
+    FID_ch00_05_Bruno_M_Plain = 0x125,
     FID_ch00_16_Freeze_M_Normal = 0x126,
-    FID_ch00_04_Veronica_F_Stain = 0x127,
-    FID_ch00_46_Seith_F_Normal = 0x128,
+    FID_ch00_04_Veronica2_F_Normal = 0x127,
+    FID_ch00_04_Veronica_F_Stain = 0x128,
     FID_ch05_21_Marks_M_Normal = 0x129,
     FID_ch00_32_Fafnir2_M_Normal = 0x12a,
-    FID_ch00_47_Gullveig_F_Normal = 0x12b,
-    FID_ch00_31_Otr_M_Stain = 0x12c,
-    FID_ch00_41_Letizia_F_Enemy = 0x12d,
-    FID_ch00_05_Bruno_M_Enemy = 0x12e,
-    FID_ch00_13_Gustaf_M_Enemy = 0x12f,
-    FID_ch00_29_Hood_N_Normal = 0x130,
-    FID_ch00_04_Veronica_F_Enemy2 = 0x131,
-    FID_ch00_10_Cerise_F_Normal = 0x132,
-    FID_ch00_04_Veronica2_F_Enemy = 0x133,
-    FID_ch05_01_Ryouma_M_Normal = 0x134,
-    FID_ch04_00_Chrom_M_Normal = 0x135,
-    FID_ch02_00_Roy_M_Normal = 0x136,
+    FID_ch00_50_Nerthus_Normal = 0x12b,
+    FID_ch00_47_Gullveig_F_Normal = 0x12c,
+    FID_ch00_49_Heith_Normal = 0x12d,
+    FID_ch00_31_Otr_M_Stain = 0x12e,
+    FID_ch00_41_Letizia_F_Enemy = 0x12f,
+    FID_ch00_13_Gustaf_M_Enemy = 0x130,
+    FID_ch00_05_Bruno_M_Enemy = 0x131,
+    FID_ch00_51_Njord_M_Normal = 0x132,
+    FID_ch00_29_Hood_N_Normal = 0x133,
+    FID_ch00_10_Cerise_F_Normal = 0x134,
+    FID_ch00_04_Veronica_F_Enemy2 = 0x135,
+    FID_ch00_04_Veronica2_F_Enemy = 0x136,
     FID_ch00_04_Veronica_F_Enemy = 0x137,
-    FID_ch00_16_Freeze_M_NormalNEW = 0x138,
-    FID_ch01_00_Marth_M_Normal = 0x139,
-    FID_ch00_32_Fafnir2_M_Stain = 0x13a,
-    FID_ch03_06_Eliwod_M_Normal = 0x13b,
-    FID_ch00_36_MysteryHood_X_Normal = 0x13c,
-    FID_ch00_42_Ask_M_Disappear = 0x13d,
-    FID_ch09_00_Ike_M_Normal = 0x13e,
-    FID_ch09_02_Senerio_M_Normal = 0x13f,
-    FID_ch09_04_Tiamat_F_Normal = 0x140,
-    FID_ch01_21_Minerba_F_Normal = 0x141,
-    FID_ch00_05_Bruno_M_PlainEnemy = 0x142,
-    FID_ch10_34_Est_F_Normal = 0x143,
-    FID_ch10_08_Cellica_F_Normal = 0x144,
-    FID_ch07_03_Nanna_F_Normal = 0x145,
-    FID_ch01_33_Fina_F_Normal = 0x146,
-    FID_ch10_30_Tita_F_Normal = 0x147,
-    FID_ch01_48_Virac_M_Normal = 0x148,
-    FID_ch17_28_Flayn_F_Normal = 0x149,
+    FID_ch05_01_Ryouma_M_Normal = 0x138,
+    FID_ch02_00_Roy_M_Normal = 0x139,
+    FID_ch04_00_Chrom_M_Normal = 0x13a,
+    FID_ch00_16_Freeze_M_NormalNEW = 0x13b,
+    FID_ch01_00_Marth_M_Normal = 0x13c,
+    FID_ch01_21_Minerba_F_Normal = 0x13d,
+    FID_ch09_04_Tiamat_F_Normal = 0x13e,
+    FID_ch09_00_Ike_M_Normal = 0x13f,
+    FID_ch00_32_Fafnir2_M_Stain = 0x140,
+    FID_ch03_06_Eliwod_M_Normal = 0x141,
+    FID_ch00_36_MysteryHood_X_Normal = 0x142,
+    FID_ch09_02_Senerio_M_Normal = 0x143,
+    FID_ch00_42_Ask_M_Disappear = 0x144,
+    FID_ch01_33_Fina_F_Normal = 0x145,
+    FID_ch04_01_Lucina_F_Normal = 0x146,
+    FID_ch06_28_Azel_M_Normal = 0x147,
+    FID_ch10_08_Cellica_F_Normal = 0x148,
+    FID_ch06_10_Aless_M_Normal = 0x149,
     FID_ch05_34_Kannna_F_Normal = 0x14a,
-    FID_ch06_10_Aless_M_Normal = 0x14b,
-    FID_ch04_07_Reflet_M_Normal = 0x14c,
-    FID_ch04_01_Lucina_F_Normal = 0x14d,
-    FID_ch05_57_Nyx_F_Normal = 0x14e,
-    FID_ch17_24_Marianne_F_ELECTION01 = 0x14f,
-    FID_ch10_25_Balbo_M_Normal = 0x150,
+    FID_ch10_23_Silque_F_Normal = 0x14b,
+    FID_ch06_14_Cuan_M_Normal = 0x14c,
+    FID_ch10_25_Balbo_M_Normal = 0x14d,
+    FID_ch10_34_Est_F_Normal = 0x14e,
+    FID_ch00_05_Bruno_M_PlainEnemy = 0x14f,
+    FID_ch01_48_Virac_M_Normal = 0x150,
     FID_ch11_02_Sothe_M_Normal = 0x151,
-    FID_ch17_25_Hilda_F_Bloom01 = 0x152,
-    FID_ch10_23_Silque_F_Normal = 0x153,
-    FID_ch06_28_Azel_M_Normal = 0x154,
-    FID_ch04_24_Marc_F_Normal = 0x155,
-    FID_ch07_01_Reinhardt_M_Normal2 = 0x156,
-    FID_ch06_14_Cuan_M_Normal = 0x157,
-    FID_ch10_16_May_F_Normal = 0x158,
-    FID_ch10_13_Jenny_F_Normal = 0x159,
-    FID_ch08_29_Namy_F_Normal = 0x15a,
-    FID_ch09_08_BlackNight_M_Normal = 0x15b,
-    FID_ch01_10_Tiki_F_Dark = 0x15c,
-    FID_ch17_53_Monica_F_Normal2 = 0x15d,
-    FID_ch08_27_Renac_M_Normal = 0x15e,
-    FID_ch06_11_Ishtar_F_Normal = 0x15f,
-    FID_ch02_14_Idenn_F_Bloom01 = 0x160,
-    FID_ch07_02_Leaf_M_Normal = 0x161,
-    FID_ch07_06_Mareeta_F_Bloom01 = 0x162,
-    FID_ch03_04_Serra_F_Normal = 0x163,
-    FID_ch17_02_Edelgardr_F_Dark04 = 0x164,
-    FID_ch17_02_Edelgardr_F_Normal = 0x165,
-    FID_ch05_48_Velour_F_Normal = 0x166,
-    FID_ch01_31_Sirius_M_Normal = 0x167,
-    FID_ch03_36_Guy_M_Normal = 0x168,
-    FID_ch03_27_Laila_F_Normal = 0x169,
-    FID_ch03_23_Pant_M_Normal = 0x16a,
-    FID_ch06_26_Magna_F_Normal = 0x16b,
-    FID_ch01_39_Julian_M_Normal = 0x16c,
-    FID_ch07_12_Asbel_M_Normal = 0x16d,
-    FID_ch05_43_Eponine_F_Normal = 0x16e,
-    FID_ch05_61_Matoi_F_Normal = 0x16f,
-    FID_ch06_33_Arthur_M_Normal = 0x170,
-    FID_ch03_32_Elk_M_Normal = 0x171,
-    FID_ch17_23_Lysithea_F_Normal = 0x172,
-    FID_ch11_00_Ike_M_Dark = 0x173,
-    FID_ch08_01_Eirik_F_ELECTION01 = 0x174,
-    FID_ch04_43_Mustafa_M_Normal = 0x175,
-    FID_ch03_18_Canas_M_Normal = 0x176,
-    FID_ch04_00_Chrom_M_Normal2 = 0x177,
-    FID_ch03_08_Flolina_F_Bloom01 = 0x178,
-    FID_ch10_28_Paora_F_Normal = 0x179,
-    FID_ch01_29_Hardin_M_Normal = 0x17a,
-    FID_ch03_24_Fiora_F_Normal = 0x17b,
-    FID_ch17_62_Constanze_F_Normal = 0x17c,
-    FID_ch09_26_Stella_F_Normal = 0x17d,
-    FID_ch05_38_Suzukaze_M_Normal = 0x17e,
-    FID_ch01_47_Maris_F_Normal = 0x17f,
-    FID_ch06_03_Yuria_F_Dark = 0x180,
-    FID_ch04_49_Richt_M_Normal = 0x181,
-    FID_ch07_00_Olwen_F_Normal2 = 0x182,
-    FID_ch11_07_Rieusion_M_Normal = 0x183,
-    FID_ch08_21_Dussel_M_Normal = 0x184,
-    FID_ch01_02_Nabarl_M_Normal = 0x185,
-    FID_ch04_07_Reflet_M_Dark = 0x186,
-    FID_ch05_19_Kamui_F_Dark = 0x187,
-    FID_ch05_26_Hinoka_F_Normal2 = 0x188,
-    FID_ch08_07_Jhosua_M_Bloom01 = 0x189,
-    FID_ch04_46_Flavia_F_Normal = 0x18a,
-    FID_ch01_32_Nagi_F_Normal = 0x18b,
-    FID_ch17_25_Hilda_F_Normal = 0x18c,
-    FID_ch17_37_Rare_F_Dark01 = 0x18d,
-    FID_ch17_03_Dimitri_M_Dark04 = 0x18e,
-    FID_ch01_10_Tiki_F_Bloom01 = 0x18f,
-    FID_ch04_44_Miriel_F_Normal = 0x190,
-    FID_ch10_20_Katua_F_Normal = 0x191,
-    FID_ch05_49_Nishiki_M_Normal = 0x192,
-    FID_ch08_19_Celina_F_Normal = 0x193,
-    FID_ch10_29_Lute_M_Normal = 0x194,
-    FID_ch07_18_Garzas_M_Normal = 0x195,
-    FID_ch00_40_Elm_M_Stain = 0x196,
-    FID_ch05_60_Deere_M_Normal = 0x197,
-    FID_ch05_33_Kannna_M_Normal = 0x198,
-    FID_ch08_01_Eirik_F_Normal2 = 0x199,
-    FID_ch04_00_Chrom_M_ELECTION022 = 0x19a,
-    FID_ch05_41_Flora_F_Normal = 0x19b,
-    FID_ch17_27_Seteth_M_Normal = 0x19c,
-    FID_ch01_29_Hardin_M_Dark = 0x19d,
-    FID_ch10_14_Berkut_M_Dark = 0x19e,
-    FID_ch17_04_Claude_M_ELECTION01 = 0x19f,
-    FID_ch04_40_Emerina_F_Normal = 0x1a0,
-    FID_ch07_06_Mareeta_F_Normal = 0x1a1,
-    FID_ch04_35_Nn_F_Normal = 0x1a2,
-    FID_ch03_30_Farina_F_Normal = 0x1a3,
-    FID_ch04_08_Reflet_F_Weapon01 = 0x1a4,
-    FID_ch04_27_Smia_F_Normal = 0x1a5,
-    FID_ch06_11_Ishtar_F_Bloom01 = 0x1a6,
-    FID_ch02_35_Hugh_M_Normal = 0x1a7,
-    FID_ch01_22_Misheil_M_Normal = 0x1a8,
-    FID_ch03_03_Nino_F_Normal2 = 0x1a9,
-    FID_ch08_23_Kethelda_M_Normal = 0x1aa,
-    FID_ch05_44_Ophelia_F_Weapon01 = 0x1ab,
-    FID_ch06_13_Lean_F_Normal = 0x1ac,
-    FID_ch03_28_Nils_M_Normal = 0x1ad,
-    FID_ch04_38_Degel_F_Normal = 0x1ae,
-    FID_ch06_00_Celice_M_ELECTION022 = 0x1af,
-    FID_ch02_17_Thite_F_Normal = 0x1b0,
-    FID_ch01_10_Tiki_F_Normal = 0x1b1,
-    FID_ch09_24_Volka_M_Normal = 0x1b2,
-    FID_ch06_20_Luchtaine_F_Normal = 0x1b3,
-    FID_ch17_06_Hubert_M_Normal = 0x1b4,
-    FID_ch17_03_Dimitri_M_ELECTION01 = 0x1b5,
-    FID_ch17_24_Marianne_F_Normal = 0x1b6,
-    FID_ch11_10_Lay_M_Normal = 0x1b7,
-    FID_ch04_37_Chanbray_M_Normal = 0x1b8,
-    FID_ch06_16_Levn_M_Normal = 0x1b9,
-    FID_ch01_53_Ellis_F_Normal = 0x1ba,
-    FID_ch10_08_Cellica_F_Bloom01 = 0x1bb,
-    FID_ch05_56_Benoit_M_Normal = 0x1bc,
-    FID_ch05_09_Takumi_M_Normal = 0x1bd,
-    FID_ch05_37_Charlotte_F_Normal = 0x1be,
-    FID_ch07_11_Sara_F_Normal = 0x1bf,
-    FID_ch08_14_Xyst_M_Normal = 0x1c0,
-    FID_ch11_09_Nike_F_Normal = 0x1c1,
-    FID_ch04_45_Paris_M_Normal = 0x1c2,
-    FID_ch17_04_Claude_M_Normal = 0x1c3,
-    FID_ch11_01_Micaiah_F_Normal = 0x1c4,
-    FID_ch17_66_Gatekeeper_M_ELECTION01 = 0x1c5,
-    FID_ch17_42_Deathknight_M_Normal = 0x1c6,
-    FID_ch17_60_Euris_M_Normal = 0x1c7,
-    FID_ch06_22_Seti_M_Normal = 0x1c8,
-    FID_ch05_50_Flannel_M_Normal = 0x1c9,
-    FID_ch07_14_Miranda_F_Normal = 0x1ca,
-    FID_ch01_38_Chris_F_Normal = 0x1cb,
-    FID_ch07_13_Ronan_M_Normal = 0x1cc,
-    FID_ch02_16_Sue_F_Normal = 0x1cd,
+    FID_ch07_03_Nanna_F_Normal = 0x152,
+    FID_ch07_01_Reinhardt_M_Normal2 = 0x153,
+    FID_ch10_30_Tita_F_Normal = 0x154,
+    FID_ch04_07_Reflet_M_Normal = 0x155,
+    FID_ch04_24_Marc_F_Normal = 0x156,
+    FID_ch17_25_Hilda_F_Bloom01 = 0x157,
+    FID_ch17_24_Marianne_F_ELECTION01 = 0x158,
+    FID_ch05_57_Nyx_F_Normal = 0x159,
+    FID_ch17_28_Flayn_F_Normal = 0x15a,
+    FID_ch10_16_May_F_Normal = 0x15b,
+    FID_ch10_13_Jenny_F_Normal = 0x15c,
+    FID_ch06_20_Luchtaine_F_Normal = 0x15d,
+    FID_ch06_03_Yuria_F_Dark = 0x15e,
+    FID_ch08_07_Jhosua_M_Bloom01 = 0x15f,
+    FID_ch05_43_Eponine_F_Normal = 0x160,
+    FID_ch08_21_Dussel_M_Normal = 0x161,
+    FID_ch06_33_Arthur_M_Normal = 0x162,
+    FID_ch17_03_Dimitri_M_Dark04 = 0x163,
+    FID_ch04_44_Miriel_F_Normal = 0x164,
+    FID_ch06_16_Levn_M_Normal = 0x165,
+    FID_ch07_14_Miranda_F_Normal = 0x166,
+    FID_ch04_38_Degel_F_Normal = 0x167,
+    FID_ch04_27_Smia_F_Normal = 0x168,
+    FID_ch01_02_Nabarl_M_Normal = 0x169,
+    FID_ch06_13_Lean_F_Normal = 0x16a,
+    FID_ch11_30_Lucino_F_Normal = 0x16b,
+    FID_ch03_27_Laila_F_Normal = 0x16c,
+    FID_ch05_38_Suzukaze_M_Normal = 0x16d,
+    FID_ch05_26_Hinoka_F_Normal2 = 0x16e,
+    FID_ch17_42_Deathknight_M_Normal = 0x16f,
+    FID_ch17_23_Lysithea_F_Normal = 0x170,
+    FID_ch03_04_Serra_F_Normal = 0x171,
+    FID_ch05_44_Ophelia_F_Weapon01 = 0x172,
+    FID_ch01_31_Sirius_M_Normal = 0x173,
+    FID_ch02_35_Hugh_M_Normal = 0x174,
+    FID_ch17_02_Edelgardr_F_Normal = 0x175,
+    FID_ch04_37_Chanbray_M_Normal = 0x176,
+    FID_ch17_53_Monica_F_Normal2 = 0x177,
+    FID_ch07_06_Mareeta_F_Bloom01 = 0x178,
+    FID_ch07_11_Sara_F_Normal = 0x179,
+    FID_ch04_45_Paris_M_Normal = 0x17a,
+    FID_ch03_23_Pant_M_Normal = 0x17b,
+    FID_ch01_47_Maris_F_Normal = 0x17c,
+    FID_ch04_24_Marc_F_Dark04 = 0x17d,
+    FID_ch05_41_Flora_F_Normal = 0x17e,
+    FID_ch08_14_Xyst_M_Normal = 0x17f,
+    FID_ch19_05_Alfred_M_Weapon01 = 0x180,
+    FID_ch07_09_Evel_F_Normal = 0x181,
+    FID_ch10_20_Katua_F_Normal = 0x182,
+    FID_ch06_23_Altena_F_Normal = 0x183,
+    FID_ch06_27_Fury_F_Normal = 0x184,
+    FID_ch03_18_Canas_M_Normal = 0x185,
+    FID_ch17_04_Claude_M_Normal = 0x186,
+    FID_ch05_61_Matoi_F_Normal = 0x187,
+    FID_ch11_28_Erincia_F_Bloom01 = 0x188,
+    FID_ch03_28_Nils_M_Normal = 0x189,
+    FID_ch17_06_Hubert_M_Normal = 0x18a,
+    FID_ch05_33_Kannna_M_Normal = 0x18b,
+    FID_ch07_06_Mareeta_F_Normal = 0x18c,
+    FID_ch19_01_Lueue_F_Normal = 0x18d,
+    FID_ch11_00_Ike_M_Dark = 0x18e,
+    FID_ch08_27_Renac_M_Normal = 0x18f,
+    FID_ch08_23_Kethelda_M_Normal = 0x190,
+    FID_ch04_46_Flavia_F_Normal = 0x191,
+    FID_ch07_12_Asbel_M_Normal = 0x192,
+    FID_ch03_30_Farina_F_Normal = 0x193,
+    FID_ch17_37_Rare_F_Dark01 = 0x194,
+    FID_ch17_02_Edelgardr_F_Dark04 = 0x195,
+    FID_ch06_11_Ishtar_F_Bloom01 = 0x196,
+    FID_ch08_19_Celina_F_Normal = 0x197,
+    FID_ch08_29_Namy_F_Normal = 0x198,
+    FID_ch19_10_Chloe_F_Normal = 0x199,
+    FID_ch06_22_Seti_M_Normal = 0x19a,
+    FID_ch17_25_Hilda_F_Normal = 0x19b,
+    FID_ch03_24_Fiora_F_Normal = 0x19c,
+    FID_ch06_11_Ishtar_F_Normal = 0x19d,
+    FID_ch05_60_Deere_M_Normal = 0x19e,
+    FID_ch01_32_Nagi_F_Normal = 0x19f,
+    FID_ch02_14_Idenn_F_Bloom01 = 0x1a0,
+    FID_ch17_24_Marianne_F_Normal = 0x1a1,
+    FID_ch17_03_Dimitri_M_Normal = 0x1a2,
+    FID_ch03_03_Nino_F_Normal2 = 0x1a3,
+    FID_ch04_35_Nn_F_Normal = 0x1a4,
+    FID_ch01_22_Misheil_M_Normal = 0x1a5,
+    FID_ch06_26_Magna_F_Normal = 0x1a6,
+    FID_ch05_48_Velour_F_Normal = 0x1a7,
+    FID_ch10_29_Lute_M_Normal = 0x1a8,
+    FID_ch03_08_Flolina_F_Bloom01 = 0x1a9,
+    FID_ch05_37_Charlotte_F_Normal = 0x1aa,
+    FID_ch02_17_Thite_F_Normal = 0x1ab,
+    FID_ch06_00_Celice_M_ELECTION022 = 0x1ac,
+    FID_ch01_10_Tiki_F_Normal = 0x1ad,
+    FID_ch04_07_Reflet_M_Dark = 0x1ae,
+    FID_ch07_18_Garzas_M_Normal = 0x1af,
+    FID_ch04_41_Sairi_F_Normal = 0x1b0,
+    FID_ch17_66_Gatekeeper_M_ELECTION01 = 0x1b1,
+    FID_ch03_32_Elk_M_Normal = 0x1b2,
+    FID_ch01_10_Tiki_F_Bloom01 = 0x1b3,
+    FID_ch11_01_Micaiah_F_Normal = 0x1b4,
+    FID_ch07_02_Leaf_M_Normal = 0x1b5,
+    FID_ch05_19_Kamui_F_Dark = 0x1b6,
+    FID_ch11_09_Nike_F_Normal = 0x1b7,
+    FID_ch01_10_Tiki_F_Dark = 0x1b8,
+    FID_ch04_49_Richt_M_Normal = 0x1b9,
+    FID_ch09_26_Stella_F_Normal = 0x1ba,
+    FID_ch01_00_Marth_M_ELECTION01 = 0x1bb,
+    FID_ch04_40_Emerina_F_Normal = 0x1bc,
+    FID_ch17_62_Constanze_F_Normal = 0x1bd,
+    FID_ch04_00_Chrom_M_ELECTION022 = 0x1be,
+    FID_ch02_16_Sue_F_Normal = 0x1bf,
+    FID_ch05_56_Benoit_M_Normal = 0x1c0,
+    FID_ch10_08_Cellica_F_Bloom01 = 0x1c1,
+    FID_ch17_02_Edelgardr_F_ELECTION01 = 0x1c2,
+    FID_ch05_09_Takumi_M_Normal = 0x1c3,
+    FID_ch01_29_Hardin_M_Normal = 0x1c4,
+    FID_ch09_24_Volka_M_Normal = 0x1c5,
+    FID_ch04_08_Reflet_F_Weapon01 = 0x1c6,
+    FID_ch10_14_Berkut_M_Dark = 0x1c7,
+    FID_ch11_10_Lay_M_Normal = 0x1c8,
+    FID_ch17_27_Seteth_M_Normal = 0x1c9,
+    FID_ch05_49_Nishiki_M_Normal = 0x1ca,
+    FID_ch17_04_Claude_M_ELECTION01 = 0x1cb,
+    FID_ch10_28_Paora_F_Normal = 0x1cc,
+    FID_ch03_34_Sein_M_Normal = 0x1cd,
     FID_ch05_58_Orochi_F_Normal = 0x1ce,
-    FID_ch17_02_Edelgardr_F_ELECTION01 = 0x1cf,
-    FID_ch04_41_Sairi_F_Normal = 0x1d0,
-    FID_ch03_34_Sein_M_Normal = 0x1d1,
-    FID_ch10_31_Zeke_M_Normal = 0x1d2,
-    FID_ch01_00_Marth_M_ELECTION01 = 0x1d3,
-    FID_ch06_23_Altena_F_Normal = 0x1d4,
-    FID_ch06_27_Fury_F_Normal = 0x1d5,
-    FID_ch04_12_Tiki_F_ELECTION022 = 0x1d6,
-    FID_ch04_24_Marc_F_Dark04 = 0x1d7,
-    FID_ch17_03_Dimitri_M_Normal = 0x1d8,
-    FID_ch07_09_Evel_F_Normal = 0x1d9,
-    FID_ch08_28_Coma_M_Normal = 0x1da,
-    FID_ch09_06_Erincia_F_Normal = 0x1db,
-    FID_ch09_05_Oscar_M_Normal = 0x1dc,
-    FID_ch17_63_Hapi_F_Normal = 0x1dd,
-    FID_ch01_46_Roche_M_Normal = 0x1de,
-    FID_ch01_06_Marich_M_Normal = 0x1df,
-    FID_ch17_12_Petra_F_Normal = 0x1e0,
-    FID_ch10_12_Boowy_M_Normal = 0x1e1,
-    FID_ch09_18_Chinon_M_Normal = 0x1e2,
-    FID_ch07_04_Fin_M_Normal = 0x1e3,
-    FID_ch11_08_Learne_F_Normal = 0x1e4,
-    FID_ch10_11_Leo_M_Normal = 0x1e5,
-    FID_ch10_36_Atlus_M_Normal = 0x1e6,
-    FID_ch05_53_Lilith_F_Dark01 = 0x1e7,
-    FID_ch01_45_Wolf_M_Normal = 0x1e8,
-    FID_ch01_49_Zagallo_M_Normal = 0x1e9,
-    FID_ch06_18_Jamka_M_Normal = 0x1ea,
-    FID_ch10_10_Sonya_F_Normal = 0x1eb,
-    FID_ch17_33_Catherine_F_Normal = 0x1ec,
-    FID_ch00_29_Hood_N_Muji = 0x1ed,
-    FID_ch09_07_Nepenee_F_Normal = 0x1ee,
-    FID_ch07_06_Mareeta_F_Dark = 0x1ef,
-    FID_ch09_03_Mist_F_Normal = 0x1f0,
-    FID_ch17_61_Balthazar_M_Normal = 0x1f1,
-    FID_ch04_52_Cervantes_M_Normal = 0x1f2,
-    FID_ch07_20_Salem_M_Normal = 0x1f3,
-    FID_ch17_19_Ingrid_F_Normal = 0x1f4,
-    FID_ch11_13_Caineghis_M_Normal = 0x1f5,
-    FID_ch17_10_Bernadeta_F_Normal = 0x1f6,
-    FID_ch07_10_Kempf_M_Normal = 0x1f7,
-    FID_ch04_03_Olivie_F_Normal2 = 0x1f8,
-    FID_ch03_19_Karla_F_Normal = 0x1f9,
-    FID_ch09_28_Beufores_M_Normal = 0x1fa,
-    FID_ch08_12_Lyon_M_Dark = 0x1fb,
-    FID_ch11_04_Oliver_M_Normal = 0x1fc,
-    FID_ch05_53_Lilith_F_Normal = 0x1fd,
-    FID_ch11_06_Naesala_M_Normal = 0x1fe,
-    FID_ch07_17_August_M_Normal = 0x1ff,
-    FID_ch00_05_Bruno_M_PlainStain = 0x201,
-    FID_ch08_10_Larchel_F_Normal = 0x202,
-    FID_ch08_11_Marica_F_Normal = 0x203,
-    FID_ch17_08_Linhardt_M_Normal = 0x204,
-    FID_ch11_03_Zelgius_M_Normal = 0x205,
-    FID_ch04_22_Marc_M_Normal = 0x206,
-    FID_ch05_54_Midoriko_F_Normal = 0x207,
-    FID_ch05_51_Rinka_F_Normal = 0x208,
-    FID_ch02_14_Idenn_F_Normal = 0x209,
-    FID_ch06_32_Tiny_F_Normal = 0x20a,
-    FID_ch10_04_Dyute_F_Normal = 0x20b,
-    FID_ch17_18_Annette_F_Normal = 0x20c,
-    FID_ch04_36_Bredy_M_Normal = 0x20d,
-    FID_ch17_01_Beleth_F_ELECTION022 = 0x20e,
-    FID_ch04_50_Grego_M_Normal = 0x20f,
-    FID_ch05_52_Foleo_M_Normal = 0x210,
-    FID_ch04_22_Marc_M_Dark04 = 0x211,
-    FID_ch01_07_Rinda_F_Normal = 0x212,
-    FID_ch06_03_Yuria_F_Normal = 0x213,
-    FID_ch05_42_Silas_M_Normal = 0x214,
-    FID_ch03_05_Hector_M_Normal = 0x215,
-    FID_ch03_00_Lin_F_Normal = 0x216,
-    FID_ch05_63_Guns_M_Normal = 0x217,
-    FID_ch03_26_Ruth_M_Normal = 0x218,
-    FID_ch01_19_Katua_F_Normal = 0x219,
-    FID_ch01_18_Paora_F_Normal = 0x21a,
-    FID_ch01_20_Est_F_Normal = 0x21b,
-    FID_ch04_42_Gangrel_M_Normal = 0x21c,
-    FID_ch04_39_Anna_F_Normal = 0x21d,
-    FID_ch04_21_Jerome_M_Normal = 0x21e,
-    FID_ch17_17_Mercedes_F_Normal = 0x21f,
-    FID_ch04_47_Basiglio_M_Normal = 0x220,
-    FID_ch17_23_Lysithea_F_ELECTION01 = 0x221,
-    FID_ch05_44_Ophelia_F_Normal = 0x222,
-    FID_ch09_20_Gatrie_M_Normal = 0x223,
-    FID_ch10_24_Conrad_M_Normal = 0x224,
-    FID_ch05_12_Saizou_M_Normal = 0x225,
-    FID_ch05_13_Kagerou_F_Normal = 0x226,
-    FID_ch05_06_Oboro_F_Normal = 0x227,
-    FID_ch05_03_Hinata_M_Normal = 0x228,
-    FID_ch05_18_Sakura_F_Normal = 0x229,
-    FID_ch05_26_Hinoka_F_Normal = 0x22a,
-    FID_ch01_41_Jeremiah_F_Normal = 0x22b,
-    FID_ch05_62_Kisaragi_M_Normal = 0x22c,
-    FID_ch02_31_Gayle_M_Normal = 0x22d,
-    FID_ch05_28_Camilla_F_Normal = 0x22e,
-    FID_ch04_51_Philein_F_Normal = 0x22f,
-    FID_ch02_29_Deak_M_Normal = 0x230,
-    FID_ch02_30_Marinas_M_Normal = 0x231,
-    FID_ch02_27_Guinevere_F_Normal = 0x232,
-    FID_ch02_28_Milady_F_Normal = 0x233,
-    FID_ch10_07_Clerbe_M_Normal = 0x234,
-    FID_ch10_05_Machilda_F_Normal = 0x235,
-    FID_ch10_01_Gray_M_Normal = 0x236,
-    FID_ch10_02_Robin_M_Normal = 0x237,
-    FID_ch03_35_Kent_M_Normal = 0x238,
-    FID_ch07_07_Othin_M_Normal = 0x239,
-    FID_ch07_08_Tania_F_Normal = 0x23a,
-    FID_ch05_59_Shenmei_F_Normal = 0x23b,
-    FID_ch10_21_Forsyth_M_Normal = 0x23c,
-    FID_ch10_22_Python_M_Normal = 0x23d,
-    FID_ch02_36_Nimue_F_Normal = 0x23e,
-    FID_ch01_37_Chris_M_Normal = 0x23f,
-    FID_ch08_16_Tethys_F_Normal = 0x240,
-    FID_ch05_25_Elise_F_Normal = 0x241,
-    FID_ch06_17_Sylvia_F_Normal = 0x242,
-    FID_ch06_15_Ethlin_F_Normal = 0x243,
-    FID_ch17_13_Dodue_M_Normal = 0x244,
-    FID_ch03_07_Ursula_F_Normal = 0x245,
-    FID_ch04_28_Mariabell_F_Normal = 0x246,
-    FID_ch04_29_Riviera_F_Normal = 0x247,
-    FID_ch05_31_Shinonome_M_Normal = 0x248,
-    FID_ch05_30_Siegbert_M_Normal = 0x249,
-    FID_ch17_01_Beleth_F_Normal = 0x24a,
-    FID_ch10_09_Savor_M_Normal = 0x24b,
-    FID_ch01_40_Lena_F_Normal = 0x24c,
-    FID_ch04_08_Reflet_F_Normal = 0x24d,
-    FID_ch05_47_Kinu_F_Normal = 0x24e,
-    FID_ch05_24_Leon_M_Normal = 0x24f,
-    FID_ch05_32_Shigure_M_Normal = 0x250,
-    FID_ch03_20_Lagarto_M_Normal = 0x251,
-    FID_ch17_34_Shamir_F_Normal = 0x252,
-    FID_ch07_19_Karin_F_Normal = 0x253,
-    FID_ch11_12_Mordy_M_Normal = 0x254,
-    FID_ch17_68_Sheds_F_Normal = 0x255,
-    FID_ch17_07_Ferdinant_M_Normal = 0x256,
-    FID_ch10_35_Kamui_M_Normal = 0x257,
-    FID_ch04_34_Cynthia_F_Normal = 0x258,
-    FID_ch01_34_Norn_F_Normal = 0x259,
-    FID_ch09_17_Jill_F_Normal = 0x25a,
-    FID_ch03_21_Linus_M_Normal = 0x25b,
-    FID_ch03_10_Lloyd_M_Normal = 0x25c,
-    FID_ch05_11_Zero_M_Normal = 0x25d,
-    FID_ch01_04_Gohdon_M_Normal = 0x25e,
-    FID_ch01_17_Sheeda_F_Normal = 0x25f,
-    FID_ch04_32_Velvet_F_Normal = 0x260,
-    FID_ch06_34_Scathach_M_Normal = 0x261,
-    FID_ch05_27_Tsubaki_M_Normal = 0x262,
-    FID_ch09_12_Tanis_F_Normal = 0x263,
-    FID_ch11_05_Tibarn_M_Normal = 0x264,
-    FID_ch08_00_Ephraim_MM_Pair = 0x265,
-    FID_ch11_11_Rethe_F_Normal = 0x266,
+    FID_ch01_38_Chris_F_Normal = 0x1cf,
+    FID_ch04_12_Tiki_F_ELECTION022 = 0x1d0,
+    FID_ch17_60_Euris_M_Normal = 0x1d1,
+    FID_ch08_01_Eirik_F_Normal2 = 0x1d2,
+    FID_ch09_08_BlackNight_M_Normal = 0x1d3,
+    FID_ch08_01_Eirik_F_ELECTION01 = 0x1d4,
+    FID_ch00_40_Elm_M_Stain = 0x1d5,
+    FID_ch04_43_Mustafa_M_Normal = 0x1d6,
+    FID_ch01_29_Hardin_M_Dark = 0x1d7,
+    FID_ch01_39_Julian_M_Normal = 0x1d8,
+    FID_ch03_36_Guy_M_Normal = 0x1d9,
+    FID_ch10_31_Zeke_M_Normal = 0x1da,
+    FID_ch17_03_Dimitri_M_ELECTION01 = 0x1db,
+    FID_ch05_50_Flannel_M_Normal = 0x1dc,
+    FID_ch11_07_Rieusion_M_Normal = 0x1dd,
+    FID_ch07_00_Olwen_F_Normal2 = 0x1de,
+    FID_ch01_53_Ellis_F_Normal = 0x1df,
+    FID_ch04_00_Chrom_M_Normal2 = 0x1e0,
+    FID_ch07_13_Ronan_M_Normal = 0x1e1,
+    FID_ch05_53_Lilith_F_Dark01 = 0x1e2,
+    FID_ch09_07_Nepenee_F_Normal = 0x1e3,
+    FID_ch09_05_Oscar_M_Normal = 0x1e4,
+    FID_ch09_06_Erincia_F_Normal = 0x1e5,
+    FID_ch06_18_Jamka_M_Normal = 0x1e6,
+    FID_ch10_36_Atlus_M_Normal = 0x1e7,
+    FID_ch01_06_Marich_M_Normal = 0x1e8,
+    FID_ch00_29_Hood_N_Muji = 0x1e9,
+    FID_ch01_46_Roche_M_Normal = 0x1ea,
+    FID_ch01_45_Wolf_M_Normal = 0x1eb,
+    FID_ch01_49_Zagallo_M_Normal = 0x1ec,
+    FID_ch17_33_Catherine_F_Normal = 0x1ed,
+    FID_ch17_12_Petra_F_Normal = 0x1ee,
+    FID_ch10_11_Leo_M_Normal = 0x1ef,
+    FID_ch08_28_Coma_M_Normal = 0x1f0,
+    FID_ch11_08_Learne_F_Normal = 0x1f1,
+    FID_ch10_12_Boowy_M_Normal = 0x1f2,
+    FID_ch09_03_Mist_F_Normal = 0x1f3,
+    FID_ch09_18_Chinon_M_Normal = 0x1f4,
+    FID_ch17_63_Hapi_F_Normal = 0x1f5,
+    FID_ch11_31_Ulysses_M_Normal = 0x1f6,
+    FID_ch10_10_Sonya_F_Normal = 0x1f7,
+    FID_ch17_61_Balthazar_M_Normal = 0x1f8,
+    FID_ch07_04_Fin_M_Normal = 0x1f9,
+    FID_ch07_06_Mareeta_F_Dark = 0x1fa,
+    FID_ch05_54_Midoriko_F_Normal = 0x1fb,
+    FID_ch03_19_Karla_F_Normal = 0x1fc,
+    FID_ch17_08_Linhardt_M_Normal = 0x1fd,
+    FID_ch17_18_Annette_F_Normal = 0x1fe,
+    FID_ch17_19_Ingrid_F_Normal = 0x1ff,
+    FID_ch06_32_Tiny_F_Normal = 0x201,
+    FID_ch08_12_Lyon_M_Dark = 0x202,
+    FID_ch07_20_Salem_M_Normal = 0x203,
+    FID_ch04_03_Olivie_F_Normal2 = 0x204,
+    FID_ch17_10_Bernadeta_F_Normal = 0x205,
+    FID_ch05_51_Rinka_F_Normal = 0x206,
+    FID_ch09_28_Beufores_M_Normal = 0x207,
+    FID_ch07_10_Kempf_M_Normal = 0x208,
+    FID_ch05_53_Lilith_F_Normal = 0x209,
+    FID_ch07_17_August_M_Normal = 0x20a,
+    FID_ch04_52_Cervantes_M_Normal = 0x20b,
+    FID_ch11_13_Caineghis_M_Normal = 0x20c,
+    FID_ch11_06_Naesala_M_Normal = 0x20d,
+    FID_ch11_04_Oliver_M_Normal = 0x20e,
+    FID_ch04_22_Marc_M_Normal = 0x20f,
+    FID_ch00_05_Bruno_M_PlainStain = 0x210,
+    FID_ch11_03_Zelgius_M_Normal = 0x211,
+    FID_ch10_04_Dyute_F_Normal = 0x212,
+    FID_ch02_14_Idenn_F_Normal = 0x213,
+    FID_ch08_10_Larchel_F_Normal = 0x214,
+    FID_ch08_11_Marica_F_Normal = 0x215,
+    FID_ch11_12_Mordy_M_Normal = 0x216,
+    FID_ch05_12_Saizou_M_Normal = 0x217,
+    FID_ch05_13_Kagerou_F_Normal = 0x218,
+    FID_ch05_06_Oboro_F_Normal = 0x219,
+    FID_ch05_03_Hinata_M_Normal = 0x21a,
+    FID_ch10_21_Forsyth_M_Normal = 0x21b,
+    FID_ch10_22_Python_M_Normal = 0x21c,
+    FID_ch10_35_Kamui_M_Normal = 0x21d,
+    FID_ch01_07_Rinda_F_Normal = 0x21e,
+    FID_ch06_03_Yuria_F_Normal = 0x21f,
+    FID_ch07_19_Karin_F_Normal = 0x220,
+    FID_ch05_62_Kisaragi_M_Normal = 0x221,
+    FID_ch05_52_Foleo_M_Normal = 0x222,
+    FID_ch05_47_Kinu_F_Normal = 0x223,
+    FID_ch04_34_Cynthia_F_Normal = 0x224,
+    FID_ch17_34_Shamir_F_Normal = 0x225,
+    FID_ch03_20_Lagarto_M_Normal = 0x226,
+    FID_ch03_07_Ursula_F_Normal = 0x227,
+    FID_ch03_21_Linus_M_Normal = 0x228,
+    FID_ch03_10_Lloyd_M_Normal = 0x229,
+    FID_ch17_17_Mercedes_F_Normal = 0x22a,
+    FID_ch03_26_Ruth_M_Normal = 0x22b,
+    FID_ch04_42_Gangrel_M_Normal = 0x22c,
+    FID_ch04_39_Anna_F_Normal = 0x22d,
+    FID_ch05_26_Hinoka_F_Normal = 0x22e,
+    FID_ch05_27_Tsubaki_M_Normal = 0x22f,
+    FID_ch07_07_Othin_M_Normal = 0x230,
+    FID_ch07_08_Tania_F_Normal = 0x231,
+    FID_ch06_17_Sylvia_F_Normal = 0x232,
+    FID_ch06_15_Ethlin_F_Normal = 0x233,
+    FID_ch10_24_Conrad_M_Normal = 0x234,
+    FID_ch04_36_Bredy_M_Normal = 0x235,
+    FID_ch04_08_Reflet_F_Normal = 0x236,
+    FID_ch05_30_Siegbert_M_Normal = 0x237,
+    FID_ch05_18_Sakura_F_Normal = 0x238,
+    FID_ch05_32_Shigure_M_Normal = 0x239,
+    FID_ch17_23_Lysithea_F_ELECTION01 = 0x23a,
+    FID_ch04_32_Velvet_F_Normal = 0x23b,
+    FID_ch11_11_Rethe_F_Normal = 0x23c,
+    FID_ch05_31_Shinonome_M_Normal = 0x23d,
+    FID_ch17_68_Sheds_F_Normal = 0x23e,
+    FID_ch04_21_Jerome_M_Normal = 0x23f,
+    FID_ch19_08_Celine_F_Normal = 0x240,
+    FID_ch05_11_Zero_M_Normal = 0x241,
+    FID_ch05_63_Guns_M_Normal = 0x242,
+    FID_ch01_19_Katua_F_Normal = 0x243,
+    FID_ch01_18_Paora_F_Normal = 0x244,
+    FID_ch01_20_Est_F_Normal = 0x245,
+    FID_ch01_37_Chris_M_Normal = 0x246,
+    FID_ch01_34_Norn_F_Normal = 0x247,
+    FID_ch04_28_Mariabell_F_Normal = 0x248,
+    FID_ch04_29_Riviera_F_Normal = 0x249,
+    FID_ch02_29_Deak_M_Normal = 0x24a,
+    FID_ch02_30_Marinas_M_Normal = 0x24b,
+    FID_ch02_27_Guinevere_F_Normal = 0x24c,
+    FID_ch02_28_Milady_F_Normal = 0x24d,
+    FID_ch02_31_Gayle_M_Normal = 0x24e,
+    FID_ch11_05_Tibarn_M_Normal = 0x24f,
+    FID_ch17_13_Dodue_M_Normal = 0x250,
+    FID_ch04_22_Marc_M_Dark04 = 0x251,
+    FID_ch05_42_Silas_M_Normal = 0x252,
+    FID_ch03_35_Kent_M_Normal = 0x253,
+    FID_ch05_44_Ophelia_F_Normal = 0x254,
+    FID_ch09_17_Jill_F_Normal = 0x255,
+    FID_ch02_36_Nimue_F_Normal = 0x256,
+    FID_ch05_28_Camilla_F_Normal = 0x257,
+    FID_ch10_09_Savor_M_Normal = 0x258,
+    FID_ch04_47_Basiglio_M_Normal = 0x259,
+    FID_ch06_34_Scathach_M_Normal = 0x25a,
+    FID_ch09_12_Tanis_F_Normal = 0x25b,
+    FID_ch01_04_Gohdon_M_Normal = 0x25c,
+    FID_ch11_29_Jofre_M_Normal = 0x25d,
+    FID_ch08_00_Ephraim_MM_Pair = 0x25e,
+    FID_ch08_16_Tethys_F_Normal = 0x25f,
+    FID_ch01_41_Jeremiah_F_Normal = 0x260,
+    FID_ch01_40_Lena_F_Normal = 0x261,
+    FID_ch05_59_Shenmei_F_Normal = 0x262,
+    FID_ch17_07_Ferdinant_M_Normal = 0x263,
+    FID_ch05_25_Elise_F_Normal = 0x264,
+    FID_ch03_05_Hector_M_Normal = 0x265,
+    FID_ch03_00_Lin_F_Normal = 0x266,
     FID_ch06_21_Shanan_M_Normal = 0x267,
-    FID_ch02_18_Rutger_M_Normal = 0x268,
-    FID_ch00_43_Embla_F_Disappear = 0x269,
-    FID_ch09_00_Ike_M_ELECTION01 = 0x26a,
-    FID_ch04_12_Tiki_F_Normal = 0x26b,
-    FID_ch05_55_Macbeth_M_Normal = 0x26c,
-    FID_ch06_00_Celice_M_Normal = 0x26d,
-    FID_ch17_69_Holst_M_Normal = 0x26e,
-    FID_ch02_03_Lilina_F_Normal = 0x26f,
-    FID_ch02_07_Wendy_F_Normal = 0x270,
-    FID_ch03_33_Sonja_F_Normal = 0x271,
-    FID_ch08_18_Ross_M_Normal = 0x272,
-    FID_ch08_15_Ewan_M_Normal = 0x273,
-    FID_ch09_14_Erase_F_Normal = 0x274,
-    FID_ch10_08_Cellica_F_Dark = 0x275,
-    FID_ch05_29_Berka_F_Normal = 0x276,
-    FID_ch05_05_Luna_F_Normal = 0x277,
-    FID_ch02_01_Fir_F_Normal = 0x278,
-    FID_ch02_02_Bartr_M_Normal = 0x279,
-    FID_ch02_11_Thany_F_Normal = 0x27a,
-    FID_ch03_37_Limstella_N_Normal = 0x27b,
-    FID_ch04_16_Frederik_M_Normal = 0x27c,
-    FID_ch04_11_Liz_F_Normal = 0x27d,
-    FID_ch01_52_Nina_F_Normal = 0x27e,
-    FID_ch02_38_Gonzales_M_Normal = 0x27f,
-    FID_ch04_02_Ronkuu_M_Normal = 0x280,
-    FID_ch04_03_Olivie_F_Normal = 0x281,
-    FID_ch01_15_Camus_M_Normal = 0x282,
-    FID_ch03_16_Ninian_F_Dark01 = 0x283,
-    FID_ch05_08_Harold_M_Normal = 0x284,
-    FID_ch05_20_Elfi_F_Normal = 0x285,
-    FID_ch03_09_Leyvan_M_Normal = 0x286,
-    FID_ch03_03_Nino_F_Normal = 0x287,
-    FID_ch02_15_Lugh_M_Normal = 0x288,
-    FID_ch02_10_Clarine_F_Normal = 0x289,
-    FID_ch02_09_Secilia_F_Normal = 0x28a,
-    FID_ch01_09_Riff_M_Normal = 0x28b,
-    FID_ch04_04_Denis_M_Normal = 0x28c,
-    FID_ch02_06_Fa_F_Normal = 0x28d,
-    FID_ch02_04_Sofiya_F_Normal = 0x28e,
-    FID_ch02_05_Lleu_M_Normal = 0x28f,
-    FID_ch04_10_Sallya_F_Normal = 0x290,
-    FID_ch06_29_Rex_M_Normal = 0x291,
-    FID_ch17_67_Sheds_M_Normal = 0x292,
-    FID_ch04_05_Viaur_M_Normal = 0x293,
-    FID_ch04_18_Serge_F_Normal = 0x294,
-    FID_ch03_29_Heath_M_Normal = 0x295,
-    FID_ch17_47_Frameemperor_N_Normal = 0x296,
-    FID_ch03_22_Luise_F_Normal = 0x297,
-    FID_ch01_01_Oguma_M_Normal = 0x298,
-    FID_ch04_06_Guire_M_Normal = 0x299,
-    FID_ch05_22_Pieri_F_Normal = 0x29a,
-    FID_ch05_04_Lazward_M_Normal = 0x29b,
-    FID_ch03_12_Jaffar_M_Normal = 0x29c,
-    FID_ch01_36_Banutu_M_Normal = 0x29d,
-    FID_ch05_16_Odin_M_Normal = 0x29e,
-    FID_ch01_54_Matisse_M_Normal = 0x29f,
-    FID_ch04_13_Nono_F_Normal = 0x2a0,
-    FID_ch04_09_Henri_M_Normal = 0x2a1,
-    FID_ch08_09_Myrrh_F_Normal = 0x2a2,
-    FID_ch01_13_Kain_M_Normal = 0x2a3,
-    FID_ch01_16_Abel_M_Normal = 0x2a4,
-    FID_ch01_14_Jeigan_M_Normal = 0x2a5,
-    FID_ch05_17_Asama_M_Normal = 0x2a6,
-    FID_ch05_10_Setsuna_F_Normal = 0x2a7,
-    FID_ch10_00_Arum_M_Normal = 0x2a8,
-    FID_ch01_35_Astria_M_Normal = 0x2a9,
-    FID_ch05_40_Soleil_F_Normal = 0x2aa,
-    FID_ch02_08_Zefhyr_M_Normal = 0x2ab,
-    FID_ch02_12_Nacien_M_Normal = 0x2ac,
-    FID_ch09_25_Masha_F_Normal = 0x2ad,
-    FID_ch03_02_Matthew_M_Normal = 0x2ae,
-    FID_ch04_14_Sort_M_Normal = 0x2af,
-    FID_ch04_15_Soiree_F_Normal = 0x2b0,
-    FID_ch05_02_Kazahana_F_Normal = 0x2b1,
-    FID_ch08_17_Cugar_M_Normal = 0x2b2,
-    FID_ch01_05_Jorjue_M_Normal = 0x2b3,
-    FID_ch01_03_Barts_M_Normal = 0x2b4,
-    FID_ch08_30_Abh_M_Normal = 0x2b5,
+    FID_ch04_51_Philein_F_Normal = 0x268,
+    FID_ch09_20_Gatrie_M_Normal = 0x269,
+    FID_ch01_17_Sheeda_F_Normal = 0x26a,
+    FID_ch17_01_Beleth_F_ELECTION022 = 0x26b,
+    FID_ch10_01_Gray_M_Normal = 0x26c,
+    FID_ch10_02_Robin_M_Normal = 0x26d,
+    FID_ch10_07_Clerbe_M_Normal = 0x26e,
+    FID_ch10_05_Machilda_F_Normal = 0x26f,
+    FID_ch17_01_Beleth_F_Normal = 0x270,
+    FID_ch04_50_Grego_M_Normal = 0x271,
+    FID_ch02_18_Rutger_M_Normal = 0x272,
+    FID_ch05_24_Leon_M_Normal = 0x273,
+    FID_ch00_43_Embla_F_Disappear = 0x274,
+    FID_ch19_07_Etie_F_Normal = 0x275,
+    FID_ch02_01_Fir_F_Normal = 0x276,
+    FID_ch02_02_Bartr_M_Normal = 0x277,
+    FID_ch02_11_Thany_F_Normal = 0x278,
+    FID_ch17_69_Holst_M_Normal = 0x279,
+    FID_ch06_00_Celice_M_Normal = 0x27a,
+    FID_ch01_09_Riff_M_Normal = 0x27b,
+    FID_ch04_02_Ronkuu_M_Normal = 0x27c,
+    FID_ch04_03_Olivie_F_Normal = 0x27d,
+    FID_ch05_55_Macbeth_M_Normal = 0x27e,
+    FID_ch01_05_Jorjue_M_Normal = 0x27f,
+    FID_ch01_03_Barts_M_Normal = 0x280,
+    FID_ch08_09_Myrrh_F_Normal = 0x281,
+    FID_ch03_12_Jaffar_M_Normal = 0x282,
+    FID_ch03_29_Heath_M_Normal = 0x283,
+    FID_ch02_10_Clarine_F_Normal = 0x284,
+    FID_ch02_09_Secilia_F_Normal = 0x285,
+    FID_ch05_17_Asama_M_Normal = 0x286,
+    FID_ch05_10_Setsuna_F_Normal = 0x287,
+    FID_ch04_04_Denis_M_Normal = 0x288,
+    FID_ch03_33_Sonja_F_Normal = 0x289,
+    FID_ch05_40_Soleil_F_Normal = 0x28a,
+    FID_ch03_16_Ninian_F_Dark01 = 0x28b,
+    FID_ch01_54_Matisse_M_Normal = 0x28c,
+    FID_ch04_17_Tiamo_F_Normal = 0x28d,
+    FID_ch08_22_Natasha_F_Normal = 0x28e,
+    FID_ch08_20_Nord_M_Normal = 0x28f,
+    FID_ch03_22_Luise_F_Normal = 0x290,
+    FID_ch01_08_Maria_F_Normal = 0x291,
+    FID_ch02_03_Lilina_F_Normal = 0x292,
+    FID_ch02_07_Wendy_F_Normal = 0x293,
+    FID_ch09_00_Ike_M_ELECTION01 = 0x294,
+    FID_ch17_67_Sheds_M_Normal = 0x295,
+    FID_ch05_02_Kazahana_F_Normal = 0x296,
+    FID_ch08_30_Abh_M_Normal = 0x297,
+    FID_ch10_00_Arum_M_Normal = 0x298,
+    FID_ch04_16_Frederik_M_Normal = 0x299,
+    FID_ch04_11_Liz_F_Normal = 0x29a,
+    FID_ch01_52_Nina_F_Normal = 0x29b,
+    FID_ch04_14_Sort_M_Normal = 0x29c,
+    FID_ch04_15_Soiree_F_Normal = 0x29d,
+    FID_ch05_39_Syalla_F_Normal = 0x29e,
+    FID_ch06_29_Rex_M_Normal = 0x29f,
+    FID_ch02_06_Fa_F_Normal = 0x2a0,
+    FID_ch02_04_Sofiya_F_Normal = 0x2a1,
+    FID_ch02_05_Lleu_M_Normal = 0x2a2,
+    FID_ch03_02_Matthew_M_Normal = 0x2a3,
+    FID_ch05_00_Kamui_M_Dark = 0x2a4,
+    FID_ch08_18_Ross_M_Normal = 0x2a5,
+    FID_ch08_15_Ewan_M_Normal = 0x2a6,
+    FID_ch01_01_Oguma_M_Normal = 0x2a7,
+    FID_ch04_06_Guire_M_Normal = 0x2a8,
+    FID_ch03_37_Limstella_N_Normal = 0x2a9,
+    FID_ch05_29_Berka_F_Normal = 0x2aa,
+    FID_ch05_05_Luna_F_Normal = 0x2ab,
+    FID_ch03_09_Leyvan_M_Normal = 0x2ac,
+    FID_ch03_03_Nino_F_Normal = 0x2ad,
+    FID_ch01_15_Camus_M_Normal = 0x2ae,
+    FID_ch01_35_Astria_M_Normal = 0x2af,
+    FID_ch01_13_Kain_M_Normal = 0x2b0,
+    FID_ch01_16_Abel_M_Normal = 0x2b1,
+    FID_ch04_05_Viaur_M_Normal = 0x2b2,
+    FID_ch04_18_Serge_F_Normal = 0x2b3,
+    FID_ch02_38_Gonzales_M_Normal = 0x2b4,
+    FID_ch10_08_Cellica_F_Dark = 0x2b5,
     FID_ch02_37_Cath_F_Normal = 0x2b6,
-    FID_ch01_08_Maria_F_Normal = 0x2b7,
-    FID_ch03_01_Hawkeye_M_Normal = 0x2b8,
-    FID_ch03_08_Flolina_F_Normal = 0x2b9,
-    FID_ch05_00_Kamui_M_Dark = 0x2ba,
-    FID_ch05_39_Syalla_F_Normal = 0x2bb,
-    FID_ch08_22_Natasha_F_Normal = 0x2bc,
-    FID_ch08_20_Nord_M_Normal = 0x2bd,
-    FID_ch09_19_Prague_F_Normal = 0x2be,
-    FID_ch04_17_Tiamo_F_Normal = 0x2bf,
+    FID_ch09_19_Prague_F_Normal = 0x2b7,
+    FID_ch04_10_Sallya_F_Normal = 0x2b8,
+    FID_ch08_17_Cugar_M_Normal = 0x2b9,
+    FID_ch17_47_Frameemperor_N_Normal = 0x2ba,
+    FID_ch05_08_Harold_M_Normal = 0x2bb,
+    FID_ch05_20_Elfi_F_Normal = 0x2bc,
+    FID_ch01_14_Jeigan_M_Normal = 0x2bd,
+    FID_ch05_22_Pieri_F_Normal = 0x2be,
+    FID_ch05_04_Lazward_M_Normal = 0x2bf,
+    FID_ch09_25_Masha_F_Normal = 0x2c0,
+    FID_ch01_36_Banutu_M_Normal = 0x2c1,
+    FID_ch09_14_Erase_F_Normal = 0x2c2,
+    FID_ch04_12_Tiki_F_Normal = 0x2c3,
+    FID_ch02_15_Lugh_M_Normal = 0x2c4,
+    FID_ch05_16_Odin_M_Normal = 0x2c5,
+    FID_ch03_01_Hawkeye_M_Normal = 0x2c6,
+    FID_ch03_08_Flolina_F_Normal = 0x2c7,
+    FID_ch02_08_Zefhyr_M_Normal = 0x2c8,
+    FID_ch02_12_Nacien_M_Normal = 0x2c9,
+    FID_ch04_13_Nono_F_Normal = 0x2ca,
+    FID_ch04_09_Henri_M_Normal = 0x2cb,
 };
 
 #define ch00_01_Alfons_M_Normal "\x1\x2"
@@ -473,426 +485,438 @@ enum {
 #define ch00_19_Hell_F_Normal "\x15\x2"
 #define ch00_35_Eitri_F_Normal "\x16\x2"
 #define ch00_43_Embla_Normal "\x17\x2"
-#define ch00_24_Scabiosa_F_Normal "\x18\x2"
-#define ch00_08_Loki_F_Normal "\x19\x2"
-#define ch00_13_Gustaf_M_Normal "\x1a\x2"
-#define ch00_40_Elm_M_Normal "\x1b\x2"
-#define ch00_33_Nott_F_Normal "\x1c\x2"
-#define ch00_15_Yurg_F_Normal "\x1d\x2"
-#define ch00_12_Helbindi_M_Normal "\x1e\x2"
-#define ch00_14_Henriette_F_Normal "\x1f\x2"
-#define ch00_26_Froda_M_Normal "\x20\x2"
-#define ch00_28_Lupine_F_Normal "\x21\x2"
-#define ch00_25_Plumeria_F_Normal "\x22\x2"
-#define ch00_18_Srasir_F_Normal "\x23\x2"
-#define ch00_05_Bruno_M_Plain "\x24\x2"
-#define ch00_04_Veronica2_F_Normal "\x25\x2"
+#define ch00_46_Seith_F_Normal "\x18\x2"
+#define ch00_24_Scabiosa_F_Normal "\x19\x2"
+#define ch00_08_Loki_F_Normal "\x1a\x2"
+#define ch00_13_Gustaf_M_Normal "\x1b\x2"
+#define ch00_15_Yurg_F_Normal "\x1c\x2"
+#define ch00_12_Helbindi_M_Normal "\x1d\x2"
+#define ch00_40_Elm_M_Normal "\x1e\x2"
+#define ch00_33_Nott_F_Normal "\x1f\x2"
+#define ch00_14_Henriette_F_Normal "\x20\x2"
+#define ch00_26_Froda_M_Normal "\x21\x2"
+#define ch00_28_Lupine_F_Normal "\x22\x2"
+#define ch00_25_Plumeria_F_Normal "\x23\x2"
+#define ch00_18_Srasir_F_Normal "\x24\x2"
+#define ch00_05_Bruno_M_Plain "\x25\x2"
 #define ch00_16_Freeze_M_Normal "\x26\x2"
-#define ch00_04_Veronica_F_Stain "\x27\x2"
-#define ch00_46_Seith_F_Normal "\x28\x2"
+#define ch00_04_Veronica2_F_Normal "\x27\x2"
+#define ch00_04_Veronica_F_Stain "\x28\x2"
 #define ch05_21_Marks_M_Normal "\x29\x2"
 #define ch00_32_Fafnir2_M_Normal "\x2a\x2"
-#define ch00_47_Gullveig_F_Normal "\x2b\x2"
-#define ch00_31_Otr_M_Stain "\x2c\x2"
-#define ch00_41_Letizia_F_Enemy "\x2d\x2"
-#define ch00_05_Bruno_M_Enemy "\x2e\x2"
-#define ch00_13_Gustaf_M_Enemy "\x2f\x2"
-#define ch00_29_Hood_N_Normal "\x30\x2"
-#define ch00_04_Veronica_F_Enemy2 "\x31\x2"
-#define ch00_10_Cerise_F_Normal "\x32\x2"
-#define ch00_04_Veronica2_F_Enemy "\x33\x2"
-#define ch05_01_Ryouma_M_Normal "\x34\x2"
-#define ch04_00_Chrom_M_Normal "\x35\x2"
-#define ch02_00_Roy_M_Normal "\x36\x2"
+#define ch00_50_Nerthus_Normal "\x2b\x2"
+#define ch00_47_Gullveig_F_Normal "\x2c\x2"
+#define ch00_49_Heith_Normal "\x2d\x2"
+#define ch00_31_Otr_M_Stain "\x2e\x2"
+#define ch00_41_Letizia_F_Enemy "\x2f\x2"
+#define ch00_13_Gustaf_M_Enemy "\x30\x2"
+#define ch00_05_Bruno_M_Enemy "\x31\x2"
+#define ch00_51_Njord_M_Normal "\x32\x2"
+#define ch00_29_Hood_N_Normal "\x33\x2"
+#define ch00_10_Cerise_F_Normal "\x34\x2"
+#define ch00_04_Veronica_F_Enemy2 "\x35\x2"
+#define ch00_04_Veronica2_F_Enemy "\x36\x2"
 #define ch00_04_Veronica_F_Enemy "\x37\x2"
-#define ch00_16_Freeze_M_NormalNEW "\x38\x2"
-#define ch01_00_Marth_M_Normal "\x39\x2"
-#define ch00_32_Fafnir2_M_Stain "\x3a\x2"
-#define ch03_06_Eliwod_M_Normal "\x3b\x2"
-#define ch00_36_MysteryHood_X_Normal "\x3c\x2"
-#define ch00_42_Ask_M_Disappear "\x3d\x2"
-#define ch09_00_Ike_M_Normal "\x3e\x2"
-#define ch09_02_Senerio_M_Normal "\x3f\x2"
-#define ch09_04_Tiamat_F_Normal "\x40\x2"
-#define ch01_21_Minerba_F_Normal "\x41\x2"
-#define ch00_05_Bruno_M_PlainEnemy "\x42\x2"
-#define ch10_34_Est_F_Normal "\x43\x2"
-#define ch10_08_Cellica_F_Normal "\x44\x2"
-#define ch07_03_Nanna_F_Normal "\x45\x2"
-#define ch01_33_Fina_F_Normal "\x46\x2"
-#define ch10_30_Tita_F_Normal "\x47\x2"
-#define ch01_48_Virac_M_Normal "\x48\x2"
-#define ch17_28_Flayn_F_Normal "\x49\x2"
+#define ch05_01_Ryouma_M_Normal "\x38\x2"
+#define ch02_00_Roy_M_Normal "\x39\x2"
+#define ch04_00_Chrom_M_Normal "\x3a\x2"
+#define ch00_16_Freeze_M_NormalNEW "\x3b\x2"
+#define ch01_00_Marth_M_Normal "\x3c\x2"
+#define ch01_21_Minerba_F_Normal "\x3d\x2"
+#define ch09_04_Tiamat_F_Normal "\x3e\x2"
+#define ch09_00_Ike_M_Normal "\x3f\x2"
+#define ch00_32_Fafnir2_M_Stain "\x40\x2"
+#define ch03_06_Eliwod_M_Normal "\x41\x2"
+#define ch00_36_MysteryHood_X_Normal "\x42\x2"
+#define ch09_02_Senerio_M_Normal "\x43\x2"
+#define ch00_42_Ask_M_Disappear "\x44\x2"
+#define ch01_33_Fina_F_Normal "\x45\x2"
+#define ch04_01_Lucina_F_Normal "\x46\x2"
+#define ch06_28_Azel_M_Normal "\x47\x2"
+#define ch10_08_Cellica_F_Normal "\x48\x2"
+#define ch06_10_Aless_M_Normal "\x49\x2"
 #define ch05_34_Kannna_F_Normal "\x4a\x2"
-#define ch06_10_Aless_M_Normal "\x4b\x2"
-#define ch04_07_Reflet_M_Normal "\x4c\x2"
-#define ch04_01_Lucina_F_Normal "\x4d\x2"
-#define ch05_57_Nyx_F_Normal "\x4e\x2"
-#define ch17_24_Marianne_F_ELECTION01 "\x4f\x2"
-#define ch10_25_Balbo_M_Normal "\x50\x2"
+#define ch10_23_Silque_F_Normal "\x4b\x2"
+#define ch06_14_Cuan_M_Normal "\x4c\x2"
+#define ch10_25_Balbo_M_Normal "\x4d\x2"
+#define ch10_34_Est_F_Normal "\x4e\x2"
+#define ch00_05_Bruno_M_PlainEnemy "\x4f\x2"
+#define ch01_48_Virac_M_Normal "\x50\x2"
 #define ch11_02_Sothe_M_Normal "\x51\x2"
-#define ch17_25_Hilda_F_Bloom01 "\x52\x2"
-#define ch10_23_Silque_F_Normal "\x53\x2"
-#define ch06_28_Azel_M_Normal "\x54\x2"
-#define ch04_24_Marc_F_Normal "\x55\x2"
-#define ch07_01_Reinhardt_M_Normal2 "\x56\x2"
-#define ch06_14_Cuan_M_Normal "\x57\x2"
-#define ch10_16_May_F_Normal "\x58\x2"
-#define ch10_13_Jenny_F_Normal "\x59\x2"
-#define ch08_29_Namy_F_Normal "\x5a\x2"
-#define ch09_08_BlackNight_M_Normal "\x5b\x2"
-#define ch01_10_Tiki_F_Dark "\x5c\x2"
-#define ch17_53_Monica_F_Normal2 "\x5d\x2"
-#define ch08_27_Renac_M_Normal "\x5e\x2"
-#define ch06_11_Ishtar_F_Normal "\x5f\x2"
-#define ch02_14_Idenn_F_Bloom01 "\x60\x2"
-#define ch07_02_Leaf_M_Normal "\x61\x2"
-#define ch07_06_Mareeta_F_Bloom01 "\x62\x2"
-#define ch03_04_Serra_F_Normal "\x63\x2"
-#define ch17_02_Edelgardr_F_Dark04 "\x64\x2"
-#define ch17_02_Edelgardr_F_Normal "\x65\x2"
-#define ch05_48_Velour_F_Normal "\x66\x2"
-#define ch01_31_Sirius_M_Normal "\x67\x2"
-#define ch03_36_Guy_M_Normal "\x68\x2"
-#define ch03_27_Laila_F_Normal "\x69\x2"
-#define ch03_23_Pant_M_Normal "\x6a\x2"
-#define ch06_26_Magna_F_Normal "\x6b\x2"
-#define ch01_39_Julian_M_Normal "\x6c\x2"
-#define ch07_12_Asbel_M_Normal "\x6d\x2"
-#define ch05_43_Eponine_F_Normal "\x6e\x2"
-#define ch05_61_Matoi_F_Normal "\x6f\x2"
-#define ch06_33_Arthur_M_Normal "\x70\x2"
-#define ch03_32_Elk_M_Normal "\x71\x2"
-#define ch17_23_Lysithea_F_Normal "\x72\x2"
-#define ch11_00_Ike_M_Dark "\x73\x2"
-#define ch08_01_Eirik_F_ELECTION01 "\x74\x2"
-#define ch04_43_Mustafa_M_Normal "\x75\x2"
-#define ch03_18_Canas_M_Normal "\x76\x2"
-#define ch04_00_Chrom_M_Normal2 "\x77\x2"
-#define ch03_08_Flolina_F_Bloom01 "\x78\x2"
-#define ch10_28_Paora_F_Normal "\x79\x2"
-#define ch01_29_Hardin_M_Normal "\x7a\x2"
-#define ch03_24_Fiora_F_Normal "\x7b\x2"
-#define ch17_62_Constanze_F_Normal "\x7c\x2"
-#define ch09_26_Stella_F_Normal "\x7d\x2"
-#define ch05_38_Suzukaze_M_Normal "\x7e\x2"
-#define ch01_47_Maris_F_Normal "\x7f\x2"
-#define ch06_03_Yuria_F_Dark "\x80\x2"
-#define ch04_49_Richt_M_Normal "\x81\x2"
-#define ch07_00_Olwen_F_Normal2 "\x82\x2"
-#define ch11_07_Rieusion_M_Normal "\x83\x2"
-#define ch08_21_Dussel_M_Normal "\x84\x2"
-#define ch01_02_Nabarl_M_Normal "\x85\x2"
-#define ch04_07_Reflet_M_Dark "\x86\x2"
-#define ch05_19_Kamui_F_Dark "\x87\x2"
-#define ch05_26_Hinoka_F_Normal2 "\x88\x2"
-#define ch08_07_Jhosua_M_Bloom01 "\x89\x2"
-#define ch04_46_Flavia_F_Normal "\x8a\x2"
-#define ch01_32_Nagi_F_Normal "\x8b\x2"
-#define ch17_25_Hilda_F_Normal "\x8c\x2"
-#define ch17_37_Rare_F_Dark01 "\x8d\x2"
-#define ch17_03_Dimitri_M_Dark04 "\x8e\x2"
-#define ch01_10_Tiki_F_Bloom01 "\x8f\x2"
-#define ch04_44_Miriel_F_Normal "\x90\x2"
-#define ch10_20_Katua_F_Normal "\x91\x2"
-#define ch05_49_Nishiki_M_Normal "\x92\x2"
-#define ch08_19_Celina_F_Normal "\x93\x2"
-#define ch10_29_Lute_M_Normal "\x94\x2"
-#define ch07_18_Garzas_M_Normal "\x95\x2"
-#define ch00_40_Elm_M_Stain "\x96\x2"
-#define ch05_60_Deere_M_Normal "\x97\x2"
-#define ch05_33_Kannna_M_Normal "\x98\x2"
-#define ch08_01_Eirik_F_Normal2 "\x99\x2"
-#define ch04_00_Chrom_M_ELECTION022 "\x9a\x2"
-#define ch05_41_Flora_F_Normal "\x9b\x2"
-#define ch17_27_Seteth_M_Normal "\x9c\x2"
-#define ch01_29_Hardin_M_Dark "\x9d\x2"
-#define ch10_14_Berkut_M_Dark "\x9e\x2"
-#define ch17_04_Claude_M_ELECTION01 "\x9f\x2"
-#define ch04_40_Emerina_F_Normal "\xa0\x2"
-#define ch07_06_Mareeta_F_Normal "\xa1\x2"
-#define ch04_35_Nn_F_Normal "\xa2\x2"
-#define ch03_30_Farina_F_Normal "\xa3\x2"
-#define ch04_08_Reflet_F_Weapon01 "\xa4\x2"
-#define ch04_27_Smia_F_Normal "\xa5\x2"
-#define ch06_11_Ishtar_F_Bloom01 "\xa6\x2"
-#define ch02_35_Hugh_M_Normal "\xa7\x2"
-#define ch01_22_Misheil_M_Normal "\xa8\x2"
-#define ch03_03_Nino_F_Normal2 "\xa9\x2"
-#define ch08_23_Kethelda_M_Normal "\xaa\x2"
-#define ch05_44_Ophelia_F_Weapon01 "\xab\x2"
-#define ch06_13_Lean_F_Normal "\xac\x2"
-#define ch03_28_Nils_M_Normal "\xad\x2"
-#define ch04_38_Degel_F_Normal "\xae\x2"
-#define ch06_00_Celice_M_ELECTION022 "\xaf\x2"
-#define ch02_17_Thite_F_Normal "\xb0\x2"
-#define ch01_10_Tiki_F_Normal "\xb1\x2"
-#define ch09_24_Volka_M_Normal "\xb2\x2"
-#define ch06_20_Luchtaine_F_Normal "\xb3\x2"
-#define ch17_06_Hubert_M_Normal "\xb4\x2"
-#define ch17_03_Dimitri_M_ELECTION01 "\xb5\x2"
-#define ch17_24_Marianne_F_Normal "\xb6\x2"
-#define ch11_10_Lay_M_Normal "\xb7\x2"
-#define ch04_37_Chanbray_M_Normal "\xb8\x2"
-#define ch06_16_Levn_M_Normal "\xb9\x2"
-#define ch01_53_Ellis_F_Normal "\xba\x2"
-#define ch10_08_Cellica_F_Bloom01 "\xbb\x2"
-#define ch05_56_Benoit_M_Normal "\xbc\x2"
-#define ch05_09_Takumi_M_Normal "\xbd\x2"
-#define ch05_37_Charlotte_F_Normal "\xbe\x2"
-#define ch07_11_Sara_F_Normal "\xbf\x2"
-#define ch08_14_Xyst_M_Normal "\xc0\x2"
-#define ch11_09_Nike_F_Normal "\xc1\x2"
-#define ch04_45_Paris_M_Normal "\xc2\x2"
-#define ch17_04_Claude_M_Normal "\xc3\x2"
-#define ch11_01_Micaiah_F_Normal "\xc4\x2"
-#define ch17_66_Gatekeeper_M_ELECTION01 "\xc5\x2"
-#define ch17_42_Deathknight_M_Normal "\xc6\x2"
-#define ch17_60_Euris_M_Normal "\xc7\x2"
-#define ch06_22_Seti_M_Normal "\xc8\x2"
-#define ch05_50_Flannel_M_Normal "\xc9\x2"
-#define ch07_14_Miranda_F_Normal "\xca\x2"
-#define ch01_38_Chris_F_Normal "\xcb\x2"
-#define ch07_13_Ronan_M_Normal "\xcc\x2"
-#define ch02_16_Sue_F_Normal "\xcd\x2"
+#define ch07_03_Nanna_F_Normal "\x52\x2"
+#define ch07_01_Reinhardt_M_Normal2 "\x53\x2"
+#define ch10_30_Tita_F_Normal "\x54\x2"
+#define ch04_07_Reflet_M_Normal "\x55\x2"
+#define ch04_24_Marc_F_Normal "\x56\x2"
+#define ch17_25_Hilda_F_Bloom01 "\x57\x2"
+#define ch17_24_Marianne_F_ELECTION01 "\x58\x2"
+#define ch05_57_Nyx_F_Normal "\x59\x2"
+#define ch17_28_Flayn_F_Normal "\x5a\x2"
+#define ch10_16_May_F_Normal "\x5b\x2"
+#define ch10_13_Jenny_F_Normal "\x5c\x2"
+#define ch06_20_Luchtaine_F_Normal "\x5d\x2"
+#define ch06_03_Yuria_F_Dark "\x5e\x2"
+#define ch08_07_Jhosua_M_Bloom01 "\x5f\x2"
+#define ch05_43_Eponine_F_Normal "\x60\x2"
+#define ch08_21_Dussel_M_Normal "\x61\x2"
+#define ch06_33_Arthur_M_Normal "\x62\x2"
+#define ch17_03_Dimitri_M_Dark04 "\x63\x2"
+#define ch04_44_Miriel_F_Normal "\x64\x2"
+#define ch06_16_Levn_M_Normal "\x65\x2"
+#define ch07_14_Miranda_F_Normal "\x66\x2"
+#define ch04_38_Degel_F_Normal "\x67\x2"
+#define ch04_27_Smia_F_Normal "\x68\x2"
+#define ch01_02_Nabarl_M_Normal "\x69\x2"
+#define ch06_13_Lean_F_Normal "\x6a\x2"
+#define ch11_30_Lucino_F_Normal "\x6b\x2"
+#define ch03_27_Laila_F_Normal "\x6c\x2"
+#define ch05_38_Suzukaze_M_Normal "\x6d\x2"
+#define ch05_26_Hinoka_F_Normal2 "\x6e\x2"
+#define ch17_42_Deathknight_M_Normal "\x6f\x2"
+#define ch17_23_Lysithea_F_Normal "\x70\x2"
+#define ch03_04_Serra_F_Normal "\x71\x2"
+#define ch05_44_Ophelia_F_Weapon01 "\x72\x2"
+#define ch01_31_Sirius_M_Normal "\x73\x2"
+#define ch02_35_Hugh_M_Normal "\x74\x2"
+#define ch17_02_Edelgardr_F_Normal "\x75\x2"
+#define ch04_37_Chanbray_M_Normal "\x76\x2"
+#define ch17_53_Monica_F_Normal2 "\x77\x2"
+#define ch07_06_Mareeta_F_Bloom01 "\x78\x2"
+#define ch07_11_Sara_F_Normal "\x79\x2"
+#define ch04_45_Paris_M_Normal "\x7a\x2"
+#define ch03_23_Pant_M_Normal "\x7b\x2"
+#define ch01_47_Maris_F_Normal "\x7c\x2"
+#define ch04_24_Marc_F_Dark04 "\x7d\x2"
+#define ch05_41_Flora_F_Normal "\x7e\x2"
+#define ch08_14_Xyst_M_Normal "\x7f\x2"
+#define ch19_05_Alfred_M_Weapon01 "\x80\x2"
+#define ch07_09_Evel_F_Normal "\x81\x2"
+#define ch10_20_Katua_F_Normal "\x82\x2"
+#define ch06_23_Altena_F_Normal "\x83\x2"
+#define ch06_27_Fury_F_Normal "\x84\x2"
+#define ch03_18_Canas_M_Normal "\x85\x2"
+#define ch17_04_Claude_M_Normal "\x86\x2"
+#define ch05_61_Matoi_F_Normal "\x87\x2"
+#define ch11_28_Erincia_F_Bloom01 "\x88\x2"
+#define ch03_28_Nils_M_Normal "\x89\x2"
+#define ch17_06_Hubert_M_Normal "\x8a\x2"
+#define ch05_33_Kannna_M_Normal "\x8b\x2"
+#define ch07_06_Mareeta_F_Normal "\x8c\x2"
+#define ch19_01_Lueue_F_Normal "\x8d\x2"
+#define ch11_00_Ike_M_Dark "\x8e\x2"
+#define ch08_27_Renac_M_Normal "\x8f\x2"
+#define ch08_23_Kethelda_M_Normal "\x90\x2"
+#define ch04_46_Flavia_F_Normal "\x91\x2"
+#define ch07_12_Asbel_M_Normal "\x92\x2"
+#define ch03_30_Farina_F_Normal "\x93\x2"
+#define ch17_37_Rare_F_Dark01 "\x94\x2"
+#define ch17_02_Edelgardr_F_Dark04 "\x95\x2"
+#define ch06_11_Ishtar_F_Bloom01 "\x96\x2"
+#define ch08_19_Celina_F_Normal "\x97\x2"
+#define ch08_29_Namy_F_Normal "\x98\x2"
+#define ch19_10_Chloe_F_Normal "\x99\x2"
+#define ch06_22_Seti_M_Normal "\x9a\x2"
+#define ch17_25_Hilda_F_Normal "\x9b\x2"
+#define ch03_24_Fiora_F_Normal "\x9c\x2"
+#define ch06_11_Ishtar_F_Normal "\x9d\x2"
+#define ch05_60_Deere_M_Normal "\x9e\x2"
+#define ch01_32_Nagi_F_Normal "\x9f\x2"
+#define ch02_14_Idenn_F_Bloom01 "\xa0\x2"
+#define ch17_24_Marianne_F_Normal "\xa1\x2"
+#define ch17_03_Dimitri_M_Normal "\xa2\x2"
+#define ch03_03_Nino_F_Normal2 "\xa3\x2"
+#define ch04_35_Nn_F_Normal "\xa4\x2"
+#define ch01_22_Misheil_M_Normal "\xa5\x2"
+#define ch06_26_Magna_F_Normal "\xa6\x2"
+#define ch05_48_Velour_F_Normal "\xa7\x2"
+#define ch10_29_Lute_M_Normal "\xa8\x2"
+#define ch03_08_Flolina_F_Bloom01 "\xa9\x2"
+#define ch05_37_Charlotte_F_Normal "\xaa\x2"
+#define ch02_17_Thite_F_Normal "\xab\x2"
+#define ch06_00_Celice_M_ELECTION022 "\xac\x2"
+#define ch01_10_Tiki_F_Normal "\xad\x2"
+#define ch04_07_Reflet_M_Dark "\xae\x2"
+#define ch07_18_Garzas_M_Normal "\xaf\x2"
+#define ch04_41_Sairi_F_Normal "\xb0\x2"
+#define ch17_66_Gatekeeper_M_ELECTION01 "\xb1\x2"
+#define ch03_32_Elk_M_Normal "\xb2\x2"
+#define ch01_10_Tiki_F_Bloom01 "\xb3\x2"
+#define ch11_01_Micaiah_F_Normal "\xb4\x2"
+#define ch07_02_Leaf_M_Normal "\xb5\x2"
+#define ch05_19_Kamui_F_Dark "\xb6\x2"
+#define ch11_09_Nike_F_Normal "\xb7\x2"
+#define ch01_10_Tiki_F_Dark "\xb8\x2"
+#define ch04_49_Richt_M_Normal "\xb9\x2"
+#define ch09_26_Stella_F_Normal "\xba\x2"
+#define ch01_00_Marth_M_ELECTION01 "\xbb\x2"
+#define ch04_40_Emerina_F_Normal "\xbc\x2"
+#define ch17_62_Constanze_F_Normal "\xbd\x2"
+#define ch04_00_Chrom_M_ELECTION022 "\xbe\x2"
+#define ch02_16_Sue_F_Normal "\xbf\x2"
+#define ch05_56_Benoit_M_Normal "\xc0\x2"
+#define ch10_08_Cellica_F_Bloom01 "\xc1\x2"
+#define ch17_02_Edelgardr_F_ELECTION01 "\xc2\x2"
+#define ch05_09_Takumi_M_Normal "\xc3\x2"
+#define ch01_29_Hardin_M_Normal "\xc4\x2"
+#define ch09_24_Volka_M_Normal "\xc5\x2"
+#define ch04_08_Reflet_F_Weapon01 "\xc6\x2"
+#define ch10_14_Berkut_M_Dark "\xc7\x2"
+#define ch11_10_Lay_M_Normal "\xc8\x2"
+#define ch17_27_Seteth_M_Normal "\xc9\x2"
+#define ch05_49_Nishiki_M_Normal "\xca\x2"
+#define ch17_04_Claude_M_ELECTION01 "\xcb\x2"
+#define ch10_28_Paora_F_Normal "\xcc\x2"
+#define ch03_34_Sein_M_Normal "\xcd\x2"
 #define ch05_58_Orochi_F_Normal "\xce\x2"
-#define ch17_02_Edelgardr_F_ELECTION01 "\xcf\x2"
-#define ch04_41_Sairi_F_Normal "\xd0\x2"
-#define ch03_34_Sein_M_Normal "\xd1\x2"
-#define ch10_31_Zeke_M_Normal "\xd2\x2"
-#define ch01_00_Marth_M_ELECTION01 "\xd3\x2"
-#define ch06_23_Altena_F_Normal "\xd4\x2"
-#define ch06_27_Fury_F_Normal "\xd5\x2"
-#define ch04_12_Tiki_F_ELECTION022 "\xd6\x2"
-#define ch04_24_Marc_F_Dark04 "\xd7\x2"
-#define ch17_03_Dimitri_M_Normal "\xd8\x2"
-#define ch07_09_Evel_F_Normal "\xd9\x2"
-#define ch08_28_Coma_M_Normal "\xda\x2"
-#define ch09_06_Erincia_F_Normal "\xdb\x2"
-#define ch09_05_Oscar_M_Normal "\xdc\x2"
-#define ch17_63_Hapi_F_Normal "\xdd\x2"
-#define ch01_46_Roche_M_Normal "\xde\x2"
-#define ch01_06_Marich_M_Normal "\xdf\x2"
-#define ch17_12_Petra_F_Normal "\xe0\x2"
-#define ch10_12_Boowy_M_Normal "\xe1\x2"
-#define ch09_18_Chinon_M_Normal "\xe2\x2"
-#define ch07_04_Fin_M_Normal "\xe3\x2"
-#define ch11_08_Learne_F_Normal "\xe4\x2"
-#define ch10_11_Leo_M_Normal "\xe5\x2"
-#define ch10_36_Atlus_M_Normal "\xe6\x2"
-#define ch05_53_Lilith_F_Dark01 "\xe7\x2"
-#define ch01_45_Wolf_M_Normal "\xe8\x2"
-#define ch01_49_Zagallo_M_Normal "\xe9\x2"
-#define ch06_18_Jamka_M_Normal "\xea\x2"
-#define ch10_10_Sonya_F_Normal "\xeb\x2"
-#define ch17_33_Catherine_F_Normal "\xec\x2"
-#define ch00_29_Hood_N_Muji "\xed\x2"
-#define ch09_07_Nepenee_F_Normal "\xee\x2"
-#define ch07_06_Mareeta_F_Dark "\xef\x2"
-#define ch09_03_Mist_F_Normal "\xf0\x2"
-#define ch17_61_Balthazar_M_Normal "\xf1\x2"
-#define ch04_52_Cervantes_M_Normal "\xf2\x2"
-#define ch07_20_Salem_M_Normal "\xf3\x2"
-#define ch17_19_Ingrid_F_Normal "\xf4\x2"
-#define ch11_13_Caineghis_M_Normal "\xf5\x2"
-#define ch17_10_Bernadeta_F_Normal "\xf6\x2"
-#define ch07_10_Kempf_M_Normal "\xf7\x2"
-#define ch04_03_Olivie_F_Normal2 "\xf8\x2"
-#define ch03_19_Karla_F_Normal "\xf9\x2"
-#define ch09_28_Beufores_M_Normal "\xfa\x2"
-#define ch08_12_Lyon_M_Dark "\xfb\x2"
-#define ch11_04_Oliver_M_Normal "\xfc\x2"
-#define ch05_53_Lilith_F_Normal "\xfd\x2"
-#define ch11_06_Naesala_M_Normal "\xfe\x2"
-#define ch07_17_August_M_Normal "\xff\x2"
-#define ch00_05_Bruno_M_PlainStain "\x1\x3"
-#define ch08_10_Larchel_F_Normal "\x2\x3"
-#define ch08_11_Marica_F_Normal "\x3\x3"
-#define ch17_08_Linhardt_M_Normal "\x4\x3"
-#define ch11_03_Zelgius_M_Normal "\x5\x3"
-#define ch04_22_Marc_M_Normal "\x6\x3"
-#define ch05_54_Midoriko_F_Normal "\x7\x3"
-#define ch05_51_Rinka_F_Normal "\x8\x3"
-#define ch02_14_Idenn_F_Normal "\x9\x3"
-#define ch06_32_Tiny_F_Normal "\xa\x3"
-#define ch10_04_Dyute_F_Normal "\xb\x3"
-#define ch17_18_Annette_F_Normal "\xc\x3"
-#define ch04_36_Bredy_M_Normal "\xd\x3"
-#define ch17_01_Beleth_F_ELECTION022 "\xe\x3"
-#define ch04_50_Grego_M_Normal "\xf\x3"
-#define ch05_52_Foleo_M_Normal "\x10\x3"
-#define ch04_22_Marc_M_Dark04 "\x11\x3"
-#define ch01_07_Rinda_F_Normal "\x12\x3"
-#define ch06_03_Yuria_F_Normal "\x13\x3"
-#define ch05_42_Silas_M_Normal "\x14\x3"
-#define ch03_05_Hector_M_Normal "\x15\x3"
-#define ch03_00_Lin_F_Normal "\x16\x3"
-#define ch05_63_Guns_M_Normal "\x17\x3"
-#define ch03_26_Ruth_M_Normal "\x18\x3"
-#define ch01_19_Katua_F_Normal "\x19\x3"
-#define ch01_18_Paora_F_Normal "\x1a\x3"
-#define ch01_20_Est_F_Normal "\x1b\x3"
-#define ch04_42_Gangrel_M_Normal "\x1c\x3"
-#define ch04_39_Anna_F_Normal "\x1d\x3"
-#define ch04_21_Jerome_M_Normal "\x1e\x3"
-#define ch17_17_Mercedes_F_Normal "\x1f\x3"
-#define ch04_47_Basiglio_M_Normal "\x20\x3"
-#define ch17_23_Lysithea_F_ELECTION01 "\x21\x3"
-#define ch05_44_Ophelia_F_Normal "\x22\x3"
-#define ch09_20_Gatrie_M_Normal "\x23\x3"
-#define ch10_24_Conrad_M_Normal "\x24\x3"
-#define ch05_12_Saizou_M_Normal "\x25\x3"
-#define ch05_13_Kagerou_F_Normal "\x26\x3"
-#define ch05_06_Oboro_F_Normal "\x27\x3"
-#define ch05_03_Hinata_M_Normal "\x28\x3"
-#define ch05_18_Sakura_F_Normal "\x29\x3"
-#define ch05_26_Hinoka_F_Normal "\x2a\x3"
-#define ch01_41_Jeremiah_F_Normal "\x2b\x3"
-#define ch05_62_Kisaragi_M_Normal "\x2c\x3"
-#define ch02_31_Gayle_M_Normal "\x2d\x3"
-#define ch05_28_Camilla_F_Normal "\x2e\x3"
-#define ch04_51_Philein_F_Normal "\x2f\x3"
-#define ch02_29_Deak_M_Normal "\x30\x3"
-#define ch02_30_Marinas_M_Normal "\x31\x3"
-#define ch02_27_Guinevere_F_Normal "\x32\x3"
-#define ch02_28_Milady_F_Normal "\x33\x3"
-#define ch10_07_Clerbe_M_Normal "\x34\x3"
-#define ch10_05_Machilda_F_Normal "\x35\x3"
-#define ch10_01_Gray_M_Normal "\x36\x3"
-#define ch10_02_Robin_M_Normal "\x37\x3"
-#define ch03_35_Kent_M_Normal "\x38\x3"
-#define ch07_07_Othin_M_Normal "\x39\x3"
-#define ch07_08_Tania_F_Normal "\x3a\x3"
-#define ch05_59_Shenmei_F_Normal "\x3b\x3"
-#define ch10_21_Forsyth_M_Normal "\x3c\x3"
-#define ch10_22_Python_M_Normal "\x3d\x3"
-#define ch02_36_Nimue_F_Normal "\x3e\x3"
-#define ch01_37_Chris_M_Normal "\x3f\x3"
-#define ch08_16_Tethys_F_Normal "\x40\x3"
-#define ch05_25_Elise_F_Normal "\x41\x3"
-#define ch06_17_Sylvia_F_Normal "\x42\x3"
-#define ch06_15_Ethlin_F_Normal "\x43\x3"
-#define ch17_13_Dodue_M_Normal "\x44\x3"
-#define ch03_07_Ursula_F_Normal "\x45\x3"
-#define ch04_28_Mariabell_F_Normal "\x46\x3"
-#define ch04_29_Riviera_F_Normal "\x47\x3"
-#define ch05_31_Shinonome_M_Normal "\x48\x3"
-#define ch05_30_Siegbert_M_Normal "\x49\x3"
-#define ch17_01_Beleth_F_Normal "\x4a\x3"
-#define ch10_09_Savor_M_Normal "\x4b\x3"
-#define ch01_40_Lena_F_Normal "\x4c\x3"
-#define ch04_08_Reflet_F_Normal "\x4d\x3"
-#define ch05_47_Kinu_F_Normal "\x4e\x3"
-#define ch05_24_Leon_M_Normal "\x4f\x3"
-#define ch05_32_Shigure_M_Normal "\x50\x3"
-#define ch03_20_Lagarto_M_Normal "\x51\x3"
-#define ch17_34_Shamir_F_Normal "\x52\x3"
-#define ch07_19_Karin_F_Normal "\x53\x3"
-#define ch11_12_Mordy_M_Normal "\x54\x3"
-#define ch17_68_Sheds_F_Normal "\x55\x3"
-#define ch17_07_Ferdinant_M_Normal "\x56\x3"
-#define ch10_35_Kamui_M_Normal "\x57\x3"
-#define ch04_34_Cynthia_F_Normal "\x58\x3"
-#define ch01_34_Norn_F_Normal "\x59\x3"
-#define ch09_17_Jill_F_Normal "\x5a\x3"
-#define ch03_21_Linus_M_Normal "\x5b\x3"
-#define ch03_10_Lloyd_M_Normal "\x5c\x3"
-#define ch05_11_Zero_M_Normal "\x5d\x3"
-#define ch01_04_Gohdon_M_Normal "\x5e\x3"
-#define ch01_17_Sheeda_F_Normal "\x5f\x3"
-#define ch04_32_Velvet_F_Normal "\x60\x3"
-#define ch06_34_Scathach_M_Normal "\x61\x3"
-#define ch05_27_Tsubaki_M_Normal "\x62\x3"
-#define ch09_12_Tanis_F_Normal "\x63\x3"
-#define ch11_05_Tibarn_M_Normal "\x64\x3"
-#define ch08_00_Ephraim_MM_Pair "\x65\x3"
-#define ch11_11_Rethe_F_Normal "\x66\x3"
+#define ch01_38_Chris_F_Normal "\xcf\x2"
+#define ch04_12_Tiki_F_ELECTION022 "\xd0\x2"
+#define ch17_60_Euris_M_Normal "\xd1\x2"
+#define ch08_01_Eirik_F_Normal2 "\xd2\x2"
+#define ch09_08_BlackNight_M_Normal "\xd3\x2"
+#define ch08_01_Eirik_F_ELECTION01 "\xd4\x2"
+#define ch00_40_Elm_M_Stain "\xd5\x2"
+#define ch04_43_Mustafa_M_Normal "\xd6\x2"
+#define ch01_29_Hardin_M_Dark "\xd7\x2"
+#define ch01_39_Julian_M_Normal "\xd8\x2"
+#define ch03_36_Guy_M_Normal "\xd9\x2"
+#define ch10_31_Zeke_M_Normal "\xda\x2"
+#define ch17_03_Dimitri_M_ELECTION01 "\xdb\x2"
+#define ch05_50_Flannel_M_Normal "\xdc\x2"
+#define ch11_07_Rieusion_M_Normal "\xdd\x2"
+#define ch07_00_Olwen_F_Normal2 "\xde\x2"
+#define ch01_53_Ellis_F_Normal "\xdf\x2"
+#define ch04_00_Chrom_M_Normal2 "\xe0\x2"
+#define ch07_13_Ronan_M_Normal "\xe1\x2"
+#define ch05_53_Lilith_F_Dark01 "\xe2\x2"
+#define ch09_07_Nepenee_F_Normal "\xe3\x2"
+#define ch09_05_Oscar_M_Normal "\xe4\x2"
+#define ch09_06_Erincia_F_Normal "\xe5\x2"
+#define ch06_18_Jamka_M_Normal "\xe6\x2"
+#define ch10_36_Atlus_M_Normal "\xe7\x2"
+#define ch01_06_Marich_M_Normal "\xe8\x2"
+#define ch00_29_Hood_N_Muji "\xe9\x2"
+#define ch01_46_Roche_M_Normal "\xea\x2"
+#define ch01_45_Wolf_M_Normal "\xeb\x2"
+#define ch01_49_Zagallo_M_Normal "\xec\x2"
+#define ch17_33_Catherine_F_Normal "\xed\x2"
+#define ch17_12_Petra_F_Normal "\xee\x2"
+#define ch10_11_Leo_M_Normal "\xef\x2"
+#define ch08_28_Coma_M_Normal "\xf0\x2"
+#define ch11_08_Learne_F_Normal "\xf1\x2"
+#define ch10_12_Boowy_M_Normal "\xf2\x2"
+#define ch09_03_Mist_F_Normal "\xf3\x2"
+#define ch09_18_Chinon_M_Normal "\xf4\x2"
+#define ch17_63_Hapi_F_Normal "\xf5\x2"
+#define ch11_31_Ulysses_M_Normal "\xf6\x2"
+#define ch10_10_Sonya_F_Normal "\xf7\x2"
+#define ch17_61_Balthazar_M_Normal "\xf8\x2"
+#define ch07_04_Fin_M_Normal "\xf9\x2"
+#define ch07_06_Mareeta_F_Dark "\xfa\x2"
+#define ch05_54_Midoriko_F_Normal "\xfb\x2"
+#define ch03_19_Karla_F_Normal "\xfc\x2"
+#define ch17_08_Linhardt_M_Normal "\xfd\x2"
+#define ch17_18_Annette_F_Normal "\xfe\x2"
+#define ch17_19_Ingrid_F_Normal "\xff\x2"
+#define ch06_32_Tiny_F_Normal "\x1\x3"
+#define ch08_12_Lyon_M_Dark "\x2\x3"
+#define ch07_20_Salem_M_Normal "\x3\x3"
+#define ch04_03_Olivie_F_Normal2 "\x4\x3"
+#define ch17_10_Bernadeta_F_Normal "\x5\x3"
+#define ch05_51_Rinka_F_Normal "\x6\x3"
+#define ch09_28_Beufores_M_Normal "\x7\x3"
+#define ch07_10_Kempf_M_Normal "\x8\x3"
+#define ch05_53_Lilith_F_Normal "\x9\x3"
+#define ch07_17_August_M_Normal "\xa\x3"
+#define ch04_52_Cervantes_M_Normal "\xb\x3"
+#define ch11_13_Caineghis_M_Normal "\xc\x3"
+#define ch11_06_Naesala_M_Normal "\xd\x3"
+#define ch11_04_Oliver_M_Normal "\xe\x3"
+#define ch04_22_Marc_M_Normal "\xf\x3"
+#define ch00_05_Bruno_M_PlainStain "\x10\x3"
+#define ch11_03_Zelgius_M_Normal "\x11\x3"
+#define ch10_04_Dyute_F_Normal "\x12\x3"
+#define ch02_14_Idenn_F_Normal "\x13\x3"
+#define ch08_10_Larchel_F_Normal "\x14\x3"
+#define ch08_11_Marica_F_Normal "\x15\x3"
+#define ch11_12_Mordy_M_Normal "\x16\x3"
+#define ch05_12_Saizou_M_Normal "\x17\x3"
+#define ch05_13_Kagerou_F_Normal "\x18\x3"
+#define ch05_06_Oboro_F_Normal "\x19\x3"
+#define ch05_03_Hinata_M_Normal "\x1a\x3"
+#define ch10_21_Forsyth_M_Normal "\x1b\x3"
+#define ch10_22_Python_M_Normal "\x1c\x3"
+#define ch10_35_Kamui_M_Normal "\x1d\x3"
+#define ch01_07_Rinda_F_Normal "\x1e\x3"
+#define ch06_03_Yuria_F_Normal "\x1f\x3"
+#define ch07_19_Karin_F_Normal "\x20\x3"
+#define ch05_62_Kisaragi_M_Normal "\x21\x3"
+#define ch05_52_Foleo_M_Normal "\x22\x3"
+#define ch05_47_Kinu_F_Normal "\x23\x3"
+#define ch04_34_Cynthia_F_Normal "\x24\x3"
+#define ch17_34_Shamir_F_Normal "\x25\x3"
+#define ch03_20_Lagarto_M_Normal "\x26\x3"
+#define ch03_07_Ursula_F_Normal "\x27\x3"
+#define ch03_21_Linus_M_Normal "\x28\x3"
+#define ch03_10_Lloyd_M_Normal "\x29\x3"
+#define ch17_17_Mercedes_F_Normal "\x2a\x3"
+#define ch03_26_Ruth_M_Normal "\x2b\x3"
+#define ch04_42_Gangrel_M_Normal "\x2c\x3"
+#define ch04_39_Anna_F_Normal "\x2d\x3"
+#define ch05_26_Hinoka_F_Normal "\x2e\x3"
+#define ch05_27_Tsubaki_M_Normal "\x2f\x3"
+#define ch07_07_Othin_M_Normal "\x30\x3"
+#define ch07_08_Tania_F_Normal "\x31\x3"
+#define ch06_17_Sylvia_F_Normal "\x32\x3"
+#define ch06_15_Ethlin_F_Normal "\x33\x3"
+#define ch10_24_Conrad_M_Normal "\x34\x3"
+#define ch04_36_Bredy_M_Normal "\x35\x3"
+#define ch04_08_Reflet_F_Normal "\x36\x3"
+#define ch05_30_Siegbert_M_Normal "\x37\x3"
+#define ch05_18_Sakura_F_Normal "\x38\x3"
+#define ch05_32_Shigure_M_Normal "\x39\x3"
+#define ch17_23_Lysithea_F_ELECTION01 "\x3a\x3"
+#define ch04_32_Velvet_F_Normal "\x3b\x3"
+#define ch11_11_Rethe_F_Normal "\x3c\x3"
+#define ch05_31_Shinonome_M_Normal "\x3d\x3"
+#define ch17_68_Sheds_F_Normal "\x3e\x3"
+#define ch04_21_Jerome_M_Normal "\x3f\x3"
+#define ch19_08_Celine_F_Normal "\x40\x3"
+#define ch05_11_Zero_M_Normal "\x41\x3"
+#define ch05_63_Guns_M_Normal "\x42\x3"
+#define ch01_19_Katua_F_Normal "\x43\x3"
+#define ch01_18_Paora_F_Normal "\x44\x3"
+#define ch01_20_Est_F_Normal "\x45\x3"
+#define ch01_37_Chris_M_Normal "\x46\x3"
+#define ch01_34_Norn_F_Normal "\x47\x3"
+#define ch04_28_Mariabell_F_Normal "\x48\x3"
+#define ch04_29_Riviera_F_Normal "\x49\x3"
+#define ch02_29_Deak_M_Normal "\x4a\x3"
+#define ch02_30_Marinas_M_Normal "\x4b\x3"
+#define ch02_27_Guinevere_F_Normal "\x4c\x3"
+#define ch02_28_Milady_F_Normal "\x4d\x3"
+#define ch02_31_Gayle_M_Normal "\x4e\x3"
+#define ch11_05_Tibarn_M_Normal "\x4f\x3"
+#define ch17_13_Dodue_M_Normal "\x50\x3"
+#define ch04_22_Marc_M_Dark04 "\x51\x3"
+#define ch05_42_Silas_M_Normal "\x52\x3"
+#define ch03_35_Kent_M_Normal "\x53\x3"
+#define ch05_44_Ophelia_F_Normal "\x54\x3"
+#define ch09_17_Jill_F_Normal "\x55\x3"
+#define ch02_36_Nimue_F_Normal "\x56\x3"
+#define ch05_28_Camilla_F_Normal "\x57\x3"
+#define ch10_09_Savor_M_Normal "\x58\x3"
+#define ch04_47_Basiglio_M_Normal "\x59\x3"
+#define ch06_34_Scathach_M_Normal "\x5a\x3"
+#define ch09_12_Tanis_F_Normal "\x5b\x3"
+#define ch01_04_Gohdon_M_Normal "\x5c\x3"
+#define ch11_29_Jofre_M_Normal "\x5d\x3"
+#define ch08_00_Ephraim_MM_Pair "\x5e\x3"
+#define ch08_16_Tethys_F_Normal "\x5f\x3"
+#define ch01_41_Jeremiah_F_Normal "\x60\x3"
+#define ch01_40_Lena_F_Normal "\x61\x3"
+#define ch05_59_Shenmei_F_Normal "\x62\x3"
+#define ch17_07_Ferdinant_M_Normal "\x63\x3"
+#define ch05_25_Elise_F_Normal "\x64\x3"
+#define ch03_05_Hector_M_Normal "\x65\x3"
+#define ch03_00_Lin_F_Normal "\x66\x3"
 #define ch06_21_Shanan_M_Normal "\x67\x3"
-#define ch02_18_Rutger_M_Normal "\x68\x3"
-#define ch00_43_Embla_F_Disappear "\x69\x3"
-#define ch09_00_Ike_M_ELECTION01 "\x6a\x3"
-#define ch04_12_Tiki_F_Normal "\x6b\x3"
-#define ch05_55_Macbeth_M_Normal "\x6c\x3"
-#define ch06_00_Celice_M_Normal "\x6d\x3"
-#define ch17_69_Holst_M_Normal "\x6e\x3"
-#define ch02_03_Lilina_F_Normal "\x6f\x3"
-#define ch02_07_Wendy_F_Normal "\x70\x3"
-#define ch03_33_Sonja_F_Normal "\x71\x3"
-#define ch08_18_Ross_M_Normal "\x72\x3"
-#define ch08_15_Ewan_M_Normal "\x73\x3"
-#define ch09_14_Erase_F_Normal "\x74\x3"
-#define ch10_08_Cellica_F_Dark "\x75\x3"
-#define ch05_29_Berka_F_Normal "\x76\x3"
-#define ch05_05_Luna_F_Normal "\x77\x3"
-#define ch02_01_Fir_F_Normal "\x78\x3"
-#define ch02_02_Bartr_M_Normal "\x79\x3"
-#define ch02_11_Thany_F_Normal "\x7a\x3"
-#define ch03_37_Limstella_N_Normal "\x7b\x3"
-#define ch04_16_Frederik_M_Normal "\x7c\x3"
-#define ch04_11_Liz_F_Normal "\x7d\x3"
-#define ch01_52_Nina_F_Normal "\x7e\x3"
-#define ch02_38_Gonzales_M_Normal "\x7f\x3"
-#define ch04_02_Ronkuu_M_Normal "\x80\x3"
-#define ch04_03_Olivie_F_Normal "\x81\x3"
-#define ch01_15_Camus_M_Normal "\x82\x3"
-#define ch03_16_Ninian_F_Dark01 "\x83\x3"
-#define ch05_08_Harold_M_Normal "\x84\x3"
-#define ch05_20_Elfi_F_Normal "\x85\x3"
-#define ch03_09_Leyvan_M_Normal "\x86\x3"
-#define ch03_03_Nino_F_Normal "\x87\x3"
-#define ch02_15_Lugh_M_Normal "\x88\x3"
-#define ch02_10_Clarine_F_Normal "\x89\x3"
-#define ch02_09_Secilia_F_Normal "\x8a\x3"
-#define ch01_09_Riff_M_Normal "\x8b\x3"
-#define ch04_04_Denis_M_Normal "\x8c\x3"
-#define ch02_06_Fa_F_Normal "\x8d\x3"
-#define ch02_04_Sofiya_F_Normal "\x8e\x3"
-#define ch02_05_Lleu_M_Normal "\x8f\x3"
-#define ch04_10_Sallya_F_Normal "\x90\x3"
-#define ch06_29_Rex_M_Normal "\x91\x3"
-#define ch17_67_Sheds_M_Normal "\x92\x3"
-#define ch04_05_Viaur_M_Normal "\x93\x3"
-#define ch04_18_Serge_F_Normal "\x94\x3"
-#define ch03_29_Heath_M_Normal "\x95\x3"
-#define ch17_47_Frameemperor_N_Normal "\x96\x3"
-#define ch03_22_Luise_F_Normal "\x97\x3"
-#define ch01_01_Oguma_M_Normal "\x98\x3"
-#define ch04_06_Guire_M_Normal "\x99\x3"
-#define ch05_22_Pieri_F_Normal "\x9a\x3"
-#define ch05_04_Lazward_M_Normal "\x9b\x3"
-#define ch03_12_Jaffar_M_Normal "\x9c\x3"
-#define ch01_36_Banutu_M_Normal "\x9d\x3"
-#define ch05_16_Odin_M_Normal "\x9e\x3"
-#define ch01_54_Matisse_M_Normal "\x9f\x3"
-#define ch04_13_Nono_F_Normal "\xa0\x3"
-#define ch04_09_Henri_M_Normal "\xa1\x3"
-#define ch08_09_Myrrh_F_Normal "\xa2\x3"
-#define ch01_13_Kain_M_Normal "\xa3\x3"
-#define ch01_16_Abel_M_Normal "\xa4\x3"
-#define ch01_14_Jeigan_M_Normal "\xa5\x3"
-#define ch05_17_Asama_M_Normal "\xa6\x3"
-#define ch05_10_Setsuna_F_Normal "\xa7\x3"
-#define ch10_00_Arum_M_Normal "\xa8\x3"
-#define ch01_35_Astria_M_Normal "\xa9\x3"
-#define ch05_40_Soleil_F_Normal "\xaa\x3"
-#define ch02_08_Zefhyr_M_Normal "\xab\x3"
-#define ch02_12_Nacien_M_Normal "\xac\x3"
-#define ch09_25_Masha_F_Normal "\xad\x3"
-#define ch03_02_Matthew_M_Normal "\xae\x3"
-#define ch04_14_Sort_M_Normal "\xaf\x3"
-#define ch04_15_Soiree_F_Normal "\xb0\x3"
-#define ch05_02_Kazahana_F_Normal "\xb1\x3"
-#define ch08_17_Cugar_M_Normal "\xb2\x3"
-#define ch01_05_Jorjue_M_Normal "\xb3\x3"
-#define ch01_03_Barts_M_Normal "\xb4\x3"
-#define ch08_30_Abh_M_Normal "\xb5\x3"
+#define ch04_51_Philein_F_Normal "\x68\x3"
+#define ch09_20_Gatrie_M_Normal "\x69\x3"
+#define ch01_17_Sheeda_F_Normal "\x6a\x3"
+#define ch17_01_Beleth_F_ELECTION022 "\x6b\x3"
+#define ch10_01_Gray_M_Normal "\x6c\x3"
+#define ch10_02_Robin_M_Normal "\x6d\x3"
+#define ch10_07_Clerbe_M_Normal "\x6e\x3"
+#define ch10_05_Machilda_F_Normal "\x6f\x3"
+#define ch17_01_Beleth_F_Normal "\x70\x3"
+#define ch04_50_Grego_M_Normal "\x71\x3"
+#define ch02_18_Rutger_M_Normal "\x72\x3"
+#define ch05_24_Leon_M_Normal "\x73\x3"
+#define ch00_43_Embla_F_Disappear "\x74\x3"
+#define ch19_07_Etie_F_Normal "\x75\x3"
+#define ch02_01_Fir_F_Normal "\x76\x3"
+#define ch02_02_Bartr_M_Normal "\x77\x3"
+#define ch02_11_Thany_F_Normal "\x78\x3"
+#define ch17_69_Holst_M_Normal "\x79\x3"
+#define ch06_00_Celice_M_Normal "\x7a\x3"
+#define ch01_09_Riff_M_Normal "\x7b\x3"
+#define ch04_02_Ronkuu_M_Normal "\x7c\x3"
+#define ch04_03_Olivie_F_Normal "\x7d\x3"
+#define ch05_55_Macbeth_M_Normal "\x7e\x3"
+#define ch01_05_Jorjue_M_Normal "\x7f\x3"
+#define ch01_03_Barts_M_Normal "\x80\x3"
+#define ch08_09_Myrrh_F_Normal "\x81\x3"
+#define ch03_12_Jaffar_M_Normal "\x82\x3"
+#define ch03_29_Heath_M_Normal "\x83\x3"
+#define ch02_10_Clarine_F_Normal "\x84\x3"
+#define ch02_09_Secilia_F_Normal "\x85\x3"
+#define ch05_17_Asama_M_Normal "\x86\x3"
+#define ch05_10_Setsuna_F_Normal "\x87\x3"
+#define ch04_04_Denis_M_Normal "\x88\x3"
+#define ch03_33_Sonja_F_Normal "\x89\x3"
+#define ch05_40_Soleil_F_Normal "\x8a\x3"
+#define ch03_16_Ninian_F_Dark01 "\x8b\x3"
+#define ch01_54_Matisse_M_Normal "\x8c\x3"
+#define ch04_17_Tiamo_F_Normal "\x8d\x3"
+#define ch08_22_Natasha_F_Normal "\x8e\x3"
+#define ch08_20_Nord_M_Normal "\x8f\x3"
+#define ch03_22_Luise_F_Normal "\x90\x3"
+#define ch01_08_Maria_F_Normal "\x91\x3"
+#define ch02_03_Lilina_F_Normal "\x92\x3"
+#define ch02_07_Wendy_F_Normal "\x93\x3"
+#define ch09_00_Ike_M_ELECTION01 "\x94\x3"
+#define ch17_67_Sheds_M_Normal "\x95\x3"
+#define ch05_02_Kazahana_F_Normal "\x96\x3"
+#define ch08_30_Abh_M_Normal "\x97\x3"
+#define ch10_00_Arum_M_Normal "\x98\x3"
+#define ch04_16_Frederik_M_Normal "\x99\x3"
+#define ch04_11_Liz_F_Normal "\x9a\x3"
+#define ch01_52_Nina_F_Normal "\x9b\x3"
+#define ch04_14_Sort_M_Normal "\x9c\x3"
+#define ch04_15_Soiree_F_Normal "\x9d\x3"
+#define ch05_39_Syalla_F_Normal "\x9e\x3"
+#define ch06_29_Rex_M_Normal "\x9f\x3"
+#define ch02_06_Fa_F_Normal "\xa0\x3"
+#define ch02_04_Sofiya_F_Normal "\xa1\x3"
+#define ch02_05_Lleu_M_Normal "\xa2\x3"
+#define ch03_02_Matthew_M_Normal "\xa3\x3"
+#define ch05_00_Kamui_M_Dark "\xa4\x3"
+#define ch08_18_Ross_M_Normal "\xa5\x3"
+#define ch08_15_Ewan_M_Normal "\xa6\x3"
+#define ch01_01_Oguma_M_Normal "\xa7\x3"
+#define ch04_06_Guire_M_Normal "\xa8\x3"
+#define ch03_37_Limstella_N_Normal "\xa9\x3"
+#define ch05_29_Berka_F_Normal "\xaa\x3"
+#define ch05_05_Luna_F_Normal "\xab\x3"
+#define ch03_09_Leyvan_M_Normal "\xac\x3"
+#define ch03_03_Nino_F_Normal "\xad\x3"
+#define ch01_15_Camus_M_Normal "\xae\x3"
+#define ch01_35_Astria_M_Normal "\xaf\x3"
+#define ch01_13_Kain_M_Normal "\xb0\x3"
+#define ch01_16_Abel_M_Normal "\xb1\x3"
+#define ch04_05_Viaur_M_Normal "\xb2\x3"
+#define ch04_18_Serge_F_Normal "\xb3\x3"
+#define ch02_38_Gonzales_M_Normal "\xb4\x3"
+#define ch10_08_Cellica_F_Dark "\xb5\x3"
 #define ch02_37_Cath_F_Normal "\xb6\x3"
-#define ch01_08_Maria_F_Normal "\xb7\x3"
-#define ch03_01_Hawkeye_M_Normal "\xb8\x3"
-#define ch03_08_Flolina_F_Normal "\xb9\x3"
-#define ch05_00_Kamui_M_Dark "\xba\x3"
-#define ch05_39_Syalla_F_Normal "\xbb\x3"
-#define ch08_22_Natasha_F_Normal "\xbc\x3"
-#define ch08_20_Nord_M_Normal "\xbd\x3"
-#define ch09_19_Prague_F_Normal "\xbe\x3"
-#define ch04_17_Tiamo_F_Normal "\xbf\x3"
+#define ch09_19_Prague_F_Normal "\xb7\x3"
+#define ch04_10_Sallya_F_Normal "\xb8\x3"
+#define ch08_17_Cugar_M_Normal "\xb9\x3"
+#define ch17_47_Frameemperor_N_Normal "\xba\x3"
+#define ch05_08_Harold_M_Normal "\xbb\x3"
+#define ch05_20_Elfi_F_Normal "\xbc\x3"
+#define ch01_14_Jeigan_M_Normal "\xbd\x3"
+#define ch05_22_Pieri_F_Normal "\xbe\x3"
+#define ch05_04_Lazward_M_Normal "\xbf\x3"
+#define ch09_25_Masha_F_Normal "\xc0\x3"
+#define ch01_36_Banutu_M_Normal "\xc1\x3"
+#define ch09_14_Erase_F_Normal "\xc2\x3"
+#define ch04_12_Tiki_F_Normal "\xc3\x3"
+#define ch02_15_Lugh_M_Normal "\xc4\x3"
+#define ch05_16_Odin_M_Normal "\xc5\x3"
+#define ch03_01_Hawkeye_M_Normal "\xc6\x3"
+#define ch03_08_Flolina_F_Normal "\xc7\x3"
+#define ch02_08_Zefhyr_M_Normal "\xc8\x3"
+#define ch02_12_Nacien_M_Normal "\xc9\x3"
+#define ch04_13_Nono_F_Normal "\xca\x3"
+#define ch04_09_Henri_M_Normal "\xcb\x3"
