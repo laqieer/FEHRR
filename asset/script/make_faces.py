@@ -2,6 +2,8 @@
 
 # Path: asset/script/make_faces.py
 
+import common
+
 import os
 import re
 import json
@@ -192,8 +194,7 @@ def main():
     assign_face_ids()
     # print(face_ids)
     make_header('include/facesNew.h')
-    # make_faces('/mnt/c/Users/laqie/Projects/FEH/assets/Common/Face/', 'gfx/face/', 'source/faces.c')
-    make_faces('/Users/laqieer/Downloads/assets/Common/Face/', 'gfx/face/', 'source/faces.c')
+    make_faces(common.local_configs["assets"] + '/Common/Face/', 'gfx/face/', 'source/faces.c')
     make_test_text('source/facesTest.c')
 
 if __name__ == '__main__':
