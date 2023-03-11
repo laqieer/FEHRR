@@ -344,12 +344,16 @@ extern EventScr const EventScr_MoneyChest[];
 
 void DisplayBackgroundNoClearNew(int background)
 {
+    Assert(background >= 0 && background <= BACKGROUND_LAST);
+
     SetBgOffset(0, 0, 0);
     SetBgOffset(1, 0, 0);
     SetBgOffset(2, 0, 0);
     SetBgOffset(3, 0, 0);
 
-    Assert(background >= 0 && background <= BACKGROUND_LAST);
+    REG_DISPCNT &= ~DISPCNT_BG2_ENABLE;
+    REG_DISPCNT &= ~DISPCNT_BG3_ENABLE;
+
     if (background >= BACKGROUND_NEW)
     {
         background -= BACKGROUND_NEW;
