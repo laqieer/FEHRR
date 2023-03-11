@@ -24,4 +24,4 @@ extern struct BackgroundEntNew const newBackgrounds[];
 #define BackgroundHeightImg1 16
 #define BackgroundHeightImg2 4
 
-#define BgChrOffsetImg2 0x2000
+#define BgChrOffsetImg2 0x2800
