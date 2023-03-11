@@ -1093,6 +1093,42 @@
     [LANGUAGE_CHINESE] = "备战　邂逅",
 },
 
+[MID_MUSIC_NAME_BGM_MNS_FE06_08] = {
+    [LANGUAGE_JAPANESE] = "誘惑の踊り",
+    [LANGUAGE_ENGLISH] = "Enticing Dance",
+    [LANGUAGE_CHINESE] = "诱惑的舞蹈",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE16_15] = {
+    [LANGUAGE_JAPANESE] = "未来へのしるべ",
+    [LANGUAGE_ENGLISH] = "A Guide for the Future",
+    [LANGUAGE_CHINESE] = "迈向未来的路标",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE11_05] = {
+    [LANGUAGE_JAPANESE] = "進撃あるのみ",
+    [LANGUAGE_ENGLISH] = "Keep Marching On",
+    [LANGUAGE_CHINESE] = "唯有进击",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE17_13] = {
+    [LANGUAGE_JAPANESE] = "臨戦",
+    [LANGUAGE_ENGLISH] = "Preparations",
+    [LANGUAGE_CHINESE] = "备战",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE17_15] = {
+    [LANGUAGE_JAPANESE] = "お昼の見回りですか、神竜様",
+    [LANGUAGE_ENGLISH] = "On Day Patrol," TEXT_CMD_NEWLINE "Divine One?",
+    [LANGUAGE_CHINESE] = "神龙大人，您在午间巡逻吗？",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE14_14] = {
+    [LANGUAGE_JAPANESE] = "その来たるべき終焉を",
+    [LANGUAGE_ENGLISH] = "Coming Demise",
+    [LANGUAGE_CHINESE] = "注定要来的终结",
+},
+
 [MID_MUSIC_NAME_BGM_MNS_FE05_07] = {
     [LANGUAGE_JAPANESE] = "章の中で サラ",
     [LANGUAGE_ENGLISH] = "Sara",
@@ -1175,40 +1211,4 @@
     [LANGUAGE_JAPANESE] = "風花の試練",
     [LANGUAGE_ENGLISH] = "Trial of the Academy",
     [LANGUAGE_CHINESE] = "风花的试炼",
-},
-
-[MID_MUSIC_NAME_BGM_MNS_FE17_15] = {
-    [LANGUAGE_JAPANESE] = "お昼の見回りですか、神竜様",
-    [LANGUAGE_ENGLISH] = "On Day Patrol," TEXT_CMD_NEWLINE "Divine One?",
-    [LANGUAGE_CHINESE] = "神龙大人，您在午间巡逻吗？",
-},
-
-[MID_MUSIC_NAME_BGM_MNS_FE14_14] = {
-    [LANGUAGE_JAPANESE] = "その来たるべき終焉を",
-    [LANGUAGE_ENGLISH] = "Coming Demise",
-    [LANGUAGE_CHINESE] = "注定要来的终结",
-},
-
-[MID_MUSIC_NAME_BGM_MNS_FE11_05] = {
-    [LANGUAGE_JAPANESE] = "進撃あるのみ",
-    [LANGUAGE_ENGLISH] = "Keep Marching On",
-    [LANGUAGE_CHINESE] = "唯有进击",
-},
-
-[MID_MUSIC_NAME_BGM_MNS_FE17_13] = {
-    [LANGUAGE_JAPANESE] = "臨戦",
-    [LANGUAGE_ENGLISH] = "Preparations",
-    [LANGUAGE_CHINESE] = "备战",
-},
-
-[MID_MUSIC_NAME_BGM_MNS_FE06_08] = {
-    [LANGUAGE_JAPANESE] = "誘惑の踊り",
-    [LANGUAGE_ENGLISH] = "Enticing Dance",
-    [LANGUAGE_CHINESE] = "诱惑的舞蹈",
-},
-
-[MID_MUSIC_NAME_BGM_MNS_FE16_15] = {
-    [LANGUAGE_JAPANESE] = "未来へのしるべ",
-    [LANGUAGE_ENGLISH] = "A Guide for the Future",
-    [LANGUAGE_CHINESE] = "迈向未来的路标",
 },

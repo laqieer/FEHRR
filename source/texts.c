@@ -22419,7 +22419,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "  测试文本",
     },
 
-    [3736] = {
+    [TEXT_ID_TEST] = {
         [LANGUAGE_JAPANESE] = FaceTestText,
         [LANGUAGE_ENGLISH] = FaceTestText,
         [LANGUAGE_CHINESE] = FaceTestText,

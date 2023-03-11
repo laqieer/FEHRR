@@ -1,6 +1,7 @@
 #include <stddef.h>
 #include "textNew.h"
 #include "gfx_glyph_JA.h"
+
 const struct GlyphNew GlySJA_E382A1 = { /* ァ */
     .next = NULL,
     .width = 6,

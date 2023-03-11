@@ -241,9 +241,11 @@ def write_header(filename):
         f.write('\n')
         f.write('#pragma once\n')
         f.write('\n')
-        text_id = 3737
+        f.write('#include "textTest.h"\n')
+        f.write('\n')
+        text_id = 1
         for key in text_keys:
-            f.write('#define %s %d\n' % (validate_text_key(key), text_id))
+            f.write('#define %s TEXT_ID_TEST + %d\n' % (validate_text_key(key), text_id))
             text_id += 1
 
 def main():

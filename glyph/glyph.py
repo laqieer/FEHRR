@@ -119,7 +119,8 @@ def make_C_source_file(glyphs, filename, language):
         f.write('#include <stddef.h>\n')
         f.write('#include "textNew.h"\n')
         f.write(f'#include "gfx_glyph_{language.name}.h"\n')
-        # f.write(f'#include "{Path(filename).stem}.h"\n\n')
+        # f.write(f'#include "{Path(filename).stem}.h"\n')
+        f.write('\n')
         g = {}
         for character, glyph in glyphs.items():
             b = [x for x in character.encode("utf-8")]

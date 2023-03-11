@@ -8,7 +8,9 @@
 #include "sound.h"
 #include "proc.h"
 #include "debugtext.h"
+#include "msg.h"
 #include "text.h"
+#include "textTest.h"
 #include "textNew.h"
 #include "sprite.h"
 #include "face.h"
@@ -152,13 +154,22 @@ extern struct ProcScr const ProcScr_TalkPutSpriteText[];
 
 extern struct ProcScr const ProcScr_TalkDebug[];
 
-#define TALK_TEXT_LINES 3
+int GetTalkTextLines(int text_id)
+{
+    if (text_id == TEXT_ID_TEST)
+        return 1;
+
+    if (text_id > TEXT_ID_TEST)
+        return 3;
+
+    return 2;
+}
 
 void InitTalkNew(int chr, int lines, i8 unpack_bubble)
 {
     int i;
 
-    lines = TALK_TEXT_LINES;
+    lines = GetTalkTextLines(sActiveMsg);
 
     InitTextFont(&sTalkFont, (u8 *) VRAM + GetBgChrOffset(0) + ((chr & 0x3FF) << 5), chr, BGPAL_TALK);
     SetInitTalkTextFont();
@@ -633,10 +644,22 @@ void PutTalkBubbleOld(int xAnchor, int yAnchor, int width, int height)
     PutTalkBubbleNew(xAnchor, yAnchor, width, height);
 }
 
+void TalkDebug_BgInit(struct GenericProc * proc)
+{
+    proc->y = BACKGROUND_NEW;
+    DisplayBackground(proc->y);
+}
+
+void TalkDebug_MsgInit(struct GenericProc * proc)
+{
+    proc->x = TEXT_ID_TEST;
+    TalkDebug_Unk_0800CA88(proc);
+}
+
 void TalkDebug_OnIdleNew(struct GenericProc * proc)
 {
     int msg = proc->x;
-    int background = proc->y;
+    int bg = proc->y;
 
     if (IsTalkLocked())
         ResumeTalk();
@@ -717,16 +740,26 @@ void TalkDebug_OnIdleNew(struct GenericProc * proc)
 
     if (gKeySt->pressed & KEY_BUTTON_B)
     {
-        if (background >= BACKGROUND_LAST)
-            background = 0;
+        if (bg >= BACKGROUND_LAST)
+            bg = 0;
         else
-            background++;
-        DisplayBackground(background);
-        proc->y = background;
+            bg++;
+        DisplayBackground(bg);
+        proc->y = bg;
     }
 }
 
-void TalkDebug_OnIdleOld(struct GenericProc * proc)
+struct ProcScr const ProcScr_TalkDebugNew[] =
 {
-    TalkDebug_OnIdleNew(proc);
-}
+    PROC_CALL(LockGame),
+    PROC_SLEEP(1),
+
+    PROC_CALL(TalkDebug_BgInit),
+    PROC_SLEEP(1),
+
+    PROC_CALL(TalkDebug_MsgInit),
+    PROC_REPEAT(TalkDebug_OnIdleNew),
+
+    PROC_CALL(UnlockGame),
+    PROC_END,
+};

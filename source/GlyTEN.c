@@ -1,6 +1,7 @@
 #include <stddef.h>
 #include "textNew.h"
 #include "gfx_glyph_EN.h"
+
 const struct GlyphNew GlyTEN_61 = { /* a */
     .next = NULL,
     .width = 4,

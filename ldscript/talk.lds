@@ -8,5 +8,5 @@
 .text.TalkInterpretNewFaceOld : {*(.text.TalkInterpretNewFaceOld)}
 . = PutTalkBubble - 1;
 .text.PutTalkBubbleOld : {*(.text.PutTalkBubbleOld)}
-. = TalkDebug_OnIdle - 1;
-.text.TalkDebug_OnIdleOld : {*(.text.TalkDebug_OnIdleOld)}
+. = ProcScr_TalkDebug;
+.rodata.ProcScr_TalkDebugNew : {*(.rodata.ProcScr_TalkDebugNew)}
