@@ -1,5 +1,10 @@
 {
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c"
+    }
 }

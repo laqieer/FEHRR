@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "All",
+            "includePath": [
+                "${DEVKITPRO}/libgba/include",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/decomp/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Applications/Xcode13.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "${DEVKITARM}/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

@@ -6,3 +6,4 @@ INCLUDE ../ldscript/talk.lds
 INCLUDE ../ldscript/text.lds
 INCLUDE ../ldscript/texts.lds
 INCLUDE ../ldscript/face.lds
+INCLUDE ../ldscript/event.lds

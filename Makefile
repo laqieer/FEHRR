@@ -27,7 +27,7 @@ INCLUDES	:= include include/decomp/include
 DATA		:=
 MUSIC		:=
 LDSCRIPTS	:= ldscript
-GRAPHICS	:= gfx/face gfx/glyph/EN gfx/glyph/JA gfx/glyph/ZH
+GRAPHICS	:= gfx/face gfx/glyph/EN gfx/glyph/JA gfx/glyph/ZH gfx/background
 
 #---------------------------------------------------------------------------------
 # options for code generation

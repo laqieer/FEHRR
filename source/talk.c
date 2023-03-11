@@ -28,6 +28,8 @@
 
 #include "log.h"
 
+#include "backgrounds.h"
+
 struct TalkChoiceEnt
 {
     u16 msg;
@@ -634,6 +636,7 @@ void PutTalkBubbleOld(int xAnchor, int yAnchor, int width, int height)
 void TalkDebug_OnIdleNew(struct GenericProc * proc)
 {
     int msg = proc->x;
+    int background = proc->y;
 
     if (IsTalkLocked())
         ResumeTalk();
@@ -710,6 +713,16 @@ void TalkDebug_OnIdleNew(struct GenericProc * proc)
         proc->unk34 = 0;
 
         StartTalkEvent(proc->x);
+    }
+
+    if (gKeySt->pressed & KEY_BUTTON_B)
+    {
+        if (background >= BACKGROUND_LAST)
+            background = 0;
+        else
+            background++;
+        DisplayBackground(background);
+        proc->y = background;
     }
 }
 
