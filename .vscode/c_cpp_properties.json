@@ -3,6 +3,7 @@
         {
             "name": "All",
             "includePath": [
+                "${DEVKITARM}/lib/gcc/arm-none-eabi/**",
                 "${DEVKITPRO}/libgba/include",
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include",

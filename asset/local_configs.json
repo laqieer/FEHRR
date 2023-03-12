@@ -2,5 +2,12 @@
     "FEH": {
         "linux": "/mnt/c/Users/laqie/Projects/FEH/",
         "darwin": "/Users/laqieer/Projects/FEH/"
+    },
+    "CKB2WAV": {
+        "linux": "asset/tool/CKBtoWav.exe",
+        "darwin": "asset/tool/cktool extract"
+    },
+    "voice": {
+        "freq": 10512
     }
 }

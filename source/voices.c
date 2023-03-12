@@ -1,0 +1,842 @@
+#include "heroes.h"
+#include "voice.h"
+#include "voices.h"
+
+const struct Voice voices[] = {
+    [PID_アルフォンス] = {
+        .attack = {
+            VOICE_ALFONS_ATTACK_1,
+            VOICE_ALFONS_ATTACK_2,
+        },
+        .damage = {
+            VOICE_ALFONS_DAMAGE_1,
+            VOICE_ALFONS_DAMAGE_2,
+        },
+        .map = {
+            VOICE_ALFONS_MAP_1,
+            VOICE_ALFONS_MAP_2,
+            VOICE_ALFONS_MAP_3,
+        },
+        .status = {
+            VOICE_ALFONS_STATUS_1,
+        },
+    },
+
+    [PID_シャロン] = {
+        .attack = {
+            VOICE_SHARON_ATTACK_1,
+            VOICE_SHARON_ATTACK_2,
+        },
+        .damage = {
+            VOICE_SHARON_DAMAGE_1,
+            VOICE_SHARON_DAMAGE_2,
+        },
+        .map = {
+            VOICE_SHARON_MAP_1,
+            VOICE_SHARON_MAP_2,
+            VOICE_SHARON_MAP_3,
+        },
+        .status = {
+            VOICE_SHARON_STATUS_1,
+        },
+    },
+
+    [PID_アンナ] = {
+        .attack = {
+            VOICE_ANNA_ATTACK_1,
+            VOICE_ANNA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_ANNA_DAMAGE_1,
+            VOICE_ANNA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_ANNA_MAP_1,
+            VOICE_ANNA_MAP_2,
+            VOICE_ANNA_MAP_3,
+        },
+        .status = {
+            VOICE_ANNA_STATUS_1,
+        },
+    },
+
+    [EID_ヴェロニカ] = {
+        .attack = {
+            VOICE_VERONICA_ATTACK_1,
+            VOICE_VERONICA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_VERONICA_DAMAGE_1,
+            VOICE_VERONICA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_VERONICA_MAP_1,
+            VOICE_VERONICA_MAP_2,
+            VOICE_VERONICA_MAP_3,
+        },
+        .status = {
+            VOICE_VERONICA_STATUS_1,
+        },
+    },
+
+    [PID_レギン] = {
+        .attack = {
+            VOICE_REGHIN_ATTACK_1,
+            VOICE_REGHIN_ATTACK_2,
+        },
+        .damage = {
+            VOICE_REGHIN_DAMAGE_1,
+            VOICE_REGHIN_DAMAGE_2,
+        },
+        .map = {
+            VOICE_REGHIN_MAP_1,
+            VOICE_REGHIN_MAP_2,
+            VOICE_REGHIN_MAP_3,
+        },
+        .status = {
+            VOICE_REGHIN_STATUS_1,
+        },
+    },
+
+    [EID_ブルーノ] = {
+        .attack = {
+            VOICE_BRUNO_ATTACK_1,
+            VOICE_BRUNO_ATTACK_2,
+        },
+        .damage = {
+            VOICE_BRUNO_DAMAGE_1,
+            VOICE_BRUNO_DAMAGE_2,
+        },
+        .map = {
+            VOICE_BRUNO_MAP_1,
+            VOICE_BRUNO_MAP_2,
+            VOICE_BRUNO_MAP_3,
+        },
+        .status = {
+            VOICE_BRUNO_STATUS_1,
+        },
+    },
+
+    [PID_神階ピアニー] = {
+        .attack = {
+            VOICE_PEONY_ATTACK_1,
+            VOICE_PEONY_ATTACK_2,
+        },
+        .damage = {
+            VOICE_PEONY_DAMAGE_1,
+            VOICE_PEONY_DAMAGE_2,
+        },
+        .map = {
+            VOICE_PEONY_MAP_1,
+            VOICE_PEONY_MAP_2,
+            VOICE_PEONY_MAP_3,
+        },
+        .status = {
+            VOICE_PEONY_STATUS_1,
+        },
+    },
+
+    [PID_フィヨルム] = {
+        .attack = {
+            VOICE_FJORM_ATTACK_1,
+            VOICE_FJORM_ATTACK_2,
+        },
+        .damage = {
+            VOICE_FJORM_DAMAGE_1,
+            VOICE_FJORM_DAMAGE_2,
+        },
+        .map = {
+            VOICE_FJORM_MAP_1,
+            VOICE_FJORM_MAP_2,
+            VOICE_FJORM_MAP_3,
+        },
+        .status = {
+            VOICE_FJORM_STATUS_1,
+        },
+    },
+
+    [PID_神階エイル] = {
+        .attack = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .damage = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_レティシア] = {
+        .attack = {
+            VOICE_LETIZIA_ATTACK_1,
+            VOICE_LETIZIA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_LETIZIA_DAMAGE_1,
+            VOICE_LETIZIA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_LETIZIA_MAP_1,
+            VOICE_LETIZIA_MAP_2,
+            VOICE_LETIZIA_MAP_3,
+        },
+        .status = {
+            VOICE_LETIZIA_STATUS_1,
+        },
+    },
+
+    [EID_オッテル] = {
+        .attack = {
+            VOICE_OTR_ATTACK_1,
+            VOICE_OTR_ATTACK_2,
+        },
+        .damage = {
+            VOICE_OTR_DAMAGE_1,
+            VOICE_OTR_DAMAGE_2,
+        },
+        .map = {
+            VOICE_OTR_MAP_1,
+            VOICE_OTR_MAP_2,
+            VOICE_OTR_MAP_3,
+        },
+        .status = {
+            VOICE_OTR_STATUS_1,
+        },
+    },
+
+    [EID_ファフニール] = {
+        .attack = {
+            VOICE_FAFNIR_ATTACK_1,
+            VOICE_FAFNIR_ATTACK_2,
+        },
+        .damage = {
+            VOICE_FAFNIR_DAMAGE_1,
+            VOICE_FAFNIR_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_フレイヤ] = {
+        .attack = {
+            VOICE_FREYA_ATTACK_1,
+            VOICE_FREYA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_FREYA_DAMAGE_1,
+            VOICE_FREYA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_FREYA_MAP_1,
+            VOICE_FREYA_MAP_2,
+            VOICE_FREYA_MAP_3,
+        },
+        .status = {
+            VOICE_FREYA_STATUS_1,
+        },
+    },
+
+    [EID_スルト] = {
+        .attack = {
+            VOICE_SURTR_ATTACK_1,
+            VOICE_SURTR_ATTACK_2,
+        },
+        .damage = {
+            VOICE_SURTR_DAMAGE_1,
+            VOICE_SURTR_DAMAGE_2,
+        },
+        .map = {
+            VOICE_SURTR_MAP_1,
+            VOICE_SURTR_MAP_2,
+            VOICE_SURTR_MAP_3,
+        },
+        .status = {
+            VOICE_SURTR_STATUS_1,
+        },
+    },
+
+    [PID_アシュ] = {
+        .attack = {
+            VOICE_ASH_ATTACK_1,
+            VOICE_ASH_ATTACK_2,
+        },
+        .damage = {
+            VOICE_ASH_DAMAGE_1,
+            VOICE_ASH_DAMAGE_2,
+        },
+        .map = {
+            VOICE_ASH_MAP_1,
+            VOICE_ASH_MAP_2,
+            VOICE_ASH_MAP_3,
+        },
+        .status = {
+            VOICE_ASH_STATUS_1,
+        },
+    },
+
+    [PID_神階アスク] = {
+        .attack = {
+            VOICE_ASK_GOD01_ATTACK_1,
+            VOICE_ASK_GOD01_ATTACK_2,
+        },
+        .damage = {
+            VOICE_ASK_GOD01_DAMAGE_1,
+            VOICE_ASK_GOD01_DAMAGE_2,
+        },
+        .map = {
+            VOICE_ASK_GOD01_MAP_1,
+            VOICE_ASK_GOD01_MAP_2,
+            VOICE_ASK_GOD01_MAP_3,
+        },
+        .status = {
+            VOICE_ASK_GOD01_STATUS_1,
+        },
+    },
+
+    [EID_リーヴ] = {
+        .attack = {
+            VOICE_LIF_ATTACK_1,
+            VOICE_LIF_ATTACK_2,
+        },
+        .damage = {
+            VOICE_LIF_DAMAGE_1,
+            VOICE_LIF_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_レーギャルン] = {
+        .attack = {
+            VOICE_LAEGJARN_ATTACK_1,
+            VOICE_LAEGJARN_ATTACK_2,
+        },
+        .damage = {
+            VOICE_LAEGJARN_DAMAGE_1,
+            VOICE_LAEGJARN_DAMAGE_2,
+        },
+        .map = {
+            VOICE_LAEGJARN_MAP_1,
+            VOICE_LAEGJARN_MAP_2,
+            VOICE_LAEGJARN_MAP_3,
+        },
+        .status = {
+            VOICE_LAEGJARN_STATUS_1,
+        },
+    },
+
+    [EID_ダグ] = {
+        .attack = {
+            VOICE_DAGR_ATTACK_1,
+            VOICE_DAGR_ATTACK_2,
+        },
+        .damage = {
+            VOICE_DAGR_DAMAGE_1,
+            VOICE_DAGR_DAMAGE_2,
+        },
+        .map = {
+            VOICE_DAGR_MAP_1,
+            VOICE_DAGR_MAP_2,
+            VOICE_DAGR_MAP_3,
+        },
+        .status = {
+            VOICE_DAGR_STATUS_1,
+        },
+    },
+
+    [EID_エイトリ] = {
+        .attack = {
+            VOICE_EITRI_ATTACK_1,
+            VOICE_EITRI_ATTACK_2,
+        },
+        .damage = {
+            VOICE_EITRI_DAMAGE_1,
+            VOICE_EITRI_DAMAGE_2,
+        },
+        .map = {
+            VOICE_EITRI_MAP_1,
+            VOICE_EITRI_MAP_2,
+            VOICE_EITRI_MAP_3,
+        },
+        .status = {
+            VOICE_EITRI_STATUS_1,
+        },
+    },
+
+    [EID_レーヴァテイン] = {
+        .attack = {
+            VOICE_LAEVATEIN_ATTACK_1,
+            VOICE_LAEVATEIN_ATTACK_2,
+        },
+        .damage = {
+            VOICE_LAEVATEIN_DAMAGE_1,
+            VOICE_LAEVATEIN_DAMAGE_2,
+        },
+        .map = {
+            VOICE_LAEVATEIN_MAP_1,
+            VOICE_LAEVATEIN_MAP_2,
+            VOICE_LAEVATEIN_MAP_3,
+        },
+        .status = {
+            VOICE_LAEVATEIN_STATUS_1,
+        },
+    },
+
+    [EID_エンブラ] = {
+        .attack = {
+            VOICE_EMBLA_ATTACK_1,
+            VOICE_EMBLA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_EMBLA_DAMAGE_1,
+            VOICE_EMBLA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_EMBLA_MAP_1,
+            VOICE_EMBLA_MAP_2,
+            VOICE_EMBLA_MAP_3,
+        },
+        .status = {
+            VOICE_EMBLA_STATUS_1,
+        },
+    },
+
+    [EID_ヘル] = {
+        .attack = {
+            VOICE_HELL_ATTACK_1,
+            VOICE_HELL_ATTACK_2,
+        },
+        .damage = {
+            VOICE_HELL_DAMAGE_1,
+            VOICE_HELL_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [PID_セイズ] = {
+        .attack = {
+            VOICE_SEITH_ATTACK_1,
+            VOICE_SEITH_ATTACK_2,
+        },
+        .damage = {
+            VOICE_SEITH_DAMAGE_1,
+            VOICE_SEITH_DAMAGE_2,
+        },
+        .map = {
+            VOICE_SEITH_MAP_1,
+            VOICE_SEITH_MAP_2,
+            VOICE_SEITH_MAP_3,
+        },
+        .status = {
+            VOICE_SEITH_STATUS_1,
+        },
+    },
+
+    [EID_グスタフ] = {
+        .attack = {
+            VOICE_GUSTAF_ATTACK_1,
+            VOICE_GUSTAF_ATTACK_2,
+        },
+        .damage = {
+            VOICE_GUSTAF_DAMAGE_1,
+            VOICE_GUSTAF_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [PID_ユルグ] = {
+        .attack = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .damage = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [PID_愛の祭ヘンリエッテ] = {
+        .attack = {
+            VOICE_HENRIETTE_VALENTINE04_ATTACK_1,
+            VOICE_HENRIETTE_VALENTINE04_ATTACK_2,
+        },
+        .damage = {
+            VOICE_HENRIETTE_VALENTINE04_DAMAGE_1,
+            VOICE_HENRIETTE_VALENTINE04_DAMAGE_2,
+        },
+        .map = {
+            VOICE_HENRIETTE_VALENTINE04_MAP_1,
+            VOICE_HENRIETTE_VALENTINE04_MAP_2,
+            VOICE_HENRIETTE_VALENTINE04_MAP_3,
+        },
+        .status = {
+            VOICE_HENRIETTE_VALENTINE04_STATUS_1,
+        },
+    },
+
+    [EID_ロキ] = {
+        .attack = {
+            VOICE_LOKI_ATTACK_1,
+            VOICE_LOKI_ATTACK_2,
+        },
+        .damage = {
+            VOICE_LOKI_DAMAGE_1,
+            VOICE_LOKI_DAMAGE_2,
+        },
+        .map = {
+            VOICE_LOKI_MAP_1,
+            VOICE_LOKI_MAP_2,
+            VOICE_LOKI_MAP_3,
+        },
+        .status = {
+            VOICE_LOKI_STATUS_1,
+        },
+    },
+
+    [EID_ノート] = {
+        .attack = {
+            VOICE_NOTT_ATTACK_1,
+            VOICE_NOTT_ATTACK_2,
+        },
+        .damage = {
+            VOICE_NOTT_DAMAGE_1,
+            VOICE_NOTT_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NOTT_MAP_1,
+            VOICE_NOTT_MAP_2,
+            VOICE_NOTT_MAP_3,
+        },
+        .status = {
+            VOICE_NOTT_STATUS_1,
+        },
+    },
+
+    [EID_スカビオサ] = {
+        .attack = {
+            VOICE_SCABIOSA_ATTACK_1,
+            VOICE_SCABIOSA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_SCABIOSA_DAMAGE_1,
+            VOICE_SCABIOSA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_SCABIOSA_MAP_1,
+            VOICE_SCABIOSA_MAP_2,
+            VOICE_SCABIOSA_MAP_3,
+        },
+        .status = {
+            VOICE_SCABIOSA_STATUS_1,
+        },
+    },
+
+    [EID_エルム] = {
+        .attack = {
+            VOICE_ELM_ATTACK_1,
+            VOICE_ELM_ATTACK_2,
+        },
+        .damage = {
+            VOICE_ELM_DAMAGE_1,
+            VOICE_ELM_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_ヘルビンディ] = {
+        .attack = {
+            VOICE_HELBINDI_ATTACK_1,
+            VOICE_HELBINDI_ATTACK_2,
+        },
+        .damage = {
+            VOICE_HELBINDI_DAMAGE_1,
+            VOICE_HELBINDI_DAMAGE_2,
+        },
+        .map = {
+            VOICE_HELBINDI_MAP_1,
+            VOICE_HELBINDI_MAP_2,
+            VOICE_HELBINDI_MAP_3,
+        },
+        .status = {
+            VOICE_HELBINDI_STATUS_1,
+        },
+    },
+
+    [EID_フロージ] = {
+        .attack = {
+            VOICE_FRODA_ATTACK_1,
+            VOICE_FRODA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_FRODA_DAMAGE_1,
+            VOICE_FRODA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [PID_神階ルピナス] = {
+        .attack = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .damage = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_ヴェロニカ洗脳] = {
+        .attack = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .damage = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [PID_フリーズ] = {
+        .attack = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .damage = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_プルメリア] = {
+        .attack = {
+            VOICE_PLUMERIA_ATTACK_1,
+            VOICE_PLUMERIA_ATTACK_2,
+        },
+        .damage = {
+            VOICE_PLUMERIA_DAMAGE_1,
+            VOICE_PLUMERIA_DAMAGE_2,
+        },
+        .map = {
+            VOICE_PLUMERIA_MAP_1,
+            VOICE_PLUMERIA_MAP_2,
+            VOICE_PLUMERIA_MAP_3,
+        },
+        .status = {
+            VOICE_PLUMERIA_STATUS_1,
+        },
+    },
+
+    [EID_スラシル] = {
+        .attack = {
+            VOICE_SRASIR_ATTACK_1,
+            VOICE_SRASIR_ATTACK_2,
+        },
+        .damage = {
+            VOICE_SRASIR_DAMAGE_1,
+            VOICE_SRASIR_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_ネルトゥス] = {
+        .attack = {
+            VOICE_NERTHUS_ATTACK_1,
+            VOICE_NERTHUS_ATTACK_2,
+        },
+        .damage = {
+            VOICE_NERTHUS_DAMAGE_1,
+            VOICE_NERTHUS_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [EID_グルヴェイグ] = {
+        .attack = {
+            VOICE_GULLVEIG_ATTACK_1,
+            VOICE_GULLVEIG_ATTACK_2,
+        },
+        .damage = {
+            VOICE_GULLVEIG_DAMAGE_1,
+            VOICE_GULLVEIG_DAMAGE_2,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [PID_マークス] = {
+        .attack = {
+            VOICE_MARKS_ATTACK_1,
+            VOICE_MARKS_ATTACK_2,
+        },
+        .damage = {
+            VOICE_MARKS_DAMAGE_1,
+            VOICE_MARKS_DAMAGE_2,
+        },
+        .map = {
+            VOICE_MARKS_MAP_1,
+            VOICE_MARKS_MAP_2,
+            VOICE_MARKS_MAP_3,
+        },
+        .status = {
+            VOICE_MARKS_STATUS_1,
+        },
+    },
+
+    [EID_レティシア洗脳] = {
+        .attack = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .damage = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+    [PID_スリーズ] = {
+        .attack = {
+            VOICE_CERISE_ATTACK_1,
+            VOICE_CERISE_ATTACK_2,
+        },
+        .damage = {
+            VOICE_CERISE_DAMAGE_1,
+            VOICE_CERISE_DAMAGE_2,
+        },
+        .map = {
+            VOICE_CERISE_MAP_1,
+            VOICE_CERISE_MAP_2,
+            VOICE_CERISE_MAP_3,
+        },
+        .status = {
+            VOICE_CERISE_STATUS_1,
+        },
+    },
+
+    [EID_フード] = {
+        .attack = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .damage = {
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .status = {
+            VOICE_NULL,
+        },
+    },
+
+};
