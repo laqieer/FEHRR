@@ -1,6 +1,6 @@
 {
-    "assets": {
-        "linux": "/mnt/c/Users/laqie/Projects/FEH/assets/",
-        "darwin": "/Users/laqieer/Downloads/assets/"
+    "FEH": {
+        "linux": "/mnt/c/Users/laqie/Projects/FEH/",
+        "darwin": "/Users/laqieer/Projects/FEH/"
     }
 }

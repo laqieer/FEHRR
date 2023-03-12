@@ -67,7 +67,7 @@ def make_header(filename):
 def main():
     load_backgrounds_in_scenarios('asset/json/files/assets/JPJA/Message/Scenario/')
     make_header('include/backgrounds.h')
-    make_backgrounds(common.local_configs["assets"] + '/Common/Img_Talk/', 'gfx/background/', 'source/backgrounds.c')
+    make_backgrounds(common.local_configs["FEH"] + '/assets/Common/Img_Talk/', 'gfx/background/', 'source/backgrounds.c')
 
 if __name__ == '__main__':
     main()

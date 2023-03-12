@@ -1,0 +1,105 @@
+.
+├── 01.05.2022 Update [Ascended Joshua Update].rar
+├── 01.06.2021 Update [Shared Purpose Update].rar
+├── 01.07.2020 Update [Heir of Light Update].rar
+├── 01.09.2023 Update [Sage of Khadein].rar
+├── 01.16.2020 Update [A Star is Born Update].rar
+├── 01.16.2022 Update [Of Lost Kingdoms Update].rar
+├── 01.18.2021 Update [Dark Desert Rituals Update].rar
+├── 02.03.2021 Update [Love of a King Update].rar
+├── 02.05.2020 Update [Lovely Gifts Update].rar
+├── 02.06.2019 Update [Greils Devoted Update].rar
+├── 02.06.2022 Update [Here with Me Update]v2.rar
+├── 02.07.2023 Update [A Special Gift].rar
+├── 02.16.2021 Update [Enduring Legacy Update].rar
+├── 02.17.2020 Update [The Dread Isle Update].rar
+├── 02.17.2022 Update [Ascended Idunn Update].rar
+├── 02.17.2023 Update [Ascended Elincia].rar
+├── 02.19.2019 Update [Kitsune and Wolfskin Update].rar
+├── 03.03.2021 Update [Seeds of Fodlan Update].rar
+├── 03.05.2020 Update [Harmony amid Chaos Update].rar
+├── 03.06.2019 Update [Beyond Darkness Update].rar
+├── 03.07.2022 Update [Hop & Go Seek Update].rar
+├── 03.17.2021 Update [Willful Rabbits Update].rar
+├── 03.18.2020 Update [Familiar Festivities Update].rar
+├── 03.18.2022 Update [Ascended Mareeta Update].rar
+├── 03.19.2019 Update [Regal Rabbits Update].rar
+├── 04.04.2021 Update [Bond of Trust Update].rar
+├── 04.05.2022 Update [Unlikely Friends Update].rar
+├── 04.06.2020 Update [Journey Begins Update].rar
+├── 04.08.2019 Update [Out of Gallia Update].rar
+├── 04.18.2021 Update [Childhood Encounter Update].rar
+├── 04.18.2022 Update [Ascended Ishtar Update].rar
+├── 04.19.2019 Update [A Season for Picnics Update].rar
+├── 04.20.2020 Update [The Start of it All Update].rar
+├── 05.06.2020 Update [Dark Burdens Update].rar
+├── 05.06.2021 Update [Forces of Will Update].rar
+├── 05.08.2019 Update [Darkness Within Update].rar
+├── 05.09.2022 Update [Beyond Control Update].rar
+├── 05.20.2020 Update [Bridal Beloveds Update].rar
+├── 05.20.2021 Update [Bridal Grace Update].rar
+├── 05.20.2022 Update [Bridal Blossoms Update].rar
+├── 05.21.2019 Update [Bridal Belonging Update].rar
+├── 06.05.2020 Update [Book IV Midpoint Update].rar
+├── 06.06.2021 Update [Nott & More Update].rar
+├── 06.06.2022 Update [Book 6 Midpoint Update].rar
+├── 06.09.2019 Update [From a Future Past Update].rar
+├── 06.17.2022 Update [Summer Vacation Update].rar
+├── 06.18.2020 Update [Summer Passing Update].rar
+├── 06.20.2019 Update [Summers Return Update].rar
+├── 06.21.2021 Update [Summer Vibrance Update].rar
+├── 07.05.2021 Update [Summer's Dream Update] v2.rar
+├── 07.05.2022 Update [Taken by the Tide Update].rar
+├── 07.06.2020 Update [Overseas Memories Update].rar
+├── 07.07.2019 Update [Summers Refreshes  Update].rar
+├── 07.19.2020 Update [Heroes, Light and Shadow Update].rar
+├── 07.19.2021 Update [Dawning Reality Update].rar
+├── 07.19.2022 Update [Ymir and More Update].rar
+├── 07.22.2019 Update [Three Houses Update].rar
+├── 08.04.2021 Update [Perilous Seas Update].rar
+├── 08.05.2019 Update [Changing Winds Update].rar
+├── 08.05.2020 Update [Pirates Pride Update].rar
+├── 08.07.2022 Update [Risk and Reward Update].rar
+├── 08.16.2019 Update [Brave Echoes Update].rar
+├── 08.17.2021 Update [Keepers of Faith Update].rar
+├── 08.17.2022 Update [CYL 6 Update].rar
+├── 08.18.2020 Update [A New Future Update].rar
+├── 09.04.2019 Update [A Splendid Soiree Update].rar
+├── 09.05.2021 Update [Scions of the Twelve Update].rar
+├── 09.05.2022 Update [Bite of Flame Update].rar
+├── 09.06.2020 Update [To Stay Dreaming Update]v2.rar
+├── 09.15.2022 Update [Rearmed Lif Update].rar
+├── 09.16.2021 Update [Abyss & Múspell Update].rar
+├── 09.18.2020 Update [Despair and Hope Update].rar
+├── 09.19.2019 Update [The Chosen Ones Update].rar
+├── 10.04.2022 Update [Divine Harvest Update].rar
+├── 10.05.2021 Update [Shared Bounty Update].rar
+├── 10.06.2020 Update [Dragons Harvest Update].rar
+├── 10.08.2019 Update [A Monstrous Harvest Update].rar
+├── 10.17.2022 Update [Rearmed Robin Update].rar
+├── 10.18.2021 Update [Ascended Fjorm Update].rar
+├── 10.19.2020 Update [Goddess's Servants Update].rar
+├── 10.21.2019 Update [Zofia's Call Update].rar
+├── 11.03.2021 Update [Ninja Training Update].rar
+├── 11.04.2020 Update [In the Moment Update].rar
+├── 11.06.2019 Update [Desert Mercenaries Update].rar
+├── 11.06.2022 Update [Wyvern Ninja Update].rar
+├── 11.16.2020 Update [Princess of Bern Update].rar
+├── 11.16.2021 Update [Ascended Laegjarn Update].rar
+├── 11.18.2019 Update [Guardians of Peace Update].rar
+├── 11.18.2022 Update [Rearmed Ganglot + Ascended Tiki Update].rar
+├── 12.05.2019 Update [Book 4 Update].rar
+├── 12.05.2021 Update [Book 6 Update].rar
+├── 12.05.2022 Update [Book 7 Update].rar
+├── 12.08.2020 Update [Book 5 Update].rar
+├── 12.15.2021 Update [Winter Dreamland Update].rar
+├── 12.16.2019 Update [Glorious Gifts Update].rar
+├── 12.16.2022 Update [Holiday Handover].rar
+├── 12.17.2020 Update [A Festive Miracle Update].rar
+├── 12.26.2019 Update [Renewed Spirit Update].rar
+├── 12.27.2021 Update [Like Clockwork Update].rar
+├── 12.28.2020 Update [New Year uwu Update].rar
+├── 12.28.2022 Update [Gods Renewed].rar
+└── FEH Complete Asset Collection 01.29.19.rar
+
+0 directories, 102 files

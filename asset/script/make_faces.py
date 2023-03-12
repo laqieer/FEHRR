@@ -194,7 +194,7 @@ def main():
     assign_face_ids()
     # print(face_ids)
     make_header('include/facesNew.h')
-    make_faces(common.local_configs["assets"] + '/Common/Face/', 'gfx/face/', 'source/faces.c')
+    make_faces(common.local_configs["FEH"] + '/assets/Common/Face/', 'gfx/face/', 'source/faces.c')
     make_test_text('source/facesTest.c')
 
 if __name__ == '__main__':
