@@ -157,20 +157,20 @@ const struct Voice voices[] = {
 
     [PID_神階エイル] = {
         .attack = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_EIR_ATTACK_1,
+            VOICE_EIR_ATTACK_2,
         },
         .damage = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_EIR_DAMAGE_1,
+            VOICE_EIR_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_EIR_MAP_1,
+            VOICE_EIR_MAP_2,
+            VOICE_EIR_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_EIR_STATUS_1,
         },
     },
 
@@ -222,12 +222,12 @@ const struct Voice voices[] = {
             VOICE_FAFNIR_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_FAFNIR_NEWYEAR05_MAP_1,
+            VOICE_FAFNIR_NEWYEAR05_MAP_2,
+            VOICE_FAFNIR_NEWYEAR05_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_FAFNIR_NEWYEAR05_STATUS_1,
         },
     },
 
@@ -317,12 +317,12 @@ const struct Voice voices[] = {
             VOICE_LIF_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_LIF2_MAP_1,
+            VOICE_LIF2_MAP_2,
+            VOICE_LIF2_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_LIF2_STATUS_1,
         },
     },
 
@@ -431,12 +431,12 @@ const struct Voice voices[] = {
             VOICE_HELL_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_HELL_GOD01_MAP_1,
+            VOICE_HELL_GOD01_MAP_2,
+            VOICE_HELL_GOD01_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_HELL_GOD01_STATUS_1,
         },
     },
 
@@ -469,31 +469,31 @@ const struct Voice voices[] = {
             VOICE_GUSTAF_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_GUSTAF_VALENTINE04_MAP_1,
+            VOICE_GUSTAF_VALENTINE04_MAP_2,
+            VOICE_GUSTAF_VALENTINE04_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_GUSTAF_VALENTINE04_STATUS_1,
         },
     },
 
     [PID_ユルグ] = {
         .attack = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_YURG_ATTACK_1,
+            VOICE_YURG_ATTACK_2,
         },
         .damage = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_YURG_DAMAGE_1,
+            VOICE_YURG_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_YURG_MAP_1,
+            VOICE_YURG_MAP_2,
+            VOICE_YURG_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_YURG_STATUS_1,
         },
     },
 
@@ -583,12 +583,12 @@ const struct Voice voices[] = {
             VOICE_ELM_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_ELM_NEWYEAR01_MAP_1,
+            VOICE_ELM_NEWYEAR01_MAP_2,
+            VOICE_ELM_NEWYEAR01_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_ELM_NEWYEAR01_STATUS_1,
         },
     },
 
@@ -621,31 +621,31 @@ const struct Voice voices[] = {
             VOICE_FRODA_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_FRODA_SUMMER10_MAP_1,
+            VOICE_FRODA_SUMMER10_MAP_2,
+            VOICE_FRODA_SUMMER10_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_FRODA_SUMMER10_STATUS_1,
         },
     },
 
     [PID_神階ルピナス] = {
         .attack = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_LUPINE_ATTACK_1,
+            VOICE_LUPINE_ATTACK_2,
         },
         .damage = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_LUPINE_DAMAGE_1,
+            VOICE_LUPINE_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_LUPINE_MAP_1,
+            VOICE_LUPINE_MAP_2,
+            VOICE_LUPINE_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_LUPINE_STATUS_1,
         },
     },
 
@@ -670,20 +670,20 @@ const struct Voice voices[] = {
 
     [PID_フリーズ] = {
         .attack = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_FREEZE_ATTACK_1,
+            VOICE_FREEZE_ATTACK_2,
         },
         .damage = {
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_FREEZE_DAMAGE_1,
+            VOICE_FREEZE_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_FREEZE_MAP_1,
+            VOICE_FREEZE_MAP_2,
+            VOICE_FREEZE_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_FREEZE_STATUS_1,
         },
     },
 
@@ -716,12 +716,12 @@ const struct Voice voices[] = {
             VOICE_SRASIR_DAMAGE_2,
         },
         .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
+            VOICE_SRASIR_GOD01_MAP_1,
+            VOICE_SRASIR_GOD01_MAP_2,
+            VOICE_SRASIR_GOD01_MAP_3,
         },
         .status = {
-            VOICE_NULL,
+            VOICE_SRASIR_GOD01_STATUS_1,
         },
     },
 

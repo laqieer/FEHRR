@@ -19,10 +19,22 @@ src_folders = (
 
 dst_folder = 'voice/'
 
-heroes = []
-voices = []
-hero_romans = {}
-hero_counts = {}
+hero_romans = {
+    "PID_神階エイル": "EIR",
+    "PID_ユルグ": "YURG",
+    "PID_神階ルピナス": "LUPINE",
+    "PID_フリーズ": "FREEZE",
+}
+
+hero_romans2 = {
+    "EID_ファフニール": "FAFNIR_NEWYEAR05",
+    "EID_リーヴ": "LIF2",
+    "EID_ヘル": "HELL_GOD01",
+    "EID_グスタフ": "GUSTAF_VALENTINE04",
+    "EID_エルム": "ELM_NEWYEAR01",
+    "EID_フロージ": "FRODA_SUMMER10",
+    "EID_スラシル": "SRASIR_GOD01",
+}
 
 specials = {
     "PID_ブルーノ皇子": "EID_ブルーノ",
@@ -41,6 +53,10 @@ exceptions = (
     "PID_アルフォンス0",
     "PID_スルト名前",
 )
+
+heroes = []
+voices = []
+hero_counts = {}
 
 def get_real_name(hero):
     if hero in hero_romans:
@@ -66,7 +82,8 @@ def load_hero_romans(folder):
             with open(path, 'r') as f:
                 heros = json.load(f)
                 for hero in heros:
-                    hero_romans[hero['id_tag']] = hero['roman']
+                    if hero['id_tag'] not in hero_romans:
+                        hero_romans[hero['id_tag']] = hero['roman']
 
 def load_heroes_in_scenarios(folder):
     for root, dirs, files in os.walk(folder):
@@ -138,6 +155,7 @@ def make_voices(filename):
         f.write('const struct Voice voices[] = {\n')
         for hero in heroes:
             roman = hero_romans[hero]
+            roman2 = hero_romans2.get(hero, roman)
             f.write('    [%s] = {\n' % hero)
             f.write('        .attack = {\n')
             f.write('            %s,\n' % handle_voice('VOICE_%s_ATTACK_1' % roman))
@@ -148,12 +166,12 @@ def make_voices(filename):
             f.write('            %s,\n' % handle_voice('VOICE_%s_DAMAGE_2' % roman))
             f.write('        },\n')
             f.write('        .map = {\n')
-            f.write('            %s,\n' % handle_voice('VOICE_%s_MAP_1' % roman))
-            f.write('            %s,\n' % handle_voice('VOICE_%s_MAP_2' % roman))
-            f.write('            %s,\n' % handle_voice('VOICE_%s_MAP_3' % roman))
+            f.write('            %s,\n' % handle_voice('VOICE_%s_MAP_1' % roman2))
+            f.write('            %s,\n' % handle_voice('VOICE_%s_MAP_2' % roman2))
+            f.write('            %s,\n' % handle_voice('VOICE_%s_MAP_3' % roman2))
             f.write('        },\n')
             f.write('        .status = {\n')
-            f.write('            %s,\n' % handle_voice('VOICE_%s_STATUS_1' % roman))
+            f.write('            %s,\n' % handle_voice('VOICE_%s_STATUS_1' % roman2))
             f.write('        },\n')
             f.write('    },\n')
             f.write('\n')
