@@ -30,6 +30,7 @@
 
 # Executables
 *.exe
+!asset/tool/*.exe
 *.out
 *.app
 *.i*86
