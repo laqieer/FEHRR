@@ -99,15 +99,32 @@ def find_voice(filename):
             return filepath
     return None
 
+def get_converted_wavefile(voice_path):
+    wavefile = voice_path + '.wav'
+    if os.path.exists(wavefile):
+        return wavefile
+    wavefile = voice_path + '_' + os.path.basename(voice_path) + '_extracted.wav'
+    if os.path.exists(wavefile):
+        return wavefile
+    for f in os.listdir(os.path.dirname(voice_path)):
+        if f.startswith(os.path.basename(voice_path)) and f.endswith('.wav'):
+            wavefile = os.path.join(os.path.dirname(voice_path), f)
+            return wavefile
+    return None
+
 def handle_voice(voice):
     filepath = find_voice(voice + '.ckb')
     if filepath is None:
         warnings.warn('voice not found: %s' % voice)
         return 'VOICE_NULL'
     voices.append(voice)
-    subprocess.run([common.local_configs["CKB2WAV"], filepath.replace('/mnt/c/', 'c:/')], check=True)
-    subprocess.run(["sox", os.path.splitext(filepath)[0] + '.wav', "-r %d" % common.local_configs["voice"]["freq"], "-b 8", "-c 1", os.path.join(dst_folder, voice + '.wav')], check=True)
-    os.remove(os.path.splitext(filepath)[0] + '.wav')
+    subprocess.run(common.local_configs["CKB2WAV"] + ' ' +  filepath.replace('/mnt/c/', 'c:/'), shell=True, check=True)
+    wavefile = get_converted_wavefile(os.path.splitext(filepath)[0])
+    if wavefile is None:
+        warnings.warn('CKB2WAV conversion failed: %s' % filepath)
+        exit(1)
+    subprocess.run(["sox", wavefile, "-r %d" % common.local_configs["voice"]["freq"], "-b 8", "-c 1", os.path.join(dst_folder, voice + '.wav')], check=True)
+    os.remove(wavefile)
     return voice
 
 def make_voices(filename):
