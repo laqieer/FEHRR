@@ -18,7 +18,7 @@ jobs:
         submodules: recursive
 
     - name: Install python dependencies
-      run: apt-get install -y python3-pip && pip3 install numpy
+      run: apt-get update && apt-get install -y python3-pip && pip3 install numpy
 
     - name: Mock base ROM
       run: head -c 8M /dev/urandom > baserom.gba
