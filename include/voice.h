@@ -18,3 +18,11 @@ struct Voice {
 
 extern const struct Song * const voices[];
 extern const struct Voice hero_voices[];
+extern const char * const voice_names[];
+
+int GetVoiceId(int hero_id, int voice_type);
+const char * GetVoiceName(int voice_id);
+void StartVoice(int voice_id);
+void StopVoice(void);
+
+void StartVoiceDebug(void);

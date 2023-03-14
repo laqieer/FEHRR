@@ -181,10 +181,18 @@ def make_voices(filename):
         for voice in voices:
             f.write('    [%s] = &%s_song,\n' % (voice, voice))
         f.write('};\n')
+        f.write('\n')
+        f.write('const char * const voice_names[] = {\n')
+        f.write('    [VOICE_NULL] = "NULL",\n')
+        for voice in voices:
+            f.write('    [%s] = "%s",\n' % (voice, voice))
+        f.write('};\n')
 
 def make_hero_header(filename):
     with open(filename, 'w') as f:
         f.write('#pragma once\n')
+        f.write('\n')
+        f.write('#define HERO_NUM %s\n' % len(heroes))
         f.write('\n')
         for i, hero in enumerate(heroes):
             f.write('#define %s %d\n' % (hero, i + 1))

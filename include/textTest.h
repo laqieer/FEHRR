@@ -1,3 +1,3 @@
 #pragma once
 
-#define TEXT_ID_TEST 3736
+#define TEXT_ID_TEST 3737

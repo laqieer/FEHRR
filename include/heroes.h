@@ -1,5 +1,7 @@
 #pragma once
 
+#define HERO_NUM 44
+
 #define PID_アルフォンス 1
 #define PID_シャロン 2
 #define PID_アンナ 3
