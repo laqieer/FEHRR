@@ -15,6 +15,7 @@ include $(DEVKITARM)/gba_rules
 # INCLUDES is a list of directories containing extra header files
 # DATA is a list of directories containing binary data
 # GRAPHICS is a list of directories containing files to be processed by grit
+# SOUNDS is a list of directories containing files to be processed by se2m4a
 #
 # All directories are specified relative to the project directory where
 # the makefile is found
@@ -28,6 +29,7 @@ DATA		:=
 MUSIC		:=
 LDSCRIPTS	:= ldscript
 GRAPHICS	:= gfx/face gfx/glyph/EN gfx/glyph/JA gfx/glyph/ZH gfx/background
+SOUNDS		:= sfx/voice
 
 #---------------------------------------------------------------------------------
 # options for code generation
@@ -55,10 +57,15 @@ LDFLAGS	+=	-nostartfiles
 ## Create a gfx library variable
 GFXLIBS     ?= $(foreach dir,$(GRAPHICS),lib$(subst /,_,$(dir)).a)
 
+## Create a sfx library variable
+SFXLIBS     ?= $(foreach dir,$(SOUNDS),lib$(subst /,_,$(dir)).a)
+
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:= -lmm -lgba $(foreach dir,$(GRAPHICS),-l$(subst /,_,$(dir)))
+LIBS	:= -lmm -lgba \
+	$(foreach dir,$(GRAPHICS),-l$(subst /,_,$(dir))) \
+	$(foreach dir,$(SOUNDS),-l$(subst /,_,$(dir)))
 
 
 #---------------------------------------------------------------------------------
@@ -80,7 +87,8 @@ export OUTPUT	:=	$(CURDIR)/$(TARGET)
 
 export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir)) \
 			$(foreach dir,$(DATA),$(CURDIR)/$(dir)) \
-			$(foreach dir,$(GRAPHICS),$(CURDIR)/$(dir))
+			$(foreach dir,$(GRAPHICS),$(CURDIR)/$(dir)) \
+			$(foreach dir,$(SOUNDS),$(CURDIR)/$(dir))
 
 export DEPSDIR	:=	$(CURDIR)/$(BUILD)
 
@@ -132,6 +140,9 @@ $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
 	@for dir in $(GRAPHICS); do \
 		GFXDIR=$$dir $(MAKE) --no-print-directory -f $(CURDIR)/gfxmake; \
+	done
+	@for dir in $(SOUNDS); do \
+		SFXDIR=$$dir $(MAKE) --no-print-directory -f $(CURDIR)/sfxmake; \
 	done
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 

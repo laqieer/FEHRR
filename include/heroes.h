@@ -21,8 +21,8 @@
 #define EID_ダグ 19
 #define EID_エイトリ 20
 #define EID_レーヴァテイン 21
-#define EID_エンブラ 22
-#define EID_ヘル 23
+#define EID_ヘル 22
+#define EID_エンブラ 23
 #define PID_セイズ 24
 #define EID_グスタフ 25
 #define PID_ユルグ 26

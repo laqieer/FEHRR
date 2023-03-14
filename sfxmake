@@ -1,0 +1,159 @@
+#
+# Making a sfx library from se2m4a output
+#
+# For use on data-arrays only. NO CODE!!!
+#
+
+# ---------------------------------------------------------------------
+# SETUP
+# ---------------------------------------------------------------------
+
+SHELL = /bin/bash
+
+export PATH :=  $(DEVKITARM)/bin:$(PATH)
+
+SE2M4A      := ../tool/se2m4a.py
+
+.SUFFIXES:
+
+include $(DEVKITARM)/base_rules
+
+
+# ---------------------------------------------------------------------
+# (1) PROJECT DETAILS
+# ---------------------------------------------------------------------
+
+# SFXDIR	: Directory for sound files. Should NOT be empty!
+# LIBNAME   : Sound library name
+# BUILD     : Directory for build process temporaries. Should NOT be empty!
+# SFXDIRS   : List of sound directories
+# SFXEXTS   : Sound extensions.
+# General note: use . for the current dir, don't leave them empty.
+
+SFXDIR		?= sfx
+LIBNAME	 	?= $(subst /,_,$(SFXDIR))
+BUILD       := build
+SFXDIRS     := $(shell find $(SFXDIR) -type d)
+SFXLIB      ?= lib$(LIBNAME).a
+SFXHDR      ?= $(LIBNAME).h
+
+SFXEXTS     := wav aif
+
+# ---------------------------------------------------------------------
+# BUILD FLAGS
+# ---------------------------------------------------------------------
+
+# Since there's no code to compile, we won't need optimizations,
+# architectures etc.
+
+CFLAGS      :=
+CXXFLAGS    := $(CFLAGS) -fno-rtti -fno-exceptions
+ASFLAGS     := -I ../include
+
+# ---------------------------------------------------------------------
+# DPCM COMPRESSION FLAGS
+# ---------------------------------------------------------------------
+
+DPCMFLAGS   :=
+
+# ---------------------------------------------------------------------
+# (2) BUILD PROCEDURE
+# ---------------------------------------------------------------------
+
+ifneq ($(BUILD),$(notdir $(CURDIR)))
+
+# still in main directory.
+
+export VPATH    :=  $(foreach dir, $(SFXDIRS), $(CURDIR)/$(dir))
+export DEPSDIR  :=  $(CURDIR)/$(BUILD)
+
+export TARGET   :=  $(DEPSDIR)/$(SFXLIB)
+
+SFXFILES    := 	$(foreach dir, $(SFXDIRS),                      \
+	                $(foreach ext, $(SFXEXTS),                  \
+	                    $(notdir $(wildcard $(dir)/*.$(ext)))   \
+	))
+
+export OFILES   := $(addsuffix .o, $(basename $(SFXFILES)))
+
+
+# --- More targets ----------------------------------------------------
+
+.PHONY: $(BUILD) clean
+
+# --- Create BUILD if necessary, and run this makefile from there ---
+
+$(BUILD):
+	@[ -d $@ ] || mkdir -p $@
+	@make --no-print-directory -C $(BUILD) -f $(CURDIR)/sfxmake
+
+all : $(BUILD)
+
+clean:
+	@echo clean ...
+	@rm -fr $(BUILD) $(TARGET) $(SFXHDR)
+
+
+# ---------------------------------------------------------------------
+
+else
+
+DEPENDS :=  $(OFILES:.o=.d)
+
+.PHONY : all
+
+all : $(TARGET) $(SFXHDR)
+
+$(TARGET) : $(OFILES)
+	@echo Archiving into $(notdir $@)
+	-@rm -f $@
+	@$(AR) rcs $@ $(OFILES)
+
+
+$(SFXHDR) : $(OFILES)
+	@echo "Creating master header: $@"
+	@$(call master-header, $@, $(notdir $(^:.o=.h)) )
+
+
+# ---------------------------------------------------------------------
+# (3) BASE CONVERSION RULES
+# ---------------------------------------------------------------------
+
+%.s %.h : %.wav
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(SE2M4A) -i $< -o $@ $(DPCMFLAGS)
+
+%.s %.h : %.aif
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(SE2M4A) -i $< -o $@ $(DPCMFLAGS)
+
+# ---------------------------------------------------------------------
+# (4) SPECIAL RULES
+# ---------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------
+# (5) UTILITY FUNCTIONS
+# ---------------------------------------------------------------------
+
+## Merge all headers into a single large one for easier including.
+define master-header    # $1 : master path, $2 separate header paths
+	echo -e "//\n// $(notdir $(strip $1))\n//" > $1
+	echo -e "// One header to rule them and in the darkness bind them" >> $1
+	echo -e "// Date: $(shell date +'%F %X' )\n" >> $1
+	echo -e "#ifdef __cplusplus\nextern \"C\" {\n#endif" >> $1
+	cat $2 >> $1
+	echo -e "\n#ifdef __cplusplus\n};\n#endif\n" >> $1
+endef
+
+## if you just want to include the separate headers, use this instead of cat:
+#   for hdr in $2 ; \
+#       do echo -e "#include \"$$hdr\"" >> $1 ; done;
+
+# ---------------------------------------------------------------------
+# DEPENDENCIES
+# ---------------------------------------------------------------------
+
+-include $(DEPENDS)
+
+endif

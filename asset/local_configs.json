@@ -7,6 +7,21 @@
         "linux": "asset/tool/CKBtoWav.exe",
         "darwin": "asset/tool/cktool extract"
     },
+    "Sound": {
+        "linux": [
+            "/assets/TWZH/Sound/",
+            "/assets/JPJA/Sound/"
+        ],
+        "darwin": [
+            "/assets/TWZH/Sound/",
+            "/assets/JPJA/Sound/",
+            "/collection/Voices [Japanese]/"
+        ]
+    },
+    "search_sound_recursively": {
+        "linux": false,
+        "darwin": true
+    },
     "voice": {
         "freq": 10512
     }

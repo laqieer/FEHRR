@@ -31,7 +31,7 @@ include $(DEVKITARM)/base_rules
 # ---------------------------------------------------------------------
 
 # GFXDIR	: Directory for graphics files. Should NOT be empty!
-# GFXTITLE  : Graphics library name
+# LIBNAME   : Graphics library name
 # BUILD     : Directory for build process temporaries. Should NOT be empty!
 # GFXDIRS   : List of graphics directories
 # GFXEXTS   : Graphics extensions.

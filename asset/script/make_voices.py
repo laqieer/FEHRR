@@ -11,13 +11,9 @@ import warnings
 import shutil
 import subprocess
 
-src_folders = (
-    common.local_configs["FEH"] + '/assets/TWZH/Sound/',
-    common.local_configs["FEH"] + '/assets/JPJA/Sound/',
-    # common.local_configs["FEH"] + '/collection/Voices [Japanese]/',
-)
+src_folders = common.local_configs["Sound"]
 
-dst_folder = 'voice/'
+dst_folder = 'sfx/voice/'
 
 hero_romans = {
     "PID_神階エイル": "EIR",
@@ -105,13 +101,12 @@ def load_heroes_in_scenarios(folder):
 
 def sort_heroes_by_count():
     global heroes
-    heroes = sorted(hero_counts.keys(), key=lambda x: hero_counts[x], reverse=True)
+    heroes = sorted(hero_counts.keys(), key=lambda x: (hero_counts[x], x), reverse=True)
     heroes = list(filter(is_important_hero, heroes))
 
 def find_voice(filename):
     for src_folder in src_folders:
-        # filepath = common.find_file_in_path(filename, src_folder)
-        filepath = common.find_file_in_path(filename, src_folder, recursive=False)
+        filepath = common.find_file_in_path(filename, common.local_configs["FEH"] + src_folder, recursive=common.local_configs["search_sound_recursively"])
         if filepath is not None:
             return filepath
     return None
@@ -135,7 +130,7 @@ def handle_voice(voice):
         warnings.warn('voice not found: %s' % voice)
         return 'VOICE_NULL'
     voices.append(voice)
-    subprocess.run(common.local_configs["CKB2WAV"] + ' ' +  filepath.replace('/mnt/c/', 'c:/'), shell=True, check=True)
+    subprocess.run(common.local_configs["CKB2WAV"] + ' ' +  filepath.replace('/mnt/c/', 'c:/').replace(' ', '\ '), shell=True, check=True)
     wavefile = get_converted_wavefile(os.path.splitext(filepath)[0])
     if wavefile is None:
         warnings.warn('CKB2WAV conversion failed: %s' % filepath)
@@ -152,7 +147,11 @@ def make_voices(filename):
         f.write('#include "voice.h"\n')
         f.write('#include "voices.h"\n')
         f.write('\n')
-        f.write('const struct Voice voices[] = {\n')
+        f.write('#include "sfx_voice.h"\n')
+        f.write('\n')
+        f.write('#include <stddef.h>\n')
+        f.write('\n')
+        f.write('const struct Voice hero_voices[] = {\n')
         for hero in heroes:
             roman = hero_romans[hero]
             roman2 = hero_romans2.get(hero, roman)
@@ -175,6 +174,12 @@ def make_voices(filename):
             f.write('        },\n')
             f.write('    },\n')
             f.write('\n')
+        f.write('};\n')
+        f.write('\n')
+        f.write('const struct Song * const voices[] = {\n')
+        f.write('    [VOICE_NULL] = NULL,\n')
+        for voice in voices:
+            f.write('    [%s] = &%s_song,\n' % (voice, voice))
         f.write('};\n')
 
 def make_hero_header(filename):
