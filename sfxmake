@@ -54,7 +54,7 @@ ASFLAGS     := -I ../include
 # DPCM COMPRESSION FLAGS
 # ---------------------------------------------------------------------
 
-DPCMFLAGS   := -c
+DPCMFLAGS   := -c --limit-snr 15
 
 # ---------------------------------------------------------------------
 # (2) BUILD PROCEDURE
