@@ -1,4 +1,5 @@
 #include "m4a.h"
+#include "m4aNew.h"
 
 #include "common.h"
 
@@ -112,7 +113,7 @@ void m4aSoundInitNew(void)
     MPlayExtender(gCgbChans);
     m4aSoundMode(SOUND_MODE);
 
-    for (i = 0; i < NUM_MUSIC_PLAYERS; i++)
+    for (i = 0; i < NUM_MUSIC_PLAYERS_NEW; i++)
     {
         struct MusicPlayer * music_player = gMusicPlayerTable[i].music_player;
         MPlayOpen(music_player, gMusicPlayerTable[i].track, gMusicPlayerTable[i].num_tracks);
