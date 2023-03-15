@@ -23,7 +23,7 @@ include $(DEVKITARM)/gba_rules
 #---------------------------------------------------------------------------------
 TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
-SOURCES		:= source
+SOURCES		:= source source/gba-hq-mixer
 INCLUDES	:= include include/decomp/include
 DATA		:=
 MUSIC		:=

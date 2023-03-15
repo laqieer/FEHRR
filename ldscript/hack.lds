@@ -7,3 +7,4 @@ INCLUDE ../ldscript/text.lds
 INCLUDE ../ldscript/texts.lds
 INCLUDE ../ldscript/face.lds
 INCLUDE ../ldscript/event.lds
+INCLUDE ../ldscript/m4a.lds

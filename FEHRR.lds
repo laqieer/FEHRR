@@ -6,7 +6,9 @@ INCLUDE ../ldscript/fe6.lds
 
 SECTIONS
 {
-    . = FreeRamSpace;
+    . = FreeIRamSpace;
+    .ibss : { m4a.*(.bss.*) m4a.*(.bss) }
+    . = FreeERamSpace;
 	.bss : { *(.bss.*) *(.bss) }
     __end__ = .;
 	. = BaseRomSpace;
