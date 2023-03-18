@@ -13,6 +13,8 @@
 │   │   ├── 57_bon01.bin.lz
 │   │   ├── v0603a_spring.bin.lz
 │   │   └── v0703a_spring.bin.lz
+│   ├── AssetRevisionMasterKey
+│   │   └── Key.txt
 │   ├── Banner_Map
 │   │   ├── C0001.png
 │   │   ├── C0002.png
@@ -3591,6 +3593,8 @@
 │   │       ├── v0701a_khadein.bin.lz
 │   │       ├── v0702a_valentine.bin.lz
 │   │       └── v0703a_spring.bin.lz
+│   ├── Dummy
+│   │   └── SSPlayerDummy.png
 │   ├── Effect
 │   │   ├── Btl_Com.ssbp
 │   │   ├── Btl_Hit01.ssbp
@@ -3619,6 +3623,7 @@
 │   │   ├── Fld_Com01.ssbp
 │   │   ├── Fld_Com02.ssbp
 │   │   ├── SkyCastle_Edit.ssbp
+│   │   ├── Ui01.ssbp
 │   │   ├── Ui02.ssbp
 │   │   ├── Ui03.ssbp
 │   │   ├── Ui_Emotion.ssbp
@@ -3632,6 +3637,7 @@
 │   │   │   ├── 211201_embla.bin.lz
 │   │   │   ├── 41_muspell01.bin.lz
 │   │   │   ├── 71_hell01.bin.lz
+│   │   │   ├── Embedded.bin.lz
 │   │   │   ├── Tutorial.bin.lz
 │   │   │   ├── v0700a_vana.bin.lz
 │   │   │   ├── v0700b_winter.bin.lz
@@ -3665,6 +3671,7 @@
 │   │   │   ├── SkyCastle_Edit.png
 │   │   │   ├── SkyCastle_Holiday_v3.10_93_halloween03.png
 │   │   │   ├── SkyCastle_Holiday_v3.4_81_akatsuki03.png
+│   │   │   ├── Ui01.png
 │   │   │   ├── Ui03.png
 │   │   │   ├── Ui_Emotion.png
 │   │   │   ├── Ui_Emotion02.png
@@ -4309,6 +4316,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   ├── Face_Anger.png
 │   │   │   ├── Face_Blush.png
 │   │   │   ├── Face_Blush2.png
@@ -4341,6 +4349,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   ├── Face_Anger.png
 │   │   │   ├── Face_Blush.png
 │   │   │   ├── Face_Blush2.png
@@ -4954,6 +4963,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   ├── Face_Anger.png
 │   │   │   ├── Face_Cool.png
 │   │   │   ├── Face_FC.png
@@ -5082,6 +5092,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   ├── Face_Anger.png
 │   │   │   ├── Face_Blush.png
 │   │   │   ├── Face_Blush2.png
@@ -5241,6 +5252,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   ├── Face_Anger.png
 │   │   │   ├── Face_Blush.png
 │   │   │   ├── Face_Blush2.png
@@ -5379,6 +5391,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   ├── Face_Anger.png
 │   │   │   ├── Face_Blush.png
 │   │   │   ├── Face_Blush2.png
@@ -7429,6 +7442,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch04_00_Chrom_M_Legend01
 │   │   │   ├── BtlFace.png
@@ -7796,6 +7810,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch04_12_Tiki_F_Normal
 │   │   │   ├── BtlFace.png
@@ -9371,6 +9386,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch06_00_Celice_M_Legend01
 │   │   │   ├── BtlFace.png
@@ -11587,6 +11603,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch11_01_Micaiah_FM_Pair
 │   │   │   ├── BtlFace.png
@@ -12058,6 +12075,7 @@
 │   │   │   ├── BtlFace_BU_D.png
 │   │   │   ├── BtlFace_C.png
 │   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch17_01_Beleth_F_Legend01
 │   │   │   ├── BtlFace.png
@@ -15313,6 +15331,8 @@
 │   │   ├── Z0028.png
 │   │   ├── Z0029.png
 │   │   └── Z0030.png
+│   ├── Font
+│   │   └── System.ttf
 │   ├── FriendDouble
 │   │   ├── 191201_alf.bin.lz
 │   │   ├── 201201_nisaveril.bin.lz
@@ -15341,6 +15361,8 @@
 │   │   ├── v0702a_valentine.bin.lz
 │   │   └── v0703a_spring.bin.lz
 │   ├── Home
+│   │   ├── 3R_2ZUtKrm
+│   │   │   └── Embedded.bin.lz
 │   │   ├── 9h-bR4lQy
 │   │   │   └── 91_dance02.bin.lz
 │   │   ├── Wallpaper1.png
@@ -16157,6 +16179,8 @@
 │   │       ├── v0700d_newyear.bin.lz
 │   │       ├── v0701c_legend.bin.lz
 │   │       └── v0702c_legend.bin.lz
+│   ├── Loading
+│   │   └── Data.bin.lz
 │   ├── LoginBonus
 │   │   ├── LoginBonus.bin.lz
 │   │   ├── T49QnDBP2
@@ -21688,6 +21712,7 @@
 │   │   ├── BGM_TEST_RHY.ogg
 │   │   ├── Battle.ckb
 │   │   ├── Common.ckb
+│   │   ├── Embedded.ckb
 │   │   ├── Map.ckb
 │   │   ├── SE_Shine_02.ckb
 │   │   ├── SE_Shot_01.ckb
@@ -21699,6 +21724,7 @@
 │   │   │   ├── 211201_embla.bin.lz
 │   │   │   ├── 41_muspell01.bin.lz
 │   │   │   ├── 71_hell01.bin.lz
+│   │   │   ├── Embedded.bin.lz
 │   │   │   ├── Tutorial.bin.lz
 │   │   │   ├── v0700a_vana.bin.lz
 │   │   │   ├── v0700b_winter.bin.lz
@@ -21713,6 +21739,7 @@
 │   │   │   └── v0703a_spring.bin.lz
 │   │   ├── b_s_btn1_e4_p.ckb
 │   │   ├── b_s_levelup1_point.ckb
+│   │   ├── bgm_amb_username.ogg
 │   │   ├── bgm_battle_FE03_01.ogg
 │   │   ├── bgm_battle_FE04_01.ogg
 │   │   ├── bgm_battle_FE05_01.ogg
@@ -22926,6 +22953,7 @@
 │   │   │   └── Number.png
 │   │   ├── BattleEffect.plist
 │   │   ├── BattleEffect.png
+│   │   ├── BeginnerGuide_mini.png
 │   │   ├── Bg_AdjustTiming.0.png
 │   │   ├── Bg_AdjustTiming.1.png
 │   │   ├── Bg_ArenaDuels.png
@@ -22950,6 +22978,9 @@
 │   │   ├── Bg_DetailedStatus_Reliance.png
 │   │   ├── Bg_IdolTower.png
 │   │   ├── Bg_Journey.png
+│   │   ├── Bg_Margin.png
+│   │   ├── Bg_MarginLong.plist
+│   │   ├── Bg_MarginLong.png
 │   │   ├── Bg_Occupation.png
 │   │   ├── Bg_Portrait.png
 │   │   ├── Bg_SRPGMenu.plist
@@ -22964,7 +22995,9 @@
 │   │   ├── Bg_Summon_Stone.png
 │   │   ├── Bg_Talk.png
 │   │   ├── Bg_TapBattle.png
+│   │   ├── Bg_Title.png
 │   │   ├── Bg_TrainingTower.png
+│   │   ├── Bg_UnitEdit.png
 │   │   ├── Bg_VotingGauntlet.png
 │   │   ├── Bg_WorldMap.png
 │   │   ├── Bg_WorldMap2.png
@@ -22984,6 +23017,12 @@
 │   │   ├── Btn_Card.1.png
 │   │   ├── Btn_WaterMirror.0.png
 │   │   ├── Btn_WaterMirror.1.png
+│   │   ├── Common.plist
+│   │   ├── Common.png
+│   │   ├── Common_Button.plist
+│   │   ├── Common_Button.png
+│   │   ├── Common_Window.plist
+│   │   ├── Common_Window.png
 │   │   ├── Config.plist
 │   │   ├── Config.png
 │   │   ├── ConnectBonds
@@ -23007,6 +23046,9 @@
 │   │   │   ├── Icon_Reinforce.png
 │   │   │   └── Result_Encourage.png
 │   │   ├── Feh.png
+│   │   ├── Fehpass.png
+│   │   ├── Font.plist
+│   │   ├── Font.png
 │   │   ├── FreeSummon
 │   │   │   ├── FreeSummon.plist
 │   │   │   └── FreeSummon.png
@@ -23202,8 +23244,12 @@
 │   │   ├── Journey_UI.png
 │   │   ├── LevelUp.plist
 │   │   ├── LevelUp.png
+│   │   ├── Loading.plist
+│   │   ├── Loading.png
 │   │   ├── LoginBonus.plist
 │   │   ├── LoginBonus.png
+│   │   ├── Logo.plist
+│   │   ├── Logo.png
 │   │   ├── Map.plist
 │   │   ├── Map.png
 │   │   ├── MapList.plist
@@ -23607,6 +23653,10 @@
 │   │   │   ├── Entry_9.png
 │   │   │   ├── TwinWorld.plist
 │   │   │   └── TwinWorld.png
+│   │   ├── UnitEdit.plist
+│   │   ├── UnitEdit.png
+│   │   ├── UnitEdit_2.plist
+│   │   ├── UnitEdit_2.png
 │   │   ├── UnitEdit_SkyCastle.plist
 │   │   ├── UnitEdit_SkyCastle.png
 │   │   ├── UnitIconEffect.plist
@@ -23614,7 +23664,10 @@
 │   │   ├── UserStatus.plist
 │   │   ├── UserStatus.png
 │   │   ├── Voting.plist
-│   │   └── Voting.png
+│   │   ├── Voting.png
+│   │   ├── Wallpaper.png
+│   │   ├── webview.plist
+│   │   └── webview.png
 │   ├── UI_Animation
 │   │   ├── Error
 │   │   │   ├── ErrorImage.ssbp
@@ -23654,6 +23707,11 @@
 │   │   ├── Icon_Talk
 │   │   │   ├── Heart.png
 │   │   │   └── MainScene.csb
+│   │   ├── Loading
+│   │   │   └── Default
+│   │   │       ├── Loading.csb
+│   │   │       ├── Plist.plist
+│   │   │       └── Plist.png
 │   │   ├── Mjolnir
 │   │   │   ├── BG
 │   │   │   │   ├── BG_Castle_Mjolnir
@@ -23782,6 +23840,28 @@
 │   │   ├── Tips
 │   │   │   ├── Tips.png
 │   │   │   └── Tips.ssbp
+│   │   ├── Title
+│   │   │   ├── Effect
+│   │   │   │   ├── Light.png
+│   │   │   │   └── MainScene.csb
+│   │   │   └── Img
+│   │   │       ├── Alfons.png
+│   │   │       ├── Camilla.png
+│   │   │       ├── Chrom.png
+│   │   │       ├── Default
+│   │   │       │   └── ImageFile.png
+│   │   │       ├── Effect2.png
+│   │   │       ├── Eirik.png
+│   │   │       ├── Ike.png
+│   │   │       ├── Lin.png
+│   │   │       ├── MainScene.csb
+│   │   │       ├── Marth.png
+│   │   │       ├── Reghin.png
+│   │   │       ├── Roy.png
+│   │   │       ├── Seith.png
+│   │   │       ├── Sharon.png
+│   │   │       ├── Takumi.png
+│   │   │       └── Veronica2.png
 │   │   ├── Trip
 │   │   │   ├── Trip_Book
 │   │   │   │   ├── MainScene.csb
@@ -24084,6 +24164,12 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch00_01_Alfons_M_Normal
+│   │   │   ├── ch00_01_Alfons_M_Normal.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
 │   │   ├── ch00_01_Alfons_M_SpringFes18
 │   │   │   ├── ch00_01_Alfons_M_SpringFes18.ssbp
 │   │   │   └── tex
@@ -24096,6 +24182,12 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch00_02_Sharon_F_Normal
+│   │   │   ├── ch00_02_Sharon_F_Normal.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
 │   │   ├── ch00_02_Sharon_F_SpringFes18
 │   │   │   ├── ch00_02_Sharon_F_SpringFes18.ssbp
 │   │   │   └── tex
@@ -24477,6 +24569,11 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch00_23_Peony_F_Normal
+│   │   │   ├── ch00_23_Peony_F_Normal.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
 │   │   ├── ch00_24_Scabiosa_F_Normal
 │   │   │   ├── ch00_24_Scabiosa_F_Normal.ssbp
 │   │   │   └── tex
@@ -24579,6 +24676,15 @@
 │   │   │       └── Head_C.png
 │   │   ├── ch00_30_Reghin_F_NewYear22
 │   │   │   ├── ch00_30_Reghin_F_NewYear22.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Effect01.png
+│   │   │       ├── Effect02.png
+│   │   │       ├── Effect03.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
+│   │   ├── ch00_30_Reghin_F_Normal
+│   │   │   ├── ch00_30_Reghin_F_Normal.ssbp
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       ├── Effect01.png
@@ -24723,6 +24829,11 @@
 │   │   │   └── tex
 │   │   │       ├── Body_Alltex_01.png
 │   │   │       └── Body_Alltex_02.png
+│   │   ├── ch00_39_Ash_F_Normal
+│   │   │   ├── ch00_39_Ash_F_Normal.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
 │   │   ├── ch00_39_Ash_F_Normal_TransBattle
 │   │   │   ├── ch00_39_Ash_F_Normal_TransBattle.ssbp
 │   │   │   └── tex
@@ -24829,6 +24940,11 @@
 │   │   │       └── Option_Tex.png
 │   │   ├── ch00_45_Ganglot_Weapon01
 │   │   │   ├── ch00_45_Ganglot_Weapon01.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
+│   │   ├── ch00_46_Seith_F_Normal
+│   │   │   ├── ch00_46_Seith_F_Normal.ssbp
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
@@ -26459,6 +26575,13 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch04_00_Chrom_M_ELECTION022
+│   │   │   ├── ch04_00_Chrom_M_ELECTION022.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       ├── Option_Tex.png
+│   │   │       └── Option_Tex_Manto.png
 │   │   ├── ch04_00_Chrom_M_Legend01
 │   │   │   ├── ch04_00_Chrom_M_Legend01.ssbp
 │   │   │   └── tex
@@ -26736,6 +26859,11 @@
 │   │   │   ├── ch04_12_Tiki_F_Dragon.ssbp
 │   │   │   └── tex
 │   │   │       └── Body_AllTex.png
+│   │   ├── ch04_12_Tiki_F_ELECTION022
+│   │   │   ├── ch04_12_Tiki_F_ELECTION022.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
 │   │   ├── ch04_12_Tiki_F_ELECTION022_Dragon
 │   │   │   ├── ch04_12_Tiki_F_ELECTION022_Dragon.ssbp
 │   │   │   └── tex
@@ -28056,6 +28184,13 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch06_00_Celice_M_ELECTION022
+│   │   │   ├── ch06_00_Celice_M_ELECTION022.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       ├── Option_Tex.png
+│   │   │       └── Option_Tex_Manto.png
 │   │   ├── ch06_00_Celice_M_Legend01
 │   │   │   ├── ch06_00_Celice_M_Legend01.ssbp
 │   │   │   └── tex
@@ -29817,6 +29952,13 @@
 │   │   │       ├── Head_C.png
 │   │   │       ├── Option_Tex.png
 │   │   │       └── Option_Tex2.png
+│   │   ├── ch11_00_Ike_M_Legend01
+│   │   │   ├── ch11_00_Ike_M_Legend01.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       ├── Option_Tex.png
+│   │   │       └── Option_Tex2.png
 │   │   ├── ch11_01_Micaiah_FM_Pair
 │   │   │   ├── ch11_01_Micaiah_FM_Pair.ssbp
 │   │   │   └── tex
@@ -30383,6 +30525,11 @@
 │   │   │       └── Option_Tex.png
 │   │   ├── ch17_01_Beleth_FF_PairSub
 │   │   │   ├── ch17_01_Beleth_FF_PairSub.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
+│   │   ├── ch17_01_Beleth_F_ELECTION022
+│   │   │   ├── ch17_01_Beleth_F_ELECTION022.ssbp
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
@@ -33258,6 +33405,8 @@
 │   ├── Wb-4glP03ab
 │   │   └── 00_first.bin.lz
 │   ├── Wep
+│   │   ├── eff_WepSwing.png
+│   │   ├── wep_ac.png
 │   │   ├── wep_ac000.png
 │   │   ├── wep_ac001.png
 │   │   ├── wep_ac001_up.png
@@ -33371,6 +33520,8 @@
 │   │   ├── wep_ac054.ssbp
 │   │   ├── wep_ac055.png
 │   │   ├── wep_ac056.png
+│   │   ├── wep_ac057.png
+│   │   ├── wep_ac057.ssbp
 │   │   ├── wep_ac058.png
 │   │   ├── wep_ac059.png
 │   │   ├── wep_ac059.ssbp
@@ -34384,6 +34535,7 @@
 │   │   ├── wep_dg999.ssbp
 │   │   ├── wep_dg_L.png
 │   │   ├── wep_ex.png
+│   │   ├── wep_lc.png
 │   │   ├── wep_lc000.png
 │   │   ├── wep_lc001.png
 │   │   ├── wep_lc002.png
@@ -34400,6 +34552,9 @@
 │   │   ├── wep_lc007.ssbp
 │   │   ├── wep_lc007_up.png
 │   │   ├── wep_lc007_up.ssbp
+│   │   ├── wep_lc008.png
+│   │   ├── wep_lc008.ssae
+│   │   ├── wep_lc008.ssbp
 │   │   ├── wep_lc008_up.png
 │   │   ├── wep_lc008_up.ssbp
 │   │   ├── wep_lc009.png
@@ -34729,6 +34884,8 @@
 │   │   ├── wep_lc124_up.ssbp
 │   │   ├── wep_lc125.png
 │   │   ├── wep_lc125.ssbp
+│   │   ├── wep_lc126.png
+│   │   ├── wep_lc126.ssbp
 │   │   ├── wep_lc127.png
 │   │   ├── wep_lc127.ssbp
 │   │   ├── wep_lc128.png
@@ -34765,6 +34922,7 @@
 │   │   ├── wep_lc999.png
 │   │   ├── wep_lc999.ssbp
 │   │   ├── wep_lc_L.png
+│   │   ├── wep_mg.png
 │   │   ├── wep_mg000.png
 │   │   ├── wep_mg001.png
 │   │   ├── wep_mg002.png
@@ -34966,6 +35124,8 @@
 │   │   ├── wep_mg142.png
 │   │   ├── wep_mg142.ssbp
 │   │   ├── wep_mg143.png
+│   │   ├── wep_mg144.png
+│   │   ├── wep_mg144.ssbp
 │   │   ├── wep_mg144_up.png
 │   │   ├── wep_mg144_up.ssbp
 │   │   ├── wep_mg145.png
@@ -35146,6 +35306,8 @@
 │   │   ├── wep_mg269.png
 │   │   ├── wep_mg269.ssbp
 │   │   ├── wep_mg270.png
+│   │   ├── wep_mg271.png
+│   │   ├── wep_mg271.ssbp
 │   │   ├── wep_mg272.png
 │   │   ├── wep_mg272.ssbp
 │   │   ├── wep_mg273.png
@@ -35175,6 +35337,7 @@
 │   │   ├── wep_mg315.png
 │   │   ├── wep_mg315.ssbp
 │   │   ├── wep_mg316.png
+│   │   ├── wep_mg317.png
 │   │   ├── wep_mg318.png
 │   │   ├── wep_mg319.png
 │   │   ├── wep_mg319.ssbp
@@ -35298,6 +35461,7 @@
 │   │   ├── wep_rd053.ssbp
 │   │   ├── wep_rd999.png
 │   │   ├── wep_rd999.ssbp
+│   │   ├── wep_sw.png
 │   │   ├── wep_sw000.png
 │   │   ├── wep_sw001.png
 │   │   ├── wep_sw002.png
@@ -35360,6 +35524,9 @@
 │   │   ├── wep_sw014.png
 │   │   ├── wep_sw014_up.png
 │   │   ├── wep_sw014_up.ssbp
+│   │   ├── wep_sw015.png
+│   │   ├── wep_sw015.ssae
+│   │   ├── wep_sw015.ssbp
 │   │   ├── wep_sw015_up.png
 │   │   ├── wep_sw015_up.ssbp
 │   │   ├── wep_sw016.png
@@ -35380,6 +35547,8 @@
 │   │   ├── wep_sw020.ssbp
 │   │   ├── wep_sw020_up.png
 │   │   ├── wep_sw020_up.ssbp
+│   │   ├── wep_sw021.png
+│   │   ├── wep_sw021.ssbp
 │   │   ├── wep_sw021_up.png
 │   │   ├── wep_sw021_up.ssbp
 │   │   ├── wep_sw022.png
@@ -35650,6 +35819,8 @@
 │   │   ├── wep_sw106.ssbp
 │   │   ├── wep_sw107.png
 │   │   ├── wep_sw107.ssbp
+│   │   ├── wep_sw108.png
+│   │   ├── wep_sw108.ssbp
 │   │   ├── wep_sw109.png
 │   │   ├── wep_sw109.ssbp
 │   │   ├── wep_sw109_up.png
@@ -35716,6 +35887,8 @@
 │   │   ├── wep_sw136_up.ssbp
 │   │   ├── wep_sw137.png
 │   │   ├── wep_sw137.ssbp
+│   │   ├── wep_sw138.png
+│   │   ├── wep_sw138.ssbp
 │   │   ├── wep_sw139.png
 │   │   ├── wep_sw139.ssbp
 │   │   ├── wep_sw140.png
@@ -35738,6 +35911,7 @@
 │   │   ├── wep_sw999.ssbp
 │   │   └── wep_sw_L.png
 │   ├── X0541.png
+│   ├── embedded_asset_list.dat
 │   ├── jdbBK8U3mTb
 │   │   ├── 12_souen02_01.bin.lz
 │   │   ├── 14_halloween_01_01.bin.lz
@@ -36081,29 +36255,180 @@
 │               ├── Plist.plist
 │               └── Plist.png
 ├── EUDE
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── EUEN
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── EUES
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── EUFR
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── EUIT
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── JPJA
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   ├── Sound
+│   │   ├── VOICE_ALFONS_MAP_1.ckb
+│   │   ├── VOICE_ALFONS_MAP_2.ckb
+│   │   ├── VOICE_ALFONS_MAP_3.ckb
+│   │   ├── VOICE_ALFONS_TITLE_01.ckb
+│   │   ├── VOICE_ALFONS_TITLE_17.ckb
+│   │   ├── VOICE_ANNA_TITLE_01.ckb
+│   │   ├── VOICE_ANNA_TITLE_17.ckb
+│   │   ├── VOICE_ASH_MAP_1.ckb
+│   │   ├── VOICE_ASH_MAP_2.ckb
+│   │   ├── VOICE_ASH_MAP_3.ckb
+│   │   ├── VOICE_BELETH_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_BELETH_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_BELETH_POPULARITY11_MAP_3.ckb
+│   │   ├── VOICE_BRUNO_TITLE_01.ckb
+│   │   ├── VOICE_BRUNO_TITLE_17.ckb
+│   │   ├── VOICE_CELICE_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_CELICE_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_CELICE_POPULARITY11_MAP_3.ckb
+│   │   ├── VOICE_CHROM_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_CHROM_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_CHROM_POPULARITY11_MAP_3.ckb
+│   │   ├── VOICE_IKE_LEGEND01_MAP_1.ckb
+│   │   ├── VOICE_IKE_LEGEND01_MAP_2.ckb
+│   │   ├── VOICE_IKE_LEGEND01_MAP_3.ckb
+│   │   ├── VOICE_PEONY_MAP_1.ckb
+│   │   ├── VOICE_PEONY_MAP_2.ckb
+│   │   ├── VOICE_PEONY_MAP_3.ckb
+│   │   ├── VOICE_REGHIN_MAP_1.ckb
+│   │   ├── VOICE_REGHIN_MAP_2.ckb
+│   │   ├── VOICE_REGHIN_MAP_3.ckb
+│   │   ├── VOICE_SEITH_MAP_1.ckb
+│   │   ├── VOICE_SEITH_MAP_2.ckb
+│   │   ├── VOICE_SEITH_MAP_3.ckb
+│   │   ├── VOICE_SHARON_MAP_1.ckb
+│   │   ├── VOICE_SHARON_MAP_2.ckb
+│   │   ├── VOICE_SHARON_MAP_3.ckb
+│   │   ├── VOICE_SHARON_TITLE_01.ckb
+│   │   ├── VOICE_SHARON_TITLE_17.ckb
+│   │   ├── VOICE_TIKI_A_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_TIKI_A_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_TIKI_A_POPULARITY11_MAP_3.ckb
+│   │   ├── VOICE_VERONICA_TITLE_01.ckb
+│   │   ├── VOICE_VERONICA_TITLE_17.ckb
+│   │   └── bgm_menu_title.ogg
+│   ├── UI
+│   │   ├── BannerHeader_BeginnerGuide.png
+│   │   ├── FontLocalize.plist
+│   │   ├── FontLocalize.png
+│   │   ├── Navigation.plist
+│   │   └── Navigation.png
+│   └── UI_Animation
+│       └── Title
+│           ├── Logo
+│           │   ├── MainScene.csb
+│           │   ├── Plist.plist
+│           │   └── Plist.png
+│           └── TapToStart
+│               ├── MainScene.csb
+│               ├── Plist.plist
+│               └── Plist.png
 ├── TWZH
 │   ├── Message
 │   │   ├── Character
@@ -37166,6 +37491,16 @@
 │   │   │   ├── Data_v0702b_akatsuki.bin.lz
 │   │   │   ├── Data_v0702c_legend.bin.lz
 │   │   │   └── Data_v0703a_spring.bin.lz
+│   │   ├── Embedded
+│   │   │   ├── Error.bin.lz
+│   │   │   ├── ExtraAccount.bin.lz
+│   │   │   ├── Loading.bin.lz
+│   │   │   ├── NintendoAccount.bin.lz
+│   │   │   ├── Notification.bin.lz
+│   │   │   ├── Resident.bin.lz
+│   │   │   ├── ShopRecoverPurchase.bin.lz
+│   │   │   ├── Subscription_Embedded.bin.lz
+│   │   │   └── Title.bin.lz
 │   │   ├── Menu
 │   │   │   ├── Menu_00_first.bin.lz
 │   │   │   ├── Menu_Tutorial.bin.lz
@@ -38595,6 +38930,9 @@
 │   │   ├── VOICE_ALFONS_DAMAGE_1.ckb
 │   │   ├── VOICE_ALFONS_DAMAGE_2.ckb
 │   │   ├── VOICE_ALFONS_DEAD_1.ckb
+│   │   ├── VOICE_ALFONS_MAP_1.ckb
+│   │   ├── VOICE_ALFONS_MAP_2.ckb
+│   │   ├── VOICE_ALFONS_MAP_3.ckb
 │   │   ├── VOICE_ALFONS_PAIR01_ATTACK_1.ckb
 │   │   ├── VOICE_ALFONS_PAIR01_ATTACK_2.ckb
 │   │   ├── VOICE_ALFONS_PAIR01_DAMAGE_1A.ckb
@@ -38664,6 +39002,7 @@
 │   │   ├── VOICE_ALFONS_STATUS_6.ckb
 │   │   ├── VOICE_ALFONS_STATUS_7.ckb
 │   │   ├── VOICE_ALFONS_STATUS_8.ckb
+│   │   ├── VOICE_ALFONS_TITLE_01.ckb
 │   │   ├── VOICE_ALFONS_TITLE_02.ckb
 │   │   ├── VOICE_ALFONS_TITLE_03.ckb
 │   │   ├── VOICE_ALFONS_TITLE_04.ckb
@@ -38678,6 +39017,7 @@
 │   │   ├── VOICE_ALFONS_TITLE_13.ckb
 │   │   ├── VOICE_ALFONS_TITLE_14.ckb
 │   │   ├── VOICE_ALFONS_TITLE_15.ckb
+│   │   ├── VOICE_ALFONS_TITLE_17.ckb
 │   │   ├── VOICE_ALFONS_TUTORIAL_2.ckb
 │   │   ├── VOICE_ALFONS_TUTORIAL_3.ckb
 │   │   ├── VOICE_ALFONS_TUTORIAL_4.ckb
@@ -38885,6 +39225,7 @@
 │   │   ├── VOICE_ANNA_STATUS_6.ckb
 │   │   ├── VOICE_ANNA_STATUS_7.ckb
 │   │   ├── VOICE_ANNA_STATUS_8.ckb
+│   │   ├── VOICE_ANNA_TITLE_01.ckb
 │   │   ├── VOICE_ANNA_TITLE_02.ckb
 │   │   ├── VOICE_ANNA_TITLE_03.ckb
 │   │   ├── VOICE_ANNA_TITLE_04.ckb
@@ -38899,6 +39240,7 @@
 │   │   ├── VOICE_ANNA_TITLE_13.ckb
 │   │   ├── VOICE_ANNA_TITLE_14.ckb
 │   │   ├── VOICE_ANNA_TITLE_15.ckb
+│   │   ├── VOICE_ANNA_TITLE_17.ckb
 │   │   ├── VOICE_ANNA_TUTORIAL_2.ckb
 │   │   ├── VOICE_ANNA_TUTORIAL_3.ckb
 │   │   ├── VOICE_ANNA_TUTORIAL_4.ckb
@@ -39368,6 +39710,9 @@
 │   │   ├── VOICE_ASH_DAMAGE_1.ckb
 │   │   ├── VOICE_ASH_DAMAGE_2.ckb
 │   │   ├── VOICE_ASH_DEAD_1.ckb
+│   │   ├── VOICE_ASH_MAP_1.ckb
+│   │   ├── VOICE_ASH_MAP_2.ckb
+│   │   ├── VOICE_ASH_MAP_3.ckb
 │   │   ├── VOICE_ASH_NEWYEAR01_ATTACK_1.ckb
 │   │   ├── VOICE_ASH_NEWYEAR01_ATTACK_2.ckb
 │   │   ├── VOICE_ASH_NEWYEAR01_DAMAGE_1.ckb
@@ -39849,6 +40194,9 @@
 │   │   ├── VOICE_BELETH_POPULARITY11_DAMAGE_1.ckb
 │   │   ├── VOICE_BELETH_POPULARITY11_DAMAGE_2.ckb
 │   │   ├── VOICE_BELETH_POPULARITY11_DEAD_1.ckb
+│   │   ├── VOICE_BELETH_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_BELETH_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_BELETH_POPULARITY11_MAP_3.ckb
 │   │   ├── VOICE_BELETH_POPULARITY11_MAP_4.ckb
 │   │   ├── VOICE_BELETH_POPULARITY11_SKILL_1.ckb
 │   │   ├── VOICE_BELETH_POPULARITY11_SKILL_2.ckb
@@ -40307,6 +40655,7 @@
 │   │   ├── VOICE_BRUNO_SPRING03_STATUS_7.ckb
 │   │   ├── VOICE_BRUNO_SPRING03_STATUS_8.ckb
 │   │   ├── VOICE_BRUNO_STATUS_1.ckb
+│   │   ├── VOICE_BRUNO_TITLE_01.ckb
 │   │   ├── VOICE_BRUNO_TITLE_02.ckb
 │   │   ├── VOICE_BRUNO_TITLE_03.ckb
 │   │   ├── VOICE_BRUNO_TITLE_04.ckb
@@ -40321,6 +40670,7 @@
 │   │   ├── VOICE_BRUNO_TITLE_13.ckb
 │   │   ├── VOICE_BRUNO_TITLE_14.ckb
 │   │   ├── VOICE_BRUNO_TITLE_15.ckb
+│   │   ├── VOICE_BRUNO_TITLE_17.ckb
 │   │   ├── VOICE_BRUNO_TUTORIAL_2.ckb
 │   │   ├── VOICE_BRUNO_TUTORIAL_3.ckb
 │   │   ├── VOICE_BRUNO_TUTORIAL_4.ckb
@@ -40817,6 +41167,9 @@
 │   │   ├── VOICE_CELICE_POPULARITY11_DAMAGE_1.ckb
 │   │   ├── VOICE_CELICE_POPULARITY11_DAMAGE_2.ckb
 │   │   ├── VOICE_CELICE_POPULARITY11_DEAD_1.ckb
+│   │   ├── VOICE_CELICE_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_CELICE_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_CELICE_POPULARITY11_MAP_3.ckb
 │   │   ├── VOICE_CELICE_POPULARITY11_MAP_4.ckb
 │   │   ├── VOICE_CELICE_POPULARITY11_SKILL_1.ckb
 │   │   ├── VOICE_CELICE_POPULARITY11_SKILL_2.ckb
@@ -41475,6 +41828,9 @@
 │   │   ├── VOICE_CHROM_POPULARITY11_DAMAGE_1.ckb
 │   │   ├── VOICE_CHROM_POPULARITY11_DAMAGE_2.ckb
 │   │   ├── VOICE_CHROM_POPULARITY11_DEAD_1.ckb
+│   │   ├── VOICE_CHROM_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_CHROM_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_CHROM_POPULARITY11_MAP_3.ckb
 │   │   ├── VOICE_CHROM_POPULARITY11_MAP_4.ckb
 │   │   ├── VOICE_CHROM_POPULARITY11_SKILL_1.ckb
 │   │   ├── VOICE_CHROM_POPULARITY11_SKILL_2.ckb
@@ -46641,6 +46997,9 @@
 │   │   ├── VOICE_IKE_LEGEND01_DAMAGE_1.ckb
 │   │   ├── VOICE_IKE_LEGEND01_DAMAGE_2.ckb
 │   │   ├── VOICE_IKE_LEGEND01_DEAD_1.ckb
+│   │   ├── VOICE_IKE_LEGEND01_MAP_1.ckb
+│   │   ├── VOICE_IKE_LEGEND01_MAP_2.ckb
+│   │   ├── VOICE_IKE_LEGEND01_MAP_3.ckb
 │   │   ├── VOICE_IKE_LEGEND01_SKILL_1.ckb
 │   │   ├── VOICE_IKE_LEGEND01_SKILL_2.ckb
 │   │   ├── VOICE_IKE_LEGEND01_SKILL_3.ckb
@@ -53880,6 +54239,9 @@
 │   │   ├── VOICE_PEONY_DAMAGE_1.ckb
 │   │   ├── VOICE_PEONY_DAMAGE_2.ckb
 │   │   ├── VOICE_PEONY_DEAD_1.ckb
+│   │   ├── VOICE_PEONY_MAP_1.ckb
+│   │   ├── VOICE_PEONY_MAP_2.ckb
+│   │   ├── VOICE_PEONY_MAP_3.ckb
 │   │   ├── VOICE_PEONY_PAIR01_ATTACK_1.ckb
 │   │   ├── VOICE_PEONY_PAIR01_ATTACK_2.ckb
 │   │   ├── VOICE_PEONY_PAIR01_DAMAGE_1A.ckb
@@ -54514,6 +54876,9 @@
 │   │   ├── VOICE_REGHIN_DAMAGE_1.ckb
 │   │   ├── VOICE_REGHIN_DAMAGE_2.ckb
 │   │   ├── VOICE_REGHIN_DEAD_1.ckb
+│   │   ├── VOICE_REGHIN_MAP_1.ckb
+│   │   ├── VOICE_REGHIN_MAP_2.ckb
+│   │   ├── VOICE_REGHIN_MAP_3.ckb
 │   │   ├── VOICE_REGHIN_NEWYEAR05_ATTACK_1.ckb
 │   │   ├── VOICE_REGHIN_NEWYEAR05_ATTACK_2.ckb
 │   │   ├── VOICE_REGHIN_NEWYEAR05_DAMAGE_1.ckb
@@ -56008,6 +56373,9 @@
 │   │   ├── VOICE_SEITH_DAMAGE_1.ckb
 │   │   ├── VOICE_SEITH_DAMAGE_2.ckb
 │   │   ├── VOICE_SEITH_DEAD_1.ckb
+│   │   ├── VOICE_SEITH_MAP_1.ckb
+│   │   ├── VOICE_SEITH_MAP_2.ckb
+│   │   ├── VOICE_SEITH_MAP_3.ckb
 │   │   ├── VOICE_SEITH_SKILL_1.ckb
 │   │   ├── VOICE_SEITH_SKILL_2.ckb
 │   │   ├── VOICE_SEITH_SKILL_3.ckb
@@ -56385,6 +56753,9 @@
 │   │   ├── VOICE_SHARON_DAMAGE_1.ckb
 │   │   ├── VOICE_SHARON_DAMAGE_2.ckb
 │   │   ├── VOICE_SHARON_DEAD_1.ckb
+│   │   ├── VOICE_SHARON_MAP_1.ckb
+│   │   ├── VOICE_SHARON_MAP_2.ckb
+│   │   ├── VOICE_SHARON_MAP_3.ckb
 │   │   ├── VOICE_SHARON_SKILL_1.ckb
 │   │   ├── VOICE_SHARON_SKILL_2.ckb
 │   │   ├── VOICE_SHARON_SKILL_3.ckb
@@ -56417,6 +56788,7 @@
 │   │   ├── VOICE_SHARON_STATUS_6.ckb
 │   │   ├── VOICE_SHARON_STATUS_7.ckb
 │   │   ├── VOICE_SHARON_STATUS_8.ckb
+│   │   ├── VOICE_SHARON_TITLE_01.ckb
 │   │   ├── VOICE_SHARON_TITLE_02.ckb
 │   │   ├── VOICE_SHARON_TITLE_03.ckb
 │   │   ├── VOICE_SHARON_TITLE_04.ckb
@@ -56431,6 +56803,7 @@
 │   │   ├── VOICE_SHARON_TITLE_13.ckb
 │   │   ├── VOICE_SHARON_TITLE_14.ckb
 │   │   ├── VOICE_SHARON_TITLE_15.ckb
+│   │   ├── VOICE_SHARON_TITLE_17.ckb
 │   │   ├── VOICE_SHARON_TUTORIAL_2.ckb
 │   │   ├── VOICE_SHARON_TUTORIAL_3.ckb
 │   │   ├── VOICE_SHARON_TUTORIAL_4.ckb
@@ -58109,6 +58482,9 @@
 │   │   ├── VOICE_TIKI_A_POPULARITY11_DAMAGE_1.ckb
 │   │   ├── VOICE_TIKI_A_POPULARITY11_DAMAGE_2.ckb
 │   │   ├── VOICE_TIKI_A_POPULARITY11_DEAD_1.ckb
+│   │   ├── VOICE_TIKI_A_POPULARITY11_MAP_1.ckb
+│   │   ├── VOICE_TIKI_A_POPULARITY11_MAP_2.ckb
+│   │   ├── VOICE_TIKI_A_POPULARITY11_MAP_3.ckb
 │   │   ├── VOICE_TIKI_A_POPULARITY11_MAP_4.ckb
 │   │   ├── VOICE_TIKI_A_POPULARITY11_SKILL_1.ckb
 │   │   ├── VOICE_TIKI_A_POPULARITY11_SKILL_2.ckb
@@ -58964,6 +59340,7 @@
 │   │   ├── VOICE_VERONICA_SPRING03_STATUS_7.ckb
 │   │   ├── VOICE_VERONICA_SPRING03_STATUS_8.ckb
 │   │   ├── VOICE_VERONICA_STATUS_1.ckb
+│   │   ├── VOICE_VERONICA_TITLE_01.ckb
 │   │   ├── VOICE_VERONICA_TITLE_02.ckb
 │   │   ├── VOICE_VERONICA_TITLE_03.ckb
 │   │   ├── VOICE_VERONICA_TITLE_04.ckb
@@ -58978,6 +59355,7 @@
 │   │   ├── VOICE_VERONICA_TITLE_13.ckb
 │   │   ├── VOICE_VERONICA_TITLE_14.ckb
 │   │   ├── VOICE_VERONICA_TITLE_15.ckb
+│   │   ├── VOICE_VERONICA_TITLE_17.ckb
 │   │   ├── VOICE_VERONICA_TUTORIAL_2.ckb
 │   │   ├── VOICE_VERONICA_TUTORIAL_3.ckb
 │   │   ├── VOICE_VERONICA_TUTORIAL_4.ckb
@@ -59684,6 +60062,7 @@
 │   │   ├── bgm_april_boss_AF21.ogg
 │   │   ├── bgm_boss4.ogg
 │   │   ├── bgm_map_FE14_04.ogg
+│   │   ├── bgm_menu_title.ogg
 │   │   ├── bgm_tb_FE15_01.ogg
 │   │   ├── bgm_tb_FE16_01.ogg
 │   │   └── bgm_tb_FE16_02.ogg
@@ -59693,8 +60072,13 @@
 │   │       ├── Plist.plist
 │   │       └── Plist.png
 │   ├── UI
+│   │   ├── BannerHeader_BeginnerGuide.png
 │   │   ├── BannerHeader_InquiryAnswer.png
 │   │   ├── BannerHeader_Notice.png
+│   │   ├── FontLocalize.plist
+│   │   ├── FontLocalize.png
+│   │   ├── Navigation.plist
+│   │   ├── Navigation.png
 │   │   ├── Puzzle.plist
 │   │   ├── Puzzle.png
 │   │   ├── SRPGMenu.plist
@@ -59717,24 +60101,82 @@
 │   │       ├── Img_30.png
 │   │       ├── Img_31.png
 │   │       └── Img_5.png
+│   ├── UI_Animation
+│   │   └── Title
+│   │       ├── Logo
+│   │       │   ├── MainScene.csb
+│   │       │   ├── Plist.plist
+│   │       │   └── Plist.png
+│   │       └── TapToStart
+│   │           ├── MainScene.csb
+│   │           ├── Plist.plist
+│   │           └── Plist.png
 │   └── nyQbIm8G1Om
 │       ├── v0601c_legend_03.bin.lz
 │       └── v0701c_legend_06.bin.lz
 ├── USEN
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── USES
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── USPT
-│   └── Message
-│       └── CrossLanguage
-│           └── ChangeLanguage.bin.lz
+│   ├── Message
+│   │   ├── CrossLanguage
+│   │   │   └── ChangeLanguage.bin.lz
+│   │   └── Embedded
+│   │       ├── Error.bin.lz
+│   │       ├── ExtraAccount.bin.lz
+│   │       ├── Loading.bin.lz
+│   │       ├── NintendoAccount.bin.lz
+│   │       ├── Notification.bin.lz
+│   │       ├── Resident.bin.lz
+│   │       ├── ShopRecoverPurchase.bin.lz
+│   │       ├── Subscription_Embedded.bin.lz
+│   │       └── Title.bin.lz
+│   └── UI
+│       ├── BannerHeader_BeginnerGuide.png
+│       ├── FontLocalize.plist
+│       ├── FontLocalize.png
+│       ├── Navigation.plist
+│       └── Navigation.png
 ├── include
 │   ├── bugsnag.h
 │   └── report.h
 └── npf.json
 
-5858 directories, 53880 files
+5919 directories, 54261 files

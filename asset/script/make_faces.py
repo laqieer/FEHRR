@@ -71,7 +71,14 @@ def assign_face_ids():
         face_ids[face] = i
         i += 1
 
+def clear_faces(folder):
+    for root, dirs, files in os.walk(folder):
+        for file in files:
+            if file.endswith('.png'):
+                os.remove(os.path.join(root, file))
+
 def make_faces(src_folder, dst_folder, filename):
+    clear_faces(dst_folder)
     with open(filename, 'w') as f:
         f.write('#include "face.h"\n')
         f.write('#include "faceNew.h"\n')
@@ -112,8 +119,7 @@ def make_faces(src_folder, dst_folder, filename):
             im = im.crop(im.getbbox())
             im = im.crop((0, 0, im.width, im.width))
             im = im.resize((128, 128))
-            if face in ('ch00_43_Embla_Normal', 'ch11_00_Ike_M_Dark'):
-                im = im.convert('RGB')
+            im = im.convert('RGB')
             im = im.quantize(colors=64, dither=Image.Dither.NONE)
             # im = im.convert('P', dither=Image.Dither.NONE, palette=Image.Palette.ADAPTIVE, colors=64)
             dst = os.path.join(dst_folder, 'full', '%s_%s' % (face, face_file))
@@ -124,6 +130,7 @@ def make_faces(src_folder, dst_folder, filename):
                 dst = os.path.join(dst_folder, 'chibi', '%s_Face_FC.png' % face)
                 im = Image.open(src)
                 im = im.resize((32, 32))
+                im = im.convert('RGB')
                 im = im.quantize(colors=16, dither=Image.Dither.NONE)
                 # im = im.convert('P', dither=Image.Dither.NONE, palette=Image.Palette.ADAPTIVE, colors=16)
                 im.save(dst)
