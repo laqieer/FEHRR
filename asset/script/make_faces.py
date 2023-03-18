@@ -116,13 +116,13 @@ def make_faces(src_folder, dst_folder, filename):
             if im is None:
                 warnings.warn('%s does not have a face' % face)
                 continue
+            dst = os.path.join(dst_folder, 'full', '%s_%s' % (face, face_file))
             im = im.crop(im.getbbox())
             im = im.crop((0, 0, im.width, im.width))
             im = im.resize((128, 128))
-            im = im.convert('RGB')
+            im = common.convert_rgba_to_rgb(im, common.decide_background_color_for_image(dst))
             im = im.quantize(colors=64, dither=Image.Dither.NONE)
             # im = im.convert('P', dither=Image.Dither.NONE, palette=Image.Palette.ADAPTIVE, colors=64)
-            dst = os.path.join(dst_folder, 'full', '%s_%s' % (face, face_file))
             im.save(dst)
             hasChibiFace = True
             try:
@@ -130,7 +130,7 @@ def make_faces(src_folder, dst_folder, filename):
                 dst = os.path.join(dst_folder, 'chibi', '%s_Face_FC.png' % face)
                 im = Image.open(src)
                 im = im.resize((32, 32))
-                im = im.convert('RGB')
+                im = common.convert_rgba_to_rgb(im, common.decide_background_color_for_image(dst))
                 im = im.quantize(colors=16, dither=Image.Dither.NONE)
                 # im = im.convert('P', dither=Image.Dither.NONE, palette=Image.Palette.ADAPTIVE, colors=16)
                 im.save(dst)
