@@ -1,5 +1,7 @@
 #include "voice.h"
 
+#include "unit.h"
+#include "faceNew.h"
 #include "proc.h"
 #include "bm.h"
 #include "hardware.h"
@@ -47,22 +49,28 @@ void StopVoice(void)
 
 void VoiceDebug_SetBackground(struct GenericProc * proc)
 {
-    DisplayBackground(BACKGROUND_NEW);
+    DisplayBackground(BACKGROUND_0);
 }
 
 void VoiceDebug_OnInit(struct GenericProc * proc)
 {
-    proc->x = 1; // hero_id
-    proc->y = 0; // voice_type
-    StartVoice(GetVoiceId(proc->x, proc->y));
+    int hero_id = 1;
+    int voice_type = 0;
+
+    proc->x = hero_id;
+    proc->y = voice_type;
+
+    DebugScreenInit();
+    DebugPutStr(gBg2Tm + TM_OFFSET(0, 0), GetVoiceName(GetVoiceId(hero_id, voice_type)));
+
+    StartVoice(GetVoiceId(hero_id, voice_type));
+    StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
 }
 
 void VoiceDebug_OnIdle(struct GenericProc * proc)
 {
     int hero_id = proc->x;
     int voice_type = proc->y;
-
-    DebugPutObjStr(0, 0, GetVoiceName(GetVoiceId(hero_id, voice_type)));
 
     if (gKeySt->pressed & KEY_BUTTON_SELECT)
     {
@@ -90,10 +98,20 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
     if (voice_type >= VOICE_NUM)
         voice_type = 0;
 
+    if (hero_id != proc->x)
+    {
+        EndFaceById(0);
+        StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+    }
+
     if (hero_id != proc->x || voice_type != proc->y)
     {
         proc->x = hero_id;
         proc->y = voice_type;
+
+        DebugScreenInit();
+        DebugPutStr(gBg2Tm + TM_OFFSET(0, 0), GetVoiceName(GetVoiceId(hero_id, voice_type)));
+
         StartVoice(GetVoiceId(hero_id, voice_type));
         return;
     }
