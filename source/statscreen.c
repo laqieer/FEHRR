@@ -11,6 +11,7 @@
 #include "sprite.h"
 #include "text.h"
 #include "msg.h"
+#include "msgNew.h"
 #include "util.h"
 #include "item.h"
 #include "unit.h"

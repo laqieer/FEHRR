@@ -2,6 +2,7 @@
 #include "text.h"
 #include "textNew.h"
 #include "msg.h"
+#include "msgNew.h"
 
 #include "hardware.h"
 #include "ramfunc.h"

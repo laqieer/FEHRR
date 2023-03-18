@@ -9,6 +9,7 @@
 #include "proc.h"
 #include "debugtext.h"
 #include "msg.h"
+#include "msgNew.h"
 #include "text.h"
 #include "textTest.h"
 #include "textNew.h"
@@ -16,7 +17,6 @@
 #include "face.h"
 #include "faceNew.h"
 #include "event.h"
-#include "msg.h"
 #include "util.h"
 #include "bm.h"
 #include "unit.h"
@@ -653,6 +653,7 @@ void TalkDebug_BgInit(struct GenericProc * proc)
 void TalkDebug_MsgInit(struct GenericProc * proc)
 {
     proc->x = TEXT_ID_TEST;
+    DecodeMsg(proc->x);
     TalkDebug_Unk_0800CA88(proc);
 }
 

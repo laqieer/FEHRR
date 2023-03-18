@@ -6,6 +6,7 @@
 #include "log.h"
 
 #include "msg.h"
+#include "msgNew.h"
 #include "text.h"
 #include "textNew.h"
 

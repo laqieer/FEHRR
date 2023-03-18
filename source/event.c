@@ -14,6 +14,7 @@
 #include "talk.h"
 #include "gamecontroller.h"
 #include "msg.h"
+#include "msgNew.h"
 #include "util.h"
 #include "bm.h"
 #include "item.h"
