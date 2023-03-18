@@ -11,10 +11,6 @@ import json
 hero_ids = []
 hero_data = {}
 
-special_faces = {
-    "ch00_14_Henriette_F_Valentine21": "ch00_14_Henriette_F_Normal",
-}
-
 def load_hero_ids(header_file):
     with open(header_file, 'r') as f:
         lines = f.readlines()
@@ -46,7 +42,7 @@ def make_heroes(filename):
             f.write('        .id = %s,\n' % hero)
             f.write('        .msg_name = M%s,\n' % hero)
             f.write('        .msg_desc = M%s,\n' % hero.replace('ID_', 'ID_H_'))
-            f.write('        .fid = FID_%s,\n' % special_faces.get(data['face_name'], data['face_name']))
+            f.write('        .fid = FID_%s,\n' % data['face_name'])
             f.write('\n')
             f.write('        .base_level = 1,\n')
             f.write('        .base_hp = %d,\n' % data['base_stats']['hp'])

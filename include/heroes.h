@@ -1,6 +1,6 @@
 #pragma once
 
-#define HERO_NUM 44
+#define HERO_NUM 43
 
 #define PID_アルフォンス 1
 #define PID_シャロン 2
@@ -28,21 +28,20 @@
 #define PID_セイズ 24
 #define EID_グスタフ 25
 #define PID_ユルグ 26
-#define PID_愛の祭ヘンリエッテ 27
-#define EID_ロキ 28
-#define EID_ノート 29
-#define EID_スカビオサ 30
-#define EID_エルム 31
-#define EID_ヘルビンディ 32
-#define EID_フロージ 33
-#define PID_神階ルピナス 34
-#define EID_ヴェロニカ洗脳 35
-#define PID_フリーズ 36
-#define EID_プルメリア 37
-#define EID_スラシル 38
-#define EID_ネルトゥス 39
-#define EID_グルヴェイグ 40
-#define PID_マークス 41
-#define EID_レティシア洗脳 42
-#define PID_スリーズ 43
-#define EID_フード 44
+#define EID_ロキ 27
+#define EID_ノート 28
+#define EID_スカビオサ 29
+#define EID_エルム 30
+#define EID_ヘルビンディ 31
+#define EID_フロージ 32
+#define PID_神階ルピナス 33
+#define EID_ヴェロニカ洗脳 34
+#define PID_フリーズ 35
+#define EID_プルメリア 36
+#define EID_スラシル 37
+#define EID_ネルトゥス 38
+#define EID_グルヴェイグ 39
+#define PID_マークス 40
+#define EID_レティシア洗脳 41
+#define PID_スリーズ 42
+#define EID_フード 43

@@ -3367,12 +3367,6 @@
     [LANGUAGE_CHINESE] = "温柔的长女",
 },
 
-[MPID_HONOR_愛の祭ヘンリエッテ] = {
-    [LANGUAGE_JAPANESE] = "溢れる慈愛",
-    [LANGUAGE_ENGLISH] = "Overflowing Love",
-    [LANGUAGE_CHINESE] = "满溢的慈爱",
-},
-
 [MPID_HONOR_暗黒ハーディン] = {
     [LANGUAGE_JAPANESE] = "暗黒皇帝",
     [LANGUAGE_ENGLISH] = "Dark Emperor",
@@ -5845,12 +5839,6 @@
     [LANGUAGE_CHINESE] = "马其顿王国的飞马骑士。" TEXT_CMD_NEWLINE "为了追寻妹妹而来到瓦伦西亚陆地。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　Echoes』）",
 },
 
-[MPID_H_愛の祭ヘンリエッテ] = {
-    [LANGUAGE_JAPANESE] = "多くの民に慕われるアスク王国の王妃。" TEXT_CMD_NEWLINE "夫のグスタフと愛の祭りに参加する。",
-    [LANGUAGE_ENGLISH] = "Queen of Askr, adored by her people. Joining in" TEXT_CMD_NEWLINE "on the Day of Devotion festivities alongside her" TEXT_CMD_NEWLINE "family members.",
-    [LANGUAGE_CHINESE] = "深受人民爱戴的亚斯克王国王妃。" TEXT_CMD_NEWLINE "与丈夫古斯塔夫一起参加爱之祭典。",
-},
-
 [MPID_H_暗黒ハーディン] = {
     [LANGUAGE_JAPANESE] = "アカネイア神聖帝国の皇帝。" TEXT_CMD_NEWLINE "多くの人々を殺し、【暗黒皇帝】と恐れられた。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　紋章の謎』）",
     [LANGUAGE_ENGLISH] = "Emperor of the Holy Empire of Archanea." TEXT_CMD_NEWLINE "Known as the Dark Emperor due to his" TEXT_CMD_NEWLINE "bloody reign. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "Mystery of the Emblem.",
@@ -8321,12 +8309,6 @@
     [LANGUAGE_JAPANESE] = "パオラ",
     [LANGUAGE_ENGLISH] = "Palla",
     [LANGUAGE_CHINESE] = "帕奥拉",
-},
-
-[MPID_愛の祭ヘンリエッテ] = {
-    [LANGUAGE_JAPANESE] = "ヘンリエッテ",
-    [LANGUAGE_ENGLISH] = "Henriette",
-    [LANGUAGE_CHINESE] = "亨莉叶特",
 },
 
 [MPID_暗黒ハーディン] = {

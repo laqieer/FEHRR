@@ -164,26 +164,6 @@ const struct PInfo heroes[] = {
         .growth_res = 45,
     },
 
-    [PID_愛の祭ヘンリエッテ - 1] = {
-        .id = PID_愛の祭ヘンリエッテ,
-        .msg_name = MPID_愛の祭ヘンリエッテ,
-        .msg_desc = MPID_H_愛の祭ヘンリエッテ,
-        .fid = FID_ch00_14_Henriette_F_Normal,
-
-        .base_level = 1,
-        .base_hp = 19,
-        .base_pow = 6,
-        .base_spd = 4,
-        .base_def = 10,
-        .base_res = 9,
-
-        .growth_hp = 50,
-        .growth_pow = 75,
-        .growth_spd = 30,
-        .growth_def = 55,
-        .growth_res = 70,
-    },
-
     [PID_セイズ - 1] = {
         .id = PID_セイズ,
         .msg_name = MPID_セイズ,

@@ -34,7 +34,6 @@ hero_romans2 = {
 
 specials = {
     "PID_ブルーノ皇子": "EID_ブルーノ",
-    "PID_ヘンリエッテ": "PID_愛の祭ヘンリエッテ",
 }
 
 exceptions = (
@@ -48,6 +47,7 @@ exceptions = (
     "EID_ニザヴェリル兵",
     "PID_アルフォンス0",
     "PID_スルト名前",
+    "PID_ヘンリエッテ",
 )
 
 heroes = []
