@@ -13,12 +13,12 @@
 #include "log.h"
 
 #define VOICE_PRIORITY 8
-#define VOICE_NUM (VOICE_ATTACK_NUM + VOICE_DAMAGE_NUM + VOICE_MAP_NUM + VOICE_STATUS_NUM)
+#define VOICE_NUM (VOICE_STATUS_NUM + VOICE_MAP_NUM + VOICE_ATTACK_NUM + VOICE_DAMAGE_NUM)
 
 int GetVoiceId(int hero_id, int voice_type)
 {
     const struct Voice * hero_voice = &hero_voices[hero_id];
-    int voice_id = hero_voice->attack[voice_type];
+    int voice_id = hero_voice->status[voice_type];
 
     return voice_id;
 }
