@@ -52,8 +52,9 @@ void VoiceDebug_SetBackground(struct GenericProc * proc)
 
 void VoiceDebug_OnInit(struct GenericProc * proc)
 {
-    proc->x = 0; // hero_id
+    proc->x = 1; // hero_id
     proc->y = 0; // voice_type
+    StartVoice(GetVoiceId(proc->x, proc->y));
 }
 
 void VoiceDebug_OnIdle(struct GenericProc * proc)
@@ -81,9 +82,13 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
     if (gKeySt->repeated & KEY_DPAD_LEFT)
         voice_type--;
 
-    hero_id = max(0, min(hero_id, HERO_NUM - 1));
+    hero_id = max(1, min(hero_id, HERO_NUM));
 
-    voice_type = max(0, min(voice_type, VOICE_NUM - 1));
+    if (voice_type < 0)
+        voice_type = VOICE_NUM - 1;
+
+    if (voice_type >= VOICE_NUM)
+        voice_type = 0;
 
     if (hero_id != proc->x || voice_type != proc->y)
     {
