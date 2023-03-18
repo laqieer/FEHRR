@@ -301,64 +301,34 @@
     [LANGUAGE_CHINESE] = "死之公主",
 },
 
-[MID_STAGE_S7041] = {
-    [LANGUAGE_JAPANESE] = "海神の【櫂】",
-    [LANGUAGE_ENGLISH] = "Ár of the Sea God",
-    [LANGUAGE_CHINESE] = "海神之【桨】",
+[MID_STAGE_S1101] = {
+    [LANGUAGE_JAPANESE] = "蒼炎の傭兵団",
+    [LANGUAGE_ENGLISH] = "Radiant Mercenaries",
+    [LANGUAGE_CHINESE] = "苍炎佣兵团",
 },
 
-[MID_STAGE_S7042] = {
-    [LANGUAGE_JAPANESE] = "女王の護衛",
-    [LANGUAGE_ENGLISH] = "Queen's Advisor",
-    [LANGUAGE_CHINESE] = "女王的护卫",
+[MID_STAGE_S1102] = {
+    [LANGUAGE_JAPANESE] = "誇り高き副長",
+    [LANGUAGE_ENGLISH] = "A Mercenary's Pride",
+    [LANGUAGE_CHINESE] = "心高气傲的副团长",
 },
 
-[MID_STAGE_S7043] = {
-    [LANGUAGE_JAPANESE] = "かわいい生き物",
-    [LANGUAGE_ENGLISH] = "Precious Creatures",
-    [LANGUAGE_CHINESE] = "可爱的生物",
+[MID_STAGE_S1103] = {
+    [LANGUAGE_JAPANESE] = "帝国の皇子",
+    [LANGUAGE_ENGLISH] = "The Imperial Prince",
+    [LANGUAGE_CHINESE] = "帝国皇子",
 },
 
-[MID_STAGE_S7044] = {
-    [LANGUAGE_JAPANESE] = "クリミア女王の決意",
-    [LANGUAGE_ENGLISH] = "Crimean Devotion",
-    [LANGUAGE_CHINESE] = "克里米亚女王的决心",
+[MID_STAGE_S1104] = {
+    [LANGUAGE_JAPANESE] = "最後の砦",
+    [LANGUAGE_ENGLISH] = "The Last Line of Defense",
+    [LANGUAGE_CHINESE] = "最后堡垒",
 },
 
-[MID_STAGE_S7045] = {
-    [LANGUAGE_JAPANESE] = "初めての再会",
-    [LANGUAGE_ENGLISH] = "First Meetings",
-    [LANGUAGE_CHINESE] = "初次重逢",
-},
-
-[MID_STAGE_S1301] = {
-    [LANGUAGE_JAPANESE] = "水門",
-    [LANGUAGE_ENGLISH] = "Battle at the Sluice Gate",
-    [LANGUAGE_CHINESE] = "水闸",
-},
-
-[MID_STAGE_S1302] = {
-    [LANGUAGE_JAPANESE] = "仇敵を追って",
-    [LANGUAGE_ENGLISH] = "A Desperate Pursuit",
-    [LANGUAGE_CHINESE] = "追击仇敌",
-},
-
-[MID_STAGE_S1303] = {
-    [LANGUAGE_JAPANESE] = "砂漠の砦",
-    [LANGUAGE_ENGLISH] = "Desert Stronghold Siege",
-    [LANGUAGE_CHINESE] = "沙漠堡垒",
-},
-
-[MID_STAGE_S1304] = {
-    [LANGUAGE_JAPANESE] = "女神の神殿",
-    [LANGUAGE_ENGLISH] = "Before the Goddess",
-    [LANGUAGE_CHINESE] = "女神的神殿",
-},
-
-[MID_STAGE_S1305] = {
-    [LANGUAGE_JAPANESE] = "帝国皇子ブルーノ",
-    [LANGUAGE_ENGLISH] = "The Mask Cracks",
-    [LANGUAGE_CHINESE] = "帝国皇子布鲁诺",
+[MID_STAGE_S1105] = {
+    [LANGUAGE_JAPANESE] = "蒼炎の勇者",
+    [LANGUAGE_ENGLISH] = "Radiant Hero",
+    [LANGUAGE_CHINESE] = "苍炎勇者",
 },
 
 [MID_STAGE_S1201] = {
@@ -391,40 +361,34 @@
     [LANGUAGE_CHINESE] = "诅咒领域",
 },
 
-[MID_STAGE_S1101] = {
-    [LANGUAGE_JAPANESE] = "蒼炎の傭兵団",
-    [LANGUAGE_ENGLISH] = "Radiant Mercenaries",
-    [LANGUAGE_CHINESE] = "苍炎佣兵团",
+[MID_STAGE_S1301] = {
+    [LANGUAGE_JAPANESE] = "水門",
+    [LANGUAGE_ENGLISH] = "Battle at the Sluice Gate",
+    [LANGUAGE_CHINESE] = "水闸",
 },
 
-[MID_STAGE_S1102] = {
-    [LANGUAGE_JAPANESE] = "誇り高き副長",
-    [LANGUAGE_ENGLISH] = "A Mercenary's Pride",
-    [LANGUAGE_CHINESE] = "心高气傲的副团长",
+[MID_STAGE_S1302] = {
+    [LANGUAGE_JAPANESE] = "仇敵を追って",
+    [LANGUAGE_ENGLISH] = "A Desperate Pursuit",
+    [LANGUAGE_CHINESE] = "追击仇敌",
 },
 
-[MID_STAGE_S1103] = {
-    [LANGUAGE_JAPANESE] = "帝国の皇子",
-    [LANGUAGE_ENGLISH] = "The Imperial Prince",
-    [LANGUAGE_CHINESE] = "帝国皇子",
+[MID_STAGE_S1303] = {
+    [LANGUAGE_JAPANESE] = "砂漠の砦",
+    [LANGUAGE_ENGLISH] = "Desert Stronghold Siege",
+    [LANGUAGE_CHINESE] = "沙漠堡垒",
 },
 
-[MID_STAGE_S1104] = {
-    [LANGUAGE_JAPANESE] = "最後の砦",
-    [LANGUAGE_ENGLISH] = "The Last Line of Defense",
-    [LANGUAGE_CHINESE] = "最后堡垒",
+[MID_STAGE_S1304] = {
+    [LANGUAGE_JAPANESE] = "女神の神殿",
+    [LANGUAGE_ENGLISH] = "Before the Goddess",
+    [LANGUAGE_CHINESE] = "女神的神殿",
 },
 
-[MID_STAGE_S1105] = {
-    [LANGUAGE_JAPANESE] = "蒼炎の勇者",
-    [LANGUAGE_ENGLISH] = "Radiant Hero",
-    [LANGUAGE_CHINESE] = "苍炎勇者",
-},
-
-[MID_STAGE_S1501] = {
-    [LANGUAGE_JAPANESE] = "いにしえより目覚めし",
-    [LANGUAGE_ENGLISH] = "Awakening Ancient Power",
-    [LANGUAGE_CHINESE] = "自远古苏醒",
+[MID_STAGE_S1305] = {
+    [LANGUAGE_JAPANESE] = "帝国皇子ブルーノ",
+    [LANGUAGE_ENGLISH] = "The Mask Cracks",
+    [LANGUAGE_CHINESE] = "帝国皇子布鲁诺",
 },
 
 [MID_STAGE_S1401] = {
@@ -455,6 +419,798 @@
     [LANGUAGE_JAPANESE] = "友との再会",
     [LANGUAGE_ENGLISH] = "A Bond Renewed",
     [LANGUAGE_CHINESE] = "与好友重逢",
+},
+
+[MID_STAGE_S1501] = {
+    [LANGUAGE_JAPANESE] = "いにしえより目覚めし",
+    [LANGUAGE_ENGLISH] = "Awakening Ancient Power",
+    [LANGUAGE_CHINESE] = "自远古苏醒",
+},
+
+[MID_STAGE_S1601] = {
+    [LANGUAGE_JAPANESE] = "刃の儀式",
+    [LANGUAGE_ENGLISH] = "The Rite of Blades",
+    [LANGUAGE_CHINESE] = "刃之仪式",
+},
+
+[MID_STAGE_S2011] = {
+    [LANGUAGE_JAPANESE] = "その炎、不死にして不滅",
+    [LANGUAGE_ENGLISH] = "Undying Flame",
+    [LANGUAGE_CHINESE] = "那火焰，不死不灭",
+},
+
+[MID_STAGE_S2012] = {
+    [LANGUAGE_JAPANESE] = "山は焼け、木は倒れ",
+    [LANGUAGE_ENGLISH] = "Mountains Burn",
+    [LANGUAGE_CHINESE] = "山燃树倒",
+},
+
+[MID_STAGE_S2013] = {
+    [LANGUAGE_JAPANESE] = "水は乾き、海は呑まれ",
+    [LANGUAGE_ENGLISH] = "Steam Billows",
+    [LANGUAGE_CHINESE] = "水枯海竭",
+},
+
+[MID_STAGE_S2014] = {
+    [LANGUAGE_JAPANESE] = "天は焦げ、月は堕ちる",
+    [LANGUAGE_ENGLISH] = "Stars Become Cinders",
+    [LANGUAGE_CHINESE] = "天焦月落",
+},
+
+[MID_STAGE_S2015] = {
+    [LANGUAGE_JAPANESE] = "霧の妖婦",
+    [LANGUAGE_ENGLISH] = "Enchantress of the Mist",
+    [LANGUAGE_CHINESE] = "雾之妖妇",
+},
+
+[MID_STAGE_S2021] = {
+    [LANGUAGE_JAPANESE] = "雪の娘",
+    [LANGUAGE_ENGLISH] = "Lady of Snow",
+    [LANGUAGE_CHINESE] = "雪之女",
+},
+
+[MID_STAGE_S2022] = {
+    [LANGUAGE_JAPANESE] = "白き夜の子ら",
+    [LANGUAGE_ENGLISH] = "Children of the Light",
+    [LANGUAGE_CHINESE] = "白夜的孩子们",
+},
+
+[MID_STAGE_S2023] = {
+    [LANGUAGE_JAPANESE] = "黒き夜の子ら",
+    [LANGUAGE_ENGLISH] = "Children of the Shadow",
+    [LANGUAGE_CHINESE] = "黑夜的孩子们",
+},
+
+[MID_STAGE_S2024] = {
+    [LANGUAGE_JAPANESE] = "黒白の子ら",
+    [LANGUAGE_ENGLISH] = "Shadows and Light",
+    [LANGUAGE_CHINESE] = "黑白的孩子们",
+},
+
+[MID_STAGE_S2025] = {
+    [LANGUAGE_JAPANESE] = "炎の王",
+    [LANGUAGE_ENGLISH] = "Ruler of Flame",
+    [LANGUAGE_CHINESE] = "炎之王",
+},
+
+[MID_STAGE_S2031] = {
+    [LANGUAGE_JAPANESE] = "ニフルへの道",
+    [LANGUAGE_ENGLISH] = "The Road to Nifl",
+    [LANGUAGE_CHINESE] = "通往尼福尔之路",
+},
+
+[MID_STAGE_S2032] = {
+    [LANGUAGE_JAPANESE] = "銀の髪の乙女",
+    [LANGUAGE_ENGLISH] = "The Silver-Haired Maiden",
+    [LANGUAGE_CHINESE] = "银发少女",
+},
+
+[MID_STAGE_S2033] = {
+    [LANGUAGE_JAPANESE] = "奇妙な守護者",
+    [LANGUAGE_ENGLISH] = "Ensnared by Beauty",
+    [LANGUAGE_CHINESE] = "奇妙的守护者",
+},
+
+[MID_STAGE_S2034] = {
+    [LANGUAGE_JAPANESE] = "異貌の騎士",
+    [LANGUAGE_ENGLISH] = "A Menacing Swordsman",
+    [LANGUAGE_CHINESE] = "异貌的骑士",
+},
+
+[MID_STAGE_S2035] = {
+    [LANGUAGE_JAPANESE] = "炎剣、地を薙ぐ",
+    [LANGUAGE_ENGLISH] = "Steel Sears the Land",
+    [LANGUAGE_CHINESE] = "炎剑　横扫大地",
+},
+
+[MID_STAGE_S2041] = {
+    [LANGUAGE_JAPANESE] = "守るべき人々のために",
+    [LANGUAGE_ENGLISH] = "Protecting the People",
+    [LANGUAGE_CHINESE] = "为了要守护的人们",
+},
+
+[MID_STAGE_S2042] = {
+    [LANGUAGE_JAPANESE] = "緋閃の女剣士",
+    [LANGUAGE_ENGLISH] = "Crimson Flash",
+    [LANGUAGE_CHINESE] = "绯闪女剑士",
+},
+
+[MID_STAGE_S2043] = {
+    [LANGUAGE_JAPANESE] = "光と影の王女",
+    [LANGUAGE_ENGLISH] = "Princesses in Shadow",
+    [LANGUAGE_CHINESE] = "光与影之公主",
+},
+
+[MID_STAGE_S2044] = {
+    [LANGUAGE_JAPANESE] = "幼き竜人",
+    [LANGUAGE_ENGLISH] = "The Young Dragon",
+    [LANGUAGE_CHINESE] = "幼小的龙人",
+},
+
+[MID_STAGE_S2045] = {
+    [LANGUAGE_JAPANESE] = "灼熱の決断",
+    [LANGUAGE_ENGLISH] = "Fiery Resolve",
+    [LANGUAGE_CHINESE] = "灼热的决断",
+},
+
+[MID_STAGE_S2051] = {
+    [LANGUAGE_JAPANESE] = "雪原の追跡者",
+    [LANGUAGE_ENGLISH] = "Snowfield Pursuit",
+    [LANGUAGE_CHINESE] = "雪原的追迹者",
+},
+
+[MID_STAGE_S2052] = {
+    [LANGUAGE_JAPANESE] = "灰空に舞う魔女",
+    [LANGUAGE_ENGLISH] = "Dance of the Witch",
+    [LANGUAGE_CHINESE] = "灰空中飞舞的魔女",
+},
+
+[MID_STAGE_S2053] = {
+    [LANGUAGE_JAPANESE] = "邪竜目覚めし時",
+    [LANGUAGE_ENGLISH] = "The Fell Dragon Rises",
+    [LANGUAGE_CHINESE] = "邪龙苏醒之时",
+},
+
+[MID_STAGE_S2054] = {
+    [LANGUAGE_JAPANESE] = "暗黒皇帝",
+    [LANGUAGE_ENGLISH] = "The Dark Emperor",
+    [LANGUAGE_CHINESE] = "暗黑皇帝",
+},
+
+[MID_STAGE_S2055] = {
+    [LANGUAGE_JAPANESE] = "炎の狩人",
+    [LANGUAGE_ENGLISH] = "Hunted by the Flames",
+    [LANGUAGE_CHINESE] = "炎之狩猎者",
+},
+
+[MID_STAGE_S2061] = {
+    [LANGUAGE_JAPANESE] = "夢見る姿は彼方に",
+    [LANGUAGE_ENGLISH] = "A Distant Dream",
+    [LANGUAGE_CHINESE] = "遥不可及的梦中人",
+},
+
+[MID_STAGE_S2062] = {
+    [LANGUAGE_JAPANESE] = "聖痕の騎士",
+    [LANGUAGE_ENGLISH] = "The Branded Knight",
+    [LANGUAGE_CHINESE] = "圣痕骑士",
+},
+
+[MID_STAGE_S2063] = {
+    [LANGUAGE_JAPANESE] = "軍師の娘",
+    [LANGUAGE_ENGLISH] = "The Tactician's Daughter",
+    [LANGUAGE_CHINESE] = "军师之女",
+},
+
+[MID_STAGE_S2064] = {
+    [LANGUAGE_JAPANESE] = "軍師の息子",
+    [LANGUAGE_ENGLISH] = "The Tactician's Son",
+    [LANGUAGE_CHINESE] = "军师之子",
+},
+
+[MID_STAGE_S2065] = {
+    [LANGUAGE_JAPANESE] = "炎剣の鞘",
+    [LANGUAGE_ENGLISH] = "Sheathed Steel",
+    [LANGUAGE_CHINESE] = "炎剑之鞘",
+},
+
+[MID_STAGE_S2071] = {
+    [LANGUAGE_JAPANESE] = "夢は間近に",
+    [LANGUAGE_ENGLISH] = "Echoing Dreams",
+    [LANGUAGE_CHINESE] = "梦想近在咫尺",
+},
+
+[MID_STAGE_S2072] = {
+    [LANGUAGE_JAPANESE] = "魔道騎士の剣",
+    [LANGUAGE_ENGLISH] = "Blade of the Mage Knight",
+    [LANGUAGE_CHINESE] = "魔道骑士之剑",
+},
+
+[MID_STAGE_S2073] = {
+    [LANGUAGE_JAPANESE] = "不屈の意志",
+    [LANGUAGE_ENGLISH] = "Indomitable Spirits",
+    [LANGUAGE_CHINESE] = "不屈的意志",
+},
+
+[MID_STAGE_S2074] = {
+    [LANGUAGE_JAPANESE] = "魔道騎士二人",
+    [LANGUAGE_ENGLISH] = "Book and Blade",
+    [LANGUAGE_CHINESE] = "两位魔道骑士",
+},
+
+[MID_STAGE_S2075] = {
+    [LANGUAGE_JAPANESE] = "邂逅、そして",
+    [LANGUAGE_ENGLISH] = "Snow and Ash",
+    [LANGUAGE_CHINESE] = "邂逅之后",
+},
+
+[MID_STAGE_S2081] = {
+    [LANGUAGE_JAPANESE] = "氷の子はここに願う",
+    [LANGUAGE_ENGLISH] = "Prayer of the Child of Ice",
+    [LANGUAGE_CHINESE] = "冰之子在此祈求",
+},
+
+[MID_STAGE_S2082] = {
+    [LANGUAGE_JAPANESE] = "荒ぶる炎鎮める力を",
+    [LANGUAGE_ENGLISH] = "Tame the Savage Flame",
+    [LANGUAGE_CHINESE] = "抑制狂焰之力",
+},
+
+[MID_STAGE_S2083] = {
+    [LANGUAGE_JAPANESE] = "不死を殺し、不滅を滅す",
+    [LANGUAGE_ENGLISH] = "Unquenchable, Undying",
+    [LANGUAGE_CHINESE] = "杀死不死者、毁灭不灭者",
+},
+
+[MID_STAGE_S2084] = {
+    [LANGUAGE_JAPANESE] = "その力を、器に",
+    [LANGUAGE_ENGLISH] = "Vessel Filled with Power",
+    [LANGUAGE_CHINESE] = "愿得此力，宿于此器",
+},
+
+[MID_STAGE_S2085] = {
+    [LANGUAGE_JAPANESE] = "氷の儀",
+    [LANGUAGE_ENGLISH] = "Rite of Frost",
+    [LANGUAGE_CHINESE] = "冰之仪式",
+},
+
+[MID_STAGE_S2091] = {
+    [LANGUAGE_JAPANESE] = "炎獄の門番",
+    [LANGUAGE_ENGLISH] = "The Infernal Jailer",
+    [LANGUAGE_CHINESE] = "炎狱的守卫",
+},
+
+[MID_STAGE_S2092] = {
+    [LANGUAGE_JAPANESE] = "魔剣の黒騎士",
+    [LANGUAGE_ENGLISH] = "The Demon Sword",
+    [LANGUAGE_CHINESE] = "魔剑的黑骑士",
+},
+
+[MID_STAGE_S2093] = {
+    [LANGUAGE_JAPANESE] = "雷神降り立つ",
+    [LANGUAGE_ENGLISH] = "The Goddess of Thunder",
+    [LANGUAGE_CHINESE] = "雷神降临",
+},
+
+[MID_STAGE_S2094] = {
+    [LANGUAGE_JAPANESE] = "炎の踊り子",
+    [LANGUAGE_ENGLISH] = "Dancer of Flames",
+    [LANGUAGE_CHINESE] = "炎之舞娘",
+},
+
+[MID_STAGE_S2095] = {
+    [LANGUAGE_JAPANESE] = "地獄の底",
+    [LANGUAGE_ENGLISH] = "Into the Blaze",
+    [LANGUAGE_CHINESE] = "地狱深渊",
+},
+
+[MID_STAGE_S2101] = {
+    [LANGUAGE_JAPANESE] = "王城攻略",
+    [LANGUAGE_ENGLISH] = "To the Castle",
+    [LANGUAGE_CHINESE] = "攻略王城",
+},
+
+[MID_STAGE_S2102] = {
+    [LANGUAGE_JAPANESE] = "場違いな探究者",
+    [LANGUAGE_ENGLISH] = "Misplaced Wisdom",
+    [LANGUAGE_CHINESE] = "格格不入的探究者",
+},
+
+[MID_STAGE_S2103] = {
+    [LANGUAGE_JAPANESE] = "牙の兄妹",
+    [LANGUAGE_ENGLISH] = "Family of Fangs",
+    [LANGUAGE_CHINESE] = "牙的兄妹",
+},
+
+[MID_STAGE_S2104] = {
+    [LANGUAGE_JAPANESE] = "剣姫",
+    [LANGUAGE_ENGLISH] = "Sword Vassal",
+    [LANGUAGE_CHINESE] = "剑姬",
+},
+
+[MID_STAGE_S2105] = {
+    [LANGUAGE_JAPANESE] = "炎の王、死す",
+    [LANGUAGE_ENGLISH] = "The King's Demise",
+    [LANGUAGE_CHINESE] = "炎之王，死亡",
+},
+
+[MID_STAGE_S2111] = {
+    [LANGUAGE_JAPANESE] = "敵の敵",
+    [LANGUAGE_ENGLISH] = "The Enemy of My Enemy",
+    [LANGUAGE_CHINESE] = "敌人的敌人",
+},
+
+[MID_STAGE_S2112] = {
+    [LANGUAGE_JAPANESE] = "花占いの行方",
+    [LANGUAGE_ENGLISH] = "Flower Fortunes",
+    [LANGUAGE_CHINESE] = "花占卜的去向",
+},
+
+[MID_STAGE_S2113] = {
+    [LANGUAGE_JAPANESE] = "地獄の底から",
+    [LANGUAGE_ENGLISH] = "From the Depths of Hell",
+    [LANGUAGE_CHINESE] = "来自地狱深渊",
+},
+
+[MID_STAGE_S2114] = {
+    [LANGUAGE_JAPANESE] = "天空の舞踏",
+    [LANGUAGE_ENGLISH] = "Dance in the Sky",
+    [LANGUAGE_CHINESE] = "空中的舞会",
+},
+
+[MID_STAGE_S2115] = {
+    [LANGUAGE_JAPANESE] = "骨灰の谷",
+    [LANGUAGE_ENGLISH] = "Burnt-Bone Gorge",
+    [LANGUAGE_CHINESE] = "骨灰之谷",
+},
+
+[MID_STAGE_S2121] = {
+    [LANGUAGE_JAPANESE] = "疑心",
+    [LANGUAGE_ENGLISH] = "Suspicion",
+    [LANGUAGE_CHINESE] = "猜疑",
+},
+
+[MID_STAGE_S2122] = {
+    [LANGUAGE_JAPANESE] = "地の継承者",
+    [LANGUAGE_ENGLISH] = "Scion of a Crusader",
+    [LANGUAGE_CHINESE] = "地之继承者",
+},
+
+[MID_STAGE_S2123] = {
+    [LANGUAGE_JAPANESE] = "這いずり彷徨う",
+    [LANGUAGE_ENGLISH] = "Prowling Beast",
+    [LANGUAGE_CHINESE] = "于底层徬徨",
+},
+
+[MID_STAGE_S2124] = {
+    [LANGUAGE_JAPANESE] = "風の継承者",
+    [LANGUAGE_ENGLISH] = "Led by the Breeze",
+    [LANGUAGE_CHINESE] = "风之继承者",
+},
+
+[MID_STAGE_S2125] = {
+    [LANGUAGE_JAPANESE] = "裏切者は",
+    [LANGUAGE_ENGLISH] = "The Traitor",
+    [LANGUAGE_CHINESE] = "叛徒",
+},
+
+[MID_STAGE_S2131] = {
+    [LANGUAGE_JAPANESE] = "王女レーギャルン",
+    [LANGUAGE_ENGLISH] = "Princess Laegjarn",
+    [LANGUAGE_CHINESE] = "公主瑞瓦伽伦",
+},
+
+[MID_STAGE_S2132] = {
+    [LANGUAGE_JAPANESE] = "炎の贄たち",
+    [LANGUAGE_ENGLISH] = "The Sacrifices",
+    [LANGUAGE_CHINESE] = "炎之祭品",
+},
+
+[MID_STAGE_S2133] = {
+    [LANGUAGE_JAPANESE] = "氷の従者",
+    [LANGUAGE_ENGLISH] = "Maid of Ice",
+    [LANGUAGE_CHINESE] = "冰之侍从",
+},
+
+[MID_STAGE_S2134] = {
+    [LANGUAGE_JAPANESE] = "王女レーヴァテイン",
+    [LANGUAGE_ENGLISH] = "Princess Laevatein",
+    [LANGUAGE_CHINESE] = "公主瑞瓦提恩",
+},
+
+[MID_STAGE_S2135] = {
+    [LANGUAGE_JAPANESE] = "炎王スルト",
+    [LANGUAGE_ENGLISH] = "Surtr, Ruler of Flame",
+    [LANGUAGE_CHINESE] = "炎王斯尔特",
+},
+
+[MID_STAGE_S3011] = {
+    [LANGUAGE_JAPANESE] = "死者は昼歩く",
+    [LANGUAGE_ENGLISH] = "The Dead Arrive",
+    [LANGUAGE_CHINESE] = "流连的死者",
+},
+
+[MID_STAGE_S3012] = {
+    [LANGUAGE_JAPANESE] = "王国に差す影",
+    [LANGUAGE_ENGLISH] = "Askr in Shadow",
+    [LANGUAGE_CHINESE] = "侵入王国的黑影",
+},
+
+[MID_STAGE_S3013] = {
+    [LANGUAGE_JAPANESE] = "撃殺の剣士",
+    [LANGUAGE_ENGLISH] = "Lethal Swordsman",
+    [LANGUAGE_CHINESE] = "杀戮的剑士",
+},
+
+[MID_STAGE_S3014] = {
+    [LANGUAGE_JAPANESE] = "鏖殺の魔女",
+    [LANGUAGE_ENGLISH] = "Omnicidal Witch",
+    [LANGUAGE_CHINESE] = "灭绝的魔女",
+},
+
+[MID_STAGE_S3015] = {
+    [LANGUAGE_JAPANESE] = "優しき死神",
+    [LANGUAGE_ENGLISH] = "Merciful Death",
+    [LANGUAGE_CHINESE] = "温柔的死神",
+},
+
+[MID_STAGE_S3021] = {
+    [LANGUAGE_JAPANESE] = "王命",
+    [LANGUAGE_ENGLISH] = "The King's Order",
+    [LANGUAGE_CHINESE] = "王命",
+},
+
+[MID_STAGE_S3022] = {
+    [LANGUAGE_JAPANESE] = "冥府より吹く風",
+    [LANGUAGE_ENGLISH] = "The Tomb Exhales",
+    [LANGUAGE_CHINESE] = "自冥界吹拂之风",
+},
+
+[MID_STAGE_S3023] = {
+    [LANGUAGE_JAPANESE] = "死者の道",
+    [LANGUAGE_ENGLISH] = "Path of the Dead",
+    [LANGUAGE_CHINESE] = "死者之路",
+},
+
+[MID_STAGE_S3024] = {
+    [LANGUAGE_JAPANESE] = "先行偵察",
+    [LANGUAGE_ENGLISH] = "Courting Danger",
+    [LANGUAGE_CHINESE] = "侦查前锋",
+},
+
+[MID_STAGE_S3025] = {
+    [LANGUAGE_JAPANESE] = "王の姿",
+    [LANGUAGE_ENGLISH] = "The Makings of a King",
+    [LANGUAGE_CHINESE] = "王的姿态",
+},
+
+[MID_STAGE_S3031] = {
+    [LANGUAGE_JAPANESE] = "二十年前の傷痕",
+    [LANGUAGE_ENGLISH] = "The Scar Remembers",
+    [LANGUAGE_CHINESE] = "二十年前的伤痕",
+},
+
+[MID_STAGE_S3032] = {
+    [LANGUAGE_JAPANESE] = "凶兆の鴉王",
+    [LANGUAGE_ENGLISH] = "The Ominous Raven",
+    [LANGUAGE_CHINESE] = "凶兆的鸦王",
+},
+
+[MID_STAGE_S3033] = {
+    [LANGUAGE_JAPANESE] = "狼女王の牙",
+    [LANGUAGE_ENGLISH] = "Fangs of the Wolf Queen",
+    [LANGUAGE_CHINESE] = "狼女王之牙",
+},
+
+[MID_STAGE_S3034] = {
+    [LANGUAGE_JAPANESE] = "鷹王と白の王子",
+    [LANGUAGE_ENGLISH] = "Hawk and Heron",
+    [LANGUAGE_CHINESE] = "鹰王与纯白王子",
+},
+
+[MID_STAGE_S3035] = {
+    [LANGUAGE_JAPANESE] = "死が、そこにいる",
+    [LANGUAGE_ENGLISH] = "Close to Death",
+    [LANGUAGE_CHINESE] = "死亡，就在该处",
+},
+
+[MID_STAGE_S3041] = {
+    [LANGUAGE_JAPANESE] = "定められた死",
+    [LANGUAGE_ENGLISH] = "No Cheating Death",
+    [LANGUAGE_CHINESE] = "被注定的死亡",
+},
+
+[MID_STAGE_S3042] = {
+    [LANGUAGE_JAPANESE] = "妖狐の親子",
+    [LANGUAGE_ENGLISH] = "Kitsune Family",
+    [LANGUAGE_CHINESE] = "妖狐亲子",
+},
+
+[MID_STAGE_S3043] = {
+    [LANGUAGE_JAPANESE] = "ガルーの親子",
+    [LANGUAGE_ENGLISH] = "Wolfskin Family",
+    [LANGUAGE_CHINESE] = "加鲁亲子",
+},
+
+[MID_STAGE_S3044] = {
+    [LANGUAGE_JAPANESE] = "零れゆく砂",
+    [LANGUAGE_ENGLISH] = "Running Out of Time",
+    [LANGUAGE_CHINESE] = "散落之砂",
+},
+
+[MID_STAGE_S3045] = {
+    [LANGUAGE_JAPANESE] = "死が、迎えに来る",
+    [LANGUAGE_ENGLISH] = "Death's Arrival",
+    [LANGUAGE_CHINESE] = "当死亡来迎接",
+},
+
+[MID_STAGE_S3051] = {
+    [LANGUAGE_JAPANESE] = "失われたもの",
+    [LANGUAGE_ENGLISH] = "Loss",
+    [LANGUAGE_CHINESE] = "所失之物",
+},
+
+[MID_STAGE_S3052] = {
+    [LANGUAGE_JAPANESE] = "傭兵天馬騎士",
+    [LANGUAGE_ENGLISH] = "Airborne Mercenary",
+    [LANGUAGE_CHINESE] = "佣兵天马骑士",
+},
+
+[MID_STAGE_S3053] = {
+    [LANGUAGE_JAPANESE] = "草原の戦士たち",
+    [LANGUAGE_ENGLISH] = "Warriors of the Plains",
+    [LANGUAGE_CHINESE] = "草原的战士们",
+},
+
+[MID_STAGE_S3054] = {
+    [LANGUAGE_JAPANESE] = "魔竜の目覚め",
+    [LANGUAGE_ENGLISH] = "The Demon Dragon Wakes",
+    [LANGUAGE_CHINESE] = "魔龙苏醒",
+},
+
+[MID_STAGE_S3055] = {
+    [LANGUAGE_JAPANESE] = "死中に生を",
+    [LANGUAGE_ENGLISH] = "Into the Gates",
+    [LANGUAGE_CHINESE] = "死里求生",
+},
+
+[MID_STAGE_S3061] = {
+    [LANGUAGE_JAPANESE] = "幾千の惨劇を",
+    [LANGUAGE_ENGLISH] = "Tragedy upon Tragedy",
+    [LANGUAGE_CHINESE] = "历经无数惨剧",
+},
+
+[MID_STAGE_S3062] = {
+    [LANGUAGE_JAPANESE] = "獣戦士たち",
+    [LANGUAGE_ENGLISH] = "Warriors of the Laguz",
+    [LANGUAGE_CHINESE] = "兽战士们",
+},
+
+[MID_STAGE_S3063] = {
+    [LANGUAGE_JAPANESE] = "再びの死",
+    [LANGUAGE_ENGLISH] = "Death Visits Again",
+    [LANGUAGE_CHINESE] = "再次死亡",
+},
+
+[MID_STAGE_S3064] = {
+    [LANGUAGE_JAPANESE] = "獅子王咆哮す",
+    [LANGUAGE_ENGLISH] = "Hear the Lion's Roar",
+    [LANGUAGE_CHINESE] = "狮子王咆哮",
+},
+
+[MID_STAGE_S3065] = {
+    [LANGUAGE_JAPANESE] = "アスクの血脈",
+    [LANGUAGE_ENGLISH] = "The Blood of Askr",
+    [LANGUAGE_CHINESE] = "亚斯克的血脉",
+},
+
+[MID_STAGE_S3071] = {
+    [LANGUAGE_JAPANESE] = "いつか見た景色",
+    [LANGUAGE_ENGLISH] = "Familiar Scenery",
+    [LANGUAGE_CHINESE] = "似曾相识的景色",
+},
+
+[MID_STAGE_S3072] = {
+    [LANGUAGE_JAPANESE] = "身を焦がす竜血",
+    [LANGUAGE_ENGLISH] = "Boiling Blood",
+    [LANGUAGE_CHINESE] = "沸腾的龙血",
+},
+
+[MID_STAGE_S3073] = {
+    [LANGUAGE_JAPANESE] = "ひとり、みるゆめ",
+    [LANGUAGE_ENGLISH] = "Trapped, Alone",
+    [LANGUAGE_CHINESE] = "独自一人所见的梦",
+},
+
+[MID_STAGE_S3074] = {
+    [LANGUAGE_JAPANESE] = "焼き尽くせぬ狂気",
+    [LANGUAGE_ENGLISH] = "Engulfed by Madness",
+    [LANGUAGE_CHINESE] = "燃烧不尽的狂气",
+},
+
+[MID_STAGE_S3075] = {
+    [LANGUAGE_JAPANESE] = "温もりの花",
+    [LANGUAGE_ENGLISH] = "Compassion Blooms",
+    [LANGUAGE_CHINESE] = "暖之花",
+},
+
+[MID_STAGE_S3081] = {
+    [LANGUAGE_JAPANESE] = "滅びの地で",
+    [LANGUAGE_ENGLISH] = "Ruinous Land",
+    [LANGUAGE_CHINESE] = "于灭亡之地",
+},
+
+[MID_STAGE_S3082] = {
+    [LANGUAGE_JAPANESE] = "最後の種族",
+    [LANGUAGE_ENGLISH] = "Almost Extinct",
+    [LANGUAGE_CHINESE] = "最后的种族",
+},
+
+[MID_STAGE_S3083] = {
+    [LANGUAGE_JAPANESE] = "花の残り香",
+    [LANGUAGE_ENGLISH] = "Their Fragrance Lingers...",
+    [LANGUAGE_CHINESE] = "花的残香",
+},
+
+[MID_STAGE_S3084] = {
+    [LANGUAGE_JAPANESE] = "神託の少女",
+    [LANGUAGE_ENGLISH] = "Tiny Harbinger",
+    [LANGUAGE_CHINESE] = "神谕少女",
+},
+
+[MID_STAGE_S3085] = {
+    [LANGUAGE_JAPANESE] = "書は語る、滅びを",
+    [LANGUAGE_ENGLISH] = "Foreboding Words",
+    [LANGUAGE_CHINESE] = "书诉说著灭亡",
+},
+
+[MID_STAGE_S3091] = {
+    [LANGUAGE_JAPANESE] = "一時の休戦",
+    [LANGUAGE_ENGLISH] = "A Pause in Hostilities",
+    [LANGUAGE_CHINESE] = "暂时休战",
+},
+
+[MID_STAGE_S3092] = {
+    [LANGUAGE_JAPANESE] = "青獅子の守護者",
+    [LANGUAGE_ENGLISH] = "The Protector",
+    [LANGUAGE_CHINESE] = "青狮子的守护者",
+},
+
+[MID_STAGE_S3093] = {
+    [LANGUAGE_JAPANESE] = "野望の寵児",
+    [LANGUAGE_ENGLISH] = "The Schemer",
+    [LANGUAGE_CHINESE] = "野心的宠儿",
+},
+
+[MID_STAGE_S3094] = {
+    [LANGUAGE_JAPANESE] = "黒鷲を継ぐ者",
+    [LANGUAGE_ENGLISH] = "The Future",
+    [LANGUAGE_CHINESE] = "黑鹫的继承者",
+},
+
+[MID_STAGE_S3095] = {
+    [LANGUAGE_JAPANESE] = "正気を失うには、十分だ",
+    [LANGUAGE_ENGLISH] = "My Sanity Died with Them",
+    [LANGUAGE_CHINESE] = "足以让人失去理智",
+},
+
+[MID_STAGE_S3101] = {
+    [LANGUAGE_JAPANESE] = "彼女の名は",
+    [LANGUAGE_ENGLISH] = "Truth of Her Name",
+    [LANGUAGE_CHINESE] = "她的名字",
+},
+
+[MID_STAGE_S3102] = {
+    [LANGUAGE_JAPANESE] = "令嬢と修道士",
+    [LANGUAGE_ENGLISH] = "Maiden and Devotee",
+    [LANGUAGE_CHINESE] = "大小姐与修道士",
+},
+
+[MID_STAGE_S3103] = {
+    [LANGUAGE_JAPANESE] = "エンブラに入りて",
+    [LANGUAGE_ENGLISH] = "Inside Embla",
+    [LANGUAGE_CHINESE] = "入境恩布拉",
+},
+
+[MID_STAGE_S3104] = {
+    [LANGUAGE_JAPANESE] = "悪鬼来たる",
+    [LANGUAGE_ENGLISH] = "The Reaper Cometh",
+    [LANGUAGE_CHINESE] = "恶鬼到来",
+},
+
+[MID_STAGE_S3105] = {
+    [LANGUAGE_JAPANESE] = "鮮血の神殿",
+    [LANGUAGE_ENGLISH] = "Temple of Blood",
+    [LANGUAGE_CHINESE] = "鲜血神殿",
+},
+
+[MID_STAGE_S3111] = {
+    [LANGUAGE_JAPANESE] = "希望の行方は",
+    [LANGUAGE_ENGLISH] = "Seeking a Path",
+    [LANGUAGE_CHINESE] = "希望的去向",
+},
+
+[MID_STAGE_S3112] = {
+    [LANGUAGE_JAPANESE] = "仮面騎士の放浪",
+    [LANGUAGE_ENGLISH] = "The Masked Wanderer",
+    [LANGUAGE_CHINESE] = "蒙面骑士的流浪",
+},
+
+[MID_STAGE_S3113] = {
+    [LANGUAGE_JAPANESE] = "踊り子の審美",
+    [LANGUAGE_ENGLISH] = "Polarized Judgments",
+    [LANGUAGE_CHINESE] = "舞者的审美观",
+},
+
+[MID_STAGE_S3114] = {
+    [LANGUAGE_JAPANESE] = "神竜王の微睡み",
+    [LANGUAGE_ENGLISH] = "An Addled Dragon",
+    [LANGUAGE_CHINESE] = "神龙王的小憩",
+},
+
+[MID_STAGE_S3115] = {
+    [LANGUAGE_JAPANESE] = "俺は知り、お前は知らない",
+    [LANGUAGE_ENGLISH] = "Bitter Realizations",
+    [LANGUAGE_CHINESE] = "我知你所不知",
+},
+
+[MID_STAGE_S3121] = {
+    [LANGUAGE_JAPANESE] = "もう一人のシャロン",
+    [LANGUAGE_ENGLISH] = "Sharena's Counterpart",
+    [LANGUAGE_CHINESE] = "另一个夏蓉",
+},
+
+[MID_STAGE_S3122] = {
+    [LANGUAGE_JAPANESE] = "豪放なる重騎士",
+    [LANGUAGE_ENGLISH] = "Large Armor, Larger Heart",
+    [LANGUAGE_CHINESE] = "豪放的重骑士",
+},
+
+[MID_STAGE_S3123] = {
+    [LANGUAGE_JAPANESE] = "己が影を追って",
+    [LANGUAGE_ENGLISH] = "One's Own Shadow",
+    [LANGUAGE_CHINESE] = "追逐自己的影子",
+},
+
+[MID_STAGE_S3124] = {
+    [LANGUAGE_JAPANESE] = "三姉妹の次女",
+    [LANGUAGE_ENGLISH] = "Middle Sister",
+    [LANGUAGE_CHINESE] = "三姊妹中的次女",
+},
+
+[MID_STAGE_S3125] = {
+    [LANGUAGE_JAPANESE] = "せめて、君たちは",
+    [LANGUAGE_ENGLISH] = "If Not I, Then You...",
+    [LANGUAGE_CHINESE] = "至少你们……",
+},
+
+[MID_STAGE_S3131] = {
+    [LANGUAGE_JAPANESE] = "私に従え",
+    [LANGUAGE_ENGLISH] = "Obey Me",
+    [LANGUAGE_CHINESE] = "服从我",
+},
+
+[MID_STAGE_S3132] = {
+    [LANGUAGE_JAPANESE] = "あの丘で共に",
+    [LANGUAGE_ENGLISH] = "On That Hill, Together",
+    [LANGUAGE_CHINESE] = "在那座山丘上比肩",
+},
+
+[MID_STAGE_S3133] = {
+    [LANGUAGE_JAPANESE] = "玩弄されるもの",
+    [LANGUAGE_ENGLISH] = "Mere Playthings",
+    [LANGUAGE_CHINESE] = "被玩弄之人",
+},
+
+[MID_STAGE_S3134] = {
+    [LANGUAGE_JAPANESE] = "あなたを殺す",
+    [LANGUAGE_ENGLISH] = "Don’t Struggle",
+    [LANGUAGE_CHINESE] = "杀了你",
+},
+
+[MID_STAGE_S3135] = {
+    [LANGUAGE_JAPANESE] = "死の王ヘル",
+    [LANGUAGE_ENGLISH] = "Ruler of the Dead",
+    [LANGUAGE_CHINESE] = "死之王赫尔",
 },
 
 [MID_STAGE_S4011] = {
@@ -1297,792 +2053,6 @@
     [LANGUAGE_CHINESE] = "诅咒部队队长",
 },
 
-[MID_STAGE_S1601] = {
-    [LANGUAGE_JAPANESE] = "刃の儀式",
-    [LANGUAGE_ENGLISH] = "The Rite of Blades",
-    [LANGUAGE_CHINESE] = "刃之仪式",
-},
-
-[MID_STAGE_S2011] = {
-    [LANGUAGE_JAPANESE] = "その炎、不死にして不滅",
-    [LANGUAGE_ENGLISH] = "Undying Flame",
-    [LANGUAGE_CHINESE] = "那火焰，不死不灭",
-},
-
-[MID_STAGE_S2012] = {
-    [LANGUAGE_JAPANESE] = "山は焼け、木は倒れ",
-    [LANGUAGE_ENGLISH] = "Mountains Burn",
-    [LANGUAGE_CHINESE] = "山燃树倒",
-},
-
-[MID_STAGE_S2013] = {
-    [LANGUAGE_JAPANESE] = "水は乾き、海は呑まれ",
-    [LANGUAGE_ENGLISH] = "Steam Billows",
-    [LANGUAGE_CHINESE] = "水枯海竭",
-},
-
-[MID_STAGE_S2014] = {
-    [LANGUAGE_JAPANESE] = "天は焦げ、月は堕ちる",
-    [LANGUAGE_ENGLISH] = "Stars Become Cinders",
-    [LANGUAGE_CHINESE] = "天焦月落",
-},
-
-[MID_STAGE_S2015] = {
-    [LANGUAGE_JAPANESE] = "霧の妖婦",
-    [LANGUAGE_ENGLISH] = "Enchantress of the Mist",
-    [LANGUAGE_CHINESE] = "雾之妖妇",
-},
-
-[MID_STAGE_S2021] = {
-    [LANGUAGE_JAPANESE] = "雪の娘",
-    [LANGUAGE_ENGLISH] = "Lady of Snow",
-    [LANGUAGE_CHINESE] = "雪之女",
-},
-
-[MID_STAGE_S2022] = {
-    [LANGUAGE_JAPANESE] = "白き夜の子ら",
-    [LANGUAGE_ENGLISH] = "Children of the Light",
-    [LANGUAGE_CHINESE] = "白夜的孩子们",
-},
-
-[MID_STAGE_S2023] = {
-    [LANGUAGE_JAPANESE] = "黒き夜の子ら",
-    [LANGUAGE_ENGLISH] = "Children of the Shadow",
-    [LANGUAGE_CHINESE] = "黑夜的孩子们",
-},
-
-[MID_STAGE_S2024] = {
-    [LANGUAGE_JAPANESE] = "黒白の子ら",
-    [LANGUAGE_ENGLISH] = "Shadows and Light",
-    [LANGUAGE_CHINESE] = "黑白的孩子们",
-},
-
-[MID_STAGE_S2025] = {
-    [LANGUAGE_JAPANESE] = "炎の王",
-    [LANGUAGE_ENGLISH] = "Ruler of Flame",
-    [LANGUAGE_CHINESE] = "炎之王",
-},
-
-[MID_STAGE_S2031] = {
-    [LANGUAGE_JAPANESE] = "ニフルへの道",
-    [LANGUAGE_ENGLISH] = "The Road to Nifl",
-    [LANGUAGE_CHINESE] = "通往尼福尔之路",
-},
-
-[MID_STAGE_S2032] = {
-    [LANGUAGE_JAPANESE] = "銀の髪の乙女",
-    [LANGUAGE_ENGLISH] = "The Silver-Haired Maiden",
-    [LANGUAGE_CHINESE] = "银发少女",
-},
-
-[MID_STAGE_S2033] = {
-    [LANGUAGE_JAPANESE] = "奇妙な守護者",
-    [LANGUAGE_ENGLISH] = "Ensnared by Beauty",
-    [LANGUAGE_CHINESE] = "奇妙的守护者",
-},
-
-[MID_STAGE_S2034] = {
-    [LANGUAGE_JAPANESE] = "異貌の騎士",
-    [LANGUAGE_ENGLISH] = "A Menacing Swordsman",
-    [LANGUAGE_CHINESE] = "异貌的骑士",
-},
-
-[MID_STAGE_S2035] = {
-    [LANGUAGE_JAPANESE] = "炎剣、地を薙ぐ",
-    [LANGUAGE_ENGLISH] = "Steel Sears the Land",
-    [LANGUAGE_CHINESE] = "炎剑　横扫大地",
-},
-
-[MID_STAGE_S2041] = {
-    [LANGUAGE_JAPANESE] = "守るべき人々のために",
-    [LANGUAGE_ENGLISH] = "Protecting the People",
-    [LANGUAGE_CHINESE] = "为了要守护的人们",
-},
-
-[MID_STAGE_S2042] = {
-    [LANGUAGE_JAPANESE] = "緋閃の女剣士",
-    [LANGUAGE_ENGLISH] = "Crimson Flash",
-    [LANGUAGE_CHINESE] = "绯闪女剑士",
-},
-
-[MID_STAGE_S2043] = {
-    [LANGUAGE_JAPANESE] = "光と影の王女",
-    [LANGUAGE_ENGLISH] = "Princesses in Shadow",
-    [LANGUAGE_CHINESE] = "光与影之公主",
-},
-
-[MID_STAGE_S2044] = {
-    [LANGUAGE_JAPANESE] = "幼き竜人",
-    [LANGUAGE_ENGLISH] = "The Young Dragon",
-    [LANGUAGE_CHINESE] = "幼小的龙人",
-},
-
-[MID_STAGE_S2045] = {
-    [LANGUAGE_JAPANESE] = "灼熱の決断",
-    [LANGUAGE_ENGLISH] = "Fiery Resolve",
-    [LANGUAGE_CHINESE] = "灼热的决断",
-},
-
-[MID_STAGE_S2051] = {
-    [LANGUAGE_JAPANESE] = "雪原の追跡者",
-    [LANGUAGE_ENGLISH] = "Snowfield Pursuit",
-    [LANGUAGE_CHINESE] = "雪原的追迹者",
-},
-
-[MID_STAGE_S2052] = {
-    [LANGUAGE_JAPANESE] = "灰空に舞う魔女",
-    [LANGUAGE_ENGLISH] = "Dance of the Witch",
-    [LANGUAGE_CHINESE] = "灰空中飞舞的魔女",
-},
-
-[MID_STAGE_S2053] = {
-    [LANGUAGE_JAPANESE] = "邪竜目覚めし時",
-    [LANGUAGE_ENGLISH] = "The Fell Dragon Rises",
-    [LANGUAGE_CHINESE] = "邪龙苏醒之时",
-},
-
-[MID_STAGE_S2054] = {
-    [LANGUAGE_JAPANESE] = "暗黒皇帝",
-    [LANGUAGE_ENGLISH] = "The Dark Emperor",
-    [LANGUAGE_CHINESE] = "暗黑皇帝",
-},
-
-[MID_STAGE_S2055] = {
-    [LANGUAGE_JAPANESE] = "炎の狩人",
-    [LANGUAGE_ENGLISH] = "Hunted by the Flames",
-    [LANGUAGE_CHINESE] = "炎之狩猎者",
-},
-
-[MID_STAGE_S2061] = {
-    [LANGUAGE_JAPANESE] = "夢見る姿は彼方に",
-    [LANGUAGE_ENGLISH] = "A Distant Dream",
-    [LANGUAGE_CHINESE] = "遥不可及的梦中人",
-},
-
-[MID_STAGE_S2062] = {
-    [LANGUAGE_JAPANESE] = "聖痕の騎士",
-    [LANGUAGE_ENGLISH] = "The Branded Knight",
-    [LANGUAGE_CHINESE] = "圣痕骑士",
-},
-
-[MID_STAGE_S2063] = {
-    [LANGUAGE_JAPANESE] = "軍師の娘",
-    [LANGUAGE_ENGLISH] = "The Tactician's Daughter",
-    [LANGUAGE_CHINESE] = "军师之女",
-},
-
-[MID_STAGE_S2064] = {
-    [LANGUAGE_JAPANESE] = "軍師の息子",
-    [LANGUAGE_ENGLISH] = "The Tactician's Son",
-    [LANGUAGE_CHINESE] = "军师之子",
-},
-
-[MID_STAGE_S2065] = {
-    [LANGUAGE_JAPANESE] = "炎剣の鞘",
-    [LANGUAGE_ENGLISH] = "Sheathed Steel",
-    [LANGUAGE_CHINESE] = "炎剑之鞘",
-},
-
-[MID_STAGE_S2071] = {
-    [LANGUAGE_JAPANESE] = "夢は間近に",
-    [LANGUAGE_ENGLISH] = "Echoing Dreams",
-    [LANGUAGE_CHINESE] = "梦想近在咫尺",
-},
-
-[MID_STAGE_S2072] = {
-    [LANGUAGE_JAPANESE] = "魔道騎士の剣",
-    [LANGUAGE_ENGLISH] = "Blade of the Mage Knight",
-    [LANGUAGE_CHINESE] = "魔道骑士之剑",
-},
-
-[MID_STAGE_S2073] = {
-    [LANGUAGE_JAPANESE] = "不屈の意志",
-    [LANGUAGE_ENGLISH] = "Indomitable Spirits",
-    [LANGUAGE_CHINESE] = "不屈的意志",
-},
-
-[MID_STAGE_S2074] = {
-    [LANGUAGE_JAPANESE] = "魔道騎士二人",
-    [LANGUAGE_ENGLISH] = "Book and Blade",
-    [LANGUAGE_CHINESE] = "两位魔道骑士",
-},
-
-[MID_STAGE_S2075] = {
-    [LANGUAGE_JAPANESE] = "邂逅、そして",
-    [LANGUAGE_ENGLISH] = "Snow and Ash",
-    [LANGUAGE_CHINESE] = "邂逅之后",
-},
-
-[MID_STAGE_S2081] = {
-    [LANGUAGE_JAPANESE] = "氷の子はここに願う",
-    [LANGUAGE_ENGLISH] = "Prayer of the Child of Ice",
-    [LANGUAGE_CHINESE] = "冰之子在此祈求",
-},
-
-[MID_STAGE_S2082] = {
-    [LANGUAGE_JAPANESE] = "荒ぶる炎鎮める力を",
-    [LANGUAGE_ENGLISH] = "Tame the Savage Flame",
-    [LANGUAGE_CHINESE] = "抑制狂焰之力",
-},
-
-[MID_STAGE_S2083] = {
-    [LANGUAGE_JAPANESE] = "不死を殺し、不滅を滅す",
-    [LANGUAGE_ENGLISH] = "Unquenchable, Undying",
-    [LANGUAGE_CHINESE] = "杀死不死者、毁灭不灭者",
-},
-
-[MID_STAGE_S2084] = {
-    [LANGUAGE_JAPANESE] = "その力を、器に",
-    [LANGUAGE_ENGLISH] = "Vessel Filled with Power",
-    [LANGUAGE_CHINESE] = "愿得此力，宿于此器",
-},
-
-[MID_STAGE_S2085] = {
-    [LANGUAGE_JAPANESE] = "氷の儀",
-    [LANGUAGE_ENGLISH] = "Rite of Frost",
-    [LANGUAGE_CHINESE] = "冰之仪式",
-},
-
-[MID_STAGE_S2091] = {
-    [LANGUAGE_JAPANESE] = "炎獄の門番",
-    [LANGUAGE_ENGLISH] = "The Infernal Jailer",
-    [LANGUAGE_CHINESE] = "炎狱的守卫",
-},
-
-[MID_STAGE_S2092] = {
-    [LANGUAGE_JAPANESE] = "魔剣の黒騎士",
-    [LANGUAGE_ENGLISH] = "The Demon Sword",
-    [LANGUAGE_CHINESE] = "魔剑的黑骑士",
-},
-
-[MID_STAGE_S2093] = {
-    [LANGUAGE_JAPANESE] = "雷神降り立つ",
-    [LANGUAGE_ENGLISH] = "The Goddess of Thunder",
-    [LANGUAGE_CHINESE] = "雷神降临",
-},
-
-[MID_STAGE_S2094] = {
-    [LANGUAGE_JAPANESE] = "炎の踊り子",
-    [LANGUAGE_ENGLISH] = "Dancer of Flames",
-    [LANGUAGE_CHINESE] = "炎之舞娘",
-},
-
-[MID_STAGE_S2095] = {
-    [LANGUAGE_JAPANESE] = "地獄の底",
-    [LANGUAGE_ENGLISH] = "Into the Blaze",
-    [LANGUAGE_CHINESE] = "地狱深渊",
-},
-
-[MID_STAGE_S2101] = {
-    [LANGUAGE_JAPANESE] = "王城攻略",
-    [LANGUAGE_ENGLISH] = "To the Castle",
-    [LANGUAGE_CHINESE] = "攻略王城",
-},
-
-[MID_STAGE_S2102] = {
-    [LANGUAGE_JAPANESE] = "場違いな探究者",
-    [LANGUAGE_ENGLISH] = "Misplaced Wisdom",
-    [LANGUAGE_CHINESE] = "格格不入的探究者",
-},
-
-[MID_STAGE_S2103] = {
-    [LANGUAGE_JAPANESE] = "牙の兄妹",
-    [LANGUAGE_ENGLISH] = "Family of Fangs",
-    [LANGUAGE_CHINESE] = "牙的兄妹",
-},
-
-[MID_STAGE_S2104] = {
-    [LANGUAGE_JAPANESE] = "剣姫",
-    [LANGUAGE_ENGLISH] = "Sword Vassal",
-    [LANGUAGE_CHINESE] = "剑姬",
-},
-
-[MID_STAGE_S2105] = {
-    [LANGUAGE_JAPANESE] = "炎の王、死す",
-    [LANGUAGE_ENGLISH] = "The King's Demise",
-    [LANGUAGE_CHINESE] = "炎之王，死亡",
-},
-
-[MID_STAGE_S2111] = {
-    [LANGUAGE_JAPANESE] = "敵の敵",
-    [LANGUAGE_ENGLISH] = "The Enemy of My Enemy",
-    [LANGUAGE_CHINESE] = "敌人的敌人",
-},
-
-[MID_STAGE_S2112] = {
-    [LANGUAGE_JAPANESE] = "花占いの行方",
-    [LANGUAGE_ENGLISH] = "Flower Fortunes",
-    [LANGUAGE_CHINESE] = "花占卜的去向",
-},
-
-[MID_STAGE_S2113] = {
-    [LANGUAGE_JAPANESE] = "地獄の底から",
-    [LANGUAGE_ENGLISH] = "From the Depths of Hell",
-    [LANGUAGE_CHINESE] = "来自地狱深渊",
-},
-
-[MID_STAGE_S2114] = {
-    [LANGUAGE_JAPANESE] = "天空の舞踏",
-    [LANGUAGE_ENGLISH] = "Dance in the Sky",
-    [LANGUAGE_CHINESE] = "空中的舞会",
-},
-
-[MID_STAGE_S2115] = {
-    [LANGUAGE_JAPANESE] = "骨灰の谷",
-    [LANGUAGE_ENGLISH] = "Burnt-Bone Gorge",
-    [LANGUAGE_CHINESE] = "骨灰之谷",
-},
-
-[MID_STAGE_S2121] = {
-    [LANGUAGE_JAPANESE] = "疑心",
-    [LANGUAGE_ENGLISH] = "Suspicion",
-    [LANGUAGE_CHINESE] = "猜疑",
-},
-
-[MID_STAGE_S2122] = {
-    [LANGUAGE_JAPANESE] = "地の継承者",
-    [LANGUAGE_ENGLISH] = "Scion of a Crusader",
-    [LANGUAGE_CHINESE] = "地之继承者",
-},
-
-[MID_STAGE_S2123] = {
-    [LANGUAGE_JAPANESE] = "這いずり彷徨う",
-    [LANGUAGE_ENGLISH] = "Prowling Beast",
-    [LANGUAGE_CHINESE] = "于底层徬徨",
-},
-
-[MID_STAGE_S2124] = {
-    [LANGUAGE_JAPANESE] = "風の継承者",
-    [LANGUAGE_ENGLISH] = "Led by the Breeze",
-    [LANGUAGE_CHINESE] = "风之继承者",
-},
-
-[MID_STAGE_S2125] = {
-    [LANGUAGE_JAPANESE] = "裏切者は",
-    [LANGUAGE_ENGLISH] = "The Traitor",
-    [LANGUAGE_CHINESE] = "叛徒",
-},
-
-[MID_STAGE_S2131] = {
-    [LANGUAGE_JAPANESE] = "王女レーギャルン",
-    [LANGUAGE_ENGLISH] = "Princess Laegjarn",
-    [LANGUAGE_CHINESE] = "公主瑞瓦伽伦",
-},
-
-[MID_STAGE_S2132] = {
-    [LANGUAGE_JAPANESE] = "炎の贄たち",
-    [LANGUAGE_ENGLISH] = "The Sacrifices",
-    [LANGUAGE_CHINESE] = "炎之祭品",
-},
-
-[MID_STAGE_S2133] = {
-    [LANGUAGE_JAPANESE] = "氷の従者",
-    [LANGUAGE_ENGLISH] = "Maid of Ice",
-    [LANGUAGE_CHINESE] = "冰之侍从",
-},
-
-[MID_STAGE_S2134] = {
-    [LANGUAGE_JAPANESE] = "王女レーヴァテイン",
-    [LANGUAGE_ENGLISH] = "Princess Laevatein",
-    [LANGUAGE_CHINESE] = "公主瑞瓦提恩",
-},
-
-[MID_STAGE_S2135] = {
-    [LANGUAGE_JAPANESE] = "炎王スルト",
-    [LANGUAGE_ENGLISH] = "Surtr, Ruler of Flame",
-    [LANGUAGE_CHINESE] = "炎王斯尔特",
-},
-
-[MID_STAGE_S3011] = {
-    [LANGUAGE_JAPANESE] = "死者は昼歩く",
-    [LANGUAGE_ENGLISH] = "The Dead Arrive",
-    [LANGUAGE_CHINESE] = "流连的死者",
-},
-
-[MID_STAGE_S3012] = {
-    [LANGUAGE_JAPANESE] = "王国に差す影",
-    [LANGUAGE_ENGLISH] = "Askr in Shadow",
-    [LANGUAGE_CHINESE] = "侵入王国的黑影",
-},
-
-[MID_STAGE_S3013] = {
-    [LANGUAGE_JAPANESE] = "撃殺の剣士",
-    [LANGUAGE_ENGLISH] = "Lethal Swordsman",
-    [LANGUAGE_CHINESE] = "杀戮的剑士",
-},
-
-[MID_STAGE_S3014] = {
-    [LANGUAGE_JAPANESE] = "鏖殺の魔女",
-    [LANGUAGE_ENGLISH] = "Omnicidal Witch",
-    [LANGUAGE_CHINESE] = "灭绝的魔女",
-},
-
-[MID_STAGE_S3015] = {
-    [LANGUAGE_JAPANESE] = "優しき死神",
-    [LANGUAGE_ENGLISH] = "Merciful Death",
-    [LANGUAGE_CHINESE] = "温柔的死神",
-},
-
-[MID_STAGE_S3021] = {
-    [LANGUAGE_JAPANESE] = "王命",
-    [LANGUAGE_ENGLISH] = "The King's Order",
-    [LANGUAGE_CHINESE] = "王命",
-},
-
-[MID_STAGE_S3022] = {
-    [LANGUAGE_JAPANESE] = "冥府より吹く風",
-    [LANGUAGE_ENGLISH] = "The Tomb Exhales",
-    [LANGUAGE_CHINESE] = "自冥界吹拂之风",
-},
-
-[MID_STAGE_S3023] = {
-    [LANGUAGE_JAPANESE] = "死者の道",
-    [LANGUAGE_ENGLISH] = "Path of the Dead",
-    [LANGUAGE_CHINESE] = "死者之路",
-},
-
-[MID_STAGE_S3024] = {
-    [LANGUAGE_JAPANESE] = "先行偵察",
-    [LANGUAGE_ENGLISH] = "Courting Danger",
-    [LANGUAGE_CHINESE] = "侦查前锋",
-},
-
-[MID_STAGE_S3025] = {
-    [LANGUAGE_JAPANESE] = "王の姿",
-    [LANGUAGE_ENGLISH] = "The Makings of a King",
-    [LANGUAGE_CHINESE] = "王的姿态",
-},
-
-[MID_STAGE_S3031] = {
-    [LANGUAGE_JAPANESE] = "二十年前の傷痕",
-    [LANGUAGE_ENGLISH] = "The Scar Remembers",
-    [LANGUAGE_CHINESE] = "二十年前的伤痕",
-},
-
-[MID_STAGE_S3032] = {
-    [LANGUAGE_JAPANESE] = "凶兆の鴉王",
-    [LANGUAGE_ENGLISH] = "The Ominous Raven",
-    [LANGUAGE_CHINESE] = "凶兆的鸦王",
-},
-
-[MID_STAGE_S3033] = {
-    [LANGUAGE_JAPANESE] = "狼女王の牙",
-    [LANGUAGE_ENGLISH] = "Fangs of the Wolf Queen",
-    [LANGUAGE_CHINESE] = "狼女王之牙",
-},
-
-[MID_STAGE_S3034] = {
-    [LANGUAGE_JAPANESE] = "鷹王と白の王子",
-    [LANGUAGE_ENGLISH] = "Hawk and Heron",
-    [LANGUAGE_CHINESE] = "鹰王与纯白王子",
-},
-
-[MID_STAGE_S3035] = {
-    [LANGUAGE_JAPANESE] = "死が、そこにいる",
-    [LANGUAGE_ENGLISH] = "Close to Death",
-    [LANGUAGE_CHINESE] = "死亡，就在该处",
-},
-
-[MID_STAGE_S3041] = {
-    [LANGUAGE_JAPANESE] = "定められた死",
-    [LANGUAGE_ENGLISH] = "No Cheating Death",
-    [LANGUAGE_CHINESE] = "被注定的死亡",
-},
-
-[MID_STAGE_S3042] = {
-    [LANGUAGE_JAPANESE] = "妖狐の親子",
-    [LANGUAGE_ENGLISH] = "Kitsune Family",
-    [LANGUAGE_CHINESE] = "妖狐亲子",
-},
-
-[MID_STAGE_S3043] = {
-    [LANGUAGE_JAPANESE] = "ガルーの親子",
-    [LANGUAGE_ENGLISH] = "Wolfskin Family",
-    [LANGUAGE_CHINESE] = "加鲁亲子",
-},
-
-[MID_STAGE_S3044] = {
-    [LANGUAGE_JAPANESE] = "零れゆく砂",
-    [LANGUAGE_ENGLISH] = "Running Out of Time",
-    [LANGUAGE_CHINESE] = "散落之砂",
-},
-
-[MID_STAGE_S3045] = {
-    [LANGUAGE_JAPANESE] = "死が、迎えに来る",
-    [LANGUAGE_ENGLISH] = "Death's Arrival",
-    [LANGUAGE_CHINESE] = "当死亡来迎接",
-},
-
-[MID_STAGE_S3051] = {
-    [LANGUAGE_JAPANESE] = "失われたもの",
-    [LANGUAGE_ENGLISH] = "Loss",
-    [LANGUAGE_CHINESE] = "所失之物",
-},
-
-[MID_STAGE_S3052] = {
-    [LANGUAGE_JAPANESE] = "傭兵天馬騎士",
-    [LANGUAGE_ENGLISH] = "Airborne Mercenary",
-    [LANGUAGE_CHINESE] = "佣兵天马骑士",
-},
-
-[MID_STAGE_S3053] = {
-    [LANGUAGE_JAPANESE] = "草原の戦士たち",
-    [LANGUAGE_ENGLISH] = "Warriors of the Plains",
-    [LANGUAGE_CHINESE] = "草原的战士们",
-},
-
-[MID_STAGE_S3054] = {
-    [LANGUAGE_JAPANESE] = "魔竜の目覚め",
-    [LANGUAGE_ENGLISH] = "The Demon Dragon Wakes",
-    [LANGUAGE_CHINESE] = "魔龙苏醒",
-},
-
-[MID_STAGE_S3055] = {
-    [LANGUAGE_JAPANESE] = "死中に生を",
-    [LANGUAGE_ENGLISH] = "Into the Gates",
-    [LANGUAGE_CHINESE] = "死里求生",
-},
-
-[MID_STAGE_S3061] = {
-    [LANGUAGE_JAPANESE] = "幾千の惨劇を",
-    [LANGUAGE_ENGLISH] = "Tragedy upon Tragedy",
-    [LANGUAGE_CHINESE] = "历经无数惨剧",
-},
-
-[MID_STAGE_S3062] = {
-    [LANGUAGE_JAPANESE] = "獣戦士たち",
-    [LANGUAGE_ENGLISH] = "Warriors of the Laguz",
-    [LANGUAGE_CHINESE] = "兽战士们",
-},
-
-[MID_STAGE_S3063] = {
-    [LANGUAGE_JAPANESE] = "再びの死",
-    [LANGUAGE_ENGLISH] = "Death Visits Again",
-    [LANGUAGE_CHINESE] = "再次死亡",
-},
-
-[MID_STAGE_S3064] = {
-    [LANGUAGE_JAPANESE] = "獅子王咆哮す",
-    [LANGUAGE_ENGLISH] = "Hear the Lion's Roar",
-    [LANGUAGE_CHINESE] = "狮子王咆哮",
-},
-
-[MID_STAGE_S3065] = {
-    [LANGUAGE_JAPANESE] = "アスクの血脈",
-    [LANGUAGE_ENGLISH] = "The Blood of Askr",
-    [LANGUAGE_CHINESE] = "亚斯克的血脉",
-},
-
-[MID_STAGE_S3071] = {
-    [LANGUAGE_JAPANESE] = "いつか見た景色",
-    [LANGUAGE_ENGLISH] = "Familiar Scenery",
-    [LANGUAGE_CHINESE] = "似曾相识的景色",
-},
-
-[MID_STAGE_S3072] = {
-    [LANGUAGE_JAPANESE] = "身を焦がす竜血",
-    [LANGUAGE_ENGLISH] = "Boiling Blood",
-    [LANGUAGE_CHINESE] = "沸腾的龙血",
-},
-
-[MID_STAGE_S3073] = {
-    [LANGUAGE_JAPANESE] = "ひとり、みるゆめ",
-    [LANGUAGE_ENGLISH] = "Trapped, Alone",
-    [LANGUAGE_CHINESE] = "独自一人所见的梦",
-},
-
-[MID_STAGE_S3074] = {
-    [LANGUAGE_JAPANESE] = "焼き尽くせぬ狂気",
-    [LANGUAGE_ENGLISH] = "Engulfed by Madness",
-    [LANGUAGE_CHINESE] = "燃烧不尽的狂气",
-},
-
-[MID_STAGE_S3075] = {
-    [LANGUAGE_JAPANESE] = "温もりの花",
-    [LANGUAGE_ENGLISH] = "Compassion Blooms",
-    [LANGUAGE_CHINESE] = "暖之花",
-},
-
-[MID_STAGE_S3081] = {
-    [LANGUAGE_JAPANESE] = "滅びの地で",
-    [LANGUAGE_ENGLISH] = "Ruinous Land",
-    [LANGUAGE_CHINESE] = "于灭亡之地",
-},
-
-[MID_STAGE_S3082] = {
-    [LANGUAGE_JAPANESE] = "最後の種族",
-    [LANGUAGE_ENGLISH] = "Almost Extinct",
-    [LANGUAGE_CHINESE] = "最后的种族",
-},
-
-[MID_STAGE_S3083] = {
-    [LANGUAGE_JAPANESE] = "花の残り香",
-    [LANGUAGE_ENGLISH] = "Their Fragrance Lingers...",
-    [LANGUAGE_CHINESE] = "花的残香",
-},
-
-[MID_STAGE_S3084] = {
-    [LANGUAGE_JAPANESE] = "神託の少女",
-    [LANGUAGE_ENGLISH] = "Tiny Harbinger",
-    [LANGUAGE_CHINESE] = "神谕少女",
-},
-
-[MID_STAGE_S3085] = {
-    [LANGUAGE_JAPANESE] = "書は語る、滅びを",
-    [LANGUAGE_ENGLISH] = "Foreboding Words",
-    [LANGUAGE_CHINESE] = "书诉说著灭亡",
-},
-
-[MID_STAGE_S3091] = {
-    [LANGUAGE_JAPANESE] = "一時の休戦",
-    [LANGUAGE_ENGLISH] = "A Pause in Hostilities",
-    [LANGUAGE_CHINESE] = "暂时休战",
-},
-
-[MID_STAGE_S3092] = {
-    [LANGUAGE_JAPANESE] = "青獅子の守護者",
-    [LANGUAGE_ENGLISH] = "The Protector",
-    [LANGUAGE_CHINESE] = "青狮子的守护者",
-},
-
-[MID_STAGE_S3093] = {
-    [LANGUAGE_JAPANESE] = "野望の寵児",
-    [LANGUAGE_ENGLISH] = "The Schemer",
-    [LANGUAGE_CHINESE] = "野心的宠儿",
-},
-
-[MID_STAGE_S3094] = {
-    [LANGUAGE_JAPANESE] = "黒鷲を継ぐ者",
-    [LANGUAGE_ENGLISH] = "The Future",
-    [LANGUAGE_CHINESE] = "黑鹫的继承者",
-},
-
-[MID_STAGE_S3095] = {
-    [LANGUAGE_JAPANESE] = "正気を失うには、十分だ",
-    [LANGUAGE_ENGLISH] = "My Sanity Died with Them",
-    [LANGUAGE_CHINESE] = "足以让人失去理智",
-},
-
-[MID_STAGE_S3101] = {
-    [LANGUAGE_JAPANESE] = "彼女の名は",
-    [LANGUAGE_ENGLISH] = "Truth of Her Name",
-    [LANGUAGE_CHINESE] = "她的名字",
-},
-
-[MID_STAGE_S3102] = {
-    [LANGUAGE_JAPANESE] = "令嬢と修道士",
-    [LANGUAGE_ENGLISH] = "Maiden and Devotee",
-    [LANGUAGE_CHINESE] = "大小姐与修道士",
-},
-
-[MID_STAGE_S3103] = {
-    [LANGUAGE_JAPANESE] = "エンブラに入りて",
-    [LANGUAGE_ENGLISH] = "Inside Embla",
-    [LANGUAGE_CHINESE] = "入境恩布拉",
-},
-
-[MID_STAGE_S3104] = {
-    [LANGUAGE_JAPANESE] = "悪鬼来たる",
-    [LANGUAGE_ENGLISH] = "The Reaper Cometh",
-    [LANGUAGE_CHINESE] = "恶鬼到来",
-},
-
-[MID_STAGE_S3105] = {
-    [LANGUAGE_JAPANESE] = "鮮血の神殿",
-    [LANGUAGE_ENGLISH] = "Temple of Blood",
-    [LANGUAGE_CHINESE] = "鲜血神殿",
-},
-
-[MID_STAGE_S3111] = {
-    [LANGUAGE_JAPANESE] = "希望の行方は",
-    [LANGUAGE_ENGLISH] = "Seeking a Path",
-    [LANGUAGE_CHINESE] = "希望的去向",
-},
-
-[MID_STAGE_S3112] = {
-    [LANGUAGE_JAPANESE] = "仮面騎士の放浪",
-    [LANGUAGE_ENGLISH] = "The Masked Wanderer",
-    [LANGUAGE_CHINESE] = "蒙面骑士的流浪",
-},
-
-[MID_STAGE_S3113] = {
-    [LANGUAGE_JAPANESE] = "踊り子の審美",
-    [LANGUAGE_ENGLISH] = "Polarized Judgments",
-    [LANGUAGE_CHINESE] = "舞者的审美观",
-},
-
-[MID_STAGE_S3114] = {
-    [LANGUAGE_JAPANESE] = "神竜王の微睡み",
-    [LANGUAGE_ENGLISH] = "An Addled Dragon",
-    [LANGUAGE_CHINESE] = "神龙王的小憩",
-},
-
-[MID_STAGE_S3115] = {
-    [LANGUAGE_JAPANESE] = "俺は知り、お前は知らない",
-    [LANGUAGE_ENGLISH] = "Bitter Realizations",
-    [LANGUAGE_CHINESE] = "我知你所不知",
-},
-
-[MID_STAGE_S3121] = {
-    [LANGUAGE_JAPANESE] = "もう一人のシャロン",
-    [LANGUAGE_ENGLISH] = "Sharena's Counterpart",
-    [LANGUAGE_CHINESE] = "另一个夏蓉",
-},
-
-[MID_STAGE_S3122] = {
-    [LANGUAGE_JAPANESE] = "豪放なる重騎士",
-    [LANGUAGE_ENGLISH] = "Large Armor, Larger Heart",
-    [LANGUAGE_CHINESE] = "豪放的重骑士",
-},
-
-[MID_STAGE_S3123] = {
-    [LANGUAGE_JAPANESE] = "己が影を追って",
-    [LANGUAGE_ENGLISH] = "One's Own Shadow",
-    [LANGUAGE_CHINESE] = "追逐自己的影子",
-},
-
-[MID_STAGE_S3124] = {
-    [LANGUAGE_JAPANESE] = "三姉妹の次女",
-    [LANGUAGE_ENGLISH] = "Middle Sister",
-    [LANGUAGE_CHINESE] = "三姊妹中的次女",
-},
-
-[MID_STAGE_S3125] = {
-    [LANGUAGE_JAPANESE] = "せめて、君たちは",
-    [LANGUAGE_ENGLISH] = "If Not I, Then You...",
-    [LANGUAGE_CHINESE] = "至少你们……",
-},
-
-[MID_STAGE_S3131] = {
-    [LANGUAGE_JAPANESE] = "私に従え",
-    [LANGUAGE_ENGLISH] = "Obey Me",
-    [LANGUAGE_CHINESE] = "服从我",
-},
-
-[MID_STAGE_S3132] = {
-    [LANGUAGE_JAPANESE] = "あの丘で共に",
-    [LANGUAGE_ENGLISH] = "On That Hill, Together",
-    [LANGUAGE_CHINESE] = "在那座山丘上比肩",
-},
-
-[MID_STAGE_S3133] = {
-    [LANGUAGE_JAPANESE] = "玩弄されるもの",
-    [LANGUAGE_ENGLISH] = "Mere Playthings",
-    [LANGUAGE_CHINESE] = "被玩弄之人",
-},
-
-[MID_STAGE_S3134] = {
-    [LANGUAGE_JAPANESE] = "あなたを殺す",
-    [LANGUAGE_ENGLISH] = "Don’t Struggle",
-    [LANGUAGE_CHINESE] = "杀了你",
-},
-
-[MID_STAGE_S3135] = {
-    [LANGUAGE_JAPANESE] = "死の王ヘル",
-    [LANGUAGE_ENGLISH] = "Ruler of the Dead",
-    [LANGUAGE_CHINESE] = "死之王赫尔",
-},
-
 [MID_STAGE_S6031] = {
     [LANGUAGE_JAPANESE] = "声がきこえる",
     [LANGUAGE_ENGLISH] = "Hearing Voices",
@@ -2501,4 +2471,34 @@
     [LANGUAGE_JAPANESE] = "黄金の蛇の呪い",
     [LANGUAGE_ENGLISH] = "Curse of the Gold Serpent",
     [LANGUAGE_CHINESE] = "黄金蛇的诅咒",
+},
+
+[MID_STAGE_S7041] = {
+    [LANGUAGE_JAPANESE] = "海神の【櫂】",
+    [LANGUAGE_ENGLISH] = "Ár of the Sea God",
+    [LANGUAGE_CHINESE] = "海神之【桨】",
+},
+
+[MID_STAGE_S7042] = {
+    [LANGUAGE_JAPANESE] = "女王の護衛",
+    [LANGUAGE_ENGLISH] = "Queen's Advisor",
+    [LANGUAGE_CHINESE] = "女王的护卫",
+},
+
+[MID_STAGE_S7043] = {
+    [LANGUAGE_JAPANESE] = "かわいい生き物",
+    [LANGUAGE_ENGLISH] = "Precious Creatures",
+    [LANGUAGE_CHINESE] = "可爱的生物",
+},
+
+[MID_STAGE_S7044] = {
+    [LANGUAGE_JAPANESE] = "クリミア女王の決意",
+    [LANGUAGE_ENGLISH] = "Crimean Devotion",
+    [LANGUAGE_CHINESE] = "克里米亚女王的决心",
+},
+
+[MID_STAGE_S7045] = {
+    [LANGUAGE_JAPANESE] = "初めての再会",
+    [LANGUAGE_ENGLISH] = "First Meetings",
+    [LANGUAGE_CHINESE] = "初次重逢",
 },
