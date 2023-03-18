@@ -472,3 +472,9 @@ void StartFaceFadeOutNew(struct FaceProcNew * proc)
     StartPalFadeToBlack(0x10 + sFaceConfig[proc->slot].palid, 12, proc);
     EndFaceIn8Frames((struct FaceProc *)proc);
 }
+
+const char * GetFaceName(int fid)
+{
+    Assert(IsNewFace(fid));
+    return face_names[fid - FID_NEW];
+}

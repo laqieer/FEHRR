@@ -1,6 +1,7 @@
 #include "voice.h"
 
 #include "unit.h"
+#include "face.h"
 #include "faceNew.h"
 #include "proc.h"
 #include "bm.h"
@@ -61,10 +62,12 @@ void VoiceDebug_OnInit(struct GenericProc * proc)
     proc->y = voice_type;
 
     DebugScreenInit();
-    DebugPutStr(gBg2Tm + TM_OFFSET(0, 0), GetVoiceName(GetVoiceId(hero_id, voice_type)));
+    DebugPutStr(gBg2Tm + TM_OFFSET(4, 0), GetFaceName(GetPInfo(hero_id)->fid));
+    DebugPutStr(gBg2Tm + TM_OFFSET(4, 2), GetVoiceName(GetVoiceId(hero_id, voice_type)));
 
     StartVoice(GetVoiceId(hero_id, voice_type));
     StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+    PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 0), 0x270, 2, 0);
 }
 
 void VoiceDebug_OnIdle(struct GenericProc * proc)
@@ -102,6 +105,7 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
     {
         EndFaceById(0);
         StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+        PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 0), 0x270, 2, 0);
     }
 
     if (hero_id != proc->x || voice_type != proc->y)
@@ -110,9 +114,11 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
         proc->y = voice_type;
 
         DebugScreenInit();
-        DebugPutStr(gBg2Tm + TM_OFFSET(0, 0), GetVoiceName(GetVoiceId(hero_id, voice_type)));
+        DebugPutStr(gBg2Tm + TM_OFFSET(4, 0), GetFaceName(GetPInfo(hero_id)->fid));
+        DebugPutStr(gBg2Tm + TM_OFFSET(4, 2), GetVoiceName(GetVoiceId(hero_id, voice_type)));
 
         StartVoice(GetVoiceId(hero_id, voice_type));
+        PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 0), 0x270, 2, 0);
         return;
     }
 

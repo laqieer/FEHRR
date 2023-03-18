@@ -46,5 +46,7 @@ void StartFaceFadeInNew(struct FaceProcNew * proc);
 void StartFaceFadeOutNew(struct FaceProcNew * proc);
 
 bool IsNewFace(int fid);
+const char * GetFaceName(int fid);
 
 extern const struct FaceInfoNew newFaces[];
+extern const char * const face_names[];

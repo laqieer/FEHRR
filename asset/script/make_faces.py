@@ -155,6 +155,12 @@ def make_faces(src_folder, dst_folder, filename):
             f.write('    },\n')
             f.write('\n')
         f.write('};\n')
+        f.write('\n')
+        f.write('const char * const face_names[] = {\n')
+        f.write('    [FID_NEW] = "NULL",\n')
+        for face in faces:
+            f.write('    [FID_%s - FID_NEW] = "%s",\n' % (face, face))
+        f.write('};\n')
 
 def make_header(filename):
     with open(filename, 'w') as f:
