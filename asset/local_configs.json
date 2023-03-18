@@ -9,18 +9,13 @@
     },
     "Sound": {
         "linux": [
-            "/assets/TWZH/Sound/",
-            "/assets/JPJA/Sound/"
+            "assets/TWZH/Sound/",
+            "assets/JPJA/Sound/"
         ],
         "darwin": [
-            "/assets/TWZH/Sound/",
-            "/assets/JPJA/Sound/",
-            "/collection/Voices [Japanese]/"
+            "assets/TWZH/Sound/",
+            "assets/JPJA/Sound/"
         ]
-    },
-    "search_sound_recursively": {
-        "linux": false,
-        "darwin": true
     },
     "voice": {
         "freq": 10512

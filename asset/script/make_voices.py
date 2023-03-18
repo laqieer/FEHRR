@@ -106,7 +106,7 @@ def sort_heroes_by_count():
 
 def find_voice(filename):
     for src_folder in src_folders:
-        filepath = common.find_file_in_path(filename, common.local_configs["FEH"] + src_folder, recursive=common.local_configs["search_sound_recursively"])
+        filepath = common.find_file_in_path(filename, common.local_configs["FEH"] + src_folder, recursive=False)
         if filepath is not None:
             return filepath
     return None
