@@ -1633,6 +1633,12 @@
     [LANGUAGE_CHINESE] = "暗愚王",
 },
 
+[MPID_HONOR_ギリアム] = {
+    [LANGUAGE_JAPANESE] = "静かなる重壁",
+    [LANGUAGE_ENGLISH] = "Wall of Silence",
+    [LANGUAGE_CHINESE] = "寂静的重壁",
+},
+
 [MPID_HONOR_クラリーネ] = {
     [LANGUAGE_JAPANESE] = "気ままな姫将軍",
     [LANGUAGE_ENGLISH] = "Refined Noble",
@@ -1901,6 +1907,12 @@
     [LANGUAGE_JAPANESE] = "旅の踊り子",
     [LANGUAGE_ENGLISH] = "Traveling Dancer",
     [LANGUAGE_CHINESE] = "旅行舞娘",
+},
+
+[MPID_HONOR_シレーネ] = {
+    [LANGUAGE_JAPANESE] = "秀麗の緑翼",
+    [LANGUAGE_ENGLISH] = "Graceful Rider",
+    [LANGUAGE_CHINESE] = "秀丽的绿翼",
 },
 
 [MPID_HONOR_シンシア] = {
@@ -3319,6 +3331,12 @@
     [LANGUAGE_CHINESE] = "成熟的孩子",
 },
 
+[MPID_HONOR_ヴァネッサ] = {
+    [LANGUAGE_JAPANESE] = "気丈な緑翼",
+    [LANGUAGE_ENGLISH] = "Dutiful Rider",
+    [LANGUAGE_CHINESE] = "坚强的绿翼",
+},
+
 [MPID_HONOR_ヴィオール] = {
     [LANGUAGE_JAPANESE] = "貴族的な弓使い",
     [LANGUAGE_ENGLISH] = "Elite Archer",
@@ -3641,6 +3659,12 @@
     [LANGUAGE_JAPANESE] = "選ばれし星の乙女",
     [LANGUAGE_ENGLISH] = "Starlit Maiden",
     [LANGUAGE_CHINESE] = "被选中的星之少女",
+},
+
+[MPID_HONOR_魔器ターナ] = {
+    [LANGUAGE_JAPANESE] = "未来へ翔ける王女",
+    [LANGUAGE_ENGLISH] = "Soaring Princess",
+    [LANGUAGE_CHINESE] = "飞向未来的公主",
 },
 
 [MPID_HONOR_魔器ルフレ女] = {
@@ -4105,6 +4129,12 @@
     [LANGUAGE_CHINESE] = "佩莱吉亚国王。喜好斗争，" TEXT_CMD_NEWLINE "与茵巴丝一同布局设计了伊里斯圣王国的战争。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
+[MPID_H_ギリアム] = {
+    [LANGUAGE_JAPANESE] = "フレリア王国騎士団の東部国境守備隊隊長。" TEXT_CMD_NEWLINE "強面だが、面倒見のいい性格。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Commander of Frelia's guard at Border Mulan." TEXT_CMD_NEWLINE "His menacing look conceals a caring heart." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "弗莱利亚王国骑士团的东部国境守卫队队长。" TEXT_CMD_NEWLINE "虽然有著吓人的外表，但很会照顾人。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
 [MPID_H_クラリーネ] = {
     [LANGUAGE_JAPANESE] = "エトルリア王国の名家リグレ家の令嬢。" TEXT_CMD_NEWLINE "世間知らずで高飛車だが、兄クレインを敬愛している。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　封印の剣』）",
     [LANGUAGE_ENGLISH] = "Noble daughter of Count Reglay of Etruria. Fond" TEXT_CMD_NEWLINE "of her brother, Klein. Has lived a privileged life." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Binding Blade.",
@@ -4373,6 +4403,12 @@
     [LANGUAGE_JAPANESE] = "各地を放浪するダンサー。可憐な見た目に反して言動は" TEXT_CMD_NEWLINE "意外と荒っぽい。大司祭ブラギの血を引く。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム 聖戦の系譜』）",
     [LANGUAGE_ENGLISH] = "A dancer who travels the world. She looks" TEXT_CMD_NEWLINE "sweet, but she doesn't necessarily act that way." TEXT_CMD_NEWLINE "Descendant of the high priest Bragi. Appears in" TEXT_CMD_NEWLINE "Fire Emblem: Genealogy of the Holy War.",
     [LANGUAGE_CHINESE] = "四处流浪的舞娘。与可爱的外表相反，" TEXT_CMD_NEWLINE "言行举止意外的粗野。继承大祭司布拉吉之血脉。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣戦の系谱』）",
+},
+
+[MPID_H_シレーネ] = {
+    [LANGUAGE_JAPANESE] = "フレリア王国天馬騎士団第三部隊を率いる才媛。" TEXT_CMD_NEWLINE "ターナ王女の世話役も務める。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Famed commander of Frelia's third battalion" TEXT_CMD_NEWLINE "of pegasus knights, as well as Princess Tana's" TEXT_CMD_NEWLINE "bodyguard. Appears in Fire Emblem:" TEXT_CMD_NEWLINE "The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "率领弗莱利亚王国天马骑士团第三部队的才女。" TEXT_CMD_NEWLINE "也负责照顾塔娜公主。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
 },
 
 [MPID_H_シンシア] = {
@@ -5791,6 +5827,12 @@
     [LANGUAGE_CHINESE] = "侬侬的女儿。尽管年幼，但个性沉稳。" TEXT_CMD_NEWLINE "有强迫自己当个懂事乖孩子的倾向。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　覚醒』）",
 },
 
+[MPID_H_ヴァネッサ] = {
+    [LANGUAGE_JAPANESE] = "フレリア王国の天馬騎士。生真面目で一途な性格。" TEXT_CMD_NEWLINE "姉のシレーネを慕う。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "A pegasus knight from Frelia who is both very" TEXT_CMD_NEWLINE "serious and sincere. She also looks up to her" TEXT_CMD_NEWLINE "sister Syrene. Appears in Fire Emblem: The" TEXT_CMD_NEWLINE "Sacred Stones.",
+    [LANGUAGE_CHINESE] = "弗莱利亚王国的天马骑士。个性严谨而专一。" TEXT_CMD_NEWLINE "仰慕著姊姊席琳妮。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
+},
+
 [MPID_H_ヴィオール] = {
     [LANGUAGE_JAPANESE] = "ヴァルム大陸ロザンヌ地方を治める貴族。" TEXT_CMD_NEWLINE "飄々とした態度をとるが腹の内を見せない切れ者。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　覚醒』）",
     [LANGUAGE_ENGLISH] = "Rightful ruler of Rosanne in Valm who has" TEXT_CMD_NEWLINE "a tendency for wit and puffery. Appears" TEXT_CMD_NEWLINE "in Fire Emblem Awakening.",
@@ -6113,6 +6155,12 @@
     [LANGUAGE_JAPANESE] = "暗夜王国のダークマージ「漆黒のオーディン」の娘。" TEXT_CMD_NEWLINE "父から受け継いだ水晶玉は、星々の力で満ちている！" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　ｉｆ』）",
     [LANGUAGE_ENGLISH] = "Daughter of Odin Dark, mage of Nohr. Received" TEXT_CMD_NEWLINE "a crystal ball filled with the power of the stars" TEXT_CMD_NEWLINE "from her father. Appears in Fire Emblem Fates.",
     [LANGUAGE_CHINESE] = "暗夜王国的暗魔法师「漆黑的奥丁」之女。" TEXT_CMD_NEWLINE "继承自父亲的水晶球内充满了繁星的力量！" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　ｉｆ』）",
+},
+
+[MPID_H_魔器ターナ] = {
+    [LANGUAGE_JAPANESE] = "フレリア王国王女。兄ヒーニアスから" TEXT_CMD_NEWLINE "蛇弓ニーズヘッグと所縁ある弓を預かり、空を翔ける。" TEXT_CMD_NEWLINE "（登場：『ファイアーエムブレム　聖魔の光石』）",
+    [LANGUAGE_ENGLISH] = "Princess of Frelia. Takes to the sky with a bow" TEXT_CMD_NEWLINE "connected to the bow Nidhogg, her brother" TEXT_CMD_NEWLINE "Innes having tasked her with looking after it." TEXT_CMD_NEWLINE "Appears in Fire Emblem: The Sacred Stones.",
+    [LANGUAGE_CHINESE] = "弗莱利亚王国的公主。从哥哥西尼亚斯那里" TEXT_CMD_NEWLINE "得到和蛇弓尼德霍格有著渊源的弓，翱翔天际。" TEXT_CMD_NEWLINE "（登场作品：『ファイアーエムブレム　圣魔の光石』）",
 },
 
 [MPID_H_魔器ルフレ女] = {
@@ -6577,6 +6625,12 @@
     [LANGUAGE_CHINESE] = "冈雷尔",
 },
 
+[MPID_ギリアム] = {
+    [LANGUAGE_JAPANESE] = "ギリアム",
+    [LANGUAGE_ENGLISH] = "Gilliam",
+    [LANGUAGE_CHINESE] = "吉利安姆",
+},
+
 [MPID_クラリーネ] = {
     [LANGUAGE_JAPANESE] = "クラリーネ",
     [LANGUAGE_ENGLISH] = "Clarine",
@@ -6845,6 +6899,12 @@
     [LANGUAGE_JAPANESE] = "シルヴィア",
     [LANGUAGE_ENGLISH] = "Silvia",
     [LANGUAGE_CHINESE] = "希薇雅",
+},
+
+[MPID_シレーネ] = {
+    [LANGUAGE_JAPANESE] = "シレーネ",
+    [LANGUAGE_ENGLISH] = "Syrene",
+    [LANGUAGE_CHINESE] = "席琳妮",
 },
 
 [MPID_シンシア] = {
@@ -8263,6 +8323,12 @@
     [LANGUAGE_CHINESE] = "恩恩",
 },
 
+[MPID_ヴァネッサ] = {
+    [LANGUAGE_JAPANESE] = "ヴァネッサ",
+    [LANGUAGE_ENGLISH] = "Vanessa",
+    [LANGUAGE_CHINESE] = "凡妮莎",
+},
+
 [MPID_ヴィオール] = {
     [LANGUAGE_JAPANESE] = "ヴィオール",
     [LANGUAGE_ENGLISH] = "Virion",
@@ -8585,6 +8651,12 @@
     [LANGUAGE_JAPANESE] = "オフェリア",
     [LANGUAGE_ENGLISH] = "Ophelia",
     [LANGUAGE_CHINESE] = "欧菲莉亚",
+},
+
+[MPID_魔器ターナ] = {
+    [LANGUAGE_JAPANESE] = "ターナ",
+    [LANGUAGE_ENGLISH] = "Tana",
+    [LANGUAGE_CHINESE] = "塔娜",
 },
 
 [MPID_魔器ルフレ女] = {

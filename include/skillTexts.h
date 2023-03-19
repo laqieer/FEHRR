@@ -1543,6 +1543,18 @@
     [LANGUAGE_CHINESE] = "克制重装",
 },
 
+[MSID_H_フレリアの重槍] = {
+    [LANGUAGE_JAPANESE] = "奥義が発動しやすい（発動カウント－１）" TEXT_CMD_NEWLINE "ターン開始時、周囲２マス以内の飛行の味方に" TEXT_CMD_NEWLINE "「飛行特効無効」を付与（１ターン）" TEXT_CMD_NEWLINE "敵から攻撃された時、または、" TEXT_CMD_NEWLINE "戦闘開始時、敵のＨＰが７５％以上の時、" TEXT_CMD_NEWLINE "戦闘中、自身の攻撃＋６、敵の攻撃－６、" TEXT_CMD_NEWLINE "さらに、敵の攻撃、守備が、" TEXT_CMD_NEWLINE "戦闘開始時の自分の守備の２０％だけ減少、" TEXT_CMD_NEWLINE "最初に受けた攻撃のダメージを４０％軽減",
+    [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1)." TEXT_CMD_NEWLINE "At start of turn, grants \"neutralizes 'effective" TEXT_CMD_NEWLINE "against flying' bonuses\" to flying allies within" TEXT_CMD_NEWLINE "2 spaces of unit for 1 turn. If foe initiates" TEXT_CMD_NEWLINE "combat or foe's HP ≥ 75% at start of combat," TEXT_CMD_NEWLINE "grants Atk+6 to unit, inflicts Atk-6 on foe," TEXT_CMD_NEWLINE "inflicts penalty on foe's Atk/Def = 20% of unit's" TEXT_CMD_NEWLINE "Def at start of combat, and reduces damage" TEXT_CMD_NEWLINE "from foe's first attack by 40% during combat.",
+    [LANGUAGE_CHINESE] = "容易发动奥义（发动计量－１）" TEXT_CMD_NEWLINE "回合开始时，赋予周围２格内的我方飞行单位" TEXT_CMD_NEWLINE "「克制飞行无效」的状态（１回合）" TEXT_CMD_NEWLINE "受到敌人攻击时，" TEXT_CMD_NEWLINE "或战斗开始时，若敌人的ＨＰ为７５％以上，" TEXT_CMD_NEWLINE "自己在战斗中的攻击＋６，敌人的攻击－６，" TEXT_CMD_NEWLINE "且敌人的攻击及防守再下降" TEXT_CMD_NEWLINE "（下降数值为：自己在战斗开始时的防守×２０％），" TEXT_CMD_NEWLINE "将战斗中受到的第一发攻击伤害降低４０％",
+},
+
+[MSID_H_フレリアの麗剣] = {
+    [LANGUAGE_JAPANESE] = "奥義が発動しやすい（発動カウント－１）" TEXT_CMD_NEWLINE "敵から攻撃された時、または、" TEXT_CMD_NEWLINE "戦闘開始時、敵のＨＰが７５％以上の時、" TEXT_CMD_NEWLINE "戦闘中、自身の攻撃、速さ、守備、魔防＋５、" TEXT_CMD_NEWLINE "敵の攻撃、速さ、守備が、" TEXT_CMD_NEWLINE "戦闘開始時の自分の速さの１５％だけ減少、" TEXT_CMD_NEWLINE "自分の追撃不可を無効、" TEXT_CMD_NEWLINE "最初に受けた攻撃のダメージを４０％軽減",
+    [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1)." TEXT_CMD_NEWLINE "If foe initiates combat or if foe's HP ≥ 75% at" TEXT_CMD_NEWLINE "start of combat, grants Atk/Spd/Def/Res+5 to" TEXT_CMD_NEWLINE "unit, inflicts penalty on foe's Atk/Spd/Def = 15%" TEXT_CMD_NEWLINE "of unit's Spd at start of combat, neutralizes" TEXT_CMD_NEWLINE "effects that prevent unit's follow-up attacks," TEXT_CMD_NEWLINE "and reduces damage from foe's first attack by" TEXT_CMD_NEWLINE "40% during combat.",
+    [LANGUAGE_CHINESE] = "容易发动奥义（发动计量－１）" TEXT_CMD_NEWLINE "受到敌人攻击时，" TEXT_CMD_NEWLINE "或战斗开始时，若敌人的ＨＰ为７５％以上，" TEXT_CMD_NEWLINE "自己在战斗中的攻击、速度、防守、魔防＋５，" TEXT_CMD_NEWLINE "敌人的攻击、速度、防守下降" TEXT_CMD_NEWLINE "（下降数值为：自己在战斗开始时的速度×１５％），" TEXT_CMD_NEWLINE "抵销自己受到的无法追击状态，" TEXT_CMD_NEWLINE "将战斗中受到的第一发攻击伤害降低４０％",
+},
+
 [MSID_H_フロリーナの誓槍] = {
     [LANGUAGE_JAPANESE] = "重装特効",
     [LANGUAGE_ENGLISH] = "Effective against armored foes.",
@@ -2833,6 +2845,12 @@
     [LANGUAGE_CHINESE] = "受到敌人的１格距离攻击时，降低伤害５０％",
 },
 
+[MSID_H_天かける翼] = {
+    [LANGUAGE_JAPANESE] = "【再移動（１）】を発動可能" TEXT_CMD_NEWLINE "周囲２マス以内の味方の、周囲２マス以内に移動可能" TEXT_CMD_NEWLINE "戦闘開始時、自身のＨＰが２５％以上なら、" TEXT_CMD_NEWLINE "戦闘中、敵の速さ、守備－４、" TEXT_CMD_NEWLINE "さらに、敵の速さ、守備が" TEXT_CMD_NEWLINE "攻撃した側（自分からなら自分、敵からなら敵）の" TEXT_CMD_NEWLINE "移動前と移動後のマスの距離（最大４）だけ減少" TEXT_CMD_NEWLINE "【再移動（１）】" TEXT_CMD_NEWLINE "自分から攻撃、補助、地形破壊の行動をした後、" TEXT_CMD_NEWLINE "直後に１マス移動できる" TEXT_CMD_NEWLINE "（自身の移動タイプで移動。" TEXT_CMD_NEWLINE "　例：歩行は、林には移動しづらい）" TEXT_CMD_NEWLINE "（攻撃、補助、地形破壊不可）" TEXT_CMD_NEWLINE "（同系統効果重複時、最大値適用）（１ターンに１回のみ）" TEXT_CMD_NEWLINE "（行動直後に再行動可能にするスキル発動時は、" TEXT_CMD_NEWLINE "　再行動で条件を満たせば、再移動が可能）" TEXT_CMD_NEWLINE "（再移動できる距離は、通常の移動の距離とは無関係）" TEXT_CMD_NEWLINE "（１マスを超える距離のワープ移動はできない）",
+    [LANGUAGE_ENGLISH] = "Enables【Canto (１)】." TEXT_CMD_NEWLINE "Unit can move to a space within 2 spaces of" TEXT_CMD_NEWLINE "any ally within 2 spaces. At start of combat," TEXT_CMD_NEWLINE "if unit's HP ≥ 25%, inflicts Spd/Def-X on foe" TEXT_CMD_NEWLINE "during combat (X = 4 + number of spaces" TEXT_CMD_NEWLINE "from start position to end position of whoever" TEXT_CMD_NEWLINE "initiates combat; max 8)." TEXT_CMD_NEWLINE "【Canto (１)】" TEXT_CMD_NEWLINE "After an attack, Assist skill, or structure" TEXT_CMD_NEWLINE "destruction, unit can move １ space(s)." TEXT_CMD_NEWLINE "(Unit moves according to movement type. Once" TEXT_CMD_NEWLINE "per turn. Cannot attack or assist. Only highest" TEXT_CMD_NEWLINE "value applied. Does not stack. After moving," TEXT_CMD_NEWLINE "if a skill that grants another action would be" TEXT_CMD_NEWLINE "triggered (like with Galeforce), Canto will" TEXT_CMD_NEWLINE "trigger after the granted action. Unit's base" TEXT_CMD_NEWLINE "movement has no effect on movement granted." TEXT_CMD_NEWLINE "Cannot warp (using skills like Wings of Mercy)" TEXT_CMD_NEWLINE "a distance greater than １ space(s).)",
+    [LANGUAGE_CHINESE] = "可发动【再移动（１）】" TEXT_CMD_NEWLINE "可移动至周围２格内之我方的周围２格以内的格子" TEXT_CMD_NEWLINE "若战斗开始时，自身ＨＰ在２５％以上，" TEXT_CMD_NEWLINE "战斗中，敌人的速度及防守－４，" TEXT_CMD_NEWLINE "且敌人的速度及防守再下降" TEXT_CMD_NEWLINE "（下降数值为：攻击方（由自己发动攻击时为自己，" TEXT_CMD_NEWLINE "　由敌人发动攻击时为敌人）" TEXT_CMD_NEWLINE "　移动前与移动后的格子距离（最大４））" TEXT_CMD_NEWLINE "【再移动（１）】" TEXT_CMD_NEWLINE "由自己发动攻击、辅助及破坏地形的行动后，" TEXT_CMD_NEWLINE "马上可进行１格以内的移动" TEXT_CMD_NEWLINE "（透过自己的移动方式移动。" TEXT_CMD_NEWLINE "　例：歩行在林地难以移动）" TEXT_CMD_NEWLINE "（无法攻击、辅助及破坏地形）" TEXT_CMD_NEWLINE "（若有多个相同系统效果，仅取最大值）" TEXT_CMD_NEWLINE "（１回合仅能发动１次）" TEXT_CMD_NEWLINE "（于行动后立刻发动可再次行动的技能时，" TEXT_CMD_NEWLINE "　若再次行动时满足再移动的发动条件，即可进行再移动）" TEXT_CMD_NEWLINE "（再移动时可移动的范围与通常移动的范围无关）" TEXT_CMD_NEWLINE "（不能传送到超过１格的地方）",
+},
+
 [MSID_H_天刻の拍動] = {
     [LANGUAGE_JAPANESE] = "速さの２５％を奥義ダメージに加算" TEXT_CMD_NEWLINE "次の敵の攻撃のダメージを７５％軽減" TEXT_CMD_NEWLINE "（その戦闘中のみ）" TEXT_CMD_NEWLINE "次の自分の攻撃のダメージ＋速さの２０％" TEXT_CMD_NEWLINE "（その戦闘中のみ）",
     [LANGUAGE_ENGLISH] = "Boosts damage by 25% of unit's Spd. Reduces" TEXT_CMD_NEWLINE "damage from foe's next attack by 75%, and" TEXT_CMD_NEWLINE "unit's next attack deals damage = 20% of" TEXT_CMD_NEWLINE "unit's Spd. (Resets at end of combat.)",
@@ -3749,6 +3767,12 @@
     [LANGUAGE_JAPANESE] = "奥義が発動しやすい（発動カウント－１）" TEXT_CMD_NEWLINE "自分から攻撃した時、または、" TEXT_CMD_NEWLINE "周囲２マス以内に味方がいる時、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ、守備、魔防が" TEXT_CMD_NEWLINE "神竜の花を自身に使用した回数によって" TEXT_CMD_NEWLINE "最大＋６上昇" TEXT_CMD_NEWLINE "（使用回数が１回以上なら＋６、０回なら＋４）" TEXT_CMD_NEWLINE "自分から攻撃した時、または、" TEXT_CMD_NEWLINE "周囲２マス以内に味方がいる時、かつ" TEXT_CMD_NEWLINE "神竜の花を自身に使用した回数が２回以上なら、" TEXT_CMD_NEWLINE "戦闘中、敵の奥義発動カウント変動量＋を無効、" TEXT_CMD_NEWLINE "自分の奥義発動カウント変動量－を無効",
     [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1)." TEXT_CMD_NEWLINE "If unit initiates combat or is within 2 spaces" TEXT_CMD_NEWLINE "of an ally, grants bonus to Atk/Spd/Def/Res" TEXT_CMD_NEWLINE "during combat based on the number of times" TEXT_CMD_NEWLINE "unit has been enhanced using Dragonflowers" TEXT_CMD_NEWLINE "(one or more times grants +6, zero times" TEXT_CMD_NEWLINE "grants +4), and also, if unit has been enhanced" TEXT_CMD_NEWLINE "using Dragonflowers two or more times," TEXT_CMD_NEWLINE "neutralizes effects that grant \"Special cooldown" TEXT_CMD_NEWLINE "charge +X\" to foe or inflict \"Special cooldown" TEXT_CMD_NEWLINE "charge -X\" on unit during combat.",
     [LANGUAGE_CHINESE] = "容易发动奥义（发动计量－１）" TEXT_CMD_NEWLINE "由自己发动攻击时，" TEXT_CMD_NEWLINE "或周围２格内有我方单位时，" TEXT_CMD_NEWLINE "战斗中的攻击、速度、防守、魔防" TEXT_CMD_NEWLINE "会根据自己使用神龙之花的次数提升，" TEXT_CMD_NEWLINE "最大＋６" TEXT_CMD_NEWLINE "（使用次数为１次以上时＋６、０次时＋４）" TEXT_CMD_NEWLINE "由自己发动攻击时，" TEXT_CMD_NEWLINE "或周围２格内有我方单位时，" TEXT_CMD_NEWLINE "且自己使用神龙之花的次数为２次以上，" TEXT_CMD_NEWLINE "战斗中，抵销敌人的奥义发动计量变化量＋，" TEXT_CMD_NEWLINE "并抵销自己的奥义发动计量变化量－",
+},
+
+[MSID_H_完全なる黄金] = {
+    [LANGUAGE_JAPANESE] = "自身が" TEXT_CMD_NEWLINE "受けるダメージは０になる。",
+    [LANGUAGE_ENGLISH] = "Reduces damage dealt to unit to 0.",
+    [LANGUAGE_CHINESE] = "将自身所受到的伤害变成０。",
 },
 
 [MSID_H_宝剣ソフィア] = {
@@ -6325,6 +6349,18 @@
     [LANGUAGE_CHINESE] = "战斗开始时，若敌人的ＨＰ为７５％以上，" TEXT_CMD_NEWLINE "自己在战斗中的攻击及速度＋５" TEXT_CMD_NEWLINE "且战斗中抵销攻击及速度的弱化状态",
 },
 
+[MSID_H_正々堂々の槍] = {
+    [LANGUAGE_JAPANESE] = "戦闘開始時、敵のＨＰが７５％以上なら" TEXT_CMD_NEWLINE "戦闘中、自身の攻撃、速さ＋５、かつ" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さの弱化を無効",
+    [LANGUAGE_ENGLISH] = "At start of combat, if foe's HP ≥ 75%, grants" TEXT_CMD_NEWLINE "Atk/Spd+5 to unit and neutralizes unit's" TEXT_CMD_NEWLINE "penalties to Atk/Spd during combat.",
+    [LANGUAGE_CHINESE] = "战斗开始时，若敌人的ＨＰ为７５％以上，" TEXT_CMD_NEWLINE "自己在战斗中的攻击及速度＋５" TEXT_CMD_NEWLINE "且战斗中抵销攻击及速度的弱化状态",
+},
+
+[MSID_H_正々堂々の槍P] = {
+    [LANGUAGE_JAPANESE] = "戦闘開始時、敵のＨＰが７５％以上なら" TEXT_CMD_NEWLINE "戦闘中、自身の攻撃、速さ＋５、かつ" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さの弱化を無効",
+    [LANGUAGE_ENGLISH] = "At start of combat, if foe's HP ≥ 75%, grants" TEXT_CMD_NEWLINE "Atk/Spd+5 to unit and neutralizes unit's" TEXT_CMD_NEWLINE "penalties to Atk/Spd during combat.",
+    [LANGUAGE_CHINESE] = "战斗开始时，若敌人的ＨＰ为７５％以上，" TEXT_CMD_NEWLINE "自己在战斗中的攻击及速度＋５" TEXT_CMD_NEWLINE "且战斗中抵销攻击及速度的弱化状态",
+},
+
 [MSID_H_正義の直槍] = {
     [LANGUAGE_JAPANESE] = "ＨＰが８０％以下の味方の隣接マスへ移動可能" TEXT_CMD_NEWLINE "戦闘開始時、自身のＨＰが２５％以上なら、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ、守備、魔防＋４、" TEXT_CMD_NEWLINE "さらに、攻撃、速さ、守備、魔防が、" TEXT_CMD_NEWLINE "攻撃した側（自分からなら自分、敵からなら敵）の" TEXT_CMD_NEWLINE "移動前と移動後のマスの距離（最大４）×２だけ増加",
     [LANGUAGE_ENGLISH] = "If an ally's HP ≤ 80%, unit can move to a space" TEXT_CMD_NEWLINE "adjacent to that ally. At start of combat, if" TEXT_CMD_NEWLINE "unit's HP ≥ 25%, grants bonus to unit's" TEXT_CMD_NEWLINE "Atk/Spd/Def/Res during combat = 4 + X" TEXT_CMD_NEWLINE "(X = number of spaces from start position to" TEXT_CMD_NEWLINE "end position of whoever initiated combat × 2;" TEXT_CMD_NEWLINE "max 8).",
@@ -7543,6 +7579,12 @@
     [LANGUAGE_CHINESE] = "周围２格内的我方步行及重装单位，" TEXT_CMD_NEWLINE "可移动至与自己相邻的格子",
 },
 
+[MSID_H_空からの先導4] = {
+    [LANGUAGE_JAPANESE] = "周囲２マス以内の味方歩行、重装は、" TEXT_CMD_NEWLINE "自身の周囲２マス以内に移動可能" TEXT_CMD_NEWLINE "周囲２マス以内の味方歩行、重装は、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ＋３、かつ" TEXT_CMD_NEWLINE "速さが敵より１以上高い時、" TEXT_CMD_NEWLINE "戦闘中、自分の追撃不可を無効",
+    [LANGUAGE_ENGLISH] = "Infantry and armored allies within 2 spaces" TEXT_CMD_NEWLINE "can move to a space within 2 spaces of unit." TEXT_CMD_NEWLINE "Grants Atk/Spd+3 to infantry and armored" TEXT_CMD_NEWLINE "allies within 2 spaces of unit during combat," TEXT_CMD_NEWLINE "and also, if those allies' Spd > foe's Spd," TEXT_CMD_NEWLINE "neutralizes effects that prevent those allies'" TEXT_CMD_NEWLINE "follow-up attacks during combat.",
+    [LANGUAGE_CHINESE] = "周围２格内的我方步行及重装单位，" TEXT_CMD_NEWLINE "可移动至自己周围２格以内的格子" TEXT_CMD_NEWLINE "周围２格内的我方步行及重装单位，" TEXT_CMD_NEWLINE "战斗中的攻击及速度＋３，" TEXT_CMD_NEWLINE "且速度高于敌人时，" TEXT_CMD_NEWLINE "战斗中抵销自己受到的无法追击状态",
+},
+
 [MSID_H_空からの急襲1] = {
     [LANGUAGE_JAPANESE] = "戦闘開始時、自分と敵のＨＰが共に１００％で" TEXT_CMD_NEWLINE "自分から攻撃した時、" TEXT_CMD_NEWLINE "追撃可能なら自分の攻撃の直後に追撃を行う",
     [LANGUAGE_ENGLISH] = "At start of combat, if both unit's and foe's" TEXT_CMD_NEWLINE "HP = 100% and unit initiates combat, unit" TEXT_CMD_NEWLINE "can make a follow-up attack before foe" TEXT_CMD_NEWLINE "can counterattack.",
@@ -8429,6 +8471,12 @@
     [LANGUAGE_JAPANESE] = "自分のＨＰが５０％以上で、敵から攻撃された時、" TEXT_CMD_NEWLINE "絶対追撃、かつ自身の攻撃による奥義発動カウント" TEXT_CMD_NEWLINE "変動量＋１（同系統効果複数時、最大値適用）",
     [LANGUAGE_ENGLISH] = "If unit's HP ≥ 50% and foe initiates combat," TEXT_CMD_NEWLINE "grants Special cooldown charge +1 per unit's" TEXT_CMD_NEWLINE "attack, and unit makes a guaranteed follow-up" TEXT_CMD_NEWLINE "attack. (Does not stack.)",
     [LANGUAGE_CHINESE] = "若自身ＨＰ高于５０％，受到敌人攻击时，" TEXT_CMD_NEWLINE "必定可进行追击。因自身攻击变化的奥义发动计量" TEXT_CMD_NEWLINE "变动量＋１（若有多个相同系统效果，仅取最大值）",
+},
+
+[MSID_H_迎撃隊形4] = {
+    [LANGUAGE_JAPANESE] = "自分のＨＰが２５％以上で、敵から攻撃された時、" TEXT_CMD_NEWLINE "戦闘中、敵の攻撃－４、" TEXT_CMD_NEWLINE "自分は絶対追撃、敵は追撃不可、" TEXT_CMD_NEWLINE "かつ自身の奥義発動カウント変動量＋１" TEXT_CMD_NEWLINE "（同系統効果複数時、最大値適用）",
+    [LANGUAGE_ENGLISH] = "If unit's HP ≥ 25% and foe initiates combat," TEXT_CMD_NEWLINE "inflicts Atk-4 on foe during combat, unit makes" TEXT_CMD_NEWLINE "a guaranteed follow-up attack, foe cannot" TEXT_CMD_NEWLINE "make a follow-up attack, and grants Special" TEXT_CMD_NEWLINE "cooldown charge +1 to unit per attack during" TEXT_CMD_NEWLINE "combat (only highest value applied; does" TEXT_CMD_NEWLINE "not stack).",
+    [LANGUAGE_CHINESE] = "若自身ＨＰ在２５％以上，受到敌人攻击时，" TEXT_CMD_NEWLINE "战斗中，敌人的攻击－４，" TEXT_CMD_NEWLINE "自己必定可进行追击，敌方无法追击，" TEXT_CMD_NEWLINE "且自身奥义发动计量变化量＋１" TEXT_CMD_NEWLINE "（若有多个相同系统效果，仅取最大值）",
 },
 
 [MSID_H_近反・金剛の構え] = {
@@ -9413,6 +9461,30 @@
     [LANGUAGE_JAPANESE] = "戦闘中、敵の速さ、魔防－３、かつ" TEXT_CMD_NEWLINE "戦闘中、敵の奥義発動カウント変動量＋を無効、かつ" TEXT_CMD_NEWLINE "自身の奥義発動カウント変動量－を無効",
     [LANGUAGE_ENGLISH] = "Inflicts Spd/Res-3 on foe and neutralizes effects" TEXT_CMD_NEWLINE "that grant \"Special cooldown charge +X\" to foe" TEXT_CMD_NEWLINE "or inflict \"Special cooldown charge -X\" on unit" TEXT_CMD_NEWLINE "during combat.",
     [LANGUAGE_CHINESE] = "战斗中，敌人的速度及魔防－３，" TEXT_CMD_NEWLINE "且战斗中，抵销敌人的奥义发动计量变化量＋，" TEXT_CMD_NEWLINE "并抵销自己的奥义发动计量变化量－",
+},
+
+[MSID_H_速さ魔防の機先1] = {
+    [LANGUAGE_JAPANESE] = "敵のＨＰが１００％で戦闘開始時、または" TEXT_CMD_NEWLINE "敵が【不利な状態異常】を受けている時、" TEXT_CMD_NEWLINE "戦闘中、自分の速さ、魔防＋３" TEXT_CMD_NEWLINE "【不利な状態異常】" TEXT_CMD_NEWLINE "「敵の次回行動終了まで」の効果全般" TEXT_CMD_NEWLINE "（弱化、移動制限、パニック、反撃不可、" TEXT_CMD_NEWLINE "　相性激化、キャンセル等）",
+    [LANGUAGE_ENGLISH] = "At start of combat, if foe's HP = 100% or" TEXT_CMD_NEWLINE "if【Penalty】is active on foe, grants Spd/Res+3" TEXT_CMD_NEWLINE "to unit during combat." TEXT_CMD_NEWLINE "【Penalty】" TEXT_CMD_NEWLINE "All effects that last \"on foe through its next" TEXT_CMD_NEWLINE "action.\" Includes penalties inflicted by a skill" TEXT_CMD_NEWLINE "like Panic or Threaten and negative status" TEXT_CMD_NEWLINE "effects (preventing counterattacks, restricting" TEXT_CMD_NEWLINE "movement, or the effects of a skill like" TEXT_CMD_NEWLINE "Triangle Adept or Guard).",
+    [LANGUAGE_CHINESE] = "在敌人的ＨＰ为１００％的状态下展开战斗时，" TEXT_CMD_NEWLINE "或敌人受到【不利的异常状态】时，" TEXT_CMD_NEWLINE "自己在战斗中的速度及魔防＋３" TEXT_CMD_NEWLINE "【不利的异常状态】" TEXT_CMD_NEWLINE "「直到敌人下次行动结束」的所有效果" TEXT_CMD_NEWLINE "（弱化、移动限制、慌乱、无法反击、" TEXT_CMD_NEWLINE "　强化互克、取消等）",
+},
+
+[MSID_H_速さ魔防の機先2] = {
+    [LANGUAGE_JAPANESE] = "敵のＨＰが１００％で戦闘開始時、または" TEXT_CMD_NEWLINE "敵が【不利な状態異常】を受けている時、" TEXT_CMD_NEWLINE "戦闘中、自分の速さ、魔防＋４" TEXT_CMD_NEWLINE "【不利な状態異常】" TEXT_CMD_NEWLINE "「敵の次回行動終了まで」の効果全般" TEXT_CMD_NEWLINE "（弱化、移動制限、パニック、反撃不可、" TEXT_CMD_NEWLINE "　相性激化、キャンセル等）",
+    [LANGUAGE_ENGLISH] = "At start of combat, if foe's HP = 100% or" TEXT_CMD_NEWLINE "if【Penalty】is active on foe, grants Spd/Res+4" TEXT_CMD_NEWLINE "to unit during combat." TEXT_CMD_NEWLINE "【Penalty】" TEXT_CMD_NEWLINE "All effects that last \"on foe through its next" TEXT_CMD_NEWLINE "action.\" Includes penalties inflicted by a skill" TEXT_CMD_NEWLINE "like Panic or Threaten and negative status" TEXT_CMD_NEWLINE "effects (preventing counterattacks, restricting" TEXT_CMD_NEWLINE "movement, or the effects of a skill like" TEXT_CMD_NEWLINE "Triangle Adept or Guard).",
+    [LANGUAGE_CHINESE] = "在敌人的ＨＰ为１００％的状态下展开战斗时，" TEXT_CMD_NEWLINE "或敌人受到【不利的异常状态】时，" TEXT_CMD_NEWLINE "自己在战斗中的速度及魔防＋４" TEXT_CMD_NEWLINE "【不利的异常状态】" TEXT_CMD_NEWLINE "「直到敌人下次行动结束」的所有效果" TEXT_CMD_NEWLINE "（弱化、移动限制、慌乱、无法反击、" TEXT_CMD_NEWLINE "　强化互克、取消等）",
+},
+
+[MSID_H_速さ魔防の機先3] = {
+    [LANGUAGE_JAPANESE] = "敵のＨＰが１００％で戦闘開始時、または" TEXT_CMD_NEWLINE "敵が【不利な状態異常】を受けている時、" TEXT_CMD_NEWLINE "戦闘中、自分の速さ、魔防＋５" TEXT_CMD_NEWLINE "【不利な状態異常】" TEXT_CMD_NEWLINE "「敵の次回行動終了まで」の効果全般" TEXT_CMD_NEWLINE "（弱化、移動制限、パニック、反撃不可、" TEXT_CMD_NEWLINE "　相性激化、キャンセル等）",
+    [LANGUAGE_ENGLISH] = "At start of combat, if foe's HP = 100% or" TEXT_CMD_NEWLINE "if【Penalty】is active on foe, grants Spd/Res+5" TEXT_CMD_NEWLINE "to unit during combat." TEXT_CMD_NEWLINE "【Penalty】" TEXT_CMD_NEWLINE "All effects that last \"on foe through its next" TEXT_CMD_NEWLINE "action.\" Includes penalties inflicted by a skill" TEXT_CMD_NEWLINE "like Panic or Threaten and negative status" TEXT_CMD_NEWLINE "effects (preventing counterattacks, restricting" TEXT_CMD_NEWLINE "movement, or the effects of a skill like" TEXT_CMD_NEWLINE "Triangle Adept or Guard).",
+    [LANGUAGE_CHINESE] = "在敌人的ＨＰ为１００％的状态下展开战斗时，" TEXT_CMD_NEWLINE "或敌人受到【不利的异常状态】时，" TEXT_CMD_NEWLINE "自己在战斗中的速度及魔防＋５" TEXT_CMD_NEWLINE "【不利的异常状态】" TEXT_CMD_NEWLINE "「直到敌人下次行动结束」的所有效果" TEXT_CMD_NEWLINE "（弱化、移动限制、慌乱、无法反击、" TEXT_CMD_NEWLINE "　强化互克、取消等）",
+},
+
+[MSID_H_速さ魔防の機先4] = {
+    [LANGUAGE_JAPANESE] = "敵のＨＰが１００％で戦闘開始時、または" TEXT_CMD_NEWLINE "敵が【不利な状態異常】を受けている時、" TEXT_CMD_NEWLINE "戦闘中、自分の速さ、魔防＋７" TEXT_CMD_NEWLINE "敵のＨＰが１００％で戦闘開始時、かつ" TEXT_CMD_NEWLINE "敵が【不利な状態異常】を受けている時、" TEXT_CMD_NEWLINE "戦闘中、さらに自分の速さ、魔防＋２" TEXT_CMD_NEWLINE "【不利な状態異常】" TEXT_CMD_NEWLINE "「敵の次回行動終了まで」の効果全般" TEXT_CMD_NEWLINE "（弱化、移動制限、パニック、反撃不可、" TEXT_CMD_NEWLINE "　相性激化、キャンセル等）",
+    [LANGUAGE_ENGLISH] = "At start of combat, if foe's HP = 100% or" TEXT_CMD_NEWLINE "if【Penalty】is active on foe, grants Spd/Res+7" TEXT_CMD_NEWLINE "to unit during combat. At start of combat, if" TEXT_CMD_NEWLINE "foe's HP = 100% and【Penalty】is active on" TEXT_CMD_NEWLINE "foe, grants an additional Spd/Res+2 to unit" TEXT_CMD_NEWLINE "during combat." TEXT_CMD_NEWLINE "【Penalty】" TEXT_CMD_NEWLINE "All effects that last \"on foe through its next" TEXT_CMD_NEWLINE "action.\" Includes penalties inflicted by a skill" TEXT_CMD_NEWLINE "like Panic or Threaten and negative status" TEXT_CMD_NEWLINE "effects (preventing counterattacks, restricting" TEXT_CMD_NEWLINE "movement, or the effects of a skill like" TEXT_CMD_NEWLINE "Triangle Adept or Guard).",
+    [LANGUAGE_CHINESE] = "在敌人的ＨＰ为１００％的状态下展开战斗时，" TEXT_CMD_NEWLINE "或敌人受到【不利的异常状态】时，" TEXT_CMD_NEWLINE "自己在战斗中的速度及魔防＋７" TEXT_CMD_NEWLINE "在敌人的ＨＰ为１００％的状态下展开战斗时，" TEXT_CMD_NEWLINE "且敌人受到【不利的异常状态】时，" TEXT_CMD_NEWLINE "战斗中，自己的速度及魔防再＋２" TEXT_CMD_NEWLINE "【不利的异常状态】" TEXT_CMD_NEWLINE "「直到敌人下次行动结束」的所有效果" TEXT_CMD_NEWLINE "（弱化、移动限制、慌乱、无法反击、" TEXT_CMD_NEWLINE "　强化互克、取消等）",
 },
 
 [MSID_H_速さ魔防の牽制1] = {
@@ -10657,6 +10729,12 @@
     [LANGUAGE_CHINESE] = "敌人攻击射程为２格时，以其防守及魔防中较低方计算伤害" TEXT_CMD_NEWLINE "容易发动奥义（发动计量－１）" TEXT_CMD_NEWLINE "若战斗开始时，自身ＨＰ在２５％以上，" TEXT_CMD_NEWLINE "战斗中的攻击、速度、防守、魔防＋５，必定可进行追击，" TEXT_CMD_NEWLINE "造成的伤害＋（攻击×１５％）" TEXT_CMD_NEWLINE "（也包括战斗前发动的奥义），" TEXT_CMD_NEWLINE "且战斗后回复ＨＰ７",
 },
 
+[MSID_H_魔器ナーストレンド] = {
+    [LANGUAGE_JAPANESE] = "飛行特効" TEXT_CMD_NEWLINE "奥義が発動しやすい（発動カウント－１）" TEXT_CMD_NEWLINE "自分から攻撃した時、または、" TEXT_CMD_NEWLINE "周囲２マス以内に味方がいる時、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ、守備、魔防＋５、" TEXT_CMD_NEWLINE "さらに、攻撃が" TEXT_CMD_NEWLINE "１２－敵の奥義発動カウントの最大値×２だけ増加" TEXT_CMD_NEWLINE "（最低４、敵が奥義を装備していない時は４と扱う）、" TEXT_CMD_NEWLINE "絶対追撃、最初に受けた攻撃のダメージを３０％軽減",
+    [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1)." TEXT_CMD_NEWLINE "Effective against flying foes. If unit initiates" TEXT_CMD_NEWLINE "combat or is within 2 spaces of an ally, grants" TEXT_CMD_NEWLINE "Atk/Spd/Def/Res+5 to unit during combat, unit" TEXT_CMD_NEWLINE "makes a guaranteed follow-up attack, reduces" TEXT_CMD_NEWLINE "damage from foe's first attack during combat" TEXT_CMD_NEWLINE "by 30%, and grants bonus to unit's Atk during" TEXT_CMD_NEWLINE "combat = 12 - foe's max Special cooldown" TEXT_CMD_NEWLINE "count value × 2 (min 4; if foe does not have a" TEXT_CMD_NEWLINE "Special skill, bonus = 4).",
+    [LANGUAGE_CHINESE] = "克制飞行" TEXT_CMD_NEWLINE "容易发动奥义（发动计量－１）" TEXT_CMD_NEWLINE "由自己发动攻击时，" TEXT_CMD_NEWLINE "或周围２格内有我方单位时，" TEXT_CMD_NEWLINE "战斗中的攻击、速度、防守、魔防＋５，" TEXT_CMD_NEWLINE "且攻击再提升" TEXT_CMD_NEWLINE "（提升数值为：" TEXT_CMD_NEWLINE "　１２－敌人的奥义发动计量的最大值×２）" TEXT_CMD_NEWLINE "（最少４，敌人未装备奥义时为４），" TEXT_CMD_NEWLINE "必定可进行追击，" TEXT_CMD_NEWLINE "将战斗中受到的第一发攻击伤害降低３０％",
+},
+
 [MSID_H_魔器ルナイクリプス] = {
     [LANGUAGE_JAPANESE] = "奥義が発動しやすい（発動カウント－１）" TEXT_CMD_NEWLINE "１ターン目開始時、奥義発動カウント－１" TEXT_CMD_NEWLINE "戦闘開始時、自身のＨＰが２５％以上なら、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ、守備、魔防＋５、絶対追撃、かつ" TEXT_CMD_NEWLINE "戦闘中、攻撃の弱化を無効",
     [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1)." TEXT_CMD_NEWLINE "At the start of turn 1, grants Special cooldown" TEXT_CMD_NEWLINE "count-1. At start of combat, if unit's HP ≥ 25%," TEXT_CMD_NEWLINE "grants Atk/Spd/Def/Res+5 to unit, unit makes" TEXT_CMD_NEWLINE "a guaranteed follow-up attack, and neutralizes" TEXT_CMD_NEWLINE "penalties to unit's Atk during combat.",
@@ -11015,6 +11093,12 @@
     [LANGUAGE_JAPANESE] = "戦闘後、敵の魔防－７" TEXT_CMD_NEWLINE "（敵の次回行動終了まで）",
     [LANGUAGE_ENGLISH] = "Inflicts Res-7 on foe through its next action after" TEXT_CMD_NEWLINE "combat.",
     [LANGUAGE_CHINESE] = "战斗后，敌人的魔防－７" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
+},
+
+[MSID_H_魔防封じ4] = {
+    [LANGUAGE_JAPANESE] = "戦闘中、敵の魔防－４、かつ" TEXT_CMD_NEWLINE "敵が魔防の弱化無効の効果を発動していない時、" TEXT_CMD_NEWLINE "戦闘中、敵の魔防が、" TEXT_CMD_NEWLINE "７－敵が受けている魔防の弱化の値、だけ減少" TEXT_CMD_NEWLINE "（最低値０）" TEXT_CMD_NEWLINE "敵が魔防の弱化を受けている時、" TEXT_CMD_NEWLINE "戦闘中、敵の奥義発動カウント変動量－１" TEXT_CMD_NEWLINE "（同系統効果複数時、最大値適用）" TEXT_CMD_NEWLINE "戦闘後、敵の魔防－７" TEXT_CMD_NEWLINE "（敵の次回行動終了時まで）",
+    [LANGUAGE_ENGLISH] = "Inflicts Res-4 on foe during combat, and" TEXT_CMD_NEWLINE "if no effect neutralizes penalties to foe's Res," TEXT_CMD_NEWLINE "inflicts penalty on foe's Res during combat =" TEXT_CMD_NEWLINE "7 - current penalty on foe's Res (min: 0)." TEXT_CMD_NEWLINE "If penalty is active on foe's Res, inflicts Special" TEXT_CMD_NEWLINE "cooldown charge -1 on foe per attack during" TEXT_CMD_NEWLINE "combat. (Only highest value applied. Does not" TEXT_CMD_NEWLINE "stack.) Inflicts Res-7 on foe through its next" TEXT_CMD_NEWLINE "action after combat.",
+    [LANGUAGE_CHINESE] = "战斗中，敌人的魔防－４，" TEXT_CMD_NEWLINE "且敌人没有发动抵销魔防弱化状态的效果时，" TEXT_CMD_NEWLINE "战斗中，敌人的魔防再下降" TEXT_CMD_NEWLINE "（下降数值为：７－敌人所受到的魔防的弱化值）" TEXT_CMD_NEWLINE "（最低值为０）" TEXT_CMD_NEWLINE "敌人受到魔防的弱化时，" TEXT_CMD_NEWLINE "战斗中，敌人奥义发动计量变化量－１" TEXT_CMD_NEWLINE "（若有多个相同系统效果，仅取最大值）" TEXT_CMD_NEWLINE "战斗后，敌人的魔防－７" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
 },
 
 [MSID_H_鴉王の嘴爪] = {
@@ -12547,6 +12631,18 @@
     [LANGUAGE_CHINESE] = "弗雷德里克的坚斧",
 },
 
+[MSID_フレリアの重槍] = {
+    [LANGUAGE_JAPANESE] = "フレリアの重槍",
+    [LANGUAGE_ENGLISH] = "Frelian Lance",
+    [LANGUAGE_CHINESE] = "弗莱利亚的重枪",
+},
+
+[MSID_フレリアの麗剣] = {
+    [LANGUAGE_JAPANESE] = "フレリアの麗剣",
+    [LANGUAGE_ENGLISH] = "Frelian Blade",
+    [LANGUAGE_CHINESE] = "弗莱利亚的丽剑",
+},
+
 [MSID_フロリーナの誓槍] = {
     [LANGUAGE_JAPANESE] = "フロリーナの誓槍",
     [LANGUAGE_ENGLISH] = "Florina's Lance",
@@ -13837,6 +13933,12 @@
     [LANGUAGE_CHINESE] = "大盾",
 },
 
+[MSID_天かける翼] = {
+    [LANGUAGE_JAPANESE] = "天かける翼",
+    [LANGUAGE_ENGLISH] = "Soaring Wings",
+    [LANGUAGE_CHINESE] = "翱翔天际的羽翼",
+},
+
 [MSID_天刻の拍動] = {
     [LANGUAGE_JAPANESE] = "天刻の拍動",
     [LANGUAGE_ENGLISH] = "Divine Pulse",
@@ -14753,6 +14855,12 @@
     [LANGUAGE_JAPANESE] = "安くない曲刀",
     [LANGUAGE_ENGLISH] = "Spendy Scimitar",
     [LANGUAGE_CHINESE] = "贵重的弯刀",
+},
+
+[MSID_完全なる黄金] = {
+    [LANGUAGE_JAPANESE] = "完全なる黄金",
+    [LANGUAGE_ENGLISH] = "Gold Perfection",
+    [LANGUAGE_CHINESE] = "完美的黄金",
 },
 
 [MSID_宝剣ソフィア] = {
@@ -17329,6 +17437,18 @@
     [LANGUAGE_CHINESE] = "堂堂正正之剑＋",
 },
 
+[MSID_正々堂々の槍] = {
+    [LANGUAGE_JAPANESE] = "正々堂々の槍",
+    [LANGUAGE_ENGLISH] = "Up-Front Lance",
+    [LANGUAGE_CHINESE] = "堂堂正正之枪",
+},
+
+[MSID_正々堂々の槍P] = {
+    [LANGUAGE_JAPANESE] = "正々堂々の槍＋",
+    [LANGUAGE_ENGLISH] = "Up-Front Lance+",
+    [LANGUAGE_CHINESE] = "堂堂正正之枪＋",
+},
+
 [MSID_正義の直槍] = {
     [LANGUAGE_JAPANESE] = "正義の直槍",
     [LANGUAGE_ENGLISH] = "Lance of Heroics",
@@ -18547,6 +18667,12 @@
     [LANGUAGE_CHINESE] = "空中前导３",
 },
 
+[MSID_空からの先導4] = {
+    [LANGUAGE_JAPANESE] = "空からの先導４",
+    [LANGUAGE_ENGLISH] = "Guidance 4",
+    [LANGUAGE_CHINESE] = "空中前导４",
+},
+
 [MSID_空からの急襲1] = {
     [LANGUAGE_JAPANESE] = "空からの急襲１",
     [LANGUAGE_ENGLISH] = "Dive-Bomb 1",
@@ -19433,6 +19559,12 @@
     [LANGUAGE_JAPANESE] = "迎撃隊形３",
     [LANGUAGE_ENGLISH] = "Vengeful Fighter 3",
     [LANGUAGE_CHINESE] = "迎击队形３",
+},
+
+[MSID_迎撃隊形4] = {
+    [LANGUAGE_JAPANESE] = "迎撃隊形４",
+    [LANGUAGE_ENGLISH] = "Vengeful Fighter 4",
+    [LANGUAGE_CHINESE] = "迎击队形４",
 },
 
 [MSID_近反・金剛の構え] = {
@@ -20417,6 +20549,30 @@
     [LANGUAGE_JAPANESE] = "速さ魔防の拍節３",
     [LANGUAGE_ENGLISH] = "Spd/Res Tempo 3",
     [LANGUAGE_CHINESE] = "速度魔防节拍３",
+},
+
+[MSID_速さ魔防の機先1] = {
+    [LANGUAGE_JAPANESE] = "速さ魔防の機先１",
+    [LANGUAGE_ENGLISH] = "Spd/Res Catch 1",
+    [LANGUAGE_CHINESE] = "速度魔防的先机１",
+},
+
+[MSID_速さ魔防の機先2] = {
+    [LANGUAGE_JAPANESE] = "速さ魔防の機先２",
+    [LANGUAGE_ENGLISH] = "Spd/Res Catch 2",
+    [LANGUAGE_CHINESE] = "速度魔防的先机２",
+},
+
+[MSID_速さ魔防の機先3] = {
+    [LANGUAGE_JAPANESE] = "速さ魔防の機先３",
+    [LANGUAGE_ENGLISH] = "Spd/Res Catch 3",
+    [LANGUAGE_CHINESE] = "速度魔防的先机３",
+},
+
+[MSID_速さ魔防の機先4] = {
+    [LANGUAGE_JAPANESE] = "速さ魔防の機先４",
+    [LANGUAGE_ENGLISH] = "Spd/Res Catch 4",
+    [LANGUAGE_CHINESE] = "速度魔防的先机４",
 },
 
 [MSID_速さ魔防の牽制1] = {
@@ -21661,6 +21817,12 @@
     [LANGUAGE_CHINESE] = "魔器津利",
 },
 
+[MSID_魔器ナーストレンド] = {
+    [LANGUAGE_JAPANESE] = "魔器ナーストレンド",
+    [LANGUAGE_ENGLISH] = "Arcane Náströnd",
+    [LANGUAGE_CHINESE] = "魔器纳斯特隆德",
+},
+
 [MSID_魔器ルナイクリプス] = {
     [LANGUAGE_JAPANESE] = "魔器ルナイクリプス",
     [LANGUAGE_ENGLISH] = "Arcane Eclipse",
@@ -22019,6 +22181,12 @@
     [LANGUAGE_JAPANESE] = "魔防封じ３",
     [LANGUAGE_ENGLISH] = "Seal Res 3",
     [LANGUAGE_CHINESE] = "魔防封印３",
+},
+
+[MSID_魔防封じ4] = {
+    [LANGUAGE_JAPANESE] = "魔防封じ４",
+    [LANGUAGE_ENGLISH] = "Seal Res 4",
+    [LANGUAGE_CHINESE] = "魔防封印４",
 },
 
 [MSID_鴉王の嘴爪] = {

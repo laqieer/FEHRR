@@ -2502,3 +2502,33 @@
     [LANGUAGE_ENGLISH] = "First Meetings",
     [LANGUAGE_CHINESE] = "初次重逢",
 },
+
+[MID_STAGE_S7051] = {
+    [LANGUAGE_JAPANESE] = "女神の子",
+    [LANGUAGE_ENGLISH] = "Child of the Goddess",
+    [LANGUAGE_CHINESE] = "女神之子",
+},
+
+[MID_STAGE_S7052] = {
+    [LANGUAGE_JAPANESE] = "隊長の回顧",
+    [LANGUAGE_ENGLISH] = "Looking Back",
+    [LANGUAGE_CHINESE] = "队长的回顾",
+},
+
+[MID_STAGE_S7053] = {
+    [LANGUAGE_JAPANESE] = "重壁の自負",
+    [LANGUAGE_ENGLISH] = "Silent Pride",
+    [LANGUAGE_CHINESE] = "重壁的自负",
+},
+
+[MID_STAGE_S7054] = {
+    [LANGUAGE_JAPANESE] = "女神の導き",
+    [LANGUAGE_ENGLISH] = "Goddess's Guidance",
+    [LANGUAGE_CHINESE] = "女神的指引",
+},
+
+[MID_STAGE_S7055] = {
+    [LANGUAGE_JAPANESE] = "唯一の脱出路",
+    [LANGUAGE_ENGLISH] = "Only Escape Route",
+    [LANGUAGE_CHINESE] = "唯一的逃脱路线",
+},

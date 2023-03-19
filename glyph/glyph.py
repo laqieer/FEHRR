@@ -163,6 +163,7 @@ def main():
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/MenuUppercase/UppercaseMenu.txt")
     read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyS, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyS, Language.EN)
+    read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyS, Language.EN)
     read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyS, Language.EN)
     set_space_width(glyphs, 2) # short space
     make_C_source_file(glyphs, "source/GlySEN.c", Language.EN)
@@ -191,6 +192,7 @@ def main():
     read_narrow_glyphs(glyphs, "glyph/NarrowFont/SerifUppercase/UppercaseSerif.txt")
     read_more_glyphs(glyphs, "glyph/fe7u", GlyphType.GlyT, Language.EN)
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.EN)
+    read_more_glyphs(glyphs, "glyph/fe6j", GlyphType.GlyT, Language.EN)
     read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyT, Language.EN)
     set_space_width(glyphs, 2) # short space
     make_C_source_file(glyphs, "source/GlyTEN.c", Language.EN)
@@ -214,12 +216,10 @@ def main():
     read_more_glyphs(glyphs, "glyph/fe8u", GlyphType.GlyT, Language.ZH)
     read_more_glyphs(glyphs, "glyph/Microsoft Sans Serif/缺字增补", GlyphType.GlyT, Language.ZH)
     make_C_source_file(glyphs, "source/GlyTZH.c", Language.ZH)
-    # print missing glyphs
-    print('Missing glyphs:')
     for language in Language:
         glyphs = {k: v for k, v in freqs[language].items() if v != -1}
         if len(glyphs) > 0:
-            print(f'{language.name} : {"".join(glyphs.keys())}')
+            warnings.warn(f'Missing glyphs ({language.name}): {"".join(glyphs.keys())}')
 
 if __name__ == "__main__":
     main()

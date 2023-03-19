@@ -15608,6 +15608,15 @@ const struct GlyphNew GlyTJA_E89491 = { /* 蔑 */
     .bitmap = GlyTJA_E89491Tiles,
 };
 
+const struct GlyphNew GlyTJA_E6ADB3 = { /* 歳 */
+    .next = &GlyTJA_E688B8,
+    .width = 11,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTJA_E6ADB3Tiles,
+};
+
 const struct GlyphNew GlyTJA_E88C82 = { /* 茂 */
     .next = &GlyTJA_E89491,
     .width = 11,
@@ -15708,7 +15717,7 @@ const struct GlyphNew GlyTJA_E7B6B2 = { /* 網 */
 };
 
 const struct GlyphNew GlyTJA_E685B0 = { /* 慰 */
-    .next = &GlyTJA_E688B8,
+    .next = &GlyTJA_E6ADB3,
     .width = 11,
     .utf_byte_2 = 0x85,
     .utf_byte_3 = 0xb0,
@@ -17039,6 +17048,15 @@ const struct GlyphNew GlyTJA_E886A0 = { /* 膠 */
     .bitmap = GlyTJA_E886A0Tiles,
 };
 
+const struct GlyphNew GlyTJA_E5AA9B = { /* 媛 */
+    .next = &GlyTJA_E59182,
+    .width = 11,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTJA_E5AA9BTiles,
+};
+
 const struct GlyphNew GlyTJA_E8BD8D = { /* 轍 */
     .next = &GlyTJA_E886A0,
     .width = 11,
@@ -17211,7 +17229,7 @@ const struct GlyphNew GlyTJA_E6B791 = { /* 淑 */
 };
 
 const struct GlyphNew GlyTJA_E597A3 = { /* 嗣 */
-    .next = &GlyTJA_E59182,
+    .next = &GlyTJA_E5AA9B,
     .width = 11,
     .utf_byte_2 = 0x97,
     .utf_byte_3 = 0xa3,
@@ -20072,6 +20090,15 @@ const struct GlyphNew GlyTJA_E6AB82 = { /* 櫂 */
     .bitmap = GlyTJA_E6AB82Tiles,
 };
 
+const struct GlyphNew GlyTJA_E7B9AB = { /* 繫 */
+    .next = &GlyTJA_E797A9,
+    .width = 11,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTJA_E7B9ABTiles,
+};
+
 struct GlyphNew const * const GlyTJANew[0x100 - 0x20] = {
     [0xe3 - 0x20] = &GlyTJA_E38087,
     [0xe2 - 0x20] = &GlyTJA_E297AF,
@@ -20079,7 +20106,7 @@ struct GlyphNew const * const GlyTJANew[0x100 - 0x20] = {
     [0xe9 - 0x20] = &GlyTJA_E991BD,
     [0xe5 - 0x20] = &GlyTJA_E593AD,
     [0xe8 - 0x20] = &GlyTJA_E89FBB,
-    [0xe7 - 0x20] = &GlyTJA_E797A9,
+    [0xe7 - 0x20] = &GlyTJA_E7B9AB,
     [0xe4 - 0x20] = &GlyTJA_E4B8B2,
     [0xef - 0x20] = &GlyTJA_EFBC9D,
     [0xc3 - 0x20] = &GlyTJA_C397,

@@ -7,6 +7,7 @@
 [submodule "asset/json"]
 	path = asset/json
 	url = https://github.com/HertzDevil/feh-assets-json.git
+	branch = book7-2023
 [submodule "source/gba-hq-mixer"]
 	path = source/gba-hq-mixer
 	url = https://github.com/laqieer/gba-hq-mixer.git

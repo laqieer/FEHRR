@@ -309,6 +309,12 @@ struct BackgroundEntNew const newBackgrounds[] = {
         .pal = BACKGROUND_EvBg_Hood_img1Pal,
     },
 
+    [BACKGROUND_EvBg_LightTemple - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_LightTemple_img1Tiles,
+        .img2 = BACKGROUND_EvBg_LightTemple_img2Tiles,
+        .pal = BACKGROUND_EvBg_LightTemple_img1Pal,
+    },
+
     [BACKGROUND_EvBg_Nisaveril - BACKGROUND_NEW] = {
         .img1 = BACKGROUND_EvBg_Nisaveril_img1Tiles,
         .img2 = BACKGROUND_EvBg_Nisaveril_img2Tiles,
@@ -441,6 +447,7 @@ const char * const background_names[] = {
     [BACKGROUND_EvBg_GoldenThreadRiver - BACKGROUND_NEW] = "EvBg_GoldenThreadRiver",
     [BACKGROUND_EvBg_GullveigCastleInside - BACKGROUND_NEW] = "EvBg_GullveigCastleInside",
     [BACKGROUND_EvBg_Hood - BACKGROUND_NEW] = "EvBg_Hood",
+    [BACKGROUND_EvBg_LightTemple - BACKGROUND_NEW] = "EvBg_LightTemple",
     [BACKGROUND_EvBg_Nisaveril - BACKGROUND_NEW] = "EvBg_Nisaveril",
     [BACKGROUND_EvBg_NisaverilCastle - BACKGROUND_NEW] = "EvBg_NisaverilCastle",
     [BACKGROUND_EvBg_NisaverilCorridor - BACKGROUND_NEW] = "EvBg_NisaverilCorridor",

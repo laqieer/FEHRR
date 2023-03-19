@@ -149,6 +149,17 @@ const struct FaceInfoNew newFaces[] = {
         .pal_chibi = ch00_07_Surtr_M_Normal_Face_FCPal,
     },
 
+    [FID_ch00_46_Seith_F_Normal - FID_NEW] = {
+        .img = ch00_46_Seith_F_Normal_FaceTiles,
+        .img_chibi = ch00_46_Seith_F_Normal_Face_FCTiles,
+        .pal = ch00_46_Seith_F_Normal_FacePal,
+        .x_mouth = 0,
+        .y_mouth = 0,
+        .x_box = 0,
+        .y_box = 0,
+        .pal_chibi = ch00_46_Seith_F_Normal_Face_FCPal,
+    },
+
     [FID_ch00_39_Ash_F_Normal - FID_NEW] = {
         .img = ch00_39_Ash_F_Normal_FaceTiles,
         .img_chibi = ch00_39_Ash_F_Normal_Face_FCTiles,
@@ -257,17 +268,6 @@ const struct FaceInfoNew newFaces[] = {
         .x_box = 0,
         .y_box = 0,
         .pal_chibi = ch00_43_Embla_Normal_Face_FCPal,
-    },
-
-    [FID_ch00_46_Seith_F_Normal - FID_NEW] = {
-        .img = ch00_46_Seith_F_Normal_FaceTiles,
-        .img_chibi = ch00_46_Seith_F_Normal_Face_FCTiles,
-        .pal = ch00_46_Seith_F_Normal_FacePal,
-        .x_mouth = 0,
-        .y_mouth = 0,
-        .x_box = 0,
-        .y_box = 0,
-        .pal_chibi = ch00_46_Seith_F_Normal_Face_FCPal,
     },
 
     [FID_ch00_24_Scabiosa_F_Normal - FID_NEW] = {
@@ -446,6 +446,17 @@ const struct FaceInfoNew newFaces[] = {
         .pal_chibi = NULL,
     },
 
+    [FID_ch00_47_Gullveig_F_Normal - FID_NEW] = {
+        .img = ch00_47_Gullveig_F_Normal_FaceTiles,
+        .img_chibi = ch00_47_Gullveig_F_Normal_Face_FCTiles,
+        .pal = ch00_47_Gullveig_F_Normal_FacePal,
+        .x_mouth = 0,
+        .y_mouth = 0,
+        .x_box = 0,
+        .y_box = 0,
+        .pal_chibi = ch00_47_Gullveig_F_Normal_Face_FCPal,
+    },
+
     [FID_ch05_21_Marks_M_Normal - FID_NEW] = {
         .img = ch05_21_Marks_M_Normal_FaceTiles,
         .img_chibi = ch05_21_Marks_M_Normal_Face_FCTiles,
@@ -479,17 +490,6 @@ const struct FaceInfoNew newFaces[] = {
         .pal_chibi = ch00_50_Nerthus_Normal_Face_FCPal,
     },
 
-    [FID_ch00_47_Gullveig_F_Normal - FID_NEW] = {
-        .img = ch00_47_Gullveig_F_Normal_FaceTiles,
-        .img_chibi = ch00_47_Gullveig_F_Normal_Face_FCTiles,
-        .pal = ch00_47_Gullveig_F_Normal_FacePal,
-        .x_mouth = 0,
-        .y_mouth = 0,
-        .x_box = 0,
-        .y_box = 0,
-        .pal_chibi = ch00_47_Gullveig_F_Normal_Face_FCPal,
-    },
-
     [FID_ch00_49_Heith_Normal - FID_NEW] = {
         .img = ch00_49_Heith_Normal_FaceTiles,
         .img_chibi = NULL,
@@ -505,6 +505,17 @@ const struct FaceInfoNew newFaces[] = {
         .img = ch00_31_Otr_M_Stain_FaceTiles,
         .img_chibi = NULL,
         .pal = ch00_31_Otr_M_Stain_FacePal,
+        .x_mouth = 0,
+        .y_mouth = 0,
+        .x_box = 0,
+        .y_box = 0,
+        .pal_chibi = NULL,
+    },
+
+    [FID_ch00_51_Njord_M_Normal - FID_NEW] = {
+        .img = ch00_51_Njord_M_Normal_FaceTiles,
+        .img_chibi = NULL,
+        .pal = ch00_51_Njord_M_Normal_FacePal,
         .x_mouth = 0,
         .y_mouth = 0,
         .x_box = 0,
@@ -538,17 +549,6 @@ const struct FaceInfoNew newFaces[] = {
         .img = ch00_05_Bruno_M_Enemy_FaceTiles,
         .img_chibi = NULL,
         .pal = ch00_05_Bruno_M_Enemy_FacePal,
-        .x_mouth = 0,
-        .y_mouth = 0,
-        .x_box = 0,
-        .y_box = 0,
-        .pal_chibi = NULL,
-    },
-
-    [FID_ch00_51_Njord_M_Normal - FID_NEW] = {
-        .img = ch00_51_Njord_M_Normal_FaceTiles,
-        .img_chibi = NULL,
-        .pal = ch00_51_Njord_M_Normal_FacePal,
         .x_mouth = 0,
         .y_mouth = 0,
         .x_box = 0,
@@ -809,6 +809,17 @@ const struct FaceInfoNew newFaces[] = {
         .pal_chibi = ch06_10_Aless_M_Normal_Face_FCPal,
     },
 
+    [FID_ch08_34_Sirene_Normal - FID_NEW] = {
+        .img = ch08_34_Sirene_Normal_FaceTiles,
+        .img_chibi = ch08_34_Sirene_Normal_Face_FCTiles,
+        .pal = ch08_34_Sirene_Normal_FacePal,
+        .x_mouth = 0,
+        .y_mouth = 0,
+        .x_box = 0,
+        .y_box = 0,
+        .pal_chibi = ch08_34_Sirene_Normal_Face_FCPal,
+    },
+
     [FID_ch05_34_Kannna_F_Normal - FID_NEW] = {
         .img = ch05_34_Kannna_F_Normal_FaceTiles,
         .img_chibi = ch05_34_Kannna_F_Normal_Face_FCTiles,
@@ -851,6 +862,17 @@ const struct FaceInfoNew newFaces[] = {
         .x_box = 0,
         .y_box = 0,
         .pal_chibi = ch10_25_Balbo_M_Normal_Face_FCPal,
+    },
+
+    [FID_ch08_32_Gilliam_Normal - FID_NEW] = {
+        .img = ch08_32_Gilliam_Normal_FaceTiles,
+        .img_chibi = ch08_32_Gilliam_Normal_Face_FCTiles,
+        .pal = ch08_32_Gilliam_Normal_FacePal,
+        .x_mouth = 0,
+        .y_mouth = 0,
+        .x_box = 0,
+        .y_box = 0,
+        .pal_chibi = ch08_32_Gilliam_Normal_Face_FCPal,
     },
 
     [FID_ch10_34_Est_F_Normal - FID_NEW] = {
@@ -2558,6 +2580,17 @@ const struct FaceInfoNew newFaces[] = {
         .pal_chibi = ch01_06_Marich_M_Normal_Face_FCPal,
     },
 
+    [FID_ch08_33_Vanessa_Normal - FID_NEW] = {
+        .img = ch08_33_Vanessa_Normal_FaceTiles,
+        .img_chibi = ch08_33_Vanessa_Normal_Face_FCTiles,
+        .pal = ch08_33_Vanessa_Normal_FacePal,
+        .x_mouth = 0,
+        .y_mouth = 0,
+        .x_box = 0,
+        .y_box = 0,
+        .pal_chibi = ch08_33_Vanessa_Normal_Face_FCPal,
+    },
+
     [FID_ch00_29_Hood_N_Muji - FID_NEW] = {
         .img = ch00_29_Hood_N_Muji_FaceTiles,
         .img_chibi = ch00_29_Hood_N_Muji_Face_FCTiles,
@@ -3161,6 +3194,17 @@ const struct FaceInfoNew newFaces[] = {
         .x_box = 0,
         .y_box = 0,
         .pal_chibi = ch07_19_Karin_F_Normal_Face_FCPal,
+    },
+
+    [FID_ch08_05_Turner_M_Weapon01 - FID_NEW] = {
+        .img = ch08_05_Turner_M_Weapon01_FaceTiles,
+        .img_chibi = ch08_05_Turner_M_Weapon01_Face_FCTiles,
+        .pal = ch08_05_Turner_M_Weapon01_FacePal,
+        .x_mouth = 0,
+        .y_mouth = 0,
+        .x_box = 0,
+        .y_box = 0,
+        .pal_chibi = ch08_05_Turner_M_Weapon01_Face_FCPal,
     },
 
     [FID_ch05_62_Kisaragi_M_Normal - FID_NEW] = {
@@ -5061,6 +5105,7 @@ const char * const face_names[] = {
     [FID_ch00_27_Freya_F_Normal - FID_NEW] = "ch00_27_Freya_F_Normal",
     [FID_ch00_31_Otr_M_Normal - FID_NEW] = "ch00_31_Otr_M_Normal",
     [FID_ch00_07_Surtr_M_Normal - FID_NEW] = "ch00_07_Surtr_M_Normal",
+    [FID_ch00_46_Seith_F_Normal - FID_NEW] = "ch00_46_Seith_F_Normal",
     [FID_ch00_39_Ash_F_Normal - FID_NEW] = "ch00_39_Ash_F_Normal",
     [FID_ch00_17_Lif_M_Normal - FID_NEW] = "ch00_17_Lif_M_Normal",
     [FID_ch00_32_Fafnir_M_Normal - FID_NEW] = "ch00_32_Fafnir_M_Normal",
@@ -5071,7 +5116,6 @@ const char * const face_names[] = {
     [FID_ch00_19_Hell_F_Normal - FID_NEW] = "ch00_19_Hell_F_Normal",
     [FID_ch00_35_Eitri_F_Normal - FID_NEW] = "ch00_35_Eitri_F_Normal",
     [FID_ch00_43_Embla_Normal - FID_NEW] = "ch00_43_Embla_Normal",
-    [FID_ch00_46_Seith_F_Normal - FID_NEW] = "ch00_46_Seith_F_Normal",
     [FID_ch00_24_Scabiosa_F_Normal - FID_NEW] = "ch00_24_Scabiosa_F_Normal",
     [FID_ch00_08_Loki_F_Normal - FID_NEW] = "ch00_08_Loki_F_Normal",
     [FID_ch00_13_Gustaf_M_Normal - FID_NEW] = "ch00_13_Gustaf_M_Normal",
@@ -5088,16 +5132,16 @@ const char * const face_names[] = {
     [FID_ch00_16_Freeze_M_Normal - FID_NEW] = "ch00_16_Freeze_M_Normal",
     [FID_ch00_04_Veronica2_F_Normal - FID_NEW] = "ch00_04_Veronica2_F_Normal",
     [FID_ch00_04_Veronica_F_Stain - FID_NEW] = "ch00_04_Veronica_F_Stain",
+    [FID_ch00_47_Gullveig_F_Normal - FID_NEW] = "ch00_47_Gullveig_F_Normal",
     [FID_ch05_21_Marks_M_Normal - FID_NEW] = "ch05_21_Marks_M_Normal",
     [FID_ch00_32_Fafnir2_M_Normal - FID_NEW] = "ch00_32_Fafnir2_M_Normal",
     [FID_ch00_50_Nerthus_Normal - FID_NEW] = "ch00_50_Nerthus_Normal",
-    [FID_ch00_47_Gullveig_F_Normal - FID_NEW] = "ch00_47_Gullveig_F_Normal",
     [FID_ch00_49_Heith_Normal - FID_NEW] = "ch00_49_Heith_Normal",
     [FID_ch00_31_Otr_M_Stain - FID_NEW] = "ch00_31_Otr_M_Stain",
+    [FID_ch00_51_Njord_M_Normal - FID_NEW] = "ch00_51_Njord_M_Normal",
     [FID_ch00_41_Letizia_F_Enemy - FID_NEW] = "ch00_41_Letizia_F_Enemy",
     [FID_ch00_13_Gustaf_M_Enemy - FID_NEW] = "ch00_13_Gustaf_M_Enemy",
     [FID_ch00_05_Bruno_M_Enemy - FID_NEW] = "ch00_05_Bruno_M_Enemy",
-    [FID_ch00_51_Njord_M_Normal - FID_NEW] = "ch00_51_Njord_M_Normal",
     [FID_ch00_29_Hood_N_Normal - FID_NEW] = "ch00_29_Hood_N_Normal",
     [FID_ch00_10_Cerise_F_Normal - FID_NEW] = "ch00_10_Cerise_F_Normal",
     [FID_ch00_04_Veronica_F_Enemy2 - FID_NEW] = "ch00_04_Veronica_F_Enemy2",
@@ -5121,10 +5165,12 @@ const char * const face_names[] = {
     [FID_ch06_28_Azel_M_Normal - FID_NEW] = "ch06_28_Azel_M_Normal",
     [FID_ch10_08_Cellica_F_Normal - FID_NEW] = "ch10_08_Cellica_F_Normal",
     [FID_ch06_10_Aless_M_Normal - FID_NEW] = "ch06_10_Aless_M_Normal",
+    [FID_ch08_34_Sirene_Normal - FID_NEW] = "ch08_34_Sirene_Normal",
     [FID_ch05_34_Kannna_F_Normal - FID_NEW] = "ch05_34_Kannna_F_Normal",
     [FID_ch10_23_Silque_F_Normal - FID_NEW] = "ch10_23_Silque_F_Normal",
     [FID_ch06_14_Cuan_M_Normal - FID_NEW] = "ch06_14_Cuan_M_Normal",
     [FID_ch10_25_Balbo_M_Normal - FID_NEW] = "ch10_25_Balbo_M_Normal",
+    [FID_ch08_32_Gilliam_Normal - FID_NEW] = "ch08_32_Gilliam_Normal",
     [FID_ch10_34_Est_F_Normal - FID_NEW] = "ch10_34_Est_F_Normal",
     [FID_ch00_05_Bruno_M_PlainEnemy - FID_NEW] = "ch00_05_Bruno_M_PlainEnemy",
     [FID_ch01_48_Virac_M_Normal - FID_NEW] = "ch01_48_Virac_M_Normal",
@@ -5280,6 +5326,7 @@ const char * const face_names[] = {
     [FID_ch06_18_Jamka_M_Normal - FID_NEW] = "ch06_18_Jamka_M_Normal",
     [FID_ch10_36_Atlus_M_Normal - FID_NEW] = "ch10_36_Atlus_M_Normal",
     [FID_ch01_06_Marich_M_Normal - FID_NEW] = "ch01_06_Marich_M_Normal",
+    [FID_ch08_33_Vanessa_Normal - FID_NEW] = "ch08_33_Vanessa_Normal",
     [FID_ch00_29_Hood_N_Muji - FID_NEW] = "ch00_29_Hood_N_Muji",
     [FID_ch01_46_Roche_M_Normal - FID_NEW] = "ch01_46_Roche_M_Normal",
     [FID_ch01_45_Wolf_M_Normal - FID_NEW] = "ch01_45_Wolf_M_Normal",
@@ -5335,6 +5382,7 @@ const char * const face_names[] = {
     [FID_ch01_07_Rinda_F_Normal - FID_NEW] = "ch01_07_Rinda_F_Normal",
     [FID_ch06_03_Yuria_F_Normal - FID_NEW] = "ch06_03_Yuria_F_Normal",
     [FID_ch07_19_Karin_F_Normal - FID_NEW] = "ch07_19_Karin_F_Normal",
+    [FID_ch08_05_Turner_M_Weapon01 - FID_NEW] = "ch08_05_Turner_M_Weapon01",
     [FID_ch05_62_Kisaragi_M_Normal - FID_NEW] = "ch05_62_Kisaragi_M_Normal",
     [FID_ch05_52_Foleo_M_Normal - FID_NEW] = "ch05_52_Foleo_M_Normal",
     [FID_ch05_47_Kinu_F_Normal - FID_NEW] = "ch05_47_Kinu_F_Normal",

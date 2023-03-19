@@ -254,6 +254,25 @@ const struct Voice hero_voices[] = {
         },
     },
 
+    [PID_セイズ] = {
+        .status = {
+            VOICE_SEITH_STATUS_1,
+        },
+        .map = {
+            VOICE_SEITH_MAP_1,
+            VOICE_SEITH_MAP_2,
+            VOICE_SEITH_MAP_3,
+        },
+        .attack = {
+            VOICE_SEITH_ATTACK_1,
+            VOICE_SEITH_ATTACK_2,
+        },
+        .damage = {
+            VOICE_SEITH_DAMAGE_1,
+            VOICE_SEITH_DAMAGE_2,
+        },
+    },
+
     [EID_スルト] = {
         .status = {
             VOICE_SURTR_STATUS_1,
@@ -441,25 +460,6 @@ const struct Voice hero_voices[] = {
         .damage = {
             VOICE_EMBLA_DAMAGE_1,
             VOICE_EMBLA_DAMAGE_2,
-        },
-    },
-
-    [PID_セイズ] = {
-        .status = {
-            VOICE_SEITH_STATUS_1,
-        },
-        .map = {
-            VOICE_SEITH_MAP_1,
-            VOICE_SEITH_MAP_2,
-            VOICE_SEITH_MAP_3,
-        },
-        .attack = {
-            VOICE_SEITH_ATTACK_1,
-            VOICE_SEITH_ATTACK_2,
-        },
-        .damage = {
-            VOICE_SEITH_DAMAGE_1,
-            VOICE_SEITH_DAMAGE_2,
         },
     },
 
@@ -710,25 +710,6 @@ const struct Voice hero_voices[] = {
         },
     },
 
-    [EID_ネルトゥス] = {
-        .status = {
-            VOICE_NULL,
-        },
-        .map = {
-            VOICE_NULL,
-            VOICE_NULL,
-            VOICE_NULL,
-        },
-        .attack = {
-            VOICE_NERTHUS_ATTACK_1,
-            VOICE_NERTHUS_ATTACK_2,
-        },
-        .damage = {
-            VOICE_NERTHUS_DAMAGE_1,
-            VOICE_NERTHUS_DAMAGE_2,
-        },
-    },
-
     [EID_グルヴェイグ] = {
         .status = {
             VOICE_NULL,
@@ -745,6 +726,25 @@ const struct Voice hero_voices[] = {
         .damage = {
             VOICE_GULLVEIG_DAMAGE_1,
             VOICE_GULLVEIG_DAMAGE_2,
+        },
+    },
+
+    [EID_ネルトゥス] = {
+        .status = {
+            VOICE_NULL,
+        },
+        .map = {
+            VOICE_NULL,
+            VOICE_NULL,
+            VOICE_NULL,
+        },
+        .attack = {
+            VOICE_NERTHUS_ATTACK_1,
+            VOICE_NERTHUS_ATTACK_2,
+        },
+        .damage = {
+            VOICE_NERTHUS_DAMAGE_1,
+            VOICE_NERTHUS_DAMAGE_2,
         },
     },
 
@@ -932,6 +932,14 @@ const struct Song * const voices[] = {
     [VOICE_FREYA_ATTACK_2] = &VOICE_FREYA_ATTACK_2_song,
     [VOICE_FREYA_DAMAGE_1] = &VOICE_FREYA_DAMAGE_1_song,
     [VOICE_FREYA_DAMAGE_2] = &VOICE_FREYA_DAMAGE_2_song,
+    [VOICE_SEITH_STATUS_1] = &VOICE_SEITH_STATUS_1_song,
+    [VOICE_SEITH_MAP_1] = &VOICE_SEITH_MAP_1_song,
+    [VOICE_SEITH_MAP_2] = &VOICE_SEITH_MAP_2_song,
+    [VOICE_SEITH_MAP_3] = &VOICE_SEITH_MAP_3_song,
+    [VOICE_SEITH_ATTACK_1] = &VOICE_SEITH_ATTACK_1_song,
+    [VOICE_SEITH_ATTACK_2] = &VOICE_SEITH_ATTACK_2_song,
+    [VOICE_SEITH_DAMAGE_1] = &VOICE_SEITH_DAMAGE_1_song,
+    [VOICE_SEITH_DAMAGE_2] = &VOICE_SEITH_DAMAGE_2_song,
     [VOICE_SURTR_STATUS_1] = &VOICE_SURTR_STATUS_1_song,
     [VOICE_SURTR_MAP_1] = &VOICE_SURTR_MAP_1_song,
     [VOICE_SURTR_MAP_2] = &VOICE_SURTR_MAP_2_song,
@@ -1012,14 +1020,6 @@ const struct Song * const voices[] = {
     [VOICE_EMBLA_ATTACK_2] = &VOICE_EMBLA_ATTACK_2_song,
     [VOICE_EMBLA_DAMAGE_1] = &VOICE_EMBLA_DAMAGE_1_song,
     [VOICE_EMBLA_DAMAGE_2] = &VOICE_EMBLA_DAMAGE_2_song,
-    [VOICE_SEITH_STATUS_1] = &VOICE_SEITH_STATUS_1_song,
-    [VOICE_SEITH_MAP_1] = &VOICE_SEITH_MAP_1_song,
-    [VOICE_SEITH_MAP_2] = &VOICE_SEITH_MAP_2_song,
-    [VOICE_SEITH_MAP_3] = &VOICE_SEITH_MAP_3_song,
-    [VOICE_SEITH_ATTACK_1] = &VOICE_SEITH_ATTACK_1_song,
-    [VOICE_SEITH_ATTACK_2] = &VOICE_SEITH_ATTACK_2_song,
-    [VOICE_SEITH_DAMAGE_1] = &VOICE_SEITH_DAMAGE_1_song,
-    [VOICE_SEITH_DAMAGE_2] = &VOICE_SEITH_DAMAGE_2_song,
     [VOICE_GUSTAF_VALENTINE04_STATUS_1] = &VOICE_GUSTAF_VALENTINE04_STATUS_1_song,
     [VOICE_GUSTAF_VALENTINE04_MAP_1] = &VOICE_GUSTAF_VALENTINE04_MAP_1_song,
     [VOICE_GUSTAF_VALENTINE04_MAP_2] = &VOICE_GUSTAF_VALENTINE04_MAP_2_song,
@@ -1116,14 +1116,14 @@ const struct Song * const voices[] = {
     [VOICE_SRASIR_ATTACK_2] = &VOICE_SRASIR_ATTACK_2_song,
     [VOICE_SRASIR_DAMAGE_1] = &VOICE_SRASIR_DAMAGE_1_song,
     [VOICE_SRASIR_DAMAGE_2] = &VOICE_SRASIR_DAMAGE_2_song,
-    [VOICE_NERTHUS_ATTACK_1] = &VOICE_NERTHUS_ATTACK_1_song,
-    [VOICE_NERTHUS_ATTACK_2] = &VOICE_NERTHUS_ATTACK_2_song,
-    [VOICE_NERTHUS_DAMAGE_1] = &VOICE_NERTHUS_DAMAGE_1_song,
-    [VOICE_NERTHUS_DAMAGE_2] = &VOICE_NERTHUS_DAMAGE_2_song,
     [VOICE_GULLVEIG_ATTACK_1] = &VOICE_GULLVEIG_ATTACK_1_song,
     [VOICE_GULLVEIG_ATTACK_2] = &VOICE_GULLVEIG_ATTACK_2_song,
     [VOICE_GULLVEIG_DAMAGE_1] = &VOICE_GULLVEIG_DAMAGE_1_song,
     [VOICE_GULLVEIG_DAMAGE_2] = &VOICE_GULLVEIG_DAMAGE_2_song,
+    [VOICE_NERTHUS_ATTACK_1] = &VOICE_NERTHUS_ATTACK_1_song,
+    [VOICE_NERTHUS_ATTACK_2] = &VOICE_NERTHUS_ATTACK_2_song,
+    [VOICE_NERTHUS_DAMAGE_1] = &VOICE_NERTHUS_DAMAGE_1_song,
+    [VOICE_NERTHUS_DAMAGE_2] = &VOICE_NERTHUS_DAMAGE_2_song,
     [VOICE_MARKS_STATUS_1] = &VOICE_MARKS_STATUS_1_song,
     [VOICE_MARKS_MAP_1] = &VOICE_MARKS_MAP_1_song,
     [VOICE_MARKS_MAP_2] = &VOICE_MARKS_MAP_2_song,
@@ -1248,6 +1248,14 @@ const char * const voice_names[] = {
     [VOICE_FREYA_ATTACK_2] = "VOICE_FREYA_ATTACK_2",
     [VOICE_FREYA_DAMAGE_1] = "VOICE_FREYA_DAMAGE_1",
     [VOICE_FREYA_DAMAGE_2] = "VOICE_FREYA_DAMAGE_2",
+    [VOICE_SEITH_STATUS_1] = "VOICE_SEITH_STATUS_1",
+    [VOICE_SEITH_MAP_1] = "VOICE_SEITH_MAP_1",
+    [VOICE_SEITH_MAP_2] = "VOICE_SEITH_MAP_2",
+    [VOICE_SEITH_MAP_3] = "VOICE_SEITH_MAP_3",
+    [VOICE_SEITH_ATTACK_1] = "VOICE_SEITH_ATTACK_1",
+    [VOICE_SEITH_ATTACK_2] = "VOICE_SEITH_ATTACK_2",
+    [VOICE_SEITH_DAMAGE_1] = "VOICE_SEITH_DAMAGE_1",
+    [VOICE_SEITH_DAMAGE_2] = "VOICE_SEITH_DAMAGE_2",
     [VOICE_SURTR_STATUS_1] = "VOICE_SURTR_STATUS_1",
     [VOICE_SURTR_MAP_1] = "VOICE_SURTR_MAP_1",
     [VOICE_SURTR_MAP_2] = "VOICE_SURTR_MAP_2",
@@ -1328,14 +1336,6 @@ const char * const voice_names[] = {
     [VOICE_EMBLA_ATTACK_2] = "VOICE_EMBLA_ATTACK_2",
     [VOICE_EMBLA_DAMAGE_1] = "VOICE_EMBLA_DAMAGE_1",
     [VOICE_EMBLA_DAMAGE_2] = "VOICE_EMBLA_DAMAGE_2",
-    [VOICE_SEITH_STATUS_1] = "VOICE_SEITH_STATUS_1",
-    [VOICE_SEITH_MAP_1] = "VOICE_SEITH_MAP_1",
-    [VOICE_SEITH_MAP_2] = "VOICE_SEITH_MAP_2",
-    [VOICE_SEITH_MAP_3] = "VOICE_SEITH_MAP_3",
-    [VOICE_SEITH_ATTACK_1] = "VOICE_SEITH_ATTACK_1",
-    [VOICE_SEITH_ATTACK_2] = "VOICE_SEITH_ATTACK_2",
-    [VOICE_SEITH_DAMAGE_1] = "VOICE_SEITH_DAMAGE_1",
-    [VOICE_SEITH_DAMAGE_2] = "VOICE_SEITH_DAMAGE_2",
     [VOICE_GUSTAF_VALENTINE04_STATUS_1] = "VOICE_GUSTAF_VALENTINE04_STATUS_1",
     [VOICE_GUSTAF_VALENTINE04_MAP_1] = "VOICE_GUSTAF_VALENTINE04_MAP_1",
     [VOICE_GUSTAF_VALENTINE04_MAP_2] = "VOICE_GUSTAF_VALENTINE04_MAP_2",
@@ -1432,14 +1432,14 @@ const char * const voice_names[] = {
     [VOICE_SRASIR_ATTACK_2] = "VOICE_SRASIR_ATTACK_2",
     [VOICE_SRASIR_DAMAGE_1] = "VOICE_SRASIR_DAMAGE_1",
     [VOICE_SRASIR_DAMAGE_2] = "VOICE_SRASIR_DAMAGE_2",
-    [VOICE_NERTHUS_ATTACK_1] = "VOICE_NERTHUS_ATTACK_1",
-    [VOICE_NERTHUS_ATTACK_2] = "VOICE_NERTHUS_ATTACK_2",
-    [VOICE_NERTHUS_DAMAGE_1] = "VOICE_NERTHUS_DAMAGE_1",
-    [VOICE_NERTHUS_DAMAGE_2] = "VOICE_NERTHUS_DAMAGE_2",
     [VOICE_GULLVEIG_ATTACK_1] = "VOICE_GULLVEIG_ATTACK_1",
     [VOICE_GULLVEIG_ATTACK_2] = "VOICE_GULLVEIG_ATTACK_2",
     [VOICE_GULLVEIG_DAMAGE_1] = "VOICE_GULLVEIG_DAMAGE_1",
     [VOICE_GULLVEIG_DAMAGE_2] = "VOICE_GULLVEIG_DAMAGE_2",
+    [VOICE_NERTHUS_ATTACK_1] = "VOICE_NERTHUS_ATTACK_1",
+    [VOICE_NERTHUS_ATTACK_2] = "VOICE_NERTHUS_ATTACK_2",
+    [VOICE_NERTHUS_DAMAGE_1] = "VOICE_NERTHUS_DAMAGE_1",
+    [VOICE_NERTHUS_DAMAGE_2] = "VOICE_NERTHUS_DAMAGE_2",
     [VOICE_MARKS_STATUS_1] = "VOICE_MARKS_STATUS_1",
     [VOICE_MARKS_MAP_1] = "VOICE_MARKS_MAP_1",
     [VOICE_MARKS_MAP_2] = "VOICE_MARKS_MAP_2",

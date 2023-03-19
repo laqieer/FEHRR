@@ -13835,6 +13835,15 @@ const struct GlyphNew GlySJA_E6858C = { /* 慌 */
     .bitmap = GlySJA_E6858CTiles,
 };
 
+const struct GlyphNew GlySJA_E5AA9B = { /* 媛 */
+    .next = &GlySJA_E5BEB9,
+    .width = 12,
+    .utf_byte_2 = 0xaa,
+    .utf_byte_3 = 0x9b,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySJA_E5AA9BTiles,
+};
+
 const struct GlyphNew GlySJA_E8BD8D = { /* 轍 */
     .next = &GlySJA_E886A0,
     .width = 12,
@@ -13863,7 +13872,7 @@ const struct GlyphNew GlySJA_E4B98F = { /* 乏 */
 };
 
 const struct GlyphNew GlySJA_E5B496 = { /* 崖 */
-    .next = &GlySJA_E5BEB9,
+    .next = &GlySJA_E5AA9B,
     .width = 12,
     .utf_byte_2 = 0xb4,
     .utf_byte_3 = 0x96,
@@ -17039,6 +17048,15 @@ const struct GlyphNew GlySJA_E69EAF = { /* 枯 */
     .bitmap = GlySJA_E69EAFTiles,
 };
 
+const struct GlyphNew GlySJA_E6ADB3 = { /* 歳 */
+    .next = &GlySJA_E69EAF,
+    .width = 12,
+    .utf_byte_2 = 0xad,
+    .utf_byte_3 = 0xb3,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySJA_E6ADB3Tiles,
+};
+
 const struct GlyphNew GlySJA_E88C82 = { /* 茂 */
     .next = &GlySJA_E89491,
     .width = 12,
@@ -17049,7 +17067,7 @@ const struct GlyphNew GlySJA_E88C82 = { /* 茂 */
 };
 
 const struct GlyphNew GlySJA_E6969C = { /* 斜 */
-    .next = &GlySJA_E69EAF,
+    .next = &GlySJA_E6ADB3,
     .width = 12,
     .utf_byte_2 = 0x96,
     .utf_byte_3 = 0x9c,
@@ -19928,6 +19946,15 @@ const struct GlyphNew GlySJA_E6AB82 = { /* 櫂 */
     .bitmap = GlySJA_E6AB82Tiles,
 };
 
+const struct GlyphNew GlySJA_E7B9AB = { /* 繫 */
+    .next = &GlySJA_E797A9,
+    .width = 12,
+    .utf_byte_2 = 0xb9,
+    .utf_byte_3 = 0xab,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySJA_E7B9ABTiles,
+};
+
 struct GlyphNew const * const GlySJANew[0x100 - 0x20] = {
     [0xe3 - 0x20] = &GlySJA_E38087,
     [0xe6 - 0x20] = &GlySJA_E6AB82,
@@ -19935,7 +19962,7 @@ struct GlyphNew const * const GlySJANew[0x100 - 0x20] = {
     [0xe5 - 0x20] = &GlySJA_E593AD,
     [0xe2 - 0x20] = &GlySJA_E297AF,
     [0xe8 - 0x20] = &GlySJA_E89FBB,
-    [0xe7 - 0x20] = &GlySJA_E797A9,
+    [0xe7 - 0x20] = &GlySJA_E7B9AB,
     [0xe4 - 0x20] = &GlySJA_E4B8B2,
     [0xef - 0x20] = &GlySJA_EFBC9D,
     [0x28 - 0x20] = &GlySJA_28,
