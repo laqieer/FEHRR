@@ -144,7 +144,7 @@ struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
     },
 
     {
-        .label = (const char *)3736, // CVテスト
+        .label = (const char *)3736, // キャラクターテスト
         .available = MenuEntryEnabled,
         .on_select = DebugVoice,
     },

@@ -2,6 +2,7 @@
 
 #include "unit.h"
 #include "face.h"
+#include "constants/faces.h"
 #include "faceNew.h"
 #include "proc.h"
 #include "bm.h"
@@ -58,7 +59,11 @@ void PrintCharacterDebugInfo(int hero_id, int voice_type, int level)
 {
     DebugScreenInit();
 
-    PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 4), 0x270, 2, 0);
+    int chibi_fid = GetPInfo(hero_id)->fid;
+    if (!hasChibiFace(chibi_fid))
+        chibi_fid = FID_FACTION_CHIBI + GetPInfo(hero_id)->chibi_id;
+
+    PutFaceChibi(chibi_fid, gBg2Tm + TM_OFFSET(0, 4), 0x270, 2, 0);
 
     DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 0), "PID: %d", hero_id);
     DebugPutStr(gBg2Tm + TM_OFFSET(0, 1), GetFaceName(GetPInfo(hero_id)->fid));

@@ -478,3 +478,8 @@ const char * GetFaceName(int fid)
     Assert(IsNewFace(fid));
     return face_names[fid - FID_NEW];
 }
+
+bool hasChibiFace(int fid)
+{
+    return IsNewFace(fid) ? GetFaceInfoNew(fid)->img_chibi : GetFaceInfo(fid)->img_chibi;
+}
