@@ -61,7 +61,7 @@ def load_heroes_in_maps(folder):
 
 def sort_faces_by_count():
     global faces
-    faces = sorted(face_counts.keys(), key=lambda x: face_counts[x], reverse=True)
+    faces = sorted(face_counts.keys(), key=lambda x: (face_counts[x], x), reverse=True)
 
 def assign_face_ids():
     i = 1

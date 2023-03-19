@@ -37,7 +37,8 @@ def make_heroes(filename):
         f.write('#include "facesNew.h"\n')
         f.write('\n')
         f.write('const struct PInfo heroes[] = {\n')
-        for hero, data in hero_data.items():
+        for hero in hero_ids:
+            data = hero_data[hero]
             f.write('    [%s - 1] = {\n' % hero)
             f.write('        .id = %s,\n' % hero)
             f.write('        .msg_name = M%s,\n' % hero)
