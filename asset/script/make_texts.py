@@ -29,6 +29,10 @@ my_names = {
     Language.LANGUAGE_CHINESE: '艾克拉',
 }
 
+exceptions = (
+    "PID_ザカリア影",
+)
+
 texts = {}
 text_keys = []
 units = []
@@ -99,7 +103,8 @@ def show_unit_face(matched):
     if unit == 'PID_フロージ':
         unit = 'EID_フロージ'
     if unit not in unit_infos:
-        warnings.warn('Unit face not found: ' + unit)
+        if unit not in exceptions:
+            warnings.warn('Unit face not found: ' + unit)
         return ' TEXT_CMD_LEFT TEXT_CMD_CLEAR '
     return ' TEXT_CMD_LEFT TEXT_CMD_CLEAR TEXT_CMD_FACE %s ' % unit_infos[unit]['face_name']
 
@@ -256,6 +261,15 @@ def write_header(filename):
             f.write('#define %s TEXT_ID_TEST + %d\n' % (validate_text_key(key), text_id))
             text_id += 1
 
+def write_names(filename):
+    with open(filename, 'w') as f:
+        f.write('#include "texts.h"\n')
+        f.write('\n')
+        f.write('const char * const text_keys[] = {\n')
+        for key in text_keys:
+            f.write('    [%s - TEXT_ID_TEST] = "%s",\n' % (validate_text_key(key), key))
+        f.write('};\n')
+
 def main():
     load_hero_ids('include/heroes.h')
     read_unit_infos('asset/json/files/assets/Common/SRPG/Person/')
@@ -279,6 +293,7 @@ def main():
     write_texts(TextType.STAGE, 'include/stageTexts.h')
     write_texts(TextType.MUSIC, 'include/musicTexts.h')
     write_header('include/texts.h')
+    write_names('source/textKeys.c')
 
 if __name__ == '__main__':
     main()

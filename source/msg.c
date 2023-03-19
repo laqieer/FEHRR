@@ -9,9 +9,11 @@
 #include "msgNew.h"
 #include "text.h"
 #include "textNew.h"
+#include "textTest.h"
 
 extern const char * const gMsgTable[];
 extern const char * const gMsgTableNew[][LANGUAGE_NUM];
+extern const char * const text_keys[];
 
 extern char sMsgString[0x1000];
 
@@ -32,7 +34,7 @@ char * DecodeMsgNew(int id)
     strcpy(sMsgString, GetMsg(id));
     sActiveMsg = id;
 
-    Infof("Decoded message %d: %s", id, sMsgString);
+    Infof("Decoded message %d %s: %s", id, GetMsgKey(id), sMsgString);
 
     return sMsgString;
 }
@@ -40,4 +42,9 @@ char * DecodeMsgNew(int id)
 char * DecodeMsgOld(int id)
 {
     return DecodeMsgNew(id);
+}
+
+const char * GetMsgKey(int id)
+{
+    return id > TEXT_ID_TEST ? text_keys[id - TEXT_ID_TEST] : "";
 }
