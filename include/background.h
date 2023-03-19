@@ -25,3 +25,6 @@ extern struct BackgroundEntNew const newBackgrounds[];
 #define BackgroundHeightImg2 4
 
 #define BgChrOffsetImg2 0x2800
+
+extern const char * const background_names[];
+const char * GetBackgroundName(int background_id);

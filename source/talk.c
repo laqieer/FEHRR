@@ -30,6 +30,7 @@
 
 #include "log.h"
 
+#include "background.h"
 #include "backgrounds.h"
 
 struct TalkChoiceEnt
@@ -644,9 +645,16 @@ void PutTalkBubbleOld(int xAnchor, int yAnchor, int width, int height)
     PutTalkBubbleNew(xAnchor, yAnchor, width, height);
 }
 
+void PrintBackgroundDebugInfo(int background_id)
+{
+    DebugPutObjNumber(0, DISPLAY_HEIGHT - 16, background_id, 3);
+    DebugPutObjStr(0, DISPLAY_HEIGHT - 8, GetBackgroundName(background_id));
+}
+
 void TalkDebug_BgInit(struct GenericProc * proc)
 {
     proc->y = BACKGROUND_NEW;
+    PrintBackgroundDebugInfo(proc->y);
     DisplayBackground(proc->y);
 }
 
@@ -675,6 +683,7 @@ void TalkDebug_OnIdleNew(struct GenericProc * proc)
     }
 
     DebugPutObjNumber(112, 100, msg, 5);
+    PrintBackgroundDebugInfo(bg);
 
     if (gKeySt->pressed & KEY_BUTTON_SELECT)
     {

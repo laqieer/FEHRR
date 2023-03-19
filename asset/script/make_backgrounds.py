@@ -54,6 +54,11 @@ def make_backgrounds(src_folder, dst_folder, filename):
             f.write('    },\n')
             f.write('\n')
         f.write('};\n')
+        f.write('\n')
+        f.write('const char * const background_names[] = {\n')
+        for background in sorted(backgrounds):
+            f.write('    [BACKGROUND_%s - BACKGROUND_NEW] = "%s",\n' % (background, background))
+        f.write('};\n')
 
 def make_header(filename):
     with open(filename, 'w') as f:
