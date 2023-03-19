@@ -16,6 +16,12 @@
 #include "constants/videoalloc_global.h"
 #include "constants/faces.h"
 #include "facesNew.h"
+#include "background.h"
+#include "backgrounds.h"
+#include "event.h"
+#include "debugtext.h"
+#include "debugtextNew.h"
+#include "utilNew.h"
 
 #include "log.h"
 
@@ -482,4 +488,108 @@ const char * GetFaceName(int fid)
 bool hasChibiFace(int fid)
 {
     return IsNewFace(fid) ? GetFaceInfoNew(fid)->img_chibi : GetFaceInfo(fid)->img_chibi;
+}
+
+void PrintFaceDebugInfo(int face_id, int background_id)
+{
+    DebugInitObj(0, 0);
+
+    DebugPutObjFmt(0, 0, "BG:%d", background_id);
+    DebugPutObjStr(0, 8, GetBackgroundName(background_id));
+    DebugPutObjFmt(0, 16, "Face:%xh", face_id);
+    DebugPutObjStr(0, 24, GetFaceName(face_id));
+}
+
+void FaceDebug_OnInit(struct GenericProc * proc)
+{
+    int face_id = FID_NEW + 1;
+    int background_id = BACKGROUND_NEW;
+
+    proc->x = face_id;
+    proc->y = background_id;
+
+    PrintFaceDebugInfo(face_id, background_id);
+
+    DisplayBackground(background_id);
+    proc->ptr = StartFace(0, face_id, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+}
+
+void FaceDebug_OnIdle(struct GenericProc * proc)
+{
+    int face_id = proc->x;
+    int background_id = proc->y;
+
+    if (gKeySt->pressed & KEY_BUTTON_SELECT)
+    {
+        Proc_Break(proc);
+        return;
+    }
+
+    if (gKeySt->repeated & KEY_DPAD_UP)
+        face_id++;
+
+    if (gKeySt->repeated & KEY_DPAD_DOWN)
+        face_id--;
+
+    if (gKeySt->repeated & KEY_DPAD_RIGHT)
+        face_id += 0x10;
+
+    if (gKeySt->repeated & KEY_DPAD_LEFT)
+        face_id -= 0x10;
+
+    if (gKeySt->repeated & KEY_BUTTON_R)
+        background_id++;
+
+    if (gKeySt->repeated & KEY_BUTTON_L)
+        background_id--;
+
+    if (gKeySt->repeated & KEY_BUTTON_A)
+        background_id += 10;
+
+    if (gKeySt->repeated & KEY_BUTTON_B)
+        background_id -= 10;
+
+    face_id = max(FID_NEW + 1, min(face_id, FID_LAST));
+
+    if (background_id < BACKGROUND_0)
+        background_id = BACKGROUND_LAST;
+
+    if (background_id > BACKGROUND_LAST)
+        background_id = BACKGROUND_0;
+
+    PrintFaceDebugInfo(face_id, background_id);
+
+    if (face_id != proc->x || background_id != proc->y)
+    {
+
+        if (background_id != proc->y)
+            DisplayBackground(background_id);
+
+        // DisplayBackground will clear face so we always need to redraw it
+        // if (face_id != proc->x)
+        {
+            EndFace(proc->ptr);
+            proc->ptr = StartFace(0, face_id, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+        }
+
+        proc->x = face_id;
+        proc->y = background_id;
+    }
+}
+
+struct ProcScr const ProcScr_FaceDebug[] =
+{
+    PROC_CALL(LockGame),
+    PROC_SLEEP(1),
+
+    PROC_CALL(FaceDebug_OnInit),
+    PROC_REPEAT(FaceDebug_OnIdle),
+
+    PROC_CALL(UnlockGame),
+    PROC_END,
+};
+
+void StartFaceDebug(void)
+{
+    SpawnProc(ProcScr_FaceDebug, PROC_TREE_3);
 }

@@ -56,3 +56,15 @@ void DebugPrintFmtNew(char const * fmt, ...)
 
     DebugPrintStr(buffer);
 }
+
+void DebugPutObjFmt(int x, int y, char const * fmt, ...)
+{
+    char buffer[0x100];
+    va_list args;
+
+    va_start(args, fmt);
+    vsprintf(buffer, fmt, args);
+    va_end(args);
+
+    DebugPutObjStr(x, y, buffer);
+}

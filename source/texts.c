@@ -22415,14 +22415,20 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3735] = {
         [LANGUAGE_JAPANESE] = "　文字列テスト",
-        [LANGUAGE_ENGLISH] = "    Test Text",
+        [LANGUAGE_ENGLISH] = "    Test Texts",
         [LANGUAGE_CHINESE] = "  测试文本",
     },
 
     [3736] = {
         [LANGUAGE_JAPANESE] = "　キャラクターテスト",
-        [LANGUAGE_ENGLISH] = "    Test Character",
+        [LANGUAGE_ENGLISH] = "    Test Characters",
         [LANGUAGE_CHINESE] = "  测试人物",
+    },
+
+    [3737] = {
+        [LANGUAGE_JAPANESE] = "　顔画像テスト",
+        [LANGUAGE_ENGLISH] = "    Test Portraits",
+        [LANGUAGE_CHINESE] = "  测试头像",
     },
 
     [TEXT_ID_TEST] = {

@@ -23,6 +23,7 @@
 #include "debugtext.h"
 #include "text.h"
 #include "face.h"
+#include "faceNew.h"
 #include "gamecontroller.h"
 #include "bm.h"
 #include "unit.h"
@@ -111,6 +112,17 @@ fu8 DebugVoice(struct MenuProc * menu, struct MenuEntProc * ent)
     return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
 }
 
+fu8 DebugFace(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    FreezeMenu();
+    EndMuralBackground();
+    DebugScreenInit();
+    DebugInitObj(-1, 9);
+    StartFaceDebug();
+
+    return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
+}
+
 struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
 {
     {
@@ -147,6 +159,12 @@ struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
         .label = (const char *)3736, // キャラクターテスト
         .available = MenuEntryEnabled,
         .on_select = DebugVoice,
+    },
+
+    {
+        .label = (const char *)3737, // 顔画像テスト
+        .available = MenuEntryEnabled,
+        .on_select = DebugFace,
     },
 
     { 0 }, // end

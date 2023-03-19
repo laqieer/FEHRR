@@ -169,13 +169,15 @@ def make_header(filename):
         f.write('\n')
         f.write('enum {\n')
         f.write('    FID_NEW = 0x100,\n')
-        for face, id in face_ids.items():
-            id += 0x100
+        for face in faces:
+            id = face_ids[face] + 0x100
             f.write('    FID_%s = 0x%x,\n' % (face, id))
         f.write('};\n')
         f.write('\n')
-        for face, id in face_ids.items():
-            id += 0x200
+        f.write('#define FID_LAST FID_%s\n' % faces[-1])
+        f.write('\n')
+        for face in faces:
+            id = face_ids[face] + 0x200
             f.write('#define %s "\\x%x\\x%x"\n' % (face, id & 0xff, id >> 8))
 
 def make_test_text(filename):

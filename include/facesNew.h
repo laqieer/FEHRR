@@ -466,6 +466,8 @@ enum {
     FID_ch00_43_Embla_F_Disappear = 0x2cf,
 };
 
+#define FID_LAST FID_ch00_43_Embla_F_Disappear
+
 #define ch00_01_Alfons_M_Normal "\x1\x2"
 #define ch00_02_Sharon_F_Normal "\x2\x2"
 #define ch00_03_Anna_F_Normal "\x3\x2"
