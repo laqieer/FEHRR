@@ -59,6 +59,11 @@ def make_heroes(filename):
             f.write('    },\n')
             f.write('\n')
         f.write('};\n')
+        f.write('\n')
+        f.write('const char * const hero_names[] = {\n')
+        for hero in hero_ids:
+            f.write('    [%s - 1] = "%s",\n' % (hero, hero))
+        f.write('};\n')
 
 def main():
     load_hero_ids('include/heroes.h')

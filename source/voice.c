@@ -12,6 +12,7 @@
 #include "debugtextNew.h"
 
 #include "utilNew.h"
+#include "hero.h"
 #include "heroes.h"
 #include "backgrounds.h"
 
@@ -94,6 +95,7 @@ void VoiceDebug_OnInit(struct GenericProc * proc)
     proc->y = voice_type;
     proc->unk34 = level;
 
+    Infof("hero_id: %d, id_tag: %s", hero_id, GetHeroName(hero_id));
     PrintCharacterDebugInfo(hero_id, voice_type, level);
 
     StartVoice(GetVoiceId(hero_id, voice_type));
@@ -142,6 +144,8 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
 
     if (hero_id != proc->x)
     {
+        Infof("hero_id: %d, id_tag: %s", hero_id, GetHeroName(hero_id));
+
         proc->x = hero_id;
 
         EndFaceById(0);
