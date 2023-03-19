@@ -22420,9 +22420,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3736] = {
-        [LANGUAGE_JAPANESE] = "　キャラクターボイス",
-        [LANGUAGE_ENGLISH] = "    Character Voice",
-        [LANGUAGE_CHINESE] = "  角色语音",
+        [LANGUAGE_JAPANESE] = "　キャラクターテスト",
+        [LANGUAGE_ENGLISH] = "    Test Character",
+        [LANGUAGE_CHINESE] = "  测试人物",
     },
 
     [TEXT_ID_TEST] = {

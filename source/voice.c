@@ -8,6 +8,7 @@
 #include "hardware.h"
 #include "event.h"
 #include "debugtext.h"
+#include "debugtextNew.h"
 
 #include "utilNew.h"
 #include "heroes.h"
@@ -53,27 +54,52 @@ void VoiceDebug_SetBackground(struct GenericProc * proc)
     DisplayBackground(BACKGROUND_0);
 }
 
+void PrintCharacterDebugInfo(int hero_id, int voice_type, int level)
+{
+    DebugScreenInit();
+
+    PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 4), 0x270, 2, 0);
+
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 0), "PID: %d", hero_id);
+    DebugPutStr(gBg2Tm + TM_OFFSET(0, 1), GetFaceName(GetPInfo(hero_id)->fid));
+    DebugPutStr(gBg2Tm + TM_OFFSET(0, 2), GetVoiceName(GetVoiceId(hero_id, voice_type)));
+
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 9), "LV %d", level);
+    int hp = GetPInfo(hero_id)->base_hp + GetPInfo(hero_id)->growth_hp * (level - 1) / 100;
+    int pow = GetPInfo(hero_id)->base_pow + GetPInfo(hero_id)->growth_pow * (level - 1) / 100;
+    int spd = GetPInfo(hero_id)->base_spd + GetPInfo(hero_id)->growth_spd * (level - 1) / 100;
+    int def = GetPInfo(hero_id)->base_def + GetPInfo(hero_id)->growth_def * (level - 1) / 100;
+    int res = GetPInfo(hero_id)->base_res + GetPInfo(hero_id)->growth_res * (level - 1) / 100;
+    int total = hp + pow + spd + def + res;
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 11), "HP  %d", hp);
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 12), "POW %d", pow);
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 13), "SPD %d", spd);
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 14), "DEF %d", def);
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 15), "RES %d", res);
+    DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 17), "TOTAL %d", total);
+}
+
 void VoiceDebug_OnInit(struct GenericProc * proc)
 {
     int hero_id = 1;
     int voice_type = 0;
+    int level = 1;
 
     proc->x = hero_id;
     proc->y = voice_type;
+    proc->unk34 = level;
 
-    DebugScreenInit();
-    DebugPutStr(gBg2Tm + TM_OFFSET(0, 0), GetFaceName(GetPInfo(hero_id)->fid));
-    DebugPutStr(gBg2Tm + TM_OFFSET(0, 2), GetVoiceName(GetVoiceId(hero_id, voice_type)));
+    PrintCharacterDebugInfo(hero_id, voice_type, level);
 
     StartVoice(GetVoiceId(hero_id, voice_type));
-    StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
-    PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 4), 0x270, 2, 0);
+    StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
 }
 
 void VoiceDebug_OnIdle(struct GenericProc * proc)
 {
     int hero_id = proc->x;
     int voice_type = proc->y;
+    int level = proc->unk34;
 
     if (gKeySt->pressed & KEY_BUTTON_SELECT)
     {
@@ -81,17 +107,23 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
         return;
     }
 
-    if (gKeySt->repeated & KEY_DPAD_UP)
+    if (gKeySt->repeated & KEY_DPAD_RIGHT)
         hero_id++;
 
-    if (gKeySt->repeated & KEY_DPAD_DOWN)
+    if (gKeySt->repeated & KEY_DPAD_LEFT)
         hero_id--;
 
-    if (gKeySt->repeated & KEY_DPAD_RIGHT)
+    if (gKeySt->repeated & KEY_BUTTON_R)
         voice_type++;
 
-    if (gKeySt->repeated & KEY_DPAD_LEFT)
+    if (gKeySt->repeated & KEY_BUTTON_L)
         voice_type--;
+
+    if (gKeySt->repeated & KEY_DPAD_UP)
+        level++;
+
+    if (gKeySt->repeated & KEY_DPAD_DOWN)
+        level--;
 
     hero_id = max(1, min(hero_id, HERO_NUM));
 
@@ -101,24 +133,33 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
     if (voice_type >= VOICE_NUM)
         voice_type = 0;
 
+    level = max(1, min(level, UNIT_LEVEL_MAX * 2));
+
     if (hero_id != proc->x)
     {
+        proc->x = hero_id;
+
         EndFaceById(0);
-        StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
-        PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 0), 0x270, 2, 0);
+        StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+
+        PrintCharacterDebugInfo(hero_id, voice_type, level);
+        StartVoice(GetVoiceId(hero_id, voice_type));
+        return;
     }
 
-    if (hero_id != proc->x || voice_type != proc->y)
+    if (level != proc->unk34)
     {
-        proc->x = hero_id;
+        proc->unk34 = level;
+
+        PrintCharacterDebugInfo(hero_id, voice_type, level);
+    }
+
+    if (voice_type != proc->y)
+    {
         proc->y = voice_type;
 
-        DebugScreenInit();
-        DebugPutStr(gBg2Tm + TM_OFFSET(0, 0), GetFaceName(GetPInfo(hero_id)->fid));
-        DebugPutStr(gBg2Tm + TM_OFFSET(0, 2), GetVoiceName(GetVoiceId(hero_id, voice_type)));
-
+        PrintCharacterDebugInfo(hero_id, voice_type, level);
         StartVoice(GetVoiceId(hero_id, voice_type));
-        PutFaceChibi(GetPInfo(hero_id)->fid, gBg2Tm + TM_OFFSET(0, 4), 0x270, 2, 0);
         return;
     }
 
