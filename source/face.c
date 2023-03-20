@@ -167,6 +167,9 @@ struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)
     {
         struct FaceInfoNew const * info = GetFaceInfoNew(fid);
 
+        if (info == NULL || info->img == NULL || info->pal == NULL)
+            return NULL;
+
         sFaceConfig[slot].chr_off = 0x3000;
         sFaceConfig[slot].palid = OBJPAL_FACE_NEW;
 
@@ -177,6 +180,9 @@ struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)
     else
     {
         struct FaceInfo const * info = GetFaceInfo(fid);
+
+        if (info == NULL || info->img == NULL || info->pal == NULL)
+            return NULL;
 
         Decompress(info->img, (u8 *) VRAM + 0x10000 + sFaceConfig[slot].chr_off);
         ApplyPalette(info->pal, 0x10 + sFaceConfig[slot].palid);
@@ -260,6 +266,9 @@ void UnpackFaceGraphicsNew(int fid, int chr, int pal)
 
     struct FaceInfoNew const * info = GetFaceInfoNew(fid);
 
+    if (info == NULL || info->img == NULL || info->pal == NULL)
+        return;
+
     Decompress(info->img, (u8 *) VRAM + chr * CHR_SIZE);
     FixTilesPal((vu16 *) (VRAM + chr * CHR_SIZE), NEW_FULL_FACE_WIDTH * NEW_FULL_FACE_HEIGHT, pal);
     // ApplyPalette(info->pal, pal);
@@ -297,6 +306,9 @@ void UnpackFaceChibiGraphicsNew(int fid, int chr, int pal)
 
     struct FaceInfoNew const * info = GetFaceInfoNew(fid);
 
+    if (info == NULL || info->img_chibi == NULL || info->pal_chibi == NULL)
+        return;
+
     RegisterVramMove(info->img_chibi, VRAM + chr * CHR_SIZE, 0x10 * CHR_SIZE);
     // Decompress(info->img_chibi, (u8 *) VRAM + chr * CHR_SIZE); // if compressed
     ApplyPalette(info->pal_chibi, pal);
@@ -326,6 +338,9 @@ void UnpackFaceChibiSprGraphicsNew(int fid, int chr, int pal)
     {
         struct FaceInfoNew const * info = GetFaceInfoNew(fid);
 
+        if (info == NULL || info->img_chibi == NULL || info->pal_chibi == NULL)
+            return;
+
         // it doesn't work if compressed
         RegisterVramMove(info->img_chibi + CHR_SIZE * 0,  (chr + 0x00) * CHR_SIZE, 4 * CHR_SIZE);
         RegisterVramMove(info->img_chibi + CHR_SIZE * 4,  (chr + 0x20) * CHR_SIZE, 4 * CHR_SIZE);
@@ -349,6 +364,9 @@ void UnpackFaceChibiSprGraphicsNew(int fid, int chr, int pal)
     else
     {
         struct FaceInfo const * info = GetFaceInfo(fid);
+
+        if (info == NULL || info->img_chibi == NULL || info->pal == NULL)
+            return;
 
         RegisterVramMove(info->img_chibi + CHR_SIZE * 0,  (chr + 0x00) * CHR_SIZE, 4 * CHR_SIZE);
         RegisterVramMove(info->img_chibi + CHR_SIZE * 4,  (chr + 0x20) * CHR_SIZE, 4 * CHR_SIZE);
@@ -377,6 +395,9 @@ void PutFace80x72New(u16 * tm, int fid, int chr, int pal) // hackbox
 
         struct FaceInfoNew const * info = GetFaceInfoNew(fid);
 
+        if (info == NULL || info->img == NULL || info->pal == NULL)
+            return;
+
         Decompress(info->img, (u8 *) VRAM + chr * CHR_SIZE);
 
         if (info->img_chibi != NULL && info->pal_chibi != NULL)
@@ -398,6 +419,9 @@ void PutFace80x72New(u16 * tm, int fid, int chr, int pal) // hackbox
     }
 
     struct FaceInfo const * info = GetFaceInfo(fid);
+
+    if (info == NULL || info->img == NULL || info->pal == NULL)
+        return;
 
     Decompress(info->img, (u8 *) VRAM + chr * CHR_SIZE);
     ApplyPalette(info->pal, pal);
