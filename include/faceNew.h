@@ -39,8 +39,12 @@ enum {
     BGPAL_FACE_NEW = 10,
 };
 
+enum { FID_LAST_OLD = 0xE6 };
+
 #define NEW_FULL_FACE_WIDTH 128
 #define NEW_FULL_FACE_HEIGHT 128
+#define OLD_FULL_FACE_WIDTH 96
+#define OLD_FULL_FACE_HEIGHT 80
 
 void StartFaceFadeInNew(struct FaceProcNew * proc);
 void StartFaceFadeOutNew(struct FaceProcNew * proc);

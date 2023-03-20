@@ -181,7 +181,7 @@ struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)
     {
         struct FaceInfo const * info = GetFaceInfo(fid);
 
-        if (info == NULL || info->img == NULL || info->pal == NULL)
+        if (info == NULL || info->img == NULL || info->pal == NULL || info->x_mouth == 0 || info->y_mouth == 0)
             return NULL;
 
         Decompress(info->img, (u8 *) VRAM + 0x10000 + sFaceConfig[slot].chr_off);
@@ -505,8 +505,7 @@ void StartFaceFadeOutNew(struct FaceProcNew * proc)
 
 const char * GetFaceName(int fid)
 {
-    Assert(IsNewFace(fid));
-    return face_names[fid - FID_NEW];
+    return IsNewFace(fid) ? face_names[fid - FID_NEW] : "";
 }
 
 bool hasChibiFace(int fid)
@@ -575,7 +574,13 @@ void FaceDebug_OnIdle(struct GenericProc * proc)
     if (gKeySt->repeated & KEY_BUTTON_B)
         background_id -= 10;
 
-    face_id = max(FID_NEW + 1, min(face_id, FID_LAST));
+    if (face_id <= FID_NEW && proc->x > FID_NEW)
+        face_id = FID_LAST_OLD;
+
+    if (face_id > FID_LAST_OLD && proc->x <= FID_LAST_OLD)
+        face_id = FID_NEW + 1;
+
+    face_id = max(FID_1, min(face_id, FID_LAST));
 
     if (background_id < BACKGROUND_0)
         background_id = BACKGROUND_LAST;
@@ -596,7 +601,7 @@ void FaceDebug_OnIdle(struct GenericProc * proc)
         {
             EndFaceChibiSpr();
             EndFace(proc->ptr);
-            proc->ptr = StartFace(0, face_id, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+            proc->ptr = StartFace(0, face_id, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - (IsNewFace(face_id) ? NEW_FULL_FACE_HEIGHT : OLD_FULL_FACE_HEIGHT), FACE_96x80);
             if (hasChibiFace(face_id))
                 StartFaceChibiStr(DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH - 32, 32, face_id, 64, 1, FALSE, proc->ptr);
         }
