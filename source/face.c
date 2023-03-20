@@ -512,6 +512,8 @@ void FaceDebug_OnInit(struct GenericProc * proc)
 
     DisplayBackground(background_id);
     proc->ptr = StartFace(0, face_id, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+    if (hasChibiFace(face_id))
+        StartFaceChibiStr(DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH - 32, 32, face_id, 64, 1, FALSE, proc->ptr);
 }
 
 void FaceDebug_OnIdle(struct GenericProc * proc)
@@ -568,8 +570,11 @@ void FaceDebug_OnIdle(struct GenericProc * proc)
         // DisplayBackground will clear face so we always need to redraw it
         // if (face_id != proc->x)
         {
+            EndFaceChibiSpr();
             EndFace(proc->ptr);
             proc->ptr = StartFace(0, face_id, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+            if (hasChibiFace(face_id))
+                StartFaceChibiStr(DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH - 32, 32, face_id, 64, 1, FALSE, proc->ptr);
         }
 
         proc->x = face_id;
