@@ -119,8 +119,6 @@ void Face_OnIdleNew(struct FaceProcNew * proc)
     if (IsNewFace(proc->fid))
         oam0 += OAM0_256COLORS;
 
-    LogDebugf("oam0 = 0x%x", oam0);
-
     PutSpriteExt(proc->sprite_layer, OAM1_X(proc->x_disp), oam0, proc->sprite, proc->oam2);
 
     if (!IsNewFace(proc->fid))

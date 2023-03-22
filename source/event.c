@@ -17,6 +17,7 @@
 #include "msgNew.h"
 #include "util.h"
 #include "bm.h"
+#include "bmNew.h"
 #include "item.h"
 #include "unit.h"
 #include "map.h"
@@ -280,6 +281,8 @@ int EvtCmd_WmRemoveMapText(struct EventProc * proc);
 int EvtCmd_End(struct EventProc * proc);
 int EvtCmd_Kill(struct EventProc * proc);
 
+void MoveUnitFromInfo(struct UnitInfo const * info, struct Unit * unit, ProcPtr parent);
+
 extern int sUnk_085C3FD8;
 extern int sUnk_030000F0;
 
@@ -401,4 +404,136 @@ void DisplayBackgroundNew(int background)
 void DisplayBackgroundOld(int background)
 {
     DisplayBackgroundNew(background);
+}
+
+void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
+{
+    struct Unit * unit;
+
+    if (UnitInfoRequiresNoMovement(info))
+        return;
+
+    if (info->faction_id == FACTION_ID_BLUE)
+        unit = GetUnitByPid(info->pid);
+    else
+        unit = NULL;
+
+    if (!unit)
+        unit = CreateUnit(info);
+
+    if ((gPlaySt.flags & PLAY_FLAG_HARD) && info->faction_id == FACTION_ID_RED)
+        UnitApplyBonusLevels(unit, GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->hard_bonus_levels);
+
+    MoveUnitFromInfo(info, unit, parent);
+    RefreshEntityMaps();
+}
+
+void LoadUnitWrapperOld(struct UnitInfo const * info, ProcPtr parent)
+{
+    LoadUnitWrapperNew(info, parent);
+}
+
+void EventLoadUnitsAsPartyNew(struct EventProc * proc)
+{
+    struct UnitInfo const * info = proc->unit_info;
+
+    int id;
+    struct Unit * unit;
+
+    int blueCount = 0;
+
+    FOR_UNITS_FACTION(FACTION_BLUE, unit,
+    {
+        if (unit->flags & UNIT_FLAG_DEAD)
+            continue;
+
+        blueCount++;
+    })
+
+    if (blueCount > 0 && GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->has_prep)
+        return;
+
+    if (GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->has_prep)
+    {
+        FOR_UNITS_FACTION(FACTION_BLUE, unit,
+        {
+            if (unit->flags & UNIT_FLAG_DEAD)
+                continue;
+
+            unit->flags |= UNIT_FLAG_HIDDEN;
+        })
+    }
+    else
+    {
+        FOR_UNITS_FACTION(FACTION_BLUE, unit,
+        {
+            if (unit->flags & UNIT_FLAG_DEAD)
+                continue;
+
+            unit->flags |= UNIT_FLAG_HIDDEN;
+            unit->flags &= ~UNIT_FLAG_NOT_DEPLOYED;
+        })
+    }
+
+    id = 0;
+
+    while (info->pid != 0)
+    {
+        id = GetNextAvailableBlueUnitId(id);
+
+        if (id == 0)
+            break;
+
+        unit = GetUnit(id);
+        id++;
+
+        FakeLoadUnit(info, unit);
+
+        info++;
+    }
+
+    FOR_UNITS_FACTION(FACTION_BLUE, unit,
+    {
+        if (unit->flags & UNIT_FLAG_DEAD)
+            continue;
+
+        if (!(unit->flags & UNIT_FLAG_HIDDEN))
+            continue;
+
+        unit->flags |= UNIT_FLAG_NOT_DEPLOYED;
+    })
+
+    RefreshEntityMaps();
+    RefreshUnitSprites();
+}
+
+void EventLoadUnitsAsPartyOld(struct EventProc * proc)
+{
+    EventLoadUnitsAsPartyNew(proc);
+}
+
+int EvtCmd_SetMapNew(struct EventProc * proc)
+{
+    // script[0]: chapter
+    // script[1]: camera x
+    // script[2]: camera y
+
+    SetChapterInPlaySt(&gPlayStNew, proc->script[0]);
+
+    func_fe6_08029084();
+    CleanupUnitsBeforeChapter();
+
+    gBmSt.camera.x = GetCameraCenteredX(proc->script[1] * 16);
+    gBmSt.camera.y = GetCameraCenteredY(proc->script[2] * 16);
+
+    RefreshEntityMaps();
+    RenderMap();
+    RefreshUnitSprites();
+
+    return EVENT_CMDRET_CONTINUE;
+}
+
+int EvtCmd_SetMapOld(struct EventProc * proc)
+{
+    return EvtCmd_SetMapNew(proc);
 }

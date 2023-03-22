@@ -3,6 +3,7 @@
 #include "hardware.h"
 #include "util.h"
 #include "bm.h"
+#include "bmNew.h"
 #include "unit.h"
 #include "chapter.h"
 #include "chapterinfo.h"
@@ -23,6 +24,18 @@ struct GameController
     /* 2E */ short clock;
 };
 
+struct GameControllerNew
+{
+    /* 00 */ PROC_HEADER;
+
+    /* 29 */ u8 nextAction;
+    /* 2A */ u8 nextChapter;
+    /* 2B */ u8 demoCnt;
+    /* 2C */ u8 previousDemoClassSet;
+    /* 2E */ short clock;
+    /* 30 */ u16 nextChapterNew;
+};
+
 bool GC_StartClassDemo(struct GameController * proc);
 void GC_CheckSramResetKeyCombo(struct GameController * proc);
 void GC_InitSramResetScreen(struct GameController * proc);
@@ -40,6 +53,8 @@ void GC_PostLoadSuspend(struct GameController * proc);
 void GC_InitNextChapter(struct GameController * proc);
 void GC_InitDemo(struct GameController * proc);
 void GC_DarkenScreen(struct GameController * proc);
+
+struct GameController * GetGameController(void);
 
 struct ProcScr const ProcScr_GameControllerNew[] =
 {
@@ -210,3 +225,110 @@ PROC_LABEL(L_GAMECTRL_SRAMRESET),
 
     PROC_END,
 };
+
+void GC_InitTutorialNew(struct GameController * proc)
+{
+    InitPlayConfig(FALSE);
+
+    gPlaySt.flags |= PLAY_FLAG_3;
+
+    ResetPermanentFlags();
+    ResetChapterFlags();
+
+    InitUnits();
+
+    SetChapterInPlaySt(&gPlayStNew, CHAPTER_TUTORIAL);
+}
+
+void GC_InitTutorialOld(struct GameController * proc)
+{
+    GC_InitTutorialNew(proc);
+}
+
+void GC_InitNextChapterNew(struct GameControllerNew * proc)
+{
+    RegisterChWinData(&gPlaySt);
+    SetChapterInPlaySt(&gPlayStNew, proc->nextChapterNew);
+
+    CleanupUnitsBeforeChapter();
+}
+
+void GC_InitNextChapterOld(struct GameControllerNew * proc)
+{
+    GC_InitNextChapterNew(proc);
+}
+
+void StartGameNew(void)
+{
+    struct GameControllerNew * proc;
+
+    SetMainFunc(OnMain);
+    SetOnVBlank(OnVBlank);
+
+    proc = SpawnProc(ProcScr_GameController, PROC_TREE_3);
+
+    proc->nextAction = GAME_ACTION_0;
+    proc->nextChapterNew = 0;
+
+    proc->demoCnt = 0;
+}
+
+void StartGameOld(void)
+{
+    StartGameNew();
+}
+
+void SetNextChapterNew(int chapter)
+{
+    struct GameControllerNew * proc = (struct GameControllerNew *)GetGameController();
+    proc->nextChapterNew = chapter;
+}
+
+void SetNextChapterOld(int chapter)
+{
+    SetNextChapterNew(chapter);
+}
+
+bool HasNextChapterNew(void)
+{
+    struct GameControllerNew * proc = (struct GameControllerNew *)GetGameController();
+    return proc->nextChapterNew == 0 ? FALSE : TRUE;
+}
+
+bool HasNextChapterOld(void)
+{
+    return HasNextChapterNew();
+}
+
+int GetFurthestSaveChapterNew(void)
+{
+    struct PlaySt playSt;
+    int i, chapter, number;
+
+    chapter = 0;
+    number = 0;
+
+    for (i = SAVE_ID_GAME0; i < SAVE_ID_GAME2 + 1; ++i)
+    {
+        if (!VerifySaveBlockInfoByIndex(i))
+            continue;
+
+        LoadPlaySt(i, &playSt);
+
+        int chapter_id = GetChapterInPlaySt((struct PlayStNew *)&playSt);
+
+        //FIXME: expand numberId
+        if (number < GetChapterInfo(chapter_id)->numberId)
+        {
+            number = GetChapterInfo(chapter_id)->numberId;
+            chapter = chapter_id;
+        }
+    }
+
+    return chapter;
+}
+
+int GetFurthestSaveChapterOld(void)
+{
+    return GetFurthestSaveChapterNew();
+}

@@ -6,3 +6,4 @@ BaseRomSpace = 0x8000000;
 AgbMainPtr = 0x8000220;
 
 SoundMainRAM_MixBuffer = SoundMainRam;
+gPlayStNew = gPlaySt;
