@@ -18,7 +18,9 @@
 #include "ui.h"
 #include "menu.h"
 #include "statscreen.h" // StartMuralBackground
-#include "save.h"
+#include "save_core.h"
+#include "save_stats.h"
+#include "save_game.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/chapters.h"
@@ -60,10 +62,10 @@ fu8 func_fe6_0801ACD8New(struct MenuProc * menu, struct MenuEntProc * ent)
 
     InitUnits();
 
-    SaveNewGame(SAVE_ID_GAME0, FALSE);
+    WriteNewGameSave(SAVE_GAME0, FALSE);
     SetChapterInPlaySt(&gPlayStNew, ent->id);
 
-    SaveGame(0);
+    WriteGameSave(SAVE_GAME0);
     CleanupUnitsBeforeChapter();
 
     RestartGameAndChapter();

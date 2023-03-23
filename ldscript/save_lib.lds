@@ -1,2 +1,2 @@
-. = RegisterChWinData - 1;
-.text.RegisterChWinDataOld : {*(.text.RegisterChWinDataOld)}
+. = RegisterChapterStats - 1;
+.text.RegisterChapterStatsOld : {*(.text.RegisterChapterStatsOld)}

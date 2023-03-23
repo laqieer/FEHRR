@@ -1,6 +1,6 @@
 #include "save.h"
+#include "save_stats.h"
 
-#include "sram.h"
 #include "gbaio.h"
 #include "util.h"
 #include "eventinfo.h"
@@ -18,26 +18,28 @@
 extern u8 gUnk_0203D524[0xA];
 extern bool gBoolSramWorking;
 extern u8 * gPidStatsSaveLoc;
-extern struct PidStats gPidStatsData[BWL_ARRAY_SIZE];
-extern struct ChWinData gChWinData[WIN_ARRAY_SIZE];
+extern struct PidStats gPidStats[PID_STATS_COUNT];
+extern struct ChapterStats gChapterStats[CHAPTER_STATS_COUNT];
 extern u8 gSuspendSlotIndex;
 
-void RegisterChWinDataNew(struct PlayStNew * playSt)
+void RegisterChapterStatsNew(struct PlayStNew * play_st)
 {
-    //FIXME: expand WIN_ARRAY_SIZE
-    struct ChWinData * winData = GetChWinData(GetFreeChWinDataIndex());
+    //FIXME: expand CHAPTER_STATS_COUNT
+    struct ChapterStats * chapter_stats = GetChapterStats(GetNextChapterStatsSlot());
 
-    int time = (GetGameTime() - playSt->unk_04) / 180;
-    if (time > 60000)
-        time = 60000;
+    int time_3s = (GetGameTime() - play_st->time_chapter_started) / (FRAMES_PER_SECOND * 3);
 
-    //FIXME: expand winData->chapter_index
-    winData->chapter_index = GetChapterInPlaySt(playSt);
-    winData->chapter_turn = playSt->turn;
-    winData->chapter_time = time;
+    // 50 hours = 50 * 60 * 20
+    if (time_3s > 50 * 60 * 20)
+        time_3s = 50 * 60 * 20;
+
+    //FIXME: expand chapter_stats->chapter_id
+    chapter_stats->chapter_id = GetChapterInPlaySt(play_st);
+    chapter_stats->chapter_turn = play_st->turn;
+    chapter_stats->chapter_time = time_3s;
 }
 
-void RegisterChWinDataOld(struct PlayStNew * playSt)
+void RegisterChapterStatsOld(struct PlayStNew * playSt)
 {
-    RegisterChWinDataNew(playSt);
+    RegisterChapterStatsNew(playSt);
 }

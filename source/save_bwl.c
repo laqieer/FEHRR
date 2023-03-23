@@ -1,6 +1,7 @@
 #include "save.h"
+#include "save_core.h"
+#include "save_stats.h"
 
-#include "sram.h"
 #include "gbaio.h"
 #include "util.h"
 #include "eventinfo.h"
@@ -17,70 +18,70 @@
 
 #include "constants/chapters.h"
 
-void PidStatsRecordDeathDataNew(u8 pid, u8 killerPid, int deathCause)
+void PidStatsSetDefeatInfoNew(fu8 pid, fu8 killer_pid, int defeat_cause)
 {
-    struct PidStats * bwl = GetPidStats(pid);
-    if (NULL ==bwl)
+    struct PidStats * stats = GetPidStats(pid);
+    if (stats == NULL)
         return;
 
-    // FIXME: expand bwl->deathCh
-    bwl->deathCh = GetChapterInPlaySt(&gPlayStNew);
-    bwl->deathTurn = gPlaySt.turn;
-    bwl->killerPid = killerPid;
-    bwl->deathCause = deathCause;
+    // FIXME: expand stats->defeat_chapter
+    stats->defeat_chapter = GetChapterInPlaySt(&gPlayStNew);
+    stats->defeat_turn = gPlaySt.turn;
+    stats->killer_pid = killer_pid;
+    stats->defeat_cause = defeat_cause;
 }
 
-void PidStatsRecordDeathDataOld(u8 pid, u8 killerPid, int deathCause)
+void PidStatsSetDefeatInfoOld(u8 pid, u8 killerPid, int deathCause)
 {
-    PidStatsRecordDeathDataNew(pid, killerPid, deathCause);
+    PidStatsSetDefeatInfoNew(pid, killerPid, deathCause);
 }
 
-void SavePlayThroughDataNew()
+void WriteCompletedPlaythroughSaveDataNew()
 {
-    int ret, difficult;
-    int mode;
     struct GlobalSaveInfo info;
+    int mode_math;
 
-    ret = LoadGlobalSaveInfo(&info);
-    if (!ret)
+    if (!ReadGlobalSaveInfo(&info))
     {
         InitGlobalSaveInfo();
-        LoadGlobalSaveInfo(&info);
+        ReadGlobalSaveInfo(&info);
     }
 
     RegisterCompletedPlaythrough(&info, gPlaySt.playthrough_id);
-    info.playedThrough = TRUE;
 
-    difficult = PLAY_FLAG_HARD & gPlaySt.flags;
-    mode = (0 != difficult) * 2;
+    info.completed = TRUE;
 
-    if (CHAPTER_UNK_19 == GetChapterInPlaySt(&gPlayStNew))
-        mode++;
+    mode_math = ((gPlaySt.flags & PLAY_FLAG_HARD) != 0) * 2;
 
-    switch (mode) {
-    case 1:
-        info.unk_0E_2 = TRUE;
-        break;
+    if (CHAPTER_FINAL == GetChapterInPlaySt(&gPlayStNew))
+        mode_math++;
 
-    case 2:
-        info.unk_0E_1 = TRUE;
-        break;
+    switch (mode_math)
+    {
+        case 1:
+            info.completed_true = TRUE;
+            break;
 
-    case 3:
-        info.unk_0E_3 = TRUE;
-        info.unk_0E_1 = TRUE;
-        info.unk_0E_2 = TRUE;
-        break;
+        case 2:
+            info.completed_hard = TRUE;
+            break;
 
-    default:
-        break;
+        case 3:
+            info.completed_true_hard = TRUE;
+            info.completed_hard = TRUE;
+            info.completed_true = TRUE;
+            break;
+
+        default:
+            break;
     }
 
-    SaveGlobalSaveInfo(&info);
+    WriteGlobalSaveInfo(&info);
+
     gPlaySt.flags |= PLAY_FLAG_COMPLETE;
 }
 
-void SavePlayThroughDataOld()
+void WriteCompletedPlaythroughSaveDataOld()
 {
-    SavePlayThroughDataNew();
+    WriteCompletedPlaythroughSaveDataNew();
 }

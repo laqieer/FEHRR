@@ -88,7 +88,7 @@ void StartChapterNew(struct GenericProc * parent)
     InitMapForChapter(GetChapterInPlaySt(&gPlayStNew));
     InitMapTraps();
 
-    gPlaySt.unk_04 = GetGameTime();
+    gPlaySt.time_chapter_started = GetGameTime();
     gPlaySt.support_gain = 0;
 
     CreateInitialRedUnits();
@@ -145,7 +145,7 @@ void ResumeChapterFromSuspendNew(struct GenericProc * parent)
     ProcPtr mapmain;
 
     if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_CH_NULL)
-        func_fe6_080866EC();
+        ReadExtraMapInfo();
 
     InitBgs(NULL);
 
@@ -162,14 +162,14 @@ void ResumeChapterFromSuspendNew(struct GenericProc * parent)
 
     InitMapForChapter(GetChapterInPlaySt(&gPlayStNew));
 
-    gBmSt.unk_3C = TRUE;
+    gBmSt.just_resumed = TRUE;
 
     mapmain = StartMapMain(parent);
 
     gBmSt.camera.x = GetCameraCenteredX(16*gBmSt.cursor.x);
     gBmSt.camera.y = GetCameraCenteredY(16*gBmSt.cursor.y);
 
-    switch (gAction.suspendPoint)
+    switch (gAction.suspend_point)
     {
 
     case SUSPEND_POINT_DURING_ACTION:
@@ -233,7 +233,7 @@ void CleanupUnitsBeforeChapterNew(void)
 
     // Cleanup blue unit states
 
-    if (GetChapterInPlaySt(&gPlayStNew) != CHAPTER_UNK_19)
+    if (GetChapterInPlaySt(&gPlayStNew) != CHAPTER_FINAL)
     {
         FOR_UNITS(FACTION_BLUE+1, FACTION_BLUE+0x40, unit,
         {

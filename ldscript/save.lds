@@ -1,2 +1,2 @@
-. = CheckSaveChunkChapterValid - 1;
-.text.CheckSaveChunkChapterValidOld : {*(.text.CheckSaveChunkChapterValidOld)}
+. = IsGameSavePastFirstChapter - 1;
+.text.IsGameSavePastFirstChapterOld : {*(.text.IsGameSavePastFirstChapterOld)}

@@ -150,9 +150,17 @@ void ChapterIntro_InitMapDisplayNew(struct GenericProc * proc)
 {
     int val;
 
-    // Use vanilla functions to set blend related IO regs due to unreliable bit-fields implementation in C
-    // Reference: https://stackoverflow.com/questions/19376426/order-of-fields-when-using-a-bit-field-in-c
-    ChapterIntro_InitMapDisplay(proc);
+    SetDispEnable(1, 1, 1, 1, 1);
+
+    SetBlendAlpha(0x10, 0);
+
+    SetBlendTargetANew(0, 1, 0, 0, 0);
+    SetBlendTargetBNew(0, 0, 0, 1, 1); SetBlendBackdropB(1);
+
+    TmFill(gBg2Tm, 0);
+    EnableBgSync(BG2_SYNC_BIT);
+
+    DisableTilesetPalAnim();
 
     int chapter = GetChapterInPlaySt(&gPlayStNew);
 

@@ -1,6 +1,7 @@
 #include "save.h"
+#include "save_core.h"
+#include "save_game.h"
 
-#include "sram.h"
 #include "gbaio.h"
 #include "util.h"
 #include "eventinfo.h"
@@ -12,22 +13,24 @@
 #include "battle.h"
 #include "chapter.h"
 
-bool CheckSaveChunkChapterValidNew(int slot)
+#include "constants/chapters.h"
+
+bool IsGameSavePastFirstChapterNew(int save_id)
 {
     struct PlaySt playSt;
 
-    if (!VerifySaveBlockInfoByIndex(slot))
+    if (!IsSaveValid(save_id))
         return FALSE;
 
-    LoadPlaySt(slot, &playSt);
+    ReadGameSavePlaySt(save_id, &playSt);
 
-    if (GetChapterInPlaySt((struct PlayStNew *)&playSt) <= 1)
+    if (GetChapterInPlaySt((struct PlayStNew *)&playSt) <= CHAPTER_CH01)
         return FALSE;
     else
         return TRUE;
 }
 
-bool CheckSaveChunkChapterValidOld(int slot)
+bool IsGameSavePastFirstChapterOld(int slot)
 {
-    return CheckSaveChunkChapterValidNew(slot);
+    return IsGameSavePastFirstChapterNew(slot);
 }

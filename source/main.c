@@ -9,7 +9,7 @@
 #include "gamecontroller.h"
 #include "bm.h"
 #include "mu.h"
-#include "save.h"
+#include "save_core.h"
 
 #include "m4a.h"
 
@@ -78,7 +78,7 @@ void AgbMainNew()
     RandInitB(0x42D690E9);
     RandInit(RandNextB());
 
-    if (!LoadGlobalSaveInfo(NULL))
+    if (!ReadGlobalSaveInfo(NULL))
         InitGlobalSaveInfo();
 
     m4aSoundInit();

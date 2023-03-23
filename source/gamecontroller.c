@@ -10,6 +10,8 @@
 #include "ui.h"
 #include "eventinfo.h"
 #include "statscreen.h"
+#include "save_stats.h"
+#include "save_game.h"
 
 #include "constants/chapters.h"
 
@@ -45,7 +47,7 @@ void GC_PostIntro(struct GameController * proc);
 void GC_PostDemo(struct GameController * proc);
 void GC_PostMainMenu(struct GameController * proc);
 void GC_InitTutorial(struct GameController * proc);
-void GC_InitTrialMap(struct GameController * proc);
+void GC_InitTrialChapter(struct GameController * proc);
 void GC_ClearSuspend(struct GameController * proc);
 void GC_PostChapter(struct GameController * proc);
 void GC_CheckForGameEnded(struct GameController * proc);
@@ -158,7 +160,7 @@ PROC_LABEL(L_GAMECTRL_LOADSUSPEND),
     PROC_GOTO(L_GAMECTRL_POSTCHAPTER),
 
 PROC_LABEL(L_GAMECTRL_TRIAL),
-    PROC_CALL(GC_InitTrialMap),
+    PROC_CALL(GC_InitTrialChapter),
 
     PROC_CALL(StartChapter),
 
@@ -230,7 +232,7 @@ void GC_InitTutorialNew(struct GameController * proc)
 {
     InitPlayConfig(FALSE);
 
-    gPlaySt.flags |= PLAY_FLAG_3;
+    gPlaySt.flags |= PLAY_FLAG_TUTORIAL;
 
     ResetPermanentFlags();
     ResetChapterFlags();
@@ -247,7 +249,7 @@ void GC_InitTutorialOld(struct GameController * proc)
 
 void GC_InitNextChapterNew(struct GameControllerNew * proc)
 {
-    RegisterChWinData(&gPlaySt);
+    RegisterChapterStats(&gPlaySt);
     SetChapterInPlaySt(&gPlayStNew, proc->nextChapterNew);
 
     CleanupUnitsBeforeChapter();
@@ -308,12 +310,12 @@ int GetFurthestSaveChapterNew(void)
     chapter = 0;
     number = 0;
 
-    for (i = SAVE_ID_GAME0; i < SAVE_ID_GAME2 + 1; ++i)
+    for (i = SAVE_GAME0; i < SAVE_GAME2 + 1; ++i)
     {
-        if (!VerifySaveBlockInfoByIndex(i))
+        if (!IsSaveValid(i))
             continue;
 
-        LoadPlaySt(i, &playSt);
+        ReadGameSavePlaySt(i, &playSt);
 
         int chapter_id = GetChapterInPlaySt((struct PlayStNew *)&playSt);
 

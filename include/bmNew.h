@@ -5,8 +5,8 @@
 
 struct PlayStNew
 {
-    /* 00 */ u32 unk_00; // a time value
-    /* 04 */ u32 unk_04; // a time value
+    /* 00 */ u32 time_saved; // a time value
+    /* 04 */ u32 time_chapter_started; // a time value
 
     /* 08 */ int gold;
     /* 0C */ u8 save_slot;

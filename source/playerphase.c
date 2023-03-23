@@ -22,6 +22,7 @@
 #include "eventinfo.h"
 #include "statscreen.h"
 #include "save.h"
+#include "save_stats.h"
 #include "utilNew.h"
 
 #include "constants/videoalloc_global.h"
@@ -94,7 +95,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
 
             case PLAYER_SELECT_CONTROL:
                 UnitBeginAction(unit);
-                PidStatsAddActAmt(gActiveUnit->pinfo->id);
+                PidStatsAddAct(gActiveUnit->pinfo->id);
 
                 Proc_Break(proc);
 
@@ -195,7 +196,7 @@ void LimitView_InitNew(struct GenericProc * proc)
     case CHAPTER_UNK_08:
     case CHAPTER_UNK_10:
     case CHAPTER_UNK_18:
-    case CHAPTER_UNK_19:
+    case CHAPTER_FINAL:
     case CHAPTER_UNK_20:
     case CHAPTER_UNK_22:
     case CHAPTER_UNK_24:

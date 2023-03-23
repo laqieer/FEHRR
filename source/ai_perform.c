@@ -70,7 +70,7 @@ void AiEndMuAndRefreshUnitsNew(void)
         RefreshEntityMaps();
     }
 
-    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_UNK_19 && CheckAvailableVictoryEvent())
+    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_FINAL && CheckAvailableVictoryEvent())
         StartAvailableVictoryEvent();
 
     EndAllMus();

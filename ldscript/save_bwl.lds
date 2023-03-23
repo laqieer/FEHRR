@@ -1,4 +1,4 @@
-. = PidStatsRecordDeathData - 1;
-.text.PidStatsRecordDeathDataOld : {*(.text.PidStatsRecordDeathDataOld)}
-. = SavePlayThroughData - 1;
-.text.SavePlayThroughDataOld : {*(.text.SavePlayThroughDataOld)}
+. = PidStatsSetDefeatInfo - 1;
+.text.PidStatsSetDefeatInfoOld : {*(.text.PidStatsSetDefeatInfoOld)}
+. = WriteCompletedPlaythroughSaveData - 1;
+.text.WriteCompletedPlaythroughSaveDataOld : {*(.text.WriteCompletedPlaythroughSaveDataOld)}
