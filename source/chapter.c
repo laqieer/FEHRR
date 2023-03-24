@@ -19,11 +19,9 @@
 #include "eventinfo.h"
 #include "save.h"
 #include "utilNew.h"
+#include "chapterNew.h"
 
 #include "constants/chapters.h"
-
-#define CHAPTER_CH_1st CHAPTER_CH01
-#define CHAPTER_CH_NULL 0xFFFF
 
 void ResumeMapMainDuringPhase(ProcPtr mapmain);
 void ResumeMapMainDuringAction(ProcPtr mapmain);

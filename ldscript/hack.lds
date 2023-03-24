@@ -17,6 +17,7 @@ INCLUDE ../ldscript/bm.lds
 INCLUDE ../ldscript/bmfx.lds
 INCLUDE ../ldscript/bmio.lds
 INCLUDE ../ldscript/chapter.lds
+INCLUDE ../ldscript/chapterinfo.lds
 INCLUDE ../ldscript/debugmenu.lds
 INCLUDE ../ldscript/eventfunctions.lds
 INCLUDE ../ldscript/eventinfo.lds
