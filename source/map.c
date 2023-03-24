@@ -11,6 +11,7 @@
 #include "faction.h"
 #include "trap.h"
 #include "chapterinfo.h"
+#include "chapterNew.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/chapters.h"
@@ -94,9 +95,62 @@ void func_fe6_080188F4Old(void)
     func_fe6_080188F4New();
 }
 
+void UnpackRawMapNew(void * buf, int chapter)
+{
+    // Decompress map data
+    Decompress(GetChapterMap(chapter), buf);
+
+    // Setting map size
+    gMapSize.x = ((u8 *) buf)[0];
+    gMapSize.y = ((u8 *) buf)[1];
+
+    // Decompress tileset info
+    Decompress(IsChapterNew(chapter) ? ChapterMapTilesets[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfo(chapter)->asset_tileset], sTilesetInfo);
+
+    // Setting max camera offsets
+    gBmSt.camera_max.x = gMapSize.x*16 - DISPLAY_WIDTH;
+    gBmSt.camera_max.y = gMapSize.y*16 - DISPLAY_HEIGHT;
+}
+
+void UnpackRawMapOld(void * buf, int chapter)
+{
+    UnpackRawMapNew(buf, chapter);
+}
+
+void ApplyChapterMapGraphicsNew(int chapter)
+{
+    // Decompress tileset graphics (part 1)
+    Decompress(
+        IsChapterNew(chapter) ?
+        ChapterMapGraphics[chapter - CHAPTER_CH_NEW] :
+        ChapterAssets[GetChapterInfo(chapter)->asset_img_a],
+        (void *) BG_VRAM + CHR_SIZE * BGCHR_TILESET_A);
+
+    // Decompress tileset graphics (part 2, if it exists)
+    // New chapters don't have part 2
+    if (ChapterAssets[GetChapterInfo(chapter)->asset_img_b])
+        Decompress(
+            ChapterAssets[GetChapterInfo(chapter)->asset_img_b],
+            (void *) BG_VRAM + CHR_SIZE * BGCHR_TILESET_B);
+
+    // Apply tileset palette
+    ApplyPalettes(
+        IsChapterNew(chapter) ?
+        ChapterMapPalettes[chapter - CHAPTER_CH_NEW] :
+        ChapterAssets[GetChapterInfo(chapter)->asset_pal],
+        BGPAL_TILESET, 10);
+}
+
+void ApplyChapterMapGraphicsOld(int chapter)
+{
+    ApplyChapterMapGraphicsNew(chapter);
+}
+
 void ApplyChapterMapPalettesNew(void)
 {
-    ApplyPalettes(ChapterAssets[GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->asset_pal], BGPAL_TILESET, 10);
+    int chapter = GetChapterInPlaySt(&gPlayStNew);
+
+    ApplyPalettes(IsChapterNew(chapter) ? ChapterMapPalettes[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfo(chapter)->asset_pal], BGPAL_TILESET, 10);
 }
 
 void ApplyChapterMapPalettesOld(void)

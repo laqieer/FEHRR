@@ -29,7 +29,7 @@ struct ChapterInfo const * GetChapterInfoOld(int chapter)
 u8 const * GetChapterMapNew(int chapter)
 {
     if (chapter != CHAPTER_CH_NULL)
-        return ChapterAssets[GetChapterInfoNew(chapter)->asset_map];
+        return IsChapterNew(chapter) ? ChapterMaps[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfoNew(chapter)->asset_map];
 
     ReadSramFast(GetExtraMapMapReadAddr(), gBuf, GetExtraMapMapSize());
     return gBuf;
@@ -43,7 +43,7 @@ u8 const * GetChapterMapOld(int chapter)
 struct MapChangeInfo const * GetChapterMapChangesNew(int chapter)
 {
     if (chapter != CHAPTER_CH_NULL)
-        return ChapterAssets[GetChapterInfoNew(chapter)->asset_map_changes];
+        return IsChapterNew(chapter) ? ChapterMapChanges[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfoNew(chapter)->asset_map_changes];
 
     return gExtraMapInfo->map_change_info;
 }
@@ -56,7 +56,7 @@ struct MapChangeInfo const * GetChapterMapChangesOld(int chapter)
 struct ChapterEventInfo const * GetChapterEventInfoNew(int chapter)
 {
     if (chapter != CHAPTER_CH_NULL)
-        return ChapterAssets[GetChapterInfoNew(chapter)->asset_event_info];
+        return IsChapterNew(chapter) ? ChapterEvents[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfoNew(chapter)->asset_event_info];
 
     return gExtraMapInfo->event_info;
 }

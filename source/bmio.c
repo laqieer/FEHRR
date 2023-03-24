@@ -13,7 +13,9 @@
 #include "map.h"
 #include "unitsprite.h"
 #include "chapterinfo.h"
+#include "chapterNew.h"
 
+#include "constants/chapters.h"
 #include "constants/videoalloc_global.h"
 
 struct TsImgAnim
@@ -89,11 +91,21 @@ void BmVSync_AnimInitNew(struct BmVSyncProc * proc)
     proc->imgAnimClock = 0;
     proc->palAnimClock = 0;
 
+    int chapter = GetChapterInPlaySt(&gPlayStNew);
+
     proc->imgAnimStart = proc->imgAnimCurrent =
-        ChapterAssets[GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->asset_img_anims];
+#ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
+        IsChapterNew(chapter) ?
+        ChapterMapGraphicAnimations[chapter - CHAPTER_CH_NEW] :
+#endif
+        ChapterAssets[GetChapterInfo(chapter)->asset_img_anims];
 
     proc->palAnimStart = proc->palAnimCurrent =
-        ChapterAssets[GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->asset_pal_anims];
+#ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
+        IsChapterNew(chapter) ?
+        ChapterMapPaletteAnimations[chapter - CHAPTER_CH_NEW] :
+#endif
+        ChapterAssets[GetChapterInfo(chapter)->asset_pal_anims];
 }
 
 void BmVSync_AnimInitOld(struct BmVSyncProc * proc)
@@ -107,8 +119,14 @@ void EnableTilesetPalAnimNew(void)
 
     if (proc)
     {
+        int chapter = GetChapterInPlaySt(&gPlayStNew);
+
         proc->palAnimStart = proc->palAnimCurrent =
-            ChapterAssets[GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->asset_pal_anims];
+#ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
+            IsChapterNew(chapter) ?
+            ChapterMapPaletteAnimations[chapter - CHAPTER_CH_NEW] :
+#endif
+            ChapterAssets[GetChapterInfo(chapter)->asset_pal_anims];
     }
 }
 
