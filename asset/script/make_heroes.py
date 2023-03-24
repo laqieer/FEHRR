@@ -32,6 +32,7 @@ def load_hero_data(folder):
 def make_heroes(filename):
     with open(filename, 'w') as f:
         f.write('#include "heroes.h"\n')
+        f.write('#include "hero_jobs.h"\n')
         f.write('#include "unit.h"\n')
         f.write('#include "texts.h"\n')
         f.write('#include "facesNew.h"\n')
@@ -44,7 +45,8 @@ def make_heroes(filename):
             f.write('    [%s - 1] = {\n' % hero)
             f.write('        .id = %s,\n' % hero)
             f.write('        .unk_0A = %s,\n' % hero)
-            f.write('        .jid_default = JID_OBSTACLE,\n')
+            f.write('        .jid_default = J%s,\n' % hero[1:])
+            # print('#define J%s JID_OBSTACLE' % hero[1:])
             f.write('        .msg_name = M%s,\n' % hero)
             f.write('        .msg_desc = M%s,\n' % hero.replace('ID_', 'ID_H_'))
             f.write('        .fid = FID_%s,\n' % data['face_name'])
