@@ -29,3 +29,4 @@ INCLUDE ../ldscript/save_bwl.lds
 INCLUDE ../ldscript/save_lib.lds
 INCLUDE ../ldscript/save.lds
 INCLUDE ../ldscript/trap.lds
+INCLUDE ../ldscript/bas.lds

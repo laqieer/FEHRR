@@ -14,6 +14,8 @@
 #include "hero.h"
 #include "heroes.h"
 #include "backgrounds.h"
+#include "bas.h"
+#include "battleNew.h"
 
 #include "log.h"
 
@@ -29,6 +31,18 @@ const int VoiceChoiceRangesByType[] = {
     VOICE_ATTACK_NUM,
     VOICE_DAMAGE_NUM,
 };
+
+const char * const VoiceTypenames[] = {
+    "status",
+    "map",
+    "attack",
+    "damage",
+};
+
+const char * GetVoiceTypeName(enum VoiceType type)
+{
+    return VoiceTypenames[type];
+}
 
 int ChooseVoice(int range)
 {
@@ -69,14 +83,11 @@ void StopVoice(void)
     m4aMPlayStop(music_player_ent->music_player);
 }
 
-void StartUnitVoice(struct Unit *unit, enum VoiceType voice_type)
+void StartHeroVoice(int hero_id, enum VoiceType voice_type)
 {
-    if (unit == NULL || unit->pinfo == NULL || unit->pinfo->id == 0)
-        return;
+    Debugf("hero_id: %d %s, voice_type: %s", hero_id, GetHeroName(hero_id), GetVoiceTypeName(voice_type));
 
-    int hero_id = unit->pinfo->id;
-
-    if (hero_id >= HERO_NUM)
+    if (hero_id == 0 || hero_id >= HERO_NUM)
         return;
 
     int chosen_voice = ChooseVoice(VoiceChoiceRangesByType[voice_type]);
@@ -97,6 +108,23 @@ void StartUnitVoice(struct Unit *unit, enum VoiceType voice_type)
             break;
     }
 }
+
+void StartUnitVoice(struct Unit *unit, enum VoiceType voice_type)
+{
+    if (unit == NULL || unit->pinfo == NULL)
+        return;
+
+    StartHeroVoice(unit->pinfo->id, voice_type);
+}
+
+void StartAttackVoice(struct BaSprite * bas)
+{
+    StartHeroVoice(gBattleUnitPids[GetBasSubjectId(bas)], VOICE_TYPE_ATTACK);
+}
+
+void BasCmd07HandlerNew();
+
+void (* const pBasCmd07HandlerOld)() = BasCmd07HandlerNew;
 
 void VoiceDebug_SetBackground(struct GenericProc * proc)
 {

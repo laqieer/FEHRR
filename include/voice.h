@@ -19,17 +19,6 @@ struct Voice {
     u16 damage[VOICE_DAMAGE_NUM];
 };
 
-extern const struct Song * const voices[];
-extern const struct Voice hero_voices[];
-extern const char * const voice_names[];
-
-int GetVoiceId(int hero_id, int voice_type);
-const char * GetVoiceName(int voice_id);
-void StartVoice(int voice_id);
-void StopVoice(void);
-
-void StartVoiceDebug(void);
-
 enum VoiceType {
     VOICE_TYPE_STATUS,
     VOICE_TYPE_MAP,
@@ -37,4 +26,15 @@ enum VoiceType {
     VOICE_TYPE_DAMAGE,
 };
 
+extern const struct Song * const voices[];
+extern const struct Voice hero_voices[];
+extern const char * const voice_names[];
+
+int GetVoiceId(int hero_id, int voice_type);
+const char * GetVoiceName(int voice_id);
+const char * GetVoiceTypeName(enum VoiceType type);
+void StartVoice(int voice_id);
+void StartHeroVoice(int hero_id, enum VoiceType voice_type);
 void StartUnitVoice(struct Unit *unit, enum VoiceType voice_type);
+void StartVoiceDebug(void);
+void StopVoice(void);
