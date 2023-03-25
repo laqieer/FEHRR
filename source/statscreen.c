@@ -214,10 +214,7 @@ void StatScreen_InitUnitNew(ProcPtr proc)
 
     EnableBgSync(BG0_SYNC_BIT + BG1_SYNC_BIT + BG2_SYNC_BIT);
 
-    if (gStatScreenSt.unit && gStatScreenSt.unit->pinfo && gStatScreenSt.unit->pinfo->id && gStatScreenSt.unit->pinfo->id <= HERO_NUM)
-    {
-        StartVoice(hero_voices[gStatScreenSt.unit->pinfo->id].status[0]);
-    }
+    StartUnitVoice(gStatScreenSt.unit, VOICE_TYPE_STATUS);
 }
 
 void StatScreen_InitUnitOld(ProcPtr proc)

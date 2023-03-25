@@ -3,11 +3,14 @@
 #include <gba_types.h>
 
 #include "m4a.h"
+#include "unit.h"
 
 #define VOICE_STATUS_NUM 1
 #define VOICE_MAP_NUM 3
 #define VOICE_ATTACK_NUM 2
 #define VOICE_DAMAGE_NUM 2
+
+#define VOICE_DAMAGE_THRESHOLD 4
 
 struct Voice {
     u16 status[VOICE_STATUS_NUM];
@@ -26,3 +29,12 @@ void StartVoice(int voice_id);
 void StopVoice(void);
 
 void StartVoiceDebug(void);
+
+enum VoiceType {
+    VOICE_TYPE_STATUS,
+    VOICE_TYPE_MAP,
+    VOICE_TYPE_ATTACK,
+    VOICE_TYPE_DAMAGE,
+};
+
+void StartUnitVoice(struct Unit *unit, enum VoiceType voice_type);
