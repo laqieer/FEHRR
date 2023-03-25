@@ -72,6 +72,53 @@ def make_heroes(filename):
             f.write('    [%s - 1] = "%s",\n' % (hero, hero))
         f.write('};\n')
 
+def make_debug_heroes(filename):
+    with open(filename, 'w') as f:
+        f.write('#include "heroes.h"\n')
+        f.write('#include "hero_jobs.h"\n')
+        f.write('#include "debugchapter.h"\n')
+        f.write('\n')
+        f.write('#include "constants/iids.h"\n')
+        f.write('#include "constants/jids.h"\n')
+        f.write('\n')
+        f.write('const struct UnitInfo DebugBlueUnits[] = {\n')
+        for i, hero in enumerate(hero_ids):
+            f.write('    {\n')
+            data = hero_data[hero]
+            f.write('        .pid = %s,\n' % hero)
+            f.write('        .jid = J%s,\n' % hero[1:])
+            f.write('        .pid_lead = PID_アルフォンス,\n')
+            f.write('        .level = DEBUG_BLUE_UNIT_LEVEL,\n')
+            f.write('        .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,\n')
+            f.write('        .items = {\n')
+            if data['weapon_type'] <= 10:
+                f.write('            IID_IRONSWORD,\n')
+                f.write('            IID_IRONLANCE,\n')
+                f.write('            IID_IRONAXE,\n')
+                f.write('            IID_IRONBOW,\n')
+            elif data['weapon_type'] <= 15:
+                f.write('            IID_FIRE,\n')
+                f.write('            IID_LIGHTNING,\n')
+                f.write('            IID_FLUX,\n')
+                f.write('            IID_HEALSTAFF,\n')
+            else:
+                f.write('            IID_FIRESTONE,\n')
+                f.write('            IID_DIVINESTONE,\n')
+                f.write('            IID_DEMONSTONE,\n')
+                f.write('            IID_DARKBREATH,\n')
+            f.write('        },\n')
+            x = 2 * (i % 8)
+            y = i // 8
+            f.write('        .x_load = %d,\n' % x)
+            f.write('        .x_move = %d,\n' % x)
+            f.write('        .y_load = %d,\n' % y)
+            f.write('        .y_move = %d,\n' % y)
+            f.write('    },\n')
+            f.write('\n')
+        f.write('    {\n')
+        f.write('    }\n')
+        f.write('};\n')
+
 def main():
     load_hero_ids('include/heroes.h')
     # print(hero_ids)
@@ -79,6 +126,7 @@ def main():
     load_hero_data('asset/json/files/assets/Common/SRPG/Enemy/')
     # print(hero_data)
     make_heroes('source/heroes.c')
+    make_debug_heroes('source/debugheroes.c')
 
 if __name__ == '__main__':
     main()

@@ -25,34 +25,21 @@ const u32 DummyEvent[] = {
     0
 };
 
-const struct UnitInfo DebugBlueUnits[] = {
-    {
-        .pid = PID_アルフォンス,
-        .jid = JID_アルフォンス,
-        .pid_lead = PID_アルフォンス,
-        .level = 1,
-        .items = {
-            IID_IRONSWORD,
-        }
-    },
-    {
-    }
-};
-
 const struct UnitInfo DebugRedUnits[] = {
     {
         .pid = 100,
         .jid = JID_KING,
         .pid_lead = 100,
-        .level = 1,
+        .level = DEBUG_RED_UNIT_LEVEL,
+        .autolevel = DEBUG_RED_UNIT_AUTOLEVEL,
         .faction_id = 2,
         .items = {
             IID_ECKESACHS,
         },
         .x_load = 7,
-        .y_load = 5,
+        .y_load = 2,
         .x_move = 7,
-        .y_move = 5,
+        .y_move = 2,
     },
     {
     }
