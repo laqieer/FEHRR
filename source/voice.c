@@ -117,15 +117,6 @@ void StartUnitVoice(struct Unit *unit, enum VoiceType voice_type)
     StartHeroVoice(unit->pinfo->id, voice_type);
 }
 
-void StartAttackVoice(struct BaSprite * bas)
-{
-    StartHeroVoice(gBattleUnitPids[GetBasSubjectId(bas)], VOICE_TYPE_ATTACK);
-}
-
-void BasCmd07HandlerNew();
-
-void (* const pBasCmd07HandlerOld)() = BasCmd07HandlerNew;
-
 void VoiceDebug_SetBackground(struct GenericProc * proc)
 {
     DisplayBackground(BACKGROUND_0);
