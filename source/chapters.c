@@ -1,10 +1,11 @@
 #include "chapterinfo.h"
 #include "chapterNew.h"
 #include "constants/chapters.h"
+#include "debugchapter.h"
 
 struct ChapterInfo const newChapters[] = {
     [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = {
-        .debug_name = "test",
+        .debug_name = "debugmap",
         .asset_img_b = 2,
         .asset_img_anims = 6,
         .title_id = 4,
@@ -13,7 +14,6 @@ struct ChapterInfo const newChapters[] = {
         .unk_10 = 14, // initial Y
         .numberId = 10,
         .wall_hp = 10,
-        .victory_bgm_enemy_threshold = 1,
         .song_blue_bgm = 10,
         .song_blue_bgm = 2,
         .song_blue_bgm = 10,
@@ -23,11 +23,11 @@ struct ChapterInfo const newChapters[] = {
 };
 
 void const * const ChapterMaps[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = (void const * const)0x082468FC,
+    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = DebugChapterMap,
 };
 
 void const * const ChapterMapChanges[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = (void const * const)0x08687A88,
+    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = NULL,
 };
 
 void const * const ChapterMapGraphics[] = {
@@ -43,7 +43,7 @@ void const * const ChapterMapPalettes[] = {
 };
 
 void const * const ChapterEvents[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = (void const * const)0x08667BBC,
+    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = &DebugChapterEvent,
 };
 
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
