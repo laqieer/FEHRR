@@ -15,10 +15,10 @@ struct ChapterInfo const newChapters[] = {
         .numberId = 10,
         .wall_hp = 10,
         .song_blue_bgm = 10,
-        .song_blue_bgm = 2,
-        .song_blue_bgm = 10,
-        .song_blue_bgm = 0x1e,
-        .song_blue_bgm = 2,
+        .song_red_bgm = 2,
+        .song_green_bgm = 10,
+        .song_intro_bgm = 0x1e,
+        .song_opening_bgm = 2,
     },
 };
 
