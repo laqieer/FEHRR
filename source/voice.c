@@ -39,8 +39,11 @@ void StartVoice(int voice_id)
     struct MusicPlayerEnt const * music_player_table = gMusicPlayerTable;
     struct MusicPlayerEnt const * music_player_ent = music_player_table + VOICE_PRIORITY;
 
-    if (voice_id)
+    if (voice_id && voices[voice_id])
+    {
+        Infof("Playing voice %d: %s", voice_id, GetVoiceName(voice_id));
         m4aMPlayStart(music_player_ent->music_player, (struct Song *)voices[voice_id]);
+    }
 }
 
 void StopVoice(void)
