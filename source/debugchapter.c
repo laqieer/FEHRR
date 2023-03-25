@@ -1,5 +1,6 @@
 #include "debugchapter.h"
 #include "unit.h"
+#include "eventscript.h"
 #include "heroes.h"
 #include "hero_jobs.h"
 #include "constants/pids.h"
@@ -21,15 +22,15 @@ const u8 DebugChapterMap[] = {
     24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0, 24, 0,
 };
 
-const u32 DummyEvent[] = {
-    0
+const EventScr DummyEvent[] = {
+    EvtEnd
 };
 
 const struct UnitInfo DebugRedUnits[] = {
     {
-        .pid = 100,
+        .pid = PID_UNKNOWN_64,
         .jid = JID_KING,
-        .pid_lead = 100,
+        .pid_lead = PID_UNKNOWN_64,
         .level = DEBUG_RED_UNIT_LEVEL,
         .autolevel = DEBUG_RED_UNIT_AUTOLEVEL,
         .faction_id = 2,
@@ -45,15 +46,16 @@ const struct UnitInfo DebugRedUnits[] = {
     }
 };
 
-const u32 LoadDebugUnits[] = {
-    0x12, (u32)&DebugBlueUnits,
-    0x12, (u32)&DebugRedUnits,
-    6, 0,
+const EventScr LoadDebugUnits[] = {
+    EvtLoadUnits(&DebugBlueUnits)
+    EvtLoadUnits(&DebugRedUnits)
+    EvtClearSkip
+    EvtEnd
 };
 
-const u32 DebugChapterEventListTurn[] = {
-    2, (u32)&LoadDebugUnits, 1,
-    0
+const EventScr DebugChapterEventListTurn[] = {
+    2, (EventScr)&LoadDebugUnits, 1,
+    EvtEnd
 };
 
 const struct ChapterEventInfo DebugChapterEvent = {

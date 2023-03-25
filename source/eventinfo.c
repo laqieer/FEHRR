@@ -502,7 +502,7 @@ void StartBattleDefeatTalkNew(fu8 pid)
             StartBgm(SONG_45, NULL);
     }
 
-    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_FINAL && pid == PID_66)
+    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_FINAL && pid == PID_IDUNN_DRAGON)
         FadeBgmOut(4);
 
     if (pid == PID_ROY)

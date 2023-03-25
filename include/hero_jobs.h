@@ -1,14 +1,16 @@
 #pragma once
 
+#include "constants/jids.h"
+
 #define JID_アルフォンス JID_ROY
 #define JID_シャロン JID_SOLDIER
 #define JID_アンナ JID_FIGHTER
 #define JID_ヴェロニカ JID_SAGE_F
 #define JID_レギン JID_PALADIN
 #define JID_ブルーノ JID_VALKYRIE
-#define JID_神階ピアニー JID_FALCOKNIGHT
+#define JID_神階ピアニー JID_FALCONKNIGHT
 #define JID_フィヨルム JID_SOLDIER
-#define JID_神階エイル JID_FALCOKNIGHT
+#define JID_神階エイル JID_FALCONKNIGHT
 #define JID_レティシア JID_VALKYRIE
 #define JID_オッテル JID_PALADIN
 #define JID_ファフニール JID_PALADIN
@@ -28,14 +30,14 @@
 #define JID_ユルグ JID_THIEF_F
 #define JID_ロキ JID_BISHOP_F
 #define JID_ノート JID_SOLDIER
-#define JID_スカビオサ JID_FALCOKNIGHT
+#define JID_スカビオサ JID_FALCONKNIGHT
 #define JID_エルム JID_MANAKETE
 #define JID_ヘルビンディ JID_BERSERKER
 #define JID_フロージ JID_MANAKETE
-#define JID_神階ルピナス JID_FALCOKNIGHT
+#define JID_神階ルピナス JID_FALCONKNIGHT
 #define JID_ヴェロニカ洗脳 JID_SAGE_F
 #define JID_フリーズ JID_PALADIN
-#define JID_プルメリア JID_FALCOKNIGHT
+#define JID_プルメリア JID_FALCONKNIGHT
 #define JID_スラシル JID_SAGE_F
 #define JID_グルヴェイグ JID_MANAKETE
 #define JID_ネルトゥス JID_MANAKETE
