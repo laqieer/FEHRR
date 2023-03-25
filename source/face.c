@@ -398,7 +398,7 @@ void PutFace80x72New(u16 * tm, int fid, int chr, int pal) // hackbox
 
         Decompress(info->img, (u8 *) VRAM + chr * CHR_SIZE);
 
-        if (info->img_chibi != NULL && info->pal_chibi != NULL)
+        if (fid <= FID_LAST || (info->img_chibi != NULL && info->pal_chibi != NULL))
         {
             FixTilesPal((vu16 *) (VRAM + chr * CHR_SIZE), NEW_FULL_FACE_WIDTH * NEW_FULL_FACE_HEIGHT, pal);
             ApplyPalettes(info->pal, pal, NEW_FACE_PAL_CNT);
