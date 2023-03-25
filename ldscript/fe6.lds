@@ -9,6 +9,8 @@ gBattleUnitPids = 0x203CD84;
 AgbMainPtr = 0x8000220;
 
 GetBasSubjectId = func_fe6_0804B6C4;
+PlayBattleMusic = func_fe6_0805BD64;
+RestoreMapMusicAfterBattle = func_fe6_0805C738;
 
 SoundMainRAM_MixBuffer = SoundMainRam;
 gPlayStNew = gPlaySt;
