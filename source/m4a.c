@@ -72,7 +72,8 @@ extern void ply_xiecl(struct MusicPlayer *, struct MusicPlayerTrack *);
 extern void ply_xleng(struct MusicPlayer *, struct MusicPlayerTrack *);
 extern void ply_xswee(struct MusicPlayer *, struct MusicPlayerTrack *);
 
-u8 SoundMainRamNew[0xa60] = {0};
+extern u8 MixerBuffer[];
+extern int MixerSize;
 
 extern struct SoundInfo gSoundInfo;
 
@@ -106,7 +107,7 @@ void m4aSoundInitNew(void)
 {
     int i;
 
-    CpuCopy32(((void *) (((iptr) SoundMainRAM) & ~1)), SoundMainRamNew, sizeof(SoundMainRamNew));
+    CpuCopy32(((void *) (((iptr) SoundMainRAM) & ~1)), MixerBuffer, MixerSize);
 
     SoundInit(&gSoundInfo);
     MPlayExtender(gCgbChans);
@@ -126,4 +127,4 @@ void m4aSoundInitOld(void)
     m4aSoundInitNew();
 }
 
-void (* const pSoundMainRAM)(struct SoundInfo * sound_info) = (void *)(SoundMainRamNew + 1);
+void (* const pSoundMainRAM)(struct SoundInfo * sound_info) = (void *)(MixerBuffer + 1);
