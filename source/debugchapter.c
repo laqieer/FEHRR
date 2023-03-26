@@ -1,5 +1,6 @@
 #include "debugchapter.h"
 #include "unit.h"
+#include "faction.h"
 #include "eventscript.h"
 #include "heroes.h"
 #include "hero_jobs.h"
@@ -33,7 +34,7 @@ const struct UnitInfo DebugRedUnits[] = {
         .pid_lead = PID_ZEPHIEL,
         .level = DEBUG_RED_UNIT_LEVEL,
         .autolevel = DEBUG_RED_UNIT_AUTOLEVEL,
-        .faction_id = 2,
+        .faction_id = FACTION_ID_RED,
         .items = {
             IID_ECKESACHS,
         },

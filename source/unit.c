@@ -21,6 +21,7 @@
 #include "constants/faces.h"
 
 #include "voice.h"
+#include "unitNew.h"
 
 extern struct PInfo CONST_DATA PersonInfoTable[];
 extern struct JInfo CONST_DATA JobInfoTable[];
@@ -59,4 +60,71 @@ void UnitBeginActionNew(struct Unit * unit)
 void UnitBeginActionOld(struct Unit * unit)
 {
     UnitBeginActionNew(unit);
+}
+
+void UnitInitStatsNew(struct Unit * unit, struct PInfo const * pinfo)
+{
+    int i;
+
+    unit->max_hp = pinfo->base_hp + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_hp);
+    unit->pow = pinfo->base_pow + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_pow);
+    unit->skl = pinfo->base_skl + unit->jinfo->base_skl;
+    unit->spd = pinfo->base_spd + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_spd);
+    unit->def = pinfo->base_def + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_def);
+    unit->res = pinfo->base_res + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_res);
+    unit->lck = pinfo->base_lck;
+
+    unit->bonus_con = 0;
+
+    for (i = 0; i < UNIT_WEAPON_EXP_COUNT; ++i)
+    {
+        unit->wexp[i] = unit->jinfo->wexp[i];
+
+        if (unit->pinfo->wexp[i] != 0)
+            unit->wexp[i] = unit->pinfo->wexp[i];
+    }
+
+    if (UNIT_FACTION(unit) == FACTION_BLUE && (unit->level != UNIT_LEVEL_MAX))
+        unit->exp = 0;
+    else
+        unit->exp = 0xFF;
+}
+
+void UnitInitStatsOld(struct Unit * unit, struct PInfo const * pinfo)
+{
+    UnitInitStatsNew(unit, pinfo);
+}
+
+void UnitAutolevelPlayerNew(struct Unit * unit)
+{
+    int i, levelCount = unit->level - unit->pinfo->base_level + ((UNIT_ATTRIBUTES(unit) & UNIT_ATTR_PROMOTED) ? UNIT_LEVEL_MAX : 0);
+
+    for (i = 0; i < levelCount; ++i)
+    {
+        unit->max_hp += GetStatIncrease(unit->pinfo->growth_hp);
+        unit->pow += GetStatIncrease(unit->pinfo->growth_pow);
+        unit->skl += GetStatIncrease(unit->pinfo->growth_skl ? unit->pinfo->growth_skl : PLAYER_UNIT_GRWOTH_FACTOR_SKL * unit->jinfo->growth_skl);
+        unit->spd += GetStatIncrease(unit->pinfo->growth_spd);
+        unit->def += GetStatIncrease(unit->pinfo->growth_def);
+        unit->res += GetStatIncrease(unit->pinfo->growth_res);
+        unit->lck += GetStatIncrease(unit->pinfo->growth_lck ? unit->pinfo->growth_lck : PLAYER_UNIT_GRWOTH_FACTOR_LCK * unit->jinfo->growth_lck);
+    }
+}
+
+void UnitAutolevelPlayerOld(struct Unit * unit)
+{
+    UnitAutolevelPlayerNew(unit);
+}
+
+void UnitAutolevelNew(struct Unit * unit)
+{
+    if (UNIT_ATTRIBUTES(unit) & UNIT_ATTR_PROMOTED)
+        UnitAutolevelCore(unit, unit->jinfo->jid_promote, unit->level + UNIT_LEVEL_MAX - 1);
+
+    UnitAutolevelCore(unit, unit->jinfo->id, unit->level - 1);
+}
+
+void UnitAutolevelOld(struct Unit * unit)
+{
+    UnitAutolevelNew(unit);
 }
