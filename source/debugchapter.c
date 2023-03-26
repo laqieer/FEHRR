@@ -28,9 +28,9 @@ const EventScr DummyEvent[] = {
 
 const struct UnitInfo DebugRedUnits[] = {
     {
-        .pid = PID_UNKNOWN_64,
+        .pid = PID_ZEPHIEL,
         .jid = JID_KING,
-        .pid_lead = PID_UNKNOWN_64,
+        .pid_lead = PID_ZEPHIEL,
         .level = DEBUG_RED_UNIT_LEVEL,
         .autolevel = DEBUG_RED_UNIT_AUTOLEVEL,
         .faction_id = 2,
