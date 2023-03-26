@@ -511,7 +511,7 @@ void StartBattleDefeatTalkNew(fu8 pid)
 
         if (GetChapterInPlaySt(&gPlayStNew) != CHAPTER_TUTORIAL)
         {
-            StartEvent(EventScr_0866AAF8);
+            StartEvent((const u32 *)EventScr_0866AAF8);
             StartBgm(SONG_37, NULL);
         }
 

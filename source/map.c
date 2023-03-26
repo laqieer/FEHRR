@@ -70,7 +70,7 @@ void InitMapForChapterNew(int chapter)
     ApplyEnabledMapChanges();
     RefreshTerrainMap();
 
-    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_UNK_22)
+    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_14X)
         func_fe6_080187EC();
 }
 

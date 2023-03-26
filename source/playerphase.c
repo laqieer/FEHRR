@@ -196,13 +196,13 @@ void LimitView_InitNew(struct GenericProc * proc)
     switch (GetChapterInPlaySt(&gPlayStNew))
     {
 
-    case CHAPTER_UNK_08:
-    case CHAPTER_UNK_10:
-    case CHAPTER_UNK_18:
+    case CHAPTER_8:
+    case CHAPTER_16:
+    case CHAPTER_24:
     case CHAPTER_FINAL:
-    case CHAPTER_UNK_20:
-    case CHAPTER_UNK_22:
-    case CHAPTER_UNK_24:
+    case CHAPTER_8X:
+    case CHAPTER_14X:
+    case CHAPTER_20X_I:
         SetBlendAlpha(12, 7);
         break;
 

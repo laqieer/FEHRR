@@ -25,7 +25,7 @@ bool IsGameSavePastFirstChapterNew(int save_id)
 
     ReadGameSavePlaySt(save_id, &playSt);
 
-    if (GetChapterInPlaySt((struct PlayStNew *)&playSt) <= CHAPTER_CH01)
+    if (GetChapterInPlaySt((struct PlayStNew *)&playSt) <= CHAPTER_1)
         return FALSE;
     else
         return TRUE;
