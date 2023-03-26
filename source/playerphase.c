@@ -24,6 +24,9 @@
 #include "save.h"
 #include "save_stats.h"
 #include "utilNew.h"
+#include "menuNew.h"
+#include "mapworkNew.h"
+#include "playerphaseNew.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/chapters.h"
@@ -86,7 +89,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
                 gPlaySt.x_cursor = gBmSt.cursor.x;
                 gPlaySt.y_cursor = gBmSt.cursor.y;
 
-                StartAdjustedMenu(&MenuInfo_Map, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
+                StartAdjustedMenu(&MenuInfo_MapNew, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
                 StartAvailableMapMenuEvent();
 
                 Proc_Goto(proc, L_PLAYERPHASE_IDLE);
@@ -133,7 +136,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
             }
             else
             {
-                StartAdjustedMenu(&MenuInfo_Map, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
+                StartAdjustedMenu(&MenuInfo_MapNew, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
                 StartAvailableMapMenuEvent();
             }
 
@@ -218,4 +221,163 @@ void LimitView_InitNew(struct GenericProc * proc)
 void LimitView_InitOld(struct GenericProc * proc)
 {
     LimitView_InitNew(proc);
+}
+
+void PlayerPhase_DisplayDangerZone() {
+
+    GenerateDangerZoneRange(gBmSt.unk_3E & 1);
+
+    MapFill(gMapMovement, -1);
+
+    PlaySe(0x68);
+
+    gBmSt.flags |= (1 << 3);
+    gBmSt.flags &= ~(1 << 1);
+
+    if (gBmSt.unk_3E & 1) {
+        StartLimitView(5);
+    } else {
+        StartLimitView(3);
+    }
+
+    return;
+}
+
+struct ProcScr const ProcScr_PlayerPhaseNew[] =
+{
+    PROC_19,
+    PROC_MARK(PROC_MARK_2),
+    PROC_SLEEP(0),
+
+PROC_LABEL(L_PLAYERPHASE_BEGIN),
+    PROC_CALL(PlayerPhase_Suspend),
+
+    PROC_CALL(RefreshEntityMaps),
+    PROC_CALL(RenderMap),
+    PROC_CALL(RefreshUnitSprites),
+
+    PROC_CALL(PlayerPhase_HandleAutoEnd),
+
+    PROC_CALL(StartMapSongBgm),
+
+    // fallthrough
+
+PROC_LABEL(L_PLAYERPHASE_IDLE),
+    PROC_CALL(func_fe6_08073310),
+    PROC_CALL(ResetUnitSpritHover),
+
+    PROC_REPEAT(PlayerPhase_IdleLoop),
+
+    // fallthrough
+
+PROC_LABEL(L_PLAYERPHASE_MOVE),
+    PROC_CALL(func_fe6_08073324),
+
+    PROC_WHILE(IsMapFadeActive),
+
+    PROC_CALL(func_fe6_0801809C),
+    PROC_CALL(RefreshUnitSprites),
+
+    PROC_CALL(PlayerPhase_BeginMoveSelect),
+    PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+
+    PROC_CALL(PlayerPhase_BeginMove),
+    PROC_REPEAT(PlayerPhase_WaitForMove),
+
+    // fallthrough
+
+PROC_LABEL(L_PLAYERPHASE_ACTION_SELECT),
+    PROC_REPEAT(PlayerPhase_BeginActionSelect),
+
+    // fallthrough
+
+PROC_LABEL(L_PLAYERPHASE_ACTION),
+    PROC_WHILE_EXISTS(ProcScr_CamMove),
+
+    PROC_CALL_2(PlayerPhase_BeginAction),
+
+    PROC_CALL_2(DoAction),
+    PROC_CALL_2(DoHandleStepTraps),
+
+    PROC_CALL_2(PlayerPhase_0801B9B0),
+    PROC_CALL_2(PlayerPhase_WatchActiveUnit),
+
+    PROC_CALL(PlayerPhase_FinishAction),
+
+    PROC_GOTO(L_PLAYERPHASE_BEGIN),
+
+PROC_LABEL(L_PLAYERPHASE_MAPFADE_MOVE),
+    PROC_WHILE(IsMapFadeActive),
+
+    PROC_GOTO(L_PLAYERPHASE_MOVE),
+
+PROC_LABEL(L_PLAYERPHASE_5),
+    PROC_CALL(PlayerPhase_0801BD08),
+
+    // fallthrough
+
+PROC_LABEL(L_PLAYERPHASE_10),
+    PROC_START_CHILD_LOCKING(ProcScr_Unk_085C5988),
+
+    PROC_GOTO(L_PLAYERPHASE_IDLE),
+
+PROC_LABEL(L_PLAYERPHASE_6),
+    PROC_CALL(PlayerPhase_0801BC84),
+
+    PROC_GOTO(L_PLAYERPHASE_MOVE),
+
+PROC_LABEL(L_PLAYERPHASE_8),
+    PROC_SLEEP(0),
+
+    PROC_CALL(EndAllMus),
+
+    PROC_GOTO(L_PLAYERPHASE_BEGIN),
+
+PROC_LABEL(L_PLAYERPHASE_SEE_RANGE),
+    PROC_CALL(func_fe6_08073324),
+
+    PROC_WHILE(IsMapFadeActive),
+
+    PROC_CALL(PlayerPhase_BeginSeeActionRange),
+    PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+
+    PROC_GOTO(L_PLAYERPHASE_IDLE),
+
+PROC_LABEL(L_PLAYERPHASE_DANGER_ZONE),
+    PROC_CALL(PlayerPhase_DisplayDangerZone),
+    PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+
+    PROC_GOTO(L_PLAYERPHASE_IDLE),
+
+PROC_LABEL(L_PLAYERPHASE_END),
+    PROC_WHILE(IsMapFadeActive),
+
+    PROC_END,
+};
+
+bool TrySetCursorOnNew(int uid)
+{
+    struct Unit * unit = GetUnit(uid);
+
+    if (!unit)
+        return FALSE;
+
+    if (!unit->pinfo)
+        return FALSE;
+
+    if (unit->flags & (UNIT_FLAG_HIDDEN | UNIT_FLAG_TURN_ENDED | UNIT_FLAG_DEAD))
+        return FALSE;
+
+    if (unit->status == UNIT_STATUS_BERSERK || unit->status == UNIT_STATUS_SLEEP)
+        return FALSE;
+
+    CameraMoveWatchPosition(FindProc(ProcScr_PlayerPhaseNew) ?: FindProc(ProcScr_PrepPhase), unit->x, unit->y);
+    SetMapCursorPosition(unit->x, unit->y);
+
+    return TRUE;
+}
+
+bool TrySetCursorOnOld(int uid)
+{
+    return TrySetCursorOnNew(uid);
 }

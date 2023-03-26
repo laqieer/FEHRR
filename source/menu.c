@@ -46,6 +46,7 @@
 #include "voice.h"
 #include "textNew.h"
 #include "log.h"
+#include "mapmenuNew.h"
 
 void Menu_Redraw(struct MenuProc * proc)
 {
@@ -142,13 +143,13 @@ struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
         .available = func_fe6_0801ADB4,
         .on_select = func_fe6_0801ADCC,
     },
-
+/*
     {
         .label = (const char *)3500, // 手再開
         .available = func_fe6_0801AD6C,
         .on_select = func_fe6_0801AD84,
     },
-
+*/
     {
         .label = (const char *)3735, // 文字列テスト
         .available = MenuEntryEnabled,
@@ -191,3 +192,86 @@ void StartMenu_Debug_StartUp(void)
 
     StartMuralBackground(StartMenu(&MenuInfo_Debug_StartUp), (u8 *) BG_VRAM + CHR_SIZE * 0x580, -1);
 }
+
+fu8 MapMenu_Debug_Select(struct MenuProc * menu, struct MenuEntProc * ent);
+
+fu8 MapMenu_CpControl_Select(struct MenuProc * menu, struct MenuEntProc * ent);
+
+fu8 MapMenu_Save_Select(struct MenuProc * menu, struct MenuEntProc * ent);
+
+struct MenuEntInfo const MenuEntInfo_MapNew[] =
+{
+    {
+        .label = (const char *)3738, // 危険
+        .msg_help = 3767,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_DangerZone_Select,
+    },
+
+    {
+        .label = (const char *)3739, // 部隊
+        .msg_help = MSG_654,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Unit_SelectNew,
+    },
+
+    {
+        .label = (const char *)3740, // 状況
+        .msg_help = MSG_655,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Status_Select,
+    },
+
+    {
+        .label = (const char *)3741, // 設定
+        .msg_help = MSG_656,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Options_Select,
+    },
+
+    {
+        .label = (const char *)3742, // 中断
+        .msg_help = MSG_657,
+        .available = MapMenu_Suspend_Available,
+        .on_select = MapMenu_Suspend_Select,
+    },
+
+    {
+        .label = (const char *)3743, // 担当
+        .msg_help = 3768,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_CpControl_Select,
+    },
+
+    {
+        .label = (const char *)3744, // デバ
+        .msg_help = 3769,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Debug_Select,
+    },
+/*
+    {
+        .label = (const char *)3745, // 記録
+        .msg_help = 3770,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Save_Select,
+    },
+*/
+    {
+        .label = (const char *)3746, // 終了
+        .msg_help = MSG_658,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_End_SelectNew,
+    },
+
+    { 0 }, // end
+};
+
+struct MenuInfo const MenuInfo_MapNew =
+{
+    .rect = { 1, 1, 6, 0 },
+    .entries = MenuEntInfo_MapNew,
+    .on_b_press = MenuActionClose,
+    .on_r_press = MenuActionHelpBox,
+    .on_help_box = MenuHelpBoxRegular,
+};

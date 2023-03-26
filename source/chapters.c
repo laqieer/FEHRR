@@ -14,6 +14,7 @@ struct ChapterInfo const newChapters[] = {
         .unk_10 = 14, // initial Y
         .numberId = 10,
         .wall_hp = 10,
+        .fog = 2,
         .song_blue_bgm = 10,
         .song_red_bgm = 2,
         .song_green_bgm = 10,

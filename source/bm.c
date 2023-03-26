@@ -33,6 +33,8 @@
 #include "constants/videoalloc_global.h"
 #include "constants/songs.h"
 
+#include "playerphaseNew.h"
+
 enum
 {
     CAMERA_MARGIN_LEFT   = 16*3,
@@ -99,4 +101,42 @@ int GetActiveMapSongNew(void)
 int GetActiveMapSongOld(void)
 {
     return GetActiveMapSongNew();
+}
+
+void BmMain_StartPhaseNew(ProcPtr proc)
+{
+    switch (gPlaySt.faction)
+    {
+
+    case FACTION_BLUE:
+        SpawnProcLocking(ProcScr_PlayerPhaseNew, proc);
+        break;
+
+    case FACTION_RED:
+        SpawnProcLocking(ProcScr_AiPhase, proc);
+        break;
+
+    case FACTION_GREEN:
+        SpawnProcLocking(ProcScr_AiPhase, proc);
+        break;
+
+    }
+
+    Proc_Break(proc);
+}
+
+void BmMain_StartPhaseOld(ProcPtr proc)
+{
+    BmMain_StartPhaseNew(proc);
+}
+
+void BmMain_ResumePlayerPhaseNew(ProcPtr proc)
+{
+    Proc_Goto(SpawnProcLocking(ProcScr_PlayerPhaseNew, proc), L_PLAYERPHASE_ACTION);
+    Proc_Break(proc);
+}
+
+void BmMain_ResumePlayerPhaseOld(ProcPtr proc)
+{
+    BmMain_ResumePlayerPhaseNew(proc);
 }

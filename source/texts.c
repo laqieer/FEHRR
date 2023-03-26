@@ -20064,7 +20064,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     [3343] = {
         [LANGUAGE_JAPANESE] = "周回数",
         [LANGUAGE_ENGLISH] = "Runs",
-        [LANGUAGE_CHINESE] = "周回数",
+        [LANGUAGE_CHINESE] = "通关次数",
     },
 
     [3344] = {
@@ -22414,21 +22414,297 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3735] = {
-        [LANGUAGE_JAPANESE] = "　文字列テスト",
-        [LANGUAGE_ENGLISH] = "    Test Texts",
-        [LANGUAGE_CHINESE] = "  测试文本",
+        [LANGUAGE_JAPANESE] = "　文字列デバ",
+        [LANGUAGE_ENGLISH] = "    Debug Texts",
+        [LANGUAGE_CHINESE] = "  调试文本",
     },
 
     [3736] = {
-        [LANGUAGE_JAPANESE] = "　キャラクターテスト",
-        [LANGUAGE_ENGLISH] = "    Test Characters",
-        [LANGUAGE_CHINESE] = "  测试人物",
+        [LANGUAGE_JAPANESE] = "　キャラデバ",
+        [LANGUAGE_ENGLISH] = "    Debug Characters",
+        [LANGUAGE_CHINESE] = "  调试人物",
     },
 
     [3737] = {
-        [LANGUAGE_JAPANESE] = "　顔画像テスト",
-        [LANGUAGE_ENGLISH] = "    Test Portraits",
-        [LANGUAGE_CHINESE] = "  测试头像",
+        [LANGUAGE_JAPANESE] = "　顔画像デバ",
+        [LANGUAGE_ENGLISH] = "    Debug Portraits",
+        [LANGUAGE_CHINESE] = "  调试头像",
+    },
+
+    [3738] = {
+        [LANGUAGE_JAPANESE] = "　危険",
+        [LANGUAGE_ENGLISH] = " Danger",
+        [LANGUAGE_CHINESE] = "  危险",
+    },
+
+    [3739] = {
+        [LANGUAGE_JAPANESE] = "　部隊",
+        [LANGUAGE_ENGLISH] = " Unit",
+        [LANGUAGE_CHINESE] = "  部队",
+    },
+
+    [3740] = {
+        [LANGUAGE_JAPANESE] = "　状況",
+        [LANGUAGE_ENGLISH] = " Status",
+        [LANGUAGE_CHINESE] = "  状态",
+    },
+
+    [3741] = {
+        [LANGUAGE_JAPANESE] = "　設定",
+        [LANGUAGE_ENGLISH] = " Options",
+        [LANGUAGE_CHINESE] = "  设定",
+    },
+
+    [3742] = {
+        [LANGUAGE_JAPANESE] = "　中断",
+        [LANGUAGE_ENGLISH] = " Suspend",
+        [LANGUAGE_CHINESE] = "  中断",
+    },
+
+    [3743] = {
+        [LANGUAGE_JAPANESE] = "　担当",
+        [LANGUAGE_ENGLISH] = " Charge",
+        [LANGUAGE_CHINESE] = "  委任",
+    },
+
+    [3744] = {
+        [LANGUAGE_JAPANESE] = "　デバ",
+        [LANGUAGE_ENGLISH] = " Debug",
+        [LANGUAGE_CHINESE] = "  调试",
+    },
+
+    [3745] = {
+        [LANGUAGE_JAPANESE] = "　記録",
+        [LANGUAGE_ENGLISH] = " Save",
+        [LANGUAGE_CHINESE] = "  存档",
+    },
+
+    [3746] = {
+        [LANGUAGE_JAPANESE] = "　終了",
+        [LANGUAGE_ENGLISH] = " End",
+        [LANGUAGE_CHINESE] = "  结束",
+    },
+
+    [3747] = {
+        [LANGUAGE_JAPANESE] = "　マップ",
+        [LANGUAGE_ENGLISH] = "    Map",
+        [LANGUAGE_CHINESE] = "   选关",
+    },
+
+    [3748] = {
+        [LANGUAGE_JAPANESE] = "　デブ情報",
+        [LANGUAGE_ENGLISH] = "  D.Info",
+        [LANGUAGE_CHINESE] = "   调试信息",
+    },
+
+    [3749] = {
+        [LANGUAGE_JAPANESE] = "　天気",
+        [LANGUAGE_ENGLISH] = "  Weather",
+        [LANGUAGE_CHINESE] = "   天气",
+    },
+
+    [3750] = {
+        [LANGUAGE_JAPANESE] = "　索敵",
+        [LANGUAGE_ENGLISH] = "  Fog",
+        [LANGUAGE_CHINESE] = "   视野限制",
+    },
+
+    [3751] = {
+        [LANGUAGE_JAPANESE] = "　周回数",
+        [LANGUAGE_ENGLISH] = "  Playthrough#",
+        [LANGUAGE_CHINESE] = "   通关次数",
+    },
+
+    [3752] = {
+        [LANGUAGE_JAPANESE] = "　クリアずみ",
+        [LANGUAGE_ENGLISH] = "    Clear",
+        [LANGUAGE_CHINESE] = "   通关",
+    },
+
+    [3753] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [3754] = {
+        [LANGUAGE_JAPANESE] = "　おやすみなさい",
+        [LANGUAGE_ENGLISH] = "    Good Night!",
+        [LANGUAGE_CHINESE] = "   晚安",
+    },
+
+    [3755] = {
+        [LANGUAGE_JAPANESE] = "ＯＦＦ",
+        [LANGUAGE_ENGLISH] = "OFF",
+        [LANGUAGE_CHINESE] = "关",
+    },
+
+    [3756] = {
+        [LANGUAGE_JAPANESE] = "　ＯＮ",
+        [LANGUAGE_ENGLISH] = " ON",
+        [LANGUAGE_CHINESE] = "开",
+    },
+
+    [3757] = {
+        [LANGUAGE_JAPANESE] = "晴れ",
+        [LANGUAGE_ENGLISH] = "None",
+        [LANGUAGE_CHINESE] = "晴",
+    },
+
+    [3758] = {
+        [LANGUAGE_JAPANESE] = "砂嵐",
+        [LANGUAGE_ENGLISH] = "Sandstorm",
+        [LANGUAGE_CHINESE] = "沙尘暴",
+    },
+
+    [3759] = {
+        [LANGUAGE_JAPANESE] = "雪",
+        [LANGUAGE_ENGLISH] = "Snow",
+        [LANGUAGE_CHINESE] = "雪",
+    },
+
+    [3760] = {
+        [LANGUAGE_JAPANESE] = "吹雪",
+        [LANGUAGE_ENGLISH] = "Snowstorm",
+        [LANGUAGE_CHINESE] = "暴风雪",
+    },
+
+    [3761] = {
+        [LANGUAGE_JAPANESE] = "雨",
+        [LANGUAGE_ENGLISH] = "Rain",
+        [LANGUAGE_CHINESE] = "雨",
+    },
+
+    [3762] = {
+        [LANGUAGE_JAPANESE] = "夜",
+        [LANGUAGE_ENGLISH] = "Night",
+        [LANGUAGE_CHINESE] = "夜",
+    },
+
+    [3763] = {
+        [LANGUAGE_JAPANESE] = "溶岩",
+        [LANGUAGE_ENGLISH] = "Flames",
+        [LANGUAGE_CHINESE] = "熔岩",
+    },
+
+    [3764] = {
+        [LANGUAGE_JAPANESE] = "デブ情報",
+        [LANGUAGE_ENGLISH] = "D.Info",
+        [LANGUAGE_CHINESE] = "调试信息",
+    },
+
+    [3765] = {
+        [LANGUAGE_JAPANESE] = "天気",
+        [LANGUAGE_ENGLISH] = "Weather",
+        [LANGUAGE_CHINESE] = "天气",
+    },
+
+    [3766] = {
+        [LANGUAGE_JAPANESE] = "さく敵",
+        [LANGUAGE_ENGLISH] = "Fog",
+        [LANGUAGE_CHINESE] = "视野限制",
+    },
+
+    [3767] = {
+        [LANGUAGE_JAPANESE] = "敵軍の攻撃範囲を" TEXT_CMD_NEWLINE "表示します",
+        [LANGUAGE_ENGLISH] = "Shows attack range" TEXT_CMD_NEWLINE "of all enemies.",
+        [LANGUAGE_CHINESE] = "显示敌人的攻击范围",
+    },
+
+    [3768] = {
+        [LANGUAGE_JAPANESE] = "誰が軍を指揮するかを" TEXT_CMD_NEWLINE "決めます",
+        [LANGUAGE_ENGLISH] = "Define who to control (i.e" TEXT_CMD_NEWLINE "be in charge of) the armies",
+        [LANGUAGE_CHINESE] = "定义谁控制军队",
+    },
+
+    [3769] = {
+        [LANGUAGE_JAPANESE] = "マップデブメニューを" TEXT_CMD_NEWLINE "開きます",
+        [LANGUAGE_ENGLISH] = "Opens Map debug menu",
+        [LANGUAGE_CHINESE] = "打开地图调试菜单",
+    },
+
+    [3770] = {
+        [LANGUAGE_JAPANESE] = "記録",
+        [LANGUAGE_ENGLISH] = "Save",
+        [LANGUAGE_CHINESE] = "存档",
+    },
+
+    [3771] = {
+        [LANGUAGE_JAPANESE] = "マップを選択します",
+        [LANGUAGE_ENGLISH] = "Select a map/chapter" TEXT_CMD_NEWLINE "to load.",
+        [LANGUAGE_CHINESE] = "选择地图",
+    },
+
+    [3772] = {
+        [LANGUAGE_JAPANESE] = "デブ情報を" TEXT_CMD_NEWLINE "表示しますか",
+        [LANGUAGE_ENGLISH] = "Toggles debug display.",
+        [LANGUAGE_CHINESE] = "显示/隐藏调试信息",
+    },
+
+    [3773] = {
+        [LANGUAGE_JAPANESE] = "天気を変更します",
+        [LANGUAGE_ENGLISH] = "Change the weather.",
+        [LANGUAGE_CHINESE] = "更改天气",
+    },
+
+    [3774] = {
+        [LANGUAGE_JAPANESE] = "索敵のオン/オフ",
+        [LANGUAGE_ENGLISH] = "Toggle Fog of War off.",
+        [LANGUAGE_CHINESE] = "打开/关闭视野限制",
+    },
+
+    [3775] = {
+        [LANGUAGE_JAPANESE] = "周回数を設定します",
+        [LANGUAGE_ENGLISH] = "Select the current" TEXT_CMD_NEWLINE "playthrough number.",
+        [LANGUAGE_CHINESE] = "修改通关次数",
+    },
+
+    [3776] = {
+        [LANGUAGE_JAPANESE] = "現在のセーブデータを" TEXT_CMD_NEWLINE "エピローグに変更します",
+        [LANGUAGE_ENGLISH] = "Change the current file" TEXT_CMD_NEWLINE "into an Epilogue file.",
+        [LANGUAGE_CHINESE] = "直接通关游戏",
+    },
+
+    [3777] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [3778] = {
+        [LANGUAGE_JAPANESE] = "スリープモードを" TEXT_CMD_NEWLINE "有効にします",
+        [LANGUAGE_ENGLISH] = "Activates Sleep Mode.",
+        [LANGUAGE_CHINESE] = "进入休眠模式",
+    },
+
+    [3779] = {
+        [LANGUAGE_JAPANESE] = "ＣＰ",
+        [LANGUAGE_ENGLISH] = "Computer",
+        [LANGUAGE_CHINESE] = "电脑",
+    },
+
+    [3780] = {
+        [LANGUAGE_JAPANESE] = "人間",
+        [LANGUAGE_ENGLISH] = "Player",
+        [LANGUAGE_CHINESE] = "玩家",
+    },
+
+    [3781] = {
+        [LANGUAGE_JAPANESE] = "不参加",
+        [LANGUAGE_ENGLISH] = "Nobody",
+        [LANGUAGE_CHINESE] = "不动",
+    },
+
+    [3782] = {
+        [LANGUAGE_JAPANESE] = "デバッグモニターが" TEXT_CMD_NEWLINE "実行されていません",
+        [LANGUAGE_ENGLISH] = "Debug Monitor" TEXT_CMD_NEWLINE "is not running.",
+        [LANGUAGE_CHINESE] = "未运行调试器",
+    },
+
+    [3783] = {
+        [LANGUAGE_JAPANESE] = "このマップは" TEXT_CMD_NEWLINE "索敵がありません",
+        [LANGUAGE_ENGLISH] = "This map has no fog.",
+        [LANGUAGE_CHINESE] = "此地图未限制视野",
     },
 
     [TEXT_ID_TEST] = {
