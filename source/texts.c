@@ -22707,6 +22707,12 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "此地图未限制视野",
     },
 
+    [3784] = {
+        [LANGUAGE_JAPANESE] = "　マップ戦闘デバ",
+        [LANGUAGE_ENGLISH] = "    Debug Manim",
+        [LANGUAGE_CHINESE] = "  调试地图战斗",
+    },
+
     [TEXT_ID_TEST] = {
         [LANGUAGE_JAPANESE] = FaceTestText,
         [LANGUAGE_ENGLISH] = FaceTestText,
