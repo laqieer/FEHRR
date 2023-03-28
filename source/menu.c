@@ -133,8 +133,9 @@ fu8 DebugManim(struct MenuProc * menu, struct MenuEntProc * ent)
     DebugScreenInit();
     DebugInitObj(-1, 9);
     StartDebugManim();
+    EndFaceById(1);
 
-    return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
+    return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR | MENU_ACTION_ENDFACE;
 }
 
 struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
