@@ -22522,9 +22522,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3753] = {
-        [LANGUAGE_JAPANESE] = "",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "",
+        [LANGUAGE_JAPANESE] = "　BGM",
+        [LANGUAGE_ENGLISH] = "    BGM",
+        [LANGUAGE_CHINESE] = "   BGM",
     },
 
     [3754] = {
@@ -22666,9 +22666,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3777] = {
-        [LANGUAGE_JAPANESE] = "",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "",
+        [LANGUAGE_JAPANESE] = "マップBGMを変更します",
+        [LANGUAGE_ENGLISH] = "Change Map BGM.",
+        [LANGUAGE_CHINESE] = "切换地图BGM",
     },
 
     [3778] = {
@@ -22711,6 +22711,12 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_JAPANESE] = "　マップ戦闘デバ",
         [LANGUAGE_ENGLISH] = "    Debug Manim",
         [LANGUAGE_CHINESE] = "  调试地图战斗",
+    },
+
+    [3785] = {
+        [LANGUAGE_JAPANESE] = "BGM",
+        [LANGUAGE_ENGLISH] = "BGM",
+        [LANGUAGE_CHINESE] = "BGM",
     },
 
     [TEXT_ID_TEST] = {

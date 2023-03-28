@@ -21,6 +21,7 @@
 #include "save_core.h"
 #include "save_stats.h"
 #include "save_game.h"
+#include "sound.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/chapters.h"
@@ -316,7 +317,7 @@ fu8 MapDebugMenu_Fog_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
     return 0;
 }
 
-u32 MapMenu_Playthrough_Display(struct MenuProc * menu, struct MenuEntProc * ent)
+u32 MapDebugMenu_Playthrough_Display(struct MenuProc * menu, struct MenuEntProc * ent)
 {
     ClearText(&ent->text);
 
@@ -329,7 +330,7 @@ u32 MapMenu_Playthrough_Display(struct MenuProc * menu, struct MenuEntProc * ent
     return 0;
 }
 
-fu8 MapMenu_Playthrough_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
+fu8 MapDebugMenu_Playthrough_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
 {
     struct GlobalSaveInfo save_info;
     int clearCount, i;
@@ -378,7 +379,57 @@ fu8 MapMenu_Playthrough_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
 
     WriteGlobalSaveInfo(&save_info);
 
-    MapMenu_Playthrough_Display(menu, ent);
+    MapDebugMenu_Playthrough_Display(menu, ent);
+
+    return 0;
+}
+
+u32 MapDebugMenu_ChangeBGM_Display(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    ClearText(&ent->text);
+
+    Text_InsertDrawString(&ent->text, 8, TEXT_COLOR_SYSTEM_WHITE, (const char *)3785); // BGM
+    Text_InsertDrawNumberOrBlank(&ent->text, 64, TEXT_COLOR_SYSTEM_BLUE, GetCurrentBgmSong());
+
+    PutText(&ent->text, gBg0Tm + TM_OFFSET(ent->x, ent->y));
+
+    return 0;
+}
+
+#define MAX_MAP_BGM 0x49
+
+fu8 MapDebugMenu_ChangeBGM_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    if (!(gKeySt->repeated & (KEY_DPAD_RIGHT | KEY_DPAD_LEFT)))
+        return 0;
+
+    int bgm = GetCurrentBgmSong();
+
+    if (gKeySt->repeated & KEY_DPAD_LEFT)
+    {
+        if (bgm >= 0)
+            bgm--;
+    }
+
+    if (gKeySt->repeated & KEY_DPAD_RIGHT)
+    {
+        if (bgm < MAX_MAP_BGM)
+            bgm++;
+    }
+
+    StartBgmCore(bgm, &gMusicPlayer_MainBgm);
+
+    MapDebugMenu_ChangeBGM_Display(menu, ent);
+
+    return 0;
+}
+
+fu8 MapDebugMenu_ChangeBGM_Select(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    // reset map BGM
+    StartBgmCore(GetActiveMapSong(), &gMusicPlayer_MainBgm);
+
+    MapDebugMenu_ChangeBGM_Display(menu, ent);
 
     return 0;
 }
@@ -425,9 +476,9 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
         .label = (char const *)3751, // 周回数
         .msg_help = 3775,
         .available = MenuEntryEnabled,
-        .display = MapMenu_Playthrough_Display,
+        .display = MapDebugMenu_Playthrough_Display,
         .on_select = func_fe6_0801AA70,
-        .on_idle = MapMenu_Playthrough_Idle,
+        .on_idle = MapDebugMenu_Playthrough_Idle,
     },
 
     {
@@ -438,9 +489,12 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
     },
 
     {
-        .label = (char const *)3753, // ダミー
-        // .msg_help = 3777,
+        .label = (char const *)3753, // change map BGM
+        .msg_help = 3777,
         .available = MenuEntryEnabled,
+        .display = MapDebugMenu_ChangeBGM_Display,
+        .on_select = MapDebugMenu_ChangeBGM_Select,
+        .on_idle = MapDebugMenu_ChangeBGM_Idle,
     },
 
     {
