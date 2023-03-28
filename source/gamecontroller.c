@@ -8,6 +8,7 @@
 #include "chapter.h"
 #include "chapterinfo.h"
 #include "ui.h"
+#include "eventfunctions.h"
 #include "eventinfo.h"
 #include "statscreen.h"
 #include "save_stats.h"

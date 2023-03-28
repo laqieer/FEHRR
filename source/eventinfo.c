@@ -2,6 +2,7 @@
 
 #include "sound.h"
 #include "event.h"
+#include "eventfunctions.h"
 #include "eventscript.h"
 #include "bm.h"
 #include "bmNew.h"
@@ -14,6 +15,7 @@
 #include "chapterinfo.h"
 #include "support.h"
 #include "trap.h"
+#include "chapterevents.h"
 
 #include "constants/iids.h"
 #include "constants/chapters.h"
@@ -169,7 +171,7 @@ void StartAvailableTileEventNew(fi8 x, fi8 y)
 
             // fallthrough
 
-        case TILE_COMMAND_1D:
+        case TILE_COMMAND_PILLAGE:
             StartMapChangeEvent(GetMapChangeIdAt(info.x_location, info.y_location));
             DisableEventSkip();
             return;
@@ -365,10 +367,10 @@ void StartAvailableMoveEventOld(void)
 
 bool CheckChapterVictoryNew(void)
 {
-    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_FINAL && CheckFlag(0x72)) // TODO: flag constants
-        SetFlag(3); // TODO: flag constants
+    if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_FINAL && CheckFlag(FLAG_114))
+        SetFlag(FLAG_3);
 
-    return CheckFlag(3); // TODO: flag constants
+    return CheckFlag(FLAG_3);
 }
 
 bool CheckChapterVictoryOld(void)
@@ -378,17 +380,17 @@ bool CheckChapterVictoryOld(void)
 
 void StartChapterVictoryEventNew(void)
 {
-    if (CheckFlag(3)) // TODO: flag constants
+    if (CheckFlag(FLAG_3))
     {
         if (GetChapterInPlaySt(&gPlayStNew) == CHAPTER_FINAL)
         {
-            if (func_fe6_0806CD78())
-                StartEvent(GetChapterEventInfo(GetChapterInPlaySt(&gPlayStNew))->script_18);
+            if (IsBossDefeated())
+                StartEvent(GetChapterEventInfo(GetChapterInPlaySt(&gPlayStNew))->event_script_victory);
         }
         else
         {
             if (CheckAvailableVictoryEvent())
-                StartEvent(GetChapterEventInfo(GetChapterInPlaySt(&gPlayStNew))->script_18);
+                StartEvent(GetChapterEventInfo(GetChapterInPlaySt(&gPlayStNew))->event_script_victory);
         }
     }
 }
@@ -511,7 +513,7 @@ void StartBattleDefeatTalkNew(fu8 pid)
 
         if (GetChapterInPlaySt(&gPlayStNew) != CHAPTER_TUTORIAL)
         {
-            StartEvent((const u32 *)EventScr_0866AAF8);
+            StartEvent(EventScr_RoyDefeated);
             StartBgm(SONG_37, NULL);
         }
 
