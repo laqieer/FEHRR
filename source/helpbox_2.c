@@ -158,8 +158,6 @@ u16 CONST_DATA TextColorLut_ChapterTitle[] = { GENERATE_LOOKUP_TABLE };
 
 void DrawGlyphInChapterTitle(void * draw_dest, struct GlyphNew const * glyph, int * x)
 {
-    Debugf("draw_dest: 0x%x, x: %d, bitmap: 0x%x", draw_dest, *x, glyph->bitmap);
-
     u32 * dst = draw_dest + ((*x) / 8) * CHR_SIZE;
     u32 const * bitmap = (u32 const *)glyph->bitmap;
     int subx = (*x) & 7;
