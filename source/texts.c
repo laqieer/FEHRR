@@ -17561,229 +17561,229 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [2926] = {
         [LANGUAGE_JAPANESE] = "運命の息吹",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Breath of Fate",
         [LANGUAGE_CHINESE] = "命运的气息",
     },
 
     [2927] = {
         [LANGUAGE_JAPANESE] = "ベルンの王女",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Princess of Bern",
         [LANGUAGE_CHINESE] = "伯尔尼的公主",
     },
 
     [2928] = {
         [LANGUAGE_JAPANESE] = "後れてきた者",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Latecomer",
         [LANGUAGE_CHINESE] = "迟到的人",
     },
 
     [2929] = {
         [LANGUAGE_JAPANESE] = "同盟の崩壊",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Collapse of the Alliance",
         [LANGUAGE_CHINESE] = "同盟崩溃",
     },
 
     [2930] = {
         [LANGUAGE_JAPANESE] = "炎の紋章",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Emblem of Fire",
         [LANGUAGE_CHINESE] = "火焰之纹章",
     },
 
     [2931] = {
         [LANGUAGE_JAPANESE] = "しかけられた罠",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Trap",
         [LANGUAGE_CHINESE] = "圈套",
     },
 
     [2932] = {
         [LANGUAGE_JAPANESE] = "オスティアの反乱",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Rebellion at Ostia",
         [LANGUAGE_CHINESE] = "奥斯迪亚的叛乱",
     },
 
     [2933] = {
         [LANGUAGE_JAPANESE] = "再会",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Reunion",
         [LANGUAGE_CHINESE] = "再会",
     },
 
     [2934] = {
         [LANGUAGE_JAPANESE] = "霧にけむる島",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Misty Isles",
         [LANGUAGE_CHINESE] = "迷雾岛",
     },
 
     [2935] = {
         [LANGUAGE_JAPANESE] = "あらがう者たち",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Rebel Forces",
         [LANGUAGE_CHINESE] = "抗争的人们",
     },
 
     [2936] = {
         [LANGUAGE_JAPANESE] = "西方の勇者",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Hero of the West",
         [LANGUAGE_CHINESE] = "西方的勇者",
     },
 
     [2937] = {
         [LANGUAGE_JAPANESE] = "真実の敵",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The True Enemy",
         [LANGUAGE_CHINESE] = "真正的敌人",
     },
 
     [2938] = {
         [LANGUAGE_JAPANESE] = "救出作戦",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Rescue Plan",
         [LANGUAGE_CHINESE] = "救出作战",
     },
 
     [2939] = {
         [LANGUAGE_JAPANESE] = "理想郷",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Arcadia",
         [LANGUAGE_CHINESE] = "乌托邦",
     },
 
     [2940] = {
         [LANGUAGE_JAPANESE] = "竜の娘",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Dragon Girl",
         [LANGUAGE_CHINESE] = "龙的女儿",
     },
 
     [2941] = {
         [LANGUAGE_JAPANESE] = "王都奪還",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Retaking the Capital",
         [LANGUAGE_CHINESE] = "夺回首都",
     },
 
     [2942] = {
         [LANGUAGE_JAPANESE] = "海の道",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Path Through the Ocean",
         [LANGUAGE_CHINESE] = "海之道",
     },
 
     [2943] = {
         [LANGUAGE_JAPANESE] = "凍てつく河",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Frozen River",
         [LANGUAGE_CHINESE] = "冰冻之河",
     },
 
     [2944] = {
         [LANGUAGE_JAPANESE] = "冬将軍",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Bitter Cold",
         [LANGUAGE_CHINESE] = "冬将军",
     },
 
     [2945] = {
         [LANGUAGE_JAPANESE] = "イリア解放",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Liberation of Ilia",
         [LANGUAGE_CHINESE] = "解放伊利亚",
     },
 
     [2946] = {
         [LANGUAGE_JAPANESE] = "封印の剣",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Binding Blade",
         [LANGUAGE_CHINESE] = "封印之剑",
     },
 
     [2947] = {
         [LANGUAGE_JAPANESE] = "見果てぬ夢",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Neverending Dream",
         [LANGUAGE_CHINESE] = "未完的梦",
     },
 
     [2948] = {
         [LANGUAGE_JAPANESE] = "ベルンの亡霊",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Ghosts of Bern",
         [LANGUAGE_CHINESE] = "伯尔尼的亡魂",
     },
 
     [2949] = {
         [LANGUAGE_JAPANESE] = "伝説の真実",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Truth of the Legend",
         [LANGUAGE_CHINESE] = "传说的真相",
     },
 
     [2950] = {
         [LANGUAGE_JAPANESE] = "暗闇の向こう",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Beyond the Darkness",
         [LANGUAGE_CHINESE] = "黑暗的对面",
     },
 
     [2951] = {
         [LANGUAGE_JAPANESE] = "対立のはざまで",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Caught in the Middle",
         [LANGUAGE_CHINESE] = "在对立的夹缝中",
     },
 
     [2952] = {
         [LANGUAGE_JAPANESE] = "自由への脱出",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Escape to Freedom",
         [LANGUAGE_CHINESE] = "奔向自由",
     },
 
     [2953] = {
         [LANGUAGE_JAPANESE] = "司祭の教え",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Bishop’s Teachings",
         [LANGUAGE_CHINESE] = "司祭的指引",
     },
 
     [2954] = {
         [LANGUAGE_JAPANESE] = "サカの掟",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Law of Sacae",
         [LANGUAGE_CHINESE] = "萨卡的法令",
     },
 
     [2955] = {
         [LANGUAGE_JAPANESE] = "ブルガルの攻防",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "Battle in Bulgar",
         [LANGUAGE_CHINESE] = "布露卡鲁攻防战",
     },
 
     [2956] = {
         [LANGUAGE_JAPANESE] = "灰色の狼",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Silver Wolf",
         [LANGUAGE_CHINESE] = "灰色之狼",
     },
 
     [2957] = {
         [LANGUAGE_JAPANESE] = "烈火の剣",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Blazing Sword",
         [LANGUAGE_CHINESE] = "烈火之剑",
     },
 
     [2958] = {
         [LANGUAGE_JAPANESE] = "天雷の斧",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Axe of Lightning",
         [LANGUAGE_CHINESE] = "天雷之斧",
     },
 
     [2959] = {
         [LANGUAGE_JAPANESE] = "業火の理",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Infernal Element",
         [LANGUAGE_CHINESE] = "业火之理",
     },
 
     [2960] = {
         [LANGUAGE_JAPANESE] = "至高の光",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Pinnacle of Light",
         [LANGUAGE_CHINESE] = "至高之光",
     },
 
     [2961] = {
         [LANGUAGE_JAPANESE] = "氷雪の槍",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Frozen Spear",
         [LANGUAGE_CHINESE] = "冰雪之枪",
     },
 
     [2962] = {
         [LANGUAGE_JAPANESE] = "疾風の弓",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Bow of the Winds",
         [LANGUAGE_CHINESE] = "疾风之弓",
     },
 
     [2963] = {
         [LANGUAGE_JAPANESE] = "黙示の闇",
-        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_ENGLISH] = "The Silencing Darkness",
         [LANGUAGE_CHINESE] = "默示之暗",
     },
 
@@ -22717,6 +22717,12 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_JAPANESE] = "BGM",
         [LANGUAGE_ENGLISH] = "BGM",
         [LANGUAGE_CHINESE] = "BGM",
+    },
+
+    [3786] = {
+        [LANGUAGE_JAPANESE] = "デバッグマップ",
+        [LANGUAGE_ENGLISH] = "Debug Map",
+        [LANGUAGE_CHINESE] = "测试地图",
     },
 
     [TEXT_ID_TEST] = {
