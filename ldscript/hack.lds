@@ -32,4 +32,4 @@ INCLUDE ../ldscript/trap.lds
 INCLUDE ../ldscript/banim.lds
 INCLUDE ../ldscript/banim_sprite.lds
 INCLUDE ../ldscript/optionmenu.lds
-/* INCLUDE ../ldscript/expand_chapter_title_id.lds */
+INCLUDE ../ldscript/savescreen.lds
