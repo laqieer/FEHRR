@@ -6,3 +6,5 @@
 .rodata.func_fe6_080898F0PtrNew : {*(.rodata.func_fe6_080898F0PtrNew)}
 . = func_fe6_08088870Ptr;
 .rodata.func_fe6_08088870PtrNew : {*(.rodata.func_fe6_08088870PtrNew)}
+. = AddSaveMenuOptions - 1;
+.text.AddSaveMenuOptionsOld : {*(.text.AddSaveMenuOptionsOld)}

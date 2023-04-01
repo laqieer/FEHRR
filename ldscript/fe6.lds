@@ -12,6 +12,8 @@ AgbMainPtr = 0x8000220;
 GetBasSubjectId = func_fe6_0804B6C4;
 PlayBattleMusic = func_fe6_0805BD64;
 RestoreMapMusicAfterBattle = func_fe6_0805C738;
+AddSaveMenuOptions = func_fe6_0808A524;
+IsTutorialAvailable = func_fe6_08084714;
 
 func_fe6_08088870Ptr = 0x8689f60;
 func_fe6_080898F0Ptr = 0x868a298;

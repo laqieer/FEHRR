@@ -1,5 +1,6 @@
 #include "common.h"
 
+#include "save_core.h"
 #include "save_game.h"
 #include "helpbox.h"
 #include "oam.h"
@@ -8,6 +9,22 @@
 #include "log.h"
 
 #define SAVE_SLOT_NUM 3
+
+enum {
+    MAIN_MENU_OPTION_RESUME     = (1 << 0),
+    MAIN_MENU_OPTION_RESTART    = (1 << 1),
+    MAIN_MENU_OPTION_COPY       = (1 << 2),
+    MAIN_MENU_OPTION_ERASE      = (1 << 3),
+    MAIN_MENU_OPTION_NEW_GAME   = (1 << 4),
+    MAIN_MENU_OPTION_EXTRAS     = (1 << 5),
+};
+
+enum {
+    EXTRA_MENU_OPTION_TRIAL_MAP    = (1 << 0),
+    EXTRA_MENU_OPTION_LINK_ARENA   = (1 << 1),
+    EXTRA_MENU_OPTION_TUTORIAL     = (1 << 2),
+    EXTRA_MENU_OPTION_SOUND_ROOM   = (1 << 3),
+};
 
 extern u8 gSavedChapterFlags[SAVE_SLOT_NUM];
 
@@ -20,21 +37,34 @@ struct SaveScreenProc
 {
     /* 00 */ PROC_HEADER;
 
-    /* 29 */ u8 unk_29;
-    /* 2A */ u8 unk_2A;
-    /* 2B */ u8 unk_2B;
-    /* 2C */ u8 unk_2C[0x37 - 0x2C];
+    /* 29 */ u8 scrollingFrameCounter;
+    /* 2A */ u8 difficulty;
+    /* 2B */ u8 mainMenuCurr;
+    /* 2C */ u8 saveMenuCurr;
+    /* 2D */ u8 staticCurr;
+    /* 2E */ u8 unk_2E;
+    /* 2F */ u8 offsetX;
+    /* 30 */ u8 mainMenuOptions;
+    /* 31 */ u8 mainMenuOptionNum;
+    /* 32 */ u8 extraMenuOptions;
+    /* 33 */ u8 extraMenuOptionNum;
+    /* 34 */ u8 confirmOrCancelOptions;
+    /* 35 */ u8 unk_35;
+    /* 36 */ u8 unk_36;
     /* 37 */ u8 chapterTitleId[SAVE_SLOT_NUM];
     /* 3A */ u8 isChapterCompleted[SAVE_SLOT_NUM];
-    /* 3D */ u8 unk_38[0x3F - 0x3D];
+    /* 3D */ u8 unk_3D;
+    /* 3E */ u8 unk_3E;
     /* 3F */ u8 suspendSaveId;
     /* 40 */ u16 action;
-    /* 42 */ u8 unk_42[0x44 - 0x42];
+    /* 42 */ u16 unk_42;
     /* 44 */ u32 chapterTimeSaved[SAVE_SLOT_NUM];
     /* 50 */ u32 suspendChapterTimeSaved;
-    /* 54 */ u8 unk_54[0x5C - 0x54];
+    /* 54 */ u32 unk_54;
+    /* 58 */ u32 unk_58;
     /* 5C */ ProcPtr unk_5C;
-    /* 60 */ u8 unk_60[0x66 - 0x60];
+    /* 60 */ ProcPtr unk_60;
+    /* 64 */ u16 unk_64;
     /* 66 */ u16 chapterTitleIdNew[SAVE_SLOT_NUM];
 };
 
@@ -81,7 +111,7 @@ void func_fe6_0808A918New(int slot, struct SaveScreenProc *proc)
 
     if (slot < SAVE_SLOT_NUM) {
         if (!IsSaveValid(slot)) {
-            proc->chapterTitleId[slot] = 0xff; // FIXME: Copy Save feature still uses this old field
+            // proc->chapterTitleId[slot] = 0xff;
             proc->chapterTitleIdNew[slot] = CHAPTER_CH_NULL;
             proc->isChapterCompleted[slot] = FALSE;
             proc->chapterTimeSaved[slot] = 0;
@@ -177,8 +207,8 @@ void func_fe6_08088870New(struct SaveScreenProc *proc)
 {
     func_fe6_08088870(proc);
 
-    if (proc->unk_29 == 9) {
-        int slot = proc->unk_2B;
+    if (proc->scrollingFrameCounter == 9) {
+        int slot = proc->mainMenuCurr;
         // int chapterTitleId = proc->chapterTitleId[slot];
         // func_fe6_08070D08(((slot * 0x800 + 0x16800) & 0x1ffff) >> 5, chapterTitleId == 0xff ? -1 : chapterTitleId);
         int chapterTitleId = proc->chapterTitleIdNew[slot];
@@ -187,3 +217,91 @@ void func_fe6_08088870New(struct SaveScreenProc *proc)
 }
 
 void (* const func_fe6_08088870PtrNew)(struct SaveScreenProc *proc) = func_fe6_08088870New;
+
+void ClearMainMenuOption(struct SaveScreenProc *proc) {
+    proc->mainMenuOptions = 0;
+    proc->mainMenuOptionNum = 0;
+}
+
+void ClearExtraMenuOption(struct SaveScreenProc *proc) {
+    proc->extraMenuOptions = 0;
+    proc->extraMenuOptionNum = 0;
+}
+
+void AddMainMenuOption(struct SaveScreenProc *proc, int option) {
+    proc->mainMenuOptions |= option;
+    proc->mainMenuOptionNum++;
+}
+
+void AddExtraMenuOption(struct SaveScreenProc *proc, int option) {
+    proc->extraMenuOptions |= option;
+    proc->extraMenuOptionNum++;
+}
+
+bool IsTutorialAvailable(void);
+
+void AddSaveMenuOptionsNew(struct SaveScreenProc *proc)
+{
+    ClearMainMenuOption(proc);
+    ClearExtraMenuOption(proc);
+
+    if (proc->action == 0x100)
+    {
+        AddMainMenuOption(proc, MAIN_MENU_OPTION_RESUME);
+    }
+
+    int count = 0;
+    for (int slot = 0; slot < SAVE_SLOT_NUM; slot++)
+    {
+        // if (proc->chapterTitleId[slot] != 0xff)
+        if (proc->chapterTitleIdNew[slot] != CHAPTER_CH_NULL)
+        {
+          count++;
+        }
+    }
+
+    if (count > 0)
+    {
+        AddMainMenuOption(proc, MAIN_MENU_OPTION_RESTART);
+        if (count < SAVE_SLOT_NUM)
+        {
+            AddMainMenuOption(proc, MAIN_MENU_OPTION_COPY);
+        }
+        AddMainMenuOption(proc, MAIN_MENU_OPTION_ERASE);
+    }
+
+    if (count < SAVE_SLOT_NUM)
+    {
+        AddMainMenuOption(proc, MAIN_MENU_OPTION_NEW_GAME);
+    }
+
+    if (IsTutorialAvailable())
+    {
+        AddExtraMenuOption(proc, EXTRA_MENU_OPTION_TUTORIAL);
+    }
+
+    if (IsMultiArenaAvailable())
+    {
+        AddExtraMenuOption(proc, EXTRA_MENU_OPTION_LINK_ARENA);
+    }
+
+    if (IsNotFirstPlaythrough_2())
+    {
+        AddExtraMenuOption(proc, EXTRA_MENU_OPTION_SOUND_ROOM);
+    }
+
+    if (CheckHasCompletedSave())
+    {
+        AddExtraMenuOption(proc, EXTRA_MENU_OPTION_TRIAL_MAP);
+    }
+
+    if (proc->extraMenuOptions)
+    {
+        AddMainMenuOption(proc, MAIN_MENU_OPTION_EXTRAS);
+    }
+}
+
+void AddSaveMenuOptionsOld(struct SaveScreenProc *proc)
+{
+    AddSaveMenuOptionsNew(proc);
+}
