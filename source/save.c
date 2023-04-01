@@ -13,6 +13,7 @@
 #include "faction.h"
 #include "battle.h"
 #include "chapter.h"
+#include "chapterNew.h"
 
 #include "constants/chapters.h"
 
@@ -25,7 +26,7 @@ bool IsGameSavePastFirstChapterNew(int save_id)
 
     ReadGameSavePlaySt(save_id, &playSt);
 
-    if (GetChapterInPlaySt((struct PlayStNew *)&playSt) <= CHAPTER_1)
+    if (GetChapterInPlaySt((struct PlayStNew *)&playSt) <= CHAPTER_CH_1st)
         return FALSE;
     else
         return TRUE;
