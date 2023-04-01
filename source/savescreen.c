@@ -240,6 +240,8 @@ void AddExtraMenuOption(struct SaveScreenProc *proc, int option) {
 
 bool IsTutorialAvailable(void);
 
+bool IsSoundRoomAvailable(void);
+
 void AddSaveMenuOptionsNew(struct SaveScreenProc *proc)
 {
     ClearMainMenuOption(proc);
@@ -285,7 +287,7 @@ void AddSaveMenuOptionsNew(struct SaveScreenProc *proc)
         AddExtraMenuOption(proc, EXTRA_MENU_OPTION_LINK_ARENA);
     }
 
-    if (IsNotFirstPlaythrough_2())
+    // if (IsSoundRoomAvailable())
     {
         AddExtraMenuOption(proc, EXTRA_MENU_OPTION_SOUND_ROOM);
     }

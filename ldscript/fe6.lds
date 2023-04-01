@@ -14,6 +14,7 @@ PlayBattleMusic = func_fe6_0805BD64;
 RestoreMapMusicAfterBattle = func_fe6_0805C738;
 AddSaveMenuOptions = func_fe6_0808A524;
 IsTutorialAvailable = func_fe6_08084714;
+IsSoundRoomAvailable = IsNotFirstPlaythrough_2;
 
 func_fe6_08088870Ptr = 0x8689f60;
 func_fe6_080898F0Ptr = 0x868a298;
