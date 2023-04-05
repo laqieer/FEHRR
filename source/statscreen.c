@@ -255,7 +255,7 @@ void PutStatScreenWeaponExp(int num, int x, int y, int item_kind)
         0x70 + item_kind, // TODO: icon id definitions
         TILEREF(0, BGPAL_ICONS + 1));
 
-    color = (wexp >= WPN_EXP_S)
+    color = (wexp >= WEXP_S)
         ? TEXT_COLOR_SYSTEM_GREEN : TEXT_COLOR_SYSTEM_BLUE;
 
     // display rank letter
@@ -268,8 +268,8 @@ void PutStatScreenWeaponExp(int num, int x, int y, int item_kind)
     STATIC_ASSERT(WPN_EXP_A - WPN_EXP_B == (WPN_EXP_D - WPN_EXP_E));
     STATIC_ASSERT(WPN_EXP_S - WPN_EXP_A == (WPN_EXP_D - WPN_EXP_E));
 
-    if (wexp != WPN_EXP_0)
-        wexp -= WPN_EXP_E;
+    if (wexp != WEXP_0)
+        wexp -= WEXP_E;
 
     // BG2 may be switched to 256-color mode for full face. UI gauge only works in 16-color mode so it cannot display normally.
 

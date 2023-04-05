@@ -578,7 +578,7 @@ void FaceDebug_OnIdle(struct GenericProc * proc)
     if (face_id > FID_LAST_OLD && proc->x <= FID_LAST_OLD)
         face_id = FID_NEW + 1;
 
-    face_id = max(FID_1, min(face_id, FID_LAST));
+    face_id = max(FID_01, min(face_id, FID_LAST));
 
     if (background_id < BACKGROUND_0)
         background_id = BACKGROUND_LAST;

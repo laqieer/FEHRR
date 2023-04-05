@@ -196,8 +196,8 @@ void UnitPromoteNew(struct Unit * unit)
 
         wexp += unit->jinfo->wexp[i];
 
-        if (wexp > WPN_EXP_S)
-            wexp = WPN_EXP_S;
+        if (wexp > WEXP_S)
+            wexp = WEXP_S;
 
         unit->wexp[i] = wexp;
     }

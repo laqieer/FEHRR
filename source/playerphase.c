@@ -106,7 +106,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
 
             case PLAYER_SELECT_NOCONTROL:
                 UnitBeginAction(unit);
-                gBmSt.unk_3E = 0;
+                gBmSt.swap_action_range_count = 0;
 
                 Proc_Goto(proc, L_PLAYERPHASE_SEE_RANGE);
 
@@ -225,7 +225,7 @@ void LimitView_InitOld(struct GenericProc * proc)
 
 void PlayerPhase_DisplayDangerZone() {
 
-    GenerateDangerZoneRange(gBmSt.unk_3E & 1);
+    GenerateDangerZoneRange(gBmSt.swap_action_range_count & 1);
 
     MapFill(gMapMovement, -1);
 
@@ -234,7 +234,7 @@ void PlayerPhase_DisplayDangerZone() {
     gBmSt.flags |= (1 << 3);
     gBmSt.flags &= ~(1 << 1);
 
-    if (gBmSt.unk_3E & 1) {
+    if (gBmSt.swap_action_range_count & 1) {
         StartLimitView(5);
     } else {
         StartLimitView(3);

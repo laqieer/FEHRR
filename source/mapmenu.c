@@ -58,7 +58,7 @@ fu8 MapMenu_Unit_SelectNew(struct MenuProc * menu, struct MenuEntProc * ent)
 fu8 MapMenu_DangerZone_Select(struct MenuProc * menu, struct MenuEntProc * ent)
 {
     gActiveUnit = NULL;
-    gBmSt.unk_3E = 0;
+    gBmSt.swap_action_range_count = 0;
     Proc_Goto(FindProc(ProcScr_PlayerPhaseNew), L_PLAYERPHASE_DANGER_ZONE);
 
     return MENU_ACTION_NOCURSOR | MENU_ACTION_END | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
