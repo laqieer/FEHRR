@@ -21,6 +21,7 @@
 ├── 03.06.2019 Update [Beyond Darkness Update].rar
 ├── 03.07.2022 Update [Hop & Go Seek Update].rar
 ├── 03.17.2021 Update [Willful Rabbits Update].rar
+├── 03.17.2023 Update v2[Spring Eternal + Rearmed Tana].rar
 ├── 03.18.2020 Update [Familiar Festivities Update].rar
 ├── 03.18.2022 Update [Ascended Mareeta Update].rar
 ├── 03.19.2019 Update [Regal Rabbits Update].rar
@@ -102,4 +103,4 @@
 ├── 12.28.2022 Update [Gods Renewed].rar
 └── FEH Complete Asset Collection 01.29.19.rar
 
-0 directories, 102 files
+0 directories, 103 files

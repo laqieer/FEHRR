@@ -289,6 +289,9 @@
 │   ├── Acc_1_0320_1.png
 │   ├── Acc_1_0321_0.png
 │   ├── Acc_1_0321_1.png
+│   ├── Acc_1_0327_0.png
+│   ├── Acc_1_0327_1.png
+│   ├── Acc_1_0329_0.png
 │   ├── Acc_2_0002_0.png
 │   ├── Acc_2_0002_1.png
 │   ├── Acc_2_0004_0.png
@@ -307,6 +310,7 @@
 │   ├── Acc_2_0045_2.png
 │   ├── Acc_2_0067_0.png
 │   ├── Acc_2_0067_1.png
+│   ├── Acc_2_0067_2.png
 │   ├── Acc_2_0082_0.png
 │   ├── Acc_2_0082_1.png
 │   ├── Acc_2_0100_0.png
@@ -597,6 +601,13 @@
 │   ├── Acc_3_0319_0.png
 │   ├── Acc_3_0322_0.png
 │   ├── Acc_3_0322_1.png
+│   ├── Acc_3_0324_0.png
+│   ├── Acc_3_0325_0.png
+│   ├── Acc_3_0325_1.png
+│   ├── Acc_3_0326_0.png
+│   ├── Acc_3_0326_1.png
+│   ├── Acc_3_0328_0.png
+│   ├── Acc_3_0328_1.png
 │   ├── Acc_3_9998_0.png
 │   ├── Acc_3_9998_1.png
 │   ├── Acc_3_9998_2.png
@@ -768,6 +779,17 @@
 │   ├── 041_PokharaVillage.png
 │   ├── 044_EarthTemple.png
 │   ├── 044_EarthTempleBoss.png
+│   ├── 06-013_EasterOstiaCity
+│   │   ├── BG_03.png
+│   │   ├── BG_04.png
+│   │   ├── BattleBG.csb
+│   │   └── FG_01.png
+│   ├── 06-014_EasterOstiaCityForest
+│   │   ├── BG_02.png
+│   │   ├── BG_03.png
+│   │   ├── BG_04.png
+│   │   ├── BattleBG.csb
+│   │   └── FG_01.png
 │   ├── 201805.png
 │   ├── 201806.png
 │   ├── 201807.png
@@ -1426,6 +1448,7 @@
 │   ├── EvBg_GullveigCastleInside.png
 │   ├── EvBg_Hood.png
 │   ├── EvBg_Khadein.png
+│   ├── EvBg_LightTemple.png
 │   ├── EvBg_NewYear.png
 │   ├── EvBg_Nisaveril.png
 │   ├── EvBg_NisaverilCastle.png
@@ -1881,6 +1904,7 @@
 │   ├── _84_Bg_Journey.png
 │   ├── _85_BG_02.png
 │   ├── _85_BG_03.png
+│   ├── _85_BG_04.png
 │   ├── _85_BG_FG.png
 │   ├── _85_FG_01.png
 │   ├── _86_BG_02.png
@@ -3424,6 +3448,19 @@
 │   │       ├── Body_Alltex_02 (2).png
 │   │       ├── Body_Alltex_02.png
 │   │       └── Head_C.png
+│   ├── Ashe - Spring
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch17_15_Ashe_M_SpringFes23.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       └── Head_C.png
 │   ├── Ashe - Summer
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -3888,6 +3925,20 @@
 │   │   ├── Face.png
 │   │   ├── Face_FC.png
 │   │   ├── ch17_10_Bernadeta_F_Winter20.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       ├── Head_C.png
+│   │       └── Option_Tex.png
+│   ├── Bernadetta - Spring
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch17_10_Bernadeta_F_SpringFes23.ssbp
 │   │   ├── desktop.ini
 │   │   └── tex
 │   │       ├── Body_AllTex.png
@@ -7522,6 +7573,19 @@
 │   │   └── tex
 │   │       ├── Body_AllTex.png
 │   │       └── Option_Tex.png
+│   ├── Gilliam
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch08_32_Gilliam_Normal.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       └── Head_C.png
 │   ├── Gonzalez
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -9232,6 +9296,28 @@
 │   │   └── tex
 │   │       ├── Body_AllTex.png
 │   │       └── Head_C.png
+│   ├── Karla - Spring Duo
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch03_19_Karla_FF_Pair.ssbp
+│   │   ├── ch03_19_Karla_FF_PairMain.ssbp
+│   │   ├── ch03_19_Karla_FF_PairSub.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex (2).png
+│   │       ├── Body_AllTex (3).png
+│   │       ├── Body_AllTex.png
+│   │       ├── Body_AllTex_sub.png
+│   │       ├── Head_C (2).png
+│   │       ├── Head_C (3).png
+│   │       ├── Head_C.png
+│   │       ├── Option_Tex (2).png
+│   │       └── Option_Tex.png
 │   ├── Katarina
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -10894,6 +10980,20 @@
 │   │   └── tex
 │   │       ├── Body_AllTex.png
 │   │       └── Head_C.png
+│   ├── Lyn - Resplendent CYL
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch03_00_Lin_F_ELECTION01EX01.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       ├── Head_C.png
+│   │       └── Option_Tex.png
 │   ├── Lyn - Summer
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -11683,6 +11783,19 @@
 │   │   └── tex
 │   │       ├── Body_AllTex.png
 │   │       └── Option_Tex_bup.png
+│   ├── Michalis - Spring
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch01_22_Misheil_M_SpringFes23.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       └── Head_C.png
 │   ├── Midori
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -13150,6 +13263,20 @@
 │   │       ├── Body_AllTex.png
 │   │       ├── Head_C.png
 │   │       └── Option_Tex.png
+│   ├── Palla - Resplendent
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch01_18_Paora_F_NormalEX01.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       ├── Head_C.png
+│   │       └── Option_Tex.png
 │   ├── Palla - Spring
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -13960,6 +14087,19 @@
 │   │       ├── Option2_Tex.png
 │   │       ├── Option_Tex (2).png
 │   │       └── Option_Tex.png
+│   ├── Robin M - Legendary
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch04_07_Reflet_M_Legend01.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       └── Head_C.png
 │   ├── Robin M - Resplendent
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -15587,6 +15727,20 @@
 │   │       ├── Body_AllTex.png
 │   │       ├── Head_C.png
 │   │       └── Option_Tex.png
+│   ├── Syrene
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch08_34_Sirene_Normal.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       ├── Head_C.png
+│   │       └── Option_Tex.png
 │   ├── Tailtiu
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -15717,6 +15871,19 @@
 │   │       ├── Head_C.png
 │   │       ├── Option_Tex (2).png
 │   │       └── Option_Tex.png
+│   ├── Tana - Rearmed
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch08_05_Turner_M_Weapon01.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       └── Head_C.png
 │   ├── Tana - Resplendent
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -16218,6 +16385,19 @@
 │   │   └── tex
 │   │       ├── Body_AllTex.png
 │   │       └── Head_C.png
+│   ├── Triandra - Spring
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch00_24_Scabiosa_F_SpringFes23.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       └── Head_C.png
 │   ├── Tsubasa
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -16309,6 +16489,20 @@
 │   │       ├── Body_AllTex.png
 │   │       ├── Option_Tex_Manto.png
 │   │       └── ch08_06_Walter_M_Normal.png
+│   ├── Vanessa
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch08_33_Vanessa_Normal.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       ├── Head_C.png
+│   │       └── Option_Tex.png
 │   ├── Veld
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -16514,6 +16708,19 @@
 │   │   ├── Face_Pain.png
 │   │   ├── Face_Pain2.png
 │   │   └── Face_Smile.png
+│   ├── Vigarde
+│   │   ├── BtlFace.png
+│   │   ├── BtlFace_BU.png
+│   │   ├── BtlFace_BU_D.png
+│   │   ├── BtlFace_C.png
+│   │   ├── BtlFace_D.png
+│   │   ├── Face.png
+│   │   ├── Face_FC.png
+│   │   ├── ch08_35_Vigard_Normal.ssbp
+│   │   ├── desktop.ini
+│   │   └── tex
+│   │       ├── Body_AllTex.png
+│   │       └── Head_C.png
 │   ├── Vika - Pirate
 │   │   ├── BtlFace.png
 │   │   ├── BtlFace_BU.png
@@ -17956,6 +18163,17 @@
 │   ├── H0919.png
 │   ├── H0920.png
 │   ├── H0921.png
+│   ├── H0922.png
+│   ├── H0923.png
+│   ├── H0924.png
+│   ├── H0925.png
+│   ├── H0926.png
+│   ├── H0927.png
+│   ├── H0928.png
+│   ├── H0929.png
+│   ├── H0930.png
+│   ├── H0931.png
+│   ├── H0932.png
 │   ├── K0010.png
 │   ├── K0011.png
 │   ├── K0012.png
@@ -18081,6 +18299,7 @@
 │   ├── O0091.png
 │   ├── O0094.png
 │   ├── O0097.png
+│   ├── O0105.png
 │   ├── O0111.png
 │   ├── O0131.png
 │   ├── O0140.png
@@ -18089,6 +18308,7 @@
 │   ├── O0159.png
 │   ├── O0164.png
 │   ├── O0167.png
+│   ├── O0182.png
 │   ├── O0184.png
 │   ├── O0187.png
 │   ├── O0188.png
@@ -18763,6 +18983,9 @@
 │   ├── PB181.png
 │   ├── PB182.png
 │   ├── PB183.png
+│   ├── PB184.png
+│   ├── PB185.png
+│   ├── PB186.png
 │   ├── PC022.png
 │   ├── PC023.png
 │   ├── PC025.png
@@ -18849,6 +19072,7 @@
 │   ├── PC106.png
 │   ├── PC107.png
 │   ├── PC108.png
+│   ├── PC109.png
 │   ├── Paralogues
 │   │   ├── X0001.png
 │   │   ├── X0002.png
@@ -19154,6 +19378,10 @@
 │   ├── Q0254.png
 │   ├── Q0255.png
 │   ├── Q0256.png
+│   ├── Q0257.png
+│   ├── Q0258.png
+│   ├── Q0259.png
+│   ├── Q0260.png
 │   ├── Rival Domains & Grand Conquest
 │   │   ├── O0211.png
 │   │   ├── O0212.png
@@ -19762,6 +19990,11 @@
 │   ├── S7043.png
 │   ├── S7044.png
 │   ├── S7045.png
+│   ├── S7051.png
+│   ├── S7052.png
+│   ├── S7053.png
+│   ├── S7054.png
+│   ├── S7055.png
 │   ├── Skill_Passive7.png
 │   ├── Spark_Shadow.png
 │   ├── T0047.png
@@ -19861,6 +20094,8 @@
 │   ├── T0144.png
 │   ├── T0145.png
 │   ├── T0146.png
+│   ├── T0147.png
+│   ├── T0148.png
 │   ├── U0001.png
 │   ├── U0002.png
 │   ├── U0003.png
@@ -19939,6 +20174,7 @@
 │   ├── W0074.png
 │   ├── W0075.png
 │   ├── W0076.png
+│   ├── W0077.png
 │   ├── WallPattern_Nisaveril.png
 │   ├── Wallpattern_Hell.png
 │   ├── Wallpattern_Snow.png
@@ -20108,6 +20344,9 @@
 │   ├── X0811.png
 │   ├── X0812.png
 │   ├── X0813.png
+│   ├── X0821.png
+│   ├── X0822.png
+│   ├── X0823.png
 │   ├── Y0001.png
 │   ├── Y0002.png
 │   ├── Y0003.png
@@ -20606,6 +20845,8 @@
 │   ├── FE17_11.mp3
 │   ├── FE17_12.mp3
 │   ├── FE17_13.mp3
+│   ├── FE17_15.mp3
+│   ├── FE17_16.mp3
 │   ├── FEH_68 (Binding Worlds).mp3
 │   ├── FEH_69 (Map 10).mp3
 │   ├── FEH_70 (Plain 4).mp3
@@ -20621,7 +20862,13 @@
 │   ├── se_btl_slash1.ckb
 │   ├── se_fs_normal_wood_2.ckb
 │   ├── se_fs_normal_wood_3.ckb
+│   ├── se_journey_bird3.ckb
+│   ├── se_journey_bird4.ckb
 │   ├── se_journey_cork.ckb
+│   ├── se_journey_dragon1.ckb
+│   ├── se_journey_dragon2.ckb
+│   ├── se_journey_egg_break.ckb
+│   ├── se_journey_egg_crack.ckb
 │   ├── se_journey_flap.ckb
 │   ├── se_journey_penguin.ckb
 │   └── se_journey_rope_pull.ckb
@@ -21054,6 +21301,7 @@
 │   ├── 202301.png
 │   ├── 202301_2.png
 │   ├── 202302.png
+│   ├── 202303.png
 │   ├── Banner_Encourage_202012.png
 │   ├── Banner_Encourage_202206.png
 │   ├── Banner_SeasonalEvent_4.png
@@ -21224,6 +21472,8 @@
 │   ├── C0702_C.png
 │   ├── C0704.png
 │   ├── C0704_C.png
+│   ├── C0705.png
+│   ├── C0705_C.png
 │   ├── CX000.png
 │   ├── CX001.png
 │   ├── CX002.png
@@ -21306,6 +21556,7 @@
 │   ├── CX079.png
 │   ├── CX080.png
 │   ├── CX081.png
+│   ├── CX082.png
 │   ├── CXX01.png
 │   ├── CXX02.png
 │   ├── CXX03.png
@@ -21370,6 +21621,7 @@
 │   ├── L0057.png
 │   ├── L0058.png
 │   ├── L0059.png
+│   ├── L0060.png
 │   ├── Q0001.png
 │   ├── Q0002.png
 │   ├── Q0003.png
@@ -21604,6 +21856,8 @@
 │   ├── T0144.png
 │   ├── T0145.png
 │   ├── T0146.png
+│   ├── T0147.png
+│   ├── T0148.png
 │   ├── U0001.png
 │   ├── U0002.png
 │   ├── U0003.png
@@ -21628,6 +21882,9 @@
 │   ├── V0371.png
 │   └── _76_202204.png
 ├── UI
+│   ├── 005_CastleSide.png
+│   ├── 015_SouenCastle.png
+│   ├── 202303.png
 │   ├── Aether Raids
 │   │   ├── Bg_SkyCastle_00.png
 │   │   ├── Bg_SkyCastle_01.png
@@ -21860,6 +22117,7 @@
 │   ├── BattleEffect.png
 │   ├── Bird.png
 │   ├── Blessing.png
+│   ├── Blizzard.png
 │   ├── Bln_Item_invert.png
 │   ├── BoardGame.png
 │   ├── Breakaway.png
@@ -21905,6 +22163,7 @@
 │   ├── Common_Window.png
 │   ├── Config.png
 │   ├── ConnectBonds.png
+│   ├── Creatures.png
 │   ├── Deco13.png
 │   ├── Deco21.png
 │   ├── Deco30.png
@@ -22032,6 +22291,8 @@
 │   ├── Face_202210_0.png
 │   ├── Face_202210_1.png
 │   ├── Face_202210_2.png
+│   ├── Face_202302_0.png
+│   ├── Face_202302_1.png
 │   ├── Face_210202_0.png
 │   ├── Face_210202_1.png
 │   ├── Face_210202_2.png
@@ -22041,10 +22302,12 @@
 │   ├── Face_210401_3.png
 │   ├── Face_ArmorAX.png
 │   ├── Face_DKnightLC.png
+│   ├── Face_FighterLC.png
 │   ├── Face_KnightAX.png
 │   ├── Face_KnightBW.png
 │   ├── Face_KnightLC.png
 │   ├── Face_MamkuteRed.png
+│   ├── Face_SisterRD.png
 │   ├── Face_ThiefDGRed.png
 │   ├── Fade.png
 │   ├── Feh.png
@@ -22475,6 +22738,7 @@
 │   ├── Home.png
 │   ├── HomeGuide.png
 │   ├── IceFishing.png
+│   ├── IceHotel.png
 │   ├── Icon_Bg_DetailedStatus.png
 │   ├── Icon_Bg_DetailedStatus_Ask.png
 │   ├── Icon_Bg_DetailedStatus_Ask_Reliance.png
@@ -22766,10 +23030,12 @@
 │   ├── Mob.png
 │   ├── Navigation JP.png
 │   ├── Navigation.png
+│   ├── Nest.png
 │   ├── Number.png
 │   ├── Occupation.png
 │   ├── Party.png
 │   ├── Plist.png
+│   ├── PorttownToha.png
 │   ├── Present.png
 │   ├── Profile.png
 │   ├── Prop_Lunch.png
@@ -22850,6 +23116,7 @@
 │   ├── SkyCastle_Item_Summer.png
 │   ├── SkyCastle_Result.png
 │   ├── SkyCastle_Tutorial.png
+│   ├── SnowShelter.png
 │   ├── Snowman.png
 │   ├── Spa Stuff
 │   │   ├── Anim00_Bed.png
@@ -23270,6 +23537,9 @@
 │   ├── v6.8_Popup.png
 │   ├── v6.9_Popup.png
 │   ├── v7.0_Popup.png
+│   ├── v7.2_Popup.png
+│   ├── v7.3_Popup.png
+│   ├── v7.3_v0703b_seima_Journey.png
 │   └── wep_sw_L.png
 ├── Voices [English]
 │   ├── Abel
@@ -24086,6 +24356,28 @@
 │   │   ├── VOICE_ASH_NEWYEAR01_STATUS_7.ckb
 │   │   ├── VOICE_ASH_NEWYEAR01_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Ashe - Spring
+│   │   ├── VOICE_ASHE_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Ashe - Summer
 │   │   ├── VOICE_ASHE_SUMMER09_ATTACK_1.ckb
 │   │   ├── VOICE_ASHE_SUMMER09_ATTACK_2.ckb
@@ -24835,6 +25127,28 @@
 │   │   ├── VOICE_BERNADETA_WINTER04_STATUS_6.ckb
 │   │   ├── VOICE_BERNADETA_WINTER04_STATUS_7.ckb
 │   │   ├── VOICE_BERNADETA_WINTER04_STATUS_8.ckb
+│   │   └── desktop.ini
+│   ├── Bernadetta - Spring
+│   │   ├── VOICE_BERNADETA_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_8.ckb
 │   │   └── desktop.ini
 │   ├── Bertram
 │   │   ├── VOICE_BEUFORES_ATTACK_1.ckb
@@ -30593,6 +30907,28 @@
 │   │   ├── VOICE_GARNEF_STATUS_6.ckb
 │   │   ├── VOICE_GARNEF_STATUS_7.ckb
 │   │   └── VOICE_GARNEF_STATUS_8.ckb
+│   ├── Gilliam
+│   │   ├── VOICE_GILLIAM_ATTACK_1.ckb
+│   │   ├── VOICE_GILLIAM_ATTACK_2.ckb
+│   │   ├── VOICE_GILLIAM_DAMAGE_1.ckb
+│   │   ├── VOICE_GILLIAM_DAMAGE_2.ckb
+│   │   ├── VOICE_GILLIAM_DEAD_1.ckb
+│   │   ├── VOICE_GILLIAM_MAP_1.ckb
+│   │   ├── VOICE_GILLIAM_MAP_2.ckb
+│   │   ├── VOICE_GILLIAM_MAP_3.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_1.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_2.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_3.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_4.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_1.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_2.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_3.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_4.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_5.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_6.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_7.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Gonzalez
 │   │   ├── VOICE_GONZALES_ATTACK_1.ckb
 │   │   ├── VOICE_GONZALES_ATTACK_2.ckb
@@ -33301,6 +33637,46 @@
 │   │   ├── VOICE_KARLA_EX01_STATUS_7.ckb
 │   │   ├── VOICE_KARLA_EX01_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Karla - Spring Duo
+│   │   ├── VOICE_KARLA_PAIR01_ATTACK_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_ATTACK_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_1A.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_1B.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DEAD_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_MAP_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_MAP_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_MAP_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_10.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_11.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_12.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_13.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_14.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_15.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_16.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_17.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_4.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_5.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_6.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_7.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_8.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_9.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_1A.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_1B.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_4.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SPECIAL_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SPECIAL_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_STATUS_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_STATUS_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SUPPORT_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SUPPORT_2.ckb
+│   │   └── desktop.ini
 │   ├── Katarina
 │   │   ├── VOICE_KATARINA_ATTACK_1.ckb
 │   │   ├── VOICE_KATARINA_ATTACK_2.ckb
@@ -35913,6 +36289,28 @@
 │   │   ├── VOICE_LIN_LEGEND01_STATUS_6.ckb
 │   │   ├── VOICE_LIN_LEGEND01_STATUS_7.ckb
 │   │   └── VOICE_LIN_LEGEND01_STATUS_8.ckb
+│   ├── Lyn - Resplendent CYL
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_ATTACK_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_ATTACK_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_DAMAGE_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_DAMAGE_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_DEAD_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_MAP_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_MAP_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_MAP_3.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_3.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_4.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_3.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_4.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_5.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_6.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_7.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Lyn - Summer
 │   │   ├── VOICE_LIN_SUMMER06_ATTACK_1.ckb
 │   │   ├── VOICE_LIN_SUMMER06_ATTACK_2.ckb
@@ -37236,6 +37634,28 @@
 │   │   ├── VOICE_MISHEIL_STATUS_6.ckb
 │   │   ├── VOICE_MISHEIL_STATUS_7.ckb
 │   │   └── VOICE_MISHEIL_STATUS_8.ckb
+│   ├── Michalis - Spring
+│   │   ├── VOICE_MISHEIL_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Midori
 │   │   ├── VOICE_MIDORIKO_ATTACK_1.ckb
 │   │   ├── VOICE_MIDORIKO_ATTACK_2.ckb
@@ -39465,6 +39885,28 @@
 │   │   ├── VOICE_PAORA_ECHOES_STATUS_7.ckb
 │   │   ├── VOICE_PAORA_ECHOES_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Palla - Resplendent
+│   │   ├── VOICE_PAORA_EX01_ATTACK_1.ckb
+│   │   ├── VOICE_PAORA_EX01_ATTACK_2.ckb
+│   │   ├── VOICE_PAORA_EX01_DAMAGE_1.ckb
+│   │   ├── VOICE_PAORA_EX01_DAMAGE_2.ckb
+│   │   ├── VOICE_PAORA_EX01_DEAD_1.ckb
+│   │   ├── VOICE_PAORA_EX01_MAP_1.ckb
+│   │   ├── VOICE_PAORA_EX01_MAP_2.ckb
+│   │   ├── VOICE_PAORA_EX01_MAP_3.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_1.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_2.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_3.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_4.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_1.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_2.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_3.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_4.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_5.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_6.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_7.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Palla - Spring
 │   │   ├── VOICE_PAORA_SPRING03_ATTACK_1.ckb
 │   │   ├── VOICE_PAORA_SPRING03_ATTACK_2.ckb
@@ -40662,6 +41104,28 @@
 │   │   ├── VOICE_REFLET_M_DARK01_STATUS_6.ckb
 │   │   ├── VOICE_REFLET_M_DARK01_STATUS_7.ckb
 │   │   └── VOICE_REFLET_M_DARK01_STATUS_8.ckb
+│   ├── Robin M - Legendary
+│   │   ├── VOICE_REFLET_M_LEGEND01_ATTACK_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_ATTACK_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_DAMAGE_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_DAMAGE_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_DEAD_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_MAP_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_MAP_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_MAP_3.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_3.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_4.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_3.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_4.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_5.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_6.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_7.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Robin M - Resplendent
 │   │   ├── VOICE_REFLET_M_EX01_ATTACK_1.ckb
 │   │   ├── VOICE_REFLET_M_EX01_ATTACK_2.ckb
@@ -43147,6 +43611,28 @@
 │   │   ├── VOICE_SYLVAIN_SUMMER08_STATUS_7.ckb
 │   │   ├── VOICE_SYLVAIN_SUMMER08_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Syrene
+│   │   ├── VOICE_SIRENE_ATTACK_1.ckb
+│   │   ├── VOICE_SIRENE_ATTACK_2.ckb
+│   │   ├── VOICE_SIRENE_DAMAGE_1.ckb
+│   │   ├── VOICE_SIRENE_DAMAGE_2.ckb
+│   │   ├── VOICE_SIRENE_DEAD_1.ckb
+│   │   ├── VOICE_SIRENE_MAP_1.ckb
+│   │   ├── VOICE_SIRENE_MAP_2.ckb
+│   │   ├── VOICE_SIRENE_MAP_3.ckb
+│   │   ├── VOICE_SIRENE_SKILL_1.ckb
+│   │   ├── VOICE_SIRENE_SKILL_2.ckb
+│   │   ├── VOICE_SIRENE_SKILL_3.ckb
+│   │   ├── VOICE_SIRENE_SKILL_4.ckb
+│   │   ├── VOICE_SIRENE_STATUS_1.ckb
+│   │   ├── VOICE_SIRENE_STATUS_2.ckb
+│   │   ├── VOICE_SIRENE_STATUS_3.ckb
+│   │   ├── VOICE_SIRENE_STATUS_4.ckb
+│   │   ├── VOICE_SIRENE_STATUS_5.ckb
+│   │   ├── VOICE_SIRENE_STATUS_6.ckb
+│   │   ├── VOICE_SIRENE_STATUS_7.ckb
+│   │   ├── VOICE_SIRENE_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Tailtiu
 │   │   ├── VOICE_TAILTO_ATTACK_1.ckb
 │   │   ├── VOICE_TAILTO_ATTACK_2.ckb
@@ -43378,6 +43864,28 @@
 │   │   ├── VOICE_TURNER_PAIR01_STATUS_2.ckb
 │   │   ├── VOICE_TURNER_PAIR01_SUPPORT_1.ckb
 │   │   ├── VOICE_TURNER_PAIR01_SUPPORT_2.ckb
+│   │   └── desktop.ini
+│   ├── Tana - Rearmed
+│   │   ├── VOICE_TURNER_WEAPON01_ATTACK_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_ATTACK_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_DAMAGE_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_DAMAGE_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_DEAD_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_MAP_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_MAP_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_MAP_3.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_3.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_4.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_3.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_4.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_5.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_6.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_7.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_8.ckb
 │   │   └── desktop.ini
 │   ├── Tana - Resplendent
 │   │   ├── VOICE_TURNER_EX01_ATTACK_1.ckb
@@ -44174,6 +44682,28 @@
 │   │   ├── VOICE_SCABIOSA_STATUS_7.ckb
 │   │   ├── VOICE_SCABIOSA_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Triandra - Spring
+│   │   ├── VOICE_SCABIOSA_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Tsubasa
 │   │   ├── VOICE_TSUBASA_ATTACK_1.ckb
 │   │   ├── VOICE_TSUBASA_ATTACK_2.ckb
@@ -44332,6 +44862,28 @@
 │   │   ├── VOICE_WALTER_STATUS_6.ckb
 │   │   ├── VOICE_WALTER_STATUS_7.ckb
 │   │   └── VOICE_WALTER_STATUS_8.ckb
+│   ├── Vanessa
+│   │   ├── VOICE_VANESSA_ATTACK_1.ckb
+│   │   ├── VOICE_VANESSA_ATTACK_2.ckb
+│   │   ├── VOICE_VANESSA_DAMAGE_1.ckb
+│   │   ├── VOICE_VANESSA_DAMAGE_2.ckb
+│   │   ├── VOICE_VANESSA_DEAD_1.ckb
+│   │   ├── VOICE_VANESSA_MAP_1.ckb
+│   │   ├── VOICE_VANESSA_MAP_2.ckb
+│   │   ├── VOICE_VANESSA_MAP_3.ckb
+│   │   ├── VOICE_VANESSA_SKILL_1.ckb
+│   │   ├── VOICE_VANESSA_SKILL_2.ckb
+│   │   ├── VOICE_VANESSA_SKILL_3.ckb
+│   │   ├── VOICE_VANESSA_SKILL_4.ckb
+│   │   ├── VOICE_VANESSA_STATUS_1.ckb
+│   │   ├── VOICE_VANESSA_STATUS_2.ckb
+│   │   ├── VOICE_VANESSA_STATUS_3.ckb
+│   │   ├── VOICE_VANESSA_STATUS_4.ckb
+│   │   ├── VOICE_VANESSA_STATUS_5.ckb
+│   │   ├── VOICE_VANESSA_STATUS_6.ckb
+│   │   ├── VOICE_VANESSA_STATUS_7.ckb
+│   │   ├── VOICE_VANESSA_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Veld
 │   │   ├── VOICE_VELD_ATTACK_1.ckb
 │   │   ├── VOICE_VELD_ATTACK_2.ckb
@@ -44560,6 +45112,28 @@
 │   │   ├── VOICE_VERONICA_VALENTINE04_STATUS_8.ckb
 │   │   └── desktop.ini
 │   ├── Veronica 2
+│   ├── Vigarde
+│   │   ├── VOICE_VIGARD_ATTACK_1.ckb
+│   │   ├── VOICE_VIGARD_ATTACK_2.ckb
+│   │   ├── VOICE_VIGARD_DAMAGE_1.ckb
+│   │   ├── VOICE_VIGARD_DAMAGE_2.ckb
+│   │   ├── VOICE_VIGARD_DEAD_1.ckb
+│   │   ├── VOICE_VIGARD_MAP_1.ckb
+│   │   ├── VOICE_VIGARD_MAP_2.ckb
+│   │   ├── VOICE_VIGARD_MAP_3.ckb
+│   │   ├── VOICE_VIGARD_SKILL_1.ckb
+│   │   ├── VOICE_VIGARD_SKILL_2.ckb
+│   │   ├── VOICE_VIGARD_SKILL_3.ckb
+│   │   ├── VOICE_VIGARD_SKILL_4.ckb
+│   │   ├── VOICE_VIGARD_STATUS_1.ckb
+│   │   ├── VOICE_VIGARD_STATUS_2.ckb
+│   │   ├── VOICE_VIGARD_STATUS_3.ckb
+│   │   ├── VOICE_VIGARD_STATUS_4.ckb
+│   │   ├── VOICE_VIGARD_STATUS_5.ckb
+│   │   ├── VOICE_VIGARD_STATUS_6.ckb
+│   │   ├── VOICE_VIGARD_STATUS_7.ckb
+│   │   ├── VOICE_VIGARD_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Vika - Pirate
 │   │   ├── VOICE_WIESE_PIRATE01_ATTACK_1.ckb
 │   │   ├── VOICE_WIESE_PIRATE01_ATTACK_2.ckb
@@ -45984,6 +46558,28 @@
 │   │   ├── VOICE_ASH_NEWYEAR01_STATUS_7.ckb
 │   │   ├── VOICE_ASH_NEWYEAR01_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Ashe - Spring
+│   │   ├── VOICE_ASHE_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_ASHE_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_ASHE_SPRING01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Ashe - Summer
 │   │   ├── VOICE_ASHE_SUMMER09_ATTACK_1.ckb
 │   │   ├── VOICE_ASHE_SUMMER09_ATTACK_2.ckb
@@ -46695,6 +47291,28 @@
 │   │   ├── VOICE_BERNADETA_WINTER04_STATUS_6.ckb
 │   │   ├── VOICE_BERNADETA_WINTER04_STATUS_7.ckb
 │   │   ├── VOICE_BERNADETA_WINTER04_STATUS_8.ckb
+│   │   └── desktop.ini
+│   ├── Bernadetta - Spring
+│   │   ├── VOICE_BERNADETA_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_BERNADETA_SPRING01_STATUS_8.ckb
 │   │   └── desktop.ini
 │   ├── Bertram
 │   │   ├── VOICE_BEUFORES_ATTACK_1.ckb
@@ -52451,6 +53069,28 @@
 │   │   ├── VOICE_GARNEF_STATUS_6.ckb
 │   │   ├── VOICE_GARNEF_STATUS_7.ckb
 │   │   └── VOICE_GARNEF_STATUS_8.ckb
+│   ├── Gilliam
+│   │   ├── VOICE_GILLIAM_ATTACK_1.ckb
+│   │   ├── VOICE_GILLIAM_ATTACK_2.ckb
+│   │   ├── VOICE_GILLIAM_DAMAGE_1.ckb
+│   │   ├── VOICE_GILLIAM_DAMAGE_2.ckb
+│   │   ├── VOICE_GILLIAM_DEAD_1.ckb
+│   │   ├── VOICE_GILLIAM_MAP_1.ckb
+│   │   ├── VOICE_GILLIAM_MAP_2.ckb
+│   │   ├── VOICE_GILLIAM_MAP_3.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_1.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_2.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_3.ckb
+│   │   ├── VOICE_GILLIAM_SKILL_4.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_1.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_2.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_3.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_4.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_5.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_6.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_7.ckb
+│   │   ├── VOICE_GILLIAM_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Gonzalez
 │   │   ├── VOICE_GONZALES_ATTACK_1.ckb
 │   │   ├── VOICE_GONZALES_ATTACK_2.ckb
@@ -55160,6 +55800,46 @@
 │   │   ├── VOICE_KARLA_EX01_STATUS_7.ckb
 │   │   ├── VOICE_KARLA_EX01_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Karla - Spring Duo
+│   │   ├── VOICE_KARLA_PAIR01_ATTACK_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_ATTACK_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_1A.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_1B.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DAMAGE_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_DEAD_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_MAP_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_MAP_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_MAP_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_10.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_11.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_12.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_13.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_14.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_15.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_16.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_17.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_4.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_5.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_6.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_7.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_8.ckb
+│   │   ├── VOICE_KARLA_PAIR01_RELIANCE_9.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_1A.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_1B.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_3.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SKILL_4.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SPECIAL_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SPECIAL_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_STATUS_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_STATUS_2.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SUPPORT_1.ckb
+│   │   ├── VOICE_KARLA_PAIR01_SUPPORT_2.ckb
+│   │   └── desktop.ini
 │   ├── Katarina
 │   │   ├── VOICE_KATARINA_ATTACK_1.ckb
 │   │   ├── VOICE_KATARINA_ATTACK_2.ckb
@@ -57772,6 +58452,28 @@
 │   │   ├── VOICE_LIN_LEGEND01_STATUS_6.ckb
 │   │   ├── VOICE_LIN_LEGEND01_STATUS_7.ckb
 │   │   └── VOICE_LIN_LEGEND01_STATUS_8.ckb
+│   ├── Lyn - Resplendent CYL
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_ATTACK_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_ATTACK_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_DAMAGE_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_DAMAGE_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_DEAD_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_MAP_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_MAP_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_MAP_3.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_3.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_SKILL_4.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_1.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_2.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_3.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_4.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_5.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_6.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_7.ckb
+│   │   ├── VOICE_LIN_POPULARITY01_EX01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Lyn - Summer
 │   │   ├── VOICE_LIN_SUMMER06_ATTACK_1.ckb
 │   │   ├── VOICE_LIN_SUMMER06_ATTACK_2.ckb
@@ -59095,6 +59797,28 @@
 │   │   ├── VOICE_MISHEIL_STATUS_6.ckb
 │   │   ├── VOICE_MISHEIL_STATUS_7.ckb
 │   │   └── VOICE_MISHEIL_STATUS_8.ckb
+│   ├── Michalis - Spring
+│   │   ├── VOICE_MISHEIL_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_MISHEIL_SPRING01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Midori
 │   │   ├── VOICE_MIDORIKO_ATTACK_1.ckb
 │   │   ├── VOICE_MIDORIKO_ATTACK_2.ckb
@@ -61284,6 +62008,28 @@
 │   │   ├── VOICE_PAORA_ECHOES_STATUS_7.ckb
 │   │   ├── VOICE_PAORA_ECHOES_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Palla - Resplendent
+│   │   ├── VOICE_PAORA_EX01_ATTACK_1.ckb
+│   │   ├── VOICE_PAORA_EX01_ATTACK_2.ckb
+│   │   ├── VOICE_PAORA_EX01_DAMAGE_1.ckb
+│   │   ├── VOICE_PAORA_EX01_DAMAGE_2.ckb
+│   │   ├── VOICE_PAORA_EX01_DEAD_1.ckb
+│   │   ├── VOICE_PAORA_EX01_MAP_1.ckb
+│   │   ├── VOICE_PAORA_EX01_MAP_2.ckb
+│   │   ├── VOICE_PAORA_EX01_MAP_3.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_1.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_2.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_3.ckb
+│   │   ├── VOICE_PAORA_EX01_SKILL_4.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_1.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_2.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_3.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_4.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_5.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_6.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_7.ckb
+│   │   ├── VOICE_PAORA_EX01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Palla - Spring
 │   │   ├── VOICE_PAORA_SPRING03_ATTACK_1.ckb
 │   │   ├── VOICE_PAORA_SPRING03_ATTACK_2.ckb
@@ -62461,6 +63207,28 @@
 │   │   ├── VOICE_REFLET_M_DARK01_STATUS_6.ckb
 │   │   ├── VOICE_REFLET_M_DARK01_STATUS_7.ckb
 │   │   └── VOICE_REFLET_M_DARK01_STATUS_8.ckb
+│   ├── Robin M - Legendary
+│   │   ├── VOICE_REFLET_M_LEGEND01_ATTACK_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_ATTACK_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_DAMAGE_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_DAMAGE_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_DEAD_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_MAP_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_MAP_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_MAP_3.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_3.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_SKILL_4.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_1.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_2.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_3.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_4.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_5.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_6.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_7.ckb
+│   │   ├── VOICE_REFLET_M_LEGEND01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Robin M - Resplendent
 │   │   ├── VOICE_REFLET_M_EX01_ATTACK_1.ckb
 │   │   ├── VOICE_REFLET_M_EX01_ATTACK_2.ckb
@@ -64947,6 +65715,28 @@
 │   │   ├── VOICE_SYLVAIN_SUMMER08_STATUS_7.ckb
 │   │   ├── VOICE_SYLVAIN_SUMMER08_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Syrene
+│   │   ├── VOICE_SIRENE_ATTACK_1.ckb
+│   │   ├── VOICE_SIRENE_ATTACK_2.ckb
+│   │   ├── VOICE_SIRENE_DAMAGE_1.ckb
+│   │   ├── VOICE_SIRENE_DAMAGE_2.ckb
+│   │   ├── VOICE_SIRENE_DEAD_1.ckb
+│   │   ├── VOICE_SIRENE_MAP_1.ckb
+│   │   ├── VOICE_SIRENE_MAP_2.ckb
+│   │   ├── VOICE_SIRENE_MAP_3.ckb
+│   │   ├── VOICE_SIRENE_SKILL_1.ckb
+│   │   ├── VOICE_SIRENE_SKILL_2.ckb
+│   │   ├── VOICE_SIRENE_SKILL_3.ckb
+│   │   ├── VOICE_SIRENE_SKILL_4.ckb
+│   │   ├── VOICE_SIRENE_STATUS_1.ckb
+│   │   ├── VOICE_SIRENE_STATUS_2.ckb
+│   │   ├── VOICE_SIRENE_STATUS_3.ckb
+│   │   ├── VOICE_SIRENE_STATUS_4.ckb
+│   │   ├── VOICE_SIRENE_STATUS_5.ckb
+│   │   ├── VOICE_SIRENE_STATUS_6.ckb
+│   │   ├── VOICE_SIRENE_STATUS_7.ckb
+│   │   ├── VOICE_SIRENE_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Tailtiu
 │   │   ├── VOICE_TAILTO_ATTACK_1.ckb
 │   │   ├── VOICE_TAILTO_ATTACK_2.ckb
@@ -65178,6 +65968,28 @@
 │   │   ├── VOICE_TURNER_PAIR01_STATUS_2.ckb
 │   │   ├── VOICE_TURNER_PAIR01_SUPPORT_1.ckb
 │   │   ├── VOICE_TURNER_PAIR01_SUPPORT_2.ckb
+│   │   └── desktop.ini
+│   ├── Tana - Rearmed
+│   │   ├── VOICE_TURNER_WEAPON01_ATTACK_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_ATTACK_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_DAMAGE_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_DAMAGE_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_DEAD_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_MAP_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_MAP_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_MAP_3.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_3.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_SKILL_4.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_1.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_2.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_3.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_4.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_5.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_6.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_7.ckb
+│   │   ├── VOICE_TURNER_WEAPON01_STATUS_8.ckb
 │   │   └── desktop.ini
 │   ├── Tana - Resplendent
 │   │   ├── VOICE_TURNER_EX01_ATTACK_1.ckb
@@ -65973,6 +66785,28 @@
 │   │   ├── VOICE_SCABIOSA_STATUS_7.ckb
 │   │   ├── VOICE_SCABIOSA_STATUS_8.ckb
 │   │   └── desktop.ini
+│   ├── Triandra - Spring
+│   │   ├── VOICE_SCABIOSA_SPRING01_ATTACK_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_ATTACK_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_DAMAGE_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_DAMAGE_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_DEAD_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_MAP_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_MAP_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_MAP_3.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_3.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_SKILL_4.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_1.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_2.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_3.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_4.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_5.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_6.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_7.ckb
+│   │   ├── VOICE_SCABIOSA_SPRING01_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Tsubasa
 │   │   ├── VOICE_TSUBASA_ATTACK_1.ckb
 │   │   ├── VOICE_TSUBASA_ATTACK_2.ckb
@@ -66131,6 +66965,28 @@
 │   │   ├── VOICE_WALTER_STATUS_6.ckb
 │   │   ├── VOICE_WALTER_STATUS_7.ckb
 │   │   └── VOICE_WALTER_STATUS_8.ckb
+│   ├── Vanessa
+│   │   ├── VOICE_VANESSA_ATTACK_1.ckb
+│   │   ├── VOICE_VANESSA_ATTACK_2.ckb
+│   │   ├── VOICE_VANESSA_DAMAGE_1.ckb
+│   │   ├── VOICE_VANESSA_DAMAGE_2.ckb
+│   │   ├── VOICE_VANESSA_DEAD_1.ckb
+│   │   ├── VOICE_VANESSA_MAP_1.ckb
+│   │   ├── VOICE_VANESSA_MAP_2.ckb
+│   │   ├── VOICE_VANESSA_MAP_3.ckb
+│   │   ├── VOICE_VANESSA_SKILL_1.ckb
+│   │   ├── VOICE_VANESSA_SKILL_2.ckb
+│   │   ├── VOICE_VANESSA_SKILL_3.ckb
+│   │   ├── VOICE_VANESSA_SKILL_4.ckb
+│   │   ├── VOICE_VANESSA_STATUS_1.ckb
+│   │   ├── VOICE_VANESSA_STATUS_2.ckb
+│   │   ├── VOICE_VANESSA_STATUS_3.ckb
+│   │   ├── VOICE_VANESSA_STATUS_4.ckb
+│   │   ├── VOICE_VANESSA_STATUS_5.ckb
+│   │   ├── VOICE_VANESSA_STATUS_6.ckb
+│   │   ├── VOICE_VANESSA_STATUS_7.ckb
+│   │   ├── VOICE_VANESSA_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Veld
 │   │   ├── VOICE_VELD_ATTACK_1.ckb
 │   │   ├── VOICE_VELD_ATTACK_2.ckb
@@ -66360,6 +67216,28 @@
 │   │   ├── VOICE_VERONICA_VALENTINE04_STATUS_8.ckb
 │   │   └── desktop.ini
 │   ├── Veronica 2
+│   ├── Vigarde
+│   │   ├── VOICE_VIGARD_ATTACK_1.ckb
+│   │   ├── VOICE_VIGARD_ATTACK_2.ckb
+│   │   ├── VOICE_VIGARD_DAMAGE_1.ckb
+│   │   ├── VOICE_VIGARD_DAMAGE_2.ckb
+│   │   ├── VOICE_VIGARD_DEAD_1.ckb
+│   │   ├── VOICE_VIGARD_MAP_1.ckb
+│   │   ├── VOICE_VIGARD_MAP_2.ckb
+│   │   ├── VOICE_VIGARD_MAP_3.ckb
+│   │   ├── VOICE_VIGARD_SKILL_1.ckb
+│   │   ├── VOICE_VIGARD_SKILL_2.ckb
+│   │   ├── VOICE_VIGARD_SKILL_3.ckb
+│   │   ├── VOICE_VIGARD_SKILL_4.ckb
+│   │   ├── VOICE_VIGARD_STATUS_1.ckb
+│   │   ├── VOICE_VIGARD_STATUS_2.ckb
+│   │   ├── VOICE_VIGARD_STATUS_3.ckb
+│   │   ├── VOICE_VIGARD_STATUS_4.ckb
+│   │   ├── VOICE_VIGARD_STATUS_5.ckb
+│   │   ├── VOICE_VIGARD_STATUS_6.ckb
+│   │   ├── VOICE_VIGARD_STATUS_7.ckb
+│   │   ├── VOICE_VIGARD_STATUS_8.ckb
+│   │   └── desktop.ini
 │   ├── Vika - Pirate
 │   │   ├── VOICE_WIESE_PIRATE01_ATTACK_1.ckb
 │   │   ├── VOICE_WIESE_PIRATE01_ATTACK_2.ckb
@@ -67562,6 +68440,7 @@
 │   ├── wep_ac022.png
 │   ├── wep_ac023.png
 │   ├── wep_ac024.png
+│   ├── wep_ac024_up.png
 │   ├── wep_ac025.png
 │   ├── wep_ac025_up.png
 │   ├── wep_ac026.png
@@ -67730,6 +68609,8 @@
 │   ├── wep_ar096.png
 │   ├── wep_ar096_up.png
 │   ├── wep_ar097.png
+│   ├── wep_ar098.png
+│   ├── wep_ar099.png
 │   ├── wep_ar999.png
 │   ├── wep_ax.png
 │   ├── wep_ax000.png
@@ -67889,6 +68770,7 @@
 │   ├── wep_ax124.png
 │   ├── wep_ax125.png
 │   ├── wep_ax126.png
+│   ├── wep_ax127.png
 │   ├── wep_ax999.png
 │   ├── wep_ax_L.png
 │   ├── wep_bw.png
@@ -68017,6 +68899,8 @@
 │   ├── wep_bw096.png
 │   ├── wep_bw096_up.png
 │   ├── wep_bw097.png
+│   ├── wep_bw098.png
+│   ├── wep_bw099.png
 │   ├── wep_bw999.png
 │   ├── wep_dg.png
 │   ├── wep_dg000.png
@@ -68107,6 +68991,7 @@
 │   ├── wep_dg069.png
 │   ├── wep_dg070.png
 │   ├── wep_dg071.png
+│   ├── wep_dg072.png
 │   ├── wep_dg999.png
 │   ├── wep_dg_L.png
 │   ├── wep_ex.png
@@ -68201,6 +69086,7 @@
 │   ├── wep_lc058.png
 │   ├── wep_lc058_up.png
 │   ├── wep_lc059.png
+│   ├── wep_lc059_up.png
 │   ├── wep_lc060.png
 │   ├── wep_lc060_up.png
 │   ├── wep_lc061.png
@@ -68298,6 +69184,10 @@
 │   ├── wep_lc138.png
 │   ├── wep_lc138_up.png
 │   ├── wep_lc139.png
+│   ├── wep_lc140.png
+│   ├── wep_lc141.png
+│   ├── wep_lc142.png
+│   ├── wep_lc143.png
 │   ├── wep_lc23.png
 │   ├── wep_lc999.png
 │   ├── wep_lc_L.png
@@ -68562,6 +69452,7 @@
 │   ├── wep_mg238.png
 │   ├── wep_mg239.png
 │   ├── wep_mg240.png
+│   ├── wep_mg240_up.png
 │   ├── wep_mg241.png
 │   ├── wep_mg242.png
 │   ├── wep_mg243.png
@@ -68599,6 +69490,7 @@
 │   ├── wep_mg272.png
 │   ├── wep_mg273.png
 │   ├── wep_mg275.png
+│   ├── wep_mg276.png
 │   ├── wep_mg300.png
 │   ├── wep_mg301.png
 │   ├── wep_mg302.png
@@ -68621,6 +69513,7 @@
 │   ├── wep_mg319.png
 │   ├── wep_mg320.png
 │   ├── wep_mg321.png
+│   ├── wep_mg322.png
 │   ├── wep_mg999.png
 │   ├── wep_rd.png
 │   ├── wep_rd000.png
@@ -68820,12 +69713,14 @@
 │   ├── wep_sw072_up.png
 │   ├── wep_sw073.png
 │   ├── wep_sw074.png
+│   ├── wep_sw074_up.png
 │   ├── wep_sw075.png
 │   ├── wep_sw075_up.png
 │   ├── wep_sw076.png
 │   ├── wep_sw076_up.png
 │   ├── wep_sw078.png
 │   ├── wep_sw079.png
+│   ├── wep_sw079_up.png
 │   ├── wep_sw080.png
 │   ├── wep_sw080_up.png
 │   ├── wep_sw081.png
@@ -68903,7 +69798,8 @@
 │   ├── wep_sw143.png
 │   ├── wep_sw146.png
 │   ├── wep_sw147.png
+│   ├── wep_sw148.png
 │   └── wep_sw999.png
 └── ckbplayer.zip
 
-4410 directories, 64497 files
+4464 directories, 65339 files

@@ -2137,6 +2137,12 @@
     [LANGUAGE_CHINESE] = "攻击２次（被敌人攻击时，也可攻击２次）" TEXT_CMD_NEWLINE "速度－５" TEXT_CMD_NEWLINE "回合开始时，若未与龙、兽以外的我方相邻则为化身状态" TEXT_CMD_NEWLINE "（若非上述情形，将解除化身状态）" TEXT_CMD_NEWLINE "处于化身状态时，攻击＋２" TEXT_CMD_NEWLINE "且发动奥义时，奥义造成的伤害＋１０",
 },
 
+[MSID_H_仮面の騎士の槍] = {
+    [LANGUAGE_JAPANESE] = "自分から攻撃した時、または、" TEXT_CMD_NEWLINE "周囲２マス以内に味方がいる時、" TEXT_CMD_NEWLINE "戦闘中、自身の攻撃、速さ、守備、魔防＋４、" TEXT_CMD_NEWLINE "敵の攻撃、守備、魔防が" TEXT_CMD_NEWLINE "戦闘開始時の自分の魔防の２０％だけ減少",
+    [LANGUAGE_ENGLISH] = "If unit initiates combat or is within 2 spaces" TEXT_CMD_NEWLINE "of an ally, grants Atk/Spd/Def/Res+4 to unit" TEXT_CMD_NEWLINE "during combat and inflicts penalty on foe's" TEXT_CMD_NEWLINE "Atk/Def/Res during combat = 20% of unit's" TEXT_CMD_NEWLINE "Res at start of combat.",
+    [LANGUAGE_CHINESE] = "由自己发动攻击时，" TEXT_CMD_NEWLINE "或周围２格内有我方单位时，" TEXT_CMD_NEWLINE "自己在战斗中的攻击、速度、防守、魔防＋４，" TEXT_CMD_NEWLINE "敌人的攻击、防守、魔防下降" TEXT_CMD_NEWLINE "（下降数值为：自己在战斗开始时的魔防×２０％）",
+},
+
 [MSID_H_伏竜] = {
     [LANGUAGE_JAPANESE] = "攻撃の３０％を奥義ダメージに加算",
     [LANGUAGE_ENGLISH] = "Boosts damage by 30% of unit's Atk.",
@@ -7237,6 +7243,12 @@
     [LANGUAGE_CHINESE] = "受到敌人攻击时，" TEXT_CMD_NEWLINE "或敌人未受到强化（支援、鼓舞等）效果时，" TEXT_CMD_NEWLINE "自己在战斗中的攻击、速度、防守、魔防＋４" TEXT_CMD_NEWLINE "敌人攻击射程为２格时，以其防守及魔防中较低方计算伤害",
 },
 
+[MSID_H_白百合の杖] = {
+    [LANGUAGE_JAPANESE] = "杖は他の武器同様のダメージ計算になる" TEXT_CMD_NEWLINE "戦闘中に攻撃していれば、戦闘後に" TEXT_CMD_NEWLINE "敵と、その周囲２マスの敵の" TEXT_CMD_NEWLINE "奥義発動カウントを最大値に戻す" TEXT_CMD_NEWLINE "（最大値に戻る時、同時に" TEXT_CMD_NEWLINE "　「戦闘後、奥義発動カウント－」が発動しても無効" TEXT_CMD_NEWLINE "　「奥義が発動しやすい」「奥義が出にくい」は有効）" TEXT_CMD_NEWLINE "かつ、【キャンセル】を付与" TEXT_CMD_NEWLINE "戦闘開始時、自身のＨＰが２５％以上なら、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ、守備、魔防＋４" TEXT_CMD_NEWLINE "【キャンセル】" TEXT_CMD_NEWLINE "奥義発動カウント変動量－１になる状態異常" TEXT_CMD_NEWLINE "（同系統効果複数時、最大値適用）" TEXT_CMD_NEWLINE "（敵の次回行動終了まで）",
+    [LANGUAGE_ENGLISH] = "Calculates damage from staff like other weapons." TEXT_CMD_NEWLINE "After combat, if unit attacked, resets Special" TEXT_CMD_NEWLINE "cooldown of target and foes within 2 spaces of" TEXT_CMD_NEWLINE "target, and inflicts【Guard】on target and foes" TEXT_CMD_NEWLINE "within 2 spaces of target. (Neutralizes Special" TEXT_CMD_NEWLINE "cooldown count reductions after combat, but" TEXT_CMD_NEWLINE "skills that Accelerate and Slow Specials are still" TEXT_CMD_NEWLINE "effective.) At start of combat, if unit's HP ≥ 25%," TEXT_CMD_NEWLINE "grants Atk/Spd/Def/Res+4 to unit during combat." TEXT_CMD_NEWLINE "【Guard】" TEXT_CMD_NEWLINE "Inflicts Special cooldown charge -1 on target" TEXT_CMD_NEWLINE "per attack during combat through its next action." TEXT_CMD_NEWLINE "(Only highest value applied. Does not stack.)",
+    [LANGUAGE_CHINESE] = "杖的伤害计算公式和其他武器相同" TEXT_CMD_NEWLINE "若在战斗时进行攻击，战斗后" TEXT_CMD_NEWLINE "将对方与其周围２格内的敌人的" TEXT_CMD_NEWLINE "奥义发动计量回归至最大值" TEXT_CMD_NEWLINE "（回归最大值时，对方若同时发动" TEXT_CMD_NEWLINE "　「战斗后，奥义发动计量－」的效果将无效" TEXT_CMD_NEWLINE "　「容易发动奥义」「不容易发动奥义」的效果则有效）" TEXT_CMD_NEWLINE "并且，附加对方与其周围２格内的敌人" TEXT_CMD_NEWLINE "【取消】的异常状态" TEXT_CMD_NEWLINE "若战斗开始时，自身ＨＰ在２５％以上，" TEXT_CMD_NEWLINE "战斗中的攻击、速度、防守、魔防＋４" TEXT_CMD_NEWLINE "【取消】" TEXT_CMD_NEWLINE "使奥义发动计量变化量－１的异常状态" TEXT_CMD_NEWLINE "（若有多个相同系统效果，仅取最大值）" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
+},
+
 [MSID_H_白騎の直槍] = {
     [LANGUAGE_JAPANESE] = "奥義が発動しやすい（発動カウント－１）",
     [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1).",
@@ -7889,6 +7901,12 @@
     [LANGUAGE_JAPANESE] = "飛行特効" TEXT_CMD_NEWLINE "奥義が発動しやすい（発動カウント－１）" TEXT_CMD_NEWLINE "自分から攻撃した時、または" TEXT_CMD_NEWLINE "周囲２マス以内に味方がいる時、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ、守備、魔防＋５、かつ" TEXT_CMD_NEWLINE "戦闘中、奥義による攻撃でダメージを与えた時、" TEXT_CMD_NEWLINE "自分の最大ＨＰの５０％回復" TEXT_CMD_NEWLINE "（与えたダメージが０でも効果は発動）",
     [LANGUAGE_ENGLISH] = "Accelerates Special trigger (cooldown count-1)." TEXT_CMD_NEWLINE "Effective against flying foes. If unit initiates" TEXT_CMD_NEWLINE "combat or if unit is within 2 spaces of an ally," TEXT_CMD_NEWLINE "grants Atk/Spd/Def/Res+5 during combat, and" TEXT_CMD_NEWLINE "if unit also deals damage to foe using a Special," TEXT_CMD_NEWLINE "restores 50% of unit's maximum HP. (Triggers" TEXT_CMD_NEWLINE "even if 0 damage is dealt.)",
     [LANGUAGE_CHINESE] = "克制飞行" TEXT_CMD_NEWLINE "容易发动奥义（发动计量－１）" TEXT_CMD_NEWLINE "由自己发动攻击时，" TEXT_CMD_NEWLINE "或周围２格内有我方单位时，" TEXT_CMD_NEWLINE "战斗中的攻击、速度、防守、魔防＋５，" TEXT_CMD_NEWLINE "且战斗中借由奥义攻击给予伤害时，" TEXT_CMD_NEWLINE "回复自身最高ＨＰ的５０％" TEXT_CMD_NEWLINE "（即使给予的伤害为０也会发动效果）",
+},
+
+[MSID_H_老巧のブレス] = {
+    [LANGUAGE_JAPANESE] = "射程２の敵に、敵の守備か魔防の低い方でダメージ計算" TEXT_CMD_NEWLINE "戦闘開始時、自身のＨＰが２５％以上なら、" TEXT_CMD_NEWLINE "戦闘中、攻撃、速さ、守備、魔防＋４、" TEXT_CMD_NEWLINE "敵の攻撃、速さ、守備、魔防のそれぞれについて、" TEXT_CMD_NEWLINE "その能力値の弱化無効の効果を発動していない時、" TEXT_CMD_NEWLINE "その能力値が減少" TEXT_CMD_NEWLINE "減少値は、６－敵が受けているその能力値の弱化の値" TEXT_CMD_NEWLINE "（最低値０）" TEXT_CMD_NEWLINE "戦闘開始時、自身のＨＰが２５％以上なら、" TEXT_CMD_NEWLINE "戦闘後、敵の攻撃、速さ、守備、魔防－６" TEXT_CMD_NEWLINE "（敵の次回行動終了まで）",
+    [LANGUAGE_ENGLISH] = "At start of combat, if unit's HP ≥ 25%, grants" TEXT_CMD_NEWLINE "Atk/Spd/Def/Res+4 to unit during combat, and" TEXT_CMD_NEWLINE "also, if no effect neutralizes penalties to foe's" TEXT_CMD_NEWLINE "Atk/Spd/Def/Res, inflicts penalty on each of" TEXT_CMD_NEWLINE "those stats during combat = 6 - current penalty" TEXT_CMD_NEWLINE "on each of those stats (min: 0; calculates each" TEXT_CMD_NEWLINE "stat penalty independently). If unit's HP ≥ 25%" TEXT_CMD_NEWLINE "at start of combat, inflicts Atk/Spd/Def/Res-6" TEXT_CMD_NEWLINE "on foe through its next action after combat." TEXT_CMD_NEWLINE "If foe's Range = 2, calculates damage using" TEXT_CMD_NEWLINE "the lower of foe's Def or Res.",
+    [LANGUAGE_CHINESE] = "敌人攻击射程为２格时，以其防守及魔防中较低方计算伤害" TEXT_CMD_NEWLINE "若战斗开始时，自身ＨＰ在２５％以上，" TEXT_CMD_NEWLINE "战斗中的攻击、速度、防守、魔防＋４，" TEXT_CMD_NEWLINE "敌人的攻击、速度、防守、魔防分别" TEXT_CMD_NEWLINE "没有发动抵销该能力值弱化状态的效果时，该能力值下降" TEXT_CMD_NEWLINE "下降数值：" TEXT_CMD_NEWLINE "６－敌人所受到的该能力值的弱化值" TEXT_CMD_NEWLINE "（最低值为０）" TEXT_CMD_NEWLINE "若战斗开始时，自身ＨＰ在２５％以上，" TEXT_CMD_NEWLINE "战斗后，敌人的攻击、速度、防守、魔防－６" TEXT_CMD_NEWLINE "（直到敌人下次行动结束）",
 },
 
 [MSID_H_聖兜] = {
@@ -13225,6 +13243,12 @@
     [LANGUAGE_CHINESE] = "狼人王的爪牙",
 },
 
+[MSID_仮面の騎士の槍] = {
+    [LANGUAGE_JAPANESE] = "仮面の騎士の槍",
+    [LANGUAGE_ENGLISH] = "Masked Lance",
+    [LANGUAGE_CHINESE] = "覆面骑士之枪",
+},
+
 [MSID_伏竜] = {
     [LANGUAGE_JAPANESE] = "伏竜",
     [LANGUAGE_ENGLISH] = "Dragon Gaze",
@@ -14836,13 +14860,13 @@
 [MSID_守護の弓] = {
     [LANGUAGE_JAPANESE] = "守護の弓",
     [LANGUAGE_ENGLISH] = "Protection Bow",
-    [LANGUAGE_CHINESE] = "守护之弓",
+    [LANGUAGE_CHINESE] = "守护弓",
 },
 
 [MSID_守護の弓P] = {
     [LANGUAGE_JAPANESE] = "守護の弓＋",
     [LANGUAGE_ENGLISH] = "Protection Bow+",
-    [LANGUAGE_CHINESE] = "守护之弓＋",
+    [LANGUAGE_CHINESE] = "守护弓＋",
 },
 
 [MSID_守護者の巨斧] = {
@@ -18325,6 +18349,12 @@
     [LANGUAGE_CHINESE] = "白夜的龙石",
 },
 
+[MSID_白百合の杖] = {
+    [LANGUAGE_JAPANESE] = "白百合の杖",
+    [LANGUAGE_ENGLISH] = "Staff of Lilies",
+    [LANGUAGE_CHINESE] = "白百合之杖",
+},
+
 [MSID_白騎の直槍] = {
     [LANGUAGE_JAPANESE] = "白騎の直槍",
     [LANGUAGE_ENGLISH] = "Whitewing Lance",
@@ -18977,6 +19007,12 @@
     [LANGUAGE_JAPANESE] = "翠風パルティア",
     [LANGUAGE_ENGLISH] = "Wind Parthia",
     [LANGUAGE_CHINESE] = "翠风帕提亚",
+},
+
+[MSID_老巧のブレス] = {
+    [LANGUAGE_JAPANESE] = "老巧のブレス",
+    [LANGUAGE_ENGLISH] = "Wizened Breath",
+    [LANGUAGE_CHINESE] = "老练吐息",
 },
 
 [MSID_聖兜] = {

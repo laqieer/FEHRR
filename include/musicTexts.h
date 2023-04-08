@@ -961,6 +961,12 @@
     [LANGUAGE_CHINESE] = "觉醒",
 },
 
+[MID_MUSIC_NAME_BGM_MNS_FE16_12] = {
+    [LANGUAGE_JAPANESE] = "策略",
+    [LANGUAGE_ENGLISH] = "Tactics",
+    [LANGUAGE_CHINESE] = "策略",
+},
+
 [MID_MUSIC_NAME_BGM_MNS_FE16_13] = {
     [LANGUAGE_JAPANESE] = "緊迫",
     [LANGUAGE_ENGLISH] = "Anxiety",
@@ -1061,6 +1067,12 @@
     [LANGUAGE_JAPANESE] = "お昼の見回りですか、神竜様",
     [LANGUAGE_ENGLISH] = "On Day Patrol," TEXT_CMD_NEWLINE "Divine One?",
     [LANGUAGE_CHINESE] = "神龙大人，您在午间巡逻吗？",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE17_16] = {
+    [LANGUAGE_JAPANESE] = "軍事国家",
+    [LANGUAGE_ENGLISH] = "Mighty Governance",
+    [LANGUAGE_CHINESE] = "军事国家",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FEA_01] = {

@@ -270,6 +270,7 @@
 │   │   ├── CX080.png
 │   │   ├── CX081.png
 │   │   ├── CX082.png
+│   │   ├── CX083.png
 │   │   ├── CXX01.png
 │   │   ├── CXX02.png
 │   │   ├── CXX03.png
@@ -335,6 +336,7 @@
 │   │   ├── L0058.png
 │   │   ├── L0059.png
 │   │   ├── L0060.png
+│   │   ├── L0061.png
 │   │   ├── Q0001.png
 │   │   ├── Q0002.png
 │   │   ├── Q0003.png
@@ -424,6 +426,7 @@
 │   │   ├── ST_CX039.png
 │   │   ├── ST_CX040.png
 │   │   ├── ST_CX041.png
+│   │   ├── ST_CX042.png
 │   │   ├── T0001.png
 │   │   ├── T0002.png
 │   │   ├── T0003.png
@@ -589,10 +592,12 @@
 │   │   ├── V0202.png
 │   │   ├── V0203.png
 │   │   ├── V0204.png
-│   │   └── V0205.png
+│   │   ├── V0205.png
+│   │   └── V0510.png
 │   ├── Banner_SequentialMap
 │   │   ├── 202302.png
-│   │   └── 202303.png
+│   │   ├── 202303.png
+│   │   └── 202304.png
 │   ├── Battle
 │   │   ├── AnimSignals
 │   │   │   ├── EffectAnimSignals.bin.lz
@@ -760,6 +765,7 @@
 │   │   │   ├── EffectAnimSignalsv0702b_akatsuki.bin.lz
 │   │   │   ├── EffectAnimSignalsv0702c_legend.bin.lz
 │   │   │   ├── EffectAnimSignalsv0703a_spring.bin.lz
+│   │   │   ├── EffectAnimSignalsv0704a_child.bin.lz
 │   │   │   ├── UnitAnimSignals.bin.lz
 │   │   │   ├── UnitAnimSignals04_spring01.bin.lz
 │   │   │   ├── UnitAnimSignals14_halloween_01.bin.lz
@@ -873,7 +879,8 @@
 │   │   │   ├── UnitAnimSignalsv0700d_newyear.bin.lz
 │   │   │   ├── UnitAnimSignalsv0701c_legend.bin.lz
 │   │   │   ├── UnitAnimSignalsv0702b_akatsuki.bin.lz
-│   │   │   └── UnitAnimSignalsv0702c_legend.bin.lz
+│   │   │   ├── UnitAnimSignalsv0702c_legend.bin.lz
+│   │   │   └── UnitAnimSignalsv0703c_legend.bin.lz
 │   │   ├── Asset
 │   │   │   ├── Data.bin.lz
 │   │   │   ├── Data00_first.bin.lz
@@ -893,7 +900,9 @@
 │   │   │   ├── Datav0702b_akatsuki.bin.lz
 │   │   │   ├── Datav0702c_legend.bin.lz
 │   │   │   ├── Datav0703a_spring.bin.lz
-│   │   │   └── Datav0703b_seima.bin.lz
+│   │   │   ├── Datav0703b_seima.bin.lz
+│   │   │   ├── Datav0703c_legend.bin.lz
+│   │   │   └── Datav0704a_child.bin.lz
 │   │   ├── BG
 │   │   │   ├── 001_AskAnother
 │   │   │   │   ├── BattleBG.csb
@@ -2334,6 +2343,34 @@
 │   │   │   │       ├── BG_03.png
 │   │   │   │       ├── BG_04.png
 │   │   │   │       └── FG_01.png
+│   │   │   ├── 020_Elibe
+│   │   │   │   ├── BattleBG.csb
+│   │   │   │   └── images
+│   │   │   │       ├── BG_02.png
+│   │   │   │       ├── BG_03.png
+│   │   │   │       ├── BG_04.png
+│   │   │   │       └── FG_01.png
+│   │   │   ├── 020_ElibeForest
+│   │   │   │   ├── BattleBG.csb
+│   │   │   │   └── images
+│   │   │   │       ├── BG_02.png
+│   │   │   │       ├── BG_03.png
+│   │   │   │       ├── BG_04.png
+│   │   │   │       └── FG_01.png
+│   │   │   ├── 020_ElibeGrassland
+│   │   │   │   ├── BattleBG.csb
+│   │   │   │   └── images
+│   │   │   │       ├── BG_02.png
+│   │   │   │       ├── BG_03.png
+│   │   │   │       ├── BG_04.png
+│   │   │   │       └── FG_01.png
+│   │   │   ├── 020_ElibeGrasslandForest
+│   │   │   │   ├── BattleBG.csb
+│   │   │   │   └── images
+│   │   │   │       ├── BG_02.png
+│   │   │   │       ├── BG_03.png
+│   │   │   │       ├── BG_04.png
+│   │   │   │       └── FG_01.png
 │   │   │   ├── 020_NabataChristmas
 │   │   │   │   ├── BattleBG.csb
 │   │   │   │   └── images
@@ -3420,7 +3457,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── ArenaPerson
 │   │   │   ├── 200901_dance.bin.lz
 │   │   │   ├── 200903_legend.bin.lz
@@ -3494,7 +3533,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Daily.bin.lz
 │   │   ├── EncountCrystal
 │   │   │   └── 00_first.bin.lz
@@ -3533,7 +3574,8 @@
 │   │   │   ├── v0701b_engage.bin.lz
 │   │   │   ├── v0701c_legend.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
-│   │   │   └── v0702b_akatsuki.bin.lz
+│   │   │   ├── v0702b_akatsuki.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── NBYxPBbL.bin.lz
 │   │   ├── PromotionMedal
 │   │   │   └── 00_first.bin.lz
@@ -3578,7 +3620,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Stamina.bin.lz
 │   │   ├── VoteMap
 │   │   │   └── 00_first.bin.lz
@@ -3598,7 +3642,9 @@
 │   │   │   ├── v0702a_valentine.bin.lz
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── PersonData
 │   │   │   ├── 191201_alf.bin.lz
 │   │   │   ├── 201201_nisaveril.bin.lz
@@ -3615,7 +3661,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   └── ShopData
 │   │       ├── 191201_alf.bin.lz
 │   │       ├── 201201_nisaveril.bin.lz
@@ -3623,7 +3671,8 @@
 │   │       ├── v0700a_vana.bin.lz
 │   │       ├── v0701a_khadein.bin.lz
 │   │       ├── v0702a_valentine.bin.lz
-│   │       └── v0703a_spring.bin.lz
+│   │       ├── v0703a_spring.bin.lz
+│   │       └── v0704a_child.bin.lz
 │   ├── Dummy
 │   │   └── SSPlayerDummy.png
 │   ├── Effect
@@ -3680,7 +3729,8 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── tex
 │   │   │   ├── Blt_Mag01.png
 │   │   │   ├── Blt_Mag02.png
@@ -3966,7 +4016,12 @@
 │   │   │   ├── v7.2_v0702b_akatsuki_Rod.png
 │   │   │   ├── v7.2_v0702c_legend_Mag.png
 │   │   │   ├── v7.3_v0703a_spring_Mag.png
-│   │   │   └── v7.3_v0703b_seima_Journey.png
+│   │   │   ├── v7.3_v0703b_seima_Journey.png
+│   │   │   ├── v7.4_v0704a_child_Mag.png
+│   │   │   ├── v7.4_v0704a_child_Mag_2.png
+│   │   │   ├── v7.4_v0704a_child_Rod.png
+│   │   │   ├── v7.4_v0704a_child_Rod_2.png
+│   │   │   └── v7.4_v0704a_child_Skl.png
 │   │   ├── v1.8_32_Popularity_02_Hit.ssbp
 │   │   ├── v1.8_32_Popularity_02_Mag.ssbp
 │   │   ├── v2.0_21_winter01_Hit.ssbp
@@ -4278,7 +4333,11 @@
 │   │   ├── v7.2_v0702c_legend_Mag.ssbp
 │   │   ├── v7.3_v0703a_spring_Hit.ssbp
 │   │   ├── v7.3_v0703a_spring_Mag.ssbp
-│   │   └── v7.3_v0703b_seima_Journey.ssbp
+│   │   ├── v7.3_v0703b_seima_Journey.ssbp
+│   │   ├── v7.4_v0704a_child_Hit.ssbp
+│   │   ├── v7.4_v0704a_child_Mag.ssbp
+│   │   ├── v7.4_v0704a_child_Rod.ssbp
+│   │   └── v7.4_v0704a_child_Skl.ssbp
 │   ├── EliteCastleSp
 │   │   ├── 211201_embla.bin.lz
 │   │   └── v0702b_akatsuki.bin.lz
@@ -6982,6 +7041,14 @@
 │   │   │   ├── BtlFace_D.png
 │   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
+│   │   ├── ch03_05_Hector_M_Before01
+│   │   │   ├── BtlFace.png
+│   │   │   ├── BtlFace_BU.png
+│   │   │   ├── BtlFace_BU_D.png
+│   │   │   ├── BtlFace_C.png
+│   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
+│   │   │   └── Face_FC.png
 │   │   ├── ch03_05_Hector_M_ELECTION01
 │   │   │   ├── BtlFace.png
 │   │   │   ├── BtlFace_BU.png
@@ -7015,6 +7082,14 @@
 │   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch03_05_Hector_M_Valentine18
+│   │   │   ├── BtlFace.png
+│   │   │   ├── BtlFace_BU.png
+│   │   │   ├── BtlFace_BU_D.png
+│   │   │   ├── BtlFace_C.png
+│   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
+│   │   │   └── Face_FC.png
+│   │   ├── ch03_06_Eliwod_M_Before01
 │   │   │   ├── BtlFace.png
 │   │   │   ├── BtlFace_BU.png
 │   │   │   ├── BtlFace_BU_D.png
@@ -7134,6 +7209,14 @@
 │   │   │   ├── BtlFace_D.png
 │   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
+│   │   ├── ch03_11_Ruthea_M_Before01
+│   │   │   ├── BtlFace.png
+│   │   │   ├── BtlFace_BU.png
+│   │   │   ├── BtlFace_BU_D.png
+│   │   │   ├── BtlFace_C.png
+│   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
+│   │   │   └── Face_FC.png
 │   │   ├── ch03_11_Ruthea_M_Normal
 │   │   │   ├── BtlFace.png
 │   │   │   ├── BtlFace_BU.png
@@ -7159,6 +7242,14 @@
 │   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch03_12_Jaffar_M_WinterFes19
+│   │   │   ├── BtlFace.png
+│   │   │   ├── BtlFace_BU.png
+│   │   │   ├── BtlFace_BU_D.png
+│   │   │   ├── BtlFace_C.png
+│   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
+│   │   │   └── Face_FC.png
+│   │   ├── ch03_13_Rebacca_F_Before01
 │   │   │   ├── BtlFace.png
 │   │   │   ├── BtlFace_BU.png
 │   │   │   ├── BtlFace_BU_D.png
@@ -7463,6 +7554,14 @@
 │   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch03_37_Limstella_N_Normal
+│   │   │   ├── BtlFace.png
+│   │   │   ├── BtlFace_BU.png
+│   │   │   ├── BtlFace_BU_D.png
+│   │   │   ├── BtlFace_C.png
+│   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
+│   │   │   └── Face_FC.png
+│   │   ├── ch03_38_Mark_NF_Pair
 │   │   │   ├── BtlFace.png
 │   │   │   ├── BtlFace_BU.png
 │   │   │   ├── BtlFace_BU_D.png
@@ -8111,6 +8210,14 @@
 │   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
 │   │   ├── ch04_31_Inverse_F_Normal
+│   │   │   ├── BtlFace.png
+│   │   │   ├── BtlFace_BU.png
+│   │   │   ├── BtlFace_BU_D.png
+│   │   │   ├── BtlFace_C.png
+│   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
+│   │   │   └── Face_FC.png
+│   │   ├── ch04_31_Inverse_F_NormalEX01
 │   │   │   ├── BtlFace.png
 │   │   │   ├── BtlFace_BU.png
 │   │   │   ├── BtlFace_BU_D.png
@@ -12719,6 +12826,14 @@
 │   │   │   ├── BtlFace_D.png
 │   │   │   ├── Face.png
 │   │   │   └── Face_FC.png
+│   │   ├── ch17_60_Euris_M_Legend01
+│   │   │   ├── BtlFace.png
+│   │   │   ├── BtlFace_BU.png
+│   │   │   ├── BtlFace_BU_D.png
+│   │   │   ├── BtlFace_C.png
+│   │   │   ├── BtlFace_D.png
+│   │   │   ├── Face.png
+│   │   │   └── Face_FC.png
 │   │   ├── ch17_60_Euris_M_Normal
 │   │   │   ├── BtlFace.png
 │   │   │   ├── BtlFace_BU.png
@@ -13947,6 +14062,12 @@
 │   │   │   ├── H0930.png
 │   │   │   ├── H0931.png
 │   │   │   ├── H0932.png
+│   │   │   ├── H0933.png
+│   │   │   ├── H0934.png
+│   │   │   ├── H0935.png
+│   │   │   ├── H0936.png
+│   │   │   ├── H0937.png
+│   │   │   ├── H0938.png
 │   │   │   ├── O0105.png
 │   │   │   ├── O0182.png
 │   │   │   ├── O0215.png
@@ -14184,6 +14305,9 @@
 │   │   │   ├── PB184.png
 │   │   │   ├── PB185.png
 │   │   │   ├── PB186.png
+│   │   │   ├── PB187.png
+│   │   │   ├── PB188.png
+│   │   │   ├── PB189.png
 │   │   │   ├── PC001.png
 │   │   │   ├── PC002.png
 │   │   │   ├── PC003.png
@@ -14322,6 +14446,9 @@
 │   │   │   ├── Q0258.png
 │   │   │   ├── Q0259.png
 │   │   │   ├── Q0260.png
+│   │   │   ├── Q0261.png
+│   │   │   ├── Q0262.png
+│   │   │   ├── Q0263.png
 │   │   │   ├── Y0001.png
 │   │   │   ├── Y0002.png
 │   │   │   ├── Y0003.png
@@ -14554,6 +14681,7 @@
 │   │   ├── L0058.png
 │   │   ├── L0059.png
 │   │   ├── L0060.png
+│   │   ├── L0061.png
 │   │   ├── M0001.png
 │   │   ├── M0002.png
 │   │   ├── S0001.jpg
@@ -15146,6 +15274,7 @@
 │   │   ├── W0075.png
 │   │   ├── W0076.png
 │   │   ├── W0077.png
+│   │   ├── W0078.png
 │   │   ├── X0001.png
 │   │   ├── X0002.png
 │   │   ├── X0003.png
@@ -15395,6 +15524,9 @@
 │   │   ├── X0821.png
 │   │   ├── X0822.png
 │   │   ├── X0823.png
+│   │   ├── X0831.png
+│   │   ├── X0832.png
+│   │   ├── X0833.png
 │   │   ├── XX001.png
 │   │   ├── XX002.png
 │   │   ├── XX003.png
@@ -15443,7 +15575,8 @@
 │   │   ├── v0702a_valentine.bin.lz
 │   │   ├── v0702b_akatsuki.bin.lz
 │   │   ├── v0703a_spring.bin.lz
-│   │   └── v0703b_seima.bin.lz
+│   │   ├── v0703b_seima.bin.lz
+│   │   └── v0703c_legend.bin.lz
 │   ├── HeavenlyShootingStarShop
 │   │   ├── 201201_nisaveril.bin.lz
 │   │   └── 211201_embla.bin.lz
@@ -15458,7 +15591,8 @@
 │   │   ├── v0700a_vana.bin.lz
 │   │   ├── v0701a_khadein.bin.lz
 │   │   ├── v0702a_valentine.bin.lz
-│   │   └── v0703a_spring.bin.lz
+│   │   ├── v0703a_spring.bin.lz
+│   │   └── v0704a_child.bin.lz
 │   ├── Home
 │   │   ├── 3R_2ZUtKrm
 │   │   │   └── Embedded.bin.lz
@@ -15556,6 +15690,7 @@
 │   │   ├── EvBg_ConnectBondsOpening01.png
 │   │   ├── EvBg_EarthTempleEntrance.png
 │   │   ├── EvBg_Easter2.png
+│   │   ├── EvBg_Elibe.png
 │   │   ├── EvBg_EmbraAnotherCastle.png
 │   │   ├── EvBg_EmbraAnotherThrone_after.png
 │   │   ├── EvBg_EmbraAnotherThrone_before.png
@@ -16626,7 +16761,9 @@
 │   │   │   ├── CountUpLoginBonus_202303_01.bin.lz
 │   │   │   ├── CountUpLoginBonus_202303_02.bin.lz
 │   │   │   ├── CountUpLoginBonus_202303_03.bin.lz
-│   │   │   └── CountUpLoginBonus_202303_04.bin.lz
+│   │   │   ├── CountUpLoginBonus_202303_04.bin.lz
+│   │   │   ├── CountUpLoginBonus_202304_01.bin.lz
+│   │   │   └── CountUpLoginBonus_202304_02.bin.lz
 │   │   └── vKw9mbW13
 │   │       └── ComebackLoginBonus_0001.bin.lz
 │   ├── Mission
@@ -16642,14 +16779,17 @@
 │   │   ├── v0702b_akatsuki.bin.lz
 │   │   ├── v0702c_legend.bin.lz
 │   │   ├── v0703a_spring.bin.lz
-│   │   └── v0703b_seima.bin.lz
+│   │   ├── v0703b_seima.bin.lz
+│   │   ├── v0703c_legend.bin.lz
+│   │   └── v0704a_child.bin.lz
 │   ├── Mjolnir
 │   │   ├── BattleData
 │   │   │   ├── v0701c_legend.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Chip
 │   │   │   ├── Coa_Mjo00
 │   │   │   │   ├── BU.png
@@ -16770,7 +16910,8 @@
 │   │       ├── v0701a_khadein.bin.lz
 │   │       ├── v0701b_engage.bin.lz
 │   │       ├── v0702a_valentine.bin.lz
-│   │       └── v0703a_spring.bin.lz
+│   │       ├── v0703a_spring.bin.lz
+│   │       └── v0704a_child.bin.lz
 │   ├── MyAvatar
 │   │   └── MyAvatar.bin.lz
 │   ├── Occupation
@@ -16952,7 +17093,8 @@
 │   │   ├── v0700d_newyear.bin.lz
 │   │   ├── v0701b_engage.bin.lz
 │   │   ├── v0702b_akatsuki.bin.lz
-│   │   └── v0703b_seima.bin.lz
+│   │   ├── v0703b_seima.bin.lz
+│   │   └── v0703c_legend.bin.lz
 │   ├── ProfileCard
 │   │   └── Tutorial.bin.lz
 │   ├── SRPG
@@ -16973,7 +17115,8 @@
 │   │   │   ├── v0702a_valentine.bin.lz
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── BlessingGarden
 │   │   │   ├── 41_muspell01.bin.lz
 │   │   │   └── 71_hell01.bin.lz
@@ -16984,7 +17127,8 @@
 │   │   │   └── v0703b_seima.bin.lz
 │   │   ├── ConnectBonds
 │   │   │   ├── v0700a_vana.bin.lz
-│   │   │   └── v0702a_valentine.bin.lz
+│   │   │   ├── v0702a_valentine.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── DragonFlower.bin.lz
 │   │   ├── Enemy
 │   │   │   ├── 00_first.bin.lz
@@ -17016,7 +17160,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Grow.bin.lz
 │   │   ├── IdolTower
 │   │   │   ├── v0700b_winter.bin.lz
@@ -17057,7 +17203,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Rarity.bin.lz
 │   │   ├── RealTimePvP
 │   │   │   ├── AdvancedRate
@@ -17076,7 +17224,8 @@
 │   │   │   │   ├── v0702a_valentine.bin.lz
 │   │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   │   └── v0703b_seima.bin.lz
+│   │   │   │   ├── v0703b_seima.bin.lz
+│   │   │   │   └── v0704a_child.bin.lz
 │   │   │   ├── FaveTimeLimitedAdditionalRule
 │   │   │   │   └── v0610a_halloween.bin.lz
 │   │   │   ├── Rate
@@ -17089,7 +17238,8 @@
 │   │   │       ├── v0702a_valentine.bin.lz
 │   │   │       ├── v0702c_legend.bin.lz
 │   │   │       ├── v0703a_spring.bin.lz
-│   │   │       └── v0703b_seima.bin.lz
+│   │   │       ├── v0703b_seima.bin.lz
+│   │   │       └── v0704a_child.bin.lz
 │   │   ├── ReliancePerson.bin.lz
 │   │   ├── ReliancePlayer.bin.lz
 │   │   ├── SequentialMap
@@ -17103,7 +17253,8 @@
 │   │   │   ├── v0700d_newyear.bin.lz
 │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
-│   │   │   └── v0703a_spring.bin.lz
+│   │   │   ├── v0703a_spring.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── SequentialTrialBind
 │   │   │   ├── 00_first.bin.lz
 │   │   │   ├── 191201_alf.bin.lz
@@ -17114,7 +17265,8 @@
 │   │   │   ├── v0700a_vana.bin.lz
 │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
-│   │   │   └── v0703a_spring.bin.lz
+│   │   │   ├── v0703a_spring.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── SequentialTrialMainStory
 │   │   │   ├── 00_first.bin.lz
 │   │   │   ├── 191201_alf.bin.lz
@@ -17132,7 +17284,8 @@
 │   │   │   ├── 41_muspell01.bin.lz
 │   │   │   ├── 71_hell01.bin.lz
 │   │   │   ├── v0700d_newyear.bin.lz
-│   │   │   └── v0702a_valentine.bin.lz
+│   │   │   ├── v0702a_valentine.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Skill
 │   │   │   ├── 00_first.bin.lz
 │   │   │   ├── 191201_alf.bin.lz
@@ -17152,7 +17305,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── SkillAbility
 │   │   │   ├── 191201_alf.bin.lz
 │   │   │   ├── 201201_nisaveril.bin.lz
@@ -17169,7 +17324,8 @@
 │   │   │   ├── v0702a_valentine.bin.lz
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
-│   │   │   └── v0703a_spring.bin.lz
+│   │   │   ├── v0703a_spring.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── SkillAccessory
 │   │   │   ├── 00_first.bin.lz
 │   │   │   ├── 191201_alf.bin.lz
@@ -17183,7 +17339,8 @@
 │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── SkillAccessoryCreatable
 │   │   │   ├── 00_first.bin.lz
 │   │   │   ├── 191201_alf.bin.lz
@@ -17194,7 +17351,8 @@
 │   │   │   ├── v0700a_vana.bin.lz
 │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
-│   │   │   └── v0703a_spring.bin.lz
+│   │   │   ├── v0703a_spring.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── SkillLimit
 │   │   │   ├── 191201_alf.bin.lz
 │   │   │   ├── 201201_nisaveril.bin.lz
@@ -17204,7 +17362,9 @@
 │   │   │   ├── Tutorial.bin.lz
 │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
-│   │   │   └── v0703a_spring.bin.lz
+│   │   │   ├── v0703a_spring.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── SkillTiming
 │   │   │   ├── 191201_alf.bin.lz
 │   │   │   ├── 201201_nisaveril.bin.lz
@@ -17214,7 +17374,9 @@
 │   │   │   ├── v0700a_vana.bin.lz
 │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   ├── v0701b_engage.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── StageArenaMedal.bin.lz
 │   │   ├── StageBgm
 │   │   │   ├── 00_first.bin.lz
@@ -17243,7 +17405,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── StageEncount.bin.lz
 │   │   ├── StageEvent
 │   │   │   ├── 00_first.bin.lz
@@ -17263,7 +17427,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── StagePuzzle
 │   │   │   ├── 191201_alf.bin.lz
 │   │   │   ├── 201201_nisaveril.bin.lz
@@ -17281,7 +17447,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── StageScenario
 │   │   │   ├── 00_first.bin.lz
 │   │   │   ├── 191201_alf.bin.lz
@@ -17298,7 +17466,8 @@
 │   │   │   ├── v0702a_valentine.bin.lz
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── StageScenario.bin.lz
 │   │   ├── StageTutorial.bin.lz
 │   │   ├── Terrain.bin.lz
@@ -17316,7 +17485,8 @@
 │   │       ├── v0702a_valentine.bin.lz
 │   │       ├── v0702b_akatsuki.bin.lz
 │   │       ├── v0703a_spring.bin.lz
-│   │       └── v0703b_seima.bin.lz
+│   │       ├── v0703b_seima.bin.lz
+│   │       └── v0704a_child.bin.lz
 │   ├── SRPGMap
 │   │   ├── BG001.bin.lz
 │   │   ├── F0001.bin.lz
@@ -18261,6 +18431,12 @@
 │   │   ├── H0930.bin.lz
 │   │   ├── H0931.bin.lz
 │   │   ├── H0932.bin.lz
+│   │   ├── H0933.bin.lz
+│   │   ├── H0934.bin.lz
+│   │   ├── H0935.bin.lz
+│   │   ├── H0936.bin.lz
+│   │   ├── H0937.bin.lz
+│   │   ├── H0938.bin.lz
 │   │   ├── K0001.bin.lz
 │   │   ├── K0002.bin.lz
 │   │   ├── K0003.bin.lz
@@ -18492,6 +18668,9 @@
 │   │   ├── PB184.bin.lz
 │   │   ├── PB185.bin.lz
 │   │   ├── PB186.bin.lz
+│   │   ├── PB187.bin.lz
+│   │   ├── PB188.bin.lz
+│   │   ├── PB189.bin.lz
 │   │   ├── PC001.bin.lz
 │   │   ├── PC002.bin.lz
 │   │   ├── PC003.bin.lz
@@ -20388,6 +20567,13 @@
 │   │   ├── W0077E.bin.lz
 │   │   ├── W0077F.bin.lz
 │   │   ├── W0077G.bin.lz
+│   │   ├── W0078A.bin.lz
+│   │   ├── W0078B.bin.lz
+│   │   ├── W0078C.bin.lz
+│   │   ├── W0078D.bin.lz
+│   │   ├── W0078E.bin.lz
+│   │   ├── W0078F.bin.lz
+│   │   ├── W0078G.bin.lz
 │   │   ├── X0001A.bin.lz
 │   │   ├── X0001B.bin.lz
 │   │   ├── X0001C.bin.lz
@@ -21135,6 +21321,15 @@
 │   │   ├── X0823A.bin.lz
 │   │   ├── X0823B.bin.lz
 │   │   ├── X0823C.bin.lz
+│   │   ├── X0831A.bin.lz
+│   │   ├── X0831B.bin.lz
+│   │   ├── X0831C.bin.lz
+│   │   ├── X0832A.bin.lz
+│   │   ├── X0832B.bin.lz
+│   │   ├── X0832C.bin.lz
+│   │   ├── X0833A.bin.lz
+│   │   ├── X0833B.bin.lz
+│   │   ├── X0833C.bin.lz
 │   │   ├── XX001A.bin.lz
 │   │   ├── XX001B.bin.lz
 │   │   ├── XX001C.bin.lz
@@ -21288,7 +21483,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Chip
 │   │   │   ├── Deco00
 │   │   │   │   ├── BU.png
@@ -21606,7 +21803,8 @@
 │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   ├── v0701c_legend.bin.lz
 │   │   │   ├── v0702a_valentine.bin.lz
-│   │   │   └── v0703a_spring.bin.lz
+│   │   │   ├── v0703a_spring.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── Field
 │   │   │   ├── Field_Offense.png
 │   │   │   ├── K0001.png
@@ -21821,7 +22019,8 @@
 │   │   │   │   ├── v0700a_vana.bin.lz
 │   │   │   │   ├── v0701a_khadein.bin.lz
 │   │   │   │   ├── v0702a_valentine.bin.lz
-│   │   │   │   └── v0703a_spring.bin.lz
+│   │   │   │   ├── v0703a_spring.bin.lz
+│   │   │   │   └── v0704a_child.bin.lz
 │   │   │   ├── CookAuthority
 │   │   │   │   └── 71_hell01.bin.lz
 │   │   │   ├── CookTerm
@@ -21845,7 +22044,8 @@
 │   │   │       ├── v0700a_vana.bin.lz
 │   │   │       ├── v0701a_khadein.bin.lz
 │   │   │       ├── v0702a_valentine.bin.lz
-│   │   │       └── v0703a_spring.bin.lz
+│   │   │       ├── v0703a_spring.bin.lz
+│   │   │       └── v0704a_child.bin.lz
 │   │   ├── HolidayShopData
 │   │   │   ├── 71_hell01.bin.lz
 │   │   │   └── v0700a_vana.bin.lz
@@ -21893,7 +22093,9 @@
 │   │   │   ├── v0702b_akatsuki.bin.lz
 │   │   │   ├── v0702c_legend.bin.lz
 │   │   │   ├── v0703a_spring.bin.lz
-│   │   │   └── v0703b_seima.bin.lz
+│   │   │   ├── v0703b_seima.bin.lz
+│   │   │   ├── v0703c_legend.bin.lz
+│   │   │   └── v0704a_child.bin.lz
 │   │   ├── b_s_btn1_e4_p.ckb
 │   │   ├── b_s_levelup1_point.ckb
 │   │   ├── bgm_amb_username.ogg
@@ -21984,6 +22186,7 @@
 │   │   ├── bgm_map_FE07_08.ogg
 │   │   ├── bgm_map_FE07_09.ogg
 │   │   ├── bgm_map_FE07_10.ogg
+│   │   ├── bgm_map_FE07_11.ogg
 │   │   ├── bgm_map_FE07_12.ogg
 │   │   ├── bgm_map_FE08_01.ogg
 │   │   ├── bgm_map_FE08_02.ogg
@@ -22247,6 +22450,7 @@
 │   │   ├── bgm_mns_FE17_13.ogg
 │   │   ├── bgm_mns_FE17_15.ogg
 │   │   ├── bgm_mns_FE17_16.ogg
+│   │   ├── bgm_mns_FE17_19.ogg
 │   │   ├── bgm_summon_common.ogg
 │   │   ├── bgm_tb_AF21_ingame.ogg
 │   │   ├── bgm_tb_FE09_01.ogg
@@ -22688,7 +22892,8 @@
 │   │   ├── v0700a_vana.bin.lz
 │   │   ├── v0701a_khadein.bin.lz
 │   │   ├── v0702a_valentine.bin.lz
-│   │   └── v0703a_spring.bin.lz
+│   │   ├── v0703a_spring.bin.lz
+│   │   └── v0704a_child.bin.lz
 │   ├── SubscriptionContinuations
 │   │   └── 210801_pirate.bin.lz
 │   ├── SubscriptionCostume
@@ -22702,7 +22907,8 @@
 │   │   ├── v0702a_valentine.bin.lz
 │   │   ├── v0702b_akatsuki.bin.lz
 │   │   ├── v0703a_spring.bin.lz
-│   │   └── v0703b_seima.bin.lz
+│   │   ├── v0703b_seima.bin.lz
+│   │   └── v0704a_child.bin.lz
 │   ├── Summon
 │   │   ├── 00_first.bin.lz
 │   │   ├── 01_brother01.bin.lz
@@ -22925,12 +23131,18 @@
 │   │   ├── v0702b_akatsuki.bin.lz
 │   │   ├── v0702c_legend.bin.lz
 │   │   ├── v0703a_spring.bin.lz
-│   │   └── v0703b_seima.bin.lz
+│   │   ├── v0703b_seima.bin.lz
+│   │   ├── v0703c_legend.bin.lz
+│   │   └── v0704a_child.bin.lz
 │   ├── TapAction
 │   │   ├── TapBattleData
+│   │   │   ├── TDID_0012_01.bin.lz
 │   │   │   └── TDID_0017_01.bin.lz
 │   │   ├── TapBattleResource
 │   │   │   ├── BattleField_45_valentine01
+│   │   │   │   ├── BG.png
+│   │   │   │   └── FG.png
+│   │   │   ├── BattleField_71_hell01
 │   │   │   │   ├── BG.png
 │   │   │   │   └── FG.png
 │   │   │   ├── BattleField_TestPlay
@@ -22938,9 +23150,24 @@
 │   │   │   │   └── FG.png
 │   │   │   ├── Enemy.plist
 │   │   │   ├── Enemy.png
+│   │   │   ├── Enemy_75_akatsuki02_2.plist
+│   │   │   ├── Enemy_75_akatsuki02_2.png
+│   │   │   ├── Enemy_75_akatsuki02_3.plist
+│   │   │   ├── Enemy_75_akatsuki02_3.png
+│   │   │   ├── Enemy_75_akatsuki02_4.plist
+│   │   │   ├── Enemy_75_akatsuki02_4.png
 │   │   │   ├── Enemy_82_picnic01.plist
 │   │   │   ├── Enemy_82_picnic01.png
-│   │   │   └── Spa_45_valentine01
+│   │   │   ├── Spa_45_valentine01
+│   │   │   │   ├── BG_Spa.ssbp
+│   │   │   │   ├── BG_SpaEntrance.ssbp
+│   │   │   │   └── texture
+│   │   │   │       ├── BG_Spa.png
+│   │   │   │       ├── BG_SpaCover01.png
+│   │   │   │       ├── BG_SpaCover02.png
+│   │   │   │       ├── BG_SpaCover03.png
+│   │   │   │       └── BG_SpaEntrance.png
+│   │   │   └── Spa_71_hell01
 │   │   │       ├── BG_Spa.ssbp
 │   │   │       ├── BG_SpaEntrance.ssbp
 │   │   │       └── texture
@@ -23095,7 +23322,9 @@
 │   │   ├── v0702b_akatsuki.bin.lz
 │   │   ├── v0702c_legend.bin.lz
 │   │   ├── v0703a_spring.bin.lz
-│   │   └── v0703b_seima.bin.lz
+│   │   ├── v0703b_seima.bin.lz
+│   │   ├── v0703c_legend.bin.lz
+│   │   └── v0704a_child.bin.lz
 │   ├── UI
 │   │   ├── Arena.plist
 │   │   ├── Arena.png
@@ -23483,6 +23712,7 @@
 │   │   ├── Skill_Passive1.png
 │   │   ├── Skill_Passive10.png
 │   │   ├── Skill_Passive11.png
+│   │   ├── Skill_Passive12.png
 │   │   ├── Skill_Passive2.png
 │   │   ├── Skill_Passive3.png
 │   │   ├── Skill_Passive4.png
@@ -26349,6 +26579,12 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch03_05_Hector_M_Before01
+│   │   │   ├── ch03_05_Hector_M_Before01.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
 │   │   ├── ch03_05_Hector_M_ELECTION01
 │   │   │   ├── ch03_05_Hector_M_ELECTION01.ssbp
 │   │   │   └── tex
@@ -26378,6 +26614,12 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch03_06_Eliwod_M_Before01
+│   │   │   ├── ch03_06_Eliwod_M_Before01.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
 │   │   ├── ch03_06_Eliwod_M_ELECTION01
 │   │   │   ├── ch03_06_Eliwod_M_ELECTION01.ssbp
 │   │   │   └── tex
@@ -26462,6 +26704,11 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
+│   │   ├── ch03_11_Ruthea_M_Before01
+│   │   │   ├── ch03_11_Ruthea_M_Before01.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
 │   │   ├── ch03_11_Ruthea_M_Normal
 │   │   │   ├── ch03_11_Ruthea_M_Normal.ssbp
 │   │   │   └── tex
@@ -26486,6 +26733,11 @@
 │   │   │       ├── Body_AllTex.png
 │   │   │       ├── Head_C.png
 │   │   │       └── Option_Tex.png
+│   │   ├── ch03_13_Rebacca_F_Before01
+│   │   │   ├── ch03_13_Rebacca_F_Before01.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
 │   │   ├── ch03_13_Rebacca_F_Normal
 │   │   │   ├── ch03_13_Rebacca_F_Normal.ssbp
 │   │   │   └── tex
@@ -26729,6 +26981,24 @@
 │   │   │       └── Head_C.png
 │   │   ├── ch03_37_Limstella_N_Normal
 │   │   │   ├── ch03_37_Limstella_N_Normal.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       └── Head_C.png
+│   │   ├── ch03_38_Mark_NF_Pair
+│   │   │   ├── ch03_38_Mark_NF_Pair.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Body_AllTex_sub.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
+│   │   ├── ch03_38_Mark_NF_PairMain
+│   │   │   ├── ch03_38_Mark_NF_PairMain.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
+│   │   ├── ch03_38_Mark_NF_PairSub
+│   │   │   ├── ch03_38_Mark_NF_PairSub.ssbp
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       └── Head_C.png
@@ -27243,6 +27513,12 @@
 │   │   │       └── Option_Tex_Manto.png
 │   │   ├── ch04_31_Inverse_F_Normal
 │   │   │   ├── ch04_31_Inverse_F_Normal.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
+│   │   ├── ch04_31_Inverse_F_NormalEX01
+│   │   │   ├── ch04_31_Inverse_F_NormalEX01.ssbp
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex.png
 │   │   │       ├── Head_C.png
@@ -31210,6 +31486,12 @@
 │   │   │   └── tex
 │   │   │       ├── Body_AllTex_01.png
 │   │   │       └── Body_AllTex_02.png
+│   │   ├── ch17_60_Euris_M_Legend01
+│   │   │   ├── ch17_60_Euris_M_Legend01.ssbp
+│   │   │   └── tex
+│   │   │       ├── Body_AllTex.png
+│   │   │       ├── Head_C.png
+│   │   │       └── Option_Tex.png
 │   │   ├── ch17_60_Euris_M_Normal
 │   │   │   ├── ch17_60_Euris_M_Normal.ssbp
 │   │   │   └── tex
@@ -31855,6 +32137,9 @@
 │   │   ├── Acc_1_0068_1
 │   │   │   ├── Acc_1_0068_1.png
 │   │   │   └── Acc_1_0068_1.ssbp
+│   │   ├── Acc_1_0068_2
+│   │   │   ├── Acc_1_0068_2.png
+│   │   │   └── Acc_1_0068_2.ssbp
 │   │   ├── Acc_1_0069_0
 │   │   │   ├── Acc_1_0069_0.png
 │   │   │   └── Acc_1_0069_0.ssbp
@@ -33447,6 +33732,9 @@
 │   │   ├── Acc_3_0328_1
 │   │   │   ├── Acc_3_0328_1.png
 │   │   │   └── Acc_3_0328_1.ssbp
+│   │   ├── Acc_3_0330_0
+│   │   │   ├── Acc_3_0330_0.png
+│   │   │   └── Acc_3_0330_0.ssbp
 │   │   ├── Acc_3_9998_0
 │   │   │   ├── Acc_3_9998_0.png
 │   │   │   └── Acc_3_9998_0.ssbp
@@ -33765,6 +34053,10 @@
 │   │   ├── wep_ac065.ssbp
 │   │   ├── wep_ac066.png
 │   │   ├── wep_ac066.ssbp
+│   │   ├── wep_ac067.png
+│   │   ├── wep_ac067.ssbp
+│   │   ├── wep_ac067_up.png
+│   │   ├── wep_ac067_up.ssbp
 │   │   ├── wep_ac999.png
 │   │   ├── wep_ac999.ssbp
 │   │   ├── wep_ar.png
@@ -34008,6 +34300,8 @@
 │   │   ├── wep_ar098.ssbp
 │   │   ├── wep_ar099.png
 │   │   ├── wep_ar099.ssbp
+│   │   ├── wep_ar100.png
+│   │   ├── wep_ar100.ssbp
 │   │   ├── wep_ar999.png
 │   │   ├── wep_ar999.ssbp
 │   │   ├── wep_ax.png
@@ -34130,6 +34424,8 @@
 │   │   ├── wep_ax044.ssbp
 │   │   ├── wep_ax045.png
 │   │   ├── wep_ax045.ssbp
+│   │   ├── wep_ax045_up.png
+│   │   ├── wep_ax045_up.ssbp
 │   │   ├── wep_ax046.png
 │   │   ├── wep_ax046.ssbp
 │   │   ├── wep_ax046_up.png
@@ -34324,6 +34620,8 @@
 │   │   ├── wep_ax126.ssbp
 │   │   ├── wep_ax127.png
 │   │   ├── wep_ax127.ssbp
+│   │   ├── wep_ax128.png
+│   │   ├── wep_ax128.ssbp
 │   │   ├── wep_ax999.png
 │   │   ├── wep_ax999.ssbp
 │   │   ├── wep_ax_L.png
@@ -34587,6 +34885,8 @@
 │   │   ├── wep_bw098.ssbp
 │   │   ├── wep_bw099.png
 │   │   ├── wep_bw099.ssbp
+│   │   ├── wep_bw100.png
+│   │   ├── wep_bw100.ssbp
 │   │   ├── wep_bw999.png
 │   │   ├── wep_bw999.ssbp
 │   │   ├── wep_dg.png
@@ -34762,6 +35062,8 @@
 │   │   ├── wep_dg071.ssbp
 │   │   ├── wep_dg072.png
 │   │   ├── wep_dg072.ssbp
+│   │   ├── wep_dg073.png
+│   │   ├── wep_dg073.ssbp
 │   │   ├── wep_dg999.png
 │   │   ├── wep_dg999.ssbp
 │   │   ├── wep_dg_L.png
@@ -35155,6 +35457,10 @@
 │   │   ├── wep_lc142.ssbp
 │   │   ├── wep_lc143.png
 │   │   ├── wep_lc143.ssbp
+│   │   ├── wep_lc144.png
+│   │   ├── wep_lc144.ssbp
+│   │   ├── wep_lc144_up.png
+│   │   ├── wep_lc144_up.ssbp
 │   │   ├── wep_lc23.png
 │   │   ├── wep_lc999.png
 │   │   ├── wep_lc999.ssbp
@@ -35369,6 +35675,8 @@
 │   │   ├── wep_mg145.ssbp
 │   │   ├── wep_mg146.png
 │   │   ├── wep_mg146.ssbp
+│   │   ├── wep_mg146_up.png
+│   │   ├── wep_mg146_up.ssbp
 │   │   ├── wep_mg147.png
 │   │   ├── wep_mg147_up.png
 │   │   ├── wep_mg148.png
@@ -35419,6 +35727,7 @@
 │   │   ├── wep_mg178.ssbp
 │   │   ├── wep_mg179.png
 │   │   ├── wep_mg179.ssbp
+│   │   ├── wep_mg180.png
 │   │   ├── wep_mg200.png
 │   │   ├── wep_mg201.png
 │   │   ├── wep_mg202.png
@@ -35696,6 +36005,12 @@
 │   │   ├── wep_rd052.ssbp
 │   │   ├── wep_rd053.png
 │   │   ├── wep_rd053.ssbp
+│   │   ├── wep_rd054.png
+│   │   ├── wep_rd054.ssbp
+│   │   ├── wep_rd054_up.png
+│   │   ├── wep_rd054_up.ssbp
+│   │   ├── wep_rd055.png
+│   │   ├── wep_rd055.ssbp
 │   │   ├── wep_rd999.png
 │   │   ├── wep_rd999.ssbp
 │   │   ├── wep_sw.png
@@ -36146,6 +36461,8 @@
 │   │   ├── wep_sw147.ssbp
 │   │   ├── wep_sw148.png
 │   │   ├── wep_sw148.ssbp
+│   │   ├── wep_sw149.png
+│   │   ├── wep_sw149.ssbp
 │   │   ├── wep_sw999.png
 │   │   ├── wep_sw999.ssbp
 │   │   └── wep_sw_L.png
@@ -36299,7 +36616,8 @@
 │   │   ├── v0702a_valentine.bin.lz
 │   │   ├── v0702b_akatsuki.bin.lz
 │   │   ├── v0703a_spring.bin.lz
-│   │   └── v0703b_seima.bin.lz
+│   │   ├── v0703b_seima.bin.lz
+│   │   └── v0704a_child.bin.lz
 │   ├── kJl2iE_x93
 │   │   ├── 191204_newyear_01.bin.lz
 │   │   ├── 191204_newyear_02.bin.lz
@@ -36452,7 +36770,21 @@
 │       ├── v0703b_seima_11.bin.lz
 │       ├── v0703b_seima_12.bin.lz
 │       ├── v0703b_seima_13.bin.lz
-│       └── v0703b_seima_14.bin.lz
+│       ├── v0703b_seima_14.bin.lz
+│       ├── v0703c_legend_01.bin.lz
+│       ├── v0703c_legend_02.bin.lz
+│       ├── v0703c_legend_03.bin.lz
+│       ├── v0703c_legend_04.bin.lz
+│       ├── v0703c_legend_05.bin.lz
+│       ├── v0703c_legend_06.bin.lz
+│       ├── v0704a_child_01.bin.lz
+│       ├── v0704a_child_02.bin.lz
+│       ├── v0704a_child_03.bin.lz
+│       ├── v0704a_child_04.bin.lz
+│       ├── v0704a_child_05.bin.lz
+│       ├── v0704a_child_06.bin.lz
+│       ├── v0704a_child_07.bin.lz
+│       └── v0704a_child_08.bin.lz
 ├── ENCommon
 │   ├── Sound
 │   │   ├── VOICE_ALFONS_MAP_1.ckb
@@ -36915,6 +37247,7 @@
 │   │   │   ├── ELISE_PAIR01.bin.lz
 │   │   │   ├── ELISE_SUMMER02.bin.lz
 │   │   │   ├── ELIWOD.bin.lz
+│   │   │   ├── ELIWOD_BEFORE01.bin.lz
 │   │   │   ├── ELIWOD_EX01.bin.lz
 │   │   │   ├── ELIWOD_LEGEND01.bin.lz
 │   │   │   ├── ELIWOD_POPULARITY05.bin.lz
@@ -36955,6 +37288,7 @@
 │   │   │   ├── EUDES.bin.lz
 │   │   │   ├── EUDES_VALENTINE05.bin.lz
 │   │   │   ├── EURIS.bin.lz
+│   │   │   ├── EURIS_LEGEND01.bin.lz
 │   │   │   ├── EVEL.bin.lz
 │   │   │   ├── EWAN.bin.lz
 │   │   │   ├── FA.bin.lz
@@ -37050,6 +37384,7 @@
 │   │   │   ├── HEATH.bin.lz
 │   │   │   ├── HEATH_NINJA01.bin.lz
 │   │   │   ├── HECTOR.bin.lz
+│   │   │   ├── HECTOR_BEFORE01.bin.lz
 │   │   │   ├── HECTOR_EX01.bin.lz
 │   │   │   ├── HECTOR_LEGEND01.bin.lz
 │   │   │   ├── HECTOR_PAIR01.bin.lz
@@ -37097,6 +37432,7 @@
 │   │   │   ├── INGRID.bin.lz
 │   │   │   ├── INGRID_SUMMER08.bin.lz
 │   │   │   ├── INVERSE.bin.lz
+│   │   │   ├── INVERSE_EX01.bin.lz
 │   │   │   ├── IRA.bin.lz
 │   │   │   ├── ISHTAR.bin.lz
 │   │   │   ├── ISHTAR_BLOOM01.bin.lz
@@ -37314,6 +37650,7 @@
 │   │   │   ├── MARKS_LEGEND01.bin.lz
 │   │   │   ├── MARKS_SPRING01.bin.lz
 │   │   │   ├── MARKS_SUMMER02.bin.lz
+│   │   │   ├── MARK_PAIR01.bin.lz
 │   │   │   ├── MARTH.bin.lz
 │   │   │   ├── MARTH_BEFORE01.bin.lz
 │   │   │   ├── MARTH_BRIDE02.bin.lz
@@ -37467,6 +37804,7 @@
 │   │   │   ├── RAPHAEL_BRIDE04.bin.lz
 │   │   │   ├── RARE_HALLOWEEN05.bin.lz
 │   │   │   ├── REBACCA.bin.lz
+│   │   │   ├── REBACCA_BEFORE01.bin.lz
 │   │   │   ├── REFLET_F.bin.lz
 │   │   │   ├── REFLET_F_HALLOWEEN04.bin.lz
 │   │   │   ├── REFLET_F_LEGEND01.bin.lz
@@ -37524,6 +37862,7 @@
 │   │   │   ├── RUTGER.bin.lz
 │   │   │   ├── RUTH.bin.lz
 │   │   │   ├── RUTHEA.bin.lz
+│   │   │   ├── RUTHEA_BEFORE01.bin.lz
 │   │   │   ├── RYOUMA.bin.lz
 │   │   │   ├── RYOUMA_BON01.bin.lz
 │   │   │   ├── RYOUMA_EX01.bin.lz
@@ -37752,7 +38091,9 @@
 │   │   │   ├── Data_v0702b_akatsuki.bin.lz
 │   │   │   ├── Data_v0702c_legend.bin.lz
 │   │   │   ├── Data_v0703a_spring.bin.lz
-│   │   │   └── Data_v0703b_seima.bin.lz
+│   │   │   ├── Data_v0703b_seima.bin.lz
+│   │   │   ├── Data_v0703c_legend.bin.lz
+│   │   │   └── Data_v0704a_child.bin.lz
 │   │   ├── Embedded
 │   │   │   ├── Error.bin.lz
 │   │   │   ├── ExtraAccount.bin.lz
@@ -37777,7 +38118,9 @@
 │   │   │   ├── Menu_v0702b_akatsuki.bin.lz
 │   │   │   ├── Menu_v0702c_legend.bin.lz
 │   │   │   ├── Menu_v0703a_spring.bin.lz
-│   │   │   └── Menu_v0703b_seima.bin.lz
+│   │   │   ├── Menu_v0703b_seima.bin.lz
+│   │   │   ├── Menu_v0703c_legend.bin.lz
+│   │   │   └── Menu_v0704a_child.bin.lz
 │   │   └── Scenario
 │   │       ├── BOARDGAME_202011.bin.lz
 │   │       ├── ConnectBondsOpening.bin.lz
@@ -37874,6 +38217,7 @@
 │   │       ├── L0058.bin.lz
 │   │       ├── L0059.bin.lz
 │   │       ├── L0060.bin.lz
+│   │       ├── L0061.bin.lz
 │   │       ├── MJOLNIR_201912.bin.lz
 │   │       ├── PA001.bin.lz
 │   │       ├── PA002.bin.lz
@@ -38082,6 +38426,9 @@
 │   │       ├── PB184.bin.lz
 │   │       ├── PB185.bin.lz
 │   │       ├── PB186.bin.lz
+│   │       ├── PB187.bin.lz
+│   │       ├── PB188.bin.lz
+│   │       ├── PB189.bin.lz
 │   │       ├── PC001.bin.lz
 │   │       ├── PC002.bin.lz
 │   │       ├── PC003.bin.lz
@@ -38701,6 +39048,7 @@
 │   │       ├── SENKA202301_2.bin.lz
 │   │       ├── SENKA202302.bin.lz
 │   │       ├── SENKA202303.bin.lz
+│   │       ├── SENKA202304.bin.lz
 │   │       ├── SHADOW_201906.bin.lz
 │   │       ├── SkyCastleScenario_0001.bin.lz
 │   │       ├── T0001.bin.lz
@@ -38873,6 +39221,7 @@
 │   │       ├── TapBattleScenario_0020.bin.lz
 │   │       ├── TripScenario_0001.bin.lz
 │   │       ├── TripScenario_0002.bin.lz
+│   │       ├── V0510.bin.lz
 │   │       ├── X0001.bin.lz
 │   │       ├── X0002.bin.lz
 │   │       ├── X0003.bin.lz
@@ -39122,6 +39471,9 @@
 │   │       ├── X0821.bin.lz
 │   │       ├── X0822.bin.lz
 │   │       ├── X0823.bin.lz
+│   │       ├── X0831.bin.lz
+│   │       ├── X0832.bin.lz
+│   │       ├── X0833.bin.lz
 │   │       ├── XX001.bin.lz
 │   │       ├── XX002.bin.lz
 │   │       ├── XX003.bin.lz
@@ -43927,6 +44279,26 @@
 │   │   ├── VOICE_ELISE_SUMMER02_STATUS_8.ckb
 │   │   ├── VOICE_ELIWOD_ATTACK_1.ckb
 │   │   ├── VOICE_ELIWOD_ATTACK_2.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_ATTACK_1.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_ATTACK_2.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_DAMAGE_1.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_DAMAGE_2.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_DEAD_1.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_MAP_1.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_MAP_2.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_MAP_3.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_SKILL_1.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_SKILL_2.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_SKILL_3.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_SKILL_4.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_1.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_2.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_3.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_4.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_5.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_6.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_7.ckb
+│   │   ├── VOICE_ELIWOD_BEFORE01_STATUS_8.ckb
 │   │   ├── VOICE_ELIWOD_DAMAGE_1.ckb
 │   │   ├── VOICE_ELIWOD_DAMAGE_2.ckb
 │   │   ├── VOICE_ELIWOD_DEAD_1.ckb
@@ -44736,6 +45108,26 @@
 │   │   ├── VOICE_EURIS_DAMAGE_1.ckb
 │   │   ├── VOICE_EURIS_DAMAGE_2.ckb
 │   │   ├── VOICE_EURIS_DEAD_1.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_ATTACK_1.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_ATTACK_2.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_DAMAGE_1.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_DAMAGE_2.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_DEAD_1.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_MAP_1.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_MAP_2.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_MAP_3.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_SKILL_1.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_SKILL_2.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_SKILL_3.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_SKILL_4.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_1.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_2.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_3.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_4.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_5.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_6.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_7.ckb
+│   │   ├── VOICE_EURIS_LEGEND01_STATUS_8.ckb
 │   │   ├── VOICE_EURIS_MAP_1.ckb
 │   │   ├── VOICE_EURIS_MAP_2.ckb
 │   │   ├── VOICE_EURIS_MAP_3.ckb
@@ -46519,6 +46911,26 @@
 │   │   ├── VOICE_HEATH_STATUS_8.ckb
 │   │   ├── VOICE_HECTOR_ATTACK_1.ckb
 │   │   ├── VOICE_HECTOR_ATTACK_2.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_ATTACK_1.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_ATTACK_2.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_DAMAGE_1.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_DAMAGE_2.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_DEAD_1.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_MAP_1.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_MAP_2.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_MAP_3.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_SKILL_1.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_SKILL_2.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_SKILL_3.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_SKILL_4.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_1.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_2.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_3.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_4.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_5.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_6.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_7.ckb
+│   │   ├── VOICE_HECTOR_BEFORE01_STATUS_8.ckb
 │   │   ├── VOICE_HECTOR_DAMAGE_1.ckb
 │   │   ├── VOICE_HECTOR_DAMAGE_2.ckb
 │   │   ├── VOICE_HECTOR_DEAD_1.ckb
@@ -47484,6 +47896,26 @@
 │   │   ├── VOICE_INVERSE_DAMAGE_1.ckb
 │   │   ├── VOICE_INVERSE_DAMAGE_2.ckb
 │   │   ├── VOICE_INVERSE_DEAD_1.ckb
+│   │   ├── VOICE_INVERSE_EX01_ATTACK_1.ckb
+│   │   ├── VOICE_INVERSE_EX01_ATTACK_2.ckb
+│   │   ├── VOICE_INVERSE_EX01_DAMAGE_1.ckb
+│   │   ├── VOICE_INVERSE_EX01_DAMAGE_2.ckb
+│   │   ├── VOICE_INVERSE_EX01_DEAD_1.ckb
+│   │   ├── VOICE_INVERSE_EX01_MAP_1.ckb
+│   │   ├── VOICE_INVERSE_EX01_MAP_2.ckb
+│   │   ├── VOICE_INVERSE_EX01_MAP_3.ckb
+│   │   ├── VOICE_INVERSE_EX01_SKILL_1.ckb
+│   │   ├── VOICE_INVERSE_EX01_SKILL_2.ckb
+│   │   ├── VOICE_INVERSE_EX01_SKILL_3.ckb
+│   │   ├── VOICE_INVERSE_EX01_SKILL_4.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_1.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_2.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_3.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_4.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_5.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_6.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_7.ckb
+│   │   ├── VOICE_INVERSE_EX01_STATUS_8.ckb
 │   │   ├── VOICE_INVERSE_MAP_1.ckb
 │   │   ├── VOICE_INVERSE_MAP_2.ckb
 │   │   ├── VOICE_INVERSE_MAP_3.ckb
@@ -51877,6 +52309,42 @@
 │   │   ├── VOICE_MARKS_SUMMER02_STATUS_6.ckb
 │   │   ├── VOICE_MARKS_SUMMER02_STATUS_7.ckb
 │   │   ├── VOICE_MARKS_SUMMER02_STATUS_8.ckb
+│   │   ├── VOICE_MARK_PAIR01_ATTACK_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_ATTACK_2.ckb
+│   │   ├── VOICE_MARK_PAIR01_DAMAGE_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_DAMAGE_2.ckb
+│   │   ├── VOICE_MARK_PAIR01_DAMAGE_3.ckb
+│   │   ├── VOICE_MARK_PAIR01_DEAD_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_MAP_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_MAP_2.ckb
+│   │   ├── VOICE_MARK_PAIR01_MAP_3.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_10.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_11.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_12.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_13.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_14.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_15.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_16.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_17.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_2.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_3.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_4.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_5.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_6.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_7.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_8.ckb
+│   │   ├── VOICE_MARK_PAIR01_RELIANCE_9.ckb
+│   │   ├── VOICE_MARK_PAIR01_SKILL_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_SKILL_2.ckb
+│   │   ├── VOICE_MARK_PAIR01_SKILL_3.ckb
+│   │   ├── VOICE_MARK_PAIR01_SKILL_4.ckb
+│   │   ├── VOICE_MARK_PAIR01_SPECIAL_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_SPECIAL_2.ckb
+│   │   ├── VOICE_MARK_PAIR01_STATUS_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_STATUS_2.ckb
+│   │   ├── VOICE_MARK_PAIR01_SUPPORT_1.ckb
+│   │   ├── VOICE_MARK_PAIR01_SUPPORT_2.ckb
 │   │   ├── VOICE_MARTH_ATTACK_1.ckb
 │   │   ├── VOICE_MARTH_ATTACK_2.ckb
 │   │   ├── VOICE_MARTH_BEFORE01_ATTACK_1.ckb
@@ -54926,6 +55394,26 @@
 │   │   ├── VOICE_RARE_HALLOWEEN05_STATUS_8.ckb
 │   │   ├── VOICE_REBACCA_ATTACK_1.ckb
 │   │   ├── VOICE_REBACCA_ATTACK_2.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_ATTACK_1.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_ATTACK_2.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_DAMAGE_1.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_DAMAGE_2.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_DEAD_1.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_MAP_1.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_MAP_2.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_MAP_3.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_SKILL_1.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_SKILL_2.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_SKILL_3.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_SKILL_4.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_1.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_2.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_3.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_4.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_5.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_6.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_7.ckb
+│   │   ├── VOICE_REBACCA_BEFORE01_STATUS_8.ckb
 │   │   ├── VOICE_REBACCA_DAMAGE_1.ckb
 │   │   ├── VOICE_REBACCA_DAMAGE_2.ckb
 │   │   ├── VOICE_REBACCA_DEAD_1.ckb
@@ -56083,6 +56571,26 @@
 │   │   ├── VOICE_RUTGER_STATUS_8.ckb
 │   │   ├── VOICE_RUTHEA_ATTACK_1.ckb
 │   │   ├── VOICE_RUTHEA_ATTACK_2.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_ATTACK_1.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_ATTACK_2.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_DAMAGE_1.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_DAMAGE_2.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_DEAD_1.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_MAP_1.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_MAP_2.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_MAP_3.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_SKILL_1.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_SKILL_2.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_SKILL_3.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_SKILL_4.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_1.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_2.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_3.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_4.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_5.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_6.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_7.ckb
+│   │   ├── VOICE_RUTHEA_BEFORE01_STATUS_8.ckb
 │   │   ├── VOICE_RUTHEA_DAMAGE_1.ckb
 │   │   ├── VOICE_RUTHEA_DAMAGE_2.ckb
 │   │   ├── VOICE_RUTHEA_DEAD_1.ckb
@@ -60572,4 +61080,4 @@
 │   └── report.h
 └── npf.json
 
-5955 directories, 54618 files
+5993 directories, 55088 files
