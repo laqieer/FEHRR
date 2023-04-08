@@ -16,7 +16,7 @@
 
 #include "constants/terrains.h"
 #include "constants/iids.h"
-#include "constants/map-sprites.h"
+#include "constants/unitsprites.h"
 #include "constants/icons.h"
 #include "constants/faces.h"
 
