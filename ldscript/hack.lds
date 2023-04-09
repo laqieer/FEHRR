@@ -21,6 +21,7 @@ INCLUDE ../ldscript/chapterinfo.lds
 INCLUDE ../ldscript/debugmenu.lds
 INCLUDE ../ldscript/eventfunctions.lds
 INCLUDE ../ldscript/eventinfo.lds
+INCLUDE ../ldscript/helpbox.lds
 INCLUDE ../ldscript/helpbox_2.lds
 INCLUDE ../ldscript/map.lds
 INCLUDE ../ldscript/playerphase.lds

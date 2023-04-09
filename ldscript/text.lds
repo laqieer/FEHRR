@@ -20,3 +20,5 @@
 .text.DrawTextGlyphNoClearOld : {*(.text.DrawTextGlyphNoClearOld)}
 . = DrawSpriteTextGlyph - 1;
 .text.DrawSpriteTextGlyphOld : {*(.text.DrawSpriteTextGlyphOld)}
+. = SpriteText_DrawBackground - 1;
+.text.SpriteText_DrawBackgroundOld : {*(.text.SpriteText_DrawBackgroundOld)}

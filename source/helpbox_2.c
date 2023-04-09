@@ -314,3 +314,216 @@ int func_fe6_08070E0COld(struct PlayStNew * play_st)
 {
     return func_fe6_08070E0CNew(play_st);
 }
+
+#define OBJCHR_HELPBOX_OFFSET 32 * 6
+
+void func_fe6_08070E70New(void * vram, int pal)
+{
+    if (vram == NULL)
+        vram = ((void *) VRAM) + 0x10000 + OBJCHR_HELPBOX_180 * CHR_SIZE;
+
+    if (pal < 0)
+        pal = OBJPAL_HELPBOX_5;
+
+    pal = (pal & 15) + 0x10;
+
+    Decompress(gUnk_08308A78, vram);
+    Decompress(helpbox_outline_1Tiles, vram + OBJCHR_HELPBOX_OFFSET * CHR_SIZE);
+    Decompress(helpbox_outline_2Tiles, vram + (OBJCHR_HELPBOX_OFFSET + 32) * CHR_SIZE);
+
+    InitSpriteTextFont(&gUnk_0203D40C.font, vram, pal);
+    InitSpriteText(gUnk_0203D40C.text + 0);
+    InitSpriteText(gUnk_0203D40C.text + 1);
+    InitSpriteText(gUnk_0203D40C.text + 2);
+    SetTextFont(NULL);
+
+    ApplyPalette(Pal_08100A48, pal);
+
+    gUnk_0203D40C.unk_30 = OAM2_CHR(((uptr) vram) / CHR_SIZE) + OAM2_PAL(pal);
+}
+
+void func_fe6_08070E70Old(void * vram, int pal)
+{
+    func_fe6_08070E70New(vram, pal);
+}
+
+void func_fe6_08070EECNew(void * vram, int pal)
+{
+    if (vram == NULL)
+        vram = ((void *) VRAM) + 0x10000 + OBJCHR_HELPBOX_180 * CHR_SIZE;
+
+    if (pal < 0)
+        pal = OBJPAL_HELPBOX_5;
+
+    pal = (pal & 15) + 0x10;
+
+    Decompress(gUnk_08308A78, vram);
+    Decompress(helpbox_outline_1Tiles, vram + OBJCHR_HELPBOX_OFFSET * CHR_SIZE);
+    Decompress(helpbox_outline_2Tiles, vram + (OBJCHR_HELPBOX_OFFSET + 32) * CHR_SIZE);
+
+    InitSpriteTextFont(&gUnk_0203D40C.font, vram, pal);
+    InitSpriteText(gUnk_0203D40C.text + 0);
+    InitSpriteText(gUnk_0203D40C.text + 1);
+    gUnk_0203D40C.text[2].tile_width = 0; // ok???
+    SetTextFont(NULL);
+
+    ApplyPalette(Pal_08100A48, pal);
+
+    gUnk_0203D40C.unk_30 = OAM2_CHR(((uptr) vram) / CHR_SIZE) + OAM2_PAL(pal);
+}
+
+void func_fe6_08070EECOld(void * vram, int pal)
+{
+    func_fe6_08070EECNew(vram, pal);
+}
+
+void PutSpriteTalkBoxNew(int x_box, int y_box, int w_box, int h_box)
+{
+    int y_count, x_count;
+    int iy, ix, x_px, y_px;
+
+    if (w_box < 0x20)
+        w_box = 0x20;
+
+    // if (w_box > 0xC0)
+    //     w_box = 0xC0;
+    if (w_box > 0xE0)
+        w_box = 0xE0;
+
+    if (h_box < 0x10)
+        h_box = 0x10;
+
+    if (h_box > 0x30)
+        h_box = 0x30;
+
+    x_count = (w_box + 0x1F) / 0x20;
+    y_count = (h_box + 0x0F) / 0x10;
+
+    for (ix = x_count - 1; ix >= 0; ix--)
+    {
+        for (iy = y_count; iy >= 0; iy--)
+        {
+            x_px = (ix + 1) * 0x20;
+            if (x_px > w_box)
+                x_px = w_box;
+            x_px = x_px - 0x20;
+
+            y_px = (iy + 1) * 0x10;
+            if (y_px > h_box)
+                y_px = h_box;
+            y_px = y_px - 0x10;
+
+            PutSprite(0, x_box + x_px, y_box + y_px, Sprite_32x16, gUnk_0203D40C.unk_30 + ix * 4 + iy * 0x40);
+        }
+    }
+
+    for (ix = x_count - 1; ix >= 0; ix--)
+    {
+        x_px = (ix + 1) * 0x20;
+        if (x_px > w_box)
+            x_px = w_box;
+        x_px = x_px - 0x20;
+
+        PutSprite(0, x_box + x_px, y_box - 8, Sprite_32x8, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET);
+        PutSprite(0, x_box + x_px, y_box + h_box, Sprite_32x8_VFlipped, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET);
+    }
+
+    for (iy = y_count; iy >= 0; iy--)
+    {
+        y_px = (iy + 1) * 0x10;
+        if (y_px > h_box)
+            y_px = h_box;
+        y_px -= 0x10;
+
+        PutSprite(0, x_box - 8, y_box + y_px, Sprite_8x16, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET + 4);
+        PutSprite(0, x_box + w_box, y_box + y_px, Sprite_8x16_HFlipped, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET + 4);
+    }
+
+    PutSprite(0, x_box - 8, y_box - 8, Sprite_8x8, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+    PutSprite(0, x_box + w_box, y_box - 8, Sprite_8x8_HFlipped, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+    PutSprite(0, x_box - 8, y_box + h_box, Sprite_8x8_VFlipped, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+    PutSprite(0, x_box + w_box, y_box + h_box, Sprite_8x8_HFlipped_VFlipped, gUnk_0203D40C.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+}
+
+void PutSpriteTalkBoxOld(int x_box, int y_box, int w_box, int h_box)
+{
+    PutSpriteTalkBoxNew(x_box, y_box, w_box, h_box);
+}
+
+extern struct Unk_0203D40C gUnk_0203D460;
+
+void func_fe6_08071D94New(int x_box, int y_box, int w_box, int h_box)
+{
+    // identical to PutSpriteTalkBox
+    // except it refers to gUnk_0203D460 instead of gUnk_0203D40C, and uses layer 2 instead of 0
+
+    int y_count, x_count;
+    int iy, ix, x_px, y_px;
+
+    if (w_box < 0x20)
+        w_box = 0x20;
+
+    // if (w_box > 0xC0)
+    //     w_box = 0xC0;
+    if (w_box > 0xE0)
+        w_box = 0xE0;
+
+    if (h_box < 0x10)
+        h_box = 0x10;
+
+    if (h_box > 0x30)
+        h_box = 0x30;
+
+    x_count = (w_box + 0x1F) / 0x20;
+    y_count = (h_box + 0x0F) / 0x10;
+
+    for (ix = x_count - 1; ix >= 0; ix--)
+    {
+        for (iy = y_count; iy >= 0; iy--)
+        {
+            x_px = (ix + 1) * 0x20;
+            if (x_px > w_box)
+                x_px = w_box;
+            x_px = x_px - 0x20;
+
+            y_px = (iy + 1) * 0x10;
+            if (y_px > h_box)
+                y_px = h_box;
+            y_px = y_px - 0x10;
+
+            PutSprite(2, x_box + x_px, y_box + y_px, Sprite_32x16, gUnk_0203D460.unk_30 + ix * 4 + iy * 0x40);
+        }
+    }
+
+    for (ix = x_count - 1; ix >= 0; ix--)
+    {
+        x_px = (ix + 1) * 0x20;
+        if (x_px > w_box)
+            x_px = w_box;
+        x_px = x_px - 0x20;
+
+        PutSprite(2, x_box + x_px, y_box - 8, Sprite_32x8, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET);
+        PutSprite(2, x_box + x_px, y_box + h_box, Sprite_32x8_VFlipped, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET);
+    }
+
+    for (iy = y_count; iy >= 0; iy--)
+    {
+        y_px = (iy + 1) * 0x10;
+        if (y_px > h_box)
+            y_px = h_box;
+        y_px -= 0x10;
+
+        PutSprite(2, x_box - 8, y_box + y_px, Sprite_8x16, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET + 4);
+        PutSprite(2, x_box + w_box, y_box + y_px, Sprite_8x16_HFlipped, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET + 4);
+    }
+
+    PutSprite(2, x_box - 8, y_box - 8, Sprite_8x8, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+    PutSprite(2, x_box + w_box, y_box - 8, Sprite_8x8_HFlipped, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+    PutSprite(2, x_box - 8, y_box + h_box, Sprite_8x8_VFlipped, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+    PutSprite(2, x_box + w_box, y_box + h_box, Sprite_8x8_HFlipped_VFlipped, gUnk_0203D460.unk_30 + OBJCHR_HELPBOX_OFFSET + 0x3E - 0x1B);
+}
+
+void func_fe6_08071D94Old(int x_box, int y_box, int w_box, int h_box)
+{
+    func_fe6_08071D94New(x_box, y_box, w_box, h_box);
+}

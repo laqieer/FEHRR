@@ -539,3 +539,21 @@ void PrintTalkGlyphs()
     Info("Talk font glyphs:");
     PrintGlyphs(TextGlyphs_Talk);
 }
+
+void SpriteText_DrawBackgroundNew(struct Text * text)
+{
+    if (text->tile_width == 0)
+        return;
+
+    text->x = 0;
+
+    // CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text),                   0x1B * CHR_SIZE);
+    // CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text) + 0x20 * CHR_SIZE, 0x1B * CHR_SIZE);
+    CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text),                   0x1E * CHR_SIZE);
+    CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text) + 0x20 * CHR_SIZE, 0x1E * CHR_SIZE);
+}
+
+void SpriteText_DrawBackgroundOld(struct Text * text)
+{
+    SpriteText_DrawBackgroundNew(text);
+}
