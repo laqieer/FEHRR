@@ -549,8 +549,8 @@ void SpriteText_DrawBackgroundNew(struct Text * text)
 
     // CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text),                   0x1B * CHR_SIZE);
     // CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text) + 0x20 * CHR_SIZE, 0x1B * CHR_SIZE);
-    CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text),                   0x1E * CHR_SIZE);
-    CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text) + 0x20 * CHR_SIZE, 0x1E * CHR_SIZE);
+    CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text),                   0x20 * CHR_SIZE);
+    CpuFastFill(0x44444444, gActiveFont->get_draw_dest(text) + 0x20 * CHR_SIZE, 0x20 * CHR_SIZE);
 }
 
 void SpriteText_DrawBackgroundOld(struct Text * text)
