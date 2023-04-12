@@ -30,6 +30,9 @@ void ChangeLang(void);
 void PrintSystemGlyphs();
 void PrintTalkGlyphs();
 
+#define MSG_CHAR_END '\0'
+#define MSG_CHAR_NEWLINE '\1'
+
 #define TEXT_CMD_END "\0"
 #define TEXT_CMD_NEWLINE "\1"
 #define TEXT_CMD_WAIT "\3"

@@ -25,13 +25,50 @@ char const * GetMsg(int id)
     return (id < 0 || id > 0x1000000) ? (char const *)id : gMsgTableNew[id][GetLangNew()];
 }
 
+#define MSG_MAX_WIDTH 0xE0
+
 char * DecodeMsgNew(int id)
 {
     if (id == sActiveMsg)
         return sMsgString;
 
     // DecodeStringRam(gMsgTable[id], sMsgString);
-    strcpy(sMsgString, GetMsg(id));
+
+    char const *pSrc = GetMsg(id);
+    char *pDst = sMsgString;
+    int w = 0;
+    int h = 0;
+    GetStringTextBox(pSrc, &w, &h);
+    if (w <= MSG_MAX_WIDTH)
+        strcpy(sMsgString, GetMsg(id));
+    else
+    {
+        int cw = 0;
+        int lw = 0;
+        while (*pSrc)
+        {
+            if (*pSrc > 0 && *pSrc < 0x20)
+            {
+                if (*pSrc == MSG_CHAR_NEWLINE)
+                    lw = 0;
+                *pDst++ = *pSrc++;
+            }
+            else
+            {
+                char const *pNext = GetCharTextLen(pSrc, &cw);
+                lw += cw;
+                if (lw > MSG_MAX_WIDTH)
+                {
+                    *pDst++ = MSG_CHAR_NEWLINE;
+                    lw = cw;
+                }
+                while (*pSrc != MSG_CHAR_END && pSrc < pNext)
+                    *pDst++ = *pSrc++;
+            }
+        }
+        *pDst = MSG_CHAR_END;
+    }
+
     sActiveMsg = id;
 
     Infof("Decoded message %d %s: %s", id, GetMsgKey(id), sMsgString);
