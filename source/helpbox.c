@@ -15,6 +15,7 @@
 #include "constants/songs.h"
 
 #include "log.h"
+#include "utilNew.h"
 
 extern struct HelpBoxInfo gMutableHelpBoxInfo;
 extern struct HelpBoxInfo const * gLastHelpBoxInfo;
@@ -25,6 +26,7 @@ void ApplyHelpBoxContentSizeNew(struct HelpBoxProc * proc, int w_inner, int h_in
     Debugf("w_inner: %d, h_inner: %d", w_inner, h_inner);
 
     w_inner = 0x1E0 & (w_inner + 31); // align to 32 pixel multiple
+    h_inner = min(h_inner, 0x10 * 3); // no more than 3 lines
 
     switch (func_fe6_08070B30(proc->item))
     {
