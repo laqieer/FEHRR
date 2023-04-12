@@ -49,8 +49,7 @@ char * DecodeMsgNew(int id)
         {
             if (*pSrc > 0 && *pSrc < 0x20)
             {
-                if (*pSrc == MSG_CHAR_NEWLINE)
-                    lw = 0;
+                lw = 0;
                 *pDst++ = *pSrc++;
             }
             else
