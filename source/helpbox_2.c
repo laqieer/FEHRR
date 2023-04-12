@@ -315,7 +315,7 @@ int func_fe6_08070E0COld(struct PlayStNew * play_st)
     return func_fe6_08070E0CNew(play_st);
 }
 
-#define OBJCHR_HELPBOX_OFFSET 32 * 6
+#define OBJCHR_HELPBOX_OFFSET (27 - OBJCHR_HELPBOX_180)
 
 void func_fe6_08070E70New(void * vram, int pal)
 {
