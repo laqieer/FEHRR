@@ -1181,6 +1181,15 @@ const struct GlyphNew GlyTEN_C3BE = { /* þ */
     .bitmap = GlyTEN_C3BETiles,
 };
 
+const struct GlyphNew GlyTEN_E296B8 = { /* ▸ */
+    .next = &GlyTEN_E289A5,
+    .width = 5,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTEN_E296B8Tiles,
+};
+
 struct GlyphNew const * const GlyTENNew[0x100 - 0x20] = {
     [0x61 - 0x20] = &GlyTEN_61,
     [0x62 - 0x20] = &GlyTEN_62,
@@ -1279,7 +1288,7 @@ struct GlyphNew const * const GlyTENNew[0x100 - 0x20] = {
     [0x7e - 0x20] = &GlyTEN_7E,
     [0xc3 - 0x20] = &GlyTEN_C3BE,
     [0xef - 0x20] = &GlyTEN_EFBC97,
-    [0xe2 - 0x20] = &GlyTEN_E289A5,
+    [0xe2 - 0x20] = &GlyTEN_E296B8,
     [0xe3 - 0x20] = &GlyTEN_E38091,
     [0x7f - 0x20] = &GlyTEN_7F,
     [0xce - 0x20] = &GlyTEN_CEA9,

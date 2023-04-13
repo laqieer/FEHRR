@@ -328,3 +328,7 @@
 þ	text	6	FontText_C3BE.png
 繫	item	12	FontItem_E7B9AB.png
 繫	text	11	FontText_E7B9AB.png
+▸	item	6	FontItem_E296B8.png
+▹	item	6	FontItem_E296B9.png
+▸	text	5	FontText_E296B8.png
+▹	text	5	FontText_E296B9.png

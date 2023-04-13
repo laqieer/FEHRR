@@ -30,6 +30,9 @@ void ChangeLang(void);
 void PrintSystemGlyphs();
 void PrintTalkGlyphs();
 
+int GetStringLines(char const * str);
+char const * MoveToLine(char const * str, int line);
+
 #define MSG_CHAR_END '\0'
 #define MSG_CHAR_NEWLINE '\1'
 

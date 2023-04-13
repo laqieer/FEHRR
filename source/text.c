@@ -215,7 +215,7 @@ char const * GetStringLineEndNew(char const * str)
 
         // str += 2;
 
-        str++;
+        str++; // UTF-8 encoding doesn't have occasional '\x1'
     }
 
     return str;
@@ -224,6 +224,34 @@ char const * GetStringLineEndNew(char const * str)
 char const * GetStringLineEndOld(char const * str)
 {
     return GetStringLineEndNew(str);
+}
+
+int GetStringLines(char const * str)
+{
+    int lines = 1;
+
+    while(*str)
+    {
+        str = GetStringLineEndNew(str);
+        if (*str == MSG_CHAR_END)
+            break;
+        str++;
+        lines++;
+    }
+
+    return lines;
+}
+
+char const * MoveToLine(char const * str, int line)
+{
+    while (line > 0)
+    {
+        str = GetStringLineEndNew(str);
+        str++;
+        line--;
+    }
+
+    return str;
 }
 
 void Text_DrawStringNew(struct Text * text, char const * str)

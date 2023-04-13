@@ -327,7 +327,7 @@ void func_fe6_08070E70New(void * vram, int pal)
 
     pal = (pal & 15) + 0x10;
 
-    Decompress(gUnk_08308A78, vram);
+    // Decompress(gUnk_08308A78, vram);
     Decompress(helpbox_outline_1Tiles, vram + OBJCHR_HELPBOX_OFFSET * CHR_SIZE);
     Decompress(helpbox_outline_2Tiles, vram + (OBJCHR_HELPBOX_OFFSET + 32) * CHR_SIZE);
 
@@ -357,7 +357,7 @@ void func_fe6_08070EECNew(void * vram, int pal)
 
     pal = (pal & 15) + 0x10;
 
-    Decompress(gUnk_08308A78, vram);
+    // Decompress(gUnk_08308A78, vram);
     Decompress(helpbox_outline_1Tiles, vram + OBJCHR_HELPBOX_OFFSET * CHR_SIZE);
     Decompress(helpbox_outline_2Tiles, vram + (OBJCHR_HELPBOX_OFFSET + 32) * CHR_SIZE);
 
@@ -527,3 +527,218 @@ void func_fe6_08071D94Old(int x_box, int y_box, int w_box, int h_box)
 {
     func_fe6_08071D94New(x_box, y_box, w_box, h_box);
 }
+
+#define HELPBOX_MAX_LINES 3
+
+struct HelpBoxPrintProcNew
+{
+    /* 00 */ PROC_HEADER;
+
+    /* 2C */ char const * str_it;
+    /* 30 */ struct Font * font;
+    /* 34 */ struct Text * text[6];
+    /* 4C */ STRUCT_PAD(0x4C, 0x5C);
+    /* 5C */ i16 line;
+    /* 5E */ i16 clock;
+    /* 60 */ i16 clock_interval;
+    /* 62 */ i16 chars_per_print;
+    /* 64 */ char const * str;
+    /* 68 */ i16 lines;
+    /* 6A */ i16 baseline;
+};
+
+u8 * GetSpriteTextDrawDest(struct Text * text);
+
+void func_fe6_08071274New(struct HelpBoxPrintProcNew * proc)
+{
+    int i;
+
+    proc->clock--;
+
+    if (proc->clock > 0)
+        return;
+
+    proc->clock = proc->clock_interval;
+
+    SetTextFont(proc->font);
+
+    if (gKeySt->pressed & KEY_BUTTON_A)
+    {
+        proc->clock_interval = 0;
+        proc->chars_per_print = INT8_MAX;
+
+        if (proc->lines > HELPBOX_MAX_LINES)
+        {
+            proc->line = 0;
+            proc->baseline += HELPBOX_MAX_LINES;
+            if (proc->baseline >= proc->lines)
+                proc->baseline = 0;
+            proc->str_it = MoveToLine(proc->str, proc->baseline);
+
+            for (i = 0; i < HELPBOX_MAX_LINES; i++)
+            {
+                SpriteText_DrawBackground(proc->text[i]);
+            }
+
+            proc->font->chr_counter = 0;
+        }
+
+        Debugf("baseline: %d, proc->str_it (0x%x): %s", proc->baseline, proc->str_it, proc->str_it);
+    }
+
+    for (i = 0; i < proc->chars_per_print; i++)
+    {
+        switch (*proc->str_it)
+        {
+
+            // TODO: control character constants
+
+        case 0:
+            if (proc->lines <= HELPBOX_MAX_LINES)
+                Proc_Break(proc);
+            break;
+
+        case 1:
+            proc->str_it++;
+            proc->line++;
+            if (proc->line >= HELPBOX_MAX_LINES)
+            {
+                Text_DrawCharacter(proc->text[proc->line - 1], GetMsg(3787));
+                break;
+            }
+            continue;
+
+        case 4:
+            proc->str_it++;
+            continue;
+
+        default:
+            proc->str_it = Text_DrawCharacter(proc->text[proc->line], proc->str_it);
+            continue;
+
+        }
+
+        break;
+    }
+
+    SetTextFont(NULL);
+}
+
+struct ProcScr const gUnk_08677FD0New[] =
+{
+    PROC_REPEAT(func_fe6_08071274New),
+    PROC_END,
+};
+
+void func_fe6_08071410New(struct HelpBoxStartPrintProc * proc)
+{
+    struct HelpBoxPrintProcNew * print_proc;
+
+    SetTextFont(&gUnk_0203D40C.font);
+    SetTextFontGlyphs(TEXT_GLYPHS_TALK);
+    Text_SetColor(&gUnk_0203D40C.text[0], TEXT_COLOR_4DEF);
+    Text_SetColor(&gUnk_0203D40C.text[1], TEXT_COLOR_4DEF);
+    Text_SetColor(&gUnk_0203D40C.text[2], TEXT_COLOR_4DEF);
+    SetTextFont(NULL);
+
+    Proc_EndEach(gUnk_08677FD0New);
+
+    print_proc = SpawnProc(gUnk_08677FD0New, PROC_TREE_3);
+    print_proc->font = &gUnk_0203D40C.font;
+    print_proc->text[0] = &gUnk_0203D40C.text[0];
+    print_proc->text[1] = &gUnk_0203D40C.text[1];
+    print_proc->text[2] = &gUnk_0203D40C.text[2];
+    print_proc->line = proc->unk_64;
+    print_proc->str = DecodeMsg(proc->msg);
+    print_proc->str_it = print_proc->str;
+    print_proc->lines = GetStringLines(print_proc->str);
+    Debugf("print_proc->lines: %d", print_proc->lines);
+    print_proc->baseline = 0;
+    print_proc->chars_per_print = 1;
+    print_proc->clock = 0;
+
+    switch (gPlaySt.config_talk_speed)
+    {
+
+        // TODO: talk speed enum constants
+
+    case 0:
+        print_proc->clock_interval = 2;
+        break;
+
+    case 1:
+        print_proc->clock_interval = 1;
+        break;
+
+    case 2:
+        print_proc->clock_interval = 1;
+        print_proc->chars_per_print = 2;
+        break;
+
+    case 3:
+        print_proc->clock_interval = 0;
+        print_proc->chars_per_print = INT8_MAX;
+        break;
+
+    }
+}
+
+int DrawHelpBoxWeaponLabels(int item);
+void DrawHelpBoxWeaponStats(int item);
+int DrawHelpBoxStaffLabels(int item);
+
+void func_fe6_08071374New(struct HelpBoxStartPrintProc * proc)
+{
+    int item = proc->item;
+
+    SetTextFont(&gUnk_0203D40C.font);
+    SetTextFontGlyphs(TEXT_GLYPHS_SYSTEM);
+
+    switch (func_fe6_08070B30(item))
+    {
+
+    case HELPBOX_INFO_NONE:
+        proc->unk_64 = 0;
+        break;
+
+    case HELPBOX_INFO_WEAPON:
+        DrawHelpBoxWeaponLabels(item);
+        proc->unk_64 = 2;
+        break;
+
+    case HELPBOX_INFO_STAFF:
+        DrawHelpBoxStaffLabels(item);
+        proc->unk_64 = 1;
+        break;
+
+    }
+
+    SetTextFont(NULL);
+
+    Proc_Break(proc);
+}
+
+void func_fe6_080713DCNew(struct HelpBoxStartPrintProc * proc)
+{
+    int item = proc->item;
+
+    SetTextFont(&gUnk_0203D40C.font);
+
+    if (func_fe6_08070B30(item) == HELPBOX_INFO_WEAPON)
+    {
+        DrawHelpBoxWeaponStats(item);
+    }
+
+    SetTextFont(NULL);
+
+    Proc_Break(proc);
+}
+
+struct ProcScr const gUnk_08677FF8New[] =
+{
+    PROC_SLEEP(6),
+    PROC_REPEAT(func_fe6_08071374New),
+    PROC_REPEAT(func_fe6_080713DCNew),
+    PROC_CALL(func_fe6_08071410New),
+    PROC_END,
+};

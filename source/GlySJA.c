@@ -19955,12 +19955,21 @@ const struct GlyphNew GlySJA_E7B9AB = { /* 繫 */
     .bitmap = GlySJA_E7B9ABTiles,
 };
 
+const struct GlyphNew GlySJA_E296B8 = { /* ▸ */
+    .next = &GlySJA_E297AF,
+    .width = 6,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySJA_E296B8Tiles,
+};
+
 struct GlyphNew const * const GlySJANew[0x100 - 0x20] = {
     [0xe3 - 0x20] = &GlySJA_E38087,
     [0xe6 - 0x20] = &GlySJA_E6AB82,
     [0xe9 - 0x20] = &GlySJA_E991BD,
     [0xe5 - 0x20] = &GlySJA_E593AD,
-    [0xe2 - 0x20] = &GlySJA_E297AF,
+    [0xe2 - 0x20] = &GlySJA_E296B8,
     [0xe8 - 0x20] = &GlySJA_E89FBB,
     [0xe7 - 0x20] = &GlySJA_E7B9AB,
     [0xe4 - 0x20] = &GlySJA_E4B8B2,

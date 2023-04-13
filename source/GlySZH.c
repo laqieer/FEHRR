@@ -26354,10 +26354,19 @@ const struct GlyphNew GlySZH_E297AF = { /* ◯ */
     .bitmap = GlySZH_E297AFTiles,
 };
 
+const struct GlyphNew GlySZH_E296B8 = { /* ▸ */
+    .next = &GlySZH_E297AF,
+    .width = 6,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySZH_E296B8Tiles,
+};
+
 struct GlyphNew const * const GlySZHNew[0x100 - 0x20] = {
     [0xe3 - 0x20] = &GlySZH_E38087,
     [0xef - 0x20] = &GlySZH_EFBC85,
-    [0xe2 - 0x20] = &GlySZH_E297AF,
+    [0xe2 - 0x20] = &GlySZH_E296B8,
     [0xc2 - 0x20] = &GlySZH_C2B7,
     [0x2b - 0x20] = &GlySZH_2B,
     [0xe5 - 0x20] = &GlySZH_E5A6B3,

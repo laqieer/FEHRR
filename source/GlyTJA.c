@@ -20099,9 +20099,18 @@ const struct GlyphNew GlyTJA_E7B9AB = { /* 繫 */
     .bitmap = GlyTJA_E7B9ABTiles,
 };
 
+const struct GlyphNew GlyTJA_E296B8 = { /* ▸ */
+    .next = &GlyTJA_E297AF,
+    .width = 5,
+    .utf_byte_2 = 0x96,
+    .utf_byte_3 = 0xb8,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTJA_E296B8Tiles,
+};
+
 struct GlyphNew const * const GlyTJANew[0x100 - 0x20] = {
     [0xe3 - 0x20] = &GlyTJA_E38087,
-    [0xe2 - 0x20] = &GlyTJA_E297AF,
+    [0xe2 - 0x20] = &GlyTJA_E296B8,
     [0xe6 - 0x20] = &GlyTJA_E6AB82,
     [0xe9 - 0x20] = &GlyTJA_E991BD,
     [0xe5 - 0x20] = &GlyTJA_E593AD,
