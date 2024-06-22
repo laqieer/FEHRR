@@ -35,13 +35,14 @@
 #define JID_ヘルビンディ JID_BERSERKER
 #define JID_フロージ JID_MANAKETE
 #define JID_神階ルピナス JID_FALCONKNIGHT
-#define JID_ヴェロニカ洗脳 JID_SAGE_F
 #define JID_フリーズ JID_PALADIN
 #define JID_プルメリア JID_FALCONKNIGHT
 #define JID_スラシル JID_SAGE_F
 #define JID_グルヴェイグ JID_MANAKETE
 #define JID_ネルトゥス JID_MANAKETE
 #define JID_マークス JID_PALADIN
-#define JID_レティシア洗脳 JID_VALKYRIE
 #define JID_スリーズ JID_VALKYRIE
 #define JID_フード JID_SAGE
+#define JID_愛の祭ヘンリエッテ JID_SHAMAN_F
+#define JID_クワシル JID_VALKYRIE
+#define JID_神階ヘイズ JID_SAGE_F
