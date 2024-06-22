@@ -10279,7 +10279,7 @@
     [LANGUAGE_CHINESE] = "让指定目标移动至自己的另一侧," TEXT_CMD_NEWLINE "移动后让自己可再次行动" TEXT_CMD_NEWLINE "并为自己与双人组合的对象附加【无法辅助】的异常状态" TEXT_CMD_NEWLINE "(直到下次行动结束)" TEXT_CMD_NEWLINE "且赋予自己与双人组合的对象" TEXT_CMD_NEWLINE "指定目标所拥有的【有利的状态】(1回合)" TEXT_CMD_NEWLINE "(可再次行动及附加无法辅助的效果" TEXT_CMD_NEWLINE " 1回合仅能发动1次)" TEXT_CMD_NEWLINE "(关于赋予有利的状态:" TEXT_CMD_NEWLINE " 无法赋予透过慌乱反转的强化)" TEXT_CMD_NEWLINE "【无法辅助】" TEXT_CMD_NEWLINE "被附加此异常状态的单位无法使用辅助技能," TEXT_CMD_NEWLINE "也无法获得伙伴施放辅助技能效果" TEXT_CMD_NEWLINE "(直到状态异常者下次行动结束)" TEXT_CMD_NEWLINE "(也无法获得能解除不利的异常状态的" TEXT_CMD_NEWLINE " 「休息」、「大喝+」等辅助技能效果)" TEXT_CMD_NEWLINE "(也无法使用辅助技能「起舞」、「歌唱」)" TEXT_CMD_NEWLINE "【有利的状态】" TEXT_CMD_NEWLINE "「1回合」的所有效果" TEXT_CMD_NEWLINE "(强化、移动+1、敌人弱化伤害+等)",
 },
 
-[MSID_H_運命ハ変ワラナイ…] = {
+[MSID_H_運命ハ変ワラナイ_] = {
     [LANGUAGE_JAPANESE] = "対象を自分の反対側の位置に移動させ、" TEXT_CMD_NEWLINE "その後、自分を行動可能にする、かつ" TEXT_CMD_NEWLINE "自分とダブル相手に【補助不可】を付与" TEXT_CMD_NEWLINE "(次回行動終了まで)、かつ" TEXT_CMD_NEWLINE "移動後の自分と対象それぞれの周囲4マス以内にいる、" TEXT_CMD_NEWLINE "最も近い敵とその周囲2マス以内の" TEXT_CMD_NEWLINE "護り手効果のスキルを持つ敵に【弱点露呈】を付与" TEXT_CMD_NEWLINE "(敵の次回行動終了時まで)" TEXT_CMD_NEWLINE "(行動可能にすること、補助不可の付与は" TEXT_CMD_NEWLINE " 1ターンに1回のみ)" TEXT_CMD_NEWLINE "【補助不可】" TEXT_CMD_NEWLINE "自分は補助スキルを使用できず、" TEXT_CMD_NEWLINE "仲間から補助スキルを受けることもできない状態異常" TEXT_CMD_NEWLINE "(次回行動終了まで)" TEXT_CMD_NEWLINE "(不利な状態異常を解除する「レスト」「一喝+」等の" TEXT_CMD_NEWLINE " 補助スキルを受けることもできない)" TEXT_CMD_NEWLINE "(補助スキル「踊る」「歌う」も使用できなくなる)" TEXT_CMD_NEWLINE "【弱点露呈】" TEXT_CMD_NEWLINE "敵から受けた攻撃のダメージ+10",
     [LANGUAGE_ENGLISH] = "Moves target ally to opposite side of unit," TEXT_CMD_NEWLINE "grants another action to unit, inflicts【Isolation】" TEXT_CMD_NEWLINE "on unit and Pair Up cohort (if any) through their" TEXT_CMD_NEWLINE "next action, inflicts【Exposure】on nearest" TEXT_CMD_NEWLINE "foes within 4 spaces of both unit and target ally" TEXT_CMD_NEWLINE "after movement through their next actions and" TEXT_CMD_NEWLINE "on foes within 2 spaces of those foes equipped" TEXT_CMD_NEWLINE "with a skill that can trigger the Savior effect" TEXT_CMD_NEWLINE "through their next actions. (Additional action" TEXT_CMD_NEWLINE "granted and Isolation inflicted once per" TEXT_CMD_NEWLINE "turn only.)" TEXT_CMD_NEWLINE "【Isolation】" TEXT_CMD_NEWLINE "Target cannot use or be the target of Assist" TEXT_CMD_NEWLINE "skills through its next action. (Target can" TEXT_CMD_NEWLINE "neither use nor be the target of skills like" TEXT_CMD_NEWLINE "Dance and Sing, skills that neutralize penalties," TEXT_CMD_NEWLINE "like Restore and Harsh Command+, etc.)" TEXT_CMD_NEWLINE "【Exposure】" TEXT_CMD_NEWLINE "Foe's attacks deal +10 damage.",
     [LANGUAGE_CHINESE] = "让指定目标移动至自己的另一侧," TEXT_CMD_NEWLINE "移动后让自己可再次行动," TEXT_CMD_NEWLINE "并为自己与双人组合的对象附加【无法辅助】的异常状态" TEXT_CMD_NEWLINE "(直到下次行动结束)," TEXT_CMD_NEWLINE "且赋予移动后自己和对方各自周围4格内" TEXT_CMD_NEWLINE "最近的敌人与其周围2格内" TEXT_CMD_NEWLINE "拥有守护人技能效果的敌人【弱点暴露】的异常状态" TEXT_CMD_NEWLINE "(直到敌人下次行动结束)" TEXT_CMD_NEWLINE "(可再次行动及附加无法辅助的效果" TEXT_CMD_NEWLINE " 1回合仅能发动1次)" TEXT_CMD_NEWLINE "【无法辅助】" TEXT_CMD_NEWLINE "被附加此异常状态的单位无法使用辅助技能," TEXT_CMD_NEWLINE "也无法获得伙伴施放辅助技能效果" TEXT_CMD_NEWLINE "(直到状态异常者下次行动结束)" TEXT_CMD_NEWLINE "(也无法获得能解除不利的异常状态的" TEXT_CMD_NEWLINE " 「休息」、「大喝+」等辅助技能效果)" TEXT_CMD_NEWLINE "(也无法使用辅助技能「起舞」、「歌唱」)" TEXT_CMD_NEWLINE "【弱点暴露】" TEXT_CMD_NEWLINE "受到敌人攻击时的伤害+10",
@@ -22075,7 +22075,7 @@
     [LANGUAGE_CHINESE] = "命运改变了!",
 },
 
-[MSID_運命ハ変ワラナイ…] = {
+[MSID_運命ハ変ワラナイ_] = {
     [LANGUAGE_JAPANESE] = "運命ハ変ワラナイ...",
     [LANGUAGE_ENGLISH] = "Fate Unchanged...",
     [LANGUAGE_CHINESE] = "命运不会改变......",

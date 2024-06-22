@@ -4226,7 +4226,7 @@
 #define MSID_H_進軍阻止2 TEXT_ID_TEST + 4220
 #define MSID_H_進軍阻止3 TEXT_ID_TEST + 4221
 #define MSID_H_運命は変わった！ TEXT_ID_TEST + 4222
-#define MSID_H_運命ハ変ワラナイ… TEXT_ID_TEST + 4223
+#define MSID_H_運命ハ変ワラナイ_ TEXT_ID_TEST + 4223
 #define MSID_H_遠反・攻速の孤軍 TEXT_ID_TEST + 4224
 #define MSID_H_遠反・明鏡の構え TEXT_ID_TEST + 4225
 #define MSID_H_遠反・速さの渾身 TEXT_ID_TEST + 4226
@@ -6192,7 +6192,7 @@
 #define MSID_進軍阻止2 TEXT_ID_TEST + 6186
 #define MSID_進軍阻止3 TEXT_ID_TEST + 6187
 #define MSID_運命は変わった！ TEXT_ID_TEST + 6188
-#define MSID_運命ハ変ワラナイ… TEXT_ID_TEST + 6189
+#define MSID_運命ハ変ワラナイ_ TEXT_ID_TEST + 6189
 #define MSID_遠反・攻速の孤軍 TEXT_ID_TEST + 6190
 #define MSID_遠反・明鏡の構え TEXT_ID_TEST + 6191
 #define MSID_遠反・速さの渾身 TEXT_ID_TEST + 6192

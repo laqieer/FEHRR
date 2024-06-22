@@ -29,10 +29,10 @@ enum {
     FID_ch00_43_Embla_Normal = 0x119,
     FID_ch00_24_Scabiosa_F_Normal = 0x11a,
     FID_ch00_08_Loki_F_Normal = 0x11b,
-    FID_ch00_13_Gustaf_M_Normal = 0x11c,
-    FID_ch00_40_Elm_M_Normal = 0x11d,
-    FID_ch00_33_Nott_F_Normal = 0x11e,
-    FID_ch00_15_Yurg_F_Normal = 0x11f,
+    FID_ch00_40_Elm_M_Normal = 0x11c,
+    FID_ch00_33_Nott_F_Normal = 0x11d,
+    FID_ch00_15_Yurg_F_Normal = 0x11e,
+    FID_ch00_13_Gustaf_M_Normal = 0x11f,
     FID_ch00_12_Helbindi_M_Normal = 0x120,
     FID_ch00_14_Henriette_F_Normal = 0x121,
     FID_ch00_26_Froda_M_Normal = 0x122,
@@ -41,8 +41,8 @@ enum {
     FID_ch00_47_Gullveig_F_Normal = 0x125,
     FID_ch00_25_Plumeria_F_Normal = 0x126,
     FID_ch00_18_Srasir_F_Normal = 0x127,
-    FID_ch00_05_Bruno_M_Plain = 0x128,
-    FID_ch00_48_Kvasir_F_Normal = 0x129,
+    FID_ch00_48_Kvasir_F_Normal = 0x128,
+    FID_ch00_05_Bruno_M_Plain = 0x129,
     FID_ch00_16_Freeze_M_Normal = 0x12a,
     FID_ch00_04_Veronica2_F_Normal = 0x12b,
     FID_ch00_04_Veronica_F_Stain = 0x12c,
@@ -52,17 +52,17 @@ enum {
     FID_ch00_31_Otr_M_Stain = 0x130,
     FID_ch00_41_Letizia_F_Enemy = 0x131,
     FID_ch00_13_Gustaf_M_Enemy = 0x132,
-    FID_ch00_05_Bruno_M_Enemy = 0x133,
-    FID_ch00_29_Hood_N_Normal = 0x134,
-    FID_ch00_49_Heith_F_Enemy00 = 0x135,
-    FID_ch00_10_Cerise_F_Normal = 0x136,
-    FID_ch00_04_Veronica_F_Enemy2 = 0x137,
-    FID_ch00_04_Veronica2_F_Enemy = 0x138,
-    FID_ch05_01_Ryouma_M_Normal = 0x139,
-    FID_ch04_00_Chrom_M_Normal = 0x13a,
-    FID_ch02_00_Roy_M_Normal = 0x13b,
-    FID_ch01_00_Marth_M_Normal = 0x13c,
-    FID_ch00_16_Freeze_M_NormalNEW = 0x13d,
+    FID_ch00_29_Hood_N_Normal = 0x133,
+    FID_ch00_05_Bruno_M_Enemy = 0x134,
+    FID_ch00_10_Cerise_F_Normal = 0x135,
+    FID_ch00_49_Heith_F_Enemy00 = 0x136,
+    FID_ch00_16_Freeze_M_NormalNEW = 0x137,
+    FID_ch00_04_Veronica_F_Enemy2 = 0x138,
+    FID_ch00_04_Veronica2_F_Enemy = 0x139,
+    FID_ch05_01_Ryouma_M_Normal = 0x13a,
+    FID_ch04_00_Chrom_M_Normal = 0x13b,
+    FID_ch02_00_Roy_M_Normal = 0x13c,
+    FID_ch01_00_Marth_M_Normal = 0x13d,
     FID_ch00_04_Veronica_F_Enemy = 0x13e,
     FID_ch09_04_Tiamat_F_Normal = 0x13f,
     FID_ch09_02_Senerio_M_Normal = 0x140,
@@ -495,10 +495,12 @@ enum {
     FID_ch01_05_Jorjue_M_Normal = 0x2ec,
     FID_ch01_03_Barts_M_Normal = 0x2ed,
     FID_ch01_01_Oguma_M_Normal = 0x2ee,
-    FID_ch00_43_Embla_F_Disappear = 0x2ef,
+    FID_ch00_49_Heith_F_God01 = 0x2ef,
+    FID_ch00_43_Embla_F_Disappear = 0x2f0,
+    FID_ch00_14_Henriette_F_Valentine21 = 0x2f1,
 };
 
-#define FID_LAST FID_ch00_43_Embla_F_Disappear
+#define FID_LAST FID_ch00_14_Henriette_F_Valentine21
 
 #define ch00_01_Alfons_M_Normal "\x1\x2"
 #define ch00_02_Sharon_F_Normal "\x2\x2"
@@ -527,10 +529,10 @@ enum {
 #define ch00_43_Embla_Normal "\x19\x2"
 #define ch00_24_Scabiosa_F_Normal "\x1a\x2"
 #define ch00_08_Loki_F_Normal "\x1b\x2"
-#define ch00_13_Gustaf_M_Normal "\x1c\x2"
-#define ch00_40_Elm_M_Normal "\x1d\x2"
-#define ch00_33_Nott_F_Normal "\x1e\x2"
-#define ch00_15_Yurg_F_Normal "\x1f\x2"
+#define ch00_40_Elm_M_Normal "\x1c\x2"
+#define ch00_33_Nott_F_Normal "\x1d\x2"
+#define ch00_15_Yurg_F_Normal "\x1e\x2"
+#define ch00_13_Gustaf_M_Normal "\x1f\x2"
 #define ch00_12_Helbindi_M_Normal "\x20\x2"
 #define ch00_14_Henriette_F_Normal "\x21\x2"
 #define ch00_26_Froda_M_Normal "\x22\x2"
@@ -539,8 +541,8 @@ enum {
 #define ch00_47_Gullveig_F_Normal "\x25\x2"
 #define ch00_25_Plumeria_F_Normal "\x26\x2"
 #define ch00_18_Srasir_F_Normal "\x27\x2"
-#define ch00_05_Bruno_M_Plain "\x28\x2"
-#define ch00_48_Kvasir_F_Normal "\x29\x2"
+#define ch00_48_Kvasir_F_Normal "\x28\x2"
+#define ch00_05_Bruno_M_Plain "\x29\x2"
 #define ch00_16_Freeze_M_Normal "\x2a\x2"
 #define ch00_04_Veronica2_F_Normal "\x2b\x2"
 #define ch00_04_Veronica_F_Stain "\x2c\x2"
@@ -550,17 +552,17 @@ enum {
 #define ch00_31_Otr_M_Stain "\x30\x2"
 #define ch00_41_Letizia_F_Enemy "\x31\x2"
 #define ch00_13_Gustaf_M_Enemy "\x32\x2"
-#define ch00_05_Bruno_M_Enemy "\x33\x2"
-#define ch00_29_Hood_N_Normal "\x34\x2"
-#define ch00_49_Heith_F_Enemy00 "\x35\x2"
-#define ch00_10_Cerise_F_Normal "\x36\x2"
-#define ch00_04_Veronica_F_Enemy2 "\x37\x2"
-#define ch00_04_Veronica2_F_Enemy "\x38\x2"
-#define ch05_01_Ryouma_M_Normal "\x39\x2"
-#define ch04_00_Chrom_M_Normal "\x3a\x2"
-#define ch02_00_Roy_M_Normal "\x3b\x2"
-#define ch01_00_Marth_M_Normal "\x3c\x2"
-#define ch00_16_Freeze_M_NormalNEW "\x3d\x2"
+#define ch00_29_Hood_N_Normal "\x33\x2"
+#define ch00_05_Bruno_M_Enemy "\x34\x2"
+#define ch00_10_Cerise_F_Normal "\x35\x2"
+#define ch00_49_Heith_F_Enemy00 "\x36\x2"
+#define ch00_16_Freeze_M_NormalNEW "\x37\x2"
+#define ch00_04_Veronica_F_Enemy2 "\x38\x2"
+#define ch00_04_Veronica2_F_Enemy "\x39\x2"
+#define ch05_01_Ryouma_M_Normal "\x3a\x2"
+#define ch04_00_Chrom_M_Normal "\x3b\x2"
+#define ch02_00_Roy_M_Normal "\x3c\x2"
+#define ch01_00_Marth_M_Normal "\x3d\x2"
 #define ch00_04_Veronica_F_Enemy "\x3e\x2"
 #define ch09_04_Tiamat_F_Normal "\x3f\x2"
 #define ch09_02_Senerio_M_Normal "\x40\x2"
@@ -993,4 +995,6 @@ enum {
 #define ch01_05_Jorjue_M_Normal "\xec\x3"
 #define ch01_03_Barts_M_Normal "\xed\x3"
 #define ch01_01_Oguma_M_Normal "\xee\x3"
-#define ch00_43_Embla_F_Disappear "\xef\x3"
+#define ch00_49_Heith_F_God01 "\xef\x3"
+#define ch00_43_Embla_F_Disappear "\xf0\x3"
+#define ch00_14_Henriette_F_Valentine21 "\xf1\x3"
