@@ -43,6 +43,6 @@
 #define JID_マークス JID_PALADIN
 #define JID_スリーズ JID_VALKYRIE
 #define JID_フード JID_SAGE
-#define JID_愛の祭ヘンリエッテ JID_SHAMAN_F
+#define JID_愛の祭ヘンリエッテ JID_DRUID_F
 #define JID_クワシル JID_VALKYRIE
 #define JID_神階ヘイズ JID_SAGE_F
