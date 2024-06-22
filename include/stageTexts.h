@@ -172,7 +172,7 @@
 [MID_STAGE_S0604] = {
     [LANGUAGE_JAPANESE] = "三姉妹、舞う",
     [LANGUAGE_ENGLISH] = "Three Sisters Fly",
-    [LANGUAGE_CHINESE] = "三姊妹，飞舞空中",
+    [LANGUAGE_CHINESE] = "三姊妹,飞舞空中",
 },
 
 [MID_STAGE_S0605] = {
@@ -436,7 +436,7 @@
 [MID_STAGE_S2011] = {
     [LANGUAGE_JAPANESE] = "その炎、不死にして不滅",
     [LANGUAGE_ENGLISH] = "Undying Flame",
-    [LANGUAGE_CHINESE] = "那火焰，不死不灭",
+    [LANGUAGE_CHINESE] = "那火焰,不死不灭",
 },
 
 [MID_STAGE_S2012] = {
@@ -520,7 +520,7 @@
 [MID_STAGE_S2035] = {
     [LANGUAGE_JAPANESE] = "炎剣、地を薙ぐ",
     [LANGUAGE_ENGLISH] = "Steel Sears the Land",
-    [LANGUAGE_CHINESE] = "炎剑　横扫大地",
+    [LANGUAGE_CHINESE] = "炎剑 横扫大地",
 },
 
 [MID_STAGE_S2041] = {
@@ -664,7 +664,7 @@
 [MID_STAGE_S2084] = {
     [LANGUAGE_JAPANESE] = "その力を、器に",
     [LANGUAGE_ENGLISH] = "Vessel Filled with Power",
-    [LANGUAGE_CHINESE] = "愿得此力，宿于此器",
+    [LANGUAGE_CHINESE] = "愿得此力,宿于此器",
 },
 
 [MID_STAGE_S2085] = {
@@ -730,7 +730,7 @@
 [MID_STAGE_S2105] = {
     [LANGUAGE_JAPANESE] = "炎の王、死す",
     [LANGUAGE_ENGLISH] = "The King's Demise",
-    [LANGUAGE_CHINESE] = "炎之王，死亡",
+    [LANGUAGE_CHINESE] = "炎之王,死亡",
 },
 
 [MID_STAGE_S2111] = {
@@ -910,7 +910,7 @@
 [MID_STAGE_S3035] = {
     [LANGUAGE_JAPANESE] = "死が、そこにいる",
     [LANGUAGE_ENGLISH] = "Close to Death",
-    [LANGUAGE_CHINESE] = "死亡，就在该处",
+    [LANGUAGE_CHINESE] = "死亡,就在该处",
 },
 
 [MID_STAGE_S3041] = {
@@ -1180,7 +1180,7 @@
 [MID_STAGE_S3125] = {
     [LANGUAGE_JAPANESE] = "せめて、君たちは",
     [LANGUAGE_ENGLISH] = "If Not I, Then You...",
-    [LANGUAGE_CHINESE] = "至少你们……",
+    [LANGUAGE_CHINESE] = "至少你们......",
 },
 
 [MID_STAGE_S3131] = {
@@ -1528,7 +1528,7 @@
 [MID_STAGE_S4113] = {
     [LANGUAGE_JAPANESE] = "とりかえて、またとりかえて",
     [LANGUAGE_ENGLISH] = "Changing Exchange",
-    [LANGUAGE_CHINESE] = "交换，再交换",
+    [LANGUAGE_CHINESE] = "交换,再交换",
 },
 
 [MID_STAGE_S4114] = {
@@ -1582,7 +1582,7 @@
 [MID_STAGE_S4132] = {
     [LANGUAGE_JAPANESE] = "日々繰り返しそれは現れ",
     [LANGUAGE_ENGLISH] = "Again and Again",
-    [LANGUAGE_CHINESE] = "日复一日，终将显现",
+    [LANGUAGE_CHINESE] = "日复一日,终将显现",
 },
 
 [MID_STAGE_S4133] = {
@@ -2080,7 +2080,7 @@
 [MID_STAGE_S6035] = {
     [LANGUAGE_JAPANESE] = "すべてを失い、落ちなさい",
     [LANGUAGE_ENGLISH] = "Curtain's Fall",
-    [LANGUAGE_CHINESE] = "失去所有，坠入深渊吧",
+    [LANGUAGE_CHINESE] = "失去所有,坠入深渊吧",
 },
 
 [MID_STAGE_S6041] = {
@@ -2306,9 +2306,9 @@
 },
 
 [MID_STAGE_S6113] = {
-    [LANGUAGE_JAPANESE] = "エンブラの眷属　エルム",
+    [LANGUAGE_JAPANESE] = "エンブラの眷属 エルム",
     [LANGUAGE_ENGLISH] = "Elm, Embla's Retainer",
-    [LANGUAGE_CHINESE] = "恩布拉的眷属　埃尔姆",
+    [LANGUAGE_CHINESE] = "恩布拉的眷属 埃尔姆",
 },
 
 [MID_STAGE_S6114] = {
@@ -2531,4 +2531,184 @@
     [LANGUAGE_JAPANESE] = "唯一の脱出路",
     [LANGUAGE_ENGLISH] = "Only Escape Route",
     [LANGUAGE_CHINESE] = "唯一的逃脱路线",
+},
+
+[MID_STAGE_S7061] = {
+    [LANGUAGE_JAPANESE] = "時を遡って",
+    [LANGUAGE_ENGLISH] = "Back in Time",
+    [LANGUAGE_CHINESE] = "时间倒转",
+},
+
+[MID_STAGE_S7062] = {
+    [LANGUAGE_JAPANESE] = "同じ場所、違う時間",
+    [LANGUAGE_ENGLISH] = "Same Place, New Time",
+    [LANGUAGE_CHINESE] = "相同场所、不同时间",
+},
+
+[MID_STAGE_S7063] = {
+    [LANGUAGE_JAPANESE] = "二つの神器",
+    [LANGUAGE_ENGLISH] = "Two Divine Weapons",
+    [LANGUAGE_CHINESE] = "两个神器",
+},
+
+[MID_STAGE_S7064] = {
+    [LANGUAGE_JAPANESE] = "別れの時は近づいて",
+    [LANGUAGE_ENGLISH] = "Soon Parting",
+    [LANGUAGE_CHINESE] = "分离时刻将近",
+},
+
+[MID_STAGE_S7065] = {
+    [LANGUAGE_JAPANESE] = "私の名は",
+    [LANGUAGE_ENGLISH] = "My Name",
+    [LANGUAGE_CHINESE] = "我的名字",
+},
+
+[MID_STAGE_S7071] = {
+    [LANGUAGE_JAPANESE] = "地の女神との再会",
+    [LANGUAGE_ENGLISH] = "Meeting Once Again",
+    [LANGUAGE_CHINESE] = "与地之女神的重逢",
+},
+
+[MID_STAGE_S7072] = {
+    [LANGUAGE_JAPANESE] = "失われた追憶",
+    [LANGUAGE_ENGLISH] = "Memories Gone",
+    [LANGUAGE_CHINESE] = "失去的回忆",
+},
+
+[MID_STAGE_S7073] = {
+    [LANGUAGE_JAPANESE] = "光の王の未来",
+    [LANGUAGE_ENGLISH] = "Future Light",
+    [LANGUAGE_CHINESE] = "光之王的未来",
+},
+
+[MID_STAGE_S7074] = {
+    [LANGUAGE_JAPANESE] = "灰色の悪魔",
+    [LANGUAGE_ENGLISH] = "Ashen Demon",
+    [LANGUAGE_CHINESE] = "灰色恶魔",
+},
+
+[MID_STAGE_S7075] = {
+    [LANGUAGE_JAPANESE] = "未来から過去、過去から未来へ",
+    [LANGUAGE_ENGLISH] = "Future's Return",
+    [LANGUAGE_CHINESE] = "从未来到过去,从过去到未来",
+},
+
+[MID_STAGE_S7081] = {
+    [LANGUAGE_JAPANESE] = "黄金の魔女の子",
+    [LANGUAGE_ENGLISH] = "Daughter of the Seer",
+    [LANGUAGE_CHINESE] = "黄金魔女之子",
+},
+
+[MID_STAGE_S7082] = {
+    [LANGUAGE_JAPANESE] = "始まりも終わりもない",
+    [LANGUAGE_ENGLISH] = "No Beginning, No End",
+    [LANGUAGE_CHINESE] = "没有开始也没有结束",
+},
+
+[MID_STAGE_S7083] = {
+    [LANGUAGE_JAPANESE] = "希望の光は...",
+    [LANGUAGE_ENGLISH] = "The Light of Hope",
+    [LANGUAGE_CHINESE] = "希望之光......",
+},
+
+[MID_STAGE_S7084] = {
+    [LANGUAGE_JAPANESE] = "過去を追って",
+    [LANGUAGE_ENGLISH] = "Pursuit of the Past",
+    [LANGUAGE_CHINESE] = "追寻过去",
+},
+
+[MID_STAGE_S7085] = {
+    [LANGUAGE_JAPANESE] = "つながる時間",
+    [LANGUAGE_ENGLISH] = "Connection in Time",
+    [LANGUAGE_CHINESE] = "相连的时间",
+},
+
+[MID_STAGE_S7091] = {
+    [LANGUAGE_JAPANESE] = "同じことを言った",
+    [LANGUAGE_ENGLISH] = "I Once Said the Same",
+    [LANGUAGE_CHINESE] = "说了同样的话",
+},
+
+[MID_STAGE_S7092] = {
+    [LANGUAGE_JAPANESE] = "第一王子の矜持",
+    [LANGUAGE_ENGLISH] = "Prince's Pride",
+    [LANGUAGE_CHINESE] = "第一王子的荣耀",
+},
+
+[MID_STAGE_S7093] = {
+    [LANGUAGE_JAPANESE] = "姉と妹",
+    [LANGUAGE_ENGLISH] = "Sisters",
+    [LANGUAGE_CHINESE] = "姊与妹",
+},
+
+[MID_STAGE_S7094] = {
+    [LANGUAGE_JAPANESE] = "第二王子の悩み",
+    [LANGUAGE_ENGLISH] = "Prince's Concern",
+    [LANGUAGE_CHINESE] = "第二王子的烦恼",
+},
+
+[MID_STAGE_S7095] = {
+    [LANGUAGE_JAPANESE] = "とぐろ巻く蛇",
+    [LANGUAGE_ENGLISH] = "Coiling of Serpents",
+    [LANGUAGE_CHINESE] = "蜷曲的蛇",
+},
+
+[MID_STAGE_S7101] = {
+    [LANGUAGE_JAPANESE] = "あなたにはならない",
+    [LANGUAGE_ENGLISH] = "I'll Never Be You",
+    [LANGUAGE_CHINESE] = "不会变成妳",
+},
+
+[MID_STAGE_S7102] = {
+    [LANGUAGE_JAPANESE] = "導かれし聖王の軍師",
+    [LANGUAGE_ENGLISH] = "Fated Tactician",
+    [LANGUAGE_CHINESE] = "受到引导的圣王的军师",
+},
+
+[MID_STAGE_S7103] = {
+    [LANGUAGE_JAPANESE] = "導かれし透魔の王族",
+    [LANGUAGE_ENGLISH] = "Fated Vallite Royal",
+    [LANGUAGE_CHINESE] = "受到引导的透魔王族",
+},
+
+[MID_STAGE_S7104] = {
+    [LANGUAGE_JAPANESE] = "導かれし黄金の魔女",
+    [LANGUAGE_ENGLISH] = "Fated Golden Seer",
+    [LANGUAGE_CHINESE] = "受到引导的黄金魔女",
+},
+
+[MID_STAGE_S7105] = {
+    [LANGUAGE_JAPANESE] = "あなたの望みをかなえた",
+    [LANGUAGE_ENGLISH] = "Your Wish, Granted",
+    [LANGUAGE_CHINESE] = "实现了妳的愿望",
+},
+
+[MID_STAGE_S7111] = {
+    [LANGUAGE_JAPANESE] = "地の女神の援助",
+    [LANGUAGE_ENGLISH] = "Land God's Aid",
+    [LANGUAGE_CHINESE] = "地之女神的援助",
+},
+
+[MID_STAGE_S7112] = {
+    [LANGUAGE_JAPANESE] = "無邪気な盗賊",
+    [LANGUAGE_ENGLISH] = "Youthful Thief",
+    [LANGUAGE_CHINESE] = "天真无邪的盗贼",
+},
+
+[MID_STAGE_S7113] = {
+    [LANGUAGE_JAPANESE] = "一と無限",
+    [LANGUAGE_ENGLISH] = "Against the Limitless",
+    [LANGUAGE_CHINESE] = "一与无限",
+},
+
+[MID_STAGE_S7114] = {
+    [LANGUAGE_JAPANESE] = "風の聖戦士",
+    [LANGUAGE_ENGLISH] = "Sage of the Wind",
+    [LANGUAGE_CHINESE] = "风之圣战士",
+},
+
+[MID_STAGE_S7115] = {
+    [LANGUAGE_JAPANESE] = "唯一人の「あなた」",
+    [LANGUAGE_ENGLISH] = "Only One You",
+    [LANGUAGE_CHINESE] = "唯一的「你」",
 },

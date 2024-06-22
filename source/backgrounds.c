@@ -123,6 +123,12 @@ struct BackgroundEntNew const newBackgrounds[] = {
         .pal = BACKGROUND_044_EarthTempleBoss_img1Pal,
     },
 
+    [BACKGROUND_BG_Blank_Black - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_BG_Blank_Black_img1Tiles,
+        .img2 = BACKGROUND_BG_Blank_Black_img2Tiles,
+        .pal = BACKGROUND_BG_Blank_Black_img1Pal,
+    },
+
     [BACKGROUND_BG_Blank_White - BACKGROUND_NEW] = {
         .img1 = BACKGROUND_BG_Blank_White_img1Tiles,
         .img2 = BACKGROUND_BG_Blank_White_img2Tiles,
@@ -297,6 +303,12 @@ struct BackgroundEntNew const newBackgrounds[] = {
         .pal = BACKGROUND_EvBg_GoldenThreadRiver_img1Pal,
     },
 
+    [BACKGROUND_EvBg_GoldenThreadUpperRiverPast - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_GoldenThreadUpperRiverPast_img1Tiles,
+        .img2 = BACKGROUND_EvBg_GoldenThreadUpperRiverPast_img2Tiles,
+        .pal = BACKGROUND_EvBg_GoldenThreadUpperRiverPast_img1Pal,
+    },
+
     [BACKGROUND_EvBg_GullveigCastleInside - BACKGROUND_NEW] = {
         .img1 = BACKGROUND_EvBg_GullveigCastleInside_img1Tiles,
         .img2 = BACKGROUND_EvBg_GullveigCastleInside_img2Tiles,
@@ -313,6 +325,18 @@ struct BackgroundEntNew const newBackgrounds[] = {
         .img1 = BACKGROUND_EvBg_LightTemple_img1Tiles,
         .img2 = BACKGROUND_EvBg_LightTemple_img2Tiles,
         .pal = BACKGROUND_EvBg_LightTemple_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_LightTempleFade - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_LightTempleFade_img1Tiles,
+        .img2 = BACKGROUND_EvBg_LightTempleFade_img2Tiles,
+        .pal = BACKGROUND_EvBg_LightTempleFade_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_LightTemplePast - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_LightTemplePast_img1Tiles,
+        .img2 = BACKGROUND_EvBg_LightTemplePast_img2Tiles,
+        .pal = BACKGROUND_EvBg_LightTemplePast_img1Pal,
     },
 
     [BACKGROUND_EvBg_Nisaveril - BACKGROUND_NEW] = {
@@ -357,6 +381,12 @@ struct BackgroundEntNew const newBackgrounds[] = {
         .pal = BACKGROUND_EvBg_NisaverilTower_img1Pal,
     },
 
+    [BACKGROUND_EvBg_NjordSanctuaryInside - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_NjordSanctuaryInside_img1Tiles,
+        .img2 = BACKGROUND_EvBg_NjordSanctuaryInside_img2Tiles,
+        .pal = BACKGROUND_EvBg_NjordSanctuaryInside_img1Pal,
+    },
+
     [BACKGROUND_EvBg_Opening - BACKGROUND_NEW] = {
         .img1 = BACKGROUND_EvBg_Opening_img1Tiles,
         .img2 = BACKGROUND_EvBg_Opening_img2Tiles,
@@ -381,10 +411,52 @@ struct BackgroundEntNew const newBackgrounds[] = {
         .pal = BACKGROUND_EvBg_UndergroundPrison_Brave_img1Pal,
     },
 
+    [BACKGROUND_EvBg_VanaCastleThroneNight - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_VanaCastleThroneNight_img1Tiles,
+        .img2 = BACKGROUND_EvBg_VanaCastleThroneNight_img2Tiles,
+        .pal = BACKGROUND_EvBg_VanaCastleThroneNight_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_VanaCave - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_VanaCave_img1Tiles,
+        .img2 = BACKGROUND_EvBg_VanaCave_img2Tiles,
+        .pal = BACKGROUND_EvBg_VanaCave_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_VanaFade - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_VanaFade_img1Tiles,
+        .img2 = BACKGROUND_EvBg_VanaFade_img2Tiles,
+        .pal = BACKGROUND_EvBg_VanaFade_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_VanaNight - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_VanaNight_img1Tiles,
+        .img2 = BACKGROUND_EvBg_VanaNight_img2Tiles,
+        .pal = BACKGROUND_EvBg_VanaNight_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_VanaPast - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_VanaPast_img1Tiles,
+        .img2 = BACKGROUND_EvBg_VanaPast_img2Tiles,
+        .pal = BACKGROUND_EvBg_VanaPast_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_VanaPastAroundCave - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_VanaPastAroundCave_img1Tiles,
+        .img2 = BACKGROUND_EvBg_VanaPastAroundCave_img2Tiles,
+        .pal = BACKGROUND_EvBg_VanaPastAroundCave_img1Pal,
+    },
+
     [BACKGROUND_EvBg_VanaThrone - BACKGROUND_NEW] = {
         .img1 = BACKGROUND_EvBg_VanaThrone_img1Tiles,
         .img2 = BACKGROUND_EvBg_VanaThrone_img2Tiles,
         .pal = BACKGROUND_EvBg_VanaThrone_img1Pal,
+    },
+
+    [BACKGROUND_EvBg_VanaThronePast - BACKGROUND_NEW] = {
+        .img1 = BACKGROUND_EvBg_VanaThronePast_img1Tiles,
+        .img2 = BACKGROUND_EvBg_VanaThronePast_img2Tiles,
+        .pal = BACKGROUND_EvBg_VanaThronePast_img1Pal,
     },
 
     [BACKGROUND_EvBg_YggdrasillAsk - BACKGROUND_NEW] = {
@@ -416,6 +488,7 @@ const char * const background_names[] = {
     [BACKGROUND_026_MuspelTemple - BACKGROUND_NEW] = "026_MuspelTemple",
     [BACKGROUND_044_EarthTemple - BACKGROUND_NEW] = "044_EarthTemple",
     [BACKGROUND_044_EarthTempleBoss - BACKGROUND_NEW] = "044_EarthTempleBoss",
+    [BACKGROUND_BG_Blank_Black - BACKGROUND_NEW] = "BG_Blank_Black",
     [BACKGROUND_BG_Blank_White - BACKGROUND_NEW] = "BG_Blank_White",
     [BACKGROUND_EvBG_OP_00_v0700a - BACKGROUND_NEW] = "EvBG_OP_00_v0700a",
     [BACKGROUND_EvBg_001_BraveGround - BACKGROUND_NEW] = "EvBg_001_BraveGround",
@@ -445,9 +518,12 @@ const char * const background_names[] = {
     [BACKGROUND_EvBg_EmbraOutside2 - BACKGROUND_NEW] = "EvBg_EmbraOutside2",
     [BACKGROUND_EvBg_EmbraOutsideForest - BACKGROUND_NEW] = "EvBg_EmbraOutsideForest",
     [BACKGROUND_EvBg_GoldenThreadRiver - BACKGROUND_NEW] = "EvBg_GoldenThreadRiver",
+    [BACKGROUND_EvBg_GoldenThreadUpperRiverPast - BACKGROUND_NEW] = "EvBg_GoldenThreadUpperRiverPast",
     [BACKGROUND_EvBg_GullveigCastleInside - BACKGROUND_NEW] = "EvBg_GullveigCastleInside",
     [BACKGROUND_EvBg_Hood - BACKGROUND_NEW] = "EvBg_Hood",
     [BACKGROUND_EvBg_LightTemple - BACKGROUND_NEW] = "EvBg_LightTemple",
+    [BACKGROUND_EvBg_LightTempleFade - BACKGROUND_NEW] = "EvBg_LightTempleFade",
+    [BACKGROUND_EvBg_LightTemplePast - BACKGROUND_NEW] = "EvBg_LightTemplePast",
     [BACKGROUND_EvBg_Nisaveril - BACKGROUND_NEW] = "EvBg_Nisaveril",
     [BACKGROUND_EvBg_NisaverilCastle - BACKGROUND_NEW] = "EvBg_NisaverilCastle",
     [BACKGROUND_EvBg_NisaverilCorridor - BACKGROUND_NEW] = "EvBg_NisaverilCorridor",
@@ -455,10 +531,18 @@ const char * const background_names[] = {
     [BACKGROUND_EvBg_NisaverilSaintForest - BACKGROUND_NEW] = "EvBg_NisaverilSaintForest",
     [BACKGROUND_EvBg_NisaverilShrine - BACKGROUND_NEW] = "EvBg_NisaverilShrine",
     [BACKGROUND_EvBg_NisaverilTower - BACKGROUND_NEW] = "EvBg_NisaverilTower",
+    [BACKGROUND_EvBg_NjordSanctuaryInside - BACKGROUND_NEW] = "EvBg_NjordSanctuaryInside",
     [BACKGROUND_EvBg_Opening - BACKGROUND_NEW] = "EvBg_Opening",
     [BACKGROUND_EvBg_Svartalf - BACKGROUND_NEW] = "EvBg_Svartalf",
     [BACKGROUND_EvBg_Throne_Brave - BACKGROUND_NEW] = "EvBg_Throne_Brave",
     [BACKGROUND_EvBg_UndergroundPrison_Brave - BACKGROUND_NEW] = "EvBg_UndergroundPrison_Brave",
+    [BACKGROUND_EvBg_VanaCastleThroneNight - BACKGROUND_NEW] = "EvBg_VanaCastleThroneNight",
+    [BACKGROUND_EvBg_VanaCave - BACKGROUND_NEW] = "EvBg_VanaCave",
+    [BACKGROUND_EvBg_VanaFade - BACKGROUND_NEW] = "EvBg_VanaFade",
+    [BACKGROUND_EvBg_VanaNight - BACKGROUND_NEW] = "EvBg_VanaNight",
+    [BACKGROUND_EvBg_VanaPast - BACKGROUND_NEW] = "EvBg_VanaPast",
+    [BACKGROUND_EvBg_VanaPastAroundCave - BACKGROUND_NEW] = "EvBg_VanaPastAroundCave",
     [BACKGROUND_EvBg_VanaThrone - BACKGROUND_NEW] = "EvBg_VanaThrone",
+    [BACKGROUND_EvBg_VanaThronePast - BACKGROUND_NEW] = "EvBg_VanaThronePast",
     [BACKGROUND_EvBg_YggdrasillAsk - BACKGROUND_NEW] = "EvBg_YggdrasillAsk",
 };

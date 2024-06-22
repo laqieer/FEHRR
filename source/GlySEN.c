@@ -974,60 +974,6 @@ const struct GlyphNew GlySEN_C3BA = { /* ú */
     .bitmap = GlySEN_C3BATiles,
 };
 
-const struct GlyphNew GlySEN_EFBC91 = { /* １ */
-    .next = NULL,
-    .width = 8,
-    .utf_byte_2 = 0xbc,
-    .utf_byte_3 = 0x91,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySEN_EFBC91Tiles,
-};
-
-const struct GlyphNew GlySEN_EFBC92 = { /* ２ */
-    .next = &GlySEN_EFBC91,
-    .width = 8,
-    .utf_byte_2 = 0xbc,
-    .utf_byte_3 = 0x92,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySEN_EFBC92Tiles,
-};
-
-const struct GlyphNew GlySEN_EFBC93 = { /* ３ */
-    .next = &GlySEN_EFBC92,
-    .width = 8,
-    .utf_byte_2 = 0xbc,
-    .utf_byte_3 = 0x93,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySEN_EFBC93Tiles,
-};
-
-const struct GlyphNew GlySEN_EFBC95 = { /* ５ */
-    .next = &GlySEN_EFBC93,
-    .width = 8,
-    .utf_byte_2 = 0xbc,
-    .utf_byte_3 = 0x95,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySEN_EFBC95Tiles,
-};
-
-const struct GlyphNew GlySEN_EFBC96 = { /* ６ */
-    .next = &GlySEN_EFBC95,
-    .width = 8,
-    .utf_byte_2 = 0xbc,
-    .utf_byte_3 = 0x96,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySEN_EFBC96Tiles,
-};
-
-const struct GlyphNew GlySEN_EFBC97 = { /* ７ */
-    .next = &GlySEN_EFBC96,
-    .width = 8,
-    .utf_byte_2 = 0xbc,
-    .utf_byte_3 = 0x97,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySEN_EFBC97Tiles,
-};
-
 const struct GlyphNew GlySEN_E29885 = { /* ★ */
     .next = NULL,
     .width = 12,
@@ -1091,17 +1037,8 @@ const struct GlyphNew GlySEN_E2809D = { /* ” */
     .bitmap = GlySEN_E2809DTiles,
 };
 
-const struct GlyphNew GlySEN_E280A6 = { /* … */
-    .next = &GlySEN_E2809D,
-    .width = 7,
-    .utf_byte_2 = 0x80,
-    .utf_byte_3 = 0xa6,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySEN_E280A6Tiles,
-};
-
 const struct GlyphNew GlySEN_E289A4 = { /* ≤ */
-    .next = &GlySEN_E280A6,
+    .next = &GlySEN_E2809D,
     .width = 6,
     .utf_byte_2 = 0x89,
     .utf_byte_3 = 0xa4,
@@ -1288,7 +1225,6 @@ struct GlyphNew const * const GlySENNew[0x100 - 0x20] = {
     [0x7e - 0x20] = &GlySEN_7E,
     [0x7f - 0x20] = &GlySEN_7F,
     [0xc3 - 0x20] = &GlySEN_C3BE,
-    [0xef - 0x20] = &GlySEN_EFBC97,
     [0xe2 - 0x20] = &GlySEN_E296B8,
     [0xe3 - 0x20] = &GlySEN_E38091,
     [0xce - 0x20] = &GlySEN_CEA9,

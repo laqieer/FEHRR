@@ -161,6 +161,28 @@ const struct PInfo heroes[] = {
         .growth_res = 45,
     },
 
+    [PID_セイズ - 1] = {
+        .id = PID_セイズ,
+        .unk_0A = PID_セイズ,
+        .jid_default = JID_セイズ,
+        .msg_name = MPID_セイズ,
+        .msg_desc = MPID_H_セイズ,
+        .fid = FID_ch00_46_Seith_F_Normal,
+
+        .base_level = 1,
+        .base_hp = 16,
+        .base_pow = 12,
+        .base_spd = 5,
+        .base_def = 3,
+        .base_res = 6,
+
+        .growth_hp = 50,
+        .growth_pow = 70,
+        .growth_spd = 55,
+        .growth_def = 30,
+        .growth_res = 75,
+    },
+
     [PID_フィヨルム - 1] = {
         .id = PID_フィヨルム,
         .unk_0A = PID_フィヨルム,
@@ -291,28 +313,6 @@ const struct PInfo heroes[] = {
         .growth_spd = 75,
         .growth_def = 45,
         .growth_res = 35,
-    },
-
-    [PID_セイズ - 1] = {
-        .id = PID_セイズ,
-        .unk_0A = PID_セイズ,
-        .jid_default = JID_セイズ,
-        .msg_name = MPID_セイズ,
-        .msg_desc = MPID_H_セイズ,
-        .fid = FID_ch00_46_Seith_F_Normal,
-
-        .base_level = 1,
-        .base_hp = 16,
-        .base_pow = 12,
-        .base_spd = 5,
-        .base_def = 3,
-        .base_res = 6,
-
-        .growth_hp = 50,
-        .growth_pow = 70,
-        .growth_spd = 55,
-        .growth_def = 30,
-        .growth_res = 75,
     },
 
     [EID_スルト - 1] = {
@@ -535,6 +535,28 @@ const struct PInfo heroes[] = {
         .growth_res = 45,
     },
 
+    [EID_ネルトゥス - 1] = {
+        .id = EID_ネルトゥス,
+        .unk_0A = EID_ネルトゥス,
+        .jid_default = JID_ネルトゥス,
+        .msg_name = MEID_ネルトゥス,
+        .msg_desc = MEID_H_ネルトゥス,
+        .fid = FID_ch00_50_Nerthus_Normal,
+
+        .base_level = 1,
+        .base_hp = 17,
+        .base_pow = 11,
+        .base_spd = 13,
+        .base_def = 3,
+        .base_res = 2,
+
+        .growth_hp = 50,
+        .growth_pow = 70,
+        .growth_spd = 75,
+        .growth_def = 60,
+        .growth_res = 40,
+    },
+
     [EID_グスタフ - 1] = {
         .id = EID_グスタフ,
         .unk_0A = EID_グスタフ,
@@ -577,6 +599,28 @@ const struct PInfo heroes[] = {
         .growth_spd = 65,
         .growth_def = 35,
         .growth_res = 35,
+    },
+
+    [PID_愛の祭ヘンリエッテ - 1] = {
+        .id = PID_愛の祭ヘンリエッテ,
+        .unk_0A = PID_愛の祭ヘンリエッテ,
+        .jid_default = JID_愛の祭ヘンリエッテ,
+        .msg_name = MPID_愛の祭ヘンリエッテ,
+        .msg_desc = MPID_H_愛の祭ヘンリエッテ,
+        .fid = FID_ch00_14_Henriette_F_Valentine21,
+
+        .base_level = 1,
+        .base_hp = 19,
+        .base_pow = 6,
+        .base_spd = 4,
+        .base_def = 10,
+        .base_res = 9,
+
+        .growth_hp = 50,
+        .growth_pow = 75,
+        .growth_spd = 30,
+        .growth_def = 55,
+        .growth_res = 70,
     },
 
     [EID_ロキ - 1] = {
@@ -733,24 +777,24 @@ const struct PInfo heroes[] = {
         .growth_res = 65,
     },
 
-    [EID_ヴェロニカ洗脳 - 1] = {
-        .id = EID_ヴェロニカ洗脳,
-        .unk_0A = EID_ヴェロニカ洗脳,
-        .jid_default = JID_ヴェロニカ洗脳,
-        .msg_name = MEID_ヴェロニカ洗脳,
-        .msg_desc = MEID_H_ヴェロニカ洗脳,
-        .fid = FID_ch00_04_Veronica_F_Enemy,
+    [EID_グルヴェイグ - 1] = {
+        .id = EID_グルヴェイグ,
+        .unk_0A = EID_グルヴェイグ,
+        .jid_default = JID_グルヴェイグ,
+        .msg_name = MEID_グルヴェイグ,
+        .msg_desc = MEID_H_グルヴェイグ,
+        .fid = FID_ch00_47_Gullveig_F_Normal,
 
         .base_level = 1,
-        .base_hp = 16,
-        .base_pow = 8,
-        .base_spd = 4,
-        .base_def = 6,
-        .base_res = 5,
+        .base_hp = 14,
+        .base_pow = 12,
+        .base_spd = 11,
+        .base_def = 3,
+        .base_res = 2,
 
-        .growth_hp = 55,
-        .growth_pow = 60,
-        .growth_spd = 40,
+        .growth_hp = 50,
+        .growth_pow = 70,
+        .growth_spd = 75,
         .growth_def = 50,
         .growth_res = 35,
     },
@@ -799,6 +843,50 @@ const struct PInfo heroes[] = {
         .growth_res = 70,
     },
 
+    [EID_クワシル - 1] = {
+        .id = EID_クワシル,
+        .unk_0A = EID_クワシル,
+        .jid_default = JID_クワシル,
+        .msg_name = MEID_クワシル,
+        .msg_desc = MEID_H_クワシル,
+        .fid = FID_ch00_48_Kvasir_F_Normal,
+
+        .base_level = 1,
+        .base_hp = 17,
+        .base_pow = 5,
+        .base_spd = 15,
+        .base_def = 3,
+        .base_res = 2,
+
+        .growth_hp = 50,
+        .growth_pow = 80,
+        .growth_spd = 70,
+        .growth_def = 30,
+        .growth_res = 50,
+    },
+
+    [PID_神階ヘイズ - 1] = {
+        .id = PID_神階ヘイズ,
+        .unk_0A = PID_神階ヘイズ,
+        .jid_default = JID_神階ヘイズ,
+        .msg_name = MPID_神階ヘイズ,
+        .msg_desc = MPID_H_神階ヘイズ,
+        .fid = FID_ch00_49_Heith_F_God01,
+
+        .base_level = 1,
+        .base_hp = 15,
+        .base_pow = 14,
+        .base_spd = 9,
+        .base_def = 4,
+        .base_res = 4,
+
+        .growth_hp = 50,
+        .growth_pow = 70,
+        .growth_spd = 80,
+        .growth_def = 55,
+        .growth_res = 35,
+    },
+
     [EID_スラシル - 1] = {
         .id = EID_スラシル,
         .unk_0A = EID_スラシル,
@@ -821,50 +909,6 @@ const struct PInfo heroes[] = {
         .growth_res = 50,
     },
 
-    [EID_グルヴェイグ - 1] = {
-        .id = EID_グルヴェイグ,
-        .unk_0A = EID_グルヴェイグ,
-        .jid_default = JID_グルヴェイグ,
-        .msg_name = MEID_グルヴェイグ,
-        .msg_desc = MEID_H_グルヴェイグ,
-        .fid = FID_ch00_47_Gullveig_F_Normal,
-
-        .base_level = 1,
-        .base_hp = 14,
-        .base_pow = 12,
-        .base_spd = 11,
-        .base_def = 3,
-        .base_res = 2,
-
-        .growth_hp = 50,
-        .growth_pow = 70,
-        .growth_spd = 75,
-        .growth_def = 50,
-        .growth_res = 35,
-    },
-
-    [EID_ネルトゥス - 1] = {
-        .id = EID_ネルトゥス,
-        .unk_0A = EID_ネルトゥス,
-        .jid_default = JID_ネルトゥス,
-        .msg_name = MEID_ネルトゥス,
-        .msg_desc = MEID_H_ネルトゥス,
-        .fid = FID_ch00_50_Nerthus_Normal,
-
-        .base_level = 1,
-        .base_hp = 17,
-        .base_pow = 11,
-        .base_spd = 13,
-        .base_def = 3,
-        .base_res = 2,
-
-        .growth_hp = 50,
-        .growth_pow = 70,
-        .growth_spd = 75,
-        .growth_def = 60,
-        .growth_res = 40,
-    },
-
     [PID_マークス - 1] = {
         .id = PID_マークス,
         .unk_0A = PID_マークス,
@@ -885,28 +929,6 @@ const struct PInfo heroes[] = {
         .growth_spd = 45,
         .growth_def = 65,
         .growth_res = 30,
-    },
-
-    [EID_レティシア洗脳 - 1] = {
-        .id = EID_レティシア洗脳,
-        .unk_0A = EID_レティシア洗脳,
-        .jid_default = JID_レティシア洗脳,
-        .msg_name = MEID_レティシア洗脳,
-        .msg_desc = MEID_H_レティシア洗脳,
-        .fid = FID_ch00_41_Letizia_F_Enemy,
-
-        .base_level = 1,
-        .base_hp = 15,
-        .base_pow = 9,
-        .base_spd = 2,
-        .base_def = 8,
-        .base_res = 7,
-
-        .growth_hp = 50,
-        .growth_pow = 70,
-        .growth_spd = 30,
-        .growth_def = 60,
-        .growth_res = 60,
     },
 
     [PID_スリーズ - 1] = {
@@ -963,13 +985,13 @@ const char * const hero_names[] = {
     [PID_レギン - 1] = "PID_レギン",
     [EID_ブルーノ - 1] = "EID_ブルーノ",
     [PID_神階ピアニー - 1] = "PID_神階ピアニー",
+    [PID_セイズ - 1] = "PID_セイズ",
     [PID_フィヨルム - 1] = "PID_フィヨルム",
     [PID_神階エイル - 1] = "PID_神階エイル",
     [EID_レティシア - 1] = "EID_レティシア",
     [EID_オッテル - 1] = "EID_オッテル",
     [EID_ファフニール - 1] = "EID_ファフニール",
     [EID_フレイヤ - 1] = "EID_フレイヤ",
-    [PID_セイズ - 1] = "PID_セイズ",
     [EID_スルト - 1] = "EID_スルト",
     [PID_アシュ - 1] = "PID_アシュ",
     [PID_神階アスク - 1] = "PID_神階アスク",
@@ -980,8 +1002,10 @@ const char * const hero_names[] = {
     [EID_レーヴァテイン - 1] = "EID_レーヴァテイン",
     [EID_ヘル - 1] = "EID_ヘル",
     [EID_エンブラ - 1] = "EID_エンブラ",
+    [EID_ネルトゥス - 1] = "EID_ネルトゥス",
     [EID_グスタフ - 1] = "EID_グスタフ",
     [PID_ユルグ - 1] = "PID_ユルグ",
+    [PID_愛の祭ヘンリエッテ - 1] = "PID_愛の祭ヘンリエッテ",
     [EID_ロキ - 1] = "EID_ロキ",
     [EID_ノート - 1] = "EID_ノート",
     [EID_スカビオサ - 1] = "EID_スカビオサ",
@@ -989,14 +1013,13 @@ const char * const hero_names[] = {
     [EID_ヘルビンディ - 1] = "EID_ヘルビンディ",
     [EID_フロージ - 1] = "EID_フロージ",
     [PID_神階ルピナス - 1] = "PID_神階ルピナス",
-    [EID_ヴェロニカ洗脳 - 1] = "EID_ヴェロニカ洗脳",
+    [EID_グルヴェイグ - 1] = "EID_グルヴェイグ",
     [PID_フリーズ - 1] = "PID_フリーズ",
     [EID_プルメリア - 1] = "EID_プルメリア",
+    [EID_クワシル - 1] = "EID_クワシル",
+    [PID_神階ヘイズ - 1] = "PID_神階ヘイズ",
     [EID_スラシル - 1] = "EID_スラシル",
-    [EID_グルヴェイグ - 1] = "EID_グルヴェイグ",
-    [EID_ネルトゥス - 1] = "EID_ネルトゥス",
     [PID_マークス - 1] = "PID_マークス",
-    [EID_レティシア洗脳 - 1] = "EID_レティシア洗脳",
     [PID_スリーズ - 1] = "PID_スリーズ",
     [EID_フード - 1] = "EID_フード",
 };

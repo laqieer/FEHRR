@@ -2,15 +2,15 @@
 // Text type: TextType.MUSIC
 
 [MID_MUSIC_NAME_BGM_BATTLE_FE06_01] = {
-    [LANGUAGE_JAPANESE] = "Ａｔｔａｃｋ！",
+    [LANGUAGE_JAPANESE] = "Attack!",
     [LANGUAGE_ENGLISH] = "Attack!",
-    [LANGUAGE_CHINESE] = "Attack！",
+    [LANGUAGE_CHINESE] = "Attack!",
 },
 
 [MID_MUSIC_NAME_BGM_BATTLE_FE13_01] = {
-    [LANGUAGE_JAPANESE] = "演習～鋼",
+    [LANGUAGE_JAPANESE] = "演習~鋼",
     [LANGUAGE_ENGLISH] = "Training (Galvanized)",
-    [LANGUAGE_CHINESE] = "演习～钢",
+    [LANGUAGE_CHINESE] = "演习~钢",
 },
 
 [MID_MUSIC_NAME_BGM_BATTLE_FE14_01] = {
@@ -62,33 +62,33 @@
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE04_01] = {
-    [LANGUAGE_JAPANESE] = "序章（聖騎士誕生）",
+    [LANGUAGE_JAPANESE] = "序章(聖騎士誕生)",
     [LANGUAGE_ENGLISH] = "Prologue" TEXT_CMD_NEWLINE "Birth of a Holy Knight",
-    [LANGUAGE_CHINESE] = "序章（圣骑士诞生）",
+    [LANGUAGE_CHINESE] = "序章(圣骑士诞生)",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE04_05] = {
-    [LANGUAGE_JAPANESE] = "第３章（獅子王エルトシャン）",
+    [LANGUAGE_JAPANESE] = "第3章(獅子王エルトシャン)",
     [LANGUAGE_ENGLISH] = "Chapter 3" TEXT_CMD_NEWLINE "Eldigan, the Lionheart",
-    [LANGUAGE_CHINESE] = "第３章（狮子王艾尔多尚）",
+    [LANGUAGE_CHINESE] = "第3章(狮子王艾尔多尚)",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE04_07] = {
-    [LANGUAGE_JAPANESE] = "第５章（運命の扉）",
+    [LANGUAGE_JAPANESE] = "第5章(運命の扉)",
     [LANGUAGE_ENGLISH] = "Chapter 5" TEXT_CMD_NEWLINE "Doorway to Destiny",
-    [LANGUAGE_CHINESE] = "第５章（命运之门）",
+    [LANGUAGE_CHINESE] = "第5章(命运之门)",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE06_01] = {
-    [LANGUAGE_JAPANESE] = "はるかなる空の向こうに" TEXT_CMD_NEWLINE "～ロイの旅立ち",
+    [LANGUAGE_JAPANESE] = "はるかなる空の向こうに" TEXT_CMD_NEWLINE "~ロイの旅立ち",
     [LANGUAGE_ENGLISH] = "Beyond Distant Skies -" TEXT_CMD_NEWLINE "Roy's Departure",
-    [LANGUAGE_CHINESE] = "遥远天空的彼端" TEXT_CMD_NEWLINE "～罗伊的旅程",
+    [LANGUAGE_CHINESE] = "遥远天空的彼端" TEXT_CMD_NEWLINE "~罗伊的旅程",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE06_02] = {
-    [LANGUAGE_JAPANESE] = "Ｗｉｎｎｉｎｇ　Ｒｏａｄ" TEXT_CMD_NEWLINE "～ロイの希望",
+    [LANGUAGE_JAPANESE] = "Winning Road" TEXT_CMD_NEWLINE "~ロイの希望",
     [LANGUAGE_ENGLISH] = "Winning Road - Roy's Hope",
-    [LANGUAGE_CHINESE] = "Winning Road" TEXT_CMD_NEWLINE "～罗伊的希望",
+    [LANGUAGE_CHINESE] = "Winning Road" TEXT_CMD_NEWLINE "~罗伊的希望",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE07_01] = {
@@ -110,13 +110,13 @@
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE09_01] = {
-    [LANGUAGE_JAPANESE] = "Ａ　Ｂａｔｔｌｅ　ａｎｄ" TEXT_CMD_NEWLINE "ａ　Ｂｅｇｉｎｎｉｎｇ",
+    [LANGUAGE_JAPANESE] = "A Battle and" TEXT_CMD_NEWLINE "a Beginning",
     [LANGUAGE_ENGLISH] = "A Battle and a Beginning",
     [LANGUAGE_CHINESE] = "A Battle and" TEXT_CMD_NEWLINE "a Beginning",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE09_02] = {
-    [LANGUAGE_JAPANESE] = "Ｇｒｅｉｌ’ｓ" TEXT_CMD_NEWLINE "Ｍｅｒｃｅｎａｒｉｅｓ",
+    [LANGUAGE_JAPANESE] = "Greil’s" TEXT_CMD_NEWLINE "Mercenaries",
     [LANGUAGE_ENGLISH] = "Greil Mercenaries",
     [LANGUAGE_CHINESE] = "Greil's Mercenaries",
 },
@@ -146,51 +146,51 @@
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE13_01] = {
-    [LANGUAGE_JAPANESE] = "宿命～炎",
+    [LANGUAGE_JAPANESE] = "宿命~炎",
     [LANGUAGE_ENGLISH] = "Destiny (Ablaze)",
-    [LANGUAGE_CHINESE] = "宿命～炎",
+    [LANGUAGE_CHINESE] = "宿命~炎",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE13_02] = {
-    [LANGUAGE_JAPANESE] = "序幕～炎",
+    [LANGUAGE_JAPANESE] = "序幕~炎",
     [LANGUAGE_ENGLISH] = "Prelude (Ablaze)",
-    [LANGUAGE_CHINESE] = "序幕～炎",
+    [LANGUAGE_CHINESE] = "序幕~炎",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE13_04] = {
-    [LANGUAGE_JAPANESE] = "遠征～炎",
+    [LANGUAGE_JAPANESE] = "遠征~炎",
     [LANGUAGE_ENGLISH] = "Conquest (Ablaze)",
-    [LANGUAGE_CHINESE] = "远征～炎",
+    [LANGUAGE_CHINESE] = "远征~炎",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE13_06] = {
-    [LANGUAGE_JAPANESE] = "天命～炎",
+    [LANGUAGE_JAPANESE] = "天命~炎",
     [LANGUAGE_ENGLISH] = "Divine Decree (Ablaze)",
-    [LANGUAGE_CHINESE] = "天命～炎",
+    [LANGUAGE_CHINESE] = "天命~炎",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE14_01] = {
-    [LANGUAGE_JAPANESE] = "遠い夜明け～颯",
+    [LANGUAGE_JAPANESE] = "遠い夜明け~颯",
     [LANGUAGE_ENGLISH] = "Far Dawn (Storm)",
-    [LANGUAGE_CHINESE] = "遥远的黎明～疾风",
+    [LANGUAGE_CHINESE] = "遥远的黎明~疾风",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE14_02] = {
-    [LANGUAGE_JAPANESE] = "黄昏をつれて～焔",
+    [LANGUAGE_JAPANESE] = "黄昏をつれて~焔",
     [LANGUAGE_ENGLISH] = "Dusk Falls (Fire)",
-    [LANGUAGE_CHINESE] = "黄昏降临～焰",
+    [LANGUAGE_CHINESE] = "黄昏降临~焰",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE14_06] = {
-    [LANGUAGE_JAPANESE] = "輝く大地を越えて～颯",
+    [LANGUAGE_JAPANESE] = "輝く大地を越えて~颯",
     [LANGUAGE_ENGLISH] = "Past Light (Storm)",
-    [LANGUAGE_CHINESE] = "越过闪耀的大地～飒",
+    [LANGUAGE_CHINESE] = "越过闪耀的大地~飒",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE14_07] = {
-    [LANGUAGE_JAPANESE] = "光亡き荒野の果てに～焔",
+    [LANGUAGE_JAPANESE] = "光亡き荒野の果てに~焔",
     [LANGUAGE_ENGLISH] = "Dark Wastes (Fire)",
-    [LANGUAGE_CHINESE] = "永暗荒野的尽头～焔",
+    [LANGUAGE_CHINESE] = "永暗荒野的尽头~焔",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE15_02] = {
@@ -214,7 +214,7 @@
 [MID_MUSIC_NAME_BGM_MAP_FE15_05] = {
     [LANGUAGE_JAPANESE] = "神よ、その黄昏よ",
     [LANGUAGE_ENGLISH] = "Twilight of the Gods",
-    [LANGUAGE_CHINESE] = "神啊，黄昏啊",
+    [LANGUAGE_CHINESE] = "神啊,黄昏啊",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE16_01] = {
@@ -224,27 +224,27 @@
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FEM_01] = {
-    [LANGUAGE_JAPANESE] = "序幕～快炎",
+    [LANGUAGE_JAPANESE] = "序幕~快炎",
     [LANGUAGE_ENGLISH] = "Prelude (Warm Blaze)",
-    [LANGUAGE_CHINESE] = "序幕～快炎",
+    [LANGUAGE_CHINESE] = "序幕~快炎",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FEM_04] = {
-    [LANGUAGE_JAPANESE] = "いつかきた旅路～轟轟",
+    [LANGUAGE_JAPANESE] = "いつかきた旅路~轟轟",
     [LANGUAGE_ENGLISH] = "Road Taken (Roar)",
-    [LANGUAGE_CHINESE] = "曾几何时的旅途～轰然",
+    [LANGUAGE_CHINESE] = "曾几何时的旅途~轰然",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FEM_05] = {
-    [LANGUAGE_JAPANESE] = "正義は此処に～暗颯",
+    [LANGUAGE_JAPANESE] = "正義は此処に~暗颯",
     [LANGUAGE_ENGLISH] = "Justice RIP (Nohrian Storm)",
-    [LANGUAGE_CHINESE] = "正义在此～暗飒",
+    [LANGUAGE_CHINESE] = "正义在此~暗飒",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FEM_06] = {
-    [LANGUAGE_JAPANESE] = "戦闘マップ１～回奏",
+    [LANGUAGE_JAPANESE] = "戦闘マップ1~回奏",
     [LANGUAGE_ENGLISH] = "Onward! (Reprise)",
-    [LANGUAGE_CHINESE] = "战斗地图１～轮奏",
+    [LANGUAGE_CHINESE] = "战斗地图1~轮奏",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FES_01] = {
@@ -290,21 +290,21 @@
 },
 
 [MID_MUSIC_NAME_BGM_MENU_TITLE] = {
-    [LANGUAGE_JAPANESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "メインテーマ" TEXT_CMD_NEWLINE "（Ｖｅｒ．Ｈｅｒｏｅｓ）",
+    [LANGUAGE_JAPANESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "メインテーマ" TEXT_CMD_NEWLINE "(Ver.Heroes)",
     [LANGUAGE_ENGLISH] = "Fire Emblem" TEXT_CMD_NEWLINE "Main Theme" TEXT_CMD_NEWLINE "(Heroes Ver.)",
-    [LANGUAGE_CHINESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "主题曲" TEXT_CMD_NEWLINE "（Ver．Heroes）",
+    [LANGUAGE_CHINESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "主题曲" TEXT_CMD_NEWLINE "(Ver.Heroes)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE01_01] = {
-    [LANGUAGE_JAPANESE] = "ストーリー６" TEXT_CMD_NEWLINE "マルスとシーダの会話",
+    [LANGUAGE_JAPANESE] = "ストーリー6" TEXT_CMD_NEWLINE "マルスとシーダの会話",
     [LANGUAGE_ENGLISH] = "Story 6" TEXT_CMD_NEWLINE "Marth and Caeda's Talk",
-    [LANGUAGE_CHINESE] = "剧情６" TEXT_CMD_NEWLINE "马尔斯与希达的对话",
+    [LANGUAGE_CHINESE] = "剧情6" TEXT_CMD_NEWLINE "马尔斯与希达的对话",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE01_02] = {
-    [LANGUAGE_JAPANESE] = "オープニングタイトル～デモ",
+    [LANGUAGE_JAPANESE] = "オープニングタイトル~デモ",
     [LANGUAGE_ENGLISH] = "Opening Title (Demo)",
-    [LANGUAGE_CHINESE] = "Opening Title～Demo",
+    [LANGUAGE_CHINESE] = "Opening Title~Demo",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE02_01] = {
@@ -314,15 +314,15 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE02_02] = {
-    [LANGUAGE_JAPANESE] = "城（マーチ）",
+    [LANGUAGE_JAPANESE] = "城(マーチ)",
     [LANGUAGE_ENGLISH] = "Castle (March)",
-    [LANGUAGE_CHINESE] = "城堡（进行曲）",
+    [LANGUAGE_CHINESE] = "城堡(进行曲)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE02_03] = {
-    [LANGUAGE_JAPANESE] = "全体マップ３章" TEXT_CMD_NEWLINE "（解放戦争：それぞれの道）",
+    [LANGUAGE_JAPANESE] = "全体マップ3章" TEXT_CMD_NEWLINE "(解放戦争:それぞれの道)",
     [LANGUAGE_ENGLISH] = "World Map Act 3:" TEXT_CMD_NEWLINE "(War of Deliverance:" TEXT_CMD_NEWLINE "Respective Paths)",
-    [LANGUAGE_CHINESE] = "全地图第３章" TEXT_CMD_NEWLINE "（解放战争：各自的道路）",
+    [LANGUAGE_CHINESE] = "全地图第3章" TEXT_CMD_NEWLINE "(解放战争:各自的道路)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE03_01] = {
@@ -332,9 +332,9 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE03_02] = {
-    [LANGUAGE_JAPANESE] = "神竜伝説（Ａ）",
+    [LANGUAGE_JAPANESE] = "神竜伝説(A)",
     [LANGUAGE_ENGLISH] = "Legend of the" TEXT_CMD_NEWLINE "Dragon God (A)",
-    [LANGUAGE_CHINESE] = "神龙传说（A）",
+    [LANGUAGE_CHINESE] = "神龙传说(A)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE03_03] = {
@@ -368,9 +368,9 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE04_05] = {
-    [LANGUAGE_JAPANESE] = "デュー＆パティ",
+    [LANGUAGE_JAPANESE] = "デュー&パティ",
     [LANGUAGE_ENGLISH] = "Dew and Patty",
-    [LANGUAGE_CHINESE] = "迪优＆帕蒂",
+    [LANGUAGE_CHINESE] = "迪优&帕蒂",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE04_06] = {
@@ -386,39 +386,39 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE05_01] = {
-    [LANGUAGE_JAPANESE] = "トラキア７７６ 出撃",
+    [LANGUAGE_JAPANESE] = "トラキア776 出撃",
     [LANGUAGE_ENGLISH] = "Thracia 776 Sally Forth",
-    [LANGUAGE_CHINESE] = "トラキア７７６ 出击",
+    [LANGUAGE_CHINESE] = "トラキア776 出击",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE05_02] = {
-    [LANGUAGE_JAPANESE] = "章の中で　出会い、再会",
+    [LANGUAGE_JAPANESE] = "章の中で 出会い、再会",
     [LANGUAGE_ENGLISH] = "Encounters and Reunions",
-    [LANGUAGE_CHINESE] = "在章节中　相遇、重逢",
+    [LANGUAGE_CHINESE] = "在章节中 相遇、重逢",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE05_03] = {
-    [LANGUAGE_JAPANESE] = "章終り　ゆけゆけリーフ",
+    [LANGUAGE_JAPANESE] = "章終り ゆけゆけリーフ",
     [LANGUAGE_ENGLISH] = "Let's Go, Leif!",
-    [LANGUAGE_CHINESE] = "终章　上啊上啊里弗",
+    [LANGUAGE_CHINESE] = "终章 上啊上啊里弗",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE05_04] = {
-    [LANGUAGE_JAPANESE] = "トラキア７７６　始まり",
+    [LANGUAGE_JAPANESE] = "トラキア776 始まり",
     [LANGUAGE_ENGLISH] = "Thracia 776 Begins",
-    [LANGUAGE_CHINESE] = "トラキア７７６ 起始",
+    [LANGUAGE_CHINESE] = "トラキア776 起始",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE05_05] = {
-    [LANGUAGE_JAPANESE] = "戦いの中で　運命",
+    [LANGUAGE_JAPANESE] = "戦いの中で 運命",
     [LANGUAGE_ENGLISH] = "Battle: Destiny",
-    [LANGUAGE_CHINESE] = "战斗之中　命运",
+    [LANGUAGE_CHINESE] = "战斗之中 命运",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE05_06] = {
     [LANGUAGE_JAPANESE] = "戦いの中で 進撃",
     [LANGUAGE_ENGLISH] = "Battle: Advance",
-    [LANGUAGE_CHINESE] = "战斗之中　进击",
+    [LANGUAGE_CHINESE] = "战斗之中 进击",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE05_07] = {
@@ -434,21 +434,21 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE06_02] = {
-    [LANGUAGE_JAPANESE] = "Ⅰ進撃",
+    [LANGUAGE_JAPANESE] = "I進撃",
     [LANGUAGE_ENGLISH] = "Advance",
-    [LANGUAGE_CHINESE] = "Ⅰ进击",
+    [LANGUAGE_CHINESE] = "I进击",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE06_04] = {
-    [LANGUAGE_JAPANESE] = "Ｓｕｓｐｉｃｉｏｕｓ" TEXT_CMD_NEWLINE "～三竜将のテーマ",
+    [LANGUAGE_JAPANESE] = "Suspicious" TEXT_CMD_NEWLINE "~三竜将のテーマ",
     [LANGUAGE_ENGLISH] = "Suspicious" TEXT_CMD_NEWLINE "Wyvern Generals Theme",
-    [LANGUAGE_CHINESE] = "Suspicious" TEXT_CMD_NEWLINE "～三龙将的主题曲",
+    [LANGUAGE_CHINESE] = "Suspicious" TEXT_CMD_NEWLINE "~三龙将的主题曲",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE06_05] = {
-    [LANGUAGE_JAPANESE] = "Ｍｅｌａｎｃｈｏｌｙ" TEXT_CMD_NEWLINE "～三竜将のテーマ",
+    [LANGUAGE_JAPANESE] = "Melancholy" TEXT_CMD_NEWLINE "~三竜将のテーマ",
     [LANGUAGE_ENGLISH] = "Melancholy" TEXT_CMD_NEWLINE "Wyvern Generals Theme",
-    [LANGUAGE_CHINESE] = "Melancholy" TEXT_CMD_NEWLINE "～三龙将的主题曲",
+    [LANGUAGE_CHINESE] = "Melancholy" TEXT_CMD_NEWLINE "~三龙将的主题曲",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE06_06] = {
@@ -469,6 +469,12 @@
     [LANGUAGE_CHINESE] = "诱惑的舞蹈",
 },
 
+[MID_MUSIC_NAME_BGM_MNS_FE06_09] = {
+    [LANGUAGE_JAPANESE] = "II王都奪還",
+    [LANGUAGE_ENGLISH] = "II - Reclaim the Capital",
+    [LANGUAGE_CHINESE] = "II夺回王都",
+},
+
 [MID_MUSIC_NAME_BGM_MNS_FE07_01] = {
     [LANGUAGE_JAPANESE] = "黒い牙",
     [LANGUAGE_ENGLISH] = "Black Fang",
@@ -476,13 +482,13 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE07_02] = {
-    [LANGUAGE_JAPANESE] = "進撃準備（烈火Ｖｅｒ）",
+    [LANGUAGE_JAPANESE] = "進撃準備(烈火Ver)",
     [LANGUAGE_ENGLISH] = "Prepare to Charge",
-    [LANGUAGE_CHINESE] = "进击准备（烈火Ver）",
+    [LANGUAGE_CHINESE] = "进击准备(烈火Ver)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE07_03] = {
-    [LANGUAGE_JAPANESE] = "Ｇｏｉｎｇ　Ｍｙ　Ｗａｙ",
+    [LANGUAGE_JAPANESE] = "Going My Way",
     [LANGUAGE_ENGLISH] = "Going My Way",
     [LANGUAGE_CHINESE] = "Going My Way",
 },
@@ -494,21 +500,27 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE07_05] = {
-    [LANGUAGE_JAPANESE] = "草原の少女　～　リンのテーマ",
+    [LANGUAGE_JAPANESE] = "草原の少女 ~ リンのテーマ",
     [LANGUAGE_ENGLISH] = "Girl of the Plains:" TEXT_CMD_NEWLINE "Lyn's Theme",
-    [LANGUAGE_CHINESE] = "草原的少女　～　琳的主题曲",
+    [LANGUAGE_CHINESE] = "草原的少女 ~ 琳的主题曲",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE07_06] = {
-    [LANGUAGE_JAPANESE] = "心ひとつに" TEXT_CMD_NEWLINE "～エリウッドのテーマ",
+    [LANGUAGE_JAPANESE] = "心ひとつに" TEXT_CMD_NEWLINE "~エリウッドのテーマ",
     [LANGUAGE_ENGLISH] = "One Heart:" TEXT_CMD_NEWLINE "Eliwood's Theme",
-    [LANGUAGE_CHINESE] = "团结一心" TEXT_CMD_NEWLINE "～艾利乌德的主题曲",
+    [LANGUAGE_CHINESE] = "团结一心" TEXT_CMD_NEWLINE "~艾利乌德的主题曲",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE07_09] = {
     [LANGUAGE_JAPANESE] = "街並み",
     [LANGUAGE_ENGLISH] = "Ships and Homes",
     [LANGUAGE_CHINESE] = "城市风貌",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE07_10] = {
+    [LANGUAGE_JAPANESE] = "友を信じて" TEXT_CMD_NEWLINE "~ヘクトルのテーマ",
+    [LANGUAGE_ENGLISH] = "Loyalty: Hector's Theme",
+    [LANGUAGE_CHINESE] = "相信朋友" TEXT_CMD_NEWLINE "~海克托尔的主题曲",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE08_01] = {
@@ -524,9 +536,9 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE08_03] = {
-    [LANGUAGE_JAPANESE] = "リオン（オルゴールアレンジ）",
+    [LANGUAGE_JAPANESE] = "リオン(オルゴールアレンジ)",
     [LANGUAGE_ENGLISH] = "Lyon (Organ Arrangement)",
-    [LANGUAGE_CHINESE] = "利昂（水晶音乐改编版）",
+    [LANGUAGE_CHINESE] = "利昂(水晶音乐改编版)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE08_04] = {
@@ -536,7 +548,7 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE08_05] = {
-    [LANGUAGE_JAPANESE] = "Ｓａｄｎｅｓｓ　ｔｉｍｅ",
+    [LANGUAGE_JAPANESE] = "Sadness time",
     [LANGUAGE_ENGLISH] = "Sorrow",
     [LANGUAGE_CHINESE] = "Sadness time",
 },
@@ -560,51 +572,57 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_02] = {
-    [LANGUAGE_JAPANESE] = "Ｈｉｓ" TEXT_CMD_NEWLINE "Ｆａｔｈｅｒ’ｓ　Ｓｏｎ",
+    [LANGUAGE_JAPANESE] = "His" TEXT_CMD_NEWLINE "Father’s Son",
     [LANGUAGE_ENGLISH] = "His Father's Son",
     [LANGUAGE_CHINESE] = "His" TEXT_CMD_NEWLINE "Father's Son",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_03] = {
-    [LANGUAGE_JAPANESE] = "Ｒｉｓｉｎｇ　Ｍｏｒａｌｅ",
+    [LANGUAGE_JAPANESE] = "Rising Morale",
     [LANGUAGE_ENGLISH] = "Rising Morale",
     [LANGUAGE_CHINESE] = "Rising Morale",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_04] = {
-    [LANGUAGE_JAPANESE] = "Ｆｏｒ　Ｖｉｃｔｏｒｙ",
+    [LANGUAGE_JAPANESE] = "For Victory",
     [LANGUAGE_ENGLISH] = "For Victory",
     [LANGUAGE_CHINESE] = "For Victory",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_05] = {
-    [LANGUAGE_JAPANESE] = "Ｙｏｕｎｇ　Ｗａｒｒｉｏｒｓ",
+    [LANGUAGE_JAPANESE] = "Young Warriors",
     [LANGUAGE_ENGLISH] = "Young Warriors",
-    [LANGUAGE_CHINESE] = "Young　Warriors",
+    [LANGUAGE_CHINESE] = "Young Warriors",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_06] = {
-    [LANGUAGE_JAPANESE] = "Ｑｕｉｅｔ　Ｄａｙｓ",
+    [LANGUAGE_JAPANESE] = "Quiet Days",
     [LANGUAGE_ENGLISH] = "Quiet Days",
     [LANGUAGE_CHINESE] = "Quiet Days",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_07] = {
-    [LANGUAGE_JAPANESE] = "Ｂｅａｕｔｉｆｕｌ" TEXT_CMD_NEWLINE "Ｐｒｉｎｃｅｓｓ" TEXT_CMD_NEWLINE "Ｅｒｉｎｃｉａ",
+    [LANGUAGE_JAPANESE] = "Beautiful" TEXT_CMD_NEWLINE "Princess" TEXT_CMD_NEWLINE "Erincia",
     [LANGUAGE_ENGLISH] = "Beautiful Princess Elincia",
     [LANGUAGE_CHINESE] = "Beautiful" TEXT_CMD_NEWLINE "Princess" TEXT_CMD_NEWLINE "Erincia",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_08] = {
-    [LANGUAGE_JAPANESE] = "Ｗｏｎｄｅｒｆｕｌ" TEXT_CMD_NEWLINE "Ｐｉｒａｔｅｓ",
+    [LANGUAGE_JAPANESE] = "Wonderful" TEXT_CMD_NEWLINE "Pirates",
     [LANGUAGE_ENGLISH] = "Wonderful Pirates",
     [LANGUAGE_CHINESE] = "Wonderful" TEXT_CMD_NEWLINE "Pirates",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_10] = {
-    [LANGUAGE_JAPANESE] = "Ｔｈｅ　Ｗｈｉｔｅ" TEXT_CMD_NEWLINE "Ｈｅｒｏｎ",
+    [LANGUAGE_JAPANESE] = "The White" TEXT_CMD_NEWLINE "Heron",
     [LANGUAGE_ENGLISH] = "The White Heron",
     [LANGUAGE_CHINESE] = "The White" TEXT_CMD_NEWLINE "Heron",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE09_11] = {
+    [LANGUAGE_JAPANESE] = "Move Out!",
+    [LANGUAGE_ENGLISH] = "Move Out!",
+    [LANGUAGE_CHINESE] = "Move Out!",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE10_01] = {
@@ -655,6 +673,12 @@
     [LANGUAGE_CHINESE] = "奇才伊兹卡",
 },
 
+[MID_MUSIC_NAME_BGM_MNS_FE10_09] = {
+    [LANGUAGE_JAPANESE] = "進まざるは退転",
+    [LANGUAGE_ENGLISH] = "Backsliding",
+    [LANGUAGE_CHINESE] = "不进则退",
+},
+
 [MID_MUSIC_NAME_BGM_MNS_FE11_01] = {
     [LANGUAGE_JAPANESE] = "戦支度",
     [LANGUAGE_ENGLISH] = "Preparations",
@@ -683,6 +707,12 @@
     [LANGUAGE_JAPANESE] = "進撃あるのみ",
     [LANGUAGE_ENGLISH] = "Keep Marching On",
     [LANGUAGE_CHINESE] = "唯有进击",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE11_06] = {
+    [LANGUAGE_JAPANESE] = "幼き神竜",
+    [LANGUAGE_ENGLISH] = "The Little Divine Dragon",
+    [LANGUAGE_CHINESE] = "幼小的神龙",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE12_01] = {
@@ -728,15 +758,15 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_01] = {
-    [LANGUAGE_JAPANESE] = "メインテーマ・夏" TEXT_CMD_NEWLINE "（ＯＦＦ　ＶＯＩＣＥ）",
+    [LANGUAGE_JAPANESE] = "メインテーマ・夏" TEXT_CMD_NEWLINE "(OFF VOICE)",
     [LANGUAGE_ENGLISH] = "Main Theme (Summer)" TEXT_CMD_NEWLINE "(No Voice)",
-    [LANGUAGE_CHINESE] = "主题曲・夏" TEXT_CMD_NEWLINE "（OFF VOICE）",
+    [LANGUAGE_CHINESE] = "主题曲・夏" TEXT_CMD_NEWLINE "(OFF VOICE)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_02] = {
-    [LANGUAGE_JAPANESE] = "力を感じる…私たちと同じ力…",
+    [LANGUAGE_JAPANESE] = "力を感じる...私たちと同じ力...",
     [LANGUAGE_ENGLISH] = "\"You have power..." TEXT_CMD_NEWLINE "like mine.\"",
-    [LANGUAGE_CHINESE] = "感受到了与我们相同的力量……",
+    [LANGUAGE_CHINESE] = "感受到了与我们相同的力量......",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_04] = {
@@ -746,9 +776,9 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_05] = {
-    [LANGUAGE_JAPANESE] = "泊らせてもらおうよ？ね？",
+    [LANGUAGE_JAPANESE] = "泊らせてもらおうよ?ね?",
     [LANGUAGE_ENGLISH] = "\"But, Frederick," TEXT_CMD_NEWLINE "it's nearly dark!\"",
-    [LANGUAGE_CHINESE] = "我们就去借住嘛？好不好？",
+    [LANGUAGE_CHINESE] = "我们就去借住嘛?好不好?",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_06] = {
@@ -770,9 +800,15 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_10] = {
-    [LANGUAGE_JAPANESE] = "こんなところにも、屍兵が…！",
+    [LANGUAGE_JAPANESE] = "こんなところにも、屍兵が...!",
     [LANGUAGE_ENGLISH] = "Gods, have the Risen" TEXT_CMD_NEWLINE "spread this far?",
-    [LANGUAGE_CHINESE] = "这种地方竟也有尸兵……！",
+    [LANGUAGE_CHINESE] = "这种地方竟也有尸兵......!",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE13_11] = {
+    [LANGUAGE_JAPANESE] = "「I」~安",
+    [LANGUAGE_ENGLISH] = "Id (Serenity)",
+    [LANGUAGE_CHINESE] = "「I」~安",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE14_03] = {
@@ -812,9 +848,9 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE14_11] = {
-    [LANGUAGE_JAPANESE] = "ＥＮＩＳＨＩ" TEXT_CMD_NEWLINE "～サクラとエリーゼのために～",
+    [LANGUAGE_JAPANESE] = "ENISHI" TEXT_CMD_NEWLINE "~サクラとエリーゼのために~",
     [LANGUAGE_ENGLISH] = "Bound by Fate" TEXT_CMD_NEWLINE "(Sakura and Elise)",
-    [LANGUAGE_CHINESE] = "ENISHI" TEXT_CMD_NEWLINE "～为了樱和艾丽泽～",
+    [LANGUAGE_CHINESE] = "ENISHI" TEXT_CMD_NEWLINE "~为了樱和艾丽泽~",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE14_12] = {
@@ -848,15 +884,15 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE15_02] = {
-    [LANGUAGE_JAPANESE] = "戦備　解",
+    [LANGUAGE_JAPANESE] = "戦備 解",
     [LANGUAGE_ENGLISH] = "Preparations: Deliverance",
-    [LANGUAGE_CHINESE] = "备战　解",
+    [LANGUAGE_CHINESE] = "备战 解",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE15_03] = {
-    [LANGUAGE_JAPANESE] = "戦備　祈",
+    [LANGUAGE_JAPANESE] = "戦備 祈",
     [LANGUAGE_ENGLISH] = "Preparations: Pilgrimage",
-    [LANGUAGE_CHINESE] = "备战　祈",
+    [LANGUAGE_CHINESE] = "备战 祈",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE15_04] = {
@@ -872,7 +908,7 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE15_06] = {
-    [LANGUAGE_JAPANESE] = "Ｅｃｈｏｅｓ",
+    [LANGUAGE_JAPANESE] = "Echoes",
     [LANGUAGE_ENGLISH] = "Echoes",
     [LANGUAGE_CHINESE] = "Echoes",
 },
@@ -896,9 +932,15 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE15_11] = {
-    [LANGUAGE_JAPANESE] = "戦備　邂逅",
+    [LANGUAGE_JAPANESE] = "戦備 邂逅",
     [LANGUAGE_ENGLISH] = "Preparations: Reunion",
-    [LANGUAGE_CHINESE] = "备战　邂逅",
+    [LANGUAGE_CHINESE] = "备战 邂逅",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE15_12] = {
+    [LANGUAGE_JAPANESE] = "銀の庭であなたと",
+    [LANGUAGE_ENGLISH] = "In a Silver Garden" TEXT_CMD_NEWLINE "with You",
+    [LANGUAGE_CHINESE] = "与你在银色庭园",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE16_01] = {
@@ -908,7 +950,7 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE16_02] = {
-    [LANGUAGE_JAPANESE] = "ガルグ＝マク大修道院の日常",
+    [LANGUAGE_JAPANESE] = "ガルグ=マク大修道院の日常",
     [LANGUAGE_ENGLISH] = "Life at Garreg Mach" TEXT_CMD_NEWLINE "Monastery",
     [LANGUAGE_CHINESE] = "加尔古‧玛库大修道院的日常",
 },
@@ -1066,7 +1108,7 @@
 [MID_MUSIC_NAME_BGM_MNS_FE17_15] = {
     [LANGUAGE_JAPANESE] = "お昼の見回りですか、神竜様",
     [LANGUAGE_ENGLISH] = "On Day Patrol," TEXT_CMD_NEWLINE "Divine One?",
-    [LANGUAGE_CHINESE] = "神龙大人，您在午间巡逻吗？",
+    [LANGUAGE_CHINESE] = "神龙大人,您在午间巡逻吗?",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE17_16] = {
@@ -1075,26 +1117,44 @@
     [LANGUAGE_CHINESE] = "军事国家",
 },
 
+[MID_MUSIC_NAME_BGM_MNS_FE17_18] = {
+    [LANGUAGE_JAPANESE] = "目覚めし光芒",
+    [LANGUAGE_ENGLISH] = "A Beacon of" TEXT_CMD_NEWLINE "Light Awakens",
+    [LANGUAGE_CHINESE] = "苏醒的光芒",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE17_19] = {
+    [LANGUAGE_JAPANESE] = "今日も鍛錬に励もうか!",
+    [LANGUAGE_ENGLISH] = "Another Day of Training?",
+    [LANGUAGE_CHINESE] = "今天也要努力锻炼喔!",
+},
+
+[MID_MUSIC_NAME_BGM_MNS_FE17_20] = {
+    [LANGUAGE_JAPANESE] = "邪竜の狗たち",
+    [LANGUAGE_ENGLISH] = "The Fell Dragon's Hounds",
+    [LANGUAGE_CHINESE] = "邪龙的走狗",
+},
+
 [MID_MUSIC_NAME_BGM_MNS_FEA_01] = {
-    [LANGUAGE_JAPANESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "メインテーマ" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "メインテーマ" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "Fire Emblem" TEXT_CMD_NEWLINE "Main Theme" TEXT_CMD_NEWLINE "(Arranged Ver.)",
-    [LANGUAGE_CHINESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "主题曲" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "主题曲" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FEH_01] = {
-    [LANGUAGE_JAPANESE] = "ハゥリングギア" TEXT_CMD_NEWLINE "（Ｄａｎｃｅａｂｌｅ" TEXT_CMD_NEWLINE "Ｒｅｍｉｘ）",
+    [LANGUAGE_JAPANESE] = "ハゥリングギア" TEXT_CMD_NEWLINE "(Danceable" TEXT_CMD_NEWLINE "Remix)",
     [LANGUAGE_ENGLISH] = "Howling Gears" TEXT_CMD_NEWLINE "(Danceable Remix)",
-    [LANGUAGE_CHINESE] = "怒吼的齿轮" TEXT_CMD_NEWLINE "（DanceableRemix）",
+    [LANGUAGE_CHINESE] = "怒吼的齿轮" TEXT_CMD_NEWLINE "(DanceableRemix)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_AF21_INGAME] = {
-    [LANGUAGE_JAPANESE] = "ハゥリングギア" TEXT_CMD_NEWLINE "（Ｄａｎｃｅａｂｌｅ" TEXT_CMD_NEWLINE "Ｒｅｍｉｘ）",
+    [LANGUAGE_JAPANESE] = "ハゥリングギア" TEXT_CMD_NEWLINE "(Danceable" TEXT_CMD_NEWLINE "Remix)",
     [LANGUAGE_ENGLISH] = "Howling Gears" TEXT_CMD_NEWLINE "(Danceable Remix)",
-    [LANGUAGE_CHINESE] = "怒吼的齿轮" TEXT_CMD_NEWLINE "（DanceableRemix）",
+    [LANGUAGE_CHINESE] = "怒吼的齿轮" TEXT_CMD_NEWLINE "(DanceableRemix)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FE09_01] = {
-    [LANGUAGE_JAPANESE] = "Ｌｉｆｅ　Ｒｅｔｕｒｎｓ",
+    [LANGUAGE_JAPANESE] = "Life Returns",
     [LANGUAGE_ENGLISH] = "Life Returns",
     [LANGUAGE_CHINESE] = "Life Returns",
 },
@@ -1106,73 +1166,73 @@
 },
 
 [MID_MUSIC_NAME_BGM_TB_FE16_01] = {
-    [LANGUAGE_JAPANESE] = "ファイアーエムブレム　風花雪月" TEXT_CMD_NEWLINE "メインテーマ",
+    [LANGUAGE_JAPANESE] = "ファイアーエムブレム 風花雪月" TEXT_CMD_NEWLINE "メインテーマ",
     [LANGUAGE_ENGLISH] = "Fire Emblem:" TEXT_CMD_NEWLINE "Three Houses" TEXT_CMD_NEWLINE "Main Theme",
-    [LANGUAGE_CHINESE] = "FIRE EMBLEM　风花雪月" TEXT_CMD_NEWLINE "主题曲",
+    [LANGUAGE_CHINESE] = "FIRE EMBLEM 风花雪月" TEXT_CMD_NEWLINE "主题曲",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FE16_02] = {
-    [LANGUAGE_JAPANESE] = "フレスベルグの少女" TEXT_CMD_NEWLINE "～風花雪月～",
+    [LANGUAGE_JAPANESE] = "フレスベルグの少女" TEXT_CMD_NEWLINE "~風花雪月~",
     [LANGUAGE_ENGLISH] = "The Edge of Dawn" TEXT_CMD_NEWLINE "(Seasons of Warfare)" TEXT_CMD_NEWLINE "(Short Version)",
-    [LANGUAGE_CHINESE] = "弗雷斯贝尔古的少女" TEXT_CMD_NEWLINE "～风花雪月～",
+    [LANGUAGE_CHINESE] = "弗雷斯贝尔古的少女" TEXT_CMD_NEWLINE "~风花雪月~",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_01] = {
-    [LANGUAGE_JAPANESE] = "貴様らが…" TEXT_CMD_NEWLINE "姉さんの言葉を語るな！" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "貴様らが..." TEXT_CMD_NEWLINE "姉さんの言葉を語るな!" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "\"Don't speak her name!\"" TEXT_CMD_NEWLINE "(Arranged)",
-    [LANGUAGE_CHINESE] = "你们这些家伙……" TEXT_CMD_NEWLINE "不准谈论我的姊姊！" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "你们这些家伙......" TEXT_CMD_NEWLINE "不准谈论我的姊姊!" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_02] = {
-    [LANGUAGE_JAPANESE] = "真実　絶望　そして希望" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "真実 絶望 そして希望" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "Truth, Despair, and Hope" TEXT_CMD_NEWLINE "(Arranged)",
-    [LANGUAGE_CHINESE] = "真实　绝望　以及希望" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "真实 绝望 以及希望" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_03] = {
-    [LANGUAGE_JAPANESE] = "正義は此処に～颯" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "正義は此処に~颯" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "Justice RIP (Storm)" TEXT_CMD_NEWLINE "(Arranged)",
-    [LANGUAGE_CHINESE] = "正义在此～飒" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "正义在此~飒" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_04] = {
-    [LANGUAGE_JAPANESE] = "新たなる歴史を刻む者" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "新たなる歴史を刻む者" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "Those Who Dare to" TEXT_CMD_NEWLINE "Change History" TEXT_CMD_NEWLINE "(Arranged)",
-    [LANGUAGE_CHINESE] = "铭刻崭新历史之人" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "铭刻崭新历史之人" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_05] = {
-    [LANGUAGE_JAPANESE] = "フォドラの暁風" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "フォドラの暁風" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "Fódlan Winds (Arranged)",
-    [LANGUAGE_CHINESE] = "芙朵拉的晓风" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "芙朵拉的晓风" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_06] = {
-    [LANGUAGE_JAPANESE] = "ミラの加護とともに" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "ミラの加護とともに" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "With Mila's Divine" TEXT_CMD_NEWLINE "Protection (Arranged)",
-    [LANGUAGE_CHINESE] = "与美拉的加护同在" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "与美拉的加护同在" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_07] = {
-    [LANGUAGE_JAPANESE] = "新たなる光の下へ（ロイの勇気）" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "新たなる光の下へ(ロイの勇気)" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "Beneath a New Light" TEXT_CMD_NEWLINE "(Roy's Courage)" TEXT_CMD_NEWLINE "(Arranged)",
-    [LANGUAGE_CHINESE] = "迈向崭新的光芒照耀之处（罗伊的勇气）" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "迈向崭新的光芒照耀之处(罗伊的勇气)" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_08] = {
-    [LANGUAGE_JAPANESE] = "絆永久に" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "絆永久に" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "Eternal Bond (Arranged)",
-    [LANGUAGE_CHINESE] = "使羁绊长久永存" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "使羁绊长久永存" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEA_09] = {
-    [LANGUAGE_JAPANESE] = "終章（最後の聖戦）" TEXT_CMD_NEWLINE "（アレンジバージョン）",
+    [LANGUAGE_JAPANESE] = "終章(最後の聖戦)" TEXT_CMD_NEWLINE "(アレンジバージョン)",
     [LANGUAGE_ENGLISH] = "End of the Holy War" TEXT_CMD_NEWLINE "(Arranged)",
-    [LANGUAGE_CHINESE] = "终章（最后的圣战）" TEXT_CMD_NEWLINE "（改编版本）",
+    [LANGUAGE_CHINESE] = "终章(最后的圣战)" TEXT_CMD_NEWLINE "(改编版本)",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEG_01] = {
-    [LANGUAGE_JAPANESE] = "Ｆｅｅｌ",
+    [LANGUAGE_JAPANESE] = "Feel",
     [LANGUAGE_ENGLISH] = "Feel",
     [LANGUAGE_CHINESE] = "Feel",
 },
@@ -1190,21 +1250,21 @@
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEG_04] = {
-    [LANGUAGE_JAPANESE] = "Ｒｅｉｎｃａｒｎａｔｉｏｎ",
+    [LANGUAGE_JAPANESE] = "Reincarnation",
     [LANGUAGE_ENGLISH] = "Reincarnation",
     [LANGUAGE_CHINESE] = "Reincarnation",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEG_05] = {
-    [LANGUAGE_JAPANESE] = "Ｓｍｉｌｅ　Ｓｍｉｌｅ",
+    [LANGUAGE_JAPANESE] = "Smile Smile",
     [LANGUAGE_ENGLISH] = "Smile for Me",
     [LANGUAGE_CHINESE] = "Smile Smile",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEG_06] = {
-    [LANGUAGE_JAPANESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "～光の戯曲～",
+    [LANGUAGE_JAPANESE] = "ファイアーエムブレム" TEXT_CMD_NEWLINE "~光の戯曲~",
     [LANGUAGE_ENGLISH] = "Fire Emblem:" TEXT_CMD_NEWLINE "Opera of Light",
-    [LANGUAGE_CHINESE] = "Fire Emblem" TEXT_CMD_NEWLINE "～光之戏曲～",
+    [LANGUAGE_CHINESE] = "Fire Emblem" TEXT_CMD_NEWLINE "~光之戏曲~",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEG_07] = {
@@ -1214,13 +1274,13 @@
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEG_08] = {
-    [LANGUAGE_JAPANESE] = "ディア☆マジョ！ Ｓｗｅｅｔ♡" TEXT_CMD_NEWLINE "Ｋｉｒｉａ　Ｖｅｒ．",
+    [LANGUAGE_JAPANESE] = "ディア☆マジョ! Sweet♡" TEXT_CMD_NEWLINE "Kiria Ver.",
     [LANGUAGE_ENGLISH] = "Dia Sweet Witch" TEXT_CMD_NEWLINE "(Kiria Ver.)",
-    [LANGUAGE_CHINESE] = "迪亚☆魔女！Sweet♡" TEXT_CMD_NEWLINE "Kiria Ver.",
+    [LANGUAGE_CHINESE] = "迪亚☆魔女!Sweet♡" TEXT_CMD_NEWLINE "Kiria Ver.",
 },
 
 [MID_MUSIC_NAME_BGM_TB_FEG_09] = {
-    [LANGUAGE_JAPANESE] = "Ｓｈｅ　ｉｓ…",
+    [LANGUAGE_JAPANESE] = "She is...",
     [LANGUAGE_ENGLISH] = "She Is...",
-    [LANGUAGE_CHINESE] = "She is……",
+    [LANGUAGE_CHINESE] = "She is......",
 },
