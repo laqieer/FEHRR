@@ -37,7 +37,7 @@ def make_heroes(filename):
             data = hero_data[hero]
             f.write('    [%s - 1] = {\n' % hero)
             f.write('        .id = %s,\n' % hero)
-            f.write('        .unk_0A = %s,\n' % hero)
+            f.write('        .sort_order_key = %s,\n' % hero)
             f.write('        .jid_default = J%s,\n' % hero[1:])
             # print('#define J%s JID_OBSTACLE' % hero[1:])
             f.write('        .msg_name = M%s,\n' % hero)

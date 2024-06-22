@@ -29,6 +29,7 @@
 #include "menu.h"
 #include "eventinfo.h"
 #include "helpbox.h"
+#include "unitlistscreen.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/terrains.h"
@@ -50,7 +51,7 @@ fu8 MapMenu_End_SelectNew(struct MenuProc * menu, struct MenuEntProc * ent)
 fu8 MapMenu_Unit_SelectNew(struct MenuProc * menu, struct MenuEntProc * ent)
 {
     Proc_Goto(FindProc(ProcScr_PlayerPhaseNew), L_PLAYERPHASE_10);
-    func_fe6_08076238();
+    StartUnitListScreen();
 
     return MENU_ACTION_NOCURSOR | MENU_ACTION_END | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
 }

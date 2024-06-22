@@ -2,7 +2,7 @@
 #include "bmio.h"
 
 #include "random.h"
-#include "ramfunc.h"
+#include "armfunc.h"
 #include "hardware.h"
 #include "oam.h"
 #include "proc.h"

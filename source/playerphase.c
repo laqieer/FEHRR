@@ -21,6 +21,8 @@
 #include "mu.h"
 #include "eventinfo.h"
 #include "statscreen.h"
+#include "mapui.h"
+#include "minimap.h"
 #include "save.h"
 #include "save_stats.h"
 #include "utilNew.h"
@@ -66,7 +68,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
         if ((gKeySt->pressed & KEY_BUTTON_R) && gMapUnit[gBmSt.cursor.y][gBmSt.cursor.x] != 0)
         {
             EndAllMus();
-            func_fe6_08073324();
+            EndMapUi();
             SetStatScreenExcludedUnitFlags(UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED | UNIT_FLAG_UNDER_ROOF | UNIT_FLAG_CONCEALED);
 
             StartStatScreen(GetUnit(gMapUnit[gBmSt.cursor.y][gBmSt.cursor.x]), proc);
@@ -84,7 +86,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
 
             case PLAYER_SELECT_NOUNIT:
             case PLAYER_SELECT_TURNENDED:
-                func_fe6_08073324();
+                EndMapUi();
 
                 gPlaySt.x_cursor = gBmSt.cursor.x;
                 gPlaySt.y_cursor = gBmSt.cursor.y;
@@ -125,7 +127,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
                 ShowUnitSprite(unit);
             }
 
-            func_fe6_08073324();
+            EndMapUi();
 
             gPlaySt.x_cursor = gBmSt.cursor.x;
             gPlaySt.y_cursor = gBmSt.cursor.y;
@@ -155,8 +157,8 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
                 ShowUnitSprite(unit);
             }
 
-            func_fe6_08073324();
-            func_fe6_08087BC4();
+            EndMapUi();
+            StartMinimap();
 
             Proc_Goto(proc, L_PLAYERPHASE_IDLE);
 
@@ -182,7 +184,7 @@ void LimitView_InitNew(struct GenericProc * proc)
 
     SetWinEnable(0, 0, 0);
 
-    gBmSt.flags |= BM_FLAG_0;
+    gBmSt.flags |= BM_FLAG_LIMITVIEW;
 
     RenderMap();
 
@@ -263,7 +265,7 @@ PROC_LABEL(L_PLAYERPHASE_BEGIN),
     // fallthrough
 
 PROC_LABEL(L_PLAYERPHASE_IDLE),
-    PROC_CALL(func_fe6_08073310),
+    PROC_CALL(StartMapUi),
     PROC_CALL(ResetUnitSpritHover),
 
     PROC_REPEAT(PlayerPhase_IdleLoop),
@@ -271,11 +273,11 @@ PROC_LABEL(L_PLAYERPHASE_IDLE),
     // fallthrough
 
 PROC_LABEL(L_PLAYERPHASE_MOVE),
-    PROC_CALL(func_fe6_08073324),
+    PROC_CALL(EndMapUi),
 
     PROC_WHILE(IsMapFadeActive),
 
-    PROC_CALL(func_fe6_0801809C),
+    PROC_CALL(ClearMapFadeUnits),
     PROC_CALL(RefreshUnitSprites),
 
     PROC_CALL(PlayerPhase_BeginMoveSelect),
@@ -299,7 +301,7 @@ PROC_LABEL(L_PLAYERPHASE_ACTION),
     PROC_CALL_2(DoAction),
     PROC_CALL_2(DoHandleStepTraps),
 
-    PROC_CALL_2(PlayerPhase_0801B9B0),
+    PROC_CALL_2(StartAvailableMoveEvents),
     PROC_CALL_2(PlayerPhase_WatchActiveUnit),
 
     PROC_CALL(PlayerPhase_FinishAction),
@@ -317,7 +319,7 @@ PROC_LABEL(L_PLAYERPHASE_5),
     // fallthrough
 
 PROC_LABEL(L_PLAYERPHASE_10),
-    PROC_START_CHILD_LOCKING(ProcScr_Unk_085C5988),
+    PROC_START_CHILD_LOCKING(ProcScr_ReturnFromStatScreen),
 
     PROC_GOTO(L_PLAYERPHASE_IDLE),
 
@@ -334,7 +336,7 @@ PROC_LABEL(L_PLAYERPHASE_8),
     PROC_GOTO(L_PLAYERPHASE_BEGIN),
 
 PROC_LABEL(L_PLAYERPHASE_SEE_RANGE),
-    PROC_CALL(func_fe6_08073324),
+    PROC_CALL(EndMapUi),
 
     PROC_WHILE(IsMapFadeActive),
 

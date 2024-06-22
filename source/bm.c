@@ -1,5 +1,5 @@
 
-#include "common.h"
+#include "prelude.h"
 #include "bm.h"
 #include "bmNew.h"
 
@@ -88,7 +88,7 @@ int GetActiveMapSongNew(void)
         return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_green_bgm;
 
     case FACTION_BLUE:
-        if (CountFactionUnitsWithoutState(FACTION_RED, UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED) <= GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->victory_bgm_enemy_threshold)
+        if (CountFactionUnitsWithoutFlags(FACTION_RED, UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED) <= GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->victory_bgm_enemy_threshold)
             return SONG_13;
 
         return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_blue_bgm;

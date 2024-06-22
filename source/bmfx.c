@@ -1,7 +1,7 @@
 // TODO: better name for this file
 
 #include "bmfx.h"
-#include "common.h"
+#include "prelude.h"
 
 #include "armfunc.h"
 #include "hardware.h"
@@ -272,14 +272,14 @@ PROC_LABEL(99),
 
 void ChapterIntro_BeginFadeToMapNew(struct GenericProc * proc)
 {
-    func_fe6_08001D0C();
+    ColorFadeInit();
 
     func_fe6_08001D44(gPal + 0x10*BGPAL_TILESET, 6, 10, +1);
-    func_fe6_08001D44(gPal + 0x10*(0x10+OBJPAL_10), 0x10+OBJPAL_10, 6, +1);
-    func_fe6_08001D44(gPal + 0x10*(0x10+OBJPAL_SYSTEM_OBJECTS), 0x10+OBJPAL_SYSTEM_OBJECTS, 2, +1);
-    func_fe6_08001D44(gPal + 0x10*(0x10+OBJPAL_7), 0x10+OBJPAL_7, 1, +1);
+    func_fe6_08001D44(gPal + 0x10*(0x10+OBPAL_10), 0x10+OBPAL_10, 6, +1);
+    func_fe6_08001D44(gPal + 0x10*(0x10+OBPAL_SYSTEM_OBJECTS), 0x10+OBPAL_SYSTEM_OBJECTS, 2, +1);
+    func_fe6_08001D44(gPal + 0x10*(0x10+OBPAL_7), 0x10+OBPAL_7, 1, +1);
 
-    func_fe6_08000234_t();
+    ColorFadeTick();
     EnablePalSync();
 
     proc->unk4C = 30;
@@ -299,7 +299,7 @@ void ChapterIntro_LoopFadeToMapNew(struct GenericProc * proc)
     {
         int val;
 
-        func_fe6_08000234_t();
+        ColorFadeTick();
 
         if (GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->weather == WEATHER_FLAMES)
             ApplyFlamesWeatherGradient();
@@ -331,14 +331,14 @@ void ChapterIntro_BeginFastFadeToMapNew(struct GenericProc * proc)
 {
     ClearUi();
 
-    func_fe6_08001D0C();
+    ColorFadeInit();
 
     func_fe6_08001D44(gPal + 0x10*BGPAL_TILESET, 6, 10, +2);
-    func_fe6_08001D44(gPal + 0x10*(0x10+OBJPAL_10), 0x10+OBJPAL_10, 6, +2);
-    func_fe6_08001D44(gPal + 0x10*(0x10+OBJPAL_SYSTEM_OBJECTS), 0x10+OBJPAL_SYSTEM_OBJECTS, 2, +2);
-    func_fe6_08001D44(gPal + 0x10*(0x10+OBJPAL_7), 0x10+OBJPAL_7, 1, +2);
+    func_fe6_08001D44(gPal + 0x10*(0x10+OBPAL_10), 0x10+OBPAL_10, 6, +2);
+    func_fe6_08001D44(gPal + 0x10*(0x10+OBPAL_SYSTEM_OBJECTS), 0x10+OBPAL_SYSTEM_OBJECTS, 2, +2);
+    func_fe6_08001D44(gPal + 0x10*(0x10+OBPAL_7), 0x10+OBPAL_7, 1, +2);
 
-    func_fe6_08000234_t();
+    ColorFadeTick();
     EnablePalSync();
 
     proc->unk4C = 14;
@@ -353,7 +353,7 @@ void ChapterIntro_BeginFastFadeToMapOld(struct GenericProc * proc)
 
 void ChapterIntro_LoopFastFadeToMapNew(struct GenericProc * proc)
 {
-    func_fe6_08000234_t();
+    ColorFadeTick();
 
     if (GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->weather == WEATHER_FLAMES)
         ApplyFlamesWeatherGradient();

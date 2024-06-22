@@ -10,7 +10,7 @@
 .text.PutSpriteTalkBoxOld : {*(.text.PutSpriteTalkBoxOld)}
 . = func_fe6_08071D94 - 1;
 .text.func_fe6_08071D94Old : {*(.text.func_fe6_08071D94Old)}
-. = gUnk_08677FD0;
-.rodata.gUnk_08677FD0New : {*(.rodata.gUnk_08677FD0New)}
+. = ProcScr_Unk_08677FD0;
+.rodata.ProcScr_Unk_08677FD0New : {*(.rodata.ProcScr_Unk_08677FD0New)}
 . = gUnk_08677FF8;
 .rodata.gUnk_08677FF8New : {*(.rodata.gUnk_08677FF8New)}

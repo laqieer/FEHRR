@@ -1,6 +1,6 @@
 
 #include "trap.h"
-#include "common.h"
+#include "prelude.h"
 
 #include "sound.h"
 #include "proc.h"
@@ -49,8 +49,8 @@ void InitMapTrapsNew(void)
                 AddTrap(ix, iy, TRAP_KILLERBALLISTA, GetItemMaxUses(IID_KILLERBALLISTA));
                 break;
 
-            case TERRAIN_WALL_1B:
-                if (gMapTerrain[iy-1][ix] == TERRAIN_WALL_1B)
+            case TERRAIN_WALL_BREAKABLE:
+                if (gMapTerrain[iy-1][ix] == TERRAIN_WALL_BREAKABLE)
                     break; // walls are stacked, only the topmost tile gets a trap
 
                 AddTrap(ix, iy, TRAP_OBSTACLE, GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->wall_hp);

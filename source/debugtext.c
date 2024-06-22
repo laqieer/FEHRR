@@ -6,7 +6,7 @@
 #include "hardware.h"
 #include "move.h"
 #include "oam.h"
-#include "ramfunc.h"
+#include "armfunc.h"
 #include "sprite.h"
 
 #include "constants/videoalloc_global.h"

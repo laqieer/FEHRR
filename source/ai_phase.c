@@ -6,6 +6,7 @@
 #include "ai_utility.h"
 #include "ai_script.h"
 #include "ai_data.h"
+#include "ai_unk.h"
 
 #include "constants/chapters.h"
 
@@ -16,7 +17,7 @@ void AiPhase_BeginNew(ProcPtr proc)
     int i;
 
     gAiSt.flags = AI_FLAG_0;
-    gAiSt.unk_7E = -1;
+    gAiSt.danger_threshold = -1;
 
     gAiSt.order_state = 0;
 
@@ -28,7 +29,7 @@ void AiPhase_BeginNew(ProcPtr proc)
     gAiSt.special_item_flags = chapter < CHAPTER_COUNT ? AiItemConfigTable[chapter] : 7;
     gAiSt.unk_84 = 0;
 
-    func_fe6_08032A08();
+    AiUpdateUnitsSeekHealing();
     func_fe6_080308B0();
 
     SpawnProcLocking(ProcScr_AiOrder, proc);
@@ -44,7 +45,7 @@ void AiPhase_Berserk_BeginNew(ProcPtr proc)
     int i;
 
     gAiSt.flags = AI_FLAG_BERSERKED;
-    gAiSt.unk_7E = -1;
+    gAiSt.danger_threshold = -1;
 
     for (i = 0; i < 8; ++i)
         gAiSt.cmd_result[i] = 0;
@@ -53,7 +54,7 @@ void AiPhase_Berserk_BeginNew(ProcPtr proc)
     int chapter = GetChapterInPlaySt(&gPlayStNew);
     gAiSt.special_item_flags = chapter < CHAPTER_COUNT ? AiItemConfigTable[chapter] : 7;
 
-    func_fe6_08032A08();
+    AiUpdateUnitsSeekHealing();
     func_fe6_080308B0();
 
     SpawnProcLocking(ProcScr_AiOrder_Berserk, proc);

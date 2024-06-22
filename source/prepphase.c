@@ -44,15 +44,15 @@ void PrepPhase_InitNew(struct GenericProc * proc)
         return;
     }
 
-    if (!(gPlaySt.flags & PLAY_FLAG_4))
+    if (!(gPlaySt.flags & PLAY_FLAG_PREP))
     {
-        func_fe6_0807A07C();
+        RearrangeMandatoryDeployUnits();
         InitPlayerDeployUnits();
 
-        gPlaySt.flags |= PLAY_FLAG_4;
+        gPlaySt.flags |= PLAY_FLAG_PREP;
     }
 
-    gBmSt.flags |= BM_FLAG_4;
+    gBmSt.flags |= BM_FLAG_PREP;
 
     gPlaySt.vision = GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->fog;
 

@@ -1,5 +1,5 @@
 
-#include "common.h"
+#include "prelude.h"
 #include "face.h"
 #include "faceNew.h"
 
@@ -35,7 +35,6 @@ struct TalkSpriteEnt
 
 void UpdateFaceTalk(struct FaceProc * proc);
 void Face_OnIdleNew(struct FaceProcNew * proc);
-void PutFaceTm(u16 * tm, u8 const * data, int tileref, bool is_flipped);
 void FaceChibiSpr_OnIdle(struct FaceProc * proc);
 void EndFacePtr(struct GenericProc * proc);
 void EndFaceIn8Frames(struct FaceProc * proc);
@@ -58,16 +57,6 @@ struct ProcScr const ProcScr_FaceNew[] =
 
     PROC_END,
 };
-
-extern u8 const FaceTm_Unk_085C3C18[]; // hackbox
-
-extern u8 const FaceTm_Unk_085C3C92[]; // chibi
-
-extern u16 const Sprite_FaceChibi[];
-
-extern u16 const Sprite_FaceChibi_Flipped[];
-
-extern struct FaceVramEnt sFaceConfig[4];
 
 bool IsNewFace(int fid)
 {
@@ -168,12 +157,12 @@ struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)
         if (info == NULL || info->img == NULL || info->pal == NULL)
             return NULL;
 
-        sFaceConfig[slot].chr_off = 0x3000;
-        sFaceConfig[slot].palid = OBJPAL_FACE_NEW;
+        gFaceConfig[slot].chr_off = 0x3000;
+        gFaceConfig[slot].palid = OBJPAL_FACE_NEW;
 
-        Decompress(info->img, (u8 *) VRAM + 0x10000 + sFaceConfig[slot].chr_off);
-        FixTilesPal((vu16 *) (VRAM + 0x10000 + sFaceConfig[slot].chr_off), NEW_FULL_FACE_WIDTH * NEW_FULL_FACE_HEIGHT, sFaceConfig[slot].palid);
-        ApplyPalettes(info->pal, 0x10 + sFaceConfig[slot].palid, NEW_FACE_PAL_CNT);
+        Decompress(info->img, (u8 *) VRAM + 0x10000 + gFaceConfig[slot].chr_off);
+        FixTilesPal((vu16 *) (VRAM + 0x10000 + gFaceConfig[slot].chr_off), NEW_FULL_FACE_WIDTH * NEW_FULL_FACE_HEIGHT, gFaceConfig[slot].palid);
+        ApplyPalettes(info->pal, 0x10 + gFaceConfig[slot].palid, NEW_FACE_PAL_CNT);
     }
     else
     {
@@ -182,8 +171,8 @@ struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)
         if (info == NULL || info->img == NULL || info->pal == NULL || info->x_mouth == 0 || info->y_mouth == 0)
             return NULL;
 
-        Decompress(info->img, (u8 *) VRAM + 0x10000 + sFaceConfig[slot].chr_off);
-        ApplyPalette(info->pal, 0x10 + sFaceConfig[slot].palid);
+        Decompress(info->img, (u8 *) VRAM + 0x10000 + gFaceConfig[slot].chr_off);
+        ApplyPalette(info->pal, 0x10 + gFaceConfig[slot].palid);
     }
 
     proc = SpawnProc(ProcScr_Face, PROC_TREE_5);
@@ -216,7 +205,7 @@ struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)
     proc->x_disp = x;
     proc->y_disp = y;
 
-    proc->oam2 = (sFaceConfig[slot].chr_off / CHR_SIZE) + OAM2_PAL(sFaceConfig[slot].palid) + oam2Layer;
+    proc->oam2 = (gFaceConfig[slot].chr_off / CHR_SIZE) + OAM2_PAL(gFaceConfig[slot].palid) + oam2Layer;
 
     proc->fid = fid;
 
@@ -428,7 +417,7 @@ void PutFace80x72New(u16 * tm, int fid, int chr, int pal) // hackbox
     {
         int i;
 
-        TmApplyTsa_t(tm,
+        TmApplyTsa(tm,
             (fid == FID_FAE) ? Tsa_Unk_08101A2C : Tsa_Unk_08101974,
             (pal << 12) + (chr & 0x3FF));
 
@@ -458,25 +447,25 @@ void StartFaceFadeInNew(struct FaceProcNew * proc)
     {
         struct FaceInfoNew const * info = GetFaceInfoNew(proc->fid);
 
-        SetBlackPal(0x10 + sFaceConfig[proc->slot].palid);
-        StartPalFade(info->pal, 0x10 + sFaceConfig[proc->slot].palid, 12, proc);
+        SetBlackPal(0x10 + gFaceConfig[proc->slot].palid);
+        StartPalFade(info->pal, 0x10 + gFaceConfig[proc->slot].palid, 12, proc);
 
-        SetBlackPal(0x10 + sFaceConfig[proc->slot].palid + 1);
-        StartPalFade(info->pal + 16, 0x10 + sFaceConfig[proc->slot].palid + 1, 12, proc);
+        SetBlackPal(0x10 + gFaceConfig[proc->slot].palid + 1);
+        StartPalFade(info->pal + 16, 0x10 + gFaceConfig[proc->slot].palid + 1, 12, proc);
 
-        SetBlackPal(0x10 + sFaceConfig[proc->slot].palid + 2);
-        StartPalFade(info->pal + 16 * 2, 0x10 + sFaceConfig[proc->slot].palid + 2, 12, proc);
+        SetBlackPal(0x10 + gFaceConfig[proc->slot].palid + 2);
+        StartPalFade(info->pal + 16 * 2, 0x10 + gFaceConfig[proc->slot].palid + 2, 12, proc);
 
-        SetBlackPal(0x10 + sFaceConfig[proc->slot].palid + 3);
-        StartPalFade(info->pal + 16 * 3, 0x10 + sFaceConfig[proc->slot].palid + 3, 12, proc);
+        SetBlackPal(0x10 + gFaceConfig[proc->slot].palid + 3);
+        StartPalFade(info->pal + 16 * 3, 0x10 + gFaceConfig[proc->slot].palid + 3, 12, proc);
 
         return;
     }
 
     struct FaceInfo const * info = GetFaceInfo(proc->fid);
 
-    SetBlackPal(0x10 + sFaceConfig[proc->slot].palid);
-    StartPalFade(info->pal, 0x10 + sFaceConfig[proc->slot].palid, 12, proc);
+    SetBlackPal(0x10 + gFaceConfig[proc->slot].palid);
+    StartPalFade(info->pal, 0x10 + gFaceConfig[proc->slot].palid, 12, proc);
 }
 
 void StartFaceFadeOutNew(struct FaceProcNew * proc)
@@ -485,10 +474,10 @@ void StartFaceFadeOutNew(struct FaceProcNew * proc)
     {
         // struct FaceInfoNew const * info = GetFaceInfoNew(proc->fid);
 
-        StartPalFadeToBlack(0x10 + sFaceConfig[proc->slot].palid, 12, proc);
-        StartPalFadeToBlack(0x10 + sFaceConfig[proc->slot].palid + 1, 12, proc);
-        StartPalFadeToBlack(0x10 + sFaceConfig[proc->slot].palid + 2, 12, proc);
-        StartPalFadeToBlack(0x10 + sFaceConfig[proc->slot].palid + 3, 12, proc);
+        StartPalFadeToBlack(0x10 + gFaceConfig[proc->slot].palid, 12, proc);
+        StartPalFadeToBlack(0x10 + gFaceConfig[proc->slot].palid + 1, 12, proc);
+        StartPalFadeToBlack(0x10 + gFaceConfig[proc->slot].palid + 2, 12, proc);
+        StartPalFadeToBlack(0x10 + gFaceConfig[proc->slot].palid + 3, 12, proc);
 
         EndFaceIn8Frames((struct FaceProc *)proc);
 
@@ -497,7 +486,7 @@ void StartFaceFadeOutNew(struct FaceProcNew * proc)
 
     // struct FaceInfo const * info = GetFaceInfo(proc->fid);
 
-    StartPalFadeToBlack(0x10 + sFaceConfig[proc->slot].palid, 12, proc);
+    StartPalFadeToBlack(0x10 + gFaceConfig[proc->slot].palid, 12, proc);
     EndFaceIn8Frames((struct FaceProc *)proc);
 }
 

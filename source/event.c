@@ -1,5 +1,5 @@
 
-#include "common.h"
+#include "prelude.h"
 #include "event.h"
 #include "eventscript.h"
 
@@ -7,7 +7,7 @@
 #include "hardware.h"
 #include "oam.h"
 #include "sound.h"
-#include "ramfunc.h"
+#include "armfunc.h"
 #include "proc.h"
 #include "icon.h"
 #include "sprite.h"
@@ -342,7 +342,7 @@ void DisplayBackgroundNoClearNew(int background)
     else
     {
         Decompress(gBackgroundTable[background].img, (u8 *) VRAM + GetBgChrOffset(3));
-        TmApplyTsa_t(gBg3Tm, gBackgroundTable[background].tsa, TILEREF(0, 8));
+        TmApplyTsa(gBg3Tm, gBackgroundTable[background].tsa, TILEREF(0, 8));
         ApplyPalettes(gBackgroundTable[background].pal, 8, 4);
         ClearTilemap256(gBg2Tm, 0);
         SetBgBpp(3, 4);

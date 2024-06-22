@@ -1,7 +1,7 @@
 
-#include "common.h"
+#include "prelude.h"
 
-#include "ramfunc.h"
+#include "armfunc.h"
 
 #include "log.h"
 
@@ -43,8 +43,8 @@ char * DecodeMsgNew(int id)
         strcpy(sMsgString, GetMsg(id));
     else
     {
-        int cw = 0;
-        int lw = 0;
+        i32 cw = 0;
+        i32 lw = 0;
         while (*pSrc)
         {
             if (*pSrc > 0 && *pSrc < 0x20)

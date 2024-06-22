@@ -1,11 +1,11 @@
-#include "common.h"
+#include "prelude.h"
 #include "text.h"
 #include "textNew.h"
 #include "msg.h"
 #include "msgNew.h"
 
 #include "hardware.h"
-#include "ramfunc.h"
+#include "armfunc.h"
 #include "proc.h"
 
 #include "constants/videoalloc_global.h"

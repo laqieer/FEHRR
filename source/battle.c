@@ -1,6 +1,6 @@
 
 #include "battle.h"
-#include "common.h"
+#include "prelude.h"
 
 #include "random.h"
 #include "hardware.h"

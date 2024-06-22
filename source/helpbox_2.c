@@ -1,6 +1,6 @@
 #include "helpbox.h"
 
-#include "common.h"
+#include "prelude.h"
 #include "armfunc.h"
 #include "oam.h"
 #include "sound.h"
@@ -20,7 +20,7 @@
 #include "msgNew.h"
 
 #include "hardware.h"
-#include "ramfunc.h"
+#include "armfunc.h"
 #include "proc.h"
 #include "log.h"
 
@@ -315,15 +315,15 @@ int func_fe6_08070E0COld(struct PlayStNew * play_st)
     return func_fe6_08070E0CNew(play_st);
 }
 
-#define OBJCHR_HELPBOX_OFFSET (27 - OBJCHR_HELPBOX_180)
+#define OBJCHR_HELPBOX_OFFSET (27 - OBCHR_HELPBOX_180)
 
 void func_fe6_08070E70New(void * vram, int pal)
 {
     if (vram == NULL)
-        vram = ((void *) VRAM) + 0x10000 + OBJCHR_HELPBOX_180 * CHR_SIZE;
+        vram = ((void *) VRAM) + 0x10000 + OBCHR_HELPBOX_180 * CHR_SIZE;
 
     if (pal < 0)
-        pal = OBJPAL_HELPBOX_5;
+        pal = OBPAL_HELPBOX_5;
 
     pal = (pal & 15) + 0x10;
 
@@ -350,10 +350,10 @@ void func_fe6_08070E70Old(void * vram, int pal)
 void func_fe6_08070EECNew(void * vram, int pal)
 {
     if (vram == NULL)
-        vram = ((void *) VRAM) + 0x10000 + OBJCHR_HELPBOX_180 * CHR_SIZE;
+        vram = ((void *) VRAM) + 0x10000 + OBCHR_HELPBOX_180 * CHR_SIZE;
 
     if (pal < 0)
-        pal = OBJPAL_HELPBOX_5;
+        pal = OBPAL_HELPBOX_5;
 
     pal = (pal & 15) + 0x10;
 
@@ -624,7 +624,7 @@ void func_fe6_08071274New(struct HelpBoxPrintProcNew * proc)
     SetTextFont(NULL);
 }
 
-struct ProcScr const gUnk_08677FD0New[] =
+struct ProcScr const ProcScr_Unk_08677FD0New[] =
 {
     PROC_REPEAT(func_fe6_08071274New),
     PROC_END,
@@ -641,9 +641,9 @@ void func_fe6_08071410New(struct HelpBoxStartPrintProc * proc)
     Text_SetColor(&gUnk_0203D40C.text[2], TEXT_COLOR_4DEF);
     SetTextFont(NULL);
 
-    Proc_EndEach(gUnk_08677FD0New);
+    Proc_EndEach(ProcScr_Unk_08677FD0New);
 
-    print_proc = SpawnProc(gUnk_08677FD0New, PROC_TREE_3);
+    print_proc = SpawnProc(ProcScr_Unk_08677FD0New, PROC_TREE_3);
     print_proc->font = &gUnk_0203D40C.font;
     print_proc->text[0] = &gUnk_0203D40C.text[0];
     print_proc->text[1] = &gUnk_0203D40C.text[1];

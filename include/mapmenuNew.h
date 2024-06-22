@@ -1,6 +1,6 @@
 #pragma once
 
-#include "common.h"
+#include "prelude.h"
 
 fu8 MapMenu_End_SelectNew(struct MenuProc * menu, struct MenuEntProc * ent);
 fu8 MapMenu_Unit_SelectNew(struct MenuProc * menu, struct MenuEntProc * ent);

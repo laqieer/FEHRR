@@ -9,7 +9,7 @@
 const struct PInfo heroes[] = {
     [PID_アルフォンス - 1] = {
         .id = PID_アルフォンス,
-        .unk_0A = PID_アルフォンス,
+        .sort_order_key = PID_アルフォンス,
         .jid_default = JID_アルフォンス,
         .msg_name = MPID_アルフォンス,
         .msg_desc = MPID_H_アルフォンス,
@@ -31,7 +31,7 @@ const struct PInfo heroes[] = {
 
     [PID_シャロン - 1] = {
         .id = PID_シャロン,
-        .unk_0A = PID_シャロン,
+        .sort_order_key = PID_シャロン,
         .jid_default = JID_シャロン,
         .msg_name = MPID_シャロン,
         .msg_desc = MPID_H_シャロン,
@@ -53,7 +53,7 @@ const struct PInfo heroes[] = {
 
     [PID_アンナ - 1] = {
         .id = PID_アンナ,
-        .unk_0A = PID_アンナ,
+        .sort_order_key = PID_アンナ,
         .jid_default = JID_アンナ,
         .msg_name = MPID_アンナ,
         .msg_desc = MPID_H_アンナ,
@@ -75,7 +75,7 @@ const struct PInfo heroes[] = {
 
     [EID_ヴェロニカ - 1] = {
         .id = EID_ヴェロニカ,
-        .unk_0A = EID_ヴェロニカ,
+        .sort_order_key = EID_ヴェロニカ,
         .jid_default = JID_ヴェロニカ,
         .msg_name = MEID_ヴェロニカ,
         .msg_desc = MEID_H_ヴェロニカ,
@@ -97,7 +97,7 @@ const struct PInfo heroes[] = {
 
     [PID_レギン - 1] = {
         .id = PID_レギン,
-        .unk_0A = PID_レギン,
+        .sort_order_key = PID_レギン,
         .jid_default = JID_レギン,
         .msg_name = MPID_レギン,
         .msg_desc = MPID_H_レギン,
@@ -119,7 +119,7 @@ const struct PInfo heroes[] = {
 
     [EID_ブルーノ - 1] = {
         .id = EID_ブルーノ,
-        .unk_0A = EID_ブルーノ,
+        .sort_order_key = EID_ブルーノ,
         .jid_default = JID_ブルーノ,
         .msg_name = MEID_ブルーノ,
         .msg_desc = MEID_H_ブルーノ,
@@ -141,7 +141,7 @@ const struct PInfo heroes[] = {
 
     [PID_神階ピアニー - 1] = {
         .id = PID_神階ピアニー,
-        .unk_0A = PID_神階ピアニー,
+        .sort_order_key = PID_神階ピアニー,
         .jid_default = JID_神階ピアニー,
         .msg_name = MPID_神階ピアニー,
         .msg_desc = MPID_H_神階ピアニー,
@@ -163,7 +163,7 @@ const struct PInfo heroes[] = {
 
     [PID_セイズ - 1] = {
         .id = PID_セイズ,
-        .unk_0A = PID_セイズ,
+        .sort_order_key = PID_セイズ,
         .jid_default = JID_セイズ,
         .msg_name = MPID_セイズ,
         .msg_desc = MPID_H_セイズ,
@@ -185,7 +185,7 @@ const struct PInfo heroes[] = {
 
     [PID_フィヨルム - 1] = {
         .id = PID_フィヨルム,
-        .unk_0A = PID_フィヨルム,
+        .sort_order_key = PID_フィヨルム,
         .jid_default = JID_フィヨルム,
         .msg_name = MPID_フィヨルム,
         .msg_desc = MPID_H_フィヨルム,
@@ -207,7 +207,7 @@ const struct PInfo heroes[] = {
 
     [PID_神階エイル - 1] = {
         .id = PID_神階エイル,
-        .unk_0A = PID_神階エイル,
+        .sort_order_key = PID_神階エイル,
         .jid_default = JID_神階エイル,
         .msg_name = MPID_神階エイル,
         .msg_desc = MPID_H_神階エイル,
@@ -229,7 +229,7 @@ const struct PInfo heroes[] = {
 
     [EID_レティシア - 1] = {
         .id = EID_レティシア,
-        .unk_0A = EID_レティシア,
+        .sort_order_key = EID_レティシア,
         .jid_default = JID_レティシア,
         .msg_name = MEID_レティシア,
         .msg_desc = MEID_H_レティシア,
@@ -251,7 +251,7 @@ const struct PInfo heroes[] = {
 
     [EID_オッテル - 1] = {
         .id = EID_オッテル,
-        .unk_0A = EID_オッテル,
+        .sort_order_key = EID_オッテル,
         .jid_default = JID_オッテル,
         .msg_name = MEID_オッテル,
         .msg_desc = MEID_H_オッテル,
@@ -273,7 +273,7 @@ const struct PInfo heroes[] = {
 
     [EID_ファフニール - 1] = {
         .id = EID_ファフニール,
-        .unk_0A = EID_ファフニール,
+        .sort_order_key = EID_ファフニール,
         .jid_default = JID_ファフニール,
         .msg_name = MEID_ファフニール,
         .msg_desc = MEID_H_ファフニール,
@@ -295,7 +295,7 @@ const struct PInfo heroes[] = {
 
     [EID_フレイヤ - 1] = {
         .id = EID_フレイヤ,
-        .unk_0A = EID_フレイヤ,
+        .sort_order_key = EID_フレイヤ,
         .jid_default = JID_フレイヤ,
         .msg_name = MEID_フレイヤ,
         .msg_desc = MEID_H_フレイヤ,
@@ -317,7 +317,7 @@ const struct PInfo heroes[] = {
 
     [EID_スルト - 1] = {
         .id = EID_スルト,
-        .unk_0A = EID_スルト,
+        .sort_order_key = EID_スルト,
         .jid_default = JID_スルト,
         .msg_name = MEID_スルト,
         .msg_desc = MEID_H_スルト,
@@ -339,7 +339,7 @@ const struct PInfo heroes[] = {
 
     [PID_アシュ - 1] = {
         .id = PID_アシュ,
-        .unk_0A = PID_アシュ,
+        .sort_order_key = PID_アシュ,
         .jid_default = JID_アシュ,
         .msg_name = MPID_アシュ,
         .msg_desc = MPID_H_アシュ,
@@ -361,7 +361,7 @@ const struct PInfo heroes[] = {
 
     [PID_神階アスク - 1] = {
         .id = PID_神階アスク,
-        .unk_0A = PID_神階アスク,
+        .sort_order_key = PID_神階アスク,
         .jid_default = JID_神階アスク,
         .msg_name = MPID_神階アスク,
         .msg_desc = MPID_H_神階アスク,
@@ -383,7 +383,7 @@ const struct PInfo heroes[] = {
 
     [EID_リーヴ - 1] = {
         .id = EID_リーヴ,
-        .unk_0A = EID_リーヴ,
+        .sort_order_key = EID_リーヴ,
         .jid_default = JID_リーヴ,
         .msg_name = MEID_リーヴ,
         .msg_desc = MEID_H_リーヴ,
@@ -405,7 +405,7 @@ const struct PInfo heroes[] = {
 
     [EID_レーギャルン - 1] = {
         .id = EID_レーギャルン,
-        .unk_0A = EID_レーギャルン,
+        .sort_order_key = EID_レーギャルン,
         .jid_default = JID_レーギャルン,
         .msg_name = MEID_レーギャルン,
         .msg_desc = MEID_H_レーギャルン,
@@ -427,7 +427,7 @@ const struct PInfo heroes[] = {
 
     [EID_ダグ - 1] = {
         .id = EID_ダグ,
-        .unk_0A = EID_ダグ,
+        .sort_order_key = EID_ダグ,
         .jid_default = JID_ダグ,
         .msg_name = MEID_ダグ,
         .msg_desc = MEID_H_ダグ,
@@ -449,7 +449,7 @@ const struct PInfo heroes[] = {
 
     [EID_エイトリ - 1] = {
         .id = EID_エイトリ,
-        .unk_0A = EID_エイトリ,
+        .sort_order_key = EID_エイトリ,
         .jid_default = JID_エイトリ,
         .msg_name = MEID_エイトリ,
         .msg_desc = MEID_H_エイトリ,
@@ -471,7 +471,7 @@ const struct PInfo heroes[] = {
 
     [EID_レーヴァテイン - 1] = {
         .id = EID_レーヴァテイン,
-        .unk_0A = EID_レーヴァテイン,
+        .sort_order_key = EID_レーヴァテイン,
         .jid_default = JID_レーヴァテイン,
         .msg_name = MEID_レーヴァテイン,
         .msg_desc = MEID_H_レーヴァテイン,
@@ -493,7 +493,7 @@ const struct PInfo heroes[] = {
 
     [EID_ヘル - 1] = {
         .id = EID_ヘル,
-        .unk_0A = EID_ヘル,
+        .sort_order_key = EID_ヘル,
         .jid_default = JID_ヘル,
         .msg_name = MEID_ヘル,
         .msg_desc = MEID_H_ヘル,
@@ -515,7 +515,7 @@ const struct PInfo heroes[] = {
 
     [EID_エンブラ - 1] = {
         .id = EID_エンブラ,
-        .unk_0A = EID_エンブラ,
+        .sort_order_key = EID_エンブラ,
         .jid_default = JID_エンブラ,
         .msg_name = MEID_エンブラ,
         .msg_desc = MEID_H_エンブラ,
@@ -537,7 +537,7 @@ const struct PInfo heroes[] = {
 
     [EID_ネルトゥス - 1] = {
         .id = EID_ネルトゥス,
-        .unk_0A = EID_ネルトゥス,
+        .sort_order_key = EID_ネルトゥス,
         .jid_default = JID_ネルトゥス,
         .msg_name = MEID_ネルトゥス,
         .msg_desc = MEID_H_ネルトゥス,
@@ -559,7 +559,7 @@ const struct PInfo heroes[] = {
 
     [EID_グスタフ - 1] = {
         .id = EID_グスタフ,
-        .unk_0A = EID_グスタフ,
+        .sort_order_key = EID_グスタフ,
         .jid_default = JID_グスタフ,
         .msg_name = MEID_グスタフ,
         .msg_desc = MEID_H_グスタフ,
@@ -581,7 +581,7 @@ const struct PInfo heroes[] = {
 
     [PID_ユルグ - 1] = {
         .id = PID_ユルグ,
-        .unk_0A = PID_ユルグ,
+        .sort_order_key = PID_ユルグ,
         .jid_default = JID_ユルグ,
         .msg_name = MPID_ユルグ,
         .msg_desc = MPID_H_ユルグ,
@@ -603,7 +603,7 @@ const struct PInfo heroes[] = {
 
     [PID_愛の祭ヘンリエッテ - 1] = {
         .id = PID_愛の祭ヘンリエッテ,
-        .unk_0A = PID_愛の祭ヘンリエッテ,
+        .sort_order_key = PID_愛の祭ヘンリエッテ,
         .jid_default = JID_愛の祭ヘンリエッテ,
         .msg_name = MPID_愛の祭ヘンリエッテ,
         .msg_desc = MPID_H_愛の祭ヘンリエッテ,
@@ -625,7 +625,7 @@ const struct PInfo heroes[] = {
 
     [EID_ロキ - 1] = {
         .id = EID_ロキ,
-        .unk_0A = EID_ロキ,
+        .sort_order_key = EID_ロキ,
         .jid_default = JID_ロキ,
         .msg_name = MEID_ロキ,
         .msg_desc = MEID_H_ロキ,
@@ -647,7 +647,7 @@ const struct PInfo heroes[] = {
 
     [EID_ノート - 1] = {
         .id = EID_ノート,
-        .unk_0A = EID_ノート,
+        .sort_order_key = EID_ノート,
         .jid_default = JID_ノート,
         .msg_name = MEID_ノート,
         .msg_desc = MEID_H_ノート,
@@ -669,7 +669,7 @@ const struct PInfo heroes[] = {
 
     [EID_スカビオサ - 1] = {
         .id = EID_スカビオサ,
-        .unk_0A = EID_スカビオサ,
+        .sort_order_key = EID_スカビオサ,
         .jid_default = JID_スカビオサ,
         .msg_name = MEID_スカビオサ,
         .msg_desc = MEID_H_スカビオサ,
@@ -691,7 +691,7 @@ const struct PInfo heroes[] = {
 
     [EID_エルム - 1] = {
         .id = EID_エルム,
-        .unk_0A = EID_エルム,
+        .sort_order_key = EID_エルム,
         .jid_default = JID_エルム,
         .msg_name = MEID_エルム,
         .msg_desc = MEID_H_エルム,
@@ -713,7 +713,7 @@ const struct PInfo heroes[] = {
 
     [EID_ヘルビンディ - 1] = {
         .id = EID_ヘルビンディ,
-        .unk_0A = EID_ヘルビンディ,
+        .sort_order_key = EID_ヘルビンディ,
         .jid_default = JID_ヘルビンディ,
         .msg_name = MEID_ヘルビンディ,
         .msg_desc = MEID_H_ヘルビンディ,
@@ -735,7 +735,7 @@ const struct PInfo heroes[] = {
 
     [EID_フロージ - 1] = {
         .id = EID_フロージ,
-        .unk_0A = EID_フロージ,
+        .sort_order_key = EID_フロージ,
         .jid_default = JID_フロージ,
         .msg_name = MEID_フロージ,
         .msg_desc = MEID_H_フロージ,
@@ -757,7 +757,7 @@ const struct PInfo heroes[] = {
 
     [PID_神階ルピナス - 1] = {
         .id = PID_神階ルピナス,
-        .unk_0A = PID_神階ルピナス,
+        .sort_order_key = PID_神階ルピナス,
         .jid_default = JID_神階ルピナス,
         .msg_name = MPID_神階ルピナス,
         .msg_desc = MPID_H_神階ルピナス,
@@ -779,7 +779,7 @@ const struct PInfo heroes[] = {
 
     [EID_グルヴェイグ - 1] = {
         .id = EID_グルヴェイグ,
-        .unk_0A = EID_グルヴェイグ,
+        .sort_order_key = EID_グルヴェイグ,
         .jid_default = JID_グルヴェイグ,
         .msg_name = MEID_グルヴェイグ,
         .msg_desc = MEID_H_グルヴェイグ,
@@ -801,7 +801,7 @@ const struct PInfo heroes[] = {
 
     [PID_フリーズ - 1] = {
         .id = PID_フリーズ,
-        .unk_0A = PID_フリーズ,
+        .sort_order_key = PID_フリーズ,
         .jid_default = JID_フリーズ,
         .msg_name = MPID_フリーズ,
         .msg_desc = MPID_H_フリーズ,
@@ -823,7 +823,7 @@ const struct PInfo heroes[] = {
 
     [EID_プルメリア - 1] = {
         .id = EID_プルメリア,
-        .unk_0A = EID_プルメリア,
+        .sort_order_key = EID_プルメリア,
         .jid_default = JID_プルメリア,
         .msg_name = MEID_プルメリア,
         .msg_desc = MEID_H_プルメリア,
@@ -845,7 +845,7 @@ const struct PInfo heroes[] = {
 
     [EID_クワシル - 1] = {
         .id = EID_クワシル,
-        .unk_0A = EID_クワシル,
+        .sort_order_key = EID_クワシル,
         .jid_default = JID_クワシル,
         .msg_name = MEID_クワシル,
         .msg_desc = MEID_H_クワシル,
@@ -867,7 +867,7 @@ const struct PInfo heroes[] = {
 
     [PID_神階ヘイズ - 1] = {
         .id = PID_神階ヘイズ,
-        .unk_0A = PID_神階ヘイズ,
+        .sort_order_key = PID_神階ヘイズ,
         .jid_default = JID_神階ヘイズ,
         .msg_name = MPID_神階ヘイズ,
         .msg_desc = MPID_H_神階ヘイズ,
@@ -889,7 +889,7 @@ const struct PInfo heroes[] = {
 
     [EID_スラシル - 1] = {
         .id = EID_スラシル,
-        .unk_0A = EID_スラシル,
+        .sort_order_key = EID_スラシル,
         .jid_default = JID_スラシル,
         .msg_name = MEID_スラシル,
         .msg_desc = MEID_H_スラシル,
@@ -911,7 +911,7 @@ const struct PInfo heroes[] = {
 
     [PID_マークス - 1] = {
         .id = PID_マークス,
-        .unk_0A = PID_マークス,
+        .sort_order_key = PID_マークス,
         .jid_default = JID_マークス,
         .msg_name = MPID_マークス,
         .msg_desc = MPID_H_マークス,
@@ -933,7 +933,7 @@ const struct PInfo heroes[] = {
 
     [PID_スリーズ - 1] = {
         .id = PID_スリーズ,
-        .unk_0A = PID_スリーズ,
+        .sort_order_key = PID_スリーズ,
         .jid_default = JID_スリーズ,
         .msg_name = MPID_スリーズ,
         .msg_desc = MPID_H_スリーズ,
@@ -955,7 +955,7 @@ const struct PInfo heroes[] = {
 
     [EID_フード - 1] = {
         .id = EID_フード,
-        .unk_0A = EID_フード,
+        .sort_order_key = EID_フード,
         .jid_default = JID_フード,
         .msg_name = MEID_フード,
         .msg_desc = MEID_H_フード,

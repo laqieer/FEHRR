@@ -1,6 +1,6 @@
 #pragma once
 
-#include "common.h"
+#include "prelude.h"
 #include "proc.h"
 
 struct PlayStNew
@@ -25,8 +25,8 @@ struct PlayStNew
 
     /* 1C */ // option bits
     /* bit  0 */ u32 unk_1C_1 : 1;
-    /* bit  1 */ u32 unk_1C_2 : 1;
-    /* bit  2 */ u32 unk_1C_3 : 2;
+    /* bit  1 */ u32 config_terrain_mapui : 1;
+    /* bit  2 */ u32 config_unit_mapui : 2;
     /* bit  4 */ u32 config_no_auto_cursor : 1;
     /* bit  5 */ u32 config_talk_speed : 2;
     /* bit  7 */ u32 config_walk_speed : 1;

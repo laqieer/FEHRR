@@ -34,7 +34,7 @@ struct Unk_085C98D0
     int x, y;
 };
 
-struct AiEscapePt const * func_fe6_08032C2C(void);
+struct AiEscapePt const * AiGetNearestEscapePoint(void);
 
 void AiFillDangerMap(void);
 
@@ -53,7 +53,7 @@ void func_fe6_08034CC0(int slot);
 
 extern u8 gUnk_Pid_02039694;
 
-struct AiEscapePt const * func_fe6_08032C2CNew(void)
+struct AiEscapePt const * AiGetNearestEscapePointNew(void)
 {
     struct AiEscapePt const * list = NULL;
     struct AiEscapePt const * result = NULL;
@@ -73,13 +73,11 @@ struct AiEscapePt const * func_fe6_08032C2CNew(void)
         return NULL;
 
     case FACTION_RED:
-        //TODO: expand gUnk_085C86B8
-        list = gUnk_085C86B8[chapter];
+        list = gAiRedEscapePoints[chapter];
         break;
 
     case FACTION_GREEN:
-        //TODO: expand gUnk_085C876C
-        list = gUnk_085C876C[chapter];
+        list = gAiGreenEscapePoints[chapter];
         break;
 
     }
@@ -99,7 +97,7 @@ struct AiEscapePt const * func_fe6_08032C2CNew(void)
     return result;
 }
 
-struct AiEscapePt const * func_fe6_08032C2COld(void)
+struct AiEscapePt const * AiGetNearestEscapePointOld(void)
 {
-    return func_fe6_08032C2CNew();
+    return AiGetNearestEscapePointNew();
 }

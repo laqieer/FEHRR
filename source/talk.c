@@ -22,6 +22,7 @@
 #include "unit.h"
 #include "chapter.h"
 #include "ui.h"
+#include "banim_ekrbattle.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/songs.h"
@@ -511,7 +512,7 @@ void TalkInterpretNewFaceNew(ProcPtr proc)
     if (sTalkSt->active_talk_face == TALK_FACE_NONE)
         SetActiveTalkFace(TALK_FACE_1);
 
-    if (func_fe6_080425C4())
+    if (IsBattleDeamonActive())
         SetFightEventFaceConfig();
     else
         faceDisp |= FACE_DISP_KIND(FACE_96x80);
@@ -574,7 +575,7 @@ void PutTalkBubbleNew(int xAnchor, int yAnchor, int width, int height)
     else
         kind = 1;
 
-    if (func_fe6_080425C4())
+    if (IsBattleDeamonActive())
         kind += 2;
 
     y = yAnchor - height + 1;

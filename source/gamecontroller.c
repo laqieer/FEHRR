@@ -13,6 +13,7 @@
 #include "statscreen.h"
 #include "save_stats.h"
 #include "save_game.h"
+#include "savemenu.h"
 
 #include "constants/chapters.h"
 
@@ -107,7 +108,7 @@ PROC_LABEL(L_GAMECTRL_SCENEDEMO),
 PROC_LABEL(L_GAMECTRL_TITLE),
     PROC_CALL(ForceEnableSounds),
 
-    PROC_START_CHILD_LOCKING(ProcScr_Unk_08691480),
+    PROC_START_CHILD_LOCKING(ProcScr_TitleScreenHandler),
 
     PROC_CALL(GC_PostIntro),
     PROC_SLEEP(0),
@@ -117,7 +118,7 @@ PROC_LABEL(L_GAMECTRL_TITLE),
 PROC_LABEL(L_GAMECTRL_MAINMENU),
     PROC_CALL(ForceEnableSounds),
 
-    PROC_CALL(func_fe6_08089200),
+    PROC_CALL(StartMainMenu),
     PROC_SLEEP(0),
 
     PROC_CALL(GC_PostMainMenu),
@@ -145,7 +146,7 @@ PROC_LABEL(L_GAMECTRL_POSTCHAPTER),
 
     PROC_CALL(GC_InitNextChapter),
 
-    PROC_CALL(func_fe6_08089234),
+    PROC_CALL(StartSaveMenu),
     PROC_SLEEP(0),
 
     PROC_GOTO(L_GAMECTRL_CHAPTER),
@@ -199,7 +200,7 @@ PROC_LABEL(L_GAMECTRL_LINK),
 PROC_LABEL(L_GAMECTRL_PREENDING),
     PROC_CALL(func_fe6_08029654),
 
-    PROC_CALL(func_fe6_08089234),
+    PROC_CALL(StartSaveMenu),
     PROC_SLEEP(0),
 
     // fallthrough
@@ -320,10 +321,10 @@ int GetFurthestSaveChapterNew(void)
 
         int chapter_id = GetChapterInPlaySt((struct PlayStNew *)&playSt);
 
-        //FIXME: expand numberId
-        if (number < GetChapterInfo(chapter_id)->numberId)
+        //FIXME: expand number_id
+        if (number < GetChapterInfo(chapter_id)->number_id)
         {
-            number = GetChapterInfo(chapter_id)->numberId;
+            number = GetChapterInfo(chapter_id)->number_id;
             chapter = chapter_id;
         }
     }

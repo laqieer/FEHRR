@@ -1,4 +1,4 @@
-#include "common.h"
+#include "prelude.h"
 
 #include <stdlib.h>
 
@@ -25,6 +25,7 @@
 #include "mu.h"
 #include "helpbox.h"
 #include "systemlabels.h"
+#include "face.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/songs.h"
@@ -143,21 +144,21 @@ void StatScreen_InitNew(ProcPtr proc)
     // StartMuralBackground(NULL, ((void *) VRAM) + 0x8000 + BGCHR_STATSCREEN_BACKMURAL * CHR_SIZE, -1);
     StartMuralBackgroundNew(NULL, ((void *) VRAM) + 0x8000 + BGCHR_STATSCREEN_BACKMURAL * CHR_SIZE, -1);
 
-    Decompress(gUnk_083080D0, ((void *) VRAM + 0x10000) + OBJCHR_STATSCREEN_240 * CHR_SIZE);
+    Decompress(gUnk_083080D0, ((void *) VRAM + 0x10000) + OBCHR_STATSCREEN_240 * CHR_SIZE);
 
     ApplyIconPalettes(BGPAL_ICONS);
     ApplyUiStatBarPal(BGPAL_STATSCREEN_6);
-    ApplyIconPalette(1, 0x10 + OBJPAL_STATSCREEN_PAGENAME);
+    ApplyIconPalette(1, 0x10 + OBPAL_STATSCREEN_PAGENAME);
 
     Decompress(gUnk_08307CEC, gBuf);
-    TmApplyTsa_t(gBg1Tm, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
+    TmApplyTsa(gBg1Tm, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
 
     Decompress(gUnk_08307ED4, ((void *) VRAM) + 0x8000 + BGCHR_STATSCREEN_EQUIPSTATFRAME * CHR_SIZE);
     ApplyPalette(gUnk_08308050, BGPAL_STATSCREEN_EQUIPSTATFRAME);
 
-    CpuFastCopy(gPal + 0x10 * BGPAL_WINDOWFRAME, gPal + 0x100 + 0x10 * OBJPAL_STATSCREEN_WINDOWFRAME, 0x20);
+    CpuFastCopy(gPal + 0x10 * BGPAL_WINDOWFRAME, gPal + 0x100 + 0x10 * OBPAL_STATSCREEN_WINDOWFRAME, 0x20);
 
-    ApplyIconPalette(1, 0x10 + OBJPAL_STATSCREEN_SPRITES);
+    ApplyIconPalette(1, 0x10 + OBPAL_STATSCREEN_SPRITES);
 
     Decompress(gUnk_08308920, ((void *) VRAM) + BGCHR_STATSCREEN_EQUIPMENTLABEL * CHR_SIZE);
 
@@ -200,15 +201,15 @@ void StatScreen_InitUnitNew(ProcPtr proc)
     // PutStatScreenPage(gStatScreenSt.page);
     PutStatScreenPageNew(gStatScreenSt.page);
 
-    TmCopyRect_t(gUnk_Tm_02003238,
+    TmCopyRect(gUiTmScratchA,
         gBg0Tm + TM_OFFSET(PAGE_FRAME_SCREEN_X, PAGE_FRAME_SCREEN_Y),
         18, 18);
 
-    TmCopyRect_t(gUnk_Tm_02003738,
+    TmCopyRect(gUiTmScratchB,
         gBg1Tm + TM_OFFSET(PAGE_FRAME_SCREEN_X, PAGE_FRAME_SCREEN_Y),
         18, 18);
 
-    TmCopyRect_t(gUnk_Tm_02003C38,
+    TmCopyRect(gUiTmScratchC,
         gBg2Tm + TM_OFFSET(PAGE_FRAME_SCREEN_X, PAGE_FRAME_SCREEN_Y),
         18, 18);
 
@@ -227,10 +228,10 @@ void PutStatScreenStat(int num, int x, int y, int base, int total, int max)
 {
     int bonus = total - base;
 
-    PutNumberOrBlank(gUnk_Tm_02003238 + TM_OFFSET(x, y),
+    PutNumberOrBlank(gUiTmScratchA + TM_OFFSET(x, y),
         (base == max) ? TEXT_COLOR_SYSTEM_GREEN : TEXT_COLOR_SYSTEM_BLUE, base);
 
-    PutNumberBonus(bonus, gUnk_Tm_02003238 + TM_OFFSET(x + 1, y));
+    PutNumberBonus(bonus, gUiTmScratchA + TM_OFFSET(x + 1, y));
 
     if (total > 30)
     {
@@ -241,7 +242,7 @@ void PutStatScreenStat(int num, int x, int y, int base, int total, int max)
     // BG2 may be switched to 256-color mode for full face. UI gauge only works in 16-color mode so it cannot display normally.
 
     // PutDrawUiGauge(0x400 + 1 + num*6, 6,
-    //     gUnk_Tm_02003C38 + TM_OFFSET(x - 2, y + 1),
+    //     gUiTmScratchC + TM_OFFSET(x - 2, y + 1),
     //     TILEREF(0, BGPAL_STATSCREEN_6), max * 41 / 30, base * 41 / 30, bonus * 41 / 30);
 }
 
@@ -251,7 +252,7 @@ void PutStatScreenWeaponExp(int num, int x, int y, int item_kind)
     int color;
     int wexp = gStatScreenSt.unit->wexp[item_kind];
 
-    PutIcon(gUnk_Tm_02003238 + TM_OFFSET(x, y),
+    PutIcon(gUiTmScratchA + TM_OFFSET(x, y),
         0x70 + item_kind, // TODO: icon id definitions
         TILEREF(0, BGPAL_ICONS + 1));
 
@@ -259,7 +260,7 @@ void PutStatScreenWeaponExp(int num, int x, int y, int item_kind)
         ? TEXT_COLOR_SYSTEM_GREEN : TEXT_COLOR_SYSTEM_BLUE;
 
     // display rank letter
-    PutSpecialChar(gUnk_Tm_02003238 + TM_OFFSET(x + 5, y),
+    PutSpecialChar(gUiTmScratchA + TM_OFFSET(x + 5, y),
         color, GetWeaponLevelSpecialCharFromExp(wexp));
 
     // this code makes the following assumptions
@@ -274,14 +275,14 @@ void PutStatScreenWeaponExp(int num, int x, int y, int item_kind)
     // BG2 may be switched to 256-color mode for full face. UI gauge only works in 16-color mode so it cannot display normally.
 
     // PutDrawUiGauge(0x400 + 1 + num * 6, 5,
-    //     gUnk_Tm_02003C38 + TM_OFFSET(x + 3, y + 1), TILEREF(0, BGPAL_STATSCREEN_6),
+    //     gUiTmScratchC + TM_OFFSET(x + 3, y + 1), TILEREF(0, BGPAL_STATSCREEN_6),
     //     34, ((wexp % (WPN_EXP_D - WPN_EXP_E)) * 33) / 48, 0); // math look weird but gets something that ranges from 0 to 33. I would do "((wexp % 50) * 34) / 50"
 }
 
 void PutStatScreenWeaponExpAndSupportsPageNew(void)
 {
     Decompress(gUnk_08307E50, gBuf);
-    TmApplyTsa_t(gUnk_Tm_02003738, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
+    TmApplyTsa(gUiTmScratchB, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
 
     if (UnitKnowsMagic(gStatScreenSt.unit))
     {
@@ -308,7 +309,7 @@ void PutStatScreenWeaponExpAndSupportsPageNew(void)
 void PutStatScreenPersonalInfoPageNew(void)
 {
     Decompress(gUnk_08307D58, gBuf);
-    TmApplyTsa_t(gUnk_Tm_02003738, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
+    TmApplyTsa(gUiTmScratchB, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
 
     PutStatScreenTextNew(gStatScreenPersonalInfoLabelsInfo);
 
@@ -318,7 +319,7 @@ void PutStatScreenPersonalInfoPageNew(void)
     {
         // magic
         PutDrawText(gStatScreenSt.text + STATSCREEN_TEXT_POW,
-            gUnk_Tm_02003238 + TM_OFFSET(1, 1),
+            gUiTmScratchA + TM_OFFSET(1, 1),
             TEXT_COLOR_SYSTEM_GOLD, 0, 0,
             // TEXT("魔力", "Mag"));
             GetMsg(3377));
@@ -327,7 +328,7 @@ void PutStatScreenPersonalInfoPageNew(void)
     {
         // strength
         PutDrawText(gStatScreenSt.text + STATSCREEN_TEXT_POW,
-            gUnk_Tm_02003238 + TM_OFFSET(1, 1),
+            gUiTmScratchA + TM_OFFSET(1, 1),
             TEXT_COLOR_SYSTEM_GOLD, 4, 0,
             // TEXT("力", "Str"));
             GetMsg(3378));
@@ -386,11 +387,11 @@ void PutStatScreenPersonalInfoPageNew(void)
         UNIT_CON_CAP(gStatScreenSt.unit));
 
     // display unit aid
-    PutNumber(gUnk_Tm_02003238 + TM_OFFSET(13, 5), TEXT_COLOR_SYSTEM_BLUE,
+    PutNumber(gUiTmScratchA + TM_OFFSET(13, 5), TEXT_COLOR_SYSTEM_BLUE,
         GetUnitAid(gStatScreenSt.unit));
 
     // display unit aid icon
-    PutIcon(gUnk_Tm_02003238 + TM_OFFSET(14, 5),
+    PutIcon(gUiTmScratchA + TM_OFFSET(14, 5),
         GetAidIconFromAttributes(UNIT_ATTRIBUTES(gStatScreenSt.unit)),
         TILEREF(0, BGPAL_ICONS + 1));
 
@@ -408,14 +409,14 @@ void PutStatScreenPersonalInfoPageNew(void)
 
     if (gStatScreenSt.unit->status != UNIT_STATUS_NONE)
     {
-        PutNumberSmall(gUnk_Tm_02003238 + TM_OFFSET(16, 11),
+        PutNumberSmall(gUiTmScratchA + TM_OFFSET(16, 11),
             TEXT_COLOR_SYSTEM_WHITE,
             gStatScreenSt.unit->status_duration);
     }
 
     // display affininity icon and name
 
-    PutIcon(gUnk_Tm_02003238 + TM_OFFSET(12, 9),
+    PutIcon(gUiTmScratchA + TM_OFFSET(12, 9),
         GetUnitAffinityIcon(gStatScreenSt.unit),
         TILEREF(0, BGPAL_ICONS + 1));
 
@@ -428,11 +429,11 @@ void PutStatScreenItemsPageNew(void)
     int i, item;
 
     Decompress(gUnk_08307DD4, gBuf);
-    TmApplyTsa_t(gUnk_Tm_02003738, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
+    TmApplyTsa(gUiTmScratchB, gBuf, TILEREF(BGCHR_WINDOWFRAME, BGPAL_WINDOWFRAME));
 
     Decompress(gUnk_08308070, gBuf);
     // BG2 may be switched to 256-color mode for full face. Equip stat frame only works in 16-color mode so it cannot display normally.
-    // TmApplyTsa_t(gUnk_Tm_02003C38 + TM_OFFSET(1, 11), gBuf, TILEREF(BGCHR_STATSCREEN_EQUIPSTATFRAME, BGPAL_STATSCREEN_EQUIPSTATFRAME));
+    // TmApplyTsa(gUiTmScratchC + TM_OFFSET(1, 11), gBuf, TILEREF(BGCHR_STATSCREEN_EQUIPSTATFRAME, BGPAL_STATSCREEN_EQUIPSTATFRAME));
 
     PutStatScreenTextNew(gStatScreenEquipmentLabelsInfo);
 
@@ -440,7 +441,7 @@ void PutStatScreenItemsPageNew(void)
     {
         func_fe6_08016860(gStatScreenSt.text + STATSCREEN_TEXT_ITEM_A + i,
             item, IsItemDisplayUseable(gStatScreenSt.unit, item),
-            gUnk_Tm_02003238 + TM_OFFSET(1, 1 + i * 2));
+            gUiTmScratchA + TM_OFFSET(1, 1 + i * 2));
     }
 
     i = GetUnitEquippedWeaponSlot(gStatScreenSt.unit);
@@ -449,27 +450,27 @@ void PutStatScreenItemsPageNew(void)
     if (i >= 0)
     {
         PutSpecialChar(
-            gUnk_Tm_02003238 + TM_OFFSET(16, 1 + i * 2),
-            0, TEXT_SPECIAL_K);
+            gUiTmScratchA + TM_OFFSET(16, 1 + i * 2),
+            0, TEXT_SPECIAL_EXP_E);
 
         // BG2 may be switched to 256-color mode for full face. Equip stat frame only works in 16-color mode so it cannot display normally.
-        // TmApplyTsa_t(
-        //     gUnk_Tm_02003C38 + TM_OFFSET(1, 2 + i * 2),
+        // TmApplyTsa(
+        //     gUiTmScratchC + TM_OFFSET(1, 2 + i * 2),
         //     gUnk_083080AC, TILEREF(BGCHR_STATSCREEN_EQUIPSTATFRAME, BGPAL_STATSCREEN_EQUIPSTATFRAME));
 
         item = gStatScreenSt.unit->items[i];
     }
 
-    PutNumberOrBlank(gUnk_Tm_02003238 + TM_OFFSET(8,  13),
+    PutNumberOrBlank(gUiTmScratchA + TM_OFFSET(8,  13),
         TEXT_COLOR_SYSTEM_BLUE, gBattleUnitA.battle_attack);
 
-    PutNumberOrBlank(gUnk_Tm_02003238 + TM_OFFSET(8,  15),
+    PutNumberOrBlank(gUiTmScratchA + TM_OFFSET(8,  15),
         TEXT_COLOR_SYSTEM_BLUE, gBattleUnitA.battle_hit);
 
-    PutNumberOrBlank(gUnk_Tm_02003238 + TM_OFFSET(15, 13),
+    PutNumberOrBlank(gUiTmScratchA + TM_OFFSET(15, 13),
         TEXT_COLOR_SYSTEM_BLUE, gBattleUnitA.battle_crit);
 
-    PutNumberOrBlank(gUnk_Tm_02003238 + TM_OFFSET(15, 15),
+    PutNumberOrBlank(gUiTmScratchA + TM_OFFSET(15, 15),
         TEXT_COLOR_SYSTEM_BLUE, gBattleUnitA.battle_avoid);
 
     Text_InsertDrawString(gStatScreenSt.text + STATSCREEN_TEXT_EQUIPRANGE,
@@ -477,8 +478,8 @@ void PutStatScreenItemsPageNew(void)
 
     for (i = 0; i < 8; ++i)
     {
-        gUnk_Tm_02003238[TM_OFFSET(2 + i, 11)] = TILEREF(0x278 + i, BGPAL_ICONS + 1);
-        gUnk_Tm_02003238[TM_OFFSET(2 + i, 12)] = TILEREF(0x270 + i, BGPAL_ICONS + 1);
+        gUiTmScratchA[TM_OFFSET(2 + i, 11)] = TILEREF(0x278 + i, BGPAL_ICONS + 1);
+        gUiTmScratchA[TM_OFFSET(2 + i, 12)] = TILEREF(0x270 + i, BGPAL_ICONS + 1);
     }
 }
 
@@ -494,8 +495,8 @@ void PutStatScreenPageNew(int page_id)
         PutStatScreenPersonalInfoPageNew,
     };
 
-    CpuFastFill(0, gUnk_Tm_02003238, sizeof(u16) * 0x20 * 20);
-    CpuFastFill(0, gUnk_Tm_02003C38, sizeof(u16) * 0x20 * 18);
+    CpuFastFill(0, gUiTmScratchA, sizeof(u16) * 0x20 * 20);
+    CpuFastFill(0, gUiTmScratchC, sizeof(u16) * 0x20 * 18);
 
     func_table[page_id]();
 }

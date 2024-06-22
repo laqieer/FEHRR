@@ -18,6 +18,7 @@
 #include "mu.h"
 #include "eventinfo.h"
 #include "save.h"
+#include "save_xmap.h"
 #include "utilNew.h"
 #include "chapterNew.h"
 
@@ -39,8 +40,8 @@ void InitPlayConfigNew(int is_hard)
         gPlaySt.flags |= PLAY_FLAG_HARD;
 
     gPlaySt.config_battle_anim = 0; // TODO: battle anim type constants
-    gPlaySt.unk_1C_2 = 0;
-    gPlaySt.unk_1C_3 = 0;
+    gPlaySt.config_terrain_mapui = 0;
+    gPlaySt.config_unit_mapui = 0;
     gPlaySt.config_no_auto_cursor = FALSE;
     gPlaySt.config_talk_speed = 1;
     gPlaySt.config_walk_speed = 0;
@@ -275,7 +276,7 @@ void CleanupUnitsBeforeChapterNew(void)
         })
     }
 
-    gPlaySt.flags &= ~PLAY_FLAG_4;
+    gPlaySt.flags &= ~PLAY_FLAG_PREP;
 }
 
 void CleanupUnitsBeforeChapterOld(void)

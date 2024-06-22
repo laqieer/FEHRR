@@ -1,8 +1,8 @@
 
 #include "mapwork.h"
-#include "common.h"
+#include "prelude.h"
 
-#include "ramfunc.h"
+#include "armfunc.h"
 #include "random.h"
 #include "item.h"
 #include "unit.h"
@@ -53,7 +53,7 @@ void GenerateDangerZoneRange(bool8 boolDisplayStaffRange)
             continue; // under a roof
 
         // Fill movement map for unit
-        MapFlood_08019384(unit, UNIT_MOV(unit));
+        MapFlood_UpTo(unit, UNIT_MOV(unit));
 
         savedUnitId = gMapUnit[unit->y][unit->x];
         gMapUnit[unit->y][unit->x] = 0;
