@@ -170,7 +170,6 @@ def read_texts(type, language, folder):
                     kvs = json.load(f)
                     for kv in kvs:
                         key = kv['key']
-                        key = key.replace('…', '')
                         if should_read_key(type, key):
                             if type == TextType.SCENARIO:
                                 key += '_' + os.path.splitext(file)[0]
@@ -232,7 +231,7 @@ def get_text_keys(type):
     return keys
 
 def validate_text_key(key):
-    return key.replace('、', '').replace('＋', 'P').replace('―', '_')
+    return key.replace('、', '').replace('＋', 'P').replace('―', '_').replace('…', '_')
 
 def write_texts(type, filename):
     with open(filename, 'w', encoding='utf-8') as f:
