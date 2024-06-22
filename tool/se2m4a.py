@@ -103,7 +103,7 @@ def calculate_SNR(uncompressed_data, decompressed_data) :
     sum_son = np.int64(0)
     sum_mum = np.int64(0)
     for i in range(len(decompressed_data)) :
-        sum_son += int(decompressed_data[i] + 128) ** 2
+        sum_son += (int(decompressed_data[i]) + 128) ** 2
         sub = int(decompressed_data[i]) - int(uncompressed_data[i])
         sum_mum += sub ** 2
     return 10 * math.log10(float(sum_son) / float(sum_mum))
