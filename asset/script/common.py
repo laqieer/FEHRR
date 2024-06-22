@@ -8,12 +8,19 @@ from PIL import Image
 
 local_configs = {}
 
-with open("asset/local_configs.json", 'r') as f:
+with open("asset/local_configs.json", 'r', encoding='utf-8') as f:
     local_configs = json.load(f)
 
 for k, v in local_configs.items():
     if sys.platform in v:
         local_configs[k] = v[sys.platform]
+
+def index_files_in_path(path):
+    file_paths = {}
+    for root, dirs, files in os.walk(path):
+        for filename in files:
+            file_paths[filename] = root
+    return file_paths
 
 def find_file_in_path(filename, path, recursive=True):
     if not recursive:
@@ -26,7 +33,7 @@ def find_file_in_path(filename, path, recursive=True):
     return None
 
 def parse_background_color_in_grit(grit_path):
-    with open(grit_path, 'r') as f:
+    with open(grit_path, 'r', encoding='utf-8') as f:
         for line in f:
             result = re.findall(r'-gT([0-9a-fA-F]+)', line)
             if result:

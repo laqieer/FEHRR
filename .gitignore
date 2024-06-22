@@ -62,3 +62,10 @@ dkms.conf
 
 # Built files
 build/
+
+# FEH asset files
+asset/apk/*
+asset/collection/*
+asset/file/apk/*
+asset/file/collection/*
+!**/list.txt

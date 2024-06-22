@@ -1,22 +1,18 @@
 {
     "FEH": {
         "linux": "/mnt/c/Users/laqie/Projects/FEH/",
-        "darwin": "/Users/laqieer/Projects/FEH/"
+        "darwin": "/Users/laqieer/Projects/FEH/",
+        "win32": "asset/file/apk/"
     },
     "CKB2WAV": {
         "linux": "asset/tool/CKBtoWav.exe",
-        "darwin": "asset/tool/cktool extract"
+        "darwin": "asset/tool/cktool extract",
+        "win32": "asset\\tool\\CKBtoWav.exe"
     },
-    "Sound": {
-        "linux": [
-            "assets/TWZH/Sound/",
-            "assets/JPJA/Sound/"
-        ],
-        "darwin": [
-            "assets/TWZH/Sound/",
-            "assets/JPJA/Sound/"
-        ]
-    },
+    "Sound": [
+        "assets/TWZH/Sound/",
+        "assets/JPJA/Sound/"
+    ],
     "voice": {
         "freq": 10512
     }

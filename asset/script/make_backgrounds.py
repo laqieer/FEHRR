@@ -12,19 +12,21 @@ from PIL import Image, ImageDraw
 
 backgrounds = set()
 
+file_paths = common.index_files_in_path('asset/file/collection/Backgrounds')
+
 def load_backgrounds_in_scenarios(folder):
     for root, dirs, files in os.walk(folder):
         for file in files:
             if re.match(r'S\d{4}\.json$', file):
                 path = os.path.join(root, file)
-                with open(path, 'r') as f:
+                with open(path, 'r', encoding='utf-8') as f:
                     scenarios = json.load(f)
                     for scenario in scenarios:
                         if scenario['key'] in ('MID_SCENARIO_OPENING_IMAGE', 'MID_SCENARIO_ENDING_IMAGE'):
                             backgrounds.add(scenario['value'])
 
 def make_backgrounds(src_folder, dst_folder, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include "background.h"\n')
         f.write('#include "backgrounds.h"\n')
         f.write('#include "gfx_background.h"\n')
@@ -32,7 +34,7 @@ def make_backgrounds(src_folder, dst_folder, filename):
         f.write('struct BackgroundEntNew const newBackgrounds[] = {\n')
         for background in sorted(backgrounds):
             background_file = background + '.png'
-            src = os.path.join(src_folder, background_file)
+            src = os.path.join(file_paths.get(background_file, src_folder), background_file)
             if not os.path.exists(src):
                 warnings.warn('%s does not exist' % background_file)
                 continue
@@ -61,7 +63,7 @@ def make_backgrounds(src_folder, dst_folder, filename):
         f.write('};\n')
 
 def make_header(filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#pragma once\n')
         f.write('\n')
         f.write('#define BACKGROUND_NEW 21\n')

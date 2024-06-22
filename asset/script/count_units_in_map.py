@@ -11,7 +11,7 @@ for root, dirs, files in os.walk('asset/json/files/assets/Common/SRPGMap/'):
     for file in files:
         if re.match(r'S\d{4}C\.json$', file):
             path = os.path.join(root, file)
-            with open(path, 'r') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 text = f.read()
                 units = re.findall(r'"id_tag": "([^"]+)",', text)
                 if units:

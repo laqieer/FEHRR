@@ -54,7 +54,7 @@ def count_glyph_frequency(filename):
 
 def read_vanilla_glyphs(filename):
     glyphs = {}
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         for line in f:
             match = re.search(r'^([0-9a-fA-F]{2}) ([0-9a-fA-F]{2}): width = ([0-9]+), bitmap = 0x([0-9a-fA-F]{7})$', line)
             if match:

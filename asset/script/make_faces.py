@@ -10,10 +10,14 @@ import json
 import warnings
 from PIL import Image
 
+# doc on faces: https://feheroes.fandom.com/wiki/Module:ScenarioArchiveToWiki/data
+
 faces = []
 hero_faces = {}
 face_counts = {}
 face_ids = {}
+
+file_paths = common.index_files_in_path('asset/file/collection/Character Art + Sprites')
 
 def is_generic_face(face):
     return face.startswith('ch90_')
@@ -22,7 +26,7 @@ def load_hero_faces(folder):
     for root, dirs, files in os.walk(folder):
         for file in files:
             path = os.path.join(root, file)
-            with open(path, 'r') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 heros = json.load(f)
                 for hero in heros:
                     if hero['face_name'] and not is_generic_face(hero['face_name']):
@@ -33,7 +37,7 @@ def load_faces_in_scenarios(folder):
         for file in files:
             if re.match(r'S\d{4}\.json$', file):
                 path = os.path.join(root, file)
-                with open(path, 'r') as f:
+                with open(path, 'r', encoding='utf-8') as f:
                     scenarios = json.load(f)
                     for scenario in scenarios:
                         if scenario['key'] in ('MID_SCENARIO_OPENING', 'MID_SCENARIO_ENDING', 'MID_SCENARIO_MAP_BEGIN', 'MID_SCENARIO_MAP_END'):
@@ -49,7 +53,7 @@ def load_heroes_in_maps(folder):
         for file in files:
             if re.match(r'S\d{4}C\.json$', file):
                 path = os.path.join(root, file)
-                with open(path, 'r') as f:
+                with open(path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     for unit in data['units']:
                         if unit['id_tag'] in hero_faces:
@@ -79,7 +83,7 @@ def clear_faces(folder):
 
 def make_faces(src_folder, dst_folder, filename):
     clear_faces(dst_folder)
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include "face.h"\n')
         f.write('#include "faceNew.h"\n')
         f.write('#include "facesNew.h"\n')
@@ -89,16 +93,17 @@ def make_faces(src_folder, dst_folder, filename):
         f.write('\n')
         f.write('const struct FaceInfoNew newFaces[] = {\n')
         for face in faces:
-            if not os.path.exists(os.path.join(src_folder, face)):
+            file_path = file_paths.get(face + '.ssbp', os.path.join(src_folder, face))
+            if not os.path.exists(file_path):
                 warnings.warn('%s does not exist' % face)
                 continue
             face_file = 'Face.png'
-            src = os.path.join(src_folder, face, face_file)
+            src = os.path.join(file_path, face_file)
             im = None
             try:
                 im = Image.open(src)
             except:
-                for root, dirs, files in os.walk(os.path.join(src_folder, face)):
+                for root, dirs, files in os.walk(file_path):
                     for file in files:
                         if re.match(r'Face_Normal\w+\.png$', file):
                             face_file = file
@@ -106,7 +111,7 @@ def make_faces(src_folder, dst_folder, filename):
                             im = Image.open(src)
                             break
             if im is None:
-                for root, dirs, files in os.walk(os.path.join(src_folder, face)):
+                for root, dirs, files in os.walk(file_path):
                     for file in files:
                         if re.match(r'Face_Cool\w+\.png$', file):
                             face_file = file
@@ -126,7 +131,7 @@ def make_faces(src_folder, dst_folder, filename):
             im.save(dst)
             hasChibiFace = True
             try:
-                src = os.path.join(src_folder, face, 'Face_FC.png')
+                src = os.path.join(file_path, 'Face_FC.png')
                 dst = os.path.join(dst_folder, 'chibi', '%s_Face_FC.png' % face)
                 im = Image.open(src)
                 im2 = Image.new('RGBA', (33, 32))
@@ -164,7 +169,7 @@ def make_faces(src_folder, dst_folder, filename):
         f.write('};\n')
 
 def make_header(filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#pragma once\n')
         f.write('\n')
         f.write('enum {\n')
@@ -181,7 +186,7 @@ def make_header(filename):
             f.write('#define %s "\\x%x\\x%x"\n' % (face, id & 0xff, id >> 8))
 
 def make_test_text(filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include "textNew.h"\n')
         f.write('#include "facesNew.h"\n')
         f.write('\n')

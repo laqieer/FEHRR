@@ -12,7 +12,7 @@ hero_ids = []
 hero_data = {}
 
 def load_hero_ids(header_file):
-    with open(header_file, 'r') as f:
+    with open(header_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
         for line in lines:
             result = re.findall(r'([PE]ID_\w+)', line)
@@ -23,14 +23,14 @@ def load_hero_data(folder):
     for root, dirs, files in os.walk(folder):
         for file in files:
             path = os.path.join(root, file)
-            with open(path, 'r') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 heros = json.load(f)
                 for hero in heros:
                     if hero['id_tag'] in hero_ids:
                         hero_data[hero['id_tag']] = hero
 
 def make_heroes(filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include "heroes.h"\n')
         f.write('#include "hero_jobs.h"\n')
         f.write('#include "unit.h"\n')
@@ -73,7 +73,7 @@ def make_heroes(filename):
         f.write('};\n')
 
 def make_debug_heroes(filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include "heroes.h"\n')
         f.write('#include "hero_jobs.h"\n')
         f.write('#include "debugchapter.h"\n')

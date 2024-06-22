@@ -6,6 +6,7 @@ import common
 
 import os
 import re
+import sys
 import json
 import warnings
 import shutil
@@ -20,20 +21,22 @@ hero_romans = {
     "PID_ユルグ": "YURG",
     "PID_神階ルピナス": "LUPINE",
     "PID_フリーズ": "FREEZE",
+    "PID_神階ヘイズ": "HEITH",
 }
 
 hero_romans2 = {
     "EID_ファフニール": "FAFNIR_NEWYEAR05",
     "EID_リーヴ": "LIF2",
     "EID_ヘル": "HELL_GOD01",
-    "EID_グスタフ": "GUSTAF_VALENTINE04",
+    "EID_グスタフ": "GUSTAF_DARK01",
     "EID_エルム": "ELM_NEWYEAR01",
-    "EID_フロージ": "FRODA_SUMMER10",
     "EID_スラシル": "SRASIR_GOD01",
 }
 
 specials = {
     "PID_ブルーノ皇子": "EID_ブルーノ",
+    "EID_ヘイズ敵": "PID_神階ヘイズ",
+    "PID_ヘンリエッテ": "PID_愛の祭ヘンリエッテ",
 }
 
 exceptions = (
@@ -41,24 +44,26 @@ exceptions = (
     "PID_ザカリア影",
     "EID_エンブラ兵",
     "PID_ニョルズ",
-    "PID_ヘイズ",
     "PID_ロキアンナ",
     "EID_アスク兵",
     "EID_ニザヴェリル兵",
     "PID_アルフォンス0",
     "PID_スルト名前",
-    "PID_ヘンリエッテ",
+    "EID_ヴェロニカ洗脳",
+    "EID_レティシア洗脳"
 )
 
 heroes = []
 voices = []
 hero_counts = {}
 
+file_paths = common.index_files_in_path('asset/file/collection/Voices [Japanese]')
+
 def get_real_name(hero):
-    if hero in hero_romans:
-        return hero
     if hero in specials:
         return specials[hero]
+    if hero in hero_romans:
+        return hero
     if hero.replace('PID_', 'EID_') in hero_romans:
         return hero.replace('PID_', 'EID_')
     if hero.replace('PID_', 'PID_神階') in hero_romans:
@@ -75,7 +80,7 @@ def load_hero_romans(folder):
     for root, dirs, files in os.walk(folder):
         for file in files:
             path = os.path.join(root, file)
-            with open(path, 'r') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 heros = json.load(f)
                 for hero in heros:
                     if hero['id_tag'] not in hero_romans:
@@ -86,7 +91,7 @@ def load_heroes_in_scenarios(folder):
         for file in files:
             if re.match(r'S\d{4}\.json$', file):
                 path = os.path.join(root, file)
-                with open(path, 'r') as f:
+                with open(path, 'r', encoding='utf-8') as f:
                     scenarios = json.load(f)
                     for scenario in scenarios:
                         if scenario['key'] in ('MID_SCENARIO_OPENING', 'MID_SCENARIO_ENDING', 'MID_SCENARIO_MAP_BEGIN', 'MID_SCENARIO_MAP_END'):
@@ -105,6 +110,8 @@ def sort_heroes_by_count():
     heroes = list(filter(is_important_hero, heroes))
 
 def find_voice(filename):
+    if filename in file_paths:
+        return os.path.join(file_paths[filename], filename)
     for src_folder in src_folders:
         filepath = common.find_file_in_path(filename, common.local_configs["FEH"] + src_folder, recursive=False)
         if filepath is not None:
@@ -130,19 +137,26 @@ def handle_voice(voice):
         warnings.warn('voice not found: %s' % voice)
         return 'VOICE_NULL'
     voices.append(voice)
-    subprocess.run(common.local_configs["CKB2WAV"] + ' ' +  filepath.replace('/mnt/c/', 'c:/').replace(' ', '\ '), shell=True, check=True)
+    # handle WSL2 prefix in filepath
+    input_filepath = filepath.replace('/mnt/c/', 'c:/')
+    # handle whitespace in filepath
+    if sys.platform == 'win32':
+        input_filepath = '"' + input_filepath + '"'
+    else:
+        input_filepath = input_filepath.replace(' ', '\ ')
+    subprocess.run(common.local_configs["CKB2WAV"] + ' ' +  input_filepath, shell=True, check=True)
     wavefile = get_converted_wavefile(os.path.splitext(filepath)[0])
     if wavefile is None:
         warnings.warn('CKB2WAV conversion failed: %s' % filepath)
         exit(1)
-    subprocess.run(["sox", wavefile, "-r %d" % common.local_configs["voice"]["freq"], "-b 8", "-c 1", os.path.join(dst_folder, voice + '.wav')], check=True)
+    subprocess.run(["sox", wavefile, "-r %d" % common.local_configs["voice"]["freq"], "-V1", "-b 8", "-c 1", os.path.join(dst_folder, voice + '.wav')], check=True)
     os.remove(wavefile)
     return voice
 
 def make_voices(filename):
     shutil.rmtree(dst_folder, ignore_errors=True)
     os.makedirs(dst_folder)
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include "heroes.h"\n')
         f.write('#include "voice.h"\n')
         f.write('#include "voices.h"\n')
@@ -189,7 +203,7 @@ def make_voices(filename):
         f.write('};\n')
 
 def make_hero_header(filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#pragma once\n')
         f.write('\n')
         f.write('#define HERO_NUM %s\n' % len(heroes))
@@ -198,7 +212,7 @@ def make_hero_header(filename):
             f.write('#define %s %d\n' % (hero, i + 1))
 
 def make_voice_header(filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#pragma once\n')
         f.write('\n')
         f.write('enum {\n')

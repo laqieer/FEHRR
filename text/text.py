@@ -20,7 +20,7 @@ def read_texts_from_file(filename):
     texts = {}
     index = 0
     text = ""
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         for line in f:
             indexStrs = re.findall(r'^\[([0-9a-fA-F]+)\]$', line)
             if indexStrs:
@@ -50,7 +50,7 @@ def read_texts_from_file(filename):
     return texts
 
 def make_C_source_file(texts, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write('#include "textNew.h"\n\n')
         f.write('const char * const gMsgTableNew[][LANGUAGE_NUM] = {\n')
         id = 0
@@ -87,7 +87,7 @@ def make_C_source_file(texts, filename):
         return ids
 
 def make_linker_script_file(ids, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         for id, pointers in ids.items():
             for i, pointer in enumerate(pointers):
                 f.write(f'. = 0x{pointer:x};\n')
