@@ -5,19 +5,12 @@
 import common
 
 import os
-import re
 import json
 
-hero_ids = []
 hero_data = {}
 
-def load_hero_ids(header_file):
-    with open(header_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-        for line in lines:
-            result = re.findall(r'([PE]ID_\w+)', line)
-            if result:
-                hero_ids.append(result[0])
+hero_ids = common.load_hero_ids('include/heroes.h')
+# print(hero_ids)
 
 def load_hero_data(folder):
     for root, dirs, files in os.walk(folder):
@@ -120,8 +113,6 @@ def make_debug_heroes(filename):
         f.write('};\n')
 
 def main():
-    load_hero_ids('include/heroes.h')
-    # print(hero_ids)
     load_hero_data('asset/json/files/assets/Common/SRPG/Person/')
     load_hero_data('asset/json/files/assets/Common/SRPG/Enemy/')
     # print(hero_data)

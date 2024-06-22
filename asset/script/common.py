@@ -56,3 +56,13 @@ def convert_rgba_to_rgb(img, background_color):
     background = Image.new('RGB', img.size, background_color)
     background.paste(img, mask=img.split()[3]) # 3 is the alpha channel
     return background
+
+def load_hero_ids(header_file):
+    hero_ids = []
+    with open(header_file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        for line in lines:
+            result = re.findall(r'([PE]ID_\w+)', line)
+            if result:
+                hero_ids.append(result[0])
+    return hero_ids

@@ -19,6 +19,17 @@ face_ids = {}
 
 file_paths = common.index_files_in_path('asset/file/collection/Character Art + Sprites')
 
+hero_ids = common.load_hero_ids('include/heroes.h')
+# print(hero_ids)
+
+def load_faces_in_hero_ids():
+    for hero in hero_ids:
+        if hero in hero_faces:
+            face = hero_faces[hero]
+            if face not in face_counts:
+                face_counts[face] = 0
+            face_counts[face] += 1
+
 def is_generic_face(face):
     return face.startswith('ch90_')
 
@@ -207,6 +218,7 @@ def main():
     load_hero_faces('asset/json/files/assets/Common/SRPG/Person/')
     load_hero_faces('asset/json/files/assets/Common/SRPG/Enemy/')
     # print(hero_faces)
+    load_faces_in_hero_ids()
     load_faces_in_scenarios('asset/json/files/assets/JPJA/Message/Scenario/')
     load_heroes_in_maps('asset/json/files/assets/Common/SRPGMap/')
     # print(face_counts)
