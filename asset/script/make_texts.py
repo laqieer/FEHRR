@@ -170,6 +170,7 @@ def read_texts(type, language, folder):
                     kvs = json.load(f)
                     for kv in kvs:
                         key = kv['key']
+                        key = key.replace('…', '')
                         if should_read_key(type, key):
                             if type == TextType.SCENARIO:
                                 key += '_' + os.path.splitext(file)[0]
