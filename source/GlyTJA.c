@@ -3098,15 +3098,6 @@ const struct GlyphNew GlyTJA_E58FB2 = { /* 史 */
     .bitmap = GlyTJA_E58FB2Tiles,
 };
 
-const struct GlyphNew GlyTJA_E9879D = { /* 針 */
-    .next = &GlyTJA_E998BB,
-    .width = 11,
-    .utf_byte_2 = 0x87,
-    .utf_byte_3 = 0x9d,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E9879DTiles,
-};
-
 const struct GlyphNew GlyTJA_E7A59D = { /* 祝 */
     .next = &GlyTJA_E7A0B4,
     .width = 11,
@@ -3360,7 +3351,7 @@ const struct GlyphNew GlyTJA_E5A78B = { /* 始 */
 };
 
 const struct GlyphNew GlyTJA_E9A6AC = { /* 馬 */
-    .next = &GlyTJA_E9879D,
+    .next = &GlyTJA_E998BB,
     .width = 11,
     .utf_byte_2 = 0xa6,
     .utf_byte_3 = 0xac,
@@ -5834,15 +5825,6 @@ const struct GlyphNew GlyTJA_E5B185 = { /* 居 */
     .bitmap = GlyTJA_E5B185Tiles,
 };
 
-const struct GlyphNew GlyTJA_E68B8D = { /* 拍 */
-    .next = &GlyTJA_E69C88,
-    .width = 11,
-    .utf_byte_2 = 0x8b,
-    .utf_byte_3 = 0x8d,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E68B8DTiles,
-};
-
 const struct GlyphNew GlyTJA_E4BBB6 = { /* 件 */
     .next = &GlyTJA_E4BEAE,
     .width = 11,
@@ -5880,7 +5862,7 @@ const struct GlyphNew GlyTJA_E88D89 = { /* 草 */
 };
 
 const struct GlyphNew GlyTJA_E6ADA6 = { /* 武 */
-    .next = &GlyTJA_E68B8D,
+    .next = &GlyTJA_E69C88,
     .width = 11,
     .utf_byte_2 = 0xad,
     .utf_byte_3 = 0xa6,
@@ -6482,15 +6464,6 @@ const struct GlyphNew GlyTJA_E4B881 = { /* 丁 */
     .bitmap = GlyTJA_E4B881Tiles,
 };
 
-const struct GlyphNew GlyTJA_E2978B = { /* ○ */
-    .next = &GlyTJA_E291A6,
-    .width = 1,
-    .utf_byte_2 = 0x97,
-    .utf_byte_3 = 0x8b,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E2978BTiles,
-};
-
 const struct GlyphNew GlyTJA_E5A4AE = { /* 央 */
     .next = &GlyTJA_E5AD97,
     .width = 11,
@@ -6608,17 +6581,8 @@ const struct GlyphNew GlyTJA_E5A297 = { /* 増 */
     .bitmap = GlyTJA_E5A297Tiles,
 };
 
-const struct GlyphNew GlyTJA_E5B985 = { /* 幅 */
-    .next = &GlyTJA_E5A297,
-    .width = 11,
-    .utf_byte_2 = 0xb9,
-    .utf_byte_3 = 0x85,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E5B985Tiles,
-};
-
 const struct GlyphNew GlyTJA_E582B7 = { /* 傷 */
-    .next = &GlyTJA_E5B985,
+    .next = &GlyTJA_E5A297,
     .width = 11,
     .utf_byte_2 = 0x82,
     .utf_byte_3 = 0xb7,
@@ -10101,7 +10065,7 @@ const struct GlyphNew GlyTJA_E5B084 = { /* 射 */
 };
 
 const struct GlyphNew GlyTJA_E28792 = { /* ⇒ */
-    .next = &GlyTJA_E2978B,
+    .next = &GlyTJA_E291A6,
     .width = 11,
     .utf_byte_2 = 0x87,
     .utf_byte_3 = 0x92,
@@ -13286,24 +13250,6 @@ const struct GlyphNew GlyTJA_E68AB1 = { /* 抱 */
     .bitmap = GlyTJA_E68AB1Tiles,
 };
 
-const struct GlyphNew GlyTJA_E5A5A2 = { /* 奢 */
-    .next = &GlyTJA_E5BC95,
-    .width = 11,
-    .utf_byte_2 = 0xa5,
-    .utf_byte_3 = 0xa2,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E5A5A2Tiles,
-};
-
-const struct GlyphNew GlyTJA_E6978B = { /* 旋 */
-    .next = &GlyTJA_E68AB1,
-    .width = 11,
-    .utf_byte_2 = 0x97,
-    .utf_byte_3 = 0x8b,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E6978BTiles,
-};
-
 const struct GlyphNew GlyTJA_E9A3B2 = { /* 飲 */
     .next = &GlyTJA_E98187,
     .width = 11,
@@ -13314,7 +13260,7 @@ const struct GlyphNew GlyTJA_E9A3B2 = { /* 飲 */
 };
 
 const struct GlyphNew GlyTJA_E68489 = { /* 愉 */
-    .next = &GlyTJA_E6978B,
+    .next = &GlyTJA_E68AB1,
     .width = 11,
     .utf_byte_2 = 0x84,
     .utf_byte_3 = 0x89,
@@ -13359,7 +13305,7 @@ const struct GlyphNew GlyTJA_E69C9F = { /* 期 */
 };
 
 const struct GlyphNew GlyTJA_E59B9A = { /* 囚 */
-    .next = &GlyTJA_E5A5A2,
+    .next = &GlyTJA_E5BC95,
     .width = 11,
     .utf_byte_2 = 0x9b,
     .utf_byte_3 = 0x9a,
@@ -13664,24 +13610,6 @@ const struct GlyphNew GlyTJA_E5B7A5 = { /* 工 */
     .bitmap = GlyTJA_E5B7A5Tiles,
 };
 
-const struct GlyphNew GlyTJA_E7A880 = { /* 稀 */
-    .next = &GlyTJA_E78289,
-    .width = 11,
-    .utf_byte_2 = 0xa8,
-    .utf_byte_3 = 0x80,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7A880Tiles,
-};
-
-const struct GlyphNew GlyTJA_E5B9BD = { /* 幽 */
-    .next = &GlyTJA_E5B7A5,
-    .width = 11,
-    .utf_byte_2 = 0xb9,
-    .utf_byte_3 = 0xbd,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E5B9BDTiles,
-};
-
 const struct GlyphNew GlyTJA_E99CB2 = { /* 露 */
     .next = &GlyTJA_E98CAC,
     .width = 11,
@@ -13709,15 +13637,6 @@ const struct GlyphNew GlyTJA_E8BF82 = { /* 迂 */
     .bitmap = GlyTJA_E8BF82Tiles,
 };
 
-const struct GlyphNew GlyTJA_E682A0 = { /* 悠 */
-    .next = &GlyTJA_E6BFA1,
-    .width = 11,
-    .utf_byte_2 = 0x82,
-    .utf_byte_3 = 0xa0,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E682A0Tiles,
-};
-
 const struct GlyphNew GlyTJA_E8A492 = { /* 褒 */
     .next = &GlyTJA_E8BF82,
     .width = 11,
@@ -13728,7 +13647,7 @@ const struct GlyphNew GlyTJA_E8A492 = { /* 褒 */
 };
 
 const struct GlyphNew GlyTJA_E7AC9B = { /* 笛 */
-    .next = &GlyTJA_E7A880,
+    .next = &GlyTJA_E78289,
     .width = 11,
     .utf_byte_2 = 0xac,
     .utf_byte_3 = 0x9b,
@@ -13737,7 +13656,7 @@ const struct GlyphNew GlyTJA_E7AC9B = { /* 笛 */
 };
 
 const struct GlyphNew GlyTJA_E5AFA7 = { /* 寧 */
-    .next = &GlyTJA_E5B9BD,
+    .next = &GlyTJA_E5B7A5,
     .width = 11,
     .utf_byte_2 = 0xaf,
     .utf_byte_3 = 0xa7,
@@ -13746,7 +13665,7 @@ const struct GlyphNew GlyTJA_E5AFA7 = { /* 寧 */
 };
 
 const struct GlyphNew GlyTJA_E68682 = { /* 憂 */
-    .next = &GlyTJA_E682A0,
+    .next = &GlyTJA_E6BFA1,
     .width = 11,
     .utf_byte_2 = 0x86,
     .utf_byte_3 = 0x82,
@@ -14285,15 +14204,6 @@ const struct GlyphNew GlyTJA_E5A197 = { /* 塗 */
     .bitmap = GlyTJA_E5A197Tiles,
 };
 
-const struct GlyphNew GlyTJA_E58691 = { /* 冑 */
-    .next = &GlyTJA_E5A197,
-    .width = 11,
-    .utf_byte_2 = 0x86,
-    .utf_byte_3 = 0x91,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E58691Tiles,
-};
-
 const struct GlyphNew GlyTJA_E8A8B4 = { /* 訴 */
     .next = &GlyTJA_E8B28C,
     .width = 11,
@@ -14313,7 +14223,7 @@ const struct GlyphNew GlyTJA_E99C87 = { /* 震 */
 };
 
 const struct GlyphNew GlyTJA_E59785 = { /* 嗅 */
-    .next = &GlyTJA_E58691,
+    .next = &GlyTJA_E5A197,
     .width = 11,
     .utf_byte_2 = 0x97,
     .utf_byte_3 = 0x85,
@@ -14483,15 +14393,6 @@ const struct GlyphNew GlyTJA_E79EAC = { /* 瞬 */
     .bitmap = GlyTJA_E79EACTiles,
 };
 
-const struct GlyphNew GlyTJA_E8BF85 = { /* 迅 */
-    .next = &GlyTJA_E8BFB0,
-    .width = 11,
-    .utf_byte_2 = 0xbf,
-    .utf_byte_3 = 0x85,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E8BF85Tiles,
-};
-
 const struct GlyphNew GlyTJA_E99DAD = { /* 靭 */
     .next = &GlyTJA_E99C87,
     .width = 11,
@@ -14520,7 +14421,7 @@ const struct GlyphNew GlyTJA_E58F8A = { /* 及 */
 };
 
 const struct GlyphNew GlyTJA_E8AC81 = { /* 謁 */
-    .next = &GlyTJA_E8BF85,
+    .next = &GlyTJA_E8BFB0,
     .width = 11,
     .utf_byte_2 = 0xac,
     .utf_byte_3 = 0x81,
@@ -14897,17 +14798,8 @@ const struct GlyphNew GlyTJA_E4BE8D = { /* 侍 */
     .bitmap = GlyTJA_E4BE8DTiles,
 };
 
-const struct GlyphNew GlyTJA_E59BAE = { /* 囮 */
-    .next = &GlyTJA_E5859C,
-    .width = 11,
-    .utf_byte_2 = 0x9b,
-    .utf_byte_3 = 0xae,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E59BAETiles,
-};
-
 const struct GlyphNew GlyTJA_E5BE90 = { /* 徐 */
-    .next = &GlyTJA_E59BAE,
+    .next = &GlyTJA_E5859C,
     .width = 11,
     .utf_byte_2 = 0xbe,
     .utf_byte_3 = 0x90,
@@ -14967,15 +14859,6 @@ const struct GlyphNew GlyTJA_E7B89B = { /* 縛 */
     .utf_byte_3 = 0x9b,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E7B89BTiles,
-};
-
-const struct GlyphNew GlyTJA_E7B396 = { /* 糖 */
-    .next = &GlyTJA_E7B89B,
-    .width = 12,
-    .utf_byte_2 = 0xb3,
-    .utf_byte_3 = 0x96,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7B396Tiles,
 };
 
 const struct GlyphNew GlyTJA_E5968B = { /* 喋 */
@@ -15042,7 +14925,7 @@ const struct GlyphNew GlyTJA_E6AEB4 = { /* 殴 */
 };
 
 const struct GlyphNew GlyTJA_E78CAE = { /* 献 */
-    .next = &GlyTJA_E7B396,
+    .next = &GlyTJA_E7B89B,
     .width = 11,
     .utf_byte_2 = 0x8c,
     .utf_byte_3 = 0xae,
@@ -15302,15 +15185,6 @@ const struct GlyphNew GlyTJA_E4BCB4 = { /* 伴 */
     .bitmap = GlyTJA_E4BCB4Tiles,
 };
 
-const struct GlyphNew GlyTJA_E8A3BD = { /* 製 */
-    .next = &GlyTJA_E88485,
-    .width = 11,
-    .utf_byte_2 = 0xa3,
-    .utf_byte_3 = 0xbd,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E8A3BDTiles,
-};
-
 const struct GlyphNew GlyTJA_E699B6 = { /* 晶 */
     .next = &GlyTJA_E695A2,
     .width = 11,
@@ -15374,15 +15248,6 @@ const struct GlyphNew GlyTJA_E6B2BC = { /* 沼 */
     .bitmap = GlyTJA_E6B2BCTiles,
 };
 
-const struct GlyphNew GlyTJA_E98A98 = { /* 銘 */
-    .next = &GlyTJA_E999B6,
-    .width = 11,
-    .utf_byte_2 = 0x8a,
-    .utf_byte_3 = 0x98,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E98A98Tiles,
-};
-
 const struct GlyphNew GlyTJA_E594BE = { /* 唾 */
     .next = &GlyTJA_E5878C,
     .width = 12,
@@ -15438,7 +15303,7 @@ const struct GlyphNew GlyTJA_E79982 = { /* 療 */
 };
 
 const struct GlyphNew GlyTJA_E8B2AA = { /* 貪 */
-    .next = &GlyTJA_E8A3BD,
+    .next = &GlyTJA_E88485,
     .width = 11,
     .utf_byte_2 = 0xb2,
     .utf_byte_3 = 0xaa,
@@ -15483,7 +15348,7 @@ const struct GlyphNew GlyTJA_E88486 = { /* 脆 */
 };
 
 const struct GlyphNew GlyTJA_E99ABB = { /* 隻 */
-    .next = &GlyTJA_E98A98,
+    .next = &GlyTJA_E999B6,
     .width = 10,
     .utf_byte_2 = 0x9a,
     .utf_byte_3 = 0xbb,
@@ -15536,15 +15401,6 @@ const struct GlyphNew GlyTJA_E4BC8A = { /* 伊 */
     .bitmap = GlyTJA_E4BC8ATiles,
 };
 
-const struct GlyphNew GlyTJA_E7B7A9 = { /* 緩 */
-    .next = &GlyTJA_E7A2A7,
-    .width = 11,
-    .utf_byte_2 = 0xb7,
-    .utf_byte_3 = 0xa9,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7B7A9Tiles,
-};
-
 const struct GlyphNew GlyTJA_E9A784 = { /* 駄 */
     .next = &GlyTJA_E99ABB,
     .width = 11,
@@ -15552,15 +15408,6 @@ const struct GlyphNew GlyTJA_E9A784 = { /* 駄 */
     .utf_byte_3 = 0x84,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E9A784Tiles,
-};
-
-const struct GlyphNew GlyTJA_E888AC = { /* 般 */
-    .next = &GlyTJA_E88486,
-    .width = 11,
-    .utf_byte_2 = 0x88,
-    .utf_byte_3 = 0xac,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E888ACTiles,
 };
 
 const struct GlyphNew GlyTJA_E4BE9D = { /* 依 */
@@ -15582,7 +15429,7 @@ const struct GlyphNew GlyTJA_E688B8 = { /* 戸 */
 };
 
 const struct GlyphNew GlyTJA_E8829D = { /* 肝 */
-    .next = &GlyTJA_E888AC,
+    .next = &GlyTJA_E88486,
     .width = 11,
     .utf_byte_2 = 0x82,
     .utf_byte_3 = 0x9d,
@@ -15627,7 +15474,7 @@ const struct GlyphNew GlyTJA_E58BA4 = { /* 勤 */
 };
 
 const struct GlyphNew GlyTJA_E78B90 = { /* 狐 */
-    .next = &GlyTJA_E7B7A9,
+    .next = &GlyTJA_E7A2A7,
     .width = 11,
     .utf_byte_2 = 0x8b,
     .utf_byte_3 = 0x90,
@@ -15761,15 +15608,6 @@ const struct GlyphNew GlyTJA_E6BDB0 = { /* 潰 */
     .bitmap = GlyTJA_E6BDB0Tiles,
 };
 
-const struct GlyphNew GlyTJA_E6B28C = { /* 沌 */
-    .next = &GlyTJA_E6BDB0,
-    .width = 11,
-    .utf_byte_2 = 0xb2,
-    .utf_byte_3 = 0x8c,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E6B28CTiles,
-};
-
 const struct GlyphNew GlyTJA_E8BC89 = { /* 載 */
     .next = &GlyTJA_E89B87,
     .width = 11,
@@ -15777,15 +15615,6 @@ const struct GlyphNew GlyTJA_E8BC89 = { /* 載 */
     .utf_byte_3 = 0x89,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E8BC89Tiles,
-};
-
-const struct GlyphNew GlyTJA_E9BC93 = { /* 鼓 */
-    .next = &GlyTJA_E9A3AF,
-    .width = 11,
-    .utf_byte_2 = 0xbc,
-    .utf_byte_3 = 0x93,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E9BC93Tiles,
 };
 
 const struct GlyphNew GlyTJA_E4B8B8 = { /* 丸 */
@@ -15815,17 +15644,8 @@ const struct GlyphNew GlyTJA_E58BBF = { /* 勿 */
     .bitmap = GlyTJA_E58BBFTiles,
 };
 
-const struct GlyphNew GlyTJA_E590AB = { /* 含 */
-    .next = &GlyTJA_E58BBF,
-    .width = 11,
-    .utf_byte_2 = 0x90,
-    .utf_byte_3 = 0xab,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E590ABTiles,
-};
-
 const struct GlyphNew GlyTJA_E5908A = { /* 吊 */
-    .next = &GlyTJA_E590AB,
+    .next = &GlyTJA_E58BBF,
     .width = 11,
     .utf_byte_2 = 0x90,
     .utf_byte_3 = 0x8a,
@@ -15843,7 +15663,7 @@ const struct GlyphNew GlyTJA_E5BA87 = { /* 庇 */
 };
 
 const struct GlyphNew GlyTJA_E68691 = { /* 憑 */
-    .next = &GlyTJA_E6B28C,
+    .next = &GlyTJA_E6BDB0,
     .width = 12,
     .utf_byte_2 = 0x86,
     .utf_byte_3 = 0x91,
@@ -15870,7 +15690,7 @@ const struct GlyphNew GlyTJA_E5AF82 = { /* 寂 */
 };
 
 const struct GlyphNew GlyTJA_E99E98 = { /* 鞘 */
-    .next = &GlyTJA_E9BC93,
+    .next = &GlyTJA_E9A3AF,
     .width = 11,
     .utf_byte_2 = 0x9e,
     .utf_byte_3 = 0x98,
@@ -16328,15 +16148,6 @@ const struct GlyphNew GlyTJA_E5AA9A = { /* 媚 */
     .bitmap = GlyTJA_E5AA9ATiles,
 };
 
-const struct GlyphNew GlyTJA_E59A87 = { /* 嚇 */
-    .next = &GlyTJA_E5AA9A,
-    .width = 11,
-    .utf_byte_2 = 0x9a,
-    .utf_byte_3 = 0x87,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E59A87Tiles,
-};
-
 const struct GlyphNew GlyTJA_E896AA = { /* 薪 */
     .next = &GlyTJA_E89E8D,
     .width = 11,
@@ -16392,7 +16203,7 @@ const struct GlyphNew GlyTJA_E8B393 = { /* 賓 */
 };
 
 const struct GlyphNew GlyTJA_E5BB83 = { /* 廃 */
-    .next = &GlyTJA_E59A87,
+    .next = &GlyTJA_E5AA9A,
     .width = 11,
     .utf_byte_2 = 0xbb,
     .utf_byte_3 = 0x83,
@@ -17093,15 +16904,6 @@ const struct GlyphNew GlyTJA_E9869C = { /* 醜 */
     .bitmap = GlyTJA_E9869CTiles,
 };
 
-const struct GlyphNew GlyTJA_E8A9B2 = { /* 該 */
-    .next = &GlyTJA_E8BD8D,
-    .width = 11,
-    .utf_byte_2 = 0xa9,
-    .utf_byte_3 = 0xb2,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E8A9B2Tiles,
-};
-
 const struct GlyphNew GlyTJA_E7939C = { /* 瓜 */
     .next = &GlyTJA_E78BB8,
     .width = 11,
@@ -17121,7 +16923,7 @@ const struct GlyphNew GlyTJA_E6ACBA = { /* 欺 */
 };
 
 const struct GlyphNew GlyTJA_E8AE83 = { /* 讃 */
-    .next = &GlyTJA_E8A9B2,
+    .next = &GlyTJA_E8BD8D,
     .width = 11,
     .utf_byte_2 = 0xae,
     .utf_byte_3 = 0x83,
@@ -17165,15 +16967,6 @@ const struct GlyphNew GlyTJA_E7A792 = { /* 秒 */
     .bitmap = GlyTJA_E7A792Tiles,
 };
 
-const struct GlyphNew GlyTJA_E7B8A6 = { /* 縦 */
-    .next = &GlyTJA_E7A792,
-    .width = 11,
-    .utf_byte_2 = 0xb8,
-    .utf_byte_3 = 0xa6,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7B8A6Tiles,
-};
-
 const struct GlyphNew GlyTJA_E886A8 = { /* 膨 */
     .next = &GlyTJA_E8AE83,
     .width = 11,
@@ -17183,40 +16976,13 @@ const struct GlyphNew GlyTJA_E886A8 = { /* 膨 */
     .bitmap = GlyTJA_E886A8Tiles,
 };
 
-const struct GlyphNew GlyTJA_E685A7 = { /* 慧 */
-    .next = &GlyTJA_E6ACBA,
-    .width = 11,
-    .utf_byte_2 = 0x85,
-    .utf_byte_3 = 0xa7,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E685A7Tiles,
-};
-
-const struct GlyphNew GlyTJA_E98A83 = { /* 銃 */
-    .next = &GlyTJA_E9A48C,
-    .width = 11,
-    .utf_byte_2 = 0x8a,
-    .utf_byte_3 = 0x83,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E98A83Tiles,
-};
-
 const struct GlyphNew GlyTJA_E68EB2 = { /* 掲 */
-    .next = &GlyTJA_E685A7,
+    .next = &GlyTJA_E6ACBA,
     .width = 11,
     .utf_byte_2 = 0x8e,
     .utf_byte_3 = 0xb2,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E68EB2Tiles,
-};
-
-const struct GlyphNew GlyTJA_E989BE = { /* 鉾 */
-    .next = &GlyTJA_E98A83,
-    .width = 11,
-    .utf_byte_2 = 0x89,
-    .utf_byte_3 = 0xbe,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E989BETiles,
 };
 
 const struct GlyphNew GlyTJA_E89887 = { /* 蘇 */
@@ -17229,7 +16995,7 @@ const struct GlyphNew GlyTJA_E89887 = { /* 蘇 */
 };
 
 const struct GlyphNew GlyTJA_E7B59E = { /* 絞 */
-    .next = &GlyTJA_E7B8A6,
+    .next = &GlyTJA_E7A792,
     .width = 11,
     .utf_byte_2 = 0xb5,
     .utf_byte_3 = 0x9e,
@@ -17364,7 +17130,7 @@ const struct GlyphNew GlyTJA_E682A6 = { /* 悦 */
 };
 
 const struct GlyphNew GlyTJA_E9A7BF = { /* 駿 */
-    .next = &GlyTJA_E989BE,
+    .next = &GlyTJA_E9A48C,
     .width = 11,
     .utf_byte_2 = 0xa7,
     .utf_byte_3 = 0xbf,
@@ -17408,15 +17174,6 @@ const struct GlyphNew GlyTJA_E7BFBB = { /* 翻 */
     .bitmap = GlyTJA_E7BFBBTiles,
 };
 
-const struct GlyphNew GlyTJA_E6BDA4 = { /* 潤 */
-    .next = &GlyTJA_E697A8,
-    .width = 11,
-    .utf_byte_2 = 0xbd,
-    .utf_byte_3 = 0xa4,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E6BDA4Tiles,
-};
-
 const struct GlyphNew GlyTJA_E59E82 = { /* 垂 */
     .next = &GlyTJA_E5BEAA,
     .width = 11,
@@ -17454,7 +17211,7 @@ const struct GlyphNew GlyTJA_E8AD9C = { /* 譜 */
 };
 
 const struct GlyphNew GlyTJA_E68BB7 = { /* 拷 */
-    .next = &GlyTJA_E6BDA4,
+    .next = &GlyTJA_E697A8,
     .width = 11,
     .utf_byte_2 = 0x8b,
     .utf_byte_3 = 0xb7,
@@ -17462,17 +17219,8 @@ const struct GlyphNew GlyTJA_E68BB7 = { /* 拷 */
     .bitmap = GlyTJA_E68BB7Tiles,
 };
 
-const struct GlyphNew GlyTJA_E7BFA0 = { /* 翠 */
-    .next = &GlyTJA_E7ACA6,
-    .width = 11,
-    .utf_byte_2 = 0xbf,
-    .utf_byte_3 = 0xa0,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7BFA0Tiles,
-};
-
 const struct GlyphNew GlyTJA_E7B3BE = { /* 糾 */
-    .next = &GlyTJA_E7BFA0,
+    .next = &GlyTJA_E7ACA6,
     .width = 11,
     .utf_byte_2 = 0xb3,
     .utf_byte_3 = 0xbe,
@@ -17507,15 +17255,6 @@ const struct GlyphNew GlyTJA_E8BD9F = { /* 轟 */
     .bitmap = GlyTJA_E8BD9FTiles,
 };
 
-const struct GlyphNew GlyTJA_E78795 = { /* 燕 */
-    .next = &GlyTJA_E7AA93,
-    .width = 11,
-    .utf_byte_2 = 0x87,
-    .utf_byte_3 = 0x95,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E78795Tiles,
-};
-
 const struct GlyphNew GlyTJA_E58D9A = { /* 博 */
     .next = &GlyTJA_E59E82,
     .width = 11,
@@ -17526,7 +17265,7 @@ const struct GlyphNew GlyTJA_E58D9A = { /* 博 */
 };
 
 const struct GlyphNew GlyTJA_E78CBF = { /* 猿 */
-    .next = &GlyTJA_E78795,
+    .next = &GlyTJA_E7AA93,
     .width = 11,
     .utf_byte_2 = 0x8c,
     .utf_byte_3 = 0xbf,
@@ -17588,15 +17327,6 @@ const struct GlyphNew GlyTJA_E99B8C = { /* 雌 */
     .bitmap = GlyTJA_E99B8CTiles,
 };
 
-const struct GlyphNew GlyTJA_E7AC8F = { /* 笏 */
-    .next = &GlyTJA_E78CBF,
-    .width = 11,
-    .utf_byte_2 = 0xac,
-    .utf_byte_3 = 0x8f,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7AC8FTiles,
-};
-
 const struct GlyphNew GlyTJA_E691AF = { /* 摯 */
     .next = &GlyTJA_E6B9AF,
     .width = 11,
@@ -17607,21 +17337,12 @@ const struct GlyphNew GlyTJA_E691AF = { /* 摯 */
 };
 
 const struct GlyphNew GlyTJA_E78CAA = { /* 猪 */
-    .next = &GlyTJA_E7AC8F,
+    .next = &GlyTJA_E78CBF,
     .width = 11,
     .utf_byte_2 = 0x8c,
     .utf_byte_3 = 0xaa,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E78CAATiles,
-};
-
-const struct GlyphNew GlyTJA_E898AD = { /* 蘭 */
-    .next = &GlyTJA_E8ACB3,
-    .width = 11,
-    .utf_byte_2 = 0x98,
-    .utf_byte_3 = 0xad,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E898ADTiles,
 };
 
 const struct GlyphNew GlyTJA_E596A7 = { /* 喧 */
@@ -17634,7 +17355,7 @@ const struct GlyphNew GlyTJA_E596A7 = { /* 喧 */
 };
 
 const struct GlyphNew GlyTJA_E89197 = { /* 著 */
-    .next = &GlyTJA_E898AD,
+    .next = &GlyTJA_E8ACB3,
     .width = 11,
     .utf_byte_2 = 0x91,
     .utf_byte_3 = 0x97,
@@ -17651,24 +17372,6 @@ const struct GlyphNew GlyTJA_E98E8C = { /* 鎌 */
     .bitmap = GlyTJA_E98E8CTiles,
 };
 
-const struct GlyphNew GlyTJA_E29885 = { /* ★ */
-    .next = &GlyTJA_E2809D,
-    .width = 11,
-    .utf_byte_2 = 0x98,
-    .utf_byte_3 = 0x85,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E29885Tiles,
-};
-
-const struct GlyphNew GlyTJA_E99C9C = { /* 霜 */
-    .next = &GlyTJA_E98E8C,
-    .width = 11,
-    .utf_byte_2 = 0x9c,
-    .utf_byte_3 = 0x9c,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E99C9CTiles,
-};
-
 const struct GlyphNew GlyTJA_E6839A = { /* 惚 */
     .next = &GlyTJA_E691AF,
     .width = 11,
@@ -17678,17 +17381,8 @@ const struct GlyphNew GlyTJA_E6839A = { /* 惚 */
     .bitmap = GlyTJA_E6839ATiles,
 };
 
-const struct GlyphNew GlyTJA_E99B80 = { /* 雀 */
-    .next = &GlyTJA_E99C9C,
-    .width = 11,
-    .utf_byte_2 = 0x9b,
-    .utf_byte_3 = 0x80,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E99B80Tiles,
-};
-
 const struct GlyphNew GlyTJA_E9BAA6 = { /* 麦 */
-    .next = &GlyTJA_E99B80,
+    .next = &GlyTJA_E98E8C,
     .width = 11,
     .utf_byte_2 = 0xba,
     .utf_byte_3 = 0xa6,
@@ -17813,15 +17507,6 @@ const struct GlyphNew GlyTJA_E6BA9C = { /* 溜 */
     .bitmap = GlyTJA_E6BA9CTiles,
 };
 
-const struct GlyphNew GlyTJA_E697AD = { /* 旭 */
-    .next = &GlyTJA_E6BA9C,
-    .width = 11,
-    .utf_byte_2 = 0x97,
-    .utf_byte_3 = 0xad,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E697ADTiles,
-};
-
 const struct GlyphNew GlyTJA_E98DB5 = { /* 鍵 */
     .next = &GlyTJA_E998BF,
     .width = 11,
@@ -17868,7 +17553,7 @@ const struct GlyphNew GlyTJA_E5A180 = { /* 塀 */
 };
 
 const struct GlyphNew GlyTJA_E69DBE = { /* 松 */
-    .next = &GlyTJA_E697AD,
+    .next = &GlyTJA_E6BA9C,
     .width = 11,
     .utf_byte_2 = 0x9d,
     .utf_byte_3 = 0xbe,
@@ -17901,15 +17586,6 @@ const struct GlyphNew GlyTJA_E4BCBD = { /* 伽 */
     .utf_byte_3 = 0xbd,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E4BCBDTiles,
-};
-
-const struct GlyphNew GlyTJA_E4BDB3 = { /* 佳 */
-    .next = &GlyTJA_E4BCBD,
-    .width = 11,
-    .utf_byte_2 = 0xbd,
-    .utf_byte_3 = 0xb3,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E4BDB3Tiles,
 };
 
 const struct GlyphNew GlyTJA_E69DBF = { /* 板 */
@@ -17993,15 +17669,6 @@ const struct GlyphNew GlyTJA_E5A29F = { /* 墟 */
     .bitmap = GlyTJA_E5A29FTiles,
 };
 
-const struct GlyphNew GlyTJA_E5AF85 = { /* 寅 */
-    .next = &GlyTJA_E5A29F,
-    .width = 11,
-    .utf_byte_2 = 0xaf,
-    .utf_byte_3 = 0x85,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E5AF85Tiles,
-};
-
 const struct GlyphNew GlyTJA_E7A68D = { /* 禍 */
     .next = &GlyTJA_E7B6BF,
     .width = 11,
@@ -18048,7 +17715,7 @@ const struct GlyphNew GlyTJA_E9B197 = { /* 鱗 */
 };
 
 const struct GlyphNew GlyTJA_E5B0BA = { /* 尺 */
-    .next = &GlyTJA_E5AF85,
+    .next = &GlyTJA_E5A29F,
     .width = 11,
     .utf_byte_2 = 0xb0,
     .utf_byte_3 = 0xba,
@@ -18074,17 +17741,8 @@ const struct GlyphNew GlyTJA_E88383 = { /* 胃 */
     .bitmap = GlyTJA_E88383Tiles,
 };
 
-const struct GlyphNew GlyTJA_E7B4AF = { /* 累 */
-    .next = &GlyTJA_E7B7AF,
-    .width = 10,
-    .utf_byte_2 = 0xb4,
-    .utf_byte_3 = 0xaf,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7B4AFTiles,
-};
-
 const struct GlyphNew GlyTJA_E78EA9 = { /* 玩 */
-    .next = &GlyTJA_E7B4AF,
+    .next = &GlyTJA_E7B7AF,
     .width = 11,
     .utf_byte_2 = 0x8e,
     .utf_byte_3 = 0xa9,
@@ -18111,7 +17769,7 @@ const struct GlyphNew GlyTJA_E69690 = { /* 斐 */
 };
 
 const struct GlyphNew GlyTJA_E4BA95 = { /* 井 */
-    .next = &GlyTJA_E4BDB3,
+    .next = &GlyTJA_E4BCBD,
     .width = 11,
     .utf_byte_2 = 0xba,
     .utf_byte_3 = 0x95,
@@ -18126,24 +17784,6 @@ const struct GlyphNew GlyTJA_E7A982 = { /* 穂 */
     .utf_byte_3 = 0x82,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E7A982Tiles,
-};
-
-const struct GlyphNew GlyTJA_E6809C = { /* 怜 */
-    .next = &GlyTJA_E69690,
-    .width = 11,
-    .utf_byte_2 = 0x80,
-    .utf_byte_3 = 0x9c,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E6809CTiles,
-};
-
-const struct GlyphNew GlyTJA_E59188 = { /* 呈 */
-    .next = &GlyTJA_E5819C,
-    .width = 11,
-    .utf_byte_2 = 0x91,
-    .utf_byte_3 = 0x88,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E59188Tiles,
 };
 
 const struct GlyphNew GlyTJA_E88ABD = { /* 芽 */
@@ -18162,15 +17802,6 @@ const struct GlyphNew GlyTJA_E98381 = { /* 郁 */
     .utf_byte_3 = 0x81,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E98381Tiles,
-};
-
-const struct GlyphNew GlyTJA_E69CB1 = { /* 朱 */
-    .next = &GlyTJA_E6809C,
-    .width = 11,
-    .utf_byte_2 = 0x9c,
-    .utf_byte_3 = 0xb1,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E69CB1Tiles,
 };
 
 const struct GlyphNew GlyTJA_E99BB6 = { /* 零 */
@@ -18201,7 +17832,7 @@ const struct GlyphNew GlyTJA_E882A5 = { /* 肥 */
 };
 
 const struct GlyphNew GlyTJA_E6BAA2 = { /* 溢 */
-    .next = &GlyTJA_E69CB1,
+    .next = &GlyTJA_E69690,
     .width = 11,
     .utf_byte_2 = 0xba,
     .utf_byte_3 = 0xa2,
@@ -18210,7 +17841,7 @@ const struct GlyphNew GlyTJA_E6BAA2 = { /* 溢 */
 };
 
 const struct GlyphNew GlyTJA_E5AFBF = { /* 寿 */
-    .next = &GlyTJA_E59188,
+    .next = &GlyTJA_E5819C,
     .width = 11,
     .utf_byte_2 = 0xaf,
     .utf_byte_3 = 0xbf,
@@ -18227,15 +17858,6 @@ const struct GlyphNew GlyTJA_E7A9A3 = { /* 穣 */
     .bitmap = GlyTJA_E7A9A3Tiles,
 };
 
-const struct GlyphNew GlyTJA_E899B9 = { /* 虹 */
-    .next = &GlyTJA_E882A5,
-    .width = 11,
-    .utf_byte_2 = 0x99,
-    .utf_byte_3 = 0xb9,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E899B9Tiles,
-};
-
 const struct GlyphNew GlyTJA_E4B8B2 = { /* 串 */
     .next = &GlyTJA_E4BA95,
     .width = 11,
@@ -18246,7 +17868,7 @@ const struct GlyphNew GlyTJA_E4B8B2 = { /* 串 */
 };
 
 const struct GlyphNew GlyTJA_E8B984 = { /* 蹄 */
-    .next = &GlyTJA_E899B9,
+    .next = &GlyTJA_E882A5,
     .width = 11,
     .utf_byte_2 = 0xb9,
     .utf_byte_3 = 0x84,
@@ -18975,7 +18597,7 @@ const struct GlyphNew GlyTJA_E98085 = { /* 逅 */
 };
 
 const struct GlyphNew GlyTJA_E29886 = { /* ☆ */
-    .next = &GlyTJA_E29885,
+    .next = &GlyTJA_E2809D,
     .width = 11,
     .utf_byte_2 = 0x98,
     .utf_byte_3 = 0x86,
@@ -18990,15 +18612,6 @@ const struct GlyphNew GlyTJA_E99C86 = { /* 霆 */
     .utf_byte_3 = 0x86,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E99C86Tiles,
-};
-
-const struct GlyphNew GlyTJA_E38087 = { /* 〇 */
-    .next = &GlyTJA_E38091,
-    .width = 11,
-    .utf_byte_2 = 0x80,
-    .utf_byte_3 = 0x87,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E38087Tiles,
 };
 
 const struct GlyphNew GlyTJA_E6988F = { /* 昏 */
@@ -19172,15 +18785,6 @@ const struct GlyphNew GlyTJA_E694AB = { /* 攫 */
     .bitmap = GlyTJA_E694ABTiles,
 };
 
-const struct GlyphNew GlyTJA_E88CAB = { /* 茫 */
-    .next = &GlyTJA_E8A4AA,
-    .width = 11,
-    .utf_byte_2 = 0x8c,
-    .utf_byte_3 = 0xab,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E88CABTiles,
-};
-
 const struct GlyphNew GlyTJA_E9ACB1 = { /* 鬱 */
     .next = &GlyTJA_E9BCA0,
     .width = 11,
@@ -19208,15 +18812,6 @@ const struct GlyphNew GlyTJA_E790B2 = { /* 琲 */
     .bitmap = GlyTJA_E790B2Tiles,
 };
 
-const struct GlyphNew GlyTJA_E598B4 = { /* 嘴 */
-    .next = &GlyTJA_E5ACB2,
-    .width = 11,
-    .utf_byte_2 = 0x98,
-    .utf_byte_3 = 0xb4,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E598B4Tiles,
-};
-
 const struct GlyphNew GlyTJA_E79CB7 = { /* 眷 */
     .next = &GlyTJA_E790B2,
     .width = 11,
@@ -19236,21 +18831,12 @@ const struct GlyphNew GlyTJA_E788BA = { /* 爺 */
 };
 
 const struct GlyphNew GlyTJA_E894BD = { /* 蔽 */
-    .next = &GlyTJA_E88CAB,
+    .next = &GlyTJA_E8A4AA,
     .width = 11,
     .utf_byte_2 = 0x94,
     .utf_byte_3 = 0xbd,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E894BDTiles,
-};
-
-const struct GlyphNew GlyTJA_E6B8BE = { /* 渾 */
-    .next = &GlyTJA_E694AB,
-    .width = 11,
-    .utf_byte_2 = 0xb8,
-    .utf_byte_3 = 0xbe,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E6B8BETiles,
 };
 
 const struct GlyphNew GlyTJA_E7A580 = { /* 祀 */
@@ -19290,7 +18876,7 @@ const struct GlyphNew GlyTJA_E78589 = { /* 煉 */
 };
 
 const struct GlyphNew GlyTJA_E5B58C = { /* 嵌 */
-    .next = &GlyTJA_E598B4,
+    .next = &GlyTJA_E5ACB2,
     .width = 11,
     .utf_byte_2 = 0xb5,
     .utf_byte_3 = 0x8c,
@@ -19308,7 +18894,7 @@ const struct GlyphNew GlyTJA_E7858C = { /* 煌 */
 };
 
 const struct GlyphNew GlyTJA_E68D8F = { /* 捏 */
-    .next = &GlyTJA_E6B8BE,
+    .next = &GlyTJA_E694AB,
     .width = 11,
     .utf_byte_2 = 0x8d,
     .utf_byte_3 = 0x8f,
@@ -19514,17 +19100,8 @@ const struct GlyphNew GlyTJA_E8B1B9 = { /* 豹 */
     .bitmap = GlyTJA_E8B1B9Tiles,
 };
 
-const struct GlyphNew GlyTJA_E789BD = { /* 牽 */
-    .next = &GlyTJA_E7A9B9,
-    .width = 11,
-    .utf_byte_2 = 0x89,
-    .utf_byte_3 = 0xbd,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E789BDTiles,
-};
-
 const struct GlyphNew GlyTJA_E7A9BF = { /* 穿 */
-    .next = &GlyTJA_E789BD,
+    .next = &GlyTJA_E7A9B9,
     .width = 11,
     .utf_byte_2 = 0xa9,
     .utf_byte_3 = 0xbf,
@@ -19604,15 +19181,6 @@ const struct GlyphNew GlyTJA_E89699 = { /* 薙 */
     .bitmap = GlyTJA_E89699Tiles,
 };
 
-const struct GlyphNew GlyTJA_E6B69B = { /* 涛 */
-    .next = &GlyTJA_E68A89,
-    .width = 11,
-    .utf_byte_2 = 0xb6,
-    .utf_byte_3 = 0x9b,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E6B69BTiles,
-};
-
 const struct GlyphNew GlyTJA_E7BE9E = { /* 羞 */
     .next = &GlyTJA_E7A9BF,
     .width = 11,
@@ -19623,21 +19191,12 @@ const struct GlyphNew GlyTJA_E7BE9E = { /* 羞 */
 };
 
 const struct GlyphNew GlyTJA_E68EA0 = { /* 掠 */
-    .next = &GlyTJA_E6B69B,
+    .next = &GlyTJA_E68A89,
     .width = 11,
     .utf_byte_2 = 0x8e,
     .utf_byte_3 = 0xa0,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E68EA0Tiles,
-};
-
-const struct GlyphNew GlyTJA_CEA4 = { /* Τ */
-    .next = NULL,
-    .width = 6,
-    .utf_byte_2 = 0xa4,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_CEA4Tiles,
 };
 
 const struct GlyphNew GlyTJA_E9A6A5 = { /* 馥 */
@@ -19647,15 +19206,6 @@ const struct GlyphNew GlyTJA_E9A6A5 = { /* 馥 */
     .utf_byte_3 = 0xa5,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E9A6A5Tiles,
-};
-
-const struct GlyphNew GlyTJA_CEA9 = { /* Ω */
-    .next = &GlyTJA_CEA4,
-    .width = 9,
-    .utf_byte_2 = 0xa9,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_CEA9Tiles,
 };
 
 const struct GlyphNew GlyTJA_E686AB = { /* 憫 */
@@ -19748,15 +19298,6 @@ const struct GlyphNew GlyTJA_E79ABA = { /* 皺 */
     .bitmap = GlyTJA_E79ABATiles,
 };
 
-const struct GlyphNew GlyTJA_E89EBA = { /* 螺 */
-    .next = &GlyTJA_E89699,
-    .width = 11,
-    .utf_byte_2 = 0x9e,
-    .utf_byte_3 = 0xba,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E89EBATiles,
-};
-
 const struct GlyphNew GlyTJA_E68EBB = { /* 掻 */
     .next = &GlyTJA_E682B6,
     .width = 11,
@@ -19794,21 +19335,12 @@ const struct GlyphNew GlyTJA_E59ABC = { /* 嚼 */
 };
 
 const struct GlyphNew GlyTJA_E8BEBF = { /* 辿 */
-    .next = &GlyTJA_E89EBA,
+    .next = &GlyTJA_E89699,
     .width = 11,
     .utf_byte_2 = 0xbe,
     .utf_byte_3 = 0xbf,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E8BEBFTiles,
-};
-
-const struct GlyphNew GlyTJA_E7A6BF = { /* 禿 */
-    .next = &GlyTJA_E796BC,
-    .width = 11,
-    .utf_byte_2 = 0xa6,
-    .utf_byte_3 = 0xbf,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7A6BFTiles,
 };
 
 const struct GlyphNew GlyTJA_E9A384 = { /* 飄 */
@@ -19830,7 +19362,7 @@ const struct GlyphNew GlyTJA_E58385 = { /* 僅 */
 };
 
 const struct GlyphNew GlyTJA_E78F88 = { /* 珈 */
-    .next = &GlyTJA_E7A6BF,
+    .next = &GlyTJA_E796BC,
     .width = 11,
     .utf_byte_2 = 0x8f,
     .utf_byte_3 = 0x88,
@@ -19856,17 +19388,8 @@ const struct GlyphNew GlyTJA_E8BB8B = { /* 軋 */
     .bitmap = GlyTJA_E8BB8BTiles,
 };
 
-const struct GlyphNew GlyTJA_E6A38D = { /* 棍 */
-    .next = &GlyTJA_E68EBB,
-    .width = 11,
-    .utf_byte_2 = 0xa3,
-    .utf_byte_3 = 0x8d,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E6A38DTiles,
-};
-
 const struct GlyphNew GlyTJA_E6BB93 = { /* 滓 */
-    .next = &GlyTJA_E6A38D,
+    .next = &GlyTJA_E68EBB,
     .width = 11,
     .utf_byte_2 = 0xbb,
     .utf_byte_3 = 0x93,
@@ -19892,15 +19415,6 @@ const struct GlyphNew GlyTJA_E6A398 = { /* 棘 */
     .bitmap = GlyTJA_E6A398Tiles,
 };
 
-const struct GlyphNew GlyTJA_E7B798 = { /* 緘 */
-    .next = &GlyTJA_E78F88,
-    .width = 11,
-    .utf_byte_2 = 0xb7,
-    .utf_byte_3 = 0x98,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E7B798Tiles,
-};
-
 const struct GlyphNew GlyTJA_E69BA0 = { /* 曠 */
     .next = &GlyTJA_E6A398,
     .width = 11,
@@ -19920,7 +19434,7 @@ const struct GlyphNew GlyTJA_E58FA1 = { /* 叡 */
 };
 
 const struct GlyphNew GlyTJA_E78BA1 = { /* 狡 */
-    .next = &GlyTJA_E7B798,
+    .next = &GlyTJA_E78F88,
     .width = 11,
     .utf_byte_2 = 0x8b,
     .utf_byte_3 = 0xa1,
@@ -20000,15 +19514,6 @@ const struct GlyphNew GlyTJA_E897AA = { /* 藪 */
     .bitmap = GlyTJA_E897AATiles,
 };
 
-const struct GlyphNew GlyTJA_E587AA = { /* 凪 */
-    .next = &GlyTJA_E58FA1,
-    .width = 11,
-    .utf_byte_2 = 0x87,
-    .utf_byte_3 = 0xaa,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E587AATiles,
-};
-
 const struct GlyphNew GlyTJA_E6B7AB = { /* 淫 */
     .next = &GlyTJA_E687A3,
     .width = 11,
@@ -20016,15 +19521,6 @@ const struct GlyphNew GlyTJA_E6B7AB = { /* 淫 */
     .utf_byte_3 = 0xab,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E6B7ABTiles,
-};
-
-const struct GlyphNew GlyTJA_E8ABAB = { /* 諫 */
-    .next = &GlyTJA_E897AA,
-    .width = 11,
-    .utf_byte_2 = 0xab,
-    .utf_byte_3 = 0xab,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E8ABABTiles,
 };
 
 const struct GlyphNew GlyTJA_E9ABAD = { /* 髭 */
@@ -20037,7 +19533,7 @@ const struct GlyphNew GlyTJA_E9ABAD = { /* 髭 */
 };
 
 const struct GlyphNew GlyTJA_E583AD = { /* 僭 */
-    .next = &GlyTJA_E587AA,
+    .next = &GlyTJA_E58FA1,
     .width = 11,
     .utf_byte_2 = 0x83,
     .utf_byte_3 = 0xad,
@@ -20052,15 +19548,6 @@ const struct GlyphNew GlyTJA_E593AD = { /* 哭 */
     .utf_byte_3 = 0xad,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E593ADTiles,
-};
-
-const struct GlyphNew GlyTJA_E297AF = { /* ◯ */
-    .next = &GlyTJA_E299AA,
-    .width = 11,
-    .utf_byte_2 = 0x97,
-    .utf_byte_3 = 0xaf,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E297AFTiles,
 };
 
 const struct GlyphNew GlyTJA_E69BB0 = { /* 曰 */
@@ -20082,7 +19569,7 @@ const struct GlyphNew GlyTJA_E6A3B2 = { /* 棲 */
 };
 
 const struct GlyphNew GlyTJA_E89FBB = { /* 蟻 */
-    .next = &GlyTJA_E8ABAB,
+    .next = &GlyTJA_E897AA,
     .width = 11,
     .utf_byte_2 = 0x9f,
     .utf_byte_3 = 0xbb,
@@ -20097,15 +19584,6 @@ const struct GlyphNew GlyTJA_E9819C = { /* 遜 */
     .utf_byte_3 = 0x9c,
     .utf_byte_4 = 0x00,
     .bitmap = GlyTJA_E9819CTiles,
-};
-
-const struct GlyphNew GlyTJA_E991BD = { /* 鑽 */
-    .next = &GlyTJA_E9819C,
-    .width = 11,
-    .utf_byte_2 = 0x91,
-    .utf_byte_3 = 0xbd,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_E991BDTiles,
 };
 
 const struct GlyphNew GlyTJA_E6AB82 = { /* 櫂 */
@@ -20127,7 +19605,7 @@ const struct GlyphNew GlyTJA_E7B9AB = { /* 繫 */
 };
 
 const struct GlyphNew GlyTJA_E296B8 = { /* ▸ */
-    .next = &GlyTJA_E297AF,
+    .next = &GlyTJA_E299AA,
     .width = 5,
     .utf_byte_2 = 0x96,
     .utf_byte_3 = 0xb8,
@@ -20145,7 +19623,7 @@ const struct GlyphNew GlyTJA_E89493 = { /* 蔓 */
 };
 
 const struct GlyphNew GlyTJA_E981A1 = { /* 遡 */
-    .next = &GlyTJA_E991BD,
+    .next = &GlyTJA_E9819C,
     .width = 11,
     .utf_byte_2 = 0x81,
     .utf_byte_3 = 0xa1,
@@ -20198,17 +19676,8 @@ const struct GlyphNew GlyTJA_E79F9C = { /* 矜 */
     .bitmap = GlyTJA_E79F9CTiles,
 };
 
-const struct GlyphNew GlyTJA_C3B7 = { /* ÷ */
-    .next = &GlyTJA_C397,
-    .width = 6,
-    .utf_byte_2 = 0xb7,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTJA_C3B7Tiles,
-};
-
 struct GlyphNew const * const GlyTJANew[0x100 - 0x20] = {
-    [0xe3 - 0x20] = &GlyTJA_E38087,
+    [0xe3 - 0x20] = &GlyTJA_E38091,
     [0xe2 - 0x20] = &GlyTJA_E296B8,
     [0xe6 - 0x20] = &GlyTJA_E6AB82,
     [0xe9 - 0x20] = &GlyTJA_E99796,
@@ -20217,7 +19686,7 @@ struct GlyphNew const * const GlyTJANew[0x100 - 0x20] = {
     [0xe7 - 0x20] = &GlyTJA_E79F9C,
     [0xe4 - 0x20] = &GlyTJA_E4B8B2,
     [0xef - 0x20] = &GlyTJA_EFBC9A,
-    [0xc3 - 0x20] = &GlyTJA_C3B7,
+    [0xc3 - 0x20] = &GlyTJA_C397,
     [0x3d - 0x20] = &GlyTJA_3D,
     [0x28 - 0x20] = &GlyTJA_28,
     [0x29 - 0x20] = &GlyTJA_29,
@@ -20313,5 +19782,4 @@ struct GlyphNew const * const GlyTJANew[0x100 - 0x20] = {
     [0x7c - 0x20] = &GlyTJA_7C,
     [0x7d - 0x20] = &GlyTJA_7D,
     [0x7e - 0x20] = &GlyTJA_7E,
-    [0xce - 0x20] = &GlyTJA_CEA9,
 };
