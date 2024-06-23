@@ -291,7 +291,7 @@ def main():
     read_texts(TextType.DATA, Language.LANGUAGE_CHINESE, 'asset/json/files/assets/TWZH/Message/Data')
     write_texts(TextType.SCENARIO, 'include/scenarioTexts.h')
     write_texts(TextType.UNIT, 'include/unitTexts.h')
-    write_texts(TextType.SKILL, 'include/skillTexts.h')
+    # write_texts(TextType.SKILL, 'include/skillTexts.h')
     write_texts(TextType.STAGE, 'include/stageTexts.h')
     write_texts(TextType.MUSIC, 'include/musicTexts.h')
     write_header('include/texts.h')
