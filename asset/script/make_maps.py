@@ -19,9 +19,9 @@ terrain_config_path = os.path.join(config_common_path, 'SRPG/Terrain.json')
 map_asset_path = 'asset/file/collection/Maps/'
 map_image_path = os.path.join(map_asset_path, 'Story/')
 map_common_path = os.path.join(map_asset_path, 'Common/')
-map_image_save_path = 'map/'
-wiki_map_save_path = 'asset/wiki/maps/'
-wiki_map_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
+map_image_save_path = 'map/full_color/'
+wiki_config_save_path = 'map/wiki_conf/'
+wiki_config_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
 
 map_names = {
     "S5125": "Book_V,_Chapter_12-5:_Family",
@@ -199,21 +199,21 @@ def get_text_in_textarea(url):
         browser.close()
         return text
 
-def fetch_map_from_wiki(map_id):
-    url = wiki_map_url % urllib.parse.quote_plus(map_configs[map_id]['name'].replace('’', "'").replace(' ', '_'))
+def fetch_config_from_wiki(map_id):
+    url = wiki_config_url % urllib.parse.quote_plus(map_configs[map_id]['name'].replace('’', "'").replace(' ', '_'))
     text = get_text_in_textarea(url)
-    with open(os.path.join(wiki_map_save_path, map_id + '.txt'), 'w', encoding='utf-8') as file:
+    with open(os.path.join(wiki_config_save_path, map_id + '.txt'), 'w', encoding='utf-8') as file:
         file.write(text)
 
-def fetch_all_maps_from_wiki():
+def fetch_all_configs_from_wiki():
     for map_id in map_configs:
-        if not os.path.exists(os.path.join(wiki_map_save_path, map_id + '.txt')):
+        if not os.path.exists(os.path.join(wiki_config_save_path, map_id + '.txt')):
             print('Fetching map %s: %s' % (map_id, map_configs[map_id]['name']))
-            fetch_map_from_wiki(map_id)
+            fetch_config_from_wiki(map_id)
 
 def load_map_from_wiki(map_id):
     map_configs[map_id]['field']['changes'] = {}
-    with open(os.path.join(wiki_map_save_path, map_id + '.txt'), 'r', encoding='utf-8') as file:
+    with open(os.path.join(wiki_config_save_path, map_id + '.txt'), 'r', encoding='utf-8') as file:
         text = file.read()
         text = text.replace('#invoke:MapLayout|', '')
         pattern = '\| ([a-f][1-8])=\{\{Wall\|([^}]*)}}'
@@ -305,8 +305,8 @@ def make_map_images():
         #         terrain_id = terrains[y][x]
         #         if is_breakable(terrain_id):
         #             breakable_walls.append((x, y))
-        if not os.path.exists(os.path.join(wiki_map_save_path, map_id + '.txt')):
-            fetch_map_from_wiki(map_id)
+        if not os.path.exists(os.path.join(wiki_config_save_path, map_id + '.txt')):
+            fetch_config_from_wiki(map_id)
         load_map_from_wiki(map_id)
         if len(config['field']['changes']) > 0:
             image_map_new = Image.new('RGBA', (192 * 2, 256), (0, 0, 0, 0))
@@ -330,5 +330,5 @@ if __name__ == '__main__':
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
-    fetch_all_maps_from_wiki()
+    fetch_all_configs_from_wiki()
     make_map_images()
