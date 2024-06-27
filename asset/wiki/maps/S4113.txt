@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0411.webp
+|stageTitle=Chapter 11-3
+|stageName=Changing Exchange
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 11: Plumeria's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4113
+|backdrop=
+|allyPos=a4,a3,a2,b2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6={{Wall|style=normal|type=Pillar|hp=1}} | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Wall|style=normal|type=E|hp=U}} | c5={{Wall|style=normal|type=W|hp=U}} | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE09_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-09-18T07:00:00Z|notification=New Heroes: Despair and Hope (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Shinon: Scathing Archer;pos=c8;rarity=3;slot=1;level=28;stats=[30;26;29;17;16];weapon=Silver Bow;assist=-;special=Night Sky;a=Atk/Def Solo 1;b=Lull Atk/Spd 1;c=Time's Pulse 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Gatrie: Armored Amour;pos=e5;rarity=3;slot=2;level=28;stats=[35;30;11;30;24];weapon=Spirited Spear;assist=-;special=New Moon;a=Fort. Def/Res 1;b=Crafty Fighter 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Knight;pos=e4;rarity=3;slot=3;level=28;stats=[42;26;10;28;12];weapon=Steel Sword;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Armor March 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f1;rarity=3;slot=4;level=28;stats=[29;20;21;13;18];weapon=Elwind;assist=-;special=Rising Wind;a=Distant Def 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=e7;rarity=3;slot=5;level=28;stats=[29;20;21;13;18];weapon=Elfire;assist=-;special=Miracle;a=-;b=Poison Strike 1;c=Breath of Life 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Shinon: Scathing Archer;pos=c8;rarity=4;slot=1;level=37;stats=[36;34;38;23;21];weapon=Double Bow;assist=-;special=Night Sky;a=Atk/Def Solo 2;b=Lull Atk/Spd 2;c=Time's Pulse 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Gatrie: Armored Amour;pos=e5;rarity=4;slot=2;level=37;stats=[42;38;14;39;31];weapon=Spirited Spear+;assist=-;special=New Moon;a=Fort. Def/Res 2;b=Crafty Fighter 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Knight;pos=e4;rarity=4;slot=3;level=37;stats=[50;34;13;36;16];weapon=Wo Dao;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Armor March 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f1;rarity=4;slot=4;level=37;stats=[34;27;28;17;24];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Distant Def 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=e7;rarity=4;slot=5;level=37;stats=[34;27;28;17;24];weapon=Rauðrowl;assist=-;special=Miracle;a=-;b=Poison Strike 2;c=Breath of Life 2;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Shinon: Scathing Archer;pos=c8;rarity=5;slot=1;level=42;stats=[41;40;44;28;25];weapon=Double Bow;assist=-;special=Deadeye;a=Atk/Def Solo 4;b=Lull Atk/Spd 3;c=Time's Pulse 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Gatrie: Armored Amour;pos=e5;rarity=5;slot=2;level=42;stats=[49;44;17;45;36];weapon=Spirited Spear+;assist=-;special=Moonbow;a=Fort. Def/Res 3;b=Crafty Fighter 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Knight;pos=e4;rarity=5;slot=3;level=42;stats=[57;40;16;42;19];weapon=Wo Dao+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Armor March 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f1;rarity=5;slot=4;level=42;stats=[38;32;33;20;29];weapon=Rexcalibur+;assist=-;special=Growing Wind;a=Distant Def 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=e7;rarity=5;slot=5;level=42;stats=[38;32;33;20;29];weapon=Rauðrowl+;assist=-;special=Miracle;a=-;b=Poison Strike 3;c=Breath of Life 3;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Cry for Help|What I Dreamed Of}}
+==In other languages==
+{{OtherLanguages
+|japanese=とりかえて、またとりかえて
+|german=Wechsel um Wechsel
+|spanishEU=El cambio
+|spanishLA=El cambio
+|french=Échange de changelins
+|italian=Scambi continui
+|chineseTW=交換，再交換
+|portuguese=Mudanças
+}}
+{{Story Maps Navbox|book=4}}

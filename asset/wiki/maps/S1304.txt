@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Bruno Unrevealed.png
+|mapName=Chapter 12-4: Before the Goddess
+|stageTitle=Chapter 12-4
+|stageName=Before the Goddess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 12: Bitter Enemies
+|mapMode=Turn Limit Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1304
+| a8= | b8= | c8={{Wall|style=inside|type=Pillar|hp=U}} | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6={{Wall|style=inside|type=E|hp=U}} | d6={{Wall|style=inside|type=EW|hp=U}} | e6={{Wall|style=inside|type=EW|hp=1}} | f6={{Wall|style=inside|type=EW|hp=U}}
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Ally|1}} | f3={{Ally|2}}
+| a2= | b2= | c2= | d2= | e2={{Ally|3}} | f2={{Ally|4}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=33
+|lvlLunatic=43
+|rarityNormal=4
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Win: 6 (Normal)<br>Turns to Win: 5 (Hard)<br>Turns to Win: 5 (Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_03.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-07-13T07:00:00Z|notification=New Heroes: Alm's Army (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Saber: Driven Mercenary;pos=b5;rarity=4;slot=1;level=26;stats=[30;21;24;23;15];weapon=Slaying Edge;assist=-;special=Holy Vestments;a=HP/Spd 1;b=Shield Pulse 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sonya: Vengeful Mage;pos=e8;rarity=4;slot=2;level=26;stats=[28;23;21;11;23];weapon=Rexcalibur;assist=-;special=New Moon;a=Mirror Strike 1;b=-;c=Res Ploy 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Leon: True of Heart;pos=d7;rarity=4;slot=3;level=26;stats=[29;24;20;21;11];weapon=Slaying Bow;assist=-;special=Glowing Ember;a=Speed +1;b=Guard 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=a4;rarity=3;slot=4;level=26;stats=[28;18;23;13;24];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=Hone Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Cavalier;pos=b7;rarity=3;slot=5;level=26;stats=[25;23;16;11;22];weapon=Elfire;assist=-;special=-;a=HP +4;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Saber: Driven Mercenary;pos=b5;rarity=4;slot=1;level=33;stats=[34;25;28;27;17];weapon=Slaying Edge;assist=-;special=Holy Vestments;a=HP/Spd 1;b=Shield Pulse 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sonya: Vengeful Mage;pos=e8;rarity=4;slot=2;level=33;stats=[31;27;25;12;27];weapon=Rexcalibur;assist=-;special=New Moon;a=Mirror Strike 1;b=-;c=Res Ploy 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Leon: True of Heart;pos=d7;rarity=4;slot=3;level=33;stats=[33;28;24;25;12];weapon=Slaying Bow;assist=-;special=Glowing Ember;a=Speed +1;b=Guard 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=a4;rarity=4;slot=4;level=33;stats=[32;22;29;16;30];weapon=Silver Lance;assist=-;special=-;a=Armored Blow 1;b=-;c=Hone Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Cavalier;pos=b7;rarity=4;slot=5;level=33;stats=[28;29;20;13;28];weapon=Bolganone;assist=-;special=-;a=HP +4;b=Pass 1;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Saber: Driven Mercenary;pos=b5;rarity=5;slot=1;level=43;displaylevel=40;stats=[42;33;35;34;24];weapon=Slaying Edge+;assist=-;special=Aegis;a=HP/Spd 2;b=Shield Pulse 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sonya: Vengeful Mage;pos=e8;rarity=5;slot=2;level=43;displaylevel=40;stats=[38;36;33;17;34];weapon=Dark Excalibur;assist=-;special=Moonbow;a=Mirror Strike 2;b=-;c=Res Ploy 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Leon: True of Heart;pos=d7;rarity=5;slot=3;level=43;displaylevel=40;stats=[41;37;32;32;17];weapon=Slaying Bow+;assist=-;special=Ignis;a=Speed +3;b=Guard 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=a4;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;30;38;23;39];weapon=Silver Lance+;assist=-;special=-;a=Armored Blow 3;b=-;c=Hone Atk 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Cavalier;pos=b7;rarity=5;slot=5;level=43;displaylevel=40;stats=[35;38;27;18;37];weapon=Bolganone+;assist=-;special=-;a=HP +5;b=Pass 3;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=女神の神殿
+|german=Im Angesicht der Göttin
+|spanishEU=Ante la diosa
+|spanishLA=Ante la diosa
+|french=Face à la déesse
+|italian=Al cospetto della dea
+|chineseTW=女神的神殿
+|portuguese=Diante da deusa
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:War_of_Deliverance|Fire Emblem Echoes: Shadows of Valentia - Act 3: War of Deliverance - Liberation of the Temple of Mila]]. ([https://www.youtube.com/watch?v=oBA6OwJ2Oik Map Video])
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,106 @@
+{{Battle Infobox
+|bannerImage=Banner_Fjorm.png
+|mapName=Chapter 2-5: Ruler of Flame
+|stageTitle=Chapter 2: Part 5
+|stageName=Ruler of Flame
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 2: Princess of Ice
+|mapMode=Defensive Battle Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2025
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4={{Wall|style=Souen|type=Pillar|hp=1}} | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3= | e3= | f3=
+| a2= | b2={{Ally|2}} | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=28
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|winReq=Turns to Defend: 6
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_03.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-11-28T04:00:00Z|notification=What's in Store for the 2.0.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2025
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4={{Wall|style=Souen|type=Pillar|hp=1}} | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Surtr: Ruler of Flame;pos=c7;rarity=3;slot=1;level=7;stats=[23;10;4;11;8];weapon=Sinmara;assist=-;special=Glowing Ember;a=Death Blow 2;b=-;c=Threaten Def 1;seal=Múspellflame;ai={turn=4;break_walls=1};};
+{unit=Loki: The Trickster;pos=f6;rarity=3;slot=2;level=7;stats=[20;8;10;1;7];weapon=Assault;assist=Heal;special=-;a=-;b=-;c=Hone Spd 1;seal=-;ai={turn=2;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=e6;rarity=3;slot=3;level=7;stats=[21;9;9;8;2];weapon=Iron Sword;assist=-;special=-;a=Defiant Atk 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Manakete;pos=a6;rarity=3;slot=4;level=7;stats=[18;6;10;5;4];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Dragon;pos=f1;rarity=3;slot=5;level=7;stats=[19;8;7;7;2];weapon=Iron Axe;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Lance Cavalier;pos=c8;rarity=3;slot=6;level=7;stats=[19;7;6;2;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=Spur Def 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Sword Dragon;pos=a8;rarity=3;slot=7;level=7;stats=[19;8;7;7;2];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+|Hard=[
+{unit=Surtr: Ruler of Flame;pos=c7;rarity=4;slot=1;level=28;stats=[40;29;10;30;25];weapon=Sinmara;assist=-;special=Ignis;a=Death Blow 3;b=-;c=Threaten Def 3;seal=Múspellflame;ai={turn=2;break_walls=1};};
+{unit=Loki: The Trickster;pos=f6;rarity=4;slot=2;level=28;stats=[32;24;26;12;21];weapon=Gravity;assist=Recover;special=Solid-Earth Balm;a=-;b=Renewal 1;c=Hone Spd 1;seal=-;ai={turn=2;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=e6;rarity=4;slot=3;level=28;stats=[33;27;21;26;17];weapon=Silver Sword;assist=-;special=Rising Flame;a=Defiant Atk 2;b=Desperation 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Manakete;pos=a6;rarity=4;slot=4;level=28;stats=[34;23;22;20;19];weapon=Fire Breath+;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Dragon;pos=f1;rarity=4;slot=5;level=28;stats=[32;26;18;27;12];weapon=Steel Axe;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Lance Cavalier;pos=c8;rarity=4;slot=6;level=28;stats=[32;25;16;17;22];weapon=Steel Lance;assist=-;special=Holy Vestments;a=-;b=-;c=Spur Def 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Sword Dragon;pos=a8;rarity=4;slot=7;level=28;stats=[32;26;18;27;12];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=-;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Green Manakete;pos=f8;rarity=4;slot=8;level=28;stats=[34;23;22;20;19];weapon=Fire Breath+;assist=-;special=-;a=Fierce Stance 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+|Lunatic=[
+{unit=Surtr: Ruler of Flame;pos=c7;rarity=5;slot=1;level=45;displaylevel=40;stats=[57;43;16;44;38];weapon=Sinmara;assist=-;special=Ignis;a=Death Blow 3;b=Cancel Affinity 3;c=Threaten Def 3;seal=Múspellflame;ai={turn=1;break_walls=1};};
+{unit=Loki: The Trickster;pos=f6;rarity=5;slot=2;level=45;displaylevel=40;stats=[45;36;38;21;33];weapon=Thökk;assist=Recover+;special=Solid-Earth Balm;a=-;b=Renewal 3;c=Hone Spd 3;seal=-;ai={turn=2;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=e6;rarity=5;slot=3;level=45;displaylevel=40;stats=[46;39;34;38;28];weapon=Laevatein (weapon);assist=-;special=Growing Flame;a=Defiant Atk 3;b=Desperation 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Manakete;pos=a6;rarity=5;slot=4;level=45;displaylevel=40;stats=[47;35;33;32;31];weapon=Dark Breath+;assist=-;special=-;a=-;b=-;c=Savage Blow 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Dragon;pos=f1;rarity=5;slot=5;level=45;displaylevel=40;stats=[44;38;30;39;21];weapon=Silver Axe+;assist=Rally Atk/Def;special=-;a=Steady Stance 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Lance Cavalier;pos=c8;rarity=5;slot=6;level=45;displaylevel=40;stats=[44;37;27;28;33];weapon=Sapphire Lance+;assist=-;special=Sacred Cowl;a=-;b=-;c=Spur Def 3;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Sword Dragon;pos=a8;rarity=5;slot=7;level=45;displaylevel=40;stats=[44;38;30;39;21];weapon=Brave Sword+;assist=-;special=Draconic Aura;a=-;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Green Manakete;pos=f8;rarity=5;slot=8;level=45;displaylevel=40;stats=[47;35;33;32;31];weapon=Lightning Breath+;assist=-;special=-;a=Fierce Stance 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Lady of Snow|Amelia & Tana: Bound Hero Battle}}
+==In other languages==
+{{OtherLanguages
+|japanese=炎の王
+|german=Feuerherrscher
+|spanishEU=Rey ígneo
+|spanishLA=Soberano ígneo
+|french=Souverain du feu
+|italian=Il re del fuoco
+|chineseTW=炎之王
+|portuguese=Soberano do fogo
+}}
+{{Story Maps Navbox|book=2}}

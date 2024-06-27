@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Ryoma Unrevealed.png
+|mapName=Chapter 6-2: Vain Prince
+|stageTitle=Chapter 6: Part 2
+|stageName=Vain Prince
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 6: World of Birthright
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0702
+| a8= | b8= | c8={{Ally|1}} | d8={{Ally|2}} | e8= | f8=
+| a7= | b7= | c7={{Ally|3}} | d7={{Ally|4}} | e7= | f7=
+| a6={{Wall|style=inside|type=Pillar|hp=1}} | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5={{Wall|style=inside|type=E|hp=U}} | d5={{Wall|style=inside|type=W|hp=1}} | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=22
+|lvlLunatic=32
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=6
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Takumi: Wild Card;pos=a2;rarity=3;slot=1;level=12;stats=[23;13;13;10;7];weapon=Steel Bow;assist=-;special=Retribution;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Oboro: Fierce Fighter;pos=c3;rarity=3;slot=2;level=12;stats=[23;13;11;15;9];weapon=Steel Lance;assist=-;special=-;a=-;b=Seal Def 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hinata: Wild Samurai;pos=a3;rarity=3;slot=3;level=12;stats=[27;13;9;16;6];weapon=Ruby Sword;assist=-;special=-;a=-;b=Brash Assault 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Saizo: Angry Ninja;pos=f3;rarity=3;slot=4;level=12;stats=[21;12;14;14;5];weapon=Steel Dagger;assist=-;special=-;a=-;b=Poison Strike 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Takumi: Wild Card;pos=a2;rarity=3;slot=1;level=22;stats=[28;19;19;14;10];weapon=Steel Bow;assist=-;special=Retribution;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Oboro: Fierce Fighter;pos=c3;rarity=3;slot=2;level=22;stats=[28;19;15;21;13];weapon=Steel Lance;assist=-;special=-;a=-;b=Seal Def 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hinata: Wild Samurai;pos=a3;rarity=3;slot=3;level=22;stats=[33;19;13;22;9];weapon=Ruby Sword;assist=-;special=-;a=-;b=Brash Assault 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Saizo: Angry Ninja;pos=f3;rarity=3;slot=4;level=22;stats=[25;17;20;20;8];weapon=Steel Dagger;assist=-;special=-;a=-;b=Poison Strike 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Takumi: Wild Card;pos=a2;rarity=4;slot=1;level=32;stats=[33;26;27;20;14];weapon=Silver Bow;assist=-;special=Retribution;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Oboro: Fierce Fighter;pos=c3;rarity=4;slot=2;level=32;stats=[33;26;21;29;19];weapon=Silver Lance;assist=-;special=-;a=-;b=Seal Def 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hinata: Wild Samurai;pos=a3;rarity=4;slot=3;level=32;stats=[40;26;19;30;13];weapon=Ruby Sword;assist=-;special=-;a=-;b=Brash Assault 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Saizo: Angry Ninja;pos=f3;rarity=4;slot=4;level=32;stats=[31;22;28;27;12];weapon=Silver Dagger;assist=-;special=-;a=-;b=Poison Strike 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ひねくれ屋な弟王子
+|german=Selbstgefälliger Prinz
+|spanishEU=El príncipe iracundo
+|spanishLA=El príncipe iracundo
+|french=L'archer vaniteux
+|italian=Il principe permaloso
+|chineseTW=彆扭的王弟
+|portuguese=O príncipe vaidoso
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Unhappy_Reunion|Fire Emblem Fates: Conquest - Chapter 10: Unhappy Reunion]]. ([https://www.youtube.com/watch?v=NR9IReJT6o0 Map Video])
+
+{{Story Maps Navbox|book=1}}

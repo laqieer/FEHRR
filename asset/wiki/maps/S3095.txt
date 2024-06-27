@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=Map C0309.webp
+|stageTitle=Chapter 9: Part 5
+|stageName=My Sanity Died with Them
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 9: Cohort of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3095
+|backdrop=Wave
+| a8= | b8= | c8={{Ally|1}} | d8={{Ally|2}} | e8= | f8=
+| a7= | b7= | c7={{Ally|3}} | d7={{Ally|4}} | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5={{Wall|style=BraveBoss|type=Pillar|hp=2}} | d5= | e5={{Wall|style=BraveBoss|type=Pillar|hp=2}} | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3={{Wall|style=BraveBoss|type=Pillar|hp=1}} | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=39
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-07-22T07:00:00Z|notification=New Heroes: Three Houses (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=b3;rarity=3;slot=1;level=26;stats=[30;25;19;22;17];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Heavy Blade 1;b=Desperation 1;c=Pulse Smoke 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Byleth: Proven Professor;pos=d1;rarity=3;slot=2;level=26;stats=[29;22;26;21;13];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Fury 1;b=Wrath 1;c=Even Atk Wave 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Dimitri: The Protector;pos=a3;rarity=3;slot=3;level=26;stats=[29;24;17;22;10];weapon=Silver Lance;assist=-;special=Retribution;a=Death Blow 1;b=Lull Atk/Def 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Edelgard: The Future;pos=f4;rarity=3;slot=4;level=26;stats=[29;25;19;24;13];weapon=Silver Axe;assist=-;special=New Moon;a=Atk/Def Solo 1;b=Dull Close 1;c=Rouse Atk/Def 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Claude: The Schemer;pos=f1;rarity=3;slot=5;level=26;stats=[28;21;25;12;13];weapon=Silver Bow;assist=-;special=Night Sky;a=-;b=Lull Spd/Def 1;c=Def Smoke 3;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=b3;rarity=4;slot=1;level=39;stats=[39;35;28;31;25];weapon=Sökkvabekkr;assist=-;special=Bonfire;a=Heavy Blade 2;b=Desperation 2;c=Pulse Smoke 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Byleth: Proven Professor;pos=d1;rarity=4;slot=2;level=39;stats=[37;32;38;30;18];weapon=Creator Sword;assist=-;special=Dragon Fang;a=Fury 3;b=Wrath 2;c=Even Atk Wave 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Dimitri: The Protector;pos=a3;rarity=4;slot=3;level=39;stats=[37;34;26;32;16];weapon=Noble Lance;assist=-;special=Retribution;a=Death Blow 3;b=Lull Atk/Def 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Edelgard: The Future;pos=f4;rarity=4;slot=4;level=39;stats=[38;37;27;35;19];weapon=Victorious Axe;assist=-;special=New Moon;a=Atk/Def Solo 2;b=Dull Close 2;c=Rouse Atk/Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Claude: The Schemer;pos=f1;rarity=4;slot=5;level=39;stats=[36;31;35;18;18];weapon=Cunning Bow;assist=-;special=Night Sky;a=-;b=Lull Spd/Def 2;c=Def Smoke 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=b3;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;40;33;37;31];weapon=Sökkvabekkr;assist=-;special=Bonfire;a=Heavy Blade 3;b=Desperation 3;c=Pulse Smoke 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Byleth: Proven Professor;pos=d1;rarity=5;slot=2;level=45;displaylevel=40;stats=[43;37;44;36;23];weapon=Creator Sword;assist=-;special=Ruptured Sky;a=Fury 4;b=Wrath 3;c=Even Atk Wave 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Dimitri: The Protector;pos=a3;rarity=5;slot=3;level=45;displaylevel=40;stats=[43;39;32;37;20];weapon=Noble Lance;assist=-;special=Vengeance;a=Death Blow 4;b=Lull Atk/Def 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Edelgard: The Future;pos=f4;rarity=5;slot=4;level=45;displaylevel=40;stats=[44;43;33;41;23];weapon=Victorious Axe;assist=-;special=Luna;a=Atk/Def Solo 3;b=Dull Close 3;c=Rouse Atk/Def 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Claude: The Schemer;pos=f1;rarity=5;slot=5;level=45;displaylevel=40;stats=[42;36;40;22;23];weapon=Cunning Bow;assist=-;special=Glimmer;a=-;b=Lull Spd/Def 3;c=Def Smoke 3;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Future|Joining Forces}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=正気を失うには、十分だ
+|german=Ende der Vernunft
+|spanishEU=Pérdida de cordura
+|spanishLA=Pérdida de cordura
+|french=Lucidité perdue
+|italian=Nel baratro della follia
+|chineseTW=足以讓人失去理智
+|portuguese=Minha sanidade se foi
+}}
+{{Story Maps Navbox|book=3}}

@@ -1,0 +1,115 @@
+{{Battle Infobox
+|bannerImage=Banner_Ike Unrevealed.png
+|mapName=Chapter 10-4: The Last Line of Defense
+|stageTitle=Chapter 10: Part 4
+|stageName=The Last Line of Defense
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 10: World of Radiance
+|mapMode=Defensive Battle Map
+|version1=Starting Positions
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1104
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7={{Wall|style=Souen|type=EW|hp=U}} | d7={{Wall|style=Souen|type=EW|hp=U}} | e7= | f7=
+| a6={{Wall|style=Souen|type=EW|hp=U}} | b6={{Wall|style=Souen|type=W|hp=2}} | c6= | d6= | e6={{Wall|style=Souen|type=E|hp=2}} | f6={{Wall|style=Souen|type=EW|hp=U}}
+| a5= | b5= | c5={{Ally|1}} | d5={{Ally|2}} | e5= | f5=
+| a4= | b4={{Ally|3}} | c4= | d4= | e4={{Ally|4}} | f4=
+| a3= | b3= | c3={{Wall|style=Souen|type=EW|hp=U}} | d3={{Wall|style=Souen|type=EW|hp=U}} | e3= | f3=
+| a2={{Wall|style=Souen|type=EW|hp=U}} | b2={{Wall|style=Souen|type=W|hp=2}} | c2= | d2= | e2={{Wall|style=Souen|type=E|hp=2}} | f2={{Wall|style=Souen|type=EW|hp=U}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=33
+|lvlLunatic=43
+|rarityNormal=4
+|rarityHard=5
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Defend: 6
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-04-26T07:00:00Z|notification=New Heroes: World of Radiance Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|backdrop=
+|baseMap=S1104
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7={{Wall|style=Souen|type=EW|hp=U}} | d7={{Wall|style=Souen|type=EW|hp=U}} | e7= | f7=
+| a6={{Wall|style=Souen|type=EW|hp=U}} | b6={{Wall|style=Souen|type=W|hp=2}} | c6= | d6= | e6={{Wall|style=Souen|type=E|hp=2}} | f6={{Wall|style=Souen|type=EW|hp=U}}
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Wall|style=Souen|type=EW|hp=U}} | d3={{Wall|style=Souen|type=EW|hp=U}} | e3= | f3=
+| a2={{Wall|style=Souen|type=EW|hp=U}} | b2={{Wall|style=Souen|type=W|hp=2}} | c2= | d2= | e2={{Wall|style=Souen|type=E|hp=2}} | f2={{Wall|style=Souen|type=EW|hp=U}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Ike: Young Mercenary;pos=c1;rarity=4;slot=1;level=23;stats=[30;23;19;21;11];weapon=Ragnell;assist=-;special=Aether;a=Heavy Blade 3;b=Swordbreaker 3;c=-;seal=Embla's Ward;ai={turn=4;break_walls=1};};
+{unit=Titania: Mighty Mercenary;pos=a8;rarity=4;slot=2;level=23;stats=[28;17;22;16;20];weapon=Emerald Axe;assist=Reciprocal Aid;special=Sol;a=Armored Blow 3;b=Guard 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Soren: Shrewd Strategist;pos=e8;rarity=4;slot=3;level=23;stats=[27;21;22;10;18];weapon=Rexcalibur;assist=-;special=Growing Wind;a=-;b=Watersweep 1;c=Fortify Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=c8;rarity=3;slot=4;level=23;stats=[30;19;17;17;9];weapon=Steel Bow;assist=-;special=-;a=Darting Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Cavalier;pos=d1;rarity=3;slot=5;level=23;stats=[24;21;15;10;20];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=Threaten Spd 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=a1;rarity=3;slot=6;level=23;stats=[29;20;14;15;18];weapon=Steel Lance;assist=-;special=-;a=Defiant Spd 2;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=5;target=Lance Cavalier;remain=0};};
+{unit=Sword Cavalier;pos=f1;rarity=3;slot=7;level=23;stats=[29;20;14;15;18];weapon=Steel Sword;assist=-;special=-;a=Defiant Atk 2;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=5;target=Sword Cavalier;remain=0};};
+{unit=Axe Flier;pos=a8;rarity=3;slot=8;level=23;stats=[27;16;21;12;22];weapon=Steel Axe;assist=Ardent Sacrifice;special=-;a=-;b=Wings of Mercy 1;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Sword Cavalier;pos=f8;rarity=3;slot=9;level=23;stats=[29;20;14;15;18];weapon=Steel Sword;assist=-;special=-;a=Death Blow 2;b=Knock Back;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=6};};
+{unit=Green Mage;pos=a8;rarity=3;slot=10;level=23;stats=[27;18;19;12;16];weapon=Gronnraven;assist=-;special=-;a=-;b=-;c=Threaten Def 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=6};};
+]
+|Hard=[
+{unit=Ike: Young Mercenary;pos=c1;rarity=5;slot=1;level=33;stats=[38;31;27;28;16];weapon=Ragnell;assist=-;special=Aether;a=Heavy Blade 3;b=Swordbreaker 3;c=-;seal=Embla's Ward;ai={turn=3;break_walls=1};};
+{unit=Titania: Mighty Mercenary;pos=a8;rarity=5;slot=2;level=33;stats=[34;24;30;22;26];weapon=Emerald Axe;assist=Reciprocal Aid;special=Sol;a=Armored Blow 3;b=Guard 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Soren: Shrewd Strategist;pos=e8;rarity=5;slot=3;level=33;stats=[33;29;29;15;25];weapon=Rexcalibur;assist=-;special=Growing Wind;a=-;b=Watersweep 2;c=Fortify Res 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=c8;rarity=4;slot=4;level=33;stats=[37;27;24;23;12];weapon=Silver Bow;assist=-;special=-;a=Darting Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Cavalier;pos=d1;rarity=4;slot=5;level=33;stats=[28;29;20;13;28];weapon=Thoron;assist=-;special=-;a=-;b=-;c=Threaten Spd 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=a1;rarity=4;slot=6;level=33;stats=[35;28;19;20;25];weapon=Silver Lance;assist=-;special=-;a=Defiant Spd 2;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4;count=2;target=Lance Cavalier;remain=0};};
+{unit=Sword Cavalier;pos=f1;rarity=4;slot=7;level=33;stats=[35;28;19;20;25];weapon=Silver Sword;assist=-;special=-;a=Defiant Atk 2;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4;count=2;target=Sword Cavalier;remain=0};};
+{unit=Axe Flier;pos=a8;rarity=4;slot=8;level=33;stats=[32;22;29;16;30];weapon=Silver Axe;assist=Ardent Sacrifice;special=-;a=-;b=Wings of Mercy 2;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Sword Cavalier;pos=f8;rarity=4;slot=9;level=33;stats=[35;28;19;20;25];weapon=Silver Sword;assist=-;special=-;a=Death Blow 2;b=Knock Back;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=6};};
+{unit=Green Mage;pos=a8;rarity=4;slot=10;level=33;stats=[32;26;27;16;22];weapon=Gronnraven;assist=-;special=-;a=-;b=-;c=Threaten Def 2;seal=-;ai={turn=1;break_walls=1};spawn={turn=6};};
+]
+|Lunatic=[
+{unit=Ike: Young Mercenary;pos=c1;rarity=5;slot=1;level=43;displaylevel=40;stats=[44;38;33;34;19];weapon=Ragnell;assist=-;special=Aether;a=Heavy Blade 3;b=Swordbreaker 3;c=-;seal=Embla's Ward;ai={turn=3;break_walls=1};};
+{unit=Titania: Mighty Mercenary;pos=a8;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;30;37;27;32];weapon=Emerald Axe+;assist=Reciprocal Aid;special=Sol;a=Armored Blow 3;b=Guard 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Soren: Shrewd Strategist;pos=e8;rarity=5;slot=3;level=43;displaylevel=40;stats=[38;36;35;18;31];weapon=Rexcalibur+;assist=-;special=Growing Wind;a=-;b=Watersweep 3;c=Fortify Res 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=c8;rarity=5;slot=4;level=43;displaylevel=40;stats=[45;34;31;31;17];weapon=Silver Bow+;assist=-;special=-;a=Darting Blow 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Cavalier;pos=d1;rarity=5;slot=5;level=43;displaylevel=40;stats=[35;38;27;18;37];weapon=Thoron+;assist=-;special=-;a=-;b=-;c=Threaten Spd 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=a1;rarity=5;slot=6;level=43;displaylevel=40;stats=[43;37;26;27;32];weapon=Silver Lance+;assist=-;special=-;a=Defiant Spd 3;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4;count=2;target=Lance Cavalier;remain=0};};
+{unit=Sword Cavalier;pos=f1;rarity=5;slot=7;level=43;displaylevel=40;stats=[43;37;26;27;32];weapon=Silver Sword+;assist=-;special=-;a=Defiant Atk 3;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4;count=2;target=Sword Cavalier;remain=0};};
+{unit=Axe Flier;pos=a8;rarity=5;slot=8;level=43;displaylevel=40;stats=[39;30;38;23;39];weapon=Silver Axe+;assist=Ardent Sacrifice;special=-;a=-;b=Wings of Mercy 3;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Bow Fighter;pos=f8;rarity=5;slot=9;level=43;displaylevel=40;stats=[45;34;31;31;17];weapon=Silver Bow+;assist=-;special=-;a=-;b=Quick Riposte 3;c=-;seal=-;ai={turn=1;break_walls=1};spawn={target=Bow Fighter;remain=0};};
+{unit=Sword Cavalier;pos=f8;rarity=5;slot=10;level=43;displaylevel=40;stats=[43;37;26;27;32];weapon=Silver Sword+;assist=-;special=-;a=Death Blow 3;b=Knock Back;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=6};};
+{unit=Green Mage;pos=a8;rarity=5;slot=11;level=43;displaylevel=40;stats=[39;33;34;21;30];weapon=Gronnraven+;assist=-;special=-;a=-;b=-;c=Threaten Def 3;seal=-;ai={turn=1;break_walls=1};spawn={turn=6};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Imperial Prince|Book I, Chapter 10: Part 5: Radiant Hero}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=最後の砦
+|german=Das letzte Bollwerk
+|spanishEU=Última línea defensiva
+|spanishLA=Última línea defensiva
+|french=L'ultime ligne de défense
+|italian=L'ultima linea di difesa
+|chineseTW=最後堡壘
+|portuguese=Última linha de defesa
+}}
+{{Story Maps Navbox|book=1}}

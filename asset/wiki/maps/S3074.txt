@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0307.png
+|stageTitle=Chapter 7: Part 4
+|stageName=Engulfed by Madness
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 7: A Home Unknown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3074
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5={{Wall|style=BraveBoss|type=Pillar|hp=U}} | b5= | c5= | d5= | e5={{Wall|style=BraveBoss|type=Pillar|hp=U}} | f5=
+| a4= | b4= | c4= | d4= | e4={{Ally|1}} | f4={{Ally|2}}
+| a3= | b3= | c3= | d3={{Ally|3}} | e3={{Ally|4}} | f3=
+| a2= | b2= | c2={{Wall|style=BraveBoss|type=E|hp=1}} | d2={{Wall|style=BraveBoss|type=W|hp=1}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=35
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_13.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-05-10T07:00:00Z|notification=New Heroes: Darkness Within (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Berkut: Purgatorial Prince;pos=c7;rarity=3;slot=1;level=20;stats=[26;17;8;20;16];weapon=Steel Lance;assist=-;special=Retribution;a=Warding Stance 1;b=-;c=Odd Res Wave 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=a6;rarity=3;slot=2;level=20;stats=[23;14;14;12;19];weapon=Assault;assist=Mend;special=-;a=-;b=Live to Serve 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Cavalier;pos=c8;rarity=3;slot=3;level=20;stats=[22;19;13;8;18];weapon=Elfire;assist=-;special=-;a=Fury 1;b=-;c=Spur Def 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=b4;rarity=3;slot=4;level=20;stats=[37;21;7;23;9];weapon=Steel Axe;assist=-;special=-;a=Fire Boost 1;b=Bold Fighter 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Berkut: Purgatorial Prince;pos=c7;rarity=4;slot=1;level=35;stats=[35;29;13;30;26];weapon=Silver Lance;assist=-;special=Retribution;a=Warding Stance 2;b=-;c=Odd Res Wave 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=a6;rarity=4;slot=2;level=35;stats=[30;24;23;19;30];weapon=Absorb;assist=Physic;special=Fireflood Balm;a=-;b=Live to Serve 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Cavalier;pos=c8;rarity=4;slot=3;level=35;stats=[29;30;21;13;29];weapon=Bolganone;assist=-;special=Rising Flame;a=Fury 2;b=-;c=Spur Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=b4;rarity=4;slot=4;level=35;stats=[49;33;12;35;15];weapon=Wo Gùn;assist=-;special=New Moon;a=Fire Boost 2;b=Bold Fighter 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Berkut: Purgatorial Prince;pos=c7;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;38;18;37;31];weapon=Kriemhild;assist=-;special=Reprisal;a=Warding Stance 4;b=-;c=Odd Res Wave 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=a6;rarity=5;slot=2;level=43;displaylevel=40;stats=[35;29;29;24;37];weapon=Absorb+;assist=Physic+;special=Fireflood Balm+;a=-;b=Live to Serve 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Cavalier;pos=c8;rarity=5;slot=3;level=43;displaylevel=40;stats=[34;37;27;18;36];weapon=Bolganone+;assist=-;special=Growing Flame;a=Fury 3;b=-;c=Ward Cavalry;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=b4;rarity=5;slot=4;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Wo Gùn+;assist=-;special=Luna;a=Fire Boost 3;b=Bold Fighter 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_serious1};
+  {unit=Berkut: Purgatorial Prince;text=Valentia... This country... Everything!\nI'll see it all aflame!;textJP=バレンシアも この世界も…\n何もかも俺が焼き尽くしてやる……！};
+]
+}}
+{{Story Navbar|Trapped, Alone|Compassion Blooms}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=焼き尽くせぬ狂気
+|german=Im Wahnsinn versunken
+|spanishEU=Vorágine de delirios
+|spanishLA=Vorágine de delirios
+|french=Folie dévorante
+|italian=In preda alla follia
+|chineseTW=燃燒不盡的狂氣
+|portuguese=Devorado pelas chamas
+}}
+{{Story Maps Navbox|book=3}}

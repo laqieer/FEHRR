@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0407.webp
+|stageTitle=Chapter 7: Part 4
+|stageName=The War Within
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 7: Steeped in Twilight
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4074
+|backdrop=Wave
+|allyPos=c8,c7,d7,c6
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7={{Wall|style=normal|type=Pillar|hp=2}}
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5={{Wall|style=normal|type=Pillar|hp=U}} | f5=
+| a4= | b4={{Wall|style=normal|type=S|hp=2}} | c4= | d4= | e4= | f4=
+| a3= | b3={{Wall|style=normal|type=NS|hp=U}} | c3= | d3= | e3= | f3=
+| a2= | b2={{Wall|style=normal|type=NE|hp=U}} | c2={{Wall|style=normal|type=EW|hp=U}} | d2={{Wall|style=normal|type=W|hp=U}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=35
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE10_08.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-05-08T07:00:00Z|notification=New Heroes: Dark Burdens (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ike: Zeal Unleashed;pos=d3;rarity=3;slot=1;level=20;stats=[26;19;24;16;12];weapon=Steel Sword;assist=-;special=New Moon;a=Darting Stance 1;b=Repel 1;c=Atk/Spd Oath 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b1;rarity=3;slot=2;level=20;stats=[22;19;13;8;18];weapon=Elthunder;assist=-;special=-;a=-;b=Quick Riposte 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=e3;rarity=3;slot=3;level=20;stats=[27;18;12;13;16];weapon=Steel Axe;assist=-;special=-;a=Steady Blow 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f3;rarity=3;slot=4;level=20;stats=[25;16;17;10;14];weapon=Elfire;assist=-;special=-;a=Mirror Strike 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Ike: Zeal Unleashed;pos=d3;rarity=4;slot=1;level=35;stats=[35;30;37;26;19];weapon=Silver Sword;assist=-;special=Luna;a=Darting Stance 2;b=Repel 2;c=Atk/Spd Oath 2;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b1;rarity=4;slot=2;level=35;stats=[29;30;21;13;29];weapon=Keen Blárwolf;assist=-;special=Chilling Wind;a=-;b=Quick Riposte 2;c=Rouse Atk/Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=e3;rarity=4;slot=3;level=35;stats=[36;29;20;21;26];weapon=Wo Gùn;assist=-;special=New Moon;a=Steady Blow 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f3;rarity=4;slot=4;level=35;stats=[33;26;27;16;23];weapon=Bolganone;assist=-;special=Night Sky;a=Mirror Strike 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Ike: Zeal Unleashed;pos=d3;rarity=5;slot=1;level=43;stats=[41;37;45;34;24];weapon=Chaos Ragnell;assist=-;special=Mayhem Aether;a=Darting Breath;b=Repel 3;c=Atk/Spd Oath 3;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b1;rarity=5;slot=2;level=43;stats=[34;37;27;18;36];weapon=Keen Blárwolf+;assist=-;special=Iceberg;a=-;b=Quick Riposte 3;c=Rouse Atk/Res 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=e3;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Wo Gùn+;assist=-;special=Moonbow;a=Steady Blow 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f3;rarity=5;slot=4;level=43;stats=[39;33;34;21;29];weapon=Bolganone+;assist=-;special=Glimmer;a=Mirror Strike 2;b=-;c=Drive Spd 2;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Ike: Zeal Unleashed;text=Ugh! Don't touch me.;textJP=…っ…！\n触るな！\n俺に触るんじゃない…};
+]}}
+{{Story Navbar|He of Two Hearts|Red Horizon}}
+==In other languages==
+{{OtherLanguages
+|japanese=心奥の戦い
+|german=Der innere Krieg
+|spanishEU=Batalla interna
+|spanishLA=Batalla interna
+|french=Guerre intérieure
+|italian=Guerra interiore
+|chineseTW=內心深處的戰鬥
+|portuguese=Guerra interior
+}}
+{{Story Maps Navbox|book=4}}

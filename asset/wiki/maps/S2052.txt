@@ -1,0 +1,109 @@
+{{Battle Infobox
+|bannerImage=Banner_Robin (M) (Fallen Heroes) Unrevealed.png
+|mapName=Chapter 5-2: Dance of the Witch
+|stageTitle=Chapter 5: Part 2
+|stageName=Dance of the Witch
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 5: Blood and Snow
+|mapMode=Defensive Battle Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2052
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7={{Box|style=Ice|type=Regular|hp=1}} | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Box|style=Ice|type=Regular|hp=1}} | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4={{Box|style=Ice|type=Regular|hp=2}} | e4= | f4=
+| a3= | b3={{Ally|1}} | c3={{Ally|2}} | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2={{Box|style=Ice|type=Regular|hp=1}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|winReq=Turns to Defend: 6 (Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-02-22T07:00:00Z|notification=New Heroes: Fallen Heroes (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2052
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7={{Box|style=Ice|type=Regular|hp=1}} | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Box|style=Ice|type=Regular|hp=1}} | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4={{Box|style=Ice|type=Regular|hp=2}} | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2={{Box|style=Ice|type=Regular|hp=1}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Celica: Imprisoned Soul;pos=e8;rarity=3;slot=1;level=12;stats=[22;13;14;8;9];weapon=Steel Sword;assist=-;special=-;a=-;b=Chill Spd 1;c=Hone Atk 1;seal=-;ai={turn=3;break_walls=1};};
+{unit=Blue Mage;pos=a6;rarity=3;slot=2;level=12;stats=[21;11;13;6;9];weapon=Elthunder;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f7;rarity=3;slot=3;level=12;stats=[21;11;13;6;9];weapon=Elwind;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=f5;rarity=3;slot=4;level=12;stats=[21;11;13;6;9];weapon=Elfire;assist=-;special=-;a=Warding Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=f1;rarity=3;slot=5;level=12;stats=[23;12;8;8;11];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Threaten Atk 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Bow Fighter;pos=a1;rarity=3;slot=6;level=12;stats=[24;12;11;10;4];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Axe Flier;pos=a5;rarity=3;slot=7;level=12;stats=[21;9;14;6;14];weapon=Steel Axe;assist=-;special=-;a=-;b=Poison Strike 1;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Red Cavalier;pos=c8;rarity=3;slot=8;level=12;stats=[19;13;9;5;12];weapon=Elfire;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=5};};
+{unit=Green Cavalier;pos=f1;rarity=3;slot=9;level=12;stats=[19;13;9;5;12];weapon=Elwind;assist=-;special=-;a=-;b=-;c=Res Ploy 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=5};};
+]
+|Hard=[
+{unit=Celica: Imprisoned Soul;pos=e8;rarity=4;slot=1;level=31;stats=[32;28;28;19;20];weapon=Silver Sword;assist=-;special=New Moon;a=-;b=Chill Spd 2;c=Hone Atk 2;seal=-;ai={turn=3;break_walls=1};};
+{unit=Blue Mage;pos=a6;rarity=4;slot=2;level=31;stats=[31;24;25;15;20];weapon=Thoron;assist=-;special=-;a=Darting Blow 2;b=Seal Spd 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f7;rarity=4;slot=3;level=31;stats=[31;24;25;15;20];weapon=Keen Gronnwolf;assist=-;special=-;a=Death Blow 2;b=Seal Spd 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=f5;rarity=4;slot=4;level=31;stats=[31;24;25;15;20];weapon=Bolganone;assist=-;special=-;a=Warding Blow 2;b=Seal Spd 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=f1;rarity=4;slot=5;level=31;stats=[33;27;18;19;23];weapon=Silver Axe;assist=-;special=-;a=-;b=Obstruct 1;c=Threaten Atk 2;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Bow Fighter;pos=a1;rarity=4;slot=6;level=31;stats=[35;25;22;21;11];weapon=Guard Bow;assist=-;special=-;a=Warding Stance 1;b=-;c=Savage Blow 2;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Axe Flier;pos=a5;rarity=4;slot=7;level=31;stats=[31;20;28;15;29];weapon=Slaying Axe;assist=-;special=Chilling Wind;a=-;b=Poison Strike 2;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Blue Cavalier;pos=a1;rarity=4;slot=8;level=31;stats=[27;28;19;12;27];weapon=Thoron;assist=-;special=-;a=Darting Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Red Cavalier;pos=c8;rarity=4;slot=9;level=31;stats=[27;28;19;12;27];weapon=Rauðrraven;assist=-;special=-;a=Darting Blow 2;b=-;c=Res Ploy 2;seal=-;ai={turn=1;break_walls=1};spawn={turn=5};};
+{unit=Green Cavalier;pos=f1;rarity=4;slot=10;level=31;stats=[27;28;19;12;27];weapon=Rexcalibur;assist=-;special=-;a=-;b=Pass 1;c=Res Ploy 2;seal=-;ai={turn=1;break_walls=1};spawn={turn=5};};
+]
+|Lunatic=[
+{unit=Celica: Imprisoned Soul;pos=e8;rarity=5;slot=1;level=41;displaylevel=40;stats=[40;36;36;27;27];weapon=Beloved Zofia;assist=-;special=Luna;a=-;b=Chill Spd 3;c=Hone Atk 3;seal=-;ai={turn=3;break_walls=1};};
+{unit=Blue Mage;pos=a6;rarity=5;slot=2;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Thoron+;assist=-;special=-;a=Darting Blow 3;b=Seal Spd 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f7;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Keen Gronnwolf+;assist=-;special=-;a=Death Blow 3;b=Seal Spd 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=f5;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Bolganone+;assist=-;special=-;a=Warding Blow 3;b=Seal Spd 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=f1;rarity=5;slot=5;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Silver Axe+;assist=-;special=Escutcheon;a=-;b=Obstruct 3;c=Threaten Atk 3;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Bow Fighter;pos=a1;rarity=5;slot=6;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Guard Bow+;assist=-;special=-;a=Warding Stance 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Axe Flier;pos=a5;rarity=5;slot=7;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Slaying Axe+;assist=-;special=Iceberg;a=Attack/Res 2;b=Poison Strike 3;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Blue Cavalier;pos=a1;rarity=5;slot=8;level=41;displaylevel=40;stats=[34;36;26;17;35];weapon=Thoron+;assist=-;special=-;a=Darting Blow 3;b=Quick Riposte 3;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Red Cavalier;pos=c8;rarity=5;slot=9;level=41;displaylevel=40;stats=[34;36;26;17;35];weapon=Rauðrraven+;assist=-;special=-;a=Darting Blow 3;b=-;c=Res Ploy 3;seal=-;ai={turn=1;break_walls=1};spawn={turn=5};};
+{unit=Green Cavalier;pos=f1;rarity=5;slot=10;level=41;displaylevel=40;stats=[34;36;26;17;35];weapon=Rexcalibur+;assist=-;special=-;a=-;b=Pass 3;c=Res Ploy 3;seal=-;ai={turn=1;break_walls=1};spawn={turn=5};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Snowfield Pursuit|The Fell Dragon Rises}}
+==In other languages==
+{{OtherLanguages
+|japanese=灰空に舞う魔女
+|german=Tanz der Hexe
+|spanishEU=La danza de la bruja
+|spanishLA=La danza de la bruja
+|french=La danse de la sorcière
+|italian=La danza della strega
+|chineseTW=灰空中飛舞的魔女
+|portuguese=A dança da bruxa
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0307_C.png
+|stageTitle=Chapter 7: Part 5
+|stageName=Compassion Blooms
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 7: A Home Unknown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3075
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= 	{{Wall|style=BraveBoss|type=Pillar|hp=U}} | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{Wall|style=BraveBoss|type=S|hp=U}} | c6= | d6= | e6= | f6=
+| a5= | b5={{Wall|style=BraveBoss|type=N|hp=1}} | c5= | d5= | e5={{Wall|style=BraveBoss|type=Pillar|hp=U}} | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2={{Wall|style=BraveBoss|type=E|hp=1}} | b2={{Wall|style=BraveBoss|type=W|hp=U}} | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-05-10T07:00:00Z|notification=New Heroes: Darkness Within (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=3;slot=1;level=21;stats=[28;22;17;19;15];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=-;b=Desperation 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Corrin: Wailing Soul;pos=f5;rarity=3;slot=2;level=21;stats=[27;19;20;17;14];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 1;b=Sudden Panic 1;c=-;seal=-;ai={turn=1};};
+{unit=Tiki: Torpid Dragon;pos=a6;rarity=3;slot=3;level=21;stats=[29;21;20;18;15];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Brazen Atk/Spd 1;b=Special Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Berkut: Purgatorial Prince;pos=b8;rarity=3;slot=4;level=21;stats=[27;18;9;21;17];weapon=Steel Lance;assist=-;special=Retribution;a=Warding Stance 2;b=-;c=Odd Res Wave 1;seal=-;ai={turn=1};};
+{unit=Mareeta: The Blade's Pawn;pos=d7;rarity=3;slot=5;level=21;stats=[28;19;24;16;12];weapon=Steel Sword;assist=-;special=New Moon;a=Flashing Blade 2;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=4;slot=1;level=37;stats=[37;34;27;30;24];weapon=Sökkvabekkr;assist=-;special=Draconic Aura;a=-;b=Desperation 2;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Corrin: Wailing Soul;pos=f5;rarity=4;slot=2;level=37;stats=[38;31;33;26;23];weapon=Flametongue;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 2;b=Sudden Panic 2;c=-;seal=-;ai={turn=1};};
+{unit=Tiki: Torpid Dragon;pos=a6;rarity=4;slot=3;level=37;stats=[40;33;30;31;24];weapon=Flametongue;assist=-;special=Glowing Ember;a=Brazen Atk/Spd 2;b=Special Fighter 2;c=-;seal=-;ai={turn=1};};
+{unit=Berkut: Purgatorial Prince;pos=b8;rarity=4;slot=4;level=37;stats=[36;30;14;31;27];weapon=Silver Lance;assist=-;special=Retribution;a=Warding Stance 3;b=-;c=Odd Res Wave 2;seal=-;ai={turn=1};};
+{unit=Mareeta: The Blade's Pawn;pos=d7;rarity=4;slot=5;level=37;stats=[37;29;37;25;20];weapon=Silver Sword;assist=-;special=New Moon;a=Flashing Blade 3;b=Null Follow-Up 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;40;33;37;31];weapon=Sökkvabekkr;assist=-;special=Draconic Aura;a=-;b=Desperation 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Corrin: Wailing Soul;pos=f5;rarity=5;slot=2;level=45;displaylevel=40;stats=[47;39;41;34;30];weapon=Savage Breath;assist=-;special=Dragon Fang;a=Atk/Spd Solo 3;b=Sudden Panic 3;c=-;seal=-;ai={turn=1};};
+{unit=Tiki: Torpid Dragon;pos=a6;rarity=5;slot=3;level=45;displaylevel=40;stats=[49;39;37;41;31];weapon=Razing Breath;assist=-;special=Ignis;a=Brazen Atk/Spd 3;b=Special Fighter 3;c=Solitary Dream;seal=-;ai={turn=1};};
+{unit=Berkut: Purgatorial Prince;pos=b8;rarity=5;slot=4;level=45;displaylevel=40;stats=[43;39;18;38;33];weapon=Kriemhild;assist=-;special=Reprisal;a=Warding Stance 4;b=-;c=Odd Res Wave 3;seal=-;ai={turn=1};};
+{unit=Mareeta: The Blade's Pawn;pos=d7;rarity=5;slot=5;level=45;displaylevel=40;stats=[45;36;45;32;26];weapon=Shadow Sword;assist=-;special=Luna;a=Flashing Blade 4;b=Null Follow-Up 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Engulfed by Madness|Power's Den}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=温もりの花
+|german=Blüte des Mitgefühls
+|spanishEU=Flores honorarias
+|spanishLA=La flor de la compasión
+|french=Fleurs du souvenir
+|italian=Petali e pietà
+|chineseTW=暖之花
+|portuguese=O florescer da compaixão
+}}
+{{Story Maps Navbox|book=3}}

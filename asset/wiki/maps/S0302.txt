@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Xander Unrevealed.png
+|mapName=Chapter 2-2: Lovely Bloom
+|stageTitle=Chapter 2: Part 2
+|stageName=Lovely Bloom
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 2: World of Conquest
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0302
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=inside|type=S|hp=U}} | c7= | d7= | e7={{Wall|style=inside|type=S|hp=U}} | f7=
+| a6= | b6={{Wall|style=inside|type=NE|hp=U}} | c6={{Wall|style=inside|type=EW|hp=2}} | d6={{Wall|style=inside|type=EW|hp=2}} | e6={{Wall|style=inside|type=NW|hp=U}} | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Wall|style=inside|type=EW|hp=U}} | b4={{Wall|style=inside|type=W|hp=U}} | c4= | d4= | e4={{Wall|style=inside|type=E|hp=U}} | f4={{Wall|style=inside|type=EW|hp=U}}
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=14
+|lvlLunatic=24
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elise: Budding Flower;pos=b8;rarity=2;slot=1;level=4;stats=[15;5;7;0;5];weapon=Fear;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Arthur: Hapless Hero;pos=f6;rarity=2;slot=2;level=3;stats=[19;5;5;4;0];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Effie: Army of One;pos=a6;rarity=2;slot=3;level=3;stats=[20;9;2;7;0];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=e8;rarity=2;slot=4;level=3;stats=[13;3;4;0;3];weapon=Assault;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Elise: Budding Flower;pos=b8;rarity=2;slot=1;level=14;stats=[17;14;14;6;13];weapon=Fear;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Arthur: Hapless Hero;pos=f6;rarity=2;slot=2;level=13;stats=[23;13;11;13;8];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Effie: Army of One;pos=a6;rarity=2;slot=3;level=13;stats=[27;18;7;16;7];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=e8;rarity=2;slot=4;level=13;stats=[17;13;6;7;18];weapon=Assault;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Elise: Budding Flower;pos=b8;rarity=3;slot=1;level=24;stats=[22;20;20;11;20];weapon=Fear;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Arthur: Hapless Hero;pos=f6;rarity=3;slot=2;level=23;stats=[30;19;17;18;14];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Effie: Army of One;pos=a6;rarity=3;slot=3;level=23;stats=[35;25;13;21;13];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=e8;rarity=3;slot=4;level=23;stats=[22;19;12;12;25];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=可憐な妹王女
+|german=Liebliche Blume
+|spanishEU=Una princesa en ciernes
+|spanishLA=Una princesa en ciernes
+|french=La petite pétillante
+|italian=Un delizioso bocciolo
+|chineseTW=可愛的王妹
+|portuguese=Uma princesa em flor
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Light_Scatters|Fire Emblem Fates: Birthright - Chapter 14: Light Scatters]]. ([https://www.youtube.com/watch?v=XM34NT8yp_U Map Video])
+
+{{Story Maps Navbox|book=1}}

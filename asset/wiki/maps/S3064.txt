@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0306.png
+|stageTitle=Chapter 6: Part 4
+|stageName=Hear the Lion's Roar
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 6: Realm of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3064
+|backdrop=
+| a8={{Wall|style=Hell|type=Pillar|hp=U}} | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{Wall|style=Hell|type=Pillar|hp=1}} | e5= | f5=
+| a4= | b4={{Wall|style=Hell|type=Pillar|hp=U}} | c4= | d4= | e4={{Wall|style=Hell|type=Pillar|hp=U}} | f4=
+| a3= | b3= | c3= | d3={{Ally|1}} | e3={{Ally|2}} | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1={{Wall|style=Hell|type=Pillar|hp=U}} | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=34
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_05.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-04-10T07:00:00Z|notification=New Heroes: Out of Gallia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Caineghis: Gallia's Lion King;pos=c7;rarity=3;slot=1;level=17;stats=[30;18;10;19;15];weapon=Yearling (Arm.);assist=-;special=Glowing Ember;a=Distant Def 1;b=-;c=Distant Guard 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Mage;pos=e7;rarity=3;slot=2;level=17;stats=[24;14;15;9;13];weapon=Elfire;assist=-;special=-;a=-;b=-;c=Spd Ploy 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Ranulf: Friend of Nations;pos=b8;rarity=3;slot=3;level=17;stats=[23;15;19;15;7];weapon=Yearling (Cavalry);assist=Rally Defense;special=-;a=-;b=Chill Atk 1;c=Spur Def 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Flier;pos=d8;rarity=3;slot=4;level=17;stats=[23;15;16;7;14];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Res Tactic 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Caineghis: Gallia's Lion King;pos=c7;rarity=4;slot=1;level=34;stats=[41;31;18;32;24];weapon=Adult (Armored);assist=-;special=Glowing Ember;a=Distant Def 2;b=Vengeful Fighter 1;c=Distant Guard 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Mage;pos=e7;rarity=4;slot=2;level=34;stats=[32;26;27;16;22];weapon=Rauðrblade;assist=-;special=Dragon Gaze;a=-;b=Def Feint 2;c=Spd Ploy 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Ranulf: Friend of Nations;pos=b8;rarity=4;slot=3;level=34;stats=[34;25;32;27;13];weapon=Adult (Cavalry);assist=Rally Atk/Def;special=-;a=-;b=Chill Atk 2;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Flier;pos=d8;rarity=4;slot=4;level=34;stats=[31;27;29;13;23];weapon=Silver Bow;assist=-;special=Retribution;a=Fury 2;b=-;c=Res Tactic 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Caineghis: Gallia's Lion King;pos=c7;rarity=5;slot=1;level=43;displaylevel=40;stats=[49;40;25;39;31];weapon=Lion King Fang;assist=-;special=Bonfire;a=Distant Def 4;b=Vengeful Fighter 3;c=Distant Guard 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Mage;pos=e7;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Rauðrblade+;assist=-;special=Draconic Aura;a=-;b=Def Feint 3;c=Spd Ploy 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Ranulf: Friend of Nations;pos=b8;rarity=5;slot=3;level=43;displaylevel=40;stats=[42;31;39;35;18];weapon=Covert Cat Fang;assist=Rally Atk/Def+;special=-;a=-;b=Chill Atk 3;c=Ward Beasts;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Flier;pos=d8;rarity=5;slot=4;level=43;displaylevel=40;stats=[38;34;36;18;30];weapon=Silver Bow+;assist=-;special=Vengeance;a=Fury 3;b=-;c=Res Tactic 3;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Death Visits Again|The Blood of Askr}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=獅子王咆哮す
+|german=Das Gebrüll des Raubtiers
+|spanishEU=El rugido del león
+|spanishLA=El rugido del león
+|french=Le rugissement du lion
+|italian=Il ruggito del leone
+|chineseTW=獅子王咆哮
+|portuguese=O rugido do leão
+}}
+{{Story Maps Navbox|book=3}}

@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0408.webp
+|stageTitle=Chapter 8: Part 3
+|stageName=Playing Changelings
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 8: Wallowing in Love
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4083
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5={{#invoke:MapLayout|wall|style=Svartalf|type=Pillar|hp=1}}
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3={{#invoke:MapLayout|wall|style=Svartalf|type=Pillar|hp=U}} | b3= | c3= | d3= | e3={{#invoke:MapLayout|wall|style=Svartalf|type=Pillar|hp=U}} | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=35
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-06-05T07:00:00Z|notification=New Heroes: Book IV Mid: Mirabilis and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Say'ri: Chon'sin's Blade;pos=c6;rarity=3;slot=1;level=22;stats=[27;20;23;13;19];weapon=Steel Sword;assist=-;special=Chilling Wind;a=Kestrel Stance 1;b=Close Call 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=f7;rarity=3;slot=2;level=22;stats=[21;18;11;11;24];weapon=Assault;assist=Mend;special=-;a=Attack +1;b=-;c=Drive Spd 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Cleric;pos=a6;rarity=3;slot=3;level=22;stats=[24;15;15;13;20];weapon=Assault;assist=Mend;special=-;a=-;b=Renewal 1;c=Distant Guard 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=e5;rarity=3;slot=4;level=22;stats=[30;17;17;17;12];weapon=Steel Axe;assist=Reciprocal Aid;special=Night Sky;a=Swift Sparrow 1;b=-;c=Drive Spd 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Dragon;pos=d7;rarity=3;slot=5;level=22;stats=[28;20;14;21;10];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Swordbreaker 1;c=Guidance 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Say'ri: Chon'sin's Blade;pos=c6;rarity=4;slot=1;level=35;stats=[35;30;35;19;28];weapon=Silver Sword;assist=-;special=Chilling Wind;a=Kestrel Stance 2;b=Close Call 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=f7;rarity=4;slot=2;level=35;stats=[26;27;17;16;36];weapon=Slow;assist=Physic;special=-;a=Attack +2;b=-;c=Drive Spd 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Cleric;pos=a6;rarity=4;slot=3;level=35;stats=[30;24;23;19;30];weapon=Gravity;assist=Restore;special=-;a=-;b=Renewal 2;c=Distant Guard 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=e5;rarity=4;slot=4;level=35;stats=[38;26;25;26;18];weapon=Wo Gùn;assist=Reciprocal Aid;special=Night Sky;a=Swift Sparrow 1;b=-;c=Drive Spd 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Dragon;pos=d7;rarity=4;slot=5;level=35;stats=[36;30;22;31;15];weapon=Slaying Lance;assist=-;special=Glowing Ember;a=-;b=Swordbreaker 2;c=Guidance 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Say'ri: Chon'sin's Blade;pos=c6;rarity=5;slot=1;level=42;stats=[41;36;42;24;35];weapon=Amatsu;assist=-;special=Iceberg;a=Kestrel Stance 3;b=Close Call 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=f7;rarity=5;slot=2;level=42;stats=[30;33;22;20;43];weapon=Slow+;assist=Physic+;special=-;a=Attack +3;b=-;c=Drive Spd 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Cleric;pos=a6;rarity=5;slot=3;level=42;stats=[35;29;29;24;36];weapon=Gravity+;assist=Restore+;special=-;a=-;b=Renewal 3;c=Distant Guard 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=e5;rarity=5;slot=4;level=42;stats=[45;32;32;31;23];weapon=Wo Gùn+;assist=Reciprocal Aid;special=Glimmer;a=Swift Sparrow 2;b=-;c=Drive Spd 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Dragon;pos=d7;rarity=5;slot=5;level=42;stats=[42;36;28;37;19];weapon=Slaying Lance+;assist=-;special=Bonfire;a=-;b=Swordbreaker 3;c=Guidance 3;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Exalt's Ideals|General's Conflict}}
+==In other languages==
+{{OtherLanguages
+|japanese=とりかえっこあそび
+|german=Wechselspiele
+|spanishEU=Viejas leyendas
+|spanishLA=Viejas leyendas
+|french=Le jeu du changelin
+|italian=Scambio di posto
+|chineseTW=交換遊戲
+|portuguese=Velhas lendas
+}}
+{{Story Maps Navbox|book=4}}

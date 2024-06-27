@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Sharena.png
+|mapName=Intermission 1: The Rite of Blades
+|stageTitle=Intermission 1
+|stageName=The Rite of Blades
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Intermission: The Rite of Blades
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1601
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Wall|style=normal|type=Pillar|hp=U}} | c5= | d5= | e5={{Wall|style=normal|type=Pillar|hp=U}} | f5=
+| a4= | b4= | c4= | d4={{Wall|style=normal|type=Pillar|hp=1}} | e4= | f4={{Wall|style=normal|type=Pillar|hp=U}}
+| a3={{Wall|style=normal|type=Pillar|hp=U}} | b3={{Ally|1}} | c3= | d3={{Ally|2}} | e3={{Ally|3}} | f3=
+| a2= | b2={{Ally|4}} | c2={{Wall|style=normal|type=Pillar|hp=U}} | d2= | e2= | f2={{Wall|style=normal|type=Pillar|hp=U}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-11-28T04:00:00Z|notification=What's in Store for the 2.0.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Seliph: Heir of Light;pos=d7;rarity=3;slot=1;level=29;stats=[36;16;17;21;15];weapon=Divine Tyrfing;assist=Rally Speed;special=-;a=HP +3;b=Brash Assault 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Linde: Light Mage;pos=c7;rarity=3;slot=2;level=29;stats=[28;17;26;10;18];weapon=Dark Aura;assist=Ardent Sacrifice;special=-;a=Speed +1;b=-;c=Fortify Res 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=a7;rarity=3;slot=3;level=29;stats=[33;11;22;19;13];weapon=Dark Excalibur;assist=-;special=Rising Wind;a=HP +3;b=-;c=Spur Res 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Julia: Naga's Blood;pos=e7;rarity=3;slot=4;level=29;stats=[29;17;19;11;22];weapon=Divine Naga;assist=-;special=Dragon Gaze;a=Resistance +1;b=-;c=Breath of Life 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Eliwood: Knight of Lycia;pos=c8;rarity=3;slot=5;level=29;stats=[30;13;21;16;22];weapon=Blazing Durandal;assist=-;special=Holy Vestments;a=-;b=Axebreaker 1;c=Spur Res 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Seliph: Heir of Light;pos=d7;rarity=4;slot=1;level=34;stats=[41;24;20;25;18];weapon=Divine Tyrfing;assist=Rally Speed;special=-;a=HP +4;b=Brash Assault 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Linde: Light Mage;pos=c7;rarity=4;slot=2;level=34;stats=[31;25;31;12;21];weapon=Dark Aura;assist=Ardent Sacrifice;special=-;a=Speed +2;b=-;c=Fortify Res 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=a7;rarity=4;slot=3;level=34;stats=[37;18;27;22;15];weapon=Dark Excalibur;assist=-;special=Rising Wind;a=HP +4;b=-;c=Spur Res 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Julia: Naga's Blood;pos=e7;rarity=4;slot=4;level=34;stats=[32;25;22;14;27];weapon=Divine Naga;assist=-;special=Dragon Gaze;a=Resistance +2;b=-;c=Breath of Life 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Eliwood: Knight of Lycia;pos=c8;rarity=4;slot=5;level=34;stats=[33;20;25;19;27];weapon=Blazing Durandal;assist=-;special=Holy Vestments;a=-;b=Axebreaker 2;c=Spur Res 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Seliph: Heir of Light;pos=d7;rarity=5;slot=1;level=40;stats=[48;35;25;30;23];weapon=Divine Tyrfing;assist=Rally Speed;special=-;a=HP +5;b=Brash Assault 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Linde: Light Mage;pos=c7;rarity=5;slot=2;level=40;stats=[36;36;37;15;27];weapon=Dark Aura;assist=Ardent Sacrifice;special=-;a=Speed +3;b=-;c=Fortify Res 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=a7;rarity=5;slot=3;level=40;stats=[43;27;32;28;19];weapon=Dark Excalibur;assist=-;special=Growing Wind;a=HP +5;b=-;c=Spur Res 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Julia: Naga's Blood;pos=e7;rarity=5;slot=4;level=40;stats=[38;36;27;17;32];weapon=Divine Naga;assist=-;special=Dragon Fang;a=Resistance +3;b=-;c=Breath of Life 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Eliwood: Knight of Lycia;pos=c8;rarity=5;slot=5;level=40;stats=[39;31;30;24;32];weapon=Blazing Durandal;assist=-;special=Sacred Cowl;a=-;b=Axebreaker 3;c=Drive Res 2;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+
+==Story==
+{{/Story}}
+{{StoryNav|Less Than Heroic|Undying Flame}}
+
+==Gallery==
+<gallery>
+File:C0016.webp|Map banner before its clearing
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=刃の儀式
+|german=Das Ritual der Klingen
+|spanishEU=Rito de espadas
+|spanishLA=Rito de espadas
+|french=Le rituel des lames
+|italian=Il rito delle lame
+|chineseTW=刃之儀式
+|portuguese=Ritual das lâminas
+}}
+{{Story Maps Navbox|book=1}}
+[[Category:Intermission maps]]

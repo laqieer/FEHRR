@@ -1,0 +1,108 @@
+{{About|the map Surtr, Ruler of Flame|enemy unit|Surtr: Ruler of Flame}}
+{{Battle Infobox
+|bannerImage=C0213_C.png
+|stageTitle=Chapter 13-5
+|stageName=Surtr, Ruler of Flame
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 13: A Way Home
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2135
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=Muspel|type=Pillar|hp=U}} | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5={{Wall|style=Muspel|type=Pillar|hp=U}}
+| a4={{Wall|style=Muspel|type=E|hp=U}} | b4={{Wall|style=Muspel|type=W|hp=1}} | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Wall|style=Muspel|type=Pillar|hp=1}} | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1={{Wall|style=Muspel|type=Pillar|hp=U}} | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=35
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_03.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-14T07:00:00Z|notification=New Heroes: Nohrian Dusk (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2135
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=Muspel|type=Pillar|hp=U}} | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5={{Wall|style=Muspel|type=Pillar|hp=U}}
+| a4={{Wall|style=Muspel|type=E|hp=U}} | b4={{Wall|style=Muspel|type=W|hp=1}} | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Wall|style=Muspel|type=Pillar|hp=1}} | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1={{Wall|style=Muspel|type=Pillar|hp=U}} | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Surtr: Ruler of Flame;pos=d7;rarity=3;slot=1;level=35;stats=[54;38;13;36;30];weapon=Sinmara;assist=-;special=Vengeance;a=Distant Def 3;b=Cancel Affinity 3;c=Panic Ploy 3;seal=-;ai={turn=1};};
+{unit=Silas: Loyal Knight;pos=a6;rarity=3;slot=2;level=35;stats=[34;28;19;29;16];weapon=Slaying Spear;assist=Reposition;special=-;a=Steady Stance 1;b=R Tomebreaker 1;c=Even Def Wave 1;seal=-;ai={turn=1};};
+{unit=Flora: Cold as Ice;pos=f7;rarity=3;slot=3;level=35;stats=[32;27;18;14;31];weapon=Silver Dagger;assist=-;special=Chilling Wind;a=Atk/Res Solo 1;b=Quick Riposte 1;c=Def Ploy 1;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c6;rarity=3;slot=4;level=35;stats=[37;25;24;23;22];weapon=Dark Breath;assist=-;special=Holy Vestments;a=Steady Blow 1;b=Spd Feint 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;rarity=3;slot=5;level=35;stats=[32;24;25;15;22];weapon=Bolganone;assist=Rally Attack;special=-;a=Fury 1;b=Swordbreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a1;rarity=3;slot=6;level=35;stats=[28;28;20;13;27];weapon=Thoron;assist=-;special=Chilling Wind;a=HP/Def 1;b=Pass 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Fighter;pos=d1;rarity=3;slot=7;level=35;stats=[37;24;24;24;17];weapon=Wo Dao;assist=-;special=New Moon;a=-;b=Wrath 1;c=Def Smoke 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Bow Fighter;pos=f6;rarity=3;slot=8;level=35;stats=[36;25;23;23;12];weapon=Firesweep Bow;assist=Reciprocal Aid;special=-;a=HP/Spd 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Hard=[
+{unit=Surtr: Ruler of Flame;pos=d7;rarity=4;slot=1;level=40;stats=[62;44;15;40;35];weapon=Sinmara;assist=-;special=Vengeance;a=Distant Def 3;b=Cancel Affinity 3;c=Panic Ploy 3;seal=-;ai={turn=1};};
+{unit=Silas: Loyal Knight;pos=a6;rarity=4;slot=2;level=40;stats=[37;33;22;34;19];weapon=Slaying Spear;assist=Reposition;special=-;a=Steady Stance 2;b=R Tomebreaker 2;c=Even Def Wave 2;seal=-;ai={turn=1};};
+{unit=Flora: Cold as Ice;pos=f7;rarity=4;slot=3;level=40;stats=[35;32;21;16;36];weapon=Silver Dagger;assist=-;special=Chilling Wind;a=Atk/Res Solo 2;b=Quick Riposte 2;c=Def Ploy 2;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c6;rarity=4;slot=4;level=40;stats=[41;30;28;26;25];weapon=Dark Breath;assist=-;special=Holy Vestments;a=Steady Blow 2;b=Spd Feint 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;rarity=4;slot=5;level=40;stats=[35;29;30;18;25];weapon=Bolganone;assist=Rally Attack;special=-;a=Fury 2;b=Swordbreaker 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a1;rarity=4;slot=6;level=40;stats=[31;33;23;15;32];weapon=Thoron;assist=-;special=Chilling Wind;a=HP/Def 2;b=Pass 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Fighter;pos=d1;rarity=4;slot=7;level=40;stats=[41;29;28;28;20];weapon=Wo Dao;assist=-;special=New Moon;a=-;b=Wrath 2;c=Def Smoke 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Bow Fighter;pos=f6;rarity=4;slot=8;level=40;stats=[40;30;27;26;14];weapon=Firesweep Bow;assist=Reciprocal Aid;special=-;a=HP/Spd 2;b=-;c=Drive Res 2;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Lunatic=[
+{unit=Surtr: Ruler of Flame;pos=d7;rarity=5;slot=1;level=45;displaylevel=40;stats=[70;48;18;46;41];weapon=Sinmara;assist=-;special=Vengeance;a=Distant Def 3;b=Cancel Affinity 3;c=Panic Ploy 3;seal=-;ai={turn=1};};
+{unit=Silas: Loyal Knight;pos=a6;rarity=5;slot=2;level=45;displaylevel=40;stats=[43;38;27;39;23];weapon=Slaying Spear+;assist=Reposition;special=-;a=Steady Stance 3;b=R Tomebreaker 3;c=Even Def Wave 3;seal=-;ai={turn=1};};
+{unit=Flora: Cold as Ice;pos=f7;rarity=5;slot=3;level=45;displaylevel=40;stats=[41;37;25;19;42];weapon=Hoarfrost Knife;assist=-;special=Iceberg;a=Atk/Res Solo 3;b=Quick Riposte 3;c=Def Ploy 3;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c6;rarity=5;slot=4;level=45;displaylevel=40;stats=[47;35;33;32;31];weapon=Dark Breath+;assist=-;special=Sacred Cowl;a=Steady Blow 2;b=Spd Feint 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;rarity=5;slot=5;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Bolganone+;assist=Rally Atk/Spd;special=-;a=Fury 3;b=Swordbreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a1;rarity=5;slot=6;level=45;displaylevel=40;stats=[35;38;28;18;37];weapon=Thoron+;assist=-;special=Glacies;a=HP/Def 2;b=Pass 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Fighter;pos=d1;rarity=5;slot=7;level=45;displaylevel=40;stats=[47;34;34;33;24];weapon=Wo Dao+;assist=-;special=Moonbow;a=-;b=Wrath 3;c=Def Smoke 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Bow Fighter;pos=f6;rarity=5;slot=8;level=45;displaylevel=40;stats=[46;35;32;32;17];weapon=Firesweep Bow+;assist=Reciprocal Aid;special=-;a=HP/Spd 2;b=-;c=Drive Res 2;seal=-;ai={turn=1};spawn={turn=3};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Princess Laevatein|High Tea Jinks}}
+
+==In other languages==
+{{OtherLanguages
+|english=Surtr, Ruler of Flame
+|japanese=炎王スルト
+|german=Feuerherrscher Surtr
+|spanishEU=Surtr, el rey ígneo
+|spanishLA=Surtr, Soberano ígneo
+|french=Le souverain du feu
+|italian=Surtr, il re del fuoco
+|chineseTW=炎王斯爾特
+|portuguese=Surtr, soberano do fogo
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Celica Unrevealed.png
+|mapName=Chapter 11-2: Pirates!
+|stageTitle=Chapter 11: Part 2
+|stageName=Pirates!
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 11: Rite of Shadows
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=WavePatternSea
+|baseMap=S1202
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{Box|style=Normal|type=Regular|hp=1}} | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Box|style=Normal|type=Regular|hp=1}} | d3={{Ally|1}} | e3={{Ally|2}} | f3=
+| a2= | b2={{Ally|3}} | c2= | d2={{Ally|4}} | e2= | f2={{Box|style=Normal|type=Regular|hp=U}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-05-15T07:00:00Z|notification=New Heroes: Rite of Shadows Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Mae: Bundle of Energy;pos=c8;rarity=3;slot=1;level=21;stats=[24;21;17;8;17];weapon=Blárowl;assist=-;special=-;a=-;b=Desperation 1;c=B Tome Exp. 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Boey: Skillful Survivor;pos=d8;rarity=3;slot=2;level=21;stats=[29;16;14;18;10];weapon=Gronnowl;assist=-;special=Glowing Ember;a=Earth Boost 1;b=Renewal 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=c6;rarity=3;slot=3;level=21;stats=[38;22;8;24;10];weapon=Steel Lance;assist=Pivot;special=New Moon;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=b8;rarity=3;slot=4;level=21;stats=[29;18;16;16;8];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=e7;rarity=3;slot=5;level=21;stats=[30;17;17;17;12];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Mae: Bundle of Energy;pos=c8;rarity=4;slot=1;level=31;stats=[29;29;23;12;24];weapon=Blárowl;assist=-;special=-;a=-;b=Desperation 2;c=B Tome Exp. 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Boey: Skillful Survivor;pos=d8;rarity=4;slot=2;level=31;stats=[35;23;20;25;14];weapon=Gronnowl;assist=-;special=Glowing Ember;a=Earth Boost 2;b=Renewal 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=c6;rarity=4;slot=3;level=31;stats=[46;31;12;33;14];weapon=Killer Lance;assist=Pivot;special=New Moon;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=b8;rarity=4;slot=4;level=31;stats=[35;25;23;22;12];weapon=Silver Bow;assist=Rally Speed;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=e7;rarity=4;slot=5;level=31;stats=[36;24;23;24;17];weapon=Ruby Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Mae: Bundle of Energy;pos=c8;rarity=5;slot=1;level=41;displaylevel=40;stats=[36;37;32;17;31];weapon=Blárowl+;assist=-;special=-;a=-;b=Desperation 3;c=B Tome Exp. 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Boey: Skillful Survivor;pos=d8;rarity=5;slot=2;level=41;displaylevel=40;stats=[44;30;28;33;19];weapon=Gronnowl+;assist=-;special=Ignis;a=Earth Boost 3;b=Renewal 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=c6;rarity=5;slot=3;level=41;displaylevel=40;stats=[57;40;17;42;20];weapon=Killer Lance+;assist=Pivot;special=Moonbow;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=b8;rarity=5;slot=4;level=41;displaylevel=40;stats=[44;33;30;30;17];weapon=Silver Bow+;assist=Rally Speed;special=-;a=-;b=-;c=Savage Blow 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=e7;rarity=5;slot=5;level=41;displaylevel=40;stats=[45;32;32;31;23];weapon=Ruby Sword+;assist=Reciprocal Aid;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=海戦
+|german=Piraten!
+|spanishEU=¡Piratas!
+|spanishLA=¡Piratas!
+|french=Des pirates !
+|italian=Pirati!
+|chineseTW=海戰
+|portuguese=Piratas!
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Pilgrimage|Fire Emblem Echoes: Shadows of Valentia - Act 2: The Pilgrimage - First Pirate Raid]]. ([https://www.youtube.com/watch?v=UYl1zeRIlJg Map Video])
+{{Story Maps Navbox|book=1}}

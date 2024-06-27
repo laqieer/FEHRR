@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0213.png
+|stageTitle=Chapter 13-4
+|stageName=Princess Laevatein
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 13: A Way Home
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2134
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6={{Wall|style=Muspel|type=Pillar|hp=U}}
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Wall|style=Muspel|type=Pillar|hp=1}} | b4= | c4= | d4={{Wall|style=Muspel|type=Pillar|hp=U}} | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=33
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_07.ogg
+|BGM2=bgm_boss3.ogg
+
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-14T07:00:00Z|notification=New Heroes: Nohrian Dusk (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Laevatein: Searing Steel;pos=d6;rarity=3;slot=1;level=33;stats=[35;28;23;27;19];weapon=Laevatein (weapon);assist=Swap;special=-;a=Fury 1;b=Atk/Def Link 1;c=Odd Spd Wave 1;seal=-;ai={turn=1};};
+{unit=Ophelia: Dramatic Heroine;pos=c8;rarity=3;slot=2;level=33;stats=[31;28;25;15;18];weapon=Shine;assist=Rally Attack;special=Rising Light;a=Sturdy Blow 1;b=Chill Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Nina: Eye Spy;pos=b7;rarity=3;slot=3;level=33;stats=[29;24;29;11;23];weapon=Shining Bow;assist=Draw Back;special=New Moon;a=-;b=Spd/Res Link 1;c=Bow Valor 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c6;rarity=3;slot=4;level=33;stats=[46;29;11;31;14];weapon=Steel Axe;assist=Rally Defense;special=-;a=-;b=Wary Fighter 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=3;slot=5;level=33;stats=[28;21;21;17;27];weapon=Gravity;assist=Physic;special=Kindled-Fire Balm;a=Distant Def 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Laevatein: Searing Steel;pos=d6;rarity=4;slot=1;level=38;stats=[39;33;27;32;22];weapon=Laevatein (weapon);assist=Swap;special=-;a=Fury 2;b=Atk/Def Link 2;c=Odd Spd Wave 2;seal=-;ai={turn=1};};
+{unit=Ophelia: Dramatic Heroine;pos=c8;rarity=4;slot=2;level=38;stats=[34;33;30;17;21];weapon=Shine;assist=Rally Up Atk;special=Rising Light;a=Sturdy Blow 1;b=Chill Res 2;c=-;seal=-;ai={turn=1};};
+{unit=Nina: Eye Spy;pos=b7;rarity=4;slot=3;level=38;stats=[32;29;34;13;27];weapon=Shining Bow;assist=Draw Back;special=New Moon;a=-;b=Spd/Res Link 2;c=Bow Valor 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c6;rarity=4;slot=4;level=38;stats=[51;35;13;37;16];weapon=Silver Axe;assist=Rally Defense;special=-;a=-;b=Wary Fighter 2;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=4;slot=5;level=38;stats=[31;25;24;20;32];weapon=Gravity;assist=Physic;special=Kindled-Fire Balm;a=Distant Def 2;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Laevatein: Searing Steel;pos=d6;rarity=5;slot=1;level=43;displaylevel=40;stats=[45;38;33;37;27];weapon=Laevatein (weapon);assist=Swap;special=-;a=Fury 3;b=Atk/Def Link 3;c=Odd Spd Wave 3;seal=-;ai={turn=1};};
+{unit=Ophelia: Dramatic Heroine;pos=c8;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;40;35;21;24];weapon=Missiletainn (tome);assist=Rally Up Atk+;special=Blazing Light;a=Sturdy Blow 2;b=Chill Res 3;c=-;seal=-;ai={turn=1};};
+{unit=Nina: Eye Spy;pos=b7;rarity=5;slot=3;level=43;displaylevel=40;stats=[37;34;39;17;33];weapon=Shining Bow+;assist=Draw Back;special=Moonbow;a=-;b=Spd/Res Link 3;c=Bow Valor 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c6;rarity=5;slot=4;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Silver Axe+;assist=Rally Def/Res;special=-;a=-;b=Wary Fighter 3;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=5;slot=5;level=43;displaylevel=40;stats=[35;29;29;24;37];weapon=Gravity+;assist=Physic+;special=Windfire Balm+;a=Distant Def 3;b=-;c=Drive Spd 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Maid of Ice|Surtr, Ruler of Flame}}
+
+==In other languages==
+{{OtherLanguages
+|english=Princess Laevatein
+|japanese=王女レーヴァテイン
+|german=Prinzessin Laevatein
+|spanishEU=La princesa Laevatein
+|spanishLA=Princesa Laevatein
+|french=La princesse Laevatein
+|italian=Principessa Laevatein
+|chineseTW=公主瑞瓦提恩
+|portuguese=Princesa Laevatein
+}}
+{{Story Maps Navbox|book=2}}

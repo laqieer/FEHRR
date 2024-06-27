@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=Banner_Helbindi Unrevealed.png
+|mapName=Chapter 9-1: The Infernal Jailer
+|stageTitle=Chapter 9: Part 1
+|stageName=The Infernal Jailer
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 9: Hellfire
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2091
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=Muspel|type=Pillar|hp=U}} | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5={{Wall|style=Muspel|type=Pillar|hp=U}} | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2={{Ally|3}} | c2= | d2= | e2={{Ally|4}} | f2=
+| a1= {{Wall|style=Muspel|type=Pillar|hp=1}}| b1= | c1= | d1= | e1= | f1={{Wall|style=Muspel|type=Pillar|hp=2}}
+}}
+|lvlNormal=22
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-05-10T07:00:00Z|notification=New Heroes: Genealogy (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Helbindi: Savage Scourge;pos=c8;rarity=3;slot=1;level=22;stats=[30;20;12;21;18];weapon=Steel Axe;assist=-;special=Night Sky;a=Death Blow 2;b=Wrath 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=a7;rarity=3;slot=2;level=22;stats=[29;18;17;16;15];weapon=Fire Breath+;assist=Harsh Command;special=-;a=-;b=Quick Riposte 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d8;rarity=3;slot=3;level=22;stats=[29;18;16;16;8];weapon=Steel Bow;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f8;rarity=3;slot=4;level=22;stats=[26;17;18;11;15];weapon=Elfire;assist=-;special=-;a=Atk/Res Bond 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Helbindi: Savage Scourge;pos=c8;rarity=4;slot=1;level=34;stats=[39;30;17;31;26];weapon=Silver Axe;assist=-;special=Night Sky;a=Death Blow 2;b=Wrath 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=a7;rarity=4;slot=2;level=34;stats=[38;27;25;23;22];weapon=Flametongue;assist=Harsh Command;special=-;a=-;b=Quick Riposte 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d8;rarity=4;slot=3;level=34;stats=[37;27;24;23;12];weapon=Slaying Bow;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f8;rarity=4;slot=4;level=34;stats=[32;26;27;16;22];weapon=Bolganone;assist=-;special=-;a=Atk/Res Bond 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Helbindi: Savage Scourge;pos=c8;rarity=5;slot=1;level=40;stats=[45;35;22;36;32];weapon=Býleistr;assist=-;special=Glimmer;a=Death Blow 3;b=Wrath 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=a7;rarity=5;slot=2;level=40;stats=[44;32;30;29;28];weapon=Flametongue+;assist=Harsh Command;special=-;a=-;b=Quick Riposte 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d8;rarity=5;slot=3;level=40;stats=[43;32;29;29;16];weapon=Slaying Bow+;assist=-;special=Bonfire;a=Sturdy Blow 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f8;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Bolganone+;assist=-;special=-;a=Atk/Res Bond 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Kana: Dragon Spawn (map)|The Demon Sword}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=炎獄の門番
+|german=Auge des Feuerkerkers
+|spanishEU=El carcelero infernal
+|spanishLA=El carcelero infernal
+|french=Le geôlier infernal
+|italian=Il guardiano infernale
+|chineseTW=炎獄的守衛
+|portuguese=O carcereiro do infernal
+}}
+{{Story Maps Navbox|book=2}}

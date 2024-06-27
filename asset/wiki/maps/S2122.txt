@@ -1,0 +1,94 @@
+{{Battle Infobox
+|bannerImage=C0212.png
+|stageTitle=Chapter 12-2
+|stageName=Scion of a Crusader
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 12: Seeping Poison
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2122
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{Wall|style=Muspel|type=Pillar|hp=1}} | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Ally|1}} | b4={{Ally|2}}| c4= | d4= | e4= | f4=
+| a3={{Ally|3}} | b3={{Ally|4}} | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_06.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-07T07:00:00Z|notification=New Heroes: Doorway to Destiny (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Quan: Luminous Lancer;pos=e6;rarity=3;slot=1;level=29;stats=[34;26;19;21;10];weapon=Silver Lance;assist=Rally Defense;special=Dragon Gaze;a=Steady Posture 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Ethlyn: Spirited Princess;pos=f6;rarity=3;slot=2;level=29;stats=[29;19;24;17;14];weapon=Fear;assist=Physic;special=Imbue;a=Spd/Def Bond 1;b=Live to Serve 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=c8;rarity=3;slot=3;level=29;stats=[33;22;20;20;10];weapon=Steel Bow;assist=-;special=Glowing Ember;a=Attack/Def +1;b=Guard 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=b7;rarity=3;slot=4;level=29;stats=[32;23;16;17;21];weapon=Steel Sword;assist=-;special=Daylight;a=HP/Def 1;b=Poison Strike 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=a8;rarity=3;slot=5;level=29;stats=[28;19;27;9;22];weapon=Steel Dagger;assist=Shove;special=Chilling Wind;a=-;b=Firestorm Dance 1;c=Drive Res 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Quan: Luminous Lancer;pos=e6;rarity=4;slot=1;level=36;stats=[39;33;24;27;13];weapon=Silver Lance;assist=Rally Spd/Def;special=Dragon Gaze;a=Steady Posture 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Ethlyn: Spirited Princess;pos=f6;rarity=4;slot=2;level=36;stats=[33;23;30;21;18];weapon=Fear;assist=Physic;special=Imbue;a=Spd/Def Bond 2;b=Live to Serve 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=c8;rarity=4;slot=3;level=36;stats=[38;28;25;24;13];weapon=Brave Bow;assist=-;special=Glowing Ember;a=Attack/Def +1;b=Guard 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=b7;rarity=4;slot=4;level=36;stats=[36;30;20;21;26];weapon=Silver Sword;assist=-;special=Daylight;a=HP/Def 1;b=Poison Strike 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=a8;rarity=4;slot=5;level=36;stats=[32;23;34;11;28];weapon=Rogue Dagger;assist=Shove;special=Chilling Wind;a=-;b=Firestorm Dance 1;c=Drive Res 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Quan: Luminous Lancer;pos=e6;rarity=5;slot=1;level=41;displaylevel=40;stats=[44;38;29;31;16];weapon=Gáe Bolg;assist=Rally Spd/Def+;special=Draconic Aura;a=Steady Posture 2;b=-;c=Drive Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Ethlyn: Spirited Princess;pos=f6;rarity=5;slot=2;level=41;displaylevel=40;stats=[38;28;34;26;20];weapon=Fear+;assist=Physic+;special=Heavenly Light;a=Spd/Def Bond 3;b=Live to Serve 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=c8;rarity=5;slot=3;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Brave Bow+;assist=-;special=Bonfire;a=Attack/Def +2;b=Guard 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=b7;rarity=5;slot=4;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Silver Sword+;assist=-;special=Noontime;a=HP/Def 2;b=Poison Strike 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=a8;rarity=5;slot=5;level=41;displaylevel=40;stats=[37;28;39;14;32];weapon=Rogue Dagger+;assist=Shove;special=Iceberg;a=-;b=Dull Ranged 3;c=Drive Res 2;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Quan: Luminous Lancer;text=Our Leonster may be a small country,\nbut it is ruled by the descendants of\nthe crusader Njörun.;textJP=レンスターは小国といえども、\n聖戦士ノヴァの血を引く勇者の家…\nこのゲイボルグある限り、負けはしない。};
+  {text=As long as I have the Gáe Bolg, I will\nnot lose.};
+]}}
+{{Story Navbar|Suspicion|Prowling Beast}}
+
+==In other languages==
+{{OtherLanguages
+|english=Scion of a Crusader
+|japanese=地の継承者
+|german=Erbe der Heiligen Ritterin
+|spanishEU=El vástago de una cruzada
+|spanishLA=El vástago de un cruzado
+|french=L'héritier de la croisée
+|italian=Progenie dei crociati
+|chineseTW=地之繼承者
+|portuguese=Herdeiro de um cruzado
+}}
+==Trivia==
+*The Thief on Normal and Hard difficulties has {{Pt|Firestorm Dance 1}}, a skill that will never take effect on the Thief.
+
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0304.png
+|stageTitle=Chapter 4: Part 3
+|stageName=Wolfskin Family
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 4: A King's Worth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3043
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3={{Wall|style=normal|type=Pillar|hp=1}} | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=10
+|lvlHard=30
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_11.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-02-20T07:00:00Z|notification=New Heroes: Kitsune and Wolfskin (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Velouria: Wolf Cub;pos=d7;rarity=3;slot=1;level=10;stats=[21;13;13;11;8];weapon=Yearling (Infantry);assist=-;special=New Moon;a=Close Def 1;b=-;c=Spur Def 1;seal=-;ai={group=1};};
+{unit=Keaton: Lupine Collector;pos=c7;rarity=3;slot=2;level=10;stats=[23;16;9;13;6];weapon=Yearling (Infantry);assist=-;special=Dragon Gaze;a=-;b=Special Spiral 1;c=Beast Valor 1;seal=-;ai={group=1};};
+{unit=Thief;pos=f6;rarity=3;slot=3;level=10;stats=[20;9;14;4;11];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=Def Smoke 1;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=a7;rarity=3;slot=4;level=10;stats=[22;11;10;10;4];weapon=Steel Bow;assist=-;special=-;a=-;b=Seal Def 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Velouria: Wolf Cub;pos=d7;rarity=4;slot=1;level=30;stats=[32;27;29;24;17];weapon=Adult (Infantry);assist=-;special=New Moon;a=Close Def 2;b=-;c=Spur Def 2;seal=-;ai={group=1};};
+{unit=Keaton: Lupine Collector;pos=c7;rarity=4;slot=2;level=30;stats=[36;32;18;29;13];weapon=Adult (Infantry);assist=-;special=Dragon Gaze;a=-;b=Special Spiral 2;c=Beast Valor 2;seal=-;ai={group=1};};
+{unit=Thief;pos=f6;rarity=4;slot=3;level=30;stats=[29;20;30;9;24];weapon=Smoke Dagger;assist=-;special=-;a=-;b=Guard 1;c=Def Smoke 2;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=a7;rarity=4;slot=4;level=30;stats=[34;24;22;21;11];weapon=Silver Bow;assist=-;special=New Moon;a=-;b=Seal Def 2;c=Distant Guard 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Velouria: Wolf Cub;pos=d7;rarity=5;slot=1;level=42;displaylevel=40;stats=[41;36;39;34;24];weapon=Wolfpup Fang;assist=-;special=Luna;a=Close Def 3;b=-;c=Ward Beasts;seal=-;ai={group=1};};
+{unit=Keaton: Lupine Collector;pos=c7;rarity=5;slot=2;level=42;displaylevel=40;stats=[46;43;25;40;19];weapon=Wolfskin Fang;assist=-;special=Draconic Aura;a=-;b=Special Spiral 3;c=Beast Valor 3;seal=-;ai={group=1};};
+{unit=Thief;pos=f6;rarity=5;slot=3;level=42;displaylevel=40;stats=[37;29;40;14;33];weapon=Smoke Dagger+;assist=-;special=Miracle;a=-;b=Guard 3;c=Def Smoke 3;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=a7;rarity=5;slot=4;level=42;displaylevel=40;stats=[44;33;30;30;16];weapon=Silver Bow+;assist=-;special=Moonbow;a=-;b=Seal Def 3;c=Distant Guard 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Kitsune Family|Running Out of Time}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ガルーの親子
+|german=Familie der Ulfhedin
+|spanishEU=Familia ulfhedin
+|spanishLA=Familia ulfhedin
+|french=La famille d'Ulfhedins
+|italian=La famiglia ulfhedin
+|chineseTW=加魯親子
+|portuguese=Família wolfskin
+}}
+{{Story Maps Navbox|book=3}}

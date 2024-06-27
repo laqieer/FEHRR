@@ -1,0 +1,106 @@
+{{Battle Infobox
+|bannerImage=Banner_Helbindi.png
+|mapName=Chapter 9-5: Into the Blaze
+|stageTitle=Chapter 9: Part 5
+|stageName=Into the Blaze
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 9: Hellfire
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2095
+|backdrop=LavaPattern_Muspel
+| a8= | b8= {{Wall|style=Muspel|type=Pillar|hp=U}} | c8= | d8=  | e8= {{Wall|style=Muspel|type=Pillar|hp=U}} | f8=
+| a7= | b7=  | c7=  | d7= | e7= | f7= 
+| a6= {{Wall|style=Muspel|type=E|hp=U}} | b6= {{Wall|style=Muspel|type=W|hp=1}} | c6=  | d6= | e6= {{Wall|style=Muspel|type=E|hp=U}} | f6={{Wall|style=Muspel|type=W|hp=1}}
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= {{Ally|1}} | c2= {{Ally|2}} | d2= {{Ally|3}} | e2= {{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=39
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-05-10T07:00:00Z|notification=New Heroes: Genealogy (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2095
+|backdrop=LavaPattern_Muspel
+| a8= | b8= {{Wall|style=Muspel|type=Pillar|hp=U}} | c8= | d8=  | e8= {{Wall|style=Muspel|type=Pillar|hp=U}} | f8=
+| a7= | b7=  | c7=  | d7= | e7= | f7= 
+| a6= {{Wall|style=Muspel|type=E|hp=U}} | b6= {{Wall|style=Muspel|type=W|hp=1}} | c6=  | d6= | e6= {{Wall|style=Muspel|type=E|hp=U}} | f6={{Wall|style=Muspel|type=W|hp=1}}
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2=  | c2=  | d2=  | e2=  | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Helbindi: Savage Scourge;pos=c7;rarity=3;slot=1;level=26;stats=[33;23;14;24;20];weapon=Silver Axe;assist=-;special=Night Sky;a=Steady Stance 1;b=Wrath 2;c=-;seal=-;ai={turn=4};};
+{unit=Ares: Black Knight;pos=c8;rarity=3;slot=2;level=26;stats=[29;23;19;21;11];weapon=Slaying Edge;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 1;b=Seal Def/Res 1;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lene: Yearning Dancer;pos=d8;rarity=3;slot=3;level=26;stats=[26;17;22;14;17];weapon=Steel Sword;assist=Dance;special=-;a=-;b=Firestorm Dance 1;c=Sword Valor 1;seal=-;ai={turn=3};};
+{unit=Ishtar: Thunder Goddess;pos=b7;rarity=3;slot=4;level=26;stats=[27;22;24;10;17];weapon=Thoron;assist=-;special=New Moon;a=Swift Sparrow 1;b=Vantage 1;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=3;slot=5;level=26;stats=[41;25;9;27;11];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Threaten Def 2;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f7;rarity=3;slot=6;level=26;stats=[29;23;14;15;15];weapon=Steel Bow;assist=-;special=Retribution;a=HP/Atk 1;b=Brash Assault 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=a8;rarity=3;slot=7;level=26;stats=[28;19;20;12;17];weapon=Elwind;assist=-;special=-;a=Defiant Spd 2;b=-;c=Spd Ploy 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+]
+|Hard=[
+{unit=Helbindi: Savage Scourge;pos=c7;rarity=4;slot=1;level=39;stats=[42;33;19;34;29];weapon=Býleistr;assist=-;special=Glimmer;a=Steady Stance 2;b=Wrath 2;c=Panic Ploy 1;seal=-;ai={turn=4};};
+{unit=Ares: Black Knight;pos=c8;rarity=4;slot=2;level=39;stats=[37;34;28;30;16];weapon=Slaying Edge;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 2;b=Seal Def/Res 2;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lene: Yearning Dancer;pos=d8;rarity=4;slot=3;level=39;stats=[33;26;33;21;25];weapon=Safeguard;assist=Dance;special=-;a=-;b=Firestorm Dance 2;c=Sword Valor 2;seal=-;ai={turn=3};};
+{unit=Ishtar: Thunder Goddess;pos=b7;rarity=4;slot=4;level=39;stats=[35;32;34;15;24];weapon=Thoron;assist=-;special=New Moon;a=Swift Sparrow 2;b=Vantage 2;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=4;slot=5;level=39;stats=[52;36;14;38;17];weapon=Silver Sword;assist=-;special=Holy Vestments;a=Warding Stance 1;b=-;c=Threaten Def 2;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f7;rarity=4;slot=6;level=39;stats=[37;33;19;22;21];weapon=Silver Bow;assist=-;special=Retribution;a=HP/Atk 2;b=Brash Assault 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=a8;rarity=4;slot=7;level=39;stats=[35;29;30;18;25];weapon=Gronnblade;assist=-;special=Night Sky;a=Defiant Spd 3;b=-;c=Spd Ploy 2;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Lance Cavalier;pos=d8;rarity=4;slot=8;level=39;stats=[38;32;22;23;28];weapon=Silver Lance;assist=-;special=Chilling Wind;a=Fury 1;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+|Lunatic=[
+{unit=Helbindi: Savage Scourge;pos=c7;rarity=5;slot=1;level=45;displaylevel=40;stats=[48;38;24;39;35];weapon=Býleistr;assist=-;special=Glimmer;a=Steady Stance 3;b=Wrath 3;c=Panic Ploy 3;seal=-;ai={turn=4};};
+{unit=Ares: Black Knight;pos=c8;rarity=5;slot=2;level=45;displaylevel=40;stats=[43;40;33;36;19];weapon=Dark Mystletainn;assist=-;special=Draconic Aura;a=Brazen Atk/Def 3;b=Seal Def/Res 2;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lene: Yearning Dancer;pos=d8;rarity=5;slot=3;level=45;displaylevel=40;stats=[38;31;39;26;31];weapon=Safeguard+;assist=Dance;special=-;a=Close Def 3;b=Firestorm Dance 2;c=Sword Valor 3;seal=-;ai={turn=3};};
+{unit=Ishtar: Thunder Goddess;pos=b7;rarity=5;slot=4;level=45;displaylevel=40;stats=[41;37;39;18;29];weapon=Mjölnir;assist=-;special=Moonbow;a=Swift Sparrow 2;b=Vantage 3;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=5;slot=5;level=45;displaylevel=40;stats=[59;42;17;44;21];weapon=Silver Sword+;assist=-;special=Sacred Cowl;a=Warding Stance 3;b=-;c=Threaten Def 3;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f7;rarity=5;slot=6;level=45;displaylevel=40;stats=[43;38;24;27;25];weapon=Silver Bow+;assist=-;special=Reprisal;a=HP/Atk 2;b=Brash Assault 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=a8;rarity=5;slot=7;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Gronnblade+;assist=-;special=Glimmer;a=Defiant Spd 3;b=-;c=Spd Ploy 3;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Lance Cavalier;pos=d8;rarity=5;slot=8;level=45;displaylevel=40;stats=[44;37;27;28;33];weapon=Silver Lance+;assist=-;special=Iceberg;a=Fury 3;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Dancer of Flames|Sanctuary of the Mages}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=地獄の底
+|german=Die Tiefen der Hölle
+|spanishEU=En el infierno
+|spanishLA=En el infierno
+|french=Bataille infernale
+|italian=Nella bocca degli inferi
+|chineseTW=地獄深淵
+|portuguese=Batalha infernal
+}}
+{{Story Maps Navbox|book=2}}

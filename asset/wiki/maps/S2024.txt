@@ -1,0 +1,78 @@
+{{Battle Infobox
+|bannerImage=Banner_Fjorm Unrevealed.png
+|mapName=Chapter 2-4: Shadows and Light
+|stageTitle=Chapter 2: Part 4
+|stageName=Shadows and Light
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 2: Princess of Ice
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2024
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|1}} | c3={{Ally|2}} | d3={{Ally|3}} | e3={{Ally|4}} | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-11-28T04:00:00Z|notification=What's in Store for the 2.0.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Shiro: Raw Talent;pos=b8;rarity=3;slot=1;level=6;stats=[20;7;7;7;1];weapon=Iron Lance;assist=Swap;special=-;a=Steady Stance 1;b=-;c=Def Tactic 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Siegbert: Future King;pos=d8;rarity=3;slot=2;level=6;stats=[20;6;10;5;0];weapon=Iron Sword;assist=-;special=-;a=Death Blow 1;b=-;c=Atk Tactic 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Knight;pos=c7;rarity=3;slot=3;level=6;stats=[23;8;3;8;0];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=d7;rarity=3;slot=4;level=6;stats=[17;6;7;3;0];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Shiro: Raw Talent;pos=b8;rarity=4;slot=1;level=26;stats=[31;25;19;25;14];weapon=Steel Lance;assist=Swap;special=-;a=Atk/Spd 2;b=-;c=Def Tactic 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Siegbert: Future King;pos=d8;rarity=4;slot=2;level=26;stats=[31;24;25;20;10];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Death Blow 2;b=-;c=Atk Tactic 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Knight;pos=c7;rarity=4;slot=3;level=26;stats=[42;27;10;29;12];weapon=Steel Axe;assist=Swap;special=-;a=-;b=Wary Fighter 1;c=Spur Def 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=d7;rarity=4;slot=4;level=26;stats=[32;22;20;19;10];weapon=Steel Bow;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Shiro: Raw Talent;pos=b8;rarity=5;slot=1;level=43;displaylevel=40;stats=[42;37;32;37;23];weapon=Bright Naginata;assist=Swap;special=-;a=Steady Stance 3;b=-;c=Def Tactic 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Siegbert: Future King;pos=d8;rarity=5;slot=2;level=43;displaylevel=40;stats=[42;36;37;33;17];weapon=Dark Greatsword;assist=-;special=Dragon Fang;a=Death Blow 3;b=-;c=Atk Tactic 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Knight;pos=c7;rarity=5;slot=3;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Silver Axe+;assist=Swap;special=-;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=d7;rarity=5;slot=4;level=43;displaylevel=40;stats=[45;34;30;30;17];weapon=Slaying Bow+;assist=-;special=Draconic Aura;a=Death Blow 3;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=黒白の子ら
+|german=Schatten und Licht
+|spanishEU=Luces y sombras
+|spanishLA=Luces y sombras
+|french=Ombre et lumière
+|italian=Luce e ombra
+|chineseTW=黑白的孩子們
+|portuguese=Sombras e luz
+}}
+{{Story Maps Navbox|book=2}}

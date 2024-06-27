@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0213.png
+|stageTitle=Chapter 13-2
+|stageName=The Sacrifices
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 13: A Way Home
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2132
+|backdrop=
+| a8={{Wall|style=Muspel|type=S|hp=U}} | b8= | c8= | d8= | e8= | f8={{Wall|style=Muspel|type=S|hp=U}}
+| a7={{Wall|style=Muspel|type=N|hp=U}} | b7= | c7= | d7= | e7= | f7={{Wall|style=Muspel|type=N|hp=U}}
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Wall|style=Muspel|type=E|hp=U}} | c5={{Wall|style=Muspel|type=EW|hp=1}} | d5={{Wall|style=Muspel|type=EW|hp=1}} | e5={{Wall|style=Muspel|type=W|hp=U}} | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2={{Wall|style=Muspel|type=ES|hp=U}} | b2={{Wall|style=Muspel|type=SW|hp=U}} | c2={{Ally|3}} | d2={{Ally|4}} | e2={{Wall|style=Muspel|type=ES|hp=U}} | f2={{Wall|style=Muspel|type=SW|hp=U}}
+| a1={{Wall|style=Muspel|type=NE|hp=U}} | b1={{Wall|style=Muspel|type=NW|hp=U}} | c1= | d1= | e1={{Wall|style=Muspel|type=NE|hp=U}} | f1={{Wall|style=Muspel|type=NW|hp=U}}
+}}
+|lvlNormal=31
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_07.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-14T07:00:00Z|notification=New Heroes: Nohrian Dusk (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nina: Eye Spy;pos=d7;rarity=3;slot=1;level=31;stats=[28;23;28;11;22];weapon=Shining Bow;assist=Draw Back;special=New Moon;a=-;b=Spd/Res Link 1;c=Bow Valor 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=a6;rarity=3;slot=2;level=31;stats=[35;22;22;22;16];weapon=Steel Sword;assist=-;special=Buckler;a=Steady Stance 1;b=Shield Pulse 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=3;slot=3;level=31;stats=[34;23;21;21;11];weapon=Steel Bow;assist=-;special=New Moon;a=Darting Blow 1;b=Desperation 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f6;rarity=3;slot=4;level=31;stats=[35;22;22;22;16];weapon=Steel Axe;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=e6;rarity=3;slot=5;level=31;stats=[27;26;18;12;25];weapon=Elthunder;assist=-;special=Retribution;a=Warding Stance 1;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Nina: Eye Spy;pos=d7;rarity=4;slot=1;level=36;stats=[31;28;33;13;26];weapon=Shining Bow;assist=Draw Back;special=New Moon;a=-;b=Spd/Res Link 2;c=Bow Valor 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=a6;rarity=4;slot=2;level=36;stats=[39;27;26;26;18];weapon=Safeguard;assist=-;special=Buckler;a=Steady Stance 2;b=Shield Pulse 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=4;slot=3;level=36;stats=[38;28;25;24;13];weapon=Slaying Bow;assist=-;special=New Moon;a=Darting Blow 2;b=Desperation 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f6;rarity=4;slot=4;level=36;stats=[39;27;26;26;18];weapon=Brave Axe;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=e6;rarity=4;slot=5;level=36;stats=[29;31;21;14;30];weapon=Blárserpent;assist=-;special=Retribution;a=Warding Stance 2;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Nina: Eye Spy;pos=d7;rarity=5;slot=1;level=41;displaylevel=40;stats=[36;32;38;16;31];weapon=Shining Bow+;assist=Draw Back;special=Moonbow;a=-;b=Spd/Res Link 3;c=Bow Valor 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=a6;rarity=5;slot=2;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Safeguard+;assist=-;special=Pavise;a=Steady Stance 3;b=Shield Pulse 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=5;slot=3;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Slaying Bow+;assist=-;special=Moonbow;a=Darting Blow 3;b=Desperation 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f6;rarity=5;slot=4;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Brave Axe+;assist=-;special=Astra;a=Death Blow 3;b=-;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=e6;rarity=5;slot=5;level=41;displaylevel=40;stats=[34;36;26;17;35];weapon=Blárserpent+;assist=-;special=Vengeance;a=Warding Stance 3;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Princess Laegjarn|Maid of Ice}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=炎の贄たち
+|german=Die Opfergaben
+|spanishEU=Los sacrificios
+|spanishLA=Los sacrificios
+|french=Les offrandes
+|italian=Sacrifici alle fiamme
+|chineseTW=炎之祭品
+|portuguese=Os sacrifícios
+}}
+{{Story Maps Navbox|book=2}}

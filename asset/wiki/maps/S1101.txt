@@ -1,0 +1,113 @@
+{{Battle Infobox
+|bannerImage=Banner_Ike Unrevealed.png
+|mapName=Chapter 10-1: Radiant Mercenaries
+|stageTitle=Chapter 10: Part 1
+|stageName=Radiant Mercenaries
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 10: World of Radiance
+|mapMode=Defensive Battle Map
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1101
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7={{Ally|1}} | d7={{Ally|2}} | e7= | f7=
+| a6={{Wall|style=normal|type=EW|hp=1}} | b6={{Wall|style=normal|type=W|hp=U}} | c6={{Ally|3}} | d6={{Ally|4}} | e6={{Wall|style=normal|type=ES|hp=U}} | f6={{Wall|style=normal|type=EW|hp=1}}
+| a5= | b5= | c5= | d5= | e5={{Wall|style=normal|type=NS|hp=U}} | f5=
+| a4= | b4={{Wall|style=normal|type=EW|hp=U}} | c4={{Wall|style=normal|type=EW|hp=U}} | d4={{Wall|style=normal|type=EW|hp=U}} | e4={{Wall|style=normal|type=NW|hp=U}} | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Defend: 6
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE09_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-04-26T07:00:00Z|notification=New Heroes: World of Radiance Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|backdrop=
+|baseMap=S1101
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6={{Wall|style=normal|type=EW|hp=1}} | b6={{Wall|style=normal|type=W|hp=U}} | c6= | d6= | e6={{Wall|style=normal|type=ES|hp=U}} | f6={{Wall|style=normal|type=EW|hp=1}}
+| a5= | b5= | c5= | d5= | e5={{Wall|style=normal|type=NS|hp=U}} | f5=
+| a4= | b4={{Wall|style=normal|type=EW|hp=U}} | c4={{Wall|style=normal|type=EW|hp=U}} | d4={{Wall|style=normal|type=EW|hp=U}} | e4={{Wall|style=normal|type=NW|hp=U}} | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Ike: Young Mercenary;pos=c1;rarity=3;slot=1;level=20;stats=[27;19;16;17;10];weapon=Ragnell;assist=-;special=Aether;a=Heavy Blade 3;b=Swordbreaker 3;c=-;seal=Embla's Ward;ai={};};
+{unit=Soren: Shrewd Strategist;pos=d1;rarity=3;slot=2;level=20;stats=[25;17;18;9;16];weapon=Elwind;assist=-;special=Rising Wind;a=-;b=Watersweep 1;c=Fortify Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Fighter;pos=a3;rarity=3;slot=3;level=20;stats=[29;16;16;17;12];weapon=Steel Lance;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=d3;rarity=3;slot=4;level=20;stats=[28;17;16;16;8];weapon=Steel Bow;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=b1;rarity=3;slot=5;level=20;stats=[28;18;13;14;17];weapon=Steel Axe;assist=-;special=-;a=-;b=Desperation 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=f1;rarity=3;slot=6;level=20;stats=[26;16;17;11;15];weapon=Elfire;assist=-;special=-;a=-;b=Seal Res 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=a1;rarity=3;slot=7;level=20;stats=[28;18;13;14;17];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3;count=3;target=Lance Cavalier;remain=0};};
+{unit=Axe Cavalier;pos=b1;rarity=3;slot=8;level=20;stats=[28;18;13;14;17];weapon=Steel Axe;assist=-;special=-;a=-;b=Desperation 1;c=-;seal=-;ai={turn=1;break_walls=1};spawn={count=3;target=Axe Cavalier;remain=0};};
+{unit=Red Mage;pos=e1;rarity=3;slot=9;level=20;stats=[26;16;17;11;15];weapon=Elfire;assist=-;special=-;a=-;b=Seal Res 1;c=-;seal=-;ai={turn=1;break_walls=1};spawn={count=3;target=Red Mage;remain=0};};
+{unit=Bow Fighter;pos=f1;rarity=3;slot=10;level=20;stats=[28;17;16;16;8];weapon=Steel Bow;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3;count=3;target=Bow Fighter;remain=0};};
+]
+|Hard=[
+{unit=Ike: Young Mercenary;pos=c1;rarity=4;slot=1;level=30;stats=[34;28;23;25;13];weapon=Ragnell;assist=-;special=Aether;a=Heavy Blade 3;b=Swordbreaker 3;c=-;seal=Embla's Ward;ai={};};
+{unit=Soren: Shrewd Strategist;pos=d1;rarity=4;slot=2;level=30;stats=[30;26;26;12;21];weapon=Rexcalibur;assist=-;special=Rising Wind;a=-;b=Watersweep 2;c=Fortify Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Fighter;pos=a3;rarity=4;slot=3;level=30;stats=[36;24;23;23;16];weapon=Silver Lance;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=d3;rarity=4;slot=4;level=30;stats=[35;25;22;21;11];weapon=Silver Bow;assist=-;special=-;a=Darting Blow 2;b=Vantage 1;c=Savage Blow 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=b1;rarity=4;slot=5;level=30;stats=[33;27;18;19;23];weapon=Silver Axe;assist=-;special=-;a=-;b=Desperation 2;c=Breath of Life 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=f1;rarity=4;slot=6;level=30;stats=[31;24;25;15;20];weapon=Bolganone;assist=-;special=-;a=-;b=Seal Res 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=a1;rarity=4;slot=7;level=30;stats=[33;27;18;19;23];weapon=Silver Lance;assist=-;special=-;a=-;b=Pass 1;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3;count=3;target=Lance Cavalier;remain=0};};
+{unit=Axe Cavalier;pos=b1;rarity=4;slot=8;level=30;stats=[33;27;18;19;23];weapon=Silver Axe;assist=-;special=-;a=-;b=Desperation 2;c=Breath of Life 1;seal=-;ai={turn=1;break_walls=1};spawn={count=3;target=Axe Cavalier;remain=0};};
+{unit=Red Mage;pos=e1;rarity=4;slot=9;level=30;stats=[31;24;25;15;20];weapon=Bolganone;assist=-;special=-;a=-;b=Seal Res 2;c=-;seal=-;ai={turn=1;break_walls=1};spawn={count=3;target=Red Mage;remain=0};};
+{unit=Bow Fighter;pos=f1;rarity=4;slot=10;level=30;stats=[35;25;22;21;11];weapon=Silver Bow;assist=-;special=-;a=Darting Blow 2;b=Vantage 1;c=Savage Blow 1;seal=-;ai={turn=1;break_walls=1};spawn={turn=3;count=3;target=Bow Fighter;remain=0};};
+]
+|Lunatic=[
+{unit=Ike: Young Mercenary;pos=c1;rarity=5;slot=1;level=40;stats=[42;36;31;32;18];weapon=Ragnell;assist=-;special=Aether;a=Heavy Blade 3;b=Swordbreaker 3;c=-;seal=Embla's Ward;ai={};};
+{unit=Soren: Shrewd Strategist;pos=d1;rarity=5;slot=2;level=40;stats=[37;34;33;17;29];weapon=Rexcalibur+;assist=-;special=Growing Wind;a=-;b=Watersweep 3;c=Fortify Res 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Fighter;pos=a3;rarity=5;slot=3;level=40;stats=[44;31;31;30;23];weapon=Silver Lance;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=d3;rarity=5;slot=4;level=40;stats=[43;32;29;29;16];weapon=Silver Bow;assist=-;special=-;a=Darting Blow 3;b=Vantage 2;c=Savage Blow 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=b1;rarity=5;slot=5;level=40;stats=[41;35;25;26;30];weapon=Silver Axe;assist=-;special=-;a=-;b=Desperation 3;c=Breath of Life 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Mage;pos=f1;rarity=5;slot=6;level=40;stats=[38;31;32;20;28];weapon=Bolganone;assist=-;special=-;a=-;b=Seal Res 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=a1;rarity=5;slot=7;level=40;stats=[41;35;25;26;30];weapon=Silver Lance;assist=-;special=-;a=-;b=Pass 3;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3;count=3;target=Lance Cavalier;remain=0};};
+{unit=Axe Cavalier;pos=b1;rarity=5;slot=8;level=40;stats=[41;35;25;26;30];weapon=Silver Axe;assist=-;special=-;a=-;b=Desperation 3;c=Breath of Life 2;seal=-;ai={turn=1;break_walls=1};spawn={count=3;target=Axe Cavalier;remain=0};};
+{unit=Red Mage;pos=e1;rarity=5;slot=9;level=40;stats=[38;31;32;20;28];weapon=Bolganone;assist=-;special=-;a=-;b=Seal Res 3;c=-;seal=-;ai={turn=1;break_walls=1};spawn={count=3;target=Red Mage;remain=0};};
+{unit=Bow Fighter;pos=f1;rarity=5;slot=10;level=40;stats=[43;32;29;29;16];weapon=Silver Bow;assist=-;special=-;a=Darting Blow 3;b=Vantage 2;c=Savage Blow 2;seal=-;ai={turn=1;break_walls=1};spawn={turn=3;count=3;target=Bow Fighter;remain=0};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Zephiel: The Liberator (map)|The Imperial Prince}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=蒼炎の傭兵団
+|german=Strahlende Söldner
+|spanishEU=Mercenarios fulgurantes
+|spanishLA=Mercenarios fulgurantes
+|french=Les mercenaires de Greil
+|italian=Mercenari della fiamma
+|chineseTW=蒼炎傭兵團
+|portuguese=Mercenários fulgurantes
+}}
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Veronica Unrevealed.png
+|mapName=Chapter 9-1: Loyalty and Ambition
+|stageTitle=Chapter 9: Part 1
+|stageName=Loyalty and Ambition
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 9: Heroes Invade
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1001
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Wall|style=normal|type=Pillar|hp=1}} | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2= | d2={{Wall|style=normal|type=Pillar|hp=1}} | e2={{Ally|2}} | f2=
+| a1={{Ally|3}} | b1= | c1= | d1= | e1= | f1={{Ally|4}}
+}}
+|lvlNormal=20
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Michalis: Ambitious King;pos=b8;rarity=3;slot=1;level=20;stats=[28;18;15;19;10];weapon=Steel Axe;assist=-;special=-;a=Iote's Shield;b=-;c=Threaten Def 2;seal=-;ai={turn=1};};
+{unit=Camus: Sable Knight;pos=e8;rarity=3;slot=2;level=20;stats=[27;17;18;16;9];weapon=Steel Lance;assist=-;special=Rising Thunder;a=Grani's Shield;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c7;rarity=3;slot=3;level=20;stats=[26;15;19;11;20];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=d6;rarity=3;slot=4;level=20;stats=[23;19;14;9;18];weapon=Elfire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Michalis: Ambitious King;pos=b8;rarity=3;slot=1;level=30;stats=[34;24;19;25;13];weapon=Steel Axe;assist=-;special=-;a=Iote's Shield;b=-;c=Threaten Def 2;seal=-;ai={turn=1};};
+{unit=Camus: Sable Knight;pos=e8;rarity=3;slot=2;level=30;stats=[33;23;24;22;12];weapon=Steel Lance;assist=-;special=Rising Thunder;a=Grani's Shield;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c7;rarity=3;slot=3;level=30;stats=[30;20;25;15;26];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=d6;rarity=3;slot=4;level=30;stats=[27;25;18;12;24];weapon=Elfire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Michalis: Ambitious King;pos=b8;rarity=4;slot=1;level=40;stats=[41;33;25;34;17];weapon=Silver Axe;assist=-;special=-;a=Iote's Shield;b=-;c=Threaten Def 2;seal=-;ai={turn=1};};
+{unit=Camus: Sable Knight;pos=e8;rarity=4;slot=2;level=40;stats=[40;31;32;29;15];weapon=Silver Lance;assist=-;special=Rising Thunder;a=Grani's Shield;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c7;rarity=4;slot=3;level=40;stats=[36;26;34;19;35];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=d6;rarity=4;slot=4;level=40;stats=[31;34;24;15;33];weapon=Bolganone;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Future Princess|The Unknown}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=野望と忠義
+|german=Loyalität und Ehrgeiz
+|spanishEU=Lealtad y ambición
+|spanishLA=Lealtad y ambición
+|french=Loyauté et ambition
+|italian=Lealtà e ambizione
+|chineseTW=野心與忠義
+|portuguese=Lealdade e ambição
+}}
+{{Story Maps Navbox|book=1}}

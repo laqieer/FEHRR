@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Robin (M) (Fallen Heroes).png
+|mapName=Chapter 5-5: Hunted by the Flames
+|stageTitle=Chapter 5: Part 5
+|stageName=Hunted by the Flames
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 5: Blood and Snow
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2055
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Ally|1}} | c7= | d7={{Ally|2}} | e7= | f7=
+| a6= | b6= | c6={{Ally|3}} | d6= | e6={{Ally|4}} | f6=
+| a5= | b5={{Box|style=Ice|type=Regular|hp=U}} | c5={{Box|style=Ice|type=Regular|hp=2}} | d5= | e5= | f5={{Box|style=Ice|type=Regular|hp=U}}
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-02-22T07:00:00Z|notification=New Heroes: Fallen Heroes (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Laegjarn: Sheathed Steel;pos=c1;rarity=3;slot=1;level=15;stats=[25;13;17;16;6];weapon=Steel Sword;assist=Harsh Command;special=Holy Vestments;a=Fierce Stance 1;b=-;c=Def Tactic 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=d2;rarity=3;slot=2;level=15;stats=[25;16;13;15;10];weapon=Steel Sword;assist=-;special=New Moon;a=Heavy Blade 1;b=-;c=Drive Atk 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Hardin: Dark Emperor;pos=d3;rarity=3;slot=3;level=15;stats=[29;14;12;16;13];weapon=Steel Lance;assist=-;special=Retribution;a=Brazen Def/Res 1;b=Bold Fighter 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Robin: Fell Reincarnation;pos=c3;rarity=3;slot=4;level=15;stats=[30;17;11;15;10];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=-;b=Vengeful Fighter 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Cavalier;pos=e1;rarity=3;slot=5;level=15;stats=[20;15;11;6;14];weapon=Elwind;assist=-;special=-;a=-;b=-;c=Drive Spd 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Laegjarn: Sheathed Steel;pos=c1;rarity=4;slot=1;level=35;stats=[38;26;31;32;13];weapon=Silver Sword;assist=Harsh Command;special=Holy Vestments;a=Fierce Stance 2;b=Vantage 1;c=Def Tactic 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=d2;rarity=4;slot=2;level=35;stats=[37;31;25;30;21];weapon=Silver Sword;assist=-;special=New Moon;a=Heavy Blade 2;b=Cancel Affinity 1;c=Drive Atk 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Hardin: Dark Emperor;pos=d3;rarity=4;slot=3;level=35;stats=[40;29;23;31;26];weapon=Silver Lance;assist=-;special=Retribution;a=Brazen Def/Res 2;b=Bold Fighter 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Robin: Fell Reincarnation;pos=c3;rarity=4;slot=4;level=35;stats=[42;35;20;30;22];weapon=Flametongue;assist=-;special=Glowing Ember;a=-;b=Vengeful Fighter 2;c=Atk Tactic 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Cavalier;pos=e1;rarity=4;slot=5;level=35;stats=[29;30;21;13;29];weapon=Gronnraven;assist=-;special=-;a=Mirror Strike 1;b=-;c=Drive Spd 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Laegjarn: Sheathed Steel;pos=c1;rarity=5;slot=1;level=45;displaylevel=40;stats=[47;35;39;41;18];weapon=Níu;assist=Harsh Command;special=Aegis;a=Fierce Stance 3;b=Vantage 3;c=Def Tactic 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=d2;rarity=5;slot=2;level=45;displaylevel=40;stats=[46;39;34;38;28];weapon=Laevatein (weapon);assist=-;special=Moonbow;a=Heavy Blade 3;b=Cancel Affinity 3;c=Drive Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Hardin: Dark Emperor;pos=d3;rarity=5;slot=3;level=45;displaylevel=40;stats=[48;37;31;39;35];weapon=Gradivus;assist=-;special=Vengeance;a=Brazen Def/Res 3;b=Bold Fighter 3;c=Armor March 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Robin: Fell Reincarnation;pos=c3;rarity=5;slot=4;level=45;displaylevel=40;stats=[51;44;26;38;30];weapon=Expiration;assist=-;special=Ignis;a=-;b=Vengeful Fighter 3;c=Atk Tactic 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Cavalier;pos=e1;rarity=5;slot=5;level=45;displaylevel=40;stats=[35;38;28;18;37];weapon=Gronnraven+;assist=-;special=-;a=Mirror Strike 2;b=-;c=Drive Spd 2;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Dark Emperor|Takumi: Empty Vessel (map)}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=炎の狩人
+|german=Von Flammen gejagt
+|spanishEU=Cacería ígnea
+|spanishLA=Cacería ígnea
+|french=La proie des flammes
+|italian=Fiamme cacciatrici
+|chineseTW=炎之狩獵者
+|portuguese=Perseguição flamejante
+}}
+{{Story Maps Navbox|book=2}}

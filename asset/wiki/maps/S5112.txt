@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0511.webp
+|stageTitle=Chapter 11-2
+|stageName=Nowhere Left
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 11: Deceit
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5112
+|backdrop=
+|allyPos=c2,d2,e2,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=1}} | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=U}} | d5= | e5= | f5=
+| a4={{#invoke:MapLayout|wall|style=Nisaveril_city|type=S|hp=1}} | b4= | c4= | d4= | e4= | f4=
+| a3={{#invoke:MapLayout|wall|style=Nisaveril_city|type=N|hp=U}} | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=U}}
+}}
+|lvlNormal=27
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_12.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-09-17T07:00:00Z|notification=New Heroes Summoning Event: Abyss & Múspell (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ótr: Kingsbrother;pos=d8;rarity=3;slot=1;level=27;stats=[30;27;10;24;22];weapon=Silver Axe;assist=-;special=Glowing Ember;a=Fury 1;b=Lull Atk/Def 1;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=e7;rarity=3;slot=2;level=27;stats=[31;22;15;16;20];weapon=Steel Sword;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Hapi: Drawn-Out Sigh;pos=f7;rarity=3;slot=3;level=27;stats=[30;29;16;9;26];weapon=Thoron;assist=-;special=Night Sky;a=Atk/Res Catch 1;b=A/R Far Trace 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=f5;rarity=3;slot=4;level=27;stats=[32;21;20;19;18];weapon=Fire Breath+;assist=-;special=Daylight;a=Close Def 1;b=Dragon's Ire 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Thief;pos=a7;rarity=3;slot=5;level=27;stats=[27;18;25;8;21];weapon=Steel Dagger;assist=-;special=New Moon;a=Life and Death 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ótr: Kingsbrother;pos=d8;rarity=4;slot=1;level=36;stats=[36;35;14;33;28];weapon=Lofnheiðr;assist=-;special=Glowing Ember;a=Fury 2;b=Lull Atk/Def 2;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=e7;rarity=4;slot=2;level=36;stats=[36;30;20;21;26];weapon=Armorsmasher;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Hapi: Drawn-Out Sigh;pos=f7;rarity=4;slot=3;level=36;stats=[35;37;21;13;34];weapon=Demonic Tome;assist=-;special=Night Sky;a=Atk/Res Catch 2;b=A/R Far Trace 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=f5;rarity=4;slot=4;level=36;stats=[39;28;26;24;23];weapon=Flametongue;assist=-;special=Daylight;a=Close Def 2;b=Dragon's Ire 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Thief;pos=a7;rarity=4;slot=5;level=36;stats=[32;23;34;11;28];weapon=The Cleaner;assist=-;special=New Moon;a=Life and Death 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ótr: Kingsbrother;pos=d8;rarity=5;slot=1;level=41;stats=[41;41;17;38;33];weapon=Lofnheiðr;assist=-;special=Bonfire;a=Fury 3;b=Lull Atk/Def 3;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=e7;rarity=5;slot=2;level=41;stats=[41;35;25;26;30];weapon=Armorsmasher+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Ward Cavalry;seal=-;ai={turn=1};};
+{unit=Hapi: Drawn-Out Sigh;pos=f7;rarity=5;slot=3;level=41;stats=[40;43;26;16;40];weapon=Demonic Tome;assist=-;special=Glimmer;a=Atk/Res Catch 4;b=A/R Far Trace 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=f5;rarity=5;slot=4;level=41;stats=[45;32;30;29;28];weapon=Flametongue+;assist=-;special=Noontime;a=Close Def 3;b=Dragon's Ire 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Thief;pos=a7;rarity=5;slot=5;level=41;stats=[37;28;39;14;32];weapon=The Cleaner+;assist=-;special=Moonbow;a=Life and Death 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Desolation|Fallen Noble}}
+==In other languages==
+{{OtherLanguages
+|japanese=どこにも帰さない
+|german=Kein Zurück
+|spanishEU=Ningún otro lugar
+|spanishLA=Ningún otro lugar
+|french=Nulle part où aller
+|italian=Nessun altro posto
+|chineseTW=別想回去
+|portuguese=Sem destino
+}}
+{{Story Maps Navbox|book=5}}

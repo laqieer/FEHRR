@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Ryoma.png
+|mapName=Chapter 6-5: Prince of Birthright
+|stageTitle=Chapter 6: Part 5
+|stageName=Prince of Birthright
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 6: World of Birthright
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0705
+| a8= | b8={{Wall|style=insideJP|type=S|hp=1}} | c8= | d8= | e8={{Wall|style=insideJP|type=S|hp=1}} | f8=
+| a7= | b7={{Wall|style=insideJP|type=NS|hp=U}} | c7= | d7= | e7={{Wall|style=insideJP|type=NS|hp=U}} | f7=
+| a6= | b6={{Wall|style=insideJP|type=NS|hp=U}} | c6= | d6={{Ally|1}} | e6={{Wall|style=insideJP|type=NS|hp=U}} | f6=
+| a5= | b5={{Wall|style=insideJP|type=NES|hp=U}} | c5={{Wall|style=insideJP|type=EW|hp=U}} | d5={{Wall|style=insideJP|type=EW|hp=2}} | e5={{Wall|style=insideJP|type=NSW|hp=U}} | f5=
+| a4= | b4={{Wall|style=insideJP|type=N|hp=U}} | c4={{Ally|2}} | d4= | e4={{Wall|style=insideJP|type=N|hp=U}} | f4=
+| a3= | b3= | c3={{Ally|3}} | d3={{Ally|4}} | e3= | f3=
+| a2= | b2={{Wall|style=insideJP|type=Pillar|hp=U}} | c2= | d2= | e2={{Wall|style=insideJP|type=Pillar|hp=U}} | f2=
+| a1= | b1= | c1={{Wall|style=insideJP|type=E|hp=U}} | d1={{Wall|style=insideJP|type=W|hp=U}} | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=25
+|lvlLunatic=35
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=8
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_01.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ryoma: Peerless Samurai;pos=c8;rarity=3;slot=1;level=15;stats=[25;15;18;11;9];weapon=Steel Sword;assist=-;special=Night Sky;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Saizo: Angry Ninja;pos=a5;rarity=3;slot=2;level=15;stats=[22;13;15;16;6];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=Spur Spd 2;seal=-;ai={turn=1};};
+{unit=Kagero: Honorable Ninja;pos=f1;rarity=3;slot=3;level=15;stats=[20;16;15;10;12];weapon=Steel Dagger;assist=-;special=-;a=Warding Blow 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Oboro: Fierce Fighter;pos=f5;rarity=3;slot=4;level=15;stats=[24;15;12;16;10];weapon=Steel Lance;assist=Reposition;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Hinata: Wild Samurai;pos=a1;rarity=3;slot=5;level=15;stats=[28;15;10;17;7];weapon=Steel Sword;assist=Swap;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Ryoma: Peerless Samurai;pos=c8;rarity=3;slot=1;level=25;stats=[30;21;23;16;13];weapon=Steel Sword;assist=-;special=Night Sky;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Saizo: Angry Ninja;pos=a5;rarity=3;slot=2;level=25;stats=[27;18;21;21;9];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=Spur Spd 2;seal=-;ai={turn=1};};
+{unit=Kagero: Honorable Ninja;pos=f1;rarity=3;slot=3;level=25;stats=[23;22;20;14;17];weapon=Steel Dagger;assist=-;special=-;a=Warding Blow 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Oboro: Fierce Fighter;pos=f5;rarity=3;slot=4;level=25;stats=[29;20;17;22;15];weapon=Steel Lance;assist=Reposition;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Hinata: Wild Samurai;pos=a1;rarity=3;slot=5;level=25;stats=[34;20;15;23;10];weapon=Steel Sword;assist=Swap;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Ryoma: Peerless Samurai;pos=c8;rarity=4;slot=1;level=35;stats=[36;30;31;22;17];weapon=Silver Sword;assist=-;special=Night Sky;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Saizo: Angry Ninja;pos=a5;rarity=4;slot=2;level=35;stats=[32;24;30;29;13];weapon=Smoke Dagger;assist=-;special=-;a=-;b=-;c=Spur Spd 2;seal=-;ai={turn=1};};
+{unit=Kagero: Honorable Ninja;pos=f1;rarity=4;slot=3;level=35;stats=[28;31;28;18;23];weapon=Silver Dagger;assist=-;special=-;a=Warding Blow 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Oboro: Fierce Fighter;pos=f5;rarity=4;slot=4;level=35;stats=[35;28;22;31;20];weapon=Heavy Spear;assist=Reposition;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Hinata: Wild Samurai;pos=a1;rarity=4;slot=5;level=35;stats=[42;28;20;32;15];weapon=Silver Sword;assist=Swap;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Birthright Trial|Blazing Trial}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=白夜の王子
+|german=Der Prinz von Hoshido
+|spanishEU=El príncipe de Hoshido
+|spanishLA=El príncipe de Hoshido
+|french=L'héritier d'Hoshido
+|italian=Il principe di Birthright
+|chineseTW=白夜王子
+|portuguese=Príncipe de Hoshido
+}}
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Ryoma_(Chapter)|Fire Emblem Fates: Conquest - Chapter 25: Ryoma]]. ([https://www.youtube.com/watch?v=kVrUdx493C4 Map Video])
+
+{{Story Maps Navbox|book=1}}

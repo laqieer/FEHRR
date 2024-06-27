@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Helbindi Unrevealed.png
+|mapName=Chapter 9-2: The Demon Sword
+|stageTitle=Chapter 9: Part 2
+|stageName=The Demon Sword
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 9: Hellfire
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2092
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6={{Wall|style=Muspel|type=Pillar|hp=U}} | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2={{Wall|style=Muspel|type=S|hp=1}}
+| a1= | b1= | c1={{Wall|style=Muspel|type=Pillar|hp=1}} | d1= | e1= | f1={{Wall|style=Muspel|type=N|hp=U}}
+}}
+|lvlNormal=23
+|lvlHard=35
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_05.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-05-10T07:00:00Z|notification=New Heroes: Genealogy (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ares: Black Knight;pos=c7;rarity=3;slot=1;level=23;stats=[28;21;18;19;10];weapon=Slaying Edge;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 1;b=Seal Def/Res 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=d7;rarity=3;slot=2;level=23;stats=[29;20;13;14;18];weapon=Steel Lance;assist=-;special=New Moon;a=Fortress Def 2;b=-;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=b7;rarity=3;slot=3;level=23;stats=[21;19;11;11;25];weapon=Absorb;assist=Martyr;special=-;a=-;b=Guard 1;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f7;rarity=3;slot=4;level=23;stats=[31;18;18;18;12];weapon=Steel Axe;assist=-;special=New Moon;a=Fire Boost 1;b=Seal Def 1;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=e8;rarity=3;slot=5;level=23;stats=[28;21;12;13;13];weapon=Steel Bow;assist=-;special=-;a=Spd/Res 1;b=-;c=Spur Def 2;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Ares: Black Knight;pos=c7;rarity=4;slot=1;level=35;stats=[35;31;26;27;14];weapon=Slaying Edge;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 2;b=Seal Def/Res 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=d7;rarity=4;slot=2;level=35;stats=[36;29;20;21;26];weapon=Slaying Lance;assist=-;special=New Moon;a=Fortress Def 2;b=Lunge;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=b7;rarity=4;slot=3;level=35;stats=[26;27;17;16;36];weapon=Absorb;assist=Martyr;special=-;a=-;b=Guard 2;c=Hone Atk 3;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f7;rarity=4;slot=4;level=35;stats=[38;26;25;26;18];weapon=Silver Axe;assist=-;special=New Moon;a=Fire Boost 2;b=Seal Def 2;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=e8;rarity=4;slot=5;level=35;stats=[35;30;18;20;20];weapon=Silver Bow;assist=-;special=Rising Flame;a=Spd/Res 1;b=-;c=Spur Def 3;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Ares: Black Knight;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[40;37;30;34;18];weapon=Dark Mystletainn;assist=-;special=Draconic Aura;a=Brazen Atk/Def 3;b=Seal Def/Res 2;c=-;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=d7;rarity=5;slot=2;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Slaying Lance+;assist=-;special=Moonbow;a=Fortress Def 3;b=Lunge;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=b7;rarity=5;slot=3;level=41;displaylevel=40;stats=[30;32;22;20;42];weapon=Absorb+;assist=Martyr+;special=-;a=-;b=Guard 3;c=Hone Cavalry;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f7;rarity=5;slot=4;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Silver Axe+;assist=-;special=Luna;a=Fire Boost 3;b=Seal Def 3;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=e8;rarity=5;slot=5;level=41;displaylevel=40;stats=[40;36;23;25;24];weapon=Silver Bow+;assist=-;special=Growing Flame;a=Spd/Res 2;b=-;c=Ward Cavalry;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Ares: Black Knight;text=Mystletainn, the Demon Sword...\nIt thirsts for the blood of men.\nWould you become its prey?;textJP=魔剣ミストルティンは\n人の血をほしがる…\nむざむざと餌食になりたいか。};
+]}}
+{{Story Navbar|The Infernal Jailer|The Goddess of Thunder}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔剣の黒騎士
+|german=Der Dunkle Ritter
+|spanishEU=Ares y su Hoja Diabólica
+|spanishLA=La Hoja Diabólica
+|french=L'épée démoniaque
+|italian=La lama demoniaca
+|chineseTW=魔劍的黑騎士
+|portuguese=A espada demoníaca
+}}
+{{Story Maps Navbox|book=2}}

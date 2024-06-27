@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Ryoma Unrevealed.png
+|mapName=Chapter 6-4: Shy Princess
+|stageTitle=Chapter 6: Part 4
+|stageName=Shy Princess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 6: World of Birthright
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0704
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=normal|type=ES|hp=U}} | c7={{Wall|style=normal|type=EW|hp=1}} | d7={{Wall|style=normal|type=EW|hp=1}} | e7={{Wall|style=normal|type=SW|hp=2}} | f7=
+| a6= | b6={{Wall|style=normal|type=NS|hp=U}} | c6= | d6= | e6={{Wall|style=normal|type=NES|hp=U}} | f6={{Wall|style=normal|type=W|hp=1}}
+| a5={{Wall|style=normal|type=E|hp=1}} | b5={{Wall|style=normal|type=NSW|hp=1}} | c5= | d5= | e5={{Wall|style=normal|type=NS|hp=1}} | f5=
+| a4= | b4={{Wall|style=normal|type=NS|hp=1}} | c4= | d4= | e4={{Wall|style=normal|type=NS|hp=1}} | f4=
+| a3= | b3={{Wall|style=normal|type=NE|hp=1}} | c3={{Wall|style=normal|type=EW|hp=1}} | d3={{Wall|style=normal|type=ESW|hp=1}} | e3={{Wall|style=normal|type=NW|hp=U}} | f3=
+| a2={{Ally|1}} | b2={{Ally|2}} | c2= | d2={{Wall|style=normal|type=NS|hp=1}} | e2= | f2=
+| a1={{Ally|3}} | b1={{Ally|4}} | c1={{Wall|style=normal|type=E|hp=U}} | d1={{Wall|style=normal|type=NW|hp=U}} | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=24
+|lvlLunatic=34
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=7
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sakura: Loving Priestess;pos=d6;rarity=3;slot=1;level=14;stats=[22;12;14;10;14];weapon=Assault;assist=Mend;special=Imbue;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Hana: Focused Samurai;pos=f2;rarity=3;slot=2;level=14;stats=[23;16;17;10;10];weapon=Steel Sword;assist=-;special=-;a=Fury 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Subaki: Perfect Expert;pos=a7;rarity=3;slot=3;level=14;stats=[24;11;16;16;9];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Kagero: Honorable Ninja;pos=c5;rarity=3;slot=4;level=14;stats=[20;16;14;9;12];weapon=Steel Dagger;assist=-;special=Retribution;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Sakura: Loving Priestess;pos=d6;rarity=3;slot=1;level=24;stats=[26;17;19;14;19];weapon=Assault;assist=Mend;special=Imbue;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Hana: Focused Samurai;pos=f2;rarity=3;slot=2;level=24;stats=[27;22;23;14;15];weapon=Steel Sword;assist=-;special=-;a=Fury 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Subaki: Perfect Expert;pos=a7;rarity=3;slot=3;level=24;stats=[29;15;22;22;13];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Kagero: Honorable Ninja;pos=c5;rarity=3;slot=4;level=24;stats=[23;22;20;13;17];weapon=Steel Dagger;assist=-;special=Retribution;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Sakura: Loving Priestess;pos=d6;rarity=4;slot=1;level=34;stats=[32;22;25;20;25];weapon=Assault;assist=Mend;special=Imbue;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Hana: Focused Samurai;pos=f2;rarity=4;slot=2;level=34;stats=[33;30;31;19;20];weapon=Armorslayer;assist=-;special=-;a=Fury 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Subaki: Perfect Expert;pos=a7;rarity=4;slot=3;level=34;stats=[34;21;30;30;18];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Kagero: Honorable Ninja;pos=c5;rarity=4;slot=4;level=34;stats=[27;30;27;18;22];weapon=Silver Dagger;assist=-;special=Retribution;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=内気な妹王女
+|german=Schüchterne Prinzessin
+|spanishEU=La princesa apocada
+|spanishLA=La princesa tímida
+|french=La prêtresse timide
+|italian=La principessa timida
+|chineseTW=內向的王妹
+|portuguese=A princesa tímida
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Sakura_(Chapter)|Fire Emblem Fates: Conquest - Chapter 22: Sakura]]. ([https://www.youtube.com/watch?v=OBuJz1YB-Kw Map Video])
+
+{{Story Maps Navbox|book=1}}

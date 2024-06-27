@@ -1,0 +1,112 @@
+{{Battle Infobox
+|bannerImage=Banner_Eirika (Sacred Memories).png
+|mapName=Chapter 4-5: Fiery Resolve
+|stageTitle=Chapter 4: Part 5
+|stageName=Fiery Resolve
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 4: Fiery Resolve
+|mapMode=Defensive Battle Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2045
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{Ally|1}} | c6={{Ally|2}} | d6={{Ally|3}} | e6={{Ally|4}} | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Wall|style=BraveBoss|type=Pillar|hp=1}} | b4= | c4= | d4= | e4= | f4={{Wall|style=BraveBoss|type=Pillar|hp=1}}
+| a3= | b3= | c3={{Wall|style=BraveBoss|type=E|hp=2}} | d3={{Wall|style=BraveBoss|type=W|hp=2}} | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=33
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|winReq=Turns to Defend: 6
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-25T07:00:00Z|notification=New Heroes: Sacred Memories (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2045
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Wall|style=BraveBoss|type=Pillar|hp=1}} | b4= | c4= | d4= | e4= | f4={{Wall|style=BraveBoss|type=Pillar|hp=1}}
+| a3= | b3= | c3={{Wall|style=BraveBoss|type=E|hp=2}} | d3={{Wall|style=BraveBoss|type=W|hp=2}} | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Loki: The Trickster;pos=c1;rarity=3;slot=1;level=12;stats=[23;12;13;4;10];weapon=Gravity;assist=Heal;special=-;a=Distant Def 1;b=-;c=Hone Atk 1;seal=-;ai={turn=3;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=d1;rarity=3;slot=2;level=12;stats=[24;13;11;12;7];weapon=Steel Sword;assist=-;special=Rising Flame;a=Death Blow 1;b=-;c=Atk Tactic 1;seal=-;ai={turn=3;break_walls=1};};
+{unit=Lance Cavalier;pos=e1;rarity=3;slot=3;level=12;stats=[23;11;8;7;10];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Dragon;pos=b1;rarity=3;slot=4;level=12;stats=[23;12;9;13;4];weapon=Steel Sword;assist=-;special=-;a=Armored Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=a1;rarity=3;slot=5;level=12;stats=[21;10;12;5;8];weapon=Elwind;assist=-;special=-;a=Warding Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Axe Cavalier;pos=f1;rarity=3;slot=6;level=12;stats=[23;11;8;7;10];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Surtr: Ruler of Flame;pos=c1;rarity=3;slot=7;level=12;stats=[27;15;5;16;12];weapon=Sinmara;assist=-;special=Glowing Ember;a=Fierce Stance 2;b=-;c=Armor March 3;seal=Múspellflame;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Sword Knight;pos=b1;rarity=3;slot=8;level=12;stats=[28;13;5;14;2];weapon=Steel Sword;assist=-;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+|Hard=[
+{unit=Loki: The Trickster;pos=c1;rarity=4;slot=1;level=33;stats=[35;27;29;14;23];weapon=Gravity;assist=Physic;special=Heavenly Light;a=Distant Def 2;b=-;c=Hone Atk 2;seal=-;ai={turn=3;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=d1;rarity=4;slot=2;level=33;stats=[36;30;24;29;20];weapon=Silver Sword;assist=-;special=Rising Flame;a=Sturdy Blow 1;b=Lunge;c=Atk Tactic 2;seal=-;ai={turn=3;break_walls=1};};
+{unit=Lance Cavalier;pos=e1;rarity=4;slot=3;level=33;stats=[34;28;19;20;24];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=Savage Blow 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Dragon;pos=b1;rarity=4;slot=4;level=33;stats=[34;29;20;30;14];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Armored Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=a1;rarity=4;slot=5;level=33;stats=[32;25;26;15;21];weapon=Keen Gronnwolf;assist=-;special=-;a=Warding Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Lance Cavalier;pos=b1;rarity=4;slot=6;level=33;stats=[34;28;19;20;24];weapon=Silver Lance;assist=-;special=New Moon;a=-;b=Quick Riposte 2;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Axe Cavalier;pos=f1;rarity=4;slot=7;level=33;stats=[34;28;19;20;24];weapon=Slaying Hammer;assist=-;special=-;a=Fire Boost 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Surtr: Ruler of Flame;pos=c1;rarity=4;slot=8;level=33;stats=[44;33;11;34;28];weapon=Sinmara;assist=-;special=Ignis;a=Fierce Stance 3;b=Obstruct 3;c=Armor March 3;seal=Múspellflame;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Sword Knight;pos=b1;rarity=4;slot=9;level=33;stats=[47;32;12;34;14];weapon=Silver Sword;assist=-;special=-;a=Life and Death 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+|Lunatic=[
+{unit=Loki: The Trickster;pos=c1;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;36;38;21;33];weapon=Thökk;assist=Physic+;special=Heavenly Light;a=Distant Def 3;b=-;c=Hone Atk 3;seal=-;ai={turn=3;break_walls=1};};
+{unit=Laevatein: Searing Steel;pos=d1;rarity=5;slot=2;level=45;displaylevel=40;stats=[46;39;34;38;28];weapon=Laevatein (weapon);assist=-;special=Blazing Flame;a=Sturdy Blow 2;b=Lunge;c=Atk Tactic 3;seal=-;ai={turn=3;break_walls=1};};
+{unit=Lance Cavalier;pos=e1;rarity=5;slot=3;level=45;displaylevel=40;stats=[44;37;27;28;33];weapon=Silver Lance+;assist=-;special=-;a=-;b=-;c=Savage Blow 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Dragon;pos=b1;rarity=5;slot=4;level=45;displaylevel=40;stats=[44;38;30;39;21];weapon=Silver Sword+;assist=-;special=Bonfire;a=Armored Blow 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=a1;rarity=5;slot=5;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Keen Gronnwolf+;assist=-;special=-;a=Warding Blow 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=2};};
+{unit=Lance Cavalier;pos=b1;rarity=5;slot=6;level=45;displaylevel=40;stats=[44;37;27;28;33];weapon=Silver Lance+;assist=-;special=Moonbow;a=-;b=Quick Riposte 3;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Axe Cavalier;pos=f1;rarity=5;slot=7;level=45;displaylevel=40;stats=[44;37;27;28;33];weapon=Slaying Hammer+;assist=-;special=-;a=Fire Boost 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};spawn={turn=3};};
+{unit=Surtr: Ruler of Flame;pos=c1;rarity=5;slot=8;level=45;displaylevel=40;stats=[57;43;16;44;38];weapon=Sinmara;assist=-;special=Ignis;a=Fierce Stance 3;b=Obstruct 3;c=Armor March 3;seal=Múspellflame;ai={turn=1;break_walls=1};spawn={turn=4};};
+{unit=Sword Knight;pos=b1;rarity=5;slot=9;level=45;displaylevel=40;stats=[59;42;17;44;21];weapon=Silver Sword+;assist=-;special=-;a=Life and Death 3;b=-;c=Goad Armor;seal=-;ai={turn=1;break_walls=1};spawn={turn=4};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Young Dragon|Lyon: Shadow Prince (map)}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=灼熱の決断
+|german=Glühender Entschluss
+|spanishEU=Resolución ardiente
+|spanishLA=Resolución ardiente
+|french=Rage ardente
+|italian=Fermezza ardente
+|chineseTW=灼熱的決斷
+|portuguese=Resolução ardente
+}}
+==Trivia==
+* Due to {{Ht|Surtr: Ruler of Flame}} being a reinforcement, it is possible to clear this map without encountering Surtr if all enemies on screen are defeated prior to turn 4.
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0602.webp
+|stageTitle=Chapter 2: Part 2
+|stageName=Pursuer of Truth
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 2: Curse Directive
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6022
+|backdrop=
+|allyPos=a4,b4,a3,b3
+| a8={{Wall|style=normal|type=S|hp=U}} | b8= | c8= | d8= | e8= | f8=
+| a7={{Wall|style=normal|type=N|hp=U}} | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3={{Wall|style=normal|type=Pillar|hp=2}} | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1={{Wall|style=normal|type=E|hp=U}} | c1={{Wall|style=normal|type=W|hp=U}} | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=24
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_16.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Miriel: Rapier Intellect;pos=e7;rarity=3;slot=1;level=4;stats=[18;9;11;6;7];weapon=Thunder;assist=Draw Back;special=-;a=Atk/Spd Ideal 1;b=Spd/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f5;rarity=3;slot=2;level=4;stats=[18;6;9;4;10];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=d7;rarity=3;slot=3;level=4;stats=[17;7;10;8;5];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=f2;rarity=3;slot=4;level=4;stats=[15;8;4;5;12];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Miriel: Rapier Intellect;pos=e7;rarity=4;slot=1;level=24;stats=[28;24;27;16;19];weapon=Elthunder;assist=Draw Back;special=-;a=Atk/Spd Ideal 2;b=Spd/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f5;rarity=4;slot=2;level=24;stats=[28;17;23;12;24];weapon=Steel Sword;assist=-;special=Chilling Wind;a=-;b=Quick Riposte 1;c=Atk Tactic 1;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=d7;rarity=4;slot=3;level=24;stats=[28;18;24;21;16];weapon=Fire Breath+;assist=-;special=Rising Light;a=Fury 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=f2;rarity=4;slot=4;level=24;stats=[22;21;12;12;28];weapon=Assault;assist=Mend;special=Kindled-Fire Balm;a=-;b=-;c=Breath of Life 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Miriel: Rapier Intellect;pos=e7;rarity=5;slot=1;level=41;stats=[38;38;41;26;31];weapon=Blárlion+;assist=Draw Back;special=-;a=Atk/Spd Ideal 3;b=Spd/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f5;rarity=5;slot=2;level=41;stats=[38;28;36;22;37];weapon=Barrier Blade+;assist=-;special=Iceberg;a=-;b=Quick Riposte 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=d7;rarity=5;slot=3;level=41;stats=[39;29;37;32;27];weapon=Light Breath+;assist=-;special=Blazing Light;a=Fury 3;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=f2;rarity=5;slot=4;level=41;stats=[30;32;22;20;42];weapon=Slow+;assist=Recover+;special=Windfire Balm+;a=-;b=-;c=Breath of Life 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Miriel: Rapier Intellect;text=The universe contains so many\nfascinating things I have yet to see...;textJP=世の中には\nまだまだ不思議なことが\n多いのですね…};
+]}}
+{{Story Navbar|Shadowy Wings|Book VI, Chapter 2: Part 3: Radiant Hero}}
+==In other languages==
+{{OtherLanguages
+|japanese=真理の探求者
+|german=Der Wahrheit auf der Spur
+|spanishEU=Buscadora de la verdad
+|spanishLA=Buscadora de la verdad
+|french=Chercheuse de la vérité
+|italian=La curiosa
+|chineseTW=真理的探求者
+|portuguese=Seguidora da verdade
+}}
+{{Story Maps Navbox|book=6}}

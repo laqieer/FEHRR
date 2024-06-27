@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Bruno Unrevealed.png
+|mapName=Chapter 12-3: Desert Stronghold Siege
+|stageTitle=Chapter 12-3
+|stageName=Desert Stronghold Siege
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 12: Bitter Enemies
+|mapMode=Turn Limit Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1303
+| a8={{Wall|style=desert|type=ES|hp=U}} | b8={{Wall|style=desert|type=EW|hp=U}} | c8={{Wall|style=desert|type=EW|hp=U}} | d8={{Wall|style=desert|type=EW|hp=U}} | e8={{Wall|style=desert|type=EW|hp=U}} | f8={{Wall|style=desert|type=EW|hp=U}}
+| a7={{Wall|style=desert|type=NS|hp=U}} | b7= | c7= | d7= | e7= | f7=
+| a6={{Wall|style=desert|type=NS|hp=U}} | b6= | c6={{Wall|style=desert|type=Pillar|hp=U}} | d6= | e6={{Wall|style=desert|type=Pillar|hp=U}} | f6=
+| a5={{Wall|style=desert|type=NS|hp=U}} | b5= | c5= | d5= | e5= | f5=
+| a4={{Wall|style=desert|type=NE|hp=U}} | b4={{Wall|style=desert|type=EW|hp=1}} | c4={{Wall|style=desert|type=W|hp=U}} | d4= | e4={{Wall|style=desert|type=E|hp=1}} | f4={{Wall|style=desert|type=EW|hp=U}}
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2={{Ally|3}} | f2=
+| a1= | b1= | c1= | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Win: 5 (Normal)<br>Turns to Win: 4 (Hard)<br>Turns to Win: 4 (Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_03.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-07-13T07:00:00Z|notification=New Heroes: Alm's Army (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Clive: Idealistic Knight;pos=b7;rarity=3;slot=1;level=25;stats=[32;21;16;20;11];weapon=Steel Lance;assist=-;special=Buckler;a=Defense +1;b=Hit and Run;c=-;seal=-;ai={turn=3;group=2;break_walls=1};};
+{unit=Mathilda: Legendary Knight;pos=f7;rarity=3;slot=2;level=25;stats=[26;18;20;16;21];weapon=Steel Lance;assist=Rally Resistance;special=-;a=-;b=Cancel Affinity 1;c=Hone Atk 1;seal=-;ai={group=2;break_walls=1};};
+{unit=Gray: Wry Comrade;pos=c7;rarity=3;slot=3;level=25;stats=[30;22;19;18;13];weapon=Steel Sword;assist=Swap;special=-;a=Wind Boost 1;b=-;c=Sword Valor 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Tobin: The Clueless One;pos=f6;rarity=3;slot=4;level=25;stats=[33;19;16;20;15];weapon=Steel Sword;assist=Pivot;special=-;a=Attack +1;b=Seal Spd 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=d7;rarity=3;slot=5;level=25;stats=[31;20;18;18;9];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Spur Def 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Clive: Idealistic Knight;pos=b7;rarity=4;slot=1;level=32;stats=[38;27;20;26;14];weapon=Silver Lance;assist=-;special=Buckler;a=Defense +1;b=Hit and Run;c=-;seal=-;ai={turn=3;group=2;break_walls=1};};
+{unit=Mathilda: Legendary Knight;pos=f7;rarity=4;slot=2;level=32;stats=[30;22;26;19;28];weapon=Ridersbane;assist=Rally Resistance;special=-;a=-;b=Cancel Affinity 1;c=Hone Atk 2;seal=-;ai={group=2;break_walls=1};};
+{unit=Gray: Wry Comrade;pos=c7;rarity=4;slot=3;level=32;stats=[36;28;26;23;17];weapon=Zanbato;assist=Swap;special=-;a=Wind Boost 1;b=-;c=Sword Valor 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Tobin: The Clueless One;pos=f6;rarity=4;slot=4;level=32;stats=[38;25;21;25;19];weapon=Armorslayer;assist=Pivot;special=-;a=Attack +2;b=Seal Spd 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=d7;rarity=4;slot=5;level=32;stats=[36;26;23;22;12];weapon=Silver Bow;assist=-;special=-;a=Darting Blow 1;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Clive: Idealistic Knight;pos=b7;rarity=5;slot=1;level=42;displaylevel=40;stats=[47;34;27;33;20];weapon=Silver Lance+;assist=-;special=Escutcheon;a=Defense +3;b=Hit and Run;c=-;seal=-;ai={turn=3;group=2;break_walls=1};};
+{unit=Mathilda: Legendary Knight;pos=f7;rarity=5;slot=2;level=42;displaylevel=40;stats=[37;30;33;25;36];weapon=Ridersbane+;assist=Rally Resistance;special=-;a=-;b=Cancel Affinity 3;c=Hone Atk 3;seal=-;ai={group=2;break_walls=1};};
+{unit=Gray: Wry Comrade;pos=c7;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;37;34;31;24];weapon=Zanbato+;assist=Swap;special=-;a=Wind Boost 3;b=-;c=Sword Valor 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Tobin: The Clueless One;pos=f6;rarity=5;slot=4;level=42;displaylevel=40;stats=[48;32;28;35;27];weapon=Armorslayer+;assist=Pivot;special=-;a=Attack +3;b=Seal Spd 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=d7;rarity=5;slot=5;level=42;displaylevel=40;stats=[44;33;30;30;17];weapon=Silver Bow+;assist=-;special=-;a=Darting Blow 3;b=-;c=Spur Def 3;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=砂漠の砦
+|german=Belagerte Wüstenfeste
+|spanishEU=Asedio al fuerte
+|spanishLA=Asedio al fuerte
+|french=Le siège de la forteresse
+|italian=Assedio al forte nel deserto
+|chineseTW=沙漠堡壘
+|portuguese=Cerco ao forte
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:War_of_Deliverance|Fire Emblem Echoes: Shadows of Valentia - Act 3: War of Deliverance - Attack on the Desert Stronghold]]. ([https://www.youtube.com/watch?v=JaWH3GYMkLU Map Video])
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0307.png
+|stageTitle=Chapter 7: Part 1
+|stageName=Familiar Scenery
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 7: A Home Unknown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3071
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=BraveBoss|type=S|hp=U}} | c7= | d7= | e7= | f7=
+| a6={{Wall|style=BraveBoss|type=E|hp=U}} | b6={{Wall|style=BraveBoss|type=NESW|hp=U}} | c6={{Wall|style=BraveBoss|type=W|hp=U}} | d6= | e6= | f6=
+| a5= | b5={{Wall|style=BraveBoss|type=NS|hp=1}} | c5= | d5= | e5= | f5=
+| a4= | b4={{Wall|style=BraveBoss|type=N|hp=1}} | c4= | d4= | e4={{Wall|style=BraveBoss|type=S|hp=1}} | f4=
+| a3= | b3= | c3= | d3= | e3={{Wall|style=BraveBoss|type=NS|hp=1}} | f3=
+| a2={{Ally|1}} | b2={{Ally|2}} | c2= | d2={{Wall|style=BraveBoss|type=E|hp=1}} | e2={{Wall|style=BraveBoss|type=NESW|hp=U}} | f2={{Wall|style=BraveBoss|type=W|hp=U}}
+| a1={{Ally|3}} | b1={{Ally|4}} | c1= | d1= | e1={{Wall|style=BraveBoss|type=N|hp=U}} | f1=
+}}
+|lvlNormal=17
+|lvlHard=32
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_13.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-05-10T07:00:00Z|notification=New Heroes: Darkness Within (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Flier;pos=f5;rarity=3;slot=1;level=17;stats=[24;13;17;9;18];weapon=Steel Lance;assist=-;special=-;a=Death Blow 1;b=-;c=Guidance 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Cavalier;pos=d6;rarity=3;slot=2;level=17;stats=[26;16;11;12;15];weapon=Steel Axe;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Mage;pos=d8;rarity=3;slot=3;level=17;stats=[24;14;15;9;13];weapon=Elwind;assist=-;special=-;a=Fury 1;b=-;c=Spd Ploy 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Mareeta: The Blade's Pawn;pos=e6;rarity=3;slot=4;level=17;stats=[25;16;21;14;10];weapon=Steel Sword;assist=-;special=New Moon;a=Flashing Blade 1;b=Null Follow-Up 1;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Lance Flier;pos=f5;rarity=4;slot=1;level=32;stats=[31;21;28;16;29];weapon=Slaying Lance;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Guidance 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Cavalier;pos=d6;rarity=4;slot=2;level=32;stats=[34;27;18;19;24];weapon=Silver Axe;assist=-;special=Holy Vestments;a=-;b=Lunge;c=Drive Spd 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Mage;pos=d8;rarity=4;slot=3;level=32;stats=[31;24;25;15;21];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=Fury 2;b=-;c=Spd Ploy 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Mareeta: The Blade's Pawn;pos=e6;rarity=4;slot=4;level=32;stats=[34;26;33;22;17];weapon=Silver Sword;assist=-;special=New Moon;a=Flashing Blade 2;b=Null Follow-Up 2;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Lance Flier;pos=f5;rarity=5;slot=1;level=40;stats=[37;28;35;21;36];weapon=Slaying Lance+;assist=-;special=Astra;a=Death Blow 3;b=-;c=Guidance 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Cavalier;pos=d6;rarity=5;slot=2;level=40;stats=[41;34;24;25;30];weapon=Silver Axe+;assist=-;special=Aegis;a=-;b=Lunge;c=Drive Spd 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Mage;pos=d8;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Rexcalibur+;assist=-;special=Iceberg;a=Fury 3;b=-;c=Spd Ploy 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Mareeta: The Blade's Pawn;pos=e6;rarity=5;slot=4;level=40;stats=[42;33;41;29;23];weapon=Shadow Sword;assist=-;special=Luna;a=Flashing Blade 4;b=Null Follow-Up 3;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Alm: Saint-King (map)|Boiling Blood}}
+==Trivia==
+* This map is a derelict version of [[Heroes in Battle|Book I, Prologue, Part 3: Heroes in Battle]].
+==In other languages==
+{{OtherLanguages
+|japanese=いつか見た景色
+|german=Eine vertraute Umgebung
+|spanishEU=Un paisaje conocido
+|spanishLA=Una escena consabida
+|french=Scène familière
+|italian=Un paesaggio familiare
+|chineseTW=似曾相識的景色
+|portuguese=Paisagem familiar
+}}
+{{Story Maps Navbox|book=3}}

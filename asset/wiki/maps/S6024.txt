@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0602.webp
+|stageTitle=Chapter 2: Part 4
+|stageName=East-Khan and West-Khan
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 2: Curse Directive
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6024
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6={{Wall|style=Souen|type=E|hp=2}} | d6={{Wall|style=Souen|type=W|hp=2}} | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_16.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Flavia: Feroxi East-Khan;pos=e6;rarity=3;slot=1;level=6;stats=[20;12;13;10;7];weapon=Iron Sword;assist=-;special=-;a=Atk/Spd Push 1;b=-;c=Red Feud 1;seal=-;ai={turn=1};};
+{unit=Basilio: Feroxi West-Khan;pos=b7;rarity=3;slot=2;level=6;stats=[22;15;9;12;5];weapon=Iron Axe;assist=-;special=-;a=Atk/Def Bond 1;b=-;c=Atk Tactic 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b6;rarity=3;slot=3;level=6;stats=[19;7;11;5;12];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=3;slot=4;level=6;stats=[17;11;7;4;10];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Flavia: Feroxi East-Khan;pos=e6;rarity=4;slot=1;level=26;stats=[31;28;29;24;15];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Atk/Spd Push 2;b=-;c=Red Feud 2;seal=-;ai={turn=1};};
+{unit=Basilio: Feroxi West-Khan;pos=b7;rarity=4;slot=2;level=26;stats=[36;31;22;26;13];weapon=Steel Axe;assist=-;special=New Moon;a=Atk/Def Bond 2;b=-;c=Atk Tactic 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b6;rarity=4;slot=3;level=26;stats=[29;18;25;13;26];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=Aerobatics 1;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=4;slot=4;level=26;stats=[25;25;17;11;24];weapon=Elthunder;assist=-;special=Chilling Wind;a=Distant Def 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Flavia: Feroxi East-Khan;pos=e6;rarity=5;slot=1;level=43;stats=[42;43;44;39;24];weapon=Lioness Blade;assist=-;special=Draconic Aura;a=Atk/Spd Push 4;b=-;c=Red Feud 3;seal=-;ai={turn=1};};
+{unit=Basilio: Feroxi West-Khan;pos=b7;rarity=5;slot=2;level=43;stats=[51;46;35;38;22];weapon=Spirited Axe+;assist=-;special=Moonbow;a=Atk/Def Bond 3;b=-;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b6;rarity=5;slot=3;level=43;stats=[39;29;37;22;38];weapon=Brave Lance+;assist=-;special=Luna;a=-;b=Aerobatics 3;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=5;slot=4;level=43;stats=[34;37;27;18;36];weapon=Blárfox+;assist=-;special=Glacies;a=Distant Def 3;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Book VI, Chapter 2: Part 3: Radiant Hero|Curse Director}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=東王と西王
+|german=Ost-Khan und West-Khan
+|spanishEU=Kanes del Este y del Oeste
+|spanishLA=Kanes del Este y del Oeste
+|french=Khan de l'Est et de l'Ouest
+|italian=Khan dell'est e dell'ovest
+|chineseTW=東境王與西境王
+|portuguese=Khans do leste e do oeste
+}}
+{{Story Maps Navbox|book=6}}

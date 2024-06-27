@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Bruno Unrevealed.png
+|mapName=Chapter 12-1: Battle at the Sluice Gate
+|stageTitle=Chapter 12-1
+|stageName=Battle at the Sluice Gate
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 12: Bitter Enemies
+|mapMode=
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S1301
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{Wall|style=inside|type=Pillar|hp=1}} | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{Wall|style=inside|type=NS|hp=U}} | e5= | f5=
+| a4= | b4= | c4= | d4={{Wall|style=inside|type=NE|hp=U}} | e4={{Wall|style=inside|type=EW|hp=U}} | f4=
+| a3= | b3={{Ally|1}} | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|2}} | c2={{Ally|3}} | d2= | e2= | f2=
+| a1= | b1= | c1= | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_03.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-07-13T07:00:00Z|notification=New Heroes: Alm's Army (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Delthea: Free Spirit;pos=e5;rarity=3;slot=1;level=23;stats=[24;22;20;8;18];weapon=Elthunder;assist=-;special=Miracle;a=-;b=-;c=Drive Atk 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Cavalier;pos=e6;rarity=3;slot=2;level=23;stats=[29;20;14;15;18];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Spur Def 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Mage;pos=d7;rarity=3;slot=3;level=23;stats=[27;18;19;12;16];weapon=Elwind;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=f5;rarity=3;slot=4;level=23;stats=[27;16;21;12;22];weapon=Steel Sword;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=a8;rarity=3;slot=5;level=23;stats=[27;16;21;12;22];weapon=Steel Lance;assist=-;special=-;a=Attack +1;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Delthea: Free Spirit;pos=e5;rarity=4;slot=1;level=30;stats=[27;29;27;10;23];weapon=Thoron;assist=-;special=Miracle;a=Death Blow 1;b=-;c=Drive Atk 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Cavalier;pos=e6;rarity=4;slot=2;level=30;stats=[33;27;18;19;23];weapon=Brave Sword;assist=-;special=-;a=-;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Mage;pos=d7;rarity=4;slot=3;level=30;stats=[31;24;25;15;20];weapon=Rexcalibur;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=f5;rarity=4;slot=4;level=30;stats=[31;20;28;15;29];weapon=Silver Sword;assist=Rally Attack;special=-;a=-;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=a8;rarity=4;slot=5;level=30;stats=[31;20;28;15;29];weapon=Silver Lance;assist=Reciprocal Aid;special=-;a=Attack +2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Delthea: Free Spirit;pos=e5;rarity=5;slot=1;level=40;stats=[34;37;35;14;31];weapon=Dark Aura;assist=-;special=Miracle;a=Death Blow 3;b=-;c=Drive Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Cavalier;pos=e6;rarity=5;slot=2;level=40;stats=[41;35;25;26;30];weapon=Brave Sword+;assist=-;special=-;a=-;b=-;c=Spur Def 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Green Mage;pos=d7;rarity=5;slot=3;level=40;stats=[38;31;32;20;28];weapon=Rexcalibur+;assist=-;special=-;a=Darting Blow 3;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=f5;rarity=5;slot=4;level=40;stats=[38;28;36;22;37];weapon=Silver Sword+;assist=Rally Attack;special=-;a=-;b=-;c=Spur Def 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=a8;rarity=5;slot=5;level=40;stats=[38;28;36;22;37];weapon=Silver Lance+;assist=Reciprocal Aid;special=-;a=Attack +3;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Resonating Fangs|The Mask Cracks}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=水門
+|german=Kampf am Schleusentor
+|spanishEU=Batalla en la esclusa
+|spanishLA=Batalla en la esclusa
+|french=La bataille du barrage
+|italian=Scontro alla paratoia
+|chineseTW=水閘
+|portuguese=Batalha nas comportas
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:War_of_Deliverance|Fire Emblem Echoes: Shadows of Valentia - Act 3: War of Deliverance - Retaking of the Sluice Gate]]. ([https://www.youtube.com/watch?v=zDakXk61iEc Map Video])
+{{Story Maps Navbox|book=1}}

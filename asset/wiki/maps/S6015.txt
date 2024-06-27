@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0601 C.webp
+|stageTitle=Chapter 1: Part 5
+|stageName=Closed-Off World
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 1: Darkness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6015
+|backdrop=
+|allyPos=a4,a3,b3,b2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Wall|style=normal|type=Pillar|hp=2}} | c5= | d5= | e5={{Wall|style=normal|type=Pillar|hp=2}} | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal=[{hero=Ash: Retainer to Askr;rarity=5};{kind=Light Blessing}];
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elm: Retainer to Embla;pos=c8;rarity=3;slot=1;level=5;stats=[20;10;13;6;8];weapon=Hatchling (Flier);assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=3;slot=2;level=5;stats=[18;8;9;5;7];weapon=Thunder;assist=Reciprocal Aid;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f1;rarity=3;slot=3;level=5;stats=[21;8;8;9;5];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f4;rarity=3;slot=4;level=5;stats=[19;9;9;8;7];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Elm: Retainer to Embla;pos=c8;rarity=4;slot=1;level=25;stats=[30;25;29;16;19];weapon=Fledgling (Flier);assist=-;special=Rising Wind;a=Atk/Spd Solo 1;b=Poison Strike 1;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=4;slot=2;level=25;stats=[28;20;21;12;17];weapon=Elthunder;assist=Reciprocal Aid;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f1;rarity=4;slot=3;level=25;stats=[32;20;19;20;14];weapon=Steel Axe;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f4;rarity=4;slot=4;level=25;stats=[32;21;20;18;17];weapon=Fire Breath+;assist=-;special=Buckler;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elm: Retainer to Embla;pos=c8;rarity=5;slot=1;level=45;stats=[44;41;46;30;34];weapon=Fang of Closure;assist=-;special=Blazing Wind;a=Atk/Spd Solo 3;b=Poison Strike 3;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=5;slot=2;level=45;stats=[40;34;35;22;31];weapon=Thoron+;assist=Reciprocal Aid;special=-;a=Brazen Atk/Spd 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f1;rarity=5;slot=3;level=45;stats=[47;34;34;33;24];weapon=Brave Axe+;assist=-;special=Luna;a=-;b=Chill Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f4;rarity=5;slot=4;level=45;stats=[47;35;33;32;31];weapon=Water Breath+;assist=-;special=Escutcheon;a=Steady Posture 2;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Closure Ahead|Shadowy Wings}}
+==In other languages==
+{{OtherLanguages
+|japanese=閉ざされた世界
+|german=Verschlossene Welt
+|spanishEU=Mundo aislado
+|spanishLA=Mundo aislado
+|french=Monde barricadé
+|italian=Mondo sigillato
+|chineseTW=被封閉的世界
+|portuguese=Mundo fechado
+}}
+{{Story Maps Navbox|book=6}}

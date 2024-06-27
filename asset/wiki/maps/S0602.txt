@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_TikiY Unrevealed.png
+|mapName=Chapter 5-2: Captive Princess
+|stageTitle=Chapter 5: Part 2
+|stageName=Captive Princess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 5: Back to Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0602
+| a8={{Wall|style=inside|type=ES|hp=U}} | b8={{Wall|style=inside|type=EW|hp=U}} | c8={{Wall|style=inside|type=W|hp=U}} | d8= | e8= | f8={{Wall|style=inside|type=S|hp=U}}
+| a7={{Wall|style=inside|type=N|hp=U}} | b7= | c7= | d7= | e7= | f7={{Wall|style=inside|type=NS|hp=U}}
+| a6= | b6= | c6={{Wall|style=inside|type=E|hp=U}} | d6={{Wall|style=inside|type=ESW|hp=U}} | e6={{Wall|style=inside|type=EW|hp=1}} | f6={{Wall|style=inside|type=NSW|hp=U}}
+| a5= | b5= | c5= | d5={{Wall|style=inside|type=N|hp=U}} | e5= | f5={{Wall|style=inside|type=NS|hp=U}}
+| a4={{Wall|style=inside|type=E|hp=U}} | b4={{Wall|style=inside|type=SW|hp=U}} | c4= | d4= | e4= | f4={{Wall|style=inside|type=NS|hp=U}}
+| a3= | b3={{Wall|style=inside|type=NS|hp=2}} | c3= | d3={{Wall|style=inside|type=S|hp=U}} | e3= | f3={{Wall|style=inside|type=NS|hp=U}}
+| a2={{Ally|1}} | b2={{Wall|style=inside|type=NE|hp=U}} | c2={{Wall|style=inside|type=EW|hp=U}} | d2={{Wall|style=inside|type=NW|hp=U}} | e2= | f2={{Wall|style=inside|type=N|hp=U}}
+| a1={{Ally|2}} | b1={{Ally|3}} | c1={{Ally|4}} | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=19
+|lvlLunatic=29
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=5
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Maria: Minerva's Sister;pos=b7;rarity=3;slot=1;level=9;stats=[20;8;12;6;13];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Minerva: Red Dragoon;pos=c5;rarity=3;slot=2;level=9;stats=[21;10;12;11;7];weapon=Steel Axe;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=a6;rarity=3;slot=3;level=9;stats=[22;11;10;10;4];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Knight;pos=d4;rarity=3;slot=4;level=9;stats=[30;14;4;16;6];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Maria: Minerva's Sister;pos=b7;rarity=3;slot=1;level=19;stats=[24;13;18;9;18];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Minerva: Red Dragoon;pos=c5;rarity=3;slot=2;level=19;stats=[26;16;18;17;11];weapon=Steel Axe;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=a6;rarity=3;slot=3;level=19;stats=[28;17;15;15;7];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Knight;pos=d4;rarity=3;slot=4;level=19;stats=[37;21;7;23;9];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Maria: Minerva's Sister;pos=b7;rarity=4;slot=1;level=29;stats=[29;19;26;13;25];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Minerva: Red Dragoon;pos=c5;rarity=4;slot=2;level=29;stats=[32;22;25;24;16];weapon=Silver Axe;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=a6;rarity=4;slot=3;level=29;stats=[34;24;22;21;11];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Knight;pos=d4;rarity=4;slot=4;level=29;stats=[45;29;11;31;13];weapon=Silver Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=要塞の姫君
+|german=Gefangene Prinzessin
+|spanishEU=La princesa cautiva
+|spanishLA=La princesa cautiva
+|french=La princesse captive
+|italian=La principessa prigioniera
+|chineseTW=要塞的公主
+|portuguese=Princesa prisioneira
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Princess_Minerva|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 10: Princess Minerva]]. ([[fireemblemwikia:File:FE1_Chapter_10.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0511.webp
+|stageTitle=Chapter 11-4
+|stageName=Ashen Valiant
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 11: Deceit
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5114
+|backdrop=
+|allyPos=e2,f2,c1,d1
+| a8={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=U}} | b8= | c8= | d8= | e8={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=U}} | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{#invoke:MapLayout|wall|style=Nisaveril_city|type=S|hp=1}} | b4= | c4= | d4= | e4= | f4=
+| a3={{#invoke:MapLayout|wall|style=Nisaveril_city|type=N|hp=U}} | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=U}} | b1= | c1= | d1= | e1= | f1={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=U}}
+}}
+|lvlNormal=29
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_12.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-09-17T07:00:00Z|notification=New Heroes Summoning Event: Abyss & Múspell (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Yuri: Ashen Valiant;pos=c8;rarity=3;slot=1;level=29;stats=[31;28;31;17;19];weapon=Silver Dagger;assist=Swap;special=Night Sky;a=C Duel Infantry 1;b=-;c=Time's Pulse 1;seal=-;ai={group=1};};
+{unit=Balthus: King of Grappling;pos=d6;rarity=3;slot=2;level=29;stats=[36;30;16;26;21];weapon=Instant Axe;assist=-;special=Glowing Ember;a=Brazen Atk/Def 1;b=-;c=Close Guard 1;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=b7;rarity=3;slot=3;level=29;stats=[32;23;16;17;21];weapon=Steel Lance;assist=-;special=Retribution;a=Atk/Def Bond 1;b=Guard 1;c=-;seal=-;ai={group=1};};
+{unit=Red Flier;pos=a6;rarity=3;slot=4;level=29;stats=[27;20;26;10;22];weapon=Elfire;assist=-;special=Rising Flame;a=-;b=Desperation 1;c=Atk/Spd Rein 1;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f7;rarity=3;slot=5;level=29;stats=[29;21;22;13;19];weapon=Elthunder;assist=-;special=Miracle;a=Def/Res Solo 1;b=Poison Strike 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Yuri: Ashen Valiant;pos=c8;rarity=4;slot=1;level=38;stats=[36;36;40;22;25];weapon=Honorable Blade;assist=Swap;special=Night Sky;a=C Duel Infantry 2;b=-;c=Time's Pulse 2;seal=-;ai={group=1};};
+{unit=Balthus: King of Grappling;pos=d6;rarity=4;slot=2;level=38;stats=[43;39;21;34;27];weapon=Instant Axe;assist=-;special=Glowing Ember;a=Brazen Atk/Def 2;b=-;c=Close Guard 2;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=b7;rarity=4;slot=3;level=38;stats=[37;31;21;22;27];weapon=Instant Lance;assist=-;special=Retribution;a=Atk/Def Bond 2;b=Guard 2;c=-;seal=-;ai={group=1};};
+{unit=Red Flier;pos=a6;rarity=4;slot=4;level=38;stats=[31;25;34;13;29];weapon=Rauðrfox;assist=-;special=Rising Flame;a=-;b=Desperation 2;c=Atk/Spd Rein 2;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f7;rarity=4;slot=5;level=38;stats=[34;28;29;17;24];weapon=Thoron;assist=-;special=Miracle;a=Def/Res Solo 2;b=Poison Strike 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Yuri: Ashen Valiant;pos=c8;rarity=5;slot=1;level=43;stats=[41;42;46;27;31];weapon=Honorable Blade;assist=Foul Play;special=Glimmer;a=C Duel Infantry 4;b=-;c=Time's Pulse 3;seal=-;ai={group=1};};
+{unit=Balthus: King of Grappling;pos=d6;rarity=5;slot=2;level=43;stats=[50;45;26;39;33];weapon=Instant Axe+;assist=-;special=Ignis;a=Brazen Atk/Def 3;b=-;c=Close Guard 3;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=b7;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Instant Lance+;assist=-;special=Reprisal;a=Atk/Def Bond 3;b=Guard 3;c=-;seal=-;ai={group=1};};
+{unit=Red Flier;pos=a6;rarity=5;slot=4;level=43;stats=[35;30;40;17;34];weapon=Rauðrfox+;assist=-;special=Blazing Flame;a=-;b=Desperation 3;c=Atk/Spd Rein 3;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f7;rarity=5;slot=5;level=43;stats=[39;33;34;21;29];weapon=Thoron+;assist=-;special=Miracle;a=Def/Res Solo 3;b=Poison Strike 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Yuri: Ashen Valiant;text=I don't even know much about\nwhere I come from—or why I have\nthis Crest.;textJP=俺は自分がよくわかってねえ。\n何でこんな紋章を持っているかも…};
+]}}
+{{Story Navbar|Fallen Noble|Everything, Lost}}
+==In other languages==
+{{OtherLanguages
+|japanese=灰色の義侠心
+|german=Silberner Edelmut
+|spanishEU=Valor plateado
+|spanishLA=Valor plateado
+|french=Brave de cendre
+|italian=Il prode Cinereo
+|chineseTW=灰色的俠義心
+|portuguese=Lobo valoroso
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0605 C.webp
+|stageTitle=Chapter 5: Part 5
+|stageName=I Killed Him
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 5: Evil Ways
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6055
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1={{Wall|style=normal|type=Pillar|hp=2}} | c1= | d1= | e1={{Wall|style=normal|type=Pillar|hp=2}} | f1=
+}}
+|lvlNormal=15
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-03-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Mareeta (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Galzus: Dark Blade of Od;pos=a6;rarity=3;slot=1;level=15;stats=[24;19;19;17;9];weapon=Steel Sword;assist=-;special=-;a=Darting Blow 1;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};};
+{unit=Mareeta: Astra Awakened;pos=f6;rarity=3;slot=2;level=15;stats=[24;18;19;16;11];weapon=Steel Sword;assist=-;special=-;a=Atk/Spd Solo 1;b=Spurn 1;c=Even Tempest 1;seal=-;ai={turn=1};};
+{unit=Letizia: Curse Director;pos=d8;rarity=3;slot=3;level=15;stats=[22;18;6;16;15];weapon=Rexcalibur;assist=-;special=Daylight;a=Atk/Res Solo 1;b=Renewal 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Karin: Driven Knight;pos=b6;rarity=3;slot=4;level=15;stats=[25;15;20;12;13];weapon=Steel Lance;assist=-;special=-;a=Atk/Def Form 1;b=Hit and Run;c=Drive Atk 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Galzus: Dark Blade of Od;pos=a6;rarity=4;slot=1;level=35;stats=[35;37;36;30;18];weapon=Rein Sword;assist=-;special=New Moon;a=Swift Sparrow 2;b=Null Follow-Up 2;c=-;seal=-;ai={turn=1};};
+{unit=Mareeta: Astra Awakened;pos=f6;rarity=4;slot=2;level=35;stats=[35;35;37;28;21];weapon=Silver Sword;assist=-;special=Astra;a=Atk/Spd Solo 3;b=Spurn 2;c=Even Tempest 2;seal=-;ai={turn=1};};
+{unit=Letizia: Curse Director;pos=d8;rarity=4;slot=3;level=35;stats=[33;35;12;30;28];weapon=Körmt;assist=-;special=Daylight;a=Atk/Res Solo 2;b=Renewal 2;c=Rouse Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Karin: Driven Knight;pos=b6;rarity=4;slot=4;level=35;stats=[36;32;37;22;25];weapon=Allied Lance;assist=-;special=New Moon;a=Atk/Def Form 2;b=Hit and Run;c=Drive Atk 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Galzus: Dark Blade of Od;pos=a6;rarity=5;slot=1;level=45;stats=[43;47;45;39;24];weapon=Rein Sword+;assist=-;special=Luna;a=Surge Sparrow;b=Null Follow-Up 3;c=-;seal=-;ai={turn=1};};
+{unit=Mareeta: Astra Awakened;pos=f6;rarity=5;slot=2;level=45;stats=[43;44;47;37;28];weapon=Ascending Blade;assist=-;special=Vital Astra;a=Atk/Spd Solo 4;b=Spurn 3;c=Even Tempest 3;seal=-;ai={turn=1};};
+{unit=Letizia: Curse Director;pos=d8;rarity=5;slot=3;level=45;stats=[41;44;17;38;37];weapon=Körmt;assist=-;special=Noontime;a=Atk/Res Solo 3;b=Renewal 3;c=Rouse Atk/Res 3;seal=-;ai={turn=1};};
+{unit=Karin: Driven Knight;pos=b6;rarity=5;slot=4;level=45;stats=[44;41;46;29;34];weapon=Allied Lance+;assist=-;special=Moonbow;a=Atk/Def Form 3;b=Hit and Run;c=Drive Atk 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Heartless Scheme|Darkness to Light}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=僕が殺した
+|german=Ich habe ihn getötet
+|spanishEU=Yo lo maté
+|spanishLA=Yo lo maté
+|french=Je l'ai tué
+|italian=L'ho ucciso io
+|chineseTW=人是我殺的
+|portuguese=Eu o matei
+}}
+{{Story Maps Navbox|book=6}}

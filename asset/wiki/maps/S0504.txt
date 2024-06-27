@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom Unrevealed.png
+|mapName=Chapter 4-4: Surprising Villager
+|stageTitle=Chapter 4: Part 4
+|stageName=Surprising Villager
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 4: World of Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0504
+| a8={{Wall|style=normal|type=E|hp=2}} | b8={{Wall|style=normal|type=EW|hp=2}} | c8={{Wall|style=normal|type=W|hp=2}} | d8= | e8= | f8=
+| a7= | b7= | c7= | d7={{Wall|style=normal|type=Pillar|hp=1}} | e7= | f7=
+| a6= | b6={{Wall|style=normal|type=Pillar|hp=1}} | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{Wall|style=normal|type=Pillar|hp=2}} | e5= | f5=
+| a4= | b4={{Wall|style=normal|type=Pillar|hp=1}} | c4= | d4=  | e4= | f4=
+| a3= | b3= | c3= | d3={{Wall|style=normal|type=Pillar|hp=1}} | e3= | f3=
+| a2={{Wall|style=normal|type=W|hp=2}} | b2= | c2={{Wall|style=normal|type=Pillar|hp=1}} | d2= | e2= | f2=
+| a1= | b1={{Ally|1}}  | c1={{Ally|2}}  | d1={{Ally|3}}  | e1={{Ally|4}}  | f1=
+}}
+|lvlNormal=9
+|lvlHard=19
+|lvlLunatic=29
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=5
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Troubadour;pos=b7;rarity=3;slot=1;level=9;stats=[17;10;6;6;14];weapon=Gravity;assist=Physic;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=b5;rarity=3;slot=2;level=9;stats=[20;12;6;6;7];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Robin: Mystery Tactician;pos=d6;rarity=3;slot=3;level=9;stats=[20;10;9;9;7];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Donnel: Village Hero;pos=d4;rarity=3;slot=4;level=9;stats=[21;10;7;10;6];weapon=Iron Lance;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Troubadour;pos=b7;rarity=3;slot=1;level=19;stats=[20;17;10;10;23];weapon=Gravity;assist=Physic;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=b5;rarity=3;slot=2;level=19;stats=[26;19;11;12;12];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Robin: Mystery Tactician;pos=d6;rarity=3;slot=3;level=19;stats=[26;15;15;15;11];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Donnel: Village Hero;pos=d4;rarity=3;slot=4;level=19;stats=[27;18;14;16;11];weapon=Steel Lance;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Troubadour;pos=b7;rarity=4;slot=1;level=29;stats=[24;24;15;14;32];weapon=Gravity;assist=Physic;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=b5;rarity=4;slot=2;level=29;stats=[32;27;16;17;18];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Robin: Mystery Tactician;pos=d6;rarity=4;slot=3;level=29;stats=[32;22;22;21;16];weapon=Rexcalibur;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Donnel: Village Hero;pos=d4;rarity=4;slot=4;level=29;stats=[34;26;20;24;16];weapon=Silver Lance;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=強き村人
+|german=Überraschender Dörfler
+|spanishEU=Un héroe insólito
+|spanishLA=Un héroe insólito
+|french=Un duo plein de ressources
+|italian=Un eroe dal borgo
+|chineseTW=堅強的村民
+|portuguese=Um herói insólito
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Sickle_to_Sword|Fire Emblem Awakening - Paralogue 1: Sickle to Sword]]. ([https://www.youtube.com/watch?v=fCc9SJUNfEw Map Video])
+
+{{Story Maps Navbox|book=1}}

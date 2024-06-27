@@ -1,0 +1,78 @@
+{{Battle Infobox
+|bannerImage=C0601.webp
+|stageTitle=Chapter 1: Part 1
+|stageName=Emblian Calamity
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 1: Darkness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6011
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5={{Wall|style=normal|type=Pillar|hp=1}} | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4={{Wall|style=normal|type=E|hp=2}} | f4={{Wall|style=normal|type=W|hp=U}}
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Wall|style=normal|type=Pillar|hp=U}} | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=1
+|lvlHard=20
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sword Fighter;pos=e6;rarity=3;slot=1;level=1;stats=[19;6;6;7;4];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=c7;rarity=3;slot=2;level=1;stats=[18;8;4;9;3];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=b6;rarity=3;slot=3;level=1;stats=[17;6;7;4;5];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Sword Fighter;pos=e6;rarity=4;slot=1;level=20;stats=[30;18;17;18;11];weapon=Steel Sword;assist=-;special=Night Sky;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=c7;rarity=4;slot=2;level=20;stats=[28;21;14;22;10];weapon=Steel Lance;assist=-;special=Rising Wind;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=b6;rarity=4;slot=3;level=20;stats=[26;18;19;11;15];weapon=Elwind;assist=-;special=Dragon Gaze;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Sword Fighter;pos=e6;rarity=5;slot=1;level=40;stats=[44;31;31;30;22];weapon=Silver Sword+;assist=-;special=Astra;a=-;b=Spurn 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=c7;rarity=5;slot=2;level=40;stats=[41;35;27;36;19];weapon=Silver Lance+;assist=-;special=Blazing Wind;a=-;b=-;c=Spd/Def Rein 3;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=b6;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Rexcalibur+;assist=-;special=Draconic Aura;a=Swift Sparrow 2;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Thórr & Eitri: Bound Hero Battle|Closure Above}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=エンブラの災厄
+|german=Emblas Unheil
+|spanishEU=Calamidad embliana
+|spanishLA=Calamidad embliana
+|french=Calamité d'Embla
+|italian=Calamità embliana
+|chineseTW=恩布拉的災厄
+|portuguese=Calamidade embliana
+}}
+{{Story Maps Navbox|book=6}}

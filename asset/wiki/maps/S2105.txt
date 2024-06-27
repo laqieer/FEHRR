@@ -1,0 +1,106 @@
+{{Battle Infobox
+|bannerImage=Banner_Nino_Pale_Flower_Revealed.png
+|stageTitle=Chapter 10-5
+|stageName=The King's Demise
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 10: The King's Demise
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2105
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2={{Wall|style=Muspel|type=Pillar|hp=1}} | c2={{Ally|3}} | d2={{Ally|4}} | e2={{Wall|style=Muspel|type=Pillar|hp=2}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_03.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-06-08T07:00:00Z|notification=New Heroes: Scattered Fangs (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2105
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Wall|style=Muspel|type=Pillar|hp=1}} | c2= | d2= | e2={{Wall|style=Muspel|type=Pillar|hp=2}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Surtr: Ruler of Flame;pos=d8;rarity=3;slot=1;level=28;stats=[39;27;9;28;24];weapon=Sinmara;assist=-;special=Ignis;a=Sturdy Stance 2;b=Vengeful Fighter 1;c=Threaten Def 3;seal=-;ai={group=1};};
+{unit=Legault: The Hurricane;pos=c8;rarity=3;slot=2;level=28;stats=[29;20;26;16;12];weapon=The Cleaner;assist=-;special=Night Sky;a=Swift Strike 1;b=-;c=Atk Tactic 1;seal=-;ai={group=1};};
+{unit=Nino: Pale Flower;pos=f7;rarity=3;slot=3;level=28;stats=[28;22;26;11;17];weapon=Rexcalibur;assist=-;special=New Moon;a=Swift Sparrow 1;b=Aerobatics 1;c=Spd Smoke 1;seal=-;ai={group=1};};
+{unit=Ursula: Blue Crow;pos=a8;rarity=3;slot=4;level=28;stats=[27;19;21;12;20];weapon=Elthunder;assist=-;special=Rising Thunder;a=Death Blow 1;b=-;c=Threaten Res 1;seal=-;ai={group=1};};
+{unit=Jaffar: Angel of Death;pos=f1;rarity=3;slot=5;level=28;stats=[30;18;22;17;14];weapon=Steel Dagger;assist=-;special=Night Sky;a=Life and Death 1;b=Poison Strike 1;c=Threaten Spd 1;seal=-;ai={turn=1;break_walls=1};spawn={target=Legault: The Hurricane;kills=1};};
+{unit=Canas: Wisdom Seeker;pos=e7;rarity=3;slot=6;level=28;stats=[28;22;18;13;22];weapon=Rauðrowl;assist=Reciprocal Aid;special=-;a=HP/Res 1;b=-;c=Res Tactic 1;seal=-;ai={group=1};};
+{unit=Linus: Mad Dog;pos=d1;rarity=3;slot=7;level=28;stats=[31;25;22;21;12];weapon=Steel Axe;assist=-;special=New Moon;a=Brazen Atk/Spd 1;b=-;c=Drive Def 1;seal=-;ai={turn=1;break_walls=1};spawn={target=Nino: Pale Flower;kills=1};};
+{unit=Lloyd: White Wolf;pos=c1;rarity=3;slot=8;level=28;stats=[30;21;24;13;20];weapon=Steel Sword;assist=-;special=Chilling Wind;a=Fury 1;b=Desperation 1;c=Drive Res 1;seal=-;ai={turn=1;break_walls=1};spawn={target=Nino: Pale Flower;kills=1};};
+]
+|Hard=[
+{unit=Surtr: Ruler of Flame;pos=d8;rarity=4;slot=1;level=40;stats=[50;37;13;38;32];weapon=Sinmara;assist=-;special=Ignis;a=Sturdy Stance 2;b=Vengeful Fighter 2;c=Threaten Def 3;seal=-;ai={group=1};};
+{unit=Legault: The Hurricane;pos=c8;rarity=4;slot=2;level=40;stats=[36;29;36;22;17];weapon=The Cleaner;assist=-;special=Night Sky;a=Swift Strike 2;b=R Tomebreaker 1;c=Atk Tactic 2;seal=-;ai={group=1};};
+{unit=Nino: Pale Flower;pos=f7;rarity=4;slot=3;level=40;stats=[34;31;36;15;23];weapon=Rexcalibur;assist=-;special=New Moon;a=Swift Sparrow 2;b=Aerobatics 2;c=Spd Smoke 2;seal=-;ai={group=1};};
+{unit=Ursula: Blue Crow;pos=a8;rarity=4;slot=4;level=40;stats=[33;26;30;17;28];weapon=Keen Blárwolf;assist=-;special=Rising Thunder;a=Death Blow 2;b=-;c=Threaten Res 2;seal=-;ai={group=1};};
+{unit=Jaffar: Angel of Death;pos=f1;rarity=4;slot=5;level=40;stats=[38;25;31;23;20];weapon=Silver Dagger;assist=-;special=Night Sky;a=Life and Death 2;b=Poison Strike 2;c=Threaten Spd 2;seal=-;ai={turn=1;break_walls=1};spawn={target=Legault: The Hurricane;kills=1};};
+{unit=Canas: Wisdom Seeker;pos=e7;rarity=4;slot=6;level=40;stats=[34;30;26;19;31];weapon=Rauðrowl;assist=Reciprocal Aid;special=-;a=HP/Res 2;b=-;c=Res Tactic 2;seal=-;ai={group=1};};
+{unit=Linus: Mad Dog;pos=d1;rarity=4;slot=7;level=40;stats=[39;35;31;29;17];weapon=Silver Axe;assist=-;special=New Moon;a=Brazen Atk/Spd 2;b=-;c=Drive Def 2;seal=-;ai={turn=1;break_walls=1};spawn={target=Nino: Pale Flower;kills=1};};
+{unit=Lloyd: White Wolf;pos=c1;rarity=4;slot=8;level=40;stats=[38;30;33;18;27];weapon=Silver Sword;assist=-;special=Chilling Wind;a=Fury 2;b=Desperation 2;c=Drive Res 2;seal=-;ai={turn=1;break_walls=1};spawn={target=Nino: Pale Flower;kills=1};};
+]
+|Lunatic=[
+{unit=Surtr: Ruler of Flame;pos=d8;rarity=5;slot=1;level=45;displaylevel=40;stats=[57;43;16;44;38];weapon=Sinmara;assist=-;special=Ignis;a=Sturdy Stance 2;b=Vengeful Fighter 3;c=Threaten Def 3;seal=-;ai={group=1};};
+{unit=Legault: The Hurricane;pos=c8;rarity=5;slot=2;level=45;displaylevel=40;stats=[42;34;42;26;21];weapon=The Cleaner+;assist=-;special=Glimmer;a=Swift Strike 2;b=R Tomebreaker 3;c=Atk Tactic 3;seal=-;ai={group=1};};
+{unit=Nino: Pale Flower;pos=f7;rarity=5;slot=3;level=45;displaylevel=40;stats=[39;36;42;18;28];weapon=Giga Excalibur;assist=-;special=Moonbow;a=Swift Sparrow 2;b=Aerobatics 3;c=Spd Smoke 3;seal=-;ai={group=1};};
+{unit=Ursula: Blue Crow;pos=a8;rarity=5;slot=4;level=45;displaylevel=40;stats=[38;32;35;21;33];weapon=Keen Blárwolf+;assist=-;special=Growing Thunder;a=Death Blow 3;b=-;c=Threaten Res 3;seal=-;ai={group=1};};
+{unit=Jaffar: Angel of Death;pos=f1;rarity=5;slot=5;level=45;displaylevel=40;stats=[44;29;36;28;24];weapon=Deathly Dagger;assist=-;special=Glimmer;a=Life and Death 3;b=Poison Strike 3;c=Threaten Spd 3;seal=-;ai={turn=1;break_walls=1};spawn={target=Legault: The Hurricane;kills=1};};
+{unit=Canas: Wisdom Seeker;pos=e7;rarity=5;slot=6;level=45;displaylevel=40;stats=[39;35;32;23;36];weapon=Rauðrowl+;assist=Reciprocal Aid;special=-;a=HP/Res 2;b=-;c=Res Tactic 3;seal=-;ai={group=1};};
+{unit=Linus: Mad Dog;pos=d1;rarity=5;slot=7;level=45;displaylevel=40;stats=[45;41;36;35;21];weapon=Basilikos;assist=-;special=Luna;a=Brazen Atk/Spd 3;b=-;c=Drive Def 2;seal=-;ai={turn=1;break_walls=1};spawn={target=Nino: Pale Flower;kills=1};};
+{unit=Lloyd: White Wolf;pos=c1;rarity=5;slot=8;level=45;displaylevel=40;stats=[44;35;38;22;33];weapon=Regal Blade;assist=-;special=Iceberg;a=Fury 3;b=Desperation 3;c=Drive Res 2;seal=-;ai={turn=1;break_walls=1};spawn={target=Nino: Pale Flower;kills=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Sword Vassal|Illusory Dungeon: Legendary Heroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=炎の王、死す
+|german=Des Königs Sturz
+|spanishEU=La muerte del rey
+|spanishLA=La muerte del rey
+|french=La chute du roi
+|italian=La disfatta del re
+|chineseTW=炎之王，死亡
+|portuguese=A morte do rei
+}}
+{{Story Maps Navbox|book=2}}

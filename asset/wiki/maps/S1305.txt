@@ -1,0 +1,92 @@
+{{Battle Infobox
+|bannerImage=Banner_Bruno.png
+|mapName=Chapter 12-5: The Mask Cracks
+|stageTitle=Chapter 12-5
+|stageName=The Mask Cracks
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 12: Bitter Enemies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1305
+|backdrop=Wave
+| a8={{Wall|style=inside|type=Pillar|hp=U}} | b8= | c8={{Wall|style=inside|type=E|hp=U}} | d8={{Wall|style=inside|type=W|hp=U}} | e8= | f8={{Wall|style=inside|type=Pillar|hp=U}}
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4={{Wall|style=inside|type=E|hp=1}} | c4={{Wall|style=inside|type=W|hp=U}} | d4= | e4={{Wall|style=inside|type=Pillar|hp=U}} | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=4
+|rarityHard=5
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_03.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-07-13T07:00:00Z|notification=New Heroes: Alm's Army (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=???: Masked Knight;pos=d7;rarity=4;slot=1;level=27;stats=[32;21;26;15;17];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Close Def 1;b=Lancebreaker 1;c=Savage Blow 2;seal=-;ai={turn=2;break_walls=1};};
+{unit=Gray: Wry Comrade;pos=c7;rarity=4;slot=2;level=27;stats=[33;25;23;20;14];weapon=Zanbato;assist=Swap;special=-;a=Wind Boost 1;b=-;c=Sword Valor 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Tobin: The Clueless One;pos=f6;rarity=4;slot=3;level=27;stats=[35;22;19;22;17];weapon=Armorslayer;assist=Pivot;special=-;a=Attack +2;b=Seal Spd 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Clive: Idealistic Knight;pos=a7;rarity=4;slot=4;level=27;stats=[35;24;17;23;13];weapon=Silver Lance;assist=-;special=Escutcheon;a=Defense +2;b=Hit and Run;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Mathilda: Legendary Knight;pos=f7;rarity=4;slot=5;level=27;stats=[27;20;23;17;25];weapon=Ridersbane;assist=Rally Resistance;special=-;a=-;b=Cancel Affinity 1;c=Hone Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sonya: Vengeful Mage;pos=a6;rarity=4;slot=6;level=27;stats=[28;24;21;11;23];weapon=Rexcalibur;assist=-;special=Moonbow;a=Mirror Strike 1;b=-;c=Res Ploy 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=???: Masked Knight;pos=d7;rarity=5;slot=1;level=35;stats=[37;26;32;20;23];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Close Def 2;b=Lancebreaker 2;c=Savage Blow 2;seal=-;ai={turn=2;break_walls=1};};
+{unit=Gray: Wry Comrade;pos=c7;rarity=4;slot=2;level=35;stats=[38;30;28;25;18];weapon=Zanbato;assist=Swap;special=-;a=Wind Boost 2;b=-;c=Sword Valor 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Tobin: The Clueless One;pos=f6;rarity=4;slot=3;level=35;stats=[40;27;23;27;21];weapon=Armorslayer;assist=Pivot;special=-;a=Attack +2;b=Seal Spd 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Clive: Idealistic Knight;pos=a7;rarity=4;slot=4;level=35;stats=[40;29;21;28;16];weapon=Silver Lance;assist=-;special=Escutcheon;a=Defense +2;b=Hit and Run;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Mathilda: Legendary Knight;pos=f7;rarity=4;slot=5;level=35;stats=[31;24;28;20;30];weapon=Ridersbane;assist=Rally Resistance;special=-;a=-;b=Cancel Affinity 2;c=Hone Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sonya: Vengeful Mage;pos=a6;rarity=4;slot=6;level=35;stats=[32;29;26;13;28];weapon=Rexcalibur;assist=-;special=Moonbow;a=Mirror Strike 1;b=-;c=Res Ploy 2;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=???: Masked Knight;pos=d7;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;32;39;25;28];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Close Def 3;b=Lancebreaker 3;c=Savage Blow 3;seal=-;ai={turn=2;break_walls=1};};
+{unit=Gray: Wry Comrade;pos=c7;rarity=5;slot=2;level=45;displaylevel=40;stats=[47;40;36;33;25];weapon=Zanbato+;assist=Swap;special=-;a=Wind Boost 3;b=Swordbreaker 3;c=Sword Valor 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Tobin: The Clueless One;pos=f6;rarity=5;slot=3;level=45;displaylevel=40;stats=[51;34;30;38;29];weapon=Armorslayer+;assist=Pivot;special=-;a=Attack +3;b=Seal Spd 3;c=Breath of Life 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Clive: Idealistic Knight;pos=a7;rarity=5;slot=4;level=45;displaylevel=40;stats=[49;36;28;35;21];weapon=Silver Lance+;assist=-;special=Escutcheon;a=Defense +3;b=Hit and Run;c=Spur Atk 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Mathilda: Legendary Knight;pos=f7;rarity=5;slot=5;level=45;displaylevel=40;stats=[38;32;35;27;38];weapon=Ridersbane+;assist=Rally Resistance;special=-;a=Attack +3;b=Cancel Affinity 3;c=Hone Atk 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sonya: Vengeful Mage;pos=a6;rarity=5;slot=6;level=45;displaylevel=40;stats=[39;37;34;17;35];weapon=Dark Excalibur;assist=-;special=Moonbow;a=Mirror Strike 2;b=G Tomebreaker 3;c=Res Ploy 3;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Battle at the Sluice Gate|Berkut: Prideful Prince (map)}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=帝国皇子ブルーノ
+|german=Die Maske bröckelt
+|spanishEU=Desenmascarado
+|spanishLA=Desenmascarado
+|french=Le masque se fissure
+|italian=Dietro la maschera
+|chineseTW=帝國皇子布魯諾
+|portuguese=Desmascarado
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:War_of_Deliverance|Fire Emblem Echoes: Shadows of Valentia - Act 3: Temple of Mila Interior - Liberation of the Temple of Mila]]. ([https://www.youtube.com/watch?v=JIbF9eAW3vI Map Video])
+{{Story Maps Navbox|book=1}}

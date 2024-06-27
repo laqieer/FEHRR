@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom (The Branded King).png
+|mapName=Chapter 6-5: Sheathed Steel
+|stageTitle=Chapter 6: Part 5
+|stageName=Sheathed Steel
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 6: The True Quarry
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2065
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Box|style=Ice|type=Regular|hp=1}} | e2={{Ally|2}} | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=36
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-03-09T07:00:00Z|notification=New Heroes: The Branded King (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Laegjarn: Sheathed Steel;pos=c7;rarity=3;slot=1;level=18;stats=[27;16;19;19;8];weapon=Steel Sword;assist=-;special=Retribution;a=Bracing Blow 1;b=-;c=Drive Def 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Chrom: Knight Exalt;pos=d7;rarity=3;slot=2;level=18;stats=[26;19;13;17;8];weapon=Steel Sword;assist=-;special=New Moon;a=Fury 1;b=Chill Def 1;c=Sword Valor 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Gerome: Masked Rider;pos=b6;rarity=3;slot=3;level=18;stats=[28;20;12;17;8];weapon=Steel Axe;assist=Rally Defense;special=-;a=Fortress Def 1;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Morgan: Lass from Afar;pos=b7;rarity=3;slot=4;level=18;stats=[24;17;14;7;17];weapon=Elthunder;assist=-;special=Chilling Wind;a=Mirror Stance 1;b=Guard 1;c=Atk Ploy 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=e6;rarity=3;slot=5;level=18;stats=[27;16;14;14;7];weapon=Steel Bow;assist=-;special=-;a=Darting Blow 1;b=-;c=Spd Smoke 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Laegjarn: Sheathed Steel;pos=c7;rarity=4;slot=1;level=36;stats=[39;27;32;33;14];weapon=Silver Sword;assist=-;special=Reprisal;a=Bracing Blow 2;b=Drag Back;c=Drive Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Chrom: Knight Exalt;pos=d7;rarity=4;slot=2;level=36;stats=[36;33;23;30;14];weapon=Silver Sword;assist=-;special=Luna;a=Fury 2;b=Chill Def 2;c=Sword Valor 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Gerome: Masked Rider;pos=b6;rarity=4;slot=3;level=36;stats=[40;34;21;30;15];weapon=Poleaxe;assist=Rally Atk/Def;special=-;a=Fortress Def 2;b=Hit and Run;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Morgan: Lass from Afar;pos=b7;rarity=4;slot=4;level=36;stats=[33;30;25;13;29];weapon=Blárserpent;assist=-;special=Iceberg;a=Mirror Stance 2;b=Guard 2;c=Atk Ploy 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=e6;rarity=4;slot=5;level=36;stats=[38;28;25;24;13];weapon=Silver Bow;assist=-;special=-;a=Darting Blow 2;b=-;c=Spd Smoke 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Laegjarn: Sheathed Steel;pos=c7;rarity=5;slot=1;level=45;displaylevel=40;stats=[47;35;39;41;18];weapon=Níu;assist=-;special=Reprisal;a=Bracing Blow 2;b=Drag Back;c=Ward Fliers;seal=-;ai={group=1;break_walls=1};};
+{unit=Chrom: Knight Exalt;pos=d7;rarity=5;slot=2;level=45;displaylevel=40;stats=[44;41;31;37;18];weapon=Sealed Falchion;assist=-;special=Aether;a=Fury 3;b=Chill Def 3;c=Sword Valor 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Gerome: Masked Rider;pos=b6;rarity=5;slot=3;level=45;displaylevel=40;stats=[48;42;28;37;21];weapon=Poleaxe+;assist=Rally Atk/Def;special=-;a=Fortress Def 3;b=Hit and Run;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Morgan: Lass from Afar;pos=b7;rarity=5;slot=4;level=45;displaylevel=40;stats=[40;37;33;17;36];weapon=Blárserpent+;assist=-;special=Iceberg;a=Mirror Stance 2;b=Guard 3;c=Atk Ploy 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=e6;rarity=5;slot=5;level=45;displaylevel=40;stats=[46;35;32;32;17];weapon=Silver Bow+;assist=-;special=-;a=Darting Blow 3;b=-;c=Spd Smoke 3;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Tactician's Son|Tempest Trials: Invisible Ties}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=炎剣の鞘
+|german=Besonnener Stahl
+|spanishEU=Acero envainado
+|spanishLA=Acero envainado
+|french=Écrin ardent
+|italian=L'acciaio assorto
+|chineseTW=炎劍之鞘
+|portuguese=Aço embainhado
+}}
+{{Story Maps Navbox|book=2}}

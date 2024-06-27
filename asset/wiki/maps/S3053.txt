@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0305.png
+|stageTitle=Chapter 5: Part 3
+|stageName=Warriors of the Plains
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 5: A Father's Legacy
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3053
+|backdrop=
+| a8= | b8={{Wall|style=inside|type=S|hp=U}} | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=inside|type=NS|hp=1}} | c7= | d7= | e7= | f7=
+| a6= | b6={{Wall|style=inside|type=N|hp=1}} | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{Wall|style=inside|type=S|hp=U}} | e5= | f5=
+| a4= | b4= | c4= | d4={{Wall|style=inside|type=NE|hp=U}} | e4={{Wall|style=inside|type=W|hp=1}} | f4=
+| a3= | b3={{Ally|1}} | c3={{Ally|2}} | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2={{Wall|style=inside|type=E|hp=1}} | f2={{Wall|style=inside|type=W|hp=U}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=13
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_03.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-03-08T07:00:00Z|notification=New Heroes: Beyond Darkness (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Rutger: Lone Swordsman;pos=e6;rarity=3;slot=1;level=13;stats=[25;13;16;12;9];weapon=Steel Sword;assist=-;special=Retribution;a=Atk/Def Bond 1;b=Vantage 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Blue Mage;pos=f7;rarity=3;slot=2;level=13;stats=[22;12;13;8;11];weapon=Elthunder;assist=-;special=-;a=Warding Blow 1;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Knight;pos=c6;rarity=3;slot=3;level=13;stats=[32;16;5;18;7];weapon=Steel Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sue: Doe of the Plains;pos=e7;rarity=3;slot=4;level=13;stats=[21;13;16;8;8];weapon=Steel Bow;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Hone Spd 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Rutger: Lone Swordsman;pos=e6;rarity=4;slot=1;level=32;stats=[36;25;31;22;18];weapon=Slaying Edge;assist=-;special=Retribution;a=Atk/Def Bond 2;b=Vantage 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Blue Mage;pos=f7;rarity=4;slot=2;level=32;stats=[31;24;25;15;21];weapon=Blárblade;assist=-;special=Dragon Gaze;a=Warding Blow 2;b=Seal Spd 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Knight;pos=c6;rarity=4;slot=3;level=32;stats=[46;31;11;33;14];weapon=Reprisal Lance;assist=-;special=Glowing Ember;a=-;b=Wary Fighter 2;c=Spur Def/Res 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Sue: Doe of the Plains;pos=e7;rarity=4;slot=4;level=32;stats=[30;25;31;17;15];weapon=Short Bow;assist=-;special=New Moon;a=Swift Sparrow 1;b=Chill Def 1;c=Hone Spd 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Rutger: Lone Swordsman;pos=e6;rarity=5;slot=1;level=42;displaylevel=40;stats=[45;33;41;30;25];weapon=Slaying Edge+;assist=-;special=Vengeance;a=Atk/Def Bond 3;b=Vantage 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Blue Mage;pos=f7;rarity=5;slot=2;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Blárblade+;assist=-;special=Draconic Aura;a=Warding Blow 3;b=Seal Spd 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Knight;pos=c6;rarity=5;slot=3;level=42;displaylevel=40;stats=[57;40;16;42;19];weapon=Reprisal Lance+;assist=-;special=Ignis;a=-;b=Wary Fighter 3;c=Spur Def/Res 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Sue: Doe of the Plains;pos=e7;rarity=5;slot=4;level=42;displaylevel=40;stats=[37;33;40;24;20];weapon=Short Bow+;assist=-;special=Moonbow;a=Swift Sparrow 2;b=Chill Def 3;c=Hone Spd 4;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Sue: Doe of the Plains;text=Mother Earth and Father Sky will\nalways protect me. They are the\nonly ones I still trust.;textJP=たとえどこにいたとしても…\n母なる大地がなくなるわけでもなく、\n父なる天が消えるわけでもないわ…};
+]}}
+{{Story Navbar|Airborne Mercenary|The Demon Dragon Wakes}}
+
+==In other languages==
+{{OtherLanguages
+|english=Warriors of the Plains
+|japanese=草原の戦士たち
+|german=Krieger der Ebenen
+|spanishEU=Los guerreros de Sacae
+|spanishLA=Los guerreros nómadas
+|french=Les guerriers des plaines
+|italian=Guerriera delle pianure
+|chineseTW=草原的戰士們
+|portuguese=Guerreiros nômades
+}}
+{{Story Maps Navbox|book=3}}

@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Eirika (Sacred Memories) Unrevealed.png
+|mapName=Chapter 4-2: Crimson Flash
+|stageTitle=Chapter 4: Part 2
+|stageName=Crimson Flash
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 4: Fiery Resolve
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2042
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=desert|type=S|hp=U}} | c7= | d7= | e7={{Wall|style=desert|type=Pillar|hp=U}} | f7=
+| a6= | b6={{Wall|style=desert|type=N|hp=1}} | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5={{Wall|style=desert|type=S|hp=1}} | f5=
+| a4= | b4={{Wall|style=desert|type=S|hp=U}} | c4= | d4= | e4={{Wall|style=desert|type=NE|hp=U}} | f4={{Wall|style=desert|type=SW|hp=U}}
+| a3={{Wall|style=desert|type=EW|hp=U}} | b3={{Wall|style=desert|type=NW|hp=U}} | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3={{Wall|style=desert|type=NE|hp=U}}
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=29
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE08_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-25T07:00:00Z|notification=New Heroes: Sacred Memories (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Marisa: Crimson Flash;pos=c8;rarity=3;slot=1;level=9;stats=[22;9;11;7;5];weapon=Iron Sword;assist=-;special=Night Sky;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d8;rarity=3;slot=2;level=9;stats=[22;8;9;8;4];weapon=Iron Axe;assist=-;special=-;a=Fury 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a7;rarity=3;slot=3;level=9;stats=[21;9;9;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=f7;rarity=3;slot=4;level=9;stats=[17;7;11;2;8];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Marisa: Crimson Flash;pos=c8;rarity=4;slot=1;level=29;stats=[36;22;27;21;15];weapon=Wo Dao;assist=-;special=Night Sky;a=HP/Def 1;b=-;c=Infantry Pulse 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d8;rarity=4;slot=2;level=29;stats=[35;23;22;22;15];weapon=Slaying Axe;assist=-;special=Retribution;a=Fury 2;b=-;c=Hone Spd 1;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a7;rarity=4;slot=3;level=29;stats=[34;24;21;20;10];weapon=Slaying Bow;assist=-;special=New Moon;a=-;b=Seal Def 1;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=f7;rarity=4;slot=4;level=29;stats=[29;19;29;9;24];weapon=Silver Dagger;assist=-;special=New Moon;a=Darting Blow 2;b=-;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Marisa: Crimson Flash;pos=c8;rarity=5;slot=1;level=41;displaylevel=40;stats=[47;30;37;30;21];weapon=Wo Dao+;assist=-;special=Glimmer;a=HP/Def 2;b=-;c=Infantry Pulse 3;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d8;rarity=5;slot=2;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Slaying Axe+;assist=-;special=Reprisal;a=Fury 3;b=-;c=Hone Spd 3;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a7;rarity=5;slot=3;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Slaying Bow+;assist=-;special=Moonbow;a=-;b=Seal Def 3;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=f7;rarity=5;slot=4;level=41;displaylevel=40;stats=[37;28;39;14;32];weapon=Silver Dagger+;assist=-;special=Moonbow;a=Darting Blow 3;b=-;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain3};
+  {unit=Marisa: Crimson Flash;text=I guess it's my turn. Who do I need\nto slice? Over here, or over there?;textJP=私の出番…\nどっちを斬ればいい？　あっち…？\nそう…それじゃ、行くから。};
+  {text=It's time to make my move.};
+]}}
+{{Story Navbar|Protecting the People|Princesses in Shadow}}
+==In other languages==
+{{OtherLanguages
+|japanese=緋閃の女剣士
+|german=Blutroter Blitz
+|spanishEU=Centella Carmesí
+|spanishLA=Centella Carmesí
+|french=Éclair écarlate
+|italian=Il lampo cremisi
+|chineseTW=緋閃女劍士
+|portuguese=Centelha carmim
+}}
+{{Story Maps Navbox|book=2}}

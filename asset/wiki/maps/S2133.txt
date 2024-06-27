@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0213.png
+|stageTitle=Chapter 13-3
+|stageName=Maid of Ice
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 13: A Way Home
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2133
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8={{Wall|style=Muspel|type=Pillar|hp=1}} | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3={{Ally|1}} | b3={{Ally|2}} | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|3}} | c2={{Ally|4}} | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_07.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-14T07:00:00Z|notification=New Heroes: Nohrian Dusk (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ophelia: Dramatic Heroine;pos=c7;rarity=3;slot=1;level=32;stats=[30;27;25;14;17];weapon=Shine;assist=Rally Attack;special=Rising Light;a=Sturdy Blow 1;b=Chill Res 1;c=-;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=b8;rarity=3;slot=2;level=32;stats=[27;26;18;12;25];weapon=Elfire;assist=-;special=New Moon;a=Fury 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Green Mage;pos=e6;rarity=3;slot=3;level=32;stats=[30;23;24;14;20];weapon=Elwind;assist=-;special=Night Sky;a=Mirror Strike 1;b=-;c=Res Ploy 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=d6;rarity=3;slot=4;level=32;stats=[30;20;26;15;27];weapon=Steel Lance;assist=-;special=Chilling Wind;a=-;b=Aerobatics 1;c=Guidance 1;seal=-;ai={group=1};};
+{unit=Flora: Cold as Ice;pos=e8;rarity=3;slot=5;level=32;stats=[30;25;17;13;29];weapon=Silver Dagger;assist=-;special=Chilling Wind;a=Atk/Res Solo 1;b=Quick Riposte 1;c=Def Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Ophelia: Dramatic Heroine;pos=c7;rarity=4;slot=1;level=37;stats=[34;32;29;17;21];weapon=Shine;assist=Rally Up Atk;special=Rising Light;a=Sturdy Blow 1;b=Chill Res 2;c=-;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=b8;rarity=4;slot=2;level=37;stats=[30;32;22;14;31];weapon=Rauðrblade;assist=-;special=New Moon;a=Fury 2;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Green Mage;pos=e6;rarity=4;slot=3;level=37;stats=[34;27;28;17;24];weapon=Gronnblade;assist=-;special=Night Sky;a=Mirror Strike 1;b=-;c=Res Ploy 2;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=d6;rarity=4;slot=4;level=37;stats=[34;24;32;18;33];weapon=Silver Lance;assist=-;special=Chilling Wind;a=-;b=Aerobatics 2;c=Guidance 2;seal=-;ai={group=1};};
+{unit=Flora: Cold as Ice;pos=e8;rarity=4;slot=5;level=37;stats=[34;31;20;15;34];weapon=Silver Dagger;assist=-;special=Chilling Wind;a=Atk/Res Solo 2;b=Quick Riposte 2;c=Def Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Ophelia: Dramatic Heroine;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[39;39;34;20;23];weapon=Missiletainn (tome);assist=Rally Up Atk+;special=Blazing Light;a=Sturdy Blow 2;b=Chill Res 3;c=-;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=b8;rarity=5;slot=2;level=42;displaylevel=40;stats=[34;36;26;17;35];weapon=Rauðrblade+;assist=-;special=Moonbow;a=Fury 3;b=-;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Green Mage;pos=e6;rarity=5;slot=3;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Gronnblade+;assist=-;special=Glimmer;a=Mirror Strike 2;b=-;c=Res Ploy 3;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=d6;rarity=5;slot=4;level=42;displaylevel=40;stats=[38;29;36;22;37];weapon=Silver Lance+;assist=-;special=Glacies;a=-;b=Aerobatics 3;c=Guidance 3;seal=-;ai={group=1};};
+{unit=Flora: Cold as Ice;pos=e8;rarity=5;slot=5;level=42;displaylevel=40;stats=[39;35;24;18;40];weapon=Hoarfrost Knife;assist=-;special=Iceberg;a=Atk/Res Solo 3;b=Quick Riposte 3;c=Def Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Sacrifices|Princess Laevatein}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=氷の従者
+|german=Eisdienerin
+|spanishEU=Criada glacial
+|spanishLA=Sirvienta del Hielo
+|french=Au secours des glaces
+|italian=Fanciulla del gelo
+|chineseTW=冰之侍從
+|portuguese=Empregada do gelo
+}}
+{{Story Maps Navbox|book=2}}

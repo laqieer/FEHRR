@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0601.webp
+|stageTitle=Chapter 1: Part 3
+|stageName=Closure Below
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 1: Darkness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6013
+|backdrop=
+|allyPos=d2,e2,c1,d1
+| a8={{Wall|style=normal|type=E|hp=U}} | b8={{Wall|style=normal|type=W|hp=U}} | c8= | d8= | e8={{Wall|style=normal|type=E|hp=U}} | f8={{Wall|style=normal|type=W|hp=U}}
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3={{Wall|style=normal|type=Pillar|hp=1}}
+| a2={{Wall|style=normal|type=Pillar|hp=1}} | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|lvlHard=22
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sword Cavalier;pos=f7;rarity=3;slot=1;level=3;stats=[19;8;4;5;8];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=d7;rarity=3;slot=2;level=3;stats=[16;6;6;5;9];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Fighter;pos=c6;rarity=3;slot=3;level=3;stats=[20;7;7;8;4];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Thief;pos=b6;rarity=3;slot=4;level=3;stats=[16;6;10;2;8];weapon=Iron Dagger;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Sword Cavalier;pos=f7;rarity=4;slot=1;level=22;stats=[29;21;14;15;19];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=d7;rarity=4;slot=2;level=22;stats=[24;17;16;13;22];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Fighter;pos=c6;rarity=4;slot=3;level=22;stats=[31;19;18;19;12];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Thief;pos=b6;rarity=4;slot=4;level=22;stats=[26;16;24;7;20];weapon=Steel Dagger;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Sword Cavalier;pos=f7;rarity=5;slot=1;level=42;stats=[42;35;25;26;31];weapon=Unbound Blade+;assist=-;special=Escutcheon;a=-;b=Poison Strike 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=d7;rarity=5;slot=2;level=42;stats=[35;29;29;24;36];weapon=Pain+;assist=Physic+;special=-;a=-;b=-;c=Distant Guard 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Fighter;pos=c6;rarity=5;slot=3;level=42;stats=[45;32;32;31;23];weapon=Silver Axe+;assist=-;special=Moonbow;a=Life and Death 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Thief;pos=b6;rarity=5;slot=4;level=42;stats=[37;29;40;14;33];weapon=The Cleaner+;assist=Rally Atk/Spd+;special=-;a=-;b=Spd/Def Ruse 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Closure Above|Closure Ahead}}
+==In other languages==
+{{OtherLanguages
+|japanese=地を閉ざせば命はなく
+|german=Verschlossene Erde
+|spanishEU=Barrera abajo
+|spanishLA=Barrera abajo
+|french=Barricade terrestre
+|italian=Chiusura terrestre
+|chineseTW=地若封閉則無生命
+|portuguese=Fechamento abaixo
+}}
+{{Story Maps Navbox|book=6}}

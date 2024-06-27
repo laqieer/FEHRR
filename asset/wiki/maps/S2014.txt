@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Banner_Surtr Unrevealed.png
+|mapName=Chapter 1-4: Stars Become Cinders
+|stageTitle=Chapter 1: Part 4
+|stageName=Stars Become Cinders
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 1: The Flame
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2014
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Wall|style=Souen|type=Pillar|hp=1}} | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4={{Ally|1}} | c4= | d4={{Wall|style=Souen|type=Pillar|hp=1}} | e4= | f4=
+| a3= | b3={{Ally|2}} | c3={{Ally|3}} | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|4}} | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=23
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-11-28T04:00:00Z|notification=What's in Store for the 2.0.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Dragon;pos=a8;rarity=3;slot=1;level=4;stats=[17;5;4;5;0];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=f5;rarity=3;slot=2;level=4;stats=[18;3;5;3;1];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=e7;rarity=3;slot=3;level=4;stats=[15;2;5;0;4];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=c8;rarity=3;slot=4;level=4;stats=[16;3;7;0;2];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Lance Dragon;pos=a8;rarity=4;slot=1;level=23;stats=[29;23;15;24;11];weapon=Steel Lance;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=f5;rarity=4;slot=2;level=23;stats=[31;19;18;19;13];weapon=Steel Sword;assist=-;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=e7;rarity=4;slot=3;level=23;stats=[25;17;16;14;23];weapon=Absorb;assist=Recover;special=-;a=-;b=-;c=Spur Def 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=c8;rarity=4;slot=4;level=23;stats=[27;19;20;12;16];weapon=Elwind;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Lance Dragon;pos=a8;rarity=5;slot=1;level=43;displaylevel=40;stats=[42;37;28;38;20];weapon=Slaying Lance+;assist=-;special=Moonbow;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=f5;rarity=5;slot=2;level=43;displaylevel=40;stats=[46;33;33;31;23];weapon=Silver Sword+;assist=-;special=-;a=Life and Death 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=e7;rarity=5;slot=3;level=43;displaylevel=40;stats=[35;29;29;24;37];weapon=Absorb+;assist=Recover+;special=-;a=-;b=-;c=Spur Def 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=c8;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Rexcalibur+;assist=-;special=-;a=Darting Blow 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Undying Flame|Enchantress of the Mist}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=天は焦げ、月は堕ちる
+|german=Ausgebrannte Sterne
+|spanishEU=Ceniza de estrellas
+|spanishLA=Ceniza de estrellas
+|french=Les étoiles en cendres
+|italian=Stelle incenerite
+|chineseTW=天焦月落
+|portuguese=Cinza de estrelas
+}}
+{{Story Maps Navbox|book=2}}

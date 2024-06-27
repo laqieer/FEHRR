@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Banner_Robin (M) (Fallen Heroes) Unrevealed.png
+|mapName=Chapter 5-1: Snowfield Pursuit
+|stageTitle=Chapter 5: Part 1
+|stageName=Snowfield Pursuit
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 5: Blood and Snow
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2051
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5={{Ally|1}} | d5={{Ally|2}} | e5= | f5={{Box|style=Ice|type=Regular|hp=1}}
+| a4= | b4={{Box|style=Ice|type=Regular|hp=1}} | c4={{Ally|3}} | d4={{Ally|4}} | e4= | f4=
+| a3= | b3= | c3= | d3={{Box|style=Ice|type=Regular|hp=1}} | e3= | f3=
+| a2={{Box|style=Ice|type=Regular|hp=1}} | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_06.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-02-22T07:00:00Z|notification=New Heroes: Fallen Heroes (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Laevatein: Searing Steel;pos=c1;rarity=3;slot=1;level=11;stats=[23;14;11;13;8];weapon=Steel Sword;assist=-;special=-;a=Fury 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=e1;rarity=3;slot=2;level=11;stats=[19;13;9;5;12];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Dragon;pos=f2;rarity=3;slot=3;level=11;stats=[23;13;9;14;5];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=d1;rarity=3;slot=4;level=11;stats=[21;10;12;6;9];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=Hone Spd 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Laevatein: Searing Steel;pos=c1;rarity=4;slot=1;level=30;stats=[34;28;22;27;18];weapon=Silver Sword;assist=-;special=Night Sky;a=Fury 2;b=Windsweep 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=e1;rarity=4;slot=2;level=30;stats=[27;27;18;12;26];weapon=Gronnraven;assist=-;special=-;a=-;b=Lancebreaker 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Dragon;pos=f2;rarity=4;slot=3;level=30;stats=[33;27;19;28;13];weapon=Silver Sword;assist=-;special=-;a=Armored Blow 1;b=-;c=Guidance 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=d1;rarity=4;slot=4;level=30;stats=[30;23;24;14;20];weapon=Blárowl;assist=-;special=-;a=-;b=Watersweep 1;c=Hone Spd 2;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Laevatein: Searing Steel;pos=c1;rarity=5;slot=1;level=40;stats=[43;36;31;35;25];weapon=Laevatein (weapon);assist=-;special=Glimmer;a=Fury 3;b=Windsweep 3;c=Panic Ploy 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=e1;rarity=5;slot=2;level=40;stats=[33;35;25;17;34];weapon=Gronnraven+;assist=-;special=-;a=Attack/Res 2;b=Lancebreaker 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Dragon;pos=f2;rarity=5;slot=3;level=40;stats=[41;35;27;36;19];weapon=Silver Sword+;assist=-;special=Luna;a=Armored Blow 3;b=-;c=Guidance 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=d1;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Blárowl+;assist=-;special=-;a=Darting Blow 3;b=Watersweep 3;c=Hone Spd 3;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Corrin & Azura: Bound Hero Battle|Dance of the Witch}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=雪原の追跡者
+|german=Verfolgung im Schnee
+|spanishEU=Persecución en la nieve
+|spanishLA=Persecución en la nieve
+|french=Poursuite sous la neige
+|italian=Inseguimento nella neve
+|chineseTW=雪原的追跡者
+|portuguese=Perseguição na neve
+}}
+{{Story Maps Navbox|book=2}}

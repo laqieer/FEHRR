@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0307.png
+|stageTitle=Chapter 7: Part 2
+|stageName=Boiling Blood
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 7: A Home Unknown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3072
+|backdrop=
+| a8= | b8={{Wall|style=BraveBoss|type=E|hp=U}} | c8={{Wall|style=BraveBoss|type=SW|hp=U}} | d8= | e8= | f8={{Wall|style=BraveBoss|type=S|hp=1}}
+| a7= | b7= | c7={{Wall|style=BraveBoss|type=N|hp=1}} | d7= | e7= | f7={{Wall|style=BraveBoss|type=N|hp=U}}
+| a6= | b6= | c6= | d6= | e6={{Wall|style=BraveBoss|type=Pillar|hp=1}} | f6=
+| a5={{Wall|style=BraveBoss|type=E|hp=U}} | b5={{Wall|style=BraveBoss|type=W|hp=1}} | c5= | d5= | e5= | f5=
+| a4={{Ally|1}} | b4={{Ally|2}} | c4= | d4= | e4= | f4=
+| a3={{Ally|3}} | b3={{Ally|4}} | c3={{Wall|style=BraveBoss|type=E|hp=1}} | d3={{Wall|style=BraveBoss|type=SW|hp=U}} | e3= | f3=
+| a2= | b2= | c2= | d2={{Wall|style=BraveBoss|type=NE|hp=1}} | e2={{Wall|style=BraveBoss|type=W|hp=U}} | f2=
+| a1={{Wall|style=BraveBoss|type=E|hp=U}} | b1={{Wall|style=BraveBoss|type=EW|hp=U}} | c1={{Wall|style=BraveBoss|type=W|hp=1}} | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=33
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_13.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-05-10T07:00:00Z|notification=New Heroes: Darkness Within (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Corrin: Wailing Soul;pos=f5;rarity=3;slot=1;level=18;stats=[25;17;17;15;12];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 1;b=Sudden Panic 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f1;rarity=3;slot=2;level=18;stats=[27;16;14;14;7];weapon=Steel Bow;assist=-;special=-;a=Darting Blow 1;b=Poison Strike 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=e7;rarity=3;slot=3;level=18;stats=[24;15;16;9;13];weapon=Elthunder;assist=-;special=-;a=Atk/Spd 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=a7;rarity=3;slot=4;level=18;stats=[26;17;11;12;15];weapon=Steel Sword;assist=-;special=-;a=Atk/Def Solo 1;b=-;c=Odd Def Wave 1;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Corrin: Wailing Soul;pos=f5;rarity=4;slot=1;level=33;stats=[36;29;30;24;20];weapon=Flametongue;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 2;b=Sudden Panic 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f1;rarity=4;slot=2;level=33;stats=[36;26;23;22;12];weapon=Silver Bow;assist=-;special=Rising Wind;a=Darting Blow 2;b=Poison Strike 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=e7;rarity=4;slot=3;level=33;stats=[32;25;26;15;21];weapon=Thoron;assist=-;special=Night Sky;a=Atk/Spd 1;b=Swordbreaker 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=a7;rarity=4;slot=4;level=33;stats=[34;28;19;20;24];weapon=Armorsmasher;assist=-;special=Buckler;a=Atk/Def Solo 2;b=-;c=Odd Def Wave 2;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Corrin: Wailing Soul;pos=f5;rarity=5;slot=1;level=41;displaylevel=40;stats=[44;36;38;31;27];weapon=Savage Breath;assist=-;special=Dragon Fang;a=Atk/Spd Solo 3;b=Sudden Panic 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f1;rarity=5;slot=2;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Silver Bow+;assist=-;special=Blazing Wind;a=Darting Blow 3;b=Poison Strike 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=e7;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Thoron+;assist=-;special=Glimmer;a=Atk/Spd 2;b=Swordbreaker 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=a7;rarity=5;slot=4;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Armorsmasher+;assist=-;special=Escutcheon;a=Atk/Def Solo 3;b=-;c=Odd Def Wave 3;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_serious1};
+  {unit=Corrin: Wailing Soul;text=My body...burns. That searing blood\ncoursing through my veins... It grows\nrestless...;textJP=身体が熱い…\n私の中の血が…暴れ出そうと…};
+]}}
+{{Story Navbar|Familiar Scenery|Trapped, Alone}}
+==Trivia==
+* This map is a derelict version of [[The Legend|Book I, Preface, Part 2: The Legend]].
+==In other languages==
+{{OtherLanguages
+|japanese=身を焦がす竜血
+|german=Wallendes Blut
+|spanishEU=Sangre ardiente
+|spanishLA=Sangre ardiente
+|french=Sang bouillonnant
+|italian=Sangue in rivolta
+|chineseTW=沸騰的龍血
+|portuguese=Sangue fervente
+}}
+{{Story Maps Navbox|book=3}}

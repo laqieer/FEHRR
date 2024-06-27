@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0511.webp
+|stageTitle=Chapter 11-1
+|stageName=Desolation
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 11: Deceit
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5111
+|backdrop=
+|allyPos=c2,d2,b1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{#invoke:MapLayout|wall|style=Nisaveril city|type=Pillar|hp=1}} | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{#invoke:MapLayout|wall|style=Nisaveril_city|type=Pillar|hp=1}} | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1={{#invoke:MapLayout|wall|style=Nisaveril_city|type=E|hp=U}} | d1={{#invoke:MapLayout|wall|style=Nisaveril_city|type=W|hp=1}} | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_boss9.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-09-17T07:00:00Z|notification=New Heroes Summoning Event: Abyss & Múspell (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Fáfnir: King of Desolation (Dragon);pos=c7;rarity=3;slot=1;level=26;stats=[32;25;28;23;19];weapon=Flametongue;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Desperation 1;c=Armor March 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Knight;pos=d7;rarity=3;slot=2;level=26;stats=[41;25;9;27;11];weapon=Steel Sword;assist=Rally Attack;special=-;a=-;b=Wary Fighter 1;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=3;slot=3;level=26;stats=[29;23;14;15;15];weapon=Steel Bow;assist=-;special=New Moon;a=Atk/Def Solo 1;b=-;c=Res Tactic 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=e6;rarity=3;slot=4;level=26;stats=[28;19;20;12;17];weapon=Elthunder;assist=-;special=New Moon;a=Fury 1;b=Atk/Spd Ruse 1;c=-;seal=-;ai={turn=1};};
+{unit=Balthus: King of Grappling;pos=a5;rarity=3;slot=5;level=26;stats=[34;28;15;25;19];weapon=Instant Axe;assist=-;special=Glowing Ember;a=Brazen Atk/Def 1;b=-;c=Close Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Fáfnir: King of Desolation (Dragon);pos=c7;rarity=4;slot=1;level=35;stats=[38;32;37;30;25];weapon=Scalding Breath;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Desperation 2;c=Armor March 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Knight;pos=d7;rarity=4;slot=2;level=35;stats=[49;33;12;35;15];weapon=Silver Sword;assist=Rally Up Atk;special=-;a=-;b=Wary Fighter 2;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=4;slot=3;level=35;stats=[35;30;18;20;20];weapon=Slaying Bow;assist=-;special=New Moon;a=Atk/Def Solo 2;b=-;c=Res Tactic 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=e6;rarity=4;slot=4;level=35;stats=[33;26;27;16;23];weapon=Thoron;assist=-;special=New Moon;a=Fury 2;b=Atk/Spd Ruse 2;c=-;seal=-;ai={turn=1};};
+{unit=Balthus: King of Grappling;pos=a5;rarity=4;slot=5;level=35;stats=[41;37;20;32;25];weapon=Instant Axe;assist=-;special=Glowing Ember;a=Brazen Atk/Def 2;b=-;c=Close Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Fáfnir: King of Desolation (Dragon);pos=c7;rarity=5;slot=1;level=40;stats=[44;38;42;35;31];weapon=Scalding Breath;assist=-;special=Dragon Fang;a=Swift Sparrow 2;b=Desperation 3;c=Armor March 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Knight;pos=d7;rarity=5;slot=2;level=40;stats=[55;38;16;40;19];weapon=Silver Sword+;assist=Rally Up Atk+;special=-;a=-;b=Wary Fighter 3;c=Ward Armor;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=5;slot=3;level=40;stats=[40;35;22;24;23];weapon=Slaying Bow+;assist=-;special=Luna;a=Atk/Def Solo 3;b=-;c=Res Tactic 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=e6;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=-;special=Moonbow;a=Fury 3;b=Atk/Spd Ruse 3;c=-;seal=-;ai={turn=1};};
+{unit=Balthus: King of Grappling;pos=a5;rarity=5;slot=5;level=40;stats=[47;42;24;37;31];weapon=Instant Axe+;assist=-;special=Ignis;a=Brazen Atk/Def 3;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ylgr & Helbindi: Bound Hero Battle|Nowhere Left}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=壊れゆく王国
+|german=Verwüstung
+|spanishEU=Desolación
+|spanishLA=Desolación
+|french=Désolation
+|italian=Devastazione
+|chineseTW=步向毀滅的王國
+|portuguese=Desolação
+}}
+{{Story Maps Navbox|book=5}}

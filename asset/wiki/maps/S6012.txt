@@ -1,0 +1,77 @@
+{{Battle Infobox
+|bannerImage=C0601.webp
+|stageTitle=Chapter 1: Part 2
+|stageName=Closure Above
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 1: Darkness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6012
+|backdrop=
+|allyPos=c5,d5,c4,d4
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6={{Wall|style=normal|type=S|hp=2}}
+| a5= | b5= | c5= | d5= | e5= | f5={{Wall|style=normal|type=N|hp=2}}
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|lvlHard=21
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Flier;pos=f1;rarity=3;slot=1;level=2;stats=[16;6;8;2;7];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b8;rarity=3;slot=2;level=2;stats=[17;5;8;3;9];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a1;rarity=3;slot=3;level=2;stats=[18;7;4;5;7];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Red Flier;pos=f1;rarity=4;slot=1;level=21;stats=[24;16;22;8;19];weapon=Elfire;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b8;rarity=4;slot=2;level=21;stats=[26;15;21;11;22];weapon=Steel Lance;assist=-;special=Chilling Wind;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a1;rarity=4;slot=3;level=21;stats=[28;20;13;14;18];weapon=Steel Axe;assist=-;special=Glowing Ember;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Red Flier;pos=f1;rarity=5;slot=1;level=41;stats=[35;29;38;16;32];weapon=Bolganone+;assist=-;special=Luna;a=Fury 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b8;rarity=5;slot=2;level=41;stats=[38;28;36;22;37];weapon=Slaying Lance+;assist=-;special=Glacies;a=Fortress Res 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a1;rarity=5;slot=3;level=41;stats=[41;35;25;26;30];weapon=Silver Axe+;assist=-;special=Ignis;a=-;b=-;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Emblian Calamity|Closure Below}}
+==In other languages==
+{{OtherLanguages
+|japanese=天を閉ざせば空はなく
+|german=Verschlossener Himmel
+|spanishEU=Barrera arriba
+|spanishLA=Barrera arriba
+|french=Barricade céleste
+|italian=Chiusura celeste
+|chineseTW=天若封閉則無蒼穹
+|portuguese=Fechamento acima
+}}
+{{Story Maps Navbox|book=6}}

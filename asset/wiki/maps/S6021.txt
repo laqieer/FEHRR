@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0602.webp
+|stageTitle=Chapter 2: Part 1
+|stageName=Shadowy Wings
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 2: Curse Directive
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6021
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7={{Wall|style=normal|type=Pillar|hp=2}} | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4={{Wall|style=normal|type=Pillar|hp=1}} | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|lvlHard=23
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_16.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Flavia: Feroxi East-Khan;pos=c7;rarity=3;slot=1;level=3;stats=[19;10;11;8;5];weapon=Iron Sword;assist=-;special=-;a=Atk/Spd Push 1;b=-;c=Red Feud 1;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=d7;rarity=3;slot=2;level=3;stats=[17;7;8;4;6];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=b8;rarity=3;slot=3;level=3;stats=[19;8;4;5;8];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f6;rarity=3;slot=4;level=3;stats=[19;8;7;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Flavia: Feroxi East-Khan;pos=c7;rarity=4;slot=1;level=23;stats=[29;26;27;22;14];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Atk/Spd Push 2;b=-;c=Red Feud 2;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=d7;rarity=4;slot=2;level=23;stats=[27;19;20;12;16];weapon=Elthunder;assist=-;special=Rising Thunder;a=Life and Death 1;b=-;c=Hone Atk 1;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=b8;rarity=4;slot=3;level=23;stats=[29;22;14;15;19];weapon=Steel Axe;assist=-;special=Retribution;a=Atk/Def Catch 1;b=Lancebreaker 1;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f6;rarity=4;slot=4;level=23;stats=[30;20;18;17;9];weapon=Steel Bow;assist=-;special=Night Sky;a=-;b=Poison Strike 1;c=Def Smoke 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Flavia: Feroxi East-Khan;pos=c7;rarity=5;slot=1;level=40;stats=[41;40;41;36;23];weapon=Lioness Blade;assist=-;special=Draconic Aura;a=Atk/Spd Push 4;b=-;c=Red Feud 3;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=d7;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=-;special=Blazing Thunder;a=Life and Death 3;b=-;c=Hone Atk 3;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=b8;rarity=5;slot=3;level=40;stats=[41;34;24;25;30];weapon=Wo Gùn+;assist=-;special=Reprisal;a=Atk/Def Catch 3;b=Lancebreaker 3;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f6;rarity=5;slot=4;level=40;stats=[43;32;29;29;16];weapon=Silver Bow+;assist=-;special=Glimmer;a=-;b=Poison Strike 3;c=Def Smoke 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Closed-Off World|Pursuer of Truth}}
+==In other languages==
+{{OtherLanguages
+|japanese=奇なる翼を追って
+|german=Schattenflügel
+|spanishEU=Alas sombrías
+|spanishLA=Alas sombrías
+|french=Ailes sombres
+|italian=Ali tenebrose
+|chineseTW=追尋奇怪的翅膀
+|portuguese=Asas das sombras
+}}
+{{Story Maps Navbox|book=6}}

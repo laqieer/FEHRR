@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0311 C.webp
+|stageTitle=Chapter 11: Part 5
+|stageName=Bitter Realizations
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 11: Where It Began
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=b1,c1,d1,e1
+|baseMap=S3115
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4={{Wall|style=BraveBoss|type=Pillar|hp=1}} | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Wall|style=BraveBoss|type=Pillar|hp=1}} | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-09-19T07:00:00Z|notification=New Heroes: The Chosen Ones (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=3;slot=1;level=30;stats=[32;27;21;24;19];weapon=Sökkvabekkr;assist=-;special=Sol;a=Death Blow 2;b=Special Spiral 1;c=Drive Atk 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Norne: The Volunteer;pos=c8;rarity=3;slot=2;level=30;stats=[32;22;26;21;18];weapon=Guard Bow;assist=Reposition;special=-;a=Brazen Spd/Def 1;b=Spd/Def Link 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Phina: Roving Dancer;pos=e8;rarity=3;slot=3;level=30;stats=[30;24;26;19;16];weapon=Silver Sword;assist=Dance;special=-;a=Spd/Def Form 1;b=Geyser Dance 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Nagi: Dragon Avatar;pos=d6;rarity=3;slot=4;level=30;stats=[37;27;13;25;30];weapon=Flametongue;assist=-;special=Daylight;a=-;b=Special Fighter 1;c=Dragon Valor 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sirius: Mysterious Knight;pos=f6;rarity=3;slot=5;level=30;stats=[31;24;26;25;10];weapon=Silver Lance;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=Lull Atk/Spd 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=4;slot=1;level=40;stats=[39;35;28;31;25];weapon=Sökkvabekkr;assist=-;special=Sol;a=Death Blow 3;b=Special Spiral 2;c=Drive Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Norne: The Volunteer;pos=c8;rarity=4;slot=2;level=40;stats=[39;30;34;28;24];weapon=Guard Bow+;assist=Reposition;special=-;a=Brazen Spd/Def 2;b=Spd/Def Link 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Phina: Roving Dancer;pos=e8;rarity=4;slot=3;level=40;stats=[37;33;35;24;21];weapon=Rapier;assist=Dance;special=-;a=Spd/Def Form 2;b=Geyser Dance 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Nagi: Dragon Avatar;pos=d6;rarity=4;slot=4;level=40;stats=[43;35;17;33;39];weapon=Ethereal Breath;assist=-;special=Daylight;a=-;b=Special Fighter 2;c=Dragon Valor 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sirius: Mysterious Knight;pos=f6;rarity=4;slot=5;level=40;stats=[37;31;35;33;14];weapon=Sable Lance;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Lull Atk/Spd 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;40;33;37;31];weapon=Sökkvabekkr;assist=-;special=Aether;a=Death Blow 4;b=Special Spiral 3;c=Drive Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Norne: The Volunteer;pos=c8;rarity=5;slot=2;level=45;displaylevel=40;stats=[45;35;39;34;30];weapon=Guard Bow+;assist=Reposition;special=-;a=Brazen Spd/Def 3;b=Spd/Def Link 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Phina: Roving Dancer;pos=e8;rarity=5;slot=3;level=45;displaylevel=40;stats=[43;39;41;29;26];weapon=Rapier;assist=Dance;special=-;a=Spd/Def Form 3;b=Geyser Dance 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Nagi: Dragon Avatar;pos=d6;rarity=5;slot=4;level=45;displaylevel=40;stats=[49;40;21;40;45];weapon=Ethereal Breath;assist=-;special=Sol;a=Distant Counter;b=Special Fighter 3;c=Dragon Valor 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sirius: Mysterious Knight;pos=f6;rarity=5;slot=5;level=45;displaylevel=40;stats=[43;37;41;38;17];weapon=Sable Lance;assist=-;special=Luna;a=Atk/Spd Solo 3;b=Lull Atk/Spd 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|An Addled Dragon|A Time to Shine}}
+
+==Trivia==
+* This map is a ruined version of the [[Home Screen#Castle Layouts|Royal Castle Layout]].
+==In other languages==
+{{OtherLanguages
+|english=Bitter Realizations
+|japanese=俺は知り、お前は知らない
+|german=Bittere Erkenntnisse
+|spanishEU=Un jarro de agua fría
+|spanishLA=Un cubo de agua fría
+|french=Amères constatations
+|italian=Mali estremi
+|chineseTW=我知你所不知
+|portuguese=Constatações pungentes
+}}
+{{Story Maps Navbox|book=3}}

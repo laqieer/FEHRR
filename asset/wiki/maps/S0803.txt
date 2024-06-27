@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Eliwood Unrevealed.png
+|mapName=Chapter 7-3: Baffling Labyrinth
+|stageTitle=Chapter 7: Part 3
+|stageName=Baffling Labyrinth
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 7: World of Blazing
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0803
+| a8={{Wall|style=inside|type=NS|hp=U}} | b8= | c8={{Wall|style=inside|type=S|hp=2}} | d8={{Ally|1}} | e8={{Ally|2}} | f8={{Ally|3}}
+| a7={{Wall|style=inside|type=NES|hp=U}} | b7={{Wall|style=inside|type=EW|hp=2}} | c7={{Wall|style=inside|type=NESW|hp=U}} | d7={{Wall|style=inside|type=EW|hp=U}} | e7={{Wall|style=inside|type=SW|hp=U}} | f7={{Ally|4}}
+| a6={{Wall|style=inside|type=NS|hp=U}} | b6= | c6={{Wall|style=inside|type=NS|hp=2}} | d6= | e6={{Wall|style=inside|type=NS|hp=2}} | f6=
+| a5={{Wall|style=inside|type=NES|hp=U}} | b5={{Wall|style=inside|type=EW|hp=2}} | c5={{Wall|style=inside|type=NESW|hp=U}} | d5={{Wall|style=inside|type=EW|hp=U}} | e5={{Wall|style=inside|type=NESW|hp=U}} | f5={{Wall|style=inside|type=W|hp=2}}
+| a4={{Wall|style=inside|type=NS|hp=U}} | b4= | c4={{Wall|style=inside|type=NS|hp=U}} | d4= | e4={{Wall|style=inside|type=NS|hp=2}} | f4=
+| a3={{Wall|style=inside|type=NES|hp=U}} | b3={{Wall|style=inside|type=EW|hp=2}} | c3={{Wall|style=inside|type=NESW|hp=U}} | d3={{Wall|style=inside|type=EW|hp=2}} | e3={{Wall|style=inside|type=NESW|hp=U}} | f3={{Wall|style=inside|type=W|hp=U}}
+| a2={{Wall|style=inside|type=NS|hp=U}} | b2= | c2={{Wall|style=inside|type=NS|hp=2}} | d2= | e2={{Wall|style=inside|type=NS|hp=2}} | f2=
+| a1={{Wall|style=inside|type=NE|hp=U}} | b1={{Wall|style=inside|type=EW|hp=U}} | c1={{Wall|style=inside|type=NEW|hp=U}} | d1={{Wall|style=inside|type=EW|hp=U}} | e1={{Wall|style=inside|type=NEW|hp=U}} | f1={{Wall|style=inside|type=W|hp=U}}
+}}
+|lvlNormal=16
+|lvlHard=26
+|lvlLunatic=36
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=8
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sword Fighter;pos=b2;rarity=3;slot=1;level=16;stats=[27;14;14;15;10];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Raven: Peerless Fighter;pos=f2;rarity=3;slot=2;level=16;stats=[26;16;17;12;10];weapon=Steel Axe;assist=-;special=Daylight;a=-;b=-;c=Threaten Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Nino: Pious Mage;pos=b6;rarity=3;slot=3;level=16;stats=[21;15;18;8;13];weapon=Elwind;assist=-;special=-;a=Resistance +2;b=-;c=Hone Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=d2;rarity=3;slot=4;level=16;stats=[24;14;15;9;13];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=d4;rarity=3;slot=5;level=16;stats=[35;19;7;21;8];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Sword Fighter;pos=b2;rarity=3;slot=1;level=26;stats=[33;20;20;20;14];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Raven: Peerless Fighter;pos=f2;rarity=3;slot=2;level=26;stats=[31;22;23;16;14];weapon=Steel Axe;assist=-;special=Daylight;a=-;b=-;c=Threaten Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Nino: Pious Mage;pos=b6;rarity=3;slot=3;level=26;stats=[25;21;24;12;17];weapon=Elwind;assist=-;special=-;a=Resistance +2;b=-;c=Hone Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=d2;rarity=3;slot=4;level=26;stats=[28;20;21;13;18];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=d4;rarity=3;slot=5;level=26;stats=[42;25;10;27;12];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Sword Fighter;pos=b2;rarity=4;slot=1;level=36;stats=[39;27;26;27;19];weapon=Silver Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Raven: Peerless Fighter;pos=f2;rarity=4;slot=2;level=36;stats=[37;30;31;22;19];weapon=Brave Axe;assist=-;special=Daylight;a=-;b=-;c=Threaten Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Nino: Pious Mage;pos=b6;rarity=4;slot=3;level=36;stats=[30;29;32;16;23];weapon=Rexcalibur;assist=-;special=-;a=Resistance +2;b=-;c=Hone Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Blue Mage;pos=d2;rarity=4;slot=4;level=36;stats=[34;27;28;17;24];weapon=Thoron;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=d4;rarity=4;slot=5;level=36;stats=[50;34;13;36;16];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=迷宮に惑う
+|german=Verwirrendes Labyrinth
+|spanishEU=Un intrincado laberinto
+|spanishLA=Un intrincado laberinto
+|french=Labyrinthe cloisonné
+|italian=Un labirinto intricato
+|chineseTW=迷宮眩惑
+|portuguese=Labirinto intrincado
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Genesis|Fire Emblem: The Blazing Blade - Chapter E22x/H23x: Genesis]]. ([[fireemblemwikia:File:RnK22x.gif|Map Image]])
+
+{{Story Maps Navbox|book=1}}

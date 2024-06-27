@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Lucina.png
+|mapName=Chapter 8-5: Future Princess
+|stageTitle=Chapter 8: Part 5
+|stageName=Future Princess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 8: Back to Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0905
+| a8={{Wall|style=BraveBoss|type=ES|hp=U}} | b8={{Wall|style=BraveBoss|type=EW|hp=U}} | c8= | d8= | e8={{Wall|style=BraveBoss|type=EW|hp=U}} | f8={{Wall|style=BraveBoss|type=SW|hp=U}}
+| a7={{Wall|style=BraveBoss|type=N|hp=U}} | b7= | c7= | d7= | e7= | f7={{Wall|style=BraveBoss|type=N|hp=U}}
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Wall|style=BraveBoss|type=ES|hp=1}} | c5={{Wall|style=BraveBoss|type=ESW|hp=1}} | d5={{Wall|style=BraveBoss|type=ESW|hp=1}} | e5={{Wall|style=BraveBoss|type=SW|hp=1}} | f5=
+| a4= | b4={{Wall|style=BraveBoss|type=NE|hp=1}} | c4={{Wall|style=BraveBoss|type=NEW|hp=1}} | d4={{Wall|style=BraveBoss|type=NEW|hp=1}} | e4={{Wall|style=BraveBoss|type=NW|hp=1}} | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2={{Wall|style=BraveBoss|type=S|hp=U}} | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2={{Wall|style=BraveBoss|type=S|hp=U}}
+| a1={{Wall|style=BraveBoss|type=NE|hp=U}} | b1={{Wall|style=BraveBoss|type=EW|hp=U}} | c1={{Ally|3}} | d1={{Ally|4}} | e1={{Wall|style=BraveBoss|type=EW|hp=U}} | f1={{Wall|style=BraveBoss|type=NW|hp=U}}
+}}
+|lvlNormal=21
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_01.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Robin: High Deliverer;pos=c7;rarity=3;slot=1;level=21;stats=[27;16;16;16;12];weapon=Elthunder;assist=-;special=Glowing Ember;a=-;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Lucina: Future Witness;pos=d7;rarity=3;slot=2;level=21;stats=[29;19;21;14;10];weapon=Steel Sword;assist=-;special=New Moon;a=-;b=-;c=Spur Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Gaius: Candy Stealer;pos=e7;rarity=3;slot=3;level=21;stats=[28;16;21;12;10];weapon=Rogue Dagger;assist=Rally Speed;special=-;a=Defiant Atk 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=b7;rarity=3;slot=4;level=21;stats=[30;17;17;17;12];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=d8;rarity=3;slot=5;level=21;stats=[21;18;11;11;24];weapon=-;assist=Recover;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Robin: High Deliverer;pos=c7;rarity=4;slot=1;level=31;stats=[33;23;23;22;17];weapon=Blárraven;assist=-;special=Glowing Ember;a=-;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Lucina: Future Witness;pos=d7;rarity=4;slot=2;level=31;stats=[35;27;29;19;14];weapon=Silver Sword;assist=-;special=New Moon;a=-;b=-;c=Spur Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Gaius: Candy Stealer;pos=e7;rarity=4;slot=3;level=31;stats=[34;23;29;17;14];weapon=Rogue Dagger;assist=Rally Speed;special=-;a=Defiant Atk 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=b7;rarity=4;slot=4;level=31;stats=[36;24;23;24;17];weapon=Silver Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=d8;rarity=4;slot=5;level=31;stats=[25;25;16;15;33];weapon=-;assist=Recover;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Robin: High Deliverer;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[41;30;30;30;23];weapon=Blárraven+;assist=-;special=Glowing Ember;a=-;b=-;c=Spur Def 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Lucina: Future Witness;pos=d7;rarity=5;slot=2;level=41;displaylevel=40;stats=[44;35;37;26;20];weapon=Falchion (Awakening);assist=-;special=New Moon;a=-;b=-;c=Spur Atk 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Gaius: Candy Stealer;pos=e7;rarity=5;slot=3;level=41;displaylevel=40;stats=[43;30;37;23;20];weapon=Rogue Dagger+;assist=Rally Speed;special=-;a=Defiant Atk 3;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=b7;rarity=5;slot=4;level=41;displaylevel=40;stats=[45;32;32;31;23];weapon=Silver Axe+;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=d8;rarity=5;slot=5;level=41;displaylevel=40;stats=[31;33;22;21;43];weapon=-;assist=Recover;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Sinister Shadow|Loyalty and Ambition}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=未来を知る王女
+|german=Zukünftige Prinzessin
+|spanishEU=La princesa del futuro
+|spanishLA=La princesa del futuro
+|french=L'héritière du futur
+|italian=La principessa del futuro
+|chineseTW=知曉未來的公主
+|portuguese=Princesa do futuro
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Two_Falchions|Fire Emblem Awakening - Chapter 4: Two Falchions]]. ([https://www.youtube.com/watch?v=mGXBqSKg3w0 Map Video])
+
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,62 @@
+{{Battle Infobox
+|bannerImage=Banner_Anna.png
+|mapName=Prologue 2: Proof of Power
+|stageTitle=Prologue: Part 2
+|stageName=Proof of Power
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Prologue: World of Zenith
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0102
+| a8= | b8={{Ally|1}} | c8={{Ally|2}} | d8={{Ally|3}} | e8={{Ally|4}} | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6={{Wall|style=normal|type=E|hp=1}} | e6={{Wall|style=normal|type=W|hp=1}} | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|rarityNormal=1
+|stamNormal=2
+|reward={Normal={kind=Orb};}
+|BGM=bgm_map_FE12_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Minerva: Red Dragoon;pos=f2;rarity=1;slot=1;level=2;stats=[17;2;8;4;1];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=3};};
+{unit=Palla: Eldest Whitewing;pos=d1;rarity=1;slot=2;level=1;stats=[15;1;7;1;3];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2};};
+{unit=Catria: Middle Whitewing;pos=e1;rarity=1;slot=3;level=1;stats=[15;1;8;2;2];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Maria: Minerva's Sister;pos=f3;rarity=1;slot=4;level=1;stats=[14;0;6;0;4];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;tether=1};};
+]
+}}
+
+==Story==
+{{/Story}}
+{{StoryNav|Prince with Golden Wings|Heroes in Battle}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=汝が力を示せ
+|german=Beweis der Macht
+|spanishEU=Prueba de fuerza
+|spanishLA=Prueba de fuerza
+|french=Preuve de force
+|italian=Prova di forza
+|chineseTW=示汝之力
+|portuguese=Prova de força
+}}
+
+==Trivia==
+* [[Sharena: Princess of Askr|Sharena]] joins your party during this battle, and becomes a permanent unit in the barracks after clearing it.
+* This map is a reference to [[fireemblemwikia:Lefcandith_Gauntlet|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 7: Lefcandith Gauntlet]]. ([[fireemblemwikia:File:FE1_Chapter_7.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}
