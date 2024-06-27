@@ -1,0 +1,61 @@
+{{Battle Infobox
+|bannerImage=Banner_Anna.png
+|mapName=Prologue 1: Prince with Golden Wings
+|stageTitle=Prologue: Part 1
+|stageName=Prince with Golden Wings
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Prologue: World of Zenith
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0101
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Ally|1}} | b4={{Ally|2}} | c4= | d4= | e4= | f4=
+| a3={{Ally|3}} | b3={{Ally|4}} | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|rarityNormal=1
+|stamNormal=2
+|reward={Normal={kind=Orb};}
+|BGM=bgm_map_FE12_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Fighter;pos=a8;rarity=1;slot=1;level=1;stats=[16;2;6;1;0];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Fighter;pos=f1;rarity=1;slot=2;level=2;stats=[16;2;6;1;0];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=f6;rarity=1;slot=3;level=2;stats=[16;2;6;1;0];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Legend|Proof of Power}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=金翼の王子
+|german=Prinz der Goldschwingen
+|spanishEU=Príncipe de áureas alas
+|spanishLA=Príncipe de alas doradas
+|french=Le prince aux ailes dorées
+|italian=Il principe dalle ali dorate
+|chineseTW=金翼王子
+|portuguese=Príncipe de asas douradas
+}}
+
+==Trivia==
+* [[Alfonse: Prince of Askr|Alfonse]] joins your party during this map, and becomes a permanent unit in the barracks after clearing it.
+* This map is a reference to a mirrored version of [[fireemblemwikia:The_Pirates_of_Galder|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 2: The Pirates of Galder]]. ([[fireemblemwikia:File:FE1_Chapter_2.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

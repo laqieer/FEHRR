@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0411.webp
+|stageTitle=Chapter 11-2
+|stageName=Cry for Help
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 11: Plumeria's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4112
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE09_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-09-18T07:00:00Z|notification=New Heroes: Despair and Hope (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Shinon: Scathing Archer;pos=f6;rarity=3;slot=1;level=27;stats=[30;25;29;17;15];weapon=Silver Bow;assist=-;special=Night Sky;a=Atk/Def Solo 1;b=Lull Atk/Spd 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Jill: Fiery Dracoknight;pos=d7;rarity=3;slot=2;level=27;stats=[30;26;27;24;10];weapon=Silver Axe;assist=-;special=New Moon;a=Atk/Spd Push 1;b=Chill Atk/Spd 1;c=Spd/Def Rein 1;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=c7;rarity=3;slot=3;level=27;stats=[31;23;17;24;12];weapon=Steel Lance;assist=Swap;special=-;a=-;b=Atk/Def Link 1;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=d8;rarity=3;slot=4;level=27;stats=[26;19;24;9;21];weapon=Elfire;assist=-;special=Chilling Wind;a=Attack/Res 1;b=-;c=Spd Ploy 1;seal=-;ai={turn=1};};
+{unit=Green Thief;pos=a6;rarity=3;slot=5;level=27;stats=[27;18;25;8;21];weapon=Steel Dagger;assist=-;special=Night Sky;a=Death Blow 1;b=Poison Strike 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Shinon: Scathing Archer;pos=f6;rarity=4;slot=1;level=36;stats=[35;34;37;22;20];weapon=Double Bow;assist=-;special=Night Sky;a=Atk/Def Solo 2;b=Lull Atk/Spd 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Jill: Fiery Dracoknight;pos=d7;rarity=4;slot=2;level=36;stats=[35;33;35;32;14];weapon=Talregan Axe;assist=-;special=New Moon;a=Atk/Spd Push 2;b=Chill Atk/Spd 1;c=Spd/Def Rein 2;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=c7;rarity=4;slot=3;level=36;stats=[36;31;22;32;15];weapon=Slaying Spear;assist=Swap;special=-;a=-;b=Atk/Def Link 2;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=d8;rarity=4;slot=4;level=36;stats=[30;24;33;13;28];weapon=Bolganone;assist=-;special=Chilling Wind;a=Attack/Res 1;b=-;c=Spd Ploy 2;seal=-;ai={turn=1};};
+{unit=Green Thief;pos=a6;rarity=4;slot=5;level=36;stats=[32;23;34;11;28];weapon=Barb Shuriken;assist=-;special=Night Sky;a=Death Blow 2;b=Poison Strike 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Shinon: Scathing Archer;pos=f6;rarity=5;slot=1;level=41;stats=[40;39;43;27;25];weapon=Double Bow;assist=-;special=Deadeye;a=Atk/Def Solo 4;b=Lull Atk/Spd 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Jill: Fiery Dracoknight;pos=d7;rarity=5;slot=2;level=41;stats=[40;40;41;37;17];weapon=Talregan Axe;assist=-;special=Moonbow;a=Atk/Spd Push 4;b=Chill Atk/Spd 2;c=Spd/Def Rein 3;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=c7;rarity=5;slot=3;level=41;stats=[41;36;27;37;19];weapon=Slaying Spear+;assist=Swap;special=-;a=-;b=Atk/Def Link 3;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=d8;rarity=5;slot=4;level=41;stats=[35;29;38;16;32];weapon=Bolganone+;assist=-;special=Iceberg;a=Attack/Res 2;b=-;c=Spd Ploy 3;seal=-;ai={turn=1};};
+{unit=Green Thief;pos=a6;rarity=5;slot=5;level=41;stats=[37;28;39;14;32];weapon=Barb Shuriken+;assist=-;special=Glimmer;a=Death Blow 3;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Not Done Yet|Changing Exchange}}
+==In other languages==
+{{OtherLanguages
+|japanese=ずっと泣いていた子
+|german=Hilfeschrei
+|spanishEU=Un mar de lágrimas
+|spanishLA=Un mar de lágrimas
+|french=Appel à l'aide
+|italian=Un grido d'aiuto
+|chineseTW=曾不停哭泣的孩子
+|portuguese=Pedido de ajuda
+}}
+{{Story Maps Navbox|book=4}}

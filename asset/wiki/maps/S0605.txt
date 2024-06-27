@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_TikiY.png
+|mapName=Chapter 5-5: Divine Dragon Princess
+|stageTitle=Chapter 5: Part 5
+|stageName=Divine Dragon Princess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 5: Back to Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0605
+| a8={{Ally|1}} | b8={{Ally|2}} | c8={{Ally|3}} | d8={{Ally|4}} | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=22
+|lvlLunatic=32
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=6
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_01.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Thief;pos=e4;rarity=3;slot=1;level=12;stats=[21;11;15;5;13];weapon=Steel Dagger;assist=-;special=-;a=-;b=Poison Strike 1;c=-;seal=-;ai={turn=4;break_walls=1};};
+{unit=Tiki: Dragon Scion;pos=b2;rarity=3;slot=2;level=12;stats=[24;12;10;14;12];weapon=Flametongue;assist=-;special=Rising Flame;a=Armored Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Minerva: Red Dragoon;pos=d2;rarity=3;slot=3;level=12;stats=[23;12;13;13;8];weapon=Steel Axe;assist=-;special=Holy Vestments;a=-;b=-;c=-;seal=-;ai={turn=3;break_walls=1};};
+{unit=Lance Fighter;pos=f3;rarity=3;slot=4;level=12;stats=[25;12;12;13;8];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=4;break_walls=1};};
+]
+|Hard=[
+{unit=Thief;pos=e4;rarity=3;slot=1;level=22;stats=[25;16;23;7;19];weapon=Steel Dagger;assist=-;special=-;a=-;b=Poison Strike 1;c=-;seal=-;ai={turn=4;break_walls=1};};
+{unit=Tiki: Dragon Scion;pos=b2;rarity=3;slot=2;level=22;stats=[27;17;16;19;17];weapon=Flametongue;assist=-;special=Rising Flame;a=Armored Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Minerva: Red Dragoon;pos=d2;rarity=3;slot=3;level=22;stats=[28;18;20;19;12];weapon=Steel Axe;assist=-;special=Holy Vestments;a=-;b=-;c=-;seal=-;ai={turn=3;break_walls=1};};
+{unit=Lance Fighter;pos=f3;rarity=3;slot=4;level=22;stats=[31;18;18;18;12];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=4;break_walls=1};};
+]
+|Lunatic=[
+{unit=Thief;pos=e4;rarity=4;slot=1;level=32;stats=[31;21;31;10;26];weapon=Silver Dagger;assist=-;special=-;a=-;b=Poison Strike 1;c=-;seal=-;ai={turn=4;break_walls=1};};
+{unit=Tiki: Dragon Scion;pos=b2;rarity=4;slot=2;level=32;stats=[34;24;23;26;23];weapon=Flametongue;assist=-;special=Rising Flame;a=Armored Blow 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Minerva: Red Dragoon;pos=d2;rarity=4;slot=3;level=32;stats=[33;24;27;26;17];weapon=Silver Axe;assist=-;special=Holy Vestments;a=-;b=-;c=-;seal=-;ai={turn=3;break_walls=1};};
+{unit=Lance Fighter;pos=f3;rarity=4;slot=4;level=32;stats=[37;25;24;24;17];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=4;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Return to Mystery|Birthright Trial}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=神竜の王女
+|german=Wyrmgöttin
+|spanishEU=La princesa dragontina
+|spanishLA=La princesa y el dragón
+|french=La princesse et le dragon
+|italian=La principessa dei draghi
+|chineseTW=神龍公主
+|portuguese=A princesa e o dragão
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Dragonkin_Realm|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 24: The Dragonkin Realm]]. ([[fireemblemwikia:File:FE1_Chapter_24.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

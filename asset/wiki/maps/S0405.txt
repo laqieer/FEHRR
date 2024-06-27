@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Roy.png
+|mapName=Chapter 3-5: Nobles of Binding
+|stageTitle=Chapter 3: Part 5
+|stageName=Nobles of Binding
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 3: World of Binding
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Lava
+|baseMap=S0405
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2={{Ally|1}}
+| a1= | b1= | c1= | d1={{Ally|2}} | e1={{Ally|3}} | f1={{Ally|4}}
+}}
+|lvlNormal=8
+|lvlHard=18
+|lvlLunatic=28
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=4
+|stamHard=9
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_01.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Roy: Young Lion;pos=f7;rarity=3;slot=1;level=8;stats=[22;8;11;7;5];weapon=Iron Sword;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lilina: Delightful Noble;pos=b5;rarity=3;slot=2;level=8;stats=[17;10;7;4;10];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Gwendolyn: Adorable Knight;pos=d6;rarity=3;slot=3;level=8;stats=[25;9;6;13;6];weapon=Iron Lance;assist=Swap;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=a6;rarity=2;slot=4;level=8;stats=[14;4;5;3;11];weapon=-;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Roy: Young Lion;pos=f7;rarity=3;slot=1;level=18;stats=[28;16;17;13;12];weapon=Iron Sword;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lilina: Delightful Noble;pos=b5;rarity=3;slot=2;level=18;stats=[23;19;13;9;17];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Gwendolyn: Adorable Knight;pos=d6;rarity=3;slot=3;level=18;stats=[32;16;12;21;14];weapon=Iron Lance;assist=Swap;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=a6;rarity=2;slot=4;level=18;stats=[18;16;8;8;21];weapon=-;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Roy: Young Lion;pos=f7;rarity=4;slot=1;level=28;stats=[35;22;23;18;19];weapon=Steel Sword;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lilina: Delightful Noble;pos=b5;rarity=4;slot=2;level=28;stats=[28;28;18;13;23];weapon=Elfire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Gwendolyn: Adorable Knight;pos=d6;rarity=4;slot=3;level=28;stats=[39;22;17;29;19];weapon=Steel Lance;assist=Swap;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=a6;rarity=3;slot=4;level=28;stats=[23;22;14;13;29];weapon=-;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Binding Trial|Awakening Trial}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=封印の公子
+|german=Adel von Pherae
+|spanishEU=Sello de nobleza
+|spanishLA=Sello de nobleza
+|french=L'héritier de Pherae
+|italian=I nobili di Binding
+|chineseTW=封印勳爵
+|portuguese=Selo de nobreza
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:The_Blazing_Blade|Fire Emblem: The Binding Blade - Chapter 8x: The Blazing Blade]]. ([http://vignette2.wikia.nocookie.net/fireemblem/images/1/12/Chapter_8x.png/revision/latest?cb=20090113103423 Map Image])
+
+{{Story Maps Navbox|book=1}}

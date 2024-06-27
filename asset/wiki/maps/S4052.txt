@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0405.webp
+|stageTitle=Chapter 5-2
+|stageName=A Lady's Wish
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 5: Twisted Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4052
+|backdrop=
+|allyPos=e3,f3,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_04.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-03-06T07:00:00Z|notification=New Heroes: Harmony amid Chaos (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Annette: Overachiever;pos=c6;rarity=3;slot=1;level=12;stats=[22;15;15;10;12];weapon=Steel Axe;assist=Rally Attack;special=-;a=-;b=Def/Res Ruse 1;c=Atk/Def Gap 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=d7;rarity=3;slot=2;level=12;stats=[23;13;8;9;12];weapon=Steel Sword;assist=Reposition;special=-;a=-;b=Guard 1;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b4;rarity=3;slot=3;level=12;stats=[25;12;12;12;8];weapon=Steel Sword;assist=Shove;special=-;a=Fury 1;b=-;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=3;slot=4;level=12;stats=[21;12;13;7;10];weapon=Elthunder;assist=-;special=-;a=Life and Death 1;b=Desperation 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Annette: Overachiever;pos=c6;rarity=4;slot=1;level=31;stats=[32;31;29;20;22];weapon=Silver Axe;assist=Rally Atk/Spd;special=-;a=-;b=Def/Res Ruse 2;c=Atk/Def Gap 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=d7;rarity=4;slot=2;level=31;stats=[33;27;18;19;23];weapon=Brave Sword;assist=Reposition;special=-;a=-;b=Guard 2;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b4;rarity=4;slot=3;level=31;stats=[36;24;23;23;16];weapon=Slaying Edge;assist=Shove;special=New Moon;a=Fury 2;b=-;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=4;slot=4;level=31;stats=[31;24;25;15;20];weapon=Thoron;assist=-;special=Dragon Gaze;a=Life and Death 2;b=Desperation 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Annette: Overachiever;pos=c6;rarity=5;slot=1;level=41;displaylevel=40;stats=[40;40;37;28;30];weapon=Crusher;assist=Rally Atk/Spd+;special=-;a=-;b=Def/Res Ruse 3;c=Atk/Def Gap 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=d7;rarity=5;slot=2;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Brave Sword+;assist=Reposition;special=-;a=-;b=Guard 3;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b4;rarity=5;slot=3;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Slaying Edge+;assist=Shove;special=Luna;a=Fury 3;b=-;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Thoron+;assist=-;special=Draconic Aura;a=Life and Death 3;b=Desperation 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Recalling Your Name|Virtuoso Sigh}}
+==In other languages==
+{{OtherLanguages
+|japanese=少女の願い
+|german=Wunsch einer Dame
+|spanishEU=El deseo de una dama
+|spanishLA=El deseo de una dama
+|french=Le vœu d'Annette
+|italian=Il desiderio di una fanciulla
+|chineseTW=少女的心願
+|portuguese=Seu desejo é uma ordem
+}}
+{{Story Maps Navbox|book=4}}

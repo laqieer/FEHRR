@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Roy Unrevealed.png
+|mapName=Chapter 3-4: Quirky Family
+|stageTitle=Chapter 3: Part 4
+|stageName=Quirky Family
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 3: World of Binding
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0404
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2={{Ally|3}} | f2={{Ally|4}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=17
+|lvlLunatic=27
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=4
+|stamHard=9
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Fir: Sword Student;pos=e7;rarity=3;slot=1;level=7;stats=[20;6;12;5;6];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bartre: Fearless Warrior;pos=b5;rarity=3;slot=2;level=7;stats=[22;11;7;8;1];weapon=Iron Axe;assist=-;special=-;a=-;b=Brash Assault 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Shanna: Sprightly Flier;pos=d7;rarity=3;slot=3;level=7;stats=[18;8;10;6;7];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=b6;rarity=2;slot=4;level=7;stats=[19;8;8;6;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Fir: Sword Student;pos=e7;rarity=3;slot=1;level=17;stats=[26;12;19;11;15];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bartre: Fearless Warrior;pos=b5;rarity=3;slot=2;level=17;stats=[30;19;12;16;6];weapon=Iron Axe;assist=-;special=-;a=-;b=Brash Assault 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Shanna: Sprightly Flier;pos=d7;rarity=3;slot=3;level=17;stats=[24;15;18;12;14];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=b6;rarity=2;slot=4;level=17;stats=[25;15;13;12;5];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Fir: Sword Student;pos=e7;rarity=4;slot=1;level=27;stats=[32;17;27;16;22];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bartre: Fearless Warrior;pos=b5;rarity=4;slot=2;level=27;stats=[38;27;17;24;9];weapon=Steel Axe;assist=-;special=-;a=-;b=Brash Assault 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Shanna: Sprightly Flier;pos=d7;rarity=4;slot=3;level=27;stats=[30;22;26;17;20];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=b6;rarity=3;slot=4;level=27;stats=[32;21;19;19;10];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=風変わりな親子
+|german=Familienbande
+|spanishEU=Ataque en familia
+|spanishLA=Ataque en familia
+|french=Réunion de famille
+|italian=Una famiglia particolare
+|chineseTW=古怪親子
+|portuguese=Reunião de família
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Bitter_Cold|Fire Emblem: The Binding Blade - Chapter 19A: Bitter Cold]]. ([[fireemblemwikia:File:FnT19A.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

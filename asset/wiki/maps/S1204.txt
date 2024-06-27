@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Celica Unrevealed.png
+|mapName=Chapter 11-4: More Pirates!
+|stageTitle=Chapter 11: Part 4
+|stageName=More Pirates!
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 11: Rite of Shadows
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=WavePatternSea
+|baseMap=S1204
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=33
+|lvlLunatic=43
+|rarityNormal=4
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-05-15T07:00:00Z|notification=New Heroes: Rite of Shadows Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Mae: Bundle of Energy;pos=b7;rarity=4;slot=1;level=23;stats=[26;24;19;9;20];weapon=Blárowl;assist=Draw Back;special=-;a=-;b=Desperation 2;c=B Tome Exp. 1;seal=-;ai={group=1};};
+{unit=Boey: Skillful Survivor;pos=d7;rarity=4;slot=2;level=23;stats=[31;19;16;21;11];weapon=Gronnowl;assist=-;special=Glowing Ember;a=Earth Boost 2;b=Renewal 1;c=-;seal=-;ai={group=1};};
+{unit=Genny: Endearing Ally;pos=c7;rarity=4;slot=3;level=23;stats=[24;23;16;12;22];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 1;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=a6;rarity=3;slot=4;level=23;stats=[31;18;18;18;13];weapon=Steel Sword;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={group=1};};
+{unit=Catria: Middle Whitewing;pos=f5;rarity=4;slot=5;level=23;stats=[28;20;23;18;16];weapon=Killer Lance;assist=-;special=New Moon;a=-;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Mae: Bundle of Energy;pos=b7;rarity=4;slot=1;level=33;stats=[30;30;25;12;25];weapon=Blárowl;assist=Draw Back;special=-;a=Darting Blow 1;b=Desperation 2;c=B Tome Exp. 2;seal=-;ai={group=1};};
+{unit=Boey: Skillful Survivor;pos=d7;rarity=4;slot=2;level=33;stats=[37;24;21;27;14];weapon=Gronnowl;assist=-;special=Glowing Ember;a=Earth Boost 2;b=Renewal 2;c=-;seal=-;ai={group=1};};
+{unit=Genny: Endearing Ally;pos=c7;rarity=4;slot=3;level=33;stats=[28;29;20;16;28];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 2;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=a6;rarity=4;slot=4;level=33;stats=[38;26;25;25;17];weapon=Brave Sword;assist=-;special=-;a=-;b=Lunge;c=Threaten Res 1;seal=-;ai={group=1};};
+{unit=Catria: Middle Whitewing;pos=f5;rarity=4;slot=5;level=33;stats=[33;26;29;23;20];weapon=Killer Lance;assist=-;special=New Moon;a=Armored Blow 1;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Mae: Bundle of Energy;pos=b7;rarity=5;slot=1;level=43;displaylevel=40;stats=[37;39;33;17;32];weapon=Blárowl+;assist=Draw Back;special=-;a=Darting Blow 3;b=Desperation 3;c=B Tome Exp. 3;seal=-;ai={group=1};};
+{unit=Boey: Skillful Survivor;pos=d7;rarity=5;slot=2;level=43;displaylevel=40;stats=[45;31;29;34;19];weapon=Gronnowl+;assist=-;special=Ignis;a=Earth Boost 3;b=Renewal 3;c=-;seal=-;ai={group=1};};
+{unit=Genny: Endearing Ally;pos=c7;rarity=5;slot=3;level=43;displaylevel=40;stats=[33;38;27;23;37];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 3;c=Hone Atk 3;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=a6;rarity=5;slot=4;level=43;displaylevel=40;stats=[46;33;33;32;24];weapon=Brave Sword+;assist=-;special=-;a=-;b=Lunge;c=Threaten Res 3;seal=-;ai={group=1};};
+{unit=Catria: Middle Whitewing;pos=f5;rarity=5;slot=5;level=43;displaylevel=40;stats=[41;33;36;31;27];weapon=Killer Lance+;assist=-;special=Luna;a=Armored Blow 3;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=海戦再び
+|german=Mehr Piraten!
+|spanishEU=¡Más piratas!
+|spanishLA=¡Más piratas!
+|french=Encore des pirates !
+|italian=Altri pirati!
+|chineseTW=海戰重現
+|portuguese=Mais piratas!
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Pilgrimage|Fire Emblem Echoes: Shadows of Valentia - Act 2: The Pilgrimage - Second Pirate Raid]]. ([https://www.youtube.com/watch?v=2DA1vRTS688 Map Video])
+{{Story Maps Navbox|book=1}}

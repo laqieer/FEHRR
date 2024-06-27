@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Marth.png
+|mapName=Chapter 1-5: Prince of Mystery
+|stageTitle=Chapter 1: Part 5
+|stageName=Prince of Mystery
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 1: World of Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0205
+| a8= | b8= | c8= | d8= | e8={{Ally|1}} | f8=
+| a7= | b7= | c7= | d7= | e7={{Ally|2}} | f7={{Ally|3}}
+| a6= | b6= | c6= | d6= | e6= | f6={{Ally|4}}
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=14
+|lvlLunatic=24
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE11_01.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gordin: Altean Archer;pos=d4;rarity=2;slot=1;level=4;stats=[16;4;4;3;0];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Marth: Altean Prince;pos=c4;rarity=2;slot=2;level=4;stats=[17;3;7;3;1];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=c5;rarity=2;slot=3;level=4;stats=[17;3;7;2;1];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Caeda: Talys's Heart;pos=c3;rarity=2;slot=4;level=4;stats=[15;2;8;1;3];weapon=Iron Sword;assist=Draw Back;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Gordin: Altean Archer;pos=d4;rarity=2;slot=1;level=14;stats=[24;13;9;14;6];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Marth: Altean Prince;pos=c4;rarity=2;slot=2;level=14;stats=[23;13;14;11;9];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=c5;rarity=2;slot=3;level=14;stats=[24;11;14;10;6];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Caeda: Talys's Heart;pos=c3;rarity=2;slot=4;level=14;stats=[20;9;16;8;16];weapon=Iron Sword;assist=Draw Back;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Gordin: Altean Archer;pos=d4;rarity=3;slot=1;level=24;stats=[31;19;15;20;10];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Marth: Altean Prince;pos=c4;rarity=3;slot=2;level=24;stats=[30;19;21;18;14];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=c5;rarity=3;slot=3;level=24;stats=[31;16;20;17;11];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Caeda: Talys's Heart;pos=c3;rarity=3;slot=4;level=24;stats=[26;15;23;14;22];weapon=Iron Sword;assist=Draw Back;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Mystery Trial|Conquest Trial}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=紋章の王子
+|german=Alteas Prinz
+|spanishEU=El príncipe honorable
+|spanishLA=El príncipe honorable
+|french=L'héritier d'Altea
+|italian=Il principe di Mystery
+|chineseTW=紋章王子
+|portuguese=Príncipe do mistério
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:The_Battle_for_Altea|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 16: The Battle for Altea]]. ([[fireemblemwikia:File:FE1_Chapter_16.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

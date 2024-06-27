@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0407.webp
+|stageTitle=Chapter 7: Part 2
+|stageName=Touch of His Name
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 7: Steeped in Twilight
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4072
+|backdrop=Wave
+|allyPos=a4,b4,a3,b3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=33
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE10_08.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-05-08T07:00:00Z|notification=New Heroes: Dark Burdens (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Julia: Heart Usurped;pos=e7;rarity=3;slot=1;level=18;stats=[24;21;11;8;20];weapon=Ruin;assist=-;special=Chilling Wind;a=Atk/Res Solo 1;b=-;c=Panic Smoke 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=e8;rarity=3;slot=2;level=18;stats=[28;15;15;15;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Lull Atk/Spd 1;c=Atk Opening 1;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c8;rarity=3;slot=3;level=18;stats=[24;13;18;9;19];weapon=Steel Axe;assist=-;special=-;a=Armored Blow 1;b=-;c=Res Opening 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f2;rarity=3;slot=4;level=18;stats=[26;18;12;19;8];weapon=Steel Sword;assist=-;special=-;a=Swift Strike 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Julia: Heart Usurped;pos=e7;rarity=4;slot=1;level=33;stats=[32;34;19;13;33];weapon=Fenrir;assist=-;special=Chilling Wind;a=Atk/Res Solo 2;b=-;c=Panic Smoke 2;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=e8;rarity=4;slot=2;level=33;stats=[37;25;24;24;17];weapon=Barrier Lance;assist=-;special=Miracle;a=-;b=Lull Atk/Spd 2;c=Atk Opening 2;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c8;rarity=4;slot=3;level=33;stats=[32;21;29;16;30];weapon=Slaying Axe;assist=-;special=Chilling Wind;a=Armored Blow 2;b=-;c=Res Opening 2;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f2;rarity=4;slot=4;level=33;stats=[34;29;20;30;14];weapon=Guard Sword;assist=-;special=Glowing Ember;a=Swift Strike 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Julia: Heart Usurped;pos=e7;rarity=5;slot=1;level=41;stats=[39;42;25;17;41];weapon=Dark Scripture;assist=-;special=Iceberg;a=Atk/Res Solo 4;b=Light and Dark;c=Panic Smoke 3;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=e8;rarity=5;slot=2;level=41;stats=[44;31;31;30;23];weapon=Barrier Lance+;assist=-;special=Miracle;a=-;b=Lull Atk/Spd 3;c=Atk Opening 3;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c8;rarity=5;slot=3;level=41;stats=[38;28;36;22;37];weapon=Slaying Axe+;assist=-;special=Glacies;a=Armored Blow 3;b=-;c=Res Opening 3;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f2;rarity=5;slot=4;level=41;stats=[41;36;27;37;19];weapon=Guard Sword+;assist=-;special=Bonfire;a=Swift Strike 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Julia: Heart Usurped;text=Seliph... This name is familiar, but\nwhose is it? Saying it, I feel\na strange warmth...;textJP=セリス…？\n誰ナノ…懐カシイ…\n温カイ気持チガスル…};
+]}}
+{{Story Navbar|Daydream|He of Two Hearts}}
+==In other languages==
+{{OtherLanguages
+|japanese=心よぎる名前
+|german=Wärme eines Namens
+|spanishEU=El recuerdo de su nombre
+|spanishLA=El recuerdo de su nombre
+|french=Traces d'un nom
+|italian=Il tepore di un nome
+|chineseTW=掠過心頭的名字
+|portuguese=O conforto de um nome
+}}
+{{Story Maps Navbox|book=4}}

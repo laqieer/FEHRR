@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Xander Unrevealed.png
+|mapName=Chapter 2-4: Bewitching Princess
+|stageTitle=Chapter 2: Part 4
+|stageName=Bewitching Princess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 2: World of Conquest
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Lava
+|baseMap=S0304
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|1}} | c3={{Ally|2}} | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2= | e2= | f2=
+| a1= | b1= | c1={{Ally|4}} | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=15
+|lvlLunatic=25
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Camilla: Bewitching Beauty;pos=c7;rarity=2;slot=1;level=5;stats=[18;6;9;3;4];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Beruka: Quiet Assassin;pos=b7;rarity=2;slot=2;level=4;stats=[18;4;6;6;0];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Selena: Cutting Wit;pos=e5;rarity=2;slot=3;level=4;stats=[17;4;8;5;1];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=d7;rarity=2;slot=4;level=4;stats=[16;3;7;1;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Camilla: Bewitching Beauty;pos=c7;rarity=2;slot=1;level=15;stats=[22;13;14;10;12];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Beruka: Quiet Assassin;pos=b7;rarity=2;slot=2;level=14;stats=[25;12;9;16;8];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Selena: Cutting Wit;pos=e5;rarity=2;slot=3;level=14;stats=[21;9;15;14;10];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=d7;rarity=2;slot=4;level=14;stats=[21;10;15;7;16];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Camilla: Bewitching Beauty;pos=c7;rarity=3;slot=1;level=25;stats=[28;19;20;17;19];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Beruka: Quiet Assassin;pos=b7;rarity=3;slot=2;level=24;stats=[33;18;14;23;13];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Selena: Cutting Wit;pos=e5;rarity=3;slot=3;level=24;stats=[27;15;22;20;17];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=d7;rarity=3;slot=4;level=24;stats=[27;17;22;12;23];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=妖艶な姉王女
+|german=Bezaubernde Prinzessin
+|spanishEU=La princesa seductora
+|spanishLA=La princesa seductora
+|french=L'enjôleuse cajoleuse
+|italian=L'ammaliante principessa
+|chineseTW=妖豔的王姐
+|portuguese=A princesa sedutora
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Burning_Falls|Fire Emblem Fates: Birthright - Chapter 21: Burning Falls]]. ([https://www.youtube.com/watch?v=rq8EgdZ3taI Map Video])
+
+{{Story Maps Navbox|book=1}}

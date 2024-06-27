@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Lucina Unrevealed.png
+|mapName=Chapter 8-4: Divine Dragon Returns
+|stageTitle=Chapter 8: Part 4
+|stageName=Divine Dragon Returns
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 8: Back to Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0904
+| a8= | b8= | c8={{Ally|1}} | d8={{Ally|2}} | e8= | f8=
+| a7= | b7= | c7={{Ally|3}} | d7={{Ally|4}} | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Tiki: Naga's Voice;pos=d2;rarity=3;slot=1;level=20;stats=[27;18;13;19;14];weapon=Fire Breath+;assist=-;special=-;a=Defiant Atk 2;b=-;c=Spur Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lucina: Future Witness;pos=f3;rarity=3;slot=2;level=20;stats=[28;18;20;14;10];weapon=Steel Sword;assist=-;special=New Moon;a=-;b=-;c=Spur Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=b4;rarity=3;slot=3;level=20;stats=[28;18;13;14;17];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=c1;rarity=3;slot=4;level=20;stats=[23;19;14;9;18];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Cavalier;pos=a2;rarity=3;slot=5;level=20;stats=[23;19;14;9;18];weapon=Elfire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Tiki: Naga's Voice;pos=d2;rarity=3;slot=1;level=30;stats=[32;25;17;25;18];weapon=Fire Breath+;assist=-;special=-;a=Defiant Atk 2;b=-;c=Spur Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lucina: Future Witness;pos=f3;rarity=3;slot=2;level=30;stats=[34;24;26;18;13];weapon=Steel Sword;assist=-;special=New Moon;a=-;b=-;c=Spur Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=b4;rarity=3;slot=3;level=30;stats=[33;24;17;18;22];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=c1;rarity=3;slot=4;level=30;stats=[27;25;18;12;24];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Cavalier;pos=a2;rarity=3;slot=5;level=30;stats=[27;25;18;12;24];weapon=Elfire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Tiki: Naga's Voice;pos=d2;rarity=4;slot=1;level=40;stats=[38;34;21;34;22];weapon=Flametongue;assist=-;special=-;a=Defiant Atk 2;b=-;c=Spur Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lucina: Future Witness;pos=f3;rarity=4;slot=2;level=40;stats=[41;33;35;24;17];weapon=Silver Sword;assist=-;special=New Moon;a=-;b=-;c=Spur Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=b4;rarity=4;slot=3;level=40;stats=[39;33;23;24;29];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=c1;rarity=4;slot=4;level=40;stats=[31;34;24;15;33];weapon=Rexcalibur;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Red Cavalier;pos=a2;rarity=4;slot=5;level=40;stats=[31;34;24;15;33];weapon=Bolganone;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=帰還せし神竜
+|german=Rückkehr d. Wyrmgöttin
+|spanishEU=Vuelve el dragón divino
+|spanishLA=Vuelve el dragón divino
+|french=Le retour du Dragon Divin
+|italian=Il ritorno dei draghi divini
+|chineseTW=神龍歸來
+|portuguese=Retorno do dragão divino
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Threat_of_Silence|Fire Emblem Awakening - Paralogue 17: The Threat of Silence]]. ([https://www.youtube.com/watch?v=snQsVxkOkQk Map Video])
+
+{{Story Maps Navbox|book=1}}

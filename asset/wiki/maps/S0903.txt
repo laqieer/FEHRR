@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Lucina Unrevealed.png
+|mapName=Chapter 8-3: Ravishing Battle
+|stageTitle=Chapter 8: Part 3
+|stageName=Ravishing Battle
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 8: Back to Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0903
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1={{Ally|1}} | c1={{Ally|2}} | d1={{Ally|3}} | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=19
+|lvlHard=29
+|lvlLunatic=39
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Virion: Elite Archer;pos=c7;rarity=3;slot=1;level=19;stats=[30;16;16;14;7];weapon=Steel Bow;assist=-;special=Night Sky;a=-;b=Seal Spd 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Cherche: Wyvern Friend;pos=d8;rarity=3;slot=2;level=19;stats=[30;21;13;17;7];weapon=Hammer;assist=-;special=-;a=-;b=-;c=Fortify Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Blue Cavalier;pos=f7;rarity=3;slot=3;level=19;stats=[22;19;13;8;18];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=3;slot=4;level=19;stats=[37;21;7;23;9];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=a8;rarity=3;slot=5;level=19;stats=[25;14;19;10;20];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Virion: Elite Archer;pos=c7;rarity=3;slot=1;level=29;stats=[36;21;21;19;9];weapon=Steel Bow;assist=-;special=Night Sky;a=-;b=Seal Spd 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Cherche: Wyvern Friend;pos=d8;rarity=3;slot=2;level=29;stats=[36;27;18;22;10];weapon=Hammer;assist=-;special=-;a=-;b=-;c=Fortify Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Blue Cavalier;pos=f7;rarity=3;slot=3;level=29;stats=[26;25;18;11;24];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=3;slot=4;level=29;stats=[44;27;10;29;13];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=a8;rarity=3;slot=5;level=29;stats=[30;19;25;14;26];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Virion: Elite Archer;pos=c7;rarity=4;slot=1;level=39;stats=[43;29;29;24;12];weapon=Silver Bow;assist=-;special=Night Sky;a=-;b=Seal Spd 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Cherche: Wyvern Friend;pos=d8;rarity=4;slot=2;level=39;stats=[43;36;23;30;14];weapon=Hammer;assist=-;special=-;a=-;b=-;c=Fortify Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Blue Cavalier;pos=f7;rarity=4;slot=3;level=39;stats=[31;33;23;15;32];weapon=Thoron;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=4;slot=4;level=39;stats=[52;36;14;38;17];weapon=Silver Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=a8;rarity=4;slot=5;level=39;stats=[35;25;33;19;34];weapon=Silver Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=貴族的な迎撃
+|german=Hinreißender Kampf
+|spanishEU=Una batalla de alta cuna
+|spanishLA=Una batalla embelesada
+|french=Une bataille grandiose
+|italian=Una battaglia incantevole
+|chineseTW=貴族式的迎擊
+|portuguese=Batalha extasiante
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Exalt_and_the_King|Fire Emblem Awakening - Chapter 5: The Exalt and the King]]. ([https://www.youtube.com/watch?v=4TI41dMpmAQ Map Video])
+
+{{Story Maps Navbox|book=1}}

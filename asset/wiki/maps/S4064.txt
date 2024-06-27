@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0406.webp
+|stageTitle=Chapter 6: Part 4
+|stageName=Daughter's Loneliness
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 6: Dreaming Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4064
+|backdrop=
+|allyPos=b3,b2,c2,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=34
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_15.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-04-08T07:00:00Z|notification=New Heroes: Journey Begins (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Forrest: Fashion Forward;pos=e7;rarity=3;slot=1;level=17;stats=[24;14;13;8;17];weapon=-;assist=Mend;special=Imbue;a=Fortress Res 1;b=-;c=Res Ploy 1;seal=-;ai={turn=1};};
+{unit=Midori: Reliable Chemist;pos=e6;rarity=3;slot=2;level=17;stats=[24;21;13;17;9];weapon=Steel Bow;assist=Rally Defense;special=-;a=-;b=Chill Atk 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b7;rarity=3;slot=3;level=17;stats=[27;14;14;15;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Atk/Def Ruse 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c6;rarity=3;slot=4;level=17;stats=[24;13;17;9;18];weapon=Steel Axe;assist=-;special=-;a=Steady Blow 1;b=Drag Back;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Forrest: Fashion Forward;pos=e7;rarity=4;slot=1;level=34;stats=[33;26;22;15;30];weapon=Panic;assist=Physic;special=Imbue;a=Fortress Res 2;b=-;c=Res Ploy 2;seal=-;ai={turn=1};};
+{unit=Midori: Reliable Chemist;pos=e6;rarity=4;slot=2;level=34;stats=[35;35;24;29;16];weapon=Spendthrift Bow;assist=Rally Atk/Def;special=-;a=-;b=Chill Atk 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b7;rarity=4;slot=3;level=34;stats=[38;26;25;25;17];weapon=Slaying Lance;assist=-;special=Glowing Ember;a=Heavy Blade 1;b=Atk/Def Ruse 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c6;rarity=4;slot=4;level=34;stats=[32;22;30;16;31];weapon=Guard Axe;assist=-;special=Buckler;a=Steady Blow 1;b=Drag Back;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Forrest: Fashion Forward;pos=e7;rarity=5;slot=1;level=43;displaylevel=40;stats=[40;34;28;20;37];weapon=Panic+;assist=Physic+;special=Heavenly Light;a=Fortress Res 3;b=-;c=Res Ploy 3;seal=-;ai={turn=1};};
+{unit=Midori: Reliable Chemist;pos=e6;rarity=5;slot=2;level=43;displaylevel=40;stats=[43;44;32;36;22];weapon=Spendthrift Bow+;assist=Rally Atk/Def+;special=-;a=Close Foil;b=Chill Atk 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b7;rarity=5;slot=3;level=43;displaylevel=40;stats=[46;33;33;31;23];weapon=Slaying Lance+;assist=-;special=Bonfire;a=Heavy Blade 3;b=Atk/Def Ruse 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c6;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;29;37;22;38];weapon=Guard Axe+;assist=-;special=Escutcheon;a=Steady Blow 2;b=Drag Back;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Astral Dragon's Oath|Memory of a Friend}}
+==In other languages==
+{{OtherLanguages
+|japanese=心寂しき娘
+|german=Einsamkeit der Tochter
+|spanishEU=Nostalgia paternal
+|spanishLA=Nostalgia paternal
+|french=Solitude de l'apothicaire
+|italian=La solitudine di una figlia
+|chineseTW=心靈寂寞的女孩
+|portuguese=A solidão de uma filha
+}}
+{{Story Maps Navbox|book=4}}

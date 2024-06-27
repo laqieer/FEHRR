@@ -1,0 +1,108 @@
+{{Battle Infobox
+|bannerImage=Banner_Ike Unrevealed.png
+|mapName=Chapter 10-3: The Imperial Prince
+|stageTitle=Chapter 10: Part 3
+|stageName=The Imperial Prince
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 10: World of Radiance
+|mapMode=Defensive Battle Map
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1103
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Ally|1}} | c7={{Ally|2}} | d7= | e7= | f7=
+| a6={{Ally|3}} | b6= | c6={{Ally|4}} | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Defend: 6
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-04-26T07:00:00Z|notification=New Heroes: World of Radiance Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|backdrop=
+|baseMap=S1103
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Titania: Mighty Mercenary;pos=d4;rarity=3;slot=1;level=22;stats=[26;16;20;14;18];weapon=Emerald Axe;assist=-;special=-;a=Armored Blow 3;b=Guard 3;c=-;seal=Embla's Ward;ai={turn=1};};
+{unit=???: Masked Knight;pos=d3;rarity=3;slot=2;level=22;stats=[23;17;21;12;14];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Warding Blow 3;b=-;c=-;seal=-;ai={};};
+{unit=Soren: Shrewd Strategist;pos=f4;rarity=3;slot=3;level=22;stats=[25;19;20;9;17];weapon=Elwind;assist=-;special=Rising Wind;a=-;b=Watersweep 1;c=Fortify Res 2;seal=-;ai={turn=1};};
+{unit=Mist: Helpful Sister;pos=e3;rarity=3;slot=4;level=22;stats=[27;16;16;11;20];weapon=Slow;assist=Mend;special=Miracle;a=-;b=-;c=Spur Def/Res 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f8;rarity=3;slot=5;level=22;stats=[26;16;21;11;22];weapon=Steel Lance;assist=-;special=-;a=-;b=Hit and Run;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a2;rarity=3;slot=6;level=22;stats=[26;16;21;11;22];weapon=Steel Sword;assist=-;special=-;a=-;b=Drag Back;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f2;rarity=3;slot=7;level=22;stats=[26;16;21;11;22];weapon=Steel Lance;assist=-;special=-;a=-;b=Hit and Run;c=Savage Blow 1;seal=-;ai={turn=1};spawn={turn=4;count=3;target=Lance Flier;remain=0};};
+{unit=Sword Flier;pos=a1;rarity=3;slot=8;level=22;stats=[26;16;21;11;22];weapon=Steel Sword;assist=-;special=-;a=-;b=Drag Back;c=Savage Blow 1;seal=-;ai={turn=1};spawn={turn=4;count=3;target=Sword Flier;remain=0};};
+]
+|Hard=[
+{unit=Titania: Mighty Mercenary;pos=d4;rarity=4;slot=1;level=32;stats=[32;21;28;20;24];weapon=Emerald Axe;assist=-;special=-;a=Armored Blow 3;b=Guard 3;c=-;seal=Embla's Ward;ai={turn=1};};
+{unit=???: Masked Knight;pos=d3;rarity=4;slot=2;level=32;stats=[28;23;29;17;20];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Warding Blow 3;b=-;c=-;seal=-;ai={};};
+{unit=Soren: Shrewd Strategist;pos=f4;rarity=4;slot=3;level=32;stats=[31;27;27;13;22];weapon=Rexcalibur;assist=-;special=Growing Wind;a=-;b=Watersweep 2;c=Fortify Res 2;seal=-;ai={turn=1};};
+{unit=Mist: Helpful Sister;pos=e3;rarity=4;slot=4;level=32;stats=[32;23;21;15;28];weapon=Slow;assist=Recover;special=Miracle;a=-;b=-;c=Spur Def/Res 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f8;rarity=4;slot=5;level=32;stats=[32;21;29;16;30];weapon=Silver Lance;assist=-;special=-;a=-;b=Hit and Run;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a2;rarity=4;slot=6;level=32;stats=[32;21;29;16;30];weapon=Silver Sword;assist=-;special=-;a=-;b=Drag Back;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f2;rarity=4;slot=7;level=32;stats=[32;21;29;16;30];weapon=Silver Lance;assist=-;special=-;a=-;b=Hit and Run;c=Savage Blow 2;seal=-;ai={turn=1};spawn={turn=4;count=3;target=Lance Flier;remain=0};};
+{unit=Sword Flier;pos=a1;rarity=4;slot=8;level=32;stats=[32;21;29;16;30];weapon=Silver Sword;assist=-;special=-;a=-;b=Drag Back;c=Savage Blow 2;seal=-;ai={turn=1};spawn={turn=4;count=3;target=Sword Flier;remain=0};};
+]
+|Lunatic=[
+{unit=Titania: Mighty Mercenary;pos=d4;rarity=5;slot=1;level=42;displaylevel=40;stats=[39;29;36;27;31];weapon=Emerald Axe+;assist=-;special=-;a=Armored Blow 3;b=Guard 3;c=-;seal=Embla's Ward;ai={turn=1};};
+{unit=???: Masked Knight;pos=d3;rarity=5;slot=2;level=42;displaylevel=40;stats=[34;30;37;23;27];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Warding Blow 3;b=-;c=-;seal=-;ai={};};
+{unit=Soren: Shrewd Strategist;pos=f4;rarity=5;slot=3;level=42;displaylevel=40;stats=[38;35;34;18;30];weapon=Rexcalibur+;assist=-;special=Growing Wind;a=-;b=Watersweep 3;c=Fortify Res 3;seal=-;ai={turn=1};};
+{unit=Mist: Helpful Sister;pos=e3;rarity=5;slot=4;level=42;displaylevel=40;stats=[40;29;29;21;36];weapon=Slow;assist=Recover;special=Miracle;a=-;b=-;c=Spur Def/Res 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f8;rarity=5;slot=5;level=42;displaylevel=40;stats=[39;29;37;22;38];weapon=Silver Lance+;assist=-;special=-;a=-;b=Hit and Run;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a2;rarity=5;slot=6;level=42;displaylevel=40;stats=[39;29;37;22;38];weapon=Silver Sword+;assist=-;special=-;a=-;b=Drag Back;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f2;rarity=5;slot=7;level=42;displaylevel=40;stats=[39;29;37;22;38];weapon=Silver Lance+;assist=-;special=-;a=-;b=Hit and Run;c=Savage Blow 3;seal=-;ai={turn=1};spawn={turn=4;count=3;target=Lance Flier;remain=0};};
+{unit=Sword Flier;pos=a1;rarity=5;slot=8;level=42;displaylevel=40;stats=[39;29;37;22;38];weapon=Silver Sword+;assist=-;special=-;a=-;b=Drag Back;c=Savage Blow 3;seal=-;ai={turn=1};spawn={turn=4;count=3;target=Sword Flier;remain=0};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Radiant Mercenaries|The Last Line of Defense}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=帝国の皇子
+|german=Der imperiale Prinz
+|spanishEU=Príncipe imperial
+|spanishLA=Príncipe imperial
+|french=Le prince impérial
+|italian=Il principe imperiale
+|chineseTW=帝國皇子
+|portuguese=Príncipe imperial
+}}
+{{Story Maps Navbox|book=1}}

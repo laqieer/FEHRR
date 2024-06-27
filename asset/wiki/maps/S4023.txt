@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0402.webp
+|stageTitle=Chapter 2-3
+|stageName=Swordmaster's Regret
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 2: Missing You
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4023
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Mareeta: Sword of Stars;pos=c7;rarity=3;slot=1;level=5;stats=[18;10;13;10;4];weapon=Iron Sword;assist=-;special=-;a=Atk/Spd Solo 1;b=-;c=Rouse Atk/Def 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=e8;rarity=3;slot=2;level=5;stats=[17;7;7;6;10];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f7;rarity=3;slot=3;level=5;stats=[18;8;9;5;7];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a6;rarity=3;slot=4;level=5;stats=[20;9;5;6;9];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Mareeta: Sword of Stars;pos=c7;rarity=4;slot=1;level=25;stats=[29;24;29;20;14];weapon=Steel Sword;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Close Call 1;c=Rouse Atk/Def 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=e8;rarity=4;slot=2;level=25;stats=[26;18;17;15;24];weapon=Assault;assist=Mend;special=Solid-Earth Balm;a=-;b=Live to Serve 1;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f7;rarity=4;slot=3;level=25;stats=[28;20;21;12;17];weapon=Elthunder;assist=-;special=Chilling Wind;a=Darting Blow 1;b=-;c=Savage Blow 1;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a6;rarity=4;slot=4;level=25;stats=[30;23;15;16;20];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=Steady Blow 1;b=-;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Mareeta: Sword of Stars;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[42;36;44;32;24];weapon=Mareeta's Sword;assist=-;special=Luna;a=Atk/Spd Solo 3;b=Close Call 3;c=Rouse Atk/Def 3;seal=-;ai={group=1};};
+{unit=Cleric;pos=e8;rarity=5;slot=2;level=42;displaylevel=40;stats=[35;29;29;24;36];weapon=Fear+;assist=Physic+;special=Earthwater Balm+;a=-;b=Live to Serve 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f7;rarity=5;slot=3;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Thoron+;assist=-;special=Iceberg;a=Darting Blow 3;b=-;c=Savage Blow 3;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a6;rarity=5;slot=4;level=42;displaylevel=40;stats=[42;35;25;26;31];weapon=Silver Axe+;assist=-;special=Draconic Aura;a=Steady Blow 2;b=-;c=-;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|General's Scorn|Mistress's Loss}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=剣士の悔恨
+|german=Schwert und Reue
+|spanishEU=La espadachina ingenua
+|spanishLA=La espadachina ingenua
+|french=Regrets de l'épéiste
+|italian=Rimorsi di una spadaccina
+|chineseTW=劍士的悔恨
+|portuguese=Lamento da espadachim
+}}
+{{Story Maps Navbox|book=4}}

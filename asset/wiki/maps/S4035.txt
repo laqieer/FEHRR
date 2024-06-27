@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0403 C.webp
+|stageTitle=Chapter 3-5
+|stageName=A Distant Friend
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 3: Gullinkambi
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4035
+|backdrop=
+|allyPos=e4,b3,c3,e3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=30
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-01-09T07:00:00Z|notification=New Heroes: Heir of Light (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Plumeria: Lewd Dream;pos=b8;rarity=3;slot=1;level=9;stats=[20;12;6;4;8];weapon=Flux;assist=Dance;special=-;a=-;b=Aerobatics 1;c=-;seal=-;ai={turn=1};};
+{unit=Altena: Luminous Rider;pos=b7;rarity=3;slot=2;level=9;stats=[22;13;8;13;8];weapon=Iron Lance;assist=-;special=-;a=Sturdy Stance 1;b=Brash Assault 1;c=-;seal=-;ai={turn=1};};
+{unit=Larcei: Keen Kin;pos=d7;rarity=3;slot=3;level=9;stats=[20;12;14;11;10];weapon=Iron Sword;assist=-;special=-;a=Atk/Spd Solo 1;b=Repel 1;c=Panic Smoke 1;seal=-;ai={turn=1};};
+{unit=Ced: Hero on the Wind;pos=f8;rarity=3;slot=4;level=9;stats=[20;11;15;5;10];weapon=Wind;assist=-;special=-;a=Spd/Res Solo 1;b=-;c=Pulse Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Plumeria: Lewd Dream;pos=b8;rarity=4;slot=1;level=30;stats=[31;29;14;11;24];weapon=Ruin;assist=Sweet Dreams;special=-;a=-;b=Aerobatics 2;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Altena: Luminous Rider;pos=b7;rarity=4;slot=2;level=30;stats=[36;29;18;30;15];weapon=Steel Lance;assist=-;special=Retribution;a=Sturdy Stance 2;b=Brash Assault 2;c=-;seal=-;ai={turn=1};};
+{unit=Larcei: Keen Kin;pos=d7;rarity=4;slot=3;level=30;stats=[32;28;31;22;19];weapon=Steel Sword;assist=-;special=Night Sky;a=Atk/Spd Solo 2;b=Repel 2;c=Panic Smoke 2;seal=-;ai={turn=1};};
+{unit=Ced: Hero on the Wind;pos=f8;rarity=4;slot=4;level=30;stats=[30;27;31;13;22];weapon=Elwind;assist=-;special=New Moon;a=Spd/Res Solo 2;b=-;c=Pulse Smoke 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Plumeria: Lewd Dream;pos=b8;rarity=5;slot=1;level=45;displaylevel=40;stats=[42;42;19;17;38];weapon=Flower of Plenty;assist=Sweet Dreams;special=-;a=-;b=Aerobatics 3;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Altena: Luminous Rider;pos=b7;rarity=5;slot=2;level=45;displaylevel=40;stats=[48;41;28;43;21];weapon=Earthly Gáe Bolg;assist=-;special=Reprisal;a=Sturdy Stance 2;b=Brash Assault 3;c=-;seal=-;ai={turn=1};};
+{unit=Larcei: Keen Kin;pos=d7;rarity=5;slot=3;level=45;displaylevel=40;stats=[44;40;44;33;27];weapon=Larcei's Edge;assist=-;special=Regnal Astra;a=Atk/Spd Solo 3;b=Repel 3;c=Panic Smoke 3;seal=-;ai={turn=1};};
+{unit=Ced: Hero on the Wind;pos=f8;rarity=5;slot=4;level=45;displaylevel=40;stats=[40;39;43;21;34];weapon=Winds of Silesse;assist=-;special=Luna;a=Spd/Res Solo 3;b=-;c=Pulse Smoke 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Hero Inside|Beyond Blood}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=友は遠く
+|german=Ferne Freunde
+|spanishEU=Amistad en la distancia
+|spanishLA=Amistad en la distancia
+|french=Amitié à distance
+|italian=Stranezze su stranezze
+|chineseTW=遠離的朋友
+|portuguese=Amizade à distância
+}}
+{{Story Maps Navbox|book=4}}

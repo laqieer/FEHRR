@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0403.webp
+|stageTitle=Chapter 3-4
+|stageName=The Hero Inside
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 3: Gullinkambi
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4034
+|backdrop=
+|allyPos=d3,e3,e2,f2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_09.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-01-09T07:00:00Z|notification=New Heroes: Heir of Light (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ced: Hero on the Wind;pos=a5;rarity=3;slot=1;level=8;stats=[20;10;14;5;9];weapon=Wind;assist=-;special=-;a=Spd/Res Solo 1;b=-;c=Pulse Smoke 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=3;slot=2;level=8;stats=[28;13;4;15;5];weapon=Iron Lance;assist=-;special=-;a=Distant Def 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f7;rarity=3;slot=3;level=8;stats=[20;8;12;5;13];weapon=Iron Sword;assist=-;special=-;a=Close Def 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=c8;rarity=3;slot=4;level=8;stats=[20;9;10;6;8];weapon=Fire;assist=-;special=-;a=Darting Stance 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ced: Hero on the Wind;pos=a5;rarity=4;slot=1;level=28;stats=[29;25;29;12;21];weapon=Elwind;assist=-;special=New Moon;a=Spd/Res Solo 2;b=-;c=Pulse Smoke 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=4;slot=2;level=28;stats=[43;28;10;30;12];weapon=Steel Lance;assist=-;special=Night Sky;a=Distant Def 2;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f7;rarity=4;slot=3;level=28;stats=[29;19;26;14;27];weapon=Steel Sword;assist=-;special=Buckler;a=Close Def 2;b=-;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=c8;rarity=4;slot=4;level=28;stats=[29;22;23;13;19];weapon=Elfire;assist=-;special=Rising Flame;a=Darting Stance 2;b=Renewal 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ced: Hero on the Wind;pos=a5;rarity=5;slot=1;level=43;displaylevel=40;stats=[39;38;42;20;33];weapon=Winds of Silesse;assist=-;special=Luna;a=Spd/Res Solo 3;b=-;c=Pulse Smoke 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=5;slot=2;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Ridersbane+;assist=-;special=Glimmer;a=Distant Def 3;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f7;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;29;37;22;38];weapon=Safeguard+;assist=-;special=Escutcheon;a=Close Def 3;b=-;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=c8;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Rauðrserpent+;assist=-;special=Growing Flame;a=Darting Stance 3;b=Renewal 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Motherly Instincts|A Distant Friend}}
+==In other languages==
+{{OtherLanguages
+|japanese=勇者の心奥
+|german=Inneres Heldentum
+|spanishEU=Heroicidad interior
+|spanishLA=Heroicidad interior
+|french=Je suis ordinaire
+|italian=L'autocritica di un eroe
+|chineseTW=勇者的內心深處
+|portuguese=Heroísmo nato
+}}
+{{Story Maps Navbox|book=4}}

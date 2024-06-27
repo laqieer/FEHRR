@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0402 C.webp
+|stageTitle=Chapter 2-5
+|stageName=Deeper and Deeper
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 2: Missing You
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4025
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=28
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Triandra: Nightmare;pos=c7;rarity=3;slot=1;level=7;stats=[18;8;9;3;6];weapon=Wind;assist=Dance;special=-;a=-;b=Poison Strike 1;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Eyvel: Mistress of Fiana;pos=b7;rarity=3;slot=2;level=7;stats=[19;11;13;11;7];weapon=Iron Sword;assist=-;special=-;a=Atk/Def Form 1;b=Chill Atk 1;c=-;seal=-;ai={turn=1};};
+{unit=Mareeta: Sword of Stars;pos=d7;rarity=3;slot=3;level=7;stats=[19;11;15;11;5];weapon=Iron Sword;assist=-;special=-;a=Atk/Spd Solo 1;b=-;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f6;rarity=3;slot=4;level=7;stats=[19;9;12;10;7];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Triandra: Nightmare;pos=c7;rarity=4;slot=1;level=28;stats=[29;24;25;10;15];weapon=Elwind;assist=Frightful Dream;special=-;a=-;b=Poison Strike 2;c=Spd Tactic 2;seal=-;ai={turn=1};};
+{unit=Eyvel: Mistress of Fiana;pos=b7;rarity=4;slot=2;level=28;stats=[31;24;26;26;17];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Form 2;b=Chill Atk 2;c=-;seal=-;ai={turn=1};};
+{unit=Mareeta: Sword of Stars;pos=d7;rarity=4;slot=3;level=28;stats=[31;26;31;22;15];weapon=Steel Sword;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Close Call 1;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f6;rarity=4;slot=4;level=28;stats=[30;20;27;23;18];weapon=Fire Breath+;assist=Rally Attack;special=-;a=Brazen Atk/Spd 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Triandra: Nightmare;pos=c7;rarity=5;slot=1;level=45;displaylevel=40;stats=[41;38;39;17;24];weapon=Flower of Sorrow;assist=Frightful Dream;special=-;a=-;b=Poison Strike 3;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Eyvel: Mistress of Fiana;pos=b7;rarity=5;slot=2;level=45;displaylevel=40;stats=[44;36;38;42;28];weapon=Guard Sword+;assist=-;special=Ignis;a=Atk/Def Form 3;b=Chill Atk 3;c=-;seal=-;ai={turn=1};};
+{unit=Mareeta: Sword of Stars;pos=d7;rarity=5;slot=3;level=45;displaylevel=40;stats=[44;38;46;34;26];weapon=Mareeta's Sword;assist=-;special=Luna;a=Atk/Spd Solo 3;b=Close Call 3;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f6;rarity=5;slot=4;level=45;displaylevel=40;stats=[42;32;39;35;30];weapon=Flametongue+;assist=Rally Up Atk+;special=-;a=Brazen Atk/Spd 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Mistress's Loss|Path to the Future}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=夢の中の夢へ
+|german=Tiefer und Tiefer
+|spanishEU=Sueño dentro de un sueño
+|spanishLA=Sueño dentro de un sueño
+|french=Rêve dans un rêve
+|italian=Oltre il velo del sonno
+|chineseTW=前往夢中夢
+|portuguese=Inserção
+}}
+{{Story Maps Navbox|book=4}}

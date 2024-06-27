@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0412.webp
+|stageTitle=Chapter 12-3
+|stageName=Brother of the Church
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 12: Triandra's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4123
+|backdrop=
+|allyPos=a3,b3,b2,c2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-10-19T07:00:00Z|notification=New Heroes: Goddess's Servants (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Seteth: Seiros Adherent;pos=c7;rarity=3;slot=1;level=30;stats=[34;26;25;22;17];weapon=Silver Lance;assist=Swap;special=-;a=Brazen Atk/Spd 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=e7;rarity=3;slot=2;level=30;stats=[32;25;18;26;13];weapon=Guard Sword;assist=Rally Resistance;special=-;a=-;b=Aerobatics 1;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Flayn: Playing Innocent;pos=c8;rarity=3;slot=3;level=30;stats=[31;28;18;14;25];weapon=Assault;assist=Rescue;special=Still-Water Balm;a=-;b=Dazzling Staff 1;c=Ground Orders 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d8;rarity=3;slot=4;level=30;stats=[32;25;18;26;13];weapon=Slaying Hammer;assist=Pivot;special=-;a=-;b=Atk/Def Link 1;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e5;rarity=3;slot=5;level=30;stats=[44;27;10;29;13];weapon=Barrier Lance;assist=-;special=Glowing Ember;a=-;b=Def Feint 1;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Seteth: Seiros Adherent;pos=c7;rarity=4;slot=1;level=37;stats=[40;33;32;27;21];weapon=Spear of Assal;assist=Swap;special=-;a=Brazen Atk/Spd 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=e7;rarity=4;slot=2;level=37;stats=[37;32;23;33;16];weapon=Guard Sword;assist=Rally Up Res;special=-;a=-;b=Aerobatics 2;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Flayn: Playing Innocent;pos=c8;rarity=4;slot=3;level=37;stats=[36;35;23;18;32];weapon=Caduceus Staff;assist=Rescue;special=Deluge Balm;a=-;b=Dazzling Staff 2;c=Ground Orders 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d8;rarity=4;slot=4;level=37;stats=[37;32;23;33;16];weapon=Slaying Hammer;assist=Pivot;special=-;a=-;b=Atk/Def Link 2;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e5;rarity=4;slot=5;level=37;stats=[50;34;13;36;16];weapon=Barrier Lance;assist=-;special=Glowing Ember;a=-;b=Def Feint 2;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Seteth: Seiros Adherent;pos=c7;rarity=5;slot=1;level=42;stats=[45;37;38;33;25];weapon=Spear of Assal;assist=Swap;special=-;a=Brazen Atk/Spd 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=e7;rarity=5;slot=2;level=42;stats=[42;36;28;37;19];weapon=Guard Sword+;assist=Rally Up Res+;special=-;a=-;b=Aerobatics 3;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Flayn: Playing Innocent;pos=c8;rarity=5;slot=3;level=42;stats=[41;41;28;22;36];weapon=Caduceus Staff;assist=Rescue+;special=Deluge Balm+;a=-;b=Dazzling Staff 3;c=Ground Orders 3;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d8;rarity=5;slot=4;level=42;stats=[42;36;28;37;19];weapon=Slaying Hammer+;assist=Pivot;special=-;a=-;b=Atk/Def Link 3;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e5;rarity=5;slot=5;level=42;stats=[57;40;16;42;19];weapon=Barrier Lance+;assist=-;special=Bonfire;a=-;b=Def Feint 3;c=Drive Res 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Sister of the Church|All to Protect Her}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖教会の兄
+|german=Bruder der Kirche
+|spanishEU=Hermano de la Iglesia
+|spanishLA=Hermano de la Iglesia
+|french=Grand frère de l'Église
+|italian=Fratello della Chiesa
+|chineseTW=聖教會的哥哥
+|portuguese=Irmão da igreja
+}}
+{{Story Maps Navbox|book=4}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Ryoma Unrevealed.png
+|mapName=Chapter 6-3: Blunt Princess
+|stageTitle=Chapter 6: Part 3
+|stageName=Blunt Princess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 6: World of Birthright
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0703
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4= 
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2={{Ally|1}} | e2={{Ally|2}} | f2=
+| a1= | b1= | c1= | d1={{Ally|3}} | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=13
+|lvlHard=23
+|lvlLunatic=33
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=7
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Hinoka: Warrior Princess;pos=b7;rarity=3;slot=1;level=13;stats=[24;14;14;10;11];weapon=Steel Lance;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Azama: Carefree Monk;pos=c7;rarity=3;slot=2;level=13;stats=[25;8;11;14;10];weapon=Pain;assist=Reconcile;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Setsuna: Absent Archer;pos=a6;rarity=3;slot=3;level=13;stats=[22;11;16;9;10];weapon=Steel Bow;assist=Reciprocal Aid;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Subaki: Perfect Expert;pos=d7;rarity=3;slot=4;level=13;stats=[23;10;15;15;9];weapon=Steel Lance;assist=-;special=-;a=-;b=Quick Riposte 2;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Hinoka: Warrior Princess;pos=b7;rarity=3;slot=1;level=23;stats=[29;20;19;15;15];weapon=Steel Lance;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Azama: Carefree Monk;pos=c7;rarity=3;slot=2;level=23;stats=[30;12;16;19;15];weapon=Pain;assist=Reconcile;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Setsuna: Absent Archer;pos=a6;rarity=3;slot=3;level=23;stats=[27;16;22;13;14];weapon=Steel Bow;assist=Reciprocal Aid;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Subaki: Perfect Expert;pos=d7;rarity=3;slot=4;level=23;stats=[28;15;21;21;13];weapon=Steel Lance;assist=-;special=-;a=-;b=Quick Riposte 2;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Hinoka: Warrior Princess;pos=b7;rarity=4;slot=1;level=33;stats=[35;29;27;20;19];weapon=Brave Lance;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Azama: Carefree Monk;pos=c7;rarity=4;slot=2;level=33;stats=[37;16;22;27;20];weapon=Pain;assist=Reconcile;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Setsuna: Absent Archer;pos=a6;rarity=4;slot=3;level=33;stats=[32;23;31;17;18];weapon=Silver Bow;assist=Reciprocal Aid;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Subaki: Perfect Expert;pos=d7;rarity=4;slot=4;level=33;stats=[34;20;29;29;17];weapon=Silver Lance;assist=-;special=-;a=-;b=Quick Riposte 2;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=実直な姉王女
+|german=Geradlinige Prinzessin
+|spanishEU=La princesa osada
+|spanishLA=La princesa osada
+|french=La cavalière impétueuse
+|italian=La principessa sincera
+|chineseTW=耿直的王姐
+|portuguese=A princesa ousada
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Hinoka_(Chapter)|Fire Emblem Fates: Conquest - Chapter 24: Hinoka]]. ([https://www.youtube.com/watch?v=KGJrT8JHtck Map Video])
+
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0405.webp
+|stageTitle=Chapter 5-1
+|stageName=Recalling Your Name
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 5: Twisted Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4051
+|backdrop=
+|allyPos=d2,e2,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-03-06T07:00:00Z|notification=New Heroes: Harmony amid Chaos (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Blue Mage;pos=a6;rarity=3;slot=1;level=11;stats=[21;11;12;7;10];weapon=Elthunder;assist=Rally Resistance;special=-;a=Fury 1;b=Atk/Def Ruse 1;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=c8;rarity=3;slot=2;level=11;stats=[20;10;10;9;14];weapon=-;assist=Mend;special=Imbue;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d6;rarity=3;slot=3;level=11;stats=[23;14;9;15;6];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Guidance 1;seal=-;ai={turn=1};};
+{unit=Surtr: Ruler of Flame;pos=c7;rarity=3;slot=4;level=11;stats=[23;15;6;16;12];weapon=Steel Axe;assist=-;special=-;a=Steady Stance 1;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};properties=use_ally_stats};
+]
+|Hard=[
+{unit=Blue Mage;pos=a6;rarity=4;slot=1;level=30;stats=[30;23;24;14;20];weapon=Thoron;assist=Rally Up Res;special=-;a=Fury 2;b=Atk/Def Ruse 2;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=c8;rarity=4;slot=2;level=30;stats=[28;21;20;17;27];weapon=Pain;assist=Physic;special=Imbue;a=-;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d6;rarity=4;slot=3;level=30;stats=[33;27;19;28;13];weapon=Armorsmasher;assist=-;special=Glowing Ember;a=Heavy Blade 1;b=-;c=Guidance 2;seal=-;ai={turn=1};};
+{unit=Surtr: Ruler of Flame;pos=c7;rarity=4;slot=4;level=30;stats=[39;30;12;31;24];weapon=Sinmara;assist=-;special=Glowing Ember;a=Steady Stance 2;b=Wary Fighter 2;c=-;seal=-;ai={turn=1};properties=use_ally_stats};
+]
+|Lunatic=[
+{unit=Blue Mage;pos=a6;rarity=5;slot=1;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=Rally Up Res+;special=-;a=Fury 3;b=Atk/Def Ruse 3;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=c8;rarity=5;slot=2;level=40;stats=[34;28;28;23;35];weapon=Pain+;assist=Physic+;special=Imbue;a=-;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d6;rarity=5;slot=3;level=40;stats=[41;35;27;36;19];weapon=Armorsmasher+;assist=-;special=Ignis;a=Heavy Blade 3;b=-;c=Guidance 3;seal=-;ai={turn=1};};
+{unit=Surtr: Ruler of Flame;pos=c7;rarity=5;slot=4;level=40;stats=[50;39;17;40;33];weapon=Sinmara;assist=-;special=Bonfire;a=Steady Stance 4;b=Wary Fighter 3;c=Surtr's Menace;seal=-;ai={turn=1};properties=use_ally_stats};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Chrom: Crowned Exalt (map)|A Lady's Wish}}
+==In other languages==
+{{OtherLanguages
+|japanese=その名を知る者は
+|german=Den Namen im Gedächtnis
+|spanishEU=Recuerdos de un nombre
+|spanishLA=Recuerdos de un nombre
+|french=Un nom en mémoire
+|italian=Il ricordo di un nome
+|chineseTW=知曉其名者
+|portuguese=Lembranças de um nome
+}}
+{{Story Maps Navbox|book=4}}

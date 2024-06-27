@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0404.webp
+|stageTitle=Chapter 4-2
+|stageName=Dragon's Hearkening
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 4: On Dark Wings
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4042
+|backdrop=
+|allyPos=c8,d8,c7,d7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=28
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_08.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-02-17T07:00:00Z|notification=New Heroes: The Dread Isle (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Nils: Bright Bard;pos=b1;rarity=3;slot=1;level=9;stats=[21;10;12;7;8];weapon=Fire Breath;assist=Play;special=-;a=HP/Def 1;b=Even Pulse Tie 1;c=Infantry Pulse 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c1;rarity=3;slot=2;level=9;stats=[21;11;11;10;9];weapon=Fire Breath;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e3;rarity=3;slot=3;level=9;stats=[23;10;10;11;7];weapon=Iron Axe;assist=-;special=-;a=-;b=Guard 1;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f2;rarity=3;slot=4;level=9;stats=[19;9;9;8;12];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Nils: Bright Bard;pos=b1;rarity=4;slot=1;level=29;stats=[35;23;26;17;18];weapon=Fire Breath+;assist=Play;special=-;a=HP/Def 1;b=Even Pulse Tie 2;c=Infantry Pulse 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c1;rarity=4;slot=2;level=29;stats=[34;24;22;20;19];weapon=Fire Breath+;assist=-;special=Holy Vestments;a=Death Blow 2;b=Shield Pulse 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e3;rarity=4;slot=3;level=29;stats=[35;23;22;22;15];weapon=Steel Axe;assist=-;special=Night Sky;a=Fury 1;b=Guard 2;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f2;rarity=4;slot=4;level=29;stats=[27;20;19;16;26];weapon=Pain;assist=Reconcile;special=Kindled-Fire Balm;a=-;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Nils: Bright Bard;pos=b1;rarity=5;slot=1;level=41;displaylevel=40;stats=[46;31;36;26;26];weapon=Frost Breath;assist=Play;special=-;a=HP/Def 2;b=Even Pulse Tie 3;c=Infantry Pulse 3;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c1;rarity=5;slot=2;level=41;displaylevel=40;stats=[45;32;30;29;28];weapon=Flametongue+;assist=-;special=Aegis;a=Death Blow 3;b=Shield Pulse 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e3;rarity=5;slot=3;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Silver Axe+;assist=-;special=Glimmer;a=Fury 3;b=Guard 3;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f2;rarity=5;slot=4;level=41;displaylevel=40;stats=[35;28;28;24;36];weapon=Pain+;assist=Restore+;special=Fireflood Balm+;a=-;b=-;c=Drive Spd 2;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Seen in Dreams|Ilian Determination}}
+==In other languages==
+{{OtherLanguages
+|japanese=幼き竜の追憶
+|german=Lauschender Drache
+|spanishEU=Memorias dragontinas
+|spanishLA=Memorias dragontinas
+|french=Mémoire de dragon
+|italian=Il giovane drago
+|chineseTW=幼龍的追憶
+|portuguese=Memórias de dragão
+}}
+{{Story Maps Navbox|book=4}}

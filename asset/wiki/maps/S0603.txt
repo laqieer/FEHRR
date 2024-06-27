@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_TikiY Unrevealed.png
+|mapName=Chapter 5-3: No Way Out
+|stageTitle=Chapter 5: Part 3
+|stageName=No Way Out
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 5: Back to Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0603
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{Ally|1}} | e5={{Ally|2}} | f5=
+| a4= | b4= | c4= | d4={{Ally|3}} | e4={{Ally|4}} | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=10
+|lvlHard=20
+|lvlLunatic=30
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=5
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Jeorge: Perfect Shot;pos=f8;rarity=3;slot=1;level=10;stats=[21;12;12;8;8];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Spur Spd 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Barst: The Hatchet;pos=c1;rarity=3;slot=2;level=10;stats=[24;13;12;10;6];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Spur Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=d1;rarity=3;slot=3;level=10;stats=[23;12;11;11;5];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=d8;rarity=3;slot=4;level=10;stats=[30;15;5;17;6];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Jeorge: Perfect Shot;pos=f8;rarity=3;slot=1;level=20;stats=[26;17;17;13;12];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Spur Spd 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Barst: The Hatchet;pos=c1;rarity=3;slot=2;level=20;stats=[30;18;17;15;9];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Spur Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=d1;rarity=3;slot=3;level=20;stats=[28;17;16;16;8];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=d8;rarity=3;slot=4;level=20;stats=[37;21;8;23;10];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Jeorge: Perfect Shot;pos=f8;rarity=4;slot=1;level=30;stats=[31;25;25;18;16];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=Spur Spd 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Barst: The Hatchet;pos=c1;rarity=4;slot=2;level=30;stats=[38;26;25;22;12];weapon=Brave Axe;assist=-;special=-;a=-;b=-;c=Spur Atk 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=d1;rarity=4;slot=3;level=30;stats=[35;25;22;21;11];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=d8;rarity=4;slot=4;level=30;stats=[45;30;11;32;14];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=挟撃
+|german=Ausweglos
+|spanishEU=Sin salida
+|spanishLA=Sin salida
+|french=Aucune échappatoire
+|italian=Senza via di uscita
+|chineseTW=夾擊
+|portuguese=Sem saída
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Sable_Order|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 18: The Sable Order]]. ([[fireemblemwikia:File:FE1_Chapter_18.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

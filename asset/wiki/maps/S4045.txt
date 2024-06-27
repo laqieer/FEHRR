@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0404 C.webp
+|stageTitle=Chapter 4-5
+|stageName=Resounding Blow
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 4: On Dark Wings
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4045
+|backdrop=Wave
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=33
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-02-17T07:00:00Z|notification=New Heroes: The Dread Isle (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Triandra: Nightmare;pos=c6;rarity=3;slot=1;level=12;stats=[20;12;13;5;8];weapon=Elwind;assist=Dance;special=-;a=-;b=Poison Strike 1;c=Guidance 1;seal=-;ai={group=1};};
+{unit=Nils: Bright Bard;pos=d6;rarity=3;slot=2;level=12;stats=[23;12;14;8;9];weapon=Fire Breath+;assist=Play;special=-;a=HP/Def 1;b=Even Pulse Tie 1;c=Infantry Pulse 1;seal=-;ai={group=1};};
+{unit=Fiora: Airborne Warrior;pos=f5;rarity=3;slot=3;level=12;stats=[22;13;16;8;13];weapon=Steel Lance;assist=-;special=-;a=Fury 1;b=Pegasus Flight 1;c=-;seal=-;ai={group=1};};
+{unit=Leila: Rose amid Fangs;pos=a6;rarity=3;slot=4;level=12;stats=[22;14;17;7;10];weapon=Steel Dagger;assist=Rally Speed;special=-;a=Life and Death 1;b=Atk/Def Ruse 1;c=Atk Smoke 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Triandra: Nightmare;pos=c6;rarity=4;slot=1;level=33;stats=[31;28;29;12;17];weapon=Rexcalibur;assist=Frightful Dream;special=-;a=-;b=Poison Strike 2;c=Guidance 2;seal=-;ai={group=1};};
+{unit=Nils: Bright Bard;pos=d6;rarity=4;slot=2;level=33;stats=[38;25;29;19;20];weapon=Flametongue;assist=Play;special=-;a=HP/Def 1;b=Even Pulse Tie 2;c=Infantry Pulse 2;seal=-;ai={group=1};};
+{unit=Fiora: Airborne Warrior;pos=f5;rarity=4;slot=3;level=33;stats=[33;26;32;16;29];weapon=Guard Lance;assist=-;special=Chilling Wind;a=Fury 2;b=Pegasus Flight 2;c=-;seal=-;ai={group=1};};
+{unit=Leila: Rose amid Fangs;pos=a6;rarity=4;slot=4;level=33;stats=[33;30;34;18;21];weapon=Silver Dagger;assist=Rally Atk/Spd;special=-;a=Life and Death 2;b=Atk/Def Ruse 2;c=Atk Smoke 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Triandra: Nightmare;pos=c6;rarity=5;slot=1;level=45;stats=[41;38;39;17;24];weapon=Flower of Sorrow;assist=Frightful Dream;special=-;a=-;b=Poison Strike 3;c=Guidance 3;seal=-;ai={group=1};};
+{unit=Nils: Bright Bard;pos=d6;rarity=5;slot=2;level=45;stats=[49;34;38;29;28];weapon=Frost Breath;assist=Play;special=-;a=HP/Def 2;b=Even Pulse Tie 3;c=Infantry Pulse 3;seal=-;ai={group=1};};
+{unit=Fiora: Airborne Warrior;pos=f5;rarity=5;slot=3;level=45;stats=[41;35;42;23;41];weapon=Guard Lance+;assist=-;special=Iceberg;a=Fury 3;b=Pegasus Flight 3;c=-;seal=-;ai={group=1};};
+{unit=Leila: Rose amid Fangs;pos=a6;rarity=5;slot=4;level=43;stats=[41;39;44;25;28];weapon=Constant Dagger;assist=Rally Atk/Spd+;special=-;a=Life and Death 4;b=Atk/Def Ruse 3;c=Atk Smoke 3;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Spies' Future|Study in Crimson}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=響き渡る音色
+|german=Schallender Klang
+|spanishEU=Ecos de Gullinkambi
+|spanishLA=Ecos de Gullinkambi
+|french=Écho de Gullinkambi
+|italian=Gli echi di Gullinkambi
+|chineseTW=迴盪的音色
+|portuguese=Sopro retumbante
+}}
+{{Story Maps Navbox|book=4}}

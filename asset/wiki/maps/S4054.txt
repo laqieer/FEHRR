@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0405.webp
+|stageTitle=Chapter 5-4
+|stageName=Withdrawn Melancholy
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 5: Twisted Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4054
+|backdrop=
+|allyPos=c2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=33
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_04.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-03-06T07:00:00Z|notification=New Heroes: Harmony amid Chaos (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Ferdinand: Noblest of Nobles;pos=b6;rarity=3;slot=1;level=14;stats=[24;14;15;12;9];weapon=Steel Lance;assist=Reposition;special=-;a=Fortress Def 1;b=-;c=Rouse Spd/Def 1;seal=-;ai={group=1};};
+{unit=Bernadetta: Eternal Loner;pos=d7;rarity=3;slot=2;level=14;stats=[21;14;16;9;11];weapon=Steel Bow;assist=Ardent Sacrifice;special=-;a=Atk/Spd Push 1;b=Lull Spd/Def 1;c=Close Guard 1;seal=-;ai={group=1};};
+{unit=Green Mage;pos=a7;rarity=3;slot=3;level=14;stats=[22;13;14;8;11];weapon=Elwind;assist=-;special=-;a=-;b=-;c=Def Tactic 1;seal=-;ai={group=1};};
+{unit=Red Fáfnir;pos=f7;rarity=3;slot=4;level=14;stats=[22;12;16;14;10];weapon=Fire Breath+;assist=-;special=-;a=-;b=-;c=Atk Tactic 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Ferdinand: Noblest of Nobles;pos=b6;rarity=4;slot=1;level=33;stats=[34;26;29;23;19];weapon=Vanguard;assist=Reposition;special=-;a=Fortress Def 2;b=-;c=Rouse Spd/Def 2;seal=-;ai={group=1};};
+{unit=Bernadetta: Eternal Loner;pos=d7;rarity=4;slot=2;level=33;stats=[31;26;31;17;21];weapon=Silver Bow;assist=Ardent Sacrifice;special=-;a=Atk/Spd Push 2;b=Lull Spd/Def 2;c=Close Guard 2;seal=-;ai={group=1};};
+{unit=Green Mage;pos=a7;rarity=4;slot=3;level=33;stats=[32;25;26;15;21];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Swift Sparrow 1;b=-;c=Def Tactic 2;seal=-;ai={group=1};};
+{unit=Red Fáfnir;pos=f7;rarity=4;slot=4;level=33;stats=[32;22;30;26;20];weapon=Lightning Breath;assist=-;special=New Moon;a=-;b=Flier Formation 1;c=Atk Tactic 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Ferdinand: Noblest of Nobles;pos=b6;rarity=5;slot=1;level=43;displaylevel=40;stats=[42;34;37;32;26];weapon=Vanguard+;assist=Reposition;special=-;a=Fortress Def 3;b=-;c=Rouse Spd/Def 3;seal=-;ai={group=1};};
+{unit=Bernadetta: Eternal Loner;pos=d7;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;34;41;23;28];weapon=Persecution Bow;assist=Ardent Sacrifice;special=-;a=Atk/Spd Push 4;b=Lull Spd/Def 3;c=Close Guard 3;seal=-;ai={group=1};};
+{unit=Green Mage;pos=a7;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Rexcalibur+;assist=-;special=Growing Wind;a=Swift Sparrow 2;b=-;c=Def Tactic 3;seal=-;ai={group=1};};
+{unit=Red Fáfnir;pos=f7;rarity=5;slot=4;level=43;displaylevel=40;stats=[40;30;38;34;28];weapon=Lightning Breath+;assist=-;special=Moonbow;a=-;b=Flier Formation 3;c=Atk Tactic 3;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Bernadetta: Eternal Loner;text=I just want to hide in my room...\nTh-that's OK, right?;textJP=引き籠もりたい…\n引き籠もりたい…\nはっ、禁断症状が。};
+]}}
+{{Story Navbar|Virtuoso Sigh|A Dream Solution}}
+==In other languages==
+{{OtherLanguages
+|japanese=引き籠もりの憂鬱
+|german=Zurückgezogenheit
+|spanishEU=Ansiada reclusión
+|spanishLA=Ansiada reclusión
+|french=Mélancolie de l'introvertie
+|italian=Una malinconia intrinseca
+|chineseTW=家裡蹲的憂鬱
+|portuguese=Melancolia solitária
+}}
+{{Story Maps Navbox|book=4}}

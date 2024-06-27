@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0410.webp
+|stageTitle=Chapter 10-1
+|stageName=Having Grown
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 10: Lack
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4101
+|backdrop=
+|allyPos=c2,d2,e2,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-08-18T07:00:00Z|notification=New Heroes: A New Future (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lysithea: Earnest Seeker;pos=b7;rarity=3;slot=1;level=24;stats=[28;25;24;12;16];weapon=Fenrir;assist=-;special=New Moon;a=Atk/Spd Push 1;b=Lull Spd/Res 1;c=Hone Spd 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c7;rarity=3;slot=2;level=24;stats=[27;16;21;12;22];weapon=Steel Lance;assist=-;special=Dragon Gaze;a=Darting Blow 1;b=-;c=Ground Orders 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=b5;rarity=3;slot=3;level=24;stats=[29;21;15;22;11];weapon=Steel Axe;assist=-;special=Glowing Ember;a=-;b=Aerobatics 1;c=Atk Tactic 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=3;slot=4;level=24;stats=[30;19;17;17;8];weapon=Iron Bow;assist=Rally Defense;special=-;a=-;b=Spd/Res Ruse 1;c=Infantry Pulse 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d6;rarity=3;slot=5;level=24;stats=[27;18;19;12;16];weapon=Elthunder;assist=-;special=Night Sky;a=Atk/Def Solo 1;b=B Tomebreaker 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Lysithea: Earnest Seeker;pos=b7;rarity=4;slot=1;level=35;stats=[35;35;34;17;21];weapon=Dark Spikes Τ;assist=-;special=New Moon;a=Atk/Spd Push 2;b=Lull Spd/Res 2;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c7;rarity=4;slot=2;level=35;stats=[33;23;30;17;31];weapon=Slaying Lance;assist=-;special=Dragon Gaze;a=Darting Blow 2;b=-;c=Ground Orders 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=b5;rarity=4;slot=3;level=35;stats=[36;30;22;31;15];weapon=Rearguard;assist=-;special=Glowing Ember;a=-;b=Aerobatics 2;c=Atk Tactic 2;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=4;slot=4;level=35;stats=[37;27;25;24;12];weapon=Brave Bow;assist=Rally Spd/Def;special=-;a=-;b=Spd/Res Ruse 2;c=Infantry Pulse 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d6;rarity=4;slot=5;level=35;stats=[33;26;27;16;23];weapon=Thoron;assist=-;special=Night Sky;a=Atk/Def Solo 2;b=B Tomebreaker 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lysithea: Earnest Seeker;pos=b7;rarity=5;slot=1;level=40;stats=[40;40;39;21;25];weapon=Dark Spikes Τ;assist=-;special=Moonbow;a=Atk/Spd Push 4;b=Lull Spd/Res 3;c=Hone Spd 4;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c7;rarity=5;slot=2;level=40;stats=[37;28;35;21;36];weapon=Slaying Lance+;assist=-;special=Draconic Aura;a=Darting Blow 3;b=-;c=Ground Orders 3;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=b5;rarity=5;slot=3;level=40;stats=[41;35;27;36;19];weapon=Rearguard+;assist=-;special=Ignis;a=-;b=Aerobatics 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=5;slot=4;level=40;stats=[43;32;29;29;16];weapon=Brave Bow+;assist=Rally Spd/Def+;special=-;a=-;b=Spd/Res Ruse 3;c=Infantry Pulse 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d6;rarity=5;slot=5;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=-;special=Glimmer;a=Atk/Def Solo 3;b=B Tomebreaker 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Forsyth & Python: Bound Hero Battle|Path of Faerghus}}
+==Trivia==
+Some of the generic units that appear on this map represent possible classes of [[Lysithea]]'s allies in the Golden Deer: the {{Ut|Axe Flier}} being a stand-in for [[Claude]] (who is proficient in {{Mt|flying}} and possesses a Budding Talent for {{Wtt|axe}}s), the {{Ut|Bow Fighter}} for [[Ignatz]] ({{Cwtt|bow}}s), and the {{Ut|Blue Mage}} possibly for [[Marianne]] as she would be one in {{EntryText|0}}.
+==In other languages==
+{{OtherLanguages
+|japanese=いつか大人になったら
+|german=Erwachsen geworden
+|spanishEU=Vínculos fraternales
+|spanishLA=Vínculos fraternales
+|french=Âge adulte
+|italian=Un forte attaccamento
+|chineseTW=等到長大之後
+|portuguese=Quando cresceu
+}}
+{{Story Maps Navbox|book=4}}

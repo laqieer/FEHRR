@@ -1,0 +1,78 @@
+{{Battle Infobox
+|bannerImage=C0401.webp
+|stageTitle=Chapter 1-1
+|stageName=Sleep Sickness
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 1: The Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4011
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=1
+|lvlHard=20
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Thief;pos=b6;rarity=3;slot=1;level=1;stats=[16;5;9;2;7];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Loki: The Trickster;pos=d8;rarity=3;slot=2;level=1;stats=[17;8;8;3;7];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=3;slot=3;level=1;stats=[18;7;4;5;7];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Red Thief;pos=b6;rarity=4;slot=1;level=20;stats=[25;15;23;6;19];weapon=Steel Dagger;assist=-;special=-;a=-;b=Poison Strike 1;c=-;seal=-;ai={turn=1};};
+{unit=Loki: The Trickster;pos=d8;rarity=4;slot=2;level=20;stats=[28;20;21;10;17];weapon=Assault;assist=Reconcile;special=Kindled-Fire Balm;a=HP/Atk 1;b=-;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=4;slot=3;level=20;stats=[28;20;13;14;18];weapon=Steel Axe;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Red Thief;pos=b6;rarity=5;slot=1;level=40;stats=[36;28;38;13;32];weapon=Barb Shuriken+;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+{unit=Loki: The Trickster;pos=d8;rarity=5;slot=2;level=40;stats=[42;33;35;19;30];weapon=Thökk;assist=Restore+;special=Windfire Balm+;a=HP/Atk 2;b=-;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=5;slot=3;level=40;stats=[41;34;24;25;30];weapon=Silver Axe+;assist=-;special=-;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Mjölnir's Strike|Waking Realization}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=眠り病
+|german=Tiefer Schlaf
+|spanishEU=Epidemia del sueño
+|spanishLA=Epidemia del sueño
+|french=Sommeil de plomb
+|italian=L'epidemia del sonno
+|chineseTW=睡眠病
+|portuguese=Sono súbito
+}}
+{{Story Maps Navbox|book=4}}

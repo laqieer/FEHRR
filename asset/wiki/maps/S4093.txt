@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0409.webp
+|stageTitle=Chapter 9: Part 3
+|stageName=A Shadow's Vow
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 9: Violent Fantasies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4093
+|backdrop=
+|allyPos=e2,f2,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=36
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE12_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-07-20T07:00:00Z|notification=New Heroes: Heroes, Light and Shadow (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Kris: Unsung Hero;pos=c5;rarity=3;slot=1;level=24;stats=[28;22;25;18;15];weapon=Silver Lance;assist=-;special=New Moon;a=Fury 1;b=Spurn 1;c=Rouse Spd/Res 1;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=e7;rarity=3;slot=2;level=24;stats=[27;16;21;12;22];weapon=Steel Sword;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Guidance 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c7;rarity=3;slot=3;level=24;stats=[27;18;19;12;16];weapon=Elfire;assist=-;special=Chilling Wind;a=Fury 1;b=-;c=Def Ploy 1;seal=-;ai={group=1};};
+{unit=Green Thief;pos=f7;rarity=3;slot=4;level=24;stats=[26;16;23;7;19];weapon=Steel Dagger;assist=-;special=New Moon;a=-;b=Poison Strike 1;c=Spd Opening 1;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=a5;rarity=3;slot=5;level=24;stats=[28;21;13;14;14];weapon=Steel Bow;assist=-;special=Daylight;a=Sturdy Blow 1;b=-;c=Distant Guard 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Kris: Unsung Hero;pos=c5;rarity=4;slot=1;level=36;stats=[35;33;35;25;21];weapon=Spear of Shadow;assist=-;special=New Moon;a=Fury 2;b=Spurn 2;c=Rouse Spd/Res 2;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=e7;rarity=4;slot=2;level=36;stats=[33;23;31;17;32];weapon=Armorsmasher;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Guidance 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c7;rarity=4;slot=3;level=36;stats=[33;27;28;16;23];weapon=Rauðrfox;assist=-;special=Chilling Wind;a=Fury 2;b=-;c=Def Ploy 2;seal=-;ai={group=1};};
+{unit=Green Thief;pos=f7;rarity=4;slot=4;level=36;stats=[32;23;34;11;28];weapon=Barb Shuriken;assist=-;special=New Moon;a=-;b=Poison Strike 2;c=Spd Opening 2;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=a5;rarity=4;slot=5;level=36;stats=[35;31;18;20;20];weapon=Shining Bow;assist=-;special=Daylight;a=Sturdy Blow 1;b=-;c=Distant Guard 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Kris: Unsung Hero;pos=c5;rarity=5;slot=1;level=42;stats=[41;39;42;31;26];weapon=Spear of Shadow;assist=-;special=Moonbow;a=Fury 4;b=Spurn 3;c=Rouse Spd/Res 3;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=e7;rarity=5;slot=2;level=42;stats=[38;29;36;22;37];weapon=Armorsmasher+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Guidance 3;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c7;rarity=5;slot=3;level=42;stats=[38;32;33;20;29];weapon=Rauðrfox+;assist=-;special=Iceberg;a=Fury 3;b=-;c=Def Ploy 3;seal=-;ai={group=1};};
+{unit=Green Thief;pos=f7;rarity=5;slot=4;level=42;stats=[37;29;40;14;33];weapon=Barb Shuriken+;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=Spd Opening 3;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=a5;rarity=5;slot=5;level=42;stats=[41;36;23;25;24];weapon=Shining Bow+;assist=-;special=Noontime;a=Sturdy Blow 2;b=-;c=Distant Guard 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Rogue's Redemption|Agony of Youth}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=影の英雄の誓い
+|german=Schattenschwur
+|spanishEU=Juramento en las sombras
+|spanishLA=Juramento en las sombras
+|french=Serment de l'ombre
+|italian=La promessa di un'ombra
+|chineseTW=影之英雄的誓言
+|portuguese=A promessa da sombra
+}}
+{{Story Maps Navbox|book=4}}

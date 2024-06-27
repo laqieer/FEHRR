@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0411 C.webp
+|stageTitle=Chapter 11-5
+|stageName=Where It Started
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 11: Plumeria's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4115
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss7.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-09-18T07:00:00Z|notification=New Heroes: Despair and Hope (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Shinon: Scathing Archer;pos=a7;rarity=3;slot=1;level=30;stats=[31;27;31;18;17];weapon=Silver Bow;assist=-;special=Night Sky;a=Atk/Def Solo 2;b=Lull Atk/Spd 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Gatrie: Armored Amour;pos=d6;rarity=3;slot=2;level=30;stats=[36;31;11;31;25];weapon=Spirited Spear;assist=-;special=New Moon;a=Fort. Def/Res 1;b=Crafty Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Freyja: Lady of Nightmare;pos=c7;rarity=3;slot=3;level=30;stats=[30;27;31;17;16];weapon=Nightmare Horn;assist=-;special=Retribution;a=Fury 2;b=Lull Spd/Def 2;c=Atk Tactic 2;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=c8;rarity=3;slot=4;level=30;stats=[26;25;18;11;24];weapon=Rauðrblade;assist=Draw Back;special=Dragon Gaze;a=Life and Death 1;b=-;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Jill: Fiery Dracoknight;pos=e6;rarity=3;slot=5;level=30;stats=[31;28;29;26;11];weapon=Silver Axe;assist=-;special=New Moon;a=Atk/Spd Push 2;b=Chill Atk/Spd 1;c=Spd/Def Rein 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Shinon: Scathing Archer;pos=a7;rarity=4;slot=1;level=40;stats=[37;36;40;24;22];weapon=Double Bow;assist=-;special=Glimmer;a=Atk/Def Solo 3;b=Lull Atk/Spd 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Gatrie: Armored Amour;pos=d6;rarity=4;slot=2;level=40;stats=[44;40;15;42;32];weapon=Spirited Spear+;assist=-;special=New Moon;a=Fort. Def/Res 2;b=Crafty Fighter 2;c=-;seal=-;ai={turn=1};};
+{unit=Freyja: Lady of Nightmare;pos=c7;rarity=4;slot=3;level=40;stats=[37;36;42;22;20];weapon=Nightmare Horn;assist=-;special=Retribution;a=Fury 3;b=Lull Spd/Def 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=c8;rarity=4;slot=4;level=40;stats=[31;33;23;15;32];weapon=Rauðrblade;assist=Draw Back;special=Dragon Gaze;a=Life and Death 2;b=-;c=Ward Cavalry;seal=-;ai={turn=1};};
+{unit=Jill: Fiery Dracoknight;pos=e6;rarity=4;slot=5;level=40;stats=[37;36;38;34;15];weapon=Talregan Axe;assist=-;special=New Moon;a=Atk/Spd Push 3;b=Chill Atk/Spd 2;c=Spd/Def Rein 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Shinon: Scathing Archer;pos=a7;rarity=5;slot=1;level=45;stats=[43;42;46;30;27];weapon=Double Bow;assist=-;special=Deadeye;a=Atk/Def Solo 4;b=Lull Atk/Spd 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Gatrie: Armored Amour;pos=d6;rarity=5;slot=2;level=45;stats=[51;46;18;48;38];weapon=Spirited Spear+;assist=-;special=Moonbow;a=Fort. Def/Res 3;b=Crafty Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Freyja: Lady of Nightmare;pos=c7;rarity=5;slot=3;level=45;stats=[43;42;48;27;24];weapon=Nightmare Horn;assist=-;special=Vengeance;a=Fury 3;b=Lull Spd/Def 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=c8;rarity=5;slot=4;level=45;stats=[35;38;28;18;37];weapon=Rauðrblade+;assist=Draw Back;special=Draconic Aura;a=Life and Death 3;b=-;c=Ward Cavalry;seal=-;ai={turn=1};};
+{unit=Jill: Fiery Dracoknight;pos=e6;rarity=5;slot=5;level=45;stats=[43;43;44;39;18];weapon=Talregan Axe;assist=-;special=Moonbow;a=Atk/Spd Push 4;b=Chill Atk/Spd 2;c=Spd/Def Rein 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|What I Dreamed Of|Timeless Ties}}
+==In other languages==
+{{OtherLanguages
+|japanese=すべてが始まった日
+|german=Zurück zum Anfang
+|spanishEU=Donde todo empezó
+|spanishLA=Donde todo empezó
+|french=Là où tout a commencé
+|italian=Dove tutto è iniziato
+|chineseTW=那天是一切的開端
+|portuguese=Onde tudo começou
+}}
+{{Story Maps Navbox|book=4}}

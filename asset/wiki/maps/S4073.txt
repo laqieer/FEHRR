@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0407.webp
+|stageTitle=Chapter 7: Part 3
+|stageName=He of Two Hearts
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 7: Steeped in Twilight
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4073
+|backdrop=Wave
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=19
+|lvlHard=34
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE10_08.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-05-08T07:00:00Z|notification=New Heroes: Dark Burdens (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lyon: Demon King;pos=c6;rarity=3;slot=1;level=19;stats=[26;19;7;16;19];weapon=Elwind;assist=-;special=Daylight;a=Bonus Doubler 1;b=Null C-Disrupt 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=e6;rarity=3;slot=2;level=19;stats=[23;15;19;7;16];weapon=Elthunder;assist=Rally Defense;special=-;a=Death Blow 1;b=Dull Ranged 1;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=c8;rarity=3;slot=3;level=19;stats=[20;16;10;10;22];weapon=Assault;assist=Mend;special=-;a=Attack/Res 1;b=-;c=Res Ploy 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=a6;rarity=3;slot=4;level=19;stats=[27;16;15;15;7];weapon=Steel Bow;assist=-;special=-;a=Life and Death 1;b=Poison Strike 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Lyon: Demon King;pos=c6;rarity=4;slot=1;level=34;stats=[34;32;12;27;30];weapon=Rexcalibur;assist=-;special=Daylight;a=Bonus Doubler 2;b=Null C-Disrupt 2;c=Rouse Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=e6;rarity=4;slot=2;level=34;stats=[29;23;31;12;27];weapon=Thoron;assist=Rally Def/Res;special=-;a=Death Blow 2;b=Dull Ranged 2;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=c8;rarity=4;slot=3;level=34;stats=[26;27;16;16;35];weapon=Fear;assist=Physic;special=Imbue;a=Attack/Res 1;b=-;c=Res Ploy 2;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=a6;rarity=4;slot=4;level=34;stats=[37;27;24;23;12];weapon=Firesweep Bow;assist=-;special=New Moon;a=Life and Death 2;b=Poison Strike 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lyon: Demon King;pos=c6;rarity=5;slot=1;level=42;stats=[41;41;16;33;36];weapon=Blood Tome;assist=-;special=Sol;a=Bonus Doubler 3;b=Null C-Disrupt 3;c=Rouse Atk/Res 3;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=e6;rarity=5;slot=2;level=42;stats=[35;30;39;16;33];weapon=Thoron+;assist=Rally Def/Res+;special=-;a=Death Blow 3;b=Dull Ranged 3;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=c8;rarity=5;slot=3;level=42;stats=[30;33;22;20;43];weapon=Fear+;assist=Physic+;special=Heavenly Light;a=Attack/Res 2;b=-;c=Res Ploy 3;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=a6;rarity=5;slot=4;level=42;stats=[44;33;30;30;16];weapon=Firesweep Bow+;assist=-;special=Luna;a=Life and Death 3;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Touch of His Name|The War Within}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=二つの心宿す者
+|german=Zwei Herzen in der Brust
+|spanishEU=Corazón dividido
+|spanishLA=Corazón dividido
+|french=Le prince aux deux cœurs
+|italian=L'uomo dai due cuori
+|chineseTW=棲宿雙心者
+|portuguese=Dois corações
+}}
+{{Story Maps Navbox|book=4}}

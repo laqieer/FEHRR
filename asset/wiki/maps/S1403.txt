@@ -1,0 +1,120 @@
+{{Battle Infobox
+|bannerImage=Banner_Elincia Unrevealed.png
+|mapName=Chapter 13-3: Shadow over the Port
+|stageTitle=Chapter 13: Part 3
+|stageName=Shadow over the Port
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 13: Diabolical Bloodline
+|mapMode=Defensive Battle Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1403
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2={{Ally|1}} | e2={{Ally|2}} | f2=
+| a1= | b1= | c1= | d1={{Ally|3}} | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=28
+|lvlHard=34
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Defend: 7
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE09_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-09-15T07:00:00Z|notification=New Heroes: Dauntless Crimeans Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S1403
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Oscar: Agile Horseman;pos=b7;rarity=3;slot=1;level=28;stats=[31;22;23;18;14];weapon=Steel Lance;assist=Rally Speed;special=-;a=-;b=Lancebreaker 1;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Black Knight: Sinister General;pos=d5;rarity=3;slot=2;level=28;stats=[45;27;27;28;15];weapon=Alondite;assist=-;special=Black Luna;a=Steady Stance 3;b=Wings of Mercy 3;c=-;seal=Embla's Ward;ai={turn=1};spawn={turn=4};};
+{unit=Sword Fighter;pos=e8;rarity=3;slot=3;level=28;stats=[34;21;21;21;15];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Armored Blow 1;b=Knock Back;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a8;rarity=3;slot=4;level=28;stats=[29;21;22;13;19];weapon=Elwind;assist=-;special=-;a=Resistance +1;b=-;c=Atk Ploy 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=a4;rarity=3;slot=5;level=28;stats=[34;21;21;21;15];weapon=Steel Sword;assist=-;special=New Moon;a=Darting Blow 1;b=Seal Atk 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c6;rarity=3;slot=6;level=28;stats=[29;19;24;14;25];weapon=Steel Axe;assist=-;special=-;a=-;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f1;rarity=3;slot=7;level=28;stats=[29;19;24;14;25];weapon=Steel Axe;assist=-;special=Chilling Wind;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Sword Cavalier;pos=a8;rarity=3;slot=8;level=28;stats=[32;23;16;17;21];weapon=Steel Sword;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};spawn={turn=5};};
+{unit=Bow Fighter;pos=f8;rarity=3;slot=9;level=28;stats=[33;22;20;20;10];weapon=Steel Bow;assist=-;special=-;a=-;b=Poison Strike 1;c=Savage Blow 1;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Axe Cavalier;pos=f8;rarity=3;slot=10;level=28;stats=[32;23;16;17;21];weapon=Steel Axe;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};spawn={turn=5};};
+]
+|Hard=[
+{unit=Oscar: Agile Horseman;pos=b7;rarity=4;slot=1;level=34;stats=[34;28;29;22;17];weapon=Sapphire Lance;assist=Rally Spd/Def;special=-;a=-;b=Lancebreaker 2;c=Spur Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Black Knight: Sinister General;pos=d5;rarity=4;slot=2;level=34;stats=[52;34;32;34;19];weapon=Alondite;assist=-;special=Black Luna;a=Steady Stance 3;b=Wings of Mercy 3;c=-;seal=Embla's Ward;cooldown=1;ai={turn=1};spawn={turn=4};};
+{unit=Sword Fighter;pos=e8;rarity=4;slot=3;level=34;stats=[38;26;25;25;18];weapon=Slaying Edge;assist=-;special=Draconic Aura;a=Sturdy Blow 1;b=Knock Back;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a8;rarity=4;slot=4;level=34;stats=[33;26;27;16;22];weapon=Rexcalibur;assist=-;special=-;a=Resistance +2;b=-;c=Atk Ploy 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=a4;rarity=4;slot=5;level=34;stats=[38;26;25;25;18];weapon=Ruby Sword;assist=-;special=Luna;a=Darting Blow 2;b=Seal Atk 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c6;rarity=4;slot=6;level=34;stats=[33;22;30;17;31];weapon=Brave Axe;assist=-;special=-;a=-;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f1;rarity=4;slot=7;level=34;stats=[33;22;30;17;31];weapon=Slaying Axe;assist=-;special=Glacies;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lance Cavalier;pos=d8;rarity=4;slot=8;level=34;stats=[35;29;20;21;25];weapon=Silver Lance;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=a8;rarity=4;slot=9;level=34;stats=[35;29;20;21;25];weapon=Brave Sword;assist=-;special=-;a=Death Blow 2;b=-;c=-;seal=-;ai={turn=1};spawn={turn=5};};
+{unit=Bow Fighter;pos=f8;rarity=4;slot=10;level=34;stats=[37;27;24;23;13];weapon=Firesweep Bow;assist=-;special=-;a=-;b=Poison Strike 2;c=Savage Blow 2;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Axe Cavalier;pos=f8;rarity=4;slot=11;level=34;stats=[35;29;20;21;25];weapon=Brave Axe;assist=-;special=-;a=Death Blow 2;b=-;c=-;seal=-;ai={turn=1};spawn={turn=5};};
+{unit=Green Mage;pos=b4;rarity=4;slot=12;level=34;stats=[33;26;27;16;22];weapon=Rexcalibur;assist=-;special=-;a=-;b=-;c=Threaten Res 2;seal=-;ai={turn=1};spawn={turn=6};};
+]
+|Lunatic=[
+{unit=Oscar: Agile Horseman;pos=b7;rarity=5;slot=1;level=42;displaylevel=40;stats=[41;35;36;28;22];weapon=Sapphire Lance+;assist=Rally Spd/Def;special=-;a=-;b=Lancebreaker 3;c=Spur Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Black Knight: Sinister General;pos=d5;rarity=5;slot=2;level=42;displaylevel=40;stats=[75;40;41;42;24];weapon=Alondite;assist=-;special=Black Luna;a=Steady Stance 3;b=Wings of Mercy 3;c=Threaten Def 3;seal=Embla's Ward;cooldown=0;ai={turn=1};spawn={turn=4};};
+{unit=Sword Fighter;pos=e8;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Slaying Edge+;assist=-;special=Draconic Aura;a=Sturdy Blow 2;b=Knock Back;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a8;rarity=5;slot=4;level=42;displaylevel=40;stats=[39;32;33;21;29];weapon=Rexcalibur+;assist=-;special=-;a=Resistance +3;b=-;c=Atk Ploy 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=a4;rarity=5;slot=5;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Ruby Sword+;assist=-;special=Luna;a=Darting Blow 3;b=Seal Atk 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c6;rarity=5;slot=6;level=42;displaylevel=40;stats=[39;29;37;22;38];weapon=Brave Axe+;assist=-;special=-;a=-;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f1;rarity=5;slot=7;level=42;displaylevel=40;stats=[39;29;37;22;38];weapon=Slaying Axe+;assist=-;special=Glacies;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lance Cavalier;pos=d8;rarity=5;slot=8;level=42;displaylevel=40;stats=[42;36;26;27;31];weapon=Silver Lance+;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=a8;rarity=5;slot=9;level=42;displaylevel=40;stats=[42;36;26;27;31];weapon=Brave Sword+;assist=-;special=-;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};spawn={turn=5};};
+{unit=Bow Fighter;pos=f8;rarity=5;slot=10;level=42;displaylevel=40;stats=[44;33;30;30;17];weapon=Firesweep Bow+;assist=-;special=-;a=-;b=Poison Strike 3;c=Savage Blow 3;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Axe Cavalier;pos=f8;rarity=5;slot=11;level=42;displaylevel=40;stats=[42;36;26;27;31];weapon=Brave Axe+;assist=-;special=-;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};spawn={turn=5};};
+{unit=Green Mage;pos=b4;rarity=5;slot=12;level=42;displaylevel=40;stats=[39;32;33;21;29];weapon=Rexcalibur+;assist=-;special=-;a=-;b=-;c=Threaten Res 3;seal=-;ai={turn=1};spawn={turn=6};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Bruno's Secret|A Bond Renewed}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=港町の死闘
+|german=Hafen in Schatten
+|spanishEU=Sombras sobre el puerto
+|spanishLA=Sombras sobre el puerto
+|french=Ombre sur le port
+|italian=Ombre sul porto
+|chineseTW=港都死鬥
+|portuguese=Sombras sobre o porto
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Blood_Runs_Red|Fire Emblem: Path of Radiance - Chapter 11: Blood Runs Red]]. ([https://www.youtube.com/watch?v=5jn9grJH6T4 Map Video])
+{{Story Maps Navbox|book=1}}

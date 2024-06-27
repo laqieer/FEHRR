@@ -1,0 +1,58 @@
+{{Battle Infobox
+|bannerImage=Banner_Anna.png
+|mapName=Prologue 3: Heroes in Battle
+|stageTitle=Prologue: Part 3
+|stageName=Heroes in Battle
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Prologue: World of Zenith
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0103
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2={{Ally|1}} | b2={{Ally|2}} | c2= | d2= | e2= | f2=
+| a1={{Ally|3}} | b1={{Ally|4}} | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|rarityNormal=2
+|stamNormal=2
+|reward={Normal={kind=Orb};}
+|BGM=bgm_map_Brave_01.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Xander: Paragon Knight;pos=e7;rarity=2;slot=1;level=3;stats=[20;3;5;4;0];weapon=Iron Sword;assist=Reposition;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Bow Fighter;pos=e5;rarity=1;slot=2;level=2;stats=[15;2;6;1;0];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Troubadour;pos=f7;rarity=1;slot=3;level=2;stats=[14;1;3;0;2];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Fighter;pos=d7;rarity=1;slot=4;level=2;stats=[17;2;6;2;0];weapon=Iron Sword;assist=Rally Defense;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+
+==Story==
+{{/Story}}
+{{StoryNav|Proof of Power|Mystery Trial}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=英雄相争う
+|german=Helden im Kampf
+|spanishEU=Héroes en liza
+|spanishLA=Héroes en combate
+|french=La guerre des héros
+|italian=Eroi in azione
+|chineseTW=英雄相爭
+|portuguese=Heróis em combate
+}}
+{{Story Maps Navbox|book=1}}

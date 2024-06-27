@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_TikiY Unrevealed.png
+|mapName=Chapter 5-4: Three Sisters Fly
+|stageTitle=Chapter 5: Part 4
+|stageName=Three Sisters Fly
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 5: Back to Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0604
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4=| e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2= | d2= | e2= | f2=
+| a1= | b1={{Ally|2}} | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=21
+|lvlLunatic=31
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=6
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Catria: Middle Whitewing;pos=b7;rarity=3;slot=1;level=11;stats=[21;12;14;10;10];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Palla: Eldest Whitewing;pos=c8;rarity=3;slot=2;level=11;stats=[23;12;12;9;11];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Est: Junior Whitewing;pos=d7;rarity=3;slot=3;level=11;stats=[21;14;11;8;13];weapon=Heavy Spear;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=c7;rarity=3;slot=4;level=11;stats=[31;16;5;18;7];weapon=Steel Axe;assist=Pivot;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Catria: Middle Whitewing;pos=b7;rarity=3;slot=1;level=21;stats=[26;17;20;16;14];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Palla: Eldest Whitewing;pos=c8;rarity=3;slot=2;level=21;stats=[28;17;18;15;15];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Est: Junior Whitewing;pos=d7;rarity=3;slot=3;level=21;stats=[25;20;17;13;18];weapon=Heavy Spear;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=c7;rarity=3;slot=4;level=21;stats=[38;22;8;24;10];weapon=Steel Axe;assist=Pivot;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Catria: Middle Whitewing;pos=b7;rarity=4;slot=1;level=31;stats=[32;24;27;22;19];weapon=Killer Lance;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Palla: Eldest Whitewing;pos=c8;rarity=4;slot=2;level=31;stats=[34;24;25;21;20];weapon=Silver Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Est: Junior Whitewing;pos=d7;rarity=4;slot=3;level=31;stats=[30;28;24;18;24];weapon=Heavy Spear;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=c7;rarity=4;slot=4;level=31;stats=[46;31;12;33;14];weapon=Silver Axe;assist=Pivot;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=三姉妹、舞う
+|german=Schwestern der Lüfte
+|spanishEU=Tres hermanas aladas
+|spanishLA=Tres hermanas aladas
+|french=Les sœurs pégase
+|italian=Tre sorelle volanti
+|chineseTW=三姊妹，飛舞空中
+|portuguese=Três irmãs aladas
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Clash_in_Macedon|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 21: Clash in Macedon]]. ([[fireemblemwikia:File:FE1_Chapter_21.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

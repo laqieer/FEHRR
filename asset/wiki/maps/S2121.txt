@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0212.png
+|stageTitle=Chapter 12-1
+|stageName=Suspicion
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 12: Seeping Poison
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2121
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_06.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-07T07:00:00Z|notification=New Heroes: Doorway to Destiny (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Jamke: Prince of Verdane;pos=b6;rarity=3;slot=1;level=28;stats=[28;24;22;19;11];weapon=Slaying Bow;assist=-;special=Night Sky;a=Heavy Blade 1;b=Cancel Affinity 1;c=-;seal=-;ai={group=1};};
+{unit=Quan: Luminous Lancer;pos=c7;rarity=3;slot=2;level=28;stats=[33;26;18;20;10];weapon=Silver Lance;assist=Rally Defense;special=Dragon Gaze;a=Steady Posture 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=3;slot=3;level=28;stats=[29;20;21;13;18];weapon=Elfire;assist=-;special=Chilling Wind;a=Attack/Res 1;b=-;c=Def Ploy 1;seal=-;ai={group=1};};
+{unit=Sword Dragon;pos=e6;rarity=3;slot=4;level=28;stats=[31;24;17;25;12];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Armored Blow 1;b=-;c=Guidance 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=f6;rarity=3;slot=5;level=28;stats=[26;18;18;15;24];weapon=Gravity;assist=Physic;special=Imbue;a=-;b=Live to Serve 1;c=Res Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Jamke: Prince of Verdane;pos=b6;rarity=4;slot=1;level=35;stats=[33;31;28;24;13];weapon=Slaying Bow;assist=-;special=Night Sky;a=Heavy Blade 2;b=Cancel Affinity 2;c=-;seal=-;ai={group=1};};
+{unit=Quan: Luminous Lancer;pos=c7;rarity=4;slot=2;level=35;stats=[38;32;23;26;12];weapon=Silver Lance;assist=Rally Spd/Def;special=Dragon Gaze;a=Steady Posture 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=4;slot=3;level=35;stats=[33;26;27;16;23];weapon=Bolganone;assist=-;special=Chilling Wind;a=Attack/Res 1;b=-;c=Def Ploy 2;seal=-;ai={group=1};};
+{unit=Sword Dragon;pos=e6;rarity=4;slot=4;level=35;stats=[36;30;22;31;15];weapon=Slaying Edge;assist=-;special=Glowing Ember;a=Armored Blow 2;b=-;c=Guidance 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=f6;rarity=4;slot=5;level=35;stats=[30;24;23;19;30];weapon=Gravity;assist=Physic;special=Imbue;a=-;b=Live to Serve 2;c=Res Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Jamke: Prince of Verdane;pos=b6;rarity=5;slot=1;level=40;stats=[38;36;32;29;17];weapon=Slaying Bow+;assist=-;special=Astra;a=Heavy Blade 3;b=Cancel Affinity 3;c=-;seal=-;ai={group=1};};
+{unit=Quan: Luminous Lancer;pos=c7;rarity=5;slot=2;level=40;stats=[44;37;29;31;16];weapon=Gáe Bolg;assist=Rally Spd/Def+;special=Draconic Aura;a=Steady Posture 2;b=-;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Bolganone+;assist=-;special=Iceberg;a=Attack/Res 2;b=-;c=Def Ploy 3;seal=-;ai={group=1};};
+{unit=Sword Dragon;pos=e6;rarity=5;slot=4;level=40;stats=[41;35;27;36;19];weapon=Slaying Edge+;assist=-;special=Ignis;a=Armored Blow 3;b=-;c=Guidance 3;seal=-;ai={group=1};};
+{unit=Cleric;pos=f6;rarity=5;slot=5;level=40;stats=[34;28;28;23;35];weapon=Gravity+;assist=Physic+;special=Imbue;a=-;b=Live to Serve 3;c=Res Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Jamke: Prince of Verdane (map)|Scion of a Crusader}}
+
+==In other languages==
+{{OtherLanguages
+|english=Suspicion
+|japanese=疑心
+|german=Verdacht
+|spanishEU=Sospechas
+|spanishLA=Sospechas
+|french=Suspicion
+|italian=Sospetti
+|chineseTW=猜疑
+|portuguese=Suspeita
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Roy Unrevealed.png
+|mapName=Chapter 3-3: Desert Dragons
+|stageTitle=Chapter 3: Part 3
+|stageName=Desert Dragons
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 3: World of Binding
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0403
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Ally|1}} | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2={{Ally|2}} | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=16
+|lvlLunatic=26
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Fae: Divine Dragon;pos=a8;rarity=3;slot=1;level=6;stats=[18;5;5;5;7];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=Threaten Atk 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Sophia: Nabata Prophet;pos=f5;rarity=3;slot=2;level=6;stats=[19;9;4;6;6];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=e7;rarity=2;slot=3;level=6;stats=[20;7;7;6;2];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Raigh: Dark Child;pos=c6;rarity=3;slot=4;level=6;stats=[17;8;8;4;6];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Fae: Divine Dragon;pos=a8;rarity=3;slot=1;level=16;stats=[26;14;11;12;15];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=Threaten Atk 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Sophia: Nabata Prophet;pos=f5;rarity=3;slot=2;level=16;stats=[25;16;8;13;14];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=e7;rarity=2;slot=3;level=16;stats=[26;14;13;14;9];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Raigh: Dark Child;pos=c6;rarity=3;slot=4;level=16;stats=[23;15;14;10;14];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Fae: Divine Dragon;pos=a8;rarity=4;slot=1;level=26;stats=[34;21;18;18;21];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=Threaten Atk 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Sophia: Nabata Prophet;pos=f5;rarity=4;slot=2;level=26;stats=[30;24;12;18;20];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Fighter;pos=e7;rarity=3;slot=3;level=26;stats=[33;20;20;20;14];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Raigh: Dark Child;pos=c6;rarity=4;slot=4;level=26;stats=[28;23;20;15;19];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=砂漠に住まう竜
+|german=Wüstendrachen
+|spanishEU=Dragones del desierto
+|spanishLA=Dragones del desierto
+|french=Les dragons du désert
+|italian=Due draghi del deserto
+|chineseTW=盤踞沙漠之龍
+|portuguese=Dragões do deserto
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Arcadia_(chapter)|Fire Emblem: The Binding Blade - Chapter 14: Arcadia]]. ([[fireemblemwikia:File:Nabata2.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

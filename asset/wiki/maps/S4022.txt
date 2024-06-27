@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0402.webp
+|stageTitle=Chapter 2-2
+|stageName=General's Scorn
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 2: Missing You
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4022
+|backdrop=
+|allyPos=c5,d5,c4,d4
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=24
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Kempf: Conniving General;pos=a8;rarity=3;slot=1;level=4;stats=[18;7;7;8;7];weapon=Iron Sword;assist=-;special=Holy Vestments;a=Fortress Res 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d8;rarity=3;slot=2;level=4;stats=[26;10;2;12;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=a1;rarity=3;slot=3;level=4;stats=[19;8;7;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f1;rarity=3;slot=4;level=4;stats=[19;8;7;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Kempf: Conniving General;pos=a8;rarity=4;slot=1;level=24;stats=[30;21;20;19;17];weapon=Steel Sword;assist=-;special=Holy Vestments;a=Fortress Res 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d8;rarity=4;slot=2;level=24;stats=[41;25;9;27;11];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Bold Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=a1;rarity=4;slot=3;level=24;stats=[31;21;19;18;9];weapon=Steel Bow;assist=-;special=New Moon;a=-;b=Lancebreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f1;rarity=4;slot=4;level=24;stats=[31;21;19;18;9];weapon=Steel Bow;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Kempf: Conniving General;pos=a8;rarity=5;slot=1;level=41;displaylevel=40;stats=[42;34;34;28;27];weapon=Venin Edge;assist=-;special=Aegis;a=Fortress Res 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d8;rarity=5;slot=2;level=41;displaylevel=40;stats=[56;39;16;41;19];weapon=Silver Lance+;assist=-;special=Bonfire;a=-;b=Bold Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=a1;rarity=5;slot=3;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Short Bow+;assist=-;special=Moonbow;a=-;b=Lancebreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f1;rarity=5;slot=4;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Slaying Bow+;assist=-;special=Astra;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Kempf: Conniving General;text=All this praise for Reinhardt...\nLudicrous! Name one thing\nI cannot do better!;textJP=どいつもこいつもラインハルトと…\nあいつのどこが俺に勝るというのだ！};
+]}}
+{{Story Navbar|Lost in a Dream|Swordmaster's Regret}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=智将の憤懣
+|german=Zorn des Generals
+|spanishEU=El desdén del general
+|spanishLA=El desdén del general
+|french=Général dédaigneux
+|italian=Lo sdegno del generale
+|chineseTW=智將的憤懣
+|portuguese=Desdém do general
+}}
+{{Story Maps Navbox|book=4}}

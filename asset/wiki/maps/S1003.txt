@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=Banner_Veronica Unrevealed.png
+|mapName=Chapter 9-3: The Blue Crow
+|stageTitle=Chapter 9: Part 3
+|stageName=The Blue Crow
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 9: Heroes Invade
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1003
+| a8= | b8= | c8= | d8= | e8= | f8= 
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1={{Ally|1}} | b1={{Ally|2}} | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ursula: Blue Crow;pos=f8;rarity=3;slot=1;level=22;stats=[24;17;19;10;18];weapon=Blárwolf;assist=-;special=-;a=Death Blow 2;b=-;c=Goad Cavalry;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=b8;rarity=3;slot=2;level=22;stats=[23;21;14;9;20];weapon=Elwind;assist=-;special=-;a=-;b=Seal Atk 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=d7;rarity=3;slot=3;level=22;stats=[29;20;13;14;18];weapon=Armorslayer;assist=-;special=-;a=-;b=Seal Atk 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=3;slot=4;level=22;stats=[39;23;8;25;10];weapon=Steel Axe;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=a6;rarity=3;slot=5;level=22;stats=[39;23;8;25;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Ursula: Blue Crow;pos=f8;rarity=4;slot=1;level=32;stats=[30;22;26;14;24];weapon=Blárwolf;assist=-;special=-;a=Death Blow 2;b=-;c=Goad Cavalry;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=b8;rarity=4;slot=2;level=32;stats=[28;29;20;13;28];weapon=Rexcalibur;assist=-;special=-;a=-;b=Seal Atk 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=d7;rarity=4;slot=3;level=32;stats=[34;28;19;20;24];weapon=Armorslayer;assist=-;special=-;a=-;b=Seal Atk 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=4;slot=4;level=32;stats=[47;31;12;33;14];weapon=Silver Axe;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=a6;rarity=4;slot=5;level=32;stats=[47;31;12;33;14];weapon=Silver Lance;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Ursula: Blue Crow;pos=f8;rarity=5;slot=1;level=42;displaylevel=40;stats=[37;30;33;20;31];weapon=Blárwolf+;assist=-;special=-;a=Death Blow 3;b=-;c=Goad Cavalry;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=b8;rarity=5;slot=2;level=42;displaylevel=40;stats=[34;37;27;18;36];weapon=Rexcalibur+;assist=-;special=-;a=-;b=Seal Atk 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=d7;rarity=5;slot=3;level=42;displaylevel=40;stats=[42;36;26;27;31];weapon=Armorslayer+;assist=-;special=-;a=-;b=Seal Atk 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=5;slot=4;level=42;displaylevel=40;stats=[57;40;17;42;20];weapon=Silver Axe+;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=a6;rarity=5;slot=5;level=42;displaylevel=40;stats=[57;40;17;42;20];weapon=Silver Lance+;assist=-;special=-;a=-;b=Drag Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=蒼鴉は見つめる
+|german=Die Blaue Krähe
+|spanishEU=El Cuervo Azul
+|spanishLA=El Cuervo Azul
+|french=L'oiseau bleu
+|italian=Il Corvo Blu
+|chineseTW=蒼鴉凝視
+|portuguese=O corvo azul
+}}
+{{Story Maps Navbox|book=1}}

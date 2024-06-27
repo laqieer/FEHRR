@@ -1,0 +1,116 @@
+{{Battle Infobox
+|bannerImage=Banner_Celica Unrevealed.png
+|mapName=Chapter 11-3: The Mountain of Fear
+|stageTitle=Chapter 11: Part 3
+|stageName=The Mountain of Fear
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 11: Rite of Shadows
+|mapMode=Defensive Battle Map
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1203
+| a8= | b8= | c8={{Ally|1}} | d8={{Ally|2}} | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6={{Ally|3}}
+| a5= | b5= | c5= | d5= | e5= | f5={{Ally|4}}
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Defend: 6
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-05-15T07:00:00Z|notification=New Heroes: Rite of Shadows Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|backdrop=
+|baseMap=S1203
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Celica: Caring Princess;pos=a1;rarity=3;slot=1;level=22;stats=[27;19;19;12;13];weapon=Bolganone;assist=-;special=-;a=Distant Def 1;b=-;c=Spur Def 1;seal=Embla's Ward;ai={turn=4};};
+{unit=Mae: Bundle of Energy;pos=c2;rarity=3;slot=2;level=22;stats=[24;22;18;8;18];weapon=Blárowl;assist=-;special=-;a=-;b=Desperation 1;c=B Tome Exp. 1;seal=-;ai={turn=1};};
+{unit=Genny: Endearing Ally;pos=b2;rarity=3;slot=3;level=22;stats=[23;21;14;11;20];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 1;c=-;seal=-;ai={turn=1};};
+{unit=Palla: Eldest Whitewing;pos=e1;rarity=3;slot=4;level=22;stats=[29;18;19;16;15];weapon=Ruby Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a3;rarity=3;slot=5;level=22;stats=[29;20;13;14;18];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=a1;rarity=3;slot=6;level=22;stats=[26;16;21;11;22];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=a3;rarity=3;slot=7;level=22;stats=[29;20;13;14;18];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3;target=Lance Cavalier;remain=0};};
+{unit=Bow Fighter;pos=a2;rarity=3;slot=8;level=22;stats=[30;19;17;17;8];weapon=Steel Bow;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lance Knight;pos=a5;rarity=3;slot=9;level=22;stats=[39;23;8;25;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Blue Mage;pos=b1;rarity=3;slot=10;level=22;stats=[26;18;19;11;16];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=Hone Atk 1;seal=-;ai={turn=1};spawn={turn=4;target=Mae: Bundle of Energy;remain=0};};
+]
+|Hard=[
+{unit=Celica: Caring Princess;pos=a1;rarity=4;slot=1;level=32;stats=[32;26;27;17;17];weapon=Bolganone;assist=-;special=Rising Light;a=Distant Def 2;b=-;c=Spur Def 2;seal=Embla's Ward;ai={turn=4};};
+{unit=Mae: Bundle of Energy;pos=c2;rarity=4;slot=2;level=32;stats=[30;30;24;12;24];weapon=Blárowl;assist=-;special=-;a=-;b=Desperation 2;c=B Tome Exp. 2;seal=-;ai={turn=1};};
+{unit=Genny: Endearing Ally;pos=b2;rarity=4;slot=3;level=32;stats=[27;29;20;16;28];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 2;c=-;seal=-;ai={turn=1};};
+{unit=Palla: Eldest Whitewing;pos=e1;rarity=4;slot=4;level=32;stats=[35;25;25;21;21];weapon=Ruby Sword;assist=-;special=-;a=-;b=Wings of Mercy 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a3;rarity=4;slot=5;level=32;stats=[34;28;19;20;24];weapon=Silver Lance;assist=-;special=-;a=Defense +1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=a1;rarity=4;slot=6;level=32;stats=[32;21;29;16;30];weapon=Hammer;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=a3;rarity=4;slot=7;level=32;stats=[34;28;19;20;24];weapon=Killing Edge;assist=-;special=Night Sky;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3;target=Lance Cavalier;remain=0};};
+{unit=Bow Fighter;pos=a2;rarity=4;slot=8;level=32;stats=[36;26;23;22;12];weapon=Silver Bow;assist=-;special=-;a=Death Blow 2;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lance Knight;pos=a5;rarity=4;slot=9;level=32;stats=[47;31;12;33;14];weapon=Silver Lance;assist=-;special=-;a=-;b=Wary Fighter 2;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Blue Mage;pos=b1;rarity=4;slot=10;level=32;stats=[32;25;26;15;21];weapon=Blárraven;assist=-;special=-;a=-;b=-;c=Hone Atk 2;seal=-;ai={turn=1};spawn={turn=4;target=Mae: Bundle of Energy;remain=0};};
+]
+|Lunatic=[
+{unit=Celica: Caring Princess;pos=a1;rarity=5;slot=1;level=42;displaylevel=40;stats=[40;33;35;23;23];weapon=Ragnarok;assist=-;special=Blazing Light;a=Distant Def 3;b=-;c=Spur Def 3;seal=Embla's Ward;ai={turn=4};};
+{unit=Mae: Bundle of Energy;pos=c2;rarity=5;slot=2;level=42;displaylevel=40;stats=[37;38;32;17;31];weapon=Blárowl+;assist=-;special=-;a=-;b=Desperation 3;c=B Tome Exp. 3;seal=-;ai={turn=1};};
+{unit=Genny: Endearing Ally;pos=b2;rarity=5;slot=3;level=42;displaylevel=40;stats=[33;37;27;22;36];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 3;c=-;seal=-;ai={turn=1};};
+{unit=Palla: Eldest Whitewing;pos=e1;rarity=5;slot=4;level=42;displaylevel=40;stats=[43;32;32;29;28];weapon=Ruby Sword+;assist=-;special=-;a=-;b=Wings of Mercy 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a3;rarity=5;slot=5;level=42;displaylevel=40;stats=[42;36;26;27;31];weapon=Silver Lance+;assist=-;special=-;a=Defense +3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=a1;rarity=5;slot=6;level=42;displaylevel=40;stats=[39;29;37;22;38];weapon=Hammer+;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=a3;rarity=5;slot=7;level=42;displaylevel=40;stats=[42;36;26;27;31];weapon=Killing Edge+;assist=-;special=Astra;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3;target=Lance Cavalier;remain=0};};
+{unit=Bow Fighter;pos=a2;rarity=5;slot=8;level=42;displaylevel=40;stats=[44;33;30;30;17];weapon=Silver Bow+;assist=-;special=-;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Lance Knight;pos=a5;rarity=5;slot=9;level=42;displaylevel=40;stats=[57;40;17;42;20];weapon=Silver Lance+;assist=-;special=-;a=-;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Blue Mage;pos=b1;rarity=5;slot=10;level=42;displaylevel=40;stats=[39;32;33;21;29];weapon=Blárraven+;assist=-;special=-;a=-;b=-;c=Hone Atk 3;seal=-;ai={turn=1};spawn={turn=4;target=Mae: Bundle of Energy;remain=0};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Caring Princess|The Dark Domain}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=恐怖の山
+|german=Der Berg der Angst
+|spanishEU=La montaña del miedo
+|spanishLA=La montaña del miedo
+|french=La Montagne de la peur
+|italian=Monte Paura
+|chineseTW=恐怖之山
+|portuguese=A montanha do medo
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Land_of_Sorrow_(Gaiden)|Fire Emblem Echoes: Shadows of Valentia - Act 4: Land of Sorrow - Fear Mountain Battle]]. ([https://www.youtube.com/watch?v=u3MKU6pCvrM Map Video])
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0412.webp
+|stageTitle=Chapter 12-1
+|stageName=World of Steel
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 12: Triandra's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4121
+|backdrop=
+|allyPos=a5,b5,a4,b4
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-10-19T07:00:00Z|notification=New Heroes: Goddess's Servants (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Catherine: Thunder Knight;pos=e8;rarity=3;slot=1;level=28;stats=[32;26;28;20;15];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=e6;rarity=3;slot=2;level=28;stats=[29;19;25;21;17];weapon=Fire Breath+;assist=Reposition;special=-;a=-;b=Hit and Run;c=Guidance 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f3;rarity=3;slot=3;level=28;stats=[26;18;18;15;24];weapon=Assault;assist=Mend;special=Kindled-Fire Balm;a=Attack +1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d1;rarity=3;slot=4;level=28;stats=[28;21;23;11;19];weapon=Steel Bow;assist=-;special=New Moon;a=Fury 1;b=-;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=3;slot=5;level=28;stats=[25;24;17;11;23];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Chill Spd 1;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Catherine: Thunder Knight;pos=e8;rarity=4;slot=1;level=35;stats=[37;34;36;25;19];weapon=Thunderbrand;assist=-;special=Dragon Gaze;a=Swift Sparrow 2;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=e6;rarity=4;slot=2;level=35;stats=[34;24;31;27;22];weapon=Dark Breath;assist=Reposition;special=-;a=-;b=Hit and Run;c=Guidance 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f3;rarity=4;slot=3;level=35;stats=[30;24;23;19;30];weapon=Gravity;assist=Physic;special=Windfire Balm;a=Attack +2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d1;rarity=4;slot=4;level=35;stats=[32;27;29;13;24];weapon=Brave Bow;assist=-;special=New Moon;a=Fury 2;b=-;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=4;slot=5;level=35;stats=[29;30;21;13;29];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=-;b=Chill Spd 2;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Catherine: Thunder Knight;pos=e8;rarity=5;slot=1;level=40;stats=[43;39;41;30;23];weapon=Thunderbrand;assist=-;special=Draconic Aura;a=Swift Sparrow 3;b=Lull Spd/Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=e6;rarity=5;slot=2;level=40;stats=[39;29;36;32;27];weapon=Dark Breath+;assist=Reposition;special=-;a=-;b=Hit and Run;c=Guidance 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f3;rarity=5;slot=3;level=40;stats=[34;28;28;23;35];weapon=Gravity+;assist=Physic+;special=Windfire Balm+;a=Attack +3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d1;rarity=5;slot=4;level=40;stats=[36;32;34;17;29];weapon=Brave Bow+;assist=-;special=Luna;a=Fury 3;b=-;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=5;slot=5;level=40;stats=[33;35;25;17;34];weapon=Rexcalibur+;assist=-;special=Iceberg;a=-;b=Chill Spd 3;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ever Two Halves|Sister of the Church}}
+==In other languages==
+{{OtherLanguages
+|japanese=鋼の世界
+|german=Welt aus Stahl
+|spanishEU=El mundo de acero
+|spanishLA=El mundo de acero
+|french=Monde d'acier
+|italian=Il mondo dell'acciaio
+|chineseTW=鋼鐵世界
+|portuguese=O mundo de aço
+}}
+{{Story Maps Navbox|book=4}}

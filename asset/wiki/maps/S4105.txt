@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0410 C.webp
+|stageTitle=Chapter 10-5
+|stageName=To Feel Loved
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 10: Lack
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4105
+|backdrop=
+|allyPos=c3,d3,c2,d2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to win: 4 (Normal)<br>Turns to win: 3 (Hard)<br>Turns to win: 3 (Lunatic)
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss7.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-08-18T07:00:00Z|notification=New Heroes: A New Future (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Freyr: Dream-King;pos=c8;rarity=3;slot=1;level=28;stats=[30;28;10;22;26];weapon=-;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lysithea: Earnest Seeker;pos=e7;rarity=3;slot=2;level=28;stats=[30;27;26;13;17];weapon=Fenrir;assist=-;special=New Moon;a=Atk/Spd Push 2;b=Lull Spd/Res 1;c=Hone Spd 2;seal=-;ai={group=1};};
+{unit=Dimitri: King of Faerghus;pos=a5;rarity=3;slot=3;level=28;stats=[31;27;24;27;13];weapon=Silver Lance;assist=-;special=Daylight;a=Atk/Def Bond 2;b=-;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Claude: Almyra's King;pos=b7;rarity=3;slot=4;level=28;stats=[31;24;27;15;17];weapon=Silver Bow;assist=-;special=New Moon;a=Fury 2;b=Chill Spd/Def 1;c=Atk/Spd Rein 1;seal=-;ai={group=1};};
+{unit=Edelgard: Adrestian Emperor;pos=f5;rarity=3;slot=5;level=28;stats=[35;31;10;30;24];weapon=Silver Axe;assist=-;special=Daylight;a=Warding Stance 2;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Freyr: Dream-King;pos=c8;rarity=4;slot=1;level=40;stats=[38;38;14;30;37];weapon=-;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lysithea: Earnest Seeker;pos=e7;rarity=4;slot=2;level=40;stats=[37;38;37;19;23];weapon=Dark Spikes Τ;assist=-;special=New Moon;a=Atk/Spd Push 3;b=Lull Spd/Res 2;c=Hone Spd 3;seal=-;ai={group=1};};
+{unit=Dimitri: King of Faerghus;pos=a5;rarity=4;slot=3;level=40;stats=[38;38;33;38;17];weapon=Moon Gradivus;assist=-;special=Daylight;a=Atk/Def Bond 3;b=-;c=Joint Hone Atk;seal=-;ai={group=1};};
+{unit=Claude: Almyra's King;pos=b7;rarity=4;slot=4;level=40;stats=[39;34;38;21;23];weapon=Wind Parthia;assist=-;special=New Moon;a=Fury 3;b=Chill Spd/Def 2;c=Atk/Spd Rein 2;seal=-;ai={group=1};};
+{unit=Edelgard: Adrestian Emperor;pos=f5;rarity=4;slot=5;level=40;stats=[43;43;14;41;32];weapon=Flower Hauteclere;assist=-;special=Daylight;a=Distant Ward;b=-;c=Drive Res 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Freyr: Dream-King;pos=c8;rarity=5;slot=1;level=45;stats=[44;44;17;35;44];weapon=-;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lysithea: Earnest Seeker;pos=e7;rarity=5;slot=2;level=45;stats=[43;44;43;23;27];weapon=Dark Spikes Τ;assist=-;special=Moonbow;a=Atk/Spd Push 4;b=Lull Spd/Res 3;c=Hone Spd 4;seal=-;ai={group=1};};
+{unit=Dimitri: King of Faerghus;pos=a5;rarity=5;slot=3;level=45;stats=[44;44;40;44;20];weapon=Moon Gradivus;assist=-;special=Noontime;a=Atk/Def Unity;b=Blue Lion Rule;c=Joint Hone Atk;seal=-;ai={group=1};};
+{unit=Claude: Almyra's King;pos=b7;rarity=5;slot=4;level=45;stats=[45;40;44;25;28];weapon=Wind Parthia;assist=-;special=Moonbow;a=Fury 4;b=Chill Spd/Def 2;c=Atk/Spd Rein 3;seal=-;ai={group=1};};
+{unit=Edelgard: Adrestian Emperor;pos=f5;rarity=5;slot=5;level=45;stats=[49;49;17;47;38];weapon=Flower Hauteclere;assist=-;special=Noontime;a=Distant Ward;b=Black Eagle Rule;c=Joint Drive Res;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Path of Adrestia|A New Future}}
+==In other languages==
+{{OtherLanguages
+|japanese=ただ、愛してほしかった
+|german=Geliebt zu werden...
+|spanishEU=Sentirse amada
+|spanishLA=Sentirse amada
+|french=Se sentir aimé
+|italian=Sentirsi amati
+|chineseTW=只是希望你愛著我
+|portuguese=Se sentir amada
+}}
+{{Story Maps Navbox|book=4}}

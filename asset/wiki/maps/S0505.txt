@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom.png
+|mapName=Chapter 4-5: Prince of Awakening
+|stageTitle=Chapter 4: Part 5
+|stageName=Prince of Awakening
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 4: World of Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0505
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=10
+|lvlHard=20
+|lvlLunatic=30
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=5
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_02.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Chrom: Exalted Prince;pos=d6;rarity=3;slot=1;level=10;stats=[24;13;8;11;6];weapon=Steel Sword;assist=-;special=Daylight;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Robin: Mystery Tactician;pos=f3;rarity=3;slot=2;level=10;stats=[21;11;10;9;7];weapon=Wind;assist=-;special=Rising Wind;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Stahl: Viridian Knight;pos=f6;rarity=3;slot=3;level=10;stats=[22;11;9;12;8];weapon=Steel Sword;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sully: Crimson Knight;pos=a7;rarity=3;slot=4;level=10;stats=[21;10;12;10;10];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Chrom: Exalted Prince;pos=d6;rarity=3;slot=1;level=20;stats=[31;20;14;16;9];weapon=Steel Sword;assist=-;special=Daylight;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Robin: Mystery Tactician;pos=f3;rarity=3;slot=2;level=20;stats=[27;16;16;16;12];weapon=Elwind;assist=-;special=Rising Wind;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Stahl: Viridian Knight;pos=f6;rarity=3;slot=3;level=20;stats=[29;16;15;17;12];weapon=Steel Sword;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sully: Crimson Knight;pos=a7;rarity=3;slot=4;level=20;stats=[27;15;18;14;15];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Chrom: Exalted Prince;pos=d6;rarity=4;slot=1;level=30;stats=[39;29;19;24;12];weapon=Silver Sword;assist=-;special=Daylight;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Robin: Mystery Tactician;pos=f3;rarity=4;slot=2;level=30;stats=[32;22;22;21;16];weapon=Rexcalibur;assist=-;special=Rising Wind;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Stahl: Viridian Knight;pos=f6;rarity=4;slot=3;level=30;stats=[37;24;20;23;16];weapon=Silver Sword;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sully: Crimson Knight;pos=a7;rarity=4;slot=4;level=30;stats=[34;21;27;18;20];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Awakening Trial|Return to Mystery}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=覚醒の王子
+|german=Ylisses Prinz
+|spanishEU=El príncipe del despertar
+|spanishLA=El príncipe del despertar
+|french=L'héritier d'Ylisse
+|italian=L'Eletto di Awakening
+|chineseTW=覺醒王子
+|portuguese=Príncipe do despertar
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Twin_Wyverns|Fire Emblem Awakening - Paralogue 11: Twin Wyverns]]. ([https://www.youtube.com/watch?v=nru8xLwioCE Map Video])
+
+{{Story Maps Navbox|book=1}}

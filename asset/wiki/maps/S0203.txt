@@ -1,0 +1,78 @@
+{{Battle Infobox
+|bannerImage=Banner_Marth Unrevealed.png
+|mapName=Chapter 1-3: Wind and Light
+|stageTitle=Chapter 1: Part 3
+|stageName=Wind and Light
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 1: World of Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0203
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=2
+|lvlHard=12
+|lvlLunatic=22
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE11_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Cleric;pos=c7;rarity=2;slot=1;level=1;stats=[14;0;4;0;1];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={break_walls=1};};
+{unit=Linde: Light Mage;pos=a6;rarity=2;slot=2;level=2;stats=[15;3;7;0;2];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=e7;rarity=2;slot=3;level=2;stats=[17;2;6;2;1];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Cleric;pos=c7;rarity=2;slot=1;level=11;stats=[19;10;9;8;14];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={break_walls=1};};
+{unit=Linde: Light Mage;pos=a6;rarity=2;slot=2;level=12;stats=[19;14;15;5;8];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=e7;rarity=2;slot=3;level=12;stats=[23;11;13;9;6];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Cleric;pos=c7;rarity=3;slot=1;level=21;stats=[24;15;15;13;20];weapon=-;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={break_walls=1};};
+{unit=Linde: Light Mage;pos=a6;rarity=3;slot=2;level=22;stats=[24;21;22;8;15];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Merric: Wind Mage;pos=e7;rarity=3;slot=3;level=22;stats=[30;15;19;16;10];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=光と風
+|german=Wind und Licht
+|spanishEU=Viento y trueno
+|spanishLA=Viento y luz
+|french=Le vent et la foudre
+|italian=Vento e luce
+|chineseTW=光與風
+|portuguese=Vento e luz
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:An_Oasis_of_Magic|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 15: An Oasis of Magic]]. ([[fireemblemwikia:File:FE1_Chapter_15.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Lucina Unrevealed.png
+|mapName=Chapter 8-2: Napping Dragon
+|stageTitle=Chapter 8: Part 2
+|stageName=Napping Dragon
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 8: Back to Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0902
+| a8= | b8= | c8={{Ally|1}} | d8={{Ally|2}} | e8={{Ally|3}} | f8=
+| a7= | b7= | c7={{Ally|4}} | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4=  | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=28
+|lvlLunatic=38
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=9
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nowi: Eternal Youth;pos=d1;rarity=3;slot=1;level=18;stats=[27;16;13;14;13];weapon=Lightning Breath;assist=-;special=-;a=-;b=-;c=Threaten Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Henry: Twisted Mind;pos=c1;rarity=3;slot=2;level=18;stats=[28;12;11;16;13];weapon=Rauðrraven;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f3;rarity=3;slot=3;level=18;stats=[25;15;16;10;14];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;break_walls=1};};
+{unit=Bow Fighter;pos=a4;rarity=3;slot=4;level=18;stats=[27;16;15;15;7];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Nowi: Eternal Youth;pos=d1;rarity=3;slot=1;level=28;stats=[34;23;18;20;18];weapon=Lightning Breath;assist=-;special=-;a=-;b=-;c=Threaten Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Henry: Twisted Mind;pos=c1;rarity=3;slot=2;level=28;stats=[34;16;15;22;17];weapon=Rauðrraven;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f3;rarity=3;slot=3;level=28;stats=[29;21;22;13;19];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;break_walls=1};};
+{unit=Bow Fighter;pos=a4;rarity=3;slot=4;level=28;stats=[33;22;20;20;10];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Nowi: Eternal Youth;pos=d1;rarity=4;slot=1;level=38;stats=[42;32;24;27;24];weapon=Lightning Breath;assist=-;special=-;a=-;b=-;c=Threaten Res 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Henry: Twisted Mind;pos=c1;rarity=4;slot=2;level=38;stats=[42;22;20;29;23];weapon=Rauðrraven;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Mage;pos=f3;rarity=4;slot=3;level=38;stats=[35;28;29;18;25];weapon=Rexcalibur;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;break_walls=1};};
+{unit=Bow Fighter;pos=a4;rarity=4;slot=4;level=38;stats=[39;29;27;26;14];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=渓谷に臥す竜
+|german=Schlummernder Drache
+|spanishEU=El dragón yacente
+|spanishLA=El dragón yacente
+|french=Le dragon endormi
+|italian=Il drago dormiente
+|chineseTW=溪谷臥龍
+|portuguese=Dragão adormecido
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Of_Sacred_Blood|Fire Emblem Awakening - Chapter 13: Of Sacred Blood]]. ([https://www.youtube.com/watch?v=eccbUWYMRQk Map Video])
+
+{{Story Maps Navbox|book=1}}

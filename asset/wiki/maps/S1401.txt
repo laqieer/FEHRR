@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Elincia Unrevealed.png
+|mapName=Chapter 13-1: Bruno's Secret
+|stageTitle=Chapter 13: Part 1
+|stageName=Bruno's Secret
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 13: Diabolical Bloodline
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1401
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Ally|1}} | f3={{Ally|2}}
+| a2= | b2= | c2= | d2= | e2={{Ally|3}} | f2={{Ally|4}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=32
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE09_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-09-15T07:00:00Z|notification=New Heroes: Dauntless Crimeans Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=???: Masked Knight;pos=b7;rarity=3;slot=1;level=26;stats=[25;19;23;14;16];weapon=Elthunder;assist=-;special=Growing Thunder;a=Fury 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f8;rarity=3;slot=2;level=26;stats=[28;20;21;13;18];weapon=Elfire;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a4;rarity=3;slot=3;level=26;stats=[28;20;21;13;18];weapon=Elwind;assist=-;special=-;a=Warding Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d7;rarity=3;slot=4;level=26;stats=[32;21;19;19;10];weapon=Steel Bow;assist=-;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=c5;rarity=3;slot=5;level=26;stats=[33;20;20;20;14];weapon=Steel Sword;assist=-;special=-;a=Armored Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=???: Masked Knight;pos=b7;rarity=4;slot=1;level=32;stats=[28;23;29;17;20];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Fury 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f8;rarity=4;slot=2;level=32;stats=[32;25;26;15;21];weapon=Bolganone;assist=-;special=-;a=Mirror Strike 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a4;rarity=4;slot=3;level=32;stats=[32;25;26;15;21];weapon=Rexcalibur;assist=-;special=-;a=Swift Strike 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d7;rarity=4;slot=4;level=32;stats=[36;26;23;22;12];weapon=Silver Bow;assist=-;special=-;a=Life and Death 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=c5;rarity=4;slot=5;level=32;stats=[37;25;24;24;17];weapon=Silver Sword;assist=-;special=-;a=Armored Blow 2;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=???: Masked Knight;pos=b7;rarity=5;slot=1;level=40;stats=[34;29;36;23;26];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Fury 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f8;rarity=5;slot=2;level=40;stats=[38;31;32;20;28];weapon=Bolganone+;assist=-;special=-;a=Mirror Strike 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a4;rarity=5;slot=3;level=40;stats=[38;31;32;20;28];weapon=Rexcalibur+;assist=-;special=-;a=Swift Strike 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d7;rarity=5;slot=4;level=40;stats=[43;32;29;29;16];weapon=Silver Bow+;assist=-;special=-;a=Life and Death 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=c5;rarity=5;slot=5;level=40;stats=[44;31;31;30;23];weapon=Zanbato+;assist=-;special=-;a=Armored Blow 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|To Die on the Battlefield|Shadow over the Port}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=仮面の裏で
+|german=Brunos Geheimnis
+|spanishEU=El secreto de Bruno
+|spanishLA=El secreto de Bruno
+|french=Le secret de Bruno
+|italian=Il segreto di Bruno
+|chineseTW=面具底下
+|portuguese=O segredo de Bruno
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Roadside_Battle|Fire Emblem: Path of Radiance - Chapter 4: Roadside Battle]]. ([https://www.youtube.com/watch?v=l-9eDmsYp_M Map Video])
+{{Story Maps Navbox|book=1}}

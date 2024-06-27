@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0412.webp
+|stageTitle=Chapter 12-4
+|stageName=All to Protect Her
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 12: Triandra's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4124
+|backdrop=
+|allyPos=a6,b6,a5,b5
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-10-19T07:00:00Z|notification=New Heroes: Goddess's Servants (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Catherine: Thunder Knight;pos=f4;rarity=3;slot=1;level=31;stats=[34;29;31;22;17];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Shamir: Archer Apart;pos=c1;rarity=3;slot=2;level=31;stats=[33;30;30;18;17];weapon=Silver Bow;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=Null Follow-Up 1;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f3;rarity=3;slot=3;level=31;stats=[33;25;17;18;22];weapon=Silver Lance;assist=-;special=Dragon Gaze;a=Fury 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Triandra: Nightmare;pos=e2;rarity=3;slot=4;level=31;stats=[30;24;25;11;16];weapon=Flower of Sorrow;assist=Frightful Dream;special=New Moon;a=-;b=Firestorm Dance 1;c=Atk/Spd Rein 1;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f6;rarity=3;slot=5;level=31;stats=[31;21;27;23;19];weapon=Flametongue;assist=-;special=Retribution;a=Brazen Atk/Spd 1;b=Dive-Bomb 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Catherine: Thunder Knight;pos=f4;rarity=4;slot=1;level=38;stats=[39;36;38;26;20];weapon=Thunderbrand;assist=-;special=Dragon Gaze;a=Swift Sparrow 2;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Shamir: Archer Apart;pos=c1;rarity=4;slot=2;level=38;stats=[37;37;37;22;21];weapon=Survivalist Bow;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Null Follow-Up 2;c=Rouse Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f3;rarity=4;slot=3;level=38;stats=[37;31;21;22;27];weapon=Slaying Lance;assist=-;special=Dragon Gaze;a=Fury 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Triandra: Nightmare;pos=e2;rarity=4;slot=4;level=38;stats=[34;31;32;13;19];weapon=Flower of Sorrow;assist=Frightful Dream;special=New Moon;a=-;b=Firestorm Dance 1;c=Atk/Spd Rein 2;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f6;rarity=4;slot=5;level=38;stats=[35;25;33;29;23];weapon=Flametongue;assist=-;special=Retribution;a=Brazen Atk/Spd 2;b=Dive-Bomb 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Catherine: Thunder Knight;pos=f4;rarity=5;slot=1;level=43;stats=[45;42;44;31;24];weapon=Thunderbrand;assist=-;special=Draconic Aura;a=Swift Sparrow 3;b=Lull Spd/Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Shamir: Archer Apart;pos=c1;rarity=5;slot=2;level=43;stats=[42;43;43;27;26];weapon=Survivalist Bow;assist=-;special=Moonbow;a=Atk/Spd Solo 4;b=Null Follow-Up 3;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f3;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Slaying Lance+;assist=-;special=Draconic Aura;a=Fury 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Triandra: Nightmare;pos=e2;rarity=5;slot=4;level=43;stats=[39;37;38;17;23];weapon=Flower of Sorrow;assist=Frightful Dream;special=Luna;a=-;b=Firestorm Dance 2;c=Atk/Spd Rein 3;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f6;rarity=5;slot=5;level=43;stats=[40;30;38;34;28];weapon=Flametongue+;assist=-;special=Vengeance;a=Brazen Atk/Spd 3;b=Dive-Bomb 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Brother of the Church|Who Are You?}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=守ってあげたかった
+|german=Koste es, was es wolle
+|spanishEU=Protegerla a toda costa
+|spanishLA=Protegerla a toda costa
+|french=La protéger avant tout
+|italian=Proteggerla a ogni costo
+|chineseTW=明明還想守護
+|portuguese=Proteção a todo custo
+}}
+{{Story Maps Navbox|book=4}}

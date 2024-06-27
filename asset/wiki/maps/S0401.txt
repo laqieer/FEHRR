@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Roy Unrevealed.png
+|mapName=Chapter 3-1: Binding Trial
+|stageTitle=Chapter 3: Part 1
+|stageName=Binding Trial
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 3: World of Binding
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0401
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2= | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=14
+|lvlLunatic=24
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Roy: Young Lion;pos=b7;rarity=3;slot=1;level=4;stats=[20;7;9;4;3];weapon=Iron Sword;assist=-;special=-;a=Triangle Adept 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=d7;rarity=2;slot=2;level=4;stats=[17;7;4;3;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=b5;rarity=2;slot=3;level=4;stats=[18;7;6;4;1];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=c6;rarity=2;slot=4;level=4;stats=[17;7;4;3;4];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Roy: Young Lion;pos=b7;rarity=3;slot=1;level=14;stats=[26;14;15;11;10];weapon=Iron Sword;assist=-;special=-;a=Triangle Adept 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=d7;rarity=2;slot=2;level=14;stats=[23;14;8;9;13];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=b5;rarity=2;slot=3;level=14;stats=[24;14;12;11;5];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=c6;rarity=2;slot=4;level=14;stats=[23;14;8;9;13];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Roy: Young Lion;pos=b7;rarity=4;slot=1;level=24;stats=[32;20;21;16;16];weapon=Steel Sword;assist=-;special=-;a=Triangle Adept 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Cavalier;pos=d7;rarity=3;slot=2;level=24;stats=[30;21;14;15;19];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=b5;rarity=3;slot=3;level=24;stats=[31;20;18;18;9];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Cavalier;pos=c6;rarity=3;slot=4;level=24;stats=[30;21;14;15;19];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Prince of Conquest|Nobles of Binding}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=封印の試練
+|german=Roys Prüfung
+|spanishEU=Prueba del Sello
+|spanishLA=Prueba del Sello
+|french=Premiers pas en Elibe
+|italian=Prova di Binding
+|chineseTW=封印考驗
+|portuguese=Prova do selo
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwiki:Breath of Destiny|Fire Emblem: The Binding Blade - Chapter 1: Breath of Destiny]]. ([[fireemblemwikia:File:FE6Chapter1.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

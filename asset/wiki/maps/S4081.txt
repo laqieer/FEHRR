@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0408.webp
+|stageTitle=Chapter 8: Part 1
+|stageName=Nectar's Sweet Scent
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 8: Wallowing in Love
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4081
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=33
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_13.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-06-05T07:00:00Z|notification=New Heroes: Book IV Mid: Mirabilis and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Plumeria: Lewd Dream;pos=c7;rarity=3;slot=1;level=20;stats=[25;20;9;7;16];weapon=Ruin;assist=Dance;special=-;a=Mirror Strike 1;b=Mystic Boost 1;c=-;seal=-;ai={turn=1};};
+{unit=Emmeryn: Gentle Exalt;pos=d8;rarity=3;slot=2;level=20;stats=[28;16;18;12;16];weapon=Assault;assist=Mend;special=Miracle;a=-;b=Wings of Mercy 1;c=Res Opening 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=3;slot=3;level=20;stats=[23;15;20;7;17];weapon=Elwind;assist=-;special=Chilling Wind;a=Fury 1;b=Atk/Spd Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=c6;rarity=3;slot=4;level=20;stats=[25;15;20;17;13];weapon=Fire Breath+;assist=Swap;special=-;a=Darting Stance 1;b=-;c=Flier Guidance 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Plumeria: Lewd Dream;pos=c7;rarity=4;slot=1;level=33;stats=[32;31;15;12;26];weapon=Fenrir;assist=Sweet Dreams;special=-;a=Mirror Strike 1;b=Mystic Boost 2;c=-;seal=-;ai={turn=1};};
+{unit=Emmeryn: Gentle Exalt;pos=d8;rarity=4;slot=2;level=33;stats=[36;25;28;18;24];weapon=Fear;assist=Rehabilitate;special=Miracle;a=-;b=Wings of Mercy 2;c=Res Opening 2;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=4;slot=3;level=33;stats=[29;22;31;12;26];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=Fury 2;b=Atk/Spd Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=c6;rarity=4;slot=4;level=33;stats=[32;22;30;26;20];weapon=Water Breath;assist=Swap;special=-;a=Darting Stance 2;b=-;c=Flier Guidance 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Plumeria: Lewd Dream;pos=c7;rarity=5;slot=1;level=40;stats=[39;38;18;16;34];weapon=Flower of Plenty;assist=Sweet Dreams;special=-;a=Mirror Strike 2;b=Mystic Boost 3;c=-;seal=-;ai={turn=1};};
+{unit=Emmeryn: Gentle Exalt;pos=d8;rarity=5;slot=2;level=40;stats=[43;32;34;23;30];weapon=Fear+;assist=Rehabilitate+;special=Miracle;a=-;b=Wings of Mercy 3;c=Res Opening 3;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=5;slot=3;level=40;stats=[34;29;37;16;32];weapon=Rexcalibur+;assist=-;special=Iceberg;a=Fury 3;b=Atk/Spd Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=c6;rarity=5;slot=4;level=40;stats=[39;29;36;32;27];weapon=Water Breath+;assist=Swap;special=-;a=Darting Stance 3;b=-;c=Flier Guidance 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Mila: Goddess of Love (map)|Exalt's Ideals}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=甘やかな蜜の匂い
+|german=Duft des Nektars
+|spanishEU=El dulce hechizo del néctar
+|spanishLA=El dulce hechizo del néctar
+|french=Doux parfum de nectar
+|italian=Il nettare dei sogni
+|chineseTW=甜蜜香氣
+|portuguese=O doce aroma do nectar
+}}
+{{Story Maps Navbox|book=4}}

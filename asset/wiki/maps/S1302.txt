@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Bruno Unrevealed.png
+|mapName=Chapter 12-2: A Desperate Pursuit
+|stageTitle=Chapter 12-2
+|stageName=A Desperate Pursuit
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 12: Bitter Enemies
+|mapMode=Turn Limit Map
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S1302
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3={{Ally|1}} | b3={{Ally|2}} | c3= | d3= | e3= | f3=
+| a2={{Ally|3}} | b2={{Ally|4}} | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|winReq=Turns to Win: 5 (Normal)<br>Turns to Win: 4 (Hard)<br>Turns to Win: 4 (Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_03.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-07-13T07:00:00Z|notification=New Heroes: Alm's Army (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Saber: Driven Mercenary;pos=f2;rarity=3;slot=1;level=24;stats=[29;19;21;20;13];weapon=Steel Sword;assist=-;special=Holy Vestments;a=HP/Spd 1;b=Shield Pulse 1;c=-;seal=-;ai={};};
+{unit=Sonya: Vengeful Mage;pos=f6;rarity=3;slot=2;level=24;stats=[26;20;19;10;20];weapon=Elwind;assist=-;special=New Moon;a=Mirror Strike 1;b=-;c=-;seal=-;ai={turn=3};};
+{unit=Leon: True of Heart;pos=d6;rarity=3;slot=3;level=24;stats=[28;21;18;19;10];weapon=Steel Bow;assist=-;special=Glowing Ember;a=Speed +1;b=Guard 1;c=-;seal=-;ai={group=1;delay=1};};
+{unit=Axe Fighter;pos=d5;rarity=3;slot=4;level=24;stats=[32;19;19;19;13];weapon=Steel Axe;assist=-;special=-;a=-;b=Knock Back;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=e8;rarity=3;slot=5;level=24;stats=[27;17;22;12;23];weapon=Steel Lance;assist=Rally Speed;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;group=1};};
+]
+|Hard=[
+{unit=Saber: Driven Mercenary;pos=f2;rarity=4;slot=1;level=31;stats=[33;23;26;25;17];weapon=Slaying Edge;assist=-;special=Holy Vestments;a=HP/Spd 1;b=Shield Pulse 2;c=-;seal=-;ai={};};
+{unit=Sonya: Vengeful Mage;pos=f6;rarity=4;slot=2;level=31;stats=[30;26;23;12;25];weapon=Rexcalibur;assist=-;special=New Moon;a=Mirror Strike 1;b=-;c=Res Ploy 1;seal=-;ai={turn=3};};
+{unit=Leon: True of Heart;pos=d6;rarity=4;slot=3;level=31;stats=[32;27;22;24;12];weapon=Slaying Bow;assist=-;special=Glowing Ember;a=Speed +1;b=Guard 2;c=-;seal=-;ai={group=1;delay=1};};
+{unit=Axe Fighter;pos=d5;rarity=4;slot=4;level=31;stats=[36;24;23;24;17];weapon=Silver Axe;assist=-;special=Night Sky;a=-;b=Knock Back;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=e8;rarity=4;slot=5;level=31;stats=[31;21;28;16;29];weapon=Silver Lance;assist=Rally Speed;special=-;a=-;b=-;c=Hone Atk 2;seal=-;ai={turn=2;group=1};};
+]
+|Lunatic=[
+{unit=Saber: Driven Mercenary;pos=f2;rarity=5;slot=1;level=41;displaylevel=40;stats=[41;32;34;33;23];weapon=Slaying Edge+;assist=-;special=Aegis;a=HP/Spd 2;b=Shield Pulse 3;c=-;seal=-;ai={};};
+{unit=Sonya: Vengeful Mage;pos=f6;rarity=5;slot=2;level=41;displaylevel=40;stats=[37;34;32;16;33];weapon=Dark Excalibur;assist=-;special=Moonbow;a=Mirror Strike 2;b=-;c=Res Ploy 3;seal=-;ai={turn=3};};
+{unit=Leon: True of Heart;pos=d6;rarity=5;slot=3;level=41;displaylevel=40;stats=[40;35;31;31;16];weapon=Slaying Bow+;assist=-;special=Ignis;a=Speed +3;b=Guard 3;c=-;seal=-;ai={group=1;delay=1};};
+{unit=Axe Fighter;pos=d5;rarity=5;slot=4;level=41;displaylevel=40;stats=[45;32;32;31;23];weapon=Silver Axe+;assist=-;special=Glimmer;a=-;b=Knock Back;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=e8;rarity=5;slot=5;level=41;displaylevel=40;stats=[38;29;36;22;37];weapon=Silver Lance+;assist=Rally Speed;special=-;a=-;b=-;c=Hone Atk 3;seal=-;ai={turn=2;group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=仇敵を追って
+|german=Verzweifelte Verfolgung
+|spanishEU=Persecución frenética
+|spanishLA=Persecución frenética
+|french=Poursuite effrénée
+|italian=Inseguimento disperato
+|chineseTW=追擊仇敵
+|portuguese=Perseguição frenética
+}}
+==Trivia==
+* This map is a reference to [[fireemblemwikia:War_of_Deliverance|Fire Emblem Echoes: Shadows of Valentia - Act 3: War of Deliverance - Zofian Coast Battle]]. ([https://www.youtube.com/watch?v=gQ5MdLtvdwI Map Video])
+{{Story Maps Navbox|book=1}}

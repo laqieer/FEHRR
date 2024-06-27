@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Ryoma Unrevealed.png
+|mapName=Chapter 6-1: Birthright Trial
+|stageTitle=Chapter 6: Part 1
+|stageName=Birthright Trial
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 6: World of Birthright
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0701
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Ally|1}} | c7={{Ally|2}} | d7= | e7= | f7=
+| a6= | b6={{Ally|3}} | c6= | d6= | e6= | f6=
+| a5= | b5={{Ally|4}} | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=21
+|lvlLunatic=31
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=6
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ryoma: Peerless Samurai;pos=f5;rarity=3;slot=1;level=11;stats=[23;13;16;9;7];weapon=Steel Sword;assist=-;special=-;a=Defiant Atk 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Takumi: Wild Card;pos=e4;rarity=3;slot=2;level=11;stats=[22;13;12;10;7];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sakura: Loving Priestess;pos=f3;rarity=3;slot=3;level=11;stats=[21;10;12;9;12];weapon=Fear;assist=Mend;special=-;a=-;b=-;c=Fortify Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Hinoka: Warrior Princess;pos=c1;rarity=3;slot=4;level=11;stats=[23;13;13;10;10];weapon=Steel Lance;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Ryoma: Peerless Samurai;pos=f5;rarity=3;slot=1;level=21;stats=[28;19;21;14;11];weapon=Steel Sword;assist=-;special=-;a=Defiant Atk 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Takumi: Wild Card;pos=e4;rarity=3;slot=2;level=21;stats=[27;18;18;14;10];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sakura: Loving Priestess;pos=f3;rarity=3;slot=3;level=21;stats=[25;15;17;13;17];weapon=Fear;assist=Mend;special=-;a=-;b=-;c=Fortify Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Hinoka: Warrior Princess;pos=c1;rarity=3;slot=4;level=21;stats=[28;19;18;14;14];weapon=Steel Lance;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Ryoma: Peerless Samurai;pos=f5;rarity=4;slot=1;level=31;stats=[34;27;28;20;16];weapon=Silver Sword;assist=-;special=-;a=Defiant Atk 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Takumi: Wild Card;pos=e4;rarity=4;slot=2;level=31;stats=[33;25;26;19;14];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Sakura: Loving Priestess;pos=f3;rarity=4;slot=3;level=31;stats=[30;21;24;18;24];weapon=Fear;assist=Mend;special=-;a=-;b=-;c=Fortify Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Hinoka: Warrior Princess;pos=c1;rarity=4;slot=4;level=31;stats=[34;28;25;19;19];weapon=Silver Lance;assist=-;special=-;a=Defiant Def 2;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Divine Dragon Princess|Prince of Birthright}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=白夜の試練
+|german=Hoshido - Die Prüfung
+|spanishEU=Hoshido
+|spanishLA=Prueba de herencia
+|french=Premiers pas en Hoshido
+|italian=Prova di Birthright
+|chineseTW=白夜考驗
+|portuguese=Prova da estirpe
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Journey_Begins|Fire Emblem Fates - Chapter 3: Journey Begins]]. ([https://www.youtube.com/watch?v=kVDIjXG28dc Map Video])
+
+{{Story Maps Navbox|book=1}}

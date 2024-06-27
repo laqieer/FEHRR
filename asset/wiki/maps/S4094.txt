@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0409.webp
+|stageTitle=Chapter 9: Part 4
+|stageName=Agony of Youth
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 9: Violent Fantasies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4094
+|backdrop=
+|allyPos=f5,e4,f4,f3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=37
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE12_03.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-07-20T07:00:00Z|notification=New Heroes: Heroes, Light and Shadow (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Triandra: Nightmare;pos=a5;rarity=3;slot=1;level=25;stats=[27;20;21;9;13];weapon=Rexcalibur;assist=Frightful Dream;special=-;a=-;b=Chill Res 1;c=Pulse Smoke 1;seal=-;ai={group=1};};
+{unit=Eremiya: Bishop of Woe;pos=a3;rarity=3;slot=2;level=25;stats=[31;19;22;14;17];weapon=Panic;assist=Physic;special=Miracle;a=Atk/Res Push 1;b=-;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=c2;rarity=3;slot=3;level=25;stats=[32;19;19;19;13];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=Wind Boost 1;b=Close Call 1;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c7;rarity=3;slot=4;level=25;stats=[27;19;20;12;17];weapon=Elfire;assist=-;special=Rising Flame;a=Triangle Adept 1;b=-;c=Res Smoke 1;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a6;rarity=3;slot=5;level=25;stats=[31;20;18;18;9];weapon=Steel Bow;assist=-;special=New Moon;a=HP/Spd 1;b=-;c=Infantry Pulse 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Triandra: Nightmare;pos=a5;rarity=4;slot=1;level=37;stats=[34;30;31;13;19];weapon=Flower of Sorrow;assist=Frightful Dream;special=-;a=-;b=Chill Res 2;c=Pulse Smoke 2;seal=-;ai={group=1};};
+{unit=Eremiya: Bishop of Woe;pos=a3;rarity=4;slot=2;level=37;stats=[40;28;32;20;25];weapon=Panic+;assist=Physic+;special=Miracle;a=Atk/Res Push 2;b=-;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=c2;rarity=4;slot=3;level=37;stats=[39;27;26;27;19];weapon=Guard Axe;assist=-;special=Dragon Gaze;a=Wind Boost 2;b=Close Call 2;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c7;rarity=4;slot=4;level=37;stats=[34;27;28;17;24];weapon=Rauðrraven;assist=-;special=Rising Flame;a=Triangle Adept 2;b=-;c=Res Smoke 2;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a6;rarity=4;slot=5;level=37;stats=[38;28;26;25;13];weapon=Short Bow;assist=-;special=New Moon;a=HP/Spd 1;b=-;c=Infantry Pulse 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Triandra: Nightmare;pos=a5;rarity=5;slot=1;level=43;stats=[39;37;38;17;23];weapon=Flower of Sorrow;assist=Frightful Dream;special=-;a=-;b=Chill Res 3;c=Pulse Smoke 3;seal=-;ai={group=1};};
+{unit=Eremiya: Bishop of Woe;pos=a3;rarity=5;slot=2;level=43;stats=[46;34;37;24;29];weapon=Panic+;assist=Physic+;special=Miracle;a=Atk/Res Push 3;b=-;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=c2;rarity=5;slot=3;level=43;stats=[46;33;33;31;23];weapon=Guard Axe+;assist=-;special=Draconic Aura;a=Wind Boost 3;b=Close Call 3;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c7;rarity=5;slot=4;level=43;stats=[39;33;34;21;29];weapon=Rauðrraven+;assist=-;special=Growing Flame;a=Triangle Adept 3;b=-;c=Res Smoke 3;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a6;rarity=5;slot=5;level=43;stats=[45;34;30;30;17];weapon=Short Bow+;assist=-;special=Moonbow;a=HP/Spd 2;b=-;c=Infantry Pulse 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Shadow's Vow|Over All Dreams}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=虐げられる子たち
+|german=Qualen der Kindheit
+|spanishEU=Una cruel infancia
+|spanishLA=Una cruel infancia
+|french=Jeunesse en péril
+|italian=Un'infanzia crudele
+|chineseTW=受虐的孩子們
+|portuguese=Infância atormentada
+}}
+{{Story Maps Navbox|book=4}}

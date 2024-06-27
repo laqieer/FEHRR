@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Xander Unrevealed.png
+|mapName=Chapter 2-3: Callous Prince
+|stageTitle=Chapter 2: Part 3
+|stageName=Callous Prince
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 2: World of Conquest
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0303
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=15
+|lvlLunatic=25
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Leo: Sorcerous Prince;pos=d7;rarity=2;slot=1;level=5;stats=[16;6;5;3;5];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Niles: Cruel to Be Kind;pos=e6;rarity=2;slot=2;level=4;stats=[16;3;9;1;6];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Odin: Potent Force;pos=c6;rarity=2;slot=3;level=4;stats=[17;3;7;4;2];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Mage;pos=a6;rarity=2;slot=4;level=4;stats=[15;4;4;0;4];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Leo: Sorcerous Prince;pos=d7;rarity=2;slot=1;level=15;stats=[21;12;8;10;13];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Niles: Cruel to Be Kind;pos=e6;rarity=2;slot=2;level=14;stats=[21;9;14;6;14];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Odin: Potent Force;pos=c6;rarity=2;slot=3;level=14;stats=[24;8;14;10;9];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Mage;pos=a6;rarity=2;slot=4;level=14;stats=[21;13;14;7;10];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Leo: Sorcerous Prince;pos=d7;rarity=3;slot=1;level=25;stats=[28;18;14;16;19];weapon=Ruin;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Niles: Cruel to Be Kind;pos=e6;rarity=3;slot=2;level=24;stats=[27;15;21;10;21];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Odin: Potent Force;pos=c6;rarity=3;slot=3;level=24;stats=[31;13;20;15;15];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Red Mage;pos=a6;rarity=3;slot=4;level=24;stats=[27;19;20;12;17];weapon=Elfire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=冷酷な弟王子
+|german=Gnadenloser Prinz
+|spanishEU=El príncipe inclemente
+|spanishLA=El príncipe inclemente
+|french=Le prince inflexible
+|italian=Il principe spietato
+|chineseTW=冷酷的王弟
+|portuguese=O príncipe inclemente
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Leo_(Chapter)|Fire Emblem Fates: Birthright - Chapter 18: Leo]]. ([https://www.youtube.com/watch?v=5F68P65pxYo Map Video])
+
+{{Story Maps Navbox|book=1}}

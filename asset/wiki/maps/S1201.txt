@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Celica Unrevealed.png
+|mapName=Chapter 11-1: Caring Princess
+|stageTitle=Chapter 11: Part 1
+|stageName=Caring Princess
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 11: Rite of Shadows
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1201
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Ally|1}} | c7={{Ally|2}} | d7= | e7= | f7=
+| a6= | b6={{Ally|3}} | c6={{Ally|4}} | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-05-15T07:00:00Z|notification=New Heroes: Rite of Shadows Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Celica: Caring Princess;pos=f3;rarity=3;slot=1;level=20;stats=[26;17;17;12;13];weapon=Bolganone;assist=-;special=-;a=Distant Def 1;b=-;c=Spur Def 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Genny: Endearing Ally;pos=f2;rarity=3;slot=2;level=20;stats=[23;19;14;11;18];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=d1;rarity=3;slot=3;level=20;stats=[29;16;16;17;12];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=c2;rarity=3;slot=4;level=20;stats=[37;21;8;23;10];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Est: Junior Whitewing;pos=a1;rarity=3;slot=5;level=20;stats=[25;19;17;13;17];weapon=Steel Lance;assist=Shove;special=-;a=-;b=Seal Spd 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Celica: Caring Princess;pos=f3;rarity=4;slot=1;level=30;stats=[31;25;26;16;17];weapon=Bolganone;assist=-;special=Rising Light;a=Distant Def 2;b=-;c=Spur Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Genny: Endearing Ally;pos=f2;rarity=4;slot=2;level=30;stats=[27;28;19;15;27];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=d1;rarity=4;slot=3;level=30;stats=[36;24;23;23;16];weapon=Silver Sword;assist=-;special=-;a=Defiant Atk 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=c2;rarity=4;slot=4;level=30;stats=[45;30;11;32;14];weapon=Silver Lance;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Est: Junior Whitewing;pos=a1;rarity=4;slot=5;level=30;stats=[30;28;23;18;24];weapon=Heavy Spear;assist=Shove;special=-;a=-;b=Seal Spd 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Celica: Caring Princess;pos=f3;rarity=5;slot=1;level=40;stats=[39;32;34;23;22];weapon=Ragnarok;assist=-;special=Blazing Light;a=Distant Def 3;b=-;c=Spur Def 3;seal=-;ai={turn=1;break_walls=1};};
+{unit=Genny: Endearing Ally;pos=f2;rarity=5;slot=2;level=40;stats=[32;36;26;22;35];weapon=Gravity;assist=Physic;special=Heavenly Light;a=-;b=Wrathful Staff 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Fighter;pos=d1;rarity=5;slot=3;level=40;stats=[44;31;31;30;23];weapon=Silver Sword+;assist=-;special=-;a=Defiant Atk 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=c2;rarity=5;slot=4;level=40;stats=[56;39;16;41;19];weapon=Silver Lance+;assist=-;special=-;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Est: Junior Whitewing;pos=a1;rarity=5;slot=5;level=40;stats=[37;36;30;25;32];weapon=Heavy Spear+;assist=Shove;special=-;a=-;b=Seal Spd 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Xander: Paragon Knight (map)|The Mountain of Fear}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=慈愛の王女
+|german=Gütige Prinzessin
+|spanishEU=Princesa amable
+|spanishLA=Princesa amable
+|french=Tendre princesse
+|italian=La premurosa
+|chineseTW=慈悲的公主
+|portuguese=Princesa amável
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Pilgrimage|Fire Emblem Echoes: Shadows of Valentia - Act 2: The Pilgrimage - Skirmish]]. ([https://www.youtube.com/watch?v=5tbGb9FIxyg Map Video])
+{{Story Maps Navbox|book=1}}

@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0411.webp
+|stageTitle=Chapter 11-4
+|stageName=What I Dreamed Of
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 11: Plumeria's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4114
+|backdrop=
+|allyPos=d3,e3,b2,c2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE09_06.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-09-18T07:00:00Z|notification=New Heroes: Despair and Hope (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Plumeria: Lewd Dream;pos=d8;rarity=3;slot=1;level=29;stats=[30;26;12;10;22];weapon=Flower of Plenty;assist=Sweet Dreams;special=Miracle;a=Brazen Atk/Res 1;b=Atk Cantrip 1;c=-;seal=-;ai={turn=1};};
+{unit=Petrine: Icy Flame-Lancer;pos=e7;rarity=3;slot=2;level=29;stats=[32;24;26;21;16];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Atk/Spd Push 1;b=-;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f7;rarity=3;slot=3;level=29;stats=[32;23;16;17;21];weapon=Steel Axe;assist=-;special=Night Sky;a=-;b=Hit and Run;c=Hone Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=c8;rarity=3;slot=4;level=29;stats=[30;20;25;22;18];weapon=Fire Breath+;assist=-;special=New Moon;a=Steady Blow 1;b=-;c=Fortify Def 1;seal=-;ai={turn=1};};
+{unit=Thief;pos=a7;rarity=3;slot=5;level=29;stats=[28;19;27;9;22];weapon=Steel Dagger;assist=Rally Defense;special=-;a=Close Def 1;b=Spd/Def Ruse 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Plumeria: Lewd Dream;pos=d8;rarity=4;slot=1;level=38;stats=[35;35;16;13;30];weapon=Flower of Plenty;assist=Sweet Dreams;special=Miracle;a=Brazen Atk/Res 2;b=Atk Cantrip 2;c=-;seal=-;ai={turn=1};};
+{unit=Petrine: Icy Flame-Lancer;pos=e7;rarity=4;slot=2;level=38;stats=[38;32;34;26;21];weapon=Flame Lance;assist=-;special=Glowing Ember;a=Atk/Spd Push 2;b=-;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f7;rarity=4;slot=3;level=38;stats=[37;31;21;22;27];weapon=Slaying Hammer;assist=-;special=Night Sky;a=-;b=Hit and Run;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=c8;rarity=4;slot=4;level=38;stats=[35;25;33;29;23];weapon=Dark Breath;assist=-;special=New Moon;a=Steady Blow 1;b=-;c=Fortify Def 2;seal=-;ai={turn=1};};
+{unit=Thief;pos=a7;rarity=4;slot=5;level=38;stats=[33;24;35;11;29];weapon=The Cleaner;assist=Rally Def/Res;special=-;a=Close Def 2;b=Spd/Def Ruse 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Plumeria: Lewd Dream;pos=d8;rarity=5;slot=1;level=43;stats=[40;41;19;17;37];weapon=Flower of Plenty;assist=Sweet Dreams;special=Miracle;a=Brazen Atk/Res 3;b=Atk Cantrip 3;c=-;seal=-;ai={turn=1};};
+{unit=Petrine: Icy Flame-Lancer;pos=e7;rarity=5;slot=2;level=43;stats=[44;37;40;31;26];weapon=Flame Lance;assist=-;special=Ignis;a=Atk/Spd Push 3;b=-;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f7;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Slaying Hammer+;assist=-;special=Glimmer;a=-;b=Hit and Run;c=Hone Cavalry;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=c8;rarity=5;slot=4;level=43;stats=[40;30;38;34;28];weapon=Dark Breath+;assist=-;special=Luna;a=Steady Blow 2;b=-;c=Fortify Fliers;seal=-;ai={turn=1};};
+{unit=Thief;pos=a7;rarity=5;slot=5;level=43;stats=[38;29;41;14;34];weapon=The Cleaner+;assist=Rally Def/Res+;special=-;a=Close Def 3;b=Spd/Def Ruse 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Changing Exchange|Where It Started}}
+==In other languages==
+{{OtherLanguages
+|japanese=私の夢を
+|german=Wovon ich träumte...
+|spanishEU=La realidad soñada
+|spanishLA=La realidad soñada
+|french=Mon rêve
+|italian=Che il sogno continui
+|chineseTW=我的夢
+|portuguese=O meu sonho
+}}
+{{Story Maps Navbox|book=4}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Marth Unrevealed.png
+|mapName=Chapter 1-4: Dual Cavaliers
+|stageTitle=Chapter 1: Part 4
+|stageName=Dual Cavaliers
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 1: World of Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0204
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2={{Ally|1}} | e2= | f2={{Ally|2}}
+| a1= | b1= | c1={{Ally|3}} | d1= | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=3
+|lvlHard=13
+|lvlLunatic=23
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE11_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Cain: The Bull;pos=a7;rarity=2;slot=1;level=3;stats=[17;5;4;4;1];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Abel: The Panther;pos=e8;rarity=2;slot=2;level=3;stats=[16;3;7;4;1];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Gordin: Altean Archer;pos=a5;rarity=2;slot=3;level=2;stats=[15;3;3;2;0];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=f6;rarity=2;slot=4;level=2;stats=[14;1;7;0;3];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;delay=2;break_walls=1};};
+]
+|Hard=[
+{unit=Cain: The Bull;pos=a7;rarity=2;slot=1;level=13;stats=[22;13;11;12;8];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Abel: The Panther;pos=e8;rarity=2;slot=2;level=13;stats=[21;12;13;11;9];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Gordin: Altean Archer;pos=a5;rarity=2;slot=3;level=12;stats=[23;12;9;13;5];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=f6;rarity=2;slot=4;level=12;stats=[21;9;14;6;15];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;delay=2;break_walls=1};};
+]
+|Lunatic=[
+{unit=Cain: The Bull;pos=a7;rarity=3;slot=1;level=23;stats=[29;19;18;17;13];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Abel: The Panther;pos=e8;rarity=3;slot=2;level=23;stats=[27;19;19;16;15];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Gordin: Altean Archer;pos=a5;rarity=3;slot=3;level=22;stats=[30;18;14;19;9];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Flier;pos=f6;rarity=3;slot=4;level=22;stats=[26;16;21;11;22];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;delay=2;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=赤と緑の双騎
+|german=Doppel-Kavaliere
+|spanishEU=Los caballeros duales
+|spanishLA=Los caballeros duales
+|french=Deux cavaliers
+|italian=Coppia di fantini
+|chineseTW=赤綠雙騎
+|portuguese=Cavaleiros duplos
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:The_Final_Test|Fire Emblem: New Mystery of the Emblem - Prologue VII: The Final Test]]. ([[fireemblemwikia:File:FE12_Prologue_7A.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

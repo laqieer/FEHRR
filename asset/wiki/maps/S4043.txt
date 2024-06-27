@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0404.webp
+|stageTitle=Chapter 4-3
+|stageName=Ilian Determination
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 4: On Dark Wings
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4043
+|backdrop=
+|allyPos=c3,d3,c2,d2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=10
+|lvlHard=30
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_08.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-02-17T07:00:00Z|notification=New Heroes: The Dread Isle (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Fiora: Airborne Warrior;pos=c7;rarity=3;slot=1;level=10;stats=[22;11;14;8;12];weapon=Steel Lance;assist=-;special=-;a=Fury 1;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d6;rarity=3;slot=2;level=10;stats=[30;14;4;16;6];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a6;rarity=3;slot=3;level=10;stats=[21;9;13;6;14];weapon=Steel Sword;assist=Rally Speed;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=3;slot=4;level=10;stats=[18;13;9;5;12];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Fiora: Airborne Warrior;pos=c7;rarity=4;slot=1;level=30;stats=[31;24;30;15;27];weapon=Guard Lance;assist=-;special=Chilling Wind;a=Fury 2;b=Pegasus Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d6;rarity=4;slot=2;level=30;stats=[45;30;11;32;13];weapon=Rearguard;assist=-;special=Glowing Ember;a=Distant Def 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a6;rarity=4;slot=3;level=30;stats=[30;20;27;15;28];weapon=Silver Sword;assist=Rally Spd/Res;special=-;a=Armored Blow 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=4;slot=4;level=30;stats=[27;27;18;12;26];weapon=Blárraven;assist=-;special=Rising Thunder;a=-;b=Bowbreaker 1;c=Savage Blow 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Fiora: Airborne Warrior;pos=c7;rarity=5;slot=1;level=42;stats=[39;33;40;21;39];weapon=Guard Lance+;assist=-;special=Iceberg;a=Fury 3;b=Pegasus Flight 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d6;rarity=5;slot=2;level=42;stats=[57;40;16;42;19];weapon=Rearguard+;assist=-;special=Bonfire;a=Distant Def 3;b=-;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a6;rarity=5;slot=3;level=42;stats=[38;29;36;22;37];weapon=Silver Sword+;assist=Rally Spd/Res+;special=-;a=Armored Blow 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=5;slot=4;level=42;stats=[34;36;26;17;35];weapon=Blárraven+;assist=-;special=Growing Thunder;a=-;b=Bowbreaker 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Dragon's Hearkening|Spies' Future}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=イリア騎士の決意
+|german=Ilianische Entschlossenheit
+|spanishEU=Determinación iliana
+|spanishLA=Determinación iliana
+|french=Détermination d'Ilia
+|italian=L'orgoglio di Ilia
+|chineseTW=伊利亞騎士的決心
+|portuguese=Determinação iliana
+}}
+{{Story Maps Navbox|book=4}}

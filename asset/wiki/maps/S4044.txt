@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0404.webp
+|stageTitle=Chapter 4-4
+|stageName=Spies' Future
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 4: On Dark Wings
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4044
+|backdrop=
+|allyPos=e5,f5,e4,f4
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=31
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=
+|stamHard=
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_08.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-02-17T07:00:00Z|notification=New Heroes: The Dread Isle (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Leila: Rose amid Fangs;pos=c8;rarity=3;slot=1;level=11;stats=[22;13;17;7;10];weapon=Steel Dagger;assist=Rally Speed;special=-;a=Life and Death 1;b=Atk/Def Ruse 1;c=Atk Smoke 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=f1;rarity=3;slot=2;level=11;stats=[23;12;11;11;5];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Spd Smoke 1;seal=-;ai={turn=1};};
+{unit=Rath: Wolf of Sacae;pos=a5;rarity=3;slot=3;level=11;stats=[21;12;12;10;8];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Def Smoke 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=c1;rarity=3;slot=4;level=11;stats=[20;11;14;5;12];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=Res Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Leila: Rose amid Fangs;pos=c8;rarity=4;slot=1;level=31;stats=[32;28;33;17;20];weapon=Silver Dagger;assist=Rally Atk/Spd;special=-;a=Life and Death 2;b=Atk/Def Ruse 2;c=Atk Smoke 2;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=f1;rarity=4;slot=2;level=31;stats=[35;25;22;21;11];weapon=Brave Bow;assist=-;special=New Moon;a=-;b=-;c=Spd Smoke 2;seal=-;ai={turn=1};};
+{unit=Rath: Wolf of Sacae;pos=a5;rarity=4;slot=3;level=31;stats=[33;26;26;19;18];weapon=Slaying Bow;assist=-;special=Night Sky;a=Spd/Res Form 1;b=-;c=Def Smoke 2;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=c1;rarity=4;slot=4;level=31;stats=[28;21;29;11;25];weapon=Thoron;assist=-;special=Chilling Wind;a=-;b=Aerobatics 1;c=Res Smoke 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Leila: Rose amid Fangs;pos=c8;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;39;44;25;28];weapon=Constant Dagger;assist=Rally Atk/Spd+;special=-;a=Life and Death 4;b=Atk/Def Ruse 3;c=Atk Smoke 3;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=f1;rarity=5;slot=2;level=43;displaylevel=40;stats=[45;34;30;30;17];weapon=Brave Bow+;assist=-;special=Luna;a=-;b=-;c=Spd Smoke 3;seal=-;ai={turn=1};};
+{unit=Rath: Wolf of Sacae;pos=a5;rarity=5;slot=3;level=43;displaylevel=40;stats=[43;35;38;24;26];weapon=Slaying Bow+;assist=-;special=Glimmer;a=Spd/Res Form 3;b=-;c=Def Smoke 3;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=c1;rarity=5;slot=4;level=43;displaylevel=40;stats=[35;30;40;17;34];weapon=Thoron+;assist=-;special=Iceberg;a=-;b=Aerobatics 3;c=Res Smoke 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ilian Determination|Resounding Blow}}
+==In other languages==
+{{OtherLanguages
+|japanese=密偵の未来
+|german=Pläne einer Spionin
+|spanishEU=El sino de la espía
+|spanishLA=El sino de la espía
+|french=Avenir d'une espionne
+|italian=Il domani di una spia
+|chineseTW=密探的未來
+|portuguese=A sina de uma espiã
+}}
+{{Story Maps Navbox|book=4}}

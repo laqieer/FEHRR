@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom Unrevealed.png
+|mapName=Chapter 4-1: Awakening Trial
+|stageTitle=Chapter 4: Part 1
+|stageName=Awakening Trial
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 4: World of Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0501
+| a8= | b8= | c8={{Ally|1}} | d8={{Ally|2}} | e8={{Ally|3}} | f8=
+| a7= | b7= | c7={{Ally|4}} | d7= | e7=  | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2=| f2=
+| a1= | b1= | c1= | d1= | e1=  | f1=
+}}
+|lvlNormal=7
+|lvlHard=17
+|lvlLunatic=27
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=4
+|stamHard=9
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Chrom: Exalted Prince;pos=d1;rarity=3;slot=1;level=7;stats=[22;9;8;8;4];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Frederick: Polite Knight;pos=b1;rarity=3;slot=2;level=7;stats=[20;9;6;10;3];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Fortify Def 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lissa: Sprightly Cleric;pos=e1;rarity=3;slot=3;level=7;stats=[17;7;6;6;8];weapon=Fear;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Chrom: Exalted Prince;pos=d1;rarity=3;slot=1;level=17;stats=[30;18;12;15;8];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Frederick: Polite Knight;pos=b1;rarity=3;slot=2;level=17;stats=[27;18;12;17;7];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Fortify Def 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lissa: Sprightly Cleric;pos=e1;rarity=3;slot=3;level=17;stats=[24;13;12;13;15];weapon=Fear;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Chrom: Exalted Prince;pos=d1;rarity=4;slot=1;level=27;stats=[37;27;17;22;11];weapon=Silver Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Frederick: Polite Knight;pos=b1;rarity=4;slot=2;level=27;stats=[33;26;17;26;10];weapon=Silver Axe;assist=-;special=-;a=-;b=-;c=Fortify Def 1;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lissa: Sprightly Cleric;pos=e1;rarity=4;slot=3;level=27;stats=[30;19;17;19;22];weapon=Fear;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Nobles of Binding|Prince of Awakening}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=覚醒の試練
+|german=Ylisse - Die Prüfung
+|spanishEU=Ylisse
+|spanishLA=Prueba del despertar
+|french=Premiers pas en Ylisse
+|italian=Prova di Awakening
+|chineseTW=覺醒考驗
+|portuguese=Prova do despertar
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Shepherds_(Chapter)|Fire Emblem Awakening - Chapter 2: Shepherds]]. ([https://www.youtube.com/watch?v=JXbTIwT8VLQ Map Video])
+
+{{Story Maps Navbox|book=1}}

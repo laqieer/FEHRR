@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Elincia.png
+|mapName=Chapter 13-5: A Bond Renewed
+|stageTitle=Chapter 13: Part 5
+|stageName=A Bond Renewed
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 13: Diabolical Bloodline
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1405
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=4
+|rarityHard=5
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE09_02.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-09-15T07:00:00Z|notification=New Heroes: Dauntless Crimeans Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=???: Masked Knight;pos=a8;rarity=4;slot=1;level=31;stats=[32;25;29;19;22];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Fury 3;b=B Tomebreaker 3;c=Atk Ploy 3;seal=-;ai={group=1};};
+{unit=Elincia: Lost Princess;pos=e7;rarity=4;slot=2;level=31;stats=[29;27;29;18;21];weapon=Silver Sword;assist=Ardent Sacrifice;special=-;a=Death Blow 2;b=-;c=Guidance 1;seal=-;ai={group=1};};
+{unit=Black Knight: Sinister General;pos=c7;rarity=4;slot=3;level=31;stats=[40;27;26;28;14];weapon=Silver Sword;assist=-;special=Black Luna;a=Steady Stance 2;b=Wings of Mercy 1;c=-;seal=-;ai={group=1};};
+{unit=Ike: Brave Mercenary;pos=d7;rarity=4;slot=4;level=31;stats=[35;29;21;28;15];weapon=Silver Axe;assist=-;special=Aether;a=Steady Stance 1;b=Beorc's Blessing;c=Threaten Def 1;seal=-;ai={group=1};};
+{unit=Oscar: Agile Horseman;pos=e8;rarity=4;slot=5;level=31;stats=[33;26;27;20;16];weapon=Sapphire Lance;assist=Rally Spd/Def;special=-;a=-;b=Lancebreaker 1;c=Spur Spd/Def 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=???: Masked Knight;pos=a8;rarity=5;slot=1;level=37;stats=[38;31;36;23;27];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Fury 3;b=B Tomebreaker 3;c=Atk Ploy 3;seal=-;ai={group=1};};
+{unit=Elincia: Lost Princess;pos=e7;rarity=4;slot=2;level=37;stats=[32;31;33;21;24];weapon=Silver Sword;assist=Ardent Sacrifice;special=-;a=Death Blow 2;b=-;c=Guidance 2;seal=-;ai={group=1};};
+{unit=Black Knight: Sinister General;pos=c7;rarity=4;slot=3;level=37;stats=[44;31;30;32;16];weapon=Silver Sword;assist=-;special=Black Luna;a=Steady Stance 2;b=Wings of Mercy 2;c=-;seal=-;ai={group=1};};
+{unit=Ike: Brave Mercenary;pos=d7;rarity=4;slot=4;level=37;stats=[39;33;24;32;17];weapon=Silver Axe;assist=-;special=Aether;a=Steady Stance 2;b=Beorc's Blessing;c=Threaten Def 2;seal=-;ai={group=1};};
+{unit=Oscar: Agile Horseman;pos=e8;rarity=4;slot=5;level=37;stats=[36;30;31;23;18];weapon=Sapphire Lance;assist=Rally Spd/Def;special=-;a=-;b=Lancebreaker 2;c=Spur Spd/Def 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=???: Masked Knight;pos=a8;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;36;41;27;31];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Fury 3;b=B Tomebreaker 3;c=Atk Ploy 3;seal=-;ai={group=1};};
+{unit=Elincia: Lost Princess;pos=e7;rarity=5;slot=2;level=45;displaylevel=40;stats=[38;38;40;27;30];weapon=Amiti;assist=Ardent Sacrifice;special=Miracle;a=Death Blow 3;b=Renewal 3;c=Guidance 3;seal=-;ai={group=1};};
+{unit=Black Knight: Sinister General;pos=c7;rarity=5;slot=3;level=45;displaylevel=40;stats=[52;37;38;39;20];weapon=Alondite;assist=-;special=Black Luna;a=Steady Stance 3;b=Wings of Mercy 3;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Ike: Brave Mercenary;pos=d7;rarity=5;slot=4;level=45;displaylevel=40;stats=[47;40;31;39;22];weapon=Urvan;assist=-;special=Aether;a=Steady Breath;b=Beorc's Blessing;c=Threaten Def 3;seal=-;ai={group=1};};
+{unit=Oscar: Agile Horseman;pos=e8;rarity=5;slot=5;level=45;displaylevel=40;stats=[43;37;38;29;23];weapon=Sapphire Lance+;assist=Rally Spd/Def;special=Sol;a=Swift Sparrow 2;b=Lancebreaker 3;c=Spur Spd/Def 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Shadow over the Port|Ninian & Hawkeye: Bound Hero Battle}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=友との再会
+|german=Erneuerte Bande
+|spanishEU=Lazos renovados
+|spanishLA=Lazos renovados
+|french=Lien renoué
+|italian=Legame rinnovato
+|chineseTW=與好友重逢
+|portuguese=Laços renovados
+}}
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Repatriation|Fire Emblem: Path of Radiance - Endgame: Repatriation]]. ([https://www.youtube.com/watch?v=WfDEyPsCwYs Map Video])
+{{Story Maps Navbox|book=1}}

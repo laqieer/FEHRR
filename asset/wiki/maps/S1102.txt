@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Ike Unrevealed.png
+|mapName=Chapter 10-2: A Mercenary's Pride
+|stageTitle=Chapter 10: Part 2
+|stageName=A Mercenary's Pride
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 10: World of Radiance
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S1102
+| a8= | b8={{Ally|1}} | c8= | d8= | e8={{Ally|2}} | f8=
+| a7= | b7={{Ally|3}} | c7= | d7= | e7={{Ally|4}} | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-04-26T07:00:00Z|notification=New Heroes: World of Radiance Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Titania: Mighty Mercenary;pos=a2;rarity=3;slot=1;level=21;stats=[26;15;19;14;17];weapon=Emerald Axe;assist=-;special=-;a=Armored Blow 1;b=Guard 1;c=-;seal=-;ai={group=1};};
+{unit=Mist: Helpful Sister;pos=b1;rarity=3;slot=2;level=21;stats=[26;16;15;11;19];weapon=Slow;assist=Mend;special=Miracle;a=-;b=-;c=Spur Def/Res 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=f2;rarity=3;slot=3;level=21;stats=[26;17;18;11;15];weapon=Bolganone;assist=-;special=-;a=Warding Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=f3;rarity=3;slot=4;level=21;stats=[26;15;20;11;21];weapon=Silver Lance;assist=-;special=-;a=-;b=Seal Res 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=a1;rarity=3;slot=5;level=21;stats=[26;15;20;11;21];weapon=Sapphire Lance;assist=-;special=-;a=-;b=Swordbreaker 1;c=Fortify Def 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Titania: Mighty Mercenary;pos=a2;rarity=4;slot=1;level=31;stats=[31;21;27;19;24];weapon=Emerald Axe;assist=-;special=-;a=Armored Blow 2;b=Guard 2;c=-;seal=-;ai={group=1};};
+{unit=Mist: Helpful Sister;pos=b1;rarity=4;slot=2;level=31;stats=[32;22;21;15;27];weapon=Slow;assist=Recover;special=Miracle;a=-;b=-;c=Spur Def/Res 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=f2;rarity=4;slot=3;level=31;stats=[31;24;25;15;21];weapon=Bolganone;assist=-;special=-;a=Warding Blow 2;b=-;c=Hone Spd 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=f3;rarity=4;slot=4;level=31;stats=[31;21;28;16;29];weapon=Silver Lance;assist=-;special=-;a=-;b=Seal Res 1;c=Hone Atk 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=a1;rarity=4;slot=5;level=31;stats=[31;21;28;16;29];weapon=Sapphire Lance;assist=-;special=-;a=-;b=Swordbreaker 2;c=Fortify Def 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Titania: Mighty Mercenary;pos=a2;rarity=5;slot=1;level=41;displaylevel=40;stats=[38;29;35;26;31];weapon=Emerald Axe+;assist=-;special=-;a=Armored Blow 3;b=Guard 3;c=-;seal=-;ai={group=1};};
+{unit=Mist: Helpful Sister;pos=b1;rarity=5;slot=2;level=41;displaylevel=40;stats=[40;28;29;21;35];weapon=Slow;assist=Recover;special=Miracle;a=-;b=-;c=Spur Def/Res 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=f2;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;32;33;21;29];weapon=Bolganone+;assist=-;special=-;a=Warding Blow 3;b=-;c=Hone Spd 3;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=f3;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;29;36;22;37];weapon=Silver Lance+;assist=-;special=-;a=-;b=Seal Res 3;c=Hone Atk 3;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=a1;rarity=5;slot=5;level=41;displaylevel=40;stats=[38;29;36;22;37];weapon=Sapphire Lance+;assist=-;special=-;a=-;b=Swordbreaker 3;c=Fortify Def 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=誇り高き副長
+|german=Stolz einer Söldnerin
+|spanishEU=Orgullo de mercenaria
+|spanishLA=Orgullo de mercenaria
+|french=L'honneur d'une mercenaire
+|italian=Onore di mercenaria
+|chineseTW=心高氣傲的副團長
+|portuguese=Orgulho de mercenário
+}}
+{{Story Maps Navbox|book=1}}

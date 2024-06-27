@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0403.webp
+|stageTitle=Chapter 3-2
+|stageName=Adopted Fondness
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 3: Gullinkambi
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4032
+|backdrop=
+|allyPos=c3,d3,c2,d2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_09.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-01-09T07:00:00Z|notification=New Heroes: Heir of Light (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Altena: Luminous Rider;pos=c7;rarity=3;slot=1;level=6;stats=[21;11;7;11;7];weapon=Iron Lance;assist=-;special=-;a=Sturdy Stance 1;b=Brash Assault 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d7;rarity=3;slot=2;level=6;stats=[20;11;6;12;4];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=3;slot=3;level=6;stats=[20;9;8;8;3];weapon=Iron Bow;assist=-;special=-;a=Atk/Spd Solo 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=3;slot=4;level=6;stats=[20;10;6;7;9];weapon=Iron Axe;assist=Rally Attack;special=-;a=-;b=Def Feint 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Altena: Luminous Rider;pos=c7;rarity=4;slot=1;level=26;stats=[34;26;17;27;14];weapon=Steel Lance;assist=-;special=Retribution;a=Sturdy Stance 1;b=Brash Assault 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d7;rarity=4;slot=2;level=26;stats=[31;25;17;26;12];weapon=Steel Sword;assist=-;special=Glowing Ember;a=-;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=4;slot=3;level=26;stats=[32;22;20;19;10];weapon=Steel Bow;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Poison Strike 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=4;slot=4;level=26;stats=[31;24;16;17;21];weapon=Steel Axe;assist=Rally Attack;special=-;a=-;b=Def Feint 2;c=Atk Tactic 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Altena: Luminous Rider;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[46;38;26;40;20];weapon=Earthly Gáe Bolg;assist=-;special=Reprisal;a=Sturdy Stance 2;b=Brash Assault 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d7;rarity=5;slot=2;level=41;displaylevel=40;stats=[41;36;27;37;19];weapon=Safeguard+;assist=-;special=Bonfire;a=-;b=Quick Riposte 3;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=5;slot=3;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Slaying Bow+;assist=-;special=Moonbow;a=Atk/Spd Solo 3;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=5;slot=4;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Silver Axe+;assist=Rally Up Atk+;special=-;a=-;b=Def Feint 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Rousing Blast|Motherly Instincts}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=妹王女の懐旧
+|german=Bruder im Herzen
+|spanishEU=Hermanos adoptivos
+|spanishLA=Hermanos adoptivos
+|french=Frère de cœur
+|italian=Affetti adottivi
+|chineseTW=王妹的懷舊
+|portuguese=Afeição adotiva
+}}
+{{Story Maps Navbox|book=4}}

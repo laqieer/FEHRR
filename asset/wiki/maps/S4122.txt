@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=C0412.webp
+|stageTitle=Chapter 12-2
+|stageName=Sister of the Church
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 12: Triandra's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4122
+|backdrop=
+|allyPos=b3,e3,c2,d2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-10-19T07:00:00Z|notification=New Heroes: Goddess's Servants (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Flayn: Playing Innocent;pos=c8;rarity=3;slot=1;level=29;stats=[31;28;18;14;24];weapon=Assault;assist=Rescue;special=Still-Water Balm;a=-;b=Dazzling Staff 1;c=Ground Orders 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d8;rarity=3;slot=2;level=29;stats=[29;21;22;13;19];weapon=Rauðrfox;assist=-;special=New Moon;a=Atk/Spd Push 1;b=-;c=Atk Smoke 1;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=b8;rarity=3;slot=3;level=29;stats=[43;27;10;29;12];weapon=Brave Lance;assist=-;special=Glowing Ember;a=Atk/Def Bond 1;b=Bold Fighter 1;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b7;rarity=3;slot=4;level=29;stats=[33;22;21;20;19];weapon=Lightning Breath;assist=-;special=Holy Vestments;a=Fury 1;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=e7;rarity=3;slot=5;level=29;stats=[29;19;24;14;25];weapon=Guard Axe;assist=Reposition;special=-;a=-;b=Poison Strike 1;c=Spur Atk/Spd 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Flayn: Playing Innocent;pos=c8;rarity=4;slot=1;level=36;stats=[35;35;22;17;31];weapon=Caduceus Staff;assist=Rescue;special=Deluge Balm;a=-;b=Dazzling Staff 2;c=Ground Orders 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d8;rarity=4;slot=2;level=36;stats=[33;27;28;16;23];weapon=Rauðrfox;assist=-;special=New Moon;a=Atk/Spd Push 2;b=-;c=Atk Smoke 2;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=b8;rarity=4;slot=3;level=36;stats=[49;34;13;36;15];weapon=Brave Lance;assist=-;special=Glowing Ember;a=Atk/Def Bond 2;b=Bold Fighter 2;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b7;rarity=4;slot=4;level=36;stats=[39;28;26;24;23];weapon=Lightning Breath;assist=-;special=Holy Vestments;a=Fury 2;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=e7;rarity=4;slot=5;level=36;stats=[33;23;31;17;32];weapon=Guard Axe;assist=Reposition;special=-;a=-;b=Poison Strike 2;c=Spur Atk/Spd 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Flayn: Playing Innocent;pos=c8;rarity=5;slot=1;level=41;stats=[40;40;27;22;36];weapon=Caduceus Staff;assist=Rescue+;special=Deluge Balm+;a=-;b=Dazzling Staff 3;c=Ground Orders 3;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d8;rarity=5;slot=2;level=41;stats=[38;31;32;20;28];weapon=Rauðrfox+;assist=-;special=Moonbow;a=Atk/Spd Push 3;b=-;c=Atk Smoke 3;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=b8;rarity=5;slot=3;level=41;stats=[56;39;16;41;19];weapon=Brave Lance+;assist=-;special=Bonfire;a=Atk/Def Bond 3;b=Bold Fighter 3;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b7;rarity=5;slot=4;level=41;stats=[45;32;30;29;28];weapon=Lightning Breath+;assist=-;special=Sacred Cowl;a=Fury 3;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=e7;rarity=5;slot=5;level=41;stats=[38;28;36;22;37];weapon=Guard Axe+;assist=Reposition;special=-;a=-;b=Poison Strike 3;c=Spur Atk/Spd 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Flayn: Playing Innocent;text=Do not worry, as I plan to give\nit my all. I love experiencing\nnew things!;textJP=張り切って戦いますわよ。\n何事も経験ですもの。};
+]}}
+{{Story Navbar|World of Steel|Brother of the Church}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖教会の妹
+|german=Schwester der Kirche
+|spanishEU=Hermana de la Iglesia
+|spanishLA=Hermana de la Iglesia
+|french=Petite sœur de l'Église
+|italian=Sorella della Chiesa
+|chineseTW=聖教會的妹妹
+|portuguese=Irmã da igreja
+}}
+{{Story Maps Navbox|book=4}}

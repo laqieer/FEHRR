@@ -5,6 +5,7 @@ import re
 import json
 import requests
 import warnings
+import urllib.parse
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
@@ -191,10 +192,16 @@ def get_text_in_textarea(url):
         return text
 
 def fetch_map_from_wiki(map_id):
-    url = wiki_map_url % map_configs[map_id]['name']
+    url = wiki_map_url % urllib.parse.quote_plus(map_configs[map_id]['name'])
     text = get_text_in_textarea(url)
     with open(os.path.join(wiki_map_save_path, map_id + '.txt'), 'w', encoding='utf-8') as file:
         file.write(text)
+
+def fetch_all_maps_from_wiki():
+    for map_id in map_configs:
+        if not os.path.exists(os.path.join(wiki_map_save_path, map_id + '.txt')):
+            print('Fetching map %s: %s' % (map_id, map_configs[map_id]['name']))
+            fetch_map_from_wiki(map_id)
 
 def make_map_images():
     for map_id, config in map_configs.items():
@@ -250,4 +257,5 @@ if __name__ == '__main__':
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
-    make_map_images()
+    fetch_all_maps_from_wiki()
+    # make_map_images()

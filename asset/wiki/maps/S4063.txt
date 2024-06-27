@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0406.webp
+|stageTitle=Chapter 6: Part 3
+|stageName=Astral Dragon's Oath
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 6: Dreaming Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4063
+|backdrop=
+|allyPos=c3,d3,c2,d2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=16
+|lvlHard=33
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_15.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-04-08T07:00:00Z|notification=New Heroes: Journey Begins (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Lilith: Astral Daughter;pos=c8;rarity=3;slot=1;level=16;stats=[23;15;18;11;13];weapon=Fire Breath+;assist=Reposition;special=-;a=Atk/Spd Bond 1;b=Def/Res Link 1;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=b7;rarity=3;slot=2;level=16;stats=[23;13;18;15;11];weapon=Fire Breath+;assist=Swap;special=-;a=-;b=Atk/Spd Link 1;c=Ground Orders 1;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=b6;rarity=3;slot=3;level=16;stats=[26;15;14;13;12];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Swift Strike 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=e7;rarity=3;slot=4;level=16;stats=[27;14;14;14;10];weapon=Steel Sword;assist=-;special=-;a=Bracing Stance 1;b=Poison Strike 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Lilith: Astral Daughter;pos=c8;rarity=4;slot=1;level=33;stats=[32;29;33;20;23];weapon=Flametongue;assist=Reposition;special=-;a=Atk/Spd Bond 2;b=Def/Res Link 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=b7;rarity=4;slot=2;level=33;stats=[32;22;30;26;20];weapon=Water Breath;assist=Swap;special=-;a=-;b=Atk/Spd Link 2;c=Ground Orders 2;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=b6;rarity=4;slot=3;level=33;stats=[37;26;24;22;21];weapon=Light Breath;assist=-;special=Dragon Gaze;a=Swift Strike 1;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=e7;rarity=4;slot=4;level=33;stats=[37;25;24;24;17];weapon=Guard Sword;assist=-;special=Dragon Gaze;a=Bracing Stance 1;b=Poison Strike 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lilith: Astral Daughter;pos=c8;rarity=5;slot=1;level=42;displaylevel=40;stats=[40;38;42;28;31];weapon=Astral Breath;assist=Reposition;special=-;a=Atk/Spd Bond 3;b=Def/Res Link 3;c=Joint Drive Atk;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=b7;rarity=5;slot=2;level=42;displaylevel=40;stats=[40;30;37;33;28];weapon=Water Breath+;assist=Swap;special=-;a=-;b=Atk/Spd Link 3;c=Ground Orders 3;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=b6;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Light Breath+;assist=-;special=Dragon Fang;a=Swift Strike 2;b=-;c=Ward Dragons;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=e7;rarity=5;slot=4;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Guard Sword+;assist=-;special=Draconic Aura;a=Bracing Stance 2;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Flame Tribe's Pride|Daughter's Loneliness}}
+==In other languages==
+{{OtherLanguages
+|japanese=星竜の誓い
+|german=Schwur des Astraldrachen
+|spanishEU=Palabra de dragona
+|spanishLA=Palabra de dragona
+|french=Serment du dragon astral
+|italian=Un giuramento astrale
+|chineseTW=星龍的誓言
+|portuguese=Juramento astral
+}}
+{{Story Maps Navbox|book=4}}

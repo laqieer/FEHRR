@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Lucina Unrevealed.png
+|mapName=Chapter 8-1: Sinister Shadow
+|stageTitle=Chapter 8: Part 1
+|stageName=Sinister Shadow
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 8: Back to Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0901
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2={{Ally|1}} | b2= | c2= | d2= | e2= | f2=
+| a1={{Ally|2}} | b1={{Ally|3}} | c1={{Ally|4}} | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=27
+|lvlLunatic=37
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=9
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Robin: High Deliverer;pos=a6;rarity=3;slot=1;level=17;stats=[25;14;14;14;10];weapon=Elthunder;assist=-;special=Glowing Ember;a=-;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Tharja: Dark Shadow;pos=e5;rarity=3;slot=2;level=17;stats=[24;16;17;11;10];weapon=Ruin;assist=-;special=Retribution;a=-;b=-;c=Spur Res 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Cavalier;pos=d8;rarity=3;slot=3;level=17;stats=[26;17;11;12;15];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Knight;pos=d4;rarity=3;slot=4;level=17;stats=[35;19;7;21;9];weapon=Steel Lance;assist=Reposition;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Robin: High Deliverer;pos=a6;rarity=3;slot=1;level=27;stats=[30;19;19;19;14];weapon=Elthunder;assist=-;special=Glowing Ember;a=-;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Tharja: Dark Shadow;pos=e5;rarity=3;slot=2;level=27;stats=[29;21;23;15;13];weapon=Ruin;assist=-;special=Retribution;a=-;b=-;c=Spur Res 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Cavalier;pos=d8;rarity=3;slot=3;level=27;stats=[31;23;16;17;20];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Knight;pos=d4;rarity=3;slot=4;level=27;stats=[42;26;10;28;12];weapon=Steel Lance;assist=Reposition;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Robin: High Deliverer;pos=a6;rarity=4;slot=1;level=37;stats=[36;26;26;25;19];weapon=Thoron;assist=-;special=Glowing Ember;a=-;b=-;c=Spur Def 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Tharja: Dark Shadow;pos=e5;rarity=4;slot=2;level=37;stats=[35;29;31;20;17];weapon=Fenrir;assist=-;special=Retribution;a=-;b=-;c=Spur Res 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Axe Cavalier;pos=d8;rarity=4;slot=3;level=37;stats=[37;31;21;22;27];weapon=Silver Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Knight;pos=d4;rarity=4;slot=4;level=37;stats=[51;35;14;37;16];weapon=Silver Lance;assist=Reposition;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Blazing Noblemen|Future Princess}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=物陰に潜みて
+|german=Düsterer Schatten
+|spanishEU=La sombra acosadora
+|spanishLA=La sombra acosadora
+|french=Une ombre persistante
+|italian=Un'ombra sinistra
+|chineseTW=潛伏暗處
+|portuguese=A sombra sinistra
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:The_Verge_of_History|Fire Emblem Awakening - Prologue: The Verge of History]]. ([https://www.youtube.com/watch?v=_-GGTiexuh0 Map Video])
+
+{{Story Maps Navbox|book=1}}

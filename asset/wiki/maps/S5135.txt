@@ -1,0 +1,104 @@
+{{Battle Infobox
+|bannerImage=C0513 C.webp
+|stageTitle=Chapter 13-5
+|stageName=Departure
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 13: Specter of Niðavellir
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5135
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=35
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_map_Brave_03.ogg
+|BGM3=bgm_boss9.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-11-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Laegjarn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S5135|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Eitri: Youthful Sage;pos=c7;rarity=3;slot=1;level=35;stats=[31;33;23;24;24];weapon=Grim Brokkr;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Dull Ranged 1;c=Atk/Res Rein 1;seal=-;ai={turn=2};};
+{unit=Marcia: Petulant Knight;pos=f1;rarity=3;slot=2;level=35;stats=[34;30;33;25;21];weapon=Unbound Lance;assist=-;special=New Moon;a=Fury 1;b=-;c=Spd/Def Gap 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Astrid: Resolute Damsel;pos=f8;rarity=3;slot=3;level=35;stats=[32;31;33;21;18];weapon=Silver Bow;assist=Rally Atk/Def;special=Rising Wind;a=Spd/Def Bond 1;b=Atk/Def Ruse 1;c=-;seal=-;ai={turn=1};};
+{unit=Volke: Man of Mysteries;pos=e8;rarity=3;slot=4;level=35;stats=[34;33;35;22;19];weapon=Silver Dagger;assist=-;special=New Moon;a=Sturdy Blow 1;b=Null Follow-Up 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Tanith: Bright Blade;pos=a5;rarity=3;slot=5;level=35;stats=[34;29;32;25;23];weapon=Steadfast Sword;assist=Ardent Sacrifice;special=Holy Vestments;a=Sturdy Blow 1;b=Flier Formation 1;c=-;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=b8;rarity=3;slot=6;level=35;stats=[36;29;28;26;16];weapon=Firesweep Lance;assist=-;special=Glowing Ember;a=-;b=Lunge;c=Res Smoke 1;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=a1;rarity=3;slot=7;level=35;stats=[33;23;29;25;21];weapon=Water Breath;assist=-;special=Dragon Gaze;a=Close Def 1;b=-;c=Atk/Spd Rein 1;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Hard=[
+{unit=Eitri: Youthful Sage;pos=c7;rarity=4;slot=1;level=40;stats=[34;39;26;28;28];weapon=Grim Brokkr;assist=-;special=Chilling Wind;a=Mirror Strike 2;b=Dull Ranged 2;c=Atk/Res Rein 2;seal=-;ai={turn=2};};
+{unit=Marcia: Petulant Knight;pos=f1;rarity=4;slot=2;level=40;stats=[38;35;39;29;24];weapon=Unbound Lance+;assist=-;special=New Moon;a=Fury 2;b=-;c=Spd/Def Gap 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Astrid: Resolute Damsel;pos=f8;rarity=4;slot=3;level=40;stats=[35;37;39;24;21];weapon=Damiell Bow;assist=Rally Atk/Def+;special=Rising Wind;a=Spd/Def Bond 3;b=Atk/Def Ruse 2;c=-;seal=-;ai={turn=1};};
+{unit=Volke: Man of Mysteries;pos=e8;rarity=4;slot=4;level=40;stats=[37;39;41;25;22];weapon=Fireman's Hook;assist=-;special=Luna;a=Sturdy Blow 2;b=Null Follow-Up 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Tanith: Bright Blade;pos=a5;rarity=4;slot=5;level=40;stats=[38;33;38;29;27];weapon=Steadfast Sword+;assist=Ardent Sacrifice;special=Holy Vestments;a=Sturdy Blow 2;b=Flier Formation 2;c=-;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=b8;rarity=4;slot=6;level=40;stats=[40;34;32;31;19];weapon=Firesweep L+;assist=-;special=Glowing Ember;a=-;b=Lunge;c=Res Smoke 2;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=a1;rarity=4;slot=7;level=40;stats=[36;26;34;30;24];weapon=Water Breath+;assist=-;special=Dragon Gaze;a=Close Def 2;b=-;c=Atk/Spd Rein 2;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Lunatic=[
+{unit=Eitri: Youthful Sage;pos=c7;rarity=5;slot=1;level=45;stats=[40;45;32;33;34];weapon=Grim Brokkr;assist=-;special=Iceberg;a=Mirror Impact;b=Dull Ranged 3;c=Atk/Res Rein 3;seal=-;ai={turn=2};};
+{unit=Marcia: Petulant Knight;pos=f1;rarity=5;slot=2;level=45;stats=[44;41;45;35;29];weapon=Unbound Lance+;assist=-;special=Luna;a=Fury 3;b=-;c=Spd/Def Gap 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Astrid: Resolute Damsel;pos=f8;rarity=5;slot=3;level=45;stats=[41;43;45;30;25];weapon=Damiell Bow;assist=Rally Atk/Def+;special=Blazing Wind;a=Spd/Def Bond 4;b=Atk/Def Ruse 3;c=-;seal=-;ai={turn=1};};
+{unit=Volke: Man of Mysteries;pos=e8;rarity=5;slot=4;level=45;stats=[43;45;47;31;28];weapon=Fireman's Hook;assist=-;special=Lethality;a=Sturdy Impact;b=Null Follow-Up 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Tanith: Bright Blade;pos=a5;rarity=5;slot=5;level=45;stats=[44;40;44;35;31];weapon=Steadfast Sword+;assist=Ardent Sacrifice;special=Aegis;a=Sturdy Blow 2;b=Flier Formation 3;c=-;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=b8;rarity=5;slot=6;level=45;stats=[46;40;39;36;23];weapon=Firesweep L+;assist=-;special=Bonfire;a=-;b=Lunge;c=Res Smoke 3;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=a1;rarity=5;slot=7;level=45;stats=[42;32;39;35;30];weapon=Water Breath+;assist=-;special=Dragon Fang;a=Close Def 3;b=-;c=Atk/Spd Rein 3;seal=-;ai={turn=1};spawn={turn=2};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Crown of the Dvergar|Embracing Fate}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=王女の旅立ち
+|german=Der Aufbruch
+|spanishEU=La despedida
+|spanishLA=La partida
+|french=Le départ
+|italian=Partenza
+|chineseTW=公主的旅程
+|portuguese=Partida
+}}
+{{Story Maps Navbox|book=5}}

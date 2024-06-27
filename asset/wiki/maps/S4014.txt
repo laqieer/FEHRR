@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0401.webp
+|stageTitle=Chapter 1-4
+|stageName=Waking Realization
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 1: The Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4014
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=23
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Fáfnir;pos=b6;rarity=3;slot=1;level=4;stats=[17;7;10;8;5];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=f6;rarity=3;slot=2;level=4;stats=[19;8;7;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=d8;rarity=3;slot=3;level=4;stats=[18;7;8;5;6];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c6;rarity=3;slot=4;level=4;stats=[26;10;2;12;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Red Fáfnir;pos=b6;rarity=4;slot=1;level=23;stats=[27;17;24;20;15];weapon=Fire Breath+;assist=-;special=-;a=-;b=-;c=Def Tactic 1;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=f6;rarity=4;slot=2;level=23;stats=[30;20;18;17;9];weapon=Steel Bow;assist=-;special=Dragon Gaze;a=Darting Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=d8;rarity=4;slot=3;level=23;stats=[27;19;20;12;16];weapon=Elwind;assist=-;special=-;a=Triangle Adept 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c6;rarity=4;slot=4;level=23;stats=[40;25;9;27;11];weapon=Steel Lance;assist=-;special=Buckler;a=-;b=Wary Fighter 1;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Red Fáfnir;pos=b6;rarity=5;slot=1;level=43;displaylevel=40;stats=[40;30;38;34;28];weapon=Light Breath+;assist=-;special=-;a=Fury 3;b=-;c=Def Tactic 3;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=f6;rarity=5;slot=2;level=43;displaylevel=40;stats=[45;34;30;30;17];weapon=Silver Bow+;assist=-;special=Draconic Aura;a=Darting Blow 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=d8;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Rexcalibur+;assist=-;special=-;a=Triangle Adept 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c6;rarity=5;slot=4;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Silver Lance+;assist=-;special=Pavise;a=-;b=Wary Fighter 3;c=-;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Sleep Sickness|In a Sleeping World}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=目覚めてはじめてそれと知る
+|german=Erwachende Erkenntnis
+|spanishEU=Letargo colectivo
+|spanishLA=Letargo colectivo
+|french=Léthargie généralisée
+|italian=Occhi stanchi
+|chineseTW=醒後方才知曉
+|portuguese=Despertar para a realidade
+}}
+{{Story Maps Navbox|book=4}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0410.webp
+|stageTitle=Chapter 10-3
+|stageName=Path of Almyra
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 10: Lack
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4103
+|backdrop=
+|allyPos=b3,c3,d3,e3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-08-18T07:00:00Z|notification=New Heroes: A New Future (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Claude: Almyra's King;pos=c8;rarity=3;slot=1;level=26;stats=[30;23;26;15;16];weapon=Silver Bow;assist=-;special=New Moon;a=Fury 2;b=Chill Spd/Def 1;c=Atk/Spd Rein 1;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=a6;rarity=3;slot=2;level=26;stats=[30;22;15;16;19];weapon=Steel Lance;assist=Reciprocal Aid;special=-;a=Atk/Def Solo 1;b=-;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=f8;rarity=3;slot=3;level=26;stats=[25;23;16;10;22];weapon=Elfire;assist=-;special=Rising Flame;a=Def/Res Bond 1;b=-;c=Close Guard 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d7;rarity=3;slot=4;level=26;stats=[32;19;19;19;14];weapon=Steel Axe;assist=-;special=Miracle;a=Wind Boost 1;b=Close Call 1;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=e8;rarity=3;slot=5;level=26;stats=[30;23;16;24;11];weapon=Steel Axe;assist=-;special=Buckler;a=Sturdy Stance 1;b=-;c=Spd Tactic 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Claude: Almyra's King;pos=c8;rarity=4;slot=1;level=37;stats=[37;32;36;20;22];weapon=Wind Parthia;assist=-;special=New Moon;a=Fury 2;b=Chill Spd/Def 1;c=Atk/Spd Rein 2;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=a6;rarity=4;slot=2;level=37;stats=[37;31;21;22;27];weapon=Silver Lance;assist=Reciprocal Aid;special=-;a=Atk/Def Solo 2;b=-;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=f8;rarity=4;slot=3;level=37;stats=[30;32;22;14;31];weapon=Rauðrfox;assist=-;special=Rising Flame;a=Def/Res Bond 2;b=-;c=Close Guard 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d7;rarity=4;slot=4;level=37;stats=[39;27;26;27;19];weapon=Guard Axe;assist=-;special=Miracle;a=Wind Boost 2;b=Close Call 2;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=e8;rarity=4;slot=5;level=37;stats=[37;32;23;33;16];weapon=Silver Axe;assist=-;special=Buckler;a=Sturdy Stance 1;b=-;c=Spd Tactic 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Claude: Almyra's King;pos=c8;rarity=5;slot=1;level=42;stats=[43;38;42;24;26];weapon=Wind Parthia;assist=-;special=Moonbow;a=Fury 4;b=Chill Spd/Def 2;c=Atk/Spd Rein 3;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=a6;rarity=5;slot=2;level=42;stats=[42;35;25;26;31];weapon=Silver Lance+;assist=Reciprocal Aid;special=-;a=Atk/Def Solo 3;b=-;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=f8;rarity=5;slot=3;level=42;stats=[34;36;26;17;35];weapon=Rauðrfox+;assist=-;special=Blazing Flame;a=Def/Res Bond 3;b=-;c=Close Guard 3;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d7;rarity=5;slot=4;level=42;stats=[45;32;32;31;23];weapon=Guard Axe+;assist=-;special=Miracle;a=Wind Boost 3;b=Close Call 3;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=e8;rarity=5;slot=5;level=42;stats=[42;36;28;37;19];weapon=Silver Axe+;assist=-;special=Escutcheon;a=Sturdy Stance 2;b=-;c=Spd Tactic 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Path of Faerghus|Path of Adrestia}}
+==In other languages==
+{{OtherLanguages
+|japanese=パルミラ国王の道
+|german=Der Weg von Almyra
+|spanishEU=El rey de Almyra
+|spanishLA=El rey de Almyra
+|french=Chemin d'Almyra
+|italian=La via di Almyra
+|chineseTW=帕邁拉國王的道路
+|portuguese=O caminho de Almyra
+}}
+
+== Trivia ==
+The generic units that appear on this map represent possible classes of [[Claude|Claude's]] allies in the Golden Deer: The Lance Cavalier being a stand-in for Leonie (lances and riding), the Red Cavalier for [[Lorenz (Three Houses)|Lorenz]] (Reason and riding), the Axe Fighter for [[Raphael]] (axes) and the Axe Flier for [[Hilda (Three Houses)|Hilda]] (Axes){{Story Maps Navbox|book=4}}

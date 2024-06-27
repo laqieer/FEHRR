@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom Unrevealed.png
+|mapName=Chapter 4-2: Blade and Dancer
+|stageTitle=Chapter 4: Part 2
+|stageName=Blade and Dancer
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 4: World of Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0502
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7=  | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}}| f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=17
+|lvlLunatic=27
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=4
+|stamHard=9
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lon'qu: Solitary Blade;pos=a6;rarity=3;slot=1;level=7;stats=[21;8;13;6;7];weapon=Steel Sword;assist=-;special=-;a=-;b=Vantage 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Olivia: Blushing Beauty;pos=b6;rarity=3;slot=2;level=7;stats=[18;7;9;7;6];weapon=Iron Sword;assist=Dance;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f6;rarity=3;slot=3;level=7;stats=[21;10;9;9;3];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=3;slot=4;level=7;stats=[27;12;3;14;3];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Lon'qu: Solitary Blade;pos=a6;rarity=3;slot=1;level=17;stats=[28;14;20;10;10];weapon=Steel Sword;assist=-;special=-;a=-;b=Vantage 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Olivia: Blushing Beauty;pos=b6;rarity=3;slot=2;level=17;stats=[23;13;16;12;11];weapon=Steel Sword;assist=Dance;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f6;rarity=3;slot=3;level=17;stats=[27;16;14;14;7];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=3;slot=4;level=17;stats=[35;19;7;21;9];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Lon'qu: Solitary Blade;pos=a6;rarity=4;slot=1;level=27;stats=[35;21;29;15;15];weapon=Silver Sword;assist=-;special=-;a=-;b=Vantage 1;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Olivia: Blushing Beauty;pos=b6;rarity=4;slot=2;level=27;stats=[28;20;24;18;17];weapon=Silver Sword;assist=Dance;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f6;rarity=4;slot=3;level=27;stats=[33;23;21;20;10];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=f4;rarity=4;slot=4;level=27;stats=[43;28;10;30;13];weapon=Silver Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=踊り子と剣士
+|german=Klinge und Tänzerin
+|spanishEU=Danza de espadas
+|spanishLA=Danza de espadas
+|french=Lames dansantes
+|italian=Duelli e danze
+|chineseTW=舞孃與劍客
+|portuguese=Dança das lâminas
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Warrior_Realm|Fire Emblem Awakening - Chapter 3: Warrior Realm]]. ([https://www.youtube.com/watch?v=5cgwyX7M54A Map Video])
+
+{{Story Maps Navbox|book=1}}

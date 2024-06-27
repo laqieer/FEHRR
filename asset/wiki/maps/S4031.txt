@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0403.webp
+|stageTitle=Chapter 3-1
+|stageName=A Rousing Blast
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 3: Gullinkambi
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4031
+|backdrop=
+|allyPos=c7,d7,a6,b6
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_09.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-01-09T07:00:00Z|notification=New Heroes: Heir of Light (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Shannan: Wielder of Astra;pos=d3;rarity=3;slot=1;level=5;stats=[20;9;9;12;5];weapon=Iron Sword;assist=-;special=-;a=Steady Posture 1;b=Wrath 1;c=Even Spd Wave 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=c1;rarity=3;slot=2;level=5;stats=[18;8;9;5;7];weapon=Thunder;assist=-;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=f3;rarity=3;slot=3;level=5;stats=[20;9;8;8;3];weapon=Iron Bow;assist=-;special=-;a=-;b=Seal Spd 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b2;rarity=3;slot=4;level=5;stats=[18;7;10;4;11];weapon=Iron Sword;assist=-;special=-;a=Fury 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Shannan: Wielder of Astra;pos=d3;rarity=4;slot=1;level=25;stats=[31;25;23;26;11];weapon=Steel Sword;assist=-;special=Night Sky;a=Steady Posture 2;b=Wrath 2;c=Even Spd Wave 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=c1;rarity=4;slot=2;level=25;stats=[28;20;21;12;17];weapon=Elthunder;assist=-;special=Retribution;a=Brazen Atk/Spd 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=f3;rarity=4;slot=3;level=25;stats=[31;21;19;18;9];weapon=Steel Bow;assist=-;special=New Moon;a=Death Blow 1;b=Seal Spd 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b2;rarity=4;slot=4;level=25;stats=[28;17;24;13;25];weapon=Steel Sword;assist=-;special=Chilling Wind;a=Fury 2;b=-;c=Spd Ploy 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Shannan: Wielder of Astra;pos=d3;rarity=5;slot=1;level=40;stats=[43;38;36;37;18];weapon=Balmung;assist=-;special=Imperial Astra;a=Steady Posture 3;b=Wrath 3;c=Even Spd Wave 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=c1;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Blárraven+;assist=-;special=Vengeance;a=Brazen Atk/Spd 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=f3;rarity=5;slot=3;level=40;stats=[43;32;29;29;16];weapon=Silver Bow+;assist=-;special=Luna;a=Death Blow 3;b=Seal Spd 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b2;rarity=5;slot=4;level=40;stats=[37;28;35;21;36];weapon=Armorsmasher+;assist=-;special=Iceberg;a=Fury 3;b=-;c=Spd Ploy 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Fae & Idunn: Bound Hero Battle|Adopted Fondness}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=目覚めを告げるもの
+|german=Klang des Erwachens
+|spanishEU=Un evento emotivo
+|spanishLA=Un evento emotivo
+|french=Rencontre avec un roi
+|italian=Il suono del risveglio
+|chineseTW=宣告覺醒之物
+|portuguese=O sopro do despertar
+}}
+{{Story Maps Navbox|book=4}}

@@ -1,0 +1,74 @@
+{{Battle Infobox
+|bannerImage=C0401.webp
+|stageTitle=Chapter 1-2
+|stageName=Reflections of Reality
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 1: The Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4012
+|backdrop=
+|allyPos=a4,b4,a3,b3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|lvlHard=21
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Blue Flier;pos=c8;rarity=3;slot=1;level=2;stats=[16;6;8;2;7];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=e5;rarity=3;slot=2;level=2;stats=[24;9;2;11;3];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e3;rarity=3;slot=3;level=2;stats=[19;6;6;7;4];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Blue Flier;pos=c8;rarity=4;slot=1;level=21;stats=[24;16;22;8;19];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=e5;rarity=4;slot=2;level=21;stats=[38;23;8;25;10];weapon=Steel Sword;assist=-;special=Night Sky;a=Fierce Stance 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e3;rarity=4;slot=3;level=21;stats=[30;18;17;18;12];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Threaten Def 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Blue Flier;pos=c8;rarity=5;slot=1;level=41;displaylevel=40;stats=[35;29;38;16;32];weapon=Thoron+;assist=-;special=-;a=-;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=e5;rarity=5;slot=2;level=41;displaylevel=40;stats=[56;39;16;41;19];weapon=Slaying Edge+;assist=-;special=Glimmer;a=Fierce Stance 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e3;rarity=5;slot=3;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Silver Axe+;assist=-;special=-;a=-;b=-;c=Threaten Def 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=それはあたかも現実のよう
+|german=Reflexion der Wirklichkeit
+|spanishEU=Destellos de realidad
+|spanishLA=Destellos de realidad
+|french=Retour à la réalité
+|italian=Riflessi del reale
+|chineseTW=那也宛如現實
+|portuguese=Reflexos da realidade
+}}
+{{Story Maps Navbox|book=4}}

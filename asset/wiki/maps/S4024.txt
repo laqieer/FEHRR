@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0402.webp
+|stageTitle=Chapter 2-4
+|stageName=Mistress's Loss
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 2: Missing You
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4024
+|backdrop=
+|allyPos=c3,d3,c2,d2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Eyvel: Mistress of Fiana;pos=b7;rarity=3;slot=1;level=6;stats=[18;10;12;10;7];weapon=Iron Sword;assist=-;special=-;a=Atk/Def Form 1;b=Chill Atk 1;c=-;seal=-;ai={turn=1};};
+{unit=Osian: Scolded Soldier;pos=e6;rarity=3;slot=2;level=6;stats=[19;11;12;10;6];weapon=Iron Axe;assist=-;special=-;a=Mirror Stance 1;b=-;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Tanya: Dagdar's Kid;pos=c7;rarity=3;slot=3;level=6;stats=[18;7;11;7;10];weapon=Iron Bow;assist=Ardent Sacrifice;special=-;a=-;b=Pass 1;c=Spur Spd/Res 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c8;rarity=3;slot=4;level=6;stats=[19;7;11;5;12];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Eyvel: Mistress of Fiana;pos=b7;rarity=4;slot=1;level=26;stats=[30;23;25;25;17];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Form 2;b=Chill Atk 2;c=-;seal=-;ai={turn=1};};
+{unit=Osian: Scolded Soldier;pos=e6;rarity=4;slot=2;level=26;stats=[31;25;26;22;17];weapon=Steel Axe;assist=-;special=Daylight;a=Mirror Stance 2;b=Wrath 1;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Tanya: Dagdar's Kid;pos=c7;rarity=4;slot=3;level=26;stats=[30;19;26;17;21];weapon=Steel Bow;assist=Ardent Sacrifice;special=-;a=-;b=Pass 2;c=Spur Spd/Res 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c8;rarity=4;slot=4;level=26;stats=[29;18;25;13;26];weapon=Steel Lance;assist=-;special=Chilling Wind;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Eyvel: Mistress of Fiana;pos=b7;rarity=5;slot=1;level=43;displaylevel=40;stats=[43;35;37;41;27];weapon=Guard Sword+;assist=-;special=Ignis;a=Atk/Def Form 3;b=Chill Atk 3;c=-;seal=-;ai={turn=1};};
+{unit=Osian: Scolded Soldier;pos=e6;rarity=5;slot=2;level=43;displaylevel=40;stats=[44;37;38;35;28];weapon=Vouge;assist=-;special=Noontime;a=Mirror Stance 3;b=Wrath 3;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Tanya: Dagdar's Kid;pos=c7;rarity=5;slot=3;level=43;displaylevel=40;stats=[43;32;40;27;30];weapon=Shining Bow+;assist=Ardent Sacrifice;special=-;a=-;b=Pass 3;c=Spur Spd/Res 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c8;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;29;37;22;38];weapon=Silver Lance+;assist=-;special=Glacies;a=-;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Eyvel: Mistress of Fiana;text=The emptiness of my past still\ntroubles me. Perhaps someday\nI'll be able to just let go.;textJP=いつか、この胸の空白が\n埋まる時がくるのでしょうか…};
+]}}
+{{Story Navbar|Swordmaster's Regret|Deeper and Deeper}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=女神の忘失
+|german=Die Leere der Herrin
+|spanishEU=Recuerdos perdidos
+|spanishLA=Recuerdos perdidos
+|french=Régente amnésique
+|italian=Memorie perdute
+|chineseTW=女神的遺忘
+|portuguese=O que a ama perdeu
+}}
+{{Story Maps Navbox|book=4}}

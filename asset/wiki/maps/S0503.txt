@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom Unrevealed.png
+|mapName=Chapter 4-3: Big Ambush
+|stageTitle=Chapter 4: Part 3
+|stageName=Big Ambush
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 4: World of Awakening
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0503
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Ally|1}} | c5= | d5={{Ally|2}} | e5= | f5=
+| a4= | b4= | c4={{Ally|3}} | d4= | e4={{Ally|4}} | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=18
+|lvlLunatic=28
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=4
+|stamHard=9
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Flier;pos=a8;rarity=3;slot=1;level=8;stats=[20;9;11;5;12];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Flier;pos=a1;rarity=3;slot=2;level=8;stats=[20;9;11;5;12];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Flier;pos=f8;rarity=3;slot=3;level=8;stats=[20;9;11;5;12];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cordelia: Knight Paragon;pos=f1;rarity=3;slot=4;level=8;stats=[21;11;12;6;7];weapon=Steel Lance;assist=-;special=-;a=Triangle Adept 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Lance Flier;pos=a8;rarity=3;slot=1;level=18;stats=[25;14;18;10;19];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Flier;pos=a1;rarity=3;slot=2;level=18;stats=[25;14;18;10;19];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Flier;pos=f8;rarity=3;slot=3;level=18;stats=[25;14;18;10;19];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cordelia: Knight Paragon;pos=f1;rarity=3;slot=4;level=18;stats=[26;18;18;11;13];weapon=Steel Lance;assist=-;special=-;a=Triangle Adept 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Lance Flier;pos=a8;rarity=4;slot=1;level=28;stats=[30;19;26;14;27];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Sword Flier;pos=a1;rarity=4;slot=2;level=28;stats=[30;19;26;14;27];weapon=Silver Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Flier;pos=f8;rarity=4;slot=3;level=28;stats=[30;19;26;14;27];weapon=Silver Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cordelia: Knight Paragon;pos=f1;rarity=4;slot=4;level=28;stats=[31;26;26;15;18];weapon=Silver Lance;assist=-;special=-;a=Triangle Adept 1;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=包囲作戦
+|german=Der Hinterhalt
+|spanishEU=¡Emboscada!
+|spanishLA=¡Emboscada!
+|french=Embuscade
+|italian=La grande imboscata
+|chineseTW=包圍戰
+|portuguese=Emboscada
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Incursion|Fire Emblem Awakening - Chapter 7: Incursion]]. ([https://www.youtube.com/watch?v=zDE6ZBZpCRo Map Video])
+
+{{Story Maps Navbox|book=1}}

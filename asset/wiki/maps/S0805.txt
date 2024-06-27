@@ -1,0 +1,104 @@
+{{Battle Infobox
+|bannerImage=Banner_Eliwood.png
+|mapName=Chapter 7-5: Blazing Noblemen
+|stageTitle=Chapter 7: Part 5
+|stageName=Blazing Noblemen
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 7: World of Blazing
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0805
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5={{Ally|1}} | e5= | f5=
+| a4= | b4= | c4={{Ally|2}} | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|3}} | d3={{Ally|4}} | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=28
+|lvlLunatic=38
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=9
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_01.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Eliwood: Knight of Lycia;pos=c8;rarity=3;slot=1;level=18;stats=[25;15;16;12;16];weapon=Steel Sword;assist=-;special=Holy Vestments;a=-;b=Escape Route 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hector: General of Ostia;pos=a6;rarity=3;slot=2;level=18;stats=[34;19;12;20;9];weapon=Steel Axe;assist=-;special=Buckler;a=-;b=Wings of Mercy 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lyn: Lady of the Plains;pos=a1;rarity=3;slot=3;level=18;stats=[25;14;20;14;13];weapon=Steel Sword;assist=-;special=-;a=Defiant Atk 2;b=Knock Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f7;rarity=3;slot=4;level=18;stats=[27;16;15;15;7];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=f2;rarity=3;slot=5;level=18;stats=[36;20;7;22;9];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Eliwood: Knight of Lycia;pos=c8;rarity=3;slot=1;level=28;stats=[30;21;21;16;22];weapon=Steel Sword;assist=-;special=Holy Vestments;a=-;b=Escape Route 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hector: General of Ostia;pos=a6;rarity=3;slot=2;level=28;stats=[41;25;16;26;12];weapon=Steel Axe;assist=-;special=Buckler;a=-;b=Wings of Mercy 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lyn: Lady of the Plains;pos=a1;rarity=3;slot=3;level=28;stats=[29;19;26;18;19];weapon=Steel Sword;assist=-;special=-;a=Defiant Atk 2;b=Knock Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f7;rarity=3;slot=4;level=28;stats=[33;22;20;20;10];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=f2;rarity=3;slot=5;level=28;stats=[43;27;10;29;12];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Eliwood: Knight of Lycia;pos=c8;rarity=4;slot=1;level=38;stats=[36;27;28;21;29];weapon=Silver Sword;assist=-;special=Holy Vestments;a=-;b=Escape Route 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hector: General of Ostia;pos=a6;rarity=4;slot=2;level=38;stats=[49;34;22;35;17];weapon=Silver Axe;assist=-;special=Buckler;a=-;b=Wings of Mercy 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lyn: Lady of the Plains;pos=a1;rarity=4;slot=3;level=38;stats=[35;25;35;25;25];weapon=Silver Sword;assist=-;special=-;a=Defiant Atk 2;b=Knock Back;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f7;rarity=4;slot=4;level=38;stats=[39;29;27;26;14];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=f2;rarity=4;slot=5;level=38;stats=[51;36;14;38;17];weapon=Silver Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+<!--===Training Tower===
+{{MapRules
+|e1MoveType=Armored
+|e1WeaponType=?
+|e2WeaponType=Colorless Bow
+|e2MoveType=Infantry
+|e3WeaponType=?
+|e3MoveType=Armored
+|e3PassiveB=Wings of Mercy 3
+|e4WeaponType=?
+|e4MoveType=Infantry
+|e4PassiveB=Knock Back
+|e5WeaponType=Melee
+|e5MoveType=Cavalry
+|e5PassiveB=Escape Route 3
+}}-->
+==Story==
+{{/Story}}
+{{Story Navbar|Blazing Trial|Sinister Shadow}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=烈火の公子
+|german=Edelmänner aus Pherae
+|spanishEU=Noble de Pherae
+|spanishLA=Noble de Pherae
+|french=La noblesse de Pherae
+|italian=I nobili di Blazing
+|chineseTW=烈火勳爵
+|portuguese=Nobre de Pherae
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Unfulfilled_Heart|Fire Emblem: The Blazing Blade - Chapter E24/H26: Unfulfilled Heart]]. ([[fireemblemwikia:File:RnK24(26H).png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

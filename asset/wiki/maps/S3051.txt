@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0305.png
+|stageTitle=Chapter 5: Part 1
+|stageName=Loss
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 5: A Father's Legacy
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3051
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4={{Ally|1}} | f4={{Ally|2}}
+| a3= | b3= | c3= | d3={{Ally|3}} | e3={{Ally|4}} | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_03.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-03-08T07:00:00Z|notification=New Heroes: Beyond Darkness (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lugh: Anima Child;pos=c8;rarity=3;slot=1;level=11;stats=[21;11;16;6;11];weapon=Elwind;assist=Rally Resistance;special=-;a=Mirror Stance 1;b=Atk Feint 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=3;slot=2;level=11;stats=[21;11;12;7;10];weapon=Elthunder;assist=-;special=-;a=-;b=Seal Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d8;rarity=3;slot=3;level=11;stats=[21;11;12;7;10];weapon=Elfire;assist=-;special=-;a=-;b=-;c=Fortify Res 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=a7;rarity=3;slot=4;level=11;stats=[23;13;8;9;12];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Lugh: Anima Child;pos=c8;rarity=4;slot=1;level=30;stats=[30;25;28;12;23];weapon=Gronnserpent;assist=Rally Up Res;special=-;a=Mirror Stance 1;b=Atk Feint 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=4;slot=2;level=30;stats=[30;23;24;14;20];weapon=Thoron;assist=-;special=Rising Thunder;a=-;b=Seal Def 2;c=Spd Ploy 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d8;rarity=4;slot=3;level=30;stats=[30;23;24;14;20];weapon=Bolganone;assist=Rally Up Atk;special=-;a=Armored Blow 1;b=-;c=Fortify Res 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=a7;rarity=4;slot=4;level=30;stats=[33;26;17;18;23];weapon=Slaying Edge;assist=-;special=Chilling Wind;a=Swift Strike 1;b=Guard 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lugh: Anima Child;pos=c8;rarity=5;slot=1;level=40;stats=[37;35;36;17;31];weapon=Gronnserpent+;assist=Rally Up Res+;special=-;a=Mirror Stance 2;b=Atk Feint 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=-;special=Growing Thunder;a=-;b=Seal Def 3;c=Spd Ploy 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d8;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Bolganone+;assist=Rally Up Atk+;special=-;a=Armored Blow 3;b=-;c=Fortify Res 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=a7;rarity=5;slot=4;level=40;stats=[41;34;24;25;30];weapon=Slaying Edge+;assist=-;special=Iceberg;a=Swift Strike 2;b=Guard 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Roy: Blazing Lion (map)|Airborne Mercenary}}
+==In other languages==
+{{OtherLanguages
+|english=Loss
+|japanese=失われたもの
+|german=Verlust
+|spanishEU=Una pérdida inmensurable
+|spanishLA=Una pérdida inmensurable
+|french=Deuil
+|italian=Lutto
+|chineseTW=所失之物
+|portuguese=Uma grande perda
+}}
+{{Story Maps Navbox|book=3}}

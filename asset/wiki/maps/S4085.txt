@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0408 C.webp
+|stageTitle=Chapter 8: Part 5
+|stageName=Child Left Unloved
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 8: Wallowing in Love
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4085
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=38
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-06-05T07:00:00Z|notification=New Heroes: Book IV Mid: Mirabilis and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Plumeria: Lewd Dream;pos=c7;rarity=3;slot=1;level=24;stats=[27;23;10;8;19];weapon=Fenrir;assist=Sweet Dreams;special=Miracle;a=Mirror Strike 1;b=Mystic Boost 1;c=-;seal=-;ai={group=1};};
+{unit=Gangrel: Plegia's Mad King;pos=e8;rarity=3;slot=2;level=24;stats=[31;18;23;14;17];weapon=Steel Dagger;assist=-;special=Chilling Wind;a=-;b=Chill Atk 1;c=Panic Ploy 1;seal=-;ai={group=1};};
+{unit=Say'ri: Chon'sin's Blade;pos=d6;rarity=3;slot=3;level=24;stats=[28;21;25;14;20];weapon=Steel Sword;assist=-;special=Chilling Wind;a=Kestrel Stance 1;b=Close Call 1;c=-;seal=-;ai={group=1};};
+{unit=Anna: Secret Seller;pos=a7;rarity=3;slot=4;level=24;stats=[28;21;25;16;18];weapon=Steel Lance;assist=Rally Atk/Spd;special=-;a=Atk/Spd Form 1;b=Atk/Spd Ruse 1;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Mustafa: Plegian Champion;pos=d7;rarity=3;slot=5;level=24;stats=[31;23;15;22;16];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Water Boost 1;b=-;c=Def Tactic 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Plumeria: Lewd Dream;pos=c7;rarity=4;slot=1;level=38;stats=[35;35;16;13;30];weapon=Flower of Plenty;assist=Sweet Dreams;special=Miracle;a=Mirror Strike 2;b=Mystic Boost 2;c=-;seal=-;ai={group=1};};
+{unit=Gangrel: Plegia's Mad King;pos=e8;rarity=4;slot=2;level=38;stats=[41;28;35;21;25];weapon=Levin Dagger;assist=-;special=Chilling Wind;a=-;b=Chill Atk 2;c=Panic Ploy 2;seal=-;ai={group=1};};
+{unit=Say'ri: Chon'sin's Blade;pos=d6;rarity=4;slot=3;level=38;stats=[36;32;37;20;30];weapon=Amatsu;assist=-;special=Chilling Wind;a=Kestrel Stance 2;b=Close Call 2;c=-;seal=-;ai={group=1};};
+{unit=Anna: Secret Seller;pos=a7;rarity=4;slot=4;level=38;stats=[35;32;37;24;27];weapon=Apotheosis Spear;assist=Rally Atk/Spd;special=-;a=Atk/Spd Form 2;b=Atk/Spd Ruse 2;c=Drive Spd 2;seal=-;ai={group=1};};
+{unit=Mustafa: Plegian Champion;pos=d7;rarity=4;slot=5;level=38;stats=[41;35;22;33;24];weapon=Barrier Axe+;assist=-;special=Glowing Ember;a=Water Boost 2;b=-;c=Def Tactic 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Plumeria: Lewd Dream;pos=c7;rarity=5;slot=1;level=45;stats=[42;42;19;17;38];weapon=Flower of Plenty;assist=Sweet Dreams;special=Miracle;a=Mirror Strike 2;b=Mystic Boost 3;c=-;seal=-;ai={group=1};};
+{unit=Gangrel: Plegia's Mad King;pos=e8;rarity=5;slot=2;level=45;stats=[48;35;42;27;30];weapon=Levin Dagger;assist=-;special=Glacies;a=-;b=Chill Atk 3;c=Panic Ploy 3;seal=-;ai={group=1};};
+{unit=Say'ri: Chon'sin's Blade;pos=d6;rarity=5;slot=3;level=45;stats=[43;38;44;25;37];weapon=Amatsu;assist=-;special=Iceberg;a=Kestrel Stance 3;b=Close Call 3;c=-;seal=-;ai={group=1};};
+{unit=Anna: Secret Seller;pos=a7;rarity=5;slot=4;level=45;stats=[41;38;44;31;34];weapon=Apotheosis Spear;assist=Rally Atk/Spd+;special=-;a=Atk/Spd Form 3;b=Atk/Spd Ruse 3;c=Joint Drive Spd;seal=-;ai={group=1};};
+{unit=Mustafa: Plegian Champion;pos=d7;rarity=5;slot=5;level=45;stats=[48;42;28;39;31];weapon=Barrier Axe+;assist=-;special=Bonfire;a=Water Boost 3;b=-;c=Def Tactic 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|General's Conflict|Renewed Resolve}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=誰からも愛されない子
+|german=Ungeliebtes Kind
+|spanishEU=La hija repudiada
+|spanishLA=La hija repudiada
+|french=L'enfant abandonné
+|italian=Amata da nessuno
+|chineseTW=沒有人愛的孩子
+|portuguese=A filha rejeitada
+}}
+{{Story Maps Navbox|book=4}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Xander Unrevealed.png
+|mapName=Chapter 2-1: Conquest Trial
+|stageTitle=Chapter 2: Part 1
+|stageName=Conquest Trial
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 2: World of Conquest
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0301
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4={{Ally|1}}
+| a3= | b3= | c3= | d3= | e3={{Ally|2}} | f3={{Ally|3}}
+| a2= | b2= | c2= | d2= | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|lvlHard=13
+|lvlLunatic=23
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Xander: Paragon Knight;pos=c7;rarity=2;slot=1;level=3;stats=[18;5;4;5;0];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Camilla: Bewitching Beauty;pos=b4;rarity=2;slot=2;level=3;stats=[16;5;7;3;3];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Leo: Sorcerous Prince;pos=a3;rarity=2;slot=3;level=3;stats=[15;4;5;2;4];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Elise: Budding Flower;pos=a5;rarity=2;slot=4;level=3;stats=[14;4;6;0;5];weapon=Gravity;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Xander: Paragon Knight;pos=c7;rarity=2;slot=1;level=13;stats=[24;13;8;15;5];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Camilla: Bewitching Beauty;pos=b4;rarity=2;slot=2;level=13;stats=[21;13;13;10;11];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Leo: Sorcerous Prince;pos=a3;rarity=2;slot=3;level=13;stats=[21;12;7;9;13];weapon=Flux;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Elise: Budding Flower;pos=a5;rarity=2;slot=4;level=13;stats=[17;13;13;6;12];weapon=Gravity;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Xander: Paragon Knight;pos=c7;rarity=3;slot=1;level=23;stats=[31;19;14;22;10];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Camilla: Bewitching Beauty;pos=b4;rarity=3;slot=2;level=23;stats=[27;18;19;16;18];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Leo: Sorcerous Prince;pos=a3;rarity=3;slot=3;level=23;stats=[27;17;13;15;18];weapon=Ruin;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Elise: Budding Flower;pos=a5;rarity=3;slot=4;level=23;stats=[22;19;19;11;19];weapon=Gravity;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Prince of Mystery|Prince of Conquest}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=暗夜の試練
+|german=Nohr - Die Prüfung
+|spanishEU=Nohr
+|spanishLA=Prueba de conquista
+|french=Premiers pas en Nohr
+|italian=Prova di Conquest
+|chineseTW=暗夜考驗
+|portuguese=Prova da conquista
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:In_the_White_Light|Fire Emblem Fates: Birthright - Chapter 6: In the White Light]]. ([https://www.youtube.com/watch?v=D51FWnvfyDc Map Video])
+
+{{Story Maps Navbox|book=1}}

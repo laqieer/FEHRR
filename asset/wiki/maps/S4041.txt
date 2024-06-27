@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0404.webp
+|stageTitle=Chapter 4-1
+|stageName=Seen in Dreams
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 4: On Dark Wings
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4041
+|backdrop=Wave
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_08.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-02-17T07:00:00Z|notification=New Heroes: The Dread Isle (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Rath: Wolf of Sacae;pos=b7;rarity=3;slot=1;level=8;stats=[19;10;10;9;7];weapon=Iron Bow;assist=-;special=-;a=Spd/Res Form 1;b=-;c=Def Smoke 1;seal=-;ai={group=1};};
+{unit=Heath: Wandering Knight;pos=f6;rarity=3;slot=2;level=8;stats=[20;12;10;13;7];weapon=Iron Lance;assist=-;special=-;a=Atk/Def Push 1;b=Escape Route 1;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d7;rarity=3;slot=3;level=8;stats=[20;9;10;6;8];weapon=Fire;assist=-;special=-;a=Atk/Def Bond 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=b6;rarity=3;slot=4;level=8;stats=[21;11;7;8;10];weapon=Iron Sword;assist=-;special=-;a=-;b=Seal Def 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Rath: Wolf of Sacae;pos=b7;rarity=4;slot=1;level=28;stats=[31;24;24;17;16];weapon=Steel Bow;assist=-;special=Night Sky;a=Spd/Res Form 2;b=-;c=Def Smoke 2;seal=-;ai={group=1};};
+{unit=Heath: Wandering Knight;pos=f6;rarity=4;slot=2;level=28;stats=[31;26;23;25;18];weapon=Steel Lance;assist=-;special=Dragon Gaze;a=Atk/Def Push 2;b=Escape Route 2;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d7;rarity=4;slot=3;level=28;stats=[29;22;23;13;19];weapon=Elfire;assist=-;special=Chilling Wind;a=Atk/Def Bond 2;b=-;c=Spd Ploy 1;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=b6;rarity=4;slot=4;level=28;stats=[32;25;16;17;22];weapon=Steel Sword;assist=-;special=Rising Light;a=-;b=Seal Def 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Rath: Wolf of Sacae;pos=b7;rarity=5;slot=1;level=40;stats=[41;33;35;23;24];weapon=Slaying Bow+;assist=-;special=Glimmer;a=Spd/Res Form 3;b=-;c=Def Smoke 3;seal=-;ai={group=1};};
+{unit=Heath: Wandering Knight;pos=f6;rarity=5;slot=2;level=40;stats=[40;35;33;33;27];weapon=Ridersbane+;assist=-;special=Dragon Fang;a=Atk/Def Push 3;b=Escape Route 3;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d7;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Bolganone+;assist=-;special=Glacies;a=Atk/Def Bond 3;b=-;c=Spd Ploy 3;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=b6;rarity=5;slot=4;level=40;stats=[41;34;24;25;30];weapon=Silver Sword+;assist=-;special=Growing Light;a=-;b=Seal Def 3;c=Ward Cavalry;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Lyn & Florina: Bound Hero Battle|Dragon's Hearkening}}
+==In other languages==
+{{OtherLanguages
+|japanese=人に見せる夢は
+|german=In Träumen gesehen
+|spanishEU=Recuerdos oníricos
+|spanishLA=Recuerdos oníricos
+|french=Souvenirs oniriques
+|italian=Ricordi onirici
+|chineseTW=使人所作之夢為
+|portuguese=Lembranças oníricas
+}}
+{{Story Maps Navbox|book=4}}

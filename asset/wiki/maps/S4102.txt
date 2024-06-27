@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=C0410.webp
+|stageTitle=Chapter 10-2
+|stageName=Path of Faerghus
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 10: Lack
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4102
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-08-18T07:00:00Z|notification=New Heroes: A New Future (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Dimitri: King of Faerghus;pos=c7;rarity=3;slot=1;level=25;stats=[30;25;22;25;12];weapon=Silver Lance;assist=-;special=Daylight;a=Atk/Def Bond 1;b=-;c=Hone Atk 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d6;rarity=3;slot=2;level=25;stats=[40;24;9;26;11];weapon=Steel Axe;assist=-;special=Holy Vestments;a=-;b=Wary Fighter 1;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d7;rarity=3;slot=3;level=25;stats=[26;20;21;10;18];weapon=Steel Bow;assist=Rally Attack;special=-;a=Fury 1;b=-;c=Guidance 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=a5;rarity=3;slot=4;level=25;stats=[25;17;17;14;22];weapon=Assault;assist=Mend;special=Solid-Earth Balm;a=-;b=-;c=Infantry Rush 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b6;rarity=3;slot=5;level=25;stats=[30;21;14;15;19];weapon=Steel Sword;assist=-;special=Night Sky;a=-;b=Lunge;c=Def Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Dimitri: King of Faerghus;pos=c7;rarity=4;slot=1;level=36;stats=[36;35;31;35;16];weapon=Moon Gradivus;assist=-;special=Daylight;a=Atk/Def Bond 2;b=-;c=Hone Atk 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d6;rarity=4;slot=2;level=36;stats=[49;34;13;36;15];weapon=Barrier Axe;assist=-;special=Holy Vestments;a=-;b=Wary Fighter 2;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d7;rarity=4;slot=3;level=36;stats=[32;28;30;14;24];weapon=Shining Bow;assist=Rally Up Atk;special=-;a=Fury 2;b=-;c=Guidance 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=a5;rarity=4;slot=4;level=36;stats=[30;24;23;19;31];weapon=Absorb;assist=Physic;special=Earthfire Balm;a=-;b=-;c=Infantry Rush 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b6;rarity=4;slot=5;level=36;stats=[36;30;20;21;26];weapon=Armorsmasher;assist=-;special=Night Sky;a=-;b=Lunge;c=Def Smoke 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Dimitri: King of Faerghus;pos=c7;rarity=5;slot=1;level=41;stats=[41;41;37;41;19];weapon=Moon Gradivus;assist=-;special=Noontime;a=Atk/Def Unity;b=Blue Lion Rule;c=Joint Hone Atk;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d6;rarity=5;slot=2;level=41;stats=[56;39;16;41;19];weapon=Barrier Axe+;assist=-;special=Aegis;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d7;rarity=5;slot=3;level=41;stats=[37;32;35;17;29];weapon=Shining Bow+;assist=Rally Up Atk+;special=-;a=Fury 3;b=-;c=Guidance 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=a5;rarity=5;slot=4;level=41;stats=[35;28;28;24;36];weapon=Absorb+;assist=Physic+;special=Earthfire Balm+;a=-;b=-;c=Infantry Rush 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b6;rarity=5;slot=5;level=41;stats=[41;35;25;26;30];weapon=Armorsmasher+;assist=-;special=Glimmer;a=-;b=Lunge;c=Def Smoke 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Dimitri: King of Faerghus;text=Though some sins cannot\nbe forgiven, effort to redeem\noneself is never wasted.;textJP=許されるとは思っていない。\nだが、償い続けるしかないんだ…};
+]}}
+{{Story Navbar|Having Grown|Path of Almyra}}
+==In other languages==
+{{OtherLanguages
+|japanese=ファーガス王の道
+|german=Der Weg von Faerghus
+|spanishEU=El rey de Faerghus
+|spanishLA=El rey de Faerghus
+|french=Chemin de Faerghus
+|italian=La via di Faerghus
+|chineseTW=法嘉斯王的道路
+|portuguese=O caminho de Faerghus
+}}
+
+== Trivia ==
+The generic units that appear on this map represent possible common classes of Dimitri's allies in the Blue Lions: the Axe Knight is a stand-in for [[Dedue]], the Bow Flier for [[Ashe]] (who is proficient with bows), the Cleric for Mercedes (Faith), and the Sword Cavalier for [[Ingrid]] (swords and riding).{{Story Maps Navbox|book=4}}

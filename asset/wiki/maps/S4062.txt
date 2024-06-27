@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0406.webp
+|stageTitle=Chapter 6: Part 2
+|stageName=Flame Tribe's Pride
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 6: Dreaming Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4062
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=32
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_15.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-04-08T07:00:00Z|notification=New Heroes: Journey Begins (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Rinkah: Scion of Flame;pos=c7;rarity=3;slot=1;level=15;stats=[24;15;17;19;8];weapon=Steel Axe;assist=-;special=Glowing Ember;a=-;b=Wrath 1;c=Even Def Wave 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d8;rarity=3;slot=2;level=15;stats=[21;12;12;10;16];weapon=-;assist=Mend;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=3;slot=3;level=15;stats=[23;13;14;8;12];weapon=Elthunder;assist=Draw Back;special=-;a=-;b=Atk/Def Link 1;c=Spur Spd/Res 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=e7;rarity=3;slot=4;level=15;stats=[23;13;14;8;12];weapon=Elfire;assist=-;special=-;a=Armored Blow 1;b=Seal Atk/Def 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Rinkah: Scion of Flame;pos=c7;rarity=4;slot=1;level=32;stats=[33;26;31;33;13];weapon=Silver Axe;assist=-;special=Glowing Ember;a=-;b=Wrath 2;c=Even Def Wave 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d8;rarity=4;slot=2;level=32;stats=[29;22;21;18;28];weapon=Absorb;assist=Physic;special=Imbue;a=Fortress Res 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=4;slot=3;level=32;stats=[31;24;25;15;21];weapon=Thoron;assist=Draw Back;special=-;a=-;b=Atk/Def Link 2;c=Spur Spd/Res 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=e7;rarity=4;slot=4;level=32;stats=[31;24;25;15;21];weapon=Bolganone;assist=-;special=New Moon;a=Armored Blow 2;b=Seal Atk/Def 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Rinkah: Scion of Flame;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[40;35;40;42;18];weapon=Rinkah's Club;assist=-;special=Bonfire;a=Distant Foil;b=Wrath 3;c=Even Def Wave 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d8;rarity=5;slot=2;level=41;displaylevel=40;stats=[35;28;28;24;36];weapon=Absorb+;assist=Physic+;special=Imbue;a=Fortress Res 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Thoron+;assist=Draw Back;special=-;a=-;b=Atk/Def Link 3;c=Spur Spd/Res 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=e7;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Bolganone+;assist=-;special=Moonbow;a=Armored Blow 3;b=Seal Atk/Def 2;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Rinkah: Scion of Flame;text=I've got fire in my veins. Cut me,\nand you'll get burned.;textJP=あたしには炎の血が流れてるんだ。\n気安く触れたら火傷するぞ？};
+]}}
+{{Story Navbar|The Waking Dream|Astral Dragon's Oath}}
+==In other languages==
+{{OtherLanguages
+|japanese=炎の部族の気炎
+|german=Stolz des Feuerklans
+|spanishEU=La hija del fuego
+|spanishLA=La hija del fuego
+|french=Fierté de la tribu du feu
+|italian=L'orgoglio della tribù
+|chineseTW=炎之部落的氣焰
+|portuguese=O orgulho da tribo
+}}
+{{Story Maps Navbox|book=4}}

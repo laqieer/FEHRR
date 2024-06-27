@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Eliwood Unrevealed.png
+|mapName=Chapter 7-2: Two Noblemen
+|stageTitle=Chapter 7: Part 2
+|stageName=Two Noblemen
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 7: World of Blazing
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0802
+| a8= | b8= | c8= | d8= | e8= | f8={{Ally|1}}
+| a7= | b7= | c7= | d7= | e7={{Ally|2}} | f7=
+| a6= | b6= | c6= | d6= | e6= | f6={{Ally|3}}
+| a5= | b5= | c5= | d5= | e5= | f5={{Ally|4}}
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=25
+|lvlLunatic=35
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=8
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Eliwood: Knight of Lycia;pos=b1;rarity=3;slot=1;level=15;stats=[23;14;14;11;15];weapon=Steel Sword;assist=Swap;special=-;a=-;b=-;c=Ward Cavalry;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=c1;rarity=3;slot=2;level=15;stats=[21;16;11;7;15];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hector: General of Ostia;pos=b8;rarity=3;slot=3;level=15;stats=[32;17;10;18;8];weapon=Steel Axe;assist=Pivot;special=-;a=-;b=-;c=Goad Armor;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=a8;rarity=3;slot=4;level=15;stats=[34;18;6;20;8];weapon=Steel Lance;assist=Pivot;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Eliwood: Knight of Lycia;pos=b1;rarity=3;slot=1;level=25;stats=[28;19;19;15;20];weapon=Steel Sword;assist=Swap;special=-;a=-;b=-;c=Ward Cavalry;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=c1;rarity=3;slot=2;level=25;stats=[25;22;16;10;21];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hector: General of Ostia;pos=b8;rarity=3;slot=3;level=25;stats=[39;23;15;24;11];weapon=Steel Axe;assist=Pivot;special=-;a=-;b=-;c=Goad Armor;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=a8;rarity=3;slot=4;level=25;stats=[41;25;9;27;11];weapon=Steel Lance;assist=Pivot;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Eliwood: Knight of Lycia;pos=b1;rarity=4;slot=1;level=35;stats=[34;26;26;19;28];weapon=Silver Sword;assist=Swap;special=-;a=-;b=-;c=Ward Cavalry;seal=-;ai={turn=1;break_walls=1};};
+{unit=Green Cavalier;pos=c1;rarity=4;slot=2;level=35;stats=[29;31;21;14;30];weapon=Rexcalibur;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Hector: General of Ostia;pos=b8;rarity=4;slot=3;level=35;stats=[46;32;20;33;16];weapon=Silver Axe;assist=Pivot;special=-;a=-;b=-;c=Goad Armor;seal=-;ai={turn=1;break_walls=1};};
+{unit=Lance Knight;pos=a8;rarity=4;slot=4;level=35;stats=[49;33;13;35;16];weapon=Silver Lance;assist=Pivot;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=公子二人
+|german=Zwei Edelmänner
+|spanishEU=Dos nobles guerreros
+|spanishLA=Dos nobles guerreros
+|french=Cœurs nobles
+|italian=Due nobiluomini
+|chineseTW=兩位勳爵
+|portuguese=Dois nobre guerreiros
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Birds_of_a_Feather|Fire Emblem: The Blazing Blade - Chapter 12: Birds of a Feather]]. ([[fireemblemwikia:File:RnK12.gif|Map Image]])
+
+{{Story Maps Navbox|book=1}}

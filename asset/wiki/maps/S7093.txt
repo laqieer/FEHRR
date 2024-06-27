@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0709.webp
+|stageTitle=Chapter 9-3
+|stageName=Sisters
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 9: The Innocent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7093
+|backdrop=Wave
+|allyPos=b2,c2,b1,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=36
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE17_15.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-07-18T07:00:00Z|notification=New Heroes Summoning Event: Rearmed Eitr & Rearmed Alcryst (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lapis: Mighty Flower;pos=d7;slot=1;rarity=3;level=24;stats=[28;24;30;17;19];weapon=Steel Sword;assist=-;special=New Moon;a=Sorcery Blade 1;b=-;c=Spd/Def Oath 1;seal=-;ai={turn=1};};
+{unit=Citrinne: Caring Noble;pos=d8;slot=2;rarity=3;level=24;stats=[26;31;15;12;27];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Special Spiral 1;c=Atk/Res Oath 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f6;slot=3;rarity=3;level=24;stats=[26;19;20;9;17];weapon=Steel Bow;assist=-;special=New Moon;a=Life and Death 1;b=S/D Far Trace 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Blue Fáfnir;pos=b8;slot=4;rarity=3;level=24;stats=[27;17;22;19;15];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 1;b=-;c=Spd Tactic 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;slot=5;rarity=3;level=24;stats=[29;20;14;15;18];weapon=Steel Lance;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Distant Guard 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Hard=[
+{unit=Lapis: Mighty Flower;pos=d7;slot=1;rarity=4;level=36;stats=[36;36;40;24;27];weapon=Defier's Sword;assist=-;special=New Moon;a=Sorcery Blade 2;b=-;c=Spd/Def Oath 2;seal=-;ai={turn=1};};
+{unit=Citrinne: Caring Noble;pos=d8;slot=2;rarity=4;level=36;stats=[33;41;22;18;39];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=-;b=Special Spiral 2;c=Atk/Res Oath 2;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f6;slot=3;rarity=4;level=36;stats=[32;28;30;14;24];weapon=Brave Bow;assist=-;special=New Moon;a=Life and Death 2;b=S/D Far Trace 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Blue Fáfnir;pos=b8;slot=4;rarity=4;level=36;stats=[34;24;32;28;22];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 2;b=-;c=Spd Tactic 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;slot=5;rarity=4;level=36;stats=[36;30;20;21;26];weapon=Slaying Spear;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Distant Guard 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lapis: Mighty Flower;pos=d7;slot=1;rarity=5;level=42;stats=[42;42;47;30;33];weapon=Defier's Sword+;assist=-;special=Luna;a=Sorcery Blade 3;b=-;c=Spd/Def Oath 3;seal=-;ai={turn=1};};
+{unit=Citrinne: Caring Noble;pos=d8;slot=2;rarity=5;level=42;stats=[39;48;28;23;45];weapon=Tome of Luxuries;assist=-;special=Iceberg;a=-;b=Special Spiral 4;c=Atk/Res Oath 4;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f6;slot=3;rarity=5;level=42;stats=[37;33;35;17;30];weapon=Brave Bow+;assist=-;special=Moonbow;a=Life and Death 3;b=S/D Far Trace 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Blue Fáfnir;pos=b8;slot=4;rarity=5;level=42;stats=[40;30;37;33;28];weapon=Dark Breath+;assist=-;special=Draconic Aura;a=Atk/Spd Catch 3;b=-;c=Spd Tactic 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;slot=5;rarity=5;level=42;stats=[42;35;25;26;31];weapon=Slaying Spear+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Distant Guard 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Prince's Pride|Prince's Concern}}
+==In other languages==
+{{OtherLanguages
+|japanese=姉と妹
+|german=Schwestern
+|spanishEU=Hermanas
+|spanishLA=Hermanas
+|french=Lien sororal
+|italian=Sorelle
+|chineseTW=姊與妹
+|portuguese=Irmãs
+}}
+{{Story Maps Navbox|book=7}}

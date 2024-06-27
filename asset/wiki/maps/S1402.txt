@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=Banner_Elincia Unrevealed.png
+|mapName=Chapter 13-2: A Triple Decker
+|stageTitle=Chapter 13: Part 2
+|stageName=A Triple Decker
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 13: Diabolical Bloodline
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1402
+|backdrop=WavePatternSea
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=33
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE09_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-09-15T07:00:00Z|notification=New Heroes: Dauntless Crimeans Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elincia: Lost Princess;pos=d8;rarity=3;slot=1;level=27;stats=[27;23;25;16;19];weapon=Steel Sword;assist=Ardent Sacrifice;special=-;a=Death Blow 1;b=Flier Formation 1;c=-;seal=-;ai={group=1};};
+{unit=Nephenee: Fierce Halberdier;pos=e6;rarity=3;slot=2;level=27;stats=[29;20;24;23;13];weapon=Steel Lance;assist=-;special=New Moon;a=Atk/Spd 1;b=Wrath 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b8;rarity=3;slot=3;level=27;stats=[29;18;24;13;25];weapon=Steel Lance;assist=Rally Attack;special=-;a=-;b=-;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=d7;rarity=3;slot=4;level=27;stats=[29;18;24;13;25];weapon=Steel Axe;assist=-;special=-;a=Armored Blow 1;b=Hit and Run;c=-;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=f5;rarity=3;slot=5;level=27;stats=[42;26;10;28;12];weapon=Steel Sword;assist=Swap;special=-;a=-;b=-;c=Spur Def 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Elincia: Lost Princess;pos=d8;rarity=4;slot=1;level=33;stats=[30;28;30;19;22];weapon=Silver Sword;assist=Ardent Sacrifice;special=-;a=Death Blow 2;b=Flier Formation 2;c=-;seal=-;ai={group=1};};
+{unit=Nephenee: Fierce Halberdier;pos=e6;rarity=4;slot=2;level=33;stats=[32;25;29;28;16];weapon=Slaying Lance;assist=-;special=New Moon;a=Atk/Spd 1;b=Wrath 2;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b8;rarity=4;slot=3;level=33;stats=[32;22;29;16;30];weapon=Silver Lance;assist=Rally Atk/Spd;special=-;a=-;b=-;c=Spur Atk 2;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=d7;rarity=4;slot=4;level=33;stats=[32;22;29;16;30];weapon=Hammer;assist=-;special=-;a=Armored Blow 2;b=Hit and Run;c=-;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=f5;rarity=4;slot=5;level=33;stats=[48;32;12;34;15];weapon=Silver Sword;assist=Swap;special=-;a=-;b=Obstruct 1;c=Drive Def 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Elincia: Lost Princess;pos=d8;rarity=5;slot=1;level=41;displaylevel=40;stats=[36;35;37;25;28];weapon=Amiti;assist=Ardent Sacrifice;special=-;a=Death Blow 3;b=Flier Formation 3;c=-;seal=-;ai={group=1};};
+{unit=Nephenee: Fierce Halberdier;pos=e6;rarity=5;slot=2;level=41;displaylevel=40;stats=[38;32;36;35;21];weapon=Slaying Lance+;assist=-;special=Moonbow;a=Atk/Spd 2;b=Wrath 3;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b8;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;29;36;22;37];weapon=Silver Lance+;assist=Rally Atk/Spd;special=-;a=-;b=-;c=Spur Atk 3;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=d7;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;29;36;22;37];weapon=Hammer+;assist=-;special=-;a=Armored Blow 3;b=Hit and Run;c=-;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=f5;rarity=5;slot=5;level=41;displaylevel=40;stats=[57;40;17;42;20];weapon=Silver Sword+;assist=Swap;special=-;a=-;b=Obstruct 3;c=Drive Def 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=三隻の船
+|german=Drei Schiffe
+|spanishEU=Tres navíos
+|spanishLA=Tres navíos
+|french=Le trois-ponts
+|italian=Il vascello
+|chineseTW=三艘船
+|portuguese=Três navios
+}}
+==Trivia==
+* This map is a reference to [[fireemblemwikia:A_Guiding_Wind|Fire Emblem: Path of Radiance - Chapter 13: A Guiding Wind]]. ([https://www.youtube.com/watch?v=IOqWTBM_6G4 Map Video])
+{{Story Maps Navbox|book=1}}

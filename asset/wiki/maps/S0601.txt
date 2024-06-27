@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_TikiY Unrevealed.png
+|mapName=Chapter 5-1: Return to Mystery
+|stageTitle=Chapter 5: Part 1
+|stageName=Return to Mystery
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 5: Back to Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0601
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3= | e3={{Ally|2}} | f3=
+| a2= | b2= | c2= | d2={{Ally|3}} | e2= | f2={{Ally|4}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=19
+|lvlLunatic=29
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=5
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Navarre: Scarlet Sword;pos=d7;rarity=3;slot=1;level=9;stats=[21;10;15;8;8];weapon=Steel Sword;assist=-;special=-;a=-;b=Desperation 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Wrys: Kindly Priest;pos=b6;rarity=3;slot=2;level=9;stats=[21;8;8;7;14];weapon=Assault;assist=Reconcile;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=f8;rarity=3;slot=3;level=9;stats=[20;9;14;4;11];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=a5;rarity=3;slot=4;level=9;stats=[20;9;14;4;11];weapon=Rogue Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Navarre: Scarlet Sword;pos=d7;rarity=3;slot=1;level=19;stats=[27;16;21;12;12];weapon=Steel Sword;assist=-;special=-;a=-;b=Desperation 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Wrys: Kindly Priest;pos=b6;rarity=3;slot=2;level=19;stats=[27;12;12;11;20];weapon=Assault;assist=Reconcile;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=f8;rarity=3;slot=3;level=19;stats=[24;14;21;7;17];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=a5;rarity=3;slot=4;level=19;stats=[24;14;21;7;17];weapon=Rogue Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Navarre: Scarlet Sword;pos=d7;rarity=4;slot=1;level=29;stats=[33;23;29;17;17];weapon=Silver Sword;assist=-;special=-;a=-;b=Desperation 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Wrys: Kindly Priest;pos=b6;rarity=4;slot=2;level=29;stats=[33;17;18;16;28];weapon=Assault;assist=Reconcile;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=f8;rarity=4;slot=3;level=29;stats=[29;20;29;9;24];weapon=Silver Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Thief;pos=a5;rarity=4;slot=4;level=29;stats=[29;20;29;9;24];weapon=Rogue Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Prince of Awakening|Divine Dragon Princess}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=紋章再び
+|german=Rückkehr nach Akaneia
+|spanishEU=De nuevo en Akaneia
+|spanishLA=De nuevo en Akaneia
+|french=Retour en Akaneia
+|italian=Ritorno a Mystery
+|chineseTW=紋章重現
+|portuguese=Retorno a Akaneia
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:A_Brush_in_the_Teeth|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 3: A Brush in the Teeth]]. ([[fireemblemwikia:File:FE1_Chapter_3.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

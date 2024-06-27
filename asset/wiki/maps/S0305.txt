@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Xander.png
+|mapName=Chapter 2-5: Prince of Conquest
+|stageTitle=Chapter 2: Part 5
+|stageName=Prince of Conquest
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 2: World of Conquest
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0305
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=16
+|lvlLunatic=26
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_02.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Xander: Paragon Knight;pos=c7;rarity=2;slot=1;level=6;stats=[21;6;5;9;1];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=Spur Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Peri: Playful Slayer;pos=b7;rarity=2;slot=2;level=5;stats=[17;6;8;3;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Laslow: Dancing Duelist;pos=d7;rarity=2;slot=3;level=5;stats=[19;6;6;6;1];weapon=Iron Sword;assist=Rally Speed;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=e7;rarity=2;slot=4;level=5;stats=[17;6;5;4;3];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Hard=[
+{unit=Xander: Paragon Knight;pos=c7;rarity=2;slot=1;level=16;stats=[26;15;9;17;6];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=Spur Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Peri: Playful Slayer;pos=b7;rarity=2;slot=2;level=15;stats=[20;15;15;9;11];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Laslow: Dancing Duelist;pos=d7;rarity=2;slot=3;level=15;stats=[25;16;12;11;8];weapon=Iron Sword;assist=Rally Speed;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=e7;rarity=2;slot=4;level=15;stats=[23;15;9;10;13];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Xander: Paragon Knight;pos=c7;rarity=3;slot=1;level=26;stats=[33;21;15;24;11];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Spur Def 2;seal=-;ai={turn=1;break_walls=1};};
+{unit=Peri: Playful Slayer;pos=b7;rarity=3;slot=2;level=25;stats=[26;21;21;15;18];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Laslow: Dancing Duelist;pos=d7;rarity=3;slot=3;level=25;stats=[32;22;17;18;14];weapon=Steel Sword;assist=Rally Speed;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Cavalier;pos=e7;rarity=3;slot=4;level=25;stats=[30;21;15;16;19];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Conquest Trial|Binding Trial}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=暗夜の王子
+|german=Der Prinz von Nohr
+|spanishEU=Príncipe y conquista
+|spanishLA=Príncipe y conquista
+|french=L'héritier de Nohr
+|italian=Il principe di Conquest
+|chineseTW=暗夜王子
+|portuguese=O príncipe da conquista
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:King_Garon|Fire Emblem Fates: Birthright - Chapter 27: King Garon]]. ([https://www.youtube.com/watch?v=jlyPeKemfSw Map Video])
+
+{{Story Maps Navbox|book=1}}

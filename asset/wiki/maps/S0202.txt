@@ -1,0 +1,79 @@
+{{Battle Infobox
+|bannerImage=Banner_Marth Unrevealed.png
+|mapName=Chapter 1-2: Willful Warrior
+|stageTitle=Chapter 1: Part 2
+|stageName=Willful Warrior
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 1: World of Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0202
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5={{Ally|1}} | f5=
+| a4= | b4= | c4= | d4= | e4= | f4={{Ally|2}}
+| a3= | b3= | c3= | d3= | e3={{Ally|3}} | f3=
+| a2= | b2= | c2= | d2= | e2= | f2={{Ally|4}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|lvlHard=12
+|lvlLunatic=22
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE11_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Axe Fighter;pos=d7;rarity=2;slot=1;level=1;stats=[17;3;3;0;0];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;break_walls=1};};
+{unit=Ogma: Loyal Blade;pos=c2;rarity=2;slot=2;level=2;stats=[18;4;7;2;0];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;group=1;break_walls=1};};
+{unit=Bow Fighter;pos=b4;rarity=2;slot=3;level=1;stats=[15;2;2;1;0];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Axe Fighter;pos=d7;rarity=2;slot=1;level=11;stats=[23;11;10;12;7];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;break_walls=1};};
+{unit=Ogma: Loyal Blade;pos=c2;rarity=2;slot=2;level=12;stats=[25;13;15;9;4];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;group=1;break_walls=1};};
+{unit=Bow Fighter;pos=b4;rarity=2;slot=3;level=11;stats=[22;12;11;10;4];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Axe Fighter;pos=d7;rarity=3;slot=1;level=21;stats=[30;17;17;17;12];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;break_walls=1};};
+{unit=Ogma: Loyal Blade;pos=c2;rarity=3;slot=2;level=22;stats=[33;20;21;16;7];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;group=1;break_walls=1};};
+{unit=Bow Fighter;pos=b4;rarity=3;slot=3;level=21;stats=[29;18;16;16;8];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=2;group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=不屈なる猛者
+|german=Unbeugsamer Krieger
+|spanishEU=Un guerrero tenaz
+|spanishLA=Un guerrero tenaz
+|french=Le guerrier obstiné
+|italian=Il guerriero ostinato
+|chineseTW=不屈猛者
+|portuguese=Um guerreiro tenaz
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Bonds|Fire Emblem: New Mystery of the Emblem - Prologue VI: Bonds]]. ([[fireemblemwikia:File:FE12_Prologue_6A.png|Map Image]])
+** Coincidentally, depending on your choices, Ogma can be in this chapter.
+
+{{Story Maps Navbox|book=1}}

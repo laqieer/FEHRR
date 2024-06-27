@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Roy Unrevealed.png
+|mapName=Chapter 3-2: Two Noblewomen
+|stageTitle=Chapter 3: Part 2
+|stageName=Two Noblewomen
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 3: World of Binding
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0402
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6={{Ally|1}} | b6= | c6= | d6= | e6= | f6=
+| a5={{Ally|2}} | b5= | c5= | d5= | e5= | f5=
+| a4={{Ally|3}} | b4= | c4= | d4= | e4= | f4=
+| a3={{Ally|4}} | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=15
+|lvlLunatic=25
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Cavalier;pos=f7;rarity=2;slot=1;level=5;stats=[18;7;5;4;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Cavalier;pos=f2;rarity=2;slot=2;level=5;stats=[18;7;5;4;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Clarine: Refined Noble;pos=f6;rarity=3;slot=3;level=5;stats=[16;5;9;3;6];weapon=Assault;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Cecilia: Etrurian General;pos=f3;rarity=3;slot=4;level=5;stats=[17;7;6;3;6];weapon=Wind;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Lance Cavalier;pos=f7;rarity=2;slot=1;level=15;stats=[23;15;9;10;13];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Cavalier;pos=f2;rarity=2;slot=2;level=15;stats=[23;15;9;10;13];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Clarine: Refined Noble;pos=f6;rarity=3;slot=3;level=15;stats=[21;11;16;10;13];weapon=Assault;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Cecilia: Etrurian General;pos=f3;rarity=3;slot=4;level=15;stats=[22;15;11;10;13];weapon=Wind;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Lance Cavalier;pos=f7;rarity=3;slot=1;level=25;stats=[30;21;15;16;19];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Cavalier;pos=f2;rarity=3;slot=2;level=25;stats=[30;21;15;16;19];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Clarine: Refined Noble;pos=f6;rarity=4;slot=3;level=25;stats=[27;17;23;14;20];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Cecilia: Etrurian General;pos=f3;rarity=4;slot=4;level=25;stats=[28;22;17;14;20];weapon=Elwind;assist=-;special=New Moon;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=高貴なる者
+|german=Zwei Edeldamen
+|spanishEU=Jaque a las damas
+|spanishLA=Jaque a las damas
+|french=Nobles cavalières
+|italian=Due nobildonne
+|chineseTW=高貴之人
+|portuguese=Duas damas nobres
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Rescue_Mission|Fire Emblem: The Binding Blade - Chapter 13: Rescue Mission]]. ([[fireemblemwikia:File:FnT13.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

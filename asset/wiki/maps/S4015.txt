@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0401 C.webp
+|stageTitle=Chapter 1-5
+|stageName=In a Sleeping World
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 1: The Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4015
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal=[{hero=Peony: Sweet Dream;rarity=5};{kind=Light Blessing}];
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-12-06T07:00:00Z|notification=New Heroes: Book IV Begins: Peony and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=???: Masked Knight;pos=c8;rarity=3;slot=1;level=5;stats=[16;8;10;5;6];weapon=Thunder;assist=-;special=Rising Thunder;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Veronica: Emblian Princess;pos=d7;rarity=3;slot=2;level=5;stats=[18;10;5;8;6];weapon=Wind;assist=-;special=Retribution;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=c6;rarity=3;slot=3;level=5;stats=[21;8;8;9;5];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f6;rarity=3;slot=4;level=5;stats=[18;7;10;4;11];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=???: Masked Knight;pos=c8;rarity=4;slot=1;level=25;stats=[25;19;24;14;16];weapon=Elthunder;assist=-;special=Rising Thunder;a=Fury 1;b=Dull Ranged 1;c=-;seal=-;ai={turn=1};};
+{unit=Veronica: Emblian Princess;pos=d7;rarity=4;slot=2;level=25;stats=[29;24;14;19;13];weapon=Elwind;assist=-;special=Retribution;a=Mirror Strike 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=c6;rarity=4;slot=3;level=25;stats=[32;20;19;20;14];weapon=Steel Sword;assist=-;special=-;a=Darting Stance 1;b=-;c=Spd Smoke 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f6;rarity=4;slot=4;level=25;stats=[28;17;24;13;25];weapon=Steel Lance;assist=Rally Attack;special=-;a=-;b=Def/Res Link 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=???: Masked Knight;pos=c8;rarity=5;slot=1;level=45;displaylevel=40;stats=[35;32;38;24;28];weapon=Valaskjálf;assist=-;special=Growing Thunder;a=Fury 3;b=Dull Ranged 3;c=-;seal=-;ai={turn=1};};
+{unit=Veronica: Emblian Princess;pos=d7;rarity=5;slot=2;level=45;displaylevel=40;stats=[44;38;24;32;23];weapon=Élivágar;assist=-;special=Reprisal;a=Mirror Strike 2;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=c6;rarity=5;slot=3;level=45;displaylevel=40;stats=[47;34;34;33;24];weapon=Barrier Blade+;assist=-;special=-;a=Darting Stance 3;b=-;c=Spd Smoke 3;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f6;rarity=5;slot=4;level=45;displaylevel=40;stats=[40;31;38;23;39];weapon=Silver Lance+;assist=Rally Atk/Spd+;special=-;a=-;b=Def/Res Link 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Waking Realization|Lost in a Dream}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=眠れる者の世界、それが
+|german=In einer schlafenden Welt
+|spanishEU=El mundo de los sueños
+|spanishLA=El mundo de los sueños
+|french=Monde du sommeil
+|italian=Il mondo dei sogni
+|chineseTW=那是沉睡者的世界
+|portuguese=No mundo dos sonhos
+}}
+{{Story Maps Navbox|book=4}}

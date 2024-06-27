@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=Banner_Elincia Unrevealed.png
+|mapName=Chapter 13-4: Armies Clash
+|stageTitle=Chapter 13: Part 4
+|stageName=Armies Clash
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 13: Diabolical Bloodline
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1404
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Ally|1}} | f3={{Ally|2}}
+| a2= | b2= | c2= | d2= | e2={{Ally|3}} | f2={{Ally|4}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=35
+|lvlLunatic=43
+|rarityNormal=4
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE09_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-09-15T07:00:00Z|notification=New Heroes: Dauntless Crimeans Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nephenee: Fierce Halberdier;pos=e8;rarity=4;slot=1;level=29;stats=[30;22;27;26;14];weapon=Slaying Lance;assist=-;special=New Moon;a=Atk/Spd 1;b=Wrath 1;c=-;seal=-;ai={turn=1};};
+{unit=Oscar: Agile Horseman;pos=a4;rarity=4;slot=2;level=29;stats=[32;25;26;19;15];weapon=Sapphire Lance;assist=Rally Speed;special=-;a=-;b=Lancebreaker 1;c=Spur Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b5;rarity=3;slot=3;level=29;stats=[30;21;22;14;19];weapon=Bolganone;assist=-;special=-;a=Warding Blow 1;b=Axebreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c7;rarity=3;slot=4;level=29;stats=[30;19;25;14;26];weapon=Steel Axe;assist=-;special=-;a=-;b=Hit and Run;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Elincia: Lost Princess;pos=b6;rarity=4;slot=5;level=29;stats=[28;26;28;17;20];weapon=Silver Sword;assist=-;special=-;a=Death Blow 1;b=Flier Formation 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Nephenee: Fierce Halberdier;pos=e8;rarity=4;slot=1;level=35;stats=[33;26;31;30;17];weapon=Slaying Lance;assist=-;special=Moonbow;a=Atk/Spd 1;b=Wrath 2;c=-;seal=-;ai={turn=1};};
+{unit=Oscar: Agile Horseman;pos=a4;rarity=4;slot=2;level=35;stats=[35;29;30;22;18];weapon=Sapphire Lance;assist=Rally Spd/Def;special=-;a=-;b=Lancebreaker 2;c=Spur Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b5;rarity=4;slot=3;level=35;stats=[33;27;28;17;23];weapon=Rauðrraven;assist=-;special=-;a=Warding Blow 2;b=Axebreaker 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c7;rarity=4;slot=4;level=35;stats=[33;23;31;17;32];weapon=Silver Axe;assist=-;special=-;a=-;b=Hit and Run;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Elincia: Lost Princess;pos=b6;rarity=4;slot=5;level=35;stats=[31;30;32;20;23];weapon=Silver Sword;assist=-;special=-;a=Death Blow 2;b=Flier Formation 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Nephenee: Fierce Halberdier;pos=e8;rarity=5;slot=1;level=43;displaylevel=40;stats=[39;33;38;37;21];weapon=Slaying Lance+;assist=-;special=Moonbow;a=Atk/Spd 2;b=Wrath 3;c=-;seal=-;ai={turn=1};};
+{unit=Oscar: Agile Horseman;pos=a4;rarity=5;slot=2;level=43;displaylevel=40;stats=[42;36;37;28;22];weapon=Sapphire Lance+;assist=Rally Spd/Def;special=-;a=-;b=Lancebreaker 3;c=Spur Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b5;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;33;34;21;30];weapon=Rauðrraven+;assist=-;special=-;a=Warding Blow 3;b=Axebreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=c7;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;30;38;23;39];weapon=Silver Axe+;assist=-;special=-;a=-;b=Hit and Run;c=Spur Atk 3;seal=-;ai={turn=1};};
+{unit=Elincia: Lost Princess;pos=b6;rarity=5;slot=5;level=43;displaylevel=40;stats=[37;37;39;26;29];weapon=Amiti;assist=-;special=-;a=Death Blow 3;b=Flier Formation 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=全軍激突
+|german=Konfrontation
+|spanishEU=Choque de ejércitos
+|spanishLA=Choque de ejércitos
+|french=Conflit armé
+|italian=Armate in conflitto
+|chineseTW=全軍激戰
+|portuguese=Conflito de exércitos
+}}
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Clash!|Fire Emblem: Path of Radiance - Chapter 26: Clash!]]. ([https://www.youtube.com/watch?v=2_jyb3YWHzg Map Video])
+{{Story Maps Navbox|book=1}}

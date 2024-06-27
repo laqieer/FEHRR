@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0405.webp
+|stageTitle=Chapter 5-3
+|stageName=Virtuoso Sigh
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 5: Twisted Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4053
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=13
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_04.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2020-03-06T07:00:00Z|notification=New Heroes: Harmony amid Chaos (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Lysithea: Child Prodigy;pos=c7;rarity=3;slot=1;level=13;stats=[22;18;15;7;9];weapon=Ruin;assist=-;special=-;a=Death Blow 1;b=Lull Spd/Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=3;slot=2;level=13;stats=[32;16;5;18;7];weapon=Steel Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d5;rarity=3;slot=3;level=13;stats=[32;16;5;18;7];weapon=Steel Axe;assist=-;special=-;a=-;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=a6;rarity=3;slot=4;level=13;stats=[18;13;7;8;18];weapon=-;assist=Mend;special=Imbue;a=Fort. Def/Res 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Lysithea: Child Prodigy;pos=c7;rarity=4;slot=1;level=32;stats=[31;33;30;16;18];weapon=Fenrir;assist=-;special=New Moon;a=Death Blow 2;b=Lull Spd/Res 2;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=4;slot=2;level=32;stats=[46;31;11;33;14];weapon=Barrier Lance;assist=-;special=Buckler;a=-;b=Wary Fighter 2;c=Atk Tactic 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d5;rarity=4;slot=3;level=32;stats=[46;31;11;33;14];weapon=Rearguard;assist=-;special=Holy Vestments;a=Distant Def 1;b=Wary Fighter 2;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=a6;rarity=4;slot=4;level=32;stats=[25;25;16;15;33];weapon=Fear;assist=Recover;special=Windfire Balm;a=Fort. Def/Res 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lysithea: Child Prodigy;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[38;43;39;22;25];weapon=Hades Ω;assist=-;special=Moonbow;a=Death Blow 4;b=Lull Spd/Res 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=5;slot=2;level=42;displaylevel=40;stats=[57;40;16;42;19];weapon=Barrier Lance+;assist=-;special=Escutcheon;a=-;b=Wary Fighter 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d5;rarity=5;slot=3;level=42;displaylevel=40;stats=[57;40;16;42;19];weapon=Rearguard+;assist=-;special=Sacred Cowl;a=Distant Def 3;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=a6;rarity=5;slot=4;level=42;displaylevel=40;stats=[30;33;22;20;43];weapon=Fear+;assist=Recover+;special=Windfire Balm+;a=Fort. Def/Res 2;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Lady's Wish|Withdrawn Melancholy}}
+==In other languages==
+{{OtherLanguages
+|japanese=優等生の溜息
+|german=Talentierter Seufzer
+|spanishEU=Un anhelo virtuoso
+|spanishLA=Un anhelo virtuoso
+|french=Soupir vertueux
+|italian=Un nobile sospiro
+|chineseTW=模範生的嘆息
+|portuguese=Nobre suspiro
+}}
+{{Story Maps Navbox|book=4}}

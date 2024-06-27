@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=C0410.webp
+|stageTitle=Chapter 10-4
+|stageName=Path of Adrestia
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 10: Lack
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4104
+|backdrop=
+|allyPos=a7,a6,a4,a3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-08-18T07:00:00Z|notification=New Heroes: A New Future (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Edelgard: Adrestian Emperor;pos=e4;rarity=3;slot=1;level=27;stats=[34;30;9;30;23];weapon=Silver Axe;assist=-;special=Daylight;a=Warding Stance 2;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=f3;rarity=3;slot=2;level=27;stats=[28;20;21;13;18];weapon=Elfire;assist=-;special=Dragon Gaze;a=-;b=Bowbreaker 1;c=Atk/Spd Oath 1;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=d5;rarity=3;slot=3;level=27;stats=[42;25;9;27;12];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=Bold Fighter 1;c=Armored Stride 1;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=f2;rarity=3;slot=4;level=27;stats=[30;23;14;15;15];weapon=Steel Bow;assist=-;special=Rising Thunder;a=Sturdy Blow 1;b=-;c=Def Smoke 1;seal=-;ai={group=1};};
+{unit=Sword Dragon;pos=e6;rarity=3;slot=5;level=27;stats=[31;23;17;24;12];weapon=Steel Sword;assist=Rally Attack;special=-;a=Death Blow 1;b=Aerobatics 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Edelgard: Adrestian Emperor;pos=e4;rarity=4;slot=1;level=38;stats=[42;41;13;40;31];weapon=Flower Hauteclere;assist=-;special=Daylight;a=Warding Stance 3;b=-;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=f3;rarity=4;slot=2;level=38;stats=[34;28;29;17;24];weapon=Rauðrblade;assist=-;special=Dragon Gaze;a=-;b=Bowbreaker 2;c=Atk/Spd Oath 2;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=d5;rarity=4;slot=3;level=38;stats=[51;35;13;37;16];weapon=Harmonic Lance;assist=-;special=New Moon;a=-;b=Bold Fighter 2;c=Armored Stride 2;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=f2;rarity=4;slot=4;level=38;stats=[36;32;19;21;21];weapon=Spendthrift Bow;assist=-;special=Rising Thunder;a=Sturdy Blow 1;b=-;c=Def Smoke 2;seal=-;ai={group=1};};
+{unit=Sword Dragon;pos=e6;rarity=4;slot=5;level=38;stats=[37;32;23;33;16];weapon=Silver Sword;assist=Rally Atk/Def;special=-;a=Death Blow 2;b=Aerobatics 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Edelgard: Adrestian Emperor;pos=e4;rarity=5;slot=1;level=43;stats=[48;47;17;46;37];weapon=Flower Hauteclere;assist=-;special=Noontime;a=Distant Ward;b=Black Eagle Rule;c=Joint Drive Res;seal=-;ai={group=1};};
+{unit=Red Mage;pos=f3;rarity=5;slot=2;level=43;stats=[39;33;34;21;29];weapon=Rauðrblade+;assist=-;special=Draconic Aura;a=-;b=Bowbreaker 3;c=Atk/Spd Oath 3;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=d5;rarity=5;slot=3;level=43;stats=[58;41;17;43;20];weapon=Harmonic Lance+;assist=-;special=Luna;a=-;b=Bold Fighter 3;c=Armored Stride 3;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=f2;rarity=5;slot=4;level=43;stats=[41;37;23;26;24];weapon=Spendthrift Bow+;assist=-;special=Blazing Thunder;a=Sturdy Blow 2;b=-;c=Def Smoke 3;seal=-;ai={group=1};};
+{unit=Sword Dragon;pos=e6;rarity=5;slot=5;level=43;stats=[42;37;28;38;20];weapon=Silver Sword+;assist=Rally Atk/Def+;special=-;a=Death Blow 3;b=Aerobatics 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Edelgard: Adrestian Emperor;text=My path may demand great personal\nsacrifice, but it is the only way to\nachieve real progress.;textJP=選んだ道を最善にしていく。\nそれしかないの。};
+]}}
+{{Story Navbar|Path of Almyra|To Feel Loved}}
+==In other languages==
+{{OtherLanguages
+|japanese=アドラステア皇帝の道
+|german=Der Weg von Adrestia
+|spanishEU=La emperatriz de Adrestia
+|spanishLA=La emperatriz de Adrestia
+|french=Chemin d'Adrestia
+|italian=La via di Adrestia
+|chineseTW=阿德剌斯忒亞皇帝的道路
+|portuguese=O caminho de Adrestia
+}}
+
+== Trivia ==
+The generic units that appear on this map represent possible common classes of Edelgard's allies in the Black Eagles: the Red Mage is likely a stand-in for [[Hubert]], the Lance Armor for Ferdinand (who is proficient with lances and possesses a Budding talent for heavy armor), the Bow Cavalier for [[Bernadetta]] (proficient with lances and has a Budding Talent in riding), and the Sword Dragon for [[Petra]] (swords and flying).{{Story Maps Navbox|book=4}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0405 C.webp
+|stageTitle=Chapter 5: Part 5
+|stageName=A Dream Solution
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 5: Twisted Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4055
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-03-06T07:00:00Z|notification=New Heroes: Harmony amid Chaos (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Helbindi: Savage Scourge;pos=d7;rarity=3;slot=1;level=15;stats=[25;16;8;16;13];weapon=Silver Axe;assist=-;special=Rising Flame;a=Life and Death 1;b=-;c=Even Atk Wave 1;seal=-;properties=use_ally_stats;ai={group=1};};
+{unit=Flame Emperor: Bringer of War;pos=b5;rarity=3;slot=2;level=15;stats=[28;20;11;18;12];weapon=Steel Axe;assist=-;special=-;a=Bracing Stance 1;b=Wary Fighter 1;c=-;seal=-;ai={group=1};};
+{unit=Lysithea: Child Prodigy;pos=e7;rarity=3;slot=3;level=15;stats=[23;19;17;8;10];weapon=Ruin;assist=-;special=-;a=Death Blow 1;b=Lull Spd/Res 1;c=Time's Pulse 1;seal=-;ai={group=1};};
+{unit=Ferdinand: Noblest of Nobles;pos=b7;rarity=3;slot=4;level=15;stats=[25;14;16;12;10];weapon=Steel Lance;assist=Reposition;special=-;a=Fortress Def 1;b=-;c=Rouse Spd/Def 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Helbindi: Savage Scourge;pos=d7;rarity=4;slot=1;level=35;stats=[38;30;14;30;25];weapon=Býleistr;assist=-;special=Rising Flame;a=Life and Death 2;b=-;c=Even Atk Wave 2;seal=-;properties=use_ally_stats;ai={group=1};};
+{unit=Flame Emperor: Bringer of War;pos=b5;rarity=4;slot=2;level=35;stats=[44;35;21;32;22];weapon=Guard Axe;assist=-;special=Glowing Ember;a=Bracing Stance 2;b=Wary Fighter 2;c=-;seal=-;ai={group=1};};
+{unit=Lysithea: Child Prodigy;pos=e7;rarity=4;slot=3;level=35;stats=[33;36;32;17;20];weapon=Fenrir;assist=-;special=New Moon;a=Death Blow 3;b=Lull Spd/Res 2;c=Time's Pulse 2;seal=-;ai={group=1};};
+{unit=Ferdinand: Noblest of Nobles;pos=b7;rarity=4;slot=4;level=35;stats=[36;27;30;24;20];weapon=Vanguard;assist=Reposition;special=-;a=Fortress Def 2;b=-;c=Rouse Spd/Def 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Helbindi: Savage Scourge;pos=d7;rarity=5;slot=1;level=45;stats=[47;38;19;38;34];weapon=Býleistr;assist=-;special=Growing Flame;a=Life and Death 3;b=-;c=Even Atk Wave 3;seal=-;properties=use_ally_stats;ai={group=1};};
+{unit=Flame Emperor: Bringer of War;pos=b5;rarity=5;slot=2;level=45;stats=[54;44;28;40;29];weapon=Guard Axe+;assist=-;special=Ignis;a=Bracing Stance 2;b=Wary Fighter 3;c=-;seal=-;ai={group=1};};
+{unit=Lysithea: Child Prodigy;pos=e7;rarity=5;slot=3;level=45;stats=[40;45;41;23;27];weapon=Hades Ω;assist=-;special=Moonbow;a=Death Blow 4;b=Lull Spd/Res 3;c=Time's Pulse 3;seal=-;ai={group=1};};
+{unit=Ferdinand: Noblest of Nobles;pos=b7;rarity=5;slot=4;level=45;stats=[44;35;38;33;27];weapon=Vanguard+;assist=Reposition;special=-;a=Fortress Def 3;b=-;c=Rouse Spd/Def 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Withdrawn Melancholy|Harmony amid Chaos}}
+==In other languages==
+{{OtherLanguages
+|japanese=答えは夢に
+|german=Traumhafte Lösung
+|spanishEU=Hallazgo en sueños
+|spanishLA=Hallazgo en sueños
+|french=Solution de rêve
+|italian=Una soluzione da sogno
+|chineseTW=答案在夢中
+|portuguese=Solução dos sonhos
+}}
+{{Story Maps Navbox|book=4}}

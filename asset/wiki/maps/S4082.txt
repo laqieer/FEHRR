@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0408.webp
+|stageTitle=Chapter 8: Part 2
+|stageName=Exalt's Ideals
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 8: Wallowing in Love
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4082
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=34
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-06-05T07:00:00Z|notification=New Heroes: Book IV Mid: Mirabilis and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Anna: Secret Seller;pos=c8;rarity=3;slot=1;level=21;stats=[27;20;23;15;17];weapon=Steel Lance;assist=Rally Attack;special=-;a=Atk/Spd Form 1;b=Atk/Spd Ruse 1;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Emmeryn: Gentle Exalt;pos=e7;rarity=3;slot=2;level=21;stats=[29;17;19;13;17];weapon=Assault;assist=Mend;special=Miracle;a=-;b=Wings of Mercy 1;c=Res Opening 1;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=c6;rarity=3;slot=3;level=21;stats=[26;15;20;11;21];weapon=Steel Axe;assist=-;special=Holy Vestments;a=Steady Posture 1;b=Aerobatics 1;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d7;rarity=3;slot=4;level=21;stats=[26;17;18;11;15];weapon=Elfire;assist=-;special=New Moon;a=Attack/Res 1;b=-;c=Res Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Anna: Secret Seller;pos=c8;rarity=4;slot=1;level=34;stats=[33;30;34;22;25];weapon=Silver Lance;assist=Rally Atk/Spd;special=-;a=Atk/Spd Form 2;b=Atk/Spd Ruse 2;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Emmeryn: Gentle Exalt;pos=e7;rarity=4;slot=2;level=34;stats=[37;26;29;18;25];weapon=Fear;assist=Rehabilitate;special=Miracle;a=-;b=Wings of Mercy 2;c=Res Opening 2;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=c6;rarity=4;slot=3;level=34;stats=[32;22;30;16;31];weapon=Slaying Axe;assist=-;special=Holy Vestments;a=Steady Posture 1;b=Aerobatics 2;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d7;rarity=4;slot=4;level=34;stats=[32;26;27;16;22];weapon=Bolganone;assist=-;special=New Moon;a=Attack/Res 1;b=-;c=Res Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Anna: Secret Seller;pos=c8;rarity=5;slot=1;level=41;stats=[39;36;41;28;31];weapon=Apotheosis Spear;assist=Rally Atk/Spd+;special=-;a=Atk/Spd Form 3;b=Atk/Spd Ruse 3;c=Joint Drive Spd;seal=-;ai={group=1};};
+{unit=Emmeryn: Gentle Exalt;pos=e7;rarity=5;slot=2;level=41;stats=[43;33;35;24;30];weapon=Fear+;assist=Rehabilitate+;special=Miracle;a=-;b=Wings of Mercy 3;c=Res Opening 3;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=c6;rarity=5;slot=3;level=41;stats=[38;28;36;22;37];weapon=Slaying Axe+;assist=-;special=Sacred Cowl;a=Steady Posture 2;b=Aerobatics 3;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=d7;rarity=5;slot=4;level=41;stats=[38;31;32;20;28];weapon=Bolganone+;assist=-;special=Moonbow;a=Attack/Res 2;b=-;c=Res Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Emmeryn: Gentle Exalt;text=Even a small act of compassion\ncan have a tremendous impact\nupon the world.;textJP=一かけらの思いやりが\n世界を平和へと導く…\n私はそう信じています…};
+]}}
+{{Story Navbar|Nectar's Sweet Scent|Playing Changelings}}
+==In other languages==
+{{OtherLanguages
+|japanese=女王の理想
+|german=Erhabene Ideale
+|spanishEU=Sabiduría de Venerable
+|spanishLA=Sabiduría de Venerable
+|french=Idéaux de Sainte-Reine
+|italian=Gli ideali dell'Eletta
+|chineseTW=女王的理想
+|portuguese=Ideais de venerável
+}}
+{{Story Maps Navbox|book=4}}

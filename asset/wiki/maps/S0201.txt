@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Banner_Marth Unrevealed.png
+|mapName=Chapter 1-1: Mystery Trial
+|stageTitle=Chapter 1: Part 1
+|stageName=Mystery Trial
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 1: World of Mystery
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S0201
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5={{Ally|1}} | b5={{Ally|2}} | c5= | d5= | e5= | f5=
+| a4={{Ally|3}} | b4={{Ally|4}} | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=1
+|lvlHard=11
+|lvlLunatic=21
+|rarityNormal=2
+|rarityHard=2
+|rarityLunatic=3
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE11_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Marth: Altean Prince;pos=f4;rarity=2;slot=1;level=1;stats=[15;2;5;2;0];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Jagen: Veteran Knight;pos=e5;rarity=2;slot=2;level=1;stats=[17;3;3;2;2];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Caeda: Talys's Heart;pos=f3;rarity=2;slot=3;level=1;stats=[13;1;6;0;3];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Marth: Altean Prince;pos=f4;rarity=2;slot=1;level=11;stats=[22;11;13;10;8];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Jagen: Veteran Knight;pos=e5;rarity=2;slot=2;level=11;stats=[22;11;9;10;15];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Caeda: Talys's Heart;pos=f3;rarity=2;slot=3;level=11;stats=[19;8;14;7;14];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Marth: Altean Prince;pos=f4;rarity=3;slot=1;level=21;stats=[28;17;19;16;13];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Jagen: Veteran Knight;pos=e5;rarity=3;slot=2;level=21;stats=[27;16;14;15;21];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Caeda: Talys's Heart;pos=f3;rarity=3;slot=3;level=21;stats=[25;14;21;13;20];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Heroes in Battle|Prince of Mystery}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=紋章の試練
+|german=Akaneia - Die Prüfung
+|spanishEU=Altea
+|spanishLA=Prueba de misterio
+|french=Premiers pas en Akaneia
+|italian=Prova di Mystery
+|chineseTW=紋章考驗
+|portuguese=Prova do mistério
+}}
+
+== Trivia ==
+* This map is a reference to [[fireemblemwikia:Marth_Embarks|Fire Emblem: Shadow Dragon and the Blade of Light - Chapter 1: Marth Embarks]]. ([[fireemblemwikia:File:FE1_Chapter_1.png|Map Image]])
+
+{{Story Maps Navbox|book=1}}

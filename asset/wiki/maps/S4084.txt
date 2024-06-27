@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0408.webp
+|stageTitle=Chapter 8: Part 4
+|stageName=General's Conflict
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 8: Wallowing in Love
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4084
+|backdrop=
+|allyPos=b2,c2,d2,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=36
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-06-05T07:00:00Z|notification=New Heroes: Book IV Mid: Mirabilis and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gangrel: Plegia's Mad King;pos=d7;rarity=3;slot=1;level=23;stats=[31;18;23;13;16];weapon=Steel Dagger;assist=-;special=Chilling Wind;a=-;b=Chill Atk 1;c=Panic Ploy 1;seal=-;ai={turn=1};};
+{unit=Mustafa: Plegian Champion;pos=a7;rarity=3;slot=2;level=23;stats=[31;23;14;22;16];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Water Boost 1;b=-;c=Def Tactic 1;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b8;rarity=3;slot=3;level=23;stats=[28;21;12;13;13];weapon=Steel Bow;assist=Harsh Command;special=-;a=Bracing Blow 1;b=-;c=Def Smoke 1;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=f6;rarity=3;slot=4;level=23;stats=[27;17;22;19;15];weapon=Fire Breath+;assist=-;special=Holy Vestments;a=Distant Def 1;b=Guard 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c6;rarity=3;slot=5;level=23;stats=[39;23;8;25;10];weapon=Steel Lance;assist=Pivot;special=-;a=-;b=Atk/Def Link 1;c=Close Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Gangrel: Plegia's Mad King;pos=d7;rarity=4;slot=1;level=36;stats=[40;27;34;20;24];weapon=Levin Dagger;assist=-;special=Chilling Wind;a=-;b=Chill Atk 2;c=Panic Ploy 2;seal=-;ai={turn=1};};
+{unit=Mustafa: Plegian Champion;pos=a7;rarity=4;slot=2;level=36;stats=[40;34;21;32;23];weapon=Barrier Axe+;assist=-;special=Glowing Ember;a=Water Boost 2;b=-;c=Def Tactic 2;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b8;rarity=4;slot=3;level=36;stats=[35;31;18;20;20];weapon=Steel Bow;assist=Harsh Command;special=-;a=Bracing Blow 1;b=-;c=Def Smoke 2;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=f6;rarity=4;slot=4;level=36;stats=[34;24;32;28;22];weapon=Fire Breath+;assist=-;special=Holy Vestments;a=Distant Def 2;b=Guard 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c6;rarity=4;slot=5;level=36;stats=[49;34;13;36;15];weapon=Steel Lance;assist=Pivot;special=-;a=-;b=Atk/Def Link 2;c=Close Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Gangrel: Plegia's Mad King;pos=d7;rarity=5;slot=1;level=43;stats=[47;34;41;26;29];weapon=Levin Dagger;assist=-;special=Glacies;a=-;b=Chill Atk 3;c=Panic Ploy 3;seal=-;ai={turn=1};};
+{unit=Mustafa: Plegian Champion;pos=a7;rarity=5;slot=2;level=43;stats=[47;41;27;38;29];weapon=Barrier Axe+;assist=-;special=Bonfire;a=Water Boost 3;b=-;c=Def Tactic 3;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b8;rarity=5;slot=3;level=43;stats=[41;37;23;26;24];weapon=Silver Bow+;assist=Harsh Command+;special=-;a=Bracing Blow 2;b=-;c=Def Smoke 3;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=f6;rarity=5;slot=4;level=43;stats=[40;30;38;34;28];weapon=Dark Breath+;assist=-;special=Aegis;a=Distant Def 3;b=Guard 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c6;rarity=5;slot=5;level=43;stats=[58;41;17;43;20];weapon=Vanguard+;assist=Pivot;special=-;a=-;b=Atk/Def Link 3;c=Close Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Mustafa: Plegian Champion;text=Let us avoid senseless slaughter.\nIf you lay down your weapon,\nI will lower mine.;textJP=無益な戦いは好まぬ。\n武器を捨てるならば悪いようにはせん。};
+]}}
+{{Story Navbar|Playing Changelings|Child Left Unloved}}
+==In other languages==
+{{OtherLanguages
+|japanese=武将の葛藤
+|german=Konflikt eines Generals
+|spanishEU=El dilema del general
+|spanishLA=El dilema del general
+|french=La culpabilité du général
+|italian=Il conflitto del prode
+|chineseTW=武將的內心糾葛
+|portuguese=O dilema do general
+}}
+{{Story Maps Navbox|book=4}}

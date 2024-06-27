@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0407 C.webp
+|stageTitle=Chapter 7: Part 5
+|stageName=Red Horizon
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 7: Steeped in Twilight
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4075
+|backdrop=WavePatternSunset
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_06.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-05-08T07:00:00Z|notification=New Heroes: Dark Burdens (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Triandra: Nightmare;pos=d8;rarity=3;slot=1;level=21;stats=[25;18;19;8;12];weapon=Elwind;assist=Dance;special=Miracle;a=Atk/Spd Push 1;b=Aerobatics 1;c=-;seal=-;ai={turn=1};};
+{unit=Ike: Zeal Unleashed;pos=e6;rarity=3;slot=2;level=21;stats=[27;20;25;17;13];weapon=Steel Sword;assist=-;special=Luna;a=Darting Stance 1;b=Repel 1;c=Atk/Spd Oath 1;seal=-;ai={turn=1};};
+{unit=Corrin: Bloodbound Beast;pos=f7;rarity=3;slot=3;level=21;stats=[28;21;21;17;13];weapon=Fire Breath+;assist=-;special=Night Sky;a=Atk/Spd Solo 2;b=Null Follow-Up 1;c=Rouse Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Julia: Heart Usurped;pos=b7;rarity=3;slot=4;level=21;stats=[26;24;13;9;23];weapon=Ruin;assist=-;special=Chilling Wind;a=Atk/Res Solo 2;b=-;c=Panic Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Triandra: Nightmare;pos=d8;rarity=4;slot=1;level=37;stats=[34;30;31;13;19];weapon=Flower of Sorrow;assist=Frightful Dream;special=Miracle;a=Atk/Spd Push 2;b=Aerobatics 2;c=-;seal=-;ai={turn=1};};
+{unit=Ike: Zeal Unleashed;pos=e6;rarity=4;slot=2;level=37;stats=[36;32;38;28;20];weapon=Chaos Ragnell;assist=-;special=New Moon;a=Darting Stance 2;b=Repel 2;c=Atk/Spd Oath 2;seal=-;ai={turn=1};};
+{unit=Corrin: Bloodbound Beast;pos=f7;rarity=4;slot=3;level=37;stats=[37;34;34;28;22];weapon=Brutal Breath;assist=-;special=Night Sky;a=Atk/Spd Solo 3;b=Null Follow-Up 2;c=Rouse Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Julia: Heart Usurped;pos=b7;rarity=4;slot=4;level=37;stats=[35;37;21;14;36];weapon=Dark Scripture;assist=-;special=Chilling Wind;a=Atk/Res Solo 3;b=-;c=Panic Smoke 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Triandra: Nightmare;pos=d8;rarity=5;slot=1;level=45;stats=[41;38;39;17;24];weapon=Flower of Sorrow;assist=Frightful Dream;special=Miracle;a=Atk/Spd Push 3;b=Aerobatics 3;c=-;seal=-;ai={turn=1};};
+{unit=Ike: Zeal Unleashed;pos=e6;rarity=5;slot=2;level=45;stats=[43;38;46;35;25];weapon=Chaos Ragnell;assist=-;special=Mayhem Aether;a=Darting Breath;b=Repel 3;c=Atk/Spd Oath 3;seal=-;ai={turn=1};};
+{unit=Corrin: Bloodbound Beast;pos=f7;rarity=5;slot=3;level=45;stats=[45;42;42;37;29];weapon=Brutal Breath;assist=-;special=Glimmer;a=Atk/Spd Solo 4;b=Null Follow-Up 3;c=Rouse Spd/Def 3;seal=-;ai={turn=1};};
+{unit=Julia: Heart Usurped;pos=b7;rarity=5;slot=4;level=45;stats=[42;45;27;18;44];weapon=Dark Scripture;assist=-;special=Iceberg;a=Atk/Res Solo 4;b=Light and Dark;c=Panic Smoke 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The War Within|Peaceful Ends}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=現と夢を分かつ赤
+|german=Roter Horizont
+|spanishEU=La línea del ocaso
+|spanishLA=La línea del ocaso
+|french=Horizon rouge
+|italian=Orizzonte purpureo
+|chineseTW=劃分現實與夢境的赤紅
+|portuguese=Horizonte púrpuro
+}}
+{{Story Maps Navbox|book=4}}

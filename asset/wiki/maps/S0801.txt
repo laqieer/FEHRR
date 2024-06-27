@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Eliwood Unrevealed.png
+|mapName=Chapter 7-1: Blazing Trial
+|stageTitle=Chapter 7: Part 1
+|stageName=Blazing Trial
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 7: World of Blazing
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0801
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4={{Ally|1}} | f4={{Ally|2}}
+| a3= | b3= | c3= | d3= | e3={{Ally|3}} | f3={{Ally|4}}
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=24
+|lvlLunatic=34
+|rarityNormal=3
+|rarityHard=3
+|rarityLunatic=4
+|stamNormal=7
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Matthew: Faithful Spy;pos=b6;rarity=3;slot=1;level=14;stats=[23;11;16;12;8];weapon=Rogue Dagger;assist=-;special=-;a=-;b=Poison Strike 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Serra: Outspoken Cleric;pos=a6;rarity=3;slot=2;level=14;stats=[20;12;15;8;15];weapon=Assault;assist=Mend;special=Swift-Winds Balm;a=-;b=-;c=Hone Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Thief;pos=a1;rarity=3;slot=3;level=14;stats=[22;12;17;5;14];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Thief;pos=a5;rarity=3;slot=4;level=14;stats=[22;12;17;5;14];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Matthew: Faithful Spy;pos=b6;rarity=3;slot=1;level=24;stats=[29;15;22;18;11];weapon=Rogue Dagger;assist=-;special=-;a=-;b=Poison Strike 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Serra: Outspoken Cleric;pos=a6;rarity=3;slot=2;level=24;stats=[24;18;20;12;21];weapon=Assault;assist=Mend;special=Swift-Winds Balm;a=-;b=-;c=Hone Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Thief;pos=a1;rarity=3;slot=3;level=24;stats=[26;17;24;8;20];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Thief;pos=a5;rarity=3;slot=4;level=24;stats=[26;17;24;8;20];weapon=Steel Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Matthew: Faithful Spy;pos=b6;rarity=4;slot=1;level=34;stats=[35;22;29;24;15];weapon=Rogue Dagger;assist=-;special=-;a=-;b=Poison Strike 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Serra: Outspoken Cleric;pos=a6;rarity=4;slot=2;level=34;stats=[29;24;26;17;28];weapon=Assault;assist=Mend;special=Swift-Winds Balm;a=-;b=-;c=Hone Atk 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Thief;pos=a1;rarity=4;slot=3;level=34;stats=[32;22;33;11;27];weapon=Silver Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Thief;pos=a5;rarity=4;slot=4;level=34;stats=[32;22;33;11;27];weapon=Silver Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Prince of Birthright|Blazing Noblemen}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=烈火の試練
+|german=In der Hitze der Prüfung
+|spanishEU=Prueba de fuego
+|spanishLA=Prueba de fuego
+|french=Retour en Elibe
+|italian=Prova di Blazing
+|chineseTW=烈火考驗
+|portuguese=Prova de fogo
+}}
+
+==Trivia==
+* This map is a reference to [[fireemblemwikia:Imprisoner_of_Magic|Fire Emblem: The Blazing Blade - Chapter E18x/H19x: Imprisoner of Magic]]. ([[fireemblemwikia:File:RnK18x.gif|Map Image]])
+
+{{Story Maps Navbox|book=1}}

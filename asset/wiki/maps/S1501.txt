@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Alfonse.png
+|mapName=Intermission 1: Awakening Ancient Power
+|stageTitle=Intermission 1
+|stageName=Awakening Ancient Power
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Intermission: A Power Awakens
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S1501
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-10-09T07:00:00Z|notification=What's in Store for the 1.8.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Alm: Hero of Prophecy;pos=d6;rarity=3;slot=1;level=29;stats=[35;23;20;19;15];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Attack +1;b=Windsweep 1;c=-;seal=Phantom Spd 1;ai={group=1};};
+{unit=Julia: Naga's Blood;pos=b7;rarity=3;slot=2;level=29;stats=[29;25;19;11;22];weapon=Elwind;assist=-;special=Dragon Gaze;a=Resistance +1;b=-;c=Breath of Life 1;seal=Breath of Life 1;ai={group=1};};
+{unit=Niles: Cruel to Be Kind;pos=d8;rarity=3;slot=3;level=29;stats=[30;18;24;11;24];weapon=Steel Bow;assist=-;special=Chilling Wind;a=Warding Blow 1;b=-;c=Spur Res 1;seal=Atk Ploy 1;ai={group=1};};
+{unit=Nephenee: Fierce Halberdier;pos=f5;rarity=3;slot=4;level=29;stats=[30;21;25;24;14];weapon=Steel Lance;assist=-;special=New Moon;a=Atk/Spd 1;b=Wrath 1;c=-;seal=Distant Def 1;ai={group=1};};
+]
+|Hard=[
+{unit=Alm: Hero of Prophecy;pos=d6;rarity=4;slot=1;level=34;stats=[39;28;25;22;18];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Attack +2;b=Windsweep 2;c=-;seal=Phantom Spd 1;ai={group=1};};
+{unit=Julia: Naga's Blood;pos=b7;rarity=4;slot=2;level=34;stats=[32;30;22;14;27];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Resistance +2;b=-;c=Breath of Life 2;seal=Breath of Life 1;ai={group=1};};
+{unit=Niles: Cruel to Be Kind;pos=d8;rarity=4;slot=3;level=34;stats=[33;21;29;14;29];weapon=Killer Bow;assist=-;special=Chilling Wind;a=Warding Blow 2;b=-;c=Spur Res 2;seal=Atk Ploy 1;ai={group=1};};
+{unit=Nephenee: Fierce Halberdier;pos=f5;rarity=4;slot=4;level=34;stats=[33;25;30;29;16];weapon=Slaying Lance;assist=-;special=New Moon;a=Atk/Spd 1;b=Wrath 2;c=-;seal=Distant Def 1;ai={group=1};};
+]
+|Lunatic=[
+{unit=Alm: Hero of Prophecy;pos=d6;rarity=5;slot=1;level=40;stats=[45;33;30;28;23];weapon=Falchion (Gaiden);assist=-;special=Draconic Aura;a=Attack +3;b=Windsweep 3;c=-;seal=Phantom Spd 1;ai={group=1};};
+{unit=Julia: Naga's Blood;pos=b7;rarity=5;slot=2;level=40;stats=[38;36;27;17;32];weapon=Naga (weapon);assist=-;special=Dragon Fang;a=Resistance +3;b=-;c=Breath of Life 3;seal=Breath of Life 1;ai={group=1};};
+{unit=Niles: Cruel to Be Kind;pos=d8;rarity=5;slot=3;level=40;stats=[38;26;35;17;35];weapon=Killer Bow+;assist=-;special=Iceberg;a=Warding Blow 3;b=-;c=Spur Res 3;seal=Atk Ploy 1;ai={group=1};};
+{unit=Nephenee: Fierce Halberdier;pos=f5;rarity=5;slot=4;level=40;stats=[38;31;36;35;20];weapon=Slaying Lance+;assist=-;special=Moonbow;a=Atk/Spd 2;b=Wrath 3;c=-;seal=Distant Def 1;ai={group=1};};
+]
+}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Finale|Minerva & Maria: Bound Hero Battle}}
+==Gallery==
+<gallery>
+File:C0015.webp|Map banner before its clearing
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=いにしえより目覚めし
+|german=Eine alte Macht
+|spanishEU=Poder ancestral
+|spanishLA=Poder ancestral
+|french=Un pouvoir ancestral
+|italian=Antico potere del Risveglio
+|chineseTW=自遠古甦醒
+|portuguese=Poder ancestral
+}}
+{{Story Maps Navbox|book=1}}
+[[Category:Intermission maps]]

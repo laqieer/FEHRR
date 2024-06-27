@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Veronica.png
+|mapName=Chapter 9-5: Princess of Death
+|stageTitle=Chapter 9: Part 5
+|stageName=Princess of Death
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 9: Heroes Invade
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S1005
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2={{Ally|1}} | b2={{Ally|2}} | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=4
+|rarityHard=5
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_03.ogg
+|BGM2=bgm_menu_theme01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Veronica: Emblian Princess;pos=d8;rarity=4;slot=1;level=25;stats=[35;25;18;21;17];weapon=Élivágar;assist=-;special=Reprisal;a=-;b=Renewal 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Xander: Paragon Knight;pos=b8;rarity=3;slot=2;level=25;stats=[32;20;15;24;10];weapon=Silver Sword;assist=-;special=Holy Vestments;a=Armored Blow 2;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=c8;rarity=3;slot=3;level=25;stats=[22;20;13;12;27];weapon=Gravity;assist=Recover;special=Kindled-Fire Balm;a=-;b=-;c=Fortify Res 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=e8;rarity=3;slot=4;level=25;stats=[32;19;19;19;14];weapon=Silver Sword;assist=Ardent Sacrifice;special=-;a=-;b=Wings of Mercy 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f8;rarity=3;slot=5;level=25;stats=[28;19;20;12;17];weapon=Thoron;assist=-;special=Daylight;a=-;b=-;c=Breath of Life 2;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Veronica: Emblian Princess;pos=d8;rarity=5;slot=1;level=35;stats=[43;33;24;27;22];weapon=Élivágar;assist=-;special=Reprisal;a=-;b=Renewal 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Xander: Paragon Knight;pos=b8;rarity=4;slot=2;level=35;stats=[39;28;20;32;14];weapon=Silver Sword;assist=-;special=Holy Vestments;a=Armored Blow 2;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=c8;rarity=4;slot=3;level=35;stats=[27;28;17;17;36];weapon=Gravity;assist=Recover;special=Kindled-Fire Balm;a=-;b=-;c=Fortify Res 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=e8;rarity=4;slot=4;level=35;stats=[39;27;26;26;18];weapon=Silver Sword;assist=Ardent Sacrifice;special=-;a=-;b=Wings of Mercy 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f8;rarity=4;slot=5;level=35;stats=[33;27;28;17;23];weapon=Thoron;assist=-;special=Daylight;a=-;b=-;c=Breath of Life 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Veronica: Emblian Princess;pos=d8;rarity=5;slot=1;level=45;displaylevel=40;stats=[49;40;29;33;26];weapon=Élivágar;assist=-;special=Reprisal;a=-;b=Renewal 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Xander: Paragon Knight;pos=b8;rarity=5;slot=2;level=45;displaylevel=40;stats=[47;35;27;42;19];weapon=Siegfried;assist=-;special=Holy Vestments;a=Armored Blow 3;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=c8;rarity=5;slot=3;level=45;displaylevel=40;stats=[32;35;24;22;46];weapon=Gravity;assist=Recover;special=Kindled-Fire Balm;a=-;b=-;c=Fortify Res 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=e8;rarity=5;slot=4;level=45;displaylevel=40;stats=[47;34;34;33;25];weapon=Silver Sword+;assist=Ardent Sacrifice;special=-;a=-;b=Wings of Mercy 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f8;rarity=5;slot=5;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Thoron+;assist=-;special=Daylight;a=-;b=-;c=Breath of Life 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{StoryNav|The Unknown|Narcian: Wyvern General (map)}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=死の皇女
+|german=Prinzessin des Todes
+|spanishEU=La princesa de la muerte
+|spanishLA=La princesa de la muerte
+|french=La funeste héritière
+|italian=La principessa funerea
+|chineseTW=死之公主
+|portuguese=A princesa da morte
+}}
+{{Story Maps Navbox|book=1}}

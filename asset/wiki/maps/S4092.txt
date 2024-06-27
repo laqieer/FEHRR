@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0409.webp
+|stageTitle=Chapter 9: Part 2
+|stageName=Rogue's Redemption
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 9: Violent Fantasies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4092
+|backdrop=
+|allyPos=d2,e2,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=35
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE12_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-07-20T07:00:00Z|notification=New Heroes: Heroes, Light and Shadow (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Julian: Tender Thief;pos=c7;rarity=3;slot=1;level=23;stats=[28;22;23;19;10];weapon=Caltrop Dagger;assist=-;special=New Moon;a=-;b=Lull Atk/Spd 1;c=-;seal=-;ai={turn=1};};
+{unit=Lena: Tender Angel;pos=c8;rarity=3;slot=2;level=23;stats=[28;19;17;13;22];weapon=Gravity;assist=Recover;special=Imbue;a=Def/Res 1;b=-;c=Atk Ploy 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f6;rarity=3;slot=3;level=23;stats=[30;19;17;17;8];weapon=Steel Bow;assist=-;special=New Moon;a=Attack +1;b=Cancel Affinity 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b4;rarity=3;slot=4;level=23;stats=[39;23;8;25;10];weapon=Steel Lance;assist=-;special=Holy Vestments;a=-;b=Wary Fighter 1;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a5;rarity=3;slot=5;level=23;stats=[26;18;19;11;16];weapon=Elfire;assist=Draw Back;special=-;a=-;b=Def/Res Link 1;c=Inf. Hexblade 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Julian: Tender Thief;pos=c7;rarity=4;slot=1;level=35;stats=[35;33;33;27;14];weapon=Caltrop Dagger+;assist=-;special=New Moon;a=Close Foil;b=Lull Atk/Spd 2;c=-;seal=-;ai={turn=1};};
+{unit=Lena: Tender Angel;pos=c8;rarity=4;slot=2;level=35;stats=[35;27;24;20;32];weapon=Gravity+;assist=Recover+;special=Imbue;a=Def/Res 1;b=-;c=Atk Ploy 2;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f6;rarity=4;slot=3;level=35;stats=[37;27;25;24;12];weapon=Brave Bow;assist=-;special=New Moon;a=Attack +2;b=Cancel Affinity 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b4;rarity=4;slot=4;level=35;stats=[49;33;12;35;15];weapon=Slaying Lance;assist=-;special=Holy Vestments;a=-;b=Wary Fighter 2;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a5;rarity=4;slot=5;level=35;stats=[33;26;27;16;23];weapon=Bolganone;assist=Draw Back;special=-;a=-;b=Def/Res Link 2;c=Inf. Hexblade 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Julian: Tender Thief;pos=c7;rarity=5;slot=1;level=41;stats=[40;39;39;34;18];weapon=Caltrop Dagger+;assist=-;special=Moonbow;a=Close Foil;b=Lull Atk/Spd 3;c=-;seal=-;ai={turn=1};};
+{unit=Lena: Tender Angel;pos=c8;rarity=5;slot=2;level=41;stats=[40;32;29;25;38];weapon=Gravity+;assist=Recover+;special=Heavenly Light;a=Def/Res 2;b=-;c=Atk Ploy 3;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f6;rarity=5;slot=3;level=41;stats=[43;32;29;29;16];weapon=Brave Bow+;assist=-;special=Luna;a=Attack +3;b=Cancel Affinity 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b4;rarity=5;slot=4;level=41;stats=[56;39;16;41;19];weapon=Slaying Lance+;assist=-;special=Aegis;a=-;b=Wary Fighter 3;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a5;rarity=5;slot=5;level=41;stats=[38;31;32;20;28];weapon=Bolganone+;assist=Draw Back;special=-;a=-;b=Def/Res Link 3;c=Inf. Hexblade 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Julian: Tender Thief;text=You can thank Lena for knocking\nsome sense into me.;textJP=ごろつきだったオレは、\nレナさんのおかげで変われたんだ…};
+]}}
+{{Story Navbar|Little Sisters' Voice|A Shadow's Vow}}
+==In other languages==
+{{OtherLanguages
+|japanese=盗賊の改心
+|german=Der bekehrte Dieb
+|spanishEU=El ladrón redimido
+|spanishLA=El ladrón redimido
+|french=La rédemption du voleur
+|italian=Il ladro redento
+|chineseTW=改過自新的盜賊
+|portuguese=A redenção do ladrão
+}}
+{{Story Maps Navbox|book=4}}

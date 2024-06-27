@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0409.webp
+|stageTitle=Chapter 9: Part 1
+|stageName=Little Sisters' Voice
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 9: Violent Fantasies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4091
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE12_03.ogg
+|BGM2=bgm_boss6.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-07-20T07:00:00Z|notification=New Heroes: Heroes, Light and Shadow (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Triandra: Nightmare;pos=c8;rarity=3;slot=1;level=22;stats=[25;18;19;8;12];weapon=Rexcalibur;assist=Frightful Dream;special=-;a=-;b=Aerobatics 1;c=Pulse Smoke 1;seal=-;ai={turn=1};};
+{unit=Kris: Unknown Hero;pos=d7;rarity=3;slot=2;level=22;stats=[27;21;23;17;14];weapon=Silver Sword;assist=-;special=Daylight;a=HP/Spd 1;b=Spurn 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b6;rarity=3;slot=3;level=22;stats=[26;16;21;18;14];weapon=Fire Breath+;assist=-;special=New Moon;a=-;b=Quick Riposte 1;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f7;rarity=3;slot=4;level=22;stats=[28;19;13;14;17];weapon=Steel Axe;assist=Rally Speed;special=-;a=Fury 1;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Triandra: Nightmare;pos=c8;rarity=4;slot=1;level=34;stats=[32;28;29;12;17];weapon=Flower of Sorrow;assist=Frightful Dream;special=-;a=-;b=Aerobatics 2;c=Pulse Smoke 2;seal=-;ai={turn=1};};
+{unit=Kris: Unknown Hero;pos=d7;rarity=4;slot=2;level=34;stats=[34;31;34;24;20];weapon=Blade of Shadow;assist=-;special=Daylight;a=HP/Spd 1;b=Spurn 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b6;rarity=4;slot=3;level=34;stats=[33;23;31;27;21];weapon=Water Breath;assist=-;special=New Moon;a=-;b=Quick Riposte 2;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f7;rarity=4;slot=4;level=34;stats=[35;29;19;20;25];weapon=Slaying Hammer;assist=Rally Spd/Def;special=-;a=Fury 2;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Triandra: Nightmare;pos=c8;rarity=5;slot=1;level=40;stats=[38;34;35;16;22];weapon=Flower of Sorrow;assist=Frightful Dream;special=-;a=-;b=Aerobatics 3;c=Pulse Smoke 3;seal=-;ai={turn=1};};
+{unit=Kris: Unknown Hero;pos=d7;rarity=5;slot=2;level=40;stats=[40;37;40;30;25];weapon=Blade of Shadow;assist=-;special=Noontime;a=HP/Spd 2;b=Spurn 3;c=Joint Drive Atk;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b6;rarity=5;slot=3;level=40;stats=[39;29;36;32;27];weapon=Water Breath+;assist=-;special=Moonbow;a=-;b=Quick Riposte 3;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f7;rarity=5;slot=4;level=40;stats=[41;34;24;25;30];weapon=Slaying Hammer+;assist=Rally Spd/Def+;special=-;a=Fury 3;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Sandy Struggle|Rogue's Redemption}}
+==In other languages==
+{{OtherLanguages
+|japanese=小さな姉妹の声
+|german=Vertraute Stimmen
+|spanishEU=Sollozos del pasado
+|spanishLA=Sollozos del pasado
+|french=Voix de petites sœurs
+|italian=Voci dall'infanzia
+|chineseTW=幼小姊妹的聲音
+|portuguese=Voz da infância
+}}
+{{Story Maps Navbox|book=4}}

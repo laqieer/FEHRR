@@ -1,0 +1,97 @@
+{{Battle Infobox
+|bannerImage=Banner_Veronica Unrevealed.png
+|mapName=Chapter 9-2: Nobility and Vanity
+|stageTitle=Chapter 9: Part 2
+|stageName=Nobility and Vanity
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Chapter 9: Heroes Invade
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=Wave
+|baseMap=S1002
+| a8={{Ally|1}} | b8= | c8= | d8= | e8= | f8=
+| a7={{Ally|2}} | b7= | c7= | d7= | e7= | f7=
+| a6={{Ally|3}} | b6= | c6= | d6= | e6= | f6=
+| a5={{Ally|4}} | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=10
+|stamHard=10
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_02.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Knight;pos=e8;rarity=3;slot=1;level=21;stats=[38;22;8;24;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Wary Fighter 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Zephiel: The Liberator;pos=e7;rarity=3;slot=2;level=21;stats=[38;20;8;23;13];weapon=Steel Sword;assist=-;special=Retribution;a=-;b=Wary Fighter 2;c=Ward Armor;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=e6;rarity=3;slot=3;level=21;stats=[38;22;8;24;10];weapon=Steel Axe;assist=-;special=-;a=-;b=Wary Fighter 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=f7;rarity=3;slot=4;level=21;stats=[24;15;15;13;20];weapon=Fear;assist=Mend;special=Imbue;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Narcian: Wyvern General;pos=b1;rarity=3;slot=5;level=21;stats=[28;16;16;18;15];weapon=Emerald Axe;assist=-;special=-;a=-;b=Lancebreaker 2;c=Savage Blow 2;seal=-;ai={turn=2;break_walls=1};};
+]
+|Hard=[
+{unit=Lance Knight;pos=e8;rarity=4;slot=1;level=31;stats=[46;31;12;33;14];weapon=Silver Lance;assist=-;special=-;a=-;b=Wary Fighter 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Zephiel: The Liberator;pos=e7;rarity=4;slot=2;level=31;stats=[46;28;12;31;18];weapon=Silver Sword;assist=-;special=Retribution;a=-;b=Wary Fighter 2;c=Ward Armor;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=e6;rarity=4;slot=3;level=31;stats=[46;31;12;33;14];weapon=Silver Axe;assist=-;special=-;a=-;b=Wary Fighter 2;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=f7;rarity=4;slot=4;level=31;stats=[29;22;21;18;28];weapon=Fear;assist=Mend;special=Imbue;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Narcian: Wyvern General;pos=b1;rarity=4;slot=5;level=31;stats=[34;22;22;25;21];weapon=Emerald Axe;assist=-;special=-;a=-;b=Lancebreaker 2;c=Savage Blow 2;seal=-;ai={turn=2;break_walls=1};};
+]
+|Lunatic=[
+{unit=Lance Knight;pos=e8;rarity=5;slot=1;level=41;displaylevel=40;stats=[57;40;17;42;20];weapon=Silver Lance+;assist=-;special=-;a=-;b=Wary Fighter 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Zephiel: The Liberator;pos=e7;rarity=5;slot=2;level=41;displaylevel=40;stats=[57;36;17;39;25];weapon=Eckesachs;assist=-;special=Retribution;a=-;b=Wary Fighter 3;c=Ward Armor;seal=-;ai={turn=1;break_walls=1};};
+{unit=Axe Knight;pos=e6;rarity=5;slot=3;level=41;displaylevel=40;stats=[57;40;17;42;20];weapon=Silver Axe+;assist=-;special=-;a=-;b=Wary Fighter 3;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Cleric;pos=f7;rarity=5;slot=4;level=41;displaylevel=40;stats=[35;29;29;24;36];weapon=Fear;assist=Mend;special=Imbue;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Narcian: Wyvern General;pos=b1;rarity=5;slot=5;level=41;displaylevel=40;stats=[43;30;30;33;27];weapon=Emerald Axe+;assist=-;special=-;a=-;b=Lancebreaker 3;c=Savage Blow 3;seal=-;ai={turn=2;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+<!--===Training Tower===
+{{MapRules
+|e1WeaponType=Colorless Staff
+|e1MoveType=Infantry
+|e2MoveType=Armored
+|e2WeaponType=Flexible
+|e2PassiveB=Wary Fighter 3
+|e3WeaponType=Flexible
+|e3MoveType=Armored
+|e3PassiveB=Wary Fighter 3
+|e4WeaponType=Flexible
+|e4MoveType=Armored
+|e4PassiveB=Wary Fighter 3
+|e4PassiveC=Ward Armor
+|e5WeaponType=Melee
+|e5MoveType=Flying
+|e5PassiveC=Savage Blow 3
+}}-->
+==In other languages==
+{{OtherLanguages
+|japanese=王道と邪道
+|german=Adel und Eitelkeit
+|spanishEU=Nobleza y vanidad
+|spanishLA=Nobleza y vanidad
+|french=Noblesse et perfidie
+|italian=Nobiltà e vanità
+|chineseTW=王道與邪道
+|portuguese=Nobreza e vaidade
+}}
+{{Story Maps Navbox|book=1}}
