@@ -25,10 +25,10 @@ TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
 SOURCES		:= source source/gba-hq-mixer
 INCLUDES	:= include include/decomp/include
-DATA		:=
+DATA		:= data/map
 MUSIC		:=
 LDSCRIPTS	:= ldscript
-GRAPHICS	:= gfx/face gfx/glyph/EN gfx/glyph/JA gfx/glyph/ZH gfx/background gfx/misc
+GRAPHICS	:= gfx/face gfx/glyph/EN gfx/glyph/JA gfx/glyph/ZH gfx/background gfx/misc gfx/map
 SOUNDS		:= sfx/voice
 
 #---------------------------------------------------------------------------------

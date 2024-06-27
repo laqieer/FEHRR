@@ -21,7 +21,9 @@ map_image_path = os.path.join(map_asset_path, 'Story/')
 map_common_path = os.path.join(map_asset_path, 'Common/')
 map_image_save_path = 'map/full_color/'
 map_image_decreased_color_save_path = 'map/decreased_color/'
-FEBuiderGBA = '..\\FEBuilderGBA\\FEBuilderGBA\\bin\\Debug\\FEBuilderGBA.exe'
+map_obj_img_save_path = 'gfx/map/'
+map_tsa_save_path = 'data/map/'
+FEBuiderGBA = '..\\FEBuilderGBA\\FEBuilderGBA\\bin\\Debug\\FEBuilderGBA.exe --rom=baserom.gba'
 wiki_config_save_path = 'map/wiki_conf/'
 wiki_config_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
 
@@ -329,8 +331,16 @@ def decrease_map_colors():
     for map_id in map_configs:
         image_map_path = os.path.join(map_image_save_path, map_id + '.png')
         image_map_decreased_color_path = os.path.join(map_image_decreased_color_save_path, map_id + '.png')
-        # run FEBuilderGBA to decrease color
-        os.system('%s --rom=baserom.gba --decreasecolor --in=%s --out=%s --paletteno=10' % (FEBuiderGBA, image_map_path, image_map_decreased_color_path))
+        # run FEBuilderGBA to decrease color: https://github.com/laqieer/FEBuilderGBA/commit/f67aa32c83fc79467eecbae02884228ee08a7975
+        os.system('%s --decreasecolor --in=%s --out=%s --paletteno=10' % (FEBuiderGBA, image_map_path, image_map_decreased_color_path))
+
+def make_map_tsa():
+    for map_id in map_configs:
+        image_map_decreased_color_path = os.path.join(map_image_decreased_color_save_path, map_id + '.png')
+        map_obj_img_path = os.path.join(map_obj_img_save_path, map_id + '.png')
+        map_tsa_path = os.path.join(map_tsa_save_path, map_id + '.bin')
+        # run FEBuilderGBA to make TSA: https://github.com/laqieer/FEBuilderGBA/commit/fabcd487abe9f31c0d4578c61e17e6caded2257b
+        os.system('%s --convertmap1picture --in=%s --outImg=%s --outTSA=%s' % (FEBuiderGBA, image_map_decreased_color_path, map_obj_img_path, map_tsa_path))
 
 if __name__ == '__main__':
     load_map_configs()
@@ -342,4 +352,5 @@ if __name__ == '__main__':
     # print_terrain_1st_appearance()
     fetch_all_configs_from_wiki()
     # make_map_images()
-    decrease_map_colors()
+    # decrease_map_colors()
+    make_map_tsa()
