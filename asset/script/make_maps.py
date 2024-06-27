@@ -211,6 +211,73 @@ def fetch_all_maps_from_wiki():
             print('Fetching map %s: %s' % (map_id, map_configs[map_id]['name']))
             fetch_map_from_wiki(map_id)
 
+def load_map_from_wiki(map_id):
+    map_configs[map_id]['field']['changes'] = {}
+    with open(os.path.join(wiki_map_save_path, map_id + '.txt'), 'r', encoding='utf-8') as file:
+        text = file.read()
+        text = text.replace('#invoke:MapLayout|', '')
+        pattern = '\| ([a-f][1-8])=\{\{Wall\|([^}]*)}}'
+        for match in re.finditer(pattern, text):
+            map_configs[map_id]['field']['changes'][match.group(1)] = {}
+            map_configs[map_id]['field']['changes'][match.group(1)]['x'] = ord(match.group(1)[0]) - ord('a')
+            map_configs[map_id]['field']['changes'][match.group(1)]['y'] = int(match.group(1)[1]) - 1
+            args = match.group(2).split('|')
+            for arg in args:
+                k, v = arg.split('=')
+                map_configs[map_id]['field']['changes'][match.group(1)][k] = v
+
+# Reference: https://feheroes.fandom.com/wiki/Module:MapLayout
+
+wall_positions = [
+    # 1	    2	   U		# HP
+    [[8,3], [7,3], [6,3]],	# N
+    [[5,4], [4,4], [3,4]],	# E
+    [[5,3], [4,3], [3,3]],	# NE
+    [[2,4], [1,4], [0,4]],	# S
+    [[5,0], [4,0], [3,0]],	# NS
+    [[5,2], [4,2], [3,2]],	# ES
+    [[5,1], [4,1], [3,1]],	# NES
+    [[8,4], [7,4], [6,4]],	# W
+    [[2,3], [1,3], [0,3]],	# NW
+    [[2,0], [1,0], [0,0]],	# EW
+    [[8,0], [7,0], [6,0]],	# NEW
+    [[8,2], [7,2], [6,2]],	# SW
+    [[8,1], [7,1], [6,1]],	# NSW
+    [[2,1], [1,1], [0,1]],	# ESW
+    [[2,2], [1,2], [0,2]],	# NESW
+    [[9,2], [9,1], [9,0]],	# Pillar
+    # a     b               # debrisType
+    [[9,3], [9,4], [0,0]],	# Debris
+]
+
+wall_positions_columns = {
+    '1': 0,
+    '2': 1,
+    'U': 2,
+}
+
+def get_wall_position(wall):
+    if wall['hp'] == 0:
+        if wall['type'].lower() in ('a', 'debris a') or (wall['type'].lower() == 'debris' and wall['debrisType'].lower() == 'a'):
+            return wall_positions[16][0]
+        if wall['type'].lower() in ('b', 'debris b') or (wall['type'].lower() == 'debris' and wall['debrisType'].lower() == 'b'):
+            return wall_positions[16][1]
+        warnings.warn('Invalid wall: %s' % str(wall))
+        return None
+    column = wall_positions_columns[wall['hp']]
+    if wall['type'] == 'Pillar':
+        return wall_positions[15][column]
+    row = -1
+    if 'N' in wall['type'].upper():
+        row += 1
+    if 'E' in wall['type'].upper():
+        row += 2
+    if 'S' in wall['type'].upper():
+        row += 4
+    if 'W' in wall['type'].upper():
+        row += 8
+    return wall_positions[row][column]
+
 def make_map_images():
     for map_id, config in map_configs.items():
         image_path = os.path.join(map_image_path, map_id + '.png')
@@ -231,29 +298,27 @@ def make_map_images():
         # resize image to 192 x 256
         image_base = image_base.resize((192, 256))
         image_map.paste(image_base, (0, 0), image_base)
-        has_breakable = False
-        terrains = config['field']['terrain']
-        for y in range(len(terrains)):
-            for x in range(len(terrains[y])):
-                terrain_id = terrains[y][x]
-                if is_breakable(terrain_id):
-                    has_breakable = True
-                    break
-        if has_breakable:
+        # breakable_walls = []
+        # terrains = config['field']['terrain']
+        # for y in range(len(terrains)):
+        #     for x in range(len(terrains[y])):
+        #         terrain_id = terrains[y][x]
+        #         if is_breakable(terrain_id):
+        #             breakable_walls.append((x, y))
+        if not os.path.exists(os.path.join(wiki_map_save_path, map_id + '.txt')):
+            fetch_map_from_wiki(map_id)
+        load_map_from_wiki(map_id)
+        if len(config['field']['changes']) > 0:
             image_map_new = Image.new('RGBA', (192 * 2, 256), (0, 0, 0, 0))
             image_map_new.paste(image_map, (0, 0))
             image_map_new.paste(image_map, (192, 0))
             image_walls_filename = config['field']['wall']['filename'].replace('.jpg', '.png')
             image_walls = Image.open(os.path.join(map_common_path, image_walls_filename)).convert('RGBA')
-            # for y in range(len(terrains)):
-            #     for x in range(len(terrains[y])):
-            #         terrain_id = terrains[y][x]
-            #         if is_breakable(terrain_id):
-            #             position_x, position_y = terrain_configs[terrain_id]['position']
-            #             image_wall = image_walls.crop((position_x * 182, position_y * 182, (position_x * 182 + 180), (position_y * 182 + 180)))
-            #             image_wall = image_wall.resize((32, 32))
-            #             image_map_new.paste(image_wall, (x * 32, (7 - y) * 32), image_wall)
-            fetch_map_from_wiki(map_id)
+            for change in config['field']['changes'].values():
+                position_x, position_y = get_wall_position(change)
+                image_wall = image_walls.crop((position_x * 182, position_y * 182, (position_x * 182 + 180), (position_y * 182 + 180)))
+                image_wall = image_wall.resize((32, 32))
+                image_map_new.paste(image_wall, (change['x'] * 32, (7 - change['y']) * 32), image_wall)
             image_map = image_map_new
         image_map.save(os.path.join(map_image_save_path, map_id + '.png'))
 
@@ -266,4 +331,4 @@ if __name__ == '__main__':
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
     fetch_all_maps_from_wiki()
-    # make_map_images()
+    make_map_images()
