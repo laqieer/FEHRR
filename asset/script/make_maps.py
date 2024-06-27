@@ -20,6 +20,8 @@ map_asset_path = 'asset/file/collection/Maps/'
 map_image_path = os.path.join(map_asset_path, 'Story/')
 map_common_path = os.path.join(map_asset_path, 'Common/')
 map_image_save_path = 'map/full_color/'
+map_image_decreased_color_save_path = 'map/decreased_color/'
+FEBuiderGBA = '..\\FEBuilderGBA\\FEBuilderGBA\\bin\\Debug\\FEBuilderGBA.exe'
 wiki_config_save_path = 'map/wiki_conf/'
 wiki_config_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
 
@@ -118,6 +120,7 @@ terrain_names = [
         "index": 21,
         "name": "House",
     },
+    # 22-25: trench, not used in story maps, doc: https://feheroes.fandom.com/wiki/Trenches
     {
         "index": 26,
         "name": "Pool",
@@ -322,6 +325,13 @@ def make_map_images():
             image_map = image_map_new
         image_map.save(os.path.join(map_image_save_path, map_id + '.png'))
 
+def decrease_map_colors():
+    for map_id in map_configs:
+        image_map_path = os.path.join(map_image_save_path, map_id + '.png')
+        image_map_decreased_color_path = os.path.join(map_image_decreased_color_save_path, map_id + '.png')
+        # run FEBuilderGBA to decrease color
+        os.system('%s --rom=baserom.gba --decreasecolor --in=%s --out=%s --paletteno=10' % (FEBuiderGBA, image_map_path, image_map_decreased_color_path))
+
 if __name__ == '__main__':
     load_map_configs()
     print('Loaded %d maps' % len(map_configs))
@@ -331,4 +341,5 @@ if __name__ == '__main__':
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
     fetch_all_configs_from_wiki()
-    make_map_images()
+    # make_map_images()
+    decrease_map_colors()
