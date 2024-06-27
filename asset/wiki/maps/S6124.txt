@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0612.webp
+|stageTitle=Chapter 12-4
+|stageName=To Kill
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 12: Princess and Prince
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6124
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-10-17T07:00:00Z|notification=Special Rearmed Robin & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Robin: Fell Tactician;pos=c7;rarity=3;slot=1;level=31;stats=[34;31;32;26;25];weapon=Flametongue;assist=-;special=Buckler;a=-;b=Hardy Fighter 1;c=A/S Near Save 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d7;rarity=3;slot=2;level=31;stats=[45;28;11;30;13];weapon=Barrier Lance;assist=-;special=Retribution;a=Distant Def 1;b=-;c=Armor March 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=d8;rarity=3;slot=3;level=31;stats=[28;21;27;11;23];weapon=Gronnvulture;assist=-;special=Chilling Wind;a=-;b=Chill Res 1;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=c8;rarity=3;slot=4;level=31;stats=[31;21;27;23;19];weapon=Dark Breath;assist=-;special=Buckler;a=Sturdy Blow 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f7;rarity=3;slot=5;level=31;stats=[32;26;16;17;17];weapon=Spendthrift Bow;assist=-;special=New Moon;a=-;b=Lull Atk/Def 1;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Robin: Fell Tactician;pos=c7;rarity=4;slot=1;level=38;stats=[39;38;40;31;29];weapon=Arcane Grima;assist=-;special=Buckler;a=-;b=Hardy Fighter 2;c=A/S Near Save 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d7;rarity=4;slot=2;level=38;stats=[51;35;13;37;16];weapon=Barrier Lance;assist=-;special=Retribution;a=Distant Def 2;b=-;c=Armor March 2;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=d8;rarity=4;slot=3;level=38;stats=[31;25;34;13;29];weapon=Gronnvulture;assist=-;special=Chilling Wind;a=-;b=Chill Res 2;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=c8;rarity=4;slot=4;level=38;stats=[35;25;33;29;23];weapon=Dark Breath;assist=-;special=Buckler;a=Sturdy Blow 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f7;rarity=4;slot=5;level=38;stats=[36;32;19;21;21];weapon=Spendthrift Bow;assist=-;special=New Moon;a=-;b=Lull Atk/Def 2;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Robin: Fell Tactician;pos=c7;rarity=5;slot=1;level=43;stats=[45;44;46;37;34];weapon=Arcane Grima;assist=-;special=Pavise;a=Dragonhide;b=Hardy Fighter 3;c=A/S Near Save 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d7;rarity=5;slot=2;level=43;stats=[58;41;17;43;20];weapon=Barrier Lance+;assist=-;special=Vengeance;a=Distant Def 3;b=-;c=Armor March 3;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=d8;rarity=5;slot=3;level=43;stats=[35;30;40;17;34];weapon=Gronnvulture+;assist=-;special=Iceberg;a=-;b=Chill Res 3;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=c8;rarity=5;slot=4;level=43;stats=[40;30;38;34;28];weapon=Dark Breath+;assist=-;special=Escutcheon;a=Sturdy Blow 2;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f7;rarity=5;slot=5;level=43;stats=[41;37;23;26;24];weapon=Spendthrift Bow+;assist=-;special=Moonbow;a=-;b=Lull Atk/Def 3;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Longing Sighs|To Be Killed}}
+==In other languages==
+{{OtherLanguages
+|japanese=どちらが殺すか
+|german=Töten
+|spanishEU=Formas de matar
+|spanishLA=Formas de matar
+|french=Les façons de tuer
+|italian=Uccidere
+|chineseTW=由誰來殺
+|portuguese=Matar
+}}
+{{Story Maps Navbox|book=6}}

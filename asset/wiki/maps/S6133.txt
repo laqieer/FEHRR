@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0613.webp
+|stageTitle=Chapter 13-3
+|stageName=Growing Darkness
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 13: Askr and Embla
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6133
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-11-18T07:00:00Z|notification=Special Summon: Rearmed Ganglöt & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elice: Altean Princess;pos=d7;rarity=3;slot=1;level=32;stats=[32;31;26;19;25];weapon=Trilemma;assist=Restore;special=Imbue;a=Atk/Res Ideal 1;b=-;c=Atk/Res Gap 1;seal=-;ai={turn=1};};
+{unit=Matthis: Brother to Lena;pos=b7;rarity=3;slot=2;level=32;stats=[33;32;24;29;18];weapon=Vulture Lance;assist=-;special=Rising Wind;a=-;b=Chill Atk/Def 1;c=Rouse Def/Res 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=e6;rarity=3;slot=3;level=32;stats=[28;21;28;11;24];weapon=Gronnraven;assist=-;special=Night Sky;a=Fury 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=c8;rarity=3;slot=4;level=32;stats=[35;24;21;21;11];weapon=Brave Bow;assist=-;special=New Moon;a=Solid Ground 1;b=-;c=Def Tactic 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=b5;rarity=3;slot=5;level=32;stats=[45;29;11;31;13];weapon=Guard Axe;assist=Swap;special=-;a=-;b=Def/Res Link 1;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Elice: Altean Princess;pos=d7;rarity=4;slot=1;level=37;stats=[36;37;32;23;30];weapon=Trilemma;assist=Restore;special=Imbue;a=Atk/Res Ideal 2;b=-;c=Atk/Res Gap 2;seal=-;ai={turn=1};};
+{unit=Matthis: Brother to Lena;pos=b7;rarity=4;slot=2;level=37;stats=[36;38;27;34;22];weapon=Vulture Lance;assist=-;special=Rising Wind;a=-;b=Chill Atk/Def 1;c=Rouse Def/Res 2;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=e6;rarity=4;slot=3;level=37;stats=[31;25;33;13;28];weapon=Gronnraven;assist=-;special=Night Sky;a=Fury 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=c8;rarity=4;slot=4;level=37;stats=[38;28;26;25;13];weapon=Brave Bow;assist=-;special=New Moon;a=Solid Ground 2;b=-;c=Def Tactic 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=b5;rarity=4;slot=5;level=37;stats=[50;34;13;36;16];weapon=Guard Axe;assist=Swap;special=-;a=-;b=Def/Res Link 2;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elice: Altean Princess;pos=d7;rarity=5;slot=1;level=42;stats=[41;43;36;28;35];weapon=Trilemma+;assist=Restore+;special=Heavenly Light;a=Atk/Res Ideal 3;b=-;c=Atk/Res Gap 3;seal=-;ai={turn=1};};
+{unit=Matthis: Brother to Lena;pos=b7;rarity=5;slot=2;level=42;stats=[42;44;33;40;26];weapon=Vulture Lance+;assist=-;special=Blazing Wind;a=-;b=Chill Atk/Def 2;c=Rouse Def/Res 3;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=e6;rarity=5;slot=3;level=42;stats=[35;30;39;16;33];weapon=Gronnraven+;assist=-;special=Glimmer;a=Fury 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=c8;rarity=5;slot=4;level=42;stats=[44;33;30;30;16];weapon=Brave Bow+;assist=-;special=Luna;a=Solid Ground 3;b=-;c=Def Tactic 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=b5;rarity=5;slot=5;level=42;stats=[57;40;16;42;19];weapon=Guard Axe+;assist=Swap;special=-;a=-;b=Def/Res Link 3;c=Drive Res 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Depths of the Dark|Driven into the Dark}}
+==In other languages==
+{{OtherLanguages
+|japanese=闇は黒き影を増し
+|german=Wachsende Dunkelheit
+|spanishEU=Oscuridad creciente
+|spanishLA=Oscuridad creciente
+|french=Obscurité grandissante
+|italian=Paura e odio
+|chineseTW=黑暗越發深沉
+|portuguese=Escuridão crescente
+}}
+{{Story Maps Navbox|book=6}}

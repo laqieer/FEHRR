@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0508.webp
+|stageTitle=Chapter 8-3
+|stageName=Devoted Saint
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 8: Serpent's Whispers
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5083
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=35
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE15_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-06-08T07:00:00Z|notification=New Heroes Summoning Event: Book V Mid: Nótt and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Tatiana: Devoted Saint;pos=b7;rarity=3;slot=1;level=22;stats=[27;21;19;9;22];weapon=Ellight;assist=Ardent Sacrifice;special=-;a=Swift Stance 1;b=-;c=Atk Opening 1;seal=-;ai={turn=1};};
+{unit=Zeke: Past Unknown;pos=c8;rarity=3;slot=2;level=22;stats=[27;21;9;21;21];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Atk/Def Catch 1;b=Lull Atk/Def 1;c=Threat. Def/Res 1;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=f7;rarity=3;slot=3;level=22;stats=[29;20;19;19;12];weapon=Steel Axe;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Spur Def 1;seal=Gullinbursti;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=3;slot=4;level=22;stats=[38;22;8;24;10];weapon=Steel Sword;assist=-;special=Holy Vestments;a=-;b=Wary Fighter 1;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d7;rarity=3;slot=5;level=22;stats=[25;18;19;9;16];weapon=Steel Bow;assist=Reciprocal Aid;special=-;a=-;b=Renewal 1;c=Atk Tactic 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Tatiana: Devoted Saint;pos=b7;rarity=4;slot=1;level=35;stats=[35;32;28;12;34];weapon=Blárrabbit;assist=Ardent Sacrifice;special=-;a=Swift Stance 1;b=-;c=Atk Opening 2;seal=-;ai={turn=1};};
+{unit=Zeke: Past Unknown;pos=c8;rarity=4;slot=2;level=35;stats=[35;33;12;33;30];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Atk/Def Catch 2;b=Lull Atk/Def 2;c=Threat. Def/Res 1;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=f7;rarity=4;slot=3;level=35;stats=[37;31;29;28;17];weapon=Silver Axe;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Spur Def 2;seal=Gullinbursti;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=4;slot=4;level=35;stats=[49;33;12;35;15];weapon=Safeguard;assist=-;special=Holy Vestments;a=-;b=Wary Fighter 2;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d7;rarity=4;slot=5;level=35;stats=[32;27;29;13;24];weapon=Silver Bow;assist=Reciprocal Aid;special=-;a=-;b=Renewal 2;c=Atk Tactic 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Tatiana: Devoted Saint;pos=b7;rarity=5;slot=1;level=42;stats=[41;39;35;16;41];weapon=Blárrabbit+;assist=Ardent Sacrifice;special=-;a=Swift Stance 2;b=-;c=Atk Opening 3;seal=-;ai={turn=1};};
+{unit=Zeke: Past Unknown;pos=c8;rarity=5;slot=2;level=42;stats=[41;41;16;40;36];weapon=Holy Gradivus;assist=-;special=Bonfire;a=Atk/Def Catch 4;b=Lull Atk/Def 3;c=Def/Res Menace;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=f7;rarity=5;slot=3;level=42;stats=[44;38;37;34;21];weapon=Silver Axe+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Ward Cavalry;seal=Gullinbursti;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=5;slot=4;level=42;stats=[57;40;16;42;19];weapon=Safeguard+;assist=-;special=Aegis;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d7;rarity=5;slot=5;level=42;stats=[37;33;35;17;30];weapon=Silver Bow+;assist=Reciprocal Aid;special=-;a=-;b=Renewal 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Tatiana: Devoted Saint;text=Zeke had lost nearly all of his\nmemory when I found him washed\nup on shore.;textJP=ジークには過去の記憶がないの。\n私が海岸で助けたのよ。};
+]}}
+{{Story Navbar|Odd Wayfarer|Kind Eldest Sister}}
+==In other languages==
+{{OtherLanguages
+|japanese=献身の聖女
+|german=Treue Heilige
+|spanishEU=Santa devota
+|spanishLA=Santa devota
+|french=Sainte dévouée
+|italian=La santa devota
+|chineseTW=奉獻的聖女
+|portuguese=Santa devota
+}}
+{{Story Maps Navbox|book=5}}

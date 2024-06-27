@@ -1,0 +1,77 @@
+{{Battle Infobox
+|bannerImage=C0301.png
+|stageTitle=Chapter 1: Part 2
+|stageName=Askr in Shadow
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 1: Death
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3012
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|lvlHard=21
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-12-11T03:00:00Z|notification=What's in Store for the 3.0.0 Update (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Green Thief;pos=b7;rarity=3;slot=1;level=2;stats=[16;5;9;2;7];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=d8;rarity=3;slot=2;level=2;stats=[18;7;6;6;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d5;rarity=3;slot=3;level=2;stats=[24;9;2;11;3];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Green Thief;pos=b7;rarity=4;slot=1;level=21;stats=[25;15;23;7;19];weapon=Steel Dagger;assist=-;special=-;a=-;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=d8;rarity=4;slot=2;level=21;stats=[29;19;17;16;8];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d5;rarity=4;slot=3;level=21;stats=[38;23;8;25;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Green Thief;pos=b7;rarity=5;slot=1;level=41;displaylevel=40;stats=[37;28;39;14;32];weapon=Barb Shuriken+;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=d8;rarity=5;slot=2;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Silver Bow+;assist=-;special=-;a=-;b=-;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d5;rarity=5;slot=3;level=41;displaylevel=40;stats=[56;39;16;41;19];weapon=Silver Lance+;assist=-;special=-;a=-;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|english=Askr in Shadow
+|japanese=王国に差す影
+|german=Schatten über Askr
+|spanishEU=Askr en tinieblas
+|spanishLA=Askr en tinieblas
+|french=Askr dans les ténèbres
+|italian=Ombre sull'Askr
+|chineseTW=侵入王國的黑影
+|portuguese=Askr na sombra
+}}
+{{Story Maps Navbox|book=3}}

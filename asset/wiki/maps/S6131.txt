@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0613.webp
+|stageTitle=Chapter 13-1
+|stageName=Light in the Dark
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 13: Askr and Embla
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6131
+|backdrop=
+|allyPos=d2,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-11-18T07:00:00Z|notification=Special Summon: Rearmed Ganglöt & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Embla: God of Closure;pos=c8;rarity=3;slot=1;level=30;stats=[32;32;31;21;17];weapon=Enclosing Claw;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=S/D Near Trace 1;c=Fatal Smoke 1;seal=-;ai={group=1};};
+{unit=Blue Bat;pos=d8;rarity=3;slot=2;level=30;stats=[30;25;33;24;16];weapon=Adult (Flier);assist=-;special=Retribution;a=-;b=Hit and Run;c=Hone Atk 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=b7;rarity=3;slot=3;level=30;stats=[27;19;19;16;25];weapon=Flash;assist=Physic;special=Windfire Balm;a=Still Water 1;b=-;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Nyna: The Last Princess;pos=f7;rarity=3;slot=4;level=30;stats=[31;24;30;16;27];weapon=Respite;assist=Physic;special=Miracle;a=-;b=Sabotage Spd 1;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=e7;rarity=3;slot=5;level=30;stats=[32;24;17;18;21];weapon=Instant Axe;assist=-;special=Night Sky;a=Sturdy Blow 1;b=-;c=Panic Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Embla: God of Closure;pos=c8;rarity=4;slot=1;level=35;stats=[40;38;38;25;20];weapon=Enclosing Claw;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=S/D Near Trace 2;c=Fatal Smoke 2;seal=-;ai={group=1};};
+{unit=Blue Bat;pos=d8;rarity=4;slot=2;level=35;stats=[34;30;40;29;19];weapon=Bat Fang;assist=-;special=Retribution;a=-;b=Hit and Run;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=b7;rarity=4;slot=3;level=35;stats=[30;24;23;19;30];weapon=Flash;assist=Physic;special=Windfire Balm;a=Still Water 2;b=-;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Nyna: The Last Princess;pos=f7;rarity=4;slot=4;level=35;stats=[35;29;36;19;32];weapon=Respite;assist=Physic;special=Miracle;a=-;b=Sabotage Spd 2;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=e7;rarity=4;slot=5;level=35;stats=[36;29;20;21;26];weapon=Instant Axe;assist=-;special=Night Sky;a=Sturdy Blow 1;b=-;c=Panic Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Embla: God of Closure;pos=c8;rarity=5;slot=1;level=40;stats=[54;43;44;31;24];weapon=Enclosing Claw;assist=-;special=Moonbow;a=Atk/Spd Solo 4;b=S/D Near Trace 3;c=Fatal Smoke 3;seal=-;ai={group=1};};
+{unit=Blue Bat;pos=d8;rarity=5;slot=2;level=40;stats=[39;35;46;35;23];weapon=Bat Fang;assist=-;special=Vengeance;a=-;b=Hit and Run;c=Hone Fliers;seal=-;ai={group=1};};
+{unit=Cleric;pos=b7;rarity=5;slot=3;level=40;stats=[34;28;28;23;35];weapon=Flash+;assist=Physic+;special=Windfire Balm+;a=Still Water 3;b=-;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Nyna: The Last Princess;pos=f7;rarity=5;slot=4;level=40;stats=[40;34;41;23;38];weapon=Respite+;assist=Physic+;special=Miracle;a=-;b=Sabotage Spd 3;c=Drive Def 2;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=e7;rarity=5;slot=5;level=40;stats=[41;34;24;25;30];weapon=Instant Axe+;assist=-;special=Glimmer;a=Sturdy Blow 2;b=-;c=Panic Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Life & Death 5|Depths of the Dark}}
+==In other languages==
+{{OtherLanguages
+|japanese=闇は光に誘われ
+|german=Licht im Dunkeln
+|spanishEU=Luz en la oscuridad
+|spanishLA=Luz en la oscuridad
+|french=Lueur dans l’obscurité
+|italian=Luce nel buio
+|chineseTW=黑暗受光吸引
+|portuguese=Luz no escuro
+}}
+{{Story Maps Navbox|book=6}}

@@ -1,0 +1,105 @@
+{{Battle Infobox
+|bannerImage=C0513.webp
+|stageTitle=Chapter 13-2
+|stageName=The Sword Gramr
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 13: Specter of Niðavellir
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5132
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to defend: 4
+|BGM=bgm_map_FE09_07.ogg
+|BGM2=bgm_boss9.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-11-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Laegjarn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S5132|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Eitri: Youthful Sage;pos=f8;rarity=3;slot=1;level=31;stats=[29;31;21;22;22];weapon=Grim Brokkr;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Dull Ranged 1;c=Atk/Res Rein 1;seal=Niðavellir Axiom;ai={turn=1};};
+{unit=Tanith: Bright Blade;pos=a5;rarity=3;slot=2;level=31;stats=[32;26;30;23;21];weapon=Steadfast Sword;assist=Ardent Sacrifice;special=-;a=Sturdy Blow 1;b=Flier Formation 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=3;slot=3;level=31;stats=[34;23;21;21;11];weapon=Firesweep Bow;assist=-;special=New Moon;a=Life and Death 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=e7;rarity=3;slot=4;level=31;stats=[34;26;25;24;15];weapon=Sapphire Lance;assist=-;special=Rising Thunder;a=Fury 1;b=Swordbreaker 1;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Red Mage;pos=c7;rarity=3;slot=5;level=31;stats=[30;22;23;14;20];weapon=Rauðrserpent;assist=-;special=Retribution;a=-;b=Chill Res 1;c=Atk Opening 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=a1;rarity=3;slot=6;level=31;stats=[45;28;11;30;13];weapon=Slaying Axe;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=Bold Fighter 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Steam Lance;pos=a8;rarity=3;slot=7;level=31;stats=[34;26;25;24;15];weapon=Brave Lance;assist=-;special=New Moon;a=Fury 1;b=-;c=Panic Smoke 1;seal=Gullinbursti;ai={turn=1};spawn={turn=2};};
+{unit=Steam Sword;pos=f2;rarity=3;slot=8;level=31;stats=[34;26;25;24;15];weapon=Armorsmasher;assist=-;special=Night Sky;a=Brazen Atk/Spd 1;b=Lull Atk/Def 1;c=-;seal=Gullinbursti;ai={turn=1};spawn={turn=3};};
+]
+|Hard=[
+{unit=Eitri: Youthful Sage;pos=f8;rarity=4;slot=1;level=36;stats=[32;36;24;26;26];weapon=Grim Brokkr;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Dull Ranged 2;c=Atk/Res Rein 2;seal=Niðavellir Axiom;ai={turn=1};};
+{unit=Tanith: Bright Blade;pos=a5;rarity=4;slot=2;level=36;stats=[36;31;35;27;25];weapon=Steadfast Sword;assist=Ardent Sacrifice;special=-;a=Sturdy Blow 1;b=Flier Formation 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=4;slot=3;level=36;stats=[38;28;25;24;13];weapon=Firesweep Bow;assist=-;special=New Moon;a=Life and Death 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=e7;rarity=4;slot=4;level=36;stats=[38;32;30;29;17];weapon=Sapphire Lance;assist=-;special=Rising Thunder;a=Fury 2;b=Swordbreaker 2;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Red Mage;pos=c7;rarity=4;slot=5;level=36;stats=[33;27;28;16;23];weapon=Rauðrserpent;assist=-;special=Retribution;a=-;b=Chill Res 2;c=Atk Opening 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=a1;rarity=4;slot=6;level=36;stats=[49;34;13;36;15];weapon=Slaying Axe;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=Bold Fighter 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Steam Lance;pos=a8;rarity=4;slot=7;level=36;stats=[38;32;30;29;17];weapon=Brave Lance;assist=-;special=New Moon;a=Fury 2;b=-;c=Panic Smoke 2;seal=Gullinbursti;ai={turn=1};spawn={turn=2};};
+{unit=Steam Sword;pos=f2;rarity=4;slot=8;level=36;stats=[38;32;30;29;17];weapon=Armorsmasher;assist=-;special=Night Sky;a=Brazen Atk/Spd 2;b=Lull Atk/Def 2;c=-;seal=Gullinbursti;ai={turn=1};spawn={turn=3};};
+]
+|Lunatic=[
+{unit=Eitri: Youthful Sage;pos=f8;rarity=5;slot=1;level=41;stats=[37;42;29;30;31];weapon=Grim Brokkr;assist=-;special=Iceberg;a=Mirror Strike 2;b=Dull Ranged 3;c=Atk/Res Rein 3;seal=Niðavellir Axiom;ai={turn=1};};
+{unit=Tanith: Bright Blade;pos=a5;rarity=5;slot=2;level=41;stats=[41;37;41;32;29];weapon=Steadfast Sword+;assist=Ardent Sacrifice;special=-;a=Sturdy Blow 2;b=Flier Formation 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=5;slot=3;level=41;stats=[43;32;29;29;16];weapon=Firesweep Bow+;assist=-;special=Moonbow;a=Life and Death 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=e7;rarity=5;slot=4;level=41;stats=[43;37;36;33;21];weapon=Sapphire Lance+;assist=-;special=Blazing Thunder;a=Fury 3;b=Swordbreaker 3;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Red Mage;pos=c7;rarity=5;slot=5;level=41;stats=[38;31;32;20;28];weapon=Rauðrserpent+;assist=-;special=Reprisal;a=-;b=Chill Res 3;c=Atk Opening 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=a1;rarity=5;slot=6;level=41;stats=[56;39;16;41;19];weapon=Slaying Axe+;assist=-;special=Ignis;a=Sturdy Blow 2;b=Bold Fighter 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Steam Lance;pos=a8;rarity=5;slot=7;level=41;stats=[43;37;36;33;21];weapon=Brave Lance+;assist=-;special=Luna;a=Fury 3;b=-;c=Panic Smoke 3;seal=Gullinbursti;ai={turn=1};spawn={turn=2};};
+{unit=Steam Sword;pos=f2;rarity=5;slot=8;level=41;stats=[43;37;36;33;21];weapon=Armorsmasher+;assist=-;special=Glimmer;a=Brazen Atk/Spd 3;b=Lull Atk/Def 3;c=-;seal=Gullinbursti;ai={turn=1};spawn={turn=3};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Old Friends|Resolute Damsel}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔剣グラム
+|german=Das Schwert Gramr
+|spanishEU=La espada Gramr
+|spanishLA=La espada Gramr
+|french=L'épée Gramr
+|italian=La spada Gramr
+|chineseTW=魔劍格拉姆
+|portuguese=A espada Gramr
+}}
+{{Story Maps Navbox|book=5}}

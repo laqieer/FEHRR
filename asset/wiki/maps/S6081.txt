@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0608.webp
+|stageTitle=Chapter 8: Part 1
+|stageName=Enclosing Heavens
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 8: Closing In
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6081
+|backdrop=
+|allyPos=e3,f3,e2,f2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=33
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-06-08T07:00:00Z|notification=Celebratory Summoning Event - Book VI Midpoint: Letizia & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elm: Retainer to Embla;pos=c7;rarity=3;slot=1;level=20;stats=[27;20;24;13;16];weapon=Adult (Flier);assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Dive-Bomb 1;c=Fatal Smoke 1;seal=-;ai={turn=1};};
+{unit=Blue Bat;pos=d7;rarity=3;slot=2;level=20;stats=[25;19;26;18;12];weapon=Fledgling (Flier);assist=-;special=New Moon;a=-;b=Poison Strike 1;c=Hone Spd 1;seal=-;ai={turn=1};};
+{unit=Green Bat;pos=a4;rarity=3;slot=3;level=20;stats=[25;19;26;18;12];weapon=Fledgling (Flier);assist=-;special=Daylight;a=Atk/Spd Solo 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b1;rarity=3;slot=4;level=20;stats=[28;17;15;15;7];weapon=Steel Bow;assist=-;special=Retribution;a=Sturdy Blow 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Elm: Retainer to Embla;pos=c7;rarity=4;slot=1;level=33;stats=[34;31;35;20;24];weapon=Fang of Closure;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Dive-Bomb 2;c=Fatal Smoke 2;seal=-;ai={turn=1};};
+{unit=Blue Bat;pos=d7;rarity=4;slot=2;level=33;stats=[32;29;38;28;18];weapon=Adult (Flier);assist=-;special=New Moon;a=-;b=Poison Strike 3;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Green Bat;pos=a4;rarity=4;slot=3;level=33;stats=[32;29;38;28;18];weapon=Adult (Flier);assist=-;special=Daylight;a=Atk/Spd Solo 2;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b1;rarity=4;slot=4;level=33;stats=[36;26;23;22;12];weapon=Instant Bow;assist=-;special=Retribution;a=Sturdy Blow 1;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elm: Retainer to Embla;pos=c7;rarity=5;slot=1;level=40;stats=[41;37;42;27;31];weapon=Fang of Closure;assist=-;special=Draconic Aura;a=Swift Sparrow 2;b=Dive-Bomb 3;c=Fatal Smoke 3;seal=-;ai={turn=1};};
+{unit=Blue Bat;pos=d7;rarity=5;slot=2;level=40;stats=[39;35;46;35;23];weapon=Bat Fang;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=Hone Beasts;seal=-;ai={turn=1};};
+{unit=Green Bat;pos=a4;rarity=5;slot=3;level=40;stats=[39;35;46;35;23];weapon=Bat Fang;assist=-;special=Noontime;a=Atk/Spd Solo 3;b=-;c=Ward Beasts;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b1;rarity=5;slot=4;level=40;stats=[43;32;29;29;16];weapon=Instant Bow+;assist=-;special=Reprisal;a=Sturdy Blow 2;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Silvia & Erinys: Bound Hero Battle|Gallant Speech}}
+==In other languages==
+{{OtherLanguages
+|japanese=天は閉ざされた
+|german=Dunkle Himmel
+|spanishEU=Cielo lóbrego
+|spanishLA=Cielo lóbrego
+|french=Ciel sombre
+|italian=Oscurità ovunque
+|chineseTW=被封閉的天空
+|portuguese=Céu ocluso
+}}
+{{Story Maps Navbox|book=6}}

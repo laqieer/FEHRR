@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0505.webp
+|stageTitle=Chapter 5: Part 1
+|stageName=Princess's Truth
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 5: Night and Day
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5051
+|backdrop=
+|allyPos=c8,d8,c7,d7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-03-05T07:00:00Z|notification=New Heroes Summoning Event: Seeds of Fódlan (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Dedue: Dimitri's Vassal;pos=a5;rarity=3;slot=1;level=11;stats=[26;18;6;18;12];weapon=Steel Axe;assist=-;special=-;a=Sturdy Stance 1;b=-;c=A/D Near Save 1;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f4;rarity=3;slot=2;level=11;stats=[23;13;8;9;12];weapon=Steel Lance;assist=-;special=-;a=-;b=Quick Riposte 1;c=Threaten Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d3;rarity=3;slot=3;level=11;stats=[21;10;14;7;15];weapon=Steel Sword;assist=-;special=-;a=Atk/Spd Solo 1;b=-;c=Guidance 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a4;rarity=3;slot=4;level=11;stats=[21;11;12;7;10];weapon=Elfire;assist=-;special=-;a=Distant Def 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Dedue: Dimitri's Vassal;pos=a5;rarity=4;slot=1;level=30;stats=[40;35;12;35;21];weapon=Steadfast Axe;assist=-;special=Buckler;a=Sturdy Stance 2;b=-;c=A/D Near Save 2;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f4;rarity=4;slot=2;level=30;stats=[33;26;17;18;23];weapon=Vanguard;assist=-;special=Dragon Gaze;a=-;b=Quick Riposte 2;c=Threaten Atk 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d3;rarity=4;slot=3;level=30;stats=[30;20;27;15;28];weapon=Silver Sword;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=-;c=Guidance 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a4;rarity=4;slot=4;level=30;stats=[30;23;24;14;20];weapon=Rauðrserpent;assist=-;special=Chilling Wind;a=Distant Def 2;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Dedue: Dimitri's Vassal;pos=a5;rarity=5;slot=1;level=40;stats=[50;45;17;45;28];weapon=Steadfast Axe+;assist=-;special=Pavise;a=Sturdy Stance 3;b=-;c=A/D Near Save 3;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f4;rarity=5;slot=2;level=40;stats=[41;34;24;25;30];weapon=Vanguard+;assist=-;special=Draconic Aura;a=-;b=Quick Riposte 3;c=Threaten Atk 3;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d3;rarity=5;slot=3;level=40;stats=[37;28;35;21;36];weapon=Silver Sword+;assist=-;special=Moonbow;a=Atk/Spd Solo 3;b=-;c=Guidance 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a4;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Rauðrserpent+;assist=-;special=Glacies;a=Distant Def 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Claude: King of Unification (map)|Sincere Knight}}
+==In other languages==
+{{OtherLanguages
+|japanese=王女の本心
+|german=Ihr wahres Gesicht
+|spanishEU=Su verdadero rostro
+|spanishLA=Su verdadero rostro
+|french=Princesse sous son vrai jour
+|italian=Il vero volto
+|chineseTW=公主的真實想法
+|portuguese=Seu verdadeiro rosto
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0601.webp
+|stageTitle=Chapter 1: Part 4
+|stageName=Closure Ahead
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 1: Darkness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6014
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=23
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Blue Bow;pos=e7;rarity=3;slot=1;level=4;stats=[19;8;7;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=3;slot=2;level=4;stats=[26;10;2;12;4];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=3;slot=3;level=4;stats=[16;9;6;3;8];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=b7;rarity=3;slot=4;level=4;stats=[17;8;8;3;7];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Blue Bow;pos=e7;rarity=4;slot=1;level=23;stats=[30;20;18;17;9];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=4;slot=2;level=23;stats=[40;25;9;27;11];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=4;slot=3;level=23;stats=[24;23;15;10;22];weapon=Elwind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=b7;rarity=4;slot=4;level=23;stats=[26;20;22;10;17];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Blue Bow;pos=e7;rarity=5;slot=1;level=43;stats=[45;34;30;30;17];weapon=Silver Bow+;assist=-;special=Growing Thunder;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=5;slot=2;level=43;stats=[58;41;17;43;20];weapon=Silver Sword+;assist=-;special=Aegis;a=-;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=5;slot=3;level=43;stats=[34;37;27;18;36];weapon=Gronnraven+;assist=-;special=Draconic Aura;a=-;b=Bowbreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=b7;rarity=5;slot=4;level=43;stats=[38;34;36;18;30];weapon=Shining Bow+;assist=-;special=Moonbow;a=Atk/Spd Bond 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Closure Below|Closed-Off World}}
+==In other languages==
+{{OtherLanguages
+|japanese=時を閉ざせば未来はない
+|german=Verschlossene Zukunft
+|spanishEU=Barrera delante
+|spanishLA=Barrera delante
+|french=Barricade temporelle
+|italian=Chiusura temporale
+|chineseTW=時若封閉則無未來
+|portuguese=Fechamento à frente
+}}
+{{Story Maps Navbox|book=6}}

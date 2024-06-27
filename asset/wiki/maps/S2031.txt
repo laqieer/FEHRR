@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Micaiah Unrevealed.png
+|mapName=Chapter 3-1: The Road to Nifl
+|stageTitle=Chapter 3: Part 1
+|stageName=The Road to Nifl
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 3: Guided by a Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2031
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|1}} | c3= | d3= | e3={{Ally|2}} | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=5
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-12T07:00:00Z|notification=New Heroes: World of Dawn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sothe: Zephyr;pos=c6;rarity=3;slot=1;level=5;stats=[17;8;9;3;2];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=d7;rarity=3;slot=2;level=5;stats=[18;7;5;2;6];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=a7;rarity=3;slot=3;level=5;stats=[19;6;8;5;2];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=f7;rarity=3;slot=4;level=5;stats=[17;5;10;2;8];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Sothe: Zephyr;pos=c6;rarity=4;slot=1;level=25;stats=[28;25;22;14;13];weapon=Steel Dagger;assist=-;special=Night Sky;a=Life and Death 1;b=-;c=Spur Atk/Spd 1;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=d7;rarity=4;slot=2;level=25;stats=[30;23;15;16;20];weapon=Steel Lance;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=a7;rarity=4;slot=3;level=25;stats=[32;20;19;20;14];weapon=Steel Axe;assist=-;special=-;a=Atk/Spd 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=f7;rarity=4;slot=4;level=25;stats=[28;17;24;13;25];weapon=Steel Sword;assist=-;special=-;a=Fury 1;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Sothe: Zephyr;pos=c6;rarity=5;slot=1;level=40;stats=[39;36;33;22;21];weapon=Peshkatz;assist=-;special=Glimmer;a=Life and Death 3;b=-;c=Spur Atk/Spd 2;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=d7;rarity=5;slot=2;level=40;stats=[41;34;24;25;30];weapon=Slaying Spear+;assist=-;special=-;a=Death Blow 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=a7;rarity=5;slot=3;level=40;stats=[44;31;31;30;22];weapon=Silver Axe+;assist=-;special=-;a=Steady Stance 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=f7;rarity=5;slot=4;level=40;stats=[37;28;35;21;36];weapon=Silver Sword+;assist=-;special=-;a=Fury 3;b=Drag Back;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Wishes for the New Year|The Silver-Haired Maiden}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ニフルへの道
+|german=Der Weg nach Nifl
+|spanishEU=El camino a Nifl
+|spanishLA=El camino a Nifl
+|french=En route vers Nifl
+|italian=La via per Nifl
+|chineseTW=通往尼福爾之路
+|portuguese=A caminho de Nifl
+}}
+{{Story Maps Navbox|book=2}}

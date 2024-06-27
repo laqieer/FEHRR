@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Map C0309.webp
+|stageTitle=Chapter 9: Part 3
+|stageName=The Schemer
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 9: Cohort of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3093
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2={{Ally|3}} | f2=
+| a1= | b1= | c1= | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=36
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_01.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-07-22T07:00:00Z|notification=New Heroes: Three Houses (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Claude: The Schemer;pos=d7;rarity=3;slot=1;level=24;stats=[27;19;23;12;12];weapon=Silver Bow;assist=-;special=Night Sky;a=-;b=Lull Spd/Def 1;c=Def Smoke 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c8;rarity=3;slot=2;level=24;stats=[27;18;19;12;16];weapon=Elfire;assist=Rally Attack;special=-;a=Fortress Res 1;b=Atk Feint 1;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=f8;rarity=3;slot=3;level=24;stats=[29;20;14;15;18];weapon=Steel Axe;assist=Reposition;special=-;a=Attack/Def +1;b=Atk/Res Link 1;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=b8;rarity=3;slot=4;level=24;stats=[26;16;23;7;19];weapon=Steel Dagger;assist=-;special=-;a=Death Blow 1;b=-;c=Spd Ploy 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=f7;rarity=3;slot=5;level=24;stats=[25;16;16;14;21];weapon=Assault;assist=Mend;special=-;a=Spd/Res 1;b=Sabotage Res 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Claude: The Schemer;pos=d7;rarity=4;slot=1;level=36;stats=[34;29;33;16;17];weapon=Cunning Bow;assist=-;special=Night Sky;a=-;b=Lull Spd/Def 2;c=Def Smoke 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c8;rarity=4;slot=2;level=36;stats=[33;27;28;16;23];weapon=Bolganone;assist=Rally Atk/Def;special=-;a=Fortress Res 2;b=Atk Feint 2;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=f8;rarity=4;slot=3;level=36;stats=[36;30;20;21;26];weapon=Slaying Axe;assist=Reposition;special=New Moon;a=Attack/Def +1;b=Atk/Res Link 2;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=b8;rarity=4;slot=4;level=36;stats=[32;23;34;11;28];weapon=Smoke Dagger;assist=-;special=Chilling Wind;a=Death Blow 2;b=-;c=Spd Ploy 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=f7;rarity=4;slot=5;level=36;stats=[30;24;23;19;31];weapon=Slow;assist=Physic;special=Windfire Balm;a=Spd/Res 1;b=Sabotage Res 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Claude: The Schemer;pos=d7;rarity=5;slot=1;level=42;displaylevel=40;stats=[40;34;38;20;22];weapon=Cunning Bow;assist=-;special=Glimmer;a=-;b=Lull Spd/Def 3;c=Def Smoke 3;seal=-;ai={group=1};};
+{unit=Red Mage;pos=c8;rarity=5;slot=2;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Bolganone+;assist=Rally Atk/Def+;special=-;a=Fortress Res 3;b=Atk Feint 3;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=f8;rarity=5;slot=3;level=42;displaylevel=40;stats=[42;35;25;26;31];weapon=Slaying Axe+;assist=Reposition;special=Luna;a=Attack/Def +2;b=Atk/Res Link 3;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=b8;rarity=5;slot=4;level=42;displaylevel=40;stats=[37;29;40;14;33];weapon=Smoke Dagger+;assist=-;special=Iceberg;a=Death Blow 3;b=-;c=Spd Ploy 3;seal=-;ai={group=1};};
+{unit=Cleric;pos=f7;rarity=5;slot=5;level=42;displaylevel=40;stats=[35;29;29;24;36];weapon=Slow+;assist=Physic+;special=Windfire Balm+;a=Spd/Res 2;b=Sabotage Res 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Protector|The Future}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=野望の寵児
+|german=Der Pläneschmied
+|spanishEU=Soñador astuto
+|spanishLA=Soñador astuto
+|french=Intrigant de génie
+|italian=Il cospiratore
+|chineseTW=野心的寵兒
+|portuguese=O manipulador
+}}
+{{Story Maps Navbox|book=3}}

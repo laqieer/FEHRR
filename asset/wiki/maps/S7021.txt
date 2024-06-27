@@ -1,0 +1,77 @@
+{{Battle Infobox
+|bannerImage=C0702.webp
+|stageTitle=Chapter 5: Part 1
+|stageName=Goddess's Descent
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 5: Divine Foretelling
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7021
+|backdrop=
+|allyPos=d8,c7,d7,e7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|lvlHard=23
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Green Mage;pos=b3;rarity=3;slot=1;level=3;stats=[17;7;8;4;6];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Thief;pos=e1;rarity=3;slot=2;level=3;stats=[16;6;10;2;8];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Flier;pos=f3;rarity=3;slot=3;level=3;stats=[16;7;9;2;8];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Green Mage;pos=b3;rarity=4;slot=1;level=23;stats=[27;19;20;12;16];weapon=Elwind;assist=-;special=Rising Wind;a=-;b=Lull Spd/Res 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Thief;pos=e1;rarity=4;slot=2;level=23;stats=[26;16;25;7;20];weapon=Steel Dagger;assist=-;special=New Moon;a=Life and Death 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Flier;pos=f3;rarity=4;slot=3;level=23;stats=[25;17;24;9;20];weapon=Elthunder;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Green Mage;pos=b3;rarity=5;slot=1;level=40;stats=[37;31;32;20;28];weapon=Rexcalibur+;assist=-;special=Growing Wind;a=-;b=Lull Spd/Res 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Thief;pos=e1;rarity=5;slot=2;level=40;stats=[36;28;38;13;32];weapon=Silver Dagger+;assist=-;special=Luna;a=Life and Death 3;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Flier;pos=f3;rarity=5;slot=3;level=40;stats=[34;29;37;16;32];weapon=Thoron+;assist=-;special=Iceberg;a=Mirror Strike 2;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|March of Time|Goddess's Path}}
+==In other languages==
+{{OtherLanguages
+|japanese=女神の降臨
+|german=Ankunft der Göttin
+|spanishEU=La llegada de la diosa
+|spanishLA=La llegada de la diosa
+|french=L'arrivée de la déesse
+|italian=L'arrivo della dea
+|chineseTW=女神的降臨
+|portuguese=A chegada da deusa
+}}
+{{Story Maps Navbox|book=7}}

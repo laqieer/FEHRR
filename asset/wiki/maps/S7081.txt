@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0708.webp
+|stageTitle=Chapter 4: Part 1
+|stageName=Daughter of the Seer
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 4: Ouroboros
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7081
+|backdrop=Wave
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=33
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_05.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-06-08T07:00:00Z|notification=Celebratory Summoning Event - New Heroes & Mythic Heiðr (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Noah: Mercenary-Errant;pos=c8;rarity=3;slot=1;level=20;stats=[26;27;24;15;8];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=Flow Guard 1;c=Rouse Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d7;rarity=3;slot=2;level=20;stats=[25;16;17;10;14];weapon=Elfire;assist=-;special=Rising Flame;a=Atk/Spd Solo 1;b=Lull Spd/Res 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=c6;rarity=3;slot=3;level=20;stats=[29;16;16;16;11];weapon=Steel Axe;assist=-;special=Night Sky;a=Swift Sparrow 1;b=-;c=Even Tempest 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a7;rarity=3;slot=4;level=20;stats=[23;14;14;12;19];weapon=Assault;assist=Mend;special=Imbue;a=-;b=Guard 1;c=Drive Res 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Noah: Mercenary-Errant;pos=c8;rarity=4;slot=1;level=33;stats=[33;38;37;24;13];weapon=Silver Lance;assist=-;special=New Moon;a=-;b=Flow Guard 2;c=Rouse Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d7;rarity=4;slot=2;level=33;stats=[32;25;26;15;21];weapon=Rauðrlion;assist=-;special=Rising Flame;a=Atk/Spd Solo 2;b=Lull Spd/Res 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=c6;rarity=4;slot=3;level=33;stats=[37;25;24;24;17];weapon=Unbound Axe;assist=-;special=Night Sky;a=Swift Sparrow 1;b=-;c=Even Tempest 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a7;rarity=4;slot=4;level=33;stats=[29;22;21;18;29];weapon=Slow;assist=Physic;special=Imbue;a=-;b=Guard 2;c=Drive Res 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Noah: Mercenary-Errant;pos=c8;rarity=5;slot=1;level=40;stats=[40;45;45;31;18];weapon=Ilian Merc Lance;assist=-;special=Luna;a=-;b=Flow Guard 3;c=Alarm Spd/Def;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d7;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Rauðrlion+;assist=-;special=Blazing Flame;a=Atk/Spd Solo 3;b=Lull Spd/Res 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=c6;rarity=5;slot=3;level=40;stats=[44;31;31;30;22];weapon=Unbound Axe+;assist=-;special=Glimmer;a=Swift Sparrow 2;b=-;c=Even Tempest 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a7;rarity=5;slot=4;level=40;stats=[34;28;28;23;35];weapon=Slow+;assist=Physic+;special=Heavenly Light;a=-;b=Guard 3;c=Drive Res 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Monica & Edelgard: Bound Hero Battle|No Beginning, No End}}
+==In other languages==
+{{OtherLanguages
+|japanese=黄金の魔女の子
+|german=Tochter der Seherin
+|spanishEU=Hija de la profetisa
+|spanishLA=Hija de la profetisa
+|french=Fille de la prophétesse
+|italian=La figlia della Veggente
+|chineseTW=黃金魔女之子
+|portuguese=Filha da profetisa
+}}
+{{Story Maps Navbox|book=7}}

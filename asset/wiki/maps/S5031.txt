@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0503.webp
+|stageTitle=Chapter 3: Part 1
+|stageName=Key Ingredient
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 3: Forest of the Sage
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5031
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-01-08T07:00:00Z|notification=New Heroes Summoning Event: Shared Purpose (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ronan: Villager of Iz;pos=c7;rarity=3;slot=1;level=5;stats=[19;9;13;4;9];weapon=Iron Bow;assist=Rally Resistance;special=-;a=Swift Stance 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a6;rarity=3;slot=2;level=5;stats=[18;8;9;5;7];weapon=Fire;assist=Rally Attack;special=-;a=-;b=-;c=Inf. Hexblade 1;seal=-;ai={group=1};};
+{unit=Green Mage;pos=e6;rarity=3;slot=3;level=5;stats=[18;8;9;5;7];weapon=Wind;assist=-;special=-;a=-;b=-;c=Inf. Hexblade 1;seal=-;ai={group=1};};
+{unit=Troubadour;pos=b8;rarity=3;slot=4;level=5;stats=[15;9;4;5;12];weapon=-;assist=Heal;special=-;a=Attack/Res 1;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Ronan: Villager of Iz;pos=c7;rarity=4;slot=1;level=25;stats=[29;23;28;10;26];weapon=Steel Bow;assist=Rally Spd/Res;special=-;a=Swift Stance 2;b=-;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a6;rarity=4;slot=2;level=25;stats=[28;20;21;12;17];weapon=Elfire;assist=Rally Up Atk;special=-;a=-;b=Res Feint 1;c=Inf. Hexblade 2;seal=-;ai={group=1};};
+{unit=Green Mage;pos=e6;rarity=4;slot=3;level=25;stats=[28;20;21;12;17];weapon=Elwind;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=-;c=Inf. Hexblade 2;seal=-;ai={group=1};};
+{unit=Troubadour;pos=b8;rarity=4;slot=4;level=25;stats=[22;21;13;12;28];weapon=Assault;assist=Mend;special=-;a=Attack/Res 1;b=Live to Serve 1;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Ronan: Villager of Iz;pos=c7;rarity=5;slot=1;level=40;stats=[38;34;40;17;42];weapon=Indignant Bow;assist=Rally Spd/Res+;special=-;a=Swift Stance 3;b=-;c=Joint Drive Spd;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a6;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Bolganone+;assist=Rally Up Atk+;special=-;a=-;b=Res Feint 3;c=Inf. Hexblade 3;seal=-;ai={group=1};};
+{unit=Green Mage;pos=e6;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Rexcalibur+;assist=-;special=Iceberg;a=Mirror Strike 2;b=-;c=Inf. Hexblade 3;seal=-;ai={group=1};};
+{unit=Troubadour;pos=b8;rarity=5;slot=4;level=40;stats=[30;32;21;20;41];weapon=Trilemma+;assist=Recover+;special=-;a=Attack/Res 2;b=Live to Serve 3;c=-;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|New Treasures|Princess of Ulster}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=求めるものは
+|german=Der Schlüssel zur Macht
+|spanishEU=Pieza clave
+|spanishLA=Pieza clave
+|french=Ingrédient clé
+|italian=Il tassello chiave
+|chineseTW=所求之物
+|portuguese=Peça chave
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0305.png
+|stageTitle=Chapter 5: Part 2
+|stageName=Airborne Mercenary
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 5: A Father's Legacy
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3052
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3= | e3={{Ally|2}} | f3=
+| a2= | b2={{Ally|3}} | c2= | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_03.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-03-08T07:00:00Z|notification=New Heroes: Beyond Darkness (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Thea: Stormy Flier;pos=c7;rarity=3;slot=1;level=12;stats=[21;10;16;12;10];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Steady Posture 1;b=Seal Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b7;rarity=3;slot=2;level=12;stats=[20;11;15;5;13];weapon=Elwind;assist=Rally Defense;special=-;a=-;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=e7;rarity=3;slot=3;level=12;stats=[21;10;14;7;15];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d8;rarity=3;slot=4;level=12;stats=[20;13;13;6;11];weapon=Steel Bow;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Thea: Stormy Flier;pos=c7;rarity=4;slot=1;level=31;stats=[31;23;28;24;20];weapon=Vanguard;assist=-;special=Glowing Ember;a=Steady Posture 1;b=Seal Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b7;rarity=4;slot=2;level=31;stats=[28;21;29;11;25];weapon=Rexcalibur;assist=Rally Spd/Def;special=-;a=-;b=Windsweep 1;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=e7;rarity=4;slot=3;level=31;stats=[31;20;28;15;29];weapon=Slaying Edge;assist=-;special=Holy Vestments;a=-;b=Seal Atk 1;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d8;rarity=4;slot=4;level=31;stats=[30;25;27;12;21];weapon=Silver Bow;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Flier Guidance 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Thea: Stormy Flier;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[38;32;35;31;28];weapon=Vanguard+;assist=-;special=Ignis;a=Steady Posture 2;b=Seal Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b7;rarity=5;slot=2;level=41;displaylevel=40;stats=[35;29;38;16;32];weapon=Rexcalibur+;assist=Rally Spd/Def+;special=-;a=-;b=Windsweep 3;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=e7;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Slaying Edge+;assist=-;special=Aegis;a=-;b=Seal Atk 3;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=d8;rarity=5;slot=4;level=41;displaylevel=40;stats=[37;32;35;17;29];weapon=Silver Bow+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Flier Guidance 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Thea: Stormy Flier;text="Never go back on a promise once\nmade." This is the pledge of the\nKnights of Ilia, the mantra I abide by.;textJP=『交わした契約は裏切らない』…\nそれが、イリアの騎士の誓い。};
+]}}
+{{Story Navbar|Loss|Warriors of the Plains}}
+
+==In other languages==
+{{OtherLanguages
+|english=Airborne Mercenary
+|japanese=傭兵天馬騎士
+|german=Fliegende Söldnerin
+|spanishEU=Mercenaria de altos vuelos
+|spanishLA=Mercenaria de altos vuelos
+|french=La mercenaire céleste
+|italian=Mercenaria dei cieli
+|chineseTW=傭兵天馬騎士
+|portuguese=Mercenários voadores
+}}
+{{Story Maps Navbox|book=3}}

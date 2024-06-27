@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0606.webp
+|stageTitle=Chapter 6: Part 4
+|stageName=Make Your Choice
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 6: Revealing Lies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6064
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=34
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE04_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-04-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Ishtar (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ishtar: Echoing Thunder;pos=d7;rarity=3;slot=1;level=17;stats=[25;21;21;7;14];weapon=Elthunder;assist=-;special=-;a=Life and Death 1;b=Lull Spd/Res 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=3;slot=2;level=17;stats=[35;19;6;21;8];weapon=Steel Sword;assist=-;special=-;a=Distant Def 1;b=-;c=Atk/Spd Gap 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=e6;rarity=3;slot=3;level=17;stats=[35;19;6;21;8];weapon=Steel Axe;assist=-;special=-;a=-;b=Chill Res 1;c=A/D Near Save 1;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;rarity=3;slot=4;level=17;stats=[26;16;11;12;15];weapon=Steel Lance;assist=-;special=-;a=-;b=Lull Atk/Def 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ishtar: Echoing Thunder;pos=d7;rarity=4;slot=1;level=34;stats=[34;35;36;13;25];weapon=Thoron;assist=-;special=New Moon;a=Life and Death 2;b=Lull Spd/Res 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=4;slot=2;level=34;stats=[48;32;12;34;15];weapon=Barrier Blade;assist=-;special=Holy Vestments;a=Distant Def 2;b=-;c=Atk/Spd Gap 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=e6;rarity=4;slot=3;level=34;stats=[48;32;12;34;15];weapon=Rearguard;assist=-;special=Buckler;a=-;b=Chill Res 2;c=A/D Near Save 2;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;rarity=4;slot=4;level=34;stats=[35;29;19;20;25];weapon=Slaying Spear;assist=-;special=Night Sky;a=-;b=Lull Atk/Def 2;c=Savage Blow 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ishtar: Echoing Thunder;pos=d7;rarity=5;slot=1;level=43;stats=[41;44;45;18;33];weapon=Thunder's Mjölnir;assist=-;special=Luna;a=Life and Death 4;b=Lull Spd/Res 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=c6;rarity=5;slot=2;level=43;stats=[58;41;17;43;20];weapon=Barrier Blade+;assist=-;special=Aegis;a=Distant Def 3;b=-;c=Atk/Spd Gap 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=e6;rarity=5;slot=3;level=43;stats=[58;41;17;43;20];weapon=Rearguard+;assist=-;special=Pavise;a=-;b=Chill Res 3;c=A/D Near Save 3;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;rarity=5;slot=4;level=43;stats=[42;36;26;27;31];weapon=Slaying Spear+;assist=-;special=Glimmer;a=-;b=Lull Atk/Def 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|State of Deception|Day of Execution}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=あなたが決める
+|german=Ihr habt die Wahl
+|spanishEU=Toma una decisión
+|spanishLA=Toma una decisión
+|french=Faites votre choix
+|italian=Fa' la tua scelta
+|chineseTW=由你決定
+|portuguese=Faça a sua escolha
+}}
+{{Story Maps Navbox|book=6}}

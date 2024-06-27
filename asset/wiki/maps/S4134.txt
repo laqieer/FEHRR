@@ -1,0 +1,105 @@
+{{Battle Infobox
+|bannerImage=C0413.webp
+|stageTitle=Chapter 13-4
+|stageName=That Sleep of Death
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 13: Reality
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4134
+|backdrop=
+|allyPos=b4,b3,c3,c2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=35
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_Brave_03.ogg<!--bgm_map_FEH_06.ogg-->
+|BGM2=bgm_boss7.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-11-17T07:00:00Z|notification=New Heroes Summoning Event: Princess of Bern (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S4134|backdrop=
+|allyPos=b4,b3,c3,c2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Freyja: Lady of Nightmare;pos=c8;rarity=3;slot=1;level=35;stats=[33;31;35;19;17];weapon=Nightmare Horn;assist=-;special=Galeforce;a=Fury 1;b=Dull Close 1;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Dieck: Wounded Tiger;pos=f3;rarity=3;slot=2;level=35;stats=[34;32;28;29;20];weapon=Silver Axe;assist=-;special=New Moon;a=Close Def 1;b=Null Follow-Up 1;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Merlinus: Pherae's Clerk;pos=a6;rarity=3;slot=3;level=35;stats=[42;15;28;24;21];weapon=Smoke Dagger;assist=Reposition;special=-;a=-;b=Wings of Mercy 1;c=Distant Guard 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Guinivere: Princess of Bern;pos=f7;rarity=3;slot=4;level=35;stats=[31;28;32;12;31];weapon=Shine;assist=-;special=Chilling Wind;a=Atk/Res Push 1;b=Lull Atk/Res 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Melady: Crimson Rider;pos=f5;rarity=3;slot=5;level=35;stats=[35;32;26;33;13];weapon=Instant Lance;assist=-;special=Glowing Ember;a=Atk/Def Solo 1;b=Wyvern Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Galle: Azure Rider;pos=b1;rarity=3;slot=6;level=35;stats=[39;31;17;31;22];weapon=Guard Lance;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 1;b=-;c=Odd Atk Wave 1;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Red Fáfnir;pos=d8;rarity=3;slot=7;level=35;stats=[33;23;29;25;21];weapon=Flametongue;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Dive-Bomb 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Freyja: Lady of Nightmare;pos=c8;rarity=4;slot=1;level=40;stats=[37;36;42;22;20];weapon=Nightmare Horn;assist=-;special=Galeforce;a=Fury 2;b=Dull Close 2;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Dieck: Wounded Tiger;pos=f3;rarity=4;slot=2;level=40;stats=[37;38;32;34;23];weapon=Tiger-Roar Axe;assist=-;special=New Moon;a=Close Def 3;b=Null Follow-Up 2;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Merlinus: Pherae's Clerk;pos=a6;rarity=4;slot=3;level=40;stats=[47;18;33;29;24];weapon=Smoke Dagger+;assist=Reposition;special=-;a=-;b=Wings of Mercy 2;c=Distant Guard 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Guinivere: Princess of Bern;pos=f7;rarity=4;slot=4;level=40;stats=[34;32;38;14;36];weapon=Aureola;assist=-;special=Chilling Wind;a=Atk/Res Push 3;b=Lull Atk/Res 2;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Melady: Crimson Rider;pos=f5;rarity=4;slot=5;level=40;stats=[38;38;30;39;15];weapon=Instant Lance+;assist=-;special=Glowing Ember;a=Atk/Def Solo 3;b=Wyvern Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Galle: Azure Rider;pos=b1;rarity=4;slot=6;level=40;stats=[43;36;20;36;25];weapon=Guard Lance+;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 2;b=-;c=Odd Atk Wave 2;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Red Fáfnir;pos=d8;rarity=4;slot=7;level=40;stats=[36;26;34;30;24];weapon=Flametongue+;assist=-;special=Dragon Gaze;a=Swift Sparrow 2;b=Dive-Bomb 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=a1;rarity=4;slot=8;level=40;stats=[38;33;24;34;17];weapon=Wo Dao+;assist=-;special=Glowing Ember;a=Iote's Shield;b=-;c=Ward Fliers;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Lunatic=[
+{unit=Freyja: Lady of Nightmare;pos=c8;rarity=5;slot=1;level=45;stats=[43;42;48;27;24];weapon=Nightmare Horn;assist=-;special=Galeforce;a=Fury 3;b=Dull Close 3;c=Joint Drive Spd;seal=-;ai={turn=1};};
+{unit=Dieck: Wounded Tiger;pos=f3;rarity=5;slot=2;level=45;stats=[43;44;38;39;28];weapon=Tiger-Roar Axe;assist=-;special=Luna;a=Close Def 4;b=Null Follow-Up 3;c=Threat. Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Merlinus: Pherae's Clerk;pos=a6;rarity=5;slot=3;level=45;stats=[54;22;38;34;30];weapon=Smoke Dagger+;assist=Reposition;special=Miracle;a=-;b=Wings of Mercy 3;c=Distant Guard 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Guinivere: Princess of Bern;pos=f7;rarity=5;slot=4;level=45;stats=[39;38;44;17;42];weapon=Aureola;assist=-;special=Iceberg;a=Atk/Res Push 4;b=Lull Atk/Res 3;c=Joint Drive Res;seal=-;ai={turn=1};};
+{unit=Melady: Crimson Rider;pos=f5;rarity=5;slot=5;level=45;stats=[44;44;36;45;18];weapon=Instant Lance+;assist=-;special=Bonfire;a=Atk/Def Solo 4;b=Wyvern Flight 3;c=-;seal=-;ai={turn=1};};
+{unit=Galle: Azure Rider;pos=b1;rarity=5;slot=6;level=45;stats=[49;42;24;42;31];weapon=Guard Lance+;assist=-;special=Dragon Fang;a=Brazen Atk/Def 3;b=-;c=Odd Atk Wave 3;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Red Fáfnir;pos=d8;rarity=5;slot=7;level=45;stats=[42;32;39;35;30];weapon=Flametongue+;assist=-;special=Draconic Aura;a=Swift Sparrow 2;b=Dive-Bomb 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=a1;rarity=5;slot=8;level=45;stats=[44;38;30;39;21];weapon=Wo Dao+;assist=-;special=Bonfire;a=Iote's Shield;b=-;c=Ward Fliers;seal=-;ai={turn=1};spawn={turn=3};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Facing Reality|The Waking World}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=それを確かめる術はない
+|german=Der Schlaf des Todes
+|spanishEU=Sueño mortal
+|spanishLA=Sueño mortal
+|french=Rêve mortel
+|italian=Un sogno mortale
+|chineseTW=無法確認
+|portuguese=Sonho mortal
+}}
+{{Story Maps Navbox|book=4}}

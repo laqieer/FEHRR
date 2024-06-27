@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0303.png
+|stageTitle=Chapter 3: Part 1
+|stageName=The Scar Remembers
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 3: Countdown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3031
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3={{Ally|4}} | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2={{Ally|3}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_03.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-01-11T07:00:00Z|notification=New Heroes: Rulers of the Laguz (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Reyson: White Prince;pos=c8;rarity=3;slot=1;level=5;stats=[16;8;9;5;5];weapon=Hatchling (Flier);assist=-;special=-;a=-;b=-;c=Fortify Res 1;seal=-;ai={turn=1};};
+{unit=Leanne: Forest's Song;pos=d8;rarity=3;slot=2;level=5;stats=[15;6;10;3;9];weapon=Hatchling (Flier);assist=-;special=-;a=-;b=-;c=Hone Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b7;rarity=3;slot=3;level=5;stats=[21;8;8;9;5];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f7;rarity=3;slot=4;level=5;stats=[18;8;11;9;6];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Reyson: White Prince;pos=c8;rarity=4;slot=1;level=25;stats=[26;19;23;15;15];weapon=Fledgling (Flier);assist=Sing;special=-;a=Steady Posture 1;b=-;c=Fortify Res 2;seal=-;ai={turn=1};};
+{unit=Leanne: Forest's Song;pos=d8;rarity=4;slot=2;level=25;stats=[25;16;25;9;23];weapon=Fledgling (Flier);assist=Sing;special=-;a=Mirror Stance 1;b=Flier Formation 1;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b7;rarity=4;slot=3;level=25;stats=[32;20;19;20;14];weapon=Steel Sword;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f7;rarity=4;slot=4;level=25;stats=[28;18;25;21;16];weapon=Fire Breath+;assist=Reposition;special=-;a=-;b=Def/Res Link 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Reyson: White Prince;pos=c8;rarity=5;slot=1;level=40;stats=[37;29;34;24;26];weapon=Heron Wing;assist=Sing;special=-;a=Steady Posture 2;b=-;c=Fortify Beasts;seal=-;ai={turn=1};};
+{unit=Leanne: Forest's Song;pos=d8;rarity=5;slot=2;level=40;stats=[36;27;37;16;34];weapon=Heron Wing;assist=Sing;special=-;a=Mirror Stance 2;b=Flier Formation 3;c=Hone Beasts;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b7;rarity=5;slot=3;level=40;stats=[44;31;31;30;22];weapon=Silver Sword+;assist=-;special=Moonbow;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=f7;rarity=5;slot=4;level=40;stats=[39;29;36;32;27];weapon=Flametongue+;assist=Reposition;special=-;a=-;b=Def/Res Link 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Klein & Clarine: Bound Hero Battle|The Ominous Raven}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=二十年前の傷痕
+|german=Narbe der Erinnerung
+|spanishEU=Una vieja cicatriz
+|spanishLA=Una vieja cicatriz
+|french=Une cicatrice douloureuse
+|italian=Memorie di una cicatrice
+|chineseTW=二十年前的傷痕
+|portuguese=Uma velha cicatriz
+}}
+{{Story Maps Navbox|book=3}}

@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0308.webp
+|stageTitle=Chapter 8: Part 2
+|stageName=Almost Extinct
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 8: Truth of a Name
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3082
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3={{Ally|1}} | e3={{Ally|2}} | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=34
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_12.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-06-11T07:00:00Z|notification=New Heroes: From a Future Past (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Brady: Daunting Priest;pos=c7;rarity=3;slot=1;level=21;stats=[28;19;18;12;15];weapon=Assault;assist=Mend;special=Imbue;a=Atk/Res Push 1;b=-;c=Infantry Rush 1;seal=-;ai={turn=1};};
+{unit=Yarne: Timid Taguel;pos=e8;rarity=3;slot=2;level=21;stats=[27;20;18;18;9];weapon=Yearling (Cavalry);assist=-;special=Night Sky;a=Atk/Spd Solo 1;b=Escape Route 1;c=Odd Spd Wave 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b6;rarity=3;slot=3;level=21;stats=[26;17;18;11;15];weapon=Elthunder;assist=-;special=Night Sky;a=Atk/Spd Push 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d6;rarity=3;slot=4;level=21;stats=[26;15;20;11;21];weapon=Steel Sword;assist=-;special=-;a=-;b=Quick Riposte 1;c=Atk Tactic 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Brady: Daunting Priest;pos=c7;rarity=4;slot=1;level=34;stats=[35;28;27;18;22];weapon=Slow;assist=Recover;special=Imbue;a=Atk/Res Push 2;b=-;c=Infantry Rush 2;seal=-;ai={turn=1};};
+{unit=Yarne: Timid Taguel;pos=e8;rarity=4;slot=2;level=34;stats=[34;30;27;27;13];weapon=Adult (Cavalry);assist=-;special=Astra;a=Atk/Spd Solo 2;b=Escape Route 2;c=Odd Spd Wave 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b6;rarity=4;slot=3;level=34;stats=[32;26;27;16;22];weapon=Blárblade;assist=-;special=Night Sky;a=Atk/Spd Push 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d6;rarity=4;slot=4;level=34;stats=[32;22;30;16;31];weapon=Safeguard;assist=-;special=New Moon;a=-;b=Quick Riposte 2;c=Atk Tactic 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Brady: Daunting Priest;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[41;33;32;24;28];weapon=Slow+;assist=Recover+;special=Heavenly Light;a=Atk/Res Push 3;b=-;c=Infantry Rush 3;seal=-;ai={turn=1};};
+{unit=Yarne: Timid Taguel;pos=e8;rarity=5;slot=2;level=41;displaylevel=40;stats=[40;36;34;32;17];weapon=Bunny Fang;assist=-;special=Galeforce;a=Atk/Spd Solo 3;b=Escape Route 3;c=Odd Spd Wave 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b6;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Blárblade+;assist=-;special=Glimmer;a=Atk/Spd Push 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d6;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Safeguard+;assist=-;special=Moonbow;a=-;b=Quick Riposte 3;c=Atk Tactic 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Yarne: Timid Taguel;text=I'm the last of my people. Mother\nand Father can't fight anymore,\nso I have to. I have to!;textJP=俺はタグエル最後の生き残りなんだ。\n俺は戦わなきゃいけない、\n父ちゃんと母ちゃんの分まで…};
+]}}
+{{Story Navbar|Ruinous Land|Their Fragrance Lingers...}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=最後の種族
+|german=Dem Aussterben nahe
+|spanishEU=El último taguel
+|spanishLA=El último taguel
+|french=Le dernier de sa race
+|italian=Sull'orlo dell'estinzione
+|chineseTW=最後的種族
+|portuguese=Quase extinto
+}}
+{{Story Maps Navbox|book=3}}

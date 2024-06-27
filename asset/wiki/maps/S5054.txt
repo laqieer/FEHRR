@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0505.webp
+|stageTitle=Chapter 5: Part 4
+|stageName=Margrave's Daughter
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 5: Night and Day
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5054
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=33
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-03-05T07:00:00Z|notification=New Heroes Summoning Event: Seeds of Fódlan (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Marianne: Adopted Daughter;pos=c7;rarity=3;slot=1;level=14;stats=[21;19;14;6;17];weapon=Elthunder;assist=-;special=-;a=B Duel Infantry 1;b=Lull Atk/Res 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a7;rarity=3;slot=2;level=14;stats=[23;15;9;9;10];weapon=Steel Bow;assist=Rally Attack;special=-;a=-;b=Spd/Res Ruse 1;c=Breath of Life 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d8;rarity=3;slot=3;level=14;stats=[22;11;15;8;16];weapon=Steel Sword;assist=Draw Back;special=-;a=-;b=Atk/Spd Link 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f6;rarity=3;slot=4;level=14;stats=[24;15;10;16;7];weapon=Steel Axe;assist=-;special=-;a=Mirror Stance 1;b=-;c=Flier Guidance 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Marianne: Adopted Daughter;pos=c7;rarity=4;slot=1;level=33;stats=[31;34;25;13;32];weapon=Thoron;assist=-;special=Chilling Wind;a=B Duel Infantry 2;b=Lull Atk/Res 2;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a7;rarity=4;slot=2;level=33;stats=[33;29;17;19;19];weapon=Silver Bow;assist=Rally Atk/Spd;special=-;a=-;b=Spd/Res Ruse 2;c=Breath of Life 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d8;rarity=4;slot=3;level=33;stats=[32;21;29;16;30];weapon=Slaying Edge;assist=Draw Back;special=-;a=-;b=Atk/Spd Link 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f6;rarity=4;slot=4;level=33;stats=[34;29;20;30;14];weapon=Silver Axe;assist=-;special=Glowing Ember;a=Mirror Stance 1;b=-;c=Flier Guidance 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Marianne: Adopted Daughter;pos=c7;rarity=5;slot=1;level=43;stats=[38;44;34;18;42];weapon=Icy Fimbulvetr;assist=-;special=Iceberg;a=B Duel Infantry 4;b=Lull Atk/Res 3;c=Joint Drive Res;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a7;rarity=5;slot=2;level=43;stats=[41;37;23;26;24];weapon=Silver Bow+;assist=Rally Atk/Spd+;special=-;a=-;b=Spd/Res Ruse 3;c=Breath of Life 3;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d8;rarity=5;slot=3;level=43;stats=[39;29;37;22;38];weapon=Slaying Edge+;assist=Draw Back;special=-;a=-;b=Atk/Spd Link 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f6;rarity=5;slot=4;level=43;stats=[42;37;28;38;20];weapon=Silver Axe+;assist=-;special=Ignis;a=Mirror Stance 2;b=-;c=Flier Guidance 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Marianne: Adopted Daughter;text=I wonder... What is my purpose\nhere? How can I make myself\nuseful to others?;textJP=私、ちゃんと\n皆さんの役に立っているでしょうか…？};
+]}}
+{{Story Navbar|Dozing Classmate|Overcoming Differences}}
+==In other languages==
+{{OtherLanguages
+|japanese=エドマンド家の養女
+|german=Tochter des Markgrafen
+|spanishEU=Hija del marqués
+|spanishLA=Hija del marqués
+|french=Fille du margrave
+|italian=La figlia del margravio
+|chineseTW=艾德蒙家的養女
+|portuguese=A filha do margrave
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0605.webp
+|stageTitle=Chapter 5: Part 1
+|stageName=Light's Path
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 5: Evil Ways
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6051
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_04.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-03-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Mareeta (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Galzus: Dark Blade of Od;pos=c7;rarity=3;slot=1;level=11;stats=[22;16;17;15;8];weapon=Steel Sword;assist=-;special=-;a=Darting Blow 1;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=a6;rarity=3;slot=2;level=11;stats=[20;11;14;5;12];weapon=Elthunder;assist=-;special=-;a=Atk/Res Solo 1;b=-;c=Spd Ploy 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=e5;rarity=3;slot=3;level=11;stats=[31;15;5;17;6];weapon=Steel Axe;assist=-;special=-;a=-;b=Bold Fighter 1;c=Armored Stride 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e7;rarity=3;slot=4;level=11;stats=[20;10;10;9;14];weapon=Assault;assist=Mend;special=-;a=Attack/Res 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Galzus: Dark Blade of Od;pos=c7;rarity=4;slot=1;level=30;stats=[32;33;32;27;16];weapon=Rein Sword;assist=-;special=New Moon;a=Swift Sparrow 1;b=Null Follow-Up 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=a6;rarity=4;slot=2;level=30;stats=[28;21;29;11;24];weapon=Blárfox;assist=-;special=New Moon;a=Atk/Res Solo 2;b=-;c=Spd Ploy 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=e5;rarity=4;slot=3;level=30;stats=[45;30;11;32;13];weapon=Brave Axe;assist=-;special=Glowing Ember;a=-;b=Bold Fighter 2;c=Armored Stride 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e7;rarity=4;slot=4;level=30;stats=[28;21;20;17;27];weapon=Panic;assist=Physic;special=Fireflood Balm;a=Attack/Res 1;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Galzus: Dark Blade of Od;pos=c7;rarity=5;slot=1;level=40;stats=[40;43;41;36;22];weapon=Rein Sword+;assist=-;special=Luna;a=Surge Sparrow;b=Null Follow-Up 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=a6;rarity=5;slot=2;level=40;stats=[34;29;37;16;32];weapon=Blárfox+;assist=-;special=Moonbow;a=Atk/Res Solo 3;b=-;c=Spd Ploy 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=e5;rarity=5;slot=3;level=40;stats=[55;38;16;40;19];weapon=Brave Axe+;assist=-;special=Bonfire;a=-;b=Bold Fighter 3;c=Armored Stride 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e7;rarity=5;slot=4;level=40;stats=[34;28;28;23;35];weapon=Panic+;assist=Physic+;special=Fireflood Balm+;a=Attack/Res 2;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Brother's Friends|Moving Forward}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=光の眷属
+|german=Der Pfad des Lichtes
+|spanishEU=El camino de la luz
+|spanishLA=El camino de la luz
+|french=Le chemin de la lumière
+|italian=Il potere della luce
+|chineseTW=光之眷屬
+|portuguese=Caminho da luz
+}}
+{{Story Maps Navbox|book=6}}

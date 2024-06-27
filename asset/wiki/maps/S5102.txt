@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0510.webp
+|stageTitle=Chapter 10: Part 2
+|stageName=Serene Adherent
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 10: Howling Descent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5102
+|backdrop=
+|allyPos=a3,f3,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_04.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-08-17T07:00:00Z|notification=New Heroes Summoning Event: Keepers of Faith (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ótr: Kingsbrother;pos=c7;rarity=3;slot=1;level=25;stats=[29;25;10;23;21];weapon=Steel Axe;assist=-;special=Bonfire;a=Fury 1;b=Lull Atk/Def 1;c=Odd Def Wave 1;seal=-;ai={turn=1};};
+{unit=Marianne: Serene Adherent;pos=d7;rarity=3;slot=2;level=25;stats=[27;25;26;10;22];weapon=Elstone;assist=-;special=Chilling Wind;a=Atk/Spd Bond 1;b=Null Follow-Up 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=d6;rarity=3;slot=3;level=25;stats=[31;22;21;21;13];weapon=Steel Lance;assist=-;special=New Moon;a=Death Blow 1;b=-;c=Spur Def 1;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Sword;pos=e8;rarity=3;slot=4;level=25;stats=[31;22;21;21;13];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 1;b=-;c=Rouse Atk/Spd 1;seal=Gullinbursti;ai={turn=1};};
+{unit=Red Mage;pos=a8;rarity=3;slot=5;level=25;stats=[27;19;20;12;17];weapon=Elfire;assist=-;special=Rising Flame;a=Fury 1;b=-;c=Atk Ploy 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ótr: Kingsbrother;pos=c7;rarity=4;slot=1;level=36;stats=[36;35;14;33;28];weapon=Lofnheiðr;assist=-;special=Glowing Ember;a=Fury 2;b=Lull Atk/Def 2;c=Odd Def Wave 2;seal=-;ai={turn=1};};
+{unit=Marianne: Serene Adherent;pos=d7;rarity=4;slot=2;level=36;stats=[33;35;36;14;30];weapon=Phantasm Tome;assist=-;special=Chilling Wind;a=Atk/Spd Bond 2;b=Null Follow-Up 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=d6;rarity=4;slot=3;level=36;stats=[38;32;30;29;17];weapon=Slaying Lance;assist=-;special=New Moon;a=Death Blow 2;b=-;c=Spur Def 2;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Sword;pos=e8;rarity=4;slot=4;level=36;stats=[38;32;30;29;17];weapon=Unbound Blade;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 2;b=-;c=Rouse Atk/Spd 2;seal=Gullinbursti;ai={turn=1};};
+{unit=Red Mage;pos=a8;rarity=4;slot=5;level=36;stats=[33;27;28;16;23];weapon=Bolganone;assist=-;special=Rising Flame;a=Fury 2;b=-;c=Atk Ploy 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ótr: Kingsbrother;pos=c7;rarity=5;slot=1;level=41;stats=[41;41;17;38;33];weapon=Lofnheiðr;assist=-;special=Bonfire;a=Fury 3;b=Lull Atk/Def 3;c=Odd Def Wave 3;seal=-;ai={turn=1};};
+{unit=Marianne: Serene Adherent;pos=d7;rarity=5;slot=2;level=41;stats=[38;41;42;17;36];weapon=Phantasm Tome;assist=-;special=Requiem Dance;a=Atk/Spd Unity;b=Null Follow-Up 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=d6;rarity=5;slot=3;level=41;stats=[43;37;36;33;21];weapon=Slaying Lance+;assist=-;special=Moonbow;a=Death Blow 3;b=-;c=Ward Cavalry;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Sword;pos=e8;rarity=5;slot=4;level=41;stats=[43;37;36;33;21];weapon=Unbound Blade+;assist=-;special=Draconic Aura;a=Atk/Spd Solo 3;b=-;c=Rouse Atk/Spd 3;seal=Gullinbursti;ai={turn=1};};
+{unit=Red Mage;pos=a8;rarity=5;slot=5;level=41;stats=[38;31;32;20;28];weapon=Bolganone+;assist=-;special=Growing Flame;a=Fury 3;b=-;c=Atk Ploy 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Passion's Madness|Pledged Restorer}}
+==In other languages==
+{{OtherLanguages
+|japanese=穏やかなる祈り
+|german=Ruhige Seele
+|spanishEU=Adepta serena
+|spanishLA=Adepta serena
+|french=Adepte sereine
+|italian=L'adepta serena
+|chineseTW=平靜的祈禱
+|portuguese=Adepta serena
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0609.webp
+|stageTitle=Chapter 9: Part 1
+|stageName=Closing and Opening
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 9: Opening a Way
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6091
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE15_11.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-07-19T07:00:00Z|notification=Special Summon: Ymir & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Bruno: Prince Beset;pos=c8;rarity=3;slot=1;level=22;stats=[27;21;23;11;13];weapon=Thoron;assist=-;special=New Moon;a=Fury 1;b=Lull Spd/Res 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Kamui: Wandering Blade;pos=c6;rarity=3;slot=2;level=22;stats=[29;22;24;21;12];weapon=Steel Sword;assist=-;special=New Moon;a=Spd/Def Ideal 1;b=-;c=Atk/Def Oath 1;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=e6;rarity=3;slot=3;level=22;stats=[31;24;21;17;13];weapon=Steel Axe;assist=-;special=Daylight;a=Earth Boost 1;b=-;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=3;slot=4;level=22;stats=[24;15;15;13;20];weapon=Assault;assist=Mend;special=Imbue;a=-;b=Chill Def/Res 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Bruno: Prince Beset;pos=c8;rarity=4;slot=1;level=34;stats=[34;31;34;16;19];weapon=Veiled Valaskjálf;assist=-;special=New Moon;a=Fury 2;b=Lull Spd/Res 2;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Kamui: Wandering Blade;pos=c6;rarity=4;slot=2;level=34;stats=[38;32;35;30;17];weapon=Up-Front Blade;assist=-;special=New Moon;a=Spd/Def Ideal 2;b=-;c=Atk/Def Oath 2;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=e6;rarity=4;slot=3;level=34;stats=[40;36;31;27;21];weapon=Stout Axe;assist=-;special=Daylight;a=Earth Boost 2;b=-;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=4;slot=4;level=34;stats=[29;23;22;18;30];weapon=Melancholy;assist=Physic;special=Imbue;a=-;b=Chill Def/Res 1;c=Savage Blow 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Bruno: Prince Beset;pos=c8;rarity=5;slot=1;level=40;stats=[40;37;40;21;24];weapon=Veiled Valaskjálf;assist=-;special=Luna;a=Fury 4;b=Lull Spd/Res 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Kamui: Wandering Blade;pos=c6;rarity=5;slot=2;level=40;stats=[44;38;41;36;22];weapon=Up-Front Blade+;assist=-;special=Luna;a=Spd/Def Ideal 3;b=-;c=Atk/Def Oath 3;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=e6;rarity=5;slot=3;level=40;stats=[46;43;37;34;27];weapon=Stout Axe+;assist=-;special=Sol;a=Earth Boost 3;b=-;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=5;slot=4;level=40;stats=[34;28;28;23;35];weapon=Melancholy+;assist=Physic+;special=Heavenly Light;a=-;b=Chill Def/Res 2;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Grand Conquests 31|Youthful Introduction}}
+==In other languages==
+{{OtherLanguages
+|japanese=閉神と開神
+|german=Schließung und Öffnung
+|spanishEU=Cierre y apertura
+|spanishLA=Cierre y apertura
+|french=Fermeture et ouverture
+|italian=Chiusura e apertura
+|chineseTW=閉神與開神
+|portuguese=Oclusão e abertura
+}}
+{{Story Maps Navbox|book=6}}

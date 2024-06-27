@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0503.webp
+|stageTitle=Chapter 3: Part 2
+|stageName=Princess of Ulster
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 3: Forest of the Sage
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5032
+|backdrop=
+|allyPos=a5,b5,a4,b4
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-01-08T07:00:00Z|notification=New Heroes Summoning Event: Shared Purpose (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Miranda: Willful Princess;pos=f3;rarity=3;slot=1;level=6;stats=[17;12;11;5;12];weapon=Fire;assist=Ardent Sacrifice;special=-;a=-;b=Seal Atk/Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e5;rarity=3;slot=2;level=6;stats=[27;12;3;14;4];weapon=Iron Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f4;rarity=3;slot=3;level=6;stats=[19;7;11;5;12];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f7;rarity=3;slot=4;level=6;stats=[18;8;11;3;9];weapon=Thunder;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Miranda: Willful Princess;pos=f3;rarity=4;slot=1;level=26;stats=[28;26;24;13;26];weapon=Elfire;assist=Ardent Sacrifice;special=-;a=-;b=Seal Atk/Res 1;c=Spd/Res Gap 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e5;rarity=4;slot=2;level=26;stats=[42;27;10;29;12];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Wary Fighter 2;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f4;rarity=4;slot=3;level=26;stats=[29;18;25;13;26];weapon=Steel Axe;assist=-;special=Chilling Wind;a=-;b=Pegasus Flight 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f7;rarity=4;slot=4;level=26;stats=[26;19;26;10;22];weapon=Elthunder;assist=-;special=New Moon;a=Death Blow 2;b=-;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Miranda: Willful Princess;pos=f3;rarity=5;slot=1;level=41;stats=[38;37;36;22;37];weapon=Rauðrserpent+;assist=Ardent Sacrifice;special=-;a=-;b=Seal Atk/Res 2;c=Spd/Res Gap 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e5;rarity=5;slot=2;level=41;stats=[56;39;16;41;19];weapon=Slaying Lance+;assist=-;special=Bonfire;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f4;rarity=5;slot=3;level=41;stats=[38;28;36;22;37];weapon=Silver Axe+;assist=-;special=Glacies;a=-;b=Pegasus Flight 3;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f7;rarity=5;slot=4;level=41;stats=[35;29;38;16;32];weapon=Thoron+;assist=-;special=Luna;a=Death Blow 3;b=-;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Miranda: Willful Princess;text=No matter how low I fall, I will never\nforsake the pride of Ulster.;textJP=どんなに落ちぶれても、\nアルスターの誇りを\n忘れたことはありません。};
+]}}
+{{Story Navbar|Key Ingredient|Lady of Loptr}}
+==In other languages==
+{{OtherLanguages
+|japanese=アルスターの王女
+|german=Prinzessin von Ulster
+|spanishEU=Princesa de Ulster
+|spanishLA=Princesa de Ulster
+|french=Princesse d'Ulster
+|italian=Principessa di Ulster
+|chineseTW=阿爾斯特的公主
+|portuguese=Princesa de Ulster
+}}
+{{Story Maps Navbox|book=5}}

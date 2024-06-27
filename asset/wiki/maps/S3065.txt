@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0306_C.png
+|stageTitle=Chapter 6: Part 5
+|stageName=The Blood of Askr
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 6: Realm of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3065
+|backdrop=WavePatternHell
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=36
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-04-10T07:00:00Z|notification=New Heroes: Out of Gallia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=3;slot=1;level=18;stats=[26;20;15;17;13];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Darting Stance 1;b=Poison Strike 1;c=-;seal=-;ai={group=1};};
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=3;slot=2;level=18;stats=[25;17;19;11;12];weapon=Elwind;assist=-;special=New Moon;a=Brazen Atk/Spd 1;b=Desperation 1;c=-;seal=-;ai={group=1};};
+{unit=Mordecai: Kindhearted Tiger;pos=b7;rarity=3;slot=3;level=18;stats=[29;20;11;19;9];weapon=Yearling (Infantry);assist=Smite;special=-;a=-;b=Atk/Def Link 1;c=Beast Exp. 1;seal=-;ai={group=1};};
+{unit=Lethe: Gallia's Valkyrie;pos=f6;rarity=3;slot=4;level=18;stats=[25;17;20;11;10];weapon=Yearling (Cavalry);assist=-;special=New Moon;a=Spd/Def Solo 1;b=Vantage 1;c=Hone Atk 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=4;slot=1;level=36;stats=[37;33;26;29;23];weapon=Sökkvabekkr;assist=-;special=Bonfire;a=Darting Stance 2;b=Poison Strike 2;c=-;seal=-;ai={group=1};};
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=4;slot=2;level=36;stats=[35;29;33;19;22];weapon=Ífingr;assist=-;special=New Moon;a=Brazen Atk/Spd 2;b=Desperation 2;c=-;seal=-;ai={group=1};};
+{unit=Mordecai: Kindhearted Tiger;pos=b7;rarity=4;slot=3;level=36;stats=[42;33;20;34;16];weapon=Adult (Infantry);assist=Smite;special=-;a=-;b=Atk/Def Link 2;c=Beast Exp. 2;seal=-;ai={group=1};};
+{unit=Lethe: Gallia's Valkyrie;pos=f6;rarity=4;slot=4;level=36;stats=[36;29;34;21;16];weapon=Adult (Cavalry);assist=-;special=New Moon;a=Spd/Def Solo 2;b=Vantage 2;c=Hone Atk 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;40;33;37;31];weapon=Sökkvabekkr;assist=-;special=Bonfire;a=Darting Stance 3;b=Poison Strike 3;c=-;seal=-;ai={group=1};};
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=5;slot=2;level=45;displaylevel=40;stats=[43;36;41;25;30];weapon=Ífingr;assist=-;special=Luna;a=Brazen Atk/Spd 3;b=Desperation 3;c=-;seal=-;ai={group=1};};
+{unit=Mordecai: Kindhearted Tiger;pos=b7;rarity=5;slot=3;level=45;displaylevel=40;stats=[51;40;27;43;22];weapon=Sabertooth Fang;assist=Smite;special=-;a=-;b=Atk/Def Link 3;c=Beast Exp. 3;seal=-;ai={group=1};};
+{unit=Lethe: Gallia's Valkyrie;pos=f6;rarity=5;slot=4;level=45;displaylevel=40;stats=[44;36;42;29;20];weapon=Brazen Cat Fang;assist=-;special=Moonbow;a=Spd/Def Solo 3;b=Vantage 3;c=Hone Beasts;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Hear the Lion's Roar|A Trust Earned}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=アスクの血脈
+|german=Das Blut von Askr
+|spanishEU=La sangre de Askr
+|spanishLA=La sangre de Askr
+|french=La lignée d'Askr
+|italian=Il sangue askriano
+|chineseTW=亞斯克的血脈
+|portuguese=Sangue de Askr
+}}
+{{Story Maps Navbox|book=3}}

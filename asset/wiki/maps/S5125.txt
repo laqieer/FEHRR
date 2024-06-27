@@ -1,4 +1,104 @@
-'''Family''' can refer to the following pages:
-* [[Book V, Chapter 12-5: Family]]
-* [[Paralogue 27-2: Family]]
-{{disambig}}
+{{Battle Infobox
+|bannerImage=C0512 C.webp
+|stageTitle=Chapter 12-5
+|stageName=Family
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 12: What Remains
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5125
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_map_Brave_03.ogg
+|BGM3=bgm_boss9.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-10-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Fjorm (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S5125|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Fáfnir: King of Desolation (Dragon);pos=c6;rarity=3;slot=1;level=32;stats=[35;29;32;27;23];weapon=Scalding Breath;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 1;b=Special Fighter 1;c=Fatal Smoke 1;seal=-;ai={turn=1};};
+{unit=Vyland: Coyote's Justice;pos=a6;rarity=3;slot=2;level=32;stats=[38;31;22;27;13];weapon=Unbound Axe;assist=Smite;special=-;a=Atk/Def Push 1;b=Atk/Def Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Roshea: Coyote's Faithful;pos=b7;rarity=3;slot=3;level=32;stats=[33;29;26;29;15];weapon=Stout Lance;assist=Draw Back;special=-;a=Spd/Def Form 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Malice: Deft Sellsword;pos=e6;rarity=3;slot=4;level=32;stats=[32;29;33;24;20];weapon=Silver Sword;assist=-;special=New Moon;a=Atk/Spd Push 1;b=Spurn 1;c=-;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=e7;rarity=3;slot=5;level=32;stats=[35;27;26;25;15];weapon=Brave Lance;assist=-;special=New Moon;a=Distant Def 1;b=Guard 1;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Wolf: Coyote's Loyal;pos=b8;rarity=3;slot=6;level=32;stats=[32;29;31;20;14];weapon=Silver Bow;assist=Reposition;special=-;a=Life and Death 1;b=Def/Res Snag 1;c=Panic Smoke 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sedgar: Coyote's Dutiful;pos=e8;rarity=3;slot=7;level=32;stats=[33;27;29;20;17];weapon=Instant Bow;assist=-;special=Rising Wind;a=Atk/Def Catch 1;b=Chill Def 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Hard=[
+{unit=Fáfnir: King of Desolation (Dragon);pos=c6;rarity=4;slot=1;level=40;stats=[41;35;40;33;28];weapon=Scalding Breath;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 3;b=Special Fighter 2;c=Fatal Smoke 2;seal=-;ai={turn=1};};
+{unit=Vyland: Coyote's Justice;pos=a6;rarity=4;slot=2;level=40;stats=[44;39;28;33;17];weapon=Unbound Axe;assist=Smite;special=-;a=Atk/Def Push 2;b=Atk/Def Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Roshea: Coyote's Faithful;pos=b7;rarity=4;slot=3;level=40;stats=[38;36;32;36;19];weapon=Stout Lance;assist=Draw Back;special=-;a=Spd/Def Form 2;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Malice: Deft Sellsword;pos=e6;rarity=4;slot=4;level=40;stats=[37;37;41;29;25];weapon=Spendy Scimitar;assist=-;special=New Moon;a=Atk/Spd Push 3;b=Spurn 2;c=-;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=e7;rarity=4;slot=5;level=40;stats=[40;34;32;31;19];weapon=Brave Lance;assist=-;special=New Moon;a=Distant Def 2;b=Guard 2;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Wolf: Coyote's Loyal;pos=b8;rarity=4;slot=6;level=40;stats=[37;37;40;25;18];weapon=Keen Coyote Bow;assist=Reposition;special=-;a=Life and Death 3;b=Def/Res Snag 2;c=Panic Smoke 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sedgar: Coyote's Dutiful;pos=e8;rarity=4;slot=7;level=40;stats=[38;34;37;25;22];weapon=Instant Bow;assist=-;special=Rising Wind;a=Atk/Def Catch 2;b=Chill Def 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Lunatic=[
+{unit=Fáfnir: King of Desolation (Dragon);pos=c6;rarity=5;slot=1;level=45;stats=[47;42;46;38;34];weapon=Scalding Breath;assist=-;special=Dragon Fang;a=Atk/Spd Solo 4;b=Special Fighter 3;c=Fatal Smoke 3;seal=-;ai={turn=1};};
+{unit=Vyland: Coyote's Justice;pos=a6;rarity=5;slot=2;level=45;stats=[51;45;33;40;21];weapon=Unbound Axe+;assist=Smite;special=-;a=Atk/Def Push 3;b=Atk/Def Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Roshea: Coyote's Faithful;pos=b7;rarity=5;slot=3;level=45;stats=[44;42;38;42;23];weapon=Stout Lance+;assist=Draw Back;special=-;a=Spd/Def Form 3;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Malice: Deft Sellsword;pos=e6;rarity=5;slot=4;level=45;stats=[43;43;47;35;31];weapon=Spendy Scimitar;assist=-;special=Luna;a=Atk/Spd Push 4;b=Spurn 3;c=-;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=e7;rarity=5;slot=5;level=45;stats=[46;40;39;36;23];weapon=Brave Lance+;assist=-;special=Moonbow;a=Distant Def 3;b=Guard 3;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Wolf: Coyote's Loyal;pos=b8;rarity=5;slot=6;level=45;stats=[43;43;46;31;22];weapon=Keen Coyote Bow;assist=Reposition;special=-;a=Life and Death 4;b=Def/Res Snag 3;c=Panic Smoke 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sedgar: Coyote's Dutiful;pos=e8;rarity=5;slot=7;level=45;stats=[44;40;43;30;27];weapon=Instant Bow+;assist=-;special=Blazing Wind;a=Atk/Def Catch 3;b=Chill Def 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Coyote's Justice|With Conviction}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=家族
+|german=Familie
+|spanishEU=Familia
+|spanishLA=Familia
+|french=Famille
+|italian=Famiglia
+|chineseTW=家人
+|portuguese=Família
+}}
+{{Story Maps Navbox|book=5}}

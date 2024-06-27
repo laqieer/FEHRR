@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Map C0309.webp
+|stageTitle=Chapter 9: Part 4
+|stageName=The Future
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 9: Cohort of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3094
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Ally|1}} | c5= | d5= | e5= | f5=
+| a4={{Ally|2}} | b4={{Ally|3}} | c4= | d4= | e4= | f4=
+| a3={{Ally|4}} | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=37
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_01.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-07-22T07:00:00Z|notification=New Heroes: Three Houses (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Edelgard: The Future;pos=f5;rarity=3;slot=1;level=25;stats=[29;24;19;23;13];weapon=Silver Axe;assist=-;special=New Moon;a=Atk/Def Solo 1;b=Dull Close 1;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d8;rarity=3;slot=2;level=25;stats=[27;19;20;12;17];weapon=Elfire;assist=-;special=-;a=Fury 1;b=-;c=Def Ploy 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f2;rarity=3;slot=3;level=25;stats=[25;18;23;9;20];weapon=Elthunder;assist=-;special=-;a=Speed +1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c8;rarity=3;slot=4;level=25;stats=[40;24;9;26;11];weapon=Steel Lance;assist=-;special=-;a=-;b=Bold Fighter 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d1;rarity=3;slot=5;level=25;stats=[30;22;16;23;11];weapon=Steel Sword;assist=-;special=-;a=Def/Res Solo 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Edelgard: The Future;pos=f5;rarity=4;slot=1;level=37;stats=[36;35;26;33;18];weapon=Victorious Axe;assist=-;special=New Moon;a=Atk/Def Solo 2;b=Dull Close 2;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d8;rarity=4;slot=2;level=37;stats=[34;27;28;17;24];weapon=Bolganone;assist=-;special=Retribution;a=Fury 2;b=-;c=Def Ploy 2;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f2;rarity=4;slot=3;level=37;stats=[31;25;33;13;28];weapon=Blárserpent;assist=-;special=Chilling Wind;a=Speed +2;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c8;rarity=4;slot=4;level=37;stats=[50;34;13;36;16];weapon=Slaying Lance;assist=-;special=Dragon Gaze;a=-;b=Bold Fighter 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d1;rarity=4;slot=5;level=37;stats=[37;32;23;33;16];weapon=Brave Sword;assist=-;special=New Moon;a=Def/Res Solo 2;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Edelgard: The Future;pos=f5;rarity=5;slot=1;level=43;displaylevel=40;stats=[43;42;31;40;22];weapon=Victorious Axe;assist=-;special=Luna;a=Atk/Def Solo 3;b=Dull Close 3;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=d8;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Bolganone+;assist=-;special=Reprisal;a=Fury 3;b=-;c=Def Ploy 3;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f2;rarity=5;slot=3;level=43;displaylevel=40;stats=[35;30;40;17;34];weapon=Blárserpent+;assist=-;special=Iceberg;a=Speed +3;b=-;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c8;rarity=5;slot=4;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Slaying Lance+;assist=-;special=Dragon Fang;a=-;b=Bold Fighter 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=d1;rarity=5;slot=5;level=43;displaylevel=40;stats=[42;37;28;38;20];weapon=Brave Sword+;assist=-;special=Moonbow;a=Def/Res Solo 3;b=-;c=Ward Fliers;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_map_fes_02};
+  {unit=Edelgard: The Future;text=I am heir apparent of the Adrestian\nEmpire, Edelgard von Hresvelg. I\nwill test your true strength.;textJP=私はアドラステアの皇位継承者、\nエーデルガルト＝フォン＝フレスベルグ。\n貴方の実力、試させてもらうわ。};
+]}}
+{{Story Navbar|The Schemer|My Sanity Died with Them}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=黒鷲を継ぐ者
+|german=Die Zukunft
+|spanishEU=Heredera ávida
+|spanishLA=Heredera ávida
+|french=Future souveraine
+|italian=Il futuro
+|chineseTW=黑鷲的繼承者
+|portuguese=O futuro
+}}
+{{Story Maps Navbox|book=3}}

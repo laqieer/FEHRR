@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Leif Unrevealed.png
+|mapName=Chapter 7-4: Book and Blade
+|stageTitle=Chapter 7: Part 4
+|stageName=Book and Blade
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 7: Snow and Ash
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2074
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7={{Ally|1}}
+| a6= | b6= | c6= | d6= | e6={{Ally|2}} | f6={{Ally|3}}
+| a5= | b5= | c5= | d5= | e5= | f5={{Ally|4}}
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=35
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE05_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-04-11T07:00:00Z|notification=New Heroes: World of Thracia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Reinhardt: Thunder's Sword;pos=a5;rarity=3;slot=1;level=20;stats=[26;19;12;16;14];weapon=Steel Sword;assist=-;special=Buckler;a=Death Blow 1;b=Vantage 1;c=Spur Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Olwen: Righteous Knight;pos=c1;rarity=3;slot=2;level=20;stats=[23;16;19;9;13];weapon=Elwind;assist=-;special=Rising Wind;a=Swift Sparrow 1;b=Renewal 1;c=G Tome Exp. 1;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=b1;rarity=3;slot=3;level=20;stats=[27;18;12;13;16];weapon=Steel Lance;assist=-;special=-;a=-;b=Quick Riposte 1;c=Fortify Def 1;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b3;rarity=3;slot=4;level=20;stats=[26;19;11;12;12];weapon=Steel Bow;assist=-;special=-;a=Attack +1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Reinhardt: Thunder's Sword;pos=a5;rarity=4;slot=1;level=35;stats=[35;30;19;26;23];weapon=Silver Sword;assist=-;special=Buckler;a=Death Blow 2;b=Vantage 2;c=Spur Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Olwen: Righteous Knight;pos=c1;rarity=4;slot=2;level=35;stats=[30;26;30;15;22];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Swift Sparrow 2;b=Renewal 2;c=G Tome Exp. 2;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=b1;rarity=4;slot=3;level=35;stats=[36;29;20;21;26];weapon=Silver Lance;assist=Reposition;special=Chilling Wind;a=-;b=Quick Riposte 2;c=Fortify Cavalry;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b3;rarity=4;slot=4;level=35;stats=[35;30;18;20;20];weapon=Slaying Bow;assist=-;special=Dragon Gaze;a=Attack +2;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Reinhardt: Thunder's Sword;pos=a5;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;37;24;33;29];weapon=Meisterschwert;assist=-;special=Pavise;a=Death Blow 3;b=Vantage 3;c=Spur Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Olwen: Righteous Knight;pos=c1;rarity=5;slot=2;level=43;displaylevel=40;stats=[35;31;37;20;28];weapon=Thunderhead;assist=-;special=Blazing Wind;a=Swift Sparrow 2;b=Renewal 3;c=G Tome Exp. 3;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=b1;rarity=5;slot=3;level=43;displaylevel=40;stats=[42;36;26;27;31];weapon=Silver Lance+;assist=Reposition;special=Iceberg;a=-;b=Quick Riposte 3;c=Fortify Cavalry;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b3;rarity=5;slot=4;level=43;displaylevel=40;stats=[41;37;23;26;24];weapon=Slaying Bow+;assist=-;special=Draconic Aura;a=Attack +3;b=-;c=Goad Cavalry;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Olwen: Righteous Knight;text=Now, you will face my brother and me.\nI will test my magic, and he his blade.;textJP=兄上は剣で…\n私はこの新たな魔道で…\nお相手致します。};
+]}}
+{{Story Navbar|Indomitable Spirits|Snow and Ash}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔道騎士二人
+|german=Buch und Klinge
+|spanishEU=Grimorio y espada
+|spanishLA=Grimorio y espada
+|french=Le tome et l'épée
+|italian=Il libro e la spada
+|chineseTW=兩位魔道騎士
+|portuguese=Livro e lâmina
+}}
+{{Story Maps Navbox|book=2}}

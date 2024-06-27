@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0311.webp
+|stageTitle=Chapter 11: Part 3
+|stageName=Polarized Judgments
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 11: Where It Began
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=b7,c7,d7,e7
+|baseMap=S3113
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_02.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-09-19T07:00:00Z|notification=New Heroes: The Chosen Ones (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Astram: Midia's Hero;pos=b2;rarity=3;slot=1;level=28;stats=[33;24;25;24;13];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Wind Boost 1;b=Wrath 1;c=-;seal=-;ai={group=1};};
+{unit=Phina: Roving Dancer;pos=c3;rarity=3;slot=2;level=28;stats=[29;23;25;18;15];weapon=Silver Sword;assist=Dance;special=-;a=Spd/Def Form 1;b=Geyser Dance 1;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=a1;rarity=3;slot=3;level=28;stats=[23;21;13;13;28];weapon=Assault;assist=Recover;special=-;a=-;b=Live to Serve 1;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=c1;rarity=3;slot=4;level=28;stats=[32;21;19;19;10];weapon=Steel Bow;assist=-;special=New Moon;a=Fury 1;b=Poison Strike 1;c=-;seal=-;ai={group=1};};
+{unit=Green Thief;pos=d1;rarity=3;slot=5;level=28;stats=[28;18;26;8;21];weapon=Steel Dagger;assist=Harsh Command;special=-;a=Armored Blow 1;b=Def/Res Ruse 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Astram: Midia's Hero;pos=b2;rarity=4;slot=1;level=37;stats=[40;31;33;31;18];weapon=Mercurius;assist=-;special=Glowing Ember;a=Wind Boost 2;b=Wrath 2;c=-;seal=-;ai={group=1};};
+{unit=Phina: Roving Dancer;pos=c3;rarity=4;slot=2;level=37;stats=[35;31;33;23;20];weapon=Rapier;assist=Dance;special=-;a=Spd/Def Form 2;b=Geyser Dance 1;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=a1;rarity=4;slot=3;level=37;stats=[27;28;18;17;37];weapon=Absorb;assist=Recover;special=-;a=-;b=Live to Serve 2;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=c1;rarity=4;slot=4;level=37;stats=[38;28;26;25;13];weapon=Slaying Bow;assist=-;special=New Moon;a=Fury 2;b=Poison Strike 2;c=-;seal=-;ai={group=1};};
+{unit=Green Thief;pos=d1;rarity=4;slot=5;level=37;stats=[33;24;34;11;28];weapon=Smoke Dagger;assist=Harsh Command;special=-;a=Armored Blow 2;b=Def/Res Ruse 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Astram: Midia's Hero;pos=b2;rarity=5;slot=1;level=42;displaylevel=40;stats=[45;36;37;38;22];weapon=Mercurius;assist=-;special=Bonfire;a=Wind Boost 3;b=Wrath 3;c=-;seal=-;ai={group=1};};
+{unit=Phina: Roving Dancer;pos=c3;rarity=5;slot=2;level=42;displaylevel=40;stats=[41;37;39;27;24];weapon=Rapier;assist=Dance;special=-;a=Spd/Def Form 3;b=Geyser Dance 2;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=a1;rarity=5;slot=3;level=42;displaylevel=40;stats=[30;33;22;20;43];weapon=Absorb+;assist=Recover+;special=-;a=-;b=Live to Serve 3;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Blue Bow;pos=c1;rarity=5;slot=4;level=42;displaylevel=40;stats=[44;33;30;30;16];weapon=Slaying Bow+;assist=-;special=Moonbow;a=Fury 3;b=Poison Strike 3;c=-;seal=-;ai={group=1};};
+{unit=Green Thief;pos=d1;rarity=5;slot=5;level=42;displaylevel=40;stats=[37;29;40;14;33];weapon=Smoke Dagger+;assist=Harsh Command+;special=-;a=Armored Blow 3;b=Def/Res Ruse 3;c=-;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Masked Wanderer|An Addled Dragon}}
+==In other languages==
+{{OtherLanguages
+|japanese=踊り子の審美
+|german=Offene Worte
+|spanishEU=Diversidad de opiniones
+|spanishLA=Diversidad de opiniones
+|french=Avis divergents
+|italian=Opinioni divergenti
+|chineseTW=舞者的審美觀
+|portuguese=Opiniões diversas
+}}
+{{Story Maps Navbox|book=3}}

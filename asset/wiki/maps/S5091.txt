@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0509.webp
+|stageTitle=Chapter 9: Part 1
+|stageName=Rightful Place
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 9: Echoes of Truth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5091
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-07-19T07:00:00Z|notification=New Heroes Summoning Event: Dawning Reality & Nifl (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Benny: Sensitive Soul;pos=c7;rarity=3;slot=1;level=22;stats=[32;20;13;27;19];weapon=Steel Lance;assist=-;special=Buckler;a=Bracing Stance 1;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d7;rarity=3;slot=2;level=22;stats=[38;22;8;24;10];weapon=Steel Axe;assist=-;special=New Moon;a=-;b=Bold Fighter 1;c=Armor March 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b6;rarity=3;slot=3;level=22;stats=[26;15;20;11;21];weapon=Steel Sword;assist=Rally Resistance;special=-;a=-;b=Dive-Bomb 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f6;rarity=3;slot=4;level=22;stats=[24;15;15;13;20];weapon=Assault;assist=Reconcile;special=Imbue;a=Atk/Res Push 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Benny: Sensitive Soul;pos=c7;rarity=4;slot=1;level=34;stats=[41;30;18;38;28];weapon=Steadfast Lance;assist=-;special=Buckler;a=Bracing Stance 1;b=Wary Fighter 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d7;rarity=4;slot=2;level=34;stats=[48;32;12;34;15];weapon=Brave Axe;assist=-;special=New Moon;a=-;b=Bold Fighter 1;c=Armor March 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b6;rarity=4;slot=3;level=34;stats=[32;22;30;16;31];weapon=Armorsmasher;assist=Rally Up Res;special=-;a=-;b=Dive-Bomb 2;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f6;rarity=4;slot=4;level=34;stats=[29;23;22;18;30];weapon=Panic;assist=Rehabilitate;special=Imbue;a=Atk/Res Push 2;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Benny: Sensitive Soul;pos=c7;rarity=5;slot=1;level=40;stats=[48;35;23;44;34];weapon=Steadfast Lance+;assist=-;special=Pavise;a=Bracing Stance 2;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=d7;rarity=5;slot=2;level=40;stats=[55;38;16;40;19];weapon=Brave Axe+;assist=-;special=Moonbow;a=-;b=Bold Fighter 3;c=Armor March 3;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b6;rarity=5;slot=3;level=40;stats=[37;28;35;21;36];weapon=Armorsmasher+;assist=Rally Up Res+;special=-;a=-;b=Dive-Bomb 3;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f6;rarity=5;slot=4;level=40;stats=[34;28;28;23;35];weapon=Panic+;assist=Rehabilitate+;special=Heavenly Light;a=Atk/Res Push 3;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ice & Flame 1|Merry Diviner}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=あなたの居る場所
+|german=Rechtmäßiger Platz
+|spanishEU=Un lugar legítimo
+|spanishLA=Un lugar legítimo
+|french=Au bon endroit
+|italian=Il posto che ti spetta
+|chineseTW=你所在的地方
+|portuguese=No seu devido lugar
+}}
+{{Story Maps Navbox|book=5}}

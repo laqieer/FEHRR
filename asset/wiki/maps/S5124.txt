@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=C0512.webp
+|stageTitle=Chapter 12-4
+|stageName=Coyote's Justice
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 12: What Remains
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5124
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE11_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-10-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Fjorm (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Vyland: Coyote's Justice;pos=a7;rarity=3;slot=1;level=31;stats=[37;31;22;26;13];weapon=Unbound Axe;assist=Smite;special=-;a=Atk/Def Push 1;b=Atk/Def Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Roshea: Coyote's Faithful;pos=b8;rarity=3;slot=2;level=31;stats=[32;28;26;28;15];weapon=Stout Lance;assist=Draw Back;special=-;a=Spd/Def Form 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Wolf: Coyote's Loyal;pos=f8;rarity=3;slot=3;level=31;stats=[32;29;30;20;14];weapon=Silver Bow;assist=Reposition;special=-;a=Life and Death 1;b=Def/Res Snag 1;c=Panic Smoke 1;seal=-;ai={turn=1};};
+{unit=Sedgar: Coyote's Dutiful;pos=f7;rarity=3;slot=4;level=31;stats=[32;26;29;20;17];weapon=Instant Bow;assist=-;special=Rising Wind;a=Atk/Def Catch 1;b=Chill Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=d8;rarity=3;slot=5;level=31;stats=[27;26;18;12;25];weapon=Rauðrrabbit;assist=-;special=Chilling Wind;a=Fury 1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Vyland: Coyote's Justice;pos=a7;rarity=4;slot=1;level=38;stats=[43;38;27;32;16];weapon=Unbound Axe;assist=Smite;special=-;a=Atk/Def Push 2;b=Atk/Def Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Roshea: Coyote's Faithful;pos=b8;rarity=4;slot=2;level=38;stats=[37;35;31;35;18];weapon=Stout Lance;assist=Draw Back;special=-;a=Spd/Def Form 2;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Wolf: Coyote's Loyal;pos=f8;rarity=4;slot=3;level=38;stats=[36;36;38;24;17];weapon=Keen Coyote Bow;assist=Reposition;special=-;a=Life and Death 2;b=Def/Res Snag 2;c=Panic Smoke 2;seal=-;ai={turn=1};};
+{unit=Sedgar: Coyote's Dutiful;pos=f7;rarity=4;slot=4;level=38;stats=[37;33;36;24;21];weapon=Instant Bow;assist=-;special=Rising Wind;a=Atk/Def Catch 2;b=Chill Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=d8;rarity=4;slot=5;level=38;stats=[30;32;22;14;31];weapon=Rauðrrabbit;assist=-;special=Chilling Wind;a=Fury 2;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Vyland: Coyote's Justice;pos=a7;rarity=5;slot=1;level=43;stats=[50;44;31;39;20];weapon=Unbound Axe+;assist=Smite;special=-;a=Atk/Def Push 3;b=Atk/Def Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Roshea: Coyote's Faithful;pos=b8;rarity=5;slot=2;level=43;stats=[43;41;37;41;22];weapon=Stout Lance+;assist=Draw Back;special=-;a=Spd/Def Form 3;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Wolf: Coyote's Loyal;pos=f8;rarity=5;slot=3;level=43;stats=[41;42;44;29;21];weapon=Keen Coyote Bow;assist=Reposition;special=-;a=Life and Death 4;b=Def/Res Snag 3;c=Panic Smoke 3;seal=-;ai={turn=1};};
+{unit=Sedgar: Coyote's Dutiful;pos=f7;rarity=5;slot=4;level=43;stats=[43;39;42;29;26];weapon=Instant Bow+;assist=-;special=Blazing Wind;a=Atk/Def Catch 3;b=Chill Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Cavalier;pos=d8;rarity=5;slot=5;level=43;stats=[34;37;27;18;36];weapon=Rauðrrabbit+;assist=-;special=Iceberg;a=Fury 3;b=-;c=Goad Cavalry;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Vyland: Coyote's Justice;text=I am Vyland of Aurelis, one of the\nCoyote's Men.;textJP=ビラクだ。\nオレルアンの【狼騎士団】に属している。};
+]}}
+{{Story Navbar|Parting Ways|Book V, Chapter 12-5: Family}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=律義の狼
+|german=Kojotes Gerechter
+|spanishEU=Justicia de Coyote
+|spanishLA=Justicia de Coyote
+|french=Coyote juste
+|italian=L'equo del Coyote
+|chineseTW=律儀之狼
+|portuguese=Justiça de Coyote
+}}
+{{Story Maps Navbox|book=5}}

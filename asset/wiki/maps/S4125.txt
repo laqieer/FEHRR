@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0412 C.webp
+|stageTitle=Chapter 12-5
+|stageName=Who Are You?
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 12: Triandra's Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4125
+|backdrop=
+|allyPos=c8,d8,c7,d7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-10-19T07:00:00Z|notification=New Heroes: Goddess's Servants (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=???: Near and Dear;pos=d2;rarity=3;slot=1;level=32;stats=[36;30;16;30;22];weapon=Fólkvangr;assist=-;special=Daylight;a=Death Blow 1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Catherine: Thunder Knight;pos=f4;rarity=3;slot=2;level=32;stats=[35;29;31;22;17];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Shamir: Archer Apart;pos=a3;rarity=3;slot=3;level=32;stats=[33;30;30;18;17];weapon=Silver Bow;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Null Follow-Up 1;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Seteth: Seiros Adherent;pos=e3;rarity=3;slot=4;level=32;stats=[35;27;27;24;18];weapon=Silver Lance;assist=Swap;special=-;a=Brazen Atk/Spd 1;b=Atk/Spd Link 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Flayn: Playing Innocent;pos=c2;rarity=3;slot=5;level=32;stats=[32;30;19;15;26];weapon=Assault;assist=Rescue;special=Still-Water Balm;a=-;b=Dazzling Staff 1;c=Ground Orders 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=???: Near and Dear;pos=d2;rarity=4;slot=1;level=40;stats=[42;38;20;37;27];weapon=Fólkvangr;assist=-;special=Daylight;a=Death Blow 2;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Catherine: Thunder Knight;pos=f4;rarity=4;slot=2;level=40;stats=[40;37;39;27;21];weapon=Thunderbrand;assist=-;special=Dragon Gaze;a=Swift Sparrow 2;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Shamir: Archer Apart;pos=a3;rarity=4;slot=3;level=40;stats=[38;38;38;23;22];weapon=Survivalist Bow;assist=-;special=New Moon;a=Atk/Spd Solo 3;b=Null Follow-Up 2;c=Rouse Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Seteth: Seiros Adherent;pos=e3;rarity=4;slot=4;level=40;stats=[41;34;34;29;22];weapon=Spear of Assal;assist=Swap;special=-;a=Brazen Atk/Spd 2;b=Atk/Spd Link 2;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Flayn: Playing Innocent;pos=c2;rarity=4;slot=5;level=40;stats=[37;37;24;19;33];weapon=Caduceus Staff;assist=Rescue;special=Deluge Balm;a=-;b=Dazzling Staff 2;c=Ground Orders 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=???: Near and Dear;pos=d2;rarity=5;slot=1;level=45;stats=[48;44;24;43;33];weapon=Fólkvangr;assist=-;special=Sol;a=Death Blow 3;b=-;c=Spur Atk 3;seal=-;ai={turn=1};};
+{unit=Catherine: Thunder Knight;pos=f4;rarity=5;slot=2;level=45;stats=[46;43;45;33;25];weapon=Thunderbrand;assist=-;special=Draconic Aura;a=Swift Sparrow 3;b=Lull Spd/Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Shamir: Archer Apart;pos=a3;rarity=5;slot=3;level=45;stats=[44;44;44;28;27];weapon=Survivalist Bow;assist=-;special=Moonbow;a=Atk/Spd Solo 4;b=Null Follow-Up 3;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+{unit=Seteth: Seiros Adherent;pos=e3;rarity=5;slot=4;level=45;stats=[47;39;40;35;26];weapon=Spear of Assal;assist=Swap;special=-;a=Brazen Atk/Spd 3;b=Atk/Spd Link 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Flayn: Playing Innocent;pos=c2;rarity=5;slot=5;level=45;stats=[43;43;30;23;38];weapon=Caduceus Staff;assist=Rescue+;special=Deluge Balm+;a=-;b=Dazzling Staff 3;c=Ground Orders 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|All to Protect Her|In Her Service}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=あなたは誰
+|german=Wer bist du?
+|spanishEU=¿Quién eres?
+|spanishLA=¿Quién eres?
+|french=Qui êtes-vous ?
+|italian=Chi sei in realtà?
+|chineseTW=你是誰
+|portuguese=Quem é você?
+}}
+{{Story Maps Navbox|book=4}}

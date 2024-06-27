@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=C0308.webp
+|stageTitle=Chapter 8: Part 4
+|stageName=Tiny Harbringer
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 8: Truth of a Name
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3084
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2= | f2=
+| a1= | b1= | c1={{Ally|4}} | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=36
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_12.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-06-11T07:00:00Z|notification=New Heroes: From a Future Past (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nah: Little Miss;pos=c8;rarity=3;slot=1;level=23;stats=[30;19;14;20;18];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Bonus Doubler 1;b=Quick Riposte 1;c=Infantry Breath 1;seal=-;ai={turn=1};};
+{unit=Cynthia: Hero Chaser;pos=f6;rarity=3;slot=2;level=23;stats=[26;19;23;15;17];weapon=Steel Lance;assist=Shove;special=-;a=-;b=Spd/Def Link 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=c7;rarity=3;slot=3;level=23;stats=[30;19;18;17;16];weapon=Fire Breath+;assist=-;special=Retribution;a=Fury 1;b=-;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f7;rarity=3;slot=4;level=23;stats=[26;16;21;11;22];weapon=Steel Axe;assist=Pivot;special=-;a=Life and Death 1;b=-;c=Def Ploy 1;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a7;rarity=3;slot=5;level=23;stats=[26;18;19;11;16];weapon=Elwind;assist=Harsh Command;special=New Moon;a=Bracing Blow 1;b=-;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Nah: Little Miss;pos=c8;rarity=4;slot=1;level=36;stats=[39;30;22;32;27];weapon=Flametongue;assist=-;special=Glowing Ember;a=Bonus Doubler 2;b=Quick Riposte 2;c=Infantry Breath 2;seal=-;ai={turn=1};};
+{unit=Cynthia: Hero Chaser;pos=f6;rarity=4;slot=2;level=36;stats=[33;28;33;22;24];weapon=Firesweep Lance;assist=Shove;special=-;a=-;b=Spd/Def Link 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=c7;rarity=4;slot=3;level=36;stats=[39;28;26;24;23];weapon=Lightning Breath;assist=-;special=Retribution;a=Fury 2;b=-;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f7;rarity=4;slot=4;level=36;stats=[33;23;31;17;32];weapon=Slaying Axe;assist=Pivot;special=Dragon Gaze;a=Life and Death 2;b=-;c=Def Ploy 2;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a7;rarity=4;slot=5;level=36;stats=[33;27;28;16;23];weapon=Rexcalibur;assist=Harsh Command;special=New Moon;a=Bracing Blow 1;b=-;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Nah: Little Miss;pos=c8;rarity=5;slot=1;level=43;displaylevel=40;stats=[46;37;27;40;34];weapon=Oracle's Breath;assist=-;special=Bonfire;a=Bonus Doubler 3;b=Quick Riposte 3;c=Infantry Breath 3;seal=-;ai={turn=1};};
+{unit=Cynthia: Hero Chaser;pos=f6;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;34;39;28;30];weapon=Firesweep L+;assist=Shove;special=-;a=-;b=Spd/Def Link 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=c7;rarity=5;slot=3;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Lightning Breath+;assist=-;special=Reprisal;a=Fury 3;b=-;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Axe Flier;pos=f7;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;29;37;22;38];weapon=Slaying Axe+;assist=Pivot;special=Draconic Aura;a=Life and Death 3;b=-;c=Def Ploy 3;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a7;rarity=5;slot=5;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Rexcalibur+;assist=Harsh Command+;special=Moonbow;a=Bracing Blow 2;b=-;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Nah: Little Miss;text=I am called Nah...;textJP=私の名前ですか？\n…ンンです。ンン。\n…ちょっぴり呼びにくいですか？};
+  {text=Do you think my name is weird?\nIt's probably a little weird.};
+]}}
+{{Story Navbar|Their Fragrance Lingers...|Foreboding Words}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=神託の少女
+|german=Botin der Zukunft
+|spanishEU=Heraldo del futuro
+|spanishLA=El heraldo del futuro
+|french=L'enfant messager
+|italian=La messaggera minuta
+|chineseTW=神諭少女
+|portuguese=Pequeno presságio
+}}
+{{Story Maps Navbox|book=3}}

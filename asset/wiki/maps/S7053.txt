@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0705.webp
+|stageTitle=Chapter 8: Part 3
+|stageName=Silent Pride
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 8: Seeing the Present
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7053
+|backdrop=
+|allyPos=e3,f3,e2,f2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=13
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-03-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Tana (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gilliam: Wall of Silence;pos=b5;rarity=3;slot=1;level=13;stats=[27;21;7;21;13];weapon=Steel Lance;assist=-;special=-;a=Sturdy Stance 1;b=Vengeful Fighter 1;c=A/D Near Save 1;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=b6;rarity=3;slot=2;level=13;stats=[20;14;22;9;18];weapon=Steel Sword;assist=-;special=-;a=Spd/Res Catch 1;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=a5;rarity=3;slot=3;level=13;stats=[21;13;14;6;12];weapon=Steel Bow;assist=-;special=-;a=Atk/Spd Bond 1;b=-;c=Close Guard 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Mage;pos=c7;rarity=3;slot=4;level=13;stats=[22;12;13;8;11];weapon=Elwind;assist=-;special=-;a=Swift Sparrow 1;b=Lull Spd/Res 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Gilliam: Wall of Silence;pos=b5;rarity=4;slot=1;level=32;stats=[39;36;16;39;27];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Sturdy Stance 2;b=Vengeful Fighter 2;c=A/D Near Save 2;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=b6;rarity=4;slot=2;level=32;stats=[30;29;37;16;33];weapon=Silver Sword;assist=-;special=New Moon;a=Spd/Res Catch 2;b=Pegasus Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=a5;rarity=4;slot=3;level=32;stats=[30;25;27;12;22];weapon=Guard Bow;assist=-;special=Chilling Wind;a=Atk/Spd Bond 2;b=-;c=Close Guard 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Mage;pos=c7;rarity=4;slot=4;level=32;stats=[31;24;25;15;21];weapon=Gronnfox;assist=-;special=Night Sky;a=Swift Sparrow 1;b=Lull Spd/Res 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Gilliam: Wall of Silence;pos=b5;rarity=5;slot=1;level=42;stats=[48;46;22;50;37];weapon=Frelian Lance;assist=-;special=Bonfire;a=Sturdy Stance 3;b=Vengeful Fighter 4;c=A/D Near Save 3;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=b6;rarity=5;slot=2;level=42;stats=[38;40;47;21;43];weapon=Frelian Blade;assist=-;special=Moonbow;a=Spd/Res Catch 4;b=Pegasus Flight 4;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=a5;rarity=5;slot=3;level=42;stats=[37;33;35;17;30];weapon=Guard Bow+;assist=-;special=Iceberg;a=Atk/Spd Bond 3;b=-;c=Close Guard 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Mage;pos=c7;rarity=5;slot=4;level=42;stats=[38;32;33;20;29];weapon=Gronnfox+;assist=-;special=Glimmer;a=Swift Sparrow 2;b=Lull Spd/Res 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Looking Back|Goddess's Guidance}}
+==In other languages==
+{{OtherLanguages
+|japanese=重壁の自負
+|german=Stiller Stolz
+|spanishEU=Orgullo lacónico
+|spanishLA=Orgullo lacónico
+|french=Fierté taciturne
+|italian=L'orgoglio silente
+|chineseTW=重壁的自負
+|portuguese=Orgulho silencioso
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=Map C0309.webp
+|stageTitle=Chapter 9: Part 2
+|stageName=The Protector
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 9: Cohort of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3092
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=35
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_01.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-07-22T07:00:00Z|notification=New Heroes: Three Houses (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Dimitri: The Protector;pos=c7;rarity=3;slot=1;level=23;stats=[28;22;16;21;9];weapon=Silver Lance;assist=-;special=Retribution;a=Death Blow 1;b=Lull Atk/Def 1;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=b5;rarity=3;slot=2;level=23;stats=[31;18;18;18;12];weapon=Steel Sword;assist=Reposition;special=-;a=Atk/Def Bond 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Green Cavalier;pos=a8;rarity=3;slot=3;level=23;stats=[23;21;14;9;20];weapon=Elwind;assist=Reciprocal Aid;special=-;a=-;b=Renewal 1;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=f6;rarity=3;slot=4;level=23;stats=[26;16;21;11;22];weapon=Steel Lance;assist=-;special=-;a=Sturdy Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f7;rarity=3;slot=5;level=23;stats=[31;18;18;18;12];weapon=Steel Axe;assist=Pivot;special=-;a=-;b=Atk/Spd Link 1;c=Panic Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Dimitri: The Protector;pos=c7;rarity=4;slot=1;level=35;stats=[35;31;23;29;14];weapon=Noble Lance;assist=-;special=Retribution;a=Death Blow 2;b=Lull Atk/Def 2;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=b5;rarity=4;slot=2;level=35;stats=[38;26;25;26;18];weapon=Barrier Blade;assist=Reposition;special=-;a=Atk/Def Bond 2;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Green Cavalier;pos=a8;rarity=4;slot=3;level=35;stats=[29;30;21;13;29];weapon=Rexcalibur;assist=Reciprocal Aid;special=Rising Wind;a=-;b=Renewal 2;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=f6;rarity=4;slot=4;level=35;stats=[33;23;30;17;31];weapon=Slaying Lance;assist=-;special=Buckler;a=Sturdy Blow 1;b=Hit and Run;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f7;rarity=4;slot=5;level=35;stats=[38;26;25;26;18];weapon=Silver Axe;assist=Pivot;special=-;a=-;b=Atk/Spd Link 2;c=Panic Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Dimitri: The Protector;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[40;37;29;34;18];weapon=Noble Lance;assist=-;special=Vengeance;a=Death Blow 4;b=Lull Atk/Def 3;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=b5;rarity=5;slot=2;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Barrier Blade+;assist=Reposition;special=-;a=Atk/Def Bond 3;b=-;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Green Cavalier;pos=a8;rarity=5;slot=3;level=41;displaylevel=40;stats=[34;36;26;17;35];weapon=Rexcalibur+;assist=Reciprocal Aid;special=Blazing Wind;a=-;b=Renewal 3;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=f6;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Slaying Lance+;assist=-;special=Escutcheon;a=Sturdy Blow 2;b=Hit and Run;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f7;rarity=5;slot=5;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Silver Axe+;assist=Pivot;special=-;a=-;b=Atk/Spd Link 3;c=Panic Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Dimitri: The Protector;text=I am Dimitri Alexandre Blaiddyd,\ncrown prince of the Holy Kingdom\nof Faerghus.;textJP=ファーガスの王位継承者、ディミトリ＝\nアレクサンドル＝ブレーダッド。\n全力で行かせてもらうぞ！};
+  {text=Do not fool yourself into believing\nI will hold back!};
+]}}
+{{Story Navbar|A Pause in Hostilities|The Schemer}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=青獅子の守護者
+|german=Der Beschützer
+|spanishEU=Protector noble
+|spanishLA=Protector noble
+|french=Protecteur singulier
+|italian=Il paladino
+|chineseTW=青獅子的守護者
+|portuguese=O protetor
+}}
+{{Story Maps Navbox|book=3}}

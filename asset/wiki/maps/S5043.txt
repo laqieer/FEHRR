@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0504.webp
+|stageTitle=Chapter 4: Part 3
+|stageName=Crybaby Knight
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 4: The Vital Blade
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5043
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=10
+|lvlHard=30
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE04_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-02-16T07:00:00Z|notification=New Heroes Summoning Event: Enduring Legacy (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Erinys: Earnest Knight;pos=c7;rarity=3;slot=1;level=10;stats=[20;12;16;13;8];weapon=Steel Lance;assist=Harsh Command;special=-;a=B Duel Flying 1;b=Chill Atk/Spd 1;c=Atk/Def Rein 1;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=c6;rarity=3;slot=2;level=10;stats=[30;14;4;16;6];weapon=Steel Sword;assist=Pivot;special=-;a=-;b=Spd/Res Link 1;c=Atk Tactic 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=e6;rarity=3;slot=3;level=10;stats=[23;10;10;11;7];weapon=Steel Axe;assist=-;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=f7;rarity=3;slot=4;level=10;stats=[17;11;6;7;16];weapon=Assault;assist=Mend;special=-;a=-;b=Live to Serve 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Erinys: Earnest Knight;pos=c7;rarity=4;slot=1;level=30;stats=[31;27;32;25;17];weapon=Silver Lance;assist=Harsh Command;special=-;a=B Duel Flying 2;b=Chill Atk/Spd 1;c=Atk/Def Rein 2;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=c6;rarity=4;slot=2;level=30;stats=[45;30;11;32;13];weapon=Safeguard;assist=Pivot;special=-;a=-;b=Spd/Res Link 2;c=Atk Tactic 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=e6;rarity=4;slot=3;level=30;stats=[35;23;22;23;16];weapon=Silver Axe;assist=-;special=Retribution;a=Life and Death 2;b=Chill Def 1;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=f7;rarity=4;slot=4;level=30;stats=[24;24;15;14;32];weapon=Slow;assist=Recover;special=Imbue;a=-;b=Live to Serve 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Erinys: Earnest Knight;pos=c7;rarity=5;slot=1;level=42;stats=[40;39;43;33;24];weapon=Silesse Frost;assist=Harsh Command+;special=-;a=B Duel Flying 4;b=Chill Atk/Spd 2;c=Atk/Def Rein 3;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=c6;rarity=5;slot=2;level=42;stats=[57;40;16;42;19];weapon=Safeguard+;assist=Pivot;special=-;a=-;b=Spd/Res Link 3;c=Atk Tactic 3;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=e6;rarity=5;slot=3;level=42;stats=[45;32;32;31;23];weapon=Silver Axe+;assist=-;special=Vengeance;a=Life and Death 3;b=Chill Def 3;c=-;seal=-;ai={group=1};};
+{unit=Troubadour;pos=f7;rarity=5;slot=4;level=42;stats=[30;33;22;20;43];weapon=Slow+;assist=Recover+;special=Heavenly Light;a=-;b=Live to Serve 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Erinys: Earnest Knight;text=I was called crybaby and worse\nwhen I was younger, but I am no\nlonger that child.;textJP=昔は泣き虫フュリーなんて言われたけど、\nもう昔の私じゃありません。};
+]}}
+{{Story Navbar|Pride of Silesse|Velthomer Brothers}}
+==In other languages==
+{{OtherLanguages
+|japanese=泣き虫天馬騎士
+|german=Ritterin Heulsuse
+|spanishEU=Caballero llorona
+|spanishLA=Caballero llorona
+|french=Chevalier pleurnichard
+|italian=La cavaliera piagnucolona
+|chineseTW=愛哭鬼天馬騎士
+|portuguese=Cavaleira chorona
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,83 @@
+{{About|the story map|the 12th chapter of Book III|Story Maps#Chapter 12: Lethal Swordsman}}{{Battle Infobox
+|bannerImage=C0301.png
+|stageTitle=Chapter 1: Part 3
+|stageName=Lethal Swordsman
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 1: Death
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3013
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|lvlHard=22
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-12-11T03:00:00Z|notification=What's in Store for the 3.0.0 Update (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=3;slot=1;level=3;stats=[18;11;8;8;6];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;rarity=3;slot=2;level=3;stats=[20;7;7;8;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=3;slot=3;level=3;stats=[16;6;6;5;9];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=b5;rarity=3;slot=4;level=3;stats=[25;10;2;12;3];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=4;slot=1;level=22;stats=[29;24;19;20;16];weapon=Steel Sword;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;rarity=4;slot=2;level=22;stats=[31;19;18;19;12];weapon=Steel Lance;assist=-;special=-;a=Brazen Atk/Spd 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=4;slot=3;level=22;stats=[24;17;16;13;22];weapon=Assault;assist=Mend;special=-;a=-;b=Live to Serve 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=b5;rarity=4;slot=4;level=22;stats=[39;24;8;26;10];weapon=Steel Axe;assist=-;special=-;a=Fury 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[43;38;31;35;29];weapon=Sökkvabekkr;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;rarity=5;slot=2;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Silver Lance+;assist=-;special=-;a=Brazen Atk/Spd 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=5;slot=3;level=42;displaylevel=40;stats=[35;29;29;24;36];weapon=Pain+;assist=Physic+;special=-;a=-;b=Live to Serve 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=b5;rarity=5;slot=4;level=42;displaylevel=40;stats=[57;40;16;42;19];weapon=Silver Axe+;assist=-;special=Bonfire;a=Fury 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Dead Arrive|Omnicidal Witch}}
+==In other languages==
+{{OtherLanguages
+|english=Lethal Swordsman
+|japanese=撃殺の剣士
+|german=Tödliche Klinge
+|spanishEU=Espadachín letal
+|spanishLA=Espadachín letal
+|french=Épéiste létal
+|italian=La lama funesta
+|chineseTW=殺戮的劍士
+|portuguese=Espadachim letal
+}}
+{{Story Maps Navbox|book=3}}

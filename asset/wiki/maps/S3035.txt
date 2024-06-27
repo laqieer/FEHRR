@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0303_C.png
+|stageTitle=Chapter 3: Part 5
+|stageName=Close to Death
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 3: Countdown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3035
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|1}} | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|2}} | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=30
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-01-11T07:00:00Z|notification=New Heroes: Rulers of the Laguz (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Hel: Death Sovereign;pos=f6;rarity=3;slot=1;level=9;stats=[21;12;13;11;5];weapon=Iron Axe;assist=-;special=Night Sky;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Leanne: Forest's Song;pos=e8;rarity=3;slot=2;level=9;stats=[17;8;13;4;11];weapon=Hatchling (Flier);assist=Sing;special=-;a=-;b=-;c=Hone Spd 1;seal=-;ai={turn=1};};
+{unit=Tibarn: Lord of the Air;pos=d7;rarity=3;slot=3;level=9;stats=[22;14;10;11;4];weapon=Hatchling (Flier);assist=-;special=-;a=Sturdy Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Nailah: Unflinching Eye;pos=d6;rarity=3;slot=4;level=9;stats=[21;10;14;11;6];weapon=Whelp (Infantry);assist=-;special=-;a=-;b=Null C-Disrupt 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Hel: Death Sovereign;pos=f6;rarity=4;slot=1;level=30;stats=[33;27;30;25;12];weapon=Silver Axe;assist=-;special=Glimmer;a=-;b=Dull Close 1;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Leanne: Forest's Song;pos=e8;rarity=4;slot=2;level=30;stats=[28;19;29;11;26];weapon=Fledgling (Flier);assist=Sing;special=-;a=Mirror Stance 1;b=Flier Formation 1;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Tibarn: Lord of the Air;pos=d7;rarity=4;slot=3;level=30;stats=[33;30;22;26;12];weapon=Fledgling (Flier);assist=-;special=Dragon Gaze;a=Sturdy Blow 1;b=Chill Atk 1;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Nailah: Unflinching Eye;pos=d6;rarity=4;slot=4;level=30;stats=[32;22;29;24;16];weapon=Yearling (Infantry);assist=-;special=New Moon;a=-;b=Null C-Disrupt 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Hel: Death Sovereign;pos=f6;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;38;43;37;18];weapon=Hel Scythe;assist=-;special=Glimmer;a=-;b=Dull Close 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Leanne: Forest's Song;pos=e8;rarity=5;slot=2;level=45;displaylevel=40;stats=[39;30;41;17;37];weapon=Heron Wing;assist=Sing;special=-;a=Mirror Stance 2;b=Flier Formation 3;c=Hone Beasts;seal=-;ai={turn=1};};
+{unit=Tibarn: Lord of the Air;pos=d7;rarity=5;slot=3;level=45;displaylevel=40;stats=[44;42;34;37;20];weapon=Hawk King Claw;assist=-;special=Draconic Aura;a=Sturdy Impact;b=Chill Atk 3;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Nailah: Unflinching Eye;pos=d6;rarity=5;slot=4;level=45;displaylevel=40;stats=[43;34;40;35;26];weapon=Wolf Queen Fang;assist=-;special=Moonbow;a=Distant Counter;b=Null C-Disrupt 3;c=Glare;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Hawk and Heron|Hearts as One}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=死が、そこにいる
+|german=Lauernder Tod
+|spanishEU=A las puertas de la muerte
+|spanishLA=A las puertas de la muerte
+|french=Proche de la mort
+|italian=A un passo dalla morte
+|chineseTW=死亡，就在該處
+|portuguese=À beira da morte
+}}
+{{Story Maps Navbox|book=3}}

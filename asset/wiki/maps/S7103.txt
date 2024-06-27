@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0710.webp
+|stageTitle=Chapter 10-3
+|stageName=Fated Vallite Royal
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 10: Light's Fading
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7103
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_menu_goldwitch.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-08-16T07:00:00Z|notification=New Heroes Summoning Event: Turn of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Corrin: Silent Bloodline;pos=e6;slot=1;rarity=3;level=26;stats=[29;26;30;23;26];weapon=Fire Breath+;assist=-;special=Chilling Wind;a=-;b=Counter Roar 1;c=A/S Far Save 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;slot=2;rarity=3;level=26;stats=[32;19;19;19;14];weapon=Steel Lance;assist=-;special=Retribution;a=Fury 1;b=Null Follow-Up 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Mage;pos=e7;slot=3;rarity=3;level=26;stats=[28;19;20;12;17];weapon=Elfire;assist=-;special=Miracle;a=Swift Sparrow 1;b=-;c=Pulse Smoke 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Green Manakete;pos=c6;slot=4;rarity=3;level=26;stats=[32;20;19;18;17];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Close Def 1;b=Dragon's Ire 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=a6;slot=5;rarity=3;level=26;stats=[26;17;17;15;23];weapon=Assault;assist=Reconcile;special=Still-Water Balm;a=-;b=-;c=Threat. Atk/Res 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Hard=[
+{unit=Corrin: Silent Bloodline;pos=e6;slot=1;rarity=4;level=37;stats=[37;36;41;32;35];weapon=Vallastone;assist=-;special=Chilling Wind;a=-;b=Counter Roar 2;c=A/S Far Save 2;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;slot=2;rarity=4;level=37;stats=[39;27;26;27;19];weapon=Slaying Lance;assist=-;special=Retribution;a=Fury 2;b=Null Follow-Up 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Mage;pos=e7;slot=3;rarity=4;level=37;stats=[34;27;28;17;24];weapon=Rauðrfox;assist=-;special=Miracle;a=Swift Sparrow 1;b=-;c=Pulse Smoke 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Green Manakete;pos=c6;slot=4;rarity=4;level=37;stats=[40;28;27;25;24];weapon=Water Breath;assist=-;special=Dragon Gaze;a=Close Def 2;b=Dragon's Ire 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=a6;slot=5;rarity=4;level=37;stats=[31;25;24;20;32];weapon=Fear;assist=Restore;special=Earthwater Balm;a=-;b=Dazzling Staff 1;c=Threat. Atk/Res 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Lunatic=[
+{unit=Corrin: Silent Bloodline;pos=e6;slot=1;rarity=5;level=42;stats=[44;42;48;39;42];weapon=Vallastone;assist=-;special=Armored Floe;a=Realms United;b=Counter Roar 4;c=A/S Far Save 3;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;slot=2;rarity=5;level=42;stats=[45;32;32;31;23];weapon=Slaying Lance+;assist=-;special=Vengeance;a=Fury 3;b=Null Follow-Up 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Mage;pos=e7;slot=3;rarity=5;level=42;stats=[38;32;33;20;29];weapon=Rauðrfox+;assist=-;special=Miracle;a=Swift Sparrow 2;b=-;c=Pulse Smoke 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Green Manakete;pos=c6;slot=4;rarity=5;level=42;stats=[45;33;31;30;29];weapon=Water Breath+;assist=-;special=Draconic Aura;a=Close Def 3;b=Dragon's Ire 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=a6;slot=5;rarity=5;level=42;stats=[35;29;29;24;36];weapon=Fear+;assist=Restore+;special=Earthwater Balm+;a=-;b=Dazzling Staff 3;c=Threat. Atk/Res 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Corrin: Silent Bloodline;text=My greatest strength is my faith—and\nthat my friends and allies are worthy\nof my faith.;textJP=私の一番の力は信じること…\n信じられる人たちがいることなんです。};
+]
+}}
+{{Story Navbar|Fated Tactician|Fated Golden Seer}}
+==In other languages==
+{{OtherLanguages
+|japanese=導かれし透魔の王族
+|german=Schicksalsadlige Vallas
+|spanishEU=Reina vallesa destinada
+|spanishLA=Reina vallesa destinada
+|french=Reine vallite prédestinée
+|italian=Reale vallita predestinato
+|chineseTW=受到引導的透魔王族
+|portuguese=Realeza predestinada
+}}
+{{Story Maps Navbox|book=7}}

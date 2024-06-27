@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0703 C.webp
+|stageTitle=Chapter 6: Part 5
+|stageName=Curse of the Gold Serpent
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 6: King of Light
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7035
+|backdrop=Wave
+|allyPos=f5,e4,f4,f3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=30
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE17_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-01-17T07:00:00Z|notification=New Heroes Summoning Event: Engage (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Céline: Joyous Royal;pos=b2;rarity=3;slot=1;level=9;stats=[18;15;16;5;14];weapon=Wind;assist=-;special=-;a=Spd/Res Ideal 1;b=-;c=Canto Control 1;seal=-;ai={turn=1};};
+{unit=Chloé: Fairy-Tale Flier;pos=a6;rarity=3;slot=2;level=9;stats=[17;10;19;9;16];weapon=Iron Lance;assist=-;special=-;a=-;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Alear: Dragon Child;pos=a5;rarity=3;slot=3;level=9;stats=[21;17;20;8;7];weapon=Iron Sword;assist=-;special=-;a=Atk/Spd Ideal 1;b=Close Call 1;c=Spd Smoke 1;seal=-;ai={turn=1};};
+{unit=Alfred: Floral Protector;pos=a3;rarity=3;slot=4;level=9;stats=[21;19;6;15;8];weapon=Iron Lance;assist=-;special=-;a=-;b=Flow N Trace 1;c=Spur Atk 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Céline: Joyous Royal;pos=b2;rarity=4;slot=1;level=30;stats=[29;32;34;12;29];weapon=Elwind;assist=-;special=Chilling Wind;a=Spd/Res Ideal 2;b=-;c=Canto Control 2;seal=-;ai={turn=1};};
+{unit=Chloé: Fairy-Tale Flier;pos=a6;rarity=4;slot=2;level=30;stats=[28;27;32;20;33];weapon=Steel Lance;assist=-;special=Night Sky;a=-;b=Pegasus Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Alear: Dragon Child;pos=a5;rarity=4;slot=3;level=30;stats=[32;34;37;23;18];weapon=Steel Sword;assist=-;special=New Moon;a=Atk/Spd Ideal 2;b=Close Call 2;c=Spd Smoke 2;seal=-;ai={turn=1};};
+{unit=Alfred: Floral Protector;pos=a3;rarity=4;slot=4;level=30;stats=[32;36;17;33;19];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Flow N Trace 2;c=Spur Atk 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Céline: Joyous Royal;pos=b2;rarity=5;slot=1;level=45;stats=[40;45;48;18;42];weapon=Joyous Tome;assist=-;special=Iceberg;a=Spd/Res Ideal 4;b=-;c=Canto Control 3;seal=-;ai={turn=1};};
+{unit=Chloé: Fairy-Tale Flier;pos=a6;rarity=5;slot=2;level=45;stats=[39;42;43;31;46];weapon=Dreaming Spear;assist=-;special=Glimmer;a=Distant Stance;b=Pegasus Flight 4;c=-;seal=-;ai={turn=1};};
+{unit=Alear: Dragon Child;pos=a5;rarity=5;slot=3;level=45;stats=[43;47;50;36;29];weapon=Libération;assist=-;special=Luna;a=Atk/Spd Ideal 4;b=Close Call 4;c=Spd Smoke 4;seal=-;ai={turn=1};};
+{unit=Alfred: Floral Protector;pos=a3;rarity=5;slot=4;level=45;stats=[43;49;28;47;30];weapon=Arcane Qiang;assist=-;special=Bonfire;a=Self-Improver;b=Flow N Trace 3;c=Cross Spur Atk;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Prince in Training|Emblems, Heroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=黄金の蛇の呪い
+|german=Fluch der Goldschlange
+|spanishEU=La maldición de la sierpe
+|spanishLA=Maldición de la serpiente
+|french=Malédiction du serpent d'or
+|italian=Anatema della serpe d'oro
+|chineseTW=黃金蛇的詛咒
+|portuguese=Maldição da serpente
+}}
+{{Story Maps Navbox|book=7}}

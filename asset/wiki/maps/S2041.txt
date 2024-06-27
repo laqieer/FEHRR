@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Banner_Eirika (Sacred Memories) Unrevealed.png
+|mapName=Chapter 4-1: Protecting the People
+|stageTitle=Chapter 4: Part 1
+|stageName=Protecting the People
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 4: Fiery Resolve
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2041
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2={{Ally|1}} | b2= | c2={{Ally|3}} | d2= | e2= | f2=
+| a1= | b1={{Ally|2}} | c1= | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE08_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-25T07:00:00Z|notification=New Heroes: Sacred Memories (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Eirika: Anamnesis Lady;pos=c8;rarity=3;slot=1;level=8;stats=[19;7;10;4;4];weapon=Flux;assist=-;special=-;a=-;b=Desperation 1;c=R Tome Exp. 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b8;rarity=3;slot=2;level=8;stats=[20;9;7;5;7];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=e6;rarity=3;slot=3;level=8;stats=[21;7;9;8;3];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f5;rarity=3;slot=4;level=8;stats=[20;10;7;9;2];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Eirika: Anamnesis Lady;pos=c8;rarity=4;slot=1;level=28;stats=[28;22;26;13;15];weapon=Fenrir;assist=Rally Speed;special=-;a=Swift Sparrow 1;b=Desperation 2;c=R Tome Exp. 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b8;rarity=4;slot=2;level=28;stats=[32;25;16;17;22];weapon=Brave Sword;assist=-;special=-;a=Attack +1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=e6;rarity=4;slot=3;level=28;stats=[34;22;21;22;15];weapon=Ridersbane;assist=-;special=-;a=Fire Boost 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f5;rarity=4;slot=4;level=28;stats=[32;26;18;27;12];weapon=Silver Axe;assist=-;special=-;a=Spd/Def 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Eirika: Anamnesis Lady;pos=c8;rarity=5;slot=1;level=40;stats=[36;31;35;20;22];weapon=Gleipnir;assist=Rally Atk/Spd;special=-;a=Swift Sparrow 2;b=Desperation 3;c=R Tome Exp. 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b8;rarity=5;slot=2;level=40;stats=[41;34;24;25;30];weapon=Brave Sword+;assist=-;special=-;a=Attack +3;b=-;c=Goad Cavalry;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=e6;rarity=5;slot=3;level=40;stats=[44;31;31;30;22];weapon=Ridersbane+;assist=-;special=-;a=Fire Boost 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f5;rarity=5;slot=4;level=40;stats=[41;35;27;36;19];weapon=Silver Axe+;assist=-;special=-;a=Spd/Def 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Stepping into the New Year|Crimson Flash}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=守るべき人々のために
+|german=Gebührender Schutz
+|spanishEU=El deber de proteger
+|spanishLA=El deber de proteger
+|french=Protéger le peuple
+|italian=In difesa del popolo
+|chineseTW=為了要守護的人們
+|portuguese=Protegendo o povo
+}}
+{{Story Maps Navbox|book=2}}

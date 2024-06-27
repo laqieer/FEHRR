@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0510.webp
+|stageTitle=Chapter 10: Part 4
+|stageName=Nothing to Report
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 10: Howling Descent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5104
+|backdrop=
+|allyPos=f3,f2,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_04.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-08-17T07:00:00Z|notification=New Heroes Summoning Event: Keepers of Faith (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Marianne: Serene Adherent;pos=d7;rarity=3;slot=1;level=27;stats=[28;27;28;10;23];weapon=Elstone;assist=-;special=Chilling Wind;a=Atk/Spd Bond 1;b=Null Follow-Up 1;c=Time's Pulse 1;seal=-;ai={group=1};};
+{unit=Gatekeeper: Nothing to Report;pos=c6;rarity=3;slot=2;level=27;stats=[31;24;10;27;23];weapon=Elwind;assist=Harsh Command;special=-;a=-;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=a4;rarity=3;slot=3;level=27;stats=[31;22;15;16;20];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=Swordbreaker 1;c=Close Guard 1;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=e6;rarity=3;slot=4;level=27;stats=[28;18;23;13;24];weapon=Steel Sword;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Pegasus Flight 1;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=c5;rarity=3;slot=5;level=27;stats=[26;18;18;15;23];weapon=Assault;assist=Mend;special=Solid-Earth Balm;a=Def/Res Form 1;b=Dazzling Staff 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Marianne: Serene Adherent;pos=d7;rarity=4;slot=1;level=38;stats=[34;37;38;14;31];weapon=Phantasm Tome;assist=-;special=Chilling Wind;a=Atk/Spd Bond 2;b=Null Follow-Up 2;c=Time's Pulse 2;seal=-;ai={group=1};};
+{unit=Gatekeeper: Nothing to Report;pos=c6;rarity=4;slot=2;level=38;stats=[37;34;14;37;32];weapon=Charging Horn;assist=Harsh Command;special=-;a=-;b=-;c=Drive Def 2;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=a4;rarity=4;slot=3;level=38;stats=[37;31;21;22;27];weapon=Brave Lance;assist=-;special=New Moon;a=-;b=Swordbreaker 2;c=Close Guard 2;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=e6;rarity=4;slot=4;level=38;stats=[34;24;32;18;33];weapon=Zanbato;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Pegasus Flight 2;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=c5;rarity=4;slot=5;level=38;stats=[31;25;24;20;32];weapon=Trilemma;assist=Recover;special=Earthwater Balm;a=Def/Res Form 2;b=Dazzling Staff 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Marianne: Serene Adherent;pos=d7;rarity=5;slot=1;level=43;stats=[39;43;44;18;37];weapon=Phantasm Tome;assist=-;special=Requiem Dance;a=Atk/Spd Unity;b=Null Follow-Up 3;c=Time's Pulse 3;seal=-;ai={group=1};};
+{unit=Gatekeeper: Nothing to Report;pos=c6;rarity=5;slot=2;level=43;stats=[42;40;18;43;39];weapon=Charging Horn;assist=Harsh Command+;special=-;a=Close Reversal;b=Detailed Report;c=Joint Drive Def;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=a4;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Brave Lance+;assist=-;special=Moonbow;a=-;b=Swordbreaker 3;c=Close Guard 3;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=e6;rarity=5;slot=4;level=43;stats=[39;29;37;22;38];weapon=Zanbato+;assist=-;special=Glacies;a=Mirror Strike 2;b=Pegasus Flight 3;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=c5;rarity=5;slot=5;level=43;stats=[35;29;29;24;37];weapon=Trilemma+;assist=Recover+;special=Earthwater Balm+;a=Def/Res Form 3;b=Dazzling Staff 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Pledged Restorer|Prince of Light}}
+==In other languages==
+{{OtherLanguages
+|japanese=大修道院の
+|german=Achtsamer Schutz
+|spanishEU=Sin novedad
+|spanishLA=Sin novedad
+|french=Rien à signaler
+|italian=Niente da riferire
+|chineseTW=大修道院的
+|portuguese=Nada a reportar
+}}
+{{Story Maps Navbox|book=5}}

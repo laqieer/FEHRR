@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0212.png
+|stageTitle=Chapter 12-3
+|stageName=Prowling Beast
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 12: Seeping Poison
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2123
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_06.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-07T07:00:00Z|notification=New Heroes: Doorway to Destiny (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Helbindi: Savage Scourge;pos=d7;rarity=3;slot=1;level=30;stats=[35;25;15;26;22];weapon=Býleistr;assist=-;special=Retribution;a=Life and Death 1;b=Wrath 1;c=Infantry Pulse 1;seal=-;ai={turn=1};};
+{unit=Jamke: Prince of Verdane;pos=e7;rarity=3;slot=2;level=30;stats=[29;25;23;20;11];weapon=Slaying Bow;assist=-;special=Night Sky;a=Heavy Blade 1;b=Cancel Affinity 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=b6;rarity=3;slot=3;level=30;stats=[34;22;21;20;19];weapon=Fire Breath+;assist=Swap;special=New Moon;a=-;b=Quick Riposte 1;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=c8;rarity=3;slot=4;level=30;stats=[34;21;21;21;15];weapon=Steel Lance;assist=-;special=Night Sky;a=Darting Stance 1;b=Wrath 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a8;rarity=3;slot=5;level=30;stats=[26;25;18;11;24];weapon=Elthunder;assist=Draw Back;special=-;a=-;b=Guard 1;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Helbindi: Savage Scourge;pos=d7;rarity=4;slot=1;level=37;stats=[41;32;19;33;27];weapon=Býleistr;assist=-;special=Vengeance;a=Life and Death 2;b=Wrath 2;c=Infantry Pulse 2;seal=-;ai={turn=1};};
+{unit=Jamke: Prince of Verdane;pos=e7;rarity=4;slot=2;level=37;stats=[34;32;29;25;14];weapon=Slaying Bow;assist=-;special=Night Sky;a=Heavy Blade 2;b=Cancel Affinity 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=b6;rarity=4;slot=3;level=37;stats=[40;28;27;25;24];weapon=Lightning Breath;assist=Swap;special=New Moon;a=-;b=Quick Riposte 2;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=c8;rarity=4;slot=4;level=37;stats=[39;27;26;27;19];weapon=Harmonic Lance;assist=-;special=Night Sky;a=Darting Stance 2;b=Wrath 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a8;rarity=4;slot=5;level=37;stats=[30;32;22;14;31];weapon=Blárraven;assist=Draw Back;special=-;a=-;b=Guard 2;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Helbindi: Savage Scourge;pos=d7;rarity=5;slot=1;level=42;displaylevel=40;stats=[46;36;23;37;33];weapon=Býleistr;assist=-;special=Vengeance;a=Life and Death 3;b=Wrath 3;c=Infantry Pulse 3;seal=-;ai={turn=1};};
+{unit=Jamke: Prince of Verdane;pos=e7;rarity=5;slot=2;level=42;displaylevel=40;stats=[39;38;33;30;17];weapon=Slaying Bow+;assist=-;special=Astra;a=Heavy Blade 3;b=Cancel Affinity 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=b6;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Lightning Breath+;assist=Swap;special=Moonbow;a=-;b=Quick Riposte 3;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=c8;rarity=5;slot=4;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Harmonic Lance+;assist=-;special=Glimmer;a=Darting Stance 3;b=Wrath 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a8;rarity=5;slot=5;level=42;displaylevel=40;stats=[34;36;26;17;35];weapon=Blárraven+;assist=Draw Back;special=-;a=-;b=Guard 3;c=Drive Res 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Scion of a Crusader|Led by the Breeze}}
+
+==In other languages==
+{{OtherLanguages
+|english=Prowling Beast
+|japanese=這いずり彷徨う
+|german=Streunende Bestie
+|spanishEU=Una bestia al acecho
+|spanishLA=La bestia merodeadora
+|french=La bête égarée
+|italian=Una bestia alla deriva
+|chineseTW=於底層徬徨
+|portuguese=Fera à espreita
+}}
+{{Story Maps Navbox|book=2}}

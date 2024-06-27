@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Olivia2_Unrevealed.png
+|stageTitle=Chapter 11-1
+|stageName=The Enemy of My Enemy
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 11: Prince of Ice
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2111
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Ally|1}} | b4= | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|2}} | c3= | d3= | e3= | f3=
+| a2={{Ally|3}} | b2= | c2= | d2= | e2= | f2=
+| a1= | b1={{Ally|4}} | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|winReq=Turns to Win: 5 (Normal)<br>Turns to Win: 4 (Hard & Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-07-20T07:00:00Z|notification=New Heroes: Ylissean Travelers (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Axe Fighter;pos=d7;rarity=3;slot=1;level=26;stats=[32;19;19;19;14];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Brazen Atk/Def 1;b=-;c=Infantry Pulse 2;seal=-;ai={};};
+{unit=Lance Knight;pos=e4;rarity=3;slot=2;level=26;stats=[41;25;9;27;11];weapon=Steel Lance;assist=-;special=Buckler;a=-;b=Wary Fighter 1;c=Drive Spd 1;seal=-;ai={};};
+{unit=Sword Flier;pos=f6;rarity=3;slot=3;level=26;stats=[28;17;23;13;24];weapon=Steel Sword;assist=Reposition;special=-;a=-;b=Def/Res Link 1;c=Odd Atk Wave 1;seal=-;ai={};};
+{unit=Blue Mage;pos=d8;rarity=3;slot=4;level=26;stats=[28;19;20;12;17];weapon=Elthunder;assist=-;special=Miracle;a=Bracing Blow 1;b=Guard 1;c=-;seal=-;ai={};};
+{unit=Thief;pos=f5;rarity=3;slot=5;level=26;stats=[27;17;25;8;20];weapon=Steel Dagger;assist=-;special=New Moon;a=Death Blow 2;b=-;c=Savage Blow 1;seal=-;ai={};};
+]
+|Hard=[
+{unit=Axe Fighter;pos=d7;rarity=4;slot=1;level=35;stats=[38;26;25;26;18];weapon=Slaying Axe;assist=-;special=Glowing Ember;a=Brazen Atk/Def 2;b=-;c=Infantry Pulse 2;seal=-;ai={};};
+{unit=Lance Knight;pos=e4;rarity=4;slot=2;level=35;stats=[49;33;12;35;15];weapon=Silver Lance;assist=-;special=Buckler;a=-;b=Wary Fighter 2;c=Drive Spd 1;seal=-;ai={};};
+{unit=Sword Flier;pos=f6;rarity=4;slot=3;level=35;stats=[33;23;30;17;31];weapon=Brave Sword;assist=Reposition;special=-;a=-;b=Def/Res Link 2;c=Odd Atk Wave 2;seal=-;ai={};};
+{unit=Blue Mage;pos=d8;rarity=4;slot=4;level=35;stats=[33;26;27;16;23];weapon=Blárserpent;assist=-;special=Miracle;a=Bracing Blow 1;b=Guard 2;c=-;seal=-;ai={};};
+{unit=Thief;pos=f5;rarity=4;slot=5;level=35;stats=[32;23;33;10;27];weapon=Barb Shuriken;assist=-;special=New Moon;a=Death Blow 2;b=-;c=Savage Blow 2;seal=-;ai={};};
+]
+|Lunatic=[
+{unit=Axe Fighter;pos=d7;rarity=5;slot=1;level=40;stats=[44;31;31;30;22];weapon=Slaying Axe+;assist=-;special=Bonfire;a=Brazen Atk/Def 3;b=-;c=Infantry Pulse 3;seal=-;ai={};};
+{unit=Lance Knight;pos=e4;rarity=5;slot=2;level=40;stats=[55;38;16;40;19];weapon=Silver Lance+;assist=-;special=Escutcheon;a=-;b=Wary Fighter 3;c=Drive Spd 2;seal=-;ai={};};
+{unit=Sword Flier;pos=f6;rarity=5;slot=3;level=40;stats=[37;28;35;21;36];weapon=Brave Sword+;assist=Reposition;special=-;a=-;b=Def/Res Link 3;c=Odd Atk Wave 3;seal=-;ai={};};
+{unit=Blue Mage;pos=d8;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Blárserpent+;assist=-;special=Miracle;a=Bracing Blow 2;b=Guard 3;c=-;seal=-;ai={};};
+{unit=Thief;pos=f5;rarity=5;slot=5;level=40;stats=[36;28;38;13;32];weapon=Barb Shuriken+;assist=-;special=Moonbow;a=Death Blow 3;b=-;c=Savage Blow 3;seal=-;ai={};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Tempest Trials+: Sweet Dreams|Flower Fortunes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=敵の敵
+|german=Meines Feindes Feind
+|spanishEU=Enemigo de mi enemigo
+|spanishLA=Enemigo de mi enemigo
+|french=L'ennemi de mon ennemi
+|italian=Il nemico del mio nemico
+|chineseTW=敵人的敵人
+|portuguese=Inimigo de um inimigo meu
+}}
+{{Story Maps Navbox|book=2}}

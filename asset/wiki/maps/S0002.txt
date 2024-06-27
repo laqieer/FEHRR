@@ -1,0 +1,60 @@
+{{Battle Infobox
+|bannerImage=Banner_Anna.png
+|mapName=Preface 2: The Legend
+|stageTitle=Preface: Part 2
+|stageName=The Legend
+|stageEpithet=
+|bookGroup=Book I
+|mapGroup=Preface
+|mapImage={{#invoke:MapLayout|initTabber
+|backdrop=
+|baseMap=S0002
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Ally|1}} | b4= | c4= | d4= | e4= | f4=
+| a3={{Ally|2}} | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|rarityNormal=1
+|stamNormal=0
+|reward={Normal={kind=Orb;count=15};}
+|BGM=bgm_map_Brave_01.ogg
+}}
+
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-02-02T07:00:00Z}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Axe Fighter;pos=d4;rarity=1;slot=1;level=2;stats=[16;2;7;3;2];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+{unit=Bow Fighter;pos=f3;rarity=1;slot=2;level=1;stats=[15;3;7;1;1];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1;break_walls=1};};
+]
+}}
+
+==Story==
+{{/Story}}
+{{StoryNav|"I summon thee!"|Prince with Golden Wings}}
+
+==Trivia==
+* This map marks the end of the tutorial to ''Fire Emblem Heroes'', and cannot be played more than once.
+** [[Boiling Blood|Chapter 7, Part 2 of Book III]], however, has a very similar layout.
+* [[Takumi: Wild Card]] is the first Hero the player "summons", and he joins the barracks after this map is cleared. [[Virion: Elite Archer]] was formerly the first Hero "summoned", and he is instead already in the barracks with [[Matthew: Faithful Spy]] and [[Raigh: Dark Child]] after the map is cleared.
+
+==In other languages==
+{{OtherLanguages
+|japanese=伝承に曰く
+|german=Die Legende
+|spanishEU=La leyenda
+|spanishLA=La leyenda
+|french=La légende
+|italian=La leggenda
+|chineseTW=傳說有云
+|portuguese=A lenda
+}}
+{{Story Maps Navbox|book=1}}

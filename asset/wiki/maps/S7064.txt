@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0706.webp
+|stageTitle=Chapter 2: Part 4
+|stageName=Soon Parting
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 2: World of the Past
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7064
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=34
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_01.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-04-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Ingrid (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Rhea: Loving Matriarch;pos=d8;rarity=3;slot=1;level=17;stats=[25;22;6;18;26];weapon=Fire Breath+;assist=-;special=-;a=Atk/Res Scowl 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c8;rarity=3;slot=2;level=17;stats=[26;15;15;14;13];weapon=Fire Breath+;assist=-;special=-;a=-;b=Dragon's Ire 1;c=Spur Def 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=e7;rarity=3;slot=3;level=17;stats=[24;14;18;15;12];weapon=Fire Breath+;assist=-;special=-;a=Swift Sparrow 1;b=-;c=Spur Atk 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a6;rarity=3;slot=4;level=17;stats=[22;13;13;11;17];weapon=Assault;assist=Mend;special=-;a=Still Water 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Rhea: Loving Matriarch;pos=d8;rarity=4;slot=1;level=34;stats=[34;37;12;34;40];weapon=Flametongue;assist=-;special=Night Sky;a=Atk/Res Scowl 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c8;rarity=4;slot=2;level=34;stats=[38;27;25;23;22];weapon=Water Breath;assist=-;special=New Moon;a=-;b=Dragon's Ire 2;c=Spur Def 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=e7;rarity=4;slot=3;level=34;stats=[33;23;31;27;21];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=-;c=Spur Atk 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a6;rarity=4;slot=4;level=34;stats=[29;23;22;18;30];weapon=Gravity;assist=Physic;special=Earthwater Balm;a=Still Water 2;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Rhea: Loving Matriarch;pos=d8;rarity=5;slot=1;level=43;stats=[41;46;17;45;49];weapon=Revealing Breath;assist=-;special=Glimmer;a=Atk/Res Scowl 4;b=True Dragon Wall;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c8;rarity=5;slot=2;level=43;stats=[46;34;31;30;29];weapon=Water Breath+;assist=-;special=Moonbow;a=-;b=Dragon's Ire 3;c=Ward Dragons;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=e7;rarity=5;slot=3;level=43;stats=[40;30;38;34;28];weapon=Dark Breath+;assist=-;special=Dragon Fang;a=Swift Sparrow 2;b=-;c=Goad Dragons;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a6;rarity=5;slot=4;level=43;stats=[35;29;29;24;37];weapon=Gravity+;assist=Physic+;special=Earthwater Balm+;a=Still Water 3;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Two Divine Weapons|My Name}}
+==In other languages==
+{{OtherLanguages
+|japanese=別れの時は近づいて
+|german=Baldiger Abschied
+|spanishEU=Partida inminente
+|spanishLA=Partida inminente
+|french=Séparation imminente
+|italian=Addio imminente
+|chineseTW=分離時刻將近
+|portuguese=Partida iminente
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Hinoka Unrevealed.png
+|stageTitle=Chapter 8: Part 4
+|stageName=Vessel Filled with Power
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 8: Rite of Frost
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2084
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=36
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-04-24T07:00:00Z|notification=New Heroes: Wings of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Kana: Dragon Princess;pos=d7;rarity=3;slot=1;level=23;stats=[28;18;20;19;15];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Fierce Stance 1;b=-;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Kana: Dragon Spawn;pos=c7;rarity=3;slot=2;level=23;stats=[28;19;19;18;17];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Brazen Def/Res 1;b=-;c=Fortify Def 1;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f7;rarity=3;slot=3;level=23;stats=[30;19;17;17;8];weapon=Steel Bow;assist=-;special=-;a=Steady Stance 1;b=Seal Spd 1;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=3;slot=4;level=23;stats=[26;18;19;11;16];weapon=Elfire;assist=-;special=-;a=Warding Stance 1;b=-;c=Spur Res 1;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a8;rarity=3;slot=5;level=23;stats=[29;20;13;14;18];weapon=Steel Axe;assist=-;special=-;a=Fury 1;b=-;c=Def Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Kana: Dragon Princess;pos=d7;rarity=4;slot=1;level=36;stats=[35;26;30;28;22];weapon=Water Breath;assist=-;special=Dragon Gaze;a=Fierce Stance 2;b=-;c=Spur Atk 2;seal=-;ai={group=1};};
+{unit=Kana: Dragon Spawn;pos=c7;rarity=4;slot=2;level=36;stats=[35;27;29;26;24];weapon=Water Breath;assist=-;special=Dragon Gaze;a=Brazen Def/Res 2;b=-;c=Fortify Def 2;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f7;rarity=4;slot=3;level=36;stats=[38;28;25;24;13];weapon=Silver Bow;assist=-;special=New Moon;a=Steady Stance 2;b=Seal Atk/Spd 1;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=4;slot=4;level=36;stats=[33;27;28;16;23];weapon=Rauðrowl;assist=-;special=-;a=Warding Stance 2;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a8;rarity=4;slot=5;level=36;stats=[36;30;20;21;26];weapon=Silver Axe;assist=-;special=Retribution;a=Fury 2;b=-;c=Def Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Kana: Dragon Princess;pos=d7;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;31;36;35;28];weapon=Water Breath+;assist=-;special=Draconic Aura;a=Fierce Stance 3;b=-;c=Goad Dragons;seal=-;ai={group=1};};
+{unit=Kana: Dragon Spawn;pos=c7;rarity=5;slot=2;level=43;displaylevel=40;stats=[41;32;35;33;30];weapon=Water Breath+;assist=-;special=Dragon Fang;a=Brazen Def/Res 3;b=-;c=Fortify Dragons;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f7;rarity=5;slot=3;level=43;displaylevel=40;stats=[45;34;30;30;17];weapon=Silver Bow+;assist=-;special=Moonbow;a=Steady Stance 3;b=Seal Atk/Spd 2;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Rauðrowl+;assist=-;special=-;a=Warding Stance 3;b=-;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a8;rarity=5;slot=5;level=43;displaylevel=40;stats=[42;36;26;27;31];weapon=Silver Axe+;assist=-;special=Reprisal;a=Fury 3;b=-;c=Def Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Kana: Dragon Princess;text=My papa? Amazing in every way. And\nI'm gonna be just like him!;textJP=あたしのお父さんは\nかっこよくってすごいんだよ！\nあたしもお父さんみたいに！};
+  {unit=Kana: Dragon Spawn;text=My mama is really strong. I wanna be\njust like her. So I will be!;textJP=僕のお母さんは\nすっごく強くて、憧れなんだ。\n僕もお母さんみたいに！};
+]
+}}
+{{Story Navbar|Unquenchable, Undying|Rite of Frost}}
+==In other languages==
+{{OtherLanguages
+|japanese=その力を、器に
+|german=Machterfülltes Gefäß
+|spanishEU=Recipiente de poder
+|spanishLA=Recipiente de poder
+|french=Le pouvoir de la glace
+|italian=Il ricettacolo del potere
+|chineseTW=願得此力，宿於此器
+|portuguese=O recipiente do poder
+}}
+{{Story Maps Navbox|book=2}}

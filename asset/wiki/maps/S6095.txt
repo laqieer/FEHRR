@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0609 C.webp
+|stageTitle=Chapter 9: Part 5
+|stageName=Such a Weak Thing
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 9: Opening a Way
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6095
+|backdrop=
+|allyPos=d2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=39
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-07-19T07:00:00Z|notification=Special Summon: Ymir & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Veronica: Princess Beset (Dark);pos=d8;rarity=3;slot=1;level=26;stats=[29;23;14;18;13];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Fury 1;b=Lull Atk/Res 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Est: Sweet Baby Sis;pos=a6;rarity=3;slot=2;level=26;stats=[26;27;24;17;24];weapon=Steel Lance;assist=-;special=Chilling Wind;a=Atk/Res Push 1;b=Flow Feather 1;c=-;seal=-;ai={turn=1};};
+{unit=Celica: Valentia's Hope;pos=c8;rarity=3;slot=3;level=26;stats=[29;27;28;13;16];weapon=Elstone;assist=-;special=New Moon;a=Life and Death 1;b=-;c=Inf. Null Follow 1;seal=-;ai={turn=1};};
+{unit=Kamui: Wandering Blade;pos=d7;rarity=3;slot=4;level=26;stats=[32;25;27;24;14];weapon=Steel Sword;assist=-;special=New Moon;a=Spd/Def Ideal 1;b=-;c=Atk/Def Oath 1;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=b7;rarity=3;slot=5;level=26;stats=[34;27;24;20;15];weapon=Steel Axe;assist=-;special=Daylight;a=Earth Boost 1;b=-;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Veronica: Princess Beset (Dark);pos=d8;rarity=4;slot=1;level=39;stats=[38;33;19;27;19];weapon=Élivágar;assist=-;special=Dragon Gaze;a=Fury 3;b=Lull Atk/Res 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Est: Sweet Baby Sis;pos=a6;rarity=4;slot=2;level=39;stats=[33;39;35;22;35];weapon=Tri-Edge Lance;assist=-;special=Chilling Wind;a=Atk/Res Push 3;b=Flow Feather 2;c=-;seal=-;ai={turn=1};};
+{unit=Celica: Valentia's Hope;pos=c8;rarity=4;slot=3;level=39;stats=[37;40;40;18;23];weapon=Mila's Testament;assist=-;special=New Moon;a=Life and Death 3;b=-;c=Inf. Null Follow 2;seal=-;ai={turn=1};};
+{unit=Kamui: Wandering Blade;pos=d7;rarity=4;slot=4;level=39;stats=[41;36;39;33;19];weapon=Up-Front Blade;assist=-;special=New Moon;a=Spd/Def Ideal 2;b=-;c=Atk/Def Oath 2;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=b7;rarity=4;slot=5;level=39;stats=[43;40;35;31;24];weapon=Stout Axe;assist=-;special=Daylight;a=Earth Boost 2;b=-;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Veronica: Princess Beset (Dark);pos=d8;rarity=5;slot=1;level=45;stats=[54;43;26;36;25];weapon=Élivágar;assist=-;special=Draconic Aura;a=Fury 4;b=Lull Atk/Res 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Est: Sweet Baby Sis;pos=a6;rarity=5;slot=2;level=45;stats=[38;45;42;27;41];weapon=Tri-Edge Lance;assist=-;special=Iceberg;a=Atk/Res Push 4;b=Flow Feather 3;c=-;seal=-;ai={turn=1};};
+{unit=Celica: Valentia's Hope;pos=c8;rarity=5;slot=3;level=45;stats=[43;47;46;23;28];weapon=Mila's Testament;assist=-;special=Moonbow;a=Life and Death 4;b=Soul of Zofia;c=Inf. Null Follow 3;seal=-;ai={turn=1};};
+{unit=Kamui: Wandering Blade;pos=d7;rarity=5;slot=4;level=45;stats=[47;42;45;39;24];weapon=Up-Front Blade+;assist=-;special=Luna;a=Spd/Def Ideal 3;b=-;c=Atk/Def Oath 3;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=b7;rarity=5;slot=5;level=45;stats=[49;47;41;38;30];weapon=Stout Axe+;assist=-;special=Sol;a=Earth Boost 3;b=-;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Deepening Darkness|Heart and Soul}}
+==In other languages==
+{{OtherLanguages
+|japanese=その脆き身体に
+|german=So zerbrechlich
+|spanishEU=Cuánta fragilidad
+|spanishLA=Cuánta fragilidad
+|french=Une chose si fragile
+|italian=Troppo fragile
+|chineseTW=那脆弱的軀體
+|portuguese=Corpo frágil
+}}
+{{Story Maps Navbox|book=6}}

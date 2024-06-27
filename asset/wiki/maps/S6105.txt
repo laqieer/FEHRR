@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0610 C.webp
+|stageTitle=Chapter 10-5
+|stageName=Yggdrasill Key
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 10: God of Openness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6105
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-08-17T07:00:00Z|notification=New Heroes Summoning Event: Weave of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elm: Retainer to Embla;pos=c8;rarity=3;slot=1;level=28;stats=[31;25;29;17;20];weapon=Fledgling (Flier);assist=-;special=Dragon Gaze;a=Sturdy Blow 1;b=Dive-Bomb 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Byleth: Sublime Light;pos=a7;rarity=3;slot=2;level=28;stats=[29;28;29;16;16];weapon=Elstone;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 1;b=Spd Preempt 1;c=Spd/Res Rein 1;seal=-;ai={turn=1};};
+{unit=Seliph: Enduring Legacy;pos=a5;rarity=3;slot=3;level=28;stats=[30;29;28;24;12];weapon=Steel Sword;assist=-;special=New Moon;a=Atk/Spd Clash 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Chrom: Fated Honor;pos=e7;rarity=3;slot=4;level=28;stats=[31;29;29;23;11];weapon=Steel Lance;assist=Reposition;special=-;a=Swift Sparrow 1;b=S/D Near Trace 1;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Tiki: Fated Divinity;pos=f6;rarity=3;slot=5;level=28;stats=[30;29;17;26;28];weapon=Fire Breath+;assist=-;special=Night Sky;a=Atk/Res Finish 1;b=-;c=Threat. Def/Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Elm: Retainer to Embla;pos=c8;rarity=4;slot=1;level=40;stats=[38;35;40;24;28];weapon=Fang of Closure;assist=-;special=Draconic Aura;a=Sturdy Blow 2;b=Dive-Bomb 2;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Byleth: Sublime Light;pos=a7;rarity=4;slot=2;level=40;stats=[36;39;41;23;22];weapon=Inner Wellspring;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 3;b=Spd Preempt 2;c=Spd/Res Rein 3;seal=-;ai={turn=1};};
+{unit=Seliph: Enduring Legacy;pos=a5;rarity=4;slot=3;level=40;stats=[37;41;39;34;16];weapon=Holytide Tyrfing;assist=-;special=New Moon;a=Atk/Spd Clash 3;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Chrom: Fated Honor;pos=e7;rarity=4;slot=4;level=40;stats=[38;40;40;34;15];weapon=Geirdriful;assist=Reposition;special=-;a=Swift Sparrow 2;b=S/D Near Trace 2;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Tiki: Fated Divinity;pos=f6;rarity=4;slot=5;level=40;stats=[37;40;24;35;39];weapon=Remote Breath;assist=-;special=Night Sky;a=Atk/Res Finish 3;b=-;c=Threat. Def/Res 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elm: Retainer to Embla;pos=c8;rarity=5;slot=1;level=45;stats=[44;41;46;30;34];weapon=Fang of Closure;assist=-;special=Draconic Aura;a=Sturdy Surge;b=Dive-Bomb 3;c=Joint Drive Atk;seal=-;ai={turn=1};};
+{unit=Byleth: Sublime Light;pos=a7;rarity=5;slot=2;level=45;stats=[42;45;47;29;26];weapon=Inner Wellspring;assist=-;special=Divine Pulse;a=Atk/Spd Catch 4;b=Spd Preempt 3;c=Spd/Res Hold;seal=-;ai={turn=1};};
+{unit=Seliph: Enduring Legacy;pos=a5;rarity=5;slot=3;level=45;stats=[43;47;45;41;19];weapon=Holytide Tyrfing;assist=-;special=Luna;a=Atk/Spd Clash 4;b=Lull Spd/Def 3;c=Heir to Light;seal=-;ai={turn=1};};
+{unit=Chrom: Fated Honor;pos=e7;rarity=5;slot=4;level=45;stats=[44;46;46;41;18];weapon=Geirdriful;assist=A Fate Changed!;special=Aether;a=Surge Sparrow;b=S/D Near Trace 3;c=Inf. Spd Tactic;seal=-;ai={turn=1};};
+{unit=Tiki: Fated Divinity;pos=f6;rarity=5;slot=5;level=45;stats=[43;47;30;40;45];weapon=Remote Breath;assist=-;special=Glimmer;a=Atk/Res Finish 4;b=New Divinity;c=Def/Res Menace;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Fated Divinity|Weave of Fate}}
+==In other languages==
+{{OtherLanguages
+|japanese=ユグドラシルの鍵
+|german=Yggdrasils Schlüssel
+|spanishEU=Llave de Yggdrasill
+|spanishLA=Llave de Yggdrasill
+|french=Clé d'Yggdrasill
+|italian=La chiave di Yggdrasill
+|chineseTW=尤克特拉希爾之鑰
+|portuguese=Chave de Yggdrasill
+}}
+{{Story Maps Navbox|book=6}}

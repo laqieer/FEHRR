@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0609.webp
+|stageTitle=Chapter 9: Part 4
+|stageName=Deepening Darkness
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 9: Opening a Way
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6094
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=37
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE15_11.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-07-19T07:00:00Z|notification=Special Summon: Ymir & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elm: Retainer to Embla;pos=b7;rarity=3;slot=1;level=25;stats=[30;23;27;16;19];weapon=Adult (Flier);assist=-;special=Dragon Gaze;a=Sturdy Blow 1;b=A/D Near Trace 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Est: Sweet Baby Sis;pos=e7;rarity=3;slot=2;level=25;stats=[25;26;23;16;23];weapon=Steel Lance;assist=-;special=Chilling Wind;a=Atk/Res Push 1;b=Flow Feather 1;c=-;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=d6;rarity=3;slot=3;level=25;stats=[33;27;23;19;15];weapon=Steel Axe;assist=-;special=Daylight;a=Earth Boost 1;b=-;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Blue Bat;pos=b8;rarity=3;slot=4;level=25;stats=[28;22;30;21;14];weapon=Fledgling (Flier);assist=-;special=New Moon;a=-;b=Poison Strike 1;c=Hone Spd 1;seal=-;ai={turn=1};};
+{unit=Green Bat;pos=c7;rarity=3;slot=5;level=25;stats=[28;22;30;21;14];weapon=Fledgling (Flier);assist=-;special=Rising Wind;a=Spd/Def Solo 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Elm: Retainer to Embla;pos=b7;rarity=4;slot=1;level=37;stats=[37;33;38;23;26];weapon=Fang of Closure;assist=-;special=Dragon Gaze;a=Sturdy Blow 2;b=A/D Near Trace 2;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Est: Sweet Baby Sis;pos=e7;rarity=4;slot=2;level=37;stats=[32;37;33;22;33];weapon=Silver Lance;assist=-;special=Chilling Wind;a=Atk/Res Push 2;b=Flow Feather 2;c=-;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=d6;rarity=4;slot=3;level=37;stats=[42;38;33;29;22];weapon=Stout Axe;assist=-;special=Daylight;a=Earth Boost 2;b=-;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Blue Bat;pos=b8;rarity=4;slot=4;level=37;stats=[35;32;41;30;20];weapon=Adult (Flier);assist=-;special=New Moon;a=-;b=Poison Strike 2;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Green Bat;pos=c7;rarity=4;slot=5;level=37;stats=[35;32;41;30;20];weapon=Adult (Flier);assist=-;special=Rising Wind;a=Spd/Def Solo 2;b=Drag Back;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elm: Retainer to Embla;pos=b7;rarity=5;slot=1;level=43;stats=[42;40;45;28;33];weapon=Fang of Closure;assist=-;special=Draconic Aura;a=Sturdy Impact;b=A/D Near Trace 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Est: Sweet Baby Sis;pos=e7;rarity=5;slot=2;level=43;stats=[37;44;41;26;40];weapon=Tri-Edge Lance;assist=-;special=Iceberg;a=Atk/Res Push 4;b=Flow Feather 3;c=-;seal=-;ai={turn=1};};
+{unit=Atlas: Forest Muscle;pos=d6;rarity=5;slot=3;level=43;stats=[48;45;40;37;29];weapon=Stout Axe+;assist=-;special=Sol;a=Earth Boost 3;b=-;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Blue Bat;pos=b8;rarity=5;slot=4;level=43;stats=[40;37;48;38;24];weapon=Bat Fang;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=Hone Fliers;seal=-;ai={turn=1};};
+{unit=Green Bat;pos=c7;rarity=5;slot=5;level=43;stats=[40;37;48;38;24];weapon=Bat Fang;assist=-;special=Blazing Wind;a=Spd/Def Solo 3;b=Drag Back;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Friendly Face|Such a Weak Thing}}
+==In other languages==
+{{OtherLanguages
+|japanese=色濃さを増す闇
+|german=Finstere Dunkelheit
+|spanishEU=La oscuridad se intensifica
+|spanishLA=La oscuridad se intensifica
+|french=Obscurité grandissante
+|italian=Oscurità invadente
+|chineseTW=更深沉的黑暗
+|portuguese=Escuridão agravante
+}}
+{{Story Maps Navbox|book=6}}

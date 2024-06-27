@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0310.webp
+|stageTitle=Chapter 10-2
+|stageName=Maiden and Devotee
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 10: Omnicidal Witch
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=b2,c2,d2,e2
+|baseMap=S3102
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_02.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-08-07T07:00:00Z|notification=New Heroes: Changing Winds (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Hilda: Idle Maiden;pos=c7;rarity=3;slot=1;level=25;stats=[31;24;24;16;13];weapon=Silver Axe;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=Null Follow-Up 1;c=Def Opening 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b7;rarity=3;slot=2;level=25;stats=[27;19;20;12;17];weapon=Elfire;assist=Rally Attack;special=-;a=Defense +1;b=-;c=Even Def Wave 1;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a8;rarity=3;slot=3;level=25;stats=[30;21;14;15;19];weapon=Steel Lance;assist=-;special=Dragon Gaze;a=Fury 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=e8;rarity=3;slot=4;level=25;stats=[28;18;23;20;16];weapon=Fire Breath+;assist=-;special=Night Sky;a=-;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Mercedes: Kindly Devotee;pos=d8;rarity=3;slot=5;level=25;stats=[28;21;18;13;21];weapon=Gravity;assist=Reconcile;special=Miracle;a=AR-D Spd/Res 1;b=-;c=Odd Res Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Hilda: Idle Maiden;pos=c7;rarity=4;slot=1;level=36;stats=[38;33;33;23;19];weapon=Freikugel;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Null Follow-Up 2;c=Def Opening 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b7;rarity=4;slot=2;level=36;stats=[33;27;28;16;23];weapon=Bolganone;assist=Rally Up Atk;special=-;a=Defense +2;b=-;c=Even Def Wave 2;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a8;rarity=4;slot=3;level=36;stats=[36;30;20;21;26];weapon=Silver Lance;assist=-;special=Dragon Gaze;a=Fury 2;b=Lunge;c=-;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=e8;rarity=4;slot=4;level=36;stats=[34;24;32;28;22];weapon=Light Breath;assist=-;special=Night Sky;a=-;b=Drag Back;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Mercedes: Kindly Devotee;pos=d8;rarity=4;slot=5;level=36;stats=[34;29;25;18;29];weapon=Gravity;assist=Martyr;special=Miracle;a=AR-D Spd/Res 2;b=-;c=Odd Res Wave 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Hilda: Idle Maiden;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[43;38;38;28;24];weapon=Freikugel;assist=-;special=Moonbow;a=Atk/Spd Solo 3;b=Null Follow-Up 3;c=Def Opening 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b7;rarity=5;slot=2;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Bolganone+;assist=Rally Up Atk+;special=-;a=Defense +3;b=-;c=Even Def Wave 3;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a8;rarity=5;slot=3;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Silver Lance+;assist=-;special=Draconic Aura;a=Fury 3;b=Lunge;c=-;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=e8;rarity=5;slot=4;level=41;displaylevel=40;stats=[39;29;37;32;27];weapon=Light Breath+;assist=-;special=Glimmer;a=-;b=Drag Back;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Mercedes: Kindly Devotee;pos=d8;rarity=5;slot=5;level=41;displaylevel=40;stats=[39;33;30;23;33];weapon=Gravity+;assist=Martyr+;special=Miracle;a=AR-D Spd/Res 3;b=-;c=Odd Res Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Hilda: Idle Maiden;text=This is going to be more trouble than\nit's worth, but somebody has to do it.\nGuess it's going to be me.;textJP=面倒くさいのはやだけど、\nヒルダちゃんがやるしかないみたいねー。};
+]}}
+{{Story Navbar|Truth of Her Name|Inside Embla}}
+==In other languages==
+{{OtherLanguages
+|english=Maiden and Devotee
+|japanese=令嬢と修道士
+|german=Maid und Anhängerin
+|spanishEU=La pereza y la devoción
+|spanishLA=La pereza y la devoción
+|french=La jeune fille et la fidèle
+|italian=La pigra e la devota
+|chineseTW=大小姐與修道士
+|portuguese=A donzela e a devota
+}}
+{{Story Maps Navbox|book=3}}

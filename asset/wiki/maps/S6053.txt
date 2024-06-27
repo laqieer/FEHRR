@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0605.webp
+|stageTitle=Chapter 5: Part 3
+|stageName=Abundant Offerings
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 5: Evil Ways
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6053
+|backdrop=
+|allyPos=b2,e2,b1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=13
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_04.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-03-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Mareeta (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Salem: Dark Sage;pos=c8;rarity=3;slot=1;level=13;stats=[22;16;16;6;16];weapon=Ruin;assist=-;special=-;a=Atk/Res Push 1;b=Sabotage Atk 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=f7;rarity=3;slot=2;level=13;stats=[20;12;15;5;13];weapon=Elwind;assist=-;special=-;a=-;b=Sabotage Res 1;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a7;rarity=3;slot=3;level=13;stats=[22;12;13;8;11];weapon=Elthunder;assist=-;special=-;a=Close Def 1;b=-;c=Res Smoke 1;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=d7;rarity=3;slot=4;level=13;stats=[22;12;16;13;10];weapon=Fire Breath+;assist=-;special=-;a=Sturdy Blow 1;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Salem: Dark Sage;pos=c8;rarity=4;slot=1;level=32;stats=[33;31;29;13;30];weapon=Rauðrvulture;assist=-;special=Chilling Wind;a=Atk/Res Push 2;b=Sabotage Atk 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=f7;rarity=4;slot=2;level=32;stats=[29;22;30;11;25];weapon=Rexcalibur;assist=-;special=New Moon;a=-;b=Sabotage Res 2;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a7;rarity=4;slot=3;level=32;stats=[31;24;25;15;21];weapon=Blárserpent;assist=-;special=Chilling Wind;a=Close Def 2;b=-;c=Res Smoke 2;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=d7;rarity=4;slot=4;level=32;stats=[32;22;29;25;20];weapon=Dark Breath;assist=-;special=Buckler;a=Sturdy Blow 1;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Salem: Dark Sage;pos=c8;rarity=5;slot=1;level=42;stats=[42;40;37;18;40];weapon=Rauðrvulture+;assist=-;special=Glacies;a=Atk/Res Push 3;b=Sabotage Atk 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=f7;rarity=5;slot=2;level=42;stats=[35;30;39;16;33];weapon=Rexcalibur+;assist=-;special=Moonbow;a=-;b=Sabotage Res 3;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a7;rarity=5;slot=3;level=42;stats=[38;32;33;20;29];weapon=Blárserpent+;assist=-;special=Iceberg;a=Close Def 3;b=-;c=Res Smoke 3;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=d7;rarity=5;slot=4;level=42;stats=[40;30;37;33;28];weapon=Dark Breath+;assist=-;special=Escutcheon;a=Sturdy Blow 2;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Moving Forward|Heartless Scheme}}
+==In other languages==
+{{OtherLanguages
+|japanese=豊かなる恵みは
+|german=Reicher Segen
+|spanishEU=Dádivas abundantes
+|spanishLA=Dádivas abundantes
+|french=Bienfaits abondants
+|italian=Dono dell'abbondanza
+|chineseTW=豐厚的恩惠
+|portuguese=Dádivas abundantes
+}}
+{{Story Maps Navbox|book=6}}

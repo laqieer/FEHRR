@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0704 C.webp
+|stageTitle=Chapter 7: Part 5
+|stageName=First Meetings
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 7: Goddess Reunion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7045
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=33
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_11.ogg
+|BGM2=bgm_boss12.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-02-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Elincia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elincia: Devoted Queen;pos=b7;rarity=3;slot=1;level=11;stats=[20;17;21;5;8];weapon=Assault;assist=Reconcile;special=-;a=Atk/Spd Push 1;b=Dazzling Staff 1;c=Spd/Res Rein 1;seal=-;ai={turn=1};};
+{unit=Lucia: Tireless Advisor;pos=c6;rarity=3;slot=2;level=11;stats=[22;17;21;9;11];weapon=Steel Sword;assist=Harsh Command;special=-;a=Life and Death 1;b=Repel 1;c=Even Tempest 1;seal=-;ai={turn=1};};
+{unit=Nerþuz: God of the Land;pos=d7;rarity=3;slot=3;level=11;stats=[22;18;20;9;6];weapon=Yearling (Cavalry);assist=-;special=-;a=Atk/Spd Catch 1;b=S/D Near Trace 1;c=Rouse Def/Res 1;seal=-;ai={turn=1};};
+{unit=Bastian: Crimea's Keystone;pos=b6;rarity=3;slot=4;level=11;stats=[22;17;8;6;21];weapon=Elwind;assist=-;special=-;a=-;b=Sabotage Res 1;c=Atk Ploy 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Elincia: Devoted Queen;pos=b7;rarity=4;slot=1;level=33;stats=[31;36;38;13;21];weapon=Assault;assist=Rescue;special=Imbue;a=Atk/Spd Push 2;b=Dazzling Staff 2;c=Spd/Res Rein 2;seal=-;ai={turn=1};};
+{unit=Lucia: Tireless Advisor;pos=c6;rarity=4;slot=2;level=33;stats=[33;34;38;22;25];weapon=Silver Sword;assist=Harsh Command;special=-;a=Life and Death 2;b=Repel 2;c=Even Tempest 2;seal=-;ai={turn=1};};
+{unit=Nerþuz: God of the Land;pos=d7;rarity=4;slot=3;level=33;stats=[33;35;39;23;15];weapon=Adult (Cavalry);assist=-;special=Night Sky;a=Atk/Spd Catch 2;b=S/D Near Trace 2;c=Rouse Def/Res 2;seal=-;ai={turn=1};};
+{unit=Bastian: Crimea's Keystone;pos=b6;rarity=4;slot=4;level=33;stats=[33;36;21;15;38];weapon=Gronndeer;assist=-;special=Chilling Wind;a=-;b=Sabotage Res 2;c=Atk Ploy 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elincia: Devoted Queen;pos=b7;rarity=5;slot=1;level=45;stats=[41;48;49;20;31];weapon=Crimean Scepter;assist=Rescue+;special=Light's Restraint;a=Atk/Spd Push 4;b=Dazzling Shift;c=Spd/Res Hold;seal=-;ai={turn=1};};
+{unit=Lucia: Tireless Advisor;pos=c6;rarity=5;slot=2;level=45;stats=[43;45;49;32;35];weapon=Queensblade;assist=Harsh Command+;special=-;a=Life and Death 4;b=Repel 4;c=Even Tempest 3;seal=-;ai={turn=1};};
+{unit=Nerþuz: God of the Land;pos=d7;rarity=5;slot=3;level=45;stats=[43;46;51;33;22];weapon=Horn of the Land;assist=-;special=Galeforce;a=Atk/Spd Catch 3;b=S/D Near Trace 3;c=Rouse Def/Res 3;seal=-;ai={turn=1};};
+{unit=Bastian: Crimea's Keystone;pos=b6;rarity=5;slot=4;level=45;stats=[43;48;31;22;49];weapon=Gronndeer+;assist=-;special=Iceberg;a=-;b=Sabotage Res 3;c=Atk Ploy 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Crimean Devotion|Deciding the Future}}
+==In other languages==
+{{OtherLanguages
+|japanese=初めての再会
+|german=Erste Begegnung
+|spanishEU=Primeros encuentros
+|spanishLA=Primeros encuentros
+|french=Premières rencontres
+|italian=Primi incontri
+|chineseTW=初次重逢
+|portuguese=Primeiros encontros
+}}
+{{Story Maps Navbox|book=7}}

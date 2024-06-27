@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0502.webp
+|stageTitle=Chapter 2: Part 2
+|stageName=Tiger-Eye Ambition
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 2: Kingsbrother
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5022
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=24
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_05.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-12-08T07:00:00Z|notification=Book V Begins: Reginn and More Summoning Event (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Caellach: Tiger Eye;pos=c7;rarity=3;slot=1;level=4;stats=[19;11;8;7;9];weapon=Iron Axe;assist=-;special=-;a=-;b=Guard 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b8;rarity=3;slot=2;level=4;stats=[19;8;5;6;8];weapon=Iron Sword;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=e6;rarity=3;slot=3;level=4;stats=[19;9;5;10;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f7;rarity=3;slot=4;level=4;stats=[17;6;6;6;9];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Caellach: Tiger Eye;pos=c7;rarity=4;slot=1;level=24;stats=[32;27;18;19;22];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=-;b=Guard 2;c=Even Def Wave 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b8;rarity=4;slot=2;level=24;stats=[30;22;15;16;20];weapon=Steel Sword;assist=Rally Atk/Def;special=-;a=-;b=Def Feint 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=e6;rarity=4;slot=3;level=24;stats=[30;23;16;24;11];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f7;rarity=4;slot=4;level=24;stats=[25;18;17;14;23];weapon=Assault;assist=Mend;special=-;a=-;b=Live to Serve 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Caellach: Tiger Eye;pos=c7;rarity=5;slot=1;level=41;stats=[46;41;28;31;33];weapon=Reprisal Axe+;assist=-;special=Dragon Fang;a=-;b=Guard 3;c=Even Def Wave 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b8;rarity=5;slot=2;level=41;stats=[41;35;25;26;30];weapon=Silver Sword+;assist=Rally Atk/Def+;special=-;a=-;b=Def Feint 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=e6;rarity=5;slot=3;level=41;stats=[41;36;27;37;19];weapon=Reprisal Lance+;assist=-;special=Ignis;a=-;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f7;rarity=5;slot=4;level=41;stats=[35;28;28;24;36];weapon=Fear+;assist=Physic+;special=-;a=-;b=Live to Serve 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Caellach: Tiger Eye;text=I'm sick to death of living like\na desert rat. I'm going to be\na king one day.;textJP=砂にまみれた傭兵人生なんて、\nもううんざりだぜ…俺は王になる。};
+]}}
+{{Story Navbar|Conflicting Feelings|Fluorspar Fealty}}
+==In other languages==
+{{OtherLanguages
+|japanese=虎目石の野心
+|german=Ambition des Tigerauges
+|spanishEU=El afán de Ojo de Tigre
+|spanishLA=El afán de Ojo de Tigre
+|french=Ambition de l'Œil du tigre
+|italian=La tigre ambiziosa
+|chineseTW=虎眼石的野心
+|portuguese=Olho de tigre ambicioso
+}}
+{{Story Maps Navbox|book=5}}

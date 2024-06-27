@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0706.webp
+|stageTitle=Chapter 2: Part 1
+|stageName=Back in Time
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 2: World of the Past
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7061
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=31
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_01.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-04-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Ingrid (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Felix: Lone-Wolf Blade;pos=e5;rarity=3;slot=1;level=14;stats=[23;20;24;13;8];weapon=Steel Sword;assist=-;special=-;a=Atk/Spd Finish 1;b=Atk/Spd Bulwark 1;c=Spd Smoke 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=3;slot=2;level=14;stats=[21;11;11;10;15];weapon=Assault;assist=Reconcile;special=-;a=-;b=Guard 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Thief;pos=c7;rarity=3;slot=3;level=14;stats=[21;11;17;5;14];weapon=Steel Dagger;assist=-;special=-;a=Triangle Adept 1;b=Null Follow-Up 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Flier;pos=f6;rarity=3;slot=4;level=14;stats=[21;12;16;5;14];weapon=Elthunder;assist=-;special=-;a=-;b=Aerobatics 1;c=Atk Smoke 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Felix: Lone-Wolf Blade;pos=e5;rarity=4;slot=1;level=31;stats=[32;36;38;23;17];weapon=Silver Sword;assist=-;special=Buckler;a=Atk/Spd Finish 2;b=Atk/Spd Bulwark 2;c=Spd Smoke 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=4;slot=2;level=31;stats=[28;21;20;17;28];weapon=Melancholy;assist=Restore;special=Windfire Balm;a=-;b=Guard 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Thief;pos=c7;rarity=4;slot=3;level=31;stats=[30;20;30;9;25];weapon=The Cleaner;assist=-;special=New Moon;a=Triangle Adept 2;b=Null Follow-Up 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Flier;pos=f6;rarity=4;slot=4;level=31;stats=[28;21;29;11;25];weapon=Blárfox;assist=-;special=Dragon Gaze;a=-;b=Aerobatics 2;c=Atk Smoke 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Felix: Lone-Wolf Blade;pos=e5;rarity=5;slot=1;level=40;stats=[40;46;46;31;25];weapon=Lone Wolf;assist=-;special=Godlike Reflexes;a=Atk/Spd Finish 4;b=Atk/Spd Bulwark 3;c=Spd Smoke 4;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=5;slot=2;level=40;stats=[34;28;28;23;35];weapon=Melancholy+;assist=Restore+;special=Windfire Balm+;a=-;b=Guard 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Thief;pos=c7;rarity=5;slot=3;level=40;stats=[36;28;38;13;32];weapon=The Cleaner+;assist=-;special=Moonbow;a=Triangle Adept 3;b=Null Follow-Up 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Flier;pos=f6;rarity=5;slot=4;level=40;stats=[34;29;37;16;32];weapon=Blárfox+;assist=-;special=Draconic Aura;a=-;b=Aerobatics 3;c=Atk Smoke 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Promising Youth|Same Place, New Time}}
+==In other languages==
+{{OtherLanguages
+|japanese=時を遡って
+|german=Reise in die Vergangenheit
+|spanishEU=Viaje al pasado
+|spanishLA=Viaje al pasado
+|french=Voyage vers le passé
+|italian=Indietro nel tempo
+|chineseTW=時間倒轉
+|portuguese=Viagem ao passado
+}}
+{{Story Maps Navbox|book=7}}

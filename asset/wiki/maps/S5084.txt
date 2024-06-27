@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0508.webp
+|stageTitle=Chapter 8-4
+|stageName=Kind Eldest Sister
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 8: Serpent's Whispers
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5084
+|backdrop=Wave
+|allyPos=b2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE15_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-06-08T07:00:00Z|notification=New Heroes Summoning Event: Book V Mid: Nótt and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Palla: Kind Eldest Sister;pos=e7;rarity=3;slot=1;level=23;stats=[29;26;12;23;16];weapon=Steel Sword;assist=Rally Attack;special=-;a=R Duel Flying 1;b=-;c=Atk/Res Rein 1;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=b7;rarity=3;slot=2;level=23;stats=[29;21;15;22;10];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Armored Blow 1;b=-;c=Air Orders 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b8;rarity=3;slot=3;level=23;stats=[24;17;22;8;19];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Aerobatics 1;c=Spd Ploy 1;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=d6;rarity=3;slot=4;level=23;stats=[31;18;18;18;12];weapon=Steel Axe;assist=-;special=Miracle;a=-;b=Atk/Def Ruse 1;c=Atk Opening 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c6;rarity=3;slot=5;level=23;stats=[30;19;18;17;16];weapon=Fire Breath+;assist=-;special=Retribution;a=Distant Def 1;b=Wrath 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Palla: Kind Eldest Sister;pos=e7;rarity=4;slot=1;level=38;stats=[37;39;18;37;24];weapon=Silver Sword;assist=Rally Atk/Def;special=-;a=R Duel Flying 2;b=-;c=Atk/Res Rein 2;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=b7;rarity=4;slot=2;level=38;stats=[37;32;23;33;16];weapon=Slaying Lance;assist=-;special=Glowing Ember;a=Armored Blow 2;b=-;c=Air Orders 2;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b8;rarity=4;slot=3;level=38;stats=[31;25;34;13;29];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=-;b=Aerobatics 2;c=Spd Ploy 2;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=d6;rarity=4;slot=4;level=38;stats=[40;28;27;27;19];weapon=Silver Axe;assist=-;special=Miracle;a=-;b=Atk/Def Ruse 2;c=Atk Opening 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c6;rarity=4;slot=5;level=38;stats=[40;29;27;25;24];weapon=Water Breath;assist=-;special=Retribution;a=Distant Def 2;b=Wrath 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Palla: Kind Eldest Sister;pos=e7;rarity=5;slot=1;level=43;stats=[42;45;22;43;29];weapon=Ladyblade;assist=Rally Atk/Def+;special=-;a=R Duel Flying 4;b=-;c=Atk/Res Rein 3;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=b7;rarity=5;slot=2;level=43;stats=[42;37;28;38;20];weapon=Slaying Lance+;assist=-;special=Ignis;a=Armored Blow 3;b=-;c=Air Orders 3;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b8;rarity=5;slot=3;level=43;stats=[35;30;40;17;34];weapon=Rexcalibur+;assist=-;special=Glacies;a=-;b=Aerobatics 3;c=Spd Ploy 3;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=d6;rarity=5;slot=4;level=43;stats=[46;33;33;31;23];weapon=Silver Axe+;assist=-;special=Miracle;a=-;b=Atk/Def Ruse 3;c=Atk Opening 3;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c6;rarity=5;slot=5;level=43;stats=[46;34;31;30;29];weapon=Water Breath+;assist=-;special=Vengeance;a=Distant Def 3;b=Wrath 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Devoted Saint|Past Unknown}}
+==In other languages==
+{{OtherLanguages
+|japanese=優しき長女
+|german=Milde Schwester
+|spanishEU=Hermana gentil
+|spanishLA=Hermana gentil
+|french=Douce sœur aînée
+|italian=La sorellona
+|chineseTW=溫柔的長女
+|portuguese=Irmã gentil
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0304.png
+|stageTitle=Chapter 4: Part 2
+|stageName=Kitsune Family
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 4: A King's Worth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3042
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Ally|1}} | f3={{Ally|2}}
+| a2= | b2= | c2= | d2= | e2={{Ally|3}} | f2={{Ally|4}}
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=29
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_11.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-02-20T07:00:00Z|notification=New Heroes: Kitsune and Wolfskin (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Selkie: Free Spirit;pos=a7;rarity=3;slot=1;level=9;stats=[18;10;14;5;12];weapon=Whelp (Cavalry);assist=-;special=-;a=Atk/Spd Bond 1;b=-;c=Even Res Wave 1;seal=-;ai={turn=1};};
+{unit=Kaden: Kitsune Braggart;pos=b7;rarity=3;slot=2;level=9;stats=[19;11;13;8;8];weapon=Whelp (Cavalry);assist=Pivot;special=-;a=-;b=Spd/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a5;rarity=3;slot=3;level=9;stats=[21;11;11;10;9];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=c8;rarity=3;slot=4;level=9;stats=[20;9;12;6;13];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Selkie: Free Spirit;pos=a7;rarity=4;slot=1;level=29;stats=[28;20;29;13;26];weapon=Yearling (Cavalry);assist=-;special=Chilling Wind;a=Atk/Spd Bond 2;b=Sabotage Atk 1;c=Even Res Wave 2;seal=-;ai={turn=1};};
+{unit=Kaden: Kitsune Braggart;pos=b7;rarity=4;slot=2;level=29;stats=[29;24;27;18;18];weapon=Yearling (Cavalry);assist=Pivot;special=-;a=-;b=Spd/Res Link 2;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a5;rarity=4;slot=3;level=29;stats=[34;24;22;20;19];weapon=Fire Breath+;assist=Rally Attack;special=-;a=Fortress Def 1;b=Def Feint 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=c8;rarity=4;slot=4;level=29;stats=[30;19;26;14;27];weapon=Steel Sword;assist=-;special=Buckler;a=Bracing Blow 1;b=-;c=Even Def Wave 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Selkie: Free Spirit;pos=a7;rarity=5;slot=1;level=41;displaylevel=40;stats=[36;29;39;19;36];weapon=Foxkit Fang;assist=-;special=Iceberg;a=Atk/Spd Bond 3;b=Sabotage Atk 3;c=Even Res Wave 3;seal=-;ai={turn=1};};
+{unit=Kaden: Kitsune Braggart;pos=b7;rarity=5;slot=2;level=41;displaylevel=40;stats=[38;32;37;26;26];weapon=Kitsune Fang;assist=Pivot;special=-;a=-;b=Spd/Res Link 3;c=Goad Beasts;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a5;rarity=5;slot=3;level=41;displaylevel=40;stats=[45;32;30;29;28];weapon=Light Breath+;assist=Rally Up Atk+;special=-;a=Fortress Def 3;b=Def Feint 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=c8;rarity=5;slot=4;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Silver Sword+;assist=-;special=Escutcheon;a=Bracing Blow 2;b=-;c=Even Def Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Kaden: Kitsune Braggart;text=I'm Kaden! As you can see, I'm from\nthe most beautiful race in the world,\nthe kitsune!;textJP=はじめまして！　ボクはニシキ！\n世界一美しい種族、妖狐さ！};
+]}}
+{{Story Navbar|No Cheating Death|Wolfskin Family}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=妖狐の親子
+|german=Familie der Kitsune
+|spanishEU=Familia kitsune
+|spanishLA=Familia kitsune
+|french=La famille de Kitsunes
+|italian=La famiglia kitsune
+|chineseTW=妖狐親子
+|portuguese=Família kitsune
+}}
+{{Story Maps Navbox|book=3}}

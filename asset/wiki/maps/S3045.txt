@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0304_C.png
+|stageTitle=Chapter 4: Part 5
+|stageName=Death's Arrival
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 4: A King's Worth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3045
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|1}} | c3={{Ally|2}} | d3= | e3= | f3=
+| a2= | b2= | c2= | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=33
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_11.ogg
+|BGM2=bgm_boss4.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-02-20T07:00:00Z|notification=New Heroes: Kitsune and Wolfskin (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=3;slot=1;level=12;stats=[23;16;12;13;10];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Solo 1;b=-;c=Atk Tactic 1;seal=-;ai={turn=1};};
+{unit=Kaden: Kitsune Braggart;pos=b7;rarity=3;slot=2;level=12;stats=[20;13;15;9;9];weapon=Yearling (Cavalry);assist=Pivot;special=-;a=-;b=Spd/Res Link 1;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Keaton: Lupine Collector;pos=d7;rarity=3;slot=3;level=12;stats=[24;17;10;14;6];weapon=Yearling (Infantry);assist=-;special=Dragon Gaze;a=-;b=Special Spiral 1;c=Beast Valor 1;seal=-;ai={turn=1};};
+{unit=Panne: Proud Taguel;pos=e8;rarity=3;slot=4;level=12;stats=[22;11;15;12;7];weapon=Yearling (Cavalry);assist=-;special=Night Sky;a=-;b=Chill Spd 1;c=Def Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=4;slot=1;level=33;stats=[35;31;24;27;21];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=-;c=Atk Tactic 2;seal=-;ai={turn=1};};
+{unit=Kaden: Kitsune Braggart;pos=b7;rarity=4;slot=2;level=33;stats=[31;26;30;20;20];weapon=Adult (Cavalry);assist=Pivot;special=-;a=-;b=Spd/Res Link 2;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Keaton: Lupine Collector;pos=d7;rarity=4;slot=3;level=33;stats=[38;34;19;31;14];weapon=Adult (Infantry);assist=-;special=Dragon Gaze;a=-;b=Special Spiral 2;c=Beast Valor 2;seal=-;ai={turn=1};};
+{unit=Panne: Proud Taguel;pos=e8;rarity=4;slot=4;level=33;stats=[34;22;28;24;18];weapon=Adult (Cavalry);assist=-;special=Night Sky;a=-;b=Chill Spd 2;c=Def Smoke 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c8;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;40;33;37;31];weapon=Sökkvabekkr;assist=-;special=Bonfire;a=Atk/Def Solo 3;b=-;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Kaden: Kitsune Braggart;pos=b7;rarity=5;slot=2;level=45;displaylevel=40;stats=[41;35;39;28;28];weapon=Kitsune Fang;assist=Pivot;special=-;a=-;b=Spd/Res Link 3;c=Goad Beasts;seal=-;ai={turn=1};};
+{unit=Keaton: Lupine Collector;pos=d7;rarity=5;slot=3;level=45;displaylevel=40;stats=[48;45;26;42;21];weapon=Wolfskin Fang;assist=-;special=Draconic Aura;a=Atk/Spd Push 3;b=Special Spiral 3;c=Beast Valor 3;seal=-;ai={turn=1};};
+{unit=Panne: Proud Taguel;pos=e8;rarity=5;slot=4;level=45;displaylevel=40;stats=[44;32;37;33;26];weapon=Taguel Fang;assist=-;special=Astra;a=-;b=Chill Spd 3;c=Def Smoke 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Running Out of Time|The Orb Case}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=死が、迎えに来る
+|german=Der Tod naht
+|spanishEU=Llega la muerte
+|spanishLA=Llega la muerte
+|french=Face à la mort
+|italian=Arriva la morte
+|chineseTW=當死亡來迎接
+|portuguese=A chegada da morte
+}}
+{{Story Maps Navbox|book=3}}

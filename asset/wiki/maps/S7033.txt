@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0703.webp
+|stageTitle=Chapter 6: Part 3
+|stageName=Awoken Successor
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 6: King of Light
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7033
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=27
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE17_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-01-17T07:00:00Z|notification=New Heroes Summoning Event: Engage (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Alear: Dragon Child;pos=c8;rarity=3;slot=1;level=7;stats=[20;16;19;6;6];weapon=Iron Sword;assist=-;special=-;a=Atk/Spd Ideal 1;b=Close Call 1;c=Spd Smoke 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e7;rarity=3;slot=2;level=7;stats=[28;12;3;14;5];weapon=Iron Lance;assist=-;special=-;a=Heavy Blade 1;b=-;c=Assault Troop 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=b8;rarity=3;slot=3;level=7;stats=[18;9;11;3;10];weapon=Wind;assist=-;special=-;a=-;b=Guard 1;c=Spd/Res Rein 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Thief;pos=f5;rarity=3;slot=4;level=7;stats=[18;8;12;3;10];weapon=Iron Dagger;assist=-;special=-;a=Fury 1;b=Desperation 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Alear: Dragon Child;pos=c8;rarity=4;slot=1;level=27;stats=[30;32;35;20;16];weapon=Steel Sword;assist=-;special=New Moon;a=Atk/Spd Ideal 2;b=Close Call 2;c=Spd Smoke 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e7;rarity=4;slot=2;level=27;stats=[43;27;10;29;12];weapon=Steel Lance;assist=-;special=New Moon;a=Heavy Blade 2;b=-;c=Assault Troop 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=b8;rarity=4;slot=3;level=27;stats=[26;19;26;10;23];weapon=Elwind;assist=-;special=Rising Wind;a=-;b=Guard 2;c=Spd/Res Rein 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Thief;pos=f5;rarity=4;slot=4;level=27;stats=[28;18;27;8;23];weapon=Steel Dagger;assist=-;special=Retribution;a=Fury 2;b=Desperation 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Alear: Dragon Child;pos=c8;rarity=5;slot=1;level=42;stats=[41;45;48;34;27];weapon=Libération;assist=-;special=Luna;a=Atk/Spd Ideal 4;b=Close Call 4;c=Spd Smoke 4;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e7;rarity=5;slot=2;level=42;stats=[57;40;16;42;19];weapon=Brave Lance+;assist=-;special=Moonbow;a=Heavy Blade 3;b=-;c=Assault Troop 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=b8;rarity=5;slot=3;level=42;stats=[35;30;39;16;33];weapon=Gronnowl+;assist=-;special=Blazing Wind;a=-;b=Guard 3;c=Spd/Res Rein 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Thief;pos=f5;rarity=5;slot=4;level=42;stats=[37;29;40;14;33];weapon=Vicious Dagger+;assist=-;special=Vengeance;a=Fury 3;b=Desperation 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Daydreaming Knight|Prince in Training}}
+==In other languages==
+{{OtherLanguages
+|japanese=目覚めた後継者
+|german=Erwachte Nachfolgerin
+|spanishEU=Sucesora despierta
+|spanishLA=Sucesora despierta
+|french=Héritière éveillée
+|italian=Erede risvegliata
+|chineseTW=甦醒的繼承者
+|portuguese=Sucessora desperta
+}}
+{{Story Maps Navbox|book=7}}

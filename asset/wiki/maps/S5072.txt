@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0507.webp
+|stageTitle=Chapter 7: Part 2
+|stageName=Devoted Darkness
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 7: Bound Elsewhere
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5072
+|backdrop=
+|allyPos=d3,e3,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=33
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_10.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-05-07T07:00:00Z|notification=New Heroes Summoning Event: Forces of Will (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ótr: Kingsbrother;pos=b7;rarity=3;slot=1;level=18;stats=[25;20;8;19;17];weapon=Steel Axe;assist=-;special=New Moon;a=-;b=Knock Back;c=Panic Smoke 1;seal=-;ai={turn=1};};
+{unit=Morgan: Devoted Darkness;pos=d8;rarity=3;slot=2;level=18;stats=[25;19;8;21;18];weapon=Steel Axe;assist=-;special=Night Sky;a=Atk/Def Solo 1;b=Dive-Bomb 1;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=f8;rarity=3;slot=3;level=18;stats=[22;14;19;7;16];weapon=Elfire;assist=Rally Resistance;special=-;a=Fury 1;b=-;c=Spur Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a7;rarity=3;slot=4;level=18;stats=[21;18;12;8;17];weapon=Elthunder;assist=-;special=-;a=Sturdy Blow 1;b=-;c=Fortify Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ótr: Kingsbrother;pos=b7;rarity=4;slot=1;level=33;stats=[34;33;13;31;26];weapon=Silver Axe;assist=-;special=New Moon;a=Grani's Shield;b=Knock Back;c=Panic Smoke 2;seal=-;ai={turn=1};};
+{unit=Morgan: Devoted Darkness;pos=d8;rarity=4;slot=2;level=33;stats=[33;32;13;34;28];weapon=Silver Axe;assist=-;special=Night Sky;a=Atk/Def Solo 2;b=Dive-Bomb 2;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=f8;rarity=4;slot=3;level=33;stats=[29;22;31;12;26];weapon=Bolganone;assist=Rally Up Res;special=-;a=Fury 2;b=-;c=Spur Spd 2;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a7;rarity=4;slot=4;level=33;stats=[28;29;20;13;28];weapon=Blárraven;assist=-;special=Chilling Wind;a=Sturdy Blow 1;b=-;c=Fortify Res 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ótr: Kingsbrother;pos=b7;rarity=5;slot=1;level=41;stats=[41;41;17;38;33];weapon=Lofnheiðr;assist=-;special=Moonbow;a=Grani's Shield;b=Knock Back;c=Panic Smoke 3;seal=-;ai={turn=1};};
+{unit=Morgan: Devoted Darkness;pos=d8;rarity=5;slot=2;level=41;stats=[40;40;17;42;36];weapon=Axe of Despair;assist=-;special=Glimmer;a=Atk/Def Solo 4;b=Dive-Bomb 3;c=Atk/Def Menace;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=f8;rarity=5;slot=3;level=41;stats=[35;29;38;16;32];weapon=Bolganone+;assist=Rally Up Res+;special=-;a=Fury 3;b=-;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=a7;rarity=5;slot=4;level=41;stats=[34;36;26;17;35];weapon=Blárraven+;assist=-;special=Iceberg;a=Sturdy Blow 2;b=-;c=Fortify Cavalry;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Unknown Future|Savage Boar}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=闇色の忠節
+|german=Dunkle Treue
+|spanishEU=Devoción sombría
+|spanishLA=Devoción sombría
+|french=Sombre dévotion
+|italian=L'oscurità devota
+|chineseTW=黑暗的忠義
+|portuguese=Devoção sombria
+}}
+{{Story Maps Navbox|book=5}}

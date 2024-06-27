@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Leif Unrevealed.png
+|mapName=Chapter 7-3: Indomitable Spirits
+|stageTitle=Chapter 7: Part 3
+|stageName=Indomitable Spirits
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 7: Snow and Ash
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2073
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=19
+|lvlHard=34
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE05_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-04-11T07:00:00Z|notification=New Heroes: World of Thracia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Leif: Prince of Leonster;pos=c7;rarity=3;slot=1;level=19;stats=[26;15;20;16;12];weapon=Steel Sword;assist=-;special=Rising Light;a=Steady Blow 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Nanna: Nordion Princess;pos=b8;rarity=3;slot=2;level=19;stats=[24;13;17;11;14];weapon=Absorb;assist=Restore;special=-;a=Spd/Res 1;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Finn: Lance of Legend;pos=f7;rarity=3;slot=3;level=19;stats=[26;17;17;16;8];weapon=Steel Lance;assist=-;special=Miracle;a=Attack/Def +1;b=-;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=e8;rarity=3;slot=4;level=19;stats=[27;16;16;15;14];weapon=Fire Breath+;assist=-;special=Daylight;a=-;b=Renewal 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Leif: Prince of Leonster;pos=c7;rarity=4;slot=1;level=34;stats=[34;26;32;25;18];weapon=Silver Sword;assist=-;special=Rising Light;a=Steady Blow 1;b=S Drink;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Nanna: Nordion Princess;pos=b8;rarity=4;slot=2;level=34;stats=[31;21;29;17;22];weapon=Absorb;assist=Restore;special=Imbue;a=Spd/Res 1;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Finn: Lance of Legend;pos=f7;rarity=4;slot=3;level=34;stats=[34;29;28;26;14];weapon=Brave Lance;assist=-;special=Miracle;a=Attack/Def +1;b=-;c=Spur Atk 2;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=e8;rarity=4;slot=4;level=34;stats=[38;27;25;23;22];weapon=Fire Breath+;assist=-;special=Daylight;a=-;b=Renewal 2;c=Drive Res 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Leif: Prince of Leonster;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[41;33;40;31;24];weapon=Light Brand;assist=-;special=Blazing Light;a=Steady Blow 2;b=S Drink;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Nanna: Nordion Princess;pos=b8;rarity=5;slot=2;level=42;displaylevel=40;stats=[37;28;35;21;27];weapon=Absorb+;assist=Restore+;special=Heavenly Light;a=Spd/Res 2;b=-;c=Drive Def 2;seal=-;ai={group=1};};
+{unit=Finn: Lance of Legend;pos=f7;rarity=5;slot=3;level=42;displaylevel=40;stats=[41;35;34;33;18];weapon=Brave Lance+;assist=-;special=Miracle;a=Attack/Def +2;b=-;c=Goad Cavalry;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=e8;rarity=5;slot=4;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Light Breath+;assist=-;special=Sol;a=-;b=Renewal 3;c=Drive Res 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Leif: Prince of Leonster;text="I'll grow stronger. I swear it!" These\nwere my words, and they formed a\npromise. Let's go!;textJP=ぼくはもっと強くなってみせる…\nそう約束したんだ。\n一緒に行こう、ナンナ。};
+  {unit=Nanna: Nordion Princess;text=Of course, Lord Leif.;textJP=はい、リーフ様…};
+]
+}}
+{{Story Navbar|Blade of the Mage Knight|Book and Blade}}
+==In other languages==
+{{OtherLanguages
+|japanese=不屈の意志
+|german=Unbeugsamer Geist
+|spanishEU=Espíritus indomables
+|spanishLA=Espíritus indomables
+|french=Esprits indomptables
+|italian=Spiriti indomiti
+|chineseTW=不屈的意志
+|portuguese=Espíritos indomáveis
+}}
+{{Story Maps Navbox|book=2}}

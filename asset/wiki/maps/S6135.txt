@@ -1,0 +1,101 @@
+{{About|the story map Embla, God of Closure|the enemy unit|Embla: God of Closure}}{{Battle Infobox
+|bannerImage=C0613 C.webp
+|stageTitle=Chapter 13-5
+|stageName=Embla, God of Closure
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 13: Askr and Embla
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6135
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=35
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_10.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-11-18T07:00:00Z|notification=Special Summon: Rearmed Ganglöt & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S6135|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Embla: God of Closure;pos=c8;rarity=3;slot=1;level=35;stats=[42;38;37;26;21];weapon=Enclosing Claw;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=S/D Near Trace 1;c=Fatal Smoke 1;seal=-;ai={turn=2};};
+{unit=Tiki: Awakened Blood;pos=d7;rarity=3;slot=2;level=35;stats=[31;33;36;25;28];weapon=Flametongue;assist=-;special=Chilling Wind;a=Spd/Res Finish 1;b=Spd/Res Bulwark 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=c6;rarity=3;slot=3;level=35;stats=[37;25;24;23;22];weapon=Flametongue;assist=-;special=Dragon Gaze;a=-;b=Chill Atk 1;c=Fortify Def 1;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b7;rarity=3;slot=4;level=35;stats=[28;28;20;13;27];weapon=Gronnblade;assist=-;special=Dragon Gaze;a=Atk/Spd Bond 1;b=-;c=Blue Feud 1;seal=-;ai={turn=1};};
+{unit=Hardin: The Coyote;pos=e7;rarity=3;slot=5;level=35;stats=[34;33;35;25;16];weapon=Silver Lance;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=A/S Near Trace 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Bat;pos=f5;rarity=3;slot=6;level=35;stats=[33;28;37;28;18];weapon=Adult (Flier);assist=-;special=New Moon;a=Atk/Spd Clash 1;b=Hit and Run;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Red Fáfnir;pos=a4;rarity=3;slot=7;level=35;stats=[33;23;29;25;21];weapon=Dark Breath;assist=-;special=Retribution;a=Fury 1;b=Sabotage Def 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Hard=[
+{unit=Embla: God of Closure;pos=c8;rarity=4;slot=1;level=40;stats=[45;45;46;30;25];weapon=Enclosing Claw;assist=-;special=New Moon;a=Atk/Spd Solo 3;b=S/D Near Trace 2;c=Fatal Smoke 2;seal=-;ai={turn=2};};
+{unit=Tiki: Awakened Blood;pos=d7;rarity=4;slot=2;level=40;stats=[35;40;42;29;33];weapon=Awoken Breath;assist=-;special=Chilling Wind;a=Spd/Res Finish 3;b=Spd/Res Bulwark 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=c6;rarity=4;slot=3;level=40;stats=[41;30;28;26;25];weapon=Flametongue+;assist=-;special=Dragon Gaze;a=-;b=Chill Atk 2;c=Fortify Def 2;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b7;rarity=4;slot=4;level=40;stats=[31;33;23;15;32];weapon=Gronnblade+;assist=-;special=Dragon Gaze;a=Atk/Spd Bond 2;b=-;c=Blue Feud 2;seal=-;ai={turn=1};};
+{unit=Hardin: The Coyote;pos=e7;rarity=4;slot=5;level=40;stats=[38;39;42;29;19];weapon=Coyote's Lance;assist=-;special=Dragon Gaze;a=Swift Sparrow 2;b=A/S Near Trace 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Bat;pos=f5;rarity=4;slot=6;level=40;stats=[36;33;44;32;21];weapon=Bat Fang;assist=-;special=New Moon;a=Atk/Spd Clash 2;b=Hit and Run;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Red Fáfnir;pos=a4;rarity=4;slot=7;level=40;stats=[36;26;34;30;24];weapon=Dark Breath+;assist=-;special=Retribution;a=Fury 2;b=Sabotage Def 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Lunatic=[
+{unit=Embla: God of Closure;pos=c8;rarity=5;slot=1;level=45;stats=[61;50;51;37;30];weapon=Enclosing Claw;assist=-;special=Moonbow;a=Atk/Spd Solo 4;b=S/D Near Trace 3;c=Fatal Smoke 3;seal=-;ai={turn=2};};
+{unit=Tiki: Awakened Blood;pos=d7;rarity=5;slot=2;level=45;stats=[41;47;48;35;40];weapon=Awoken Breath;assist=-;special=Iceberg;a=Spd/Res Finish 4;b=Spd/Res Bulwark 3;c=All Together!;seal=-;ai={turn=1};};
+{unit=Blue Manakete;pos=c6;rarity=5;slot=3;level=45;stats=[47;35;33;32;31];weapon=Flametongue+;assist=-;special=Dragon Fang;a=-;b=Chill Atk 3;c=Fortify Dragons;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b7;rarity=5;slot=4;level=45;stats=[35;38;28;18;37];weapon=Gronnblade+;assist=-;special=Draconic Aura;a=Atk/Spd Bond 3;b=-;c=Blue Feud 3;seal=-;ai={turn=1};};
+{unit=Hardin: The Coyote;pos=e7;rarity=5;slot=5;level=45;stats=[44;45;48;35;23];weapon=Coyote's Lance;assist=-;special=Draconic Aura;a=Surge Sparrow;b=A/S Near Trace 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Bat;pos=f5;rarity=5;slot=6;level=45;stats=[42;38;50;39;25];weapon=Bat Fang;assist=-;special=Luna;a=Atk/Spd Clash 3;b=Hit and Run;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Red Fáfnir;pos=a4;rarity=5;slot=7;level=45;stats=[42;32;39;35;30];weapon=Dark Breath+;assist=-;special=Reprisal;a=Fury 3;b=Sabotage Def 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Driven into the Dark|Illuminating the Path}}
+==In other languages==
+{{OtherLanguages
+|japanese=閉神エンブラ
+|german=Embla, die Schließende
+|spanishEU=Embla, diosa del cierre
+|spanishLA=Embla, diosa del cierre
+|french=Embla, déesse fermeture
+|italian=Embla, Dea della chiusura
+|chineseTW=閉神恩布拉
+|portuguese=Embla, deusa da oclusão
+}}
+{{Story Maps Navbox|book=6}}

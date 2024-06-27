@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0304.png
+|stageTitle=Chapter 4: Part 4
+|stageName=Running Out of Time
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 4: A King's Worth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3044
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{Ally|1}} | c6={{Ally|2}} | d6={{Ally|3}} | e6={{Ally|4}} | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=31
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE14_11.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-02-20T07:00:00Z|notification=New Heroes: Kitsune and Wolfskin (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Velouria: Wolf Cub;pos=c2;rarity=3;slot=1;level=11;stats=[22;14;14;12;9];weapon=Yearling (Infantry);assist=-;special=-;a=Close Def 1;b=-;c=Spur Def 1;seal=-;ai={group=1};};
+{unit=Selkie: Free Spirit;pos=d2;rarity=3;slot=2;level=11;stats=[19;11;15;6;14];weapon=Yearling (Cavalry);assist=-;special=-;a=Atk/Spd Bond 1;b=-;c=Even Res Wave 1;seal=-;ai={group=1};};
+{unit=Red Bow;pos=e1;rarity=3;slot=3;level=11;stats=[23;12;11;11;5];weapon=Steel Bow;assist=-;special=-;a=-;b=Vantage 1;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=b1;rarity=3;slot=4;level=11;stats=[21;11;12;7;10];weapon=Elwind;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Velouria: Wolf Cub;pos=c2;rarity=4;slot=1;level=31;stats=[32;28;29;25;17];weapon=Adult (Infantry);assist=-;special=New Moon;a=Close Def 2;b=-;c=Spur Def 2;seal=-;ai={group=1};};
+{unit=Selkie: Free Spirit;pos=d2;rarity=4;slot=2;level=31;stats=[29;21;30;14;28];weapon=Adult (Cavalry);assist=-;special=Chilling Wind;a=Atk/Spd Bond 2;b=Sabotage Atk 1;c=Even Res Wave 2;seal=-;ai={group=1};};
+{unit=Red Bow;pos=e1;rarity=4;slot=3;level=31;stats=[35;25;22;21;11];weapon=Silver Bow;assist=Rally Speed;special=-;a=-;b=Vantage 2;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Green Mage;pos=b1;rarity=4;slot=4;level=31;stats=[31;24;25;15;20];weapon=Gronnraven;assist=-;special=Night Sky;a=Sturdy Blow 1;b=-;c=Savage Blow 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Velouria: Wolf Cub;pos=c2;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;37;40;35;24];weapon=Wolfpup Fang;assist=-;special=Luna;a=Close Def 3;b=-;c=Ward Beasts;seal=-;ai={group=1};};
+{unit=Selkie: Free Spirit;pos=d2;rarity=5;slot=2;level=43;displaylevel=40;stats=[37;30;41;20;37];weapon=Foxkit Fang;assist=-;special=Iceberg;a=Atk/Spd Bond 3;b=Sabotage Atk 3;c=Even Res Wave 3;seal=-;ai={group=1};};
+{unit=Red Bow;pos=e1;rarity=5;slot=3;level=43;displaylevel=40;stats=[45;34;30;30;17];weapon=Silver Bow+;assist=Rally Atk/Spd+;special=-;a=-;b=Vantage 3;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Green Mage;pos=b1;rarity=5;slot=4;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Gronnraven+;assist=-;special=Glimmer;a=Sturdy Blow 2;b=-;c=Savage Blow 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Wolfskin Family|Death's Arrival}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=零れゆく砂
+|german=Die Zeit wird knapp
+|spanishEU=A contrarreloj
+|spanishLA=A contrarreloj
+|french=À court de temps
+|italian=Il tempo stringe
+|chineseTW=散落之砂
+|portuguese=Corrida contra o tempo
+}}
+{{Story Maps Navbox|book=3}}

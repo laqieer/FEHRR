@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0603.webp
+|stageTitle=Chapter 3: Part 3
+|stageName=An Archer's Tears
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 3: Calling of Blood
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6033
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=27
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_08.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-01-07T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Joshua (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Colm: Capable Thief;pos=e7;rarity=3;slot=1;level=7;stats=[21;10;14;6;10];weapon=Iron Dagger;assist=Pivot;special=-;a=Atk/Spd 1;b=Atk/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Neimi: Tearful Archer;pos=e6;rarity=3;slot=2;level=7;stats=[19;12;15;5;11];weapon=Iron Bow;assist=-;special=-;a=Spd/Res Bond 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a8;rarity=3;slot=3;level=7;stats=[21;10;6;7;10];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=d8;rarity=3;slot=4;level=7;stats=[19;9;10;6;8];weapon=Wind;assist=-;special=-;a=Swift Sparrow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Colm: Capable Thief;pos=e7;rarity=4;slot=1;level=27;stats=[33;25;30;16;22];weapon=Steel Dagger;assist=Pivot;special=New Moon;a=Atk/Spd 1;b=Atk/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Neimi: Tearful Archer;pos=e6;rarity=4;slot=2;level=27;stats=[29;28;31;13;24];weapon=Steel Bow;assist=-;special=New Moon;a=Spd/Res Bond 2;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a8;rarity=4;slot=3;level=27;stats=[31;24;16;17;21];weapon=Steel Axe;assist=-;special=Night Sky;a=-;b=Hit and Run;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=d8;rarity=4;slot=4;level=27;stats=[29;22;23;13;18];weapon=Elwind;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=Guard 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Colm: Capable Thief;pos=e7;rarity=5;slot=1;level=42;stats=[44;38;43;25;33];weapon=Quick Dagger+;assist=Pivot;special=Moonbow;a=Atk/Spd 2;b=Atk/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Neimi: Tearful Archer;pos=e6;rarity=5;slot=2;level=42;stats=[40;41;44;22;36];weapon=Rapid-Crier Bow;assist=-;special=Moonbow;a=Spd/Res Bond 4;b=-;c=Joint Drive Res;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a8;rarity=5;slot=3;level=42;stats=[42;35;25;26;31];weapon=Slaying Hammer+;assist=-;special=Glimmer;a=-;b=Hit and Run;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=d8;rarity=5;slot=4;level=42;stats=[38;32;33;20;29];weapon=Gronnblade+;assist=-;special=Draconic Aura;a=Swift Sparrow 2;b=Guard 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Thief's Perspective|A Sandstorm's Ascension}}
+==In other languages==
+{{OtherLanguages
+|japanese=狩人の涙
+|german=Tränen einer Schützin
+|spanishEU=Lágrimas de una arquera
+|spanishLA=Lágrimas de una arquera
+|french=Les larmes d'une archère
+|italian=Le lacrime di un'arciera
+|chineseTW=獵人之淚
+|portuguese=Lágrimas de arqueira
+}}
+{{Story Maps Navbox|book=6}}

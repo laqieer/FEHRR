@@ -23,6 +23,12 @@ map_image_save_path = 'map/'
 wiki_map_save_path = 'asset/wiki/maps/'
 wiki_map_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
 
+map_names = {
+    "S5125": "Book_V,_Chapter_12-5:_Family",
+    "S1105": "Book_I,_Chapter_10:_Part_5:_Radiant_Hero",
+    "S6023": "Book_VI,_Chapter_2:_Part_3:_Radiant_Hero",
+}
+
 terrain_names = [
     {
         "index": 0,
@@ -179,6 +185,8 @@ def load_map_names():
                         map_id = message['key'][len(key_prefix):]
                         if map_id in map_configs:
                             map_configs[map_id]['name'] = message['value']
+    for map_id, name in map_names.items():
+        map_configs[map_id]['name'] = name
 
 def get_text_in_textarea(url):
     with sync_playwright() as playwright:
@@ -192,7 +200,7 @@ def get_text_in_textarea(url):
         return text
 
 def fetch_map_from_wiki(map_id):
-    url = wiki_map_url % urllib.parse.quote_plus(map_configs[map_id]['name'])
+    url = wiki_map_url % urllib.parse.quote_plus(map_configs[map_id]['name'].replace('’', "'").replace(' ', '_'))
     text = get_text_in_textarea(url)
     with open(os.path.join(wiki_map_save_path, map_id + '.txt'), 'w', encoding='utf-8') as file:
         file.write(text)

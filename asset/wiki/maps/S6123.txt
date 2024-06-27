@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0612.webp
+|stageTitle=Chapter 12-3
+|stageName=Longing Sighs
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 12: Princess and Prince
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6123
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-10-17T07:00:00Z|notification=Special Rearmed Robin & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gregor: Swell Sword;pos=d7;rarity=3;slot=1;level=30;stats=[31;33;27;30;16];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Solid Ground 1;b=-;c=Inf. Null Follow 1;seal=-;ai={turn=1};};
+{unit=Ricken: Shepherd Novice;pos=e7;rarity=3;slot=2;level=30;stats=[30;32;28;17;21];weapon=Gronnrabbit;assist=-;special=New Moon;a=Atk/Spd Form 1;b=-;c=Spur Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=c6;rarity=3;slot=3;level=30;stats=[34;21;21;21;15];weapon=Barrier Lance;assist=-;special=Holy Vestments;a=Distant Def 1;b=-;c=Infantry Pulse 1;seal=-;ai={turn=1};};
+{unit=Thief;pos=f6;rarity=3;slot=4;level=30;stats=[29;19;27;9;22];weapon=Quick Dagger;assist=-;special=New Moon;a=Life and Death 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b7;rarity=3;slot=5;level=30;stats=[33;22;20;20;10];weapon=Instant Bow;assist=-;special=New Moon;a=Bonus Doubler 1;b=-;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Gregor: Swell Sword;pos=d7;rarity=4;slot=1;level=37;stats=[36;40;34;37;20];weapon=Blade of Favors;assist=-;special=Glowing Ember;a=Solid Ground 2;b=-;c=Inf. Null Follow 2;seal=-;ai={turn=1};};
+{unit=Ricken: Shepherd Novice;pos=e7;rarity=4;slot=2;level=37;stats=[35;39;35;21;26];weapon=Gronnrabbit;assist=-;special=New Moon;a=Atk/Spd Form 2;b=-;c=Spur Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=c6;rarity=4;slot=3;level=37;stats=[39;27;26;27;19];weapon=Barrier Lance;assist=-;special=Holy Vestments;a=Distant Def 2;b=-;c=Infantry Pulse 2;seal=-;ai={turn=1};};
+{unit=Thief;pos=f6;rarity=4;slot=4;level=37;stats=[33;24;34;11;28];weapon=Quick Dagger;assist=-;special=New Moon;a=Life and Death 2;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b7;rarity=4;slot=5;level=37;stats=[38;28;26;25;13];weapon=Instant Bow;assist=-;special=New Moon;a=Bonus Doubler 2;b=-;c=Rouse Atk/Spd 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Gregor: Swell Sword;pos=d7;rarity=5;slot=1;level=42;stats=[41;46;38;45;24];weapon=Blade of Favors;assist=-;special=Bonfire;a=Solid Ground 4;b=-;c=Inf. Null Follow 3;seal=-;ai={turn=1};};
+{unit=Ricken: Shepherd Novice;pos=e7;rarity=5;slot=2;level=42;stats=[41;45;41;25;31];weapon=Gronnrabbit+;assist=-;special=Luna;a=Atk/Spd Form 3;b=-;c=Spur Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=c6;rarity=5;slot=3;level=42;stats=[45;32;32;31;23];weapon=Barrier Lance+;assist=-;special=Sacred Cowl;a=Distant Def 3;b=-;c=Infantry Pulse 3;seal=-;ai={turn=1};};
+{unit=Thief;pos=f6;rarity=5;slot=4;level=42;stats=[37;29;40;14;33];weapon=Quick Dagger+;assist=-;special=Lethality;a=Life and Death 3;b=Lull Spd/Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=b7;rarity=5;slot=5;level=42;stats=[44;33;30;30;16];weapon=Instant Bow+;assist=-;special=Moonbow;a=Bonus Doubler 3;b=-;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Ricken: Shepherd Novice;text=All Chrom does is treat me like\na child.;textJP=クロムさんってば、\nいっつも僕を子供扱いするんだから…};
+]}}
+{{Story Navbar|Remember His Name|To Kill}}
+==In other languages==
+{{OtherLanguages
+|japanese=見習いのため息
+|german=Sehnsüchtige Seufzer
+|spanishEU=Suspiro anhelante
+|spanishLA=Suspiro anhelante
+|french=Soupirs de l'apprenti
+|italian=Apprendista lagnoso
+|chineseTW=見習生的嘆息
+|portuguese=Suspiros sôfregos
+}}
+{{Story Maps Navbox|book=6}}

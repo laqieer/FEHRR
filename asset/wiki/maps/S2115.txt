@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Olivia2_Revealed.png
+|stageTitle=Chapter 11-5
+|stageName=Burnt-Bone Gorge
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 11: Prince of Ice
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2115
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Ally|1}} | c7={{Ally|2}} | d7={{Ally|3}} | e7={{Ally|4}} | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|winReq=Turns to Win: 6 (Normal)<br>Turns to Win: 5 (Hard & Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-07-20T07:00:00Z|notification=New Heroes: Ylissean Travelers (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Laevatein: Searing Steel;pos=c2;rarity=3;slot=1;level=30;stats=[33;26;21;25;18];weapon=Laevatein (weapon);assist=-;special=Glowing Ember;a=Swift Sparrow 1;b=-;c=Atk Tactic 1;seal=-;ai={turn=4;group=2;delay=2};};
+{unit=Laegjarn: Sheathed Steel;pos=d2;rarity=3;slot=2;level=30;stats=[34;22;26;26;11];weapon=Níu;assist=Rally Attack;special=New Moon;a=Fury 1;b=Def Feint 1;c=Guidance 1;seal=-;ai={turn=4;group=2;delay=2};};
+{unit=Maribelle: Dire Damsel;pos=b1;rarity=3;slot=3;level=30;stats=[27;25;23;10;18];weapon=Trilemma;assist=Martyr;special=Imbue;a=-;b=Dazzling Staff 1;c=Staff Valor 1;seal=-;ai={group=1;delay=2};};
+{unit=Libra: Fetching Friar;pos=f2;rarity=3;slot=4;level=30;stats=[31;25;22;19;20];weapon=Wo Gùn;assist=Ardent Sacrifice;special=Daylight;a=-;b=Renewal 1;c=Spur Atk/Res 1;seal=-;ai={group=1;delay=2};};
+{unit=Sumia: Maid of Flowers;pos=e3;rarity=3;slot=5;level=30;stats=[30;20;28;20;18];weapon=Reprisal Lance;assist=Reposition;special=-;a=Close Def 1;b=Atk/Def Link 1;c=Flier Guidance 1;seal=-;ai={group=1;delay=2};};
+]
+|Hard=[
+{unit=Laevatein: Searing Steel;pos=c2;rarity=4;slot=1;level=40;stats=[40;34;28;33;23];weapon=Laevatein (weapon);assist=-;special=Bonfire;a=Swift Sparrow 2;b=-;c=Atk Tactic 2;seal=-;ai={turn=4;group=2;delay=2};};
+{unit=Laegjarn: Sheathed Steel;pos=d2;rarity=4;slot=2;level=40;stats=[41;29;34;35;15];weapon=Níu;assist=Rally Atk/Spd;special=Moonbow;a=Fury 2;b=Def Feint 2;c=Guidance 2;seal=-;ai={turn=4;group=2;delay=2};};
+{unit=Maribelle: Dire Damsel;pos=b1;rarity=4;slot=3;level=40;stats=[32;33;31;14;24];weapon=Trilemma;assist=Martyr;special=Imbue;a=-;b=Dazzling Staff 2;c=Staff Valor 2;seal=-;ai={group=1;delay=2};};
+{unit=Libra: Fetching Friar;pos=f2;rarity=4;slot=4;level=40;stats=[37;33;30;25;26];weapon=Wo Gùn;assist=Ardent Sacrifice;special=Daylight;a=-;b=Renewal 2;c=Spur Atk/Res 2;seal=-;ai={group=1;delay=2};};
+{unit=Sumia: Maid of Flowers;pos=e3;rarity=4;slot=5;level=40;stats=[36;27;37;27;23];weapon=Reprisal Lance;assist=Reposition;special=-;a=Close Def 2;b=Atk/Def Link 2;c=Flier Guidance 2;seal=-;ai={group=1;delay=2};};
+]
+|Lunatic=[
+{unit=Laevatein: Searing Steel;pos=c2;rarity=5;slot=1;level=45;displaylevel=40;stats=[46;39;34;38;28];weapon=Laevatein (weapon);assist=-;special=Bonfire;a=Swift Sparrow 2;b=Cancel Affinity 3;c=Atk Tactic 3;seal=-;ai={turn=4;group=2;delay=2};};
+{unit=Laegjarn: Sheathed Steel;pos=d2;rarity=5;slot=2;level=45;displaylevel=40;stats=[47;35;39;41;18];weapon=Níu;assist=Rally Atk/Spd;special=Moonbow;a=Fury 3;b=Def Feint 3;c=Guidance 3;seal=-;ai={turn=4;group=2;delay=2};};
+{unit=Maribelle: Dire Damsel;pos=b1;rarity=5;slot=3;level=45;displaylevel=40;stats=[36;38;36;17;30];weapon=Trilemma+;assist=Martyr+;special=Miracle;a=-;b=Dazzling Staff 3;c=Staff Valor 3;seal=-;ai={group=1;delay=2};};
+{unit=Libra: Fetching Friar;pos=f2;rarity=5;slot=4;level=45;displaylevel=40;stats=[43;38;35;31;32];weapon=Wo Gùn+;assist=Ardent Sacrifice;special=Noontime;a=-;b=Renewal 3;c=Spur Atk/Res 2;seal=-;ai={group=1;delay=2};};
+{unit=Sumia: Maid of Flowers;pos=e3;rarity=5;slot=5;level=45;displaylevel=40;stats=[42;33;43;32;28];weapon=Reprisal Lance+;assist=Reposition;special=-;a=Close Def 3;b=Atk/Def Link 3;c=Flier Guidance 3;seal=-;ai={group=1;delay=2};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Dance in the Sky|Leo & Elise: Bound Hero Battle}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=骨灰の谷
+|german=Ascheschlucht
+|spanishEU=Desfiladero del Osario
+|spanishLA=Desfiladero óseo
+|french=La vallée des os brûlés
+|italian=Valle delle Ossa Bruciate
+|chineseTW=骨灰之谷
+|portuguese=Desfiladeiro dos ossos
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Robin (M) (Fallen Heroes) Unrevealed.png
+|mapName=Chapter 5-4: The Dark Emperor
+|stageTitle=Chapter 5: Part 4
+|stageName=The Dark Emperor
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 5: Blood and Snow
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2054
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2={{Ally|3}} | f2=
+| a1= | b1= | c1= | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=33
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-02-22T07:00:00Z|notification=New Heroes: Fallen Heroes (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Hardin: Dark Emperor;pos=c6;rarity=3;slot=1;level=14;stats=[28;13;11;15;13];weapon=Steel Lance;assist=-;special=Retribution;a=Brazen Def/Res 1;b=Bold Fighter 1;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=c7;rarity=3;slot=2;level=14;stats=[24;13;9;9;12];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Spur Res 1;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=d8;rarity=3;slot=3;level=14;stats=[23;14;9;8;9];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Breath of Life 1;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=e6;rarity=3;slot=4;level=14;stats=[33;16;5;18;6];weapon=Steel Axe;assist=-;special=-;a=Armored Blow 1;b=Wary Fighter 1;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=a7;rarity=3;slot=5;level=14;stats=[21;10;11;9;14];weapon=-;assist=Physic;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Hardin: Dark Emperor;pos=c6;rarity=4;slot=1;level=33;stats=[38;28;21;30;25];weapon=Silver Lance;assist=-;special=Retribution;a=Brazen Def/Res 2;b=Bold Fighter 2;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=c7;rarity=4;slot=2;level=33;stats=[34;28;19;20;24];weapon=Slaying Edge;assist=-;special=Buckler;a=-;b=Lunge;c=Spur Res 2;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=d8;rarity=4;slot=3;level=33;stats=[33;29;17;19;19];weapon=Silver Bow;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Breath of Life 2;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=e6;rarity=4;slot=4;level=33;stats=[47;32;12;34;14];weapon=Slaying Hammer;assist=-;special=-;a=Armored Blow 2;b=Wary Fighter 2;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=a7;rarity=4;slot=5;level=33;stats=[29;22;21;18;29];weapon=Gravity;assist=Physic;special=-;a=Fortress Def 1;b=-;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Hardin: Dark Emperor;pos=c6;rarity=5;slot=1;level=43;displaylevel=40;stats=[46;36;29;38;34];weapon=Gradivus;assist=-;special=Vengeance;a=Brazen Def/Res 3;b=Bold Fighter 3;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=c7;rarity=5;slot=2;level=43;displaylevel=40;stats=[42;36;26;27;31];weapon=Slaying Edge+;assist=-;special=Escutcheon;a=-;b=Lunge;c=Spur Res 3;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=d8;rarity=5;slot=3;level=43;displaylevel=40;stats=[41;37;23;26;24];weapon=Silver Bow+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Breath of Life 3;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=e6;rarity=5;slot=4;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Slaying Hammer+;assist=-;special=-;a=Armored Blow 3;b=Wary Fighter 3;c=Ward Armor;seal=-;ai={group=1};};
+{unit=Cleric;pos=a7;rarity=5;slot=5;level=43;displaylevel=40;stats=[35;29;29;24;37];weapon=Gravity+;assist=Physic+;special=-;a=Fortress Def 3;b=-;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_serious1};
+  {unit=Hardin: Dark Emperor;text=Come to me, fugitives—feel the fangs\nof Gradivus pierce you!;textJP=逃亡兵ども、早く来るがいい。\nこのグラディウスの槍で\nその胸を貫いてやろう！};
+]}}
+{{Story Navbar|The Fell Dragon Rises|Hunted by the Flames}}
+==In other languages==
+{{OtherLanguages
+|japanese=暗黒皇帝
+|german=Der Dunkle Herrscher
+|spanishEU=El soberano oscuro
+|spanishLA=El Soberano oscuro
+|french=Le sombre empereur
+|italian=Il sovrano oscuro
+|chineseTW=暗黑皇帝
+|portuguese=O imperador vil
+}}
+{{Story Maps Navbox|book=2}}

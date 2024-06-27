@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0701.webp
+|stageTitle=Chapter 13-2
+|stageName=Birth of Time
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 13: Time
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7012
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=34
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_20.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Kiragi: Upbeat Archer;pos=b7;rarity=3;slot=1;level=21;stats=[27;21;26;21;12];weapon=Steel Bow;assist=-;special=-;a=Swift Sparrow 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Dwyer: Sleepy Butler;pos=e8;rarity=3;slot=2;level=21;stats=[27;21;20;14;22];weapon=Assault;assist=Reconcile;special=-;a=AR-D Atk/Res 1;b=-;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=d7;rarity=3;slot=3;level=21;stats=[26;15;20;11;21];weapon=Steel Lance;assist=-;special=-;a=Sturdy Blow 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=c8;rarity=3;slot=4;level=21;stats=[24;16;21;8;18];weapon=Elwind;assist=-;special=-;a=Life and Death 1;b=-;c=Spd/Res Rein 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Kiragi: Upbeat Archer;pos=b7;rarity=4;slot=1;level=34;stats=[34;31;37;31;18];weapon=Unbound Bow;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Dwyer: Sleepy Butler;pos=e8;rarity=4;slot=2;level=34;stats=[34;31;30;20;32];weapon=Aid;assist=Martyr;special=Heavenly Light;a=AR-D Atk/Res 2;b=-;c=Spd Tactic 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=d7;rarity=4;slot=3;level=34;stats=[32;22;30;16;31];weapon=Rein Lance;assist=-;special=Buckler;a=Sturdy Blow 1;b=Hit and Run;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=c8;rarity=4;slot=4;level=34;stats=[29;23;31;12;27];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=Life and Death 2;b=-;c=Spd/Res Rein 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Kiragi: Upbeat Archer;pos=b7;rarity=5;slot=1;level=41;stats=[40;39;44;38;24];weapon=Unbound Bow+;assist=-;special=Luna;a=Swift Sparrow 2;b=-;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Dwyer: Sleepy Butler;pos=e8;rarity=5;slot=2;level=41;stats=[40;38;36;26;40];weapon=Aid+;assist=Martyr+;special=Heavenly Light;a=AR-D Atk/Res 3;b=-;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=d7;rarity=5;slot=3;level=41;stats=[38;28;36;22;37];weapon=Rein Lance+;assist=-;special=Escutcheon;a=Sturdy Blow 2;b=Hit and Run;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=c8;rarity=5;slot=4;level=41;stats=[35;29;38;16;32];weapon=Rexcalibur+;assist=-;special=Iceberg;a=Life and Death 3;b=-;c=Spd/Res Rein 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Dwyer: Sleepy Butler;text=If I have to be a Hero, I guess I'll\nbe a better Hero than my father.;textJP=どうせなら、\n父さんよりもすごい英雄になりたい…};
+]
+}}
+{{Story Navbar|Rule of Time|Unraveling of Time}}
+==In other languages==
+{{OtherLanguages
+|japanese=時はまだ見ぬ命を生み
+|german=Geburt der Zeit
+|spanishEU=El nacimiento del tiempo
+|spanishLA=El nacimiento del tiempo
+|french=La naissance du temps
+|italian=La nascita del tempo
+|chineseTW=時間會孕育未知的生命
+|portuguese=O nascer do tempo
+}}
+{{Story Maps Navbox|book=7}}

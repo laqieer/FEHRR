@@ -1,0 +1,86 @@
+{{Battle Infobox 
+|bannerImage=Banner_Micaiah Unrevealed.png
+|mapName=Chapter 3-3: Ensnared by Beauty
+|stageTitle=Chapter 3: Part 3
+|stageName=Ensnared by Beauty
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 3: Guided by a Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2033
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=27
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-12T07:00:00Z|notification=New Heroes: World of Dawn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Oliver: Admirer of Beauty;pos=d7;rarity=3;slot=1;level=7;stats=[18;8;6;4;7];weapon=Light;assist=-;special=-;a=Warding Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c7;rarity=3;slot=2;level=7;stats=[18;8;9;6;6];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f5;rarity=3;slot=3;level=7;stats=[20;7;9;6;3];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=3;slot=4;level=7;stats=[19;8;8;6;1];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Oliver: Admirer of Beauty;pos=d7;rarity=4;slot=1;level=27;stats=[32;23;13;15;24];weapon=Ellight;assist=-;special=Rising Light;a=Mirror Strike 1;b=-;c=Atk Ploy 2;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c7;rarity=4;slot=2;level=27;stats=[33;23;21;19;18];weapon=Fire Breath+;assist=-;special=-;a=Attack/Def +1;b=-;c=Hone Atk 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f5;rarity=4;slot=3;level=27;stats=[34;22;21;21;14];weapon=Steel Sword;assist=-;special=Night Sky;a=Wind Boost 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=4;slot=4;level=27;stats=[33;23;20;19;10];weapon=Steel Bow;assist=-;special=-;a=-;b=Poison Strike 2;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Oliver: Admirer of Beauty;pos=d7;rarity=5;slot=1;level=42;displaylevel=40;stats=[43;33;20;24;35];weapon=Shine+;assist=-;special=Blazing Light;a=Mirror Strike 2;b=-;c=Atk Ploy 3;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c7;rarity=5;slot=2;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Light Breath+;assist=-;special=-;a=Attack/Def +2;b=-;c=Hone Atk 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f5;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Wo Dao+;assist=-;special=Glimmer;a=Wind Boost 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=a6;rarity=5;slot=4;level=42;displaylevel=40;stats=[44;33;30;30;16];weapon=Silver Bow+;assist=-;special=-;a=-;b=Poison Strike 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_serious1};
+  {unit=Oliver: Admirer of Beauty;text=Well, well. The ethereal princess\nrequires a stout and stunning\nguardian!;textJP=ほほ。あの儚く小さき皇女には\n強く美しき庇護者が必要であろう。\nすなわち、そう…私のような！};
+  {text=Could it be any clearer? I am needed!};
+]}}
+{{Story Navbar|The Silver-Haired Maiden|A Menacing Swordsman}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=奇妙な守護者
+|german=Im Bann der Schönheit
+|spanishEU=Protector de la belleza
+|spanishLA=Protector de la belleza
+|french=Le piège de la beauté
+|italian=Rapito dal bello
+|chineseTW=奇妙的守護者
+|portuguese=Beleza encantadora
+}}
+{{Story Maps Navbox|book=2}}

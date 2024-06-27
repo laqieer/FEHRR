@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0606.webp
+|stageTitle=Chapter 6: Part 3
+|stageName=State of Deception
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 6: Revealing Lies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6063
+|backdrop=
+|allyPos=a3,b3,b2,c2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=16
+|lvlHard=33
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE04_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-04-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Ishtar (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Arthur: Furious Mage;pos=c8;rarity=3;slot=1;level=16;stats=[24;21;20;13;7];weapon=Elwind;assist=-;special=-;a=Atk/Spd Ideal 1;b=-;c=Threat. Spd/Res 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d7;rarity=3;slot=2;level=16;stats=[26;15;13;13;6];weapon=Steel Bow;assist=-;special=-;a=Swift Sparrow 1;b=-;c=Atk Smoke 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f5;rarity=3;slot=3;level=16;stats=[25;17;11;18;8];weapon=Steel Sword;assist=Swap;special=-;a=-;b=Atk/Def Snag 1;c=Atk/Def Rein 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b7;rarity=3;slot=4;level=16;stats=[34;18;6;20;8];weapon=Steel Lance;assist=-;special=-;a=Sturdy Stance 1;b=Vengeful Fighter 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Arthur: Furious Mage;pos=c8;rarity=4;slot=1;level=33;stats=[33;35;34;23;13];weapon=Gronnvulture;assist=-;special=Night Sky;a=Atk/Spd Ideal 2;b=-;c=Threat. Spd/Res 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d7;rarity=4;slot=2;level=33;stats=[36;26;23;22;12];weapon=Short Bow;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Atk Smoke 2;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f5;rarity=4;slot=3;level=33;stats=[34;29;20;30;14];weapon=Silver Sword;assist=Swap;special=-;a=-;b=Atk/Def Snag 2;c=Atk/Def Rein 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b7;rarity=4;slot=4;level=33;stats=[47;32;12;34;14];weapon=Vanguard;assist=-;special=Glowing Ember;a=Sturdy Stance 1;b=Vengeful Fighter 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Arthur: Furious Mage;pos=c8;rarity=5;slot=1;level=42;stats=[41;44;43;31;18];weapon=Gronnvulture+;assist=-;special=Glimmer;a=Atk/Spd Ideal 4;b=-;c=Spd/Res Menace;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=d7;rarity=5;slot=2;level=42;stats=[44;33;30;30;16];weapon=Short Bow+;assist=-;special=Moonbow;a=Swift Sparrow 2;b=-;c=Atk Smoke 3;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f5;rarity=5;slot=3;level=42;stats=[42;36;28;37;19];weapon=Silver Sword+;assist=Swap;special=-;a=-;b=Atk/Def Snag 3;c=Atk/Def Rein 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b7;rarity=5;slot=4;level=42;stats=[57;40;16;42;19];weapon=Vanguard+;assist=-;special=Bonfire;a=Sturdy Stance 2;b=Vengeful Fighter 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Princess Seized|Make Your Choice}}
+==In other languages==
+{{OtherLanguages
+|japanese=嘘の形勢
+|german=Stetige Täuschung
+|spanishEU=Más mentiras
+|spanishLA=Más mentiras
+|french=Rien que des mensonges
+|italian=Raggiri
+|chineseTW=虛假的情勢
+|portuguese=Enganação
+}}
+{{Story Maps Navbox|book=6}}

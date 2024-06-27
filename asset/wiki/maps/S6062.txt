@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0606.webp
+|stageTitle=Chapter 6: Part 2
+|stageName=Princess Seized
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 6: Revealing Lies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6062
+|backdrop=WavePatternNight
+|allyPos=a7,b7,a6,b6
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=32
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE04_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-04-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Ishtar (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Tine: Rumbling Thunder;pos=d1;rarity=3;slot=1;level=15;stats=[22;18;20;10;12];weapon=Elstone;assist=-;special=-;a=Fury 1;b=Null Follow-Up 1;c=Blue Feud 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f3;rarity=3;slot=2;level=15;stats=[23;12;16;8;17];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Guidance 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b1;rarity=3;slot=3;level=15;stats=[26;13;13;14;9];weapon=Steel Lance;assist=-;special=-;a=Life and Death 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=3;slot=4;level=15;stats=[20;16;11;7;15];weapon=Elwind;assist=-;special=-;a=Fury 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Tine: Rumbling Thunder;pos=d1;rarity=4;slot=1;level=32;stats=[31;33;34;18;20];weapon=Atlas (weapon);assist=-;special=Dragon Gaze;a=Fury 2;b=Null Follow-Up 2;c=Blue Feud 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f3;rarity=4;slot=2;level=32;stats=[31;21;28;16;29];weapon=Slaying Edge;assist=-;special=Chilling Wind;a=-;b=Hit and Run;c=Guidance 2;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b1;rarity=4;slot=3;level=32;stats=[36;24;23;24;17];weapon=Firesweep Lance;assist=-;special=New Moon;a=Life and Death 2;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=4;slot=4;level=32;stats=[28;28;19;12;27];weapon=Gronnfox;assist=-;special=Night Sky;a=Fury 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Tine: Rumbling Thunder;pos=d1;rarity=5;slot=1;level=41;stats=[38;43;43;24;27];weapon=Thunderer Tome;assist=-;special=Draconic Aura;a=Fury 4;b=Null Follow-Up 3;c=Blue Feud 3;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f3;rarity=5;slot=2;level=41;stats=[38;28;36;22;37];weapon=Slaying Edge+;assist=-;special=Iceberg;a=-;b=Hit and Run;c=Guidance 3;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b1;rarity=5;slot=3;level=41;stats=[44;31;31;30;23];weapon=Firesweep L+;assist=-;special=Moonbow;a=Life and Death 3;b=Lull Spd/Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=5;slot=4;level=41;stats=[34;36;26;17;35];weapon=Gronnfox+;assist=-;special=Glimmer;a=Fury 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Dungeon Keep|State of Deception}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=囚われの皇女
+|german=Gefangene Prinzessin
+|spanishEU=Princesa capturada
+|spanishLA=Princesa capturada
+|french=Princesse emprisonnée
+|italian=Principessa rinchiusa
+|chineseTW=被囚禁的皇女
+|portuguese=Princesa capturada
+}}
+{{Story Maps Navbox|book=6}}

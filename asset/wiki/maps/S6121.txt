@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0612.webp
+|stageTitle=Chapter 12-1
+|stageName=Time to Grieve
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 12: Princess and Prince
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6121
+|backdrop=
+|allyPos=f4,e3,f3,f2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-10-17T07:00:00Z|notification=Special Rearmed Robin & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Phila: Pegasus Master;pos=a6;rarity=3;slot=1;level=28;stats=[28;25;29;16;28];weapon=Rein Lance;assist=-;special=Chilling Wind;a=Brazen Atk/Res 1;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=b7;rarity=3;slot=2;level=28;stats=[31;24;17;25;12];weapon=Steel Sword;assist=-;special=Glowing Ember;a=-;b=Wyvern Flight 1;c=Atk/Def Rein 1;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a2;rarity=3;slot=3;level=28;stats=[29;20;21;13;18];weapon=Elwind;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=-;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=a4;rarity=3;slot=4;level=28;stats=[42;26;10;28;12];weapon=Steel Sword;assist=Pivot;special=-;a=Atk/Def Ideal 1;b=-;c=Close Guard 1;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=b8;rarity=3;slot=5;level=28;stats=[29;19;25;21;17];weapon=Fire Breath+;assist=-;special=New Moon;a=-;b=Dive-Bomb 1;c=Spur Atk 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Phila: Pegasus Master;pos=a6;rarity=4;slot=1;level=35;stats=[33;31;37;21;35];weapon=Rein Lance;assist=-;special=Chilling Wind;a=Brazen Atk/Res 2;b=Pegasus Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=b7;rarity=4;slot=2;level=35;stats=[36;30;22;31;15];weapon=Rein Sword;assist=-;special=Glowing Ember;a=-;b=Wyvern Flight 2;c=Atk/Def Rein 2;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a2;rarity=4;slot=3;level=35;stats=[33;26;27;16;23];weapon=Gronnblade;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=-;c=Rouse Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=a4;rarity=4;slot=4;level=35;stats=[49;33;12;35;15];weapon=Allied Sword;assist=Pivot;special=-;a=Atk/Def Ideal 2;b=-;c=Close Guard 2;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=b8;rarity=4;slot=5;level=35;stats=[34;24;31;27;22];weapon=Flametongue;assist=-;special=New Moon;a=-;b=Dive-Bomb 2;c=Spur Atk 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Phila: Pegasus Master;pos=a6;rarity=5;slot=1;level=40;stats=[38;37;42;26;40];weapon=Rein Lance+;assist=-;special=Iceberg;a=Brazen Atk/Res 3;b=Pegasus Flight 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=b7;rarity=5;slot=2;level=40;stats=[41;35;27;36;19];weapon=Rein Sword+;assist=-;special=Bonfire;a=-;b=Wyvern Flight 3;c=Atk/Def Rein 3;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=a2;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Gronnblade+;assist=-;special=Draconic Aura;a=Swift Sparrow 2;b=-;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=a4;rarity=5;slot=4;level=40;stats=[55;38;16;40;19];weapon=Allied Sword+;assist=Pivot;special=-;a=Atk/Def Ideal 3;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=b8;rarity=5;slot=5;level=40;stats=[39;29;36;32;27];weapon=Flametongue+;assist=-;special=Moonbow;a=-;b=Dive-Bomb 3;c=Goad Fliers;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Life & Death 4|Remember His Name}}
+==In other languages==
+{{OtherLanguages
+|japanese=嘆き悲しむ時間は
+|german=Zeit zu trauern
+|spanishEU=Momento de duelo
+|spanishLA=Momento de duelo
+|french=Faire le deuil
+|italian=Cordoglio
+|chineseTW=感到悲傷的時間
+|portuguese=Hora do luto
+}}
+{{Story Maps Navbox|book=6}}

@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0513.webp
+|stageTitle=Chapter 13-3
+|stageName=Resolute Damsel
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 13: Specter of Niðavellir
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5133
+|backdrop=
+|allyPos=b2,c2,b1,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE09_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-11-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Laegjarn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Astrid: Resolute Damsel;pos=f7;rarity=3;slot=1;level=32;stats=[30;29;31;19;17];weapon=Silver Bow;assist=Rally Atk/Def;special=-;a=Spd/Def Bond 1;b=Atk/Def Ruse 1;c=-;seal=-;ai={turn=1};};
+{unit=Steam Sword;pos=d7;rarity=3;slot=2;level=32;stats=[35;27;26;25;15];weapon=Unbound Blade;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 1;b=Lull Spd/Def 1;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=3;slot=3;level=32;stats=[30;23;24;14;20];weapon=Blárblade;assist=-;special=Dragon Gaze;a=-;b=Null Follow-Up 1;c=Odd Spd Wave 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=c8;rarity=3;slot=4;level=32;stats=[29;24;25;12;21];weapon=Rein Bow;assist=-;special=Chilling Wind;a=Atk/Spd Bond 1;b=-;c=Ground Orders 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f5;rarity=3;slot=5;level=32;stats=[28;20;20;17;26];weapon=Slow;assist=Rescue;special=Solid-Earth Balm;a=-;b=Live to Serve 1;c=Distant Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Astrid: Resolute Damsel;pos=f7;rarity=4;slot=1;level=37;stats=[34;35;37;23;20];weapon=Silver Bow;assist=Rally Atk/Def;special=-;a=Spd/Def Bond 2;b=Atk/Def Ruse 2;c=-;seal=-;ai={turn=1};};
+{unit=Steam Sword;pos=d7;rarity=4;slot=2;level=37;stats=[38;32;30;29;18];weapon=Unbound Blade;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 2;b=Lull Spd/Def 2;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=4;slot=3;level=37;stats=[34;27;28;17;24];weapon=Blárblade;assist=-;special=Dragon Gaze;a=-;b=Null Follow-Up 2;c=Odd Spd Wave 2;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=c8;rarity=4;slot=4;level=37;stats=[33;28;31;14;25];weapon=Rein Bow;assist=-;special=Chilling Wind;a=Atk/Spd Bond 2;b=-;c=Ground Orders 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f5;rarity=4;slot=5;level=37;stats=[31;25;24;20;32];weapon=Slow;assist=Rescue;special=Solid-Earth Balm;a=-;b=Live to Serve 2;c=Distant Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Astrid: Resolute Damsel;pos=f7;rarity=5;slot=1;level=42;stats=[39;41;43;28;24];weapon=Damiell Bow;assist=Rally Atk/Def+;special=-;a=Spd/Def Bond 3;b=Atk/Def Ruse 3;c=-;seal=-;ai={turn=1};};
+{unit=Steam Sword;pos=d7;rarity=5;slot=2;level=42;stats=[44;38;37;34;21];weapon=Unbound Blade+;assist=-;special=Dragon Fang;a=Atk/Spd Solo 3;b=Lull Spd/Def 3;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=5;slot=3;level=42;stats=[38;32;33;20;29];weapon=Blárblade+;assist=-;special=Draconic Aura;a=-;b=Null Follow-Up 3;c=Odd Spd Wave 3;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=c8;rarity=5;slot=4;level=42;stats=[37;33;35;17;30];weapon=Rein Bow+;assist=-;special=Iceberg;a=Atk/Spd Bond 3;b=-;c=Ground Orders 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=f5;rarity=5;slot=5;level=42;stats=[35;29;29;24;36];weapon=Slow+;assist=Rescue+;special=Earthwater Balm+;a=-;b=Live to Serve 3;c=Distant Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Astrid: Resolute Damsel;text=I intend to live according to my own\nwishes, not those of my family...;textJP=私は、私自身の\n力と意思で生きたいのです…};
+]}}
+{{Story Navbar|The Sword Gramr|Crown of the Dvergar}}
+==In other languages==
+{{OtherLanguages
+|japanese=覚悟の伯爵家令嬢
+|german=Resolute Maid
+|spanishEU=Dama resuelta
+|spanishLA=Dama resuelta
+|french=Noble résolue
+|italian=La dama decisa
+|chineseTW=下決心的伯爵家千金
+|portuguese=Donzela resoluta
+}}
+{{Story Maps Navbox|book=5}}

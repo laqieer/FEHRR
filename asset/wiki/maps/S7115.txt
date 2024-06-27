@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0711 C.webp
+|stageTitle=Chapter 11-5
+|stageName=Only One You
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 11: Without Limits
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7115
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_03.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-09-15T07:00:00Z|notification=Special Summon: Rearmed Plumeria & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ced: Sage of the Wind;pos=c7;slot=1;rarity=3;level=30;stats=[33;34;33;15;17];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Atk/Spd Ideal 1;b=Special Spiral 1;c=Infantry Pulse 1;seal=-;ai={turn=1};};
+{unit=Arion: Gungnir's Heir;pos=d8;slot=2;rarity=3;level=30;stats=[31;32;26;32;15];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Atk/Def Catch 1;b=Wyvern Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;slot=3;rarity=3;level=30;stats=[30;21;22;14;19];weapon=Rauðrlion;assist=-;special=Rising Light;a=Atk/Spd Bond 1;b=-;c=Hone Spd 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Fáfnir;pos=e7;slot=4;rarity=3;level=30;stats=[30;20;26;22;18];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Atk/Spd Clash 1;b=Dive-Bomb 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Febail: Mercenary Waif;pos=b7;slot=5;rarity=3;level=30;stats=[31;33;34;17;21];weapon=Silver Bow;assist=-;special=New Moon;a=Sorcery Blade 1;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ced: Sage of the Wind;pos=c7;slot=1;rarity=4;level=40;stats=[40;43;44;20;23];weapon=Heired Forseti;assist=-;special=Rising Wind;a=Atk/Spd Ideal 3;b=Special Spiral 3;c=Infantry Pulse 3;seal=-;ai={turn=1};};
+{unit=Arion: Gungnir's Heir;pos=d8;slot=2;rarity=4;level=40;stats=[38;43;34;43;19];weapon=Heired Gungnir;assist=-;special=Glowing Ember;a=Atk/Def Catch 2;b=Wyvern Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;slot=3;rarity=4;level=40;stats=[35;29;30;18;25];weapon=Rauðrlion;assist=-;special=Rising Light;a=Atk/Spd Bond 2;b=-;c=Hone Spd 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Fáfnir;pos=e7;slot=4;rarity=4;level=40;stats=[36;26;34;30;24];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Atk/Spd Clash 2;b=Dive-Bomb 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Febail: Mercenary Waif;pos=b7;slot=5;rarity=4;level=40;stats=[37;44;43;23;28];weapon=Heired Yewfelle;assist=-;special=New Moon;a=Sorcery Blade 3;b=Null Follow-Up 3;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ced: Sage of the Wind;pos=c7;slot=1;rarity=5;level=45;stats=[46;49;51;25;29];weapon=Heired Forseti;assist=-;special=Blazing Wind;a=Atk/Spd Ideal 4;b=Special Spiral 4;c=Infantry Pulse 4;seal=-;ai={turn=1};};
+{unit=Arion: Gungnir's Heir;pos=d8;slot=2;rarity=5;level=45;stats=[44;50;39;51;22];weapon=Heired Gungnir;assist=-;special=Ignis;a=Atk/Def Catch 3;b=Wyvern Flight 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;slot=3;rarity=5;level=45;stats=[40;34;35;22;31];weapon=Rauðrlion+;assist=-;special=Blazing Light;a=Atk/Spd Bond 3;b=-;c=Hone Spd 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Fáfnir;pos=e7;slot=4;rarity=5;level=45;stats=[42;32;39;35;30];weapon=Dark Breath+;assist=-;special=Draconic Aura;a=Atk/Spd Clash 3;b=Dive-Bomb 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Febail: Mercenary Waif;pos=b7;slot=5;rarity=5;level=45;stats=[43;51;49;29;34];weapon=Heired Yewfelle;assist=-;special=Luna;a=Spd/Res Hexblade;b=Phys. Null Follow;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Sage of the Wind|Carrying the Torch}}
+==In other languages==
+{{OtherLanguages
+|japanese=唯一人の「あなた」
+|german=Du ganz allein
+|spanishEU=Tú y solo tú
+|spanishLA=Tú y solo tú
+|french=La seule personne
+|italian=Solo tu
+|chineseTW=唯一的「你」
+|portuguese=Unicamente você
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Robin (M) (Fallen Heroes) Unrevealed.png
+|mapName=Chapter 5-3: The Fell Dragon Rises
+|stageTitle=Chapter 5: Part 3
+|stageName=The Fell Dragon Rises
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 5: Blood and Snow
+|mapMode=Turn Limit Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2053
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|1}} | c3={{Ally|2}} | d3={{Ally|3}} | e3={{Ally|4}} | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=13
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|winReq=Turns to Win: 5 (Normal)<br>Turns to Win: 5 (Hard)<br>Turns to Win: 4 (Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-02-22T07:00:00Z|notification=New Heroes: Fallen Heroes (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Robin: Fell Reincarnation;pos=c7;rarity=3;slot=1;level=13;stats=[29;16;10;14;9];weapon=Fire Breath+;assist=-;special=-;a=-;b=Vengeful Fighter 1;c=Spur Def 1;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=b7;rarity=3;slot=2;level=13;stats=[24;12;13;11;10];weapon=Fire Breath+;assist=-;special=-;a=-;b=-;c=Fortify Def 1;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d7;rarity=3;slot=3;level=13;stats=[24;12;13;11;10];weapon=Fire Breath+;assist=-;special=-;a=-;b=-;c=Hone Atk 1;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c8;rarity=3;slot=4;level=13;stats=[32;15;5;16;6];weapon=Steel Lance;assist=Reciprocal Aid;special=-;a=-;b=Wary Fighter 1;c=Spur Def 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Robin: Fell Reincarnation;pos=c7;rarity=4;slot=1;level=32;stats=[40;32;19;28;20];weapon=Flametongue;assist=-;special=Glowing Ember;a=-;b=Vengeful Fighter 2;c=Spur Def 2;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=b7;rarity=4;slot=2;level=32;stats=[36;25;24;22;21];weapon=Light Breath;assist=-;special=-;a=Atk/Def Bond 1;b=-;c=Fortify Dragons;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d7;rarity=4;slot=3;level=32;stats=[36;25;24;22;21];weapon=Dark Breath;assist=-;special=-;a=Atk/Res Bond 1;b=-;c=Hone Dragons;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c8;rarity=4;slot=4;level=32;stats=[46;31;11;33;14];weapon=Silver Lance;assist=Reciprocal Aid;special=-;a=-;b=Wary Fighter 2;c=Spur Def 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Robin: Fell Reincarnation;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[49;42;25;36;28];weapon=Expiration;assist=-;special=Ignis;a=-;b=Vengeful Fighter 3;c=Ward Dragons;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=b7;rarity=5;slot=2;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Light Breath+;assist=-;special=-;a=Atk/Def Bond 3;b=-;c=Fortify Dragons;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d7;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Dark Breath+;assist=-;special=-;a=Atk/Res Bond 3;b=-;c=Hone Dragons;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c8;rarity=5;slot=4;level=42;displaylevel=40;stats=[57;40;16;42;19];weapon=Silver Lance+;assist=Reciprocal Aid;special=-;a=-;b=Wary Fighter 3;c=Ward Armor;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_serious1};
+  {unit=Robin: Fell Reincarnation;text=I am the wings of despair. I am the\nbreath of ruin.;textJP=我はギムレー。破滅と絶望の竜…\nさあ、誰から食い殺そうか？};
+  {text=I am the fell dragon, Grima...
+	Who's ready to be devoured? You?};
+]}}
+{{Story Navbar|Dance of the Witch|The Dark Emperor}}
+==In other languages==
+{{OtherLanguages
+|japanese=邪竜目覚めし時
+|german=Der Dämonendrache
+|spanishEU=El Dragón Caído renace
+|spanishLA=El Dragón caído renace
+|french=L'éveil du Dragon Déchu
+|italian=Il risveglio di Grima
+|chineseTW=邪龍甦醒之時
+|portuguese=O terrível dragão desperta
+}}
+{{Story Maps Navbox|book=2}}

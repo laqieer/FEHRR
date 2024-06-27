@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=C0708.webp
+|stageTitle=Chapter 4: Part 4
+|stageName=Pursuit of the Past
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 4: Ouroboros
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7084
+|backdrop=
+|allyPos=d2,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=36
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_05.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-06-08T07:00:00Z|notification=Celebratory Summoning Event - New Heroes & Mythic Heiðr (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Noah: Mercenary-Errant;pos=b7;rarity=3;slot=1;level=23;stats=[28;29;26;17;9];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=Flow Guard 1;c=Rouse Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Fir: Swordmaiden;pos=c7;rarity=3;slot=2;level=23;stats=[29;26;30;19;11];weapon=Steel Sword;assist=-;special=Night Sky;a=Atk/Spd Finish 1;b=Null Follow-Up 1;c=Atk/Spd Oath 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a6;rarity=3;slot=3;level=23;stats=[29;20;13;14;18];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=Atk/Def Clash 1;b=-;c=Rouse Atk/Res 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=3;slot=4;level=23;stats=[24;16;16;13;21];weapon=Assault;assist=Reconcile;special=-;a=-;b=Live to Serve 1;c=Atk/Res Oath 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Cavalier;pos=f8;rarity=3;slot=5;level=23;stats=[23;21;14;9;20];weapon=Elthunder;assist=-;special=Night Sky;a=Atk/Res Catch 1;b=Swordbreaker 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Noah: Mercenary-Errant;pos=b7;rarity=4;slot=1;level=36;stats=[35;40;39;26;14];weapon=Silver Lance;assist=-;special=New Moon;a=-;b=Flow Guard 2;c=Rouse Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Fir: Swordmaiden;pos=c7;rarity=4;slot=2;level=36;stats=[37;39;41;29;17];weapon=Wo Dao;assist=-;special=Night Sky;a=Atk/Spd Finish 2;b=Null Follow-Up 2;c=Atk/Spd Oath 2;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a6;rarity=4;slot=3;level=36;stats=[36;30;20;21;26];weapon=Unbound Axe;assist=-;special=Dragon Gaze;a=Atk/Def Clash 2;b=-;c=Rouse Atk/Res 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=4;slot=4;level=36;stats=[30;24;23;19;31];weapon=Pain;assist=Restore;special=-;a=-;b=Live to Serve 2;c=Atk/Res Oath 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Cavalier;pos=f8;rarity=4;slot=5;level=36;stats=[29;31;21;14;30];weapon=Keen Blárwolf;assist=-;special=Night Sky;a=Atk/Res Catch 2;b=Swordbreaker 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Noah: Mercenary-Errant;pos=b7;rarity=5;slot=1;level=43;stats=[41;48;48;33;19];weapon=Ilian Merc Lance;assist=-;special=Luna;a=-;b=Flow Guard 3;c=Alarm Spd/Def;seal=-;ai={turn=1};};
+{unit=Fir: Swordmaiden;pos=c7;rarity=5;slot=2;level=43;stats=[44;46;49;37;22];weapon=Vassal-Saint Steel;assist=-;special=Glimmer;a=Atk/Spd Finish 4;b=Phys. Null Follow;c=Atk/Spd Oath 4;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a6;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Unbound Axe+;assist=-;special=Draconic Aura;a=Atk/Def Clash 3;b=-;c=Rouse Atk/Res 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=5;slot=4;level=43;stats=[35;29;29;24;37];weapon=Pain+;assist=Restore+;special=-;a=-;b=Live to Serve 3;c=Atk/Res Oath 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Cavalier;pos=f8;rarity=5;slot=5;level=43;stats=[34;37;27;18;36];weapon=Keen Blárwolf+;assist=-;special=Astra;a=Atk/Res Catch 3;b=Swordbreaker 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Fir: Swordmaiden;text=I wish Mother could have seen\nme like this.;textJP=母上にも、\nこの姿を見ていただきたかったな…};
+]
+}}
+{{Story Navbar|The Light of Hope|Connection in Time}}
+==In other languages==
+{{OtherLanguages
+|japanese=過去を追って
+|german=Sehnsucht
+|spanishEU=Persiguiendo el pasado
+|spanishLA=Persiguiendo el pasado
+|french=À la poursuite du passé
+|italian=In cerca del passato
+|chineseTW=追尋過去
+|portuguese=Perseguindo o passado
+}}
+{{Story Maps Navbox|book=7}}

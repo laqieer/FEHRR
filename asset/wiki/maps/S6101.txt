@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0610.webp
+|stageTitle=Chapter 10-1
+|stageName=World of Gateways
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 10: God of Openness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6101
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_15.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-08-17T07:00:00Z|notification=New Heroes Summoning Event: Weave of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Byleth: Sublime Light;pos=c8;rarity=3;slot=1;level=24;stats=[27;26;26;14;15];weapon=Elstone;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 1;b=Spd Preempt 1;c=Spd/Res Rein 1;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=e8;rarity=3;slot=2;level=24;stats=[22;19;12;12;26];weapon=Assault;assist=Mend;special=-;a=-;b=Live to Serve 1;c=Res Ploy 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c6;rarity=3;slot=3;level=24;stats=[40;23;8;25;11];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Vengeful Fighter 1;c=Close Guard 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=b7;rarity=3;slot=4;level=24;stats=[29;21;15;22;11];weapon=Steel Sword;assist=-;special=New Moon;a=Death Blow 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d7;rarity=3;slot=5;level=24;stats=[29;21;15;22;11];weapon=Steel Axe;assist=-;special=Buckler;a=-;b=-;c=Flier Guidance 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Byleth: Sublime Light;pos=c8;rarity=4;slot=1;level=35;stats=[34;36;37;21;20];weapon=Inner Wellspring;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 2;b=Spd Preempt 2;c=Spd/Res Rein 2;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=e8;rarity=4;slot=2;level=35;stats=[26;27;17;16;36];weapon=Panic;assist=Recover;special=-;a=-;b=Live to Serve 2;c=Res Ploy 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c6;rarity=4;slot=3;level=35;stats=[49;33;12;35;15];weapon=Slaying Lance;assist=-;special=Glowing Ember;a=-;b=Vengeful Fighter 2;c=Close Guard 2;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=b7;rarity=4;slot=4;level=35;stats=[36;30;22;31;15];weapon=Brave Sword;assist=-;special=New Moon;a=Death Blow 2;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d7;rarity=4;slot=5;level=35;stats=[36;30;22;31;15];weapon=Barrier Axe;assist=-;special=Buckler;a=-;b=-;c=Flier Guidance 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Byleth: Sublime Light;pos=c8;rarity=5;slot=1;level=40;stats=[39;41;43;26;24];weapon=Inner Wellspring;assist=-;special=Divine Pulse;a=Atk/Spd Catch 4;b=Spd Preempt 3;c=Spd/Res Hold;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=e8;rarity=5;slot=2;level=40;stats=[30;32;21;20;41];weapon=Panic+;assist=Recover+;special=-;a=-;b=Live to Serve 3;c=Res Ploy 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c6;rarity=5;slot=3;level=40;stats=[55;38;16;40;19];weapon=Slaying Lance+;assist=-;special=Ignis;a=-;b=Vengeful Fighter 3;c=Close Guard 3;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=b7;rarity=5;slot=4;level=40;stats=[41;35;27;36;19];weapon=Brave Sword+;assist=-;special=Luna;a=Death Blow 3;b=-;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d7;rarity=5;slot=5;level=40;stats=[41;35;27;36;19];weapon=Barrier Axe+;assist=-;special=Escutcheon;a=Iote's Shield;b=-;c=Flier Guidance 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Binding Worlds 1|Lineage of Light}}
+==In other languages==
+{{OtherLanguages
+|japanese=すべてが交わる世界
+|german=Welt zu den Welten
+|spanishEU=Mundo de portales
+|spanishLA=Mundo de portales
+|french=Monde de portails
+|italian=Il crocevia dell'universo
+|chineseTW=一切交會的世界
+|portuguese=Mundo dos portais
+}}
+{{Story Maps Navbox|book=6}}

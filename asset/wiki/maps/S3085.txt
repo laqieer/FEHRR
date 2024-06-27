@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0308_C.webp
+|stageTitle=Chapter 8: Part 5
+|stageName=Foreboding Words
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 8: Truth of a Name
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3085
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3={{Ally|1}} | b3={{Ally|2}} | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|3}} | c2={{Ally|4}} | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-06-11T07:00:00Z|notification=New Heroes: From a Future Past (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=d7;rarity=3;slot=1;level=24;stats=[29;23;18;20;16];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Death Blow 1;b=Chill Atk 1;c=Distant Guard 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Nah: Little Miss;pos=e7;rarity=3;slot=2;level=24;stats=[30;19;15;21;18];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Bonus Doubler 1;b=Quick Riposte 1;c=Infantry Breath 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Kjelle: Fair Fighter;pos=c6;rarity=3;slot=3;level=24;stats=[34;25;13;23;16];weapon=Steel Lance;assist=-;special=Dragon Gaze;a=AR-D Def/Res 1;b=Bold Fighter 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Brady: Daunting Priest;pos=e6;rarity=3;slot=4;level=24;stats=[29;20;19;13;16];weapon=Assault;assist=Mend;special=Imbue;a=Atk/Res Push 1;b=-;c=Infantry Rush 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Yarne: Timid Taguel;pos=a7;rarity=3;slot=5;level=24;stats=[28;21;19;19;9];weapon=Yearling (Cavalry);assist=-;special=Night Sky;a=Atk/Spd Solo 1;b=Escape Route 1;c=Odd Spd Wave 1;seal=-;ai={group=1;break_walls=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=d7;rarity=4;slot=1;level=37;stats=[37;34;27;30;24];weapon=Sökkvabekkr;assist=-;special=Draconic Aura;a=Death Blow 2;b=Chill Atk 2;c=Distant Guard 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Nah: Little Miss;pos=e7;rarity=4;slot=2;level=37;stats=[40;30;23;32;28];weapon=Flametongue;assist=-;special=Glowing Ember;a=Bonus Doubler 2;b=Quick Riposte 2;c=Infantry Breath 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Kjelle: Fair Fighter;pos=c6;rarity=4;slot=3;level=37;stats=[42;36;19;34;24];weapon=Barrier Lance;assist=-;special=Dragon Gaze;a=AR-D Def/Res 2;b=Bold Fighter 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Brady: Daunting Priest;pos=e6;rarity=4;slot=4;level=37;stats=[37;29;28;20;24];weapon=Slow;assist=Recover;special=Imbue;a=Atk/Res Push 2;b=-;c=Infantry Rush 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Yarne: Timid Taguel;pos=a7;rarity=4;slot=5;level=37;stats=[36;32;29;28;14];weapon=Adult (Cavalry);assist=-;special=Astra;a=Atk/Spd Solo 2;b=Escape Route 2;c=Odd Spd Wave 2;seal=-;ai={group=1;break_walls=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=d7;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;40;33;37;31];weapon=Sökkvabekkr;assist=-;special=Draconic Aura;a=Death Blow 3;b=Chill Atk 3;c=Distant Guard 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Nah: Little Miss;pos=e7;rarity=5;slot=2;level=45;displaylevel=40;stats=[47;38;28;42;35];weapon=Oracle's Breath;assist=-;special=Bonfire;a=Bonus Doubler 3;b=Quick Riposte 3;c=Infantry Breath 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Kjelle: Fair Fighter;pos=c6;rarity=5;slot=3;level=45;displaylevel=40;stats=[50;44;24;40;31];weapon=Barrier Lance+;assist=-;special=Draconic Aura;a=AR-D Def/Res 3;b=Bold Fighter 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Brady: Daunting Priest;pos=e6;rarity=5;slot=4;level=45;displaylevel=40;stats=[44;36;35;26;31];weapon=Slow+;assist=Recover+;special=Heavenly Light;a=Atk/Res Push 3;b=-;c=Infantry Rush 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Yarne: Timid Taguel;pos=a7;rarity=5;slot=5;level=45;displaylevel=40;stats=[43;38;36;35;18];weapon=Bunny Fang;assist=-;special=Galeforce;a=Atk/Spd Solo 3;b=Escape Route 3;c=Odd Spd Wave 3;seal=-;ai={group=1;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Tiny Harbringer|Spanning Time}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=書は語る、滅びを
+|german=Unheilvolle Worte
+|spanishEU=Una premonición funesta
+|spanishLA=Una premonición funesta
+|french=Écrits prophétiques
+|italian=Parole profetiche
+|chineseTW=書訴說著滅亡
+|portuguese=Está escrito nas ruínas
+}}
+{{Story Maps Navbox|book=3}}

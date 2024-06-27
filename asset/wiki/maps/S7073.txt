@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0707.webp
+|stageTitle=Chapter 3-3
+|stageName=Future Light
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 3: Within Wheels
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7073
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=19
+|lvlHard=34
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-05-09T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Chrom (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Anankos: Seething Silence;pos=c7;rarity=3;slot=1;level=19;stats=[26;22;25;19;15];weapon=Fire Breath+;assist=-;special=Daylight;a=Kestrel Stance 1;b=Savvy Fighter 1;c=A/S Near Save 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b8;rarity=3;slot=2;level=19;stats=[25;15;16;10;14];weapon=Elfire;assist=-;special=Chilling Wind;a=Distant Def 1;b=Quick Riposte 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Thief;pos=d8;rarity=3;slot=3;level=19;stats=[24;14;20;6;16];weapon=Steel Dagger;assist=-;special=New Moon;a=Mirror Strike 1;b=-;c=Close Guard 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Troubadour;pos=f8;rarity=3;slot=4;level=19;stats=[20;16;10;10;22];weapon=Assault;assist=Mend;special=-;a=-;b=A/R Far Trace 1;c=Rouse Atk/Res 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Anankos: Seething Silence;pos=c7;rarity=4;slot=1;level=34;stats=[36;36;38;30;25];weapon=Flametongue;assist=-;special=Daylight;a=Kestrel Stance 1;b=Savvy Fighter 2;c=A/S Near Save 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b8;rarity=4;slot=2;level=34;stats=[32;26;27;16;22];weapon=Rauðrserpent;assist=-;special=Chilling Wind;a=Distant Def 2;b=Quick Riposte 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Thief;pos=d8;rarity=4;slot=3;level=34;stats=[31;22;32;10;27];weapon=Vicious Dagger;assist=-;special=New Moon;a=Mirror Strike 1;b=-;c=Close Guard 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Troubadour;pos=f8;rarity=4;slot=4;level=34;stats=[26;27;16;16;35];weapon=Panic;assist=Recover;special=-;a=-;b=A/R Far Trace 2;c=Rouse Atk/Res 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Anankos: Seething Silence;pos=c7;rarity=5;slot=1;level=42;stats=[43;44;46;37;32];weapon=Silent Breath;assist=-;special=Noontime;a=Kestrel Stance 3;b=Savvy Fighter 4;c=A/S Near Save 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b8;rarity=5;slot=2;level=42;stats=[38;32;33;20;29];weapon=Rauðrserpent+;assist=-;special=Iceberg;a=Distant Def 3;b=Quick Riposte 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Thief;pos=d8;rarity=5;slot=3;level=42;stats=[37;29;40;14;33];weapon=Vicious Dagger+;assist=-;special=Moonbow;a=Mirror Strike 2;b=-;c=Close Guard 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Troubadour;pos=f8;rarity=5;slot=4;level=42;stats=[30;33;22;20;43];weapon=Panic+;assist=Recover+;special=-;a=-;b=A/R Far Trace 3;c=Rouse Atk/Res 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Memories Gone|Ashen Demon}}
+==In other languages==
+{{OtherLanguages
+|japanese=光の王の未来
+|german=Licht der Zukunft
+|spanishEU=El futuro del rey
+|spanishLA=El futuro del rey
+|french=L'avenir du roi
+|italian=Il futuro del re
+|chineseTW=光之王的未來
+|portuguese=Luz do futuro
+}}
+{{Story Maps Navbox|book=7}}

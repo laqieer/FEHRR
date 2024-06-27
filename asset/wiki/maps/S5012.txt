@@ -1,0 +1,78 @@
+{{About|the Story map|the Lance Cavalier unit|Fáfnir: King of Desolation|the Colorless Armored Dragon|Fáfnir: King of Desolation (Dragon)}}
+{{Battle Infobox
+|bannerImage=C0501.webp
+|stageTitle=Chapter 1: Part 2
+|stageName=King of Desolation
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 1: Machine Dominion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5012
+|backdrop=
+|allyPos=e3,f3,e2,f2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|lvlHard=21
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-12-08T07:00:00Z|notification=Book V Begins: Reginn and More Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Knight;pos=c7;rarity=3;slot=1;level=2;stats=[24;9;2;11;3];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=a5;rarity=3;slot=2;level=2;stats=[16;7;7;3;6];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=e8;rarity=3;slot=3;level=2;stats=[16;6;8;2;7];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Lance Knight;pos=c7;rarity=4;slot=1;level=21;stats=[38;23;8;25;10];weapon=Steel Lance;assist=-;special=Dragon Gaze;a=-;b=-;c=Armored Stride 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=a5;rarity=4;slot=2;level=21;stats=[25;19;20;9;16];weapon=Steel Bow;assist=-;special=Daylight;a=-;b=Poison Strike 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=e8;rarity=4;slot=3;level=21;stats=[24;16;22;8;19];weapon=Elfire;assist=-;special=Chilling Wind;a=Swift Sparrow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lance Knight;pos=c7;rarity=5;slot=1;level=41;stats=[56;39;16;41;19];weapon=Harmonic Lance+;assist=-;special=Draconic Aura;a=-;b=-;c=Armored Stride 3;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=a5;rarity=5;slot=2;level=41;stats=[37;32;35;17;29];weapon=Silver Bow+;assist=-;special=Noontime;a=-;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=e8;rarity=5;slot=3;level=41;stats=[35;29;38;16;32];weapon=Bolganone+;assist=-;special=Iceberg;a=Swift Sparrow 2;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Princess ex Machina|Insight and Inroads}}
+==In other languages==
+{{OtherLanguages
+|japanese=曠野の王
+|german=König der Ödnis
+|spanishEU=Rey de la ruina
+|spanishLA=Rey de la ruina
+|french=Roi du désespoir
+|italian=Re della rovina
+|chineseTW=曠野之王
+|portuguese=Rei das ruínas
+}}
+{{Story Maps Navbox|book=5}}

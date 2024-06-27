@@ -1,0 +1,106 @@
+{{Battle Infobox
+|bannerImage=C0612 C.webp
+|stageTitle=Chapter 12-5
+|stageName=To Be Killed
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 12: Princess and Prince
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6125
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_10.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-10-17T07:00:00Z|notification=Special Rearmed Robin & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S6125|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Veronica: Princess Beset (Legendary);pos=d8;rarity=3;slot=1;level=32;stats=[30;32;34;13;17];weapon=Enclosing Dark;assist=-;special=Night Sky;a=Atk/Spd Solo 1;b=S/R Far Trace 1;c=Rouse Atk/Spd 1;seal=-;ai={turn=3};};
+{unit=Robin: Fell Tactician;pos=b6;rarity=3;slot=2;level=32;stats=[34;31;33;26;25];weapon=Flametongue;assist=-;special=Buckler;a=-;b=Hardy Fighter 1;c=A/S Near Save 1;seal=-;ai={turn=1};};
+{unit=Gregor: Swell Sword;pos=e7;rarity=3;slot=3;level=32;stats=[32;34;28;31;16];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Solid Ground 1;b=-;c=Inf. Null Follow 1;seal=-;ai={turn=2};};
+{unit=Ricken: Shepherd Novice;pos=b8;rarity=3;slot=4;level=32;stats=[32;33;29;17;22];weapon=Gronnrabbit;assist=-;special=New Moon;a=Atk/Spd Form 1;b=-;c=Spur Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=e8;rarity=3;slot=5;level=32;stats=[30;23;24;14;20];weapon=Thoron;assist=-;special=New Moon;a=Close Def 1;b=-;c=Distant Guard 1;seal=-;ai={turn=2};};
+{unit=Thief;pos=a4;rarity=3;slot=6;level=32;stats=[29;20;29;9;24];weapon=Armorpin Dagger;assist=-;special=Night Sky;a=-;b=Null Follow-Up 1;c=Panic Smoke 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Green Manakete;pos=f4;rarity=3;slot=7;level=32;stats=[35;24;22;21;20];weapon=Water Breath;assist=-;special=Retribution;a=Fury 1;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Phila: Pegasus Master;pos=d8;rarity=3;slot=8;level=32;stats=[30;28;32;18;31];weapon=Rein Lance;assist=-;special=Chilling Wind;a=Brazen Atk/Res 1;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+]
+|Hard=[
+{unit=Veronica: Princess Beset (Legendary);pos=d8;rarity=4;slot=1;level=40;stats=[35;40;43;17;22];weapon=Enclosing Dark;assist=-;special=Night Sky;a=Atk/Spd Solo 3;b=S/R Far Trace 2;c=Rouse Atk/Spd 3;seal=-;ai={turn=3};};
+{unit=Robin: Fell Tactician;pos=b6;rarity=4;slot=2;level=40;stats=[40;39;42;32;30];weapon=Arcane Grima;assist=-;special=Buckler;a=-;b=Hardy Fighter 2;c=A/S Near Save 2;seal=-;ai={turn=1};};
+{unit=Gregor: Swell Sword;pos=e7;rarity=4;slot=3;level=40;stats=[37;42;35;40;21];weapon=Blade of Favors;assist=-;special=Glowing Ember;a=Solid Ground 3;b=-;c=Inf. Null Follow 2;seal=-;ai={turn=2};};
+{unit=Ricken: Shepherd Novice;pos=b8;rarity=4;slot=4;level=40;stats=[37;41;37;22;27];weapon=Gronnrabbit;assist=-;special=New Moon;a=Atk/Spd Form 2;b=-;c=Spur Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=e8;rarity=4;slot=5;level=40;stats=[35;29;30;18;25];weapon=Thoron;assist=-;special=New Moon;a=Close Def 2;b=-;c=Distant Guard 2;seal=-;ai={turn=2};};
+{unit=Thief;pos=a4;rarity=4;slot=6;level=40;stats=[34;25;36;12;30];weapon=Armorpin Dagger;assist=-;special=Night Sky;a=-;b=Null Follow-Up 2;c=Panic Smoke 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Green Manakete;pos=f4;rarity=4;slot=7;level=40;stats=[41;30;28;26;25];weapon=Water Breath;assist=-;special=Retribution;a=Fury 2;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Green Fáfnir;pos=c8;rarity=4;slot=8;level=40;stats=[36;26;34;30;24];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=-;b=Dive-Bomb 2;c=Even Tempest 2;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Phila: Pegasus Master;pos=d8;rarity=4;slot=9;level=40;stats=[35;34;40;23;38];weapon=Rein Lance;assist=-;special=Chilling Wind;a=Brazen Atk/Res 2;b=Pegasus Flight 2;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+]
+|Lunatic=[
+{unit=Veronica: Princess Beset (Legendary);pos=d8;rarity=5;slot=1;level=45;stats=[49;46;49;25;32];weapon=Enclosing Dark;assist=-;special=Glimmer;a=Atk/Spd Solo 4;b=S/R Far Trace 3;c=Rouse Atk/Spd 4;seal=-;ai={turn=3};};
+{unit=Robin: Fell Tactician;pos=b6;rarity=5;slot=2;level=45;stats=[46;45;48;38;36];weapon=Arcane Grima;assist=-;special=Pavise;a=Dragonhide;b=Hardy Fighter 3;c=A/S Near Save 3;seal=-;ai={turn=1};};
+{unit=Gregor: Swell Sword;pos=e7;rarity=5;slot=3;level=45;stats=[43;48;40;48;26];weapon=Blade of Favors;assist=-;special=Bonfire;a=Solid Ground 4;b=-;c=Inf. Null Follow 3;seal=-;ai={turn=2};};
+{unit=Ricken: Shepherd Novice;pos=b8;rarity=5;slot=4;level=45;stats=[43;47;43;27;33];weapon=Gronnrabbit+;assist=-;special=Luna;a=Atk/Spd Form 3;b=-;c=Spur Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=e8;rarity=5;slot=5;level=45;stats=[40;34;35;22;31];weapon=Thoron+;assist=-;special=Moonbow;a=Close Def 3;b=-;c=Distant Guard 3;seal=-;ai={turn=2};};
+{unit=Thief;pos=a4;rarity=5;slot=6;level=45;stats=[39;31;42;15;35];weapon=Armorpin Dagger+;assist=-;special=Glimmer;a=-;b=Null Follow-Up 3;c=Panic Smoke 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Green Manakete;pos=f4;rarity=5;slot=7;level=45;stats=[47;35;33;32;31];weapon=Water Breath+;assist=-;special=Reprisal;a=Fury 3;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Green Fáfnir;pos=c8;rarity=5;slot=8;level=45;stats=[42;32;39;35;30];weapon=Dark Breath+;assist=-;special=Draconic Aura;a=-;b=Dive-Bomb 3;c=Even Tempest 3;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Phila: Pegasus Master;pos=d8;rarity=5;slot=9;level=45;stats=[41;41;46;29;44];weapon=Rein Lance+;assist=-;special=Iceberg;a=Brazen Atk/Res 3;b=Pegasus Flight 3;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|To Kill|Flow of Power}}
+==In other languages==
+{{OtherLanguages
+|japanese=どちらが殺されるか
+|german=Getötet werden
+|spanishEU=Hora de morir
+|spanishLA=Hora de morir
+|french=Les façons de mourir
+|italian=Essere uccisi
+|chineseTW=誰要被殺
+|portuguese=Morrer
+}}
+{{Story Maps Navbox|book=6}}

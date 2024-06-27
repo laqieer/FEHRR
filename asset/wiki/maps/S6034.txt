@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0603.webp
+|stageTitle=Chapter 3: Part 4
+|stageName=A Sandstorm's Ascension
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 3: Calling of Blood
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6034
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_08.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-01-07T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Joshua (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Joshua: Resolute Tempest;pos=c7;rarity=3;slot=1;level=8;stats=[21;12;14;9;8];weapon=Iron Dagger;assist=-;special=-;a=Life and Death 1;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=e8;rarity=3;slot=2;level=8;stats=[21;11;7;8;10];weapon=Iron Lance;assist=-;special=-;a=Sturdy Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=f7;rarity=3;slot=3;level=8;stats=[21;10;10;9;8];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=Threat. Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;rarity=3;slot=4;level=8;stats=[20;9;10;6;8];weapon=Fire;assist=-;special=-;a=-;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Joshua: Resolute Tempest;pos=c7;rarity=4;slot=1;level=28;stats=[32;28;31;20;17];weapon=Steel Dagger;assist=-;special=Night Sky;a=Life and Death 2;b=Null Follow-Up 2;c=Green Feud 1;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=e8;rarity=4;slot=2;level=28;stats=[32;25;16;17;22];weapon=Steel Lance;assist=-;special=Buckler;a=Sturdy Blow 1;b=Drag Back;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=f7;rarity=4;slot=3;level=28;stats=[34;23;22;20;19];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=-;b=Chill Def 1;c=Threat. Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;rarity=4;slot=4;level=28;stats=[29;22;23;13;19];weapon=Elfire;assist=-;special=Rising Flame;a=Triangle Adept 1;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Joshua: Resolute Tempest;pos=c7;rarity=5;slot=1;level=43;stats=[42;42;45;30;27];weapon=Blade of Jehanna;assist=-;special=Glimmer;a=Life and Death 4;b=Null Follow-Up 3;c=Green Feud 3;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=e8;rarity=5;slot=2;level=43;stats=[42;36;26;27;31];weapon=Instant Lance+;assist=-;special=Escutcheon;a=Sturdy Blow 2;b=Drag Back;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=f7;rarity=5;slot=3;level=43;stats=[46;34;31;30;29];weapon=Dark Breath+;assist=-;special=Dragon Fang;a=-;b=Chill Def 3;c=Threat. Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a7;rarity=5;slot=4;level=43;stats=[39;33;34;21;29];weapon=Rauðrraven+;assist=-;special=Growing Flame;a=Triangle Adept 3;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|An Archer's Tears|Curtain's Fall}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=砂塵の王の開花
+|german=Erleuchteter Sandsturm
+|spanishEU=El ascenso de la tormenta
+|spanishLA=Tormenta ascendiente
+|french=Ascension fougueuse
+|italian=L'ascesa della tempesta
+|chineseTW=沙塵之王的綻放
+|portuguese=Ascensão da tempestade
+}}
+{{Story Maps Navbox|book=6}}

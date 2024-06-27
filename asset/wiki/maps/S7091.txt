@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0709.webp
+|stageTitle=Chapter 9-1
+|stageName=I Once Said the Same
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 9: The Innocent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7091
+|backdrop=Wave
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_boss12.ogg
+|BGM2=bgm_map_FEH_11.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-07-18T07:00:00Z|notification=New Heroes Summoning Event: Rearmed Eitr & Rearmed Alcryst (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Heiðr: Cursed Goddess;pos=c8;slot=1;rarity=3;level=22;stats=[25;28;25;15;11];weapon=Rexcalibur;assist=-;special=Night Sky;a=Bonus Doubler 1;b=Null Follow-Up 1;c=Def/Res Oath 1;seal=-;ai={turn=1};};
+{unit=Alear: Dragon Youth;pos=e7;slot=2;rarity=3;level=22;stats=[27;27;28;17;12];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Atk/Spd Ideal 1;b=Repel 1;c=Green Feud 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f6;slot=3;rarity=3;level=22;stats=[24;16;21;8;18];weapon=Elthunder;assist=-;special=Chilling Wind;a=Swift Sparrow 1;b=-;c=Spd/Res Rein 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Fighter;pos=b8;slot=4;rarity=3;level=22;stats=[29;18;16;16;8];weapon=Steel Bow;assist=Rally Attack;special=-;a=Fort. Def/Res 1;b=Poison Strike 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Fighter;pos=b7;slot=5;rarity=3;level=22;stats=[30;17;17;17;12];weapon=Steel Lance;assist=-;special=New Moon;a=Atk/Spd Clash 1;b=-;c=Fatal Smoke 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Hard=[
+{unit=Heiðr: Cursed Goddess;pos=c8;slot=1;rarity=4;level=34;stats=[32;39;38;23;16];weapon=Golden Curse;assist=-;special=Night Sky;a=Bonus Doubler 2;b=Null Follow-Up 2;c=Def/Res Oath 2;seal=-;ai={turn=1};};
+{unit=Alear: Dragon Youth;pos=e7;slot=2;rarity=4;level=34;stats=[34;38;39;26;19];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Atk/Spd Ideal 2;b=Repel 2;c=Green Feud 2;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f6;slot=3;rarity=4;level=34;stats=[29;23;31;12;27];weapon=Blárfox;assist=-;special=Chilling Wind;a=Swift Sparrow 1;b=-;c=Spd/Res Rein 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Fighter;pos=b8;slot=4;rarity=4;level=34;stats=[37;27;24;23;12];weapon=Guard Bow;assist=Rally Atk/Spd;special=-;a=Fort. Def/Res 1;b=Poison Strike 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Fighter;pos=b7;slot=5;rarity=4;level=34;stats=[38;26;25;25;17];weapon=Brave Lance;assist=-;special=New Moon;a=Atk/Spd Clash 2;b=-;c=Fatal Smoke 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Lunatic=[
+{unit=Heiðr: Cursed Goddess;pos=c8;slot=1;rarity=5;level=40;stats=[38;45;45;29;20];weapon=Golden Curse;assist=-;special=Glimmer;a=Bonus Doubler 3;b=Null Follow-Up 3;c=Def/Res Oath 3;seal=-;ai={turn=1};};
+{unit=Alear: Dragon Youth;pos=e7;slot=2;rarity=5;level=40;stats=[40;44;45;33;25];weapon=Libération;assist=-;special=Draconic Aura;a=Atk/Spd Ideal 4;b=Repel 4;c=Green Feud 3;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=f6;slot=3;rarity=5;level=40;stats=[34;29;37;16;32];weapon=Blárfox+;assist=-;special=Iceberg;a=Swift Sparrow 2;b=-;c=Spd/Res Rein 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Fighter;pos=b8;slot=4;rarity=5;level=40;stats=[43;32;29;29;16];weapon=Guard Bow+;assist=Rally Atk/Spd+;special=-;a=Fort. Def/Res 2;b=Poison Strike 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Fighter;pos=b7;slot=5;rarity=5;level=40;stats=[44;31;31;30;22];weapon=Brave Lance+;assist=-;special=Luna;a=Atk/Spd Clash 3;b=-;c=Fatal Smoke 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Nihility & Dream 1|Prince's Pride}}
+==In other languages==
+{{OtherLanguages
+|japanese=同じことを言った
+|german=Ich dachte einst genauso
+|spanishEU=Yo también dije lo mismo
+|spanishLA=Yo también dije lo mismo
+|french=Je disais la même chose
+|italian=Anche io dissi lo stesso
+|chineseTW=說了同樣的話
+|portuguese=Eu já disse o mesmo
+}}
+{{Story Maps Navbox|book=7}}

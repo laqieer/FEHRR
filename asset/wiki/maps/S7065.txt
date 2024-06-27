@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0706 C.webp
+|stageTitle=Chapter 2: Part 5
+|stageName=My Name
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 2: World of the Past
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7065
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=36
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_01.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-04-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Ingrid (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ingrid: Beacon of Honor;pos=a5;rarity=3;slot=1;level=18;stats=[23;24;25;14;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Guard Bearing 1;c=Spd/Def Rein 1;seal=-;ai={turn=1};};
+{unit=Felix: Lone-Wolf Blade;pos=e6;rarity=3;slot=2;level=18;stats=[25;23;26;15;10];weapon=Steel Sword;assist=-;special=-;a=Atk/Spd Finish 1;b=Atk/Spd Bulwark 1;c=Spd Smoke 1;seal=-;ai={turn=1};};
+{unit=Sylvain: Consummate Flirt;pos=d8;rarity=3;slot=3;level=18;stats=[25;22;19;17;10];weapon=Steel Axe;assist=-;special=-;a=Atk/Def Catch 1;b=-;c=Spur Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Rhea: Loving Matriarch;pos=c6;rarity=3;slot=4;level=18;stats=[25;22;7;19;26];weapon=Fire Breath+;assist=-;special=-;a=Atk/Res Scowl 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ingrid: Beacon of Honor;pos=a5;rarity=4;slot=1;level=36;stats=[33;39;42;25;20];weapon=Silver Lance;assist=-;special=New Moon;a=-;b=Guard Bearing 3;c=Spd/Def Rein 3;seal=-;ai={turn=1};};
+{unit=Felix: Lone-Wolf Blade;pos=e6;rarity=4;slot=2;level=36;stats=[35;40;41;26;20];weapon=Silver Sword;assist=-;special=Buckler;a=Atk/Spd Finish 3;b=Atk/Spd Bulwark 2;c=Spd Smoke 3;seal=-;ai={turn=1};};
+{unit=Sylvain: Consummate Flirt;pos=d8;rarity=4;slot=3;level=36;stats=[35;39;31;31;19];weapon=Allied Axe;assist=-;special=New Moon;a=Atk/Def Catch 2;b=-;c=Spur Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Rhea: Loving Matriarch;pos=c6;rarity=4;slot=4;level=36;stats=[35;39;13;35;41];weapon=Flametongue;assist=-;special=Night Sky;a=Atk/Res Scowl 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ingrid: Beacon of Honor;pos=a5;rarity=5;slot=1;level=45;stats=[41;48;51;33;28];weapon=Arcane Lúin;assist=-;special=Luna;a=Knightly Devotion;b=Guard Bearing 4;c=Spd/Def Hold;seal=-;ai={turn=1};};
+{unit=Felix: Lone-Wolf Blade;pos=e6;rarity=5;slot=2;level=45;stats=[43;51;50;34;28];weapon=Lone Wolf;assist=-;special=Godlike Reflexes;a=Atk/Spd Finish 4;b=Atk/Spd Bulwark 3;c=Spd Smoke 4;seal=-;ai={turn=1};};
+{unit=Sylvain: Consummate Flirt;pos=d8;rarity=5;slot=3;level=45;stats=[43;48;38;41;26];weapon=Allied Axe+;assist=-;special=Moonbow;a=Atk/Def Catch 3;b=-;c=Spur Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Rhea: Loving Matriarch;pos=c6;rarity=5;slot=4;level=45;stats=[43;48;17;47;50];weapon=Revealing Breath;assist=-;special=Glimmer;a=Atk/Res Scowl 4;b=True Dragon Wall;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Soon Parting|New World of Study}}
+==In other languages==
+{{OtherLanguages
+|japanese=私の名は
+|german=Mein Name
+|spanishEU=Mi nombre
+|spanishLA=Mi nombre
+|french=Mon nom
+|italian=Il mio nome
+|chineseTW=我的名字
+|portuguese=Meu nome
+}}
+{{Story Maps Navbox|book=7}}

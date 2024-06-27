@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0310.webp
+|stageTitle=Chapter 10-3
+|stageName=Inside Embla
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 10: Omnicidal Witch
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=c2,d2,c1,d1
+|baseMap=S3103
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_02.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-08-07T07:00:00Z|notification=New Heroes: Changing Winds (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Hubert: Sinister Servant;pos=b7;rarity=3;slot=1;level=26;stats=[29;26;20;11;16];weapon=Rauðrfox;assist=-;special=Rising Thunder;a=-;b=Chill Res 1;c=Inf. Hexblade 1;seal=-;ai={group=1};};
+{unit=Petra: Princess of Brigid;pos=e7;rarity=3;slot=2;level=26;stats=[29;20;25;16;12];weapon=Silver Dagger;assist=-;special=New Moon;a=Atk/Spd Form 1;b=Aerobatics 1;c=-;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d6;rarity=3;slot=3;level=26;stats=[32;20;19;18;17];weapon=Fire Breath+;assist=-;special=Retribution;a=HP/Atk 1;b=Guard 1;c=-;seal=-;ai={group=1};};
+{unit=Green Flier;pos=e6;rarity=3;slot=4;level=26;stats=[26;18;24;9;20];weapon=Elwind;assist=-;special=Chilling Wind;a=Atk/Spd 1;b=-;c=Flier Guidance 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=b6;rarity=3;slot=5;level=26;stats=[32;19;19;19;14];weapon=Steel Axe;assist=-;special=New Moon;a=Fury 1;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Hubert: Sinister Servant;pos=b7;rarity=4;slot=1;level=37;stats=[36;35;28;16;22];weapon=Rauðrfox;assist=-;special=Growing Thunder;a=-;b=Chill Res 2;c=Inf. Hexblade 2;seal=-;ai={group=1};};
+{unit=Petra: Princess of Brigid;pos=e7;rarity=4;slot=2;level=37;stats=[36;29;34;22;17];weapon=Silver Dagger;assist=-;special=New Moon;a=Atk/Spd Form 2;b=Aerobatics 2;c=Ground Orders 1;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d6;rarity=4;slot=3;level=37;stats=[40;28;27;25;24];weapon=Flametongue;assist=-;special=Retribution;a=HP/Atk 1;b=Guard 2;c=-;seal=-;ai={group=1};};
+{unit=Green Flier;pos=e6;rarity=4;slot=4;level=37;stats=[31;25;33;13;28];weapon=Keen Gronnwolf;assist=-;special=Chilling Wind;a=Atk/Spd 1;b=-;c=Flier Guidance 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=b6;rarity=4;slot=5;level=37;stats=[39;27;26;27;19];weapon=Slaying Axe;assist=-;special=New Moon;a=Fury 2;b=Bowbreaker 1;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Hubert: Sinister Servant;pos=b7;rarity=5;slot=1;level=42;displaylevel=40;stats=[42;41;33;19;26];weapon=Rauðrfox+;assist=-;special=Growing Thunder;a=-;b=Chill Res 3;c=Inf. Hexblade 3;seal=-;ai={group=1};};
+{unit=Petra: Princess of Brigid;pos=e7;rarity=5;slot=2;level=42;displaylevel=40;stats=[41;33;40;26;20];weapon=Hunting Blade;assist=-;special=Luna;a=Atk/Spd Form 3;b=Aerobatics 3;c=Ground Orders 3;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d6;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Flametongue+;assist=-;special=Reprisal;a=HP/Atk 2;b=Guard 3;c=-;seal=-;ai={group=1};};
+{unit=Green Flier;pos=e6;rarity=5;slot=4;level=42;displaylevel=40;stats=[35;30;39;16;33];weapon=Keen Gronnwolf+;assist=-;special=Iceberg;a=Atk/Spd 2;b=-;c=Flier Guidance 3;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=b6;rarity=5;slot=5;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Slaying Axe+;assist=-;special=Moonbow;a=Fury 3;b=Bowbreaker 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Hubert: Sinister Servant;text=I am Hubert von Vestra. I will now\nshow you how weak you are.;textJP=ヒューベルト＝フォン＝ベストラ。\n貴殿に身の程を教えて差し上げましょう。};
+]}}
+{{Story Navbar|Maiden and Devotee|The Reaper Cometh}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=エンブラに入りて
+|german=In Embla
+|spanishEU=Incursión en Embla
+|spanishLA=Incursión en Embla
+|french=Au cœur d'Embla
+|italian=Nell'Embla
+|chineseTW=入境恩布拉
+|portuguese=Embla adentro
+}}
+{{Story Maps Navbox|book=3}}

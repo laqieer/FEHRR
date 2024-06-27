@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0609.webp
+|stageTitle=Chapter 9: Part 3
+|stageName=A Friendly Face
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 9: Opening a Way
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6093
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=36
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE15_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-07-19T07:00:00Z|notification=Special Summon: Ymir & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Celica: Valentia's Hope;pos=c8;rarity=3;slot=1;level=24;stats=[28;26;27;12;15];weapon=Elstone;assist=-;special=New Moon;a=Life and Death 1;b=-;c=Inf. Null Follow 1;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=d7;rarity=3;slot=2;level=24;stats=[31;18;18;18;13];weapon=Steel Sword;assist=Rally Attack;special=-;a=-;b=Def/Res Ruse 1;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Green Thief;pos=b7;rarity=3;slot=3;level=24;stats=[26;16;23;7;19];weapon=Steel Dagger;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=Watersweep 1;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=d8;rarity=3;slot=4;level=24;stats=[30;19;17;17;8];weapon=Steel Bow;assist=-;special=Night Sky;a=Darting Blow 1;b=Windsweep 1;c=-;seal=-;ai={group=1};};
+{unit=Blue Flier;pos=f6;rarity=3;slot=5;level=24;stats=[25;17;22;8;19];weapon=Elthunder;assist=-;special=Chilling Wind;a=Sturdy Blow 1;b=-;c=Spd/Res Rein 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Celica: Valentia's Hope;pos=c8;rarity=4;slot=1;level=36;stats=[35;38;37;17;21];weapon=Atlas (weapon);assist=-;special=New Moon;a=Life and Death 2;b=-;c=Inf. Null Follow 2;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=d7;rarity=4;slot=2;level=36;stats=[39;27;26;26;18];weapon=Armorsmasher;assist=Rally Up Atk;special=-;a=-;b=Def/Res Ruse 2;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Green Thief;pos=b7;rarity=4;slot=3;level=36;stats=[32;23;34;11;28];weapon=Quick Dagger;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Watersweep 2;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=d8;rarity=4;slot=4;level=36;stats=[38;28;25;24;13];weapon=Short Bow;assist=-;special=Night Sky;a=Darting Blow 2;b=Windsweep 2;c=-;seal=-;ai={group=1};};
+{unit=Blue Flier;pos=f6;rarity=4;slot=5;level=36;stats=[30;24;33;13;28];weapon=Blárfox;assist=-;special=Chilling Wind;a=Sturdy Blow 1;b=-;c=Spd/Res Rein 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Celica: Valentia's Hope;pos=c8;rarity=5;slot=1;level=42;stats=[41;44;44;22;26];weapon=Mila's Testament;assist=-;special=Moonbow;a=Life and Death 4;b=Soul of Zofia;c=Inf. Null Follow 3;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=d7;rarity=5;slot=2;level=42;stats=[45;32;32;31;23];weapon=Armorsmasher+;assist=Rally Up Atk+;special=-;a=-;b=Def/Res Ruse 3;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Green Thief;pos=b7;rarity=5;slot=3;level=42;stats=[37;29;40;14;33];weapon=Quick Dagger+;assist=-;special=Luna;a=Atk/Spd Solo 3;b=Watersweep 3;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=d8;rarity=5;slot=4;level=42;stats=[44;33;30;30;16];weapon=Short Bow+;assist=-;special=Glimmer;a=Darting Blow 3;b=Windsweep 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Flier;pos=f6;rarity=5;slot=5;level=42;stats=[35;30;39;16;33];weapon=Blárfox+;assist=-;special=Iceberg;a=Sturdy Blow 2;b=-;c=Spd/Res Rein 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Youthful Introduction|Deepening Darkness}}
+==In other languages==
+{{OtherLanguages
+|japanese=友の素顔
+|german=Ein freundliches Gesicht
+|spanishEU=Una cara amable
+|spanishLA=Una cara amable
+|french=Un visage amical
+|italian=Un volto amico
+|chineseTW=朋友的真面目
+|portuguese=Expressão familiar
+}}
+{{Story Maps Navbox|book=6}}

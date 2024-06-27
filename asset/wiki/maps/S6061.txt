@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0606.webp
+|stageTitle=Chapter 6: Part 1
+|stageName=Dungeon Keep
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 6: Revealing Lies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6061
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=31
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE04_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-04-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Ishtar (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Scáthach: Astra's Wake;pos=c7;rarity=3;slot=1;level=14;stats=[25;20;13;18;9];weapon=Steel Sword;assist=-;special=-;a=Atk/Def Ideal 1;b=-;c=Odd Def Wave 1;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=3;slot=2;level=14;stats=[26;13;13;13;9];weapon=Steel Axe;assist=Rally Attack;special=-;a=-;b=Atk/Spd Ruse 1;c=Infantry Pulse 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=3;slot=3;level=14;stats=[21;11;11;10;15];weapon=Assault;assist=Reconcile;special=-;a=-;b=Dazzling Staff 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=3;slot=4;level=14;stats=[22;13;14;8;11];weapon=Elthunder;assist=-;special=-;a=Fury 1;b=-;c=Odd Res Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Scáthach: Astra's Wake;pos=c7;rarity=4;slot=1;level=31;stats=[35;34;22;34;18];weapon=Spirited Sword;assist=-;special=Night Sky;a=Atk/Def Ideal 2;b=-;c=Odd Def Wave 2;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=4;slot=2;level=31;stats=[36;24;23;23;16];weapon=Spirited Axe;assist=Rally Atk/Spd;special=-;a=-;b=Atk/Spd Ruse 2;c=Infantry Pulse 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=4;slot=3;level=31;stats=[28;21;20;17;28];weapon=Gravity;assist=Rescue;special=Earthwater Balm;a=-;b=Dazzling Staff 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=4;slot=4;level=31;stats=[31;24;25;15;20];weapon=Keen Blárwolf;assist=-;special=New Moon;a=Fury 2;b=-;c=Odd Res Wave 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Scáthach: Astra's Wake;pos=c7;rarity=5;slot=1;level=40;stats=[43;42;30;43;24];weapon=Spirited Sword+;assist=-;special=Astra;a=Atk/Def Ideal 3;b=-;c=Odd Def Wave 3;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=5;slot=2;level=40;stats=[44;31;31;30;22];weapon=Spirited Axe+;assist=Rally Atk/Spd+;special=-;a=-;b=Atk/Spd Ruse 3;c=Infantry Pulse 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d7;rarity=5;slot=3;level=40;stats=[34;28;28;23;35];weapon=Gravity+;assist=Rescue+;special=Earthwater Balm+;a=-;b=Dazzling Staff 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=b7;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Keen Blárwolf+;assist=-;special=Moonbow;a=Fury 3;b=-;c=Odd Res Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Grand Conquests 30|Princess Seized}}
+==In other languages==
+{{OtherLanguages
+|japanese=監獄要塞
+|german=Undurchdringliches Verlies
+|spanishEU=La mazmorra del castillo
+|spanishLA=El calabozo del castillo
+|french=Donjon imprenable
+|italian=Segrete inespugnabili
+|chineseTW=監獄要塞
+|portuguese=Castelo calabouço
+}}
+{{Story Maps Navbox|book=6}}

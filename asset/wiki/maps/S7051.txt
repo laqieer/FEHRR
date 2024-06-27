@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0705.webp
+|stageTitle=Chapter 8: Part 1
+|stageName=Child of the Goddess
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 8: Seeing the Present
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7051
+|backdrop=
+|allyPos=d2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=30
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-03-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Tana (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Vanessa: Dutiful Rider;pos=d7;rarity=3;slot=1;level=11;stats=[21;17;19;9;11];weapon=Steel Lance;assist=-;special=-;a=Atk/Res Catch 1;b=-;c=Spd/Res Oath 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=d8;rarity=3;slot=2;level=11;stats=[20;11;14;5;12];weapon=Elfire;assist=Draw Back;special=-;a=-;b=Atk/Def Link 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Thief;pos=a5;rarity=3;slot=3;level=11;stats=[20;10;15;4;12];weapon=Steel Dagger;assist=-;special=-;a=Sturdy Blow 1;b=Mystic Boost 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=b6;rarity=3;slot=4;level=11;stats=[23;13;8;9;12];weapon=Steel Axe;assist=-;special=-;a=Atk/Def Clash 1;b=A/D Near Trace 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Vanessa: Dutiful Rider;pos=d7;rarity=4;slot=1;level=30;stats=[31;32;34;19;25];weapon=Up-Front Lance;assist=-;special=New Moon;a=Atk/Res Catch 2;b=-;c=Spd/Res Oath 2;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=d8;rarity=4;slot=2;level=30;stats=[28;21;29;11;24];weapon=Bolganone;assist=Draw Back;special=-;a=-;b=Atk/Def Link 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Thief;pos=a5;rarity=4;slot=3;level=30;stats=[29;20;30;9;24];weapon=Rogue Dagger;assist=-;special=New Moon;a=Sturdy Blow 1;b=Mystic Boost 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=b6;rarity=4;slot=4;level=30;stats=[33;26;17;18;23];weapon=Slaying Hammer;assist=-;special=Night Sky;a=Atk/Def Clash 2;b=A/D Near Trace 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Vanessa: Dutiful Rider;pos=d7;rarity=5;slot=1;level=40;stats=[39;40;43;27;34];weapon=Up-Front Lance+;assist=-;special=Luna;a=Atk/Res Catch 3;b=-;c=Spd/Res Oath 3;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=d8;rarity=5;slot=2;level=40;stats=[34;29;37;16;32];weapon=Bolganone+;assist=Draw Back;special=-;a=-;b=Atk/Def Link 3;c=Goad Fliers;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Thief;pos=a5;rarity=5;slot=3;level=40;stats=[36;28;38;13;32];weapon=Rogue Dagger+;assist=-;special=Moonbow;a=Sturdy Blow 2;b=Mystic Boost 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=b6;rarity=5;slot=4;level=40;stats=[41;34;24;25;30];weapon=Slaying Hammer+;assist=-;special=Glimmer;a=Atk/Def Clash 3;b=A/D Near Trace 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Grand Conquests 33|Looking Back}}
+==In other languages==
+{{OtherLanguages
+|japanese=女神の子
+|german=Kind der Göttin
+|spanishEU=Descendiente de la diosa
+|spanishLA=Descendiente de la diosa
+|french=Progéniture de la déesse
+|italian=L’erede della dea
+|chineseTW=女神之子
+|portuguese=Descendente da deusa
+}}
+{{Story Maps Navbox|book=7}}

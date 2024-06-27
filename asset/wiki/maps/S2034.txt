@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=Banner_Micaiah Unrevealed.png
+|mapName=Chapter 3-4: A Menacing Swordsman
+|stageTitle=Chapter 3: Part 4
+|stageName=A Menacing Swordsman
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 3: Guided by a Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2034
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{Ally|1}} | c6= | d6= | e6={{Ally|2}} | f6=
+| a5= | b5= | c5={{Ally|3}} | d5={{Ally|4}} | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-12T07:00:00Z|notification=New Heroes: World of Dawn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sothe: Zephyr;pos=a2;rarity=3;slot=1;level=8;stats=[18;10;11;4;3];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Micaiah: Priestess of Dawn;pos=c1;rarity=3;slot=2;level=8;stats=[17;10;7;3;10];weapon=Light;assist=Ardent Sacrifice;special=-;a=Distant Def 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Zelgius: Jet-Black General;pos=d1;rarity=3;slot=3;level=8;stats=[22;11;8;11;3];weapon=Iron Sword;assist=-;special=-;a=Fierce Stance 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=f1;rarity=3;slot=4;level=8;stats=[19;9;7;9;2];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Sothe: Zephyr;pos=a2;rarity=4;slot=1;level=28;stats=[30;27;24;15;14];weapon=Steel Dagger;assist=-;special=Night Sky;a=Life and Death 2;b=-;c=Spur Atk/Spd 1;seal=-;ai={group=1};};
+{unit=Micaiah: Priestess of Dawn;pos=c1;rarity=4;slot=2;level=28;stats=[27;26;19;12;26];weapon=Ellight;assist=Sacrifice;special=-;a=Distant Def 2;b=Guard 2;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Zelgius: Jet-Black General;pos=d1;rarity=4;slot=3;level=28;stats=[36;27;23;28;14];weapon=Steel Sword;assist=-;special=New Moon;a=Fierce Stance 2;b=-;c=Panic Ploy 1;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=f1;rarity=4;slot=4;level=28;stats=[32;26;18;27;12];weapon=Steel Axe;assist=Pivot;special=-;a=-;b=Seal Def 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Sothe: Zephyr;pos=a2;rarity=5;slot=1;level=43;displaylevel=40;stats=[40;38;35;23;22];weapon=Peshkatz;assist=-;special=Glimmer;a=Life and Death 3;b=-;c=Spur Atk/Spd 2;seal=-;ai={group=1};};
+{unit=Micaiah: Priestess of Dawn;pos=c1;rarity=5;slot=2;level=43;displaylevel=40;stats=[37;37;29;19;37];weapon=Thani;assist=Sacrifice;special=-;a=Distant Def 3;b=Guard 3;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Zelgius: Jet-Black General;pos=d1;rarity=5;slot=3;level=43;displaylevel=40;stats=[48;38;35;41;22];weapon=Alondite;assist=-;special=Black Luna;a=Fierce Stance 3;b=Warp Powder;c=Panic Ploy 3;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=f1;rarity=5;slot=4;level=43;displaylevel=40;stats=[42;37;28;38;20];weapon=Silver Axe+;assist=Pivot;special=-;a=-;b=Seal Def 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ensnared by Beauty|Steel Sears the Land}}
+==In other languages==
+{{OtherLanguages
+|japanese=異貌の騎士
+|german=Bedrohliche Klinge
+|spanishEU=Espadachín amenazador
+|spanishLA=Espadachín amenazador
+|french=Un guerrier menaçant
+|italian=Uno spadaccino sinistro
+|chineseTW=異貌的騎士
+|portuguese=Espadachim ameaçador
+}}
+{{Story Maps Navbox|book=2}}

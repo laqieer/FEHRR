@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0708.webp
+|stageTitle=Chapter 4: Part 3
+|stageName=The Light of Hope
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 4: Ouroboros
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7083
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=35
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_05.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-06-08T07:00:00Z|notification=Celebratory Summoning Event - New Heroes & Mythic Heiðr (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Dorothy: Devoted Archer;pos=d8;rarity=3;slot=1;level=22;stats=[27;26;26;14;14];weapon=Steel Bow;assist=Ardent Sacrifice;special=-;a=Spd/Res Ideal 1;b=-;c=Atk/Res Oath 1;seal=-;ai={turn=1};};
+{unit=Saul: Loving Shepherd;pos=b6;rarity=3;slot=2;level=22;stats=[24;24;24;8;24];weapon=Assault;assist=Reconcile;special=Imbue;a=Distant Def 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=3;slot=3;level=22;stats=[23;20;14;9;19];weapon=Elwind;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Dull Ranged 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=f6;rarity=3;slot=4;level=22;stats=[24;15;15;13;20];weapon=Assault;assist=Mend;special=-;a=-;b=Dazzling Staff 1;c=Drive Def 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=d7;rarity=3;slot=5;level=22;stats=[28;19;13;14;17];weapon=Steel Sword;assist=-;special=Buckler;a=-;b=A/D Near Trace 1;c=Drive Atk 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Dorothy: Devoted Archer;pos=d8;rarity=4;slot=1;level=35;stats=[35;39;38;21;22];weapon=Defier's Bow;assist=Ardent Sacrifice;special=-;a=Spd/Res Ideal 2;b=-;c=Atk/Res Oath 2;seal=-;ai={turn=1};};
+{unit=Saul: Loving Shepherd;pos=b6;rarity=4;slot=2;level=35;stats=[32;35;36;12;35];weapon=Incurable;assist=Restore;special=Imbue;a=Distant Def 2;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=4;slot=3;level=35;stats=[29;30;21;13;29];weapon=Gronnfox;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Dull Ranged 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=f6;rarity=4;slot=4;level=35;stats=[30;24;23;19;30];weapon=Melancholy;assist=Recover;special=-;a=-;b=Dazzling Staff 2;c=Drive Def 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=d7;rarity=4;slot=5;level=35;stats=[36;29;20;21;26];weapon=Slaying Edge;assist=-;special=Buckler;a=-;b=A/D Near Trace 2;c=Drive Atk 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Dorothy: Devoted Archer;pos=d8;rarity=5;slot=1;level=42;stats=[41;48;45;26;29];weapon=Defier's Bow+;assist=Ardent Sacrifice;special=-;a=Spd/Res Ideal 3;b=-;c=Atk/Res Oath 3;seal=-;ai={turn=1};};
+{unit=Saul: Loving Shepherd;pos=b6;rarity=5;slot=2;level=42;stats=[38;42;46;16;42];weapon=Incurable+;assist=Restore+;special=Heavenly Light;a=Distant Def 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=5;slot=3;level=42;stats=[34;36;26;17;35];weapon=Gronnfox+;assist=-;special=Iceberg;a=Mirror Strike 2;b=Dull Ranged 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=f6;rarity=5;slot=4;level=42;stats=[35;29;29;24;36];weapon=Melancholy+;assist=Recover+;special=-;a=-;b=Dazzling Staff 3;c=Drive Def 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=d7;rarity=5;slot=5;level=42;stats=[42;35;25;26;31];weapon=Slaying Edge+;assist=-;special=Pavise;a=-;b=A/D Near Trace 3;c=Drive Atk 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|No Beginning, No End|Pursuit of the Past}}
+==In other languages==
+{{OtherLanguages
+|japanese=希望の光は…
+|german=Das Licht der Hoffnung
+|spanishEU=La luz de la esperanza
+|spanishLA=La luz de la esperanza
+|french=Lueur d'espoir
+|italian=La luce della speranza
+|chineseTW=希望之光……
+|portuguese=A luz da esperança
+}}
+{{Story Maps Navbox|book=7}}

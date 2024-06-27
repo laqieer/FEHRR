@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0607 C.webp
+|stageTitle=Chapter 7: Part 5
+|stageName=Descending Darkness
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 7: To Be Emperor
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6075
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-05-10T07:00:00Z|notification=New Heroes Summoning Event: Beyond Control (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Letizia: Curse Director;pos=e7;rarity=3;slot=1;level=21;stats=[25;23;8;20;19];weapon=Rexcalibur;assist=-;special=Retribution;a=Atk/Res Push 1;b=A/R Far Trace 1;c=Fatal Smoke 1;seal=-;ai={turn=1};};
+{unit=Ninian: Frozen Heart;pos=d8;rarity=3;slot=2;level=21;stats=[30;13;23;13;20];weapon=Fire Breath+;assist=Dance;special=-;a=B Duel Infantry 1;b=Odd Pulse Tie 1;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Lilith: Silent Broodling;pos=c8;rarity=3;slot=3;level=21;stats=[26;21;23;15;18];weapon=Fire Breath+;assist=-;special=-;a=Atk/Spd Catch 1;b=Dive-Bomb 1;c=Spd Smoke 1;seal=-;ai={turn=1};};
+{unit=Gustav: Sovereign Slain;pos=b7;rarity=3;slot=4;level=21;stats=[27;24;12;22;17];weapon=Steel Axe;assist=-;special=-;a=Atk/Def Catch 1;b=A/D Near Trace 1;c=Atk Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Letizia: Curse Director;pos=e7;rarity=4;slot=1;level=37;stats=[34;36;13;32;30];weapon=Körmt;assist=-;special=Retribution;a=Atk/Res Push 3;b=A/R Far Trace 2;c=Fatal Smoke 2;seal=-;ai={turn=1};};
+{unit=Ninian: Frozen Heart;pos=d8;rarity=4;slot=2;level=37;stats=[41;22;36;20;32];weapon=Flametongue;assist=Dance;special=-;a=B Duel Infantry 3;b=Odd Pulse Tie 2;c=Spur Atk 3;seal=-;ai={turn=1};};
+{unit=Lilith: Silent Broodling;pos=c8;rarity=4;slot=3;level=37;stats=[35;35;38;24;29];weapon=Flametongue;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 3;b=Dive-Bomb 2;c=Spd Smoke 3;seal=-;ai={turn=1};};
+{unit=Gustav: Sovereign Slain;pos=b7;rarity=4;slot=4;level=37;stats=[36;37;21;34;26];weapon=Silver Axe;assist=-;special=Glowing Ember;a=Atk/Def Catch 3;b=A/D Near Trace 2;c=Atk Smoke 3;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Letizia: Curse Director;pos=e7;rarity=5;slot=1;level=45;stats=[41;44;17;38;37];weapon=Körmt;assist=-;special=Reprisal;a=Atk/Res Push 4;b=A/R Far Trace 3;c=Fatal Smoke 3;seal=-;ai={turn=1};};
+{unit=Ninian: Frozen Heart;pos=d8;rarity=5;slot=2;level=45;stats=[48;30;44;25;40];weapon=Enveloping Breath;assist=Call to Flame;special=Iceberg;a=B Duel Infantry 4;b=Odd Pulse Tie 3;c=Cross Spur Atk;seal=-;ai={turn=1};};
+{unit=Lilith: Silent Broodling;pos=c8;rarity=5;slot=3;level=45;stats=[42;44;48;32;36];weapon=Silent Power;assist=-;special=Draconic Aura;a=Atk/Spd Catch 4;b=Dive-Bomb 3;c=Spd Smoke 4;seal=-;ai={turn=1};};
+{unit=Gustav: Sovereign Slain;pos=b7;rarity=5;slot=4;level=45;stats=[43;45;28;42;33];weapon=Headsman Glitnir;assist=-;special=Bonfire;a=Atk/Def Catch 4;b=A/D Near Trace 3;c=Atk Smoke 4;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Between Sisters|Beyond Control}}
+==In other languages==
+{{OtherLanguages
+|japanese=すべては闇へ
+|german=Aufkommende Dunkelheit
+|spanishEU=Oscuridad descendiente
+|spanishLA=Oscuridad descendiente
+|french=L'obscurité se répand
+|italian=Cala l'oscurità
+|chineseTW=全部被封閉至黑暗之中
+|portuguese=Escuridão descendente
+}}
+{{Story Maps Navbox|book=6}}

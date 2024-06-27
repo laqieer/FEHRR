@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom (The Branded King) Unrevealed.png
+|mapName=Chapter 6-3: The Tactician's Daughter
+|stageTitle=Chapter 6: Part 3
+|stageName=The Tactician's Daughter
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 6: The True Quarry
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2063
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7={{Ally|1}} | c7= | d7= | e7={{Ally|2}} | f7=
+| a6= | b6= | c6={{Ally|3}} | d6={{Ally|4}} | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=16
+|lvlHard=33
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-03-09T07:00:00Z|notification=New Heroes: The Branded King (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Morgan: Lass from Afar;pos=d1;rarity=3;slot=1;level=16;stats=[23;16;13;6;16];weapon=Elthunder;assist=-;special=Chilling Wind;a=Mirror Stance 1;b=Guard 1;c=Atk Ploy 1;seal=-;ai={turn=1};};
+{unit=Gerome: Masked Rider;pos=b2;rarity=3;slot=2;level=16;stats=[27;18;11;16;8];weapon=Steel Axe;assist=Rally Defense;special=-;a=Fortress Def 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=c1;rarity=3;slot=3;level=16;stats=[25;17;11;18;8];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Hone Atk 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=a3;rarity=3;slot=4;level=16;stats=[23;12;17;9;18];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=Drive Def 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Morgan: Lass from Afar;pos=d1;rarity=4;slot=1;level=33;stats=[32;28;23;12;27];weapon=Blárserpent;assist=-;special=Chilling Wind;a=Mirror Stance 1;b=Guard 2;c=Atk Ploy 2;seal=-;ai={turn=1};};
+{unit=Gerome: Masked Rider;pos=b2;rarity=4;slot=2;level=33;stats=[38;32;20;28;14];weapon=Poleaxe;assist=Rally Defense;special=-;a=Fortress Def 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=c1;rarity=4;slot=3;level=33;stats=[34;29;20;30;14];weapon=Wo Dao;assist=-;special=New Moon;a=-;b=Flier Formation 1;c=Hone Atk 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=a3;rarity=4;slot=4;level=33;stats=[32;21;29;16;30];weapon=Slaying Spear;assist=-;special=-;a=-;b=Hit and Run;c=Drive Def 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Morgan: Lass from Afar;pos=d1;rarity=5;slot=1;level=42;displaylevel=40;stats=[38;35;31;16;34];weapon=Blárserpent+;assist=-;special=Iceberg;a=Mirror Stance 2;b=Guard 3;c=Atk Ploy 3;seal=-;ai={turn=1};};
+{unit=Gerome: Masked Rider;pos=b2;rarity=5;slot=2;level=42;displaylevel=40;stats=[46;40;26;35;19];weapon=Poleaxe+;assist=Rally Atk/Def;special=-;a=Fortress Def 3;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=c1;rarity=5;slot=3;level=42;displaylevel=40;stats=[42;36;28;37;19];weapon=Wo Dao+;assist=-;special=Moonbow;a=-;b=Flier Formation 3;c=Hone Fliers;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=a3;rarity=5;slot=4;level=42;displaylevel=40;stats=[38;29;36;22;37];weapon=Slaying Spear+;assist=-;special=-;a=-;b=Hit and Run;c=Ward Fliers;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Morgan: Lass from Afar;text=I'm Morgan, daughter of the genius\ntactician Robin. Let's see who has the\nbetter mind for strategy—you or me!;textJP=私はマークです！\n天才軍師ルフレの娘である私の策と、\nあなたの策、どっちがすごいか勝負です！};
+]}}
+{{Story Navbar|The Branded Knight|The Tactician's Son}}
+==In other languages==
+{{OtherLanguages
+|japanese=軍師の娘
+|german=Tochter des Taktikers
+|spanishEU=Hija de estratega
+|spanishLA=Hija de estratega
+|french=La fille du stratège
+|italian=La figlia dello stratega
+|chineseTW=軍師之女
+|portuguese=Filha de estrategista
+}}
+{{Story Maps Navbox|book=2}}

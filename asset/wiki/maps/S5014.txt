@@ -1,0 +1,78 @@
+{{Battle Infobox
+|bannerImage=C0501.webp
+|stageTitle=Chapter 1: Part 4
+|stageName=Wavering Resolve
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 1: Machine Dominion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5014
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=23
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-12-08T07:00:00Z|notification=Book V Begins: Reginn and More Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Fighter;pos=c7;rarity=3;slot=1;level=4;stats=[20;7;7;8;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=3;slot=2;level=4;stats=[17;6;6;6;9];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a7;rarity=3;slot=3;level=4;stats=[19;8;5;6;8];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=f8;rarity=3;slot=4;level=4;stats=[16;9;6;3;8];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Lance Fighter;pos=c7;rarity=4;slot=1;level=23;stats=[31;19;18;19;13];weapon=Steel Lance;assist=-;special=Night Sky;a=-;b=Repel 1;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=4;slot=2;level=23;stats=[25;17;16;14;23];weapon=Assault;assist=Mend;special=-;a=-;b=Live to Serve 1;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a7;rarity=4;slot=3;level=23;stats=[29;22;14;15;19];weapon=Steel Axe;assist=-;special=Night Sky;a=-;b=-;c=Rouse Atk/Def 1;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=f8;rarity=4;slot=4;level=23;stats=[24;23;15;10;22];weapon=Elfire;assist=Rally Up Atk;special=-;a=-;b=-;c=Close Guard 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Lance Fighter;pos=c7;rarity=5;slot=1;level=43;stats=[46;33;33;31;23];weapon=Slaying Spear+;assist=-;special=Astra;a=-;b=Repel 3;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=5;slot=2;level=43;stats=[35;29;29;24;37];weapon=Pain+;assist=Physic+;special=-;a=-;b=Live to Serve 3;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=a7;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Poleaxe+;assist=-;special=Glimmer;a=-;b=-;c=Rouse Atk/Def 3;seal=-;ai={group=1};};
+{unit=Red Cavalier;pos=f8;rarity=5;slot=4;level=43;stats=[34;37;27;18;36];weapon=Bolganone+;assist=Rally Up Atk+;special=-;a=-;b=-;c=Close Guard 3;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=王女の迷い
+|german=Schwankender Entschluss
+|spanishEU=Vacilación
+|spanishLA=Vacilación
+|french=Détermination défaillante
+|italian=Titubanza
+|chineseTW=公主的迷惘
+|portuguese=Titubeação
+}}
+{{Story Maps Navbox|book=5}}

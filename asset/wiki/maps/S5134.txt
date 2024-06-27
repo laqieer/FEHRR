@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0513.webp
+|stageTitle=Chapter 13-4
+|stageName=Crown of the Dvergar
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 13: Specter of Niðavellir
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5134
+|backdrop=
+|allyPos=d3,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=33
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE09_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-11-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Laegjarn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Volke: Man of Mysteries;pos=a7;rarity=3;slot=1;level=33;stats=[33;32;34;21;18];weapon=Silver Dagger;assist=-;special=New Moon;a=Sturdy Blow 1;b=Null Follow-Up 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=???: Summoned One;pos=c8;rarity=3;slot=2;level=33;stats=[35;28;27;28;19];weapon=Instant Sword;assist=-;special=Buckler;a=Atk/Spd Form 1;b=Close Call 1;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d8;rarity=3;slot=3;level=33;stats=[28;21;21;17;27];weapon=Gravity;assist=Physic;special=Kindled-Fire Balm;a=Attack/Res 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=3;slot=4;level=33;stats=[31;23;24;15;21];weapon=Blárrabbit;assist=-;special=Daylight;a=Swift Sparrow 1;b=Mystic Boost 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e7;rarity=3;slot=5;level=33;stats=[34;27;20;28;14];weapon=Rearguard;assist=Rally Up Res;special=-;a=Atk/Def Form 1;b=-;c=Def Tactic 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Volke: Man of Mysteries;pos=a7;rarity=4;slot=1;level=38;stats=[36;38;40;24;21];weapon=Silver Dagger;assist=-;special=New Moon;a=Sturdy Blow 2;b=Null Follow-Up 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=???: Summoned One;pos=c8;rarity=4;slot=2;level=38;stats=[38;34;32;33;22];weapon=Instant Sword;assist=-;special=Buckler;a=Atk/Spd Form 2;b=Close Call 2;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d8;rarity=4;slot=3;level=38;stats=[31;25;24;20;32];weapon=Gravity;assist=Physic;special=Kindled-Fire Balm;a=Attack/Res 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=4;slot=4;level=38;stats=[34;28;29;17;24];weapon=Blárrabbit;assist=-;special=Daylight;a=Swift Sparrow 1;b=Mystic Boost 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e7;rarity=4;slot=5;level=38;stats=[37;32;23;33;16];weapon=Rearguard;assist=Rally Up Res;special=-;a=Atk/Def Form 2;b=-;c=Def Tactic 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Volke: Man of Mysteries;pos=a7;rarity=5;slot=1;level=43;stats=[41;44;46;29;26];weapon=Fireman's Hook;assist=-;special=Lethality;a=Sturdy Impact;b=Null Follow-Up 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=???: Summoned One;pos=c8;rarity=5;slot=2;level=43;stats=[43;40;37;40;27];weapon=Instant Sword+;assist=-;special=Escutcheon;a=Atk/Spd Form 3;b=Close Call 3;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=d8;rarity=5;slot=3;level=43;stats=[35;29;29;24;37];weapon=Gravity+;assist=Physic+;special=Windfire Balm+;a=Attack/Res 2;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=5;slot=4;level=43;stats=[39;33;34;21;29];weapon=Blárrabbit+;assist=-;special=Noontime;a=Swift Sparrow 2;b=Mystic Boost 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e7;rarity=5;slot=5;level=43;stats=[42;37;28;38;20];weapon=Rearguard+;assist=Rally Up Res+;special=-;a=Atk/Def Form 3;b=-;c=Def Tactic 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Resolute Damsel|Departure}}
+==In other languages==
+{{OtherLanguages
+|japanese=小人の王冠
+|german=Die Krone der Dvergar
+|spanishEU=La Corona de los Enanos
+|spanishLA=La Corona de los Enanos
+|french=La couronne des nains
+|italian=La Corona nanica
+|chineseTW=小人王冠
+|portuguese=A coroa dos dvergar
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0604.webp
+|stageTitle=Chapter 4: Part 4
+|stageName=Friends One Day
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 4: Princess Alone
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6044
+|backdrop=
+|allyPos=b2,b1,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=31
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_10.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-02-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Idunn (Notification) }}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Idunn: Divine Demon;pos=d5;rarity=3;slot=1;level=11;stats=[21;16;10;16;14];weapon=Fire Breath+;assist=-;special=-;a=Sturdy Stance 1;b=Wily Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f4;rarity=3;slot=2;level=11;stats=[23;12;12;11;10];weapon=Fire Breath+;assist=-;special=-;a=Distant Def 1;b=-;c=Res Tactic 1;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=c6;rarity=3;slot=3;level=11;stats=[21;11;15;12;9];weapon=Fire Breath+;assist=-;special=-;a=-;b=-;c=Def Tactic 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=e6;rarity=3;slot=4;level=11;stats=[20;11;14;5;12];weapon=Elwind;assist=-;special=-;a=Swift Sparrow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Idunn: Divine Demon;pos=d5;rarity=4;slot=1;level=31;stats=[36;34;20;34;29];weapon=Flametongue;assist=-;special=Glowing Ember;a=Sturdy Stance 1;b=Wily Fighter 2;c=D/R Near Save 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f4;rarity=4;slot=2;level=31;stats=[36;25;23;21;20];weapon=Lightning Breath;assist=-;special=Dragon Gaze;a=Distant Def 2;b=-;c=Res Tactic 2;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=c6;rarity=4;slot=3;level=31;stats=[31;21;29;25;19];weapon=Light Breath;assist=-;special=Holy Vestments;a=-;b=Hit and Run;c=Def Tactic 2;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=e6;rarity=4;slot=4;level=31;stats=[28;21;29;11;25];weapon=Gronnfox;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Idunn: Divine Demon;pos=d5;rarity=5;slot=1;level=43;stats=[48;45;28;45;41];weapon=Dew Dragonstone;assist=-;special=Bonfire;a=Sturdy Stance 3;b=Wily Fighter 3;c=D/R Near Save 3;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f4;rarity=5;slot=2;level=43;stats=[46;34;31;30;29];weapon=Lightning Breath+;assist=-;special=Draconic Aura;a=Distant Def 3;b=-;c=Res Tactic 3;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=c6;rarity=5;slot=3;level=43;stats=[40;30;38;34;28];weapon=Light Breath+;assist=-;special=Aegis;a=-;b=Hit and Run;c=Def Tactic 3;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=e6;rarity=5;slot=4;level=43;stats=[35;30;40;17;34];weapon=Gronnfox+;assist=-;special=Moonbow;a=Swift Sparrow 2;b=-;c=Ward Fliers;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Sentenced to Darkness|Coerced Parting}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=いつか、友達にだって
+|german=Eines Tages Freunde
+|spanishEU=Amigos un día
+|spanishLA=Amigos un día
+|french=Nous pourrions être amis
+|italian=Amiche in un futuro
+|chineseTW=總有一天能成為朋友
+|portuguese=Uma amizade algum dia
+}}
+{{Story Maps Navbox|book=6}}

@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0710.webp
+|stageTitle=Chapter 10-4
+|stageName=Fated Golden Seer
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 10: Light's Fading
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7104
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_menu_goldwitch.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-08-16T07:00:00Z|notification=New Heroes Summoning Event: Turn of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gullveig: Seer Beyond Time;pos=c8;slot=1;rarity=3;level=27;stats=[29;32;31;16;12];weapon=Ellight;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Atk/Spd Oath 1;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=d7;slot=2;rarity=3;level=27;stats=[31;23;17;24;12];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Atk/Def Catch 1;b=-;c=Spur Def 1;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Sword Knight;pos=b6;slot=3;rarity=3;level=27;stats=[42;25;9;27;12];weapon=Steel Sword;assist=-;special=Buckler;a=-;b=Wary Fighter 1;c=Distant Guard 1;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Red Mage;pos=e7;slot=4;rarity=3;level=27;stats=[28;20;21;13;18];weapon=Elfire;assist=-;special=Rising Flame;a=-;b=Seal Res 1;c=Res Smoke 1;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Lance Fighter;pos=f5;slot=5;rarity=3;level=27;stats=[33;20;20;20;14];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=Null Follow-Up 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+]
+|Hard=[
+{unit=Gullveig: Seer Beyond Time;pos=c8;slot=1;rarity=4;level=38;stats=[36;42;43;23;16];weapon=The Cycle's Turn;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Atk/Spd Oath 2;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=d7;slot=2;rarity=4;level=38;stats=[37;32;23;33;16];weapon=Slaying Axe;assist=-;special=Glowing Ember;a=Atk/Def Catch 2;b=-;c=Spur Def 2;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Sword Knight;pos=b6;slot=3;rarity=4;level=38;stats=[51;35;13;37;16];weapon=Safeguard;assist=-;special=Buckler;a=-;b=Wary Fighter 2;c=Distant Guard 2;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Red Mage;pos=e7;slot=4;rarity=4;level=38;stats=[34;28;29;17;24];weapon=Rauðrlion;assist=-;special=Rising Flame;a=-;b=Seal Res 2;c=Res Smoke 2;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Lance Fighter;pos=f5;slot=5;rarity=4;level=38;stats=[40;28;27;27;19];weapon=Instant Lance;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=Null Follow-Up 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+]
+|Lunatic=[
+{unit=Gullveig: Seer Beyond Time;pos=c8;slot=1;rarity=5;level=43;stats=[42;48;50;29;20];weapon=The Cycle's Turn;assist=-;special=Luna;a=Flared Sparrow;b=Gold Unwinding;c=Atk/Spd Oath 4;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=d7;slot=2;rarity=5;level=43;stats=[42;37;28;38;20];weapon=Slaying Axe+;assist=-;special=Ignis;a=Atk/Def Catch 3;b=-;c=Ward Fliers;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Sword Knight;pos=b6;slot=3;rarity=5;level=43;stats=[58;41;17;43;20];weapon=Safeguard+;assist=-;special=Pavise;a=-;b=Wary Fighter 3;c=Distant Guard 3;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Red Mage;pos=e7;slot=4;rarity=5;level=43;stats=[39;33;34;21;29];weapon=Rauðrlion+;assist=-;special=Blazing Flame;a=-;b=Seal Res 3;c=Res Smoke 3;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Lance Fighter;pos=f5;slot=5;rarity=5;level=43;stats=[46;33;33;31;23];weapon=Instant Lance+;assist=-;special=Bonfire;a=Sturdy Blow 2;b=Null Follow-Up 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Gullveig: Seer Beyond Time;text=I remember when I knew only light\nand hope...when I was Seiðr...;textJP=セイズ…\n光と希望に溢れた、あの頃の私…};
+]
+}}
+{{Story Navbar|Fated Vallite Royal|Your Wish, Granted}}
+==In other languages==
+{{OtherLanguages
+|japanese=導かれし黄金の魔女
+|german=Schicksalsseherin
+|spanishEU=Profetisa de oro destinada
+|spanishLA=Profetisa de oro destinada
+|french=Prophétesse prédestinée
+|italian=Veggente predestinata
+|chineseTW=受到引導的黃金魔女
+|portuguese=Profetisa predestinada
+}}
+{{Story Maps Navbox|book=7}}

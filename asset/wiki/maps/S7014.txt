@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0701.webp
+|stageTitle=Chapter 13-4
+|stageName=End of Time
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 13: Time
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7014
+|backdrop=
+|allyPos=f6,f5,f4,f3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=36
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_20.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ophelia: Starlit Maiden;pos=a2;rarity=3;slot=1;level=23;stats=[27;28;21;14;18];weapon=Ruin;assist=-;special=-;a=Atk/Res Finish 1;b=Special Spiral 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Dwyer: Sleepy Butler;pos=a4;rarity=3;slot=2;level=23;stats=[28;22;21;14;23];weapon=Assault;assist=Reconcile;special=-;a=AR-D Atk/Res 1;b=-;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=b7;rarity=3;slot=3;level=23;stats=[31;18;18;18;12];weapon=Steel Axe;assist=-;special=-;a=Fury 1;b=Spurn 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Thief;pos=a8;rarity=3;slot=4;level=23;stats=[25;16;23;7;19];weapon=Steel Dagger;assist=-;special=-;a=-;b=Chill Res 1;c=Rouse Atk/Spd 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Ophelia: Starlit Maiden;pos=a2;rarity=4;slot=1;level=36;stats=[34;39;32;21;27];weapon=Fenrir;assist=-;special=New Moon;a=Atk/Res Finish 2;b=Special Spiral 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Dwyer: Sleepy Butler;pos=a4;rarity=4;slot=2;level=36;stats=[35;33;31;21;33];weapon=Aid;assist=Martyr;special=Heavenly Light;a=AR-D Atk/Res 2;b=-;c=Spd Tactic 2;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=b7;rarity=4;slot=3;level=36;stats=[39;27;26;26;18];weapon=Slaying Axe;assist=-;special=Night Sky;a=Fury 2;b=Spurn 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Thief;pos=a8;rarity=4;slot=4;level=36;stats=[32;23;34;11;28];weapon=The Cleaner;assist=-;special=New Moon;a=-;b=Chill Res 2;c=Rouse Atk/Spd 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ophelia: Starlit Maiden;pos=a2;rarity=5;slot=1;level=43;stats=[40;47;39;27;34];weapon=Arcane Eclipse;assist=-;special=Luna;a=Atk/Res Finish 4;b=Special Spiral 4;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Dwyer: Sleepy Butler;pos=a4;rarity=5;slot=2;level=43;stats=[41;40;37;27;42];weapon=Aid+;assist=Martyr+;special=Heavenly Light;a=AR-D Atk/Res 3;b=-;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=b7;rarity=5;slot=3;level=43;stats=[46;33;33;31;23];weapon=Slaying Axe+;assist=-;special=Glimmer;a=Fury 3;b=Spurn 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Thief;pos=a8;rarity=5;slot=4;level=43;stats=[38;29;41;14;34];weapon=The Cleaner+;assist=-;special=Moonbow;a=-;b=Chill Res 3;c=Rouse Atk/Spd 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Ophelia: Starlit Maiden;text=Do I deserve this new power?\nNo! I can't doubt my destiny!;textJP=新たな力、私でいいのかな…なんて。\nううん、しっかりしなくちゃ！};
+]
+}}
+{{Story Navbar|Unraveling of Time|March of Time}}
+==In other languages==
+{{OtherLanguages
+|japanese=時は老いゆく命を殺す
+|german=Ende der Zeit
+|spanishEU=El fin del tiempo
+|spanishLA=El fin del tiempo
+|french=La fin du temps
+|italian=La fine del tempo
+|chineseTW=時間會殺死老去的生命
+|portuguese=O fim do tempo
+}}
+{{Story Maps Navbox|book=7}}

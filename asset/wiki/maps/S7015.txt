@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0701 C.webp
+|stageTitle=Chapter 13-5
+|stageName=March of Time
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 13: Time
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7015
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=38
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal=[{hero=Seiðr: Goddess of Hope;rarity=5};{kind=Astra Blessing}];
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_Brave_03.ogg
+|BGM2=bgm_boss12.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gullveig: Golden Seer;pos=d8;rarity=3;slot=1;level=24;stats=[25;28;28;14;10];weapon=Elstone;assist=-;special=-;a=Atk/Spd Catch 1;b=Spd Preempt 1;c=Spd Smoke 1;seal=-;ai={turn=2};};
+{unit=Ophelia: Starlit Maiden;pos=a6;rarity=3;slot=2;level=24;stats=[27;29;21;15;18];weapon=Ruin;assist=-;special=-;a=Atk/Res Finish 1;b=Special Spiral 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Hans: Ambitious Brute;pos=c7;rarity=3;slot=3;level=24;stats=[32;30;24;20;12];weapon=Steel Axe;assist=-;special=-;a=Atk/Spd Ideal 1;b=-;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Caeldori: Perfect Angel;pos=f7;rarity=3;slot=4;level=24;stats=[27;25;27;18;18];weapon=Steel Lance;assist=-;special=-;a=Atk/Spd Catch 1;b=-;c=Atk/Spd Rein 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Gullveig: Golden Seer;pos=d8;rarity=4;slot=1;level=38;stats=[33;40;41;22;15];weapon=Gullveig (weapon);assist=-;special=Moonbow;a=Atk/Spd Catch 3;b=Spd Preempt 2;c=Spd Smoke 3;seal=-;ai={turn=2};};
+{unit=Ophelia: Starlit Maiden;pos=a6;rarity=4;slot=2;level=38;stats=[35;41;33;22;28];weapon=Arcane Eclipse;assist=-;special=Luna;a=Atk/Res Finish 3;b=Special Spiral 3;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Hans: Ambitious Brute;pos=c7;rarity=4;slot=3;level=38;stats=[42;42;36;31;18];weapon=Aurgelmir;assist=-;special=Dragon Fang;a=Atk/Spd Ideal 2;b=-;c=Rouse Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Caeldori: Perfect Angel;pos=f7;rarity=4;slot=4;level=38;stats=[35;37;40;26;27];weapon=Prodigy Polearm;assist=-;special=Draconic Aura;a=Atk/Spd Catch 3;b=-;c=Atk/Spd Rein 3;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Gullveig: Golden Seer;pos=d8;rarity=5;slot=1;level=45;stats=[40;47;49;29;20];weapon=Gullveig (weapon);assist=-;special=Moonbow;a=Atk/Spd Catch 4;b=Spd Preempt 3;c=Spd Smoke 4;seal=-;ai={turn=2};};
+{unit=Ophelia: Starlit Maiden;pos=a6;rarity=5;slot=2;level=45;stats=[42;48;40;28;35];weapon=Arcane Eclipse;assist=-;special=Luna;a=Atk/Res Finish 4;b=Special Spiral 4;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Hans: Ambitious Brute;pos=c7;rarity=5;slot=3;level=45;stats=[49;49;43;39;23];weapon=Aurgelmir;assist=-;special=Dragon Fang;a=Atk/Spd Ideal 3;b=-;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+{unit=Caeldori: Perfect Angel;pos=f7;rarity=5;slot=4;level=45;stats=[42;44;48;33;34];weapon=Prodigy Polearm;assist=-;special=Draconic Aura;a=Atk/Spd Catch 4;b=-;c=Atk/Spd Hold;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|End of Time|Goddess's Descent}}
+==In other languages==
+{{OtherLanguages
+|japanese=誰も時には抗えない
+|german=Lauf der Zeit
+|spanishEU=El avance del tiempo
+|spanishLA=El avance del tiempo
+|french=La marche du temps
+|italian=Il flusso del tempo
+|chineseTW=任誰都無法違抗時間
+|portuguese=O caminhar do tempo
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Micaiah.png
+|mapName=Chapter 3-5: Steel Sears the Land
+|stageTitle=Chapter 3: Part 5
+|stageName=Steel Sears the Land
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 3: Guided by a Dream
+|mapMode=Turn Limit Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2035
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3={{Ally|1}} | e3= | f3=
+| a2= | b2= | c2={{Ally|2}} | d2= | e2= | f2=
+| a1= | b1={{Ally|3}} | c1= | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=30
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|winReq=Turns to Win: 5 (Normal)<br>Turns to Win: 5 (Hard)<br>Turns to Win: 4 (Lunatic)
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-12T07:00:00Z|notification=New Heroes: World of Dawn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Laevatein: Searing Steel;pos=c6;rarity=3;slot=1;level=9;stats=[21;11;9;9;4];weapon=Iron Sword;assist=-;special=Glowing Ember;a=Close Def 1;b=-;c=Drive Def 1;seal=-;ai={turn=3;group=1;break_walls=1};};
+{unit=Blue Manakete;pos=d8;rarity=3;slot=2;level=9;stats=[20;9;10;7;6];weapon=Fire Breath;assist=-;special=-;a=Fury 1;b=-;c=-;seal=-;ai={turn=3;group=1;break_walls=1};};
+{unit=Green Mage;pos=f6;rarity=3;slot=3;level=9;stats=[18;8;10;3;7];weapon=Wind;assist=-;special=-;a=HP +3;b=-;c=-;seal=-;ai={turn=3;break_walls=1};};
+{unit=Bow Fighter;pos=a6;rarity=3;slot=4;level=9;stats=[20;9;9;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=3;break_walls=1};};
+]
+|Hard=[
+{unit=Laevatein: Searing Steel;pos=c6;rarity=4;slot=1;level=30;stats=[34;28;22;27;18];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Close Def 2;b=Quick Riposte 1;c=Drive Def 1;seal=-;ai={turn=3;group=1;break_walls=1};};
+{unit=Blue Manakete;pos=d8;rarity=4;slot=2;level=30;stats=[35;24;23;21;20];weapon=Flametongue;assist=Rally Speed;special=-;a=Fury 2;b=-;c=Def Ploy 1;seal=-;ai={turn=3;group=1;break_walls=1};};
+{unit=Green Mage;pos=f6;rarity=4;slot=3;level=30;stats=[30;23;24;14;20];weapon=Gronnraven;assist=-;special=-;a=HP +4;b=-;c=Hone Atk 2;seal=-;ai={turn=3;break_walls=1};};
+{unit=Bow Fighter;pos=a6;rarity=4;slot=4;level=30;stats=[34;24;22;21;11];weapon=Firesweep Bow;assist=Rally Attack;special=-;a=Warding Stance 2;b=-;c=-;seal=-;ai={turn=3;break_walls=1};};
+]
+|Lunatic=[
+{unit=Laevatein: Searing Steel;pos=c6;rarity=5;slot=1;level=45;displaylevel=40;stats=[46;39;34;38;28];weapon=Laevatein (weapon);assist=-;special=Bonfire;a=Close Def 3;b=Quick Riposte 3;c=Drive Def 2;seal=-;ai={turn=3;group=1;break_walls=1};};
+{unit=Blue Manakete;pos=d8;rarity=5;slot=2;level=45;displaylevel=40;stats=[47;35;33;32;31];weapon=Flametongue+;assist=Rally Spd/Res;special=-;a=Fury 3;b=-;c=Def Ploy 3;seal=-;ai={turn=3;group=1;break_walls=1};};
+{unit=Green Mage;pos=f6;rarity=5;slot=3;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Gronnraven+;assist=-;special=-;a=HP +5;b=-;c=Hone Atk 3;seal=-;ai={turn=3;break_walls=1};};
+{unit=Bow Fighter;pos=a6;rarity=5;slot=4;level=45;displaylevel=40;stats=[46;35;32;32;17];weapon=Firesweep Bow+;assist=Rally Atk/Def;special=-;a=Warding Stance 3;b=-;c=-;seal=-;ai={turn=3;break_walls=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Menacing Swordsman|Oliver: Admirer of Beauty (map)}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=炎剣、地を薙ぐ
+|german=Stahl versengt das Land
+|spanishEU=Incendio de acero
+|spanishLA=Incendio de acero
+|french=Les ravages de la lame
+|italian=L'acciaio che arroventa
+|chineseTW=炎劍　橫掃大地
+|portuguese=Aço em chamas
+}}
+{{Story Maps Navbox|book=2}}

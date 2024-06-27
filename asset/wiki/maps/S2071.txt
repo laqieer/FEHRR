@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Banner_Leif Unrevealed.png
+|mapName=Chapter 7-1: Echoing Dreams
+|stageTitle=Chapter 7: Part 1
+|stageName=Echoing Dreams
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 7: Snow and Ash
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2071
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=32
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE05_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-04-11T07:00:00Z|notification=New Heroes: World of Thracia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Finn: Lance of Legend;pos=c7;rarity=3;slot=1;level=17;stats=[25;16;16;15;7];weapon=Steel Lance;assist=-;special=Miracle;a=Attack/Def +1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=a6;rarity=3;slot=2;level=17;stats=[26;16;11;12;15];weapon=Steel Sword;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=d8;rarity=3;slot=3;level=17;stats=[24;14;15;9;13];weapon=Elwind;assist=Ardent Sacrifice;special=-;a=Attack/Res 1;b=-;c=Def Ploy 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f7;rarity=3;slot=4;level=17;stats=[24;13;17;9;18];weapon=Steel Lance;assist=-;special=-;a=-;b=Desperation 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Finn: Lance of Legend;pos=c7;rarity=4;slot=1;level=32;stats=[33;27;26;24;13];weapon=Brave Lance;assist=-;special=Miracle;a=Attack/Def +1;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=a6;rarity=4;slot=2;level=32;stats=[34;27;18;19;24];weapon=Silver Sword;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=d8;rarity=4;slot=3;level=32;stats=[31;24;25;15;21];weapon=Gronnraven;assist=Ardent Sacrifice;special=-;a=Attack/Res 1;b=-;c=Def Ploy 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f7;rarity=4;slot=4;level=32;stats=[31;21;28;16;29];weapon=Silver Lance;assist=-;special=Rising Wind;a=-;b=Desperation 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Finn: Lance of Legend;pos=c7;rarity=5;slot=1;level=40;stats=[40;34;33;32;18];weapon=Brave Lance+;assist=-;special=Miracle;a=Attack/Def +2;b=-;c=Goad Cavalry;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=a6;rarity=5;slot=2;level=40;stats=[41;34;24;25;30];weapon=Silver Sword+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=d8;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Gronnraven+;assist=Ardent Sacrifice;special=-;a=Attack/Res 2;b=-;c=Def Ploy 3;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=f7;rarity=5;slot=4;level=40;stats=[37;28;35;21;36];weapon=Silver Lance+;assist=-;special=Blazing Wind;a=-;b=Desperation 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Tiki & Nowi: Bound Hero Battle|Blade of the Mage Knight}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=夢は間近に
+|german=Echo der Träume
+|spanishEU=Sueños cercanos
+|spanishLA=Sueños cercanos
+|french=L'écho des rêves
+|italian=L'eco dei sogni
+|chineseTW=夢想近在咫尺
+|portuguese=O ecoar dos sonhos
+}}
+{{Story Maps Navbox|book=2}}

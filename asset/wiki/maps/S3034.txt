@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0303.png
+|stageTitle=Chapter 3: Part 4
+|stageName=Hawk and Heron
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 3: Countdown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3034
+|backdrop=
+| a8= | b8= | c8= | d8= | e8=| f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4={{Ally|1}}
+| a3= | b3= | c3= | d3= | e3={{Ally|2}} | f3={{Ally|3}}
+| a2= | b2= | c2= | d2= | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_03.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-01-11T07:00:00Z|notification=New Heroes: Rulers of the Laguz (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Tibarn: Lord of the Air;pos=d7;rarity=3;slot=1;level=8;stats=[21;13;9;11;4];weapon=Hatchling (Flier);assist=-;special=-;a=Sturdy Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Reyson: White Prince;pos=c7;rarity=3;slot=2;level=8;stats=[17;9;11;7;6];weapon=Hatchling (Flier);assist=-;special=-;a=-;b=-;c=Fortify Res 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=b6;rarity=3;slot=3;level=8;stats=[18;8;8;7;12];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=b4;rarity=3;slot=4;level=8;stats=[28;13;4;15;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Tibarn: Lord of the Air;pos=d7;rarity=4;slot=1;level=28;stats=[32;28;21;25;11];weapon=Fledgling (Flier);assist=-;special=Dragon Gaze;a=Sturdy Blow 1;b=Chill Atk 1;c=Even Atk Wave 1;seal=-;ai={group=1};};
+{unit=Reyson: White Prince;pos=c7;rarity=4;slot=2;level=28;stats=[28;21;25;16;17];weapon=Fledgling (Flier);assist=Sing;special=-;a=Steady Posture 1;b=-;c=Fortify Res 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=b6;rarity=4;slot=3;level=28;stats=[27;20;19;16;26];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=b4;rarity=4;slot=4;level=28;stats=[43;28;10;30;12];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Wary Fighter 1;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Tibarn: Lord of the Air;pos=d7;rarity=5;slot=1;level=43;displaylevel=40;stats=[42;41;33;36;19];weapon=Hawk King Claw;assist=-;special=Draconic Aura;a=Sturdy Impact;b=Chill Atk 3;c=Even Atk Wave 3;seal=-;ai={group=1};};
+{unit=Reyson: White Prince;pos=c7;rarity=5;slot=2;level=43;displaylevel=40;stats=[38;30;36;26;27];weapon=Heron Wing;assist=Sing;special=-;a=Steady Posture 2;b=-;c=Fortify Beasts;seal=-;ai={group=1};};
+{unit=Cleric;pos=b6;rarity=5;slot=3;level=43;displaylevel=40;stats=[35;29;29;24;37];weapon=Gravity+;assist=Physic+;special=-;a=-;b=Live to Serve 3;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=b4;rarity=5;slot=4;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Silver Lance+;assist=-;special=Bonfire;a=-;b=Wary Fighter 3;c=Drive Atk 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Reyson: White Prince;text=I am bound by contract to the beorc\nLíf... That man's heart is completely\nclouded.;textJP=私たちと契約を交わした\nあのリーヴという名のベオク…\nあの男の心は、まるですべてを…};
+]}}
+{{Story Navbar|Fangs of the Wolf Queen|Close to Death}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=鷹王と白の王子
+|german=Falke und Reiher
+|spanishEU=Garza y halcón
+|spanishLA=Garza y halcón
+|french=Le faucon et le héron
+|italian=Il falco e l'airone
+|chineseTW=鷹王與純白王子
+|portuguese=Falcão e garça
+}}
+{{Story Maps Navbox|book=3}}

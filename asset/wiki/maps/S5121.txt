@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0512.webp
+|stageTitle=Chapter 12-1
+|stageName=Fabric of History
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 12: What Remains
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5121
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE11_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-10-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Fjorm (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Malice: Deft Sellsword;pos=c7;rarity=3;slot=1;level=28;stats=[30;26;30;21;18];weapon=Silver Sword;assist=-;special=New Moon;a=Atk/Spd Push 1;b=Spurn 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=a7;rarity=3;slot=2;level=28;stats=[29;18;24;13;25];weapon=Steel Lance;assist=-;special=Chilling Wind;a=-;b=Hit and Run;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=d7;rarity=3;slot=3;level=28;stats=[32;24;23;22;14];weapon=Steel Axe;assist=-;special=Night Sky;a=Atk/Spd Catch 1;b=-;c=Atk Tactic 1;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=3;slot=4;level=28;stats=[29;20;21;13;18];weapon=Elthunder;assist=-;special=Rising Thunder;a=Death Blow 1;b=Swordbreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f6;rarity=3;slot=5;level=28;stats=[31;24;17;25;12];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Sturdy Stance 1;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Malice: Deft Sellsword;pos=c7;rarity=4;slot=1;level=35;stats=[35;34;38;26;23];weapon=Spendy Scimitar;assist=-;special=New Moon;a=Atk/Spd Push 2;b=Spurn 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=a7;rarity=4;slot=2;level=35;stats=[33;23;30;17;31];weapon=Slaying Lance;assist=-;special=Chilling Wind;a=-;b=Hit and Run;c=Spd Tactic 2;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=d7;rarity=4;slot=3;level=35;stats=[37;31;29;28;17];weapon=Slaying Hammer;assist=-;special=Night Sky;a=Atk/Spd Catch 2;b=-;c=Atk Tactic 2;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=4;slot=4;level=35;stats=[33;26;27;16;23];weapon=Keen Blárwolf;assist=-;special=Rising Thunder;a=Death Blow 2;b=Swordbreaker 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f6;rarity=4;slot=5;level=35;stats=[36;30;22;31;15];weapon=Safeguard;assist=-;special=Glowing Ember;a=Sturdy Stance 1;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Malice: Deft Sellsword;pos=c7;rarity=5;slot=1;level=40;stats=[40;39;43;32;28];weapon=Spendy Scimitar;assist=-;special=Luna;a=Atk/Spd Push 4;b=Spurn 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=a7;rarity=5;slot=2;level=40;stats=[37;28;35;21;36];weapon=Slaying Lance+;assist=-;special=Iceberg;a=-;b=Hit and Run;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=d7;rarity=5;slot=3;level=40;stats=[43;36;35;33;21];weapon=Slaying Hammer+;assist=-;special=Glimmer;a=Atk/Spd Catch 3;b=-;c=Atk Tactic 3;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Keen Blárwolf+;assist=-;special=Blazing Thunder;a=Death Blow 3;b=Swordbreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=f6;rarity=5;slot=5;level=40;stats=[41;35;27;36;19];weapon=Safeguard+;assist=-;special=Bonfire;a=Sturdy Stance 2;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Grand Conquests 28|Twisted Foe}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=紡がれた歴史
+|german=Geschichtsträchtiger Stoff
+|spanishEU=Historia entretejida
+|spanishLA=Historia entretejida
+|french=Le fil de l'histoire
+|italian=Storia intessuta
+|chineseTW=交織的歷史
+|portuguese=Tecido da história
+}}
+{{Story Maps Navbox|book=5}}

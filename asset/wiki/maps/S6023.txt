@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0602.webp
+|stageTitle=Chapter 2: Part 3
+|stageName=Radiant Hero
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 2: Curse Directive
+|mapImage={{#invoke:MapLayout|initTabber     
+|baseMap=S6023
+|backdrop=
+|allyPos=e3,f3,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE13_16.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Priam: Radiant Hero;pos=d7;rarity=3;slot=1;level=5;stats=[19;12;11;12;5];weapon=Iron Sword;assist=-;special=-;a=Atk/Def Ideal 1;b=Null Follow-Up 1;c=Rouse Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=c8;rarity=3;slot=2;level=5;stats=[17;7;7;6;10];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};  
+{unit=Lance Dragon;pos=a4;rarity=3;slot=3;level=5;stats=[20;10;6;11;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=3;slot=4;level=5;stats=[17;8;10;3;9];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Priam: Radiant Hero;pos=d7;rarity=4;slot=1;level=25;stats=[29;28;26;24;15];weapon=Steel Sword;assist=-;special=Daylight;a=Atk/Def Ideal 2;b=Null Follow-Up 2;c=Rouse Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=c8;rarity=4;slot=2;level=25;stats=[26;18;17;15;24];weapon=Assault;assist=Mend;special=Still-Water Balm;a=-;b=Live to Serve 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=a4;rarity=4;slot=3;level=25;stats=[30;24;16;25;11];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Sturdy Stance 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=4;slot=4;level=25;stats=[26;18;25;9;21];weapon=Elwind;assist=-;special=Chilling Wind;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Priam: Radiant Hero;pos=d7;rarity=5;slot=1;level=42;stats=[41;43;42;36;27];weapon=Ancient Ragnell;assist=-;special=Sol;a=Atk/Def Ideal 4;b=Null Follow-Up 3;c=Rouse Spd/Def 4;seal=-;ai={turn=1};};
+{unit=Cleric;pos=c8;rarity=5;slot=2;level=42;stats=[35;29;29;24;36];weapon=Absorb+;assist=Physic+;special=Fireflood Balm+;a=-;b=Live to Serve 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=a4;rarity=5;slot=3;level=42;stats=[42;36;28;37;19];weapon=Slaying Spear+;assist=-;special=Bonfire;a=Sturdy Stance 2;b=-;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=5;slot=4;level=42;stats=[35;30;39;16;33];weapon=Rexcalibur+;assist=-;special=Iceberg;a=Death Blow 3;b=-;c=Ward Fliers;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Pursuer of Truth|East-Khan and West-Khan}}
+==In other languages==
+{{OtherLanguages
+|japanese=勇者の末裔
+|german=Strahlender Held
+|spanishEU=Héroe radiante
+|spanishLA=Héroe radiante
+|french=Héros de l'Aube
+|italian=Eroe della fiamma
+|chineseTW=勇者的後裔
+|portuguese=Herói radiante
+}}
+{{Story Maps Navbox|book=6}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0607.webp
+|stageTitle=Chapter 7: Part 3
+|stageName=Undying Breath
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 7: To Be Emperor
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6073
+|backdrop=
+|allyPos=c3,d3,b2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=19
+|lvlHard=34
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-05-10T07:00:00Z|notification=New Heroes Summoning Event: Beyond Control (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gustav: Sovereign Slain;pos=c8;rarity=3;slot=1;level=19;stats=[26;22;11;20;16];weapon=Steel Axe;assist=-;special=-;a=Atk/Def Catch 1;b=A/D Near Trace 1;c=Atk Smoke 1;seal=-;ai={turn=1};use_ally_stats=1;};
+{unit=Lance Cavalier;pos=d8;rarity=3;slot=2;level=19;stats=[27;17;12;13;16];weapon=Steel Lance;assist=-;special=-;a=-;b=Lull Atk/Def 1;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=b8;rarity=3;slot=3;level=19;stats=[23;15;19;7;16];weapon=Elfire;assist=-;special=-;a=Life and Death 1;b=-;c=Atk Tactic 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f7;rarity=3;slot=4;level=19;stats=[27;16;16;15;14];weapon=Fire Breath+;assist=-;special=-;a=Fury 1;b=Wrath 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Gustav: Sovereign Slain;pos=c8;rarity=4;slot=1;level=34;stats=[34;35;19;32;24];weapon=Silver Axe;assist=-;special=Glowing Ember;a=Atk/Def Catch 2;b=A/D Near Trace 2;c=Atk Smoke 2;seal=-;ai={turn=1};use_ally_stats=1;};
+{unit=Lance Cavalier;pos=d8;rarity=4;slot=2;level=34;stats=[35;29;19;20;25];weapon=Steadfast Lance;assist=-;special=Retribution;a=-;b=Lull Atk/Def 2;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=b8;rarity=4;slot=3;level=34;stats=[29;23;31;12;27];weapon=Rauðrvulture;assist=-;special=New Moon;a=Life and Death 2;b=-;c=Atk Tactic 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f7;rarity=4;slot=4;level=34;stats=[38;27;25;23;22];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Fury 2;b=Wrath 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Gustav: Sovereign Slain;pos=c8;rarity=5;slot=1;level=42;stats=[41;43;26;40;31];weapon=Headsman Glitnir;assist=-;special=Bonfire;a=Atk/Def Catch 4;b=A/D Near Trace 3;c=Atk Smoke 4;seal=-;ai={turn=1};use_ally_stats=1;};
+{unit=Lance Cavalier;pos=d8;rarity=5;slot=2;level=42;stats=[42;35;25;26;31];weapon=Steadfast Lance+;assist=-;special=Vengeance;a=-;b=Lull Atk/Def 3;c=Goad Cavalry;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=b8;rarity=5;slot=3;level=42;stats=[35;30;39;16;33];weapon=Rauðrvulture+;assist=-;special=Moonbow;a=Life and Death 3;b=-;c=Atk Tactic 3;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=f7;rarity=5;slot=4;level=42;stats=[45;33;31;30;29];weapon=Dark Breath+;assist=-;special=Dragon Fang;a=Fury 3;b=Wrath 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_serious5};
+  {unit=Gustav: Sovereign Slain;text=I am Gustav. My flesh has been\nreconstructed by the dread power\nof Hel.;textJP=この身はヘルの\n忌まわしき力によるもの…};
+]}}
+{{Story Navbar|Deepest Wish|Between Sisters}}
+==In other languages==
+{{OtherLanguages
+|japanese=心は死せず
+|german=Unsterblicher Atem
+|spanishEU=Aliento inmortal
+|spanishLA=Aliento inmortal
+|french=Souffle éternel
+|italian=Respiro immortale
+|chineseTW=心永不亡
+|portuguese=Sopro imortal
+}}
+{{Story Maps Navbox|book=6}}

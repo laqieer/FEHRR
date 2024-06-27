@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Helbindi Unrevealed.png
+|mapName=Chapter 9-4: Dancer of Flames
+|stageTitle=Chapter 9: Part 4
+|stageName=Dancer of Flames
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 9: Hellfire
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2094
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2= | d2={{Ally|3}} | e2= | f2=
+| a1= | b1= | c1={{Ally|3}} | d1= | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=25
+|lvlHard=37
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_05.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-05-10T07:00:00Z|notification=New Heroes: Genealogy (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ares: Black Knight;pos=c7;rarity=3;slot=1;level=25;stats=[29;22;19;20;11];weapon=Slaying Edge;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 1;b=Seal Def/Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b6;rarity=3;slot=2;level=25;stats=[40;24;9;26;11];weapon=Steel Lance;assist=-;special=-;a=Sturdy Stance 1;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=e8;rarity=3;slot=3;level=25;stats=[24;22;15;10;21];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Guard 1;c=Atk Ploy 1;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c6;rarity=3;slot=4;level=25;stats=[31;20;19;18;17];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Distant Def 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Lene: Yearning Dancer;pos=d7;rarity=3;slot=5;level=25;stats=[25;17;21;13;17];weapon=Steel Sword;assist=Dance;special=-;a=-;b=Firestorm Dance 1;c=Sword Valor 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ares: Black Knight;pos=c7;rarity=4;slot=1;level=37;stats=[36;32;27;29;15];weapon=Dark Mystletainn;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 2;b=Seal Def/Res 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b6;rarity=4;slot=2;level=37;stats=[50;34;13;36;16];weapon=Ridersbane;assist=-;special=Buckler;a=Sturdy Stance 2;b=Wary Fighter 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=e8;rarity=4;slot=3;level=37;stats=[30;32;22;14;31];weapon=Gronnraven;assist=-;special=Chilling Wind;a=-;b=Guard 2;c=Atk Ploy 2;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c6;rarity=4;slot=4;level=37;stats=[40;28;27;25;24];weapon=Light Breath;assist=-;special=Glowing Ember;a=Distant Def 2;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Lene: Yearning Dancer;pos=d7;rarity=4;slot=5;level=37;stats=[32;25;31;20;24];weapon=Safeguard;assist=Dance;special=-;a=-;b=Firestorm Dance 2;c=Sword Valor 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ares: Black Knight;pos=c7;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;39;31;35;19];weapon=Dark Mystletainn;assist=-;special=Draconic Aura;a=Brazen Atk/Def 3;b=Seal Def/Res 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=b6;rarity=5;slot=2;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Ridersbane+;assist=-;special=Pavise;a=Sturdy Stance 2;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=e8;rarity=5;slot=3;level=43;displaylevel=40;stats=[34;37;27;18;36];weapon=Gronnraven+;assist=-;special=Iceberg;a=-;b=Guard 3;c=Atk Ploy 3;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=c6;rarity=5;slot=4;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Light Breath+;assist=-;special=Bonfire;a=Distant Def 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Lene: Yearning Dancer;pos=d7;rarity=5;slot=5;level=43;displaylevel=40;stats=[37;29;38;25;29];weapon=Safeguard+;assist=Dance;special=-;a=-;b=Firestorm Dance 2;c=Sword Valor 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Lene: Yearning Dancer;text=You're here to attack me? I need to\nmake something very clear...;textJP=あなたたちが敵…？\n言っとくけど、あたしに手を出したら\nアレスが許さないんだから！};
+  {text=Ares will never forgive you if you lay a\nfinger on me!};
+]}}
+{{Story Navbar|The Goddess of Thunder|Into the Blaze}}
+==In other languages==
+{{OtherLanguages
+|japanese=炎の踊り子
+|german=Flammentänzerin
+|spanishEU=La bailarina de fuego
+|spanishLA=La bailarina de fuego
+|french=La danseuse des flammes
+|italian=La danzatrice del fuoco
+|chineseTW=炎之舞孃
+|portuguese=A dançarina do fogo
+}}
+{{Story Maps Navbox|book=2}}

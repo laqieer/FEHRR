@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom (The Branded King) Unrevealed.png
+|mapName=Chapter 6-1: A Distant Dream
+|stageTitle=Chapter 6: Part 1
+|stageName=A Distant Dream
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 6: The True Quarry
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2061
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5={{Ally|1}} | f5={{Ally|2}}
+| a4= | b4= | c4= | d4={{Ally|3}} | e4={{Ally|4}} | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=31
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-03-09T07:00:00Z|notification=New Heroes: The Branded King (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Morgan: Lass from Afar;pos=c8;rarity=3;slot=1;level=14;stats=[22;14;12;5;15];weapon=Elthunder;assist=-;special=-;a=Mirror Stance 1;b=Guard 1;c=Atk Ploy 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b1;rarity=3;slot=2;level=14;stats=[24;14;9;10;13];weapon=Steel Sword;assist=-;special=-;a=-;b=-;c=Def Ploy 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e1;rarity=3;slot=3;level=14;stats=[33;17;5;19;7];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=a5;rarity=3;slot=4;level=14;stats=[26;13;13;13;9];weapon=Steel Axe;assist=-;special=-;a=Warding Stance 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Morgan: Lass from Afar;pos=c8;rarity=4;slot=1;level=31;stats=[31;27;22;11;26];weapon=Blárserpent;assist=-;special=Chilling Wind;a=Mirror Stance 1;b=Guard 2;c=Atk Ploy 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b1;rarity=4;slot=2;level=31;stats=[33;27;18;19;23];weapon=Silver Sword;assist=-;special=-;a=Resistance +1;b=-;c=Def Ploy 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e1;rarity=4;slot=3;level=31;stats=[46;30;11;32;14];weapon=Slaying Lance;assist=-;special=Glowing Ember;a=-;b=Lunge;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=a5;rarity=4;slot=4;level=31;stats=[36;24;23;23;16];weapon=Silver Axe;assist=-;special=-;a=Warding Stance 2;b=-;c=Threaten Res 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Morgan: Lass from Afar;pos=c8;rarity=5;slot=1;level=40;stats=[37;34;30;16;33];weapon=Blárserpent+;assist=-;special=Iceberg;a=Mirror Stance 2;b=Guard 3;c=Atk Ploy 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=b1;rarity=5;slot=2;level=40;stats=[41;34;24;25;30];weapon=Silver Sword+;assist=-;special=-;a=Resistance +3;b=-;c=Def Ploy 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=e1;rarity=5;slot=3;level=40;stats=[55;38;16;40;19];weapon=Slaying Lance+;assist=-;special=Bonfire;a=-;b=Lunge;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=a5;rarity=5;slot=4;level=40;stats=[44;31;31;30;22];weapon=Silver Axe+;assist=-;special=-;a=Warding Stance 3;b=-;c=Threaten Res 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The People's Hero|The Branded Knight}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=夢見る姿は彼方に
+|german=Ein ferner Traum
+|spanishEU=Sueño distante
+|spanishLA=Sueño distante
+|french=Rêve lointain
+|italian=Un sogno lontano
+|chineseTW=遙不可及的夢中人
+|portuguese=Um sonho distante
+}}
+{{Story Maps Navbox|book=2}}

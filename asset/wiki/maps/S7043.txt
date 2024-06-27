@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0704.webp
+|stageTitle=Chapter 7: Part 3
+|stageName=Precious Creatures
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 7: Goddess Reunion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7043
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=30
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE10_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-02-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Elincia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Geoffrey: Realm's Protector;pos=d8;rarity=3;slot=1;level=9;stats=[21;18;14;10;6];weapon=Steel Lance;assist=-;special=-;a=-;b=Flow Force 1;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=3;slot=2;level=9;stats=[18;12;8;5;11];weapon=Elwind;assist=Rally Resistance;special=-;a=-;b=Def/Res Ruse 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=e7;rarity=3;slot=3;level=9;stats=[22;11;7;8;11];weapon=Steel Sword;assist=-;special=-;a=Atk/Def Clash 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a6;rarity=3;slot=4;level=9;stats=[19;9;9;8;12];weapon=Assault;assist=Mend;special=-;a=Still Water 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Geoffrey: Realm's Protector;pos=d8;rarity=4;slot=1;level=30;stats=[32;36;31;21;17];weapon=Silver Lance;assist=-;special=New Moon;a=-;b=Flow Force 2;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=4;slot=2;level=30;stats=[27;27;18;12;26];weapon=Keen Gronnwolf;assist=Rally Up Res;special=-;a=-;b=Def/Res Ruse 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=e7;rarity=4;slot=3;level=30;stats=[33;26;17;18;23];weapon=Slaying Edge;assist=-;special=New Moon;a=Atk/Def Clash 2;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a6;rarity=4;slot=4;level=30;stats=[28;21;20;17;27];weapon=Gravity;assist=Physic;special=-;a=Still Water 2;b=Dazzling Staff 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Geoffrey: Realm's Protector;pos=d8;rarity=5;slot=1;level=42;stats=[41;47;42;30;26];weapon=Queenslance;assist=-;special=Luna;a=-;b=Flow Force 3;c=Atk/Def Menace;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=5;slot=2;level=42;stats=[34;36;26;17;35];weapon=Keen Gronnwolf+;assist=Rally Up Res+;special=-;a=-;b=Def/Res Ruse 3;c=Ward Cavalry;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=e7;rarity=5;slot=3;level=42;stats=[42;35;25;26;31];weapon=Slaying Edge+;assist=-;special=Moonbow;a=Atk/Def Clash 3;b=-;c=Ward Cavalry;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Cleric;pos=a6;rarity=5;slot=4;level=42;stats=[35;29;29;24;36];weapon=Gravity+;assist=Physic+;special=-;a=Still Water 3;b=Dazzling Staff 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Queen's Advisor|Crimean Devotion}}
+==In other languages==
+{{OtherLanguages
+|japanese=かわいい生き物
+|german=Bezaubernde Wesen
+|spanishEU=Criaturas adorables
+|spanishLA=Criaturas adorables
+|french=Créatures adorables
+|italian=Creaturine adorabili
+|chineseTW=可愛的生物
+|portuguese=Criaturas preciosas
+}}
+{{Story Maps Navbox|book=7}}

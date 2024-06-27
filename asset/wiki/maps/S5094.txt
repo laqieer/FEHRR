@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0509.webp
+|stageTitle=Chapter 9: Part 4
+|stageName=Wily Warrior
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 9: Echoes of Truth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5094
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=37
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-07-19T07:00:00Z|notification=New Heroes Summoning Event: Dawning Reality & Nifl (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Charlotte: Wily Warrior;pos=d7;rarity=3;slot=1;level=25;stats=[33;28;26;16;10];weapon=Steel Axe;assist=-;special=Night Sky;a=Swift Sparrow 1;b=Frenzy 1;c=Time's Pulse 1;seal=-;ai={group=1};};
+{unit=Nyx: Rulebreaker Mage;pos=b7;rarity=3;slot=2;level=25;stats=[26;27;25;11;17];weapon=Ruin;assist=-;special=New Moon;a=Spd/Res Solo 1;b=Null Follow-Up 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=f5;rarity=3;slot=3;level=25;stats=[30;21;14;15;19];weapon=Steel Lance;assist=-;special=Dragon Gaze;a=Sturdy Blow 1;b=Swordbreaker 1;c=-;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=a5;rarity=3;slot=4;level=25;stats=[28;18;23;20;16];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Fury 1;b=-;c=Spd/Res Rein 1;seal=-;ai={group=1};};
+{unit=Bow Flier;pos=c8;rarity=3;slot=5;level=25;stats=[26;20;21;10;18];weapon=Steel Bow;assist=-;special=Night Sky;a=Life and Death 1;b=Flier Formation 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Charlotte: Wily Warrior;pos=d7;rarity=4;slot=1;level=37;stats=[43;39;37;22;15];weapon=Silver Axe;assist=-;special=Night Sky;a=Swift Sparrow 2;b=Frenzy 2;c=Time's Pulse 2;seal=-;ai={group=1};};
+{unit=Nyx: Rulebreaker Mage;pos=b7;rarity=4;slot=2;level=37;stats=[33;38;36;16;24];weapon=Fenrir;assist=-;special=New Moon;a=Spd/Res Solo 2;b=Null Follow-Up 2;c=-;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=f5;rarity=4;slot=3;level=37;stats=[37;31;21;22;27];weapon=Slaying Lance;assist=-;special=Dragon Gaze;a=Sturdy Blow 1;b=Swordbreaker 2;c=-;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=a5;rarity=4;slot=4;level=37;stats=[35;25;33;28;23];weapon=Light Breath;assist=-;special=Glowing Ember;a=Fury 2;b=-;c=Spd/Res Rein 2;seal=-;ai={group=1};};
+{unit=Bow Flier;pos=c8;rarity=4;slot=5;level=37;stats=[33;28;31;14;25];weapon=Short Bow;assist=-;special=Night Sky;a=Life and Death 2;b=Flier Formation 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Charlotte: Wily Warrior;pos=d7;rarity=5;slot=1;level=43;stats=[51;46;44;26;19];weapon=Fair-Fury Axe;assist=-;special=Glimmer;a=Swift Sparrow 3;b=Frenzy 3;c=Time's Pulse 3;seal=-;ai={group=1};};
+{unit=Nyx: Rulebreaker Mage;pos=b7;rarity=5;slot=2;level=43;stats=[38;45;43;20;29];weapon=Ginnungagap  (weapon);assist=-;special=Luna;a=Spd/Res Solo 4;b=Null Follow-Up 3;c=-;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=f5;rarity=5;slot=3;level=43;stats=[42;36;26;27;31];weapon=Slaying Lance+;assist=-;special=Draconic Aura;a=Sturdy Blow 2;b=Swordbreaker 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=a5;rarity=5;slot=4;level=43;stats=[40;30;38;34;28];weapon=Light Breath+;assist=-;special=Bonfire;a=Fury 3;b=-;c=Spd/Res Rein 3;seal=-;ai={group=1};};
+{unit=Bow Flier;pos=c8;rarity=5;slot=5;level=43;stats=[38;34;36;18;30];weapon=Short Bow+;assist=-;special=Glimmer;a=Life and Death 3;b=Flier Formation 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Rulebreaker Mage|Sensitive Soul}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=女の本性
+|german=Zwei Gesichter
+|spanishEU=Guerrera astuta
+|spanishLA=Guerrera astuta
+|french=Guerrière habile
+|italian=Guerriera astuta
+|chineseTW=女人的本性
+|portuguese=Guerreira astuta
+}}
+{{Story Maps Navbox|book=5}}

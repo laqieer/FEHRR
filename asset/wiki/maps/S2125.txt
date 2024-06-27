@@ -1,0 +1,107 @@
+{{Battle Infobox
+|bannerImage=C0212_C.png
+|stageTitle=Chapter 12-5
+|stageName=The Traitor
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 12: Seeping Poison
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2125
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Ally|1}} | f3={{Ally|2}}
+| a2= | b2= | c2= | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-09-07T07:00:00Z|notification=New Heroes: Doorway to Destiny (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2125
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Loki: The Trickster;pos=a6;rarity=3;slot=1;level=32;stats=[34;25;26;13;22];weapon=Thökk;assist=Recover;special=Heavenly Light;a=Brazen Atk/Spd 1;b=Dazzling Staff 1;c=Savage Blow 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Silvia: Traveling Dancer;pos=b7;rarity=3;slot=2;level=32;stats=[32;19;27;12;22];weapon=Barrier Blade;assist=Dance;special=-;a=Mirror Stance 1;b=Deluge Dance 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Dragon;pos=a5;rarity=3;slot=3;level=32;stats=[33;26;19;27;13];weapon=Slaying Spear;assist=-;special=Rising Flame;a=Fury 1;b=Quick Riposte 1;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lewyn: Guiding Breeze;pos=d8;rarity=3;slot=4;level=32;stats=[30;25;28;12;18];weapon=Rexcalibur;assist=-;special=Night Sky;a=Swift Sparrow 1;b=Special Spiral 1;c=Odd Atk Wave 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=e8;rarity=3;slot=5;level=32;stats=[30;20;26;15;27];weapon=Zanbato;assist=Ardent Sacrifice;special=Chilling Wind;a=Fury 1;b=Desperation 1;c=Spur Atk/Spd 1;seal=-;ai={group=1;break_walls=1};};
+{unit=Quan: Luminous Lancer;pos=a5;rarity=3;slot=6;level=32;stats=[36;28;21;23;11];weapon=Silver Lance;assist=Rally Defense;special=Dragon Gaze;a=Steady Posture 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1;break_walls=1};spawn={target=Lance Dragon;kills=1};};
+{unit=Ethlyn: Spirited Princess;pos=a6;rarity=3;slot=7;level=32;stats=[30;20;26;18;15];weapon=Fear;assist=Physic;special=Imbue;a=Spd/Def Bond 1;b=Live to Serve 1;c=-;seal=-;ai={turn=1;break_walls=1};spawn={target=Lance Dragon;kills=1};};
+{unit=Jamke: Prince of Verdane;pos=e8;rarity=3;slot=8;level=32;stats=[30;27;24;21;12];weapon=Slaying Bow;assist=-;special=Night Sky;a=Heavy Blade 1;b=Cancel Affinity 1;c=-;seal=-;ai={turn=1;break_walls=1};spawn={target=Sword Flier;kills=1};};
+]
+|Hard=[
+{unit=Loki: The Trickster;pos=a6;rarity=4;slot=1;level=40;stats=[39;31;33;17;27];weapon=Thökk;assist=Recover;special=Heavenly Light;a=Brazen Atk/Spd 2;b=Dazzling Staff 2;c=Savage Blow 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Silvia: Traveling Dancer;pos=b7;rarity=4;slot=2;level=40;stats=[37;24;34;15;28];weapon=Barrier Blade;assist=Dance;special=-;a=Mirror Stance 2;b=Deluge Dance 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Dragon;pos=a5;rarity=4;slot=3;level=40;stats=[38;33;24;34;17];weapon=Slaying Spear;assist=-;special=Rising Flame;a=Fury 2;b=Quick Riposte 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lewyn: Guiding Breeze;pos=d8;rarity=4;slot=4;level=40;stats=[35;32;35;15;23];weapon=Rexcalibur;assist=-;special=Night Sky;a=Swift Sparrow 2;b=Special Spiral 2;c=Odd Atk Wave 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=e8;rarity=4;slot=5;level=40;stats=[35;25;33;19;34];weapon=Zanbato;assist=Ardent Sacrifice;special=Chilling Wind;a=Fury 2;b=Desperation 2;c=Spur Atk/Spd 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Quan: Luminous Lancer;pos=a5;rarity=4;slot=6;level=40;stats=[41;35;26;29;14];weapon=Silver Lance;assist=Rally Spd/Def;special=Dragon Gaze;a=Steady Posture 2;b=-;c=Drive Atk 2;seal=-;ai={turn=1;break_walls=1};spawn={target=Lance Dragon;kills=1};};
+{unit=Ethlyn: Spirited Princess;pos=a6;rarity=4;slot=7;level=40;stats=[35;25;32;23;19];weapon=Fear;assist=Physic;special=Heavenly Light;a=Spd/Def Bond 2;b=Live to Serve 2;c=-;seal=-;ai={turn=1;break_walls=1};spawn={target=Lance Dragon;kills=1};};
+{unit=Jamke: Prince of Verdane;pos=e8;rarity=4;slot=8;level=40;stats=[35;34;30;26;15];weapon=Slaying Bow;assist=-;special=Night Sky;a=Heavy Blade 2;b=Cancel Affinity 2;c=-;seal=-;ai={turn=1;break_walls=1};spawn={target=Sword Flier;kills=1};};
+]
+|Lunatic=[
+{unit=Loki: The Trickster;pos=a6;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;36;38;21;33];weapon=Thökk;assist=Recover+;special=Heavenly Light;a=Brazen Atk/Spd 3;b=Dazzling Staff 3;c=Savage Blow 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Silvia: Traveling Dancer;pos=b7;rarity=5;slot=2;level=45;displaylevel=40;stats=[43;30;40;18;33];weapon=Barrier Blade+;assist=Dance;special=-;a=Mirror Stance 2;b=Deluge Dance 2;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lance Dragon;pos=a5;rarity=5;slot=3;level=45;displaylevel=40;stats=[44;38;30;39;21];weapon=Slaying Spear+;assist=-;special=Growing Flame;a=Fury 3;b=Quick Riposte 3;c=-;seal=-;ai={group=1;break_walls=1};};
+{unit=Lewyn: Guiding Breeze;pos=d8;rarity=5;slot=4;level=45;displaylevel=40;stats=[41;37;40;18;28];weapon=Forseti;assist=-;special=Glimmer;a=Swift Sparrow 2;b=Special Spiral 3;c=Odd Atk Wave 3;seal=-;ai={group=1;break_walls=1};};
+{unit=Sword Flier;pos=e8;rarity=5;slot=5;level=45;displaylevel=40;stats=[40;31;38;23;39];weapon=Zanbato+;assist=Ardent Sacrifice;special=Iceberg;a=Fury 3;b=Desperation 3;c=Spur Atk/Spd 2;seal=-;ai={group=1;break_walls=1};};
+{unit=Quan: Luminous Lancer;pos=a5;rarity=5;slot=6;level=45;displaylevel=40;stats=[47;40;32;34;17];weapon=Gáe Bolg;assist=Rally Spd/Def+;special=Draconic Aura;a=Steady Posture 2;b=-;c=Drive Atk 2;seal=-;ai={turn=1;break_walls=1};spawn={target=Lance Dragon;kills=1};};
+{unit=Ethlyn: Spirited Princess;pos=a6;rarity=5;slot=7;level=45;displaylevel=40;stats=[41;31;37;29;21];weapon=Fear+;assist=Physic+;special=Heavenly Light;a=Spd/Def Bond 3;b=Live to Serve 3;c=Hone Cavalry;seal=-;ai={turn=1;break_walls=1};spawn={target=Lance Dragon;kills=1};};
+{unit=Jamke: Prince of Verdane;pos=e8;rarity=5;slot=8;level=45;displaylevel=40;stats=[41;40;35;32;18];weapon=Slaying Bow+;assist=-;special=Astra;a=Heavy Blade 3;b=Cancel Affinity 3;c=Infantry Rush 3;seal=-;ai={turn=1;break_walls=1};spawn={target=Sword Flier;kills=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Led by the Breeze|Farewells}}
+
+==In other languages==
+{{OtherLanguages
+|english=The Traitor
+|japanese=裏切者は
+|german=Der Verräter
+|spanishEU=La traición
+|spanishLA=La traición
+|french=Le traître
+|italian=La serpe in seno
+|chineseTW=叛徒
+|portuguese=A traição
+}}
+{{Story Maps Navbox|book=2}}

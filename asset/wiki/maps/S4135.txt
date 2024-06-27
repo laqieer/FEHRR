@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0413 C.webp
+|stageTitle=Chapter 13-5
+|stageName=The Waking World
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 13: Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4135
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_Brave_02.ogg
+|BGM2=bgm_battle_boss.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-11-17T07:00:00Z|notification=New Heroes Summoning Event: Princess of Bern (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Thief;pos=b6;rarity=3;slot=1;level=30;stats=[29;19;27;9;22];weapon=Barb Shuriken;assist=-;special=New Moon;a=-;b=Poison Strike 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Loki: The Trickster;pos=d8;rarity=3;slot=2;level=30;stats=[32;23;25;13;21];weapon=Thökk;assist=Restore;special=Windfire Balm;a=HP/Atk 1;b=Sudden Panic 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=3;slot=3;level=30;stats=[32;24;17;18;21];weapon=Slaying Hammer;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Close Guard 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e7;rarity=3;slot=4;level=30;stats=[33;22;20;20;10];weapon=Shining Bow;assist=-;special=Rising Light;a=Fire Boost 1;b=-;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;rarity=3;slot=5;level=30;stats=[26;25;18;11;24];weapon=Thoron;assist=Rally Atk/Spd;special=-;a=Atk/Res Bond 1;b=Def/Res Ruse 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Red Thief;pos=b6;rarity=4;slot=1;level=35;stats=[32;23;33;10;27];weapon=Barb Shuriken;assist=-;special=New Moon;a=-;b=Poison Strike 2;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Loki: The Trickster;pos=d8;rarity=4;slot=2;level=35;stats=[36;28;30;15;25];weapon=Thökk;assist=Restore;special=Windfire Balm;a=HP/Atk 1;b=Sudden Panic 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=4;slot=3;level=35;stats=[36;29;20;21;26];weapon=Slaying Hammer;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Close Guard 2;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e7;rarity=4;slot=4;level=35;stats=[37;27;25;24;12];weapon=Shining Bow;assist=-;special=Rising Light;a=Fire Boost 2;b=-;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;rarity=4;slot=5;level=35;stats=[29;30;21;13;29];weapon=Thoron;assist=Rally Atk/Spd;special=-;a=Atk/Res Bond 2;b=Def/Res Ruse 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Red Thief;pos=b6;rarity=5;slot=1;level=40;stats=[36;28;38;13;32];weapon=Barb Shuriken+;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Loki: The Trickster;pos=d8;rarity=5;slot=2;level=40;stats=[42;33;35;19;30];weapon=Thökk;assist=Restore+;special=Windfire Balm+;a=HP/Atk 2;b=Sudden Panic 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=5;slot=3;level=40;stats=[41;34;24;25;30];weapon=Slaying Hammer+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e7;rarity=5;slot=4;level=40;stats=[43;32;29;29;16];weapon=Shining Bow+;assist=-;special=Growing Light;a=Fire Boost 3;b=-;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;rarity=5;slot=5;level=40;stats=[33;35;25;17;34];weapon=Thoron+;assist=Rally Atk/Spd+;special=-;a=Atk/Res Bond 3;b=Def/Res Ruse 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|That Sleep of Death|Principled Acts}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=夢の終焉を告げる世界、それが
+|german=Die erwachende Welt
+|spanishEU=Mundo despierto
+|spanishLA=Mundo despierto
+|french=Monde éveillé
+|italian=Il mondo della veglia
+|chineseTW=夢境終結的世界
+|portuguese=O despertar
+}}
+{{Story Maps Navbox|book=4}}

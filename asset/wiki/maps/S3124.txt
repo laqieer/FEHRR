@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner C0312.webp
+|stageTitle=Chapter 12-4
+|stageName=Middle Sister
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 12: Lethal Swordsman
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3124
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_07.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-10-21T07:00:00Z|notification=New Heroes: Zofia's Call (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Catria: Mild Middle Sister;pos=c7;rarity=3;slot=1;level=31;stats=[32;28;27;20;18];weapon=Silver Sword;assist=Harsh Command;special=-;a=Atk/Spd Bond 2;b=Aerobatics 1;c=Spd Tactic 1;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=d7;rarity=3;slot=2;level=31;stats=[30;22;23;14;20];weapon=Elthunder;assist=-;special=New Moon;a=Atk/Spd 1;b=-;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Conrad: Masked Knight;pos=a6;rarity=3;slot=3;level=31;stats=[32;22;16;25;26];weapon=Barrier Lance;assist=-;special=Chilling Wind;a=Bracing Stance 1;b=Chill Atk 1;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b5;rarity=3;slot=4;level=31;stats=[35;23;22;21;20];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Fierce Stance 1;b=Quick Riposte 1;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=e6;rarity=3;slot=5;level=31;stats=[33;26;19;27;13];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Fury 1;b=-;c=Guidance 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Catria: Mild Middle Sister;pos=c7;rarity=4;slot=1;level=38;stats=[37;35;33;24;21];weapon=Astra Blade;assist=Harsh Command;special=-;a=Atk/Spd Bond 3;b=Aerobatics 2;c=Spd Tactic 2;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=d7;rarity=4;slot=2;level=38;stats=[34;28;29;17;24];weapon=Thoron;assist=-;special=New Moon;a=Atk/Spd 1;b=-;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Conrad: Masked Knight;pos=a6;rarity=4;slot=3;level=38;stats=[36;27;19;31;32];weapon=Barrier Lance+;assist=-;special=Chilling Wind;a=Bracing Stance 1;b=Chill Atk 2;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b5;rarity=4;slot=4;level=38;stats=[40;29;27;25;24];weapon=Lightning Breath;assist=-;special=Dragon Gaze;a=Fierce Stance 2;b=Quick Riposte 2;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=e6;rarity=4;slot=5;level=38;stats=[37;32;23;33;16];weapon=Poleaxe;assist=-;special=Glowing Ember;a=Fury 2;b=-;c=Guidance 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Catria: Mild Middle Sister;pos=c7;rarity=5;slot=1;level=43;displaylevel=40;stats=[43;41;38;29;25];weapon=Astra Blade;assist=Harsh Command+;special=-;a=Atk/Spd Bond 4;b=Aerobatics 3;c=Spd Tactic 3;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=d7;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Thoron+;assist=-;special=Moonbow;a=Atk/Spd 2;b=-;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Conrad: Masked Knight;pos=a6;rarity=5;slot=3;level=43;displaylevel=40;stats=[41;33;23;36;37];weapon=Barrier Lance+;assist=-;special=Glacies;a=Bracing Stance 2;b=Chill Atk 3;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b5;rarity=5;slot=4;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Lightning Breath+;assist=-;special=Draconic Aura;a=Fierce Stance 3;b=Quick Riposte 3;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=e6;rarity=5;slot=5;level=43;displaylevel=40;stats=[42;37;28;38;20];weapon=Poleaxe+;assist=-;special=Ignis;a=Fury 3;b=-;c=Guidance 3;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Catria: Mild Middle Sister;text=I am Catria. I'm looking for my\nsister. Have you seen her?;textJP=私はカチュア。\n妹を探しているのだけど…\nあなた、知らない？};
+]}}
+{{Story Navbar|One's Own Shadow|If Not I, Then You...}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=三姉妹の次女
+|german=Die mittlere Schwester
+|spanishEU=La hermana mediana
+|spanishLA=La hermana mediana
+|french=Cadette
+|italian=La sorella di mezzo
+|chineseTW=三姊妹中的次女
+|portuguese=Irmã do meio
+}}
+{{Story Maps Navbox|book=3}}

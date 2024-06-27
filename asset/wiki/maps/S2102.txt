@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Nino_Pale_Flower_Unrevealed.png
+|stageTitle=Chapter 10-2
+|stageName=Misplaced Wisdom
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 10: The King's Demise
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2102
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_04.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-06-08T07:00:00Z|notification=New Heroes: Scattered Fangs (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Canas: Wisdom Seeker;pos=c7;rarity=3;slot=1;level=25;stats=[26;21;17;12;21];weapon=Rauðrowl;assist=Reciprocal Aid;special=-;a=HP/Res 1;b=-;c=Res Tactic 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c5;rarity=3;slot=2;level=25;stats=[40;24;9;26;11];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Distant Def 1;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=3;slot=3;level=25;stats=[24;22;15;10;21];weapon=Elwind;assist=-;special=Chilling Wind;a=Fury 1;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=b6;rarity=3;slot=4;level=25;stats=[30;22;16;23;11];weapon=Steel Lance;assist=-;special=Buckler;a=Sturdy Stance 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=e7;rarity=3;slot=5;level=25;stats=[31;20;19;18;17];weapon=Fire Breath+;assist=Swap;special=-;a=Armored Blow 1;b=-;c=Hone Spd 2;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Canas: Wisdom Seeker;pos=c7;rarity=4;slot=1;level=36;stats=[32;28;24;17;29];weapon=Rauðrowl;assist=Reciprocal Aid;special=-;a=HP/Res 1;b=-;c=Res Tactic 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c5;rarity=4;slot=2;level=36;stats=[49;34;13;36;15];weapon=Silver Axe;assist=-;special=Glowing Ember;a=Distant Def 2;b=Wary Fighter 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=4;slot=3;level=36;stats=[29;31;21;14;30];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=Fury 2;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=b6;rarity=4;slot=4;level=36;stats=[36;31;22;32;15];weapon=Slaying Lance;assist=-;special=Buckler;a=Sturdy Stance 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=e7;rarity=4;slot=5;level=36;stats=[39;28;26;24;23];weapon=Light Breath;assist=Swap;special=-;a=Armored Blow 2;b=-;c=Hone Spd 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Canas: Wisdom Seeker;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[37;32;29;22;33];weapon=Rauðrowl+;assist=Reciprocal Aid;special=-;a=HP/Res 2;b=-;c=Res Tactic 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c5;rarity=5;slot=2;level=41;displaylevel=40;stats=[56;39;16;41;19];weapon=Silver Axe+;assist=-;special=Ignis;a=Distant Def 3;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=b8;rarity=5;slot=3;level=41;displaylevel=40;stats=[34;36;26;17;35];weapon=Rexcalibur+;assist=-;special=Glacies;a=Fury 3;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=b6;rarity=5;slot=4;level=41;displaylevel=40;stats=[41;36;27;37;19];weapon=Slaying Lance+;assist=-;special=Escutcheon;a=Sturdy Stance 2;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=e7;rarity=5;slot=5;level=41;displaylevel=40;stats=[45;32;30;29;28];weapon=Light Breath+;assist=Swap;special=-;a=Armored Blow 3;b=-;c=Hone Spd 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Canas: Wisdom Seeker;text=Oh, hello there. I am called Canas.\nI hope you can forgive me for this...;textJP=あ、どうもこんにちは。\n僕はカナスといいます。\nご迷惑をおかけしてすみません…};
+]}}
+{{Story Navbar|To the Castle|Family of Fangs}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=場違いな探究者
+|german=Sucher auf Abwegen
+|spanishEU=Ilustrado fuera de lugar
+|spanishLA=Ilustrado fuera de lugar
+|french=Un savant en embuscade
+|italian=Una curiosità sconfinata
+|chineseTW=格格不入的探究者
+|portuguese=Sabedoria perdida
+}}
+{{Story Maps Navbox|book=2}}

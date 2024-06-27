@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0505.webp
+|stageTitle=Chapter 5: Part 2
+|stageName=Sincere Knight
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 5: Night and Day
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5052
+|backdrop=
+|allyPos=a4,a3,b3,a2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-03-05T07:00:00Z|notification=New Heroes Summoning Event: Seeds of Fódlan (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ingrid: Galatea's Heir;pos=c7;rarity=3;slot=1;level=12;stats=[21;13;16;10;11];weapon=Steel Lance;assist=-;special=-;a=Atk/Spd Solo 1;b=Lull Spd/Def 1;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f6;rarity=3;slot=2;level=12;stats=[23;13;8;9;12];weapon=Steel Sword;assist=-;special=-;a=Atk/Res Solo 1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=3;slot=3;level=12;stats=[19;14;9;6;13];weapon=Elwind;assist=-;special=-;a=Atk/Def Solo 1;b=Sabotage Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Thief;pos=f4;rarity=3;slot=4;level=12;stats=[20;10;16;4;13];weapon=Steel Dagger;assist=-;special=-;a=Death Blow 1;b=-;c=Close Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ingrid: Galatea's Heir;pos=c7;rarity=4;slot=1;level=31;stats=[31;26;32;20;22];weapon=Silver Lance;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Lull Spd/Def 2;c=Rouse Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f6;rarity=4;slot=2;level=31;stats=[33;27;18;19;23];weapon=Silver Sword;assist=-;special=Chilling Wind;a=Atk/Res Solo 2;b=-;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=4;slot=3;level=31;stats=[27;28;19;12;27];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Atk/Def Solo 2;b=Sabotage Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Thief;pos=f4;rarity=4;slot=4;level=31;stats=[30;20;30;9;25];weapon=Barb Shuriken;assist=-;special=New Moon;a=Death Blow 2;b=-;c=Close Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ingrid: Galatea's Heir;pos=c7;rarity=5;slot=1;level=41;stats=[38;36;41;28;28];weapon=Lúin;assist=-;special=Moonbow;a=Atk/Spd Solo 4;b=Lull Spd/Def 3;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f6;rarity=5;slot=2;level=41;stats=[41;35;25;26;30];weapon=Silver Sword+;assist=-;special=Iceberg;a=Atk/Res Solo 3;b=-;c=Goad Cavalry;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f1;rarity=5;slot=3;level=41;stats=[34;36;26;17;35];weapon=Rexcalibur+;assist=-;special=Blazing Wind;a=Atk/Def Solo 3;b=Sabotage Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Thief;pos=f4;rarity=5;slot=4;level=41;stats=[37;28;39;14;32];weapon=Barb Shuriken+;assist=-;special=Moonbow;a=Death Blow 3;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Princess's Truth|Dozing Classmate}}
+==In other languages==
+{{OtherLanguages
+|japanese=生真面目な騎士
+|german=Ehrliche Ritterin
+|spanishEU=Caballero sincera
+|spanishLA=Caballero sincera
+|french=Chevalier sincère
+|italian=La cavaliera schietta
+|chineseTW=正經八百的騎士
+|portuguese=Cavaleira sincera
+}}
+{{Story Maps Navbox|book=5}}

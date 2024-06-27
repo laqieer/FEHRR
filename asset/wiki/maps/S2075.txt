@@ -1,0 +1,111 @@
+{{Battle Infobox
+|bannerImage=Banner_Leif.png
+|mapName=Chapter 7-5: Snow and Ash
+|stageTitle=Chapter 7: Part 5
+|stageName=Snow and Ash
+|stageEpithet=
+|mapMode=Defensive Battle Map
+|bookGroup=Book II
+|mapGroup=Chapter 7: Snow and Ash
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2075
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6={{Ally|1}} | c6={{Ally|2}} | d6={{Ally|3}} | e6={{Ally|4}} | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|winReq=Turns to Defend: 6
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_Brave_03.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-04-11T07:00:00Z|notification=New Heroes: World of Thracia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S2075
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Surtr: Ruler of Flame;pos=c8;rarity=3;slot=1;level=21;stats=[34;23;8;24;20];weapon=Sinmara;assist=-;special=Glowing Ember;a=Death Blow 2;b=-;c=Panic Ploy 3;seal=Múspellflame;ai={turn=2};};
+{unit=Lance Knight;pos=b4;rarity=3;slot=2;level=21;stats=[38;22;8;24;10];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=Threaten Def 1;seal=-;ai={turn=1};};
+{unit=Leif: Prince of Leonster;pos=d2;rarity=3;slot=3;level=21;stats=[27;17;22;17;13];weapon=Steel Sword;assist=-;special=Rising Light;a=Steady Blow 1;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Nanna: Nordion Princess;pos=f3;rarity=3;slot=4;level=21;stats=[25;14;19;12;15];weapon=Absorb;assist=Restore;special=-;a=Spd/Res 1;b=-;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=b1;rarity=3;slot=5;level=21;stats=[28;20;14;21;10];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Reinhardt: Thunder's Sword;pos=a2;rarity=3;slot=6;level=21;stats=[27;20;13;17;15];weapon=Steel Sword;assist=-;special=Buckler;a=Death Blow 1;b=Vantage 1;c=Spur Atk/Def 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Finn: Lance of Legend;pos=f7;rarity=3;slot=7;level=21;stats=[27;19;19;18;9];weapon=Steel Lance;assist=-;special=Miracle;a=Attack/Def +1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Axe Dragon;pos=c1;rarity=3;slot=8;level=21;stats=[28;20;14;21;10];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Olwen: Righteous Knight;pos=f1;rarity=3;slot=9;level=21;stats=[24;17;20;10;14];weapon=Elwind;assist=-;special=Rising Wind;a=Swift Sparrow 1;b=Renewal 1;c=G Tome Exp. 1;seal=-;ai={turn=1};spawn={turn=5};};
+]
+|Hard=[
+{unit=Surtr: Ruler of Flame;pos=c8;rarity=4;slot=1;level=37;stats=[47;35;12;36;31];weapon=Sinmara;assist=-;special=Bonfire;a=Death Blow 3;b=Bold Fighter 3;c=Panic Ploy 3;seal=Múspellflame;ai={turn=1};};
+{unit=Lance Knight;pos=b4;rarity=4;slot=2;level=37;stats=[50;34;13;36;16];weapon=Silver Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=Threaten Def 2;seal=-;ai={turn=1};};
+{unit=Leif: Prince of Leonster;pos=d2;rarity=4;slot=3;level=37;stats=[36;28;34;27;20];weapon=Silver Sword;assist=-;special=Rising Light;a=Steady Blow 1;b=S Drink;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Nanna: Nordion Princess;pos=f3;rarity=4;slot=4;level=37;stats=[33;23;31;18;24];weapon=Absorb;assist=Restore;special=Imbue;a=Spd/Res 2;b=-;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=b1;rarity=4;slot=5;level=37;stats=[37;32;23;33;16];weapon=Silver Axe;assist=-;special=-;a=-;b=Obstruct 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e1;rarity=4;slot=6;level=37;stats=[38;28;26;25;13];weapon=Silver Bow;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Reinhardt: Thunder's Sword;pos=a2;rarity=4;slot=7;level=37;stats=[36;32;20;27;24];weapon=Silver Sword;assist=-;special=Buckler;a=Death Blow 2;b=Vantage 2;c=Spur Atk/Def 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Finn: Lance of Legend;pos=f7;rarity=4;slot=8;level=37;stats=[36;31;29;27;15];weapon=Brave Lance;assist=-;special=Miracle;a=Attack/Def +2;b=-;c=Spur Atk 2;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Axe Dragon;pos=c1;rarity=4;slot=9;level=37;stats=[37;32;23;33;16];weapon=Silver Axe;assist=-;special=-;a=-;b=Knock Back;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Olwen: Righteous Knight;pos=f1;rarity=4;slot=10;level=37;stats=[31;27;32;16;23];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Swift Sparrow 2;b=Renewal 2;c=G Tome Exp. 2;seal=-;ai={turn=1};spawn={turn=5};};
+]
+|Lunatic=[
+{unit=Surtr: Ruler of Flame;pos=c8;rarity=5;slot=1;level=45;displaylevel=40;stats=[57;43;16;44;38];weapon=Sinmara;assist=-;special=Bonfire;a=Death Blow 3;b=Bold Fighter 3;c=Panic Ploy 3;seal=Múspellflame;ai={turn=1};};
+{unit=Lance Knight;pos=b4;rarity=5;slot=2;level=45;displaylevel=40;stats=[59;42;17;44;21];weapon=Silver Lance+;assist=-;special=-;a=-;b=Wary Fighter 3;c=Threaten Def 3;seal=-;ai={turn=1};};
+{unit=Leif: Prince of Leonster;pos=d2;rarity=5;slot=3;level=45;displaylevel=40;stats=[43;35;42;33;25];weapon=Light Brand;assist=-;special=Blazing Light;a=Steady Blow 2;b=S Drink;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Nanna: Nordion Princess;pos=f3;rarity=5;slot=4;level=45;displaylevel=40;stats=[39;30;37;23;29];weapon=Absorb+;assist=Restore+;special=Heavenly Light;a=Spd/Res 2;b=-;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=b1;rarity=5;slot=5;level=45;displaylevel=40;stats=[44;38;30;39;21];weapon=Silver Axe+;assist=-;special=-;a=-;b=Obstruct 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e1;rarity=5;slot=6;level=45;displaylevel=40;stats=[46;35;32;32;17];weapon=Silver Bow+;assist=-;special=-;a=-;b=-;c=Savage Blow 3;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Reinhardt: Thunder's Sword;pos=a2;rarity=5;slot=7;level=45;displaylevel=40;stats=[43;38;25;34;31];weapon=Meisterschwert;assist=-;special=Pavise;a=Death Blow 3;b=Vantage 3;c=Spur Atk/Def 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Finn: Lance of Legend;pos=f7;rarity=5;slot=8;level=45;displaylevel=40;stats=[43;37;36;35;20];weapon=Brave Lance+;assist=-;special=Miracle;a=Attack/Def +2;b=-;c=Goad Cavalry;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Axe Dragon;pos=c1;rarity=5;slot=9;level=45;displaylevel=40;stats=[44;38;30;39;21];weapon=Silver Axe+;assist=-;special=-;a=-;b=Knock Back;c=-;seal=-;ai={turn=1};spawn={turn=4};};
+{unit=Olwen: Righteous Knight;pos=f1;rarity=5;slot=10;level=45;displaylevel=40;stats=[36;33;38;21;30];weapon=Thunderhead;assist=-;special=Blazing Wind;a=Swift Sparrow 2;b=Renewal 3;c=G Tome Exp. 3;seal=-;ai={turn=1};spawn={turn=5};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Book and Blade|Saias: Bishop of Flame (map)}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=邂逅、そして
+|german=Schnee und Asche
+|spanishEU=Nieve y ceniza
+|spanishLA=Nieve y ceniza
+|french=Neige et cendres
+|italian=Neve e cenere
+|chineseTW=邂逅之後
+|portuguese=Neve e cinza
+}}
+{{Story Maps Navbox|book=2}}

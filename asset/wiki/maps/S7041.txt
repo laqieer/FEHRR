@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0704.webp
+|stageTitle=Chapter 7: Part 1
+|stageName=Ár of the Sea God
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 7: Goddess Reunion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7041
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=28
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE10_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-02-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Elincia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Bastian: Crimea's Keystone;pos=c8;rarity=3;slot=1;level=7;stats=[20;14;6;4;18];weapon=Elwind;assist=-;special=-;a=-;b=Sabotage Res 1;c=Atk Ploy 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=3;slot=2;level=7;stats=[19;9;10;6;8];weapon=Fire;assist=-;special=-;a=Atk/Spd Solo 1;b=-;c=Rouse Atk/Spd 1;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Blue Flier;pos=d8;rarity=3;slot=3;level=7;stats=[18;9;11;3;10];weapon=Thunder;assist=-;special=-;a=Mirror Strike 1;b=-;c=Atk/Res Rein 1;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Sword Fighter;pos=e6;rarity=3;slot=4;level=7;stats=[22;9;9;10;6];weapon=Iron Sword;assist=-;special=-;a=Atk/Def Solo 1;b=Close Call 1;c=-;seal=-;accessory=Golden Curse;ai={group=1};};
+]
+|Hard=[
+{unit=Bastian: Crimea's Keystone;pos=c8;rarity=4;slot=1;level=28;stats=[31;32;18;13;34];weapon=Gronndeer;assist=-;special=Chilling Wind;a=-;b=Sabotage Res 2;c=Atk Ploy 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=4;slot=2;level=28;stats=[29;22;23;13;19];weapon=Elfire;assist=-;special=Dragon Gaze;a=Atk/Spd Solo 2;b=-;c=Rouse Atk/Spd 2;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Blue Flier;pos=d8;rarity=4;slot=3;level=28;stats=[27;20;27;10;23];weapon=Elthunder;assist=-;special=New Moon;a=Mirror Strike 1;b=-;c=Atk/Res Rein 2;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Sword Fighter;pos=e6;rarity=4;slot=4;level=28;stats=[34;22;21;22;15];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=Close Call 2;c=-;seal=-;accessory=Golden Curse;ai={group=1};};
+]
+|Lunatic=[
+{unit=Bastian: Crimea's Keystone;pos=c8;rarity=5;slot=1;level=40;stats=[40;44;28;20;45];weapon=Gronndeer+;assist=-;special=Iceberg;a=-;b=Sabotage Res 3;c=Atk Ploy 3;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Rauðrvulture+;assist=-;special=Draconic Aura;a=Atk/Spd Solo 3;b=-;c=Rouse Atk/Spd 3;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Blue Flier;pos=d8;rarity=5;slot=3;level=40;stats=[34;29;37;16;32];weapon=Blárlion+;assist=-;special=Moonbow;a=Mirror Strike 2;b=-;c=Atk/Res Rein 3;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Sword Fighter;pos=e6;rarity=5;slot=4;level=40;stats=[44;31;31;30;22];weapon=Unbound Blade+;assist=-;special=Bonfire;a=Atk/Def Solo 3;b=Close Call 3;c=-;seal=-;accessory=Golden Curse;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Prince's Secret|Queen's Advisor}}
+==In other languages==
+{{OtherLanguages
+|japanese=海神の【櫂】
+|german=Ár des Gottes der Meere
+|spanishEU=El Ár del dios del mar
+|spanishLA=El Ár del dios del mar
+|french=L'Ár du dieu de la mer
+|italian=L'Ár del dio del mare
+|chineseTW=海神之【槳】
+|portuguese=Ár do deus do mar
+}}
+{{Story Maps Navbox|book=7}}

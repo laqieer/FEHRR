@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Olivia2_Unrevealed.png
+|stageTitle=Chapter 11-4
+|stageName=Dance in the Sky
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 11: Prince of Ice
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2114
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3={{Ally|1}} | f3={{Ally|2}}
+| a2= | b2= | c2= | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_07.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-07-20T07:00:00Z|notification=New Heroes: Ylissean Travelers (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Olivia: Sky-High Dancer;pos=c6;rarity=3;slot=1;level=29;stats=[28;20;23;17;15];weapon=Silver Sword;assist=Dance;special=-;a=Bracing Stance 1;b=Chill Spd 1;c=Guidance 1;seal=-;ai={turn=1};};
+{unit=Libra: Fetching Friar;pos=d7;rarity=3;slot=2;level=29;stats=[31;24;22;19;20];weapon=Wo Gùn;assist=-;special=Daylight;a=-;b=Renewal 1;c=Spur Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=3;slot=3;level=29;stats=[29;21;22;13;19];weapon=Elthunder;assist=-;special=Retribution;a=Death Blow 2;b=Bowbreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e8;rarity=3;slot=4;level=29;stats=[33;22;20;20;10];weapon=Steel Bow;assist=-;special=Night Sky;a=Attack/Def +1;b=-;c=Threaten Def 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=a2;rarity=3;slot=5;level=29;stats=[43;27;10;29;12];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Bracing Stance 1;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Olivia: Sky-High Dancer;pos=c6;rarity=4;slot=1;level=38;stats=[33;27;31;22;20];weapon=Silver Sword;assist=Dance;special=-;a=Bracing Stance 2;b=Chill Spd 2;c=Guidance 2;seal=-;ai={turn=1};};
+{unit=Libra: Fetching Friar;pos=d7;rarity=4;slot=2;level=38;stats=[36;32;29;24;25];weapon=Wo Gùn;assist=-;special=Daylight;a=-;b=Renewal 2;c=Spur Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=4;slot=3;level=38;stats=[34;28;29;17;24];weapon=Thoron;assist=-;special=Retribution;a=Death Blow 2;b=Bowbreaker 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e8;rarity=4;slot=4;level=38;stats=[39;29;26;25;13];weapon=Brave Bow;assist=-;special=Night Sky;a=Attack/Def +1;b=-;c=Threaten Def 2;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=a2;rarity=4;slot=5;level=38;stats=[51;35;13;37;16];weapon=Safeguard;assist=-;special=Glowing Ember;a=Bracing Stance 1;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Olivia: Sky-High Dancer;pos=c6;rarity=5;slot=1;level=43;displaylevel=40;stats=[38;32;36;27;25];weapon=Skuld;assist=Dance;special=-;a=Bracing Stance 2;b=Chill Spd 3;c=Guidance 3;seal=-;ai={turn=1};};
+{unit=Libra: Fetching Friar;pos=d7;rarity=5;slot=2;level=43;displaylevel=40;stats=[41;37;34;29;30];weapon=Wo Gùn+;assist=-;special=Noontime;a=-;b=Renewal 3;c=Spur Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Thoron+;assist=-;special=Reprisal;a=Death Blow 3;b=Bowbreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e8;rarity=5;slot=4;level=43;displaylevel=40;stats=[45;34;30;30;17];weapon=Brave Bow+;assist=-;special=Astra;a=Attack/Def +2;b=-;c=Threaten Def 3;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=a2;rarity=5;slot=5;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Safeguard+;assist=-;special=Bonfire;a=Bracing Stance 2;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Olivia: Sky-High Dancer;text=Excuse me? I'm up here! Oh—aah!\nI'm not...quite...used to flying—oh!\nStop...please!;textJP=た、高い所から失礼致します。\nこの子と空を飛ぶのはまだ慣れな…ああん、\n待って、止まってください～};
+]}}
+{{Story Navbar|From the Depths of Hell|Burnt-Bone Gorge}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=天空の舞踏
+|german=Tanz der Lüfte
+|spanishEU=Danza celeste
+|spanishLA=Danza celeste
+|french=Danse céleste
+|italian=Danze aeree
+|chineseTW=空中的舞會
+|portuguese=Dança nos céus
+}}
+{{Story Maps Navbox|book=2}}

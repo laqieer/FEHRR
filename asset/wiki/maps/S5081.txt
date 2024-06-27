@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0508.webp
+|stageTitle=Chapter 8-1
+|stageName=Grinding Gears
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 8: Serpent's Whispers
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5081
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=33
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-06-08T07:00:00Z|notification=New Heroes Summoning Event: Book V Mid: Nótt and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Fáfnir: King of Desolation;pos=c7;rarity=3;slot=1;level=20;stats=[26;20;21;20;7];weapon=Steel Lance;assist=-;special=Retribution;a=Life and Death 1;b=Lull Atk/Def 1;c=Panic Ploy 1;seal=-;ai={turn=1};};
+{unit=Steam Sword;pos=d7;rarity=3;slot=2;level=20;stats=[28;19;18;18;11];weapon=Steel Sword;assist=-;special=New Moon;a=-;b=Hit and Run;c=Fortify Def 1;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Axe;pos=a6;rarity=3;slot=3;level=20;stats=[28;19;18;18;11];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Atk/Def Solo 1;b=-;c=Spur Atk 1;seal=Gullinbursti;ai={turn=1};};
+{unit=Tatiana: Devoted Saint;pos=f6;rarity=3;slot=4;level=20;stats=[26;20;18;8;21];weapon=Ellight;assist=Ardent Sacrifice;special=-;a=Swift Stance 1;b=-;c=Atk Opening 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Fáfnir: King of Desolation;pos=c7;rarity=4;slot=1;level=33;stats=[33;30;31;31;12];weapon=Hreiðmarr;assist=-;special=Retribution;a=Life and Death 2;b=Lull Atk/Def 2;c=Panic Ploy 2;seal=-;ai={turn=1};};
+{unit=Steam Sword;pos=d7;rarity=4;slot=2;level=33;stats=[36;30;28;27;16];weapon=Slaying Edge;assist=-;special=New Moon;a=-;b=Hit and Run;c=Hone Atk 2;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Axe;pos=a6;rarity=4;slot=3;level=33;stats=[36;30;28;27;16];weapon=Slaying Hammer;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=-;c=Spur Def 2;seal=Gullinbursti;ai={turn=1};};
+{unit=Tatiana: Devoted Saint;pos=f6;rarity=4;slot=4;level=33;stats=[33;31;27;12;32];weapon=Blárrabbit;assist=Ardent Sacrifice;special=-;a=Swift Stance 1;b=-;c=Atk Opening 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Fáfnir: King of Desolation;pos=c7;rarity=5;slot=1;level=40;stats=[40;38;37;37;16];weapon=Hreiðmarr;assist=-;special=Reprisal;a=Life and Death 3;b=Lull Atk/Def 3;c=Panic Ploy 3;seal=-;ai={turn=1};};
+{unit=Steam Sword;pos=d7;rarity=5;slot=2;level=40;stats=[43;36;35;33;21];weapon=Slaying Edge+;assist=-;special=Moonbow;a=-;b=Hit and Run;c=Fortify Cavalry;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Axe;pos=a6;rarity=5;slot=3;level=40;stats=[43;36;35;33;21];weapon=Slaying Hammer+;assist=-;special=Bonfire;a=Atk/Def Solo 3;b=-;c=Goad Cavalry;seal=Gullinbursti;ai={turn=1};};
+{unit=Tatiana: Devoted Saint;pos=f6;rarity=5;slot=4;level=40;stats=[40;37;34;15;39];weapon=Blárrabbit+;assist=Ardent Sacrifice;special=-;a=Swift Stance 2;b=-;c=Atk Opening 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ashera: Order Goddess (map)|Odd Wayfarer}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=軋む歯車
+|german=Sand im Getriebe
+|spanishEU=Engranajes
+|spanishLA=Engranajes
+|french=Rouages grinçants
+|italian=Ingranaggi cigolanti
+|chineseTW=嘎吱作響的齒輪
+|portuguese=Engrenagens
+}}
+{{Story Maps Navbox|book=5}}

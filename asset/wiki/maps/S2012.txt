@@ -1,0 +1,74 @@
+{{Battle Infobox
+|bannerImage=Banner_Surtr Unrevealed.png
+|mapName=Chapter 1-2: Mountains Burn
+|stageTitle=Chapter 1: Part 2
+|stageName=Mountains Burn
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 1: The Flame
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2012
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=2
+|lvlHard=21
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-11-28T04:00:00Z|notification=What's in Store for the 2.0.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Knight;pos=c6;rarity=3;slot=1;level=2;stats=[20;5;1;5;0];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f7;rarity=3;slot=2;level=2;stats=[15;3;4;0;0];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b8;rarity=3;slot=3;level=2;stats=[14;1;5;0;1];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Lance Knight;pos=c6;rarity=4;slot=1;level=21;stats=[38;23;8;25;10];weapon=Steel Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f7;rarity=4;slot=2;level=21;stats=[29;19;17;16;8];weapon=Steel Bow;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b8;rarity=4;slot=3;level=21;stats=[26;18;19;11;15];weapon=Elfire;assist=-;special=-;a=-;b=Vantage 1;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Lance Knight;pos=c6;rarity=5;slot=1;level=41;displaylevel=40;stats=[56;39;16;41;19];weapon=Sapphire Lance+;assist=-;special=-;a=-;b=Wary Fighter 3;c=-;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=f7;rarity=5;slot=2;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Silver Bow+;assist=-;special=-;a=Darting Blow 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b8;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Bolganone+;assist=-;special=-;a=-;b=Vantage 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=山は焼け、木は倒れ
+|german=Brennende Berge
+|spanishEU=Montañas en llamas
+|spanishLA=Montañas en llamas
+|french=Les montagnes en feu
+|italian=Monti ardenti
+|chineseTW=山燃樹倒
+|portuguese=Montanhas em chamas
+}}
+{{Story Maps Navbox|book=2}}

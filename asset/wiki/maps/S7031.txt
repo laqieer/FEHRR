@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0703.webp
+|stageTitle=Chapter 6: Part 1
+|stageName=Audience with the King
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 6: King of Light
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7031
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE17_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-01-17T07:00:00Z|notification=New Heroes Summoning Event: Engage (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Céline: Joyous Royal;pos=d8;rarity=3;slot=1;level=5;stats=[16;12;13;4;11];weapon=Wind;assist=-;special=-;a=Spd/Res Ideal 1;b=-;c=Canto Control 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d7;rarity=3;slot=2;level=5;stats=[21;8;8;9;5];weapon=Iron Sword;assist=-;special=-;a=-;b=Dull Close 1;c=Drive Atk 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Mage;pos=c8;rarity=3;slot=3;level=5;stats=[18;8;9;5;7];weapon=Thunder;assist=-;special=-;a=Fury 1;b=Swordbreaker 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=a6;rarity=3;slot=4;level=5;stats=[20;9;5;6;9];weapon=Iron Axe;assist=-;special=-;a=Atk/Def Solo 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Céline: Joyous Royal;pos=d8;rarity=4;slot=1;level=25;stats=[26;28;30;10;25];weapon=Elwind;assist=-;special=Chilling Wind;a=Spd/Res Ideal 2;b=-;c=Canto Control 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d7;rarity=4;slot=2;level=25;stats=[32;20;19;20;14];weapon=Steel Sword;assist=-;special=Rising Light;a=-;b=Dull Close 2;c=Drive Atk 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Mage;pos=c8;rarity=4;slot=3;level=25;stats=[28;20;21;12;17];weapon=Elthunder;assist=-;special=New Moon;a=Fury 2;b=Swordbreaker 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=a6;rarity=4;slot=4;level=25;stats=[30;23;15;16;20];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=Hit and Run;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Céline: Joyous Royal;pos=d8;rarity=5;slot=1;level=40;stats=[37;41;44;17;38];weapon=Joyous Tome;assist=-;special=Iceberg;a=Spd/Res Ideal 4;b=-;c=Canto Control 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d7;rarity=5;slot=2;level=40;stats=[44;31;31;30;22];weapon=Allied Sword+;assist=-;special=Growing Light;a=-;b=Dull Close 3;c=Drive Atk 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Mage;pos=c8;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Blárlion+;assist=-;special=Moonbow;a=Fury 3;b=Swordbreaker 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=a6;rarity=5;slot=4;level=40;stats=[41;34;24;25;30];weapon=Unbound Axe+;assist=-;special=Bonfire;a=Atk/Def Solo 3;b=Hit and Run;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Daughters of the Black Fang|Daydreaming Knight}}
+==In other languages==
+{{OtherLanguages
+|japanese=光の王との謁見
+|german=Audienz beim König
+|spanishEU=Audiencia con el rey
+|spanishLA=Audiencia con el rey
+|french=Audience avec le roi
+|italian=Udienza con il re
+|chineseTW=晉見光之王
+|portuguese=Audiência com o rei
+}}
+{{Story Maps Navbox|book=7}}

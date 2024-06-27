@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0702.webp
+|stageTitle=Chapter 5: Part 4
+|stageName=Emperor and Seer
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 5: Divine Foretelling
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7024
+|backdrop=
+|allyPos=e2,f2,e1,f1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Cavalier;pos=f8;rarity=3;slot=1;level=6;stats=[17;11;7;4;10];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=a4;rarity=3;slot=2;level=6;stats=[21;8;8;9;6];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Flier;pos=a6;rarity=3;slot=3;level=6;stats=[18;9;10;4;8];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Manakete;pos=d7;rarity=3;slot=4;level=6;stats=[20;9;9;8;7];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Red Cavalier;pos=f8;rarity=4;slot=1;level=26;stats=[25;25;17;11;24];weapon=Elfire;assist=-;special=Night Sky;a=Sturdy Blow 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=a4;rarity=4;slot=2;level=26;stats=[33;21;20;21;14];weapon=Steel Axe;assist=-;special=New Moon;a=-;b=Quick Riposte 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Flier;pos=a6;rarity=4;slot=3;level=26;stats=[28;22;24;11;19];weapon=Steel Bow;assist=-;special=Night Sky;a=-;b=-;c=Spd/Def Rein 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Manakete;pos=d7;rarity=4;slot=4;level=26;stats=[33;22;21;19;18];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=-;b=Spd/Res Bulwark 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Red Cavalier;pos=f8;rarity=5;slot=1;level=43;stats=[34;37;27;18;36];weapon=Rauðrfox+;assist=-;special=Astra;a=Sturdy Blow 2;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=a4;rarity=5;slot=2;level=43;stats=[46;33;33;31;23];weapon=Slaying Hammer+;assist=-;special=Luna;a=-;b=Quick Riposte 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Flier;pos=a6;rarity=5;slot=3;level=43;stats=[38;34;36;18;30];weapon=Short Bow+;assist=-;special=Glimmer;a=-;b=-;c=Spd/Def Rein 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Manakete;pos=d7;rarity=5;slot=4;level=43;stats=[46;34;31;30;29];weapon=Light Breath+;assist=-;special=Draconic Aura;a=-;b=Spd/Res Bulwark 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Goddess's Despair|Into the Light}}
+==In other languages==
+{{OtherLanguages
+|japanese=皇女と魔女
+|german=Herrscherin und Seherin
+|spanishEU=Emperatriz y profetisa
+|spanishLA=Emperatriz y profetisa
+|french=Impératrice et prophétesse
+|italian=Imperatrice e veggente
+|chineseTW=皇女與魔女
+|portuguese=Imperador e vidente
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0310.webp
+|stageTitle=Chapter 10-4
+|stageName=The Reaper Cometh
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 10: Omnicidal Witch
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=c2,d2,c1,d1
+|baseMap=S3104
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_02.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-08-07T07:00:00Z|notification=New Heroes: Changing Winds (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Death Knight: The Reaper;pos=c8;rarity=3;slot=1;level=27;stats=[30;23;16;20;17];weapon=Silver Lance;assist=-;special=Rising Flame;a=-;b=Escape Route 1;c=Close Guard 1;seal=-;ai={group=1};};
+{unit=Thief;pos=d7;rarity=3;slot=2;level=27;stats=[27;18;25;8;21];weapon=Steel Dagger;assist=Rally Attack;special=-;a=Death Blow 1;b=Def/Res Ruse 1;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=e6;rarity=3;slot=3;level=27;stats=[31;22;15;16;20];weapon=Steel Sword;assist=Draw Back;special=-;a=-;b=Atk/Def Link 1;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b6;rarity=3;slot=4;level=27;stats=[32;21;20;19;18];weapon=Fire Breath+;assist=-;special=Buckler;a=Brazen Atk/Spd 1;b=-;c=Panic Ploy 1;seal=-;ai={group=1};};
+{unit=Blue Cavalier;pos=f6;rarity=3;slot=5;level=27;stats=[25;23;16;10;22];weapon=Elthunder;assist=-;special=Daylight;a=Swift Strike 1;b=-;c=Atk Smoke 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Death Knight: The Reaper;pos=c8;rarity=4;slot=1;level=38;stats=[36;32;22;27;23];weapon=Scythe of Sariel;assist=-;special=Rising Flame;a=-;b=Escape Route 2;c=Close Guard 2;seal=-;ai={group=1};};
+{unit=Thief;pos=d7;rarity=4;slot=2;level=38;stats=[33;24;35;11;29];weapon=The Cleaner;assist=Rally Up Atk;special=-;a=Death Blow 2;b=Def/Res Ruse 2;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=e6;rarity=4;slot=3;level=38;stats=[37;31;21;22;27];weapon=Safeguard;assist=Draw Back;special=-;a=-;b=Atk/Def Link 2;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b6;rarity=4;slot=4;level=38;stats=[40;29;27;25;24];weapon=Dark Breath;assist=-;special=Buckler;a=Brazen Atk/Spd 2;b=-;c=Panic Ploy 2;seal=-;ai={group=1};};
+{unit=Blue Cavalier;pos=f6;rarity=4;slot=5;level=38;stats=[30;32;22;14;31];weapon=Blárblade;assist=-;special=Daylight;a=Swift Strike 1;b=-;c=Atk Smoke 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Death Knight: The Reaper;pos=c8;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;37;27;31;28];weapon=Scythe of Sariel;assist=-;special=Blazing Flame;a=-;b=Escape Route 3;c=Close Guard 3;seal=-;ai={group=1};};
+{unit=Thief;pos=d7;rarity=5;slot=2;level=43;displaylevel=40;stats=[38;29;41;14;34];weapon=The Cleaner+;assist=Rally Up Atk+;special=-;a=Death Blow 3;b=Def/Res Ruse 3;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=e6;rarity=5;slot=3;level=43;displaylevel=40;stats=[42;36;26;27;31];weapon=Safeguard+;assist=Draw Back;special=-;a=-;b=Atk/Def Link 3;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=b6;rarity=5;slot=4;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Dark Breath+;assist=-;special=Pavise;a=Brazen Atk/Spd 3;b=-;c=Panic Ploy 3;seal=-;ai={group=1};};
+{unit=Blue Cavalier;pos=f6;rarity=5;slot=5;level=43;displaylevel=40;stats=[34;37;27;18;36];weapon=Blárblade+;assist=-;special=Noontime;a=Swift Strike 2;b=-;c=Atk Smoke 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {unit=Death Knight: The Reaper;text=...;textJP=…………。};
+]}}
+{{Story Navbar|Inside Embla|Temple of Blood}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=悪鬼来たる
+|german=Auftritt des Sensenmanns
+|spanishEU=La llegada de la Muerte
+|spanishLA=La llegada de La Muerte
+|french=Trouver le repos éternel
+|italian=La venuta del mietitore
+|chineseTW=惡鬼到來
+|portuguese=O ceifador está aqui
+}}
+{{Story Maps Navbox|book=3}}

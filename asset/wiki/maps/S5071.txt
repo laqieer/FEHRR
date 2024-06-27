@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0507.webp
+|stageTitle=Chapter 7: Part 1
+|stageName=Unknown Future
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 7: Bound Elsewhere
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5071
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=32
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_10.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-05-07T07:00:00Z|notification=New Heroes Summoning Event: Forces of Will (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Morgan: Fated Darkness;pos=c7;rarity=3;slot=1;level=17;stats=[25;19;7;16;18];weapon=Ruin;assist=-;special=Chilling Wind;a=Atk/Res Solo 1;b=Sabotage Def 1;c=Threat. Atk/Res 1;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=d6;rarity=3;slot=2;level=17;stats=[35;19;6;21;8];weapon=Steel Lance;assist=Pivot;special=-;a=-;b=Wary Fighter 1;c=Def Tactic 1;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=f6;rarity=3;slot=3;level=17;stats=[24;14;18;15;12];weapon=Fire Breath+;assist=-;special=-;a=Atk/Def Push 1;b=Aerobatics 1;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=e7;rarity=3;slot=4;level=17;stats=[24;14;15;9;13];weapon=Elthunder;assist=-;special=-;a=Swift Sparrow 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Morgan: Fated Darkness;pos=c7;rarity=4;slot=1;level=32;stats=[32;30;12;27;30];weapon=Fenrir;assist=-;special=Chilling Wind;a=Atk/Res Solo 2;b=Sabotage Def 2;c=Threat. Atk/Res 2;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=d6;rarity=4;slot=2;level=32;stats=[46;31;11;33;14];weapon=Silver Lance;assist=Pivot;special=-;a=-;b=Wary Fighter 2;c=Def Tactic 2;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=f6;rarity=4;slot=3;level=32;stats=[32;22;29;25;20];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Atk/Def Push 2;b=Aerobatics 2;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=e7;rarity=4;slot=4;level=32;stats=[31;24;25;15;21];weapon=Blárfox;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Morgan: Fated Darkness;pos=c7;rarity=5;slot=1;level=40;stats=[38;37;17;35;38];weapon=Tome of Despair;assist=-;special=Iceberg;a=Atk/Res Solo 4;b=Sabotage Def 3;c=Atk/Res Menace;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=d6;rarity=5;slot=2;level=40;stats=[55;38;16;40;19];weapon=Silver Lance+;assist=Pivot;special=-;a=-;b=Wary Fighter 3;c=Def Tactic 3;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=f6;rarity=5;slot=3;level=40;stats=[39;29;36;32;27];weapon=Dark Breath+;assist=-;special=Dragon Fang;a=Atk/Def Push 3;b=Aerobatics 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=e7;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Blárfox+;assist=-;special=Moonbow;a=Swift Sparrow 2;b=-;c=Drive Atk 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Shamir & Catherine: Bound Hero Battle|Devoted Darkness}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=読めぬ思惑
+|german=Ungewisse Zukunft
+|spanishEU=Futuro incierto
+|spanishLA=Futuro incierto
+|french=Futur incertain
+|italian=Futuro ignoto
+|chineseTW=猜不透的想法
+|portuguese=Futuro incerto
+}}
+{{Story Maps Navbox|book=5}}

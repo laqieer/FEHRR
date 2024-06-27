@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0509.webp
+|stageTitle=Chapter 9: Part 3
+|stageName=Rulebreaker Mage
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 9: Echoes of Truth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5093
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=36
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-07-19T07:00:00Z|notification=New Heroes Summoning Event: Dawning Reality & Nifl (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nyx: Rulebreaker Mage;pos=e6;rarity=3;slot=1;level=24;stats=[26;27;25;11;16];weapon=Ruin;assist=-;special=New Moon;a=Spd/Res Solo 1;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=d8;rarity=3;slot=2;level=24;stats=[22;19;12;12;26];weapon=Assault;assist=Mend;special=Kindled-Fire Balm;a=Attack/Res 1;b=-;c=Close Guard 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f6;rarity=3;slot=3;level=24;stats=[27;18;19;12;16];weapon=Elthunder;assist=-;special=New Moon;a=Fury 1;b=-;c=Close Guard 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b6;rarity=3;slot=4;level=24;stats=[25;17;22;8;19];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Aerobatics 1;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Thief;pos=c7;rarity=3;slot=5;level=24;stats=[26;16;23;7;19];weapon=Steel Dagger;assist=Rally Attack;special=-;a=Death Blow 1;b=Spd/Res Ruse 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Nyx: Rulebreaker Mage;pos=e6;rarity=4;slot=1;level=36;stats=[32;37;35;15;23];weapon=Fenrir;assist=-;special=New Moon;a=Spd/Res Solo 2;b=Null Follow-Up 2;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=d8;rarity=4;slot=2;level=36;stats=[26;28;17;16;36];weapon=Absorb;assist=Physic;special=Windfire Balm;a=Attack/Res 1;b=-;c=Close Guard 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f6;rarity=4;slot=3;level=36;stats=[33;27;28;16;23];weapon=Blárfox;assist=-;special=New Moon;a=Fury 2;b=-;c=Close Guard 2;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b6;rarity=4;slot=4;level=36;stats=[30;24;33;13;28];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=-;b=Aerobatics 2;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Thief;pos=c7;rarity=4;slot=5;level=36;stats=[32;23;34;11;28];weapon=The Cleaner;assist=Rally Up Atk;special=-;a=Death Blow 2;b=Spd/Res Ruse 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Nyx: Rulebreaker Mage;pos=e6;rarity=5;slot=1;level=42;stats=[37;44;42;19;29];weapon=Ginnungagap (weapon);assist=-;special=Luna;a=Spd/Res Solo 4;b=Null Follow-Up 3;c=-;seal=-;ai={turn=1};};
+{unit=Troubadour;pos=d8;rarity=5;slot=2;level=42;stats=[30;33;22;20;43];weapon=Absorb+;assist=Physic+;special=Windfire Balm+;a=Attack/Res 2;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f6;rarity=5;slot=3;level=42;stats=[38;32;33;20;29];weapon=Blárfox+;assist=-;special=Moonbow;a=Fury 3;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=b6;rarity=5;slot=4;level=42;stats=[35;30;39;16;33];weapon=Rexcalibur+;assist=-;special=Iceberg;a=-;b=Aerobatics 3;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Thief;pos=c7;rarity=5;slot=5;level=42;stats=[37;29;40;14;33];weapon=The Cleaner+;assist=Rally Up Atk+;special=-;a=Death Blow 3;b=Spd/Res Ruse 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Merry Diviner|Wily Warrior}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=禁忌の呪術師
+|german=Regelbrecherin
+|spanishEU=Maga rebelde
+|spanishLA=Maga rebelde
+|french=Mage hors-la-loi
+|italian=La maga ribelle
+|chineseTW=禁忌的咒術師
+|portuguese=Maga rebelde
+}}
+{{Story Maps Navbox|book=5}}

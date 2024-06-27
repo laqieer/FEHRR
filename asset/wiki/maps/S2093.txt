@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Helbindi Unrevealed.png
+|mapName=Chapter 9-3: The Goddess of Thunder
+|stageTitle=Chapter 9: Part 3
+|stageName=The Goddess of Thunder
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 9: Hellfire
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2093
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5={{Ally|1}}
+| a4= | b4= | c4= | d4= | e4={{Ally|2}} | f4={{Ally|3}}
+| a3= | b3= | c3= | d3= | e3={{Ally|4}} | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=36
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE04_05.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-05-10T07:00:00Z|notification=New Heroes: Genealogy (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ishtar: Thunder Goddess;pos=b6;rarity=3;slot=1;level=24;stats=[26;20;22;9;16];weapon=Thoron;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=c8;rarity=3;slot=2;level=24;stats=[27;18;19;12;16];weapon=Elfire;assist=Reposition;special=-;a=Death Blow 1;b=Poison Strike 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a4;rarity=3;slot=3;level=24;stats=[27;18;19;12;16];weapon=Elthunder;assist=Reposition;special=-;a=Bracing Blow 1;b=-;c=Breath of Life 1;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=b7;rarity=3;slot=4;level=24;stats=[27;18;19;12;16];weapon=Elwind;assist=Reposition;special=-;a=Bracing Blow 1;b=-;c=Breath of Life 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a7;rarity=3;slot=5;level=24;stats=[27;16;21;12;22];weapon=Steel Sword;assist=Reciprocal Aid;special=Daylight;a=-;b=Renewal 2;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ishtar: Thunder Goddess;pos=b6;rarity=4;slot=1;level=36;stats=[33;30;32;14;22];weapon=Thoron;assist=-;special=New Moon;a=Swift Sparrow 1;b=Vantage 1;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=c8;rarity=4;slot=2;level=36;stats=[33;27;28;16;23];weapon=Bolganone;assist=Reposition;special=Rising Flame;a=Death Blow 2;b=Poison Strike 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a4;rarity=4;slot=3;level=36;stats=[33;27;28;16;23];weapon=Thoron;assist=Reposition;special=Rising Thunder;a=Bracing Blow 1;b=-;c=Breath of Life 2;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=b7;rarity=4;slot=4;level=36;stats=[33;27;28;16;23];weapon=Rexcalibur;assist=Reposition;special=Rising Wind;a=Bracing Blow 1;b=-;c=Breath of Life 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a7;rarity=4;slot=5;level=36;stats=[33;23;31;17;32];weapon=Wo Dao;assist=Reciprocal Aid;special=Daylight;a=-;b=Renewal 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ishtar: Thunder Goddess;pos=b6;rarity=5;slot=1;level=42;displaylevel=40;stats=[39;35;37;17;27];weapon=Mjölnir;assist=-;special=Moonbow;a=Swift Sparrow 2;b=Vantage 3;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=c8;rarity=5;slot=2;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Bolganone+;assist=Reposition;special=Growing Flame;a=Death Blow 3;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a4;rarity=5;slot=3;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Thoron+;assist=Reposition;special=Growing Thunder;a=Bracing Blow 2;b=-;c=Breath of Life 3;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=b7;rarity=5;slot=4;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Rexcalibur+;assist=Reposition;special=Growing Wind;a=Bracing Blow 2;b=-;c=Breath of Life 3;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=a7;rarity=5;slot=5;level=42;displaylevel=40;stats=[38;29;36;22;37];weapon=Wo Dao+;assist=Reciprocal Aid;special=Noontime;a=-;b=Renewal 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_serious1};
+  {unit=Ishtar: Thunder Goddess;text=I am sorry. You will die here. Gird\nyourselves against the magic of the\nGoddess of Thunder, Ishtar.;textJP=すまないが…死んでもらう。\n雷神イシュタルの魔道…\n受けるがいい。};
+]}}
+{{Story Navbar|The Demon Sword|Dancer of Flames}}
+==In other languages==
+{{OtherLanguages
+|japanese=雷神降り立つ
+|german=Göttin des Donners
+|spanishEU=La diosa del trueno
+|spanishLA=La diosa del trueno
+|french=La déesse de l'éclair
+|italian=La dea del tuono
+|chineseTW=雷神降臨
+|portuguese=A deusa do trovão
+}}
+{{Story Maps Navbox|book=2}}

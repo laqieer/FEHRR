@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom (The Branded King) Unrevealed.png
+|mapName=Chapter 6-2: The Branded Knight
+|stageTitle=Chapter 6: Part 2
+|stageName=The Branded Knight
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 6: The True Quarry
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2062
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5={{Ally|1}}
+| a4= | b4= | c4= | d4= | e4={{Ally|2}} | f4={{Ally|3}}
+| a3= | b3= | c3= | d3= | e3= | f3={{Ally|4}}
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=32
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-03-09T07:00:00Z|notification=New Heroes: The Branded King (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Chrom: Knight Exalt;pos=c8;rarity=3;slot=1;level=15;stats=[25;17;12;15;7];weapon=Steel Sword;assist=-;special=-;a=Fury 1;b=Chill Def 1;c=Sword Valor 1;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=b1;rarity=3;slot=2;level=15;stats=[25;14;13;13;6];weapon=Steel Bow;assist=-;special=-;a=Warding Blow 1;b=-;c=Savage Blow 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=a7;rarity=3;slot=3;level=15;stats=[23;12;16;8;17];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=a4;rarity=3;slot=4;level=15;stats=[25;14;14;13;12];weapon=Fire Breath+;assist=-;special=-;a=Brazen Def/Res 1;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Chrom: Knight Exalt;pos=c8;rarity=4;slot=1;level=32;stats=[34;30;21;27;12];weapon=Silver Sword;assist=-;special=New Moon;a=Fury 2;b=Chill Def 2;c=Sword Valor 2;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=b1;rarity=4;slot=2;level=32;stats=[35;25;23;22;11];weapon=Silver Bow;assist=-;special=-;a=Warding Blow 2;b=-;c=Savage Blow 2;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=a7;rarity=4;slot=3;level=32;stats=[31;21;28;16;29];weapon=Silver Lance;assist=Rally Speed;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=a4;rarity=4;slot=4;level=32;stats=[36;25;24;22;21];weapon=Flametongue;assist=Reposition;special=Holy Vestments;a=Brazen Def/Res 2;b=Shield Pulse 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Chrom: Knight Exalt;pos=c8;rarity=5;slot=1;level=41;displaylevel=40;stats=[41;38;28;35;17];weapon=Sealed Falchion;assist=-;special=Aether;a=Fury 3;b=Chill Def 3;c=Sword Valor 3;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=b1;rarity=5;slot=2;level=41;displaylevel=40;stats=[43;32;29;29;16];weapon=Silver Bow+;assist=-;special=-;a=Warding Blow 3;b=-;c=Savage Blow 3;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=a7;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Silver Lance+;assist=Rally Spd/Res;special=-;a=-;b=-;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=a4;rarity=5;slot=4;level=41;displaylevel=40;stats=[45;32;30;29;28];weapon=Flametongue+;assist=Reposition;special=Sacred Cowl;a=Brazen Def/Res 3;b=Shield Pulse 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Chrom: Knight Exalt;text=I am Chrom, of Ylisse. Thanks to this\ncontract, and also for the sake of my\nfriends, I cannot let you pass!;textJP=イーリス聖王国のクロムだ。\n契約のため…そして仲間たちのため、\nここから先は通さん！};
+]}}
+{{Story Navbar|A Distant Dream|The Tactician's Daughter}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖痕の騎士
+|german=Der gezeichnete Ritter
+|spanishEU=El caballero marcado
+|spanishLA=El caballero marcado
+|french=Le chevalier marqué
+|italian=Il cavaliere marchiato
+|chineseTW=聖痕騎士
+|portuguese=O estigma do cavaleiro
+}}
+{{Story Maps Navbox|book=2}}

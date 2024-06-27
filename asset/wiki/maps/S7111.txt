@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0711.webp
+|stageTitle=Chapter 11-1
+|stageName=Land God's Aid
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 11: Without Limits
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7111
+|backdrop=
+|allyPos=e2,f2,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_03.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-09-15T07:00:00Z|notification=Special Summon: Rearmed Plumeria & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Fee: Aspiring Knight;pos=b5;slot=1;rarity=3;level=26;stats=[26;26;31;17;24];weapon=Protection Edge;assist=Reposition;special=-;a=-;b=Aerobatics 1;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;slot=2;rarity=3;level=26;stats=[25;23;16;10;22];weapon=Elthunder;assist=-;special=Chilling Wind;a=Atk/Res Catch 1;b=Swordbreaker 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Axe Fighter;pos=e7;slot=3;rarity=3;level=26;stats=[32;19;19;19;14];weapon=Steel Axe;assist=-;special=Retribution;a=Sturdy Blow 1;b=-;c=Threat. Atk/Def 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Sword Fighter;pos=f7;slot=4;rarity=3;level=26;stats=[32;19;19;19;14];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Clash 1;b=-;c=Drive Atk 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=c7;slot=5;rarity=3;level=26;stats=[26;17;17;15;23];weapon=Assault;assist=Reconcile;special=Kindled-Fire Balm;a=-;b=Mystic Boost 1;c=Drive Def 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Hard=[
+{unit=Fee: Aspiring Knight;pos=b5;slot=1;rarity=4;level=35;stats=[32;35;40;22;33];weapon=Protection Edge;assist=Reposition;special=-;a=-;b=Aerobatics 2;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;slot=2;rarity=4;level=35;stats=[29;30;21;13;29];weapon=Keen Blárwolf;assist=-;special=Chilling Wind;a=Atk/Res Catch 2;b=Swordbreaker 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Axe Fighter;pos=e7;slot=3;rarity=4;level=35;stats=[38;26;25;26;18];weapon=Defier's Axe;assist=-;special=Retribution;a=Sturdy Blow 1;b=-;c=Threat. Atk/Def 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Sword Fighter;pos=f7;slot=4;rarity=4;level=35;stats=[38;26;25;26;18];weapon=Allied Sword;assist=-;special=Glowing Ember;a=Atk/Def Clash 2;b=-;c=Drive Atk 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=c7;slot=5;rarity=4;level=35;stats=[30;24;23;19;30];weapon=Trilemma;assist=Restore;special=Earthfire Balm;a=-;b=Mystic Boost 2;c=Drive Def 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Lunatic=[
+{unit=Fee: Aspiring Knight;pos=b5;slot=1;rarity=5;level=40;stats=[37;40;45;26;40];weapon=Protection Edge+;assist=Reposition;special=-;a=-;b=Aerobatics 3;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;slot=2;rarity=5;level=40;stats=[33;35;25;17;34];weapon=Keen Blárwolf+;assist=-;special=Iceberg;a=Atk/Res Catch 3;b=Swordbreaker 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Axe Fighter;pos=e7;slot=3;rarity=5;level=40;stats=[44;31;31;30;22];weapon=Defier's Axe+;assist=-;special=Reprisal;a=Sturdy Blow 2;b=-;c=Threat. Atk/Def 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Sword Fighter;pos=f7;slot=4;rarity=5;level=40;stats=[44;31;31;30;22];weapon=Allied Sword+;assist=-;special=Bonfire;a=Atk/Def Clash 3;b=-;c=Drive Atk 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=c7;slot=5;rarity=5;level=40;stats=[34;28;28;23;35];weapon=Trilemma+;assist=Restore+;special=Earthfire Balm+;a=-;b=Mystic Boost 3;c=Drive Def 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Nihility & Dream 3|Youthful Thief}}
+==In other languages==
+{{OtherLanguages
+|japanese=地の女神の援助
+|german=Hilfe der Göttin der Erde
+|spanishEU=Ayuda de la tierra
+|spanishLA=Ayuda de la tierra
+|french=Aide de la terre
+|italian=L'aiuto della terra
+|chineseTW=地之女神的援助
+|portuguese=Ajuda da terra
+}}
+{{Story Maps Navbox|book=7}}

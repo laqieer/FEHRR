@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0505 C.webp
+|stageTitle=Chapter 5: Part 5
+|stageName=Overcoming Differences
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 5: Night and Day
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5055
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-03-05T07:00:00Z|notification=New Heroes Summoning Event: Seeds of Fódlan (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nótt: Moon's Elegance;pos=c7;rarity=3;slot=1;level=15;stats=[24;19;18;12;13];weapon=Steel Lance;assist=-;special=New Moon;a=Distant Def 1;b=Spurn 1;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=b7;rarity=3;slot=2;level=15;stats=[23;13;17;14;11];weapon=Fire Breath+;assist=Draw Back;special=-;a=-;b=Spd/Def Link 1;c=Ground Orders 1;seal=-;ai={turn=1};};
+{unit=Dedue: Dimitri's Vassal;pos=d6;rarity=3;slot=3;level=15;stats=[28;21;7;21;14];weapon=Steel Axe;assist=-;special=-;a=Sturdy Stance 1;b=-;c=A/D Near Save 1;seal=-;ai={turn=1};};
+{unit=Marianne: Adopted Daughter;pos=e7;rarity=3;slot=4;level=15;stats=[22;19;14;7;17];weapon=Elthunder;assist=-;special=-;a=B Duel Infantry 1;b=Lull Atk/Res 1;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Nótt: Moon's Elegance;pos=c7;rarity=4;slot=1;level=35;stats=[35;36;35;23;23];weapon=Silver Lance;assist=-;special=New Moon;a=Distant Def 2;b=Spurn 2;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=b7;rarity=4;slot=2;level=35;stats=[34;24;31;27;22];weapon=Flametongue;assist=Draw Back;special=-;a=-;b=Spd/Def Link 2;c=Ground Orders 2;seal=-;ai={turn=1};};
+{unit=Dedue: Dimitri's Vassal;pos=d6;rarity=4;slot=3;level=35;stats=[44;39;13;39;24];weapon=Steadfast Axe;assist=-;special=Buckler;a=Sturdy Stance 2;b=-;c=A/D Near Save 2;seal=-;ai={turn=1};};
+{unit=Marianne: Adopted Daughter;pos=e7;rarity=4;slot=4;level=35;stats=[32;36;26;13;34];weapon=Thoron;assist=-;special=Chilling Wind;a=B Duel Infantry 3;b=Lull Atk/Res 2;c=Drive Res 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Nótt: Moon's Elegance;pos=c7;rarity=5;slot=1;level=45;stats=[43;45;44;31;30];weapon=Hrímfaxi;assist=-;special=Luna;a=Distant Def 3;b=Spurn 3;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Red Fáfnir;pos=b7;rarity=5;slot=2;level=45;stats=[42;32;39;35;30];weapon=Flametongue+;assist=Draw Back;special=-;a=-;b=Spd/Def Link 3;c=Ground Orders 3;seal=-;ai={turn=1};};
+{unit=Dedue: Dimitri's Vassal;pos=d6;rarity=5;slot=3;level=45;stats=[54;49;18;49;31];weapon=Steadfast Axe+;assist=-;special=Pavise;a=Sturdy Stance 3;b=-;c=A/D Near Save 3;seal=-;ai={turn=1};};
+{unit=Marianne: Adopted Daughter;pos=e7;rarity=5;slot=4;level=45;stats=[39;45;35;18;43];weapon=Icy Fimbulvetr;assist=-;special=Iceberg;a=B Duel Infantry 4;b=Lull Atk/Res 3;c=Joint Drive Res;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Margrave's Daughter|Seeds of Fódlan}}
+==In other languages==
+{{OtherLanguages
+|japanese=諍いを越えて
+|german=Die große Versöhnung
+|spanishEU=La gran reconciliación
+|spanishLA=La gran reconciliación
+|french=Surmonter les différences
+|italian=Superare le differenze
+|chineseTW=盡釋前嫌
+|portuguese=Superando diferenças
+}}
+{{Story Maps Navbox|book=5}}

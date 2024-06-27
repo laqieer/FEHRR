@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0604.webp
+|stageTitle=Chapter 4: Part 1
+|stageName=Nowhere to Turn
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 4: Princess Alone
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6041
+|backdrop=
+|allyPos=d2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_10.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-02-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Idunn (Notification) }}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Letizia: Curse Director;pos=c8;rarity=3;slot=1;level=8;stats=[18;13;4;12;11];weapon=Elwind;assist=-;special=-;a=Atk/Res Catch 1;b=Chill Atk/Res 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Gonzalez: Kindly Bandit;pos=f6;rarity=3;slot=2;level=8;stats=[23;15;12;11;5];weapon=Steel Axe;assist=-;special=-;a=Atk/Spd Push 1;b=-;c=Threat. Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=e7;rarity=3;slot=3;level=8;stats=[18;9;12;4;10];weapon=Thunder;assist=-;special=-;a=-;b=Seal Res 1;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Red Thief;pos=b6;rarity=3;slot=4;level=8;stats=[19;8;13;3;10];weapon=Iron Dagger;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Letizia: Curse Director;pos=c8;rarity=4;slot=1;level=28;stats=[29;29;10;26;24];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Atk/Res Catch 2;b=Chill Atk/Res 1;c=Rouse Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Gonzalez: Kindly Bandit;pos=f6;rarity=4;slot=2;level=28;stats=[38;31;26;23;14];weapon=Rein Axe;assist=-;special=Dragon Gaze;a=Atk/Spd Push 2;b=-;c=Threat. Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=e7;rarity=4;slot=3;level=28;stats=[27;20;27;10;23];weapon=Elthunder;assist=-;special=Night Sky;a=-;b=Seal Res 2;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Red Thief;pos=b6;rarity=4;slot=4;level=28;stats=[28;19;28;9;23];weapon=Steel Dagger;assist=-;special=Chilling Wind;a=Darting Blow 2;b=Windsweep 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Letizia: Curse Director;pos=c8;rarity=5;slot=1;level=40;stats=[38;40;16;35;34];weapon=Körmt;assist=-;special=Draconic Aura;a=Atk/Res Catch 3;b=Chill Atk/Res 2;c=Rouse Atk/Res 3;seal=-;ai={turn=1};};
+{unit=Gonzalez: Kindly Bandit;pos=f6;rarity=5;slot=2;level=40;stats=[50;42;35;33;21];weapon=Rein Axe+;assist=-;special=Dragon Fang;a=Atk/Spd Push 3;b=-;c=Threat. Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Blue Flier;pos=e7;rarity=5;slot=3;level=40;stats=[34;29;37;16;32];weapon=Blárfox+;assist=-;special=Glimmer;a=-;b=Seal Res 3;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Red Thief;pos=b6;rarity=5;slot=4;level=40;stats=[36;28;38;13;32];weapon=Smoke Dagger+;assist=-;special=Iceberg;a=Darting Blow 3;b=Windsweep 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Abiding Love|Mage's Lament}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=味方はもういない
+|german=Ganz allein
+|spanishEU=Callejón sin salida
+|spanishLA=Callejón sin salida
+|french=Dans l'impasse
+|italian=Con le spalle al muro
+|chineseTW=孤立無援
+|portuguese=Caminho sem volta
+}}
+{{Story Maps Navbox|book=6}}

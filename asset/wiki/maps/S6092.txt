@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=C0609.webp
+|stageTitle=Chapter 9: Part 2
+|stageName=Youthful Introduction
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 9: Opening a Way
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6092
+|backdrop=
+|allyPos=c2,d2,e2,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=35
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE15_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-07-19T07:00:00Z|notification=Special Summon: Ymir & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Est: Sweet Baby Sis;pos=c7;rarity=3;slot=1;level=23;stats=[24;25;22;15;22];weapon=Steel Lance;assist=-;special=Chilling Wind;a=Atk/Res Push 1;b=Flow Feather 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=b7;rarity=3;slot=2;level=23;stats=[24;17;22;8;19];weapon=Elfire;assist=-;special=Chilling Wind;a=Swift Sparrow 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e7;rarity=3;slot=3;level=23;stats=[29;21;15;22;10];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=-;b=Flow Flight 1;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f8;rarity=3;slot=4;level=23;stats=[29;20;13;14;18];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Solo 1;b=-;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d8;rarity=3;slot=5;level=23;stats=[26;18;19;11;16];weapon=Elthunder;assist=-;special=New Moon;a=Fury 1;b=Guard 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Est: Sweet Baby Sis;pos=c7;rarity=4;slot=1;level=35;stats=[31;36;32;21;32];weapon=Silver Lance;assist=-;special=Chilling Wind;a=Atk/Res Push 2;b=Flow Feather 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=b7;rarity=4;slot=2;level=35;stats=[30;24;32;12;27];weapon=Rauðrfox;assist=-;special=Chilling Wind;a=Swift Sparrow 1;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e7;rarity=4;slot=3;level=35;stats=[36;30;22;31;15];weapon=Silver Axe;assist=-;special=Dragon Gaze;a=-;b=Flow Flight 2;c=Spur Atk 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f8;rarity=4;slot=4;level=35;stats=[36;29;20;21;26];weapon=Unbound Blade;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=-;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d8;rarity=4;slot=5;level=35;stats=[33;26;27;16;23];weapon=Blárlion;assist=-;special=New Moon;a=Fury 2;b=Guard 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Est: Sweet Baby Sis;pos=c7;rarity=5;slot=1;level=41;stats=[36;42;39;26;38];weapon=Tri-Edge Lance;assist=-;special=Iceberg;a=Atk/Res Push 4;b=Flow Feather 3;c=-;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=b7;rarity=5;slot=2;level=41;stats=[35;29;38;16;32];weapon=Rauðrfox+;assist=-;special=Iceberg;a=Swift Sparrow 2;b=-;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e7;rarity=5;slot=3;level=41;stats=[41;36;27;37;19];weapon=Silver Axe+;assist=-;special=Draconic Aura;a=-;b=Flow Flight 3;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f8;rarity=5;slot=4;level=41;stats=[41;35;25;26;30];weapon=Unbound Blade+;assist=-;special=Bonfire;a=Atk/Def Solo 3;b=-;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d8;rarity=5;slot=5;level=41;stats=[38;31;32;20;28];weapon=Blárlion+;assist=-;special=Luna;a=Fury 3;b=Guard 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Est: Sweet Baby Sis;text=My name's Est. I'm the youngest of\nthree. Do you know Palla and Catria?;textJP=私、エスト！\nパオラ姉さまとカチュア姉さまと、\n三人姉妹なの。};
+]}}
+{{Story Navbar|Closing and Opening|A Friendly Face}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=末っ子の名乗り
+|german=Jugendliche Bekanntschaft
+|spanishEU=Presentación juvenil
+|spanishLA=Presentación juvenil
+|french=Présentation juvénile
+|italian=Presentazione giovanile
+|chineseTW=老么的名號
+|portuguese=Iniciação da juventude
+}}
+{{Story Maps Navbox|book=6}}

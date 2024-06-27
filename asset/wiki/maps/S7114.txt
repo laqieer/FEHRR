@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0711.webp
+|stageTitle=Chapter 11-4
+|stageName=Sage of the Wind
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 11: Without Limits
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7114
+|backdrop=
+|allyPos=b2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_03.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-09-15T07:00:00Z|notification=Special Summon: Rearmed Plumeria & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ced: Sage of the Wind;pos=c7;slot=1;rarity=3;level=29;stats=[33;33;32;14;17];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Atk/Spd Ideal 1;b=Special Spiral 1;c=Infantry Pulse 1;seal=-;ai={turn=1};};
+{unit=Thief;pos=a6;slot=2;rarity=3;level=29;stats=[28;19;27;9;22];weapon=Steel Dagger;assist=-;special=New Moon;a=-;b=Chill Def 1;c=Fatal Smoke 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Mage;pos=d8;slot=3;rarity=3;level=29;stats=[29;21;22;13;19];weapon=Elfire;assist=-;special=Night Sky;a=Atk/Spd Finish 1;b=Desperation 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=b6;slot=4;rarity=3;level=29;stats=[27;19;19;16;24];weapon=Assault;assist=Mend;special=Miracle;a=Still Water 1;b=-;c=Time's Pulse 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Fighter;pos=f7;slot=5;rarity=3;level=29;stats=[34;21;21;21;15];weapon=Steel Lance;assist=Harsh Command;special=-;a=Distant Def 1;b=-;c=Infantry Pulse 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Hard=[
+{unit=Ced: Sage of the Wind;pos=c7;slot=1;rarity=4;level=38;stats=[39;42;42;19;22];weapon=Heired Forseti;assist=-;special=Rising Wind;a=Atk/Spd Ideal 2;b=Special Spiral 2;c=Infantry Pulse 2;seal=-;ai={turn=1};};
+{unit=Thief;pos=a6;slot=2;rarity=4;level=38;stats=[33;24;35;11;29];weapon=Quick Dagger;assist=-;special=New Moon;a=-;b=Chill Def 2;c=Fatal Smoke 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Mage;pos=d8;slot=3;rarity=4;level=38;stats=[34;28;29;17;24];weapon=Rauðrfox;assist=-;special=Night Sky;a=Atk/Spd Finish 2;b=Desperation 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=b6;slot=4;rarity=4;level=38;stats=[31;25;24;20;32];weapon=Fear;assist=Physic;special=Miracle;a=Still Water 2;b=-;c=Time's Pulse 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Fighter;pos=f7;slot=5;rarity=4;level=38;stats=[40;28;27;27;19];weapon=Barrier Lance;assist=Harsh Command;special=-;a=Distant Def 2;b=-;c=Infantry Pulse 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ced: Sage of the Wind;pos=c7;slot=1;rarity=5;level=43;stats=[45;48;49;24;27];weapon=Heired Forseti;assist=-;special=Blazing Wind;a=Atk/Spd Ideal 4;b=Special Spiral 4;c=Infantry Pulse 4;seal=-;ai={turn=1};};
+{unit=Thief;pos=a6;slot=2;rarity=5;level=43;stats=[38;29;41;14;34];weapon=Quick Dagger+;assist=-;special=Lethality;a=-;b=Chill Def 3;c=Fatal Smoke 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Mage;pos=d8;slot=3;rarity=5;level=43;stats=[39;33;34;21;29];weapon=Rauðrfox+;assist=-;special=Glimmer;a=Atk/Spd Finish 3;b=Desperation 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Cleric;pos=b6;slot=4;rarity=5;level=43;stats=[35;29;29;24;37];weapon=Fear+;assist=Physic+;special=Light's Restraint;a=Still Water 3;b=-;c=Time's Pulse 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Fighter;pos=f7;slot=5;rarity=5;level=43;stats=[46;33;33;31;23];weapon=Barrier Lance+;assist=Harsh Command+;special=-;a=Distant Def 3;b=-;c=Infantry Pulse 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Ced: Sage of the Wind;text=What does it mean to be a crusader?\nI feel that Prince Leif embodies the\nvery idea.;textJP=聖戦士とはなにか…\n私はその答えを\nリーフ王子の中に見た気がします。};
+]
+}}
+{{Story Navbar|Against the Limitless|Only One You}}
+==In other languages==
+{{OtherLanguages
+|japanese=風の聖戦士
+|german=Weiser des Windes
+|spanishEU=Sabio del viento
+|spanishLA=Sabio del viento
+|french=Sage du vent
+|italian=Saggio del vento
+|chineseTW=風之聖戰士
+|portuguese=Sábio do vento
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0301.png
+|stageTitle=Chapter 1: Part 1
+|stageName=The Dead Arrive
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 1: Death
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3011
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5={{Ally|1}} | d5={{Ally|2}} | e5= | f5=
+| a4= | b4= | c4={{Ally|3}} | d4={{Ally|4}} | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=1
+|lvlHard=20
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-12-11T03:00:00Z|notification=What's in Store for the 3.0.0 Update (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Fighter;pos=a7;rarity=3;slot=1;level=1;stats=[19;6;6;7;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f2;rarity=3;slot=2;level=1;stats=[18;8;4;9;3];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=a1;rarity=3;slot=3;level=1;stats=[16;6;8;2;7];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Lance Fighter;pos=a7;rarity=4;slot=1;level=20;stats=[30;18;17;18;11];weapon=Steel Lance;assist=-;special=-;a=Death Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f2;rarity=4;slot=2;level=20;stats=[28;21;14;22;10];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Atk Smoke 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=a1;rarity=4;slot=3;level=20;stats=[23;16;22;8;19];weapon=Elfire;assist=-;special=-;a=Warding Stance 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lance Fighter;pos=a7;rarity=5;slot=1;level=40;stats=[44;31;31;30;22];weapon=Silver Lance+;assist=-;special=-;a=Death Blow 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=f2;rarity=5;slot=2;level=40;stats=[41;35;27;36;19];weapon=Silver Axe+;assist=-;special=-;a=-;b=-;c=Atk Smoke 3;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=a1;rarity=5;slot=3;level=40;stats=[34;29;37;16;32];weapon=Bolganone+;assist=-;special=-;a=Warding Stance 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Sworn Oath|Lethal Swordsman}}
+
+==In other languages==
+{{OtherLanguages
+|english=The Dead Arrive
+|japanese=死者は昼歩く
+|german=Ankunft der Toten
+|spanishEU=Llegan los muertos
+|spanishLA=Llegan los muertos
+|french=L'arrivée des morts
+|italian=L'avvento dei morti
+|chineseTW=流連的死者
+|portuguese=A chegada dos mortos
+}}
+{{Story Maps Navbox|book=3}}

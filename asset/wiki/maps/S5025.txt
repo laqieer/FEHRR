@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0502 C.webp
+|stageTitle=Chapter 2: Part 5
+|stageName=Useless Gestures
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 2: Kingsbrother
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5025
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=28
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-12-08T07:00:00Z|notification=Book V Begins: Reginn and More Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ótr: Kingsbrother;pos=d8;rarity=3;slot=1;level=7;stats=[19;13;4;11;11];weapon=Iron Axe;assist=-;special=-;a=HP/Atk 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Caellach: Tiger Eye;pos=c7;rarity=3;slot=2;level=7;stats=[21;13;9;9;11];weapon=Iron Axe;assist=-;special=-;a=-;b=Guard 1;c=-;seal=-;ai={turn=1};};
+{unit=Duessel: Obsidian;pos=a6;rarity=3;slot=3;level=7;stats=[21;12;5;12;9];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=Rouse Def/Res 1;seal=-;ai={turn=1};};
+{unit=Selena: Fluorspar;pos=f6;rarity=3;slot=4;level=7;stats=[20;12;12;3;7];weapon=Thunder;assist=Rally Attack;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Ótr: Kingsbrother;pos=d8;rarity=4;slot=1;level=28;stats=[31;29;11;27;23];weapon=Steel Axe;assist=-;special=Buckler;a=HP/Atk 2;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Caellach: Tiger Eye;pos=c7;rarity=4;slot=2;level=28;stats=[35;29;19;21;24];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=-;b=Guard 2;c=Even Def Wave 1;seal=-;ai={turn=1};};
+{unit=Duessel: Obsidian;pos=a6;rarity=4;slot=3;level=28;stats=[32;28;12;28;21];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Def/Res Solo 1;b=Lull Atk/Def 1;c=Rouse Def/Res 2;seal=-;ai={turn=1};};
+{unit=Selena: Fluorspar;pos=f6;rarity=4;slot=4;level=28;stats=[31;28;28;10;16];weapon=Elthunder;assist=Rally Atk/Res;special=-;a=Life and Death 2;b=Atk/Res Ruse 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ótr: Kingsbrother;pos=d8;rarity=5;slot=1;level=45;stats=[44;44;18;41;36];weapon=Lofnheiðr;assist=-;special=Pavise;a=HP/Atk 2;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Caellach: Tiger Eye;pos=c7;rarity=5;slot=2;level=45;stats=[48;44;30;34;36];weapon=Reprisal Axe+;assist=-;special=Dragon Fang;a=-;b=Guard 3;c=Even Def Wave 3;seal=-;ai={turn=1};};
+{unit=Duessel: Obsidian;pos=a6;rarity=5;slot=3;level=45;stats=[44;43;19;43;34];weapon=Obsidian Lance;assist=-;special=Bonfire;a=Def/Res Solo 4;b=Lull Atk/Def 3;c=Rouse Def/Res 3;seal=-;ai={turn=1};};
+{unit=Selena: Fluorspar;pos=f6;rarity=5;slot=4;level=45;stats=[43;43;43;17;25];weapon=Tome of Storms;assist=Rally Atk/Res+;special=-;a=Life and Death 4;b=Atk/Res Ruse 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Obsidian Honor|Driven by Vision}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=お前なんかいらない
+|german=Nutzlose Gesten
+|spanishEU=Gestos inútiles
+|spanishLA=Gestos inútiles
+|french=Gestes inutiles
+|italian=Inutilità
+|chineseTW=才不需要妳
+|portuguese=Gestos inúteis
+}}
+{{Story Maps Navbox|book=5}}

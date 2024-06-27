@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0710.webp
+|stageTitle=Chapter 10-1
+|stageName=I'll Never Be You
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 10: Light's Fading
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7101
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_menu_goldwitch.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-08-16T07:00:00Z|notification=New Heroes Summoning Event: Turn of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Soren: Radiant Confidant;pos=c8;slot=1;rarity=3;level=24;stats=[28;30;19;8;29];weapon=Elwind;assist=-;special=Daylight;a=-;b=Null Follow-Up 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d8;slot=2;rarity=3;level=24;stats=[31;18;18;18;13];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Sturdy Stance 1;b=Quick Riposte 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Fighter;pos=e7;slot=3;rarity=3;level=24;stats=[30;19;17;17;8];weapon=Steel Bow;assist=-;special=Night Sky;a=Fury 1;b=Lull Atk/Def 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Blue Cavalier;pos=a8;slot=4;rarity=3;level=24;stats=[24;21;15;9;20];weapon=Elthunder;assist=-;special=Night Sky;a=-;b=Bowbreaker 1;c=Rouse Atk/Def 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Flier;pos=f7;slot=5;rarity=3;level=24;stats=[27;16;21;12;22];weapon=Steel Lance;assist=-;special=New Moon;a=Triangle Adept 1;b=S/D Near Trace 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Hard=[
+{unit=Soren: Radiant Confidant;pos=c8;slot=1;rarity=4;level=35;stats=[35;40;28;12;40];weapon=Arch-Sage Tome;assist=-;special=Daylight;a=-;b=Null Follow-Up 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d8;slot=2;rarity=4;level=35;stats=[38;26;25;26;18];weapon=Safeguard;assist=-;special=Glowing Ember;a=Sturdy Stance 1;b=Quick Riposte 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Fighter;pos=e7;slot=3;rarity=4;level=35;stats=[37;27;25;24;12];weapon=Guard Bow;assist=-;special=Night Sky;a=Fury 2;b=Lull Atk/Def 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Blue Cavalier;pos=a8;slot=4;rarity=4;level=35;stats=[29;30;21;13;29];weapon=Blárraven;assist=-;special=Night Sky;a=-;b=Bowbreaker 2;c=Rouse Atk/Def 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Flier;pos=f7;slot=5;rarity=4;level=35;stats=[33;23;30;17;31];weapon=Brave Lance;assist=-;special=New Moon;a=Triangle Adept 2;b=S/D Near Trace 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Lunatic=[
+{unit=Soren: Radiant Confidant;pos=c8;slot=1;rarity=5;level=40;stats=[40;45;34;16;47];weapon=Arch-Sage Tome;assist=-;special=Flare;a=Rare Talent;b=Mag. Null Follow;c=Time's Pulse 4;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d8;slot=2;rarity=5;level=40;stats=[44;31;31;30;22];weapon=Safeguard+;assist=-;special=Bonfire;a=Sturdy Stance 2;b=Quick Riposte 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Fighter;pos=e7;slot=3;rarity=5;level=40;stats=[43;32;29;29;16];weapon=Guard Bow+;assist=-;special=Deadeye;a=Fury 3;b=Lull Atk/Def 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Blue Cavalier;pos=a8;slot=4;rarity=5;level=40;stats=[33;35;25;17;34];weapon=Blárraven+;assist=-;special=Glimmer;a=-;b=Bowbreaker 3;c=Rouse Atk/Def 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Lance Flier;pos=f7;slot=5;rarity=5;level=40;stats=[37;28;35;21;36];weapon=Brave Lance+;assist=-;special=Luna;a=Triangle Adept 3;b=S/D Near Trace 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Nihility & Dream 2|Fated Tactician}}
+==In other languages==
+{{OtherLanguages
+|japanese=あなたにはならない
+|german=Ich werde niemals zu Euch
+|spanishEU=Jamás seré tú
+|spanishLA=Jamás seré tú
+|french=Je ne serai jamais vous
+|italian=Non sarò mai te
+|chineseTW=不會變成妳
+|portuguese=Eu nunca serei você
+}}
+{{Story Maps Navbox|book=7}}

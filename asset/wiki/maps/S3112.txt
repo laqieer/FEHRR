@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0311.webp
+|stageTitle=Chapter 11: Part 2
+|stageName=The Masked Wanderer
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 11: Where It Began
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=a3,b3,a2,b2
+|baseMap=S3112
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_02.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-09-19T07:00:00Z|notification=New Heroes: The Chosen Ones (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Sirius: Mysterious Knight;pos=f4;rarity=3;slot=1;level=27;stats=[30;22;24;23;9];weapon=Silver Lance;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=Lull Atk/Spd 1;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=3;slot=2;level=27;stats=[28;20;21;13;18];weapon=Elfire;assist=-;special=Rising Flame;a=Darting Blow 1;b=-;c=Spd Smoke 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=d7;rarity=3;slot=3;level=27;stats=[26;18;18;15;23];weapon=Assault;assist=Physic;special=-;a=Resistance +1;b=Sabotage Def 1;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=e6;rarity=3;slot=4;level=27;stats=[31;22;15;16;20];weapon=Steel Sword;assist=Rally Attack;special=-;a=Attack/Res 1;b=-;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=c7;rarity=3;slot=5;level=27;stats=[29;19;24;21;17];weapon=Fire Breath+;assist=-;special=New Moon;a=-;b=Aerobatics 1;c=Breath of Life 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Sirius: Mysterious Knight;pos=f4;rarity=4;slot=1;level=36;stats=[35;29;33;31;13];weapon=Sable Lance;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Lull Atk/Spd 2;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=4;slot=2;level=36;stats=[33;27;28;16;23];weapon=Rauðrowl;assist=-;special=Rising Flame;a=Darting Blow 2;b=-;c=Spd Smoke 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=d7;rarity=4;slot=3;level=36;stats=[30;24;23;19;31];weapon=Fear;assist=Physic;special=-;a=Resistance +2;b=Sabotage Def 2;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=e6;rarity=4;slot=4;level=36;stats=[36;30;20;21;26];weapon=Barrier Blade;assist=Rally Atk/Spd;special=-;a=Attack/Res 1;b=-;c=Spur Atk 2;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=c7;rarity=4;slot=5;level=36;stats=[34;24;32;28;22];weapon=Light Breath;assist=-;special=New Moon;a=-;b=Aerobatics 2;c=Breath of Life 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Sirius: Mysterious Knight;pos=f4;rarity=5;slot=1;level=41;displaylevel=40;stats=[40;35;38;36;16];weapon=Sable Lance;assist=-;special=Luna;a=Atk/Spd Solo 3;b=Lull Atk/Spd 3;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b7;rarity=5;slot=2;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Rauðrowl+;assist=-;special=Growing Flame;a=Darting Blow 3;b=-;c=Spd Smoke 3;seal=-;ai={group=1};};
+{unit=Cleric;pos=d7;rarity=5;slot=3;level=41;displaylevel=40;stats=[35;28;28;24;36];weapon=Fear+;assist=Physic+;special=-;a=Resistance +3;b=Sabotage Def 3;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=e6;rarity=5;slot=4;level=41;displaylevel=40;stats=[41;35;25;26;30];weapon=Barrier Blade+;assist=Rally Atk/Spd+;special=-;a=Attack/Res 2;b=-;c=Goad Cavalry;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=c7;rarity=5;slot=5;level=41;displaylevel=40;stats=[39;29;37;32;27];weapon=Light Breath+;assist=-;special=Moonbow;a=-;b=Aerobatics 3;c=Breath of Life 3;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Sirius: Mysterious Knight;text=I am...merely a traveler.\nYou may call me Sirius.;textJP=私はシリウス。\nただの、旅の者だ…};
+]}}
+{{Story Navbar|Seeking a Path|Polarized Judgments}}
+==In other languages==
+{{OtherLanguages
+|japanese=仮面騎士の放浪
+|german=Der maskierte Reisende
+|spanishEU=El enmascarado errante
+|spanishLA=El viajero enmascarado
+|french=Le voyageur masqué
+|italian=Il viaggiatore mascherato
+|chineseTW=蒙面騎士的流浪
+|portuguese=O mascarado errante
+}}
+{{Story Maps Navbox|book=3}}

@@ -1,0 +1,101 @@
+{{Battle Infobox
+|bannerImage=C0305_C.png
+|stageTitle=Chapter 5: Part 5
+|stageName=Into the Gates
+|stageEpithet=
+|mapMode=Reinforcement Map
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 5: A Father's Legacy
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3055
+|backdrop=WavePatternW0009
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|1}} | d2={{Ally|2}} | e2= | f2=
+| a1= | b1={{Ally|3}} | c1= | d1= | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=15
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-03-08T07:00:00Z|notification=New Heroes: Beyond Darkness (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{#invoke:MapLayout|map
+|baseMap=S3055
+|backdrop=WavePatternW0009
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Gustav: Exsanguinator;pos=c6;rarity=3;slot=1;level=15;stats=[24;17;10;16;10];weapon=Silver Axe;assist=-;special=Luna;a=Fury 2;b=-;c=Drive Atk 1;seal=-;ai={turn=2};};
+{unit=Sue: Doe of the Plains;pos=e7;rarity=3;slot=2;level=15;stats=[22;14;18;9;8];weapon=Steel Bow;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Thea: Stormy Flier;pos=d6;rarity=3;slot=3;level=15;stats=[23;12;17;13;12];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Steady Posture 1;b=Seal Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b7;rarity=3;slot=4;level=15;stats=[23;13;14;8;12];weapon=Elfire;assist=-;special=-;a=Spd/Res 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Rutger: Lone Swordsman;pos=d6;rarity=3;slot=5;level=15;stats=[26;14;17;13;10];weapon=Steel Sword;assist=-;special=Retribution;a=Atk/Def Bond 1;b=Vantage 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Bow Flier;pos=d6;rarity=3;slot=6;level=15;stats=[22;14;15;7;13];weapon=Steel Bow;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Hard=[
+{unit=Gustav: Exsanguinator;pos=c6;rarity=4;slot=1;level=35;stats=[36;32;21;30;18];weapon=Glitnir;assist=-;special=Luna;a=Fury 3;b=Desperation 1;c=Drive Atk 2;seal=-;ai={turn=2};};
+{unit=Sue: Doe of the Plains;pos=e7;rarity=4;slot=2;level=35;stats=[32;27;33;19;16];weapon=Short Bow;assist=-;special=New Moon;a=Swift Sparrow 1;b=Chill Def 1;c=Hone Spd 3;seal=-;ai={turn=1};};
+{unit=Thea: Stormy Flier;pos=d6;rarity=4;slot=3;level=35;stats=[33;25;30;26;23];weapon=Vanguard;assist=-;special=Glowing Ember;a=Steady Posture 1;b=Seal Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b7;rarity=4;slot=4;level=35;stats=[33;26;27;16;23];weapon=Bolganone;assist=-;special=Rising Flame;a=Spd/Res 1;b=-;c=Spd Ploy 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;rarity=4;slot=5;level=35;stats=[29;30;21;13;29];weapon=Thoron;assist=-;special=Rising Thunder;a=-;b=Swordbreaker 1;c=Savage Blow 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Rutger: Lone Swordsman;pos=d6;rarity=4;slot=6;level=35;stats=[38;27;34;24;20];weapon=Slaying Edge;assist=-;special=Retribution;a=Atk/Def Bond 2;b=Vantage 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Bow Flier;pos=d6;rarity=4;slot=7;level=35;stats=[32;27;29;13;24];weapon=Slaying Bow;assist=-;special=Rising Wind;a=Darting Blow 1;b=-;c=Savage Blow 2;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Lunatic=[
+{unit=Gustav: Exsanguinator;pos=c6;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;41;29;38;24];weapon=Glitnir;assist=-;special=Luna;a=Fury 3;b=Desperation 3;c=Drive Atk 2;seal=-;ai={turn=2};};
+{unit=Sue: Doe of the Plains;pos=e7;rarity=5;slot=2;level=45;displaylevel=40;stats=[39;35;42;26;22];weapon=Short Bow+;assist=-;special=Moonbow;a=Swift Sparrow 2;b=Chill Def 3;c=Hone Spd 4;seal=-;ai={turn=1};};
+{unit=Thea: Stormy Flier;pos=d6;rarity=5;slot=3;level=45;displaylevel=40;stats=[40;34;38;34;31];weapon=Vanguard+;assist=-;special=Ignis;a=Steady Posture 2;b=Seal Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=b7;rarity=5;slot=4;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Bolganone+;assist=-;special=Blazing Flame;a=Spd/Res 2;b=-;c=Spd Ploy 3;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b7;rarity=5;slot=5;level=45;displaylevel=40;stats=[35;38;28;18;37];weapon=Thoron+;assist=-;special=Blazing Thunder;a=-;b=Swordbreaker 3;c=Savage Blow 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Rutger: Lone Swordsman;pos=d6;rarity=5;slot=6;level=45;displaylevel=40;stats=[47;35;43;32;27];weapon=Slaying Edge+;assist=-;special=Vengeance;a=Atk/Def Bond 3;b=Vantage 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Bow Flier;pos=d6;rarity=5;slot=7;level=45;displaylevel=40;stats=[39;35;37;18;32];weapon=Slaying Bow+;assist=-;special=Blazing Wind;a=Darting Blow 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};spawn={turn=3};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Demon Dragon Wakes|Reason to Fight}}
+
+==In other languages==
+{{OtherLanguages
+|english=Into the Gates
+|japanese=死中に生を
+|german=Durch das Tor
+|spanishEU=Las puertas de la muerte
+|spanishLA=Las puertas de la muerte
+|french=Le portail de la mort
+|italian=Oltre il portale
+|chineseTW=死裡求生
+|portuguese=O mundo dos mortos
+}}
+{{Story Maps Navbox|book=3}}

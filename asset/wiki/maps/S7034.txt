@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0703.webp
+|stageTitle=Chapter 6: Part 4
+|stageName=Prince in Training
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 6: King of Light
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7034
+|backdrop=
+|allyPos=d2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE17_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-01-17T07:00:00Z|notification=New Heroes Summoning Event: Engage (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Etie: Fitness Fighter;pos=c7;rarity=3;slot=1;level=8;stats=[20;16;13;8;8];weapon=Iron Bow;assist=-;special=-;a=Atk/Def Ideal 1;b=-;c=Atk/Def Gap 1;seal=-;ai={group=1};};
+{unit=Alfred: Floral Protector;pos=d7;rarity=3;slot=2;level=8;stats=[20;18;5;14;7];weapon=Iron Lance;assist=-;special=-;a=-;b=Flow N Trace 1;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b6;rarity=3;slot=3;level=8;stats=[20;9;10;6;8];weapon=Fire;assist=-;special=-;a=-;b=Chill Atk 1;c=Spd Tactic 1;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Axe Cavalier;pos=e7;rarity=3;slot=4;level=8;stats=[21;11;7;8;10];weapon=Iron Axe;assist=-;special=-;a=Atk/Def Bond 1;b=-;c=Spur Def 1;seal=-;accessory=Golden Curse;ai={group=1};};
+]
+|Hard=[
+{unit=Etie: Fitness Fighter;pos=c7;rarity=4;slot=1;level=28;stats=[31;33;29;20;19];weapon=Steel Bow;assist=-;special=Dragon Gaze;a=Atk/Def Ideal 2;b=-;c=Atk/Def Gap 2;seal=-;ai={group=1};};
+{unit=Alfred: Floral Protector;pos=d7;rarity=4;slot=2;level=28;stats=[31;34;16;31;18];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Flow N Trace 2;c=Spur Atk 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b6;rarity=4;slot=3;level=28;stats=[29;22;23;13;19];weapon=Elfire;assist=-;special=Rising Flame;a=-;b=Chill Atk 2;c=Spd Tactic 2;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Axe Cavalier;pos=e7;rarity=4;slot=4;level=28;stats=[32;25;16;17;22];weapon=Steel Axe;assist=-;special=Buckler;a=Atk/Def Bond 2;b=-;c=Spur Def 2;seal=-;accessory=Golden Curse;ai={group=1};};
+]
+|Lunatic=[
+{unit=Etie: Fitness Fighter;pos=c7;rarity=5;slot=1;level=43;stats=[41;47;43;32;29];weapon=Protection Bow+;assist=-;special=Draconic Aura;a=Atk/Def Ideal 3;b=-;c=Atk/Def Gap 3;seal=-;ai={group=1};};
+{unit=Alfred: Floral Protector;pos=d7;rarity=5;slot=2;level=43;stats=[41;48;26;45;28];weapon=Arcane Qiang;assist=-;special=Bonfire;a=Self-Improver;b=Flow N Trace 3;c=Cross Spur Atk;seal=-;ai={group=1};};
+{unit=Red Mage;pos=b6;rarity=5;slot=3;level=43;stats=[39;33;34;21;29];weapon=Rauðrvulture+;assist=-;special=Blazing Flame;a=-;b=Chill Atk 3;c=Spd Tactic 3;seal=-;accessory=Golden Curse;ai={group=1};};
+{unit=Axe Cavalier;pos=e7;rarity=5;slot=4;level=43;stats=[42;36;26;27;31];weapon=Rearguard+;assist=-;special=Escutcheon;a=Atk/Def Bond 3;b=-;c=Ward Cavalry;seal=-;accessory=Golden Curse;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Awoken Successor|Curse of the Gold Serpent}}
+==In other languages==
+{{OtherLanguages
+|japanese=鍛錬する王子
+|german=Unermüdlicher Prinz
+|spanishEU=Entrenamiento principesco
+|spanishLA=Entrenamiento principesco
+|french=Prince en formation
+|italian=Principe allenato
+|chineseTW=鍛鍊的王子
+|portuguese=Príncipe em treinamento
+}}
+{{Story Maps Navbox|book=7}}

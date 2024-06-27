@@ -1,0 +1,101 @@
+{{Battle Infobox
+|bannerImage=C0705 C.webp
+|stageTitle=Chapter 8: Part 5
+|stageName=Only Escape Route
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 8: Seeing the Present
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7055
+|backdrop=
+|allyPos=b8,c8,d8,e8
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=35
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to defend: 4
+|BGM=bgm_map_FEH_11.ogg
+|BGM2=bgm_boss12.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-03-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Tana (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S7055|backdrop=
+|allyPos=b8,c8,d8,e8
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Gullveig: Golden Seer;pos=c1;rarity=3;slot=1;level=15;stats=[21;21;21;10;6];weapon=Atlas (weapon);assist=-;special=New Moon;a=Atk/Spd Catch 1;b=Seal Res 1;c=Fatal Smoke 1;seal=Gold Perfection;ai={turn=2};};
+{unit=Gilliam: Wall of Silence;pos=d2;rarity=3;slot=2;level=15;stats=[28;22;8;23;15];weapon=Steel Lance;assist=-;special=-;a=Sturdy Stance 1;b=Vengeful Fighter 1;c=A/D Near Save 1;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=d3;rarity=3;slot=3;level=15;stats=[21;15;23;9;19];weapon=Steel Sword;assist=-;special=-;a=Spd/Res Catch 1;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=e3;rarity=3;slot=4;level=15;stats=[23;13;14;8;12];weapon=Elwind;assist=-;special=-;a=Bonus Doubler 1;b=-;c=Atk/Spd Oath 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Vanessa: Dutiful Rider;pos=f5;rarity=3;slot=5;level=15;stats=[23;20;21;11;14];weapon=Steel Lance;assist=-;special=-;a=Atk/Res Catch 1;b=-;c=Spd/Res Oath 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Tana: Soaring Princess;pos=a2;rarity=3;slot=6;level=15;stats=[24;23;19;9;9];weapon=Steel Bow;assist=-;special=-;a=Atk/Spd Bond 1;b=-;c=Guidance 1;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Hard=[
+{unit=Gullveig: Golden Seer;pos=c1;rarity=4;slot=1;level=35;stats=[32;38;39;21;14];weapon=Gullveig (weapon);assist=-;special=New Moon;a=Atk/Spd Catch 3;b=Seal Res 3;c=Fatal Smoke 2;seal=Gold Perfection;ai={turn=2};};
+{unit=Gilliam: Wall of Silence;pos=d2;rarity=4;slot=2;level=35;stats=[41;39;17;41;29];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Sturdy Stance 2;b=Vengeful Fighter 3;c=A/D Near Save 2;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=d3;rarity=4;slot=3;level=35;stats=[32;32;40;17;36];weapon=Silver Sword;assist=-;special=New Moon;a=Spd/Res Catch 3;b=Pegasus Flight 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=e3;rarity=4;slot=4;level=35;stats=[33;26;27;16;23];weapon=Gronnblade;assist=-;special=Dragon Gaze;a=Bonus Doubler 2;b=-;c=Atk/Spd Oath 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Vanessa: Dutiful Rider;pos=f5;rarity=4;slot=5;level=35;stats=[34;35;38;22;28];weapon=Up-Front Lance;assist=-;special=New Moon;a=Atk/Res Catch 2;b=-;c=Spd/Res Oath 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Green Cavalier;pos=a1;rarity=4;slot=6;level=35;stats=[29;30;21;13;29];weapon=Gronnvulture;assist=-;special=Chilling Wind;a=-;b=Chill Spd 2;c=Res Ploy 2;seal=-;accessory=Golden Curse;ai={turn=1};spawn={turn=2};};
+{unit=Tana: Soaring Princess;pos=a2;rarity=4;slot=7;level=35;stats=[35;40;40;18;19];weapon=Silver Bow;assist=-;special=Glimmer;a=Atk/Spd Bond 3;b=-;c=Guidance 3;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Lunatic=[
+{unit=Gullveig: Golden Seer;pos=c1;rarity=5;slot=1;level=45;stats=[40;47;49;29;20];weapon=Gullveig (weapon);assist=-;special=Luna;a=Atk/Spd Catch 4;b=Seal Res 4;c=Fatal Smoke 3;seal=Gold Perfection;ai={turn=2};};
+{unit=Gilliam: Wall of Silence;pos=d2;rarity=5;slot=2;level=45;stats=[50;48;23;53;39];weapon=Frelian Lance;assist=-;special=Bonfire;a=Sturdy Stance 3;b=Vengeful Fighter 4;c=A/D Near Save 3;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=d3;rarity=5;slot=3;level=45;stats=[40;43;49;23;45];weapon=Frelian Blade;assist=-;special=Moonbow;a=Spd/Res Catch 4;b=Pegasus Flight 4;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=e3;rarity=5;slot=4;level=45;stats=[40;34;35;22;31];weapon=Gronnblade+;assist=-;special=Draconic Aura;a=Bonus Doubler 3;b=-;c=Atk/Spd Oath 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Vanessa: Dutiful Rider;pos=f5;rarity=5;slot=5;level=45;stats=[42;44;47;30;38];weapon=Up-Front Lance+;assist=-;special=Luna;a=Atk/Res Catch 3;b=-;c=Spd/Res Oath 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Green Cavalier;pos=a1;rarity=5;slot=6;level=45;stats=[35;38;28;18;37];weapon=Gronnvulture+;assist=-;special=Iceberg;a=-;b=Chill Spd 3;c=Res Ploy 3;seal=-;accessory=Golden Curse;ai={turn=1};spawn={turn=2};};
+{unit=Tana: Soaring Princess;pos=a2;rarity=5;slot=7;level=45;stats=[43;49;52;24;26];weapon=Arcane Náströnd;assist=-;special=Deadeye;a=Atk/Spd Unity;b=Soaring Wings;c=Guidance 4;seal=-;ai={turn=1};spawn={turn=3};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Goddess's Guidance|Her Shining Future}}
+==In other languages==
+{{OtherLanguages
+|japanese=唯一の脱出路
+|german=Einziger Ausweg
+|spanishEU=La única escapatoria
+|spanishLA=La única escapatoria
+|french=La seule échappatoire
+|italian=L'unica via di fuga
+|chineseTW=唯一的逃脫路線
+|portuguese=A única escapatória
+}}
+{{Story Maps Navbox|book=7}}

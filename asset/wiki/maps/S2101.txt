@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=Banner_Nino_Pale_Flower_Unrevealed.png
+|stageTitle=Chapter 10-1
+|stageName=To the Castle
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 10: The King's Demise
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2101
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_04.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-06-08T07:00:00Z|notification=New Heroes: Scattered Fangs (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Legault: The Hurricane;pos=e7;rarity=3;slot=1;level=24;stats=[27;18;23;15;11];weapon=The Cleaner;assist=-;special=Night Sky;a=Swift Strike 1;b=-;c=Atk Tactic 1;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a6;rarity=3;slot=2;level=24;stats=[27;18;19;12;16];weapon=Elfire;assist=-;special=Rising Flame;a=Atk/Spd 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=c7;rarity=3;slot=3;level=24;stats=[29;20;14;15;18];weapon=Steel Axe;assist=-;special=-;a=-;b=Vantage 1;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=e6;rarity=3;slot=4;level=24;stats=[27;16;21;12;22];weapon=Steel Lance;assist=-;special=Chilling Wind;a=Death Blow 1;b=Desperation 2;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=b8;rarity=3;slot=5;level=24;stats=[27;18;19;12;16];weapon=Elthunder;assist=-;special=-;a=Life and Death 1;b=-;c=Threaten Res 2;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Legault: The Hurricane;pos=e7;rarity=4;slot=1;level=35;stats=[34;26;33;20;15];weapon=The Cleaner;assist=-;special=Night Sky;a=Swift Strike 1;b=-;c=Atk Tactic 2;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a6;rarity=4;slot=2;level=35;stats=[33;26;27;16;23];weapon=Bolganone;assist=-;special=Rising Flame;a=Atk/Spd 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=c7;rarity=4;slot=3;level=35;stats=[36;29;20;21;26];weapon=Silver Axe;assist=-;special=-;a=-;b=Vantage 2;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=e6;rarity=4;slot=4;level=35;stats=[33;23;30;17;31];weapon=Slaying Spear;assist=-;special=Chilling Wind;a=Death Blow 2;b=Desperation 2;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=b8;rarity=4;slot=5;level=35;stats=[33;26;27;16;23];weapon=Blárblade;assist=-;special=-;a=Life and Death 2;b=-;c=Threaten Res 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Legault: The Hurricane;pos=e7;rarity=5;slot=1;level=40;stats=[39;31;38;24;19];weapon=The Cleaner+;assist=-;special=Glimmer;a=Swift Strike 2;b=-;c=Atk Tactic 3;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a6;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Bolganone+;assist=-;special=Growing Flame;a=Atk/Spd 2;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=c7;rarity=5;slot=3;level=40;stats=[41;34;24;25;30];weapon=Silver Axe+;assist=-;special=-;a=-;b=Vantage 3;c=Drive Spd 2;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=e6;rarity=5;slot=4;level=40;stats=[37;28;35;21;36];weapon=Slaying Spear+;assist=-;special=Iceberg;a=Death Blow 3;b=Desperation 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=b8;rarity=5;slot=5;level=40;stats=[37;31;32;20;28];weapon=Blárblade+;assist=-;special=-;a=Life and Death 3;b=-;c=Threaten Res 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Seliph & Julia: Bound Hero Battle|Misplaced Wisdom}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=王城攻略
+|german=Auf zum Schloss
+|spanishEU=Al castillo
+|spanishLA=Al castillo
+|french=À l'assaut du château
+|italian=Al castello
+|chineseTW=攻略王城
+|portuguese=Ao castelo
+}}
+{{Story Maps Navbox|book=2}}

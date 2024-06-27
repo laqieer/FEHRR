@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=Banner_Surtr.png
+|mapName=Chapter 1-5: Enchantress of the Mist
+|stageTitle=Chapter 1: Part 5
+|stageName=Enchantress of the Mist
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 1: The Flame
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2015
+|backdrop=Lava
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1={{Ally|1}} | c1={{Ally|2}} | d1={{Ally|3}} | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=5
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal=[{hero=Fjorm: Princess of Ice;rarity=5};{kind=Water Blessing}];
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-11-28T04:00:00Z|notification=What's in Store for the 2.0.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Loki: The Trickster;pos=c7;rarity=3;slot=1;level=5;stats=[18;7;9;0;4];weapon=Assault;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=d7;rarity=3;slot=2;level=5;stats=[18;4;6;4;1];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=a6;rarity=3;slot=3;level=5;stats=[17;6;4;5;0];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f6;rarity=3;slot=4;level=5;stats=[16;4;7;0;2];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Loki: The Trickster;pos=c7;rarity=4;slot=1;level=25;stats=[30;22;24;11;19];weapon=Gravity;assist=Physic;special=-;a=HP/Res 1;b=Guard 1;c=Threaten Res 1;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=d7;rarity=4;slot=2;level=25;stats=[32;20;19;20;14];weapon=Steel Sword;assist=-;special=Night Sky;a=-;b=-;c=Spur Def 1;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=a6;rarity=4;slot=3;level=25;stats=[30;24;16;25;11];weapon=Steel Axe;assist=-;special=Glowing Ember;a=-;b=Hit and Run;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f6;rarity=4;slot=4;level=25;stats=[28;20;21;12;17];weapon=Elthunder;assist=-;special=-;a=Warding Blow 1;b=-;c=Spur Res 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Loki: The Trickster;pos=c7;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;36;38;21;33];weapon=Thökk;assist=Physic+;special=-;a=HP/Res 2;b=Guard 3;c=Threaten Res 3;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=d7;rarity=5;slot=2;level=45;displaylevel=40;stats=[47;34;34;33;24];weapon=Silver Sword+;assist=-;special=Astra;a=-;b=-;c=Spur Def 3;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=a6;rarity=5;slot=3;level=45;displaylevel=40;stats=[44;38;30;39;21];weapon=Silver Axe+;assist=-;special=Bonfire;a=Armored Blow 3;b=Hit and Run;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=f6;rarity=5;slot=4;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Thoron+;assist=-;special=-;a=Warding Blow 3;b=-;c=Drive Res 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Stars Become Cinders|Lady of Snow}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=霧の妖婦
+|german=Nebelzauberin
+|spanishEU=Hechicera de la niebla
+|spanishLA=Hechicera de la niebla
+|french=La sorcière des brumes
+|italian=Incantatrice della nebbia
+|chineseTW=霧之妖婦
+|portuguese=Feiticeira das nébulas
+}}
+{{Story Maps Navbox|book=2}}

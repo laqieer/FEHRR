@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0705.webp
+|stageTitle=Chapter 8: Part 2
+|stageName=Looking Back
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 8: Seeing the Present
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7052
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-03-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Tana (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Vanessa: Dutiful Rider;pos=c8;rarity=3;slot=1;level=12;stats=[21;18;19;9;12];weapon=Steel Lance;assist=-;special=-;a=Atk/Res Catch 1;b=-;c=Spd/Res Oath 1;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=e7;rarity=3;slot=2;level=12;stats=[19;13;21;8;17];weapon=Steel Sword;assist=-;special=-;a=Spd/Res Catch 1;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=b7;rarity=3;slot=3;level=12;stats=[21;11;15;13;9];weapon=Fire Breath+;assist=-;special=-;a=Fury 1;b=-;c=Spd/Res Rein 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Troubadour;pos=f8;rarity=3;slot=4;level=12;stats=[17;13;7;7;17];weapon=Assault;assist=Mend;special=-;a=Attack/Res 1;b=Live to Serve 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Vanessa: Dutiful Rider;pos=c8;rarity=4;slot=1;level=31;stats=[31;32;35;19;25];weapon=Up-Front Lance;assist=-;special=New Moon;a=Atk/Res Catch 2;b=-;c=Spd/Res Oath 2;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=e7;rarity=4;slot=2;level=31;stats=[29;29;37;16;33];weapon=Silver Sword;assist=-;special=New Moon;a=Spd/Res Catch 2;b=Pegasus Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=b7;rarity=4;slot=3;level=31;stats=[31;21;29;25;19];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Fury 2;b=-;c=Spd/Res Rein 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Troubadour;pos=f8;rarity=4;slot=4;level=31;stats=[25;25;15;15;33];weapon=Gravity;assist=Physic;special=-;a=Attack/Res 1;b=Live to Serve 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Vanessa: Dutiful Rider;pos=c8;rarity=5;slot=1;level=41;stats=[39;41;44;27;35];weapon=Up-Front Lance+;assist=-;special=Luna;a=Atk/Res Catch 3;b=-;c=Spd/Res Oath 3;seal=-;ai={turn=1};};
+{unit=Syrene: Graceful Rider;pos=e7;rarity=5;slot=2;level=41;stats=[37;40;46;21;42];weapon=Frelian Blade;assist=-;special=Moonbow;a=Spd/Res Catch 4;b=Pegasus Flight 4;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=b7;rarity=5;slot=3;level=41;stats=[39;29;37;32;27];weapon=Dark Breath+;assist=-;special=Draconic Aura;a=Fury 3;b=-;c=Spd/Res Rein 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Troubadour;pos=f8;rarity=5;slot=4;level=41;stats=[30;32;22;20;42];weapon=Gravity+;assist=Physic+;special=-;a=Attack/Res 2;b=Live to Serve 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Child of the Goddess|Silent Pride}}
+==In other languages==
+{{OtherLanguages
+|japanese=隊長の回顧
+|german=Ein Blick zurück
+|spanishEU=Vistazo al pasado
+|spanishLA=Vistazo al pasado
+|french=Retour en arrière
+|italian=Uno sguardo al passato
+|chineseTW=隊長的回顧
+|portuguese=Olhando para o passado
+}}
+{{Story Maps Navbox|book=7}}

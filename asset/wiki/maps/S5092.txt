@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0509.webp
+|stageTitle=Chapter 9: Part 2
+|stageName=Merry Diviner
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 9: Echoes of Truth
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5092
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=23
+|lvlHard=35
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-07-19T07:00:00Z|notification=New Heroes Summoning Event: Dawning Reality & Nifl (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Orochi: Merry Diviner;pos=c6;rarity=3;slot=1;level=23;stats=[28;24;13;14;22];weapon=Elwind;assist=Draw Back;special=-;a=Mirror Strike 1;b=Atk/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Arete: Requiem's Beauty;pos=d8;rarity=3;slot=2;level=23;stats=[29;21;15;11;20];weapon=Elfire;assist=-;special=Chilling Wind;a=Atk/Res Push 1;b=-;c=Res Ploy 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f6;rarity=3;slot=3;level=23;stats=[30;19;17;17;8];weapon=Steel Bow;assist=Swap;special=-;a=-;b=Spd/Def Link 1;c=Pulse Smoke 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f5;rarity=3;slot=4;level=23;stats=[31;18;18;18;12];weapon=Steel Sword;assist=-;special=Holy Vestments;a=Mirror Stance 1;b=Chill Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a7;rarity=3;slot=5;level=23;stats=[29;20;13;14;18];weapon=Steel Lance;assist=-;special=New Moon;a=Sturdy Blow 1;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Orochi: Merry Diviner;pos=c6;rarity=4;slot=1;level=35;stats=[35;35;20;20;32];weapon=Rexcalibur;assist=Draw Back;special=-;a=Mirror Strike 1;b=Atk/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Arete: Requiem's Beauty;pos=d8;rarity=4;slot=2;level=35;stats=[36;31;22;16;29];weapon=Rauðrrabbit;assist=-;special=Chilling Wind;a=Atk/Res Push 2;b=-;c=Res Ploy 2;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f6;rarity=4;slot=3;level=35;stats=[37;27;25;24;12];weapon=Shining Bow;assist=Swap;special=-;a=-;b=Spd/Def Link 2;c=Pulse Smoke 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f5;rarity=4;slot=4;level=35;stats=[38;26;25;26;18];weapon=Barrier Blade;assist=-;special=Holy Vestments;a=Mirror Stance 1;b=Chill Res 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a7;rarity=4;slot=5;level=35;stats=[36;29;20;21;26];weapon=Silver Lance;assist=-;special=New Moon;a=Sturdy Blow 1;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Orochi: Merry Diviner;pos=c6;rarity=5;slot=1;level=41;stats=[40;41;25;25;38];weapon=Tiger Spirit;assist=Draw Back;special=-;a=Mirror Strike 2;b=Atk/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Arete: Requiem's Beauty;pos=d8;rarity=5;slot=2;level=41;stats=[41;37;27;20;35];weapon=Rauðrrabbit+;assist=-;special=Glacies;a=Atk/Res Push 3;b=-;c=Res Ploy 3;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=f6;rarity=5;slot=3;level=41;stats=[43;32;29;29;16];weapon=Shining Bow+;assist=Swap;special=-;a=-;b=Spd/Def Link 3;c=Pulse Smoke 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f5;rarity=5;slot=4;level=41;stats=[44;31;31;30;23];weapon=Barrier Blade+;assist=-;special=Sacred Cowl;a=Mirror Stance 2;b=Chill Res 3;c=-;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=a7;rarity=5;slot=5;level=41;stats=[41;35;25;26;30];weapon=Silver Lance+;assist=-;special=Moonbow;a=Sturdy Blow 2;b=Lunge;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Orochi: Merry Diviner;text=Queen Mikoto...please watch\nover me...;textJP=ミコト様…\n見守っていてくだされ…};
+]}}
+{{Story Navbar|Rightful Place|Rulebreaker Mage}}
+==In other languages==
+{{OtherLanguages
+|japanese=笑い上戸の呪い師
+|german=Lustiges Schlitzohr
+|spanishEU=Augur alborotadora
+|spanishLA=Adivina alborotadora
+|french=Devin espiègle
+|italian=Veggente festaiola
+|chineseTW=愛笑的符咒師
+|portuguese=Vidente contente
+}}
+{{Story Maps Navbox|book=5}}

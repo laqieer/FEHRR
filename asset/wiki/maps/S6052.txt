@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0605.webp
+|stageTitle=Chapter 5: Part 2
+|stageName=Moving Forward
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 5: Evil Ways
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6052
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=31
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_04.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-03-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Mareeta (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=August: Astute Tactician;pos=b8;rarity=3;slot=1;level=12;stats=[22;16;6;13;17];weapon=Assault;assist=Reconcile;special=-;a=Def/Res Bond 1;b=-;c=Even Recovery 1;seal=-;ai={turn=1};};
+{unit=Karin: Driven Knight;pos=d7;rarity=3;slot=2;level=12;stats=[23;13;18;10;12];weapon=Steel Lance;assist=-;special=-;a=Atk/Def Form 1;b=-;c=Spur Atk 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=e6;rarity=3;slot=3;level=12;stats=[24;13;11;11;5];weapon=Steel Bow;assist=-;special=-;a=Life and Death 1;b=Lull Atk/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f6;rarity=3;slot=4;level=12;stats=[19;14;9;6;13];weapon=Elwind;assist=-;special=-;a=Fury 1;b=Bowbreaker 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=August: Astute Tactician;pos=b8;rarity=4;slot=1;level=31;stats=[32;32;12;24;34];weapon=Assault;assist=Nudge;special=Fireflood Balm;a=Def/Res Bond 2;b=-;c=Even Recovery 2;seal=-;ai={turn=1};};
+{unit=Karin: Driven Knight;pos=d7;rarity=4;slot=2;level=31;stats=[33;29;34;20;23];weapon=Allied Lance;assist=-;special=New Moon;a=Atk/Def Form 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=e6;rarity=4;slot=3;level=31;stats=[35;25;22;21;11];weapon=Instant Bow;assist=-;special=Night Sky;a=Life and Death 2;b=Lull Atk/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f6;rarity=4;slot=4;level=31;stats=[27;28;19;12;27];weapon=Gronnraven;assist=-;special=Rising Wind;a=Fury 2;b=Bowbreaker 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=August: Astute Tactician;pos=b8;rarity=5;slot=1;level=41;stats=[40;41;17;32;44];weapon=Diplomacy Staff;assist=Nudge+;special=Fireflood Balm+;a=Def/Res Bond 4;b=-;c=Even Recovery 3;seal=-;ai={turn=1};};
+{unit=Karin: Driven Knight;pos=d7;rarity=5;slot=2;level=41;stats=[41;38;43;27;31];weapon=Allied Lance+;assist=-;special=Moonbow;a=Atk/Def Form 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=e6;rarity=5;slot=3;level=41;stats=[43;32;29;29;16];weapon=Instant Bow+;assist=-;special=Glimmer;a=Life and Death 3;b=Lull Atk/Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=f6;rarity=5;slot=4;level=41;stats=[34;36;26;17;35];weapon=Gronnraven+;assist=-;special=Blazing Wind;a=Fury 3;b=Bowbreaker 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Light's Path|Abundant Offerings}}
+==In other languages==
+{{OtherLanguages
+|japanese=軍師は語る
+|german=Folgen wir unserem Pfad
+|spanishEU=Seguir adelante
+|spanishLA=Seguir adelante
+|french=Continuer notre route
+|italian=Seguendo il sentiero
+|chineseTW=軍師言道
+|portuguese=Sempre avante
+}}
+{{Story Maps Navbox|book=6}}

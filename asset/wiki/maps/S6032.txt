@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0603.webp
+|stageTitle=Chapter 3: Part 2
+|stageName=A Thief's Perspective
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 3: Calling of Blood
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6032
+|backdrop=
+|allyPos=e4,f4,e3,f3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_08.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-01-07T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Joshua (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Rennac: Rich "Merchant";pos=c8;rarity=3;slot=1;level=6;stats=[18;9;14;13;4];weapon=Iron Dagger;assist=-;special=-;a=Atk/Spd Solo 1;b=Disarm Trap 1;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=a4;rarity=3;slot=2;level=6;stats=[21;8;8;9;6];weapon=Iron Sword;assist=-;special=-;a=Atk/Def Solo 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Bow Flier;pos=a1;rarity=3;slot=3;level=6;stats=[18;9;10;4;8];weapon=Iron Bow;assist=Rally Attack;special=-;a=Fury 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=d8;rarity=3;slot=4;level=6;stats=[18;8;12;9;6];weapon=Fire Breath;assist=Shove;special=-;a=-;b=Def/Res Link 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Rennac: Rich "Merchant";pos=c8;rarity=4;slot=1;level=26;stats=[29;24;30;25;15];weapon=Steel Dagger;assist=-;special=Night Sky;a=Atk/Spd Solo 2;b=Disarm Trap 2;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=a4;rarity=4;slot=2;level=26;stats=[33;21;20;21;14];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=-;c=Def Smoke 1;seal=-;ai={group=1};};
+{unit=Bow Flier;pos=a1;rarity=4;slot=3;level=26;stats=[28;22;24;11;19];weapon=Steel Bow;assist=Rally Up Atk;special=-;a=Fury 2;b=Aerobatics 1;c=-;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=d8;rarity=4;slot=4;level=26;stats=[29;19;26;22;17];weapon=Fire Breath+;assist=Shove;special=-;a=-;b=Def/Res Link 2;c=Close Guard 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Rennac: Rich "Merchant";pos=c8;rarity=5;slot=1;level=41;stats=[39;38;43;34;25];weapon=Vicious Dagger+;assist=-;special=Glimmer;a=Atk/Spd Solo 4;b=Disarm Trap 3;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=a4;rarity=5;slot=2;level=41;stats=[44;31;31;30;23];weapon=Unbound Blade+;assist=-;special=Bonfire;a=Atk/Def Solo 3;b=-;c=Def Smoke 3;seal=-;ai={group=1};};
+{unit=Bow Flier;pos=a1;rarity=5;slot=3;level=41;stats=[37;32;35;17;29];weapon=Rein Bow+;assist=Rally Up Atk+;special=-;a=Fury 3;b=Aerobatics 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=d8;rarity=5;slot=4;level=41;stats=[39;29;37;32;27];weapon=Water Breath+;assist=Shove;special=-;a=-;b=Def/Res Link 3;c=Close Guard 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Rennac: Rich "Merchant";text=The name of the game is making\nmoney. Money is all that matters.;textJP=しょせんこの世は金、金、金。\n金がすべてなんだぜ？};
+]}}
+{{Story Navbar|Hearing Voices|An Archer's Tears}}
+==In other languages==
+{{OtherLanguages
+|japanese=盗賊の達観
+|german=Perspektive eines Diebes
+|spanishEU=Perspectiva de ladrón
+|spanishLA=Perspectiva de ladrón
+|french=La philosophie d'un voleur
+|italian=La prospettiva di un ladro
+|chineseTW=盜賊的領悟
+|portuguese=Perspectiva de ladrão
+}}
+{{Story Maps Navbox|book=6}}

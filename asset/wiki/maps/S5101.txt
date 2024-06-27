@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0510.webp
+|stageTitle=Chapter 10: Part 1
+|stageName=Passion's Madness
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 10: Howling Descent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5101
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_04.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-08-17T07:00:00Z|notification=New Heroes Summoning Event: Keepers of Faith (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Marth: Prince of Light;pos=c7;rarity=3;slot=1;level=24;stats=[29;26;28;19;13];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=-;b=Spurn 1;c=Even Tempest 1;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=e7;rarity=3;slot=2;level=24;stats=[27;18;19;12;16];weapon=Elthunder;assist=-;special=Rising Thunder;a=Heavy Blade 1;b=-;c=Pulse Smoke 1;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=c8;rarity=3;slot=3;level=24;stats=[29;20;14;15;18];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=-;b=Vantage 1;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a7;rarity=3;slot=4;level=24;stats=[30;19;17;17;8];weapon=Steel Bow;assist=-;special=New Moon;a=Bonus Doubler 1;b=Guard 1;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=3;slot=5;level=24;stats=[25;16;16;14;21];weapon=Assault;assist=Mend;special=Kindled-Fire Balm;a=Attack/Res 1;b=-;c=Res Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Marth: Prince of Light;pos=c7;rarity=4;slot=1;level=35;stats=[36;36;38;26;20];weapon=Genesis Falchion;assist=-;special=Dragon Gaze;a=-;b=Spurn 2;c=Even Tempest 2;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=e7;rarity=4;slot=2;level=35;stats=[33;26;27;16;23];weapon=Blárblade;assist=-;special=Rising Thunder;a=Heavy Blade 2;b=-;c=Pulse Smoke 2;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=c8;rarity=4;slot=3;level=35;stats=[36;29;20;21;26];weapon=Slaying Axe;assist=-;special=Dragon Gaze;a=-;b=Vantage 2;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a7;rarity=4;slot=4;level=35;stats=[37;27;25;24;12];weapon=Brave Bow;assist=-;special=New Moon;a=Bonus Doubler 2;b=Guard 2;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=4;slot=5;level=35;stats=[30;24;23;19;30];weapon=Panic;assist=Physic;special=Fireflood Balm;a=Attack/Res 1;b=-;c=Res Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Marth: Prince of Light;pos=c7;rarity=5;slot=1;level=40;stats=[41;41;43;32;25];weapon=Genesis Falchion;assist=-;special=Shining Emblem;a=Distant Pressure;b=Spurn 3;c=Even Tempest 3;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=e7;rarity=5;slot=2;level=40;stats=[37;31;32;20;28];weapon=Blárblade+;assist=-;special=Blazing Thunder;a=Heavy Blade 3;b=-;c=Pulse Smoke 3;seal=-;ai={group=1};};
+{unit=Axe Cavalier;pos=c8;rarity=5;slot=3;level=40;stats=[41;34;24;25;30];weapon=Slaying Axe+;assist=-;special=Draconic Aura;a=-;b=Vantage 3;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Bow Fighter;pos=a7;rarity=5;slot=4;level=40;stats=[43;32;29;29;16];weapon=Brave Bow+;assist=-;special=Luna;a=Bonus Doubler 3;b=Guard 3;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=5;slot=5;level=40;stats=[34;28;28;23;35];weapon=Panic+;assist=Physic+;special=Fireflood Balm+;a=Attack/Res 2;b=-;c=Res Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Heroes Journey|Serene Adherent}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=狂気の襲撃者
+|german=Dem Irrsinn verfallen
+|spanishEU=Locura de la pasión
+|spanishLA=Locura de la pasión
+|french=Folie de l'amour
+|italian=La follia della passione
+|chineseTW=瘋狂的襲擊者
+|portuguese=Loucuras da paixão
+}}
+{{Story Maps Navbox|book=5}}

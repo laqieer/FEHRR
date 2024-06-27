@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0704.webp
+|stageTitle=Chapter 7: Part 4
+|stageName=Crimean Devotion
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 7: Goddess Reunion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7044
+|backdrop=
+|allyPos=e3,f3,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=10
+|lvlHard=31
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE10_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-02-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Elincia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elincia: Devoted Queen;pos=b8;rarity=3;slot=1;level=10;stats=[19;16;20;5;7];weapon=Assault;assist=Reconcile;special=-;a=Atk/Spd Push 1;b=-;c=Spd/Res Rein 1;seal=-;ai={turn=1};};
+{unit=Geoffrey: Realm's Protector;pos=c7;rarity=3;slot=2;level=10;stats=[21;18;15;10;6];weapon=Steel Lance;assist=-;special=-;a=-;b=Flow Force 1;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=c8;rarity=3;slot=3;level=10;stats=[19;10;13;4;11];weapon=Elfire;assist=-;special=-;a=-;b=Chill Spd 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=3;slot=4;level=10;stats=[22;11;10;10;4];weapon=Steel Bow;assist=-;special=-;a=Sturdy Blow 1;b=Null Follow-Up 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Elincia: Devoted Queen;pos=b8;rarity=4;slot=1;level=31;stats=[30;35;37;13;20];weapon=Assault;assist=Rescue;special=Imbue;a=Atk/Spd Push 2;b=Dazzling Staff 1;c=Spd/Res Rein 2;seal=-;ai={turn=1};};
+{unit=Geoffrey: Realm's Protector;pos=c7;rarity=4;slot=2;level=31;stats=[32;37;32;21;17];weapon=Silver Lance;assist=-;special=New Moon;a=-;b=Flow Force 2;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=c8;rarity=4;slot=3;level=31;stats=[28;21;29;11;25];weapon=Rauðrblade;assist=-;special=Dragon Gaze;a=-;b=Chill Spd 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=4;slot=4;level=31;stats=[35;25;22;21;11];weapon=Brave Bow;assist=-;special=New Moon;a=Sturdy Blow 1;b=Null Follow-Up 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elincia: Devoted Queen;pos=b8;rarity=5;slot=1;level=43;stats=[39;46;48;19;30];weapon=Crimean Scepter;assist=Rescue+;special=Light's Restraint;a=Atk/Spd Push 4;b=Dazzling Shift;c=Spd/Res Hold;seal=-;ai={turn=1};};
+{unit=Geoffrey: Realm's Protector;pos=c7;rarity=5;slot=2;level=43;stats=[41;48;43;30;26];weapon=Queenslance;assist=-;special=Luna;a=-;b=Flow Force 3;c=Atk/Def Menace;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=c8;rarity=5;slot=3;level=43;stats=[35;30;40;17;34];weapon=Rauðrblade+;assist=-;special=Draconic Aura;a=-;b=Chill Spd 3;c=Fortify Fliers;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Fighter;pos=b6;rarity=5;slot=4;level=43;stats=[45;34;30;30;17];weapon=Brave Bow+;assist=-;special=Luna;a=Sturdy Blow 2;b=Null Follow-Up 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Precious Creatures|First Meetings}}
+==In other languages==
+{{OtherLanguages
+|japanese=クリミア女王の決意
+|german=Hingabe einer Königin
+|spanishEU=Devoción por Crimea
+|spanishLA=Devoción por Crimea
+|french=Tout pour Crimea
+|italian=La devota a Ozna
+|chineseTW=克里米亞女王的決心
+|portuguese=Devoção a Crimea
+}}
+{{Story Maps Navbox|book=7}}

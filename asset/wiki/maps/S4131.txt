@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0413.webp
+|stageTitle=Chapter 13-1
+|stageName=Like a Dream
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 13: Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4131
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_08.ogg
+|BGM2=bgm_boss7.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-11-17T07:00:00Z|notification=New Heroes Summoning Event: Princess of Bern (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Freyja: Lady of Nightmare;pos=c8;rarity=3;slot=1;level=31;stats=[31;28;32;17;16];weapon=Nightmare Horn;assist=-;special=Dragon Gaze;a=Kestrel Stance 1;b=Quick Riposte 1;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Galle: Azure Rider;pos=b6;rarity=3;slot=2;level=31;stats=[37;28;16;28;20];weapon=Guard Lance;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 1;b=-;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=3;slot=3;level=31;stats=[32;26;16;17;17];weapon=Slaying Bow;assist=-;special=New Moon;a=-;b=Swordbreaker 1;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a6;rarity=3;slot=4;level=31;stats=[30;22;23;14;20];weapon=Rauðrblade;assist=-;special=Dragon Gaze;a=Close Def 1;b=Wings of Mercy 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=3;slot=5;level=31;stats=[35;22;22;22;16];weapon=Brave Axe;assist=-;special=New Moon;a=Fury 1;b=-;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Freyja: Lady of Nightmare;pos=c8;rarity=4;slot=1;level=36;stats=[35;34;39;20;18];weapon=Nightmare Horn;assist=-;special=Dragon Gaze;a=Kestrel Stance 1;b=Quick Riposte 2;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Galle: Azure Rider;pos=b6;rarity=4;slot=2;level=36;stats=[41;34;18;34;23];weapon=Guard Lance;assist=-;special=Dragon Gaze;a=Brazen Atk/Def 2;b=-;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=4;slot=3;level=36;stats=[35;31;18;20;20];weapon=Slaying Bow;assist=-;special=New Moon;a=-;b=Swordbreaker 2;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a6;rarity=4;slot=4;level=36;stats=[33;27;28;16;23];weapon=Rauðrblade;assist=-;special=Dragon Gaze;a=Close Def 2;b=Wings of Mercy 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=4;slot=5;level=36;stats=[39;27;26;26;18];weapon=Brave Axe;assist=-;special=New Moon;a=Fury 2;b=-;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Freyja: Lady of Nightmare;pos=c8;rarity=5;slot=1;level=41;stats=[40;39;45;25;22];weapon=Nightmare Horn;assist=-;special=Draconic Aura;a=Kestrel Stance 2;b=Quick Riposte 3;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Galle: Azure Rider;pos=b6;rarity=5;slot=2;level=41;stats=[47;39;23;39;28];weapon=Guard Lance+;assist=-;special=Dragon Fang;a=Brazen Atk/Def 3;b=-;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=5;slot=3;level=41;stats=[40;36;23;25;24];weapon=Slaying Bow+;assist=-;special=Moonbow;a=-;b=Swordbreaker 3;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=a6;rarity=5;slot=4;level=41;stats=[38;31;32;20;28];weapon=Rauðrblade+;assist=-;special=Draconic Aura;a=Close Def 3;b=Wings of Mercy 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=5;slot=5;level=41;stats=[44;31;31;30;23];weapon=Brave Axe+;assist=-;special=Luna;a=Fury 3;b=-;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Pawns of Loki|Again and Again}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=それはあたかも夢のよう
+|german=Wie im Traum
+|spanishEU=Como un sueño
+|spanishLA=Como un sueño
+|french=Comme dans un rêve
+|italian=Come un sogno
+|chineseTW=那也宛如夢境
+|portuguese=Como um sonho
+}}
+{{Story Maps Navbox|book=4}}

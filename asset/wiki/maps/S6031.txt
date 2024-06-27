@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0603.webp
+|stageTitle=Chapter 3: Part 1
+|stageName=Hearing Voices
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 3: Calling of Blood
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6031
+|backdrop=
+|allyPos=c5,d5,b4,c4
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to defend: 4
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-01-07T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Joshua (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Veronica: Princess Beset;pos=f2;rarity=3;slot=1;level=5;stats=[18;10;5;8;6];weapon=Wind;assist=-;special=-;a=Life and Death 1;b=Lull Spd/Res 1;c=-;seal=Embla's Ward;ai={turn=1};};
+{unit=Colm: Capable Thief;pos=f8;rarity=3;slot=2;level=5;stats=[20;9;12;5;9];weapon=Iron Dagger;assist=Pivot;special=-;a=Atk/Spd 1;b=Atk/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f1;rarity=3;slot=3;level=5;stats=[19;10;5;5;6];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f7;rarity=3;slot=4;level=5;stats=[18;7;10;4;11];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Veronica: Princess Beset;pos=f2;rarity=4;slot=1;level=25;stats=[29;24;14;19;13];weapon=Elwind;assist=-;special=Night Sky;a=Life and Death 2;b=Lull Spd/Res 2;c=Time's Pulse 1;seal=Embla's Ward;ai={turn=1};};
+{unit=Colm: Capable Thief;pos=f8;rarity=4;slot=2;level=25;stats=[31;24;28;15;20];weapon=Steel Dagger;assist=Pivot;special=New Moon;a=Atk/Spd 1;b=Atk/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f1;rarity=4;slot=3;level=25;stats=[29;24;14;15;16];weapon=Steel Bow;assist=-;special=New Moon;a=-;b=Poison Strike 1;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f7;rarity=4;slot=4;level=25;stats=[28;17;24;13;25];weapon=Steel Sword;assist=-;special=Chilling Wind;a=-;b=Knock Back;c=Drive Atk 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Veronica: Princess Beset;pos=f2;rarity=5;slot=1;level=40;stats=[41;35;22;29;21];weapon=Élivágar;assist=-;special=Glimmer;a=Life and Death 4;b=Lull Spd/Res 3;c=Time's Pulse 3;seal=Embla's Ward;ai={turn=1};};
+{unit=Colm: Capable Thief;pos=f8;rarity=5;slot=2;level=40;stats=[43;36;41;24;32];weapon=Quick Dagger+;assist=Pivot;special=Moonbow;a=Atk/Spd 2;b=Atk/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=f1;rarity=5;slot=3;level=40;stats=[40;35;22;24;23];weapon=Brave Bow+;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=f7;rarity=5;slot=4;level=40;stats=[37;28;35;21;36];weapon=Slaying Edge+;assist=-;special=Iceberg;a=-;b=Knock Back;c=Drive Atk 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Togetherness|A Thief's Perspective}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=声がきこえる
+|german=Quälende Stimme
+|spanishEU=Oigo voces
+|spanishLA=Escucho voces
+|french=Hantée par des voix
+|italian=Sento delle voci
+|chineseTW=聽到聲音
+|portuguese=Ouvindo vozes
+}}
+{{Story Maps Navbox|book=6}}

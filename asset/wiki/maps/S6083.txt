@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0608.webp
+|stageTitle=Chapter 8: Part 3
+|stageName=Bladed Gaze
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 8: Closing In
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6083
+|backdrop=
+|allyPos=a1,b1,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=35
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE07_12.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-06-08T07:00:00Z|notification=Celebratory Summoning Event - Book VI Midpoint: Letizia & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Guy: Kutolah Blade;pos=c6;rarity=3;slot=1;level=22;stats=[30;21;24;19;14];weapon=Steel Sword;assist=-;special=Night Sky;a=Life and Death 1;b=-;c=Threat. Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Blue Thief;pos=b6;rarity=3;slot=2;level=22;stats=[25;15;22;7;18];weapon=Steel Dagger;assist=-;special=New Moon;a=Life and Death 1;b=Chill Atk 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a8;rarity=3;slot=3;level=22;stats=[27;20;12;13;13];weapon=Steel Bow;assist=-;special=New Moon;a=Atk/Def Solo 1;b=-;c=Atk Smoke 1;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f4;rarity=3;slot=4;level=22;stats=[26;16;21;18;14];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Fury 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Red Bat;pos=f5;rarity=3;slot=5;level=22;stats=[26;20;27;19;13];weapon=Fledgling (Flier);assist=-;special=Buckler;a=-;b=-;c=Def Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Guy: Kutolah Blade;pos=c6;rarity=4;slot=1;level=35;stats=[38;32;37;27;21];weapon=Vulture Blade;assist=-;special=Night Sky;a=Life and Death 2;b=-;c=Threat. Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Blue Thief;pos=b6;rarity=4;slot=2;level=35;stats=[32;23;33;10;27];weapon=Rogue Dagger;assist=-;special=New Moon;a=Life and Death 2;b=Chill Atk 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a8;rarity=4;slot=3;level=35;stats=[35;30;18;20;20];weapon=Rein Bow;assist=-;special=New Moon;a=Atk/Def Solo 2;b=-;c=Atk Smoke 2;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f4;rarity=4;slot=4;level=35;stats=[34;24;31;27;22];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Fury 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Red Bat;pos=f5;rarity=4;slot=5;level=35;stats=[34;30;40;29;19];weapon=Adult (Flier);assist=-;special=Buckler;a=-;b=Hit and Run;c=Def Smoke 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Guy: Kutolah Blade;pos=c6;rarity=5;slot=1;level=42;stats=[45;39;44;34;26];weapon=Vulture Blade+;assist=-;special=Glimmer;a=Life and Death 3;b=-;c=Threat. Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Blue Thief;pos=b6;rarity=5;slot=2;level=42;stats=[37;29;40;14;33];weapon=Rogue Dagger+;assist=-;special=Moonbow;a=Life and Death 3;b=Chill Atk 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a8;rarity=5;slot=3;level=42;stats=[41;36;23;25;24];weapon=Rein Bow+;assist=-;special=Luna;a=Atk/Def Solo 3;b=-;c=Atk Smoke 3;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f4;rarity=5;slot=4;level=42;stats=[40;30;37;33;28];weapon=Dark Breath+;assist=-;special=Dragon Fang;a=Fury 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Red Bat;pos=f5;rarity=5;slot=5;level=42;stats=[40;36;47;37;24];weapon=Bat Fang;assist=-;special=Escutcheon;a=-;b=Hit and Run;c=Def Smoke 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Guy: Kutolah Blade;text=Master, I said I would challenge you.\nI will grow stronger. I will beat you.;textJP=カレル師匠…\nおれ、必ず師匠より強くなるよ。};
+]}}
+{{Story Navbar|Gallant Speech|Camaraderie}}
+==In other languages==
+{{OtherLanguages
+|japanese=剣士の眼差し
+|german=Messerscharfer Blick
+|spanishEU=Mirada cortante
+|spanishLA=Mirada cortante
+|french=Regard aiguisé
+|italian=Sguardo tagliente
+|chineseTW=劍士的眼神
+|portuguese=Olhar cortante
+}}
+{{Story Maps Navbox|book=6}}

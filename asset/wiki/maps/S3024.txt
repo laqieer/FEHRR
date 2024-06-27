@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0302.png
+|stageTitle=Chapter 2: Part 4
+|stageName=Courting Danger
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 2: The Dread Gate
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3024
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5={{Ally|1}} | c5= | d5= | e5= | f5=
+| a4={{Ally|2}} | b4={{Ally|3}} | c4= | d4= | e4= | f4=
+| a3= | b3={{Ally|4}} | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-12-11T03:00:00Z|notification=What's in Store for the 3.0.0 Update (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Mage;pos=f7;rarity=3;slot=1;level=6;stats=[19;8;9;5;7];weapon=Fire;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d8;rarity=3;slot=2;level=6;stats=[21;8;8;9;6];weapon=Iron Axe;assist=-;special=-;a=Fury 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d1;rarity=3;slot=3;level=6;stats=[18;7;7;7;11];weapon=-;assist=Heal;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Blue Thief;pos=e2;rarity=3;slot=4;level=6;stats=[18;7;12;3;9];weapon=Iron Dagger;assist=-;special=-;a=-;b=Poison Strike 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Red Mage;pos=f7;rarity=4;slot=1;level=26;stats=[29;21;22;13;18];weapon=Elfire;assist=-;special=Rising Flame;a=Darting Blow 2;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d8;rarity=4;slot=2;level=26;stats=[33;21;20;21;14];weapon=Steel Axe;assist=-;special=Rising Thunder;a=Fury 2;b=-;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d1;rarity=4;slot=3;level=26;stats=[26;19;18;15;25];weapon=Assault;assist=Mend;special=-;a=Spd/Res 1;b=Live to Serve 1;c=-;seal=-;ai={group=1};};
+{unit=Blue Thief;pos=e2;rarity=4;slot=4;level=26;stats=[28;18;27;8;22];weapon=Steel Dagger;assist=-;special=-;a=-;b=Poison Strike 2;c=Savage Blow 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Red Mage;pos=f7;rarity=5;slot=1;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Bolganone+;assist=-;special=Blazing Flame;a=Darting Blow 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=d8;rarity=5;slot=2;level=43;displaylevel=40;stats=[46;33;33;31;23];weapon=Slaying Axe+;assist=-;special=Blazing Thunder;a=Fury 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d1;rarity=5;slot=3;level=43;displaylevel=40;stats=[35;29;29;24;37];weapon=Pain+;assist=Physic+;special=-;a=Spd/Res 2;b=Live to Serve 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Thief;pos=e2;rarity=5;slot=4;level=43;displaylevel=40;stats=[38;29;41;14;34];weapon=Rogue Dagger+;assist=-;special=Moonbow;a=-;b=Poison Strike 3;c=Savage Blow 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The King's Order|The Makings of a King}}
+==In other languages==
+{{OtherLanguages
+|english=Courting Danger
+|japanese=先行偵察
+|german=Gefahr im Verzug
+|spanishEU=El peligro acecha
+|spanishLA=El peligro acecha
+|french=Prise de risques
+|italian=Incontro al pericolo
+|chineseTW=偵查前鋒
+|portuguese=À beira do perigo
+}}
+{{Story Maps Navbox|book=3}}

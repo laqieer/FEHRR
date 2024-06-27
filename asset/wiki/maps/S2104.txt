@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Nino_Pale_Flower_Unrevealed.png
+|stageTitle=Chapter 10-4
+|stageName=Sword Vassal
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 10: The King's Demise
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2104
+|backdrop=LavaPattern_Muspel
+| a8= | b8={{Ally|1}} | c8= | d8= | e8={{Ally|2}} | f8=
+| a7= | b7= | c7={{Ally|3}} | d7={{Ally|4}} | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_04.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-06-08T07:00:00Z|notification=New Heroes: Scattered Fangs (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Karla: Sword Vassal;pos=c2;rarity=3;slot=1;level=27;stats=[31;22;27;15;15];weapon=Wo Dao;assist=-;special=Dragon Gaze;a=-;b=Wrath 1;c=Even Spd Wave 1;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=a3;rarity=3;slot=2;level=27;stats=[31;23;17;24;12];weapon=Steel Axe;assist=Rally Atk/Def;special=-;a=Bracing Blow 1;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=c1;rarity=3;slot=3;level=27;stats=[28;20;21;13;18];weapon=Elthunder;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Troubadour;pos=f2;rarity=3;slot=4;level=27;stats=[23;21;13;13;28];weapon=Slow;assist=Physic;special=-;a=Spd/Def 1;b=Live to Serve 1;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=d2;rarity=3;slot=5;level=27;stats=[32;21;20;19;18];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Fury 1;b=-;c=Odd Atk Wave 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Karla: Sword Vassal;pos=c2;rarity=4;slot=1;level=38;stats=[38;32;37;20;19];weapon=Wo Dao;assist=-;special=Dragon Gaze;a=-;b=Wrath 2;c=Even Spd Wave 2;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=a3;rarity=4;slot=2;level=38;stats=[37;32;23;33;16];weapon=Silver Axe;assist=Rally Atk/Def;special=-;a=Bracing Blow 1;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=c1;rarity=4;slot=3;level=38;stats=[34;28;29;17;24];weapon=Thoron;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Troubadour;pos=f2;rarity=4;slot=4;level=38;stats=[27;29;18;17;38];weapon=Slow;assist=Physic;special=-;a=Spd/Def 1;b=Live to Serve 2;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=d2;rarity=4;slot=5;level=38;stats=[40;29;27;25;24];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Fury 2;b=Lancebreaker 1;c=Odd Atk Wave 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Karla: Sword Vassal;pos=c2;rarity=5;slot=1;level=43;displaylevel=40;stats=[44;38;43;24;23];weapon=Vassal's Blade;assist=-;special=Draconic Aura;a=-;b=Wrath 3;c=Even Spd Wave 3;seal=-;ai={group=1};};
+{unit=Axe Dragon;pos=a3;rarity=5;slot=2;level=43;displaylevel=40;stats=[42;37;28;38;20];weapon=Silver Axe+;assist=Rally Atk/Def;special=-;a=Bracing Blow 2;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=c1;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;33;34;21;29];weapon=Thoron+;assist=-;special=Moonbow;a=Swift Sparrow 2;b=-;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Troubadour;pos=f2;rarity=5;slot=4;level=43;displaylevel=40;stats=[31;34;22;21;44];weapon=Slow+;assist=Physic+;special=-;a=Spd/Def 2;b=Live to Serve 3;c=-;seal=-;ai={group=1};};
+{unit=Green Manakete;pos=d2;rarity=5;slot=5;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Dark Breath+;assist=-;special=Dragon Fang;a=Fury 3;b=Lancebreaker 3;c=Odd Atk Wave 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Karla: Sword Vassal;text=My name is Karla. I did not come here\nlooking for a fight, but I am bound by\na contract and cannot refuse you.;textJP=カアラと申す。元来戦いは好まぬが、\n契約とやらに抗えぬ身なれば…\n是非もない。};
+  {text=Let us begin.};
+]}}
+{{Story Navbar|Family of Fangs|The King's Demise}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=剣姫
+|german=Schwertvasallin
+|spanishEU=Espadachina leal
+|spanishLA=Espadachina leal
+|french=La bretteuse
+|italian=La serva di spada
+|chineseTW=劍姬
+|portuguese=Dócil espadachim
+}}
+{{Story Maps Navbox|book=2}}

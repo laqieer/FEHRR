@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0510 C.webp
+|stageTitle=Chapter 10: Part 5
+|stageName=Prince of Light
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 10: Howling Descent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5105
+|backdrop=
+|allyPos=c8,d8,c7,d7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_04.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-08-17T07:00:00Z|notification=New Heroes Summoning Event: Keepers of Faith (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Marth: Prince of Light;pos=c2;rarity=3;slot=1;level=28;stats=[31;28;30;21;15];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=-;b=Spurn 1;c=Even Tempest 1;seal=-;ai={turn=1};};
+{unit=Marianne: Serene Adherent;pos=b2;rarity=3;slot=2;level=28;stats=[28;27;28;11;24];weapon=Elstone;assist=-;special=Chilling Wind;a=Atk/Spd Bond 1;b=Null Follow-Up 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Gatekeeper: Nothing to Report;pos=d1;rarity=3;slot=3;level=28;stats=[31;25;11;27;24];weapon=Elwind;assist=Harsh Command;special=-;a=-;b=-;c=Drive Def 1;seal=-;ai={turn=1};};
+{unit=Eirika: Pledged Restorer;pos=e3;rarity=3;slot=4;level=28;stats=[29;27;29;18;16];weapon=Steel Lance;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Threat. Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=a4;rarity=3;slot=5;level=28;stats=[42;26;10;28;12];weapon=Steel Axe;assist=-;special=Glowing Ember;a=-;b=Crafty Fighter 1;c=Armored Stride 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Marth: Prince of Light;pos=c2;rarity=4;slot=1;level=40;stats=[38;39;41;29;22];weapon=Genesis Falchion;assist=-;special=Draconic Aura;a=-;b=Spurn 2;c=Even Tempest 2;seal=-;ai={turn=1};};
+{unit=Marianne: Serene Adherent;pos=b2;rarity=4;slot=2;level=40;stats=[35;38;39;15;32];weapon=Phantasm Tome;assist=-;special=Glacies;a=Atk/Spd Bond 3;b=Null Follow-Up 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Gatekeeper: Nothing to Report;pos=d1;rarity=4;slot=3;level=40;stats=[38;35;15;38;33];weapon=Charging Horn;assist=Harsh Command;special=-;a=-;b=-;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Eirika: Pledged Restorer;pos=e3;rarity=4;slot=4;level=40;stats=[36;38;40;25;22];weapon=Binding Reginleif;assist=-;special=Luna;a=Swift Sparrow 2;b=-;c=Threat. Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=a4;rarity=4;slot=5;level=40;stats=[52;36;14;38;17];weapon=Brave Axe;assist=-;special=Bonfire;a=-;b=Crafty Fighter 2;c=Armored Stride 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Marth: Prince of Light;pos=c2;rarity=5;slot=1;level=45;stats=[44;45;47;35;28];weapon=Genesis Falchion;assist=-;special=Shining Emblem;a=Distant Pressure;b=Spurn 3;c=Even Tempest 3;seal=-;ai={turn=1};};
+{unit=Marianne: Serene Adherent;pos=b2;rarity=5;slot=2;level=45;stats=[41;44;45;18;38];weapon=Phantasm Tome;assist=-;special=Requiem Dance;a=Atk/Spd Unity;b=Null Follow-Up 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Gatekeeper: Nothing to Report;pos=d1;rarity=5;slot=3;level=45;stats=[44;41;18;44;40];weapon=Charging Horn;assist=Harsh Command+;special=-;a=Close Reversal;b=Detailed Report;c=Joint Drive Def;seal=-;ai={turn=1};};
+{unit=Eirika: Pledged Restorer;pos=e3;rarity=5;slot=4;level=45;stats=[42;44;46;31;27];weapon=Binding Reginleif;assist=-;special=Luna;a=Surge Sparrow;b=Moonlight Bangle;c=Atk/Spd Menace;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=a4;rarity=5;slot=5;level=45;stats=[59;42;17;44;21];weapon=Brave Axe+;assist=-;special=Bonfire;a=-;b=Crafty Fighter 3;c=Armored Stride 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Nothing to Report|Keepers of Faith}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=光の王子
+|german=Prinz des Lichts
+|spanishEU=Adalid de la luz
+|spanishLA=Príncipe de la luz
+|french=Prince de lumière
+|italian=Il principe lucente
+|chineseTW=光之王子
+|portuguese=Príncipe da luz
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,89 @@
+{{Battle Infobox
+|bannerImage=Banner_Eirika (Sacred Memories) Unrevealed.png
+|mapName=Chapter 4-3: Princesses in Shadow
+|stageTitle=Chapter 4: Part 3
+|stageName=Princesses in Shadow
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 4: Fiery Resolve
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2043
+|backdrop=Wave
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2={{Ally|1}} | e2= | f2=
+| a1= | b1= | c1={{Ally|2}} | d1={{Ally|3}} | e1={{Ally|4}} | f1=
+}}
+|lvlNormal=10
+|lvlHard=30
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE08_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-25T07:00:00Z|notification=New Heroes: Sacred Memories (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Eirika: Anamnesis Lady;pos=b7;rarity=3;slot=1;level=10;stats=[20;8;12;5;5];weapon=Ruin;assist=-;special=-;a=-;b=Desperation 1;c=R Tome Exp. 1;seal=-;ai={group=1};};
+{unit=L'Arachel: Princess of Light;pos=e7;rarity=3;slot=2;level=10;stats=[18;10;9;3;8];weapon=Ellight;assist=-;special=-;a=-;b=Renewal 1;c=Res Tactic 1;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=e5;rarity=3;slot=3;level=10;stats=[30;12;4;14;4];weapon=Steel Axe;assist=Harsh Command;special=Glowing Ember;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=c7;rarity=3;slot=4;level=10;stats=[21;7;12;4;11];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Eirika: Anamnesis Lady;pos=b7;rarity=4;slot=1;level=30;stats=[29;23;27;14;16];weapon=Fenrir;assist=Rally Speed;special=-;a=Swift Sparrow 1;b=Desperation 2;c=R Tome Exp. 2;seal=-;ai={group=1};};
+{unit=L'Arachel: Princess of Light;pos=e7;rarity=4;slot=2;level=30;stats=[27;25;23;12;22];weapon=Shine;assist=-;special=Rising Light;a=-;b=Renewal 2;c=Res Tactic 2;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=e5;rarity=4;slot=3;level=30;stats=[45;30;11;32;13];weapon=Silver Axe;assist=Harsh Command;special=Glowing Ember;a=-;b=Bold Fighter 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=c7;rarity=4;slot=4;level=30;stats=[30;20;27;15;28];weapon=Silver Lance;assist=-;special=Chilling Wind;a=Darting Blow 2;b=-;c=Def Tactic 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Eirika: Anamnesis Lady;pos=b7;rarity=5;slot=1;level=42;displaylevel=40;stats=[37;32;36;20;23];weapon=Gleipnir;assist=Rally Atk/Spd;special=-;a=Swift Sparrow 2;b=Desperation 3;c=R Tome Exp. 3;seal=-;ai={group=1};};
+{unit=L'Arachel: Princess of Light;pos=e7;rarity=5;slot=2;level=42;displaylevel=40;stats=[34;34;32;17;32];weapon=Ivaldi;assist=-;special=Growing Light;a=-;b=Renewal 3;c=Res Tactic 3;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=e5;rarity=5;slot=3;level=42;displaylevel=40;stats=[57;40;16;42;19];weapon=Silver Axe+;assist=Harsh Command;special=Ignis;a=-;b=Bold Fighter 3;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=c7;rarity=5;slot=4;level=42;displaylevel=40;stats=[38;29;36;22;37];weapon=Silver Lance+;assist=-;special=Glacies;a=Darting Blow 3;b=-;c=Def Tactic 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=L'Arachel: Princess of Light;text=Foul Heroes, beware! I, L'Arachel,\nbestow upon you the honor of defeat\nat my blessed hands!;textJP=邪悪な英雄たち、お覚悟なさい！\nこのラーチェルが成敗してさしあげますわ。\nさ、行きますわよエイリーク。};
+  {text=To battle, Eirika!};
+  {unit=Eirika: Anamnesis Lady;text=For as long as we are bound by this\ncontract, we have no choice but to\nfight!;textJP=ええ、ラーチェル。\nこの身が契約の下にある限り、\n私たちも戦わなければ…};
+]
+}}
+{{Story Navbar|Crimson Flash|The Young Dragon}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=光と影の王女
+|german=Schattenprinzessinnen
+|spanishEU=Princesas en las tinieblas
+|spanishLA=Princesas en las tinieblas
+|french=Ombres princières
+|italian=Principesse ombra
+|chineseTW=光與影之公主
+|portuguese=Princesas nas trevas
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0710.webp
+|stageTitle=Chapter 10-2
+|stageName=Fated Tactician
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 10: Light's Fading
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7102
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_menu_goldwitch.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-08-16T07:00:00Z|notification=New Heroes Summoning Event: Turn of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lance Fighter;pos=d7;slot=1;rarity=3;level=25;stats=[32;19;19;19;13];weapon=Steel Lance;assist=-;special=New Moon;a=-;b=Spurn 1;c=Infantry Pulse 1;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Bow Fighter;pos=b7;slot=2;rarity=3;level=25;stats=[31;20;18;18;9];weapon=Steel Bow;assist=-;special=New Moon;a=-;b=Poison Strike 1;c=Atk/Spd Gap 1;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Green Mage;pos=e8;slot=3;rarity=3;level=25;stats=[27;19;20;12;17];weapon=Elwind;assist=-;special=Dragon Gaze;a=Atk/Spd Bond 1;b=Spd/Res Tempo 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Lance Cavalier;pos=f8;slot=4;rarity=3;level=25;stats=[30;21;14;15;19];weapon=Steel Lance;assist=-;special=Night Sky;a=Sturdy Blow 1;b=Lull Atk/Def 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Robin: Exalt's Deliverer;pos=c8;slot=5;rarity=3;level=25;stats=[29;29;30;21;16];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Spd Finish 1;b=Gambit 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Lance Fighter;pos=d7;slot=1;rarity=4;level=36;stats=[39;27;26;26;18];weapon=Harmonic Lance;assist=-;special=New Moon;a=-;b=Spurn 2;c=Infantry Pulse 2;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Bow Fighter;pos=b7;slot=2;rarity=4;level=36;stats=[38;28;25;24;13];weapon=Firesweep Bow;assist=-;special=New Moon;a=-;b=Poison Strike 2;c=Atk/Spd Gap 2;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Green Mage;pos=e8;slot=3;rarity=4;level=36;stats=[33;27;28;16;23];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Atk/Spd Bond 2;b=Spd/Res Tempo 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Lance Cavalier;pos=f8;slot=4;rarity=4;level=36;stats=[36;30;20;21;26];weapon=Slaying Spear;assist=-;special=Night Sky;a=Sturdy Blow 1;b=Lull Atk/Def 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Robin: Exalt's Deliverer;pos=c8;slot=5;rarity=4;level=36;stats=[35;40;40;30;22];weapon=Deliverer's Brand;assist=-;special=Glowing Ember;a=Atk/Spd Finish 2;b=Gambit 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Lance Fighter;pos=d7;slot=1;rarity=5;level=41;stats=[44;31;31;30;23];weapon=Harmonic Lance+;assist=-;special=Moonbow;a=-;b=Spurn 3;c=Infantry Pulse 3;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Bow Fighter;pos=b7;slot=2;rarity=5;level=41;stats=[43;32;29;29;16];weapon=Firesweep Bow+;assist=-;special=Luna;a=-;b=Poison Strike 3;c=Atk/Spd Gap 3;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Green Mage;pos=e8;slot=3;rarity=5;level=41;stats=[38;31;32;20;28];weapon=Rexcalibur+;assist=-;special=Draconic Aura;a=Atk/Spd Bond 3;b=Spd/Res Tempo 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Lance Cavalier;pos=f8;slot=4;rarity=5;level=41;stats=[41;35;25;26;30];weapon=Slaying Spear+;assist=-;special=Glimmer;a=Sturdy Blow 2;b=Lull Atk/Def 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Robin: Exalt's Deliverer;pos=c8;slot=5;rarity=5;level=41;stats=[40;47;46;36;27];weapon=Deliverer's Brand;assist=-;special=Ignis;a=Atk/Spd Finish 4;b=Gambit 4;c=Tip the Scales!;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Robin: Exalt's Deliverer;text=I could have sworn I heard a chorus\nof voices calling my name…;textJP=たくさんの人の声が\n聞こえた気がしたんだ。\n僕を呼んでいる…};
+]
+}}
+{{Story Navbar|I'll Never Be You|Fated Vallite Royal}}
+==In other languages==
+{{OtherLanguages
+|japanese=導かれし聖王の軍師
+|german=Schicksalstaktiker
+|spanishEU=Estratega destinado
+|spanishLA=Estratega destinado
+|french=Stratège prédestiné
+|italian=Stratega predestinato
+|chineseTW=受到引導的聖王的軍師
+|portuguese=Estrategista predestinado
+}}
+{{Story Maps Navbox|book=7}}

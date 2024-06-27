@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0613.webp
+|stageTitle=Chapter 13-4
+|stageName=Driven into the Dark
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 13: Askr and Embla
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6134
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=33
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-11-18T07:00:00Z|notification=Special Summon: Rearmed Ganglöt & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Tiki: Awakened Blood;pos=c7;rarity=3;slot=1;level=33;stats=[30;31;35;24;27];weapon=Flametongue;assist=-;special=Chilling Wind;a=Spd/Res Finish 1;b=Spd/Res Bulwark 1;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d7;rarity=3;slot=2;level=33;stats=[46;29;11;31;14];weapon=Barrier Lance;assist=-;special=Holy Vestments;a=Distant Def 1;b=-;c=D/R Far Save 1;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=e8;rarity=3;slot=3;level=33;stats=[35;24;22;22;11];weapon=Rein Bow;assist=-;special=New Moon;a=Atk/Spd Ideal 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=b6;rarity=3;slot=4;level=33;stats=[36;23;23;23;16];weapon=Instant Axe;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Elice: Altean Princess;pos=d8;rarity=3;slot=5;level=33;stats=[33;32;27;20;26];weapon=Trilemma;assist=Restore;special=Imbue;a=Atk/Res Ideal 1;b=-;c=Atk/Res Gap 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Tiki: Awakened Blood;pos=c7;rarity=4;slot=1;level=38;stats=[34;38;41;28;32];weapon=Awoken Breath;assist=-;special=Chilling Wind;a=Spd/Res Finish 2;b=Spd/Res Bulwark 2;c=-;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d7;rarity=4;slot=2;level=38;stats=[51;35;13;37;16];weapon=Barrier Lance;assist=-;special=Holy Vestments;a=Distant Def 2;b=-;c=D/R Far Save 2;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=e8;rarity=4;slot=3;level=38;stats=[39;29;26;25;13];weapon=Rein Bow;assist=-;special=New Moon;a=Atk/Spd Ideal 2;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=b6;rarity=4;slot=4;level=38;stats=[40;28;27;27;19];weapon=Instant Axe;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Elice: Altean Princess;pos=d8;rarity=4;slot=5;level=38;stats=[36;38;32;23;30];weapon=Trilemma;assist=Restore;special=Imbue;a=Atk/Res Ideal 2;b=-;c=Atk/Res Gap 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Tiki: Awakened Blood;pos=c7;rarity=5;slot=1;level=43;stats=[40;45;47;34;39];weapon=Awoken Breath;assist=-;special=Iceberg;a=Spd/Res Finish 4;b=Spd/Res Bulwark 3;c=All Together!;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d7;rarity=5;slot=2;level=43;stats=[58;41;17;43;20];weapon=Barrier Lance+;assist=-;special=Sacred Cowl;a=Distant Def 3;b=-;c=D/R Far Save 3;seal=-;ai={turn=1};};
+{unit=Green Bow;pos=e8;rarity=5;slot=3;level=43;stats=[45;34;30;30;17];weapon=Rein Bow+;assist=-;special=Moonbow;a=Atk/Spd Ideal 3;b=Lull Spd/Def 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=b6;rarity=5;slot=4;level=43;stats=[46;33;33;31;23];weapon=Instant Axe+;assist=-;special=Bonfire;a=Sturdy Blow 2;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Elice: Altean Princess;pos=d8;rarity=5;slot=5;level=43;stats=[41;44;37;28;36];weapon=Trilemma+;assist=Restore+;special=Heavenly Light;a=Atk/Res Ideal 3;b=-;c=Atk/Res Gap 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Growing Darkness|Embla, God of Closure}}
+==In other languages==
+{{OtherLanguages
+|japanese=闇は光と離れゆく
+|german=Weg in die Dunkelheit
+|spanishEU=Arrastrados a la oscuridad
+|spanishLA=Arrastrados a la oscuridad
+|french=Vers l'obscurité
+|italian=Preda dell'oscurità
+|chineseTW=黑暗離光而去
+|portuguese=Em direção à escuridão
+}}
+{{Story Maps Navbox|book=6}}

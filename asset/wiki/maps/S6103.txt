@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0610.webp
+|stageTitle=Chapter 10-3
+|stageName=Fine Successors
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 10: God of Openness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6103
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_15.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-08-17T07:00:00Z|notification=New Heroes Summoning Event: Weave of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Manakete;pos=c6;rarity=3;slot=1;level=26;stats=[32;20;19;18;17];weapon=Fire Breath+;assist=Swap;special=-;a=Fury 1;b=Def/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e8;rarity=3;slot=2;level=26;stats=[32;19;19;19;14];weapon=Steel Axe;assist=-;special=Retribution;a=Atk/Spd Solo 1;b=Spurn 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=a7;rarity=3;slot=3;level=26;stats=[25;23;16;10;22];weapon=Elwind;assist=Rally Defense;special=-;a=-;b=Atk/Spd Ruse 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f6;rarity=3;slot=4;level=26;stats=[27;20;22;10;18];weapon=Steel Bow;assist=-;special=New Moon;a=-;b=Aerobatics 1;c=Atk/Spd Rein 1;seal=-;ai={turn=1};};
+{unit=Chrom: Fated Honor;pos=c8;rarity=3;slot=5;level=26;stats=[30;28;28;21;10];weapon=Steel Lance;assist=Reposition;special=-;a=Swift Sparrow 1;b=S/D Near Trace 1;c=Spd Tactic 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Red Manakete;pos=c6;rarity=4;slot=1;level=37;stats=[40;28;27;25;24];weapon=Dark Breath;assist=Swap;special=-;a=Fury 2;b=Def/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e8;rarity=4;slot=2;level=37;stats=[39;27;26;27;19];weapon=Wo Gùn;assist=-;special=Retribution;a=Atk/Spd Solo 2;b=Spurn 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=a7;rarity=4;slot=3;level=37;stats=[30;32;22;14;31];weapon=Gronnfox;assist=Rally Def/Res;special=-;a=-;b=Atk/Spd Ruse 2;c=Rouse Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f6;rarity=4;slot=4;level=37;stats=[33;28;31;14;25];weapon=Shining Bow;assist=-;special=New Moon;a=-;b=Aerobatics 2;c=Atk/Spd Rein 2;seal=-;ai={turn=1};};
+{unit=Chrom: Fated Honor;pos=c8;rarity=4;slot=5;level=37;stats=[37;38;38;31;14];weapon=Geirdriful;assist=Reposition;special=-;a=Swift Sparrow 1;b=S/D Near Trace 2;c=Spd Tactic 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Red Manakete;pos=c6;rarity=5;slot=1;level=42;stats=[45;33;31;30;29];weapon=Dark Breath+;assist=Swap;special=-;a=Fury 3;b=Def/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e8;rarity=5;slot=2;level=42;stats=[45;32;32;31;23];weapon=Wo Gùn+;assist=-;special=Reprisal;a=Atk/Spd Solo 3;b=Spurn 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Cavalier;pos=a7;rarity=5;slot=3;level=42;stats=[34;36;26;17;35];weapon=Gronnfox+;assist=Rally Def/Res+;special=-;a=-;b=Atk/Spd Ruse 3;c=Rouse Atk/Res 3;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f6;rarity=5;slot=4;level=42;stats=[37;33;35;17;30];weapon=Shining Bow+;assist=-;special=Moonbow;a=-;b=Aerobatics 3;c=Atk/Spd Rein 3;seal=-;ai={turn=1};};
+{unit=Chrom: Fated Honor;pos=c8;rarity=5;slot=5;level=42;stats=[42;44;44;38;17];weapon=Geirdriful;assist=A Fate Changed!;special=-;a=Surge Sparrow;b=S/D Near Trace 3;c=Inf. Spd Tactic;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Lineage of Light|Fated Divinity}}
+==In other languages==
+{{OtherLanguages
+|japanese=受け継がれしもの
+|german=Würdige Nachfahren
+|spanishEU=Dignos sucesores
+|spanishLA=Dignos sucesores
+|french=De dignes successeurs
+|italian=Degni eredi
+|chineseTW=繼承的東西
+|portuguese=Sucessores aptos
+}}
+{{Story Maps Navbox|book=6}}

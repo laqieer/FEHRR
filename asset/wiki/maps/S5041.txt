@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0504.webp
+|stageTitle=Chapter 4: Part 1
+|stageName=Youthful Sage
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 4: The Vital Blade
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5041
+|backdrop=
+|allyPos=c8,d8,c7,d7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=28
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE04_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-02-16T07:00:00Z|notification=New Heroes Summoning Event: Enduring Legacy (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Azelle: Youthful Flame;pos=b3;rarity=3;slot=1;level=8;stats=[21;12;14;6;7];weapon=Elfire;assist=Rally Speed;special=-;a=R Duel Infantry 1;b=Spd/Res Ruse 1;c=Hone Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f3;rarity=3;slot=2;level=8;stats=[21;11;7;8;10];weapon=Iron Sword;assist=-;special=-;a=-;b=Lunge;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a4;rarity=3;slot=3;level=8;stats=[20;9;10;6;8];weapon=Thunder;assist=-;special=-;a=Atk/Spd Solo 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=d2;rarity=3;slot=4;level=8;stats=[21;10;10;9;8];weapon=Fire Breath;assist=Rally Attack;special=-;a=-;b=Atk/Def Ruse 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Azelle: Youthful Flame;pos=b3;rarity=4;slot=1;level=28;stats=[32;27;29;17;16];weapon=Bolganone;assist=Rally Speed;special=-;a=R Duel Infantry 2;b=Spd/Res Ruse 2;c=Hone Spd 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f3;rarity=4;slot=2;level=28;stats=[32;25;16;17;22];weapon=Steel Sword;assist=-;special=Night Sky;a=Heavy Blade 1;b=Lunge;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a4;rarity=4;slot=3;level=28;stats=[29;22;23;13;19];weapon=Elthunder;assist=-;special=Chilling Wind;a=Atk/Spd Solo 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=d2;rarity=4;slot=4;level=28;stats=[34;23;22;20;19];weapon=Fire Breath+;assist=Rally Attack;special=-;a=-;b=Atk/Def Ruse 2;c=Close Guard 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Azelle: Youthful Flame;pos=b3;rarity=5;slot=1;level=40;stats=[41;37;39;26;23];weapon=Sparking Tome;assist=Rally Up Spd+;special=-;a=R Duel Infantry 4;b=Spd/Res Ruse 3;c=Joint Hone Spd;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f3;rarity=5;slot=2;level=40;stats=[41;34;24;25;30];weapon=Armorsmasher+;assist=-;special=Astra;a=Heavy Blade 3;b=Lunge;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=a4;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=-;special=Iceberg;a=Atk/Spd Solo 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Green Manakete;pos=d2;rarity=5;slot=4;level=40;stats=[44;32;30;29;28];weapon=Flametongue+;assist=Rally Atk/Res+;special=-;a=-;b=Atk/Def Ruse 3;c=Close Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Lost to Love|Pride of Silesse}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=幼き賢者
+|german=Jugendliche Weise
+|spanishEU=Joven sabia
+|spanishLA=Joven sabia
+|french=Jeune sage
+|italian=La giovane saggia
+|chineseTW=幼小的賢者
+|portuguese=Jovem sábia
+}}
+{{Story Maps Navbox|book=5}}

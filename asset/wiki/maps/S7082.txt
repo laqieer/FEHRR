@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0708.webp
+|stageTitle=Chapter 4: Part 2
+|stageName=No Beginning, No End
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 4: Ouroboros
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7082
+|backdrop=Wave
+|allyPos=b2,c2,b1,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=34
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_05.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-06-08T07:00:00Z|notification=Celebratory Summoning Event - New Heroes & Mythic Heiðr (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Dorothy: Devoted Archer;pos=c8;rarity=3;slot=1;level=21;stats=[27;26;26;14;14];weapon=Steel Bow;assist=Ardent Sacrifice;special=-;a=Spd/Res Ideal 1;b=-;c=Atk/Res Oath 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=d8;rarity=3;slot=2;level=21;stats=[29;18;16;16;8];weapon=Steel Bow;assist=-;special=New Moon;a=Life and Death 1;b=-;c=Spd Tactic 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=e7;rarity=3;slot=3;level=21;stats=[24;16;21;8;18];weapon=Elwind;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 1;b=-;c=Spd/Res Rein 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=d6;rarity=3;slot=4;level=21;stats=[26;16;21;18;14];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Atk/Spd Clash 1;b=-;c=Guidance 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Dorothy: Devoted Archer;pos=c8;rarity=4;slot=1;level=34;stats=[34;39;37;20;22];weapon=Defier's Bow;assist=Ardent Sacrifice;special=-;a=Spd/Res Ideal 2;b=-;c=Atk/Res Oath 2;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=d8;rarity=4;slot=2;level=34;stats=[37;27;24;23;12];weapon=Brave Bow;assist=-;special=New Moon;a=Life and Death 2;b=-;c=Spd Tactic 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=e7;rarity=4;slot=3;level=34;stats=[29;23;31;12;27];weapon=Gronnblade;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 2;b=-;c=Spd/Res Rein 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=d6;rarity=4;slot=4;level=34;stats=[33;23;31;27;21];weapon=Flametongue;assist=-;special=Dragon Gaze;a=Atk/Spd Clash 2;b=-;c=Guidance 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Dorothy: Devoted Archer;pos=c8;rarity=5;slot=1;level=41;stats=[40;47;44;26;28];weapon=Defier's Bow+;assist=Ardent Sacrifice;special=-;a=Spd/Res Ideal 3;b=-;c=Atk/Res Oath 3;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=d8;rarity=5;slot=2;level=41;stats=[43;32;29;29;16];weapon=Brave Bow+;assist=-;special=Luna;a=Life and Death 3;b=-;c=Spd Tactic 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Flier;pos=e7;rarity=5;slot=3;level=41;stats=[35;29;38;16;32];weapon=Gronnblade+;assist=-;special=Draconic Aura;a=Atk/Spd Catch 3;b=-;c=Spd/Res Rein 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=d6;rarity=5;slot=4;level=41;stats=[39;29;37;32;27];weapon=Flametongue+;assist=-;special=Dragon Fang;a=Atk/Spd Clash 3;b=-;c=Guidance 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Daughter of the Seer|The Light of Hope}}
+==In other languages==
+{{OtherLanguages
+|japanese=始まりも終わりもない
+|german=Weder Anfang noch Ende
+|spanishEU=Sin principio ni fin
+|spanishLA=Sin principio ni fin
+|french=Ni début ni fin
+|italian=Senza inizio e senza fine
+|chineseTW=沒有開始也沒有結束
+|portuguese=Sem início, sem fim
+}}
+{{Story Maps Navbox|book=7}}

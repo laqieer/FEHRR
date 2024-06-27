@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0606 C.webp
+|stageTitle=Chapter 6: Part 5
+|stageName=Day of Execution
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 6: Revealing Lies
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6065
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=36
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-04-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Ishtar (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Letizia: Curse Director;pos=f7;rarity=3;slot=1;level=18;stats=[23;20;7;18;17];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Sturdy Blow 1;b=A/R Far Trace 1;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Ishtar: Echoing Thunder;pos=b7;rarity=3;slot=2;level=18;stats=[25;21;21;8;15];weapon=Elthunder;assist=-;special=-;a=Life and Death 1;b=Lull Spd/Res 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Arthur: Furious Mage;pos=a6;rarity=3;slot=3;level=18;stats=[25;22;21;14;7];weapon=Elwind;assist=-;special=-;a=Atk/Spd Ideal 1;b=-;c=Threat. Spd/Res 1;seal=-;ai={turn=1};};
+{unit=Scáthach: Astra's Wake;pos=e7;rarity=3;slot=4;level=18;stats=[27;22;15;21;11];weapon=Steel Sword;assist=-;special=-;a=Atk/Def Ideal 1;b=-;c=Odd Def Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Letizia: Curse Director;pos=f7;rarity=4;slot=1;level=36;stats=[33;35;13;31;29];weapon=Körmt;assist=-;special=Dragon Gaze;a=Sturdy Blow 2;b=A/R Far Trace 2;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Ishtar: Echoing Thunder;pos=b7;rarity=4;slot=2;level=36;stats=[35;36;38;14;26];weapon=Thoron;assist=-;special=New Moon;a=Life and Death 3;b=Lull Spd/Res 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Arthur: Furious Mage;pos=a6;rarity=4;slot=3;level=36;stats=[35;37;36;25;14];weapon=Gronnvulture;assist=-;special=Night Sky;a=Atk/Spd Ideal 3;b=-;c=Threat. Spd/Res 2;seal=-;ai={turn=1};};
+{unit=Scáthach: Astra's Wake;pos=e7;rarity=4;slot=4;level=36;stats=[38;37;25;38;20];weapon=Spirited Sword;assist=-;special=Night Sky;a=Atk/Def Ideal 2;b=-;c=Odd Def Wave 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Letizia: Curse Director;pos=f7;rarity=5;slot=1;level=45;stats=[41;44;17;38;37];weapon=Körmt;assist=-;special=Draconic Aura;a=Sturdy Blow 2;b=A/R Far Trace 3;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Ishtar: Echoing Thunder;pos=b7;rarity=5;slot=2;level=45;stats=[43;45;47;18;34];weapon=Thunder's Mjölnir;assist=-;special=Luna;a=Life and Death 4;b=Lull Spd/Res 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Arthur: Furious Mage;pos=a6;rarity=5;slot=3;level=45;stats=[43;46;45;33;20];weapon=Gronnvulture+;assist=-;special=Glimmer;a=Atk/Spd Ideal 4;b=-;c=Spd/Res Menace;seal=-;ai={turn=1};};
+{unit=Scáthach: Astra's Wake;pos=e7;rarity=5;slot=4;level=45;stats=[46;46;33;47;27];weapon=Spirited Sword+;assist=-;special=Astra;a=Atk/Def Ideal 3;b=-;c=Odd Def Wave 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Make Your Choice|This Life's Light}}
+==In other languages==
+{{OtherLanguages
+|japanese=処刑の日
+|german=Tag der Vollstreckung
+|spanishEU=El día de la ejecución
+|spanishLA=El día de la ejecución
+|french=Le jour de l'exécution
+|italian=Giorno dell'esecuzione
+|chineseTW=處刑的日子
+|portuguese=Dia da execução
+}}
+{{Story Maps Navbox|book=6}}

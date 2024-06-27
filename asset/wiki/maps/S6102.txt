@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0610.webp
+|stageTitle=Chapter 10-2
+|stageName=Lineage of Light
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 10: God of Openness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6102
+|backdrop=
+|allyPos=b2,c2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_15.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-08-17T07:00:00Z|notification=New Heroes Summoning Event: Weave of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Seliph: Enduring Legacy;pos=d8;rarity=3;slot=1;level=25;stats=[29;27;26;22;11];weapon=Steel Sword;assist=-;special=New Moon;a=Atk/Spd Clash 1;b=Lull Spd/Def 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=3;slot=2;level=25;stats=[29;22;13;14;14];weapon=Steel Bow;assist=-;special=Night Sky;a=Atk/Spd Bond 1;b=-;c=Spur Res 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b7;rarity=3;slot=3;level=25;stats=[27;17;22;12;23];weapon=Steel Lance;assist=-;special=Chilling Wind;a=-;b=A/D Near Trace 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=3;slot=4;level=25;stats=[32;19;19;19;13];weapon=Steel Axe;assist=-;special=Dragon Gaze;a=Atk/Spd Push 1;b=Seal Def/Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f5;rarity=3;slot=5;level=25;stats=[27;19;20;12;17];weapon=Elfire;assist=-;special=New Moon;a=Atk/Spd Ideal 1;b=Lull Spd/Res 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Seliph: Enduring Legacy;pos=d8;rarity=4;slot=1;level=36;stats=[35;38;36;31;15];weapon=Holytide Tyrfing;assist=-;special=New Moon;a=Atk/Spd Clash 2;b=Lull Spd/Def 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=4;slot=2;level=36;stats=[35;31;18;20;20];weapon=Rein Bow;assist=-;special=Night Sky;a=Atk/Spd Bond 2;b=-;c=Spur Res 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b7;rarity=4;slot=3;level=36;stats=[33;23;31;17;32];weapon=Instant Lance;assist=-;special=Chilling Wind;a=-;b=A/D Near Trace 2;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=4;slot=4;level=36;stats=[39;27;26;26;18];weapon=Unbound Axe;assist=-;special=Dragon Gaze;a=Atk/Spd Push 2;b=Seal Def/Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f5;rarity=4;slot=5;level=36;stats=[33;27;28;16;23];weapon=Rauðrvulture;assist=-;special=New Moon;a=Atk/Spd Ideal 2;b=Lull Spd/Res 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Seliph: Enduring Legacy;pos=d8;rarity=5;slot=1;level=41;stats=[40;44;42;38;18];weapon=Holytide Tyrfing;assist=-;special=Luna;a=Atk/Spd Clash 4;b=Lull Spd/Def 3;c=Heir to Light;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;rarity=5;slot=2;level=41;stats=[40;36;23;25;24];weapon=Rein Bow+;assist=-;special=Glimmer;a=Atk/Spd Bond 3;b=-;c=Ward Cavalry;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=b7;rarity=5;slot=3;level=41;stats=[38;28;36;22;37];weapon=Instant Lance+;assist=-;special=Iceberg;a=-;b=A/D Near Trace 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=e6;rarity=5;slot=4;level=41;stats=[44;31;31;30;23];weapon=Unbound Axe+;assist=-;special=Draconic Aura;a=Atk/Spd Push 3;b=Seal Def/Res 2;c=-;seal=-;ai={turn=1};};
+{unit=Red Mage;pos=f5;rarity=5;slot=5;level=41;stats=[38;31;32;20;28];weapon=Rauðrvulture+;assist=-;special=Moonbow;a=Atk/Spd Ideal 3;b=Lull Spd/Res 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Seliph: Enduring Legacy;text=Father, Mother... Please watch\nover me.;textJP=父上、母上…\n私を見守ってください。};
+]}}
+{{Story Navbar|World of Gateways|Fine Successors}}
+==In other languages==
+{{OtherLanguages
+|japanese=光の系譜
+|german=Lineage des Lichts
+|spanishEU=Linaje de la luz
+|spanishLA=Linaje de la luz
+|french=Lignée de lumière
+|italian=Genealogia della luce
+|chineseTW=光之系譜
+|portuguese=Linhagem da luz
+}}
+{{Story Maps Navbox|book=6}}

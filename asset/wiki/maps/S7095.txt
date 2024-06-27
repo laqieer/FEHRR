@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0709 C.webp
+|stageTitle=Chapter 9-5
+|stageName=Coiling of Serpents
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 9: The Innocent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7095
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=39
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_10.ogg
+|BGM2=
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-07-18T07:00:00Z|notification=New Heroes Summoning Event: Rearmed Eitr & Rearmed Alcryst (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Heiðr: Cursed Goddess (Serpent);pos=c7;slot=1;rarity=3;level=26;stats=[27;31;29;17;12];weapon=Rexcalibur;assist=-;special=Night Sky;a=Bonus Doubler 1;b=Null Follow-Up 1;c=Panic Smoke 1;seal=-;ai={group=1};};
+{unit=Alcryst: Tender Archer;pos=b7;slot=2;rarity=3;level=26;stats=[28;29;30;18;15];weapon=Steel Bow;assist=-;special=Night Sky;a=Flashing Blade 1;b=-;c=Def Smoke 1;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=e6;slot=3;rarity=3;level=26;stats=[28;18;24;20;16];weapon=Fire Breath+;assist=Rally Defense;special=-;a=-;b=-;c=Atk/Spd Rein 1;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Alear: Dragon Youth;pos=b8;slot=4;rarity=3;level=26;stats=[29;30;31;20;14];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Atk/Spd Ideal 1;b=Repel 1;c=Green Feud 1;seal=-;ai={group=1};};
+{unit=Citrinne: Caring Noble;pos=e7;slot=5;rarity=3;level=26;stats=[27;32;16;13;28];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Special Spiral 1;c=Atk/Res Oath 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Heiðr: Cursed Goddess (Serpent);pos=c7;slot=1;rarity=4;level=39;stats=[35;43;42;26;18];weapon=Golden Curse;assist=-;special=Night Sky;a=Bonus Doubler 2;b=Null Follow-Up 2;c=Panic Smoke 3;seal=-;ai={group=1};};
+{unit=Alcryst: Tender Archer;pos=b7;slot=2;rarity=4;level=39;stats=[36;41;43;27;22];weapon=Arcane Darkbow;assist=-;special=Glimmer;a=Flashing Blade 3;b=-;c=Def Smoke 3;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=e6;slot=3;rarity=4;level=39;stats=[36;26;34;30;24];weapon=Water Breath;assist=Rally Spd/Def;special=-;a=-;b=-;c=Atk/Spd Rein 2;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Alear: Dragon Youth;pos=b8;slot=4;rarity=4;level=39;stats=[37;42;43;30;22];weapon=Libération;assist=-;special=Dragon Gaze;a=Atk/Spd Ideal 3;b=Repel 3;c=Green Feud 2;seal=-;ai={group=1};};
+{unit=Citrinne: Caring Noble;pos=e7;slot=5;rarity=4;level=39;stats=[35;44;24;20;41];weapon=Tome of Luxuries;assist=-;special=Chilling Wind;a=-;b=Special Spiral 3;c=Atk/Res Oath 3;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Heiðr: Cursed Goddess (Serpent);pos=c7;slot=1;rarity=5;level=45;stats=[41;49;50;32;22];weapon=Golden Curse;assist=-;special=Glimmer;a=Bonus Doubler 3;b=Null Follow-Up 3;c=Panic Smoke 4;seal=-;ai={group=1};};
+{unit=Alcryst: Tender Archer;pos=b7;slot=2;rarity=5;level=45;stats=[42;47;50;33;27];weapon=Arcane Darkbow;assist=-;special=Deadeye;a=Flash Sparrow;b=Get Behind Me!;c=Def/Res Smoke 3;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=e6;slot=3;rarity=5;level=45;stats=[42;32;39;35;30];weapon=Water Breath+;assist=Rally Spd/Def+;special=-;a=Iote's Shield;b=-;c=Atk/Spd Rein 3;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Alear: Dragon Youth;pos=b8;slot=4;rarity=5;level=45;stats=[43;48;49;37;28];weapon=Libération;assist=-;special=Draconic Aura;a=Atk/Spd Ideal 4;b=Repel 4;c=Green Feud 3;seal=-;ai={group=1};};
+{unit=Citrinne: Caring Noble;pos=e7;slot=5;rarity=5;level=45;stats=[41;50;30;25;48];weapon=Tome of Luxuries;assist=-;special=Iceberg;a=-;b=Special Spiral 4;c=Atk/Res Oath 4;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Prince's Concern|Unworked Pride}}
+==In other languages==
+{{OtherLanguages
+|japanese=とぐろ巻く蛇
+|german=Tanz der Schlangen
+|spanishEU=La danza de las serpientes
+|spanishLA=La danza de las serpientes
+|french=Torsion ophique
+|italian=Spire di serpente
+|chineseTW=蜷曲的蛇
+|portuguese=Dança das serpentes
+}}
+{{Story Maps Navbox|book=7}}

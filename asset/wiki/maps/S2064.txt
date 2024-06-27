@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=Banner_Chrom (The Branded King) Unrevealed.png
+|mapName=Chapter 6-4: The Tactician's Son
+|stageTitle=Chapter 6: Part 4
+|stageName=The Tactician's Son
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 6: The True Quarry
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2064
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5={{Ally|1}}
+| a4= | b4= | c4= | d4= | e4={{Ally|2}} | f4={{Ally|3}}
+| a3= | b3= | c3= | d3= | e3= | f3={{Ally|4}}
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=34
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_06.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-03-09T07:00:00Z|notification=New Heroes: The Branded King (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Morgan: Lad from Afar;pos=a5;rarity=3;slot=1;level=17;stats=[24;15;16;9;13];weapon=Ruin;assist=-;special=Dragon Gaze;a=-;b=Dull Ranged 1;c=Spur Def/Res 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b6;rarity=3;slot=2;level=17;stats=[24;13;17;9;18];weapon=Steel Lance;assist=-;special=-;a=Armored Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=b3;rarity=3;slot=3;level=17;stats=[35;19;6;21;8];weapon=Steel Axe;assist=-;special=-;a=-;b=Wary Fighter 1;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=a3;rarity=3;slot=4;level=17;stats=[26;15;15;14;13];weapon=Fire Breath+;assist=-;special=-;a=Death Blow 1;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Morgan: Lad from Afar;pos=a5;rarity=4;slot=1;level=34;stats=[32;28;29;16;21];weapon=Fenrir;assist=-;special=Dragon Gaze;a=-;b=Dull Ranged 2;c=Spur Def/Res 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b6;rarity=4;slot=2;level=34;stats=[32;22;30;16;31];weapon=Silver Lance;assist=-;special=-;a=Steady Blow 1;b=-;c=Guidance 1;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=b3;rarity=4;slot=3;level=34;stats=[48;32;12;34;15];weapon=Brave Axe;assist=-;special=Retribution;a=-;b=Wary Fighter 2;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=a3;rarity=4;slot=4;level=34;stats=[38;27;25;23;22];weapon=Light Breath;assist=-;special=-;a=Swift Sparrow 1;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Morgan: Lad from Afar;pos=a5;rarity=5;slot=1;level=43;displaylevel=40;stats=[39;35;36;21;28];weapon=Grima's Truth;assist=-;special=Dragon Fang;a=-;b=Dull Ranged 3;c=Spur Def/Res 2;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b6;rarity=5;slot=2;level=43;displaylevel=40;stats=[39;29;37;22;38];weapon=Silver Lance+;assist=-;special=-;a=Steady Blow 2;b=-;c=Guidance 3;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=b3;rarity=5;slot=3;level=43;displaylevel=40;stats=[58;41;17;43;20];weapon=Brave Axe+;assist=-;special=Vengeance;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=a3;rarity=5;slot=4;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Light Breath+;assist=-;special=-;a=Swift Sparrow 2;b=-;c=Drive Res 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Tactician's Daughter|Sheathed Steel}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=軍師の息子
+|german=Sohn der Taktikerin
+|spanishEU=Hijo de estratega
+|spanishLA=Hijo de estratega
+|french=Le fils de la stratège
+|italian=Il figlio della stratega
+|chineseTW=軍師之子
+|portuguese=Filho de estrategista
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=Banner_Micaiah Unrevealed.png
+|mapName=Chapter 3-2: The Silver-Haired Maiden
+|stageTitle=Chapter 3: Part 2
+|stageName=The Silver-Haired Maiden
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 3: Guided by a Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2032
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5={{Ally|1}} | b5={{Ally|2}} | c5= | d5= | e5= | f5=
+| a4={{Ally|3}} | b4={{Ally|4}} | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-12T07:00:00Z|notification=New Heroes: World of Dawn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sothe: Zephyr;pos=f7;rarity=3;slot=1;level=6;stats=[17;8;10;4;3];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=Spur Atk 1;seal=-;ai={group=1};};
+{unit=Micaiah: Priestess of Dawn;pos=f3;rarity=3;slot=2;level=6;stats=[15;9;7;2;8];weapon=Light;assist=Ardent Sacrifice;special=-;a=Distant Def 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=e8;rarity=3;slot=3;level=6;stats=[18;5;11;2;9];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=e2;rarity=3;slot=4;level=6;stats=[25;10;3;11;2];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Sothe: Zephyr;pos=f7;rarity=4;slot=1;level=26;stats=[29;26;23;14;13];weapon=Steel Dagger;assist=-;special=Night Sky;a=Life and Death 2;b=-;c=Spur Atk/Spd 1;seal=-;ai={group=1};};
+{unit=Micaiah: Priestess of Dawn;pos=f3;rarity=4;slot=2;level=26;stats=[27;25;18;12;25];weapon=Ellight;assist=Sacrifice;special=-;a=Distant Def 1;b=Guard 2;c=-;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=e8;rarity=4;slot=3;level=26;stats=[29;18;25;13;26];weapon=Steel Axe;assist=-;special=-;a=-;b=-;c=Guidance 1;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=e2;rarity=4;slot=4;level=26;stats=[42;27;10;29;12];weapon=Steel Sword;assist=-;special=Buckler;a=-;b=Wary Fighter 1;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Sothe: Zephyr;pos=f7;rarity=5;slot=1;level=41;displaylevel=40;stats=[39;37;33;23;22];weapon=Peshkatz;assist=-;special=Glimmer;a=Life and Death 3;b=-;c=Spur Atk/Spd 2;seal=-;ai={group=1};};
+{unit=Micaiah: Priestess of Dawn;pos=f3;rarity=5;slot=2;level=41;displaylevel=40;stats=[36;36;28;18;36];weapon=Thani;assist=Sacrifice;special=-;a=Distant Def 3;b=Guard 3;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Axe Flier;pos=e8;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Silver Axe+;assist=-;special=-;a=-;b=-;c=Guidance 3;seal=-;ai={group=1};};
+{unit=Sword Knight;pos=e2;rarity=5;slot=4;level=41;displaylevel=40;stats=[56;39;16;41;19];weapon=Slaying Edge+;assist=-;special=Pavise;a=-;b=Wary Fighter 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain3};
+  {unit=Micaiah: Priestess of Dawn;text=Our contract with the princess leaves\nus no choice but to fight...;textJP=私は…\nヴェロニカ皇女との契約がある…\n戦うしか…ないもの。};
+  {unit=Sothe: Zephyr;text=Micaiah... I'm not leaving your side. I\nwill protect you.;textJP=ミカヤ…\n俺はあんたの傍を離れない。\nミカヤは、俺が守る。};
+]
+}}
+{{Story Navbar|The Road to Nifl|Ensnared by Beauty}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の髪の乙女
+|german=Mädchen des Silberlichts
+|spanishEU=Cabello de Plata
+|spanishLA=Cabello de Plata
+|french=La Chevelure d'Argent
+|italian=Capelli d'argento
+|chineseTW=銀髮少女
+|portuguese=Cabelo prateado
+}}
+{{Story Maps Navbox|book=2}}

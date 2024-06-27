@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0305.png
+|stageTitle=Chapter 5: Part 4
+|stageName=The Demon Dragon Wakes
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 5: A Father's Legacy
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3054
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=33
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE06_03.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-03-08T07:00:00Z|notification=New Heroes: Beyond Darkness (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Idunn: Dark Priestess;pos=c6;rarity=3;slot=1;level=14;stats=[25;17;9;17;12];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Fort. Def/Res 1;b=Vengeful Fighter 1;c=Spur Def 1;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=e6;rarity=3;slot=2;level=14;stats=[24;14;13;12;11];weapon=Fire Breath+;assist=-;special=-;a=Brazen Atk/Res 1;b=-;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=d7;rarity=3;slot=3;level=14;stats=[22;12;16;14;10];weapon=Fire Breath+;assist=-;special=-;a=Bracing Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Fáfnir;pos=a6;rarity=3;slot=4;level=14;stats=[22;12;16;14;10];weapon=Fire Breath+;assist=-;special=-;a=Death Blow 1;b=-;c=Close Guard 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Idunn: Dark Priestess;pos=c6;rarity=4;slot=1;level=33;stats=[38;29;19;32;26];weapon=Flametongue;assist=-;special=Glowing Ember;a=Fort. Def/Res 2;b=Vengeful Fighter 2;c=Spur Def 2;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=e6;rarity=4;slot=2;level=33;stats=[37;26;24;22;21];weapon=Flametongue;assist=-;special=Chilling Wind;a=Brazen Atk/Res 2;b=-;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=d7;rarity=4;slot=3;level=33;stats=[32;22;30;26;20];weapon=Dark Breath;assist=-;special=New Moon;a=Bracing Blow 1;b=Aerobatics 1;c=-;seal=-;ai={group=1};};
+{unit=Red Fáfnir;pos=a6;rarity=4;slot=4;level=33;stats=[32;22;30;26;20];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Death Blow 2;b=-;c=Close Guard 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Idunn: Dark Priestess;pos=c6;rarity=5;slot=1;level=43;displaylevel=40;stats=[47;37;27;42;37];weapon=Demonic Breath;assist=-;special=Bonfire;a=Fort. Def/Res 3;b=Vengeful Fighter 3;c=Ward Dragons;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=e6;rarity=5;slot=2;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Flametongue+;assist=-;special=Iceberg;a=Brazen Atk/Res 3;b=-;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Green Fáfnir;pos=d7;rarity=5;slot=3;level=43;displaylevel=40;stats=[40;30;38;34;28];weapon=Dark Breath+;assist=-;special=Luna;a=Bracing Blow 2;b=Aerobatics 3;c=-;seal=-;ai={group=1};};
+{unit=Red Fáfnir;pos=a6;rarity=5;slot=4;level=43;displaylevel=40;stats=[40;30;38;34;28];weapon=Dark Breath+;assist=-;special=Draconic Aura;a=Death Blow 3;b=-;c=Close Guard 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Idunn: Dark Priestess;text=I...have been ordered to lead this\nworld.;textJP=私は、この世を導く使命を与えられたもの。\n…幾千の昼が過ぎ、幾万の夜が流れても…\n必ず…};
+  {text=No matter how many thousand suns\npass, no matter how many thousand\nmoons…I must.};
+]}}
+{{Story Navbar|Warriors of the Plains|Into the Gates}}
+
+==In other languages==
+{{OtherLanguages
+|english=The Demon Dragon Wakes
+|japanese=魔竜の目覚め
+|german=Der Dämonendrache
+|spanishEU=El dragon demoniaco
+|spanishLA=El dragon demoniaco
+|french=L'éveil du dragon démon
+|italian=Il drago si risveglia
+|chineseTW=魔龍甦醒
+|portuguese=O despertar do dragão
+}}
+{{Story Maps Navbox|book=3}}

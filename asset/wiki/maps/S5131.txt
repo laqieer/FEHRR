@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0513.webp
+|stageTitle=Chapter 13-1
+|stageName=Old Friends
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 13: Specter of Niðavellir
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5131
+|backdrop=
+|allyPos=d2,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE09_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-11-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Laegjarn (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Bertram: Dread Cavalier;pos=c8;rarity=3;slot=1;level=30;stats=[35;26;18;27;19];weapon=Instant Sword;assist=-;special=Glowing Ember;a=-;b=Dull Close 1;c=Rouse Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=b7;rarity=3;slot=2;level=30;stats=[33;25;24;23;15];weapon=Guard Lance;assist=-;special=New Moon;a=Heavy Blade 1;b=-;c=Spur Def 1;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Axe;pos=f7;rarity=3;slot=3;level=30;stats=[33;25;24;23;15];weapon=Unbound Axe;assist=-;special=Glowing Ember;a=Atk/Def Solo 1;b=Poison Strike 1;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Flier;pos=d7;rarity=3;slot=4;level=30;stats=[27;20;26;10;22];weapon=Blárraven;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Spd/Res Rein 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a5;rarity=3;slot=5;level=30;stats=[34;22;21;20;19];weapon=Light Breath;assist=-;special=Dragon Gaze;a=-;b=Quick Riposte 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Bertram: Dread Cavalier;pos=c8;rarity=4;slot=1;level=35;stats=[39;32;22;33;22];weapon=Instant Sword;assist=-;special=Glowing Ember;a=-;b=Dull Close 2;c=Rouse Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=b7;rarity=4;slot=2;level=35;stats=[37;31;29;28;17];weapon=Guard Lance;assist=-;special=New Moon;a=Heavy Blade 2;b=-;c=Spur Def 2;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Axe;pos=f7;rarity=4;slot=3;level=35;stats=[37;31;29;28;17];weapon=Unbound Axe;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=Poison Strike 2;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Flier;pos=d7;rarity=4;slot=4;level=35;stats=[30;24;32;12;27];weapon=Blárraven;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Spd/Res Rein 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a5;rarity=4;slot=5;level=35;stats=[38;27;26;24;23];weapon=Light Breath;assist=-;special=Dragon Gaze;a=-;b=Quick Riposte 2;c=Rouse Atk/Res 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Bertram: Dread Cavalier;pos=c8;rarity=5;slot=1;level=40;stats=[45;37;27;38;26];weapon=Instant Sword+;assist=-;special=Ignis;a=-;b=Dull Close 3;c=Rouse Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Steam Lance;pos=b7;rarity=5;slot=2;level=40;stats=[43;36;35;33;21];weapon=Guard Lance+;assist=-;special=Luna;a=Heavy Blade 3;b=-;c=Ward Cavalry;seal=Gullinbursti;ai={turn=1};};
+{unit=Steam Axe;pos=f7;rarity=5;slot=3;level=40;stats=[43;36;35;33;21];weapon=Unbound Axe+;assist=-;special=Bonfire;a=Atk/Def Solo 3;b=Poison Strike 3;c=-;seal=Gullinbursti;ai={turn=1};};
+{unit=Blue Flier;pos=d7;rarity=5;slot=4;level=40;stats=[34;29;37;16;32];weapon=Blárraven+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Spd/Res Rein 3;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a5;rarity=5;slot=5;level=40;stats=[44;32;30;29;28];weapon=Light Breath+;assist=-;special=Draconic Aura;a=-;b=Quick Riposte 3;c=Rouse Atk/Res 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ice & Flame 5|The Sword Gramr}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=懐かしい友
+|german=Alte Freundinnen
+|spanishEU=Viejas amistades
+|spanishLA=Viejas amistades
+|french=Vieilles connaissances
+|italian=Vecchie amiche
+|chineseTW=令人懷念的朋友
+|portuguese=Amizades duradouras
+}}
+{{Story Maps Navbox|book=5}}

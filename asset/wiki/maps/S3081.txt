@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0308.webp
+|stageTitle=Chapter 8: Part 1
+|stageName=Ruinous Land
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 8: Truth of a Name
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3081
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3= | e3= | f3=
+| a2= | b2= | c2={{Ally|2}} | d2={{Ally|3}} | e2= | f2=
+| a1= | b1= | c1= | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=33
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-06-11T07:00:00Z|notification=New Heroes: From a Future Past (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Thrasir: Omnicidal Witch;pos=e8;rarity=3;slot=1;level=20;stats=[26;18;20;12;13];weapon=Elwind;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Cynthia: Hero Chaser;pos=b7;rarity=3;slot=2;level=20;stats=[24;17;21;13;15];weapon=Steel Lance;assist=Shove;special=-;a=-;b=Spd/Def Link 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=f6;rarity=3;slot=3;level=20;stats=[37;21;7;23;9];weapon=Steel Sword;assist=Pivot;special=-;a=-;b=Renewal 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=a6;rarity=3;slot=4;level=20;stats=[27;19;13;20;9];weapon=Steel Axe;assist=Draw Back;special=-;a=Armored Blow 1;b=-;c=Spur Spd 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Thrasir: Omnicidal Witch;pos=e8;rarity=4;slot=1;level=33;stats=[33;27;31;18;20];weapon=Ífingr;assist=-;special=Luna;a=Swift Sparrow 1;b=-;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Cynthia: Hero Chaser;pos=b7;rarity=4;slot=2;level=33;stats=[31;26;31;20;22];weapon=Firesweep Lance;assist=Shove;special=-;a=-;b=Spd/Def Link 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=f6;rarity=4;slot=3;level=33;stats=[47;32;12;34;14];weapon=Silver Sword;assist=Pivot;special=-;a=Distant Def 1;b=Renewal 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=a6;rarity=4;slot=4;level=33;stats=[34;29;20;30;14];weapon=Slaying Axe;assist=Draw Back;special=Glowing Ember;a=Armored Blow 2;b=-;c=Spur Spd 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Thrasir: Omnicidal Witch;pos=e8;rarity=5;slot=1;level=40;stats=[40;33;37;23;27];weapon=Ífingr;assist=-;special=Luna;a=Swift Sparrow 2;b=-;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Cynthia: Hero Chaser;pos=b7;rarity=5;slot=2;level=40;stats=[38;32;37;27;29];weapon=Firesweep L+;assist=Shove;special=-;a=-;b=Spd/Def Link 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=f6;rarity=5;slot=3;level=40;stats=[55;38;16;40;19];weapon=Silver Sword+;assist=Pivot;special=-;a=Distant Def 3;b=Renewal 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=a6;rarity=5;slot=4;level=40;stats=[41;35;27;36;19];weapon=Slaying Axe+;assist=Draw Back;special=Bonfire;a=Armored Blow 3;b=-;c=Goad Fliers;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Naga: Dragon Divinity (map)|Almost Extinct}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=滅びの地で
+|german=Land in Ruinen
+|spanishEU=El reino en ruinas
+|spanishLA=El reino en ruinas
+|french=Pays en ruine
+|italian=Un mondo in rovina
+|chineseTW=於滅亡之地
+|portuguese=Uma terra em ruínas
+}}
+{{Story Maps Navbox|book=3}}

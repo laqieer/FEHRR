@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0310.webp
+|stageTitle=Chapter 10-1
+|stageName=Truth of Her Name
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 10: Omnicidal Witch
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=b2,c2,d2,e2
+|baseMap=S3101
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_02.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-08-07T07:00:00Z|notification=New Heroes: Changing Winds (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=3;slot=1;level=24;stats=[28;20;22;14;15];weapon=Rexcalibur;assist=-;special=New Moon;a=Swift Sparrow 1;b=Chill Spd 1;c=Def Tactic 1;seal=-;ai={turn=1};};
+{unit=Petra: Princess of Brigid;pos=d7;rarity=3;slot=2;level=24;stats=[28;18;23;15;12];weapon=Silver Dagger;assist=-;special=New Moon;a=Atk/Spd Form 1;b=Aerobatics 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d6;rarity=3;slot=3;level=24;stats=[31;18;18;18;13];weapon=Steel Sword;assist=-;special=Night Sky;a=Darting Blow 1;b=-;c=Odd Spd Wave 1;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c6;rarity=3;slot=4;level=24;stats=[40;23;8;25;11];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f7;rarity=3;slot=5;level=24;stats=[26;19;20;9;17];weapon=Steel Bow;assist=-;special=Retribution;a=Life and Death 1;b=-;c=Res Tactic 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=4;slot=1;level=35;stats=[35;28;32;19;22];weapon=Ífingr;assist=-;special=New Moon;a=Swift Sparrow 1;b=Chill Spd 2;c=Def Tactic 2;seal=-;ai={turn=1};};
+{unit=Petra: Princess of Brigid;pos=d7;rarity=4;slot=2;level=35;stats=[35;27;33;21;16];weapon=Silver Dagger;assist=-;special=New Moon;a=Atk/Spd Form 2;b=Aerobatics 2;c=Ground Orders 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d6;rarity=4;slot=3;level=35;stats=[38;26;25;26;18];weapon=Armorsmasher;assist=-;special=Night Sky;a=Darting Blow 2;b=-;c=Odd Spd Wave 2;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c6;rarity=4;slot=4;level=35;stats=[49;33;12;35;15];weapon=Slaying Axe;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=Bowbreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f7;rarity=4;slot=5;level=35;stats=[32;27;29;13;24];weapon=Short Bow;assist=-;special=Retribution;a=Life and Death 2;b=-;c=Res Tactic 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=5;slot=1;level=40;stats=[40;33;37;23;27];weapon=Ífingr;assist=-;special=Luna;a=Swift Sparrow 2;b=Chill Spd 3;c=Def Tactic 3;seal=-;ai={turn=1};};
+{unit=Petra: Princess of Brigid;pos=d7;rarity=5;slot=2;level=40;stats=[40;32;38;25;20];weapon=Hunting Blade;assist=-;special=Luna;a=Atk/Spd Form 3;b=Aerobatics 3;c=Ground Orders 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d6;rarity=5;slot=3;level=40;stats=[44;31;31;30;22];weapon=Armorsmasher+;assist=-;special=Glimmer;a=Darting Blow 3;b=-;c=Odd Spd Wave 3;seal=-;ai={turn=1};};
+{unit=Axe Knight;pos=c6;rarity=5;slot=4;level=40;stats=[55;38;16;40;19];weapon=Slaying Axe+;assist=-;special=Bonfire;a=Sturdy Blow 2;b=Bowbreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=f7;rarity=5;slot=5;level=40;stats=[36;32;34;17;29];weapon=Short Bow+;assist=-;special=Reprisal;a=Life and Death 3;b=-;c=Res Tactic 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Kronya: Gleaming Blade (map)|Maiden and Devotee}}
+
+==In other languages==
+{{OtherLanguages
+|english=Truth of Her Name
+|japanese=彼女の名は
+|german=Ihr wahrer Name
+|spanishEU=Revelación repentina
+|spanishLA=Revelación repentina
+|french=Véritable identité
+|italian=Identità svelate
+|chineseTW=她的名字
+|portuguese=O nome dela e a verdade
+}}
+{{Story Maps Navbox|book=3}}

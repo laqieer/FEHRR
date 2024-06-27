@@ -1,0 +1,104 @@
+{{Battle Infobox
+|bannerImage=C0503 C.webp
+|stageTitle=Chapter 3: Part 5
+|stageName=King and Sage
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 3: Forest of the Sage
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5035
+|backdrop=
+|allyPos=b3,d3,c2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=30
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to defend: 5
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-01-08T07:00:00Z|notification=New Heroes Summoning Event: Shared Purpose (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S5035|backdrop=
+|allyPos=b3,d3,c2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Fáfnir: King of Desolation;pos=b7;rarity=3;slot=1;level=9;stats=[21;12;14;13;4];weapon=Steel Lance;assist=-;special=-;a=Atk/Def Solo 1;b=Poison Strike 1;c=Def Smoke 1;seal=Niðavellir Axiom;ai={turn=2};};
+{unit=Ronan: Villager of Iz;pos=a1;rarity=3;slot=2;level=9;stats=[21;11;16;5;12];weapon=Iron Bow;assist=Rally Resistance;special=-;a=Swift Stance 1;b=-;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Miranda: Willful Princess;pos=f8;rarity=3;slot=3;level=9;stats=[19;13;12;6;13];weapon=Fire;assist=Ardent Sacrifice;special=-;a=-;b=Seal Atk/Res 1;c=-;seal=-;ai={turn=1};};
+{unit=Sara: Lady of Loptr;pos=d8;rarity=3;slot=4;level=9;stats=[18;14;13;4;14];weapon=-;assist=Heal;special=-;a=Atk/Spd Push 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Asbel: Windswept Youth;pos=a5;rarity=3;slot=5;level=9;stats=[21;12;16;6;9];weapon=Wind;assist=-;special=-;a=Fury 1;b=-;c=Spd/Res Oath 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=d7;rarity=3;slot=6;level=9;stats=[22;11;7;8;11];weapon=Iron Sword;assist=-;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Fáfnir: King of Desolation;pos=b7;rarity=4;slot=1;level=30;stats=[32;28;29;29;11];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Atk/Def Solo 2;b=Poison Strike 2;c=Def Smoke 2;seal=Niðavellir Axiom;ai={turn=2};};
+{unit=Ronan: Villager of Iz;pos=a1;rarity=4;slot=2;level=30;stats=[31;26;32;12;30];weapon=Steel Bow;assist=Rally Spd/Res;special=-;a=Swift Stance 2;b=-;c=Drive Spd 1;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Miranda: Willful Princess;pos=f8;rarity=4;slot=3;level=30;stats=[30;28;26;15;28];weapon=Elfire;assist=Ardent Sacrifice;special=-;a=-;b=Seal Atk/Res 1;c=Spd/Res Gap 1;seal=-;ai={turn=1};};
+{unit=Sara: Lady of Loptr;pos=d8;rarity=4;slot=4;level=30;stats=[28;31;28;11;29];weapon=Assault;assist=Reconcile;special=-;a=Atk/Spd Push 2;b=Dazzling Staff 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Asbel: Windswept Youth;pos=a5;rarity=4;slot=5;level=30;stats=[32;28;33;15;19];weapon=Elwind;assist=-;special=New Moon;a=Fury 2;b=Null Follow-Up 1;c=Spd/Res Oath 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=d7;rarity=4;slot=6;level=30;stats=[33;26;17;18;23];weapon=Steel Sword;assist=-;special=Daylight;a=Life and Death 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f1;rarity=4;slot=7;level=30;stats=[35;23;22;23;16];weapon=Steel Axe;assist=-;special=Buckler;a=-;b=Knock Back;c=Threaten Def 1;seal=-;ai={turn=1};spawn={turn=4};};
+]
+|Lunatic=[
+{unit=Fáfnir: King of Desolation;pos=b7;rarity=5;slot=1;level=45;stats=[43;42;40;41;17];weapon=Hreiðmarr;assist=-;special=Ignis;a=Atk/Def Solo 3;b=Poison Strike 3;c=Def Smoke 3;seal=Niðavellir Axiom;ai={turn=2};};
+{unit=Ronan: Villager of Iz;pos=a1;rarity=5;slot=2;level=45;stats=[41;37;44;18;47];weapon=Indignant Bow;assist=Rally Spd/Res+;special=-;a=Swift Stance 3;b=-;c=Joint Drive Spd;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Miranda: Willful Princess;pos=f8;rarity=5;slot=3;level=45;stats=[41;39;38;23;39];weapon=Rauðrserpent+;assist=Ardent Sacrifice;special=-;a=-;b=Seal Atk/Res 2;c=Spd/Res Gap 3;seal=-;ai={turn=1};};
+{unit=Sara: Lady of Loptr;pos=d8;rarity=5;slot=4;level=45;stats=[38;44;41;17;40];weapon=Kia Staff;assist=Return+;special=-;a=Atk/Spd Push 4;b=Dazzling Staff 3;c=Joint Drive Res;seal=-;ai={turn=1};};
+{unit=Asbel: Windswept Youth;pos=a5;rarity=5;slot=5;level=45;stats=[43;40;46;23;29];weapon=Grafcalibur;assist=-;special=Moonbow;a=Fury 4;b=Null Follow-Up 3;c=Spd/Res Oath 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Sword Cavalier;pos=d7;rarity=5;slot=6;level=45;stats=[44;37;27;28;33];weapon=Silver Sword+;assist=-;special=Noontime;a=Life and Death 3;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Axe Fighter;pos=f1;rarity=5;slot=7;level=45;stats=[47;34;34;33;24];weapon=Slaying Axe+;assist=-;special=Escutcheon;a=-;b=Knock Back;c=Threaten Def 3;seal=-;ai={turn=1};spawn={turn=4};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Mage's Oath|Shared Purpose}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=王と賢者
+|german=Der König und die Weise
+|spanishEU=Rey y sabia
+|spanishLA=Rey y sabia
+|french=Roi et sage
+|italian=Il re e la saggia
+|chineseTW=王與賢者
+|portuguese=Rei e sábia
+}}
+{{Story Maps Navbox|book=5}}

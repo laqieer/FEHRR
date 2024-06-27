@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0413.webp
+|stageTitle=Chapter 13-2
+|stageName=Again and Again
+|stageEpithet=
+|bookGroup=Book IV
+|mapGroup=Book IV, Chapter 13: Reality
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S4132
+|backdrop=
+|allyPos=a2,b2,b1,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_08.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-11-17T07:00:00Z|notification=New Heroes Summoning Event: Princess of Bern (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Dieck: Wounded Tiger;pos=d5;rarity=3;slot=1;level=32;stats=[32;30;26;27;18];weapon=Silver Axe;assist=-;special=New Moon;a=Close Def 1;b=Null Follow-Up 1;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Merlinus: Pherae's Clerk;pos=f6;rarity=3;slot=2;level=32;stats=[40;14;26;23;19];weapon=Smoke Dagger;assist=Reposition;special=-;a=-;b=Wings of Mercy 1;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a7;rarity=3;slot=3;level=32;stats=[35;24;22;21;20];weapon=Flametongue;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c6;rarity=3;slot=4;level=32;stats=[30;20;26;15;27];weapon=Slaying Lance;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e5;rarity=3;slot=5;level=32;stats=[28;20;20;17;26];weapon=Fear;assist=Physic;special=-;a=Attack +1;b=Wrathful Staff 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Dieck: Wounded Tiger;pos=d5;rarity=4;slot=1;level=37;stats=[36;36;31;33;22];weapon=Tiger-Roar Axe;assist=-;special=New Moon;a=Close Def 2;b=Null Follow-Up 2;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Merlinus: Pherae's Clerk;pos=f6;rarity=4;slot=2;level=37;stats=[45;17;32;27;23];weapon=Smoke Dagger;assist=Reposition;special=-;a=-;b=Wings of Mercy 2;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a7;rarity=4;slot=3;level=37;stats=[40;28;27;25;24];weapon=Flametongue;assist=-;special=Night Sky;a=Death Blow 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c6;rarity=4;slot=4;level=37;stats=[34;24;32;18;33];weapon=Slaying Lance;assist=-;special=Chilling Wind;a=Mirror Strike 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e5;rarity=4;slot=5;level=37;stats=[31;25;24;20;32];weapon=Fear;assist=Physic;special=-;a=Attack +2;b=Wrathful Staff 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Dieck: Wounded Tiger;pos=d5;rarity=5;slot=1;level=42;stats=[41;42;36;37;26];weapon=Tiger-Roar Axe;assist=-;special=Luna;a=Close Def 4;b=Null Follow-Up 3;c=Threat. Atk/Def 3;seal=-;ai={turn=1};};
+{unit=Merlinus: Pherae's Clerk;pos=f6;rarity=5;slot=2;level=42;stats=[52;20;36;32;28];weapon=Smoke Dagger+;assist=Reposition;special=-;a=-;b=Wings of Mercy 3;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a7;rarity=5;slot=3;level=42;stats=[45;33;31;30;29];weapon=Flametongue+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=c6;rarity=5;slot=4;level=42;stats=[38;29;36;22;37];weapon=Slaying Lance+;assist=-;special=Iceberg;a=Mirror Strike 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e5;rarity=5;slot=5;level=42;stats=[35;29;29;24;36];weapon=Fear+;assist=Physic+;special=-;a=Attack +3;b=Wrathful Staff 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Like a Dream|Facing Reality}}
+==In other languages==
+{{OtherLanguages
+|japanese=日々繰り返しそれは現れ
+|german=Wieder und wieder
+|spanishEU=Una y otra vez
+|spanishLA=Una y otra vez
+|french=Encore et toujours
+|italian=Ancora e ancora
+|chineseTW=日復一日，終將顯現
+|portuguese=Repetidamente
+}}
+{{Story Maps Navbox|book=4}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Leif Unrevealed.png
+|mapName=Chapter 7-2: Blade of the Mage Knight
+|stageTitle=Chapter 7: Part 2
+|stageName=Blade of the Mage Knight
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 7: Snow and Ash
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2072
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2={{Ally|3}} | c2={{Ally|4}} | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=18
+|lvlHard=33
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE05_01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-04-11T07:00:00Z|notification=New Heroes: World of Thracia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Reinhardt: Thunder's Sword;pos=d8;rarity=3;slot=1;level=18;stats=[25;18;11;15;13];weapon=Steel Sword;assist=-;special=Buckler;a=Death Blow 1;b=Vantage 1;c=Spur Atk/Def 1;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=a7;rarity=3;slot=2;level=18;stats=[24;15;16;9;13];weapon=Elthunder;assist=-;special=-;a=Mirror Strike 1;b=-;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Nanna: Nordion Princess;pos=c8;rarity=3;slot=3;level=18;stats=[23;12;17;10;13];weapon=Absorb;assist=Restore;special=-;a=Spd/Res 1;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=e6;rarity=3;slot=4;level=18;stats=[28;15;15;15;10];weapon=Steel Axe;assist=-;special=-;a=Armored Blow 1;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Reinhardt: Thunder's Sword;pos=d8;rarity=4;slot=1;level=33;stats=[33;29;18;25;21];weapon=Silver Sword;assist=-;special=Buckler;a=Death Blow 2;b=Vantage 2;c=Spur Atk/Def 1;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=a7;rarity=4;slot=2;level=33;stats=[32;25;26;15;21];weapon=Thoron;assist=-;special=-;a=Mirror Strike 1;b=-;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Nanna: Nordion Princess;pos=c8;rarity=4;slot=3;level=33;stats=[31;20;28;16;22];weapon=Absorb;assist=Restore;special=Imbue;a=Spd/Res 1;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=e6;rarity=4;slot=4;level=33;stats=[37;25;24;24;17];weapon=Slaying Hammer;assist=-;special=New Moon;a=Armored Blow 2;b=Hit and Run;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Reinhardt: Thunder's Sword;pos=d8;rarity=5;slot=1;level=41;displaylevel=40;stats=[40;36;24;31;28];weapon=Meisterschwert;assist=-;special=Pavise;a=Death Blow 3;b=Vantage 3;c=Spur Atk/Def 2;seal=-;ai={group=1};};
+{unit=Blue Mage;pos=a7;rarity=5;slot=2;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Thoron+;assist=-;special=-;a=Mirror Strike 2;b=-;c=Drive Spd 2;seal=-;ai={group=1};};
+{unit=Nanna: Nordion Princess;pos=c8;rarity=5;slot=3;level=41;displaylevel=40;stats=[37;27;35;21;27];weapon=Absorb+;assist=Restore+;special=Heavenly Light;a=Spd/Res 2;b=-;c=Drive Def 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=e6;rarity=5;slot=4;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Slaying Hammer+;assist=-;special=Luna;a=Armored Blow 3;b=Hit and Run;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Reinhardt: Thunder's Sword;text=I am Reinhardt of Friege, the mage\nknight.;textJP=魔道騎士の戦いは、\n魔道のみにあらず。\n我が剣をお見せ致しましょう。};
+  {text=Lest you think my talents are limited\nto magic, let me demonstrate to you\nmy skill with a blade.};
+]}}
+{{Story Navbar|Echoing Dreams|Indomitable Spirits}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔道騎士の剣
+|german=Klinge des Magieritters
+|spanishEU=La hoja del jinete mago
+|spanishLA=La hoja del jinete mago
+|french=Le chevalier mage
+|italian=La lama del mago cavaliere
+|chineseTW=魔道騎士之劍
+|portuguese=Lâmina do cavaleiro mago
+}}
+{{Story Maps Navbox|book=2}}

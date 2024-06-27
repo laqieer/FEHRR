@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0604.webp
+|stageTitle=Chapter 4: Part 3
+|stageName=Sentenced to Darkness
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 4: Princess Alone
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6043
+|backdrop=
+|allyPos=a4,a3,b3,a2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=10
+|lvlHard=30
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE06_10.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-02-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Idunn (Notification) }}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Letizia: Curse Director;pos=d8;rarity=3;slot=1;level=10;stats=[19;15;4;13;12];weapon=Elwind;assist=-;special=-;a=Atk/Res Catch 1;b=Chill Atk/Res 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Cath: Master Thief;pos=f2;rarity=3;slot=2;level=10;stats=[22;11;18;8;11];weapon=Steel Dagger;assist=Reposition;special=-;a=Atk/Res Bond 1;b=Spd/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f1;rarity=3;slot=3;level=10;stats=[18;13;9;5;12];weapon=Elthunder;assist=Rally Attack;special=-;a=-;b=Spd/Res Ruse 1;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=d5;rarity=3;slot=4;level=10;stats=[30;14;4;16;6];weapon=Steel Sword;assist=-;special=-;a=-;b=Wary Fighter 1;c=Drive Def 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Letizia: Curse Director;pos=d8;rarity=4;slot=1;level=30;stats=[30;31;11;27;25];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Atk/Res Catch 2;b=Chill Atk/Res 1;c=Rouse Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Cath: Master Thief;pos=f2;rarity=4;slot=2;level=30;stats=[33;26;34;19;23];weapon=Armorpin Dagger;assist=Reposition;special=-;a=Atk/Res Bond 2;b=Spd/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f1;rarity=4;slot=3;level=30;stats=[27;27;18;12;26];weapon=Thoron;assist=Rally Atk/Spd;special=-;a=-;b=Spd/Res Ruse 2;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=d5;rarity=4;slot=4;level=30;stats=[45;30;11;32;13];weapon=Slaying Edge;assist=-;special=Retribution;a=-;b=Wary Fighter 2;c=Drive Def 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Letizia: Curse Director;pos=d8;rarity=5;slot=1;level=42;stats=[39;42;16;36;35];weapon=Körmt;assist=-;special=Draconic Aura;a=Atk/Res Catch 3;b=Chill Atk/Res 2;c=Rouse Atk/Res 3;seal=-;ai={turn=1};};
+{unit=Cath: Master Thief;pos=f2;rarity=5;slot=2;level=42;stats=[42;38;45;28;31];weapon=Armorpin Dagger+;assist=Reposition;special=-;a=Atk/Res Bond 3;b=Spd/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=f1;rarity=5;slot=3;level=42;stats=[34;36;26;17;35];weapon=Thoron+;assist=Rally Atk/Spd+;special=-;a=-;b=Spd/Res Ruse 3;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=d5;rarity=5;slot=4;level=42;stats=[57;40;16;42;19];weapon=Slaying Edge+;assist=-;special=Vengeance;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Mage's Lament|Friends One Day}}
+==In other languages==
+{{OtherLanguages
+|japanese=黒の宣告
+|german=Zur Dunkelheit verdammt
+|spanishEU=Sentenciado a la oscuridad
+|spanishLA=Sentenciada a la oscuridad
+|french=Condamnés à l'obscurité
+|italian=Condannati all'oscurità
+|chineseTW=漆黑宣告
+|portuguese=Sentença de escuridão
+}}
+{{Story Maps Navbox|book=6}}

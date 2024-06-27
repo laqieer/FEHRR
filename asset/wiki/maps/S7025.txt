@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0702 C.webp
+|stageTitle=Chapter 5: Part 5
+|stageName=Into the Light
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 5: Divine Foretelling
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7025
+|backdrop=
+|allyPos=c4,d4,c3,d3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=28
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Thief;pos=f7;rarity=3;slot=1;level=7;stats=[18;8;12;3;10];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=a1;rarity=3;slot=2;level=7;stats=[22;9;9;10;6];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b7;rarity=3;slot=3;level=7;stats=[19;9;12;10;7];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Lance Knight;pos=f1;rarity=3;slot=4;level=7;stats=[28;12;3;14;5];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Red Thief;pos=f7;rarity=4;slot=1;level=28;stats=[28;19;28;9;23];weapon=Steel Dagger;assist=-;special=Miracle;a=-;b=-;c=Atk Smoke 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=a1;rarity=4;slot=2;level=28;stats=[34;22;21;22;15];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Atk/Def Ideal 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b7;rarity=4;slot=3;level=28;stats=[30;20;27;23;18];weapon=Fire Breath+;assist=-;special=Retribution;a=Swift Sparrow 1;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Lance Knight;pos=f1;rarity=4;slot=4;level=28;stats=[43;28;10;30;12];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=-;c=Armored Stride 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Red Thief;pos=f7;rarity=5;slot=1;level=45;stats=[39;31;42;15;35];weapon=Smoke Dagger+;assist=-;special=Miracle;a=-;b=-;c=Atk Smoke 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Fighter;pos=a1;rarity=5;slot=2;level=45;stats=[47;34;34;33;24];weapon=Brave Axe+;assist=-;special=Bonfire;a=Atk/Def Ideal 3;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b7;rarity=5;slot=3;level=45;stats=[42;32;39;35;30];weapon=Flametongue+;assist=-;special=Reprisal;a=Swift Sparrow 2;b=-;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Lance Knight;pos=f1;rarity=5;slot=4;level=45;stats=[59;42;17;44;21];weapon=Instant Lance+;assist=-;special=Ignis;a=-;b=-;c=Armored Stride 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Emperor and Seer|New Awakening}}
+==In other languages==
+{{OtherLanguages
+|japanese=光へ
+|german=Ins Reich des Lichts
+|spanishEU=Hacia la luz
+|spanishLA=Hacia la luz
+|french=Vers la lumière
+|italian=Nella luce
+|chineseTW=往光的方向
+|portuguese=Em direção à luz
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,102 @@
+{{Battle Infobox
+|bannerImage=C0507 C.webp
+|stageTitle=Chapter 7: Part 5
+|stageName=Seeking the Past
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 7: Bound Elsewhere
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5075
+|backdrop=Wave
+|allyPos=b8,d8,c7,e7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to defend: 5
+|BGM=bgm_map_FEH_07.ogg
+|BGM2=bgm_boss8.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-05-07T07:00:00Z|notification=New Heroes Summoning Event: Forces of Will (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S5075|backdrop=Wave
+|allyPos=b8,d8,c7,e7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Fáfnir: King of Desolation;pos=c2;rarity=3;slot=1;level=21;stats=[27;21;22;21;8];weapon=Steel Lance;assist=-;special=New Moon;a=Heavy Blade 1;b=Even Pulse Tie 1;c=Savage Blow 1;seal=Niðavellir Axiom;ai={turn=2};};
+{unit=Morgan: Devoted Darkness;pos=a3;rarity=3;slot=2;level=21;stats=[27;22;9;24;20];weapon=Steel Axe;assist=-;special=Night Sky;a=Atk/Def Solo 1;b=Dive-Bomb 1;c=Threat. Atk/Def 1;seal=-;ai={turn=1};};
+{unit=Morgan: Fated Darkness;pos=e1;rarity=3;slot=3;level=21;stats=[27;22;9;19;21];weapon=Ruin;assist=-;special=Chilling Wind;a=Atk/Res Solo 1;b=Sabotage Def 1;c=Threat. Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b1;rarity=3;slot=4;level=21;stats=[23;20;14;9;19];weapon=Elthunder;assist=-;special=-;a=Brazen Atk/Res 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Dimitri: Savage Boar;pos=a2;rarity=3;slot=5;level=21;stats=[27;25;21;23;9];weapon=Steel Lance;assist=-;special=Night Sky;a=Atk/Spd Solo 1;b=-;c=Odd Tempest 1;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Edelgard: Hegemon Husk;pos=e1;rarity=3;slot=6;level=21;stats=[31;25;8;25;22];weapon=Yearling (Arm.);assist=-;special=Glowing Ember;a=Atk/Def Ideal 1;b=-;c=Armored Stride 1;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Hard=[
+{unit=Fáfnir: King of Desolation;pos=c2;rarity=4;slot=1;level=37;stats=[36;33;34;33;13];weapon=Hreiðmarr;assist=-;special=New Moon;a=Heavy Blade 2;b=Even Pulse Tie 2;c=Savage Blow 2;seal=Niðavellir Axiom;ai={turn=2};};
+{unit=Morgan: Devoted Darkness;pos=a3;rarity=4;slot=2;level=37;stats=[36;35;14;37;31];weapon=Axe of Despair;assist=-;special=Night Sky;a=Atk/Def Solo 3;b=Dive-Bomb 2;c=Threat. Atk/Def 2;seal=-;ai={turn=1};};
+{unit=Morgan: Fated Darkness;pos=e1;rarity=4;slot=3;level=37;stats=[35;34;14;30;34];weapon=Tome of Despair;assist=-;special=Chilling Wind;a=Atk/Res Solo 3;b=Sabotage Def 2;c=Threat. Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b1;rarity=4;slot=4;level=37;stats=[30;32;22;14;31];weapon=Thoron;assist=-;special=Chilling Wind;a=Brazen Atk/Res 2;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Dimitri: Savage Boar;pos=a2;rarity=4;slot=5;level=37;stats=[36;38;34;35;14];weapon=Vengeful Lance;assist=-;special=Night Sky;a=Atk/Spd Solo 3;b=-;c=Odd Tempest 2;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Troubadour;pos=d1;rarity=4;slot=6;level=37;stats=[27;28;18;17;37];weapon=Fear;assist=Physic;special=Imbue;a=Attack/Res 2;b=-;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Edelgard: Hegemon Husk;pos=e1;rarity=4;slot=7;level=37;stats=[40;38;12;39;34];weapon=Twin-Crest Power;assist=-;special=Glowing Ember;a=Atk/Def Ideal 3;b=-;c=Armored Stride 2;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Lunatic=[
+{unit=Fáfnir: King of Desolation;pos=c2;rarity=5;slot=1;level=45;stats=[43;42;40;41;17];weapon=Hreiðmarr;assist=-;special=Luna;a=Heavy Blade 3;b=Even Pulse Tie 3;c=Savage Blow 3;seal=Niðavellir Axiom;ai={turn=2};};
+{unit=Morgan: Devoted Darkness;pos=a3;rarity=5;slot=2;level=45;stats=[43;43;18;45;38];weapon=Axe of Despair;assist=-;special=Glimmer;a=Atk/Def Solo 4;b=Dive-Bomb 3;c=Atk/Def Menace;seal=-;ai={turn=1};};
+{unit=Morgan: Fated Darkness;pos=e1;rarity=5;slot=3;level=45;stats=[41;40;18;39;42];weapon=Tome of Despair;assist=-;special=Iceberg;a=Atk/Res Solo 4;b=Sabotage Def 3;c=Atk/Res Menace;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=b1;rarity=5;slot=4;level=45;stats=[35;38;28;18;37];weapon=Thoron+;assist=-;special=Glacies;a=Brazen Atk/Res 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Dimitri: Savage Boar;pos=a2;rarity=5;slot=5;level=45;stats=[43;46;44;41;18];weapon=Vengeful Lance;assist=-;special=Glimmer;a=Atk/Spd Solo 4;b=Murderous Lion;c=Odd Tempest 3;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Troubadour;pos=d1;rarity=5;slot=6;level=45;stats=[32;35;23;22;45];weapon=Fear+;assist=Physic+;special=Heavenly Light;a=Attack/Res 2;b=-;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Edelgard: Hegemon Husk;pos=e1;rarity=5;slot=7;level=45;stats=[48;46;16;48;43];weapon=Twin-Crest Power;assist=-;special=Bonfire;a=Atk/Def Ideal 4;b=Armored Wall;c=Armored Stride 3;seal=-;ai={turn=1};spawn={turn=3};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Hegemon Husk|Forces of Will}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=過去を求めて
+|german=Spuren der Vergangenheit
+|spanishEU=Mirada al pasado
+|spanishLA=Mirada al pasado
+|french=Sur les traces du passé
+|italian=Indizi sul passato
+|chineseTW=尋覓過去
+|portuguese=Em busca do passado
+}}
+{{Story Maps Navbox|book=5}}

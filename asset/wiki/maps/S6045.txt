@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0604 C.webp
+|stageTitle=Chapter 4: Part 5
+|stageName=Coerced Parting
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 4: Princess Alone
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6045
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=12
+|lvlHard=33
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-02-18T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Idunn (Notification) }}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Letizia: Curse Director;pos=e8;rarity=3;slot=1;level=12;stats=[20;16;5;14;13];weapon=Elwind;assist=-;special=-;a=Atk/Res Catch 1;b=Chill Atk/Res 1;c=Rouse Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Idunn: Divine Demon;pos=e6;rarity=3;slot=2;level=12;stats=[21;17;10;17;14];weapon=Fire Breath+;assist=-;special=-;a=Sturdy Stance 1;b=Wily Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Hugh: Worldly Mage;pos=b6;rarity=3;slot=3;level=12;stats=[22;14;16;11;10];weapon=Elfire;assist=-;special=-;a=Spd/Def Ideal 1;b=-;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Niime: Mountain Hermit;pos=c7;rarity=3;slot=4;level=12;stats=[20;18;12;6;17];weapon=Elstone;assist=-;special=-;a=Atk/Res Solo 1;b=-;c=Threat. Atk/Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Letizia: Curse Director;pos=e8;rarity=4;slot=1;level=33;stats=[31;33;12;29;27];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Atk/Res Catch 2;b=Chill Atk/Res 2;c=Rouse Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Idunn: Divine Demon;pos=e6;rarity=4;slot=2;level=33;stats=[37;35;21;35;30];weapon=Flametongue;assist=-;special=Glowing Ember;a=Sturdy Stance 2;b=Wily Fighter 2;c=D/R Near Save 1;seal=-;ai={turn=1};};
+{unit=Hugh: Worldly Mage;pos=b6;rarity=4;slot=3;level=33;stats=[33;31;34;22;19];weapon=Bolganone;assist=-;special=New Moon;a=Spd/Def Ideal 3;b=-;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+{unit=Niime: Mountain Hermit;pos=c7;rarity=4;slot=4;level=33;stats=[31;35;26;13;35];weapon=Hvítrvulture;assist=-;special=Chilling Wind;a=Atk/Res Solo 3;b=-;c=Threat. Atk/Res 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Letizia: Curse Director;pos=e8;rarity=5;slot=1;level=45;stats=[41;44;17;38;37];weapon=Körmt;assist=-;special=Draconic Aura;a=Atk/Res Catch 3;b=Chill Atk/Res 2;c=Rouse Atk/Res 3;seal=-;ai={turn=1};};
+{unit=Idunn: Divine Demon;pos=e6;rarity=5;slot=2;level=45;stats=[49;47;29;47;42];weapon=Dew Dragonstone;assist=-;special=Bonfire;a=Sturdy Stance 3;b=Wily Fighter 3;c=D/R Near Save 3;seal=-;ai={turn=1};};
+{unit=Hugh: Worldly Mage;pos=b6;rarity=5;slot=3;level=45;stats=[43;42;46;30;26];weapon=Sell-Spell Tome;assist=-;special=Moonbow;a=Spd/Def Ideal 4;b=-;c=Rouse Atk/Spd 4;seal=-;ai={turn=1};};
+{unit=Niime: Mountain Hermit;pos=c7;rarity=5;slot=4;level=45;stats=[39;46;36;18;47];weapon=Hvítrvulture+;assist=-;special=Iceberg;a=Atk/Res Solo 4;b=-;c=Atk/Res Menace;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Friends One Day|True Conviction}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=告げられた別離
+|german=Erzwungener Abschied
+|spanishEU=Separación forzada
+|spanishLA=Separación forzada
+|french=Une séparation forcée
+|italian=Addio forzato
+|chineseTW=離別的告知
+|portuguese=Despedida forçada
+}}
+{{Story Maps Navbox|book=6}}

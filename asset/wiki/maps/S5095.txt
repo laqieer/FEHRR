@@ -1,0 +1,104 @@
+{{Battle Infobox
+|bannerImage=C0509 C.webp
+|stageTitle=Chapter 9: Part 5
+|stageName=Sensitive Soul
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 9: Echoes of Truth
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5095
+|backdrop=
+|allyPos=c7,d7,c6,d6
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=39
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-07-19T07:00:00Z|notification=New Heroes Summoning Event: Dawning Reality & Nifl (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S5095|backdrop=
+|allyPos=c7,d7,c6,d6
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Benny: Sensitive Soul;pos=c2;rarity=3;slot=1;level=26;stats=[35;23;15;30;22];weapon=Steel Lance;assist=-;special=Buckler;a=Bracing Stance 1;b=Wary Fighter 1;c=-;seal=-;ai={turn=1};};
+{unit=Orochi: Merry Diviner;pos=f2;rarity=3;slot=2;level=26;stats=[29;26;15;16;24];weapon=Elwind;assist=Draw Back;special=-;a=Mirror Strike 1;b=Atk/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Arete: Requiem's Beauty;pos=a1;rarity=3;slot=3;level=26;stats=[30;23;16;12;22];weapon=Elfire;assist=-;special=Chilling Wind;a=Atk/Res Push 1;b=-;c=Res Ploy 1;seal=-;ai={turn=1};};
+{unit=Charlotte: Wily Warrior;pos=e8;rarity=3;slot=4;level=26;stats=[34;29;27;17;10];weapon=Steel Axe;assist=-;special=Night Sky;a=Swift Sparrow 1;b=Frenzy 1;c=Time's Pulse 1;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Nyx: Rulebreaker Mage;pos=f6;rarity=3;slot=5;level=26;stats=[27;28;26;11;17];weapon=Ruin;assist=-;special=New Moon;a=Spd/Res Solo 1;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Axe Dragon;pos=d1;rarity=3;slot=6;level=26;stats=[30;23;16;24;11];weapon=Steel Axe;assist=Rally Attack;special=-;a=Sturdy Blow 1;b=-;c=Ground Orders 1;seal=-;ai={turn=1};};
+{unit=Blue Bow;pos=e1;rarity=3;slot=7;level=26;stats=[31;20;18;18;9];weapon=Steel Bow;assist=-;special=New Moon;a=-;b=Special Spiral 1;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Benny: Sensitive Soul;pos=c2;rarity=4;slot=1;level=39;stats=[45;33;20;42;31];weapon=Steadfast Lance;assist=-;special=Buckler;a=Bracing Stance 2;b=Wary Fighter 2;c=-;seal=-;ai={turn=1};};
+{unit=Orochi: Merry Diviner;pos=f2;rarity=4;slot=2;level=39;stats=[37;38;22;21;35];weapon=Rexcalibur;assist=Draw Back;special=-;a=Mirror Strike 2;b=Atk/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Arete: Requiem's Beauty;pos=a1;rarity=4;slot=3;level=39;stats=[38;34;24;18;32];weapon=Rauðrrabbit;assist=-;special=Chilling Wind;a=Atk/Res Push 2;b=-;c=Res Ploy 2;seal=-;ai={turn=1};};
+{unit=Charlotte: Wily Warrior;pos=e8;rarity=4;slot=4;level=39;stats=[45;41;39;22;16];weapon=Silver Axe;assist=-;special=Night Sky;a=Swift Sparrow 2;b=Frenzy 2;c=Time's Pulse 2;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Nyx: Rulebreaker Mage;pos=f6;rarity=4;slot=5;level=39;stats=[34;40;38;17;25];weapon=Fenrir;assist=-;special=New Moon;a=Spd/Res Solo 3;b=Null Follow-Up 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Axe Dragon;pos=d1;rarity=4;slot=6;level=39;stats=[38;33;24;34;17];weapon=Silver Axe;assist=Rally Up Atk;special=-;a=Sturdy Blow 2;b=-;c=Ground Orders 2;seal=-;ai={turn=1};};
+{unit=Blue Bow;pos=e1;rarity=4;slot=7;level=39;stats=[40;30;27;26;14];weapon=Brave Bow;assist=-;special=New Moon;a=-;b=Special Spiral 2;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b8;rarity=4;slot=8;level=39;stats=[41;29;28;28;19];weapon=Sapphire Lance;assist=-;special=Rising Thunder;a=Atk/Def Solo 2;b=Poison Strike 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Lunatic=[
+{unit=Benny: Sensitive Soul;pos=c2;rarity=5;slot=1;level=45;stats=[52;38;25;48;37];weapon=Steadfast Lance+;assist=-;special=Pavise;a=Bracing Stance 2;b=Wary Fighter 3;c=-;seal=-;ai={turn=1};};
+{unit=Orochi: Merry Diviner;pos=f2;rarity=5;slot=2;level=45;stats=[43;44;27;26;41];weapon=Tiger Spirit;assist=Draw Back;special=-;a=Mirror Strike 2;b=Atk/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Arete: Requiem's Beauty;pos=a1;rarity=5;slot=3;level=45;stats=[44;40;30;22;37];weapon=Rauðrrabbit+;assist=-;special=Glacies;a=Atk/Res Push 3;b=-;c=Res Ploy 3;seal=-;ai={turn=1};};
+{unit=Charlotte: Wily Warrior;pos=e8;rarity=5;slot=4;level=45;stats=[52;47;45;27;20];weapon=Fair-Fury Axe;assist=-;special=Glimmer;a=Swift Sparrow 3;b=Frenzy 3;c=Time's Pulse 3;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Nyx: Rulebreaker Mage;pos=f6;rarity=5;slot=5;level=45;stats=[39;46;44;21;31];weapon=Ginnungagap (weapon);assist=-;special=Luna;a=Spd/Res Solo 4;b=Null Follow-Up 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Axe Dragon;pos=d1;rarity=5;slot=6;level=45;stats=[44;38;30;39;21];weapon=Silver Axe+;assist=Rally Up Atk+;special=-;a=Sturdy Blow 2;b=-;c=Ground Orders 3;seal=-;ai={turn=1};};
+{unit=Blue Bow;pos=e1;rarity=5;slot=7;level=45;stats=[46;35;32;32;17];weapon=Brave Bow+;assist=-;special=Luna;a=-;b=Special Spiral 3;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=b8;rarity=5;slot=8;level=45;stats=[47;34;34;33;24];weapon=Sapphire Lance+;assist=-;special=Blazing Thunder;a=Atk/Def Solo 3;b=Poison Strike 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Wily Warrior|Dawning Reality}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=強面の重騎士
+|german=Sanftes Gemüt
+|spanishEU=Alma sensible
+|spanishLA=Alma sensible
+|french=Âme sensible
+|italian=Il gigante gentile
+|chineseTW=長相凶悍的重騎士
+|portuguese=Alma sensível
+}}
+{{Story Maps Navbox|book=5}}

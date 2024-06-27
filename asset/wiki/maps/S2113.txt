@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Olivia2_Unrevealed.png
+|stageTitle=Chapter 11-3
+|stageName=From the Depths of Hell
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 11: Prince of Ice
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2113
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2={{Ally|3}} | c2= | d2= | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_07.ogg
+|BGM2=bgm_boss3.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-07-20T07:00:00Z|notification=New Heroes: Ylissean Travelers (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Helbindi: Savage Scourge;pos=c7;rarity=3;slot=1;level=28;stats=[34;24;14;25;21];weapon=Silver Axe;assist=-;special=Retribution;a=Fury 1;b=Wrath 1;c=Panic Ploy 1;seal=-;ai={turn=1};};
+{unit=Maribelle: Dire Damsel;pos=b8;rarity=3;slot=2;level=28;stats=[26;24;22;10;17];weapon=Trilemma;assist=Martyr;special=Imbue;a=-;b=Dazzling Staff 1;c=Staff Valor 1;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;rarity=3;slot=3;level=28;stats=[33;20;20;20;14];weapon=Steel Lance;assist=Rally Attack;special=-;a=-;b=Def Feint 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Thief;pos=f7;rarity=3;slot=4;level=28;stats=[28;18;26;8;21];weapon=Steel Dagger;assist=-;special=New Moon;a=Atk/Spd Push 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a6;rarity=3;slot=5;level=28;stats=[33;21;20;19;18];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Brazen Def/Res 1;b=Poison Strike 2;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Helbindi: Savage Scourge;pos=c7;rarity=4;slot=1;level=37;stats=[41;32;19;33;27];weapon=Býleistr;assist=-;special=Retribution;a=Fury 2;b=Wrath 2;c=Panic Ploy 2;seal=-;ai={turn=1};};
+{unit=Maribelle: Dire Damsel;pos=b8;rarity=4;slot=2;level=37;stats=[31;32;29;13;23];weapon=Trilemma;assist=Martyr;special=Imbue;a=-;b=Dazzling Staff 2;c=Staff Valor 2;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;rarity=4;slot=3;level=37;stats=[39;27;26;27;19];weapon=Silver Lance;assist=Rally Attack;special=-;a=-;b=Def Feint 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Thief;pos=f7;rarity=4;slot=4;level=37;stats=[33;24;34;11;28];weapon=Smoke Dagger;assist=-;special=New Moon;a=Atk/Spd Push 2;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a6;rarity=4;slot=5;level=37;stats=[40;28;27;25;24];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=Brazen Def/Res 2;b=Poison Strike 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Helbindi: Savage Scourge;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[46;36;23;37;33];weapon=Býleistr;assist=-;special=Reprisal;a=Fury 3;b=Wrath 3;c=Panic Ploy 3;seal=-;ai={turn=1};};
+{unit=Maribelle: Dire Damsel;pos=b8;rarity=5;slot=2;level=42;displaylevel=40;stats=[35;36;34;16;28];weapon=Trilemma+;assist=Martyr+;special=Miracle;a=-;b=Dazzling Staff 3;c=Staff Valor 3;seal=-;ai={turn=1};};
+{unit=Lance Fighter;pos=d7;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;32;32;31;23];weapon=Silver Lance+;assist=Rally Atk/Spd;special=-;a=-;b=Def Feint 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Thief;pos=f7;rarity=5;slot=4;level=42;displaylevel=40;stats=[37;29;40;14;33];weapon=Smoke Dagger+;assist=-;special=Moonbow;a=Atk/Spd Push 3;b=-;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=a6;rarity=5;slot=5;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Dark Breath+;assist=-;special=Draconic Aura;a=Brazen Def/Res 3;b=Poison Strike 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Flower Fortunes|Dance in the Sky}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=地獄の底から
+|german=Der Hölle entstiegen
+|spanishEU=Salido del infierno
+|spanishLA=Salido del infierno
+|french=Retour de l'enfer
+|italian=Dalle profondità infernali
+|chineseTW=來自地獄深淵
+|portuguese=Profundezas do inferno
+}}
+{{Story Maps Navbox|book=2}}

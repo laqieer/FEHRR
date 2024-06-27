@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0301_C.png
+|stageTitle=Chapter 1: Part 5
+|stageName=Merciful Death
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 1: Death
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3015
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4={{Ally|1}} | b4={{Ally|2}} | c4= | d4= | e4= | f4=
+| a3={{Ally|3}} | b3={{Ally|4}} | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal=[{hero=Eir: Merciful Death;rarity=5};{kind=Light Blessing}];
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-12-11T03:00:00Z|notification=What's in Store for the 3.0.0 Update (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Eir: Merciful Death;pos=f6;rarity=3;slot=1;level=5;stats=[16;9;10;4;8];weapon=Iron Dagger;assist=-;special=-;a=Darting Blow 1;b=Mystic Boost 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f1;rarity=3;slot=2;level=5;stats=[20;9;5;6;9];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f7;rarity=3;slot=3;level=5;stats=[18;8;11;9;6];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f3;rarity=3;slot=4;level=5;stats=[18;8;9;5;7];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Eir: Merciful Death;pos=f6;rarity=4;slot=1;level=25;stats=[26;21;25;9;19];weapon=Silver Dagger;assist=-;special=Chilling Wind;a=Swift Sparrow 1;b=Mystic Boost 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f1;rarity=4;slot=2;level=25;stats=[30;23;15;16;20];weapon=Steel Sword;assist=-;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f7;rarity=4;slot=3;level=25;stats=[28;18;25;21;16];weapon=Fire Breath+;assist=-;special=-;a=Attack/Def +1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f3;rarity=4;slot=4;level=25;stats=[28;20;21;12;17];weapon=Elthunder;assist=-;special=-;a=-;b=-;c=Breath of Life 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Eir: Merciful Death;pos=f6;rarity=5;slot=1;level=45;displaylevel=40;stats=[38;35;41;16;34];weapon=Lyfjaberg;assist=-;special=Iceberg;a=Swift Sparrow 2;b=Mystic Boost 3;c=Sparkling Boost;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f1;rarity=5;slot=2;level=45;displaylevel=40;stats=[44;37;27;28;33];weapon=Slaying Edge+;assist=-;special=Moonbow;a=Life and Death 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f7;rarity=5;slot=3;level=45;displaylevel=40;stats=[42;32;39;35;30];weapon=Light Breath+;assist=-;special=-;a=Attack/Def +2;b=-;c=Goad Fliers;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f3;rarity=5;slot=4;level=45;displaylevel=40;stats=[40;34;35;22;31];weapon=Thoron+;assist=-;special=Noontime;a=-;b=-;c=Breath of Life 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Omnicidal Witch|The King's Order}}
+
+==In other languages==
+{{OtherLanguages
+|english=Merciful Death
+|japanese=優しき死神
+|german=Gnädiger Tod
+|spanishEU=Muerte piadosa
+|spanishLA=Muerte piadosa
+|french=Mort clémente
+|italian=La dolce morte
+|chineseTW=溫柔的死神
+|portuguese=Morte piedosa
+}}
+{{Story Maps Navbox|book=3}}

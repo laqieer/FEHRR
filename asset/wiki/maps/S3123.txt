@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner C0312.webp
+|stageTitle=Chapter 12-3
+|stageName=One's Own Shadow
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 12: Lethal Swordsman
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3123
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE15_07.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-10-21T07:00:00Z|notification=New Heroes: Zofia's Call (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Forsyth: Loyal Lieutenant;pos=c7;rarity=3;slot=1;level=30;stats=[37;29;14;28;23];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Def/Res Bond 1;b=Bold Fighter 1;c=Fortify Def 2;seal=-;ai={turn=1};};
+{unit=Python: Apathetic Archer;pos=b8;rarity=3;slot=2;level=30;stats=[31;22;24;21;14];weapon=Short Bow;assist=-;special=New Moon;a=Steady Blow 1;b=B Tomebreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Silque: Adherent of Mila;pos=d8;rarity=3;slot=3;level=30;stats=[30;23;16;24;24];weapon=Melancholy;assist=Recover;special=Earthfire Balm;a=-;b=Dazzling Staff 1;c=Staff Exp. 1;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=d7;rarity=3;slot=4;level=30;stats=[44;27;10;29;13];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Heavy Blade 1;b=-;c=Armor March 1;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;rarity=3;slot=5;level=30;stats=[32;24;17;18;21];weapon=Steel Lance;assist=-;special=Holy Vestments;a=Death Blow 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Forsyth: Loyal Lieutenant;pos=c7;rarity=4;slot=1;level=37;stats=[42;36;17;35;29];weapon=Sol Lance;assist=-;special=Glowing Ember;a=Def/Res Bond 2;b=Bold Fighter 2;c=Fortify Def 3;seal=-;ai={turn=1};};
+{unit=Python: Apathetic Archer;pos=b8;rarity=4;slot=2;level=37;stats=[35;28;31;27;17];weapon=Short Bow+;assist=-;special=New Moon;a=Steady Blow 1;b=B Tomebreaker 2;c=-;seal=-;ai={turn=1};};
+{unit=Silque: Adherent of Mila;pos=d8;rarity=4;slot=3;level=37;stats=[35;29;20;30;29];weapon=Melancholy+;assist=Recover+;special=Earthfire Balm;a=-;b=Dazzling Staff 2;c=Staff Exp. 2;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=d7;rarity=4;slot=4;level=37;stats=[50;34;13;36;16];weapon=Safeguard;assist=-;special=Glowing Ember;a=Heavy Blade 2;b=-;c=Armor March 2;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;rarity=4;slot=5;level=37;stats=[37;31;21;22;27];weapon=Firesweep Lance;assist=-;special=Holy Vestments;a=Death Blow 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Forsyth: Loyal Lieutenant;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[48;42;20;41;34];weapon=Sol Lance;assist=-;special=Bonfire;a=Def/Res Bond 3;b=Bold Fighter 3;c=Joint Hone Def;seal=-;ai={turn=1};};
+{unit=Python: Apathetic Archer;pos=b8;rarity=5;slot=2;level=42;displaylevel=40;stats=[39;33;37;32;20];weapon=Short Bow+;assist=-;special=Moonbow;a=Steady Blow 2;b=B Tomebreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Silque: Adherent of Mila;pos=d8;rarity=5;slot=3;level=42;displaylevel=40;stats=[40;34;24;37;32];weapon=Melancholy+;assist=Recover+;special=Earthfire Balm+;a=-;b=Dazzling Staff 3;c=Staff Exp. 3;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=d7;rarity=5;slot=4;level=42;displaylevel=40;stats=[57;40;16;42;19];weapon=Safeguard+;assist=-;special=Ignis;a=Heavy Blade 3;b=-;c=Armor March 3;seal=-;ai={turn=1};};
+{unit=Lance Cavalier;pos=f7;rarity=5;slot=5;level=42;displaylevel=40;stats=[42;35;25;26;31];weapon=Firesweep L+;assist=-;special=Sacred Cowl;a=Death Blow 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Silque: Adherent of Mila;text=Mother Mila...I beseech you... Please,\nwatch over this world...;textJP=ミラ様…\nどうかこの世界をお守りください…};
+]}}
+{{Story Navbar|Large Armor, Larger Heart|Middle Sister}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=己が影を追って
+|german=Wie der eigene Schatten
+|spanishEU=Tras su propia sombra
+|spanishLA=Tras su propia sombra
+|french=Courir après son ombre
+|italian=L'ombra di sé
+|chineseTW=追逐自己的影子
+|portuguese=Sua própria sombra
+}}
+{{Story Maps Navbox|book=3}}

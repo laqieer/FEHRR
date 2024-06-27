@@ -1,0 +1,79 @@
+{{Battle Infobox
+|bannerImage=Map C0309.webp
+|stageTitle=Chapter 9: Part 1
+|stageName=A Pause in Hostilities
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 9: Cohort of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3091
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3= | e3= | f3=
+| a2= | b2={{Ally|2}} | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=34
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE16_01.ogg
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-07-22T07:00:00Z|notification=New Heroes: Three Houses (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Byleth: Proven Professor;pos=b7;rarity=3;slot=1;level=22;stats=[27;20;23;18;11];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=Fury 1;b=Wrath 1;c=Even Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=3;slot=2;level=22;stats=[24;15;15;13;20];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=e7;rarity=3;slot=3;level=22;stats=[25;18;19;9;16];weapon=Steel Bow;assist=Rally Resistance;special=-;a=Fury 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d8;rarity=3;slot=4;level=22;stats=[26;17;18;11;15];weapon=Elthunder;assist=-;special=-;a=Atk/Res Solo 1;b=-;c=Res Ploy 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Byleth: Proven Professor;pos=b7;rarity=4;slot=1;level=34;stats=[34;29;34;27;16];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=Fury 2;b=Wrath 2;c=Even Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=4;slot=2;level=34;stats=[29;23;22;18;30];weapon=Absorb;assist=Recover;special=Imbue;a=-;b=Wings of Mercy 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=e7;rarity=4;slot=3;level=34;stats=[31;27;29;13;23];weapon=Slaying Bow;assist=Rally Def/Res;special=Dragon Gaze;a=Fury 2;b=Aerobatics 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d8;rarity=4;slot=4;level=34;stats=[32;26;27;16;22];weapon=Thoron;assist=-;special=Chilling Wind;a=Atk/Res Solo 2;b=-;c=Res Ploy 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Byleth: Proven Professor;pos=b7;rarity=5;slot=1;level=40;stats=[40;34;40;33;21];weapon=Creator Sword;assist=-;special=Ruptured Sky;a=Fury 4;b=Wrath 3;c=Even Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=5;slot=2;level=40;stats=[34;28;28;23;35];weapon=Absorb+;assist=Recover+;special=Heavenly Light;a=-;b=Wings of Mercy 3;c=Drive Res 2;seal=-;ai={turn=1};};
+{unit=Bow Flier;pos=e7;rarity=5;slot=3;level=40;stats=[36;32;34;17;29];weapon=Slaying Bow+;assist=Rally Def/Res+;special=Draconic Aura;a=Fury 3;b=Aerobatics 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=d8;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=-;special=Iceberg;a=Atk/Res Solo 3;b=-;c=Res Ploy 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Morgan & Morgan: Bound Hero Battle|The Protector}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=一時の休戦
+|german=Verbündete auf Zeit
+|spanishEU=Un alto al fuego
+|spanishLA=Un alto al fuego
+|french=Trêve précaire
+|italian=Una tregua temporanea
+|chineseTW=暫時休戰
+|portuguese=Trégua nas hostilidades
+}}
+{{Story Maps Navbox|book=3}}

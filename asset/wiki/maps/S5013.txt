@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0501.webp
+|stageTitle=Chapter 1: Part 3
+|stageName=Insight and Inroads
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 1: Machine Dominion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5013
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|lvlHard=22
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=6
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_07.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-12-08T07:00:00Z|notification=Book V Begins: Reginn and More Summoning Event (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Red Manakete;pos=c7;rarity=3;slot=1;level=3;stats=[18;8;8;7;6];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e7;rarity=3;slot=2;level=3;stats=[19;8;7;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Thief;pos=a6;rarity=3;slot=3;level=3;stats=[16;6;10;2;8];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=f6;rarity=3;slot=4;level=3;stats=[17;7;8;4;6];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Red Manakete;pos=c7;rarity=4;slot=1;level=22;stats=[30;20;19;17;16];weapon=Fire Breath+;assist=-;special=-;a=Fierce Stance 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e7;rarity=4;slot=2;level=22;stats=[30;20;18;17;8];weapon=Steel Bow;assist=-;special=Glowing Ember;a=-;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Thief;pos=a6;rarity=4;slot=3;level=22;stats=[26;16;24;7;20];weapon=Steel Dagger;assist=-;special=New Moon;a=Life and Death 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=f6;rarity=4;slot=4;level=22;stats=[27;19;20;11;16];weapon=Elwind;assist=-;special=-;a=-;b=-;c=Atk Ploy 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Red Manakete;pos=c7;rarity=5;slot=1;level=42;stats=[45;33;31;30;29];weapon=Water Breath+;assist=-;special=-;a=Fierce Stance 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e7;rarity=5;slot=2;level=42;stats=[44;33;30;30;16];weapon=Guard Bow+;assist=-;special=Ignis;a=-;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Thief;pos=a6;rarity=5;slot=3;level=42;stats=[37;29;40;14;33];weapon=Silver Dagger+;assist=-;special=Moonbow;a=Life and Death 3;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Mage;pos=f6;rarity=5;slot=4;level=42;stats=[38;32;33;20;29];weapon=Rexcalibur+;assist=-;special=-;a=-;b=-;c=Atk Ploy 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|King of Desolation|Royal Family}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=道を拓く鍵は
+|german=Einblicke und Überfälle
+|spanishEU=Presentimiento
+|spanishLA=Presentimiento
+|french=Pressentiments
+|italian=Fare breccia
+|chineseTW=開拓道路的關鍵
+|portuguese=Pressentimentos
+}}
+{{Story Maps Navbox|book=5}}

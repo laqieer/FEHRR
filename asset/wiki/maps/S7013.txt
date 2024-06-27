@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0701.webp
+|stageTitle=Chapter 13-3
+|stageName=Unraveling of Time
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 13: Time
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7013
+|backdrop=
+|allyPos=c2,b1,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=22
+|lvlHard=35
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_20.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Caeldori: Perfect Angel;pos=c7;rarity=3;slot=1;level=22;stats=[26;23;25;17;17];weapon=Steel Lance;assist=-;special=-;a=Atk/Spd Catch 1;b=-;c=Atk/Spd Rein 1;seal=-;ai={turn=1};};
+{unit=Kiragi: Upbeat Archer;pos=e7;rarity=3;slot=2;level=22;stats=[27;21;26;21;12];weapon=Steel Bow;assist=-;special=-;a=Swift Sparrow 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b7;rarity=3;slot=3;level=22;stats=[26;15;20;11;21];weapon=Steel Sword;assist=-;special=-;a=-;b=Flow Feather 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Mage;pos=a6;rarity=3;slot=4;level=22;stats=[26;17;18;11;15];weapon=Elwind;assist=-;special=-;a=Atk/Spd Form 1;b=-;c=Savage Blow 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Caeldori: Perfect Angel;pos=c7;rarity=4;slot=1;level=35;stats=[34;35;38;25;25];weapon=Silver Lance;assist=-;special=Dragon Gaze;a=Atk/Spd Catch 2;b=-;c=Atk/Spd Rein 2;seal=-;ai={turn=1};};
+{unit=Kiragi: Upbeat Archer;pos=e7;rarity=4;slot=2;level=35;stats=[35;32;38;32;19];weapon=Unbound Bow;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b7;rarity=4;slot=3;level=35;stats=[33;23;30;17;31];weapon=Allied Sword;assist=-;special=New Moon;a=-;b=Flow Feather 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Mage;pos=a6;rarity=4;slot=4;level=35;stats=[33;26;27;16;23];weapon=Rexcalibur;assist=-;special=Rising Wind;a=Atk/Spd Form 2;b=-;c=Savage Blow 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Caeldori: Perfect Angel;pos=c7;rarity=5;slot=1;level=42;stats=[40;42;45;31;32];weapon=Prodigy Polearm;assist=-;special=Draconic Aura;a=Atk/Spd Catch 4;b=-;c=Atk/Spd Hold;seal=-;ai={turn=1};};
+{unit=Kiragi: Upbeat Archer;pos=e7;rarity=5;slot=2;level=42;stats=[41;40;45;39;24];weapon=Unbound Bow+;assist=-;special=Luna;a=Swift Sparrow 2;b=-;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b7;rarity=5;slot=3;level=42;stats=[38;29;36;22;37];weapon=Allied Sword+;assist=-;special=Moonbow;a=-;b=Flow Feather 3;c=Ward Fliers;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Green Mage;pos=a6;rarity=5;slot=4;level=42;stats=[38;32;33;20;29];weapon=Rexcalibur+;assist=-;special=Blazing Wind;a=Atk/Spd Form 3;b=-;c=Savage Blow 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Caeldori: Perfect Angel;text=I must do my utmost...for myself and\nfor those who protected me...;textJP=もっと頑張らなきゃ。\n完璧な父さんに追いつけるように…};
+]
+}}
+{{Story Navbar|Birth of Time|End of Time}}
+==In other languages==
+{{OtherLanguages
+|japanese=時は幼き命を育て
+|german=Rätsel der Zeit
+|spanishEU=Desentrañar el tiempo
+|spanishLA=Desentrañar el tiempo
+|french=Le déroulement du temps
+|italian=Il groviglio del tempo
+|chineseTW=時間會培育幼小的生命
+|portuguese=O passar do tempo
+}}
+{{Story Maps Navbox|book=7}}

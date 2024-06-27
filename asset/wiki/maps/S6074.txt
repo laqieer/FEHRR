@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0607.webp
+|stageTitle=Chapter 7: Part 4
+|stageName=Between Sisters
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 7: To Be Emperor
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6074
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=35
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_13.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-05-10T07:00:00Z|notification=New Heroes Summoning Event: Beyond Control (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Letizia: Curse Director;pos=c8;rarity=3;slot=1;level=20;stats=[24;22;7;19;18];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Atk/Res Push 1;b=A/R Far Trace 1;c=Fatal Smoke 1;seal=-;ai={turn=1};};
+{unit=Rhea: Immaculate One;pos=c6;rarity=3;slot=2;level=20;stats=[30;25;9;22;23];weapon=Fire Breath+;assist=-;special=-;a=Bracing Stance 1;b=-;c=D/R Near Save 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d6;rarity=3;slot=3;level=20;stats=[37;21;7;23;9];weapon=Steel Lance;assist=Harsh Command;special=-;a=Def/Res Bond 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f7;rarity=3;slot=4;level=20;stats=[27;18;12;13;16];weapon=Steel Sword;assist=-;special=-;a=Atk/Spd Catch 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Letizia: Curse Director;pos=c8;rarity=4;slot=1;level=35;stats=[33;35;12;30;28];weapon=Körmt;assist=-;special=Dragon Gaze;a=Atk/Res Push 2;b=A/R Far Trace 2;c=Fatal Smoke 2;seal=-;ai={turn=1};};
+{unit=Rhea: Immaculate One;pos=c6;rarity=4;slot=2;level=35;stats=[40;38;14;35;36];weapon=Flametongue;assist=-;special=-;a=Bracing Stance 2;b=-;c=D/R Near Save 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d6;rarity=4;slot=3;level=35;stats=[49;33;12;35;15];weapon=Guard Lance;assist=Harsh Command;special=-;a=Def/Res Bond 2;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f7;rarity=4;slot=4;level=35;stats=[36;29;20;21;26];weapon=Armorsmasher;assist=-;special=-;a=Atk/Spd Catch 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Letizia: Curse Director;pos=c8;rarity=5;slot=1;level=43;stats=[39;43;17;37;36];weapon=Körmt;assist=-;special=Dragon Fang;a=Atk/Res Push 3;b=A/R Far Trace 3;c=Fatal Smoke 3;seal=-;ai={turn=1};};
+{unit=Rhea: Immaculate One;pos=c6;rarity=5;slot=2;level=43;stats=[48;46;19;43;45];weapon=Ruinous Frost;assist=-;special=Glimmer;a=Bracing Stance 3;b=True Dragon Wall;c=D/R Near Save 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=d6;rarity=5;slot=3;level=43;stats=[58;41;17;43;20];weapon=Guard Lance+;assist=Harsh Command+;special=-;a=Def/Res Bond 3;b=-;c=Ward Armor;seal=-;ai={turn=1};};
+{unit=Sword Cavalier;pos=f7;rarity=5;slot=4;level=43;stats=[42;36;26;27;31];weapon=Armorsmasher+;assist=-;special=Glimmer;a=Atk/Spd Catch 3;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Undying Breath|Descending Darkness}}
+==In other languages==
+{{OtherLanguages
+|japanese=姉、妹
+|german=Unter Schwestern
+|spanishEU=Entre hermanas
+|spanishLA=Entre hermanas
+|french=Entre sœurs
+|italian=Tra sorelle
+|chineseTW=姐妹
+|portuguese=Entre irmãs
+}}
+{{Story Maps Navbox|book=6}}

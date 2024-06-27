@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0602 C.webp
+|stageTitle=Chapter 2: Part 5
+|stageName=Curse Director
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 2: Curse Directive
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6025
+|backdrop=
+|allyPos=c8,d8,c7,d7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=28
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VI Begins: Ash and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Elm: Retainer to Embla;pos=b1;rarity=3;slot=1;level=7;stats=[21;11;15;7;9];weapon=Hatchling (Flier);assist=-;special=-;a=Atk/Spd Solo 1;b=Guard 1;c=Threat. Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Priam: Radiant Hero;pos=f3;rarity=3;slot=2;level=7;stats=[20;14;13;13;6];weapon=Iron Sword;assist=-;special=-;a=Atk/Def Ideal 1;b=Null Follow-Up 1;c=Rouse Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Miriel: Rapier Intellect;pos=e1;rarity=3;slot=3;level=7;stats=[19;11;13;7;9];weapon=Thunder;assist=Draw Back;special=-;a=Atk/Spd Ideal 1;b=Spd/Res Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Basilio: Feroxi West-Khan;pos=d1;rarity=3;slot=4;level=7;stats=[22;16;9;12;5];weapon=Iron Axe;assist=-;special=-;a=Atk/Def Bond 1;b=-;c=Atk Tactic 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Elm: Retainer to Embla;pos=b1;rarity=4;slot=1;level=28;stats=[32;27;31;18;21];weapon=Fledgling (Flier);assist=-;special=Rising Wind;a=Atk/Spd Solo 2;b=Guard 2;c=Threat. Spd/Def 1;seal=-;ai={turn=1};};
+{unit=Priam: Radiant Hero;pos=f3;rarity=4;slot=2;level=28;stats=[31;30;28;26;17];weapon=Steel Sword;assist=-;special=Daylight;a=Atk/Def Ideal 2;b=Null Follow-Up 2;c=Rouse Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Miriel: Rapier Intellect;pos=e1;rarity=4;slot=3;level=28;stats=[29;27;29;17;21];weapon=Elthunder;assist=Draw Back;special=-;a=Atk/Spd Ideal 2;b=Spd/Res Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Basilio: Feroxi West-Khan;pos=d1;rarity=4;slot=4;level=28;stats=[37;32;23;27;14];weapon=Steel Axe;assist=-;special=New Moon;a=Atk/Def Bond 2;b=-;c=Atk Tactic 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Elm: Retainer to Embla;pos=b1;rarity=5;slot=1;level=45;stats=[44;41;46;30;34];weapon=Fang of Closure;assist=-;special=Blazing Wind;a=Atk/Spd Solo 3;b=Guard 3;c=Threat. Spd/Def 2;seal=-;ai={turn=1};};
+{unit=Priam: Radiant Hero;pos=f3;rarity=5;slot=2;level=45;stats=[43;45;44;38;29];weapon=Ancient Ragnell;assist=-;special=Sol;a=Atk/Def Ideal 4;b=Null Follow-Up 3;c=Rouse Spd/Def 4;seal=-;ai={turn=1};};
+{unit=Miriel: Rapier Intellect;pos=e1;rarity=5;slot=3;level=45;stats=[40;41;44;28;34];weapon=Blárlion+;assist=Draw Back;special=-;a=Atk/Spd Ideal 3;b=Spd/Res Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Basilio: Feroxi West-Khan;pos=d1;rarity=5;slot=4;level=45;stats=[52;47;36;39;23];weapon=Spirited Axe+;assist=-;special=Moonbow;a=Atk/Def Bond 3;b=-;c=Atk Tactic 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|East-Khan and West-Khan|Dueling Spirit}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=呪詛部隊の長
+|german=Fürstin der Flüche
+|spanishEU=Líder maldita
+|spanishLA=Líder maldita
+|french=Dirigeante maudite
+|italian=Il colonnello degli Untori
+|chineseTW=詛咒部隊隊長
+|portuguese=Diretora maldita
+}}
+{{Story Maps Navbox|book=6}}

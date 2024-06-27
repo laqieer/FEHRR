@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0709.webp
+|stageTitle=Chapter 9-4
+|stageName=Prince's Concern
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 9: The Innocent
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7094
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=25
+|lvlHard=37
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE17_15.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-07-18T07:00:00Z|notification=New Heroes Summoning Event: Rearmed Eitr & Rearmed Alcryst (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Alcryst: Tender Archer;pos=d7;slot=1;rarity=3;level=25;stats=[28;28;30;17;14];weapon=Steel Bow;assist=-;special=Night Sky;a=Flashing Blade 1;b=-;c=Def Smoke 1;seal=-;ai={group=1};};
+{unit=Diamant: Rising Power;pos=c6;slot=2;rarity=3;level=25;stats=[29;31;21;27;13];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Def Finish 1;b=Atk/Spd Bulwark 1;c=Time's Pulse 1;seal=-;ai={group=1};};
+{unit=Citrinne: Caring Noble;pos=b6;slot=3;rarity=3;level=25;stats=[27;31;16;12;28];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Special Spiral 1;c=Atk/Res Oath 1;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=e6;slot=4;rarity=3;level=25;stats=[30;21;14;15;19];weapon=Steel Lance;assist=-;special=Night Sky;a=Atk/Def Bond 1;b=Lull Atk/Def 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Axe Knight;pos=d5;slot=5;rarity=3;level=25;stats=[40;24;9;26;11];weapon=Steel Axe;assist=-;special=Holy Vestments;a=Def/Res Form 1;b=-;c=Distant Guard 1;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+]
+|Hard=[
+{unit=Alcryst: Tender Archer;pos=d7;slot=1;rarity=4;level=37;stats=[35;39;41;26;21];weapon=Silver Bow;assist=-;special=Night Sky;a=Flashing Blade 2;b=-;c=Def Smoke 2;seal=-;ai={group=1};};
+{unit=Diamant: Rising Power;pos=c6;slot=2;rarity=4;level=37;stats=[36;42;31;38;18];weapon=Silver Sword;assist=-;special=Glowing Ember;a=Atk/Def Finish 2;b=Atk/Spd Bulwark 2;c=Time's Pulse 2;seal=-;ai={group=1};};
+{unit=Citrinne: Caring Noble;pos=b6;slot=3;rarity=4;level=37;stats=[34;42;23;19;39];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=-;b=Special Spiral 2;c=Atk/Res Oath 2;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=e6;slot=4;rarity=4;level=37;stats=[37;31;21;22;27];weapon=Ridersbane;assist=-;special=Night Sky;a=Atk/Def Bond 2;b=Lull Atk/Def 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Axe Knight;pos=d5;slot=5;rarity=4;level=37;stats=[50;34;13;36;16];weapon=Barrier Axe;assist=-;special=Holy Vestments;a=Def/Res Form 2;b=-;c=Distant Guard 2;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+]
+|Lunatic=[
+{unit=Alcryst: Tender Archer;pos=d7;slot=1;rarity=5;level=43;stats=[40;46;48;32;26];weapon=Arcane Darkbow;assist=-;special=Deadeye;a=Flash Sparrow;b=Get Behind Me!;c=Def/Res Smoke 3;seal=-;ai={group=1};};
+{unit=Diamant: Rising Power;pos=c6;slot=2;rarity=5;level=43;stats=[43;49;39;45;22];weapon=Fair-Fight Blade;assist=-;special=Bonfire;a=Atk/Def Finish 4;b=Atk/Spd Bulwark 3;c=Time's Pulse 4;seal=-;ai={group=1};};
+{unit=Citrinne: Caring Noble;pos=b6;slot=3;rarity=5;level=43;stats=[39;49;28;24;46];weapon=Tome of Luxuries;assist=-;special=Iceberg;a=-;b=Special Spiral 4;c=Atk/Res Oath 4;seal=-;ai={group=1};};
+{unit=Lance Cavalier;pos=e6;slot=4;rarity=5;level=43;stats=[42;36;26;27;31];weapon=Ridersbane+;assist=-;special=Glimmer;a=Atk/Def Bond 3;b=Lull Atk/Def 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+{unit=Axe Knight;pos=d5;slot=5;rarity=5;level=43;stats=[58;41;17;43;20];weapon=Barrier Axe+;assist=-;special=Aegis;a=Def/Res Form 3;b=-;c=Distant Guard 3;seal=-;accessory=Golden Curse (Accessory);ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Alcryst: Tender Archer;text=I feel sick with guilt every time\nthe Heroes call me one of them.;textJP=英雄と呼ばれるたびに、\n恐縮で胃が痛んで病気になりそうです…};
+]
+}}
+{{Story Navbar|Sisters|Coiling of Serpents}}
+==In other languages==
+{{OtherLanguages
+|japanese=第二王子の悩み
+|german=Sorge des Prinzen
+|spanishEU=La inquietud del príncipe
+|spanishLA=La inquietud del príncipe
+|french=Tourment du prince
+|italian=Cruccio principesco
+|chineseTW=第二王子的煩惱
+|portuguese=Preocupação do príncipe
+}}
+{{Story Maps Navbox|book=7}}

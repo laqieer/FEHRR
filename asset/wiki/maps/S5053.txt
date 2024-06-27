@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0505.webp
+|stageTitle=Chapter 5: Part 3
+|stageName=Dozing Classmate
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 5: Night and Day
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5053
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=13
+|lvlHard=32
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-03-05T07:00:00Z|notification=New Heroes Summoning Event: Seeds of Fódlan (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Linhardt: Hevring's Heir;pos=e7;rarity=3;slot=1;level=13;stats=[22;14;10;13;16];weapon=Assault;assist=Mend;special=-;a=-;b=Renewal 1;c=Distant Guard 1;seal=-;ai={group=1};};
+{unit=Red Flier;pos=f6;rarity=3;slot=2;level=13;stats=[20;12;15;5;13];weapon=Elfire;assist=-;special=-;a=-;b=Aerobatics 1;c=Spd/Res Rein 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=c6;rarity=3;slot=3;level=13;stats=[25;12;12;13;8];weapon=Steel Axe;assist=-;special=-;a=Life and Death 1;b=Close Call 1;c=-;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d6;rarity=3;slot=4;level=13;stats=[24;13;13;12;11];weapon=Fire Breath+;assist=-;special=-;a=Fury 1;b=-;c=Odd Spd Wave 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Linhardt: Hevring's Heir;pos=e7;rarity=4;slot=1;level=32;stats=[32;27;19;23;31];weapon=Pain;assist=Physic;special=Imbue;a=-;b=Renewal 2;c=Distant Guard 2;seal=-;ai={group=1};};
+{unit=Red Flier;pos=f6;rarity=4;slot=2;level=32;stats=[29;22;30;11;25];weapon=Rauðrfox;assist=-;special=New Moon;a=-;b=Aerobatics 2;c=Spd/Res Rein 2;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=c6;rarity=4;slot=3;level=32;stats=[36;24;23;24;17];weapon=Silver Axe;assist=-;special=Dragon Gaze;a=Life and Death 2;b=Close Call 2;c=-;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d6;rarity=4;slot=4;level=32;stats=[36;25;24;22;21];weapon=Flametongue;assist=-;special=Dragon Gaze;a=Fury 2;b=-;c=Odd Spd Wave 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Linhardt: Hevring's Heir;pos=e7;rarity=5;slot=1;level=42;stats=[40;35;26;31;40];weapon=Pain+;assist=Physic+;special=Miracle;a=-;b=Renewal 3;c=Distant Guard 3;seal=-;ai={group=1};};
+{unit=Red Flier;pos=f6;rarity=5;slot=2;level=42;stats=[35;30;39;16;33];weapon=Rauðrfox+;assist=-;special=Luna;a=-;b=Aerobatics 3;c=Spd/Res Rein 3;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=c6;rarity=5;slot=3;level=42;stats=[45;32;32;31;23];weapon=Silver Axe+;assist=-;special=Draconic Aura;a=Life and Death 3;b=Close Call 3;c=-;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d6;rarity=5;slot=4;level=42;stats=[45;33;31;30;29];weapon=Flametongue+;assist=-;special=Dragon Fang;a=Fury 3;b=-;c=Odd Spd Wave 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Sincere Knight|Margrave's Daughter}}
+==In other languages==
+{{OtherLanguages
+|japanese=居眠り同級生
+|german=Dösender Klassenkamerad
+|spanishEU=Compañero dormilón
+|spanishLA=Compañero dormilón
+|french=Camarade paresseux
+|italian=Lo studente svogliato
+|chineseTW=打瞌睡的同學
+|portuguese=Colega dorminhoco
+}}
+{{Story Maps Navbox|book=5}}

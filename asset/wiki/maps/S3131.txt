@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0313.webp
+|stageTitle=Chapter 13-1
+|stageName=Obey Me
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 13: Marvelous Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3131
+|backdrop=WavePatternHell
+|allyPos=b3,b2,c2,c1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE08_03.ogg
+}}
+
+==Map availability==
+This map is a [[Story Maps|Main Story]] map which was made available on:
+* {{MapDates|start=2019-11-07T07:00:00Z|notification=New Heroes: Desert Mercenaries (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Ross: His Father's Son;pos=c7;rarity=3;slot=1;level=30;stats=[36;27;21;21;17];weapon=Brave Axe;assist=Smite;special=-;a=Fire Boost 1;b=-;c=Threaten Def 1;seal=-;ai={group=1};};
+{unit=Ewan: Eager Student;pos=f5;rarity=3;slot=2;level=30;stats=[29;26;23;16;24];weapon=Rauðrserpent;assist=-;special=Chilling Wind;a=Swift Stance 1;b=Sabotage Spd 1;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=e8;rarity=3;slot=3;level=30;stats=[31;25;15;17;16];weapon=Steel Bow;assist=Rally Defense;special=-;a=Life and Death 1;b=Spd Feint 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=f3;rarity=3;slot=4;level=30;stats=[44;27;10;29;13];weapon=Steel Lance;assist=-;special=Glowing Ember;a=-;b=Wary Fighter 1;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=3;slot=5;level=30;stats=[27;19;19;16;25];weapon=Assault;assist=Reconcile;special=Kindled-Fire Balm;a=-;b=Live to Serve 1;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Ross: His Father's Son;pos=c7;rarity=4;slot=1;level=35;stats=[41;33;26;26;20];weapon=Brave Axe+;assist=Smite;special=-;a=Fire Boost 2;b=-;c=Threaten Def 2;seal=-;ai={group=1};};
+{unit=Ewan: Eager Student;pos=f5;rarity=4;slot=2;level=35;stats=[33;32;28;19;29];weapon=Rauðrserpent+;assist=-;special=Chilling Wind;a=Swift Stance 1;b=Sabotage Spd 2;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=e8;rarity=4;slot=3;level=35;stats=[35;30;18;20;20];weapon=Silver Bow;assist=Rally Atk/Def;special=-;a=Life and Death 2;b=Spd Feint 2;c=-;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=f3;rarity=4;slot=4;level=35;stats=[49;33;12;35;15];weapon=Slaying Lance;assist=-;special=Glowing Ember;a=-;b=Wary Fighter 2;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=4;slot=5;level=35;stats=[30;24;23;19;30];weapon=Pain;assist=Restore;special=Fireflood Balm;a=-;b=Live to Serve 2;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Ross: His Father's Son;pos=c7;rarity=5;slot=1;level=40;stats=[47;38;31;32;24];weapon=Brave Axe+;assist=Smite;special=-;a=Fire Boost 3;b=-;c=Threaten Def 3;seal=-;ai={group=1};};
+{unit=Ewan: Eager Student;pos=f5;rarity=5;slot=2;level=40;stats=[38;37;33;23;35];weapon=Rauðrserpent+;assist=-;special=Glacies;a=Swift Stance 2;b=Sabotage Spd 3;c=-;seal=-;ai={group=1};};
+{unit=Bow Cavalier;pos=e8;rarity=5;slot=3;level=40;stats=[40;35;22;24;23];weapon=Silver Bow+;assist=Rally Atk/Def+;special=-;a=Life and Death 3;b=Spd Feint 3;c=-;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=f3;rarity=5;slot=4;level=40;stats=[55;38;16;40;19];weapon=Slaying Lance+;assist=-;special=Bonfire;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=5;slot=5;level=40;stats=[34;28;28;23;35];weapon=Pain+;assist=Restore+;special=Fireflood Balm+;a=-;b=Live to Serve 3;c=-;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Alm & Faye: Bound Hero Battle|On That Hill, Together}}
+==In other languages==
+{{OtherLanguages
+|japanese=私に従え
+|german=Gehorche mir
+|spanishEU=«Haz lo que te digo»
+|spanishLA="Haz lo que te digo"
+|french=Tu vas m'obéir
+|italian=Obbediscimi
+|chineseTW=服從我
+|portuguese=Quem manda sou eu
+}}
+{{Story Maps Navbox|book=3}}

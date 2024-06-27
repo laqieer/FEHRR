@@ -1,0 +1,93 @@
+{{Battle Infobox
+|bannerImage=C0312 C.webp
+|stageTitle=Chapter 12-5
+|stageName=If Not I, Then You...
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 12: Lethal Swordsman
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3125
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-10-21T07:00:00Z|notification=New Heroes: Zofia's Call (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage={{MapLayout|baseMap=S3125}}
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=3;slot=1;level=32;stats=[34;28;22;25;20];weapon=Sökkvabekkr;assist=-;special=Aether;a=Death Blow 2;b=Special Spiral 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Catria: Mild Middle Sister;pos=f7;rarity=3;slot=2;level=32;stats=[33;28;27;20;18];weapon=Silver Sword;assist=Harsh Command;special=-;a=Atk/Spd Bond 2;b=Aerobatics 1;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Forsyth: Loyal Lieutenant;pos=c6;rarity=3;slot=3;level=32;stats=[39;30;14;30;24];weapon=Silver Lance;assist=Pivot;special=Glowing Ember;a=Def/Res Bond 1;b=Bold Fighter 1;c=Fortify Def 2;seal=-;ai={turn=1};};
+{unit=Python: Apathetic Archer;pos=f8;rarity=3;slot=4;level=32;stats=[31;23;26;23;14];weapon=Short Bow;assist=-;special=New Moon;a=Steady Blow 1;b=B Tomebreaker 1;c=-;seal=-;ai={turn=1};};
+{unit=Silque: Adherent of Mila;pos=e7;rarity=3;slot=5;level=32;stats=[31;25;16;25;24];weapon=Melancholy;assist=Recover;special=Earthfire Balm;a=-;b=Dazzling Staff 1;c=Staff Exp. 1;seal=-;ai={turn=1};};
+{unit=Valbar: Open and Honest;pos=b1;rarity=3;slot=6;level=32;stats=[40;27;18;28;20];weapon=Brave Lance;assist=-;special=Retribution;a=HP/Atk 1;b=Obstruct 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Conrad: Masked Knight;pos=a7;rarity=3;slot=7;level=32;stats=[32;23;16;25;26];weapon=Barrier Lance;assist=-;special=Chilling Wind;a=Bracing Stance 1;b=Chill Atk 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Leon: True of Heart;pos=a1;rarity=3;slot=8;level=32;stats=[31;25;22;22;11];weapon=Slaying Bow;assist=-;special=Glowing Ember;a=Speed +1;b=Guard 1;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=4;slot=1;level=40;stats=[39;35;28;31;25];weapon=Sökkvabekkr;assist=-;special=Aether;a=Death Blow 3;b=Special Spiral 2;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Catria: Mild Middle Sister;pos=f7;rarity=4;slot=2;level=40;stats=[38;36;34;25;22];weapon=Astra Blade;assist=Harsh Command+;special=-;a=Atk/Spd Bond 3;b=Aerobatics 2;c=Spd Tactic 2;seal=-;ai={turn=1};};
+{unit=Forsyth: Loyal Lieutenant;pos=c6;rarity=4;slot=3;level=40;stats=[44;38;18;37;30];weapon=Sol Lance;assist=Pivot;special=Glowing Ember;a=Def/Res Bond 2;b=Bold Fighter 2;c=Fortify Def 3;seal=-;ai={turn=1};};
+{unit=Python: Apathetic Archer;pos=f8;rarity=4;slot=4;level=40;stats=[36;29;33;29;18];weapon=Short Bow+;assist=-;special=New Moon;a=Steady Blow 2;b=B Tomebreaker 2;c=-;seal=-;ai={turn=1};};
+{unit=Silque: Adherent of Mila;pos=e7;rarity=4;slot=5;level=40;stats=[36;31;21;32;30];weapon=Melancholy+;assist=Recover+;special=Earthfire Balm;a=-;b=Dazzling Staff 2;c=Staff Exp. 2;seal=-;ai={turn=1};};
+{unit=Valbar: Open and Honest;pos=b1;rarity=4;slot=6;level=40;stats=[46;33;23;35;25];weapon=Brave Lance+;assist=-;special=Retribution;a=HP/Atk 2;b=Obstruct 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Conrad: Masked Knight;pos=a7;rarity=4;slot=7;level=40;stats=[37;28;20;32;33];weapon=Barrier Lance+;assist=-;special=Chilling Wind;a=Bracing Stance 2;b=Chill Atk 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Leon: True of Heart;pos=a1;rarity=4;slot=8;level=40;stats=[36;32;27;28;14];weapon=Slaying Bow+;assist=-;special=Glowing Ember;a=Speed +2;b=Guard 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=5;slot=1;level=45;displaylevel=40;stats=[45;40;33;37;31];weapon=Sökkvabekkr;assist=-;special=Aether;a=Death Blow 4;b=Special Spiral 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Catria: Mild Middle Sister;pos=f7;rarity=5;slot=2;level=45;displaylevel=40;stats=[44;42;39;30;26];weapon=Astra Blade;assist=Harsh Command+;special=-;a=Atk/Spd Bond 4;b=Aerobatics 3;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Forsyth: Loyal Lieutenant;pos=c6;rarity=5;slot=3;level=45;displaylevel=40;stats=[50;44;22;43;36];weapon=Sol Lance;assist=Pivot;special=Bonfire;a=Def/Res Bond 3;b=Bold Fighter 3;c=Joint Hone Def;seal=-;ai={turn=1};};
+{unit=Python: Apathetic Archer;pos=f8;rarity=5;slot=4;level=45;displaylevel=40;stats=[41;35;39;34;22];weapon=Short Bow+;assist=-;special=Moonbow;a=Steady Blow 2;b=B Tomebreaker 3;c=-;seal=-;ai={turn=1};};
+{unit=Silque: Adherent of Mila;pos=e7;rarity=5;slot=5;level=45;displaylevel=40;stats=[42;36;26;39;34];weapon=Melancholy+;assist=Recover+;special=Earthfire Balm+;a=-;b=Dazzling Staff 3;c=Staff Exp. 3;seal=-;ai={turn=1};};
+{unit=Valbar: Open and Honest;pos=b1;rarity=5;slot=6;level=45;displaylevel=40;stats=[53;38;28;42;28];weapon=Brave Lance+;assist=-;special=Vengeance;a=HP/Atk 2;b=Obstruct 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Conrad: Masked Knight;pos=a7;rarity=5;slot=7;level=45;displaylevel=40;stats=[43;34;24;37;38];weapon=Barrier Lance+;assist=-;special=Glacies;a=Bracing Stance 2;b=Chill Atk 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Leon: True of Heart;pos=a1;rarity=5;slot=8;level=45;displaylevel=40;stats=[42;37;33;33;17];weapon=Slaying Bow+;assist=-;special=Ignis;a=Speed +3;b=Guard 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Middle Sister|Common Virtues}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=せめて、君たちは
+|german=Wenn nicht ich, dann Ihr...
+|spanishEU=«Triunfad donde yo fallé...»
+|spanishLA="Triunfen donde yo fallé..."
+|french=J'ai échoué mais vous...
+|italian=Riesci dove io ho fallito
+|chineseTW=至少你們……
+|portuguese=Eu falhei, mas vocês...
+}}
+{{Story Maps Navbox|book=3}}

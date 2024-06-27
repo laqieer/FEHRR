@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=Banner_Fjorm Unrevealed.png
+|mapName=Chapter 2-1: Lady of Snow
+|stageTitle=Chapter 2: Part 1
+|stageName=Lady of Snow
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 2: Princess of Ice
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2021
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3={{Ally|1}} | b3={{Ally|2}} | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|3}} | c2={{Ally|4}} | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=3
+|lvlHard=23
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_04.ogg
+|BGM2=bgm_menu_theme01.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2017-11-28T04:00:00Z|notification=What's in Store for the 2.0.0 Update (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Veronica: Emblian Princess;pos=c8;rarity=3;slot=1;level=3;stats=[17;6;4;3;1];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c6;rarity=3;slot=2;level=3;stats=[16;5;6;2;2];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f4;rarity=3;slot=3;level=3;stats=[15;3;6;0;2];weapon=Thunder;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f1;rarity=3;slot=4;level=3;stats=[17;3;6;4;0];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Veronica: Emblian Princess;pos=c8;rarity=4;slot=1;level=23;stats=[28;23;13;18;13];weapon=Elwind;assist=-;special=Glowing Ember;a=Mirror Strike 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c6;rarity=4;slot=2;level=23;stats=[31;20;19;17;16];weapon=Fire Breath+;assist=-;special=-;a=-;b=Renewal 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f4;rarity=4;slot=3;level=23;stats=[27;19;20;12;16];weapon=Elthunder;assist=-;special=-;a=Warding Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f1;rarity=4;slot=4;level=23;stats=[31;19;18;19;13];weapon=Steel Sword;assist=-;special=-;a=Fury 1;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Veronica: Emblian Princess;pos=c8;rarity=5;slot=1;level=40;stats=[41;35;22;29;21];weapon=Élivágar;assist=-;special=Bonfire;a=Mirror Strike 2;b=-;c=Drive Def 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=c6;rarity=5;slot=2;level=40;stats=[44;32;30;29;28];weapon=Lightning Breath+;assist=-;special=Dragon Fang;a=Warding Stance 3;b=Renewal 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f4;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Blárraven+;assist=-;special=-;a=Swift Strike 2;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=f1;rarity=5;slot=4;level=40;stats=[44;31;31;30;22];weapon=Silver Sword+;assist=-;special=-;a=Fury 3;b=-;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar| Enchantress of the Mist|Ruler of Flame}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=雪の娘
+|german=Schneeherrin
+|spanishEU=Señora nívea
+|spanishLA=Señora nívea
+|french=La dame des neiges
+|italian=La dama della neve
+|chineseTW=雪之女
+|portuguese=Dama da neve
+}}
+{{Story Maps Navbox|book=2}}

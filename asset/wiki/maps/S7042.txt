@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0704.webp
+|stageTitle=Chapter 7: Part 2
+|stageName=Queen's Advisor
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 7: Goddess Reunion
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7042
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=8
+|lvlHard=29
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE10_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-02-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Elincia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Lucia: Tireless Advisor;pos=d7;rarity=3;slot=1;level=8;stats=[20;14;18;7;9];weapon=Steel Sword;assist=Harsh Command;special=-;a=Life and Death 1;b=Repel 1;c=-;seal=-;ai={turn=1};};
+{unit=Bastian: Crimea's Keystone;pos=c7;rarity=3;slot=2;level=8;stats=[20;15;6;4;18];weapon=Elwind;assist=-;special=-;a=-;b=Sabotage Res 1;c=Atk Ploy 1;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=3;slot=3;level=8;stats=[28;13;4;15;5];weapon=Iron Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=Distant Guard 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=3;slot=4;level=8;stats=[21;11;7;8;10];weapon=Iron Axe;assist=-;special=-;a=Atk/Def Catch 1;b=A/D Near Trace 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Lucia: Tireless Advisor;pos=d7;rarity=4;slot=1;level=29;stats=[31;31;35;20;22];weapon=Silver Sword;assist=Harsh Command;special=-;a=Life and Death 2;b=Repel 2;c=Even Tempest 1;seal=-;ai={turn=1};};
+{unit=Bastian: Crimea's Keystone;pos=c7;rarity=4;slot=2;level=29;stats=[31;33;19;13;35];weapon=Gronndeer;assist=-;special=Chilling Wind;a=-;b=Sabotage Res 2;c=Atk Ploy 2;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=4;slot=3;level=29;stats=[44;29;10;31;13];weapon=Steel Lance;assist=-;special=Retribution;a=-;b=Wary Fighter 2;c=Distant Guard 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=4;slot=4;level=29;stats=[32;25;17;18;22];weapon=Steel Axe;assist=-;special=New Moon;a=Atk/Def Catch 2;b=A/D Near Trace 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Lucia: Tireless Advisor;pos=d7;rarity=5;slot=1;level=41;stats=[40;42;46;29;33];weapon=Queensblade;assist=Harsh Command+;special=-;a=Life and Death 4;b=Repel 4;c=Even Tempest 3;seal=-;ai={turn=1};};
+{unit=Bastian: Crimea's Keystone;pos=c7;rarity=5;slot=2;level=41;stats=[40;45;28;21;46];weapon=Gronndeer+;assist=-;special=Iceberg;a=-;b=Sabotage Res 3;c=Atk Ploy 3;seal=-;ai={turn=1};};
+{unit=Lance Knight;pos=c5;rarity=5;slot=3;level=41;stats=[56;39;16;41;19];weapon=Vanguard+;assist=-;special=Reprisal;a=-;b=Wary Fighter 3;c=Distant Guard 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=f6;rarity=5;slot=4;level=41;stats=[41;35;25;26;30];weapon=Brave Axe+;assist=-;special=Luna;a=Atk/Def Catch 3;b=A/D Near Trace 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ár of the Sea God|Precious Creatures}}
+==In other languages==
+{{OtherLanguages
+|japanese=女王の護衛
+|german=Beraterin der Königin
+|spanishEU=La consejera de la reina
+|spanishLA=La consejera de la reina
+|french=Conseillère de la reine
+|italian=Consigliera reale
+|chineseTW=女王的護衛
+|portuguese=Conselheira da rainha
+}}
+{{Story Maps Navbox|book=7}}

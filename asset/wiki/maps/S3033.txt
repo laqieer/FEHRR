@@ -1,0 +1,87 @@
+{{Battle Infobox
+|bannerImage=C0303.png
+|stageTitle=Chapter 3: Part 3
+|stageName=Fangs of the Wolf Queen
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 3: Countdown
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3033
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=27
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_03.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-01-11T07:00:00Z|notification=New Heroes: Rulers of the Laguz (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nailah: Unflinching Eye;pos=c7;rarity=3;slot=1;level=7;stats=[20;9;13;10;5];weapon=Whelp (Infantry);assist=-;special=-;a=-;b=Null C-Disrupt 1;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=f7;rarity=3;slot=2;level=7;stats=[21;10;6;7;10];weapon=Iron Sword;assist=Ardent Sacrifice;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d7;rarity=3;slot=3;level=7;stats=[20;10;10;9;8];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=a6;rarity=3;slot=4;level=7;stats=[19;9;10;6;8];weapon=Wind;assist=Rally Attack;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Nailah: Unflinching Eye;pos=c7;rarity=4;slot=1;level=27;stats=[30;21;27;23;15];weapon=Yearling (Infantry);assist=-;special=New Moon;a=-;b=Null C-Disrupt 2;c=-;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=f7;rarity=4;slot=2;level=27;stats=[31;24;16;17;21];weapon=Steel Sword;assist=Ardent Sacrifice;special=-;a=-;b=-;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d7;rarity=4;slot=3;level=27;stats=[33;23;21;19;18];weapon=Fire Breath+;assist=-;special=Daylight;a=Bracing Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=a6;rarity=4;slot=4;level=27;stats=[29;22;23;13;18];weapon=Elwind;assist=Rally Up Atk;special=-;a=-;b=Guard 1;c=-;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Nailah: Unflinching Eye;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[41;32;38;33;24];weapon=Wolf Queen Fang;assist=-;special=Moonbow;a=Distant Counter;b=Null C-Disrupt 3;c=Glare;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=f7;rarity=5;slot=2;level=42;displaylevel=40;stats=[42;35;25;26;31];weapon=Silver Sword+;assist=Ardent Sacrifice;special=-;a=-;b=Renewal 3;c=Drive Spd 2;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d7;rarity=5;slot=3;level=42;displaylevel=40;stats=[45;33;31;30;29];weapon=Flametongue+;assist=-;special=Noontime;a=Bracing Blow 2;b=-;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=a6;rarity=5;slot=4;level=42;displaylevel=40;stats=[38;32;33;20;29];weapon=Rexcalibur+;assist=Rally Up Atk+;special=-;a=-;b=Guard 3;c=-;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Nailah: Unflinching Eye;text=You'd discuss with me a contract for\nHeroes? That's a curious topic...;textJP=英雄に、契約…なんとも物珍しい話だ。\nさて、異邦のベオクよ。\nせっかくの縁だ、ひとつ腕比べといこうか？};
+  {text=Still, you are here now, beorc of\nanother realm. Shall we see who is\nstronger?};
+]}}
+{{Story Navbar|The Ominous Raven|Hawk and Heron}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=狼女王の牙
+|german=Wolfzahn der Königin
+|spanishEU=La reina lobo
+|spanishLA=La reina lobo
+|french=La reine des loups
+|italian=Zanne della regina dei lupi
+|chineseTW=狼女王之牙
+|portuguese=Presas da rainha lobo
+}}
+{{Story Maps Navbox|book=3}}

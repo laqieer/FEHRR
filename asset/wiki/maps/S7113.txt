@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0711.webp
+|stageTitle=Chapter 11-3
+|stageName=Against the Limitless
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 11: Without Limits
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7113
+|backdrop=
+|allyPos=a1,b1,e1,f1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_03.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-09-15T07:00:00Z|notification=Special Summon: Rearmed Plumeria & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Arion: Gungnir's Heir;pos=d8;slot=1;rarity=3;level=28;stats=[30;30;25;30;15];weapon=Silver Lance;assist=-;special=Glowing Ember;a=Atk/Def Catch 1;b=Wyvern Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d6;slot=2;rarity=3;level=28;stats=[31;24;17;25;12];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Atk/Def Clash 1;b=-;c=Atk/Def Rein 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Flier;pos=b8;slot=3;rarity=3;level=28;stats=[26;19;25;10;21];weapon=Elfire;assist=-;special=Rising Flame;a=Fury 1;b=Spd Preempt 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;slot=4;rarity=3;level=28;stats=[30;24;14;16;15];weapon=Steel Bow;assist=-;special=Night Sky;a=Atk/Spd Catch 1;b=-;c=Savage Blow 1;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Axe Knight;pos=a6;slot=5;rarity=3;level=28;stats=[42;26;10;28;12];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Death Blow 1;b=Bold Fighter 1;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Hard=[
+{unit=Arion: Gungnir's Heir;pos=d8;slot=1;rarity=4;level=37;stats=[36;40;32;40;18];weapon=Heired Gungnir;assist=-;special=Glowing Ember;a=Atk/Def Catch 2;b=Wyvern Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d6;slot=2;rarity=4;level=37;stats=[37;32;23;33;16];weapon=Instant Axe;assist=-;special=Glowing Ember;a=Atk/Def Clash 2;b=-;c=Atk/Def Rein 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Flier;pos=b8;slot=3;rarity=4;level=37;stats=[31;25;33;13;28];weapon=Bolganone;assist=-;special=Rising Flame;a=Fury 2;b=Spd Preempt 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;slot=4;rarity=4;level=37;stats=[36;32;19;21;21];weapon=Brave Bow;assist=-;special=Night Sky;a=Atk/Spd Catch 2;b=-;c=Savage Blow 2;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Axe Knight;pos=a6;slot=5;rarity=4;level=37;stats=[50;34;13;36;16];weapon=Slaying Axe;assist=-;special=Glowing Ember;a=Death Blow 2;b=Bold Fighter 2;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+|Lunatic=[
+{unit=Arion: Gungnir's Heir;pos=d8;slot=1;rarity=5;level=42;stats=[42;47;37;48;21];weapon=Heired Gungnir;assist=-;special=Ignis;a=Atk/Def Catch 3;b=Wyvern Flight 3;c=-;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=d6;slot=2;rarity=5;level=42;stats=[42;36;28;37;19];weapon=Instant Axe+;assist=-;special=Bonfire;a=Atk/Def Clash 3;b=-;c=Atk/Def Rein 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Red Flier;pos=b8;slot=3;rarity=5;level=42;stats=[35;30;39;16;33];weapon=Bolganone+;assist=-;special=Growing Flame;a=Fury 3;b=Spd Preempt 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Bow Cavalier;pos=e8;slot=4;rarity=5;level=42;stats=[41;36;23;25;24];weapon=Brave Bow+;assist=-;special=Deadeye;a=Atk/Spd Catch 3;b=-;c=Savage Blow 3;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+{unit=Axe Knight;pos=a6;slot=5;rarity=5;level=42;stats=[57;40;16;42;19];weapon=Slaying Axe+;assist=-;special=Ignis;a=Death Blow 3;b=Bold Fighter 3;c=-;seal=-;accessory=Golden Curse (Accessory);ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Youthful Thief|Sage of the Wind}}
+==In other languages==
+{{OtherLanguages
+|japanese=一と無限
+|german=Gegen das Grenzenlose
+|spanishEU=Contra el infinito
+|spanishLA=Contra el infinito
+|french=Contre l'infini
+|italian=Contro l'infinito
+|chineseTW=一與無限
+|portuguese=Contra o infinito
+}}
+{{Story Maps Navbox|book=7}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=Banner_Olivia2_Unrevealed.png
+|stageTitle=Chapter 11-2
+|stageName=Flower Fortunes
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 11: Prince of Ice
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2112
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2= | c2={{Ally|3}} | d2={{Ally|4}} | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE13_07.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-07-20T07:00:00Z|notification=New Heroes: Ylissean Travelers (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sumia: Maid of Flowers;pos=c7;rarity=3;slot=1;level=27;stats=[29;19;26;19;16];weapon=Reprisal Lance;assist=Reposition;special=-;a=Close Def 1;b=Atk/Def Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a7;rarity=3;slot=2;level=27;stats=[30;23;14;15;15];weapon=Steel Bow;assist=-;special=Daylight;a=Bracing Stance 1;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d7;rarity=3;slot=3;level=27;stats=[28;18;23;13;24];weapon=Steel Sword;assist=Draw Back;special=-;a=Fury 1;b=Hit and Run;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e8;rarity=3;slot=4;level=27;stats=[31;23;17;24;12];weapon=Steel Axe;assist=-;special=New Moon;a=Attack/Def +1;b=Flier Formation 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=3;slot=5;level=27;stats=[28;20;21;13;18];weapon=Elthunder;assist=Pivot;special=Chilling Wind;a=Swift Sparrow 1;b=Watersweep 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Sumia: Maid of Flowers;pos=c7;rarity=4;slot=1;level=36;stats=[34;25;35;25;21];weapon=Reprisal Lance;assist=Reposition;special=-;a=Close Def 2;b=Atk/Def Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a7;rarity=4;slot=2;level=36;stats=[35;31;18;20;20];weapon=Guard Bow;assist=-;special=Daylight;a=Bracing Stance 1;b=Quick Riposte 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d7;rarity=4;slot=3;level=36;stats=[33;23;31;17;32];weapon=Armorsmasher;assist=Draw Back;special=-;a=Fury 2;b=Hit and Run;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e8;rarity=4;slot=4;level=36;stats=[36;31;22;32;15];weapon=Slaying Axe;assist=-;special=New Moon;a=Attack/Def +1;b=Flier Formation 2;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=4;slot=5;level=36;stats=[33;27;28;16;23];weapon=Thoron;assist=Pivot;special=Chilling Wind;a=Swift Sparrow 1;b=Watersweep 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Sumia: Maid of Flowers;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[39;30;40;29;26];weapon=Reprisal Lance+;assist=Reposition;special=-;a=Close Def 3;b=Atk/Def Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=a7;rarity=5;slot=2;level=41;displaylevel=40;stats=[40;36;23;25;24];weapon=Guard Bow+;assist=-;special=Noontime;a=Bracing Stance 2;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=d7;rarity=5;slot=3;level=41;displaylevel=40;stats=[38;28;36;22;37];weapon=Armorsmasher+;assist=Draw Back;special=-;a=Fury 3;b=Hit and Run;c=Ward Fliers;seal=-;ai={turn=1};};
+{unit=Axe Dragon;pos=e8;rarity=5;slot=4;level=41;displaylevel=40;stats=[41;36;27;37;19];weapon=Slaying Axe+;assist=-;special=Moonbow;a=Attack/Def +2;b=Flier Formation 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Mage;pos=f7;rarity=5;slot=5;level=41;displaylevel=40;stats=[38;31;32;20;28];weapon=Thoron+;assist=Pivot;special=Iceberg;a=Swift Sparrow 2;b=Watersweep 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Enemy of My Enemy|From the Depths of Hell}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=花占いの行方
+|german=Blumenorakel
+|spanishEU=Deshojando margaritas
+|spanishLA=Deshojando margaritas
+|french=Oracles floraux
+|italian=Divinazione con i fiori
+|chineseTW=花占卜的去向
+|portuguese=Desfolhando margaridas
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0707.webp
+|stageTitle=Chapter 3-4
+|stageName=Ashen Demon
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 3: Within Wheels
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7074
+|backdrop=
+|allyPos=a5,b5,a4,b4
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=35
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_18.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-05-09T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Chrom (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Byleth: Vengeance Vessel;pos=f2;rarity=3;slot=1;level=20;stats=[26;24;24;17;15];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=-;b=Close Call 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f4;rarity=3;slot=2;level=20;stats=[25;15;20;17;13];weapon=Fire Breath+;assist=-;special=Holy Vestments;a=Fury 1;b=-;c=Atk/Spd Rein 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=3;slot=3;level=20;stats=[22;19;13;8;18];weapon=Elthunder;assist=-;special=Rising Thunder;a=Mirror Strike 1;b=Lull Atk/Res 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Manakete;pos=d8;rarity=3;slot=4;level=20;stats=[28;17;16;15;14];weapon=Fire Breath+;assist=-;special=New Moon;a=Heavy Blade 1;b=Dragon's Ire 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Byleth: Vengeance Vessel;pos=f2;rarity=4;slot=1;level=35;stats=[35;38;39;26;22];weapon=Silver Sword;assist=-;special=Dragon Gaze;a=-;b=Close Call 2;c=Time's Pulse 2;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f4;rarity=4;slot=2;level=35;stats=[34;24;31;27;22];weapon=Water Breath;assist=-;special=Holy Vestments;a=Fury 2;b=-;c=Atk/Spd Rein 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=4;slot=3;level=35;stats=[29;30;21;13;29];weapon=Blárfox;assist=-;special=Rising Thunder;a=Mirror Strike 1;b=Lull Atk/Res 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Manakete;pos=d8;rarity=4;slot=4;level=35;stats=[38;27;26;24;23];weapon=Lightning Breath;assist=-;special=New Moon;a=Heavy Blade 2;b=Dragon's Ire 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Byleth: Vengeance Vessel;pos=f2;rarity=5;slot=1;level=43;stats=[41;46;50;34;26];weapon=Captain's Sword;assist=-;special=Divine Pulse;a=Distant A/S Solo;b=Close Call 4;c=Time's Pulse 4;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f4;rarity=5;slot=2;level=43;stats=[40;30;38;34;28];weapon=Water Breath+;assist=-;special=Aegis;a=Fury 3;b=-;c=Atk/Spd Rein 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Cavalier;pos=f7;rarity=5;slot=3;level=43;stats=[34;37;27;18;36];weapon=Blárfox+;assist=-;special=Growing Thunder;a=Mirror Strike 2;b=Lull Atk/Res 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Manakete;pos=d8;rarity=5;slot=4;level=43;stats=[46;34;31;30;29];weapon=Lightning Breath+;assist=-;special=Moonbow;a=Heavy Blade 3;b=Dragon's Ire 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Byleth: Vengeance Vessel;text=It yet remains behind a veil to me...\nTell me, why am I here?;textJP=いまだ…すべては思い出せぬか…\nわしは…なぜここに…};
+]
+}}
+{{Story Navbar|Future Light|Future's Return}}
+==In other languages==
+{{OtherLanguages
+|japanese=灰色の悪魔
+|german=Bleicher Dämon
+|spanishEU=Azote Sombrío
+|spanishLA=Azote Sombrío
+|french=Démon Cendré
+|italian=Flagello Cinereo
+|chineseTW=灰色惡魔
+|portuguese=Frieza demoníaca
+}}
+{{Story Maps Navbox|book=7}}

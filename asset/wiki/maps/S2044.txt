@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=Banner_Eirika (Sacred Memories) Unrevealed.png
+|mapName=Chapter 4-4: The Young Dragon
+|stageTitle=Chapter 4: Part 4
+|stageName=The Young Dragon
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 4: Fiery Resolve
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2044
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2= | d2= | e2={{Ally|2}} | f2=
+| a1= | b1= | c1={{Ally|3}} | d1={{Ally|4}} | e1= | f1=
+}}
+|lvlNormal=11
+|lvlHard=31
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE08_02.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-01-25T07:00:00Z|notification=New Heroes: Sacred Memories (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Myrrh: Great Dragon;pos=c6;rarity=3;slot=1;level=11;stats=[21;10;8;7;9];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Fury 1;b=-;c=Hone Atk 1;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d6;rarity=3;slot=2;level=11;stats=[23;10;11;9;8];weapon=Fire Breath+;assist=-;special=New Moon;a=-;b=-;c=Fortify Def 1;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=a6;rarity=3;slot=3;level=11;stats=[21;8;13;5;13];weapon=Steel Sword;assist=-;special=-;a=Death Blow 1;b=-;c=Spur Def 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f6;rarity=3;slot=4;level=11;stats=[24;9;10;10;6];weapon=Steel Axe;assist=Pivot;special=-;a=Armored Blow 1;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Myrrh: Great Dragon;pos=c6;rarity=4;slot=1;level=31;stats=[34;26;19;26;24];weapon=Flametongue;assist=-;special=Glowing Ember;a=Fury 2;b=-;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d6;rarity=4;slot=2;level=31;stats=[36;25;23;21;20];weapon=Dark Breath;assist=-;special=New Moon;a=-;b=Vantage 1;c=Fortify Def 2;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=a6;rarity=4;slot=3;level=31;stats=[31;20;28;15;29];weapon=Wo Dao;assist=-;special=Chilling Wind;a=Death Blow 2;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f6;rarity=4;slot=4;level=31;stats=[36;24;23;23;16];weapon=Silver Axe;assist=Pivot;special=-;a=Armored Blow 2;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Myrrh: Great Dragon;pos=c6;rarity=5;slot=1;level=43;displaylevel=40;stats=[44;35;27;38;33];weapon=Great Flame;assist=-;special=Bonfire;a=Fury 3;b=-;c=Hone Dragons;seal=-;ai={group=1};};
+{unit=Blue Manakete;pos=d6;rarity=5;slot=2;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Dark Breath+;assist=-;special=Luna;a=-;b=Vantage 3;c=Fortify Dragons;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=a6;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;29;37;22;38];weapon=Wo Dao+;assist=-;special=Iceberg;a=Death Blow 3;b=-;c=Ward Fliers;seal=-;ai={group=1};};
+{unit=Axe Fighter;pos=f6;rarity=5;slot=4;level=43;displaylevel=40;stats=[46;33;33;31;23];weapon=Silver Axe+;assist=Pivot;special=-;a=Armored Blow 3;b=-;c=Drive Def 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Princesses in Shadow|Fiery Resolve}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=幼き竜人
+|german=Der junge Drache
+|spanishEU=La joven dragona
+|spanishLA=La joven dragona
+|french=Le jeune dragon
+|italian=Il giovane drago
+|chineseTW=幼小的龍人
+|portuguese=A jovem dragão
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0313.webp
+|stageTitle=Chapter 13-3
+|stageName=Mere Playthings
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 13: Marvelous Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3133
+|backdrop=WavePatternHell
+|allyPos=b2,c2,d2,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=32
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE08_03.ogg
+|BGM2=bgm_boss5.ogg
+}}
+
+==Map availability==
+This map is a [[Story Maps|Main Story]] map which was made available on:
+* {{MapDates|start=2019-11-07T07:00:00Z|notification=New Heroes: Desert Mercenaries (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=3;slot=1;level=32;stats=[34;28;22;25;20];weapon=Sökkvabekkr;assist=-;special=Aether;a=Death Blow 2;b=Special Spiral 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=3;slot=2;level=32;stats=[32;25;28;17;19];weapon=Ífingr;assist=-;special=Luna;a=Swift Sparrow 1;b=Null Follow-Up 1;c=Odd Atk Wave 1;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a8;rarity=3;slot=3;level=32;stats=[33;25;17;18;22];weapon=Steel Axe;assist=-;special=Holy Vestments;a=Distant Def 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=d6;rarity=3;slot=4;level=32;stats=[31;21;27;24;19];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=-;b=Aerobatics 1;c=Atk Opening 1;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=f7;rarity=3;slot=5;level=32;stats=[33;26;19;27;13];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Heavy Blade 1;b=-;c=Odd Def Wave 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=4;slot=1;level=37;stats=[37;34;27;30;24];weapon=Sökkvabekkr;assist=-;special=Aether;a=Death Blow 3;b=Special Spiral 2;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=4;slot=2;level=37;stats=[36;29;33;20;23];weapon=Ífingr;assist=-;special=Luna;a=Swift Sparrow 2;b=Null Follow-Up 2;c=Odd Atk Wave 2;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a8;rarity=4;slot=3;level=37;stats=[37;31;21;22;27];weapon=Silver Axe;assist=-;special=Holy Vestments;a=Distant Def 2;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=d6;rarity=4;slot=4;level=37;stats=[35;25;33;28;23];weapon=Flametongue;assist=-;special=Dragon Gaze;a=-;b=Aerobatics 2;c=Atk Opening 2;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=f7;rarity=4;slot=5;level=37;stats=[37;32;23;33;16];weapon=Harmonic Lance;assist=-;special=Glowing Ember;a=Heavy Blade 2;b=-;c=Odd Def Wave 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=5;slot=1;level=42;displaylevel=40;stats=[43;38;31;35;29];weapon=Sökkvabekkr;assist=-;special=Aether;a=Death Blow 4;b=Special Spiral 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Thrasir: Omnicidal Witch;pos=e7;rarity=5;slot=2;level=42;displaylevel=40;stats=[41;34;39;24;28];weapon=Ífingr;assist=-;special=Luna;a=Swift Sparrow 3;b=Null Follow-Up 3;c=Odd Atk Wave 3;seal=-;ai={turn=1};};
+{unit=Axe Cavalier;pos=a8;rarity=5;slot=3;level=42;displaylevel=40;stats=[42;35;25;26;31];weapon=Silver Axe+;assist=-;special=Sacred Cowl;a=Distant Def 3;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=d6;rarity=5;slot=4;level=42;displaylevel=40;stats=[40;30;37;33;28];weapon=Flametongue+;assist=-;special=Draconic Aura;a=-;b=Aerobatics 3;c=Atk Opening 3;seal=-;ai={turn=1};};
+{unit=Lance Dragon;pos=f7;rarity=5;slot=5;level=42;displaylevel=40;stats=[42;36;28;37;19];weapon=Harmonic Lance+;assist=-;special=Bonfire;a=Heavy Blade 3;b=-;c=Odd Def Wave 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|On That Hill, Together|Don't Struggle}}
+==In other languages==
+{{OtherLanguages
+|japanese=玩弄されるもの
+|german=Bloße Marionetten
+|spanishEU=Meras marionetas
+|spanishLA=Meras marionetas
+|french=Marionnettes macabres
+|italian=Macabre marionette
+|chineseTW=被玩弄之人
+|portuguese=Vidas insignificantes
+}}
+{{Story Maps Navbox|book=3}}

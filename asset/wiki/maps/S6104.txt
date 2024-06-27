@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0610.webp
+|stageTitle=Chapter 10-4
+|stageName=Fated Divinity
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 10: God of Openness
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6104
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=27
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_15.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-08-17T07:00:00Z|notification=New Heroes Summoning Event: Weave of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Tiki: Fated Divinity;pos=c7;rarity=3;slot=1;level=27;stats=[30;28;17;25;28];weapon=Fire Breath+;assist=-;special=Night Sky;a=Atk/Res Finish 1;b=-;c=Threat. Def/Res 1;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=b6;rarity=3;slot=2;level=27;stats=[29;19;24;21;17];weapon=Fire Breath+;assist=-;special=Glowing Ember;a=Atk/Spd Catch 1;b=Dive-Bomb 1;c=-;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d6;rarity=3;slot=3;level=27;stats=[32;21;20;19;18];weapon=Fire Breath+;assist=-;special=Dragon Gaze;a=Distant Def 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=3;slot=4;level=27;stats=[26;18;18;15;23];weapon=Assault;assist=Mend;special=-;a=Still Water 1;b=Dazzling Staff 1;c=-;seal=-;ai={group=1};};
+{unit=Green Thief;pos=a6;rarity=3;slot=5;level=27;stats=[27;18;25;8;21];weapon=Steel Dagger;assist=-;special=New Moon;a=-;b=Mystic Boost 1;c=Time's Pulse 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Tiki: Fated Divinity;pos=c7;rarity=4;slot=1;level=38;stats=[36;38;23;34;38];weapon=Remote Breath;assist=-;special=Night Sky;a=Atk/Res Finish 2;b=-;c=Threat. Def/Res 1;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=b6;rarity=4;slot=2;level=38;stats=[35;25;33;29;23];weapon=Flametongue;assist=-;special=Glowing Ember;a=Atk/Spd Catch 2;b=Dive-Bomb 2;c=-;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d6;rarity=4;slot=3;level=38;stats=[40;29;27;25;24];weapon=Lightning Breath;assist=-;special=Dragon Gaze;a=Distant Def 2;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=4;slot=4;level=38;stats=[31;25;24;20;32];weapon=Gravity;assist=Physic;special=-;a=Still Water 2;b=Dazzling Staff 2;c=-;seal=-;ai={group=1};};
+{unit=Green Thief;pos=a6;rarity=4;slot=5;level=38;stats=[33;24;35;11;29];weapon=Quick Dagger;assist=-;special=New Moon;a=-;b=Mystic Boost 2;c=Time's Pulse 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Tiki: Fated Divinity;pos=c7;rarity=5;slot=1;level=43;stats=[41;45;28;39;44];weapon=Remote Breath;assist=-;special=Glimmer;a=Atk/Res Finish 4;b=New Divinity;c=Def/Res Menace;seal=-;ai={group=1};};
+{unit=Blue Fáfnir;pos=b6;rarity=5;slot=2;level=43;stats=[40;30;38;34;28];weapon=Flametongue+;assist=-;special=Bonfire;a=Atk/Spd Catch 3;b=Dive-Bomb 3;c=-;seal=-;ai={group=1};};
+{unit=Red Manakete;pos=d6;rarity=5;slot=3;level=43;stats=[46;34;31;30;29];weapon=Lightning Breath+;assist=-;special=Draconic Aura;a=Distant Def 3;b=Drag Back;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=d8;rarity=5;slot=4;level=43;stats=[35;29;29;24;37];weapon=Gravity+;assist=Physic+;special=-;a=Still Water 3;b=Dazzling Staff 3;c=-;seal=-;ai={group=1};};
+{unit=Green Thief;pos=a6;rarity=5;slot=5;level=43;stats=[38;29;41;14;34];weapon=Quick Dagger+;assist=-;special=Luna;a=-;b=Mystic Boost 3;c=Time's Pulse 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Fine Successors|Yggdrasill Key}}
+==In other languages==
+{{OtherLanguages
+|japanese=神竜の目覚め
+|german=Schicksalsgottheit
+|spanishEU=Deidad predestinada
+|spanishLA=Deidad predestinada
+|french=Déesse prédestinée
+|italian=Dea predestinata
+|chineseTW=神龍甦醒
+|portuguese=Fado divino
+}}
+{{Story Maps Navbox|book=6}}

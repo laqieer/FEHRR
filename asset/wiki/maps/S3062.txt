@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0306.png
+|stageTitle=Chapter 6: Part 2
+|stageName=Warriors of the Laguz
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 6: Realm of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3062
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3={{Ally|1}} | d3={{Ally|2}} | e3= | f3=
+| a2= | b2={{Ally|3}} | c2= | d2= | e2={{Ally|4}} | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=15
+|lvlHard=32
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_05.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-04-10T07:00:00Z|notification=New Heroes: Out of Gallia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Mordecai: Kindhearted Tiger;pos=c7;rarity=3;slot=1;level=15;stats=[27;18;10;17;8];weapon=Yearling (Infantry);assist=Smite;special=-;a=-;b=Atk/Def Link 1;c=Beast Exp. 1;seal=-;ai={turn=1};};
+{unit=Ranulf: Friend of Nations;pos=d7;rarity=3;slot=2;level=15;stats=[22;14;18;14;7];weapon=Yearling (Cavalry);assist=Rally Defense;special=-;a=-;b=Chill Atk 1;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=b7;rarity=3;slot=3;level=15;stats=[25;14;14;13;12];weapon=Fire Breath+;assist=Pivot;special=-;a=Brazen Def/Res 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=3;slot=4;level=15;stats=[21;12;12;10;16];weapon=Assault;assist=Mend;special=-;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Mordecai: Kindhearted Tiger;pos=c7;rarity=4;slot=1;level=32;stats=[39;30;18;31;15];weapon=Adult (Infantry);assist=Smite;special=-;a=-;b=Atk/Def Link 2;c=Beast Exp. 2;seal=-;ai={turn=1};};
+{unit=Ranulf: Friend of Nations;pos=d7;rarity=4;slot=2;level=32;stats=[32;24;30;25;12];weapon=Adult (Cavalry);assist=Rally Atk/Def;special=-;a=-;b=Chill Atk 2;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=b7;rarity=4;slot=3;level=32;stats=[36;25;24;22;21];weapon=Water Breath;assist=Pivot;special=-;a=Brazen Def/Res 2;b=-;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=4;slot=4;level=32;stats=[29;22;21;18;28];weapon=Fear;assist=Physic;special=Earthwater Balm;a=-;b=-;c=Drive Res 1;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Mordecai: Kindhearted Tiger;pos=c7;rarity=5;slot=1;level=41;displaylevel=40;stats=[48;38;25;40;20];weapon=Sabertooth Fang;assist=Smite;special=-;a=-;b=Atk/Def Link 3;c=Beast Exp. 3;seal=-;ai={turn=1};};
+{unit=Ranulf: Friend of Nations;pos=d7;rarity=5;slot=2;level=41;displaylevel=40;stats=[40;30;38;34;17];weapon=Covert Cat Fang;assist=Rally Atk/Def+;special=-;a=-;b=Chill Atk 3;c=Ward Beasts;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=b7;rarity=5;slot=3;level=41;displaylevel=40;stats=[45;32;30;29;28];weapon=Water Breath+;assist=Pivot;special=-;a=Brazen Def/Res 3;b=-;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=e8;rarity=5;slot=4;level=41;displaylevel=40;stats=[35;28;28;24;36];weapon=Fear+;assist=Physic+;special=Earthwater Balm+;a=-;b=-;c=Drive Res 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Ranulf: Friend of Nations;text=I'm Ranulf, right hand to Gallia's\nfuture king...basically.;textJP=オレはライ。\n次代のガリア王の片腕だ。一応な。};
+]}}
+{{Story Navbar|Tragedy upon Tragedy|Death Visits Again}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=獣戦士たち
+|german=Krieger der Laguz
+|spanishEU=Los guerreros laguz
+|spanishLA=Los guerreros laguz
+|french=Guerriers des Laguz
+|italian=I guerrieri laguz
+|chineseTW=獸戰士們
+|portuguese=Guerreiros dos laguz
+}}
+{{Story Maps Navbox|book=3}}

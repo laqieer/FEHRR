@@ -1,0 +1,81 @@
+{{Battle Infobox
+|bannerImage=C0710 C.webp
+|stageTitle=Chapter 10-5
+|stageName=Your Wish, Granted
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 10: Light's Fading
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7105
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=28
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_menu_goldwitch.ogg
+}}
+==Map availability==
+This [[Main Story]] map was made available on:
+* {{MapDates|start=2023-08-16T07:00:00Z|notification=New Heroes Summoning Event: Turn of Fate (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Gullveig: Seer Beyond Time;pos=f6;slot=1;rarity=3;level=28;stats=[29;32;32;16;12];weapon=Ellight;assist=-;special=New Moon;a=Swift Sparrow 1;b=-;c=Atk/Spd Oath 1;seal=-;ai={turn=1};};
+{unit=Corrin: Silent Bloodline;pos=b5;slot=2;rarity=3;level=28;stats=[30;27;31;24;27];weapon=Fire Breath+;assist=-;special=Chilling Wind;a=-;b=Counter Roar 1;c=A/S Far Save 1;seal=-;ai={turn=1};};
+{unit=Robin: Exalt's Deliverer;pos=c8;slot=3;rarity=3;level=28;stats=[30;31;32;23;17];weapon=Steel Sword;assist=-;special=Glowing Ember;a=Atk/Spd Finish 1;b=Gambit 1;c=-;seal=-;ai={turn=1};};
+{unit=Soren: Radiant Confidant;pos=d7;slot=4;rarity=3;level=28;stats=[30;32;21;10;32];weapon=Elwind;assist=-;special=Daylight;a=-;b=Null Follow-Up 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Cyril: Rhea's Attendant;pos=e7;slot=5;rarity=3;level=28;stats=[34;28;29;22;16];weapon=Steel Bow;assist=-;special=Retribution;a=-;b=Sudden Panic 1;c=Threat. Spd/Def 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Gullveig: Seer Beyond Time;pos=f6;slot=1;rarity=4;level=40;stats=[37;43;45;24;17];weapon=The Cycle's Turn;assist=-;special=New Moon;a=Swift Sparrow 2;b=-;c=Atk/Spd Oath 3;seal=-;ai={turn=1};};
+{unit=Corrin: Silent Bloodline;pos=b5;slot=2;rarity=4;level=40;stats=[39;38;44;34;37];weapon=Vallastone;assist=-;special=Iceberg;a=-;b=Counter Roar 3;c=A/S Far Save 2;seal=-;ai={turn=1};};
+{unit=Robin: Exalt's Deliverer;pos=c8;slot=3;rarity=4;level=40;stats=[37;44;43;32;24];weapon=Deliverer's Brand;assist=-;special=Glowing Ember;a=Atk/Spd Finish 3;b=Gambit 3;c=-;seal=-;ai={turn=1};};
+{unit=Soren: Radiant Confidant;pos=d7;slot=4;rarity=4;level=40;stats=[37;43;31;14;45];weapon=Arch-Sage Tome;assist=-;special=Noontime;a=-;b=Null Follow-Up 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Cyril: Rhea's Attendant;pos=e7;slot=5;rarity=4;level=40;stats=[43;40;42;32;23];weapon=Aptitude Arrows;assist=-;special=Retribution;a=-;b=Sudden Panic 2;c=Threat. Spd/Def 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Gullveig: Seer Beyond Time;pos=f6;slot=1;rarity=5;level=45;stats=[43;49;52;30;21];weapon=The Cycle's Turn;assist=-;special=Luna;a=Flared Sparrow;b=Gold Unwinding;c=Atk/Spd Oath 4;seal=-;ai={turn=1};};
+{unit=Corrin: Silent Bloodline;pos=b5;slot=2;rarity=5;level=45;stats=[46;44;51;41;44];weapon=Vallastone;assist=-;special=Armored Floe;a=Realms United;b=Counter Roar 4;c=A/S Far Save 3;seal=-;ai={turn=1};};
+{unit=Robin: Exalt's Deliverer;pos=c8;slot=3;rarity=5;level=45;stats=[43;51;49;39;30];weapon=Deliverer's Brand;assist=-;special=Ignis;a=Atk/Spd Finish 4;b=Gambit 4;c=Tip the Scales!;seal=-;ai={turn=1};};
+{unit=Soren: Radiant Confidant;pos=d7;slot=4;rarity=5;level=45;stats=[43;49;38;17;52];weapon=Arch-Sage Tome;assist=-;special=Flare;a=Rare Talent;b=Mag. Null Follow;c=Time's Pulse 4;seal=-;ai={turn=1};};
+{unit=Cyril: Rhea's Attendant;pos=e7;slot=5;rarity=5;level=45;stats=[50;46;49;39;29];weapon=Aptitude Arrows;assist=-;special=Vengeance;a=-;b=Sudden Panic 3;c=Threat. Spd/Def 2;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Fated Golden Seer|Turn of Fate}}
+==In other languages==
+{{OtherLanguages
+|japanese=あなたの望みをかなえた
+|german=Wunscherfüllung
+|spanishEU=Deseo concedido
+|spanishLA=Deseo concedido
+|french=Vœu exaucé
+|italian=Desiderio esaudito
+|chineseTW=實現了妳的願望
+|portuguese=Desejo realizado
+}}
+{{Story Maps Navbox|book=7}}

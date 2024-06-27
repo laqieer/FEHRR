@@ -1,0 +1,86 @@
+{{Battle Infobox
+|bannerImage=C0508 C.webp
+|stageTitle=Chapter 8-5
+|stageName=Past Unknown
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 8: Serpent's Whispers
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5085
+|backdrop=
+|allyPos=a7,a6,b6,a5
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=24
+|lvlHard=38
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE15_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-06-08T07:00:00Z|notification=New Heroes Summoning Event: Book V Mid: Nótt and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Palla: Kind Eldest Sister;pos=f7;rarity=3;slot=1;level=24;stats=[29;27;13;24;16];weapon=Steel Sword;assist=Rally Attack;special=-;a=R Duel Flying 1;b=-;c=Atk/Res Rein 1;seal=-;ai={turn=1};};
+{unit=Luthier: Odd Wayfarer;pos=f8;rarity=3;slot=2;level=24;stats=[30;22;21;12;17];weapon=Elwind;assist=-;special=Night Sky;a=Swift Sparrow 1;b=Guard 1;c=-;seal=-;ai={turn=1};};
+{unit=Tatiana: Devoted Saint;pos=e1;rarity=3;slot=3;level=24;stats=[28;22;20;9;24];weapon=Ellight;assist=Ardent Sacrifice;special=-;a=Swift Stance 1;b=-;c=Atk Opening 1;seal=-;ai={turn=1};};
+{unit=Zeke: Past Unknown;pos=d2;rarity=3;slot=4;level=24;stats=[28;23;9;23;22];weapon=Steel Lance;assist=-;special=Glowing Ember;a=Atk/Def Catch 1;b=Lull Atk/Def 1;c=Threat. Def/Res 1;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=f4;rarity=3;slot=5;level=24;stats=[30;21;20;20;13];weapon=Steel Axe;assist=-;special=Buckler;a=Life and Death 1;b=Spd/Def Ruse 1;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Palla: Kind Eldest Sister;pos=f7;rarity=4;slot=1;level=38;stats=[37;39;18;37;24];weapon=Ladyblade;assist=Rally Atk/Def;special=-;a=R Duel Flying 3;b=-;c=Atk/Res Rein 2;seal=-;ai={turn=1};};
+{unit=Luthier: Odd Wayfarer;pos=f8;rarity=4;slot=2;level=38;stats=[39;34;33;17;26];weapon=Gronnfox;assist=-;special=Night Sky;a=Swift Sparrow 2;b=Guard 2;c=-;seal=-;ai={turn=1};};
+{unit=Tatiana: Devoted Saint;pos=e1;rarity=4;slot=3;level=38;stats=[36;34;30;13;36];weapon=Blárrabbit;assist=Ardent Sacrifice;special=-;a=Swift Stance 2;b=-;c=Atk Opening 2;seal=-;ai={turn=1};};
+{unit=Zeke: Past Unknown;pos=d2;rarity=4;slot=4;level=38;stats=[36;35;13;35;32];weapon=Holy Gradivus;assist=-;special=Glowing Ember;a=Atk/Def Catch 3;b=Lull Atk/Def 2;c=Threat. Def/Res 2;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=f4;rarity=4;slot=5;level=38;stats=[39;33;31;30;18];weapon=Slaying Axe;assist=-;special=Buckler;a=Life and Death 2;b=Spd/Def Ruse 2;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Palla: Kind Eldest Sister;pos=f7;rarity=5;slot=1;level=45;stats=[44;46;23;45;31];weapon=Ladyblade;assist=Rally Atk/Def+;special=-;a=R Duel Flying 4;b=-;c=Atk/Res Rein 3;seal=-;ai={turn=1};};
+{unit=Luthier: Odd Wayfarer;pos=f8;rarity=5;slot=2;level=45;stats=[46;41;40;21;33];weapon=Gronnfox+;assist=-;special=Glimmer;a=Swift Sparrow 2;b=Guard 3;c=-;seal=-;ai={turn=1};};
+{unit=Tatiana: Devoted Saint;pos=e1;rarity=5;slot=3;level=45;stats=[43;41;37;17;43];weapon=Blárrabbit+;assist=Ardent Sacrifice;special=-;a=Swift Stance 2;b=-;c=Atk Opening 3;seal=-;ai={turn=1};};
+{unit=Zeke: Past Unknown;pos=d2;rarity=5;slot=4;level=45;stats=[43;44;17;42;38];weapon=Holy Gradivus;assist=-;special=Bonfire;a=Atk/Def Catch 4;b=Lull Atk/Def 3;c=Def/Res Menace;seal=-;ai={turn=1};};
+{unit=Steam Axe;pos=f4;rarity=5;slot=5;level=45;stats=[46;40;39;36;23];weapon=Slaying Axe+;assist=-;special=Escutcheon;a=Life and Death 3;b=Spd/Def Ruse 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Kind Eldest Sister|Decided Future}}
+==Trivia==
+* The {{Up|Steam Axe}} unit is the first Steam unit in the entire game that is not equipped with the {{St|Gullinbursti}} Sacred Seal.
+
+==In other languages==
+{{OtherLanguages
+|japanese=失いし過去
+|german=Ohne Erinnerung
+|spanishEU=Pasado ignoto
+|spanishLA=Pasado ignoto
+|french=Passé inconnu
+|italian=Il passato ignoto
+|chineseTW=遺失的過往
+|portuguese=Passado oculto
+}}
+{{Story Maps Navbox|book=5}}

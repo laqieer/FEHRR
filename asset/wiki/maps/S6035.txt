@@ -1,0 +1,100 @@
+{{Battle Infobox
+|bannerImage=C0603 C.webp
+|stageTitle=Chapter 3: Part 5
+|stageName=Curtain's Fall
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 3: Calling of Blood
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6035
+|backdrop=
+|allyPos=a6,b6,c5,d5
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=9
+|lvlHard=30
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to defend: 4
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-01-07T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Ascended Joshua (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S6035|backdrop=
+|allyPos=a6,b6,c5,d5
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Veronica: Princess Beset;pos=b1;rarity=3;slot=1;level=9;stats=[20;12;7;10;7];weapon=Wind;assist=-;special=-;a=Life and Death 1;b=Lull Spd/Res 1;c=-;seal=Embla's Ward;ai={turn=2};};
+{unit=Joshua: Resolute Tempest;pos=f8;rarity=3;slot=2;level=9;stats=[22;13;15;10;8];weapon=Iron Dagger;assist=-;special=-;a=Life and Death 1;b=Null Follow-Up 1;c=-;seal=-;ai={turn=1};};
+{unit=Riev: Blood Beryl;pos=f7;rarity=3;slot=3;level=9;stats=[22;15;8;6;14];weapon=Light;assist=-;special=-;a=Atk/Res Ideal 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Colm: Capable Thief;pos=a1;rarity=3;slot=4;level=9;stats=[22;12;15;7;11];weapon=Iron Dagger;assist=Pivot;special=-;a=Atk/Spd 1;b=Atk/Res Link 1;c=-;seal=-;ai={turn=2};};
+{unit=Neimi: Tearful Archer;pos=a2;rarity=3;slot=5;level=9;stats=[20;13;16;6;12];weapon=Iron Bow;assist=-;special=-;a=Spd/Res Bond 1;b=-;c=Drive Res 1;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Hard=[
+{unit=Veronica: Princess Beset;pos=b1;rarity=4;slot=1;level=30;stats=[32;27;16;22;15];weapon=Rexcalibur;assist=-;special=Dragon Gaze;a=Life and Death 3;b=Lull Spd/Res 2;c=Time's Pulse 2;seal=Embla's Ward;ai={turn=2};};
+{unit=Joshua: Resolute Tempest;pos=f8;rarity=4;slot=2;level=30;stats=[33;30;33;21;18];weapon=Steel Dagger;assist=-;special=Night Sky;a=Life and Death 3;b=Null Follow-Up 2;c=Green Feud 2;seal=-;ai={turn=1};};
+{unit=Rennac: Rich "Merchant";pos=f2;rarity=4;slot=3;level=30;stats=[31;27;33;27;17];weapon=Steel Dagger;assist=-;special=Night Sky;a=Atk/Spd Solo 3;b=Disarm Trap 2;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Riev: Blood Beryl;pos=f7;rarity=4;slot=4;level=30;stats=[34;31;18;16;31];weapon=Ellight;assist=-;special=Chilling Wind;a=Atk/Res Ideal 2;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Colm: Capable Thief;pos=a1;rarity=4;slot=5;level=30;stats=[34;28;32;17;23];weapon=Steel Dagger;assist=Pivot;special=New Moon;a=Atk/Spd 2;b=Atk/Res Link 2;c=-;seal=-;ai={turn=2};};
+{unit=Neimi: Tearful Archer;pos=a2;rarity=4;slot=6;level=30;stats=[31;30;33;15;26];weapon=Steel Bow;assist=-;special=New Moon;a=Spd/Res Bond 3;b=-;c=Drive Res 2;seal=-;ai={turn=1};spawn={turn=2};};
+]
+|Lunatic=[
+{unit=Veronica: Princess Beset;pos=b1;rarity=5;slot=1;level=45;stats=[44;38;24;32;23];weapon=Élivágar;assist=-;special=Draconic Aura;a=Life and Death 4;b=Lull Spd/Res 3;c=Time's Pulse 3;seal=Embla's Ward;ai={turn=2};};
+{unit=Joshua: Resolute Tempest;pos=f8;rarity=5;slot=2;level=45;stats=[44;43;47;32;28];weapon=Blade of Jehanna;assist=-;special=Glimmer;a=Life and Death 4;b=Null Follow-Up 3;c=Green Feud 3;seal=-;ai={turn=1};};
+{unit=Rennac: Rich "Merchant";pos=f2;rarity=5;slot=3;level=45;stats=[42;41;46;37;28];weapon=Vicious Dagger+;assist=-;special=Glimmer;a=Atk/Spd Solo 4;b=Disarm Trap 3;c=-;seal=-;ai={turn=1};spawn={turn=2};};
+{unit=Riev: Blood Beryl;pos=f7;rarity=5;slot=4;level=45;stats=[46;43;28;26;44];weapon=Argent Aura;assist=-;special=Glacies;a=Atk/Res Ideal 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Colm: Capable Thief;pos=a1;rarity=5;slot=5;level=45;stats=[46;40;45;27;35];weapon=Quick Dagger+;assist=Pivot;special=Moonbow;a=Atk/Spd 2;b=Atk/Res Link 3;c=-;seal=-;ai={turn=2};};
+{unit=Neimi: Tearful Archer;pos=a2;rarity=5;slot=6;level=45;stats=[42;43;46;23;38];weapon=Rapid-Crier Bow;assist=-;special=Moonbow;a=Spd/Res Bond 4;b=-;c=Joint Drive Res;seal=-;ai={turn=1};spawn={turn=2};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|A Sandstorm's Ascension|New Foundations}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=すべてを失い、落ちなさい
+|german=Der Vorhang fällt
+|spanishEU=Bajada del telón
+|spanishLA=Bajada del telón
+|french=Le rideau tombe
+|italian=Cala il sipario
+|chineseTW=失去所有，墜入深淵吧
+|portuguese=Cortinas fechadas
+}}
+{{Story Maps Navbox|book=6}}

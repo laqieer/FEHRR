@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0313.webp
+|stageTitle=Chapter 13-4
+|stageName=Don't Struggle
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 13: Marvelous Dream
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3134
+|backdrop=
+|allyPos=b2,c2,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=33
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE08_03.ogg
+|BGM2=bgm_boss5.ogg
+}}
+
+==Map availability==
+This map is a [[Story Maps|Main Story]] map which was made available on:
+* {{MapDates|start=2019-11-07T07:00:00Z|notification=New Heroes: Desert Mercenaries (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Hel: Death Sovereign;pos=e6;rarity=3;slot=1;level=33;stats=[34;27;30;26;12];weapon=Hel Scythe;assist=-;special=Glimmer;a=Sturdy Blow 1;b=Dull Ranged 1;c=Savage Blow 1;seal=-;ai={group=1};};
+{unit=Ephraim: Dynastic Duo;pos=c6;rarity=3;slot=2;level=33;stats=[34;30;23;28;19];weapon=Slaying Spear;assist=-;special=Dragon Gaze;a=Heavy Blade 1;b=Lull Atk/Def 1;c=Odd Atk Wave 1;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=c7;rarity=3;slot=3;level=33;stats=[31;21;27;15;28];weapon=Steel Sword;assist=-;special=New Moon;a=Atk/Spd Bond 1;b=-;c=Spur Spd/Res 1;seal=-;ai={group=1};};
+{unit=Blue Flier;pos=e7;rarity=3;slot=4;level=33;stats=[28;22;28;11;24];weapon=Elthunder;assist=Rally Resistance;special=-;a=-;b=Atk Feint 1;c=Hone Atk 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=b6;rarity=3;slot=5;level=33;stats=[28;21;21;17;27];weapon=Assault;assist=Mend;special=Solid-Earth Balm;a=-;b=Dazzling Staff 1;c=Drive Res 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Hel: Death Sovereign;pos=e6;rarity=4;slot=1;level=38;stats=[38;32;36;30;14];weapon=Hel Scythe;assist=-;special=Glimmer;a=Sturdy Blow 2;b=Dull Ranged 2;c=Savage Blow 2;seal=-;ai={group=1};};
+{unit=Ephraim: Dynastic Duo;pos=c6;rarity=4;slot=2;level=38;stats=[37;36;26;34;22];weapon=Reginleif;assist=-;special=Dragon Gaze;a=Heavy Blade 2;b=Lull Atk/Def 2;c=Odd Atk Wave 2;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=c7;rarity=4;slot=3;level=38;stats=[34;24;32;18;33];weapon=Brave Sword;assist=-;special=New Moon;a=Atk/Spd Bond 2;b=-;c=Spur Spd/Res 1;seal=-;ai={group=1};};
+{unit=Blue Flier;pos=e7;rarity=4;slot=4;level=38;stats=[31;25;34;13;29];weapon=Thoron;assist=Rally Def/Res;special=-;a=-;b=Atk Feint 2;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=b6;rarity=4;slot=5;level=38;stats=[31;25;24;20;32];weapon=Gravity;assist=Recover;special=Earthfire Balm;a=-;b=Dazzling Staff 2;c=Drive Res 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Hel: Death Sovereign;pos=e6;rarity=5;slot=1;level=43;displaylevel=40;stats=[44;37;42;36;18];weapon=Hel Scythe;assist=-;special=Glimmer;a=Sturdy Impact;b=Dull Ranged 3;c=Savage Blow 3;seal=-;ai={group=1};};
+{unit=Ephraim: Dynastic Duo;pos=c6;rarity=5;slot=2;level=43;displaylevel=40;stats=[42;42;31;40;27];weapon=Reginleif;assist=-;special=Draconic Aura;a=Heavy Blade 4;b=Lull Atk/Def 3;c=Odd Atk Wave 3;seal=-;ai={group=1};};
+{unit=Sword Flier;pos=c7;rarity=5;slot=3;level=43;displaylevel=40;stats=[39;29;37;22;38];weapon=Brave Sword+;assist=-;special=Luna;a=Atk/Spd Bond 3;b=-;c=Spur Spd/Res 2;seal=-;ai={group=1};};
+{unit=Blue Flier;pos=e7;rarity=5;slot=4;level=43;displaylevel=40;stats=[35;30;40;17;34];weapon=Thoron+;assist=Rally Def/Res+;special=-;a=-;b=Atk Feint 3;c=Hone Fliers;seal=-;ai={group=1};};
+{unit=Cleric;pos=b6;rarity=5;slot=5;level=43;displaylevel=40;stats=[35;29;29;24;37];weapon=Gravity+;assist=Recover+;special=Earthfire Balm+;a=-;b=Dazzling Staff 3;c=Drive Res 2;seal=-;ai={group=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Mere Playthings|Ruler of the Dead}}
+==In other languages==
+{{OtherLanguages
+|japanese=あなたを殺す
+|german=Wehrt Euch nicht
+|spanishEU=Resistirse es inútil
+|spanishLA=Resistirse es en vano
+|french=Toute résistance est vaine
+|italian=Resistere è futile
+|chineseTW=殺了你
+|portuguese=Resistir é inútil
+}}
+{{Story Maps Navbox|book=3}}

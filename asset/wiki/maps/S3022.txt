@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0302.png
+|stageTitle=Chapter 2: Part 2
+|stageName=The Tomb Exhales
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 2: The Dread Gate
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3022
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6={{Ally|1}} | b6={{Ally|2}} | c6= | d6= | e6= | f6=
+| a5={{Ally|3}} | b5={{Ally|4}} | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=24
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-12-11T03:00:00Z|notification=What's in Store for the 3.0.0 Update (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Green Manakete;pos=e7;rarity=3;slot=1;level=4;stats=[18;8;8;7;6];weapon=Fire Breath;assist=-;special=-;a=Fierce Stance 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Cleric;pos=f4;rarity=3;slot=2;level=4;stats=[17;6;6;6;9];weapon=-;assist=Heal;special=-;a=Fortress Res 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=e2;rarity=3;slot=3;level=4;stats=[20;7;7;8;5];weapon=Iron Sword;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Lance Dragon;pos=c1;rarity=3;slot=4;level=4;stats=[19;9;5;10;4];weapon=Iron Lance;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Green Manakete;pos=e7;rarity=4;slot=1;level=24;stats=[31;21;20;18;17];weapon=Fire Breath+;assist=-;special=-;a=Fierce Stance 1;b=-;c=Drive Atk 1;seal=-;ai={group=1};};
+{unit=Cleric;pos=f4;rarity=4;slot=2;level=24;stats=[25;18;17;14;23];weapon=Assault;assist=Mend;special=-;a=Fortress Res 2;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=e2;rarity=4;slot=3;level=24;stats=[32;20;19;20;13];weapon=Steel Sword;assist=-;special=-;a=-;b=Wrath 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Dragon;pos=c1;rarity=4;slot=4;level=24;stats=[30;23;16;24;11];weapon=Steel Lance;assist=-;special=-;a=-;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Green Manakete;pos=e7;rarity=5;slot=1;level=41;displaylevel=40;stats=[45;32;30;29;28];weapon=Lightning Breath+;assist=-;special=-;a=Fierce Stance 3;b=-;c=Drive Atk 2;seal=-;ai={group=1};};
+{unit=Cleric;pos=f4;rarity=5;slot=2;level=41;displaylevel=40;stats=[35;28;28;24;36];weapon=Gravity+;assist=Recover+;special=-;a=Fortress Res 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Sword Fighter;pos=e2;rarity=5;slot=3;level=41;displaylevel=40;stats=[44;31;31;30;23];weapon=Silver Sword+;assist=-;special=Astra;a=-;b=Wrath 3;c=-;seal=-;ai={group=1};};
+{unit=Lance Dragon;pos=c1;rarity=5;slot=4;level=41;displaylevel=40;stats=[41;36;27;37;19];weapon=Slaying Lance+;assist=-;special=Bonfire;a=-;b=-;c=Drive Def 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==In other languages==
+{{OtherLanguages
+|english=The Tomb Exhales
+|japanese=冥府より吹く風
+|german=Hauch der Verwesung
+|spanishEU=El hálito de la tumba
+|spanishLA=El hálito de la tumba
+|french=Relents d'outre-tombe
+|italian=Venti di morte
+|chineseTW=自冥界吹拂之風
+|portuguese=O túmulo espira
+}}
+{{Story Maps Navbox|book=3}}

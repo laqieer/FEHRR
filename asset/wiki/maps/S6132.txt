@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0613.webp
+|stageTitle=Chapter 13-2
+|stageName=Depths of the Dark
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 13: Askr and Embla
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6132
+|backdrop=
+|allyPos=a1,b1,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=31
+|lvlHard=36
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE03_06.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-11-18T07:00:00Z|notification=Special Summon: Rearmed Ganglöt & More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Hardin: The Coyote;pos=e8;rarity=3;slot=1;level=31;stats=[32;31;32;23;15];weapon=Silver Lance;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=A/S Near Trace 1;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b7;rarity=3;slot=2;level=31;stats=[32;26;16;17;17];weapon=Slaying Bow;assist=-;special=Night Sky;a=Sturdy Blow 1;b=-;c=Spur Def 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=3;slot=3;level=31;stats=[28;21;27;11;23];weapon=Gronnfox;assist=-;special=New Moon;a=-;b=S/R Far Trace 1;c=Atk Smoke 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d6;rarity=3;slot=4;level=31;stats=[35;22;22;22;16];weapon=Vulture Blade;assist=-;special=Night Sky;a=Swift Sparrow 1;b=Frenzy 1;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f5;rarity=3;slot=5;level=31;stats=[31;21;27;23;19];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=-;b=Chill Res 1;c=Def Smoke 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Hardin: The Coyote;pos=e8;rarity=4;slot=1;level=36;stats=[36;36;39;27;17];weapon=Coyote's Lance;assist=-;special=Dragon Gaze;a=Swift Sparrow 1;b=A/S Near Trace 2;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b7;rarity=4;slot=2;level=36;stats=[35;31;18;20;20];weapon=Slaying Bow;assist=-;special=Night Sky;a=Sturdy Blow 1;b=-;c=Spur Def 2;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=4;slot=3;level=36;stats=[30;24;33;13;28];weapon=Gronnfox;assist=-;special=New Moon;a=-;b=S/R Far Trace 2;c=Atk Smoke 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d6;rarity=4;slot=4;level=36;stats=[39;27;26;26;18];weapon=Vulture Blade;assist=-;special=Night Sky;a=Swift Sparrow 1;b=Frenzy 2;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f5;rarity=4;slot=5;level=36;stats=[34;24;32;28;22];weapon=Dark Breath;assist=-;special=Dragon Gaze;a=-;b=Chill Res 2;c=Def Smoke 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Hardin: The Coyote;pos=e8;rarity=5;slot=1;level=41;stats=[41;42;45;33;21];weapon=Coyote's Lance;assist=-;special=Draconic Aura;a=Surge Sparrow;b=A/S Near Trace 3;c=-;seal=-;ai={turn=1};};
+{unit=Bow Cavalier;pos=b7;rarity=5;slot=2;level=41;stats=[40;36;23;25;24];weapon=Slaying Bow+;assist=-;special=Deadeye;a=Sturdy Blow 2;b=-;c=Ward Cavalry;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=a6;rarity=5;slot=3;level=41;stats=[35;29;38;16;32];weapon=Gronnfox+;assist=-;special=Moonbow;a=-;b=S/R Far Trace 3;c=Atk Smoke 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=d6;rarity=5;slot=4;level=41;stats=[44;31;31;30;23];weapon=Vulture Blade+;assist=-;special=Astra;a=Swift Sparrow 2;b=Frenzy 3;c=-;seal=-;ai={turn=1};};
+{unit=Green Fáfnir;pos=f5;rarity=5;slot=5;level=41;stats=[39;29;37;32;27];weapon=Dark Breath+;assist=-;special=Dragon Fang;a=-;b=Chill Res 3;c=Def Smoke 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Light in the Dark|Growing Darkness}}
+==In other languages==
+{{OtherLanguages
+|japanese=闇は深き淵を知る
+|german=Düstere Finsternis
+|spanishEU=El corazón de la oscuridad
+|spanishLA=El corazón de la oscuridad
+|french=Entrailles de l'obscurité
+|italian=L'abisso più nero
+|chineseTW=黑暗知曉深淵
+|portuguese=Profundezas da escuridão
+}}
+{{Story Maps Navbox|book=6}}

@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0707 C.webp
+|stageTitle=Chapter 3-5
+|stageName=Future's Return
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 3: Within Wheels
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7075
+|backdrop=Wave
+|allyPos=b8,e8,c7,d7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=21
+|lvlHard=37
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=Turns to win: 6
+|BGM=bgm_map_FEH_11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-05-09T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Chrom (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Chrom: Fell Exalt;pos=b2;rarity=3;slot=1;level=21;stats=[27;28;26;15;9];weapon=Steel Sword;assist=Reposition;special=Night Sky;a=Atk/Spd Clash 1;b=Spd/Def Snag 1;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Byleth: Vengeance Vessel;pos=e3;rarity=3;slot=2;level=21;stats=[27;25;25;18;16];weapon=Steel Sword;assist=-;special=Dragon Gaze;a=-;b=Close Call 1;c=Time's Pulse 1;seal=-;ai={turn=1};};
+{unit=Maria: Ritual Sacrifice;pos=d1;rarity=3;slot=3;level=21;stats=[24;25;28;8;19];weapon=Assault;assist=Reconcile;special=Imbue;a=Atk/Spd Bond 1;b=Wrathful Staff 1;c=Even Recovery 1;seal=-;ai={turn=1};};
+{unit=Anankos: Seething Silence;pos=d3;rarity=3;slot=4;level=21;stats=[28;24;27;21;17];weapon=Fire Breath+;assist=-;special=Daylight;a=Kestrel Stance 1;b=Savvy Fighter 1;c=A/S Near Save 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Chrom: Fell Exalt;pos=b2;rarity=4;slot=1;level=37;stats=[36;41;41;24;15];weapon=Arcane Devourer;assist=Reposition;special=Astra;a=Atk/Spd Clash 3;b=Spd/Def Snag 3;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Byleth: Vengeance Vessel;pos=e3;rarity=4;slot=2;level=37;stats=[36;39;41;27;23];weapon=Captain's Sword;assist=-;special=Draconic Aura;a=Distant Counter;b=Close Call 3;c=Time's Pulse 3;seal=-;ai={turn=1};};
+{unit=Maria: Ritual Sacrifice;pos=d1;rarity=4;slot=3;level=37;stats=[33;39;41;13;30];weapon=Sacrifice Staff;assist=Nudge;special=Miracle;a=Atk/Spd Bond 3;b=Wrathful Staff 3;c=Even Recovery 2;seal=-;ai={turn=1};};
+{unit=Anankos: Seething Silence;pos=d3;rarity=4;slot=4;level=37;stats=[37;38;40;32;26];weapon=Silent Breath;assist=-;special=Daylight;a=Kestrel Stance 2;b=Savvy Fighter 3;c=A/S Near Save 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Chrom: Fell Exalt;pos=b2;rarity=5;slot=1;level=45;stats=[44;49;51;32;20];weapon=Arcane Devourer;assist=Fate Unchanged...;special=Galeforce;a=Atk/Spd Clash 4;b=Spd/Def Snag 4;c=Inf. Spd Tactic;seal=-;ai={turn=1};};
+{unit=Byleth: Vengeance Vessel;pos=e3;rarity=5;slot=2;level=45;stats=[43;48;52;35;27];weapon=Captain's Sword;assist=-;special=Divine Pulse;a=Distant A/S Solo;b=Close Call 4;c=Time's Pulse 4;seal=-;ai={turn=1};};
+{unit=Maria: Ritual Sacrifice;pos=d1;rarity=5;slot=3;level=45;stats=[40;48;49;17;39];weapon=Sacrifice Staff;assist=Nudge+;special=Holy Panic;a=Atk/Spd Unity;b=Poetic Justice;c=Even Recovery 3;seal=-;ai={turn=1};};
+{unit=Anankos: Seething Silence;pos=d3;rarity=5;slot=4;level=45;stats=[45;47;48;39;34];weapon=Silent Breath;assist=-;special=Noontime;a=Kestrel Stance 3;b=Savvy Fighter 4;c=A/S Near Save 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Ashen Demon|Depths of Despair}}
+==In other languages==
+{{OtherLanguages
+|japanese=未来から過去、過去から未来へ
+|german=Rückkehr der Zukunft
+|spanishEU=Ciclo infinito
+|spanishLA=Ciclo infinito
+|french=Retour dans le temps
+|italian=Corsi e ricorsi
+|chineseTW=從未來到過去，從過去到未來
+|portuguese=A volta do futuro
+}}
+{{Story Maps Navbox|book=7}}

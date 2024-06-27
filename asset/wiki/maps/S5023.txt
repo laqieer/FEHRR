@@ -1,0 +1,85 @@
+{{Battle Infobox
+|bannerImage=C0502.webp
+|stageTitle=Chapter 2: Part 3
+|stageName=Fluorspar Fealty
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 2: Kingsbrother
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5023
+|backdrop=
+|allyPos=e3,f3,d2,e2
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=5
+|lvlHard=25
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE08_05.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2020-12-08T07:00:00Z|notification=Book V Begins: Reginn and More Summoning Event (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Selena: Fluorspar;pos=b8;rarity=3;slot=1;level=5;stats=[19;10;10;3;6];weapon=Thunder;assist=Rally Attack;special=-;a=Life and Death 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=d6;rarity=3;slot=2;level=5;stats=[26;11;3;13;4];weapon=Iron Axe;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a5;rarity=3;slot=3;level=5;stats=[18;8;9;5;7];weapon=Fire;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=e8;rarity=3;slot=4;level=5;stats=[17;7;11;3;9];weapon=Iron Dagger;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Selena: Fluorspar;pos=b8;rarity=4;slot=1;level=25;stats=[29;26;26;9;15];weapon=Elthunder;assist=Rally Atk/Res;special=-;a=Life and Death 2;b=Atk/Res Ruse 1;c=-;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=d6;rarity=4;slot=2;level=25;stats=[41;26;9;28;11];weapon=Steel Axe;assist=-;special=Retribution;a=-;b=Wary Fighter 1;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a5;rarity=4;slot=3;level=25;stats=[28;20;21;12;17];weapon=Elfire;assist=-;special=Night Sky;a=Death Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=e8;rarity=4;slot=4;level=25;stats=[27;17;26;8;21];weapon=Steel Dagger;assist=-;special=Rising Thunder;a=-;b=-;c=Spd Smoke 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Selena: Fluorspar;pos=b8;rarity=5;slot=1;level=42;stats=[41;41;41;16;24];weapon=Tome of Storms;assist=Rally Atk/Res+;special=-;a=Life and Death 4;b=Atk/Res Ruse 3;c=-;seal=-;ai={group=1};};
+{unit=Axe Knight;pos=d6;rarity=5;slot=2;level=42;stats=[57;40;16;42;19];weapon=Silver Axe+;assist=-;special=Vengeance;a=-;b=Wary Fighter 3;c=-;seal=-;ai={group=1};};
+{unit=Red Mage;pos=a5;rarity=5;slot=3;level=42;stats=[38;32;33;20;29];weapon=Bolganone+;assist=-;special=Glimmer;a=Death Blow 3;b=-;c=-;seal=-;ai={group=1};};
+{unit=Thief;pos=e8;rarity=5;slot=4;level=42;stats=[37;29;40;14;33];weapon=Rogue Dagger+;assist=-;special=Blazing Thunder;a=-;b=-;c=Spd Smoke 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Selena: Fluorspar;text=I am General Selena, the Fluorspar\nof the Grado Empire.;textJP=私は帝国将軍【蛍石】のセライナ…};
+]}}
+{{Story Navbar|Tiger-Eye Ambition|Obsidian Honor}}
+==In other languages==
+{{OtherLanguages
+|japanese=蛍石の誓い
+|german=Des Flussspats Treue
+|spanishEU=La lealtad de Turmalina
+|spanishLA=La lealtad de Turmalina
+|french=Allégeance de la Fluorite
+|italian=La fedeltà della Fluorite
+|chineseTW=螢石的誓言
+|portuguese=A lealdade de Fluorita
+}}
+{{Story Maps Navbox|book=5}}

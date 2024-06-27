@@ -1,0 +1,88 @@
+{{Battle Infobox
+|bannerImage=Banner_Nino_Pale_Flower_Unrevealed.png
+|stageTitle=Chapter 10-3
+|stageName=Family of Fangs
+|stageEpithet=
+|bookGroup=Book II
+|mapGroup=Chapter 10: The King's Demise
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S2103
+|backdrop=LavaPattern_Muspel
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7={{Ally|1}}
+| a6= | b6= | c6= | d6= | e6= | f6={{Ally|2}}
+| a5= | b5= | c5= | d5= | e5= | f5={{Ally|3}}
+| a4= | b4= | c4= | d4= | e4= | f4={{Ally|4}}
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=37
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE07_04.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-06-08T07:00:00Z|notification=New Heroes: Scattered Fangs (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Nino: Pale Flower;pos=a4;rarity=3;slot=1;level=26;stats=[27;21;25;10;16];weapon=Rexcalibur;assist=-;special=New Moon;a=Swift Sparrow 1;b=Aerobatics 1;c=Spd Smoke 1;seal=-;ai={group=1};};
+{unit=Linus: Mad Dog;pos=b5;rarity=3;slot=2;level=26;stats=[30;24;21;20;11];weapon=Steel Axe;assist=-;special=New Moon;a=Brazen Atk/Spd 1;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Lloyd: White Wolf;pos=b4;rarity=3;slot=3;level=26;stats=[29;20;23;12;19];weapon=Steel Sword;assist=-;special=Chilling Wind;a=Fury 1;b=-;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=c1;rarity=3;slot=4;level=26;stats=[30;22;15;16;19];weapon=Steel Sword;assist=-;special=Retribution;a=Atk/Spd 1;b=Seal Def/Res 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=c2;rarity=3;slot=5;level=26;stats=[28;17;23;13;24];weapon=Steel Lance;assist=-;special=Night Sky;a=-;b=Hit and Run;c=Atk Ploy 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Nino: Pale Flower;pos=a4;rarity=4;slot=1;level=37;stats=[33;30;34;14;22];weapon=Rexcalibur;assist=-;special=New Moon;a=Swift Sparrow 1;b=Aerobatics 2;c=Spd Smoke 2;seal=-;ai={group=1};};
+{unit=Linus: Mad Dog;pos=b5;rarity=4;slot=2;level=37;stats=[37;33;29;27;16];weapon=Silver Axe;assist=-;special=New Moon;a=Brazen Atk/Spd 2;b=-;c=Drive Def 1;seal=-;ai={group=1};};
+{unit=Lloyd: White Wolf;pos=b4;rarity=4;slot=3;level=37;stats=[36;28;32;17;26];weapon=Silver Sword;assist=-;special=Chilling Wind;a=Fury 2;b=Desperation 1;c=Drive Res 1;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=c1;rarity=4;slot=4;level=37;stats=[37;31;21;22;27];weapon=Slaying Edge;assist=-;special=Retribution;a=Atk/Spd 1;b=Seal Def/Res 1;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=c2;rarity=4;slot=5;level=37;stats=[34;24;32;18;33];weapon=Slaying Spear;assist=-;special=Night Sky;a=-;b=Hit and Run;c=Atk Ploy 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Nino: Pale Flower;pos=a4;rarity=5;slot=1;level=42;displaylevel=40;stats=[37;34;40;17;26];weapon=Giga Excalibur;assist=-;special=Moonbow;a=Swift Sparrow 2;b=Aerobatics 3;c=Spd Smoke 3;seal=-;ai={group=1};};
+{unit=Linus: Mad Dog;pos=b5;rarity=5;slot=2;level=42;displaylevel=40;stats=[43;39;34;33;19];weapon=Basilikos;assist=-;special=Luna;a=Brazen Atk/Spd 3;b=-;c=Drive Def 2;seal=-;ai={group=1};};
+{unit=Lloyd: White Wolf;pos=b4;rarity=5;slot=3;level=42;displaylevel=40;stats=[42;33;36;20;31];weapon=Regal Blade;assist=-;special=Iceberg;a=Fury 3;b=Desperation 3;c=Drive Res 2;seal=-;ai={group=1};};
+{unit=Sword Cavalier;pos=c1;rarity=5;slot=4;level=42;displaylevel=40;stats=[42;35;25;26;31];weapon=Slaying Edge+;assist=-;special=Vengeance;a=Atk/Spd 2;b=Seal Def/Res 2;c=-;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=c2;rarity=5;slot=5;level=42;displaylevel=40;stats=[38;29;36;22;37];weapon=Slaying Spear+;assist=-;special=Glimmer;a=-;b=Hit and Run;c=Atk Ploy 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Nino: Pale Flower;text=Lloyd! Linus! You two had better be\nwatching... I'm doing the best I can!;textJP=ロイドにいちゃん！\nライナスにいちゃん！\nあたしも…あたしもがんばるから…！};
+]}}
+{{Story Navbar|Misplaced Wisdom|Sword Vassal}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=牙の兄妹
+|german=Black-Fang-Familie
+|spanishEU=Familia de Colmillos
+|spanishLA=Familia de Colmillos
+|french=Fangs en famille
+|italian=Fang e famiglia
+|chineseTW=牙的兄妹
+|portuguese=Presas em família
+}}
+{{Story Maps Navbox|book=2}}

@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0703.webp
+|stageTitle=Chapter 6: Part 2
+|stageName=Daydreaming Knight
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 6: King of Light
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7032
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=6
+|lvlHard=26
+|lvlLunatic=41
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE17_13.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-01-17T07:00:00Z|notification=New Heroes Summoning Event: Engage (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Chloé: Fairy-Tale Flier;pos=c6;rarity=3;slot=1;level=6;stats=[15;7;17;7;14];weapon=Iron Lance;assist=-;special=-;a=-;b=Pegasus Flight 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b6;rarity=3;slot=2;level=6;stats=[19;7;11;5;12];weapon=Iron Sword;assist=Harsh Command;special=-;a=-;b=S/D Near Trace 1;c=Fortify Def 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Dragon;pos=c7;rarity=3;slot=3;level=6;stats=[20;11;6;12;4];weapon=Iron Axe;assist=-;special=-;a=Sturdy Blow 1;b=-;c=Hone Atk 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Cavalier;pos=d8;rarity=3;slot=4;level=6;stats=[17;11;7;4;10];weapon=Fire;assist=-;special=-;a=Triangle Adept 1;b=-;c=Distant Guard 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Chloé: Fairy-Tale Flier;pos=c6;rarity=4;slot=1;level=26;stats=[26;24;30;18;30];weapon=Steel Lance;assist=-;special=Night Sky;a=-;b=Pegasus Flight 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b6;rarity=4;slot=2;level=26;stats=[29;18;25;13;26];weapon=Steel Sword;assist=Harsh Command;special=-;a=-;b=S/D Near Trace 2;c=Fortify Def 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Dragon;pos=c7;rarity=4;slot=3;level=26;stats=[31;25;17;26;12];weapon=Steel Axe;assist=-;special=Glowing Ember;a=Sturdy Blow 1;b=-;c=Hone Atk 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Cavalier;pos=d8;rarity=4;slot=4;level=26;stats=[25;25;17;11;24];weapon=Elfire;assist=-;special=Night Sky;a=Triangle Adept 2;b=-;c=Distant Guard 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Chloé: Fairy-Tale Flier;pos=c6;rarity=5;slot=1;level=41;stats=[36;39;40;28;43];weapon=Dreaming Spear;assist=-;special=Glimmer;a=Distant Stance;b=Pegasus Flight 4;c=-;seal=-;ai={turn=1};};
+{unit=Sword Flier;pos=b6;rarity=5;slot=2;level=41;stats=[38;28;36;22;37];weapon=Rein Sword+;assist=Harsh Command+;special=-;a=-;b=S/D Near Trace 3;c=Fortify Fliers;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Dragon;pos=c7;rarity=5;slot=3;level=41;stats=[41;36;27;37;19];weapon=Poleaxe+;assist=-;special=Ignis;a=Sturdy Blow 2;b=-;c=Hone Fliers;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Red Cavalier;pos=d8;rarity=5;slot=4;level=41;stats=[34;36;26;17;35];weapon=Rauðrraven+;assist=-;special=Astra;a=Triangle Adept 3;b=-;c=Distant Guard 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Audience with the King|Awoken Successor}}
+==In other languages==
+{{OtherLanguages
+|japanese=空想する天馬騎士
+|german=Tagträumende Ritterin
+|spanishEU=Caballero soñadora
+|spanishLA=Caballero soñadora
+|french=Rêverie chevaleresque
+|italian=Cavaliera sognatrice
+|chineseTW=幻想的天馬騎士
+|portuguese=Cavaleira sonhadora
+}}
+{{Story Maps Navbox|book=7}}

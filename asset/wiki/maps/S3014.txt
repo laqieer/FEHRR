@@ -1,0 +1,83 @@
+{{About|the story map|the 10th chapter of Book III|Story Maps#Chapter 10: Omnicidal Witch}}{{Battle Infobox
+|bannerImage=C0301.png
+|stageTitle=Chapter 1: Part 4
+|stageName=Omnicidal Witch
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 1: Death
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3014
+|backdrop=WavePatternDark
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3={{Ally|1}} | b3={{Ally|2}} | c3={{Ally|3}} | d3={{Ally|4}} | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=4
+|lvlHard=23
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FEH_05.ogg
+|BGM2=bgm_boss4.ogg
+}}
+
+__TOC__
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2018-12-11T03:00:00Z|notification=What's in Store for the 3.0.0 Update (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Thrasir: Omnicidal Witch;pos=c7;rarity=3;slot=1;level=4;stats=[18;9;9;6;5];weapon=Wind;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b7;rarity=3;slot=2;level=4;stats=[17;7;10;8;5];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=d6;rarity=3;slot=3;level=4;stats=[18;8;8;7;6];weapon=Fire Breath;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e8;rarity=3;slot=4;level=4;stats=[19;8;7;7;2];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=-;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Thrasir: Omnicidal Witch;pos=c7;rarity=4;slot=1;level=23;stats=[28;21;24;14;15];weapon=Elwind;assist=-;special=Dragon Gaze;a=Bracing Stance 1;b=Quick Riposte 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b7;rarity=4;slot=2;level=23;stats=[27;17;24;20;15];weapon=Fire Breath+;assist=-;special=-;a=Darting Stance 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=d6;rarity=4;slot=3;level=23;stats=[31;20;19;17;16];weapon=Fire Breath+;assist=Swap;special=-;a=-;b=-;c=Close Guard 1;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e8;rarity=4;slot=4;level=23;stats=[30;20;18;17;9];weapon=Steel Bow;assist=-;special=-;a=-;b=Seal Res 1;c=-;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Thrasir: Omnicidal Witch;pos=c7;rarity=5;slot=1;level=43;displaylevel=40;stats=[41;35;40;24;28];weapon=Ífingr;assist=-;special=Draconic Aura;a=Bracing Stance 2;b=Quick Riposte 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Fáfnir;pos=b7;rarity=5;slot=2;level=43;displaylevel=40;stats=[40;30;38;34;28];weapon=Flametongue+;assist=-;special=Ignis;a=Darting Stance 3;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Red Manakete;pos=d6;rarity=5;slot=3;level=43;displaylevel=40;stats=[46;34;31;30;29];weapon=Water Breath+;assist=Swap;special=-;a=-;b=-;c=Close Guard 3;seal=-;ai={turn=1};};
+{unit=Bow Fighter;pos=e8;rarity=5;slot=4;level=43;displaylevel=40;stats=[45;34;30;30;17];weapon=Silver Bow+;assist=-;special=Blazing Wind;a=-;b=Seal Res 3;c=-;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Lethal Swordsman|Merciful Death}}
+==In other languages==
+{{OtherLanguages
+|english=Omnicidal Witch
+|japanese=鏖殺の魔女
+|german=Hasserfüllte Hexe
+|spanishEU=Bruja omnicida
+|spanishLA=Bruja omnicida
+|french=Sorcière omnicide
+|italian=La strega omicida
+|chineseTW=滅絕的魔女
+|portuguese=Bruxa omnicida
+}}
+{{Story Maps Navbox|book=3}}

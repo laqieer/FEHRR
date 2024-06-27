@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0506.webp
+|stageTitle=Chapter 6: Part 4
+|stageName=Mage General
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 6: Treachery
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5064
+|backdrop=
+|allyPos=f6,f5,f4,f3
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=17
+|lvlHard=34
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE07_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-04-06T07:00:00Z|notification=New Heroes Summoning Event: Bond of Trust (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Pent: Mage General;pos=a5;rarity=3;slot=1;level=17;stats=[25;18;19;9;15];weapon=Elwind;assist=-;special=-;a=G Duel Infantry 1;b=Lull Atk/Res 1;c=Time's Pulse 1;seal=-;ai={group=1};};
+{unit=Louise: Lady of Violets;pos=a3;rarity=3;slot=2;level=17;stats=[26;18;20;6;18];weapon=Steel Bow;assist=Rally Resistance;special=-;a=Atk/Spd Ideal 1;b=-;c=Atk/Spd Oath 1;seal=-;ai={group=1};};
+{unit=Erk: Studious Mage;pos=a6;rarity=3;slot=3;level=17;stats=[27;16;19;9;14];weapon=Elfire;assist=-;special=-;a=Spd/Res Solo 1;b=-;c=Spd Opening 1;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c3;rarity=3;slot=4;level=17;stats=[35;19;6;21;8];weapon=Steel Lance;assist=-;special=-;a=-;b=Wary Fighter 1;c=Drive Def 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Pent: Mage General;pos=a5;rarity=4;slot=1;level=34;stats=[34;32;33;15;24];weapon=Rexcalibur;assist=-;special=Night Sky;a=G Duel Infantry 2;b=Lull Atk/Res 2;c=Time's Pulse 2;seal=-;ai={group=1};};
+{unit=Louise: Lady of Violets;pos=a3;rarity=4;slot=2;level=34;stats=[35;31;34;12;31];weapon=Rein Bow;assist=Rally Def/Res;special=-;a=Atk/Spd Ideal 2;b=-;c=Atk/Spd Oath 2;seal=-;ai={group=1};};
+{unit=Erk: Studious Mage;pos=a6;rarity=4;slot=3;level=34;stats=[39;28;33;15;23];weapon=Rauðrfox;assist=-;special=New Moon;a=Spd/Res Solo 2;b=-;c=Spd Opening 2;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c3;rarity=4;slot=4;level=34;stats=[48;32;12;34;15];weapon=Barrier Lance;assist=-;special=Holy Vestments;a=-;b=Wary Fighter 2;c=Drive Def 1;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Pent: Mage General;pos=a5;rarity=5;slot=1;level=43;stats=[41;41;42;20;31];weapon=Tome of Reglay;assist=-;special=Glimmer;a=G Duel Infantry 4;b=Lull Atk/Res 3;c=Time's Pulse 3;seal=-;ai={group=1};};
+{unit=Louise: Lady of Violets;pos=a3;rarity=5;slot=2;level=43;stats=[42;40;44;17;38];weapon=Rein Bow+;assist=Rally Def/Res+;special=-;a=Atk/Spd Ideal 4;b=-;c=Atk/Spd Oath 3;seal=-;ai={group=1};};
+{unit=Erk: Studious Mage;pos=a6;rarity=5;slot=3;level=43;stats=[47;38;42;20;29];weapon=Rauðrfox+;assist=-;special=Moonbow;a=Spd/Res Solo 3;b=-;c=Spd Opening 3;seal=-;ai={group=1};};
+{unit=Lance Knight;pos=c3;rarity=5;slot=4;level=43;stats=[58;41;17;43;20];weapon=Barrier Lance+;assist=-;special=Aegis;a=-;b=Wary Fighter 3;c=Drive Def 2;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{#invoke:Scenario|story
+|map begin=[
+  {music=bgm_event_plain1};
+  {unit=Pent: Mage General;text=If something out there is guiding me,\nI have no choice other than to bow\nto the dictates of fate...;textJP=これも何かの導きか…\nならば、その運命に従うのみ…};
+]}}
+{{Story Navbar|Unwelcome Reunion|Truth of the Sage}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の魔道軍将
+|german=Magischer General
+|spanishEU=Gran sabio
+|spanishLA=Gran sabio
+|french=Général magicien
+|italian=Generale mago
+|chineseTW=銀之魔道軍將
+|portuguese=Mago general
+}}
+{{Story Maps Navbox|book=5}}

@@ -1,0 +1,82 @@
+{{Battle Infobox
+|bannerImage=C0503.webp
+|stageTitle=Chapter 3: Part 3
+|stageName=Lady of Loptr
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 3: Forest of the Sage
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5033
+|backdrop=
+|allyPos=c2,d2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=7
+|lvlHard=27
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE05_03.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-01-08T07:00:00Z|notification=New Heroes Summoning Event: Shared Purpose (Notification)}}
+
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sara: Lady of Loptr;pos=d6;rarity=3;slot=1;level=7;stats=[17;13;11;3;13];weapon=-;assist=Heal;special=-;a=Atk/Spd Push 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=d7;rarity=3;slot=2;level=7;stats=[18;9;11;3;10];weapon=Wind;assist=-;special=-;a=-;b=-;c=Spd Tactic 1;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b7;rarity=3;slot=3;level=7;stats=[22;9;9;10;6];weapon=Iron Sword;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={turn=1};};
+{unit=Blue Bow;pos=f7;rarity=3;slot=4;level=7;stats=[21;10;9;9;3];weapon=Iron Bow;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Sara: Lady of Loptr;pos=d6;rarity=4;slot=1;level=27;stats=[27;29;25;10;27];weapon=Assault;assist=Reconcile;special=-;a=Atk/Spd Push 2;b=Dazzling Staff 1;c=Drive Res 1;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=d7;rarity=4;slot=2;level=27;stats=[26;19;26;10;23];weapon=Elwind;assist=-;special=Chilling Wind;a=-;b=Aerobatics 1;c=Spd Tactic 2;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b7;rarity=4;slot=3;level=27;stats=[34;22;21;21;14];weapon=Steel Sword;assist=-;special=Rising Wind;a=Darting Blow 2;b=Repel 1;c=-;seal=-;ai={turn=1};};
+{unit=Blue Bow;pos=f7;rarity=4;slot=4;level=27;stats=[33;23;20;19;10];weapon=Steel Bow;assist=-;special=New Moon;a=Fury 1;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Sara: Lady of Loptr;pos=d6;rarity=5;slot=1;level=42;stats=[36;42;39;16;38];weapon=Kia Staff;assist=Return+;special=-;a=Atk/Spd Push 4;b=Dazzling Staff 3;c=Joint Drive Res;seal=-;ai={turn=1};};
+{unit=Green Flier;pos=d7;rarity=5;slot=2;level=42;stats=[35;30;39;16;33];weapon=Rexcalibur+;assist=-;special=Glacies;a=-;b=Aerobatics 3;c=Spd Tactic 3;seal=-;ai={turn=1};};
+{unit=Sword Fighter;pos=b7;rarity=5;slot=3;level=42;stats=[45;32;32;31;23];weapon=Silver Sword+;assist=-;special=Blazing Wind;a=Darting Blow 3;b=Repel 3;c=-;seal=-;ai={turn=1};};
+{unit=Blue Bow;pos=f7;rarity=5;slot=4;level=42;stats=[44;33;30;30;16];weapon=Shining Bow+;assist=-;special=Moonbow;a=Fury 3;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Princess of Ulster|A Mage's Oath}}
+==In other languages==
+{{OtherLanguages
+|japanese=ロプトの姫
+|german=Dame von Loptr
+|spanishEU=Señora de Loptr
+|spanishLA=Señora de Loptr
+|french=Dame de Loptr
+|italian=La dama di Loptr
+|chineseTW=羅普托的公主
+|portuguese=Senhora de Loptr
+}}
+{{Story Maps Navbox|book=5}}

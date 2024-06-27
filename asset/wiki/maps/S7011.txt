@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0701.webp
+|stageTitle=Chapter 13-1
+|stageName=Rule of Time
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 13: Time
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7011
+|backdrop=
+|allyPos=b1,c1,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=20
+|lvlHard=33
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE14_20.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-12-07T07:00:00Z|notification=New Heroes Summoning Event: Book VII Begins: Seiðr and More (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Hans: Ambitious Brute;pos=c7;rarity=3;slot=1;level=20;stats=[30;27;21;18;10];weapon=Steel Axe;assist=-;special=-;a=Atk/Spd Ideal 1;b=-;c=Rouse Atk/Spd 1;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=3;slot=2;level=20;stats=[23;14;14;12;19];weapon=Assault;assist=Mend;special=-;a=-;b=Live to Serve 1;c=Distant Guard 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=3;slot=3;level=20;stats=[25;16;17;10;14];weapon=Elthunder;assist=-;special=-;a=Death Blow 1;b=-;c=Even Atk Wave 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=f6;rarity=3;slot=4;level=20;stats=[27;18;12;13;16];weapon=Steel Sword;assist=-;special=-;a=Atk/Def Solo 1;b=Lull Atk/Def 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Hans: Ambitious Brute;pos=c7;rarity=4;slot=1;level=33;stats=[39;38;32;28;16];weapon=Silver Axe;assist=-;special=Dragon Gaze;a=Atk/Spd Ideal 2;b=-;c=Rouse Atk/Spd 2;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=4;slot=2;level=33;stats=[29;22;21;18;29];weapon=Fear;assist=Physic;special=Earthwater Balm;a=-;b=Live to Serve 2;c=Distant Guard 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=4;slot=3;level=33;stats=[32;25;26;15;21];weapon=Thoron;assist=-;special=New Moon;a=Death Blow 2;b=-;c=Even Atk Wave 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=f6;rarity=4;slot=4;level=33;stats=[34;28;19;20;24];weapon=Silver Sword;assist=-;special=Night Sky;a=Atk/Def Solo 2;b=Lull Atk/Def 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Hans: Ambitious Brute;pos=c7;rarity=5;slot=1;level=40;stats=[46;45;39;35;21];weapon=Aurgelmir;assist=-;special=Dragon Fang;a=Atk/Spd Ideal 3;b=-;c=Rouse Atk/Spd 3;seal=-;ai={turn=1};};
+{unit=Cleric;pos=b8;rarity=5;slot=2;level=40;stats=[34;28;28;23;35];weapon=Fear+;assist=Physic+;special=Earthwater Balm+;a=-;b=Live to Serve 3;c=Distant Guard 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Blue Mage;pos=a6;rarity=5;slot=3;level=40;stats=[37;31;32;20;28];weapon=Thoron+;assist=-;special=Moonbow;a=Death Blow 3;b=-;c=Even Atk Wave 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Sword Cavalier;pos=f6;rarity=5;slot=4;level=40;stats=[41;34;24;25;30];weapon=Silver Sword+;assist=-;special=Glimmer;a=Atk/Def Solo 3;b=Lull Atk/Def 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Veronica & Embla: Bound Hero Battle|Birth of Time}}
+==In other languages==
+{{OtherLanguages
+|japanese=時はすべてを支配する
+|german=Gesetz der Zeit
+|spanishEU=El dominio del tiempo
+|spanishLA=El dominio del tiempo
+|french=Le règne du temps
+|italian=Il dominio del tempo
+|chineseTW=時間會支配一切
+|portuguese=A lei do tempo
+}}
+{{Story Maps Navbox|book=7}}

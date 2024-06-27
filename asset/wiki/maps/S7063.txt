@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0706.webp
+|stageTitle=Chapter 2: Part 3
+|stageName=Two Divine Weapons
+|stageEpithet=
+|bookGroup=Book VII
+|mapGroup=Book VII, Chapter 2: World of the Past
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S7063
+|backdrop=
+|allyPos=d3,c2,d2,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=16
+|lvlHard=33
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE16_01.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2023-04-17T07:00:00Z|notification=New Heroes Summoning Event: New Heroes & Rearmed Ingrid (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Ingrid: Beacon of Honor;pos=a6;rarity=3;slot=1;level=16;stats=[22;23;24;13;9];weapon=Steel Lance;assist=-;special=-;a=-;b=Guard Bearing 1;c=Spd/Def Rein 1;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=a5;rarity=3;slot=2;level=16;stats=[25;17;11;18;8];weapon=Steel Sword;assist=-;special=-;a=Atk/Def Clash 1;b=-;c=Atk/Def Rein 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=c8;rarity=3;slot=3;level=16;stats=[25;16;10;11;14];weapon=Steel Axe;assist=-;special=-;a=Atk/Def Form 1;b=A/D Near Trace 1;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Cavalier;pos=f8;rarity=3;slot=4;level=16;stats=[24;17;10;10;11];weapon=Steel Bow;assist=-;special=-;a=Sturdy Blow 1;b=-;c=Rouse Atk/Def 1;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Hard=[
+{unit=Ingrid: Beacon of Honor;pos=a6;rarity=4;slot=1;level=33;stats=[31;37;39;23;18];weapon=Silver Lance;assist=-;special=New Moon;a=-;b=Guard Bearing 2;c=Spd/Def Rein 2;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=a5;rarity=4;slot=2;level=33;stats=[34;29;20;30;14];weapon=Brave Sword;assist=-;special=Buckler;a=Atk/Def Clash 2;b=-;c=Atk/Def Rein 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=c8;rarity=4;slot=3;level=33;stats=[34;28;19;20;24];weapon=Slaying Hammer;assist=-;special=Buckler;a=Atk/Def Form 2;b=A/D Near Trace 2;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Cavalier;pos=f8;rarity=4;slot=4;level=33;stats=[33;29;17;19;19];weapon=Spendthrift Bow;assist=-;special=Daylight;a=Sturdy Blow 1;b=-;c=Rouse Atk/Def 2;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Ingrid: Beacon of Honor;pos=a6;rarity=5;slot=1;level=42;stats=[39;46;48;31;26];weapon=Arcane Lúin;assist=-;special=Luna;a=Knightly Devotion;b=Guard Bearing 4;c=Spd/Def Hold;seal=-;ai={turn=1};};
+{unit=Sword Dragon;pos=a5;rarity=5;slot=2;level=42;stats=[42;36;28;37;19];weapon=Brave Sword+;assist=-;special=Escutcheon;a=Atk/Def Clash 3;b=-;c=Atk/Def Rein 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Axe Cavalier;pos=c8;rarity=5;slot=3;level=42;stats=[42;35;25;26;31];weapon=Slaying Hammer+;assist=-;special=Pavise;a=Atk/Def Form 3;b=A/D Near Trace 3;c=-;seal=-;accessory=Golden Curse;ai={turn=1};};
+{unit=Bow Cavalier;pos=f8;rarity=5;slot=4;level=42;stats=[41;36;23;25;24];weapon=Spendthrift Bow+;assist=-;special=Noontime;a=Sturdy Blow 2;b=-;c=Rouse Atk/Def 3;seal=-;accessory=Golden Curse;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Same Place, New Time|Soon Parting}}
+==In other languages==
+{{OtherLanguages
+|japanese=二つの神器
+|german=Zwei Heilige Waffen
+|spanishEU=Dos armas sagradas
+|spanishLA=Dos armas sagradas
+|french=Deux armes divines
+|italian=Due armi divine
+|chineseTW=兩個神器
+|portuguese=Duas armas divinas
+}}
+{{Story Maps Navbox|book=7}}

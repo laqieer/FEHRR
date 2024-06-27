@@ -1,0 +1,83 @@
+{{Battle Infobox
+|bannerImage=C0311.webp
+|stageTitle=Chapter 11: Part 1
+|stageName=Seeking a Path
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 11: Where It Began
+|mapImage={{#invoke:MapLayout|initTabber|allyPos=d2,e2,d1,e1
+|baseMap=S3111
+|backdrop=
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=26
+|lvlHard=35
+|lvlLunatic=40
+|rarityNormal=
+|rarityHard=
+|rarityLunatic=
+|stamNormal=
+|stamHard=
+|stamLunatic=
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE03_02.ogg
+}}
+
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-09-19T07:00:00Z|notification=New Heroes: The Chosen Ones (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main|mapImage=
+|Normal=[
+{unit=Norne: The Volunteer;pos=e6;rarity=3;slot=1;level=26;stats=[30;20;24;19;16];weapon=Guard Bow;assist=Reposition;special=-;a=Brazen Spd/Def 1;b=Spd/Def Link 1;c=-;seal=-;ai={turn=1};};
+{unit=Phina: Roving Dancer;pos=b6;rarity=3;slot=2;level=26;stats=[28;22;24;17;14];weapon=Silver Sword;assist=Dance;special=-;a=Spd/Def Form 1;b=Geyser Dance 1;c=-;seal=-;ai={turn=1};};
+{unit=Thief;pos=c7;rarity=3;slot=3;level=26;stats=[27;17;25;8;20];weapon=Steel Dagger;assist=-;special=Retribution;a=-;b=Quick Riposte 1;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=d8;rarity=3;slot=4;level=26;stats=[28;17;23;13;24];weapon=Steel Lance;assist=-;special=New Moon;a=Atk/Def Solo 1;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=e7;rarity=3;slot=5;level=26;stats=[25;23;16;10;22];weapon=Elthunder;assist=-;special=Chilling Wind;a=Death Blow 1;b=-;c=Res Ploy 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Norne: The Volunteer;pos=e6;rarity=4;slot=1;level=35;stats=[36;27;31;25;22];weapon=Guard Bow;assist=Reposition;special=-;a=Brazen Spd/Def 2;b=Spd/Def Link 2;c=-;seal=-;ai={turn=1};};
+{unit=Phina: Roving Dancer;pos=b6;rarity=4;slot=2;level=35;stats=[34;30;32;22;19];weapon=Silver Sword;assist=Dance;special=-;a=Spd/Def Form 2;b=Geyser Dance 1;c=-;seal=-;ai={turn=1};};
+{unit=Thief;pos=c7;rarity=4;slot=3;level=35;stats=[32;23;33;10;27];weapon=Rogue Dagger;assist=-;special=Retribution;a=-;b=Quick Riposte 2;c=Drive Atk 1;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=d8;rarity=4;slot=4;level=35;stats=[33;23;30;17;31];weapon=Brave Lance;assist=-;special=New Moon;a=Atk/Def Solo 2;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=e7;rarity=4;slot=5;level=35;stats=[29;30;21;13;29];weapon=Thoron;assist=-;special=Chilling Wind;a=Death Blow 2;b=-;c=Res Ploy 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Norne: The Volunteer;pos=e6;rarity=5;slot=1;level=40;stats=[42;32;36;31;27];weapon=Guard Bow+;assist=Reposition;special=-;a=Brazen Spd/Def 3;b=Spd/Def Link 3;c=-;seal=-;ai={turn=1};};
+{unit=Phina: Roving Dancer;pos=b6;rarity=5;slot=2;level=40;stats=[40;35;37;26;23];weapon=Rapier;assist=Dance;special=-;a=Spd/Def Form 3;b=Geyser Dance 2;c=-;seal=-;ai={turn=1};};
+{unit=Thief;pos=c7;rarity=5;slot=3;level=40;stats=[36;28;38;13;32];weapon=Rogue Dagger+;assist=-;special=Reprisal;a=-;b=Quick Riposte 3;c=Drive Atk 2;seal=-;ai={turn=1};};
+{unit=Lance Flier;pos=d8;rarity=5;slot=4;level=40;stats=[37;28;35;21;36];weapon=Brave Lance+;assist=-;special=Luna;a=Atk/Def Solo 3;b=Hit and Run;c=-;seal=-;ai={turn=1};};
+{unit=Blue Cavalier;pos=e7;rarity=5;slot=5;level=40;stats=[33;35;25;17;34];weapon=Thoron+;assist=-;special=Iceberg;a=Death Blow 3;b=-;c=Res Ploy 3;seal=-;ai={turn=1};};
+]
+}}
+
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Tibarn & Caineghis: Bound Hero Battle|The Masked Wanderer}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=希望の行方は
+|german=Suche nach einem Weg
+|spanishEU=En busca del camino
+|spanishLA=En busca del camino
+|french=Une voie à suivre
+|italian=Una strada da seguire
+|chineseTW=希望的去向
+|portuguese=Em busca de um caminho
+}}
+{{Story Maps Navbox|book=3}}

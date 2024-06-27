@@ -1,0 +1,101 @@
+{{Battle Infobox
+|bannerImage=C0611 C.webp
+|stageTitle=Chapter 11-5
+|stageName=Death of a Friend
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 11: One Last Chance
+|mapMode=Reinforcement Map
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6115
+|backdrop=
+|allyPos=e2,f2,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=30
+|lvlHard=40
+|lvlLunatic=45
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=3
+|stamHard=8
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEH_09.ogg
+|BGM2=bgm_map_Brave_03.ogg
+|BGM3=bgm_boss11.ogg
+}}
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-09-16T07:00:00Z|notification=Celebratory Summoning Event - New Heroes & Rearmed Líf (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|mapImage={{MapLayout|baseMap=S6115|backdrop=
+|allyPos=e2,f2,d1,e1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|Normal=[
+{unit=Bruno: Prince Beset (Unmasked);pos=b7;rarity=3;slot=1;level=30;stats=[32;28;30;14;17];weapon=Veiled Valaskjálf;assist=-;special=New Moon;a=Life and Death 1;b=Swordbreaker 1;c=-;seal=-;ai={turn=2};};
+{unit=Hilda: Helping Hand;pos=c5;rarity=3;slot=2;level=30;stats=[32;31;32;24;17];weapon=Silver Axe;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=Velocity 1;c=Drive Spd 1;seal=-;ai={turn=1};};
+{unit=Monica: Favored Vassal;pos=d7;rarity=3;slot=3;level=30;stats=[31;27;32;17;21];weapon=Shine;assist=-;special=Night Sky;a=Atk/Spd Ideal 1;b=Spd/Res Tempo 1;c=-;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=b5;rarity=3;slot=4;level=30;stats=[44;27;10;29;13];weapon=Safeguard;assist=-;special=Buckler;a=-;b=Wary Fighter 1;c=D/R Near Save 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=e8;rarity=3;slot=5;level=30;stats=[33;22;20;20;10];weapon=Instant Bow;assist=-;special=Dragon Gaze;a=Death Blow 1;b=-;c=Distant Guard 1;seal=-;ai={turn=1};};
+{unit=Shez: Keen Mercenary;pos=d5;rarity=3;slot=6;level=30;stats=[29;30;31;22;24];weapon=Silver Axe;assist=-;special=Night Sky;a=Life and Death 1;b=Dull Close 1;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Shez: Rising Mercenary;pos=b4;rarity=3;slot=7;level=30;stats=[31;32;30;26;17];weapon=Silver Sword;assist=-;special=New Moon;a=-;b=Spd/Def Bulwark 1;c=Atk/Spd Oath 1;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Hard=[
+{unit=Bruno: Prince Beset (Unmasked);pos=b7;rarity=4;slot=1;level=40;stats=[38;37;41;19;22];weapon=Veiled Valaskjálf;assist=-;special=New Moon;a=Life and Death 3;b=Swordbreaker 2;c=-;seal=-;ai={turn=2};};
+{unit=Hilda: Helping Hand;pos=c5;rarity=4;slot=2;level=40;stats=[39;40;41;31;23];weapon=Fuming Freikugel;assist=-;special=New Moon;a=Atk/Spd Solo 3;b=Velocity 2;c=Drive Spd 2;seal=-;ai={turn=1};};
+{unit=Monica: Favored Vassal;pos=d7;rarity=4;slot=3;level=40;stats=[37;36;41;22;28];weapon=Wind Genesis;assist=-;special=Night Sky;a=Atk/Spd Ideal 3;b=Spd/Res Tempo 2;c=-;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=b5;rarity=4;slot=4;level=40;stats=[52;36;14;38;17];weapon=Safeguard;assist=-;special=Buckler;a=-;b=Wary Fighter 2;c=D/R Near Save 2;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=e8;rarity=4;slot=5;level=40;stats=[40;30;27;26;14];weapon=Instant Bow;assist=-;special=Dragon Gaze;a=Death Blow 2;b=-;c=Distant Guard 2;seal=-;ai={turn=1};};
+{unit=Shez: Keen Mercenary;pos=d5;rarity=4;slot=6;level=40;stats=[35;39;40;29;31];weapon=Crimson War-Axe;assist=-;special=Night Sky;a=Life and Death 2;b=Dull Close 2;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Shez: Rising Mercenary;pos=b4;rarity=4;slot=7;level=40;stats=[37;41;39;34;23];weapon=Crimson Blades;assist=-;special=New Moon;a=-;b=Spd/Def Bulwark 2;c=Atk/Spd Oath 3;seal=-;ai={turn=1};spawn={turn=3};};
+]
+|Lunatic=[
+{unit=Bruno: Prince Beset (Unmasked);pos=b7;rarity=5;slot=1;level=45;stats=[44;43;47;23;27];weapon=Veiled Valaskjálf;assist=-;special=Luna;a=Life and Death 4;b=Swordbreaker 3;c=-;seal=-;ai={turn=2};};
+{unit=Hilda: Helping Hand;pos=c5;rarity=5;slot=2;level=45;stats=[45;46;47;37;29];weapon=Fuming Freikugel;assist=-;special=Luna;a=Atk/Spd Solo 4;b=Velocity 3;c=Joint Drive Spd;seal=-;ai={turn=1};};
+{unit=Monica: Favored Vassal;pos=d7;rarity=5;slot=3;level=45;stats=[43;42;47;27;34];weapon=Wind Genesis;assist=-;special=Glimmer;a=Atk/Spd Ideal 4;b=Spd/Res Tempo 3;c=-;seal=-;ai={turn=1};};
+{unit=Sword Knight;pos=b5;rarity=5;slot=4;level=45;stats=[59;42;17;44;21];weapon=Safeguard+;assist=-;special=Escutcheon;a=-;b=Wary Fighter 3;c=D/R Near Save 3;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=e8;rarity=5;slot=5;level=45;stats=[46;35;32;32;17];weapon=Instant Bow+;assist=-;special=Draconic Aura;a=Death Blow 3;b=-;c=Distant Guard 3;seal=-;ai={turn=1};};
+{unit=Shez: Keen Mercenary;pos=d5;rarity=5;slot=6;level=45;stats=[41;45;46;35;37];weapon=Crimson War-Axe;assist=-;special=Glimmer;a=Life and Death 3;b=Dull Close 3;c=-;seal=-;ai={turn=1};spawn={turn=3};};
+{unit=Shez: Rising Mercenary;pos=b4;rarity=5;slot=7;level=45;stats=[43;47;45;41;29];weapon=Crimson Blades;assist=-;special=Moonbow;a=-;b=Spd/Def Bulwark 3;c=Atk/Spd Oath 4;seal=-;ai={turn=1};spawn={turn=3};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+==Story==
+{{/Story}}
+{{Story Navbar|Freedom and Closure|The Path's End}}
+==In other languages==
+{{OtherLanguages
+|japanese=友の死
+|german=Tod eines Freundes
+|spanishEU=La muerte de un amigo
+|spanishLA=La muerte de un amigo
+|french=La mort d'un ami
+|italian=Morte di una persona cara
+|chineseTW=朋友的死
+|portuguese=A morte de um amigo
+}}
+{{Story Maps Navbox|book=6}}

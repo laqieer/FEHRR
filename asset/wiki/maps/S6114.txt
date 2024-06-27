@@ -1,0 +1,84 @@
+{{Battle Infobox
+|bannerImage=C0611.webp
+|stageTitle=Chapter 11-4
+|stageName=Freedom and Closure
+|stageEpithet=
+|bookGroup=Book VI
+|mapGroup=Book VI, Chapter 11: One Last Chance
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S6114
+|backdrop=
+|allyPos=b2,e2,c1,d1
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=29
+|lvlHard=38
+|lvlLunatic=43
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FEM_08.ogg
+|BGM2=bgm_boss11.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2022-09-16T07:00:00Z|notification=Celebratory Summoning Event - New Heroes & Rearmed Líf (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Bruno: Prince Beset (Unmasked);pos=c8;rarity=3;slot=1;level=29;stats=[32;27;30;14;16];weapon=Thoron;assist=-;special=New Moon;a=Life and Death 1;b=Dull Ranged 1;c=C Feud 1;seal=-;ai={group=1};};
+{unit=Hilda: Helping Hand;pos=c6;rarity=3;slot=2;level=29;stats=[32;30;31;23;17];weapon=Silver Axe;assist=-;special=New Moon;a=Atk/Spd Solo 1;b=Velocity 1;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Holst: Hero of Leicester;pos=d6;rarity=3;slot=3;level=29;stats=[32;30;29;24;18];weapon=Silver Sword;assist=-;special=Rising Light;a=Atk/Spd Ideal 1;b=-;c=Atk/Spd Oath 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b7;rarity=3;slot=4;level=29;stats=[29;19;24;14;25];weapon=Steel Lance;assist=-;special=Chilling Wind;a=Life and Death 1;b=Flow Guard 1;c=-;seal=-;ai={group=1};};
+{unit=Green Flier;pos=e8;rarity=3;slot=5;level=29;stats=[27;20;26;10;22];weapon=Elwind;assist=Rally Attack;special=-;a=-;b=Def Feint 1;c=Def/Res Rein 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Bruno: Prince Beset (Unmasked);pos=c8;rarity=4;slot=1;level=38;stats=[37;36;39;18;21];weapon=Veiled Valaskjálf;assist=-;special=New Moon;a=Life and Death 2;b=Dull Ranged 2;c=C Feud 2;seal=-;ai={group=1};};
+{unit=Hilda: Helping Hand;pos=c6;rarity=4;slot=2;level=38;stats=[38;39;40;30;22];weapon=Fuming Freikugel;assist=-;special=New Moon;a=Atk/Spd Solo 2;b=Velocity 2;c=Drive Spd 1;seal=-;ai={group=1};};
+{unit=Holst: Hero of Leicester;pos=d6;rarity=4;slot=3;level=38;stats=[38;39;38;31;23];weapon=Warrior's Sword;assist=-;special=Rising Light;a=Atk/Spd Ideal 2;b=-;c=Atk/Spd Oath 2;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b7;rarity=4;slot=4;level=38;stats=[34;24;32;18;33];weapon=Firesweep Lance;assist=-;special=Chilling Wind;a=Life and Death 2;b=Flow Guard 2;c=-;seal=-;ai={group=1};};
+{unit=Green Flier;pos=e8;rarity=4;slot=5;level=38;stats=[31;25;34;13;29];weapon=Gronnfox;assist=Rally Atk/Def;special=-;a=-;b=Def Feint 2;c=Def/Res Rein 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Bruno: Prince Beset (Unmasked);pos=c8;rarity=5;slot=1;level=43;stats=[42;42;45;22;26];weapon=Veiled Valaskjálf;assist=-;special=Luna;a=Life and Death 4;b=Dull Ranged 3;c=C Feud 3;seal=-;ai={group=1};};
+{unit=Hilda: Helping Hand;pos=c6;rarity=5;slot=2;level=43;stats=[44;45;46;36;27];weapon=Fuming Freikugel;assist=-;special=Luna;a=Atk/Spd Solo 4;b=Velocity 3;c=Joint Drive Spd;seal=-;ai={group=1};};
+{unit=Holst: Hero of Leicester;pos=d6;rarity=5;slot=3;level=43;stats=[44;45;44;37;28];weapon=Warrior's Sword;assist=-;special=Blazing Light;a=Atk/Spd Ideal 3;b=-;c=Atk/Spd Oath 3;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b7;rarity=5;slot=4;level=43;stats=[39;29;37;22;38];weapon=Firesweep L+;assist=-;special=Iceberg;a=Life and Death 3;b=Flow Guard 3;c=-;seal=-;ai={group=1};};
+{unit=Green Flier;pos=e8;rarity=5;slot=5;level=43;stats=[35;30;40;17;34];weapon=Gronnfox+;assist=Rally Atk/Def+;special=-;a=-;b=Def Feint 3;c=Def/Res Rein 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Elm, Embla's Retainer|Death of a Friend}}
+==In other languages==
+{{OtherLanguages
+|japanese=解放と封印
+|german=Freiheit und Versiegelung
+|spanishEU=Libertad y aislamiento
+|spanishLA=Libertad y aislamiento
+|french=Libération et fermeture
+|italian=Libertà e costrizione
+|chineseTW=解放與封印
+|portuguese=Liberdade e oclusão
+}}
+{{Story Maps Navbox|book=6}}

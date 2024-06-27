@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0306.png
+|stageTitle=Chapter 6: Part 1
+|stageName=Tragedy upon Tragedy
+|stageEpithet=
+|bookGroup=Book III
+|mapGroup=Book III, Chapter 6: Realm of the Dead
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S3061
+|backdrop=WavePatternHell
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2={{Ally|1}} | c2={{Ally|2}} | d2={{Ally|3}} | e2= | f2=
+| a1= | b1= | c1={{Ally|4}} | d1= | e1= | f1=
+}}
+|lvlNormal=14
+|lvlHard=31
+|lvlLunatic=40
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|BGM=bgm_map_FE10_05.ogg
+|BGM2=
+}}
+__TOC__
+==Map availability==
+This map is a Main Story map which was made available on:
+* {{MapDates|start=2019-04-10T07:00:00Z|notification=New Heroes: Out of Gallia (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=3;slot=1;level=14;stats=[24;17;13;14;11];weapon=Steel Sword;assist=Reposition;special=-;a=-;b=Poison Strike 1;c=Atk Tactic 1;seal=-;ai={group=1};};
+{unit=Lethe: Gallia's Valkyrie;pos=e7;rarity=3;slot=2;level=14;stats=[23;15;17;9;8];weapon=Yearling (Cavalry);assist=-;special=New Moon;a=Spd/Def Solo 1;b=-;c=Hone Atk 1;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b7;rarity=3;slot=3;level=14;stats=[22;11;15;8;16];weapon=Steel Lance;assist=-;special=-;a=Darting Blow 1;b=-;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=f6;rarity=3;slot=4;level=14;stats=[22;13;14;8;11];weapon=Elwind;assist=-;special=-;a=-;b=-;c=Savage Blow 1;seal=-;ai={group=1};};
+]
+|Hard=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=4;slot=1;level=31;stats=[34;30;23;26;20];weapon=Silver Sword;assist=Reposition;special=Glowing Ember;a=-;b=Poison Strike 2;c=Atk Tactic 2;seal=-;ai={group=1};};
+{unit=Lethe: Gallia's Valkyrie;pos=e7;rarity=4;slot=2;level=31;stats=[33;26;30;18;14];weapon=Adult (Cavalry);assist=-;special=New Moon;a=Spd/Def Solo 2;b=-;c=Hone Atk 2;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b7;rarity=4;slot=3;level=31;stats=[31;20;28;15;29];weapon=Slaying Lance;assist=-;special=New Moon;a=Darting Blow 2;b=Desperation 2;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=f6;rarity=4;slot=4;level=31;stats=[31;24;25;15;20];weapon=Rexcalibur;assist=-;special=Chilling Wind;a=Life and Death 2;b=-;c=Savage Blow 2;seal=-;ai={group=1};};
+]
+|Lunatic=[
+{unit=Líf: Lethal Swordsman;pos=c7;rarity=5;slot=1;level=40;stats=[42;37;30;34;28];weapon=Sökkvabekkr;assist=Reposition;special=Bonfire;a=-;b=Poison Strike 3;c=Atk Tactic 3;seal=-;ai={group=1};};
+{unit=Lethe: Gallia's Valkyrie;pos=e7;rarity=5;slot=2;level=40;stats=[41;33;38;26;19];weapon=Brazen Cat Fang;assist=-;special=Moonbow;a=Spd/Def Solo 3;b=-;c=Hone Beasts;seal=-;ai={group=1};};
+{unit=Lance Flier;pos=b7;rarity=5;slot=3;level=40;stats=[37;28;35;21;36];weapon=Slaying Lance+;assist=-;special=Moonbow;a=Darting Blow 3;b=Desperation 3;c=-;seal=-;ai={group=1};};
+{unit=Green Mage;pos=f6;rarity=5;slot=4;level=40;stats=[37;31;32;20;28];weapon=Rexcalibur+;assist=-;special=Iceberg;a=Life and Death 3;b=-;c=Savage Blow 3;seal=-;ai={group=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|Yune: Chaos Goddess (map)|Warriors of the Laguz}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=幾千の惨劇を
+|german=Tragödie um Tragödie
+|spanishEU=Una sucesión de tragedias
+|spanishLA=Una sucesión de tragedias
+|french=De mal en pis
+|italian=Lacrime e sangue
+|chineseTW=歷經無數慘劇
+|portuguese=Tragédias e mais tragédias
+}}
+{{Story Maps Navbox|book=3}}

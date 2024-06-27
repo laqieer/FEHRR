@@ -1,0 +1,80 @@
+{{Battle Infobox
+|bannerImage=C0506.webp
+|stageTitle=Chapter 6: Part 3
+|stageName=Unwelcome Reunion
+|stageEpithet=
+|bookGroup=Book V
+|mapGroup=Book V, Chapter 6: Treachery
+|mapImage={{#invoke:MapLayout|initTabber
+|baseMap=S5063
+|backdrop=
+|allyPos=b7,c7,d7,e7
+| a8= | b8= | c8= | d8= | e8= | f8=
+| a7= | b7= | c7= | d7= | e7= | f7=
+| a6= | b6= | c6= | d6= | e6= | f6=
+| a5= | b5= | c5= | d5= | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4=
+| a3= | b3= | c3= | d3= | e3= | f3=
+| a2= | b2= | c2= | d2= | e2= | f2=
+| a1= | b1= | c1= | d1= | e1= | f1=
+}}
+|lvlNormal=16
+|lvlHard=33
+|lvlLunatic=42
+|rarityNormal=3
+|rarityHard=4
+|rarityLunatic=5
+|stamNormal=2
+|stamHard=7
+|stamLunatic=10
+|reward={
+  Normal={kind=Orb};
+  Hard={kind=Orb};
+  Lunatic={kind=Orb};
+}
+|winReq=
+|BGM=bgm_map_FE07_09.ogg
+}}
+
+==Map availability==
+This map was made available on:
+* {{MapDates|start=2021-04-06T07:00:00Z|notification=New Heroes Summoning Event: Bond of Trust (Notification)}}
+==Unit data==
+{{#invoke:UnitData|main
+|Normal=[
+{unit=Sonia: Inhuman Beauty;pos=c2;rarity=3;slot=1;level=16;stats=[24;17;10;15;17];weapon=Elthunder;assist=-;special=-;a=Fort. Def/Res 1;b=-;c=Threat. Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=b3;rarity=3;slot=2;level=16;stats=[26;15;13;13;6];weapon=Steel Bow;assist=-;special=-;a=Sturdy Blow 1;b=-;c=Savage Blow 1;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=f3;rarity=3;slot=3;level=16;stats=[22;13;17;6;15];weapon=Elfire;assist=-;special=-;a=Triangle Adept 1;b=Watersweep 1;c=-;seal=-;ai={turn=1};};
+{unit=Ótr: Kingsbrother;pos=d2;rarity=3;slot=4;level=16;stats=[24;19;7;17;16];weapon=Steel Axe;assist=-;special=-;a=Fury 1;b=Dull Close 1;c=Close Guard 1;seal=-;ai={turn=1};};
+]
+|Hard=[
+{unit=Sonia: Inhuman Beauty;pos=c2;rarity=4;slot=1;level=33;stats=[33;29;19;25;29];weapon=Blárserpent;assist=-;special=Chilling Wind;a=Fort. Def/Res 1;b=-;c=Threat. Atk/Res 1;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=b3;rarity=4;slot=2;level=33;stats=[36;26;23;22;12];weapon=Brave Bow;assist=-;special=New Moon;a=Sturdy Blow 1;b=-;c=Savage Blow 2;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=f3;rarity=4;slot=3;level=33;stats=[29;22;31;12;26];weapon=Rauðrraven;assist=-;special=Rising Flame;a=Triangle Adept 2;b=Watersweep 2;c=-;seal=-;ai={turn=1};};
+{unit=Ótr: Kingsbrother;pos=d2;rarity=4;slot=4;level=33;stats=[34;33;13;31;26];weapon=Silver Axe;assist=-;special=Dragon Gaze;a=Fury 2;b=Dull Close 2;c=Close Guard 2;seal=-;ai={turn=1};};
+]
+|Lunatic=[
+{unit=Sonia: Inhuman Beauty;pos=c2;rarity=5;slot=1;level=42;stats=[41;36;25;33;36];weapon=Blárserpent+;assist=-;special=Glacies;a=Fort. Def/Res 2;b=-;c=Threat. Atk/Res 2;seal=-;ai={turn=1};};
+{unit=Red Bow;pos=b3;rarity=5;slot=2;level=42;stats=[44;33;30;30;16];weapon=Brave Bow+;assist=-;special=Luna;a=Sturdy Blow 2;b=-;c=Savage Blow 3;seal=-;ai={turn=1};};
+{unit=Red Flier;pos=f3;rarity=5;slot=3;level=42;stats=[35;30;39;16;33];weapon=Rauðrraven+;assist=-;special=Blazing Flame;a=Triangle Adept 3;b=Watersweep 3;c=-;seal=-;ai={turn=1};};
+{unit=Ótr: Kingsbrother;pos=d2;rarity=5;slot=4;level=42;stats=[42;42;17;39;34];weapon=Lofnheiðr;assist=-;special=Draconic Aura;a=Fury 3;b=Dull Close 3;c=Close Guard 3;seal=-;ai={turn=1};};
+]
+}}
+==Other appearances==
+{{BattleAppearances}}
+
+==Story==
+{{/Story}}
+{{Story Navbar|The Great Wing|Mage General}}
+==In other languages==
+{{OtherLanguages
+|japanese=望まぬ再会
+|german=Unerbetenes Wiedersehen
+|spanishEU=Reunión inoportuna
+|spanishLA=Reunión inoportuna
+|french=Fâcheuse réunion
+|italian=Un rincontro indesiderato
+|chineseTW=事與願違的重逢
+|portuguese=Reunião inoportuna
+}}
+{{Story Maps Navbox|book=5}}
