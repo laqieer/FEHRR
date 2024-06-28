@@ -3728,6 +3728,10 @@ void const * const ChapterMapPalettes[] = {
 };
 
 
+void const * const ChapterMapTerrains[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+};
+
 void const * const ChapterMapChanges[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
 };
