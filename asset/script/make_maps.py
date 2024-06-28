@@ -439,8 +439,12 @@ struct ChapterInfo const newChapters[] = {
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sPal,\n' % (map_id, map_id))
         file.write('};\n\n')
-        #TODO: map changes and events
+        #TODO: terrains, map changes and events
         file.write('''
+void const * const ChapterMapTerrains[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+};
+
 void const * const ChapterMapChanges[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
 };

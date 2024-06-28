@@ -18,6 +18,7 @@ extern void const * const ChapterMapChanges[];
 extern void const * const ChapterMapGraphics[];
 extern void const * const ChapterMapTilesets[];
 extern void const * const ChapterMapPalettes[];
+extern void const * const ChapterMapTerrains[];
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
 extern void const * const ChapterMapGraphicAnimations[];
 extern void const * const ChapterMapPaletteAnimations[];

@@ -107,6 +107,10 @@ void UnpackRawMapNew(void * buf, int chapter)
     // Decompress tileset info
     Decompress(IsChapterNew(chapter) ? ChapterMapTilesets[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfo(chapter)->asset_tileset], sTilesetInfo);
 
+    // Decompress terrain info
+    if(IsChapterNew(chapter) && ChapterMapTerrains[chapter - CHAPTER_CH_NEW])
+        Decompress(ChapterMapTerrains[chapter - CHAPTER_CH_NEW], &sTilesetInfo[TILESET_METATILES*4]);
+
     // Setting max camera offsets
     gBmSt.camera_max.x = gMapSize.x*16 - DISPLAY_WIDTH;
     gBmSt.camera_max.y = gMapSize.y*16 - DISPLAY_HEIGHT;
