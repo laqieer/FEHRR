@@ -324,6 +324,8 @@ def make_map_images():
                 image_wall = image_walls.crop((position_x * 182, position_y * 182, (position_x * 182 + 180), (position_y * 182 + 180)))
                 image_wall = image_wall.resize((32, 32))
                 image_map_new.paste(image_wall, (change['x'] * 32, (7 - change['y']) * 32), image_wall)
+                if not is_breakable(config['field']['terrain'][change['y']][change['x']]):
+                    image_map_new.paste(image_wall, (change['x'] * 32 + 192, (7 - change['y']) * 32), image_wall)
             image_map = image_map_new
         image_map.save(os.path.join(map_image_save_path, map_id + '.png'))
 
@@ -444,7 +446,7 @@ if __name__ == '__main__':
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
-    # make_map_images()
-    # decrease_map_colors()
-    # make_map_tsa()
+    make_map_images()
+    decrease_map_colors()
+    make_map_tsa()
     make_chapters()
