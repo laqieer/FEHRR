@@ -1,22 +1,33 @@
 {
     "configurations": [
         {
+            "name": "Win32",
+            "includePath": [
+                "C:\\devkitPro\\devkitARM\\lib\\gcc\\arm-none-eabi\\**",
+                "C:\\devkitPro\\libgba\\include",
+                "${workspaceFolder}\\include",
+                "${workspaceFolder}\\include\\decomp\\include",
+                "${workspaceFolder}\\build"
+            ],
+            "defines": [],
+            "compilerPath": "C:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-arm"
+        },
+        {
             "name": "All",
             "includePath": [
                 "${DEVKITARM}/lib/gcc/arm-none-eabi/**",
                 "${DEVKITPRO}/libgba/include",
-                "${workspaceFolder}/**",
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/include/decomp/include",
                 "${workspaceFolder}/build"
             ],
             "defines": [],
-            "macFrameworkPath": [
-                "/Applications/Xcode13.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-            ],
             "compilerPath": "${DEVKITARM}/bin/arm-none-eabi-gcc",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
             "intelliSenseMode": "linux-gcc-arm"
         }
     ],
