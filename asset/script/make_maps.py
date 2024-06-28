@@ -177,6 +177,9 @@ def load_map_configs():
                                 map_configs[map_id] = json.load(f)
                         for k, v in map.items():
                             map_configs[map_id]['field'][k] = v
+                        if not os.path.exists(os.path.join(wiki_config_save_path, map_id + '.txt')):
+                            fetch_config_from_wiki(map_id)
+                        load_map_from_wiki(map_id)
 
 def load_map_names():
     for file_name in os.listdir(message_en_path):
@@ -310,9 +313,6 @@ def make_map_images():
         #         terrain_id = terrains[y][x]
         #         if is_breakable(terrain_id):
         #             breakable_walls.append((x, y))
-        if not os.path.exists(os.path.join(wiki_config_save_path, map_id + '.txt')):
-            fetch_config_from_wiki(map_id)
-        load_map_from_wiki(map_id)
         if len(config['field']['changes']) > 0:
             image_map_new = Image.new('RGBA', (192 * 2, 256), (0, 0, 0, 0))
             image_map_new.paste(image_map, (0, 0))
@@ -342,7 +342,101 @@ def make_map_tsa():
         # run FEBuilderGBA to make TSA: https://github.com/laqieer/FEBuilderGBA/commit/fabcd487abe9f31c0d4578c61e17e6caded2257b
         os.system('%s --convertmap1picture --in=%s --outImg=%s --outTSA=%s' % (FEBuiderGBA, image_map_decreased_color_path, map_obj_img_path, map_tsa_path))
 
+def make_chapters():
+    map_ids = sorted(map_configs.keys())
+    with open('include/chapters.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        file.write('enum {\n')
+        file.write('    CHAPTER_CH_S0000 = CHAPTER_CH_NEW,\n')
+        for map_id in map_ids:
+            file.write('    CHAPTER_CH_%s,\n' % map_id)
+        file.write('};\n\n')
+    with open('source/chapters.c', 'w', encoding='utf-8') as file:
+        file.write('''
+#include "chapterinfo.h"
+#include "chapterNew.h"
+#include "constants/chapters.h"
+#include "debugchapter.h"
+#include "chapters.h"
+#include "texts.h"
+#include "gfx_map.h"
+
+''')
+        for map_id in map_ids:
+            file.write('#include "%s_bin.h"\n' % map_id)
+        file.write('''
+
+#ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
+void const * const ChapterMapGraphicAnimations[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapGraphicAnimation,
+};
+
+void const * const ChapterMapPaletteAnimations[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+};
+#endif
+
+void const * const ChapterMaps[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMap,
+};
+
+struct ChapterInfo const newChapters[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0000",
+        .asset_img_b = 2,
+        .asset_img_anims = 6,
+        .msg_38 = 3786,
+        .unk_0F = 3, // initial X
+        .unk_10 = 14, // initial Y
+        .number_id = 10,
+        .song_blue_bgm = 10,
+        .song_red_bgm = 2,
+        .song_green_bgm = 10,
+        .song_opening_bgm = 2,
+    },
+''')
+        # chapters
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
+            file.write('        .debug_name = "%s",\n' % map_id)
+            file.write('        .msg_38 = MID_STAGE_%s,\n' % map_id)
+            file.write('        .number_id = CHAPTER_CH_%s,\n' % map_id)
+            if len(map_configs[map_id]['field']['changes']) > 0:
+                file.write('        .wall_hp = WALL_HP_DEFAULT,\n')
+            file.write('    },\n')
+        file.write('};\n\n')
+        # map graphics
+        file.write('void const * const ChapterMapGraphics[] = {\n')
+        file.write('    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapGraphic,\n')
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sTiles,\n' % (map_id, map_id))
+        file.write('};\n\n')
+        # map tilesets
+        file.write('void const * const ChapterMapTilesets[] = {\n')
+        file.write('    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapTileset,\n')
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s_bin,\n' % (map_id, map_id))
+        file.write('};\n\n')
+        # map palettes
+        file.write('void const * const ChapterMapPalettes[] = {\n')
+        file.write('    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapPalette,\n')
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sPal,\n' % (map_id, map_id))
+        file.write('};\n\n')
+        #TODO: map changes and events
+        file.write('''
+void const * const ChapterMapChanges[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+};
+
+void const * const ChapterEvents[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = &DebugChapterEvent,
+};
+
+''')
+
 if __name__ == '__main__':
+    fetch_all_configs_from_wiki()
     load_map_configs()
     print('Loaded %d maps' % len(map_configs))
     load_map_names()
@@ -350,7 +444,7 @@ if __name__ == '__main__':
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
-    fetch_all_configs_from_wiki()
     # make_map_images()
     # decrease_map_colors()
-    make_map_tsa()
+    # make_map_tsa()
+    make_chapters()

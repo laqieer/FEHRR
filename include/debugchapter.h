@@ -11,3 +11,7 @@
 extern const u8 DebugChapterMap[];
 extern const struct ChapterEventInfo DebugChapterEvent;
 extern const struct UnitInfo DebugBlueUnits[];
+extern const unsigned int DebugChapterMapGraphic[];
+extern const unsigned short DebugChapterMapPalette[];
+extern const uint8_t DebugChapterMapTileset[];
+extern const u8 DebugChapterMapGraphicAnimation[];

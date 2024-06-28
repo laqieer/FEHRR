@@ -5,6 +5,8 @@
 #define CHAPTER_CH_LAST CHAPTER_CH_NEW
 #define CHAPTER_CH_NULL 0xFFFF
 
+#define WALL_HP_DEFAULT 10
+
 bool IsChapterNew(int chapter);
 
 extern struct ChapterInfo const newChapters[];

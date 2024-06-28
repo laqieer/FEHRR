@@ -1,57 +1,4188 @@
+
 #include "chapterinfo.h"
 #include "chapterNew.h"
 #include "constants/chapters.h"
 #include "debugchapter.h"
+#include "chapters.h"
+#include "texts.h"
+#include "gfx_map.h"
+
+#include "S0001_bin.h"
+#include "S0002_bin.h"
+#include "S0101_bin.h"
+#include "S0102_bin.h"
+#include "S0103_bin.h"
+#include "S0201_bin.h"
+#include "S0202_bin.h"
+#include "S0203_bin.h"
+#include "S0204_bin.h"
+#include "S0205_bin.h"
+#include "S0301_bin.h"
+#include "S0302_bin.h"
+#include "S0303_bin.h"
+#include "S0304_bin.h"
+#include "S0305_bin.h"
+#include "S0401_bin.h"
+#include "S0402_bin.h"
+#include "S0403_bin.h"
+#include "S0404_bin.h"
+#include "S0405_bin.h"
+#include "S0501_bin.h"
+#include "S0502_bin.h"
+#include "S0503_bin.h"
+#include "S0504_bin.h"
+#include "S0505_bin.h"
+#include "S0601_bin.h"
+#include "S0602_bin.h"
+#include "S0603_bin.h"
+#include "S0604_bin.h"
+#include "S0605_bin.h"
+#include "S0701_bin.h"
+#include "S0702_bin.h"
+#include "S0703_bin.h"
+#include "S0704_bin.h"
+#include "S0705_bin.h"
+#include "S0801_bin.h"
+#include "S0802_bin.h"
+#include "S0803_bin.h"
+#include "S0804_bin.h"
+#include "S0805_bin.h"
+#include "S0901_bin.h"
+#include "S0902_bin.h"
+#include "S0903_bin.h"
+#include "S0904_bin.h"
+#include "S0905_bin.h"
+#include "S1001_bin.h"
+#include "S1002_bin.h"
+#include "S1003_bin.h"
+#include "S1004_bin.h"
+#include "S1005_bin.h"
+#include "S1101_bin.h"
+#include "S1102_bin.h"
+#include "S1103_bin.h"
+#include "S1104_bin.h"
+#include "S1105_bin.h"
+#include "S1201_bin.h"
+#include "S1202_bin.h"
+#include "S1203_bin.h"
+#include "S1204_bin.h"
+#include "S1205_bin.h"
+#include "S1301_bin.h"
+#include "S1302_bin.h"
+#include "S1303_bin.h"
+#include "S1304_bin.h"
+#include "S1305_bin.h"
+#include "S1401_bin.h"
+#include "S1402_bin.h"
+#include "S1403_bin.h"
+#include "S1404_bin.h"
+#include "S1405_bin.h"
+#include "S1501_bin.h"
+#include "S1601_bin.h"
+#include "S2011_bin.h"
+#include "S2012_bin.h"
+#include "S2013_bin.h"
+#include "S2014_bin.h"
+#include "S2015_bin.h"
+#include "S2021_bin.h"
+#include "S2022_bin.h"
+#include "S2023_bin.h"
+#include "S2024_bin.h"
+#include "S2025_bin.h"
+#include "S2031_bin.h"
+#include "S2032_bin.h"
+#include "S2033_bin.h"
+#include "S2034_bin.h"
+#include "S2035_bin.h"
+#include "S2041_bin.h"
+#include "S2042_bin.h"
+#include "S2043_bin.h"
+#include "S2044_bin.h"
+#include "S2045_bin.h"
+#include "S2051_bin.h"
+#include "S2052_bin.h"
+#include "S2053_bin.h"
+#include "S2054_bin.h"
+#include "S2055_bin.h"
+#include "S2061_bin.h"
+#include "S2062_bin.h"
+#include "S2063_bin.h"
+#include "S2064_bin.h"
+#include "S2065_bin.h"
+#include "S2071_bin.h"
+#include "S2072_bin.h"
+#include "S2073_bin.h"
+#include "S2074_bin.h"
+#include "S2075_bin.h"
+#include "S2081_bin.h"
+#include "S2082_bin.h"
+#include "S2083_bin.h"
+#include "S2084_bin.h"
+#include "S2085_bin.h"
+#include "S2091_bin.h"
+#include "S2092_bin.h"
+#include "S2093_bin.h"
+#include "S2094_bin.h"
+#include "S2095_bin.h"
+#include "S2101_bin.h"
+#include "S2102_bin.h"
+#include "S2103_bin.h"
+#include "S2104_bin.h"
+#include "S2105_bin.h"
+#include "S2111_bin.h"
+#include "S2112_bin.h"
+#include "S2113_bin.h"
+#include "S2114_bin.h"
+#include "S2115_bin.h"
+#include "S2121_bin.h"
+#include "S2122_bin.h"
+#include "S2123_bin.h"
+#include "S2124_bin.h"
+#include "S2125_bin.h"
+#include "S2131_bin.h"
+#include "S2132_bin.h"
+#include "S2133_bin.h"
+#include "S2134_bin.h"
+#include "S2135_bin.h"
+#include "S3011_bin.h"
+#include "S3012_bin.h"
+#include "S3013_bin.h"
+#include "S3014_bin.h"
+#include "S3015_bin.h"
+#include "S3021_bin.h"
+#include "S3022_bin.h"
+#include "S3023_bin.h"
+#include "S3024_bin.h"
+#include "S3025_bin.h"
+#include "S3031_bin.h"
+#include "S3032_bin.h"
+#include "S3033_bin.h"
+#include "S3034_bin.h"
+#include "S3035_bin.h"
+#include "S3041_bin.h"
+#include "S3042_bin.h"
+#include "S3043_bin.h"
+#include "S3044_bin.h"
+#include "S3045_bin.h"
+#include "S3051_bin.h"
+#include "S3052_bin.h"
+#include "S3053_bin.h"
+#include "S3054_bin.h"
+#include "S3055_bin.h"
+#include "S3061_bin.h"
+#include "S3062_bin.h"
+#include "S3063_bin.h"
+#include "S3064_bin.h"
+#include "S3065_bin.h"
+#include "S3071_bin.h"
+#include "S3072_bin.h"
+#include "S3073_bin.h"
+#include "S3074_bin.h"
+#include "S3075_bin.h"
+#include "S3081_bin.h"
+#include "S3082_bin.h"
+#include "S3083_bin.h"
+#include "S3084_bin.h"
+#include "S3085_bin.h"
+#include "S3091_bin.h"
+#include "S3092_bin.h"
+#include "S3093_bin.h"
+#include "S3094_bin.h"
+#include "S3095_bin.h"
+#include "S3101_bin.h"
+#include "S3102_bin.h"
+#include "S3103_bin.h"
+#include "S3104_bin.h"
+#include "S3105_bin.h"
+#include "S3111_bin.h"
+#include "S3112_bin.h"
+#include "S3113_bin.h"
+#include "S3114_bin.h"
+#include "S3115_bin.h"
+#include "S3121_bin.h"
+#include "S3122_bin.h"
+#include "S3123_bin.h"
+#include "S3124_bin.h"
+#include "S3125_bin.h"
+#include "S3131_bin.h"
+#include "S3132_bin.h"
+#include "S3133_bin.h"
+#include "S3134_bin.h"
+#include "S3135_bin.h"
+#include "S4011_bin.h"
+#include "S4012_bin.h"
+#include "S4013_bin.h"
+#include "S4014_bin.h"
+#include "S4015_bin.h"
+#include "S4021_bin.h"
+#include "S4022_bin.h"
+#include "S4023_bin.h"
+#include "S4024_bin.h"
+#include "S4025_bin.h"
+#include "S4031_bin.h"
+#include "S4032_bin.h"
+#include "S4033_bin.h"
+#include "S4034_bin.h"
+#include "S4035_bin.h"
+#include "S4041_bin.h"
+#include "S4042_bin.h"
+#include "S4043_bin.h"
+#include "S4044_bin.h"
+#include "S4045_bin.h"
+#include "S4051_bin.h"
+#include "S4052_bin.h"
+#include "S4053_bin.h"
+#include "S4054_bin.h"
+#include "S4055_bin.h"
+#include "S4061_bin.h"
+#include "S4062_bin.h"
+#include "S4063_bin.h"
+#include "S4064_bin.h"
+#include "S4065_bin.h"
+#include "S4071_bin.h"
+#include "S4072_bin.h"
+#include "S4073_bin.h"
+#include "S4074_bin.h"
+#include "S4075_bin.h"
+#include "S4081_bin.h"
+#include "S4082_bin.h"
+#include "S4083_bin.h"
+#include "S4084_bin.h"
+#include "S4085_bin.h"
+#include "S4091_bin.h"
+#include "S4092_bin.h"
+#include "S4093_bin.h"
+#include "S4094_bin.h"
+#include "S4095_bin.h"
+#include "S4101_bin.h"
+#include "S4102_bin.h"
+#include "S4103_bin.h"
+#include "S4104_bin.h"
+#include "S4105_bin.h"
+#include "S4111_bin.h"
+#include "S4112_bin.h"
+#include "S4113_bin.h"
+#include "S4114_bin.h"
+#include "S4115_bin.h"
+#include "S4121_bin.h"
+#include "S4122_bin.h"
+#include "S4123_bin.h"
+#include "S4124_bin.h"
+#include "S4125_bin.h"
+#include "S4131_bin.h"
+#include "S4132_bin.h"
+#include "S4133_bin.h"
+#include "S4134_bin.h"
+#include "S4135_bin.h"
+#include "S5011_bin.h"
+#include "S5012_bin.h"
+#include "S5013_bin.h"
+#include "S5014_bin.h"
+#include "S5015_bin.h"
+#include "S5021_bin.h"
+#include "S5022_bin.h"
+#include "S5023_bin.h"
+#include "S5024_bin.h"
+#include "S5025_bin.h"
+#include "S5031_bin.h"
+#include "S5032_bin.h"
+#include "S5033_bin.h"
+#include "S5034_bin.h"
+#include "S5035_bin.h"
+#include "S5041_bin.h"
+#include "S5042_bin.h"
+#include "S5043_bin.h"
+#include "S5044_bin.h"
+#include "S5045_bin.h"
+#include "S5051_bin.h"
+#include "S5052_bin.h"
+#include "S5053_bin.h"
+#include "S5054_bin.h"
+#include "S5055_bin.h"
+#include "S5061_bin.h"
+#include "S5062_bin.h"
+#include "S5063_bin.h"
+#include "S5064_bin.h"
+#include "S5065_bin.h"
+#include "S5071_bin.h"
+#include "S5072_bin.h"
+#include "S5073_bin.h"
+#include "S5074_bin.h"
+#include "S5075_bin.h"
+#include "S5081_bin.h"
+#include "S5082_bin.h"
+#include "S5083_bin.h"
+#include "S5084_bin.h"
+#include "S5085_bin.h"
+#include "S5091_bin.h"
+#include "S5092_bin.h"
+#include "S5093_bin.h"
+#include "S5094_bin.h"
+#include "S5095_bin.h"
+#include "S5101_bin.h"
+#include "S5102_bin.h"
+#include "S5103_bin.h"
+#include "S5104_bin.h"
+#include "S5105_bin.h"
+#include "S5111_bin.h"
+#include "S5112_bin.h"
+#include "S5113_bin.h"
+#include "S5114_bin.h"
+#include "S5115_bin.h"
+#include "S5121_bin.h"
+#include "S5122_bin.h"
+#include "S5123_bin.h"
+#include "S5124_bin.h"
+#include "S5125_bin.h"
+#include "S5131_bin.h"
+#include "S5132_bin.h"
+#include "S5133_bin.h"
+#include "S5134_bin.h"
+#include "S5135_bin.h"
+#include "S6011_bin.h"
+#include "S6012_bin.h"
+#include "S6013_bin.h"
+#include "S6014_bin.h"
+#include "S6015_bin.h"
+#include "S6021_bin.h"
+#include "S6022_bin.h"
+#include "S6023_bin.h"
+#include "S6024_bin.h"
+#include "S6025_bin.h"
+#include "S6031_bin.h"
+#include "S6032_bin.h"
+#include "S6033_bin.h"
+#include "S6034_bin.h"
+#include "S6035_bin.h"
+#include "S6041_bin.h"
+#include "S6042_bin.h"
+#include "S6043_bin.h"
+#include "S6044_bin.h"
+#include "S6045_bin.h"
+#include "S6051_bin.h"
+#include "S6052_bin.h"
+#include "S6053_bin.h"
+#include "S6054_bin.h"
+#include "S6055_bin.h"
+#include "S6061_bin.h"
+#include "S6062_bin.h"
+#include "S6063_bin.h"
+#include "S6064_bin.h"
+#include "S6065_bin.h"
+#include "S6071_bin.h"
+#include "S6072_bin.h"
+#include "S6073_bin.h"
+#include "S6074_bin.h"
+#include "S6075_bin.h"
+#include "S6081_bin.h"
+#include "S6082_bin.h"
+#include "S6083_bin.h"
+#include "S6084_bin.h"
+#include "S6085_bin.h"
+#include "S6091_bin.h"
+#include "S6092_bin.h"
+#include "S6093_bin.h"
+#include "S6094_bin.h"
+#include "S6095_bin.h"
+#include "S6101_bin.h"
+#include "S6102_bin.h"
+#include "S6103_bin.h"
+#include "S6104_bin.h"
+#include "S6105_bin.h"
+#include "S6111_bin.h"
+#include "S6112_bin.h"
+#include "S6113_bin.h"
+#include "S6114_bin.h"
+#include "S6115_bin.h"
+#include "S6121_bin.h"
+#include "S6122_bin.h"
+#include "S6123_bin.h"
+#include "S6124_bin.h"
+#include "S6125_bin.h"
+#include "S6131_bin.h"
+#include "S6132_bin.h"
+#include "S6133_bin.h"
+#include "S6134_bin.h"
+#include "S6135_bin.h"
+#include "S7011_bin.h"
+#include "S7012_bin.h"
+#include "S7013_bin.h"
+#include "S7014_bin.h"
+#include "S7015_bin.h"
+#include "S7021_bin.h"
+#include "S7022_bin.h"
+#include "S7023_bin.h"
+#include "S7024_bin.h"
+#include "S7025_bin.h"
+#include "S7031_bin.h"
+#include "S7032_bin.h"
+#include "S7033_bin.h"
+#include "S7034_bin.h"
+#include "S7035_bin.h"
+#include "S7041_bin.h"
+#include "S7042_bin.h"
+#include "S7043_bin.h"
+#include "S7044_bin.h"
+#include "S7045_bin.h"
+#include "S7051_bin.h"
+#include "S7052_bin.h"
+#include "S7053_bin.h"
+#include "S7054_bin.h"
+#include "S7055_bin.h"
+#include "S7061_bin.h"
+#include "S7062_bin.h"
+#include "S7063_bin.h"
+#include "S7064_bin.h"
+#include "S7065_bin.h"
+#include "S7071_bin.h"
+#include "S7072_bin.h"
+#include "S7073_bin.h"
+#include "S7074_bin.h"
+#include "S7075_bin.h"
+#include "S7081_bin.h"
+#include "S7082_bin.h"
+#include "S7083_bin.h"
+#include "S7084_bin.h"
+#include "S7085_bin.h"
+#include "S7091_bin.h"
+#include "S7092_bin.h"
+#include "S7093_bin.h"
+#include "S7094_bin.h"
+#include "S7095_bin.h"
+#include "S7101_bin.h"
+#include "S7102_bin.h"
+#include "S7103_bin.h"
+#include "S7104_bin.h"
+#include "S7105_bin.h"
+#include "S7111_bin.h"
+#include "S7112_bin.h"
+#include "S7113_bin.h"
+#include "S7114_bin.h"
+#include "S7115_bin.h"
+
+
+#ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
+void const * const ChapterMapGraphicAnimations[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapGraphicAnimation,
+};
+
+void const * const ChapterMapPaletteAnimations[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+};
+#endif
+
+void const * const ChapterMaps[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMap,
+};
 
 struct ChapterInfo const newChapters[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = {
-        .debug_name = "debugmap",
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0000",
         .asset_img_b = 2,
         .asset_img_anims = 6,
         .msg_38 = 3786,
         .unk_0F = 3, // initial X
         .unk_10 = 14, // initial Y
         .number_id = 10,
-        .wall_hp = 10,
-        .fog = 2,
         .song_blue_bgm = 10,
         .song_red_bgm = 2,
         .song_green_bgm = 10,
-        .song_intro_bgm = 0x1e,
         .song_opening_bgm = 2,
+    },
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0001",
+        .msg_38 = MID_STAGE_S0001,
+        .number_id = CHAPTER_CH_S0001,
+    },
+    [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0002",
+        .msg_38 = MID_STAGE_S0002,
+        .number_id = CHAPTER_CH_S0002,
+    },
+    [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0101",
+        .msg_38 = MID_STAGE_S0101,
+        .number_id = CHAPTER_CH_S0101,
+    },
+    [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0102",
+        .msg_38 = MID_STAGE_S0102,
+        .number_id = CHAPTER_CH_S0102,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0103",
+        .msg_38 = MID_STAGE_S0103,
+        .number_id = CHAPTER_CH_S0103,
+    },
+    [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0201",
+        .msg_38 = MID_STAGE_S0201,
+        .number_id = CHAPTER_CH_S0201,
+    },
+    [CHAPTER_CH_S0202 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0202",
+        .msg_38 = MID_STAGE_S0202,
+        .number_id = CHAPTER_CH_S0202,
+    },
+    [CHAPTER_CH_S0203 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0203",
+        .msg_38 = MID_STAGE_S0203,
+        .number_id = CHAPTER_CH_S0203,
+    },
+    [CHAPTER_CH_S0204 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0204",
+        .msg_38 = MID_STAGE_S0204,
+        .number_id = CHAPTER_CH_S0204,
+    },
+    [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0205",
+        .msg_38 = MID_STAGE_S0205,
+        .number_id = CHAPTER_CH_S0205,
+    },
+    [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0301",
+        .msg_38 = MID_STAGE_S0301,
+        .number_id = CHAPTER_CH_S0301,
+    },
+    [CHAPTER_CH_S0302 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0302",
+        .msg_38 = MID_STAGE_S0302,
+        .number_id = CHAPTER_CH_S0302,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0303 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0303",
+        .msg_38 = MID_STAGE_S0303,
+        .number_id = CHAPTER_CH_S0303,
+    },
+    [CHAPTER_CH_S0304 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0304",
+        .msg_38 = MID_STAGE_S0304,
+        .number_id = CHAPTER_CH_S0304,
+    },
+    [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0305",
+        .msg_38 = MID_STAGE_S0305,
+        .number_id = CHAPTER_CH_S0305,
+    },
+    [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0401",
+        .msg_38 = MID_STAGE_S0401,
+        .number_id = CHAPTER_CH_S0401,
+    },
+    [CHAPTER_CH_S0402 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0402",
+        .msg_38 = MID_STAGE_S0402,
+        .number_id = CHAPTER_CH_S0402,
+    },
+    [CHAPTER_CH_S0403 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0403",
+        .msg_38 = MID_STAGE_S0403,
+        .number_id = CHAPTER_CH_S0403,
+    },
+    [CHAPTER_CH_S0404 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0404",
+        .msg_38 = MID_STAGE_S0404,
+        .number_id = CHAPTER_CH_S0404,
+    },
+    [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0405",
+        .msg_38 = MID_STAGE_S0405,
+        .number_id = CHAPTER_CH_S0405,
+    },
+    [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0501",
+        .msg_38 = MID_STAGE_S0501,
+        .number_id = CHAPTER_CH_S0501,
+    },
+    [CHAPTER_CH_S0502 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0502",
+        .msg_38 = MID_STAGE_S0502,
+        .number_id = CHAPTER_CH_S0502,
+    },
+    [CHAPTER_CH_S0503 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0503",
+        .msg_38 = MID_STAGE_S0503,
+        .number_id = CHAPTER_CH_S0503,
+    },
+    [CHAPTER_CH_S0504 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0504",
+        .msg_38 = MID_STAGE_S0504,
+        .number_id = CHAPTER_CH_S0504,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0505",
+        .msg_38 = MID_STAGE_S0505,
+        .number_id = CHAPTER_CH_S0505,
+    },
+    [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0601",
+        .msg_38 = MID_STAGE_S0601,
+        .number_id = CHAPTER_CH_S0601,
+    },
+    [CHAPTER_CH_S0602 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0602",
+        .msg_38 = MID_STAGE_S0602,
+        .number_id = CHAPTER_CH_S0602,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0603 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0603",
+        .msg_38 = MID_STAGE_S0603,
+        .number_id = CHAPTER_CH_S0603,
+    },
+    [CHAPTER_CH_S0604 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0604",
+        .msg_38 = MID_STAGE_S0604,
+        .number_id = CHAPTER_CH_S0604,
+    },
+    [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0605",
+        .msg_38 = MID_STAGE_S0605,
+        .number_id = CHAPTER_CH_S0605,
+    },
+    [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0701",
+        .msg_38 = MID_STAGE_S0701,
+        .number_id = CHAPTER_CH_S0701,
+    },
+    [CHAPTER_CH_S0702 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0702",
+        .msg_38 = MID_STAGE_S0702,
+        .number_id = CHAPTER_CH_S0702,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0703 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0703",
+        .msg_38 = MID_STAGE_S0703,
+        .number_id = CHAPTER_CH_S0703,
+    },
+    [CHAPTER_CH_S0704 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0704",
+        .msg_38 = MID_STAGE_S0704,
+        .number_id = CHAPTER_CH_S0704,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0705",
+        .msg_38 = MID_STAGE_S0705,
+        .number_id = CHAPTER_CH_S0705,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0801",
+        .msg_38 = MID_STAGE_S0801,
+        .number_id = CHAPTER_CH_S0801,
+    },
+    [CHAPTER_CH_S0802 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0802",
+        .msg_38 = MID_STAGE_S0802,
+        .number_id = CHAPTER_CH_S0802,
+    },
+    [CHAPTER_CH_S0803 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0803",
+        .msg_38 = MID_STAGE_S0803,
+        .number_id = CHAPTER_CH_S0803,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S0804 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0804",
+        .msg_38 = MID_STAGE_S0804,
+        .number_id = CHAPTER_CH_S0804,
+    },
+    [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0805",
+        .msg_38 = MID_STAGE_S0805,
+        .number_id = CHAPTER_CH_S0805,
+    },
+    [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0901",
+        .msg_38 = MID_STAGE_S0901,
+        .number_id = CHAPTER_CH_S0901,
+    },
+    [CHAPTER_CH_S0902 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0902",
+        .msg_38 = MID_STAGE_S0902,
+        .number_id = CHAPTER_CH_S0902,
+    },
+    [CHAPTER_CH_S0903 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0903",
+        .msg_38 = MID_STAGE_S0903,
+        .number_id = CHAPTER_CH_S0903,
+    },
+    [CHAPTER_CH_S0904 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0904",
+        .msg_38 = MID_STAGE_S0904,
+        .number_id = CHAPTER_CH_S0904,
+    },
+    [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = {
+        .debug_name = "S0905",
+        .msg_38 = MID_STAGE_S0905,
+        .number_id = CHAPTER_CH_S0905,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1001",
+        .msg_38 = MID_STAGE_S1001,
+        .number_id = CHAPTER_CH_S1001,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1002 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1002",
+        .msg_38 = MID_STAGE_S1002,
+        .number_id = CHAPTER_CH_S1002,
+    },
+    [CHAPTER_CH_S1003 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1003",
+        .msg_38 = MID_STAGE_S1003,
+        .number_id = CHAPTER_CH_S1003,
+    },
+    [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1004",
+        .msg_38 = MID_STAGE_S1004,
+        .number_id = CHAPTER_CH_S1004,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1005",
+        .msg_38 = MID_STAGE_S1005,
+        .number_id = CHAPTER_CH_S1005,
+    },
+    [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1101",
+        .msg_38 = MID_STAGE_S1101,
+        .number_id = CHAPTER_CH_S1101,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1102",
+        .msg_38 = MID_STAGE_S1102,
+        .number_id = CHAPTER_CH_S1102,
+    },
+    [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1103",
+        .msg_38 = MID_STAGE_S1103,
+        .number_id = CHAPTER_CH_S1103,
+    },
+    [CHAPTER_CH_S1104 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1104",
+        .msg_38 = MID_STAGE_S1104,
+        .number_id = CHAPTER_CH_S1104,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1105",
+        .msg_38 = MID_STAGE_S1105,
+        .number_id = CHAPTER_CH_S1105,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1201",
+        .msg_38 = MID_STAGE_S1201,
+        .number_id = CHAPTER_CH_S1201,
+    },
+    [CHAPTER_CH_S1202 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1202",
+        .msg_38 = MID_STAGE_S1202,
+        .number_id = CHAPTER_CH_S1202,
+    },
+    [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1203",
+        .msg_38 = MID_STAGE_S1203,
+        .number_id = CHAPTER_CH_S1203,
+    },
+    [CHAPTER_CH_S1204 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1204",
+        .msg_38 = MID_STAGE_S1204,
+        .number_id = CHAPTER_CH_S1204,
+    },
+    [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1205",
+        .msg_38 = MID_STAGE_S1205,
+        .number_id = CHAPTER_CH_S1205,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1301",
+        .msg_38 = MID_STAGE_S1301,
+        .number_id = CHAPTER_CH_S1301,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1302 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1302",
+        .msg_38 = MID_STAGE_S1302,
+        .number_id = CHAPTER_CH_S1302,
+    },
+    [CHAPTER_CH_S1303 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1303",
+        .msg_38 = MID_STAGE_S1303,
+        .number_id = CHAPTER_CH_S1303,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1304 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1304",
+        .msg_38 = MID_STAGE_S1304,
+        .number_id = CHAPTER_CH_S1304,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1305",
+        .msg_38 = MID_STAGE_S1305,
+        .number_id = CHAPTER_CH_S1305,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1401",
+        .msg_38 = MID_STAGE_S1401,
+        .number_id = CHAPTER_CH_S1401,
+    },
+    [CHAPTER_CH_S1402 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1402",
+        .msg_38 = MID_STAGE_S1402,
+        .number_id = CHAPTER_CH_S1402,
+    },
+    [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1403",
+        .msg_38 = MID_STAGE_S1403,
+        .number_id = CHAPTER_CH_S1403,
+    },
+    [CHAPTER_CH_S1404 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1404",
+        .msg_38 = MID_STAGE_S1404,
+        .number_id = CHAPTER_CH_S1404,
+    },
+    [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1405",
+        .msg_38 = MID_STAGE_S1405,
+        .number_id = CHAPTER_CH_S1405,
+    },
+    [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1501",
+        .msg_38 = MID_STAGE_S1501,
+        .number_id = CHAPTER_CH_S1501,
+    },
+    [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = {
+        .debug_name = "S1601",
+        .msg_38 = MID_STAGE_S1601,
+        .number_id = CHAPTER_CH_S1601,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2011",
+        .msg_38 = MID_STAGE_S2011,
+        .number_id = CHAPTER_CH_S2011,
+    },
+    [CHAPTER_CH_S2012 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2012",
+        .msg_38 = MID_STAGE_S2012,
+        .number_id = CHAPTER_CH_S2012,
+    },
+    [CHAPTER_CH_S2013 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2013",
+        .msg_38 = MID_STAGE_S2013,
+        .number_id = CHAPTER_CH_S2013,
+    },
+    [CHAPTER_CH_S2014 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2014",
+        .msg_38 = MID_STAGE_S2014,
+        .number_id = CHAPTER_CH_S2014,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2015",
+        .msg_38 = MID_STAGE_S2015,
+        .number_id = CHAPTER_CH_S2015,
+    },
+    [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2021",
+        .msg_38 = MID_STAGE_S2021,
+        .number_id = CHAPTER_CH_S2021,
+    },
+    [CHAPTER_CH_S2022 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2022",
+        .msg_38 = MID_STAGE_S2022,
+        .number_id = CHAPTER_CH_S2022,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2023 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2023",
+        .msg_38 = MID_STAGE_S2023,
+        .number_id = CHAPTER_CH_S2023,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2024 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2024",
+        .msg_38 = MID_STAGE_S2024,
+        .number_id = CHAPTER_CH_S2024,
+    },
+    [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2025",
+        .msg_38 = MID_STAGE_S2025,
+        .number_id = CHAPTER_CH_S2025,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2031",
+        .msg_38 = MID_STAGE_S2031,
+        .number_id = CHAPTER_CH_S2031,
+    },
+    [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2032",
+        .msg_38 = MID_STAGE_S2032,
+        .number_id = CHAPTER_CH_S2032,
+    },
+    [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2033",
+        .msg_38 = MID_STAGE_S2033,
+        .number_id = CHAPTER_CH_S2033,
+    },
+    [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2034",
+        .msg_38 = MID_STAGE_S2034,
+        .number_id = CHAPTER_CH_S2034,
+    },
+    [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2035",
+        .msg_38 = MID_STAGE_S2035,
+        .number_id = CHAPTER_CH_S2035,
+    },
+    [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2041",
+        .msg_38 = MID_STAGE_S2041,
+        .number_id = CHAPTER_CH_S2041,
+    },
+    [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2042",
+        .msg_38 = MID_STAGE_S2042,
+        .number_id = CHAPTER_CH_S2042,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2043",
+        .msg_38 = MID_STAGE_S2043,
+        .number_id = CHAPTER_CH_S2043,
+    },
+    [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2044",
+        .msg_38 = MID_STAGE_S2044,
+        .number_id = CHAPTER_CH_S2044,
+    },
+    [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2045",
+        .msg_38 = MID_STAGE_S2045,
+        .number_id = CHAPTER_CH_S2045,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2051",
+        .msg_38 = MID_STAGE_S2051,
+        .number_id = CHAPTER_CH_S2051,
+    },
+    [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2052",
+        .msg_38 = MID_STAGE_S2052,
+        .number_id = CHAPTER_CH_S2052,
+    },
+    [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2053",
+        .msg_38 = MID_STAGE_S2053,
+        .number_id = CHAPTER_CH_S2053,
+    },
+    [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2054",
+        .msg_38 = MID_STAGE_S2054,
+        .number_id = CHAPTER_CH_S2054,
+    },
+    [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2055",
+        .msg_38 = MID_STAGE_S2055,
+        .number_id = CHAPTER_CH_S2055,
+    },
+    [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2061",
+        .msg_38 = MID_STAGE_S2061,
+        .number_id = CHAPTER_CH_S2061,
+    },
+    [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2062",
+        .msg_38 = MID_STAGE_S2062,
+        .number_id = CHAPTER_CH_S2062,
+    },
+    [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2063",
+        .msg_38 = MID_STAGE_S2063,
+        .number_id = CHAPTER_CH_S2063,
+    },
+    [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2064",
+        .msg_38 = MID_STAGE_S2064,
+        .number_id = CHAPTER_CH_S2064,
+    },
+    [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2065",
+        .msg_38 = MID_STAGE_S2065,
+        .number_id = CHAPTER_CH_S2065,
+    },
+    [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2071",
+        .msg_38 = MID_STAGE_S2071,
+        .number_id = CHAPTER_CH_S2071,
+    },
+    [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2072",
+        .msg_38 = MID_STAGE_S2072,
+        .number_id = CHAPTER_CH_S2072,
+    },
+    [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2073",
+        .msg_38 = MID_STAGE_S2073,
+        .number_id = CHAPTER_CH_S2073,
+    },
+    [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2074",
+        .msg_38 = MID_STAGE_S2074,
+        .number_id = CHAPTER_CH_S2074,
+    },
+    [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2075",
+        .msg_38 = MID_STAGE_S2075,
+        .number_id = CHAPTER_CH_S2075,
+    },
+    [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2081",
+        .msg_38 = MID_STAGE_S2081,
+        .number_id = CHAPTER_CH_S2081,
+    },
+    [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2082",
+        .msg_38 = MID_STAGE_S2082,
+        .number_id = CHAPTER_CH_S2082,
+    },
+    [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2083",
+        .msg_38 = MID_STAGE_S2083,
+        .number_id = CHAPTER_CH_S2083,
+    },
+    [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2084",
+        .msg_38 = MID_STAGE_S2084,
+        .number_id = CHAPTER_CH_S2084,
+    },
+    [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2085",
+        .msg_38 = MID_STAGE_S2085,
+        .number_id = CHAPTER_CH_S2085,
+    },
+    [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2091",
+        .msg_38 = MID_STAGE_S2091,
+        .number_id = CHAPTER_CH_S2091,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2092",
+        .msg_38 = MID_STAGE_S2092,
+        .number_id = CHAPTER_CH_S2092,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2093",
+        .msg_38 = MID_STAGE_S2093,
+        .number_id = CHAPTER_CH_S2093,
+    },
+    [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2094",
+        .msg_38 = MID_STAGE_S2094,
+        .number_id = CHAPTER_CH_S2094,
+    },
+    [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2095",
+        .msg_38 = MID_STAGE_S2095,
+        .number_id = CHAPTER_CH_S2095,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2101",
+        .msg_38 = MID_STAGE_S2101,
+        .number_id = CHAPTER_CH_S2101,
+    },
+    [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2102",
+        .msg_38 = MID_STAGE_S2102,
+        .number_id = CHAPTER_CH_S2102,
+    },
+    [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2103",
+        .msg_38 = MID_STAGE_S2103,
+        .number_id = CHAPTER_CH_S2103,
+    },
+    [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2104",
+        .msg_38 = MID_STAGE_S2104,
+        .number_id = CHAPTER_CH_S2104,
+    },
+    [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2105",
+        .msg_38 = MID_STAGE_S2105,
+        .number_id = CHAPTER_CH_S2105,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2111",
+        .msg_38 = MID_STAGE_S2111,
+        .number_id = CHAPTER_CH_S2111,
+    },
+    [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2112",
+        .msg_38 = MID_STAGE_S2112,
+        .number_id = CHAPTER_CH_S2112,
+    },
+    [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2113",
+        .msg_38 = MID_STAGE_S2113,
+        .number_id = CHAPTER_CH_S2113,
+    },
+    [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2114",
+        .msg_38 = MID_STAGE_S2114,
+        .number_id = CHAPTER_CH_S2114,
+    },
+    [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2115",
+        .msg_38 = MID_STAGE_S2115,
+        .number_id = CHAPTER_CH_S2115,
+    },
+    [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2121",
+        .msg_38 = MID_STAGE_S2121,
+        .number_id = CHAPTER_CH_S2121,
+    },
+    [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2122",
+        .msg_38 = MID_STAGE_S2122,
+        .number_id = CHAPTER_CH_S2122,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2123",
+        .msg_38 = MID_STAGE_S2123,
+        .number_id = CHAPTER_CH_S2123,
+    },
+    [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2124",
+        .msg_38 = MID_STAGE_S2124,
+        .number_id = CHAPTER_CH_S2124,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2125",
+        .msg_38 = MID_STAGE_S2125,
+        .number_id = CHAPTER_CH_S2125,
+    },
+    [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2131",
+        .msg_38 = MID_STAGE_S2131,
+        .number_id = CHAPTER_CH_S2131,
+    },
+    [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2132",
+        .msg_38 = MID_STAGE_S2132,
+        .number_id = CHAPTER_CH_S2132,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2133",
+        .msg_38 = MID_STAGE_S2133,
+        .number_id = CHAPTER_CH_S2133,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2134",
+        .msg_38 = MID_STAGE_S2134,
+        .number_id = CHAPTER_CH_S2134,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = {
+        .debug_name = "S2135",
+        .msg_38 = MID_STAGE_S2135,
+        .number_id = CHAPTER_CH_S2135,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3011",
+        .msg_38 = MID_STAGE_S3011,
+        .number_id = CHAPTER_CH_S3011,
+    },
+    [CHAPTER_CH_S3012 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3012",
+        .msg_38 = MID_STAGE_S3012,
+        .number_id = CHAPTER_CH_S3012,
+    },
+    [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3013",
+        .msg_38 = MID_STAGE_S3013,
+        .number_id = CHAPTER_CH_S3013,
+    },
+    [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3014",
+        .msg_38 = MID_STAGE_S3014,
+        .number_id = CHAPTER_CH_S3014,
+    },
+    [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3015",
+        .msg_38 = MID_STAGE_S3015,
+        .number_id = CHAPTER_CH_S3015,
+    },
+    [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3021",
+        .msg_38 = MID_STAGE_S3021,
+        .number_id = CHAPTER_CH_S3021,
+    },
+    [CHAPTER_CH_S3022 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3022",
+        .msg_38 = MID_STAGE_S3022,
+        .number_id = CHAPTER_CH_S3022,
+    },
+    [CHAPTER_CH_S3023 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3023",
+        .msg_38 = MID_STAGE_S3023,
+        .number_id = CHAPTER_CH_S3023,
+    },
+    [CHAPTER_CH_S3024 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3024",
+        .msg_38 = MID_STAGE_S3024,
+        .number_id = CHAPTER_CH_S3024,
+    },
+    [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3025",
+        .msg_38 = MID_STAGE_S3025,
+        .number_id = CHAPTER_CH_S3025,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3031",
+        .msg_38 = MID_STAGE_S3031,
+        .number_id = CHAPTER_CH_S3031,
+    },
+    [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3032",
+        .msg_38 = MID_STAGE_S3032,
+        .number_id = CHAPTER_CH_S3032,
+    },
+    [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3033",
+        .msg_38 = MID_STAGE_S3033,
+        .number_id = CHAPTER_CH_S3033,
+    },
+    [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3034",
+        .msg_38 = MID_STAGE_S3034,
+        .number_id = CHAPTER_CH_S3034,
+    },
+    [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3035",
+        .msg_38 = MID_STAGE_S3035,
+        .number_id = CHAPTER_CH_S3035,
+    },
+    [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3041",
+        .msg_38 = MID_STAGE_S3041,
+        .number_id = CHAPTER_CH_S3041,
+    },
+    [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3042",
+        .msg_38 = MID_STAGE_S3042,
+        .number_id = CHAPTER_CH_S3042,
+    },
+    [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3043",
+        .msg_38 = MID_STAGE_S3043,
+        .number_id = CHAPTER_CH_S3043,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3044",
+        .msg_38 = MID_STAGE_S3044,
+        .number_id = CHAPTER_CH_S3044,
+    },
+    [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3045",
+        .msg_38 = MID_STAGE_S3045,
+        .number_id = CHAPTER_CH_S3045,
+    },
+    [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3051",
+        .msg_38 = MID_STAGE_S3051,
+        .number_id = CHAPTER_CH_S3051,
+    },
+    [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3052",
+        .msg_38 = MID_STAGE_S3052,
+        .number_id = CHAPTER_CH_S3052,
+    },
+    [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3053",
+        .msg_38 = MID_STAGE_S3053,
+        .number_id = CHAPTER_CH_S3053,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3054",
+        .msg_38 = MID_STAGE_S3054,
+        .number_id = CHAPTER_CH_S3054,
+    },
+    [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3055",
+        .msg_38 = MID_STAGE_S3055,
+        .number_id = CHAPTER_CH_S3055,
+    },
+    [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3061",
+        .msg_38 = MID_STAGE_S3061,
+        .number_id = CHAPTER_CH_S3061,
+    },
+    [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3062",
+        .msg_38 = MID_STAGE_S3062,
+        .number_id = CHAPTER_CH_S3062,
+    },
+    [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3063",
+        .msg_38 = MID_STAGE_S3063,
+        .number_id = CHAPTER_CH_S3063,
+    },
+    [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3064",
+        .msg_38 = MID_STAGE_S3064,
+        .number_id = CHAPTER_CH_S3064,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3065",
+        .msg_38 = MID_STAGE_S3065,
+        .number_id = CHAPTER_CH_S3065,
+    },
+    [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3071",
+        .msg_38 = MID_STAGE_S3071,
+        .number_id = CHAPTER_CH_S3071,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3072",
+        .msg_38 = MID_STAGE_S3072,
+        .number_id = CHAPTER_CH_S3072,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3073",
+        .msg_38 = MID_STAGE_S3073,
+        .number_id = CHAPTER_CH_S3073,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3074",
+        .msg_38 = MID_STAGE_S3074,
+        .number_id = CHAPTER_CH_S3074,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3075",
+        .msg_38 = MID_STAGE_S3075,
+        .number_id = CHAPTER_CH_S3075,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3081",
+        .msg_38 = MID_STAGE_S3081,
+        .number_id = CHAPTER_CH_S3081,
+    },
+    [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3082",
+        .msg_38 = MID_STAGE_S3082,
+        .number_id = CHAPTER_CH_S3082,
+    },
+    [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3083",
+        .msg_38 = MID_STAGE_S3083,
+        .number_id = CHAPTER_CH_S3083,
+    },
+    [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3084",
+        .msg_38 = MID_STAGE_S3084,
+        .number_id = CHAPTER_CH_S3084,
+    },
+    [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3085",
+        .msg_38 = MID_STAGE_S3085,
+        .number_id = CHAPTER_CH_S3085,
+    },
+    [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3091",
+        .msg_38 = MID_STAGE_S3091,
+        .number_id = CHAPTER_CH_S3091,
+    },
+    [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3092",
+        .msg_38 = MID_STAGE_S3092,
+        .number_id = CHAPTER_CH_S3092,
+    },
+    [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3093",
+        .msg_38 = MID_STAGE_S3093,
+        .number_id = CHAPTER_CH_S3093,
+    },
+    [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3094",
+        .msg_38 = MID_STAGE_S3094,
+        .number_id = CHAPTER_CH_S3094,
+    },
+    [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3095",
+        .msg_38 = MID_STAGE_S3095,
+        .number_id = CHAPTER_CH_S3095,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3101",
+        .msg_38 = MID_STAGE_S3101,
+        .number_id = CHAPTER_CH_S3101,
+    },
+    [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3102",
+        .msg_38 = MID_STAGE_S3102,
+        .number_id = CHAPTER_CH_S3102,
+    },
+    [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3103",
+        .msg_38 = MID_STAGE_S3103,
+        .number_id = CHAPTER_CH_S3103,
+    },
+    [CHAPTER_CH_S3104 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3104",
+        .msg_38 = MID_STAGE_S3104,
+        .number_id = CHAPTER_CH_S3104,
+    },
+    [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3105",
+        .msg_38 = MID_STAGE_S3105,
+        .number_id = CHAPTER_CH_S3105,
+    },
+    [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3111",
+        .msg_38 = MID_STAGE_S3111,
+        .number_id = CHAPTER_CH_S3111,
+    },
+    [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3112",
+        .msg_38 = MID_STAGE_S3112,
+        .number_id = CHAPTER_CH_S3112,
+    },
+    [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3113",
+        .msg_38 = MID_STAGE_S3113,
+        .number_id = CHAPTER_CH_S3113,
+    },
+    [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3114",
+        .msg_38 = MID_STAGE_S3114,
+        .number_id = CHAPTER_CH_S3114,
+    },
+    [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3115",
+        .msg_38 = MID_STAGE_S3115,
+        .number_id = CHAPTER_CH_S3115,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3121",
+        .msg_38 = MID_STAGE_S3121,
+        .number_id = CHAPTER_CH_S3121,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3122",
+        .msg_38 = MID_STAGE_S3122,
+        .number_id = CHAPTER_CH_S3122,
+    },
+    [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3123",
+        .msg_38 = MID_STAGE_S3123,
+        .number_id = CHAPTER_CH_S3123,
+    },
+    [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3124",
+        .msg_38 = MID_STAGE_S3124,
+        .number_id = CHAPTER_CH_S3124,
+    },
+    [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3125",
+        .msg_38 = MID_STAGE_S3125,
+        .number_id = CHAPTER_CH_S3125,
+    },
+    [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3131",
+        .msg_38 = MID_STAGE_S3131,
+        .number_id = CHAPTER_CH_S3131,
+    },
+    [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3132",
+        .msg_38 = MID_STAGE_S3132,
+        .number_id = CHAPTER_CH_S3132,
+    },
+    [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3133",
+        .msg_38 = MID_STAGE_S3133,
+        .number_id = CHAPTER_CH_S3133,
+    },
+    [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3134",
+        .msg_38 = MID_STAGE_S3134,
+        .number_id = CHAPTER_CH_S3134,
+    },
+    [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = {
+        .debug_name = "S3135",
+        .msg_38 = MID_STAGE_S3135,
+        .number_id = CHAPTER_CH_S3135,
+    },
+    [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4011",
+        .msg_38 = MID_STAGE_S4011,
+        .number_id = CHAPTER_CH_S4011,
+    },
+    [CHAPTER_CH_S4012 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4012",
+        .msg_38 = MID_STAGE_S4012,
+        .number_id = CHAPTER_CH_S4012,
+    },
+    [CHAPTER_CH_S4013 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4013",
+        .msg_38 = MID_STAGE_S4013,
+        .number_id = CHAPTER_CH_S4013,
+    },
+    [CHAPTER_CH_S4014 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4014",
+        .msg_38 = MID_STAGE_S4014,
+        .number_id = CHAPTER_CH_S4014,
+    },
+    [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4015",
+        .msg_38 = MID_STAGE_S4015,
+        .number_id = CHAPTER_CH_S4015,
+    },
+    [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4021",
+        .msg_38 = MID_STAGE_S4021,
+        .number_id = CHAPTER_CH_S4021,
+    },
+    [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4022",
+        .msg_38 = MID_STAGE_S4022,
+        .number_id = CHAPTER_CH_S4022,
+    },
+    [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4023",
+        .msg_38 = MID_STAGE_S4023,
+        .number_id = CHAPTER_CH_S4023,
+    },
+    [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4024",
+        .msg_38 = MID_STAGE_S4024,
+        .number_id = CHAPTER_CH_S4024,
+    },
+    [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4025",
+        .msg_38 = MID_STAGE_S4025,
+        .number_id = CHAPTER_CH_S4025,
+    },
+    [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4031",
+        .msg_38 = MID_STAGE_S4031,
+        .number_id = CHAPTER_CH_S4031,
+    },
+    [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4032",
+        .msg_38 = MID_STAGE_S4032,
+        .number_id = CHAPTER_CH_S4032,
+    },
+    [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4033",
+        .msg_38 = MID_STAGE_S4033,
+        .number_id = CHAPTER_CH_S4033,
+    },
+    [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4034",
+        .msg_38 = MID_STAGE_S4034,
+        .number_id = CHAPTER_CH_S4034,
+    },
+    [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4035",
+        .msg_38 = MID_STAGE_S4035,
+        .number_id = CHAPTER_CH_S4035,
+    },
+    [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4041",
+        .msg_38 = MID_STAGE_S4041,
+        .number_id = CHAPTER_CH_S4041,
+    },
+    [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4042",
+        .msg_38 = MID_STAGE_S4042,
+        .number_id = CHAPTER_CH_S4042,
+    },
+    [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4043",
+        .msg_38 = MID_STAGE_S4043,
+        .number_id = CHAPTER_CH_S4043,
+    },
+    [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4044",
+        .msg_38 = MID_STAGE_S4044,
+        .number_id = CHAPTER_CH_S4044,
+    },
+    [CHAPTER_CH_S4045 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4045",
+        .msg_38 = MID_STAGE_S4045,
+        .number_id = CHAPTER_CH_S4045,
+    },
+    [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4051",
+        .msg_38 = MID_STAGE_S4051,
+        .number_id = CHAPTER_CH_S4051,
+    },
+    [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4052",
+        .msg_38 = MID_STAGE_S4052,
+        .number_id = CHAPTER_CH_S4052,
+    },
+    [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4053",
+        .msg_38 = MID_STAGE_S4053,
+        .number_id = CHAPTER_CH_S4053,
+    },
+    [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4054",
+        .msg_38 = MID_STAGE_S4054,
+        .number_id = CHAPTER_CH_S4054,
+    },
+    [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4055",
+        .msg_38 = MID_STAGE_S4055,
+        .number_id = CHAPTER_CH_S4055,
+    },
+    [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4061",
+        .msg_38 = MID_STAGE_S4061,
+        .number_id = CHAPTER_CH_S4061,
+    },
+    [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4062",
+        .msg_38 = MID_STAGE_S4062,
+        .number_id = CHAPTER_CH_S4062,
+    },
+    [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4063",
+        .msg_38 = MID_STAGE_S4063,
+        .number_id = CHAPTER_CH_S4063,
+    },
+    [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4064",
+        .msg_38 = MID_STAGE_S4064,
+        .number_id = CHAPTER_CH_S4064,
+    },
+    [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4065",
+        .msg_38 = MID_STAGE_S4065,
+        .number_id = CHAPTER_CH_S4065,
+    },
+    [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4071",
+        .msg_38 = MID_STAGE_S4071,
+        .number_id = CHAPTER_CH_S4071,
+    },
+    [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4072",
+        .msg_38 = MID_STAGE_S4072,
+        .number_id = CHAPTER_CH_S4072,
+    },
+    [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4073",
+        .msg_38 = MID_STAGE_S4073,
+        .number_id = CHAPTER_CH_S4073,
+    },
+    [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4074",
+        .msg_38 = MID_STAGE_S4074,
+        .number_id = CHAPTER_CH_S4074,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4075",
+        .msg_38 = MID_STAGE_S4075,
+        .number_id = CHAPTER_CH_S4075,
+    },
+    [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4081",
+        .msg_38 = MID_STAGE_S4081,
+        .number_id = CHAPTER_CH_S4081,
+    },
+    [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4082",
+        .msg_38 = MID_STAGE_S4082,
+        .number_id = CHAPTER_CH_S4082,
+    },
+    [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4083",
+        .msg_38 = MID_STAGE_S4083,
+        .number_id = CHAPTER_CH_S4083,
+    },
+    [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4084",
+        .msg_38 = MID_STAGE_S4084,
+        .number_id = CHAPTER_CH_S4084,
+    },
+    [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4085",
+        .msg_38 = MID_STAGE_S4085,
+        .number_id = CHAPTER_CH_S4085,
+    },
+    [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4091",
+        .msg_38 = MID_STAGE_S4091,
+        .number_id = CHAPTER_CH_S4091,
+    },
+    [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4092",
+        .msg_38 = MID_STAGE_S4092,
+        .number_id = CHAPTER_CH_S4092,
+    },
+    [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4093",
+        .msg_38 = MID_STAGE_S4093,
+        .number_id = CHAPTER_CH_S4093,
+    },
+    [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4094",
+        .msg_38 = MID_STAGE_S4094,
+        .number_id = CHAPTER_CH_S4094,
+    },
+    [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4095",
+        .msg_38 = MID_STAGE_S4095,
+        .number_id = CHAPTER_CH_S4095,
+    },
+    [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4101",
+        .msg_38 = MID_STAGE_S4101,
+        .number_id = CHAPTER_CH_S4101,
+    },
+    [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4102",
+        .msg_38 = MID_STAGE_S4102,
+        .number_id = CHAPTER_CH_S4102,
+    },
+    [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4103",
+        .msg_38 = MID_STAGE_S4103,
+        .number_id = CHAPTER_CH_S4103,
+    },
+    [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4104",
+        .msg_38 = MID_STAGE_S4104,
+        .number_id = CHAPTER_CH_S4104,
+    },
+    [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4105",
+        .msg_38 = MID_STAGE_S4105,
+        .number_id = CHAPTER_CH_S4105,
+    },
+    [CHAPTER_CH_S4111 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4111",
+        .msg_38 = MID_STAGE_S4111,
+        .number_id = CHAPTER_CH_S4111,
+    },
+    [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4112",
+        .msg_38 = MID_STAGE_S4112,
+        .number_id = CHAPTER_CH_S4112,
+    },
+    [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4113",
+        .msg_38 = MID_STAGE_S4113,
+        .number_id = CHAPTER_CH_S4113,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4114",
+        .msg_38 = MID_STAGE_S4114,
+        .number_id = CHAPTER_CH_S4114,
+    },
+    [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4115",
+        .msg_38 = MID_STAGE_S4115,
+        .number_id = CHAPTER_CH_S4115,
+    },
+    [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4121",
+        .msg_38 = MID_STAGE_S4121,
+        .number_id = CHAPTER_CH_S4121,
+    },
+    [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4122",
+        .msg_38 = MID_STAGE_S4122,
+        .number_id = CHAPTER_CH_S4122,
+    },
+    [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4123",
+        .msg_38 = MID_STAGE_S4123,
+        .number_id = CHAPTER_CH_S4123,
+    },
+    [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4124",
+        .msg_38 = MID_STAGE_S4124,
+        .number_id = CHAPTER_CH_S4124,
+    },
+    [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4125",
+        .msg_38 = MID_STAGE_S4125,
+        .number_id = CHAPTER_CH_S4125,
+    },
+    [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4131",
+        .msg_38 = MID_STAGE_S4131,
+        .number_id = CHAPTER_CH_S4131,
+    },
+    [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4132",
+        .msg_38 = MID_STAGE_S4132,
+        .number_id = CHAPTER_CH_S4132,
+    },
+    [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4133",
+        .msg_38 = MID_STAGE_S4133,
+        .number_id = CHAPTER_CH_S4133,
+    },
+    [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4134",
+        .msg_38 = MID_STAGE_S4134,
+        .number_id = CHAPTER_CH_S4134,
+    },
+    [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = {
+        .debug_name = "S4135",
+        .msg_38 = MID_STAGE_S4135,
+        .number_id = CHAPTER_CH_S4135,
+    },
+    [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5011",
+        .msg_38 = MID_STAGE_S5011,
+        .number_id = CHAPTER_CH_S5011,
+    },
+    [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5012",
+        .msg_38 = MID_STAGE_S5012,
+        .number_id = CHAPTER_CH_S5012,
+    },
+    [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5013",
+        .msg_38 = MID_STAGE_S5013,
+        .number_id = CHAPTER_CH_S5013,
+    },
+    [CHAPTER_CH_S5014 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5014",
+        .msg_38 = MID_STAGE_S5014,
+        .number_id = CHAPTER_CH_S5014,
+    },
+    [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5015",
+        .msg_38 = MID_STAGE_S5015,
+        .number_id = CHAPTER_CH_S5015,
+    },
+    [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5021",
+        .msg_38 = MID_STAGE_S5021,
+        .number_id = CHAPTER_CH_S5021,
+    },
+    [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5022",
+        .msg_38 = MID_STAGE_S5022,
+        .number_id = CHAPTER_CH_S5022,
+    },
+    [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5023",
+        .msg_38 = MID_STAGE_S5023,
+        .number_id = CHAPTER_CH_S5023,
+    },
+    [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5024",
+        .msg_38 = MID_STAGE_S5024,
+        .number_id = CHAPTER_CH_S5024,
+    },
+    [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5025",
+        .msg_38 = MID_STAGE_S5025,
+        .number_id = CHAPTER_CH_S5025,
+    },
+    [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5031",
+        .msg_38 = MID_STAGE_S5031,
+        .number_id = CHAPTER_CH_S5031,
+    },
+    [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5032",
+        .msg_38 = MID_STAGE_S5032,
+        .number_id = CHAPTER_CH_S5032,
+    },
+    [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5033",
+        .msg_38 = MID_STAGE_S5033,
+        .number_id = CHAPTER_CH_S5033,
+    },
+    [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5034",
+        .msg_38 = MID_STAGE_S5034,
+        .number_id = CHAPTER_CH_S5034,
+    },
+    [CHAPTER_CH_S5035 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5035",
+        .msg_38 = MID_STAGE_S5035,
+        .number_id = CHAPTER_CH_S5035,
+    },
+    [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5041",
+        .msg_38 = MID_STAGE_S5041,
+        .number_id = CHAPTER_CH_S5041,
+    },
+    [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5042",
+        .msg_38 = MID_STAGE_S5042,
+        .number_id = CHAPTER_CH_S5042,
+    },
+    [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5043",
+        .msg_38 = MID_STAGE_S5043,
+        .number_id = CHAPTER_CH_S5043,
+    },
+    [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5044",
+        .msg_38 = MID_STAGE_S5044,
+        .number_id = CHAPTER_CH_S5044,
+    },
+    [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5045",
+        .msg_38 = MID_STAGE_S5045,
+        .number_id = CHAPTER_CH_S5045,
+    },
+    [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5051",
+        .msg_38 = MID_STAGE_S5051,
+        .number_id = CHAPTER_CH_S5051,
+    },
+    [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5052",
+        .msg_38 = MID_STAGE_S5052,
+        .number_id = CHAPTER_CH_S5052,
+    },
+    [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5053",
+        .msg_38 = MID_STAGE_S5053,
+        .number_id = CHAPTER_CH_S5053,
+    },
+    [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5054",
+        .msg_38 = MID_STAGE_S5054,
+        .number_id = CHAPTER_CH_S5054,
+    },
+    [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5055",
+        .msg_38 = MID_STAGE_S5055,
+        .number_id = CHAPTER_CH_S5055,
+    },
+    [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5061",
+        .msg_38 = MID_STAGE_S5061,
+        .number_id = CHAPTER_CH_S5061,
+    },
+    [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5062",
+        .msg_38 = MID_STAGE_S5062,
+        .number_id = CHAPTER_CH_S5062,
+    },
+    [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5063",
+        .msg_38 = MID_STAGE_S5063,
+        .number_id = CHAPTER_CH_S5063,
+    },
+    [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5064",
+        .msg_38 = MID_STAGE_S5064,
+        .number_id = CHAPTER_CH_S5064,
+    },
+    [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5065",
+        .msg_38 = MID_STAGE_S5065,
+        .number_id = CHAPTER_CH_S5065,
+    },
+    [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5071",
+        .msg_38 = MID_STAGE_S5071,
+        .number_id = CHAPTER_CH_S5071,
+    },
+    [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5072",
+        .msg_38 = MID_STAGE_S5072,
+        .number_id = CHAPTER_CH_S5072,
+    },
+    [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5073",
+        .msg_38 = MID_STAGE_S5073,
+        .number_id = CHAPTER_CH_S5073,
+    },
+    [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5074",
+        .msg_38 = MID_STAGE_S5074,
+        .number_id = CHAPTER_CH_S5074,
+    },
+    [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5075",
+        .msg_38 = MID_STAGE_S5075,
+        .number_id = CHAPTER_CH_S5075,
+    },
+    [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5081",
+        .msg_38 = MID_STAGE_S5081,
+        .number_id = CHAPTER_CH_S5081,
+    },
+    [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5082",
+        .msg_38 = MID_STAGE_S5082,
+        .number_id = CHAPTER_CH_S5082,
+    },
+    [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5083",
+        .msg_38 = MID_STAGE_S5083,
+        .number_id = CHAPTER_CH_S5083,
+    },
+    [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5084",
+        .msg_38 = MID_STAGE_S5084,
+        .number_id = CHAPTER_CH_S5084,
+    },
+    [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5085",
+        .msg_38 = MID_STAGE_S5085,
+        .number_id = CHAPTER_CH_S5085,
+    },
+    [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5091",
+        .msg_38 = MID_STAGE_S5091,
+        .number_id = CHAPTER_CH_S5091,
+    },
+    [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5092",
+        .msg_38 = MID_STAGE_S5092,
+        .number_id = CHAPTER_CH_S5092,
+    },
+    [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5093",
+        .msg_38 = MID_STAGE_S5093,
+        .number_id = CHAPTER_CH_S5093,
+    },
+    [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5094",
+        .msg_38 = MID_STAGE_S5094,
+        .number_id = CHAPTER_CH_S5094,
+    },
+    [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5095",
+        .msg_38 = MID_STAGE_S5095,
+        .number_id = CHAPTER_CH_S5095,
+    },
+    [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5101",
+        .msg_38 = MID_STAGE_S5101,
+        .number_id = CHAPTER_CH_S5101,
+    },
+    [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5102",
+        .msg_38 = MID_STAGE_S5102,
+        .number_id = CHAPTER_CH_S5102,
+    },
+    [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5103",
+        .msg_38 = MID_STAGE_S5103,
+        .number_id = CHAPTER_CH_S5103,
+    },
+    [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5104",
+        .msg_38 = MID_STAGE_S5104,
+        .number_id = CHAPTER_CH_S5104,
+    },
+    [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5105",
+        .msg_38 = MID_STAGE_S5105,
+        .number_id = CHAPTER_CH_S5105,
+    },
+    [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5111",
+        .msg_38 = MID_STAGE_S5111,
+        .number_id = CHAPTER_CH_S5111,
+    },
+    [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5112",
+        .msg_38 = MID_STAGE_S5112,
+        .number_id = CHAPTER_CH_S5112,
+    },
+    [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5113",
+        .msg_38 = MID_STAGE_S5113,
+        .number_id = CHAPTER_CH_S5113,
+    },
+    [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5114",
+        .msg_38 = MID_STAGE_S5114,
+        .number_id = CHAPTER_CH_S5114,
+    },
+    [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5115",
+        .msg_38 = MID_STAGE_S5115,
+        .number_id = CHAPTER_CH_S5115,
+    },
+    [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5121",
+        .msg_38 = MID_STAGE_S5121,
+        .number_id = CHAPTER_CH_S5121,
+    },
+    [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5122",
+        .msg_38 = MID_STAGE_S5122,
+        .number_id = CHAPTER_CH_S5122,
+    },
+    [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5123",
+        .msg_38 = MID_STAGE_S5123,
+        .number_id = CHAPTER_CH_S5123,
+    },
+    [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5124",
+        .msg_38 = MID_STAGE_S5124,
+        .number_id = CHAPTER_CH_S5124,
+    },
+    [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5125",
+        .msg_38 = MID_STAGE_S5125,
+        .number_id = CHAPTER_CH_S5125,
+    },
+    [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5131",
+        .msg_38 = MID_STAGE_S5131,
+        .number_id = CHAPTER_CH_S5131,
+    },
+    [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5132",
+        .msg_38 = MID_STAGE_S5132,
+        .number_id = CHAPTER_CH_S5132,
+    },
+    [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5133",
+        .msg_38 = MID_STAGE_S5133,
+        .number_id = CHAPTER_CH_S5133,
+    },
+    [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5134",
+        .msg_38 = MID_STAGE_S5134,
+        .number_id = CHAPTER_CH_S5134,
+    },
+    [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = {
+        .debug_name = "S5135",
+        .msg_38 = MID_STAGE_S5135,
+        .number_id = CHAPTER_CH_S5135,
+    },
+    [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6011",
+        .msg_38 = MID_STAGE_S6011,
+        .number_id = CHAPTER_CH_S6011,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6012",
+        .msg_38 = MID_STAGE_S6012,
+        .number_id = CHAPTER_CH_S6012,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6013",
+        .msg_38 = MID_STAGE_S6013,
+        .number_id = CHAPTER_CH_S6013,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6014",
+        .msg_38 = MID_STAGE_S6014,
+        .number_id = CHAPTER_CH_S6014,
+    },
+    [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6015",
+        .msg_38 = MID_STAGE_S6015,
+        .number_id = CHAPTER_CH_S6015,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6021",
+        .msg_38 = MID_STAGE_S6021,
+        .number_id = CHAPTER_CH_S6021,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6022",
+        .msg_38 = MID_STAGE_S6022,
+        .number_id = CHAPTER_CH_S6022,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6023",
+        .msg_38 = MID_STAGE_S6023,
+        .number_id = CHAPTER_CH_S6023,
+    },
+    [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6024",
+        .msg_38 = MID_STAGE_S6024,
+        .number_id = CHAPTER_CH_S6024,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6025",
+        .msg_38 = MID_STAGE_S6025,
+        .number_id = CHAPTER_CH_S6025,
+    },
+    [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6031",
+        .msg_38 = MID_STAGE_S6031,
+        .number_id = CHAPTER_CH_S6031,
+    },
+    [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6032",
+        .msg_38 = MID_STAGE_S6032,
+        .number_id = CHAPTER_CH_S6032,
+    },
+    [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6033",
+        .msg_38 = MID_STAGE_S6033,
+        .number_id = CHAPTER_CH_S6033,
+    },
+    [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6034",
+        .msg_38 = MID_STAGE_S6034,
+        .number_id = CHAPTER_CH_S6034,
+    },
+    [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6035",
+        .msg_38 = MID_STAGE_S6035,
+        .number_id = CHAPTER_CH_S6035,
+    },
+    [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6041",
+        .msg_38 = MID_STAGE_S6041,
+        .number_id = CHAPTER_CH_S6041,
+    },
+    [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6042",
+        .msg_38 = MID_STAGE_S6042,
+        .number_id = CHAPTER_CH_S6042,
+    },
+    [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6043",
+        .msg_38 = MID_STAGE_S6043,
+        .number_id = CHAPTER_CH_S6043,
+    },
+    [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6044",
+        .msg_38 = MID_STAGE_S6044,
+        .number_id = CHAPTER_CH_S6044,
+    },
+    [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6045",
+        .msg_38 = MID_STAGE_S6045,
+        .number_id = CHAPTER_CH_S6045,
+    },
+    [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6051",
+        .msg_38 = MID_STAGE_S6051,
+        .number_id = CHAPTER_CH_S6051,
+    },
+    [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6052",
+        .msg_38 = MID_STAGE_S6052,
+        .number_id = CHAPTER_CH_S6052,
+    },
+    [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6053",
+        .msg_38 = MID_STAGE_S6053,
+        .number_id = CHAPTER_CH_S6053,
+    },
+    [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6054",
+        .msg_38 = MID_STAGE_S6054,
+        .number_id = CHAPTER_CH_S6054,
+    },
+    [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6055",
+        .msg_38 = MID_STAGE_S6055,
+        .number_id = CHAPTER_CH_S6055,
+        .wall_hp = WALL_HP_DEFAULT,
+    },
+    [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6061",
+        .msg_38 = MID_STAGE_S6061,
+        .number_id = CHAPTER_CH_S6061,
+    },
+    [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6062",
+        .msg_38 = MID_STAGE_S6062,
+        .number_id = CHAPTER_CH_S6062,
+    },
+    [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6063",
+        .msg_38 = MID_STAGE_S6063,
+        .number_id = CHAPTER_CH_S6063,
+    },
+    [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6064",
+        .msg_38 = MID_STAGE_S6064,
+        .number_id = CHAPTER_CH_S6064,
+    },
+    [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6065",
+        .msg_38 = MID_STAGE_S6065,
+        .number_id = CHAPTER_CH_S6065,
+    },
+    [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6071",
+        .msg_38 = MID_STAGE_S6071,
+        .number_id = CHAPTER_CH_S6071,
+    },
+    [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6072",
+        .msg_38 = MID_STAGE_S6072,
+        .number_id = CHAPTER_CH_S6072,
+    },
+    [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6073",
+        .msg_38 = MID_STAGE_S6073,
+        .number_id = CHAPTER_CH_S6073,
+    },
+    [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6074",
+        .msg_38 = MID_STAGE_S6074,
+        .number_id = CHAPTER_CH_S6074,
+    },
+    [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6075",
+        .msg_38 = MID_STAGE_S6075,
+        .number_id = CHAPTER_CH_S6075,
+    },
+    [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6081",
+        .msg_38 = MID_STAGE_S6081,
+        .number_id = CHAPTER_CH_S6081,
+    },
+    [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6082",
+        .msg_38 = MID_STAGE_S6082,
+        .number_id = CHAPTER_CH_S6082,
+    },
+    [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6083",
+        .msg_38 = MID_STAGE_S6083,
+        .number_id = CHAPTER_CH_S6083,
+    },
+    [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6084",
+        .msg_38 = MID_STAGE_S6084,
+        .number_id = CHAPTER_CH_S6084,
+    },
+    [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6085",
+        .msg_38 = MID_STAGE_S6085,
+        .number_id = CHAPTER_CH_S6085,
+    },
+    [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6091",
+        .msg_38 = MID_STAGE_S6091,
+        .number_id = CHAPTER_CH_S6091,
+    },
+    [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6092",
+        .msg_38 = MID_STAGE_S6092,
+        .number_id = CHAPTER_CH_S6092,
+    },
+    [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6093",
+        .msg_38 = MID_STAGE_S6093,
+        .number_id = CHAPTER_CH_S6093,
+    },
+    [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6094",
+        .msg_38 = MID_STAGE_S6094,
+        .number_id = CHAPTER_CH_S6094,
+    },
+    [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6095",
+        .msg_38 = MID_STAGE_S6095,
+        .number_id = CHAPTER_CH_S6095,
+    },
+    [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6101",
+        .msg_38 = MID_STAGE_S6101,
+        .number_id = CHAPTER_CH_S6101,
+    },
+    [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6102",
+        .msg_38 = MID_STAGE_S6102,
+        .number_id = CHAPTER_CH_S6102,
+    },
+    [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6103",
+        .msg_38 = MID_STAGE_S6103,
+        .number_id = CHAPTER_CH_S6103,
+    },
+    [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6104",
+        .msg_38 = MID_STAGE_S6104,
+        .number_id = CHAPTER_CH_S6104,
+    },
+    [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6105",
+        .msg_38 = MID_STAGE_S6105,
+        .number_id = CHAPTER_CH_S6105,
+    },
+    [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6111",
+        .msg_38 = MID_STAGE_S6111,
+        .number_id = CHAPTER_CH_S6111,
+    },
+    [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6112",
+        .msg_38 = MID_STAGE_S6112,
+        .number_id = CHAPTER_CH_S6112,
+    },
+    [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6113",
+        .msg_38 = MID_STAGE_S6113,
+        .number_id = CHAPTER_CH_S6113,
+    },
+    [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6114",
+        .msg_38 = MID_STAGE_S6114,
+        .number_id = CHAPTER_CH_S6114,
+    },
+    [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6115",
+        .msg_38 = MID_STAGE_S6115,
+        .number_id = CHAPTER_CH_S6115,
+    },
+    [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6121",
+        .msg_38 = MID_STAGE_S6121,
+        .number_id = CHAPTER_CH_S6121,
+    },
+    [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6122",
+        .msg_38 = MID_STAGE_S6122,
+        .number_id = CHAPTER_CH_S6122,
+    },
+    [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6123",
+        .msg_38 = MID_STAGE_S6123,
+        .number_id = CHAPTER_CH_S6123,
+    },
+    [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6124",
+        .msg_38 = MID_STAGE_S6124,
+        .number_id = CHAPTER_CH_S6124,
+    },
+    [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6125",
+        .msg_38 = MID_STAGE_S6125,
+        .number_id = CHAPTER_CH_S6125,
+    },
+    [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6131",
+        .msg_38 = MID_STAGE_S6131,
+        .number_id = CHAPTER_CH_S6131,
+    },
+    [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6132",
+        .msg_38 = MID_STAGE_S6132,
+        .number_id = CHAPTER_CH_S6132,
+    },
+    [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6133",
+        .msg_38 = MID_STAGE_S6133,
+        .number_id = CHAPTER_CH_S6133,
+    },
+    [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6134",
+        .msg_38 = MID_STAGE_S6134,
+        .number_id = CHAPTER_CH_S6134,
+    },
+    [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = {
+        .debug_name = "S6135",
+        .msg_38 = MID_STAGE_S6135,
+        .number_id = CHAPTER_CH_S6135,
+    },
+    [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7011",
+        .msg_38 = MID_STAGE_S7011,
+        .number_id = CHAPTER_CH_S7011,
+    },
+    [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7012",
+        .msg_38 = MID_STAGE_S7012,
+        .number_id = CHAPTER_CH_S7012,
+    },
+    [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7013",
+        .msg_38 = MID_STAGE_S7013,
+        .number_id = CHAPTER_CH_S7013,
+    },
+    [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7014",
+        .msg_38 = MID_STAGE_S7014,
+        .number_id = CHAPTER_CH_S7014,
+    },
+    [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7015",
+        .msg_38 = MID_STAGE_S7015,
+        .number_id = CHAPTER_CH_S7015,
+    },
+    [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7021",
+        .msg_38 = MID_STAGE_S7021,
+        .number_id = CHAPTER_CH_S7021,
+    },
+    [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7022",
+        .msg_38 = MID_STAGE_S7022,
+        .number_id = CHAPTER_CH_S7022,
+    },
+    [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7023",
+        .msg_38 = MID_STAGE_S7023,
+        .number_id = CHAPTER_CH_S7023,
+    },
+    [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7024",
+        .msg_38 = MID_STAGE_S7024,
+        .number_id = CHAPTER_CH_S7024,
+    },
+    [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7025",
+        .msg_38 = MID_STAGE_S7025,
+        .number_id = CHAPTER_CH_S7025,
+    },
+    [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7031",
+        .msg_38 = MID_STAGE_S7031,
+        .number_id = CHAPTER_CH_S7031,
+    },
+    [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7032",
+        .msg_38 = MID_STAGE_S7032,
+        .number_id = CHAPTER_CH_S7032,
+    },
+    [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7033",
+        .msg_38 = MID_STAGE_S7033,
+        .number_id = CHAPTER_CH_S7033,
+    },
+    [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7034",
+        .msg_38 = MID_STAGE_S7034,
+        .number_id = CHAPTER_CH_S7034,
+    },
+    [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7035",
+        .msg_38 = MID_STAGE_S7035,
+        .number_id = CHAPTER_CH_S7035,
+    },
+    [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7041",
+        .msg_38 = MID_STAGE_S7041,
+        .number_id = CHAPTER_CH_S7041,
+    },
+    [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7042",
+        .msg_38 = MID_STAGE_S7042,
+        .number_id = CHAPTER_CH_S7042,
+    },
+    [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7043",
+        .msg_38 = MID_STAGE_S7043,
+        .number_id = CHAPTER_CH_S7043,
+    },
+    [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7044",
+        .msg_38 = MID_STAGE_S7044,
+        .number_id = CHAPTER_CH_S7044,
+    },
+    [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7045",
+        .msg_38 = MID_STAGE_S7045,
+        .number_id = CHAPTER_CH_S7045,
+    },
+    [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7051",
+        .msg_38 = MID_STAGE_S7051,
+        .number_id = CHAPTER_CH_S7051,
+    },
+    [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7052",
+        .msg_38 = MID_STAGE_S7052,
+        .number_id = CHAPTER_CH_S7052,
+    },
+    [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7053",
+        .msg_38 = MID_STAGE_S7053,
+        .number_id = CHAPTER_CH_S7053,
+    },
+    [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7054",
+        .msg_38 = MID_STAGE_S7054,
+        .number_id = CHAPTER_CH_S7054,
+    },
+    [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7055",
+        .msg_38 = MID_STAGE_S7055,
+        .number_id = CHAPTER_CH_S7055,
+    },
+    [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7061",
+        .msg_38 = MID_STAGE_S7061,
+        .number_id = CHAPTER_CH_S7061,
+    },
+    [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7062",
+        .msg_38 = MID_STAGE_S7062,
+        .number_id = CHAPTER_CH_S7062,
+    },
+    [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7063",
+        .msg_38 = MID_STAGE_S7063,
+        .number_id = CHAPTER_CH_S7063,
+    },
+    [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7064",
+        .msg_38 = MID_STAGE_S7064,
+        .number_id = CHAPTER_CH_S7064,
+    },
+    [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7065",
+        .msg_38 = MID_STAGE_S7065,
+        .number_id = CHAPTER_CH_S7065,
+    },
+    [CHAPTER_CH_S7071 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7071",
+        .msg_38 = MID_STAGE_S7071,
+        .number_id = CHAPTER_CH_S7071,
+    },
+    [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7072",
+        .msg_38 = MID_STAGE_S7072,
+        .number_id = CHAPTER_CH_S7072,
+    },
+    [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7073",
+        .msg_38 = MID_STAGE_S7073,
+        .number_id = CHAPTER_CH_S7073,
+    },
+    [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7074",
+        .msg_38 = MID_STAGE_S7074,
+        .number_id = CHAPTER_CH_S7074,
+    },
+    [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7075",
+        .msg_38 = MID_STAGE_S7075,
+        .number_id = CHAPTER_CH_S7075,
+    },
+    [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7081",
+        .msg_38 = MID_STAGE_S7081,
+        .number_id = CHAPTER_CH_S7081,
+    },
+    [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7082",
+        .msg_38 = MID_STAGE_S7082,
+        .number_id = CHAPTER_CH_S7082,
+    },
+    [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7083",
+        .msg_38 = MID_STAGE_S7083,
+        .number_id = CHAPTER_CH_S7083,
+    },
+    [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7084",
+        .msg_38 = MID_STAGE_S7084,
+        .number_id = CHAPTER_CH_S7084,
+    },
+    [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7085",
+        .msg_38 = MID_STAGE_S7085,
+        .number_id = CHAPTER_CH_S7085,
+    },
+    [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7091",
+        .msg_38 = MID_STAGE_S7091,
+        .number_id = CHAPTER_CH_S7091,
+    },
+    [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7092",
+        .msg_38 = MID_STAGE_S7092,
+        .number_id = CHAPTER_CH_S7092,
+    },
+    [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7093",
+        .msg_38 = MID_STAGE_S7093,
+        .number_id = CHAPTER_CH_S7093,
+    },
+    [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7094",
+        .msg_38 = MID_STAGE_S7094,
+        .number_id = CHAPTER_CH_S7094,
+    },
+    [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7095",
+        .msg_38 = MID_STAGE_S7095,
+        .number_id = CHAPTER_CH_S7095,
+    },
+    [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7101",
+        .msg_38 = MID_STAGE_S7101,
+        .number_id = CHAPTER_CH_S7101,
+    },
+    [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7102",
+        .msg_38 = MID_STAGE_S7102,
+        .number_id = CHAPTER_CH_S7102,
+    },
+    [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7103",
+        .msg_38 = MID_STAGE_S7103,
+        .number_id = CHAPTER_CH_S7103,
+    },
+    [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7104",
+        .msg_38 = MID_STAGE_S7104,
+        .number_id = CHAPTER_CH_S7104,
+    },
+    [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7105",
+        .msg_38 = MID_STAGE_S7105,
+        .number_id = CHAPTER_CH_S7105,
+    },
+    [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7111",
+        .msg_38 = MID_STAGE_S7111,
+        .number_id = CHAPTER_CH_S7111,
+    },
+    [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7112",
+        .msg_38 = MID_STAGE_S7112,
+        .number_id = CHAPTER_CH_S7112,
+    },
+    [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7113",
+        .msg_38 = MID_STAGE_S7113,
+        .number_id = CHAPTER_CH_S7113,
+    },
+    [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7114",
+        .msg_38 = MID_STAGE_S7114,
+        .number_id = CHAPTER_CH_S7114,
+    },
+    [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = {
+        .debug_name = "S7115",
+        .msg_38 = MID_STAGE_S7115,
+        .number_id = CHAPTER_CH_S7115,
     },
 };
 
-void const * const ChapterMaps[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = DebugChapterMap,
-};
-
-void const * const ChapterMapChanges[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = NULL,
-};
-
 void const * const ChapterMapGraphics[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = (void const * const)0x082478F0,
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapGraphic,
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = S0001Tiles,
+    [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = S0002Tiles,
+    [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = S0101Tiles,
+    [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = S0102Tiles,
+    [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = S0103Tiles,
+    [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = S0201Tiles,
+    [CHAPTER_CH_S0202 - CHAPTER_CH_NEW] = S0202Tiles,
+    [CHAPTER_CH_S0203 - CHAPTER_CH_NEW] = S0203Tiles,
+    [CHAPTER_CH_S0204 - CHAPTER_CH_NEW] = S0204Tiles,
+    [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = S0205Tiles,
+    [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = S0301Tiles,
+    [CHAPTER_CH_S0302 - CHAPTER_CH_NEW] = S0302Tiles,
+    [CHAPTER_CH_S0303 - CHAPTER_CH_NEW] = S0303Tiles,
+    [CHAPTER_CH_S0304 - CHAPTER_CH_NEW] = S0304Tiles,
+    [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = S0305Tiles,
+    [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = S0401Tiles,
+    [CHAPTER_CH_S0402 - CHAPTER_CH_NEW] = S0402Tiles,
+    [CHAPTER_CH_S0403 - CHAPTER_CH_NEW] = S0403Tiles,
+    [CHAPTER_CH_S0404 - CHAPTER_CH_NEW] = S0404Tiles,
+    [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = S0405Tiles,
+    [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = S0501Tiles,
+    [CHAPTER_CH_S0502 - CHAPTER_CH_NEW] = S0502Tiles,
+    [CHAPTER_CH_S0503 - CHAPTER_CH_NEW] = S0503Tiles,
+    [CHAPTER_CH_S0504 - CHAPTER_CH_NEW] = S0504Tiles,
+    [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = S0505Tiles,
+    [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = S0601Tiles,
+    [CHAPTER_CH_S0602 - CHAPTER_CH_NEW] = S0602Tiles,
+    [CHAPTER_CH_S0603 - CHAPTER_CH_NEW] = S0603Tiles,
+    [CHAPTER_CH_S0604 - CHAPTER_CH_NEW] = S0604Tiles,
+    [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = S0605Tiles,
+    [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = S0701Tiles,
+    [CHAPTER_CH_S0702 - CHAPTER_CH_NEW] = S0702Tiles,
+    [CHAPTER_CH_S0703 - CHAPTER_CH_NEW] = S0703Tiles,
+    [CHAPTER_CH_S0704 - CHAPTER_CH_NEW] = S0704Tiles,
+    [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = S0705Tiles,
+    [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = S0801Tiles,
+    [CHAPTER_CH_S0802 - CHAPTER_CH_NEW] = S0802Tiles,
+    [CHAPTER_CH_S0803 - CHAPTER_CH_NEW] = S0803Tiles,
+    [CHAPTER_CH_S0804 - CHAPTER_CH_NEW] = S0804Tiles,
+    [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = S0805Tiles,
+    [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = S0901Tiles,
+    [CHAPTER_CH_S0902 - CHAPTER_CH_NEW] = S0902Tiles,
+    [CHAPTER_CH_S0903 - CHAPTER_CH_NEW] = S0903Tiles,
+    [CHAPTER_CH_S0904 - CHAPTER_CH_NEW] = S0904Tiles,
+    [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = S0905Tiles,
+    [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = S1001Tiles,
+    [CHAPTER_CH_S1002 - CHAPTER_CH_NEW] = S1002Tiles,
+    [CHAPTER_CH_S1003 - CHAPTER_CH_NEW] = S1003Tiles,
+    [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = S1004Tiles,
+    [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = S1005Tiles,
+    [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = S1101Tiles,
+    [CHAPTER_CH_S1102 - CHAPTER_CH_NEW] = S1102Tiles,
+    [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = S1103Tiles,
+    [CHAPTER_CH_S1104 - CHAPTER_CH_NEW] = S1104Tiles,
+    [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = S1105Tiles,
+    [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = S1201Tiles,
+    [CHAPTER_CH_S1202 - CHAPTER_CH_NEW] = S1202Tiles,
+    [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = S1203Tiles,
+    [CHAPTER_CH_S1204 - CHAPTER_CH_NEW] = S1204Tiles,
+    [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = S1205Tiles,
+    [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = S1301Tiles,
+    [CHAPTER_CH_S1302 - CHAPTER_CH_NEW] = S1302Tiles,
+    [CHAPTER_CH_S1303 - CHAPTER_CH_NEW] = S1303Tiles,
+    [CHAPTER_CH_S1304 - CHAPTER_CH_NEW] = S1304Tiles,
+    [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = S1305Tiles,
+    [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = S1401Tiles,
+    [CHAPTER_CH_S1402 - CHAPTER_CH_NEW] = S1402Tiles,
+    [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = S1403Tiles,
+    [CHAPTER_CH_S1404 - CHAPTER_CH_NEW] = S1404Tiles,
+    [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = S1405Tiles,
+    [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = S1501Tiles,
+    [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = S1601Tiles,
+    [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = S2011Tiles,
+    [CHAPTER_CH_S2012 - CHAPTER_CH_NEW] = S2012Tiles,
+    [CHAPTER_CH_S2013 - CHAPTER_CH_NEW] = S2013Tiles,
+    [CHAPTER_CH_S2014 - CHAPTER_CH_NEW] = S2014Tiles,
+    [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = S2015Tiles,
+    [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = S2021Tiles,
+    [CHAPTER_CH_S2022 - CHAPTER_CH_NEW] = S2022Tiles,
+    [CHAPTER_CH_S2023 - CHAPTER_CH_NEW] = S2023Tiles,
+    [CHAPTER_CH_S2024 - CHAPTER_CH_NEW] = S2024Tiles,
+    [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = S2025Tiles,
+    [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = S2031Tiles,
+    [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = S2032Tiles,
+    [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = S2033Tiles,
+    [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = S2034Tiles,
+    [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = S2035Tiles,
+    [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = S2041Tiles,
+    [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = S2042Tiles,
+    [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = S2043Tiles,
+    [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = S2044Tiles,
+    [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = S2045Tiles,
+    [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = S2051Tiles,
+    [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = S2052Tiles,
+    [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = S2053Tiles,
+    [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = S2054Tiles,
+    [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = S2055Tiles,
+    [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = S2061Tiles,
+    [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = S2062Tiles,
+    [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = S2063Tiles,
+    [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = S2064Tiles,
+    [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = S2065Tiles,
+    [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = S2071Tiles,
+    [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = S2072Tiles,
+    [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = S2073Tiles,
+    [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = S2074Tiles,
+    [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = S2075Tiles,
+    [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = S2081Tiles,
+    [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = S2082Tiles,
+    [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = S2083Tiles,
+    [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = S2084Tiles,
+    [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = S2085Tiles,
+    [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = S2091Tiles,
+    [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = S2092Tiles,
+    [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = S2093Tiles,
+    [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = S2094Tiles,
+    [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = S2095Tiles,
+    [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = S2101Tiles,
+    [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = S2102Tiles,
+    [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = S2103Tiles,
+    [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = S2104Tiles,
+    [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = S2105Tiles,
+    [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = S2111Tiles,
+    [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = S2112Tiles,
+    [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = S2113Tiles,
+    [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = S2114Tiles,
+    [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = S2115Tiles,
+    [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = S2121Tiles,
+    [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = S2122Tiles,
+    [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = S2123Tiles,
+    [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = S2124Tiles,
+    [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = S2125Tiles,
+    [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = S2131Tiles,
+    [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = S2132Tiles,
+    [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = S2133Tiles,
+    [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = S2134Tiles,
+    [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = S2135Tiles,
+    [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = S3011Tiles,
+    [CHAPTER_CH_S3012 - CHAPTER_CH_NEW] = S3012Tiles,
+    [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = S3013Tiles,
+    [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = S3014Tiles,
+    [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = S3015Tiles,
+    [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = S3021Tiles,
+    [CHAPTER_CH_S3022 - CHAPTER_CH_NEW] = S3022Tiles,
+    [CHAPTER_CH_S3023 - CHAPTER_CH_NEW] = S3023Tiles,
+    [CHAPTER_CH_S3024 - CHAPTER_CH_NEW] = S3024Tiles,
+    [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = S3025Tiles,
+    [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = S3031Tiles,
+    [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = S3032Tiles,
+    [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = S3033Tiles,
+    [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = S3034Tiles,
+    [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = S3035Tiles,
+    [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = S3041Tiles,
+    [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = S3042Tiles,
+    [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = S3043Tiles,
+    [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = S3044Tiles,
+    [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = S3045Tiles,
+    [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = S3051Tiles,
+    [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = S3052Tiles,
+    [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = S3053Tiles,
+    [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = S3054Tiles,
+    [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = S3055Tiles,
+    [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = S3061Tiles,
+    [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = S3062Tiles,
+    [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = S3063Tiles,
+    [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = S3064Tiles,
+    [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = S3065Tiles,
+    [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = S3071Tiles,
+    [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = S3072Tiles,
+    [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = S3073Tiles,
+    [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = S3074Tiles,
+    [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = S3075Tiles,
+    [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = S3081Tiles,
+    [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = S3082Tiles,
+    [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = S3083Tiles,
+    [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = S3084Tiles,
+    [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = S3085Tiles,
+    [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = S3091Tiles,
+    [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = S3092Tiles,
+    [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = S3093Tiles,
+    [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = S3094Tiles,
+    [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = S3095Tiles,
+    [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = S3101Tiles,
+    [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = S3102Tiles,
+    [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = S3103Tiles,
+    [CHAPTER_CH_S3104 - CHAPTER_CH_NEW] = S3104Tiles,
+    [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = S3105Tiles,
+    [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = S3111Tiles,
+    [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = S3112Tiles,
+    [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = S3113Tiles,
+    [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = S3114Tiles,
+    [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = S3115Tiles,
+    [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = S3121Tiles,
+    [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = S3122Tiles,
+    [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = S3123Tiles,
+    [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = S3124Tiles,
+    [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = S3125Tiles,
+    [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = S3131Tiles,
+    [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = S3132Tiles,
+    [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = S3133Tiles,
+    [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = S3134Tiles,
+    [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = S3135Tiles,
+    [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = S4011Tiles,
+    [CHAPTER_CH_S4012 - CHAPTER_CH_NEW] = S4012Tiles,
+    [CHAPTER_CH_S4013 - CHAPTER_CH_NEW] = S4013Tiles,
+    [CHAPTER_CH_S4014 - CHAPTER_CH_NEW] = S4014Tiles,
+    [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = S4015Tiles,
+    [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = S4021Tiles,
+    [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = S4022Tiles,
+    [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = S4023Tiles,
+    [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = S4024Tiles,
+    [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = S4025Tiles,
+    [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = S4031Tiles,
+    [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = S4032Tiles,
+    [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = S4033Tiles,
+    [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = S4034Tiles,
+    [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = S4035Tiles,
+    [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = S4041Tiles,
+    [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = S4042Tiles,
+    [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = S4043Tiles,
+    [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = S4044Tiles,
+    [CHAPTER_CH_S4045 - CHAPTER_CH_NEW] = S4045Tiles,
+    [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = S4051Tiles,
+    [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = S4052Tiles,
+    [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = S4053Tiles,
+    [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = S4054Tiles,
+    [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = S4055Tiles,
+    [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = S4061Tiles,
+    [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = S4062Tiles,
+    [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = S4063Tiles,
+    [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = S4064Tiles,
+    [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = S4065Tiles,
+    [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = S4071Tiles,
+    [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = S4072Tiles,
+    [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = S4073Tiles,
+    [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = S4074Tiles,
+    [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = S4075Tiles,
+    [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = S4081Tiles,
+    [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = S4082Tiles,
+    [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = S4083Tiles,
+    [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = S4084Tiles,
+    [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = S4085Tiles,
+    [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = S4091Tiles,
+    [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = S4092Tiles,
+    [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = S4093Tiles,
+    [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = S4094Tiles,
+    [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = S4095Tiles,
+    [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = S4101Tiles,
+    [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = S4102Tiles,
+    [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = S4103Tiles,
+    [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = S4104Tiles,
+    [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = S4105Tiles,
+    [CHAPTER_CH_S4111 - CHAPTER_CH_NEW] = S4111Tiles,
+    [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = S4112Tiles,
+    [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = S4113Tiles,
+    [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = S4114Tiles,
+    [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = S4115Tiles,
+    [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = S4121Tiles,
+    [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = S4122Tiles,
+    [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = S4123Tiles,
+    [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = S4124Tiles,
+    [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = S4125Tiles,
+    [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = S4131Tiles,
+    [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = S4132Tiles,
+    [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = S4133Tiles,
+    [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = S4134Tiles,
+    [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = S4135Tiles,
+    [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = S5011Tiles,
+    [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = S5012Tiles,
+    [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = S5013Tiles,
+    [CHAPTER_CH_S5014 - CHAPTER_CH_NEW] = S5014Tiles,
+    [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = S5015Tiles,
+    [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = S5021Tiles,
+    [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = S5022Tiles,
+    [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = S5023Tiles,
+    [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = S5024Tiles,
+    [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = S5025Tiles,
+    [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = S5031Tiles,
+    [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = S5032Tiles,
+    [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = S5033Tiles,
+    [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = S5034Tiles,
+    [CHAPTER_CH_S5035 - CHAPTER_CH_NEW] = S5035Tiles,
+    [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = S5041Tiles,
+    [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = S5042Tiles,
+    [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = S5043Tiles,
+    [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = S5044Tiles,
+    [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = S5045Tiles,
+    [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = S5051Tiles,
+    [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = S5052Tiles,
+    [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = S5053Tiles,
+    [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = S5054Tiles,
+    [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = S5055Tiles,
+    [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = S5061Tiles,
+    [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = S5062Tiles,
+    [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = S5063Tiles,
+    [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = S5064Tiles,
+    [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = S5065Tiles,
+    [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = S5071Tiles,
+    [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = S5072Tiles,
+    [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = S5073Tiles,
+    [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = S5074Tiles,
+    [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = S5075Tiles,
+    [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = S5081Tiles,
+    [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = S5082Tiles,
+    [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = S5083Tiles,
+    [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = S5084Tiles,
+    [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = S5085Tiles,
+    [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = S5091Tiles,
+    [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = S5092Tiles,
+    [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = S5093Tiles,
+    [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = S5094Tiles,
+    [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = S5095Tiles,
+    [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = S5101Tiles,
+    [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = S5102Tiles,
+    [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = S5103Tiles,
+    [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = S5104Tiles,
+    [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = S5105Tiles,
+    [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = S5111Tiles,
+    [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = S5112Tiles,
+    [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = S5113Tiles,
+    [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = S5114Tiles,
+    [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = S5115Tiles,
+    [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = S5121Tiles,
+    [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = S5122Tiles,
+    [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = S5123Tiles,
+    [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = S5124Tiles,
+    [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = S5125Tiles,
+    [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = S5131Tiles,
+    [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = S5132Tiles,
+    [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = S5133Tiles,
+    [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = S5134Tiles,
+    [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = S5135Tiles,
+    [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = S6011Tiles,
+    [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = S6012Tiles,
+    [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = S6013Tiles,
+    [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = S6014Tiles,
+    [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = S6015Tiles,
+    [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = S6021Tiles,
+    [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = S6022Tiles,
+    [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = S6023Tiles,
+    [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = S6024Tiles,
+    [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = S6025Tiles,
+    [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = S6031Tiles,
+    [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = S6032Tiles,
+    [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = S6033Tiles,
+    [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = S6034Tiles,
+    [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = S6035Tiles,
+    [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = S6041Tiles,
+    [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = S6042Tiles,
+    [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = S6043Tiles,
+    [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = S6044Tiles,
+    [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = S6045Tiles,
+    [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = S6051Tiles,
+    [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = S6052Tiles,
+    [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = S6053Tiles,
+    [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = S6054Tiles,
+    [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = S6055Tiles,
+    [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = S6061Tiles,
+    [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = S6062Tiles,
+    [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = S6063Tiles,
+    [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = S6064Tiles,
+    [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = S6065Tiles,
+    [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = S6071Tiles,
+    [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = S6072Tiles,
+    [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = S6073Tiles,
+    [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = S6074Tiles,
+    [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = S6075Tiles,
+    [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = S6081Tiles,
+    [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = S6082Tiles,
+    [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = S6083Tiles,
+    [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = S6084Tiles,
+    [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = S6085Tiles,
+    [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = S6091Tiles,
+    [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = S6092Tiles,
+    [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = S6093Tiles,
+    [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = S6094Tiles,
+    [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = S6095Tiles,
+    [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = S6101Tiles,
+    [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = S6102Tiles,
+    [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = S6103Tiles,
+    [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = S6104Tiles,
+    [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = S6105Tiles,
+    [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = S6111Tiles,
+    [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = S6112Tiles,
+    [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = S6113Tiles,
+    [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = S6114Tiles,
+    [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = S6115Tiles,
+    [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = S6121Tiles,
+    [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = S6122Tiles,
+    [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = S6123Tiles,
+    [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = S6124Tiles,
+    [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = S6125Tiles,
+    [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = S6131Tiles,
+    [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = S6132Tiles,
+    [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = S6133Tiles,
+    [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = S6134Tiles,
+    [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = S6135Tiles,
+    [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = S7011Tiles,
+    [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = S7012Tiles,
+    [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = S7013Tiles,
+    [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = S7014Tiles,
+    [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = S7015Tiles,
+    [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = S7021Tiles,
+    [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = S7022Tiles,
+    [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = S7023Tiles,
+    [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = S7024Tiles,
+    [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = S7025Tiles,
+    [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = S7031Tiles,
+    [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = S7032Tiles,
+    [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = S7033Tiles,
+    [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = S7034Tiles,
+    [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = S7035Tiles,
+    [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = S7041Tiles,
+    [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = S7042Tiles,
+    [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = S7043Tiles,
+    [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = S7044Tiles,
+    [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = S7045Tiles,
+    [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = S7051Tiles,
+    [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = S7052Tiles,
+    [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = S7053Tiles,
+    [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = S7054Tiles,
+    [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = S7055Tiles,
+    [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = S7061Tiles,
+    [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = S7062Tiles,
+    [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = S7063Tiles,
+    [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = S7064Tiles,
+    [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = S7065Tiles,
+    [CHAPTER_CH_S7071 - CHAPTER_CH_NEW] = S7071Tiles,
+    [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = S7072Tiles,
+    [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = S7073Tiles,
+    [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = S7074Tiles,
+    [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = S7075Tiles,
+    [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = S7081Tiles,
+    [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = S7082Tiles,
+    [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = S7083Tiles,
+    [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = S7084Tiles,
+    [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = S7085Tiles,
+    [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = S7091Tiles,
+    [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = S7092Tiles,
+    [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = S7093Tiles,
+    [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = S7094Tiles,
+    [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = S7095Tiles,
+    [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = S7101Tiles,
+    [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = S7102Tiles,
+    [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = S7103Tiles,
+    [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = S7104Tiles,
+    [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = S7105Tiles,
+    [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = S7111Tiles,
+    [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = S7112Tiles,
+    [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = S7113Tiles,
+    [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = S7114Tiles,
+    [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = S7115Tiles,
 };
 
 void const * const ChapterMapTilesets[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = (void const * const)0x0823956C,
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapTileset,
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = S0001_bin,
+    [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = S0002_bin,
+    [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = S0101_bin,
+    [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = S0102_bin,
+    [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = S0103_bin,
+    [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = S0201_bin,
+    [CHAPTER_CH_S0202 - CHAPTER_CH_NEW] = S0202_bin,
+    [CHAPTER_CH_S0203 - CHAPTER_CH_NEW] = S0203_bin,
+    [CHAPTER_CH_S0204 - CHAPTER_CH_NEW] = S0204_bin,
+    [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = S0205_bin,
+    [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = S0301_bin,
+    [CHAPTER_CH_S0302 - CHAPTER_CH_NEW] = S0302_bin,
+    [CHAPTER_CH_S0303 - CHAPTER_CH_NEW] = S0303_bin,
+    [CHAPTER_CH_S0304 - CHAPTER_CH_NEW] = S0304_bin,
+    [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = S0305_bin,
+    [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = S0401_bin,
+    [CHAPTER_CH_S0402 - CHAPTER_CH_NEW] = S0402_bin,
+    [CHAPTER_CH_S0403 - CHAPTER_CH_NEW] = S0403_bin,
+    [CHAPTER_CH_S0404 - CHAPTER_CH_NEW] = S0404_bin,
+    [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = S0405_bin,
+    [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = S0501_bin,
+    [CHAPTER_CH_S0502 - CHAPTER_CH_NEW] = S0502_bin,
+    [CHAPTER_CH_S0503 - CHAPTER_CH_NEW] = S0503_bin,
+    [CHAPTER_CH_S0504 - CHAPTER_CH_NEW] = S0504_bin,
+    [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = S0505_bin,
+    [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = S0601_bin,
+    [CHAPTER_CH_S0602 - CHAPTER_CH_NEW] = S0602_bin,
+    [CHAPTER_CH_S0603 - CHAPTER_CH_NEW] = S0603_bin,
+    [CHAPTER_CH_S0604 - CHAPTER_CH_NEW] = S0604_bin,
+    [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = S0605_bin,
+    [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = S0701_bin,
+    [CHAPTER_CH_S0702 - CHAPTER_CH_NEW] = S0702_bin,
+    [CHAPTER_CH_S0703 - CHAPTER_CH_NEW] = S0703_bin,
+    [CHAPTER_CH_S0704 - CHAPTER_CH_NEW] = S0704_bin,
+    [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = S0705_bin,
+    [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = S0801_bin,
+    [CHAPTER_CH_S0802 - CHAPTER_CH_NEW] = S0802_bin,
+    [CHAPTER_CH_S0803 - CHAPTER_CH_NEW] = S0803_bin,
+    [CHAPTER_CH_S0804 - CHAPTER_CH_NEW] = S0804_bin,
+    [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = S0805_bin,
+    [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = S0901_bin,
+    [CHAPTER_CH_S0902 - CHAPTER_CH_NEW] = S0902_bin,
+    [CHAPTER_CH_S0903 - CHAPTER_CH_NEW] = S0903_bin,
+    [CHAPTER_CH_S0904 - CHAPTER_CH_NEW] = S0904_bin,
+    [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = S0905_bin,
+    [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = S1001_bin,
+    [CHAPTER_CH_S1002 - CHAPTER_CH_NEW] = S1002_bin,
+    [CHAPTER_CH_S1003 - CHAPTER_CH_NEW] = S1003_bin,
+    [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = S1004_bin,
+    [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = S1005_bin,
+    [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = S1101_bin,
+    [CHAPTER_CH_S1102 - CHAPTER_CH_NEW] = S1102_bin,
+    [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = S1103_bin,
+    [CHAPTER_CH_S1104 - CHAPTER_CH_NEW] = S1104_bin,
+    [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = S1105_bin,
+    [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = S1201_bin,
+    [CHAPTER_CH_S1202 - CHAPTER_CH_NEW] = S1202_bin,
+    [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = S1203_bin,
+    [CHAPTER_CH_S1204 - CHAPTER_CH_NEW] = S1204_bin,
+    [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = S1205_bin,
+    [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = S1301_bin,
+    [CHAPTER_CH_S1302 - CHAPTER_CH_NEW] = S1302_bin,
+    [CHAPTER_CH_S1303 - CHAPTER_CH_NEW] = S1303_bin,
+    [CHAPTER_CH_S1304 - CHAPTER_CH_NEW] = S1304_bin,
+    [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = S1305_bin,
+    [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = S1401_bin,
+    [CHAPTER_CH_S1402 - CHAPTER_CH_NEW] = S1402_bin,
+    [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = S1403_bin,
+    [CHAPTER_CH_S1404 - CHAPTER_CH_NEW] = S1404_bin,
+    [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = S1405_bin,
+    [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = S1501_bin,
+    [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = S1601_bin,
+    [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = S2011_bin,
+    [CHAPTER_CH_S2012 - CHAPTER_CH_NEW] = S2012_bin,
+    [CHAPTER_CH_S2013 - CHAPTER_CH_NEW] = S2013_bin,
+    [CHAPTER_CH_S2014 - CHAPTER_CH_NEW] = S2014_bin,
+    [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = S2015_bin,
+    [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = S2021_bin,
+    [CHAPTER_CH_S2022 - CHAPTER_CH_NEW] = S2022_bin,
+    [CHAPTER_CH_S2023 - CHAPTER_CH_NEW] = S2023_bin,
+    [CHAPTER_CH_S2024 - CHAPTER_CH_NEW] = S2024_bin,
+    [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = S2025_bin,
+    [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = S2031_bin,
+    [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = S2032_bin,
+    [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = S2033_bin,
+    [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = S2034_bin,
+    [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = S2035_bin,
+    [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = S2041_bin,
+    [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = S2042_bin,
+    [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = S2043_bin,
+    [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = S2044_bin,
+    [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = S2045_bin,
+    [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = S2051_bin,
+    [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = S2052_bin,
+    [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = S2053_bin,
+    [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = S2054_bin,
+    [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = S2055_bin,
+    [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = S2061_bin,
+    [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = S2062_bin,
+    [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = S2063_bin,
+    [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = S2064_bin,
+    [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = S2065_bin,
+    [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = S2071_bin,
+    [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = S2072_bin,
+    [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = S2073_bin,
+    [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = S2074_bin,
+    [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = S2075_bin,
+    [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = S2081_bin,
+    [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = S2082_bin,
+    [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = S2083_bin,
+    [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = S2084_bin,
+    [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = S2085_bin,
+    [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = S2091_bin,
+    [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = S2092_bin,
+    [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = S2093_bin,
+    [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = S2094_bin,
+    [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = S2095_bin,
+    [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = S2101_bin,
+    [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = S2102_bin,
+    [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = S2103_bin,
+    [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = S2104_bin,
+    [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = S2105_bin,
+    [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = S2111_bin,
+    [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = S2112_bin,
+    [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = S2113_bin,
+    [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = S2114_bin,
+    [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = S2115_bin,
+    [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = S2121_bin,
+    [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = S2122_bin,
+    [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = S2123_bin,
+    [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = S2124_bin,
+    [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = S2125_bin,
+    [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = S2131_bin,
+    [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = S2132_bin,
+    [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = S2133_bin,
+    [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = S2134_bin,
+    [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = S2135_bin,
+    [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = S3011_bin,
+    [CHAPTER_CH_S3012 - CHAPTER_CH_NEW] = S3012_bin,
+    [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = S3013_bin,
+    [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = S3014_bin,
+    [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = S3015_bin,
+    [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = S3021_bin,
+    [CHAPTER_CH_S3022 - CHAPTER_CH_NEW] = S3022_bin,
+    [CHAPTER_CH_S3023 - CHAPTER_CH_NEW] = S3023_bin,
+    [CHAPTER_CH_S3024 - CHAPTER_CH_NEW] = S3024_bin,
+    [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = S3025_bin,
+    [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = S3031_bin,
+    [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = S3032_bin,
+    [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = S3033_bin,
+    [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = S3034_bin,
+    [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = S3035_bin,
+    [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = S3041_bin,
+    [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = S3042_bin,
+    [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = S3043_bin,
+    [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = S3044_bin,
+    [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = S3045_bin,
+    [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = S3051_bin,
+    [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = S3052_bin,
+    [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = S3053_bin,
+    [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = S3054_bin,
+    [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = S3055_bin,
+    [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = S3061_bin,
+    [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = S3062_bin,
+    [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = S3063_bin,
+    [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = S3064_bin,
+    [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = S3065_bin,
+    [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = S3071_bin,
+    [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = S3072_bin,
+    [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = S3073_bin,
+    [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = S3074_bin,
+    [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = S3075_bin,
+    [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = S3081_bin,
+    [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = S3082_bin,
+    [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = S3083_bin,
+    [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = S3084_bin,
+    [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = S3085_bin,
+    [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = S3091_bin,
+    [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = S3092_bin,
+    [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = S3093_bin,
+    [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = S3094_bin,
+    [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = S3095_bin,
+    [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = S3101_bin,
+    [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = S3102_bin,
+    [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = S3103_bin,
+    [CHAPTER_CH_S3104 - CHAPTER_CH_NEW] = S3104_bin,
+    [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = S3105_bin,
+    [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = S3111_bin,
+    [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = S3112_bin,
+    [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = S3113_bin,
+    [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = S3114_bin,
+    [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = S3115_bin,
+    [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = S3121_bin,
+    [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = S3122_bin,
+    [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = S3123_bin,
+    [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = S3124_bin,
+    [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = S3125_bin,
+    [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = S3131_bin,
+    [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = S3132_bin,
+    [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = S3133_bin,
+    [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = S3134_bin,
+    [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = S3135_bin,
+    [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = S4011_bin,
+    [CHAPTER_CH_S4012 - CHAPTER_CH_NEW] = S4012_bin,
+    [CHAPTER_CH_S4013 - CHAPTER_CH_NEW] = S4013_bin,
+    [CHAPTER_CH_S4014 - CHAPTER_CH_NEW] = S4014_bin,
+    [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = S4015_bin,
+    [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = S4021_bin,
+    [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = S4022_bin,
+    [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = S4023_bin,
+    [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = S4024_bin,
+    [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = S4025_bin,
+    [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = S4031_bin,
+    [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = S4032_bin,
+    [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = S4033_bin,
+    [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = S4034_bin,
+    [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = S4035_bin,
+    [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = S4041_bin,
+    [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = S4042_bin,
+    [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = S4043_bin,
+    [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = S4044_bin,
+    [CHAPTER_CH_S4045 - CHAPTER_CH_NEW] = S4045_bin,
+    [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = S4051_bin,
+    [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = S4052_bin,
+    [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = S4053_bin,
+    [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = S4054_bin,
+    [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = S4055_bin,
+    [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = S4061_bin,
+    [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = S4062_bin,
+    [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = S4063_bin,
+    [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = S4064_bin,
+    [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = S4065_bin,
+    [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = S4071_bin,
+    [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = S4072_bin,
+    [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = S4073_bin,
+    [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = S4074_bin,
+    [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = S4075_bin,
+    [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = S4081_bin,
+    [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = S4082_bin,
+    [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = S4083_bin,
+    [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = S4084_bin,
+    [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = S4085_bin,
+    [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = S4091_bin,
+    [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = S4092_bin,
+    [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = S4093_bin,
+    [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = S4094_bin,
+    [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = S4095_bin,
+    [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = S4101_bin,
+    [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = S4102_bin,
+    [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = S4103_bin,
+    [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = S4104_bin,
+    [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = S4105_bin,
+    [CHAPTER_CH_S4111 - CHAPTER_CH_NEW] = S4111_bin,
+    [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = S4112_bin,
+    [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = S4113_bin,
+    [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = S4114_bin,
+    [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = S4115_bin,
+    [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = S4121_bin,
+    [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = S4122_bin,
+    [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = S4123_bin,
+    [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = S4124_bin,
+    [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = S4125_bin,
+    [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = S4131_bin,
+    [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = S4132_bin,
+    [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = S4133_bin,
+    [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = S4134_bin,
+    [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = S4135_bin,
+    [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = S5011_bin,
+    [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = S5012_bin,
+    [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = S5013_bin,
+    [CHAPTER_CH_S5014 - CHAPTER_CH_NEW] = S5014_bin,
+    [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = S5015_bin,
+    [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = S5021_bin,
+    [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = S5022_bin,
+    [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = S5023_bin,
+    [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = S5024_bin,
+    [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = S5025_bin,
+    [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = S5031_bin,
+    [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = S5032_bin,
+    [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = S5033_bin,
+    [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = S5034_bin,
+    [CHAPTER_CH_S5035 - CHAPTER_CH_NEW] = S5035_bin,
+    [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = S5041_bin,
+    [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = S5042_bin,
+    [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = S5043_bin,
+    [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = S5044_bin,
+    [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = S5045_bin,
+    [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = S5051_bin,
+    [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = S5052_bin,
+    [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = S5053_bin,
+    [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = S5054_bin,
+    [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = S5055_bin,
+    [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = S5061_bin,
+    [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = S5062_bin,
+    [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = S5063_bin,
+    [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = S5064_bin,
+    [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = S5065_bin,
+    [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = S5071_bin,
+    [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = S5072_bin,
+    [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = S5073_bin,
+    [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = S5074_bin,
+    [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = S5075_bin,
+    [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = S5081_bin,
+    [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = S5082_bin,
+    [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = S5083_bin,
+    [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = S5084_bin,
+    [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = S5085_bin,
+    [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = S5091_bin,
+    [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = S5092_bin,
+    [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = S5093_bin,
+    [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = S5094_bin,
+    [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = S5095_bin,
+    [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = S5101_bin,
+    [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = S5102_bin,
+    [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = S5103_bin,
+    [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = S5104_bin,
+    [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = S5105_bin,
+    [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = S5111_bin,
+    [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = S5112_bin,
+    [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = S5113_bin,
+    [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = S5114_bin,
+    [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = S5115_bin,
+    [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = S5121_bin,
+    [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = S5122_bin,
+    [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = S5123_bin,
+    [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = S5124_bin,
+    [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = S5125_bin,
+    [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = S5131_bin,
+    [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = S5132_bin,
+    [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = S5133_bin,
+    [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = S5134_bin,
+    [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = S5135_bin,
+    [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = S6011_bin,
+    [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = S6012_bin,
+    [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = S6013_bin,
+    [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = S6014_bin,
+    [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = S6015_bin,
+    [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = S6021_bin,
+    [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = S6022_bin,
+    [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = S6023_bin,
+    [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = S6024_bin,
+    [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = S6025_bin,
+    [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = S6031_bin,
+    [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = S6032_bin,
+    [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = S6033_bin,
+    [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = S6034_bin,
+    [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = S6035_bin,
+    [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = S6041_bin,
+    [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = S6042_bin,
+    [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = S6043_bin,
+    [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = S6044_bin,
+    [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = S6045_bin,
+    [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = S6051_bin,
+    [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = S6052_bin,
+    [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = S6053_bin,
+    [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = S6054_bin,
+    [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = S6055_bin,
+    [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = S6061_bin,
+    [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = S6062_bin,
+    [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = S6063_bin,
+    [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = S6064_bin,
+    [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = S6065_bin,
+    [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = S6071_bin,
+    [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = S6072_bin,
+    [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = S6073_bin,
+    [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = S6074_bin,
+    [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = S6075_bin,
+    [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = S6081_bin,
+    [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = S6082_bin,
+    [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = S6083_bin,
+    [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = S6084_bin,
+    [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = S6085_bin,
+    [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = S6091_bin,
+    [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = S6092_bin,
+    [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = S6093_bin,
+    [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = S6094_bin,
+    [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = S6095_bin,
+    [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = S6101_bin,
+    [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = S6102_bin,
+    [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = S6103_bin,
+    [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = S6104_bin,
+    [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = S6105_bin,
+    [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = S6111_bin,
+    [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = S6112_bin,
+    [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = S6113_bin,
+    [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = S6114_bin,
+    [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = S6115_bin,
+    [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = S6121_bin,
+    [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = S6122_bin,
+    [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = S6123_bin,
+    [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = S6124_bin,
+    [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = S6125_bin,
+    [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = S6131_bin,
+    [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = S6132_bin,
+    [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = S6133_bin,
+    [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = S6134_bin,
+    [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = S6135_bin,
+    [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = S7011_bin,
+    [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = S7012_bin,
+    [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = S7013_bin,
+    [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = S7014_bin,
+    [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = S7015_bin,
+    [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = S7021_bin,
+    [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = S7022_bin,
+    [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = S7023_bin,
+    [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = S7024_bin,
+    [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = S7025_bin,
+    [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = S7031_bin,
+    [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = S7032_bin,
+    [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = S7033_bin,
+    [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = S7034_bin,
+    [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = S7035_bin,
+    [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = S7041_bin,
+    [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = S7042_bin,
+    [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = S7043_bin,
+    [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = S7044_bin,
+    [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = S7045_bin,
+    [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = S7051_bin,
+    [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = S7052_bin,
+    [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = S7053_bin,
+    [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = S7054_bin,
+    [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = S7055_bin,
+    [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = S7061_bin,
+    [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = S7062_bin,
+    [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = S7063_bin,
+    [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = S7064_bin,
+    [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = S7065_bin,
+    [CHAPTER_CH_S7071 - CHAPTER_CH_NEW] = S7071_bin,
+    [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = S7072_bin,
+    [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = S7073_bin,
+    [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = S7074_bin,
+    [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = S7075_bin,
+    [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = S7081_bin,
+    [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = S7082_bin,
+    [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = S7083_bin,
+    [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = S7084_bin,
+    [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = S7085_bin,
+    [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = S7091_bin,
+    [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = S7092_bin,
+    [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = S7093_bin,
+    [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = S7094_bin,
+    [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = S7095_bin,
+    [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = S7101_bin,
+    [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = S7102_bin,
+    [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = S7103_bin,
+    [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = S7104_bin,
+    [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = S7105_bin,
+    [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = S7111_bin,
+    [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = S7112_bin,
+    [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = S7113_bin,
+    [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = S7114_bin,
+    [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = S7115_bin,
 };
 
 void const * const ChapterMapPalettes[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = (void const * const)0x0823C980,
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMapPalette,
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = S0001Pal,
+    [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = S0002Pal,
+    [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = S0101Pal,
+    [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = S0102Pal,
+    [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = S0103Pal,
+    [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = S0201Pal,
+    [CHAPTER_CH_S0202 - CHAPTER_CH_NEW] = S0202Pal,
+    [CHAPTER_CH_S0203 - CHAPTER_CH_NEW] = S0203Pal,
+    [CHAPTER_CH_S0204 - CHAPTER_CH_NEW] = S0204Pal,
+    [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = S0205Pal,
+    [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = S0301Pal,
+    [CHAPTER_CH_S0302 - CHAPTER_CH_NEW] = S0302Pal,
+    [CHAPTER_CH_S0303 - CHAPTER_CH_NEW] = S0303Pal,
+    [CHAPTER_CH_S0304 - CHAPTER_CH_NEW] = S0304Pal,
+    [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = S0305Pal,
+    [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = S0401Pal,
+    [CHAPTER_CH_S0402 - CHAPTER_CH_NEW] = S0402Pal,
+    [CHAPTER_CH_S0403 - CHAPTER_CH_NEW] = S0403Pal,
+    [CHAPTER_CH_S0404 - CHAPTER_CH_NEW] = S0404Pal,
+    [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = S0405Pal,
+    [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = S0501Pal,
+    [CHAPTER_CH_S0502 - CHAPTER_CH_NEW] = S0502Pal,
+    [CHAPTER_CH_S0503 - CHAPTER_CH_NEW] = S0503Pal,
+    [CHAPTER_CH_S0504 - CHAPTER_CH_NEW] = S0504Pal,
+    [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = S0505Pal,
+    [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = S0601Pal,
+    [CHAPTER_CH_S0602 - CHAPTER_CH_NEW] = S0602Pal,
+    [CHAPTER_CH_S0603 - CHAPTER_CH_NEW] = S0603Pal,
+    [CHAPTER_CH_S0604 - CHAPTER_CH_NEW] = S0604Pal,
+    [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = S0605Pal,
+    [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = S0701Pal,
+    [CHAPTER_CH_S0702 - CHAPTER_CH_NEW] = S0702Pal,
+    [CHAPTER_CH_S0703 - CHAPTER_CH_NEW] = S0703Pal,
+    [CHAPTER_CH_S0704 - CHAPTER_CH_NEW] = S0704Pal,
+    [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = S0705Pal,
+    [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = S0801Pal,
+    [CHAPTER_CH_S0802 - CHAPTER_CH_NEW] = S0802Pal,
+    [CHAPTER_CH_S0803 - CHAPTER_CH_NEW] = S0803Pal,
+    [CHAPTER_CH_S0804 - CHAPTER_CH_NEW] = S0804Pal,
+    [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = S0805Pal,
+    [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = S0901Pal,
+    [CHAPTER_CH_S0902 - CHAPTER_CH_NEW] = S0902Pal,
+    [CHAPTER_CH_S0903 - CHAPTER_CH_NEW] = S0903Pal,
+    [CHAPTER_CH_S0904 - CHAPTER_CH_NEW] = S0904Pal,
+    [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = S0905Pal,
+    [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = S1001Pal,
+    [CHAPTER_CH_S1002 - CHAPTER_CH_NEW] = S1002Pal,
+    [CHAPTER_CH_S1003 - CHAPTER_CH_NEW] = S1003Pal,
+    [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = S1004Pal,
+    [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = S1005Pal,
+    [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = S1101Pal,
+    [CHAPTER_CH_S1102 - CHAPTER_CH_NEW] = S1102Pal,
+    [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = S1103Pal,
+    [CHAPTER_CH_S1104 - CHAPTER_CH_NEW] = S1104Pal,
+    [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = S1105Pal,
+    [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = S1201Pal,
+    [CHAPTER_CH_S1202 - CHAPTER_CH_NEW] = S1202Pal,
+    [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = S1203Pal,
+    [CHAPTER_CH_S1204 - CHAPTER_CH_NEW] = S1204Pal,
+    [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = S1205Pal,
+    [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = S1301Pal,
+    [CHAPTER_CH_S1302 - CHAPTER_CH_NEW] = S1302Pal,
+    [CHAPTER_CH_S1303 - CHAPTER_CH_NEW] = S1303Pal,
+    [CHAPTER_CH_S1304 - CHAPTER_CH_NEW] = S1304Pal,
+    [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = S1305Pal,
+    [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = S1401Pal,
+    [CHAPTER_CH_S1402 - CHAPTER_CH_NEW] = S1402Pal,
+    [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = S1403Pal,
+    [CHAPTER_CH_S1404 - CHAPTER_CH_NEW] = S1404Pal,
+    [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = S1405Pal,
+    [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = S1501Pal,
+    [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = S1601Pal,
+    [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = S2011Pal,
+    [CHAPTER_CH_S2012 - CHAPTER_CH_NEW] = S2012Pal,
+    [CHAPTER_CH_S2013 - CHAPTER_CH_NEW] = S2013Pal,
+    [CHAPTER_CH_S2014 - CHAPTER_CH_NEW] = S2014Pal,
+    [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = S2015Pal,
+    [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = S2021Pal,
+    [CHAPTER_CH_S2022 - CHAPTER_CH_NEW] = S2022Pal,
+    [CHAPTER_CH_S2023 - CHAPTER_CH_NEW] = S2023Pal,
+    [CHAPTER_CH_S2024 - CHAPTER_CH_NEW] = S2024Pal,
+    [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = S2025Pal,
+    [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = S2031Pal,
+    [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = S2032Pal,
+    [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = S2033Pal,
+    [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = S2034Pal,
+    [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = S2035Pal,
+    [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = S2041Pal,
+    [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = S2042Pal,
+    [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = S2043Pal,
+    [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = S2044Pal,
+    [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = S2045Pal,
+    [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = S2051Pal,
+    [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = S2052Pal,
+    [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = S2053Pal,
+    [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = S2054Pal,
+    [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = S2055Pal,
+    [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = S2061Pal,
+    [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = S2062Pal,
+    [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = S2063Pal,
+    [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = S2064Pal,
+    [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = S2065Pal,
+    [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = S2071Pal,
+    [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = S2072Pal,
+    [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = S2073Pal,
+    [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = S2074Pal,
+    [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = S2075Pal,
+    [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = S2081Pal,
+    [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = S2082Pal,
+    [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = S2083Pal,
+    [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = S2084Pal,
+    [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = S2085Pal,
+    [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = S2091Pal,
+    [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = S2092Pal,
+    [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = S2093Pal,
+    [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = S2094Pal,
+    [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = S2095Pal,
+    [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = S2101Pal,
+    [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = S2102Pal,
+    [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = S2103Pal,
+    [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = S2104Pal,
+    [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = S2105Pal,
+    [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = S2111Pal,
+    [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = S2112Pal,
+    [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = S2113Pal,
+    [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = S2114Pal,
+    [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = S2115Pal,
+    [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = S2121Pal,
+    [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = S2122Pal,
+    [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = S2123Pal,
+    [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = S2124Pal,
+    [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = S2125Pal,
+    [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = S2131Pal,
+    [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = S2132Pal,
+    [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = S2133Pal,
+    [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = S2134Pal,
+    [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = S2135Pal,
+    [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = S3011Pal,
+    [CHAPTER_CH_S3012 - CHAPTER_CH_NEW] = S3012Pal,
+    [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = S3013Pal,
+    [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = S3014Pal,
+    [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = S3015Pal,
+    [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = S3021Pal,
+    [CHAPTER_CH_S3022 - CHAPTER_CH_NEW] = S3022Pal,
+    [CHAPTER_CH_S3023 - CHAPTER_CH_NEW] = S3023Pal,
+    [CHAPTER_CH_S3024 - CHAPTER_CH_NEW] = S3024Pal,
+    [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = S3025Pal,
+    [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = S3031Pal,
+    [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = S3032Pal,
+    [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = S3033Pal,
+    [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = S3034Pal,
+    [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = S3035Pal,
+    [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = S3041Pal,
+    [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = S3042Pal,
+    [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = S3043Pal,
+    [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = S3044Pal,
+    [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = S3045Pal,
+    [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = S3051Pal,
+    [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = S3052Pal,
+    [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = S3053Pal,
+    [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = S3054Pal,
+    [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = S3055Pal,
+    [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = S3061Pal,
+    [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = S3062Pal,
+    [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = S3063Pal,
+    [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = S3064Pal,
+    [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = S3065Pal,
+    [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = S3071Pal,
+    [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = S3072Pal,
+    [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = S3073Pal,
+    [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = S3074Pal,
+    [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = S3075Pal,
+    [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = S3081Pal,
+    [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = S3082Pal,
+    [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = S3083Pal,
+    [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = S3084Pal,
+    [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = S3085Pal,
+    [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = S3091Pal,
+    [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = S3092Pal,
+    [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = S3093Pal,
+    [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = S3094Pal,
+    [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = S3095Pal,
+    [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = S3101Pal,
+    [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = S3102Pal,
+    [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = S3103Pal,
+    [CHAPTER_CH_S3104 - CHAPTER_CH_NEW] = S3104Pal,
+    [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = S3105Pal,
+    [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = S3111Pal,
+    [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = S3112Pal,
+    [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = S3113Pal,
+    [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = S3114Pal,
+    [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = S3115Pal,
+    [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = S3121Pal,
+    [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = S3122Pal,
+    [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = S3123Pal,
+    [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = S3124Pal,
+    [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = S3125Pal,
+    [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = S3131Pal,
+    [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = S3132Pal,
+    [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = S3133Pal,
+    [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = S3134Pal,
+    [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = S3135Pal,
+    [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = S4011Pal,
+    [CHAPTER_CH_S4012 - CHAPTER_CH_NEW] = S4012Pal,
+    [CHAPTER_CH_S4013 - CHAPTER_CH_NEW] = S4013Pal,
+    [CHAPTER_CH_S4014 - CHAPTER_CH_NEW] = S4014Pal,
+    [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = S4015Pal,
+    [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = S4021Pal,
+    [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = S4022Pal,
+    [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = S4023Pal,
+    [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = S4024Pal,
+    [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = S4025Pal,
+    [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = S4031Pal,
+    [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = S4032Pal,
+    [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = S4033Pal,
+    [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = S4034Pal,
+    [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = S4035Pal,
+    [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = S4041Pal,
+    [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = S4042Pal,
+    [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = S4043Pal,
+    [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = S4044Pal,
+    [CHAPTER_CH_S4045 - CHAPTER_CH_NEW] = S4045Pal,
+    [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = S4051Pal,
+    [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = S4052Pal,
+    [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = S4053Pal,
+    [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = S4054Pal,
+    [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = S4055Pal,
+    [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = S4061Pal,
+    [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = S4062Pal,
+    [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = S4063Pal,
+    [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = S4064Pal,
+    [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = S4065Pal,
+    [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = S4071Pal,
+    [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = S4072Pal,
+    [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = S4073Pal,
+    [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = S4074Pal,
+    [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = S4075Pal,
+    [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = S4081Pal,
+    [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = S4082Pal,
+    [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = S4083Pal,
+    [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = S4084Pal,
+    [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = S4085Pal,
+    [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = S4091Pal,
+    [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = S4092Pal,
+    [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = S4093Pal,
+    [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = S4094Pal,
+    [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = S4095Pal,
+    [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = S4101Pal,
+    [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = S4102Pal,
+    [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = S4103Pal,
+    [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = S4104Pal,
+    [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = S4105Pal,
+    [CHAPTER_CH_S4111 - CHAPTER_CH_NEW] = S4111Pal,
+    [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = S4112Pal,
+    [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = S4113Pal,
+    [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = S4114Pal,
+    [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = S4115Pal,
+    [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = S4121Pal,
+    [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = S4122Pal,
+    [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = S4123Pal,
+    [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = S4124Pal,
+    [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = S4125Pal,
+    [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = S4131Pal,
+    [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = S4132Pal,
+    [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = S4133Pal,
+    [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = S4134Pal,
+    [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = S4135Pal,
+    [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = S5011Pal,
+    [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = S5012Pal,
+    [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = S5013Pal,
+    [CHAPTER_CH_S5014 - CHAPTER_CH_NEW] = S5014Pal,
+    [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = S5015Pal,
+    [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = S5021Pal,
+    [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = S5022Pal,
+    [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = S5023Pal,
+    [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = S5024Pal,
+    [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = S5025Pal,
+    [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = S5031Pal,
+    [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = S5032Pal,
+    [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = S5033Pal,
+    [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = S5034Pal,
+    [CHAPTER_CH_S5035 - CHAPTER_CH_NEW] = S5035Pal,
+    [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = S5041Pal,
+    [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = S5042Pal,
+    [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = S5043Pal,
+    [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = S5044Pal,
+    [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = S5045Pal,
+    [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = S5051Pal,
+    [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = S5052Pal,
+    [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = S5053Pal,
+    [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = S5054Pal,
+    [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = S5055Pal,
+    [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = S5061Pal,
+    [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = S5062Pal,
+    [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = S5063Pal,
+    [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = S5064Pal,
+    [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = S5065Pal,
+    [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = S5071Pal,
+    [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = S5072Pal,
+    [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = S5073Pal,
+    [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = S5074Pal,
+    [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = S5075Pal,
+    [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = S5081Pal,
+    [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = S5082Pal,
+    [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = S5083Pal,
+    [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = S5084Pal,
+    [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = S5085Pal,
+    [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = S5091Pal,
+    [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = S5092Pal,
+    [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = S5093Pal,
+    [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = S5094Pal,
+    [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = S5095Pal,
+    [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = S5101Pal,
+    [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = S5102Pal,
+    [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = S5103Pal,
+    [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = S5104Pal,
+    [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = S5105Pal,
+    [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = S5111Pal,
+    [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = S5112Pal,
+    [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = S5113Pal,
+    [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = S5114Pal,
+    [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = S5115Pal,
+    [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = S5121Pal,
+    [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = S5122Pal,
+    [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = S5123Pal,
+    [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = S5124Pal,
+    [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = S5125Pal,
+    [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = S5131Pal,
+    [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = S5132Pal,
+    [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = S5133Pal,
+    [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = S5134Pal,
+    [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = S5135Pal,
+    [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = S6011Pal,
+    [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = S6012Pal,
+    [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = S6013Pal,
+    [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = S6014Pal,
+    [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = S6015Pal,
+    [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = S6021Pal,
+    [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = S6022Pal,
+    [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = S6023Pal,
+    [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = S6024Pal,
+    [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = S6025Pal,
+    [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = S6031Pal,
+    [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = S6032Pal,
+    [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = S6033Pal,
+    [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = S6034Pal,
+    [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = S6035Pal,
+    [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = S6041Pal,
+    [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = S6042Pal,
+    [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = S6043Pal,
+    [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = S6044Pal,
+    [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = S6045Pal,
+    [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = S6051Pal,
+    [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = S6052Pal,
+    [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = S6053Pal,
+    [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = S6054Pal,
+    [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = S6055Pal,
+    [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = S6061Pal,
+    [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = S6062Pal,
+    [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = S6063Pal,
+    [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = S6064Pal,
+    [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = S6065Pal,
+    [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = S6071Pal,
+    [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = S6072Pal,
+    [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = S6073Pal,
+    [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = S6074Pal,
+    [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = S6075Pal,
+    [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = S6081Pal,
+    [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = S6082Pal,
+    [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = S6083Pal,
+    [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = S6084Pal,
+    [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = S6085Pal,
+    [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = S6091Pal,
+    [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = S6092Pal,
+    [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = S6093Pal,
+    [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = S6094Pal,
+    [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = S6095Pal,
+    [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = S6101Pal,
+    [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = S6102Pal,
+    [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = S6103Pal,
+    [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = S6104Pal,
+    [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = S6105Pal,
+    [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = S6111Pal,
+    [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = S6112Pal,
+    [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = S6113Pal,
+    [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = S6114Pal,
+    [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = S6115Pal,
+    [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = S6121Pal,
+    [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = S6122Pal,
+    [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = S6123Pal,
+    [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = S6124Pal,
+    [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = S6125Pal,
+    [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = S6131Pal,
+    [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = S6132Pal,
+    [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = S6133Pal,
+    [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = S6134Pal,
+    [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = S6135Pal,
+    [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = S7011Pal,
+    [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = S7012Pal,
+    [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = S7013Pal,
+    [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = S7014Pal,
+    [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = S7015Pal,
+    [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = S7021Pal,
+    [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = S7022Pal,
+    [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = S7023Pal,
+    [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = S7024Pal,
+    [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = S7025Pal,
+    [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = S7031Pal,
+    [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = S7032Pal,
+    [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = S7033Pal,
+    [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = S7034Pal,
+    [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = S7035Pal,
+    [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = S7041Pal,
+    [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = S7042Pal,
+    [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = S7043Pal,
+    [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = S7044Pal,
+    [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = S7045Pal,
+    [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = S7051Pal,
+    [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = S7052Pal,
+    [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = S7053Pal,
+    [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = S7054Pal,
+    [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = S7055Pal,
+    [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = S7061Pal,
+    [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = S7062Pal,
+    [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = S7063Pal,
+    [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = S7064Pal,
+    [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = S7065Pal,
+    [CHAPTER_CH_S7071 - CHAPTER_CH_NEW] = S7071Pal,
+    [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = S7072Pal,
+    [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = S7073Pal,
+    [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = S7074Pal,
+    [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = S7075Pal,
+    [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = S7081Pal,
+    [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = S7082Pal,
+    [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = S7083Pal,
+    [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = S7084Pal,
+    [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = S7085Pal,
+    [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = S7091Pal,
+    [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = S7092Pal,
+    [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = S7093Pal,
+    [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = S7094Pal,
+    [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = S7095Pal,
+    [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = S7101Pal,
+    [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = S7102Pal,
+    [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = S7103Pal,
+    [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = S7104Pal,
+    [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = S7105Pal,
+    [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = S7111Pal,
+    [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = S7112Pal,
+    [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = S7113Pal,
+    [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = S7114Pal,
+    [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = S7115Pal,
+};
+
+
+void const * const ChapterMapChanges[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
 };
 
 void const * const ChapterEvents[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = &DebugChapterEvent,
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = &DebugChapterEvent,
 };
 
-#ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
-void const * const ChapterMapGraphicAnimations[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = (void const * const)0x085C788C,
-};
-
-void const * const ChapterMapPaletteAnimations[] = {
-    [CHAPTER_CH_NEW - CHAPTER_CH_NEW] = NULL,
-};
-#endif

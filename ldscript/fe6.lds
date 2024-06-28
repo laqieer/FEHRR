@@ -20,3 +20,8 @@ func_fe6_080898F0Ptr = 0x868a298;
 
 SoundMainRAM_MixBuffer = SoundMainRam;
 gPlayStNew = gPlaySt;
+
+DebugChapterMapGraphic = 0x082478F0;
+DebugChapterMapTileset = 0x0823956C;
+DebugChapterMapPalette = 0x0823C980;
+DebugChapterMapGraphicAnimation = 0x085C788C;
