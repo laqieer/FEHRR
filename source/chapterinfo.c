@@ -29,7 +29,7 @@ struct ChapterInfo const * GetChapterInfoOld(int chapter)
 u8 const * GetChapterMapNew(int chapter)
 {
     if (chapter != CHAPTER_CH_NULL)
-        return IsChapterNew(chapter) ? ChapterMaps[(chapter & 1) - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfoNew(chapter)->asset_map];
+        return IsChapterNew(chapter) ? ChapterMaps[(chapter - CHAPTER_CH_NEW) & 1] : ChapterAssets[GetChapterInfoNew(chapter)->asset_map];
 
     ReadSramFast(GetExtraMapMapReadAddr(), gBuf, GetExtraMapMapSize());
     return gBuf;
