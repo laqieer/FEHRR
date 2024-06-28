@@ -352,6 +352,20 @@ def make_chapters():
         for map_id in map_ids:
             file.write('    CHAPTER_CH_%s,\n' % map_id)
         file.write('};\n\n')
+    with open('source/newmap.c', 'w', encoding='utf-8') as file:
+        file.write('''
+#include <gba_types.h>
+
+const u8 NewChapterMap[] = {
+    0, 0xE6, 1, 0,
+    15, 16,
+''')
+        for y in range(16):
+            file.write('   ')
+            for x in range(12):
+                file.write(' %d,' % (y * 32 + x))
+            file.write(' 24, 24, 24,\n')
+        file.write('};\n')
     with open('source/chapters.c', 'w', encoding='utf-8') as file:
         file.write('''
 #include "chapterinfo.h"
@@ -377,8 +391,11 @@ void const * const ChapterMapPaletteAnimations[] = {
 };
 #endif
 
+extern const u8 NewChapterMap[];
+
 void const * const ChapterMaps[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMap,
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = NewChapterMap,
 };
 
 struct ChapterInfo const newChapters[] = {

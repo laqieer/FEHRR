@@ -7,6 +7,10 @@
         "string_view": "c",
         "initializer_list": "c",
         "limits": "c",
-        "*.tcc": "c"
+        "*.tcc": "c",
+        "random": "c",
+        "format": "c",
+        "functional": "c",
+        "numeric": "c"
     }
 }

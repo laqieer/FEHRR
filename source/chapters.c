@@ -471,8 +471,11 @@ void const * const ChapterMapPaletteAnimations[] = {
 };
 #endif
 
+extern const u8 NewChapterMap[];
+
 void const * const ChapterMaps[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMap,
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = NewChapterMap,
 };
 
 struct ChapterInfo const newChapters[] = {
