@@ -3,7 +3,6 @@
 import os
 import re
 import json
-import requests
 import warnings
 import urllib.parse
 from PIL import Image
