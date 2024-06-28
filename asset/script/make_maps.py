@@ -356,9 +356,9 @@ def make_chapters():
         file.write('''
 #include <gba_types.h>
 
-const u8 NewChapterMap[] = {
-    0, 0xE6, 1, 0,
-    15, 16,
+const u16 NewChapterMap[] = {
+    0xE600, 1,
+    15 + (16 <<8),
 ''')
         for y in range(16):
             file.write('   ')
@@ -391,7 +391,7 @@ void const * const ChapterMapPaletteAnimations[] = {
 };
 #endif
 
-extern const u8 NewChapterMap[];
+extern const u16 NewChapterMap[];
 
 void const * const ChapterMaps[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMap,

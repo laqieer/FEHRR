@@ -471,7 +471,7 @@ void const * const ChapterMapPaletteAnimations[] = {
 };
 #endif
 
-extern const u8 NewChapterMap[];
+extern const u16 NewChapterMap[];
 
 void const * const ChapterMaps[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = DebugChapterMap,
