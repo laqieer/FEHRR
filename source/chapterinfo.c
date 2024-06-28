@@ -78,3 +78,10 @@ char const * GetChapterUnk_0802BBD0Old(int chapter)
 {
     return GetChapterUnk_0802BBD0New(chapter);
 }
+
+int GetChapterNumber(int chapter)
+{
+    if(IsChapterNew(chapter))
+        return (chapter - CHAPTER_CH_NEW) * 2;
+    return GetChapterInfo(chapter)->number_id;
+}

@@ -390,7 +390,6 @@ struct ChapterInfo const newChapters[] = {
         .msg_38 = 3786,
         .unk_0F = 3, // initial X
         .unk_10 = 14, // initial Y
-        .number_id = 10,
         .song_blue_bgm = 10,
         .song_red_bgm = 2,
         .song_green_bgm = 10,
@@ -402,7 +401,6 @@ struct ChapterInfo const newChapters[] = {
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
             file.write('        .debug_name = "%s",\n' % map_id)
             file.write('        .msg_38 = MID_STAGE_%s,\n' % map_id)
-            file.write('        .number_id = CHAPTER_CH_%s,\n' % map_id)
             if len(map_configs[map_id]['field']['changes']) > 0:
                 file.write('        .wall_hp = WALL_HP_DEFAULT,\n')
             file.write('    },\n')
@@ -446,7 +444,7 @@ if __name__ == '__main__':
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
-    make_map_images()
-    decrease_map_colors()
-    make_map_tsa()
+    # make_map_images()
+    # decrease_map_colors()
+    # make_map_tsa()
     make_chapters()

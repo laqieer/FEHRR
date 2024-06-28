@@ -8,6 +8,7 @@
 #define WALL_HP_DEFAULT 10
 
 bool IsChapterNew(int chapter);
+int GetChapterNumber(int chapter);
 
 extern struct ChapterInfo const newChapters[];
 

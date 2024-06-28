@@ -7,6 +7,7 @@
 #include "unit.h"
 #include "chapter.h"
 #include "chapterinfo.h"
+#include "chapterNew.h"
 #include "ui.h"
 #include "eventfunctions.h"
 #include "eventinfo.h"
@@ -321,10 +322,9 @@ int GetFurthestSaveChapterNew(void)
 
         int chapter_id = GetChapterInPlaySt((struct PlayStNew *)&playSt);
 
-        //FIXME: expand number_id
-        if (number < GetChapterInfo(chapter_id)->number_id)
+        if (number < GetChapterNumber(chapter_id))
         {
-            number = GetChapterInfo(chapter_id)->number_id;
+            number = GetChapterNumber(chapter_id);
             chapter = chapter_id;
         }
     }
