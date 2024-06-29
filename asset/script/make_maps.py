@@ -6,6 +6,7 @@ import json
 import numpy
 import warnings
 import urllib.parse
+from enum import Enum
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
@@ -153,6 +154,18 @@ terrain_map = [
         "terrain_id": 0x16,
     }
 ]
+
+class BattleTerrain(Enum):
+    DEFAULT = 0
+    SNOW = 1
+    LAVA_CAVE = 2
+    POISON_CAVE = 3
+    CASTLE_GRAY = 4
+    TOWN = 5
+    CASTLE_YELLOW = 6
+    MOUNTAIN = 7
+    CASTLE_AGAIN = 8
+    DESERT = 9
 
 def is_breakable(terrain_id):
     return terrain_configs[terrain_id]['hp'] > 0
@@ -451,6 +464,7 @@ struct ChapterInfo const newChapters[] = {
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
             file.write('        .debug_name = "%s",\n' % map_id)
+            file.write('        .banim_terrain_id = BANIM_TERRAIN_%s,\n' % get_battle_terrain(map_id).name)
             file.write('        .msg_38 = MID_STAGE_%s,\n' % map_id)
             if len(map_configs[map_id]['field']['changes']) > 0:
                 file.write('        .wall_hp = WALL_HP_DEFAULT,\n')
@@ -557,6 +571,52 @@ void const * const ChapterEvents[] = {
 
 ''')
 
+def print_terrain_by_groups():
+    print([{'terrain_group': t['terrain_group'], 'terrain': t.get('name', t['index'])} for t in sorted(terrain_configs, key=lambda x: len(terrain_configs) * x['terrain_group'] + x['index'])])
+
+map_anims = set()
+
+def print_map_anims():
+    for config in map_configs.values():
+        map_anims.add(config['field']['anim'])
+    print(map_anims)
+
+# define Enum for battle terrain
+
+battle_terrain_by_group = {
+    # 0: BattleTerrain.DEFAULT,
+    1: BattleTerrain.CASTLE_GRAY,
+    2: BattleTerrain.DESERT,
+    # 3: BattleTerrain.DEFAULT,
+    # 4: BattleTerrain.MOUNTAIN,
+    5: BattleTerrain.LAVA_CAVE,
+}
+
+battle_terrain_by_anim_p0 = {
+    '氷': BattleTerrain.SNOW,
+    '雪': BattleTerrain.SNOW,
+    '炎': BattleTerrain.LAVA_CAVE,
+    '溶岩': BattleTerrain.LAVA_CAVE,
+    '砂漠': BattleTerrain.DESERT,
+}
+
+battle_terrain_by_anim_p1 = {
+    '城内和': BattleTerrain.CASTLE_YELLOW,
+    '城内洋': BattleTerrain.CASTLE_GRAY,
+}
+
+def get_battle_terrain(map_id):
+    if map_configs[map_id]['field']['anim'] in battle_terrain_by_anim_p0:
+        return battle_terrain_by_anim_p0[map_configs[map_id]['field']['anim']]
+    if map_configs[map_id]['field']['anim'] in battle_terrain_by_anim_p1:
+        return battle_terrain_by_anim_p1[map_configs[map_id]['field']['anim']]
+    for y in range(8):
+        for x in range(6):
+            terrain_group = terrain_configs[map_configs[map_id]['field']['terrain'][y][x]]['terrain_group']
+            if terrain_group in battle_terrain_by_group:
+                return battle_terrain_by_group[terrain_group]
+    return BattleTerrain.DEFAULT
+
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
     load_map_configs()
@@ -566,6 +626,8 @@ if __name__ == '__main__':
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
+    print_terrain_by_groups()
+    print_map_anims()
     # make_map_images()
     # decrease_map_colors()
     # make_map_tsa()
