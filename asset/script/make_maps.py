@@ -372,6 +372,11 @@ def make_map_tsa():
 
 def make_chapters():
     map_ids = sorted(map_configs.keys())
+    with open('include/tilesets.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        for map_id in map_ids:
+            file.write('#include "%s_bin.h"\n' % map_id)
+            file.write('#include "%sT_bin.h"\n' % map_id)
     with open('include/chapters.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         file.write('enum {\n')
@@ -401,13 +406,8 @@ const u16 NewChapterMap[] = {
 #include "debugchapter.h"
 #include "chapters.h"
 #include "texts.h"
+#include "tilesets.h"
 #include "gfx_map.h"
-
-''')
-        for map_id in map_ids:
-            file.write('#include "%s_bin.h"\n' % map_id)
-            file.write('#include "%sT_bin.h"\n' % map_id)
-        file.write('''
 
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
 void const * const ChapterMapGraphicAnimations[] = {
