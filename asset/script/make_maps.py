@@ -462,15 +462,7 @@ def make_map_changes():
 
 ''')
 
-def make_chapters():
-    map_ids = sorted(map_configs.keys())
-    with open('include/chapters.h', 'w', encoding='utf-8') as file:
-        file.write('#pragma once\n\n')
-        file.write('enum {\n')
-        file.write('    CHAPTER_CH_S0000 = CHAPTER_CH_NEW,\n')
-        for map_id in map_ids:
-            file.write('    CHAPTER_CH_%s,\n' % map_id)
-        file.write('};\n\n')
+def make_common_map():
     with open('source/newmap.c', 'w', encoding='utf-8') as file:
         file.write('''
 #include <gba_types.h>
@@ -485,6 +477,16 @@ const u16 NewChapterMap[] = {
                 file.write(' %d,' % (4 * (y * 32 + x)))
             file.write(' 4 * 24, 4 * 24, 4 * 24,\n')
         file.write('};\n')
+
+def make_chapters():
+    map_ids = sorted(map_configs.keys())
+    with open('include/chapters.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        file.write('enum {\n')
+        file.write('    CHAPTER_CH_S0000 = CHAPTER_CH_NEW,\n')
+        for map_id in map_ids:
+            file.write('    CHAPTER_CH_%s,\n' % map_id)
+        file.write('};\n\n')
     with open('source/chapters.c', 'w', encoding='utf-8') as file:
         file.write('''
 #include "chapterinfo.h"
@@ -643,4 +645,5 @@ if __name__ == '__main__':
     make_map_images()
     decrease_map_colors()
     make_map_tilesets()
+    make_common_map()
     make_chapters()
