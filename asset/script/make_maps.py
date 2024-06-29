@@ -383,18 +383,87 @@ def make_map_tsa():
         # run FEBuilderGBA to make TSA: https://github.com/laqieer/FEBuilderGBA/commit/fabcd487abe9f31c0d4578c61e17e6caded2257b
         os.system('%s --convertmap1picture --in=%s --outImg=%s --outTSA=%s' % (FEBuiderGBA, image_map_decreased_color_path, map_obj_img_path, map_tsa_path))
 
-def make_chapters():
+def make_map_terrains():
+    for map_id, config in map_configs.items():
+        terrains = numpy.zeros((16, 16, 2, 2), dtype=numpy.uint8)
+        for y in range(8):
+            for x in range(6):
+                terrain = config['field']['terrain'][7 - y][x]
+                terrain_id = terrain_configs[terrain]['terrain_id']
+                for y0 in range(2):
+                    for x0 in range(2):
+                        terrains[y][x][y0][x0] = terrain_id
+                        terrains[y][x + 6][y0][x0] = terrain_id
+        for change in config['field']['changes'].values():
+            terrain = config['field']['terrain'][change['y']][change['x']]
+            if is_breakable(terrain):
+                base_terrain = terrain_configs[terrain]['base_terrain']
+                base_terrain_id = terrain_configs[base_terrain]['terrain_id']
+                for y0 in range(2):
+                    for x0 in range(2):
+                        terrains[7 - change['y']][change['x'] + 6][y0][x0] = base_terrain_id
+                if change['hp'] == 1:
+                    if change['type'] in ('W', 'E', 'Pillar'):
+                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
+                        terrains[7 - change['y']][change['x']][0][1] = base_terrain_id
+                    if change['type'] == 'N': # right bottom
+                        terrains[7 - change['y']][change['x']][1][1] = base_terrain_id
+                    if change['type'] == 'S': # left top
+                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
+        map_terrain_uncompressed_path = os.path.join(map_terrain_uncompressed_save_path, map_id + 'T.bin')
+        with open(map_terrain_uncompressed_path, 'wb') as file:
+            file.write(terrains.tobytes())
+        map_terrain_compressed_path = os.path.join(map_terrain_compressed_save_path, map_id + 'T.bin')
+        os.system('gbalzss e %s %s' % (map_terrain_uncompressed_path, map_terrain_compressed_path))
+
+def make_map_tilesets():
+    make_map_tsa()
+    make_map_terrains()
     map_ids = sorted(map_configs.keys())
     with open('include/tilesets.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         for map_id in map_ids:
             file.write('#include "%s_bin.h"\n' % map_id)
             file.write('#include "%sT_bin.h"\n' % map_id)
+
+def make_map_changes():
+    map_ids = sorted(map_configs.keys())
     with open('include/mapchanges.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         for map_id in map_ids:
             if len(map_configs[map_id]['field']['changes']) > 0:
                 file.write('extern const struct MapChangeInfo %sMapChanges[];\n' % map_id)
+    with open('source/mapchanges.c', 'w', encoding='utf-8') as file:
+        file.write('#include "unknown_types.h"\n\n')
+        for map_id, config in sorted(map_configs.items(), key=lambda x: x[0]):
+            if len(config['field']['changes']) > 0:
+                file.write('const u16 %sMapChangedTiles[] = {\n' % map_id)
+                for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
+                    x0 = 2 * (change['x'] + 6)
+                    y0 = 2 * (7 - change['y'])
+                    file.write('    4 * %d, 4 * %d, 4 * %d, 4 * %d, // %d\n' % (y0 * 16 + x0, y0 * 16 + x0 + 1, (y0 + 1) * 16 + x0, (y0 + 1) * 16 + x0 + 1, i))
+                file.write('};\n\n')
+                file.write('const struct MapChangeInfo %sMapChanges[] = {\n' % map_id)
+                for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
+                    x0 = 2 * change['x']
+                    y0 = 2 * (7 - change['y'])
+                    file.write('    {\n')
+                    file.write('        .id = %d,\n' % i)
+                    file.write('        .x = %d,\n' % x0)
+                    file.write('        .y = %d,\n' % y0)
+                    file.write('        .width = 2,\n')
+                    file.write('        .height = 2,\n')
+                    file.write('        .metatiles = &%sMapChangedTiles[2 * 2 * %d],\n' % (map_id, i))
+                    file.write('    },\n')
+                file.write('''    {
+        .id = -1,
+    },
+};
+
+''')
+
+def make_chapters():
+    map_ids = sorted(map_configs.keys())
     with open('include/chapters.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         file.write('enum {\n')
@@ -513,65 +582,6 @@ void const * const ChapterEvents[] = {
 };
 
 ''')
-    for map_id, config in map_configs.items():
-        terrains = numpy.zeros((16, 16, 2, 2), dtype=numpy.uint8)
-        for y in range(8):
-            for x in range(6):
-                terrain = config['field']['terrain'][7 - y][x]
-                terrain_id = terrain_configs[terrain]['terrain_id']
-                for y0 in range(2):
-                    for x0 in range(2):
-                        terrains[y][x][y0][x0] = terrain_id
-                        terrains[y][x + 6][y0][x0] = terrain_id
-        for change in config['field']['changes'].values():
-            terrain = config['field']['terrain'][change['y']][change['x']]
-            if is_breakable(terrain):
-                base_terrain = terrain_configs[terrain]['base_terrain']
-                base_terrain_id = terrain_configs[base_terrain]['terrain_id']
-                for y0 in range(2):
-                    for x0 in range(2):
-                        terrains[7 - change['y']][change['x'] + 6][y0][x0] = base_terrain_id
-                if change['hp'] == 1:
-                    if change['type'] in ('W', 'E', 'Pillar'):
-                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
-                        terrains[7 - change['y']][change['x']][0][1] = base_terrain_id
-                    if change['type'] == 'N': # right bottom
-                        terrains[7 - change['y']][change['x']][1][1] = base_terrain_id
-                    if change['type'] == 'S': # left top
-                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
-        map_terrain_uncompressed_path = os.path.join(map_terrain_uncompressed_save_path, map_id + 'T.bin')
-        with open(map_terrain_uncompressed_path, 'wb') as file:
-            file.write(terrains.tobytes())
-        map_terrain_compressed_path = os.path.join(map_terrain_compressed_save_path, map_id + 'T.bin')
-        os.system('gbalzss e %s %s' % (map_terrain_uncompressed_path, map_terrain_compressed_path))
-    with open('source/mapchanges.c', 'w', encoding='utf-8') as file:
-        file.write('#include "unknown_types.h"\n\n')
-        for map_id, config in sorted(map_configs.items(), key=lambda x: x[0]):
-            if len(config['field']['changes']) > 0:
-                file.write('const u16 %sMapChangedTiles[] = {\n' % map_id)
-                for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
-                    x0 = 2 * (change['x'] + 6)
-                    y0 = 2 * (7 - change['y'])
-                    file.write('    4 * %d, 4 * %d, 4 * %d, 4 * %d, // %d\n' % (y0 * 16 + x0, y0 * 16 + x0 + 1, (y0 + 1) * 16 + x0, (y0 + 1) * 16 + x0 + 1, i))
-                file.write('};\n\n')
-                file.write('const struct MapChangeInfo %sMapChanges[] = {\n' % map_id)
-                for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
-                    x0 = 2 * change['x']
-                    y0 = 2 * (7 - change['y'])
-                    file.write('    {\n')
-                    file.write('        .id = %d,\n' % i)
-                    file.write('        .x = %d,\n' % x0)
-                    file.write('        .y = %d,\n' % y0)
-                    file.write('        .width = 2,\n')
-                    file.write('        .height = 2,\n')
-                    file.write('        .metatiles = &%sMapChangedTiles[2 * 2 * %d],\n' % (map_id, i))
-                    file.write('    },\n')
-                file.write('''    {
-        .id = -1,
-    },
-};
-
-''')
 
 def print_terrain_by_groups():
     print([{'terrain_group': t['terrain_group'], 'terrain': t.get('name', t['index'])} for t in sorted(terrain_configs, key=lambda x: len(terrain_configs) * x['terrain_group'] + x['index'])])
@@ -628,9 +638,9 @@ if __name__ == '__main__':
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
     # print_terrain_1st_appearance()
-    print_terrain_by_groups()
-    print_map_anims()
-    # make_map_images()
-    # decrease_map_colors()
-    # make_map_tsa()
+    # print_terrain_by_groups()
+    # print_map_anims()
+    make_map_images()
+    decrease_map_colors()
+    make_map_tilesets()
     make_chapters()
