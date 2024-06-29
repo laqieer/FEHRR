@@ -8,457 +8,909 @@
 #include "gfx_map.h"
 
 #include "S0001_bin.h"
+#include "S0001T_bin.h"
 #include "S0002_bin.h"
+#include "S0002T_bin.h"
 #include "S0101_bin.h"
+#include "S0101T_bin.h"
 #include "S0102_bin.h"
+#include "S0102T_bin.h"
 #include "S0103_bin.h"
+#include "S0103T_bin.h"
 #include "S0201_bin.h"
+#include "S0201T_bin.h"
 #include "S0202_bin.h"
+#include "S0202T_bin.h"
 #include "S0203_bin.h"
+#include "S0203T_bin.h"
 #include "S0204_bin.h"
+#include "S0204T_bin.h"
 #include "S0205_bin.h"
+#include "S0205T_bin.h"
 #include "S0301_bin.h"
+#include "S0301T_bin.h"
 #include "S0302_bin.h"
+#include "S0302T_bin.h"
 #include "S0303_bin.h"
+#include "S0303T_bin.h"
 #include "S0304_bin.h"
+#include "S0304T_bin.h"
 #include "S0305_bin.h"
+#include "S0305T_bin.h"
 #include "S0401_bin.h"
+#include "S0401T_bin.h"
 #include "S0402_bin.h"
+#include "S0402T_bin.h"
 #include "S0403_bin.h"
+#include "S0403T_bin.h"
 #include "S0404_bin.h"
+#include "S0404T_bin.h"
 #include "S0405_bin.h"
+#include "S0405T_bin.h"
 #include "S0501_bin.h"
+#include "S0501T_bin.h"
 #include "S0502_bin.h"
+#include "S0502T_bin.h"
 #include "S0503_bin.h"
+#include "S0503T_bin.h"
 #include "S0504_bin.h"
+#include "S0504T_bin.h"
 #include "S0505_bin.h"
+#include "S0505T_bin.h"
 #include "S0601_bin.h"
+#include "S0601T_bin.h"
 #include "S0602_bin.h"
+#include "S0602T_bin.h"
 #include "S0603_bin.h"
+#include "S0603T_bin.h"
 #include "S0604_bin.h"
+#include "S0604T_bin.h"
 #include "S0605_bin.h"
+#include "S0605T_bin.h"
 #include "S0701_bin.h"
+#include "S0701T_bin.h"
 #include "S0702_bin.h"
+#include "S0702T_bin.h"
 #include "S0703_bin.h"
+#include "S0703T_bin.h"
 #include "S0704_bin.h"
+#include "S0704T_bin.h"
 #include "S0705_bin.h"
+#include "S0705T_bin.h"
 #include "S0801_bin.h"
+#include "S0801T_bin.h"
 #include "S0802_bin.h"
+#include "S0802T_bin.h"
 #include "S0803_bin.h"
+#include "S0803T_bin.h"
 #include "S0804_bin.h"
+#include "S0804T_bin.h"
 #include "S0805_bin.h"
+#include "S0805T_bin.h"
 #include "S0901_bin.h"
+#include "S0901T_bin.h"
 #include "S0902_bin.h"
+#include "S0902T_bin.h"
 #include "S0903_bin.h"
+#include "S0903T_bin.h"
 #include "S0904_bin.h"
+#include "S0904T_bin.h"
 #include "S0905_bin.h"
+#include "S0905T_bin.h"
 #include "S1001_bin.h"
+#include "S1001T_bin.h"
 #include "S1002_bin.h"
+#include "S1002T_bin.h"
 #include "S1003_bin.h"
+#include "S1003T_bin.h"
 #include "S1004_bin.h"
+#include "S1004T_bin.h"
 #include "S1005_bin.h"
+#include "S1005T_bin.h"
 #include "S1101_bin.h"
+#include "S1101T_bin.h"
 #include "S1102_bin.h"
+#include "S1102T_bin.h"
 #include "S1103_bin.h"
+#include "S1103T_bin.h"
 #include "S1104_bin.h"
+#include "S1104T_bin.h"
 #include "S1105_bin.h"
+#include "S1105T_bin.h"
 #include "S1201_bin.h"
+#include "S1201T_bin.h"
 #include "S1202_bin.h"
+#include "S1202T_bin.h"
 #include "S1203_bin.h"
+#include "S1203T_bin.h"
 #include "S1204_bin.h"
+#include "S1204T_bin.h"
 #include "S1205_bin.h"
+#include "S1205T_bin.h"
 #include "S1301_bin.h"
+#include "S1301T_bin.h"
 #include "S1302_bin.h"
+#include "S1302T_bin.h"
 #include "S1303_bin.h"
+#include "S1303T_bin.h"
 #include "S1304_bin.h"
+#include "S1304T_bin.h"
 #include "S1305_bin.h"
+#include "S1305T_bin.h"
 #include "S1401_bin.h"
+#include "S1401T_bin.h"
 #include "S1402_bin.h"
+#include "S1402T_bin.h"
 #include "S1403_bin.h"
+#include "S1403T_bin.h"
 #include "S1404_bin.h"
+#include "S1404T_bin.h"
 #include "S1405_bin.h"
+#include "S1405T_bin.h"
 #include "S1501_bin.h"
+#include "S1501T_bin.h"
 #include "S1601_bin.h"
+#include "S1601T_bin.h"
 #include "S2011_bin.h"
+#include "S2011T_bin.h"
 #include "S2012_bin.h"
+#include "S2012T_bin.h"
 #include "S2013_bin.h"
+#include "S2013T_bin.h"
 #include "S2014_bin.h"
+#include "S2014T_bin.h"
 #include "S2015_bin.h"
+#include "S2015T_bin.h"
 #include "S2021_bin.h"
+#include "S2021T_bin.h"
 #include "S2022_bin.h"
+#include "S2022T_bin.h"
 #include "S2023_bin.h"
+#include "S2023T_bin.h"
 #include "S2024_bin.h"
+#include "S2024T_bin.h"
 #include "S2025_bin.h"
+#include "S2025T_bin.h"
 #include "S2031_bin.h"
+#include "S2031T_bin.h"
 #include "S2032_bin.h"
+#include "S2032T_bin.h"
 #include "S2033_bin.h"
+#include "S2033T_bin.h"
 #include "S2034_bin.h"
+#include "S2034T_bin.h"
 #include "S2035_bin.h"
+#include "S2035T_bin.h"
 #include "S2041_bin.h"
+#include "S2041T_bin.h"
 #include "S2042_bin.h"
+#include "S2042T_bin.h"
 #include "S2043_bin.h"
+#include "S2043T_bin.h"
 #include "S2044_bin.h"
+#include "S2044T_bin.h"
 #include "S2045_bin.h"
+#include "S2045T_bin.h"
 #include "S2051_bin.h"
+#include "S2051T_bin.h"
 #include "S2052_bin.h"
+#include "S2052T_bin.h"
 #include "S2053_bin.h"
+#include "S2053T_bin.h"
 #include "S2054_bin.h"
+#include "S2054T_bin.h"
 #include "S2055_bin.h"
+#include "S2055T_bin.h"
 #include "S2061_bin.h"
+#include "S2061T_bin.h"
 #include "S2062_bin.h"
+#include "S2062T_bin.h"
 #include "S2063_bin.h"
+#include "S2063T_bin.h"
 #include "S2064_bin.h"
+#include "S2064T_bin.h"
 #include "S2065_bin.h"
+#include "S2065T_bin.h"
 #include "S2071_bin.h"
+#include "S2071T_bin.h"
 #include "S2072_bin.h"
+#include "S2072T_bin.h"
 #include "S2073_bin.h"
+#include "S2073T_bin.h"
 #include "S2074_bin.h"
+#include "S2074T_bin.h"
 #include "S2075_bin.h"
+#include "S2075T_bin.h"
 #include "S2081_bin.h"
+#include "S2081T_bin.h"
 #include "S2082_bin.h"
+#include "S2082T_bin.h"
 #include "S2083_bin.h"
+#include "S2083T_bin.h"
 #include "S2084_bin.h"
+#include "S2084T_bin.h"
 #include "S2085_bin.h"
+#include "S2085T_bin.h"
 #include "S2091_bin.h"
+#include "S2091T_bin.h"
 #include "S2092_bin.h"
+#include "S2092T_bin.h"
 #include "S2093_bin.h"
+#include "S2093T_bin.h"
 #include "S2094_bin.h"
+#include "S2094T_bin.h"
 #include "S2095_bin.h"
+#include "S2095T_bin.h"
 #include "S2101_bin.h"
+#include "S2101T_bin.h"
 #include "S2102_bin.h"
+#include "S2102T_bin.h"
 #include "S2103_bin.h"
+#include "S2103T_bin.h"
 #include "S2104_bin.h"
+#include "S2104T_bin.h"
 #include "S2105_bin.h"
+#include "S2105T_bin.h"
 #include "S2111_bin.h"
+#include "S2111T_bin.h"
 #include "S2112_bin.h"
+#include "S2112T_bin.h"
 #include "S2113_bin.h"
+#include "S2113T_bin.h"
 #include "S2114_bin.h"
+#include "S2114T_bin.h"
 #include "S2115_bin.h"
+#include "S2115T_bin.h"
 #include "S2121_bin.h"
+#include "S2121T_bin.h"
 #include "S2122_bin.h"
+#include "S2122T_bin.h"
 #include "S2123_bin.h"
+#include "S2123T_bin.h"
 #include "S2124_bin.h"
+#include "S2124T_bin.h"
 #include "S2125_bin.h"
+#include "S2125T_bin.h"
 #include "S2131_bin.h"
+#include "S2131T_bin.h"
 #include "S2132_bin.h"
+#include "S2132T_bin.h"
 #include "S2133_bin.h"
+#include "S2133T_bin.h"
 #include "S2134_bin.h"
+#include "S2134T_bin.h"
 #include "S2135_bin.h"
+#include "S2135T_bin.h"
 #include "S3011_bin.h"
+#include "S3011T_bin.h"
 #include "S3012_bin.h"
+#include "S3012T_bin.h"
 #include "S3013_bin.h"
+#include "S3013T_bin.h"
 #include "S3014_bin.h"
+#include "S3014T_bin.h"
 #include "S3015_bin.h"
+#include "S3015T_bin.h"
 #include "S3021_bin.h"
+#include "S3021T_bin.h"
 #include "S3022_bin.h"
+#include "S3022T_bin.h"
 #include "S3023_bin.h"
+#include "S3023T_bin.h"
 #include "S3024_bin.h"
+#include "S3024T_bin.h"
 #include "S3025_bin.h"
+#include "S3025T_bin.h"
 #include "S3031_bin.h"
+#include "S3031T_bin.h"
 #include "S3032_bin.h"
+#include "S3032T_bin.h"
 #include "S3033_bin.h"
+#include "S3033T_bin.h"
 #include "S3034_bin.h"
+#include "S3034T_bin.h"
 #include "S3035_bin.h"
+#include "S3035T_bin.h"
 #include "S3041_bin.h"
+#include "S3041T_bin.h"
 #include "S3042_bin.h"
+#include "S3042T_bin.h"
 #include "S3043_bin.h"
+#include "S3043T_bin.h"
 #include "S3044_bin.h"
+#include "S3044T_bin.h"
 #include "S3045_bin.h"
+#include "S3045T_bin.h"
 #include "S3051_bin.h"
+#include "S3051T_bin.h"
 #include "S3052_bin.h"
+#include "S3052T_bin.h"
 #include "S3053_bin.h"
+#include "S3053T_bin.h"
 #include "S3054_bin.h"
+#include "S3054T_bin.h"
 #include "S3055_bin.h"
+#include "S3055T_bin.h"
 #include "S3061_bin.h"
+#include "S3061T_bin.h"
 #include "S3062_bin.h"
+#include "S3062T_bin.h"
 #include "S3063_bin.h"
+#include "S3063T_bin.h"
 #include "S3064_bin.h"
+#include "S3064T_bin.h"
 #include "S3065_bin.h"
+#include "S3065T_bin.h"
 #include "S3071_bin.h"
+#include "S3071T_bin.h"
 #include "S3072_bin.h"
+#include "S3072T_bin.h"
 #include "S3073_bin.h"
+#include "S3073T_bin.h"
 #include "S3074_bin.h"
+#include "S3074T_bin.h"
 #include "S3075_bin.h"
+#include "S3075T_bin.h"
 #include "S3081_bin.h"
+#include "S3081T_bin.h"
 #include "S3082_bin.h"
+#include "S3082T_bin.h"
 #include "S3083_bin.h"
+#include "S3083T_bin.h"
 #include "S3084_bin.h"
+#include "S3084T_bin.h"
 #include "S3085_bin.h"
+#include "S3085T_bin.h"
 #include "S3091_bin.h"
+#include "S3091T_bin.h"
 #include "S3092_bin.h"
+#include "S3092T_bin.h"
 #include "S3093_bin.h"
+#include "S3093T_bin.h"
 #include "S3094_bin.h"
+#include "S3094T_bin.h"
 #include "S3095_bin.h"
+#include "S3095T_bin.h"
 #include "S3101_bin.h"
+#include "S3101T_bin.h"
 #include "S3102_bin.h"
+#include "S3102T_bin.h"
 #include "S3103_bin.h"
+#include "S3103T_bin.h"
 #include "S3104_bin.h"
+#include "S3104T_bin.h"
 #include "S3105_bin.h"
+#include "S3105T_bin.h"
 #include "S3111_bin.h"
+#include "S3111T_bin.h"
 #include "S3112_bin.h"
+#include "S3112T_bin.h"
 #include "S3113_bin.h"
+#include "S3113T_bin.h"
 #include "S3114_bin.h"
+#include "S3114T_bin.h"
 #include "S3115_bin.h"
+#include "S3115T_bin.h"
 #include "S3121_bin.h"
+#include "S3121T_bin.h"
 #include "S3122_bin.h"
+#include "S3122T_bin.h"
 #include "S3123_bin.h"
+#include "S3123T_bin.h"
 #include "S3124_bin.h"
+#include "S3124T_bin.h"
 #include "S3125_bin.h"
+#include "S3125T_bin.h"
 #include "S3131_bin.h"
+#include "S3131T_bin.h"
 #include "S3132_bin.h"
+#include "S3132T_bin.h"
 #include "S3133_bin.h"
+#include "S3133T_bin.h"
 #include "S3134_bin.h"
+#include "S3134T_bin.h"
 #include "S3135_bin.h"
+#include "S3135T_bin.h"
 #include "S4011_bin.h"
+#include "S4011T_bin.h"
 #include "S4012_bin.h"
+#include "S4012T_bin.h"
 #include "S4013_bin.h"
+#include "S4013T_bin.h"
 #include "S4014_bin.h"
+#include "S4014T_bin.h"
 #include "S4015_bin.h"
+#include "S4015T_bin.h"
 #include "S4021_bin.h"
+#include "S4021T_bin.h"
 #include "S4022_bin.h"
+#include "S4022T_bin.h"
 #include "S4023_bin.h"
+#include "S4023T_bin.h"
 #include "S4024_bin.h"
+#include "S4024T_bin.h"
 #include "S4025_bin.h"
+#include "S4025T_bin.h"
 #include "S4031_bin.h"
+#include "S4031T_bin.h"
 #include "S4032_bin.h"
+#include "S4032T_bin.h"
 #include "S4033_bin.h"
+#include "S4033T_bin.h"
 #include "S4034_bin.h"
+#include "S4034T_bin.h"
 #include "S4035_bin.h"
+#include "S4035T_bin.h"
 #include "S4041_bin.h"
+#include "S4041T_bin.h"
 #include "S4042_bin.h"
+#include "S4042T_bin.h"
 #include "S4043_bin.h"
+#include "S4043T_bin.h"
 #include "S4044_bin.h"
+#include "S4044T_bin.h"
 #include "S4045_bin.h"
+#include "S4045T_bin.h"
 #include "S4051_bin.h"
+#include "S4051T_bin.h"
 #include "S4052_bin.h"
+#include "S4052T_bin.h"
 #include "S4053_bin.h"
+#include "S4053T_bin.h"
 #include "S4054_bin.h"
+#include "S4054T_bin.h"
 #include "S4055_bin.h"
+#include "S4055T_bin.h"
 #include "S4061_bin.h"
+#include "S4061T_bin.h"
 #include "S4062_bin.h"
+#include "S4062T_bin.h"
 #include "S4063_bin.h"
+#include "S4063T_bin.h"
 #include "S4064_bin.h"
+#include "S4064T_bin.h"
 #include "S4065_bin.h"
+#include "S4065T_bin.h"
 #include "S4071_bin.h"
+#include "S4071T_bin.h"
 #include "S4072_bin.h"
+#include "S4072T_bin.h"
 #include "S4073_bin.h"
+#include "S4073T_bin.h"
 #include "S4074_bin.h"
+#include "S4074T_bin.h"
 #include "S4075_bin.h"
+#include "S4075T_bin.h"
 #include "S4081_bin.h"
+#include "S4081T_bin.h"
 #include "S4082_bin.h"
+#include "S4082T_bin.h"
 #include "S4083_bin.h"
+#include "S4083T_bin.h"
 #include "S4084_bin.h"
+#include "S4084T_bin.h"
 #include "S4085_bin.h"
+#include "S4085T_bin.h"
 #include "S4091_bin.h"
+#include "S4091T_bin.h"
 #include "S4092_bin.h"
+#include "S4092T_bin.h"
 #include "S4093_bin.h"
+#include "S4093T_bin.h"
 #include "S4094_bin.h"
+#include "S4094T_bin.h"
 #include "S4095_bin.h"
+#include "S4095T_bin.h"
 #include "S4101_bin.h"
+#include "S4101T_bin.h"
 #include "S4102_bin.h"
+#include "S4102T_bin.h"
 #include "S4103_bin.h"
+#include "S4103T_bin.h"
 #include "S4104_bin.h"
+#include "S4104T_bin.h"
 #include "S4105_bin.h"
+#include "S4105T_bin.h"
 #include "S4111_bin.h"
+#include "S4111T_bin.h"
 #include "S4112_bin.h"
+#include "S4112T_bin.h"
 #include "S4113_bin.h"
+#include "S4113T_bin.h"
 #include "S4114_bin.h"
+#include "S4114T_bin.h"
 #include "S4115_bin.h"
+#include "S4115T_bin.h"
 #include "S4121_bin.h"
+#include "S4121T_bin.h"
 #include "S4122_bin.h"
+#include "S4122T_bin.h"
 #include "S4123_bin.h"
+#include "S4123T_bin.h"
 #include "S4124_bin.h"
+#include "S4124T_bin.h"
 #include "S4125_bin.h"
+#include "S4125T_bin.h"
 #include "S4131_bin.h"
+#include "S4131T_bin.h"
 #include "S4132_bin.h"
+#include "S4132T_bin.h"
 #include "S4133_bin.h"
+#include "S4133T_bin.h"
 #include "S4134_bin.h"
+#include "S4134T_bin.h"
 #include "S4135_bin.h"
+#include "S4135T_bin.h"
 #include "S5011_bin.h"
+#include "S5011T_bin.h"
 #include "S5012_bin.h"
+#include "S5012T_bin.h"
 #include "S5013_bin.h"
+#include "S5013T_bin.h"
 #include "S5014_bin.h"
+#include "S5014T_bin.h"
 #include "S5015_bin.h"
+#include "S5015T_bin.h"
 #include "S5021_bin.h"
+#include "S5021T_bin.h"
 #include "S5022_bin.h"
+#include "S5022T_bin.h"
 #include "S5023_bin.h"
+#include "S5023T_bin.h"
 #include "S5024_bin.h"
+#include "S5024T_bin.h"
 #include "S5025_bin.h"
+#include "S5025T_bin.h"
 #include "S5031_bin.h"
+#include "S5031T_bin.h"
 #include "S5032_bin.h"
+#include "S5032T_bin.h"
 #include "S5033_bin.h"
+#include "S5033T_bin.h"
 #include "S5034_bin.h"
+#include "S5034T_bin.h"
 #include "S5035_bin.h"
+#include "S5035T_bin.h"
 #include "S5041_bin.h"
+#include "S5041T_bin.h"
 #include "S5042_bin.h"
+#include "S5042T_bin.h"
 #include "S5043_bin.h"
+#include "S5043T_bin.h"
 #include "S5044_bin.h"
+#include "S5044T_bin.h"
 #include "S5045_bin.h"
+#include "S5045T_bin.h"
 #include "S5051_bin.h"
+#include "S5051T_bin.h"
 #include "S5052_bin.h"
+#include "S5052T_bin.h"
 #include "S5053_bin.h"
+#include "S5053T_bin.h"
 #include "S5054_bin.h"
+#include "S5054T_bin.h"
 #include "S5055_bin.h"
+#include "S5055T_bin.h"
 #include "S5061_bin.h"
+#include "S5061T_bin.h"
 #include "S5062_bin.h"
+#include "S5062T_bin.h"
 #include "S5063_bin.h"
+#include "S5063T_bin.h"
 #include "S5064_bin.h"
+#include "S5064T_bin.h"
 #include "S5065_bin.h"
+#include "S5065T_bin.h"
 #include "S5071_bin.h"
+#include "S5071T_bin.h"
 #include "S5072_bin.h"
+#include "S5072T_bin.h"
 #include "S5073_bin.h"
+#include "S5073T_bin.h"
 #include "S5074_bin.h"
+#include "S5074T_bin.h"
 #include "S5075_bin.h"
+#include "S5075T_bin.h"
 #include "S5081_bin.h"
+#include "S5081T_bin.h"
 #include "S5082_bin.h"
+#include "S5082T_bin.h"
 #include "S5083_bin.h"
+#include "S5083T_bin.h"
 #include "S5084_bin.h"
+#include "S5084T_bin.h"
 #include "S5085_bin.h"
+#include "S5085T_bin.h"
 #include "S5091_bin.h"
+#include "S5091T_bin.h"
 #include "S5092_bin.h"
+#include "S5092T_bin.h"
 #include "S5093_bin.h"
+#include "S5093T_bin.h"
 #include "S5094_bin.h"
+#include "S5094T_bin.h"
 #include "S5095_bin.h"
+#include "S5095T_bin.h"
 #include "S5101_bin.h"
+#include "S5101T_bin.h"
 #include "S5102_bin.h"
+#include "S5102T_bin.h"
 #include "S5103_bin.h"
+#include "S5103T_bin.h"
 #include "S5104_bin.h"
+#include "S5104T_bin.h"
 #include "S5105_bin.h"
+#include "S5105T_bin.h"
 #include "S5111_bin.h"
+#include "S5111T_bin.h"
 #include "S5112_bin.h"
+#include "S5112T_bin.h"
 #include "S5113_bin.h"
+#include "S5113T_bin.h"
 #include "S5114_bin.h"
+#include "S5114T_bin.h"
 #include "S5115_bin.h"
+#include "S5115T_bin.h"
 #include "S5121_bin.h"
+#include "S5121T_bin.h"
 #include "S5122_bin.h"
+#include "S5122T_bin.h"
 #include "S5123_bin.h"
+#include "S5123T_bin.h"
 #include "S5124_bin.h"
+#include "S5124T_bin.h"
 #include "S5125_bin.h"
+#include "S5125T_bin.h"
 #include "S5131_bin.h"
+#include "S5131T_bin.h"
 #include "S5132_bin.h"
+#include "S5132T_bin.h"
 #include "S5133_bin.h"
+#include "S5133T_bin.h"
 #include "S5134_bin.h"
+#include "S5134T_bin.h"
 #include "S5135_bin.h"
+#include "S5135T_bin.h"
 #include "S6011_bin.h"
+#include "S6011T_bin.h"
 #include "S6012_bin.h"
+#include "S6012T_bin.h"
 #include "S6013_bin.h"
+#include "S6013T_bin.h"
 #include "S6014_bin.h"
+#include "S6014T_bin.h"
 #include "S6015_bin.h"
+#include "S6015T_bin.h"
 #include "S6021_bin.h"
+#include "S6021T_bin.h"
 #include "S6022_bin.h"
+#include "S6022T_bin.h"
 #include "S6023_bin.h"
+#include "S6023T_bin.h"
 #include "S6024_bin.h"
+#include "S6024T_bin.h"
 #include "S6025_bin.h"
+#include "S6025T_bin.h"
 #include "S6031_bin.h"
+#include "S6031T_bin.h"
 #include "S6032_bin.h"
+#include "S6032T_bin.h"
 #include "S6033_bin.h"
+#include "S6033T_bin.h"
 #include "S6034_bin.h"
+#include "S6034T_bin.h"
 #include "S6035_bin.h"
+#include "S6035T_bin.h"
 #include "S6041_bin.h"
+#include "S6041T_bin.h"
 #include "S6042_bin.h"
+#include "S6042T_bin.h"
 #include "S6043_bin.h"
+#include "S6043T_bin.h"
 #include "S6044_bin.h"
+#include "S6044T_bin.h"
 #include "S6045_bin.h"
+#include "S6045T_bin.h"
 #include "S6051_bin.h"
+#include "S6051T_bin.h"
 #include "S6052_bin.h"
+#include "S6052T_bin.h"
 #include "S6053_bin.h"
+#include "S6053T_bin.h"
 #include "S6054_bin.h"
+#include "S6054T_bin.h"
 #include "S6055_bin.h"
+#include "S6055T_bin.h"
 #include "S6061_bin.h"
+#include "S6061T_bin.h"
 #include "S6062_bin.h"
+#include "S6062T_bin.h"
 #include "S6063_bin.h"
+#include "S6063T_bin.h"
 #include "S6064_bin.h"
+#include "S6064T_bin.h"
 #include "S6065_bin.h"
+#include "S6065T_bin.h"
 #include "S6071_bin.h"
+#include "S6071T_bin.h"
 #include "S6072_bin.h"
+#include "S6072T_bin.h"
 #include "S6073_bin.h"
+#include "S6073T_bin.h"
 #include "S6074_bin.h"
+#include "S6074T_bin.h"
 #include "S6075_bin.h"
+#include "S6075T_bin.h"
 #include "S6081_bin.h"
+#include "S6081T_bin.h"
 #include "S6082_bin.h"
+#include "S6082T_bin.h"
 #include "S6083_bin.h"
+#include "S6083T_bin.h"
 #include "S6084_bin.h"
+#include "S6084T_bin.h"
 #include "S6085_bin.h"
+#include "S6085T_bin.h"
 #include "S6091_bin.h"
+#include "S6091T_bin.h"
 #include "S6092_bin.h"
+#include "S6092T_bin.h"
 #include "S6093_bin.h"
+#include "S6093T_bin.h"
 #include "S6094_bin.h"
+#include "S6094T_bin.h"
 #include "S6095_bin.h"
+#include "S6095T_bin.h"
 #include "S6101_bin.h"
+#include "S6101T_bin.h"
 #include "S6102_bin.h"
+#include "S6102T_bin.h"
 #include "S6103_bin.h"
+#include "S6103T_bin.h"
 #include "S6104_bin.h"
+#include "S6104T_bin.h"
 #include "S6105_bin.h"
+#include "S6105T_bin.h"
 #include "S6111_bin.h"
+#include "S6111T_bin.h"
 #include "S6112_bin.h"
+#include "S6112T_bin.h"
 #include "S6113_bin.h"
+#include "S6113T_bin.h"
 #include "S6114_bin.h"
+#include "S6114T_bin.h"
 #include "S6115_bin.h"
+#include "S6115T_bin.h"
 #include "S6121_bin.h"
+#include "S6121T_bin.h"
 #include "S6122_bin.h"
+#include "S6122T_bin.h"
 #include "S6123_bin.h"
+#include "S6123T_bin.h"
 #include "S6124_bin.h"
+#include "S6124T_bin.h"
 #include "S6125_bin.h"
+#include "S6125T_bin.h"
 #include "S6131_bin.h"
+#include "S6131T_bin.h"
 #include "S6132_bin.h"
+#include "S6132T_bin.h"
 #include "S6133_bin.h"
+#include "S6133T_bin.h"
 #include "S6134_bin.h"
+#include "S6134T_bin.h"
 #include "S6135_bin.h"
+#include "S6135T_bin.h"
 #include "S7011_bin.h"
+#include "S7011T_bin.h"
 #include "S7012_bin.h"
+#include "S7012T_bin.h"
 #include "S7013_bin.h"
+#include "S7013T_bin.h"
 #include "S7014_bin.h"
+#include "S7014T_bin.h"
 #include "S7015_bin.h"
+#include "S7015T_bin.h"
 #include "S7021_bin.h"
+#include "S7021T_bin.h"
 #include "S7022_bin.h"
+#include "S7022T_bin.h"
 #include "S7023_bin.h"
+#include "S7023T_bin.h"
 #include "S7024_bin.h"
+#include "S7024T_bin.h"
 #include "S7025_bin.h"
+#include "S7025T_bin.h"
 #include "S7031_bin.h"
+#include "S7031T_bin.h"
 #include "S7032_bin.h"
+#include "S7032T_bin.h"
 #include "S7033_bin.h"
+#include "S7033T_bin.h"
 #include "S7034_bin.h"
+#include "S7034T_bin.h"
 #include "S7035_bin.h"
+#include "S7035T_bin.h"
 #include "S7041_bin.h"
+#include "S7041T_bin.h"
 #include "S7042_bin.h"
+#include "S7042T_bin.h"
 #include "S7043_bin.h"
+#include "S7043T_bin.h"
 #include "S7044_bin.h"
+#include "S7044T_bin.h"
 #include "S7045_bin.h"
+#include "S7045T_bin.h"
 #include "S7051_bin.h"
+#include "S7051T_bin.h"
 #include "S7052_bin.h"
+#include "S7052T_bin.h"
 #include "S7053_bin.h"
+#include "S7053T_bin.h"
 #include "S7054_bin.h"
+#include "S7054T_bin.h"
 #include "S7055_bin.h"
+#include "S7055T_bin.h"
 #include "S7061_bin.h"
+#include "S7061T_bin.h"
 #include "S7062_bin.h"
+#include "S7062T_bin.h"
 #include "S7063_bin.h"
+#include "S7063T_bin.h"
 #include "S7064_bin.h"
+#include "S7064T_bin.h"
 #include "S7065_bin.h"
+#include "S7065T_bin.h"
 #include "S7071_bin.h"
+#include "S7071T_bin.h"
 #include "S7072_bin.h"
+#include "S7072T_bin.h"
 #include "S7073_bin.h"
+#include "S7073T_bin.h"
 #include "S7074_bin.h"
+#include "S7074T_bin.h"
 #include "S7075_bin.h"
+#include "S7075T_bin.h"
 #include "S7081_bin.h"
+#include "S7081T_bin.h"
 #include "S7082_bin.h"
+#include "S7082T_bin.h"
 #include "S7083_bin.h"
+#include "S7083T_bin.h"
 #include "S7084_bin.h"
+#include "S7084T_bin.h"
 #include "S7085_bin.h"
+#include "S7085T_bin.h"
 #include "S7091_bin.h"
+#include "S7091T_bin.h"
 #include "S7092_bin.h"
+#include "S7092T_bin.h"
 #include "S7093_bin.h"
+#include "S7093T_bin.h"
 #include "S7094_bin.h"
+#include "S7094T_bin.h"
 #include "S7095_bin.h"
+#include "S7095T_bin.h"
 #include "S7101_bin.h"
+#include "S7101T_bin.h"
 #include "S7102_bin.h"
+#include "S7102T_bin.h"
 #include "S7103_bin.h"
+#include "S7103T_bin.h"
 #include "S7104_bin.h"
+#include "S7104T_bin.h"
 #include "S7105_bin.h"
+#include "S7105T_bin.h"
 #include "S7111_bin.h"
+#include "S7111T_bin.h"
 #include "S7112_bin.h"
+#include "S7112T_bin.h"
 #include "S7113_bin.h"
+#include "S7113T_bin.h"
 #include "S7114_bin.h"
+#include "S7114T_bin.h"
 #include "S7115_bin.h"
+#include "S7115T_bin.h"
 
 
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
@@ -3730,6 +4182,459 @@ void const * const ChapterMapPalettes[] = {
 
 void const * const ChapterMapTerrains[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = S0001T_bin,
+    [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = S0002T_bin,
+    [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = S0101T_bin,
+    [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = S0102T_bin,
+    [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = S0103T_bin,
+    [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = S0201T_bin,
+    [CHAPTER_CH_S0202 - CHAPTER_CH_NEW] = S0202T_bin,
+    [CHAPTER_CH_S0203 - CHAPTER_CH_NEW] = S0203T_bin,
+    [CHAPTER_CH_S0204 - CHAPTER_CH_NEW] = S0204T_bin,
+    [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = S0205T_bin,
+    [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = S0301T_bin,
+    [CHAPTER_CH_S0302 - CHAPTER_CH_NEW] = S0302T_bin,
+    [CHAPTER_CH_S0303 - CHAPTER_CH_NEW] = S0303T_bin,
+    [CHAPTER_CH_S0304 - CHAPTER_CH_NEW] = S0304T_bin,
+    [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = S0305T_bin,
+    [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = S0401T_bin,
+    [CHAPTER_CH_S0402 - CHAPTER_CH_NEW] = S0402T_bin,
+    [CHAPTER_CH_S0403 - CHAPTER_CH_NEW] = S0403T_bin,
+    [CHAPTER_CH_S0404 - CHAPTER_CH_NEW] = S0404T_bin,
+    [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = S0405T_bin,
+    [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = S0501T_bin,
+    [CHAPTER_CH_S0502 - CHAPTER_CH_NEW] = S0502T_bin,
+    [CHAPTER_CH_S0503 - CHAPTER_CH_NEW] = S0503T_bin,
+    [CHAPTER_CH_S0504 - CHAPTER_CH_NEW] = S0504T_bin,
+    [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = S0505T_bin,
+    [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = S0601T_bin,
+    [CHAPTER_CH_S0602 - CHAPTER_CH_NEW] = S0602T_bin,
+    [CHAPTER_CH_S0603 - CHAPTER_CH_NEW] = S0603T_bin,
+    [CHAPTER_CH_S0604 - CHAPTER_CH_NEW] = S0604T_bin,
+    [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = S0605T_bin,
+    [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = S0701T_bin,
+    [CHAPTER_CH_S0702 - CHAPTER_CH_NEW] = S0702T_bin,
+    [CHAPTER_CH_S0703 - CHAPTER_CH_NEW] = S0703T_bin,
+    [CHAPTER_CH_S0704 - CHAPTER_CH_NEW] = S0704T_bin,
+    [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = S0705T_bin,
+    [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = S0801T_bin,
+    [CHAPTER_CH_S0802 - CHAPTER_CH_NEW] = S0802T_bin,
+    [CHAPTER_CH_S0803 - CHAPTER_CH_NEW] = S0803T_bin,
+    [CHAPTER_CH_S0804 - CHAPTER_CH_NEW] = S0804T_bin,
+    [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = S0805T_bin,
+    [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = S0901T_bin,
+    [CHAPTER_CH_S0902 - CHAPTER_CH_NEW] = S0902T_bin,
+    [CHAPTER_CH_S0903 - CHAPTER_CH_NEW] = S0903T_bin,
+    [CHAPTER_CH_S0904 - CHAPTER_CH_NEW] = S0904T_bin,
+    [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = S0905T_bin,
+    [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = S1001T_bin,
+    [CHAPTER_CH_S1002 - CHAPTER_CH_NEW] = S1002T_bin,
+    [CHAPTER_CH_S1003 - CHAPTER_CH_NEW] = S1003T_bin,
+    [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = S1004T_bin,
+    [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = S1005T_bin,
+    [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = S1101T_bin,
+    [CHAPTER_CH_S1102 - CHAPTER_CH_NEW] = S1102T_bin,
+    [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = S1103T_bin,
+    [CHAPTER_CH_S1104 - CHAPTER_CH_NEW] = S1104T_bin,
+    [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = S1105T_bin,
+    [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = S1201T_bin,
+    [CHAPTER_CH_S1202 - CHAPTER_CH_NEW] = S1202T_bin,
+    [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = S1203T_bin,
+    [CHAPTER_CH_S1204 - CHAPTER_CH_NEW] = S1204T_bin,
+    [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = S1205T_bin,
+    [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = S1301T_bin,
+    [CHAPTER_CH_S1302 - CHAPTER_CH_NEW] = S1302T_bin,
+    [CHAPTER_CH_S1303 - CHAPTER_CH_NEW] = S1303T_bin,
+    [CHAPTER_CH_S1304 - CHAPTER_CH_NEW] = S1304T_bin,
+    [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = S1305T_bin,
+    [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = S1401T_bin,
+    [CHAPTER_CH_S1402 - CHAPTER_CH_NEW] = S1402T_bin,
+    [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = S1403T_bin,
+    [CHAPTER_CH_S1404 - CHAPTER_CH_NEW] = S1404T_bin,
+    [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = S1405T_bin,
+    [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = S1501T_bin,
+    [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = S1601T_bin,
+    [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = S2011T_bin,
+    [CHAPTER_CH_S2012 - CHAPTER_CH_NEW] = S2012T_bin,
+    [CHAPTER_CH_S2013 - CHAPTER_CH_NEW] = S2013T_bin,
+    [CHAPTER_CH_S2014 - CHAPTER_CH_NEW] = S2014T_bin,
+    [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = S2015T_bin,
+    [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = S2021T_bin,
+    [CHAPTER_CH_S2022 - CHAPTER_CH_NEW] = S2022T_bin,
+    [CHAPTER_CH_S2023 - CHAPTER_CH_NEW] = S2023T_bin,
+    [CHAPTER_CH_S2024 - CHAPTER_CH_NEW] = S2024T_bin,
+    [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = S2025T_bin,
+    [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = S2031T_bin,
+    [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = S2032T_bin,
+    [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = S2033T_bin,
+    [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = S2034T_bin,
+    [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = S2035T_bin,
+    [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = S2041T_bin,
+    [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = S2042T_bin,
+    [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = S2043T_bin,
+    [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = S2044T_bin,
+    [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = S2045T_bin,
+    [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = S2051T_bin,
+    [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = S2052T_bin,
+    [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = S2053T_bin,
+    [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = S2054T_bin,
+    [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = S2055T_bin,
+    [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = S2061T_bin,
+    [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = S2062T_bin,
+    [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = S2063T_bin,
+    [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = S2064T_bin,
+    [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = S2065T_bin,
+    [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = S2071T_bin,
+    [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = S2072T_bin,
+    [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = S2073T_bin,
+    [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = S2074T_bin,
+    [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = S2075T_bin,
+    [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = S2081T_bin,
+    [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = S2082T_bin,
+    [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = S2083T_bin,
+    [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = S2084T_bin,
+    [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = S2085T_bin,
+    [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = S2091T_bin,
+    [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = S2092T_bin,
+    [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = S2093T_bin,
+    [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = S2094T_bin,
+    [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = S2095T_bin,
+    [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = S2101T_bin,
+    [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = S2102T_bin,
+    [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = S2103T_bin,
+    [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = S2104T_bin,
+    [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = S2105T_bin,
+    [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = S2111T_bin,
+    [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = S2112T_bin,
+    [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = S2113T_bin,
+    [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = S2114T_bin,
+    [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = S2115T_bin,
+    [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = S2121T_bin,
+    [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = S2122T_bin,
+    [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = S2123T_bin,
+    [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = S2124T_bin,
+    [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = S2125T_bin,
+    [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = S2131T_bin,
+    [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = S2132T_bin,
+    [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = S2133T_bin,
+    [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = S2134T_bin,
+    [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = S2135T_bin,
+    [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = S3011T_bin,
+    [CHAPTER_CH_S3012 - CHAPTER_CH_NEW] = S3012T_bin,
+    [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = S3013T_bin,
+    [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = S3014T_bin,
+    [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = S3015T_bin,
+    [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = S3021T_bin,
+    [CHAPTER_CH_S3022 - CHAPTER_CH_NEW] = S3022T_bin,
+    [CHAPTER_CH_S3023 - CHAPTER_CH_NEW] = S3023T_bin,
+    [CHAPTER_CH_S3024 - CHAPTER_CH_NEW] = S3024T_bin,
+    [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = S3025T_bin,
+    [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = S3031T_bin,
+    [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = S3032T_bin,
+    [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = S3033T_bin,
+    [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = S3034T_bin,
+    [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = S3035T_bin,
+    [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = S3041T_bin,
+    [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = S3042T_bin,
+    [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = S3043T_bin,
+    [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = S3044T_bin,
+    [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = S3045T_bin,
+    [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = S3051T_bin,
+    [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = S3052T_bin,
+    [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = S3053T_bin,
+    [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = S3054T_bin,
+    [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = S3055T_bin,
+    [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = S3061T_bin,
+    [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = S3062T_bin,
+    [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = S3063T_bin,
+    [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = S3064T_bin,
+    [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = S3065T_bin,
+    [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = S3071T_bin,
+    [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = S3072T_bin,
+    [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = S3073T_bin,
+    [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = S3074T_bin,
+    [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = S3075T_bin,
+    [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = S3081T_bin,
+    [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = S3082T_bin,
+    [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = S3083T_bin,
+    [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = S3084T_bin,
+    [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = S3085T_bin,
+    [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = S3091T_bin,
+    [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = S3092T_bin,
+    [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = S3093T_bin,
+    [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = S3094T_bin,
+    [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = S3095T_bin,
+    [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = S3101T_bin,
+    [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = S3102T_bin,
+    [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = S3103T_bin,
+    [CHAPTER_CH_S3104 - CHAPTER_CH_NEW] = S3104T_bin,
+    [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = S3105T_bin,
+    [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = S3111T_bin,
+    [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = S3112T_bin,
+    [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = S3113T_bin,
+    [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = S3114T_bin,
+    [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = S3115T_bin,
+    [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = S3121T_bin,
+    [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = S3122T_bin,
+    [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = S3123T_bin,
+    [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = S3124T_bin,
+    [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = S3125T_bin,
+    [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = S3131T_bin,
+    [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = S3132T_bin,
+    [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = S3133T_bin,
+    [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = S3134T_bin,
+    [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = S3135T_bin,
+    [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = S4011T_bin,
+    [CHAPTER_CH_S4012 - CHAPTER_CH_NEW] = S4012T_bin,
+    [CHAPTER_CH_S4013 - CHAPTER_CH_NEW] = S4013T_bin,
+    [CHAPTER_CH_S4014 - CHAPTER_CH_NEW] = S4014T_bin,
+    [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = S4015T_bin,
+    [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = S4021T_bin,
+    [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = S4022T_bin,
+    [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = S4023T_bin,
+    [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = S4024T_bin,
+    [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = S4025T_bin,
+    [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = S4031T_bin,
+    [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = S4032T_bin,
+    [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = S4033T_bin,
+    [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = S4034T_bin,
+    [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = S4035T_bin,
+    [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = S4041T_bin,
+    [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = S4042T_bin,
+    [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = S4043T_bin,
+    [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = S4044T_bin,
+    [CHAPTER_CH_S4045 - CHAPTER_CH_NEW] = S4045T_bin,
+    [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = S4051T_bin,
+    [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = S4052T_bin,
+    [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = S4053T_bin,
+    [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = S4054T_bin,
+    [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = S4055T_bin,
+    [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = S4061T_bin,
+    [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = S4062T_bin,
+    [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = S4063T_bin,
+    [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = S4064T_bin,
+    [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = S4065T_bin,
+    [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = S4071T_bin,
+    [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = S4072T_bin,
+    [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = S4073T_bin,
+    [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = S4074T_bin,
+    [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = S4075T_bin,
+    [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = S4081T_bin,
+    [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = S4082T_bin,
+    [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = S4083T_bin,
+    [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = S4084T_bin,
+    [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = S4085T_bin,
+    [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = S4091T_bin,
+    [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = S4092T_bin,
+    [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = S4093T_bin,
+    [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = S4094T_bin,
+    [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = S4095T_bin,
+    [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = S4101T_bin,
+    [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = S4102T_bin,
+    [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = S4103T_bin,
+    [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = S4104T_bin,
+    [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = S4105T_bin,
+    [CHAPTER_CH_S4111 - CHAPTER_CH_NEW] = S4111T_bin,
+    [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = S4112T_bin,
+    [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = S4113T_bin,
+    [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = S4114T_bin,
+    [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = S4115T_bin,
+    [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = S4121T_bin,
+    [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = S4122T_bin,
+    [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = S4123T_bin,
+    [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = S4124T_bin,
+    [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = S4125T_bin,
+    [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = S4131T_bin,
+    [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = S4132T_bin,
+    [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = S4133T_bin,
+    [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = S4134T_bin,
+    [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = S4135T_bin,
+    [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = S5011T_bin,
+    [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = S5012T_bin,
+    [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = S5013T_bin,
+    [CHAPTER_CH_S5014 - CHAPTER_CH_NEW] = S5014T_bin,
+    [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = S5015T_bin,
+    [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = S5021T_bin,
+    [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = S5022T_bin,
+    [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = S5023T_bin,
+    [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = S5024T_bin,
+    [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = S5025T_bin,
+    [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = S5031T_bin,
+    [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = S5032T_bin,
+    [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = S5033T_bin,
+    [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = S5034T_bin,
+    [CHAPTER_CH_S5035 - CHAPTER_CH_NEW] = S5035T_bin,
+    [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = S5041T_bin,
+    [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = S5042T_bin,
+    [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = S5043T_bin,
+    [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = S5044T_bin,
+    [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = S5045T_bin,
+    [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = S5051T_bin,
+    [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = S5052T_bin,
+    [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = S5053T_bin,
+    [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = S5054T_bin,
+    [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = S5055T_bin,
+    [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = S5061T_bin,
+    [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = S5062T_bin,
+    [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = S5063T_bin,
+    [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = S5064T_bin,
+    [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = S5065T_bin,
+    [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = S5071T_bin,
+    [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = S5072T_bin,
+    [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = S5073T_bin,
+    [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = S5074T_bin,
+    [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = S5075T_bin,
+    [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = S5081T_bin,
+    [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = S5082T_bin,
+    [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = S5083T_bin,
+    [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = S5084T_bin,
+    [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = S5085T_bin,
+    [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = S5091T_bin,
+    [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = S5092T_bin,
+    [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = S5093T_bin,
+    [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = S5094T_bin,
+    [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = S5095T_bin,
+    [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = S5101T_bin,
+    [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = S5102T_bin,
+    [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = S5103T_bin,
+    [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = S5104T_bin,
+    [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = S5105T_bin,
+    [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = S5111T_bin,
+    [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = S5112T_bin,
+    [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = S5113T_bin,
+    [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = S5114T_bin,
+    [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = S5115T_bin,
+    [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = S5121T_bin,
+    [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = S5122T_bin,
+    [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = S5123T_bin,
+    [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = S5124T_bin,
+    [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = S5125T_bin,
+    [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = S5131T_bin,
+    [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = S5132T_bin,
+    [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = S5133T_bin,
+    [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = S5134T_bin,
+    [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = S5135T_bin,
+    [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = S6011T_bin,
+    [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = S6012T_bin,
+    [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = S6013T_bin,
+    [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = S6014T_bin,
+    [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = S6015T_bin,
+    [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = S6021T_bin,
+    [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = S6022T_bin,
+    [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = S6023T_bin,
+    [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = S6024T_bin,
+    [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = S6025T_bin,
+    [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = S6031T_bin,
+    [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = S6032T_bin,
+    [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = S6033T_bin,
+    [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = S6034T_bin,
+    [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = S6035T_bin,
+    [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = S6041T_bin,
+    [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = S6042T_bin,
+    [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = S6043T_bin,
+    [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = S6044T_bin,
+    [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = S6045T_bin,
+    [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = S6051T_bin,
+    [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = S6052T_bin,
+    [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = S6053T_bin,
+    [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = S6054T_bin,
+    [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = S6055T_bin,
+    [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = S6061T_bin,
+    [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = S6062T_bin,
+    [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = S6063T_bin,
+    [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = S6064T_bin,
+    [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = S6065T_bin,
+    [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = S6071T_bin,
+    [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = S6072T_bin,
+    [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = S6073T_bin,
+    [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = S6074T_bin,
+    [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = S6075T_bin,
+    [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = S6081T_bin,
+    [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = S6082T_bin,
+    [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = S6083T_bin,
+    [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = S6084T_bin,
+    [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = S6085T_bin,
+    [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = S6091T_bin,
+    [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = S6092T_bin,
+    [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = S6093T_bin,
+    [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = S6094T_bin,
+    [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = S6095T_bin,
+    [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = S6101T_bin,
+    [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = S6102T_bin,
+    [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = S6103T_bin,
+    [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = S6104T_bin,
+    [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = S6105T_bin,
+    [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = S6111T_bin,
+    [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = S6112T_bin,
+    [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = S6113T_bin,
+    [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = S6114T_bin,
+    [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = S6115T_bin,
+    [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = S6121T_bin,
+    [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = S6122T_bin,
+    [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = S6123T_bin,
+    [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = S6124T_bin,
+    [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = S6125T_bin,
+    [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = S6131T_bin,
+    [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = S6132T_bin,
+    [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = S6133T_bin,
+    [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = S6134T_bin,
+    [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = S6135T_bin,
+    [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = S7011T_bin,
+    [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = S7012T_bin,
+    [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = S7013T_bin,
+    [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = S7014T_bin,
+    [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = S7015T_bin,
+    [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = S7021T_bin,
+    [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = S7022T_bin,
+    [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = S7023T_bin,
+    [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = S7024T_bin,
+    [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = S7025T_bin,
+    [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = S7031T_bin,
+    [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = S7032T_bin,
+    [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = S7033T_bin,
+    [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = S7034T_bin,
+    [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = S7035T_bin,
+    [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = S7041T_bin,
+    [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = S7042T_bin,
+    [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = S7043T_bin,
+    [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = S7044T_bin,
+    [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = S7045T_bin,
+    [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = S7051T_bin,
+    [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = S7052T_bin,
+    [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = S7053T_bin,
+    [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = S7054T_bin,
+    [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = S7055T_bin,
+    [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = S7061T_bin,
+    [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = S7062T_bin,
+    [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = S7063T_bin,
+    [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = S7064T_bin,
+    [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = S7065T_bin,
+    [CHAPTER_CH_S7071 - CHAPTER_CH_NEW] = S7071T_bin,
+    [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = S7072T_bin,
+    [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = S7073T_bin,
+    [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = S7074T_bin,
+    [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = S7075T_bin,
+    [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = S7081T_bin,
+    [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = S7082T_bin,
+    [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = S7083T_bin,
+    [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = S7084T_bin,
+    [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = S7085T_bin,
+    [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = S7091T_bin,
+    [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = S7092T_bin,
+    [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = S7093T_bin,
+    [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = S7094T_bin,
+    [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = S7095T_bin,
+    [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = S7101T_bin,
+    [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = S7102T_bin,
+    [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = S7103T_bin,
+    [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = S7104T_bin,
+    [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = S7105T_bin,
+    [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = S7111T_bin,
+    [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = S7112T_bin,
+    [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = S7113T_bin,
+    [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = S7114T_bin,
+    [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = S7115T_bin,
+
 };
 
 void const * const ChapterMapChanges[] = {

@@ -3,6 +3,7 @@
 import os
 import re
 import json
+import numpy
 import warnings
 import urllib.parse
 from PIL import Image
@@ -22,6 +23,8 @@ map_image_save_path = 'map/full_color/'
 map_image_decreased_color_save_path = 'map/decreased_color/'
 map_obj_img_save_path = 'gfx/map/'
 map_tsa_save_path = 'data/map/'
+map_terrain_uncompressed_save_path = 'map/uncompressed_terrain/'
+map_terrain_compressed_save_path = 'data/terrain/'
 FEBuiderGBA = '..\\FEBuilderGBA\\FEBuilderGBA\\bin\\Debug\\FEBuilderGBA.exe --rom=baserom.gba'
 wiki_config_save_path = 'map/wiki_conf/'
 wiki_config_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
@@ -32,99 +35,122 @@ map_names = {
     "S6023": "Book_VI,_Chapter_2:_Part_3:_Radiant_Hero",
 }
 
-terrain_names = [
+terrain_map = [
     {
         "index": 0,
         "name": "Plain",
+        "terrain_id": 1,
     },
     {
         "index": 1,
         "name": "Floor",
+        "terrain_id": 0x17,
     },
     {
         "index": 2,
         "name": "Desert",
+        "terrain_id": 0xf,
     },
     {
         "index": 3,
         "name": "Forest",
+        "terrain_id": 0xc,
     },
     {
         "index": 4,
         "name": "Mountain",
+        "terrain_id": 0x12,
     },
     {
         "index": 5,
         "name": "River",
+        "terrain_id": 0x10,
     },
     {
         "index": 6,
         "name": "Sea",
+        "terrain_id": 0x15,
     },
     {
         "index": 7,
         "name": "Lava",
+        "terrain_id": 0x31,
     },
     {
         "index": 8,
         "name": "Wall",
+        "terrain_id": 0x1a,
     },
     {
         "index": 9,
         "name": "Wall (Plain) hp=1",
+        "terrain_id": 0x1b,
     },
     {
         "index": 10,
         "name": "Wall (Plain) hp=2",
+        "terrain_id": 0x1b,
     },
     {
         "index": 11,
         "name": "Wall (Floor) hp=1",
+        "terrain_id": 0x1b,
     },
     {
         "index": 12,
         "name": "Wall (Floor) hp=2",
+        "terrain_id": 0x1b,
     },
     {
         "index": 13,
         "name": "Wall (Desert) hp=1",
+        "terrain_id": 0x1b,
     },
     {
         "index": 14,
         "name": "Wall (Desert) hp=2",
+        "terrain_id": 0x1b,
     },
     {
         "index": 15,
         "name": "Bridge",
+        "terrain_id": 0x13,
     },
     {
         "index": 16,
         "name": "Gate",
+        "terrain_id": 0xb,
     },
     {
         "index": 17,
         "name": "Fortress",
+        "terrain_id": 0xa,
     },
     {
         "index": 18,
         "name": "Throne",
+        "terrain_id": 0x1f,
     },
     {
         "index": 19,
         "name": "Pillar (Bridge) hp=1",
+        "terrain_id": 0x1b,
     },
     {
         "index": 20,
         "name": "Pillar (Bridge) hp=2",
+        "terrain_id": 0x1b,
     },
     {
         "index": 21,
         "name": "House",
+        "terrain_id": 4,
     },
     # 22-25: trench, not used in story maps, doc: https://feheroes.fandom.com/wiki/Trenches
     {
         "index": 26,
         "name": "Pool",
+        "terrain_id": 0x16,
     }
 ]
 
@@ -135,8 +161,9 @@ def load_terrain_configs():
     with open(terrain_config_path, 'r', encoding="utf-8") as file:
         global terrain_configs
         terrain_configs = json.load(file)
-    for terrain in terrain_names:
-        terrain_configs[terrain['index']]['name'] = terrain['name']
+    for terrain in terrain_map:
+        for k, v in terrain.items():
+            terrain_configs[terrain['index']][k] = v
 
 def collect_terrain_1st_appearance():
     for map_id, config in sorted(map_configs.items()):
@@ -379,6 +406,7 @@ const u16 NewChapterMap[] = {
 ''')
         for map_id in map_ids:
             file.write('#include "%s_bin.h"\n' % map_id)
+            file.write('#include "%sT_bin.h"\n' % map_id)
         file.write('''
 
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
@@ -439,10 +467,14 @@ struct ChapterInfo const newChapters[] = {
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sPal,\n' % (map_id, map_id))
         file.write('};\n\n')
-        #TODO: terrains, map changes and events
+        #TODO: map changes and events
         file.write('''
 void const * const ChapterMapTerrains[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+''')
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sT_bin,\n' % (map_id, map_id))
+        file.write('''
 };
 
 void const * const ChapterMapChanges[] = {
@@ -454,6 +486,37 @@ void const * const ChapterEvents[] = {
 };
 
 ''')
+    for map_id, config in map_configs.items():
+        terrains = numpy.zeros((16, 16, 2, 2), dtype=numpy.uint8)
+        for y in range(8):
+            for x in range(6):
+                terrain = config['field']['terrain'][7 - y][x]
+                terrain_id = terrain_configs[terrain]['terrain_id']
+                for y0 in range(2):
+                    for x0 in range(2):
+                        terrains[y][x][y0][x0] = terrain_id
+                        terrains[y][x + 6][y0][x0] = terrain_id
+        for change in config['field']['changes'].values():
+            terrain = config['field']['terrain'][change['y']][change['x']]
+            if is_breakable(terrain):
+                base_terrain = terrain_configs[terrain]['base_terrain']
+                base_terrain_id = terrain_configs[base_terrain]['terrain_id']
+                for y0 in range(2):
+                    for x0 in range(2):
+                        terrains[7 - change['y']][change['x'] + 6][y0][x0] = base_terrain_id
+                if change['hp'] == 1:
+                    if change['type'] in ('W', 'E', 'Pillar'):
+                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
+                        terrains[7 - change['y']][change['x']][0][1] = base_terrain_id
+                    if change['type'] == 'N': # right bottom
+                        terrains[7 - change['y']][change['x']][1][1] = base_terrain_id
+                    if change['type'] == 'S': # left top
+                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
+        map_terrain_uncompressed_path = os.path.join(map_terrain_uncompressed_save_path, map_id + 'T.bin')
+        with open(map_terrain_uncompressed_path, 'wb') as file:
+            file.write(terrains.tobytes())
+        map_terrain_compressed_path = os.path.join(map_terrain_compressed_save_path, map_id + 'T.bin')
+        os.system('gbalzss e %s %s' % (map_terrain_uncompressed_path, map_terrain_compressed_path))
 
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
