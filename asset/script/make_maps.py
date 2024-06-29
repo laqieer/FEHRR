@@ -377,6 +377,11 @@ def make_chapters():
         for map_id in map_ids:
             file.write('#include "%s_bin.h"\n' % map_id)
             file.write('#include "%sT_bin.h"\n' % map_id)
+    with open('include/mapchanges.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        for map_id in map_ids:
+            if len(map_configs[map_id]['field']['changes']) > 0:
+                file.write('extern const struct MapChangeInfo %sMapChanges[];\n' % map_id)
     with open('include/chapters.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         file.write('enum {\n')
@@ -395,8 +400,8 @@ const u16 NewChapterMap[] = {
         for y in range(16):
             file.write('   ')
             for x in range(12):
-                file.write(' %d,' % (y * 32 + x))
-            file.write(' 24, 24, 24,\n')
+                file.write(' %d,' % (4 * (y * 32 + x)))
+            file.write(' 4 * 24, 4 * 24, 4 * 24,\n')
         file.write('};\n')
     with open('source/chapters.c', 'w', encoding='utf-8') as file:
         file.write('''
@@ -407,6 +412,8 @@ const u16 NewChapterMap[] = {
 #include "chapters.h"
 #include "texts.h"
 #include "tilesets.h"
+#include "unknown_types.h"
+#include "mapchanges.h"
 #include "gfx_map.h"
 
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
@@ -467,7 +474,6 @@ struct ChapterInfo const newChapters[] = {
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sPal,\n' % (map_id, map_id))
         file.write('};\n\n')
-        #TODO: map changes and events
         file.write('''
 void const * const ChapterMapTerrains[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
@@ -479,6 +485,11 @@ void const * const ChapterMapTerrains[] = {
 
 void const * const ChapterMapChanges[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
+''')
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s,\n' % (map_id, (map_id + 'MapChanges') if len(map_configs[map_id]['field']['changes']) > 0 else 'NULL'))
+        #TODO: events
+        file.write('''
 };
 
 void const * const ChapterEvents[] = {
@@ -517,6 +528,34 @@ void const * const ChapterEvents[] = {
             file.write(terrains.tobytes())
         map_terrain_compressed_path = os.path.join(map_terrain_compressed_save_path, map_id + 'T.bin')
         os.system('gbalzss e %s %s' % (map_terrain_uncompressed_path, map_terrain_compressed_path))
+    with open('source/mapchanges.c', 'w', encoding='utf-8') as file:
+        file.write('#include "unknown_types.h"\n\n')
+        for map_id, config in sorted(map_configs.items(), key=lambda x: x[0]):
+            if len(config['field']['changes']) > 0:
+                file.write('const u16 %sMapChangedTiles[] = {\n' % map_id)
+                for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
+                    x0 = 2 * (change['x'] + 6)
+                    y0 = 2 * (7 - change['y'])
+                    file.write('    4 * %d, 4 * %d, 4 * %d, 4 * %d, // %d\n' % (y0 * 16 + x0, y0 * 16 + x0 + 1, (y0 + 1) * 16 + x0, (y0 + 1) * 16 + x0 + 1, i))
+                file.write('};\n\n')
+                file.write('const struct MapChangeInfo %sMapChanges[] = {\n' % map_id)
+                for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
+                    x0 = 2 * change['x']
+                    y0 = 2 * (7 - change['y'])
+                    file.write('    {\n')
+                    file.write('        .id = %d,\n' % i)
+                    file.write('        .x = %d,\n' % x0)
+                    file.write('        .y = %d,\n' % y0)
+                    file.write('        .width = 2,\n')
+                    file.write('        .height = 2,\n')
+                    file.write('        .metatiles = &%sMapChangedTiles[2 * 2 * %d],\n' % (map_id, i))
+                    file.write('    },\n')
+                file.write('''    {
+        .id = -1,
+    },
+};
+
+''')
 
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
