@@ -451,7 +451,7 @@ struct ChapterInfo const newChapters[] = {
         .debug_name = "S0000",
         .asset_img_b = 2,
         .asset_img_anims = 6,
-        .msg_38 = 3786,
+        .msg_38 = DEBUG_CHAPTER_TITLE_MSG_ID,
         .unk_0F = 3, // initial X
         .unk_10 = 14, // initial Y
         .song_blue_bgm = 10,
@@ -488,12 +488,14 @@ struct ChapterInfo const newChapters[] = {
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sPal,\n' % (map_id, map_id))
         file.write('};\n\n')
+        # map terrains
         file.write('''
 void const * const ChapterMapTerrains[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
 ''')
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sT_bin,\n' % (map_id, map_id))
+        # map changes
         file.write('''
 };
 
