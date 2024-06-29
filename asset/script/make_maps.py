@@ -498,6 +498,7 @@ def make_chapters():
 #include "tilesets.h"
 #include "unknown_types.h"
 #include "mapchanges.h"
+#include "chaptergoals.h"
 #include "gfx_map.h"
 
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
@@ -522,6 +523,7 @@ struct ChapterInfo const newChapters[] = {
         .debug_name = "S0000",
         .asset_img_b = 2,
         .asset_img_anims = 6,
+        .msg_30 = CHAPTER_GOAL_MSG_ID_S0000,
         .msg_38 = DEBUG_CHAPTER_TITLE_MSG_ID,
         .unk_0F = 3, // initial X
         .unk_10 = 14, // initial Y
@@ -536,6 +538,7 @@ struct ChapterInfo const newChapters[] = {
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
             file.write('        .debug_name = "%s",\n' % map_id)
             file.write('        .banim_terrain_id = BANIM_TERRAIN_%s,\n' % get_battle_terrain(map_id).name)
+            file.write('        .msg_30 = CHAPTER_GOAL_MSG_ID_%s,\n' % map_id)
             file.write('        .msg_38 = MID_STAGE_%s,\n' % map_id)
             if len(map_configs[map_id]['field']['changes']) > 0:
                 file.write('        .wall_hp = WALL_HP_DEFAULT,\n')
@@ -631,6 +634,15 @@ def get_battle_terrain(map_id):
                 return battle_terrain_by_group[terrain_group]
     return BattleTerrain.DEFAULT
 
+survival_maps = ()
+
+def make_chapter_goals():
+    with open('include/chaptergoals.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        file.write('#define CHAPTER_GOAL_MSG_ID_S0000 CHAPTER_GOAL_MSG_ID_DEFEAT_ALL\n')
+        for map_id in sorted(map_configs.keys()):
+            file.write('#define CHAPTER_GOAL_MSG_ID_%s CHAPTER_GOAL_MSG_ID_%s\n' % (map_id, 'SURVIVAL' if map_id in survival_maps else 'DEFEAT_ALL'))
+
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
     load_map_configs()
@@ -642,8 +654,9 @@ if __name__ == '__main__':
     # print_terrain_1st_appearance()
     # print_terrain_by_groups()
     # print_map_anims()
-    make_map_images()
-    decrease_map_colors()
-    make_map_tilesets()
-    make_common_map()
+    # make_map_images()
+    # decrease_map_colors()
+    # make_map_tilesets()
+    # make_common_map()
+    make_chapter_goals()
     make_chapters()
