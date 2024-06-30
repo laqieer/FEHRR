@@ -869,16 +869,16 @@ const EventScr EventScr_LoadUnits_S1101RedUnits[] = {
     EvtEnd
 };
 
-const struct UnitInfo S1101RedUnits[] = {
+const struct UnitInfo S1101RedUnits_Turn_1_3[] = {
     { EID_ENEMY_GENERIC, JID_アクスナイト, 0, TRUE, FACTION_ID_RED, 20, 2, 14, 2, 14, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { EID_ENEMY_GENERIC, JID_レッドマージ, 0, TRUE, FACTION_ID_RED, 20, 8, 14, 8, 14, { IID_FIRE, IID_LIGHTNING, IID_FLUX, IID_HEALSTAFF }, { 0 } },
     { 0 }, // end
 };
 
-const EventScr EventScr_LoadUnits_S1101RedUnits[] = {
+const EventScr EventScr_LoadUnits_S1101RedUnits_Turn_1_3[] = {
     EvtUnitCameraOff
     EvtNoSkip
-    EvtLoadUnits(S1101RedUnits)
+    EvtLoadUnits(S1101RedUnits_Turn_1_3)
     EvtMoveWait
     EvtClearSkip
     EvtEnd
@@ -969,15 +969,15 @@ const EventScr EventScr_LoadUnits_S1104RedUnits[] = {
     EvtEnd
 };
 
-const struct UnitInfo S1104RedUnits[] = {
+const struct UnitInfo S1104RedUnits_Turn_1_1[] = {
     { EID_ENEMY_GENERIC, JID_ボウファイター, 0, TRUE, FACTION_ID_RED, 20, 10, 0, 10, 0, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { 0 }, // end
 };
 
-const EventScr EventScr_LoadUnits_S1104RedUnits[] = {
+const EventScr EventScr_LoadUnits_S1104RedUnits_Turn_1_1[] = {
     EvtUnitCameraOff
     EvtNoSkip
-    EvtLoadUnits(S1104RedUnits)
+    EvtLoadUnits(S1104RedUnits_Turn_1_1)
     EvtMoveWait
     EvtClearSkip
     EvtEnd
@@ -2574,17 +2574,17 @@ const EventScr EventScr_LoadUnits_S2105RedUnits[] = {
     EvtEnd
 };
 
-const struct UnitInfo S2105RedUnits[] = {
+const struct UnitInfo S2105RedUnits_Turn_1_1[] = {
     { EID_ENEMY_HERO_5, JID_ジャファル, 0, TRUE, FACTION_ID_RED, 20, 10, 14, 10, 14, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { EID_ENEMY_HERO_6, JID_ライナス, 0, TRUE, FACTION_ID_RED, 20, 6, 14, 6, 14, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { EID_ENEMY_HERO_7, JID_ロイド, 0, TRUE, FACTION_ID_RED, 20, 4, 14, 4, 14, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { 0 }, // end
 };
 
-const EventScr EventScr_LoadUnits_S2105RedUnits[] = {
+const EventScr EventScr_LoadUnits_S2105RedUnits_Turn_1_1[] = {
     EvtUnitCameraOff
     EvtNoSkip
-    EvtLoadUnits(S2105RedUnits)
+    EvtLoadUnits(S2105RedUnits_Turn_1_1)
     EvtMoveWait
     EvtClearSkip
     EvtEnd
@@ -2770,17 +2770,17 @@ const EventScr EventScr_LoadUnits_S2125RedUnits[] = {
     EvtEnd
 };
 
-const struct UnitInfo S2125RedUnits[] = {
+const struct UnitInfo S2125RedUnits_Turn_1_1[] = {
     { EID_ENEMY_HERO_3, JID_キュアン, 0, TRUE, FACTION_ID_RED, 20, 0, 6, 0, 6, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { EID_ENEMY_HERO_4, JID_エスリン, 0, TRUE, FACTION_ID_RED, 20, 0, 4, 0, 4, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { EID_ENEMY_HERO_5, JID_ジャムカ, 0, TRUE, FACTION_ID_RED, 20, 8, 0, 8, 0, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { 0 }, // end
 };
 
-const EventScr EventScr_LoadUnits_S2125RedUnits[] = {
+const EventScr EventScr_LoadUnits_S2125RedUnits_Turn_1_1[] = {
     EvtUnitCameraOff
     EvtNoSkip
-    EvtLoadUnits(S2125RedUnits)
+    EvtLoadUnits(S2125RedUnits_Turn_1_1)
     EvtMoveWait
     EvtClearSkip
     EvtEnd
@@ -4938,7 +4938,7 @@ const EventScr EventScr_LoadUnits_S4095RedUnits[] = {
     EvtEnd
 };
 
-const struct UnitInfo S4095RedUnits[] = {
+const struct UnitInfo S4095RedUnits_Turn_1_1[] = {
     { EID_フレイヤ, JID_フレイヤ, 0, TRUE, FACTION_ID_RED, 20, 0, 0, 0, 0, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { EID_フレイヤ, JID_フレイヤ, 0, TRUE, FACTION_ID_RED, 20, 10, 0, 10, 0, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
     { EID_フレイヤ, JID_フレイヤ, 0, TRUE, FACTION_ID_RED, 20, 4, 14, 4, 14, { IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW }, { 0 } },
@@ -4948,10 +4948,10 @@ const struct UnitInfo S4095RedUnits[] = {
     { 0 }, // end
 };
 
-const EventScr EventScr_LoadUnits_S4095RedUnits[] = {
+const EventScr EventScr_LoadUnits_S4095RedUnits_Turn_1_1[] = {
     EvtUnitCameraOff
     EvtNoSkip
-    EvtLoadUnits(S4095RedUnits)
+    EvtLoadUnits(S4095RedUnits_Turn_1_1)
     EvtMoveWait
     EvtClearSkip
     EvtEnd

@@ -816,7 +816,14 @@ def make_red_units():
                 red_units_by_turn_and_count[unit['spawn_turns']][unit['spawn_count']].append(unit)
             for turn, counts in red_units_by_turn_and_count.items():
                 for count, units in counts.items():
-                    red_units_label = '%sRedUnits%s' % (map_id, ('_Turn_%d_%d' % (turn + 1, turn + count)) if turn != -1 else '')
+                    if turn == -1:
+                        if count == -1:
+                            red_units_label = '%sRedUnits' % map_id
+                        else:
+                            red_units_label = '%sRedUnits_Turn_1_%d' % (map_id, count)
+                    else:
+
+                        red_units_label = '%sRedUnits_Turn_%d_%d' % (map_id, turn + 1, turn + count)
                     file.write('const struct UnitInfo %s[] = {\n' % red_units_label)
                     for unit in units:
                         x = 2 * unit['pos']['x']
