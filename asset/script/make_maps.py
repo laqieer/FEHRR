@@ -674,6 +674,31 @@ def print_max_enemy_unit_count():
 def print_max_enemy_hero_count():
     print(max([len(set([u['id_tag'] for u in x['units'] if is_hero(unit_data[u['id_tag']]) and not is_hero_defined(unit_data[u['id_tag']])])) for x in map_configs.values()]))
 
+HERO_ID_MYUNIT = 'EID_フード'
+
+blue_hero_ids = hero_ids[:3] + [HERO_ID_MYUNIT]
+
+def make_blue_units():
+    with open('include/blueunits.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        for map_id in sorted(map_configs.keys()):
+            file.write('const struct UnitInfo %sBlueUnits[] = {\n' % map_id)
+            for i in range(map_configs[map_id]['player_count']):
+                x = 2 * map_configs[map_id]['player_pos'][i]['x']
+                y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
+                file.write('    { %s, 0, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (blue_hero_ids[i], x, y, x, y))
+            file.write('    { 0 }, // end\n')
+            file.write('};\n\n')
+            file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
+            file.write('    EvtLoadUnits(%sBlueUnits)' % map_id)
+            file.write('''
+    EvtMoveWait
+    EvtClearSkip
+    EvtEnd
+};
+
+''')
+
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
     load_map_configs()
@@ -689,9 +714,10 @@ if __name__ == '__main__':
     # decrease_map_colors()
     # make_map_tilesets()
     # make_common_map()
-    make_chapter_goals()
+    # make_chapter_goals()
     # make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
     # print_max_enemy_hero_count()
+    make_blue_units()
