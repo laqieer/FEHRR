@@ -661,14 +661,12 @@ def get_battle_terrain(map_id):
                 return battle_terrain_by_group[terrain_group]
     return BattleTerrain.DEFAULT
 
-survival_maps = ()
-
 def make_chapter_goals():
     with open('include/chaptergoals.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         file.write('#define CHAPTER_GOAL_MSG_ID_S0000 CHAPTER_GOAL_MSG_ID_DEFEAT_ALL\n')
         for map_id in sorted(map_configs.keys()):
-            file.write('#define CHAPTER_GOAL_MSG_ID_%s CHAPTER_GOAL_MSG_ID_%s\n' % (map_id, 'SURVIVAL' if map_id in survival_maps else 'DEFEAT_ALL'))
+            file.write('#define CHAPTER_GOAL_MSG_ID_%s CHAPTER_GOAL_MSG_ID_%s\n' % (map_id, 'SURVIVAL' if map_configs[map_id]['turns_to_win'] + map_configs[map_id]['turns_to_defend'] > 0 else 'DEFEAT_ALL'))
 
 def print_max_enemy_unit_count():
     print(max([len(x['units']) for x in map_configs.values()]))
@@ -691,9 +689,9 @@ if __name__ == '__main__':
     # decrease_map_colors()
     # make_map_tilesets()
     # make_common_map()
-    # make_chapter_goals()
+    make_chapter_goals()
     # make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
-    print_max_enemy_hero_count()
+    # print_max_enemy_hero_count()
