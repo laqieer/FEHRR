@@ -541,6 +541,7 @@ def make_chapters():
 #include "unknown_types.h"
 #include "mapchanges.h"
 #include "chaptergoals.h"
+#include "mapevents.h"
 #include "gfx_map.h"
 
 #ifdef SPLIT_MAP_ANIMATION_FOR_NEW_CHAPTERS
@@ -620,15 +621,15 @@ void const * const ChapterMapChanges[] = {
 ''')
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s,\n' % (map_id, (map_id + 'MapChanges') if len(map_configs[map_id]['field']['changes']) > 0 else 'NULL'))
-        #TODO: events
         file.write('''
 };
 
 void const * const ChapterEvents[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = &DebugChapterEvent,
-};
-
 ''')
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = &ChapterEventInfo_%s,\n' % (map_id, map_id))
+        file.write('};\n')
 
 def print_terrain_by_groups():
     print([{'terrain_group': t['terrain_group'], 'terrain': t.get('name', t['index'])} for t in sorted(terrain_configs, key=lambda x: len(terrain_configs) * x['terrain_group'] + x['index'])])
@@ -694,6 +695,10 @@ HERO_ID_MYUNIT = 'EID_フード'
 blue_hero_ids = hero_ids[:3] + [HERO_ID_MYUNIT]
 
 def make_blue_units():
+    with open('include/blueunitdefs.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        for map_id in sorted(map_configs.keys()):
+            file.write('extern const struct UnitInfo %sBlueUnits[];\n' % map_id)
     with open('include/blueunits.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         for map_id in sorted(map_configs.keys()):
@@ -704,15 +709,15 @@ def make_blue_units():
                 file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (blue_hero_ids[i], blue_hero_ids[i][1:], x, y, x, y))
             file.write('    { 0 }, // end\n')
             file.write('};\n\n')
-            file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
-            file.write('    EvtLoadUnits(%sBlueUnits)' % map_id)
-            file.write('''
-    EvtMoveWait
-    EvtClearSkip
-    EvtEnd
-};
+#             file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
+#             file.write('    EvtLoadUnits(%sBlueUnits)' % map_id)
+#             file.write('''
+#     EvtMoveWait
+#     EvtClearSkip
+#     EvtEnd
+# };
 
-''')
+# ''')
 
 promoted_jobs = {
     'JID_PEGASUSKNIGHT': 'JID_FALCONKNIGHT',
@@ -790,11 +795,33 @@ def get_red_unit_id_tag(id_tag):
     return 'EID_ENEMY_HERO_'
 
 def make_red_units():
-    with open('include/redunits.h', 'w', encoding='utf-8') as file:
+    with open('include/redunits.h', 'w', encoding='utf-8') as file, open(
+        'include/redunitdefs.h', 'w', encoding='utf-8') as file_defs,open(
+            'source/eventscripts.c', 'w', encoding='utf-8') as file_scripts, open(
+                'include/eventscripts.h', 'w', encoding='utf-8') as file_scripts_defs:
         file.write('#pragma once\n\n')
+        file_defs.write('#pragma once\n\n')
+        file_scripts_defs.write('#pragma once\n\n')
+        file_scripts.write('''
+#include "unit.h"
+#include "blueunitdefs.h"
+#include "redunitdefs.h"
+#include "event.h"
+#include "eventinfo.h"
+#include "eventscript.h"
+#include "faction.h"
+
+''')
         red_unit_lv = 0
         is_red_unit_promoted = False
         for map_id in sorted(map_configs.keys()):
+            # file_scripts_defs.write('extern const EventScr EventScr_LoadUnits_%s[];\n' % map_id)
+            file_scripts.write('const EventScr EventScr_LoadUnits_%s[] = {\n' % map_id)
+            file_scripts.write('    EvtLoadUnits(%sBlueUnits)\n' % map_id)
+            file_scripts.write('    EvtLoadUnits(%sRedUnits)\n' % map_id)
+            file_scripts.write('    EvtClearSkip\n')
+            file_scripts.write('    EvtEnd\n')
+            file_scripts.write('};\n\n')
             if red_unit_lv <= 20:
                 red_unit_lv += 1
             if red_unit_lv == 21:
@@ -851,17 +878,53 @@ def make_red_units():
                         file.write('    { %s, %s, 0, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, red_unit_lv, x, y, x, y, red_unit_items))
                     file.write('    { 0 }, // end\n')
                     file.write('};\n\n')
-                    file.write('const EventScr EventScr_LoadUnits_%s[] = {\n' % red_units_label)
-                    file.write('    EvtUnitCameraOff\n')
-                    file.write('    EvtNoSkip\n')
-                    file.write('    EvtLoadUnits(%s)' % red_units_label)
-                    file.write('''
-    EvtMoveWait
-    EvtClearSkip
-    EvtEnd
-};
+                    file_defs.write('extern const struct UnitInfo %s[];\n' % red_units_label)
+                    if turn != -1 or count != -1:
+                        # file_scripts_defs.write('extern const EventScr EventScr_LoadUnits_%s[];\n' % red_units_label)
+                        file_scripts.write('const EventScr EventScr_LoadUnits_%s[] = {\n' % red_units_label)
+                        file_scripts.write('    EvtLoadUnits(%s)\n' % red_units_label)
+                        file_scripts.write('    EvtClearSkip\n')
+                        file_scripts.write('    EvtEnd\n')
+                        file_scripts.write('};\n\n')
+            # turn events list
+            file_scripts_defs.write('extern const EventScr EventListScr_%s_Turn[];\n' % map_id)
+            file_scripts.write('const EventListScr EventListScr_%s_Turn[] = {\n' % map_id)
+            for turn in sorted(red_units_by_turn_and_count.keys()):
+                for count in sorted(red_units_by_turn_and_count[turn].keys()):
+                    if turn == -1:
+                        if count == -1:
+                            file_scripts.write('    EvtListTurn(0, EventScr_LoadUnits_%s, 1, 0, FACTION_BLUE)\n' % map_id)
+                        else:
+                            file_scripts.write('    EvtListTurn(0, EventScr_LoadUnits_%s, 1, %d, FACTION_RED)\n' % (red_units_label, count if count > 1 else 0))
+                    else:
+                        file_scripts.write('    EvtListTurn(0, EventScr_LoadUnits_%s, %d, %d, FACTION_RED)\n' % (red_units_label, turn + 1, (turn + count) if count > 1 else 0))
+            file_scripts.write('    EvtListEnd\n')
+            file_scripts.write('};\n\n')
+
+def make_map_events():
+    with open('include/mapevents.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        for map_id in sorted(map_configs.keys()):
+            file.write('extern const struct ChapterEventInfo ChapterEventInfo_%s[];\n' % map_id)
+    with open('source/mapevents.c', 'w', encoding='utf-8') as file:
+        file.write('''
+#include "unit.h"
+#include "blueunitdefs.h"
+#include "redunitdefs.h"
+#include "eventinfo.h"
+#include "eventscripts.h"
+#include "debugchapter.h"
 
 ''')
+        for map_id in sorted(map_configs.keys()):
+            file.write('const struct ChapterEventInfo ChapterEventInfo_%s[] = {\n' % map_id)
+            file.write('    .event_list_turn = EventListScr_%s_Turn,\n' % map_id)
+            file.write('    .event_list_talk = DummyEvent,\n')
+            file.write('    .event_list_tile = DummyEvent,\n')
+            file.write('    .event_list_move = DummyEvent,\n')
+            file.write('    .units_red = %sRedUnits,\n' % map_id)
+            file.write('    .units_blue = %sBlueUnits,\n' % map_id)
+            file.write('};\n\n')
 
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
@@ -879,7 +942,7 @@ if __name__ == '__main__':
     # make_map_tilesets()
     # make_common_map()
     # make_chapter_goals()
-    # make_chapters()
+    make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
@@ -888,6 +951,7 @@ if __name__ == '__main__':
     load_move_type()
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
-    # make_blue_units()
+    make_blue_units()
     make_enemy_unit_jobs()
     make_red_units()
+    make_map_events()

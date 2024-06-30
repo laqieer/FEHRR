@@ -17,3 +17,5 @@ extern const unsigned int DebugChapterMapGraphic[];
 extern const unsigned short DebugChapterMapPalette[];
 extern const uint8_t DebugChapterMapTileset[];
 extern const u8 DebugChapterMapGraphicAnimation[];
+
+extern const EventScr DummyEvent[];
