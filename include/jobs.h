@@ -1,0 +1,4 @@
+#pragma once
+
+#define JID_HALBERDIER JID_SOLDIER
+#define JID_ASSASSIN JID_THIEF

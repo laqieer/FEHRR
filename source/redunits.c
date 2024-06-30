@@ -11,7 +11,9 @@
 #include "constants/iids.h"
 
 #include "heroes.h"
+#include "enemies.h"
 #include "jobs.h"
 #include "hero_jobs.h"
+#include "enemy_unit_jobs.h"
 
-#include "blueunits.h"
+#include "redunits.h"

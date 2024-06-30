@@ -20,6 +20,8 @@ map_config_path = os.path.join(config_common_path, 'SRPGMap/')
 terrain_config_path = os.path.join(config_common_path, 'SRPG/Terrain.json')
 unit_data_person_path = os.path.join(config_common_path, 'SRPG/Person/')
 unit_data_enemy_path = os.path.join(config_common_path, 'SRPG/Enemy/')
+weapon_type_path = os.path.join(config_common_path, 'SRPG/Weapon.json')
+move_type_path = os.path.join(config_common_path, 'SRPG/Move.json')
 map_asset_path = 'asset/file/collection/Maps/'
 map_image_path = os.path.join(map_asset_path, 'Story/')
 map_common_path = os.path.join(map_asset_path, 'Common/')
@@ -53,9 +55,22 @@ def load_unit_data():
                 with open(path, 'r', encoding='utf-8') as f:
                     units = json.load(f)
                     for unit in units:
+                        unit['id_tag'] = unit['id_tag'].replace('―', '')
+                        if unit['id_tag'].endswith('味方'):
+                            unit['id_tag'] = 'E' + unit['id_tag'][1:-2]
                         unit_data[unit['id_tag']] = unit
-                        if unit['id_tag'] in hero_ids:
+                        if unit['id_tag'] in hero_ids and hero_by_face.get(unit['face_name']) not in hero_ids:
                             hero_by_face[unit['face_name']] = unit['id_tag']
+
+def load_weapon_type():
+    with open(weapon_type_path, 'r', encoding='utf-8') as file:
+        global weapon_type
+        weapon_type = json.load(file)
+
+def load_move_type():
+    with open(move_type_path, 'r', encoding='utf-8') as file:
+        global move_type
+        move_type = json.load(file)
 
 map_names = {
     "S5125": "Book_V,_Chapter_12-5:_Family",
@@ -686,12 +701,153 @@ def make_blue_units():
             for i in range(map_configs[map_id]['player_count']):
                 x = 2 * map_configs[map_id]['player_pos'][i]['x']
                 y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
-                file.write('    { %s, 0, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (blue_hero_ids[i], x, y, x, y))
+                file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (blue_hero_ids[i], blue_hero_ids[i][1:], x, y, x, y))
             file.write('    { 0 }, // end\n')
             file.write('};\n\n')
             file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
             file.write('    EvtLoadUnits(%sBlueUnits)' % map_id)
             file.write('''
+    EvtMoveWait
+    EvtClearSkip
+    EvtEnd
+};
+
+''')
+
+promoted_jobs = {
+    'JID_PEGASUSKNIGHT': 'JID_FALCONKNIGHT',
+    'JID_MYRMIDON': 'JID_SWORDMASTER',
+    'JID_SOLDIER': 'JID_HALBERDIER',
+    'JID_FIGHTER': 'JID_WARRIOR',
+    'JID_ARCHER': 'JID_SNIPER',
+    'JID_THIEF': 'JID_ASSASSIN',
+    'JID_MAGE': 'JID_SAGE',
+    'JID_SHAMAN': 'JID_DRUID',
+    'JID_PRIEST': 'JID_BISHOP',
+    'JID_ARMOR': 'JID_GENERAL',
+    'JID_CAVALIER': 'JID_PALADIN',
+    'JID_NOMAD': 'JID_NOMADTROOPER',
+    'JID_TROUBADOUR': 'JID_VALKYRIE',
+}
+
+def guess_unit_job(unit):
+    if unit_data[unit['id_tag']]['refresher']:
+        return 'JID_DANCER'
+    move = move_type[unit_data[unit['id_tag']]['move_type']]['id_tag']
+    weapon = weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']
+    if weapon.endswith('竜') or weapon.endswith('獣'):
+        if move in ('MVID_騎馬', 'MVID_飛行'):
+            return 'JID_MANAKETE_F'
+        return 'JID_MANAKETE'
+    if move == 'MVID_飛行':
+        return 'JID_PEGASUSKNIGHT'
+    if move == 'MVID_重装':
+        return 'JID_ARMOR'
+    if move == 'MVID_騎馬':
+        if weapon.endswith('弓') or weapon.endswith('暗'):
+            return 'JID_NOMAD'
+        if weapon == 'WID_杖' or weapon.endswith('魔'):
+            return 'JID_TROUBADOUR'
+        return 'JID_CAVALIER'
+    if move == 'MVID_歩行':
+        if weapon == 'WID_剣':
+            return 'JID_MYRMIDON'
+        if weapon == 'WID_槍':
+            return 'JID_SOLDIER'
+        if weapon == 'WID_斧':
+            return 'JID_FIGHTER'
+        if weapon.endswith('弓'):
+            return 'JID_ARCHER'
+        if weapon.endswith('暗'):
+            return 'JID_THIEF'
+        if weapon in ('WID_赤魔', 'WID_青魔', 'WID_緑魔'):
+            return 'JID_MAGE'
+        if weapon == 'WID_無魔':
+            return 'JID_SHAMAN'
+        if weapon == 'WID_杖':
+            return 'JID_PRIEST'
+    return 'JID_NONE'
+
+def make_enemy_unit_jobs():
+    with open('include/enemy_unit_jobs.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        file.write('// Generic enemies\n')
+        for unit in unit_data.values():
+            if unit['roman'] != 'NONE' and not is_hero(unit):
+                file.write('#define J%s %s // %s %s\n' % (unit['id_tag'][1:], guess_unit_job(unit), move_type[unit_data[unit['id_tag']]['move_type']]['id_tag'], weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']))
+        file.write('\n')
+        file.write('// Hero enemies\n')
+        for unit in unit_data.values():
+            if is_hero(unit) and not is_hero_defined(unit):
+                file.write('#define J%s %s // %s %s\n' % (unit['id_tag'][1:], guess_unit_job(unit), move_type[unit_data[unit['id_tag']]['move_type']]['id_tag'], weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']))
+
+def get_red_unit_id_tag(id_tag):
+    unit = unit_data[id_tag]
+    if not is_hero(unit):
+        return 'EID_ENEMY_GENERIC'
+    if is_hero_defined(unit):
+        return id_tag
+    return 'EID_ENEMY_HERO_'
+
+def make_red_units():
+    with open('include/redunits.h', 'w', encoding='utf-8') as file:
+        file.write('#pragma once\n\n')
+        red_unit_lv = 0
+        is_red_unit_promoted = False
+        for map_id in sorted(map_configs.keys()):
+            if red_unit_lv <= 20:
+                red_unit_lv += 1
+            if red_unit_lv == 21:
+                if not is_red_unit_promoted:
+                    is_red_unit_promoted = True
+                    red_unit_lv = 1
+                else:
+                    red_unit_lv = 20
+            red_units_by_turn_and_count = {}
+            loaded_red_heroes = []
+            for unit in map_configs[map_id]['units']:
+                unit['id_tag'] = unit['id_tag'].replace('―', '')
+                if unit['id_tag'].endswith('味方'):
+                    unit['id_tag'] = 'E' + unit['id_tag'][1:-2]
+                if unit['spawn_turns'] not in red_units_by_turn_and_count:
+                    red_units_by_turn_and_count[unit['spawn_turns']] = {}
+                if unit['spawn_count'] not in red_units_by_turn_and_count[unit['spawn_turns']]:
+                    red_units_by_turn_and_count[unit['spawn_turns']][unit['spawn_count']] = []
+                red_units_by_turn_and_count[unit['spawn_turns']][unit['spawn_count']].append(unit)
+            for turn, counts in red_units_by_turn_and_count.items():
+                for count, units in counts.items():
+                    red_units_label = '%sRedUnits%s' % (map_id, ('_Turn_%d_%d' % (turn + 1, turn + count)) if turn != -1 else '')
+                    file.write('const struct UnitInfo %s[] = {\n' % red_units_label)
+                    for unit in units:
+                        x = 2 * unit['pos']['x']
+                        y = 2 * (7 - unit['pos']['y'])
+                        red_unit_id = get_red_unit_id_tag(unit['id_tag'])
+                        if red_unit_id == 'EID_ENEMY_HERO_':
+                            if unit['id_tag'] not in loaded_red_heroes:
+                                loaded_red_heroes.append(unit['id_tag'])
+                            red_unit_id += str(loaded_red_heroes.index(unit['id_tag']) + 1)
+                            assert len(loaded_red_heroes) <= 7
+                        red_unit_job = 'J' + unit['id_tag'][1:]
+                        if is_red_unit_promoted:
+                            if red_unit_job in promoted_jobs:
+                                red_unit_job = promoted_jobs[red_unit_job]
+                            else:
+                                red_unit_lv = 20
+                        red_unit_items = 'IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW'
+                        if unit_data[unit['id_tag']]['tome_class'] > 0:
+                            red_unit_items = 'IID_FIRE, IID_LIGHTNING, IID_FLUX, IID_HEALSTAFF'
+                        if red_unit_job == 'JID_MANAKETE_F':
+                            red_unit_items = 'IID_DIVINESTONE, 0, 0, 0'
+                        if red_unit_job == 'JID_MANAKETE':
+                            red_unit_items = 'IID_FIRESTONE, 0, 0, 0'
+                        file.write('    { %s, %s, 0, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, red_unit_lv, x, y, x, y, red_unit_items))
+                    file.write('    { 0 }, // end\n')
+                    file.write('};\n\n')
+                    file.write('const EventScr EventScr_LoadUnits_%s[] = {\n' % red_units_label)
+                    file.write('    EvtUnitCameraOff\n')
+                    file.write('    EvtNoSkip\n')
+                    file.write('    EvtLoadUnits(%s)' % red_units_label)
+                    file.write('''
     EvtMoveWait
     EvtClearSkip
     EvtEnd
@@ -719,5 +875,11 @@ if __name__ == '__main__':
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
+    load_weapon_type()
+    print('Loaded %d weapon types' % len(weapon_type))
+    load_move_type()
+    print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
-    make_blue_units()
+    # make_blue_units()
+    make_enemy_unit_jobs()
+    make_red_units()
