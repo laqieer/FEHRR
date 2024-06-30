@@ -2,6 +2,7 @@
 #include "hero_jobs.h"
 #include "unit.h"
 #include "texts.h"
+#include "enemies.h"
 #include "facesNew.h"
 
 #include "constants/jids.h"
@@ -974,6 +975,8 @@ const struct PInfo heroes[] = {
         .growth_def = 65,
         .growth_res = 50,
     },
+
+    #include "enemy_data.h"
 
 };
 

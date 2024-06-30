@@ -4,6 +4,7 @@ import os
 import re
 import json
 import numpy
+import common
 import warnings
 import urllib.parse
 from enum import Enum
@@ -17,6 +18,8 @@ config_common_path = 'asset/json/files/assets/Common/'
 field_path = os.path.join(config_common_path, 'SRPG/Field/')
 map_config_path = os.path.join(config_common_path, 'SRPGMap/')
 terrain_config_path = os.path.join(config_common_path, 'SRPG/Terrain.json')
+unit_data_person_path = os.path.join(config_common_path, 'SRPG/Person/')
+unit_data_enemy_path = os.path.join(config_common_path, 'SRPG/Enemy/')
 map_asset_path = 'asset/file/collection/Maps/'
 map_image_path = os.path.join(map_asset_path, 'Story/')
 map_common_path = os.path.join(map_asset_path, 'Common/')
@@ -29,6 +32,30 @@ map_terrain_compressed_save_path = 'data/terrain/'
 FEBuiderGBA = '..\\FEBuilderGBA\\FEBuilderGBA\\bin\\Debug\\FEBuilderGBA.exe --rom=baserom.gba'
 wiki_config_save_path = 'map/wiki_conf/'
 wiki_config_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
+
+hero_ids = common.load_hero_ids('include/heroes.h')
+
+unit_data = {}
+
+hero_by_face = {}
+
+def is_hero(unit):
+    return unit['face_name'] is not None and not unit['face_name'].startswith('ch90_')
+
+def is_hero_defined(unit):
+    return unit['face_name'] is not None and hero_by_face.get(unit['face_name']) in hero_ids
+
+def load_unit_data():
+    for folder in (unit_data_person_path, unit_data_enemy_path):
+        for root, dirs, files in os.walk(folder):
+            for file in files:
+                path = os.path.join(root, file)
+                with open(path, 'r', encoding='utf-8') as f:
+                    units = json.load(f)
+                    for unit in units:
+                        unit_data[unit['id_tag']] = unit
+                        if unit['id_tag'] in hero_ids:
+                            hero_by_face[unit['face_name']] = unit['id_tag']
 
 map_names = {
     "S5125": "Book_V,_Chapter_12-5:_Family",
@@ -643,6 +670,12 @@ def make_chapter_goals():
         for map_id in sorted(map_configs.keys()):
             file.write('#define CHAPTER_GOAL_MSG_ID_%s CHAPTER_GOAL_MSG_ID_%s\n' % (map_id, 'SURVIVAL' if map_id in survival_maps else 'DEFEAT_ALL'))
 
+def print_max_enemy_unit_count():
+    print(max([len(x['units']) for x in map_configs.values()]))
+
+def print_max_enemy_hero_count():
+    print(max([len(set([u['id_tag'] for u in x['units'] if is_hero(unit_data[u['id_tag']]) and not is_hero_defined(unit_data[u['id_tag']])])) for x in map_configs.values()]))
+
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
     load_map_configs()
@@ -658,5 +691,9 @@ if __name__ == '__main__':
     # decrease_map_colors()
     # make_map_tilesets()
     # make_common_map()
-    make_chapter_goals()
-    make_chapters()
+    # make_chapter_goals()
+    # make_chapters()
+    # print_max_enemy_unit_count()
+    load_unit_data()
+    print('Loaded %d units' % len(unit_data))
+    print_max_enemy_hero_count()
