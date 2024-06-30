@@ -905,7 +905,7 @@ def make_map_events():
     with open('include/mapevents.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         for map_id in sorted(map_configs.keys()):
-            file.write('extern const struct ChapterEventInfo ChapterEventInfo_%s[];\n' % map_id)
+            file.write('extern const struct ChapterEventInfo ChapterEventInfo_%s;\n' % map_id)
     with open('source/mapevents.c', 'w', encoding='utf-8') as file:
         file.write('''
 #include "unit.h"
@@ -917,7 +917,7 @@ def make_map_events():
 
 ''')
         for map_id in sorted(map_configs.keys()):
-            file.write('const struct ChapterEventInfo ChapterEventInfo_%s[] = {\n' % map_id)
+            file.write('const struct ChapterEventInfo ChapterEventInfo_%s = {\n' % map_id)
             file.write('    .event_list_turn = EventListScr_%s_Turn,\n' % map_id)
             file.write('    .event_list_talk = DummyEvent,\n')
             file.write('    .event_list_tile = DummyEvent,\n')
