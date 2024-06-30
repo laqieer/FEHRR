@@ -843,10 +843,11 @@ def make_red_units():
                         red_unit_items = 'IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW'
                         if unit_data[unit['id_tag']]['tome_class'] > 0:
                             red_unit_items = 'IID_FIRE, IID_LIGHTNING, IID_FLUX, IID_HEALSTAFF'
-                        if red_unit_job == 'JID_MANAKETE_F':
-                            red_unit_items = 'IID_DIVINESTONE, 0, 0, 0'
-                        if red_unit_job == 'JID_MANAKETE':
-                            red_unit_items = 'IID_FIRESTONE, 0, 0, 0'
+                        if weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag'].endswith('竜') or weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag'].endswith('獣'):
+                            if move_type[unit_data[unit['id_tag']]['move_type']]['id_tag'] in ('MVID_騎馬', 'MVID_飛行'):
+                                red_unit_items = 'IID_DIVINESTONE, 0, 0, 0'
+                            else:
+                                red_unit_items = 'IID_FIRESTONE, 0, 0, 0'
                         file.write('    { %s, %s, 0, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, red_unit_lv, x, y, x, y, red_unit_items))
                     file.write('    { 0 }, // end\n')
                     file.write('};\n\n')
