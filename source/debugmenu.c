@@ -30,6 +30,7 @@
 #include "chapterNew.h"
 #include "chapters.h"
 #include "saveNew.h"
+#include "menuNew.h"
 
 enum
 {
@@ -46,10 +47,11 @@ enum
 
 fu8 MapDebugMenu_Map_Select(struct MenuProc * menu, struct MenuEntProc * ent)
 {
+    struct MapDebugMenuEntProc * mapEnt = (struct MapDebugMenuEntProc *)ent;
+
     EndMapMain();
 
-    //FIXME: expand ent->id
-    SetChapterInPlaySt(&gPlayStNew, ent->id);
+    SetChapterInPlaySt(&gPlayStNew, mapEnt->mapId);
     CleanupUnitsBeforeChapter();
     RestartGameAndChapter();
 
@@ -85,22 +87,24 @@ fu8 MapMenu_DebugMonitor_Available(struct MenuEntInfo const * info, int id)
 
 fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
 {
+    struct MapDebugMenuEntProc * mapEnt = (struct MapDebugMenuEntProc *)ent;
+
     if (gKeySt->repeated & KEY_DPAD_RIGHT)
-        ent->id++;
+        mapEnt->mapId++;
 
     if (gKeySt->repeated & KEY_DPAD_LEFT)
-        ent->id--;
+        mapEnt->mapId--;
 
-    if (ent->id >= CHAPTER_CH_COUNT)
-        ent->id = CHAPTER_CH_COUNT - 1;
+    if (mapEnt->mapId >= CHAPTER_CH_COUNT)
+        mapEnt->mapId = CHAPTER_CH_COUNT - 1;
 
-    if (ent->id < 1)
-        ent->id = 1;
+    if (mapEnt->mapId < 1)
+        mapEnt->mapId = 1;
 
     if (gKeySt->repeated & (KEY_DPAD_LEFT | KEY_DPAD_RIGHT))
     {
         DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), "        ");
-        DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), GetChapterInfo(ent->id)->debug_name);
+        DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), GetChapterInfo(mapEnt->mapId)->debug_name);
 
         EnableBgSync(BG0_SYNC_BIT);
     }
