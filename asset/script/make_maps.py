@@ -346,7 +346,7 @@ wall_positions_columns = {
 }
 
 def get_wall_position(wall):
-    if wall['hp'] == 0:
+    if wall['hp'] == '0':
         if wall['type'].lower() in ('a', 'debris a') or (wall['type'].lower() == 'debris' and wall['debrisType'].lower() == 'a'):
             return wall_positions[16][0]
         if wall['type'].lower() in ('b', 'debris b') or (wall['type'].lower() == 'debris' and wall['debrisType'].lower() == 'b'):
@@ -445,7 +445,7 @@ def make_map_terrains():
                 terrains[2 * (7 - change['y'])][2 * (change['x'] + 6) + 1] = base_terrain_id
                 terrains[2 * (7 - change['y']) + 1][2 * (change['x'] + 6)] = base_terrain_id
                 terrains[2 * (7 - change['y']) + 1][2 * (change['x'] + 6) + 1] = base_terrain_id
-                if change['hp'] == 1:
+                if change['hp'] == '1':
                     if change['type'] in ('W', 'E', 'Pillar'):
                         terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
                         terrains[2 * (7 - change['y'])][2 * change['x'] + 1] = base_terrain_id
@@ -484,7 +484,7 @@ def make_map_changes():
                 for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
                     x0 = 2 * (change['x'] + 6)
                     y0 = 2 * (7 - change['y'])
-                    file.write('    4 * %d, 4 * %d, 4 * %d, 4 * %d, // %d\n' % (y0 * 16 + x0, y0 * 16 + x0 + 1, (y0 + 1) * 16 + x0, (y0 + 1) * 16 + x0 + 1, i))
+                    file.write('    4 * %d, 4 * %d, 4 * %d, 4 * %d, // %d\n' % (y0 * 32 + x0, y0 * 32 + x0 + 1, (y0 + 1) * 32 + x0, (y0 + 1) * 32 + x0 + 1, i))
                 file.write('};\n\n')
                 file.write('const struct MapChangeInfo %sMapChanges[] = {\n' % map_id)
                 for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
@@ -943,6 +943,7 @@ if __name__ == '__main__':
     # decrease_map_colors()
     make_map_terrains()
     # make_map_tilesets()
+    make_map_changes()
     # make_common_map()
     # make_chapter_goals()
     make_chapters()
