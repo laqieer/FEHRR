@@ -114,7 +114,7 @@ void UnpackRawMapNew(void * buf, int chapter)
         sTilesetInfo[2] = 0;
         sTilesetInfo[3] = 0;
         // map tiles start from 2nd metatile
-        Decompress(ChapterMapTerrains[chapter - CHAPTER_CH_NEW], &sTilesetInfo[4]);
+        Decompress(ChapterMapTilesets[chapter - CHAPTER_CH_NEW], &sTilesetInfo[4]);
     }
     else{
         Decompress(IsChapterNew(chapter) ? ChapterMapTilesets[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfo(chapter)->asset_tileset], sTilesetInfo);
