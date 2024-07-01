@@ -19,7 +19,7 @@
 },
 
 [EID_ENEMY_HERO_2 - 1] = {
-    .id = EID_ENEMY_HERO_1,
+    .id = EID_ENEMY_HERO_2,
     .jid_default = JID_ENEMY_GENERIC,
     .msg_name = MEID_ENEMY_HERO_2,
     .msg_desc = MEID_H_ENEMY_HERO_2,
@@ -29,7 +29,7 @@
 },
 
 [EID_ENEMY_HERO_3 - 1] = {
-    .id = EID_ENEMY_HERO_1,
+    .id = EID_ENEMY_HERO_3,
     .jid_default = JID_ENEMY_GENERIC,
     .msg_name = MEID_ENEMY_HERO_3,
     .msg_desc = MEID_H_ENEMY_HERO_3,
@@ -39,7 +39,7 @@
 },
 
 [EID_ENEMY_HERO_4 - 1] = {
-    .id = EID_ENEMY_HERO_1,
+    .id = EID_ENEMY_HERO_4,
     .jid_default = JID_ENEMY_GENERIC,
     .msg_name = MEID_ENEMY_HERO_4,
     .msg_desc = MEID_H_ENEMY_HERO_4,
@@ -49,7 +49,7 @@
 },
 
 [EID_ENEMY_HERO_5 - 1] = {
-    .id = EID_ENEMY_HERO_1,
+    .id = EID_ENEMY_HERO_5,
     .jid_default = JID_ENEMY_GENERIC,
     .msg_name = MEID_ENEMY_HERO_5,
     .msg_desc = MEID_H_ENEMY_HERO_5,
@@ -59,7 +59,7 @@
 },
 
 [EID_ENEMY_HERO_6 - 1] = {
-    .id = EID_ENEMY_HERO_1,
+    .id = EID_ENEMY_HERO_6,
     .jid_default = JID_ENEMY_GENERIC,
     .msg_name = MEID_ENEMY_HERO_6,
     .msg_desc = MEID_H_ENEMY_HERO_6,
@@ -69,7 +69,7 @@
 },
 
 [EID_ENEMY_HERO_7 - 1] = {
-    .id = EID_ENEMY_HERO_1,
+    .id = EID_ENEMY_HERO_7,
     .jid_default = JID_ENEMY_GENERIC,
     .msg_name = MEID_ENEMY_HERO_7,
     .msg_desc = MEID_H_ENEMY_HERO_7,
