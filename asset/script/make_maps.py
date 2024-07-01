@@ -427,31 +427,32 @@ def make_map_tsa():
 
 def make_map_terrains():
     for map_id, config in map_configs.items():
-        terrains = numpy.zeros((16, 16, 2, 2), dtype=numpy.uint8)
+        terrains = numpy.zeros((32, 32), dtype=numpy.uint8)
         for y in range(8):
             for x in range(6):
                 terrain = config['field']['terrain'][7 - y][x]
                 terrain_id = terrain_configs[terrain]['terrain_id']
-                for y0 in range(2):
-                    for x0 in range(2):
-                        terrains[y][x][y0][x0] = terrain_id
-                        terrains[y][x + 6][y0][x0] = terrain_id
+                terrains[2 * y][2 * x] = terrain_id
+                terrains[2 * y][2 * x + 1] = terrain_id
+                terrains[2 * y + 1][2 * x] = terrain_id
+                terrains[2 * y + 1][2 * x + 1] = terrain_id
         for change in config['field']['changes'].values():
             terrain = config['field']['terrain'][change['y']][change['x']]
             if is_breakable(terrain):
                 base_terrain = terrain_configs[terrain]['base_terrain']
                 base_terrain_id = terrain_configs[base_terrain]['terrain_id']
-                for y0 in range(2):
-                    for x0 in range(2):
-                        terrains[7 - change['y']][change['x'] + 6][y0][x0] = base_terrain_id
+                terrains[2 * (7 - change['y'])][2 * (change['x'] + 6)] = base_terrain_id
+                terrains[2 * (7 - change['y'])][2 * (change['x'] + 6) + 1] = base_terrain_id
+                terrains[2 * (7 - change['y']) + 1][2 * (change['x'] + 6)] = base_terrain_id
+                terrains[2 * (7 - change['y']) + 1][2 * (change['x'] + 6) + 1] = base_terrain_id
                 if change['hp'] == 1:
                     if change['type'] in ('W', 'E', 'Pillar'):
-                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
-                        terrains[7 - change['y']][change['x']][0][1] = base_terrain_id
+                        terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
+                        terrains[2 * (7 - change['y'])][2 * change['x'] + 1] = base_terrain_id
                     if change['type'] == 'N': # right bottom
-                        terrains[7 - change['y']][change['x']][1][1] = base_terrain_id
+                        terrains[2 * (7 - change['y']) + 1][2 * change['x'] + 1] = base_terrain_id
                     if change['type'] == 'S': # left top
-                        terrains[7 - change['y']][change['x']][0][0] = base_terrain_id
+                        terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
         map_terrain_uncompressed_path = os.path.join(map_terrain_uncompressed_save_path, map_id + 'T.bin')
         with open(map_terrain_uncompressed_path, 'wb') as file:
             file.write(terrains.tobytes())
@@ -940,6 +941,7 @@ if __name__ == '__main__':
     # print_map_anims()
     # make_map_images()
     # decrease_map_colors()
+    make_map_terrains()
     # make_map_tilesets()
     # make_common_map()
     # make_chapter_goals()
