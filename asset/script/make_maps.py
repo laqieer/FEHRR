@@ -455,6 +455,7 @@ def make_map_terrains():
                         terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
         map_terrain_uncompressed_path = os.path.join(map_terrain_uncompressed_save_path, map_id + 'T.bin')
         with open(map_terrain_uncompressed_path, 'wb') as file:
+            file.write(b'\x00')
             file.write(terrains.tobytes()[:-1])
         map_terrain_compressed_path = os.path.join(map_terrain_compressed_save_path, map_id + 'T.bin')
         os.system('gbalzss e %s %s' % (map_terrain_uncompressed_path, map_terrain_compressed_path))
