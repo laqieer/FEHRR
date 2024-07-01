@@ -15,6 +15,7 @@
 
 #include "constants/videoalloc_global.h"
 #include "constants/chapters.h"
+#include "chapters.h"
 #include "constants/terrains.h"
 
 enum { MAP_POOL_SIZE = 0x7B8 };
@@ -105,7 +106,19 @@ void UnpackRawMapNew(void * buf, int chapter)
     gMapSize.y = ((u8 *) buf)[1];
 
     // Decompress tileset info
-    Decompress(IsChapterNew(chapter) ? ChapterMapTilesets[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfo(chapter)->asset_tileset], sTilesetInfo);
+    if(IsChapterNew(chapter) && chapter != CHAPTER_CH_S0000)
+    {
+        // preserve 1st metatile for subtitlehelp text background
+        sTilesetInfo[0] = 0;
+        sTilesetInfo[1] = 0;
+        sTilesetInfo[2] = 0;
+        sTilesetInfo[3] = 0;
+        // map tiles start from 2nd metatile
+        Decompress(ChapterMapTerrains[chapter - CHAPTER_CH_NEW], &sTilesetInfo[4]);
+    }
+    else{
+        Decompress(IsChapterNew(chapter) ? ChapterMapTilesets[chapter - CHAPTER_CH_NEW] : ChapterAssets[GetChapterInfo(chapter)->asset_tileset], sTilesetInfo);
+    }
 
     // Decompress terrain info
     if(IsChapterNew(chapter) && ChapterMapTerrains[chapter - CHAPTER_CH_NEW])
@@ -160,4 +173,22 @@ void ApplyChapterMapPalettesNew(void)
 void ApplyChapterMapPalettesOld(void)
 {
     ApplyChapterMapPalettesNew();
+}
+
+void ClearFirstMapMetaTileNew(void)
+{
+    u16 const * tile = sTilesetInfo;
+
+    SetBlankChr(BGCHR_TILESET_A + (*tile++ & 0x3FF));
+    SetBlankChr(BGCHR_TILESET_A + (*tile++ & 0x3FF));
+    SetBlankChr(BGCHR_TILESET_A + (*tile++ & 0x3FF));
+    SetBlankChr(BGCHR_TILESET_A + (*tile++ & 0x3FF));
+
+    // set backdrop color to black
+    SetBackdropColor(RGB(0, 0, 0));
+}
+
+void ClearFirstMapMetaTileOld(void)
+{
+    ClearFirstMapMetaTileNew();
 }

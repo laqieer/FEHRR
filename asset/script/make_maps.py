@@ -455,7 +455,7 @@ def make_map_terrains():
                         terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
         map_terrain_uncompressed_path = os.path.join(map_terrain_uncompressed_save_path, map_id + 'T.bin')
         with open(map_terrain_uncompressed_path, 'wb') as file:
-            file.write(terrains.tobytes())
+            file.write(terrains.tobytes()[:-1])
         map_terrain_compressed_path = os.path.join(map_terrain_compressed_save_path, map_id + 'T.bin')
         os.system('gbalzss e %s %s' % (map_terrain_uncompressed_path, map_terrain_compressed_path))
 
@@ -484,7 +484,7 @@ def make_map_changes():
                 for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
                     x0 = 2 * (change['x'] + 6)
                     y0 = 2 * (7 - change['y'])
-                    file.write('    4 * %d, 4 * %d, 4 * %d, 4 * %d, // %d\n' % (y0 * 32 + x0, y0 * 32 + x0 + 1, (y0 + 1) * 32 + x0, (y0 + 1) * 32 + x0 + 1, i))
+                    file.write('    4 * %d, 4 * %d, 4 * %d, 4 * %d, // %d\n' % (y0 * 32 + x0 + 1, y0 * 32 + x0 + 1 + 1, (y0 + 1) * 32 + x0 + 1, (y0 + 1) * 32 + x0 + 1 + 1, i))
                 file.write('};\n\n')
                 file.write('const struct MapChangeInfo %sMapChanges[] = {\n' % map_id)
                 for i, change in enumerate(sorted(config['field']['changes'].values(), key=lambda x: x['x'] + (7 - x['y']) * 12)):
@@ -517,8 +517,8 @@ const u16 NewChapterMap[] = {
         for y in range(16):
             file.write('   ')
             for x in range(12):
-                file.write(' %d,' % (4 * (y * 32 + x)))
-            file.write(' 4 * 24, 4 * 24, 4 * 24,\n')
+                file.write(' %d,' % (4 * (y * 32 + x + 1)))
+            file.write(' 4 * 25, 4 * 25, 4 * 25,\n')
         file.write('};\n')
 
 def make_chapters():
@@ -944,7 +944,7 @@ if __name__ == '__main__':
     make_map_terrains()
     # make_map_tilesets()
     make_map_changes()
-    # make_common_map()
+    make_common_map()
     # make_chapter_goals()
     make_chapters()
     # print_max_enemy_unit_count()

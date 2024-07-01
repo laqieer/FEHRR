@@ -8,3 +8,5 @@
 .text.ApplyChapterMapGraphicsOld : {*(.text.ApplyChapterMapGraphicsOld)}
 . = ApplyChapterMapPalettes - 1;
 .text.ApplyChapterMapPalettesOld : {*(.text.ApplyChapterMapPalettesOld)}
+. = ClearFirstMapMetaTile - 1;
+.text.ClearFirstMapMetaTileOld : {*(.text.ClearFirstMapMetaTileOld)}

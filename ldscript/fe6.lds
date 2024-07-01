@@ -25,3 +25,5 @@ DebugChapterMapGraphic = 0x082478F0;
 DebugChapterMapTileset = 0x0823956C;
 DebugChapterMapPalette = 0x0823C980;
 DebugChapterMapGraphicAnimation = 0x085C788C;
+
+ClearFirstMapMetaTile = func_fe6_080192E4;
