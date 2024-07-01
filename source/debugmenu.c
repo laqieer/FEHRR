@@ -13,6 +13,7 @@
 #include "bmfx.h"
 #include "bmio.h"
 #include "chapter.h"
+#include "chapters.h"
 #include "chapterinfo.h"
 #include "menuinfo.h"
 #include "ui.h"
@@ -90,8 +91,8 @@ fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
     if (gKeySt->repeated & KEY_DPAD_LEFT)
         ent->id--;
 
-    if (ent->id > CHAPTER_CH_LAST)
-        ent->id = CHAPTER_CH_LAST;
+    if (ent->id >= CHAPTER_CH_COUNT)
+        ent->id = CHAPTER_CH_COUNT - 1;
 
     if (ent->id < 1)
         ent->id = 1;
