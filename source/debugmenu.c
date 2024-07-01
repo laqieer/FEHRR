@@ -13,7 +13,6 @@
 #include "bmfx.h"
 #include "bmio.h"
 #include "chapter.h"
-#include "chapters.h"
 #include "chapterinfo.h"
 #include "menuinfo.h"
 #include "ui.h"
@@ -29,6 +28,7 @@
 #include "constants/faces.h"
 
 #include "chapterNew.h"
+#include "chapters.h"
 #include "saveNew.h"
 
 enum
