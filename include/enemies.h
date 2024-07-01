@@ -28,6 +28,8 @@
 #define MEID_ENEMY_HERO_7 MEID_ENEMY_GENERIC + 13
 #define MEID_H_ENEMY_HERO_7 MEID_ENEMY_GENERIC + 14
 
+extern const u16 ChapterEnemyHeroNames[][14];
+
 #define FID_ENEMY_HERO_1 FID_LAST + 1
 #define FID_ENEMY_HERO_2 FID_LAST + 2
 #define FID_ENEMY_HERO_3 FID_LAST + 3
@@ -35,3 +37,5 @@
 #define FID_ENEMY_HERO_5 FID_LAST + 5
 #define FID_ENEMY_HERO_6 FID_LAST + 6
 #define FID_ENEMY_HERO_7 FID_LAST + 7
+
+extern const u16 ChapterEnemyHeroFaces[][7];

@@ -12,6 +12,7 @@
 #include "sprite.h"
 #include "util.h"
 #include "bm.h"
+#include "bmNew.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/faces.h"
@@ -22,6 +23,9 @@
 #include "debugtext.h"
 #include "debugtextNew.h"
 #include "utilNew.h"
+#include "enemies.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
 
 #include "log.h"
 
@@ -68,6 +72,12 @@ struct FaceInfo const * GetFaceInfo(int fid);
 struct FaceInfoNew const * GetFaceInfoNew(int fid)
 {
     Assert(IsNewFace(fid));
+    if(fid > FID_LAST)
+    {
+        int chapter = GetChapterInPlaySt(&gPlayStNew);
+        Assert(IsChapterNew(chapter));
+        fid = ChapterEnemyHeroFaces[chapter - CHAPTER_CH_NEW][fid - FID_LAST - 1];
+    }
     return &newFaces[fid - FID_NEW];
 }
 

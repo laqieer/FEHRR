@@ -55,7 +55,7 @@ def load_unit_data():
                 with open(path, 'r', encoding='utf-8') as f:
                     units = json.load(f)
                     for unit in units:
-                        unit['id_tag'] = unit['id_tag'].replace('―', '')
+                        unit['id_tag'] = unit['id_tag'].replace('―', '_')
                         if unit['id_tag'].endswith('味方'):
                             unit['id_tag'] = 'E' + unit['id_tag'][1:-2]
                         unit_data[unit['id_tag']] = unit
@@ -801,7 +801,27 @@ def make_red_units():
     with open('include/redunits.h', 'w', encoding='utf-8') as file, open(
         'include/redunitdefs.h', 'w', encoding='utf-8') as file_defs,open(
             'source/eventscripts.c', 'w', encoding='utf-8') as file_scripts, open(
-                'include/eventscripts.h', 'w', encoding='utf-8') as file_scripts_defs:
+                'include/eventscripts.h', 'w', encoding='utf-8') as file_scripts_defs, open(
+                    'source/enemy_hero_faces.c', 'w', encoding='utf-8') as file_faces, open(
+                        'source/enemy_hero_names.c', 'w', encoding='utf-8') as file_names:
+        file_faces.write('''
+#include "prelude.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
+#include "chapters.h"
+#include "facesNew.h"
+
+const u16 ChapterEnemyHeroFaces[][7] = {
+''')
+        file_names.write('''
+#include "prelude.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
+#include "chapters.h"
+#include "texts.h"
+
+const u16 ChapterEnemyHeroNames[][14] = {
+''')
         file.write('#pragma once\n\n')
         file_defs.write('#pragma once\n\n')
         file_scripts_defs.write('#pragma once\n\n')
@@ -836,7 +856,7 @@ def make_red_units():
             red_units_by_turn_and_count = {}
             loaded_red_heroes = []
             for unit in map_configs[map_id]['units']:
-                unit['id_tag'] = unit['id_tag'].replace('―', '')
+                unit['id_tag'] = unit['id_tag'].replace('―', '_')
                 if unit['id_tag'].endswith('味方'):
                     unit['id_tag'] = 'E' + unit['id_tag'][1:-2]
                 if unit['spawn_turns'] not in red_units_by_turn_and_count:
@@ -903,6 +923,17 @@ def make_red_units():
                         file_scripts.write('    EvtListTurn(0, EventScr_LoadUnits_%s, %d, %d, FACTION_RED)\n' % (red_units_label, turn + 1, (turn + count) if count > 1 else 0))
             file_scripts.write('    EvtListEnd\n')
             file_scripts.write('};\n\n')
+            # enemy hero faces and names
+            if len(loaded_red_heroes) > 0:
+                file_faces.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
+                file_names.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
+                for i, hero_id in enumerate(loaded_red_heroes):
+                    file_faces.write('        FID_%s, // %d: %s\n' % (unit_data[hero_id]['face_name'], i + 1, hero_id))
+                    file_names.write('        M%s, M%s, // %d\n' % (hero_id, hero_id.replace('ID_', 'ID_H_'), i + 1))
+                file_faces.write('    },\n')
+                file_names.write('    },\n')
+        file_faces.write('};\n')
+        file_names.write('};\n')
 
 def make_map_events():
     with open('include/mapevents.h', 'w', encoding='utf-8') as file:
@@ -942,12 +973,11 @@ if __name__ == '__main__':
     # print_map_anims()
     # make_map_images()
     # decrease_map_colors()
-    make_map_terrains()
     # make_map_tilesets()
-    make_map_changes()
-    make_common_map()
+    # make_map_changes()
+    # make_common_map()
     # make_chapter_goals()
-    make_chapters()
+    # make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))

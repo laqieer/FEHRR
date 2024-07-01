@@ -410,7 +410,7 @@
 #define JID_レックス JID_CAVALIER // MVID_騎馬 WID_斧
 #define JID_ディートバ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
 #define JID_伝承クロード JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_ドゥドゥ JID_ARMOR // MVID_重装 WID_斧
+#define JID_ドゥドゥ_ JID_ARMOR // MVID_重装 WID_斧
 #define JID_リンハルト JID_PRIEST // MVID_歩行 WID_杖
 #define JID_イングリット JID_CAVALIER // MVID_騎馬 WID_槍
 #define JID_マリアンヌ JID_MAGE // MVID_歩行 WID_青魔

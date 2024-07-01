@@ -10,6 +10,10 @@
 #include "text.h"
 #include "textNew.h"
 #include "textTest.h"
+#include "enemies.h"
+#include "bmNew.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
 
 extern const char * const gMsgTable[];
 extern const char * const gMsgTableNew[][LANGUAGE_NUM];
@@ -21,6 +25,12 @@ char const * GetMsg(int id)
 {
     if (id < 0 || id > 0x1000000) {
         Debugf("Get raw message at 0x%x: %s", id, (char const *)id);
+    }
+    if (id >= MEID_ENEMY_HERO_1 && id <= MEID_H_ENEMY_HERO_7)
+    {
+        int chapter = GetChapterInPlaySt(&gPlayStNew);
+        Assert(IsChapterNew(chapter));
+        id = ChapterEnemyHeroNames[chapter - CHAPTER_CH_NEW][id - MEID_ENEMY_HERO_1];
     }
     return (id < 0 || id > 0x1000000) ? (char const *)id : gMsgTableNew[id][GetLangNew()];
 }
