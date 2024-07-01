@@ -1,12 +1,12 @@
+#include "constants/chapters.h"
 #include "chapterinfo.h"
 #include "chapterNew.h"
+#include "chapters.h"
 
 #include "hardware.h"
 #include "msg.h"
 #include "save_xmap.h"
 #include "gbasram.h"
-
-#include "constants/chapters.h"
 
 bool IsChapterNew(int chapter)
 {
@@ -29,7 +29,7 @@ struct ChapterInfo const * GetChapterInfoOld(int chapter)
 u8 const * GetChapterMapNew(int chapter)
 {
     if (chapter != CHAPTER_CH_NULL)
-        return IsChapterNew(chapter) ? ChapterMaps[(chapter - CHAPTER_CH_NEW) & 1] : ChapterAssets[GetChapterInfoNew(chapter)->asset_map];
+        return IsChapterNew(chapter) ? (chapter == CHAPTER_CH_S0000 ? ChapterMaps[CHAPTER_CH_S0000 - CHAPTER_CH_NEW] : ChapterMaps[CHAPTER_CH_S0001 - CHAPTER_CH_NEW]) : ChapterAssets[GetChapterInfoNew(chapter)->asset_map];
 
     ReadSramFast(GetExtraMapMapReadAddr(), gBuf, GetExtraMapMapSize());
     return gBuf;
