@@ -57,7 +57,6 @@ void Talk_OnIdle(ProcPtr proc);
 i8 TalkPrepNextChar(ProcPtr proc);
 i8 TalkSpritePrepNextChar(ProcPtr proc);
 void LockTalk(ProcPtr proc);
-int TalkInterpret(ProcPtr proc);
 void TalkInterpretNewFace(ProcPtr proc);
 int GetFaceIdByX(int x);
 void SetTalkFaceLayer(int talk_face, int toBack);
@@ -277,7 +276,7 @@ int TalkInterpretNew(ProcPtr proc)
         sTalkSt->str = sTalkSt->str_back;
         sTalkSt->str_back = NULL;
 
-        return TalkInterpret(proc);
+        return TalkInterpretNew(proc);
 
     case 0x01: // newline
         int fid = ((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face])->fid;
@@ -471,7 +470,7 @@ int TalkInterpretNew(ProcPtr proc)
             sTalkSt->str_back = sTalkSt->str;
             sTalkSt->str = sTalkSt->buf_number_str;
 
-            return TalkInterpret(proc);
+            return TalkInterpretNew(proc);
 
         case 6:
             sTalkSt->str++;
@@ -479,7 +478,7 @@ int TalkInterpretNew(ProcPtr proc)
             sTalkSt->str_back = sTalkSt->str;
             sTalkSt->str = sTalkSt->buf_unk_str;
 
-            return TalkInterpret(proc);
+            return TalkInterpretNew(proc);
 
         case 8:
             sTalkSt->str++;
