@@ -14,3 +14,5 @@
 .rodata.ProcScr_Unk_08677FD0New : {*(.rodata.ProcScr_Unk_08677FD0New)}
 . = gUnk_08677FF8;
 .rodata.gUnk_08677FF8New : {*(.rodata.gUnk_08677FF8New)}
+. = func_fe6_08071514 - 1;
+.text.func_fe6_08071514Old : {*(.text.func_fe6_08071514Old)}

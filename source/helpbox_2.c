@@ -742,3 +742,22 @@ struct ProcScr const gUnk_08677FF8New[] =
     PROC_CALL(func_fe6_08071410New),
     PROC_END,
 };
+
+void func_fe6_08071514New(void)
+{
+    SetTextFont(&gUnk_0203D40C.font);
+
+    SpriteText_DrawBackgroundWide(&gUnk_0203D40C.text[0]);
+    SpriteText_DrawBackgroundWide(&gUnk_0203D40C.text[1]);
+    SpriteText_DrawBackgroundWide(&gUnk_0203D40C.text[2]);
+
+    Proc_EndEach(ProcScr_Unk_08677FD0);
+    Proc_EndEach(gUnk_08677FF8);
+
+    SetTextFont(NULL);
+}
+
+void func_fe6_08071514Old(void)
+{
+    func_fe6_08071514New();
+}

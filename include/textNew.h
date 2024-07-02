@@ -2,6 +2,8 @@
 
 #include <gba_types.h>
 
+#include "text.h"
+
 enum
 {
     LANGUAGE_JAPANESE,
@@ -32,6 +34,8 @@ void PrintTalkGlyphs();
 
 int GetStringLines(char const * str);
 char const * MoveToLine(char const * str, int line);
+
+void SpriteText_DrawBackgroundWide(struct Text * text);
 
 #define MSG_CHAR_END '\0'
 #define MSG_CHAR_NEWLINE '\1'
