@@ -34,3 +34,4 @@ INCLUDE ../ldscript/banim.lds
 INCLUDE ../ldscript/banim_sprite.lds
 INCLUDE ../ldscript/optionmenu.lds
 INCLUDE ../ldscript/savescreen.lds
+INCLUDE ../ldscript/util.lds
