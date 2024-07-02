@@ -304,16 +304,19 @@ def load_map_from_wiki(map_id):
     map_configs[map_id]['field']['changes'] = {}
     with open(os.path.join(wiki_config_save_path, map_id + '.txt'), 'r', encoding='utf-8') as file:
         text = file.read()
-        text = text.replace('#invoke:MapLayout|', '')
-        pattern = '\| ([a-f][1-8])=\{\{Wall\|([^}]*)}}'
-        for match in re.finditer(pattern, text):
-            map_configs[map_id]['field']['changes'][match.group(1)] = {}
-            map_configs[map_id]['field']['changes'][match.group(1)]['x'] = ord(match.group(1)[0]) - ord('a')
-            map_configs[map_id]['field']['changes'][match.group(1)]['y'] = int(match.group(1)[1]) - 1
-            args = match.group(2).split('|')
-            for arg in args:
-                k, v = arg.split('=')
-                map_configs[map_id]['field']['changes'][match.group(1)][k] = v
+        text = text.replace('#invoke:MapLayout|', '').replace('Box|', 'Wall|').replace(' ', '')
+        pattern = '\|([a-f][1-8])=\{\{Wall\|([^}]*)}}'
+        for match in re.finditer(pattern, text, re.IGNORECASE):
+            if match.group(1) not in map_configs[map_id]['field']['changes']:
+                map_configs[map_id]['field']['changes'][match.group(1)] = {}
+                map_configs[map_id]['field']['changes'][match.group(1)]['x'] = ord(match.group(1)[0]) - ord('a')
+                map_configs[map_id]['field']['changes'][match.group(1)]['y'] = int(match.group(1)[1]) - 1
+                args = match.group(2).split('|')
+                for arg in args:
+                    k, v = arg.split('=')
+                    map_configs[map_id]['field']['changes'][match.group(1)][k] = v
+                if 'type' not in map_configs[map_id]['field']['changes'][match.group(1)] and 'debrisType' in map_configs[map_id]['field']['changes'][match.group(1)]:
+                    map_configs[map_id]['field']['changes'][match.group(1)]['type'] = 'Debris'
 
 # Reference: https://feheroes.fandom.com/wiki/Module:MapLayout
 
@@ -387,13 +390,14 @@ def make_map_images():
         # resize image to 192 x 256
         image_base = image_base.resize((192, 256))
         image_map.paste(image_base, (0, 0), image_base)
-        # breakable_walls = []
-        # terrains = config['field']['terrain']
-        # for y in range(len(terrains)):
-        #     for x in range(len(terrains[y])):
-        #         terrain_id = terrains[y][x]
-        #         if is_breakable(terrain_id):
-        #             breakable_walls.append((x, y))
+        breakable_walls = []
+        terrains = config['field']['terrain']
+        for y in range(len(terrains)):
+            for x in range(len(terrains[y])):
+                terrain_id = terrains[y][x]
+                if is_breakable(terrain_id):
+                    breakable_walls.append((x, y))
+        assert set(breakable_walls) == set([(c['x'], c['y']) for c in config['field']['changes'].values() if c['hp'] in ('1', '2')])
         if len(config['field']['changes']) > 0:
             image_map_new = Image.new('RGBA', (192 * 2, 256), (0, 0, 0, 0))
             image_map_new.paste(image_map, (0, 0))
@@ -971,13 +975,13 @@ if __name__ == '__main__':
     # print_terrain_1st_appearance()
     # print_terrain_by_groups()
     # print_map_anims()
-    # make_map_images()
-    # decrease_map_colors()
-    # make_map_tilesets()
-    # make_map_changes()
-    # make_common_map()
-    # make_chapter_goals()
-    # make_chapters()
+    make_map_images()
+    decrease_map_colors()
+    make_map_tilesets()
+    make_map_changes()
+    make_common_map()
+    make_chapter_goals()
+    make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))

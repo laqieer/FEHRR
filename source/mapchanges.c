@@ -1836,6 +1836,42 @@ const struct MapChangeInfo S1105MapChanges[] = {
     },
 };
 
+const u16 S1202MapChangedTiles[] = {
+    4 * 211, 4 * 212, 4 * 243, 4 * 244, // 0
+    4 * 337, 4 * 338, 4 * 369, 4 * 370, // 1
+    4 * 407, 4 * 408, 4 * 439, 4 * 440, // 2
+};
+
+const struct MapChangeInfo S1202MapChanges[] = {
+    {
+        .id = 0,
+        .x = 6,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S1202MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 4,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S1202MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 10,
+        .y = 12,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S1202MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = -1,
+    },
+};
+
 const u16 S1205MapChangedTiles[] = {
     4 * 79, 4 * 80, 4 * 111, 4 * 112, // 0
     4 * 85, 4 * 86, 4 * 117, 4 * 118, // 1
@@ -2206,12 +2242,12 @@ const struct MapChangeInfo S1305MapChanges[] = {
 };
 
 const u16 S1601MapChangedTiles[] = {
-    4 * 207, 4 * 208, 4 * 239, 4 * 240, // 0
-    4 * 213, 4 * 214, 4 * 245, 4 * 246, // 1
-    4 * 275, 4 * 276, 4 * 307, 4 * 308, // 2
+    4 * 143, 4 * 144, 4 * 175, 4 * 176, // 0
+    4 * 149, 4 * 150, 4 * 181, 4 * 182, // 1
+    4 * 211, 4 * 212, 4 * 243, 4 * 244, // 2
     4 * 279, 4 * 280, 4 * 311, 4 * 312, // 3
     4 * 333, 4 * 334, 4 * 365, 4 * 366, // 4
-    4 * 401, 4 * 402, 4 * 433, 4 * 434, // 5
+    4 * 337, 4 * 338, 4 * 369, 4 * 370, // 5
     4 * 407, 4 * 408, 4 * 439, 4 * 440, // 6
 };
 
@@ -2219,7 +2255,7 @@ const struct MapChangeInfo S1601MapChanges[] = {
     {
         .id = 0,
         .x = 2,
-        .y = 6,
+        .y = 4,
         .width = 2,
         .height = 2,
         .metatiles = &S1601MapChangedTiles[2 * 2 * 0],
@@ -2227,7 +2263,7 @@ const struct MapChangeInfo S1601MapChanges[] = {
     {
         .id = 1,
         .x = 8,
-        .y = 6,
+        .y = 4,
         .width = 2,
         .height = 2,
         .metatiles = &S1601MapChangedTiles[2 * 2 * 1],
@@ -2235,7 +2271,7 @@ const struct MapChangeInfo S1601MapChanges[] = {
     {
         .id = 2,
         .x = 6,
-        .y = 8,
+        .y = 6,
         .width = 2,
         .height = 2,
         .metatiles = &S1601MapChangedTiles[2 * 2 * 2],
@@ -2259,7 +2295,7 @@ const struct MapChangeInfo S1601MapChanges[] = {
     {
         .id = 5,
         .x = 4,
-        .y = 12,
+        .y = 10,
         .width = 2,
         .height = 2,
         .metatiles = &S1601MapChangedTiles[2 * 2 * 5],
@@ -2379,6 +2415,24 @@ const struct MapChangeInfo S2023MapChanges[] = {
         .width = 2,
         .height = 2,
         .metatiles = &S2023MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S2024MapChangedTiles[] = {
+    4 * 215, 4 * 216, 4 * 247, 4 * 248, // 0
+};
+
+const struct MapChangeInfo S2024MapChanges[] = {
+    {
+        .id = 0,
+        .x = 10,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2024MapChangedTiles[2 * 2 * 0],
     },
     {
         .id = -1,
@@ -2547,10 +2601,155 @@ const struct MapChangeInfo S2045MapChanges[] = {
     },
 };
 
+const u16 S2051MapChangedTiles[] = {
+    4 * 215, 4 * 216, 4 * 247, 4 * 248, // 0
+    4 * 271, 4 * 272, 4 * 303, 4 * 304, // 1
+    4 * 339, 4 * 340, 4 * 371, 4 * 372, // 2
+    4 * 397, 4 * 398, 4 * 429, 4 * 430, // 3
+};
+
+const struct MapChangeInfo S2051MapChanges[] = {
+    {
+        .id = 0,
+        .x = 10,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2051MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 2,
+        .y = 8,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2051MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 6,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2051MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 0,
+        .y = 12,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2051MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S2052MapChangedTiles[] = {
+    4 * 83, 4 * 84, 4 * 115, 4 * 116, // 0
+    4 * 207, 4 * 208, 4 * 239, 4 * 240, // 1
+    4 * 275, 4 * 276, 4 * 307, 4 * 308, // 2
+    4 * 405, 4 * 406, 4 * 437, 4 * 438, // 3
+};
+
+const struct MapChangeInfo S2052MapChanges[] = {
+    {
+        .id = 0,
+        .x = 6,
+        .y = 2,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2052MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 2,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2052MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 6,
+        .y = 8,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2052MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 8,
+        .y = 12,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2052MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S2055MapChangedTiles[] = {
+    4 * 207, 4 * 208, 4 * 239, 4 * 240, // 0
+    4 * 209, 4 * 210, 4 * 241, 4 * 242, // 1
+    4 * 215, 4 * 216, 4 * 247, 4 * 248, // 2
+};
+
+const struct MapChangeInfo S2055MapChanges[] = {
+    {
+        .id = 0,
+        .x = 2,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2055MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 4,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2055MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 10,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2055MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S2065MapChangedTiles[] = {
+    4 * 403, 4 * 404, 4 * 435, 4 * 436, // 0
+};
+
+const struct MapChangeInfo S2065MapChanges[] = {
+    {
+        .id = 0,
+        .x = 6,
+        .y = 12,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2065MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = -1,
+    },
+};
+
 const u16 S2091MapChangedTiles[] = {
     4 * 79, 4 * 80, 4 * 111, 4 * 112, // 0
     4 * 205, 4 * 206, 4 * 237, 4 * 238, // 1
-    4 * 471, 4 * 472, 4 * 503, 4 * 504, // 2
+    4 * 461, 4 * 462, 4 * 493, 4 * 494, // 2
+    4 * 471, 4 * 472, 4 * 503, 4 * 504, // 3
 };
 
 const struct MapChangeInfo S2091MapChanges[] = {
@@ -2572,11 +2771,19 @@ const struct MapChangeInfo S2091MapChanges[] = {
     },
     {
         .id = 2,
-        .x = 10,
+        .x = 0,
         .y = 14,
         .width = 2,
         .height = 2,
         .metatiles = &S2091MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 10,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2091MapChangedTiles[2 * 2 * 3],
     },
     {
         .id = -1,
@@ -2629,17 +2836,62 @@ const struct MapChangeInfo S2092MapChanges[] = {
 };
 
 const u16 S2095MapChangedTiles[] = {
-    4 * 151, 4 * 152, 4 * 183, 4 * 184, // 0
+    4 * 15, 4 * 16, 4 * 47, 4 * 48, // 0
+    4 * 21, 4 * 22, 4 * 53, 4 * 54, // 1
+    4 * 141, 4 * 142, 4 * 173, 4 * 174, // 2
+    4 * 143, 4 * 144, 4 * 175, 4 * 176, // 3
+    4 * 149, 4 * 150, 4 * 181, 4 * 182, // 4
+    4 * 151, 4 * 152, 4 * 183, 4 * 184, // 5
 };
 
 const struct MapChangeInfo S2095MapChanges[] = {
     {
         .id = 0,
+        .x = 2,
+        .y = 0,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2095MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 8,
+        .y = 0,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2095MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 0,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2095MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 2,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2095MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = 4,
+        .x = 8,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S2095MapChangedTiles[2 * 2 * 4],
+    },
+    {
+        .id = 5,
         .x = 10,
         .y = 4,
         .width = 2,
         .height = 2,
-        .metatiles = &S2095MapChangedTiles[2 * 2 * 0],
+        .metatiles = &S2095MapChangedTiles[2 * 2 * 5],
     },
     {
         .id = -1,
@@ -3825,6 +4077,123 @@ const struct MapChangeInfo S4074MapChanges[] = {
     },
 };
 
+const u16 S4083MapChangedTiles[] = {
+    4 * 215, 4 * 216, 4 * 247, 4 * 248, // 0
+    4 * 333, 4 * 334, 4 * 365, 4 * 366, // 1
+    4 * 341, 4 * 342, 4 * 373, 4 * 374, // 2
+};
+
+const struct MapChangeInfo S4083MapChanges[] = {
+    {
+        .id = 0,
+        .x = 10,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4083MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 0,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4083MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 8,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4083MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S4095MapChangedTiles[] = {
+    4 * 145, 4 * 146, 4 * 177, 4 * 178, // 0
+    4 * 147, 4 * 148, 4 * 179, 4 * 180, // 1
+    4 * 213, 4 * 214, 4 * 245, 4 * 246, // 2
+    4 * 271, 4 * 272, 4 * 303, 4 * 304, // 3
+    4 * 337, 4 * 338, 4 * 369, 4 * 370, // 4
+    4 * 339, 4 * 340, 4 * 371, 4 * 372, // 5
+    4 * 407, 4 * 408, 4 * 439, 4 * 440, // 6
+    4 * 467, 4 * 468, 4 * 499, 4 * 500, // 7
+};
+
+const struct MapChangeInfo S4095MapChanges[] = {
+    {
+        .id = 0,
+        .x = 4,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 6,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 8,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 2,
+        .y = 8,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = 4,
+        .x = 4,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 4],
+    },
+    {
+        .id = 5,
+        .x = 6,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 5],
+    },
+    {
+        .id = 6,
+        .x = 10,
+        .y = 12,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 6],
+    },
+    {
+        .id = 7,
+        .x = 6,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S4095MapChangedTiles[2 * 2 * 7],
+    },
+    {
+        .id = -1,
+    },
+};
+
 const u16 S4113MapChangedTiles[] = {
     4 * 141, 4 * 142, 4 * 173, 4 * 174, // 0
     4 * 207, 4 * 208, 4 * 239, 4 * 240, // 1
@@ -3855,6 +4224,285 @@ const struct MapChangeInfo S4113MapChanges[] = {
         .width = 2,
         .height = 2,
         .metatiles = &S4113MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S5111MapChangedTiles[] = {
+    4 * 143, 4 * 144, 4 * 175, 4 * 176, // 0
+    4 * 211, 4 * 212, 4 * 243, 4 * 244, // 1
+    4 * 465, 4 * 466, 4 * 497, 4 * 498, // 2
+    4 * 467, 4 * 468, 4 * 499, 4 * 500, // 3
+};
+
+const struct MapChangeInfo S5111MapChanges[] = {
+    {
+        .id = 0,
+        .x = 2,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5111MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 6,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5111MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 4,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5111MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 6,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5111MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S5112MapChangedTiles[] = {
+    4 * 79, 4 * 80, 4 * 111, 4 * 112, // 0
+    4 * 209, 4 * 210, 4 * 241, 4 * 242, // 1
+    4 * 269, 4 * 270, 4 * 301, 4 * 302, // 2
+    4 * 333, 4 * 334, 4 * 365, 4 * 366, // 3
+    4 * 471, 4 * 472, 4 * 503, 4 * 504, // 4
+};
+
+const struct MapChangeInfo S5112MapChanges[] = {
+    {
+        .id = 0,
+        .x = 2,
+        .y = 2,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5112MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 4,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5112MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 0,
+        .y = 8,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5112MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 0,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5112MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = 4,
+        .x = 10,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5112MapChangedTiles[2 * 2 * 4],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S5113MapChangedTiles[] = {
+    4 * 21, 4 * 22, 4 * 53, 4 * 54, // 0
+    4 * 333, 4 * 334, 4 * 365, 4 * 366, // 1
+    4 * 337, 4 * 338, 4 * 369, 4 * 370, // 2
+    4 * 465, 4 * 466, 4 * 497, 4 * 498, // 3
+    4 * 471, 4 * 472, 4 * 503, 4 * 504, // 4
+};
+
+const struct MapChangeInfo S5113MapChanges[] = {
+    {
+        .id = 0,
+        .x = 8,
+        .y = 0,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5113MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 0,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5113MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 4,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5113MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 4,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5113MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = 4,
+        .x = 10,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5113MapChangedTiles[2 * 2 * 4],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S5114MapChangedTiles[] = {
+    4 * 13, 4 * 14, 4 * 45, 4 * 46, // 0
+    4 * 21, 4 * 22, 4 * 53, 4 * 54, // 1
+    4 * 269, 4 * 270, 4 * 301, 4 * 302, // 2
+    4 * 333, 4 * 334, 4 * 365, 4 * 366, // 3
+    4 * 461, 4 * 462, 4 * 493, 4 * 494, // 4
+    4 * 471, 4 * 472, 4 * 503, 4 * 504, // 5
+};
+
+const struct MapChangeInfo S5114MapChanges[] = {
+    {
+        .id = 0,
+        .x = 0,
+        .y = 0,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5114MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 8,
+        .y = 0,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5114MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 0,
+        .y = 8,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5114MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 0,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5114MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = 4,
+        .x = 0,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5114MapChangedTiles[2 * 2 * 4],
+    },
+    {
+        .id = 5,
+        .x = 10,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5114MapChangedTiles[2 * 2 * 5],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S5115MapChangedTiles[] = {
+    4 * 79, 4 * 80, 4 * 111, 4 * 112, // 0
+    4 * 85, 4 * 86, 4 * 117, 4 * 118, // 1
+    4 * 271, 4 * 272, 4 * 303, 4 * 304, // 2
+    4 * 277, 4 * 278, 4 * 309, 4 * 310, // 3
+    4 * 463, 4 * 464, 4 * 495, 4 * 496, // 4
+    4 * 469, 4 * 470, 4 * 501, 4 * 502, // 5
+};
+
+const struct MapChangeInfo S5115MapChanges[] = {
+    {
+        .id = 0,
+        .x = 2,
+        .y = 2,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5115MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 8,
+        .y = 2,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5115MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 2,
+        .y = 8,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5115MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 8,
+        .y = 8,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5115MapChangedTiles[2 * 2 * 3],
+    },
+    {
+        .id = 4,
+        .x = 2,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5115MapChangedTiles[2 * 2 * 4],
+    },
+    {
+        .id = 5,
+        .x = 8,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S5115MapChangedTiles[2 * 2 * 5],
     },
     {
         .id = -1,
@@ -4152,6 +4800,96 @@ const struct MapChangeInfo S6055MapChanges[] = {
         .width = 2,
         .height = 2,
         .metatiles = &S6055MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S6111MapChangedTiles[] = {
+    4 * 207, 4 * 208, 4 * 239, 4 * 240, // 0
+    4 * 469, 4 * 470, 4 * 501, 4 * 502, // 1
+};
+
+const struct MapChangeInfo S6111MapChanges[] = {
+    {
+        .id = 0,
+        .x = 2,
+        .y = 6,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S6111MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 8,
+        .y = 14,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S6111MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S6112MapChangedTiles[] = {
+    4 * 341, 4 * 342, 4 * 373, 4 * 374, // 0
+};
+
+const struct MapChangeInfo S6112MapChanges[] = {
+    {
+        .id = 0,
+        .x = 8,
+        .y = 10,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S6112MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = -1,
+    },
+};
+
+const u16 S6122MapChangedTiles[] = {
+    4 * 141, 4 * 142, 4 * 173, 4 * 174, // 0
+    4 * 143, 4 * 144, 4 * 175, 4 * 176, // 1
+    4 * 149, 4 * 150, 4 * 181, 4 * 182, // 2
+    4 * 151, 4 * 152, 4 * 183, 4 * 184, // 3
+};
+
+const struct MapChangeInfo S6122MapChanges[] = {
+    {
+        .id = 0,
+        .x = 0,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S6122MapChangedTiles[2 * 2 * 0],
+    },
+    {
+        .id = 1,
+        .x = 2,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S6122MapChangedTiles[2 * 2 * 1],
+    },
+    {
+        .id = 2,
+        .x = 8,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S6122MapChangedTiles[2 * 2 * 2],
+    },
+    {
+        .id = 3,
+        .x = 10,
+        .y = 4,
+        .width = 2,
+        .height = 2,
+        .metatiles = &S6122MapChangedTiles[2 * 2 * 3],
     },
     {
         .id = -1,

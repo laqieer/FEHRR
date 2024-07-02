@@ -10,11 +10,11 @@
 |baseMap=S1601
 | a8= | b8= | c8= | d8= | e8= | f8=
 | a7= | b7= | c7= | d7= | e7= | f7=
-| a6= | b6= | c6= | d6= | e6= | f6=
-| a5= | b5={{Wall|style=normal|type=Pillar|hp=U}} | c5= | d5= | e5={{Wall|style=normal|type=Pillar|hp=U}} | f5=
-| a4= | b4= | c4= | d4={{Wall|style=normal|type=Pillar|hp=1}} | e4= | f4={{Wall|style=normal|type=Pillar|hp=U}}
-| a3={{Wall|style=normal|type=Pillar|hp=U}} | b3={{Ally|1}} | c3= | d3={{Ally|2}} | e3={{Ally|3}} | f3=
-| a2= | b2={{Ally|4}} | c2={{Wall|style=normal|type=Pillar|hp=U}} | d2= | e2= | f2={{Wall|style=normal|type=Pillar|hp=U}}
+| a6= | b6={{Wall|style=normal|type=Pillar|hp=U}} | c6= | d6= | e6={{Wall|style=normal|type=Pillar|hp=U}} | f6=
+| a5= | b5= | c5= | d5={{Wall|style=normal|type=Pillar|hp=1}} | e5= | f5=
+| a4= | b4= | c4= | d4= | e4= | f4={{Wall|style=normal|type=Pillar|hp=U}}
+| a3={{Wall|style=normal|type=Pillar|hp=U}} | b3={{Ally|1}} | c3={{Wall|style=normal|type=Pillar|hp=U}} | d3={{Ally|2}} | e3={{Ally|3}} | f3=
+| a2= | b2={{Ally|4}} | c2= | d2= | e2= | f2={{Wall|style=normal|type=Pillar|hp=U}}
 | a1= | b1= | c1= | d1= | e1= | f1=
 }}
 |lvlNormal=29
