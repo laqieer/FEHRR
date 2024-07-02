@@ -577,7 +577,7 @@ void func_fe6_08071274New(struct HelpBoxPrintProcNew * proc)
 
             for (i = 0; i < HELPBOX_MAX_LINES; i++)
             {
-                SpriteText_DrawBackground(proc->text[i]);
+                SpriteText_DrawBackgroundWide(proc->text[i]);
             }
 
             proc->font->chr_counter = 0;
