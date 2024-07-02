@@ -280,9 +280,20 @@ int TalkInterpretNew(ProcPtr proc)
         return TalkInterpret(proc);
 
     case 0x01: // newline
-        if (sTalkSt->put_lines == TRUE || sTalkSt->line_active < sTalkSt->lines)
+        int fid = ((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face])->fid;
+        if (fid >= FID_B9 && fid <= FID_BC) // if in shop or arena (B9~BC are shopowners' faces)
         {
-            sTalkSt->line_active++;
+            if (sTalkSt->put_lines == TRUE || sTalkSt->line_active == 1)
+            {
+                sTalkSt->line_active++;
+            }
+        }
+        else
+        {
+            if (sTalkSt->put_lines == TRUE || sTalkSt->line_active < sTalkSt->lines)
+            {
+                sTalkSt->line_active++;
+            }
         }
 
         sTalkSt->put_lines = FALSE;
