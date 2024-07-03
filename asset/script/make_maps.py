@@ -895,7 +895,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
                             else:
                                 red_unit_lv = 20
                         red_unit_items = 'IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW'
-                        if unit_data[unit['id_tag']]['tome_class'] > 0:
+                        if unit_data[unit['id_tag']]['weapon_type'] > 10:
                             red_unit_items = 'IID_FIRE, IID_LIGHTNING, IID_FLUX, IID_HEALSTAFF'
                         if weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag'].endswith('竜') or weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag'].endswith('獣'):
                             if move_type[unit_data[unit['id_tag']]['move_type']]['id_tag'] in ('MVID_騎馬', 'MVID_飛行'):
@@ -977,7 +977,6 @@ if __name__ == '__main__':
     # print_map_anims()
     # make_map_images()
     # decrease_map_colors()
-    make_map_terrains()
     # make_map_tilesets()
     # make_map_changes()
     # make_common_map()
@@ -993,5 +992,5 @@ if __name__ == '__main__':
     # print_max_enemy_hero_count()
     # make_blue_units()
     # make_enemy_unit_jobs()
-    # make_red_units()
+    make_red_units()
     # make_map_events()
