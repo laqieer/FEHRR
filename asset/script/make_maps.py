@@ -587,6 +587,7 @@ struct ChapterInfo const newChapters[] = {
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
             file.write('        .debug_name = "%s",\n' % map_id)
+            file.write('        .has_prep = %s,\n' % ('TRUE' if map_configs[map_id]['player_count'] >= 4 else 'FALSE'))
             file.write('        .banim_terrain_id = BANIM_TERRAIN_%s,\n' % get_battle_terrain(map_id).name)
             file.write('        .msg_30 = CHAPTER_GOAL_MSG_ID_%s,\n' % map_id)
             file.write('        .msg_38 = MID_STAGE_%s,\n' % map_id)
@@ -988,7 +989,7 @@ if __name__ == '__main__':
     # make_map_changes()
     # make_common_map()
     # make_chapter_goals()
-    # make_chapters()
+    make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
@@ -999,5 +1000,5 @@ if __name__ == '__main__':
     # print_max_enemy_hero_count()
     # make_blue_units()
     # make_enemy_unit_jobs()
-    make_red_units()
+    # make_red_units()
     # make_map_events()
