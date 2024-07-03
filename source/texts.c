@@ -10192,9 +10192,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1698] = {
-        [LANGUAGE_JAPANESE] = "今　ロイたちが""\x01""もっているお金です",
+        [LANGUAGE_JAPANESE] = "今　プレイヤーが""\x01""もっているお金です",
         [LANGUAGE_ENGLISH] = "Money on hand.",
-        [LANGUAGE_CHINESE] = "当前罗伊他们""\x01""所持有的金钱",
+        [LANGUAGE_CHINESE] = "当前玩家所""\x01""持有的金钱",
     },
 
     [1699] = {
