@@ -186,8 +186,8 @@ terrain_map = [
     },
     {
         "index": 21,
-        "name": "House",
-        "terrain_id": 4,
+        "name": "Building",
+        "terrain_id": 0x2c,
     },
     # 22-25: trench, not used in story maps, doc: https://feheroes.fandom.com/wiki/Trenches
     {
@@ -975,13 +975,14 @@ if __name__ == '__main__':
     # print_terrain_1st_appearance()
     # print_terrain_by_groups()
     # print_map_anims()
-    make_map_images()
-    decrease_map_colors()
-    make_map_tilesets()
-    make_map_changes()
-    make_common_map()
-    make_chapter_goals()
-    make_chapters()
+    # make_map_images()
+    # decrease_map_colors()
+    make_map_terrains()
+    # make_map_tilesets()
+    # make_map_changes()
+    # make_common_map()
+    # make_chapter_goals()
+    # make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
@@ -990,7 +991,7 @@ if __name__ == '__main__':
     load_move_type()
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
-    make_blue_units()
-    make_enemy_unit_jobs()
-    make_red_units()
-    make_map_events()
+    # make_blue_units()
+    # make_enemy_unit_jobs()
+    # make_red_units()
+    # make_map_events()
