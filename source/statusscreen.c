@@ -31,6 +31,7 @@
 
 #include "constants/videoalloc_global.h"
 
+#include "msgNew.h"
 #include "bmNew.h"
 #include "chapterNew.h"
 #include "chapters.h"
