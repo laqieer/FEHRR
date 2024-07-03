@@ -27,3 +27,5 @@ DebugChapterMapPalette = 0x0823C980;
 DebugChapterMapGraphicAnimation = 0x085C788C;
 
 ClearFirstMapMetaTile = func_fe6_080192E4;
+
+gPidStatsNew = gPidStats;

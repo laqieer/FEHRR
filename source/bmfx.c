@@ -168,12 +168,12 @@ void ChapterIntro_InitMapDisplayNew(struct GenericProc * proc)
     ApplyUnitSpritePalettes();
     ApplySystemObjectsGraphics();
 
-    val = GetChapterInfo(chapter)->unk_0F;
+    val = GetChapterInfo(chapter)->unk_0F; // initial X
     val = GetCameraCenteredX(val*16);
     val = (val + 15) & 0x1F0;
     gBmSt.camera.x = val;
 
-    val = GetChapterInfo(chapter)->unk_10;
+    val = GetChapterInfo(chapter)->unk_10; // initial Y
     val = GetCameraCenteredY(val*16);
     val = (val + 15) & 0x3F0;
     gBmSt.camera.y = val;

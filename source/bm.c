@@ -93,6 +93,9 @@ int GetActiveMapSongNew(void)
 
         return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_blue_bgm;
 
+    default:
+        return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_blue_bgm;
+
     }
 
     return 0;

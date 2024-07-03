@@ -36,3 +36,5 @@ INCLUDE ../ldscript/optionmenu.lds
 INCLUDE ../ldscript/savescreen.lds
 INCLUDE ../ldscript/util.lds
 INCLUDE ../ldscript/trademenu.lds
+INCLUDE ../ldscript/prepmenu.lds
+INCLUDE ../ldscript/save_xmap.lds

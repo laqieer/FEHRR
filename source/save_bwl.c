@@ -15,17 +15,37 @@
 #include "unit.h"
 #include "action.h"
 #include "trap.h"
+#include "saveNew.h"
 
 #include "constants/chapters.h"
 
+extern struct PidStatsNew gPidStatsNew[PID_STATS_COUNT];
+
+struct PidStatsNew * GetPidStatsNew(fu8 pid)
+{
+    if (pid >= PID_STATS_COUNT)
+        return NULL;
+
+    // if (GetPInfo(pid)->affinity == 0)
+    //     return NULL;
+
+    return gPidStatsNew + pid - 1;
+}
+
+struct PidStatsNew * GetPidStatsOld(fu8 pid)
+{
+    return GetPidStatsNew(pid);
+}
+
 void PidStatsSetDefeatInfoNew(fu8 pid, fu8 killer_pid, int defeat_cause)
 {
-    struct PidStats * stats = GetPidStats(pid);
+    struct PidStatsNew * stats = GetPidStatsNew(pid);
     if (stats == NULL)
         return;
 
-    // FIXME: expand stats->defeat_chapter
+    //FIXME: read stats->defeat_chapter_new instead of stats->defeat_chapter when displaying defeat info
     stats->defeat_chapter = GetChapterInPlaySt(&gPlayStNew);
+    stats->defeat_chapter_new = GetChapterInPlaySt(&gPlayStNew);
     stats->defeat_turn = gPlaySt.turn;
     stats->killer_pid = killer_pid;
     stats->defeat_cause = defeat_cause;
