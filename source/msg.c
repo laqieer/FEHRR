@@ -50,7 +50,7 @@ char * DecodeMsgNew(int id)
     int h = 0;
     GetStringTextBox(pSrc, &w, &h);
     if (w <= MSG_MAX_WIDTH)
-        strcpy(sMsgString, GetMsg(id));
+        strcpy(sMsgString, pSrc);
     else
     {
         i32 cw = 0;
