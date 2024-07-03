@@ -859,6 +859,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
                     red_unit_lv = 20
             red_units_by_turn_and_count = {}
             loaded_red_heroes = []
+            red_unit_commander = "PID_NONE"
             for unit in map_configs[map_id]['units']:
                 unit['id_tag'] = unit['id_tag'].replace('―', '_')
                 if unit['id_tag'].endswith('味方'):
@@ -868,6 +869,12 @@ const u16 ChapterEnemyHeroNames[][14] = {
                 if unit['spawn_count'] not in red_units_by_turn_and_count[unit['spawn_turns']]:
                     red_units_by_turn_and_count[unit['spawn_turns']][unit['spawn_count']] = []
                 red_units_by_turn_and_count[unit['spawn_turns']][unit['spawn_count']].append(unit)
+                if red_unit_commander == "PID_NONE":
+                    red_unit_id_tag = get_red_unit_id_tag(unit['id_tag'])
+                    if red_unit_id_tag == 'EID_ENEMY_HERO_':
+                        red_unit_commander = red_unit_id_tag + '1'
+                    elif red_unit_id_tag != 'EID_ENEMY_GENERIC':
+                        red_unit_commander = red_unit_id_tag
             for turn, counts in red_units_by_turn_and_count.items():
                 for count, units in counts.items():
                     if turn == -1:
@@ -902,7 +909,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
                                 red_unit_items = 'IID_DIVINESTONE, 0, 0, 0'
                             else:
                                 red_unit_items = 'IID_FIRESTONE, 0, 0, 0'
-                        file.write('    { %s, %s, 0, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, red_unit_lv, x, y, x, y, red_unit_items))
+                        file.write('    { %s, %s, %s, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, "PID_NONE" if red_unit_id == red_unit_commander else red_unit_commander, red_unit_lv, x, y, x, y, red_unit_items))
                     file.write('    { 0 }, // end\n')
                     file.write('};\n\n')
                     file_defs.write('extern const struct UnitInfo %s[];\n' % red_units_label)
