@@ -1,1035 +1,2065 @@
 #pragma once
 
 // Generic enemies
-#define JID_アバター JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_アバター剣 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_アバター槍 JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_アバター斧 JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_アバター赤魔 JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_アバター青魔 JID_MAGE // MVID_歩行 WID_青魔
-#define JID_アバター緑魔 JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ソードスチーム JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_ランススチーム JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_アクススチーム JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_ラウアバット JID_MANAKETE_F // MVID_飛行 WID_赤獣
-#define JID_ブラーバット JID_MANAKETE_F // MVID_飛行 WID_青獣
-#define JID_グルンバット JID_MANAKETE_F // MVID_飛行 WID_緑獣
-#define JID_ソードドラゴン JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ランスドラゴン JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_アクスドラゴン JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_ラウアマムクート JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_ブラーマムクート JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_グルンマムクート JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_ボウペガサス JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_レッドペガサス JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_ブルーペガサス JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_グリーンペガサス JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_レッドボウ JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_ブルーボウ JID_ARCHER // MVID_歩行 WID_青弓
-#define JID_グリーンボウ JID_ARCHER // MVID_歩行 WID_緑弓
-#define JID_レッドシーフ JID_THIEF // MVID_歩行 WID_赤暗
-#define JID_ブルーシーフ JID_THIEF // MVID_歩行 WID_青暗
-#define JID_グリーンシーフ JID_THIEF // MVID_歩行 WID_緑暗
-#define JID_ラウアファヴニル JID_MANAKETE_F // MVID_飛行 WID_赤竜
-#define JID_ブラーファヴニル JID_MANAKETE_F // MVID_飛行 WID_青竜
-#define JID_グルンファヴニル JID_MANAKETE_F // MVID_飛行 WID_緑竜
-#define JID_ソードファイター JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ソードアーマー JID_ARMOR // MVID_重装 WID_剣
-#define JID_ソードナイト JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_ソードペガサス JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ランスファイター JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_ランスアーマー JID_ARMOR // MVID_重装 WID_槍
-#define JID_ランスナイト JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ランスペガサス JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_アクスファイター JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_アクスアーマー JID_ARMOR // MVID_重装 WID_斧
-#define JID_アクスナイト JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_アクスペガサス JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_ボウファイター JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ボウナイト JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_シーフ JID_THIEF // MVID_歩行 WID_暗
-#define JID_レッドマージ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_レッドナイト JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_ブルーマージ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ブルーナイト JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_グリーンマージ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_グリーンナイト JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_シスター JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ロッドナイト JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_アバター_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_アバター_PROMOTED JID_DRUID
+#define JID_アバター剣_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_アバター剣_PROMOTED JID_SWORDMASTER
+#define JID_アバター槍_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_アバター槍_PROMOTED JID_HALBERDIER
+#define JID_アバター斧_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_アバター斧_PROMOTED JID_WARRIOR
+#define JID_アバター赤魔_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_アバター赤魔_PROMOTED JID_SAGE
+#define JID_アバター青魔_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_アバター青魔_PROMOTED JID_SAGE
+#define JID_アバター緑魔_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_アバター緑魔_PROMOTED JID_SAGE
+#define JID_ソードスチーム_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ソードスチーム_PROMOTED JID_PALADIN
+#define JID_ランススチーム_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ランススチーム_PROMOTED JID_PALADIN
+#define JID_アクススチーム_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_アクススチーム_PROMOTED JID_PALADIN
+#define JID_ラウアバット_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_赤獣
+#define JID_ラウアバット_PROMOTED JID_MANAKETE_F
+#define JID_ブラーバット_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青獣
+#define JID_ブラーバット_PROMOTED JID_MANAKETE_F
+#define JID_グルンバット_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_緑獣
+#define JID_グルンバット_PROMOTED JID_MANAKETE_F
+#define JID_ソードドラゴン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_ソードドラゴン_PROMOTED JID_FALCONKNIGHT
+#define JID_ランスドラゴン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ランスドラゴン_PROMOTED JID_FALCONKNIGHT
+#define JID_アクスドラゴン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_アクスドラゴン_PROMOTED JID_FALCONKNIGHT
+#define JID_ラウアマムクート_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_ラウアマムクート_PROMOTED JID_MANAKETE
+#define JID_ブラーマムクート_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_ブラーマムクート_PROMOTED JID_MANAKETE
+#define JID_グルンマムクート_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_グルンマムクート_PROMOTED JID_MANAKETE
+#define JID_ボウペガサス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_ボウペガサス_PROMOTED JID_FALCONKNIGHT
+#define JID_レッドペガサス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_レッドペガサス_PROMOTED JID_FALCONKNIGHT
+#define JID_ブルーペガサス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_ブルーペガサス_PROMOTED JID_FALCONKNIGHT
+#define JID_グリーンペガサス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_グリーンペガサス_PROMOTED JID_FALCONKNIGHT
+#define JID_レッドボウ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_レッドボウ_PROMOTED JID_SNIPER
+#define JID_ブルーボウ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_青弓
+#define JID_ブルーボウ_PROMOTED JID_SNIPER
+#define JID_グリーンボウ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_緑弓
+#define JID_グリーンボウ_PROMOTED JID_SNIPER
+#define JID_レッドシーフ_UNPROMOTED JID_THIEF // MVID_歩行 WID_赤暗
+#define JID_レッドシーフ_PROMOTED JID_ASSASSIN
+#define JID_ブルーシーフ_UNPROMOTED JID_THIEF // MVID_歩行 WID_青暗
+#define JID_ブルーシーフ_PROMOTED JID_ASSASSIN
+#define JID_グリーンシーフ_UNPROMOTED JID_THIEF // MVID_歩行 WID_緑暗
+#define JID_グリーンシーフ_PROMOTED JID_ASSASSIN
+#define JID_ラウアファヴニル_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_赤竜
+#define JID_ラウアファヴニル_PROMOTED JID_MANAKETE_F
+#define JID_ブラーファヴニル_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青竜
+#define JID_ブラーファヴニル_PROMOTED JID_MANAKETE_F
+#define JID_グルンファヴニル_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_緑竜
+#define JID_グルンファヴニル_PROMOTED JID_MANAKETE_F
+#define JID_ソードファイター_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ソードファイター_PROMOTED JID_SWORDMASTER
+#define JID_ソードアーマー_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_ソードアーマー_PROMOTED JID_GENERAL
+#define JID_ソードナイト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ソードナイト_PROMOTED JID_PALADIN
+#define JID_ソードペガサス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_ソードペガサス_PROMOTED JID_FALCONKNIGHT
+#define JID_ランスファイター_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_ランスファイター_PROMOTED JID_HALBERDIER
+#define JID_ランスアーマー_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_ランスアーマー_PROMOTED JID_GENERAL
+#define JID_ランスナイト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ランスナイト_PROMOTED JID_PALADIN
+#define JID_ランスペガサス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ランスペガサス_PROMOTED JID_FALCONKNIGHT
+#define JID_アクスファイター_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_アクスファイター_PROMOTED JID_WARRIOR
+#define JID_アクスアーマー_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_アクスアーマー_PROMOTED JID_GENERAL
+#define JID_アクスナイト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_アクスナイト_PROMOTED JID_PALADIN
+#define JID_アクスペガサス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_アクスペガサス_PROMOTED JID_FALCONKNIGHT
+#define JID_ボウファイター_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ボウファイター_PROMOTED JID_SNIPER
+#define JID_ボウナイト_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_ボウナイト_PROMOTED JID_NOMADTROOPER
+#define JID_シーフ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_シーフ_PROMOTED JID_ASSASSIN
+#define JID_レッドマージ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_レッドマージ_PROMOTED JID_SAGE
+#define JID_レッドナイト_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_レッドナイト_PROMOTED JID_VALKYRIE
+#define JID_ブルーマージ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ブルーマージ_PROMOTED JID_SAGE
+#define JID_ブルーナイト_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_ブルーナイト_PROMOTED JID_VALKYRIE
+#define JID_グリーンマージ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_グリーンマージ_PROMOTED JID_SAGE
+#define JID_グリーンナイト_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_グリーンナイト_PROMOTED JID_VALKYRIE
+#define JID_シスター_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_シスター_PROMOTED JID_BISHOP
+#define JID_ロッドナイト_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_ロッドナイト_PROMOTED JID_VALKYRIE
 
 // Hero enemies
-#define JID_マルス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_オグマ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ナバール JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ロイ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_フィル JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_リン JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_クロム JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ルキナ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ロンクー JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_オリヴィエ JID_DANCER // MVID_歩行 WID_剣
-#define JID_カムイ男 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_リョウマ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_カザハナ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ヒナタ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ラズワルド JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ルーナ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ドーガ JID_ARMOR // MVID_重装 WID_剣
-#define JID_ゼフィール JID_ARMOR // MVID_重装 WID_剣
-#define JID_カイン JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_エリウッド JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_ソール JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_シーダ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_パオラ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ドニ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_オボロ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_アクア JID_DANCER // MVID_歩行 WID_槍
-#define JID_ウェンディ JID_ARMOR // MVID_重装 WID_槍
-#define JID_エルフィ JID_ARMOR // MVID_重装 WID_槍
-#define JID_ジェイガン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_アベル JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_カミュ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ソワレ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ピエリ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_カチュア JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_エスト JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_シャニー JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_フロリーナ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ティアモ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ヒノカ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ツバキ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_バーツ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_バアトル JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_レイヴァン JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ホークアイ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ハロルド JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_シーマ JID_ARMOR // MVID_重装 WID_斧
-#define JID_ヘクトル JID_ARMOR // MVID_重装 WID_斧
-#define JID_フレデリク JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_ギュンター JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_ミネルバ JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_ミシェイル JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_ナーシェン JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_セルジュ JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_カミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_ベルカ JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_ゴードン JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ジョルジュ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_セツナ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ゼロ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ガイア JID_THIEF // MVID_歩行 WID_暗
-#define JID_フェリシア JID_THIEF // MVID_歩行 WID_暗
-#define JID_ジョーカー JID_THIEF // MVID_歩行 WID_暗
-#define JID_サイゾウ JID_THIEF // MVID_歩行 WID_暗
-#define JID_カゲロウ JID_THIEF // MVID_歩行 WID_暗
-#define JID_リリーナ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ソフィーヤ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_サーリャ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ヘンリー JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_レオン JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_リンダ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ルフレ男 JID_MAGE // MVID_歩行 WID_青魔
-#define JID_オーディン JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ウルスラ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_マリク JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ニノ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ルフレ女 JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_セシリア JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_リフ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_マリア JID_PRIEST // MVID_歩行 WID_杖
-#define JID_セーラ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_リズ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_サクラ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_アサマ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_クラリーネ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_エリーゼ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_チキ JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_チキ覚醒 JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_ノノ JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_カムイ女 JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_ファ JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_エイリーク JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_エフラム JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_セリス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ユリア JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_サナキ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_クレイン JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ラインハルト JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_オルエン JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_エルトシャン JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_ラケシス JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ルセア JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ジャファル JID_THIEF // MVID_歩行 WID_暗
-#define JID_レベッカ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_カレル JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_プリシラ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_ニニアン JID_DANCER // MVID_歩行 WID_青竜
-#define JID_春祭クロム JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_春祭マークス JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_春祭ルキナ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_春祭カミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_アルム JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_エフィ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_クレア JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ルカ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_アイク JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_セネリオ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ミスト JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ティアマト JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_セリカ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_メイ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ボーイ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ジェニー JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ロイド JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_花嫁シーダ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_花嫁リン JID_PRIEST // MVID_歩行 WID_杖
-#define JID_花嫁ティアモ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_花嫁シャーロッテ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_仮面ルキナ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ルーク JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_ロディ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_アテナ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_カタリナ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ローロー JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_クライネ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_水着ガイア JID_ARCHER // MVID_歩行 WID_弓
-#define JID_水着フレデリク JID_THIEF // MVID_歩行 WID_暗
-#define JID_水着ルフレ女 JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_水着チキ覚醒 JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ロビン JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_デューテ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_グレイ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_マチルダ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_クレーベ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_セーバー JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ソニア JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_レオ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ベルクト JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_水着レオン JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_水着マークス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_水着カムイ女 JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_水着エリーゼ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ゼト JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_ヒーニアス JID_ARCHER // MVID_歩行 WID_弓
-#define JID_アメリア JID_ARMOR // MVID_重装 WID_斧
-#define JID_ターナ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ヴァルター JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_総選挙アイク JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_総選挙ロイ JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_総選挙リン JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_総選挙ルキナ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_オスカー JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_エリンシア JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ネフェニー JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_漆黒の騎士 JID_ARMOR // MVID_重装 WID_剣
-#define JID_舞踏祭アズール JID_DANCER // MVID_歩行 WID_緑魔
-#define JID_舞踏祭シグレ JID_DANCER // MVID_歩行 WID_青魔
-#define JID_舞踏祭オリヴィエ JID_DANCER // MVID_歩行 WID_暗
-#define JID_舞踏祭黒アクア JID_DANCER // MVID_歩行 WID_斧
-#define JID_シグルド JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_アイラ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ディアドラ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ティルテュ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_アーダン JID_ARMOR // MVID_重装 WID_剣
-#define JID_アルヴィス JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ハロヘンリー JID_ARMOR // MVID_重装 WID_緑魔
-#define JID_ハロノノ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_ハロジョーカー JID_ARMOR // MVID_重装 WID_弓
-#define JID_ハロサクラ JID_THIEF // MVID_歩行 WID_暗
-#define JID_ドルカス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ルーテ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ワユ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ヨシュア JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_オーシン JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_マリータ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_タニア JID_ARCHER // MVID_歩行 WID_弓
-#define JID_エーヴェル JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ケンプフ JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_比翼マルス JID_ARMOR // MVID_重装 WID_弓
-#define JID_冬祭ニノ JID_ARMOR // MVID_重装 WID_青魔
-#define JID_冬祭若ゼフィール JID_ARMOR // MVID_重装 WID_剣
-#define JID_冬祭ソティス JID_MANAKETE // MVID_重装 WID_緑竜
-#define JID_冬祭ジャファル JID_ARMOR // MVID_重装 WID_緑暗
-#define JID_伝承セリカ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_比翼アルフォンス JID_MAGE // MVID_歩行 WID_青魔
-#define JID_年明レテ JID_MANAKETE_F // MVID_騎馬 WID_緑獣
-#define JID_年明キヌ JID_MANAKETE_F // MVID_騎馬 WID_無獣
-#define JID_年明アンナ JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_年明エイル JID_PEGASUSKNIGHT // MVID_飛行 WID_赤暗
-#define JID_ラクチェ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_シャナン JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_セティ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_アルテナ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_トラバント JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_つばさ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_まもり JID_ARMOR // MVID_重装 WID_斧
-#define JID_霧亜 JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_エレオノーラ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_樹 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_比翼アルム JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_愛の祭ルドルフ JID_ARMOR // MVID_重装 WID_槍
-#define JID_愛の祭エフィ JID_ARMOR // MVID_重装 WID_弓
-#define JID_愛の祭コンラート JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_愛の祭シルク JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_ニルス JID_DANCER // MVID_歩行 WID_青竜
-#define JID_フィオーラ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_レイラ JID_THIEF // MVID_歩行 WID_暗
-#define JID_ラス JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_ヒース JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_伝承クロム JID_ARCHER // MVID_歩行 WID_青弓
-#define JID_フェルディナント JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_リシテア JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ベルナデッタ JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_アネット JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_炎帝 JID_ARMOR // MVID_重装 WID_斧
-#define JID_比翼イドゥン JID_MANAKETE // MVID_重装 WID_赤竜
-#define JID_春祭エスト JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_春祭フィル JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_春祭ナーシェン JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_春祭バアトル JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_神階ブラミモンド JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_リンカ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_フォレオ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_リリス JID_MANAKETE_F // MVID_飛行 WID_青竜
-#define JID_ミドリコ JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_マクベス JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_比翼パオラ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_幼少マリク JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_幼少シーダ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_幼少マルス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_幼少ミネルバ JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_伝承エーデルガルト JID_ARMOR // MVID_重装 WID_斧
-#define JID_暴走アイク JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_催眠ユリア JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_魔王リオン JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_暴走カムイ男 JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_暴走アシュナード JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_比翼ミカヤ JID_PEGASUSKNIGHT // MVID_飛行 WID_無魔
-#define JID_花嫁オボロ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_花嫁ニケ JID_MANAKETE // MVID_歩行 WID_緑獣
-#define JID_花婿ラフィエル JID_DANCER // MVID_歩行 WID_青獣
-#define JID_花婿ヒナタ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_神階ミラ JID_MANAKETE // MVID_歩行 WID_無竜
-#define JID_覚醒アンナ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_ムスタファー JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_サイリ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_エメリナ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ギャンレル JID_THIEF // MVID_歩行 WID_暗
-#define JID_双界ワユ JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_水着セライナ JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_水着ルーテ JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_水着ヨシュア JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_水着キルロイ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_伝承セリス JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_比翼ベレス JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_水着ドロテア JID_DANCER // MVID_歩行 WID_暗
-#define JID_水着イングリット JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_水着シルヴァン JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_水着ローレンツ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_クリス男 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_クリス女 JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_ジュリアン JID_THIEF // MVID_歩行 WID_暗
-#define JID_レナ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_エレミヤ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_双界ヴェロニカ JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_海賊ギース JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_海賊ブリギッド JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_海賊ティバーン JID_MANAKETE_F // MVID_飛行 WID_無獣
-#define JID_海賊ダロス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_総選挙ディミトリ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_総選挙クロード JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_総選挙エーデル JID_ARMOR // MVID_重装 WID_斧
-#define JID_総選挙リシテア JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ジョージ JID_ARCHER // MVID_歩行 WID_青弓
-#define JID_伝承カムイ女 JID_MANAKETE // MVID_歩行 WID_無竜
-#define JID_比翼シグルド JID_DANCER // MVID_騎馬 WID_赤魔
-#define JID_舞踏キュアン JID_DANCER // MVID_飛行 WID_青弓
-#define JID_舞踏エスリン JID_DANCER // MVID_飛行 WID_暗
-#define JID_舞踏ラケシス JID_DANCER // MVID_飛行 WID_緑暗
-#define JID_舞踏エルトシャン JID_DANCER // MVID_飛行 WID_槍
-#define JID_ジル JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_イレース JID_MAGE // MVID_歩行 WID_青魔
-#define JID_シノン JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ガトリー JID_ARMOR // MVID_重装 WID_槍
-#define JID_プラハ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_双界チキ JID_MANAKETE_F // MVID_飛行 WID_青竜
-#define JID_ハロチェイニー JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_ハロルフレ女 JID_MANAKETE_F // MVID_飛行 WID_緑竜
-#define JID_ハロデギンハンザー JID_MANAKETE // MVID_重装 WID_赤竜
-#define JID_ハロイナ JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_シャミア JID_ARCHER // MVID_歩行 WID_緑弓
-#define JID_カトリーヌ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_セテス JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_フレン JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_ネメシス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_伝承ディミトリ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_比翼リン JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
-#define JID_忍者ツイハーク JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_忍者レーヴァテイン JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_忍者ナバール JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_忍者カザハナ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ギネヴィア JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ミレディ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ディーク JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_マリナス JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_ゲイル JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_デュッセル JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_セライナ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_ナターシャ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ノール JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ケセルダ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_双界オルティナ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_冬祭ベルナデッタ JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_冬祭ヒルダ JID_ARMOR // MVID_重装 WID_槍
-#define JID_冬祭セフェラン JID_ARMOR // MVID_重装 WID_杖
-#define JID_冬祭フェリクス JID_ARMOR // MVID_重装 WID_青弓
-#define JID_伝承リリーナ JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_比翼ピアニー JID_DANCER // MVID_飛行 WID_緑魔
-#define JID_年明プルメリア JID_DANCER // MVID_飛行 WID_弓
-#define JID_年明ベロア JID_MANAKETE // MVID_歩行 WID_青獣
-#define JID_年明ニシキ JID_MANAKETE_F // MVID_騎馬 WID_赤獣
-#define JID_年明フランネル JID_MANAKETE // MVID_歩行 WID_緑獣
-#define JID_サラ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_アスベル JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ロナン JID_ARCHER // MVID_歩行 WID_青弓
-#define JID_ミランダ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ベルド JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_双界ドロテア JID_DANCER // MVID_飛行 WID_赤魔
-#define JID_砂漠カタリナ JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_砂漠ラファエル JID_ARMOR // MVID_重装 WID_弓
-#define JID_砂漠サーリャ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_砂漠クリス男 JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_神階セイロス JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_比翼リーヴ JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_愛の祭グスタフ JID_ARMOR // MVID_重装 WID_斧
-#define JID_愛の祭アルフォンス JID_ARMOR // MVID_重装 WID_緑魔
-#define JID_愛の祭ヴェロニカ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_マーニャ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_フュリー JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_アゼル JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_レックス JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_ディートバ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_伝承クロード JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_ドゥドゥ_ JID_ARMOR // MVID_重装 WID_斧
-#define JID_リンハルト JID_PRIEST // MVID_歩行 WID_杖
-#define JID_イングリット JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_マリアンヌ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ソロン JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_双界ミルラ JID_MANAKETE_F // MVID_飛行 WID_無竜
-#define JID_春祭ミネルバ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_春祭アズール JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
-#define JID_春祭セレナ JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_春祭サレフ JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_ファリナ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ルイーズ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_パント JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_エルク JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ソーニャ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_比翼エイリーク JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_幼少ターナ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_幼少リオン JID_MAGE // MVID_歩行 WID_青魔
-#define JID_幼少ラーチェル JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_幼少ヒーニアス JID_ARCHER // MVID_歩行 WID_弓
-#define JID_伝承シグルド JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_闇ディミトリ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_覇骸エーデルガルト JID_MANAKETE // MVID_重装 WID_無獣
-#define JID_闇マーク男 JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_闇マーク女 JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_闇オルソン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_双界外伝カチュア JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_花嫁ユーノ JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_花嫁シャニー JID_PEGASUSKNIGHT // MVID_飛行 WID_赤弓
-#define JID_立会人サウル JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_花婿ゼロット JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_神階アスタルテ JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_外伝パオラ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_リュート JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ティータ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ジーク JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_フェルナン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_比翼ヒルダ JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_水着メルセデス JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_水着アッシュ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_水着カスパル JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_水着レオニー JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_伝承ベレト JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_双界シーダ JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_水着フロージ JID_MANAKETE_F // MVID_騎馬 WID_赤獣
-#define JID_水着フレイヤ JID_MANAKETE_F // MVID_騎馬 WID_無獣
-#define JID_水着オグマ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_水着ノルン JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_ニフル JID_MANAKETE_F // MVID_騎馬 WID_青竜
-#define JID_シャーロッテ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ニュクス JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_オロチ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ブノワ JID_ARMOR // MVID_重装 WID_槍
-#define JID_シェンメイ JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_神階ウル JID_ARCHER // MVID_歩行 WID_青弓
-#define JID_比翼ヒノカ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
-#define JID_海賊スルト JID_ARMOR // MVID_重装 WID_槍
-#define JID_海賊ネサラ JID_MANAKETE_F // MVID_飛行 WID_赤獣
-#define JID_海賊ビーゼ JID_MANAKETE_F // MVID_飛行 WID_無獣
-#define JID_海賊リフィス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_総選挙門番 JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_総選挙マルス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_総選挙マリアンヌ JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_総選挙エイリーク JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ペレアス JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_伝承ミカヤ JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_双界リーフ JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_聖祭ユリア JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_聖祭ラクチェ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_聖祭レヴィン JID_MAGE // MVID_歩行 WID_青魔
-#define JID_聖祭ナンナ JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_ムスペル JID_MANAKETE_F // MVID_騎馬 WID_赤竜
-#define JID_ユーリス JID_THIEF // MVID_歩行 WID_暗
-#define JID_コンスタンツェ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_ハピ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_バルタザール JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_アルファルド JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_比翼ソティス JID_MANAKETE_F // MVID_飛行 WID_青竜
-#define JID_ハロルフレ男 JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_ハロレア JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_ハロクルトナーガ JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_ハロソフィーヤ JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_開花フィヨルム JID_ARMOR // MVID_重装 WID_斧
-#define JID_ウルフ JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_ロシェ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_マリス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ビラク JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_ザガロ JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_伝承ファ JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_比翼カムイ女 JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_忍者イグレーヌ JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
-#define JID_忍者シノン JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_忍者カムイ男 JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_忍者シャミア JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_開花レーギャルン JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_フォルカ JID_THIEF // MVID_歩行 WID_赤暗
-#define JID_マーシャ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ステラ JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_タニス JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ベウフォレス JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_トール JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_パリス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ミリエル JID_MAGE // MVID_歩行 WID_青魔
-#define JID_フラヴィア JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_バジーリオ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_レンハ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_双界リシテア JID_TROUBADOUR // MVID_騎馬 WID_無魔
-#define JID_冬祭ルピナス JID_DANCER // MVID_飛行 WID_青暗
-#define JID_冬祭アスレイ JID_ARMOR // MVID_重装 WID_緑魔
-#define JID_冬祭マヌエラ JID_ARMOR // MVID_重装 WID_剣
-#define JID_冬祭イグナーツ JID_ARMOR // MVID_重装 WID_弓
-#define JID_伝承ベレス JID_MAGE // MVID_歩行 WID_青魔
-#define JID_比翼ダグ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
-#define JID_年明レギン JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_年明ファフニール JID_NOMAD // MVID_騎馬 WID_赤暗
-#define JID_年明リィレ JID_MANAKETE_F // MVID_騎馬 WID_無獣
-#define JID_年明キサ JID_MANAKETE // MVID_歩行 WID_赤獣
-#define JID_開花ヨシュア JID_THIEF // MVID_歩行 WID_暗
-#define JID_レナック JID_THIEF // MVID_歩行 WID_緑暗
-#define JID_コーマ JID_THIEF // MVID_歩行 WID_青暗
-#define JID_ネイミー JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_アーヴ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_双界アクア JID_DANCER // MVID_騎馬 WID_緑魔
-#define JID_ハタリカアラ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_ハタリニケ JID_MANAKETE // MVID_歩行 WID_赤獣
-#define JID_ハタリチェイニー JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ハタリディーン JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_神階エリミーヌ JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_比翼クロム JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_愛の祭ルキナ JID_ARMOR // MVID_重装 WID_斧
-#define JID_愛の祭ルフレ女 JID_ARMOR // MVID_重装 WID_無魔
-#define JID_愛の祭ウード JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_愛の祭リズ JID_ARMOR // MVID_重装 WID_杖
-#define JID_開花イドゥン JID_MANAKETE // MVID_重装 WID_青竜
-#define JID_ヒュウ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ニイメ JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_キャス JID_THIEF // MVID_歩行 WID_緑暗
-#define JID_ゴンザレス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_伝承シーダ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_双界ソニア JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_春祭デューテ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_春祭ヘンリー JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_春祭マリア JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_春祭リュート JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_開花マリータ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_アウグスト JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ガルザス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_カリン JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_セイラム JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_伝承ナンナ JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_比翼アイク JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_幼少セネリオ JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_幼少イレース JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_幼少ワユ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_幼少ボーレ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_開花イシュタル JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ティニー JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_アーサー JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_スカサハ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_聖戦ヒルダ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_神階メディウス JID_MANAKETE // MVID_歩行 WID_無竜
-#define JID_暴走レア JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_闇リリス JID_MANAKETE_F // MVID_飛行 WID_赤竜
-#define JID_催眠ニニアン JID_DANCER // MVID_歩行 WID_青竜
-#define JID_闇ムワリム JID_MANAKETE // MVID_歩行 WID_青獣
-#define JID_双界ロイ JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_花嫁リリーナ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_花嫁セシリア JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_花嫁ソフィーヤ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_花嫁ララム JID_DANCER // MVID_飛行 WID_槍
-#define JID_伝承ミルラ JID_MANAKETE_F // MVID_飛行 WID_青竜
-#define JID_開花フロリーナ JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_セイン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ケント JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_ギィ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_リムステラ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_双界エーデルガルト JID_ARMOR // MVID_重装 WID_剣
-#define JID_水着ディミトリ JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_水着クロード JID_PEGASUSKNIGHT // MVID_飛行 WID_青暗
-#define JID_水着ミカヤ JID_TROUBADOUR // MVID_騎馬 WID_無魔
-#define JID_水着エリンシア JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
-#define JID_伝承マークス JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_比翼トール JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_水着ニフル JID_MANAKETE_F // MVID_騎馬 WID_無竜
-#define JID_水着エイリーク JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_水着リオン JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_水着ゼト JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_ユーミル JID_MANAKETE_F // MVID_騎馬 WID_緑竜
-#define JID_開花セリカ JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_外伝エスト JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_外伝カムイ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_アトラス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_盗賊頭 JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_比翼エポニーヌ JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_怪盗キャス JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_怪盗レイラ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_怪盗サザ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
-#define JID_怪盗リカード JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_総選挙クロム JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_総選挙セリス JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_総選挙覚醒チキ JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_総選挙ベレス JID_PEGASUSKNIGHT // MVID_飛行 WID_無魔
-#define JID_ジェラルト JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_伝承ディアドラ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_双界ターナ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
-#define JID_炎部族リン JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_炎部族リンカ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_炎部族ムスペル JID_MANAKETE_F // MVID_騎馬 WID_無竜
-#define JID_炎部族モゥディ JID_MANAKETE // MVID_歩行 WID_緑獣
-#define JID_開花ヒルダ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_リーヴ2 JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_シェズ男 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_シェズ女 JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_モニカ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ホルスト JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_伝承ニニアン JID_DANCER // MVID_騎馬 WID_緑竜
-#define JID_比翼ドーマ JID_MANAKETE // MVID_重装 WID_赤竜
-#define JID_ハロカムイ女 JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_ハロナーガ JID_MANAKETE_F // MVID_飛行 WID_無竜
-#define JID_ハロカムイ男 JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_ハロニルス JID_DANCER // MVID_歩行 WID_緑竜
-#define JID_開花エイル JID_NOMAD // MVID_騎馬 WID_緑暗
-#define JID_魔器ルフレ女 JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_グレゴ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_リヒト JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_フィレイン JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_セルバンテス JID_ARMOR // MVID_重装 WID_槍
-#define JID_神階ラルヴァ JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_比翼レーギャルン JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
-#define JID_忍者カミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_忍者セルジュ JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_忍者ヒース JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_忍者ハール JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_開花チキ JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_魔器ガングレト JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ニーナ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ハーディン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_エリス JID_PRIEST // MVID_歩行 WID_杖
-#define JID_マチス JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ヴェロニカ2 JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_ジークベルト JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_シノノメ JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_ソレイユ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_シャラ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_冬祭クロム JID_ARMOR // MVID_重装 WID_斧
-#define JID_冬祭ルフレ男 JID_ARMOR // MVID_重装 WID_槍
-#define JID_冬祭サーリャ JID_ARMOR // MVID_重装 WID_赤魔
-#define JID_冬祭リズ JID_ARMOR // MVID_重装 WID_斧
-#define JID_年明けカムイ男 JID_ARCHER // MVID_歩行 WID_弓
-#define JID_年明けタクミ JID_THIEF // MVID_歩行 WID_暗
-#define JID_年明けカミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_年明けアクア JID_DANCER // MVID_飛行 WID_斧
-#define JID_ミカヤ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_サザ JID_THIEF // MVID_歩行 WID_暗
-#define JID_ゼルギウス JID_ARMOR // MVID_重装 WID_剣
-#define JID_オリヴァー JID_MAGE // MVID_歩行 WID_青魔
-#define JID_エイリーク2 JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_ミルラ JID_MANAKETE_F // MVID_飛行 WID_緑竜
-#define JID_ラーチェル JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_マリカ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_リオン JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_伝承アイク JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_愛の祭ロイ JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_愛の祭リリーナ JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_愛の祭ヘクトル JID_ARMOR // MVID_重装 WID_斧
-#define JID_愛の祭リン JID_ARMOR // MVID_重装 WID_青魔
-#define JID_愛の祭エリウッド JID_ARMOR // MVID_重装 WID_槍
-#define JID_眷属タクミ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_魔女セリカ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_邪竜ルフレ男 JID_MANAKETE // MVID_重装 WID_緑竜
-#define JID_暗黒ハーディン JID_ARMOR // MVID_重装 WID_槍
-#define JID_伝承エフラム JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_クロム2 JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_マーク男 JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_マーク女 JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_ジェローム JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_春祭アルフォンス JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_春祭シャロン JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_春祭カチュア JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_春祭カゲロウ JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
-#define JID_伝承ルフレ女 JID_MANAKETE_F // MVID_飛行 WID_無竜
-#define JID_ラインハルト2 JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_オルエン2 JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_リーフ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ナンナ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_フィン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_サイアス JID_MAGE // MVID_歩行 WID_青魔
-#define JID_ヒノカ2 JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_シグレ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_カンナ女 JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_カンナ男 JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_スズカゼ JID_THIEF // MVID_歩行 WID_暗
-#define JID_伝承リン JID_ARCHER // MVID_歩行 WID_緑弓
-#define JID_アレス JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_イシュタル JID_MAGE // MVID_歩行 WID_青魔
-#define JID_リーン JID_DANCER // MVID_歩行 WID_剣
-#define JID_ユリウス JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_花婿マルス JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_花嫁サナキ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_花嫁サーリャ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_花嫁ニニアン JID_DANCER // MVID_飛行 WID_青魔
-#define JID_伝承リョウマ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ニノ2 JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_カアラ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ラガルト JID_THIEF // MVID_歩行 WID_暗
-#define JID_カナス JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ライナス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_水着ノワール JID_ARCHER // MVID_歩行 WID_弓
-#define JID_水着ティアモ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_水着ターナ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_水着ヒーニアス JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_伝承ヘクトル JID_ARMOR // MVID_重装 WID_斧
-#define JID_水着タクミ JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_水着カミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_水着チキ JID_MANAKETE_F // MVID_飛行 WID_赤竜
-#define JID_水着リンダ JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_オリヴィエ2 JID_DANCER // MVID_飛行 WID_剣
-#define JID_スミア JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_マリアベル JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_リベラ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ヴァルハルト JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_伝承ルキナ JID_ARCHER // MVID_歩行 WID_青弓
-#define JID_夏祭マークス JID_DANCER // MVID_歩行 WID_暗
-#define JID_夏祭リョウマ JID_DANCER // MVID_歩行 WID_青暗
-#define JID_夏祭エリンシア JID_DANCER // MVID_歩行 WID_緑暗
-#define JID_夏祭ミカヤ JID_DANCER // MVID_歩行 WID_赤魔
-#define JID_総選挙セリカ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_総選挙ヘクトル JID_ARMOR // MVID_重装 WID_槍
-#define JID_総選挙エフラム JID_ARMOR // MVID_重装 WID_斧
-#define JID_総選挙ヴェロニカ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_伝承マルス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ジャムカ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_シルヴィア JID_DANCER // MVID_歩行 WID_剣
-#define JID_キュアン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_レヴィン JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_エスリン JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_エポニーヌ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_フローラ JID_THIEF // MVID_歩行 WID_赤暗
-#define JID_オフェリア JID_MAGE // MVID_歩行 WID_青魔
-#define JID_サイラス JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ガロン JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_伝承チキ JID_MANAKETE // MVID_重装 WID_青竜
-#define JID_ハロカゲロウ JID_ARMOR // MVID_重装 WID_緑暗
-#define JID_ハロゼロ JID_ARMOR // MVID_重装 WID_青弓
-#define JID_ハロミルラ JID_MANAKETE // MVID_重装 WID_赤竜
-#define JID_ハロワユ JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_ハロドルカス JID_ARMOR // MVID_重装 WID_斧
-#define JID_ウード JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_クリフ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_インバース JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_伝承エイリーク JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_夢カミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_夢カムイ男 JID_MANAKETE // MVID_歩行 WID_青竜
-#define JID_夢カムイ女 JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_夢ミコト JID_PRIEST // MVID_歩行 WID_杖
-#define JID_幼少アクア JID_DANCER // MVID_歩行 WID_緑魔
-#define JID_ガーネフ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_冬祭エイリーク JID_ARMOR // MVID_重装 WID_杖
-#define JID_冬祭エフラム JID_ARMOR // MVID_重装 WID_槍
-#define JID_冬祭ファ JID_MANAKETE // MVID_重装 WID_緑竜
-#define JID_冬祭セシリア JID_ARMOR // MVID_重装 WID_暗
-#define JID_伝承アクア JID_DANCER // MVID_飛行 WID_青魔
-#define JID_年明フィヨルム JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
-#define JID_年明スリーズ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_年明レーヴァテイン JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_年明フリーズ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_年明レーギャルン JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ティバーン JID_MANAKETE_F // MVID_飛行 WID_赤獣
-#define JID_リュシオン JID_DANCER // MVID_飛行 WID_緑獣
-#define JID_リアーネ JID_DANCER // MVID_飛行 WID_無獣
-#define JID_ニケ JID_MANAKETE // MVID_歩行 WID_青獣
-#define JID_ネサラ JID_MANAKETE_F // MVID_飛行 WID_青獣
-#define JID_温泉サクラ JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_温泉エリーゼ JID_NOMAD // MVID_騎馬 WID_赤暗
-#define JID_温泉ヒノカ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
-#define JID_温泉リョウマ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_温泉カミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
-#define JID_神階ドーマ JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_愛の祭アイク JID_ARMOR // MVID_重装 WID_剣
-#define JID_愛の祭グレイル JID_ARMOR // MVID_重装 WID_斧
-#define JID_愛の祭セネリオ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_愛の祭ミスト JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_愛の祭ティアマト JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_フランネル JID_MANAKETE // MVID_歩行 WID_赤獣
-#define JID_ベロア JID_MANAKETE // MVID_歩行 WID_無獣
-#define JID_ニシキ JID_MANAKETE_F // MVID_騎馬 WID_緑獣
-#define JID_キヌ JID_MANAKETE_F // MVID_騎馬 WID_青獣
-#define JID_ベルベット JID_MANAKETE_F // MVID_騎馬 WID_青獣
-#define JID_伝承ロイ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_イドゥン JID_MANAKETE // MVID_重装 WID_赤竜
-#define JID_ルゥ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_スー JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_ティト JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_ルトガー JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_春祭パオラ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤暗
-#define JID_春祭マリカ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_春祭ブルーノ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_春祭ヴェロニカ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_春祭ロキ JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_神階ユンヌ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_ライ JID_MANAKETE_F // MVID_騎馬 WID_緑獣
-#define JID_レテ JID_MANAKETE_F // MVID_騎馬 WID_赤獣
-#define JID_モゥディ JID_MANAKETE // MVID_歩行 WID_青獣
-#define JID_カイネギス JID_MANAKETE // MVID_重装 WID_無獣
-#define JID_ハール JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
-#define JID_行楽ジェニー JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_行楽ルカ JID_ARMOR // MVID_重装 WID_槍
-#define JID_行楽フェリシア JID_ARMOR // MVID_重装 WID_斧
-#define JID_行楽フローラ JID_ARMOR // MVID_重装 WID_赤暗
-#define JID_行楽レオン JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_伝承アルム JID_ARCHER // MVID_歩行 WID_弓
-#define JID_催眠チキ JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_魔剣マリータ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_闇ベルクト JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_暴走カムイ女 JID_MANAKETE // MVID_歩行 WID_無竜
-#define JID_催眠デューテ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_花嫁フィヨルム JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_花嫁シグルーン JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_花嫁タニス JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_花婿パント JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_花嫁ルイーズ JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_神階ナーガ JID_MANAKETE_F // MVID_飛行 WID_青竜
-#define JID_ンン JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_ブレディ JID_PRIEST // MVID_歩行 WID_杖
-#define JID_シャンブレー JID_MANAKETE_F // MVID_騎馬 WID_緑獣
-#define JID_デジェル JID_ARMOR // MVID_重装 WID_槍
-#define JID_シンシア JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_水着レーギャルン JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_水着レーヴァテイン JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_水着ヘルビンディ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_水着スリーズ JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_水着ユルグ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_伝承エリウッド JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_水着リリーナ JID_NOMAD // MVID_騎馬 WID_赤暗
-#define JID_水着ウォルト JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_水着リン JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
-#define JID_水着ウルスラ JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_水着フィオーラ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_エーデルガルト JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ディミトリ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_クロード JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_ベレス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ベレト JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_クロニエ JID_THIEF // MVID_歩行 WID_暗
-#define JID_神階ソティス JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_ヒューベルト JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ペトラ JID_PEGASUSKNIGHT // MVID_飛行 WID_青暗
-#define JID_メルセデス JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ヒルダ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_死神騎士 JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_総選挙アルム JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_総選挙エリウッド JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_総選挙ミカヤ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_総選挙カミラ JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_シグルーン JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_伝承ユリア JID_MAGE // MVID_歩行 WID_青魔
-#define JID_舞踏ラインハルト JID_DANCER // MVID_飛行 WID_緑魔
-#define JID_舞踏イシュタル JID_DANCER // MVID_飛行 WID_赤魔
-#define JID_舞踏ベルクト JID_DANCER // MVID_歩行 WID_槍
-#define JID_舞踏ネフェニー JID_DANCER // MVID_歩行 WID_弓
-#define JID_舞踏リネア JID_DANCER // MVID_歩行 WID_青魔
-#define JID_シリウス JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ナギ JID_MANAKETE // MVID_重装 WID_緑竜
-#define JID_フィーナ JID_DANCER // MVID_歩行 WID_剣
-#define JID_ノルン JID_ARCHER // MVID_歩行 WID_弓
-#define JID_バヌトゥ JID_MANAKETE // MVID_歩行 WID_赤竜
-#define JID_アストリア JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_比翼ヘクトル JID_ARMOR // MVID_重装 WID_剣
-#define JID_ハロラーチェル JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_ハロドズラ JID_ARMOR // MVID_重装 WID_暗
-#define JID_ハロイレース JID_ARMOR // MVID_重装 WID_青魔
-#define JID_ハロヨファ JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_外伝カチュア JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_フォルス JID_ARMOR // MVID_重装 WID_槍
-#define JID_パイソン JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_シルク JID_PRIEST // MVID_歩行 WID_杖
-#define JID_バルボ JID_ARMOR // MVID_重装 WID_槍
-#define JID_コンラート JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_伝承リーフ JID_NOMAD // MVID_騎馬 WID_弓
-#define JID_比翼エフラム JID_SOLDIER // MVID_歩行 WID_槍
-#define JID_ジスト JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_ユアン JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_テティス JID_DANCER // MVID_歩行 WID_暗
-#define JID_ロス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_クーガー JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_エキドナ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_パーシバル JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ララム JID_DANCER // MVID_歩行 WID_暗
-#define JID_イグレーヌ JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_チャド JID_THIEF // MVID_歩行 WID_暗
-#define JID_ブルーニャ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_神階オルティナ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ヴィオール JID_ARCHER // MVID_歩行 WID_弓
-#define JID_マシュー JID_THIEF // MVID_歩行 WID_暗
-#define JID_レイ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_タクミ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_魔器オフェリア JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_ディーア JID_PRIEST // MVID_歩行 WID_杖
-#define JID_マトイ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_キサラギ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ガンズ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_双界ティアモ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_冬祭ドロテア JID_DANCER // MVID_騎馬 WID_赤魔
-#define JID_冬祭アネット JID_ARMOR // MVID_重装 WID_弓
-#define JID_冬祭漆黒の騎士 JID_ARMOR // MVID_重装 WID_斧
-#define JID_冬祭ブルーノ JID_ARMOR // MVID_重装 WID_緑魔
-#define JID_伝承シェズ女 JID_THIEF // MVID_歩行 WID_青暗
-#define JID_比翼アスク JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_年明アシュ JID_MANAKETE // MVID_歩行 WID_青獣
-#define JID_年明エルム JID_MANAKETE_F // MVID_飛行 WID_緑獣
-#define JID_年明ベルベット JID_MANAKETE_F // MVID_騎馬 WID_赤獣
-#define JID_年明シャンブレー JID_MANAKETE_F // MVID_騎馬 WID_青獣
-#define JID_双界リンダ JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_カダインウルスラ JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_カダインニノ JID_MAGE // MVID_歩行 WID_赤魔
-#define JID_カダインベレト JID_MAGE // MVID_歩行 WID_青魔
-#define JID_カダインセネリオ JID_MAGE // MVID_歩行 WID_青魔
-#define JID_魔器アルフレッド JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_リュール女 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_セリーヌ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_クロエ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_エーティエ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ルミエル JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_神階フォデス JID_MANAKETE // MVID_重装 WID_無獣
-#define JID_神階ガトー JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_比翼エリーゼ JID_TROUBADOUR // MVID_騎馬 WID_杖
-#define JID_愛の祭タクミ JID_ARMOR // MVID_重装 WID_青魔
-#define JID_愛の祭レオン JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_愛の祭カザハナ JID_ARMOR // MVID_重装 WID_剣
-#define JID_愛の祭エルフィ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_開花エリンシア JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_ジョフレ JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_ルキノ JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ユリシーズ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ルドベック JID_ARMOR // MVID_重装 WID_斧
-#define JID_伝承ルフレ男 JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_双界カアラ JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_春祭スカビオサ JID_DANCER // MVID_飛行 WID_無魔
-#define JID_春祭ベルナデッタ JID_NOMAD // MVID_騎馬 WID_青弓
-#define JID_春祭アッシュ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤暗
-#define JID_春祭ミシェイル JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_魔器ターナ JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
-#define JID_ギリアム JID_ARMOR // MVID_重装 WID_槍
-#define JID_ヴァネッサ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_シレーネ JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_ヴィガルド JID_ARMOR // MVID_重装 WID_槍
-#define JID_伝承ユーリス JID_THIEF // MVID_歩行 WID_赤暗
-#define JID_比翼軍師マーク JID_MAGE // MVID_歩行 WID_青魔
-#define JID_幼少エリウッド JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_幼少ヘクトル JID_ARMOR // MVID_重装 WID_斧
-#define JID_幼少レベッカ JID_ARCHER // MVID_歩行 WID_弓
-#define JID_幼少ルセア JID_PRIEST // MVID_歩行 WID_杖
-#define JID_魔器イングリット JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_フェリクス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_シルヴァン JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_レア JID_MANAKETE // MVID_歩行 WID_無竜
-#define JID_コルネリア JID_PRIEST // MVID_歩行 WID_杖
-#define JID_魔器闇クロム JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_闇ベレス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_闇マリア JID_PRIEST // MVID_歩行 WID_杖
-#define JID_闇ハイドラ JID_MANAKETE // MVID_重装 WID_青竜
-#define JID_闇ライナス JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_双界チキ覚醒 JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_花嫁アンナ覚醒 JID_NOMAD // MVID_騎馬 WID_緑弓
-#define JID_花嫁サイリ JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_花嫁フラヴィア JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_花婿ルフレ男 JID_TROUBADOUR // MVID_騎馬 WID_赤魔
-#define JID_伝承ヒノカ JID_PEGASUSKNIGHT // MVID_飛行 WID_赤弓
-#define JID_開花フィル JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_サウル JID_PRIEST // MVID_歩行 WID_杖
-#define JID_ドロシー JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ノア JID_CAVALIER // MVID_騎馬 WID_槍
-#define JID_マードック JID_ARMOR // MVID_重装 WID_斧
-#define JID_比翼シャミア JID_NOMAD // MVID_騎馬 WID_青弓
-#define JID_水着シェズ女 JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_水着ラーチェル JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
-#define JID_水着エフラム JID_CAVALIER // MVID_騎馬 WID_斧
-#define JID_水着シェズ男 JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_伝承ギネヴィア JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_比翼ユーミル JID_SHAMAN // MVID_歩行 WID_無魔
-#define JID_水着フィヨルム JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_水着アイビー JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_水着サーリャ JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_水着ドニ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_魔器アイト JID_MANAKETE_F // MVID_騎馬 WID_青獣
-#define JID_魔器スタルーク JID_ARCHER // MVID_歩行 WID_弓
-#define JID_ディアマンド JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ラピス JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_シトリニカ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_リュール男 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_セピア JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
-#define JID_双界アイラ JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_お茶会リシテア JID_PEGASUSKNIGHT // MVID_飛行 WID_無魔
-#define JID_お茶会フェルディ JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
-#define JID_お茶会シグルド JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_お茶会ティルテュ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_総選挙ルフレ男 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_総選挙セネリオ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_総選挙グルヴェイグ JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
-#define JID_総選挙カムイ女 JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_ツィリル JID_ARCHER // MVID_歩行 WID_赤弓
-#define JID_伝承リュール女 JID_MANAKETE // MVID_歩行 WID_緑竜
-#define JID_比翼カゲロウ JID_NOMAD // MVID_騎馬 WID_暗
-#define JID_風部族ダグ JID_CAVALIER // MVID_騎馬 WID_剣
-#define JID_風部族カチュア JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
-#define JID_風部族クロード JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
-#define JID_風部族フウガ JID_FIGHTER // MVID_歩行 WID_斧
-#define JID_魔器プルメリア JID_DANCER // MVID_飛行 WID_青魔
-#define JID_開花セティ JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_フィー JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_パティ JID_THIEF // MVID_歩行 WID_暗
-#define JID_ファバル JID_ARCHER // MVID_歩行 WID_青弓
-#define JID_アリオーン JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
-#define JID_伝承エリンシア JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
-#define JID_フード無印 JID_MYRMIDON // MVID_歩行 WID_剣
-#define JID_ファフニール2 JID_MANAKETE // MVID_重装 WID_無竜
-#define JID_ヴェロニカ洗脳 JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_レティシア洗脳 JID_TROUBADOUR // MVID_騎馬 WID_緑魔
-#define JID_ブルーノ洗脳 JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_ヴェロニカ洗脳2 JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ブルーノ素顔 JID_TROUBADOUR // MVID_騎馬 WID_青魔
-#define JID_ヘイズ敵0 JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ヘイズ敵 JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_マルス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_マルス_PROMOTED JID_SWORDMASTER
+#define JID_オグマ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_オグマ_PROMOTED JID_SWORDMASTER
+#define JID_ナバール_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ナバール_PROMOTED JID_SWORDMASTER
+#define JID_ロイ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ロイ_PROMOTED JID_SWORDMASTER
+#define JID_フィル_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_フィル_PROMOTED JID_SWORDMASTER
+#define JID_リン_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_リン_PROMOTED JID_SWORDMASTER
+#define JID_クロム_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_クロム_PROMOTED JID_SWORDMASTER
+#define JID_ルキナ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ルキナ_PROMOTED JID_SWORDMASTER
+#define JID_ロンクー_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ロンクー_PROMOTED JID_SWORDMASTER
+#define JID_オリヴィエ_UNPROMOTED JID_DANCER // MVID_歩行 WID_剣
+#define JID_オリヴィエ_PROMOTED JID_DANCER
+#define JID_カムイ男_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_カムイ男_PROMOTED JID_SWORDMASTER
+#define JID_リョウマ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_リョウマ_PROMOTED JID_SWORDMASTER
+#define JID_カザハナ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_カザハナ_PROMOTED JID_SWORDMASTER
+#define JID_ヒナタ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ヒナタ_PROMOTED JID_SWORDMASTER
+#define JID_ラズワルド_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ラズワルド_PROMOTED JID_SWORDMASTER
+#define JID_ルーナ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ルーナ_PROMOTED JID_SWORDMASTER
+#define JID_ドーガ_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_ドーガ_PROMOTED JID_GENERAL
+#define JID_ゼフィール_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_ゼフィール_PROMOTED JID_GENERAL
+#define JID_カイン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_カイン_PROMOTED JID_PALADIN
+#define JID_エリウッド_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_エリウッド_PROMOTED JID_PALADIN
+#define JID_ソール_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ソール_PROMOTED JID_PALADIN
+#define JID_シーダ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_シーダ_PROMOTED JID_FALCONKNIGHT
+#define JID_パオラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_パオラ_PROMOTED JID_FALCONKNIGHT
+#define JID_ドニ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_ドニ_PROMOTED JID_HALBERDIER
+#define JID_オボロ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_オボロ_PROMOTED JID_HALBERDIER
+#define JID_アクア_UNPROMOTED JID_DANCER // MVID_歩行 WID_槍
+#define JID_アクア_PROMOTED JID_DANCER
+#define JID_ウェンディ_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_ウェンディ_PROMOTED JID_GENERAL
+#define JID_エルフィ_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_エルフィ_PROMOTED JID_GENERAL
+#define JID_ジェイガン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ジェイガン_PROMOTED JID_PALADIN
+#define JID_アベル_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_アベル_PROMOTED JID_PALADIN
+#define JID_カミュ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_カミュ_PROMOTED JID_PALADIN
+#define JID_ソワレ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ソワレ_PROMOTED JID_PALADIN
+#define JID_ピエリ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ピエリ_PROMOTED JID_PALADIN
+#define JID_カチュア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_カチュア_PROMOTED JID_FALCONKNIGHT
+#define JID_エスト_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_エスト_PROMOTED JID_FALCONKNIGHT
+#define JID_シャニー_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_シャニー_PROMOTED JID_FALCONKNIGHT
+#define JID_フロリーナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_フロリーナ_PROMOTED JID_FALCONKNIGHT
+#define JID_ティアモ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ティアモ_PROMOTED JID_FALCONKNIGHT
+#define JID_ヒノカ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ヒノカ_PROMOTED JID_FALCONKNIGHT
+#define JID_ツバキ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ツバキ_PROMOTED JID_FALCONKNIGHT
+#define JID_バーツ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_バーツ_PROMOTED JID_WARRIOR
+#define JID_バアトル_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_バアトル_PROMOTED JID_WARRIOR
+#define JID_レイヴァン_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_レイヴァン_PROMOTED JID_WARRIOR
+#define JID_ホークアイ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ホークアイ_PROMOTED JID_WARRIOR
+#define JID_ハロルド_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ハロルド_PROMOTED JID_WARRIOR
+#define JID_シーマ_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_シーマ_PROMOTED JID_GENERAL
+#define JID_ヘクトル_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_ヘクトル_PROMOTED JID_GENERAL
+#define JID_フレデリク_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_フレデリク_PROMOTED JID_PALADIN
+#define JID_ギュンター_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_ギュンター_PROMOTED JID_PALADIN
+#define JID_ミネルバ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_ミネルバ_PROMOTED JID_FALCONKNIGHT
+#define JID_ミシェイル_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_ミシェイル_PROMOTED JID_FALCONKNIGHT
+#define JID_ナーシェン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_ナーシェン_PROMOTED JID_FALCONKNIGHT
+#define JID_セルジュ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_セルジュ_PROMOTED JID_FALCONKNIGHT
+#define JID_カミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_カミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_ベルカ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_ベルカ_PROMOTED JID_FALCONKNIGHT
+#define JID_ゴードン_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ゴードン_PROMOTED JID_SNIPER
+#define JID_ジョルジュ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ジョルジュ_PROMOTED JID_SNIPER
+#define JID_セツナ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_セツナ_PROMOTED JID_SNIPER
+#define JID_ゼロ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ゼロ_PROMOTED JID_SNIPER
+#define JID_ガイア_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ガイア_PROMOTED JID_ASSASSIN
+#define JID_フェリシア_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_フェリシア_PROMOTED JID_ASSASSIN
+#define JID_ジョーカー_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ジョーカー_PROMOTED JID_ASSASSIN
+#define JID_サイゾウ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_サイゾウ_PROMOTED JID_ASSASSIN
+#define JID_カゲロウ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_カゲロウ_PROMOTED JID_ASSASSIN
+#define JID_リリーナ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_リリーナ_PROMOTED JID_SAGE
+#define JID_ソフィーヤ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ソフィーヤ_PROMOTED JID_SAGE
+#define JID_サーリャ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_サーリャ_PROMOTED JID_SAGE
+#define JID_ヘンリー_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ヘンリー_PROMOTED JID_SAGE
+#define JID_レオン_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_レオン_PROMOTED JID_VALKYRIE
+#define JID_リンダ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_リンダ_PROMOTED JID_SAGE
+#define JID_ルフレ男_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ルフレ男_PROMOTED JID_SAGE
+#define JID_オーディン_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_オーディン_PROMOTED JID_SAGE
+#define JID_ウルスラ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_ウルスラ_PROMOTED JID_VALKYRIE
+#define JID_マリク_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_マリク_PROMOTED JID_SAGE
+#define JID_ニノ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ニノ_PROMOTED JID_SAGE
+#define JID_ルフレ女_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ルフレ女_PROMOTED JID_SAGE
+#define JID_セシリア_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_セシリア_PROMOTED JID_VALKYRIE
+#define JID_リフ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_リフ_PROMOTED JID_BISHOP
+#define JID_マリア_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_マリア_PROMOTED JID_BISHOP
+#define JID_セーラ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_セーラ_PROMOTED JID_BISHOP
+#define JID_リズ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_リズ_PROMOTED JID_BISHOP
+#define JID_サクラ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_サクラ_PROMOTED JID_BISHOP
+#define JID_アサマ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_アサマ_PROMOTED JID_BISHOP
+#define JID_クラリーネ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_クラリーネ_PROMOTED JID_VALKYRIE
+#define JID_エリーゼ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_エリーゼ_PROMOTED JID_VALKYRIE
+#define JID_チキ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_チキ_PROMOTED JID_MANAKETE
+#define JID_チキ覚醒_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_チキ覚醒_PROMOTED JID_MANAKETE
+#define JID_ノノ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_ノノ_PROMOTED JID_MANAKETE
+#define JID_カムイ女_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_カムイ女_PROMOTED JID_MANAKETE
+#define JID_ファ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_ファ_PROMOTED JID_MANAKETE
+#define JID_エイリーク_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_エイリーク_PROMOTED JID_SWORDMASTER
+#define JID_エフラム_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_エフラム_PROMOTED JID_HALBERDIER
+#define JID_セリス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_セリス_PROMOTED JID_SWORDMASTER
+#define JID_ユリア_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ユリア_PROMOTED JID_SAGE
+#define JID_サナキ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_サナキ_PROMOTED JID_SAGE
+#define JID_クレイン_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_クレイン_PROMOTED JID_SNIPER
+#define JID_ラインハルト_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_ラインハルト_PROMOTED JID_VALKYRIE
+#define JID_オルエン_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_オルエン_PROMOTED JID_VALKYRIE
+#define JID_エルトシャン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_エルトシャン_PROMOTED JID_PALADIN
+#define JID_ラケシス_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ラケシス_PROMOTED JID_BISHOP
+#define JID_ルセア_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ルセア_PROMOTED JID_BISHOP
+#define JID_ジャファル_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ジャファル_PROMOTED JID_ASSASSIN
+#define JID_レベッカ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_レベッカ_PROMOTED JID_SNIPER
+#define JID_カレル_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_カレル_PROMOTED JID_SWORDMASTER
+#define JID_プリシラ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_プリシラ_PROMOTED JID_VALKYRIE
+#define JID_ニニアン_UNPROMOTED JID_DANCER // MVID_歩行 WID_青竜
+#define JID_ニニアン_PROMOTED JID_DANCER
+#define JID_春祭クロム_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_春祭クロム_PROMOTED JID_WARRIOR
+#define JID_春祭マークス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_春祭マークス_PROMOTED JID_PALADIN
+#define JID_春祭ルキナ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_春祭ルキナ_PROMOTED JID_SAGE
+#define JID_春祭カミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_春祭カミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_アルム_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_アルム_PROMOTED JID_SWORDMASTER
+#define JID_エフィ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_エフィ_PROMOTED JID_SNIPER
+#define JID_クレア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_クレア_PROMOTED JID_FALCONKNIGHT
+#define JID_ルカ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_ルカ_PROMOTED JID_HALBERDIER
+#define JID_アイク_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_アイク_PROMOTED JID_SWORDMASTER
+#define JID_セネリオ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_セネリオ_PROMOTED JID_SAGE
+#define JID_ミスト_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ミスト_PROMOTED JID_BISHOP
+#define JID_ティアマト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_ティアマト_PROMOTED JID_PALADIN
+#define JID_セリカ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_セリカ_PROMOTED JID_SAGE
+#define JID_メイ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_メイ_PROMOTED JID_SAGE
+#define JID_ボーイ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ボーイ_PROMOTED JID_SAGE
+#define JID_ジェニー_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ジェニー_PROMOTED JID_BISHOP
+#define JID_ロイド_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ロイド_PROMOTED JID_SWORDMASTER
+#define JID_花嫁シーダ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_花嫁シーダ_PROMOTED JID_SAGE
+#define JID_花嫁リン_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_花嫁リン_PROMOTED JID_BISHOP
+#define JID_花嫁ティアモ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_花嫁ティアモ_PROMOTED JID_SNIPER
+#define JID_花嫁シャーロッテ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_花嫁シャーロッテ_PROMOTED JID_HALBERDIER
+#define JID_仮面ルキナ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_仮面ルキナ_PROMOTED JID_SWORDMASTER
+#define JID_ルーク_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ルーク_PROMOTED JID_PALADIN
+#define JID_ロディ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ロディ_PROMOTED JID_PALADIN
+#define JID_アテナ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_アテナ_PROMOTED JID_SWORDMASTER
+#define JID_カタリナ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_カタリナ_PROMOTED JID_SAGE
+#define JID_ローロー_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ローロー_PROMOTED JID_WARRIOR
+#define JID_クライネ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_クライネ_PROMOTED JID_SNIPER
+#define JID_水着ガイア_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_水着ガイア_PROMOTED JID_SNIPER
+#define JID_水着フレデリク_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_水着フレデリク_PROMOTED JID_ASSASSIN
+#define JID_水着ルフレ女_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_水着ルフレ女_PROMOTED JID_HALBERDIER
+#define JID_水着チキ覚醒_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_水着チキ覚醒_PROMOTED JID_WARRIOR
+#define JID_ロビン_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ロビン_PROMOTED JID_SWORDMASTER
+#define JID_デューテ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_デューテ_PROMOTED JID_SAGE
+#define JID_グレイ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_グレイ_PROMOTED JID_SWORDMASTER
+#define JID_マチルダ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_マチルダ_PROMOTED JID_PALADIN
+#define JID_クレーベ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_クレーベ_PROMOTED JID_PALADIN
+#define JID_セーバー_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_セーバー_PROMOTED JID_SWORDMASTER
+#define JID_ソニア_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ソニア_PROMOTED JID_SAGE
+#define JID_レオ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_レオ_PROMOTED JID_SNIPER
+#define JID_ベルクト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ベルクト_PROMOTED JID_PALADIN
+#define JID_水着レオン_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_水着レオン_PROMOTED JID_SAGE
+#define JID_水着マークス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_水着マークス_PROMOTED JID_WARRIOR
+#define JID_水着カムイ女_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_水着カムイ女_PROMOTED JID_FALCONKNIGHT
+#define JID_水着エリーゼ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_水着エリーゼ_PROMOTED JID_SAGE
+#define JID_ゼト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ゼト_PROMOTED JID_PALADIN
+#define JID_ヒーニアス_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ヒーニアス_PROMOTED JID_SNIPER
+#define JID_アメリア_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_アメリア_PROMOTED JID_GENERAL
+#define JID_ターナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ターナ_PROMOTED JID_FALCONKNIGHT
+#define JID_ヴァルター_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ヴァルター_PROMOTED JID_FALCONKNIGHT
+#define JID_総選挙アイク_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_総選挙アイク_PROMOTED JID_WARRIOR
+#define JID_総選挙ロイ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_総選挙ロイ_PROMOTED JID_PALADIN
+#define JID_総選挙リン_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_総選挙リン_PROMOTED JID_NOMADTROOPER
+#define JID_総選挙ルキナ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_総選挙ルキナ_PROMOTED JID_HALBERDIER
+#define JID_オスカー_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_オスカー_PROMOTED JID_PALADIN
+#define JID_エリンシア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_エリンシア_PROMOTED JID_FALCONKNIGHT
+#define JID_ネフェニー_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_ネフェニー_PROMOTED JID_HALBERDIER
+#define JID_漆黒の騎士_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_漆黒の騎士_PROMOTED JID_GENERAL
+#define JID_舞踏祭アズール_UNPROMOTED JID_DANCER // MVID_歩行 WID_緑魔
+#define JID_舞踏祭アズール_PROMOTED JID_DANCER
+#define JID_舞踏祭シグレ_UNPROMOTED JID_DANCER // MVID_歩行 WID_青魔
+#define JID_舞踏祭シグレ_PROMOTED JID_DANCER
+#define JID_舞踏祭オリヴィエ_UNPROMOTED JID_DANCER // MVID_歩行 WID_暗
+#define JID_舞踏祭オリヴィエ_PROMOTED JID_DANCER
+#define JID_舞踏祭黒アクア_UNPROMOTED JID_DANCER // MVID_歩行 WID_斧
+#define JID_舞踏祭黒アクア_PROMOTED JID_DANCER
+#define JID_シグルド_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_シグルド_PROMOTED JID_PALADIN
+#define JID_アイラ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_アイラ_PROMOTED JID_SWORDMASTER
+#define JID_ディアドラ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ディアドラ_PROMOTED JID_SAGE
+#define JID_ティルテュ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ティルテュ_PROMOTED JID_SAGE
+#define JID_アーダン_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_アーダン_PROMOTED JID_GENERAL
+#define JID_アルヴィス_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_アルヴィス_PROMOTED JID_SAGE
+#define JID_ハロヘンリー_UNPROMOTED JID_ARMOR // MVID_重装 WID_緑魔
+#define JID_ハロヘンリー_PROMOTED JID_GENERAL
+#define JID_ハロノノ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_ハロノノ_PROMOTED JID_FALCONKNIGHT
+#define JID_ハロジョーカー_UNPROMOTED JID_ARMOR // MVID_重装 WID_弓
+#define JID_ハロジョーカー_PROMOTED JID_GENERAL
+#define JID_ハロサクラ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ハロサクラ_PROMOTED JID_ASSASSIN
+#define JID_ドルカス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ドルカス_PROMOTED JID_WARRIOR
+#define JID_ルーテ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ルーテ_PROMOTED JID_SAGE
+#define JID_ワユ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ワユ_PROMOTED JID_SWORDMASTER
+#define JID_ヨシュア_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ヨシュア_PROMOTED JID_SWORDMASTER
+#define JID_オーシン_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_オーシン_PROMOTED JID_WARRIOR
+#define JID_マリータ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_マリータ_PROMOTED JID_SWORDMASTER
+#define JID_タニア_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_タニア_PROMOTED JID_SNIPER
+#define JID_エーヴェル_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_エーヴェル_PROMOTED JID_SWORDMASTER
+#define JID_ケンプフ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ケンプフ_PROMOTED JID_PALADIN
+#define JID_比翼マルス_UNPROMOTED JID_ARMOR // MVID_重装 WID_弓
+#define JID_比翼マルス_PROMOTED JID_GENERAL
+#define JID_冬祭ニノ_UNPROMOTED JID_ARMOR // MVID_重装 WID_青魔
+#define JID_冬祭ニノ_PROMOTED JID_GENERAL
+#define JID_冬祭若ゼフィール_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_冬祭若ゼフィール_PROMOTED JID_GENERAL
+#define JID_冬祭ソティス_UNPROMOTED JID_MANAKETE // MVID_重装 WID_緑竜
+#define JID_冬祭ソティス_PROMOTED JID_MANAKETE
+#define JID_冬祭ジャファル_UNPROMOTED JID_ARMOR // MVID_重装 WID_緑暗
+#define JID_冬祭ジャファル_PROMOTED JID_GENERAL
+#define JID_伝承セリカ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_伝承セリカ_PROMOTED JID_SAGE
+#define JID_比翼アルフォンス_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_比翼アルフォンス_PROMOTED JID_SAGE
+#define JID_年明レテ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_緑獣
+#define JID_年明レテ_PROMOTED JID_MANAKETE_F
+#define JID_年明キヌ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_無獣
+#define JID_年明キヌ_PROMOTED JID_MANAKETE_F
+#define JID_年明アンナ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_年明アンナ_PROMOTED JID_SNIPER
+#define JID_年明エイル_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤暗
+#define JID_年明エイル_PROMOTED JID_FALCONKNIGHT
+#define JID_ラクチェ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ラクチェ_PROMOTED JID_SWORDMASTER
+#define JID_シャナン_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_シャナン_PROMOTED JID_SWORDMASTER
+#define JID_セティ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_セティ_PROMOTED JID_SAGE
+#define JID_アルテナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_アルテナ_PROMOTED JID_FALCONKNIGHT
+#define JID_トラバント_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_トラバント_PROMOTED JID_FALCONKNIGHT
+#define JID_つばさ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_つばさ_PROMOTED JID_FALCONKNIGHT
+#define JID_まもり_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_まもり_PROMOTED JID_GENERAL
+#define JID_霧亜_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_霧亜_PROMOTED JID_SAGE
+#define JID_エレオノーラ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_エレオノーラ_PROMOTED JID_SNIPER
+#define JID_樹_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_樹_PROMOTED JID_SWORDMASTER
+#define JID_比翼アルム_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_比翼アルム_PROMOTED JID_WARRIOR
+#define JID_愛の祭ルドルフ_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_愛の祭ルドルフ_PROMOTED JID_GENERAL
+#define JID_愛の祭エフィ_UNPROMOTED JID_ARMOR // MVID_重装 WID_弓
+#define JID_愛の祭エフィ_PROMOTED JID_GENERAL
+#define JID_愛の祭コンラート_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_愛の祭コンラート_PROMOTED JID_PALADIN
+#define JID_愛の祭シルク_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_愛の祭シルク_PROMOTED JID_VALKYRIE
+#define JID_ニルス_UNPROMOTED JID_DANCER // MVID_歩行 WID_青竜
+#define JID_ニルス_PROMOTED JID_DANCER
+#define JID_フィオーラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_フィオーラ_PROMOTED JID_FALCONKNIGHT
+#define JID_レイラ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_レイラ_PROMOTED JID_ASSASSIN
+#define JID_ラス_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_ラス_PROMOTED JID_NOMADTROOPER
+#define JID_ヒース_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ヒース_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承クロム_UNPROMOTED JID_ARCHER // MVID_歩行 WID_青弓
+#define JID_伝承クロム_PROMOTED JID_SNIPER
+#define JID_フェルディナント_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_フェルディナント_PROMOTED JID_PALADIN
+#define JID_リシテア_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_リシテア_PROMOTED JID_SAGE
+#define JID_ベルナデッタ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_ベルナデッタ_PROMOTED JID_NOMADTROOPER
+#define JID_アネット_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_アネット_PROMOTED JID_WARRIOR
+#define JID_炎帝_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_炎帝_PROMOTED JID_GENERAL
+#define JID_比翼イドゥン_UNPROMOTED JID_MANAKETE // MVID_重装 WID_赤竜
+#define JID_比翼イドゥン_PROMOTED JID_MANAKETE
+#define JID_春祭エスト_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_春祭エスト_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭フィル_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_春祭フィル_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭ナーシェン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_春祭ナーシェン_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭バアトル_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_春祭バアトル_PROMOTED JID_SWORDMASTER
+#define JID_神階ブラミモンド_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_神階ブラミモンド_PROMOTED JID_DRUID
+#define JID_リンカ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_リンカ_PROMOTED JID_WARRIOR
+#define JID_フォレオ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_フォレオ_PROMOTED JID_VALKYRIE
+#define JID_リリス_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青竜
+#define JID_リリス_PROMOTED JID_MANAKETE_F
+#define JID_ミドリコ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_ミドリコ_PROMOTED JID_SNIPER
+#define JID_マクベス_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_マクベス_PROMOTED JID_SAGE
+#define JID_比翼パオラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_比翼パオラ_PROMOTED JID_FALCONKNIGHT
+#define JID_幼少マリク_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_幼少マリク_PROMOTED JID_SAGE
+#define JID_幼少シーダ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_幼少シーダ_PROMOTED JID_FALCONKNIGHT
+#define JID_幼少マルス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_幼少マルス_PROMOTED JID_SWORDMASTER
+#define JID_幼少ミネルバ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_幼少ミネルバ_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承エーデルガルト_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_伝承エーデルガルト_PROMOTED JID_GENERAL
+#define JID_暴走アイク_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_暴走アイク_PROMOTED JID_SWORDMASTER
+#define JID_催眠ユリア_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_催眠ユリア_PROMOTED JID_SAGE
+#define JID_魔王リオン_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_魔王リオン_PROMOTED JID_SAGE
+#define JID_暴走カムイ男_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_暴走カムイ男_PROMOTED JID_MANAKETE
+#define JID_暴走アシュナード_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_暴走アシュナード_PROMOTED JID_FALCONKNIGHT
+#define JID_比翼ミカヤ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_無魔
+#define JID_比翼ミカヤ_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁オボロ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_花嫁オボロ_PROMOTED JID_SWORDMASTER
+#define JID_花嫁ニケ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑獣
+#define JID_花嫁ニケ_PROMOTED JID_MANAKETE
+#define JID_花婿ラフィエル_UNPROMOTED JID_DANCER // MVID_歩行 WID_青獣
+#define JID_花婿ラフィエル_PROMOTED JID_DANCER
+#define JID_花婿ヒナタ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_花婿ヒナタ_PROMOTED JID_WARRIOR
+#define JID_神階ミラ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_無竜
+#define JID_神階ミラ_PROMOTED JID_MANAKETE
+#define JID_覚醒アンナ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_覚醒アンナ_PROMOTED JID_HALBERDIER
+#define JID_ムスタファー_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ムスタファー_PROMOTED JID_WARRIOR
+#define JID_サイリ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_サイリ_PROMOTED JID_SWORDMASTER
+#define JID_エメリナ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_エメリナ_PROMOTED JID_BISHOP
+#define JID_ギャンレル_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ギャンレル_PROMOTED JID_ASSASSIN
+#define JID_双界ワユ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_双界ワユ_PROMOTED JID_NOMADTROOPER
+#define JID_水着セライナ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_水着セライナ_PROMOTED JID_VALKYRIE
+#define JID_水着ルーテ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_水着ルーテ_PROMOTED JID_FALCONKNIGHT
+#define JID_水着ヨシュア_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_水着ヨシュア_PROMOTED JID_SNIPER
+#define JID_水着キルロイ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_水着キルロイ_PROMOTED JID_BISHOP
+#define JID_伝承セリス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_伝承セリス_PROMOTED JID_PALADIN
+#define JID_比翼ベレス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_比翼ベレス_PROMOTED JID_FALCONKNIGHT
+#define JID_水着ドロテア_UNPROMOTED JID_DANCER // MVID_歩行 WID_暗
+#define JID_水着ドロテア_PROMOTED JID_DANCER
+#define JID_水着イングリット_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_水着イングリット_PROMOTED JID_FALCONKNIGHT
+#define JID_水着シルヴァン_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_水着シルヴァン_PROMOTED JID_VALKYRIE
+#define JID_水着ローレンツ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_水着ローレンツ_PROMOTED JID_SAGE
+#define JID_クリス男_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_クリス男_PROMOTED JID_SWORDMASTER
+#define JID_クリス女_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_クリス女_PROMOTED JID_HALBERDIER
+#define JID_ジュリアン_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ジュリアン_PROMOTED JID_ASSASSIN
+#define JID_レナ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_レナ_PROMOTED JID_BISHOP
+#define JID_エレミヤ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_エレミヤ_PROMOTED JID_BISHOP
+#define JID_双界ヴェロニカ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_双界ヴェロニカ_PROMOTED JID_PALADIN
+#define JID_海賊ギース_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_海賊ギース_PROMOTED JID_HALBERDIER
+#define JID_海賊ブリギッド_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_海賊ブリギッド_PROMOTED JID_SNIPER
+#define JID_海賊ティバーン_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_無獣
+#define JID_海賊ティバーン_PROMOTED JID_MANAKETE_F
+#define JID_海賊ダロス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_海賊ダロス_PROMOTED JID_WARRIOR
+#define JID_総選挙ディミトリ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_総選挙ディミトリ_PROMOTED JID_HALBERDIER
+#define JID_総選挙クロード_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_総選挙クロード_PROMOTED JID_FALCONKNIGHT
+#define JID_総選挙エーデル_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_総選挙エーデル_PROMOTED JID_GENERAL
+#define JID_総選挙リシテア_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_総選挙リシテア_PROMOTED JID_SAGE
+#define JID_ジョージ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_青弓
+#define JID_ジョージ_PROMOTED JID_SNIPER
+#define JID_伝承カムイ女_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_無竜
+#define JID_伝承カムイ女_PROMOTED JID_MANAKETE
+#define JID_比翼シグルド_UNPROMOTED JID_DANCER // MVID_騎馬 WID_赤魔
+#define JID_比翼シグルド_PROMOTED JID_DANCER
+#define JID_舞踏キュアン_UNPROMOTED JID_DANCER // MVID_飛行 WID_青弓
+#define JID_舞踏キュアン_PROMOTED JID_DANCER
+#define JID_舞踏エスリン_UNPROMOTED JID_DANCER // MVID_飛行 WID_暗
+#define JID_舞踏エスリン_PROMOTED JID_DANCER
+#define JID_舞踏ラケシス_UNPROMOTED JID_DANCER // MVID_飛行 WID_緑暗
+#define JID_舞踏ラケシス_PROMOTED JID_DANCER
+#define JID_舞踏エルトシャン_UNPROMOTED JID_DANCER // MVID_飛行 WID_槍
+#define JID_舞踏エルトシャン_PROMOTED JID_DANCER
+#define JID_ジル_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_ジル_PROMOTED JID_FALCONKNIGHT
+#define JID_イレース_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_イレース_PROMOTED JID_SAGE
+#define JID_シノン_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_シノン_PROMOTED JID_SNIPER
+#define JID_ガトリー_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_ガトリー_PROMOTED JID_GENERAL
+#define JID_プラハ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_プラハ_PROMOTED JID_PALADIN
+#define JID_双界チキ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青竜
+#define JID_双界チキ_PROMOTED JID_MANAKETE_F
+#define JID_ハロチェイニー_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_ハロチェイニー_PROMOTED JID_DRUID
+#define JID_ハロルフレ女_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_緑竜
+#define JID_ハロルフレ女_PROMOTED JID_MANAKETE_F
+#define JID_ハロデギンハンザー_UNPROMOTED JID_MANAKETE // MVID_重装 WID_赤竜
+#define JID_ハロデギンハンザー_PROMOTED JID_MANAKETE
+#define JID_ハロイナ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_ハロイナ_PROMOTED JID_MANAKETE
+#define JID_シャミア_UNPROMOTED JID_ARCHER // MVID_歩行 WID_緑弓
+#define JID_シャミア_PROMOTED JID_SNIPER
+#define JID_カトリーヌ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_カトリーヌ_PROMOTED JID_SWORDMASTER
+#define JID_セテス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_セテス_PROMOTED JID_FALCONKNIGHT
+#define JID_フレン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_フレン_PROMOTED JID_FALCONKNIGHT
+#define JID_ネメシス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ネメシス_PROMOTED JID_SWORDMASTER
+#define JID_伝承ディミトリ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_伝承ディミトリ_PROMOTED JID_HALBERDIER
+#define JID_比翼リン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
+#define JID_比翼リン_PROMOTED JID_FALCONKNIGHT
+#define JID_忍者ツイハーク_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_忍者ツイハーク_PROMOTED JID_SWORDMASTER
+#define JID_忍者レーヴァテイン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_忍者レーヴァテイン_PROMOTED JID_FALCONKNIGHT
+#define JID_忍者ナバール_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_忍者ナバール_PROMOTED JID_HALBERDIER
+#define JID_忍者カザハナ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_忍者カザハナ_PROMOTED JID_WARRIOR
+#define JID_ギネヴィア_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ギネヴィア_PROMOTED JID_SAGE
+#define JID_ミレディ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ミレディ_PROMOTED JID_FALCONKNIGHT
+#define JID_ディーク_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ディーク_PROMOTED JID_WARRIOR
+#define JID_マリナス_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_マリナス_PROMOTED JID_NOMADTROOPER
+#define JID_ゲイル_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ゲイル_PROMOTED JID_FALCONKNIGHT
+#define JID_デュッセル_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_デュッセル_PROMOTED JID_PALADIN
+#define JID_セライナ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_セライナ_PROMOTED JID_VALKYRIE
+#define JID_ナターシャ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ナターシャ_PROMOTED JID_BISHOP
+#define JID_ノール_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ノール_PROMOTED JID_SAGE
+#define JID_ケセルダ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ケセルダ_PROMOTED JID_WARRIOR
+#define JID_双界オルティナ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_双界オルティナ_PROMOTED JID_SWORDMASTER
+#define JID_冬祭ベルナデッタ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_冬祭ベルナデッタ_PROMOTED JID_VALKYRIE
+#define JID_冬祭ヒルダ_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_冬祭ヒルダ_PROMOTED JID_GENERAL
+#define JID_冬祭セフェラン_UNPROMOTED JID_ARMOR // MVID_重装 WID_杖
+#define JID_冬祭セフェラン_PROMOTED JID_GENERAL
+#define JID_冬祭フェリクス_UNPROMOTED JID_ARMOR // MVID_重装 WID_青弓
+#define JID_冬祭フェリクス_PROMOTED JID_GENERAL
+#define JID_伝承リリーナ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_伝承リリーナ_PROMOTED JID_VALKYRIE
+#define JID_比翼ピアニー_UNPROMOTED JID_DANCER // MVID_飛行 WID_緑魔
+#define JID_比翼ピアニー_PROMOTED JID_DANCER
+#define JID_年明プルメリア_UNPROMOTED JID_DANCER // MVID_飛行 WID_弓
+#define JID_年明プルメリア_PROMOTED JID_DANCER
+#define JID_年明ベロア_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青獣
+#define JID_年明ベロア_PROMOTED JID_MANAKETE
+#define JID_年明ニシキ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_赤獣
+#define JID_年明ニシキ_PROMOTED JID_MANAKETE_F
+#define JID_年明フランネル_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑獣
+#define JID_年明フランネル_PROMOTED JID_MANAKETE
+#define JID_サラ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_サラ_PROMOTED JID_BISHOP
+#define JID_アスベル_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_アスベル_PROMOTED JID_SAGE
+#define JID_ロナン_UNPROMOTED JID_ARCHER // MVID_歩行 WID_青弓
+#define JID_ロナン_PROMOTED JID_SNIPER
+#define JID_ミランダ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ミランダ_PROMOTED JID_SAGE
+#define JID_ベルド_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ベルド_PROMOTED JID_SAGE
+#define JID_双界ドロテア_UNPROMOTED JID_DANCER // MVID_飛行 WID_赤魔
+#define JID_双界ドロテア_PROMOTED JID_DANCER
+#define JID_砂漠カタリナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_砂漠カタリナ_PROMOTED JID_FALCONKNIGHT
+#define JID_砂漠ラファエル_UNPROMOTED JID_ARMOR // MVID_重装 WID_弓
+#define JID_砂漠ラファエル_PROMOTED JID_GENERAL
+#define JID_砂漠サーリャ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_砂漠サーリャ_PROMOTED JID_FALCONKNIGHT
+#define JID_砂漠クリス男_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_砂漠クリス男_PROMOTED JID_PALADIN
+#define JID_神階セイロス_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_神階セイロス_PROMOTED JID_MANAKETE
+#define JID_比翼リーヴ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_比翼リーヴ_PROMOTED JID_VALKYRIE
+#define JID_愛の祭グスタフ_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_愛の祭グスタフ_PROMOTED JID_GENERAL
+#define JID_愛の祭アルフォンス_UNPROMOTED JID_ARMOR // MVID_重装 WID_緑魔
+#define JID_愛の祭アルフォンス_PROMOTED JID_GENERAL
+#define JID_愛の祭ヴェロニカ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_愛の祭ヴェロニカ_PROMOTED JID_VALKYRIE
+#define JID_マーニャ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_マーニャ_PROMOTED JID_FALCONKNIGHT
+#define JID_フュリー_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_フュリー_PROMOTED JID_FALCONKNIGHT
+#define JID_アゼル_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_アゼル_PROMOTED JID_SAGE
+#define JID_レックス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_レックス_PROMOTED JID_PALADIN
+#define JID_ディートバ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ディートバ_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承クロード_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_伝承クロード_PROMOTED JID_FALCONKNIGHT
+#define JID_ドゥドゥ__UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_ドゥドゥ__PROMOTED JID_GENERAL
+#define JID_リンハルト_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_リンハルト_PROMOTED JID_BISHOP
+#define JID_イングリット_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_イングリット_PROMOTED JID_PALADIN
+#define JID_マリアンヌ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_マリアンヌ_PROMOTED JID_SAGE
+#define JID_ソロン_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ソロン_PROMOTED JID_SAGE
+#define JID_双界ミルラ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_無竜
+#define JID_双界ミルラ_PROMOTED JID_MANAKETE_F
+#define JID_春祭ミネルバ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_春祭ミネルバ_PROMOTED JID_PALADIN
+#define JID_春祭アズール_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
+#define JID_春祭アズール_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭セレナ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_春祭セレナ_PROMOTED JID_VALKYRIE
+#define JID_春祭サレフ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_春祭サレフ_PROMOTED JID_PALADIN
+#define JID_ファリナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ファリナ_PROMOTED JID_FALCONKNIGHT
+#define JID_ルイーズ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ルイーズ_PROMOTED JID_SNIPER
+#define JID_パント_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_パント_PROMOTED JID_SAGE
+#define JID_エルク_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_エルク_PROMOTED JID_SAGE
+#define JID_ソーニャ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ソーニャ_PROMOTED JID_SAGE
+#define JID_比翼エイリーク_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_比翼エイリーク_PROMOTED JID_SWORDMASTER
+#define JID_幼少ターナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_幼少ターナ_PROMOTED JID_FALCONKNIGHT
+#define JID_幼少リオン_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_幼少リオン_PROMOTED JID_SAGE
+#define JID_幼少ラーチェル_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_幼少ラーチェル_PROMOTED JID_VALKYRIE
+#define JID_幼少ヒーニアス_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_幼少ヒーニアス_PROMOTED JID_SNIPER
+#define JID_伝承シグルド_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_伝承シグルド_PROMOTED JID_PALADIN
+#define JID_闇ディミトリ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_闇ディミトリ_PROMOTED JID_HALBERDIER
+#define JID_覇骸エーデルガルト_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無獣
+#define JID_覇骸エーデルガルト_PROMOTED JID_MANAKETE
+#define JID_闇マーク男_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_闇マーク男_PROMOTED JID_SAGE
+#define JID_闇マーク女_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_闇マーク女_PROMOTED JID_FALCONKNIGHT
+#define JID_闇オルソン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_闇オルソン_PROMOTED JID_PALADIN
+#define JID_双界外伝カチュア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_双界外伝カチュア_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁ユーノ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_花嫁ユーノ_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁シャニー_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤弓
+#define JID_花嫁シャニー_PROMOTED JID_FALCONKNIGHT
+#define JID_立会人サウル_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_立会人サウル_PROMOTED JID_VALKYRIE
+#define JID_花婿ゼロット_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_花婿ゼロット_PROMOTED JID_PALADIN
+#define JID_神階アスタルテ_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_神階アスタルテ_PROMOTED JID_DRUID
+#define JID_外伝パオラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_外伝パオラ_PROMOTED JID_FALCONKNIGHT
+#define JID_リュート_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_リュート_PROMOTED JID_SAGE
+#define JID_ティータ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ティータ_PROMOTED JID_SAGE
+#define JID_ジーク_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ジーク_PROMOTED JID_PALADIN
+#define JID_フェルナン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_フェルナン_PROMOTED JID_PALADIN
+#define JID_比翼ヒルダ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_比翼ヒルダ_PROMOTED JID_FALCONKNIGHT
+#define JID_水着メルセデス_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_水着メルセデス_PROMOTED JID_VALKYRIE
+#define JID_水着アッシュ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_水着アッシュ_PROMOTED JID_PALADIN
+#define JID_水着カスパル_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_水着カスパル_PROMOTED JID_WARRIOR
+#define JID_水着レオニー_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_水着レオニー_PROMOTED JID_NOMADTROOPER
+#define JID_伝承ベレト_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_伝承ベレト_PROMOTED JID_SAGE
+#define JID_双界シーダ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_双界シーダ_PROMOTED JID_PALADIN
+#define JID_水着フロージ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_赤獣
+#define JID_水着フロージ_PROMOTED JID_MANAKETE_F
+#define JID_水着フレイヤ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_無獣
+#define JID_水着フレイヤ_PROMOTED JID_MANAKETE_F
+#define JID_水着オグマ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_水着オグマ_PROMOTED JID_HALBERDIER
+#define JID_水着ノルン_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_水着ノルン_PROMOTED JID_HALBERDIER
+#define JID_ニフル_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_青竜
+#define JID_ニフル_PROMOTED JID_MANAKETE_F
+#define JID_シャーロッテ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_シャーロッテ_PROMOTED JID_WARRIOR
+#define JID_ニュクス_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ニュクス_PROMOTED JID_SAGE
+#define JID_オロチ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_オロチ_PROMOTED JID_SAGE
+#define JID_ブノワ_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_ブノワ_PROMOTED JID_GENERAL
+#define JID_シェンメイ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_シェンメイ_PROMOTED JID_VALKYRIE
+#define JID_神階ウル_UNPROMOTED JID_ARCHER // MVID_歩行 WID_青弓
+#define JID_神階ウル_PROMOTED JID_SNIPER
+#define JID_比翼ヒノカ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
+#define JID_比翼ヒノカ_PROMOTED JID_FALCONKNIGHT
+#define JID_海賊スルト_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_海賊スルト_PROMOTED JID_GENERAL
+#define JID_海賊ネサラ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_赤獣
+#define JID_海賊ネサラ_PROMOTED JID_MANAKETE_F
+#define JID_海賊ビーゼ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_無獣
+#define JID_海賊ビーゼ_PROMOTED JID_MANAKETE_F
+#define JID_海賊リフィス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_海賊リフィス_PROMOTED JID_WARRIOR
+#define JID_総選挙門番_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_総選挙門番_PROMOTED JID_SAGE
+#define JID_総選挙マルス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_総選挙マルス_PROMOTED JID_SWORDMASTER
+#define JID_総選挙マリアンヌ_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_総選挙マリアンヌ_PROMOTED JID_DRUID
+#define JID_総選挙エイリーク_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_総選挙エイリーク_PROMOTED JID_PALADIN
+#define JID_ペレアス_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ペレアス_PROMOTED JID_SAGE
+#define JID_伝承ミカヤ_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_伝承ミカヤ_PROMOTED JID_DRUID
+#define JID_双界リーフ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_双界リーフ_PROMOTED JID_NOMADTROOPER
+#define JID_聖祭ユリア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_聖祭ユリア_PROMOTED JID_FALCONKNIGHT
+#define JID_聖祭ラクチェ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_聖祭ラクチェ_PROMOTED JID_WARRIOR
+#define JID_聖祭レヴィン_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_聖祭レヴィン_PROMOTED JID_SAGE
+#define JID_聖祭ナンナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_聖祭ナンナ_PROMOTED JID_FALCONKNIGHT
+#define JID_ムスペル_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_赤竜
+#define JID_ムスペル_PROMOTED JID_MANAKETE_F
+#define JID_ユーリス_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ユーリス_PROMOTED JID_ASSASSIN
+#define JID_コンスタンツェ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_コンスタンツェ_PROMOTED JID_FALCONKNIGHT
+#define JID_ハピ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_ハピ_PROMOTED JID_VALKYRIE
+#define JID_バルタザール_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_バルタザール_PROMOTED JID_WARRIOR
+#define JID_アルファルド_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_アルファルド_PROMOTED JID_SAGE
+#define JID_比翼ソティス_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青竜
+#define JID_比翼ソティス_PROMOTED JID_MANAKETE_F
+#define JID_ハロルフレ男_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_ハロルフレ男_PROMOTED JID_MANAKETE
+#define JID_ハロレア_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_ハロレア_PROMOTED JID_MANAKETE
+#define JID_ハロクルトナーガ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_ハロクルトナーガ_PROMOTED JID_MANAKETE
+#define JID_ハロソフィーヤ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_ハロソフィーヤ_PROMOTED JID_FALCONKNIGHT
+#define JID_開花フィヨルム_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_開花フィヨルム_PROMOTED JID_GENERAL
+#define JID_ウルフ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_ウルフ_PROMOTED JID_NOMADTROOPER
+#define JID_ロシェ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ロシェ_PROMOTED JID_PALADIN
+#define JID_マリス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_マリス_PROMOTED JID_SWORDMASTER
+#define JID_ビラク_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_ビラク_PROMOTED JID_PALADIN
+#define JID_ザガロ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_ザガロ_PROMOTED JID_NOMADTROOPER
+#define JID_伝承ファ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_伝承ファ_PROMOTED JID_MANAKETE
+#define JID_比翼カムイ女_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_比翼カムイ女_PROMOTED JID_VALKYRIE
+#define JID_忍者イグレーヌ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
+#define JID_忍者イグレーヌ_PROMOTED JID_FALCONKNIGHT
+#define JID_忍者シノン_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_忍者シノン_PROMOTED JID_SNIPER
+#define JID_忍者カムイ男_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_忍者カムイ男_PROMOTED JID_HALBERDIER
+#define JID_忍者シャミア_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_忍者シャミア_PROMOTED JID_WARRIOR
+#define JID_開花レーギャルン_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_開花レーギャルン_PROMOTED JID_NOMADTROOPER
+#define JID_フォルカ_UNPROMOTED JID_THIEF // MVID_歩行 WID_赤暗
+#define JID_フォルカ_PROMOTED JID_ASSASSIN
+#define JID_マーシャ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_マーシャ_PROMOTED JID_FALCONKNIGHT
+#define JID_ステラ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_ステラ_PROMOTED JID_NOMADTROOPER
+#define JID_タニス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_タニス_PROMOTED JID_FALCONKNIGHT
+#define JID_ベウフォレス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ベウフォレス_PROMOTED JID_PALADIN
+#define JID_トール_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_トール_PROMOTED JID_FALCONKNIGHT
+#define JID_パリス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_パリス_PROMOTED JID_SWORDMASTER
+#define JID_ミリエル_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ミリエル_PROMOTED JID_SAGE
+#define JID_フラヴィア_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_フラヴィア_PROMOTED JID_SWORDMASTER
+#define JID_バジーリオ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_バジーリオ_PROMOTED JID_WARRIOR
+#define JID_レンハ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_レンハ_PROMOTED JID_SWORDMASTER
+#define JID_双界リシテア_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_無魔
+#define JID_双界リシテア_PROMOTED JID_VALKYRIE
+#define JID_冬祭ルピナス_UNPROMOTED JID_DANCER // MVID_飛行 WID_青暗
+#define JID_冬祭ルピナス_PROMOTED JID_DANCER
+#define JID_冬祭アスレイ_UNPROMOTED JID_ARMOR // MVID_重装 WID_緑魔
+#define JID_冬祭アスレイ_PROMOTED JID_GENERAL
+#define JID_冬祭マヌエラ_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_冬祭マヌエラ_PROMOTED JID_GENERAL
+#define JID_冬祭イグナーツ_UNPROMOTED JID_ARMOR // MVID_重装 WID_弓
+#define JID_冬祭イグナーツ_PROMOTED JID_GENERAL
+#define JID_伝承ベレス_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_伝承ベレス_PROMOTED JID_SAGE
+#define JID_比翼ダグ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
+#define JID_比翼ダグ_PROMOTED JID_FALCONKNIGHT
+#define JID_年明レギン_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_年明レギン_PROMOTED JID_VALKYRIE
+#define JID_年明ファフニール_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_赤暗
+#define JID_年明ファフニール_PROMOTED JID_NOMADTROOPER
+#define JID_年明リィレ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_無獣
+#define JID_年明リィレ_PROMOTED JID_MANAKETE_F
+#define JID_年明キサ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤獣
+#define JID_年明キサ_PROMOTED JID_MANAKETE
+#define JID_開花ヨシュア_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_開花ヨシュア_PROMOTED JID_ASSASSIN
+#define JID_レナック_UNPROMOTED JID_THIEF // MVID_歩行 WID_緑暗
+#define JID_レナック_PROMOTED JID_ASSASSIN
+#define JID_コーマ_UNPROMOTED JID_THIEF // MVID_歩行 WID_青暗
+#define JID_コーマ_PROMOTED JID_ASSASSIN
+#define JID_ネイミー_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_ネイミー_PROMOTED JID_SNIPER
+#define JID_アーヴ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_アーヴ_PROMOTED JID_SAGE
+#define JID_双界アクア_UNPROMOTED JID_DANCER // MVID_騎馬 WID_緑魔
+#define JID_双界アクア_PROMOTED JID_DANCER
+#define JID_ハタリカアラ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_ハタリカアラ_PROMOTED JID_HALBERDIER
+#define JID_ハタリニケ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤獣
+#define JID_ハタリニケ_PROMOTED JID_MANAKETE
+#define JID_ハタリチェイニー_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ハタリチェイニー_PROMOTED JID_BISHOP
+#define JID_ハタリディーン_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_ハタリディーン_PROMOTED JID_NOMADTROOPER
+#define JID_神階エリミーヌ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_神階エリミーヌ_PROMOTED JID_FALCONKNIGHT
+#define JID_比翼クロム_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_比翼クロム_PROMOTED JID_SNIPER
+#define JID_愛の祭ルキナ_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_愛の祭ルキナ_PROMOTED JID_GENERAL
+#define JID_愛の祭ルフレ女_UNPROMOTED JID_ARMOR // MVID_重装 WID_無魔
+#define JID_愛の祭ルフレ女_PROMOTED JID_GENERAL
+#define JID_愛の祭ウード_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_愛の祭ウード_PROMOTED JID_PALADIN
+#define JID_愛の祭リズ_UNPROMOTED JID_ARMOR // MVID_重装 WID_杖
+#define JID_愛の祭リズ_PROMOTED JID_GENERAL
+#define JID_開花イドゥン_UNPROMOTED JID_MANAKETE // MVID_重装 WID_青竜
+#define JID_開花イドゥン_PROMOTED JID_MANAKETE
+#define JID_ヒュウ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ヒュウ_PROMOTED JID_SAGE
+#define JID_ニイメ_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_ニイメ_PROMOTED JID_DRUID
+#define JID_キャス_UNPROMOTED JID_THIEF // MVID_歩行 WID_緑暗
+#define JID_キャス_PROMOTED JID_ASSASSIN
+#define JID_ゴンザレス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ゴンザレス_PROMOTED JID_WARRIOR
+#define JID_伝承シーダ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_伝承シーダ_PROMOTED JID_FALCONKNIGHT
+#define JID_双界ソニア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_双界ソニア_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭デューテ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_春祭デューテ_PROMOTED JID_VALKYRIE
+#define JID_春祭ヘンリー_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_春祭ヘンリー_PROMOTED JID_NOMADTROOPER
+#define JID_春祭マリア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_春祭マリア_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭リュート_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_春祭リュート_PROMOTED JID_PALADIN
+#define JID_開花マリータ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_開花マリータ_PROMOTED JID_SWORDMASTER
+#define JID_アウグスト_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_アウグスト_PROMOTED JID_BISHOP
+#define JID_ガルザス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ガルザス_PROMOTED JID_SWORDMASTER
+#define JID_カリン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_カリン_PROMOTED JID_FALCONKNIGHT
+#define JID_セイラム_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_セイラム_PROMOTED JID_SAGE
+#define JID_伝承ナンナ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_伝承ナンナ_PROMOTED JID_PALADIN
+#define JID_比翼アイク_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_比翼アイク_PROMOTED JID_SWORDMASTER
+#define JID_幼少セネリオ_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_幼少セネリオ_PROMOTED JID_DRUID
+#define JID_幼少イレース_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_幼少イレース_PROMOTED JID_SAGE
+#define JID_幼少ワユ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_幼少ワユ_PROMOTED JID_SWORDMASTER
+#define JID_幼少ボーレ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_幼少ボーレ_PROMOTED JID_WARRIOR
+#define JID_開花イシュタル_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_開花イシュタル_PROMOTED JID_SAGE
+#define JID_ティニー_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_ティニー_PROMOTED JID_DRUID
+#define JID_アーサー_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_アーサー_PROMOTED JID_SAGE
+#define JID_スカサハ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_スカサハ_PROMOTED JID_SWORDMASTER
+#define JID_聖戦ヒルダ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_聖戦ヒルダ_PROMOTED JID_SAGE
+#define JID_神階メディウス_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_無竜
+#define JID_神階メディウス_PROMOTED JID_MANAKETE
+#define JID_暴走レア_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_暴走レア_PROMOTED JID_MANAKETE
+#define JID_闇リリス_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_赤竜
+#define JID_闇リリス_PROMOTED JID_MANAKETE_F
+#define JID_催眠ニニアン_UNPROMOTED JID_DANCER // MVID_歩行 WID_青竜
+#define JID_催眠ニニアン_PROMOTED JID_DANCER
+#define JID_闇ムワリム_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青獣
+#define JID_闇ムワリム_PROMOTED JID_MANAKETE
+#define JID_双界ロイ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_双界ロイ_PROMOTED JID_PALADIN
+#define JID_花嫁リリーナ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_花嫁リリーナ_PROMOTED JID_VALKYRIE
+#define JID_花嫁セシリア_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_花嫁セシリア_PROMOTED JID_VALKYRIE
+#define JID_花嫁ソフィーヤ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_花嫁ソフィーヤ_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁ララム_UNPROMOTED JID_DANCER // MVID_飛行 WID_槍
+#define JID_花嫁ララム_PROMOTED JID_DANCER
+#define JID_伝承ミルラ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青竜
+#define JID_伝承ミルラ_PROMOTED JID_MANAKETE_F
+#define JID_開花フロリーナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_開花フロリーナ_PROMOTED JID_FALCONKNIGHT
+#define JID_セイン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_セイン_PROMOTED JID_PALADIN
+#define JID_ケント_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ケント_PROMOTED JID_PALADIN
+#define JID_ギィ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ギィ_PROMOTED JID_SWORDMASTER
+#define JID_リムステラ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_リムステラ_PROMOTED JID_SAGE
+#define JID_双界エーデルガルト_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_双界エーデルガルト_PROMOTED JID_GENERAL
+#define JID_水着ディミトリ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_水着ディミトリ_PROMOTED JID_PALADIN
+#define JID_水着クロード_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青暗
+#define JID_水着クロード_PROMOTED JID_FALCONKNIGHT
+#define JID_水着ミカヤ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_無魔
+#define JID_水着ミカヤ_PROMOTED JID_VALKYRIE
+#define JID_水着エリンシア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
+#define JID_水着エリンシア_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承マークス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_伝承マークス_PROMOTED JID_PALADIN
+#define JID_比翼トール_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_比翼トール_PROMOTED JID_FALCONKNIGHT
+#define JID_水着ニフル_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_無竜
+#define JID_水着ニフル_PROMOTED JID_MANAKETE_F
+#define JID_水着エイリーク_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_水着エイリーク_PROMOTED JID_FALCONKNIGHT
+#define JID_水着リオン_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_水着リオン_PROMOTED JID_SWORDMASTER
+#define JID_水着ゼト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_水着ゼト_PROMOTED JID_PALADIN
+#define JID_ユーミル_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_緑竜
+#define JID_ユーミル_PROMOTED JID_MANAKETE_F
+#define JID_開花セリカ_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_開花セリカ_PROMOTED JID_DRUID
+#define JID_外伝エスト_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_外伝エスト_PROMOTED JID_FALCONKNIGHT
+#define JID_外伝カムイ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_外伝カムイ_PROMOTED JID_SWORDMASTER
+#define JID_アトラス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_アトラス_PROMOTED JID_WARRIOR
+#define JID_盗賊頭_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_盗賊頭_PROMOTED JID_WARRIOR
+#define JID_比翼エポニーヌ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_比翼エポニーヌ_PROMOTED JID_NOMADTROOPER
+#define JID_怪盗キャス_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_怪盗キャス_PROMOTED JID_VALKYRIE
+#define JID_怪盗レイラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_怪盗レイラ_PROMOTED JID_FALCONKNIGHT
+#define JID_怪盗サザ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
+#define JID_怪盗サザ_PROMOTED JID_FALCONKNIGHT
+#define JID_怪盗リカード_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_怪盗リカード_PROMOTED JID_FALCONKNIGHT
+#define JID_総選挙クロム_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_総選挙クロム_PROMOTED JID_PALADIN
+#define JID_総選挙セリス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_総選挙セリス_PROMOTED JID_PALADIN
+#define JID_総選挙覚醒チキ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_総選挙覚醒チキ_PROMOTED JID_MANAKETE
+#define JID_総選挙ベレス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_無魔
+#define JID_総選挙ベレス_PROMOTED JID_FALCONKNIGHT
+#define JID_ジェラルト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ジェラルト_PROMOTED JID_PALADIN
+#define JID_伝承ディアドラ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_伝承ディアドラ_PROMOTED JID_SAGE
+#define JID_双界ターナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
+#define JID_双界ターナ_PROMOTED JID_FALCONKNIGHT
+#define JID_炎部族リン_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_炎部族リン_PROMOTED JID_HALBERDIER
+#define JID_炎部族リンカ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_炎部族リンカ_PROMOTED JID_SWORDMASTER
+#define JID_炎部族ムスペル_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_無竜
+#define JID_炎部族ムスペル_PROMOTED JID_MANAKETE_F
+#define JID_炎部族モゥディ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑獣
+#define JID_炎部族モゥディ_PROMOTED JID_MANAKETE
+#define JID_開花ヒルダ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_開花ヒルダ_PROMOTED JID_WARRIOR
+#define JID_リーヴ2_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_リーヴ2_PROMOTED JID_PALADIN
+#define JID_シェズ男_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_シェズ男_PROMOTED JID_SWORDMASTER
+#define JID_シェズ女_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_シェズ女_PROMOTED JID_WARRIOR
+#define JID_モニカ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_モニカ_PROMOTED JID_SAGE
+#define JID_ホルスト_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ホルスト_PROMOTED JID_SWORDMASTER
+#define JID_伝承ニニアン_UNPROMOTED JID_DANCER // MVID_騎馬 WID_緑竜
+#define JID_伝承ニニアン_PROMOTED JID_DANCER
+#define JID_比翼ドーマ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_赤竜
+#define JID_比翼ドーマ_PROMOTED JID_MANAKETE
+#define JID_ハロカムイ女_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_ハロカムイ女_PROMOTED JID_MANAKETE
+#define JID_ハロナーガ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_無竜
+#define JID_ハロナーガ_PROMOTED JID_MANAKETE_F
+#define JID_ハロカムイ男_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_ハロカムイ男_PROMOTED JID_MANAKETE
+#define JID_ハロニルス_UNPROMOTED JID_DANCER // MVID_歩行 WID_緑竜
+#define JID_ハロニルス_PROMOTED JID_DANCER
+#define JID_開花エイル_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑暗
+#define JID_開花エイル_PROMOTED JID_NOMADTROOPER
+#define JID_魔器ルフレ女_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_魔器ルフレ女_PROMOTED JID_MANAKETE
+#define JID_グレゴ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_グレゴ_PROMOTED JID_SWORDMASTER
+#define JID_リヒト_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_リヒト_PROMOTED JID_SAGE
+#define JID_フィレイン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_フィレイン_PROMOTED JID_FALCONKNIGHT
+#define JID_セルバンテス_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_セルバンテス_PROMOTED JID_GENERAL
+#define JID_神階ラルヴァ_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_神階ラルヴァ_PROMOTED JID_DRUID
+#define JID_比翼レーギャルン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
+#define JID_比翼レーギャルン_PROMOTED JID_FALCONKNIGHT
+#define JID_忍者カミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_忍者カミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_忍者セルジュ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_忍者セルジュ_PROMOTED JID_FALCONKNIGHT
+#define JID_忍者ヒース_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_忍者ヒース_PROMOTED JID_FALCONKNIGHT
+#define JID_忍者ハール_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_忍者ハール_PROMOTED JID_FALCONKNIGHT
+#define JID_開花チキ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_開花チキ_PROMOTED JID_MANAKETE
+#define JID_魔器ガングレト_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_魔器ガングレト_PROMOTED JID_WARRIOR
+#define JID_ニーナ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ニーナ_PROMOTED JID_BISHOP
+#define JID_ハーディン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ハーディン_PROMOTED JID_PALADIN
+#define JID_エリス_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_エリス_PROMOTED JID_BISHOP
+#define JID_マチス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_マチス_PROMOTED JID_PALADIN
+#define JID_ヴェロニカ2_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_ヴェロニカ2_PROMOTED JID_VALKYRIE
+#define JID_ジークベルト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ジークベルト_PROMOTED JID_PALADIN
+#define JID_シノノメ_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_シノノメ_PROMOTED JID_HALBERDIER
+#define JID_ソレイユ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ソレイユ_PROMOTED JID_SWORDMASTER
+#define JID_シャラ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_シャラ_PROMOTED JID_SAGE
+#define JID_冬祭クロム_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_冬祭クロム_PROMOTED JID_GENERAL
+#define JID_冬祭ルフレ男_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_冬祭ルフレ男_PROMOTED JID_GENERAL
+#define JID_冬祭サーリャ_UNPROMOTED JID_ARMOR // MVID_重装 WID_赤魔
+#define JID_冬祭サーリャ_PROMOTED JID_GENERAL
+#define JID_冬祭リズ_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_冬祭リズ_PROMOTED JID_GENERAL
+#define JID_年明けカムイ男_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_年明けカムイ男_PROMOTED JID_SNIPER
+#define JID_年明けタクミ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_年明けタクミ_PROMOTED JID_ASSASSIN
+#define JID_年明けカミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_年明けカミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_年明けアクア_UNPROMOTED JID_DANCER // MVID_飛行 WID_斧
+#define JID_年明けアクア_PROMOTED JID_DANCER
+#define JID_ミカヤ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ミカヤ_PROMOTED JID_SAGE
+#define JID_サザ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_サザ_PROMOTED JID_ASSASSIN
+#define JID_ゼルギウス_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_ゼルギウス_PROMOTED JID_GENERAL
+#define JID_オリヴァー_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_オリヴァー_PROMOTED JID_SAGE
+#define JID_エイリーク2_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_エイリーク2_PROMOTED JID_VALKYRIE
+#define JID_ミルラ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_緑竜
+#define JID_ミルラ_PROMOTED JID_MANAKETE_F
+#define JID_ラーチェル_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_ラーチェル_PROMOTED JID_VALKYRIE
+#define JID_マリカ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_マリカ_PROMOTED JID_SWORDMASTER
+#define JID_リオン_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_リオン_PROMOTED JID_SAGE
+#define JID_伝承アイク_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_伝承アイク_PROMOTED JID_SWORDMASTER
+#define JID_愛の祭ロイ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_愛の祭ロイ_PROMOTED JID_NOMADTROOPER
+#define JID_愛の祭リリーナ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_愛の祭リリーナ_PROMOTED JID_VALKYRIE
+#define JID_愛の祭ヘクトル_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_愛の祭ヘクトル_PROMOTED JID_GENERAL
+#define JID_愛の祭リン_UNPROMOTED JID_ARMOR // MVID_重装 WID_青魔
+#define JID_愛の祭リン_PROMOTED JID_GENERAL
+#define JID_愛の祭エリウッド_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_愛の祭エリウッド_PROMOTED JID_GENERAL
+#define JID_眷属タクミ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_眷属タクミ_PROMOTED JID_SNIPER
+#define JID_魔女セリカ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_魔女セリカ_PROMOTED JID_SWORDMASTER
+#define JID_邪竜ルフレ男_UNPROMOTED JID_MANAKETE // MVID_重装 WID_緑竜
+#define JID_邪竜ルフレ男_PROMOTED JID_MANAKETE
+#define JID_暗黒ハーディン_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_暗黒ハーディン_PROMOTED JID_GENERAL
+#define JID_伝承エフラム_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_伝承エフラム_PROMOTED JID_PALADIN
+#define JID_クロム2_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_クロム2_PROMOTED JID_PALADIN
+#define JID_マーク男_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_マーク男_PROMOTED JID_SAGE
+#define JID_マーク女_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_マーク女_PROMOTED JID_FALCONKNIGHT
+#define JID_ジェローム_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_ジェローム_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭アルフォンス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_春祭アルフォンス_PROMOTED JID_PALADIN
+#define JID_春祭シャロン_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_春祭シャロン_PROMOTED JID_SAGE
+#define JID_春祭カチュア_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_春祭カチュア_PROMOTED JID_VALKYRIE
+#define JID_春祭カゲロウ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
+#define JID_春祭カゲロウ_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承ルフレ女_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_無竜
+#define JID_伝承ルフレ女_PROMOTED JID_MANAKETE_F
+#define JID_ラインハルト2_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_ラインハルト2_PROMOTED JID_PALADIN
+#define JID_オルエン2_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_オルエン2_PROMOTED JID_VALKYRIE
+#define JID_リーフ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_リーフ_PROMOTED JID_SWORDMASTER
+#define JID_ナンナ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_ナンナ_PROMOTED JID_VALKYRIE
+#define JID_フィン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_フィン_PROMOTED JID_PALADIN
+#define JID_サイアス_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_サイアス_PROMOTED JID_SAGE
+#define JID_ヒノカ2_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_ヒノカ2_PROMOTED JID_FALCONKNIGHT
+#define JID_シグレ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_シグレ_PROMOTED JID_FALCONKNIGHT
+#define JID_カンナ女_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_カンナ女_PROMOTED JID_MANAKETE
+#define JID_カンナ男_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_カンナ男_PROMOTED JID_MANAKETE
+#define JID_スズカゼ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_スズカゼ_PROMOTED JID_ASSASSIN
+#define JID_伝承リン_UNPROMOTED JID_ARCHER // MVID_歩行 WID_緑弓
+#define JID_伝承リン_PROMOTED JID_SNIPER
+#define JID_アレス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_アレス_PROMOTED JID_PALADIN
+#define JID_イシュタル_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_イシュタル_PROMOTED JID_SAGE
+#define JID_リーン_UNPROMOTED JID_DANCER // MVID_歩行 WID_剣
+#define JID_リーン_PROMOTED JID_DANCER
+#define JID_ユリウス_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ユリウス_PROMOTED JID_SAGE
+#define JID_花婿マルス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_花婿マルス_PROMOTED JID_PALADIN
+#define JID_花嫁サナキ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_花嫁サナキ_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁サーリャ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_花嫁サーリャ_PROMOTED JID_SAGE
+#define JID_花嫁ニニアン_UNPROMOTED JID_DANCER // MVID_飛行 WID_青魔
+#define JID_花嫁ニニアン_PROMOTED JID_DANCER
+#define JID_伝承リョウマ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_伝承リョウマ_PROMOTED JID_FALCONKNIGHT
+#define JID_ニノ2_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_ニノ2_PROMOTED JID_FALCONKNIGHT
+#define JID_カアラ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_カアラ_PROMOTED JID_SWORDMASTER
+#define JID_ラガルト_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_ラガルト_PROMOTED JID_ASSASSIN
+#define JID_カナス_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_カナス_PROMOTED JID_SAGE
+#define JID_ライナス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ライナス_PROMOTED JID_WARRIOR
+#define JID_水着ノワール_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_水着ノワール_PROMOTED JID_SNIPER
+#define JID_水着ティアモ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_水着ティアモ_PROMOTED JID_PALADIN
+#define JID_水着ターナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_水着ターナ_PROMOTED JID_FALCONKNIGHT
+#define JID_水着ヒーニアス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_水着ヒーニアス_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承ヘクトル_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_伝承ヘクトル_PROMOTED JID_GENERAL
+#define JID_水着タクミ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_水着タクミ_PROMOTED JID_FALCONKNIGHT
+#define JID_水着カミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_水着カミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_水着チキ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_赤竜
+#define JID_水着チキ_PROMOTED JID_MANAKETE_F
+#define JID_水着リンダ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_水着リンダ_PROMOTED JID_NOMADTROOPER
+#define JID_オリヴィエ2_UNPROMOTED JID_DANCER // MVID_飛行 WID_剣
+#define JID_オリヴィエ2_PROMOTED JID_DANCER
+#define JID_スミア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_スミア_PROMOTED JID_FALCONKNIGHT
+#define JID_マリアベル_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_マリアベル_PROMOTED JID_VALKYRIE
+#define JID_リベラ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_リベラ_PROMOTED JID_WARRIOR
+#define JID_ヴァルハルト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_ヴァルハルト_PROMOTED JID_PALADIN
+#define JID_伝承ルキナ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_青弓
+#define JID_伝承ルキナ_PROMOTED JID_SNIPER
+#define JID_夏祭マークス_UNPROMOTED JID_DANCER // MVID_歩行 WID_暗
+#define JID_夏祭マークス_PROMOTED JID_DANCER
+#define JID_夏祭リョウマ_UNPROMOTED JID_DANCER // MVID_歩行 WID_青暗
+#define JID_夏祭リョウマ_PROMOTED JID_DANCER
+#define JID_夏祭エリンシア_UNPROMOTED JID_DANCER // MVID_歩行 WID_緑暗
+#define JID_夏祭エリンシア_PROMOTED JID_DANCER
+#define JID_夏祭ミカヤ_UNPROMOTED JID_DANCER // MVID_歩行 WID_赤魔
+#define JID_夏祭ミカヤ_PROMOTED JID_DANCER
+#define JID_総選挙セリカ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_総選挙セリカ_PROMOTED JID_SWORDMASTER
+#define JID_総選挙ヘクトル_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_総選挙ヘクトル_PROMOTED JID_GENERAL
+#define JID_総選挙エフラム_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_総選挙エフラム_PROMOTED JID_GENERAL
+#define JID_総選挙ヴェロニカ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_総選挙ヴェロニカ_PROMOTED JID_VALKYRIE
+#define JID_伝承マルス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_伝承マルス_PROMOTED JID_SWORDMASTER
+#define JID_ジャムカ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ジャムカ_PROMOTED JID_SNIPER
+#define JID_シルヴィア_UNPROMOTED JID_DANCER // MVID_歩行 WID_剣
+#define JID_シルヴィア_PROMOTED JID_DANCER
+#define JID_キュアン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_キュアン_PROMOTED JID_PALADIN
+#define JID_レヴィン_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_レヴィン_PROMOTED JID_SAGE
+#define JID_エスリン_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_エスリン_PROMOTED JID_VALKYRIE
+#define JID_エポニーヌ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_エポニーヌ_PROMOTED JID_SNIPER
+#define JID_フローラ_UNPROMOTED JID_THIEF // MVID_歩行 WID_赤暗
+#define JID_フローラ_PROMOTED JID_ASSASSIN
+#define JID_オフェリア_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_オフェリア_PROMOTED JID_SAGE
+#define JID_サイラス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_サイラス_PROMOTED JID_PALADIN
+#define JID_ガロン_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_ガロン_PROMOTED JID_MANAKETE
+#define JID_伝承チキ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_青竜
+#define JID_伝承チキ_PROMOTED JID_MANAKETE
+#define JID_ハロカゲロウ_UNPROMOTED JID_ARMOR // MVID_重装 WID_緑暗
+#define JID_ハロカゲロウ_PROMOTED JID_GENERAL
+#define JID_ハロゼロ_UNPROMOTED JID_ARMOR // MVID_重装 WID_青弓
+#define JID_ハロゼロ_PROMOTED JID_GENERAL
+#define JID_ハロミルラ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_赤竜
+#define JID_ハロミルラ_PROMOTED JID_MANAKETE
+#define JID_ハロワユ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_ハロワユ_PROMOTED JID_FALCONKNIGHT
+#define JID_ハロドルカス_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_ハロドルカス_PROMOTED JID_GENERAL
+#define JID_ウード_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ウード_PROMOTED JID_SWORDMASTER
+#define JID_クリフ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_クリフ_PROMOTED JID_SAGE
+#define JID_インバース_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_インバース_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承エイリーク_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_伝承エイリーク_PROMOTED JID_PALADIN
+#define JID_夢カミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_夢カミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_夢カムイ男_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青竜
+#define JID_夢カムイ男_PROMOTED JID_MANAKETE
+#define JID_夢カムイ女_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_夢カムイ女_PROMOTED JID_MANAKETE
+#define JID_夢ミコト_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_夢ミコト_PROMOTED JID_BISHOP
+#define JID_幼少アクア_UNPROMOTED JID_DANCER // MVID_歩行 WID_緑魔
+#define JID_幼少アクア_PROMOTED JID_DANCER
+#define JID_ガーネフ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ガーネフ_PROMOTED JID_SAGE
+#define JID_冬祭エイリーク_UNPROMOTED JID_ARMOR // MVID_重装 WID_杖
+#define JID_冬祭エイリーク_PROMOTED JID_GENERAL
+#define JID_冬祭エフラム_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_冬祭エフラム_PROMOTED JID_GENERAL
+#define JID_冬祭ファ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_緑竜
+#define JID_冬祭ファ_PROMOTED JID_MANAKETE
+#define JID_冬祭セシリア_UNPROMOTED JID_ARMOR // MVID_重装 WID_暗
+#define JID_冬祭セシリア_PROMOTED JID_GENERAL
+#define JID_伝承アクア_UNPROMOTED JID_DANCER // MVID_飛行 WID_青魔
+#define JID_伝承アクア_PROMOTED JID_DANCER
+#define JID_年明フィヨルム_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑弓
+#define JID_年明フィヨルム_PROMOTED JID_FALCONKNIGHT
+#define JID_年明スリーズ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_年明スリーズ_PROMOTED JID_FALCONKNIGHT
+#define JID_年明レーヴァテイン_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_年明レーヴァテイン_PROMOTED JID_VALKYRIE
+#define JID_年明フリーズ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_年明フリーズ_PROMOTED JID_FALCONKNIGHT
+#define JID_年明レーギャルン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_年明レーギャルン_PROMOTED JID_PALADIN
+#define JID_ティバーン_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_赤獣
+#define JID_ティバーン_PROMOTED JID_MANAKETE_F
+#define JID_リュシオン_UNPROMOTED JID_DANCER // MVID_飛行 WID_緑獣
+#define JID_リュシオン_PROMOTED JID_DANCER
+#define JID_リアーネ_UNPROMOTED JID_DANCER // MVID_飛行 WID_無獣
+#define JID_リアーネ_PROMOTED JID_DANCER
+#define JID_ニケ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青獣
+#define JID_ニケ_PROMOTED JID_MANAKETE
+#define JID_ネサラ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青獣
+#define JID_ネサラ_PROMOTED JID_MANAKETE_F
+#define JID_温泉サクラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_温泉サクラ_PROMOTED JID_FALCONKNIGHT
+#define JID_温泉エリーゼ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_赤暗
+#define JID_温泉エリーゼ_PROMOTED JID_NOMADTROOPER
+#define JID_温泉ヒノカ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
+#define JID_温泉ヒノカ_PROMOTED JID_FALCONKNIGHT
+#define JID_温泉リョウマ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_温泉リョウマ_PROMOTED JID_FALCONKNIGHT
+#define JID_温泉カミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_暗
+#define JID_温泉カミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_神階ドーマ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_神階ドーマ_PROMOTED JID_MANAKETE
+#define JID_愛の祭アイク_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_愛の祭アイク_PROMOTED JID_GENERAL
+#define JID_愛の祭グレイル_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_愛の祭グレイル_PROMOTED JID_GENERAL
+#define JID_愛の祭セネリオ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_愛の祭セネリオ_PROMOTED JID_VALKYRIE
+#define JID_愛の祭ミスト_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_愛の祭ミスト_PROMOTED JID_VALKYRIE
+#define JID_愛の祭ティアマト_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_愛の祭ティアマト_PROMOTED JID_VALKYRIE
+#define JID_フランネル_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤獣
+#define JID_フランネル_PROMOTED JID_MANAKETE
+#define JID_ベロア_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_無獣
+#define JID_ベロア_PROMOTED JID_MANAKETE
+#define JID_ニシキ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_緑獣
+#define JID_ニシキ_PROMOTED JID_MANAKETE_F
+#define JID_キヌ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_青獣
+#define JID_キヌ_PROMOTED JID_MANAKETE_F
+#define JID_ベルベット_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_青獣
+#define JID_ベルベット_PROMOTED JID_MANAKETE_F
+#define JID_伝承ロイ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_伝承ロイ_PROMOTED JID_SWORDMASTER
+#define JID_イドゥン_UNPROMOTED JID_MANAKETE // MVID_重装 WID_赤竜
+#define JID_イドゥン_PROMOTED JID_MANAKETE
+#define JID_ルゥ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ルゥ_PROMOTED JID_SAGE
+#define JID_スー_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_スー_PROMOTED JID_NOMADTROOPER
+#define JID_ティト_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ティト_PROMOTED JID_FALCONKNIGHT
+#define JID_ルトガー_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ルトガー_PROMOTED JID_SWORDMASTER
+#define JID_春祭パオラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤暗
+#define JID_春祭パオラ_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭マリカ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_春祭マリカ_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭ブルーノ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_春祭ブルーノ_PROMOTED JID_VALKYRIE
+#define JID_春祭ヴェロニカ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_春祭ヴェロニカ_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭ロキ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_春祭ロキ_PROMOTED JID_FALCONKNIGHT
+#define JID_神階ユンヌ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_神階ユンヌ_PROMOTED JID_FALCONKNIGHT
+#define JID_ライ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_緑獣
+#define JID_ライ_PROMOTED JID_MANAKETE_F
+#define JID_レテ_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_赤獣
+#define JID_レテ_PROMOTED JID_MANAKETE_F
+#define JID_モゥディ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青獣
+#define JID_モゥディ_PROMOTED JID_MANAKETE
+#define JID_カイネギス_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無獣
+#define JID_カイネギス_PROMOTED JID_MANAKETE
+#define JID_ハール_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_斧
+#define JID_ハール_PROMOTED JID_FALCONKNIGHT
+#define JID_行楽ジェニー_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_行楽ジェニー_PROMOTED JID_VALKYRIE
+#define JID_行楽ルカ_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_行楽ルカ_PROMOTED JID_GENERAL
+#define JID_行楽フェリシア_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_行楽フェリシア_PROMOTED JID_GENERAL
+#define JID_行楽フローラ_UNPROMOTED JID_ARMOR // MVID_重装 WID_赤暗
+#define JID_行楽フローラ_PROMOTED JID_GENERAL
+#define JID_行楽レオン_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_行楽レオン_PROMOTED JID_VALKYRIE
+#define JID_伝承アルム_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_伝承アルム_PROMOTED JID_SNIPER
+#define JID_催眠チキ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_催眠チキ_PROMOTED JID_MANAKETE
+#define JID_魔剣マリータ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_魔剣マリータ_PROMOTED JID_SWORDMASTER
+#define JID_闇ベルクト_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_闇ベルクト_PROMOTED JID_PALADIN
+#define JID_暴走カムイ女_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_無竜
+#define JID_暴走カムイ女_PROMOTED JID_MANAKETE
+#define JID_催眠デューテ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_催眠デューテ_PROMOTED JID_SAGE
+#define JID_花嫁フィヨルム_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_花嫁フィヨルム_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁シグルーン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_花嫁シグルーン_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁タニス_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_花嫁タニス_PROMOTED JID_FALCONKNIGHT
+#define JID_花婿パント_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_花婿パント_PROMOTED JID_VALKYRIE
+#define JID_花嫁ルイーズ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_花嫁ルイーズ_PROMOTED JID_NOMADTROOPER
+#define JID_神階ナーガ_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_青竜
+#define JID_神階ナーガ_PROMOTED JID_MANAKETE_F
+#define JID_ンン_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_ンン_PROMOTED JID_MANAKETE
+#define JID_ブレディ_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ブレディ_PROMOTED JID_BISHOP
+#define JID_シャンブレー_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_緑獣
+#define JID_シャンブレー_PROMOTED JID_MANAKETE_F
+#define JID_デジェル_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_デジェル_PROMOTED JID_GENERAL
+#define JID_シンシア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_シンシア_PROMOTED JID_FALCONKNIGHT
+#define JID_水着レーギャルン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_水着レーギャルン_PROMOTED JID_FALCONKNIGHT
+#define JID_水着レーヴァテイン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_水着レーヴァテイン_PROMOTED JID_FALCONKNIGHT
+#define JID_水着ヘルビンディ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_水着ヘルビンディ_PROMOTED JID_SWORDMASTER
+#define JID_水着スリーズ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_水着スリーズ_PROMOTED JID_NOMADTROOPER
+#define JID_水着ユルグ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_水着ユルグ_PROMOTED JID_WARRIOR
+#define JID_伝承エリウッド_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_伝承エリウッド_PROMOTED JID_PALADIN
+#define JID_水着リリーナ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_赤暗
+#define JID_水着リリーナ_PROMOTED JID_NOMADTROOPER
+#define JID_水着ウォルト_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_水着ウォルト_PROMOTED JID_NOMADTROOPER
+#define JID_水着リン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
+#define JID_水着リン_PROMOTED JID_FALCONKNIGHT
+#define JID_水着ウルスラ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_水着ウルスラ_PROMOTED JID_NOMADTROOPER
+#define JID_水着フィオーラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_水着フィオーラ_PROMOTED JID_FALCONKNIGHT
+#define JID_エーデルガルト_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_エーデルガルト_PROMOTED JID_WARRIOR
+#define JID_ディミトリ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ディミトリ_PROMOTED JID_PALADIN
+#define JID_クロード_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_クロード_PROMOTED JID_NOMADTROOPER
+#define JID_ベレス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ベレス_PROMOTED JID_SWORDMASTER
+#define JID_ベレト_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ベレト_PROMOTED JID_SWORDMASTER
+#define JID_クロニエ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_クロニエ_PROMOTED JID_ASSASSIN
+#define JID_神階ソティス_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_神階ソティス_PROMOTED JID_MANAKETE
+#define JID_ヒューベルト_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ヒューベルト_PROMOTED JID_SAGE
+#define JID_ペトラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青暗
+#define JID_ペトラ_PROMOTED JID_FALCONKNIGHT
+#define JID_メルセデス_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_メルセデス_PROMOTED JID_BISHOP
+#define JID_ヒルダ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ヒルダ_PROMOTED JID_WARRIOR
+#define JID_死神騎士_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_死神騎士_PROMOTED JID_PALADIN
+#define JID_総選挙アルム_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_総選挙アルム_PROMOTED JID_SWORDMASTER
+#define JID_総選挙エリウッド_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_総選挙エリウッド_PROMOTED JID_PALADIN
+#define JID_総選挙ミカヤ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_総選挙ミカヤ_PROMOTED JID_FALCONKNIGHT
+#define JID_総選挙カミラ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_総選挙カミラ_PROMOTED JID_FALCONKNIGHT
+#define JID_シグルーン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_シグルーン_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承ユリア_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_伝承ユリア_PROMOTED JID_SAGE
+#define JID_舞踏ラインハルト_UNPROMOTED JID_DANCER // MVID_飛行 WID_緑魔
+#define JID_舞踏ラインハルト_PROMOTED JID_DANCER
+#define JID_舞踏イシュタル_UNPROMOTED JID_DANCER // MVID_飛行 WID_赤魔
+#define JID_舞踏イシュタル_PROMOTED JID_DANCER
+#define JID_舞踏ベルクト_UNPROMOTED JID_DANCER // MVID_歩行 WID_槍
+#define JID_舞踏ベルクト_PROMOTED JID_DANCER
+#define JID_舞踏ネフェニー_UNPROMOTED JID_DANCER // MVID_歩行 WID_弓
+#define JID_舞踏ネフェニー_PROMOTED JID_DANCER
+#define JID_舞踏リネア_UNPROMOTED JID_DANCER // MVID_歩行 WID_青魔
+#define JID_舞踏リネア_PROMOTED JID_DANCER
+#define JID_シリウス_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_シリウス_PROMOTED JID_PALADIN
+#define JID_ナギ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_緑竜
+#define JID_ナギ_PROMOTED JID_MANAKETE
+#define JID_フィーナ_UNPROMOTED JID_DANCER // MVID_歩行 WID_剣
+#define JID_フィーナ_PROMOTED JID_DANCER
+#define JID_ノルン_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ノルン_PROMOTED JID_SNIPER
+#define JID_バヌトゥ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_赤竜
+#define JID_バヌトゥ_PROMOTED JID_MANAKETE
+#define JID_アストリア_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_アストリア_PROMOTED JID_SWORDMASTER
+#define JID_比翼ヘクトル_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_比翼ヘクトル_PROMOTED JID_GENERAL
+#define JID_ハロラーチェル_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_ハロラーチェル_PROMOTED JID_VALKYRIE
+#define JID_ハロドズラ_UNPROMOTED JID_ARMOR // MVID_重装 WID_暗
+#define JID_ハロドズラ_PROMOTED JID_GENERAL
+#define JID_ハロイレース_UNPROMOTED JID_ARMOR // MVID_重装 WID_青魔
+#define JID_ハロイレース_PROMOTED JID_GENERAL
+#define JID_ハロヨファ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_ハロヨファ_PROMOTED JID_NOMADTROOPER
+#define JID_外伝カチュア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_外伝カチュア_PROMOTED JID_FALCONKNIGHT
+#define JID_フォルス_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_フォルス_PROMOTED JID_GENERAL
+#define JID_パイソン_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_パイソン_PROMOTED JID_NOMADTROOPER
+#define JID_シルク_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_シルク_PROMOTED JID_BISHOP
+#define JID_バルボ_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_バルボ_PROMOTED JID_GENERAL
+#define JID_コンラート_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_コンラート_PROMOTED JID_PALADIN
+#define JID_伝承リーフ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_弓
+#define JID_伝承リーフ_PROMOTED JID_NOMADTROOPER
+#define JID_比翼エフラム_UNPROMOTED JID_SOLDIER // MVID_歩行 WID_槍
+#define JID_比翼エフラム_PROMOTED JID_HALBERDIER
+#define JID_ジスト_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ジスト_PROMOTED JID_WARRIOR
+#define JID_ユアン_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_ユアン_PROMOTED JID_SAGE
+#define JID_テティス_UNPROMOTED JID_DANCER // MVID_歩行 WID_暗
+#define JID_テティス_PROMOTED JID_DANCER
+#define JID_ロス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ロス_PROMOTED JID_WARRIOR
+#define JID_クーガー_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_クーガー_PROMOTED JID_FALCONKNIGHT
+#define JID_エキドナ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_エキドナ_PROMOTED JID_WARRIOR
+#define JID_パーシバル_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_パーシバル_PROMOTED JID_PALADIN
+#define JID_ララム_UNPROMOTED JID_DANCER // MVID_歩行 WID_暗
+#define JID_ララム_PROMOTED JID_DANCER
+#define JID_イグレーヌ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_イグレーヌ_PROMOTED JID_SNIPER
+#define JID_チャド_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_チャド_PROMOTED JID_ASSASSIN
+#define JID_ブルーニャ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_ブルーニャ_PROMOTED JID_SAGE
+#define JID_神階オルティナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_神階オルティナ_PROMOTED JID_FALCONKNIGHT
+#define JID_ヴィオール_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ヴィオール_PROMOTED JID_SNIPER
+#define JID_マシュー_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_マシュー_PROMOTED JID_ASSASSIN
+#define JID_レイ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_レイ_PROMOTED JID_SAGE
+#define JID_タクミ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_タクミ_PROMOTED JID_SNIPER
+#define JID_魔器オフェリア_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_魔器オフェリア_PROMOTED JID_SAGE
+#define JID_ディーア_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_ディーア_PROMOTED JID_BISHOP
+#define JID_マトイ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_マトイ_PROMOTED JID_FALCONKNIGHT
+#define JID_キサラギ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_キサラギ_PROMOTED JID_SNIPER
+#define JID_ガンズ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_ガンズ_PROMOTED JID_WARRIOR
+#define JID_双界ティアモ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_双界ティアモ_PROMOTED JID_FALCONKNIGHT
+#define JID_冬祭ドロテア_UNPROMOTED JID_DANCER // MVID_騎馬 WID_赤魔
+#define JID_冬祭ドロテア_PROMOTED JID_DANCER
+#define JID_冬祭アネット_UNPROMOTED JID_ARMOR // MVID_重装 WID_弓
+#define JID_冬祭アネット_PROMOTED JID_GENERAL
+#define JID_冬祭漆黒の騎士_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_冬祭漆黒の騎士_PROMOTED JID_GENERAL
+#define JID_冬祭ブルーノ_UNPROMOTED JID_ARMOR // MVID_重装 WID_緑魔
+#define JID_冬祭ブルーノ_PROMOTED JID_GENERAL
+#define JID_伝承シェズ女_UNPROMOTED JID_THIEF // MVID_歩行 WID_青暗
+#define JID_伝承シェズ女_PROMOTED JID_ASSASSIN
+#define JID_比翼アスク_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_比翼アスク_PROMOTED JID_DRUID
+#define JID_年明アシュ_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_青獣
+#define JID_年明アシュ_PROMOTED JID_MANAKETE
+#define JID_年明エルム_UNPROMOTED JID_MANAKETE_F // MVID_飛行 WID_緑獣
+#define JID_年明エルム_PROMOTED JID_MANAKETE_F
+#define JID_年明ベルベット_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_赤獣
+#define JID_年明ベルベット_PROMOTED JID_MANAKETE_F
+#define JID_年明シャンブレー_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_青獣
+#define JID_年明シャンブレー_PROMOTED JID_MANAKETE_F
+#define JID_双界リンダ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_双界リンダ_PROMOTED JID_VALKYRIE
+#define JID_カダインウルスラ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_カダインウルスラ_PROMOTED JID_VALKYRIE
+#define JID_カダインニノ_UNPROMOTED JID_MAGE // MVID_歩行 WID_赤魔
+#define JID_カダインニノ_PROMOTED JID_SAGE
+#define JID_カダインベレト_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_カダインベレト_PROMOTED JID_SAGE
+#define JID_カダインセネリオ_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_カダインセネリオ_PROMOTED JID_SAGE
+#define JID_魔器アルフレッド_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_魔器アルフレッド_PROMOTED JID_PALADIN
+#define JID_リュール女_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_リュール女_PROMOTED JID_SWORDMASTER
+#define JID_セリーヌ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_セリーヌ_PROMOTED JID_SAGE
+#define JID_クロエ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_クロエ_PROMOTED JID_FALCONKNIGHT
+#define JID_エーティエ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_エーティエ_PROMOTED JID_SNIPER
+#define JID_ルミエル_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ルミエル_PROMOTED JID_SWORDMASTER
+#define JID_神階フォデス_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無獣
+#define JID_神階フォデス_PROMOTED JID_MANAKETE
+#define JID_神階ガトー_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_神階ガトー_PROMOTED JID_DRUID
+#define JID_比翼エリーゼ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_杖
+#define JID_比翼エリーゼ_PROMOTED JID_VALKYRIE
+#define JID_愛の祭タクミ_UNPROMOTED JID_ARMOR // MVID_重装 WID_青魔
+#define JID_愛の祭タクミ_PROMOTED JID_GENERAL
+#define JID_愛の祭レオン_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_愛の祭レオン_PROMOTED JID_NOMADTROOPER
+#define JID_愛の祭カザハナ_UNPROMOTED JID_ARMOR // MVID_重装 WID_剣
+#define JID_愛の祭カザハナ_PROMOTED JID_GENERAL
+#define JID_愛の祭エルフィ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_愛の祭エルフィ_PROMOTED JID_WARRIOR
+#define JID_開花エリンシア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_開花エリンシア_PROMOTED JID_FALCONKNIGHT
+#define JID_ジョフレ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ジョフレ_PROMOTED JID_PALADIN
+#define JID_ルキノ_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ルキノ_PROMOTED JID_SWORDMASTER
+#define JID_ユリシーズ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ユリシーズ_PROMOTED JID_SAGE
+#define JID_ルドベック_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_ルドベック_PROMOTED JID_GENERAL
+#define JID_伝承ルフレ男_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_伝承ルフレ男_PROMOTED JID_SAGE
+#define JID_双界カアラ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_双界カアラ_PROMOTED JID_PALADIN
+#define JID_春祭スカビオサ_UNPROMOTED JID_DANCER // MVID_飛行 WID_無魔
+#define JID_春祭スカビオサ_PROMOTED JID_DANCER
+#define JID_春祭ベルナデッタ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_青弓
+#define JID_春祭ベルナデッタ_PROMOTED JID_NOMADTROOPER
+#define JID_春祭アッシュ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤暗
+#define JID_春祭アッシュ_PROMOTED JID_FALCONKNIGHT
+#define JID_春祭ミシェイル_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_春祭ミシェイル_PROMOTED JID_FALCONKNIGHT
+#define JID_魔器ターナ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_弓
+#define JID_魔器ターナ_PROMOTED JID_FALCONKNIGHT
+#define JID_ギリアム_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_ギリアム_PROMOTED JID_GENERAL
+#define JID_ヴァネッサ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_ヴァネッサ_PROMOTED JID_FALCONKNIGHT
+#define JID_シレーネ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_シレーネ_PROMOTED JID_FALCONKNIGHT
+#define JID_ヴィガルド_UNPROMOTED JID_ARMOR // MVID_重装 WID_槍
+#define JID_ヴィガルド_PROMOTED JID_GENERAL
+#define JID_伝承ユーリス_UNPROMOTED JID_THIEF // MVID_歩行 WID_赤暗
+#define JID_伝承ユーリス_PROMOTED JID_ASSASSIN
+#define JID_比翼軍師マーク_UNPROMOTED JID_MAGE // MVID_歩行 WID_青魔
+#define JID_比翼軍師マーク_PROMOTED JID_SAGE
+#define JID_幼少エリウッド_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_幼少エリウッド_PROMOTED JID_PALADIN
+#define JID_幼少ヘクトル_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_幼少ヘクトル_PROMOTED JID_GENERAL
+#define JID_幼少レベッカ_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_幼少レベッカ_PROMOTED JID_SNIPER
+#define JID_幼少ルセア_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_幼少ルセア_PROMOTED JID_BISHOP
+#define JID_魔器イングリット_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_魔器イングリット_PROMOTED JID_FALCONKNIGHT
+#define JID_フェリクス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_フェリクス_PROMOTED JID_SWORDMASTER
+#define JID_シルヴァン_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_シルヴァン_PROMOTED JID_PALADIN
+#define JID_レア_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_無竜
+#define JID_レア_PROMOTED JID_MANAKETE
+#define JID_コルネリア_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_コルネリア_PROMOTED JID_BISHOP
+#define JID_魔器闇クロム_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_魔器闇クロム_PROMOTED JID_PALADIN
+#define JID_闇ベレス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_闇ベレス_PROMOTED JID_SWORDMASTER
+#define JID_闇マリア_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_闇マリア_PROMOTED JID_BISHOP
+#define JID_闇ハイドラ_UNPROMOTED JID_MANAKETE // MVID_重装 WID_青竜
+#define JID_闇ハイドラ_PROMOTED JID_MANAKETE
+#define JID_闇ライナス_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_闇ライナス_PROMOTED JID_WARRIOR
+#define JID_双界チキ覚醒_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_双界チキ覚醒_PROMOTED JID_MANAKETE
+#define JID_花嫁アンナ覚醒_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_緑弓
+#define JID_花嫁アンナ覚醒_PROMOTED JID_NOMADTROOPER
+#define JID_花嫁サイリ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_花嫁サイリ_PROMOTED JID_FALCONKNIGHT
+#define JID_花嫁フラヴィア_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_花嫁フラヴィア_PROMOTED JID_PALADIN
+#define JID_花婿ルフレ男_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_赤魔
+#define JID_花婿ルフレ男_PROMOTED JID_VALKYRIE
+#define JID_伝承ヒノカ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤弓
+#define JID_伝承ヒノカ_PROMOTED JID_FALCONKNIGHT
+#define JID_開花フィル_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_開花フィル_PROMOTED JID_SWORDMASTER
+#define JID_サウル_UNPROMOTED JID_PRIEST // MVID_歩行 WID_杖
+#define JID_サウル_PROMOTED JID_BISHOP
+#define JID_ドロシー_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_ドロシー_PROMOTED JID_SNIPER
+#define JID_ノア_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_槍
+#define JID_ノア_PROMOTED JID_PALADIN
+#define JID_マードック_UNPROMOTED JID_ARMOR // MVID_重装 WID_斧
+#define JID_マードック_PROMOTED JID_GENERAL
+#define JID_比翼シャミア_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_青弓
+#define JID_比翼シャミア_PROMOTED JID_NOMADTROOPER
+#define JID_水着シェズ女_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_水着シェズ女_PROMOTED JID_PALADIN
+#define JID_水着ラーチェル_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_杖
+#define JID_水着ラーチェル_PROMOTED JID_FALCONKNIGHT
+#define JID_水着エフラム_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_斧
+#define JID_水着エフラム_PROMOTED JID_PALADIN
+#define JID_水着シェズ男_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_水着シェズ男_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承ギネヴィア_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_伝承ギネヴィア_PROMOTED JID_DRUID
+#define JID_比翼ユーミル_UNPROMOTED JID_SHAMAN // MVID_歩行 WID_無魔
+#define JID_比翼ユーミル_PROMOTED JID_DRUID
+#define JID_水着フィヨルム_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_水着フィヨルム_PROMOTED JID_SWORDMASTER
+#define JID_水着アイビー_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_水着アイビー_PROMOTED JID_FALCONKNIGHT
+#define JID_水着サーリャ_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_水着サーリャ_PROMOTED JID_VALKYRIE
+#define JID_水着ドニ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_水着ドニ_PROMOTED JID_WARRIOR
+#define JID_魔器アイト_UNPROMOTED JID_MANAKETE_F // MVID_騎馬 WID_青獣
+#define JID_魔器アイト_PROMOTED JID_MANAKETE_F
+#define JID_魔器スタルーク_UNPROMOTED JID_ARCHER // MVID_歩行 WID_弓
+#define JID_魔器スタルーク_PROMOTED JID_SNIPER
+#define JID_ディアマンド_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ディアマンド_PROMOTED JID_SWORDMASTER
+#define JID_ラピス_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_ラピス_PROMOTED JID_SWORDMASTER
+#define JID_シトリニカ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_シトリニカ_PROMOTED JID_SAGE
+#define JID_リュール男_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_リュール男_PROMOTED JID_SWORDMASTER
+#define JID_セピア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_赤魔
+#define JID_セピア_PROMOTED JID_FALCONKNIGHT
+#define JID_双界アイラ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_双界アイラ_PROMOTED JID_PALADIN
+#define JID_お茶会リシテア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_無魔
+#define JID_お茶会リシテア_PROMOTED JID_FALCONKNIGHT
+#define JID_お茶会フェルディ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑魔
+#define JID_お茶会フェルディ_PROMOTED JID_FALCONKNIGHT
+#define JID_お茶会シグルド_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_お茶会シグルド_PROMOTED JID_VALKYRIE
+#define JID_お茶会ティルテュ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_お茶会ティルテュ_PROMOTED JID_SAGE
+#define JID_総選挙ルフレ男_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_総選挙ルフレ男_PROMOTED JID_SWORDMASTER
+#define JID_総選挙セネリオ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_総選挙セネリオ_PROMOTED JID_SAGE
+#define JID_総選挙グルヴェイグ_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青魔
+#define JID_総選挙グルヴェイグ_PROMOTED JID_FALCONKNIGHT
+#define JID_総選挙カムイ女_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_総選挙カムイ女_PROMOTED JID_MANAKETE
+#define JID_ツィリル_UNPROMOTED JID_ARCHER // MVID_歩行 WID_赤弓
+#define JID_ツィリル_PROMOTED JID_SNIPER
+#define JID_伝承リュール女_UNPROMOTED JID_MANAKETE // MVID_歩行 WID_緑竜
+#define JID_伝承リュール女_PROMOTED JID_MANAKETE
+#define JID_比翼カゲロウ_UNPROMOTED JID_NOMAD // MVID_騎馬 WID_暗
+#define JID_比翼カゲロウ_PROMOTED JID_NOMADTROOPER
+#define JID_風部族ダグ_UNPROMOTED JID_CAVALIER // MVID_騎馬 WID_剣
+#define JID_風部族ダグ_PROMOTED JID_PALADIN
+#define JID_風部族カチュア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_青弓
+#define JID_風部族カチュア_PROMOTED JID_FALCONKNIGHT
+#define JID_風部族クロード_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_緑暗
+#define JID_風部族クロード_PROMOTED JID_FALCONKNIGHT
+#define JID_風部族フウガ_UNPROMOTED JID_FIGHTER // MVID_歩行 WID_斧
+#define JID_風部族フウガ_PROMOTED JID_WARRIOR
+#define JID_魔器プルメリア_UNPROMOTED JID_DANCER // MVID_飛行 WID_青魔
+#define JID_魔器プルメリア_PROMOTED JID_DANCER
+#define JID_開花セティ_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_開花セティ_PROMOTED JID_SAGE
+#define JID_フィー_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_フィー_PROMOTED JID_FALCONKNIGHT
+#define JID_パティ_UNPROMOTED JID_THIEF // MVID_歩行 WID_暗
+#define JID_パティ_PROMOTED JID_ASSASSIN
+#define JID_ファバル_UNPROMOTED JID_ARCHER // MVID_歩行 WID_青弓
+#define JID_ファバル_PROMOTED JID_SNIPER
+#define JID_アリオーン_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_槍
+#define JID_アリオーン_PROMOTED JID_FALCONKNIGHT
+#define JID_伝承エリンシア_UNPROMOTED JID_PEGASUSKNIGHT // MVID_飛行 WID_剣
+#define JID_伝承エリンシア_PROMOTED JID_FALCONKNIGHT
+#define JID_フード無印_UNPROMOTED JID_MYRMIDON // MVID_歩行 WID_剣
+#define JID_フード無印_PROMOTED JID_SWORDMASTER
+#define JID_ファフニール2_UNPROMOTED JID_MANAKETE // MVID_重装 WID_無竜
+#define JID_ファフニール2_PROMOTED JID_MANAKETE
+#define JID_ヴェロニカ洗脳_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ヴェロニカ洗脳_PROMOTED JID_SAGE
+#define JID_レティシア洗脳_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_緑魔
+#define JID_レティシア洗脳_PROMOTED JID_VALKYRIE
+#define JID_ブルーノ洗脳_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_ブルーノ洗脳_PROMOTED JID_VALKYRIE
+#define JID_ヴェロニカ洗脳2_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ヴェロニカ洗脳2_PROMOTED JID_SAGE
+#define JID_ブルーノ素顔_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
+#define JID_ブルーノ素顔_PROMOTED JID_VALKYRIE
+#define JID_ヘイズ敵0_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ヘイズ敵0_PROMOTED JID_SAGE
+#define JID_ヘイズ敵_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
+#define JID_ヘイズ敵_PROMOTED JID_SAGE

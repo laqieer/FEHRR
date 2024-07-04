@@ -743,11 +743,9 @@ promoted_jobs = {
     'JID_TROUBADOUR': 'JID_VALKYRIE',
 }
 
-def guess_unit_job(unit):
+def guess_unit_job(unit, move, weapon):
     if unit_data[unit['id_tag']]['refresher']:
         return 'JID_DANCER'
-    move = move_type[unit_data[unit['id_tag']]['move_type']]['id_tag']
-    weapon = weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']
     if weapon.endswith('竜') or weapon.endswith('獣'):
         if move in ('MVID_騎馬', 'MVID_飛行'):
             return 'JID_MANAKETE_F'
@@ -781,18 +779,28 @@ def guess_unit_job(unit):
             return 'JID_PRIEST'
     return 'JID_NONE'
 
-def make_enemy_unit_jobs():
+def make_red_unit_jobs():
     with open('include/enemy_unit_jobs.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         file.write('// Generic enemies\n')
         for unit in unit_data.values():
             if unit['roman'] != 'NONE' and not is_hero(unit):
-                file.write('#define J%s %s // %s %s\n' % (unit['id_tag'][1:], guess_unit_job(unit), move_type[unit_data[unit['id_tag']]['move_type']]['id_tag'], weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']))
+                unit_move = move_type[unit_data[unit['id_tag']]['move_type']]['id_tag']
+                unit_weapon = weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']
+                unit_job = guess_unit_job(unit, unit_move, unit_weapon)
+                file.write('#define J%s_UNPROMOTED %s // %s %s\n' % (unit['id_tag'][1:], unit_job, unit_move, unit_weapon))
+                unit_job = promoted_jobs.get(unit_job, unit_job)
+                file.write('#define J%s_PROMOTED %s\n' % (unit['id_tag'][1:], unit_job))
         file.write('\n')
         file.write('// Hero enemies\n')
         for unit in unit_data.values():
             if is_hero(unit) and not is_hero_defined(unit):
-                file.write('#define J%s %s // %s %s\n' % (unit['id_tag'][1:], guess_unit_job(unit), move_type[unit_data[unit['id_tag']]['move_type']]['id_tag'], weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']))
+                unit_move = move_type[unit_data[unit['id_tag']]['move_type']]['id_tag']
+                unit_weapon = weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']
+                unit_job = guess_unit_job(unit, unit_move, unit_weapon)
+                file.write('#define J%s_UNPROMOTED %s // %s %s\n' % (unit['id_tag'][1:], unit_job, unit_move, unit_weapon))
+                unit_job = promoted_jobs.get(unit_job, unit_job)
+                file.write('#define J%s_PROMOTED %s\n' % (unit['id_tag'][1:], unit_job))
 
 def get_red_unit_id_tag(id_tag):
     unit = unit_data[id_tag]
@@ -897,11 +905,15 @@ const u16 ChapterEnemyHeroNames[][14] = {
                             red_unit_id += str(loaded_red_heroes.index(unit['id_tag']) + 1)
                             assert len(loaded_red_heroes) <= 7
                         red_unit_job = 'J' + unit['id_tag'][1:]
+                        if not is_hero_defined(unit_data[unit['id_tag']]):
+                            red_unit_job += '_PROMOTED' if is_red_unit_promoted else '_UNPROMOTED'
+                        red_unit_job_lv = red_unit_lv
                         if is_red_unit_promoted:
-                            if red_unit_job in promoted_jobs:
-                                red_unit_job = promoted_jobs[red_unit_job]
-                            else:
-                                red_unit_lv = 20
+                                red_unit_move = move_type[unit_data[unit['id_tag']]['move_type']]['id_tag']
+                                red_unit_weapon = weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']
+                                red_unit_job_unpromoted = guess_unit_job(unit, red_unit_move, red_unit_weapon)
+                                if red_unit_job_unpromoted not in promoted_jobs:
+                                    red_unit_job_lv = 20
                         red_unit_items = 'IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW'
                         if unit_data[unit['id_tag']]['weapon_type'] > 10:
                             red_unit_items = 'IID_FIRE, IID_LIGHTNING, IID_FLUX, IID_HEALSTAFF'
@@ -910,7 +922,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
                                 red_unit_items = 'IID_DIVINESTONE, 0, 0, 0'
                             else:
                                 red_unit_items = 'IID_FIRESTONE, 0, 0, 0'
-                        file.write('    { %s, %s, %s, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, "PID_NONE" if red_unit_id == red_unit_commander else red_unit_commander, red_unit_lv, x, y, x, y, red_unit_items))
+                        file.write('    { %s, %s, %s, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, "PID_NONE" if red_unit_id == red_unit_commander else red_unit_commander, red_unit_job_lv, x, y, x, y, red_unit_items))
                     file.write('    { 0 }, // end\n')
                     file.write('};\n\n')
                     file_defs.write('extern const struct UnitInfo %s[];\n' % red_units_label)
@@ -989,7 +1001,7 @@ if __name__ == '__main__':
     # make_map_changes()
     # make_common_map()
     # make_chapter_goals()
-    make_chapters()
+    # make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
@@ -999,6 +1011,6 @@ if __name__ == '__main__':
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
     # make_blue_units()
-    # make_enemy_unit_jobs()
-    # make_red_units()
+    make_red_unit_jobs()
+    make_red_units()
     # make_map_events()
