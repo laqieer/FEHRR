@@ -624,3 +624,14 @@ void StartFaceDebug(void)
 {
     SpawnProc(ProcScr_FaceDebug, PROC_TREE_3);
 }
+
+// Fix face in prep screen: Item -> Discard
+
+// In function: func_fe6_0808171C
+// 80818F8: C0 -> D0
+// 80818F8: movs r1, #0xc0 -> movs r1, #0xd0
+// 0xC0 * 4 / 0x20 - 0x10 = 8
+// 0xD0 * 4 / 0x20 - 0x10 = 10
+// so move the obj palette from slot 8 to slot 10
+// to avoid overwrite the face palette (slot 6~9)
+const u8 fixFaceWhenDisacrdItemInPrepScreen = 0xD0;

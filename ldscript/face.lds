@@ -8,3 +8,5 @@
 .text.UnpackFaceChibiSprGraphicsOld : {*(.text.UnpackFaceChibiSprGraphicsOld)}
 . = PutFace80x72 - 1;
 .text.PutFace80x72Old : {*(.text.PutFace80x72Old)}
+. = 0x80818F8;
+.rodata.fixFaceWhenDisacrdItemInPrepScreen : {*(.rodata.fixFaceWhenDisacrdItemInPrepScreen)}
