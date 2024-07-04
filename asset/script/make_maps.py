@@ -527,6 +527,7 @@ const u16 NewChapterMap[] = {
         file.write('};\n')
 
 def make_chapters():
+    total_enemy_counts = 0
     map_ids = sorted(map_configs.keys())
     with open('include/chapters.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
@@ -538,6 +539,7 @@ def make_chapters():
         file.write('};\n\n')
     with open('source/chapters.c', 'w', encoding='utf-8') as file:
         file.write('''
+#include "bm.h"
 #include "chapterinfo.h"
 #include "chapterNew.h"
 #include "constants/chapters.h"
@@ -568,15 +570,15 @@ void const * const ChapterMaps[] = {
     [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = NewChapterMap,
 };
 
-struct ChapterInfo const newChapters[] = {
+struct ChapterInfoNew const newChapters[] = {
     [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = {
         .debug_name = "S0000",
         .asset_img_b = 2,
         .asset_img_anims = 6,
-        .msg_30 = CHAPTER_GOAL_MSG_ID_S0000,
-        .msg_38 = DEBUG_CHAPTER_TITLE_MSG_ID,
-        .unk_0F = 3, // initial X
-        .unk_10 = 14, // initial Y
+        .msg_goal = CHAPTER_GOAL_MSG_ID_S0000,
+        .msg_title = DEBUG_CHAPTER_TITLE_MSG_ID,
+        .initial_x = 3,
+        .initial_y = 14,
         .song_blue_bgm = 10,
         .song_red_bgm = 2,
         .song_green_bgm = 10,
@@ -585,12 +587,30 @@ struct ChapterInfo const newChapters[] = {
 ''')
         # chapters
         for map_id in map_ids:
+            enemy_count = map_configs[map_id]['unit_count']
+            total_enemy_counts += enemy_count
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = {\n' % map_id)
             file.write('        .debug_name = "%s",\n' % map_id)
             file.write('        .has_prep = %s,\n' % ('TRUE' if map_configs[map_id]['player_count'] >= 4 else 'FALSE'))
+            file.write('        .initial_x = %d,\n' % map_configs[map_id]['player_pos'][0]['x'])
+            file.write('        .initial_y = %d,\n'% map_configs[map_id]['player_pos'][0]['y'])
+            file.write('        .weather = WEATHER_%s,\n' % ('FLAMES' if get_battle_terrain(map_id) == BattleTerrain.LAVA_CAVE else 'NONE'))
             file.write('        .banim_terrain_id = BANIM_TERRAIN_%s,\n' % get_battle_terrain(map_id).name)
-            file.write('        .msg_30 = CHAPTER_GOAL_MSG_ID_%s,\n' % map_id)
-            file.write('        .msg_38 = MID_STAGE_%s,\n' % map_id)
+            file.write('        .hard_bonus_levels = HARD_MODE_BONUS_LEVELS_DEFAULT,\n')
+            file.write('        .class_roll_set = 6,\n')
+            # Assume 1 turn to approach enemies and defeat 1 enemy each turn
+            min_clear_turns = max(map_configs[map_id]['turns_to_win'], map_configs[map_id]['turns_to_defend'], map_configs[map_id]['unit_count']) + 1
+            file.write('        .rank_turns = {%d, %d, %d, %d},\n' % (min_clear_turns, min_clear_turns + 5, min_clear_turns + 10, min_clear_turns + 20))
+            # Assume level up 3 times after defeating 4 enemies
+            level_up_times = int(total_enemy_counts * 0.75)
+            file.write('        .rank_exps = {%d, %d, %d, %d},\n' % (level_up_times, int(level_up_times * 0.9), int(level_up_times * 0.8), int(level_up_times * 0.7)))
+            # Assume 2 stats up each level up (7 stats including HP, considering growth rate, base stats and job stats cap)
+            file.write('        .rank_stats = {%d, %d, %d, %d},\n' % (level_up_times * 2, int(level_up_times * 1.5), int(level_up_times * 1.2), level_up_times))
+            file.write('        .msg_goal = CHAPTER_GOAL_MSG_ID_%s,\n' % map_id)
+            file.write('        .msg_blue_army = MSG_ID_BLUE_ARMY,\n')
+            file.write('        .msg_red_army = MSG_ID_RED_ARMY,\n')
+            file.write('        .msg_title = MID_STAGE_%s,\n' % map_id)
+            file.write('        .victory_bgm_enemy_threshold = %d,\n' % (1 if map_configs[map_id]['unit_count'] > 1 else 0))
             if len(map_configs[map_id]['field']['changes']) > 0:
                 file.write('        .wall_hp = WALL_HP_DEFAULT,\n')
             file.write('    },\n')
@@ -1001,7 +1021,7 @@ if __name__ == '__main__':
     # make_map_changes()
     # make_common_map()
     # make_chapter_goals()
-    # make_chapters()
+    make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
@@ -1011,6 +1031,6 @@ if __name__ == '__main__':
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
     # make_blue_units()
-    make_red_unit_jobs()
-    make_red_units()
+    # make_red_unit_jobs()
+    # make_red_units()
     # make_map_events()

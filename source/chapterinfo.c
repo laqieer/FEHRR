@@ -18,7 +18,7 @@ struct ChapterInfo const * GetChapterInfoNew(int chapter)
     if (chapter == CHAPTER_CH_NULL)
         return gExtraMapInfo->chapter_info;
 
-    return IsChapterNew(chapter) ? &newChapters[chapter - CHAPTER_CH_NEW] : ChapterInfoTable + chapter;
+    return IsChapterNew(chapter) ? (struct ChapterInfo const * )&newChapters[chapter - CHAPTER_CH_NEW] : ChapterInfoTable + chapter;
 }
 
 struct ChapterInfo const * GetChapterInfoOld(int chapter)

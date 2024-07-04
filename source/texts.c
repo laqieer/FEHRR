@@ -22744,9 +22744,15 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3804] = {
-        [LANGUAGE_JAPANESE] = "",
-        [LANGUAGE_ENGLISH] = "",
-        [LANGUAGE_CHINESE] = "",
+        [LANGUAGE_JAPANESE] = "特務機関「ヴァイス・ブレイヴ」",
+        [LANGUAGE_ENGLISH] = "Order of Heroes",
+        [LANGUAGE_CHINESE] = "特务机关【纯白义勇队】",
+    },
+
+    [3805] = {
+        [LANGUAGE_JAPANESE] = "敵軍",
+        [LANGUAGE_ENGLISH] = "Enemy",
+        [LANGUAGE_CHINESE] = "敌军",
     },
 
     [TEXT_ID_TEST] = {
