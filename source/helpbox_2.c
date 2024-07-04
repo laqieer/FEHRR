@@ -89,6 +89,7 @@ extern u16 const Pal_08100A48[]; // pal
 extern struct Unk_0203D404 gUnk_0203D404;
 extern int unused_0203D408;
 extern struct Unk_0203D40C gUnk_0203D40C;
+extern struct Unk_0203D40C gUnk_0203D460;
 
 u16 const * GetColorLut(int color);
 
@@ -377,6 +378,40 @@ void func_fe6_08070EECOld(void * vram, int pal)
     func_fe6_08070EECNew(vram, pal);
 }
 
+void func_fe6_080718FCNew(void * vram, int pal)
+{
+    // identical to func_fe6_08070E70
+    // except for gUnk_0203D460 instead of gUnk_0203D40C
+
+    if (vram == NULL)
+        vram = ((void *) VRAM) + 0x10000 + OBCHR_HELPBOX_180 * CHR_SIZE;
+
+    if (pal < 0)
+        pal = OBPAL_HELPBOX_5;
+
+    pal = (pal & 15) + 0x10;
+
+    // Decompress(gUnk_08308A78, vram);
+    Decompress(helpbox_outline_1Tiles, vram + OBJCHR_HELPBOX_OFFSET * CHR_SIZE);
+    Decompress(helpbox_outline_2Tiles, vram + (OBJCHR_HELPBOX_OFFSET + 32) * CHR_SIZE);
+
+    InitSpriteTextFont(&gUnk_0203D460.font, vram, pal);
+    InitSpriteText(gUnk_0203D460.text + 0);
+    InitSpriteText(gUnk_0203D460.text + 1);
+    InitSpriteText(gUnk_0203D460.text + 2);
+    SetTextFont(NULL);
+
+    ApplyPalette(Pal_08100A48, pal);
+
+    gUnk_0203D460.unk_30 = OAM2_CHR(((uptr) vram) / CHR_SIZE) + OAM2_PAL(pal);
+}
+
+void func_fe6_080718FCOld(void * vram, int pal)
+{
+    func_fe6_080718FCNew(vram, pal);
+
+}
+
 void PutSpriteTalkBoxNew(int x_box, int y_box, int w_box, int h_box)
 {
     int y_count, x_count;
@@ -449,8 +484,6 @@ void PutSpriteTalkBoxOld(int x_box, int y_box, int w_box, int h_box)
 {
     PutSpriteTalkBoxNew(x_box, y_box, w_box, h_box);
 }
-
-extern struct Unk_0203D40C gUnk_0203D460;
 
 void func_fe6_08071D94New(int x_box, int y_box, int w_box, int h_box)
 {

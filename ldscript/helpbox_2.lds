@@ -6,6 +6,8 @@
 .text.func_fe6_08070E70Old : {*(.text.func_fe6_08070E70Old)}
 . = func_fe6_08070EEC - 1;
 .text.func_fe6_08070EECOld : {*(.text.func_fe6_08070EECOld)}
+. = func_fe6_080718FC - 1;
+.text.func_fe6_080718FCOld : {*(.text.func_fe6_080718FCOld)}
 . = PutSpriteTalkBox - 1;
 .text.PutSpriteTalkBoxOld : {*(.text.PutSpriteTalkBoxOld)}
 . = func_fe6_08071D94 - 1;
