@@ -11,6 +11,7 @@
         "random": "c",
         "format": "c",
         "functional": "c",
-        "numeric": "c"
+        "numeric": "c",
+        "string": "c"
     }
 }
