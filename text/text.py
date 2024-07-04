@@ -31,7 +31,7 @@ def read_texts_from_file(filename):
                 continue
             text += re.sub(r'@([0-9a-fA-F]{2})([0-9a-fA-F]{2})', r'""\\x\2\\x\1""', line.replace('\n', '@0001').replace('"', '\\"')).replace('\\x00', '')
     for index, text in list(texts.items()):
-        if index >= 0x1000000:
+        if index >= 0x2000000:
             s = rom.read_string(rom.read_pointer(util.Pointer(index).to_offset()).to_offset())
             if len(s) > 0:
                 strings = rom.find_string(s)
@@ -57,7 +57,7 @@ def make_C_source_file(texts, filename):
         ids = {}
         history = []
         for index in sorted(texts[0].keys()):
-            if index < 0x1000000:
+            if index < 0x2000000:
                 id = index
             else:
                 idi = [p.to_address() for p in rom.find_pointer(rom.read_pointer(util.Pointer(index).to_offset())) if p.to_address() not in history]

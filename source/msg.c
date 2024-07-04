@@ -23,7 +23,10 @@ extern char sMsgString[0x1000];
 
 char const * GetMsg(int id)
 {
-    if (id < 0 || id > 0x1000000) {
+    if (id < 0 || (id > textId_max && id < 0x2000000)) {
+        Fatalf("Invalid message id: %d", id);
+    }
+    if (id >= 0x2000000) {
         Debugf("Get raw message at 0x%x: %s", id, (char const *)id);
     }
     if (id >= MEID_ENEMY_HERO_1 && id <= MEID_H_ENEMY_HERO_7)
@@ -32,7 +35,7 @@ char const * GetMsg(int id)
         Assert(IsChapterNew(chapter));
         id = ChapterEnemyHeroNames[chapter - CHAPTER_CH_NEW][id - MEID_ENEMY_HERO_1];
     }
-    return (id < 0 || id > 0x1000000) ? (char const *)id : gMsgTableNew[id][GetLangNew()];
+    return id >= 0x2000000 ? (char const *)id : gMsgTableNew[id][GetLangNew()];
 }
 
 #define MSG_MAX_WIDTH 0xE0
