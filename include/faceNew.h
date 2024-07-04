@@ -53,6 +53,7 @@ bool IsNewFace(int fid);
 const char * GetFaceName(int fid);
 bool hasChibiFace(int fid);
 void StartFaceDebug(void);
+void ClearNewFace(void);
 
 extern const struct FaceInfoNew newFaces[];
 extern const char * const face_names[];

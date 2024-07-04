@@ -16,6 +16,7 @@
 
 #include "log.h"
 #include "utilNew.h"
+#include "faceNew.h"
 
 extern struct HelpBoxInfo gMutableHelpBoxInfo;
 extern struct HelpBoxInfo const * gLastHelpBoxInfo;
@@ -88,3 +89,5 @@ void ApplyHelpBoxPositionOld(struct HelpBoxProc * proc, int x, int y)
 {
     ApplyHelpBoxPositionNew(proc, x, y);
 }
+
+const struct ProcScr ClearNewFaceWhenOpenHelpBox = PROC_CALL(ClearNewFace);

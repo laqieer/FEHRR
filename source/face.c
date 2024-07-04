@@ -635,3 +635,15 @@ void StartFaceDebug(void)
 // so move the obj palette from slot 8 to slot 10
 // to avoid overwrite the face palette (slot 6~9)
 const u8 fixFaceWhenDisacrdItemInPrepScreen = 0xD0;
+
+void ClearNewFace(void)
+{
+    for (int i = 0; i < FACE_SLOT_COUNT; ++i)
+    {
+        if (gFaces[i] != NULL && IsNewFace(((struct FaceProcNew *)gFaces[i])->fid))
+        {
+            InitFaces();
+            return;
+        }
+    }
+}
