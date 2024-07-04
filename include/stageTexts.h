@@ -2,2713 +2,2713 @@
 // Text type: TextType.STAGE
 
 [MID_STAGE_S0001] = {
-    [LANGUAGE_JAPANESE] = "我は汝を召喚す",
-    [LANGUAGE_ENGLISH] = "\"I summon thee!\"",
-    [LANGUAGE_CHINESE] = "吾将召唤汝前来",
+    [LANGUAGE_JAPANESE] = "第1章 ""我は汝を召喚す",
+    [LANGUAGE_ENGLISH] = "Ch.1: ""\"I summon thee!\"",
+    [LANGUAGE_CHINESE] = "第1章 ""吾将召唤汝前来",
 },
 
 [MID_STAGE_S0002] = {
-    [LANGUAGE_JAPANESE] = "伝承に曰く",
-    [LANGUAGE_ENGLISH] = "The Legend",
-    [LANGUAGE_CHINESE] = "传说有云",
+    [LANGUAGE_JAPANESE] = "第2章 ""伝承に曰く",
+    [LANGUAGE_ENGLISH] = "Ch.2: ""The Legend",
+    [LANGUAGE_CHINESE] = "第2章 ""传说有云",
 },
 
 [MID_STAGE_S0101] = {
-    [LANGUAGE_JAPANESE] = "金翼の王子",
-    [LANGUAGE_ENGLISH] = "Prince with Golden Wings",
-    [LANGUAGE_CHINESE] = "金翼王子",
+    [LANGUAGE_JAPANESE] = "第3章 ""金翼の王子",
+    [LANGUAGE_ENGLISH] = "Ch.3: ""Prince with Golden Wings",
+    [LANGUAGE_CHINESE] = "第3章 ""金翼王子",
 },
 
 [MID_STAGE_S0102] = {
-    [LANGUAGE_JAPANESE] = "汝が力を示せ",
-    [LANGUAGE_ENGLISH] = "Proof of Power",
-    [LANGUAGE_CHINESE] = "示汝之力",
+    [LANGUAGE_JAPANESE] = "第4章 ""汝が力を示せ",
+    [LANGUAGE_ENGLISH] = "Ch.4: ""Proof of Power",
+    [LANGUAGE_CHINESE] = "第4章 ""示汝之力",
 },
 
 [MID_STAGE_S0103] = {
-    [LANGUAGE_JAPANESE] = "英雄相争う",
-    [LANGUAGE_ENGLISH] = "Heroes in Battle",
-    [LANGUAGE_CHINESE] = "英雄相争",
+    [LANGUAGE_JAPANESE] = "第5章 ""英雄相争う",
+    [LANGUAGE_ENGLISH] = "Ch.5: ""Heroes in Battle",
+    [LANGUAGE_CHINESE] = "第5章 ""英雄相争",
 },
 
 [MID_STAGE_S0201] = {
-    [LANGUAGE_JAPANESE] = "紋章の試練",
-    [LANGUAGE_ENGLISH] = "Mystery Trial",
-    [LANGUAGE_CHINESE] = "纹章考验",
+    [LANGUAGE_JAPANESE] = "第6章 ""紋章の試練",
+    [LANGUAGE_ENGLISH] = "Ch.6: ""Mystery Trial",
+    [LANGUAGE_CHINESE] = "第6章 ""纹章考验",
 },
 
 [MID_STAGE_S0202] = {
-    [LANGUAGE_JAPANESE] = "不屈なる猛者",
-    [LANGUAGE_ENGLISH] = "Willful Warrior",
-    [LANGUAGE_CHINESE] = "不屈猛者",
+    [LANGUAGE_JAPANESE] = "第7章 ""不屈なる猛者",
+    [LANGUAGE_ENGLISH] = "Ch.7: ""Willful Warrior",
+    [LANGUAGE_CHINESE] = "第7章 ""不屈猛者",
 },
 
 [MID_STAGE_S0203] = {
-    [LANGUAGE_JAPANESE] = "光と風",
-    [LANGUAGE_ENGLISH] = "Wind and Light",
-    [LANGUAGE_CHINESE] = "光与风",
+    [LANGUAGE_JAPANESE] = "第8章 ""光と風",
+    [LANGUAGE_ENGLISH] = "Ch.8: ""Wind and Light",
+    [LANGUAGE_CHINESE] = "第8章 ""光与风",
 },
 
 [MID_STAGE_S0204] = {
-    [LANGUAGE_JAPANESE] = "赤と緑の双騎",
-    [LANGUAGE_ENGLISH] = "Dual Cavaliers",
-    [LANGUAGE_CHINESE] = "赤绿双骑",
+    [LANGUAGE_JAPANESE] = "第9章 ""赤と緑の双騎",
+    [LANGUAGE_ENGLISH] = "Ch.9: ""Dual Cavaliers",
+    [LANGUAGE_CHINESE] = "第9章 ""赤绿双骑",
 },
 
 [MID_STAGE_S0205] = {
-    [LANGUAGE_JAPANESE] = "紋章の王子",
-    [LANGUAGE_ENGLISH] = "Prince of Mystery",
-    [LANGUAGE_CHINESE] = "纹章王子",
+    [LANGUAGE_JAPANESE] = "第10章 ""紋章の王子",
+    [LANGUAGE_ENGLISH] = "Ch.10: ""Prince of Mystery",
+    [LANGUAGE_CHINESE] = "第10章 ""纹章王子",
 },
 
 [MID_STAGE_S0301] = {
-    [LANGUAGE_JAPANESE] = "暗夜の試練",
-    [LANGUAGE_ENGLISH] = "Conquest Trial",
-    [LANGUAGE_CHINESE] = "暗夜考验",
+    [LANGUAGE_JAPANESE] = "第11章 ""暗夜の試練",
+    [LANGUAGE_ENGLISH] = "Ch.11: ""Conquest Trial",
+    [LANGUAGE_CHINESE] = "第11章 ""暗夜考验",
 },
 
 [MID_STAGE_S0302] = {
-    [LANGUAGE_JAPANESE] = "可憐な妹王女",
-    [LANGUAGE_ENGLISH] = "Lovely Bloom",
-    [LANGUAGE_CHINESE] = "可爱的王妹",
+    [LANGUAGE_JAPANESE] = "第12章 ""可憐な妹王女",
+    [LANGUAGE_ENGLISH] = "Ch.12: ""Lovely Bloom",
+    [LANGUAGE_CHINESE] = "第12章 ""可爱的王妹",
 },
 
 [MID_STAGE_S0303] = {
-    [LANGUAGE_JAPANESE] = "冷酷な弟王子",
-    [LANGUAGE_ENGLISH] = "Callous Prince",
-    [LANGUAGE_CHINESE] = "冷酷的王弟",
+    [LANGUAGE_JAPANESE] = "第13章 ""冷酷な弟王子",
+    [LANGUAGE_ENGLISH] = "Ch.13: ""Callous Prince",
+    [LANGUAGE_CHINESE] = "第13章 ""冷酷的王弟",
 },
 
 [MID_STAGE_S0304] = {
-    [LANGUAGE_JAPANESE] = "妖艶な姉王女",
-    [LANGUAGE_ENGLISH] = "Bewitching Princess",
-    [LANGUAGE_CHINESE] = "妖艳的王姐",
+    [LANGUAGE_JAPANESE] = "第14章 ""妖艶な姉王女",
+    [LANGUAGE_ENGLISH] = "Ch.14: ""Bewitching Princess",
+    [LANGUAGE_CHINESE] = "第14章 ""妖艳的王姐",
 },
 
 [MID_STAGE_S0305] = {
-    [LANGUAGE_JAPANESE] = "暗夜の王子",
-    [LANGUAGE_ENGLISH] = "Prince of Conquest",
-    [LANGUAGE_CHINESE] = "暗夜王子",
+    [LANGUAGE_JAPANESE] = "第15章 ""暗夜の王子",
+    [LANGUAGE_ENGLISH] = "Ch.15: ""Prince of Conquest",
+    [LANGUAGE_CHINESE] = "第15章 ""暗夜王子",
 },
 
 [MID_STAGE_S0401] = {
-    [LANGUAGE_JAPANESE] = "封印の試練",
-    [LANGUAGE_ENGLISH] = "Binding Trial",
-    [LANGUAGE_CHINESE] = "封印考验",
+    [LANGUAGE_JAPANESE] = "第16章 ""封印の試練",
+    [LANGUAGE_ENGLISH] = "Ch.16: ""Binding Trial",
+    [LANGUAGE_CHINESE] = "第16章 ""封印考验",
 },
 
 [MID_STAGE_S0402] = {
-    [LANGUAGE_JAPANESE] = "高貴なる者",
-    [LANGUAGE_ENGLISH] = "Two Noblewomen",
-    [LANGUAGE_CHINESE] = "高贵之人",
+    [LANGUAGE_JAPANESE] = "第17章 ""高貴なる者",
+    [LANGUAGE_ENGLISH] = "Ch.17: ""Two Noblewomen",
+    [LANGUAGE_CHINESE] = "第17章 ""高贵之人",
 },
 
 [MID_STAGE_S0403] = {
-    [LANGUAGE_JAPANESE] = "砂漠に住まう竜",
-    [LANGUAGE_ENGLISH] = "Desert Dragons",
-    [LANGUAGE_CHINESE] = "盘踞沙漠之龙",
+    [LANGUAGE_JAPANESE] = "第18章 ""砂漠に住まう竜",
+    [LANGUAGE_ENGLISH] = "Ch.18: ""Desert Dragons",
+    [LANGUAGE_CHINESE] = "第18章 ""盘踞沙漠之龙",
 },
 
 [MID_STAGE_S0404] = {
-    [LANGUAGE_JAPANESE] = "風変わりな親子",
-    [LANGUAGE_ENGLISH] = "Quirky Family",
-    [LANGUAGE_CHINESE] = "古怪亲子",
+    [LANGUAGE_JAPANESE] = "第19章 ""風変わりな親子",
+    [LANGUAGE_ENGLISH] = "Ch.19: ""Quirky Family",
+    [LANGUAGE_CHINESE] = "第19章 ""古怪亲子",
 },
 
 [MID_STAGE_S0405] = {
-    [LANGUAGE_JAPANESE] = "封印の公子",
-    [LANGUAGE_ENGLISH] = "Nobles of Binding",
-    [LANGUAGE_CHINESE] = "封印勋爵",
+    [LANGUAGE_JAPANESE] = "第20章 ""封印の公子",
+    [LANGUAGE_ENGLISH] = "Ch.20: ""Nobles of Binding",
+    [LANGUAGE_CHINESE] = "第20章 ""封印勋爵",
 },
 
 [MID_STAGE_S0501] = {
-    [LANGUAGE_JAPANESE] = "覚醒の試練",
-    [LANGUAGE_ENGLISH] = "Awakening Trial",
-    [LANGUAGE_CHINESE] = "觉醒考验",
+    [LANGUAGE_JAPANESE] = "第21章 ""覚醒の試練",
+    [LANGUAGE_ENGLISH] = "Ch.21: ""Awakening Trial",
+    [LANGUAGE_CHINESE] = "第21章 ""觉醒考验",
 },
 
 [MID_STAGE_S0502] = {
-    [LANGUAGE_JAPANESE] = "踊り子と剣士",
-    [LANGUAGE_ENGLISH] = "Blade and Dancer",
-    [LANGUAGE_CHINESE] = "舞娘与剑客",
+    [LANGUAGE_JAPANESE] = "第22章 ""踊り子と剣士",
+    [LANGUAGE_ENGLISH] = "Ch.22: ""Blade and Dancer",
+    [LANGUAGE_CHINESE] = "第22章 ""舞娘与剑客",
 },
 
 [MID_STAGE_S0503] = {
-    [LANGUAGE_JAPANESE] = "包囲作戦",
-    [LANGUAGE_ENGLISH] = "Big Ambush",
-    [LANGUAGE_CHINESE] = "包围战",
+    [LANGUAGE_JAPANESE] = "第23章 ""包囲作戦",
+    [LANGUAGE_ENGLISH] = "Ch.23: ""Big Ambush",
+    [LANGUAGE_CHINESE] = "第23章 ""包围战",
 },
 
 [MID_STAGE_S0504] = {
-    [LANGUAGE_JAPANESE] = "強き村人",
-    [LANGUAGE_ENGLISH] = "Surprising Villager",
-    [LANGUAGE_CHINESE] = "坚强的村民",
+    [LANGUAGE_JAPANESE] = "第24章 ""強き村人",
+    [LANGUAGE_ENGLISH] = "Ch.24: ""Surprising Villager",
+    [LANGUAGE_CHINESE] = "第24章 ""坚强的村民",
 },
 
 [MID_STAGE_S0505] = {
-    [LANGUAGE_JAPANESE] = "覚醒の王子",
-    [LANGUAGE_ENGLISH] = "Prince of Awakening",
-    [LANGUAGE_CHINESE] = "觉醒王子",
+    [LANGUAGE_JAPANESE] = "第25章 ""覚醒の王子",
+    [LANGUAGE_ENGLISH] = "Ch.25: ""Prince of Awakening",
+    [LANGUAGE_CHINESE] = "第25章 ""觉醒王子",
 },
 
 [MID_STAGE_S0601] = {
-    [LANGUAGE_JAPANESE] = "紋章再び",
-    [LANGUAGE_ENGLISH] = "Return to Mystery",
-    [LANGUAGE_CHINESE] = "纹章重现",
+    [LANGUAGE_JAPANESE] = "第26章 ""紋章再び",
+    [LANGUAGE_ENGLISH] = "Ch.26: ""Return to Mystery",
+    [LANGUAGE_CHINESE] = "第26章 ""纹章重现",
 },
 
 [MID_STAGE_S0602] = {
-    [LANGUAGE_JAPANESE] = "要塞の姫君",
-    [LANGUAGE_ENGLISH] = "Captive Princess",
-    [LANGUAGE_CHINESE] = "要塞的公主",
+    [LANGUAGE_JAPANESE] = "第27章 ""要塞の姫君",
+    [LANGUAGE_ENGLISH] = "Ch.27: ""Captive Princess",
+    [LANGUAGE_CHINESE] = "第27章 ""要塞的公主",
 },
 
 [MID_STAGE_S0603] = {
-    [LANGUAGE_JAPANESE] = "挟撃",
-    [LANGUAGE_ENGLISH] = "No Way Out",
-    [LANGUAGE_CHINESE] = "夹击",
+    [LANGUAGE_JAPANESE] = "第28章 ""挟撃",
+    [LANGUAGE_ENGLISH] = "Ch.28: ""No Way Out",
+    [LANGUAGE_CHINESE] = "第28章 ""夹击",
 },
 
 [MID_STAGE_S0604] = {
-    [LANGUAGE_JAPANESE] = "三姉妹、舞う",
-    [LANGUAGE_ENGLISH] = "Three Sisters Fly",
-    [LANGUAGE_CHINESE] = "三姊妹,飞舞空中",
+    [LANGUAGE_JAPANESE] = "第29章 ""三姉妹、舞う",
+    [LANGUAGE_ENGLISH] = "Ch.29: ""Three Sisters Fly",
+    [LANGUAGE_CHINESE] = "第29章 ""三姊妹,飞舞空中",
 },
 
 [MID_STAGE_S0605] = {
-    [LANGUAGE_JAPANESE] = "神竜の王女",
-    [LANGUAGE_ENGLISH] = "Divine Dragon Princess",
-    [LANGUAGE_CHINESE] = "神龙公主",
+    [LANGUAGE_JAPANESE] = "第30章 ""神竜の王女",
+    [LANGUAGE_ENGLISH] = "Ch.30: ""Divine Dragon Princess",
+    [LANGUAGE_CHINESE] = "第30章 ""神龙公主",
 },
 
 [MID_STAGE_S0701] = {
-    [LANGUAGE_JAPANESE] = "白夜の試練",
-    [LANGUAGE_ENGLISH] = "Birthright Trial",
-    [LANGUAGE_CHINESE] = "白夜考验",
+    [LANGUAGE_JAPANESE] = "第31章 ""白夜の試練",
+    [LANGUAGE_ENGLISH] = "Ch.31: ""Birthright Trial",
+    [LANGUAGE_CHINESE] = "第31章 ""白夜考验",
 },
 
 [MID_STAGE_S0702] = {
-    [LANGUAGE_JAPANESE] = "ひねくれ屋な弟王子",
-    [LANGUAGE_ENGLISH] = "Vain Prince",
-    [LANGUAGE_CHINESE] = "别扭的王弟",
+    [LANGUAGE_JAPANESE] = "第32章 ""ひねくれ屋な弟王子",
+    [LANGUAGE_ENGLISH] = "Ch.32: ""Vain Prince",
+    [LANGUAGE_CHINESE] = "第32章 ""别扭的王弟",
 },
 
 [MID_STAGE_S0703] = {
-    [LANGUAGE_JAPANESE] = "実直な姉王女",
-    [LANGUAGE_ENGLISH] = "Blunt Princess",
-    [LANGUAGE_CHINESE] = "耿直的王姐",
+    [LANGUAGE_JAPANESE] = "第33章 ""実直な姉王女",
+    [LANGUAGE_ENGLISH] = "Ch.33: ""Blunt Princess",
+    [LANGUAGE_CHINESE] = "第33章 ""耿直的王姐",
 },
 
 [MID_STAGE_S0704] = {
-    [LANGUAGE_JAPANESE] = "内気な妹王女",
-    [LANGUAGE_ENGLISH] = "Shy Princess",
-    [LANGUAGE_CHINESE] = "内向的王妹",
+    [LANGUAGE_JAPANESE] = "第34章 ""内気な妹王女",
+    [LANGUAGE_ENGLISH] = "Ch.34: ""Shy Princess",
+    [LANGUAGE_CHINESE] = "第34章 ""内向的王妹",
 },
 
 [MID_STAGE_S0705] = {
-    [LANGUAGE_JAPANESE] = "白夜の王子",
-    [LANGUAGE_ENGLISH] = "Prince of Birthright",
-    [LANGUAGE_CHINESE] = "白夜王子",
+    [LANGUAGE_JAPANESE] = "第35章 ""白夜の王子",
+    [LANGUAGE_ENGLISH] = "Ch.35: ""Prince of Birthright",
+    [LANGUAGE_CHINESE] = "第35章 ""白夜王子",
 },
 
 [MID_STAGE_S0801] = {
-    [LANGUAGE_JAPANESE] = "烈火の試練",
-    [LANGUAGE_ENGLISH] = "Blazing Trial",
-    [LANGUAGE_CHINESE] = "烈火考验",
+    [LANGUAGE_JAPANESE] = "第36章 ""烈火の試練",
+    [LANGUAGE_ENGLISH] = "Ch.36: ""Blazing Trial",
+    [LANGUAGE_CHINESE] = "第36章 ""烈火考验",
 },
 
 [MID_STAGE_S0802] = {
-    [LANGUAGE_JAPANESE] = "公子二人",
-    [LANGUAGE_ENGLISH] = "Two Noblemen",
-    [LANGUAGE_CHINESE] = "两位勋爵",
+    [LANGUAGE_JAPANESE] = "第37章 ""公子二人",
+    [LANGUAGE_ENGLISH] = "Ch.37: ""Two Noblemen",
+    [LANGUAGE_CHINESE] = "第37章 ""两位勋爵",
 },
 
 [MID_STAGE_S0803] = {
-    [LANGUAGE_JAPANESE] = "迷宮に惑う",
-    [LANGUAGE_ENGLISH] = "Baffling Labyrinth",
-    [LANGUAGE_CHINESE] = "迷宫眩惑",
+    [LANGUAGE_JAPANESE] = "第38章 ""迷宮に惑う",
+    [LANGUAGE_ENGLISH] = "Ch.38: ""Baffling Labyrinth",
+    [LANGUAGE_CHINESE] = "第38章 ""迷宫眩惑",
 },
 
 [MID_STAGE_S0804] = {
-    [LANGUAGE_JAPANESE] = "守護者は揺らがず",
-    [LANGUAGE_ENGLISH] = "The Guardian",
-    [LANGUAGE_CHINESE] = "守护者不动如山",
+    [LANGUAGE_JAPANESE] = "第39章 ""守護者は揺らがず",
+    [LANGUAGE_ENGLISH] = "Ch.39: ""The Guardian",
+    [LANGUAGE_CHINESE] = "第39章 ""守护者不动如山",
 },
 
 [MID_STAGE_S0805] = {
-    [LANGUAGE_JAPANESE] = "烈火の公子",
-    [LANGUAGE_ENGLISH] = "Blazing Noblemen",
-    [LANGUAGE_CHINESE] = "烈火勋爵",
+    [LANGUAGE_JAPANESE] = "第40章 ""烈火の公子",
+    [LANGUAGE_ENGLISH] = "Ch.40: ""Blazing Noblemen",
+    [LANGUAGE_CHINESE] = "第40章 ""烈火勋爵",
 },
 
 [MID_STAGE_S0901] = {
-    [LANGUAGE_JAPANESE] = "物陰に潜みて",
-    [LANGUAGE_ENGLISH] = "Sinister Shadow",
-    [LANGUAGE_CHINESE] = "潜伏暗处",
+    [LANGUAGE_JAPANESE] = "第41章 ""物陰に潜みて",
+    [LANGUAGE_ENGLISH] = "Ch.41: ""Sinister Shadow",
+    [LANGUAGE_CHINESE] = "第41章 ""潜伏暗处",
 },
 
 [MID_STAGE_S0902] = {
-    [LANGUAGE_JAPANESE] = "渓谷に臥す竜",
-    [LANGUAGE_ENGLISH] = "Napping Dragon",
-    [LANGUAGE_CHINESE] = "溪谷卧龙",
+    [LANGUAGE_JAPANESE] = "第42章 ""渓谷に臥す竜",
+    [LANGUAGE_ENGLISH] = "Ch.42: ""Napping Dragon",
+    [LANGUAGE_CHINESE] = "第42章 ""溪谷卧龙",
 },
 
 [MID_STAGE_S0903] = {
-    [LANGUAGE_JAPANESE] = "貴族的な迎撃",
-    [LANGUAGE_ENGLISH] = "Ravishing Battle",
-    [LANGUAGE_CHINESE] = "贵族式的迎击",
+    [LANGUAGE_JAPANESE] = "第43章 ""貴族的な迎撃",
+    [LANGUAGE_ENGLISH] = "Ch.43: ""Ravishing Battle",
+    [LANGUAGE_CHINESE] = "第43章 ""贵族式的迎击",
 },
 
 [MID_STAGE_S0904] = {
-    [LANGUAGE_JAPANESE] = "帰還せし神竜",
-    [LANGUAGE_ENGLISH] = "Divine Dragon Returns",
-    [LANGUAGE_CHINESE] = "神龙归来",
+    [LANGUAGE_JAPANESE] = "第44章 ""帰還せし神竜",
+    [LANGUAGE_ENGLISH] = "Ch.44: ""Divine Dragon Returns",
+    [LANGUAGE_CHINESE] = "第44章 ""神龙归来",
 },
 
 [MID_STAGE_S0905] = {
-    [LANGUAGE_JAPANESE] = "未来を知る王女",
-    [LANGUAGE_ENGLISH] = "Future Princess",
-    [LANGUAGE_CHINESE] = "知晓未来的公主",
+    [LANGUAGE_JAPANESE] = "第45章 ""未来を知る王女",
+    [LANGUAGE_ENGLISH] = "Ch.45: ""Future Princess",
+    [LANGUAGE_CHINESE] = "第45章 ""知晓未来的公主",
 },
 
 [MID_STAGE_S1001] = {
-    [LANGUAGE_JAPANESE] = "野望と忠義",
-    [LANGUAGE_ENGLISH] = "Loyalty and Ambition",
-    [LANGUAGE_CHINESE] = "野心与忠义",
+    [LANGUAGE_JAPANESE] = "第46章 ""野望と忠義",
+    [LANGUAGE_ENGLISH] = "Ch.46: ""Loyalty and Ambition",
+    [LANGUAGE_CHINESE] = "第46章 ""野心与忠义",
 },
 
 [MID_STAGE_S1002] = {
-    [LANGUAGE_JAPANESE] = "王道と邪道",
-    [LANGUAGE_ENGLISH] = "Nobility and Vanity",
-    [LANGUAGE_CHINESE] = "王道与邪道",
+    [LANGUAGE_JAPANESE] = "第47章 ""王道と邪道",
+    [LANGUAGE_ENGLISH] = "Ch.47: ""Nobility and Vanity",
+    [LANGUAGE_CHINESE] = "第47章 ""王道与邪道",
 },
 
 [MID_STAGE_S1003] = {
-    [LANGUAGE_JAPANESE] = "蒼鴉は見つめる",
-    [LANGUAGE_ENGLISH] = "The Blue Crow",
-    [LANGUAGE_CHINESE] = "苍鸦凝视",
+    [LANGUAGE_JAPANESE] = "第48章 ""蒼鴉は見つめる",
+    [LANGUAGE_ENGLISH] = "Ch.48: ""The Blue Crow",
+    [LANGUAGE_CHINESE] = "第48章 ""苍鸦凝视",
 },
 
 [MID_STAGE_S1004] = {
-    [LANGUAGE_JAPANESE] = "難攻不落",
-    [LANGUAGE_ENGLISH] = "The Unknown",
-    [LANGUAGE_CHINESE] = "难攻不下",
+    [LANGUAGE_JAPANESE] = "第49章 ""難攻不落",
+    [LANGUAGE_ENGLISH] = "Ch.49: ""The Unknown",
+    [LANGUAGE_CHINESE] = "第49章 ""难攻不下",
 },
 
 [MID_STAGE_S1005] = {
-    [LANGUAGE_JAPANESE] = "死の皇女",
-    [LANGUAGE_ENGLISH] = "Princess of Death",
-    [LANGUAGE_CHINESE] = "死之公主",
+    [LANGUAGE_JAPANESE] = "第50章 ""死の皇女",
+    [LANGUAGE_ENGLISH] = "Ch.50: ""Princess of Death",
+    [LANGUAGE_CHINESE] = "第50章 ""死之公主",
 },
 
 [MID_STAGE_S1101] = {
-    [LANGUAGE_JAPANESE] = "蒼炎の傭兵団",
-    [LANGUAGE_ENGLISH] = "Radiant Mercenaries",
-    [LANGUAGE_CHINESE] = "苍炎佣兵团",
+    [LANGUAGE_JAPANESE] = "第51章 ""蒼炎の傭兵団",
+    [LANGUAGE_ENGLISH] = "Ch.51: ""Radiant Mercenaries",
+    [LANGUAGE_CHINESE] = "第51章 ""苍炎佣兵团",
 },
 
 [MID_STAGE_S1102] = {
-    [LANGUAGE_JAPANESE] = "誇り高き副長",
-    [LANGUAGE_ENGLISH] = "A Mercenary's Pride",
-    [LANGUAGE_CHINESE] = "心高气傲的副团长",
+    [LANGUAGE_JAPANESE] = "第52章 ""誇り高き副長",
+    [LANGUAGE_ENGLISH] = "Ch.52: ""A Mercenary's Pride",
+    [LANGUAGE_CHINESE] = "第52章 ""心高气傲的副团长",
 },
 
 [MID_STAGE_S1103] = {
-    [LANGUAGE_JAPANESE] = "帝国の皇子",
-    [LANGUAGE_ENGLISH] = "The Imperial Prince",
-    [LANGUAGE_CHINESE] = "帝国皇子",
+    [LANGUAGE_JAPANESE] = "第53章 ""帝国の皇子",
+    [LANGUAGE_ENGLISH] = "Ch.53: ""The Imperial Prince",
+    [LANGUAGE_CHINESE] = "第53章 ""帝国皇子",
 },
 
 [MID_STAGE_S1104] = {
-    [LANGUAGE_JAPANESE] = "最後の砦",
-    [LANGUAGE_ENGLISH] = "The Last Line of Defense",
-    [LANGUAGE_CHINESE] = "最后堡垒",
+    [LANGUAGE_JAPANESE] = "第54章 ""最後の砦",
+    [LANGUAGE_ENGLISH] = "Ch.54: ""The Last Line of Defense",
+    [LANGUAGE_CHINESE] = "第54章 ""最后堡垒",
 },
 
 [MID_STAGE_S1105] = {
-    [LANGUAGE_JAPANESE] = "蒼炎の勇者",
-    [LANGUAGE_ENGLISH] = "Radiant Hero",
-    [LANGUAGE_CHINESE] = "苍炎勇者",
+    [LANGUAGE_JAPANESE] = "第55章 ""蒼炎の勇者",
+    [LANGUAGE_ENGLISH] = "Ch.55: ""Radiant Hero",
+    [LANGUAGE_CHINESE] = "第55章 ""苍炎勇者",
 },
 
 [MID_STAGE_S1201] = {
-    [LANGUAGE_JAPANESE] = "慈愛の王女",
-    [LANGUAGE_ENGLISH] = "Caring Princess",
-    [LANGUAGE_CHINESE] = "慈悲的公主",
+    [LANGUAGE_JAPANESE] = "第56章 ""慈愛の王女",
+    [LANGUAGE_ENGLISH] = "Ch.56: ""Caring Princess",
+    [LANGUAGE_CHINESE] = "第56章 ""慈悲的公主",
 },
 
 [MID_STAGE_S1202] = {
-    [LANGUAGE_JAPANESE] = "海戦",
-    [LANGUAGE_ENGLISH] = "Pirates!",
-    [LANGUAGE_CHINESE] = "海战",
+    [LANGUAGE_JAPANESE] = "第57章 ""海戦",
+    [LANGUAGE_ENGLISH] = "Ch.57: ""Pirates!",
+    [LANGUAGE_CHINESE] = "第57章 ""海战",
 },
 
 [MID_STAGE_S1203] = {
-    [LANGUAGE_JAPANESE] = "恐怖の山",
-    [LANGUAGE_ENGLISH] = "The Mountain of Fear",
-    [LANGUAGE_CHINESE] = "恐怖之山",
+    [LANGUAGE_JAPANESE] = "第58章 ""恐怖の山",
+    [LANGUAGE_ENGLISH] = "Ch.58: ""The Mountain of Fear",
+    [LANGUAGE_CHINESE] = "第58章 ""恐怖之山",
 },
 
 [MID_STAGE_S1204] = {
-    [LANGUAGE_JAPANESE] = "海戦再び",
-    [LANGUAGE_ENGLISH] = "More Pirates!",
-    [LANGUAGE_CHINESE] = "海战重现",
+    [LANGUAGE_JAPANESE] = "第59章 ""海戦再び",
+    [LANGUAGE_ENGLISH] = "Ch.59: ""More Pirates!",
+    [LANGUAGE_CHINESE] = "第59章 ""海战重现",
 },
 
 [MID_STAGE_S1205] = {
-    [LANGUAGE_JAPANESE] = "呪詛の領域",
-    [LANGUAGE_ENGLISH] = "The Dark Domain",
-    [LANGUAGE_CHINESE] = "诅咒领域",
+    [LANGUAGE_JAPANESE] = "第60章 ""呪詛の領域",
+    [LANGUAGE_ENGLISH] = "Ch.60: ""The Dark Domain",
+    [LANGUAGE_CHINESE] = "第60章 ""诅咒领域",
 },
 
 [MID_STAGE_S1301] = {
-    [LANGUAGE_JAPANESE] = "水門",
-    [LANGUAGE_ENGLISH] = "Battle at the Sluice Gate",
-    [LANGUAGE_CHINESE] = "水闸",
+    [LANGUAGE_JAPANESE] = "第61章 ""水門",
+    [LANGUAGE_ENGLISH] = "Ch.61: ""Battle at the Sluice Gate",
+    [LANGUAGE_CHINESE] = "第61章 ""水闸",
 },
 
 [MID_STAGE_S1302] = {
-    [LANGUAGE_JAPANESE] = "仇敵を追って",
-    [LANGUAGE_ENGLISH] = "A Desperate Pursuit",
-    [LANGUAGE_CHINESE] = "追击仇敌",
+    [LANGUAGE_JAPANESE] = "第62章 ""仇敵を追って",
+    [LANGUAGE_ENGLISH] = "Ch.62: ""A Desperate Pursuit",
+    [LANGUAGE_CHINESE] = "第62章 ""追击仇敌",
 },
 
 [MID_STAGE_S1303] = {
-    [LANGUAGE_JAPANESE] = "砂漠の砦",
-    [LANGUAGE_ENGLISH] = "Desert Stronghold Siege",
-    [LANGUAGE_CHINESE] = "沙漠堡垒",
+    [LANGUAGE_JAPANESE] = "第63章 ""砂漠の砦",
+    [LANGUAGE_ENGLISH] = "Ch.63: ""Desert Stronghold Siege",
+    [LANGUAGE_CHINESE] = "第63章 ""沙漠堡垒",
 },
 
 [MID_STAGE_S1304] = {
-    [LANGUAGE_JAPANESE] = "女神の神殿",
-    [LANGUAGE_ENGLISH] = "Before the Goddess",
-    [LANGUAGE_CHINESE] = "女神的神殿",
+    [LANGUAGE_JAPANESE] = "第64章 ""女神の神殿",
+    [LANGUAGE_ENGLISH] = "Ch.64: ""Before the Goddess",
+    [LANGUAGE_CHINESE] = "第64章 ""女神的神殿",
 },
 
 [MID_STAGE_S1305] = {
-    [LANGUAGE_JAPANESE] = "帝国皇子ブルーノ",
-    [LANGUAGE_ENGLISH] = "The Mask Cracks",
-    [LANGUAGE_CHINESE] = "帝国皇子布鲁诺",
+    [LANGUAGE_JAPANESE] = "第65章 ""帝国皇子ブルーノ",
+    [LANGUAGE_ENGLISH] = "Ch.65: ""The Mask Cracks",
+    [LANGUAGE_CHINESE] = "第65章 ""帝国皇子布鲁诺",
 },
 
 [MID_STAGE_S1401] = {
-    [LANGUAGE_JAPANESE] = "仮面の裏で",
-    [LANGUAGE_ENGLISH] = "Bruno's Secret",
-    [LANGUAGE_CHINESE] = "面具底下",
+    [LANGUAGE_JAPANESE] = "第66章 ""仮面の裏で",
+    [LANGUAGE_ENGLISH] = "Ch.66: ""Bruno's Secret",
+    [LANGUAGE_CHINESE] = "第66章 ""面具底下",
 },
 
 [MID_STAGE_S1402] = {
-    [LANGUAGE_JAPANESE] = "三隻の船",
-    [LANGUAGE_ENGLISH] = "A Triple Decker",
-    [LANGUAGE_CHINESE] = "三艘船",
+    [LANGUAGE_JAPANESE] = "第67章 ""三隻の船",
+    [LANGUAGE_ENGLISH] = "Ch.67: ""A Triple Decker",
+    [LANGUAGE_CHINESE] = "第67章 ""三艘船",
 },
 
 [MID_STAGE_S1403] = {
-    [LANGUAGE_JAPANESE] = "港町の死闘",
-    [LANGUAGE_ENGLISH] = "Shadow over the Port",
-    [LANGUAGE_CHINESE] = "港都死斗",
+    [LANGUAGE_JAPANESE] = "第68章 ""港町の死闘",
+    [LANGUAGE_ENGLISH] = "Ch.68: ""Shadow over the Port",
+    [LANGUAGE_CHINESE] = "第68章 ""港都死斗",
 },
 
 [MID_STAGE_S1404] = {
-    [LANGUAGE_JAPANESE] = "全軍激突",
-    [LANGUAGE_ENGLISH] = "Armies Clash",
-    [LANGUAGE_CHINESE] = "全军激战",
+    [LANGUAGE_JAPANESE] = "第69章 ""全軍激突",
+    [LANGUAGE_ENGLISH] = "Ch.69: ""Armies Clash",
+    [LANGUAGE_CHINESE] = "第69章 ""全军激战",
 },
 
 [MID_STAGE_S1405] = {
-    [LANGUAGE_JAPANESE] = "友との再会",
-    [LANGUAGE_ENGLISH] = "A Bond Renewed",
-    [LANGUAGE_CHINESE] = "与好友重逢",
+    [LANGUAGE_JAPANESE] = "第70章 ""友との再会",
+    [LANGUAGE_ENGLISH] = "Ch.70: ""A Bond Renewed",
+    [LANGUAGE_CHINESE] = "第70章 ""与好友重逢",
 },
 
 [MID_STAGE_S1501] = {
-    [LANGUAGE_JAPANESE] = "いにしえより目覚めし",
-    [LANGUAGE_ENGLISH] = "Awakening Ancient Power",
-    [LANGUAGE_CHINESE] = "自远古苏醒",
+    [LANGUAGE_JAPANESE] = "第71章 ""いにしえより目覚めし",
+    [LANGUAGE_ENGLISH] = "Ch.71: ""Awakening Ancient Power",
+    [LANGUAGE_CHINESE] = "第71章 ""自远古苏醒",
 },
 
 [MID_STAGE_S1601] = {
-    [LANGUAGE_JAPANESE] = "刃の儀式",
-    [LANGUAGE_ENGLISH] = "The Rite of Blades",
-    [LANGUAGE_CHINESE] = "刃之仪式",
+    [LANGUAGE_JAPANESE] = "第72章 ""刃の儀式",
+    [LANGUAGE_ENGLISH] = "Ch.72: ""The Rite of Blades",
+    [LANGUAGE_CHINESE] = "第72章 ""刃之仪式",
 },
 
 [MID_STAGE_S2011] = {
-    [LANGUAGE_JAPANESE] = "その炎、不死にして不滅",
-    [LANGUAGE_ENGLISH] = "Undying Flame",
-    [LANGUAGE_CHINESE] = "那火焰,不死不灭",
+    [LANGUAGE_JAPANESE] = "第73章 ""その炎、不死にして不滅",
+    [LANGUAGE_ENGLISH] = "Ch.73: ""Undying Flame",
+    [LANGUAGE_CHINESE] = "第73章 ""那火焰,不死不灭",
 },
 
 [MID_STAGE_S2012] = {
-    [LANGUAGE_JAPANESE] = "山は焼け、木は倒れ",
-    [LANGUAGE_ENGLISH] = "Mountains Burn",
-    [LANGUAGE_CHINESE] = "山燃树倒",
+    [LANGUAGE_JAPANESE] = "第74章 ""山は焼け、木は倒れ",
+    [LANGUAGE_ENGLISH] = "Ch.74: ""Mountains Burn",
+    [LANGUAGE_CHINESE] = "第74章 ""山燃树倒",
 },
 
 [MID_STAGE_S2013] = {
-    [LANGUAGE_JAPANESE] = "水は乾き、海は呑まれ",
-    [LANGUAGE_ENGLISH] = "Steam Billows",
-    [LANGUAGE_CHINESE] = "水枯海竭",
+    [LANGUAGE_JAPANESE] = "第75章 ""水は乾き、海は呑まれ",
+    [LANGUAGE_ENGLISH] = "Ch.75: ""Steam Billows",
+    [LANGUAGE_CHINESE] = "第75章 ""水枯海竭",
 },
 
 [MID_STAGE_S2014] = {
-    [LANGUAGE_JAPANESE] = "天は焦げ、月は堕ちる",
-    [LANGUAGE_ENGLISH] = "Stars Become Cinders",
-    [LANGUAGE_CHINESE] = "天焦月落",
+    [LANGUAGE_JAPANESE] = "第76章 ""天は焦げ、月は堕ちる",
+    [LANGUAGE_ENGLISH] = "Ch.76: ""Stars Become Cinders",
+    [LANGUAGE_CHINESE] = "第76章 ""天焦月落",
 },
 
 [MID_STAGE_S2015] = {
-    [LANGUAGE_JAPANESE] = "霧の妖婦",
-    [LANGUAGE_ENGLISH] = "Enchantress of the Mist",
-    [LANGUAGE_CHINESE] = "雾之妖妇",
+    [LANGUAGE_JAPANESE] = "第77章 ""霧の妖婦",
+    [LANGUAGE_ENGLISH] = "Ch.77: ""Enchantress of the Mist",
+    [LANGUAGE_CHINESE] = "第77章 ""雾之妖妇",
 },
 
 [MID_STAGE_S2021] = {
-    [LANGUAGE_JAPANESE] = "雪の娘",
-    [LANGUAGE_ENGLISH] = "Lady of Snow",
-    [LANGUAGE_CHINESE] = "雪之女",
+    [LANGUAGE_JAPANESE] = "第78章 ""雪の娘",
+    [LANGUAGE_ENGLISH] = "Ch.78: ""Lady of Snow",
+    [LANGUAGE_CHINESE] = "第78章 ""雪之女",
 },
 
 [MID_STAGE_S2022] = {
-    [LANGUAGE_JAPANESE] = "白き夜の子ら",
-    [LANGUAGE_ENGLISH] = "Children of the Light",
-    [LANGUAGE_CHINESE] = "白夜的孩子们",
+    [LANGUAGE_JAPANESE] = "第79章 ""白き夜の子ら",
+    [LANGUAGE_ENGLISH] = "Ch.79: ""Children of the Light",
+    [LANGUAGE_CHINESE] = "第79章 ""白夜的孩子们",
 },
 
 [MID_STAGE_S2023] = {
-    [LANGUAGE_JAPANESE] = "黒き夜の子ら",
-    [LANGUAGE_ENGLISH] = "Children of the Shadow",
-    [LANGUAGE_CHINESE] = "黑夜的孩子们",
+    [LANGUAGE_JAPANESE] = "第80章 ""黒き夜の子ら",
+    [LANGUAGE_ENGLISH] = "Ch.80: ""Children of the Shadow",
+    [LANGUAGE_CHINESE] = "第80章 ""黑夜的孩子们",
 },
 
 [MID_STAGE_S2024] = {
-    [LANGUAGE_JAPANESE] = "黒白の子ら",
-    [LANGUAGE_ENGLISH] = "Shadows and Light",
-    [LANGUAGE_CHINESE] = "黑白的孩子们",
+    [LANGUAGE_JAPANESE] = "第81章 ""黒白の子ら",
+    [LANGUAGE_ENGLISH] = "Ch.81: ""Shadows and Light",
+    [LANGUAGE_CHINESE] = "第81章 ""黑白的孩子们",
 },
 
 [MID_STAGE_S2025] = {
-    [LANGUAGE_JAPANESE] = "炎の王",
-    [LANGUAGE_ENGLISH] = "Ruler of Flame",
-    [LANGUAGE_CHINESE] = "炎之王",
+    [LANGUAGE_JAPANESE] = "第82章 ""炎の王",
+    [LANGUAGE_ENGLISH] = "Ch.82: ""Ruler of Flame",
+    [LANGUAGE_CHINESE] = "第82章 ""炎之王",
 },
 
 [MID_STAGE_S2031] = {
-    [LANGUAGE_JAPANESE] = "ニフルへの道",
-    [LANGUAGE_ENGLISH] = "The Road to Nifl",
-    [LANGUAGE_CHINESE] = "通往尼福尔之路",
+    [LANGUAGE_JAPANESE] = "第83章 ""ニフルへの道",
+    [LANGUAGE_ENGLISH] = "Ch.83: ""The Road to Nifl",
+    [LANGUAGE_CHINESE] = "第83章 ""通往尼福尔之路",
 },
 
 [MID_STAGE_S2032] = {
-    [LANGUAGE_JAPANESE] = "銀の髪の乙女",
-    [LANGUAGE_ENGLISH] = "The Silver-Haired Maiden",
-    [LANGUAGE_CHINESE] = "银发少女",
+    [LANGUAGE_JAPANESE] = "第84章 ""銀の髪の乙女",
+    [LANGUAGE_ENGLISH] = "Ch.84: ""The Silver-Haired Maiden",
+    [LANGUAGE_CHINESE] = "第84章 ""银发少女",
 },
 
 [MID_STAGE_S2033] = {
-    [LANGUAGE_JAPANESE] = "奇妙な守護者",
-    [LANGUAGE_ENGLISH] = "Ensnared by Beauty",
-    [LANGUAGE_CHINESE] = "奇妙的守护者",
+    [LANGUAGE_JAPANESE] = "第85章 ""奇妙な守護者",
+    [LANGUAGE_ENGLISH] = "Ch.85: ""Ensnared by Beauty",
+    [LANGUAGE_CHINESE] = "第85章 ""奇妙的守护者",
 },
 
 [MID_STAGE_S2034] = {
-    [LANGUAGE_JAPANESE] = "異貌の騎士",
-    [LANGUAGE_ENGLISH] = "A Menacing Swordsman",
-    [LANGUAGE_CHINESE] = "异貌的骑士",
+    [LANGUAGE_JAPANESE] = "第86章 ""異貌の騎士",
+    [LANGUAGE_ENGLISH] = "Ch.86: ""A Menacing Swordsman",
+    [LANGUAGE_CHINESE] = "第86章 ""异貌的骑士",
 },
 
 [MID_STAGE_S2035] = {
-    [LANGUAGE_JAPANESE] = "炎剣、地を薙ぐ",
-    [LANGUAGE_ENGLISH] = "Steel Sears the Land",
-    [LANGUAGE_CHINESE] = "炎剑 横扫大地",
+    [LANGUAGE_JAPANESE] = "第87章 ""炎剣、地を薙ぐ",
+    [LANGUAGE_ENGLISH] = "Ch.87: ""Steel Sears the Land",
+    [LANGUAGE_CHINESE] = "第87章 ""炎剑 横扫大地",
 },
 
 [MID_STAGE_S2041] = {
-    [LANGUAGE_JAPANESE] = "守るべき人々のために",
-    [LANGUAGE_ENGLISH] = "Protecting the People",
-    [LANGUAGE_CHINESE] = "为了要守护的人们",
+    [LANGUAGE_JAPANESE] = "第88章 ""守るべき人々のために",
+    [LANGUAGE_ENGLISH] = "Ch.88: ""Protecting the People",
+    [LANGUAGE_CHINESE] = "第88章 ""为了要守护的人们",
 },
 
 [MID_STAGE_S2042] = {
-    [LANGUAGE_JAPANESE] = "緋閃の女剣士",
-    [LANGUAGE_ENGLISH] = "Crimson Flash",
-    [LANGUAGE_CHINESE] = "绯闪女剑士",
+    [LANGUAGE_JAPANESE] = "第89章 ""緋閃の女剣士",
+    [LANGUAGE_ENGLISH] = "Ch.89: ""Crimson Flash",
+    [LANGUAGE_CHINESE] = "第89章 ""绯闪女剑士",
 },
 
 [MID_STAGE_S2043] = {
-    [LANGUAGE_JAPANESE] = "光と影の王女",
-    [LANGUAGE_ENGLISH] = "Princesses in Shadow",
-    [LANGUAGE_CHINESE] = "光与影之公主",
+    [LANGUAGE_JAPANESE] = "第90章 ""光と影の王女",
+    [LANGUAGE_ENGLISH] = "Ch.90: ""Princesses in Shadow",
+    [LANGUAGE_CHINESE] = "第90章 ""光与影之公主",
 },
 
 [MID_STAGE_S2044] = {
-    [LANGUAGE_JAPANESE] = "幼き竜人",
-    [LANGUAGE_ENGLISH] = "The Young Dragon",
-    [LANGUAGE_CHINESE] = "幼小的龙人",
+    [LANGUAGE_JAPANESE] = "第91章 ""幼き竜人",
+    [LANGUAGE_ENGLISH] = "Ch.91: ""The Young Dragon",
+    [LANGUAGE_CHINESE] = "第91章 ""幼小的龙人",
 },
 
 [MID_STAGE_S2045] = {
-    [LANGUAGE_JAPANESE] = "灼熱の決断",
-    [LANGUAGE_ENGLISH] = "Fiery Resolve",
-    [LANGUAGE_CHINESE] = "灼热的决断",
+    [LANGUAGE_JAPANESE] = "第92章 ""灼熱の決断",
+    [LANGUAGE_ENGLISH] = "Ch.92: ""Fiery Resolve",
+    [LANGUAGE_CHINESE] = "第92章 ""灼热的决断",
 },
 
 [MID_STAGE_S2051] = {
-    [LANGUAGE_JAPANESE] = "雪原の追跡者",
-    [LANGUAGE_ENGLISH] = "Snowfield Pursuit",
-    [LANGUAGE_CHINESE] = "雪原的追迹者",
+    [LANGUAGE_JAPANESE] = "第93章 ""雪原の追跡者",
+    [LANGUAGE_ENGLISH] = "Ch.93: ""Snowfield Pursuit",
+    [LANGUAGE_CHINESE] = "第93章 ""雪原的追迹者",
 },
 
 [MID_STAGE_S2052] = {
-    [LANGUAGE_JAPANESE] = "灰空に舞う魔女",
-    [LANGUAGE_ENGLISH] = "Dance of the Witch",
-    [LANGUAGE_CHINESE] = "灰空中飞舞的魔女",
+    [LANGUAGE_JAPANESE] = "第94章 ""灰空に舞う魔女",
+    [LANGUAGE_ENGLISH] = "Ch.94: ""Dance of the Witch",
+    [LANGUAGE_CHINESE] = "第94章 ""灰空中飞舞的魔女",
 },
 
 [MID_STAGE_S2053] = {
-    [LANGUAGE_JAPANESE] = "邪竜目覚めし時",
-    [LANGUAGE_ENGLISH] = "The Fell Dragon Rises",
-    [LANGUAGE_CHINESE] = "邪龙苏醒之时",
+    [LANGUAGE_JAPANESE] = "第95章 ""邪竜目覚めし時",
+    [LANGUAGE_ENGLISH] = "Ch.95: ""The Fell Dragon Rises",
+    [LANGUAGE_CHINESE] = "第95章 ""邪龙苏醒之时",
 },
 
 [MID_STAGE_S2054] = {
-    [LANGUAGE_JAPANESE] = "暗黒皇帝",
-    [LANGUAGE_ENGLISH] = "The Dark Emperor",
-    [LANGUAGE_CHINESE] = "暗黑皇帝",
+    [LANGUAGE_JAPANESE] = "第96章 ""暗黒皇帝",
+    [LANGUAGE_ENGLISH] = "Ch.96: ""The Dark Emperor",
+    [LANGUAGE_CHINESE] = "第96章 ""暗黑皇帝",
 },
 
 [MID_STAGE_S2055] = {
-    [LANGUAGE_JAPANESE] = "炎の狩人",
-    [LANGUAGE_ENGLISH] = "Hunted by the Flames",
-    [LANGUAGE_CHINESE] = "炎之狩猎者",
+    [LANGUAGE_JAPANESE] = "第97章 ""炎の狩人",
+    [LANGUAGE_ENGLISH] = "Ch.97: ""Hunted by the Flames",
+    [LANGUAGE_CHINESE] = "第97章 ""炎之狩猎者",
 },
 
 [MID_STAGE_S2061] = {
-    [LANGUAGE_JAPANESE] = "夢見る姿は彼方に",
-    [LANGUAGE_ENGLISH] = "A Distant Dream",
-    [LANGUAGE_CHINESE] = "遥不可及的梦中人",
+    [LANGUAGE_JAPANESE] = "第98章 ""夢見る姿は彼方に",
+    [LANGUAGE_ENGLISH] = "Ch.98: ""A Distant Dream",
+    [LANGUAGE_CHINESE] = "第98章 ""遥不可及的梦中人",
 },
 
 [MID_STAGE_S2062] = {
-    [LANGUAGE_JAPANESE] = "聖痕の騎士",
-    [LANGUAGE_ENGLISH] = "The Branded Knight",
-    [LANGUAGE_CHINESE] = "圣痕骑士",
+    [LANGUAGE_JAPANESE] = "第99章 ""聖痕の騎士",
+    [LANGUAGE_ENGLISH] = "Ch.99: ""The Branded Knight",
+    [LANGUAGE_CHINESE] = "第99章 ""圣痕骑士",
 },
 
 [MID_STAGE_S2063] = {
-    [LANGUAGE_JAPANESE] = "軍師の娘",
-    [LANGUAGE_ENGLISH] = "The Tactician's Daughter",
-    [LANGUAGE_CHINESE] = "军师之女",
+    [LANGUAGE_JAPANESE] = "第100章 ""軍師の娘",
+    [LANGUAGE_ENGLISH] = "Ch.100: ""The Tactician's Daughter",
+    [LANGUAGE_CHINESE] = "第100章 ""军师之女",
 },
 
 [MID_STAGE_S2064] = {
-    [LANGUAGE_JAPANESE] = "軍師の息子",
-    [LANGUAGE_ENGLISH] = "The Tactician's Son",
-    [LANGUAGE_CHINESE] = "军师之子",
+    [LANGUAGE_JAPANESE] = "第101章 ""軍師の息子",
+    [LANGUAGE_ENGLISH] = "Ch.101: ""The Tactician's Son",
+    [LANGUAGE_CHINESE] = "第101章 ""军师之子",
 },
 
 [MID_STAGE_S2065] = {
-    [LANGUAGE_JAPANESE] = "炎剣の鞘",
-    [LANGUAGE_ENGLISH] = "Sheathed Steel",
-    [LANGUAGE_CHINESE] = "炎剑之鞘",
+    [LANGUAGE_JAPANESE] = "第102章 ""炎剣の鞘",
+    [LANGUAGE_ENGLISH] = "Ch.102: ""Sheathed Steel",
+    [LANGUAGE_CHINESE] = "第102章 ""炎剑之鞘",
 },
 
 [MID_STAGE_S2071] = {
-    [LANGUAGE_JAPANESE] = "夢は間近に",
-    [LANGUAGE_ENGLISH] = "Echoing Dreams",
-    [LANGUAGE_CHINESE] = "梦想近在咫尺",
+    [LANGUAGE_JAPANESE] = "第103章 ""夢は間近に",
+    [LANGUAGE_ENGLISH] = "Ch.103: ""Echoing Dreams",
+    [LANGUAGE_CHINESE] = "第103章 ""梦想近在咫尺",
 },
 
 [MID_STAGE_S2072] = {
-    [LANGUAGE_JAPANESE] = "魔道騎士の剣",
-    [LANGUAGE_ENGLISH] = "Blade of the Mage Knight",
-    [LANGUAGE_CHINESE] = "魔道骑士之剑",
+    [LANGUAGE_JAPANESE] = "第104章 ""魔道騎士の剣",
+    [LANGUAGE_ENGLISH] = "Ch.104: ""Blade of the Mage Knight",
+    [LANGUAGE_CHINESE] = "第104章 ""魔道骑士之剑",
 },
 
 [MID_STAGE_S2073] = {
-    [LANGUAGE_JAPANESE] = "不屈の意志",
-    [LANGUAGE_ENGLISH] = "Indomitable Spirits",
-    [LANGUAGE_CHINESE] = "不屈的意志",
+    [LANGUAGE_JAPANESE] = "第105章 ""不屈の意志",
+    [LANGUAGE_ENGLISH] = "Ch.105: ""Indomitable Spirits",
+    [LANGUAGE_CHINESE] = "第105章 ""不屈的意志",
 },
 
 [MID_STAGE_S2074] = {
-    [LANGUAGE_JAPANESE] = "魔道騎士二人",
-    [LANGUAGE_ENGLISH] = "Book and Blade",
-    [LANGUAGE_CHINESE] = "两位魔道骑士",
+    [LANGUAGE_JAPANESE] = "第106章 ""魔道騎士二人",
+    [LANGUAGE_ENGLISH] = "Ch.106: ""Book and Blade",
+    [LANGUAGE_CHINESE] = "第106章 ""两位魔道骑士",
 },
 
 [MID_STAGE_S2075] = {
-    [LANGUAGE_JAPANESE] = "邂逅、そして",
-    [LANGUAGE_ENGLISH] = "Snow and Ash",
-    [LANGUAGE_CHINESE] = "邂逅之后",
+    [LANGUAGE_JAPANESE] = "第107章 ""邂逅、そして",
+    [LANGUAGE_ENGLISH] = "Ch.107: ""Snow and Ash",
+    [LANGUAGE_CHINESE] = "第107章 ""邂逅之后",
 },
 
 [MID_STAGE_S2081] = {
-    [LANGUAGE_JAPANESE] = "氷の子はここに願う",
-    [LANGUAGE_ENGLISH] = "Prayer of the Child of Ice",
-    [LANGUAGE_CHINESE] = "冰之子在此祈求",
+    [LANGUAGE_JAPANESE] = "第108章 ""氷の子はここに願う",
+    [LANGUAGE_ENGLISH] = "Ch.108: ""Prayer of the Child of Ice",
+    [LANGUAGE_CHINESE] = "第108章 ""冰之子在此祈求",
 },
 
 [MID_STAGE_S2082] = {
-    [LANGUAGE_JAPANESE] = "荒ぶる炎鎮める力を",
-    [LANGUAGE_ENGLISH] = "Tame the Savage Flame",
-    [LANGUAGE_CHINESE] = "抑制狂焰之力",
+    [LANGUAGE_JAPANESE] = "第109章 ""荒ぶる炎鎮める力を",
+    [LANGUAGE_ENGLISH] = "Ch.109: ""Tame the Savage Flame",
+    [LANGUAGE_CHINESE] = "第109章 ""抑制狂焰之力",
 },
 
 [MID_STAGE_S2083] = {
-    [LANGUAGE_JAPANESE] = "不死を殺し、不滅を滅す",
-    [LANGUAGE_ENGLISH] = "Unquenchable, Undying",
-    [LANGUAGE_CHINESE] = "杀死不死者、毁灭不灭者",
+    [LANGUAGE_JAPANESE] = "第110章 ""不死を殺し、不滅を滅す",
+    [LANGUAGE_ENGLISH] = "Ch.110: ""Unquenchable, Undying",
+    [LANGUAGE_CHINESE] = "第110章 ""杀死不死者、毁灭不灭者",
 },
 
 [MID_STAGE_S2084] = {
-    [LANGUAGE_JAPANESE] = "その力を、器に",
-    [LANGUAGE_ENGLISH] = "Vessel Filled with Power",
-    [LANGUAGE_CHINESE] = "愿得此力,宿于此器",
+    [LANGUAGE_JAPANESE] = "第111章 ""その力を、器に",
+    [LANGUAGE_ENGLISH] = "Ch.111: ""Vessel Filled with Power",
+    [LANGUAGE_CHINESE] = "第111章 ""愿得此力,宿于此器",
 },
 
 [MID_STAGE_S2085] = {
-    [LANGUAGE_JAPANESE] = "氷の儀",
-    [LANGUAGE_ENGLISH] = "Rite of Frost",
-    [LANGUAGE_CHINESE] = "冰之仪式",
+    [LANGUAGE_JAPANESE] = "第112章 ""氷の儀",
+    [LANGUAGE_ENGLISH] = "Ch.112: ""Rite of Frost",
+    [LANGUAGE_CHINESE] = "第112章 ""冰之仪式",
 },
 
 [MID_STAGE_S2091] = {
-    [LANGUAGE_JAPANESE] = "炎獄の門番",
-    [LANGUAGE_ENGLISH] = "The Infernal Jailer",
-    [LANGUAGE_CHINESE] = "炎狱的守卫",
+    [LANGUAGE_JAPANESE] = "第113章 ""炎獄の門番",
+    [LANGUAGE_ENGLISH] = "Ch.113: ""The Infernal Jailer",
+    [LANGUAGE_CHINESE] = "第113章 ""炎狱的守卫",
 },
 
 [MID_STAGE_S2092] = {
-    [LANGUAGE_JAPANESE] = "魔剣の黒騎士",
-    [LANGUAGE_ENGLISH] = "The Demon Sword",
-    [LANGUAGE_CHINESE] = "魔剑的黑骑士",
+    [LANGUAGE_JAPANESE] = "第114章 ""魔剣の黒騎士",
+    [LANGUAGE_ENGLISH] = "Ch.114: ""The Demon Sword",
+    [LANGUAGE_CHINESE] = "第114章 ""魔剑的黑骑士",
 },
 
 [MID_STAGE_S2093] = {
-    [LANGUAGE_JAPANESE] = "雷神降り立つ",
-    [LANGUAGE_ENGLISH] = "The Goddess of Thunder",
-    [LANGUAGE_CHINESE] = "雷神降临",
+    [LANGUAGE_JAPANESE] = "第115章 ""雷神降り立つ",
+    [LANGUAGE_ENGLISH] = "Ch.115: ""The Goddess of Thunder",
+    [LANGUAGE_CHINESE] = "第115章 ""雷神降临",
 },
 
 [MID_STAGE_S2094] = {
-    [LANGUAGE_JAPANESE] = "炎の踊り子",
-    [LANGUAGE_ENGLISH] = "Dancer of Flames",
-    [LANGUAGE_CHINESE] = "炎之舞娘",
+    [LANGUAGE_JAPANESE] = "第116章 ""炎の踊り子",
+    [LANGUAGE_ENGLISH] = "Ch.116: ""Dancer of Flames",
+    [LANGUAGE_CHINESE] = "第116章 ""炎之舞娘",
 },
 
 [MID_STAGE_S2095] = {
-    [LANGUAGE_JAPANESE] = "地獄の底",
-    [LANGUAGE_ENGLISH] = "Into the Blaze",
-    [LANGUAGE_CHINESE] = "地狱深渊",
+    [LANGUAGE_JAPANESE] = "第117章 ""地獄の底",
+    [LANGUAGE_ENGLISH] = "Ch.117: ""Into the Blaze",
+    [LANGUAGE_CHINESE] = "第117章 ""地狱深渊",
 },
 
 [MID_STAGE_S2101] = {
-    [LANGUAGE_JAPANESE] = "王城攻略",
-    [LANGUAGE_ENGLISH] = "To the Castle",
-    [LANGUAGE_CHINESE] = "攻略王城",
+    [LANGUAGE_JAPANESE] = "第118章 ""王城攻略",
+    [LANGUAGE_ENGLISH] = "Ch.118: ""To the Castle",
+    [LANGUAGE_CHINESE] = "第118章 ""攻略王城",
 },
 
 [MID_STAGE_S2102] = {
-    [LANGUAGE_JAPANESE] = "場違いな探究者",
-    [LANGUAGE_ENGLISH] = "Misplaced Wisdom",
-    [LANGUAGE_CHINESE] = "格格不入的探究者",
+    [LANGUAGE_JAPANESE] = "第119章 ""場違いな探究者",
+    [LANGUAGE_ENGLISH] = "Ch.119: ""Misplaced Wisdom",
+    [LANGUAGE_CHINESE] = "第119章 ""格格不入的探究者",
 },
 
 [MID_STAGE_S2103] = {
-    [LANGUAGE_JAPANESE] = "牙の兄妹",
-    [LANGUAGE_ENGLISH] = "Family of Fangs",
-    [LANGUAGE_CHINESE] = "牙的兄妹",
+    [LANGUAGE_JAPANESE] = "第120章 ""牙の兄妹",
+    [LANGUAGE_ENGLISH] = "Ch.120: ""Family of Fangs",
+    [LANGUAGE_CHINESE] = "第120章 ""牙的兄妹",
 },
 
 [MID_STAGE_S2104] = {
-    [LANGUAGE_JAPANESE] = "剣姫",
-    [LANGUAGE_ENGLISH] = "Sword Vassal",
-    [LANGUAGE_CHINESE] = "剑姬",
+    [LANGUAGE_JAPANESE] = "第121章 ""剣姫",
+    [LANGUAGE_ENGLISH] = "Ch.121: ""Sword Vassal",
+    [LANGUAGE_CHINESE] = "第121章 ""剑姬",
 },
 
 [MID_STAGE_S2105] = {
-    [LANGUAGE_JAPANESE] = "炎の王、死す",
-    [LANGUAGE_ENGLISH] = "The King's Demise",
-    [LANGUAGE_CHINESE] = "炎之王,死亡",
+    [LANGUAGE_JAPANESE] = "第122章 ""炎の王、死す",
+    [LANGUAGE_ENGLISH] = "Ch.122: ""The King's Demise",
+    [LANGUAGE_CHINESE] = "第122章 ""炎之王,死亡",
 },
 
 [MID_STAGE_S2111] = {
-    [LANGUAGE_JAPANESE] = "敵の敵",
-    [LANGUAGE_ENGLISH] = "The Enemy of My Enemy",
-    [LANGUAGE_CHINESE] = "敌人的敌人",
+    [LANGUAGE_JAPANESE] = "第123章 ""敵の敵",
+    [LANGUAGE_ENGLISH] = "Ch.123: ""The Enemy of My Enemy",
+    [LANGUAGE_CHINESE] = "第123章 ""敌人的敌人",
 },
 
 [MID_STAGE_S2112] = {
-    [LANGUAGE_JAPANESE] = "花占いの行方",
-    [LANGUAGE_ENGLISH] = "Flower Fortunes",
-    [LANGUAGE_CHINESE] = "花占卜的去向",
+    [LANGUAGE_JAPANESE] = "第124章 ""花占いの行方",
+    [LANGUAGE_ENGLISH] = "Ch.124: ""Flower Fortunes",
+    [LANGUAGE_CHINESE] = "第124章 ""花占卜的去向",
 },
 
 [MID_STAGE_S2113] = {
-    [LANGUAGE_JAPANESE] = "地獄の底から",
-    [LANGUAGE_ENGLISH] = "From the Depths of Hell",
-    [LANGUAGE_CHINESE] = "来自地狱深渊",
+    [LANGUAGE_JAPANESE] = "第125章 ""地獄の底から",
+    [LANGUAGE_ENGLISH] = "Ch.125: ""From the Depths of Hell",
+    [LANGUAGE_CHINESE] = "第125章 ""来自地狱深渊",
 },
 
 [MID_STAGE_S2114] = {
-    [LANGUAGE_JAPANESE] = "天空の舞踏",
-    [LANGUAGE_ENGLISH] = "Dance in the Sky",
-    [LANGUAGE_CHINESE] = "空中的舞会",
+    [LANGUAGE_JAPANESE] = "第126章 ""天空の舞踏",
+    [LANGUAGE_ENGLISH] = "Ch.126: ""Dance in the Sky",
+    [LANGUAGE_CHINESE] = "第126章 ""空中的舞会",
 },
 
 [MID_STAGE_S2115] = {
-    [LANGUAGE_JAPANESE] = "骨灰の谷",
-    [LANGUAGE_ENGLISH] = "Burnt-Bone Gorge",
-    [LANGUAGE_CHINESE] = "骨灰之谷",
+    [LANGUAGE_JAPANESE] = "第127章 ""骨灰の谷",
+    [LANGUAGE_ENGLISH] = "Ch.127: ""Burnt-Bone Gorge",
+    [LANGUAGE_CHINESE] = "第127章 ""骨灰之谷",
 },
 
 [MID_STAGE_S2121] = {
-    [LANGUAGE_JAPANESE] = "疑心",
-    [LANGUAGE_ENGLISH] = "Suspicion",
-    [LANGUAGE_CHINESE] = "猜疑",
+    [LANGUAGE_JAPANESE] = "第128章 ""疑心",
+    [LANGUAGE_ENGLISH] = "Ch.128: ""Suspicion",
+    [LANGUAGE_CHINESE] = "第128章 ""猜疑",
 },
 
 [MID_STAGE_S2122] = {
-    [LANGUAGE_JAPANESE] = "地の継承者",
-    [LANGUAGE_ENGLISH] = "Scion of a Crusader",
-    [LANGUAGE_CHINESE] = "地之继承者",
+    [LANGUAGE_JAPANESE] = "第129章 ""地の継承者",
+    [LANGUAGE_ENGLISH] = "Ch.129: ""Scion of a Crusader",
+    [LANGUAGE_CHINESE] = "第129章 ""地之继承者",
 },
 
 [MID_STAGE_S2123] = {
-    [LANGUAGE_JAPANESE] = "這いずり彷徨う",
-    [LANGUAGE_ENGLISH] = "Prowling Beast",
-    [LANGUAGE_CHINESE] = "于底层徬徨",
+    [LANGUAGE_JAPANESE] = "第130章 ""這いずり彷徨う",
+    [LANGUAGE_ENGLISH] = "Ch.130: ""Prowling Beast",
+    [LANGUAGE_CHINESE] = "第130章 ""于底层徬徨",
 },
 
 [MID_STAGE_S2124] = {
-    [LANGUAGE_JAPANESE] = "風の継承者",
-    [LANGUAGE_ENGLISH] = "Led by the Breeze",
-    [LANGUAGE_CHINESE] = "风之继承者",
+    [LANGUAGE_JAPANESE] = "第131章 ""風の継承者",
+    [LANGUAGE_ENGLISH] = "Ch.131: ""Led by the Breeze",
+    [LANGUAGE_CHINESE] = "第131章 ""风之继承者",
 },
 
 [MID_STAGE_S2125] = {
-    [LANGUAGE_JAPANESE] = "裏切者は",
-    [LANGUAGE_ENGLISH] = "The Traitor",
-    [LANGUAGE_CHINESE] = "叛徒",
+    [LANGUAGE_JAPANESE] = "第132章 ""裏切者は",
+    [LANGUAGE_ENGLISH] = "Ch.132: ""The Traitor",
+    [LANGUAGE_CHINESE] = "第132章 ""叛徒",
 },
 
 [MID_STAGE_S2131] = {
-    [LANGUAGE_JAPANESE] = "王女レーギャルン",
-    [LANGUAGE_ENGLISH] = "Princess Laegjarn",
-    [LANGUAGE_CHINESE] = "公主瑞瓦伽伦",
+    [LANGUAGE_JAPANESE] = "第133章 ""王女レーギャルン",
+    [LANGUAGE_ENGLISH] = "Ch.133: ""Princess Laegjarn",
+    [LANGUAGE_CHINESE] = "第133章 ""公主瑞瓦伽伦",
 },
 
 [MID_STAGE_S2132] = {
-    [LANGUAGE_JAPANESE] = "炎の贄たち",
-    [LANGUAGE_ENGLISH] = "The Sacrifices",
-    [LANGUAGE_CHINESE] = "炎之祭品",
+    [LANGUAGE_JAPANESE] = "第134章 ""炎の贄たち",
+    [LANGUAGE_ENGLISH] = "Ch.134: ""The Sacrifices",
+    [LANGUAGE_CHINESE] = "第134章 ""炎之祭品",
 },
 
 [MID_STAGE_S2133] = {
-    [LANGUAGE_JAPANESE] = "氷の従者",
-    [LANGUAGE_ENGLISH] = "Maid of Ice",
-    [LANGUAGE_CHINESE] = "冰之侍从",
+    [LANGUAGE_JAPANESE] = "第135章 ""氷の従者",
+    [LANGUAGE_ENGLISH] = "Ch.135: ""Maid of Ice",
+    [LANGUAGE_CHINESE] = "第135章 ""冰之侍从",
 },
 
 [MID_STAGE_S2134] = {
-    [LANGUAGE_JAPANESE] = "王女レーヴァテイン",
-    [LANGUAGE_ENGLISH] = "Princess Laevatein",
-    [LANGUAGE_CHINESE] = "公主瑞瓦提恩",
+    [LANGUAGE_JAPANESE] = "第136章 ""王女レーヴァテイン",
+    [LANGUAGE_ENGLISH] = "Ch.136: ""Princess Laevatein",
+    [LANGUAGE_CHINESE] = "第136章 ""公主瑞瓦提恩",
 },
 
 [MID_STAGE_S2135] = {
-    [LANGUAGE_JAPANESE] = "炎王スルト",
-    [LANGUAGE_ENGLISH] = "Surtr, Ruler of Flame",
-    [LANGUAGE_CHINESE] = "炎王斯尔特",
+    [LANGUAGE_JAPANESE] = "第137章 ""炎王スルト",
+    [LANGUAGE_ENGLISH] = "Ch.137: ""Surtr, Ruler of Flame",
+    [LANGUAGE_CHINESE] = "第137章 ""炎王斯尔特",
 },
 
 [MID_STAGE_S3011] = {
-    [LANGUAGE_JAPANESE] = "死者は昼歩く",
-    [LANGUAGE_ENGLISH] = "The Dead Arrive",
-    [LANGUAGE_CHINESE] = "流连的死者",
+    [LANGUAGE_JAPANESE] = "第138章 ""死者は昼歩く",
+    [LANGUAGE_ENGLISH] = "Ch.138: ""The Dead Arrive",
+    [LANGUAGE_CHINESE] = "第138章 ""流连的死者",
 },
 
 [MID_STAGE_S3012] = {
-    [LANGUAGE_JAPANESE] = "王国に差す影",
-    [LANGUAGE_ENGLISH] = "Askr in Shadow",
-    [LANGUAGE_CHINESE] = "侵入王国的黑影",
+    [LANGUAGE_JAPANESE] = "第139章 ""王国に差す影",
+    [LANGUAGE_ENGLISH] = "Ch.139: ""Askr in Shadow",
+    [LANGUAGE_CHINESE] = "第139章 ""侵入王国的黑影",
 },
 
 [MID_STAGE_S3013] = {
-    [LANGUAGE_JAPANESE] = "撃殺の剣士",
-    [LANGUAGE_ENGLISH] = "Lethal Swordsman",
-    [LANGUAGE_CHINESE] = "杀戮的剑士",
+    [LANGUAGE_JAPANESE] = "第140章 ""撃殺の剣士",
+    [LANGUAGE_ENGLISH] = "Ch.140: ""Lethal Swordsman",
+    [LANGUAGE_CHINESE] = "第140章 ""杀戮的剑士",
 },
 
 [MID_STAGE_S3014] = {
-    [LANGUAGE_JAPANESE] = "鏖殺の魔女",
-    [LANGUAGE_ENGLISH] = "Omnicidal Witch",
-    [LANGUAGE_CHINESE] = "灭绝的魔女",
+    [LANGUAGE_JAPANESE] = "第141章 ""鏖殺の魔女",
+    [LANGUAGE_ENGLISH] = "Ch.141: ""Omnicidal Witch",
+    [LANGUAGE_CHINESE] = "第141章 ""灭绝的魔女",
 },
 
 [MID_STAGE_S3015] = {
-    [LANGUAGE_JAPANESE] = "優しき死神",
-    [LANGUAGE_ENGLISH] = "Merciful Death",
-    [LANGUAGE_CHINESE] = "温柔的死神",
+    [LANGUAGE_JAPANESE] = "第142章 ""優しき死神",
+    [LANGUAGE_ENGLISH] = "Ch.142: ""Merciful Death",
+    [LANGUAGE_CHINESE] = "第142章 ""温柔的死神",
 },
 
 [MID_STAGE_S3021] = {
-    [LANGUAGE_JAPANESE] = "王命",
-    [LANGUAGE_ENGLISH] = "The King's Order",
-    [LANGUAGE_CHINESE] = "王命",
+    [LANGUAGE_JAPANESE] = "第143章 ""王命",
+    [LANGUAGE_ENGLISH] = "Ch.143: ""The King's Order",
+    [LANGUAGE_CHINESE] = "第143章 ""王命",
 },
 
 [MID_STAGE_S3022] = {
-    [LANGUAGE_JAPANESE] = "冥府より吹く風",
-    [LANGUAGE_ENGLISH] = "The Tomb Exhales",
-    [LANGUAGE_CHINESE] = "自冥界吹拂之风",
+    [LANGUAGE_JAPANESE] = "第144章 ""冥府より吹く風",
+    [LANGUAGE_ENGLISH] = "Ch.144: ""The Tomb Exhales",
+    [LANGUAGE_CHINESE] = "第144章 ""自冥界吹拂之风",
 },
 
 [MID_STAGE_S3023] = {
-    [LANGUAGE_JAPANESE] = "死者の道",
-    [LANGUAGE_ENGLISH] = "Path of the Dead",
-    [LANGUAGE_CHINESE] = "死者之路",
+    [LANGUAGE_JAPANESE] = "第145章 ""死者の道",
+    [LANGUAGE_ENGLISH] = "Ch.145: ""Path of the Dead",
+    [LANGUAGE_CHINESE] = "第145章 ""死者之路",
 },
 
 [MID_STAGE_S3024] = {
-    [LANGUAGE_JAPANESE] = "先行偵察",
-    [LANGUAGE_ENGLISH] = "Courting Danger",
-    [LANGUAGE_CHINESE] = "侦查前锋",
+    [LANGUAGE_JAPANESE] = "第146章 ""先行偵察",
+    [LANGUAGE_ENGLISH] = "Ch.146: ""Courting Danger",
+    [LANGUAGE_CHINESE] = "第146章 ""侦查前锋",
 },
 
 [MID_STAGE_S3025] = {
-    [LANGUAGE_JAPANESE] = "王の姿",
-    [LANGUAGE_ENGLISH] = "The Makings of a King",
-    [LANGUAGE_CHINESE] = "王的姿态",
+    [LANGUAGE_JAPANESE] = "第147章 ""王の姿",
+    [LANGUAGE_ENGLISH] = "Ch.147: ""The Makings of a King",
+    [LANGUAGE_CHINESE] = "第147章 ""王的姿态",
 },
 
 [MID_STAGE_S3031] = {
-    [LANGUAGE_JAPANESE] = "二十年前の傷痕",
-    [LANGUAGE_ENGLISH] = "The Scar Remembers",
-    [LANGUAGE_CHINESE] = "二十年前的伤痕",
+    [LANGUAGE_JAPANESE] = "第148章 ""二十年前の傷痕",
+    [LANGUAGE_ENGLISH] = "Ch.148: ""The Scar Remembers",
+    [LANGUAGE_CHINESE] = "第148章 ""二十年前的伤痕",
 },
 
 [MID_STAGE_S3032] = {
-    [LANGUAGE_JAPANESE] = "凶兆の鴉王",
-    [LANGUAGE_ENGLISH] = "The Ominous Raven",
-    [LANGUAGE_CHINESE] = "凶兆的鸦王",
+    [LANGUAGE_JAPANESE] = "第149章 ""凶兆の鴉王",
+    [LANGUAGE_ENGLISH] = "Ch.149: ""The Ominous Raven",
+    [LANGUAGE_CHINESE] = "第149章 ""凶兆的鸦王",
 },
 
 [MID_STAGE_S3033] = {
-    [LANGUAGE_JAPANESE] = "狼女王の牙",
-    [LANGUAGE_ENGLISH] = "Fangs of the Wolf Queen",
-    [LANGUAGE_CHINESE] = "狼女王之牙",
+    [LANGUAGE_JAPANESE] = "第150章 ""狼女王の牙",
+    [LANGUAGE_ENGLISH] = "Ch.150: ""Fangs of the Wolf Queen",
+    [LANGUAGE_CHINESE] = "第150章 ""狼女王之牙",
 },
 
 [MID_STAGE_S3034] = {
-    [LANGUAGE_JAPANESE] = "鷹王と白の王子",
-    [LANGUAGE_ENGLISH] = "Hawk and Heron",
-    [LANGUAGE_CHINESE] = "鹰王与纯白王子",
+    [LANGUAGE_JAPANESE] = "第151章 ""鷹王と白の王子",
+    [LANGUAGE_ENGLISH] = "Ch.151: ""Hawk and Heron",
+    [LANGUAGE_CHINESE] = "第151章 ""鹰王与纯白王子",
 },
 
 [MID_STAGE_S3035] = {
-    [LANGUAGE_JAPANESE] = "死が、そこにいる",
-    [LANGUAGE_ENGLISH] = "Close to Death",
-    [LANGUAGE_CHINESE] = "死亡,就在该处",
+    [LANGUAGE_JAPANESE] = "第152章 ""死が、そこにいる",
+    [LANGUAGE_ENGLISH] = "Ch.152: ""Close to Death",
+    [LANGUAGE_CHINESE] = "第152章 ""死亡,就在该处",
 },
 
 [MID_STAGE_S3041] = {
-    [LANGUAGE_JAPANESE] = "定められた死",
-    [LANGUAGE_ENGLISH] = "No Cheating Death",
-    [LANGUAGE_CHINESE] = "被注定的死亡",
+    [LANGUAGE_JAPANESE] = "第153章 ""定められた死",
+    [LANGUAGE_ENGLISH] = "Ch.153: ""No Cheating Death",
+    [LANGUAGE_CHINESE] = "第153章 ""被注定的死亡",
 },
 
 [MID_STAGE_S3042] = {
-    [LANGUAGE_JAPANESE] = "妖狐の親子",
-    [LANGUAGE_ENGLISH] = "Kitsune Family",
-    [LANGUAGE_CHINESE] = "妖狐亲子",
+    [LANGUAGE_JAPANESE] = "第154章 ""妖狐の親子",
+    [LANGUAGE_ENGLISH] = "Ch.154: ""Kitsune Family",
+    [LANGUAGE_CHINESE] = "第154章 ""妖狐亲子",
 },
 
 [MID_STAGE_S3043] = {
-    [LANGUAGE_JAPANESE] = "ガルーの親子",
-    [LANGUAGE_ENGLISH] = "Wolfskin Family",
-    [LANGUAGE_CHINESE] = "加鲁亲子",
+    [LANGUAGE_JAPANESE] = "第155章 ""ガルーの親子",
+    [LANGUAGE_ENGLISH] = "Ch.155: ""Wolfskin Family",
+    [LANGUAGE_CHINESE] = "第155章 ""加鲁亲子",
 },
 
 [MID_STAGE_S3044] = {
-    [LANGUAGE_JAPANESE] = "零れゆく砂",
-    [LANGUAGE_ENGLISH] = "Running Out of Time",
-    [LANGUAGE_CHINESE] = "散落之砂",
+    [LANGUAGE_JAPANESE] = "第156章 ""零れゆく砂",
+    [LANGUAGE_ENGLISH] = "Ch.156: ""Running Out of Time",
+    [LANGUAGE_CHINESE] = "第156章 ""散落之砂",
 },
 
 [MID_STAGE_S3045] = {
-    [LANGUAGE_JAPANESE] = "死が、迎えに来る",
-    [LANGUAGE_ENGLISH] = "Death's Arrival",
-    [LANGUAGE_CHINESE] = "当死亡来迎接",
+    [LANGUAGE_JAPANESE] = "第157章 ""死が、迎えに来る",
+    [LANGUAGE_ENGLISH] = "Ch.157: ""Death's Arrival",
+    [LANGUAGE_CHINESE] = "第157章 ""当死亡来迎接",
 },
 
 [MID_STAGE_S3051] = {
-    [LANGUAGE_JAPANESE] = "失われたもの",
-    [LANGUAGE_ENGLISH] = "Loss",
-    [LANGUAGE_CHINESE] = "所失之物",
+    [LANGUAGE_JAPANESE] = "第158章 ""失われたもの",
+    [LANGUAGE_ENGLISH] = "Ch.158: ""Loss",
+    [LANGUAGE_CHINESE] = "第158章 ""所失之物",
 },
 
 [MID_STAGE_S3052] = {
-    [LANGUAGE_JAPANESE] = "傭兵天馬騎士",
-    [LANGUAGE_ENGLISH] = "Airborne Mercenary",
-    [LANGUAGE_CHINESE] = "佣兵天马骑士",
+    [LANGUAGE_JAPANESE] = "第159章 ""傭兵天馬騎士",
+    [LANGUAGE_ENGLISH] = "Ch.159: ""Airborne Mercenary",
+    [LANGUAGE_CHINESE] = "第159章 ""佣兵天马骑士",
 },
 
 [MID_STAGE_S3053] = {
-    [LANGUAGE_JAPANESE] = "草原の戦士たち",
-    [LANGUAGE_ENGLISH] = "Warriors of the Plains",
-    [LANGUAGE_CHINESE] = "草原的战士们",
+    [LANGUAGE_JAPANESE] = "第160章 ""草原の戦士たち",
+    [LANGUAGE_ENGLISH] = "Ch.160: ""Warriors of the Plains",
+    [LANGUAGE_CHINESE] = "第160章 ""草原的战士们",
 },
 
 [MID_STAGE_S3054] = {
-    [LANGUAGE_JAPANESE] = "魔竜の目覚め",
-    [LANGUAGE_ENGLISH] = "The Demon Dragon Wakes",
-    [LANGUAGE_CHINESE] = "魔龙苏醒",
+    [LANGUAGE_JAPANESE] = "第161章 ""魔竜の目覚め",
+    [LANGUAGE_ENGLISH] = "Ch.161: ""The Demon Dragon Wakes",
+    [LANGUAGE_CHINESE] = "第161章 ""魔龙苏醒",
 },
 
 [MID_STAGE_S3055] = {
-    [LANGUAGE_JAPANESE] = "死中に生を",
-    [LANGUAGE_ENGLISH] = "Into the Gates",
-    [LANGUAGE_CHINESE] = "死里求生",
+    [LANGUAGE_JAPANESE] = "第162章 ""死中に生を",
+    [LANGUAGE_ENGLISH] = "Ch.162: ""Into the Gates",
+    [LANGUAGE_CHINESE] = "第162章 ""死里求生",
 },
 
 [MID_STAGE_S3061] = {
-    [LANGUAGE_JAPANESE] = "幾千の惨劇を",
-    [LANGUAGE_ENGLISH] = "Tragedy upon Tragedy",
-    [LANGUAGE_CHINESE] = "历经无数惨剧",
+    [LANGUAGE_JAPANESE] = "第163章 ""幾千の惨劇を",
+    [LANGUAGE_ENGLISH] = "Ch.163: ""Tragedy upon Tragedy",
+    [LANGUAGE_CHINESE] = "第163章 ""历经无数惨剧",
 },
 
 [MID_STAGE_S3062] = {
-    [LANGUAGE_JAPANESE] = "獣戦士たち",
-    [LANGUAGE_ENGLISH] = "Warriors of the Laguz",
-    [LANGUAGE_CHINESE] = "兽战士们",
+    [LANGUAGE_JAPANESE] = "第164章 ""獣戦士たち",
+    [LANGUAGE_ENGLISH] = "Ch.164: ""Warriors of the Laguz",
+    [LANGUAGE_CHINESE] = "第164章 ""兽战士们",
 },
 
 [MID_STAGE_S3063] = {
-    [LANGUAGE_JAPANESE] = "再びの死",
-    [LANGUAGE_ENGLISH] = "Death Visits Again",
-    [LANGUAGE_CHINESE] = "再次死亡",
+    [LANGUAGE_JAPANESE] = "第165章 ""再びの死",
+    [LANGUAGE_ENGLISH] = "Ch.165: ""Death Visits Again",
+    [LANGUAGE_CHINESE] = "第165章 ""再次死亡",
 },
 
 [MID_STAGE_S3064] = {
-    [LANGUAGE_JAPANESE] = "獅子王咆哮す",
-    [LANGUAGE_ENGLISH] = "Hear the Lion's Roar",
-    [LANGUAGE_CHINESE] = "狮子王咆哮",
+    [LANGUAGE_JAPANESE] = "第166章 ""獅子王咆哮す",
+    [LANGUAGE_ENGLISH] = "Ch.166: ""Hear the Lion's Roar",
+    [LANGUAGE_CHINESE] = "第166章 ""狮子王咆哮",
 },
 
 [MID_STAGE_S3065] = {
-    [LANGUAGE_JAPANESE] = "アスクの血脈",
-    [LANGUAGE_ENGLISH] = "The Blood of Askr",
-    [LANGUAGE_CHINESE] = "亚斯克的血脉",
+    [LANGUAGE_JAPANESE] = "第167章 ""アスクの血脈",
+    [LANGUAGE_ENGLISH] = "Ch.167: ""The Blood of Askr",
+    [LANGUAGE_CHINESE] = "第167章 ""亚斯克的血脉",
 },
 
 [MID_STAGE_S3071] = {
-    [LANGUAGE_JAPANESE] = "いつか見た景色",
-    [LANGUAGE_ENGLISH] = "Familiar Scenery",
-    [LANGUAGE_CHINESE] = "似曾相识的景色",
+    [LANGUAGE_JAPANESE] = "第168章 ""いつか見た景色",
+    [LANGUAGE_ENGLISH] = "Ch.168: ""Familiar Scenery",
+    [LANGUAGE_CHINESE] = "第168章 ""似曾相识的景色",
 },
 
 [MID_STAGE_S3072] = {
-    [LANGUAGE_JAPANESE] = "身を焦がす竜血",
-    [LANGUAGE_ENGLISH] = "Boiling Blood",
-    [LANGUAGE_CHINESE] = "沸腾的龙血",
+    [LANGUAGE_JAPANESE] = "第169章 ""身を焦がす竜血",
+    [LANGUAGE_ENGLISH] = "Ch.169: ""Boiling Blood",
+    [LANGUAGE_CHINESE] = "第169章 ""沸腾的龙血",
 },
 
 [MID_STAGE_S3073] = {
-    [LANGUAGE_JAPANESE] = "ひとり、みるゆめ",
-    [LANGUAGE_ENGLISH] = "Trapped, Alone",
-    [LANGUAGE_CHINESE] = "独自一人所见的梦",
+    [LANGUAGE_JAPANESE] = "第170章 ""ひとり、みるゆめ",
+    [LANGUAGE_ENGLISH] = "Ch.170: ""Trapped, Alone",
+    [LANGUAGE_CHINESE] = "第170章 ""独自一人所见的梦",
 },
 
 [MID_STAGE_S3074] = {
-    [LANGUAGE_JAPANESE] = "焼き尽くせぬ狂気",
-    [LANGUAGE_ENGLISH] = "Engulfed by Madness",
-    [LANGUAGE_CHINESE] = "燃烧不尽的狂气",
+    [LANGUAGE_JAPANESE] = "第171章 ""焼き尽くせぬ狂気",
+    [LANGUAGE_ENGLISH] = "Ch.171: ""Engulfed by Madness",
+    [LANGUAGE_CHINESE] = "第171章 ""燃烧不尽的狂气",
 },
 
 [MID_STAGE_S3075] = {
-    [LANGUAGE_JAPANESE] = "温もりの花",
-    [LANGUAGE_ENGLISH] = "Compassion Blooms",
-    [LANGUAGE_CHINESE] = "暖之花",
+    [LANGUAGE_JAPANESE] = "第172章 ""温もりの花",
+    [LANGUAGE_ENGLISH] = "Ch.172: ""Compassion Blooms",
+    [LANGUAGE_CHINESE] = "第172章 ""暖之花",
 },
 
 [MID_STAGE_S3081] = {
-    [LANGUAGE_JAPANESE] = "滅びの地で",
-    [LANGUAGE_ENGLISH] = "Ruinous Land",
-    [LANGUAGE_CHINESE] = "于灭亡之地",
+    [LANGUAGE_JAPANESE] = "第173章 ""滅びの地で",
+    [LANGUAGE_ENGLISH] = "Ch.173: ""Ruinous Land",
+    [LANGUAGE_CHINESE] = "第173章 ""于灭亡之地",
 },
 
 [MID_STAGE_S3082] = {
-    [LANGUAGE_JAPANESE] = "最後の種族",
-    [LANGUAGE_ENGLISH] = "Almost Extinct",
-    [LANGUAGE_CHINESE] = "最后的种族",
+    [LANGUAGE_JAPANESE] = "第174章 ""最後の種族",
+    [LANGUAGE_ENGLISH] = "Ch.174: ""Almost Extinct",
+    [LANGUAGE_CHINESE] = "第174章 ""最后的种族",
 },
 
 [MID_STAGE_S3083] = {
-    [LANGUAGE_JAPANESE] = "花の残り香",
-    [LANGUAGE_ENGLISH] = "Their Fragrance Lingers...",
-    [LANGUAGE_CHINESE] = "花的残香",
+    [LANGUAGE_JAPANESE] = "第175章 ""花の残り香",
+    [LANGUAGE_ENGLISH] = "Ch.175: ""Their Fragrance Lingers...",
+    [LANGUAGE_CHINESE] = "第175章 ""花的残香",
 },
 
 [MID_STAGE_S3084] = {
-    [LANGUAGE_JAPANESE] = "神託の少女",
-    [LANGUAGE_ENGLISH] = "Tiny Harbinger",
-    [LANGUAGE_CHINESE] = "神谕少女",
+    [LANGUAGE_JAPANESE] = "第176章 ""神託の少女",
+    [LANGUAGE_ENGLISH] = "Ch.176: ""Tiny Harbinger",
+    [LANGUAGE_CHINESE] = "第176章 ""神谕少女",
 },
 
 [MID_STAGE_S3085] = {
-    [LANGUAGE_JAPANESE] = "書は語る、滅びを",
-    [LANGUAGE_ENGLISH] = "Foreboding Words",
-    [LANGUAGE_CHINESE] = "书诉说著灭亡",
+    [LANGUAGE_JAPANESE] = "第177章 ""書は語る、滅びを",
+    [LANGUAGE_ENGLISH] = "Ch.177: ""Foreboding Words",
+    [LANGUAGE_CHINESE] = "第177章 ""书诉说著灭亡",
 },
 
 [MID_STAGE_S3091] = {
-    [LANGUAGE_JAPANESE] = "一時の休戦",
-    [LANGUAGE_ENGLISH] = "A Pause in Hostilities",
-    [LANGUAGE_CHINESE] = "暂时休战",
+    [LANGUAGE_JAPANESE] = "第178章 ""一時の休戦",
+    [LANGUAGE_ENGLISH] = "Ch.178: ""A Pause in Hostilities",
+    [LANGUAGE_CHINESE] = "第178章 ""暂时休战",
 },
 
 [MID_STAGE_S3092] = {
-    [LANGUAGE_JAPANESE] = "青獅子の守護者",
-    [LANGUAGE_ENGLISH] = "The Protector",
-    [LANGUAGE_CHINESE] = "青狮子的守护者",
+    [LANGUAGE_JAPANESE] = "第179章 ""青獅子の守護者",
+    [LANGUAGE_ENGLISH] = "Ch.179: ""The Protector",
+    [LANGUAGE_CHINESE] = "第179章 ""青狮子的守护者",
 },
 
 [MID_STAGE_S3093] = {
-    [LANGUAGE_JAPANESE] = "野望の寵児",
-    [LANGUAGE_ENGLISH] = "The Schemer",
-    [LANGUAGE_CHINESE] = "野心的宠儿",
+    [LANGUAGE_JAPANESE] = "第180章 ""野望の寵児",
+    [LANGUAGE_ENGLISH] = "Ch.180: ""The Schemer",
+    [LANGUAGE_CHINESE] = "第180章 ""野心的宠儿",
 },
 
 [MID_STAGE_S3094] = {
-    [LANGUAGE_JAPANESE] = "黒鷲を継ぐ者",
-    [LANGUAGE_ENGLISH] = "The Future",
-    [LANGUAGE_CHINESE] = "黑鹫的继承者",
+    [LANGUAGE_JAPANESE] = "第181章 ""黒鷲を継ぐ者",
+    [LANGUAGE_ENGLISH] = "Ch.181: ""The Future",
+    [LANGUAGE_CHINESE] = "第181章 ""黑鹫的继承者",
 },
 
 [MID_STAGE_S3095] = {
-    [LANGUAGE_JAPANESE] = "正気を失うには、十分だ",
-    [LANGUAGE_ENGLISH] = "My Sanity Died with Them",
-    [LANGUAGE_CHINESE] = "足以让人失去理智",
+    [LANGUAGE_JAPANESE] = "第182章 ""正気を失うには、十分だ",
+    [LANGUAGE_ENGLISH] = "Ch.182: ""My Sanity Died with Them",
+    [LANGUAGE_CHINESE] = "第182章 ""足以让人失去理智",
 },
 
 [MID_STAGE_S3101] = {
-    [LANGUAGE_JAPANESE] = "彼女の名は",
-    [LANGUAGE_ENGLISH] = "Truth of Her Name",
-    [LANGUAGE_CHINESE] = "她的名字",
+    [LANGUAGE_JAPANESE] = "第183章 ""彼女の名は",
+    [LANGUAGE_ENGLISH] = "Ch.183: ""Truth of Her Name",
+    [LANGUAGE_CHINESE] = "第183章 ""她的名字",
 },
 
 [MID_STAGE_S3102] = {
-    [LANGUAGE_JAPANESE] = "令嬢と修道士",
-    [LANGUAGE_ENGLISH] = "Maiden and Devotee",
-    [LANGUAGE_CHINESE] = "大小姐与修道士",
+    [LANGUAGE_JAPANESE] = "第184章 ""令嬢と修道士",
+    [LANGUAGE_ENGLISH] = "Ch.184: ""Maiden and Devotee",
+    [LANGUAGE_CHINESE] = "第184章 ""大小姐与修道士",
 },
 
 [MID_STAGE_S3103] = {
-    [LANGUAGE_JAPANESE] = "エンブラに入りて",
-    [LANGUAGE_ENGLISH] = "Inside Embla",
-    [LANGUAGE_CHINESE] = "入境恩布拉",
+    [LANGUAGE_JAPANESE] = "第185章 ""エンブラに入りて",
+    [LANGUAGE_ENGLISH] = "Ch.185: ""Inside Embla",
+    [LANGUAGE_CHINESE] = "第185章 ""入境恩布拉",
 },
 
 [MID_STAGE_S3104] = {
-    [LANGUAGE_JAPANESE] = "悪鬼来たる",
-    [LANGUAGE_ENGLISH] = "The Reaper Cometh",
-    [LANGUAGE_CHINESE] = "恶鬼到来",
+    [LANGUAGE_JAPANESE] = "第186章 ""悪鬼来たる",
+    [LANGUAGE_ENGLISH] = "Ch.186: ""The Reaper Cometh",
+    [LANGUAGE_CHINESE] = "第186章 ""恶鬼到来",
 },
 
 [MID_STAGE_S3105] = {
-    [LANGUAGE_JAPANESE] = "鮮血の神殿",
-    [LANGUAGE_ENGLISH] = "Temple of Blood",
-    [LANGUAGE_CHINESE] = "鲜血神殿",
+    [LANGUAGE_JAPANESE] = "第187章 ""鮮血の神殿",
+    [LANGUAGE_ENGLISH] = "Ch.187: ""Temple of Blood",
+    [LANGUAGE_CHINESE] = "第187章 ""鲜血神殿",
 },
 
 [MID_STAGE_S3111] = {
-    [LANGUAGE_JAPANESE] = "希望の行方は",
-    [LANGUAGE_ENGLISH] = "Seeking a Path",
-    [LANGUAGE_CHINESE] = "希望的去向",
+    [LANGUAGE_JAPANESE] = "第188章 ""希望の行方は",
+    [LANGUAGE_ENGLISH] = "Ch.188: ""Seeking a Path",
+    [LANGUAGE_CHINESE] = "第188章 ""希望的去向",
 },
 
 [MID_STAGE_S3112] = {
-    [LANGUAGE_JAPANESE] = "仮面騎士の放浪",
-    [LANGUAGE_ENGLISH] = "The Masked Wanderer",
-    [LANGUAGE_CHINESE] = "蒙面骑士的流浪",
+    [LANGUAGE_JAPANESE] = "第189章 ""仮面騎士の放浪",
+    [LANGUAGE_ENGLISH] = "Ch.189: ""The Masked Wanderer",
+    [LANGUAGE_CHINESE] = "第189章 ""蒙面骑士的流浪",
 },
 
 [MID_STAGE_S3113] = {
-    [LANGUAGE_JAPANESE] = "踊り子の審美",
-    [LANGUAGE_ENGLISH] = "Polarized Judgments",
-    [LANGUAGE_CHINESE] = "舞者的审美观",
+    [LANGUAGE_JAPANESE] = "第190章 ""踊り子の審美",
+    [LANGUAGE_ENGLISH] = "Ch.190: ""Polarized Judgments",
+    [LANGUAGE_CHINESE] = "第190章 ""舞者的审美观",
 },
 
 [MID_STAGE_S3114] = {
-    [LANGUAGE_JAPANESE] = "神竜王の微睡み",
-    [LANGUAGE_ENGLISH] = "An Addled Dragon",
-    [LANGUAGE_CHINESE] = "神龙王的小憩",
+    [LANGUAGE_JAPANESE] = "第191章 ""神竜王の微睡み",
+    [LANGUAGE_ENGLISH] = "Ch.191: ""An Addled Dragon",
+    [LANGUAGE_CHINESE] = "第191章 ""神龙王的小憩",
 },
 
 [MID_STAGE_S3115] = {
-    [LANGUAGE_JAPANESE] = "俺は知り、お前は知らない",
-    [LANGUAGE_ENGLISH] = "Bitter Realizations",
-    [LANGUAGE_CHINESE] = "我知你所不知",
+    [LANGUAGE_JAPANESE] = "第192章 ""俺は知り、お前は知らない",
+    [LANGUAGE_ENGLISH] = "Ch.192: ""Bitter Realizations",
+    [LANGUAGE_CHINESE] = "第192章 ""我知你所不知",
 },
 
 [MID_STAGE_S3121] = {
-    [LANGUAGE_JAPANESE] = "もう一人のシャロン",
-    [LANGUAGE_ENGLISH] = "Sharena's Counterpart",
-    [LANGUAGE_CHINESE] = "另一个夏蓉",
+    [LANGUAGE_JAPANESE] = "第193章 ""もう一人のシャロン",
+    [LANGUAGE_ENGLISH] = "Ch.193: ""Sharena's Counterpart",
+    [LANGUAGE_CHINESE] = "第193章 ""另一个夏蓉",
 },
 
 [MID_STAGE_S3122] = {
-    [LANGUAGE_JAPANESE] = "豪放なる重騎士",
-    [LANGUAGE_ENGLISH] = "Large Armor, Larger Heart",
-    [LANGUAGE_CHINESE] = "豪放的重骑士",
+    [LANGUAGE_JAPANESE] = "第194章 ""豪放なる重騎士",
+    [LANGUAGE_ENGLISH] = "Ch.194: ""Large Armor, Larger Heart",
+    [LANGUAGE_CHINESE] = "第194章 ""豪放的重骑士",
 },
 
 [MID_STAGE_S3123] = {
-    [LANGUAGE_JAPANESE] = "己が影を追って",
-    [LANGUAGE_ENGLISH] = "One's Own Shadow",
-    [LANGUAGE_CHINESE] = "追逐自己的影子",
+    [LANGUAGE_JAPANESE] = "第195章 ""己が影を追って",
+    [LANGUAGE_ENGLISH] = "Ch.195: ""One's Own Shadow",
+    [LANGUAGE_CHINESE] = "第195章 ""追逐自己的影子",
 },
 
 [MID_STAGE_S3124] = {
-    [LANGUAGE_JAPANESE] = "三姉妹の次女",
-    [LANGUAGE_ENGLISH] = "Middle Sister",
-    [LANGUAGE_CHINESE] = "三姊妹中的次女",
+    [LANGUAGE_JAPANESE] = "第196章 ""三姉妹の次女",
+    [LANGUAGE_ENGLISH] = "Ch.196: ""Middle Sister",
+    [LANGUAGE_CHINESE] = "第196章 ""三姊妹中的次女",
 },
 
 [MID_STAGE_S3125] = {
-    [LANGUAGE_JAPANESE] = "せめて、君たちは",
-    [LANGUAGE_ENGLISH] = "If Not I, Then You...",
-    [LANGUAGE_CHINESE] = "至少你们......",
+    [LANGUAGE_JAPANESE] = "第197章 ""せめて、君たちは",
+    [LANGUAGE_ENGLISH] = "Ch.197: ""If Not I, Then You...",
+    [LANGUAGE_CHINESE] = "第197章 ""至少你们......",
 },
 
 [MID_STAGE_S3131] = {
-    [LANGUAGE_JAPANESE] = "私に従え",
-    [LANGUAGE_ENGLISH] = "Obey Me",
-    [LANGUAGE_CHINESE] = "服从我",
+    [LANGUAGE_JAPANESE] = "第198章 ""私に従え",
+    [LANGUAGE_ENGLISH] = "Ch.198: ""Obey Me",
+    [LANGUAGE_CHINESE] = "第198章 ""服从我",
 },
 
 [MID_STAGE_S3132] = {
-    [LANGUAGE_JAPANESE] = "あの丘で共に",
-    [LANGUAGE_ENGLISH] = "On That Hill, Together",
-    [LANGUAGE_CHINESE] = "在那座山丘上比肩",
+    [LANGUAGE_JAPANESE] = "第199章 ""あの丘で共に",
+    [LANGUAGE_ENGLISH] = "Ch.199: ""On That Hill, Together",
+    [LANGUAGE_CHINESE] = "第199章 ""在那座山丘上比肩",
 },
 
 [MID_STAGE_S3133] = {
-    [LANGUAGE_JAPANESE] = "玩弄されるもの",
-    [LANGUAGE_ENGLISH] = "Mere Playthings",
-    [LANGUAGE_CHINESE] = "被玩弄之人",
+    [LANGUAGE_JAPANESE] = "第200章 ""玩弄されるもの",
+    [LANGUAGE_ENGLISH] = "Ch.200: ""Mere Playthings",
+    [LANGUAGE_CHINESE] = "第200章 ""被玩弄之人",
 },
 
 [MID_STAGE_S3134] = {
-    [LANGUAGE_JAPANESE] = "あなたを殺す",
-    [LANGUAGE_ENGLISH] = "Don’t Struggle",
-    [LANGUAGE_CHINESE] = "杀了你",
+    [LANGUAGE_JAPANESE] = "第201章 ""あなたを殺す",
+    [LANGUAGE_ENGLISH] = "Ch.201: ""Don’t Struggle",
+    [LANGUAGE_CHINESE] = "第201章 ""杀了你",
 },
 
 [MID_STAGE_S3135] = {
-    [LANGUAGE_JAPANESE] = "死の王ヘル",
-    [LANGUAGE_ENGLISH] = "Ruler of the Dead",
-    [LANGUAGE_CHINESE] = "死之王赫尔",
+    [LANGUAGE_JAPANESE] = "第202章 ""死の王ヘル",
+    [LANGUAGE_ENGLISH] = "Ch.202: ""Ruler of the Dead",
+    [LANGUAGE_CHINESE] = "第202章 ""死之王赫尔",
 },
 
 [MID_STAGE_S4011] = {
-    [LANGUAGE_JAPANESE] = "眠り病",
-    [LANGUAGE_ENGLISH] = "Sleep Sickness",
-    [LANGUAGE_CHINESE] = "睡眠病",
+    [LANGUAGE_JAPANESE] = "第203章 ""眠り病",
+    [LANGUAGE_ENGLISH] = "Ch.203: ""Sleep Sickness",
+    [LANGUAGE_CHINESE] = "第203章 ""睡眠病",
 },
 
 [MID_STAGE_S4012] = {
-    [LANGUAGE_JAPANESE] = "それはあたかも現実のよう",
-    [LANGUAGE_ENGLISH] = "Reflections of Reality",
-    [LANGUAGE_CHINESE] = "那也宛如现实",
+    [LANGUAGE_JAPANESE] = "第204章 ""それはあたかも現実のよう",
+    [LANGUAGE_ENGLISH] = "Ch.204: ""Reflections of Reality",
+    [LANGUAGE_CHINESE] = "第204章 ""那也宛如现实",
 },
 
 [MID_STAGE_S4013] = {
-    [LANGUAGE_JAPANESE] = "見ている間はそれと気づかず",
-    [LANGUAGE_ENGLISH] = "A Change Unnoticed",
-    [LANGUAGE_CHINESE] = "看时尚未察觉",
+    [LANGUAGE_JAPANESE] = "第205章 ""見ている間はそれと気づかず",
+    [LANGUAGE_ENGLISH] = "Ch.205: ""A Change Unnoticed",
+    [LANGUAGE_CHINESE] = "第205章 ""看时尚未察觉",
 },
 
 [MID_STAGE_S4014] = {
-    [LANGUAGE_JAPANESE] = "目覚めてはじめてそれと知る",
-    [LANGUAGE_ENGLISH] = "Waking Realization",
-    [LANGUAGE_CHINESE] = "醒后方才知晓",
+    [LANGUAGE_JAPANESE] = "第206章 ""目覚めてはじめてそれと知る",
+    [LANGUAGE_ENGLISH] = "Ch.206: ""Waking Realization",
+    [LANGUAGE_CHINESE] = "第206章 ""醒后方才知晓",
 },
 
 [MID_STAGE_S4015] = {
-    [LANGUAGE_JAPANESE] = "眠れる者の世界、それが",
-    [LANGUAGE_ENGLISH] = "In a Sleeping World",
-    [LANGUAGE_CHINESE] = "那是沉睡者的世界",
+    [LANGUAGE_JAPANESE] = "第207章 ""眠れる者の世界、それが",
+    [LANGUAGE_ENGLISH] = "Ch.207: ""In a Sleeping World",
+    [LANGUAGE_CHINESE] = "第207章 ""那是沉睡者的世界",
 },
 
 [MID_STAGE_S4021] = {
-    [LANGUAGE_JAPANESE] = "夢の迷い子",
-    [LANGUAGE_ENGLISH] = "Lost in a Dream",
-    [LANGUAGE_CHINESE] = "在梦中迷途之人",
+    [LANGUAGE_JAPANESE] = "第208章 ""夢の迷い子",
+    [LANGUAGE_ENGLISH] = "Ch.208: ""Lost in a Dream",
+    [LANGUAGE_CHINESE] = "第208章 ""在梦中迷途之人",
 },
 
 [MID_STAGE_S4022] = {
-    [LANGUAGE_JAPANESE] = "智将の憤懣",
-    [LANGUAGE_ENGLISH] = "General's Scorn",
-    [LANGUAGE_CHINESE] = "智将的愤懑",
+    [LANGUAGE_JAPANESE] = "第209章 ""智将の憤懣",
+    [LANGUAGE_ENGLISH] = "Ch.209: ""General's Scorn",
+    [LANGUAGE_CHINESE] = "第209章 ""智将的愤懑",
 },
 
 [MID_STAGE_S4023] = {
-    [LANGUAGE_JAPANESE] = "剣士の悔恨",
-    [LANGUAGE_ENGLISH] = "Swordmaster's Regret",
-    [LANGUAGE_CHINESE] = "剑士的悔恨",
+    [LANGUAGE_JAPANESE] = "第210章 ""剣士の悔恨",
+    [LANGUAGE_ENGLISH] = "Ch.210: ""Swordmaster's Regret",
+    [LANGUAGE_CHINESE] = "第210章 ""剑士的悔恨",
 },
 
 [MID_STAGE_S4024] = {
-    [LANGUAGE_JAPANESE] = "女神の忘失",
-    [LANGUAGE_ENGLISH] = "Mistress's Loss",
-    [LANGUAGE_CHINESE] = "女神的遗忘",
+    [LANGUAGE_JAPANESE] = "第211章 ""女神の忘失",
+    [LANGUAGE_ENGLISH] = "Ch.211: ""Mistress's Loss",
+    [LANGUAGE_CHINESE] = "第211章 ""女神的遗忘",
 },
 
 [MID_STAGE_S4025] = {
-    [LANGUAGE_JAPANESE] = "夢の中の夢へ",
-    [LANGUAGE_ENGLISH] = "Deeper and Deeper",
-    [LANGUAGE_CHINESE] = "前往梦中梦",
+    [LANGUAGE_JAPANESE] = "第212章 ""夢の中の夢へ",
+    [LANGUAGE_ENGLISH] = "Ch.212: ""Deeper and Deeper",
+    [LANGUAGE_CHINESE] = "第212章 ""前往梦中梦",
 },
 
 [MID_STAGE_S4031] = {
-    [LANGUAGE_JAPANESE] = "目覚めを告げるもの",
-    [LANGUAGE_ENGLISH] = "A Rousing Blast",
-    [LANGUAGE_CHINESE] = "宣告觉醒之物",
+    [LANGUAGE_JAPANESE] = "第213章 ""目覚めを告げるもの",
+    [LANGUAGE_ENGLISH] = "Ch.213: ""A Rousing Blast",
+    [LANGUAGE_CHINESE] = "第213章 ""宣告觉醒之物",
 },
 
 [MID_STAGE_S4032] = {
-    [LANGUAGE_JAPANESE] = "妹王女の懐旧",
-    [LANGUAGE_ENGLISH] = "Adopted Fondness",
-    [LANGUAGE_CHINESE] = "王妹的怀旧",
+    [LANGUAGE_JAPANESE] = "第214章 ""妹王女の懐旧",
+    [LANGUAGE_ENGLISH] = "Ch.214: ""Adopted Fondness",
+    [LANGUAGE_CHINESE] = "第214章 ""王妹的怀旧",
 },
 
 [MID_STAGE_S4033] = {
-    [LANGUAGE_JAPANESE] = "娘の母恋い",
-    [LANGUAGE_ENGLISH] = "Motherly Instincts",
-    [LANGUAGE_CHINESE] = "女儿的爱母之情",
+    [LANGUAGE_JAPANESE] = "第215章 ""娘の母恋い",
+    [LANGUAGE_ENGLISH] = "Ch.215: ""Motherly Instincts",
+    [LANGUAGE_CHINESE] = "第215章 ""女儿的爱母之情",
 },
 
 [MID_STAGE_S4034] = {
-    [LANGUAGE_JAPANESE] = "勇者の心奥",
-    [LANGUAGE_ENGLISH] = "The Hero Inside",
-    [LANGUAGE_CHINESE] = "勇者的内心深处",
+    [LANGUAGE_JAPANESE] = "第216章 ""勇者の心奥",
+    [LANGUAGE_ENGLISH] = "Ch.216: ""The Hero Inside",
+    [LANGUAGE_CHINESE] = "第216章 ""勇者的内心深处",
 },
 
 [MID_STAGE_S4035] = {
-    [LANGUAGE_JAPANESE] = "友は遠く",
-    [LANGUAGE_ENGLISH] = "A Distant Friend",
-    [LANGUAGE_CHINESE] = "远离的朋友",
+    [LANGUAGE_JAPANESE] = "第217章 ""友は遠く",
+    [LANGUAGE_ENGLISH] = "Ch.217: ""A Distant Friend",
+    [LANGUAGE_CHINESE] = "第217章 ""远离的朋友",
 },
 
 [MID_STAGE_S4041] = {
-    [LANGUAGE_JAPANESE] = "人に見せる夢は",
-    [LANGUAGE_ENGLISH] = "Seen in Dreams",
-    [LANGUAGE_CHINESE] = "使人所作之梦为",
+    [LANGUAGE_JAPANESE] = "第218章 ""人に見せる夢は",
+    [LANGUAGE_ENGLISH] = "Ch.218: ""Seen in Dreams",
+    [LANGUAGE_CHINESE] = "第218章 ""使人所作之梦为",
 },
 
 [MID_STAGE_S4042] = {
-    [LANGUAGE_JAPANESE] = "幼き竜の追憶",
-    [LANGUAGE_ENGLISH] = "Dragon's Hearkening",
-    [LANGUAGE_CHINESE] = "幼龙的追忆",
+    [LANGUAGE_JAPANESE] = "第219章 ""幼き竜の追憶",
+    [LANGUAGE_ENGLISH] = "Ch.219: ""Dragon's Hearkening",
+    [LANGUAGE_CHINESE] = "第219章 ""幼龙的追忆",
 },
 
 [MID_STAGE_S4043] = {
-    [LANGUAGE_JAPANESE] = "イリア騎士の決意",
-    [LANGUAGE_ENGLISH] = "Ilian Determination",
-    [LANGUAGE_CHINESE] = "伊利亚骑士的决心",
+    [LANGUAGE_JAPANESE] = "第220章 ""イリア騎士の決意",
+    [LANGUAGE_ENGLISH] = "Ch.220: ""Ilian Determination",
+    [LANGUAGE_CHINESE] = "第220章 ""伊利亚骑士的决心",
 },
 
 [MID_STAGE_S4044] = {
-    [LANGUAGE_JAPANESE] = "密偵の未来",
-    [LANGUAGE_ENGLISH] = "Spies' Future",
-    [LANGUAGE_CHINESE] = "密探的未来",
+    [LANGUAGE_JAPANESE] = "第221章 ""密偵の未来",
+    [LANGUAGE_ENGLISH] = "Ch.221: ""Spies' Future",
+    [LANGUAGE_CHINESE] = "第221章 ""密探的未来",
 },
 
 [MID_STAGE_S4045] = {
-    [LANGUAGE_JAPANESE] = "響き渡る音色",
-    [LANGUAGE_ENGLISH] = "Resounding Blow",
-    [LANGUAGE_CHINESE] = "回荡的音色",
+    [LANGUAGE_JAPANESE] = "第222章 ""響き渡る音色",
+    [LANGUAGE_ENGLISH] = "Ch.222: ""Resounding Blow",
+    [LANGUAGE_CHINESE] = "第222章 ""回荡的音色",
 },
 
 [MID_STAGE_S4051] = {
-    [LANGUAGE_JAPANESE] = "その名を知る者は",
-    [LANGUAGE_ENGLISH] = "Recalling Your Name",
-    [LANGUAGE_CHINESE] = "知晓其名者",
+    [LANGUAGE_JAPANESE] = "第223章 ""その名を知る者は",
+    [LANGUAGE_ENGLISH] = "Ch.223: ""Recalling Your Name",
+    [LANGUAGE_CHINESE] = "第223章 ""知晓其名者",
 },
 
 [MID_STAGE_S4052] = {
-    [LANGUAGE_JAPANESE] = "少女の願い",
-    [LANGUAGE_ENGLISH] = "A Lady's Wish",
-    [LANGUAGE_CHINESE] = "少女的心愿",
+    [LANGUAGE_JAPANESE] = "第224章 ""少女の願い",
+    [LANGUAGE_ENGLISH] = "Ch.224: ""A Lady's Wish",
+    [LANGUAGE_CHINESE] = "第224章 ""少女的心愿",
 },
 
 [MID_STAGE_S4053] = {
-    [LANGUAGE_JAPANESE] = "優等生の溜息",
-    [LANGUAGE_ENGLISH] = "Virtuoso Sigh",
-    [LANGUAGE_CHINESE] = "模范生的叹息",
+    [LANGUAGE_JAPANESE] = "第225章 ""優等生の溜息",
+    [LANGUAGE_ENGLISH] = "Ch.225: ""Virtuoso Sigh",
+    [LANGUAGE_CHINESE] = "第225章 ""模范生的叹息",
 },
 
 [MID_STAGE_S4054] = {
-    [LANGUAGE_JAPANESE] = "引き籠もりの憂鬱",
-    [LANGUAGE_ENGLISH] = "Withdrawn Melancholy",
-    [LANGUAGE_CHINESE] = "家里蹲的忧郁",
+    [LANGUAGE_JAPANESE] = "第226章 ""引き籠もりの憂鬱",
+    [LANGUAGE_ENGLISH] = "Ch.226: ""Withdrawn Melancholy",
+    [LANGUAGE_CHINESE] = "第226章 ""家里蹲的忧郁",
 },
 
 [MID_STAGE_S4055] = {
-    [LANGUAGE_JAPANESE] = "答えは夢に",
-    [LANGUAGE_ENGLISH] = "A Dream Solution",
-    [LANGUAGE_CHINESE] = "答案在梦中",
+    [LANGUAGE_JAPANESE] = "第227章 ""答えは夢に",
+    [LANGUAGE_ENGLISH] = "Ch.227: ""A Dream Solution",
+    [LANGUAGE_CHINESE] = "第227章 ""答案在梦中",
 },
 
 [MID_STAGE_S4061] = {
-    [LANGUAGE_JAPANESE] = "夢現",
-    [LANGUAGE_ENGLISH] = "The Waking Dream",
-    [LANGUAGE_CHINESE] = "梦现",
+    [LANGUAGE_JAPANESE] = "第228章 ""夢現",
+    [LANGUAGE_ENGLISH] = "Ch.228: ""The Waking Dream",
+    [LANGUAGE_CHINESE] = "第228章 ""梦现",
 },
 
 [MID_STAGE_S4062] = {
-    [LANGUAGE_JAPANESE] = "炎の部族の気炎",
-    [LANGUAGE_ENGLISH] = "Flame Tribe's Pride",
-    [LANGUAGE_CHINESE] = "炎之部落的气焰",
+    [LANGUAGE_JAPANESE] = "第229章 ""炎の部族の気炎",
+    [LANGUAGE_ENGLISH] = "Ch.229: ""Flame Tribe's Pride",
+    [LANGUAGE_CHINESE] = "第229章 ""炎之部落的气焰",
 },
 
 [MID_STAGE_S4063] = {
-    [LANGUAGE_JAPANESE] = "星竜の誓い",
-    [LANGUAGE_ENGLISH] = "Astral Dragon's Oath",
-    [LANGUAGE_CHINESE] = "星龙的誓言",
+    [LANGUAGE_JAPANESE] = "第230章 ""星竜の誓い",
+    [LANGUAGE_ENGLISH] = "Ch.230: ""Astral Dragon's Oath",
+    [LANGUAGE_CHINESE] = "第230章 ""星龙的誓言",
 },
 
 [MID_STAGE_S4064] = {
-    [LANGUAGE_JAPANESE] = "心寂しき娘",
-    [LANGUAGE_ENGLISH] = "Daughter's Loneliness",
-    [LANGUAGE_CHINESE] = "心灵寂寞的女孩",
+    [LANGUAGE_JAPANESE] = "第231章 ""心寂しき娘",
+    [LANGUAGE_ENGLISH] = "Ch.231: ""Daughter's Loneliness",
+    [LANGUAGE_CHINESE] = "第231章 ""心灵寂寞的女孩",
 },
 
 [MID_STAGE_S4065] = {
-    [LANGUAGE_JAPANESE] = "思い出の友",
-    [LANGUAGE_ENGLISH] = "Memory of a Friend",
-    [LANGUAGE_CHINESE] = "回忆中的好友",
+    [LANGUAGE_JAPANESE] = "第232章 ""思い出の友",
+    [LANGUAGE_ENGLISH] = "Ch.232: ""Memory of a Friend",
+    [LANGUAGE_CHINESE] = "第232章 ""回忆中的好友",
 },
 
 [MID_STAGE_S4071] = {
-    [LANGUAGE_JAPANESE] = "白い夢",
-    [LANGUAGE_ENGLISH] = "Daydream",
-    [LANGUAGE_CHINESE] = "白色梦境",
+    [LANGUAGE_JAPANESE] = "第233章 ""白い夢",
+    [LANGUAGE_ENGLISH] = "Ch.233: ""Daydream",
+    [LANGUAGE_CHINESE] = "第233章 ""白色梦境",
 },
 
 [MID_STAGE_S4072] = {
-    [LANGUAGE_JAPANESE] = "心よぎる名前",
-    [LANGUAGE_ENGLISH] = "Touch of His Name",
-    [LANGUAGE_CHINESE] = "掠过心头的名字",
+    [LANGUAGE_JAPANESE] = "第234章 ""心よぎる名前",
+    [LANGUAGE_ENGLISH] = "Ch.234: ""Touch of His Name",
+    [LANGUAGE_CHINESE] = "第234章 ""掠过心头的名字",
 },
 
 [MID_STAGE_S4073] = {
-    [LANGUAGE_JAPANESE] = "二つの心宿す者",
-    [LANGUAGE_ENGLISH] = "He of Two Hearts",
-    [LANGUAGE_CHINESE] = "栖宿双心者",
+    [LANGUAGE_JAPANESE] = "第235章 ""二つの心宿す者",
+    [LANGUAGE_ENGLISH] = "Ch.235: ""He of Two Hearts",
+    [LANGUAGE_CHINESE] = "第235章 ""栖宿双心者",
 },
 
 [MID_STAGE_S4074] = {
-    [LANGUAGE_JAPANESE] = "心奥の戦い",
-    [LANGUAGE_ENGLISH] = "The War Within",
-    [LANGUAGE_CHINESE] = "内心深处的战斗",
+    [LANGUAGE_JAPANESE] = "第236章 ""心奥の戦い",
+    [LANGUAGE_ENGLISH] = "Ch.236: ""The War Within",
+    [LANGUAGE_CHINESE] = "第236章 ""内心深处的战斗",
 },
 
 [MID_STAGE_S4075] = {
-    [LANGUAGE_JAPANESE] = "現と夢を分かつ赤",
-    [LANGUAGE_ENGLISH] = "Red Horizon",
-    [LANGUAGE_CHINESE] = "划分现实与梦境的赤红",
+    [LANGUAGE_JAPANESE] = "第237章 ""現と夢を分かつ赤",
+    [LANGUAGE_ENGLISH] = "Ch.237: ""Red Horizon",
+    [LANGUAGE_CHINESE] = "第237章 ""划分现实与梦境的赤红",
 },
 
 [MID_STAGE_S4081] = {
-    [LANGUAGE_JAPANESE] = "甘やかな蜜の匂い",
-    [LANGUAGE_ENGLISH] = "Nectar's Sweet Scent",
-    [LANGUAGE_CHINESE] = "甜蜜香气",
+    [LANGUAGE_JAPANESE] = "第238章 ""甘やかな蜜の匂い",
+    [LANGUAGE_ENGLISH] = "Ch.238: ""Nectar's Sweet Scent",
+    [LANGUAGE_CHINESE] = "第238章 ""甜蜜香气",
 },
 
 [MID_STAGE_S4082] = {
-    [LANGUAGE_JAPANESE] = "女王の理想",
-    [LANGUAGE_ENGLISH] = "Exalt's Ideals",
-    [LANGUAGE_CHINESE] = "女王的理想",
+    [LANGUAGE_JAPANESE] = "第239章 ""女王の理想",
+    [LANGUAGE_ENGLISH] = "Ch.239: ""Exalt's Ideals",
+    [LANGUAGE_CHINESE] = "第239章 ""女王的理想",
 },
 
 [MID_STAGE_S4083] = {
-    [LANGUAGE_JAPANESE] = "とりかえっこあそび",
-    [LANGUAGE_ENGLISH] = "Playing Changelings",
-    [LANGUAGE_CHINESE] = "交换游戏",
+    [LANGUAGE_JAPANESE] = "第240章 ""とりかえっこあそび",
+    [LANGUAGE_ENGLISH] = "Ch.240: ""Playing Changelings",
+    [LANGUAGE_CHINESE] = "第240章 ""交换游戏",
 },
 
 [MID_STAGE_S4084] = {
-    [LANGUAGE_JAPANESE] = "武将の葛藤",
-    [LANGUAGE_ENGLISH] = "General's Conflict",
-    [LANGUAGE_CHINESE] = "武将的内心纠葛",
+    [LANGUAGE_JAPANESE] = "第241章 ""武将の葛藤",
+    [LANGUAGE_ENGLISH] = "Ch.241: ""General's Conflict",
+    [LANGUAGE_CHINESE] = "第241章 ""武将的内心纠葛",
 },
 
 [MID_STAGE_S4085] = {
-    [LANGUAGE_JAPANESE] = "誰からも愛されない子",
-    [LANGUAGE_ENGLISH] = "Child Left Unloved",
-    [LANGUAGE_CHINESE] = "没有人爱的孩子",
+    [LANGUAGE_JAPANESE] = "第242章 ""誰からも愛されない子",
+    [LANGUAGE_ENGLISH] = "Ch.242: ""Child Left Unloved",
+    [LANGUAGE_CHINESE] = "第242章 ""没有人爱的孩子",
 },
 
 [MID_STAGE_S4091] = {
-    [LANGUAGE_JAPANESE] = "小さな姉妹の声",
-    [LANGUAGE_ENGLISH] = "Little Sisters' Voice",
-    [LANGUAGE_CHINESE] = "幼小姊妹的声音",
+    [LANGUAGE_JAPANESE] = "第243章 ""小さな姉妹の声",
+    [LANGUAGE_ENGLISH] = "Ch.243: ""Little Sisters' Voice",
+    [LANGUAGE_CHINESE] = "第243章 ""幼小姊妹的声音",
 },
 
 [MID_STAGE_S4092] = {
-    [LANGUAGE_JAPANESE] = "盗賊の改心",
-    [LANGUAGE_ENGLISH] = "Rogue's Redemption",
-    [LANGUAGE_CHINESE] = "改过自新的盗贼",
+    [LANGUAGE_JAPANESE] = "第244章 ""盗賊の改心",
+    [LANGUAGE_ENGLISH] = "Ch.244: ""Rogue's Redemption",
+    [LANGUAGE_CHINESE] = "第244章 ""改过自新的盗贼",
 },
 
 [MID_STAGE_S4093] = {
-    [LANGUAGE_JAPANESE] = "影の英雄の誓い",
-    [LANGUAGE_ENGLISH] = "A Shadow's Vow",
-    [LANGUAGE_CHINESE] = "影之英雄的誓言",
+    [LANGUAGE_JAPANESE] = "第245章 ""影の英雄の誓い",
+    [LANGUAGE_ENGLISH] = "Ch.245: ""A Shadow's Vow",
+    [LANGUAGE_CHINESE] = "第245章 ""影之英雄的誓言",
 },
 
 [MID_STAGE_S4094] = {
-    [LANGUAGE_JAPANESE] = "虐げられる子たち",
-    [LANGUAGE_ENGLISH] = "Agony of Youth",
-    [LANGUAGE_CHINESE] = "受虐的孩子们",
+    [LANGUAGE_JAPANESE] = "第246章 ""虐げられる子たち",
+    [LANGUAGE_ENGLISH] = "Ch.246: ""Agony of Youth",
+    [LANGUAGE_CHINESE] = "第246章 ""受虐的孩子们",
 },
 
 [MID_STAGE_S4095] = {
-    [LANGUAGE_JAPANESE] = "すべての夢の王",
-    [LANGUAGE_ENGLISH] = "Over All Dreams",
-    [LANGUAGE_CHINESE] = "万梦之王",
+    [LANGUAGE_JAPANESE] = "第247章 ""すべての夢の王",
+    [LANGUAGE_ENGLISH] = "Ch.247: ""Over All Dreams",
+    [LANGUAGE_CHINESE] = "第247章 ""万梦之王",
 },
 
 [MID_STAGE_S4101] = {
-    [LANGUAGE_JAPANESE] = "いつか大人になったら",
-    [LANGUAGE_ENGLISH] = "Having Grown",
-    [LANGUAGE_CHINESE] = "等到长大之后",
+    [LANGUAGE_JAPANESE] = "第248章 ""いつか大人になったら",
+    [LANGUAGE_ENGLISH] = "Ch.248: ""Having Grown",
+    [LANGUAGE_CHINESE] = "第248章 ""等到长大之后",
 },
 
 [MID_STAGE_S4102] = {
-    [LANGUAGE_JAPANESE] = "ファーガス王の道",
-    [LANGUAGE_ENGLISH] = "Path of Faerghus",
-    [LANGUAGE_CHINESE] = "法嘉斯王的道路",
+    [LANGUAGE_JAPANESE] = "第249章 ""ファーガス王の道",
+    [LANGUAGE_ENGLISH] = "Ch.249: ""Path of Faerghus",
+    [LANGUAGE_CHINESE] = "第249章 ""法嘉斯王的道路",
 },
 
 [MID_STAGE_S4103] = {
-    [LANGUAGE_JAPANESE] = "パルミラ国王の道",
-    [LANGUAGE_ENGLISH] = "Path of Almyra",
-    [LANGUAGE_CHINESE] = "帕迈拉国王的道路",
+    [LANGUAGE_JAPANESE] = "第250章 ""パルミラ国王の道",
+    [LANGUAGE_ENGLISH] = "Ch.250: ""Path of Almyra",
+    [LANGUAGE_CHINESE] = "第250章 ""帕迈拉国王的道路",
 },
 
 [MID_STAGE_S4104] = {
-    [LANGUAGE_JAPANESE] = "アドラステア皇帝の道",
-    [LANGUAGE_ENGLISH] = "Path of Adrestia",
-    [LANGUAGE_CHINESE] = "阿德剌斯忒亚皇帝的道路",
+    [LANGUAGE_JAPANESE] = "第251章 ""アドラステア皇帝の道",
+    [LANGUAGE_ENGLISH] = "Ch.251: ""Path of Adrestia",
+    [LANGUAGE_CHINESE] = "第251章 ""阿德剌斯忒亚皇帝的道路",
 },
 
 [MID_STAGE_S4105] = {
-    [LANGUAGE_JAPANESE] = "ただ、愛してほしかった",
-    [LANGUAGE_ENGLISH] = "To Feel Loved",
-    [LANGUAGE_CHINESE] = "只是希望你爱著我",
+    [LANGUAGE_JAPANESE] = "第252章 ""ただ、愛してほしかった",
+    [LANGUAGE_ENGLISH] = "Ch.252: ""To Feel Loved",
+    [LANGUAGE_CHINESE] = "第252章 ""只是希望你爱著我",
 },
 
 [MID_STAGE_S4111] = {
-    [LANGUAGE_JAPANESE] = "終わっていない",
-    [LANGUAGE_ENGLISH] = "Not Done Yet",
-    [LANGUAGE_CHINESE] = "尚未终结",
+    [LANGUAGE_JAPANESE] = "第253章 ""終わっていない",
+    [LANGUAGE_ENGLISH] = "Ch.253: ""Not Done Yet",
+    [LANGUAGE_CHINESE] = "第253章 ""尚未终结",
 },
 
 [MID_STAGE_S4112] = {
-    [LANGUAGE_JAPANESE] = "ずっと泣いていた子",
-    [LANGUAGE_ENGLISH] = "Cry for Help",
-    [LANGUAGE_CHINESE] = "曾不停哭泣的孩子",
+    [LANGUAGE_JAPANESE] = "第254章 ""ずっと泣いていた子",
+    [LANGUAGE_ENGLISH] = "Ch.254: ""Cry for Help",
+    [LANGUAGE_CHINESE] = "第254章 ""曾不停哭泣的孩子",
 },
 
 [MID_STAGE_S4113] = {
-    [LANGUAGE_JAPANESE] = "とりかえて、またとりかえて",
-    [LANGUAGE_ENGLISH] = "Changing Exchange",
-    [LANGUAGE_CHINESE] = "交换,再交换",
+    [LANGUAGE_JAPANESE] = "第255章 ""とりかえて、またとりかえて",
+    [LANGUAGE_ENGLISH] = "Ch.255: ""Changing Exchange",
+    [LANGUAGE_CHINESE] = "第255章 ""交换,再交换",
 },
 
 [MID_STAGE_S4114] = {
-    [LANGUAGE_JAPANESE] = "私の夢を",
-    [LANGUAGE_ENGLISH] = "What I Dreamed Of",
-    [LANGUAGE_CHINESE] = "我的梦",
+    [LANGUAGE_JAPANESE] = "第256章 ""私の夢を",
+    [LANGUAGE_ENGLISH] = "Ch.256: ""What I Dreamed Of",
+    [LANGUAGE_CHINESE] = "第256章 ""我的梦",
 },
 
 [MID_STAGE_S4115] = {
-    [LANGUAGE_JAPANESE] = "すべてが始まった日",
-    [LANGUAGE_ENGLISH] = "Where It Started",
-    [LANGUAGE_CHINESE] = "那天是一切的开端",
+    [LANGUAGE_JAPANESE] = "第257章 ""すべてが始まった日",
+    [LANGUAGE_ENGLISH] = "Ch.257: ""Where It Started",
+    [LANGUAGE_CHINESE] = "第257章 ""那天是一切的开端",
 },
 
 [MID_STAGE_S4121] = {
-    [LANGUAGE_JAPANESE] = "鋼の世界",
-    [LANGUAGE_ENGLISH] = "World of Steel",
-    [LANGUAGE_CHINESE] = "钢铁世界",
+    [LANGUAGE_JAPANESE] = "第258章 ""鋼の世界",
+    [LANGUAGE_ENGLISH] = "Ch.258: ""World of Steel",
+    [LANGUAGE_CHINESE] = "第258章 ""钢铁世界",
 },
 
 [MID_STAGE_S4122] = {
-    [LANGUAGE_JAPANESE] = "聖教会の妹",
-    [LANGUAGE_ENGLISH] = "Sister of the Church",
-    [LANGUAGE_CHINESE] = "圣教会的妹妹",
+    [LANGUAGE_JAPANESE] = "第259章 ""聖教会の妹",
+    [LANGUAGE_ENGLISH] = "Ch.259: ""Sister of the Church",
+    [LANGUAGE_CHINESE] = "第259章 ""圣教会的妹妹",
 },
 
 [MID_STAGE_S4123] = {
-    [LANGUAGE_JAPANESE] = "聖教会の兄",
-    [LANGUAGE_ENGLISH] = "Brother of the Church",
-    [LANGUAGE_CHINESE] = "圣教会的哥哥",
+    [LANGUAGE_JAPANESE] = "第260章 ""聖教会の兄",
+    [LANGUAGE_ENGLISH] = "Ch.260: ""Brother of the Church",
+    [LANGUAGE_CHINESE] = "第260章 ""圣教会的哥哥",
 },
 
 [MID_STAGE_S4124] = {
-    [LANGUAGE_JAPANESE] = "守ってあげたかった",
-    [LANGUAGE_ENGLISH] = "All to Protect Her",
-    [LANGUAGE_CHINESE] = "明明还想守护",
+    [LANGUAGE_JAPANESE] = "第261章 ""守ってあげたかった",
+    [LANGUAGE_ENGLISH] = "Ch.261: ""All to Protect Her",
+    [LANGUAGE_CHINESE] = "第261章 ""明明还想守护",
 },
 
 [MID_STAGE_S4125] = {
-    [LANGUAGE_JAPANESE] = "あなたは誰",
-    [LANGUAGE_ENGLISH] = "Who Are You?",
-    [LANGUAGE_CHINESE] = "你是谁",
+    [LANGUAGE_JAPANESE] = "第262章 ""あなたは誰",
+    [LANGUAGE_ENGLISH] = "Ch.262: ""Who Are You?",
+    [LANGUAGE_CHINESE] = "第262章 ""你是谁",
 },
 
 [MID_STAGE_S4131] = {
-    [LANGUAGE_JAPANESE] = "それはあたかも夢のよう",
-    [LANGUAGE_ENGLISH] = "Like a Dream",
-    [LANGUAGE_CHINESE] = "那也宛如梦境",
+    [LANGUAGE_JAPANESE] = "第263章 ""それはあたかも夢のよう",
+    [LANGUAGE_ENGLISH] = "Ch.263: ""Like a Dream",
+    [LANGUAGE_CHINESE] = "第263章 ""那也宛如梦境",
 },
 
 [MID_STAGE_S4132] = {
-    [LANGUAGE_JAPANESE] = "日々繰り返しそれは現れ",
-    [LANGUAGE_ENGLISH] = "Again and Again",
-    [LANGUAGE_CHINESE] = "日复一日,终将显现",
+    [LANGUAGE_JAPANESE] = "第264章 ""日々繰り返しそれは現れ",
+    [LANGUAGE_ENGLISH] = "Ch.264: ""Again and Again",
+    [LANGUAGE_CHINESE] = "第264章 ""日复一日,终将显现",
 },
 
 [MID_STAGE_S4133] = {
-    [LANGUAGE_JAPANESE] = "それこそ真と信じるが",
-    [LANGUAGE_ENGLISH] = "Facing Reality",
-    [LANGUAGE_CHINESE] = "深信将会成真",
+    [LANGUAGE_JAPANESE] = "第265章 ""それこそ真と信じるが",
+    [LANGUAGE_ENGLISH] = "Ch.265: ""Facing Reality",
+    [LANGUAGE_CHINESE] = "第265章 ""深信将会成真",
 },
 
 [MID_STAGE_S4134] = {
-    [LANGUAGE_JAPANESE] = "それを確かめる術はない",
-    [LANGUAGE_ENGLISH] = "That Sleep of Death",
-    [LANGUAGE_CHINESE] = "无法确认",
+    [LANGUAGE_JAPANESE] = "第266章 ""それを確かめる術はない",
+    [LANGUAGE_ENGLISH] = "Ch.266: ""That Sleep of Death",
+    [LANGUAGE_CHINESE] = "第266章 ""无法确认",
 },
 
 [MID_STAGE_S4135] = {
-    [LANGUAGE_JAPANESE] = "夢の終焉を告げる世界、それが",
-    [LANGUAGE_ENGLISH] = "The Waking World",
-    [LANGUAGE_CHINESE] = "梦境终结的世界",
+    [LANGUAGE_JAPANESE] = "第267章 ""夢の終焉を告げる世界、それが",
+    [LANGUAGE_ENGLISH] = "Ch.267: ""The Waking World",
+    [LANGUAGE_CHINESE] = "第267章 ""梦境终结的世界",
 },
 
 [MID_STAGE_S5011] = {
-    [LANGUAGE_JAPANESE] = "機械仕掛けの王女",
-    [LANGUAGE_ENGLISH] = "Princess ex Machina",
-    [LANGUAGE_CHINESE] = "操纵机械的公主",
+    [LANGUAGE_JAPANESE] = "第268章 ""機械仕掛けの王女",
+    [LANGUAGE_ENGLISH] = "Ch.268: ""Princess ex Machina",
+    [LANGUAGE_CHINESE] = "第268章 ""操纵机械的公主",
 },
 
 [MID_STAGE_S5012] = {
-    [LANGUAGE_JAPANESE] = "曠野の王",
-    [LANGUAGE_ENGLISH] = "King of Desolation",
-    [LANGUAGE_CHINESE] = "旷野之王",
+    [LANGUAGE_JAPANESE] = "第269章 ""曠野の王",
+    [LANGUAGE_ENGLISH] = "Ch.269: ""King of Desolation",
+    [LANGUAGE_CHINESE] = "第269章 ""旷野之王",
 },
 
 [MID_STAGE_S5013] = {
-    [LANGUAGE_JAPANESE] = "道を拓く鍵は",
-    [LANGUAGE_ENGLISH] = "Insight and Inroads",
-    [LANGUAGE_CHINESE] = "开拓道路的关键",
+    [LANGUAGE_JAPANESE] = "第270章 ""道を拓く鍵は",
+    [LANGUAGE_ENGLISH] = "Ch.270: ""Insight and Inroads",
+    [LANGUAGE_CHINESE] = "第270章 ""开拓道路的关键",
 },
 
 [MID_STAGE_S5014] = {
-    [LANGUAGE_JAPANESE] = "王女の迷い",
-    [LANGUAGE_ENGLISH] = "Wavering Resolve",
-    [LANGUAGE_CHINESE] = "公主的迷惘",
+    [LANGUAGE_JAPANESE] = "第271章 ""王女の迷い",
+    [LANGUAGE_ENGLISH] = "Ch.271: ""Wavering Resolve",
+    [LANGUAGE_CHINESE] = "第271章 ""公主的迷惘",
 },
 
 [MID_STAGE_S5015] = {
-    [LANGUAGE_JAPANESE] = "王国の兄妹",
-    [LANGUAGE_ENGLISH] = "Royal Family",
-    [LANGUAGE_CHINESE] = "王国兄妹",
+    [LANGUAGE_JAPANESE] = "第272章 ""王国の兄妹",
+    [LANGUAGE_ENGLISH] = "Ch.272: ""Royal Family",
+    [LANGUAGE_CHINESE] = "第272章 ""王国兄妹",
 },
 
 [MID_STAGE_S5021] = {
-    [LANGUAGE_JAPANESE] = "すれ違う想い",
-    [LANGUAGE_ENGLISH] = "Conflicting Feelings",
-    [LANGUAGE_CHINESE] = "相违的心意",
+    [LANGUAGE_JAPANESE] = "第273章 ""すれ違う想い",
+    [LANGUAGE_ENGLISH] = "Ch.273: ""Conflicting Feelings",
+    [LANGUAGE_CHINESE] = "第273章 ""相违的心意",
 },
 
 [MID_STAGE_S5022] = {
-    [LANGUAGE_JAPANESE] = "虎目石の野心",
-    [LANGUAGE_ENGLISH] = "Tiger-Eye Ambition",
-    [LANGUAGE_CHINESE] = "虎眼石的野心",
+    [LANGUAGE_JAPANESE] = "第274章 ""虎目石の野心",
+    [LANGUAGE_ENGLISH] = "Ch.274: ""Tiger-Eye Ambition",
+    [LANGUAGE_CHINESE] = "第274章 ""虎眼石的野心",
 },
 
 [MID_STAGE_S5023] = {
-    [LANGUAGE_JAPANESE] = "蛍石の誓い",
-    [LANGUAGE_ENGLISH] = "Fluorspar Fealty",
-    [LANGUAGE_CHINESE] = "萤石的誓言",
+    [LANGUAGE_JAPANESE] = "第275章 ""蛍石の誓い",
+    [LANGUAGE_ENGLISH] = "Ch.275: ""Fluorspar Fealty",
+    [LANGUAGE_CHINESE] = "第275章 ""萤石的誓言",
 },
 
 [MID_STAGE_S5024] = {
-    [LANGUAGE_JAPANESE] = "黒曜石の忠義",
-    [LANGUAGE_ENGLISH] = "Obsidian Honor",
-    [LANGUAGE_CHINESE] = "黑曜石的忠义",
+    [LANGUAGE_JAPANESE] = "第276章 ""黒曜石の忠義",
+    [LANGUAGE_ENGLISH] = "Ch.276: ""Obsidian Honor",
+    [LANGUAGE_CHINESE] = "第276章 ""黑曜石的忠义",
 },
 
 [MID_STAGE_S5025] = {
-    [LANGUAGE_JAPANESE] = "お前なんかいらない",
-    [LANGUAGE_ENGLISH] = "Useless Gestures",
-    [LANGUAGE_CHINESE] = "才不需要妳",
+    [LANGUAGE_JAPANESE] = "第277章 ""お前なんかいらない",
+    [LANGUAGE_ENGLISH] = "Ch.277: ""Useless Gestures",
+    [LANGUAGE_CHINESE] = "第277章 ""才不需要妳",
 },
 
 [MID_STAGE_S5031] = {
-    [LANGUAGE_JAPANESE] = "求めるものは",
-    [LANGUAGE_ENGLISH] = "Key Ingredient",
-    [LANGUAGE_CHINESE] = "所求之物",
+    [LANGUAGE_JAPANESE] = "第278章 ""求めるものは",
+    [LANGUAGE_ENGLISH] = "Ch.278: ""Key Ingredient",
+    [LANGUAGE_CHINESE] = "第278章 ""所求之物",
 },
 
 [MID_STAGE_S5032] = {
-    [LANGUAGE_JAPANESE] = "アルスターの王女",
-    [LANGUAGE_ENGLISH] = "Princess of Ulster",
-    [LANGUAGE_CHINESE] = "阿尔斯特的公主",
+    [LANGUAGE_JAPANESE] = "第279章 ""アルスターの王女",
+    [LANGUAGE_ENGLISH] = "Ch.279: ""Princess of Ulster",
+    [LANGUAGE_CHINESE] = "第279章 ""阿尔斯特的公主",
 },
 
 [MID_STAGE_S5033] = {
-    [LANGUAGE_JAPANESE] = "ロプトの姫",
-    [LANGUAGE_ENGLISH] = "Lady of Loptr",
-    [LANGUAGE_CHINESE] = "罗普托的公主",
+    [LANGUAGE_JAPANESE] = "第280章 ""ロプトの姫",
+    [LANGUAGE_ENGLISH] = "Ch.280: ""Lady of Loptr",
+    [LANGUAGE_CHINESE] = "第280章 ""罗普托的公主",
 },
 
 [MID_STAGE_S5034] = {
-    [LANGUAGE_JAPANESE] = "誓いの魔道士",
-    [LANGUAGE_ENGLISH] = "A Mage's Oath",
-    [LANGUAGE_CHINESE] = "起誓的魔道士",
+    [LANGUAGE_JAPANESE] = "第281章 ""誓いの魔道士",
+    [LANGUAGE_ENGLISH] = "Ch.281: ""A Mage's Oath",
+    [LANGUAGE_CHINESE] = "第281章 ""起誓的魔道士",
 },
 
 [MID_STAGE_S5035] = {
-    [LANGUAGE_JAPANESE] = "王と賢者",
-    [LANGUAGE_ENGLISH] = "King and Sage",
-    [LANGUAGE_CHINESE] = "王与贤者",
+    [LANGUAGE_JAPANESE] = "第282章 ""王と賢者",
+    [LANGUAGE_ENGLISH] = "Ch.282: ""King and Sage",
+    [LANGUAGE_CHINESE] = "第282章 ""王与贤者",
 },
 
 [MID_STAGE_S5041] = {
-    [LANGUAGE_JAPANESE] = "幼き賢者",
-    [LANGUAGE_ENGLISH] = "Youthful Sage",
-    [LANGUAGE_CHINESE] = "幼小的贤者",
+    [LANGUAGE_JAPANESE] = "第283章 ""幼き賢者",
+    [LANGUAGE_ENGLISH] = "Ch.283: ""Youthful Sage",
+    [LANGUAGE_CHINESE] = "第283章 ""幼小的贤者",
 },
 
 [MID_STAGE_S5042] = {
-    [LANGUAGE_JAPANESE] = "シレジアの誇り",
-    [LANGUAGE_ENGLISH] = "Pride of Silesse",
-    [LANGUAGE_CHINESE] = "西里西亚的荣耀",
+    [LANGUAGE_JAPANESE] = "第284章 ""シレジアの誇り",
+    [LANGUAGE_ENGLISH] = "Ch.284: ""Pride of Silesse",
+    [LANGUAGE_CHINESE] = "第284章 ""西里西亚的荣耀",
 },
 
 [MID_STAGE_S5043] = {
-    [LANGUAGE_JAPANESE] = "泣き虫天馬騎士",
-    [LANGUAGE_ENGLISH] = "Crybaby Knight",
-    [LANGUAGE_CHINESE] = "爱哭鬼天马骑士",
+    [LANGUAGE_JAPANESE] = "第285章 ""泣き虫天馬騎士",
+    [LANGUAGE_ENGLISH] = "Ch.285: ""Crybaby Knight",
+    [LANGUAGE_CHINESE] = "第285章 ""爱哭鬼天马骑士",
 },
 
 [MID_STAGE_S5044] = {
-    [LANGUAGE_JAPANESE] = "ヴェルトマーの兄弟",
-    [LANGUAGE_ENGLISH] = "Velthomer Brothers",
-    [LANGUAGE_CHINESE] = "贝尔特玛的兄弟",
+    [LANGUAGE_JAPANESE] = "第286章 ""ヴェルトマーの兄弟",
+    [LANGUAGE_ENGLISH] = "Ch.286: ""Velthomer Brothers",
+    [LANGUAGE_CHINESE] = "第286章 ""贝尔特玛的兄弟",
 },
 
 [MID_STAGE_S5045] = {
-    [LANGUAGE_JAPANESE] = "巨人の国の王女",
-    [LANGUAGE_ENGLISH] = "Jötun Princess",
-    [LANGUAGE_CHINESE] = "巨人之国的公主",
+    [LANGUAGE_JAPANESE] = "第287章 ""巨人の国の王女",
+    [LANGUAGE_ENGLISH] = "Ch.287: ""Jötun Princess",
+    [LANGUAGE_CHINESE] = "第287章 ""巨人之国的公主",
 },
 
 [MID_STAGE_S5051] = {
-    [LANGUAGE_JAPANESE] = "王女の本心",
-    [LANGUAGE_ENGLISH] = "Princess's Truth",
-    [LANGUAGE_CHINESE] = "公主的真实想法",
+    [LANGUAGE_JAPANESE] = "第288章 ""王女の本心",
+    [LANGUAGE_ENGLISH] = "Ch.288: ""Princess's Truth",
+    [LANGUAGE_CHINESE] = "第288章 ""公主的真实想法",
 },
 
 [MID_STAGE_S5052] = {
-    [LANGUAGE_JAPANESE] = "生真面目な騎士",
-    [LANGUAGE_ENGLISH] = "Sincere Knight",
-    [LANGUAGE_CHINESE] = "正经八百的骑士",
+    [LANGUAGE_JAPANESE] = "第289章 ""生真面目な騎士",
+    [LANGUAGE_ENGLISH] = "Ch.289: ""Sincere Knight",
+    [LANGUAGE_CHINESE] = "第289章 ""正经八百的骑士",
 },
 
 [MID_STAGE_S5053] = {
-    [LANGUAGE_JAPANESE] = "居眠り同級生",
-    [LANGUAGE_ENGLISH] = "Dozing Classmate",
-    [LANGUAGE_CHINESE] = "打瞌睡的同学",
+    [LANGUAGE_JAPANESE] = "第290章 ""居眠り同級生",
+    [LANGUAGE_ENGLISH] = "Ch.290: ""Dozing Classmate",
+    [LANGUAGE_CHINESE] = "第290章 ""打瞌睡的同学",
 },
 
 [MID_STAGE_S5054] = {
-    [LANGUAGE_JAPANESE] = "エドマンド家の養女",
-    [LANGUAGE_ENGLISH] = "Margrave's Daughter",
-    [LANGUAGE_CHINESE] = "艾德蒙家的养女",
+    [LANGUAGE_JAPANESE] = "第291章 ""エドマンド家の養女",
+    [LANGUAGE_ENGLISH] = "Ch.291: ""Margrave's Daughter",
+    [LANGUAGE_CHINESE] = "第291章 ""艾德蒙家的养女",
 },
 
 [MID_STAGE_S5055] = {
-    [LANGUAGE_JAPANESE] = "諍いを越えて",
-    [LANGUAGE_ENGLISH] = "Overcoming Differences",
-    [LANGUAGE_CHINESE] = "尽释前嫌",
+    [LANGUAGE_JAPANESE] = "第292章 ""諍いを越えて",
+    [LANGUAGE_ENGLISH] = "Ch.292: ""Overcoming Differences",
+    [LANGUAGE_CHINESE] = "第292章 ""尽释前嫌",
 },
 
 [MID_STAGE_S5061] = {
-    [LANGUAGE_JAPANESE] = "遠い思い出",
-    [LANGUAGE_ENGLISH] = "Distant Memory",
-    [LANGUAGE_CHINESE] = "遥远的回忆",
+    [LANGUAGE_JAPANESE] = "第293章 ""遠い思い出",
+    [LANGUAGE_ENGLISH] = "Ch.293: ""Distant Memory",
+    [LANGUAGE_CHINESE] = "第293章 ""遥远的回忆",
 },
 
 [MID_STAGE_S5062] = {
-    [LANGUAGE_JAPANESE] = "すご腕の天馬騎士",
-    [LANGUAGE_ENGLISH] = "The Great Wing",
-    [LANGUAGE_CHINESE] = "出众的天马骑士",
+    [LANGUAGE_JAPANESE] = "第294章 ""すご腕の天馬騎士",
+    [LANGUAGE_ENGLISH] = "Ch.294: ""The Great Wing",
+    [LANGUAGE_CHINESE] = "第294章 ""出众的天马骑士",
 },
 
 [MID_STAGE_S5063] = {
-    [LANGUAGE_JAPANESE] = "望まぬ再会",
-    [LANGUAGE_ENGLISH] = "Unwelcome Reunion",
-    [LANGUAGE_CHINESE] = "事与愿违的重逢",
+    [LANGUAGE_JAPANESE] = "第295章 ""望まぬ再会",
+    [LANGUAGE_ENGLISH] = "Ch.295: ""Unwelcome Reunion",
+    [LANGUAGE_CHINESE] = "第295章 ""事与愿违的重逢",
 },
 
 [MID_STAGE_S5064] = {
-    [LANGUAGE_JAPANESE] = "銀の魔道軍将",
-    [LANGUAGE_ENGLISH] = "Mage General",
-    [LANGUAGE_CHINESE] = "银之魔道军将",
+    [LANGUAGE_JAPANESE] = "第296章 ""銀の魔道軍将",
+    [LANGUAGE_ENGLISH] = "Ch.296: ""Mage General",
+    [LANGUAGE_CHINESE] = "第296章 ""银之魔道军将",
 },
 
 [MID_STAGE_S5065] = {
-    [LANGUAGE_JAPANESE] = "賢者の真実",
-    [LANGUAGE_ENGLISH] = "Truth of the Sage",
-    [LANGUAGE_CHINESE] = "贤者的真相",
+    [LANGUAGE_JAPANESE] = "第297章 ""賢者の真実",
+    [LANGUAGE_ENGLISH] = "Ch.297: ""Truth of the Sage",
+    [LANGUAGE_CHINESE] = "第297章 ""贤者的真相",
 },
 
 [MID_STAGE_S5071] = {
-    [LANGUAGE_JAPANESE] = "読めぬ思惑",
-    [LANGUAGE_ENGLISH] = "Unknown Future",
-    [LANGUAGE_CHINESE] = "猜不透的想法",
+    [LANGUAGE_JAPANESE] = "第298章 ""読めぬ思惑",
+    [LANGUAGE_ENGLISH] = "Ch.298: ""Unknown Future",
+    [LANGUAGE_CHINESE] = "第298章 ""猜不透的想法",
 },
 
 [MID_STAGE_S5072] = {
-    [LANGUAGE_JAPANESE] = "闇色の忠節",
-    [LANGUAGE_ENGLISH] = "Devoted Darkness",
-    [LANGUAGE_CHINESE] = "黑暗的忠义",
+    [LANGUAGE_JAPANESE] = "第299章 ""闇色の忠節",
+    [LANGUAGE_ENGLISH] = "Ch.299: ""Devoted Darkness",
+    [LANGUAGE_CHINESE] = "第299章 ""黑暗的忠义",
 },
 
 [MID_STAGE_S5073] = {
-    [LANGUAGE_JAPANESE] = "狂乱の王子",
-    [LANGUAGE_ENGLISH] = "Savage Boar",
-    [LANGUAGE_CHINESE] = "狂乱的王子",
+    [LANGUAGE_JAPANESE] = "第300章 ""狂乱の王子",
+    [LANGUAGE_ENGLISH] = "Ch.300: ""Savage Boar",
+    [LANGUAGE_CHINESE] = "第300章 ""狂乱的王子",
 },
 
 [MID_STAGE_S5074] = {
-    [LANGUAGE_JAPANESE] = "覇道の終着点",
-    [LANGUAGE_ENGLISH] = "Hegemon Husk",
-    [LANGUAGE_CHINESE] = "霸王之路的终点",
+    [LANGUAGE_JAPANESE] = "第301章 ""覇道の終着点",
+    [LANGUAGE_ENGLISH] = "Ch.301: ""Hegemon Husk",
+    [LANGUAGE_CHINESE] = "第301章 ""霸王之路的终点",
 },
 
 [MID_STAGE_S5075] = {
-    [LANGUAGE_JAPANESE] = "過去を求めて",
-    [LANGUAGE_ENGLISH] = "Seeking the Past",
-    [LANGUAGE_CHINESE] = "寻觅过去",
+    [LANGUAGE_JAPANESE] = "第302章 ""過去を求めて",
+    [LANGUAGE_ENGLISH] = "Ch.302: ""Seeking the Past",
+    [LANGUAGE_CHINESE] = "第302章 ""寻觅过去",
 },
 
 [MID_STAGE_S5081] = {
-    [LANGUAGE_JAPANESE] = "軋む歯車",
-    [LANGUAGE_ENGLISH] = "Grinding Gears",
-    [LANGUAGE_CHINESE] = "嘎吱作响的齿轮",
+    [LANGUAGE_JAPANESE] = "第303章 ""軋む歯車",
+    [LANGUAGE_ENGLISH] = "Ch.303: ""Grinding Gears",
+    [LANGUAGE_CHINESE] = "第303章 ""嘎吱作响的齿轮",
 },
 
 [MID_STAGE_S5082] = {
-    [LANGUAGE_JAPANESE] = "我道の魔道士",
-    [LANGUAGE_ENGLISH] = "Odd Wayfarer",
-    [LANGUAGE_CHINESE] = "坚持自我的魔道士",
+    [LANGUAGE_JAPANESE] = "第304章 ""我道の魔道士",
+    [LANGUAGE_ENGLISH] = "Ch.304: ""Odd Wayfarer",
+    [LANGUAGE_CHINESE] = "第304章 ""坚持自我的魔道士",
 },
 
 [MID_STAGE_S5083] = {
-    [LANGUAGE_JAPANESE] = "献身の聖女",
-    [LANGUAGE_ENGLISH] = "Devoted Saint",
-    [LANGUAGE_CHINESE] = "奉献的圣女",
+    [LANGUAGE_JAPANESE] = "第305章 ""献身の聖女",
+    [LANGUAGE_ENGLISH] = "Ch.305: ""Devoted Saint",
+    [LANGUAGE_CHINESE] = "第305章 ""奉献的圣女",
 },
 
 [MID_STAGE_S5084] = {
-    [LANGUAGE_JAPANESE] = "優しき長女",
-    [LANGUAGE_ENGLISH] = "Kind Eldest Sister",
-    [LANGUAGE_CHINESE] = "温柔的长女",
+    [LANGUAGE_JAPANESE] = "第306章 ""優しき長女",
+    [LANGUAGE_ENGLISH] = "Ch.306: ""Kind Eldest Sister",
+    [LANGUAGE_CHINESE] = "第306章 ""温柔的长女",
 },
 
 [MID_STAGE_S5085] = {
-    [LANGUAGE_JAPANESE] = "失いし過去",
-    [LANGUAGE_ENGLISH] = "Past Unknown",
-    [LANGUAGE_CHINESE] = "遗失的过往",
+    [LANGUAGE_JAPANESE] = "第307章 ""失いし過去",
+    [LANGUAGE_ENGLISH] = "Ch.307: ""Past Unknown",
+    [LANGUAGE_CHINESE] = "第307章 ""遗失的过往",
 },
 
 [MID_STAGE_S5091] = {
-    [LANGUAGE_JAPANESE] = "あなたの居る場所",
-    [LANGUAGE_ENGLISH] = "Rightful Place",
-    [LANGUAGE_CHINESE] = "你所在的地方",
+    [LANGUAGE_JAPANESE] = "第308章 ""あなたの居る場所",
+    [LANGUAGE_ENGLISH] = "Ch.308: ""Rightful Place",
+    [LANGUAGE_CHINESE] = "第308章 ""你所在的地方",
 },
 
 [MID_STAGE_S5092] = {
-    [LANGUAGE_JAPANESE] = "笑い上戸の呪い師",
-    [LANGUAGE_ENGLISH] = "Merry Diviner",
-    [LANGUAGE_CHINESE] = "爱笑的符咒师",
+    [LANGUAGE_JAPANESE] = "第309章 ""笑い上戸の呪い師",
+    [LANGUAGE_ENGLISH] = "Ch.309: ""Merry Diviner",
+    [LANGUAGE_CHINESE] = "第309章 ""爱笑的符咒师",
 },
 
 [MID_STAGE_S5093] = {
-    [LANGUAGE_JAPANESE] = "禁忌の呪術師",
-    [LANGUAGE_ENGLISH] = "Rulebreaker Mage",
-    [LANGUAGE_CHINESE] = "禁忌的咒术师",
+    [LANGUAGE_JAPANESE] = "第310章 ""禁忌の呪術師",
+    [LANGUAGE_ENGLISH] = "Ch.310: ""Rulebreaker Mage",
+    [LANGUAGE_CHINESE] = "第310章 ""禁忌的咒术师",
 },
 
 [MID_STAGE_S5094] = {
-    [LANGUAGE_JAPANESE] = "女の本性",
-    [LANGUAGE_ENGLISH] = "Wily Warrior",
-    [LANGUAGE_CHINESE] = "女人的本性",
+    [LANGUAGE_JAPANESE] = "第311章 ""女の本性",
+    [LANGUAGE_ENGLISH] = "Ch.311: ""Wily Warrior",
+    [LANGUAGE_CHINESE] = "第311章 ""女人的本性",
 },
 
 [MID_STAGE_S5095] = {
-    [LANGUAGE_JAPANESE] = "強面の重騎士",
-    [LANGUAGE_ENGLISH] = "Sensitive Soul",
-    [LANGUAGE_CHINESE] = "长相凶悍的重骑士",
+    [LANGUAGE_JAPANESE] = "第312章 ""強面の重騎士",
+    [LANGUAGE_ENGLISH] = "Ch.312: ""Sensitive Soul",
+    [LANGUAGE_CHINESE] = "第312章 ""长相凶悍的重骑士",
 },
 
 [MID_STAGE_S5101] = {
-    [LANGUAGE_JAPANESE] = "狂気の襲撃者",
-    [LANGUAGE_ENGLISH] = "Passion's Madness",
-    [LANGUAGE_CHINESE] = "疯狂的袭击者",
+    [LANGUAGE_JAPANESE] = "第313章 ""狂気の襲撃者",
+    [LANGUAGE_ENGLISH] = "Ch.313: ""Passion's Madness",
+    [LANGUAGE_CHINESE] = "第313章 ""疯狂的袭击者",
 },
 
 [MID_STAGE_S5102] = {
-    [LANGUAGE_JAPANESE] = "穏やかなる祈り",
-    [LANGUAGE_ENGLISH] = "Serene Adherent",
-    [LANGUAGE_CHINESE] = "平静的祈祷",
+    [LANGUAGE_JAPANESE] = "第314章 ""穏やかなる祈り",
+    [LANGUAGE_ENGLISH] = "Ch.314: ""Serene Adherent",
+    [LANGUAGE_CHINESE] = "第314章 ""平静的祈祷",
 },
 
 [MID_STAGE_S5103] = {
-    [LANGUAGE_JAPANESE] = "誓いの優王女",
-    [LANGUAGE_ENGLISH] = "Pledged Restorer",
-    [LANGUAGE_CHINESE] = "起誓的善良公主",
+    [LANGUAGE_JAPANESE] = "第315章 ""誓いの優王女",
+    [LANGUAGE_ENGLISH] = "Ch.315: ""Pledged Restorer",
+    [LANGUAGE_CHINESE] = "第315章 ""起誓的善良公主",
 },
 
 [MID_STAGE_S5104] = {
-    [LANGUAGE_JAPANESE] = "大修道院の",
-    [LANGUAGE_ENGLISH] = "Nothing to Report",
-    [LANGUAGE_CHINESE] = "大修道院的",
+    [LANGUAGE_JAPANESE] = "第316章 ""大修道院の",
+    [LANGUAGE_ENGLISH] = "Ch.316: ""Nothing to Report",
+    [LANGUAGE_CHINESE] = "第316章 ""大修道院的",
 },
 
 [MID_STAGE_S5105] = {
-    [LANGUAGE_JAPANESE] = "光の王子",
-    [LANGUAGE_ENGLISH] = "Prince of Light",
-    [LANGUAGE_CHINESE] = "光之王子",
+    [LANGUAGE_JAPANESE] = "第317章 ""光の王子",
+    [LANGUAGE_ENGLISH] = "Ch.317: ""Prince of Light",
+    [LANGUAGE_CHINESE] = "第317章 ""光之王子",
 },
 
 [MID_STAGE_S5111] = {
-    [LANGUAGE_JAPANESE] = "壊れゆく王国",
-    [LANGUAGE_ENGLISH] = "Desolation",
-    [LANGUAGE_CHINESE] = "步向毁灭的王国",
+    [LANGUAGE_JAPANESE] = "第318章 ""壊れゆく王国",
+    [LANGUAGE_ENGLISH] = "Ch.318: ""Desolation",
+    [LANGUAGE_CHINESE] = "第318章 ""步向毁灭的王国",
 },
 
 [MID_STAGE_S5112] = {
-    [LANGUAGE_JAPANESE] = "どこにも帰さない",
-    [LANGUAGE_ENGLISH] = "Nowhere Left",
-    [LANGUAGE_CHINESE] = "别想回去",
+    [LANGUAGE_JAPANESE] = "第319章 ""どこにも帰さない",
+    [LANGUAGE_ENGLISH] = "Ch.319: ""Nowhere Left",
+    [LANGUAGE_CHINESE] = "第319章 ""别想回去",
 },
 
 [MID_STAGE_S5113] = {
-    [LANGUAGE_JAPANESE] = "雌伏令嬢",
-    [LANGUAGE_ENGLISH] = "Fallen Noble",
-    [LANGUAGE_CHINESE] = "雌伏千金",
+    [LANGUAGE_JAPANESE] = "第320章 ""雌伏令嬢",
+    [LANGUAGE_ENGLISH] = "Ch.320: ""Fallen Noble",
+    [LANGUAGE_CHINESE] = "第320章 ""雌伏千金",
 },
 
 [MID_STAGE_S5114] = {
-    [LANGUAGE_JAPANESE] = "灰色の義侠心",
-    [LANGUAGE_ENGLISH] = "Ashen Valiant",
-    [LANGUAGE_CHINESE] = "灰色的侠义心",
+    [LANGUAGE_JAPANESE] = "第321章 ""灰色の義侠心",
+    [LANGUAGE_ENGLISH] = "Ch.321: ""Ashen Valiant",
+    [LANGUAGE_CHINESE] = "第321章 ""灰色的侠义心",
 },
 
 [MID_STAGE_S5115] = {
-    [LANGUAGE_JAPANESE] = "全てを失って",
-    [LANGUAGE_ENGLISH] = "Everything, Lost",
-    [LANGUAGE_CHINESE] = "尽失一切",
+    [LANGUAGE_JAPANESE] = "第322章 ""全てを失って",
+    [LANGUAGE_ENGLISH] = "Ch.322: ""Everything, Lost",
+    [LANGUAGE_CHINESE] = "第322章 ""尽失一切",
 },
 
 [MID_STAGE_S5121] = {
-    [LANGUAGE_JAPANESE] = "紡がれた歴史",
-    [LANGUAGE_ENGLISH] = "Fabric of History",
-    [LANGUAGE_CHINESE] = "交织的历史",
+    [LANGUAGE_JAPANESE] = "第323章 ""紡がれた歴史",
+    [LANGUAGE_ENGLISH] = "Ch.323: ""Fabric of History",
+    [LANGUAGE_CHINESE] = "第323章 ""交织的历史",
 },
 
 [MID_STAGE_S5122] = {
-    [LANGUAGE_JAPANESE] = "異形の敵",
-    [LANGUAGE_ENGLISH] = "Twisted Foe",
-    [LANGUAGE_CHINESE] = "异形的敌人",
+    [LANGUAGE_JAPANESE] = "第324章 ""異形の敵",
+    [LANGUAGE_ENGLISH] = "Ch.324: ""Twisted Foe",
+    [LANGUAGE_CHINESE] = "第324章 ""异形的敌人",
 },
 
 [MID_STAGE_S5123] = {
-    [LANGUAGE_JAPANESE] = "決別",
-    [LANGUAGE_ENGLISH] = "Parting Ways",
-    [LANGUAGE_CHINESE] = "诀别",
+    [LANGUAGE_JAPANESE] = "第325章 ""決別",
+    [LANGUAGE_ENGLISH] = "Ch.325: ""Parting Ways",
+    [LANGUAGE_CHINESE] = "第325章 ""诀别",
 },
 
 [MID_STAGE_S5124] = {
-    [LANGUAGE_JAPANESE] = "律義の狼",
-    [LANGUAGE_ENGLISH] = "Coyote's Justice",
-    [LANGUAGE_CHINESE] = "律仪之狼",
+    [LANGUAGE_JAPANESE] = "第326章 ""律義の狼",
+    [LANGUAGE_ENGLISH] = "Ch.326: ""Coyote's Justice",
+    [LANGUAGE_CHINESE] = "第326章 ""律仪之狼",
 },
 
 [MID_STAGE_S5125] = {
-    [LANGUAGE_JAPANESE] = "家族",
-    [LANGUAGE_ENGLISH] = "Family",
-    [LANGUAGE_CHINESE] = "家人",
+    [LANGUAGE_JAPANESE] = "第327章 ""家族",
+    [LANGUAGE_ENGLISH] = "Ch.327: ""Family",
+    [LANGUAGE_CHINESE] = "第327章 ""家人",
 },
 
 [MID_STAGE_S5131] = {
-    [LANGUAGE_JAPANESE] = "懐かしい友",
-    [LANGUAGE_ENGLISH] = "Old Friends",
-    [LANGUAGE_CHINESE] = "令人怀念的朋友",
+    [LANGUAGE_JAPANESE] = "第328章 ""懐かしい友",
+    [LANGUAGE_ENGLISH] = "Ch.328: ""Old Friends",
+    [LANGUAGE_CHINESE] = "第328章 ""令人怀念的朋友",
 },
 
 [MID_STAGE_S5132] = {
-    [LANGUAGE_JAPANESE] = "魔剣グラム",
-    [LANGUAGE_ENGLISH] = "The Sword Gramr",
-    [LANGUAGE_CHINESE] = "魔剑格拉姆",
+    [LANGUAGE_JAPANESE] = "第329章 ""魔剣グラム",
+    [LANGUAGE_ENGLISH] = "Ch.329: ""The Sword Gramr",
+    [LANGUAGE_CHINESE] = "第329章 ""魔剑格拉姆",
 },
 
 [MID_STAGE_S5133] = {
-    [LANGUAGE_JAPANESE] = "覚悟の伯爵家令嬢",
-    [LANGUAGE_ENGLISH] = "Resolute Damsel",
-    [LANGUAGE_CHINESE] = "下决心的伯爵家千金",
+    [LANGUAGE_JAPANESE] = "第330章 ""覚悟の伯爵家令嬢",
+    [LANGUAGE_ENGLISH] = "Ch.330: ""Resolute Damsel",
+    [LANGUAGE_CHINESE] = "第330章 ""下决心的伯爵家千金",
 },
 
 [MID_STAGE_S5134] = {
-    [LANGUAGE_JAPANESE] = "小人の王冠",
-    [LANGUAGE_ENGLISH] = "Crown of the Dvergar",
-    [LANGUAGE_CHINESE] = "小人王冠",
+    [LANGUAGE_JAPANESE] = "第331章 ""小人の王冠",
+    [LANGUAGE_ENGLISH] = "Ch.331: ""Crown of the Dvergar",
+    [LANGUAGE_CHINESE] = "第331章 ""小人王冠",
 },
 
 [MID_STAGE_S5135] = {
-    [LANGUAGE_JAPANESE] = "王女の旅立ち",
-    [LANGUAGE_ENGLISH] = "Departure",
-    [LANGUAGE_CHINESE] = "公主的旅程",
+    [LANGUAGE_JAPANESE] = "第332章 ""王女の旅立ち",
+    [LANGUAGE_ENGLISH] = "Ch.332: ""Departure",
+    [LANGUAGE_CHINESE] = "第332章 ""公主的旅程",
 },
 
 [MID_STAGE_S6011] = {
-    [LANGUAGE_JAPANESE] = "エンブラの災厄",
-    [LANGUAGE_ENGLISH] = "Emblian Calamity",
-    [LANGUAGE_CHINESE] = "恩布拉的灾厄",
+    [LANGUAGE_JAPANESE] = "第333章 ""エンブラの災厄",
+    [LANGUAGE_ENGLISH] = "Ch.333: ""Emblian Calamity",
+    [LANGUAGE_CHINESE] = "第333章 ""恩布拉的灾厄",
 },
 
 [MID_STAGE_S6012] = {
-    [LANGUAGE_JAPANESE] = "天を閉ざせば空はなく",
-    [LANGUAGE_ENGLISH] = "Closure Above",
-    [LANGUAGE_CHINESE] = "天若封闭则无苍穹",
+    [LANGUAGE_JAPANESE] = "第334章 ""天を閉ざせば空はなく",
+    [LANGUAGE_ENGLISH] = "Ch.334: ""Closure Above",
+    [LANGUAGE_CHINESE] = "第334章 ""天若封闭则无苍穹",
 },
 
 [MID_STAGE_S6013] = {
-    [LANGUAGE_JAPANESE] = "地を閉ざせば命はなく",
-    [LANGUAGE_ENGLISH] = "Closure Below",
-    [LANGUAGE_CHINESE] = "地若封闭则无生命",
+    [LANGUAGE_JAPANESE] = "第335章 ""地を閉ざせば命はなく",
+    [LANGUAGE_ENGLISH] = "Ch.335: ""Closure Below",
+    [LANGUAGE_CHINESE] = "第335章 ""地若封闭则无生命",
 },
 
 [MID_STAGE_S6014] = {
-    [LANGUAGE_JAPANESE] = "時を閉ざせば未来はない",
-    [LANGUAGE_ENGLISH] = "Closure Ahead",
-    [LANGUAGE_CHINESE] = "时若封闭则无未来",
+    [LANGUAGE_JAPANESE] = "第336章 ""時を閉ざせば未来はない",
+    [LANGUAGE_ENGLISH] = "Ch.336: ""Closure Ahead",
+    [LANGUAGE_CHINESE] = "第336章 ""时若封闭则无未来",
 },
 
 [MID_STAGE_S6015] = {
-    [LANGUAGE_JAPANESE] = "閉ざされた世界",
-    [LANGUAGE_ENGLISH] = "Closed-Off World",
-    [LANGUAGE_CHINESE] = "被封闭的世界",
+    [LANGUAGE_JAPANESE] = "第337章 ""閉ざされた世界",
+    [LANGUAGE_ENGLISH] = "Ch.337: ""Closed-Off World",
+    [LANGUAGE_CHINESE] = "第337章 ""被封闭的世界",
 },
 
 [MID_STAGE_S6021] = {
-    [LANGUAGE_JAPANESE] = "奇なる翼を追って",
-    [LANGUAGE_ENGLISH] = "Shadowy Wings",
-    [LANGUAGE_CHINESE] = "追寻奇怪的翅膀",
+    [LANGUAGE_JAPANESE] = "第338章 ""奇なる翼を追って",
+    [LANGUAGE_ENGLISH] = "Ch.338: ""Shadowy Wings",
+    [LANGUAGE_CHINESE] = "第338章 ""追寻奇怪的翅膀",
 },
 
 [MID_STAGE_S6022] = {
-    [LANGUAGE_JAPANESE] = "真理の探求者",
-    [LANGUAGE_ENGLISH] = "Pursuer of Truth",
-    [LANGUAGE_CHINESE] = "真理的探求者",
+    [LANGUAGE_JAPANESE] = "第339章 ""真理の探求者",
+    [LANGUAGE_ENGLISH] = "Ch.339: ""Pursuer of Truth",
+    [LANGUAGE_CHINESE] = "第339章 ""真理的探求者",
 },
 
 [MID_STAGE_S6023] = {
-    [LANGUAGE_JAPANESE] = "勇者の末裔",
-    [LANGUAGE_ENGLISH] = "Radiant Hero",
-    [LANGUAGE_CHINESE] = "勇者的后裔",
+    [LANGUAGE_JAPANESE] = "第340章 ""勇者の末裔",
+    [LANGUAGE_ENGLISH] = "Ch.340: ""Radiant Hero",
+    [LANGUAGE_CHINESE] = "第340章 ""勇者的后裔",
 },
 
 [MID_STAGE_S6024] = {
-    [LANGUAGE_JAPANESE] = "東王と西王",
-    [LANGUAGE_ENGLISH] = "East-Khan and West-Khan",
-    [LANGUAGE_CHINESE] = "东境王与西境王",
+    [LANGUAGE_JAPANESE] = "第341章 ""東王と西王",
+    [LANGUAGE_ENGLISH] = "Ch.341: ""East-Khan and West-Khan",
+    [LANGUAGE_CHINESE] = "第341章 ""东境王与西境王",
 },
 
 [MID_STAGE_S6025] = {
-    [LANGUAGE_JAPANESE] = "呪詛部隊の長",
-    [LANGUAGE_ENGLISH] = "Curse Director",
-    [LANGUAGE_CHINESE] = "诅咒部队队长",
+    [LANGUAGE_JAPANESE] = "第342章 ""呪詛部隊の長",
+    [LANGUAGE_ENGLISH] = "Ch.342: ""Curse Director",
+    [LANGUAGE_CHINESE] = "第342章 ""诅咒部队队长",
 },
 
 [MID_STAGE_S6031] = {
-    [LANGUAGE_JAPANESE] = "声がきこえる",
-    [LANGUAGE_ENGLISH] = "Hearing Voices",
-    [LANGUAGE_CHINESE] = "听到声音",
+    [LANGUAGE_JAPANESE] = "第343章 ""声がきこえる",
+    [LANGUAGE_ENGLISH] = "Ch.343: ""Hearing Voices",
+    [LANGUAGE_CHINESE] = "第343章 ""听到声音",
 },
 
 [MID_STAGE_S6032] = {
-    [LANGUAGE_JAPANESE] = "盗賊の達観",
-    [LANGUAGE_ENGLISH] = "A Thief's Perspective",
-    [LANGUAGE_CHINESE] = "盗贼的领悟",
+    [LANGUAGE_JAPANESE] = "第344章 ""盗賊の達観",
+    [LANGUAGE_ENGLISH] = "Ch.344: ""A Thief's Perspective",
+    [LANGUAGE_CHINESE] = "第344章 ""盗贼的领悟",
 },
 
 [MID_STAGE_S6033] = {
-    [LANGUAGE_JAPANESE] = "狩人の涙",
-    [LANGUAGE_ENGLISH] = "An Archer's Tears",
-    [LANGUAGE_CHINESE] = "猎人之泪",
+    [LANGUAGE_JAPANESE] = "第345章 ""狩人の涙",
+    [LANGUAGE_ENGLISH] = "Ch.345: ""An Archer's Tears",
+    [LANGUAGE_CHINESE] = "第345章 ""猎人之泪",
 },
 
 [MID_STAGE_S6034] = {
-    [LANGUAGE_JAPANESE] = "砂塵の王の開花",
-    [LANGUAGE_ENGLISH] = "A Sandstorm's Ascension",
-    [LANGUAGE_CHINESE] = "沙尘之王的绽放",
+    [LANGUAGE_JAPANESE] = "第346章 ""砂塵の王の開花",
+    [LANGUAGE_ENGLISH] = "Ch.346: ""A Sandstorm's Ascension",
+    [LANGUAGE_CHINESE] = "第346章 ""沙尘之王的绽放",
 },
 
 [MID_STAGE_S6035] = {
-    [LANGUAGE_JAPANESE] = "すべてを失い、落ちなさい",
-    [LANGUAGE_ENGLISH] = "Curtain's Fall",
-    [LANGUAGE_CHINESE] = "失去所有,坠入深渊吧",
+    [LANGUAGE_JAPANESE] = "第347章 ""すべてを失い、落ちなさい",
+    [LANGUAGE_ENGLISH] = "Ch.347: ""Curtain's Fall",
+    [LANGUAGE_CHINESE] = "第347章 ""失去所有,坠入深渊吧",
 },
 
 [MID_STAGE_S6041] = {
-    [LANGUAGE_JAPANESE] = "味方はもういない",
-    [LANGUAGE_ENGLISH] = "Nowhere to Turn",
-    [LANGUAGE_CHINESE] = "孤立无援",
+    [LANGUAGE_JAPANESE] = "第348章 ""味方はもういない",
+    [LANGUAGE_ENGLISH] = "Ch.348: ""Nowhere to Turn",
+    [LANGUAGE_CHINESE] = "第348章 ""孤立无援",
 },
 
 [MID_STAGE_S6042] = {
-    [LANGUAGE_JAPANESE] = "理魔道士の嘆息",
-    [LANGUAGE_ENGLISH] = "Mage's Lament",
-    [LANGUAGE_CHINESE] = "理魔道士的叹息",
+    [LANGUAGE_JAPANESE] = "第349章 ""理魔道士の嘆息",
+    [LANGUAGE_ENGLISH] = "Ch.349: ""Mage's Lament",
+    [LANGUAGE_CHINESE] = "第349章 ""理魔道士的叹息",
 },
 
 [MID_STAGE_S6043] = {
-    [LANGUAGE_JAPANESE] = "黒の宣告",
-    [LANGUAGE_ENGLISH] = "Sentenced to Darkness",
-    [LANGUAGE_CHINESE] = "漆黑宣告",
+    [LANGUAGE_JAPANESE] = "第350章 ""黒の宣告",
+    [LANGUAGE_ENGLISH] = "Ch.350: ""Sentenced to Darkness",
+    [LANGUAGE_CHINESE] = "第350章 ""漆黑宣告",
 },
 
 [MID_STAGE_S6044] = {
-    [LANGUAGE_JAPANESE] = "いつか、友達にだって",
-    [LANGUAGE_ENGLISH] = "Friends One Day",
-    [LANGUAGE_CHINESE] = "总有一天能成为朋友",
+    [LANGUAGE_JAPANESE] = "第351章 ""いつか、友達にだって",
+    [LANGUAGE_ENGLISH] = "Ch.351: ""Friends One Day",
+    [LANGUAGE_CHINESE] = "第351章 ""总有一天能成为朋友",
 },
 
 [MID_STAGE_S6045] = {
-    [LANGUAGE_JAPANESE] = "告げられた別離",
-    [LANGUAGE_ENGLISH] = "Coerced Parting",
-    [LANGUAGE_CHINESE] = "离别的告知",
+    [LANGUAGE_JAPANESE] = "第352章 ""告げられた別離",
+    [LANGUAGE_ENGLISH] = "Ch.352: ""Coerced Parting",
+    [LANGUAGE_CHINESE] = "第352章 ""离别的告知",
 },
 
 [MID_STAGE_S6051] = {
-    [LANGUAGE_JAPANESE] = "光の眷属",
-    [LANGUAGE_ENGLISH] = "Light's Path",
-    [LANGUAGE_CHINESE] = "光之眷属",
+    [LANGUAGE_JAPANESE] = "第353章 ""光の眷属",
+    [LANGUAGE_ENGLISH] = "Ch.353: ""Light's Path",
+    [LANGUAGE_CHINESE] = "第353章 ""光之眷属",
 },
 
 [MID_STAGE_S6052] = {
-    [LANGUAGE_JAPANESE] = "軍師は語る",
-    [LANGUAGE_ENGLISH] = "Moving Forward",
-    [LANGUAGE_CHINESE] = "军师言道",
+    [LANGUAGE_JAPANESE] = "第354章 ""軍師は語る",
+    [LANGUAGE_ENGLISH] = "Ch.354: ""Moving Forward",
+    [LANGUAGE_CHINESE] = "第354章 ""军师言道",
 },
 
 [MID_STAGE_S6053] = {
-    [LANGUAGE_JAPANESE] = "豊かなる恵みは",
-    [LANGUAGE_ENGLISH] = "Abundant Offerings",
-    [LANGUAGE_CHINESE] = "丰厚的恩惠",
+    [LANGUAGE_JAPANESE] = "第355章 ""豊かなる恵みは",
+    [LANGUAGE_ENGLISH] = "Ch.355: ""Abundant Offerings",
+    [LANGUAGE_CHINESE] = "第355章 ""丰厚的恩惠",
 },
 
 [MID_STAGE_S6054] = {
-    [LANGUAGE_JAPANESE] = "無情の策",
-    [LANGUAGE_ENGLISH] = "Heartless Scheme",
-    [LANGUAGE_CHINESE] = "无情的计策",
+    [LANGUAGE_JAPANESE] = "第356章 ""無情の策",
+    [LANGUAGE_ENGLISH] = "Ch.356: ""Heartless Scheme",
+    [LANGUAGE_CHINESE] = "第356章 ""无情的计策",
 },
 
 [MID_STAGE_S6055] = {
-    [LANGUAGE_JAPANESE] = "僕が殺した",
-    [LANGUAGE_ENGLISH] = "I Killed Him",
-    [LANGUAGE_CHINESE] = "人是我杀的",
+    [LANGUAGE_JAPANESE] = "第357章 ""僕が殺した",
+    [LANGUAGE_ENGLISH] = "Ch.357: ""I Killed Him",
+    [LANGUAGE_CHINESE] = "第357章 ""人是我杀的",
 },
 
 [MID_STAGE_S6061] = {
-    [LANGUAGE_JAPANESE] = "監獄要塞",
-    [LANGUAGE_ENGLISH] = "Dungeon Keep",
-    [LANGUAGE_CHINESE] = "监狱要塞",
+    [LANGUAGE_JAPANESE] = "第358章 ""監獄要塞",
+    [LANGUAGE_ENGLISH] = "Ch.358: ""Dungeon Keep",
+    [LANGUAGE_CHINESE] = "第358章 ""监狱要塞",
 },
 
 [MID_STAGE_S6062] = {
-    [LANGUAGE_JAPANESE] = "囚われの皇女",
-    [LANGUAGE_ENGLISH] = "Princess Seized",
-    [LANGUAGE_CHINESE] = "被囚禁的皇女",
+    [LANGUAGE_JAPANESE] = "第359章 ""囚われの皇女",
+    [LANGUAGE_ENGLISH] = "Ch.359: ""Princess Seized",
+    [LANGUAGE_CHINESE] = "第359章 ""被囚禁的皇女",
 },
 
 [MID_STAGE_S6063] = {
-    [LANGUAGE_JAPANESE] = "嘘の形勢",
-    [LANGUAGE_ENGLISH] = "State of Deception",
-    [LANGUAGE_CHINESE] = "虚假的情势",
+    [LANGUAGE_JAPANESE] = "第360章 ""嘘の形勢",
+    [LANGUAGE_ENGLISH] = "Ch.360: ""State of Deception",
+    [LANGUAGE_CHINESE] = "第360章 ""虚假的情势",
 },
 
 [MID_STAGE_S6064] = {
-    [LANGUAGE_JAPANESE] = "あなたが決める",
-    [LANGUAGE_ENGLISH] = "Make Your Choice",
-    [LANGUAGE_CHINESE] = "由你决定",
+    [LANGUAGE_JAPANESE] = "第361章 ""あなたが決める",
+    [LANGUAGE_ENGLISH] = "Ch.361: ""Make Your Choice",
+    [LANGUAGE_CHINESE] = "第361章 ""由你决定",
 },
 
 [MID_STAGE_S6065] = {
-    [LANGUAGE_JAPANESE] = "処刑の日",
-    [LANGUAGE_ENGLISH] = "Day of Execution",
-    [LANGUAGE_CHINESE] = "处刑的日子",
+    [LANGUAGE_JAPANESE] = "第362章 ""処刑の日",
+    [LANGUAGE_ENGLISH] = "Ch.362: ""Day of Execution",
+    [LANGUAGE_CHINESE] = "第362章 ""处刑的日子",
 },
 
 [MID_STAGE_S6071] = {
-    [LANGUAGE_JAPANESE] = "宮廷の舞曲",
-    [LANGUAGE_ENGLISH] = "Royal Courtship",
-    [LANGUAGE_CHINESE] = "宫廷的舞曲",
+    [LANGUAGE_JAPANESE] = "第363章 ""宮廷の舞曲",
+    [LANGUAGE_ENGLISH] = "Ch.363: ""Royal Courtship",
+    [LANGUAGE_CHINESE] = "第363章 ""宫廷的舞曲",
 },
 
 [MID_STAGE_S6072] = {
-    [LANGUAGE_JAPANESE] = "白き独白",
-    [LANGUAGE_ENGLISH] = "Deepest Wish",
-    [LANGUAGE_CHINESE] = "纯白的独白",
+    [LANGUAGE_JAPANESE] = "第364章 ""白き独白",
+    [LANGUAGE_ENGLISH] = "Ch.364: ""Deepest Wish",
+    [LANGUAGE_CHINESE] = "第364章 ""纯白的独白",
 },
 
 [MID_STAGE_S6073] = {
-    [LANGUAGE_JAPANESE] = "心は死せず",
-    [LANGUAGE_ENGLISH] = "Undying Breath",
-    [LANGUAGE_CHINESE] = "心永不亡",
+    [LANGUAGE_JAPANESE] = "第365章 ""心は死せず",
+    [LANGUAGE_ENGLISH] = "Ch.365: ""Undying Breath",
+    [LANGUAGE_CHINESE] = "第365章 ""心永不亡",
 },
 
 [MID_STAGE_S6074] = {
-    [LANGUAGE_JAPANESE] = "姉、妹",
-    [LANGUAGE_ENGLISH] = "Between Sisters",
-    [LANGUAGE_CHINESE] = "姐妹",
+    [LANGUAGE_JAPANESE] = "第366章 ""姉、妹",
+    [LANGUAGE_ENGLISH] = "Ch.366: ""Between Sisters",
+    [LANGUAGE_CHINESE] = "第366章 ""姐妹",
 },
 
 [MID_STAGE_S6075] = {
-    [LANGUAGE_JAPANESE] = "すべては闇へ",
-    [LANGUAGE_ENGLISH] = "Descending Darkness",
-    [LANGUAGE_CHINESE] = "全部被封闭至黑暗之中",
+    [LANGUAGE_JAPANESE] = "第367章 ""すべては闇へ",
+    [LANGUAGE_ENGLISH] = "Ch.367: ""Descending Darkness",
+    [LANGUAGE_CHINESE] = "第367章 ""全部被封闭至黑暗之中",
 },
 
 [MID_STAGE_S6081] = {
-    [LANGUAGE_JAPANESE] = "天は閉ざされた",
-    [LANGUAGE_ENGLISH] = "Enclosing Heavens",
-    [LANGUAGE_CHINESE] = "被封闭的天空",
+    [LANGUAGE_JAPANESE] = "第368章 ""天は閉ざされた",
+    [LANGUAGE_ENGLISH] = "Ch.368: ""Enclosing Heavens",
+    [LANGUAGE_CHINESE] = "第368章 ""被封闭的天空",
 },
 
 [MID_STAGE_S6082] = {
-    [LANGUAGE_JAPANESE] = "伊達男の口上",
-    [LANGUAGE_ENGLISH] = "Gallant Speech",
-    [LANGUAGE_CHINESE] = "时尚男的开场白",
+    [LANGUAGE_JAPANESE] = "第369章 ""伊達男の口上",
+    [LANGUAGE_ENGLISH] = "Ch.369: ""Gallant Speech",
+    [LANGUAGE_CHINESE] = "第369章 ""时尚男的开场白",
 },
 
 [MID_STAGE_S6083] = {
-    [LANGUAGE_JAPANESE] = "剣士の眼差し",
-    [LANGUAGE_ENGLISH] = "Bladed Gaze",
-    [LANGUAGE_CHINESE] = "剑士的眼神",
+    [LANGUAGE_JAPANESE] = "第370章 ""剣士の眼差し",
+    [LANGUAGE_ENGLISH] = "Ch.370: ""Bladed Gaze",
+    [LANGUAGE_CHINESE] = "第370章 ""剑士的眼神",
 },
 
 [MID_STAGE_S6084] = {
-    [LANGUAGE_JAPANESE] = "友への決意",
-    [LANGUAGE_ENGLISH] = "Camaraderie",
-    [LANGUAGE_CHINESE] = "为了友人的决心",
+    [LANGUAGE_JAPANESE] = "第371章 ""友への決意",
+    [LANGUAGE_ENGLISH] = "Ch.371: ""Camaraderie",
+    [LANGUAGE_CHINESE] = "第371章 ""为了友人的决心",
 },
 
 [MID_STAGE_S6085] = {
-    [LANGUAGE_JAPANESE] = "【呪詛部隊】のレティシア",
-    [LANGUAGE_ENGLISH] = "Director Letizia",
-    [LANGUAGE_CHINESE] = "【诅咒部队】的莱蒂西亚",
+    [LANGUAGE_JAPANESE] = "第372章 ""【呪詛部隊】のレティシア",
+    [LANGUAGE_ENGLISH] = "Ch.372: ""Director Letizia",
+    [LANGUAGE_CHINESE] = "第372章 ""【诅咒部队】的莱蒂西亚",
 },
 
 [MID_STAGE_S6091] = {
-    [LANGUAGE_JAPANESE] = "閉神と開神",
-    [LANGUAGE_ENGLISH] = "Closing and Opening",
-    [LANGUAGE_CHINESE] = "闭神与开神",
+    [LANGUAGE_JAPANESE] = "第373章 ""閉神と開神",
+    [LANGUAGE_ENGLISH] = "Ch.373: ""Closing and Opening",
+    [LANGUAGE_CHINESE] = "第373章 ""闭神与开神",
 },
 
 [MID_STAGE_S6092] = {
-    [LANGUAGE_JAPANESE] = "末っ子の名乗り",
-    [LANGUAGE_ENGLISH] = "Youthful Introduction",
-    [LANGUAGE_CHINESE] = "老么的名号",
+    [LANGUAGE_JAPANESE] = "第374章 ""末っ子の名乗り",
+    [LANGUAGE_ENGLISH] = "Ch.374: ""Youthful Introduction",
+    [LANGUAGE_CHINESE] = "第374章 ""老么的名号",
 },
 
 [MID_STAGE_S6093] = {
-    [LANGUAGE_JAPANESE] = "友の素顔",
-    [LANGUAGE_ENGLISH] = "A Friendly Face",
-    [LANGUAGE_CHINESE] = "朋友的真面目",
+    [LANGUAGE_JAPANESE] = "第375章 ""友の素顔",
+    [LANGUAGE_ENGLISH] = "Ch.375: ""A Friendly Face",
+    [LANGUAGE_CHINESE] = "第375章 ""朋友的真面目",
 },
 
 [MID_STAGE_S6094] = {
-    [LANGUAGE_JAPANESE] = "色濃さを増す闇",
-    [LANGUAGE_ENGLISH] = "Deepening Darkness",
-    [LANGUAGE_CHINESE] = "更深沉的黑暗",
+    [LANGUAGE_JAPANESE] = "第376章 ""色濃さを増す闇",
+    [LANGUAGE_ENGLISH] = "Ch.376: ""Deepening Darkness",
+    [LANGUAGE_CHINESE] = "第376章 ""更深沉的黑暗",
 },
 
 [MID_STAGE_S6095] = {
-    [LANGUAGE_JAPANESE] = "その脆き身体に",
-    [LANGUAGE_ENGLISH] = "Such a Weak Thing",
-    [LANGUAGE_CHINESE] = "那脆弱的躯体",
+    [LANGUAGE_JAPANESE] = "第377章 ""その脆き身体に",
+    [LANGUAGE_ENGLISH] = "Ch.377: ""Such a Weak Thing",
+    [LANGUAGE_CHINESE] = "第377章 ""那脆弱的躯体",
 },
 
 [MID_STAGE_S6101] = {
-    [LANGUAGE_JAPANESE] = "すべてが交わる世界",
-    [LANGUAGE_ENGLISH] = "World of Gateways",
-    [LANGUAGE_CHINESE] = "一切交会的世界",
+    [LANGUAGE_JAPANESE] = "第378章 ""すべてが交わる世界",
+    [LANGUAGE_ENGLISH] = "Ch.378: ""World of Gateways",
+    [LANGUAGE_CHINESE] = "第378章 ""一切交会的世界",
 },
 
 [MID_STAGE_S6102] = {
-    [LANGUAGE_JAPANESE] = "光の系譜",
-    [LANGUAGE_ENGLISH] = "Lineage of Light",
-    [LANGUAGE_CHINESE] = "光之系谱",
+    [LANGUAGE_JAPANESE] = "第379章 ""光の系譜",
+    [LANGUAGE_ENGLISH] = "Ch.379: ""Lineage of Light",
+    [LANGUAGE_CHINESE] = "第379章 ""光之系谱",
 },
 
 [MID_STAGE_S6103] = {
-    [LANGUAGE_JAPANESE] = "受け継がれしもの",
-    [LANGUAGE_ENGLISH] = "Fine Successors",
-    [LANGUAGE_CHINESE] = "继承的东西",
+    [LANGUAGE_JAPANESE] = "第380章 ""受け継がれしもの",
+    [LANGUAGE_ENGLISH] = "Ch.380: ""Fine Successors",
+    [LANGUAGE_CHINESE] = "第380章 ""继承的东西",
 },
 
 [MID_STAGE_S6104] = {
-    [LANGUAGE_JAPANESE] = "神竜の目覚め",
-    [LANGUAGE_ENGLISH] = "Fated Divinity",
-    [LANGUAGE_CHINESE] = "神龙苏醒",
+    [LANGUAGE_JAPANESE] = "第381章 ""神竜の目覚め",
+    [LANGUAGE_ENGLISH] = "Ch.381: ""Fated Divinity",
+    [LANGUAGE_CHINESE] = "第381章 ""神龙苏醒",
 },
 
 [MID_STAGE_S6105] = {
-    [LANGUAGE_JAPANESE] = "ユグドラシルの鍵",
-    [LANGUAGE_ENGLISH] = "Yggdrasill Key",
-    [LANGUAGE_CHINESE] = "尤克特拉希尔之钥",
+    [LANGUAGE_JAPANESE] = "第382章 ""ユグドラシルの鍵",
+    [LANGUAGE_ENGLISH] = "Ch.382: ""Yggdrasill Key",
+    [LANGUAGE_CHINESE] = "第382章 ""尤克特拉希尔之钥",
 },
 
 [MID_STAGE_S6111] = {
-    [LANGUAGE_JAPANESE] = "再会の約束",
-    [LANGUAGE_ENGLISH] = "A Promised Reunion",
-    [LANGUAGE_CHINESE] = "再见面的约定",
+    [LANGUAGE_JAPANESE] = "第383章 ""再会の約束",
+    [LANGUAGE_ENGLISH] = "Ch.383: ""A Promised Reunion",
+    [LANGUAGE_CHINESE] = "第383章 ""再见面的约定",
 },
 
 [MID_STAGE_S6112] = {
-    [LANGUAGE_JAPANESE] = "アスクの死に思う",
-    [LANGUAGE_ENGLISH] = "Askr's Undoing",
-    [LANGUAGE_CHINESE] = "回忆亚斯克之死",
+    [LANGUAGE_JAPANESE] = "第384章 ""アスクの死に思う",
+    [LANGUAGE_ENGLISH] = "Ch.384: ""Askr's Undoing",
+    [LANGUAGE_CHINESE] = "第384章 ""回忆亚斯克之死",
 },
 
 [MID_STAGE_S6113] = {
-    [LANGUAGE_JAPANESE] = "エンブラの眷属 エルム",
-    [LANGUAGE_ENGLISH] = "Elm, Embla's Retainer",
-    [LANGUAGE_CHINESE] = "恩布拉的眷属 埃尔姆",
+    [LANGUAGE_JAPANESE] = "第385章 ""エンブラの眷属 エルム",
+    [LANGUAGE_ENGLISH] = "Ch.385: ""Elm, Embla's Retainer",
+    [LANGUAGE_CHINESE] = "第385章 ""恩布拉的眷属 埃尔姆",
 },
 
 [MID_STAGE_S6114] = {
-    [LANGUAGE_JAPANESE] = "解放と封印",
-    [LANGUAGE_ENGLISH] = "Freedom and Closure",
-    [LANGUAGE_CHINESE] = "解放与封印",
+    [LANGUAGE_JAPANESE] = "第386章 ""解放と封印",
+    [LANGUAGE_ENGLISH] = "Ch.386: ""Freedom and Closure",
+    [LANGUAGE_CHINESE] = "第386章 ""解放与封印",
 },
 
 [MID_STAGE_S6115] = {
-    [LANGUAGE_JAPANESE] = "友の死",
-    [LANGUAGE_ENGLISH] = "Death of a Friend",
-    [LANGUAGE_CHINESE] = "朋友的死",
+    [LANGUAGE_JAPANESE] = "第387章 ""友の死",
+    [LANGUAGE_ENGLISH] = "Ch.387: ""Death of a Friend",
+    [LANGUAGE_CHINESE] = "第387章 ""朋友的死",
 },
 
 [MID_STAGE_S6121] = {
-    [LANGUAGE_JAPANESE] = "嘆き悲しむ時間は",
-    [LANGUAGE_ENGLISH] = "Time to Grieve",
-    [LANGUAGE_CHINESE] = "感到悲伤的时间",
+    [LANGUAGE_JAPANESE] = "第388章 ""嘆き悲しむ時間は",
+    [LANGUAGE_ENGLISH] = "Ch.388: ""Time to Grieve",
+    [LANGUAGE_CHINESE] = "第388章 ""感到悲伤的时间",
 },
 
 [MID_STAGE_S6122] = {
-    [LANGUAGE_JAPANESE] = "将の名乗り",
-    [LANGUAGE_ENGLISH] = "Remember His Name",
-    [LANGUAGE_CHINESE] = "将领的名号",
+    [LANGUAGE_JAPANESE] = "第389章 ""将の名乗り",
+    [LANGUAGE_ENGLISH] = "Ch.389: ""Remember His Name",
+    [LANGUAGE_CHINESE] = "第389章 ""将领的名号",
 },
 
 [MID_STAGE_S6123] = {
-    [LANGUAGE_JAPANESE] = "見習いのため息",
-    [LANGUAGE_ENGLISH] = "Longing Sighs",
-    [LANGUAGE_CHINESE] = "见习生的叹息",
+    [LANGUAGE_JAPANESE] = "第390章 ""見習いのため息",
+    [LANGUAGE_ENGLISH] = "Ch.390: ""Longing Sighs",
+    [LANGUAGE_CHINESE] = "第390章 ""见习生的叹息",
 },
 
 [MID_STAGE_S6124] = {
-    [LANGUAGE_JAPANESE] = "どちらが殺すか",
-    [LANGUAGE_ENGLISH] = "To Kill",
-    [LANGUAGE_CHINESE] = "由谁来杀",
+    [LANGUAGE_JAPANESE] = "第391章 ""どちらが殺すか",
+    [LANGUAGE_ENGLISH] = "Ch.391: ""To Kill",
+    [LANGUAGE_CHINESE] = "第391章 ""由谁来杀",
 },
 
 [MID_STAGE_S6125] = {
-    [LANGUAGE_JAPANESE] = "どちらが殺されるか",
-    [LANGUAGE_ENGLISH] = "To Be Killed",
-    [LANGUAGE_CHINESE] = "谁要被杀",
+    [LANGUAGE_JAPANESE] = "第392章 ""どちらが殺されるか",
+    [LANGUAGE_ENGLISH] = "Ch.392: ""To Be Killed",
+    [LANGUAGE_CHINESE] = "第392章 ""谁要被杀",
 },
 
 [MID_STAGE_S6131] = {
-    [LANGUAGE_JAPANESE] = "闇は光に誘われ",
-    [LANGUAGE_ENGLISH] = "Light in the Dark",
-    [LANGUAGE_CHINESE] = "黑暗受光吸引",
+    [LANGUAGE_JAPANESE] = "第393章 ""闇は光に誘われ",
+    [LANGUAGE_ENGLISH] = "Ch.393: ""Light in the Dark",
+    [LANGUAGE_CHINESE] = "第393章 ""黑暗受光吸引",
 },
 
 [MID_STAGE_S6132] = {
-    [LANGUAGE_JAPANESE] = "闇は深き淵を知る",
-    [LANGUAGE_ENGLISH] = "Depths of the Dark",
-    [LANGUAGE_CHINESE] = "黑暗知晓深渊",
+    [LANGUAGE_JAPANESE] = "第394章 ""闇は深き淵を知る",
+    [LANGUAGE_ENGLISH] = "Ch.394: ""Depths of the Dark",
+    [LANGUAGE_CHINESE] = "第394章 ""黑暗知晓深渊",
 },
 
 [MID_STAGE_S6133] = {
-    [LANGUAGE_JAPANESE] = "闇は黒き影を増し",
-    [LANGUAGE_ENGLISH] = "Growing Darkness",
-    [LANGUAGE_CHINESE] = "黑暗越发深沉",
+    [LANGUAGE_JAPANESE] = "第395章 ""闇は黒き影を増し",
+    [LANGUAGE_ENGLISH] = "Ch.395: ""Growing Darkness",
+    [LANGUAGE_CHINESE] = "第395章 ""黑暗越发深沉",
 },
 
 [MID_STAGE_S6134] = {
-    [LANGUAGE_JAPANESE] = "闇は光と離れゆく",
-    [LANGUAGE_ENGLISH] = "Driven into the Dark",
-    [LANGUAGE_CHINESE] = "黑暗离光而去",
+    [LANGUAGE_JAPANESE] = "第396章 ""闇は光と離れゆく",
+    [LANGUAGE_ENGLISH] = "Ch.396: ""Driven into the Dark",
+    [LANGUAGE_CHINESE] = "第396章 ""黑暗离光而去",
 },
 
 [MID_STAGE_S6135] = {
-    [LANGUAGE_JAPANESE] = "閉神エンブラ",
-    [LANGUAGE_ENGLISH] = "Embla, God of Closure",
-    [LANGUAGE_CHINESE] = "闭神恩布拉",
+    [LANGUAGE_JAPANESE] = "第397章 ""閉神エンブラ",
+    [LANGUAGE_ENGLISH] = "Ch.397: ""Embla, God of Closure",
+    [LANGUAGE_CHINESE] = "第397章 ""闭神恩布拉",
 },
 
 [MID_STAGE_S7011] = {
-    [LANGUAGE_JAPANESE] = "時はすべてを支配する",
-    [LANGUAGE_ENGLISH] = "Rule of Time",
-    [LANGUAGE_CHINESE] = "时间会支配一切",
+    [LANGUAGE_JAPANESE] = "第398章 ""時はすべてを支配する",
+    [LANGUAGE_ENGLISH] = "Ch.398: ""Rule of Time",
+    [LANGUAGE_CHINESE] = "第398章 ""时间会支配一切",
 },
 
 [MID_STAGE_S7012] = {
-    [LANGUAGE_JAPANESE] = "時はまだ見ぬ命を生み",
-    [LANGUAGE_ENGLISH] = "Birth of Time",
-    [LANGUAGE_CHINESE] = "时间会孕育未知的生命",
+    [LANGUAGE_JAPANESE] = "第399章 ""時はまだ見ぬ命を生み",
+    [LANGUAGE_ENGLISH] = "Ch.399: ""Birth of Time",
+    [LANGUAGE_CHINESE] = "第399章 ""时间会孕育未知的生命",
 },
 
 [MID_STAGE_S7013] = {
-    [LANGUAGE_JAPANESE] = "時は幼き命を育て",
-    [LANGUAGE_ENGLISH] = "Unraveling of Time",
-    [LANGUAGE_CHINESE] = "时间会培育幼小的生命",
+    [LANGUAGE_JAPANESE] = "第400章 ""時は幼き命を育て",
+    [LANGUAGE_ENGLISH] = "Ch.400: ""Unraveling of Time",
+    [LANGUAGE_CHINESE] = "第400章 ""时间会培育幼小的生命",
 },
 
 [MID_STAGE_S7014] = {
-    [LANGUAGE_JAPANESE] = "時は老いゆく命を殺す",
-    [LANGUAGE_ENGLISH] = "End of Time",
-    [LANGUAGE_CHINESE] = "时间会杀死老去的生命",
+    [LANGUAGE_JAPANESE] = "第401章 ""時は老いゆく命を殺す",
+    [LANGUAGE_ENGLISH] = "Ch.401: ""End of Time",
+    [LANGUAGE_CHINESE] = "第401章 ""时间会杀死老去的生命",
 },
 
 [MID_STAGE_S7015] = {
-    [LANGUAGE_JAPANESE] = "誰も時には抗えない",
-    [LANGUAGE_ENGLISH] = "March of Time",
-    [LANGUAGE_CHINESE] = "任谁都无法违抗时间",
+    [LANGUAGE_JAPANESE] = "第402章 ""誰も時には抗えない",
+    [LANGUAGE_ENGLISH] = "Ch.402: ""March of Time",
+    [LANGUAGE_CHINESE] = "第402章 ""任谁都无法违抗时间",
 },
 
 [MID_STAGE_S7021] = {
-    [LANGUAGE_JAPANESE] = "女神の降臨",
-    [LANGUAGE_ENGLISH] = "Goddess's Descent",
-    [LANGUAGE_CHINESE] = "女神的降临",
+    [LANGUAGE_JAPANESE] = "第403章 ""女神の降臨",
+    [LANGUAGE_ENGLISH] = "Ch.403: ""Goddess's Descent",
+    [LANGUAGE_CHINESE] = "第403章 ""女神的降临",
 },
 
 [MID_STAGE_S7022] = {
-    [LANGUAGE_JAPANESE] = "女神の彷徨",
-    [LANGUAGE_ENGLISH] = "Goddess's Path",
-    [LANGUAGE_CHINESE] = "女神的徬徨",
+    [LANGUAGE_JAPANESE] = "第404章 ""女神の彷徨",
+    [LANGUAGE_ENGLISH] = "Ch.404: ""Goddess's Path",
+    [LANGUAGE_CHINESE] = "第404章 ""女神的徬徨",
 },
 
 [MID_STAGE_S7023] = {
-    [LANGUAGE_JAPANESE] = "女神の憂悶",
-    [LANGUAGE_ENGLISH] = "Goddess's Despair",
-    [LANGUAGE_CHINESE] = "女神的忧愁",
+    [LANGUAGE_JAPANESE] = "第405章 ""女神の憂悶",
+    [LANGUAGE_ENGLISH] = "Ch.405: ""Goddess's Despair",
+    [LANGUAGE_CHINESE] = "第405章 ""女神的忧愁",
 },
 
 [MID_STAGE_S7024] = {
-    [LANGUAGE_JAPANESE] = "皇女と魔女",
-    [LANGUAGE_ENGLISH] = "Emperor and Seer",
-    [LANGUAGE_CHINESE] = "皇女与魔女",
+    [LANGUAGE_JAPANESE] = "第406章 ""皇女と魔女",
+    [LANGUAGE_ENGLISH] = "Ch.406: ""Emperor and Seer",
+    [LANGUAGE_CHINESE] = "第406章 ""皇女与魔女",
 },
 
 [MID_STAGE_S7025] = {
-    [LANGUAGE_JAPANESE] = "光へ",
-    [LANGUAGE_ENGLISH] = "Into the Light",
-    [LANGUAGE_CHINESE] = "往光的方向",
+    [LANGUAGE_JAPANESE] = "第407章 ""光へ",
+    [LANGUAGE_ENGLISH] = "Ch.407: ""Into the Light",
+    [LANGUAGE_CHINESE] = "第407章 ""往光的方向",
 },
 
 [MID_STAGE_S7031] = {
-    [LANGUAGE_JAPANESE] = "光の王との謁見",
-    [LANGUAGE_ENGLISH] = "Audience with the King",
-    [LANGUAGE_CHINESE] = "晋见光之王",
+    [LANGUAGE_JAPANESE] = "第408章 ""光の王との謁見",
+    [LANGUAGE_ENGLISH] = "Ch.408: ""Audience with the King",
+    [LANGUAGE_CHINESE] = "第408章 ""晋见光之王",
 },
 
 [MID_STAGE_S7032] = {
-    [LANGUAGE_JAPANESE] = "空想する天馬騎士",
-    [LANGUAGE_ENGLISH] = "Daydreaming Knight",
-    [LANGUAGE_CHINESE] = "幻想的天马骑士",
+    [LANGUAGE_JAPANESE] = "第409章 ""空想する天馬騎士",
+    [LANGUAGE_ENGLISH] = "Ch.409: ""Daydreaming Knight",
+    [LANGUAGE_CHINESE] = "第409章 ""幻想的天马骑士",
 },
 
 [MID_STAGE_S7033] = {
-    [LANGUAGE_JAPANESE] = "目覚めた後継者",
-    [LANGUAGE_ENGLISH] = "Awoken Successor",
-    [LANGUAGE_CHINESE] = "苏醒的继承者",
+    [LANGUAGE_JAPANESE] = "第410章 ""目覚めた後継者",
+    [LANGUAGE_ENGLISH] = "Ch.410: ""Awoken Successor",
+    [LANGUAGE_CHINESE] = "第410章 ""苏醒的继承者",
 },
 
 [MID_STAGE_S7034] = {
-    [LANGUAGE_JAPANESE] = "鍛錬する王子",
-    [LANGUAGE_ENGLISH] = "Prince in Training",
-    [LANGUAGE_CHINESE] = "锻炼的王子",
+    [LANGUAGE_JAPANESE] = "第411章 ""鍛錬する王子",
+    [LANGUAGE_ENGLISH] = "Ch.411: ""Prince in Training",
+    [LANGUAGE_CHINESE] = "第411章 ""锻炼的王子",
 },
 
 [MID_STAGE_S7035] = {
-    [LANGUAGE_JAPANESE] = "黄金の蛇の呪い",
-    [LANGUAGE_ENGLISH] = "Curse of the Gold Serpent",
-    [LANGUAGE_CHINESE] = "黄金蛇的诅咒",
+    [LANGUAGE_JAPANESE] = "第412章 ""黄金の蛇の呪い",
+    [LANGUAGE_ENGLISH] = "Ch.412: ""Curse of the Gold Serpent",
+    [LANGUAGE_CHINESE] = "第412章 ""黄金蛇的诅咒",
 },
 
 [MID_STAGE_S7041] = {
-    [LANGUAGE_JAPANESE] = "海神の【櫂】",
-    [LANGUAGE_ENGLISH] = "Ár of the Sea God",
-    [LANGUAGE_CHINESE] = "海神之【桨】",
+    [LANGUAGE_JAPANESE] = "第413章 ""海神の【櫂】",
+    [LANGUAGE_ENGLISH] = "Ch.413: ""Ár of the Sea God",
+    [LANGUAGE_CHINESE] = "第413章 ""海神之【桨】",
 },
 
 [MID_STAGE_S7042] = {
-    [LANGUAGE_JAPANESE] = "女王の護衛",
-    [LANGUAGE_ENGLISH] = "Queen's Advisor",
-    [LANGUAGE_CHINESE] = "女王的护卫",
+    [LANGUAGE_JAPANESE] = "第414章 ""女王の護衛",
+    [LANGUAGE_ENGLISH] = "Ch.414: ""Queen's Advisor",
+    [LANGUAGE_CHINESE] = "第414章 ""女王的护卫",
 },
 
 [MID_STAGE_S7043] = {
-    [LANGUAGE_JAPANESE] = "かわいい生き物",
-    [LANGUAGE_ENGLISH] = "Precious Creatures",
-    [LANGUAGE_CHINESE] = "可爱的生物",
+    [LANGUAGE_JAPANESE] = "第415章 ""かわいい生き物",
+    [LANGUAGE_ENGLISH] = "Ch.415: ""Precious Creatures",
+    [LANGUAGE_CHINESE] = "第415章 ""可爱的生物",
 },
 
 [MID_STAGE_S7044] = {
-    [LANGUAGE_JAPANESE] = "クリミア女王の決意",
-    [LANGUAGE_ENGLISH] = "Crimean Devotion",
-    [LANGUAGE_CHINESE] = "克里米亚女王的决心",
+    [LANGUAGE_JAPANESE] = "第416章 ""クリミア女王の決意",
+    [LANGUAGE_ENGLISH] = "Ch.416: ""Crimean Devotion",
+    [LANGUAGE_CHINESE] = "第416章 ""克里米亚女王的决心",
 },
 
 [MID_STAGE_S7045] = {
-    [LANGUAGE_JAPANESE] = "初めての再会",
-    [LANGUAGE_ENGLISH] = "First Meetings",
-    [LANGUAGE_CHINESE] = "初次重逢",
+    [LANGUAGE_JAPANESE] = "第417章 ""初めての再会",
+    [LANGUAGE_ENGLISH] = "Ch.417: ""First Meetings",
+    [LANGUAGE_CHINESE] = "第417章 ""初次重逢",
 },
 
 [MID_STAGE_S7051] = {
-    [LANGUAGE_JAPANESE] = "女神の子",
-    [LANGUAGE_ENGLISH] = "Child of the Goddess",
-    [LANGUAGE_CHINESE] = "女神之子",
+    [LANGUAGE_JAPANESE] = "第418章 ""女神の子",
+    [LANGUAGE_ENGLISH] = "Ch.418: ""Child of the Goddess",
+    [LANGUAGE_CHINESE] = "第418章 ""女神之子",
 },
 
 [MID_STAGE_S7052] = {
-    [LANGUAGE_JAPANESE] = "隊長の回顧",
-    [LANGUAGE_ENGLISH] = "Looking Back",
-    [LANGUAGE_CHINESE] = "队长的回顾",
+    [LANGUAGE_JAPANESE] = "第419章 ""隊長の回顧",
+    [LANGUAGE_ENGLISH] = "Ch.419: ""Looking Back",
+    [LANGUAGE_CHINESE] = "第419章 ""队长的回顾",
 },
 
 [MID_STAGE_S7053] = {
-    [LANGUAGE_JAPANESE] = "重壁の自負",
-    [LANGUAGE_ENGLISH] = "Silent Pride",
-    [LANGUAGE_CHINESE] = "重壁的自负",
+    [LANGUAGE_JAPANESE] = "第420章 ""重壁の自負",
+    [LANGUAGE_ENGLISH] = "Ch.420: ""Silent Pride",
+    [LANGUAGE_CHINESE] = "第420章 ""重壁的自负",
 },
 
 [MID_STAGE_S7054] = {
-    [LANGUAGE_JAPANESE] = "女神の導き",
-    [LANGUAGE_ENGLISH] = "Goddess's Guidance",
-    [LANGUAGE_CHINESE] = "女神的指引",
+    [LANGUAGE_JAPANESE] = "第421章 ""女神の導き",
+    [LANGUAGE_ENGLISH] = "Ch.421: ""Goddess's Guidance",
+    [LANGUAGE_CHINESE] = "第421章 ""女神的指引",
 },
 
 [MID_STAGE_S7055] = {
-    [LANGUAGE_JAPANESE] = "唯一の脱出路",
-    [LANGUAGE_ENGLISH] = "Only Escape Route",
-    [LANGUAGE_CHINESE] = "唯一的逃脱路线",
+    [LANGUAGE_JAPANESE] = "第422章 ""唯一の脱出路",
+    [LANGUAGE_ENGLISH] = "Ch.422: ""Only Escape Route",
+    [LANGUAGE_CHINESE] = "第422章 ""唯一的逃脱路线",
 },
 
 [MID_STAGE_S7061] = {
-    [LANGUAGE_JAPANESE] = "時を遡って",
-    [LANGUAGE_ENGLISH] = "Back in Time",
-    [LANGUAGE_CHINESE] = "时间倒转",
+    [LANGUAGE_JAPANESE] = "第423章 ""時を遡って",
+    [LANGUAGE_ENGLISH] = "Ch.423: ""Back in Time",
+    [LANGUAGE_CHINESE] = "第423章 ""时间倒转",
 },
 
 [MID_STAGE_S7062] = {
-    [LANGUAGE_JAPANESE] = "同じ場所、違う時間",
-    [LANGUAGE_ENGLISH] = "Same Place, New Time",
-    [LANGUAGE_CHINESE] = "相同场所、不同时间",
+    [LANGUAGE_JAPANESE] = "第424章 ""同じ場所、違う時間",
+    [LANGUAGE_ENGLISH] = "Ch.424: ""Same Place, New Time",
+    [LANGUAGE_CHINESE] = "第424章 ""相同场所、不同时间",
 },
 
 [MID_STAGE_S7063] = {
-    [LANGUAGE_JAPANESE] = "二つの神器",
-    [LANGUAGE_ENGLISH] = "Two Divine Weapons",
-    [LANGUAGE_CHINESE] = "两个神器",
+    [LANGUAGE_JAPANESE] = "第425章 ""二つの神器",
+    [LANGUAGE_ENGLISH] = "Ch.425: ""Two Divine Weapons",
+    [LANGUAGE_CHINESE] = "第425章 ""两个神器",
 },
 
 [MID_STAGE_S7064] = {
-    [LANGUAGE_JAPANESE] = "別れの時は近づいて",
-    [LANGUAGE_ENGLISH] = "Soon Parting",
-    [LANGUAGE_CHINESE] = "分离时刻将近",
+    [LANGUAGE_JAPANESE] = "第426章 ""別れの時は近づいて",
+    [LANGUAGE_ENGLISH] = "Ch.426: ""Soon Parting",
+    [LANGUAGE_CHINESE] = "第426章 ""分离时刻将近",
 },
 
 [MID_STAGE_S7065] = {
-    [LANGUAGE_JAPANESE] = "私の名は",
-    [LANGUAGE_ENGLISH] = "My Name",
-    [LANGUAGE_CHINESE] = "我的名字",
+    [LANGUAGE_JAPANESE] = "第427章 ""私の名は",
+    [LANGUAGE_ENGLISH] = "Ch.427: ""My Name",
+    [LANGUAGE_CHINESE] = "第427章 ""我的名字",
 },
 
 [MID_STAGE_S7071] = {
-    [LANGUAGE_JAPANESE] = "地の女神との再会",
-    [LANGUAGE_ENGLISH] = "Meeting Once Again",
-    [LANGUAGE_CHINESE] = "与地之女神的重逢",
+    [LANGUAGE_JAPANESE] = "第428章 ""地の女神との再会",
+    [LANGUAGE_ENGLISH] = "Ch.428: ""Meeting Once Again",
+    [LANGUAGE_CHINESE] = "第428章 ""与地之女神的重逢",
 },
 
 [MID_STAGE_S7072] = {
-    [LANGUAGE_JAPANESE] = "失われた追憶",
-    [LANGUAGE_ENGLISH] = "Memories Gone",
-    [LANGUAGE_CHINESE] = "失去的回忆",
+    [LANGUAGE_JAPANESE] = "第429章 ""失われた追憶",
+    [LANGUAGE_ENGLISH] = "Ch.429: ""Memories Gone",
+    [LANGUAGE_CHINESE] = "第429章 ""失去的回忆",
 },
 
 [MID_STAGE_S7073] = {
-    [LANGUAGE_JAPANESE] = "光の王の未来",
-    [LANGUAGE_ENGLISH] = "Future Light",
-    [LANGUAGE_CHINESE] = "光之王的未来",
+    [LANGUAGE_JAPANESE] = "第430章 ""光の王の未来",
+    [LANGUAGE_ENGLISH] = "Ch.430: ""Future Light",
+    [LANGUAGE_CHINESE] = "第430章 ""光之王的未来",
 },
 
 [MID_STAGE_S7074] = {
-    [LANGUAGE_JAPANESE] = "灰色の悪魔",
-    [LANGUAGE_ENGLISH] = "Ashen Demon",
-    [LANGUAGE_CHINESE] = "灰色恶魔",
+    [LANGUAGE_JAPANESE] = "第431章 ""灰色の悪魔",
+    [LANGUAGE_ENGLISH] = "Ch.431: ""Ashen Demon",
+    [LANGUAGE_CHINESE] = "第431章 ""灰色恶魔",
 },
 
 [MID_STAGE_S7075] = {
-    [LANGUAGE_JAPANESE] = "未来から過去、過去から未来へ",
-    [LANGUAGE_ENGLISH] = "Future's Return",
-    [LANGUAGE_CHINESE] = "从未来到过去,从过去到未来",
+    [LANGUAGE_JAPANESE] = "第432章 ""未来から過去、過去から未来へ",
+    [LANGUAGE_ENGLISH] = "Ch.432: ""Future's Return",
+    [LANGUAGE_CHINESE] = "第432章 ""从未来到过去,从过去到未来",
 },
 
 [MID_STAGE_S7081] = {
-    [LANGUAGE_JAPANESE] = "黄金の魔女の子",
-    [LANGUAGE_ENGLISH] = "Daughter of the Seer",
-    [LANGUAGE_CHINESE] = "黄金魔女之子",
+    [LANGUAGE_JAPANESE] = "第433章 ""黄金の魔女の子",
+    [LANGUAGE_ENGLISH] = "Ch.433: ""Daughter of the Seer",
+    [LANGUAGE_CHINESE] = "第433章 ""黄金魔女之子",
 },
 
 [MID_STAGE_S7082] = {
-    [LANGUAGE_JAPANESE] = "始まりも終わりもない",
-    [LANGUAGE_ENGLISH] = "No Beginning, No End",
-    [LANGUAGE_CHINESE] = "没有开始也没有结束",
+    [LANGUAGE_JAPANESE] = "第434章 ""始まりも終わりもない",
+    [LANGUAGE_ENGLISH] = "Ch.434: ""No Beginning, No End",
+    [LANGUAGE_CHINESE] = "第434章 ""没有开始也没有结束",
 },
 
 [MID_STAGE_S7083] = {
-    [LANGUAGE_JAPANESE] = "希望の光は...",
-    [LANGUAGE_ENGLISH] = "The Light of Hope",
-    [LANGUAGE_CHINESE] = "希望之光......",
+    [LANGUAGE_JAPANESE] = "第435章 ""希望の光は...",
+    [LANGUAGE_ENGLISH] = "Ch.435: ""The Light of Hope",
+    [LANGUAGE_CHINESE] = "第435章 ""希望之光......",
 },
 
 [MID_STAGE_S7084] = {
-    [LANGUAGE_JAPANESE] = "過去を追って",
-    [LANGUAGE_ENGLISH] = "Pursuit of the Past",
-    [LANGUAGE_CHINESE] = "追寻过去",
+    [LANGUAGE_JAPANESE] = "第436章 ""過去を追って",
+    [LANGUAGE_ENGLISH] = "Ch.436: ""Pursuit of the Past",
+    [LANGUAGE_CHINESE] = "第436章 ""追寻过去",
 },
 
 [MID_STAGE_S7085] = {
-    [LANGUAGE_JAPANESE] = "つながる時間",
-    [LANGUAGE_ENGLISH] = "Connection in Time",
-    [LANGUAGE_CHINESE] = "相连的时间",
+    [LANGUAGE_JAPANESE] = "第437章 ""つながる時間",
+    [LANGUAGE_ENGLISH] = "Ch.437: ""Connection in Time",
+    [LANGUAGE_CHINESE] = "第437章 ""相连的时间",
 },
 
 [MID_STAGE_S7091] = {
-    [LANGUAGE_JAPANESE] = "同じことを言った",
-    [LANGUAGE_ENGLISH] = "I Once Said the Same",
-    [LANGUAGE_CHINESE] = "说了同样的话",
+    [LANGUAGE_JAPANESE] = "第438章 ""同じことを言った",
+    [LANGUAGE_ENGLISH] = "Ch.438: ""I Once Said the Same",
+    [LANGUAGE_CHINESE] = "第438章 ""说了同样的话",
 },
 
 [MID_STAGE_S7092] = {
-    [LANGUAGE_JAPANESE] = "第一王子の矜持",
-    [LANGUAGE_ENGLISH] = "Prince's Pride",
-    [LANGUAGE_CHINESE] = "第一王子的荣耀",
+    [LANGUAGE_JAPANESE] = "第439章 ""第一王子の矜持",
+    [LANGUAGE_ENGLISH] = "Ch.439: ""Prince's Pride",
+    [LANGUAGE_CHINESE] = "第439章 ""第一王子的荣耀",
 },
 
 [MID_STAGE_S7093] = {
-    [LANGUAGE_JAPANESE] = "姉と妹",
-    [LANGUAGE_ENGLISH] = "Sisters",
-    [LANGUAGE_CHINESE] = "姊与妹",
+    [LANGUAGE_JAPANESE] = "第440章 ""姉と妹",
+    [LANGUAGE_ENGLISH] = "Ch.440: ""Sisters",
+    [LANGUAGE_CHINESE] = "第440章 ""姊与妹",
 },
 
 [MID_STAGE_S7094] = {
-    [LANGUAGE_JAPANESE] = "第二王子の悩み",
-    [LANGUAGE_ENGLISH] = "Prince's Concern",
-    [LANGUAGE_CHINESE] = "第二王子的烦恼",
+    [LANGUAGE_JAPANESE] = "第441章 ""第二王子の悩み",
+    [LANGUAGE_ENGLISH] = "Ch.441: ""Prince's Concern",
+    [LANGUAGE_CHINESE] = "第441章 ""第二王子的烦恼",
 },
 
 [MID_STAGE_S7095] = {
-    [LANGUAGE_JAPANESE] = "とぐろ巻く蛇",
-    [LANGUAGE_ENGLISH] = "Coiling of Serpents",
-    [LANGUAGE_CHINESE] = "蜷曲的蛇",
+    [LANGUAGE_JAPANESE] = "第442章 ""とぐろ巻く蛇",
+    [LANGUAGE_ENGLISH] = "Ch.442: ""Coiling of Serpents",
+    [LANGUAGE_CHINESE] = "第442章 ""蜷曲的蛇",
 },
 
 [MID_STAGE_S7101] = {
-    [LANGUAGE_JAPANESE] = "あなたにはならない",
-    [LANGUAGE_ENGLISH] = "I'll Never Be You",
-    [LANGUAGE_CHINESE] = "不会变成妳",
+    [LANGUAGE_JAPANESE] = "第443章 ""あなたにはならない",
+    [LANGUAGE_ENGLISH] = "Ch.443: ""I'll Never Be You",
+    [LANGUAGE_CHINESE] = "第443章 ""不会变成妳",
 },
 
 [MID_STAGE_S7102] = {
-    [LANGUAGE_JAPANESE] = "導かれし聖王の軍師",
-    [LANGUAGE_ENGLISH] = "Fated Tactician",
-    [LANGUAGE_CHINESE] = "受到引导的圣王的军师",
+    [LANGUAGE_JAPANESE] = "第444章 ""導かれし聖王の軍師",
+    [LANGUAGE_ENGLISH] = "Ch.444: ""Fated Tactician",
+    [LANGUAGE_CHINESE] = "第444章 ""受到引导的圣王的军师",
 },
 
 [MID_STAGE_S7103] = {
-    [LANGUAGE_JAPANESE] = "導かれし透魔の王族",
-    [LANGUAGE_ENGLISH] = "Fated Vallite Royal",
-    [LANGUAGE_CHINESE] = "受到引导的透魔王族",
+    [LANGUAGE_JAPANESE] = "第445章 ""導かれし透魔の王族",
+    [LANGUAGE_ENGLISH] = "Ch.445: ""Fated Vallite Royal",
+    [LANGUAGE_CHINESE] = "第445章 ""受到引导的透魔王族",
 },
 
 [MID_STAGE_S7104] = {
-    [LANGUAGE_JAPANESE] = "導かれし黄金の魔女",
-    [LANGUAGE_ENGLISH] = "Fated Golden Seer",
-    [LANGUAGE_CHINESE] = "受到引导的黄金魔女",
+    [LANGUAGE_JAPANESE] = "第446章 ""導かれし黄金の魔女",
+    [LANGUAGE_ENGLISH] = "Ch.446: ""Fated Golden Seer",
+    [LANGUAGE_CHINESE] = "第446章 ""受到引导的黄金魔女",
 },
 
 [MID_STAGE_S7105] = {
-    [LANGUAGE_JAPANESE] = "あなたの望みをかなえた",
-    [LANGUAGE_ENGLISH] = "Your Wish, Granted",
-    [LANGUAGE_CHINESE] = "实现了妳的愿望",
+    [LANGUAGE_JAPANESE] = "第447章 ""あなたの望みをかなえた",
+    [LANGUAGE_ENGLISH] = "Ch.447: ""Your Wish, Granted",
+    [LANGUAGE_CHINESE] = "第447章 ""实现了妳的愿望",
 },
 
 [MID_STAGE_S7111] = {
-    [LANGUAGE_JAPANESE] = "地の女神の援助",
-    [LANGUAGE_ENGLISH] = "Land God's Aid",
-    [LANGUAGE_CHINESE] = "地之女神的援助",
+    [LANGUAGE_JAPANESE] = "第448章 ""地の女神の援助",
+    [LANGUAGE_ENGLISH] = "Ch.448: ""Land God's Aid",
+    [LANGUAGE_CHINESE] = "第448章 ""地之女神的援助",
 },
 
 [MID_STAGE_S7112] = {
-    [LANGUAGE_JAPANESE] = "無邪気な盗賊",
-    [LANGUAGE_ENGLISH] = "Youthful Thief",
-    [LANGUAGE_CHINESE] = "天真无邪的盗贼",
+    [LANGUAGE_JAPANESE] = "第449章 ""無邪気な盗賊",
+    [LANGUAGE_ENGLISH] = "Ch.449: ""Youthful Thief",
+    [LANGUAGE_CHINESE] = "第449章 ""天真无邪的盗贼",
 },
 
 [MID_STAGE_S7113] = {
-    [LANGUAGE_JAPANESE] = "一と無限",
-    [LANGUAGE_ENGLISH] = "Against the Limitless",
-    [LANGUAGE_CHINESE] = "一与无限",
+    [LANGUAGE_JAPANESE] = "第450章 ""一と無限",
+    [LANGUAGE_ENGLISH] = "Ch.450: ""Against the Limitless",
+    [LANGUAGE_CHINESE] = "第450章 ""一与无限",
 },
 
 [MID_STAGE_S7114] = {
-    [LANGUAGE_JAPANESE] = "風の聖戦士",
-    [LANGUAGE_ENGLISH] = "Sage of the Wind",
-    [LANGUAGE_CHINESE] = "风之圣战士",
+    [LANGUAGE_JAPANESE] = "第451章 ""風の聖戦士",
+    [LANGUAGE_ENGLISH] = "Ch.451: ""Sage of the Wind",
+    [LANGUAGE_CHINESE] = "第451章 ""风之圣战士",
 },
 
 [MID_STAGE_S7115] = {
-    [LANGUAGE_JAPANESE] = "唯一人の「あなた」",
-    [LANGUAGE_ENGLISH] = "Only One You",
-    [LANGUAGE_CHINESE] = "唯一的「你」",
+    [LANGUAGE_JAPANESE] = "第452章 ""唯一人の「あなた」",
+    [LANGUAGE_ENGLISH] = "Ch.452: ""Only One You",
+    [LANGUAGE_CHINESE] = "第452章 ""唯一的「你」",
 },
