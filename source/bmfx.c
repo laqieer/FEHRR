@@ -17,6 +17,7 @@
 #include "bmNew.h"
 #include "item.h"
 #include "unit.h"
+#include "unitNew.h"
 #include "map.h"
 #include "mapwork.h"
 #include "mapmenu.h"
@@ -373,4 +374,35 @@ void ChapterIntro_LoopFastFadeToMapNew(struct GenericProc * proc)
 void ChapterIntro_LoopFastFadeToMapOld(struct GenericProc * proc)
 {
     ChapterIntro_LoopFastFadeToMapNew(proc);
+}
+
+void GetPlayerInitialCursorPositionNew(int * x_out, int * y_out)
+{
+    struct Unit * unit;
+
+    if (gPlaySt.turn == 1)
+    {
+        unit = GetUnitToSelectAuto();
+
+        gPlaySt.x_cursor = unit->x;
+        gPlaySt.y_cursor = unit->y;
+    }
+
+    if (!gPlaySt.config_no_auto_cursor)
+    {
+        unit = GetUnitToSelectAuto();
+
+        *x_out = unit->x;
+        *y_out = unit->y;
+    }
+    else
+    {
+        *x_out = gPlaySt.x_cursor;
+        *y_out = gPlaySt.y_cursor;
+    }
+}
+
+void GetPlayerInitialCursorPositionOld(int * x_out, int * y_out)
+{
+    GetPlayerInitialCursorPositionNew(x_out, y_out);
 }

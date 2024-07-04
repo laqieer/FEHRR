@@ -9,6 +9,7 @@
 #include "msg.h"
 #include "util.h"
 #include "unit.h"
+#include "unitNew.h"
 #include "map.h"
 #include "bmfx.h"
 #include "playerphase.h"
@@ -63,4 +64,22 @@ void PrepPhase_InitNew(struct GenericProc * proc)
 void PrepPhase_InitOld(struct GenericProc * proc)
 {
     PrepPhase_InitNew(proc);
+}
+
+void PrepPhase_WatchRoyNew(struct GenericProc * proc)
+{
+    // struct Unit * roy = GetUnitByPid(PID_ROY);
+
+    // SetMapCursorPosition(roy->x, roy->y);
+
+    struct Unit * unit = GetUnitToSelectAuto();
+    SetMapCursorPosition(unit->x, unit->y);
+
+    gBmSt.camera.x = GetCameraCenteredX(gBmSt.cursor.x*16);
+    gBmSt.camera.y = GetCameraCenteredY(gBmSt.cursor.y*16);
+}
+
+void PrepPhase_WatchRoyOld(struct GenericProc * proc)
+{
+    PrepPhase_WatchRoyNew(proc);
 }

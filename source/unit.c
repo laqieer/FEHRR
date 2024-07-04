@@ -13,9 +13,11 @@
 #include "action.h"
 #include "ai_utility.h"
 #include "save_stats.h"
+#include "event.h"
 
 #include "constants/terrains.h"
 #include "constants/iids.h"
+#include "constants/pids.h"
 #include "constants/unitsprites.h"
 #include "constants/icons.h"
 #include "constants/faces.h"
@@ -127,4 +129,14 @@ void UnitAutolevelNew(struct Unit * unit)
 void UnitAutolevelOld(struct Unit * unit)
 {
     UnitAutolevelNew(unit);
+}
+
+struct Unit * GetUnitToSelectAuto()
+{
+    struct Unit * unit = GetUnitByPid(PID_ROY);
+
+    if (unit && unit->pinfo && !(unit->flags & UNIT_FLAG_UNAVAILABLE))
+        return unit;
+
+    return GetUnit(GetNextAvailableBlueUnitId(0));
 }
