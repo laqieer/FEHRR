@@ -6,6 +6,7 @@
                 "C:\\devkitPro\\devkitARM\\lib\\gcc\\arm-none-eabi\\**",
                 "C:\\devkitPro\\libgba\\include",
                 "${workspaceFolder}\\include",
+                "${workspaceFolder}\\include\\decomp",
                 "${workspaceFolder}\\include\\decomp\\include",
                 "${workspaceFolder}\\build"
             ],
@@ -21,6 +22,7 @@
                 "${DEVKITARM}/lib/gcc/arm-none-eabi/**",
                 "${DEVKITPRO}/libgba/include",
                 "${workspaceFolder}/include",
+                "${workspaceFolder}/include/decomp",
                 "${workspaceFolder}/include/decomp/include",
                 "${workspaceFolder}/build"
             ],
