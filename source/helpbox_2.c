@@ -18,6 +18,7 @@
 #include "chapterNew.h"
 #include "textNew.h"
 #include "msgNew.h"
+#include "faceNew.h"
 
 #include "hardware.h"
 #include "armfunc.h"
@@ -794,3 +795,12 @@ void func_fe6_08071514Old(void)
 {
     func_fe6_08071514New();
 }
+
+void ClearNewFaceAndLockGameWhenOpenHelpBox2()
+{
+    ClearNewFace();
+    LockGame();
+}
+
+// Tutorial help box
+const struct ProcScr ProcScr_ClearNewFaceAndLockGameWhenOpenHelpBox2 = PROC_CALL(ClearNewFaceAndLockGameWhenOpenHelpBox2);

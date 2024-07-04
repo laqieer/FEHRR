@@ -18,3 +18,5 @@
 .rodata.gUnk_08677FF8New : {*(.rodata.gUnk_08677FF8New)}
 . = func_fe6_08071514 - 1;
 .text.func_fe6_08071514Old : {*(.text.func_fe6_08071514Old)}
+. = gUnk_08678080;
+.rodata.ProcScr_ClearNewFaceAndLockGameWhenOpenHelpBox2 : {*(.rodata.ProcScr_ClearNewFaceAndLockGameWhenOpenHelpBox2)}
