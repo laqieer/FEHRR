@@ -599,7 +599,7 @@ struct ChapterInfoNew const newChapters[] = {
             file.write('        .has_prep = %s,\n' % ('TRUE' if map_configs[map_id]['player_count'] >= 4 else 'FALSE'))
             file.write('        .initial_x = %d,\n' % map_configs[map_id]['player_pos'][0]['x'])
             file.write('        .initial_y = %d,\n'% map_configs[map_id]['player_pos'][0]['y'])
-            file.write('        .weather = WEATHER_%s,\n' % ('FLAMES' if get_battle_terrain(map_id) == BattleTerrain.LAVA_CAVE else 'NONE'))
+            # file.write('        .weather = WEATHER_%s,\n' % ('FLAMES' if get_battle_terrain(map_id) == BattleTerrain.LAVA_CAVE else 'NONE'))
             file.write('        .banim_terrain_id = BANIM_TERRAIN_%s,\n' % get_battle_terrain(map_id).name)
             file.write('        .hard_bonus_levels = HARD_MODE_BONUS_LEVELS_DEFAULT,\n')
             file.write('        .class_roll_set = 6,\n')
