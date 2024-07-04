@@ -1,5 +1,3 @@
-. = InitTalk - 1;
-.text.InitTalkOld : {*(.text.InitTalkOld)}
 . = StartTalkOpen - 1;
 .text.StartTalkOpenOld : {*(.text.StartTalkOpenOld)}
 . = TalkInterpret - 1;

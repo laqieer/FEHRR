@@ -94,3 +94,14 @@ const char * GetMsgKey(int id)
 {
     return id > TEXT_ID_TEST ? text_keys[id - TEXT_ID_TEST] : "";
 }
+
+int GetMsgLines(int id)
+{
+    if (id == TEXT_ID_TEST)
+        return 1;
+
+    if (id > TEXT_ID_TEST)
+        return 3;
+
+    return 2;
+}

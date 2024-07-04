@@ -155,49 +155,6 @@ extern struct ProcScr const ProcScr_TalkPutSpriteText[];
 
 extern struct ProcScr const ProcScr_TalkDebug[];
 
-int GetTalkTextLines(int text_id)
-{
-    if (text_id == TEXT_ID_TEST)
-        return 1;
-
-    if (text_id > TEXT_ID_TEST)
-        return 3;
-
-    return 2;
-}
-
-void InitTalkNew(int chr, int lines, i8 unpack_bubble)
-{
-    int i;
-
-    lines = GetTalkTextLines(sActiveMsg);
-
-    InitTextFont(&sTalkFont, (u8 *) VRAM + GetBgChrOffset(0) + ((chr & 0x3FF) << 5), chr, BGPAL_TALK);
-    SetInitTalkTextFont();
-
-    sTalkSt->lines = lines;
-
-    for (i = 0; i < lines; ++i)
-    {
-        InitText(sTalkText + i, 30);
-        Text_SetColor(sTalkText + i, TEXT_COLOR_0456);
-    }
-
-    if (unpack_bubble)
-    {
-        Decompress(Img_TalkBubble, (u8 *) VRAM + GetBgChrOffset(1) + 0x200);
-        ApplyPalette(Pal_TalkBubble, BGPAL_TALK_BUBBLE);
-    }
-
-    for (i = 0; i < TALK_FACE_COUNT; ++i)
-        sTalkSt->faces[i] = NULL;
-}
-
-void InitTalkOld(int chr, int lines, i8 unpack_bubble)
-{
-    InitTalkNew(chr, lines, unpack_bubble);
-}
-
 void StartTalkOpenNew(int talk_face, ProcPtr parent)
 {
     struct GenericProc * proc = SpawnProcLocking(ProcScr_TalkOpen, parent);
@@ -735,7 +692,7 @@ void TalkDebug_OnIdleNew(struct GenericProc * proc)
 
         proc->x = msg;
 
-        InitTalk(0x80, 2, TRUE);
+        InitTalk(0x80, GetMsgLines(msg), TRUE);
         StartTalkMsg(1, 1, proc->x);
 
         SetTalkFlag(TALK_FLAG_INSTANTSHIFT);

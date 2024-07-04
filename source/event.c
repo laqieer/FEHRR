@@ -246,6 +246,7 @@ int EvtCmd_WmRemoveMapText(struct EventProc * proc);
 int EvtCmd_End(struct EventProc * proc);
 int EvtCmd_Kill(struct EventProc * proc);
 
+void EventTalkWait(struct EventProc * proc);
 void MoveUnitFromInfo(struct UnitInfo const * info, struct Unit * unit, ProcPtr parent);
 
 extern int sUnk_085C3FD8;
@@ -501,4 +502,52 @@ int EvtCmd_SetMapNew(struct EventProc * proc)
 int EvtCmd_SetMapOld(struct EventProc * proc)
 {
     return EvtCmd_SetMapNew(proc);
+}
+
+int EvtCmd_TalkNew(struct EventProc * proc)
+{
+    // script[0]: msgid
+
+    proc->flags &= ~EVENT_FLAG_TEXTSKIPPED;
+
+    if (proc->flags & EVENT_FLAG_SKIPPED)
+        return EVENT_CMDRET_CONTINUE;
+
+    int msg = proc->script[0];
+    InitTalk(0x80, GetMsgLines(msg), TRUE);
+    StartTalkMsg(1, 1, msg);
+
+    if (proc->flags & EVENT_FLAG_DISABLETEXTSKIP)
+        SetTalkFlag(TALK_FLAG_NOSKIP);
+
+    proc->on_idle = EventTalkWait;
+
+    return EVENT_CMDRET_YIELD;
+}
+
+int EvtCmd_TalkOld(struct EventProc * proc)
+{
+    return EvtCmd_TalkNew(proc);
+}
+
+int EvtCmd_TalkAutoNew(struct EventProc * proc)
+{
+    if (proc->flags & EVENT_FLAG_SKIPPED)
+        return EVENT_CMDRET_YIELD;
+
+    int msg = proc->msg_param;
+    InitTalk(0x80, GetMsgLines(msg), TRUE);
+    StartTalkMsg(1, 1, msg);
+
+    if (proc->flags & EVENT_FLAG_DISABLETEXTSKIP)
+        SetTalkFlag(TALK_FLAG_NOSKIP);
+
+    proc->on_idle = EventTalkWait;
+
+    return EVENT_CMDRET_YIELD;
+}
+
+int EvtCmd_TalkAutoOld(struct EventProc * proc)
+{
+    return EvtCmd_TalkAutoNew(proc);
 }
