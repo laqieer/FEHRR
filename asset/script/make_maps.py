@@ -542,6 +542,7 @@ def make_chapters():
 #include "bm.h"
 #include "chapterinfo.h"
 #include "chapterNew.h"
+#include "constants/faces.h"
 #include "constants/chapters.h"
 #include "debugchapter.h"
 #include "chapters.h"
@@ -575,7 +576,11 @@ struct ChapterInfoNew const newChapters[] = {
         .debug_name = "S0000",
         .asset_img_b = 2,
         .asset_img_anims = 6,
+        .hard_bonus_levels = HARD_MODE_BONUS_LEVELS_DEFAULT,
         .msg_goal = CHAPTER_GOAL_MSG_ID_S0000,
+        .msg_blue_army = MSG_ID_BLUE_ARMY,
+        .msg_red_army = MSG_ID_RED_ARMY,
+        .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = DEBUG_CHAPTER_TITLE_MSG_ID,
         .initial_x = 3,
         .initial_y = 14,
@@ -609,6 +614,7 @@ struct ChapterInfoNew const newChapters[] = {
             file.write('        .msg_goal = CHAPTER_GOAL_MSG_ID_%s,\n' % map_id)
             file.write('        .msg_blue_army = MSG_ID_BLUE_ARMY,\n')
             file.write('        .msg_red_army = MSG_ID_RED_ARMY,\n')
+            file.write('        .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,\n')
             file.write('        .msg_title = MID_STAGE_%s,\n' % map_id)
             file.write('        .victory_bgm_enemy_threshold = %d,\n' % (1 if map_configs[map_id]['unit_count'] > 1 else 0))
             if len(map_configs[map_id]['field']['changes']) > 0:
