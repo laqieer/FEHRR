@@ -249,7 +249,7 @@ void func_fe6_0807A67CNew(struct PrepMenuProc * proc)
 
         SetBgChrOffset(2, 0x8000);
         SetBgOffset(2, 0, 0);
-        TmFill(GetBgTilemap(2), TILE_CHR_SAFE(BGCHR_PREPMENU_700 + 0xC0) + TILE_PAL_SAFE(BGPAL_PREPMENU_E));
+        TmFill(GetBgTilemap(2), TILE_CHR_SAFE(BGCHR_PREPMENU_700  - 65) + TILE_PAL_SAFE(BGPAL_PREPMENU_E));
 
         for (i = 0; i < 12; i++)
         {
