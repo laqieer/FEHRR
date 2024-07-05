@@ -1,6 +1,38 @@
 {
     "configurations": [
         {
+            "name": "Linux",
+            "includePath": [
+                "${DEVKITARM}/lib/gcc/arm-none-eabi/**",
+                "${DEVKITPRO}/libgba/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/decomp",
+                "${workspaceFolder}/include/decomp/include",
+                "${workspaceFolder}/build"
+            ],
+            "defines": [],
+            "compilerPath": "${DEVKITARM}/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-arm"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${DEVKITARM}/lib/gcc/arm-none-eabi/**",
+                "${DEVKITPRO}/libgba/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/decomp",
+                "${workspaceFolder}/include/decomp/include",
+                "${workspaceFolder}/build"
+            ],
+            "defines": [],
+            "compilerPath": "${DEVKITARM}/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-arm"
+        },
+        {
             "name": "Win32",
             "includePath": [
                 "C:\\devkitPro\\devkitARM\\lib\\gcc\\arm-none-eabi\\**",
@@ -12,22 +44,6 @@
             ],
             "defines": [],
             "compilerPath": "C:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-gcc.exe",
-            "cStandard": "gnu23",
-            "cppStandard": "gnu++23",
-            "intelliSenseMode": "linux-gcc-arm"
-        },
-        {
-            "name": "All",
-            "includePath": [
-                "${DEVKITARM}/lib/gcc/arm-none-eabi/**",
-                "${DEVKITPRO}/libgba/include",
-                "${workspaceFolder}/include",
-                "${workspaceFolder}/include/decomp",
-                "${workspaceFolder}/include/decomp/include",
-                "${workspaceFolder}/build"
-            ],
-            "defines": [],
-            "compilerPath": "${DEVKITARM}/bin/arm-none-eabi-gcc",
             "cStandard": "gnu23",
             "cppStandard": "gnu++23",
             "intelliSenseMode": "linux-gcc-arm"
