@@ -207,7 +207,7 @@ void func_fe6_0807A84CNew(struct PrepMenuProc * proc)
     else
     {
         proc->unk_2C = 0;
-        StartBgm(SONG_22, NULL);
+        StartBgm(SONG_22, &gMusicPlayer_030064B0);
     }
 
     proc->unk_38 = 0;

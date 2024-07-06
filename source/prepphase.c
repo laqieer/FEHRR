@@ -83,3 +83,23 @@ void PrepPhase_WatchRoyOld(struct GenericProc * proc)
 {
     PrepPhase_WatchRoyNew(proc);
 }
+
+void PrepPhase_RightInitCameraNew(struct GenericProc * proc)
+{
+    StartBgm(SONG_22, &gMusicPlayer_030064B0);
+
+    proc->unk4A = FALSE;
+
+    proc->x = 0;
+    proc->y = 0;
+
+    proc->unk34 = 2;
+    proc->unk38 = 0;
+
+    proc->unk4C = (gMapSize.x*16 - DISPLAY_WIDTH)/2;
+}
+
+void PrepPhase_RightInitCameraOld(struct GenericProc * proc)
+{
+    PrepPhase_RightInitCameraNew(proc);
+}
