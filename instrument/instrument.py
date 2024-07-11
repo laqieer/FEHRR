@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 
 import struct
-import warnings
-
 from enum import Enum
-class ToneDataType(Enum):
+
+class ToneDataKind(Enum):
     SND = 0
-    SQR = 1
-    RHY = 128
+    PSG_SQR1 = 1
+    PSG_SQR2 = 2
+    PSG_PROG_WAV = 3
+    PSG_NOISE = 4
+    FIX = 8
+    SPL = 0x40
+    RHY = 0x80
+
+class ToneDataKey(Enum):
+    CnM2 = 0
+    Cn3 = 60
 
 INSTRUMENT_NUM = 128
-
-TONEDATA_KEY_Cn3 = 60
 
 def read_instrument_information(file_path):
     comments = ["blank"] * INSTRUMENT_NUM
@@ -52,59 +58,62 @@ class ToneData:
 
 def read_tone_data(file_path):
     instruments = []
+    voicegroups = []
     with open(file_path, 'rb') as f:
         for _ in range(INSTRUMENT_NUM):
             data = f.read(12)
             kind, key, length, pan_sweep, wav, attack, decay, sustain, release = struct.unpack('<BBBBIBBBB', data)
+            kind = ToneDataKind(kind)
+            if kind == ToneDataKind.RHY and wav not in voicegroups:
+                voicegroups.append(wav)
+            key = ToneDataKey(key)
             instruments.append(ToneData(kind, key, length, pan_sweep, wav, attack, decay, sustain, release))
-    return instruments
+    return instruments, voicegroups
 
-def make_C_source_file(instruments, comments, file_path):
+def make_C_source_file(instruments, voicegroups, comments, file_path):
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write("#include \"m4a.h\"\n")
         f.write("#include \"m4aNew.h\"\n\n")
-        voicegroup = 1
         for i, instrument in enumerate(instruments):
-            if instrument.kind == ToneDataType.SND.value:
+            if instrument.kind == ToneDataKind.SND:
                 f.write(f"extern const struct WaveData Voice{i:03d};\n")
-            elif instrument.kind == ToneDataType.RHY.value:
-                f.write(f"extern const struct ToneData VoiceGroup{voicegroup:03d}[];\n")
-                voicegroup += 1
+            elif instrument.kind == ToneDataKind.RHY:
+                f.write(f"extern const struct ToneData VoiceGroup{1 + voicegroups.index(instrument.wav):03d}[];\n")
 
+        f.write("\n// FE6 native instrument map")
         f.write("\nconst struct ToneData voicegroup000[] = {\n")
-        voicegroup = 1
         for i, instrument in enumerate(instruments):
-            f.write(f"    [{i}] = ")
-            if instrument.kind == ToneDataType.SND.value:
-                assert instrument.key == TONEDATA_KEY_Cn3
-                f.write(f"TONEDATA_DIRECT_SOUND(&Voice{i:03d}, {instrument.attack}, {instrument.decay}, {instrument.sustain}, {instrument.release})")
-            elif instrument.kind == ToneDataType.SQR.value:
-                assert instrument.key == TONEDATA_KEY_Cn3
-                f.write(f"TONEDATA_SQUARE({instrument.wav}, {instrument.attack}, {instrument.decay}, {instrument.sustain}, {instrument.release})")
-            elif instrument.kind == ToneDataType.RHY.value:
-                f.write(f"TONEDATA_KEYSPLIT_ALL(VoiceGroup{voicegroup:03d}, {'TONEDATA_KEY_Cn3' if instrument.key == TONEDATA_KEY_Cn3 else instrument.key})")
-                voicegroup += 1
-            else:
-                warnings.warn(f"unsupported instrument kind: 0x{instrument.kind:x}, instrument {i}: {comments[i]}")
-                f.write(f"{{{instrument.kind}, {instrument.key}, {instrument.length}, {instrument.pan_sweep}, (struct WaveData *)0x{instrument.wav:X}, {instrument.attack}, {instrument.decay}, {instrument.sustain}, {instrument.release}}},")
-            f.write(f" // {comments[i]}\n")
+            f.write(f"    [{i}] = {{ // {comments[i]}\n")
+            f.write(f"        .kind = TONEDATA_KIND_{instrument.kind.name},\n")
+            f.write(f"        .key = TONEDATA_KEY_{instrument.key.name},\n")
+            f.write(f"        .length = {instrument.length},\n")
+            f.write(f"        .pan_sweep = {instrument.pan_sweep},\n")
+            wav = f"0x{instrument.wav:X}"
+            if instrument.kind == ToneDataKind.SND:
+                wav = f"&Voice{i:03d}"
+            elif instrument.kind == ToneDataKind.RHY:
+                wav = f"VoiceGroup{1 + voicegroups.index(instrument.wav):03d}"
+            f.write(f"        .wav = (struct WaveData *){wav},\n")
+            f.write(f"        .attack = {instrument.attack},\n")
+            f.write(f"        .decay = {instrument.decay},\n")
+            f.write(f"        .sustain = {instrument.sustain},\n")
+            f.write(f"        .release = {instrument.release},\n")
+            f.write("    },\n")
         f.write("};\n")
 
-def make_linker_script(instruments, file_path):
+def make_linker_script(instruments, voicegroups, file_path):
     with open(file_path, 'w', encoding='utf-8') as f:
-        voicegroup = 1
         for i, instrument in enumerate(instruments):
-            if instrument.kind == ToneDataType.SND.value:
+            if instrument.kind == ToneDataKind.SND:
                 f.write(f"Voice{i:03d} = 0x{instrument.wav:X};\n")
-            elif instrument.kind == ToneDataType.RHY.value:
-                f.write(f"VoiceGroup{voicegroup:03d} = 0x{instrument.wav:X};\n")
-                voicegroup += 1
+        for i, voicegroup in enumerate(voicegroups):
+            f.write(f"VoiceGroup{1 + i:03d} = 0x{voicegroup:X};\n")
 
 def main():
-    instruments = read_tone_data("instrument/FE6 native instrument map/FE6 native instrument map.bin")
+    instruments, voicegroups = read_tone_data("instrument/FE6 native instrument map/FE6 native instrument map.bin")
     comments = read_instrument_information("instrument/FE6 native instrument map/FE6 native instrument information.txt")
-    make_C_source_file(instruments, comments, "source/instruments.c")
-    make_linker_script(instruments, "ldscript/instruments.lds")
+    make_C_source_file(instruments, voicegroups, comments, "source/instruments.c")
+    make_linker_script(instruments, voicegroups, "ldscript/instruments.lds")
 
 if __name__ == "__main__":
     main()

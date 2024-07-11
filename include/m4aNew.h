@@ -2,8 +2,14 @@
 
 enum
 {
-    TONEDATA_TYPE_SND = 0,
-    TONEDATA_TYPE_SQR = 1,
+    TONEDATA_KIND_SND = 0, // Sample (GBA Direct Sound channel)
+    TONEDATA_KIND_PSG_SQR1 = 1, // PSG Square 1 (Game Boy channel 1)
+    TONEDATA_KIND_PSG_SQR2 = 2, // PSG Square 2 (Game Boy channel 2)
+    TONEDATA_KIND_PSG_PROG_WAV = 3, // PSG Programmable Waveform (Game Boy channel 3)
+    TONEDATA_KIND_PSG_NOISE = 4, // PSG Noise (Game Boy channel 4)
+    TONEDATA_KIND_FIX = 8, // Sample (GBA Direct Sound channel) that is never resampled (always playing at the engine's rate)
+    TONEDATA_KIND_SPL = 0x40, // Key split instrument  : Points to different sub-instruments depending on MIDI key
+    TONEDATA_KIND_RHY = 0x80, // Every Key split instrument / percussion : Each MIDI key points to its own sub-instrument
 };
 
 enum {
@@ -136,7 +142,3 @@ enum {
 	TONEDATA_KEY_Fs8,
 	TONEDATA_KEY_Gn8,
 };
-
-#define TONEDATA_DIRECT_SOUND(sample, attack, decay, sustain, release) {TONEDATA_TYPE_SND, TONEDATA_KEY_Cn3, 0, 0, (struct WaveData *)sample, attack, decay, sustain, release},
-#define TONEDATA_SQUARE(duty_cycle, attack, decay, sustain, release) {TONEDATA_TYPE_SQR, TONEDATA_KEY_Cn3, 0, 0, (struct WaveData *)duty_cycle, attack, decay, sustain, release},
-#define TONEDATA_KEYSPLIT_ALL(voicegroup, key) {TONEDATA_TYPE_RHY, key, 0, 0, (struct WaveData *)voicegroup, 0, 0, 0, 0},
