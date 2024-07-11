@@ -85,19 +85,21 @@ def make_C_source_file(instruments, voicegroups, comments, file_path):
         for i, instrument in enumerate(instruments):
             f.write(f"    [{i}] = {{ // {comments[i]}\n")
             f.write(f"        .kind = TONEDATA_KIND_{instrument.kind.name},\n")
-            f.write(f"        .key = TONEDATA_KEY_{instrument.key.name},\n")
-            f.write(f"        .length = {instrument.length},\n")
-            f.write(f"        .pan_sweep = {instrument.pan_sweep},\n")
+            if instrument.kind not in (ToneDataKind.SPL, ToneDataKind.RHY):
+                f.write(f"        .key = TONEDATA_KEY_{instrument.key.name},\n")
+                f.write(f"        .length = {instrument.length},\n")
+                f.write(f"        .pan_sweep = {instrument.pan_sweep},\n")
             wav = f"0x{instrument.wav:X}"
             if instrument.kind == ToneDataKind.SND:
                 wav = f"&Voice{i:03d}"
             elif instrument.kind == ToneDataKind.RHY:
                 wav = f"VoiceGroup{1 + voicegroups.index(instrument.wav):03d}"
             f.write(f"        .wav = (struct WaveData *){wav},\n")
-            f.write(f"        .attack = {instrument.attack},\n")
-            f.write(f"        .decay = {instrument.decay},\n")
-            f.write(f"        .sustain = {instrument.sustain},\n")
-            f.write(f"        .release = {instrument.release},\n")
+            if instrument.kind != ToneDataKind.RHY:
+                f.write(f"        .attack = {instrument.attack},\n")
+                f.write(f"        .decay = {instrument.decay},\n")
+                f.write(f"        .sustain = {instrument.sustain},\n")
+                f.write(f"        .release = {instrument.release},\n")
             f.write("    },\n")
         f.write("};\n")
 
