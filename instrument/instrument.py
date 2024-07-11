@@ -56,6 +56,17 @@ class ToneData:
         self.sustain = sustain
         self.release = release
 
+    def isUnused(self):
+        return self.kind == ToneDataKind.PSG_SQR1 and \
+            self.key == ToneDataKey.Cn3 and \
+                self.length == 0 and \
+                    self.pan_sweep == 0 and \
+                        self.wav == 2 and \
+                            self.attack == 0 and \
+                                self.decay == 0 and \
+                                    self.sustain == 15 and \
+                                        self.release == 0
+
 def read_tone_data(file_path):
     instruments = []
     voicegroups = []
@@ -83,6 +94,9 @@ def make_C_source_file(instruments, voicegroups, comments, file_path):
         f.write("\n// FE6 native instrument map")
         f.write("\nconst struct ToneData voicegroup000[] = {\n")
         for i, instrument in enumerate(instruments):
+            if instrument.isUnused():
+                f.write(f"    [{i}] = UNUSED_INSTRUMENT, // {comments[i]}\n")
+                continue
             f.write(f"    [{i}] = {{ // {comments[i]}\n")
             f.write(f"        .kind = TONEDATA_KIND_{instrument.kind.name},\n")
             if instrument.kind not in (ToneDataKind.SPL, ToneDataKind.RHY):

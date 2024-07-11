@@ -142,3 +142,15 @@ enum {
 	TONEDATA_KEY_Fs8,
 	TONEDATA_KEY_Gn8,
 };
+
+#define UNUSED_INSTRUMENT { \
+        .kind = TONEDATA_KIND_PSG_SQR1, \
+        .key = TONEDATA_KEY_Cn3, \
+        .length = 0, \
+        .pan_sweep = 0, \
+        .wav = (struct WaveData *)2, \
+        .attack = 0, \
+        .decay = 0, \
+        .sustain = 15, \
+        .release = 0, \
+    }
