@@ -1,0 +1,221 @@
+FE6 native instrument information
+
+·"№" refers to instrument number; "#" refers to song number.
+·Samples with brackets =same as that № sample.
+·For example, №0 acoustic grand saying [1] means it uses the same sample as №1 bright acoustic.
+
+·When using the soundfont in your midi editing app, I suggest using instrument №125 (helicopter) for the drums.
+
+·Keep in mind that any slots that are shown not to have samples here (for example, №23 harmonica)
+are set by default as "square wave 1", meaning it will play bleepbloop noises if you use it. Be
+especially vigilant with drums; FE6's native drum palette is rather limited and actually erroneously
+includes some samples from other instruments. I do not recommend using hardware square waves
+as instruments because the GBAFE engine can only play one of these at the same time, and
+they are usually already used for menu sounds (for example, the "boopboop" that plays when you
+move the cursor on the map).
+
+0x0381254 location of voicegroup for song #1 (the main FE theme). This is a safe place to slap
+down the native instrument map if you don't want to put it in your usual free space.
+
+Instrument information:
+
+[1] —— 0 acoustic grand (no sustain)
+0x03F2E9C — 1 bright acoustic
+0x043860C — 2 electric grand
+[5] —— 3 honky-tonk (faster decay than №5)
+0x03FE644 — 4 elec piano 1
+0x0436AF8 — 5 elec piano 2; sounds like square wave
+0x03FF4D8 — 6 harpsichord
+[6] —— 7 clavichord (faster decay/release but louder attack/sustain than №6; better for low or staccato notes)
+0x03E7EFC — 8 celesta (no sustain)
+0x03FD8D8 — 9 glockenspiel (Idunn theme background)
+0x03FBF34 — 10 music box (Idunn theme)
+[8] —— 11 celesta w/ sustain
+[14] —— 12 tubular bells w/ faster decay/release
+0x03A149C — 13 xylophone (also works for agogo)
+0x03E96F4 — 14 tubular bells
+[9] —— 15 dulcimer
+[18] —— 16 drawbar organ (rock organ but w/ lower attack)
+0x03BE054 — 17 percussive organ
+0x03A29D0 — 18 rock organ (comparable to perc organ at lower pitches)
+0x03B8384 — 19 church organ
+[68] —— 20 reed organ (oboe with lower atk)
+0x04344E8 — 21 accordion
+[21] —— 22 tango accord (higher atk/dec)
+
+[46] —— 24 acoustic guitar (nylon) (orch strings w/ lower decay)
+[33] —— 25 acoustic guitar (steel) (bass w/ decay)
+
+[4] —— 27 electric guitar (clean) (elec piano w/ faster decay more more sus)
+0x03AABDC — 28 elec guitar muted (chord)
+0x03D4764 — 29 over guitar
+0x03B525C — 30 distort guitar; also works for heavy/fat synthbrass
+
+0x03A7CE4 — 33 elec bass finger (the main bass of the game; a bit more impactful than you'd expect)
+[33] —— 34 elec bass pick (№33 plus fast decay to make it sound pick-y)
+
+0x03A4028 — 36 slap bass 1
+
+[51] —— 40 violin (synthstrings1 with fast decay)
+[48] —— 41 viola (strings1 with fast decay)
+
+0x03A9750 — 44 tremolo strings (actual strings; not a harp); can be used as pizzicato
+[44] —— 45 pizzicato strings (no sustain)
+0x03CFD14 — 46 orch strings (harp) (also works for acoustic guitar (nylon)?)
+0x03BFA6C — 47 timpani
+0x039A844 — 48 strings1
+0x03D6830 — 49 strings2; good for high strings
+0x03D23C8 — 50 synthstrings1; high/light, but more synthy than №49
+0x03EE500 — 51 synthstrings2; fifths?; sounds kind of like synthstrings and synthbrass at the same time
+0x03DAF94 — 52 choir aah
+0x03ADB08 — 53 voice ooh (also synth voice or pad?)
+[53] —— 54 synth voice (slower atk/rel)
+0x03C4594 — 55 orch hit
+0x039CE98 — 56 trumpet (№1 in #2)
+0x03A5518 — 57 trombone or tuba; "arng" sound at higher pitches
+0x03B9D60 — 58 low brass
+0x0455098 — 59 high brass; sounds like FE8's trumpet; used in level-up jingle
+0x039EFFC — 60 French horn
+0x03B0630 — 61 brass section (bad loop, so best for short notes); kinda synthy
+0x03B35A8 — 62 synthbrass1
+[51] —— 63 synthbrass2 (less atk)
+0x03D9274 — 64 high brass; used in song #18; kinda echoey?
+0x03C6978 — 65 "swoo" brass; light; sounds almost like strings at high pitches
+0x0453730 — 66 alternate brass section; sounds more like a real brass section
+
+0x03B2218 — 68 oboe
+0x03C9280 — 69 high brass; background of FoW player phase theme; unsure sound; used in Shadow of Triumph
+0x03CAEFC — 70 bassoon (cross btwn French horn and woodwind?)
+0x03EC748 — 71 clarinet
+0x0401B5C — 72 high oboe or clarinet
+0x039F824 — 73 flute
+
+[73] —— 79 ocarina
+[5] —— 80 lead (square)
+
+[62] —— 87 lead (bass plus lead)
+
+[53] —— 89 pad warm
+[62] —— 90 pad polysynth
+0x04CA510 — 91 pad choir
+0x0462F0C — 92 pad bowed (sounds kinda sci-fi/abstract)
+
+[52] —— 94 pad halo
+
+0x03E1A88 — 98 light strings with crystalline, glassy sounds playing in the bg; used in healing themes
+
+[52] —— 100 fx brightness
+
+0x03CCC0C — 103 some kind of fx; cool robotic sound used as pizzicato in "Frontier"
+0x03AB6C0 — 104 sitar
+
+[13] —— 113 agogo
+
+0x0404390 — 116 melodic bass drum
+0x0432AC4 — 117 melodic tom
+
+0x04B2FC0 — 121 brigand scream ;)
+0x04C443C — 122 rumbling sound (use as accenting sfx)
+
+0x0393650 — 124 drumkit1 (drum part)
+0x048D294 — 125 drumkit2 (drum part)
+0x04460EC — 126 applause
+0x03931AC — 127 drumkit2 (drum part) (identical to 125 for compatibility purposes; use one or the other)
+
+№124 drumkit1 information:
+
+0x0428A00 — 0 ride cymbal
+
+0x040E398 — 3 tambourine
+
+0x0414310 — 9 high bongo
+0x0414BA4 — 10 low bongo
+0x0415868 — 11 mute high conga
+0x0415DAC — 12 open high conga
+0x0416320 — 13 low conga
+
+0x041B0D0 — 14 bass drum (same as 36)
+0x042AC64 — 16 a tight, tinny snare; could use as electric snare
+
+0x042C2BC — 29 ride bell or triangle?
+
+0x042D2D0 — 31 ride bell (same as 37)
+
+0x0424BEC — 35 crash cymbal; kinda splashy
+0x041B0D0 — 36 bass drum; sounds like a true bass drum
+0x042D2D0 — 37 ride bell (yes, FE6 has an actual ride bell)
+0x042F5BC — 38 a shorter, more electric/synthy-sounding bass drum
+— *to save yourself headaches, I recommend you put this bass drum
+— somewhere else and put 127's acoustic snare in the above slot.
+
+0x041C894 — 39 hand clap
+— NOTE: there is no electric snare; add an electric snare
+— by editing the voice table yourself or just use acoustic snares.
+
+0x04300A0 — 41 low floor tom
+0x041E4E0 — 42 closed highhat
+
+0x0431654 — 45 low tom
+0x041FF28 — 46 open highhat; sounds like a bright ride cymbal
+
+0x0432AC4 — 48 high mid tom
+0x0424BEC — 49 crash cymbal
+
+0x03E7EFC — 59 an electric piano sample? seems to be the end of the drums in the drum part
+
+0x039A844 — 98 strings1 sample
+0x03D6830 — 99 strings2 sample
+0x03D23C8 — 100 synthstrings sample
+
+№125/127 drumkit2 information:
+
+0x03EC748 — 35 a clarinet sample??
+0x0404390 — 36 bass drum; sounds like a low timpani
+0x0405BE4 — 37 side kick
+0x0405ED8 — 38 acou snare
+0x0406B58 — 39 drumroll (like a marching band's snare drum)
+
+0x0409304 — 41 bass drum plus timpani
+
+0x03BFA6C — 43 bass drum plus timpani (higher than 41)
+
+0x040E398 — 54 tambourine
+
+0x040EC4C — 57 crash cymbal
+0x0412D58 — 58 vibrastrap
+
+0x0414310 — 60 high bongo
+0x0414BA4 — 61 low bongo
+0x0415868 — 62 mute high conga
+0x0415DAC — 63 open high conga
+0x0416320 — 64 low conga
+
+0x04169B4 — 81 triangle
+
+0x041929C — 83 sleigh bells
+0x041B0D0 — 84 124's bass drum (a true bass drum, not a low timpani)
+0x0405BE4 — 85 another side kick
+0x041B868 — 86 another snare; more melodic but less impactful than 38
+0x041C894 — 87 hand clap
+
+0x041D19C — 89 an impactful low floor tom?
+0x041E4E0 — 90 mute triangle or pedal highhat
+
+0x041E8D4 — 93 low impactful tom
+0x041FF28 — 94 open highhat; sounds like a bright ride cymbal
+
+0x0422978 — 96 high mid tom?
+0x0424BEC — 97 crash cymbal 2
+
+0x0428A00 — 99 ride cymbal
+
+0x040E398 — 102 tambourine again?
+
+0x0414310 — 108 high bongo again
+0x0414BA4 — 109 low bongo again
+0x0415868 — 110 mute high conga again
+0x0415DAC — 111 open high conga again
+0x0416320 — 112 low conga again
+0x041B0D0 — 113 true bass drum again
+
+0x042AC64 — 115 a tight, tinny snare

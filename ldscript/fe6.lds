@@ -1,3 +1,5 @@
+INCLUDE ../ldscript/instruments.lds
+
 FreeERamSpace = 0x203DBE4;
 FreeIRamSpace = 0x3006648;
 FreeRomSpace = 0x87FF0A4;

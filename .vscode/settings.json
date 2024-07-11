@@ -12,6 +12,7 @@
         "format": "c",
         "functional": "c",
         "numeric": "c",
-        "string": "c"
+        "string": "c",
+        "type_traits": "c"
     }
 }
