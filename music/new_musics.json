@@ -1,6 +1,9 @@
 {
     "bgm_amb_username.ogg": [],
     "bgm_battle_boss.ogg": [],
+    "bgm_battle_FE09_01.ogg": [
+        "FE09 - Clash {SaXor the Nobody}.s"
+    ],
     "bgm_boss10.ogg": [
         "FEH_-_VS_Nifl.mid"
     ],
@@ -55,47 +58,91 @@
         "Map_2_FEH.mid"
     ],
     "bgm_map_Brave_03.ogg": [],
-    "bgm_map_FE03_01.ogg": [],
+    "bgm_map_FE03_01.ogg": [
+        "FE11 - Under This Flag {Sme}"
+    ],
     "bgm_map_FE03_02.ogg": [],
     "bgm_map_FE03_04.ogg": [],
     "bgm_map_FE03_06.ogg": [],
-    "bgm_map_FE04_03.ogg": [],
-    "bgm_map_FE04_05.ogg": [],
-    "bgm_map_FE04_06.ogg": [],
-    "bgm_map_FE04_09.ogg": [],
-    "bgm_map_FE04_11.ogg": [],
-    "bgm_map_FE05_01.ogg": [],
-    "bgm_map_FE05_03.ogg": [],
+    "bgm_map_FE04_03.ogg": [
+        "FE04 - For Whose Sake {SurfingKyogre}.s"
+    ],
+    "bgm_map_FE04_05.ogg": [
+        "FE04 - Eldigan the Lionheart {Scraiza}.s"
+    ],
+    "bgm_map_FE04_06.ogg": [
+        "FE04 - Disturbance in Agustria {Sme}.s"
+    ],
+    "bgm_map_FE04_09.ogg": [
+        "FE04 - Inheritors of Light {MonopolyRubix}.s"
+    ],
+    "bgm_map_FE04_11.ogg": [
+        "FE04 - Dance in the Skies {SurfingKyogre}.s"
+    ],
+    "bgm_map_FE05_01.ogg": [
+        "FE05 - Base {RSflame}.s"
+    ],
+    "bgm_map_FE05_03.ogg": [
+        "FE05 - Searching the Enemy {SurfingKyogre}.s"
+    ],
     "bgm_map_FE05_04.ogg": [],
-    "bgm_map_FE07_01.ogg": [],
+    "bgm_map_FE07_01.ogg": [
+        "FE07 - Precious Things {Alice}.s",
+        "FE07 - Precious Things {Remix} {Pandan}.s"
+    ],
     "bgm_map_FE07_04.ogg": [],
-    "bgm_map_FE07_08.ogg": [],
+    "bgm_map_FE07_08.ogg": [
+        "FE07 - Distant Travels {Alice}.s",
+        "FE07 - Distant Travels {Psyche}.s",
+        "FE07 - Distant Travels {Remix} {A Reliable Chair}.s"
+    ],
     "bgm_map_FE07_09.ogg": [],
-    "bgm_map_FE07_12.ogg": [],
+    "bgm_map_FE07_12.ogg": [
+        "FE07 - Inescapable Fate {Alice}.s",
+        "FE07 - Inescapable Fate {RandomWizard}.s"
+    ],
     "bgm_map_FE08_02.ogg": [],
     "bgm_map_FE08_03.ogg": [],
     "bgm_map_FE08_05.ogg": [],
     "bgm_map_FE08_08.ogg": [],
     "bgm_map_FE09_01.ogg": [],
     "bgm_map_FE09_02.ogg": [],
-    "bgm_map_FE09_03.ogg": [],
+    "bgm_map_FE09_03.ogg": [
+        "FE09 - The Black Knight {Dethraxx}.s"
+    ],
     "bgm_map_FE09_05.ogg": [],
     "bgm_map_FE09_06.ogg": [],
     "bgm_map_FE09_07.ogg": [],
     "bgm_map_FE10_01.ogg": [],
     "bgm_map_FE10_03.ogg": [],
-    "bgm_map_FE10_04.ogg": [],
+    "bgm_map_FE10_04.ogg": [
+        "FE10 - Cats at Play {Sme}.s"
+    ],
     "bgm_map_FE10_05.ogg": [],
+    "bgm_map_FE10_06.ogg": [
+        "FE10 - Ascent {MrGreen3339}.s"
+    ],
     "bgm_map_FE10_08.ogg": [],
     "bgm_map_FE10_13.ogg": [],
-    "bgm_map_FE11_01.ogg": [],
+    "bgm_map_FE11_01.ogg": [
+        "FE11 - The Time to Act {SaXor the Nobody}.s"
+    ],
     "bgm_map_FE11_03.ogg": [],
-    "bgm_map_FE12_01.ogg": [],
-    "bgm_map_FE12_03.ogg": [],
+    "bgm_map_FE12_01.ogg": [
+        "FE12 - Liberation {GratedShtick}.s",
+        "FE12 - Liberation {Retina}.s"
+    ],
+    "bgm_map_FE12_03.ogg": [
+        "FE11 - Endless Battle {REALxViPerZ}.s",
+        "FE12 - Endless Battle {RSfllame}.s",
+        "FE12 - Endless Battle {Sme}.s"
+    ],
     "bgm_map_FE13_01.ogg": [],
     "bgm_map_FE13_02.ogg": [],
     "bgm_map_FE13_06.ogg": [],
-    "bgm_map_FE13_07.ogg": [],
+    "bgm_map_FE13_07.ogg": [
+        "FE13 - Duty (Ablaze) {Azula}.s"
+    ],
     "bgm_map_FE13_10.ogg": [],
     "bgm_map_FE13_12.ogg": [],
     "bgm_map_FE13_13.ogg": [],
@@ -107,27 +154,57 @@
     "bgm_map_FE14_07.ogg": [],
     "bgm_map_FE14_11.ogg": [],
     "bgm_map_FE14_13.ogg": [],
-    "bgm_map_FE14_15.ogg": [],
+    "bgm_map_FE14_15.ogg": [
+        "FE14 - Justice RIP {MrGreen3339}.s"
+    ],
     "bgm_map_FE14_18.ogg": [],
-    "bgm_map_FE14_20.ogg": [],
+    "bgm_map_FE14_19.ogg": [
+        "FE14 - Alight {Storm} {MysteriousDancer}.s"
+    ],
+    "bgm_map_FE14_20.ogg": [
+        "FE14 - A Dark Fall Fire {Mycahel}.s"
+    ],
+    "bgm_map_FE15_01.ogg": [
+        "FE02 - Alm Map 1 {Pandan}.s",
+        "FE02 - Alm Player Phase 1 {hypergammaspaces}.s"
+    ],
     "bgm_map_FE15_02.ogg": [],
     "bgm_map_FE15_03.ogg": [],
-    "bgm_map_FE15_06.ogg": [],
+    "bgm_map_FE15_05.ogg": [
+        "FE02 - Final Map {MrGreen3339}.s",
+        "FE15 - Twilight Of The Gods {Sme}.s"
+    ],
+    "bgm_map_FE15_06.ogg": [
+        "FE02 - Celica Enemy Phase {hypergammaspaces}.s",
+        "FE02 - Celica Map 1 {Pandan}.s"
+    ],
     "bgm_map_FE15_07.ogg": [],
+    "bgm_map_FE15_08.ogg": [
+        "FE15 - Lord of a Dead Empire {Ablaze} {Mycahel}.s",
+        "FE15 - Lord of a Dead Empire {Mycahel}.s"
+    ],
     "bgm_map_FE15_09.ogg": [],
     "bgm_map_FE15_11.ogg": [],
-    "bgm_map_FE16_01.ogg": [],
+    "bgm_map_FE16_01.ogg": [
+        "FE16 - Fodlan Winds {A Reliable Chair}.s"
+    ],
     "bgm_map_FE16_02.ogg": [],
     "bgm_map_FE16_03.ogg": [],
     "bgm_map_FE16_04.ogg": [],
     "bgm_map_FE16_06.ogg": [],
     "bgm_map_FE16_07.ogg": [],
     "bgm_map_FE16_09.ogg": [],
-    "bgm_map_FE16_10.ogg": [],
+    "bgm_map_FE16_10.ogg": [
+        "FE16 - The Long Road {Azula}.s"
+    ],
     "bgm_map_FE16_12.ogg": [],
-    "bgm_map_FE16_13.ogg": [],
+    "bgm_map_FE16_13.ogg": [
+        "FE16 - A Funeral of Flowers {Thunder} {MrGreen3339}.s"
+    ],
     "bgm_map_FE16_15.ogg": [],
-    "bgm_map_FE16_18.ogg": [],
+    "bgm_map_FE16_18.ogg": [
+        "FE16 - Roar of Dominion {Rain} {MrGreen3339}.s"
+    ],
     "bgm_map_FE17_13.ogg": [],
     "bgm_map_FE17_15.ogg": [],
     "bgm_map_FEH_04.ogg": [
@@ -147,13 +224,21 @@
     "bgm_menu_goldwitch.ogg": [],
     "bgm_menu_mjollnir.ogg": [],
     "bgm_menu_theme01.ogg": [],
-    "bgm_mns_FE03_01.ogg": [],
+    "bgm_mns_FE03_01.ogg": [
+        "FE03 - Akenia Anthem {Sme}.s"
+    ],
     "bgm_mns_FE03_02.ogg": [],
-    "bgm_mns_FE04_01.ogg": [],
+    "bgm_mns_FE04_01.ogg": [
+        "FE04 - Glory to Grannvale {SurfingKyogre}.s"
+    ],
     "bgm_mns_FE04_05.ogg": [],
     "bgm_mns_FE05_04.ogg": [],
-    "bgm_mns_FE05_05.ogg": [],
-    "bgm_mns_FE05_06.ogg": [],
+    "bgm_mns_FE05_05.ogg": [
+        "FE05 - Destiny {Dolkar}.s"
+    ],
+    "bgm_mns_FE05_06.ogg": [
+        "FE05 - Advance {Dolkar}.s"
+    ],
     "bgm_mns_FE07_04.ogg": [],
     "bgm_mns_FE07_08.ogg": [],
     "bgm_mns_FE08_02.ogg": [],
@@ -166,9 +251,18 @@
     "bgm_mns_FE10_05.ogg": [],
     "bgm_mns_FE10_06.ogg": [],
     "bgm_mns_FE10_08.ogg": [],
+    "bgm_mns_FE11_01.ogg": [
+        "FE11 - Preparations {RSflame}.s"
+    ],
     "bgm_mns_FE11_03.ogg": [],
+    "bgm_mns_FE12_01.ogg": [
+        "FE12 - Before Battle {Swift Saturn}.s"
+    ],
     "bgm_mns_FE12_04.ogg": [],
     "bgm_mns_FE12_05.ogg": [],
+    "bgm_mns_FE13_04.ogg": [
+        "FE13 - 'We'd Best Prepare For Combat, Just To Be Safe' {Azula&Alice}.s"
+    ],
     "bgm_mns_FE13_05.ogg": [],
     "bgm_mns_FE13_07.ogg": [],
     "bgm_mns_FE13_08.ogg": [],
