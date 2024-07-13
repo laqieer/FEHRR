@@ -11,3 +11,9 @@
 [submodule "source/gba-hq-mixer"]
 	path = source/gba-hq-mixer
 	url = https://github.com/laqieer/gba-hq-mixer.git
+[submodule "music/midi"]
+	path = music/midi
+	url = https://github.com/laqieer/FE-Midi-Repo.git
+[submodule "music/s"]
+	path = music/s
+	url = https://github.com/laqieer/FE-Repo-Music-No-Preview

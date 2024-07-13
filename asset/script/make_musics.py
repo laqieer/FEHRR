@@ -161,6 +161,26 @@ def save_existed_musics():
     with open("music/existed_musics.json", "w", encoding="utf-8") as file:
         json.dump(existed_musics, file, indent=4)
 
+new_musics = {}
+
+def read_new_musics():
+    global new_musics
+    with open("music/new_musics.json", "r", encoding="utf-8") as file:
+        new_musics = json.load(file)
+
+def save_new_musics():
+    for filename in sorted(musics.keys()):
+        if filename not in existed_musics and filename not in new_musics and len(musics[filename].get("appearances", [])) > 0:
+            new_musics[filename] = ""
+    for k, v in new_musics.items():
+        if type(v) == str:
+            if v == "":
+                new_musics[k] = []
+            else:
+                new_musics[k] = [v]
+    with open("music/new_musics.json", "w", encoding="utf-8") as file:
+        json.dump(new_musics, file, indent=4)
+
 if __name__ == "__main__":
     read_music_titles()
     read_musics()
@@ -171,3 +191,5 @@ if __name__ == "__main__":
     save_appeared_musics()
     read_existed_musics()
     save_existed_musics()
+    read_new_musics()
+    save_new_musics()
