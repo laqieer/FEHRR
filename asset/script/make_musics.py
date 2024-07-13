@@ -147,6 +147,20 @@ def save_appeared_musics():
     with open("music/appeared_musics.json", "w", encoding="utf-8") as file:
         json.dump(sorted([x for x in musics.values() if len(x.get("appearances", [])) > 0], key=lambda x: len(x["appearances"]), reverse=True), file, indent=4, ensure_ascii=False)
 
+existed_musics = {}
+
+def read_existed_musics():
+    global existed_musics
+    with open("music/existed_musics.json", "r", encoding="utf-8") as file:
+        existed_musics = json.load(file)
+
+def save_existed_musics():
+    for filename in sorted(musics.keys()):
+        if "_FE06_" in filename and filename not in existed_musics:
+            existed_musics[filename] = ""
+    with open("music/existed_musics.json", "w", encoding="utf-8") as file:
+        json.dump(existed_musics, file, indent=4)
+
 if __name__ == "__main__":
     read_music_titles()
     read_musics()
@@ -155,3 +169,5 @@ if __name__ == "__main__":
     read_scenario_musics()
     list_appeared_musics()
     save_appeared_musics()
+    read_existed_musics()
+    save_existed_musics()
