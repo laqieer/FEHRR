@@ -1276,6 +1276,7 @@
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE07_01",
         "source": [
+            "fe7/song01.s",
             "FE07 - Precious Things {Alice}.s",
             "FE07 - Precious Things {Remix} {Pandan}.s"
         ]
@@ -1618,7 +1619,9 @@
             "S2104_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MNS_FE07_01",
-        "source": []
+        "source": [
+            "fe7/song50.s"
+        ]
     },
     {
         "title": "Chapter 2 Disturbance in Augustria",
@@ -1772,6 +1775,7 @@
             "S4044_BGM"
         ],
         "source": [
+            "fe7/song0A.s",
             "FE07 - Distant Travels {Alice}.s",
             "FE07 - Distant Travels {Psyche}.s",
             "FE07 - Distant Travels {Remix} {A Reliable Chair}.s"
@@ -1926,7 +1930,9 @@
             "S5063_BGM",
             "S5064_BGM"
         ],
-        "source": []
+        "source": [
+            "fe7/song05.s"
+        ]
     },
     {
         "title": "The Long Road",
@@ -2448,6 +2454,7 @@
             "S6084_BGM"
         ],
         "source": [
+            "fe7/song0B.s",
             "FE07 - Inescapable Fate {Alice}.s",
             "FE07 - Inescapable Fate {RandomWizard}.s"
         ]
@@ -2741,7 +2748,9 @@
         "appearances": [
             "S5041_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": [
+            "fe7/song3C.s"
+        ]
     },
     {
         "title": "Awakening",
@@ -2919,7 +2928,9 @@
         "appearances": [
             "S6135_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": [
+            "fe7/song36.s"
+        ]
     },
     {
         "title": "Mighty Governance",

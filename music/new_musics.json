@@ -87,17 +87,24 @@
     ],
     "bgm_map_FE05_04.ogg": [],
     "bgm_map_FE07_01.ogg": [
+        "fe7/song01.s",
         "FE07 - Precious Things {Alice}.s",
         "FE07 - Precious Things {Remix} {Pandan}.s"
     ],
-    "bgm_map_FE07_04.ogg": [],
+    "bgm_map_FE07_04.ogg": [
+        "fe7/song50.s"
+    ],
     "bgm_map_FE07_08.ogg": [
+        "fe7/song0A.s",
         "FE07 - Distant Travels {Alice}.s",
         "FE07 - Distant Travels {Psyche}.s",
         "FE07 - Distant Travels {Remix} {A Reliable Chair}.s"
     ],
-    "bgm_map_FE07_09.ogg": [],
+    "bgm_map_FE07_09.ogg": [
+        "fe7/song05.s"
+    ],
     "bgm_map_FE07_12.ogg": [
+        "fe7/song0B.s",
         "FE07 - Inescapable Fate {Alice}.s",
         "FE07 - Inescapable Fate {RandomWizard}.s"
     ],
@@ -239,8 +246,12 @@
     "bgm_mns_FE05_06.ogg": [
         "FE05 - Advance {Dolkar}.s"
     ],
-    "bgm_mns_FE07_04.ogg": [],
-    "bgm_mns_FE07_08.ogg": [],
+    "bgm_mns_FE07_04.ogg": [
+        "fe7/song3C.s"
+    ],
+    "bgm_mns_FE07_08.ogg": [
+        "fe7/song36.s"
+    ],
     "bgm_mns_FE08_02.ogg": [],
     "bgm_mns_FE08_03.ogg": [],
     "bgm_mns_FE08_05.ogg": [],
