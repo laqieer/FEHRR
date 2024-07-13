@@ -108,10 +108,18 @@
         "FE07 - Inescapable Fate {Alice}.s",
         "FE07 - Inescapable Fate {RandomWizard}.s"
     ],
-    "bgm_map_FE08_02.ogg": [],
-    "bgm_map_FE08_03.ogg": [],
-    "bgm_map_FE08_05.ogg": [],
-    "bgm_map_FE08_08.ogg": [],
+    "bgm_map_FE08_02.ogg": [
+        "fe7/song09.s"
+    ],
+    "bgm_map_FE08_03.ogg": [
+        "fe8/song0C.s"
+    ],
+    "bgm_map_FE08_05.ogg": [
+        "fe8/song0A.s"
+    ],
+    "bgm_map_FE08_08.ogg": [
+        "fe8/song0B.s"
+    ],
     "bgm_map_FE09_01.ogg": [],
     "bgm_map_FE09_02.ogg": [],
     "bgm_map_FE09_03.ogg": [
@@ -252,9 +260,15 @@
     "bgm_mns_FE07_08.ogg": [
         "fe7/song36.s"
     ],
-    "bgm_mns_FE08_02.ogg": [],
-    "bgm_mns_FE08_03.ogg": [],
-    "bgm_mns_FE08_05.ogg": [],
+    "bgm_mns_FE08_02.ogg": [
+        "fe8/song04.s"
+    ],
+    "bgm_mns_FE08_03.ogg": [
+        "fe8/song44.s"
+    ],
+    "bgm_mns_FE08_05.ogg": [
+        "fe8/song29.s"
+    ],
     "bgm_mns_FE09_04.ogg": [],
     "bgm_mns_FE09_06.ogg": [],
     "bgm_mns_FE10_03.ogg": [],

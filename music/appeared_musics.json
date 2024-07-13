@@ -1033,7 +1033,9 @@
             "S7053_BGM",
             "S7054_BGM"
         ],
-        "source": []
+        "source": [
+            "fe8/song0C.s"
+        ]
     },
     {
         "title": "Thracia 776 Begins",
@@ -1119,7 +1121,9 @@
             "S7043_MID_SCENARIO_OPENING_BGM",
             "S7115_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": [
+            "fe8/song04.s"
+        ]
     },
     {
         "title": "Sephiran's Sorrow",
@@ -1560,7 +1564,9 @@
             "S2043_BGM",
             "S2044_BGM"
         ],
-        "source": []
+        "source": [
+            "fe7/song09.s"
+        ]
     },
     {
         "title": "Disquieting Steps",
@@ -1889,7 +1895,9 @@
             "S5023_BGM",
             "S5024_BGM"
         ],
-        "source": []
+        "source": [
+            "fe8/song0A.s"
+        ]
     },
     {
         "title": "",
@@ -2313,7 +2321,9 @@
             "S6074_MID_SCENARIO_MAP_BEGIN_BGM",
             "S6121_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": [
+            "fe8/song44.s"
+        ]
     },
     {
         "title": "Road of Sorrow",
@@ -2428,7 +2438,9 @@
             "S6033_BGM",
             "S6034_BGM"
         ],
-        "source": []
+        "source": [
+            "fe8/song0B.s"
+        ]
     },
     {
         "title": "Serenity",
@@ -2860,7 +2872,9 @@
         "appearances": [
             "S5135_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": [
+            "fe8/song29.s"
+        ]
     },
     {
         "title": "Id (Serenity)",
