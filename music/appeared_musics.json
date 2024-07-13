@@ -1,0 +1,2675 @@
+[
+    {
+        "title": "Order of Heroes",
+        "titleJPJA": "ヴァイスブレイヴ",
+        "filename": "bgm_event_plain1.ogg",
+        "notes": "Played during cutscenes.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_PLAIN_01",
+        "appearances": [
+            "S0001_MID_SCENARIO_OPENING_BGM",
+            "S0002_MID_SCENARIO_OPENING_BGM",
+            "S0101_MID_SCENARIO_OPENING_BGM",
+            "S0201_MID_SCENARIO_OPENING_BGM",
+            "S0301_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0401_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0501_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0601_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0701_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0801_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0901_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1101_MID_SCENARIO_OPENING_BGM",
+            "S1201_MID_SCENARIO_OPENING_BGM",
+            "S1301_MID_SCENARIO_OPENING_BGM",
+            "S1501_MID_SCENARIO_OPENING_BGM",
+            "S2031_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2034_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2041_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2043_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2044_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2051_MID_SCENARIO_OPENING_BGM",
+            "S2061_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2062_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2063_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2064_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2071_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2072_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2073_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2074_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2081_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2082_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2083_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2084_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2091_MID_SCENARIO_OPENING_BGM",
+            "S2092_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2094_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2101_MID_SCENARIO_OPENING_BGM",
+            "S2102_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2103_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2104_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2111_MID_SCENARIO_OPENING_BGM",
+            "S2112_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2114_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2121_MID_SCENARIO_OPENING_BGM",
+            "S2122_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2124_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2132_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2133_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3021_MID_SCENARIO_OPENING_BGM",
+            "S3025_MID_SCENARIO_OPENING_BGM",
+            "S3032_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3033_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3034_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3042_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3043_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3044_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3045_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3051_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3052_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3053_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3054_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3062_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3064_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3082_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3083_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3084_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3091_MID_SCENARIO_OPENING_BGM",
+            "S3092_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3093_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3102_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3103_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3112_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3113_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3114_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3122_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3123_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3124_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3132_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4015_MID_SCENARIO_OPENING_BGM",
+            "S4021_MID_SCENARIO_OPENING_BGM",
+            "S4022_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4023_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4024_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4032_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4033_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4034_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4042_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4043_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4044_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4052_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4053_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4054_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4062_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4063_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4064_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4072_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4073_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4074_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4082_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4083_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4084_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4092_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4093_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4102_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4103_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4104_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4122_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4123_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5022_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5023_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5024_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5031_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5032_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5033_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5034_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5042_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5043_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5044_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5052_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5053_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5054_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5061_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5062_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5064_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5072_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5073_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5074_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5082_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5083_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5084_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5085_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5092_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5093_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5094_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5095_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5102_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5103_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5104_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5105_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5113_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5114_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5121_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5124_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5131_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5133_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5134_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6022_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6023_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6024_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6032_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6033_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6034_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6042_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6044_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6051_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6052_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6053_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6054_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6062_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6063_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6064_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6072_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6082_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6083_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6084_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6092_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6093_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6102_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6103_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6104_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6111_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6112_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6122_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6123_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6124_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6132_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6133_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6134_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7012_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7013_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7014_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7032_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7033_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7034_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7042_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7044_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7052_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7053_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7061_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7062_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7064_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7072_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7073_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7074_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7082_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7084_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7092_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7093_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7094_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7102_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7103_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7104_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7112_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7113_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7114_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Invasion",
+        "titleJPJA": "インヴァージョン",
+        "filename": "bgm_event_serious1.ogg",
+        "notes": "Played during cutscenes with a tense mood.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_01",
+        "appearances": [
+            "S0101_MID_SCENARIO_ENDING_BGM",
+            "S1001_MID_SCENARIO_OPENING_BGM",
+            "S1004_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1103_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1203_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1305_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1401_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1405_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2011_MID_SCENARIO_OPENING_BGM",
+            "S2033_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2052_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2053_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2054_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2093_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2111_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2113_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2125_MID_SCENARIO_OPENING_BGM",
+            "S3011_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3041_MID_SCENARIO_OPENING_BGM",
+            "S3055_MID_SCENARIO_OPENING_BGM",
+            "S3063_MID_SCENARIO_OPENING_BGM",
+            "S3072_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3073_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3074_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3115_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3133_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4015_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4035_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4055_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4061_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4065_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4071_MID_SCENARIO_OPENING_BGM",
+            "S4081_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4101_MID_SCENARIO_OPENING_BGM",
+            "S4113_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4124_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5011_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5071_MID_SCENARIO_OPENING_BGM",
+            "S5102_MID_SCENARIO_OPENING_BGM",
+            "S6011_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6041_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6045_MID_SCENARIO_ENDING_BGM",
+            "S6101_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7021_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7035_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7081_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Solitary",
+        "titleJPJA": "ソリタリィ",
+        "filename": "bgm_event_serious3.ogg",
+        "notes": "Played during cutscenes with a somber mood.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_03",
+        "appearances": [
+            "S0103_MID_SCENARIO_ENDING_BGM",
+            "S0805_MID_SCENARIO_ENDING_BGM",
+            "S0905_MID_SCENARIO_ENDING_BGM",
+            "S1305_MID_SCENARIO_ENDING_BGM",
+            "S1401_MID_SCENARIO_OPENING_BGM",
+            "S1405_MID_SCENARIO_ENDING_BGM",
+            "S2015_MID_SCENARIO_ENDING_BGM",
+            "S2021_MID_SCENARIO_OPENING_BGM",
+            "S2031_MID_SCENARIO_OPENING_BGM",
+            "S2055_MID_SCENARIO_ENDING_BGM",
+            "S2061_MID_SCENARIO_OPENING_BGM",
+            "S2065_MID_SCENARIO_ENDING_BGM",
+            "S2071_MID_SCENARIO_OPENING_BGM",
+            "S2091_MID_SCENARIO_ENDING_BGM",
+            "S2111_MID_SCENARIO_ENDING_BGM",
+            "S2123_MID_SCENARIO_ENDING_BGM",
+            "S2131_MID_SCENARIO_ENDING_BGM",
+            "S2133_MID_SCENARIO_ENDING_BGM",
+            "S3035_MID_SCENARIO_OPENING_BGM",
+            "S3043_MID_SCENARIO_ENDING_BGM",
+            "S3045_MID_SCENARIO_OPENING_BGM",
+            "S3051_MID_SCENARIO_OPENING_BGM",
+            "S3064_MID_SCENARIO_ENDING_BGM",
+            "S3073_MID_SCENARIO_ENDING_BGM",
+            "S3083_MID_SCENARIO_ENDING_BGM",
+            "S3111_MID_SCENARIO_OPENING_BGM",
+            "S3121_MID_SCENARIO_ENDING_BGM",
+            "S4043_MID_SCENARIO_ENDING_BGM",
+            "S4073_MID_SCENARIO_ENDING_BGM",
+            "S4091_MID_SCENARIO_ENDING_BGM",
+            "S4095_MID_SCENARIO_OPENING_BGM",
+            "S4103_MID_SCENARIO_ENDING_BGM",
+            "S4132_MID_SCENARIO_ENDING_BGM",
+            "S5025_MID_SCENARIO_ENDING_BGM",
+            "S5111_MID_SCENARIO_OPENING_BGM",
+            "S6033_MID_SCENARIO_ENDING_BGM",
+            "S6053_MID_SCENARIO_ENDING_BGM",
+            "S6062_MID_SCENARIO_ENDING_BGM",
+            "S6071_MID_SCENARIO_ENDING_BGM",
+            "S6084_MID_SCENARIO_ENDING_BGM",
+            "S6103_MID_SCENARIO_ENDING_BGM",
+            "S6135_MID_SCENARIO_ENDING_BGM",
+            "S7093_MID_SCENARIO_OPENING_BGM",
+            "S7101_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Carry Over",
+        "titleJPJA": "キャリィオーバー",
+        "filename": "bgm_event_plain3.ogg",
+        "notes": "Played during cutscenes.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_PLAIN_03",
+        "appearances": [
+            "S0205_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0305_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0405_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0505_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0605_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0705_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0805_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S0905_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1105_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1205_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2032_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2042_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2065_MID_SCENARIO_OPENING_BGM",
+            "S2075_MID_SCENARIO_OPENING_BGM",
+            "S2115_MID_SCENARIO_OPENING_BGM",
+            "S2115_MID_SCENARIO_ENDING_BGM",
+            "S2125_MID_SCENARIO_ENDING_BGM",
+            "S2132_MID_SCENARIO_ENDING_BGM",
+            "S2134_MID_SCENARIO_OPENING_BGM",
+            "S3031_MID_SCENARIO_OPENING_BGM",
+            "S3065_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3071_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4053_MID_SCENARIO_ENDING_BGM",
+            "S4061_MID_SCENARIO_ENDING_BGM",
+            "S4065_MID_SCENARIO_OPENING_BGM",
+            "S4121_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5013_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Last Phase",
+        "titleJPJA": "ラストフェイズ",
+        "filename": "bgm_map_Brave_03.ogg",
+        "notes": "Played in Book I, Chapter 9-5: [[Princess of Death]]; Book II, Chapter 2-5: [[Ruler of Flame]], 7-5: [[Snow and Ash]], 10-5: [[The King's Demise]], and 13-5: [[Surtr, Ruler of Flame]].",
+        "appearances": [
+            "S1005_BGM",
+            "S2025_BGM",
+            "S2075_BGM",
+            "S2105_BGM",
+            "S2135_BGM",
+            "S3135_BGM",
+            "S4095_BGM",
+            "S4134_BGM",
+            "S5125_BGM2",
+            "S5135_BGM2",
+            "S6085_BGM2",
+            "S6115_BGM2",
+            "S7015_BGM",
+            "S1005_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2025_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2105_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2135_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3135_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4095_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4134_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5125_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5135_MID_SCENARIO_OPENING_BGM",
+            "S6085_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6115_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7015_MID_SCENARIO_MAP_BEGIN_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_03"
+    },
+    {
+        "title": "Another Menace",
+        "titleJPJA": "アナザーメナス",
+        "filename": "bgm_event_serious4.ogg",
+        "notes": "Played during cutscenes featuring [[Múspell]] and {{Ut|Loki: The Trickster}}. Also plays in [[Tempest Trials+]]: [[Loki's Flames]] and Xenologue 4: [[Whispers of Death]].",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_04",
+        "appearances": [
+            "S2014_MID_SCENARIO_ENDING_BGM",
+            "S2015_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2035_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2035_MID_SCENARIO_ENDING_BGM",
+            "S2045_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2045_MID_SCENARIO_ENDING_BGM",
+            "S2051_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2055_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2064_MID_SCENARIO_ENDING_BGM",
+            "S2085_MID_SCENARIO_ENDING_BGM",
+            "S2091_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2095_MID_SCENARIO_OPENING_BGM",
+            "S2101_MID_SCENARIO_ENDING_BGM",
+            "S2105_MID_SCENARIO_ENDING_BGM",
+            "S2112_MID_SCENARIO_ENDING_BGM",
+            "S2115_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2123_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2125_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2131_MID_SCENARIO_OPENING_BGM",
+            "S2134_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4011_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4051_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4135_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5131_MID_SCENARIO_ENDING_BGM",
+            "S6045_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Suspicious",
+        "titleJPJA": "サスピシャス",
+        "filename": "bgm_event_serious7.ogg",
+        "notes": "Played during cutscenes involving [[Dökkálfheimr]] and with a suspicious mood.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_07_2",
+        "appearances": [
+            "S4011_MID_SCENARIO_OPENING_BGM",
+            "S4014_MID_SCENARIO_ENDING_BGM",
+            "S4025_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4041_MID_SCENARIO_OPENING_BGM",
+            "S4051_MID_SCENARIO_OPENING_BGM",
+            "S4063_MID_SCENARIO_ENDING_BGM",
+            "S4075_MID_SCENARIO_OPENING_BGM",
+            "S4081_MID_SCENARIO_OPENING_BGM",
+            "S4085_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4091_MID_SCENARIO_OPENING_BGM",
+            "S4094_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4101_MID_SCENARIO_ENDING_BGM",
+            "S4105_MID_SCENARIO_ENDING_BGM",
+            "S4111_MID_SCENARIO_ENDING_BGM",
+            "S4114_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4125_MID_SCENARIO_OPENING_BGM",
+            "S4132_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4133_MID_SCENARIO_OPENING_BGM",
+            "S5062_MID_SCENARIO_ENDING_BGM",
+            "S5075_MID_SCENARIO_OPENING_BGM",
+            "S6011_MID_SCENARIO_OPENING_BGM",
+            "S6031_MID_SCENARIO_ENDING_BGM",
+            "S6043_MID_SCENARIO_OPENING_BGM",
+            "S7024_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Looming Death",
+        "titleJPJA": "ルーミングデス",
+        "filename": "bgm_event_serious5.ogg",
+        "notes": "Played during cutscenes featuring [[Hel (realm)|Hel]] and with a dire mood.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_05",
+        "appearances": [
+            "S3013_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3014_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3015_MID_SCENARIO_OPENING_BGM",
+            "S3035_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3035_MID_SCENARIO_ENDING_BGM",
+            "S3055_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3061_MID_SCENARIO_OPENING_BGM",
+            "S3063_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3075_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3081_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3085_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3105_MID_SCENARIO_OPENING_BGM",
+            "S3115_MID_SCENARIO_ENDING_BGM",
+            "S3125_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3131_MID_SCENARIO_OPENING_BGM",
+            "S3134_MID_SCENARIO_OPENING_BGM",
+            "S4071_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4112_MID_SCENARIO_ENDING_BGM",
+            "S5072_MID_SCENARIO_OPENING_BGM",
+            "S5122_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6073_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Tragedy of Askr",
+        "titleJPJA": "トラジディオブアスク",
+        "filename": "bgm_map_FEH_05.ogg",
+        "notes": "Played in various Book III maps, [[Thrasir: Omnicidal Witch (map)|Thrasir: Omnicidal Witch]], [[Líf: Lethal Swordsman (map)|Líf: Lethal Swordsman]], [[Hel: Death Sovereign (map)|Hel: Death Sovereign]], and [[Tempest Trials+]]: [[Life & Death Finale]].",
+        "appearances": [
+            "S3011_BGM",
+            "S3012_BGM",
+            "S3013_BGM",
+            "S3014_BGM",
+            "S3015_BGM",
+            "S3021_BGM",
+            "S3022_BGM",
+            "S3023_BGM",
+            "S3024_BGM",
+            "S3025_BGM",
+            "S3035_BGM",
+            "S3055_BGM",
+            "S3063_BGM",
+            "S3075_BGM",
+            "S3081_BGM",
+            "S3085_BGM",
+            "S3095_BGM",
+            "S3105_BGM",
+            "S3115_BGM",
+            "S3121_BGM",
+            "S3125_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_05"
+    },
+    {
+        "title": "Lonely Puppeteer",
+        "titleJPJA": "ロンリィパペッティア",
+        "filename": "bgm_boss11.ogg",
+        "notes": "Plays during combat animations against Embla bosses in Book VI.",
+        "appearances": [
+            "S6015_BGM2",
+            "S6025_BGM2",
+            "S6031_BGM2",
+            "S6035_BGM2",
+            "S6041_BGM2",
+            "S6043_BGM2",
+            "S6045_BGM2",
+            "S6055_BGM2",
+            "S6065_BGM2",
+            "S6071_BGM2",
+            "S6074_BGM2",
+            "S6075_BGM2",
+            "S6081_BGM2",
+            "S6085_BGM3",
+            "S6091_BGM2",
+            "S6094_BGM2",
+            "S6095_BGM2",
+            "S6105_BGM2",
+            "S6113_BGM2",
+            "S6114_BGM2",
+            "S6115_BGM3"
+        ]
+    },
+    {
+        "title": "Lucid Dream",
+        "titleJPJA": "ルシッドドリーム",
+        "filename": "bgm_map_FEH_06.ogg",
+        "notes": "Played in various Book IV maps, [[Plumeria: Lewd Dream (map)|Plumeria: Lewd Dream]] and [[Freyja & Triandra: Mythic Hero Battle]].",
+        "appearances": [
+            "S4011_BGM",
+            "S4012_BGM",
+            "S4013_BGM",
+            "S4014_BGM",
+            "S4015_BGM",
+            "S4021_BGM",
+            "S4022_BGM",
+            "S4023_BGM",
+            "S4024_BGM",
+            "S4025_BGM",
+            "S4035_BGM",
+            "S4045_BGM",
+            "S4051_BGM",
+            "S4061_BGM",
+            "S4071_BGM",
+            "S4075_BGM",
+            "S4085_BGM",
+            "S4105_BGM",
+            "S4115_BGM",
+            "S4124_BGM"
+        ]
+    },
+    {
+        "title": "Heat Cracking",
+        "titleJPJA": "ヒートクラッキング",
+        "filename": "bgm_boss3.ogg",
+        "notes": "Played during combat animations against Múspell boss units and {{Ut|Loki: The Trickster}} during Book II, as well as against the Røkkr in [[Røkkr Sieges]].",
+        "appearances": [
+            "S2015_BGM2",
+            "S2025_BGM2",
+            "S2035_BGM2",
+            "S2045_BGM2",
+            "S2051_BGM2",
+            "S2055_BGM2",
+            "S2065_BGM2",
+            "S2075_BGM2",
+            "S2091_BGM2",
+            "S2095_BGM2",
+            "S2105_BGM2",
+            "S2113_BGM2",
+            "S2123_BGM2",
+            "S2125_BGM2",
+            "S2131_BGM2",
+            "S2134_BGM2",
+            "S2135_BGM2",
+            "S4051_BGM2",
+            "S4055_BGM2"
+        ]
+    },
+    {
+        "title": "Hard Negotiation",
+        "titleJPJA": "ハードネゴシエィション",
+        "filename": "bgm_battle_boss.ogg",
+        "notes": "Played during combat animations against boss units during Book I, and boss units in [[Hero Battles]], [[Grand Hero Battles]], and [[Tempest Trials]].",
+        "appearances": [
+            "S0103_BGM2",
+            "S0205_BGM2",
+            "S0305_BGM2",
+            "S0405_BGM2",
+            "S0505_BGM2",
+            "S0605_BGM2",
+            "S0705_BGM2",
+            "S0805_BGM2",
+            "S0905_BGM2",
+            "S1103_BGM2",
+            "S1105_BGM2",
+            "S1205_BGM2",
+            "S1305_BGM2",
+            "S1405_BGM2",
+            "S4015_BGM2",
+            "S4061_BGM2",
+            "S4065_BGM2",
+            "S4135_BGM2"
+        ]
+    },
+    {
+        "title": "Return To Nifl",
+        "titleJPJA": "リターントゥニフル",
+        "filename": "bgm_map_FEH_04.ogg",
+        "notes": "Played in various Book II maps, [[Tempest Trials Mini]]: [[Shrouded by the Storm]], and [[Hríd: Icy Blade (map)|Hríd: Icy Blade]].",
+        "appearances": [
+            "S2011_BGM",
+            "S2012_BGM",
+            "S2013_BGM",
+            "S2014_BGM",
+            "S2015_BGM",
+            "S2021_BGM",
+            "S2022_BGM",
+            "S2023_BGM",
+            "S2024_BGM",
+            "S2035_BGM",
+            "S2045_BGM",
+            "S2055_BGM",
+            "S2065_BGM",
+            "S2091_BGM",
+            "S2095_BGM",
+            "S2111_BGM",
+            "S2115_BGM",
+            "S2125_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_04"
+    },
+    {
+        "title": "Violent Strings",
+        "titleJPJA": "ヴァイオレントストリングス",
+        "filename": "bgm_map_FEH_09.ogg",
+        "notes": "Played in various Book VI maps.",
+        "appearances": [
+            "S6011_BGM",
+            "S6012_BGM",
+            "S6013_BGM",
+            "S6014_BGM",
+            "S6015_BGM",
+            "S6025_BGM",
+            "S6031_BGM",
+            "S6035_BGM",
+            "S6045_BGM",
+            "S6055_BGM",
+            "S6065_BGM",
+            "S6075_BGM",
+            "S6081_BGM",
+            "S6085_BGM",
+            "S6095_BGM",
+            "S6105_BGM",
+            "S6113_BGM",
+            "S6115_BGM"
+        ]
+    },
+    {
+        "title": "Sacrifice",
+        "titleJPJA": "サクリファイス",
+        "filename": "bgm_event_serious6.ogg",
+        "notes": "Played during cutscenes with a sad mood. This theme is a slowed-down piano arrangement of {{BGMPage|bgm_map_Brave_01.ogg}}.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_06",
+        "appearances": [
+            "S3075_MID_SCENARIO_OPENING_BGM",
+            "S3081_MID_SCENARIO_OPENING_BGM",
+            "S3085_MID_SCENARIO_OPENING_BGM",
+            "S3121_MID_SCENARIO_OPENING_BGM",
+            "S3133_MID_SCENARIO_ENDING_BGM",
+            "S4064_MID_SCENARIO_ENDING_BGM",
+            "S4081_MID_SCENARIO_ENDING_BGM",
+            "S4085_MID_SCENARIO_ENDING_BGM",
+            "S4094_MID_SCENARIO_ENDING_BGM",
+            "S4112_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4125_MID_SCENARIO_ENDING_BGM",
+            "S4131_MID_SCENARIO_ENDING_BGM",
+            "S6041_MID_SCENARIO_ENDING_BGM",
+            "S6113_MID_SCENARIO_ENDING_BGM",
+            "S6121_MID_SCENARIO_OPENING_BGM",
+            "S7095_MID_SCENARIO_ENDING_BGM",
+            "S7111_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Howling Gears",
+        "titleJPJA": "ハゥリングギア",
+        "filename": "bgm_map_FEH_07.ogg",
+        "notes": "Played in various Book V maps, [[Dagr: Sun's Radiance (map)|Dagr: Sun's Radiance]] and [[Thórr_%26_Eitri:_Bound_Hero_Battle|Thórr & Eitri: Bound Hero Battle]].",
+        "appearances": [
+            "S5011_BGM",
+            "S5012_BGM",
+            "S5013_BGM",
+            "S5014_BGM",
+            "S5015_BGM",
+            "S5025_BGM",
+            "S5035_BGM",
+            "S5045_BGM",
+            "S5055_BGM",
+            "S5065_BGM",
+            "S5075_BGM",
+            "S5081_BGM",
+            "S5111_BGM",
+            "S5115_BGM",
+            "S5125_BGM",
+            "S5135_BGM"
+        ]
+    },
+    {
+        "title": "Fallen",
+        "titleJPJA": "フォールン",
+        "filename": "bgm_boss4.ogg",
+        "notes": "Played during combat animations against Hel boss units during Book III.|isRegional=1",
+        "isRegional": "1",
+        "appearances": [
+            "S3013_BGM2",
+            "S3014_BGM2",
+            "S3015_BGM2",
+            "S3025_BGM2",
+            "S3035_BGM2",
+            "S3045_BGM2",
+            "S3055_BGM2",
+            "S3063_BGM2",
+            "S3065_BGM2",
+            "S3081_BGM2",
+            "S3085_BGM2",
+            "S3095_BGM2",
+            "S3105_BGM2",
+            "S3115_BGM2",
+            "S3121_BGM2"
+        ]
+    },
+    {
+        "title": "Infinite Scale",
+        "titleJPJA": "インフィニットスケール",
+        "filename": "bgm_boss8.ogg",
+        "notes": "Plays during combat animations against Niðavellir boss units during Book V.",
+        "appearances": [
+            "S5011_BGM2",
+            "S5015_BGM2",
+            "S5025_BGM2",
+            "S5035_BGM2",
+            "S5045_BGM2",
+            "S5055_BGM2",
+            "S5065_BGM2",
+            "S5072_BGM2",
+            "S5073_BGM2",
+            "S5075_BGM2",
+            "S5081_BGM2",
+            "S5102_BGM2",
+            "S5112_BGM2",
+            "S5115_BGM2"
+        ]
+    },
+    {
+        "title": "Little Skimming",
+        "titleJPJA": "リトルスキミング",
+        "filename": "bgm_event_serious9.ogg",
+        "notes": "Plays during cutscenes in Book V.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_09",
+        "appearances": [
+            "S5011_MID_SCENARIO_OPENING_BGM",
+            "S5021_MID_SCENARIO_OPENING_BGM",
+            "S5025_MID_SCENARIO_OPENING_BGM",
+            "S5033_MID_SCENARIO_ENDING_BGM",
+            "S5041_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5053_MID_SCENARIO_OPENING_BGM",
+            "S5081_MID_SCENARIO_OPENING_BGM",
+            "S5091_MID_SCENARIO_ENDING_BGM",
+            "S5101_MID_SCENARIO_OPENING_BGM",
+            "S5112_MID_SCENARIO_OPENING_BGM",
+            "S5123_MID_SCENARIO_OPENING_BGM",
+            "S5132_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6071_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6114_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Victory",
+        "titleJPJA": "ヴィクトリィ",
+        "filename": "bgm_event_plain2.ogg",
+        "notes": "Played during cutscenes.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_PLAIN_02",
+        "appearances": [
+            "S0001_MID_SCENARIO_ENDING_BGM",
+            "S0002_MID_SCENARIO_ENDING_BGM",
+            "S0102_MID_SCENARIO_OPENING_BGM",
+            "S0305_MID_SCENARIO_ENDING_BGM",
+            "S1005_MID_SCENARIO_ENDING_BGM",
+            "S2041_MID_SCENARIO_OPENING_BGM",
+            "S2095_MID_SCENARIO_ENDING_BGM",
+            "S2135_MID_SCENARIO_ENDING_BGM",
+            "S3011_MID_SCENARIO_OPENING_BGM",
+            "S3025_MID_SCENARIO_ENDING_BGM",
+            "S4135_MID_SCENARIO_OPENING_BGM",
+            "S5011_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Fluttering Bloom",
+        "titleJPJA": "フラッタリングブルーム",
+        "filename": "bgm_boss6.ogg",
+        "notes": "Played during combat animations against Dökkálfheimr boss units during Book IV.",
+        "appearances": [
+            "S4025_BGM2",
+            "S4035_BGM2",
+            "S4045_BGM2",
+            "S4071_BGM2",
+            "S4075_BGM2",
+            "S4081_BGM2",
+            "S4085_BGM2",
+            "S4091_BGM2",
+            "S4094_BGM2",
+            "S4114_BGM2",
+            "S4124_BGM2"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_map_FEH_11.ogg",
+        "notes": "Played in various Book VII maps.",
+        "appearances": [
+            "S7021_BGM",
+            "S7022_BGM",
+            "S7023_BGM",
+            "S7024_BGM",
+            "S7025_BGM",
+            "S7045_BGM",
+            "S7055_BGM",
+            "S7071_BGM",
+            "S7075_BGM",
+            "S7085_BGM",
+            "S7091_BGM2"
+        ]
+    },
+    {
+        "title": "The Grandeur of Askr",
+        "titleJPJA": "グランドオブアスク",
+        "filename": "bgm_map_Brave_02.ogg",
+        "notes": "Played in various maps involving Askr, and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|0}}.",
+        "appearances": [
+            "S1001_BGM",
+            "S1002_BGM",
+            "S1003_BGM",
+            "S1004_BGM",
+            "S1102_BGM",
+            "S1103_BGM",
+            "S1104_BGM",
+            "S1501_BGM",
+            "S1601_BGM",
+            "S4135_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_02"
+    },
+    {
+        "title": "-",
+        "titleJPJA": "-",
+        "filename": "bgm_amb_username.ogg",
+        "notes": "Played in cutscenes, on the first orb selection screen during summoning, and during the nickname entering screen.",
+        "titleId": "MID_MUSIC_NAME_BGM_AMB_USERNAME",
+        "appearances": [
+            "S1501_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S1501_MID_SCENARIO_ENDING_BGM",
+            "S1601_MID_SCENARIO_OPENING_BGM",
+            "S1601_MID_SCENARIO_ENDING_BGM",
+            "S2085_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4031_MID_SCENARIO_ENDING_BGM",
+            "S4121_MID_SCENARIO_OPENING_BGM",
+            "S4134_MID_SCENARIO_OPENING_BGM",
+            "S6015_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Fódlan Winds",
+        "titleJPJA": "フォドラの暁風",
+        "filename": "bgm_map_FE16_01.ogg",
+        "notes": "Played in Book III, Chapter 9: [[Cohort of the Dead]], Book VII, Chapter 2: [[World of the Past]], [[Sothis: Girl on the Throne (map)|Sothis: Girl on the Throne]], [[Kronya: Gleaming Blade (map)|Kronya: Gleaming Blade]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|12}}.",
+        "appearances": [
+            "S3091_BGM",
+            "S3092_BGM",
+            "S3093_BGM",
+            "S3094_BGM",
+            "S7061_BGM",
+            "S7062_BGM",
+            "S7063_BGM",
+            "S7064_BGM",
+            "S7065_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE16_01"
+    },
+    {
+        "title": "",
+        "titleJPJA": "リーフ軍,勝利を求めて 索敵",
+        "filename": "bgm_map_FE05_03.ogg",
+        "notes": "Plays in Book V, Chapter 3: [[Story Maps#Chapter 3:Forest of the Sage|Forest of the Sage]] and Book VII, Chapter 11: [[Story Maps#Chapter 11:Without Limits|Without Limits]].",
+        "appearances": [
+            "S5031_BGM",
+            "S5032_BGM",
+            "S5033_BGM",
+            "S5034_BGM",
+            "S7111_BGM",
+            "S7112_BGM",
+            "S7113_BGM",
+            "S7114_BGM",
+            "S7115_BGM"
+        ]
+    },
+    {
+        "title": "False Love",
+        "titleJPJA": "フォルスラヴ",
+        "filename": "bgm_event_serious10.ogg",
+        "notes": "Plays during cutscenes featuring {{Ut|Letizia: Curse Director}} in Book VI.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_10",
+        "appearances": [
+            "S6023_MID_SCENARIO_ENDING_BGM",
+            "S6025_MID_SCENARIO_ENDING_BGM",
+            "S6034_MID_SCENARIO_ENDING_BGM",
+            "S6051_MID_SCENARIO_ENDING_BGM",
+            "S6074_MID_SCENARIO_ENDING_BGM",
+            "S6095_MID_SCENARIO_ENDING_BGM",
+            "S6104_MID_SCENARIO_ENDING_BGM",
+            "S6113_MID_SCENARIO_OPENING_BGM",
+            "S6134_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Veronica",
+        "titleJPJA": "ヴェロニカ",
+        "filename": "bgm_event_serious2.ogg",
+        "notes": "Played during cutscenes featuring {{Ut|Veronica: Emblian Princess}} and in [[Tempest Trials+]]: [[Royal Treasures]].",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_02",
+        "appearances": [
+            "S0103_MID_SCENARIO_OPENING_BGM",
+            "S2021_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2081_MID_SCENARIO_ENDING_BGM",
+            "S3021_MID_SCENARIO_ENDING_BGM",
+            "S3071_MID_SCENARIO_ENDING_BGM",
+            "S3095_MID_SCENARIO_OPENING_BGM",
+            "S3101_MID_SCENARIO_OPENING_BGM",
+            "S6035_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Determination",
+        "titleJPJA": "不動なる志",
+        "filename": "bgm_map_FE08_03.ogg",
+        "notes": "Played in Book III, Chapter 13: [[Marvelous Dream]] and Book VII, Chapter 8: [[Story Maps#Chapter 8: Seeing the Present|Seeing the Present]].",
+        "appearances": [
+            "S3131_BGM",
+            "S3132_BGM",
+            "S3133_BGM",
+            "S3134_BGM",
+            "S7051_BGM",
+            "S7052_BGM",
+            "S7053_BGM",
+            "S7054_BGM"
+        ]
+    },
+    {
+        "title": "Thracia 776 Begins",
+        "titleJPJA": "トラキア７７６　始まり",
+        "filename": "bgm_mns_FE05_04.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE05_04",
+        "appearances": [
+            "S5024_MID_SCENARIO_ENDING_BGM",
+            "S5031_MID_SCENARIO_ENDING_BGM",
+            "S5073_MID_SCENARIO_OPENING_BGM",
+            "S6013_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6031_MID_SCENARIO_OPENING_BGM",
+            "S6052_MID_SCENARIO_ENDING_BGM",
+            "S6105_MID_SCENARIO_OPENING_BGM",
+            "S7025_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Dark Clouds Gather",
+        "titleJPJA": "迫る暗雲",
+        "filename": "bgm_mns_FE16_08.ogg",
+        "notes": "Plays during a cutscene in Book V, Chapter 3: [[Story Maps#Chapter 3: Forest of the Sage|Forest of the Sage]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE16_08",
+        "appearances": [
+            "S5065_MID_SCENARIO_OPENING_BGM",
+            "S5134_MID_SCENARIO_OPENING_BGM",
+            "S6041_MID_SCENARIO_OPENING_BGM",
+            "S6054_MID_SCENARIO_ENDING_BGM",
+            "S6085_MID_SCENARIO_ENDING_BGM",
+            "S6094_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6131_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7025_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Bat Conductor",
+        "titleJPJA": "バットコンダクター",
+        "filename": "bgm_event_serious11.ogg",
+        "notes": "Plays during cutscenes featuring {{Ut|Elm: Retainer to Embla}} in Book VI.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_11",
+        "appearances": [
+            "S6025_MID_SCENARIO_OPENING_BGM",
+            "S6043_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6055_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6061_MID_SCENARIO_ENDING_BGM",
+            "S6081_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6091_MID_SCENARIO_OPENING_BGM",
+            "S6105_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6114_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Chaotic Sight",
+        "titleJPJA": "ケィアティックサイト",
+        "filename": "bgm_boss7.ogg",
+        "notes": "Played during combat animations against {{Ut|Freyja: Lady of Nightmare}} and {{Ut|Freyr: Dream-King}}.",
+        "appearances": [
+            "S4095_BGM2",
+            "S4105_BGM2",
+            "S4111_BGM2",
+            "S4115_BGM2",
+            "S4131_BGM2",
+            "S4133_BGM2",
+            "S4134_BGM2"
+        ]
+    },
+    {
+        "title": "The Beginning",
+        "titleJPJA": "すべては始まりのとき",
+        "filename": "bgm_mns_FE08_02.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE08_02",
+        "appearances": [
+            "S5021_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5042_MID_SCENARIO_ENDING_BGM",
+            "S6021_MID_SCENARIO_OPENING_BGM",
+            "S6055_MID_SCENARIO_ENDING_BGM",
+            "S7043_MID_SCENARIO_OPENING_BGM",
+            "S7115_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Sephiran's Sorrow",
+        "titleJPJA": "セフェラン　浮遊する意識",
+        "filename": "bgm_mns_FE10_05.ogg",
+        "notes": "Played in [[Burden_of_Gifts|Tempest Trials+: Burden of Gifts]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE10_05",
+        "appearances": [
+            "S6052_MID_SCENARIO_OPENING_BGM",
+            "S6071_MID_SCENARIO_OPENING_BGM",
+            "S6095_MID_SCENARIO_OPENING_BGM",
+            "S6131_MID_SCENARIO_OPENING_BGM",
+            "S7022_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7062_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Tactics",
+        "titleJPJA": "策略",
+        "filename": "bgm_mns_FE16_12.ogg",
+        "notes": "Played in a cutscene in Book V, Chapter 7: [[Story Maps#Chapter 7: Bound Elsewhere|Bound Elsewhere]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE16_12",
+        "appearances": [
+            "S5121_MID_SCENARIO_OPENING_BGM",
+            "S6024_MID_SCENARIO_ENDING_BGM",
+            "S6061_MID_SCENARIO_OPENING_BGM",
+            "S7045_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7075_MID_SCENARIO_OPENING_BGM",
+            "S7083_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Niðavellir's Shout",
+        "titleJPJA": "ニザヴェリルズシャウト",
+        "filename": "bgm_boss9.ogg",
+        "notes": "Played during combat animations against {{Ut|Fáfnir: King of Desolation (Dragon)|Fáfnir: King of Desolation}}'s dragon form and {{Ut|Eitri: Youthful Sage}}.",
+        "appearances": [
+            "S5111_BGM2",
+            "S5122_BGM2",
+            "S5123_BGM2",
+            "S5125_BGM3",
+            "S5132_BGM2",
+            "S5135_BGM3"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_map_FEH_10.ogg",
+        "notes": "Played in the end Chapter maps of Book VI against {{Ut|Veronica: Princess Rising}} and {{Ut|Embla: God of Closure}}, as well as against {{Ut|Heiðr: Cursed Goddess (Serpent)}} in Book VII.",
+        "appearances": [
+            "S6125_BGM",
+            "S6135_BGM",
+            "S7095_BGM",
+            "S6125_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6135_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7095_MID_SCENARIO_MAP_BEGIN_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_10"
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_boss12.ogg",
+        "notes": "Plays during combat animations against Vanir bosses in Book VII.",
+        "appearances": [
+            "S7015_BGM2",
+            "S7045_BGM2",
+            "S7055_BGM2",
+            "S7071_BGM2",
+            "S7085_BGM2",
+            "S7091_BGM"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_event_plain4.ogg",
+        "notes": "Plays during cutscenes in Book VII.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_PLAIN_04",
+        "appearances": [
+            "S7023_MID_SCENARIO_ENDING_BGM",
+            "S7035_MID_SCENARIO_ENDING_BGM",
+            "S7041_MID_SCENARIO_OPENING_BGM",
+            "S7051_MID_SCENARIO_ENDING_BGM",
+            "S7061_MID_SCENARIO_ENDING_BGM",
+            "S7113_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_event_serious12.ogg",
+        "notes": "Plays during cutscenes in Book VII.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_12",
+        "appearances": [
+            "S7011_MID_SCENARIO_OPENING_BGM",
+            "S7055_MID_SCENARIO_ENDING_BGM",
+            "S7075_MID_SCENARIO_ENDING_BGM",
+            "S7081_MID_SCENARIO_OPENING_BGM",
+            "S7091_MID_SCENARIO_OPENING_BGM",
+            "S7105_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Under This Banner",
+        "titleJPJA": "この旗の下に",
+        "filename": "bgm_map_FE03_01.ogg",
+        "notes": "Played in Book I, Chapter 5: [[Back to Mystery]] and [[Marth: Hero-King (map)|Marth: Hero-King]].",
+        "appearances": [
+            "S0601_BGM",
+            "S0602_BGM",
+            "S0603_BGM",
+            "S0604_BGM",
+            "S0605_BGM"
+        ]
+    },
+    {
+        "title": "Beyond Distant Skies - Roy's Departure",
+        "titleJPJA": "はるかなる空の向こうに　～ロイの旅立ち",
+        "filename": "bgm_map_FE06_01.ogg",
+        "notes": "Played in Book I, Chapter 3: [[World of Binding]], as well as various Hero Battles and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|5}}.",
+        "appearances": [
+            "S0401_BGM",
+            "S0402_BGM",
+            "S0403_BGM",
+            "S0404_BGM",
+            "S0405_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE06_01"
+    },
+    {
+        "title": "Precious Things",
+        "titleJPJA": "大切なもの",
+        "filename": "bgm_map_FE07_01.ogg",
+        "notes": "Played in Book I, Chapter 7: [[World of Blazing]], [[Ursula: Blue Crow (map)|Ursula: Blue Crow]], [[Lloyd: White Wolf (map)|Lloyd: White Wolf]], [[Eliwood: Blazing Knight (map)|Eliwood: Blazing Knight]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|6}}",
+        "appearances": [
+            "S0801_BGM",
+            "S0802_BGM",
+            "S0803_BGM",
+            "S0804_BGM",
+            "S0805_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE07_01"
+    },
+    {
+        "title": "The Time to Act",
+        "titleJPJA": "決起のとき",
+        "filename": "bgm_map_FE11_01.ogg",
+        "notes": "Played in Book I, Chapter 1: [[World of Mystery]], [[Camus: Sable Knight (map)|Camus: Sable Knight]], and [[Michalis: Ambitious King (map)|Michalis: Ambitious King]].",
+        "appearances": [
+            "S0201_BGM",
+            "S0202_BGM",
+            "S0203_BGM",
+            "S0204_BGM",
+            "S0205_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE11_01"
+    },
+    {
+        "title": "Destiny (Ablaze)",
+        "titleJPJA": "宿命～炎",
+        "filename": "bgm_map_FE13_01.ogg",
+        "notes": "Played in Book I, Chapter 8: [[Back to Awakening]] and [[Robin: Mystery Tactician (map)|Robin: Mystery Tactician]].",
+        "appearances": [
+            "S0901_BGM",
+            "S0902_BGM",
+            "S0903_BGM",
+            "S0904_BGM",
+            "S0905_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_01"
+    },
+    {
+        "title": "Prelude (Ablaze)",
+        "titleJPJA": "序幕～炎",
+        "filename": "bgm_map_FE13_02.ogg",
+        "notes": "Played in Book I, Chapter 4: [[World of Awakening]], [[Panne: Proud Taguel (map)|Panne: Proud Taguel]], and [[Bound Hero Battle]]: [[Chrom & Lissa: Bound Hero Battle|C & L]].",
+        "appearances": [
+            "S0501_BGM",
+            "S0502_BGM",
+            "S0503_BGM",
+            "S0504_BGM",
+            "S0505_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_02"
+    },
+    {
+        "title": "Far Dawn (Storm)",
+        "titleJPJA": "遠い夜明け～颯",
+        "filename": "bgm_map_FE14_01.ogg",
+        "notes": "Played in Book I, Chapter 6: [[World of Birthright]], [[Bound Hero Battle]]: [[Takumi & Hinoka: Bound Hero Battle|T & H]] and [[Corrin & Kana: Bound Hero Battle|C & K]], and [[Ryoma: Supreme Samurai (map)|Ryoma: Supreme Samurai]].",
+        "appearances": [
+            "S0701_BGM",
+            "S0702_BGM",
+            "S0703_BGM",
+            "S0704_BGM",
+            "S0705_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_01"
+    },
+    {
+        "title": "Dusk Falls (Fire)",
+        "titleJPJA": "黄昏をつれて～焔",
+        "filename": "bgm_map_FE14_02.ogg",
+        "notes": "Played in Book I, Chapter 2: [[World of Conquest]], [[Xander: Paragon Knight (map)|Xander: Paragon Knight]], [[Kana: Dragon Spawn (map)|Kana: Dragon Spawn]], [[Garon: King of Nohr (map)|Garon: King of Nohr]] and [[Bound Hero Battles]]: [[Corrin & Azura: Bound Hero Battle|C & A]] and [[Leo & Elise: Bound Hero Battle|L & E]]",
+        "appearances": [
+            "S0301_BGM",
+            "S0302_BGM",
+            "S0303_BGM",
+            "S0304_BGM",
+            "S0305_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_02"
+    },
+    {
+        "title": "With Mila's Divine Protection",
+        "titleJPJA": "ミラの加護とともに",
+        "filename": "bgm_map_FE15_02.ogg",
+        "notes": "Played in Book I, Chapter 11: [[Rite of Shadows]].",
+        "appearances": [
+            "S1201_BGM",
+            "S1202_BGM",
+            "S1203_BGM",
+            "S1204_BGM",
+            "S1205_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE15_02"
+    },
+    {
+        "title": "What Lies at the End",
+        "titleJPJA": "往く地の果てには",
+        "filename": "bgm_map_FE15_03.ogg",
+        "notes": "Played in Book I, Chapter 12: [[Bitter Enemies]], [[Berkut: Prideful Prince (map)|Berkut: Prideful Prince]], and [[Alm: Saint-King (map)|Alm: Saint-King]].",
+        "appearances": [
+            "S1301_BGM",
+            "S1302_BGM",
+            "S1303_BGM",
+            "S1304_BGM",
+            "S1305_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE15_03"
+    },
+    {
+        "title": "Greil Mercenaries",
+        "titleJPJA": "Ｇｒｅｉｌ’ｓ　Ｍｅｒｃｅｎａｒｉｅｓ",
+        "filename": "bgm_map_FE09_02.ogg",
+        "notes": "Played in Book I, Chapter 13: [[Diabolical Bloodline]], [[Oliver: Admirer of Beauty (map)|Oliver: Admirer of Beauty]], and [[Bound Hero Battle]]: [[Elincia & Nephenee: Bound Hero Battle|E & N]].",
+        "appearances": [
+            "S1401_BGM",
+            "S1402_BGM",
+            "S1403_BGM",
+            "S1404_BGM",
+            "S1405_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE09_02"
+    },
+    {
+        "title": "Past Light (Storm)",
+        "titleJPJA": "輝く大地を越えて～颯",
+        "filename": "bgm_map_FE14_06.ogg",
+        "notes": "Played in Book II, Chapter 8: [[Rite of Frost]].",
+        "appearances": [
+            "S2081_BGM",
+            "S2082_BGM",
+            "S2083_BGM",
+            "S2084_BGM",
+            "S2085_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_06"
+    },
+    {
+        "title": "Contest of Pride (Blast)",
+        "titleJPJA": "矜持の競～爆",
+        "filename": "bgm_map_FE14_11.ogg",
+        "notes": "Played in Book III, Chapter 4: [[A King's Worth]].",
+        "appearances": [
+            "S3041_BGM",
+            "S3042_BGM",
+            "S3043_BGM",
+            "S3044_BGM",
+            "S3045_BGM"
+        ]
+    },
+    {
+        "title": "Painful Affection",
+        "titleJPJA": "ペインフルアフェクション",
+        "filename": "bgm_event_serious6b.ogg",
+        "notes": "Played during cutscenes with a very sad mood.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_06B",
+        "appearances": [
+            "S3095_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3135_MID_SCENARIO_ENDING_BGM",
+            "S4113_MID_SCENARIO_ENDING_BGM",
+            "S4135_MID_SCENARIO_ENDING_BGM",
+            "S6125_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "The Proud Commander",
+        "titleJPJA": "誇り高き将",
+        "filename": "bgm_mns_FE11_03.ogg",
+        "notes": "Played in [[Iote's Return|Tempest Trials+: Iote's Return]].",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE11_03",
+        "appearances": [
+            "S5015_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5063_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5074_MID_SCENARIO_OPENING_BGM",
+            "S6111_MID_SCENARIO_ENDING_BGM",
+            "S7101_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Queen's Nightmare",
+        "titleJPJA": "クィーンズナイトメア",
+        "filename": "bgm_event_serious8.ogg",
+        "notes": "Played in cutscenes featuring {{Ut|Freyja: Lady of Nightmare}}.",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_SERIOUS_08",
+        "appearances": [
+            "S4093_MID_SCENARIO_ENDING_BGM",
+            "S4105_MID_SCENARIO_OPENING_BGM",
+            "S4115_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4131_MID_SCENARIO_OPENING_BGM",
+            "S7105_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "No Justice (Fire)",
+        "titleJPJA": "正義は何処に～焔",
+        "filename": "bgm_map_FE14_18.ogg",
+        "notes": "Played in Book V, Chapter 9: [[Story Maps#Chapter 9: Echoes of Truth|Echoes of Truth]].",
+        "appearances": [
+            "S5091_BGM",
+            "S5092_BGM",
+            "S5093_BGM",
+            "S5094_BGM",
+            "S5095_BGM"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "進撃",
+        "filename": "bgm_map_FE03_04.ogg",
+        "notes": "Played in Book V, Chapter 10: [[Story Maps#Chapter 10: Howling Descent|Howling Descent]].",
+        "appearances": [
+            "S5101_BGM",
+            "S5102_BGM",
+            "S5103_BGM",
+            "S5104_BGM",
+            "S5105_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE12_01"
+    },
+    {
+        "title": "Faraway Holy Land (Flare)",
+        "titleJPJA": "遥かなる聖地～閃",
+        "filename": "bgm_map_FE17_13.ogg",
+        "notes": "Played in Book VII, Chapter 6: [[Story Maps#Chapter 6: King of Light|King of Light]] and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|14}}.",
+        "appearances": [
+            "S7031_BGM",
+            "S7032_BGM",
+            "S7033_BGM",
+            "S7034_BGM",
+            "S7035_BGM"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_menu_goldwitch.ogg",
+        "notes": "Played in the [[Seer's Snare]] event and Book VII, Chapter 10: [[Story Maps#Chapter 10: Light's Fading|Light's Fading]].",
+        "appearances": [
+            "S7101_BGM",
+            "S7102_BGM",
+            "S7103_BGM",
+            "S7104_BGM",
+            "S7105_BGM"
+        ]
+    },
+    {
+        "title": "Dark Traveler",
+        "titleJPJA": "闇の旅人",
+        "filename": "bgm_map_FE10_01.ogg",
+        "notes": "Played in Book II, Chapter 3: [[Guided by a Dream]], [[Yune: Chaos Goddess (map)|Yune: Chaos Goddess]], and [[Bound Hero Battle]]: [[Micaiah & Sothe: Bound Hero Battle|M & S]].",
+        "appearances": [
+            "S2031_BGM",
+            "S2032_BGM",
+            "S2033_BGM",
+            "S2034_BGM"
+        ]
+    },
+    {
+        "title": "Distant Roads",
+        "titleJPJA": "遥かなる道",
+        "filename": "bgm_map_FE08_02.ogg",
+        "notes": "Played in Book II, Chapter 4: [[Story Maps#Chapter 4: Fiery Resolve|Fiery Resolve]], [[Bound Hero Battle]]: [[Innes & Eirika: Bound Hero Battle|I & E]], and [[Eirika: Graceful Resolve (map)|Eirika: Graceful Resolve]].",
+        "appearances": [
+            "S2041_BGM",
+            "S2042_BGM",
+            "S2043_BGM",
+            "S2044_BGM"
+        ]
+    },
+    {
+        "title": "Disquieting Steps",
+        "titleJPJA": "不穏の足音",
+        "filename": "bgm_map_FE15_06.ogg",
+        "notes": "Played in Book II, Chapter 5: [[Blood and Snow]], [[Gharnef: Dark Pontifex (map)|Gharnef: Dark Pontifex]], and [[Delthea: Tatarrah's Puppet (map)|Delthea: Tatarrah's Puppet]].",
+        "appearances": [
+            "S2051_BGM",
+            "S2052_BGM",
+            "S2053_BGM",
+            "S2054_BGM"
+        ]
+    },
+    {
+        "title": "Divine Decree (Ablaze)",
+        "titleJPJA": "天命～炎",
+        "filename": "bgm_map_FE13_06.ogg",
+        "notes": "Played in Book II, Chapter 6: [[The True Quarry]] and [[Walhart: The Conqueror (map)|Walhart: The Conqueror]].",
+        "appearances": [
+            "S2061_BGM",
+            "S2062_BGM",
+            "S2063_BGM",
+            "S2064_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_06"
+    },
+    {
+        "title": "Leif's Army, In Search of Victory - Base",
+        "titleJPJA": "リーフ軍、勝利を求めて　ベース",
+        "filename": "bgm_map_FE05_01.ogg",
+        "notes": "Played in Book II, Chapter 7: [[Story Maps#Chapter 9: Snow and Ash|Snow and Ash]], as well as various Hero Battles and [[Heroic Ordeals]] for Heroes that appear in {{FE|5}}.",
+        "appearances": [
+            "S2071_BGM",
+            "S2072_BGM",
+            "S2073_BGM",
+            "S2074_BGM"
+        ]
+    },
+    {
+        "title": "Black Fang",
+        "titleJPJA": "黒い牙",
+        "filename": "bgm_map_FE07_04.ogg",
+        "notes": "Played in Book II, Chapter 10: [[Story Maps#Chapter 10: The King's Demise|The King's Demise]] and [[Linus: Mad Dog (map)|Linus: Mad Dog]].<br>{{Shop music}}",
+        "appearances": [
+            "S2101_BGM",
+            "S2102_BGM",
+            "S2103_BGM",
+            "S2104_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE07_01"
+    },
+    {
+        "title": "Chapter 2 Disturbance in Augustria",
+        "titleJPJA": "第2章（アグストリアの動乱）",
+        "filename": "bgm_map_FE04_06.ogg",
+        "notes": "Played in Book II, Chapter 12: [[Story Maps#Chapter 12: Seeping Poison|Seeping Poison]].",
+        "appearances": [
+            "S2121_BGM",
+            "S2122_BGM",
+            "S2123_BGM",
+            "S2124_BGM"
+        ]
+    },
+    {
+        "title": "Dark Wastes (Fire)",
+        "titleJPJA": "光亡き荒野の果てに～焔",
+        "filename": "bgm_map_FE14_07.ogg",
+        "notes": "Played in Book II, Chapter 13: [[A Way Home]].",
+        "appearances": [
+            "S2131_BGM",
+            "S2132_BGM",
+            "S2133_BGM",
+            "S2134_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_07"
+    },
+    {
+        "title": "A Test of Will",
+        "titleJPJA": "力試す時",
+        "filename": "bgm_map_FE10_03.ogg",
+        "notes": "Played in Book III, Chapter 3: [[Story Maps#Chapter 3: Countdown|Countdown]], [[Naesala: Sky's Shadow (map)|Naesala: Sky's Shadow]], [[Bound Hero Battle]]: [[Tibarn & Caineghis: Bound Hero Battle|T & C]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|9}}.",
+        "appearances": [
+            "S3031_BGM",
+            "S3032_BGM",
+            "S3033_BGM",
+            "S3034_BGM"
+        ]
+    },
+    {
+        "title": "Beneath a New Light (Roy's Courage)",
+        "titleJPJA": "新たなる光の下へ（ロイの勇気）",
+        "bpm": "",
+        "filename": "bgm_map_FE06_03.ogg",
+        "notes": "Played in Book III, Chapter 5: [[A Father's Legacy]] and [[Bound Hero Battle]]: [[Fae & Idunn: Bound Hero Battle|F & I]].",
+        "appearances": [
+            "S3051_BGM",
+            "S3052_BGM",
+            "S3053_BGM",
+            "S3054_BGM"
+        ]
+    },
+    {
+        "title": "Bearer of Hope",
+        "titleJPJA": "強き思いここに",
+        "filename": "bgm_map_FE10_05.ogg",
+        "notes": "Played in Book III, Chapter 6: [[Realm of the Dead]].",
+        "appearances": [
+            "S3061_BGM",
+            "S3062_BGM",
+            "S3064_BGM",
+            "S3065_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE10_05"
+    },
+    {
+        "title": "Land Below (Flow)",
+        "titleJPJA": "沈み逝く王国～濫",
+        "filename": "bgm_map_FE14_13.ogg",
+        "notes": "Played in Book III, Chapter 7: [[A Home Unknown]].|",
+        "appearances": [
+            "S3071_BGM",
+            "S3072_BGM",
+            "S3073_BGM",
+            "S3074_BGM"
+        ]
+    },
+    {
+        "title": "Tearing Through Heaven",
+        "titleJPJA": "天裂く流星",
+        "filename": "bgm_map_FE16_02.ogg",
+        "notes": "Played in Book III, Chapter 10: [[Story Maps#Chapter 10: Omnicidal Witch|Omnicidal Witch]] and [[Death Knight: The Reaper (map)|Death Knight: The Reaper]] and [[Solon: Church Shadow (map)|Solon: Church Shadow]].",
+        "appearances": [
+            "S3101_BGM",
+            "S3102_BGM",
+            "S3103_BGM",
+            "S3104_BGM"
+        ]
+    },
+    {
+        "title": "Valor Everlasting",
+        "titleJPJA": "栄光は永遠に",
+        "filename": "bgm_map_FE03_02.ogg",
+        "notes": "Played in Book III, Chapter 11: [[Where It Began]]. This song is the version from {{EntryText|2}}, and is a remix of 遠征 from {{FE|3}}.",
+        "appearances": [
+            "S3111_BGM",
+            "S3112_BGM",
+            "S3113_BGM",
+            "S3114_BGM"
+        ]
+    },
+    {
+        "title": "Fairy Waltz",
+        "titleJPJA": "フェアリィワルツ",
+        "filename": "bgm_event_happy1.ogg",
+        "notes": "Played during cutscenes in [[Ljósálfheimr]] and in [[Tempest Trials]]: [[New Treasures]] and [[True Luxury?]].",
+        "titleId": "MID_MUSIC_NAME_BGM_EVENT_HAPPY_01",
+        "appearances": [
+            "S4031_MID_SCENARIO_OPENING_BGM",
+            "S4055_MID_SCENARIO_ENDING_BGM",
+            "S4061_MID_SCENARIO_OPENING_BGM",
+            "S4071_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Chapter 6: Inheritors of Light",
+        "titleJPJA": "第6章（光をつぐもの）",
+        "filename": "bgm_map_FE04_09.ogg",
+        "notes": "Played in Book IV, Chapter 3: [[Gullinkambi]].",
+        "appearances": [
+            "S4031_BGM",
+            "S4032_BGM",
+            "S4033_BGM",
+            "S4034_BGM"
+        ]
+    },
+    {
+        "title": "Distant Travels",
+        "titleJPJA": "はるかなる旅路",
+        "filename": "bgm_map_FE07_08.ogg",
+        "notes": "Played in Book IV, Chapter 4 [[On Dark Wings]].",
+        "appearances": [
+            "S4041_BGM",
+            "S4042_BGM",
+            "S4043_BGM",
+            "S4044_BGM"
+        ]
+    },
+    {
+        "title": "Tempest of Seasons",
+        "titleJPJA": "嵐は巡る",
+        "filename": "bgm_map_FE16_04.ogg",
+        "notes": "Played in Book IV, Chapter 5 [[Twisted Reality]], and various Hero Battle maps for Heroes that appear in {{EntryText|12}}.",
+        "appearances": [
+            "S4052_BGM",
+            "S4053_BGM",
+            "S4054_BGM",
+            "S4055_BGM"
+        ]
+    },
+    {
+        "title": "Justice RIP (Storm)",
+        "titleJPJA": "正義は此処に～颯",
+        "filename": "bgm_map_FE14_15.ogg",
+        "notes": "Played in Book IV, Chapter 6: [[Dreaming Reality]].",
+        "appearances": [
+            "S4062_BGM",
+            "S4063_BGM",
+            "S4064_BGM",
+            "S4065_BGM"
+        ]
+    },
+    {
+        "title": "\"Don't speak her name!\"",
+        "titleJPJA": "貴様らが...姉さんの言葉を語るな!",
+        "filename": "bgm_map_FE13_13.ogg",
+        "notes": "Played in Book IV, Chapter 8: [[Wallowing in Love]]. This version skips the intro.",
+        "appearances": [
+            "S4081_BGM",
+            "S4082_BGM",
+            "S4083_BGM",
+            "S4084_BGM"
+        ]
+    },
+    {
+        "title": "-",
+        "titleJPJA": "戦い果てることなく",
+        "filename": "bgm_map_FE12_03.ogg",
+        "notes": "Played in Book IV, Chapter 9: [[Violent Fantasies]].",
+        "appearances": [
+            "S4091_BGM",
+            "S4092_BGM",
+            "S4093_BGM",
+            "S4094_BGM"
+        ]
+    },
+    {
+        "title": "Chasing Daybreak",
+        "titleJPJA": "野望の地平",
+        "filename": "bgm_map_FE16_06.ogg",
+        "notes": "Played in Book IV, Chapter 10: [[Lack (chapter)|Lack]].",
+        "appearances": [
+            "S4101_BGM",
+            "S4102_BGM",
+            "S4103_BGM",
+            "S4104_BGM"
+        ]
+    },
+    {
+        "title": "The First Fight",
+        "titleJPJA": "Ｔｈｅ　Ｆｉｒｓｔ　Ｆｉｇｈｔ",
+        "filename": "bgm_map_FE09_06.ogg",
+        "notes": "Played in Book IV, Chapter 11: [[Story_Maps#Chapter_11:_Plumeria.27s_Dream|Plumeria's Dream]].",
+        "appearances": [
+            "S4111_BGM",
+            "S4112_BGM",
+            "S4113_BGM",
+            "S4114_BGM"
+        ]
+    },
+    {
+        "title": "Blue Skies and Battle",
+        "titleJPJA": "鷲獅子たちの蒼穹",
+        "filename": "bgm_map_FE16_07.ogg",
+        "notes": "Played in Book IV, Chapter 12: [[Story_Maps#Chapter_12:_Triandra.27s_Dream|Triandra's Dream]].",
+        "appearances": [
+            "S4121_BGM",
+            "S4122_BGM",
+            "S4123_BGM",
+            "S4125_BGM"
+        ]
+    },
+    {
+        "title": "Rise Above",
+        "titleJPJA": "苦境を乗り越えて",
+        "filename": "bgm_map_FE08_05.ogg",
+        "notes": "Plays in Book V, Chapter 2: [[Story Maps#Chapter 2: Kingsbrother|Kingsbrother]].",
+        "appearances": [
+            "S5021_BGM",
+            "S5022_BGM",
+            "S5023_BGM",
+            "S5024_BGM"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "第4章（空を舞う）",
+        "filename": "bgm_map_FE04_11.ogg",
+        "notes": "Played in Book V, Chapter 4: [[Story Maps#Chapter 4: The Vital Blade|The Vital Blade]].",
+        "appearances": [
+            "S5041_BGM",
+            "S5042_BGM",
+            "S5043_BGM",
+            "S5044_BGM"
+        ]
+    },
+    {
+        "title": "Corridors of the Tempest",
+        "titleJPJA": "風塵回廊",
+        "filename": "bgm_map_FE16_09.ogg",
+        "notes": "Plays in Book V, Chapter 5: [[Story Maps#Chapter 5: Day and Night|Day and Night]].",
+        "appearances": [
+            "S5051_BGM",
+            "S5052_BGM",
+            "S5053_BGM",
+            "S5054_BGM"
+        ]
+    },
+    {
+        "title": "Scars of the Scouring",
+        "titleJPJA": "人竜戦役のきずあと（烈火Ｖｅｒ）",
+        "filename": "bgm_map_FE07_09.ogg",
+        "notes": "Played in Book V, Chapter 6: [[Story Maps#Chapter 6: Treachery|Treachery]].",
+        "appearances": [
+            "S5061_BGM",
+            "S5062_BGM",
+            "S5063_BGM",
+            "S5064_BGM"
+        ]
+    },
+    {
+        "title": "The Long Road",
+        "titleJPJA": "遠き道",
+        "filename": "bgm_map_FE16_10.ogg",
+        "notes": "Played in Book V, Chapter 7: [[Story Maps#Chapter 7: Bound Elsewhere|Bound Elsewhere]].",
+        "appearances": [
+            "S5071_BGM",
+            "S5072_BGM",
+            "S5073_BGM",
+            "S5074_BGM"
+        ]
+    },
+    {
+        "title": "Undiscovered Horizons",
+        "titleJPJA": "まだ見ぬ地平へ",
+        "filename": "bgm_map_FE15_09.ogg",
+        "notes": "Played in Book V, Chapter 8: [[Story Maps#Chapter 8:Serpent's Whispers|Serpent's Whispers]].",
+        "appearances": [
+            "S5082_BGM",
+            "S5083_BGM",
+            "S5084_BGM",
+            "S5085_BGM"
+        ]
+    },
+    {
+        "title": "Eyes of Rage",
+        "titleJPJA": "憤怒の目",
+        "filename": "bgm_mns_FE10_06.ogg",
+        "notes": "Plays during a cutscene in Book V, Chapter 11: [[Story Maps#Chapter 11: Deceit|Deceit]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE10_06",
+        "appearances": [
+            "S5111_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6061_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6113_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7091_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "A Hero's Destiny",
+        "titleJPJA": "英雄の宿命",
+        "filename": "bgm_map_FE11_03.ogg",
+        "notes": "Played in Book V, Chapter 12: [[Story Maps#Chapter 12: What Remains|What Remains]].",
+        "appearances": [
+            "S5121_BGM",
+            "S5122_BGM",
+            "S5123_BGM",
+            "S5124_BGM"
+        ]
+    },
+    {
+        "title": "Congregation of Ambition",
+        "titleJPJA": "Ｃｏｎｇｒｅｇａｔｉｏｎ　ｏｆ　Ａｍｂｉｔｉｏｎ",
+        "filename": "bgm_map_FE09_07.ogg",
+        "notes": "Played in Book V, Chapter 13: [[Story_Maps#Chapter_13:_Specter_of_Ni.C3.B0avellir|Specter of Niðavellir]].",
+        "appearances": [
+            "S5131_BGM",
+            "S5132_BGM",
+            "S5133_BGM",
+            "S5134_BGM"
+        ]
+    },
+    {
+        "title": "Champion (Ablaze)",
+        "titleJPJA": "強者〜炎",
+        "filename": "bgm_map_FE13_16.ogg",
+        "notes": "Played in Book VI, Chapter 2: [[Story Maps#Chapter 2: Curse Directive|Curse Directive]].",
+        "appearances": [
+            "S6021_BGM",
+            "S6022_BGM",
+            "S6023_BGM",
+            "S6024_BGM"
+        ]
+    },
+    {
+        "title": "Anxiety",
+        "titleJPJA": "緊迫",
+        "filename": "bgm_mns_FE16_13.ogg",
+        "notes": "Plays during a cutscene in Book VI, Chapter 2: [[Story Maps#Chapter 2: Curse Directive|Curse Directive]].",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE16_13",
+        "appearances": [
+            "S6014_MID_SCENARIO_OPENING_BGM",
+            "S6111_MID_SCENARIO_OPENING_BGM",
+            "S7031_MID_SCENARIO_OPENING_BGM",
+            "S7063_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Scars of the Scouring (Roy's Fear)",
+        "titleJPJA": "人竜戦役のきずあと（ロイの畏れ）",
+        "filename": "bgm_map_FE06_10.ogg",
+        "notes": "Played in Book VI, Chapter 4: [[Story Maps#Chapter 4: Princess Alone|Princess Alone]].",
+        "appearances": [
+            "S6041_BGM",
+            "S6042_BGM",
+            "S6043_BGM",
+            "S6044_BGM"
+        ]
+    },
+    {
+        "title": "Forest of Wandering",
+        "titleJPJA": "彷徨の森",
+        "filename": "bgm_mns_FE15_10.ogg",
+        "notes": "Played in [[Brother's Friends|Tempest Trials+: Brother's Friends]], and in scenes featuring {{Ut|Embla: God of Closure}}.",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE15_10",
+        "appearances": [
+            "S6063_MID_SCENARIO_ENDING_BGM",
+            "S6112_MID_SCENARIO_ENDING_BGM",
+            "S7065_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7073_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Leif's Army in Search of Victory - Advance A",
+        "titleJPJA": "リーフ軍,勝利を求めて 進撃A",
+        "filename": "bgm_map_FE05_04.ogg",
+        "notes": "Played in Book VI, Chapter 5: [[Story Maps#Chapter 5: Evil Ways|Evil Ways]].",
+        "appearances": [
+            "S6051_BGM",
+            "S6052_BGM",
+            "S6053_BGM",
+            "S6054_BGM"
+        ]
+    },
+    {
+        "title": "Chapter 9 For Whose Sake",
+        "titleJPJA": "第9章（誰がために）",
+        "filename": "bgm_map_FE04_03.ogg",
+        "notes": "Played in Book VI, Chapter 6: [[Story Maps#Chapter 6: Revealing Lies|Revealing Lies]].",
+        "appearances": [
+            "S6061_BGM",
+            "S6062_BGM",
+            "S6063_BGM",
+            "S6064_BGM"
+        ]
+    },
+    {
+        "title": "A Funeral of Flowers",
+        "titleJPJA": "花片の葬列",
+        "filename": "bgm_map_FE16_13.ogg",
+        "notes": "Played in Book VI, Chapter 7: [[Story Maps#Chapter 7: To Be Emperor|To Be Emperor]].",
+        "appearances": [
+            "S6071_BGM",
+            "S6072_BGM",
+            "S6073_BGM",
+            "S6074_BGM"
+        ]
+    },
+    {
+        "title": "Chasing the Wind on the Plains",
+        "titleJPJA": "平野に風を追いかけて",
+        "filename": "bgm_map_FE15_11.ogg",
+        "notes": "Played in Book VI, Chapter 9: [[Story Maps#Chapter 9: Opening a Way|Opening a Way]].",
+        "appearances": [
+            "S6091_BGM",
+            "S6092_BGM",
+            "S6093_BGM",
+            "S6094_BGM"
+        ]
+    },
+    {
+        "title": "Between Heaven and Earth",
+        "titleJPJA": "天と地の境界",
+        "filename": "bgm_map_FE16_15.ogg",
+        "notes": "Played in Book VI, Chapter 10: [[Story Maps#Chapter 10: God of Openness|God of Openness]].",
+        "appearances": [
+            "S6101_BGM",
+            "S6102_BGM",
+            "S6103_BGM",
+            "S6104_BGM"
+        ]
+    },
+    {
+        "title": "Annihilation (Galvanized)",
+        "titleJPJA": "凶襲〜鋼",
+        "filename": "bgm_map_FE13_18.ogg",
+        "notes": "Played in Book VI, Chapter 12: [[Story Maps#Chapter 12: Princess and Prince|Princess and Prince]].",
+        "appearances": [
+            "S6121_BGM",
+            "S6122_BGM",
+            "S6123_BGM",
+            "S6124_BGM"
+        ]
+    },
+    {
+        "title": "Preparations: Reunion",
+        "titleJPJA": "戦備　邂逅",
+        "filename": "bgm_mns_FE15_11.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE15_11",
+        "appearances": [
+            "S6133_MID_SCENARIO_OPENING_BGM",
+            "S7054_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7082_MID_SCENARIO_OPENING_BGM",
+            "S7091_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "The Dragon's Table",
+        "titleJPJA": "竜の祭壇",
+        "filename": "bgm_map_FE03_06.ogg",
+        "notes": "Played in Book VI, Chapter 13: [[Story Maps#Chapter 13: Askr and Embla|Askr and Embla]].",
+        "appearances": [
+            "S6131_BGM",
+            "S6132_BGM",
+            "S6133_BGM",
+            "S6134_BGM"
+        ]
+    },
+    {
+        "title": "A Dark Fall (Fire)",
+        "titleJPJA": "譬え闇に堕ちるとも～焔",
+        "filename": "bgm_map_FE14_20.ogg",
+        "notes": "Played in Book VII, Chapter 13: [[Story Maps#Chapter 13: Time|Time]].",
+        "appearances": [
+            "S7011_BGM",
+            "S7012_BGM",
+            "S7013_BGM",
+            "S7014_BGM"
+        ]
+    },
+    {
+        "title": "Proud Flight",
+        "titleJPJA": "殊勝の翔り",
+        "filename": "bgm_map_FE10_13.ogg",
+        "notes": "Played in Book VII, Chapter 7: [[Story Maps#Chapter 7: Goddess Reunion|Goddess Reunion]].",
+        "appearances": [
+            "S7041_BGM",
+            "S7042_BGM",
+            "S7043_BGM",
+            "S7044_BGM"
+        ]
+    },
+    {
+        "title": "Will-Equal People (Roy's Battle)",
+        "titleJPJA": "志ひとしき者たち（ロイの戦い）",
+        "filename": "bgm_map_FE06_05.ogg",
+        "notes": "Played in Book VII, Chapter 4: [[Story Maps#Chapter 4: Ouroboros|Ouroboros]].",
+        "appearances": [
+            "S7081_BGM",
+            "S7082_BGM",
+            "S7083_BGM",
+            "S7084_BGM"
+        ]
+    },
+    {
+        "title": "Winds of Askr",
+        "titleJPJA": "ウィンドオブアスク",
+        "filename": "bgm_map_Brave_01.ogg",
+        "notes": "Played in various maps involving Askr.",
+        "appearances": [
+            "S0001_BGM",
+            "S0002_BGM",
+            "S0103_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_01"
+    },
+    {
+        "title": "Chapter 3 Eldigan, the Lionheart",
+        "titleJPJA": "第３章（獅子王エルトシャン）",
+        "filename": "bgm_map_FE04_05.ogg",
+        "notes": "Played in Book II, Chapter 9: [[Story Maps#Chapter 9: Hellfire|Hellfire]].",
+        "appearances": [
+            "S2092_BGM",
+            "S2093_BGM",
+            "S2094_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE04_05"
+    },
+    {
+        "title": "Duty (Ablaze)",
+        "titleJPJA": "使命〜炎",
+        "filename": "bgm_map_FE13_07.ogg",
+        "notes": "Played in Book II, Chapter 11: [[Prince of Ice]] and [[Bound Hero Battle]]: [[Cherche & Virion: Bound Hero Battle|C & V]].",
+        "appearances": [
+            "S2112_BGM",
+            "S2113_BGM",
+            "S2114_BGM"
+        ]
+    },
+    {
+        "title": "Aggression (Galvanised)",
+        "titleJPJA": "強襲〜鋼",
+        "filename": "bgm_map_FE13_12.ogg",
+        "notes": "Played in Book III, Chapter 8: [[Truth of a Name]].",
+        "appearances": [
+            "S3082_BGM",
+            "S3083_BGM",
+            "S3084_BGM"
+        ]
+    },
+    {
+        "title": "Glory to Grannvale",
+        "titleJPJA": "栄光なるグランベル",
+        "filename": "bgm_mns_FE04_01.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE04_01",
+        "appearances": [
+            "S5044_MID_SCENARIO_OPENING_BGM",
+            "S6091_MID_SCENARIO_ENDING_BGM",
+            "S6101_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Courage in Numbers",
+        "titleJPJA": "朋輩の勇戦",
+        "filename": "bgm_map_FE15_07.ogg",
+        "notes": "Played in Book III, Chapter 12: [[Story_Maps#Chapter_12:_Lethal_Swordsman|Lethal Swordsman]].",
+        "appearances": [
+            "S3122_BGM",
+            "S3123_BGM",
+            "S3124_BGM"
+        ]
+    },
+    {
+        "title": "Matching the Dead",
+        "titleJPJA": "マッチングザデッド",
+        "filename": "bgm_boss5.ogg",
+        "notes": "Played during combat animations against Hel boss units during [[Story Maps#Chapter 13: Marvelous Dream|Book III, Chapter 13: Marvelous Dream]].",
+        "appearances": [
+            "S3133_BGM2",
+            "S3134_BGM2",
+            "S3135_BGM2"
+        ]
+    },
+    {
+        "title": "Lyon (Organ Arrangement)",
+        "titleJPJA": "リオン（オルゴールアレンジ）",
+        "filename": "bgm_mns_FE08_03.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE08_03",
+        "appearances": [
+            "S5131_MID_SCENARIO_OPENING_BGM",
+            "S6074_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6121_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Road of Sorrow",
+        "titleJPJA": "翻弄の道",
+        "filename": "bgm_map_FE10_08.ogg",
+        "notes": "Played in Book IV, Chapter 7: [[Steeped in Twilight]].",
+        "appearances": [
+            "S4072_BGM",
+            "S4073_BGM",
+            "S4074_BGM"
+        ]
+    },
+    {
+        "title": "",
+        "titleJPJA": "雄大なる自然の中へ（ロイの遠征）",
+        "filename": "bgm_map_FE06_08.ogg",
+        "notes": "Played in Book IV, Chapter 13: [[Story_Maps#Chapter_13:_Reality|Reality]].",
+        "appearances": [
+            "S4131_BGM",
+            "S4132_BGM",
+            "S4133_BGM"
+        ]
+    },
+    {
+        "title": "Going Forward",
+        "titleJPJA": "進むべき道",
+        "filename": "bgm_mns_FE12_04.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE12_04",
+        "appearances": [
+            "S5012_MID_SCENARIO_OPENING_BGM",
+            "S6051_MID_SCENARIO_OPENING_BGM",
+            "S7063_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "\"Someone has to save you from your good intentions.\"",
+        "titleJPJA": "...そんな方法が,本当にうまくいくのか?",
+        "filename": "bgm_mns_FE13_08.ogg",
+        "notes": "Played in [[Love of Family|Tempest Trials+: Love of Family]].",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE13_08",
+        "appearances": [
+            "S5051_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5105_MID_SCENARIO_ENDING_BGM",
+            "S6012_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Brother and Sister",
+        "titleJPJA": "兄妹",
+        "filename": "bgm_mns_FE15_07.ogg",
+        "notes": "Played in [[Luthier & Delthea: Bound Hero Battle]], and during a cutscene in Book V, Chapter 12.<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE15_07",
+        "appearances": [
+            "S5061_MID_SCENARIO_ENDING_BGM",
+            "S5125_MID_SCENARIO_ENDING_BGM",
+            "S6044_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Gods, have the Risen spread this far?",
+        "titleJPJA": "こんなところにも,屍兵が...!",
+        "filename": "bgm_mns_FE13_10.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE13_10",
+        "appearances": [
+            "S5093_MID_SCENARIO_ENDING_BGM",
+            "S6065_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7024_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Battle: Destiny",
+        "titleJPJA": "戦いの中で 運命",
+        "filename": "bgm_mns_FE05_05.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE05_05",
+        "appearances": [
+            "S5115_MID_SCENARIO_OPENING_BGM",
+            "S6115_MID_SCENARIO_ENDING_BGM",
+            "S7085_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "The Shackled Wolves",
+        "titleJPJA": "鉑鎖の群狼",
+        "filename": "bgm_map_FE16_12.ogg",
+        "notes": "Played in Book V, Chapter 11: [[Story Maps#Chapter 11: Deceit|Deceit]] and [[Aelfric: Custodian Monk (map)|Aelfric: Custodian Monk]].",
+        "appearances": [
+            "S5112_BGM",
+            "S5113_BGM",
+            "S5114_BGM"
+        ]
+    },
+    {
+        "title": "Follow Me!",
+        "titleJPJA": "Ｆｏｌｌｏｗ　ｍｅ！",
+        "filename": "bgm_map_FE08_08.ogg",
+        "notes": "Played in Book VI, Chapter 3: [[Story Maps#Chapter 3: Calling of Blood|Calling of Blood]].",
+        "appearances": [
+            "S6032_BGM",
+            "S6033_BGM",
+            "S6034_BGM"
+        ]
+    },
+    {
+        "title": "Serenity",
+        "titleJPJA": "静穏",
+        "filename": "bgm_mns_FE15_08.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE15_08",
+        "appearances": [
+            "S6081_MID_SCENARIO_ENDING_BGM",
+            "S7021_MID_SCENARIO_ENDING_BGM",
+            "S7062_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Inescapable Fate",
+        "titleJPJA": "課せられた運命とともに",
+        "filename": "bgm_map_FE07_12.ogg",
+        "notes": "Played in Book VI, Chapter 8: [[Story Maps#Chapter 8: Closing In|Closing In]] and Book VII, Chapter 1: [[Story Maps#Chapter 1: Golden Seer|Golden Seer]].",
+        "appearances": [
+            "S6082_BGM",
+            "S6083_BGM",
+            "S6084_BGM"
+        ]
+    },
+    {
+        "title": "I Swear By My Sword",
+        "titleJPJA": "我が剣に誓って",
+        "filename": "bgm_map_FEM_08.ogg",
+        "notes": "Played in Book VI, Chapter 11: [[Story Maps#Chapter 11: One Last Chance|One Last Chance]].",
+        "appearances": [
+            "S6111_BGM",
+            "S6112_BGM",
+            "S6114_BGM"
+        ]
+    },
+    {
+        "title": "Flickering Illusion",
+        "titleJPJA": "揺蕩う幻",
+        "filename": "bgm_mns_FE14_15.ogg",
+        "notes": "Played during various Book VII cutscenes.<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE14_15",
+        "appearances": [
+            "S7051_MID_SCENARIO_OPENING_BGM",
+            "S7061_MID_SCENARIO_OPENING_BGM",
+            "S7081_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Roar of Dominion",
+        "titleJPJA": "覇の轟き",
+        "filename": "bgm_map_FE16_18.ogg",
+        "notes": "Played in Book VII, Chapter 3: [[Story Maps#Chapter 3: Within Wheels|Within Wheels]].",
+        "appearances": [
+            "S7072_BGM",
+            "S7073_BGM",
+            "S7074_BGM"
+        ]
+    },
+    {
+        "title": "Royal Confidence (Might)",
+        "titleJPJA": "王家の矜持～剛",
+        "filename": "bgm_map_FE17_15.ogg",
+        "notes": "Played in Book VII, Chapter 9: [[Story Maps#Chapter 9: The Innocent|The Innocent]].",
+        "appearances": [
+            "S7092_BGM",
+            "S7093_BGM",
+            "S7094_BGM"
+        ]
+    },
+    {
+        "title": "Breidablik",
+        "titleJPJA": "ブレイザブリク",
+        "filename": "bgm_menu_theme01.ogg",
+        "notes": "Played during combat animations against {{Ut|Veronica: Emblian Princess}}, {{Ut|Fjorm: Princess of Ice}}, boss units in Legendary and Mythic Hero Battles starting from [[Lyn: Lady of the Wind (map)|Lyn: Lady of the Wind]] and onwards, and [[Heroic Ordeals]] for heroes that appear in {{EntryText|0}}.",
+        "appearances": [
+            "S1005_BGM2",
+            "S2021_BGM2"
+        ]
+    },
+    {
+        "title": "Contract",
+        "titleJPJA": "コントラクト",
+        "filename": "bgm_summon_common.ogg",
+        "notes": "Played when [[Summoning Heroes]]. This is a remix of [https://feheroes.fandom.com/wiki/File:Bgm_mns_FE01_03.ogg ストーリー５　出会い].",
+        "titleId": "MID_MUSIC_NAME_BGM_SUMMON_COMMON",
+        "appearances": [
+            "S0002_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3134_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Advance",
+        "titleJPJA": "進撃",
+        "filename": "bgm_map_FE12_01.ogg",
+        "notes": "Played in [[Prologue]] 1, as well as various Hero Battles and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|1}}.",
+        "appearances": [
+            "S0101_BGM",
+            "S0102_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE06_02"
+    },
+    {
+        "title": "A Battle and a Beginning",
+        "titleJPJA": "Ａ　Ｂａｔｔｌｅ　ａｎｄ　ａ　Ｂｅｇｉｎｎｉｎｇ",
+        "filename": "bgm_map_FE09_01.ogg",
+        "notes": "Played in Book I, Chapter 10: [[World of Radiance]], [[Bound Hero Battle]]: [[Titania & Mist: Bound Hero Battle|T & M]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|8}}.",
+        "appearances": [
+            "S1101_BGM",
+            "S1105_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE09_01"
+    },
+    {
+        "title": "For Victory",
+        "titleJPJA": "Ｆｏｒ　Ｖｉｃｔｏｒｙ",
+        "filename": "bgm_mns_FE09_04.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE09_04",
+        "appearances": [
+            "S5015_MID_SCENARIO_ENDING_BGM",
+            "S7023_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Far from Arcadia",
+        "titleJPJA": "はるかなる理想郷",
+        "filename": "bgm_mns_FE06_01.ogg",
+        "notes": "Plays in [[Fae: Childlike Dragon (map)|Fae: Childlike Dragon]] and during a cutscene in Book IV, Chapter 13: [[Story Maps#Chapter 13: Reality|Reality]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE06_01",
+        "appearances": [
+            "S4134_MID_SCENARIO_ENDING_BGM",
+            "S6064_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Archanean Overture",
+        "titleJPJA": "アカネイア序曲",
+        "filename": "bgm_mns_FE03_01.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE03_01",
+        "appearances": [
+            "S5094_MID_SCENARIO_OPENING_BGM",
+            "S6015_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "At Peace",
+        "titleJPJA": "心穏やかなるとき",
+        "filename": "bgm_mns_FE10_03.ogg",
+        "notes": "Played in [[A_Waltz_Unending|Tempest Trials+: A Waltz Unending]].",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE10_03",
+        "appearances": [
+            "S5051_MID_SCENARIO_OPENING_BGM",
+            "S7042_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "\"But, Frederick, it's nearly dark!\"",
+        "titleJPJA": "泊らせてもらおうよ?ね?",
+        "filename": "bgm_mns_FE13_05.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE13_05",
+        "appearances": [
+            "S5045_MID_SCENARIO_ENDING_BGM",
+            "S7065_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "A Momentary Peace",
+        "titleJPJA": "ひとときの安らぎ",
+        "filename": "bgm_mns_FE12_05.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE12_05",
+        "appearances": [
+            "S6131_MID_SCENARIO_ENDING_BGM",
+            "S7063_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Golden Deer and Crescent Moon",
+        "titleJPJA": "金鹿と三日月",
+        "filename": "bgm_mns_FE16_11.ogg",
+        "notes": "Plays during a cutscene in Book V, Chapter 6: [[Story Maps#Chapter 6: Treachery|Treachery]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE16_11",
+        "appearances": [
+            "S5062_MID_SCENARIO_OPENING_BGM",
+            "S5091_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "The Black Knight",
+        "titleJPJA": "Ｔｈｅ　Ｄａｒｋ　Ｋｎｉｇｈｔ",
+        "filename": "bgm_map_FE09_03.ogg",
+        "notes": "Played in [[Tempest Trials]]: [[Moment of Fate]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FE09_03_NI",
+        "appearances": [
+            "S1403_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "More Fan Fest",
+        "titleJPJA": "モアファンフェスト",
+        "filename": "bgm_map_fes_02.ogg",
+        "notes": "Played in various 2018 Paralogues involving Special Heroes and [[Tempest Trials]]: [[Breath of Destiny]].",
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_FES_02",
+        "appearances": [
+            "S3094_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "\"You have power... like mine.\"",
+        "titleJPJA": "力を感じる…私たちと同じ力…",
+        "filename": "bgm_map_FE13_10.ogg",
+        "notes": "Played in [[Tiki: Legendary Dragon (map)|Tiki: Legendary Dragon]] and [[Naga: Dragon Divinity (map)|Naga: Dragon Divinity]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE13_02",
+        "appearances": [
+            "S6101_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Cats at Play",
+        "titleJPJA": "忘我な夢",
+        "filename": "bgm_map_FE10_04.ogg",
+        "notes": "Played in [[Tempest Trials+]]: [[To Defy the Gods]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE10_02",
+        "appearances": [
+            "S5031_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Wonderful Pirates",
+        "titleJPJA": "Ｗｏｎｄｅｒｆｕｌ　Ｐｉｒａｔｅｓ",
+        "filename": "bgm_map_FE09_05.ogg",
+        "notes": "Played in Paralogues 49: [[Paralogue Maps#Paralogue 49: Pirate's Pride|Pirate's Pride]] Paralogue 62: [[Paralogue Maps#Paralogue 49: Perilous Seas|Perilous Seas]], and [[Tempest Trials+]]: [[A Promise of Joy]]. {{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE09_08",
+        "appearances": [
+            "S5045_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "As You Will It",
+        "titleJPJA": "御心のままに",
+        "filename": "bgm_mns_FE15_04.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE15_04",
+        "appearances": [
+            "S7115_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Melancholy Wyvern Generals Theme",
+        "titleJPJA": "Ｍｅｌａｎｃｈｏｌｙ～三竜将のテーマ",
+        "bpm": "",
+        "filename": "bgm_map_FE06_06.ogg",
+        "notes": "Played in [[Tempest Trials+]]: [[Sands of Time]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE06_05",
+        "appearances": [
+            "S5055_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Deity Hammer",
+        "titleJPJA": "ダイティハンマー",
+        "filename": "bgm_menu_mjollnir.ogg",
+        "notes": "Played in the [[Mjölnir's Strike]] menu.",
+        "titleId": "MID_MUSIC_NAME_BGM_MENU_MJOLLNIR",
+        "appearances": [
+            "S5104_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "The Archsage Athos",
+        "titleJPJA": "大賢者アトス",
+        "filename": "bgm_mns_FE07_04.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE07_04",
+        "appearances": [
+            "S5041_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Awakening",
+        "titleJPJA": "覚醒",
+        "filename": "bgm_map_FE16_03.ogg",
+        "notes": "Played in [[Tempest Trials+]]: [[For a Smile]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE16_10",
+        "appearances": [
+            "S7085_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Suspicious Wyvern Generals Theme",
+        "titleJPJA": "Ｓｕｓｐｉｃｉｏｕｓ　～三竜将のテーマ",
+        "filename": "bgm_map_FE06_07.ogg",
+        "notes": "Played in [[Full-Bloom Bout|Tempest Trials+: Full-Bloom Bout]]",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE06_04",
+        "appearances": [
+            "S7055_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Neutiquam Erro",
+        "titleJPJA": "道標に光そそぎて",
+        "filename": "bgm_mns_FE10_04.ogg",
+        "notes": "Played in [[Summer_Two-Piece|Tempest Trials+: Summer Two-Piece]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE10_04",
+        "appearances": [
+            "S6075_MID_SCENARIO_MAP_BEGIN_BGM"
+        ]
+    },
+    {
+        "title": "Dew and Patty",
+        "titleJPJA": "デュー＆パティ",
+        "filename": "bgm_mns_FE04_05.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE04_05",
+        "appearances": [
+            "S7065_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Quiet Days",
+        "titleJPJA": "Ｑｕｉｅｔ　Ｄａｙｓ",
+        "filename": "bgm_mns_FE09_06.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE09_06",
+        "appearances": [
+            "S7041_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Legend of the Dragon God (A)",
+        "titleJPJA": "神竜伝説（Ａ）",
+        "filename": "bgm_mns_FE03_02.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE03_02",
+        "appearances": [
+            "S6132_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Echoes",
+        "titleJPJA": "Ｅｃｈｏｅｓ",
+        "filename": "bgm_mns_FE15_06.ogg",
+        "notes": "Plays during a cutscene in Book IV, Chapter 13: [[Story Maps#Chapter 13:_Reality|Reality]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE15_06",
+        "appearances": [
+            "S4133_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Guardian of Starlight",
+        "titleJPJA": "星影の守り人",
+        "filename": "bgm_mns_FE16_07.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE16_07",
+        "appearances": [
+            "S7064_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "We should turn in for the night",
+        "titleJPJA": "今日はもう休みましょう",
+        "filename": "bgm_mns_FE13_07.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE13_07",
+        "appearances": [
+            "S5061_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Sorrow",
+        "titleJPJA": "Ｓａｄｎｅｓｓ　ｔｉｍｅ",
+        "filename": "bgm_mns_FE08_05.ogg",
+        "notes": "Played in [[Familiar_Stranger|Tempest Trials+: Familiar Stranger]] and [[Myrrh: Guardian Dragon (map)|Myrrh: Guardian Dragon]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE08_05",
+        "appearances": [
+            "S5135_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Id (Serenity)",
+        "titleJPJA": "「Ｉ」〜安",
+        "filename": "bgm_mns_FE13_11.ogg",
+        "notes": "Played in [[Abiding Love|Tempest Trials+: Abiding Love]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE13_11",
+        "appearances": [
+            "S6105_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Battle: Advance",
+        "titleJPJA": "戦いの中で 進撃",
+        "filename": "bgm_mns_FE05_06.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE05_06",
+        "appearances": [
+            "S6093_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "An Ordinary Day",
+        "titleJPJA": "日常",
+        "filename": "bgm_mns_FE15_09.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE15_09",
+        "appearances": [
+            "S7042_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "Coming Demise",
+        "titleJPJA": "その来たるべき終焉を",
+        "filename": "bgm_mns_FE14_14.ogg",
+        "notes": "Played in a cutscene in Book VI, Chapter 11: [[Story Maps#Chapter 11: One Last Chance|One Last Chance]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE14_14",
+        "appearances": [
+            "S6134_MID_SCENARIO_ENDING_BGM"
+        ]
+    },
+    {
+        "title": "The Mind of Izuka",
+        "titleJPJA": "奇才イズカ",
+        "filename": "bgm_mns_FE10_08.ogg",
+        "notes": "{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE10_08",
+        "appearances": [
+            "S6124_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Shocking Truth II",
+        "titleJPJA": "驚愕の事実Ⅱ",
+        "filename": "bgm_mns_FE07_08.ogg",
+        "notes": "Played in a cutscene in Book VI, Chapter 13: [[Story Maps#Chapter 13: Askr and Embla|Askr and Embla]].",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE07_08",
+        "appearances": [
+            "S6135_MID_SCENARIO_OPENING_BGM"
+        ]
+    },
+    {
+        "title": "Mighty Governance",
+        "titleJPJA": "軍事国家",
+        "filename": "bgm_mns_FE17_16.ogg",
+        "notes": "Played in a cutscene in Book VII, Chapter 8: [[Story Maps#Chapter 8: Seeing the Present|Seeing the Present]].<br>{{Shop music}}",
+        "titleId": "MID_MUSIC_NAME_BGM_MNS_FE17_16",
+        "appearances": [
+            "S7055_MID_SCENARIO_OPENING_BGM"
+        ]
+    }
+]

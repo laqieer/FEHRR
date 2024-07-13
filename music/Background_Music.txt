@@ -1,0 +1,497 @@
+List of the background music in {{FE|H}}. For an automatically-generated list of which maps play which songs, see [[/Appearances]].
+==List==
+Many songs are taken from other ''Fire Emblem'' games, and some songs are original to {{EntryText|0}}. The filename column uses the exact filename from the game's files.
+<!-- Note to editors: When filling in a notes section please add /general/ notes to avoid clutter, specific appearances for every little thing is covered by the /Appearances page. -->
+{| class="wikitable sortable" style="text-align: center"
+! rowspan="2" style="width: 12%" | Filename
+! colspan="2" style="width: 23%" |Title
+! rowspan="2" style="width: 40%" | Notes
+! rowspan="2" style="width: 25%" class="unsortable" | Audio
+|-
+!English
+!Japanese
+|-
+{{BGMTableRow|title=-|titleJPJA=-|filename=bgm_amb_username.ogg|notes=Played in cutscenes, on the first orb selection screen during summoning, and during the nickname entering screen.}}
+{{BGMTableRow|title=Fire Emblem{{\n}}Main Theme{{\n}}(Heroes Ver.)|titleJPJA=ファイアーエムブレム{{\n}}メインテーマ{{\n}}（Ｖｅｒ．Ｈｅｒｏｅｓ）|filename=bgm_menu_title.ogg|notes=Plays on the title screen.|isRegional=1}}
+{{BGMTableRow|title=Gear Up For...|titleJPJA=ギアアップフォー|filename=bgm_menu_normal.ogg|notes=Played in the [[Home Screen]] and various menus.}}
+{{BGMTableRow|title|unofficial=Hard Negotiation|titleJPJA=ハードネゴシエィション|filename=bgm_battle_boss.ogg|notes=Played during combat animations against boss units during Book I, and boss units in [[Hero Battles]], [[Grand Hero Battles]], and [[Tempest Trials]].}}
+{{BGMTableRow|title|unofficial=Defense|titleJPJA=ディフェンス|filename=bgm_battle_enemy.ogg|notes=Played during the [[enemy phase]].}}
+{{BGMTableRow|title|unofficial=Offense|titleJPJA=オフェンス|filename=bgm_battle_player.ogg|notes=Played during combat animations on the [[player phase]].}}
+{{BGMTableRow|title|unofficial=Breidablik|titleJPJA=ブレイザブリク|filename=bgm_menu_theme01.ogg|notes=Played during combat animations against {{Ut|Veronica: Emblian Princess}}, {{Ut|Fjorm: Princess of Ice}}, boss units in Legendary and Mythic Hero Battles starting from [[Lyn: Lady of the Wind (map)|Lyn: Lady of the Wind]] and onwards, and [[Heroic Ordeals]] for heroes that appear in {{EntryText|0}}.}}
+{{BGMTableRow|title=Order of Heroes|titleJPJA=ヴァイスブレイヴ|filename=bgm_event_plain1.ogg|notes=Played during cutscenes.}}
+{{BGMTableRow|title|unofficial=Victory|titleJPJA=ヴィクトリィ|filename=bgm_event_plain2.ogg|notes=Played during cutscenes.}}
+{{BGMTableRow|title|unofficial=Carry Over|titleJPJA=キャリィオーバー|filename=bgm_event_plain3.ogg|notes=Played during cutscenes.}}
+{{BGMTableRow|title|unofficial=Invasion|titleJPJA=インヴァージョン |filename=bgm_event_serious1.ogg|notes=Played during cutscenes with a tense mood.}}
+{{BGMTableRow|title=Veronica|titleJPJA=ヴェロニカ|filename=bgm_event_serious2.ogg|notes=Played during cutscenes featuring {{Ut|Veronica: Emblian Princess}} and in [[Tempest Trials+]]: [[Royal Treasures]].}}
+{{BGMTableRow|title|unofficial=Solitary|titleJPJA=ソリタリィ|filename=bgm_event_serious3.ogg|notes=Played during cutscenes with a somber mood.}}
+{{BGMTableRow|title=Winds of Askr|titleJPJA=ウィンドオブアスク|filename=bgm_map_Brave_01.ogg|notes=Played in various maps involving Askr.}}
+{{BGMTableRow|title=The Grandeur of Askr|titleJPJA=グランドオブアスク|filename=bgm_map_Brave_02.ogg|notes=Played in various maps involving Askr, and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|0}}.}}
+{{BGMTableRow|title=Last Phase|titleJPJA=ラストフェイズ|filename=bgm_map_Brave_03.ogg|notes=Played in Book I, Chapter 9-5: [[Princess of Death]]; Book II, Chapter 2-5: [[Ruler of Flame]], 7-5: [[Snow and Ash]], 10-5: [[The King's Demise]], and 13-5: [[Surtr, Ruler of Flame]].}}
+{{BGMTableRow|title|unofficial=Contract|titleJPJA=コントラクト|filename=bgm_summon_common.ogg|notes=Played when [[Summoning Heroes]]. This is a remix of [https://feheroes.fandom.com/wiki/File:Bgm_mns_FE01_03.ogg ストーリー５　出会い].}}
+{{BGMTableRow|title=Under This Banner|titleJPJA=この旗の下に|filename=bgm_map_FE03_01.ogg|notes=Played in Book I, Chapter 5: [[Back to Mystery]] and [[Marth: Hero-King (map)|Marth: Hero-King]].}}
+{{BGMTableRow|title=Beyond Distant Skies - Roy's Departure|titleJPJA=はるかなる空の向こうに{{\n}}～ロイの旅立ち|filename=bgm_map_FE06_01.ogg|notes=Played in Book I, Chapter 3: [[World of Binding]], as well as various Hero Battles and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|5}}.}}
+{{BGMTableRow|title=Precious Things|titleJPJA=大切なもの|filename=bgm_map_FE07_01.ogg|notes=Played in Book I, Chapter 7: [[World of Blazing]], [[Ursula: Blue Crow (map)|Ursula: Blue Crow]], [[Lloyd: White Wolf (map)|Lloyd: White Wolf]], [[Eliwood: Blazing Knight (map)|Eliwood: Blazing Knight]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|6}}}}
+{{BGMTableRow|title=The Time to Act|titleJPJA=決起のとき|filename=bgm_map_FE11_01.ogg|notes=Played in Book I, Chapter 1: [[World of Mystery]], [[Camus: Sable Knight (map)|Camus: Sable Knight]], and [[Michalis: Ambitious King (map)|Michalis: Ambitious King]].}}
+{{BGMTableRow|title=Advance|titleJPJA=進撃|filename=bgm_map_FE12_01.ogg|notes=Played in [[Prologue]] 1, as well as various Hero Battles and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|1}}.}}
+{{BGMTableRow|title=Destiny (Ablaze)|titleJPJA=宿命～炎|filename=bgm_map_FE13_01.ogg|notes=Played in Book I, Chapter 8: [[Back to Awakening]] and [[Robin: Mystery Tactician (map)|Robin: Mystery Tactician]].}}
+{{BGMTableRow|title=Prelude (Ablaze)|titleJPJA=序幕～炎|filename=bgm_map_FE13_02.ogg|notes=Played in Book I, Chapter 4: [[World of Awakening]], [[Panne: Proud Taguel (map)|Panne: Proud Taguel]], and [[Bound Hero Battle]]: [[Chrom & Lissa: Bound Hero Battle|C & L]].}}
+{{BGMTableRow|title=Far Dawn (Storm)|titleJPJA=遠い夜明け～颯|filename=bgm_map_FE14_01.ogg|notes=Played in Book I, Chapter 6: [[World of Birthright]], [[Bound Hero Battle]]: [[Takumi & Hinoka: Bound Hero Battle|T & H]] and [[Corrin & Kana: Bound Hero Battle|C & K]], and [[Ryoma: Supreme Samurai (map)|Ryoma: Supreme Samurai]].}}
+{{BGMTableRow|title=Dusk Falls (Fire)|titleJPJA=黄昏をつれて～焔|filename=bgm_map_FE14_02.ogg|notes=Played in Book I, Chapter 2: [[World of Conquest]], [[Xander: Paragon Knight (map)|Xander: Paragon Knight]], [[Kana: Dragon Spawn (map)|Kana: Dragon Spawn]], [[Garon: King of Nohr (map)|Garon: King of Nohr]] and [[Bound Hero Battles]]: [[Corrin & Azura: Bound Hero Battle|C & A]] and [[Leo & Elise: Bound Hero Battle|L & E]]}}
+{{BGMTableRow|title=Fan Fest|titleJPJA=ファンフェスト|filename=bgm_map_fes_01.ogg|notes=Played in various 2017 Paralogues involving Special Heroes.}}
+{{BGMTableRow|title=Cast Your Vote|titleJPJA=キャストアバロット|filename=bgm_menu_post.ogg|notes=Played in the [[Voting Gauntlet]] menu.}}
+{{BGMTableRow|title=Winds across the Plains|titleJPJA=草原の風|filename=bgm_map_FE07_02.ogg|notes=Played in Paralogue 3: [[Blazing Shadows]], [[Bound Hero Battle]]: [[Lyn & Florina: Bound Hero Battle| L & F]], and [[Lyn: Lady of the Wind (map)|Lyn: Lady of the Wind]].}}
+{{BGMTableRow|title=March to Deliverance|titleJPJA=解放への勇進|filename=bgm_map_FE15_01.ogg|notes=Played in Paralogue 5: [[World of Shadows]], [[Bound Hero Battle]]: [[Alm & Celica: Bound Hero Battle|A & C]] and [[Alm & Faye: Bound Hero Battle|A & F]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|2}}.}}
+{{BGMTableRow|title=A Battle and a Beginning|titleJPJA=Ａ　Ｂａｔｔｌｅ　ａｎｄ　ａ　Ｂｅｇｉｎｎｉｎｇ|filename=bgm_map_FE09_01.ogg|notes=Played in Book I, Chapter 10: [[World of Radiance]], [[Bound Hero Battle]]: [[Titania & Mist: Bound Hero Battle|T & M]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|8}}.}}
+{{BGMTableRow|title=With Mila's Divine Protection|titleJPJA=ミラの加護とともに|filename=bgm_map_FE15_02.ogg|notes=Played in Book I, Chapter 11: [[Rite of Shadows]].}}
+{{BGMTableRow|title=Quiet Burn (Roar)|titleJPJA=謐かに燃える闘志～轟|filename=bgm_map_FE14_t.ogg|notes=Played in [[Trial Maps]] and [[Tactics Drills]].}}
+{{BGMTableRow|title=Chaos (Ablaze)|titleJPJA=混沌〜炎|filename=bgm_map_FE13_03.ogg|notes=Played in [[Tempest Trials]]: [[Dark Clouds over Awakening]] and [[Aversa: Dark One (map)|Aversa: Dark One]].}}
+{{BGMTableRow|title|unofficial=In A Row|titleJPJA=インアロウ|filename=bgm_menu_succession.ogg|notes=Played in [[Tempest Trials]], and in unit selection menus during [[Arena Assault]], [[Chain Challenge]] and [[Squad Assault]].}}
+{{BGMTableRow|title|unofficial=Another Menace|titleJPJA=アナザーメナス|filename=bgm_event_serious4.ogg|notes=Played during cutscenes featuring [[Múspell]] and {{Ut|Loki: The Trickster}}. Also plays in [[Tempest Trials+]]: [[Loki's Flames]] and Xenologue 4: [[Whispers of Death]].}}
+{{BGMTableRow|title=Those Who Dare to Change History|titleJPJA=新たなる歴史を刻む者|filename=bgm_map_FE12_02.ogg|notes=Played in Paralogue 7: [[Echoes of Mystery]], [[Legion: Masked Maniac (map)|Legion: Masked Maniac]] and [[Clarisse: Sniper in the Dark (map)|Clarisse: Sniper in the Dark]].}}
+{{BGMTableRow|title=What Lies at the End|titleJPJA=往く地の果てには|filename=bgm_map_FE15_03.ogg|notes=Played in Book I, Chapter 12: [[Bitter Enemies]], [[Berkut: Prideful Prince (map)|Berkut: Prideful Prince]], and [[Alm: Saint-King (map)|Alm: Saint-King]].}}
+{{BGMTableRow|title=The Sacrifice and the Saint|titleJPJA=贄と聖女|filename=bgm_map_FE15_04.ogg|notes=Played in Book VII, Chapter 12: [[Story Maps#Chapter 12: Seer of the Past|Seer of the Past]], [[Conrad: Masked Knight (map)|Conrad: Masked Knight]], [[Celica: Queen of Valentia (map)|Celica: Queen of Valentia]] and [[Tempest Trials]]: [[Resonating Fangs]].}}
+{{BGMTableRow|title=The Dauntless Blade|titleJPJA=恐れを知らぬ白刃の|filename=bgm_battle_FE15_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|2}}.}}
+{{BGMTableRow|title=Attack!|titleJPJA=Ａｔｔａｃｋ！|filename=bgm_battle_FE06_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|5}}.}}
+{{BGMTableRow|title=Twilight of the Gods|titleJPJA=神よ、その黄昏よ|filename=bgm_map_FE15_05.ogg|notes=The version in Heroes skips around 70 seconds of the beginning of the original. Played in [[Tempest Trials]]: [[Reunited at Last]], [[Duma: God of Strength (map)|Duma: God of Strength]], and [[Mila: Goddess of Love (map)|Mila: Goddess of Love]].}}
+{{BGMTableRow|title=Truth, Despair, and Hope|titleJPJA=﻿真実　絶望　そして希望|filename=bgm_map_FE08_01.ogg|notes=Played in Paralogue 10: [[The Sacred World]], as well as various Hero Battles and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|7}}.}}
+{{BGMTableRow|title=Friendship and Adventure|titleJPJA=友情と使命と勇気と|filename=bgm_map_FE07_03.ogg|notes=Played in [[Tempest Trials Mini]]: [[To Die on the Battlefield]], [[Hector: Marquess of Ostia (map)|Hector: Marquess of Ostia]], and [[Bound Hero Battles]]: [[Ninian & Hawkeye: Bound Hero Battle|N & H]], [[Raven & Lucius: Bound Hero Battle|R & L]], and [[Matthew & Hector: Bound Hero Battle|M & H]].}}
+{{BGMTableRow|title=Attack|titleJPJA=攻撃|filename=bgm_battle_FE08_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|7}}.}}
+{{BGMTableRow|title=The Black Knight|titleJPJA=Ｔｈｅ　Ｄａｒｋ　Ｋｎｉｇｈｔ|filename=bgm_map_FE09_03.ogg|notes=Played in [[Tempest Trials]]: [[Moment of Fate]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Friendship|titleJPJA=フレンドシップ|filename=bgm_menu_friend1.ogg|notes=Played during the [[Ally Support|Ally]]/[[Summoner Support]] C, B, and A cutscenes and the [[Forging Bonds]] menu.}}
+{{BGMTableRow|title|unofficial=Partnership|titleJPJA=パートナーシップ|filename=bgm_menu_friend2.ogg|notes=Played when Heroes reach [[Ally Support|Ally]]/[[Summoner Support]] S.}}
+{{BGMTableRow|title=Brave Heroes|titleJPJA=ブレイヴヒーローズ|filename=bgm_map_popularity_01.ogg|notes=Played in various Paralogues involving Brave Heroes and high-ranking characters from [[Choose Your Legends]] polls.}}
+{{BGMTableRow|title=Greil Mercenaries|titleJPJA=Ｇｒｅｉｌ’ｓ　Ｍｅｒｃｅｎａｒｉｅｓ|filename=bgm_map_FE09_02.ogg|notes=Played in Book I, Chapter 13: [[Diabolical Bloodline]], [[Oliver: Admirer of Beauty (map)|Oliver: Admirer of Beauty]], and [[Bound Hero Battle]]: [[Elincia & Nephenee: Bound Hero Battle|E & N]].}}
+{{BGMTableRow|title=Strike|titleJPJA=攻撃|filename=bgm_battle_FE07_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|6}}.}}
+{{BGMTableRow|title=Prelude (Warm Blaze)|titleJPJA=序幕～快炎|filename=bgm_map_FEM_01.ogg|notes=Played in [[Part 1: Warriors]]. This song is a remix of Prelude (Ablaze) from {{EntryText|10}}.}}
+{{BGMTableRow|title=Duty (Deep Blaze)|titleJPJA=使命～深炎|filename=bgm_map_FEM_02.ogg|notes=Played in [[Part 2: Warriors]]. This song is a remix of Duty (Ablaze) from {{EntryText|10}}.}}
+{{BGMTableRow|title=No Justice (Hoshidan Fire)|titleJPJA=正義は何処に～白焔|filename=bgm_map_FEM_03.ogg|notes=Played in [[Part 3: Warriors]]. This song is a remix of No Justice (Fire) from {{EntryText|11}}.}}
+{{BGMTableRow|title=Road Taken (Roar)|titleJPJA=いつかきた旅路～轟轟|filename=bgm_map_FEM_04.ogg|notes=Played in [[Part 4: Warriors]]. This song is a remix of Road Taken (Roar) from {{EntryText|11}}.}}
+{{BGMTableRow|title=Justice RIP (Nohrian Storm)|titleJPJA=正義は此処に～暗颯|filename=bgm_map_FEM_05.ogg|notes=Played in [[Part 5: Warriors]]. This song is a remix of Justice RIP (Storm) from {{EntryText|11}}.}}
+{{BGMTableRow|title=-|unofficial=Prescience|titleJPJA=先の先|filename=bgm_battle_FE12_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|1}}.}}
+{{BGMTableRow|title=Prologue{{\n}}Birth of a Holy Knight|titleJPJA=序章（聖騎士誕生）|filename=bgm_map_FE04_01.ogg|notes=Played in Paralogue 13: [[World of Holy War]], [[Arvis: Emperor of Flame (map)|Arvis: Emperor of Flame]], [[Jamke: Prince of Verdane (map)|Jamke: Prince of Verdane]], and [[Heroic Ordeals]] for heroes that appear in {{FE|4}}.}}
+{{BGMTableRow|title=Epilogue: End of the Holy War|titleJPJA=終章（最後の聖戦）|filename=bgm_map_FE04_04.ogg|notes=Played in [[Tempest Trials]]: [[Genealogy of Light]], [[Julius: Scion of Darkness (map)|Julius: Scion of Darkness]], [[Bound Hero Battle]]: [[Seliph & Julia: Bound Hero Battle|S & J]], and [[Julia: Crusader of Light (map)|Julia: Crusader of Light]].}}
+{{BGMTableRow|title=The Path Is Yours to Climb|titleJPJA=その手が拓く未来は|filename=bgm_battle_FE14_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|11}}.}}
+{{BGMTableRow|title=His Father's Son|titleJPJA=Ｈｉｓ　Ｆａｔｈｅｒ’ｓ　Ｓｏｎ|filename=bgm_map_FE09_04.ogg|notes=Played in [[Tempest Trials]]: [[Less Than Heroic]] and [[Tempest Trials+]]: [[Greil's Request]].}}
+{{BGMTableRow|title|unofficial=Heat Cracking|titleJPJA=ヒートクラッキング|filename=bgm_boss3.ogg|notes=Played during combat animations against Múspell boss units and {{Ut|Loki: The Trickster}} during Book II, as well as against the Røkkr in [[Røkkr Sieges]].}}
+{{BGMTableRow|title=Return To Nifl|titleJPJA=リターントゥニフル|filename=bgm_map_FEH_04.ogg|notes=Played in various Book II maps, [[Tempest Trials Mini]]: [[Shrouded by the Storm]], and [[Hríd: Icy Blade (map)|Hríd: Icy Blade]].}}
+{{BGMTableRow|title=Conquest (Ablaze)|titleJPJA=遠征～炎|filename=bgm_map_FE13_04.ogg|notes=Played in [[Tempest Trials]]: [[A Gift of Peace]], [[Bound Hero Battle]]: [[Tiki & Nowi: Bound Hero Battle|T & N]], [[Lucina: Glorious Archer (map)|Lucina: Glorious Archer]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|10}}.}}
+{{BGMTableRow|title=Homesick (Light)|titleJPJA=望郷・光|filename=bgm_map_FE14_05.ogg|notes=Played in Paralogue 17: [[Happy New Year!]] and 29: [[New Year's Wish]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Dark Traveler|titleJPJA=闇の旅人|filename=bgm_map_FE10_01.ogg|notes=Played in Book II, Chapter 3: [[Guided by a Dream]], [[Yune: Chaos Goddess (map)|Yune: Chaos Goddess]], and [[Bound Hero Battle]]: [[Micaiah & Sothe: Bound Hero Battle|M & S]].}}
+{{BGMTableRow|title=End of All (Land)|titleJPJA=すべての路の果てに～地|filename=bgm_map_FE14_04.ogg|notes=Played in [[Tempest Trials Mini]]: [[Stepping into the New Year]] and [[Takumi: Empty Vessel (map)|Takumi: Empty Vessel]]. This is a shortened version of the original music track.|isRegional=1}}
+{{BGMTableRow|title=Distant Roads|titleJPJA=遥かなる道|filename=bgm_map_FE08_02.ogg|notes=Played in Book II, Chapter 4: [[Story Maps#Chapter 4: Fiery Resolve|Fiery Resolve]], [[Bound Hero Battle]]: [[Innes & Eirika: Bound Hero Battle|I & E]], and [[Eirika: Graceful Resolve (map)|Eirika: Graceful Resolve]].}}
+{{BGMTableRow|title=Opening Title (Demo)|titleJPJA=オープニング　タイトル～デモ|filename=bgm_map_FE01_01.ogg|notes=Played in [[Special Training Maps]].<br>{{Shop music}}}}
+{{BGMTableRow|title=More Fan Fest|titleJPJA=モアファンフェスト|filename=bgm_map_fes_02.ogg|notes=Played in various 2018 Paralogues involving Special Heroes and [[Tempest Trials]]: [[Breath of Destiny]].}}
+{{BGMTableRow|title=-|titleJPJA=-|filename=BGM_TEST_RHY.ogg|notes=Played while making adjustments to the input timing in [[Tap Battle]].}}
+{{BGMTableRow|title=Rest & Indulgence|titleJPJA=癒しと誘惑の泉|filename=bgm_menu_spa1.ogg|notes=Played after beating the final floor of [[Labyrinth of Mists]], when the units enter the hot springs.}}
+{{BGMTableRow|title=Onward! (Reprise)|titleJPJA=戦闘マップ１～回奏|filename=bgm_map_FEM_06.ogg|notes=Played in [[Shadow Dragon (Event)|Shadow Dragon]] maps. This song is a remix of {{Hover|Battle Map 1: Player Side's Attack|Unofficial translation of “戦闘マップ１　プレイヤー側の攻撃”}} from {{FE|1}}.}}
+{{BGMTableRow|title=Disquieting Steps|titleJPJA=不穏の足音|filename=bgm_map_FE15_06.ogg|notes=Played in Book II, Chapter 5: [[Blood and Snow]], [[Gharnef: Dark Pontifex (map)|Gharnef: Dark Pontifex]], and [[Delthea: Tatarrah's Puppet (map)|Delthea: Tatarrah's Puppet]].}}
+{{BGMTableRow|title=Training (Galvanized)|titleJPJA=演習～鋼|filename=bgm_battle_FE13_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|10}}.}}
+{{BGMTableRow|title=Id (Purpose)|titleJPJA=「Ｉ」〜為|filename=bgm_map_FE13_05.ogg|notes=Played in [[Tempest Trials]]: [[Invisible Ties]] and [[Robin: Fell Vessel (map)|Robin: Fell Vessel]].}}
+{{BGMTableRow|title=Divine Decree (Ablaze)|titleJPJA=天命～炎|filename=bgm_map_FE13_06.ogg|notes=Played in Book II, Chapter 6: [[The True Quarry]] and [[Walhart: The Conqueror (map)|Walhart: The Conqueror]].}}
+{{BGMTableRow|title=Conquest (Flames)|titleJPJA=遠征～輝炎|filename=bgm_map_FEM_07.ogg|notes=Played in [[Awakening & Fates (Event)|Awakening & Fates]] maps. This song is a remix of Conquest (Ablaze) from {{EntryText|10}}.}}
+{{BGMTableRow|title|unofficial=Suppression|titleJPJA=サプレッション|filename=bgm_menu_suppression.ogg|notes=Played in [[Grand Conquests]].}}
+{{BGMTableRow|title=Leif's Army, In Search of Victory - Base|titleJPJA=リーフ軍、勝利を求めて　ベース|filename=bgm_map_FE05_01.ogg|notes=Played in Book II, Chapter 7: [[Story Maps#Chapter 9: Snow and Ash|Snow and Ash]], as well as various Hero Battles and [[Heroic Ordeals]] for Heroes that appear in {{FE|5}}.}}
+{{BGMTableRow|title=-|unofficial=Leif's Army, In Search of Victory - Advance B|titleJPJA=リーフ軍、勝利を求めて　進撃B|filename=bgm_map_FE05_02.ogg|notes=Played in [[Tempest Trials+: Thunder's Fist]] and [[Bound Hero Battle]]: [[Reinhardt & Ishtar: Bound Hero Battle|R & I]].}}
+{{BGMTableRow|title=Past Light (Storm)|titleJPJA=輝く大地を越えて～颯|filename=bgm_map_FE14_06.ogg|notes=Played in Book II, Chapter 8: [[Rite of Frost]].}}
+{{BGMTableRow|title=Chapter 3{{\n}}Eldigan, the Lionheart|titleJPJA=第３章（獅子王エルトシャン）|filename=bgm_map_FE04_05.ogg|notes=Played in Book II, Chapter 9: [[Story Maps#Chapter 9: Hellfire|Hellfire]].}}
+{{BGMTableRow|title=-|unofficial=Allied Attack|titleJPJA=味方の攻撃|filename=bgm_battle_FE04_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{FE|4}}.}}
+{{BGMTableRow|title=Black Fang|titleJPJA=黒い牙|filename=bgm_map_FE07_04.ogg|notes=Played in Book II, Chapter 10: [[Story Maps#Chapter 10: The King's Demise|The King's Demise]] and [[Linus: Mad Dog (map)|Linus: Mad Dog]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Dragon's Gate II|titleJPJA=竜の門Ⅰ|filename=bgm_map_FE07_05.ogg|notes=Played in [[Tempest Trials+]]: [[Feud of the Fangs]].}}
+{{BGMTableRow|title=Duty (Ablaze)|titleJPJA=使命〜炎|filename=bgm_map_FE13_07.ogg|notes=Played in Book II, Chapter 11: [[Prince of Ice]] and [[Bound Hero Battle]]: [[Cherche & Virion: Bound Hero Battle|C & V]].}}
+{{BGMTableRow|title=Main Theme (Summer) (No Voice)|titleJPJA=メインテーマ・夏 （ＯＦＦ　ＶＯＩＣＥ）|filename=bgm_map_FE13_08.ogg|notes=Played in [[Tempest Trials+: Sweet Dreams]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Dawn Brigade|titleJPJA=暁の団|filename=bgm_battle_FE10_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|9}}.}}
+{{BGMTableRow|title=Eternal Bond|titleJPJA=絆永久に|filename=bgm_map_FE10_02.ogg|notes=Played in [[Haar: Black Tempest (map)|Haar: Black Tempest]] and [[Bound Hero Battle]]: [[Ike & Soren: Bound Hero Battle|I & S]].}}
+{{BGMTableRow|title=Main Theme (Spa) (No Voice)|titleJPJA=メインテーマ・湯 （ＯＦＦ　ＶＯＩＣＥ）|filename=bgm_map_FE13_09.ogg|notes=Played in [[Tempest Trials+: Chaos Named]].}}
+{{BGMTableRow|title=Road Taken (Roar)|titleJPJA=いつかきた旅路～轟|filename=bgm_map_FE14_03.ogg|notes=Played in Paralogue 23: [[Festival in Hoshido]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|11}}.}}
+{{BGMTableRow|title=-|unofficial=Chapter 2{{\n}}Disturbance in Augustria|titleJPJA=第2章（アグストリアの動乱）|filename=bgm_map_FE04_06.ogg|notes=Played in Book II, Chapter 12: [[Story Maps#Chapter 12: Seeping Poison|Seeping Poison]].}}
+{{BGMTableRow|title=-|unofficial=Applying Justice ~ Attack|titleJPJA=正義をかけて　攻撃|filename=bgm_battle_FE05_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{FE|5}}.}}
+{{BGMTableRow|title=Chapter 5: Doorway to Destiny|titleJPJA=第5章（運命の扉）|filename=bgm_map_FE04_07.ogg|notes=Played in [[Tempest Trials+]]: [[Doorway to Destiny]].}}
+{{BGMTableRow|title=Dark Wastes (Fire)|titleJPJA=光亡き荒野の果てに～焔|filename=bgm_map_FE14_07.ogg|notes=Played in Book II, Chapter 13: [[A Way Home]].}}
+{{BGMTableRow|title="You have power... like mine."|titleJPJA=力を感じる…私たちと同じ力…|filename=bgm_map_FE13_10.ogg|notes=Played in [[Tiki: Legendary Dragon (map)|Tiki: Legendary Dragon]] and [[Naga: Dragon Divinity (map)|Naga: Dragon Divinity]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Storm Clouds (Ablaze)|titleJPJA=暗雲〜炎|filename=bgm_map_FE13_11.ogg|notes=Played in [[Tempest Trials+]]: [[Familiar Faces]]}}
+{{BGMTableRow|title=Desire Below|titleJPJA=水底の希求|filename=bgm_map_FE14_08.ogg|notes=Played in Paralogue 27: [[Adrift]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Climb the Sky|titleJPJA=クライムザスカイ|bpm=|filename=bgm_menu_skycastle.ogg|notes=Played in the [[Aether Raids]] menu.}}
+{{BGMTableRow|title=Desire Below (Flow)|titleJPJA=水底の希求～濫|filename=bgm_map_FE14_09.ogg|notes=Played in [[Arete: Requiem's Beauty (map)|Arete: Requiem's Beauty]] and [[Tempest Trials+]]: [[Before We Met...]]}}
+{{BGMTableRow|title|unofficial=Looming Death|titleJPJA=ルーミングデス|filename=bgm_event_serious5.ogg|notes=Played during cutscenes featuring [[Hel (realm)|Hel]] and with a dire mood.}}
+{{BGMTableRow|title=Clash|titleJPJA=Ｃｌａｓｈ|filename=bgm_battle_FE09_01.ogg|notes=Played during combat animations against boss units in [[Bound Hero Battles]] and [[Heroic Ordeals]] for heroes that appear in {{EntryText|8}}.}}
+{{BGMTableRow|title=Tragedy of Askr|titleJPJA=トラジディオブアスク|filename=bgm_map_FEH_05.ogg|notes=Played in various Book III maps, [[Thrasir: Omnicidal Witch (map)|Thrasir: Omnicidal Witch]], [[Líf: Lethal Swordsman (map)|Líf: Lethal Swordsman]], [[Hel: Death Sovereign (map)|Hel: Death Sovereign]], and [[Tempest Trials+]]: [[Life & Death Finale]].}}
+{{BGMTableRow|title=|unofficial=Fallen|titleJPJA=フォールン|filename=bgm_boss4.ogg|notes=Played during combat animations against Hel boss units during Book III.|isRegional=1}}
+{{BGMTableRow|title=Winning Road - Roy's Hope|titleJPJA=Ｗｉｎｎｉｎｇ　Ｒｏａｄ{{\n}}～ロイの希望|filename=bgm_map_FE06_02.ogg|notes=Played in [[Tempest Trials+]]: [[Life Is But Fleeting]] and [[Bound Hero Battle]]: [[Bartre & Fir: Bound Hero Battle|B & F]].}}
+{{BGMTableRow|title|unofficial=Fan Fest!!!|titleJPJA=ファンフェスト！！！|filename=bgm_map_fes_03.ogg|notes=Played in various 2019 Paralogues involving Special Heroes and [[Tempest Trials]]: [[An Alliance of Princesses]].}}
+{{BGMTableRow|title=A Test of Will|titleJPJA=力試す時|filename=bgm_map_FE10_03.ogg|notes=Played in Book III, Chapter 3: [[Story Maps#Chapter 3: Countdown|Countdown]], [[Naesala: Sky's Shadow (map)|Naesala: Sky's Shadow]], [[Bound Hero Battle]]: [[Tibarn & Caineghis: Bound Hero Battle|T & C]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|9}}.}}
+{{BGMTableRow|title=Bound by Fate (Sakura and Elise)|titleJPJA=ENISHI～サクラとエリーゼのために～|filename=bgm_map_FE14_10.ogg|notes=Played in [[Tempest Trials]]: [[Heating Things Up]].<br>{{Shop music}}}}
+{{BGMTableRow|title=-|titleJPJA=-|filename=bgm_tb_kari.ogg|notes=An [[Unused content|unused]] song that sounds similar, but not identical to {{BGMPage|bgm_battle_FE03_01.ogg}}.}}
+{{BGMTableRow|title=Path of the Hero-King|titleJPJA=英雄王の軌跡|filename=bgm_battle_FE03_01.ogg|notes=Played during the boss battle against {{Ut|Marth: Hero-King}} in [[Tap Battle]]: [[Carrying the Flame]]. Also plays in combat against boss units in [[Bound Hero Battle]]: [[Marth & Caeda: Bound Hero Battle|M & C]].}}
+{{BGMTableRow|title=Contest of Pride (Blast)|titleJPJA=矜持の競～爆|filename=bgm_map_FE14_11.ogg|notes=Played in Book III, Chapter 4: [[A King's Worth]].}}
+{{BGMTableRow|title=Beneath a New Light (Roy's Courage)|titleJPJA=新たなる光の下へ（ロイの勇気）|bpm=|filename=bgm_map_FE06_03.ogg|notes=Played in Book III, Chapter 5: [[A Father's Legacy]] and [[Bound Hero Battle]]: [[Fae & Idunn: Bound Hero Battle|F & I]].}}
+{{BGMTableRow|title=Cats at Play|titleJPJA=忘我な夢|filename=bgm_map_FE10_04.ogg|notes=Played in [[Tempest Trials+]]: [[To Defy the Gods]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Bearer of Hope|titleJPJA=強き思いここに|filename=bgm_map_FE10_05.ogg|notes=Played in Book III, Chapter 6: [[Realm of the Dead]].}}
+{{BGMTableRow|title=Sea Winds and Travelers|titleJPJA=潮風と旅人|filename=bgm_mns_FE15_01.ogg|notes=Played in the [[Aether Resort]].}}
+{{BGMTableRow|title=Knowledge (Roar)|titleJPJA=知恵の都～轟|filename=bgm_map_FE14_12.ogg|notes=Played in [[Tempest Trials+]]: [[Taste of Spring]].|}}
+{{BGMTableRow|title=Life Returns|titleJPJA=Ｌｉｆｅ　Ｒｅｔｕｒｎｓ|filename=bgm_tb_FE09_01.ogg|notes=Played in Floors 81-100 in [[Tap Battle]]: [[Heartstring's Ties]].}}
+{{BGMTableRow|title|unofficial=Sacrifice|titleJPJA=サクリファイス|filename=bgm_event_serious6.ogg|notes=Played during cutscenes with a sad mood. This theme is a slowed-down piano arrangement of {{BGMPage|bgm_map_Brave_01.ogg}}.}}
+{{BGMTableRow|title=Land Below (Flow)|titleJPJA=沈み逝く王国～濫|filename=bgm_map_FE14_13.ogg|notes=Played in Book III, Chapter 7: [[A Home Unknown]].|}}
+{{BGMTableRow|title=Binding Ties|titleJPJA=むすばれた約束（烈火Ｖｅｒ）|filename=bgm_map_FE07_06.ogg|notes=Played in [[Heath: Wandering Knight (map)|Heath: Wandering Knight]] and [[Tempest Trials+]]: [[The Holy Guard]].}}
+{{BGMTableRow|title=To a Foreign Land|titleJPJA=異境への轍|filename=bgm_mns_FE14_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Preparations: Deliverance|titleJPJA=戦備　解|filename=bgm_mns_FE15_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title="We'd best prepare for combat, just to be safe."|titleJPJA=ここで進撃の準備を{{\n}}整えましょう|filename=bgm_mns_FE13_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Rising Morale|titleJPJA=Ｒｉｓｉｎｇ　Ｍｏｒａｌｅ|filename=bgm_mns_FE09_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Preparations|titleJPJA=戦支度|filename=bgm_mns_FE11_01.ogg|notes={{Shop music|0}}}}
+{{BGMTableRow|title=Combat Preparation|titleJPJA=進撃準備|filename=bgm_mns_FE08_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Prepare to Charge|titleJPJA=進撃準備（烈火Ｖｅｒ）|filename=bgm_mns_FE07_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Aggression (Galvanised)|titleJPJA=強襲〜鋼|filename=bgm_map_FE13_12.ogg|notes=Played in Book III, Chapter 8: [[Truth of a Name]].}}
+{{BGMTableRow|title|unofficial=Shadows of Regret|titleJPJA=シャドウオブリグレット|filename=bgm_menu_hugeenemy.ogg|notes=Played in the [[Røkkr Sieges]] menu.}}
+{{BGMTableRow|title=Thracia 776 Sally Forth|titleJPJA=トラキア７７６ 出撃|filename=bgm_mns_FE05_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Wonderful Pirates|titleJPJA=Ｗｏｎｄｅｒｆｕｌ　Ｐｉｒａｔｅｓ|filename=bgm_map_FE09_05.ogg|notes=Played in Paralogues 49: [[Paralogue Maps#Paralogue 49: Pirate's Pride|Pirate's Pride]] Paralogue 62: [[Paralogue Maps#Paralogue 49: Perilous Seas|Perilous Seas]], and [[Tempest Trials+]]: [[A Promise of Joy]]. {{Shop music}}}}
+{{BGMTableRow|title=Going My Way|titleJPJA=﻿﻿Ｇｏｉｎｇ　Ｍｙ　Ｗａｙ|filename=bgm_map_FE07_07.ogg|notes=Played in [[Tempest Trials+]]: [[Lessons Learned]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Glory to Grannvale|titleJPJA=栄光なるグランベル|filename=bgm_mns_FE04_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Paths That Will Never Cross|titleJPJA=交わらぬ道|filename=bgm_battle_FE16_01.ogg|notes=Played during combat animations against boss units in [[Heroic Ordeals]] for heroes that appear in {{EntryText|12}}.}}
+{{BGMTableRow|title|unofficial=Painful Affection|titleJPJA=ペインフルアフェクション|filename=bgm_event_serious6b.ogg|notes=Played during cutscenes with a very sad mood.}}
+{{BGMTableRow|title=Fódlan Winds|titleJPJA=フォドラの暁風|filename=bgm_map_FE16_01.ogg|notes=Played in Book III, Chapter 9: [[Cohort of the Dead]], Book VII, Chapter 2: [[World of the Past]], [[Sothis: Girl on the Throne (map)|Sothis: Girl on the Throne]], [[Kronya: Gleaming Blade (map)|Kronya: Gleaming Blade]], and [[Heroic Ordeals]] for heroes that appear in {{EntryText|12}}.}}
+{{BGMTableRow|title=Fire Emblem: Three Houses Main Theme|titleJPJA=ファイアーエムブレム　風花雪月{{\n}}メインテーマ|filename=bgm_tb_FE16_01.ogg|notes=Played in Floors 1-40 in [[Tap Battle]]: [[Three Houses]].|isRegional=1}}
+{{BGMTableRow|title=The Edge of Dawn (Seasons of Warfare) (Short Version)|titleJPJA=フレスベルグの少女{{\n}}～風花雪月～|filename=bgm_tb_FE16_02.ogg|notes=Played in Floors 81-100 in [[Tap Battle]]: [[Three Houses]].|isRegional=1}}
+{{BGMTableRow|title=Tearing Through Heaven|titleJPJA=天裂く流星|filename=bgm_map_FE16_02.ogg|notes=Played in Book III, Chapter 10: [[Story Maps#Chapter 10: Omnicidal Witch|Omnicidal Witch]] and [[Death Knight: The Reaper (map)|Death Knight: The Reaper]] and [[Solon: Church Shadow (map)|Solon: Church Shadow]].}}
+{{BGMTableRow|title|unofficial=Path Roll On|titleJPJA=パスロールオン|filename=bgm_menu_results.ogg|notes=Played after collecting all of the pages in [[Lost Lore]].}}
+{{BGMTableRow|title|unofficial=Trip to Lost Lore|titleJPJA=トリップトゥロストロア|filename=bgm_menu_trip.ogg|notes=Played in the [[Lost Lore]] menu.}}
+{{BGMTableRow|title=Encounters and Reunions|titleJPJA=章の中で　出会い、再会|filename=bgm_mns_FE05_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=For Victory|titleJPJA=Ｆｏｒ　Ｖｉｃｔｏｒｙ|filename=bgm_mns_FE09_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Dance in the Dark|titleJPJA=宵闇に踊る|filename=bgm_mns_FE14_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Ascent|titleJPJA=過甚の神|filename=bgm_map_FE10_06.ogg|notes=Played in [[Altina: Dawn's Trueblade (map)|Altina: Dawn's Trueblade]] and [[Tempest Trials+]]: [[A Hero's Mettle]].}}
+{{BGMTableRow|title=The Heritors of Arcadia|titleJPJA=アルカディアの継ぎびと|filename=bgm_tb_FE15_01.ogg|notes=Played in Floors 81-100 in [[Tap Battle]]: [[Illusory Dungeon: Brave Heroes|Brave Heroes]].|isRegional=1}}
+{{BGMTableRow|title=Grannvale Castle Town|titleJPJA=城下町グランベル|filename=bgm_map_FE04_08.ogg|notes=Played in [[Tempest Trials+]]: [[Till Song's End]].}}
+{{BGMTableRow|title=Far from Arcadia|titleJPJA=はるかなる理想郷|filename=bgm_mns_FE06_01.ogg|notes=Plays in [[Fae: Childlike Dragon (map)|Fae: Childlike Dragon]] and during a cutscene in Book IV, Chapter 13: [[Story Maps#Chapter 13: Reality|Reality]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Sweet Victory|titleJPJA=勝利のよろこび|filename=bgm_mns_FE11_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=As Swift as Wind|titleJPJA=その疾きこと風の如く|filename=bgm_mns_FE16_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Valor Everlasting|titleJPJA=栄光は永遠に|filename=bgm_map_FE03_02.ogg|notes=Played in Book III, Chapter 11: [[Where It Began]]. This song is the version from {{EntryText|2}}, and is a remix of 遠征 from {{FE|3}}.}}
+{{BGMTableRow|title|unofficial=Skyscraper|titleJPJA=スカイスクレイパー|filename=bgm_menu_tenro.ogg|notes=Played in the [[Hall of Forms]] menu and in cutscenes featuring {{Ut|Thórr: War God}}.}}
+{{BGMTableRow|title=The Beginning|titleJPJA=すべては始まりのとき|filename=bgm_mns_FE08_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Story 6{{\n}}Marth and Caeda's Talk|titleJPJA=ストーリー６{{\n}}マルスとシーダの会話|filename=bgm_mns_FE01_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=As You Will It|titleJPJA=御心のままに|filename=bgm_mns_FE15_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=The Task at Hand|titleJPJA=備忘|filename=bgm_mns_FE10_01.ogg|notes=Played in [[Tempest Trials+]]: [[A Child's Wish]].}}
+{{BGMTableRow|title=Courage in Numbers|titleJPJA=朋輩の勇戦|filename=bgm_map_FE15_07.ogg|notes=Played in Book III, Chapter 12: [[Story_Maps#Chapter_12:_Lethal_Swordsman|Lethal Swordsman]].}}
+{{BGMTableRow|title|unofficial=Matching the Dead|titleJPJA=マッチングザデッド |filename=bgm_boss5.ogg|notes=Played during combat animations against Hel boss units during [[Story Maps#Chapter 13: Marvelous Dream|Book III, Chapter 13: Marvelous Dream]].}}
+{{BGMTableRow|title=Determination|titleJPJA=不動なる志|filename=bgm_map_FE08_03.ogg|notes=Played in Book III, Chapter 13: [[Marvelous Dream]] and Book VII, Chapter 8: [[Story Maps#Chapter 8: Seeing the Present|Seeing the Present]].}}
+{{BGMTableRow|title=Archanean Overture|titleJPJA=アカネイア序曲|filename=bgm_mns_FE03_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Life at Garreg Mach Monastery|titleJPJA=ガルグ＝マク大修道院の日常|filename=bgm_mns_FE16_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Melancholy<br>Wyvern Generals Theme|titleJPJA=Ｍｅｌａｎｃｈｏｌｙ～三竜将のテーマ|bpm=|filename=bgm_map_FE06_06.ogg|notes=Played in [[Tempest Trials+]]: [[Sands of Time]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Path of the Divine General|titleJPJA=『神将』をつぐ道（ロイの挑戦）|filename=bgm_map_FE06_04.ogg|notes=Played in Xenologue 5: [[Heavenly Witness]].}}
+{{BGMTableRow|title|unofficial=Fluttering Bloom|titleJPJA=フラッタリングブルーム|filename=bgm_boss6.ogg|notes=Played during combat animations against Dökkálfheimr boss units during Book IV.}}
+{{BGMTableRow|title|unofficial=Fairy Waltz|titleJPJA=フェアリィワルツ|filename=bgm_event_happy1.ogg|notes=Played during cutscenes in [[Ljósálfheimr]] and in [[Tempest Trials]]: [[New Treasures]] and [[True Luxury?]].}}
+{{BGMTableRow|title|unofficial=Suspicious|titleJPJA=サスピシャス|filename=bgm_event_serious7.ogg|notes=Played during cutscenes involving [[Dökkálfheimr]] and with a suspicious mood.}}
+{{BGMTableRow|title|unofficial=Lucid Dream|titleJPJA=ルシッドドリーム|filename=bgm_map_FEH_06.ogg|notes=Played in various Book IV maps, [[Plumeria: Lewd Dream (map)|Plumeria: Lewd Dream]] and [[Freyja & Triandra: Mythic Hero Battle]].}}
+{{BGMTableRow|title|unofficial=Deity Hammer|titleJPJA=ダイティハンマー|filename=bgm_menu_mjollnir.ogg|notes=Played in the [[Mjölnir's Strike]] menu.}}
+{{BGMTableRow|title=The Archsage Athos|titleJPJA=大賢者アトス|filename=bgm_mns_FE07_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Bonds Everlasting|titleJPJA=絆永遠に|filename=bgm_mns_FE12_02.ogg|notes=Plays during a cutscene in Book IV, Chapter 13:[[Story Maps#Chapter 13:Reality|Reality]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Awakening|titleJPJA=覚醒|filename=bgm_map_FE16_03.ogg|notes=Played in [[Tempest Trials+]]: [[For a Smile]].<br>{{Shop music}}}}
+{{BGMTableRow|title|unofficial=Fan Fest!!!!|titleJPJA=ファンフェスト！！！！|filename=bgm_map_fes_04.ogg|notes=Played in various 2020 Paralogues involving Special Heroes and [[Tempest Trials+]]: [[Mid-fest Digest]].}}
+{{BGMTableRow|title=Shine in the Light|titleJPJA=暁光に煌く|filename=bgm_mns_FE14_07.ogg|notes=Played in Paralogue 41: [[Paralogue Maps#Paralogue 41: Renewed Spirit|Renewed Spirit]] and 54: [[Paralogue Maps#Paralogue 54: Beyond Dreaming|Beyond Dreaming]].}}
+{{BGMTableRow|title=Chapter 6: Inheritors of Light|titleJPJA=第6章（光をつぐもの）|filename=bgm_map_FE04_09.ogg|notes=Played in Book IV, Chapter 3: [[Gullinkambi]].}}
+{{BGMTableRow|title=Silesse Castle Town|titleJPJA=城下町シレジア|filename=bgm_mns_FE04_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Young Warriors|titleJPJA=Ｙｏｕｎｇ　Ｗａｒｒｉｏｒｓ|filename=bgm_mns_FE09_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=As Fierce as Fire|titleJPJA=侵掠すること火の如く|filename=bgm_mns_FE16_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|unofficial=Session!!!|title=|titleJPJA=ＳＥＳＳＩＯＮ！！！|filename=bgm_map_FEG_01.ogg|notes=Played in Paralogue 42: [[Paralogue_Maps#Paralogue_42:_A_Star_Is_Born|A Star Is Born]].}}
+{{BGMTableRow|title=Feel|titleJPJA=Ｆｅｅｌ|filename=bgm_tb_FEG_01.ogg|notes=Played in Floors 1-20 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=Dream Catcher|titleJPJA=ドリーム☆キャッチャー|filename=bgm_tb_FEG_02.ogg|notes=Played in Floors 21-40 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=Raindrop Memories|titleJPJA=雨音のメモリー|filename=bgm_tb_FEG_03.ogg|notes=Played in Floors 41-60 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=Reincarnation|titleJPJA=Ｒｅｉｎｃａｒｎａｔｉｏｎ|filename=bgm_tb_FEG_04.ogg|notes=Played in Floors 61-80 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=Smile for Me|titleJPJA=Ｓｍｉｌｅ　Ｓｍｉｌｅ|filename=bgm_tb_FEG_05.ogg|notes=Played in Floors 81-100 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=Fire Emblem: Opera of Light|titleJPJA=ファイアーエムブレム{{\n}}～光の戯曲～|filename=bgm_tb_FEG_06.ogg|notes=Played in Extra Stage 1 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=This World Isn't an Illusion|titleJPJA=幻じゃない世界|filename=bgm_tb_FEG_07.ogg|notes=Played in Extra Stage 2 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=Dia Sweet Witch (Kiria Ver.)|titleJPJA=ディア☆マジョ！ Ｓｗｅｅｔ♡{{\n}}Ｋｉｒｉａ　Ｖｅｒ．|filename=bgm_tb_FEG_08.ogg|notes=Played in Extra Stage 3 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=She Is...|titleJPJA=Ｓｈｅ　ｉｓ…|filename=bgm_tb_FEG_09.ogg|notes=Played in Extra Stage 4 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[Wings Carry Me]].}}
+{{BGMTableRow|title=Royal Palace of Silesse|titleJPJA=シレジア王宮|filename=bgm_mns_FE04_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Lyon (Organ Arrangement)|titleJPJA=リオン（オルゴールアレンジ）|filename=bgm_mns_FE08_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Spring Radiance|titleJPJA=春陽|filename=bgm_mns_FE15_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Lord of a Dead Empire|titleJPJA=亡国の王者|filename=bgm_map_FE15_08.ogg|notes=Played in [[Romance Whirlwind|Tempest Trials+: Romance Whirlwind]].}}
+{{BGMTableRow|title=Distant Travels|titleJPJA=はるかなる旅路|filename=bgm_map_FE07_08.ogg|notes=Played in Book IV, Chapter 4 [[On Dark Wings]].}}
+{{BGMTableRow|title=Let's Go, Leif!|titleJPJA=章終り　ゆけゆけリーフ|filename=bgm_mns_FE05_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=People of the Marketplace|titleJPJA=市場の人々|filename=bgm_mns_FE16_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Tempest of Seasons|titleJPJA=嵐は巡る|filename=bgm_map_FE16_04.ogg|notes=Played in Book IV, Chapter 5 [[Twisted Reality]], and various Hero Battle maps for Heroes that appear in {{EntryText|12}}.}}
+{{BGMTableRow|title=Suspicious{{\n}}Wyvern Generals Theme|titleJPJA=Ｓｕｓｐｉｃｉｏｕｓ{{\n}}～三竜将のテーマ|filename=bgm_map_FE06_07.ogg|notes=Played in [[Full-Bloom Bout|Tempest Trials+: Full-Bloom Bout]]}}
+{{BGMTableRow|title=Girl of the Plains: Lyn's Theme|titleJPJA=草原の少女　～　リンのテーマ|filename=bgm_mns_FE07_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Justice RIP (Storm)|titleJPJA=正義は此処に～颯|filename=bgm_map_FE14_15.ogg|notes=Played in Book IV, Chapter 6: [[Dreaming Reality]].}}
+{{BGMTableRow|unofficial=Battle Map 1: Player's Attack|title=|titleJPJA=戦闘マップ１　プレイヤー側の攻撃|filename=bgm_map_FE01_02.ogg|notes=Played in Paralogue 45: [[Paralogue_Maps#Paralogue_45:_The_Start_of_It_All|The Start of It All]].}}
+{{BGMTableRow|title=The Proud Commander|titleJPJA=誇り高き将|filename=bgm_mns_FE11_03.ogg|notes=Played in [[Iote's Return|Tempest Trials+: Iote's Return]].}}
+{{BGMTableRow|title="Don't speak her name!" (Arranged)|titleJPJA=貴様らが…{{\n}}姉さんの言葉を語るな！{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_01.ogg|notes=Played in Floors 1-20 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=Truth, Despair, and Hope (Arranged)|titleJPJA=真実　絶望　そして希望{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_02.ogg|notes=Played in Floors 21-40 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=Justice RIP (Storm) (Arranged)|titleJPJA=正義は此処に～颯{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_03.ogg|notes=Played in Floors 41-60 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=Those Who Dare to Change History (Arranged)|titleJPJA=新たなる歴史を刻む者{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_04.ogg|notes=Played in Floors 61-80 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=Fódlan Winds (Arranged)|titleJPJA=フォドラの暁風{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_05.ogg|notes=Played in Floors 81-100 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=With Mila's Divine Protection (Arranged)|titleJPJA=ミラの加護とともに{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_06.ogg|notes=Played in Extra Stage 1 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=Beneath a New Light (Roy's Courage) (Arranged)|titleJPJA=新たなる光の下へ（ロイの勇気）{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_07.ogg|notes=Played in Extra Stage 2 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=Eternal Bond (Arranged)|titleJPJA=絆永久に{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_08.ogg|notes=Played in Extra Stage 3 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=End of the Holy War (Arranged)|titleJPJA=終章（最後の聖戦）{{\n}}（アレンジバージョン）|filename=bgm_tb_FEA_09.ogg|notes=Played in Extra Stage 4 in [[Tap Battle: Illusory Dungeon|Tap Battle:]] [[History Unveiled]].}}
+{{BGMTableRow|title=The Apex of the World|titleJPJA=この世界の頂で|filename=bgm_map_FE16_05.ogg|notes=Played in [[Legendary Hero Battle maps]] For [[Edelgard]], [[Dimitri]], [[Byleth M]], [[Byleth F]], in [[Part 7: Feh's Summer (2022)]] and [[Tempest Trials+]]: [[Sandy Struggle]]. This is a shortened version of the original music track.}}
+{{BGMTableRow|title=Road of Sorrow|titleJPJA=翻弄の道|filename=bgm_map_FE10_08.ogg|notes=Played in Book IV, Chapter 7: [[Steeped in Twilight]].}}
+{{BGMTableRow|title=Advance|titleJPJA=進撃|filename=bgm_mns_FE06_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Daily Lives of Warriors|titleJPJA=戦士たちの日常|filename=bgm_mns_FE12_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Teatime Joy|titleJPJA=湯気ごしの幸福|filename=bgm_mns_FE16_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=At Peace|titleJPJA=心穏やかなるとき|filename=bgm_mns_FE10_03.ogg|notes=Played in [[A_Waltz_Unending|Tempest Trials+: A Waltz Unending]].}}
+{{BGMTableRow|title=The Ark of Dawn (Classic)|titleJPJA=全体マップ・セリカの旅立ち|filename=bgm_mns_FE02_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title="Don't speak her name!"|titleJPJA=貴様らが...姉さんの言葉を語るな!|filename=bgm_map_FE13_13.ogg|notes=Played in Book IV, Chapter 8: [[Wallowing in Love]]. This version skips the intro.}}
+{{BGMTableRow|title=Reunion|titleJPJA=再会|filename=bgm_mns_FE08_04.ogg|notes=Played during cutscenes in Paralogue 47:[[Paralogue_Maps#Paralogue_47:_Summer_Passing|Summer Passing]] and in [[Part 5: Call of the Sea]].}}
+{{BGMTableRow|title=Neutiquam Erro|titleJPJA=道標に光そそぎて|filename=bgm_mns_FE10_04.ogg|notes=Played in [[Summer_Two-Piece|Tempest Trials+: Summer Two-Piece]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Dew and Patty|titleJPJA=デュー＆パティ|filename=bgm_mns_FE04_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title="But, Frederick, it's nearly dark!"|titleJPJA=泊らせてもらおうよ?ね?|filename=bgm_mns_FE13_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|unofficial=Endless Battle|title=-|titleJPJA=戦い果てることなく|filename=bgm_map_FE12_03.ogg|notes=Played in Book IV, Chapter 9: [[Violent Fantasies]].}}
+{{BGMTableRow|title|unofficial=Queen's Nightmare|titleJPJA=クィーンズナイトメア|filename=bgm_event_serious8.ogg|notes=Played in cutscenes featuring {{Ut|Freyja: Lady of Nightmare}}.}}
+{{BGMTableRow|title|unofficial=Chaotic Sight|titleJPJA=ケィアティックサイト|filename=bgm_boss7.ogg|notes=Played during combat animations against {{Ut|Freyja: Lady of Nightmare}} and {{Ut|Freyr: Dream-King}}.}}
+{{BGMTableRow|title=Thracia 776 Begins|titleJPJA=トラキア７７６　始まり|filename=bgm_mns_FE05_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Quiet Days|titleJPJA=Ｑｕｉｅｔ　Ｄａｙｓ|filename=bgm_mns_FE09_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=A Promise|titleJPJA=約束|filename=bgm_mns_FE16_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Chasing Daybreak|titleJPJA=野望の地平|filename=bgm_map_FE16_06.ogg|notes=Played in Book IV, Chapter 10: [[Lack (chapter)|Lack]].}}
+{{BGMTableRow|unofficial=Army of Grannvale 2|title=-|titleJPJA=グランベル軍2|filename=bgm_map_FE04_10.ogg|notes=Played in [[Dancing_Affinity|Tempest Trials+: Dancing Affinity]].}}
+{{BGMTableRow|title=The Path to You|titleJPJA=あなたへ続く道|filename=bgm_mns_FE14_08.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title|unofficial=Frontline|titleJPJA=フロントライン|filename=bgm_menu_betting.ogg|notes=Played in the Frontline Phalanx menu. This is a remix of [https://feheroes.fandom.com/wiki/File:Bgm_map_FE08_08.ogg Follow Me!]}}
+{{BGMTableRow|title=The First Fight|titleJPJA=Ｔｈｅ　Ｆｉｒｓｔ　Ｆｉｇｈｔ|filename=bgm_map_FE09_06.ogg|notes=Played in Book IV, Chapter 11: [[Story_Maps#Chapter_11:_Plumeria.27s_Dream|Plumeria's Dream]].}}
+{{BGMTableRow|title=Castle (March)|titleJPJA=城（マーチ）|filename=bgm_mns_FE02_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Beautiful Princess Elincia|titleJPJA=Ｂｅａｕｔｉｆｕｌ　Ｐｒｉｎｃｅｓｓ　Ｅｒｉｎｃｉａ|filename=bgm_mns_FE09_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Conquest|titleJPJA=遠征|filename=bgm_mns_FE13_06.ogg|notes=Played in [[Ever_Two_Halves|Tempest Trials+: Ever Two Halves]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Blue Skies and Battle|titleJPJA=鷲獅子たちの蒼穹|filename=bgm_map_FE16_07.ogg|notes=Played in Book IV, Chapter 12: [[Story_Maps#Chapter_12:_Triandra.27s_Dream|Triandra's Dream]].}}
+{{BGMTableRow|title|unofficial=Gambit|titleJPJA=ギャンビット|filename=bgm_menu_godgame.ogg|notes=Played in the [[Pawns of Loki]] event and [[Loki: Trickster God (map)|Loki: Trickster God]].}}
+{{BGMTableRow|title=Legend of the Dragon God (A)|titleJPJA=神竜伝説（Ａ）|filename=bgm_mns_FE03_02.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Echoes|titleJPJA=Ｅｃｈｏｅｓ|filename=bgm_mns_FE15_06.ogg|notes=Plays during a cutscene in Book IV, Chapter 13: [[Story Maps#Chapter 13:_Reality|Reality]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Past Light|titleJPJA=輝く大地を越えて|filename=bgm_mns_FE14_09.ogg|notes=Played in [[Ninja Novices|Tempest Trials+: Ninja Novices]].}}
+{{BGMTableRow|unofficial=Beholding Nature's Beauty|title=|titleJPJA=雄大なる自然の中へ（ロイの遠征）|filename=bgm_map_FE06_08.ogg|notes=Played in Book IV, Chapter 13: [[Story_Maps#Chapter_13:_Reality|Reality]].}}
+{{BGMTableRow|title=Howling Gears|titleJPJA=ハゥリングギア|filename=bgm_map_FEH_07.ogg|notes=Played in various Book V maps, [[Dagr: Sun's Radiance (map)|Dagr: Sun's Radiance]] and [[Thórr_%26_Eitri:_Bound_Hero_Battle|Thórr & Eitri: Bound Hero Battle]].}}
+{{BGMTableRow|title|unofficial=Infinite Scale|titleJPJA=インフィニットスケール|filename=bgm_boss8.ogg|notes=Plays during combat animations against Niðavellir boss units during Book V.}}
+{{BGMTableRow|title|unofficial=Little Skimming|titleJPJA=リトルスキミング|filename=bgm_event_serious9.ogg|notes=Plays during cutscenes in Book V.}}
+{{BGMTableRow|title=Rise Above|titleJPJA=苦境を乗り越えて|filename=bgm_map_FE08_05.ogg|notes=Plays in Book V, Chapter 2: [[Story Maps#Chapter 2: Kingsbrother|Kingsbrother]].}}
+{{BGMTableRow|title=Going Forward|titleJPJA=進むべき道|filename=bgm_mns_FE12_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Guardian of Starlight|titleJPJA=星影の守り人|filename=bgm_mns_FE16_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Sephiran's Sorrow|titleJPJA=セフェラン　浮遊する意識|filename=bgm_mns_FE10_05.ogg|notes=Played in [[Burden_of_Gifts|Tempest Trials+: Burden of Gifts]].<br>{{Shop music}}}}
+{{BGMTableRow|unofficial=Leif's Army in Search of Victory - Searching for the Enemy|title=|titleJPJA=リーフ軍,勝利を求めて 索敵|filename=bgm_map_FE05_03.ogg|notes=Plays in Book V, Chapter 3: [[Story Maps#Chapter 3:Forest of the Sage|Forest of the Sage]] and Book VII, Chapter 11: [[Story Maps#Chapter 11:Without Limits|Without Limits]].}}
+{{BGMTableRow|title=Dark Clouds Gather|titleJPJA=迫る暗雲|filename=bgm_mns_FE16_08.ogg|notes=Plays during a cutscene in Book V, Chapter 3: [[Story Maps#Chapter 3: Forest of the Sage|Forest of the Sage]].<br>{{Shop music}}}}
+{{BGMTableRow|title="Someone has to save you from your good intentions."|titleJPJA=...そんな方法が,本当にうまくいくのか?|filename=bgm_mns_FE13_08.ogg|notes=Played in [[Love of Family|Tempest Trials+: Love of Family]].}}
+{{BGMTableRow|title|unofficial=Fan Fest!!!!!|titleJPJA=ファンフェスト！！！！！|filename=bgm_map_fes_05.ogg|notes=Played in various 2021 Paralogues involving Special Heroes.}}
+{{BGMTableRow|title=Fire Emblem Main Theme (Arranged Ver.)|titleJPJA=ファイアーエムブレムメインテーマ（アレンジバージョン）|filename=bgm_map_FEA_01.ogg|notes=Played in [[Lost to Love|Tempest Trials+: Lost to Love]].<br>{{Shop music|0}}}}
+{{BGMTableRow|title=A Momentary Peace|titleJPJA=ひとときの安らぎ|filename=bgm_mns_FE12_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=We should turn in for the night|titleJPJA=今日はもう休みましょう|filename=bgm_mns_FE13_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|unofficial=Chapter 4{{\n}}Dance in the Skies|title=|titleJPJA=第4章（空を舞う）|filename=bgm_map_FE04_11.ogg|notes=Played in Book V, Chapter 4: [[Story Maps#Chapter 4: The Vital Blade|The Vital Blade]].}}
+{{BGMTableRow|title=God-Shattering Star|titleJPJA=神を屠る星|filename=bgm_map_FE16_08.ogg|notes=Plays in [[Claude: King of Unification (map)|Claude: King of Unification]]. This is a shortened version of the original music track, and also skips the intro.}}
+{{BGMTableRow|title=Corridors of the Tempest|titleJPJA=風塵回廊|filename=bgm_map_FE16_09.ogg|notes=Plays in Book V, Chapter 5: [[Story Maps#Chapter 5: Day and Night|Day and Night]].}}
+{{BGMTableRow|title=One Heart: Eliwood's Theme|titleJPJA=心ひとつに{{\n}}～エリウッドのテーマ|filename=bgm_mns_FE07_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Brother and Sister|titleJPJA=兄妹|filename=bgm_mns_FE15_07.ogg|notes=Played in [[Luthier & Delthea: Bound Hero Battle]], and during a cutscene in Book V, Chapter 12.<br>{{Shop music}}}}
+{{BGMTableRow|title=Sorrow|titleJPJA=Ｓａｄｎｅｓｓ　ｔｉｍｅ|filename=bgm_mns_FE08_05.ogg|notes=Played in [[Familiar_Stranger|Tempest Trials+: Familiar Stranger]] and [[Myrrh: Guardian Dragon (map)|Myrrh: Guardian Dragon]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Scars of the Scouring|titleJPJA=人竜戦役のきずあと（烈火Ｖｅｒ）|filename=bgm_map_FE07_09.ogg|notes=Played in Book V, Chapter 6: [[Story Maps#Chapter 6: Treachery|Treachery]].}}
+{{BGMTableRow|title=World Map Act 3: (War of Deliverance: Respective Paths)|titleJPJA=全体マップ３章（解放戦争：それぞれの道）|filename=bgm_mns_FE02_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Golden Deer and Crescent Moon|titleJPJA=金鹿と三日月|filename=bgm_mns_FE16_11.ogg|notes=Plays during a cutscene in Book V, Chapter 6: [[Story Maps#Chapter 6: Treachery|Treachery]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Howling Gears (Danceable Remix)|titleJPJA=ハゥリングギア（Ｄａｎｃｅａｂｌｅ　Ｒｅｍｉｘ）|filename=bgm_tb_AF21_ingame.ogg|notes=Plays in the Tap Battle: [[O Mighty Seiðjárn]], based on the song that plays in the April Fools 2021 video.<br>{{Shop music|0}}}}
+{{BGMTableRow|title|unofficial=Niðavellir's Poem|titleJPJA=-|filename=bgm_april_boss_AF21.ogg|notes=Played during the boss battle against {{Ut|Reginn: Bearing Hope}} in Tap Battle: [[O Mighty Seiðjárn]].|isRegional=1}}
+{{BGMTableRow|title=Binding Vow|titleJPJA=むすばれた約束|filename=bgm_map_FE08_07.ogg|notes=Played in [[Princess's Gloom|Tempest Trials+: Princess's Gloom]] and in Paralogue 58: [[Paralogue_Maps#Paralogue_58:_Childhood_Encounter|Childhood Encounter]].}}
+{{BGMTableRow|title=The Long Road|titleJPJA=遠き道|filename=Bgm_map_FE16_10.ogg|notes=Played in Book V, Chapter 7: [[Story Maps#Chapter 7: Bound Elsewhere|Bound Elsewhere]].}}
+{{BGMTableRow|title=Tactics|titleJPJA=策略|filename=Bgm_mns_FE16_12.ogg|notes=Played in a cutscene in Book V, Chapter 7: [[Story Maps#Chapter 7: Bound Elsewhere|Bound Elsewhere]].<br>{{Shop music}}}}
+{{BGMTableRow|unofficial=Liberation|title=|titleJPJA=解放|filename=Bgm_map_FE03_03.ogg|notes=Played in [[Tempest Trials+]]: [[Engagement]].}}
+{{BGMTableRow|title=Undiscovered Horizons|titleJPJA=まだ見ぬ地平へ|filename=Bgm_map_FE15_09.ogg|notes=Played in Book V, Chapter 8: [[Story Maps#Chapter 8:Serpent's Whispers|Serpent's Whispers]].}}
+{{BGMTableRow|title=Respite and Sunlight|titleJPJA=安息と陽だまり|filename=Bgm_mns_FE16_09.ogg|notes=Played in [[Angling_to_Win|Tempest Trials+: Angling to Win]].<br>{{Shop music}}}}
+{{BGMTableRow||title=Gods, have the Risen spread this far?|titleJPJA=こんなところにも,屍兵が...!|filename=Bgm_mns_FE13_10.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title|unofficial=Recollection|titleJPJA=リコレクション|filename=Bgm_menu_succession2.ogg|notes=Played in the menu of a [[Tempest Trials+]] series.}}
+{{BGMTableRow|title|unofficial=Breeze of Askr|titleJPJA=ブリーズオブアスク|filename=Bgm_map_FEH_08.ogg|notes=Played during the final maps in a [[Tempest Trials+]] series.}}
+{{BGMTableRow|title|unofficial=Reordeal|titleJPJA=リオーディアル|filename=Bgm_boss10.ogg|notes=Plays during combat animations against boss units in a [[Tempest Trials+]] series.}}
+{{BGMTableRow|title=No Justice (Fire)|titleJPJA=正義は何処に～焔|filename=Bgm_map_FE14_18.ogg|notes=Played in Book V, Chapter 9: [[Story Maps#Chapter 9: Echoes of Truth|Echoes of Truth]].}}
+{{BGMTableRow|title|unofficial=Harmonious Buddy|titleJPJA=ハーモニアスバディ|filename=Bgm_menu_journey.ogg|notes=Played in the [[Heroes Journey]] menu.}}
+{{BGMTableRow|title=Battle: Destiny|titleJPJA=戦いの中で 運命|filename=Bgm_mns_FE05_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Preparations: Pilgrimage|titleJPJA=戦備　祈|filename=Bgm_mns_FE15_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|unofficial=Advance|title=|titleJPJA=進撃|filename=Bgm_map_FE03_04.ogg|notes=Played in Book V, Chapter 10: [[Story Maps#Chapter 10: Howling Descent|Howling Descent]].}}
+{{BGMTableRow|title=Combat Preparation|titleJPJA=進撃準備|filename=Bgm_mns_FE06_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=The Shackled Wolves|titleJPJA=鉑鎖の群狼|filename=Bgm_map_FE16_12.ogg|notes=Played in Book V, Chapter 11: [[Story Maps#Chapter 11: Deceit|Deceit]] and [[Aelfric: Custodian Monk (map)|Aelfric: Custodian Monk]].}}
+{{BGMTableRow|title|unofficial=Niðavellir's Shout|titleJPJA=ニザヴェリルズシャウト|filename=Bgm_boss9.ogg|notes=Played during combat animations against {{Ut|Fáfnir: King of Desolation (Dragon)|Fáfnir: King of Desolation}}'s dragon form and {{Ut|Eitri: Youthful Sage}}.}}
+{{BGMTableRow|title=Eyes of Rage|titleJPJA=憤怒の目|filename=Bgm_mns_FE10_06.ogg|notes=Plays during a cutscene in Book V, Chapter 11: [[Story Maps#Chapter 11: Deceit|Deceit]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Odd Folk|titleJPJA=可笑しな人々|filename=Bgm_mns_FE12_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Happiness Abounds|titleJPJA=愉快な面々（烈火Ｖｅｒ）|filename=Bgm_mns_FE07_07.ogg|notes=Played during [[Heroes Journey]] in the "Harvest Festival!" Memento Event.}}
+{{BGMTableRow|title=A Hero's Destiny|titleJPJA=英雄の宿命|filename=Bgm_map_FE11_03.ogg|notes=Played in Book V, Chapter 12: [[Story Maps#Chapter 12: What Remains|What Remains]].}}
+{{BGMTableRow|title=Embracing Destiny|titleJPJA=巡る想い|filename=Bgm_mns_FE04_06.ogg|notes=Plays in [[Deirdre: Fated Saint (map)|Deirdre: Fated Saint]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Congregation of Ambition|titleJPJA=Ｃｏｎｇｒｅｇａｔｉｏｎ　ｏｆ　Ａｍｂｉｔｉｏｎ|filename=bgm_map_FE09_07.ogg|notes=Played in Book V, Chapter 13: [[Story_Maps#Chapter_13:_Specter_of_Ni.C3.B0avellir|Specter of Niðavellir]].}}
+{{BGMTableRow|title|unofficial=Violent Strings|titleJPJA=ヴァイオレントストリングス|filename=Bgm_map_FEH_09.ogg|notes=Played in various Book VI maps.}}
+{{BGMTableRow|title|unofficial=Lonely Puppeteer|titleJPJA=ロンリィパペッティア|filename=Bgm_boss11.ogg|notes=Plays during combat animations against Embla bosses in Book VI.}}
+{{BGMTableRow|title|unofficial=False Love|titleJPJA=フォルスラヴ|filename=Bgm_event_serious10.ogg|notes=Plays during cutscenes featuring {{Ut|Letizia: Curse Director}} in Book VI.}}
+{{BGMTableRow|title|unofficial=Bat Conductor|titleJPJA=バットコンダクター|filename=Bgm_event_serious11.ogg|notes=Plays during cutscenes featuring {{Ut|Elm: Retainer to Embla}} in Book VI.}}
+{{BGMTableRow|title=Champion (Ablaze)|titleJPJA=強者〜炎|filename=Bgm_map_FE13_16.ogg|notes=Played in Book VI, Chapter 2: [[Story Maps#Chapter 2: Curse Directive|Curse Directive]].}}
+{{BGMTableRow|title=Anxiety|titleJPJA=緊迫|filename=Bgm_mns_FE16_13.ogg|notes=Plays during a cutscene in Book VI, Chapter 2: [[Story Maps#Chapter 2: Curse Directive|Curse Directive]].}}
+{{BGMTableRow|title|unofficial=Stormy Tourney|titleJPJA=ストーミィトゥルネイ|filename=Bgm_menu_pvp.ogg|notes=Played in the Summoner Duels menu.}}
+{{BGMTableRow|title=Follow Me!|titleJPJA=Ｆｏｌｌｏｗ　ｍｅ！|filename=Bgm_map_FE08_08.ogg|notes=Played in Book VI, Chapter 3: [[Story Maps#Chapter 3: Calling of Blood|Calling of Blood]].}}
+{{BGMTableRow|title|unofficial=Fan Fest!!!!!!|titleJPJA=ファンフェスト！！！！！！|filename=Bgm_map_fes_06.ogg|notes=Played in various 2022 Paralogues involving Special Heroes.}}
+{{BGMTableRow|title=The White Heron|titleJPJA=Ｔｈｅ　Ｗｈｉｔｅ　Ｈｅｒｏｎ|filename=Bgm_mns_FE09_10.ogg|notes=Played in [[To Sing to You|Tempest Trials+: To Sing to You]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Before Battle|titleJPJA=戦を前に|filename=Bgm_mns_FE12_01.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Id (Serenity)|titleJPJA=「Ｉ」〜安|filename=Bgm_mns_FE13_11.ogg|notes=Played in [[Abiding Love|Tempest Trials+: Abiding Love]].<br>{{Shop music}}}}
+{{BGMTableRow|title=|unofficial=Scars of the Scouring (Roy's Fear)|titleJPJA=人竜戦役のきずあと（ロイの畏れ）|filename=Bgm_map_FE06_10.ogg|notes=Played in Book VI, Chapter 4: [[Story Maps#Chapter 4: Princess Alone|Princess Alone]].}}
+{{BGMTableRow|title=|unofficial=Story 5: Meeting|titleJPJA=ストーリー５　出会い|filename=Bgm_mns_FE01_03.ogg|notes=Plays in [[Caeda: Beloved Queen (map)|Caeda: Beloved Queen]].}}
+{{BGMTableRow|title=Renewed Purpose|titleJPJA=決意をあらたに|filename=Bgm_mns_FE11_04.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Forest of Wandering|titleJPJA=彷徨の森|filename=Bgm_mns_FE15_10.ogg|notes=Played in [[Brother's Friends|Tempest Trials+: Brother's Friends]], and in scenes featuring {{Ut|Embla: God of Closure}}.}}
+{{BGMTableRow|title=|unofficial=Leif's Army in Search of Victory - Advance A|titleJPJA=リーフ軍,勝利を求めて 進撃A|filename=Bgm_map_FE05_04.ogg|notes=Played in Book VI, Chapter 5: [[Story Maps#Chapter 5: Evil Ways|Evil Ways]].}}
+{{BGMTableRow|title=Like Father, Like Son|titleJPJA=Ｌｉｋｅ　Ｆａｔｈｅｒ，　Ｌｉｋｅ　Ｓｏｎ|filename=Bgm_map_FE09_09.ogg|notes=Plays in [[Paralogue Maps#Paralogue 71: Unlikely Friends|Paralogue 71: Unlikely Friends]].}}
+{{BGMTableRow|title=March Forward!|titleJPJA=Ｍａｒｃｈ　Ｆｏｒｗａｒｄ！|filename=bgm_mns_FE09_09.ogg|notes=Played in [[Breadwinners|Tempest Trials+: Breadwinners]].}}
+{{BGMTableRow|title=A New Journey|titleJPJA=新たなる旅立ち|filename=Bgm_mns_FE03_03.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Serenity|titleJPJA=静穏|filename=Bgm_mns_FE15_08.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|unofficial=Chapter 9{{\n}}For Whose Sake|titleJPJA=第9章（誰がために）|filename=Bgm_map_FE04_03.ogg|notes=Played in Book VI, Chapter 6: [[Story Maps#Chapter 6: Revealing Lies|Revealing Lies]].}}
+{{BGMTableRow|title=Battle: Advance|titleJPJA=戦いの中で 進撃|filename=Bgm_mns_FE05_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Advance|titleJPJA=﻿﻿進撃|filename=Bgm_mns_FE08_06.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=A Funeral of Flowers|titleJPJA=花片の葬列|filename=Bgm_map_FE16_13.ogg|notes=Played in Book VI, Chapter 7: [[Story Maps#Chapter 7: To Be Emperor|To Be Emperor]].}}
+{{BGMTableRow|title=Companions|titleJPJA=そして友と|filename=Bgm_map_FE07_10.ogg|notes=Played in [[Bridal Brawl|Tempest Trials+: Bridal Brawl]].}}
+{{BGMTableRow|title=Agustria Royal Palace|titleJPJA=アグストリア王宮|filename=Bgm_mns_FE04_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Your Name Is...|titleJPJA=汝、その名は|filename=Bgm_mns_FE12_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Inescapable Fate|titleJPJA=課せられた運命とともに|filename=Bgm_map_FE07_12.ogg|notes=Played in Book VI, Chapter 8: [[Story Maps#Chapter 8: Closing In|Closing In]] and Book VII, Chapter 1: [[Story Maps#Chapter 1: Golden Seer|Golden Seer]].}}
+{{BGMTableRow|title=Steam Baths Respite|titleJPJA=蒸し風呂の静寂|filename=Bgm_mns_FE16_14.ogg|notes=Played in [[Summer Aside|Tempest Trials+: Summer Aside]].<br>{{Shop music}}}}
+{{BGMTableRow|title=An Ordinary Day|titleJPJA=日常|filename=Bgm_mns_FE15_09.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Chasing the Wind on the Plains|titleJPJA=平野に風を追いかけて|filename=Bgm_map_FE15_11.ogg|notes=Played in Book VI, Chapter 9: [[Story Maps#Chapter 9: Opening a Way|Opening a Way]].}}
+{{BGMTableRow|title=When the Rush Comes|titleJPJA=躍進のときを|filename=Bgm_mns_FE06_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Alight (Storm)|titleJPJA=光射す彼方へ～颯|filename=Bgm_map_FE14_19.ogg|notes=Plays in [[Part 10: Feh's Summer (2022)]] and [[Hinoka: Thundering Wings (map)|Hinoka: Thundering Wings]].}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_menu_connectbonds.ogg|notes=Played in the [[Binding Worlds]] event.}}
+{{BGMTableRow|title=Between Heaven and Earth|titleJPJA=天と地の境界|filename=Bgm_map_FE16_15.ogg|notes=Played in Book VI, Chapter 10: [[Story Maps#Chapter 10: God of Openness|God of Openness]].}}
+{{BGMTableRow|title=Oliver's Fall|titleJPJA=堕するオリヴァー|filename=Bgm_mns_FE10_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Light on a Window|titleJPJA=窓辺には木漏れ日を|filename=Bgm_mns_FE14_13.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=I Swear By My Sword|titleJPJA=我が剣に誓って|filename=Bgm_map_FEM_08.ogg|notes=Played in Book VI, Chapter 11: [[Story Maps#Chapter 11: One Last Chance|One Last Chance]].}}
+{{BGMTableRow|title=Coming Demise|titleJPJA=その来たるべき終焉を|filename=Bgm_mns_FE14_14.ogg|notes=Played in a cutscene in Book VI, Chapter 11: [[Story Maps#Chapter 11: One Last Chance|One Last Chance]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Lyon|titleJPJA=リオン|filename=Bgm_mns_FE08_07.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=The Mind of Izuka|titleJPJA=奇才イズカ|filename=Bgm_mns_FE10_08.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Annihilation (Galvanized)|titleJPJA=凶襲〜鋼|filename=Bgm_map_FE13_18.ogg|notes=Played in Book VI, Chapter 12: [[Story Maps#Chapter 12: Princess and Prince|Princess and Prince]].}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_map_FEH_10.ogg|notes=Played in the end Chapter maps of Book VI against {{Ut|Veronica: Princess Rising}} and {{Ut|Embla: God of Closure}}, as well as against {{Ut|Heiðr: Cursed Goddess (Serpent)}} in Book VII.}}
+{{BGMTableRow|title=Ships and Homes|titleJPJA=街並み|filename=Bgm_mns_FE07_09.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Preparations: Reunion|titleJPJA=戦備　邂逅|filename=Bgm_mns_FE15_11.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title|unofficial=The Dragon's Table|titleJPJA=竜の祭壇|filename=Bgm_map_FE03_06.ogg|notes=Played in Book VI, Chapter 13: [[Story Maps#Chapter 13: Askr and Embla|Askr and Embla]].}}
+{{BGMTableRow|title=Shocking Truth II|titleJPJA=驚愕の事実Ⅱ|filename=Bgm_mns_FE07_08.ogg|notes=Played in a cutscene in Book VI, Chapter 13: [[Story Maps#Chapter 13: Askr and Embla|Askr and Embla]].}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_map_FEH_11.ogg|notes=Played in various Book VII maps.}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_boss12.ogg|notes=Plays during combat animations against Vanir bosses in Book VII.}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_event_plain4.ogg|notes=Plays during cutscenes in Book VII.}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_event_serious12.ogg|notes=Plays during cutscenes in Book VII.}}
+{{BGMTableRow|title=A Dark Fall (Fire)|titleJPJA=譬え闇に堕ちるとも～焔|filename=Bgm_map_FE14_20.ogg|notes=Played in Book VII, Chapter 13: [[Story Maps#Chapter 13: Time|Time]].}}
+{{BGMTableRow|title=Flickering Illusion|titleJPJA=揺蕩う幻|filename=Bgm_mns_FE14_15.ogg|notes=Played during various Book VII cutscenes.<br>{{Shop music}}}}
+{{BGMTableRow|title=A Guide for the Future|titleJPJA=未来へのしるべ|filename=Bgm_mns_FE16_15.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Enticing Dance|titleJPJA=魅惑の踊り|filename=Bgm_mns_FE06_08.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_event_calm_01.ogg|notes=Played during cutscenes and in [[Renewing Gifts|Tempest Trials+: Renewing Gifts]].}}
+{{BGMTableRow|title=Sara|titleJPJA=サラ|filename=Bgm_mns_FE05_07.ogg|notes=Played in [[Daughters of the Black Fang|Tempest Trials+: Daughters of the Black Fang]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Keeper of History (Frenzy)|titleJPJA=逸話持つ者〜烈|filename=Bgm_battle_FE17_01.ogg|notes=Played during combat animations against boss units in [[Heroic Ordeals]] for Heroes that appear in {{EntryText|14}}.}}
+{{BGMTableRow|title=Trial of Emblems (Shine On)|titleJPJA=紋章の試練～星炎|filename=Bgm_map_FE17_01.ogg|notes=Played in [[Part 1: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Echoes (Care for Us)|titleJPJA=響きの試練～守護|filename=Bgm_map_FE17_02.ogg|notes=Played in [[Part 2: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of the Holy War (Provide for Us)|titleJPJA=聖戦の試練～継承|filename=Bgm_map_FE17_03.ogg|notes=Played in [[Part 3: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Genealogy (Free Us)|titleJPJA=系譜の試練～解放|filename=Bgm_map_FE17_04.ogg|notes=Played in [[Part 4: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Binding (Rise Up)|titleJPJA=封印の試練～焔向|filename=Bgm_map_FE17_05.ogg|notes=Played in [[Part 5: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Blazing (Sweep Across)|titleJPJA=烈火の試練～吹翠|filename=Bgm_map_FE17_06.ogg|notes=Played in [[Part 6: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of the Sacred (Restore Calm)|titleJPJA=聖魔の試練～晴碧|filename=Bgm_map_FE17_07.ogg|notes=Played in [[Part 7: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Radiance (Fight On)|titleJPJA=蒼炎の試練～勇闘|filename=Bgm_map_FE17_08.ogg|notes=Played in [[Part 8: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Dawn (Heal Us)|titleJPJA=暁の試練～癒救|filename=Bgm_map_FE17_09.ogg|notes=Played in [[Part 9: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Awakening (Reignite Us)|titleJPJA=覚醒の試練～燃起|filename=Bgm_map_FE17_10.ogg|notes=Played in [[Part 10: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of Fates (Bare Your Fangs)|titleJPJA=選択の試練～竜穿|filename=Bgm_map_FE17_11.ogg|notes=Played in [[Part 11: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Trial of the Academy (Teach Us)|titleJPJA=風花の試練～教導|filename=Bgm_map_FE17_12.ogg|notes=Played in [[Part 12: Engage Launch Celebration]].}}
+{{BGMTableRow|title=Faraway Holy Land (Flare)|titleJPJA=遥かなる聖地～閃|filename=Bgm_map_FE17_13.ogg|notes=Played in Book VII, Chapter 6: [[Story Maps#Chapter 6: King of Light|King of Light]] and [[Heroic Ordeals]] for Heroes that appear in {{EntryText|14}}.}}
+{{BGMTableRow|title=Trial of Emblems|titleJPJA=紋章の試練|filename=Bgm_mns_FE17_01.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Echoes|titleJPJA=響きの試練|filename=Bgm_mns_FE17_02.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of the Holy War|titleJPJA=聖戦の試練|filename=Bgm_mns_FE17_03.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Genealogy|titleJPJA=系譜の試練|filename=Bgm_mns_FE17_04.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Binding|titleJPJA=封印の試練|filename=Bgm_mns_FE17_05.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Blazing|titleJPJA=烈火の試練|filename=Bgm_mns_FE17_06.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of the Sacred|titleJPJA=聖魔の試練|filename=Bgm_mns_FE17_07.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Radiance|titleJPJA=蒼炎の試練|filename=Bgm_mns_FE17_08.ogg|notes=Plays in [[Ike: Of Radiance (map)|Ike: Of Radiance]].<br>{{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Dawn|titleJPJA=暁の試練|filename=Bgm_mns_FE17_09.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Awakening|titleJPJA=覚醒の試練|filename=Bgm_mns_FE17_10.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of Fates|titleJPJA=選択の試練|filename=Bgm_mns_FE17_11.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Trial of the Academy|titleJPJA=風花の試練|filename=Bgm_mns_FE17_12.ogg|notes={{Shop music|40}}}}
+{{BGMTableRow|title=Preparations|titleJPJA=臨戦|filename=Bgm_mns_FE17_13.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Keep Marching On|titleJPJA=進撃あるのみ|filename=Bgm_mns_FE11_05.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_map_fes_07.ogg|notes=Played in various 2023 Paralogues involving Special Heroes.}}
+{{BGMTableRow|title=Proud Flight|titleJPJA=殊勝の翔り|filename=Bgm_map_FE10_13.ogg|notes=Played in Book VII, Chapter 7: [[Story Maps#Chapter 7: Goddess Reunion|Goddess Reunion]].}}
+{{BGMTableRow|title=On Day Patrol, Divine One?|titleJPJA=お昼の見回りですか、神竜様|filename=Bgm_mns_FE17_15.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Mighty Governance|titleJPJA=軍事国家|filename=Bgm_mns_FE17_16.ogg|notes=Played in a cutscene in Book VII, Chapter 8: [[Story Maps#Chapter 8: Seeing the Present|Seeing the Present]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Raise Your Spirits|titleJPJA=気軽にいこうぜ！|filename=Bgm_map_FE07_11.ogg|notes=Played in [[Paralogue Maps#Paralogue 84: No Matter Where|Paralogue 84: No Matter Where]].}}
+{{BGMTableRow|title=Another Day of Training?|titleJPJA=今日も鍛錬に励もうか！|filename=Bgm_mns_FE17_19.ogg|notes=Played in [[Askr Trains: Special Map]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Move Out!|titleJPJA=Ｍｏｖｅ　Ｏｕｔ！|filename=Bgm_mns_FE09_11.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Roar of Dominion|titleJPJA=覇の轟き|filename=Bgm_map_FE16_18.ogg|notes=Played in Book VII, Chapter 3: [[Story Maps#Chapter 3: Within Wheels|Within Wheels]].}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_menu_goldwitch.ogg|notes=Played in the [[Seer's Snare]] event and Book VII, Chapter 10: [[Story Maps#Chapter 10: Light's Fading|Light's Fading]].}}
+{{BGMTableRow|title=The Little Divine Dragon|titleJPJA=幼き神竜|filename=Bgm_mns_FE11_06.ogg|notes=Played in [[Bridal Business|Tempest Trials+: Bridal Business]].<br>{{Shop music}}}}
+{{BGMTableRow|title=A Beacon of Light Awakens|titleJPJA=目覚めし光芒|filename=Bgm_mns_FE17_18.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|unofficial=Will-Equal People (Roy's Battle)|titleJPJA= 志ひとしき者たち（ロイの戦い）|filename=Bgm_map_FE06_05.ogg|notes=Played in Book VII, Chapter 4: [[Story Maps#Chapter 4: Ouroboros|Ouroboros]].}}
+{{BGMTableRow|title=Beneath the Banner|titleJPJA=この旗につどいて|filename=Bgm_mns_FE16_17.ogg|notes=Played in [[Summer Lifestyle|Tempest Trials+: Summer Lifestyle]].<br>{{Shop music}}}}
+{{BGMTableRow|title=II - Reclaim the Capital|titleJPJA=ＩＩ　王都奪還|filename=Bgm_mns_FE06_09.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=The Fell Dragon's Hounds|titleJPJA=邪竜の狗たち|filename=Bgm_mns_FE17_20.ogg|notes=Played in [[Zephia: Scheming Dragon (map)|Zephia: Scheming Dragon]].<br>{{Shop music}}}}
+{{BGMTableRow|title=Royal Confidence (Might)|titleJPJA=王家の矜持～剛|filename=Bgm_map_FE17_15.ogg|notes=Played in Book VII, Chapter 9: [[Story Maps#Chapter 9: The Innocent|The Innocent]].}}
+{{BGMTableRow|title=Loyalty: Hector's Theme|titleJPJA=友を信じて～ヘクトルのテーマ|filename=Bgm_mns_FE07_10.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Trial of the Pact (Connect Us)|titleJPJA=約束の試練～繋和|filename=Bgm_map_FE17_17.ogg|notes=Plays in [[Alear: Awoken Divinity (map)|Alear: Awoken Divinity]] and [[Alear: Engaging Fire (map)|Alear: Engaging Fire]].}}
+{{BGMTableRow|title=Backsliding|titleJPJA=進まざるは退転|filename=Bgm_mns_FE10_09.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=In a Silver Garden with You|titleJPJA=銀の庭であなたと|filename=Bgm_mns_FE15_12.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Treasured Memories|titleJPJA=さまざまな想いを胸に|filename=Bgm_mns_FE08_08.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_map_FEH_12.ogg|notes=Played in the end Chapter maps of Book VII against {{Ut|Kvasir: Seer of the Past}}.}}
+{{BGMTableRow|title=Falling Petals|titleJPJA=手向けの花は凛と散りゆく|filename=Bgm_map_FE17_18.ogg|notes=Plays in [[Veyle: Gentle Dragon (map)|Veyle: Gentle Dragon]]. This version skips the intro.}}
+{{BGMTableRow|title=Memory of Mom|titleJPJA=Ｍｅｍｏｒｙ　ｏｆ　Ｍｏｍ|filename=Bgm_mns_FE09_12.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title="Shh... Easy now, girl. I won't hurt you."|titleJPJA=ほら,怖がらないで|filename=Bgm_mns_FE13_12.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_map_FEH_13.ogg|notes=Played in various Book VIII maps.}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_boss13.ogg|notes=Plays during combat animations against Quieting Hands bosses in Book VIII.}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_event_happy2.ogg|notes=Plays during cutscenes in Book VIII.}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_event_serious13.ogg|notes=Plays during cutscenes in Book VIII.}}
+{{BGMTableRow|title=Deirdre's Theme|titleJPJA=ディアドラのテーマ|filename=Bgm_mns_FE04_08.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Mischievous at Heart|titleJPJA=悪戯心|filename=Bgm_mns_FE12_08.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_menu_entrust.ogg|notes=Played in the [[Affinity Auto-Battles]] event.}}
+{{BGMTableRow|title=New Power|titleJPJA=新たなる力|filename=Bgm_mns_FE14_16.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Sentimental Moment|titleJPJA=情念|filename=Bgm_mns_FE17_17.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Holy Land of Lythos|titleJPJA=聖地リトス|filename=Bgm_mns_FE17_21.ogg|notes=Plays in [[Marth & Lumera: Bound Hero Battle]].<br>{{Shop music}}}}
+{{BGMTableRow|title=A World of Sorrow|titleJPJA=Ａ　Ｗｏｒｌｄ　ｏｆ　Ｓｏｒｒｏｗ|filename=Bgm_mns_FE09_13.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Beyond the Crossroads|titleJPJA=岐路の果てに|filename=Bgm_mns_FE16_16.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_map_fes_08.ogg|notes=Played in various 2024 Paralogues involving Special Heroes.}}
+{{BGMTableRow|title=Tear Streaked (Ice)|titleJPJA=涙痕～凍|filename=Bgm_map_FE17_20.ogg|notes=Played in Book VIII, Chapter 4: [[Story Maps#Chapter 4: Imperial Blood|Imperial Blood]].}}
+{{BGMTableRow|title=Whisperer|titleJPJA=ささやく者たち|filename=Bgm_mns_FE12_09.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title="Here we are! The Shepherds' garrison."|titleJPJA=きらーんって来て,ばーんみたいな感じ?|filename=Bgm_mns_FE13_13.ogg|notes=Played in [[Young Exalt|Tempest Trials+: Young Exalt]].<br>{{Shop music}}}}
+{{BGMTableRow|title=A Distant Promise|titleJPJA=遠い約束|filename=Bgm_mns_FE15_13.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Puppets Don't Cry|titleJPJA=人形は涙を流さない|filename=Bgm_mns_FE12_10.ogg|notes=Played in a cutscene in Book VIII, Chapter 6: [[Story Maps#Chapter 6: Hand Reveal|Hand Reveal]].}}
+{{BGMTableRow|title=The Musical Tree|titleJPJA=Ｔｈｅ　Ｍｕｓｉｃａｌ　Ｔｒｅｅ|filename=Bgm_mns_FEH_02.ogg|notes={{Shop music|0}}}}
+{{BGMTableRow|title=Darkness Eternal|titleJPJA=無尽の闇|filename=Bgm_mns_FE10_10.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Friendly Chat|titleJPJA=談笑|filename=Bgm_mns_FE17_22.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Broken Bonds|titleJPJA=解かれた絆|filename=Bgm_map_FE17_21.ogg|notes=Played in Book VIII, Chapter 7: [[Story Maps#Chapter 7: Ceremony Day|Ceremony Day]].}}
+{{BGMTableRow|title=End of All (Sky)|titleJPJA=すべての路の果てに～天|filename=Bgm_map_FE14_22.ogg|notes=Played in [[Corrin: Child of Dawn (map)|Corrin: Child of Dawn]]. This is a shortened version of the original music track.}}
+{{BGMTableRow|title=Black Wings|titleJPJA=Ｂｌａｃｋ　Ｗｉｎｇｓ|filename=Bgm_mns_FE09_14.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title="Oh, it's not so bad, Lissa. Just a healthy little walk!"|titleJPJA=この山を越えればもうすぐだ|filename=Bgm_mns_FE13_14.ogg|notes={{Shop music}}}}
+{{BGMTableRow|title=Conviction|titleJPJA=信じる道託して|filename=Bgm_map_FE10_14.ogg|notes=Played in Book VIII, Chapter 8: [[Story Maps#Chapter 8: The World Tree|The World Tree]].}}
+{{BGMTableRow|title=|titleJPJA=|filename=Bgm_menu_jointstruggle.ogg|notes=Played in the [[United Warfront]] event.}}
+{{BGMTableRow|title=Vacant Cradle|titleJPJA=虚ろの揺籃|filename=Bgm_mns_FE14_17.ogg|notes={{Shop music}}}}
+|}
+
+==Lyrics==
+===Fire Emblem Main Theme (Heroes Ver.)===
+These are the lyrics for {{BGMPage|bgm_menu_title.ogg}}.<ref>https://fire-emblem-heroes.com/ja/topics/index.html?id=detail-20170726</ref>
+{|
+!Japanese
+!English
+|-
+|<blockquote lang="ja">ファイアーエムブレム　遥かな時を越え　語り継がれしその魂<br><br>ファイアーエムブレム　数多（あまた）の世界越え　英雄たちよ今ここに<br><br>幾千の伝説　集いし大地に　汝が手にしは　異形の神器<br><br>ファイアーエムブレム　遥かな時を越え　英雄たちよ今ここに<br><br>二つの王国　切り裂く戦に　汝が振るうは　知恵の閃き<br><br>強きも弱きも　汝が願いで　仲間の誰もが勇者とならん<br><br>ファイアーエムブレム　数多（あまた）の世界越え　英雄たちよ今ここに</blockquote>
+|<blockquote>Fire Emblem<br>Your spirit shall shine<br>Across the generations<br>Now and for all time<br><br>Fire Emblem<br>Heroes, bring us hope’s light<br>Journey from distant worlds<br>To still the coming night<br><br>With sacred relic at your side<br>See our champions fall from on high<br>In this land where timeless heroes live<br>And their legends never die<br><br>Fire Emblem<br>Brave heroes of the ages<br>
+With my design and your hearts true<br>We’ll start anew<br><br>The end is within our reach<br>Take up my fight as I beseech<br>To kingdoms ravaged by senseless war<br>Bring us peace forevermore<br><br>The strong, the weak, the brave, the meek<br>All shall fight for the light we seek<br>Hear my voice, brave heroes, hear my plea<br>Come to me, come set us free<br><br>Fire Emblem<br>Your spirit shall shine<br>Across the generations<br>Now and for all time<br><br>Fire Emblem<br>Heroes, bring us hope’s light<br>Journey from distant worlds<br>To still the coming night<br></blockquote>
+|}
+===♪「フォールン」 　歌：アルフォンス===
+These are the lyrics for {{BGMPage|bgm_boss4.ogg}}.<ref>https://fire-emblem-heroes.com/ja/topics/index.html?id=detail-20190809</ref>
+{|
+!Japanese
+!English
+|-
+|<blockquote lang="ja">求める未来はただ一つ<br>求める世界はただ一つ<br>他には何もいらない<br>やるしかない<br>全てを捧げる<br>この世界を生き返らせるために<br>自分自身さえも<br>死者の数の帳尻を合わせねばならない<br>他の世界を滅ぼしてでも<br>捨てろ、捨ててしまえ<br>全てを捨ててしまえ<br>捨てろ、捨ててしまえ、<br>全てを捨ててしまえ<br>求める未来はただ一つ<br>求める世界はただ一つ<br>他には何もいらない<br>甦れ</blockquote>
+|<blockquote>Only want one future<br>Only want one world<br>Only need one answer<br>let this be it<br>Throw away everything<br>To bring a dead world back to life<br>Sacrifice another self<br>Life and death must balance in the end<br>Throw away the world that you do not need<br>Throw it away throw it away<br>Throw it all away<br>Throw it away throw it away<br>Throw it all away<br>Only want one future<br>Only want one world<br>Only need one answer<br>Return to life<br></blockquote>
+|}
+
+===Writhe===
+These are the lyrics for Writhe<ref>https://www.youtube.com/watch?v=OJkGmDQ0doY</ref>.
+{|
+!English
+|-
+|<blockquote>Everything<br>I threw it all away<br>Everything<br>I thought that I could save<br>Everything<br>Slipped right through my hands<br>Everything Lost to me forever<br>Just one thing I will not lose my grip on<br>Only one thing remains<br>I will make my stand<br><br>Just one thing<br>You’ll never take<br>Just one thing<br>I will protect beyond death<br>Do not block my path<br>I will not hold back<br>I will overcome<br>All obstacles<br><br>I have no choice left If you tie me up<br>I will cut you down<br>No more mercy<br>Strength wells up inside<br>Like a savage beast<br>I must swing this blade<br>With true purpose<br>I don’t have the right<br>I can’t stand the pain<br>Must get stronger<br>I must get stronger<br><br>Everything<br>I threw it all away<br>Everything<br>I thought that I could save</blockquote>
+|}
+
+==Trivia==
+*{{BGMPage|bgm_map_Brave_01.ogg}} was played during the [https://fecipher.jp/event/tour2017/ Fire Emblem Cipher GO! GO! Summer Tour] 2017 mini concert music program played by the Fire Emblem's sound staff "cavaliers".
+*{{#cargo_query:tables=BackgroundMusic|fields=Title|where=Filename='bgm_map_Brave_02.ogg'|group by=Filename|default=}} received a remix in [http://symphony-5.com/fe_tscm0081/ FIRE EMBLEM MUSIC COLLECTION : SESSION ～Flower of Enchantment～].
+* {{#cargo_query:tables=BackgroundMusic|fields=Title|where=Filename='bgm_menu_normal.ogg'|group by=Filename|default=}} received an arrangement for Super Smash Bros. Ultimate by Hiroki Morishita, a composer at [[Intelligent Systems]]. The name of the song was stated to be revealed for 'the first time' as "Gear Up For...".<ref>Official Smash Bros. site, Retrieved 2018-08-21, https://archive.is/YGTz9</ref><ref>https://twitter.com/SmashBrosJP/status/1032074594499276800</ref>
+* {{#cargo_query:tables=BackgroundMusic|fields=Title|where=Filename='bgm_menu_normal.ogg'|group by=Filename|default=}} also received an arrangement in Sounds of Fire Emblem from Cipher Festival – Galeforce CD.<ref>https://serenesforest.net/2019/01/29/sounds-fire-emblem-cipher-festival-galeforce-cd/</ref>
+*Several songs, such as {{BGMPage|bgm_map_FE06_03.ogg}} and {{BGMPage|bgm_map_FE08_01.ogg}} differ from their original appearances in their origin games.
+*{{BGMPage|bgm_event_serious3.ogg}} has much resemblance to the English folk song "Scarborough Fair", however no official record states whether this was intentional or accidental.
+
+==In other languages==
+{{OtherLanguages
+|english=BGM
+|japanese=ＢＧＭ
+|german=Musik
+|spanishEU=Música de fondo
+|spanishLA=Música de fondo
+|french=Musique de fond
+|italian=<!-- Volume musica -->
+|chineseTW=背景音樂
+|portuguese=Música de fundo
+}}
+
+==References==
+<references/>
