@@ -2,7 +2,7 @@
 
 	.equ	song29_grp, voicegroup000
 	.equ	song29_pri, 10
-	.equ	song29_rev, 148
+	.equ	song29_rev, 128
 	.equ	song29_mvl, 127
 	.equ	song29_key, 0
 	.equ	song29_tbs, 1
@@ -19,9 +19,9 @@
 song29_001:
 @  #01 @000   ----------------------------------------
  .byte   KEYSH , song29_key+0
-Label_555696:
+Label_88A40A:
  .byte   TEMPO , 74*song29_tbs/2
- .byte   VOICE , 10
+ .byte   VOICE , 1
  .byte   VOL , 52*song29_mvl/mxv
  .byte   PAN , c_v-30
  .byte   N12 ,Dn4 ,v104
@@ -72,7 +72,7 @@ Label_555696:
  .byte   Fn4
  .byte   W96
 @  #01 @008   ----------------------------------------
- .byte   VOICE , 99
+ .byte   VOICE , 2
  .byte   N60 ,Fs3 ,v104
  .byte   W72
  .byte   N12 ,As3
@@ -130,7 +130,7 @@ Label_555696:
  .byte   W12
 @  #01 @016   ----------------------------------------
  .byte   GOTO
-  .word Label_555696
+  .word Label_88A40A
  .byte   FINE
 
 @**************** Track 2 (Midi-Chn.1) ****************@
@@ -138,8 +138,8 @@ Label_555696:
 song29_002:
 @  #02 @000   ----------------------------------------
  .byte   KEYSH , song29_key+0
-Label_555713:
- .byte   VOICE , 49
+Label_88A487:
+ .byte   VOICE , 3
  .byte   VOL , 42*song29_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N92 ,As1 ,v127
@@ -295,7 +295,7 @@ Label_555713:
  .byte   W01
 @  #02 @016   ----------------------------------------
  .byte   GOTO
-  .word Label_555713
+  .word Label_88A487
  .byte   FINE
 
 @**************** Track 3 (Midi-Chn.2) ****************@
@@ -303,8 +303,8 @@ Label_555713:
 song29_003:
 @  #03 @000   ----------------------------------------
  .byte   KEYSH , song29_key+0
-Label_5557AE:
- .byte   VOICE , 48
+Label_88A522:
+ .byte   VOICE , 4
  .byte   VOL , 27*song29_mvl/mxv
  .byte   PAN , c_v+6
  .byte   N90 ,Fn2 ,v104
@@ -1543,7 +1543,7 @@ Label_5557AE:
 @  #03 @016   ----------------------------------------
  .byte   EOT
  .byte   GOTO
-  .word Label_5557AE
+  .word Label_88A522
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
@@ -1551,8 +1551,8 @@ Label_5557AE:
 song29_004:
 @  #04 @000   ----------------------------------------
  .byte   KEYSH , song29_key+0
-Label_555CA8:
- .byte   VOICE , 46
+Label_88AA1C:
+ .byte   VOICE , 5
  .byte   VOL , 58*song29_mvl/mxv
  .byte   PAN , c_v-24
  .byte   N09 ,As1 ,v120
@@ -1572,7 +1572,7 @@ Label_555CA8:
  .byte   Dn4
  .byte   W12
 @  #04 @001   ----------------------------------------
-Label_555CC0:
+Label_88AA34:
  .byte   N09 ,Gs1 ,v120
  .byte   W12
  .byte   Cn2
@@ -1609,9 +1609,9 @@ Label_555CC0:
  .byte   W12
 @  #04 @003   ----------------------------------------
  .byte   PATT
-  .word Label_555CC0
+  .word Label_88AA34
 @  #04 @004   ----------------------------------------
-Label_555CE8:
+Label_88AA5C:
  .byte   N09 ,Fs1 ,v120
  .byte   W12
  .byte   Cs2
@@ -1664,7 +1664,7 @@ Label_555CE8:
  .byte   Cn4
  .byte   W12
 @  #04 @007   ----------------------------------------
-Label_555D1B:
+Label_88AA8F:
  .byte   N09 ,Fn1 ,v120
  .byte   W12
  .byte   Cn2
@@ -1684,9 +1684,9 @@ Label_555D1B:
  .byte   PEND 
 @  #04 @008   ----------------------------------------
  .byte   PATT
-  .word Label_555CE8
+  .word Label_88AA5C
 @  #04 @009   ----------------------------------------
-Label_555D33:
+Label_88AAA7:
  .byte   N09 ,Gs1 ,v120
  .byte   W12
  .byte   Ds2
@@ -1723,13 +1723,13 @@ Label_555D33:
  .byte   W12
 @  #04 @011   ----------------------------------------
  .byte   PATT
-  .word Label_555D1B
+  .word Label_88AA8F
 @  #04 @012   ----------------------------------------
  .byte   PATT
-  .word Label_555CE8
+  .word Label_88AA5C
 @  #04 @013   ----------------------------------------
  .byte   PATT
-  .word Label_555D33
+  .word Label_88AAA7
 @  #04 @014   ----------------------------------------
  .byte   N09 ,As1 ,v120
  .byte   W12
@@ -1766,7 +1766,7 @@ Label_555D33:
  .byte   W12
 @  #04 @016   ----------------------------------------
  .byte   GOTO
-  .word Label_555CA8
+  .word Label_88AA1C
  .byte   FINE
 
 @**************** Track 5 (Midi-Chn.4) ****************@
@@ -1774,8 +1774,8 @@ Label_555D33:
 song29_005:
 @  #05 @000   ----------------------------------------
  .byte   KEYSH , song29_key+0
-Label_555D8F:
- .byte   VOICE , 50
+Label_88AB03:
+ .byte   VOICE , 6
  .byte   VOL , 24*song29_mvl/mxv
  .byte   PAN , c_v-29
  .byte   N96 ,Dn3 ,v104
@@ -2563,7 +2563,7 @@ Label_555D8F:
 @  #05 @016   ----------------------------------------
  .byte   EOT
  .byte   GOTO
-  .word Label_555D8F
+  .word Label_88AB03
  .byte   FINE
 
 @**************** Track 6 (Midi-Chn.5) ****************@
@@ -2571,8 +2571,8 @@ Label_555D8F:
 song29_006:
 @  #06 @000   ----------------------------------------
  .byte   KEYSH , song29_key+0
-Label_5560C9:
- .byte   VOICE , 10
+Label_88AE3D:
+ .byte   VOICE , 1
  .byte   VOL , 18*song29_mvl/mxv
  .byte   PAN , c_v+40
  .byte   W06
@@ -2631,7 +2631,7 @@ Label_5560C9:
  .byte   Fn4
  .byte   W90
 @  #06 @008   ----------------------------------------
- .byte   VOICE , 99
+ .byte   VOICE , 2
  .byte   W06
  .byte   N60 ,Fs3 ,v060
  .byte   W72
@@ -2697,7 +2697,7 @@ Label_5560C9:
  .byte   W06
 @  #06 @016   ----------------------------------------
  .byte   GOTO
-  .word Label_5560C9
+  .word Label_88AE3D
 @  #06 @017   ----------------------------------------
  .byte   W06
  .byte   FINE
