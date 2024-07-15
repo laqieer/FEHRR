@@ -12,5 +12,5 @@
 	path = source/gba-hq-mixer
 	url = https://github.com/laqieer/gba-hq-mixer.git
 [submodule "music/s"]
-	path = music/s
+	path = music/public
 	url = https://github.com/laqieer/FE-Repo-Music-No-Preview
