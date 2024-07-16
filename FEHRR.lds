@@ -7,7 +7,7 @@ INCLUDE ../ldscript/fe6.lds
 SECTIONS
 {
     . = FreeIRamSpace;
-    .iwram : { m4a_hq_mixer.*(.bss) }
+    .iwram : { m4a.*(.bss.*) m4a_hq_mixer.*(.bss) }
     . = FreeERamSpace;
 	.bss : { *(.bss.*) *(.bss) }
     __end__ = .;

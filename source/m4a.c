@@ -2,6 +2,8 @@
 
 #include "prelude.h"
 
+#include "sound.h"
+
 #define MPLAY_JUMP_TABLE_FUNC(n) (*(gMPlayJumpTable + (n)))
 
 extern const u8 gCgb3Vol[];
@@ -128,3 +130,17 @@ void m4aSoundInitOld(void)
 }
 
 void (* const pSoundMainRAM)(struct SoundInfo * sound_info) = (void *)(MixerBuffer + 1);
+
+// the definitions of gMusicPlayer_FightBgm and gMusicPlayer_MainBgm are reversed here,
+// because they are reversed in the decomp project:
+// https://github.com/StanHash/fe6/issues/15
+
+const u8 gMusicPlayer_FightBgm_NumTracks = MAX_MUSICPLAYER_TRACKS;
+
+struct MusicPlayerTrack gMusicPlayer_MainBgm_Tracks[MAX_MUSICPLAYER_TRACKS];
+
+const struct MusicPlayerEnt gMusicPlayer_MainBgm_Ent = {
+    .music_player = &gMusicPlayer_MainBgm,
+    .track = gMusicPlayer_MainBgm_Tracks,
+    .num_tracks = MAX_MUSICPLAYER_TRACKS,
+};
