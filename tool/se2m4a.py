@@ -120,6 +120,7 @@ def main():
     parser.add_argument("-o", "--output", help="Output assembly source file", metavar='xxx.s')
     parser.add_argument("-c", "--compress", help="Enable DPCM compression", action="store_true")
     parser.add_argument("-l", "--lookahead", help="Lookahead sample number for DPCM compression (only works with -c/--compress)", type=int, default=0)
+    parser.add_argument("-p", "--priority", help="Priority of the sound", type=int, default=0)
     parser.add_argument("-f", "--lookahead-fast", help="Enable fast lookahead algorithm (only works with -l/--lookahead)", action="store_true")
     parser.add_argument("--limit-snr", help="SNR limit for DPCM compression (only works with -c/--compress)", type=float, default=0.0)
     parser.add_argument("--limit-psnr", help="PSNR limit for DPCM compression (only works with -c/--compress)", type=float, default=0.0)
@@ -137,6 +138,7 @@ def main():
         audio_module = aifc
     enable_compress = args.compress
     lookahead = args.lookahead
+    priority = args.priority
     lookahead_fast = args.lookahead_fast
     min_SNR = args.limit_snr
     min_PSNR = args.limit_psnr
@@ -222,7 +224,7 @@ def main():
         asm.write("\n\t.align 2\n")
         asm.write(symbol_song + ":\n")
         asm.write("\t.byte 1, 0\n")
-        asm.write("\t.byte 10 // Priority\n")
+        asm.write("\t.byte " + str(priority) + " // Priority\n")
         asm.write("\t.byte 0\n")
         asm.write("\t.word " + symbol_tone)
         asm.write("\n\t.word " + symbol_track)
