@@ -212,7 +212,7 @@
             "S7113_MID_SCENARIO_MAP_BEGIN_BGM",
             "S7114_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Invasion",
@@ -268,7 +268,7 @@
             "S7035_MID_SCENARIO_MAP_BEGIN_BGM",
             "S7081_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Solitary",
@@ -322,7 +322,7 @@
             "S7093_MID_SCENARIO_OPENING_BGM",
             "S7101_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Carry Over",
@@ -359,7 +359,7 @@
             "S4121_MID_SCENARIO_MAP_BEGIN_BGM",
             "S5013_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Last Phase",
@@ -394,7 +394,7 @@
             "S7015_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_03",
-        "source": []
+        "source": null
     },
     {
         "title": "Another Menace",
@@ -429,7 +429,7 @@
             "S5131_MID_SCENARIO_ENDING_BGM",
             "S6045_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Suspicious",
@@ -463,7 +463,7 @@
             "S6043_MID_SCENARIO_OPENING_BGM",
             "S7024_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Looming Death",
@@ -494,9 +494,7 @@
             "S5122_MID_SCENARIO_MAP_BEGIN_BGM",
             "S6073_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": [
-            "Fire_Emblem_Heroes_-_Hels_Theme.mid"
-        ]
+        "source": "Fire_Emblem_Heroes_-_Hels_Theme.mid"
     },
     {
         "title": "Tragedy of Askr",
@@ -527,9 +525,7 @@
             "S3125_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_05",
-        "source": [
-            "Fire_Emblem_Heroes_-_Book_III_Map_Theme.mid"
-        ]
+        "source": "Fire_Emblem_Heroes_-_Book_III_Map_Theme.mid"
     },
     {
         "title": "Lonely Puppeteer",
@@ -559,9 +555,7 @@
             "S6114_BGM2",
             "S6115_BGM3"
         ],
-        "source": [
-            "Lonely_Puppeteer.mid"
-        ]
+        "source": "Lonely_Puppeteer.mid"
     },
     {
         "title": "Lucid Dream",
@@ -590,7 +584,7 @@
             "S4115_BGM",
             "S4124_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Heat Cracking",
@@ -618,9 +612,7 @@
             "S4051_BGM2",
             "S4055_BGM2"
         ],
-        "source": [
-            "FEH BOOK 2 BOSS THEME {Shtick}.s"
-        ]
+        "source": "FEH BOOK 2 BOSS THEME {Shtick}.s"
     },
     {
         "title": "Hard Negotiation",
@@ -647,7 +639,7 @@
             "S4065_BGM2",
             "S4135_BGM2"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Return To Nifl",
@@ -675,10 +667,7 @@
             "S2125_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_04",
-        "source": [
-            "Fire_Emblem_Heroes_-_Map_Theme_Book_II.mid",
-            "Meilu - Fire Emblem Heroes Map Theme Book II.s"
-        ]
+        "source": "Meilu - Fire Emblem Heroes Map Theme Book II.s"
     },
     {
         "title": "Violent Strings",
@@ -705,7 +694,7 @@
             "S6113_BGM",
             "S6115_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Sacrifice",
@@ -732,10 +721,7 @@
             "S7095_MID_SCENARIO_ENDING_BGM",
             "S7111_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": [
-            "Fire_Emblem_Heroes_-_Event_Serious_6.mid",
-            "Fire Emblem Heroes - Serious 6.mid"
-        ]
+        "source": "Fire Emblem Heroes - Serious 6.mid"
     },
     {
         "title": "Howling Gears",
@@ -760,7 +746,7 @@
             "S5125_BGM",
             "S5135_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Fallen",
@@ -785,7 +771,7 @@
             "S3115_BGM2",
             "S3121_BGM2"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Infinite Scale",
@@ -808,7 +794,7 @@
             "S5112_BGM2",
             "S5115_BGM2"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Little Skimming",
@@ -832,7 +818,7 @@
             "S6071_MID_SCENARIO_MAP_BEGIN_BGM",
             "S6114_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Victory",
@@ -854,7 +840,7 @@
             "S4135_MID_SCENARIO_OPENING_BGM",
             "S5011_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Fluttering Bloom",
@@ -874,10 +860,7 @@
             "S4114_BGM2",
             "S4124_BGM2"
         ],
-        "source": [
-            "BgmBossFEH-BookIV1.mid",
-            "Fire_Emblem_Heroes_-_Book_IV_Boss_Theme.mid"
-        ]
+        "source": "Fire_Emblem_Heroes_-_Book_IV_Boss_Theme.mid"
     },
     {
         "title": "",
@@ -897,7 +880,7 @@
             "S7085_BGM",
             "S7091_BGM2"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "The Grandeur of Askr",
@@ -917,9 +900,7 @@
             "S4135_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_02",
-        "source": [
-            "Map_2_FEH.mid"
-        ]
+        "source": "Map_2_FEH.mid"
     },
     {
         "title": "-",
@@ -938,7 +919,7 @@
             "S4134_MID_SCENARIO_OPENING_BGM",
             "S6015_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Fódlan Winds",
@@ -957,9 +938,7 @@
             "S7065_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE16_01",
-        "source": [
-            "FE16 - Fodlan Winds {A Reliable Chair}.s"
-        ]
+        "source": "FE16 - Fodlan Winds {A Reliable Chair}.s"
     },
     {
         "title": "",
@@ -977,9 +956,7 @@
             "S7114_BGM",
             "S7115_BGM"
         ],
-        "source": [
-            "FE05 - Searching the Enemy {SurfingKyogre}.s"
-        ]
+        "source": "FE05 - Searching the Enemy {SurfingKyogre}.s"
     },
     {
         "title": "False Love",
@@ -998,7 +975,7 @@
             "S6113_MID_SCENARIO_OPENING_BGM",
             "S6134_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Veronica",
@@ -1016,7 +993,7 @@
             "S3101_MID_SCENARIO_OPENING_BGM",
             "S6035_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Determination",
@@ -1033,9 +1010,7 @@
             "S7053_BGM",
             "S7054_BGM"
         ],
-        "source": [
-            "fe8/song0C.s"
-        ]
+        "source": "fe8/song0C.s"
     },
     {
         "title": "Thracia 776 Begins",
@@ -1053,7 +1028,7 @@
             "S6105_MID_SCENARIO_OPENING_BGM",
             "S7025_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Dark Clouds Gather",
@@ -1071,7 +1046,7 @@
             "S6131_MID_SCENARIO_MAP_BEGIN_BGM",
             "S7025_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Bat Conductor",
@@ -1089,7 +1064,7 @@
             "S6105_MID_SCENARIO_MAP_BEGIN_BGM",
             "S6114_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Chaotic Sight",
@@ -1105,7 +1080,7 @@
             "S4133_BGM2",
             "S4134_BGM2"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "The Beginning",
@@ -1121,9 +1096,7 @@
             "S7043_MID_SCENARIO_OPENING_BGM",
             "S7115_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": [
-            "fe8/song04.s"
-        ]
+        "source": "fe8/song04.s"
     },
     {
         "title": "Sephiran's Sorrow",
@@ -1139,7 +1112,7 @@
             "S7022_MID_SCENARIO_MAP_BEGIN_BGM",
             "S7062_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Tactics",
@@ -1155,7 +1128,7 @@
             "S7075_MID_SCENARIO_OPENING_BGM",
             "S7083_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Niðavellir's Shout",
@@ -1170,7 +1143,7 @@
             "S5132_BGM2",
             "S5135_BGM3"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "",
@@ -1186,7 +1159,7 @@
             "S7095_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_10",
-        "source": []
+        "source": null
     },
     {
         "title": "",
@@ -1201,7 +1174,7 @@
             "S7085_BGM2",
             "S7091_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "",
@@ -1217,7 +1190,7 @@
             "S7061_MID_SCENARIO_ENDING_BGM",
             "S7113_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "",
@@ -1233,7 +1206,7 @@
             "S7091_MID_SCENARIO_OPENING_BGM",
             "S7105_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Under This Banner",
@@ -1247,9 +1220,7 @@
             "S0604_BGM",
             "S0605_BGM"
         ],
-        "source": [
-            "FE11 - Under This Flag {Sme}"
-        ]
+        "source": "FE11 - Under This Flag {Sme}"
     },
     {
         "title": "Beyond Distant Skies - Roy's Departure",
@@ -1264,7 +1235,7 @@
             "S0405_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE06_01",
-        "source": "SONG_0A"
+        "source": "S"
     },
     {
         "title": "Precious Things",
@@ -1279,11 +1250,7 @@
             "S0805_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE07_01",
-        "source": [
-            "fe7/song01.s",
-            "FE07 - Precious Things {Alice}.s",
-            "FE07 - Precious Things {Remix} {Pandan}.s"
-        ]
+        "source": "fe7/song01.s"
     },
     {
         "title": "The Time to Act",
@@ -1298,9 +1265,7 @@
             "S0205_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE11_01",
-        "source": [
-            "FE11 - The Time to Act {SaXor the Nobody}.s"
-        ]
+        "source": "FE11 - The Time to Act {SaXor the Nobody}.s"
     },
     {
         "title": "Destiny (Ablaze)",
@@ -1315,7 +1280,7 @@
             "S0905_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_01",
-        "source": []
+        "source": null
     },
     {
         "title": "Prelude (Ablaze)",
@@ -1330,7 +1295,7 @@
             "S0505_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_02",
-        "source": []
+        "source": null
     },
     {
         "title": "Far Dawn (Storm)",
@@ -1345,7 +1310,7 @@
             "S0705_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_01",
-        "source": []
+        "source": null
     },
     {
         "title": "Dusk Falls (Fire)",
@@ -1360,7 +1325,7 @@
             "S0305_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_02",
-        "source": []
+        "source": null
     },
     {
         "title": "With Mila's Divine Protection",
@@ -1375,7 +1340,7 @@
             "S1205_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE15_02",
-        "source": []
+        "source": null
     },
     {
         "title": "What Lies at the End",
@@ -1390,7 +1355,7 @@
             "S1305_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE15_03",
-        "source": []
+        "source": null
     },
     {
         "title": "Greil Mercenaries",
@@ -1405,7 +1370,7 @@
             "S1405_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE09_02",
-        "source": []
+        "source": null
     },
     {
         "title": "Past Light (Storm)",
@@ -1420,7 +1385,7 @@
             "S2085_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_06",
-        "source": []
+        "source": null
     },
     {
         "title": "Contest of Pride (Blast)",
@@ -1434,7 +1399,7 @@
             "S3044_BGM",
             "S3045_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Painful Affection",
@@ -1449,9 +1414,7 @@
             "S4135_MID_SCENARIO_ENDING_BGM",
             "S6125_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": [
-            "Fire Emblem Heroes - Serious 6b.mid"
-        ]
+        "source": "Fire Emblem Heroes - Serious 6b.mid"
     },
     {
         "title": "The Proud Commander",
@@ -1466,7 +1429,7 @@
             "S6111_MID_SCENARIO_ENDING_BGM",
             "S7101_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Queen's Nightmare",
@@ -1481,7 +1444,7 @@
             "S4131_MID_SCENARIO_OPENING_BGM",
             "S7105_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "No Justice (Fire)",
@@ -1495,7 +1458,7 @@
             "S5094_BGM",
             "S5095_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "",
@@ -1510,7 +1473,7 @@
             "S5105_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE12_01",
-        "source": []
+        "source": null
     },
     {
         "title": "Faraway Holy Land (Flare)",
@@ -1524,7 +1487,7 @@
             "S7034_BGM",
             "S7035_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "",
@@ -1538,7 +1501,7 @@
             "S7104_BGM",
             "S7105_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Dark Traveler",
@@ -1551,7 +1514,7 @@
             "S2033_BGM",
             "S2034_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Distant Roads",
@@ -1564,9 +1527,7 @@
             "S2043_BGM",
             "S2044_BGM"
         ],
-        "source": [
-            "fe7/song09.s"
-        ]
+        "source": "fe8/song09.s"
     },
     {
         "title": "Disquieting Steps",
@@ -1579,10 +1540,7 @@
             "S2053_BGM",
             "S2054_BGM"
         ],
-        "source": [
-            "FE02 - Celica Enemy Phase {hypergammaspaces}.s",
-            "FE02 - Celica Map 1 {Pandan}.s"
-        ]
+        "source": "FE02 - Celica Enemy Phase {hypergammaspaces}.s"
     },
     {
         "title": "Divine Decree (Ablaze)",
@@ -1596,7 +1554,7 @@
             "S2064_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_06",
-        "source": []
+        "source": null
     },
     {
         "title": "Leif's Army, In Search of Victory - Base",
@@ -1609,9 +1567,7 @@
             "S2073_BGM",
             "S2074_BGM"
         ],
-        "source": [
-            "FE05 - Base {RSflame}.s"
-        ]
+        "source": "FE05 - Base {RSflame}.s"
     },
     {
         "title": "Black Fang",
@@ -1625,9 +1581,7 @@
             "S2104_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MNS_FE07_01",
-        "source": [
-            "fe7/song50.s"
-        ]
+        "source": "fe7/song50.s"
     },
     {
         "title": "Chapter 2 Disturbance in Augustria",
@@ -1640,9 +1594,7 @@
             "S2123_BGM",
             "S2124_BGM"
         ],
-        "source": [
-            "FE04 - Disturbance in Agustria {Sme}.s"
-        ]
+        "source": "FE04 - Disturbance in Agustria {Sme}.s"
     },
     {
         "title": "Dark Wastes (Fire)",
@@ -1656,7 +1608,7 @@
             "S2134_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_07",
-        "source": []
+        "source": null
     },
     {
         "title": "A Test of Will",
@@ -1669,7 +1621,7 @@
             "S3033_BGM",
             "S3034_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Beneath a New Light (Roy's Courage)",
@@ -1683,7 +1635,7 @@
             "S3053_BGM",
             "S3054_BGM"
         ],
-        "source": "SONG_0D"
+        "source": "S"
     },
     {
         "title": "Bearer of Hope",
@@ -1697,7 +1649,7 @@
             "S3065_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE10_05",
-        "source": []
+        "source": null
     },
     {
         "title": "Land Below (Flow)",
@@ -1710,7 +1662,7 @@
             "S3073_BGM",
             "S3074_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Tearing Through Heaven",
@@ -1723,7 +1675,7 @@
             "S3103_BGM",
             "S3104_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Valor Everlasting",
@@ -1736,7 +1688,7 @@
             "S3113_BGM",
             "S3114_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Fairy Waltz",
@@ -1750,9 +1702,7 @@
             "S4061_MID_SCENARIO_OPENING_BGM",
             "S4071_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": [
-            "Book_4_Happy_Theme.mid"
-        ]
+        "source": "Book_4_Happy_Theme.mid"
     },
     {
         "title": "Chapter 6: Inheritors of Light",
@@ -1765,9 +1715,7 @@
             "S4033_BGM",
             "S4034_BGM"
         ],
-        "source": [
-            "FE04 - Inheritors of Light {MonopolyRubix}.s"
-        ]
+        "source": "FE04 - Inheritors of Light {MonopolyRubix}.s"
     },
     {
         "title": "Distant Travels",
@@ -1780,12 +1728,7 @@
             "S4043_BGM",
             "S4044_BGM"
         ],
-        "source": [
-            "fe7/song0A.s",
-            "FE07 - Distant Travels {Alice}.s",
-            "FE07 - Distant Travels {Psyche}.s",
-            "FE07 - Distant Travels {Remix} {A Reliable Chair}.s"
-        ]
+        "source": "fe7/song0A.s"
     },
     {
         "title": "Tempest of Seasons",
@@ -1798,7 +1741,7 @@
             "S4054_BGM",
             "S4055_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Justice RIP (Storm)",
@@ -1811,9 +1754,7 @@
             "S4064_BGM",
             "S4065_BGM"
         ],
-        "source": [
-            "FE14 - Justice RIP {MrGreen3339}.s"
-        ]
+        "source": "FE14 - Justice RIP {MrGreen3339}.s"
     },
     {
         "title": "\"Don't speak her name!\"",
@@ -1826,7 +1767,7 @@
             "S4083_BGM",
             "S4084_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "-",
@@ -1839,11 +1780,7 @@
             "S4093_BGM",
             "S4094_BGM"
         ],
-        "source": [
-            "FE11 - Endless Battle {REALxViPerZ}.s",
-            "FE12 - Endless Battle {RSfllame}.s",
-            "FE12 - Endless Battle {Sme}.s"
-        ]
+        "source": "FE12 - Endless Battle {RSfllame}.s"
     },
     {
         "title": "Chasing Daybreak",
@@ -1856,7 +1793,7 @@
             "S4103_BGM",
             "S4104_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "The First Fight",
@@ -1869,7 +1806,7 @@
             "S4113_BGM",
             "S4114_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Blue Skies and Battle",
@@ -1882,7 +1819,7 @@
             "S4123_BGM",
             "S4125_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Rise Above",
@@ -1895,9 +1832,7 @@
             "S5023_BGM",
             "S5024_BGM"
         ],
-        "source": [
-            "fe8/song0A.s"
-        ]
+        "source": "fe8/song0A.s"
     },
     {
         "title": "",
@@ -1910,9 +1845,7 @@
             "S5043_BGM",
             "S5044_BGM"
         ],
-        "source": [
-            "FE04 - Dance in the Skies {SurfingKyogre}.s"
-        ]
+        "source": "FE04 - Dance in the Skies {SurfingKyogre}.s"
     },
     {
         "title": "Corridors of the Tempest",
@@ -1925,7 +1858,7 @@
             "S5053_BGM",
             "S5054_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Scars of the Scouring",
@@ -1938,9 +1871,7 @@
             "S5063_BGM",
             "S5064_BGM"
         ],
-        "source": [
-            "fe7/song05.s"
-        ]
+        "source": "fe7/song05.s"
     },
     {
         "title": "The Long Road",
@@ -1953,9 +1884,7 @@
             "S5073_BGM",
             "S5074_BGM"
         ],
-        "source": [
-            "FE16 - The Long Road {Azula}.s"
-        ]
+        "source": "FE16 - The Long Road {Azula}.s"
     },
     {
         "title": "Undiscovered Horizons",
@@ -1968,7 +1897,7 @@
             "S5084_BGM",
             "S5085_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Eyes of Rage",
@@ -1982,7 +1911,7 @@
             "S6113_MID_SCENARIO_MAP_BEGIN_BGM",
             "S7091_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "A Hero's Destiny",
@@ -1995,7 +1924,7 @@
             "S5123_BGM",
             "S5124_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Congregation of Ambition",
@@ -2008,7 +1937,7 @@
             "S5133_BGM",
             "S5134_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Champion (Ablaze)",
@@ -2021,7 +1950,7 @@
             "S6023_BGM",
             "S6024_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Anxiety",
@@ -2035,7 +1964,7 @@
             "S7031_MID_SCENARIO_OPENING_BGM",
             "S7063_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Scars of the Scouring (Roy's Fear)",
@@ -2048,7 +1977,7 @@
             "S6043_BGM",
             "S6044_BGM"
         ],
-        "source": "SONG_0F"
+        "source": "S"
     },
     {
         "title": "Forest of Wandering",
@@ -2062,7 +1991,7 @@
             "S7065_MID_SCENARIO_MAP_BEGIN_BGM",
             "S7073_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Leif's Army in Search of Victory - Advance A",
@@ -2075,7 +2004,7 @@
             "S6053_BGM",
             "S6054_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Chapter 9 For Whose Sake",
@@ -2088,9 +2017,7 @@
             "S6063_BGM",
             "S6064_BGM"
         ],
-        "source": [
-            "FE04 - For Whose Sake {SurfingKyogre}.s"
-        ]
+        "source": "FE04 - For Whose Sake {SurfingKyogre}.s"
     },
     {
         "title": "A Funeral of Flowers",
@@ -2103,9 +2030,7 @@
             "S6073_BGM",
             "S6074_BGM"
         ],
-        "source": [
-            "FE16 - A Funeral of Flowers {Thunder} {MrGreen3339}.s"
-        ]
+        "source": "FE16 - A Funeral of Flowers {Thunder} {MrGreen3339}.s"
     },
     {
         "title": "Chasing the Wind on the Plains",
@@ -2118,7 +2043,7 @@
             "S6093_BGM",
             "S6094_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Between Heaven and Earth",
@@ -2131,7 +2056,7 @@
             "S6103_BGM",
             "S6104_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Annihilation (Galvanized)",
@@ -2144,7 +2069,7 @@
             "S6123_BGM",
             "S6124_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Preparations: Reunion",
@@ -2158,7 +2083,7 @@
             "S7082_MID_SCENARIO_OPENING_BGM",
             "S7091_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "The Dragon's Table",
@@ -2171,7 +2096,7 @@
             "S6133_BGM",
             "S6134_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "A Dark Fall (Fire)",
@@ -2184,9 +2109,7 @@
             "S7013_BGM",
             "S7014_BGM"
         ],
-        "source": [
-            "FE14 - A Dark Fall Fire {Mycahel}.s"
-        ]
+        "source": "FE14 - A Dark Fall Fire {Mycahel}.s"
     },
     {
         "title": "Proud Flight",
@@ -2199,7 +2122,7 @@
             "S7043_BGM",
             "S7044_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Will-Equal People (Roy's Battle)",
@@ -2212,7 +2135,7 @@
             "S7083_BGM",
             "S7084_BGM"
         ],
-        "source": "SONG_0B"
+        "source": "S"
     },
     {
         "title": "Winds of Askr",
@@ -2225,10 +2148,7 @@
             "S0103_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_01",
-        "source": [
-            "Fire_Emblem_Heroes_-_Map_Theme_1.mid",
-            "Meilu - Fire Emblem Heroes Map Theme 1.s"
-        ]
+        "source": "Meilu - Fire Emblem Heroes Map Theme 1.s"
     },
     {
         "title": "Chapter 3 Eldigan, the Lionheart",
@@ -2241,9 +2161,7 @@
             "S2094_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE04_05",
-        "source": [
-            "FE04 - Eldigan the Lionheart {Scraiza}.s"
-        ]
+        "source": "FE04 - Eldigan the Lionheart {Scraiza}.s"
     },
     {
         "title": "Duty (Ablaze)",
@@ -2255,9 +2173,7 @@
             "S2113_BGM",
             "S2114_BGM"
         ],
-        "source": [
-            "FE13 - Duty (Ablaze) {Azula}.s"
-        ]
+        "source": "FE13 - Duty (Ablaze) {Azula}.s"
     },
     {
         "title": "Aggression (Galvanised)",
@@ -2269,7 +2185,7 @@
             "S3083_BGM",
             "S3084_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Glory to Grannvale",
@@ -2282,9 +2198,7 @@
             "S6091_MID_SCENARIO_ENDING_BGM",
             "S6101_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": [
-            "FE04 - Glory to Grannvale {SurfingKyogre}.s"
-        ]
+        "source": "FE04 - Glory to Grannvale {SurfingKyogre}.s"
     },
     {
         "title": "Courage in Numbers",
@@ -2296,7 +2210,7 @@
             "S3123_BGM",
             "S3124_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Matching the Dead",
@@ -2308,7 +2222,7 @@
             "S3134_BGM2",
             "S3135_BGM2"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Lyon (Organ Arrangement)",
@@ -2321,9 +2235,7 @@
             "S6074_MID_SCENARIO_MAP_BEGIN_BGM",
             "S6121_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": [
-            "fe8/song44.s"
-        ]
+        "source": "fe8/song44.s"
     },
     {
         "title": "Road of Sorrow",
@@ -2335,7 +2247,7 @@
             "S4073_BGM",
             "S4074_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "",
@@ -2347,7 +2259,7 @@
             "S4132_BGM",
             "S4133_BGM"
         ],
-        "source": "SONG_0C"
+        "source": "S"
     },
     {
         "title": "Going Forward",
@@ -2360,7 +2272,7 @@
             "S6051_MID_SCENARIO_OPENING_BGM",
             "S7063_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "\"Someone has to save you from your good intentions.\"",
@@ -2373,7 +2285,7 @@
             "S5105_MID_SCENARIO_ENDING_BGM",
             "S6012_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Brother and Sister",
@@ -2386,7 +2298,7 @@
             "S5125_MID_SCENARIO_ENDING_BGM",
             "S6044_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Gods, have the Risen spread this far?",
@@ -2399,7 +2311,7 @@
             "S6065_MID_SCENARIO_MAP_BEGIN_BGM",
             "S7024_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Battle: Destiny",
@@ -2412,9 +2324,7 @@
             "S6115_MID_SCENARIO_ENDING_BGM",
             "S7085_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": [
-            "FE05 - Destiny {Dolkar}.s"
-        ]
+        "source": "FE05 - Destiny {Dolkar}.s"
     },
     {
         "title": "The Shackled Wolves",
@@ -2426,7 +2336,7 @@
             "S5113_BGM",
             "S5114_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Follow Me!",
@@ -2438,9 +2348,7 @@
             "S6033_BGM",
             "S6034_BGM"
         ],
-        "source": [
-            "fe8/song0B.s"
-        ]
+        "source": "fe8/song0B.s"
     },
     {
         "title": "Serenity",
@@ -2453,7 +2361,7 @@
             "S7021_MID_SCENARIO_ENDING_BGM",
             "S7062_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Inescapable Fate",
@@ -2465,11 +2373,7 @@
             "S6083_BGM",
             "S6084_BGM"
         ],
-        "source": [
-            "fe7/song0B.s",
-            "FE07 - Inescapable Fate {Alice}.s",
-            "FE07 - Inescapable Fate {RandomWizard}.s"
-        ]
+        "source": "fe7/song0B.s"
     },
     {
         "title": "I Swear By My Sword",
@@ -2481,7 +2385,7 @@
             "S6112_BGM",
             "S6114_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Flickering Illusion",
@@ -2494,7 +2398,7 @@
             "S7061_MID_SCENARIO_OPENING_BGM",
             "S7081_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Roar of Dominion",
@@ -2506,9 +2410,7 @@
             "S7073_BGM",
             "S7074_BGM"
         ],
-        "source": [
-            "FE16 - Roar of Dominion {Rain} {MrGreen3339}.s"
-        ]
+        "source": "FE16 - Roar of Dominion {Rain} {MrGreen3339}.s"
     },
     {
         "title": "Royal Confidence (Might)",
@@ -2520,7 +2422,7 @@
             "S7093_BGM",
             "S7094_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Breidablik",
@@ -2531,7 +2433,7 @@
             "S1005_BGM2",
             "S2021_BGM2"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Contract",
@@ -2543,7 +2445,7 @@
             "S0002_MID_SCENARIO_MAP_BEGIN_BGM",
             "S3134_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Advance",
@@ -2555,10 +2457,7 @@
             "S0102_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MNS_FE06_02",
-        "source": [
-            "FE12 - Liberation {GratedShtick}.s",
-            "FE12 - Liberation {Retina}.s"
-        ]
+        "source": "FE12 - Liberation {Retina}.s"
     },
     {
         "title": "A Battle and a Beginning",
@@ -2570,7 +2469,7 @@
             "S1105_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE09_01",
-        "source": []
+        "source": null
     },
     {
         "title": "For Victory",
@@ -2582,7 +2481,7 @@
             "S5015_MID_SCENARIO_ENDING_BGM",
             "S7023_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Far from Arcadia",
@@ -2594,7 +2493,7 @@
             "S4134_MID_SCENARIO_ENDING_BGM",
             "S6064_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": "SONG_26"
+        "source": "S"
     },
     {
         "title": "Archanean Overture",
@@ -2606,9 +2505,7 @@
             "S5094_MID_SCENARIO_OPENING_BGM",
             "S6015_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": [
-            "FE03 - Akenia Anthem {Sme}.s"
-        ]
+        "source": "FE03 - Akenia Anthem {Sme}.s"
     },
     {
         "title": "At Peace",
@@ -2620,7 +2517,7 @@
             "S5051_MID_SCENARIO_OPENING_BGM",
             "S7042_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "\"But, Frederick, it's nearly dark!\"",
@@ -2632,7 +2529,7 @@
             "S5045_MID_SCENARIO_ENDING_BGM",
             "S7065_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "A Momentary Peace",
@@ -2644,7 +2541,7 @@
             "S6131_MID_SCENARIO_ENDING_BGM",
             "S7063_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Golden Deer and Crescent Moon",
@@ -2656,7 +2553,7 @@
             "S5062_MID_SCENARIO_OPENING_BGM",
             "S5091_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "The Black Knight",
@@ -2667,9 +2564,7 @@
         "appearances": [
             "S1403_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": [
-            "FE09 - The Black Knight {Dethraxx}.s"
-        ]
+        "source": "FE09 - The Black Knight {Dethraxx}.s"
     },
     {
         "title": "More Fan Fest",
@@ -2680,7 +2575,7 @@
         "appearances": [
             "S3094_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "\"You have power... like mine.\"",
@@ -2691,7 +2586,7 @@
         "appearances": [
             "S6101_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Cats at Play",
@@ -2702,9 +2597,7 @@
         "appearances": [
             "S5031_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": [
-            "FE10 - Cats at Play {Sme}.s"
-        ]
+        "source": "FE10 - Cats at Play {Sme}.s"
     },
     {
         "title": "Wonderful Pirates",
@@ -2715,7 +2608,7 @@
         "appearances": [
             "S5045_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "As You Will It",
@@ -2726,7 +2619,7 @@
         "appearances": [
             "S7115_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Melancholy Wyvern Generals Theme",
@@ -2738,7 +2631,7 @@
         "appearances": [
             "S5055_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": "SONG_2E"
+        "source": "S"
     },
     {
         "title": "Deity Hammer",
@@ -2749,7 +2642,7 @@
         "appearances": [
             "S5104_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "The Archsage Athos",
@@ -2760,9 +2653,7 @@
         "appearances": [
             "S5041_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": [
-            "fe7/song3C.s"
-        ]
+        "source": "fe7/song3C.s"
     },
     {
         "title": "Awakening",
@@ -2773,7 +2664,7 @@
         "appearances": [
             "S7085_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Suspicious Wyvern Generals Theme",
@@ -2784,7 +2675,7 @@
         "appearances": [
             "S7055_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": "SONG_2C"
+        "source": "S"
     },
     {
         "title": "Neutiquam Erro",
@@ -2795,7 +2686,7 @@
         "appearances": [
             "S6075_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Dew and Patty",
@@ -2806,7 +2697,7 @@
         "appearances": [
             "S7065_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Quiet Days",
@@ -2817,7 +2708,7 @@
         "appearances": [
             "S7041_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Legend of the Dragon God (A)",
@@ -2828,7 +2719,7 @@
         "appearances": [
             "S6132_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Echoes",
@@ -2839,7 +2730,7 @@
         "appearances": [
             "S4133_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Guardian of Starlight",
@@ -2850,7 +2741,7 @@
         "appearances": [
             "S7064_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "We should turn in for the night",
@@ -2861,7 +2752,7 @@
         "appearances": [
             "S5061_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Sorrow",
@@ -2872,9 +2763,7 @@
         "appearances": [
             "S5135_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": [
-            "fe8/song29.s"
-        ]
+        "source": "fe8/song29.s"
     },
     {
         "title": "Id (Serenity)",
@@ -2885,7 +2774,7 @@
         "appearances": [
             "S6105_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Battle: Advance",
@@ -2896,9 +2785,7 @@
         "appearances": [
             "S6093_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": [
-            "FE05 - Advance {Dolkar}.s"
-        ]
+        "source": "FE05 - Advance {Dolkar}.s"
     },
     {
         "title": "An Ordinary Day",
@@ -2909,7 +2796,7 @@
         "appearances": [
             "S7042_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Coming Demise",
@@ -2920,7 +2807,7 @@
         "appearances": [
             "S6134_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "The Mind of Izuka",
@@ -2931,7 +2818,7 @@
         "appearances": [
             "S6124_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     },
     {
         "title": "Shocking Truth II",
@@ -2942,9 +2829,7 @@
         "appearances": [
             "S6135_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": [
-            "fe7/song36.s"
-        ]
+        "source": "fe7/song36.s"
     },
     {
         "title": "Mighty Governance",
@@ -2955,6 +2840,6 @@
         "appearances": [
             "S7055_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": []
+        "source": null
     }
 ]

@@ -8,7 +8,9 @@
 import os
 import re
 import json
+import shutil
 import warnings
+import common
 from enum import Enum
 
 class MusicType(Enum):
@@ -150,7 +152,7 @@ def save_appeared_musics():
         elif filename in new_musics:
             music["source"] = new_musics[filename]
     with open("music/appeared_musics.json", "w", encoding="utf-8") as file:
-        json.dump(sorted([x for x in musics.values() if len(x.get("appearances", [])) > 0], key=lambda x: len(x["appearances"]), reverse=True), file, indent=4, ensure_ascii=False)
+        json.dump(sorted([x | {"source": x["source"][0] if len(x["source"]) > 0 else None} for x in musics.values() if len(x.get("appearances", [])) > 0], key=lambda x: len(x["appearances"]), reverse=True), file, indent=4, ensure_ascii=False)
 
 existed_musics = {}
 
@@ -186,15 +188,45 @@ def save_new_musics():
     with open("music/new_musics.json", "w", encoding="utf-8") as file:
         json.dump(new_musics, file, indent=4)
 
+def make_new_musics():
+    for filename, source in new_musics.items():
+        if len(source) > 0 and len(musics[filename].get("appearances", [])) > 0:
+            source = source[0]
+            ext = os.path.splitext(source)[1].lower()[1:]
+            if ext in ("mid", "midi"):
+                source = common.find_file_in_path(source, "../FE-Midi-Repo/")
+                if source is not None:
+                    shutil.copy(source, "music/midi/" + filename.replace(".ogg", ".mid"))
+            elif ext == "s":
+                if re.match(r"^fe[78]/", source):
+                    source = "music/" + source
+                else:
+                    source = common.find_file_in_path(source, "music/public/")
+                if source is not None:
+                    with open(source, "r", encoding="utf-8") as f_src, open("source/music/" + filename.replace(".ogg", ".s"), "w", encoding="utf-8") as f_dst:
+                        text = f_src.read()
+                        song_name = re.search(r"\s*\.global\s+([^\s]+)\s*", text).groups()[0]
+                        text = text.replace(song_name, filename[:-4])
+                        f_dst.write(text)
+
+def print_music_progress():
+    print("Music progress:")
+    print(f"Appeared {len([x for x in musics.values() if len(x.get('appearances', [])) > 0])} musics")
+    print(f"Existed {len([x for x in musics.values() if len(x.get('appearances', [])) > 0 and x['filename'] in existed_musics])} musics")
+    print(f"Added {len([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) > 0])} musics")
+    print(f"TODO: {len([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0])} musics")
+
 if __name__ == "__main__":
     read_music_titles()
     read_musics()
     read_map_musics()
     read_music_filenames()
     read_scenario_musics()
-    list_appeared_musics()
+    # list_appeared_musics()
     read_existed_musics()
     save_existed_musics()
     read_new_musics()
     save_new_musics()
     save_appeared_musics()
+    make_new_musics()
+    print_music_progress()

@@ -1,0 +1,3189 @@
+	.include "MPlayDef.s"
+
+	.equ	bgm_map_FE08_03_grp, voicegroup000
+	.equ	bgm_map_FE08_03_pri, 10
+	.equ	bgm_map_FE08_03_rev, 128
+	.equ	bgm_map_FE08_03_mvl, 127
+	.equ	bgm_map_FE08_03_key, 0
+	.equ	bgm_map_FE08_03_tbs, 1
+	.equ	bgm_map_FE08_03_exg, 0
+	.equ	bgm_map_FE08_03_cmp, 1
+
+	.section .rodata
+	.global	bgm_map_FE08_03
+	.align	2
+
+
+@**************** Track 1 (Midi-Chn.0) ****************@
+
+bgm_map_FE08_03_001:
+@  #01 @000   ----------------------------------------
+ .byte   KEYSH , bgm_map_FE08_03_key+0
+Label_857AD2:
+ .byte   TEMPO , 128*bgm_map_FE08_03_tbs/2
+ .byte   VOICE , 1
+ .byte   VOL , 48*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v-15
+ .byte   N12 ,En3 ,v104
+ .byte   W18
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   W12
+ .byte   N24 ,Gn3 ,v092
+ .byte   W24
+ .byte   N06 ,Fs3 ,v104
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   W06
+ .byte   N18 ,Gn3 ,v104
+ .byte   W18
+ .byte   N06 ,Gn3 ,v028
+ .byte   W06
+@  #01 @001   ----------------------------------------
+Label_857AF7:
+ .byte   N12 ,Fs3 ,v104
+ .byte   W18
+ .byte   N06 ,Gn3
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   W12
+ .byte   N24 ,An3 ,v104
+ .byte   W24
+ .byte   N06 ,Gn3
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   W06
+ .byte   N18 ,An3 ,v104
+ .byte   W18
+ .byte   N06 ,An3 ,v028
+ .byte   W06
+ .byte   PEND 
+@  #01 @002   ----------------------------------------
+Label_857B14:
+ .byte   N12 ,En3 ,v104
+ .byte   W18
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   W12
+ .byte   N24 ,Gn3 ,v104
+ .byte   W24
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   W06
+ .byte   N18 ,Gn3 ,v104
+ .byte   W18
+ .byte   N06 ,Gn3 ,v028
+ .byte   W06
+ .byte   PEND 
+@  #01 @003   ----------------------------------------
+ .byte   N18 ,Fs3 ,v104
+ .byte   W18
+ .byte   N06 ,Fs3 ,v028
+ .byte   W06
+ .byte   N04 ,An3 ,v104
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N36 ,Fs3
+ .byte   W36
+ .byte   N06 ,Fs3 ,v028
+ .byte   W12
+@  #01 @004   ----------------------------------------
+ .byte   PATT
+  .word Label_857B14
+@  #01 @005   ----------------------------------------
+ .byte   PATT
+  .word Label_857AF7
+@  #01 @006   ----------------------------------------
+ .byte   N12 ,Gn3 ,v104
+ .byte   W18
+ .byte   N06 ,An3
+ .byte   W06
+ .byte   An3 ,v028
+ .byte   W12
+ .byte   N24 ,Bn3 ,v104
+ .byte   W24
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Cn4 ,v028
+ .byte   W06
+ .byte   N18 ,Bn3 ,v104
+ .byte   W18
+ .byte   N06 ,Bn3 ,v028
+ .byte   W06
+@  #01 @007   ----------------------------------------
+ .byte   N18 ,An3 ,v104
+ .byte   W18
+ .byte   N06 ,An3 ,v028
+ .byte   W06
+ .byte   N04 ,Dn4 ,v104
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N36 ,An3
+ .byte   W36
+ .byte   N06 ,An3 ,v028
+ .byte   W12
+@  #01 @008   ----------------------------------------
+ .byte   VOICE , 2
+ .byte   VOL , 48*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+5
+ .byte   N12 ,En3 ,v116
+ .byte   W18
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   W12
+ .byte   N24 ,Gn3 ,v116
+ .byte   W24
+ .byte   N06 ,Bn3
+ .byte   W06
+ .byte   Bn3 ,v036
+ .byte   W06
+ .byte   N18 ,Gn3 ,v116
+ .byte   W18
+ .byte   N06 ,Gn3 ,v036
+ .byte   W06
+@  #01 @009   ----------------------------------------
+Label_857BA7:
+ .byte   N12 ,Fs3 ,v116
+ .byte   W18
+ .byte   N06 ,Gn3
+ .byte   W06
+ .byte   Gn3 ,v036
+ .byte   W12
+ .byte   N48 ,An3 ,v116
+ .byte   W48
+ .byte   N06 ,An3 ,v036
+ .byte   W12
+ .byte   PEND 
+@  #01 @010   ----------------------------------------
+ .byte   N12 ,En3 ,v116
+ .byte   W18
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   W12
+ .byte   N24 ,Gn3 ,v116
+ .byte   W24
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   W06
+ .byte   N12 ,Gn3 ,v116
+ .byte   W12
+ .byte   Gn3 ,v036
+ .byte   W12
+@  #01 @011   ----------------------------------------
+ .byte   PATT
+  .word Label_857BA7
+@  #01 @012   ----------------------------------------
+ .byte   N12 ,En3 ,v116
+ .byte   W18
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   W12
+ .byte   N24 ,Gn3 ,v116
+ .byte   W24
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   W06
+ .byte   N12 ,Gn3 ,v116
+ .byte   W18
+ .byte   N06 ,Gn3 ,v036
+ .byte   W06
+@  #01 @013   ----------------------------------------
+ .byte   N12 ,Fs3 ,v116
+ .byte   W18
+ .byte   N06 ,Gn3
+ .byte   W06
+ .byte   Gn3 ,v036
+ .byte   W12
+ .byte   N24 ,An3 ,v116
+ .byte   W24
+ .byte   N06 ,Gn3
+ .byte   W06
+ .byte   Gn3 ,v036
+ .byte   W06
+ .byte   N12 ,An3 ,v116
+ .byte   W12
+ .byte   N06 ,An3 ,v036
+ .byte   W12
+@  #01 @014   ----------------------------------------
+ .byte   N12 ,En3 ,v116
+ .byte   W18
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   W12
+ .byte   N24 ,Gn3 ,v116
+ .byte   W24
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v036
+ .byte   W06
+ .byte   N18 ,Gn3 ,v116
+ .byte   W18
+ .byte   N06 ,Gn3 ,v036
+ .byte   W06
+@  #01 @015   ----------------------------------------
+ .byte   N24 ,Fs3 ,v116
+ .byte   W24
+ .byte   N04 ,An3
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N36 ,Fs3
+ .byte   W36
+ .byte   N06 ,Fs3 ,v036
+ .byte   W12
+@  #01 @016   ----------------------------------------
+ .byte   W96
+@  #01 @017   ----------------------------------------
+ .byte   W96
+@  #01 @018   ----------------------------------------
+ .byte   W96
+@  #01 @019   ----------------------------------------
+ .byte   W96
+@  #01 @020   ----------------------------------------
+ .byte   W96
+@  #01 @021   ----------------------------------------
+ .byte   W96
+@  #01 @022   ----------------------------------------
+ .byte   W96
+@  #01 @023   ----------------------------------------
+ .byte   W84
+ .byte   En3 ,v104
+ .byte   W06
+ .byte   Fs3
+ .byte   W06
+@  #01 @024   ----------------------------------------
+Label_857C4D:
+ .byte   N06 ,Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   W06
+ .byte   Fs3 ,v104
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   W06
+ .byte   N30 ,An3 ,v104
+ .byte   W30
+ .byte   N06 ,An3 ,v028
+ .byte   W06
+ .byte   N18 ,Fs3 ,v104
+ .byte   W18
+ .byte   N06 ,Fs3 ,v028
+ .byte   W06
+ .byte   PEND 
+@  #01 @025   ----------------------------------------
+Label_857C71:
+ .byte   N06 ,Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   W06
+ .byte   Fs3 ,v104
+ .byte   W06
+ .byte   Fs3 ,v028
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v028
+ .byte   W06
+ .byte   N42 ,An3 ,v104
+ .byte   W42
+ .byte   N06 ,An3 ,v028
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   An3
+ .byte   W06
+ .byte   PEND 
+@  #01 @026   ----------------------------------------
+Label_857C92:
+ .byte   N06 ,Bn3 ,v104
+ .byte   W06
+ .byte   Bn3 ,v028
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   An3 ,v028
+ .byte   W06
+ .byte   Bn3 ,v104
+ .byte   W06
+ .byte   Bn3 ,v028
+ .byte   W06
+ .byte   N30 ,Cn4 ,v104
+ .byte   W30
+ .byte   N06 ,Cn4 ,v028
+ .byte   W06
+ .byte   N18 ,Bn3 ,v104
+ .byte   W18
+ .byte   N06 ,Bn3 ,v028
+ .byte   W06
+ .byte   PEND 
+@  #01 @027   ----------------------------------------
+ .byte   Dn4 ,v104
+ .byte   W06
+ .byte   Dn4 ,v028
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Cn4 ,v028
+ .byte   W06
+ .byte   Bn3 ,v104
+ .byte   W06
+ .byte   Bn3 ,v028
+ .byte   W06
+ .byte   N30 ,An3 ,v104
+ .byte   W30
+ .byte   N06 ,An3 ,v028
+ .byte   W06
+ .byte   N12 ,Fs3 ,v104
+ .byte   W12
+ .byte   N06 ,En3
+ .byte   W06
+ .byte   Fs3
+ .byte   W06
+@  #01 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_857C4D
+@  #01 @029   ----------------------------------------
+ .byte   PATT
+  .word Label_857C71
+@  #01 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_857C92
+@  #01 @031   ----------------------------------------
+ .byte   N06 ,Dn4 ,v104
+ .byte   W06
+ .byte   Dn4 ,v028
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Cn4 ,v028
+ .byte   W06
+ .byte   Bn3 ,v104
+ .byte   W06
+ .byte   Bn3 ,v028
+ .byte   W06
+ .byte   N30 ,An3 ,v104
+ .byte   W30
+ .byte   N06 ,An3 ,v028
+ .byte   W06
+ .byte   N18 ,Fs3 ,v104
+ .byte   W18
+ .byte   N06 ,Fs3 ,v028
+ .byte   W06
+@  #01 @032   ----------------------------------------
+ .byte   VOICE , 1
+ .byte   VOL , 45*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v-25
+ .byte   N66 ,Dn3 ,v116
+ .byte   W66
+ .byte   N06 ,Dn3 ,v032
+ .byte   W06
+ .byte   Dn3 ,v116
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   Cn3 ,v116
+ .byte   W06
+ .byte   Cn3 ,v032
+ .byte   W06
+@  #01 @033   ----------------------------------------
+ .byte   N66 ,Dn3 ,v112
+ .byte   W66
+ .byte   N06 ,Dn3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v116
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   En3 ,v116
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+@  #01 @034   ----------------------------------------
+ .byte   N66 ,Fn3 ,v112
+ .byte   W66
+ .byte   N06 ,Fn3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v116
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   En3 ,v116
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+@  #01 @035   ----------------------------------------
+ .byte   N42 ,Dn3 ,v112
+ .byte   W42
+ .byte   N06 ,Dn3 ,v032
+ .byte   W06
+ .byte   N42 ,Cn3 ,v112
+ .byte   W42
+ .byte   N06 ,Cn3 ,v032
+ .byte   W06
+@  #01 @036   ----------------------------------------
+ .byte   N66 ,Fn2 ,v112
+ .byte   W66
+ .byte   N06 ,Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v116
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Gn2 ,v116
+ .byte   W06
+ .byte   Gn2 ,v032
+ .byte   W06
+@  #01 @037   ----------------------------------------
+ .byte   N66 ,Gs2 ,v112
+ .byte   W66
+ .byte   N06 ,Gs2 ,v032
+ .byte   W06
+ .byte   Gs2 ,v116
+ .byte   W06
+ .byte   Gs2 ,v032
+ .byte   W06
+ .byte   As2 ,v116
+ .byte   W06
+ .byte   As2 ,v032
+ .byte   W06
+@  #01 @038   ----------------------------------------
+ .byte   N72 ,Cn3 ,v112
+ .byte   W72
+ .byte   N06 ,Cn3 ,v032
+ .byte   W12
+ .byte   Cn3 ,v116
+ .byte   W06
+ .byte   Cs3
+ .byte   W06
+@  #01 @039   ----------------------------------------
+ .byte   N78 ,Ds3 ,v112
+ .byte   W78
+ .byte   N06 ,Ds3 ,v032
+ .byte   W18
+@  #01 @040   ----------------------------------------
+ .byte   GOTO
+  .word Label_857AD2
+ .byte   FINE
+
+@**************** Track 2 (Midi-Chn.1) ****************@
+
+bgm_map_FE08_03_002:
+@  #02 @000   ----------------------------------------
+ .byte   KEYSH , bgm_map_FE08_03_key+0
+Label_857DA2:
+ .byte   VOICE , 3
+ .byte   VOL , 39*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+0
+ .byte   N06 ,En2 ,v127
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   N20
+ .byte   W24
+@  #02 @001   ----------------------------------------
+Label_857DB2:
+ .byte   N06 ,En2 ,v127
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   Bn1
+ .byte   W12
+ .byte   PEND 
+@  #02 @002   ----------------------------------------
+Label_857DBF:
+ .byte   N06 ,En2 ,v127
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   PEND 
+@  #02 @003   ----------------------------------------
+ .byte   PATT
+  .word Label_857DB2
+@  #02 @004   ----------------------------------------
+ .byte   PATT
+  .word Label_857DBF
+@  #02 @005   ----------------------------------------
+ .byte   PATT
+  .word Label_857DB2
+@  #02 @006   ----------------------------------------
+ .byte   PATT
+  .word Label_857DBF
+@  #02 @007   ----------------------------------------
+Label_857DDE:
+ .byte   N06 ,En2 ,v127
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   Dn2
+ .byte   W12
+ .byte   PEND 
+@  #02 @008   ----------------------------------------
+ .byte   Cn2
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   N20
+ .byte   W24
+@  #02 @009   ----------------------------------------
+ .byte   N06
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   N05
+ .byte   W12
+ .byte   Bn1
+ .byte   W12
+@  #02 @010   ----------------------------------------
+ .byte   N06 ,An1
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   N20
+ .byte   W24
+@  #02 @011   ----------------------------------------
+ .byte   N06
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   An2
+ .byte   W12
+ .byte   Fs2
+ .byte   W12
+@  #02 @012   ----------------------------------------
+ .byte   PATT
+  .word Label_857DBF
+@  #02 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_857DB2
+@  #02 @014   ----------------------------------------
+ .byte   PATT
+  .word Label_857DBF
+@  #02 @015   ----------------------------------------
+ .byte   PATT
+  .word Label_857DDE
+@  #02 @016   ----------------------------------------
+ .byte   N24 ,Cn2 ,v127
+ .byte   W36
+ .byte   N06 ,Gn1
+ .byte   W12
+ .byte   N36 ,Cn2
+ .byte   W48
+@  #02 @017   ----------------------------------------
+ .byte   N36
+ .byte   W48
+ .byte   N14
+ .byte   W24
+ .byte   N14
+ .byte   W24
+@  #02 @018   ----------------------------------------
+ .byte   N36 ,Bn1
+ .byte   W48
+ .byte   N15
+ .byte   W24
+ .byte   Fs1
+ .byte   W24
+@  #02 @019   ----------------------------------------
+ .byte   N60 ,Bn1
+ .byte   W72
+ .byte   N15
+ .byte   W24
+@  #02 @020   ----------------------------------------
+ .byte   N60 ,An1
+ .byte   W72
+ .byte   N15 ,En1
+ .byte   W24
+@  #02 @021   ----------------------------------------
+ .byte   N36 ,An1
+ .byte   W48
+ .byte   N15
+ .byte   W24
+ .byte   N15
+ .byte   W24
+@  #02 @022   ----------------------------------------
+ .byte   N60 ,Dn2
+ .byte   W72
+ .byte   N15
+ .byte   W24
+@  #02 @023   ----------------------------------------
+ .byte   N18 ,Bn1
+ .byte   W24
+ .byte   N18
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   Bn2
+ .byte   W12
+ .byte   Bn1
+ .byte   W12
+@  #02 @024   ----------------------------------------
+Label_857E5F:
+ .byte   N06 ,En2 ,v127
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   PEND 
+@  #02 @025   ----------------------------------------
+Label_857E6E:
+ .byte   N06 ,Dn2 ,v127
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   PEND 
+@  #02 @026   ----------------------------------------
+Label_857E7D:
+ .byte   N06 ,Cn2 ,v127
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   PEND 
+@  #02 @027   ----------------------------------------
+ .byte   PATT
+  .word Label_857E6E
+@  #02 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_857E5F
+@  #02 @029   ----------------------------------------
+ .byte   PATT
+  .word Label_857E6E
+@  #02 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_857E7D
+@  #02 @031   ----------------------------------------
+ .byte   N06 ,Dn2 ,v127
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+@  #02 @032   ----------------------------------------
+ .byte   PATT
+  .word Label_857E6E
+@  #02 @033   ----------------------------------------
+ .byte   PATT
+  .word Label_857E7D
+@  #02 @034   ----------------------------------------
+ .byte   N06 ,As1 ,v127
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+@  #02 @035   ----------------------------------------
+ .byte   Cn2
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   Cn3
+ .byte   W12
+ .byte   As2
+ .byte   W12
+ .byte   Gs2
+ .byte   W12
+ .byte   Gn2
+ .byte   W12
+@  #02 @036   ----------------------------------------
+ .byte   Fn2
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+@  #02 @037   ----------------------------------------
+ .byte   Ds2
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+@  #02 @038   ----------------------------------------
+ .byte   Cs2
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+@  #02 @039   ----------------------------------------
+ .byte   Ds2
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   Bn1
+ .byte   W12
+@  #02 @040   ----------------------------------------
+ .byte   GOTO
+  .word Label_857DA2
+ .byte   FINE
+
+@**************** Track 3 (Midi-Chn.2) ****************@
+
+bgm_map_FE08_03_003:
+@  #03 @000   ----------------------------------------
+ .byte   KEYSH , bgm_map_FE08_03_key+0
+Label_857F0E:
+ .byte   VOICE , 4
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+15
+ .byte   W96
+@  #03 @001   ----------------------------------------
+ .byte   W96
+@  #03 @002   ----------------------------------------
+ .byte   W96
+@  #03 @003   ----------------------------------------
+ .byte   W72
+ .byte   N06 ,An2 ,v100
+ .byte   W06
+ .byte   Bn2
+ .byte   W06
+ .byte   Cn3
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+@  #03 @004   ----------------------------------------
+ .byte   N92 ,Bn2 ,v096
+ .byte   N92 ,En3 ,v104
+ .byte   W96
+@  #03 @005   ----------------------------------------
+ .byte   N68 ,An2 ,v092
+ .byte   N68 ,Dn3 ,v100
+ .byte   W72
+ .byte   N20 ,Fs2 ,v076
+ .byte   N20 ,An2 ,v100
+ .byte   W24
+@  #03 @006   ----------------------------------------
+ .byte   N44 ,Gn2 ,v080
+ .byte   N44 ,Bn2 ,v096
+ .byte   W48
+ .byte   N20 ,Bn2 ,v080
+ .byte   N20 ,Dn3 ,v112
+ .byte   W24
+ .byte   Dn3 ,v080
+ .byte   N20 ,Gn3 ,v112
+ .byte   W24
+@  #03 @007   ----------------------------------------
+ .byte   N72 ,Dn3 ,v092
+ .byte   N76 ,Fs3 ,v104
+ .byte   W78
+ .byte   N05 ,En3 ,v076
+ .byte   W06
+ .byte   Dn3 ,v092
+ .byte   W06
+ .byte   Cs3 ,v068
+ .byte   W06
+@  #03 @008   ----------------------------------------
+ .byte   TIE ,Gn2 ,v092
+ .byte   TIE ,Cn3 ,v104
+ .byte   W96
+@  #03 @009   ----------------------------------------
+ .byte   W64
+ .byte   W01
+ .byte   EOT
+ .byte   Gn2 ,v060
+ .byte   W07
+ .byte   N04 ,Cn3 ,v108
+ .byte   W12
+ .byte   N06 ,Bn2 ,v092
+ .byte   W12
+@  #03 @010   ----------------------------------------
+ .byte   TIE ,En2 ,v084
+ .byte   TIE ,An2 ,v108
+ .byte   W96
+@  #03 @011   ----------------------------------------
+ .byte   W21
+ .byte   EOT
+ .byte   En2 ,v057
+ .byte   W03
+ .byte   N21 ,En2
+ .byte   N21 ,An2
+ .byte   W24
+ .byte   N21
+ .byte   N21 ,Cn3
+ .byte   W30
+ .byte   N05 ,Bn2 ,v088
+ .byte   W06
+ .byte   Cn3 ,v084
+ .byte   W06
+ .byte   Dn3 ,v096
+ .byte   W06
+@  #03 @012   ----------------------------------------
+ .byte   N76 ,Bn2
+ .byte   N76 ,En3 ,v104
+ .byte   W84
+ .byte   N04 ,Bn2 ,v092
+ .byte   N04 ,En3 ,v096
+ .byte   W06
+ .byte   Bn2 ,v088
+ .byte   N04 ,En3 ,v092
+ .byte   W06
+@  #03 @013   ----------------------------------------
+ .byte   N76 ,An2 ,v104
+ .byte   N76 ,Dn3
+ .byte   W84
+ .byte   N03 ,An2 ,v092
+ .byte   N03 ,Dn3 ,v096
+ .byte   W12
+@  #03 @014   ----------------------------------------
+ .byte   N76 ,Bn2
+ .byte   N76 ,En3
+ .byte   W84
+ .byte   N03 ,Bn2 ,v092
+ .byte   N02 ,En3 ,v088
+ .byte   W06
+ .byte   N03 ,Bn2
+ .byte   N03 ,En3 ,v092
+ .byte   W06
+@  #03 @015   ----------------------------------------
+ .byte   N44 ,An2 ,v104
+ .byte   N44 ,Dn3
+ .byte   W48
+ .byte   Fs2
+ .byte   N44 ,An2 ,v100
+ .byte   W48
+@  #03 @016   ----------------------------------------
+ .byte   W96
+@  #03 @017   ----------------------------------------
+ .byte   W96
+@  #03 @018   ----------------------------------------
+ .byte   W96
+@  #03 @019   ----------------------------------------
+ .byte   W96
+@  #03 @020   ----------------------------------------
+ .byte   W96
+@  #03 @021   ----------------------------------------
+ .byte   W96
+@  #03 @022   ----------------------------------------
+ .byte   W96
+@  #03 @023   ----------------------------------------
+ .byte   W96
+@  #03 @024   ----------------------------------------
+ .byte   W96
+@  #03 @025   ----------------------------------------
+ .byte   W96
+@  #03 @026   ----------------------------------------
+ .byte   W96
+@  #03 @027   ----------------------------------------
+ .byte   W96
+@  #03 @028   ----------------------------------------
+ .byte   W96
+@  #03 @029   ----------------------------------------
+ .byte   W96
+@  #03 @030   ----------------------------------------
+ .byte   W96
+@  #03 @031   ----------------------------------------
+ .byte   W96
+@  #03 @032   ----------------------------------------
+ .byte   VOICE , 5
+ .byte   VOL , 46*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+25
+ .byte   N06 ,Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   En3 ,v104
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   N30 ,Gn3 ,v104
+ .byte   W30
+ .byte   N06 ,Gn3 ,v032
+ .byte   W06
+ .byte   N18 ,En3 ,v104
+ .byte   W18
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+@  #03 @033   ----------------------------------------
+ .byte   Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   En3 ,v104
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   N30 ,Gn3 ,v104
+ .byte   W30
+ .byte   N06 ,Gn3 ,v032
+ .byte   W06
+ .byte   N18 ,An3 ,v104
+ .byte   W24
+@  #03 @034   ----------------------------------------
+ .byte   N06
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   N30 ,As3 ,v104
+ .byte   W30
+ .byte   N06 ,As3 ,v032
+ .byte   W06
+ .byte   N24 ,An3 ,v104
+ .byte   W24
+@  #03 @035   ----------------------------------------
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Cn4 ,v032
+ .byte   W06
+ .byte   As3 ,v104
+ .byte   W06
+ .byte   As3 ,v032
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   N30 ,Gn3 ,v104
+ .byte   W30
+ .byte   N06 ,Gn3 ,v032
+ .byte   W06
+ .byte   N12 ,En3 ,v104
+ .byte   W12
+ .byte   N06 ,Fn3
+ .byte   W06
+ .byte   Gn3
+ .byte   W06
+@  #03 @036   ----------------------------------------
+ .byte   Gs3
+ .byte   W06
+ .byte   Gs3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   Gs3 ,v104
+ .byte   W06
+ .byte   Gs3 ,v032
+ .byte   W06
+ .byte   N30 ,As3 ,v104
+ .byte   W30
+ .byte   N06 ,As3 ,v032
+ .byte   W06
+ .byte   N24 ,Gn3 ,v104
+ .byte   W24
+@  #03 @037   ----------------------------------------
+ .byte   N06 ,Gs3
+ .byte   W06
+ .byte   Gs3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   Gs3 ,v104
+ .byte   W06
+ .byte   Gs3 ,v032
+ .byte   W06
+ .byte   N30 ,As3 ,v104
+ .byte   W30
+ .byte   N06 ,As3 ,v032
+ .byte   W06
+ .byte   N24 ,Cn4 ,v104
+ .byte   W24
+@  #03 @038   ----------------------------------------
+ .byte   N06
+ .byte   W06
+ .byte   Cn4 ,v032
+ .byte   W06
+ .byte   As3 ,v104
+ .byte   W06
+ .byte   As3 ,v032
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Cn4 ,v032
+ .byte   W06
+ .byte   N30 ,Cs4 ,v104
+ .byte   W30
+ .byte   N06 ,Cs4 ,v032
+ .byte   W06
+ .byte   N24 ,Cn4 ,v104
+ .byte   W24
+@  #03 @039   ----------------------------------------
+ .byte   N06 ,Ds4
+ .byte   W06
+ .byte   Ds4 ,v032
+ .byte   W06
+ .byte   Cs4 ,v104
+ .byte   W06
+ .byte   Cs4 ,v032
+ .byte   W06
+ .byte   Cn4 ,v104
+ .byte   W06
+ .byte   Cn4 ,v032
+ .byte   W06
+ .byte   N36 ,As3 ,v104
+ .byte   W60
+@  #03 @040   ----------------------------------------
+ .byte   GOTO
+  .word Label_857F0E
+ .byte   FINE
+
+@**************** Track 4 (Midi-Chn.3) ****************@
+
+bgm_map_FE08_03_004:
+@  #04 @000   ----------------------------------------
+ .byte   KEYSH , bgm_map_FE08_03_key+0
+Label_8580DA:
+ .byte   VOICE , 2
+ .byte   VOL , 41*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+0
+ .byte   N12 ,Bn2 ,v092
+ .byte   W18
+ .byte   N06 ,Dn3 ,v104
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W12
+ .byte   N24 ,En3 ,v104
+ .byte   W24
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   N18 ,En3 ,v104
+ .byte   W18
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+@  #04 @001   ----------------------------------------
+Label_8580FD:
+ .byte   N12 ,Dn3 ,v104
+ .byte   W18
+ .byte   N06 ,En3
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W12
+ .byte   N24 ,Fs3 ,v104
+ .byte   W24
+ .byte   N06 ,En3
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   N18 ,Fs3 ,v104
+ .byte   W18
+ .byte   N06 ,Fs3 ,v032
+ .byte   W06
+ .byte   PEND 
+@  #04 @002   ----------------------------------------
+Label_85811A:
+ .byte   N12 ,Bn2 ,v104
+ .byte   W18
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W12
+ .byte   N24 ,En3 ,v104
+ .byte   W24
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   N18 ,En3 ,v104
+ .byte   W18
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+ .byte   PEND 
+@  #04 @003   ----------------------------------------
+ .byte   N24 ,Dn3 ,v104
+ .byte   W24
+ .byte   N04 ,Fs3
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N42 ,Dn3
+ .byte   W42
+ .byte   N06 ,Dn3 ,v032
+ .byte   W06
+@  #04 @004   ----------------------------------------
+ .byte   PATT
+  .word Label_85811A
+@  #04 @005   ----------------------------------------
+ .byte   PATT
+  .word Label_8580FD
+@  #04 @006   ----------------------------------------
+ .byte   N12 ,En3 ,v104
+ .byte   W18
+ .byte   N06 ,Fs3
+ .byte   W06
+ .byte   Fs3 ,v032
+ .byte   W12
+ .byte   N24 ,Gn3 ,v104
+ .byte   W24
+ .byte   N06 ,An3
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   N18 ,Gn3 ,v104
+ .byte   W18
+ .byte   N06 ,Gn3 ,v032
+ .byte   W06
+@  #04 @007   ----------------------------------------
+ .byte   N24 ,Fs3 ,v104
+ .byte   W24
+ .byte   N04 ,An3
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N24 ,Fs3
+ .byte   W48
+@  #04 @008   ----------------------------------------
+ .byte   VOICE , 6
+ .byte   VOL , 24*bgm_map_FE08_03_mvl/mxv
+ .byte   N12 ,Cn4
+ .byte   W18
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn4 ,v032
+ .byte   W12
+ .byte   N24 ,En4 ,v104
+ .byte   W24
+ .byte   N06 ,Gn4
+ .byte   W06
+ .byte   Gn4 ,v032
+ .byte   W06
+ .byte   N18 ,En4 ,v104
+ .byte   W18
+ .byte   N06 ,En4 ,v032
+ .byte   W06
+@  #04 @009   ----------------------------------------
+Label_85819C:
+ .byte   N12 ,Dn4 ,v104
+ .byte   W18
+ .byte   N06 ,En4
+ .byte   W06
+ .byte   En4 ,v032
+ .byte   W12
+ .byte   N54 ,Fs4 ,v104
+ .byte   W54
+ .byte   N06 ,Fs4 ,v032
+ .byte   W06
+ .byte   PEND 
+@  #04 @010   ----------------------------------------
+ .byte   N12 ,Cn4 ,v104
+ .byte   W18
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn4 ,v032
+ .byte   W12
+ .byte   N24 ,En4 ,v104
+ .byte   W24
+ .byte   N06 ,Dn4
+ .byte   W06
+ .byte   Dn4 ,v032
+ .byte   W06
+ .byte   N18 ,En4 ,v104
+ .byte   W18
+ .byte   N06 ,En4 ,v032
+ .byte   W06
+@  #04 @011   ----------------------------------------
+ .byte   PATT
+  .word Label_85819C
+@  #04 @012   ----------------------------------------
+ .byte   VOICE , 2
+ .byte   VOL , 41*bgm_map_FE08_03_mvl/mxv
+ .byte   N12 ,Bn2 ,v104
+ .byte   W18
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W12
+ .byte   N24 ,En3 ,v104
+ .byte   W24
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   N18 ,En3 ,v104
+ .byte   W18
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+@  #04 @013   ----------------------------------------
+ .byte   PATT
+  .word Label_8580FD
+@  #04 @014   ----------------------------------------
+ .byte   PATT
+  .word Label_85811A
+@  #04 @015   ----------------------------------------
+ .byte   N24 ,Dn3 ,v104
+ .byte   W24
+ .byte   N04 ,Fs3
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N04
+ .byte   W08
+ .byte   N42 ,Dn3
+ .byte   W48
+@  #04 @016   ----------------------------------------
+ .byte   VOICE , 4
+ .byte   VOL , 41*bgm_map_FE08_03_mvl/mxv
+ .byte   N84
+ .byte   W84
+ .byte   N06 ,Cn3
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+@  #04 @017   ----------------------------------------
+ .byte   N21 ,En3
+ .byte   W24
+ .byte   Dn3
+ .byte   W24
+ .byte   N24
+ .byte   W24
+ .byte   Cn3
+ .byte   W24
+@  #04 @018   ----------------------------------------
+ .byte   N80 ,Bn2
+ .byte   W84
+ .byte   N06 ,Cn3
+ .byte   W06
+ .byte   Cn3 ,v032
+ .byte   W06
+@  #04 @019   ----------------------------------------
+ .byte   N72 ,Dn3 ,v104
+ .byte   W78
+ .byte   N06 ,Bn2
+ .byte   W06
+ .byte   Cn3
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+@  #04 @020   ----------------------------------------
+ .byte   N78 ,En3 ,v096
+ .byte   W78
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+ .byte   Dn3 ,v104
+ .byte   W06
+ .byte   En3
+ .byte   W06
+@  #04 @021   ----------------------------------------
+ .byte   N24 ,Fs3
+ .byte   W24
+ .byte   En3
+ .byte   W24
+ .byte   Dn3
+ .byte   W24
+ .byte   En3
+ .byte   W24
+@  #04 @022   ----------------------------------------
+ .byte   N44 ,Dn3 ,v096
+ .byte   W48
+ .byte   Fs3
+ .byte   W48
+@  #04 @023   ----------------------------------------
+ .byte   Ds3 ,v104
+ .byte   W48
+ .byte   N32 ,Fs3 ,v112
+ .byte   W48
+@  #04 @024   ----------------------------------------
+ .byte   W96
+@  #04 @025   ----------------------------------------
+ .byte   W96
+@  #04 @026   ----------------------------------------
+ .byte   W96
+@  #04 @027   ----------------------------------------
+ .byte   W96
+@  #04 @028   ----------------------------------------
+ .byte   VOICE , 7
+ .byte   VOL , 37*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+36
+ .byte   N72 ,En2
+ .byte   N72 ,Gn2
+ .byte   W72
+ .byte   N06 ,Gn2 ,v032
+ .byte   W12
+ .byte   En2 ,v112
+ .byte   N06 ,Gn2
+ .byte   W06
+ .byte   Fs2
+ .byte   N06 ,An2
+ .byte   W06
+@  #04 @029   ----------------------------------------
+ .byte   N30 ,Gn2
+ .byte   N30 ,Bn2
+ .byte   W30
+ .byte   N06 ,Bn2 ,v032
+ .byte   W06
+ .byte   Fs2 ,v112
+ .byte   N06 ,An2
+ .byte   W06
+ .byte   Gn2
+ .byte   N06 ,Bn2
+ .byte   W06
+ .byte   N12 ,An2
+ .byte   N12 ,Cn3
+ .byte   W12
+ .byte   N06 ,Cn3 ,v032
+ .byte   W12
+ .byte   N12 ,Fs2 ,v112
+ .byte   N12 ,An2
+ .byte   W12
+ .byte   N06 ,An2 ,v032
+ .byte   W12
+@  #04 @030   ----------------------------------------
+ .byte   N72 ,En2 ,v112
+ .byte   N72 ,Gn2
+ .byte   W72
+ .byte   N06 ,Gn2 ,v032
+ .byte   W12
+ .byte   Gn2 ,v112
+ .byte   N06 ,Bn2
+ .byte   W06
+ .byte   Bn2 ,v032
+ .byte   W06
+@  #04 @031   ----------------------------------------
+ .byte   N12 ,Fs2 ,v112
+ .byte   N12 ,An2
+ .byte   W12
+ .byte   N06 ,An2 ,v032
+ .byte   W12
+ .byte   N12 ,Gn2 ,v112
+ .byte   N12 ,Bn2
+ .byte   W12
+ .byte   N06 ,Bn2 ,v032
+ .byte   W12
+ .byte   N12 ,An2 ,v112
+ .byte   N12 ,Cn3
+ .byte   W12
+ .byte   N06 ,Cn3 ,v032
+ .byte   W12
+ .byte   N12 ,Dn3 ,v112
+ .byte   N12 ,Fs3
+ .byte   W12
+ .byte   N06 ,Fs3 ,v032
+ .byte   W12
+@  #04 @032   ----------------------------------------
+ .byte   W96
+@  #04 @033   ----------------------------------------
+ .byte   W96
+@  #04 @034   ----------------------------------------
+ .byte   W96
+@  #04 @035   ----------------------------------------
+ .byte   W96
+@  #04 @036   ----------------------------------------
+ .byte   W96
+@  #04 @037   ----------------------------------------
+ .byte   W96
+@  #04 @038   ----------------------------------------
+ .byte   VOICE , 6
+ .byte   VOL , 41*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v-25
+ .byte   W96
+@  #04 @039   ----------------------------------------
+ .byte   N12 ,Ds4 ,v112
+ .byte   W12
+ .byte   Cs4
+ .byte   W12
+ .byte   Cn4
+ .byte   W12
+ .byte   N21 ,As3
+ .byte   W24
+ .byte   N12 ,Gs3 ,v104
+ .byte   N12 ,Cs4 ,v112
+ .byte   W12
+ .byte   Gn3 ,v104
+ .byte   N12 ,Cn4 ,v112
+ .byte   W12
+ .byte   Ds3 ,v104
+ .byte   N12 ,Gs3 ,v112
+ .byte   W12
+@  #04 @040   ----------------------------------------
+ .byte   GOTO
+  .word Label_8580DA
+ .byte   FINE
+
+@**************** Track 5 (Midi-Chn.4) ****************@
+
+bgm_map_FE08_03_005:
+@  #05 @000   ----------------------------------------
+ .byte   KEYSH , bgm_map_FE08_03_key+0
+Label_858301:
+ .byte   W96
+@  #05 @001   ----------------------------------------
+ .byte   W96
+@  #05 @002   ----------------------------------------
+ .byte   W96
+@  #05 @003   ----------------------------------------
+ .byte   W96
+@  #05 @004   ----------------------------------------
+ .byte   W96
+@  #05 @005   ----------------------------------------
+ .byte   W96
+@  #05 @006   ----------------------------------------
+ .byte   W96
+@  #05 @007   ----------------------------------------
+ .byte   W96
+@  #05 @008   ----------------------------------------
+ .byte   W96
+@  #05 @009   ----------------------------------------
+ .byte   W96
+@  #05 @010   ----------------------------------------
+ .byte   W96
+@  #05 @011   ----------------------------------------
+ .byte   W96
+@  #05 @012   ----------------------------------------
+ .byte   W96
+@  #05 @013   ----------------------------------------
+ .byte   W96
+@  #05 @014   ----------------------------------------
+ .byte   W96
+@  #05 @015   ----------------------------------------
+ .byte   W96
+@  #05 @016   ----------------------------------------
+ .byte   VOICE , 6
+ .byte   VOL , 45*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+16
+ .byte   N92 ,Bn3 ,v092
+ .byte   W96
+@  #05 @017   ----------------------------------------
+ .byte   N20
+ .byte   W24
+ .byte   An3
+ .byte   W24
+ .byte   N20
+ .byte   W24
+ .byte   Gn3
+ .byte   W24
+@  #05 @018   ----------------------------------------
+ .byte   N68 ,Fs3
+ .byte   W72
+ .byte   N05 ,Fs3 ,v032
+ .byte   W12
+ .byte   Gn3 ,v092
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+@  #05 @019   ----------------------------------------
+ .byte   N80 ,Fs3 ,v092
+ .byte   W84
+ .byte   N05 ,Fs3 ,v032
+ .byte   W12
+@  #05 @020   ----------------------------------------
+ .byte   N68 ,Cn4 ,v092
+ .byte   W72
+ .byte   N05 ,Cn4 ,v032
+ .byte   W12
+ .byte   N06 ,Bn3 ,v092
+ .byte   W06
+ .byte   Cn4
+ .byte   W06
+@  #05 @021   ----------------------------------------
+ .byte   N20 ,Dn4
+ .byte   W24
+ .byte   Cn4
+ .byte   W24
+ .byte   Bn3
+ .byte   W24
+ .byte   Cn4
+ .byte   W24
+@  #05 @022   ----------------------------------------
+ .byte   N72 ,Dn4
+ .byte   W72
+ .byte   N06 ,Bn3
+ .byte   W06
+ .byte   N05 ,Bn3 ,v032
+ .byte   W06
+ .byte   N06 ,Dn4 ,v092
+ .byte   W06
+ .byte   N05 ,Dn4 ,v032
+ .byte   W06
+@  #05 @023   ----------------------------------------
+ .byte   N78 ,Ds4 ,v092
+ .byte   W72
+ .byte   VOICE , 4
+ .byte   VOL , 39*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+25
+ .byte   W06
+ .byte   N05 ,Ds4 ,v032
+ .byte   W06
+ .byte   N06 ,Bn2 ,v104
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+@  #05 @024   ----------------------------------------
+Label_858376:
+ .byte   N06 ,En3 ,v104
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   Dn3 ,v104
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   En3 ,v104
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   N30 ,Fs3 ,v104
+ .byte   W30
+ .byte   N06 ,Fs3 ,v032
+ .byte   W06
+ .byte   N24 ,Dn3 ,v104
+ .byte   W24
+ .byte   PEND 
+@  #05 @025   ----------------------------------------
+Label_858396:
+ .byte   N06 ,En3 ,v104
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   Dn3 ,v104
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   En3 ,v104
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   N42 ,Fs3 ,v104
+ .byte   W42
+ .byte   N06 ,Fs3 ,v032
+ .byte   W06
+ .byte   Dn3 ,v104
+ .byte   W06
+ .byte   En3
+ .byte   W06
+ .byte   PEND 
+@  #05 @026   ----------------------------------------
+Label_8583B7:
+ .byte   N06 ,Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   Fs3 ,v104
+ .byte   W06
+ .byte   Fs3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   N30 ,An3 ,v104
+ .byte   W30
+ .byte   N06 ,An3 ,v032
+ .byte   W06
+ .byte   N24 ,Gn3 ,v104
+ .byte   W24
+ .byte   PEND 
+@  #05 @027   ----------------------------------------
+ .byte   N06 ,Bn3
+ .byte   W06
+ .byte   Bn3 ,v032
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   N30 ,Fs3 ,v104
+ .byte   W30
+ .byte   N06 ,Fs3 ,v032
+ .byte   W06
+ .byte   N12 ,Dn3 ,v104
+ .byte   W12
+ .byte   N06 ,Bn2
+ .byte   W06
+ .byte   Dn3
+ .byte   W06
+@  #05 @028   ----------------------------------------
+ .byte   PATT
+  .word Label_858376
+@  #05 @029   ----------------------------------------
+ .byte   PATT
+  .word Label_858396
+@  #05 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_8583B7
+@  #05 @031   ----------------------------------------
+ .byte   N06 ,Bn3 ,v104
+ .byte   W06
+ .byte   Bn3 ,v032
+ .byte   W06
+ .byte   An3 ,v104
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   N30 ,Fs3 ,v104
+ .byte   W30
+ .byte   N06 ,Fs3 ,v032
+ .byte   W06
+ .byte   N12 ,Dn3 ,v104
+ .byte   W12
+ .byte   N06 ,An2
+ .byte   W06
+ .byte   Cn3
+ .byte   W06
+@  #05 @032   ----------------------------------------
+ .byte   Dn3
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   Cn3 ,v104
+ .byte   W06
+ .byte   Cn3 ,v032
+ .byte   W06
+ .byte   Dn3 ,v104
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   N30 ,En3 ,v104
+ .byte   W30
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+ .byte   N24 ,Cn3 ,v104
+ .byte   W24
+@  #05 @033   ----------------------------------------
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   Cn3 ,v104
+ .byte   W06
+ .byte   Cn3 ,v032
+ .byte   W06
+ .byte   Dn3 ,v104
+ .byte   W06
+ .byte   Dn3 ,v032
+ .byte   W06
+ .byte   N30 ,En3 ,v104
+ .byte   W30
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+ .byte   N24 ,Fn3 ,v104
+ .byte   W24
+@  #05 @034   ----------------------------------------
+ .byte   N06
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   En3 ,v104
+ .byte   W06
+ .byte   En3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   N30 ,Gn3 ,v104
+ .byte   W30
+ .byte   N06 ,Gn3 ,v032
+ .byte   W06
+ .byte   N24 ,Fn3 ,v104
+ .byte   W24
+@  #05 @035   ----------------------------------------
+ .byte   N06 ,An3
+ .byte   W06
+ .byte   An3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   N30 ,En3 ,v104
+ .byte   W30
+ .byte   N06 ,En3 ,v032
+ .byte   W06
+ .byte   N12 ,Cn3 ,v104
+ .byte   W12
+ .byte   N06 ,Dn3
+ .byte   W06
+ .byte   En3
+ .byte   W06
+@  #05 @036   ----------------------------------------
+ .byte   Fn3
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   Ds3 ,v104
+ .byte   W06
+ .byte   Ds3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   N30 ,Gn3 ,v104
+ .byte   W30
+ .byte   N06 ,Gn3 ,v032
+ .byte   W06
+ .byte   N24 ,Ds3 ,v104
+ .byte   W24
+@  #05 @037   ----------------------------------------
+ .byte   N06 ,Fn3
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   Ds3 ,v104
+ .byte   W06
+ .byte   Ds3 ,v032
+ .byte   W06
+ .byte   Fn3 ,v104
+ .byte   W06
+ .byte   Fn3 ,v032
+ .byte   W06
+ .byte   N30 ,Gn3 ,v104
+ .byte   W30
+ .byte   N06 ,Gn3 ,v032
+ .byte   W06
+ .byte   N24 ,Gs3 ,v104
+ .byte   W24
+@  #05 @038   ----------------------------------------
+ .byte   N06
+ .byte   W06
+ .byte   Gs3 ,v032
+ .byte   W06
+ .byte   Gn3 ,v104
+ .byte   W06
+ .byte   Gn3 ,v032
+ .byte   W06
+ .byte   Gs3 ,v104
+ .byte   W06
+ .byte   Gs3 ,v032
+ .byte   W06
+ .byte   N30 ,As3 ,v104
+ .byte   W30
+ .byte   N06 ,As3 ,v032
+ .byte   W06
+ .byte   N24 ,Gs3 ,v104
+ .byte   W24
+@  #05 @039   ----------------------------------------
+ .byte   N06 ,Cn4
+ .byte   W06
+ .byte   Cn4 ,v032
+ .byte   W06
+ .byte   As3 ,v104
+ .byte   W06
+ .byte   As3 ,v032
+ .byte   W06
+ .byte   Gs3 ,v104
+ .byte   W06
+ .byte   Gs3 ,v032
+ .byte   W06
+ .byte   N48 ,Gn3 ,v104
+ .byte   W48
+ .byte   N06 ,Gn3 ,v032
+ .byte   W12
+@  #05 @040   ----------------------------------------
+ .byte   GOTO
+  .word Label_858301
+ .byte   FINE
+
+@**************** Track 6 (Midi-Chn.5) ****************@
+
+bgm_map_FE08_03_006:
+@  #06 @000   ----------------------------------------
+ .byte   KEYSH , bgm_map_FE08_03_key+0
+Label_858522:
+ .byte   VOICE , 8
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+29
+ .byte   N80 ,En2 ,v104
+ .byte   W84
+ .byte   N03 ,En2 ,v096
+ .byte   W06
+ .byte   En2 ,v092
+ .byte   W06
+@  #06 @001   ----------------------------------------
+ .byte   N76 ,En2 ,v104
+ .byte   W84
+ .byte   N03 ,En2 ,v096
+ .byte   W12
+@  #06 @002   ----------------------------------------
+ .byte   N78
+ .byte   W84
+ .byte   N02 ,En2 ,v088
+ .byte   W06
+ .byte   N03 ,En2 ,v092
+ .byte   W06
+@  #06 @003   ----------------------------------------
+ .byte   N64 ,En2 ,v104
+ .byte   W96
+@  #06 @004   ----------------------------------------
+ .byte   W96
+@  #06 @005   ----------------------------------------
+ .byte   W96
+@  #06 @006   ----------------------------------------
+ .byte   W96
+@  #06 @007   ----------------------------------------
+ .byte   W96
+@  #06 @008   ----------------------------------------
+ .byte   W96
+@  #06 @009   ----------------------------------------
+ .byte   W96
+@  #06 @010   ----------------------------------------
+ .byte   W96
+@  #06 @011   ----------------------------------------
+ .byte   W96
+@  #06 @012   ----------------------------------------
+ .byte   W96
+@  #06 @013   ----------------------------------------
+ .byte   W96
+@  #06 @014   ----------------------------------------
+ .byte   W96
+@  #06 @015   ----------------------------------------
+ .byte   W96
+@  #06 @016   ----------------------------------------
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   N76 ,Cn2 ,v068
+ .byte   N68 ,Gn2 ,v072
+ .byte   W78
+ .byte   N05 ,Gn2 ,v068
+ .byte   W06
+ .byte   An2 ,v064
+ .byte   W06
+ .byte   Bn2 ,v068
+ .byte   W06
+@  #06 @017   ----------------------------------------
+ .byte   N80 ,En2 ,v076
+ .byte   N84 ,Cn3 ,v072
+ .byte   W96
+@  #06 @018   ----------------------------------------
+ .byte   N68 ,Dn2 ,v080
+ .byte   N68 ,Bn2 ,v072
+ .byte   W72
+ .byte   N06 ,Dn2
+ .byte   N06 ,An2
+ .byte   W12
+ .byte   Cn2
+ .byte   N06 ,Gn2
+ .byte   W12
+@  #06 @019   ----------------------------------------
+ .byte   N88 ,Bn1 ,v076
+ .byte   N92 ,Fs2 ,v084
+ .byte   W96
+@  #06 @020   ----------------------------------------
+ .byte   Cn2 ,v076
+ .byte   N92 ,Gn2
+ .byte   W96
+@  #06 @021   ----------------------------------------
+ .byte   En2
+ .byte   N32 ,Gn2 ,v072
+ .byte   W36
+ .byte   N11 ,An2
+ .byte   W12
+ .byte   N44 ,Bn2
+ .byte   W48
+@  #06 @022   ----------------------------------------
+ .byte   N92 ,Dn2 ,v060
+ .byte   N92 ,An2 ,v076
+ .byte   W96
+@  #06 @023   ----------------------------------------
+ .byte   Fs2 ,v100
+ .byte   W04
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 13*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 12*bgm_map_FE08_03_mvl/mxv
+ .byte   W02
+ .byte   VOL , 13*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 13*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 14*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 14*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 15*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 15*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 15*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 16*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 16*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 17*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 18*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 19*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 19*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 20*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 21*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 21*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 21*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 22*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 23*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 24*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 25*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 26*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 27*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 28*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 29*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 30*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 31*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 32*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 33*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 35*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 36*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 37*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 38*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 39*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 40*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 41*bgm_map_FE08_03_mvl/mxv
+ .byte   W01
+ .byte   VOL , 41*bgm_map_FE08_03_mvl/mxv
+ .byte   W12
+@  #06 @024   ----------------------------------------
+ .byte   N06 ,En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v092
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+@  #06 @025   ----------------------------------------
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+@  #06 @026   ----------------------------------------
+Label_8586A2:
+ .byte   N06 ,Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   PEND 
+@  #06 @027   ----------------------------------------
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   Fs2 ,v088
+ .byte   W06
+ .byte   Fs2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+@  #06 @028   ----------------------------------------
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+@  #06 @029   ----------------------------------------
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+@  #06 @030   ----------------------------------------
+ .byte   PATT
+  .word Label_8586A2
+@  #06 @031   ----------------------------------------
+ .byte   N06 ,Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+@  #06 @032   ----------------------------------------
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v092
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+@  #06 @033   ----------------------------------------
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v092
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v092
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v092
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v092
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+@  #06 @034   ----------------------------------------
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+ .byte   As1 ,v088
+ .byte   W06
+ .byte   As1 ,v032
+ .byte   W06
+@  #06 @035   ----------------------------------------
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v092
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+ .byte   Dn2 ,v088
+ .byte   W06
+ .byte   Dn2 ,v032
+ .byte   W06
+ .byte   En2 ,v088
+ .byte   W06
+ .byte   En2 ,v032
+ .byte   W06
+ .byte   Cn2 ,v088
+ .byte   W06
+ .byte   Cn2 ,v032
+ .byte   W06
+@  #06 @036   ----------------------------------------
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+ .byte   Fn2 ,v088
+ .byte   W06
+ .byte   Fn2 ,v032
+ .byte   W06
+@  #06 @037   ----------------------------------------
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+@  #06 @038   ----------------------------------------
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+ .byte   Cs2 ,v088
+ .byte   W06
+ .byte   Cs2 ,v032
+ .byte   W06
+@  #06 @039   ----------------------------------------
+ .byte   Ds2 ,v088
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v092
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v092
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v092
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v092
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v092
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v092
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+ .byte   Ds2 ,v092
+ .byte   W06
+ .byte   Ds2 ,v032
+ .byte   W06
+@  #06 @040   ----------------------------------------
+ .byte   GOTO
+  .word Label_858522
+ .byte   FINE
+
+@**************** Track 7 (Midi-Chn.6) ****************@
+
+bgm_map_FE08_03_007:
+@  #07 @000   ----------------------------------------
+ .byte   KEYSH , bgm_map_FE08_03_key+0
+Label_858922:
+ .byte   VOICE , 0
+ .byte   VOL , 34*bgm_map_FE08_03_mvl/mxv
+ .byte   PAN , c_v+0
+ .byte   N36 ,AnM2 ,v112
+ .byte   W36
+ .byte   N06 ,AsM2 ,v076
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W24
+ .byte   AsM2 ,v084
+ .byte   W12
+@  #07 @001   ----------------------------------------
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v100
+ .byte   W24
+ .byte   AsM2 ,v080
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   N11 ,BnM2 ,v092
+ .byte   W12
+@  #07 @002   ----------------------------------------
+ .byte   N06 ,AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v116
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W24
+ .byte   AsM2 ,v100
+ .byte   W24
+ .byte   AsM2 ,v120
+ .byte   W12
+@  #07 @003   ----------------------------------------
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v100
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   N12 ,CnM1
+ .byte   W12
+ .byte   N06 ,AsM2 ,v084
+ .byte   W06
+ .byte   AsM2 ,v112
+ .byte   W06
+@  #07 @004   ----------------------------------------
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v116
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W24
+ .byte   AsM2 ,v100
+ .byte   W24
+ .byte   AsM2 ,v092
+ .byte   W12
+@  #07 @005   ----------------------------------------
+ .byte   W12
+ .byte   AsM2 ,v116
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N11 ,BnM2 ,v092
+ .byte   W12
+@  #07 @006   ----------------------------------------
+ .byte   N06 ,AsM2 ,v112
+ .byte   W12
+ .byte   AsM2 ,v120
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v092
+ .byte   W24
+ .byte   N06
+ .byte   W12
+@  #07 @007   ----------------------------------------
+ .byte   W12
+ .byte   AsM2 ,v120
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N05 ,CsM1
+ .byte   W12
+ .byte   DnM1
+ .byte   W12
+ .byte   N06 ,AsM2
+ .byte   W06
+ .byte   N06
+ .byte   W06
+@  #07 @008   ----------------------------------------
+ .byte   N12 ,AnM2 ,v076
+ .byte   W12
+ .byte   N06 ,AsM2 ,v112
+ .byte   W24
+ .byte   AsM2 ,v080
+ .byte   W24
+ .byte   AsM2 ,v092
+ .byte   W24
+ .byte   AsM2 ,v072
+ .byte   W12
+@  #07 @009   ----------------------------------------
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W24
+ .byte   AsM2 ,v080
+ .byte   W24
+ .byte   AsM2 ,v076
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W06
+ .byte   N06
+ .byte   W06
+@  #07 @010   ----------------------------------------
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v116
+ .byte   W24
+ .byte   AsM2 ,v084
+ .byte   W24
+ .byte   AsM2 ,v120
+ .byte   W24
+ .byte   AsM2 ,v116
+ .byte   W12
+@  #07 @011   ----------------------------------------
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v076
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N11 ,CsM1 ,v112
+ .byte   W12
+ .byte   DnM1
+ .byte   W12
+ .byte   N06 ,AsM2 ,v076
+ .byte   W06
+ .byte   N06
+ .byte   W06
+@  #07 @012   ----------------------------------------
+ .byte   W12
+ .byte   AsM2 ,v084
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   N06
+ .byte   W12
+@  #07 @013   ----------------------------------------
+ .byte   W12
+ .byte   AsM2 ,v120
+ .byte   W24
+ .byte   AsM2 ,v116
+ .byte   W24
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   N06
+ .byte   W06
+@  #07 @014   ----------------------------------------
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v116
+ .byte   W24
+ .byte   AsM2 ,v112
+ .byte   W24
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v120
+ .byte   W12
+@  #07 @015   ----------------------------------------
+ .byte   AsM2 ,v092
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v100
+ .byte   W24
+ .byte   AsM2 ,v076
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N12 ,CnM1 ,v092
+ .byte   W12
+@  #07 @016   ----------------------------------------
+ .byte   N44 ,AnM2 ,v068
+ .byte   W48
+ .byte   N06 ,DsM1 ,v092
+ .byte   W36
+ .byte   N11 ,EnM1 ,v084
+ .byte   W12
+@  #07 @017   ----------------------------------------
+ .byte   N11
+ .byte   W12
+ .byte   N32 ,EnM1 ,v112
+ .byte   W36
+ .byte   N06 ,DsM1 ,v080
+ .byte   W24
+ .byte   N06
+ .byte   W06
+ .byte   DsM1 ,v072
+ .byte   W06
+ .byte   N11 ,FnM1 ,v076
+ .byte   W12
+@  #07 @018   ----------------------------------------
+ .byte   EnM1 ,v100
+ .byte   W12
+ .byte   N32 ,EnM1 ,v112
+ .byte   W36
+ .byte   N06 ,DsM1 ,v092
+ .byte   W48
+@  #07 @019   ----------------------------------------
+ .byte   DsM1 ,v080
+ .byte   W36
+ .byte   N06
+ .byte   W24
+ .byte   DsM1 ,v068
+ .byte   W12
+ .byte   DsM1 ,v076
+ .byte   W12
+ .byte   N11 ,FnM1 ,v064
+ .byte   W12
+@  #07 @020   ----------------------------------------
+ .byte   N06 ,DsM1 ,v076
+ .byte   W48
+ .byte   DsM1 ,v092
+ .byte   W36
+ .byte   N11 ,EnM1 ,v112
+ .byte   W12
+@  #07 @021   ----------------------------------------
+ .byte   EnM1 ,v100
+ .byte   W12
+ .byte   N32 ,EnM1 ,v084
+ .byte   W36
+ .byte   N06 ,DsM1 ,v076
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N11 ,FnM1
+ .byte   W12
+@  #07 @022   ----------------------------------------
+ .byte   EnM1 ,v092
+ .byte   W12
+ .byte   N32 ,EnM1 ,v112
+ .byte   W36
+ .byte   N06 ,DsM1 ,v092
+ .byte   W24
+ .byte   DsM1 ,v084
+ .byte   W24
+@  #07 @023   ----------------------------------------
+ .byte   DsM1 ,v088
+ .byte   W18
+ .byte   N78 ,FsM1 ,v124
+ .byte   W06
+ .byte   N06 ,DsM1 ,v104
+ .byte   W24
+ .byte   N05 ,CsM1 ,v112
+ .byte   W12
+ .byte   DnM1 ,v120
+ .byte   W12
+ .byte   N06 ,AsM2 ,v072
+ .byte   W06
+ .byte   AsM2 ,v084
+ .byte   W06
+ .byte   AsM2 ,v104
+ .byte   W06
+ .byte   AsM2 ,v112
+ .byte   W06
+@  #07 @024   ----------------------------------------
+ .byte   N44 ,AnM2
+ .byte   W48
+ .byte   N06 ,AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v116
+ .byte   W24
+ .byte   AsM2 ,v072
+ .byte   W12
+@  #07 @025   ----------------------------------------
+ .byte   AsM2 ,v076
+ .byte   W12
+ .byte   AsM2 ,v100
+ .byte   W36
+ .byte   N06
+ .byte   W12
+ .byte   AsM2 ,v092
+ .byte   W24
+ .byte   N06
+ .byte   W12
+@  #07 @026   ----------------------------------------
+ .byte   AsM2 ,v116
+ .byte   W12
+ .byte   AsM2 ,v100
+ .byte   W36
+ .byte   AsM2 ,v084
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W24
+ .byte   AsM2 ,v080
+ .byte   W12
+@  #07 @027   ----------------------------------------
+ .byte   N06
+ .byte   W12
+ .byte   AsM2 ,v092
+ .byte   W36
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v076
+ .byte   W12
+ .byte   AsM2 ,v080
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   N06
+ .byte   W06
+@  #07 @028   ----------------------------------------
+ .byte   AsM2 ,v076
+ .byte   W12
+ .byte   N06
+ .byte   W36
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   N06
+ .byte   W36
+@  #07 @029   ----------------------------------------
+ .byte   AsM2 ,v116
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W36
+ .byte   AsM2 ,v116
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W36
+@  #07 @030   ----------------------------------------
+ .byte   N06
+ .byte   W12
+ .byte   AsM2 ,v100
+ .byte   W36
+ .byte   AsM2 ,v092
+ .byte   W12
+ .byte   AsM2 ,v100
+ .byte   W24
+ .byte   AsM2 ,v116
+ .byte   W12
+@  #07 @031   ----------------------------------------
+ .byte   AsM2 ,v092
+ .byte   W12
+ .byte   AsM2 ,v100
+ .byte   W24
+ .byte   AsM2 ,v080
+ .byte   W12
+ .byte   AsM2 ,v092
+ .byte   W12
+ .byte   AsM2 ,v080
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   N06
+ .byte   W06
+ .byte   AsM2 ,v088
+ .byte   W06
+ .byte   AsM2 ,v096
+ .byte   W06
+@  #07 @032   ----------------------------------------
+ .byte   N44 ,AnM2 ,v112
+ .byte   W48
+ .byte   N06 ,AsM2 ,v080
+ .byte   W12
+ .byte   N06
+ .byte   W24
+ .byte   AsM2 ,v092
+ .byte   W12
+@  #07 @033   ----------------------------------------
+ .byte   AsM2 ,v100
+ .byte   W36
+ .byte   AsM2 ,v084
+ .byte   W12
+ .byte   AsM2 ,v076
+ .byte   W12
+ .byte   AsM2 ,v084
+ .byte   W24
+ .byte   AsM2 ,v080
+ .byte   W12
+@  #07 @034   ----------------------------------------
+ .byte   N06
+ .byte   W12
+ .byte   AsM2 ,v068
+ .byte   W24
+ .byte   AsM2 ,v064
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   AsM2 ,v064
+ .byte   W24
+ .byte   AsM2 ,v072
+ .byte   W12
+@  #07 @035   ----------------------------------------
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v076
+ .byte   W24
+ .byte   N06
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   AsM2 ,v064
+ .byte   W12
+ .byte   AsM2 ,v068
+ .byte   W12
+ .byte   N06
+ .byte   W06
+ .byte   N06
+ .byte   W06
+@  #07 @036   ----------------------------------------
+ .byte   N44 ,AnM2 ,v112
+ .byte   W48
+ .byte   N06 ,AsM2 ,v092
+ .byte   W12
+ .byte   AsM2 ,v072
+ .byte   W24
+ .byte   AsM2 ,v084
+ .byte   W12
+@  #07 @037   ----------------------------------------
+ .byte   AsM2 ,v092
+ .byte   W12
+ .byte   AsM2 ,v064
+ .byte   W24
+ .byte   AsM2 ,v092
+ .byte   W12
+ .byte   AsM2 ,v076
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   AsM2 ,v080
+ .byte   W12
+ .byte   AsM2 ,v076
+ .byte   W12
+@  #07 @038   ----------------------------------------
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v068
+ .byte   W24
+ .byte   AsM2 ,v072
+ .byte   W12
+ .byte   AsM2 ,v112
+ .byte   W12
+ .byte   AsM2 ,v052
+ .byte   W24
+ .byte   AsM2 ,v076
+ .byte   W12
+@  #07 @039   ----------------------------------------
+ .byte   AsM2 ,v100
+ .byte   W12
+ .byte   AsM2 ,v076
+ .byte   W24
+ .byte   AsM2 ,v072
+ .byte   W12
+ .byte   N06
+ .byte   W12
+ .byte   N11 ,CsM1 ,v112
+ .byte   W12
+ .byte   N05 ,CsM1 ,v127
+ .byte   W06
+ .byte   DnM1
+ .byte   W06
+ .byte   BnM2
+ .byte   W06
+ .byte   N05
+ .byte   W06
+@  #07 @040   ----------------------------------------
+ .byte   GOTO
+  .word Label_858922
+ .byte   FINE
+
+@******************************************************@
+	.align	2
+
+bgm_map_FE08_03:
+	.byte	7	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	bgm_map_FE08_03_pri	@ Priority
+	.byte	bgm_map_FE08_03_rev	@ Reverb.
+    
+	.word	bgm_map_FE08_03_grp
+    
+	.word	bgm_map_FE08_03_001
+	.word	bgm_map_FE08_03_002
+	.word	bgm_map_FE08_03_003
+	.word	bgm_map_FE08_03_004
+	.word	bgm_map_FE08_03_005
+	.word	bgm_map_FE08_03_006
+	.word	bgm_map_FE08_03_007
+
+	.end
