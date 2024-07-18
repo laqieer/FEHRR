@@ -51,8 +51,8 @@
     "bgm_event_serious8.ogg": [],
     "bgm_event_serious9.ogg": [],
     "bgm_map_Brave_01.ogg": [
-        "Fire_Emblem_Heroes_-_Map_Theme_1.mid",
-        "Meilu - Fire Emblem Heroes Map Theme 1.s"
+        "Meilu - Fire Emblem Heroes Map Theme 1.s",
+        "Fire_Emblem_Heroes_-_Map_Theme_1.mid"
     ],
     "bgm_map_Brave_02.ogg": [
         "Map_2_FEH.mid"
@@ -144,12 +144,12 @@
     ],
     "bgm_map_FE11_03.ogg": [],
     "bgm_map_FE12_01.ogg": [
-        "FE12 - Liberation {GratedShtick}.s",
-        "FE12 - Liberation {Retina}.s"
+        "FE12 - Liberation {Retina}.s",
+        "FE12 - Liberation {GratedShtick}.s"
     ],
     "bgm_map_FE12_03.ogg": [
-        "FE11 - Endless Battle {REALxViPerZ}.s",
         "FE12 - Endless Battle {RSfllame}.s",
+        "FE11 - Endless Battle {REALxViPerZ}.s",
         "FE12 - Endless Battle {Sme}.s"
     ],
     "bgm_map_FE13_01.ogg": [],
@@ -195,8 +195,8 @@
     ],
     "bgm_map_FE15_07.ogg": [],
     "bgm_map_FE15_08.ogg": [
-        "FE15 - Lord of a Dead Empire {Ablaze} {Mycahel}.s",
-        "FE15 - Lord of a Dead Empire {Mycahel}.s"
+        "FE15 - Lord of a Dead Empire {Mycahel}.s",
+        "FE15 - Lord of a Dead Empire {Ablaze} {Mycahel}.s"
     ],
     "bgm_map_FE15_09.ogg": [],
     "bgm_map_FE15_11.ogg": [],
@@ -223,8 +223,8 @@
     "bgm_map_FE17_13.ogg": [],
     "bgm_map_FE17_15.ogg": [],
     "bgm_map_FEH_04.ogg": [
-        "Fire_Emblem_Heroes_-_Map_Theme_Book_II.mid",
-        "Meilu - Fire Emblem Heroes Map Theme Book II.s"
+        "Meilu - Fire Emblem Heroes Map Theme Book II.s",
+        "Fire_Emblem_Heroes_-_Map_Theme_Book_II.mid"
     ],
     "bgm_map_FEH_05.ogg": [
         "Fire_Emblem_Heroes_-_Book_III_Map_Theme.mid"
