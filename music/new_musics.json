@@ -17,8 +17,8 @@
     "bgm_boss4.ogg": [],
     "bgm_boss5.ogg": [],
     "bgm_boss6.ogg": [
-        "BgmBossFEH-BookIV1.mid",
-        "Fire_Emblem_Heroes_-_Book_IV_Boss_Theme.mid"
+        "Fire_Emblem_Heroes_-_Book_IV_Boss_Theme.mid",
+        "BgmBossFEH-BookIV1.mid"
     ],
     "bgm_boss7.ogg": [],
     "bgm_boss8.ogg": [],
@@ -41,8 +41,8 @@
         "Fire_Emblem_Heroes_-_Hels_Theme.mid"
     ],
     "bgm_event_serious6.ogg": [
-        "Fire_Emblem_Heroes_-_Event_Serious_6.mid",
-        "Fire Emblem Heroes - Serious 6.mid"
+        "Fire Emblem Heroes - Serious 6.mid",
+        "Fire_Emblem_Heroes_-_Event_Serious_6.mid"
     ],
     "bgm_event_serious6b.ogg": [
         "Fire Emblem Heroes - Serious 6b.mid"
@@ -310,9 +310,9 @@
     "bgm_mns_FE17_16.ogg": [],
     "bgm_summon_common.ogg": [],
     "bgm_map_FEH_08.ogg": [
+        "Fire Emblem Heroes - Breeze of Askr.mid",
         "breezeofaskr.mid",
-        "Vs._Nifl_-_Fire_Emblem_Heroes_TT_Ice__Fire_1_Final_Map_Theme.mid",
-        "Fire Emblem Heroes - Breeze of Askr.mid"
+        "Vs._Nifl_-_Fire_Emblem_Heroes_TT_Ice__Fire_1_Final_Map_Theme.mid"
     ],
     "bgm_menu_journey.ogg": [
         "FEH_-_Heroes_Journey.mid"
@@ -321,9 +321,9 @@
         "FEH_-_Summoner_Duels_R_Theme.mid"
     ],
     "bgm_menu_skycastle.ogg": [
+        "Fire Emblem Heroes - Climb the Sky.mid",
         "Fire_Emblem_Heroes_-_Aether_Raids_Theme.mid",
-        "Fire_Emblem_Heroes-_Aether_Raids_Theme.mid",
-        "Fire Emblem Heroes - Climb the Sky.mid"
+        "Fire_Emblem_Heroes-_Aether_Raids_Theme.mid"
     ],
     "bgm_menu_hugeenemy.ogg": [
         "Fire_Emblem_Heroes_-_Rokkr_Siege.mid"
