@@ -48,6 +48,9 @@ def check_s_file(file_path):
 def check_midi_file(file_path):
     try:
         mid = mido.MidiFile(file_path)
+        # Check format
+        if mid.type > 1:
+            raise Exception("MIDI file is not format 0 or 1: " + str(mid.type))
         # Check track amount
         if len(mid.tracks) > 16:
             raise Exception("MIDI file has more than 16 tracks: " + str(len(mid.tracks)) + " tracks found")
