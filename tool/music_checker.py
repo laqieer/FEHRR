@@ -41,7 +41,7 @@ def check_s_file(file_path):
             if badInstruments:
                 raise Exception ("The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
             # Check passed
-            print("S file is valid.")
+            print("S file check passed.")
     except Exception as e:
         print("Error: " + str(e))
 
@@ -62,7 +62,7 @@ def check_midi_file(file_path):
                         badInstruments.append(msg.program)
         if badInstruments:
             raise Exception("The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
-        print("MIDI file is valid.")
+        print("MIDI file check passed.")
     except Exception as e:
         print("Error: " + str(e))
 
