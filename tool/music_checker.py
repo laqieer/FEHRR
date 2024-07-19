@@ -51,6 +51,10 @@ def check_midi_file(file_path):
         # Check format
         if mid.type > 1:
             raise Exception("MIDI file is not format 0 or 1: " + str(mid.type))
+        # Check tracks without notes
+        silentTracks = [i for i, track in enumerate(mid.tracks) if not any(msg.type == 'note_on' for msg in track)]
+        if silentTracks:
+            raise Exception("The following tracks have no notes: " + ', '.join(f'{i}: {mid.tracks[i].name}' for i in silentTracks))
         # Check track amount
         if len(mid.tracks) > 16:
             raise Exception("MIDI file has more than 16 tracks: " + str(len(mid.tracks)) + " tracks found")
