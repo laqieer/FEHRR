@@ -14,3 +14,6 @@
 [submodule "music/s"]
 	path = music/public
 	url = https://github.com/laqieer/FE-Repo-Music-No-Preview
+[submodule "tool/midi2agb"]
+	path = tool/midi2agb
+	url = https://github.com/ipatix/midi2agb.git
