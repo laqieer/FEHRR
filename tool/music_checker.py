@@ -34,6 +34,17 @@ def check_s_file(file_path):
     try:
         with open(file_path, 'r', encoding="utf-8") as f:
             score = f.read()
+            # Check track amount
+            tracks = re.findall(r'\.byte\s+(\d+)\s+@\s+NumTrks', score)
+            if len(tracks) != 1:
+                print("Error: Number of tracks not found or more than one found: " + str(len(tracks)) + " tracks found")
+            tracks = int(tracks[0])
+            if tracks > 16:
+                print("Error: S file has more than 16 tracks: " + str(tracks) + " tracks found")
+            # Check loop points
+            loops = re.findall(r'\.byte\s+GOTO\s+\.word\s+', score)
+            if len(loops) != tracks:
+                print(f"Error: amount of loop points {len(loops)} does not match the amount of tracks {tracks}")
             # Check used instruments
             usedInstruments = re.search(r'\.byte\s+VOICE\s*,\s*(\d+)', score).groups()
             usedInstruments = [int(i) for i in usedInstruments]
@@ -51,11 +62,20 @@ def check_midi_file(file_path):
             print("Error: MIDI file is not format 0 or 1: " + str(mid.type))
         # Check tracks without notes
         silentTracks = [i for i, track in enumerate(mid.tracks) if not any(msg.type == 'note_on' for msg in track)]
-        if silentTracks:
+        if len(silentTracks) > 1 or (len(silentTracks) == 1 and silentTracks[0] != 0):
             print("Error: The following tracks have no notes: " + ', '.join(f'{i}: {mid.tracks[i].name}' for i in silentTracks))
         # Check track amount
-        if len(mid.tracks) > 16:
-            print("Error: MIDI file has more than 16 tracks: " + str(len(mid.tracks)) + " tracks found")
+        tracks = len(mid.tracks) - len(silentTracks)
+        if tracks > 16:
+            print("Error: MIDI file has more than 16 tracks: " + str(tracks) + " tracks found")
+        # Check loop points
+        # find all markers, texts or cuepoints named "["
+        loopStarts = [msg for track in mid.tracks for msg in track if msg.type in ('marker', 'text', 'cuepoint') and msg.text == "["]
+        loopEnds = [msg for track in mid.tracks for msg in track if msg.type in ('marker', 'text', 'cuepoint') and msg.text == "["]
+        if len(loopStarts) != len(loopEnds):
+            print(f"Error: amount of loop beginning points {len(loopStarts)} does not match the amount of loop ending points {len(loopEnds)}")
+        if len(loopStarts) == 0:
+            print("Error: No loop points found")
         # Check used instruments
         badInstruments = []
         for i, track in enumerate(mid.tracks):
