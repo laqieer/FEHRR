@@ -39,9 +39,7 @@ def check_s_file(file_path):
             usedInstruments = [int(i) for i in usedInstruments]
             badInstruments = [i for i in usedInstruments if nativeInstruments[i] is None]
             if badInstruments:
-                raise Exception ("The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
-            # Check passed
-            print("S file check passed.")
+                print("Error: The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
     except Exception as e:
         print("Error: " + str(e))
 
@@ -50,26 +48,25 @@ def check_midi_file(file_path):
         mid = mido.MidiFile(file_path)
         # Check format
         if mid.type > 1:
-            raise Exception("MIDI file is not format 0 or 1: " + str(mid.type))
+            print("Error: MIDI file is not format 0 or 1: " + str(mid.type))
         # Check tracks without notes
         silentTracks = [i for i, track in enumerate(mid.tracks) if not any(msg.type == 'note_on' for msg in track)]
         if silentTracks:
-            raise Exception("The following tracks have no notes: " + ', '.join(f'{i}: {mid.tracks[i].name}' for i in silentTracks))
+            print("Error: The following tracks have no notes: " + ', '.join(f'{i}: {mid.tracks[i].name}' for i in silentTracks))
         # Check track amount
         if len(mid.tracks) > 16:
-            raise Exception("MIDI file has more than 16 tracks: " + str(len(mid.tracks)) + " tracks found")
+            print("Error: MIDI file has more than 16 tracks: " + str(len(mid.tracks)) + " tracks found")
         # Check used instruments
         badInstruments = []
         for i, track in enumerate(mid.tracks):
             for msg in track:
                 if msg.type == 'program_change':
                     if msg.program >= 128:
-                        raise Exception("Program number out of range in track " + str(i) + ": " + str(msg.program))
+                        print("Error: Program number out of range in track " + str(i) + ": " + str(msg.program))
                     if nativeInstruments[msg.program] is None:
                         badInstruments.append(msg.program)
         if badInstruments:
-            raise Exception("The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
-        print("MIDI file check passed.")
+            print("Error: The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
     except Exception as e:
         print("Error: " + str(e))
 
