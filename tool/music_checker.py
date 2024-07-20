@@ -31,9 +31,9 @@ def load_native_instruments():
         if nameChinese.value:
             standardInstruments[instrumentId] += " (" + nameChinese.value + ")"
 
-def check_s_file(file_path):
+def check_s_file(file_path, auto_fix=False):
     try:
-        with open(file_path, 'r', encoding="utf-8") as f:
+        with open(file_path, 'r+' if auto_fix else 'r', encoding="utf-8") as f:
             score = f.read()
             # Check track amount
             tracks = re.findall(r'\.byte\s+(\d+)\s+@\s+NumTrks', score)
@@ -44,7 +44,9 @@ def check_s_file(file_path):
                 print("Error: S file has more than 16 tracks: " + str(tracks) + " tracks found")
             # Check loop points
             loops = re.findall(r'\.byte\s+GOTO\s+\.word\s+', score)
-            if len(loops) != tracks:
+            if len(loops) == 0:
+                print("Error: No loop points found")
+            elif len(loops) != tracks:
                 print(f"Error: amount of loop points {len(loops)} does not match the amount of tracks {tracks}")
             # Check used instruments
             usedInstruments = re.search(r'\.byte\s+VOICE\s*,\s*(\d+)', score).groups()
@@ -52,10 +54,14 @@ def check_s_file(file_path):
             badInstruments = [i for i in usedInstruments if nativeInstruments[i] is None]
             if badInstruments:
                 print("Error: The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
+            if auto_fix:
+                f.seek(0)
+                f.write(score)
+                f.truncate()
     except Exception as e:
         print("Error: " + str(e))
 
-def check_midi_file(file_path):
+def check_midi_file(file_path, auto_fix=False):
     try:
         mid = mido.MidiFile(file_path)
         # Check format
@@ -67,7 +73,12 @@ def check_midi_file(file_path):
         # Remove 0 from the list
         silentTracks = [i for i in silentTracks if i != 0]
         if silentTracks:
-            print("Error: The following tracks have no notes: " + ', '.join(f'{i} {mid.tracks[i].name}' for i in silentTracks))
+            if auto_fix:
+                print("Info: Automatically removing empty tracks: " + ', '.join(f'{i} {mid.tracks[i].name}' for i in silentTracks))
+                for i in silentTracks:
+                    mid.tracks.pop(i)
+            else:
+                print("Error: The following tracks have no notes: " + ', '.join(f'{i} {mid.tracks[i].name}' for i in silentTracks))
         # Check track amount
         if tracks > 16:
             print("Error: MIDI file has more than 16 tracks: " + str(tracks) + " tracks found")
@@ -78,7 +89,14 @@ def check_midi_file(file_path):
         if len(loopStarts) != len(loopEnds):
             print(f"Error: amount of loop beginning points {len(loopStarts)} does not match the amount of loop ending points {len(loopEnds)}")
         if len(loopStarts) == 0:
-            print("Error: No loop points found")
+            if auto_fix:
+                print("Info: Automatically adding loop points")
+                # find the longest track
+                longestTrack = max(mid.tracks, key=lambda track: sum(msg.time for msg in track))
+                longestTrack.insert(0, mido.MetaMessage('marker', text='['))
+                longestTrack.append(mido.MetaMessage('marker', text=']'))
+            else:
+                print("Error: No loop points found")
         # Check used instruments
         badInstruments = []
         for i, track in enumerate(mid.tracks):
@@ -90,21 +108,24 @@ def check_midi_file(file_path):
                         badInstruments.append(msg.program)
         if badInstruments:
             print("Error: The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
+        if auto_fix:
+            mid.save(file_path)
     except Exception as e:
         print("Error: " + str(e))
 
-def check_music_file(file_path):
+def check_music_file(file_path, auto_fix=False):
     ext = file_path.split('.')[-1].lower()
     if ext == 's':
-        check_s_file(file_path)
+        check_s_file(file_path, auto_fix=auto_fix)
     elif ext in ('mid', 'midi'):
-        check_midi_file(file_path)
+        check_midi_file(file_path, auto_fix=auto_fix)
     else:
         print("Error: Unsupported music file type: " + ext.upper())
 
 def main():
     parser = argparse.ArgumentParser(description='Music File Checker')
     parser.add_argument('path', help='Path to the music file or folder to check')
+    parser.add_argument('--auto-fix', action='store_true', help='Automatically fix the music file')
     args = parser.parse_args()
 
     load_native_instruments()
@@ -119,9 +140,9 @@ def main():
             ext = file.split('.')[-1].lower()
             if ext in ('s', 'mid', 'midi'):
                 print("Checking " + file)
-                check_music_file(os.path.join(args.path, file))
+                check_music_file(os.path.join(args.path, file), auto_fix=args.auto_fix)
     else:
-        check_music_file(args.path)
+        check_music_file(args.path, auto_fix=args.auto_fix)
 
 if __name__ == '__main__':
     main()
