@@ -3,6 +3,7 @@
 import argparse
 import openpyxl
 import mido
+import os
 import re
 
 NativeInstrumentMap = 'instrument/Native Instrument Map.xlsx'
@@ -90,20 +91,35 @@ def check_midi_file(file_path):
     except Exception as e:
         print("Error: " + str(e))
 
+def check_music_file(file_path):
+    ext = file_path.split('.')[-1].lower()
+    if ext == 's':
+        check_s_file(file_path)
+    elif ext in ('mid', 'midi'):
+        check_midi_file(file_path)
+    else:
+        print("Error: Unsupported music file type: " + ext.upper())
+
 def main():
     parser = argparse.ArgumentParser(description='Music File Checker')
-    parser.add_argument('file', help='Path to the music file')
+    parser.add_argument('path', help='Path to the music file or folder to check')
     args = parser.parse_args()
 
     load_native_instruments()
 
-    ext = args.file.split('.')[-1].lower()
-    if ext == 's':
-        check_s_file(args.file)
-    elif ext in ('mid', 'midi'):
-        check_midi_file(args.file)
+    # Check if path is existed
+    if not os.path.exists(args.path):
+        print("Error: Path not found: " + args.path)
+        return
+
+    if os.path.isdir(args.path):
+        for file in os.listdir(args.path):
+            ext = file.split('.')[-1].lower()
+            if ext in ('s', 'mid', 'midi'):
+                print("Checking " + file)
+                check_music_file(os.path.join(args.path, file))
     else:
-        print("Error: Unsupported music file type: " + ext.upper())
+        check_music_file(args.path)
 
 if __name__ == '__main__':
     main()
