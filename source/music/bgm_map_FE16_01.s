@@ -21,7 +21,7 @@ bgm_map_FE16_01_001:
  .byte   KEYSH , bgm_map_FE16_01_key+0
 Label_0_0144D3FE:
  .byte   TEMPO , 172*bgm_map_FE16_01_tbs/2
- .byte   VOICE , 108
+ .byte   VOICE , 41
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
@@ -51,7 +51,7 @@ Label_0_0144D412:
  .byte   W12
  .byte   N56 ,Cn4
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 009   ----------------------------------------
  .byte   W96
 @ 010   ----------------------------------------
@@ -65,14 +65,14 @@ Label_0_0144D41E:
  .byte   W12
  .byte   Ds4
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 011   ----------------------------------------
 Label_0_0144D42B:
  .byte   N44 ,Dn4 ,v088
  .byte   W48
  .byte   As3
  .byte   W48
- .byte   PEND 
+ .byte   PEND
 @ 012   ----------------------------------------
  .byte   N22 ,Dn4
  .byte   W24
@@ -240,7 +240,7 @@ Label_0_0144D4D8:
  .byte   W24
  .byte   Dn4
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @ 043   ----------------------------------------
  .byte   N90 ,Ds4
  .byte   W96
@@ -266,7 +266,7 @@ bgm_map_FE16_01_002:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE16_01_key+0
 Label_1_0144D4FE:
- .byte   VOICE , 107
+ .byte   VOICE , 46
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
@@ -347,7 +347,7 @@ Label_1_0144D529:
  .byte   W24
  .byte   Gn3
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @ 034   ----------------------------------------
  .byte   N90 ,Fn3
  .byte   W96
@@ -359,7 +359,7 @@ Label_1_0144D53B:
  .byte   W36
  .byte   N44 ,Gn3
  .byte   W60
- .byte   PEND 
+ .byte   PEND
 @ 036   ----------------------------------------
  .byte   W24
  .byte   N22 ,Ds3
@@ -421,7 +421,7 @@ bgm_map_FE16_01_003:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE16_01_key+0
 Label_2_0144D582:
- .byte   VOICE , 107
+ .byte   VOICE , 46
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
@@ -462,7 +462,7 @@ Label_2_0144D59E:
  .byte   W12
  .byte   Fn3
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 002   ----------------------------------------
  .byte   Gn3
  .byte   W12
@@ -683,7 +683,7 @@ Label_3_0144D667:
  .byte   W36
  .byte   N44 ,Gs1 ,v028
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 002   ----------------------------------------
 Label_3_0144D673:
  .byte   W36
@@ -691,7 +691,7 @@ Label_3_0144D673:
  .byte   W36
  .byte   N56 ,As1 ,v028
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @ 003   ----------------------------------------
  .byte   W36
  .byte   N32 ,As2 ,v020
@@ -733,7 +733,7 @@ Label_3_0144D6A0:
  .byte   W12
  .byte   Gn2
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 007   ----------------------------------------
 Label_3_0144D6B4:
  .byte   N11 ,Cn3 ,v028
@@ -752,7 +752,7 @@ Label_3_0144D6B4:
  .byte   W12
  .byte   N23 ,Gs1 ,v036
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 008   ----------------------------------------
 Label_3_0144D6C9:
  .byte   W12
@@ -768,7 +768,7 @@ Label_3_0144D6C9:
  .byte   W12
  .byte   N32 ,As1 ,v036
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @ 009   ----------------------------------------
 Label_3_0144D6DB:
  .byte   W12
@@ -786,7 +786,7 @@ Label_3_0144D6DB:
  .byte   W12
  .byte   Gn2
  .byte   W12
- .byte   PEND 
+ .byte   PEND
  .byte   PATT
   .word Label_3_0144D6A0
  .byte   PATT
@@ -1004,7 +1004,7 @@ Label_3_0144D7EB:
  .byte   W12
  .byte   Gs1
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 023   ----------------------------------------
  .byte   N32 ,Gn1 ,v040
  .byte   W36
@@ -1033,7 +1033,7 @@ Label_3_0144D80D:
  .byte   W12
  .byte   As1
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @ 025   ----------------------------------------
  .byte   N32 ,Gs1 ,v040
  .byte   W36
@@ -1203,9 +1203,9 @@ bgm_map_FE16_01:
 	.byte	0	@ NumBlks
 	.byte	bgm_map_FE16_01_pri	@ Priority
 	.byte	bgm_map_FE16_01_rev	@ Reverb.
-    
+
 	.word	bgm_map_FE16_01_grp
-    
+
 	.word	bgm_map_FE16_01_001
 	.word	bgm_map_FE16_01_002
 	.word	bgm_map_FE16_01_003

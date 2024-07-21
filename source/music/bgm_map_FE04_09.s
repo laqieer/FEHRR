@@ -21,7 +21,7 @@ bgm_map_FE04_09_001:
  .byte   KEYSH , bgm_map_FE04_09_key+0
 Label_0_54D75A:
  .byte   TEMPO , 124*bgm_map_FE04_09_tbs/2
- .byte   VOICE , 32
+ .byte   VOICE , 33
  .byte   MODT 0
  .byte   LFOS 44
  .byte   PAN , c_v+0
@@ -32,7 +32,6 @@ Label_0_54D75A:
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W05
- .byte   VOICE , 33
  .byte   PAN , c_v+16
  .byte   VOL , 27*bgm_map_FE04_09_mvl/mxv
  .byte   N96 ,An1 ,v127
@@ -49,14 +48,14 @@ Label_0_54D77C:
  .byte   W24
  .byte   N09
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 002   ----------------------------------------
 Label_0_54D788:
  .byte   W05
  .byte   N96 ,An1 ,v127
  .byte   W90
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @ 003   ----------------------------------------
  .byte   PATT
   .word Label_0_54D77C
@@ -107,7 +106,7 @@ Label_0_54D7C0:
  .byte   W24
  .byte   N05
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 010   ----------------------------------------
 Label_0_54D7CE:
  .byte   W05
@@ -121,7 +120,7 @@ Label_0_54D7CE:
  .byte   W24
  .byte   N05
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 011   ----------------------------------------
  .byte   W05
  .byte   Fs1
@@ -218,7 +217,7 @@ Label_0_54D833:
  .byte   W24
  .byte   N05
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 021   ----------------------------------------
  .byte   W05
  .byte   N05
@@ -386,7 +385,7 @@ Label_1_54EB35:
  .byte   MOD 0
  .byte   N05 ,Cs4
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 003   ----------------------------------------
  .byte   W05
  .byte   MOD 0
@@ -773,7 +772,7 @@ Label_2_54E0EF:
  .byte   TIE ,Cs4 ,v127
  .byte   W90
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @ 003   ----------------------------------------
  .byte   W24
  .byte   W02
@@ -1033,7 +1032,7 @@ Label_3_54E223:
  .byte   TIE ,Cs3 ,v127
  .byte   W90
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @ 003   ----------------------------------------
  .byte   W24
  .byte   W02
@@ -1318,7 +1317,7 @@ Label_4_011E1AA7:
  .byte   W12
  .byte   N05
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 003   ----------------------------------------
  .byte   W05
  .byte   N44 ,Bn3
@@ -1551,14 +1550,14 @@ Label_5_54D8D4:
  .byte   W24
  .byte   N11
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 002   ----------------------------------------
 Label_5_54D8E0:
  .byte   W05
  .byte   N92 ,An2 ,v127
  .byte   W90
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @ 003   ----------------------------------------
  .byte   PATT
   .word Label_5_54D8D4
@@ -1815,7 +1814,7 @@ Label_6_011E1DE5:
  .byte   W06
  .byte   N01
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @ 009   ----------------------------------------
  .byte   PATT
   .word Label_6_011E1DE5
@@ -1964,7 +1963,7 @@ Label_6_011E1ED4:
  .byte   W06
  .byte   N01
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @ 021   ----------------------------------------
 Label_6_011E1F02:
  .byte   W05
@@ -1995,7 +1994,7 @@ Label_6_011E1F02:
  .byte   Dn1 ,v127
  .byte   N01 ,An2 ,v084
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 022   ----------------------------------------
  .byte   PATT
   .word Label_6_011E1ED4
@@ -2025,7 +2024,7 @@ Label_6_011E1F3B:
  .byte   W12
  .byte   N01
  .byte   W07
- .byte   PEND 
+ .byte   PEND
 @ 025   ----------------------------------------
  .byte   W05
  .byte   N03 ,Cn1 ,v127
@@ -2149,9 +2148,9 @@ bgm_map_FE04_09:
 	.byte	0	@ NumBlks
 	.byte	bgm_map_FE04_09_pri	@ Priority
 	.byte	bgm_map_FE04_09_rev	@ Reverb.
-    
+
 	.word	bgm_map_FE04_09_grp
-    
+
 	.word	bgm_map_FE04_09_001
 	.word	bgm_map_FE04_09_002
 	.word	bgm_map_FE04_09_003

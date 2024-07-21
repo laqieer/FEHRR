@@ -20,7 +20,7 @@ bgm_map_FE15_06_1:
 bgm_map_FE15_06_1_B1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 172*bgm_map_FE15_06_tbs/2
-	.byte		VOICE , 102
+	.byte		VOICE , 57
 	.byte		VOL   , 55*bgm_map_FE15_06_mvl/mxv
 	.byte		PAN   , c_v+7
 	.byte		BEND  , c_v-6
@@ -30,11 +30,11 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		        Dn3 , v092
 	.byte	W12
-	.byte		        Fn3 
+	.byte		        Fn3
 	.byte	W12
 	.byte		        En3 , v088
 	.byte	W12
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        Dn3 , v092
 	.byte	W12
@@ -47,13 +47,13 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		        As2 , v076
 	.byte	W12
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        An2 , v080
 	.byte	W12
 	.byte		        Fs2 , v084
 	.byte	W12
-	.byte		        An2 
+	.byte		        An2
 	.byte	W12
 	.byte		        Cn3 , v096
 	.byte	W12
@@ -83,9 +83,9 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		        Fn3 , v088
 	.byte	W12
-	.byte		        En3 
+	.byte		        En3
 	.byte	W12
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        Dn3 , v096
 	.byte	W12
@@ -187,14 +187,14 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		        En3 , v096
 	.byte	W12
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W12
 	.byte		        Fs3 , v076
 	.byte	W12
 	.byte		        Dn3 , v096
 	.byte	W12
 @ 010   ----------------------------------------
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        En3 , v088
 	.byte	W12
@@ -206,13 +206,13 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		N05   , Bn2 , v088
 	.byte	W06
-	.byte		        An2 
+	.byte		        An2
 	.byte	W06
 	.byte		N44   , Gs2 , v080
 	.byte	W24
 @ 011   ----------------------------------------
 	.byte	W24
-	.byte		N68   , An2 
+	.byte		N68   , An2
 	.byte	W72
 @ 012   ----------------------------------------
 	.byte		N11   , Gn2 , v104
@@ -221,7 +221,7 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		        Dn3 , v092
 	.byte	W12
-	.byte		        Fn3 
+	.byte		        Fn3
 	.byte	W12
 	.byte		        En3 , v096
 	.byte	W12
@@ -266,13 +266,13 @@ bgm_map_FE15_06_1_B1:
 	.byte		        An2 , v092
 	.byte	W12
 @ 015   ----------------------------------------
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        As2 , v084
 	.byte	W12
 	.byte		        Dn3 , v100
 	.byte	W12
-	.byte		        Fn3 
+	.byte		        Fn3
 	.byte	W12
 	.byte		        En3 , v096
 	.byte	W12
@@ -289,7 +289,7 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		        As2 , v076
 	.byte	W12
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        An2 , v088
 	.byte	W12
@@ -317,7 +317,7 @@ bgm_map_FE15_06_1_B1:
 	.byte		        As2 , v080
 	.byte	W12
 @ 018   ----------------------------------------
-	.byte		        An2 
+	.byte		        An2
 	.byte	W12
 	.byte		        As2 , v088
 	.byte	W12
@@ -355,7 +355,7 @@ bgm_map_FE15_06_1_B1:
 	.byte	W12
 	.byte		        Cn3 , v088
 	.byte	W12
-	.byte		        Ds3 
+	.byte		        Ds3
 	.byte	W12
 	.byte		        En3 , v072
 	.byte	W12
@@ -470,11 +470,11 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		        Dn3 , v092
 	.byte	W12
-	.byte		        Fn3 
+	.byte		        Fn3
 	.byte	W12
 	.byte		        En3 , v088
 	.byte	W12
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        Dn3 , v092
 	.byte	W12
@@ -487,13 +487,13 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		        As2 , v076
 	.byte	W12
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        An2 , v080
 	.byte	W12
 	.byte		        Fs2 , v084
 	.byte	W12
-	.byte		        An2 
+	.byte		        An2
 	.byte	W12
 	.byte		        Cn3 , v096
 	.byte	W12
@@ -523,9 +523,9 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		        Fn3 , v088
 	.byte	W12
-	.byte		        En3 
+	.byte		        En3
 	.byte	W12
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        Dn3 , v096
 	.byte	W12
@@ -627,14 +627,14 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		        En3 , v096
 	.byte	W12
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W12
 	.byte		        Fs3 , v076
 	.byte	W12
 	.byte		        Dn3 , v096
 	.byte	W12
 @ 010   ----------------------------------------
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        En3 , v088
 	.byte	W12
@@ -646,13 +646,13 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		N05   , Bn2 , v088
 	.byte	W06
-	.byte		        An2 
+	.byte		        An2
 	.byte	W06
 	.byte		N44   , Gs2 , v080
 	.byte	W24
 @ 011   ----------------------------------------
 	.byte	W24
-	.byte		N68   , An2 
+	.byte		N68   , An2
 	.byte	W72
 @ 012   ----------------------------------------
 	.byte		N11   , Gn2 , v104
@@ -661,7 +661,7 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		        Dn3 , v092
 	.byte	W12
-	.byte		        Fn3 
+	.byte		        Fn3
 	.byte	W12
 	.byte		        En3 , v096
 	.byte	W12
@@ -706,13 +706,13 @@ bgm_map_FE15_06_2_B1:
 	.byte		        An2 , v092
 	.byte	W12
 @ 015   ----------------------------------------
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        As2 , v084
 	.byte	W12
 	.byte		        Dn3 , v100
 	.byte	W12
-	.byte		        Fn3 
+	.byte		        Fn3
 	.byte	W12
 	.byte		        En3 , v096
 	.byte	W12
@@ -729,7 +729,7 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		        As2 , v076
 	.byte	W12
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        An2 , v088
 	.byte	W12
@@ -757,7 +757,7 @@ bgm_map_FE15_06_2_B1:
 	.byte		        As2 , v080
 	.byte	W12
 @ 018   ----------------------------------------
-	.byte		        An2 
+	.byte		        An2
 	.byte	W12
 	.byte		        As2 , v088
 	.byte	W12
@@ -795,7 +795,7 @@ bgm_map_FE15_06_2_B1:
 	.byte	W12
 	.byte		        Cn3 , v088
 	.byte	W12
-	.byte		        Ds3 
+	.byte		        Ds3
 	.byte	W12
 	.byte		        En3 , v072
 	.byte	W12
@@ -933,7 +933,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Cn3 , v048
 	.byte	W12
-	.byte		        Bn2 
+	.byte		        Bn2
 	.byte	W12
 	.byte		        Gn2 , v044
 	.byte	W12
@@ -950,11 +950,11 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Dn2 , v036
 	.byte	W12
-	.byte		        En2 
+	.byte		        En2
 	.byte	W12
 	.byte		        Cs2 , v040
 	.byte	W12
-	.byte		        En2 
+	.byte		        En2
 	.byte	W12
 	.byte		        Gn2 , v052
 	.byte	W12
@@ -965,7 +965,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Fn2 , v052
 	.byte	W12
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        Fn2 , v024
 	.byte	W12
@@ -984,7 +984,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Cn3 , v048
 	.byte	W12
-	.byte		        Bn2 
+	.byte		        Bn2
 	.byte	W12
 	.byte		        Gn2 , v044
 	.byte	W12
@@ -1088,14 +1088,14 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Bn2 , v052
 	.byte	W12
-	.byte		        Dn3 
+	.byte		        Dn3
 	.byte	W12
 	.byte		        Cs3 , v032
 	.byte	W12
 	.byte		        An2 , v052
 	.byte	W12
 @ 010   ----------------------------------------
-	.byte		        Gn2 
+	.byte		        Gn2
 	.byte	W12
 	.byte		        Bn2 , v044
 	.byte	W12
@@ -1107,13 +1107,13 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		N05   , Fs2 , v044
 	.byte	W06
-	.byte		        En2 
+	.byte		        En2
 	.byte	W06
 	.byte		N44   , Ds2 , v036
 	.byte	W24
 @ 011   ----------------------------------------
 	.byte	W24
-	.byte		N68   , En2 
+	.byte		N68   , En2
 	.byte	W72
 @ 012   ----------------------------------------
 	.byte		N11   , Dn2 , v064
@@ -1122,7 +1122,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        An2 , v048
 	.byte	W12
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        Bn2 , v052
 	.byte	W12
@@ -1139,7 +1139,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Fn2 , v032
 	.byte	W12
-	.byte		        Dn2 
+	.byte		        Dn2
 	.byte	W12
 	.byte		        En2 , v048
 	.byte	W12
@@ -1154,7 +1154,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Gn2 , v044
 	.byte	W12
-	.byte		        Fn2 
+	.byte		        Fn2
 	.byte	W12
 	.byte		        Gn2 , v048
 	.byte	W12
@@ -1162,18 +1162,18 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        En2 , v044
 	.byte	W12
-	.byte		        Dn2 
+	.byte		        Dn2
 	.byte	W12
 	.byte		        En2 , v048
 	.byte	W12
 @ 015   ----------------------------------------
-	.byte		        Dn2 
+	.byte		        Dn2
 	.byte	W12
 	.byte		        Fn2 , v044
 	.byte	W12
 	.byte		        An2 , v056
 	.byte	W12
-	.byte		        Cn3 
+	.byte		        Cn3
 	.byte	W12
 	.byte		        Bn2 , v052
 	.byte	W12
@@ -1205,7 +1205,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Gn2 , v036
 	.byte	W12
-	.byte		        Fn2 
+	.byte		        Fn2
 	.byte	W12
 	.byte		        Gn2 , v044
 	.byte	W12
@@ -1218,7 +1218,7 @@ bgm_map_FE15_06_3_B1:
 	.byte		        Fn2 , v036
 	.byte	W12
 @ 018   ----------------------------------------
-	.byte		        En2 
+	.byte		        En2
 	.byte	W12
 	.byte		        Fn2 , v044
 	.byte	W12
@@ -1256,7 +1256,7 @@ bgm_map_FE15_06_3_B1:
 	.byte	W12
 	.byte		        Gn2 , v044
 	.byte	W12
-	.byte		        As2 
+	.byte		        As2
 	.byte	W12
 	.byte		        Bn2 , v032
 	.byte	W12
@@ -2142,15 +2142,15 @@ bgm_map_FE15_06_6_B1:
 	.byte	W24
 	.byte		        Gn1 , v100
 	.byte	W24
-	.byte		N11   
+	.byte		N11
 	.byte	W12
 	.byte		        Gn1 , v104
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W12
 @ 001   ----------------------------------------
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		N11   , Gn1 , v100
 	.byte	W12
@@ -2162,11 +2162,11 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 @ 002   ----------------------------------------
 	.byte	W12
-	.byte		N11   
+	.byte		N11
 	.byte	W12
 	.byte		        Gn1 , v104
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		N11   , Fn1 , v108
 	.byte	W12
@@ -2179,13 +2179,13 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 	.byte		N23   , Gn1 , v100
 	.byte	W24
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		N11   , Gn1 , v104
 	.byte	W12
-	.byte		N11   
+	.byte		N11
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W12
 @ 004   ----------------------------------------
 	.byte	W12
@@ -2197,7 +2197,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 	.byte		N23   , Gn1 , v104
 	.byte	W24
-	.byte		N11   
+	.byte		N11
 	.byte	W12
 @ 005   ----------------------------------------
 	.byte		        Gn1 , v052
@@ -2217,7 +2217,7 @@ bgm_map_FE15_06_6_B1:
 @ 006   ----------------------------------------
 	.byte		        Gn1 , v100
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		        Gn1 , v104
 	.byte	W24
@@ -2229,7 +2229,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 @ 007   ----------------------------------------
 	.byte	W12
-	.byte		N32   
+	.byte		N32
 	.byte	W36
 	.byte		N11   , Gn1 , v100
 	.byte	W12
@@ -2241,7 +2241,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 	.byte		N11   , Gn1 , v108
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		N32   , Gn1 , v104
 	.byte	W48
@@ -2254,7 +2254,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W24
 	.byte		N11   , Gn1 , v096
 	.byte	W12
-	.byte		N11   
+	.byte		N11
 	.byte	W12
 	.byte		        Gn1 , v052
 	.byte	W12
@@ -2265,7 +2265,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 	.byte		N23   , Gn1 , v092
 	.byte	W24
-	.byte		N23   
+	.byte		N23
 	.byte	W12
 @ 011   ----------------------------------------
 	.byte	W12
@@ -2275,7 +2275,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 	.byte		N23   , Fn1 , v092
 	.byte	W24
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		N32   , Fn1 , v088
 	.byte	W12
@@ -2301,7 +2301,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 	.byte		        Gn1 , v092
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		N11   , Gn1 , v088
 	.byte	W12
@@ -2334,7 +2334,7 @@ bgm_map_FE15_06_6_B1:
 	.byte		        Gn1 , v064
 	.byte	W12
 @ 016   ----------------------------------------
-	.byte		        Fn1 
+	.byte		        Fn1
 	.byte	W12
 	.byte		        Gn1 , v072
 	.byte	W12
@@ -2365,7 +2365,7 @@ bgm_map_FE15_06_6_B1:
 @ 018   ----------------------------------------
 	.byte		        Gn1 , v064
 	.byte	W12
-	.byte		N32   
+	.byte		N32
 	.byte	W60
 	.byte		N11   , Gn1 , v052
 	.byte	W12
@@ -2373,7 +2373,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 @ 019   ----------------------------------------
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W24
 	.byte		N40   , Fn1 , v056
 	.byte	W48
@@ -2385,13 +2385,13 @@ bgm_map_FE15_06_6_B1:
 	.byte	W12
 	.byte		        Gn1 , v052
 	.byte	W12
-	.byte		N23   
+	.byte		N23
 	.byte	W24
-	.byte		N11   , Fn1 
+	.byte		N11   , Fn1
 	.byte	W12
-	.byte		        Gn1 
+	.byte		        Gn1
 	.byte	W12
-	.byte		N23   , Fn1 
+	.byte		N23   , Fn1
 	.byte	W12
 @ 021   ----------------------------------------
 	.byte	W12
@@ -2401,7 +2401,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W24
 	.byte		N11   , Fn1 , v052
 	.byte	W12
-	.byte		        Gn1 
+	.byte		        Gn1
 	.byte	W12
 	.byte		N23   , Gn1 , v060
 	.byte	W12
@@ -2411,16 +2411,16 @@ bgm_map_FE15_06_6_B1:
 	.byte	W24
 	.byte		N32   , Fn1 , v052
 	.byte	W48
-	.byte		        Gn1 
+	.byte		        Gn1
 	.byte	W12
 @ 023   ----------------------------------------
 	.byte	W84
-	.byte		N11   , Fn1 
+	.byte		N11   , Fn1
 	.byte	W12
 @ 024   ----------------------------------------
-	.byte		N32   , Gn1 
+	.byte		N32   , Gn1
 	.byte	W36
-	.byte		N44   , Fn1 
+	.byte		N44   , Fn1
 	.byte	W48
 	.byte		N32   , Gn1 , v068
 	.byte	W12
@@ -2428,7 +2428,7 @@ bgm_map_FE15_06_6_B1:
 	.byte	W24
 	.byte		N23   , Fn1 , v052
 	.byte	W24
-	.byte		N56   , Gn1 
+	.byte		N56   , Gn1
 	.byte	W48
 @ 026   ----------------------------------------
 	.byte	W96
