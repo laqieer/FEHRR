@@ -49,9 +49,9 @@ def check_s_file(file_path, auto_fix=False):
             elif len(loops) != tracks:
                 print(f"Error: amount of loop points {len(loops)} does not match the amount of tracks {tracks}")
             # Check used instruments
-            usedInstruments = re.search(r'\.byte\s+VOICE\s*,\s*(\d+)', score).groups()
+            usedInstruments = re.findall(r'\.byte\s+VOICE\s*,\s*(\d+)', score)
             usedInstruments = [int(i) for i in usedInstruments]
-            badInstruments = [i for i in usedInstruments if nativeInstruments[i] is None]
+            badInstruments = [i for i in set(usedInstruments) if nativeInstruments[i] is None]
             if badInstruments:
                 print("Error: The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
             if auto_fix:
