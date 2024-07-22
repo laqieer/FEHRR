@@ -35,6 +35,11 @@ def check_s_file(file_path, auto_fix=False):
     try:
         with open(file_path, 'r+' if auto_fix else 'r', encoding="utf-8") as f:
             score = f.read()
+            # Get music name
+            scoreName = re.findall(r'\.global\s+(\S+)', score)
+            if len(scoreName) != 1:
+                print("Error: Music name not found or more than one found: " + str(len(scoreName)) + " music names found")
+            scoreName = scoreName[0]
             # Check track amount
             tracks = re.findall(r'\.byte\s+(\d+)\s+@\s+NumTrks', score)
             if len(tracks) != 1:
@@ -42,6 +47,17 @@ def check_s_file(file_path, auto_fix=False):
             tracks = int(tracks[0])
             if tracks > 16:
                 print("Error: S file has more than 16 tracks: " + str(tracks) + " tracks found")
+            # Check priority
+            priority = re.findall(rf'\.equ\s+{scoreName}_pri\s*,\s*(\d+)', score)
+            if len(priority) != 1:
+                print("Error: Priority not found or more than one found: " + str(len(priority)) + " priorities found")
+            priority = int(priority[0])
+            if priority > 10:
+                if auto_fix:
+                    print(f"Info: Automatically changing priority from {priority} to 10")
+                    score = re.sub(rf'\.equ\s+{scoreName}_pri\s*,\s*\d+', f'.equ\t{scoreName}_pri, 10', score)
+                else:
+                    print("Error: Priority is higher than 10: " + str(priority))
             # Check loop points
             loops = re.findall(r'\.byte\s+GOTO\s+\.word\s+', score)
             if len(loops) == 0:
