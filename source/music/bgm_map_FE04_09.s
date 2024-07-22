@@ -1760,7 +1760,7 @@ Label_6_011E1DC2:
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W05
- .byte   VOICE , 121
+ .byte   VOICE , 124
  .byte   VOL , 34*bgm_map_FE04_09_mvl/mxv
  .byte   W90
  .byte   W01

@@ -399,7 +399,7 @@ Label_8B65ED:
  .byte   W03
  .byte   VOL , 60*bgm_mns_FE07_04_mvl/mxv
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @  #01 @011   ----------------------------------------
  .byte   N36 ,Dn3 ,v084
  .byte   W24
@@ -545,7 +545,7 @@ bgm_mns_FE07_04_002:
 @  #02 @000   ----------------------------------------
  .byte   KEYSH , bgm_mns_FE07_04_key+0
 Label_8B668E:
- .byte   VOICE , 31
+ .byte   VOICE , 27
  .byte   VOL , 47*bgm_mns_FE07_04_mvl/mxv
  .byte   PAN , c_v-18
  .byte   N05 ,An2 ,v084
@@ -568,7 +568,7 @@ Label_8B668E:
  .byte   W06
  .byte   Fn3 ,v024
  .byte   W18
- .byte   PEND 
+ .byte   PEND
 @  #02 @001   ----------------------------------------
 Label_8B66B6:
  .byte   N05 ,Gn2 ,v084
@@ -591,7 +591,7 @@ Label_8B66B6:
  .byte   W06
  .byte   En3 ,v024
  .byte   W18
- .byte   PEND 
+ .byte   PEND
 @  #02 @002   ----------------------------------------
  .byte   An2 ,v084
  .byte   N05 ,Fn3
@@ -725,7 +725,7 @@ Label_8B677D:
  .byte   W09
  .byte   Fn3 ,v024
  .byte   W15
- .byte   PEND 
+ .byte   PEND
 @  #02 @009   ----------------------------------------
  .byte   Gn2 ,v068
  .byte   N08 ,Cn3 ,v076
@@ -797,7 +797,7 @@ Label_8B6815:
  .byte   W09
  .byte   Fn3 ,v024
  .byte   W15
- .byte   PEND 
+ .byte   PEND
 @  #02 @013   ----------------------------------------
  .byte   PATT
   .word Label_8B6815
@@ -819,7 +819,7 @@ Label_8B6834:
  .byte   W09
  .byte   En3 ,v024
  .byte   W15
- .byte   PEND 
+ .byte   PEND
 @  #02 @015   ----------------------------------------
  .byte   En3 ,v084
  .byte   W09
@@ -885,21 +885,21 @@ bgm_mns_FE07_04_003:
 @  #03 @000   ----------------------------------------
  .byte   KEYSH , bgm_mns_FE07_04_key+0
 Label_8B68A4:
- .byte   VOICE , 32
+ .byte   VOICE , 33
  .byte   VOL , 67*bgm_mns_FE07_04_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N24 ,Dn2 ,v100
  .byte   W24
  .byte   N18 ,Dn2 ,v032
  .byte   W72
- .byte   PEND 
+ .byte   PEND
 @  #03 @001   ----------------------------------------
 Label_8B68B3:
  .byte   N24 ,Dn2 ,v100
  .byte   W24
  .byte   N18 ,Dn2 ,v032
  .byte   W72
- .byte   PEND 
+ .byte   PEND
 @  #03 @002   ----------------------------------------
  .byte   PATT
   .word Label_8B68B3
@@ -938,7 +938,7 @@ Label_8B68F1:
  .byte   W48
  .byte   N18 ,Dn2 ,v028
  .byte   W48
- .byte   PEND 
+ .byte   PEND
 @  #03 @009   ----------------------------------------
  .byte   PATT
   .word Label_8B68F1
@@ -1204,7 +1204,7 @@ Label_8B69EF:
  .byte   N23
  .byte   W48
 @  #05 @008   ----------------------------------------
- .byte   VOICE , 35
+ .byte   VOICE , 34
  .byte   VOL , 60*bgm_mns_FE07_04_mvl/mxv
  .byte   PAN , c_v+16
  .byte   N96 ,FsM1 ,v060
@@ -1333,7 +1333,6 @@ Label_8B6A3A:
 @  #06 @010   ----------------------------------------
  .byte   W96
 @  #06 @011   ----------------------------------------
- .byte   VOICE , 37
  .byte   W23
  .byte   VOL , 41*bgm_mns_FE07_04_mvl/mxv
  .byte   W01
@@ -1490,7 +1489,7 @@ Label_8B6A3A:
 bgm_mns_FE07_04_007:
 @  #07 @000   ----------------------------------------
  .byte   KEYSH , bgm_mns_FE07_04_key+0
- .byte   VOICE , 38
+ .byte   VOICE , 33
  .byte   VOL , 58*bgm_mns_FE07_04_mvl/mxv
  .byte   PAN , c_v+30
  .byte   N12 ,Dn2 ,v080
@@ -1527,7 +1526,7 @@ Label_8B6B5A:
  .byte   W12
  .byte   Gn2
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #07 @002   ----------------------------------------
 Label_8B6B6D:
  .byte   N12 ,Dn2 ,v080
@@ -1546,7 +1545,7 @@ Label_8B6B6D:
  .byte   W12
  .byte   An2
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #07 @003   ----------------------------------------
  .byte   PATT
   .word Label_8B6B6D
@@ -1799,7 +1798,6 @@ Label_8B6B6D:
  .byte   An4
  .byte   W08
 @  #07 @020   ----------------------------------------
- .byte   VOICE , 38
  .byte   VOL , 58*bgm_mns_FE07_04_mvl/mxv
  .byte   PAN , c_v+15
  .byte   N12 ,Dn2
@@ -1831,9 +1829,9 @@ bgm_mns_FE07_04:
 	.byte	0	@ NumBlks
 	.byte	bgm_mns_FE07_04_pri	@ Priority
 	.byte	bgm_mns_FE07_04_rev	@ Reverb.
-    
+
 	.word	bgm_mns_FE07_04_grp
-    
+
 	.word	bgm_mns_FE07_04_001
 	.word	bgm_mns_FE07_04_002
 	.word	bgm_mns_FE07_04_003

@@ -20,33 +20,33 @@ bgm_mns_FE03_01_1:
 bgm_mns_FE03_01_1_B1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 43*bgm_mns_FE03_01_tbs/2
-	.byte		VOICE , 109
+	.byte		VOICE , 52
 	.byte		VOL   , 72*bgm_mns_FE03_01_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W06
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte		N04   , Gn4 , v116
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -59,7 +59,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -72,7 +72,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -85,7 +85,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -97,13 +97,13 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
 @ 001   ----------------------------------------
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 	.byte	TEMPO , 44*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 44*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -115,26 +115,26 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -147,7 +147,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        An4 
+	.byte		        An4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -159,17 +159,17 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
 @ 002   ----------------------------------------
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -182,7 +182,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -195,7 +195,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        An4 
+	.byte		        An4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -208,7 +208,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -223,7 +223,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 26*bgm_mns_FE03_01_tbs/2
 	.byte	W03
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -236,7 +236,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -249,7 +249,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -261,36 +261,36 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
 	.byte		        As5 , v104
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W03
 @ 003   ----------------------------------------
 	.byte	W03
 	.byte		        Fn5 , v116
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
 	.byte		        Ds5 , v104
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
 	.byte		        Fn5 , v116
 	.byte	W06
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -303,7 +303,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -316,7 +316,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -329,7 +329,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -342,7 +342,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -355,7 +355,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -368,7 +368,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -381,7 +381,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -394,7 +394,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -407,7 +407,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -420,7 +420,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -434,7 +434,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -446,16 +446,16 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -468,7 +468,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -481,7 +481,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -494,7 +494,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -507,7 +507,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -520,7 +520,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -533,7 +533,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -546,7 +546,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -558,18 +558,18 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W03
 @ 005   ----------------------------------------
 	.byte	W03
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -582,7 +582,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -595,7 +595,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        An4 
+	.byte		        An4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -608,7 +608,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -621,28 +621,28 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -656,7 +656,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -669,7 +669,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 39*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -682,7 +682,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -695,12 +695,12 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 34*bgm_mns_FE03_01_tbs/2
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 	.byte	TEMPO , 44*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 44*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -713,26 +713,26 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -746,7 +746,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        An4 
+	.byte		        An4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -759,16 +759,16 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -781,7 +781,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -794,7 +794,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        An4 
+	.byte		        An4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -807,7 +807,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -822,7 +822,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 26*bgm_mns_FE03_01_tbs/2
 	.byte	W03
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -835,7 +835,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -848,7 +848,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -861,35 +861,35 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
 @ 008   ----------------------------------------
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
 	.byte		        As5 , v104
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
 	.byte		        Fn5 , v116
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
 	.byte		        Ds5 , v104
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
 	.byte		        Fn5 , v116
 	.byte	W06
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -902,7 +902,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -915,7 +915,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -928,7 +928,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -941,7 +941,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -954,7 +954,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -968,7 +968,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 @ 009   ----------------------------------------
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -981,7 +981,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -994,7 +994,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1007,7 +1007,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1020,7 +1020,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1033,7 +1033,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1046,16 +1046,16 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 46*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1068,7 +1068,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1081,7 +1081,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1094,7 +1094,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W01
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1107,7 +1107,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 41*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1120,7 +1120,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1134,7 +1134,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	W01
 @ 010   ----------------------------------------
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1147,7 +1147,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1160,16 +1160,16 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 36*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		N04   
+	.byte		N04
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1182,7 +1182,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        As4 
+	.byte		        As4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1195,7 +1195,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        An4 
+	.byte		        An4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1208,7 +1208,7 @@ bgm_mns_FE03_01_1_B1:
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W01
 	.byte	TEMPO , 29*bgm_mns_FE03_01_tbs/2
 	.byte	W01
@@ -1233,360 +1233,360 @@ bgm_mns_FE03_01_2:
 	.byte	KEYSH , bgm_mns_FE03_01_key+0
 bgm_mns_FE03_01_2_B1:
 @ 000   ----------------------------------------
-	.byte		VOICE , 109
+	.byte		VOICE , 52
 	.byte		VOL   , 65*bgm_mns_FE03_01_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W06
 	.byte		N05   , Gn4 , v116
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
 @ 001   ----------------------------------------
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
 @ 002   ----------------------------------------
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W09
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
 	.byte		        As5 , v104
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W03
 @ 003   ----------------------------------------
 	.byte	W03
 	.byte		        Fn5 , v116
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
 	.byte		        Ds5 , v104
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
 	.byte		        Fn5 , v116
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W03
 @ 004   ----------------------------------------
 	.byte	W03
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W03
 @ 005   ----------------------------------------
 	.byte	W03
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W03
 @ 006   ----------------------------------------
 	.byte	W03
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W03
 @ 007   ----------------------------------------
 	.byte	W03
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W09
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
 @ 008   ----------------------------------------
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
 	.byte		        As5 , v104
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
 	.byte		        Fn5 , v116
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
 	.byte		        Ds5 , v104
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
 	.byte		        Fn5 , v116
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
 @ 009   ----------------------------------------
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
 @ 010   ----------------------------------------
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W09
 	.byte	GOTO
 	 .word	bgm_mns_FE03_01_2_B1
@@ -1599,364 +1599,364 @@ bgm_mns_FE03_01_3:
 	.byte	KEYSH , bgm_mns_FE03_01_key+0
 bgm_mns_FE03_01_3_B1:
 @ 000   ----------------------------------------
-	.byte		VOICE , 109
+	.byte		VOICE , 52
 	.byte		VOL   , 72*bgm_mns_FE03_01_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W06
 	.byte	W03
 	.byte		N05   , Gn4 , v092
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W03
 @ 001   ----------------------------------------
 	.byte	W03
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W03
 @ 002   ----------------------------------------
 	.byte	W03
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W09
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As5 
+	.byte		        As5
 	.byte	W06
 @ 003   ----------------------------------------
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Ds5 
+	.byte		        Ds5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
 @ 004   ----------------------------------------
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
 @ 005   ----------------------------------------
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W03
 	.byte	W04
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Dn5 
+	.byte		        Dn5
 	.byte	W05
 @ 006   ----------------------------------------
 	.byte	W01
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W05
 @ 007   ----------------------------------------
 	.byte	W01
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W09
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W02
 @ 008   ----------------------------------------
 	.byte	W04
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As5 
+	.byte		        As5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Ds5 
+	.byte		        Ds5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W02
 @ 009   ----------------------------------------
 	.byte	W04
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W02
 @ 010   ----------------------------------------
 	.byte	W04
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N05   
+	.byte		N05
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        An4 
+	.byte		        An4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W05
 	.byte	GOTO
 	 .word	bgm_mns_FE03_01_3_B1
@@ -1969,360 +1969,360 @@ bgm_mns_FE03_01_4:
 	.byte	KEYSH , bgm_mns_FE03_01_key+0
 bgm_mns_FE03_01_4_B1:
 @ 000   ----------------------------------------
-	.byte		VOICE , 109
+	.byte		VOICE , 52
 	.byte		VOL   , 72*bgm_mns_FE03_01_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W06
 	.byte		N04   , Cn4 , v104
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
 @ 001   ----------------------------------------
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
 @ 002   ----------------------------------------
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W09
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W03
 @ 003   ----------------------------------------
 	.byte	W03
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W03
 @ 004   ----------------------------------------
 	.byte	W03
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        An3 
+	.byte		        An3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn3 
+	.byte		        Dn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W03
 @ 005   ----------------------------------------
 	.byte	W03
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W03
 @ 006   ----------------------------------------
 	.byte	W03
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W03
 @ 007   ----------------------------------------
 	.byte	W03
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W09
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 @ 008   ----------------------------------------
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 @ 009   ----------------------------------------
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        An3 
+	.byte		        An3
 	.byte	W06
 @ 010   ----------------------------------------
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn3 
+	.byte		        Dn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W09
 	.byte	GOTO
 	 .word	bgm_mns_FE03_01_4_B1
@@ -2335,360 +2335,360 @@ bgm_mns_FE03_01_5:
 	.byte	KEYSH , bgm_mns_FE03_01_key+0
 bgm_mns_FE03_01_5_B1:
 @ 000   ----------------------------------------
-	.byte		VOICE , 109
+	.byte		VOICE , 52
 	.byte		VOL   , 65*bgm_mns_FE03_01_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W06
 	.byte		N04   , Cn4 , v096
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
 @ 001   ----------------------------------------
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
 @ 002   ----------------------------------------
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W09
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W03
 @ 003   ----------------------------------------
 	.byte	W03
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W03
 @ 004   ----------------------------------------
 	.byte	W03
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        An3 
+	.byte		        An3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn3 
+	.byte		        Dn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W03
 @ 005   ----------------------------------------
 	.byte	W03
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W03
 @ 006   ----------------------------------------
 	.byte	W03
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W03
 @ 007   ----------------------------------------
 	.byte	W03
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W09
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 @ 008   ----------------------------------------
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Fn5 
+	.byte		        Fn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
 @ 009   ----------------------------------------
-	.byte		        As4 
+	.byte		        As4
 	.byte	W06
-	.byte		        Fn4 
+	.byte		        Fn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		        Cn5 
+	.byte		        Cn5
 	.byte	W06
-	.byte		        Gn4 
+	.byte		        Gn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        An3 
+	.byte		        An3
 	.byte	W06
 @ 010   ----------------------------------------
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Dn3 
+	.byte		        Dn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Gn3 
+	.byte		        Gn3
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Cn4 
+	.byte		        Cn4
 	.byte	W06
-	.byte		N04   
+	.byte		N04
 	.byte	W06
-	.byte		        Ds4 
+	.byte		        Ds4
 	.byte	W06
-	.byte		        Dn4 
+	.byte		        Dn4
 	.byte	W06
-	.byte		        As3 
+	.byte		        As3
 	.byte	W09
 	.byte	GOTO
 	 .word	bgm_mns_FE03_01_5_B1
@@ -2701,7 +2701,7 @@ bgm_mns_FE03_01_6:
 	.byte	KEYSH , bgm_mns_FE03_01_key+0
 bgm_mns_FE03_01_6_B1:
 @ 000   ----------------------------------------
-	.byte		VOICE , 42
+	.byte		VOICE , 41
 	.byte		VOL   , 90*bgm_mns_FE03_01_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W06
@@ -2711,28 +2711,28 @@ bgm_mns_FE03_01_6_B1:
 	.byte	W96
 @ 002   ----------------------------------------
 	.byte	W80
-	.byte		EOT   
+	.byte		EOT
 	.byte	W01
-	.byte		N44   , Cs3 
+	.byte		N44   , Cs3
 	.byte	W15
 @ 003   ----------------------------------------
 	.byte	W32
 	.byte	W01
-	.byte		        Bn2 
+	.byte		        Bn2
 	.byte	W48
-	.byte		        Gs2 
+	.byte		        Gs2
 	.byte	W15
 @ 004   ----------------------------------------
 	.byte	W32
 	.byte	W01
-	.byte		        An2 
+	.byte		        An2
 	.byte	W48
-	.byte		        As2 
+	.byte		        As2
 	.byte	W15
 @ 005   ----------------------------------------
 	.byte	W32
 	.byte	W01
-	.byte		TIE   , Cn3 
+	.byte		TIE   , Cn3
 	.byte	W60
 	.byte	W03
 @ 006   ----------------------------------------
@@ -2741,21 +2741,21 @@ bgm_mns_FE03_01_6_B1:
 	.byte	W96
 @ 008   ----------------------------------------
 	.byte	W11
-	.byte		EOT   
+	.byte		EOT
 	.byte	W01
-	.byte		N44   , Cs3 
+	.byte		N44   , Cs3
 	.byte	W48
-	.byte		        Bn2 
+	.byte		        Bn2
 	.byte	W36
 @ 009   ----------------------------------------
 	.byte	W12
-	.byte		        Gs2 
+	.byte		        Gs2
 	.byte	W48
-	.byte		        An2 
+	.byte		        An2
 	.byte	W36
 @ 010   ----------------------------------------
 	.byte	W12
-	.byte		        As2 
+	.byte		        As2
 	.byte	W48
 	.byte	W03
 	.byte	GOTO
@@ -2782,27 +2782,27 @@ bgm_mns_FE03_01_7_B1:
 @ 002   ----------------------------------------
 	.byte	W80
 	.byte	W03
-	.byte		EOT   
+	.byte		EOT
 	.byte	W01
-	.byte		N44   , Cs2 
+	.byte		N44   , Cs2
 	.byte	W12
 @ 003   ----------------------------------------
 	.byte	W36
-	.byte		        Bn1 
+	.byte		        Bn1
 	.byte	W48
-	.byte		        Gs1 
+	.byte		        Gs1
 	.byte	W12
 @ 004   ----------------------------------------
 	.byte	W36
-	.byte		        An1 
+	.byte		        An1
 	.byte	W48
-	.byte		        As1 
+	.byte		        As1
 	.byte	W12
 @ 005   ----------------------------------------
 	.byte	W32
 	.byte	W01
 	.byte	W03
-	.byte		TIE   , Cn2 
+	.byte		TIE   , Cn2
 	.byte	W60
 @ 006   ----------------------------------------
 	.byte	W96
@@ -2810,23 +2810,23 @@ bgm_mns_FE03_01_7_B1:
 	.byte	W96
 @ 008   ----------------------------------------
 	.byte	W14
-	.byte		EOT   
+	.byte		EOT
 	.byte	W01
-	.byte		N44   , Cs2 
+	.byte		N44   , Cs2
 	.byte	W48
-	.byte		        Bn1 
+	.byte		        Bn1
 	.byte	W32
 	.byte	W01
 @ 009   ----------------------------------------
 	.byte	W15
-	.byte		        Gs1 
+	.byte		        Gs1
 	.byte	W48
-	.byte		        An1 
+	.byte		        An1
 	.byte	W32
 	.byte	W01
 @ 010   ----------------------------------------
 	.byte	W15
-	.byte		        As1 
+	.byte		        As1
 	.byte	W48
 	.byte	GOTO
 	 .word	bgm_mns_FE03_01_7_B1

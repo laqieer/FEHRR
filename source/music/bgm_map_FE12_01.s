@@ -186,7 +186,7 @@ Label_012865D0:
  .byte   Ds3
  .byte   N23 ,As3
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #01 @009   ----------------------------------------
  .byte   N30 ,Cn3
  .byte   N30 ,An3
@@ -552,7 +552,7 @@ Label_01286727:
  .byte   W03
  .byte   W03
  .byte   W02
- .byte   PEND 
+ .byte   PEND
 @  #02 @002   ----------------------------------------
  .byte   Cn2
  .byte   W01
@@ -1080,7 +1080,7 @@ Label_0128695D:
  .byte   W06
  .byte   N11 ,Bn1 ,v124
  .byte   W84
- .byte   PEND 
+ .byte   PEND
 @  #02 @028   ----------------------------------------
  .byte   W96
 @  #02 @029   ----------------------------------------
@@ -1114,7 +1114,7 @@ Label_0128696F:
  .byte   W06
  .byte   N05
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #02 @032   ----------------------------------------
  .byte   PATT
   .word Label_0128696F
@@ -1206,7 +1206,7 @@ Label_012869D2:
  .byte   W03
  .byte   W03
  .byte   W02
- .byte   PEND 
+ .byte   PEND
 @  #03 @002   ----------------------------------------
 Label_012869F9:
  .byte   N44 ,Fn2 ,v116
@@ -1245,7 +1245,7 @@ Label_012869F9:
  .byte   W03
  .byte   W03
  .byte   W02
- .byte   PEND 
+ .byte   PEND
 @  #03 @003   ----------------------------------------
  .byte   N92 ,Fn2
  .byte   W01
@@ -1706,7 +1706,7 @@ Label_01286BED:
  .byte   W06
  .byte   N11 ,En2 ,v124
  .byte   W84
- .byte   PEND 
+ .byte   PEND
 @  #03 @028   ----------------------------------------
  .byte   W96
 @  #03 @029   ----------------------------------------
@@ -1740,7 +1740,7 @@ Label_01286BFF:
  .byte   W06
  .byte   N05
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #03 @032   ----------------------------------------
  .byte   PATT
   .word Label_01286BFF
@@ -2047,7 +2047,7 @@ Label_01286D7F:
  .byte   Bn3 ,v100
  .byte   N07 ,Fs4
  .byte   W08
- .byte   PEND 
+ .byte   PEND
 @  #04 @026   ----------------------------------------
  .byte   PATT
   .word Label_01286D7F
@@ -2077,7 +2077,7 @@ Label_01286DB1:
  .byte   En3 ,v100
  .byte   N11 ,Bn3
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #04 @028   ----------------------------------------
 Label_01286DDA:
  .byte   N11 ,En3 ,v127
@@ -2104,7 +2104,7 @@ Label_01286DDA:
  .byte   Bn3 ,v112
  .byte   N11 ,Fs4
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #04 @029   ----------------------------------------
  .byte   PATT
   .word Label_01286DB1
@@ -4068,7 +4068,7 @@ Label_012875DE:
  .byte   W04
  .byte   Ds3
  .byte   W16
- .byte   PEND 
+ .byte   PEND
 @  #07 @005   ----------------------------------------
 Label_01287606:
  .byte   W12
@@ -4108,7 +4108,7 @@ Label_01287606:
  .byte   W04
  .byte   Fn3
  .byte   W16
- .byte   PEND 
+ .byte   PEND
 @  #07 @006   ----------------------------------------
  .byte   W96
 @  #07 @007   ----------------------------------------
@@ -4271,7 +4271,7 @@ Label_01287696:
  .byte   W03
  .byte   W03
  .byte   W02
- .byte   PEND 
+ .byte   PEND
 @  #08 @002   ----------------------------------------
 Label_012876C3:
  .byte   N23 ,Cn2 ,v104
@@ -4322,7 +4322,7 @@ Label_012876C3:
  .byte   W02
  .byte   W01
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @  #08 @003   ----------------------------------------
 Label_012876F6:
  .byte   N92 ,Cn3 ,v104
@@ -4373,7 +4373,7 @@ Label_012876F6:
  .byte   W02
  .byte   W01
  .byte   W02
- .byte   PEND 
+ .byte   PEND
 @  #08 @004   ----------------------------------------
 Label_01287729:
  .byte   W03
@@ -4388,7 +4388,7 @@ Label_01287729:
  .byte   W03
  .byte   W02
  .byte   W64
- .byte   PEND 
+ .byte   PEND
 @  #08 @005   ----------------------------------------
  .byte   W96
 @  #08 @006   ----------------------------------------
@@ -4508,7 +4508,7 @@ Label_01287791:
  .byte   Gs2 ,v036
  .byte   N11 ,En3
  .byte   W48
- .byte   PEND 
+ .byte   PEND
 @  #08 @028   ----------------------------------------
  .byte   W12
  .byte   Fs2 ,v092
@@ -4737,7 +4737,7 @@ Label_012878C9:
  .byte   W03
  .byte   W03
  .byte   W02
- .byte   PEND 
+ .byte   PEND
 @  #09 @002   ----------------------------------------
 Label_012878FA:
  .byte   W01
@@ -4786,7 +4786,7 @@ Label_012878FA:
  .byte   W02
  .byte   W01
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @  #09 @003   ----------------------------------------
 Label_0128792B:
  .byte   W01
@@ -4838,7 +4838,7 @@ Label_0128792B:
  .byte   W02
  .byte   W01
  .byte   W02
- .byte   PEND 
+ .byte   PEND
 @  #09 @004   ----------------------------------------
 Label_0128795F:
  .byte   W01
@@ -4860,7 +4860,7 @@ Label_0128795F:
  .byte   W02
  .byte   W54
  .byte   W01
- .byte   PEND 
+ .byte   PEND
 @  #09 @005   ----------------------------------------
  .byte   W96
 @  #09 @006   ----------------------------------------
@@ -4969,7 +4969,7 @@ Label_012879C9:
  .byte   W12
  .byte   Bn2 ,v036
  .byte   W48
- .byte   PEND 
+ .byte   PEND
 @  #09 @028   ----------------------------------------
  .byte   W12
  .byte   An2 ,v092
@@ -5085,7 +5085,7 @@ Label_01287A66:
  .byte   W24
  .byte   N10 ,Ds0
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #10 @002   ----------------------------------------
 Label_01287A80:
  .byte   N10 ,Fn0 ,v104
@@ -5100,7 +5100,7 @@ Label_01287A80:
  .byte   W06
  .byte   Fn1
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #10 @003   ----------------------------------------
 Label_01287A92:
  .byte   W06
@@ -5124,7 +5124,7 @@ Label_01287A92:
  .byte   W08
  .byte   Ds1
  .byte   W08
- .byte   PEND 
+ .byte   PEND
 @  #10 @004   ----------------------------------------
 Label_01287AB0:
  .byte   W24
@@ -5138,7 +5138,7 @@ Label_01287AB0:
  .byte   W08
  .byte   N22 ,Cn1 ,v124
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #10 @005   ----------------------------------------
 Label_01287AC3:
  .byte   W24
@@ -5152,7 +5152,7 @@ Label_01287AC3:
  .byte   W08
  .byte   N22 ,Cn1 ,v124
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #10 @006   ----------------------------------------
  .byte   N30 ,Cs1
  .byte   W36
@@ -5274,7 +5274,7 @@ Label_01287B5D:
  .byte   W08
  .byte   N07
  .byte   W08
- .byte   PEND 
+ .byte   PEND
 @  #10 @018   ----------------------------------------
  .byte   Fs0
  .byte   W08
@@ -5321,7 +5321,7 @@ Label_01287BA1:
  .byte   W06
  .byte   N10 ,An0
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #10 @021   ----------------------------------------
  .byte   N11 ,Gs0
  .byte   W12
@@ -5400,7 +5400,7 @@ Label_01287C0B:
  .byte   W08
  .byte   N04
  .byte   W08
- .byte   PEND 
+ .byte   PEND
 @  #10 @026   ----------------------------------------
  .byte   PATT
   .word Label_01287C0B
@@ -5437,7 +5437,7 @@ Label_01287C24:
  .byte   W06
  .byte   Bn0 ,v064
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #10 @029   ----------------------------------------
  .byte   W96
 @  #10 @030   ----------------------------------------
@@ -5462,963 +5462,6 @@ Label_01287C24:
 @  #10 @033   ----------------------------------------
  .byte   GOTO
   .word Label_01287A4D
- .byte   FINE
-
-@**************** Track 11 (Midi-Chn.10) ****************@
-
-bgm_map_FE12_01_011:
-@  #11 @000   ----------------------------------------
- .byte   KEYSH , bgm_map_FE12_01_key+0
-Label_01287C6F:
- .byte   VOICE , 121
- .byte   VOL , 38*bgm_map_FE12_01_mvl/mxv
- .byte   PAN , c_v+0
- .byte   BEND , c_v+0
- .byte   N05 ,Dn1 ,v084
- .byte   N44 ,Cs2 ,v048
- .byte   W06
- .byte   N05 ,Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v012
- .byte   W06
- .byte   Dn1 ,v040
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v048
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v068
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
-@  #11 @001   ----------------------------------------
-Label_01287CB0:
- .byte   N05 ,En1 ,v036
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
- .byte   N05 ,En1 ,v076
- .byte   W06
- .byte   Dn1 ,v036
- .byte   W06
- .byte   En1 ,v044
- .byte   W06
- .byte   Dn1 ,v092
- .byte   W06
- .byte   PEND 
-@  #11 @002   ----------------------------------------
-Label_01287CE7:
- .byte   N05 ,Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v012
- .byte   W06
- .byte   Dn1 ,v040
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v048
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v068
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
- .byte   PEND 
-@  #11 @003   ----------------------------------------
-Label_01287D1D:
- .byte   N05 ,En1 ,v036
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
- .byte   N05 ,En1 ,v076
- .byte   W08
- .byte   Dn1 ,v092
- .byte   W08
- .byte   En1 ,v100
- .byte   W08
- .byte   PEND 
-@  #11 @004   ----------------------------------------
- .byte   Dn1 ,v084
- .byte   N44 ,Cs2 ,v068
- .byte   W06
- .byte   N05 ,Dn1 ,v036
- .byte   W06
- .byte   Dn1 ,v024
- .byte   W12
- .byte   Dn1 ,v088
- .byte   W08
- .byte   En1 ,v084
- .byte   W08
- .byte   Dn1
- .byte   W08
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v056
- .byte   W04
- .byte   N03
- .byte   W04
- .byte   En1 ,v076
- .byte   W04
- .byte   Dn1 ,v084
- .byte   W04
-@  #11 @005   ----------------------------------------
- .byte   N05 ,En1 ,v036
- .byte   N44 ,En2 ,v068
- .byte   W06
- .byte   N05 ,Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W08
- .byte   En1 ,v064
- .byte   W08
- .byte   Dn1 ,v084
- .byte   W08
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
- .byte   N05 ,En1 ,v092
- .byte   W06
- .byte   Dn1 ,v036
- .byte   W06
- .byte   En1 ,v044
- .byte   W06
- .byte   Dn1 ,v092
- .byte   W06
-@  #11 @006   ----------------------------------------
- .byte   PATT
-  .word Label_01287CE7
-@  #11 @007   ----------------------------------------
- .byte   N05 ,En1 ,v036
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v020
- .byte   W06
- .byte   En1 ,v096
- .byte   W06
- .byte   En1 ,v028
- .byte   W06
- .byte   Dn1 ,v096
- .byte   W06
- .byte   En1 ,v112
- .byte   W06
- .byte   Dn1 ,v036
- .byte   W06
-@  #11 @008   ----------------------------------------
- .byte   Dn1 ,v084
- .byte   N44 ,Cs2 ,v048
- .byte   W06
- .byte   N05 ,Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v012
- .byte   W06
- .byte   Dn1 ,v040
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v048
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v068
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
-@  #11 @009   ----------------------------------------
- .byte   PATT
-  .word Label_01287CB0
-@  #11 @010   ----------------------------------------
- .byte   PATT
-  .word Label_01287CE7
-@  #11 @011   ----------------------------------------
- .byte   PATT
-  .word Label_01287D1D
-@  #11 @012   ----------------------------------------
- .byte   N05 ,Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v036
- .byte   W06
- .byte   Dn1 ,v024
- .byte   W12
- .byte   Dn1 ,v088
- .byte   W08
- .byte   En1 ,v084
- .byte   W08
- .byte   Dn1
- .byte   W08
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v056
- .byte   W04
- .byte   N03
- .byte   W04
- .byte   En1 ,v076
- .byte   W04
- .byte   Dn1 ,v084
- .byte   W04
-@  #11 @013   ----------------------------------------
- .byte   N05 ,En1 ,v036
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W08
- .byte   En1 ,v064
- .byte   W08
- .byte   Dn1 ,v084
- .byte   W08
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
- .byte   N05 ,En1 ,v092
- .byte   W06
- .byte   Dn1 ,v036
- .byte   W06
- .byte   En1 ,v044
- .byte   W06
- .byte   Dn1 ,v092
- .byte   W06
-@  #11 @014   ----------------------------------------
- .byte   PATT
-  .word Label_01287CE7
-@  #11 @015   ----------------------------------------
- .byte   N05 ,En1 ,v036
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v020
- .byte   W06
- .byte   En1 ,v096
- .byte   W06
- .byte   En1 ,v028
- .byte   W06
- .byte   Dn1 ,v096
- .byte   W03
- .byte   N02 ,Cs2 ,v008
- .byte   W03
- .byte   N05 ,En1 ,v112
- .byte   N02 ,Cs2 ,v024
- .byte   W03
- .byte   Cs2 ,v032
- .byte   W03
- .byte   N05 ,Dn1 ,v036
- .byte   N02 ,Cs2 ,v040
- .byte   W03
- .byte   Cs2 ,v056
- .byte   W03
-@  #11 @016   ----------------------------------------
- .byte   N05 ,Dn1 ,v064
- .byte   TIE ,Cs2 ,v068
- .byte   W01
- .byte   N05 ,En1 ,v064
- .byte   W23
- .byte   Dn1
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v048
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v040
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v064
- .byte   W01
- .byte   En1
- .byte   W23
- .byte   Dn1
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v048
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v040
- .byte   W01
- .byte   En1
- .byte   W07
-@  #11 @017   ----------------------------------------
- .byte   Dn1 ,v064
- .byte   W01
- .byte   En1
- .byte   W23
- .byte   Dn1
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v048
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   EOT
- .byte   Cs2
- .byte   N05 ,Dn1 ,v040
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v064
- .byte   W01
- .byte   En1
- .byte   W23
- .byte   Dn1
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v048
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v040
- .byte   W01
- .byte   En1
- .byte   W07
-@  #11 @018   ----------------------------------------
-Label_01287F38:
- .byte   N05 ,Dn1 ,v064
- .byte   W01
- .byte   En1
- .byte   W23
- .byte   Dn1
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v048
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v040
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v064
- .byte   W01
- .byte   En1
- .byte   W23
- .byte   Dn1
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v048
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   Dn1 ,v040
- .byte   W01
- .byte   En1
- .byte   W07
- .byte   PEND 
-@  #11 @019   ----------------------------------------
- .byte   PATT
-  .word Label_01287F38
-@  #11 @020   ----------------------------------------
- .byte   N05 ,Dn1 ,v084
- .byte   N44 ,En2 ,v060
- .byte   W06
- .byte   N05 ,En1 ,v088
- .byte   W06
- .byte   Dn1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   N02 ,Dn1 ,v076
- .byte   W03
- .byte   En1 ,v064
- .byte   W03
- .byte   Dn1 ,v060
- .byte   W03
- .byte   En1 ,v052
- .byte   W03
- .byte   N05 ,En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v048
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v068
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   Dn1 ,v072
- .byte   W06
- .byte   En1
- .byte   W06
-@  #11 @021   ----------------------------------------
- .byte   En1 ,v036
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
- .byte   N05 ,En1 ,v092
- .byte   W06
- .byte   Dn1 ,v052
- .byte   W06
- .byte   En1 ,v084
- .byte   W06
- .byte   Dn1
- .byte   W06
-@  #11 @022   ----------------------------------------
- .byte   En1 ,v072
- .byte   W06
- .byte   Dn1 ,v088
- .byte   W06
- .byte   Dn1 ,v048
- .byte   W06
- .byte   En1 ,v052
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   En1 ,v048
- .byte   W06
- .byte   Dn1 ,v080
- .byte   W06
- .byte   En1 ,v016
- .byte   W06
- .byte   Dn1 ,v044
- .byte   W06
- .byte   En1 ,v108
- .byte   W06
- .byte   Dn1 ,v080
- .byte   W06
- .byte   En1 ,v036
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v036
- .byte   W06
- .byte   En1 ,v044
- .byte   W06
- .byte   Dn1 ,v092
- .byte   W06
-@  #11 @023   ----------------------------------------
- .byte   En1 ,v096
- .byte   W06
- .byte   Dn1
- .byte   W06
- .byte   En1
- .byte   W06
- .byte   Dn1 ,v040
- .byte   W06
- .byte   En1 ,v100
- .byte   W06
- .byte   Dn1 ,v060
- .byte   W06
- .byte   En1 ,v040
- .byte   W06
- .byte   Dn1
- .byte   W06
- .byte   En1 ,v088
- .byte   W06
- .byte   Dn1
- .byte   W06
- .byte   En1 ,v052
- .byte   W06
- .byte   Dn1 ,v048
- .byte   W06
- .byte   N02 ,En1 ,v028
- .byte   W04
- .byte   Dn1 ,v044
- .byte   W04
- .byte   En1 ,v056
- .byte   W04
- .byte   Dn1 ,v060
- .byte   W04
- .byte   En1 ,v064
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
-@  #11 @024   ----------------------------------------
- .byte   N05 ,Dn1 ,v084
- .byte   W06
- .byte   En1 ,v088
- .byte   W06
- .byte   Dn1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   N02 ,Dn1 ,v044
- .byte   W03
- .byte   En1
- .byte   W03
- .byte   Dn1
- .byte   W03
- .byte   En1
- .byte   W03
- .byte   N05 ,En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v048
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v068
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   En1 ,v076
- .byte   W08
- .byte   Dn1 ,v084
- .byte   W08
- .byte   En1 ,v108
- .byte   W08
-@  #11 @025   ----------------------------------------
- .byte   N07 ,En1 ,v100
- .byte   W08
- .byte   Dn1 ,v052
- .byte   W08
- .byte   En1 ,v040
- .byte   W08
- .byte   Dn1 ,v088
- .byte   W08
- .byte   En1 ,v076
- .byte   W08
- .byte   Dn1 ,v092
- .byte   W08
- .byte   En1 ,v100
- .byte   W08
- .byte   Dn1 ,v052
- .byte   W08
- .byte   En1 ,v040
- .byte   W08
- .byte   Dn1 ,v088
- .byte   W08
- .byte   En1 ,v076
- .byte   W08
- .byte   Dn1 ,v092
- .byte   W08
-@  #11 @026   ----------------------------------------
- .byte   En1 ,v100
- .byte   W08
- .byte   Dn1 ,v052
- .byte   W08
- .byte   En1 ,v040
- .byte   W08
- .byte   Dn1 ,v088
- .byte   W08
- .byte   En1 ,v076
- .byte   W08
- .byte   Dn1 ,v092
- .byte   W08
- .byte   En1 ,v100
- .byte   W08
- .byte   Dn1 ,v052
- .byte   W08
- .byte   En1 ,v040
- .byte   W08
- .byte   N02 ,En1 ,v028
- .byte   W04
- .byte   Dn1 ,v044
- .byte   W04
- .byte   En1 ,v056
- .byte   W04
- .byte   Dn1 ,v060
- .byte   W04
- .byte   En1 ,v064
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
-@  #11 @027   ----------------------------------------
-Label_012880BE:
- .byte   N05 ,Dn1 ,v084
- .byte   W06
- .byte   En1 ,v088
- .byte   W06
- .byte   Dn1 ,v116
- .byte   N19 ,An2 ,v056
- .byte   W06
- .byte   N05 ,En1 ,v032
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v048
- .byte   W06
- .byte   En1 ,v068
- .byte   N19 ,An2 ,v040
- .byte   W06
- .byte   N05 ,Dn1
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   Dn1 ,v024
- .byte   W06
- .byte   Dn1 ,v068
- .byte   N19 ,An2 ,v052
- .byte   W06
- .byte   N05 ,Dn1 ,v028
- .byte   W06
- .byte   N02 ,En1 ,v072
- .byte   W03
- .byte   Dn1 ,v044
- .byte   W03
- .byte   En1
- .byte   W03
- .byte   Dn1
- .byte   W03
- .byte   N05 ,En1 ,v076
- .byte   N19 ,An2 ,v028
- .byte   W06
- .byte   N05 ,Dn1 ,v080
- .byte   W06
- .byte   PEND 
-@  #11 @028   ----------------------------------------
- .byte   En1 ,v056
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   N19 ,An2 ,v056
- .byte   W06
- .byte   N05 ,Dn1 ,v012
- .byte   W06
- .byte   En1 ,v056
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   N19 ,An2 ,v040
- .byte   W06
- .byte   N05 ,Dn1 ,v012
- .byte   W06
- .byte   En1 ,v040
- .byte   W06
- .byte   Dn1 ,v092
- .byte   W06
- .byte   En1 ,v036
- .byte   N19 ,An2 ,v052
- .byte   W06
- .byte   N05 ,Dn1 ,v044
- .byte   W06
- .byte   N02 ,En1 ,v076
- .byte   W03
- .byte   Dn1 ,v056
- .byte   W03
- .byte   En1
- .byte   W03
- .byte   Dn1
- .byte   W03
- .byte   N05 ,En1 ,v044
- .byte   N19 ,An2 ,v028
- .byte   W06
- .byte   N05 ,Dn1 ,v092
- .byte   W06
-@  #11 @029   ----------------------------------------
- .byte   PATT
-  .word Label_012880BE
-@  #11 @030   ----------------------------------------
- .byte   N05 ,En1 ,v056
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   N19 ,An2 ,v056
- .byte   W06
- .byte   N05 ,Dn1 ,v012
- .byte   W06
- .byte   En1 ,v056
- .byte   W06
- .byte   Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   N19 ,An2 ,v040
- .byte   W06
- .byte   N05 ,Dn1 ,v012
- .byte   W06
- .byte   En1 ,v040
- .byte   W06
- .byte   Dn1 ,v092
- .byte   W06
- .byte   En1 ,v036
- .byte   N19 ,An2 ,v052
- .byte   W06
- .byte   N05 ,Dn1 ,v044
- .byte   W06
- .byte   N02 ,En1 ,v076
- .byte   W03
- .byte   Dn1 ,v056
- .byte   W03
- .byte   En1
- .byte   W03
- .byte   Dn1
- .byte   W03
- .byte   N05 ,En1 ,v044
- .byte   N11 ,An2 ,v028
- .byte   W06
- .byte   N05 ,Dn1 ,v092
- .byte   W06
-@  #11 @031   ----------------------------------------
- .byte   Dn1 ,v104
- .byte   N76 ,Cs2 ,v052
- .byte   W06
- .byte   N05 ,Dn1 ,v012
- .byte   W06
- .byte   En1 ,v080
- .byte   W06
- .byte   Dn1 ,v064
- .byte   W06
- .byte   En1 ,v012
- .byte   W06
- .byte   Dn1 ,v040
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v048
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   Dn1 ,v068
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
-@  #11 @032   ----------------------------------------
- .byte   N05 ,En1 ,v036
- .byte   N76 ,En2 ,v040
- .byte   W06
- .byte   N05 ,Dn1 ,v032
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   Dn1 ,v012
- .byte   W06
- .byte   En1 ,v104
- .byte   W06
- .byte   En1 ,v032
- .byte   W06
- .byte   En1 ,v064
- .byte   W06
- .byte   Dn1 ,v084
- .byte   W06
- .byte   En1 ,v076
- .byte   W06
- .byte   Dn1 ,v028
- .byte   W06
- .byte   N03 ,Dn1 ,v032
- .byte   W04
- .byte   En1 ,v044
- .byte   W04
- .byte   Dn1 ,v080
- .byte   W04
- .byte   N05 ,En1 ,v084
- .byte   W08
- .byte   Dn1 ,v096
- .byte   W08
- .byte   En1 ,v116
- .byte   W08
-@  #11 @033   ----------------------------------------
- .byte   GOTO
-  .word Label_01287C6F
  .byte   FINE
 
 @**************** Track 12 (Midi-Chn.11) ****************@
@@ -6463,7 +5506,7 @@ Label_0128822F:
  .byte   W12
  .byte   N23 ,Ds3 ,v100
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #12 @002   ----------------------------------------
 Label_01288247:
  .byte   N11 ,Fn1 ,v092
@@ -6482,7 +5525,7 @@ Label_01288247:
  .byte   W12
  .byte   Cn2 ,v096
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #12 @003   ----------------------------------------
 Label_01288261:
  .byte   N11 ,Cn2 ,v052
@@ -6503,7 +5546,7 @@ Label_01288261:
  .byte   W08
  .byte   Ds1
  .byte   W08
- .byte   PEND 
+ .byte   PEND
 @  #12 @004   ----------------------------------------
 Label_0128827D:
  .byte   W24
@@ -6513,7 +5556,7 @@ Label_0128827D:
  .byte   W24
  .byte   Cn4 ,v104
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #12 @005   ----------------------------------------
  .byte   PATT
   .word Label_0128827D
@@ -6732,7 +5775,7 @@ Label_012883AD:
  .byte   W12
  .byte   En1 ,v100
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #12 @028   ----------------------------------------
 Label_012883C6:
  .byte   N11 ,En1 ,v127
@@ -6751,7 +5794,7 @@ Label_012883C6:
  .byte   W12
  .byte   Bn1 ,v112
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #12 @029   ----------------------------------------
  .byte   PATT
   .word Label_012883AD
@@ -8208,13 +7251,13 @@ Label_012887AE:
 	.align	2
 
 bgm_map_FE12_01:
-	.byte	15	@ NumTrks
+	.byte	14	@ NumTrks
 	.byte	0	@ NumBlks
 	.byte	bgm_map_FE12_01_pri	@ Priority
 	.byte	bgm_map_FE12_01_rev	@ Reverb.
-    
+
 	.word	bgm_map_FE12_01_grp
-    
+
 	.word	bgm_map_FE12_01_001
 	.word	bgm_map_FE12_01_002
 	.word	bgm_map_FE12_01_003
@@ -8225,7 +7268,6 @@ bgm_map_FE12_01:
 	.word	bgm_map_FE12_01_008
 	.word	bgm_map_FE12_01_009
 	.word	bgm_map_FE12_01_010
-	.word	bgm_map_FE12_01_011
 	.word	bgm_map_FE12_01_012
 	.word	bgm_map_FE12_01_013
 	.word	bgm_map_FE12_01_014
