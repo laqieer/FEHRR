@@ -91,7 +91,9 @@
     "bgm_map_FE05_03.ogg": [
         "FE05 - Searching the Enemy {SurfingKyogre}.s"
     ],
-    "bgm_map_FE05_04.ogg": [],
+    "bgm_map_FE05_04.ogg": [
+        "fe5/The Army of Leif Seeks Victory - Charge A.mid"
+    ],
     "bgm_map_FE07_01.ogg": [
         "fe7/song01.s",
         "FE07 - Precious Things {Alice}.s",
@@ -148,7 +150,9 @@
     "bgm_map_FE11_01.ogg": [
         "FE11 - The Time to Act {SaXor the Nobody}.s"
     ],
-    "bgm_map_FE11_03.ogg": [],
+    "bgm_map_FE11_03.ogg": [
+        "fe11/BGM_MAP_PL4.mid"
+    ],
     "bgm_map_FE12_01.ogg": [
         "FE12 - Liberation {Retina}.s",
         "FE12 - Liberation {GratedShtick}.s"
@@ -254,8 +258,12 @@
     "bgm_mns_FE04_01.ogg": [
         "FE04 - Glory to Grannvale {SurfingKyogre}.s"
     ],
-    "bgm_mns_FE04_05.ogg": [],
-    "bgm_mns_FE05_04.ogg": [],
+    "bgm_mns_FE04_05.ogg": [
+        "fe4/Deu and Pati.mid"
+    ],
+    "bgm_mns_FE05_04.ogg": [
+        "fe5/Thracia 776 - The Beginning.mid"
+    ],
     "bgm_mns_FE05_05.ogg": [
         "FE05 - Destiny {Dolkar}.s"
     ],
@@ -287,12 +295,18 @@
     "bgm_mns_FE11_01.ogg": [
         "FE11 - Preparations {RSflame}.s"
     ],
-    "bgm_mns_FE11_03.ogg": [],
+    "bgm_mns_FE11_03.ogg": [
+        "fe11/BGM_MAP_PL5.mid"
+    ],
     "bgm_mns_FE12_01.ogg": [
         "FE12 - Before Battle {Swift Saturn}.s"
     ],
-    "bgm_mns_FE12_04.ogg": [],
-    "bgm_mns_FE12_05.ogg": [],
+    "bgm_mns_FE12_04.ogg": [
+        "fe12/BGM_EVT_GRAVE1.mid"
+    ],
+    "bgm_mns_FE12_05.ogg": [
+        "fe12/BGM_EVT_PEACEFUL1.mid"
+    ],
     "bgm_mns_FE13_04.ogg": [
         "FE13 - 'We'd Best Prepare For Combat, Just To Be Safe' {Azula&Alice}.s"
     ],

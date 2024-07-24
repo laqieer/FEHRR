@@ -1028,7 +1028,7 @@
             "S6105_MID_SCENARIO_OPENING_BGM",
             "S7025_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": null
+        "source": "fe5/Thracia 776 - The Beginning.mid"
     },
     {
         "title": "Dark Clouds Gather",
@@ -1429,7 +1429,7 @@
             "S6111_MID_SCENARIO_ENDING_BGM",
             "S7101_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": null
+        "source": "fe11/BGM_MAP_PL5.mid"
     },
     {
         "title": "Queen's Nightmare",
@@ -1924,7 +1924,7 @@
             "S5123_BGM",
             "S5124_BGM"
         ],
-        "source": null
+        "source": "fe11/BGM_MAP_PL4.mid"
     },
     {
         "title": "Congregation of Ambition",
@@ -2004,7 +2004,7 @@
             "S6053_BGM",
             "S6054_BGM"
         ],
-        "source": null
+        "source": "fe5/The Army of Leif Seeks Victory - Charge A.mid"
     },
     {
         "title": "Chapter 9 For Whose Sake",
@@ -2272,7 +2272,7 @@
             "S6051_MID_SCENARIO_OPENING_BGM",
             "S7063_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": null
+        "source": "fe12/BGM_EVT_GRAVE1.mid"
     },
     {
         "title": "\"Someone has to save you from your good intentions.\"",
@@ -2541,7 +2541,7 @@
             "S6131_MID_SCENARIO_ENDING_BGM",
             "S7063_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": null
+        "source": "fe12/BGM_EVT_PEACEFUL1.mid"
     },
     {
         "title": "Golden Deer and Crescent Moon",
@@ -2697,7 +2697,7 @@
         "appearances": [
             "S7065_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": null
+        "source": "fe4/Deu and Pati.mid"
     },
     {
         "title": "Quiet Days",
