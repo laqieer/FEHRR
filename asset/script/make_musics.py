@@ -194,7 +194,10 @@ def make_new_musics():
             source = source[0]
             ext = os.path.splitext(source)[1].lower()[1:]
             if ext in ("mid", "midi"):
-                source = common.find_file_in_path(source, "../FE-Midi-Repo/")
+                if re.match(r"^fe\d+/", source):
+                    source = "music/" + source
+                else:
+                    source = common.find_file_in_path(source, "../FE-Midi-Repo/")
                 if source is not None:
                     shutil.copy(source, "music/midi/" + filename.replace(".ogg", ".mid"))
             elif ext == "s":
@@ -215,6 +218,7 @@ def print_music_progress():
     print(f"Existed {len([x for x in musics.values() if len(x.get('appearances', [])) > 0 and x['filename'] in existed_musics])} musics")
     print(f"Added {len([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) > 0])} musics")
     print(f"TODO: {len([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0])} musics")
+    print(sorted([[x, musics[x]['title'], musics[x]['titleJPJA']] for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0 and "_FE" in x], key=lambda x: x[0][10:]))
 
 if __name__ == "__main__":
     read_music_titles()
