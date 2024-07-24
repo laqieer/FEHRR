@@ -242,7 +242,9 @@
     "bgm_mns_FE03_01.ogg": [
         "FE03 - Akenia Anthem {Sme}.s"
     ],
-    "bgm_mns_FE03_02.ogg": [],
+    "bgm_mns_FE03_02.ogg": [
+        "fe7/song75.s"
+    ],
     "bgm_mns_FE04_01.ogg": [
         "FE04 - Glory to Grannvale {SurfingKyogre}.s"
     ],
