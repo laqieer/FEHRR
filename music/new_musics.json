@@ -61,9 +61,15 @@
     "bgm_map_FE03_01.ogg": [
         "FE11 - Under This Flag {Sme}"
     ],
-    "bgm_map_FE03_02.ogg": [],
-    "bgm_map_FE03_04.ogg": [],
-    "bgm_map_FE03_06.ogg": [],
+    "bgm_map_FE03_02.ogg": [
+        "fe3/Invasion.mid"
+    ],
+    "bgm_map_FE03_04.ogg": [
+        "fe3/March.mid"
+    ],
+    "bgm_map_FE03_06.ogg": [
+        "fe3/Dragon's Altar.mid"
+    ],
     "bgm_map_FE04_03.ogg": [
         "FE04 - For Whose Sake {SurfingKyogre}.s"
     ],

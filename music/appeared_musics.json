@@ -1473,7 +1473,7 @@
             "S5105_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE12_01",
-        "source": null
+        "source": "fe3/March.mid"
     },
     {
         "title": "Faraway Holy Land (Flare)",
@@ -1688,7 +1688,7 @@
             "S3113_BGM",
             "S3114_BGM"
         ],
-        "source": null
+        "source": "fe3/Invasion.mid"
     },
     {
         "title": "Fairy Waltz",
@@ -2096,7 +2096,7 @@
             "S6133_BGM",
             "S6134_BGM"
         ],
-        "source": null
+        "source": "fe3/Dragon's Altar.mid"
     },
     {
         "title": "A Dark Fall (Fire)",

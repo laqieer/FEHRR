@@ -1,0 +1,10 @@
+Fire Emblem: Mystery of the Emblem
+Dumped by: SPC Spread Committee
+ID666 tags by: SPC Spread Committee, Datschge
+Downloaded from: http://snesmusic.org/
+
+Update:
+-New track ordering system implemented:
+ "fe3-1##.spc": Fire Emblem 3
+ "fe3-2##.spc": Fire Emblem 1 Remix
+-Minor timer tweaks.

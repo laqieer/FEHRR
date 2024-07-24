@@ -120,7 +120,7 @@ def check_midi_file(file_path, auto_fix=False):
                 if msg.type == 'program_change':
                     if msg.program >= 128:
                         print("Error: Program number out of range in track " + str(i) + ": " + str(msg.program))
-                    if nativeInstruments[msg.program] is None:
+                    if nativeInstruments[msg.program] is None and msg.program not in badInstruments:
                         badInstruments.append(msg.program)
         if badInstruments:
             print("Error: The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
