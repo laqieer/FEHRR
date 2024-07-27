@@ -59,7 +59,7 @@
     ],
     "bgm_map_Brave_03.ogg": [],
     "bgm_map_FE03_01.ogg": [
-        "FE11 - Under This Flag {Sme}"
+        "FE11 - Under This Flag {Sme}.s"
     ],
     "bgm_map_FE03_02.ogg": [
         "fe3/Invasion.mid"
@@ -146,7 +146,9 @@
         "FE10 - Ascent {MrGreen3339}.s"
     ],
     "bgm_map_FE10_08.ogg": [],
-    "bgm_map_FE10_13.ogg": [],
+    "bgm_map_FE10_13.ogg": [
+        "Fire_Emblem_Radiant_Dawn_OST_-_Proud_Flight.mid"
+    ],
     "bgm_map_FE11_01.ogg": [
         "FE11 - The Time to Act {SaXor the Nobody}.s"
     ],
@@ -162,27 +164,44 @@
         "FE11 - Endless Battle {REALxViPerZ}.s",
         "FE12 - Endless Battle {Sme}.s"
     ],
-    "bgm_map_FE13_01.ogg": [],
+    "bgm_map_FE13_01.ogg": [
+        "Fire_Emblem_Awakening_-_Destiny.mid"
+    ],
     "bgm_map_FE13_02.ogg": [],
-    "bgm_map_FE13_06.ogg": [],
+    "bgm_map_FE13_06.ogg": [
+        "Divine_Decree_-_Hiroki_Morishita.mid"
+    ],
     "bgm_map_FE13_07.ogg": [
         "FE13 - Duty (Ablaze) {Azula}.s"
     ],
-    "bgm_map_FE13_10.ogg": [],
+    "bgm_map_FE13_10.ogg": [
+        "You_Have_Power..._Like_Mine.mid"
+    ],
     "bgm_map_FE13_12.ogg": [],
-    "bgm_map_FE13_13.ogg": [],
+    "bgm_map_FE13_13.ogg": [
+        "Dont_Speak_Her_Name (Nate821).mid"
+    ],
     "bgm_map_FE13_16.ogg": [],
     "bgm_map_FE13_18.ogg": [],
     "bgm_map_FE14_01.ogg": [],
-    "bgm_map_FE14_02.ogg": [],
+    "bgm_map_FE14_02.ogg": [
+        "Dusk_Falls__Fire_Emblem_Fates.mid"
+    ],
     "bgm_map_FE14_06.ogg": [],
-    "bgm_map_FE14_07.ogg": [],
+    "bgm_map_FE14_07.ogg": [
+        "Fire_Emblem_Fates_-_35_Dark_Wastes.mid"
+    ],
     "bgm_map_FE14_11.ogg": [],
-    "bgm_map_FE14_13.ogg": [],
+    "bgm_map_FE14_13.ogg": [
+        "Land_Below_-_Fire_Emblem_Fates.mid"
+    ],
     "bgm_map_FE14_15.ogg": [
         "FE14 - Justice RIP {MrGreen3339}.s"
     ],
-    "bgm_map_FE14_18.ogg": [],
+    "bgm_map_FE14_18.ogg": [
+        "No_Justice.mid",
+        "Fire_Emblem_Fates_-_No_Justice_UPDATE_2.1_BETA.mid"
+    ],
     "bgm_map_FE14_19.ogg": [
         "FE14 - Alight {Storm} {MysteriousDancer}.s"
     ],
@@ -193,8 +212,12 @@
         "FE02 - Alm Map 1 {Pandan}.s",
         "FE02 - Alm Player Phase 1 {hypergammaspaces}.s"
     ],
-    "bgm_map_FE15_02.ogg": [],
-    "bgm_map_FE15_03.ogg": [],
+    "bgm_map_FE15_02.ogg": [
+        "With_Milas_Divine_Protection (Nate821).mid"
+    ],
+    "bgm_map_FE15_03.ogg": [
+        "What_Lies_at_the_End_-_Fire_Emblem_Echoes_Shadows_of_Valentia.mid"
+    ],
     "bgm_map_FE15_05.ogg": [
         "FE02 - Final Map {MrGreen3339}.s",
         "FE15 - Twilight Of The Gods {Sme}.s"
@@ -208,29 +231,49 @@
         "FE15 - Lord of a Dead Empire {Mycahel}.s",
         "FE15 - Lord of a Dead Empire {Ablaze} {Mycahel}.s"
     ],
-    "bgm_map_FE15_09.ogg": [],
-    "bgm_map_FE15_11.ogg": [],
+    "bgm_map_FE15_09.ogg": [
+        "Undiscovered_Horizons (Nate821).mid"
+    ],
+    "bgm_map_FE15_11.ogg": [
+        "fe2/28,Battle Map 4 - Battle Map 2-2 (Celica 2).mid"
+    ],
     "bgm_map_FE16_01.ogg": [
         "FE16 - Fodlan Winds {A Reliable Chair}.s"
     ],
-    "bgm_map_FE16_02.ogg": [],
+    "bgm_map_FE16_02.ogg": [
+        "Tearing Through Heaven \u2013 Takeru Kanazaki Tearing Through Heaven.mid"
+    ],
     "bgm_map_FE16_03.ogg": [],
-    "bgm_map_FE16_04.ogg": [],
-    "bgm_map_FE16_06.ogg": [],
-    "bgm_map_FE16_07.ogg": [],
-    "bgm_map_FE16_09.ogg": [],
+    "bgm_map_FE16_04.ogg": [
+        "Fire_Emblem_Three_Houses_-_Tempest_of_Seasons.mid"
+    ],
+    "bgm_map_FE16_06.ogg": [
+        "Fire_Emblem_Three_Houses_-_Chasing_Daybreak.mid"
+    ],
+    "bgm_map_FE16_07.ogg": [
+        "Fire_Emblem_Three_Houses_-_Blue_Skies_and_a_Battle.mid"
+    ],
+    "bgm_map_FE16_09.ogg": [
+        "Corridor_of_the_Tempest.mid"
+    ],
     "bgm_map_FE16_10.ogg": [
         "FE16 - The Long Road {Azula}.s"
     ],
-    "bgm_map_FE16_12.ogg": [],
+    "bgm_map_FE16_12.ogg": [
+        "Shackled_Wolves__relaxing_cover.mid"
+    ],
     "bgm_map_FE16_13.ogg": [
         "FE16 - A Funeral of Flowers {Thunder} {MrGreen3339}.s"
     ],
-    "bgm_map_FE16_15.ogg": [],
+    "bgm_map_FE16_15.ogg": [
+        "Fire_Emblem_Three_Houses_-_Between_Heaven_and_Earth.mid"
+    ],
     "bgm_map_FE16_18.ogg": [
         "FE16 - Roar of Dominion {Rain} {MrGreen3339}.s"
     ],
-    "bgm_map_FE17_13.ogg": [],
+    "bgm_map_FE17_13.ogg": [
+        "Faraway_Holy_Land_-_Yasuhisa_Baba.mid"
+    ],
     "bgm_map_FE17_15.ogg": [],
     "bgm_map_FEH_04.ogg": [
         "Meilu - Fire Emblem Heroes Map Theme Book II.s",
@@ -314,19 +357,27 @@
     "bgm_mns_FE13_07.ogg": [],
     "bgm_mns_FE13_08.ogg": [],
     "bgm_mns_FE13_10.ogg": [],
-    "bgm_mns_FE13_11.ogg": [],
+    "bgm_mns_FE13_11.ogg": [
+        "Id_Serenity (Nate821).mid"
+    ],
     "bgm_mns_FE14_14.ogg": [],
     "bgm_mns_FE14_15.ogg": [],
     "bgm_mns_FE15_04.ogg": [],
-    "bgm_mns_FE15_06.ogg": [],
+    "bgm_mns_FE15_06.ogg": [
+        "Title Screen  Fire Emblem Echoes Shadows of Valentia.mid"
+    ],
     "bgm_mns_FE15_07.ogg": [],
     "bgm_mns_FE15_08.ogg": [],
     "bgm_mns_FE15_09.ogg": [],
     "bgm_mns_FE15_10.ogg": [],
     "bgm_mns_FE15_11.ogg": [],
-    "bgm_mns_FE16_07.ogg": [],
+    "bgm_mns_FE16_07.ogg": [
+        "Fire Emblem Three Houses - Guardian of Starlight.mid"
+    ],
     "bgm_mns_FE16_08.ogg": [],
-    "bgm_mns_FE16_11.ogg": [],
+    "bgm_mns_FE16_11.ogg": [
+        "Golden_Deer_and_Crescent_Moon_-_Piano.mid"
+    ],
     "bgm_mns_FE16_12.ogg": [],
     "bgm_mns_FE16_13.ogg": [],
     "bgm_mns_FE17_16.ogg": [],

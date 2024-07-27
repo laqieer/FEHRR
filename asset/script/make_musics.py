@@ -200,6 +200,8 @@ def make_new_musics():
                     source = common.find_file_in_path(source, "../FE-Midi-Repo/")
                 if source is not None:
                     shutil.copy(source, "music/midi/" + filename.replace(".ogg", ".mid"))
+                else:
+                    warnings.warn(f"Source not found for music: {filename}")
             elif ext == "s":
                 if re.match(r"^fe[78]/", source):
                     source = "music/" + source
@@ -211,6 +213,10 @@ def make_new_musics():
                         song_name = re.search(r"\s*\.global\s+([^\s]+)\s*", text).groups()[0]
                         text = text.replace(song_name, filename[:-4])
                         f_dst.write(text)
+                else:
+                    warnings.warn(f"Source not found for music: {filename}")
+            else:
+                warnings.warn(f"Unknown source type: {source}")
 
 def print_music_progress():
     print("Music progress:")

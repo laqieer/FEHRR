@@ -1220,7 +1220,7 @@
             "S0604_BGM",
             "S0605_BGM"
         ],
-        "source": "FE11 - Under This Flag {Sme}"
+        "source": "FE11 - Under This Flag {Sme}.s"
     },
     {
         "title": "Beyond Distant Skies - Roy's Departure",
@@ -1280,7 +1280,7 @@
             "S0905_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_01",
-        "source": null
+        "source": "Fire_Emblem_Awakening_-_Destiny.mid"
     },
     {
         "title": "Prelude (Ablaze)",
@@ -1325,7 +1325,7 @@
             "S0305_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_02",
-        "source": null
+        "source": "Dusk_Falls__Fire_Emblem_Fates.mid"
     },
     {
         "title": "With Mila's Divine Protection",
@@ -1340,7 +1340,7 @@
             "S1205_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE15_02",
-        "source": null
+        "source": "With_Milas_Divine_Protection (Nate821).mid"
     },
     {
         "title": "What Lies at the End",
@@ -1355,7 +1355,7 @@
             "S1305_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE15_03",
-        "source": null
+        "source": "What_Lies_at_the_End_-_Fire_Emblem_Echoes_Shadows_of_Valentia.mid"
     },
     {
         "title": "Greil Mercenaries",
@@ -1458,7 +1458,7 @@
             "S5094_BGM",
             "S5095_BGM"
         ],
-        "source": null
+        "source": "No_Justice.mid"
     },
     {
         "title": "",
@@ -1487,7 +1487,7 @@
             "S7034_BGM",
             "S7035_BGM"
         ],
-        "source": null
+        "source": "Faraway_Holy_Land_-_Yasuhisa_Baba.mid"
     },
     {
         "title": "",
@@ -1554,7 +1554,7 @@
             "S2064_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE13_06",
-        "source": null
+        "source": "Divine_Decree_-_Hiroki_Morishita.mid"
     },
     {
         "title": "Leif's Army, In Search of Victory - Base",
@@ -1608,7 +1608,7 @@
             "S2134_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE14_07",
-        "source": null
+        "source": "Fire_Emblem_Fates_-_35_Dark_Wastes.mid"
     },
     {
         "title": "A Test of Will",
@@ -1662,7 +1662,7 @@
             "S3073_BGM",
             "S3074_BGM"
         ],
-        "source": null
+        "source": "Land_Below_-_Fire_Emblem_Fates.mid"
     },
     {
         "title": "Tearing Through Heaven",
@@ -1675,7 +1675,7 @@
             "S3103_BGM",
             "S3104_BGM"
         ],
-        "source": null
+        "source": "Tearing Through Heaven – Takeru Kanazaki Tearing Through Heaven.mid"
     },
     {
         "title": "Valor Everlasting",
@@ -1741,7 +1741,7 @@
             "S4054_BGM",
             "S4055_BGM"
         ],
-        "source": null
+        "source": "Fire_Emblem_Three_Houses_-_Tempest_of_Seasons.mid"
     },
     {
         "title": "Justice RIP (Storm)",
@@ -1767,7 +1767,7 @@
             "S4083_BGM",
             "S4084_BGM"
         ],
-        "source": null
+        "source": "Dont_Speak_Her_Name (Nate821).mid"
     },
     {
         "title": "-",
@@ -1793,7 +1793,7 @@
             "S4103_BGM",
             "S4104_BGM"
         ],
-        "source": null
+        "source": "Fire_Emblem_Three_Houses_-_Chasing_Daybreak.mid"
     },
     {
         "title": "The First Fight",
@@ -1819,7 +1819,7 @@
             "S4123_BGM",
             "S4125_BGM"
         ],
-        "source": null
+        "source": "Fire_Emblem_Three_Houses_-_Blue_Skies_and_a_Battle.mid"
     },
     {
         "title": "Rise Above",
@@ -1858,7 +1858,7 @@
             "S5053_BGM",
             "S5054_BGM"
         ],
-        "source": null
+        "source": "Corridor_of_the_Tempest.mid"
     },
     {
         "title": "Scars of the Scouring",
@@ -1897,7 +1897,7 @@
             "S5084_BGM",
             "S5085_BGM"
         ],
-        "source": null
+        "source": "Undiscovered_Horizons (Nate821).mid"
     },
     {
         "title": "Eyes of Rage",
@@ -2043,7 +2043,7 @@
             "S6093_BGM",
             "S6094_BGM"
         ],
-        "source": null
+        "source": "fe2/28,Battle Map 4 - Battle Map 2-2 (Celica 2).mid"
     },
     {
         "title": "Between Heaven and Earth",
@@ -2056,7 +2056,7 @@
             "S6103_BGM",
             "S6104_BGM"
         ],
-        "source": null
+        "source": "Fire_Emblem_Three_Houses_-_Between_Heaven_and_Earth.mid"
     },
     {
         "title": "Annihilation (Galvanized)",
@@ -2122,7 +2122,7 @@
             "S7043_BGM",
             "S7044_BGM"
         ],
-        "source": null
+        "source": "Fire_Emblem_Radiant_Dawn_OST_-_Proud_Flight.mid"
     },
     {
         "title": "Will-Equal People (Roy's Battle)",
@@ -2336,7 +2336,7 @@
             "S5113_BGM",
             "S5114_BGM"
         ],
-        "source": null
+        "source": "Shackled_Wolves__relaxing_cover.mid"
     },
     {
         "title": "Follow Me!",
@@ -2553,7 +2553,7 @@
             "S5062_MID_SCENARIO_OPENING_BGM",
             "S5091_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": null
+        "source": "Golden_Deer_and_Crescent_Moon_-_Piano.mid"
     },
     {
         "title": "The Black Knight",
@@ -2586,7 +2586,7 @@
         "appearances": [
             "S6101_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": null
+        "source": "You_Have_Power..._Like_Mine.mid"
     },
     {
         "title": "Cats at Play",
@@ -2730,7 +2730,7 @@
         "appearances": [
             "S4133_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": null
+        "source": "Title Screen  Fire Emblem Echoes Shadows of Valentia.mid"
     },
     {
         "title": "Guardian of Starlight",
@@ -2741,7 +2741,7 @@
         "appearances": [
             "S7064_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": null
+        "source": "Fire Emblem Three Houses - Guardian of Starlight.mid"
     },
     {
         "title": "We should turn in for the night",
@@ -2774,7 +2774,7 @@
         "appearances": [
             "S6105_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": null
+        "source": "Id_Serenity (Nate821).mid"
     },
     {
         "title": "Battle: Advance",
