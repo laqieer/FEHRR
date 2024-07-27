@@ -11,6 +11,7 @@ import json
 import shutil
 import warnings
 import common
+import urllib.request
 from enum import Enum
 
 class MusicType(Enum):
@@ -218,13 +219,24 @@ def make_new_musics():
             else:
                 warnings.warn(f"Unknown source type: {source}")
 
+def download_music_files():
+    with open("music/Background Music - Fire Emblem Heroes Wiki.html", "r", encoding="utf-8") as file:
+        text = file.read()
+        matches = re.findall(r"<td><div data-audio=\"https&#58;//([^\"]+)\"></div><a href=\"/wiki/File:([^\"]+)\.ogg\"", text)
+        for url, filename in matches:
+            url = "https://" + url
+            filename = filename[0].lower() + filename[1:] + ".ogg"
+            if len(new_musics.get(filename, filename)) == 0 and len(musics[filename].get('appearances', [])) > 0 and not os.path.exists("music/original/" + filename):
+                print(f"Downloading {filename}...")
+                urllib.request.urlretrieve(url, "music/original/" + filename)
+
 def print_music_progress():
     print("Music progress:")
     print(f"Appeared {len([x for x in musics.values() if len(x.get('appearances', [])) > 0])} musics")
     print(f"Existed {len([x for x in musics.values() if len(x.get('appearances', [])) > 0 and x['filename'] in existed_musics])} musics")
     print(f"Added {len([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) > 0])} musics")
     print(f"TODO: {len([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0])} musics")
-    print(sorted([[x, musics[x]['title'], musics[x]['titleJPJA']] for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0 and "_FE" in x], key=lambda x: x[0][10:]))
+    print(sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0]))
 
 if __name__ == "__main__":
     read_music_titles()
@@ -239,4 +251,5 @@ if __name__ == "__main__":
     save_new_musics()
     save_appeared_musics()
     make_new_musics()
+    download_music_files()
     print_music_progress()
