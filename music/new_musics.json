@@ -136,7 +136,9 @@
     "bgm_map_FE09_05.ogg": [],
     "bgm_map_FE09_06.ogg": [],
     "bgm_map_FE09_07.ogg": [],
-    "bgm_map_FE10_01.ogg": [],
+    "bgm_map_FE10_01.ogg": [
+        "Dark Traveler.midi"
+    ],
     "bgm_map_FE10_03.ogg": [],
     "bgm_map_FE10_04.ogg": [
         "FE10 - Cats at Play {Sme}.s"
