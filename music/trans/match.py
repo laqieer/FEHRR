@@ -4,6 +4,7 @@
 
 import os
 import json
+import warnings
 from midi2audio import FluidSynth
 from audio_similarity.audio_similarity.audio_similarity import AudioSimilarity
 
@@ -20,14 +21,31 @@ fs = FluidSynth('../../instrument/FE6 native instrument map/FE6 soundfont.sf2', 
 def calculate_match_score(original_audio_file, midi_file):
     fs.midi_to_audio(midi_file, 'temp.wav')
     audio_similarity = AudioSimilarity('../original/' + original_audio_file, 'temp.wav', sample_rate, weights)
-    match_score = {
-        'zcr_similarity': audio_similarity.zcr_similarity(),
-        'rhythm_similarity': audio_similarity.rhythm_similarity(),
-        'chroma_similarity': audio_similarity.chroma_similarity(),
-        'spectral_contrast_similarity': audio_similarity.spectral_contrast_similarity(),
-        'perceptual_similarity': audio_similarity.perceptual_similarity(),
-        'stent_weighted_audio_similarity': audio_similarity.stent_weighted_audio_similarity(metrics='all')
-    }
+    match_score = {}
+    try:
+        match_score['zcr_similarity'] = audio_similarity.zcr_similarity()
+    except Exception as e:
+        warnings.warn(f'Error calculating zcr_similarity for {original_audio_file} and {midi_file}: {e}')
+    try:
+        match_score['rhythm_similarity'] = audio_similarity.rhythm_similarity()
+    except Exception as e:
+        warnings.warn(f'Error calculating rhythm_similarity for {original_audio_file} and {midi_file}: {e}')
+    try:
+        match_score['chroma_similarity'] = audio_similarity.chroma_similarity()
+    except Exception as e:
+        warnings.warn(f'Error calculating chroma_similarity for {original_audio_file} and {midi_file}: {e}')
+    try:
+        match_score['spectral_contrast_similarity'] = audio_similarity.spectral_contrast_similarity()
+    except Exception as e:
+        warnings.warn(f'Error calculating spectral_contrast_similarity for {original_audio_file} and {midi_file}: {e}')
+    try:
+        match_score['perceptual_similarity'] = audio_similarity.perceptual_similarity()
+    except Exception as e:
+        warnings.warn(f'Error calculating perceptual_similarity for {original_audio_file} and {midi_file}: {e}')
+    try:
+        match_score['stent_weighted_audio_similarity'] = audio_similarity.stent_weighted_audio_similarity()
+    except Exception as e:
+        warnings.warn(f'Error calculating stent_weighted_audio_similarity for {original_audio_file} and {midi_file}: {e}')
     os.remove('temp.wav')
     return match_score
 
@@ -54,7 +72,7 @@ for original_audio_file in match_scores:
     best_match = None
     best_match_score = 0
     for midi_file in match_scores[original_audio_file]:
-        match_score = match_scores[original_audio_file][midi_file]['stent_weighted_audio_similarity']
+        match_score = match_scores[original_audio_file][midi_file].get('stent_weighted_audio_similarity', 0)
         if match_score > best_match_score:
             best_match = midi_file
             best_match_score = match_score
