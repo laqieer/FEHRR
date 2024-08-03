@@ -19,9 +19,13 @@ weights = {
 fs = FluidSynth('../../instrument/FE6 native instrument map/FE6 soundfont.sf2', sample_rate=sample_rate)
 
 def calculate_match_score(original_audio_file, midi_file):
-    fs.midi_to_audio(midi_file, 'temp.wav')
-    audio_similarity = AudioSimilarity('../original/' + original_audio_file, 'temp.wav', sample_rate, weights)
+    try:
+        fs.midi_to_audio(midi_file, 'temp.wav')
+    except Exception as e:
+        warnings.warn(f'Error converting {midi_file} to wav: {e}')
+        return {}
     match_score = {}
+    audio_similarity = AudioSimilarity('../original/' + original_audio_file, 'temp.wav', sample_rate, weights)
     try:
         match_score['zcr_similarity'] = audio_similarity.zcr_similarity()
     except Exception as e:
