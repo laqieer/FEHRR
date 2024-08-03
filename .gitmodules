@@ -17,3 +17,6 @@
 [submodule "tool/midi2agb"]
 	path = tool/midi2agb
 	url = https://github.com/ipatix/midi2agb.git
+[submodule "music/trans/audio_similarity"]
+	path = music/trans/audio_similarity
+	url = https://github.com/markstent/audio-similarity.git
