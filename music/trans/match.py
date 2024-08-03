@@ -19,6 +19,12 @@ weights = {
 fs = FluidSynth('../../instrument/FE6 native instrument map/FE6 soundfont.sf2', sample_rate=sample_rate)
 
 def calculate_match_score(original_audio_file, midi_file):
+    json_file = midi_file.replace('.mid', '.json')
+    if os.path.exists(json_file):
+        with open(json_file) as f:
+            return json.load(f)
+    if os.path.exists('temp.wav'):
+        os.remove('temp.wav')
     try:
         fs.midi_to_audio(midi_file, 'temp.wav')
     except Exception as e:
@@ -50,7 +56,10 @@ def calculate_match_score(original_audio_file, midi_file):
         match_score['stent_weighted_audio_similarity'] = audio_similarity.stent_weighted_audio_similarity()
     except Exception as e:
         warnings.warn(f'Error calculating stent_weighted_audio_similarity for {original_audio_file} and {midi_file}: {e}')
-    os.remove('temp.wav')
+    if os.path.exists('temp.wav'):
+        os.remove('temp.wav')
+    with open(json_file, 'w') as f:
+        json.dump(match_score, f, indent=4)
     return match_score
 
 match_scores = {}
