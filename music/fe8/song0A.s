@@ -1037,7 +1037,7 @@ Label_8004AA:
  .byte   W06
  .byte   Dn3 ,v060
  .byte   W18
- .byte   PEND 
+ .byte   PEND
 @  #01 @025   ----------------------------------------
  .byte   Gn3 ,v108
  .byte   W06
@@ -1289,7 +1289,7 @@ Label_8005F0:
  .byte   W12
  .byte   An3 ,v060
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #01 @035   ----------------------------------------
  .byte   Bn3 ,v108
  .byte   W12
@@ -1504,7 +1504,7 @@ Label_80073B:
 @  #02 @002   ----------------------------------------
  .byte   N03 ,En2 ,v120
  .byte   W12
- .byte   PEND 
+ .byte   PEND
  .byte   N24 ,En2 ,v127
  .byte   W36
  .byte   N14
@@ -1611,7 +1611,7 @@ Label_8007CD:
  .byte   W12
  .byte   En2
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #02 @012   ----------------------------------------
  .byte   N24
  .byte   W24
@@ -1700,7 +1700,7 @@ Label_80084C:
  .byte   W24
  .byte   N04 ,En1 ,v124
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #02 @020   ----------------------------------------
  .byte   PATT
   .word Label_80084C
@@ -1746,7 +1746,7 @@ Label_800892:
  .byte   W48
  .byte   N23
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #02 @025   ----------------------------------------
 Label_80089A:
  .byte   W24
@@ -1758,7 +1758,7 @@ Label_80089A:
  .byte   W06
  .byte   N06
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #02 @026   ----------------------------------------
  .byte   PATT
   .word Label_800892
@@ -2784,7 +2784,7 @@ Label_800D27:
  .byte   W06
  .byte   Dn4
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #03 @025   ----------------------------------------
  .byte   En4
  .byte   W12
@@ -3562,7 +3562,7 @@ Label_801066:
  .byte   W01
 @  #04 @006   ----------------------------------------
  .byte   VOICE , 6
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   VOL , 28*song0A_mvl/mxv
  .byte   PAN , c_v+16
  .byte   N06 ,Dn2 ,v112
@@ -4142,7 +4142,7 @@ Label_801353:
  .byte   W06
  .byte   En4 ,v032
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #04 @042   ----------------------------------------
 Label_801385:
  .byte   N06 ,Dn3 ,v108
@@ -4177,7 +4177,7 @@ Label_801385:
  .byte   W06
  .byte   Fs4 ,v032
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #04 @043   ----------------------------------------
  .byte   PATT
   .word Label_801353
@@ -4222,7 +4222,7 @@ Label_8013DD:
  .byte   W12
  .byte   N06
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #05 @002   ----------------------------------------
 Label_8013EA:
  .byte   W12
@@ -4236,7 +4236,7 @@ Label_8013EA:
  .byte   W24
  .byte   N06
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #05 @003   ----------------------------------------
  .byte   PATT
   .word Label_8013DD
@@ -4318,7 +4318,7 @@ Label_801445:
  .byte   W24
  .byte   N06
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #05 @012   ----------------------------------------
  .byte   Gn2
  .byte   W12
@@ -4851,7 +4851,7 @@ Label_80169F:
  .byte   W12
  .byte   N06
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #06 @002   ----------------------------------------
 Label_8016AC:
  .byte   W12
@@ -4865,7 +4865,7 @@ Label_8016AC:
  .byte   W24
  .byte   N06
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #06 @003   ----------------------------------------
  .byte   PATT
   .word Label_80169F
@@ -5123,7 +5123,7 @@ Label_8017B7:
  .byte   W12
  .byte   N06
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #06 @011   ----------------------------------------
 Label_8017C6:
  .byte   W12
@@ -5137,7 +5137,7 @@ Label_8017C6:
  .byte   W24
  .byte   N06
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #06 @012   ----------------------------------------
  .byte   PATT
   .word Label_8017B7
@@ -5261,7 +5261,7 @@ Label_801835:
  .byte   W06
  .byte   En3 ,v036
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #06 @030   ----------------------------------------
  .byte   Bn3 ,v127
  .byte   W06
@@ -5577,7 +5577,7 @@ Label_8019BD:
  .byte   W06
  .byte   N04 ,AnM2 ,v080
  .byte   W06
- .byte   PEND 
+ .byte   PEND
  .byte   N19 ,AnM2 ,v100
  .byte   W36
  .byte   N14
@@ -5725,7 +5725,7 @@ Label_801AAE:
  .byte   W12
  .byte   N18
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 @  #07 @017   ----------------------------------------
 Label_801AB8:
  .byte   W24
@@ -5733,7 +5733,7 @@ Label_801AB8:
  .byte   W36
  .byte   N18
  .byte   W36
- .byte   PEND 
+ .byte   PEND
 @  #07 @018   ----------------------------------------
  .byte   PATT
   .word Label_801AAE
@@ -6055,9 +6055,9 @@ song0A:
 	.byte	0	@ NumBlks
 	.byte	song0A_pri	@ Priority
 	.byte	song0A_rev	@ Reverb.
-    
+
 	.word	song0A_grp
-    
+
 	.word	song0A_001
 	.word	song0A_002
 	.word	song0A_003

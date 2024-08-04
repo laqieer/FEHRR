@@ -22,12 +22,12 @@ bgm_map_FE04_09_001:
 Label_0_54D75A:
  .byte   TEMPO , 124*bgm_map_FE04_09_tbs/2
  .byte   VOICE , 33
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BENDR, 12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
@@ -336,12 +336,12 @@ bgm_map_FE04_09_002:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE04_09_key+0
 Label_1_54EAFE:
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BENDR, 12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
@@ -349,23 +349,23 @@ Label_1_54EAFE:
  .byte   VOICE , 56
  .byte   PAN , c_v-4
  .byte   VOL , 50*bgm_map_FE04_09_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,An3 ,v127
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,En4
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N05 ,Dn4
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N05 ,Cs4
  .byte   W07
 @ 001   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N84 ,Bn3
  .byte   W90
  .byte   W01
@@ -373,28 +373,28 @@ Label_1_54EAFE:
 Label_1_54EB35:
  .byte   W28
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,An3 ,v127
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,En4
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N05 ,Dn4
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N05 ,Cs4
  .byte   W07
  .byte   PEND
 @ 003   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N42 ,Gn4
  .byte   W48
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Fs4
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,En4
  .byte   W19
 @ 004   ----------------------------------------
@@ -402,16 +402,16 @@ Label_1_54EB35:
   .word Label_1_54EB35
 @ 005   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Bn3 ,v127
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Gn3
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Dn4
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Bn3
  .byte   W19
 @ 006   ----------------------------------------
@@ -419,7 +419,7 @@ Label_1_54EB35:
   .word Label_1_54EB35
 @ 007   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N84 ,Gn4 ,v127
  .byte   W90
  .byte   W01
@@ -428,268 +428,268 @@ Label_1_54EB35:
  .byte   VOICE , 60
  .byte   PAN , c_v+26
  .byte   VOL , 34*bgm_map_FE04_09_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Dn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,En3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 009   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Fs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Gs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Fs3
  .byte   W19
 @ 010   ----------------------------------------
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N68 ,En3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W52
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Gs3
  .byte   W19
 @ 011   ----------------------------------------
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Bn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,An3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Gs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,An3
  .byte   W19
 @ 012   ----------------------------------------
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N92 ,Cs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W68
  .byte   W03
 @ 013   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,En3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Dn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 014   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Cs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Bn2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 015   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,An2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Gn2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 016   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Fs2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Cs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 017   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Gn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Dn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,En3
  .byte   W19
 @ 018   ----------------------------------------
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,An2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Bn2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Cs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,En3
  .byte   W19
 @ 019   ----------------------------------------
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N68 ,An3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W52
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23
  .byte   W19
 @ 020   ----------------------------------------
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Fs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07 ,Gs3
  .byte   W08
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07 ,Fs3
  .byte   W08
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07 ,En3
  .byte   W08
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23 ,Fs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W16
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N11
  .byte   W07
 @ 021   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Cs4
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N15 ,An3
  .byte   W16
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N15 ,Gs3
  .byte   W16
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N15 ,Fs3
  .byte   W11
 @ 022   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Gs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,En3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 023   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Cs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W52
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N23
  .byte   W19
 @ 024   ----------------------------------------
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Cs4
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Bn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 025   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,An3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Bn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 026   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   TIE ,Gs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W68
  .byte   W03
 @ 027   ----------------------------------------
@@ -698,26 +698,26 @@ Label_1_54EB35:
  .byte   W20
 @ 028   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N92 ,Fn2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W68
  .byte   W03
 @ 029   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N92 ,Cn3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W68
  .byte   W03
 @ 030   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N20 ,En3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W68
  .byte   W03
 @ 031   ----------------------------------------
@@ -733,12 +733,12 @@ bgm_map_FE04_09_003:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE04_09_key+0
 Label_2_54E0BA:
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BENDR, 12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
@@ -746,7 +746,7 @@ Label_2_54E0BA:
  .byte   VOICE , 60
  .byte   PAN , c_v-29
  .byte   VOL , 27*bgm_map_FE04_09_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   BEND , c_v-1
  .byte   TIE ,Cs4 ,v127
  .byte   W90
@@ -756,19 +756,19 @@ Label_2_54E0BA:
  .byte   W02
  .byte   EOT
  .byte   W03
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Gn3
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Bn3
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Dn4
  .byte   W19
 @ 002   ----------------------------------------
 Label_2_54E0EF:
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   TIE ,Cs4 ,v127
  .byte   W90
  .byte   W01
@@ -778,30 +778,30 @@ Label_2_54E0EF:
  .byte   W02
  .byte   EOT
  .byte   W03
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Bn3
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Dn4
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Fs4
  .byte   W19
 @ 004   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N84 ,Cs4
  .byte   W90
  .byte   W01
 @ 005   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N42 ,Gn3
  .byte   W48
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Bn3
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Dn4
  .byte   W19
 @ 006   ----------------------------------------
@@ -813,19 +813,19 @@ Label_2_54E0EF:
  .byte   EOT
  .byte   Cs4
  .byte   W03
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Bn3 ,v127
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Dn4
  .byte   W24
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N21 ,Fs4
  .byte   W19
 @ 008   ----------------------------------------
  .byte   W05
  .byte   PAN , c_v+56
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W90
  .byte   W01
 @ 009   ----------------------------------------
@@ -860,34 +860,34 @@ Label_2_54E0EF:
  .byte   W96
 @ 024   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Cs3
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Bn2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 025   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,An2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W28
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N44 ,Bn2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W23
 @ 026   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   TIE ,Gs2
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W68
  .byte   W03
 @ 027   ----------------------------------------
@@ -899,94 +899,94 @@ Label_2_54E0EF:
  .byte   VOICE , 56
  .byte   PAN , c_v-24
  .byte   VOL , 27*bgm_map_FE04_09_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10 ,Cn3
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W07
 @ 029   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W07
 @ 030   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10 ,En3
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W07
 @ 031   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10 ,Cs3
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W20
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W04
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W07
 @ 032   ----------------------------------------
  .byte   GOTO
@@ -999,12 +999,12 @@ bgm_map_FE04_09_004:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE04_09_key+0
 Label_3_54E1FA:
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BENDR, 12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
@@ -1136,36 +1136,36 @@ Label_3_54E223:
  .byte   VOICE , 73
  .byte   PAN , c_v-54
  .byte   VOL , 34*bgm_map_FE04_09_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N48 ,Cs5
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W30
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N48 ,Bn4
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W24
  .byte   W01
 @ 025   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N48 ,An4
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W30
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N48 ,Bn4
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W24
  .byte   W01
 @ 026   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   TIE ,Gs4
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W72
  .byte   W01
 @ 027   ----------------------------------------
@@ -1178,94 +1178,94 @@ Label_3_54E223:
  .byte   VOICE , 56
  .byte   PAN , c_v-44
  .byte   VOL , 27*bgm_map_FE04_09_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10 ,Fn2
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W07
 @ 029   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10 ,Gn2
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W07
 @ 030   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10 ,An2
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W07
 @ 031   ----------------------------------------
  .byte   W05
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N10
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   N07
  .byte   W18
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W06
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W07
 @ 032   ----------------------------------------
  .byte   GOTO
@@ -1278,12 +1278,12 @@ bgm_map_FE04_09_005:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE04_09_key+0
 Label_4_011E1A7E:
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BENDR, 12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
@@ -1523,12 +1523,12 @@ bgm_map_FE04_09_006:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE04_09_key+0
 Label_5_54D8B6:
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BENDR, 12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
@@ -1751,12 +1751,12 @@ bgm_map_FE04_09_007:
 @ 000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE04_09_key+0
 Label_6_011E1DC2:
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BENDR, 12
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   VOL , 20*bgm_map_FE04_09_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W05

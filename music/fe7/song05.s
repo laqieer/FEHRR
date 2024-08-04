@@ -495,7 +495,7 @@ Label_8AEF80:
  .byte   W96
 @  #02 @006   ----------------------------------------
  .byte   VOICE , 4
- .byte   MOD 1
+ .byte   MOD , 1
  .byte   TIE ,As2 ,v096
  .byte   W96
 @  #02 @007   ----------------------------------------
@@ -522,7 +522,7 @@ Label_8AEF80:
  .byte   W03
  .byte   BEND , c_v-37
  .byte   W01
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   W02
  .byte   BEND , c_v-36
  .byte   W01
@@ -701,7 +701,7 @@ Label_8AF0BE:
  .byte   N92 ,As1 ,v080
  .byte   N92 ,Ds2 ,v084
  .byte   W96
- .byte   PEND 
+ .byte   PEND
 @  #02 @022   ----------------------------------------
  .byte   Bn1 ,v080
  .byte   N92 ,En2 ,v092
@@ -986,7 +986,7 @@ Label_8AF275:
  .byte   N04 ,An1 ,v020
  .byte   N06 ,Fn2 ,v028
  .byte   W84
- .byte   PEND 
+ .byte   PEND
 @  #03 @034   ----------------------------------------
  .byte   N07 ,An1 ,v100
  .byte   N07 ,En2 ,v104
@@ -2235,9 +2235,9 @@ song05:
 	.byte	0	@ NumBlks
 	.byte	song05_pri	@ Priority
 	.byte	song05_rev	@ Reverb.
-    
+
 	.word	song05_grp
-    
+
 	.word	song05_001
 	.word	song05_002
 	.word	song05_003

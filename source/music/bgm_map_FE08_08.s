@@ -152,7 +152,7 @@ Label_8338EE:
  .byte   W18
  .byte   N06 ,En3 ,v032
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #01 @009   ----------------------------------------
  .byte   N24 ,Dn3 ,v127
  .byte   W24
@@ -385,7 +385,7 @@ Label_8338EE:
  .byte   W06
 @  #01 @024   ----------------------------------------
  .byte   VOICE , 3
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   VOL , 44*bgm_map_FE08_08_mvl/mxv
  .byte   N30 ,En4 ,v104
  .byte   W30
@@ -759,7 +759,7 @@ Label_833CE8:
 @  #02 @001   ----------------------------------------
  .byte   N16 ,En2 ,v127
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 Label_833CF7:
  .byte   N04 ,En2 ,v127
  .byte   W24
@@ -770,7 +770,7 @@ Label_833CF7:
 @  #02 @002   ----------------------------------------
  .byte   N18
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 Label_833D02:
  .byte   N03 ,En2 ,v127
  .byte   W24
@@ -781,7 +781,7 @@ Label_833D02:
 @  #02 @003   ----------------------------------------
  .byte   N23 ,En2 ,v116
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 Label_833D0F:
  .byte   N07 ,En2 ,v127
  .byte   W24
@@ -792,7 +792,7 @@ Label_833D0F:
 @  #02 @004   ----------------------------------------
  .byte   N23
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 Label_833D1B:
  .byte   N07 ,Cn2 ,v127
  .byte   W24
@@ -803,7 +803,7 @@ Label_833D1B:
 @  #02 @005   ----------------------------------------
  .byte   N23 ,Cn2 ,v127
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 Label_833D2A:
  .byte   N04 ,Gn1 ,v116
  .byte   W24
@@ -814,7 +814,7 @@ Label_833D2A:
 @  #02 @006   ----------------------------------------
  .byte   N23 ,Gn1 ,v127
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 Label_833D3B:
  .byte   N07 ,An1 ,v127
  .byte   W24
@@ -825,7 +825,7 @@ Label_833D3B:
 @  #02 @007   ----------------------------------------
  .byte   N24 ,An1 ,v127
  .byte   W24
- .byte   PEND 
+ .byte   PEND
 Label_833D4A:
  .byte   N05 ,Bn1 ,v127
  .byte   W24
@@ -838,7 +838,7 @@ Label_833D4A:
  .byte   W12
  .byte   N09
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #02 @009   ----------------------------------------
  .byte   PATT
   .word Label_833CE8
@@ -1740,7 +1740,7 @@ Label_834268:
  .byte   W18
  .byte   N06 ,En3 ,v032
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #04 @009   ----------------------------------------
  .byte   N24 ,Dn3 ,v127
  .byte   W24
@@ -2008,7 +2008,7 @@ Label_83442E:
  .byte   W06
  .byte   Ds3 ,v028
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #04 @033   ----------------------------------------
 Label_83444A:
  .byte   N04 ,Cs3 ,v104
@@ -2029,7 +2029,7 @@ Label_83444A:
  .byte   W06
  .byte   Cs3 ,v028
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #04 @034   ----------------------------------------
  .byte   PATT
   .word Label_83444A
@@ -2585,7 +2585,7 @@ Label_83471C:
  .byte   W06
  .byte   Gs3 ,v028
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #06 @033   ----------------------------------------
 Label_83473D:
  .byte   N04 ,Fs3 ,v104
@@ -2608,7 +2608,7 @@ Label_83473D:
  .byte   W06
  .byte   Fs3 ,v028
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #06 @034   ----------------------------------------
  .byte   PATT
   .word Label_83473D
@@ -2640,7 +2640,7 @@ Label_83476D:
  .byte   W06
  .byte   Fn3 ,v028
  .byte   W06
- .byte   PEND 
+ .byte   PEND
 @  #06 @038   ----------------------------------------
  .byte   PATT
   .word Label_83471C
@@ -3049,7 +3049,7 @@ Label_83499A:
  .byte   W84
  .byte   N11 ,EnM1 ,v080
  .byte   W12
- .byte   PEND 
+ .byte   PEND
 @  #07 @034   ----------------------------------------
  .byte   N24 ,EnM1 ,v072
  .byte   W72
@@ -3115,9 +3115,9 @@ bgm_map_FE08_08:
 	.byte	0	@ NumBlks
 	.byte	bgm_map_FE08_08_pri	@ Priority
 	.byte	bgm_map_FE08_08_rev	@ Reverb.
-    
+
 	.word	bgm_map_FE08_08_grp
-    
+
 	.word	bgm_map_FE08_08_001
 	.word	bgm_map_FE08_08_002
 	.word	bgm_map_FE08_08_003

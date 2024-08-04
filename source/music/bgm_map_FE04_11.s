@@ -22,7 +22,7 @@ bgm_map_FE04_11_001:
  .byte   TEMPO , 300*bgm_map_FE04_11_tbs/2
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06
@@ -322,7 +322,7 @@ bgm_map_FE04_11_002:
  .byte   KEYSH , bgm_map_FE04_11_key+0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06
@@ -619,7 +619,7 @@ bgm_map_FE04_11_003:
  .byte   KEYSH , bgm_map_FE04_11_key+0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06
@@ -906,7 +906,7 @@ bgm_map_FE04_11_004:
  .byte   KEYSH , bgm_map_FE04_11_key+0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06
@@ -1079,7 +1079,7 @@ bgm_map_FE04_11_005:
  .byte   KEYSH , bgm_map_FE04_11_key+0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06
@@ -1266,7 +1266,7 @@ bgm_map_FE04_11_006:
  .byte   KEYSH , bgm_map_FE04_11_key+0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06
@@ -1473,7 +1473,7 @@ bgm_map_FE04_11_007:
  .byte   KEYSH , bgm_map_FE04_11_key+0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06
@@ -1629,7 +1629,7 @@ bgm_map_FE04_11_008:
  .byte   KEYSH , bgm_map_FE04_11_key+0
  .byte   PAN , c_v+0
  .byte   VOL , 20*bgm_map_FE04_11_mvl/mxv
- .byte   MOD 0
+ .byte   MOD , 0
  .byte   CnM2
  .byte   BEND , c_v+0
  .byte   W06

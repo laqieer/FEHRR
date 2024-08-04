@@ -22,9 +22,9 @@ bgm_map_FE16_01_001:
 Label_0_0144D3FE:
  .byte   TEMPO , 172*bgm_map_FE16_01_tbs/2
  .byte   VOICE , 41
- .byte   MODT 0
+ .byte   MODT , 0
  .byte   CnM2
- .byte   LFOS 0
+ .byte   LFOS , 0
  .byte   Gs1
  .byte   PAN , c_v+0
  .byte   VOL , 66*bgm_map_FE16_01_mvl/mxv
@@ -267,9 +267,9 @@ bgm_map_FE16_01_002:
  .byte   KEYSH , bgm_map_FE16_01_key+0
 Label_1_0144D4FE:
  .byte   VOICE , 46
- .byte   MODT 0
+ .byte   MODT , 0
  .byte   CnM2
- .byte   LFOS 0
+ .byte   LFOS , 0
  .byte   Gs1
  .byte   PAN , c_v+0
  .byte   VOL , 66*bgm_map_FE16_01_mvl/mxv
@@ -422,9 +422,9 @@ bgm_map_FE16_01_003:
  .byte   KEYSH , bgm_map_FE16_01_key+0
 Label_2_0144D582:
  .byte   VOICE , 46
- .byte   MODT 0
+ .byte   MODT , 0
  .byte   CnM2
- .byte   LFOS 0
+ .byte   LFOS , 0
  .byte   Gs1
  .byte   PAN , c_v+0
  .byte   VOL , 66*bgm_map_FE16_01_mvl/mxv
@@ -664,9 +664,9 @@ bgm_map_FE16_01_004:
  .byte   KEYSH , bgm_map_FE16_01_key+0
 Label_3_0144D658:
  .byte   VOICE , 0
- .byte   MODT 0
+ .byte   MODT , 0
  .byte   CnM2
- .byte   LFOS 0
+ .byte   LFOS , 0
  .byte   Gs1
  .byte   N32 ,Cn2 ,v028
  .byte   W36

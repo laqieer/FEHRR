@@ -21,8 +21,8 @@ bgm_map_FE13_07_001:
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   TEMPO , 120*bgm_map_FE13_07_tbs/2
  .byte   VOICE , 34
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 70*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W12
@@ -1223,8 +1223,8 @@ bgm_map_FE13_07_002:
 @  #02 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 10
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 43*bgm_map_FE13_07_mvl/mxv
  .byte   W24
 Label_0105B013:
@@ -1746,8 +1746,8 @@ bgm_map_FE13_07_003:
 @  #03 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 52
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 56*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
@@ -2162,8 +2162,8 @@ bgm_map_FE13_07_004:
 @  #04 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 48
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 51*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
@@ -3658,8 +3658,8 @@ bgm_map_FE13_07_005:
 @  #05 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 73
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 40*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W12
@@ -4064,8 +4064,8 @@ bgm_map_FE13_07_006:
 @  #06 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 70
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 57*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
@@ -4583,8 +4583,8 @@ bgm_map_FE13_07_007:
 @  #07 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 68
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 56*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
@@ -5407,8 +5407,8 @@ bgm_map_FE13_07_008:
 @  #08 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 61
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 45*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W12
@@ -5874,8 +5874,8 @@ bgm_map_FE13_07_009:
 @  #09 @000   ----------------------------------------
  .byte   KEYSH , bgm_map_FE13_07_key+0
  .byte   VOICE , 127
- .byte   MODT 0
- .byte   LFOS 44
+ .byte   MODT , 0
+ .byte   LFOS , 44
  .byte   VOL , 61*bgm_map_FE13_07_mvl/mxv
  .byte   PAN , c_v+0
  .byte   Cn3 ,v064
