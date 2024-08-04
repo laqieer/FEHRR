@@ -17,6 +17,7 @@
 #include "face.h"
 #include "faceNew.h"
 #include "event.h"
+#include "eventinfo.h"
 #include "util.h"
 #include "bm.h"
 #include "unit.h"
@@ -740,4 +741,9 @@ struct ProcScr const ProcScr_TalkDebugNew[] =
 
     PROC_CALL(UnlockGame),
     PROC_END,
+};
+
+// Remove unit death talk
+const struct BattleTalkEnt gBattleDefeatTalkListNew[] = {
+    { 0, 0, 0, 0, 0 },
 };

@@ -8,3 +8,5 @@
 .text.PutTalkBubbleOld : {*(.text.PutTalkBubbleOld)}
 . = ProcScr_TalkDebug;
 .rodata.ProcScr_TalkDebugNew : {*(.rodata.ProcScr_TalkDebugNew)}
+. = gBattleDefeatTalkList;
+.rodata.gBattleDefeatTalkListNew : {*(.rodata.gBattleDefeatTalkListNew)}
