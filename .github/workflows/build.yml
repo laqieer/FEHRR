@@ -21,7 +21,7 @@ jobs:
       run: apt-get update && apt-get install -y python3-pip && pip3 install numpy
 
     - name: Build tools
-      run: apt-get update && apt-get install -y build-essential && ./build_tools.sh
+      run: ./build_tools.sh
 
     - name: Mock base ROM
       run: head -c 8M /dev/urandom > baserom.gba
