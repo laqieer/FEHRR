@@ -13,6 +13,8 @@
         "functional": "c",
         "numeric": "c",
         "string": "c",
-        "type_traits": "c"
+        "type_traits": "c",
+        "chrono": "c",
+        "typeinfo": "c"
     }
 }

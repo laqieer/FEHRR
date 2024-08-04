@@ -3,6 +3,7 @@
 #include "prelude.h"
 
 #include "sound.h"
+#include "song.h"
 
 #define MPLAY_JUMP_TABLE_FUNC(n) (*(gMPlayJumpTable + (n)))
 
@@ -130,6 +131,94 @@ void m4aSoundInitOld(void)
 }
 
 void (* const pSoundMainRAM)(struct SoundInfo * sound_info) = (void *)(MixerBuffer + 1);
+
+void m4aSongNumStartNew(u16 n)
+{
+    struct MusicPlayerEnt const * music_player_table = gMusicPlayerTable;
+    struct SongEnt const * song_ent = getSong(n);
+    struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
+
+    m4aMPlayStart(music_player_ent->music_player, song_ent->song);
+}
+
+void m4aSongNumStartOld(u16 n)
+{
+    m4aSongNumStartNew(n);
+}
+
+void m4aSongNumStartOrChangeNew(u16 n)
+{
+    struct MusicPlayerEnt const * music_player_table = gMusicPlayerTable;
+    struct SongEnt const * song_ent = getSong(n);
+    struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
+
+    if (music_player_ent->music_player->song != song_ent->song)
+    {
+        m4aMPlayStart(music_player_ent->music_player, song_ent->song);
+    }
+    else
+    {
+        if ((music_player_ent->music_player->status & MUSICPLAYER_STATUS_TRACK) == 0
+        || ((music_player_ent->music_player->status & MUSICPLAYER_STATUS_PAUSE) != 0))
+        {
+            m4aMPlayStart(music_player_ent->music_player, song_ent->song);
+        }
+    }
+}
+
+void m4aSongNumStartOrChangeOld(u16 n)
+{
+    m4aSongNumStartOrChangeNew(n);
+}
+
+void m4aSongNumStartOrContinueNew(u16 n)
+{
+    struct MusicPlayerEnt const * music_player_table = gMusicPlayerTable;
+    struct SongEnt const * song_ent = getSong(n);
+    struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
+
+    if (music_player_ent->music_player->song != song_ent->song)
+        m4aMPlayStart(music_player_ent->music_player, song_ent->song);
+    else if ((music_player_ent->music_player->status & MUSICPLAYER_STATUS_TRACK) == 0)
+        m4aMPlayStart(music_player_ent->music_player, song_ent->song);
+    else if (music_player_ent->music_player->status & MUSICPLAYER_STATUS_PAUSE)
+        MPlayContinue(music_player_ent->music_player);
+}
+
+void m4aSongNumStartOrContinueOld(u16 n)
+{
+    m4aSongNumStartOrContinueNew(n);
+}
+
+void m4aSongNumStopNew(u16 n)
+{
+    struct MusicPlayerEnt const * music_player_table = gMusicPlayerTable;
+    struct SongEnt const * song_ent = getSong(n);
+    struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
+
+    if (music_player_ent->music_player->song == song_ent->song)
+        m4aMPlayStop(music_player_ent->music_player);
+}
+
+void m4aSongNumStopOld(u16 n)
+{
+    m4aSongNumStopNew(n);
+}
+
+void m4aSongNumContinueNew(u16 n)
+{
+    struct MusicPlayerEnt const * music_player_table = gMusicPlayerTable;
+    struct SongEnt const * song_ent = getSong(n);
+    struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
+
+    if (music_player_ent->music_player->song == song_ent->song)
+        MPlayContinue(music_player_ent->music_player);
+}
+
+void m4aSongNumContinueOld(u16 n)
+{
+    m4aSongNumContinueNew(n);
+}
 
 // the definitions of gMusicPlayer_FightBgm and gMusicPlayer_MainBgm are reversed here,
 // because they are reversed in the decomp project:

@@ -40,3 +40,4 @@ INCLUDE ../ldscript/trademenu.lds
 INCLUDE ../ldscript/prepmenu.lds
 INCLUDE ../ldscript/save_xmap.lds
 INCLUDE ../ldscript/worldmap.lds
+INCLUDE ../ldscript/song.lds

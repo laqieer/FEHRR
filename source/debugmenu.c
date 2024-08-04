@@ -22,15 +22,18 @@
 #include "save_stats.h"
 #include "save_game.h"
 #include "sound.h"
+#include "song.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/chapters.h"
 #include "constants/faces.h"
+#include "constants/songs.h"
 
 #include "chapterNew.h"
 #include "chapters.h"
 #include "saveNew.h"
 #include "menuNew.h"
+#include "songsNew.h"
 
 enum
 {
@@ -414,12 +417,16 @@ fu8 MapDebugMenu_ChangeBGM_Idle(struct MenuProc * menu, struct MenuEntProc * ent
     {
         if (bgm >= 0)
             bgm--;
+        if (bgm > MAX_MAP_BGM && bgm <= SONG_NEW)
+            bgm = MAX_MAP_BGM;
     }
 
     if (gKeySt->repeated & KEY_DPAD_RIGHT)
     {
-        if (bgm < MAX_MAP_BGM)
+        if (bgm < SONG_MAX - 1)
             bgm++;
+        if (bgm > MAX_MAP_BGM && bgm <= SONG_NEW)
+            bgm = SONG_NEW + 1;
     }
 
     StartBgmCore(bgm, &gMusicPlayer_MainBgm);
