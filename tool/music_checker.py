@@ -124,6 +124,18 @@ def check_midi_file(file_path, auto_fix=False):
                         badInstruments.append(msg.program)
         if badInstruments:
             print("Error: The following instruments are not native to FE6: " + ', '.join(get_instrument_name(i) for i in badInstruments))
+        # Check if note on and note off are paired
+        for i, track in enumerate(mid.tracks):
+            noteOn = 0
+            for j, msg in enumerate(track):
+                if msg.type == 'note_on':
+                    noteOn += 1
+                elif msg.type == 'note_off':
+                    noteOn -= 1
+                    if noteOn < 0:
+                        print(f"Error: Note OFF (msg {j}: {msg}) without initial Note ON in track {i}: {track.name}")
+            # if noteOn != 0:
+            #     print(f"Error: Note on and note off are not paired in track {i}: {track.name}")
         if auto_fix:
             mid.save(file_path)
     except Exception as e:
