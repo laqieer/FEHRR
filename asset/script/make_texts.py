@@ -41,6 +41,7 @@ skills = []
 unit_infos = {}
 unit_counts = {}
 skill_counts = {}
+musics = set()
 
 converter = opencc.OpenCC('t2s.json')
 
@@ -182,6 +183,21 @@ def read_texts(type, language, folder):
                                 text = convert_text(language, text)
                             texts[type][key][language] = text
 
+def read_appeared_musics():
+    with open("music/appeared_musics.json", 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def read_existed_musics():
+    with open("music/existed_musics.json", 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def read_musics():
+    appeared_musics = read_appeared_musics()
+    existed_musics = read_existed_musics()
+    for music in appeared_musics:
+        if music['filename'] not in existed_musics and 'titleId' in music:
+            musics.add(music['titleId'])
+
 def get_text_keys(type):
     keys = []
     if type == TextType.UNIT:
@@ -224,7 +240,7 @@ def get_text_keys(type):
     if type == TextType.MUSIC:
         type = TextType.DATA
         for key in texts[type]:
-            if key.startswith('MID_MUSIC_NAME_'):
+            if key in musics:
                 keys.append(key)
         return keys
     keys = [k for k in texts[type]]
@@ -288,6 +304,7 @@ def main():
     # print(units)
     # print('Total skills: %d' % len(skills))
     # print(skills)
+    read_musics()
     read_texts(TextType.SCENARIO, Language.LANGUAGE_JAPANESE, 'asset/json/files/assets/JPJA/Message/Scenario')
     read_texts(TextType.SCENARIO, Language.LANGUAGE_ENGLISH, 'asset/json/files/assets/USEN/Message/Scenario')
     read_texts(TextType.SCENARIO, Language.LANGUAGE_CHINESE, 'asset/json/files/assets/TWZH/Message/Scenario')
