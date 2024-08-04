@@ -272,7 +272,7 @@ def make_source_file():
                 if "MID_SCENARIO" not in appearance:
                     priority = 1
                     break
-            file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = {{{filename[:-4]}, {priority}, {priority}}},\n")
+            file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = {{&{filename[:-4]}, {priority}, {priority}}},\n")
         file.write("};\n\n")
         file.write("const char * const song_names[] = {\n")
         for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
