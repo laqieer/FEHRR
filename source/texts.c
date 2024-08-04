@@ -18886,7 +18886,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3806] = {
-        [LANGUAGE_JAPANESE] = "エラー：文字が見つかりません",
+        [LANGUAGE_JAPANESE] = "エラー：文字列が見つかりません",
         [LANGUAGE_ENGLISH] = "Error: Message Not Found",
         [LANGUAGE_CHINESE] = "错误：未找到文本",
     },
