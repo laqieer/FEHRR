@@ -872,3 +872,5 @@
 .rodata.textId_3734_0 : {*(.rodata.textId_3734_0)}
 . = 0x800CC74;
 .rodata.textId_max : {*(.rodata.textId_max)}
+. = gUnk_0835CA44;
+.rodata.text_835CA44 : {*(.rodata.text_835CA44)}

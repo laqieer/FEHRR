@@ -19343,3 +19343,5 @@ const int textId_3731_0 = 3731;
 const int textId_3732_0 = 3732;
 const int textId_3733_0 = 3733;
 const int textId_3734_0 = 3734;
+
+const char text_835CA44[] = "Ｇ";
