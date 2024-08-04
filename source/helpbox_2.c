@@ -27,6 +27,7 @@
 
 #include "constants/videoalloc_global.h"
 #include "constants/chapters.h"
+#include "chapters.h"
 #include "constants/songs.h"
 
 #include "gfx_misc.h"
@@ -263,10 +264,10 @@ void func_fe6_08070D08New(int chr, int title_id)
 
     Debugf("Draw chapter title: %d, chr: %d, draw_dest: 0x%x", title_id, chr, draw_dest);
 
-    if (title_id >= CHAPTER_COUNT)
+    if (title_id >= CHAPTER_CH_COUNT)
         return ShowChapterTitleInText(draw_dest, title_id);
-
-    Decompress(gUnk_08677F20[title_id], draw_dest);
+    if (title_id < CHAPTER_COUNT)
+        Decompress(gUnk_08677F20[title_id], draw_dest);
 }
 
 void func_fe6_08070D08Old(int chr, int title_id)
