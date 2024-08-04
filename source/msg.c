@@ -15,6 +15,8 @@
 #include "constants/chapters.h"
 #include "chapterNew.h"
 
+#define ERROR_MSG_NOT_FOUND 3806
+
 extern const char * const gMsgTable[];
 extern const char * const gMsgTableNew[][LANGUAGE_NUM];
 extern const char * const text_keys[];
@@ -35,7 +37,14 @@ char const * GetMsg(int id)
         Assert(IsChapterNew(chapter));
         id = ChapterEnemyHeroNames[chapter - CHAPTER_CH_NEW][id - MEID_ENEMY_HERO_1];
     }
-    return id >= 0x2000000 ? (char const *)id : gMsgTableNew[id][GetLangNew()];
+    if (id >= 0x2000000) {
+        return (char const *)id;
+    }
+    if (gMsgTableNew[id][GetLangNew()]) {
+        return gMsgTableNew[id][GetLangNew()];
+    }
+    Errorf("Message not found: %d", id);
+    return gMsgTableNew[ERROR_MSG_NOT_FOUND][GetLangNew()];
 }
 
 #define MSG_MAX_WIDTH 0xE0
