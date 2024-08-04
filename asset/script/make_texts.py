@@ -213,9 +213,9 @@ def get_text_keys(type):
                 warnings.warn('No text for key: ' + key)
             else:
                 keys.append(key)
-            key = key.replace('_H_', '_HONOR_')
-            if key in texts[type]:
-                keys.append(key)
+            # key = key.replace('_H_', '_HONOR_')
+            # if key in texts[type]:
+            #     keys.append(key)
         return keys
     if type == TextType.SKILL:
         type = TextType.DATA
