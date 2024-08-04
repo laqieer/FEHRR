@@ -25,13 +25,17 @@ def calculate_match_score(original_audio_file, midi_file):
             return json.load(f)
     if os.path.exists('temp.wav'):
         os.remove('temp.wav')
-    try:
-        fs.midi_to_audio(midi_file, 'temp.wav')
-    except Exception as e:
-        warnings.warn(f'Error converting {midi_file} to wav: {e}')
-        return {}
+    print(f"Calculating match score for {original_audio_file} and {midi_file}")
+    midi_audio_file = midi_file.replace('.mid', '.ogg') # Converted by Keppy's MIDI Converter: https://github.com/KeppySoftware/KMC
+    if not os.path.exists(midi_audio_file):
+        try:
+            fs.midi_to_audio(midi_file, 'temp.wav') # Convert using FluidSynth
+        except Exception as e:
+            warnings.warn(f'Error converting {midi_file} to wav: {e}')
+            return {}
+        midi_audio_file = 'temp.wav'
     match_score = {}
-    audio_similarity = AudioSimilarity('../original/' + original_audio_file, 'temp.wav', sample_rate, weights)
+    audio_similarity = AudioSimilarity('../original/' + original_audio_file, midi_audio_file, sample_rate, weights)
     try:
         match_score['zcr_similarity'] = audio_similarity.zcr_similarity()
     except Exception as e:
@@ -56,8 +60,8 @@ def calculate_match_score(original_audio_file, midi_file):
         match_score['stent_weighted_audio_similarity'] = audio_similarity.stent_weighted_audio_similarity()
     except Exception as e:
         warnings.warn(f'Error calculating stent_weighted_audio_similarity for {original_audio_file} and {midi_file}: {e}')
-    if os.path.exists('temp.wav'):
-        os.remove('temp.wav')
+    if os.path.exists(midi_audio_file):
+        os.remove(midi_audio_file)
     with open(json_file, 'w') as f:
         json.dump(match_score, f, indent=4)
     return match_score
@@ -80,6 +84,7 @@ with open('match_scores.json', 'w') as f:
     json.dump(match_scores, f, indent=4)
 
 match_results = {}
+os.makedirs('best_matches', exist_ok=True)
 # Find best match for each original audio file
 for original_audio_file in match_scores:
     best_match = None
@@ -93,6 +98,9 @@ for original_audio_file in match_scores:
         'best_match': best_match,
         'best_match_score': best_match_score
     }
+    if best_match is not None and best_match_score > 0.5 and not os.path.exists(os.path.join('../midi/', os.path.basename(best_match))):
+        # copy the best match to the best_matches folder
+        os.system(f'cp "{best_match}" best_matches/')
 
 # Save match results to a json file
 with open('match_results.json', 'w') as f:

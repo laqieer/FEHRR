@@ -1,0 +1,8 @@
+{
+    "zcr_similarity": 0.9484263241432773,
+    "rhythm_similarity": 0.5184159257026305,
+    "chroma_similarity": 0.6894126534461975,
+    "spectral_contrast_similarity": 0.7753855990995143,
+    "perceptual_similarity": 0.509219950164998,
+    "stent_weighted_audio_similarity": 0.610633530601372
+}

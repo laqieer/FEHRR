@@ -1,0 +1,306 @@
+{
+    "bgm_amb_username.ogg": {
+        "best_match": ".\\Transkun\\bgm_amb_username.mid",
+        "best_match_score": 0.6742556422177052
+    },
+    "bgm_battle_boss.ogg": {
+        "best_match": ".\\Melodfy\\bgm_battle_boss.mid",
+        "best_match_score": 0.6995262570880014
+    },
+    "bgm_boss12.ogg": {
+        "best_match": ".\\Transkun\\bgm_boss12.mid",
+        "best_match_score": 0.6277515053955388
+    },
+    "bgm_boss4.ogg": {
+        "best_match": ".\\Transkun\\bgm_boss4.mid",
+        "best_match_score": 0.6444915459217282
+    },
+    "bgm_boss5.ogg": {
+        "best_match": ".\\Transkun\\bgm_boss5.mid",
+        "best_match_score": 0.6413493631229339
+    },
+    "bgm_boss7.ogg": {
+        "best_match": ".\\Transkun\\bgm_boss7.mid",
+        "best_match_score": 0.6679823965337661
+    },
+    "bgm_boss8.ogg": {
+        "best_match": ".\\Transkun\\bgm_boss8.mid",
+        "best_match_score": 0.6766114189892839
+    },
+    "bgm_boss9.ogg": {
+        "best_match": ".\\Transkun\\bgm_boss9.mid",
+        "best_match_score": 0.6406307098439331
+    },
+    "bgm_event_plain1.ogg": {
+        "best_match": ".\\PianoTrans\\bgm_event_plain1.mid",
+        "best_match_score": 0.7274475000725869
+    },
+    "bgm_event_plain2.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_plain2.mid",
+        "best_match_score": 0.6814451021607228
+    },
+    "bgm_event_plain3.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_plain3.mid",
+        "best_match_score": 0.69811392361072
+    },
+    "bgm_event_plain4.ogg": {
+        "best_match": ".\\Melodfy\\bgm_event_plain4.mid",
+        "best_match_score": 0.7074796030944503
+    },
+    "bgm_event_serious1.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious1.mid",
+        "best_match_score": 0.6621355223619128
+    },
+    "bgm_event_serious10.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious10.mid",
+        "best_match_score": 0.6994906907456738
+    },
+    "bgm_event_serious11.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious11.mid",
+        "best_match_score": 0.6677349902667954
+    },
+    "bgm_event_serious12.ogg": {
+        "best_match": ".\\Melodfy\\bgm_event_serious12.mid",
+        "best_match_score": 0.6974211690387949
+    },
+    "bgm_event_serious2.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious2.mid",
+        "best_match_score": 0.6824186535863505
+    },
+    "bgm_event_serious3.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious3.mid",
+        "best_match_score": 0.7631083145651493
+    },
+    "bgm_event_serious4.ogg": {
+        "best_match": ".\\Melodfy\\bgm_event_serious4.mid",
+        "best_match_score": 0.6767386159742662
+    },
+    "bgm_event_serious7.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious7.mid",
+        "best_match_score": 0.6887118290527043
+    },
+    "bgm_event_serious8.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious8.mid",
+        "best_match_score": 0.6809297029256011
+    },
+    "bgm_event_serious9.ogg": {
+        "best_match": ".\\Transkun\\bgm_event_serious9.mid",
+        "best_match_score": 0.65236146271708
+    },
+    "bgm_map_Brave_03.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_Brave_03.mid",
+        "best_match_score": 0.6718967675316726
+    },
+    "bgm_map_FE09_01.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE09_01.mid",
+        "best_match_score": 0.687421356830376
+    },
+    "bgm_map_FE09_02.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE09_02.mid",
+        "best_match_score": 0.6808703159999828
+    },
+    "bgm_map_FE09_05.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE09_05.mid",
+        "best_match_score": 0.7188036504093256
+    },
+    "bgm_map_FE09_06.ogg": {
+        "best_match": ".\\mt3\\mt3\\SGM-v2.01-Sal-Guit-Bass-V1.3.sf2\\bgm_map_FE09_06.mid",
+        "best_match_score": 0.6728836921610483
+    },
+    "bgm_map_FE09_07.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE09_07.mid",
+        "best_match_score": 0.6668009897010839
+    },
+    "bgm_map_FE10_01.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE10_01.mid",
+        "best_match_score": 0.6658113395270447
+    },
+    "bgm_map_FE10_03.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE10_03.mid",
+        "best_match_score": 0.6751548703413506
+    },
+    "bgm_map_FE10_05.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE10_05.mid",
+        "best_match_score": 0.6635358602560958
+    },
+    "bgm_map_FE10_08.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE10_08.mid",
+        "best_match_score": 0.6618739107841066
+    },
+    "bgm_map_FE13_02.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE13_02.mid",
+        "best_match_score": 0.6795502974658559
+    },
+    "bgm_map_FE13_12.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE13_12.mid",
+        "best_match_score": 0.6620821695764418
+    },
+    "bgm_map_FE13_16.ogg": {
+        "best_match": ".\\mt3\\mt3\\SGM-v2.01-Sal-Guit-Bass-V1.3.sf2\\bgm_map_FE13_16.mid",
+        "best_match_score": 0.6562259163927014
+    },
+    "bgm_map_FE13_18.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE13_18.mid",
+        "best_match_score": 0.6736441356097622
+    },
+    "bgm_map_FE14_01.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE14_01.mid",
+        "best_match_score": 0.6665071716719775
+    },
+    "bgm_map_FE14_06.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE14_06.mid",
+        "best_match_score": 0.6827222548610891
+    },
+    "bgm_map_FE14_11.ogg": {
+        "best_match": ".\\mt3\\mt3\\SGM-v2.01-Sal-Guit-Bass-V1.3.sf2\\bgm_map_FE14_11.mid",
+        "best_match_score": 0.6640442416175915
+    },
+    "bgm_map_FE15_07.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE15_07.mid",
+        "best_match_score": 0.6592381910379771
+    },
+    "bgm_map_FE16_03.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FE16_03.mid",
+        "best_match_score": 0.6509498586373366
+    },
+    "bgm_map_FE17_15.ogg": {
+        "best_match": ".\\mt3\\mt3\\SGM-v2.01-Sal-Guit-Bass-V1.3.sf2\\bgm_map_FE17_15.mid",
+        "best_match_score": 0.661174508909483
+    },
+    "bgm_map_FEH_06.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FEH_06.mid",
+        "best_match_score": 0.6943831305296944
+    },
+    "bgm_map_FEH_07.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FEH_07.mid",
+        "best_match_score": 0.6713527207653215
+    },
+    "bgm_map_FEH_09.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FEH_09.mid",
+        "best_match_score": 0.6778758025613353
+    },
+    "bgm_map_FEH_10.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FEH_10.mid",
+        "best_match_score": 0.672204534105101
+    },
+    "bgm_map_FEH_11.ogg": {
+        "best_match": ".\\Melodfy\\bgm_map_FEH_11.mid",
+        "best_match_score": 0.6927251776189863
+    },
+    "bgm_map_FEM_08.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_FEM_08.mid",
+        "best_match_score": 0.6575929899395692
+    },
+    "bgm_map_fes_02.ogg": {
+        "best_match": ".\\Transkun\\bgm_map_fes_02.mid",
+        "best_match_score": 0.6847631618086284
+    },
+    "bgm_menu_goldwitch.ogg": {
+        "best_match": ".\\Transkun\\bgm_menu_goldwitch.mid",
+        "best_match_score": 0.6775455483831174
+    },
+    "bgm_menu_mjollnir.ogg": {
+        "best_match": ".\\Melodfy\\bgm_menu_mjollnir.mid",
+        "best_match_score": 0.6795367749568976
+    },
+    "bgm_menu_theme01.ogg": {
+        "best_match": ".\\Transkun\\bgm_menu_theme01.mid",
+        "best_match_score": 0.6635930995535737
+    },
+    "bgm_mns_FE09_04.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE09_04.mid",
+        "best_match_score": 0.7030590433973267
+    },
+    "bgm_mns_FE09_06.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE09_06.mid",
+        "best_match_score": 0.6804074804607521
+    },
+    "bgm_mns_FE10_03.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE10_03.mid",
+        "best_match_score": 0.6803319561613292
+    },
+    "bgm_mns_FE10_04.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE10_04.mid",
+        "best_match_score": 0.6782833009004359
+    },
+    "bgm_mns_FE10_05.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE10_05.mid",
+        "best_match_score": 0.6821273148183098
+    },
+    "bgm_mns_FE10_06.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE10_06.mid",
+        "best_match_score": 0.6728005652283326
+    },
+    "bgm_mns_FE10_08.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE10_08.mid",
+        "best_match_score": 0.6667202170106507
+    },
+    "bgm_mns_FE13_05.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE13_05.mid",
+        "best_match_score": 0.6995700862235512
+    },
+    "bgm_mns_FE13_07.ogg": {
+        "best_match": ".\\PianoTrans\\bgm_mns_FE13_07.mid",
+        "best_match_score": 0.7277029685358909
+    },
+    "bgm_mns_FE13_08.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE13_08.mid",
+        "best_match_score": 0.6778502230670621
+    },
+    "bgm_mns_FE13_10.ogg": {
+        "best_match": ".\\Melodfy\\bgm_mns_FE13_10.mid",
+        "best_match_score": 0.6829709288903804
+    },
+    "bgm_mns_FE14_14.ogg": {
+        "best_match": ".\\BasicPitch\\bgm_mns_FE14_14.mid",
+        "best_match_score": 0.6435232636601331
+    },
+    "bgm_mns_FE14_15.ogg": {
+        "best_match": ".\\BasicPitch\\bgm_mns_FE14_15.mid",
+        "best_match_score": 0.6742498338693407
+    },
+    "bgm_mns_FE15_04.ogg": {
+        "best_match": ".\\mt3\\mt3\\SGM-v2.01-Sal-Guit-Bass-V1.3.sf2\\bgm_mns_FE15_04.mid",
+        "best_match_score": 0.6702870473612634
+    },
+    "bgm_mns_FE15_07.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE15_07.mid",
+        "best_match_score": 0.7251271894861644
+    },
+    "bgm_mns_FE15_08.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE15_08.mid",
+        "best_match_score": 0.687301382846573
+    },
+    "bgm_mns_FE15_09.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE15_09.mid",
+        "best_match_score": 0.70127143661548
+    },
+    "bgm_mns_FE15_10.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE15_10.mid",
+        "best_match_score": 0.6800738466145122
+    },
+    "bgm_mns_FE15_11.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE15_11.mid",
+        "best_match_score": 0.65333070725893
+    },
+    "bgm_mns_FE16_08.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE16_08.mid",
+        "best_match_score": 0.6864947481657203
+    },
+    "bgm_mns_FE16_12.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE16_12.mid",
+        "best_match_score": 0.6839171250794466
+    },
+    "bgm_mns_FE16_13.ogg": {
+        "best_match": ".\\Transkun\\bgm_mns_FE16_13.mid",
+        "best_match_score": 0.6846746564510562
+    },
+    "bgm_mns_FE17_16.ogg": {
+        "best_match": ".\\Melodfy\\bgm_mns_FE17_16.mid",
+        "best_match_score": 0.6748745429207742
+    },
+    "bgm_summon_common.ogg": {
+        "best_match": ".\\Transkun\\bgm_summon_common.mid",
+        "best_match_score": 0.6719942246089378
+    }
+}
