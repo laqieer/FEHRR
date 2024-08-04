@@ -18398,6 +18398,15 @@ const struct GlyphNew GlySZH_E5A9AA = { /* 婪 */
     .bitmap = GlySZH_E5A9AATiles,
 };
 
+const struct GlyphNew GlySZH_E6A08F = { /* 栏 */
+    .next = &GlySZH_E689A9,
+    .width = 10,
+    .utf_byte_2 = 0xa0,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlySZH_E6A08FTiles,
+};
+
 const struct GlyphNew GlySZH_E7AFAE = { /* 篮 */
     .next = &GlySZH_E79B94,
     .width = 10,
@@ -18408,7 +18417,7 @@ const struct GlyphNew GlySZH_E7AFAE = { /* 篮 */
 };
 
 const struct GlyphNew GlySZH_E68D9E = { /* 捞 */
-    .next = &GlySZH_E689A9,
+    .next = &GlySZH_E6A08F,
     .width = 10,
     .utf_byte_2 = 0x8d,
     .utf_byte_3 = 0x9e,

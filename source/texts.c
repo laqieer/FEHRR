@@ -9,6 +9,348 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "",
     },
 
+    [20] = {
+        [LANGUAGE_JAPANESE] = "\x09\x10\x02\x01\x0C\x10\x34\x01\x01""ロイ　今日は""\x01""戦いの指揮を訓練しましょう""\x03",
+        [LANGUAGE_ENGLISH] = "\x09\x10\x02\x01\x0C\x10\x34\x01\x0C\x01""Today, Roy, I will instruct you""\x01""in basic combat tactics.""\x03",
+        [LANGUAGE_CHINESE] = "\x09\x10\x02\x01\x0C\x10\x34\x01\x01""罗伊，今天来训练一下""\x01""作战指挥吧！""\x03",
+    },
+
+    [21] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01\x01""まず　何よりも先に覚えるのが""\x01""これ""\x03\x01""まん中で　四角いワクが""\x01""動いてるでしょう？""\x03\x02\x01""これが　「カーソル」""\x03\x01""この「カーソル」を動かして""\x01""自分自身や仲間に指示を伝えるの""\x03\x02\x01""覚えた？""\x03\x80\x04\x02\x01""では　ここからが本番よ""\x03\x01""まだ　わからないこと""\x01""ばかりでしょうけど・・・""\x03\x01""まずは　戦いを　体験してみることよ""\x05\x01""思いどおり　自由に戦ってみて""\x03\x01""わたしが　そばについて""\x01""アドバイスしてあげるから""\x03\x01""それでは　始めるわよ""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01\x01""First, do you see this""\x01""moving square?""\x03\x01""This is the cursor, which is used""\x01""to give commands to soldiers.""\x03\x80\x04\x01""Let's begin the mock battle.""\x03\x01""I'm sure you have questions, but I'll be""\x01""here to advise you as needed.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01\x01""首先你必须先记住这个，""\x03\x01""中间有个四角的格子，""\x01""看见了吧？""\x03\x02\x01""这就是「光标」。""\x03\x01""移动这个「光标」，""\x01""就能给自己和同伴下达指示，""\x03\x02\x01""记住了吗？""\x03\x80\x04\x02\x01""好，从现在起正式开始。""\x03\x01""虽然你还有很多""\x01""不懂的地方，""\x03\x01""先体验一下战斗吧。""\x05\x01""你就随意自由地战斗吧，""\x03\x01""我会在你身边""\x01""指导你的。""\x03\x01""那么开始吧！""\x03",
+    },
+
+    [22] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01""まず　戦いに勝つためには""\x01""どうしたらいいかを教えるわ""\x03\x01""それはロイ　あなたが敵の拠点を""\x01""『制圧』することよ""\x03\x01""拠点というのは　敵のボスがいる""\x01""城門や玉座のことね""\x03\x01""ここでは・・・""\x05",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01\x01""To win any battle, you, Roy, must seize""\x01""the enemy's main point of defense.""\x03\x01""That could be a castle gate, a throne,""\x01""or any number of locations.""\x03\x01""The enemy leader's position is""\x01""the location you want to seize.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01""首先，我要教你""\x01""如何去赢得一场战斗，""\x03\x01""也就是要由你去『占领』""\x01""敌人的据点。""\x03\x01""敌人的据点就是敌人将领""\x01""所在的城门或是王座，""\x03\x01""也就是……""\x05",
+    },
+
+    [23] = {
+        [LANGUAGE_JAPANESE] = "\x10\x34\x01""このカーソルの場所""\x01""『城門』を『制圧』することよ""\x03\x01""『制圧』については""\x01""後で教えるから""\x03\x01""とりあえず　今は""\x01""ここに向かって進んできて""\x03\x01""じゃあ　まずは　そのための""\x01""進みかたについて教えるわね""\x03",
+        [LANGUAGE_ENGLISH] = "\x10\x34\x01""This is the point you must seize""\x01""for this training session.""\x03\x01""First, make your way""\x01""toward the castle gate.""\x03\x01""I'll teach you how to move""\x01""yourself around the map.""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x34\x01""光标所指的地点""\x01""就是『城门』。""\x03\x01""至于怎么『占领』，""\x01""过一会儿再教你。""\x03\x01""你就先向那里""\x01""前进吧，""\x03\x01""现在我先教你""\x01""如何前进。""\x03",
+    },
+
+    [24] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01""左上に""\x01""青い服のユニットが見えるわね？""\x03\x01""これが　ロイ""\x01""あなたが　うごかす軍・・・""\x03\x02\x01""自軍のユニットよ""\x03\x01""「ユニット」というのは　じっさいに""\x01""動いて戦う人たちのことね""\x03\x02\x01""ロイが　うごかす軍を「自軍」""\x01""ロイと　戦う軍を「敵軍」とよぶの""\x03\x01""自軍のユニットは青色""\x01""敵軍のユニットは赤色になっているわ""\x03\x02\x01""さっそく動かしてみましょうか""\x03\x01\x0C""十字ボタンで　上下左右に""\x01""カーソルを動かすことができるわ""\x03\x01\x0C""今は　青色のロイに""\x01""カーソルを合わせてあるから""\x03\x01""Ａボタンを押してみて""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01""Units are soldiers that move""\x01""around the field and fight.""\x03\x01""Blue units are your allies, and""\x01""red units are your enemies.""\x03\x01""Let's try moving. Use the""\x01""+ Control Pad to move your cursor.""\x03\x01""It's already positioned on you,""\x01""so you can just press the A Button.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01""看见左上""\x01""蓝色的角色了吗？""\x03\x01""这就是罗伊""\x01""所指挥的部队，""\x03\x02\x01""是我军的角色。""\x03\x01""「角色」也就是你实际""\x01""所指挥的人们，""\x03\x02\x01""罗伊可以指挥的就是「我军」，""\x01""而和罗伊交战的就是「敌军」，""\x03\x01""我军的角色是蓝色的，""\x01""而敌军的角色是红色。""\x03\x02\x01""那么就赶快让他们行动一下吧。""\x03\x01\x0C""按下十字键的上下左右""\x01""就可以移动光标，""\x03\x01\x0C""现在就把光标""\x01""移动到蓝色的罗伊身上，""\x03\x01""再按下A键吧。""\x03",
+    },
+
+    [25] = {
+        [LANGUAGE_JAPANESE] = "青色のゾーンが　移動できる範囲よ""\x03\x01""さあ　十字ボタンでカーソルを行きたい所に""\x01""合わせ　Ａボタンで移動しましょう""\x03\x01""考え直すときは　Ｂボタンでキャンセル・・・""\x03\x01""やりなおすことができるわ""\x03\x01""今だけじゃなく　ほとんどの場合""\x01""Ｂボタンでやりなおせるから覚えておいてね""\x03",
+        [LANGUAGE_ENGLISH] = "The blue squares indicate where""\x01""you can move.""\x03\x01""Use the cursor to select where""\x01""to move, and press the A Button.""\x03\x01""If you change your mind,""\x01""press the B Button to cancel.""\x03\x01""Many actions can be cancelled""\x01""by pressing the B Button,""\x03\x01""so remember that if you""\x01""make a mistake.""\x03",
+        [LANGUAGE_CHINESE] = "蓝色的区域就是可移动的范围，""\x03\x01""用十字键将光标移动到想移动的""\x01""地方，然后按A键移动吧。""\x03\x01""如果不想移动的话，""\x03\x01""按B键就能取消。""\x03\x01""不只是这里，许多地方都能""\x01""利用B键取消的。""\x03",
+    },
+
+    [26] = {
+        [LANGUAGE_JAPANESE] = "青色のゾーンの外側に""\x01""赤色のゾーンがあるでしょう""\x03\x01""これはあなたが攻撃できる範囲なの""\x03\x01""今　この色のついたゾーンに""\x01""入っている敵がいるわね""\x03",
+        [LANGUAGE_ENGLISH] = "The red squares outside the blue""\x01""squares indicate where you can attack.""\x03\x01""It appears there's an""\x01""enemy unit in a red square.""\x03",
+        [LANGUAGE_CHINESE] = "在蓝色区域的外面""\x01""有红色的区域吧，""\x03\x01""这就是你可以攻击到的地方，""\x03\x01""现在就有个敌人""\x01""在这个区域范围内呢。""\x03",
+    },
+
+    [27] = {
+        [LANGUAGE_JAPANESE] = "まず　敵のとなりのマスに移動しましょう""\x01""直接攻撃をするなら　移動してみて""\x03",
+        [LANGUAGE_ENGLISH] = "To attack him, move to an area""\x01""adjacent to the enemy unit.""\x03\x01""Select an area and press""\x01""the A Button.""\x03",
+        [LANGUAGE_CHINESE] = "先移动到敌人旁边的格子里，""\x01""要攻击的话就先移动吧。""\x03",
+    },
+
+    [28] = {
+        [LANGUAGE_JAPANESE] = "『攻撃』をえらび　Ａボタンを押すと""\x01""直接攻撃ができるわ""\x03",
+        [LANGUAGE_ENGLISH] = "Select Attack and""\x01""press the A Button.""\x03",
+        [LANGUAGE_CHINESE] = "选择『攻击』，再按下A键""\x01""就可以进行直接攻击了。""\x03",
+    },
+
+    [29] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01""まず　攻撃をしかけた側・・・""\x01""つまり　ロイの攻撃""\x03\x01""次に　攻撃された敵がまだ生きていれば""\x01""敵からの反撃が来るわ""\x03\x01""その後　一方が特にすばやい時だけ""\x01""二回目の攻撃ができるの""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01""If an enemy survives your first attack,""\x01""it may perform a counterattack.""\x03\x01""A unit with much higher speed than""\x01""its opponent will attack twice.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01""首先是进攻方，""\x01""也就是罗伊的攻击。""\x03\x01""如果敌人还活着的话，""\x01""就是敌人的反击。""\x03\x01""之后，若一方速度较快的话，""\x01""就能进行第二次攻击。""\x03",
+    },
+
+    [30] = {
+        [LANGUAGE_JAPANESE] = "赤色のゾーン・・・攻撃範囲を""\x01""見てちょうだい""\x03\x01""ロイが攻撃する時は赤色の部分は""\x01""１マスだったけど　今は２マスね""\x03\x01""これは、ウォルトが弓を使って""\x01""間接攻撃をすることができるからなの""\x03\x01""間接攻撃というのは　１マス""\x01""はなれた敵に攻撃することよ""\x03\x01""あなたが剣で攻撃した時のような""\x03\x01""となりあった敵への攻撃のことは""\x01""直接攻撃と呼ぶの""\x03\x01""使う武器によって　攻撃の仕方が""\x01""かわってくるということね""\x03",
+        [LANGUAGE_ENGLISH] = "Look at the red zone,""\x01""or the attack range.""\x03\x01""For you it was only one space,""\x01""but for this unit it's two spaces.""\x03\x01""That's because Wolt can attack""\x01""from a distance with his bow.""\x03\x01""Different weapons can attack""\x01""in different ways.""\x03",
+        [LANGUAGE_CHINESE] = "我们来看一下红色的""\x01""可攻击区域。""\x03\x01""罗伊攻击的时候，红色的部分""\x01""只有一格，但现在却有两格了。""\x03\x01""这是因为沃尔特可以使用弓""\x01""来进行间接攻击。""\x03\x01""间接攻击也就是可以""\x01""隔一格对敌人进行攻击，""\x03\x01""而像你那样用剑""\x03\x01""向敌人攻击""\x01""就是直接攻击。""\x03\x01""根据使用武器的不同，""\x01""攻击的方式也会不一样哦。""\x03",
+    },
+
+    [31] = {
+        [LANGUAGE_JAPANESE] = "今なら　弓を使って""\x01""間接攻撃ができるわ""\x03",
+        [LANGUAGE_ENGLISH] = "Wolt can engage in indirect""\x01""combat with his bow.""\x03",
+        [LANGUAGE_CHINESE] = "现在就可以使用弓""\x01""进行间接攻击了。""\x03",
+    },
+
+    [32] = {
+        [LANGUAGE_JAPANESE] = "間接攻撃の場合""\x01""相手から　１マスはなれるの""\x03\x01""移動してみて""\x03",
+        [LANGUAGE_ENGLISH] = "To attack with a bow,""\x03\x01""your unit must be 1 space""\x01""away from the enemy.""\x03\x01""Try moving to one of these""\x01""spaces.""\x03",
+        [LANGUAGE_CHINESE] = "要间接攻击的话，""\x01""就移动到距离对手""\x03\x01""一格远的地方哦。""\x03",
+    },
+
+    [33] = {
+        [LANGUAGE_JAPANESE] = "『攻撃』コマンドが出たわね""\x01""それを　えらんでみてちょうだい""\x03",
+        [LANGUAGE_ENGLISH] = "Select Attack from""\x01""the menu.""\x03",
+        [LANGUAGE_CHINESE] = "『攻击』指令出现了，""\x01""选择它吧。""\x03",
+    },
+
+    [34] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01\x01""今のが　弓を使った""\x01""間接攻撃よ""\x03\x01""敵が　直接攻撃しかできないときは""\x01""反撃を受けずに一方的に攻撃できるの""\x03\x01""間接攻撃を　上手に使うと""\x01""無傷で敵を倒せるというわけね""\x03\x01""でも逆に　直接攻撃をされたら""\x01""弓では　なにも反撃できないわ""\x03\x01""忘れないでね""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01\x01""That was indirect combat""\x01""with a bow.""\x03\x01""If the enemy has no weapons""\x01""capable of indirect combat,""\x03\x01""there's no fear of counterattack.""\x03\x01""However, you cannot fire""\x01""on adjacent spaces.""\x03\x01""If someone moves next to""\x01""you and attacks, that's it.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01\x01""这就是使用弓进行的""\x01""间接攻击。""\x03\x01""如果敌人只能直接攻击的话，""\x01""我们就不会被反击了。""\x03\x01""如果能活用间接攻击的话，""\x01""就能毫发无伤地将敌人打倒，""\x03\x01""不过，要是受到直接攻击的话，""\x01""弓可是无法反击的，""\x03\x01""不要忘了哦。""\x03",
+    },
+
+    [35] = {
+        [LANGUAGE_JAPANESE] = "魔法や　てやりみたいな武器は""\x03\x01""直接・間接を合わせた""\x01""両用攻撃ができるわ""\x03\x01""青色のゾーンと　外側にある赤色のゾーン""\x01""これが移動⇒両用攻撃できる範囲よ""\x03",
+        [LANGUAGE_ENGLISH] = "Some weapons,""\x01""such as magic and javelins,""\x03\x01""can strike enemies in adjacent squares""\x01""as well as those at a distance.""\x03\x01""As you can see, the red""\x01""zone is extended.""\x03",
+        [LANGUAGE_CHINESE] = "魔法和投枪这样的武器""\x03\x01""是兼具直接、间接攻击能力""\x01""的两用攻击武器，""\x03\x01""蓝色区域和外侧的红色区域分别""\x01""是移动和直接、间接攻击的范围。""\x03",
+    },
+
+    [36] = {
+        [LANGUAGE_JAPANESE] = "今なら　魔法を使って""\x01""両用攻撃ができるわね""\x03",
+        [LANGUAGE_ENGLISH] = "Now you can attack""\x01""with magic.""\x03",
+        [LANGUAGE_CHINESE] = "现在就可以使用魔法进行""\x01""直接或间接攻击了。""\x03",
+    },
+
+    [37] = {
+        [LANGUAGE_JAPANESE] = "両用武器は　となりのマスの敵""\x01""１マスはなれた敵""\x03\x01""その　どちらにも攻撃できるわよ""\x03",
+        [LANGUAGE_ENGLISH] = "You can either attack from close""\x01""up or keep your distance.""\x03",
+        [LANGUAGE_CHINESE] = "两用武器可以攻击""\x01""身边的敌人，""\x03\x01""也可以攻击距离一格远的敌人。""\x03",
+    },
+
+    [38] = {
+        [LANGUAGE_JAPANESE] = "『攻撃』を選び　Ａボタンを押すと""\x01""両用武器での攻撃ができるわ""\x03\x01""ちなみに・・・　Ｒボタンのこと""\x01""覚えてる？""\x03\x01""こういうとこでも　Ｒボタンを押せば""\x01""説明が見られるわよ""\x03",
+        [LANGUAGE_ENGLISH] = "Select Attack.""\x03\x01""Also, do you remember the""\x01""R Button?""\x03\x01""You can press the R Button to""\x01""see help messages here, too.""\x03",
+        [LANGUAGE_CHINESE] = "选择『攻击』，再按下A键，""\x01""就能用两用武器攻击了。""\x03\x01""还有啊，记得R键""\x01""是做什么的吗？""\x03\x01""只要按下R键就能""\x01""看到说明了。""\x03",
+    },
+
+    [39] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [40] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01""今　使ったのが""\x01""魔法による両用攻撃よ""\x03\x01""１マス離れた場所から攻撃すれば""\x01""やりみたいな直接攻撃は　届かないし・・・""\x03\x01""弓の敵には　こちらから　となりに行けば""\x01""一方的に攻撃できる・・・""\x03\x01""というわけ""\x01""べんりでしょ　魔法って""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01""That was a magic attack.""\x03\x01""You can attack from a distance to avoid""\x01""counterattacks from many foes,""\x03\x01""and you can also attack from an adjacent""\x01""square to avoid counterattacks from bows.""\x03\x01""I think you'll find magic to be""\x01""highly versatile.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01""刚刚那就是利用""\x01""魔法进行的直接、间接攻击。""\x03\x01""距离一格进行攻击的话，""\x01""就不会受到枪剑之类的反击。""\x03\x01""如果敌人是弓箭手的话，那么""\x01""靠近再攻击敌人也不能反击了。""\x03\x01""魔法这东西""\x01""很方便吧！""\x03",
+    },
+
+    [41] = {
+        [LANGUAGE_JAPANESE] = "使用する武器を選んで""\x03",
+        [LANGUAGE_ENGLISH] = "Choose which weapon to equip.""\x03",
+        [LANGUAGE_CHINESE] = "选择要使用的武器。""\x03",
+    },
+
+    [42] = {
+        [LANGUAGE_JAPANESE] = "攻撃する相手を選んで""\x03\x01""いくつもいる相手の中から　選ぶときは""\x01""十字ボタンでカーソルを動かすの""\x03\x01""一人しかいないときは""\x01""そのままＡボタンを押しましょう""\x03",
+        [LANGUAGE_ENGLISH] = "Select the enemy to attack.""\x03\x01""If there are multiple enemies""\x01""in your attack range,""\x03\x01""use your cursor to choose the""\x01""enemy you want to attack.""\x03\x01""Right now there's only one enemy""\x01""in range.""\x03",
+        [LANGUAGE_CHINESE] = "选择要攻击的敌人。""\x03\x01""如果有多个敌人的话，""\x01""可以按十字键选择。""\x03\x01""如果敌人只有一人的话，""\x01""那就直接按下A键吧。""\x03",
+    },
+
+    [43] = {
+        [LANGUAGE_JAPANESE] = "さあ""\x01""Ａボタンを押して攻撃よ！""\x03",
+        [LANGUAGE_ENGLISH] = "Now, press the A Button""\x01""to attack!""\x03",
+        [LANGUAGE_CHINESE] = "好了，""\x01""按A键开始攻击吧！""\x03",
+    },
+
+    [44] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01\x01""今みたいにダメージを受けると""\x01""ＨＰは少なくなるわ""\x03\x01""ＨＰというのは""\x01""その人の生きる力のことよ""\x03\x01""ＨＰが０になると・・・""\x01""ユニットは力つき　死んでしまうの""\x03\x01""死んだ仲間とは　もう二度と""\x01""会うことはできないわ""\x03\x01""ロイが死んでしまうと　自軍の負け""\x01""つまり　ゲームオーバー・・・""\x03\x01""くれぐれも気をつけてね""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01\x01""If a unit takes a hit,""\x03\x01""its HP, or hit points,""\x01""will be reduced.""\x03\x01""If a unit's HP is reduced""\x01""to zero, that unit will be lost.""\x03\x01""Once a unit is lost,""\x01""it's gone for good.""\x03\x01""Also, if you lose all your HP,""\x01""Roy, the battle is lost.""\x03\x01""That means game over.""\x01""So be careful.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01\x01""像现在这样受到攻击的话，""\x01""HP就会减少。""\x03\x01""HP就是""\x01""这个角色的生命力，""\x03\x01""HP要是变为0的话，""\x01""这个角色就算是死了，""\x03\x01""死去的同伴是不能""\x01""复活的。""\x03\x01""如果罗伊死了的话，就是战败了，""\x01""也就是GAME OVER……""\x03\x01""千万要注意哦！""\x03",
+    },
+
+    [45] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [46] = {
+        [LANGUAGE_JAPANESE] = "『訪問』コマンドが""\x01""出てるでしょう？""\x03\x01""『訪問』を選んで　Ａボタンを押せば""\x01""村を訪れることができるわ""\x03",
+        [LANGUAGE_ENGLISH] = "Do you see the Visit command?""\x03\x01""If you select it and press the A Button,""\x01""you can visit the village.""\x03",
+        [LANGUAGE_CHINESE] = "出现『访问』""\x01""这个指令了吧？""\x03\x01""选择『访问』，再按A键""\x01""就可以访问村庄了。""\x03",
+    },
+
+    [47] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01""今みたいに　村を訪ねると""\x01""いろいろ良い事があるわ""\x03\x01""手に入れたアイテムは""\x01""『持ち物』コマンドで　使用できるわ""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01""Visiting villages may earn you""\x01""items or money.""\x03\x01""You can use any items you obtain""\x01""with the Item command.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01""像这样访问村庄""\x01""会有各种好事发生哦！""\x03\x01""得到的道具后，可以""\x01""用『物品』指令使用。""\x03",
+    },
+
+    [48] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [49] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [50] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [51] = {
+        [LANGUAGE_JAPANESE] = "\x0C""これが""\x01""このユニットのステータスよ""\x03\x01""力とか　技とか""\x01""たくさんあるけど・・・""\x03\x01""全部覚えるのも""\x01""めんどうよね""\x03\x01""もし　それがどういうものか""\x01""知りたくなった時は・・・""\x03\x01""Ｒボタンを押してみて""\x03\x01""それぞれについて""\x01""説明が見られるから""\x03\x02\x01""じゃ　Ｂボタンを押して""\x01""マップに・・・""\x03\x01""あ　あと""\x01""もう一つだけ""\x03\x01""この画面で""\x01""左右を押すと・・・""\x03\x01""このユニットの持つ""\x01""アイテムが見られるわよ""\x03\x01""じゃ　見終わったらＢボタンを押して""\x01""戻りましょう""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x01""These are a unit's details.""\x01""There are many parameters here,""\x03\x01""but I won't bore you by""\x01""explaining each one.""\x03\x01""If you want to know about the""\x01""different values,""\x03\x01""press the R Button for""\x01""more information.""\x03\x01""Also, if you press right and left on the""\x01""+ Control Pad on this screen,""\x03\x01""you can view additional information,""\x01""such as held items and weapon skills.""\x03\x01""When you're done, press""\x01""the B Button to return to the map.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C""这就是""\x01""这个角色的状态资料，""\x03\x01""有力、技""\x01""等等。""\x03\x01""要全部记住它们""\x01""也很麻烦，""\x03\x01""如果你不知道它们""\x01""的作用的话，""\x03\x01""按下R键""\x03\x01""就可以看到""\x01""它们的说明了。""\x03\x02\x01""好了，按B键""\x01""回到地图上。""\x03\x01""啊，还有""\x01""一个，""\x03\x01""在这个画面""\x01""按左右键的话，""\x03\x01""就能看到该角色""\x01""所持有的道具。""\x03\x01""那么，看完之后就按B键""\x01""返回吧。""\x03",
+    },
+
+    [52] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [53] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01""敵の行動が終わると""\x01""また　ロイの動かす番よ""\x03\x01""こういうふうに　かわるがわるユニットを""\x01""動かしていくことで　戦いは進むの""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01""When the enemy's turn is done,""\x01""it's your turn again.""\x03\x01""The battle proceeds like this""\x01""in a turn-by-turn fashion.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01""等敌人的行动结束后，""\x01""又会轮到罗伊行动了。""\x03\x01""就像这样，角色轮流行动""\x01""来推进战斗。""\x03",
+    },
+
+    [54] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x0B\x01\x01""よし　急ごう""\x03\x01""この弓で""\x01""ロイさまのお役に立つんだ""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x0B\x01""All right! I'll help""\x01""Lord Roy with my bow!""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x0B\x01\x01""好，赶快上吧！""\x03\x01""让我用这把弓""\x01""为罗伊大人效劳吧！""\x03",
+    },
+
+    [55] = {
+        [LANGUAGE_JAPANESE] = "\x10\x34\x01""ロイ　ウォルトが""\x01""助けに来てくれたわね""\x03\x01""このように　あなたが指示を出すのは""\x01""自分だけじゃないわ""\x03\x01""他の人の命をあずかるのだから""\x01""よく考えて指示するのよ""\x03\x01""それから　もう一つ・・・""\x06",
+        [LANGUAGE_ENGLISH] = "\x10\x34\x01""Roy, the archer Wolt came""\x01""to help you.""\x03\x01""You're not the only unit""\x01""you can move.""\x03\x01""You have command over all""\x01""of your allies, too,""\x03\x01""but remember that you are""\x01""responsible for their lives.""\x03\x01""And one more thing...""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x34\x01""罗伊，沃尔特来""\x01""帮你了，""\x03\x01""这样你就可以对自己以外""\x01""的角色下达命令了。""\x03\x01""人家可是把性命都交给你了哦，""\x01""要想好了再下达指令哟！""\x03\x01""啊！对了，还有一个……""\x06",
+    },
+
+    [56] = {
+        [LANGUAGE_JAPANESE] = "\x10\x34\x01""今　カーソルが動いている""\x01""ところがあるわね""\x03\x01""ここは　「村」の入り口よ""\x03\x01""ふつうの人々が""\x01""くらしている場所だから""\x03\x01""戦いがおこっていることを""\x01""知らせてあげないといけないの""\x03\x01""カーソルの場所に移動して""\x01""『訪問』で知らせてあげてね""\x03",
+        [LANGUAGE_ENGLISH] = "\x10\x34\x01\x01""Do you see where""\x01""the cursor is?""\x03\x01""This is the entrance""\x01""to a village.""\x03\x01""You should inform""\x01""the village of the battle.""\x03\x01""Once you move to the""\x01""entrance of a village,""\x03\x01""you can select Visit""\x01""to inform them.""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x34\x01""现在光标""\x01""所指的地方""\x03\x01""就是「村庄」的入口，""\x03\x01""因为这里是老百姓们""\x01""生活的地方，""\x03\x01""所以得通知他们""\x01""这里要发生战争了。""\x03\x01""移动到光标所在的地方，""\x01""用『访问』指令通知他们吧！""\x03",
+    },
+
+    [57] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x22\x01""ロイ　大丈夫！？""\x03\x01""今　わたしの魔法で""\x01""助けてあげる！""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x22\x01""Roy, are you all right?""\x01""I'll help you with my magic!""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x22\x01""罗伊，你没事吧？""\x03\x01""我会用魔法""\x01""帮助你的！""\x03",
+    },
+
+    [58] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [59] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01\x01""うん　そろそろ戦い方が""\x01""わかってきたかしら？""\x03\x01""じゃ　ここで""\x01""戦いに勝つための大事な武器・・・""\x03\x01""情報について""\x01""教えておくわね""\x03\x01""Ｒボタン　これで""\x01""いろいろな情報を知ることができるわ""\x03\x01""ユニットにカーソルを合わせて""\x01""Ｒボタンを押せば　ユニットのステータスが""\x03\x01""そこで　Ｒボタンを押せば""\x01""さらに　くわしい説明が見られるわ""\x03\x01""『攻撃』や『待機』コマンドなどを忘れても""\x01""Ｒボタンで　説明を見ることができるわよ""\x03\x01""わからないことがあったら　とりあえず""\x01""Ｒボタンを押してみて""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01\x01""Do you think you have a grasp""\x01""on the basics of battle now?""\x03\x02\x01""Now I'll tell you about one of the""\x01""most powerful weapons you have...""\x03\x01""Information.""\x03\x01""You can press the R Button to ""\x01""investigate numerous things.""\x03\x01""For example, if you press the R Button while""\x01""the cursor is on a unit,""\x03\x01""you can view its statistics,""\x01""items, and other data.""\x03\x01""You can also press the R Button on""\x01""commands if you don't understand them.""\x03\x01""If there's something you're unsure""\x01""of, the R Button is there to help.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01\x01""嗯，现在差不多""\x01""应该知道如何战斗了吧？""\x03\x01""那么，就将""\x01""取得胜利最关键的武器""\x03\x01""——情报""\x01""告诉你吧！""\x03\x01""按R键，就能""\x01""得到各种各样的情报，""\x03\x01""将光标移到角色身上，""\x01""按R键就能打开角色的状态栏，""\x03\x01""再按R键""\x01""就能看到更详细的说明。""\x03\x01""就算忘记了『攻击』、『待机』等""\x01""指令的作用，也能用R键看说明。""\x03\x01""如果有不明白的地方，那就""\x01""按R键试试吧。""\x03",
+    },
+
+    [60] = {
+        [LANGUAGE_JAPANESE] = "\x09\x10\x34\x01\x01""そろそろ　城が""\x01""近くなってきたわね""\x03\x01""さっきも言ったけど　今　敵がいすわる""\x01""あの『城門』が敵の拠点よ""\x03\x01""その上にいる敵将・・・""\x01""今はボールスをたおして""\x03\x01""あそこをロイが『制圧』すれば""\x01""ロイたちの勝利になるの""\x03\x01""さ　この調子で""\x01""城に向かいましょう""\x03",
+        [LANGUAGE_ENGLISH] = "\x09\x10\x34\x01\x01""You will soon approach""\x01""the castle.""\x03\x01""Like I said before,""\x01""to win,""\x03\x01""you have to seize the""\x01""castle gate or throne.""\x03\x01""In other words, where""\x01""the enemy leader is.""\x03\x01""Bors is leading the enemy""\x01""in this training mission,""\x03\x01""so your final task is to""\x01""defeat him.""\x03\x01""Once you've done that, use""\x01""the Seize command on the gate,""\x03\x01""and victory will be yours!""\x03",
+        [LANGUAGE_CHINESE] = "\x09\x10\x34\x01\x01""已经离敌人的""\x01""城堡很近了。""\x03\x01""刚才也说过了，敌人驻守在那里，""\x01""那『城门』就是敌人的据点，""\x03\x01""而守关的就是敌人的将领。""\x01""现在只要打倒鲍斯，""\x03\x01""让罗伊『占领』那里""\x01""就算是胜利了。""\x03\x01""来吧，就这样""\x01""向城堡前进吧。""\x03",
+    },
+
+    [61] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01\x01""やったわね！""\x01""拠点の敵を倒したわ""\x03\x01""あとはロイが　城門まで移動し""\x01""『制圧』するだけよ""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01\x01""Good! You defeated the enemy leader.""\x03\x01""Now, Roy, all that's left is for you to""\x01""move onto the castle gate and Seize it.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01\x01""成功了！""\x01""将据点的敌人打倒了，""\x03\x01""接下来只要罗伊移动到城门，""\x01""再『占领』就行了。""\x03",
+    },
+
+    [62] = {
+        [LANGUAGE_JAPANESE] = "『制圧』コマンドが""\x01""出てるでしょう？""\x03\x01""『制圧』を選んで""\x01""Ａボタンを押せばロイの勝利よ""\x03",
+        [LANGUAGE_ENGLISH] = "Do you see the Seize command?""\x03\x01""Select it and press the A Button""\x01""to win the battle.""\x03",
+        [LANGUAGE_CHINESE] = "看到『占领』指令""\x01""了吧？""\x03\x01""选择『占领』，""\x01""再按下A键就是罗伊的胜利了。""\x03",
+    },
+
+    [63] = {
+        [LANGUAGE_JAPANESE] = "『救出』コマンドが　出ているわね""\x03\x01""これは　となりにいるユニットをかついで""\x01""助けたり運んだりするためのコマンドなの""\x03\x01""自分の救出できる力よりも　体格の""\x01""大きなユニットは救出できないけど・・・""\x03\x01""救出できる力や体格は""\x01""パラメータを見ればわかるわよ""\x03\x01""『救出』したユニットは""\x01""『降ろす』コマンドでとなりに降ろせるわ""\x03\x01""でも　『救出』と『降ろす』は　同時には""\x01""できないから　気をつけてね""\x03",
+        [LANGUAGE_ENGLISH] = "The Rescue command allows you""\x01""to carry allies to protect them.""\x03\x01""A unit can only be rescued if its Con stat""\x01""is lower than the rescuer's Aid stat.""\x03\x01""You can see a unit's Con and Aid""\x01""values on the unit data screen.""\x03\x01""While a unit is carrying another,""\x03\x01""its combat statistics are lowered""\x01""significantly, so be careful.""\x03\x01""After rescuing a unit,""\x03\x01""you can drop it onto a space by""\x01""using the Drop command.""\x03\x01""Or if you prefer,""\x03\x01""you can pass it to another unit""\x01""with the Give or Take commands.""\x03\x01""Remember, however, that you can""\x01""only perform one command per turn.""\x03",
+        [LANGUAGE_CHINESE] = "『救出』指令出现了吧？""\x03\x01""这是可以用来救助和""\x01""运送旁边角色的指令，""\x03\x01""但是如果对方的体格比自己救出的""\x01""能力大的话，那就无法救出了。""\x03\x01""救出能力和体格""\x01""可以在状态栏看到。""\x03\x01""被『救出』的角色可以用""\x01""『放下』指令放到旁边的格子中，""\x03\x01""不过『救出』和『放下』不能""\x01""同时进行，要注意哦。""\x03",
+    },
+
+    [64] = {
+        [LANGUAGE_JAPANESE] = "『交換』コマンドが　出ていると思うけど""\x03\x01""このコマンドでとなりのユニットと""\x01""持ち物を交換することができるの""\x03\x01""これを選んで　Ａボタンを押すと""\x01""おたがいの持ち物が　表示されるから""\x03\x01""交換するものを選んで""\x01""Ａボタンを押すの""\x03\x01""一方的にもらうだけなら""\x01""なにもないところを選べばいいわ""\x03\x01""ここでも　武器をすべて""\x01""他のユニットにわたしたら""\x03\x01""戦えなくなるから注意してね""\x03",
+        [LANGUAGE_ENGLISH] = "The Trade command allows a unit""\x01""to trade items with other units.""\x03\x01""If you select the command and""\x01""press the A Button,""\x03\x01""the two units' inventories will""\x01""be displayed.""\x03\x01""You may select which items you""\x01""want to trade with the A Button.""\x03\x01""If you just want to give or""\x01""take an item,""\x03\x01""trade that item to an empty""\x01""space.""\x03\x01""If you give all of a unit's""\x01""weapons to another unit,""\x03\x01""it won't be able to fight,""\x01""however, so use caution.""\x03",
+        [LANGUAGE_CHINESE] = "看到『交换』指令了吧？""\x03\x01""这个指令可以让你和周围的""\x01""同伴交换身上的物品。""\x03\x01""选择它，再按下A键""\x01""就可以看到双方所持有的物品，""\x03\x01""选择要交换的物品，""\x01""然后按A键。""\x03\x01""如果只是单方给予的话，""\x01""那另一方只要选空格就可以了。""\x03\x01""不过要注意的是，""\x01""要是把武器都给了别人的话，""\x03\x01""那自己就无法战斗了。""\x03",
+    },
+
+    [65] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [66] = {
+        [LANGUAGE_JAPANESE] = "今出たのはユニットコマンドよ""\x03\x01""コマンドというのはあなたが出せる""\x01""命令のことなの""\x03\x01""今は『持ち物』と『待機』""\x01""二つのコマンドが出ているわね""\x03\x01""十字ボタンで指カーソルを動かして""\x01""Ａボタンを押すとそのコマンドを選べるの""\x03\x01""上の『持ち物』を選ぶと　持ち物を""\x01""見たり装備し直したりすることができるわ""\x03\x01""持ち物を『捨てる』こともできるんだけど""\x01""武器がなくなると戦えなくなってしまうわ""\x03\x01""本当の戦いのときはかまわないけど""\x01""訓練中は　武器は捨てないでね""\x03\x01""することがない時は　『待機』を選べば""\x01""そのユニットは行動を終了するわ""\x03\x01""前にも言ったけれど""\x01""やり直したいときは　Ｂボタンよ""\x03",
+        [LANGUAGE_ENGLISH] = "These are commands that you""\x01""can give to your units.""\x03\x01""Right now, you can see the""\x01""Item and Wait commands.""\x03\x01""You can issue a command""\x01""with the A Button.""\x03\x01""The Item command allows you to""\x01""equip, use, or discard items.""\x03\x01""If you're finished with a unit,""\x01""select Wait to end its turn.""\x03\x01""Remember that you can cancel""\x01""with the B Button,""\x03\x01""but if you select Wait you can't""\x01""take it back,""\x03\x01""so make sure you're finished""\x01""before selecting it.""\x03",
+        [LANGUAGE_CHINESE] = "现在出现的就是角色指令，""\x03\x01""也就是你对角色""\x01""所下达的命令。""\x03\x01""现在出现的是""\x01""『物品』和『待机』这两个指令，""\x03\x01""用十字键移动手指光标，""\x01""再按A键就能选择指令，""\x03\x01""选择上方的『物品』就可以进行""\x01""武器的装备和道具的使用。""\x03\x01""身上的道具也可以『丢弃』，""\x01""武器要是用完的话就无法战斗了，""\x03\x01""训练的时候倒是没有关系，""\x01""但实战的时候可别把武器给扔了。""\x03\x01""要是没事做了的话，选『待机』""\x01""就能结束角色的行动了。""\x03\x01""刚才也说过了，""\x01""要返回的话就按B键。""\x03",
+    },
+
+    [67] = {
+        [LANGUAGE_JAPANESE] = "",
+        [LANGUAGE_ENGLISH] = "",
+        [LANGUAGE_CHINESE] = "",
+    },
+
+    [68] = {
+        [LANGUAGE_JAPANESE] = "\x0C\x10\x34\x01\x01""どう　順調？""\x03\x01\x0C""じゃ　ここでマップコマンドについて""\x01""教えておくわね""\x03\x01""このコマンドは""\x01""戦いには直接関係ないけど・・・""\x03\x01""いろいろと""\x01""便利な機能があるの""\x03\x01""マップコマンドを""\x01""見たいときは・・・""\x03\x01""ユニットが　『いない』所に""\x01""カーソルを合わせ　Ａボタンを押しましょう""\x03\x01""それぞれのコマンドは""\x01""Ｒボタンで　説明を見ることができるわ""\x03",
+        [LANGUAGE_ENGLISH] = "\x0C\x10\x34\x01\x01""I'll tell you about the map menu now.""\x03\x01""Move the cursor to an empty space""\x01""and press the A Button.""\x03\x01""You can see more information about""\x01""each command by using the R Button.""\x03",
+        [LANGUAGE_CHINESE] = "\x0C\x10\x34\x01\x01""怎么样，还顺利吗？""\x03\x01\x0C""那么现在我就教给你""\x01""地图菜单的功能，""\x03\x01""虽然这个指令""\x01""和战斗没有直接的关系，""\x03\x01""但是它有许多""\x01""便利的机能。""\x03\x01""要打开地图菜单""\x01""的话，""\x03\x01""就在没有角色的地方""\x01""按下A键，""\x03\x01""所有的命令都能""\x01""按R键来查看说明。""\x03",
+    },
+
+    [69] = {
+        [LANGUAGE_JAPANESE] = "ユニットのいない所にカーソルを合わせ""\x01""Ａボタンを押すと・・・""\x03\x01""こういうふうに""\x01""マップコマンドが現れるわ""\x03\x01""『部隊』　『状況』とか""\x01""いろいろ並んでいるけど・・・""\x03\x01""とりあえず　今は　全部を""\x01""おぼえなくてもいいわ""\x03\x01""そうね・・・一番下の『終了』コマンドだけ""\x01""知っておいて""\x03\x01""味方を全員動かす前に""\x01""敵軍の動かす番にしたいときは・・・""\x03\x01""『終了』にカーソルを合わせ""\x01""Ａボタンを押すのよ""\x03\x01""必要なければ""\x01""Ｂボタンで　元の画面に戻りましょう""\x03",
+        [LANGUAGE_ENGLISH] = "If you press the A Button when the""\x01""cursor is on an unoccupied space,""\x03\x01""the map menu appears.""\x03\x01""First, look at the bottom command.""\x03\x01""You can choose End to end your turn""\x01""before moving all of your units.""\x03\x01""Just select it and press the A Button""\x01""if you're ready.""\x03\x01""If you want to return to the map and""\x01""the cursor, press the B Button.""\x03",
+        [LANGUAGE_CHINESE] = "在没有角色的地方""\x01""按下A键，""\x03\x01""这样""\x01""地图菜单就出现了，""\x03\x01""有『部队』、『状态』等""\x01""各种各样的指令，""\x03\x01""也不用马上""\x01""全部都记下来。""\x03\x01""对了，至少要知道最下方的""\x01""『结束』的功能，""\x03\x01""如果在己方还有人能行动时""\x01""想要结束本回合的话，""\x03\x01""就将光标移到『结束』上，""\x01""再按A键。""\x03\x01""如果不需要了的话，""\x01""就按B键回到原来的画面吧。""\x03",
+    },
+
+    [70] = {
+        [LANGUAGE_JAPANESE] = "\x10\x34\x01""ああ・・・ロイ""\x01""死んでしまうなんて""\x03\x01""・・・なんて実戦なら""\x01""言ってるところよ""\x03\x01""ロイが倒れると　戦いは""\x01""負けになってしまうわ""\x03\x01""そんな顔しないで""\x01""明日また　同じ訓練をしましょう""\x03\x01""明日も""\x01""がんばってね""\x03",
+        [LANGUAGE_ENGLISH] = "\x10\x34\x01""Roy...! Nooo!""\x03\x01""...That's what I would be saying""\x01""if this was a real battle.""\x03\x01""This battle is lost.""\x03\x01""Don't be discouraged...""\x01""We'll try again tomorrow.""\x03\x01""Let's get some rest.""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x34\x01""啊！没想到罗伊""\x01""居然死了……""\x03\x01""如果""\x01""这是实战的话，""\x03\x01""罗伊死亡，我们""\x01""就是战败了。""\x03\x01""别灰心，""\x01""明天再进行相同的训练吧。""\x03\x01""明天也要""\x01""加油哦！""\x03",
+    },
+
+    [71] = {
+        [LANGUAGE_JAPANESE] = "\x10\x22\x01\x01""ロイ・・・""\x03\x01""本当だと　私これで""\x01""死んじゃうのよ・・・？""\x03\x02\x01""今は訓練だから""\x01""よかったけど""\x03\x01""本当の戦いでは""\x01""気をつけてね""\x03",
+        [LANGUAGE_ENGLISH] = "\x10\x22\x01\x01""Roy... If this was a real""\x01""battle, I'd be dead.""\x03\x01""Remember that defeated""\x01""allies are gone forever.""\x03\x01""Be more careful in real""\x01""battles, OK...?""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x22\x01\x01""罗伊，""\x03\x01""我真的""\x01""要死了……""\x03\x02\x01""现在是训练，""\x01""那还没事，""\x03\x01""实战的时候""\x01""可要小心啊！""\x03",
+    },
+
+    [72] = {
+        [LANGUAGE_JAPANESE] = "\x10\x0B\x01\x01""ロ　ロイさま・・・""\x03\x01""今は訓練ですので""\x01""平気ですが""\x03\x01""本当の戦いでは""\x03\x01""死んだ仲間は二度と""\x01""生き返りません""\x03\x01""仲間を失っても""\x01""戦いは続きますが・・・""\x03\x01""どうか忘れないでください""\x03",
+        [LANGUAGE_ENGLISH] = "\x10\x0B\x01\x01""L-Lord Roy...""\x03\x01""This is only a training""\x01""session, so I'm fine,""\x03\x01""but if this were a real""\x01""battle, I would be dead.""\x03\x01""When defeated, allies are""\x01""gone forever.""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x0B\x01\x01""罗、罗伊大人，""\x03\x01""现在可是在训练啊！""\x01""你没事吧？""\x03\x01""要是实战的话，""\x03\x01""死去的同伴""\x01""就再也不能复活了。""\x03\x01""虽然失去同伴""\x01""仍然可以继续战斗……""\x03\x01""请您千万不要忘记了。""\x03",
+    },
+
+    [73] = {
+        [LANGUAGE_JAPANESE] = "\x09\x10\xFF\xFF\x0C\x10\x5C\x01\x01""ごくろうさま""\x03\x01""ほんとに戦いが起きても""\x01""よろしくおねがいしますね""\x03",
+        [LANGUAGE_ENGLISH] = "\x09\x10\xFF\xFF\x0C\x10\x5C\x01\x01""Thank you for coming.""\x03\x01""Please remember to inform the""\x01""villagers in real battles as well.""\x03",
+        [LANGUAGE_CHINESE] = "\x09\x10\xFF\xFF\x0C\x10\x5C\x01\x01""您辛苦了！""\x03\x01""如果真的发生战争的话，""\x01""也要请您多关照啊。""\x03",
+    },
+
+    [74] = {
+        [LANGUAGE_JAPANESE] = "\x09\x10\x02\x01\x0C\x10\x34\x01\x01""制圧が完了したわ""\x03\x01""これで訓練は終わりよ""\x03\x01""どう？""\x01""はじめての戦いの感想は？""\x03\x01""もし　本当に戦いが起きたら""\x01""今日やった事を思い出してみて""\x03\x01""大丈夫""\x01""あなたはもう立派に戦えるわ""\x03",
+        [LANGUAGE_ENGLISH] = "\x09\x10\x02\x01\x0C\x10\x34\x01\x01""Good job! You've captured""\x01""the enemy's castle gate.""\x03\x01""That finishes our training""\x01""session for today.""\x03\x01""How do you feel?""\x01""Do you think you can do it?""\x03\x01""If you ever find yourself in""\x01""a real battle,""\x03\x01""just remember what you learned""\x01""here today and you'll be fine.""\x03",
+        [LANGUAGE_CHINESE] = "\x09\x10\x02\x01\x0C\x10\x34\x01\x01""占领敌人据点了，""\x03\x01""这样训练就结束了，""\x03\x01""怎么样？""\x01""初阵的感觉如何？""\x03\x01""要是真的发生战斗了的话，""\x01""就好好回忆一下今天所做的吧！""\x03\x01""没关系，""\x01""你已经是个优秀的战士了。""\x03",
+    },
+
+    [75] = {
+        [LANGUAGE_JAPANESE] = "\x10\x09\x01""ついに　ここまで""\x01""来られましたか""\x03\x01""訓練とはいえ　真剣勝負""\x01""手加減はしませんぞ！""\x03",
+        [LANGUAGE_ENGLISH] = "\x10\x09\x01""Ah, you've made it.""\x03\x01""This is a training session,""\x01""but a battle all the same.""\x03\x01""Don't expect me to go""\x01""easy on you!""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x09\x01""终于""\x01""来到这里了啊，""\x03\x01""虽说是训练，""\x01""但我不会手下留情的！""\x03",
+    },
+
+    [76] = {
+        [LANGUAGE_JAPANESE] = "\x10\x09\x01""な・・・　なんと""\x03",
+        [LANGUAGE_ENGLISH] = "\x10\x09\x01""Well... You win.""\x01""Nicely done.""\x03",
+        [LANGUAGE_CHINESE] = "\x10\x09\x01""什、什么……""\x03",
+    },
+
     [703] = {
         [LANGUAGE_JAPANESE] = "はい",
         [LANGUAGE_ENGLISH] = "Yes",

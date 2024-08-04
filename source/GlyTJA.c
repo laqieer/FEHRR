@@ -9938,6 +9938,15 @@ const struct GlyphNew GlyTJA_E5B084 = { /* 射 */
     .bitmap = GlyTJA_E5B084Tiles,
 };
 
+const struct GlyphNew GlyTJA_E28792 = { /* ⇒ */
+    .next = &GlyTJA_E291A6,
+    .width = 11,
+    .utf_byte_2 = 0x87,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTJA_E28792Tiles,
+};
+
 const struct GlyphNew GlyTJA_E381AE = { /* の */
     .next = &GlyTJA_E381AD,
     .width = 9,
@@ -13593,7 +13602,7 @@ const struct GlyphNew GlyTJA_E9AEAE = { /* 鮮 */
 };
 
 const struct GlyphNew GlyTJA_E291AE = { /* ⑮ */
-    .next = &GlyTJA_E291A6,
+    .next = &GlyTJA_E28792,
     .width = 8,
     .utf_byte_2 = 0x91,
     .utf_byte_3 = 0xae,
