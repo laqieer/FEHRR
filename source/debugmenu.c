@@ -397,7 +397,8 @@ u32 MapDebugMenu_ChangeBGM_Display(struct MenuProc * menu, struct MenuEntProc * 
     ClearText(&ent->text);
 
     Text_InsertDrawString(&ent->text, 8, TEXT_COLOR_SYSTEM_WHITE, (const char *)3785); // BGM
-    Text_InsertDrawNumberOrBlank(&ent->text, 64, TEXT_COLOR_SYSTEM_BLUE, GetCurrentBgmSong());
+    Text_InsertDrawNumberOrBlank(&ent->text, 40, TEXT_COLOR_SYSTEM_BLUE, GetCurrentBgmSong());
+    Text_InsertDrawString(&ent->text, 48, TEXT_COLOR_SYSTEM_BLUE, getSongName(GetCurrentBgmSong()));
 
     PutText(&ent->text, gBg0Tm + TM_OFFSET(ent->x, ent->y));
 
@@ -521,7 +522,7 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
 
 struct MenuInfo const MenuInfo_Debug_Map =
 {
-    .rect = { 1, 1, 14, 0 },
+    .rect = { 1, 1, 20, 0 },
     .entries = MenuEntInfo_Debug_Map,
     .on_init = func_fe6_0801AABC,
     .on_b_press = func_fe6_0801A748,
