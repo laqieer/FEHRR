@@ -238,6 +238,47 @@ def print_music_progress():
     print(f"TODO: {len([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0])} musics")
     print(sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0 and len(new_musics[x]) == 0]))
 
+def get_music_id_from_filename(filename):
+    return f"SONG_{filename[:-4].upper()}"
+
+def make_header_file():
+    with open("include/songsNew.h", "w", encoding="utf-8") as file:
+        file.write("#pragma once\n\n")
+        file.write("enum {\n")
+        file.write("    SONG_NEW = 621,\n")
+        for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
+            file.write(f"    {get_music_id_from_filename(filename)},\n")
+        file.write("    SONG_MAX\n")
+        file.write("};\n\n")
+        for filename, original_song in sorted(existed_musics.items()):
+            if original_song != "":
+                file.write(f"#define {get_music_id_from_filename(filename)} {original_song}\n")
+        file.write("\n")
+        for filename, music in musics.items():
+            for appearance in music.get("appearances", []):
+                file.write(f"#define {appearance} {get_music_id_from_filename(filename)}\n")
+
+def make_source_file():
+    with open("source/songs.c", "w", encoding="utf-8") as file:
+        file.write("#include \"m4a.h\"\n")
+        file.write("#include \"constants/songs.h\"\n")
+        file.write("#include \"songsNew.h\"\n")
+        file.write("#include \"music_midi.h\"\n")
+        file.write("#include \"music_trans_best_matches.h\"\n\n")
+        file.write("const struct SongEnt newSongs[] = {\n")
+        for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
+            priority = 0
+            for appearance in musics[filename].get("appearances", []):
+                if "MID_SCENARIO" not in appearance:
+                    priority = 1
+                    break
+            file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = {{{filename[:-4]}, {priority}, {priority}}},\n")
+        file.write("};\n\n")
+        file.write("const char * const song_names[] = {\n")
+        for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
+            file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = \"{filename[:-4]}\",\n")
+        file.write("};\n\n")
+
 if __name__ == "__main__":
     read_music_titles()
     read_musics()
@@ -246,10 +287,12 @@ if __name__ == "__main__":
     read_scenario_musics()
     # list_appeared_musics()
     read_existed_musics()
-    save_existed_musics()
+    # save_existed_musics()
     read_new_musics()
-    save_new_musics()
-    save_appeared_musics()
-    make_new_musics()
-    download_music_files()
-    print_music_progress()
+    # save_new_musics()
+    # save_appeared_musics()
+    # make_new_musics()
+    # download_music_files()
+    # print_music_progress()
+    make_header_file()
+    make_source_file()
