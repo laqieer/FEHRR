@@ -101,8 +101,8 @@ fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
     if (mapEnt->mapId >= CHAPTER_CH_COUNT)
         mapEnt->mapId = CHAPTER_CH_COUNT - 1;
 
-    if (mapEnt->mapId < 1)
-        mapEnt->mapId = 1;
+    if (mapEnt->mapId < CHAPTER_CH_1st)
+        mapEnt->mapId = CHAPTER_CH_1st;
 
     if (gKeySt->repeated & (KEY_DPAD_LEFT | KEY_DPAD_RIGHT))
     {
@@ -520,11 +520,19 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
     { 0 }, // end
 };
 
+fu8 InitDebugMapMenu(struct MenuProc * menu)
+{
+    DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), GetChapterInfo(CHAPTER_CH_1st)->debug_name);
+    EnableBgSync(BG0_SYNC_BIT);
+
+    return 0;
+}
+
 struct MenuInfo const MenuInfo_Debug_Map =
 {
     .rect = { 1, 1, 20, 0 },
     .entries = MenuEntInfo_Debug_Map,
-    .on_init = func_fe6_0801AABC,
+    .on_init = InitDebugMapMenu,
     .on_b_press = func_fe6_0801A748,
     .on_r_press = MenuActionHelpBox,
     .on_help_box = MenuHelpBoxRegular,
