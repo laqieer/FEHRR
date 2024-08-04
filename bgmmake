@@ -1,0 +1,155 @@
+#
+# Making a bgm library from midi2agb output
+#
+# For use on data-arrays only. NO CODE!!!
+#
+
+# ---------------------------------------------------------------------
+# SETUP
+# ---------------------------------------------------------------------
+
+SHELL = /bin/bash
+
+export PATH :=  $(DEVKITARM)/bin:$(PATH)
+
+MIDI2AGB      := ../tool/midi2agb/midi2agb
+
+.SUFFIXES:
+
+include $(DEVKITARM)/base_rules
+
+
+# ---------------------------------------------------------------------
+# (1) PROJECT DETAILS
+# ---------------------------------------------------------------------
+
+# BGMDIR	: Directory for BGM files. Should NOT be empty!
+# LIBNAME   : BGM library name
+# BUILD     : Directory for build process temporaries. Should NOT be empty!
+# BGMDIRS   : List of BGM directories
+# BGMEXTS   : BGM extensions.
+# General note: use . for the current dir, don't leave them empty.
+
+BGMDIR		?= bgm
+LIBNAME	 	?= $(subst /,_,$(BGMDIR))
+BUILD       := build
+BGMDIRS     := $(shell find $(BGMDIR) -type d)
+BGMLIB      ?= lib$(LIBNAME).a
+BGMHDR      ?= $(LIBNAME).h
+
+BGMEXTS     := mid midi
+
+# ---------------------------------------------------------------------
+# BUILD FLAGS
+# ---------------------------------------------------------------------
+
+# Since there's no code to compile, we won't need optimizations,
+# architectures etc.
+
+CFLAGS      :=
+CXXFLAGS    := $(CFLAGS) -fno-rtti -fno-exceptions
+ASFLAGS     := -I ../include
+
+# ---------------------------------------------------------------------
+# (2) BUILD PROCEDURE
+# ---------------------------------------------------------------------
+
+ifneq ($(BUILD),$(notdir $(CURDIR)))
+
+# still in main directory.
+
+export VPATH    :=  $(foreach dir, $(BGMDIRS), $(CURDIR)/$(dir))
+export DEPSDIR  :=  $(CURDIR)/$(BUILD)
+
+export TARGET   :=  $(DEPSDIR)/$(BGMLIB)
+
+BGMFILES    := 	$(foreach dir, $(BGMDIRS),                      \
+	                $(foreach ext, $(BGMEXTS),                  \
+	                    $(notdir $(wildcard $(dir)/*.$(ext)))   \
+	))
+
+export OFILES   := $(addsuffix .o, $(basename $(BGMFILES)))
+
+
+# --- More targets ----------------------------------------------------
+
+.PHONY: $(BUILD) clean
+
+# --- Create BUILD if necessary, and run this makefile from there ---
+
+$(BUILD):
+	@[ -d $@ ] || mkdir -p $@
+	@make --no-print-directory -C $(BUILD) -f $(CURDIR)/bgmmake
+
+all : $(BUILD)
+
+clean:
+	@echo clean ...
+	@rm -fr $(BUILD) $(TARGET) $(BGMHDR)
+
+
+# ---------------------------------------------------------------------
+
+else
+
+DEPENDS :=  $(OFILES:.o=.d)
+
+.PHONY : all
+
+all : $(TARGET) $(BGMHDR)
+
+$(TARGET) : $(OFILES)
+	@echo Archiving into $(notdir $@)
+	-@rm -f $@
+	@$(AR) rcs $@ $(OFILES)
+
+
+$(BGMHDR) : $(OFILES)
+	@echo "Creating master header: $@"
+	@$(call master-header, $@, $(notdir $(^:.o=.h)) )
+
+
+# ---------------------------------------------------------------------
+# (3) BASE CONVERSION RULES
+# ---------------------------------------------------------------------
+
+%.s %.h : %.mid
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(MIDI2AGB) $< $@
+	$(SILENTCMD)echo "extern const struct Song $*;" > $*.h
+
+%.s %.h : %.midi
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(MIDI2AGB) $< $@
+	$(SILENTCMD)echo "extern const struct Song $*;" > $*.h
+
+# ---------------------------------------------------------------------
+# (4) SPECIAL RULES
+# ---------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------
+# (5) UTILITY FUNCTIONS
+# ---------------------------------------------------------------------
+
+## Merge all headers into a single large one for easier including.
+define master-header    # $1 : master path, $2 separate header paths
+	echo -e "//\n// $(notdir $(strip $1))\n//" > $1
+	echo -e "// One header to rule them and in the darkness bind them" >> $1
+	echo -e "// Date: $(shell date +'%F %X' )\n" >> $1
+	echo -e "#ifdef __cplusplus\nextern \"C\" {\n#endif" >> $1
+	cat $2 >> $1
+	echo -e "\n#ifdef __cplusplus\n};\n#endif\n" >> $1
+endef
+
+## if you just want to include the separate headers, use this instead of cat:
+#   for hdr in $2 ; \
+#       do echo -e "#include \"$$hdr\"" >> $1 ; done;
+
+# ---------------------------------------------------------------------
+# DEPENDENCIES
+# ---------------------------------------------------------------------
+
+-include $(DEPENDS)
+
+endif

@@ -16,6 +16,7 @@ include $(DEVKITARM)/gba_rules
 # DATA is a list of directories containing binary data
 # GRAPHICS is a list of directories containing files to be processed by grit
 # SOUNDS is a list of directories containing files to be processed by se2m4a
+# BGMS is a list of directories containing files to be processed by midi2agb
 #
 # All directories are specified relative to the project directory where
 # the makefile is found
@@ -23,13 +24,14 @@ include $(DEVKITARM)/gba_rules
 #---------------------------------------------------------------------------------
 TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
-SOURCES		:= source source/gba-hq-mixer
+SOURCES		:= source source/gba-hq-mixer source/music
 INCLUDES	:= include include/decomp/include
 DATA		:= data/map data/terrain
 MUSIC		:=
 LDSCRIPTS	:= ldscript
 GRAPHICS	:= gfx/face gfx/glyph/EN gfx/glyph/JA gfx/glyph/ZH gfx/background gfx/misc gfx/map
 SOUNDS		:= sfx/voice
+BGMS		:= music/midi music/trans/best_matches
 
 #---------------------------------------------------------------------------------
 # options for code generation
@@ -50,6 +52,9 @@ CFLAGS += -DGIT_VERSION=\"$(GIT_VERSION)\"
 CXXFLAGS	:=	$(CFLAGS) -fno-rtti -fno-exceptions
 
 ASFLAGS	:=	-g $(ARCH)
+
+ASFLAGS	+=	$(INCLUDE)
+
 LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(OUTPUT).map
 
 LDFLAGS	+=	-nostartfiles
@@ -60,12 +65,16 @@ GFXLIBS     ?= $(foreach dir,$(GRAPHICS),lib$(subst /,_,$(dir)).a)
 ## Create a sfx library variable
 SFXLIBS     ?= $(foreach dir,$(SOUNDS),lib$(subst /,_,$(dir)).a)
 
+## Create a bgm library variable
+BGMLIBS     ?= $(foreach dir,$(BGMS),lib$(subst /,_,$(dir)).a)
+
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
 LIBS	:= -lmm -lgba \
 	$(foreach dir,$(GRAPHICS),-l$(subst /,_,$(dir))) \
-	$(foreach dir,$(SOUNDS),-l$(subst /,_,$(dir)))
+	$(foreach dir,$(SOUNDS),-l$(subst /,_,$(dir))) \
+	$(foreach dir,$(BGMS),-l$(subst /,_,$(dir)))
 
 
 #---------------------------------------------------------------------------------
@@ -88,7 +97,8 @@ export OUTPUT	:=	$(CURDIR)/$(TARGET)
 export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir)) \
 			$(foreach dir,$(DATA),$(CURDIR)/$(dir)) \
 			$(foreach dir,$(GRAPHICS),$(CURDIR)/$(dir)) \
-			$(foreach dir,$(SOUNDS),$(CURDIR)/$(dir))
+			$(foreach dir,$(SOUNDS),$(CURDIR)/$(dir)) \
+			$(foreach dir,$(BGMS),$(CURDIR)/$(dir))
 
 export DEPSDIR	:=	$(CURDIR)/$(BUILD)
 
@@ -124,7 +134,7 @@ export OFILES := $(OFILES_BIN) $(OFILES_SOURCES)
 
 export HFILES := $(addsuffix .h,$(subst .,_,$(BINFILES)))
 
-export INCLUDE	:=	$(foreach dir,$(INCLUDES),-iquote $(CURDIR)/$(dir)) \
+export INCLUDE	:=	$(foreach dir,$(INCLUDES),-I$(CURDIR)/$(dir)) \
 					$(foreach dir,$(LIBDIRS),-I$(dir)/include) \
 					-I$(CURDIR)/$(BUILD)
 
@@ -143,6 +153,9 @@ $(BUILD):
 	done
 	@for dir in $(SOUNDS); do \
 		SFXDIR=$$dir $(MAKE) --no-print-directory -f $(CURDIR)/sfxmake; \
+	done
+	@for dir in $(BGMS); do \
+		BGMDIR=$$dir $(MAKE) --no-print-directory -f $(CURDIR)/bgmmake; \
 	done
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
