@@ -263,6 +263,7 @@ def make_source_file():
         file.write("#include \"m4a.h\"\n")
         file.write("#include \"constants/songs.h\"\n")
         file.write("#include \"songsNew.h\"\n")
+        file.write("#include \"source_music.h\"\n")
         file.write("#include \"music_midi.h\"\n")
         file.write("#include \"music_trans_best_matches.h\"\n\n")
         file.write("const struct SongEnt newSongs[] = {\n")

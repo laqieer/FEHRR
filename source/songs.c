@@ -1,6 +1,7 @@
 #include "m4a.h"
 #include "constants/songs.h"
 #include "songsNew.h"
+#include "source_music.h"
 #include "music_midi.h"
 #include "music_trans_best_matches.h"
 
