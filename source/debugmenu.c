@@ -101,8 +101,8 @@ fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
     if (mapEnt->mapId >= CHAPTER_CH_COUNT)
         mapEnt->mapId = CHAPTER_CH_COUNT - 1;
 
-    if (mapEnt->mapId < CHAPTER_CH_1st)
-        mapEnt->mapId = CHAPTER_CH_1st;
+    if (mapEnt->mapId < CHAPTER_1)
+        mapEnt->mapId = CHAPTER_1;
 
     if (gKeySt->repeated & (KEY_DPAD_LEFT | KEY_DPAD_RIGHT))
     {
@@ -522,7 +522,7 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
 
 fu8 InitDebugMapMenu(struct MenuProc * menu)
 {
-    DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), GetChapterInfo(CHAPTER_CH_1st)->debug_name);
+    DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), GetChapterInfo(CHAPTER_1)->debug_name);
     EnableBgSync(BG0_SYNC_BIT);
 
     return 0;
