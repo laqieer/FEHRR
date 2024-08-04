@@ -10,3 +10,5 @@
 .text.PutFace80x72Old : {*(.text.PutFace80x72Old)}
 . = 0x80818F8;
 .rodata.fixFaceWhenDisacrdItemInPrepScreen : {*(.rodata.fixFaceWhenDisacrdItemInPrepScreen)}
+. = 0x807E496;
+.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreen : {*(.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreen)}

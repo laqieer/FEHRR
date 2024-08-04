@@ -647,3 +647,6 @@ void ClearNewFace(void)
         }
     }
 }
+
+// Target unit is at the right side when exchange items
+const int removeTargetUnitFaceWhenExchangeItemsInPrepScreen = 0;
