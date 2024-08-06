@@ -279,6 +279,27 @@ def make_source_file():
         for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
             file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = \"{filename[:-4]}\",\n")
         file.write("};\n\n")
+    with open("source/soundroom.c", "w", encoding="utf-8") as file, open("baserom.gba", "rb") as rom:
+        file.write("#include \"soundroom.h\"\n")
+        file.write("#include \"song.h\"\n")
+        file.write("#include \"constants/songs.h\"\n")
+        file.write("#include \"songsNew.h\"\n")
+        file.write("#include \"texts.h\"\n\n")
+        file.write("const struct SoundRoomEnt soundRoomSongs[] = {\n")
+        rom.seek(0x68A664)
+        for i in range(66):
+            song = int.from_bytes(rom.read(4), "little")
+            assert song > 0
+            msg_name = int.from_bytes(rom.read(4), "little")
+            assert msg_name > 0
+            msg_description = int.from_bytes(rom.read(4), "little")
+            file.write(f"    {{{song}, {msg_name}, {msg_description}}},\n")
+        for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
+            file.write(f"    {{{get_music_id_from_filename(filename)}, {musics[filename].get('titleId', 'MID_MUSIC_NAME_' + filename[:-4].upper())}, (int)&song_names[{get_music_id_from_filename(filename)} - SONG_NEW]}},\n")
+        file.write("    {-1, 0, NULL}\n")
+        file.write("};\n\n")
+        for i in range(4):
+            file.write(f"const struct SoundRoomEnt * const pSoundRoomSongsOld{i} = soundRoomSongs;\n")
 
 if __name__ == "__main__":
     read_music_titles()

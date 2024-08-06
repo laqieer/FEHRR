@@ -9,6 +9,7 @@ import opencc
 import warnings
 import unicodedata
 from enum import Enum
+from translate import Translator
 
 class Language(Enum):
     LANGUAGE_JAPANESE = 0
@@ -194,9 +195,19 @@ def read_existed_musics():
 def read_musics():
     appeared_musics = read_appeared_musics()
     existed_musics = read_existed_musics()
+    translatorE2C = Translator(to_lang="zh", from_lang="en")
+    translatorJ2C = Translator(to_lang="zh", from_lang="ja")
     for music in appeared_musics:
-        if music['filename'] not in existed_musics and 'titleId' in music:
-            musics.add(music['titleId'])
+        if music['filename'] not in existed_musics:
+            music_title_key = music.get('titleId', 'MID_MUSIC_NAME_' + music['filename'][:-4].upper())
+            musics.add(music_title_key)
+            if music_title_key not in texts[TextType.DATA]:
+                texts[TextType.DATA][music_title_key] = {
+                    Language.LANGUAGE_JAPANESE: '"' + music.get('titleJPJA', '') + '"',
+                    Language.LANGUAGE_ENGLISH: '"' + music.get('title', '').replace('"', '\\"') + '"',
+                    Language.LANGUAGE_CHINESE: '"' + (translatorJ2C.translate(music['titleJPJA']) if len(music.get('titleJPJA', '')) > 0 else '') + '" // "' + (translatorE2C.translate(music['title']) if len(music.get('title', '')) > 0 else '') + '"'
+                }
+
 
 def get_text_keys(type):
     keys = []
@@ -304,13 +315,13 @@ def main():
     # print(units)
     # print('Total skills: %d' % len(skills))
     # print(skills)
-    read_musics()
     read_texts(TextType.SCENARIO, Language.LANGUAGE_JAPANESE, 'asset/json/files/assets/JPJA/Message/Scenario')
     read_texts(TextType.SCENARIO, Language.LANGUAGE_ENGLISH, 'asset/json/files/assets/USEN/Message/Scenario')
     read_texts(TextType.SCENARIO, Language.LANGUAGE_CHINESE, 'asset/json/files/assets/TWZH/Message/Scenario')
     read_texts(TextType.DATA, Language.LANGUAGE_JAPANESE, 'asset/json/files/assets/JPJA/Message/Data')
     read_texts(TextType.DATA, Language.LANGUAGE_ENGLISH, 'asset/json/files/assets/USEN/Message/Data')
     read_texts(TextType.DATA, Language.LANGUAGE_CHINESE, 'asset/json/files/assets/TWZH/Message/Data')
+    read_musics()
     write_texts(TextType.SCENARIO, 'include/scenarioTexts.h')
     write_texts(TextType.UNIT, 'include/unitTexts.h')
     # write_texts(TextType.SKILL, 'include/skillTexts.h')
