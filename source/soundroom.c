@@ -233,7 +233,7 @@ const struct SoundRoomEnt soundRoomSongs[] = {
     {SONG_BGM_MNS_FE16_13, MID_MUSIC_NAME_BGM_MNS_FE16_13, (int)&song_names[SONG_BGM_MNS_FE16_13 - SONG_NEW]},
     {SONG_BGM_MNS_FE17_16, MID_MUSIC_NAME_BGM_MNS_FE17_16, (int)&song_names[SONG_BGM_MNS_FE17_16 - SONG_NEW]},
     {SONG_BGM_SUMMON_COMMON, MID_MUSIC_NAME_BGM_SUMMON_COMMON, (int)&song_names[SONG_BGM_SUMMON_COMMON - SONG_NEW]},
-    {-1, 0, NULL}
+    {-1, 0, 0}
 };
 
 const struct SoundRoomEnt * const pSoundRoomSongsOld0 = soundRoomSongs;

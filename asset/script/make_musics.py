@@ -296,7 +296,7 @@ def make_source_file():
             file.write(f"    {{{song}, {msg_name}, {msg_description}}},\n")
         for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
             file.write(f"    {{{get_music_id_from_filename(filename)}, {musics[filename].get('titleId', 'MID_MUSIC_NAME_' + filename[:-4].upper())}, (int)&song_names[{get_music_id_from_filename(filename)} - SONG_NEW]}},\n")
-        file.write("    {-1, 0, NULL}\n")
+        file.write("    {-1, 0, 0}\n")
         file.write("};\n\n")
         for i in range(4):
             file.write(f"const struct SoundRoomEnt * const pSoundRoomSongsOld{i} = soundRoomSongs;\n")
