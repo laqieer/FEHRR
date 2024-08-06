@@ -237,7 +237,7 @@
 
 [MID_MUSIC_NAME_BGM_MAP_FE04_05] = {
     [LANGUAGE_JAPANESE] = "第3章(獅子王エルトシャン)",
-    [LANGUAGE_ENGLISH] = "Chapter 3" TEXT_CMD_NEWLINE "Eldigan, the Lionheart",
+    [LANGUAGE_ENGLISH] = "Chapter 3 Eldigan, the Lionheart",
     [LANGUAGE_CHINESE] = "第3章(狮子王艾尔多尚)",
 },
 
@@ -326,13 +326,13 @@
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE09_01] = {
-    [LANGUAGE_JAPANESE] = "A Battle and" TEXT_CMD_NEWLINE "a Beginning",
+    [LANGUAGE_JAPANESE] = "A Battle and a Beginning",
     [LANGUAGE_ENGLISH] = "A Battle and a Beginning",
-    [LANGUAGE_CHINESE] = "A Battle and" TEXT_CMD_NEWLINE "a Beginning",
+    [LANGUAGE_CHINESE] = "A Battle and a Beginning",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE09_02] = {
-    [LANGUAGE_JAPANESE] = "Greil’s" TEXT_CMD_NEWLINE "Mercenaries",
+    [LANGUAGE_JAPANESE] = "Greil’s Mercenaries",
     [LANGUAGE_ENGLISH] = "Greil Mercenaries",
     [LANGUAGE_CHINESE] = "Greil's Mercenaries",
 },
@@ -346,7 +346,7 @@
 [MID_MUSIC_NAME_BGM_MAP_FE09_06] = {
     [LANGUAGE_JAPANESE] = "Ｔｈｅ　Ｆｉｒｓｔ　Ｆｉｇｈｔ",
     [LANGUAGE_ENGLISH] = "The First Fight",
-    [LANGUAGE_CHINESE] = "第一场战斗" // "第一次戰鬥",
+    [LANGUAGE_CHINESE] = "第一场战斗" // "第一次战斗",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE09_07] = {
@@ -687,7 +687,7 @@
 
 [MID_MUSIC_NAME_BGM_MNS_FE03_02] = {
     [LANGUAGE_JAPANESE] = "神竜伝説(A)",
-    [LANGUAGE_ENGLISH] = "Legend of the" TEXT_CMD_NEWLINE "Dragon God (A)",
+    [LANGUAGE_ENGLISH] = "Legend of the Dragon God (A)",
     [LANGUAGE_CHINESE] = "神龙传说(A)",
 },
 
@@ -776,9 +776,9 @@
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE09_08] = {
-    [LANGUAGE_JAPANESE] = "Wonderful" TEXT_CMD_NEWLINE "Pirates",
+    [LANGUAGE_JAPANESE] = "Wonderful Pirates",
     [LANGUAGE_ENGLISH] = "Wonderful Pirates",
-    [LANGUAGE_CHINESE] = "Wonderful" TEXT_CMD_NEWLINE "Pirates",
+    [LANGUAGE_CHINESE] = "Wonderful Pirates",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE10_02] = {
@@ -837,19 +837,19 @@
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_02] = {
     [LANGUAGE_JAPANESE] = "力を感じる...私たちと同じ力...",
-    [LANGUAGE_ENGLISH] = "\"You have power..." TEXT_CMD_NEWLINE "like mine.\"",
+    [LANGUAGE_ENGLISH] = "\"You have power... like mine.\"",
     [LANGUAGE_CHINESE] = "感受到了与我们相同的力量......",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_05] = {
     [LANGUAGE_JAPANESE] = "泊らせてもらおうよ?ね?",
-    [LANGUAGE_ENGLISH] = "\"But, Frederick," TEXT_CMD_NEWLINE "it's nearly dark!\"",
+    [LANGUAGE_ENGLISH] = "\"But, Frederick, it's nearly dark!\"",
     [LANGUAGE_CHINESE] = "我们就去借住嘛?好不好?",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_07] = {
     [LANGUAGE_JAPANESE] = "今日はもう休みましょう",
-    [LANGUAGE_ENGLISH] = "We should turn in" TEXT_CMD_NEWLINE "for the night",
+    [LANGUAGE_ENGLISH] = "We should turn in for the night",
     [LANGUAGE_CHINESE] = "今天就休息吧",
 },
 
@@ -861,7 +861,7 @@
 
 [MID_MUSIC_NAME_BGM_MNS_FE13_10] = {
     [LANGUAGE_JAPANESE] = "こんなところにも、屍兵が...!",
-    [LANGUAGE_ENGLISH] = "Gods, have the Risen" TEXT_CMD_NEWLINE "spread this far?",
+    [LANGUAGE_ENGLISH] = "Gods, have the Risen spread this far?",
     [LANGUAGE_CHINESE] = "这种地方竟也有尸兵......!",
 },
 

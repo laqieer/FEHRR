@@ -201,11 +201,14 @@ def read_musics():
         if music['filename'] not in existed_musics:
             music_title_key = music.get('titleId', 'MID_MUSIC_NAME_' + music['filename'][:-4].upper())
             musics.add(music_title_key)
-            if music_title_key not in texts[TextType.DATA]:
+            if music_title_key in texts[TextType.DATA]:
+                for language, text in texts[TextType.DATA][music_title_key].items():
+                    texts[TextType.DATA][music_title_key][language] = text.replace('" TEXT_CMD_NEWLINE "', ' ')
+            else:
                 texts[TextType.DATA][music_title_key] = {
                     Language.LANGUAGE_JAPANESE: '"' + music.get('titleJPJA', '') + '"',
                     Language.LANGUAGE_ENGLISH: '"' + music.get('title', '').replace('"', '\\"') + '"',
-                    Language.LANGUAGE_CHINESE: '"' + (translatorJ2C.translate(music['titleJPJA']) if len(music.get('titleJPJA', '')) > 0 else '') + '" // "' + (translatorE2C.translate(music['title']) if len(music.get('title', '')) > 0 else '') + '"'
+                    Language.LANGUAGE_CHINESE: '"' + (converter.convert(translatorJ2C.translate(music['titleJPJA'])) if len(music.get('titleJPJA', '')) > 0 else '') + '" // "' + (converter.convert(translatorE2C.translate(music['title'])) if len(music.get('title', '')) > 0 else '') + '"'
                 }
 
 
