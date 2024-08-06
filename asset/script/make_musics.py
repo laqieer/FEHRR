@@ -275,16 +275,16 @@ def make_source_file():
                     break
             file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = {{&{filename[:-4]}, {priority}, {priority}}},\n")
         file.write("};\n\n")
-        file.write("const char * const song_names[] = {\n")
-        for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
-            file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = \"{filename[:-4]}\",\n")
-        file.write("};\n\n")
     with open("source/soundroom.c", "w", encoding="utf-8") as file, open("baserom.gba", "rb") as rom:
         file.write("#include \"soundroom.h\"\n")
         file.write("#include \"song.h\"\n")
         file.write("#include \"constants/songs.h\"\n")
         file.write("#include \"songsNew.h\"\n")
         file.write("#include \"texts.h\"\n\n")
+        file.write("const char * const song_names[] = {\n")
+        for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
+            file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = \"{filename[:-4]}\",\n")
+        file.write("};\n\n")
         file.write("const struct SoundRoomEnt soundRoomSongs[] = {\n")
         rom.seek(0x68A664)
         for i in range(66):
