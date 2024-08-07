@@ -34,8 +34,7 @@
 }
 |winReq=
 |BGM=bgm_map_FEH_09.ogg
-|BGM2=bgm_map_Brave_03.ogg
-|BGM3=bgm_boss11.ogg
+|BGM2=bgm_boss11.ogg
 }}
 
 ==Map availability==

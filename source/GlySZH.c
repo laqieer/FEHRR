@@ -25940,15 +25940,6 @@ const struct GlyphNew GlySZH_C397 = { /* × */
     .bitmap = GlySZH_C397Tiles,
 };
 
-const struct GlyphNew GlySZH_C3B0 = { /* ð */
-    .next = &GlySZH_C397,
-    .width = 7,
-    .utf_byte_2 = 0xb0,
-    .utf_byte_3 = 0x00,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlySZH_C3B0Tiles,
-};
-
 const struct GlyphNew GlySZH_E296B8 = { /* ▸ */
     .next = &GlySZH_E299AA,
     .width = 6,
@@ -26065,5 +26056,5 @@ struct GlyphNew const * const GlySZHNew[0x100 - 0x20] = {
     [0x7d - 0x20] = &GlySZH_7D,
     [0x7e - 0x20] = &GlySZH_7E,
     [0x7f - 0x20] = &GlySZH_7F,
-    [0xc3 - 0x20] = &GlySZH_C3B0,
+    [0xc3 - 0x20] = &GlySZH_C397,
 };

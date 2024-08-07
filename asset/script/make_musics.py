@@ -98,22 +98,24 @@ def read_map_musics():
                 hasBGM = False
                 for line in lines:
                     if line.startswith("|BGM"):
-                        hasBGM = True
                         line = line[1:][:-1]
                         key, value = line.split("=")
                         key = key.strip()
-                        apperance = filename[:-4] + '_' + key
-                        value = value.strip()
-                        if value == "":
-                            continue
-                        value = value.split("<!--")[0]
-                        value = value[0].lower() + value[1:]
-                        if value not in musics:
-                            warnings.warn(f"Map BGM not found: {value}, apperance: {apperance}")
-                            musics[value] = {"filename": value}
-                        if "appearances" not in musics[value]:
-                            musics[value]["appearances"] = []
-                        musics[value]["appearances"].append(apperance)
+                        if key == "BGM":
+                            hasBGM = True
+                            apperance = filename[:-4] + '_' + key
+                            value = value.strip()
+                            if value == "":
+                                continue
+                            value = value.split("<!--")[0]
+                            value = value[0].lower() + value[1:]
+                            if value not in musics:
+                                warnings.warn(f"Map BGM not found: {value}, apperance: {apperance}")
+                                musics[value] = {"filename": value}
+                            if "appearances" not in musics[value]:
+                                musics[value]["appearances"] = []
+                            musics[value]["appearances"].append(apperance)
+                            break
                 assert hasBGM
 
 def read_scenario_musics():
@@ -312,7 +314,7 @@ if __name__ == "__main__":
     # save_existed_musics()
     read_new_musics()
     # save_new_musics()
-    # save_appeared_musics()
+    save_appeared_musics()
     # make_new_musics()
     # download_music_files()
     # print_music_progress()

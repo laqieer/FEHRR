@@ -7,64 +7,10 @@
     [LANGUAGE_CHINESE] = "-" // "-",
 },
 
-[MID_MUSIC_NAME_BGM_BATTLE_BOSS] = {
-    [LANGUAGE_JAPANESE] = "ハードネゴシエィション",
-    [LANGUAGE_ENGLISH] = "Hard Negotiation",
-    [LANGUAGE_CHINESE] = "艰难的谈判" // "艰难谈判",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS11] = {
-    [LANGUAGE_JAPANESE] = "ロンリィパペッティア",
-    [LANGUAGE_ENGLISH] = "Lonely Puppeteer",
-    [LANGUAGE_CHINESE] = "Lonely Pappettia" // "寂寞傀儡师",
-},
-
 [MID_MUSIC_NAME_BGM_BOSS12] = {
     [LANGUAGE_JAPANESE] = "",
     [LANGUAGE_ENGLISH] = "",
     [LANGUAGE_CHINESE] = "" // "",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS3] = {
-    [LANGUAGE_JAPANESE] = "ヒートクラッキング",
-    [LANGUAGE_ENGLISH] = "Heat Cracking",
-    [LANGUAGE_CHINESE] = "热裂解" // "热裂解",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS4] = {
-    [LANGUAGE_JAPANESE] = "フォールン",
-    [LANGUAGE_ENGLISH] = "Fallen",
-    [LANGUAGE_CHINESE] = "堕落" // "堕落",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS5] = {
-    [LANGUAGE_JAPANESE] = "マッチングザデッド",
-    [LANGUAGE_ENGLISH] = "Matching the Dead",
-    [LANGUAGE_CHINESE] = "匹配死者" // "匹配死者",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS6] = {
-    [LANGUAGE_JAPANESE] = "フラッタリングブルーム",
-    [LANGUAGE_ENGLISH] = "Fluttering Bloom",
-    [LANGUAGE_CHINESE] = "讨人喜欢的房间" // "Fluttering Bloom",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS7] = {
-    [LANGUAGE_JAPANESE] = "ケィアティックサイト",
-    [LANGUAGE_ENGLISH] = "Chaotic Sight",
-    [LANGUAGE_CHINESE] = "Keatic Sight" // "混乱视线",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS8] = {
-    [LANGUAGE_JAPANESE] = "インフィニットスケール",
-    [LANGUAGE_ENGLISH] = "Infinite Scale",
-    [LANGUAGE_CHINESE] = "无限缩放" // "无限缩放",
-},
-
-[MID_MUSIC_NAME_BGM_BOSS9] = {
-    [LANGUAGE_JAPANESE] = "ニザヴェリルズシャウト",
-    [LANGUAGE_ENGLISH] = "Niðavellir's Shout",
-    [LANGUAGE_CHINESE] = "Nizavellilshout" // "Niðavellir's Shout",
 },
 
 [MID_MUSIC_NAME_BGM_EVENT_HAPPY_01] = {
@@ -671,12 +617,6 @@
     [LANGUAGE_JAPANESE] = "ダイティハンマー",
     [LANGUAGE_ENGLISH] = "Deity Hammer",
     [LANGUAGE_CHINESE] = "Daiti Hammer" // "神锤",
-},
-
-[MID_MUSIC_NAME_BGM_MENU_THEME01] = {
-    [LANGUAGE_JAPANESE] = "ブレイザブリク",
-    [LANGUAGE_ENGLISH] = "Breidablik",
-    [LANGUAGE_CHINESE] = "Breisabrik" // "Breidablik",
 },
 
 [MID_MUSIC_NAME_BGM_MNS_FE03_01] = {

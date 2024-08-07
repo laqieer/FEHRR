@@ -362,41 +362,6 @@
         "source": null
     },
     {
-        "title": "Last Phase",
-        "titleJPJA": "ラストフェイズ",
-        "filename": "bgm_map_Brave_03.ogg",
-        "notes": "Played in Book I, Chapter 9-5: [[Princess of Death]]; Book II, Chapter 2-5: [[Ruler of Flame]], 7-5: [[Snow and Ash]], 10-5: [[The King's Demise]], and 13-5: [[Surtr, Ruler of Flame]].",
-        "appearances": [
-            "S1005_BGM",
-            "S2025_BGM",
-            "S2075_BGM",
-            "S2105_BGM",
-            "S2135_BGM",
-            "S3135_BGM",
-            "S4095_BGM",
-            "S4134_BGM",
-            "S5125_BGM2",
-            "S5135_BGM2",
-            "S6085_BGM2",
-            "S6115_BGM2",
-            "S7015_BGM",
-            "S1005_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S2025_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S2105_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S2135_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S3135_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S4095_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S4134_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S5125_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S5135_MID_SCENARIO_OPENING_BGM",
-            "S6085_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S6115_MID_SCENARIO_MAP_BEGIN_BGM",
-            "S7015_MID_SCENARIO_MAP_BEGIN_BGM"
-        ],
-        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_03",
-        "source": null
-    },
-    {
         "title": "Another Menace",
         "titleJPJA": "アナザーメナス",
         "filename": "bgm_event_serious4.ogg",
@@ -466,6 +431,37 @@
         "source": null
     },
     {
+        "title": "Last Phase",
+        "titleJPJA": "ラストフェイズ",
+        "filename": "bgm_map_Brave_03.ogg",
+        "notes": "Played in Book I, Chapter 9-5: [[Princess of Death]]; Book II, Chapter 2-5: [[Ruler of Flame]], 7-5: [[Snow and Ash]], 10-5: [[The King's Demise]], and 13-5: [[Surtr, Ruler of Flame]].",
+        "appearances": [
+            "S1005_BGM",
+            "S2025_BGM",
+            "S2075_BGM",
+            "S2105_BGM",
+            "S2135_BGM",
+            "S3135_BGM",
+            "S4095_BGM",
+            "S4134_BGM",
+            "S7015_BGM",
+            "S1005_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2025_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2105_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S2135_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S3135_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4095_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S4134_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5125_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S5135_MID_SCENARIO_OPENING_BGM",
+            "S6085_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S6115_MID_SCENARIO_MAP_BEGIN_BGM",
+            "S7015_MID_SCENARIO_MAP_BEGIN_BGM"
+        ],
+        "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_03",
+        "source": null
+    },
+    {
         "title": "Looming Death",
         "titleJPJA": "ルーミングデス",
         "filename": "bgm_event_serious5.ogg",
@@ -528,36 +524,6 @@
         "source": "Fire_Emblem_Heroes_-_Book_III_Map_Theme.mid"
     },
     {
-        "title": "Lonely Puppeteer",
-        "titleJPJA": "ロンリィパペッティア",
-        "filename": "bgm_boss11.ogg",
-        "notes": "Plays during combat animations against Embla bosses in Book VI.",
-        "appearances": [
-            "S6015_BGM2",
-            "S6025_BGM2",
-            "S6031_BGM2",
-            "S6035_BGM2",
-            "S6041_BGM2",
-            "S6043_BGM2",
-            "S6045_BGM2",
-            "S6055_BGM2",
-            "S6065_BGM2",
-            "S6071_BGM2",
-            "S6074_BGM2",
-            "S6075_BGM2",
-            "S6081_BGM2",
-            "S6085_BGM3",
-            "S6091_BGM2",
-            "S6094_BGM2",
-            "S6095_BGM2",
-            "S6105_BGM2",
-            "S6113_BGM2",
-            "S6114_BGM2",
-            "S6115_BGM3"
-        ],
-        "source": "Lonely_Puppeteer.mid"
-    },
-    {
         "title": "Lucid Dream",
         "titleJPJA": "ルシッドドリーム",
         "filename": "bgm_map_FEH_06.ogg",
@@ -583,61 +549,6 @@
             "S4105_BGM",
             "S4115_BGM",
             "S4124_BGM"
-        ],
-        "source": null
-    },
-    {
-        "title": "Heat Cracking",
-        "titleJPJA": "ヒートクラッキング",
-        "filename": "bgm_boss3.ogg",
-        "notes": "Played during combat animations against Múspell boss units and {{Ut|Loki: The Trickster}} during Book II, as well as against the Røkkr in [[Røkkr Sieges]].",
-        "appearances": [
-            "S2015_BGM2",
-            "S2025_BGM2",
-            "S2035_BGM2",
-            "S2045_BGM2",
-            "S2051_BGM2",
-            "S2055_BGM2",
-            "S2065_BGM2",
-            "S2075_BGM2",
-            "S2091_BGM2",
-            "S2095_BGM2",
-            "S2105_BGM2",
-            "S2113_BGM2",
-            "S2123_BGM2",
-            "S2125_BGM2",
-            "S2131_BGM2",
-            "S2134_BGM2",
-            "S2135_BGM2",
-            "S4051_BGM2",
-            "S4055_BGM2"
-        ],
-        "source": "FEH BOOK 2 BOSS THEME {Shtick}.s"
-    },
-    {
-        "title": "Hard Negotiation",
-        "titleJPJA": "ハードネゴシエィション",
-        "filename": "bgm_battle_boss.ogg",
-        "notes": "Played during combat animations against boss units during Book I, and boss units in [[Hero Battles]], [[Grand Hero Battles]], and [[Tempest Trials]].",
-        "appearances": [
-            "S0103_BGM2",
-            "S0205_BGM2",
-            "S0305_BGM2",
-            "S0405_BGM2",
-            "S0505_BGM2",
-            "S0605_BGM2",
-            "S0705_BGM2",
-            "S0805_BGM2",
-            "S0905_BGM2",
-            "S1103_BGM2",
-            "S1105_BGM2",
-            "S1205_BGM2",
-            "S1305_BGM2",
-            "S1405_BGM2",
-            "S4015_BGM2",
-            "S4061_BGM2",
-            "S4065_BGM2",
-            "S4135_BGM2"
         ],
         "source": null
     },
@@ -749,54 +660,6 @@
         "source": null
     },
     {
-        "title": "Fallen",
-        "titleJPJA": "フォールン",
-        "filename": "bgm_boss4.ogg",
-        "notes": "Played during combat animations against Hel boss units during Book III.|isRegional=1",
-        "isRegional": "1",
-        "appearances": [
-            "S3013_BGM2",
-            "S3014_BGM2",
-            "S3015_BGM2",
-            "S3025_BGM2",
-            "S3035_BGM2",
-            "S3045_BGM2",
-            "S3055_BGM2",
-            "S3063_BGM2",
-            "S3065_BGM2",
-            "S3081_BGM2",
-            "S3085_BGM2",
-            "S3095_BGM2",
-            "S3105_BGM2",
-            "S3115_BGM2",
-            "S3121_BGM2"
-        ],
-        "source": null
-    },
-    {
-        "title": "Infinite Scale",
-        "titleJPJA": "インフィニットスケール",
-        "filename": "bgm_boss8.ogg",
-        "notes": "Plays during combat animations against Niðavellir boss units during Book V.",
-        "appearances": [
-            "S5011_BGM2",
-            "S5015_BGM2",
-            "S5025_BGM2",
-            "S5035_BGM2",
-            "S5045_BGM2",
-            "S5055_BGM2",
-            "S5065_BGM2",
-            "S5072_BGM2",
-            "S5073_BGM2",
-            "S5075_BGM2",
-            "S5081_BGM2",
-            "S5102_BGM2",
-            "S5112_BGM2",
-            "S5115_BGM2"
-        ],
-        "source": null
-    },
-    {
         "title": "Little Skimming",
         "titleJPJA": "リトルスキミング",
         "filename": "bgm_event_serious9.ogg",
@@ -843,46 +706,6 @@
         "source": null
     },
     {
-        "title": "Fluttering Bloom",
-        "titleJPJA": "フラッタリングブルーム",
-        "filename": "bgm_boss6.ogg",
-        "notes": "Played during combat animations against Dökkálfheimr boss units during Book IV.",
-        "appearances": [
-            "S4025_BGM2",
-            "S4035_BGM2",
-            "S4045_BGM2",
-            "S4071_BGM2",
-            "S4075_BGM2",
-            "S4081_BGM2",
-            "S4085_BGM2",
-            "S4091_BGM2",
-            "S4094_BGM2",
-            "S4114_BGM2",
-            "S4124_BGM2"
-        ],
-        "source": "Fire_Emblem_Heroes_-_Book_IV_Boss_Theme.mid"
-    },
-    {
-        "title": "",
-        "titleJPJA": "",
-        "filename": "bgm_map_FEH_11.ogg",
-        "notes": "Played in various Book VII maps.",
-        "appearances": [
-            "S7021_BGM",
-            "S7022_BGM",
-            "S7023_BGM",
-            "S7024_BGM",
-            "S7025_BGM",
-            "S7045_BGM",
-            "S7055_BGM",
-            "S7071_BGM",
-            "S7075_BGM",
-            "S7085_BGM",
-            "S7091_BGM2"
-        ],
-        "source": null
-    },
-    {
         "title": "The Grandeur of Askr",
         "titleJPJA": "グランドオブアスク",
         "filename": "bgm_map_Brave_02.ogg",
@@ -901,6 +724,25 @@
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_02",
         "source": "Map_2_FEH.mid"
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_map_FEH_11.ogg",
+        "notes": "Played in various Book VII maps.",
+        "appearances": [
+            "S7021_BGM",
+            "S7022_BGM",
+            "S7023_BGM",
+            "S7024_BGM",
+            "S7025_BGM",
+            "S7045_BGM",
+            "S7055_BGM",
+            "S7071_BGM",
+            "S7075_BGM",
+            "S7085_BGM"
+        ],
+        "source": null
     },
     {
         "title": "-",
@@ -1067,22 +909,6 @@
         "source": null
     },
     {
-        "title": "Chaotic Sight",
-        "titleJPJA": "ケィアティックサイト",
-        "filename": "bgm_boss7.ogg",
-        "notes": "Played during combat animations against {{Ut|Freyja: Lady of Nightmare}} and {{Ut|Freyr: Dream-King}}.",
-        "appearances": [
-            "S4095_BGM2",
-            "S4105_BGM2",
-            "S4111_BGM2",
-            "S4115_BGM2",
-            "S4131_BGM2",
-            "S4133_BGM2",
-            "S4134_BGM2"
-        ],
-        "source": null
-    },
-    {
         "title": "The Beginning",
         "titleJPJA": "すべては始まりのとき",
         "filename": "bgm_mns_FE08_02.ogg",
@@ -1131,21 +957,6 @@
         "source": null
     },
     {
-        "title": "Niðavellir's Shout",
-        "titleJPJA": "ニザヴェリルズシャウト",
-        "filename": "bgm_boss9.ogg",
-        "notes": "Played during combat animations against {{Ut|Fáfnir: King of Desolation (Dragon)|Fáfnir: King of Desolation}}'s dragon form and {{Ut|Eitri: Youthful Sage}}.",
-        "appearances": [
-            "S5111_BGM2",
-            "S5122_BGM2",
-            "S5123_BGM2",
-            "S5125_BGM3",
-            "S5132_BGM2",
-            "S5135_BGM3"
-        ],
-        "source": null
-    },
-    {
         "title": "",
         "titleJPJA": "",
         "filename": "bgm_map_FEH_10.ogg",
@@ -1159,21 +970,6 @@
             "S7095_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_BRAVE_10",
-        "source": null
-    },
-    {
-        "title": "",
-        "titleJPJA": "",
-        "filename": "bgm_boss12.ogg",
-        "notes": "Plays during combat animations against Vanir bosses in Book VII.",
-        "appearances": [
-            "S7015_BGM2",
-            "S7045_BGM2",
-            "S7055_BGM2",
-            "S7071_BGM2",
-            "S7085_BGM2",
-            "S7091_BGM"
-        ],
         "source": null
     },
     {
@@ -2213,18 +2009,6 @@
         "source": null
     },
     {
-        "title": "Matching the Dead",
-        "titleJPJA": "マッチングザデッド",
-        "filename": "bgm_boss5.ogg",
-        "notes": "Played during combat animations against Hel boss units during [[Story Maps#Chapter 13: Marvelous Dream|Book III, Chapter 13: Marvelous Dream]].",
-        "appearances": [
-            "S3133_BGM2",
-            "S3134_BGM2",
-            "S3135_BGM2"
-        ],
-        "source": null
-    },
-    {
         "title": "Lyon (Organ Arrangement)",
         "titleJPJA": "リオン（オルゴールアレンジ）",
         "filename": "bgm_mns_FE08_03.ogg",
@@ -2421,17 +2205,6 @@
             "S7092_BGM",
             "S7093_BGM",
             "S7094_BGM"
-        ],
-        "source": null
-    },
-    {
-        "title": "Breidablik",
-        "titleJPJA": "ブレイザブリク",
-        "filename": "bgm_menu_theme01.ogg",
-        "notes": "Played during combat animations against {{Ut|Veronica: Emblian Princess}}, {{Ut|Fjorm: Princess of Ice}}, boss units in Legendary and Mythic Hero Battles starting from [[Lyn: Lady of the Wind (map)|Lyn: Lady of the Wind]] and onwards, and [[Heroic Ordeals]] for heroes that appear in {{EntryText|0}}.",
-        "appearances": [
-            "S1005_BGM2",
-            "S2021_BGM2"
         ],
         "source": null
     },
@@ -2830,6 +2603,16 @@
             "S6135_MID_SCENARIO_OPENING_BGM"
         ],
         "source": "fe7/song36.s"
+    },
+    {
+        "title": "",
+        "titleJPJA": "",
+        "filename": "bgm_boss12.ogg",
+        "notes": "Plays during combat animations against Vanir bosses in Book VII.",
+        "appearances": [
+            "S7091_BGM"
+        ],
+        "source": null
     },
     {
         "title": "Mighty Governance",
