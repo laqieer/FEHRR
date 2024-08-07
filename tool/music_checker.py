@@ -113,6 +113,14 @@ def check_midi_file(file_path, auto_fix=False):
                 longestTrack.append(mido.MetaMessage('marker', text=']'))
             else:
                 print("Error: No loop points found")
+        # Check if instrument is specified for each track
+        for i, track in enumerate(mid.tracks):
+            if i > 0 and not any(msg.type == 'program_change' for msg in track):
+                if auto_fix:
+                    print(f"Info: Automatically adding instrument for track {i}: {track.name}")
+                    track.insert(0, mido.Message('program_change', program=0))
+                else:
+                    print(f"Error: No instrument specified for track {i}: {track.name}")
         # Check used instruments
         badInstruments = []
         for i, track in enumerate(mid.tracks):
