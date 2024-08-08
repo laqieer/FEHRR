@@ -321,7 +321,7 @@ void ChapterIntro_LoopFadeToMapNew(struct GenericProc * proc)
         proc->unk4C--;
 
         if (proc->unk4C == 24)
-            StartBgm(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_opening_bgm, NULL);
+            StartBgm(getChapterOpeningBGM(), NULL);
 
         if (proc->unk4C < 0)
         {
@@ -352,7 +352,7 @@ void ChapterIntro_BeginFastFadeToMapNew(struct GenericProc * proc)
 
     proc->unk4C = 14;
 
-    StartBgm(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_opening_bgm, NULL);
+    StartBgm(getChapterOpeningBGM(), NULL);
 }
 
 void ChapterIntro_BeginFastFadeToMapOld(struct GenericProc * proc)
