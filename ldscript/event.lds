@@ -12,3 +12,5 @@
 .text.EvtCmd_TalkOld : {*(.text.EvtCmd_TalkOld)}
 . = EvtCmd_TalkAuto - 1;
 .text.EvtCmd_TalkAutoOld : {*(.text.EvtCmd_TalkAutoOld)}
+. = EvtCmd_GiveMoney - 1;
+.text.EvtCmd_GiveMoneyOld : {*(.text.EvtCmd_GiveMoneyOld)}

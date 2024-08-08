@@ -44,6 +44,8 @@
 #include "constants/videoalloc_banim.h"
 #include "constants/terrains.h"
 #include "constants/songs.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
 
 #include "background.h"
 #include "backgrounds.h"
@@ -550,4 +552,37 @@ int EvtCmd_TalkAutoNew(struct EventProc * proc)
 int EvtCmd_TalkAutoOld(struct EventProc * proc)
 {
     return EvtCmd_TalkAutoNew(proc);
+}
+
+int EvtCmd_GiveMoneyNew(struct EventProc * proc)
+{
+    int money, given;
+
+    given = proc->script[0];
+
+    if (given == 0)
+        given = proc->money_param;
+
+    int chapter = GetChapterInPlaySt(&gPlayStNew);
+
+    if (UNIT_FACTION(gActiveUnit) == FACTION_BLUE || IsChapterNew(chapter))
+    {
+        money = GetGold();
+        money += given;
+        SetGold(money);
+    }
+
+    if (IsChapterNew(chapter)) {
+        SetPopupNumber(given);
+        StartPopup(Popup_085C47A4, 0x60, UI_WINDOW_REGULAR, proc);
+    } else {
+        StartPopup_080120D0(given, proc);
+    }
+
+    return EVENT_CMDRET_YIELD;
+}
+
+int EvtCmd_GiveMoneyOld(struct EventProc * proc)
+{
+    return EvtCmd_GiveMoneyNew(proc);
 }
