@@ -42,6 +42,8 @@
 #include "constants/jids.h"
 #include "constants/icons.h"
 #include "constants/songs.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
 
 extern u16 gChapterIntroMotifTmBuf[];
 
@@ -292,6 +294,12 @@ void ChapterIntro_BeginFadeToMapNew(struct GenericProc * proc)
 void ChapterIntro_BeginFadeToMapOld(struct GenericProc * proc)
 {
     ChapterIntro_BeginFadeToMapNew(proc);
+}
+
+int getChapterOpeningBGM(void)
+{
+    int chapter = GetChapterInPlaySt(&gPlayStNew);
+    return IsChapterNew(chapter) ? ChapterOPBGMs[chapter - CHAPTER_CH_NEW] : GetChapterInfo(chapter)->song_opening_bgm;
 }
 
 void ChapterIntro_LoopFadeToMapNew(struct GenericProc * proc)

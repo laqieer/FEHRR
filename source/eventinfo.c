@@ -16,6 +16,7 @@
 #include "support.h"
 #include "trap.h"
 #include "chapterevents.h"
+#include "chapterNew.h"
 
 #include "constants/iids.h"
 #include "constants/chapters.h"
@@ -468,8 +469,7 @@ struct BattleTalkEnt const * GetAvailableBattleTalkNew(fu8 pid, struct BattleTal
 
         if (pid == it->pid)
         {
-            //FIXME: expand CHAPTER_COUNT
-            if (it->chapter == CHAPTER_COUNT)
+            if (it->chapter == CHAPTER_COUNT && !IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
                 return it;
 
             if (GetChapterInPlaySt(&gPlayStNew) == it->chapter)
@@ -508,11 +508,12 @@ void StartBattleDefeatTalkNew(fu8 pid)
 
     if (pid == PID_ROY)
     {
-        SetFlag(0x65); // TODO: flag constants
+        SetFlag(FLAG_101);
 
         if (GetChapterInPlaySt(&gPlayStNew) != CHAPTER_TUTORIAL)
         {
-            StartEvent(EventScr_RoyDefeated);
+            if (!IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
+                StartEvent(EventScr_RoyDefeated);
             StartBgm(SONG_37, NULL);
         }
 

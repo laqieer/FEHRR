@@ -4,6 +4,8 @@
 #include "chapterNew.h"
 #include "constants/faces.h"
 #include "constants/chapters.h"
+#include "constants/songs.h"
+#include "songsNew.h"
 #include "debugchapter.h"
 #include "chapters.h"
 #include "texts.h"
@@ -44,10 +46,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_title = DEBUG_CHAPTER_TITLE_MSG_ID,
         .initial_x = 3,
         .initial_y = 14,
-        .song_blue_bgm = 10,
-        .song_red_bgm = 2,
-        .song_green_bgm = 10,
-        .song_opening_bgm = 2,
     },
     [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = {
         .debug_name = "S0001",
@@ -65,7 +63,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0001,
-        .victory_bgm_enemy_threshold = 0,
     },
     [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = {
         .debug_name = "S0002",
@@ -83,7 +80,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0002,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = {
         .debug_name = "S0101",
@@ -101,7 +97,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0101,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = {
         .debug_name = "S0102",
@@ -119,7 +114,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0102,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = {
@@ -138,7 +132,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = {
         .debug_name = "S0201",
@@ -156,7 +149,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0201,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0202 - CHAPTER_CH_NEW] = {
         .debug_name = "S0202",
@@ -174,7 +166,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0202,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0203 - CHAPTER_CH_NEW] = {
         .debug_name = "S0203",
@@ -192,7 +183,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0203,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0204 - CHAPTER_CH_NEW] = {
         .debug_name = "S0204",
@@ -210,7 +200,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0204,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = {
         .debug_name = "S0205",
@@ -228,7 +217,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0205,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = {
         .debug_name = "S0301",
@@ -246,7 +234,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0301,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0302 - CHAPTER_CH_NEW] = {
         .debug_name = "S0302",
@@ -264,7 +251,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0302,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0303 - CHAPTER_CH_NEW] = {
@@ -283,7 +269,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0303,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0304 - CHAPTER_CH_NEW] = {
         .debug_name = "S0304",
@@ -301,7 +286,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0304,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = {
         .debug_name = "S0305",
@@ -319,7 +303,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0305,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = {
         .debug_name = "S0401",
@@ -337,7 +320,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0401,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0402 - CHAPTER_CH_NEW] = {
         .debug_name = "S0402",
@@ -355,7 +337,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0402,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0403 - CHAPTER_CH_NEW] = {
         .debug_name = "S0403",
@@ -373,7 +354,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0403,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0404 - CHAPTER_CH_NEW] = {
         .debug_name = "S0404",
@@ -391,7 +371,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0404,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = {
         .debug_name = "S0405",
@@ -409,7 +388,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0405,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = {
         .debug_name = "S0501",
@@ -427,7 +405,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0501,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0502 - CHAPTER_CH_NEW] = {
         .debug_name = "S0502",
@@ -445,7 +422,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0502,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0503 - CHAPTER_CH_NEW] = {
         .debug_name = "S0503",
@@ -463,7 +439,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0503,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0504 - CHAPTER_CH_NEW] = {
         .debug_name = "S0504",
@@ -481,7 +456,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0504,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = {
@@ -500,7 +474,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0505,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = {
         .debug_name = "S0601",
@@ -518,7 +491,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0601,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0602 - CHAPTER_CH_NEW] = {
         .debug_name = "S0602",
@@ -536,7 +508,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0602,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0603 - CHAPTER_CH_NEW] = {
@@ -555,7 +526,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0603,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0604 - CHAPTER_CH_NEW] = {
         .debug_name = "S0604",
@@ -573,7 +543,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0604,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = {
         .debug_name = "S0605",
@@ -591,7 +560,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0605,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = {
         .debug_name = "S0701",
@@ -609,7 +577,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0701,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0702 - CHAPTER_CH_NEW] = {
         .debug_name = "S0702",
@@ -627,7 +594,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0702,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0703 - CHAPTER_CH_NEW] = {
@@ -646,7 +612,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0703,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0704 - CHAPTER_CH_NEW] = {
         .debug_name = "S0704",
@@ -664,7 +629,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0704,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = {
@@ -683,7 +647,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0705,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = {
@@ -702,7 +665,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0801,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0802 - CHAPTER_CH_NEW] = {
         .debug_name = "S0802",
@@ -720,7 +682,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0802,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0803 - CHAPTER_CH_NEW] = {
         .debug_name = "S0803",
@@ -738,7 +699,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0803,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S0804 - CHAPTER_CH_NEW] = {
@@ -757,7 +717,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0804,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = {
         .debug_name = "S0805",
@@ -775,7 +734,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0805,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = {
         .debug_name = "S0901",
@@ -793,7 +751,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0901,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0902 - CHAPTER_CH_NEW] = {
         .debug_name = "S0902",
@@ -811,7 +768,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0902,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0903 - CHAPTER_CH_NEW] = {
         .debug_name = "S0903",
@@ -829,7 +785,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0903,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0904 - CHAPTER_CH_NEW] = {
         .debug_name = "S0904",
@@ -847,7 +802,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0904,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = {
         .debug_name = "S0905",
@@ -865,7 +819,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S0905,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = {
@@ -884,7 +837,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1001,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1002 - CHAPTER_CH_NEW] = {
@@ -903,7 +855,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1002,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1003 - CHAPTER_CH_NEW] = {
         .debug_name = "S1003",
@@ -921,7 +872,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1003,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = {
         .debug_name = "S1004",
@@ -939,7 +889,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1004,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = {
@@ -958,7 +907,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1005,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = {
         .debug_name = "S1101",
@@ -976,7 +924,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1101,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1102 - CHAPTER_CH_NEW] = {
@@ -995,7 +942,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1102,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = {
         .debug_name = "S1103",
@@ -1013,7 +959,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1104 - CHAPTER_CH_NEW] = {
         .debug_name = "S1104",
@@ -1031,7 +976,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1104,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = {
@@ -1050,7 +994,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1105,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = {
@@ -1069,7 +1012,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1201,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1202 - CHAPTER_CH_NEW] = {
         .debug_name = "S1202",
@@ -1087,7 +1029,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1202,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = {
@@ -1106,7 +1047,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1203,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1204 - CHAPTER_CH_NEW] = {
         .debug_name = "S1204",
@@ -1124,7 +1064,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1204,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = {
         .debug_name = "S1205",
@@ -1142,7 +1081,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1205,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = {
@@ -1161,7 +1099,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1301,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1302 - CHAPTER_CH_NEW] = {
@@ -1180,7 +1117,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1302,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1303 - CHAPTER_CH_NEW] = {
         .debug_name = "S1303",
@@ -1198,7 +1134,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1303,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1304 - CHAPTER_CH_NEW] = {
@@ -1217,7 +1152,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1304,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = {
@@ -1236,7 +1170,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1305,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = {
@@ -1255,7 +1188,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1401,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1402 - CHAPTER_CH_NEW] = {
         .debug_name = "S1402",
@@ -1273,7 +1205,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1402,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = {
         .debug_name = "S1403",
@@ -1291,7 +1222,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1403,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1404 - CHAPTER_CH_NEW] = {
         .debug_name = "S1404",
@@ -1309,7 +1239,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1404,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = {
         .debug_name = "S1405",
@@ -1327,7 +1256,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1405,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = {
         .debug_name = "S1501",
@@ -1345,7 +1273,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1501,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = {
         .debug_name = "S1601",
@@ -1363,7 +1290,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S1601,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = {
@@ -1382,7 +1308,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2011,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2012 - CHAPTER_CH_NEW] = {
         .debug_name = "S2012",
@@ -1400,7 +1325,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2012,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2013 - CHAPTER_CH_NEW] = {
         .debug_name = "S2013",
@@ -1418,7 +1342,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2013,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2014 - CHAPTER_CH_NEW] = {
         .debug_name = "S2014",
@@ -1436,7 +1359,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2014,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = {
@@ -1455,7 +1377,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2015,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = {
         .debug_name = "S2021",
@@ -1473,7 +1394,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2021,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2022 - CHAPTER_CH_NEW] = {
         .debug_name = "S2022",
@@ -1491,7 +1411,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2022,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2023 - CHAPTER_CH_NEW] = {
@@ -1510,7 +1429,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2023,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2024 - CHAPTER_CH_NEW] = {
@@ -1529,7 +1447,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2024,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = {
@@ -1548,7 +1465,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2025,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = {
@@ -1567,7 +1483,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2031,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = {
         .debug_name = "S2032",
@@ -1585,7 +1500,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2032,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = {
         .debug_name = "S2033",
@@ -1603,7 +1517,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2033,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = {
         .debug_name = "S2034",
@@ -1621,7 +1534,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2034,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = {
         .debug_name = "S2035",
@@ -1639,7 +1551,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2035,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = {
         .debug_name = "S2041",
@@ -1657,7 +1568,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2041,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = {
         .debug_name = "S2042",
@@ -1675,7 +1585,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2042,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = {
@@ -1694,7 +1603,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2043,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = {
         .debug_name = "S2044",
@@ -1712,7 +1620,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2044,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = {
         .debug_name = "S2045",
@@ -1730,7 +1637,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2045,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = {
@@ -1749,7 +1655,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2051,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = {
@@ -1768,7 +1673,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2052,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = {
@@ -1787,7 +1691,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2053,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = {
         .debug_name = "S2054",
@@ -1805,7 +1708,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2054,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = {
         .debug_name = "S2055",
@@ -1823,7 +1725,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2055,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = {
@@ -1842,7 +1743,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2061,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = {
         .debug_name = "S2062",
@@ -1860,7 +1760,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2062,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = {
         .debug_name = "S2063",
@@ -1878,7 +1777,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2063,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = {
         .debug_name = "S2064",
@@ -1896,7 +1794,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2064,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = {
         .debug_name = "S2065",
@@ -1914,7 +1811,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2065,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = {
@@ -1933,7 +1829,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2071,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = {
         .debug_name = "S2072",
@@ -1951,7 +1846,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2072,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = {
         .debug_name = "S2073",
@@ -1969,7 +1863,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2073,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = {
         .debug_name = "S2074",
@@ -1987,7 +1880,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2074,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = {
         .debug_name = "S2075",
@@ -2005,7 +1897,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2075,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = {
         .debug_name = "S2081",
@@ -2023,7 +1914,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2081,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = {
         .debug_name = "S2082",
@@ -2041,7 +1931,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2082,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = {
         .debug_name = "S2083",
@@ -2059,7 +1948,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2083,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = {
         .debug_name = "S2084",
@@ -2077,7 +1965,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2084,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = {
         .debug_name = "S2085",
@@ -2095,7 +1982,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2085,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = {
         .debug_name = "S2091",
@@ -2113,7 +1999,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2091,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = {
@@ -2132,7 +2017,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2092,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = {
@@ -2151,7 +2035,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2093,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = {
         .debug_name = "S2094",
@@ -2169,7 +2052,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2094,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = {
         .debug_name = "S2095",
@@ -2187,7 +2069,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2095,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = {
@@ -2206,7 +2087,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2101,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = {
         .debug_name = "S2102",
@@ -2224,7 +2104,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2102,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = {
         .debug_name = "S2103",
@@ -2242,7 +2121,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = {
         .debug_name = "S2104",
@@ -2260,7 +2138,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2104,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = {
         .debug_name = "S2105",
@@ -2278,7 +2155,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2105,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = {
@@ -2297,7 +2173,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2111,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = {
         .debug_name = "S2112",
@@ -2315,7 +2190,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2112,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = {
         .debug_name = "S2113",
@@ -2333,7 +2207,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2113,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = {
         .debug_name = "S2114",
@@ -2351,7 +2224,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2114,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = {
         .debug_name = "S2115",
@@ -2369,7 +2241,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2115,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = {
         .debug_name = "S2121",
@@ -2387,7 +2258,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2121,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = {
         .debug_name = "S2122",
@@ -2405,7 +2275,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2122,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = {
@@ -2424,7 +2293,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2123,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = {
         .debug_name = "S2124",
@@ -2442,7 +2310,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2124,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = {
@@ -2461,7 +2328,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2125,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = {
         .debug_name = "S2131",
@@ -2479,7 +2345,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2131,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = {
         .debug_name = "S2132",
@@ -2497,7 +2362,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2132,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = {
@@ -2516,7 +2380,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2133,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = {
@@ -2535,7 +2398,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2134,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = {
@@ -2554,7 +2416,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S2135,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = {
@@ -2573,7 +2434,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3011,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3012 - CHAPTER_CH_NEW] = {
         .debug_name = "S3012",
@@ -2591,7 +2451,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3012,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = {
         .debug_name = "S3013",
@@ -2609,7 +2468,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3013,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = {
         .debug_name = "S3014",
@@ -2627,7 +2485,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3014,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = {
         .debug_name = "S3015",
@@ -2645,7 +2502,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3015,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = {
         .debug_name = "S3021",
@@ -2663,7 +2519,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3021,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3022 - CHAPTER_CH_NEW] = {
         .debug_name = "S3022",
@@ -2681,7 +2536,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3022,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3023 - CHAPTER_CH_NEW] = {
         .debug_name = "S3023",
@@ -2699,7 +2553,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3023,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3024 - CHAPTER_CH_NEW] = {
         .debug_name = "S3024",
@@ -2717,7 +2570,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3024,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = {
         .debug_name = "S3025",
@@ -2735,7 +2587,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3025,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = {
@@ -2754,7 +2605,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3031,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = {
         .debug_name = "S3032",
@@ -2772,7 +2622,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3032,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = {
         .debug_name = "S3033",
@@ -2790,7 +2639,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3033,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = {
         .debug_name = "S3034",
@@ -2808,7 +2656,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3034,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = {
         .debug_name = "S3035",
@@ -2826,7 +2673,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3035,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = {
         .debug_name = "S3041",
@@ -2844,7 +2690,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3041,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = {
         .debug_name = "S3042",
@@ -2862,7 +2707,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3042,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = {
         .debug_name = "S3043",
@@ -2880,7 +2724,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3043,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = {
@@ -2899,7 +2742,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3044,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = {
         .debug_name = "S3045",
@@ -2917,7 +2759,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3045,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = {
         .debug_name = "S3051",
@@ -2935,7 +2776,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3051,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = {
         .debug_name = "S3052",
@@ -2953,7 +2793,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3052,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = {
         .debug_name = "S3053",
@@ -2971,7 +2810,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3053,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = {
@@ -2990,7 +2828,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3054,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = {
         .debug_name = "S3055",
@@ -3008,7 +2845,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3055,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = {
         .debug_name = "S3061",
@@ -3026,7 +2862,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3061,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = {
         .debug_name = "S3062",
@@ -3044,7 +2879,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3062,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = {
         .debug_name = "S3063",
@@ -3062,7 +2896,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3063,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = {
         .debug_name = "S3064",
@@ -3080,7 +2913,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3064,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = {
@@ -3099,7 +2931,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3065,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = {
         .debug_name = "S3071",
@@ -3117,7 +2948,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3071,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = {
@@ -3136,7 +2966,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3072,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = {
@@ -3155,7 +2984,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3073,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = {
@@ -3174,7 +3002,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3074,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = {
@@ -3193,7 +3020,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3075,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = {
@@ -3212,7 +3038,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3081,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = {
         .debug_name = "S3082",
@@ -3230,7 +3055,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3082,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = {
         .debug_name = "S3083",
@@ -3248,7 +3072,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3083,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = {
         .debug_name = "S3084",
@@ -3266,7 +3089,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3084,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = {
         .debug_name = "S3085",
@@ -3284,7 +3106,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3085,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = {
         .debug_name = "S3091",
@@ -3302,7 +3123,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3091,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = {
         .debug_name = "S3092",
@@ -3320,7 +3140,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3092,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = {
         .debug_name = "S3093",
@@ -3338,7 +3157,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3093,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = {
         .debug_name = "S3094",
@@ -3356,7 +3174,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3094,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = {
         .debug_name = "S3095",
@@ -3374,7 +3191,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3095,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = {
@@ -3393,7 +3209,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3101,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = {
         .debug_name = "S3102",
@@ -3411,7 +3226,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3102,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = {
         .debug_name = "S3103",
@@ -3429,7 +3243,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3104 - CHAPTER_CH_NEW] = {
         .debug_name = "S3104",
@@ -3447,7 +3260,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3104,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = {
         .debug_name = "S3105",
@@ -3465,7 +3277,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3105,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = {
         .debug_name = "S3111",
@@ -3483,7 +3294,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3111,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = {
         .debug_name = "S3112",
@@ -3501,7 +3311,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3112,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = {
         .debug_name = "S3113",
@@ -3519,7 +3328,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3113,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = {
         .debug_name = "S3114",
@@ -3537,7 +3345,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3114,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = {
         .debug_name = "S3115",
@@ -3555,7 +3362,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3115,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = {
@@ -3574,7 +3380,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3121,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = {
@@ -3593,7 +3398,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3122,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = {
         .debug_name = "S3123",
@@ -3611,7 +3415,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3123,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = {
         .debug_name = "S3124",
@@ -3629,7 +3432,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3124,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = {
         .debug_name = "S3125",
@@ -3647,7 +3449,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3125,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = {
         .debug_name = "S3131",
@@ -3665,7 +3466,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3131,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = {
         .debug_name = "S3132",
@@ -3683,7 +3483,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3132,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = {
         .debug_name = "S3133",
@@ -3701,7 +3500,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3133,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = {
         .debug_name = "S3134",
@@ -3719,7 +3517,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3134,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = {
         .debug_name = "S3135",
@@ -3737,7 +3534,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S3135,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = {
         .debug_name = "S4011",
@@ -3755,7 +3551,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4011,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4012 - CHAPTER_CH_NEW] = {
         .debug_name = "S4012",
@@ -3773,7 +3568,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4012,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4013 - CHAPTER_CH_NEW] = {
         .debug_name = "S4013",
@@ -3791,7 +3585,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4013,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4014 - CHAPTER_CH_NEW] = {
         .debug_name = "S4014",
@@ -3809,7 +3602,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4014,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = {
         .debug_name = "S4015",
@@ -3827,7 +3619,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4015,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = {
         .debug_name = "S4021",
@@ -3845,7 +3636,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4021,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = {
         .debug_name = "S4022",
@@ -3863,7 +3653,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4022,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = {
         .debug_name = "S4023",
@@ -3881,7 +3670,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4023,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = {
         .debug_name = "S4024",
@@ -3899,7 +3687,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4024,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = {
         .debug_name = "S4025",
@@ -3917,7 +3704,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4025,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = {
         .debug_name = "S4031",
@@ -3935,7 +3721,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4031,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = {
         .debug_name = "S4032",
@@ -3953,7 +3738,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4032,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = {
         .debug_name = "S4033",
@@ -3971,7 +3755,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4033,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = {
         .debug_name = "S4034",
@@ -3989,7 +3772,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4034,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = {
         .debug_name = "S4035",
@@ -4007,7 +3789,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4035,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = {
         .debug_name = "S4041",
@@ -4025,7 +3806,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4041,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = {
         .debug_name = "S4042",
@@ -4043,7 +3823,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4042,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = {
         .debug_name = "S4043",
@@ -4061,7 +3840,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4043,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = {
         .debug_name = "S4044",
@@ -4079,7 +3857,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4044,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4045 - CHAPTER_CH_NEW] = {
         .debug_name = "S4045",
@@ -4097,7 +3874,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4045,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = {
         .debug_name = "S4051",
@@ -4115,7 +3891,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4051,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = {
         .debug_name = "S4052",
@@ -4133,7 +3908,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4052,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = {
         .debug_name = "S4053",
@@ -4151,7 +3925,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4053,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = {
         .debug_name = "S4054",
@@ -4169,7 +3942,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4054,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = {
         .debug_name = "S4055",
@@ -4187,7 +3959,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4055,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = {
         .debug_name = "S4061",
@@ -4205,7 +3976,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4061,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = {
         .debug_name = "S4062",
@@ -4223,7 +3993,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4062,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = {
         .debug_name = "S4063",
@@ -4241,7 +4010,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4063,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = {
         .debug_name = "S4064",
@@ -4259,7 +4027,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4064,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = {
         .debug_name = "S4065",
@@ -4277,7 +4044,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4065,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = {
         .debug_name = "S4071",
@@ -4295,7 +4061,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4071,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = {
         .debug_name = "S4072",
@@ -4313,7 +4078,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4072,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = {
         .debug_name = "S4073",
@@ -4331,7 +4095,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4073,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = {
         .debug_name = "S4074",
@@ -4349,7 +4112,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4074,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = {
@@ -4368,7 +4130,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4075,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = {
         .debug_name = "S4081",
@@ -4386,7 +4147,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4081,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = {
         .debug_name = "S4082",
@@ -4404,7 +4164,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4082,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = {
         .debug_name = "S4083",
@@ -4422,7 +4181,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4083,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = {
@@ -4441,7 +4199,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4084,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = {
         .debug_name = "S4085",
@@ -4459,7 +4216,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4085,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = {
         .debug_name = "S4091",
@@ -4477,7 +4233,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4091,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = {
         .debug_name = "S4092",
@@ -4495,7 +4250,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4092,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = {
         .debug_name = "S4093",
@@ -4513,7 +4267,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4093,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = {
         .debug_name = "S4094",
@@ -4531,7 +4284,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4094,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = {
         .debug_name = "S4095",
@@ -4549,7 +4301,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4095,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = {
@@ -4568,7 +4319,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4101,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = {
         .debug_name = "S4102",
@@ -4586,7 +4336,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4102,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = {
         .debug_name = "S4103",
@@ -4604,7 +4353,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = {
         .debug_name = "S4104",
@@ -4622,7 +4370,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4104,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = {
         .debug_name = "S4105",
@@ -4640,7 +4387,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4105,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4111 - CHAPTER_CH_NEW] = {
         .debug_name = "S4111",
@@ -4658,7 +4404,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4111,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = {
         .debug_name = "S4112",
@@ -4676,7 +4421,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4112,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = {
         .debug_name = "S4113",
@@ -4694,7 +4438,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4113,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = {
@@ -4713,7 +4456,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4114,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = {
         .debug_name = "S4115",
@@ -4731,7 +4473,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4115,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = {
         .debug_name = "S4121",
@@ -4749,7 +4490,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4121,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = {
         .debug_name = "S4122",
@@ -4767,7 +4507,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4122,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = {
         .debug_name = "S4123",
@@ -4785,7 +4524,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4123,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = {
         .debug_name = "S4124",
@@ -4803,7 +4541,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4124,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = {
         .debug_name = "S4125",
@@ -4821,7 +4558,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4125,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = {
         .debug_name = "S4131",
@@ -4839,7 +4575,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4131,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = {
         .debug_name = "S4132",
@@ -4857,7 +4592,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4132,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = {
         .debug_name = "S4133",
@@ -4875,7 +4609,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4133,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = {
         .debug_name = "S4134",
@@ -4893,7 +4626,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4134,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = {
         .debug_name = "S4135",
@@ -4911,7 +4643,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S4135,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = {
         .debug_name = "S5011",
@@ -4929,7 +4660,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5011,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = {
         .debug_name = "S5012",
@@ -4947,7 +4677,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5012,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = {
         .debug_name = "S5013",
@@ -4965,7 +4694,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5013,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5014 - CHAPTER_CH_NEW] = {
         .debug_name = "S5014",
@@ -4983,7 +4711,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5014,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = {
         .debug_name = "S5015",
@@ -5001,7 +4728,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5015,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = {
         .debug_name = "S5021",
@@ -5019,7 +4745,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5021,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = {
         .debug_name = "S5022",
@@ -5037,7 +4762,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5022,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = {
         .debug_name = "S5023",
@@ -5055,7 +4779,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5023,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = {
         .debug_name = "S5024",
@@ -5073,7 +4796,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5024,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = {
         .debug_name = "S5025",
@@ -5091,7 +4813,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5025,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = {
         .debug_name = "S5031",
@@ -5109,7 +4830,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5031,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = {
         .debug_name = "S5032",
@@ -5127,7 +4847,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5032,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = {
         .debug_name = "S5033",
@@ -5145,7 +4864,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5033,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = {
         .debug_name = "S5034",
@@ -5163,7 +4881,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5034,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5035 - CHAPTER_CH_NEW] = {
         .debug_name = "S5035",
@@ -5181,7 +4898,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5035,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = {
         .debug_name = "S5041",
@@ -5199,7 +4915,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5041,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = {
         .debug_name = "S5042",
@@ -5217,7 +4932,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5042,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = {
         .debug_name = "S5043",
@@ -5235,7 +4949,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5043,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = {
         .debug_name = "S5044",
@@ -5253,7 +4966,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5044,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = {
         .debug_name = "S5045",
@@ -5271,7 +4983,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5045,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = {
         .debug_name = "S5051",
@@ -5289,7 +5000,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5051,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = {
         .debug_name = "S5052",
@@ -5307,7 +5017,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5052,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = {
         .debug_name = "S5053",
@@ -5325,7 +5034,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5053,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = {
         .debug_name = "S5054",
@@ -5343,7 +5051,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5054,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = {
         .debug_name = "S5055",
@@ -5361,7 +5068,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5055,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = {
         .debug_name = "S5061",
@@ -5379,7 +5085,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5061,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = {
         .debug_name = "S5062",
@@ -5397,7 +5102,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5062,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = {
         .debug_name = "S5063",
@@ -5415,7 +5119,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5063,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = {
         .debug_name = "S5064",
@@ -5433,7 +5136,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5064,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = {
         .debug_name = "S5065",
@@ -5451,7 +5153,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5065,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = {
         .debug_name = "S5071",
@@ -5469,7 +5170,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5071,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = {
         .debug_name = "S5072",
@@ -5487,7 +5187,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5072,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = {
         .debug_name = "S5073",
@@ -5505,7 +5204,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5073,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = {
         .debug_name = "S5074",
@@ -5523,7 +5221,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5074,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = {
         .debug_name = "S5075",
@@ -5541,7 +5238,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5075,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = {
         .debug_name = "S5081",
@@ -5559,7 +5255,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5081,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = {
         .debug_name = "S5082",
@@ -5577,7 +5272,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5082,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = {
         .debug_name = "S5083",
@@ -5595,7 +5289,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5083,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = {
         .debug_name = "S5084",
@@ -5613,7 +5306,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5084,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = {
         .debug_name = "S5085",
@@ -5631,7 +5323,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5085,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = {
         .debug_name = "S5091",
@@ -5649,7 +5340,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5091,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = {
         .debug_name = "S5092",
@@ -5667,7 +5357,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5092,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = {
         .debug_name = "S5093",
@@ -5685,7 +5374,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5093,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = {
         .debug_name = "S5094",
@@ -5703,7 +5391,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5094,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = {
         .debug_name = "S5095",
@@ -5721,7 +5408,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5095,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = {
         .debug_name = "S5101",
@@ -5739,7 +5425,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5101,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = {
         .debug_name = "S5102",
@@ -5757,7 +5442,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5102,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = {
         .debug_name = "S5103",
@@ -5775,7 +5459,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = {
         .debug_name = "S5104",
@@ -5793,7 +5476,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5104,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = {
         .debug_name = "S5105",
@@ -5811,7 +5493,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5105,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = {
         .debug_name = "S5111",
@@ -5829,7 +5510,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5111,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = {
@@ -5848,7 +5528,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5112,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = {
@@ -5867,7 +5546,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5113,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = {
@@ -5886,7 +5564,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5114,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = {
@@ -5905,7 +5582,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5115,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = {
@@ -5924,7 +5600,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5121,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = {
         .debug_name = "S5122",
@@ -5942,7 +5617,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5122,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = {
         .debug_name = "S5123",
@@ -5960,7 +5634,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5123,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = {
         .debug_name = "S5124",
@@ -5978,7 +5651,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5124,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = {
         .debug_name = "S5125",
@@ -5996,7 +5668,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5125,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = {
         .debug_name = "S5131",
@@ -6014,7 +5685,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5131,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = {
         .debug_name = "S5132",
@@ -6032,7 +5702,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5132,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = {
         .debug_name = "S5133",
@@ -6050,7 +5719,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5133,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = {
         .debug_name = "S5134",
@@ -6068,7 +5736,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5134,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = {
         .debug_name = "S5135",
@@ -6086,7 +5753,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S5135,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = {
         .debug_name = "S6011",
@@ -6104,7 +5770,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6011,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = {
@@ -6123,7 +5788,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6012,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = {
@@ -6142,7 +5806,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6013,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = {
@@ -6161,7 +5824,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6014,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = {
         .debug_name = "S6015",
@@ -6179,7 +5841,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6015,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = {
@@ -6198,7 +5859,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6021,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = {
@@ -6217,7 +5877,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6022,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = {
@@ -6236,7 +5895,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6023,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = {
         .debug_name = "S6024",
@@ -6254,7 +5912,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6024,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = {
@@ -6273,7 +5930,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6025,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = {
         .debug_name = "S6031",
@@ -6291,7 +5947,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6031,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = {
         .debug_name = "S6032",
@@ -6309,7 +5964,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6032,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = {
         .debug_name = "S6033",
@@ -6327,7 +5981,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6033,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = {
         .debug_name = "S6034",
@@ -6345,7 +5998,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6034,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = {
         .debug_name = "S6035",
@@ -6363,7 +6015,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6035,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = {
         .debug_name = "S6041",
@@ -6381,7 +6032,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6041,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = {
         .debug_name = "S6042",
@@ -6399,7 +6049,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6042,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = {
         .debug_name = "S6043",
@@ -6417,7 +6066,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6043,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = {
         .debug_name = "S6044",
@@ -6435,7 +6083,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6044,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = {
         .debug_name = "S6045",
@@ -6453,7 +6100,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6045,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = {
         .debug_name = "S6051",
@@ -6471,7 +6117,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6051,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = {
         .debug_name = "S6052",
@@ -6489,7 +6134,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6052,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = {
         .debug_name = "S6053",
@@ -6507,7 +6151,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6053,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = {
         .debug_name = "S6054",
@@ -6525,7 +6168,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6054,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = {
         .debug_name = "S6055",
@@ -6543,7 +6185,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6055,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = {
@@ -6562,7 +6203,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6061,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = {
         .debug_name = "S6062",
@@ -6580,7 +6220,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6062,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = {
         .debug_name = "S6063",
@@ -6598,7 +6237,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6063,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = {
         .debug_name = "S6064",
@@ -6616,7 +6254,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6064,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = {
         .debug_name = "S6065",
@@ -6634,7 +6271,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6065,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = {
         .debug_name = "S6071",
@@ -6652,7 +6288,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6071,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = {
         .debug_name = "S6072",
@@ -6670,7 +6305,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6072,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = {
         .debug_name = "S6073",
@@ -6688,7 +6322,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6073,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = {
         .debug_name = "S6074",
@@ -6706,7 +6339,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6074,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = {
         .debug_name = "S6075",
@@ -6724,7 +6356,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6075,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = {
         .debug_name = "S6081",
@@ -6742,7 +6373,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6081,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = {
         .debug_name = "S6082",
@@ -6760,7 +6390,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6082,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = {
         .debug_name = "S6083",
@@ -6778,7 +6407,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6083,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = {
         .debug_name = "S6084",
@@ -6796,7 +6424,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6084,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = {
         .debug_name = "S6085",
@@ -6814,7 +6441,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6085,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = {
         .debug_name = "S6091",
@@ -6832,7 +6458,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6091,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = {
         .debug_name = "S6092",
@@ -6850,7 +6475,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6092,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = {
         .debug_name = "S6093",
@@ -6868,7 +6492,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6093,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = {
         .debug_name = "S6094",
@@ -6886,7 +6509,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6094,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = {
         .debug_name = "S6095",
@@ -6904,7 +6526,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6095,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = {
         .debug_name = "S6101",
@@ -6922,7 +6543,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6101,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = {
         .debug_name = "S6102",
@@ -6940,7 +6560,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6102,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = {
         .debug_name = "S6103",
@@ -6958,7 +6577,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = {
         .debug_name = "S6104",
@@ -6976,7 +6594,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6104,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = {
         .debug_name = "S6105",
@@ -6994,7 +6611,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6105,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = {
         .debug_name = "S6111",
@@ -7012,7 +6628,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6111,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = {
@@ -7031,7 +6646,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6112,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = {
@@ -7050,7 +6664,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6113,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = {
         .debug_name = "S6114",
@@ -7068,7 +6681,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6114,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = {
         .debug_name = "S6115",
@@ -7086,7 +6698,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6115,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = {
         .debug_name = "S6121",
@@ -7104,7 +6715,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6121,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = {
         .debug_name = "S6122",
@@ -7122,7 +6732,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6122,
-        .victory_bgm_enemy_threshold = 1,
         .wall_hp = WALL_HP_DEFAULT,
     },
     [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = {
@@ -7141,7 +6750,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6123,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = {
         .debug_name = "S6124",
@@ -7159,7 +6767,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6124,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = {
         .debug_name = "S6125",
@@ -7177,7 +6784,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6125,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = {
         .debug_name = "S6131",
@@ -7195,7 +6801,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6131,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = {
         .debug_name = "S6132",
@@ -7213,7 +6818,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6132,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = {
         .debug_name = "S6133",
@@ -7231,7 +6835,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6133,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = {
         .debug_name = "S6134",
@@ -7249,7 +6852,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6134,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = {
         .debug_name = "S6135",
@@ -7267,7 +6869,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S6135,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = {
         .debug_name = "S7011",
@@ -7285,7 +6886,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7011,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = {
         .debug_name = "S7012",
@@ -7303,7 +6903,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7012,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = {
         .debug_name = "S7013",
@@ -7321,7 +6920,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7013,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = {
         .debug_name = "S7014",
@@ -7339,7 +6937,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7014,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = {
         .debug_name = "S7015",
@@ -7357,7 +6954,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7015,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = {
         .debug_name = "S7021",
@@ -7375,7 +6971,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7021,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = {
         .debug_name = "S7022",
@@ -7393,7 +6988,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7022,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = {
         .debug_name = "S7023",
@@ -7411,7 +7005,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7023,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = {
         .debug_name = "S7024",
@@ -7429,7 +7022,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7024,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = {
         .debug_name = "S7025",
@@ -7447,7 +7039,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7025,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = {
         .debug_name = "S7031",
@@ -7465,7 +7056,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7031,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = {
         .debug_name = "S7032",
@@ -7483,7 +7073,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7032,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = {
         .debug_name = "S7033",
@@ -7501,7 +7090,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7033,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = {
         .debug_name = "S7034",
@@ -7519,7 +7107,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7034,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = {
         .debug_name = "S7035",
@@ -7537,7 +7124,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7035,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = {
         .debug_name = "S7041",
@@ -7555,7 +7141,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7041,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = {
         .debug_name = "S7042",
@@ -7573,7 +7158,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7042,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = {
         .debug_name = "S7043",
@@ -7591,7 +7175,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7043,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = {
         .debug_name = "S7044",
@@ -7609,7 +7192,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7044,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = {
         .debug_name = "S7045",
@@ -7627,7 +7209,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7045,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = {
         .debug_name = "S7051",
@@ -7645,7 +7226,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7051,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = {
         .debug_name = "S7052",
@@ -7663,7 +7243,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7052,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = {
         .debug_name = "S7053",
@@ -7681,7 +7260,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7053,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = {
         .debug_name = "S7054",
@@ -7699,7 +7277,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7054,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = {
         .debug_name = "S7055",
@@ -7717,7 +7294,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7055,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = {
         .debug_name = "S7061",
@@ -7735,7 +7311,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7061,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = {
         .debug_name = "S7062",
@@ -7753,7 +7328,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7062,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = {
         .debug_name = "S7063",
@@ -7771,7 +7345,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7063,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = {
         .debug_name = "S7064",
@@ -7789,7 +7362,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7064,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = {
         .debug_name = "S7065",
@@ -7807,7 +7379,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7065,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7071 - CHAPTER_CH_NEW] = {
         .debug_name = "S7071",
@@ -7825,7 +7396,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7071,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = {
         .debug_name = "S7072",
@@ -7843,7 +7413,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7072,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = {
         .debug_name = "S7073",
@@ -7861,7 +7430,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7073,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = {
         .debug_name = "S7074",
@@ -7879,7 +7447,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7074,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = {
         .debug_name = "S7075",
@@ -7897,7 +7464,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7075,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = {
         .debug_name = "S7081",
@@ -7915,7 +7481,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7081,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = {
         .debug_name = "S7082",
@@ -7933,7 +7498,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7082,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = {
         .debug_name = "S7083",
@@ -7951,7 +7515,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7083,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = {
         .debug_name = "S7084",
@@ -7969,7 +7532,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7084,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = {
         .debug_name = "S7085",
@@ -7987,7 +7549,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7085,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = {
         .debug_name = "S7091",
@@ -8005,7 +7566,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7091,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = {
         .debug_name = "S7092",
@@ -8023,7 +7583,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7092,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = {
         .debug_name = "S7093",
@@ -8041,7 +7600,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7093,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = {
         .debug_name = "S7094",
@@ -8059,7 +7617,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7094,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = {
         .debug_name = "S7095",
@@ -8077,7 +7634,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7095,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = {
         .debug_name = "S7101",
@@ -8095,7 +7651,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7101,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = {
         .debug_name = "S7102",
@@ -8113,7 +7668,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7102,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = {
         .debug_name = "S7103",
@@ -8131,7 +7685,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7103,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = {
         .debug_name = "S7104",
@@ -8149,7 +7702,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7104,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = {
         .debug_name = "S7105",
@@ -8167,7 +7719,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7105,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = {
         .debug_name = "S7111",
@@ -8185,7 +7736,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7111,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = {
         .debug_name = "S7112",
@@ -8203,7 +7753,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7112,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = {
         .debug_name = "S7113",
@@ -8221,7 +7770,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7113,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = {
         .debug_name = "S7114",
@@ -8239,7 +7787,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7114,
-        .victory_bgm_enemy_threshold = 1,
     },
     [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = {
         .debug_name = "S7115",
@@ -8257,7 +7804,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_red_army = MSG_ID_RED_ARMY,
         .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,
         .msg_title = MID_STAGE_S7115,
-        .victory_bgm_enemy_threshold = 1,
     },
 };
 
@@ -10998,4 +10544,863 @@ void const * const ChapterEvents[] = {
     [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = &ChapterEventInfo_S7113,
     [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = &ChapterEventInfo_S7114,
     [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = &ChapterEventInfo_S7115,
+
+};
+
+const u16 ChapterMapBGMs[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = SONG_01,
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = S0001_BGM,
+    [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = S0002_BGM,
+    [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = S0101_BGM,
+    [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = S0102_BGM,
+    [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = S0103_BGM,
+    [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = S0201_BGM,
+    [CHAPTER_CH_S0202 - CHAPTER_CH_NEW] = S0202_BGM,
+    [CHAPTER_CH_S0203 - CHAPTER_CH_NEW] = S0203_BGM,
+    [CHAPTER_CH_S0204 - CHAPTER_CH_NEW] = S0204_BGM,
+    [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = S0205_BGM,
+    [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = S0301_BGM,
+    [CHAPTER_CH_S0302 - CHAPTER_CH_NEW] = S0302_BGM,
+    [CHAPTER_CH_S0303 - CHAPTER_CH_NEW] = S0303_BGM,
+    [CHAPTER_CH_S0304 - CHAPTER_CH_NEW] = S0304_BGM,
+    [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = S0305_BGM,
+    [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = S0401_BGM,
+    [CHAPTER_CH_S0402 - CHAPTER_CH_NEW] = S0402_BGM,
+    [CHAPTER_CH_S0403 - CHAPTER_CH_NEW] = S0403_BGM,
+    [CHAPTER_CH_S0404 - CHAPTER_CH_NEW] = S0404_BGM,
+    [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = S0405_BGM,
+    [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = S0501_BGM,
+    [CHAPTER_CH_S0502 - CHAPTER_CH_NEW] = S0502_BGM,
+    [CHAPTER_CH_S0503 - CHAPTER_CH_NEW] = S0503_BGM,
+    [CHAPTER_CH_S0504 - CHAPTER_CH_NEW] = S0504_BGM,
+    [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = S0505_BGM,
+    [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = S0601_BGM,
+    [CHAPTER_CH_S0602 - CHAPTER_CH_NEW] = S0602_BGM,
+    [CHAPTER_CH_S0603 - CHAPTER_CH_NEW] = S0603_BGM,
+    [CHAPTER_CH_S0604 - CHAPTER_CH_NEW] = S0604_BGM,
+    [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = S0605_BGM,
+    [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = S0701_BGM,
+    [CHAPTER_CH_S0702 - CHAPTER_CH_NEW] = S0702_BGM,
+    [CHAPTER_CH_S0703 - CHAPTER_CH_NEW] = S0703_BGM,
+    [CHAPTER_CH_S0704 - CHAPTER_CH_NEW] = S0704_BGM,
+    [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = S0705_BGM,
+    [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = S0801_BGM,
+    [CHAPTER_CH_S0802 - CHAPTER_CH_NEW] = S0802_BGM,
+    [CHAPTER_CH_S0803 - CHAPTER_CH_NEW] = S0803_BGM,
+    [CHAPTER_CH_S0804 - CHAPTER_CH_NEW] = S0804_BGM,
+    [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = S0805_BGM,
+    [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = S0901_BGM,
+    [CHAPTER_CH_S0902 - CHAPTER_CH_NEW] = S0902_BGM,
+    [CHAPTER_CH_S0903 - CHAPTER_CH_NEW] = S0903_BGM,
+    [CHAPTER_CH_S0904 - CHAPTER_CH_NEW] = S0904_BGM,
+    [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = S0905_BGM,
+    [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = S1001_BGM,
+    [CHAPTER_CH_S1002 - CHAPTER_CH_NEW] = S1002_BGM,
+    [CHAPTER_CH_S1003 - CHAPTER_CH_NEW] = S1003_BGM,
+    [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = S1004_BGM,
+    [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = S1005_BGM,
+    [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = S1101_BGM,
+    [CHAPTER_CH_S1102 - CHAPTER_CH_NEW] = S1102_BGM,
+    [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = S1103_BGM,
+    [CHAPTER_CH_S1104 - CHAPTER_CH_NEW] = S1104_BGM,
+    [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = S1105_BGM,
+    [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = S1201_BGM,
+    [CHAPTER_CH_S1202 - CHAPTER_CH_NEW] = S1202_BGM,
+    [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = S1203_BGM,
+    [CHAPTER_CH_S1204 - CHAPTER_CH_NEW] = S1204_BGM,
+    [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = S1205_BGM,
+    [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = S1301_BGM,
+    [CHAPTER_CH_S1302 - CHAPTER_CH_NEW] = S1302_BGM,
+    [CHAPTER_CH_S1303 - CHAPTER_CH_NEW] = S1303_BGM,
+    [CHAPTER_CH_S1304 - CHAPTER_CH_NEW] = S1304_BGM,
+    [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = S1305_BGM,
+    [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = S1401_BGM,
+    [CHAPTER_CH_S1402 - CHAPTER_CH_NEW] = S1402_BGM,
+    [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = S1403_BGM,
+    [CHAPTER_CH_S1404 - CHAPTER_CH_NEW] = S1404_BGM,
+    [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = S1405_BGM,
+    [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = S1501_BGM,
+    [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = S1601_BGM,
+    [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = S2011_BGM,
+    [CHAPTER_CH_S2012 - CHAPTER_CH_NEW] = S2012_BGM,
+    [CHAPTER_CH_S2013 - CHAPTER_CH_NEW] = S2013_BGM,
+    [CHAPTER_CH_S2014 - CHAPTER_CH_NEW] = S2014_BGM,
+    [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = S2015_BGM,
+    [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = S2021_BGM,
+    [CHAPTER_CH_S2022 - CHAPTER_CH_NEW] = S2022_BGM,
+    [CHAPTER_CH_S2023 - CHAPTER_CH_NEW] = S2023_BGM,
+    [CHAPTER_CH_S2024 - CHAPTER_CH_NEW] = S2024_BGM,
+    [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = S2025_BGM,
+    [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = S2031_BGM,
+    [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = S2032_BGM,
+    [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = S2033_BGM,
+    [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = S2034_BGM,
+    [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = S2035_BGM,
+    [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = S2041_BGM,
+    [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = S2042_BGM,
+    [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = S2043_BGM,
+    [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = S2044_BGM,
+    [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = S2045_BGM,
+    [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = S2051_BGM,
+    [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = S2052_BGM,
+    [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = S2053_BGM,
+    [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = S2054_BGM,
+    [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = S2055_BGM,
+    [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = S2061_BGM,
+    [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = S2062_BGM,
+    [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = S2063_BGM,
+    [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = S2064_BGM,
+    [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = S2065_BGM,
+    [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = S2071_BGM,
+    [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = S2072_BGM,
+    [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = S2073_BGM,
+    [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = S2074_BGM,
+    [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = S2075_BGM,
+    [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = S2081_BGM,
+    [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = S2082_BGM,
+    [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = S2083_BGM,
+    [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = S2084_BGM,
+    [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = S2085_BGM,
+    [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = S2091_BGM,
+    [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = S2092_BGM,
+    [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = S2093_BGM,
+    [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = S2094_BGM,
+    [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = S2095_BGM,
+    [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = S2101_BGM,
+    [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = S2102_BGM,
+    [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = S2103_BGM,
+    [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = S2104_BGM,
+    [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = S2105_BGM,
+    [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = S2111_BGM,
+    [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = S2112_BGM,
+    [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = S2113_BGM,
+    [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = S2114_BGM,
+    [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = S2115_BGM,
+    [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = S2121_BGM,
+    [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = S2122_BGM,
+    [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = S2123_BGM,
+    [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = S2124_BGM,
+    [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = S2125_BGM,
+    [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = S2131_BGM,
+    [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = S2132_BGM,
+    [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = S2133_BGM,
+    [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = S2134_BGM,
+    [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = S2135_BGM,
+    [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = S3011_BGM,
+    [CHAPTER_CH_S3012 - CHAPTER_CH_NEW] = S3012_BGM,
+    [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = S3013_BGM,
+    [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = S3014_BGM,
+    [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = S3015_BGM,
+    [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = S3021_BGM,
+    [CHAPTER_CH_S3022 - CHAPTER_CH_NEW] = S3022_BGM,
+    [CHAPTER_CH_S3023 - CHAPTER_CH_NEW] = S3023_BGM,
+    [CHAPTER_CH_S3024 - CHAPTER_CH_NEW] = S3024_BGM,
+    [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = S3025_BGM,
+    [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = S3031_BGM,
+    [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = S3032_BGM,
+    [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = S3033_BGM,
+    [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = S3034_BGM,
+    [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = S3035_BGM,
+    [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = S3041_BGM,
+    [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = S3042_BGM,
+    [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = S3043_BGM,
+    [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = S3044_BGM,
+    [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = S3045_BGM,
+    [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = S3051_BGM,
+    [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = S3052_BGM,
+    [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = S3053_BGM,
+    [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = S3054_BGM,
+    [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = S3055_BGM,
+    [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = S3061_BGM,
+    [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = S3062_BGM,
+    [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = S3063_BGM,
+    [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = S3064_BGM,
+    [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = S3065_BGM,
+    [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = S3071_BGM,
+    [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = S3072_BGM,
+    [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = S3073_BGM,
+    [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = S3074_BGM,
+    [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = S3075_BGM,
+    [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = S3081_BGM,
+    [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = S3082_BGM,
+    [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = S3083_BGM,
+    [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = S3084_BGM,
+    [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = S3085_BGM,
+    [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = S3091_BGM,
+    [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = S3092_BGM,
+    [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = S3093_BGM,
+    [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = S3094_BGM,
+    [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = S3095_BGM,
+    [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = S3101_BGM,
+    [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = S3102_BGM,
+    [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = S3103_BGM,
+    [CHAPTER_CH_S3104 - CHAPTER_CH_NEW] = S3104_BGM,
+    [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = S3105_BGM,
+    [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = S3111_BGM,
+    [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = S3112_BGM,
+    [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = S3113_BGM,
+    [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = S3114_BGM,
+    [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = S3115_BGM,
+    [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = S3121_BGM,
+    [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = S3122_BGM,
+    [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = S3123_BGM,
+    [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = S3124_BGM,
+    [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = S3125_BGM,
+    [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = S3131_BGM,
+    [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = S3132_BGM,
+    [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = S3133_BGM,
+    [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = S3134_BGM,
+    [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = S3135_BGM,
+    [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = S4011_BGM,
+    [CHAPTER_CH_S4012 - CHAPTER_CH_NEW] = S4012_BGM,
+    [CHAPTER_CH_S4013 - CHAPTER_CH_NEW] = S4013_BGM,
+    [CHAPTER_CH_S4014 - CHAPTER_CH_NEW] = S4014_BGM,
+    [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = S4015_BGM,
+    [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = S4021_BGM,
+    [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = S4022_BGM,
+    [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = S4023_BGM,
+    [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = S4024_BGM,
+    [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = S4025_BGM,
+    [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = S4031_BGM,
+    [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = S4032_BGM,
+    [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = S4033_BGM,
+    [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = S4034_BGM,
+    [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = S4035_BGM,
+    [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = S4041_BGM,
+    [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = S4042_BGM,
+    [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = S4043_BGM,
+    [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = S4044_BGM,
+    [CHAPTER_CH_S4045 - CHAPTER_CH_NEW] = S4045_BGM,
+    [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = S4051_BGM,
+    [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = S4052_BGM,
+    [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = S4053_BGM,
+    [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = S4054_BGM,
+    [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = S4055_BGM,
+    [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = S4061_BGM,
+    [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = S4062_BGM,
+    [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = S4063_BGM,
+    [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = S4064_BGM,
+    [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = S4065_BGM,
+    [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = S4071_BGM,
+    [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = S4072_BGM,
+    [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = S4073_BGM,
+    [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = S4074_BGM,
+    [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = S4075_BGM,
+    [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = S4081_BGM,
+    [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = S4082_BGM,
+    [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = S4083_BGM,
+    [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = S4084_BGM,
+    [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = S4085_BGM,
+    [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = S4091_BGM,
+    [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = S4092_BGM,
+    [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = S4093_BGM,
+    [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = S4094_BGM,
+    [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = S4095_BGM,
+    [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = S4101_BGM,
+    [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = S4102_BGM,
+    [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = S4103_BGM,
+    [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = S4104_BGM,
+    [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = S4105_BGM,
+    [CHAPTER_CH_S4111 - CHAPTER_CH_NEW] = S4111_BGM,
+    [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = S4112_BGM,
+    [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = S4113_BGM,
+    [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = S4114_BGM,
+    [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = S4115_BGM,
+    [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = S4121_BGM,
+    [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = S4122_BGM,
+    [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = S4123_BGM,
+    [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = S4124_BGM,
+    [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = S4125_BGM,
+    [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = S4131_BGM,
+    [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = S4132_BGM,
+    [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = S4133_BGM,
+    [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = S4134_BGM,
+    [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = S4135_BGM,
+    [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = S5011_BGM,
+    [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = S5012_BGM,
+    [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = S5013_BGM,
+    [CHAPTER_CH_S5014 - CHAPTER_CH_NEW] = S5014_BGM,
+    [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = S5015_BGM,
+    [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = S5021_BGM,
+    [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = S5022_BGM,
+    [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = S5023_BGM,
+    [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = S5024_BGM,
+    [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = S5025_BGM,
+    [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = S5031_BGM,
+    [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = S5032_BGM,
+    [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = S5033_BGM,
+    [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = S5034_BGM,
+    [CHAPTER_CH_S5035 - CHAPTER_CH_NEW] = S5035_BGM,
+    [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = S5041_BGM,
+    [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = S5042_BGM,
+    [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = S5043_BGM,
+    [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = S5044_BGM,
+    [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = S5045_BGM,
+    [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = S5051_BGM,
+    [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = S5052_BGM,
+    [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = S5053_BGM,
+    [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = S5054_BGM,
+    [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = S5055_BGM,
+    [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = S5061_BGM,
+    [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = S5062_BGM,
+    [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = S5063_BGM,
+    [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = S5064_BGM,
+    [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = S5065_BGM,
+    [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = S5071_BGM,
+    [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = S5072_BGM,
+    [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = S5073_BGM,
+    [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = S5074_BGM,
+    [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = S5075_BGM,
+    [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = S5081_BGM,
+    [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = S5082_BGM,
+    [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = S5083_BGM,
+    [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = S5084_BGM,
+    [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = S5085_BGM,
+    [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = S5091_BGM,
+    [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = S5092_BGM,
+    [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = S5093_BGM,
+    [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = S5094_BGM,
+    [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = S5095_BGM,
+    [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = S5101_BGM,
+    [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = S5102_BGM,
+    [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = S5103_BGM,
+    [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = S5104_BGM,
+    [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = S5105_BGM,
+    [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = S5111_BGM,
+    [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = S5112_BGM,
+    [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = S5113_BGM,
+    [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = S5114_BGM,
+    [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = S5115_BGM,
+    [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = S5121_BGM,
+    [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = S5122_BGM,
+    [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = S5123_BGM,
+    [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = S5124_BGM,
+    [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = S5125_BGM,
+    [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = S5131_BGM,
+    [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = S5132_BGM,
+    [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = S5133_BGM,
+    [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = S5134_BGM,
+    [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = S5135_BGM,
+    [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = S6011_BGM,
+    [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = S6012_BGM,
+    [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = S6013_BGM,
+    [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = S6014_BGM,
+    [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = S6015_BGM,
+    [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = S6021_BGM,
+    [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = S6022_BGM,
+    [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = S6023_BGM,
+    [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = S6024_BGM,
+    [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = S6025_BGM,
+    [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = S6031_BGM,
+    [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = S6032_BGM,
+    [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = S6033_BGM,
+    [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = S6034_BGM,
+    [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = S6035_BGM,
+    [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = S6041_BGM,
+    [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = S6042_BGM,
+    [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = S6043_BGM,
+    [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = S6044_BGM,
+    [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = S6045_BGM,
+    [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = S6051_BGM,
+    [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = S6052_BGM,
+    [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = S6053_BGM,
+    [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = S6054_BGM,
+    [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = S6055_BGM,
+    [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = S6061_BGM,
+    [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = S6062_BGM,
+    [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = S6063_BGM,
+    [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = S6064_BGM,
+    [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = S6065_BGM,
+    [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = S6071_BGM,
+    [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = S6072_BGM,
+    [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = S6073_BGM,
+    [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = S6074_BGM,
+    [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = S6075_BGM,
+    [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = S6081_BGM,
+    [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = S6082_BGM,
+    [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = S6083_BGM,
+    [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = S6084_BGM,
+    [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = S6085_BGM,
+    [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = S6091_BGM,
+    [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = S6092_BGM,
+    [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = S6093_BGM,
+    [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = S6094_BGM,
+    [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = S6095_BGM,
+    [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = S6101_BGM,
+    [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = S6102_BGM,
+    [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = S6103_BGM,
+    [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = S6104_BGM,
+    [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = S6105_BGM,
+    [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = S6111_BGM,
+    [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = S6112_BGM,
+    [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = S6113_BGM,
+    [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = S6114_BGM,
+    [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = S6115_BGM,
+    [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = S6121_BGM,
+    [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = S6122_BGM,
+    [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = S6123_BGM,
+    [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = S6124_BGM,
+    [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = S6125_BGM,
+    [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = S6131_BGM,
+    [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = S6132_BGM,
+    [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = S6133_BGM,
+    [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = S6134_BGM,
+    [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = S6135_BGM,
+    [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = S7011_BGM,
+    [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = S7012_BGM,
+    [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = S7013_BGM,
+    [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = S7014_BGM,
+    [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = S7015_BGM,
+    [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = S7021_BGM,
+    [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = S7022_BGM,
+    [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = S7023_BGM,
+    [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = S7024_BGM,
+    [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = S7025_BGM,
+    [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = S7031_BGM,
+    [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = S7032_BGM,
+    [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = S7033_BGM,
+    [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = S7034_BGM,
+    [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = S7035_BGM,
+    [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = S7041_BGM,
+    [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = S7042_BGM,
+    [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = S7043_BGM,
+    [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = S7044_BGM,
+    [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = S7045_BGM,
+    [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = S7051_BGM,
+    [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = S7052_BGM,
+    [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = S7053_BGM,
+    [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = S7054_BGM,
+    [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = S7055_BGM,
+    [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = S7061_BGM,
+    [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = S7062_BGM,
+    [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = S7063_BGM,
+    [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = S7064_BGM,
+    [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = S7065_BGM,
+    [CHAPTER_CH_S7071 - CHAPTER_CH_NEW] = S7071_BGM,
+    [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = S7072_BGM,
+    [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = S7073_BGM,
+    [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = S7074_BGM,
+    [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = S7075_BGM,
+    [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = S7081_BGM,
+    [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = S7082_BGM,
+    [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = S7083_BGM,
+    [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = S7084_BGM,
+    [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = S7085_BGM,
+    [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = S7091_BGM,
+    [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = S7092_BGM,
+    [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = S7093_BGM,
+    [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = S7094_BGM,
+    [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = S7095_BGM,
+    [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = S7101_BGM,
+    [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = S7102_BGM,
+    [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = S7103_BGM,
+    [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = S7104_BGM,
+    [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = S7105_BGM,
+    [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = S7111_BGM,
+    [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = S7112_BGM,
+    [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = S7113_BGM,
+    [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = S7114_BGM,
+    [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = S7115_BGM,
+
+};
+
+const u16 ChapterOPBGMs[] = {
+    [CHAPTER_CH_S0001 - CHAPTER_CH_NEW] = S0001_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S0002 - CHAPTER_CH_NEW] = S0002_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = S0101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S0102 - CHAPTER_CH_NEW] = S0102_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S0103 - CHAPTER_CH_NEW] = S0103_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S0201 - CHAPTER_CH_NEW] = S0201_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S0205 - CHAPTER_CH_NEW] = S0205_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0301 - CHAPTER_CH_NEW] = S0301_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0305 - CHAPTER_CH_NEW] = S0305_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0401 - CHAPTER_CH_NEW] = S0401_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0405 - CHAPTER_CH_NEW] = S0405_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0501 - CHAPTER_CH_NEW] = S0501_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0505 - CHAPTER_CH_NEW] = S0505_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0601 - CHAPTER_CH_NEW] = S0601_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0605 - CHAPTER_CH_NEW] = S0605_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0701 - CHAPTER_CH_NEW] = S0701_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0705 - CHAPTER_CH_NEW] = S0705_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0801 - CHAPTER_CH_NEW] = S0801_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0805 - CHAPTER_CH_NEW] = S0805_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0901 - CHAPTER_CH_NEW] = S0901_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S0905 - CHAPTER_CH_NEW] = S0905_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1001 - CHAPTER_CH_NEW] = S1001_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S1004 - CHAPTER_CH_NEW] = S1004_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1005 - CHAPTER_CH_NEW] = S1005_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1101 - CHAPTER_CH_NEW] = S1101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S1103 - CHAPTER_CH_NEW] = S1103_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1105 - CHAPTER_CH_NEW] = S1105_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1201 - CHAPTER_CH_NEW] = S1201_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S1203 - CHAPTER_CH_NEW] = S1203_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1205 - CHAPTER_CH_NEW] = S1205_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1301 - CHAPTER_CH_NEW] = S1301_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S1305 - CHAPTER_CH_NEW] = S1305_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1401 - CHAPTER_CH_NEW] = S1401_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S1403 - CHAPTER_CH_NEW] = S1403_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1405 - CHAPTER_CH_NEW] = S1405_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S1501 - CHAPTER_CH_NEW] = S1501_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S1601 - CHAPTER_CH_NEW] = S1601_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2011 - CHAPTER_CH_NEW] = S2011_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2015 - CHAPTER_CH_NEW] = S2015_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2021 - CHAPTER_CH_NEW] = S2021_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2025 - CHAPTER_CH_NEW] = S2025_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2031 - CHAPTER_CH_NEW] = S2031_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2032 - CHAPTER_CH_NEW] = S2032_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2033 - CHAPTER_CH_NEW] = S2033_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2034 - CHAPTER_CH_NEW] = S2034_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2035 - CHAPTER_CH_NEW] = S2035_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2041 - CHAPTER_CH_NEW] = S2041_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2042 - CHAPTER_CH_NEW] = S2042_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2043 - CHAPTER_CH_NEW] = S2043_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2044 - CHAPTER_CH_NEW] = S2044_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2045 - CHAPTER_CH_NEW] = S2045_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2051 - CHAPTER_CH_NEW] = S2051_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2052 - CHAPTER_CH_NEW] = S2052_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2053 - CHAPTER_CH_NEW] = S2053_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2054 - CHAPTER_CH_NEW] = S2054_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2055 - CHAPTER_CH_NEW] = S2055_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2061 - CHAPTER_CH_NEW] = S2061_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2062 - CHAPTER_CH_NEW] = S2062_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2063 - CHAPTER_CH_NEW] = S2063_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2064 - CHAPTER_CH_NEW] = S2064_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2065 - CHAPTER_CH_NEW] = S2065_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2071 - CHAPTER_CH_NEW] = S2071_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2072 - CHAPTER_CH_NEW] = S2072_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2073 - CHAPTER_CH_NEW] = S2073_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2074 - CHAPTER_CH_NEW] = S2074_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2075 - CHAPTER_CH_NEW] = S2075_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2081 - CHAPTER_CH_NEW] = S2081_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2082 - CHAPTER_CH_NEW] = S2082_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2083 - CHAPTER_CH_NEW] = S2083_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2084 - CHAPTER_CH_NEW] = S2084_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2085 - CHAPTER_CH_NEW] = S2085_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2091 - CHAPTER_CH_NEW] = S2091_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2092 - CHAPTER_CH_NEW] = S2092_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2093 - CHAPTER_CH_NEW] = S2093_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2094 - CHAPTER_CH_NEW] = S2094_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2095 - CHAPTER_CH_NEW] = S2095_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2101 - CHAPTER_CH_NEW] = S2101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2102 - CHAPTER_CH_NEW] = S2102_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2103 - CHAPTER_CH_NEW] = S2103_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2104 - CHAPTER_CH_NEW] = S2104_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2105 - CHAPTER_CH_NEW] = S2105_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2111 - CHAPTER_CH_NEW] = S2111_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2112 - CHAPTER_CH_NEW] = S2112_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2113 - CHAPTER_CH_NEW] = S2113_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2114 - CHAPTER_CH_NEW] = S2114_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2115 - CHAPTER_CH_NEW] = S2115_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2121 - CHAPTER_CH_NEW] = S2121_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2122 - CHAPTER_CH_NEW] = S2122_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2123 - CHAPTER_CH_NEW] = S2123_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2124 - CHAPTER_CH_NEW] = S2124_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2125 - CHAPTER_CH_NEW] = S2125_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2131 - CHAPTER_CH_NEW] = S2131_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2132 - CHAPTER_CH_NEW] = S2132_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2133 - CHAPTER_CH_NEW] = S2133_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S2134 - CHAPTER_CH_NEW] = S2134_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S2135 - CHAPTER_CH_NEW] = S2135_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3011 - CHAPTER_CH_NEW] = S3011_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3013 - CHAPTER_CH_NEW] = S3013_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3014 - CHAPTER_CH_NEW] = S3014_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3015 - CHAPTER_CH_NEW] = S3015_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3021 - CHAPTER_CH_NEW] = S3021_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3025 - CHAPTER_CH_NEW] = S3025_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3031 - CHAPTER_CH_NEW] = S3031_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3032 - CHAPTER_CH_NEW] = S3032_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3033 - CHAPTER_CH_NEW] = S3033_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3034 - CHAPTER_CH_NEW] = S3034_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3035 - CHAPTER_CH_NEW] = S3035_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3041 - CHAPTER_CH_NEW] = S3041_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3042 - CHAPTER_CH_NEW] = S3042_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3043 - CHAPTER_CH_NEW] = S3043_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3044 - CHAPTER_CH_NEW] = S3044_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3045 - CHAPTER_CH_NEW] = S3045_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3051 - CHAPTER_CH_NEW] = S3051_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3052 - CHAPTER_CH_NEW] = S3052_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3053 - CHAPTER_CH_NEW] = S3053_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3054 - CHAPTER_CH_NEW] = S3054_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3055 - CHAPTER_CH_NEW] = S3055_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3061 - CHAPTER_CH_NEW] = S3061_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3062 - CHAPTER_CH_NEW] = S3062_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3063 - CHAPTER_CH_NEW] = S3063_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3064 - CHAPTER_CH_NEW] = S3064_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3065 - CHAPTER_CH_NEW] = S3065_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3071 - CHAPTER_CH_NEW] = S3071_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3072 - CHAPTER_CH_NEW] = S3072_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3073 - CHAPTER_CH_NEW] = S3073_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3074 - CHAPTER_CH_NEW] = S3074_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3075 - CHAPTER_CH_NEW] = S3075_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3081 - CHAPTER_CH_NEW] = S3081_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3082 - CHAPTER_CH_NEW] = S3082_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3083 - CHAPTER_CH_NEW] = S3083_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3084 - CHAPTER_CH_NEW] = S3084_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3085 - CHAPTER_CH_NEW] = S3085_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3091 - CHAPTER_CH_NEW] = S3091_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3092 - CHAPTER_CH_NEW] = S3092_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3093 - CHAPTER_CH_NEW] = S3093_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3094 - CHAPTER_CH_NEW] = S3094_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3095 - CHAPTER_CH_NEW] = S3095_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3101 - CHAPTER_CH_NEW] = S3101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3102 - CHAPTER_CH_NEW] = S3102_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3103 - CHAPTER_CH_NEW] = S3103_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3105 - CHAPTER_CH_NEW] = S3105_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3111 - CHAPTER_CH_NEW] = S3111_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3112 - CHAPTER_CH_NEW] = S3112_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3113 - CHAPTER_CH_NEW] = S3113_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3114 - CHAPTER_CH_NEW] = S3114_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3115 - CHAPTER_CH_NEW] = S3115_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3121 - CHAPTER_CH_NEW] = S3121_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3122 - CHAPTER_CH_NEW] = S3122_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3123 - CHAPTER_CH_NEW] = S3123_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3124 - CHAPTER_CH_NEW] = S3124_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3125 - CHAPTER_CH_NEW] = S3125_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3131 - CHAPTER_CH_NEW] = S3131_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3132 - CHAPTER_CH_NEW] = S3132_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3133 - CHAPTER_CH_NEW] = S3133_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S3134 - CHAPTER_CH_NEW] = S3134_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S3135 - CHAPTER_CH_NEW] = S3135_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4011 - CHAPTER_CH_NEW] = S4011_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4015 - CHAPTER_CH_NEW] = S4015_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4021 - CHAPTER_CH_NEW] = S4021_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4022 - CHAPTER_CH_NEW] = S4022_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4023 - CHAPTER_CH_NEW] = S4023_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4024 - CHAPTER_CH_NEW] = S4024_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4025 - CHAPTER_CH_NEW] = S4025_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4031 - CHAPTER_CH_NEW] = S4031_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4032 - CHAPTER_CH_NEW] = S4032_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4033 - CHAPTER_CH_NEW] = S4033_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4034 - CHAPTER_CH_NEW] = S4034_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4035 - CHAPTER_CH_NEW] = S4035_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4041 - CHAPTER_CH_NEW] = S4041_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4042 - CHAPTER_CH_NEW] = S4042_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4043 - CHAPTER_CH_NEW] = S4043_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4044 - CHAPTER_CH_NEW] = S4044_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4051 - CHAPTER_CH_NEW] = S4051_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4052 - CHAPTER_CH_NEW] = S4052_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4053 - CHAPTER_CH_NEW] = S4053_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4054 - CHAPTER_CH_NEW] = S4054_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4055 - CHAPTER_CH_NEW] = S4055_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4061 - CHAPTER_CH_NEW] = S4061_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4062 - CHAPTER_CH_NEW] = S4062_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4063 - CHAPTER_CH_NEW] = S4063_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4064 - CHAPTER_CH_NEW] = S4064_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4065 - CHAPTER_CH_NEW] = S4065_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4071 - CHAPTER_CH_NEW] = S4071_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4072 - CHAPTER_CH_NEW] = S4072_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4073 - CHAPTER_CH_NEW] = S4073_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4074 - CHAPTER_CH_NEW] = S4074_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4075 - CHAPTER_CH_NEW] = S4075_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4081 - CHAPTER_CH_NEW] = S4081_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4082 - CHAPTER_CH_NEW] = S4082_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4083 - CHAPTER_CH_NEW] = S4083_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4084 - CHAPTER_CH_NEW] = S4084_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4085 - CHAPTER_CH_NEW] = S4085_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4091 - CHAPTER_CH_NEW] = S4091_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4092 - CHAPTER_CH_NEW] = S4092_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4093 - CHAPTER_CH_NEW] = S4093_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4094 - CHAPTER_CH_NEW] = S4094_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4095 - CHAPTER_CH_NEW] = S4095_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4101 - CHAPTER_CH_NEW] = S4101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4102 - CHAPTER_CH_NEW] = S4102_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4103 - CHAPTER_CH_NEW] = S4103_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4104 - CHAPTER_CH_NEW] = S4104_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4105 - CHAPTER_CH_NEW] = S4105_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4112 - CHAPTER_CH_NEW] = S4112_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4113 - CHAPTER_CH_NEW] = S4113_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4114 - CHAPTER_CH_NEW] = S4114_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4115 - CHAPTER_CH_NEW] = S4115_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4121 - CHAPTER_CH_NEW] = S4121_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4122 - CHAPTER_CH_NEW] = S4122_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4123 - CHAPTER_CH_NEW] = S4123_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4124 - CHAPTER_CH_NEW] = S4124_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4125 - CHAPTER_CH_NEW] = S4125_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4131 - CHAPTER_CH_NEW] = S4131_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4132 - CHAPTER_CH_NEW] = S4132_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S4133 - CHAPTER_CH_NEW] = S4133_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4134 - CHAPTER_CH_NEW] = S4134_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S4135 - CHAPTER_CH_NEW] = S4135_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5011 - CHAPTER_CH_NEW] = S5011_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5012 - CHAPTER_CH_NEW] = S5012_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5013 - CHAPTER_CH_NEW] = S5013_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5015 - CHAPTER_CH_NEW] = S5015_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5021 - CHAPTER_CH_NEW] = S5021_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5022 - CHAPTER_CH_NEW] = S5022_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5023 - CHAPTER_CH_NEW] = S5023_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5024 - CHAPTER_CH_NEW] = S5024_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5025 - CHAPTER_CH_NEW] = S5025_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5031 - CHAPTER_CH_NEW] = S5031_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5032 - CHAPTER_CH_NEW] = S5032_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5033 - CHAPTER_CH_NEW] = S5033_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5034 - CHAPTER_CH_NEW] = S5034_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5041 - CHAPTER_CH_NEW] = S5041_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5042 - CHAPTER_CH_NEW] = S5042_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5043 - CHAPTER_CH_NEW] = S5043_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5044 - CHAPTER_CH_NEW] = S5044_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5045 - CHAPTER_CH_NEW] = S5045_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5051 - CHAPTER_CH_NEW] = S5051_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5052 - CHAPTER_CH_NEW] = S5052_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5053 - CHAPTER_CH_NEW] = S5053_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5054 - CHAPTER_CH_NEW] = S5054_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5055 - CHAPTER_CH_NEW] = S5055_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5061 - CHAPTER_CH_NEW] = S5061_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5062 - CHAPTER_CH_NEW] = S5062_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5063 - CHAPTER_CH_NEW] = S5063_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5064 - CHAPTER_CH_NEW] = S5064_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5065 - CHAPTER_CH_NEW] = S5065_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5071 - CHAPTER_CH_NEW] = S5071_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5072 - CHAPTER_CH_NEW] = S5072_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5073 - CHAPTER_CH_NEW] = S5073_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5074 - CHAPTER_CH_NEW] = S5074_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5075 - CHAPTER_CH_NEW] = S5075_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5081 - CHAPTER_CH_NEW] = S5081_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5082 - CHAPTER_CH_NEW] = S5082_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5083 - CHAPTER_CH_NEW] = S5083_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5084 - CHAPTER_CH_NEW] = S5084_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5085 - CHAPTER_CH_NEW] = S5085_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5091 - CHAPTER_CH_NEW] = S5091_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5092 - CHAPTER_CH_NEW] = S5092_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5093 - CHAPTER_CH_NEW] = S5093_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5094 - CHAPTER_CH_NEW] = S5094_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5095 - CHAPTER_CH_NEW] = S5095_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5101 - CHAPTER_CH_NEW] = S5101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5102 - CHAPTER_CH_NEW] = S5102_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5103 - CHAPTER_CH_NEW] = S5103_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5104 - CHAPTER_CH_NEW] = S5104_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5105 - CHAPTER_CH_NEW] = S5105_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5111 - CHAPTER_CH_NEW] = S5111_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5112 - CHAPTER_CH_NEW] = S5112_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5113 - CHAPTER_CH_NEW] = S5113_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5114 - CHAPTER_CH_NEW] = S5114_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5115 - CHAPTER_CH_NEW] = S5115_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5121 - CHAPTER_CH_NEW] = S5121_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5122 - CHAPTER_CH_NEW] = S5122_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5123 - CHAPTER_CH_NEW] = S5123_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5124 - CHAPTER_CH_NEW] = S5124_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5125 - CHAPTER_CH_NEW] = S5125_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5131 - CHAPTER_CH_NEW] = S5131_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5132 - CHAPTER_CH_NEW] = S5132_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5133 - CHAPTER_CH_NEW] = S5133_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S5134 - CHAPTER_CH_NEW] = S5134_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S5135 - CHAPTER_CH_NEW] = S5135_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6011 - CHAPTER_CH_NEW] = S6011_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6012 - CHAPTER_CH_NEW] = S6012_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6013 - CHAPTER_CH_NEW] = S6013_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6014 - CHAPTER_CH_NEW] = S6014_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6015 - CHAPTER_CH_NEW] = S6015_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6021 - CHAPTER_CH_NEW] = S6021_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6022 - CHAPTER_CH_NEW] = S6022_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6023 - CHAPTER_CH_NEW] = S6023_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6024 - CHAPTER_CH_NEW] = S6024_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6025 - CHAPTER_CH_NEW] = S6025_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6031 - CHAPTER_CH_NEW] = S6031_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6032 - CHAPTER_CH_NEW] = S6032_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6033 - CHAPTER_CH_NEW] = S6033_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6034 - CHAPTER_CH_NEW] = S6034_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6035 - CHAPTER_CH_NEW] = S6035_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6041 - CHAPTER_CH_NEW] = S6041_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6042 - CHAPTER_CH_NEW] = S6042_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6043 - CHAPTER_CH_NEW] = S6043_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6044 - CHAPTER_CH_NEW] = S6044_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6045 - CHAPTER_CH_NEW] = S6045_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6051 - CHAPTER_CH_NEW] = S6051_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6052 - CHAPTER_CH_NEW] = S6052_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6053 - CHAPTER_CH_NEW] = S6053_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6054 - CHAPTER_CH_NEW] = S6054_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6055 - CHAPTER_CH_NEW] = S6055_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6061 - CHAPTER_CH_NEW] = S6061_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6062 - CHAPTER_CH_NEW] = S6062_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6063 - CHAPTER_CH_NEW] = S6063_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6064 - CHAPTER_CH_NEW] = S6064_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6065 - CHAPTER_CH_NEW] = S6065_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6071 - CHAPTER_CH_NEW] = S6071_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6072 - CHAPTER_CH_NEW] = S6072_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6073 - CHAPTER_CH_NEW] = S6073_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6074 - CHAPTER_CH_NEW] = S6074_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6075 - CHAPTER_CH_NEW] = S6075_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6081 - CHAPTER_CH_NEW] = S6081_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6082 - CHAPTER_CH_NEW] = S6082_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6083 - CHAPTER_CH_NEW] = S6083_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6084 - CHAPTER_CH_NEW] = S6084_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6085 - CHAPTER_CH_NEW] = S6085_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6091 - CHAPTER_CH_NEW] = S6091_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6092 - CHAPTER_CH_NEW] = S6092_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6093 - CHAPTER_CH_NEW] = S6093_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6094 - CHAPTER_CH_NEW] = S6094_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6095 - CHAPTER_CH_NEW] = S6095_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6101 - CHAPTER_CH_NEW] = S6101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6102 - CHAPTER_CH_NEW] = S6102_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6103 - CHAPTER_CH_NEW] = S6103_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6104 - CHAPTER_CH_NEW] = S6104_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6105 - CHAPTER_CH_NEW] = S6105_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6111 - CHAPTER_CH_NEW] = S6111_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6112 - CHAPTER_CH_NEW] = S6112_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6113 - CHAPTER_CH_NEW] = S6113_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6114 - CHAPTER_CH_NEW] = S6114_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6115 - CHAPTER_CH_NEW] = S6115_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6121 - CHAPTER_CH_NEW] = S6121_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6122 - CHAPTER_CH_NEW] = S6122_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6123 - CHAPTER_CH_NEW] = S6123_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6124 - CHAPTER_CH_NEW] = S6124_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6125 - CHAPTER_CH_NEW] = S6125_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S6131 - CHAPTER_CH_NEW] = S6131_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6132 - CHAPTER_CH_NEW] = S6132_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6133 - CHAPTER_CH_NEW] = S6133_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6134 - CHAPTER_CH_NEW] = S6134_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S6135 - CHAPTER_CH_NEW] = S6135_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7011 - CHAPTER_CH_NEW] = S7011_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7012 - CHAPTER_CH_NEW] = S7012_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7013 - CHAPTER_CH_NEW] = S7013_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7014 - CHAPTER_CH_NEW] = S7014_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7015 - CHAPTER_CH_NEW] = S7015_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7021 - CHAPTER_CH_NEW] = S7021_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7022 - CHAPTER_CH_NEW] = S7022_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7023 - CHAPTER_CH_NEW] = S7023_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7024 - CHAPTER_CH_NEW] = S7024_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7025 - CHAPTER_CH_NEW] = S7025_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7031 - CHAPTER_CH_NEW] = S7031_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7032 - CHAPTER_CH_NEW] = S7032_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7033 - CHAPTER_CH_NEW] = S7033_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7034 - CHAPTER_CH_NEW] = S7034_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7035 - CHAPTER_CH_NEW] = S7035_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7041 - CHAPTER_CH_NEW] = S7041_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7042 - CHAPTER_CH_NEW] = S7042_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7043 - CHAPTER_CH_NEW] = S7043_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7044 - CHAPTER_CH_NEW] = S7044_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7045 - CHAPTER_CH_NEW] = S7045_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7051 - CHAPTER_CH_NEW] = S7051_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7052 - CHAPTER_CH_NEW] = S7052_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7053 - CHAPTER_CH_NEW] = S7053_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7054 - CHAPTER_CH_NEW] = S7054_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7055 - CHAPTER_CH_NEW] = S7055_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7061 - CHAPTER_CH_NEW] = S7061_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7062 - CHAPTER_CH_NEW] = S7062_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7063 - CHAPTER_CH_NEW] = S7063_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7064 - CHAPTER_CH_NEW] = S7064_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7065 - CHAPTER_CH_NEW] = S7065_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7072 - CHAPTER_CH_NEW] = S7072_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7073 - CHAPTER_CH_NEW] = S7073_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7074 - CHAPTER_CH_NEW] = S7074_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7075 - CHAPTER_CH_NEW] = S7075_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7081 - CHAPTER_CH_NEW] = S7081_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7082 - CHAPTER_CH_NEW] = S7082_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7083 - CHAPTER_CH_NEW] = S7083_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7084 - CHAPTER_CH_NEW] = S7084_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7085 - CHAPTER_CH_NEW] = S7085_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = S7091_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = S7092_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7093 - CHAPTER_CH_NEW] = S7093_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7094 - CHAPTER_CH_NEW] = S7094_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = S7095_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = S7101_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7102 - CHAPTER_CH_NEW] = S7102_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7103 - CHAPTER_CH_NEW] = S7103_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7104 - CHAPTER_CH_NEW] = S7104_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7105 - CHAPTER_CH_NEW] = S7105_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7111 - CHAPTER_CH_NEW] = S7111_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7112 - CHAPTER_CH_NEW] = S7112_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7113 - CHAPTER_CH_NEW] = S7113_MID_SCENARIO_OPENING_BGM,
+    [CHAPTER_CH_S7114 - CHAPTER_CH_NEW] = S7114_MID_SCENARIO_MAP_BEGIN_BGM,
+    [CHAPTER_CH_S7115 - CHAPTER_CH_NEW] = S7115_MID_SCENARIO_MAP_BEGIN_BGM,
 };

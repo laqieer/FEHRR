@@ -100,3 +100,5 @@ extern void const * const ChapterMapGraphicAnimations[];
 extern void const * const ChapterMapPaletteAnimations[];
 #endif
 extern void const * const ChapterEvents[];
+extern const u16 ChapterMapBGMs[];
+extern const u16 ChapterOPBGMs[];

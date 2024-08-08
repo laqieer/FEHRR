@@ -29,6 +29,8 @@
 #include "ui.h"
 #include "eventinfo.h"
 #include "save.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/songs.h"
@@ -78,23 +80,30 @@ void UnkMapCursor_OnLoop(struct UnkMapCursorProc * proc);
 
 int GetActiveMapSongNew(void)
 {
+    int chapter = GetChapterInPlaySt(&gPlayStNew);
+
+    if (IsChapterNew(chapter))
+    {
+        return ChapterMapBGMs[chapter - CHAPTER_CH_NEW];
+    }
+
     switch (gPlaySt.faction)
     {
 
     case FACTION_RED:
-        return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_red_bgm;
+        return GetChapterInfo(chapter)->song_red_bgm;
 
     case FACTION_GREEN:
-        return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_green_bgm;
+        return GetChapterInfo(chapter)->song_green_bgm;
 
     case FACTION_BLUE:
-        if (CountFactionUnitsWithoutFlags(FACTION_RED, UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED) <= GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->victory_bgm_enemy_threshold)
+        if (CountFactionUnitsWithoutFlags(FACTION_RED, UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED) <= GetChapterInfo(chapter)->victory_bgm_enemy_threshold)
             return SONG_13;
 
-        return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_blue_bgm;
+        return GetChapterInfo(chapter)->song_blue_bgm;
 
     default:
-        return GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->song_blue_bgm;
+        return GetChapterInfo(chapter)->song_blue_bgm;
 
     }
 

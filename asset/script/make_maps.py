@@ -12,8 +12,11 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 
 map_configs = {}
+map_scenarios = {}
 
-message_en_path = 'asset/json/files/assets/USEN/Message/Data/'
+message_en_path = 'asset/json/files/assets/USEN/Message/'
+message_en_data_path = os.path.join(message_en_path, 'Data/')
+message_en_scenario_path = os.path.join(message_en_path, 'Scenario/')
 config_common_path = 'asset/json/files/assets/Common/'
 field_path = os.path.join(config_common_path, 'SRPG/Field/')
 map_config_path = os.path.join(config_common_path, 'SRPGMap/')
@@ -263,9 +266,9 @@ def load_map_configs():
                         load_map_from_wiki(map_id)
 
 def load_map_names():
-    for file_name in os.listdir(message_en_path):
+    for file_name in os.listdir(message_en_data_path):
         if file_name.endswith('.json'):
-            file_path = os.path.join(message_en_path, file_name)
+            file_path = os.path.join(message_en_data_path, file_name)
             with open(file_path, 'r', encoding="utf-8") as file:
                 messages = json.load(file)
                 for message in messages:
@@ -276,6 +279,17 @@ def load_map_names():
                             map_configs[map_id]['name'] = message['value']
     for map_id, name in map_names.items():
         map_configs[map_id]['name'] = name
+
+def load_map_scenarios():
+    for file_name in os.listdir(message_en_scenario_path):
+        if re.match(r'S\d{4}.json', file_name):
+            map_id = os.path.splitext(file_name)[0]
+            map_scenarios[map_id] = {}
+            file_path = os.path.join(message_en_scenario_path, file_name)
+            with open(file_path, 'r', encoding="utf-8") as file:
+                kvs = json.load(file)
+                for kv in kvs:
+                    map_scenarios[map_id][kv['key']] = kv['value']
 
 def get_text_in_textarea(url):
     with sync_playwright() as playwright:
@@ -544,6 +558,8 @@ def make_chapters():
 #include "chapterNew.h"
 #include "constants/faces.h"
 #include "constants/chapters.h"
+#include "constants/songs.h"
+#include "songsNew.h"
 #include "debugchapter.h"
 #include "chapters.h"
 #include "texts.h"
@@ -584,10 +600,6 @@ struct ChapterInfoNew const newChapters[] = {
         .msg_title = DEBUG_CHAPTER_TITLE_MSG_ID,
         .initial_x = 3,
         .initial_y = 14,
-        .song_blue_bgm = 10,
-        .song_red_bgm = 2,
-        .song_green_bgm = 10,
-        .song_opening_bgm = 2,
     },
 ''')
         # chapters
@@ -616,7 +628,6 @@ struct ChapterInfoNew const newChapters[] = {
             file.write('        .msg_red_army = MSG_ID_RED_ARMY,\n')
             file.write('        .chibi_red_army = FID_FACTION_CHIBI_1 - FID_FACTION_CHIBI,\n')
             file.write('        .msg_title = MID_STAGE_%s,\n' % map_id)
-            file.write('        .victory_bgm_enemy_threshold = %d,\n' % (1 if map_configs[map_id]['unit_count'] > 1 else 0))
             if len(map_configs[map_id]['field']['changes']) > 0:
                 file.write('        .wall_hp = WALL_HP_DEFAULT,\n')
             file.write('    },\n')
@@ -655,6 +666,7 @@ void const * const ChapterMapChanges[] = {
 ''')
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s,\n' % (map_id, (map_id + 'MapChanges') if len(map_configs[map_id]['field']['changes']) > 0 else 'NULL'))
+        # map events
         file.write('''
 };
 
@@ -663,6 +675,26 @@ void const * const ChapterEvents[] = {
 ''')
         for map_id in map_ids:
             file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = &ChapterEventInfo_%s,\n' % (map_id, map_id))
+        # map BGMs
+        file.write('''
+};
+
+const u16 ChapterMapBGMs[] = {
+    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = SONG_01,
+''')
+        for map_id in map_ids:
+            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s_BGM,\n' % (map_id, map_id))
+        # Openning BGMs
+        file.write('''
+};
+
+const u16 ChapterOPBGMs[] = {
+''')
+        for map_id in map_ids:
+            if 'MID_SCENARIO_OPENING_BGM' in map_scenarios.get(map_id, {}):
+                file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s_MID_SCENARIO_OPENING_BGM,\n' % (map_id, map_id))
+            elif 'MID_SCENARIO_MAP_BEGIN_BGM' in map_scenarios.get(map_id, {}):
+                file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s_MID_SCENARIO_MAP_BEGIN_BGM,\n' % (map_id, map_id))
         file.write('};\n')
 
 def print_terrain_by_groups():
@@ -836,7 +868,7 @@ def get_red_unit_id_tag(id_tag):
         return id_tag
     return 'EID_ENEMY_HERO_'
 
-def make_red_units():
+def make_red_units_and_event_scripts():
     with open('include/redunits.h', 'w', encoding='utf-8') as file, open(
         'include/redunitdefs.h', 'w', encoding='utf-8') as file_defs,open(
             'source/eventscripts.c', 'w', encoding='utf-8') as file_scripts, open(
@@ -872,15 +904,34 @@ const u16 ChapterEnemyHeroNames[][14] = {
 #include "eventinfo.h"
 #include "eventscript.h"
 #include "faction.h"
+#include "backgrounds.h"
+#include "texts.h"
+#include "constants/songs.h"
+#include "songsNew.h"
+#include "constants/chapters.h"
+#include "chapterNew.h"
+#include "chapters.h"
 
 ''')
         red_unit_lv = 0
         is_red_unit_promoted = False
-        for map_id in sorted(map_configs.keys()):
+        map_ids = sorted(map_configs.keys())
+        for i, map_id in enumerate(map_ids):
+            next_map_id = map_ids[i + 1] if i + 1 < len(map_ids) else map_ids[0]
             # file_scripts_defs.write('extern const EventScr EventScr_LoadUnits_%s[];\n' % map_id)
             file_scripts.write('const EventScr EventScr_LoadUnits_%s[] = {\n' % map_id)
+            if 'MID_SCENARIO_OPENING_IMAGE' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtBackground(BACKGROUND_%s)\n' % map_scenarios.get(map_id, {})['MID_SCENARIO_OPENING_IMAGE'])
+            if 'MID_SCENARIO_OPENING' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtTalk(MID_SCENARIO_OPENING_%s)\n' % map_id)
+                file_scripts.write('    EvtClearTalk\n')
             file_scripts.write('    EvtLoadUnits(%sBlueUnits)\n' % map_id)
             file_scripts.write('    EvtLoadUnits(%sRedUnits)\n' % map_id)
+            if 'MID_SCENARIO_MAP_BEGIN_BGM' in map_scenarios.get(map_id, {}) and 'MID_SCENARIO_OPENING_BGM' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtSetBgm(%s_MID_SCENARIO_MAP_BEGIN_BGM)\n' % map_id)
+            if 'MID_SCENARIO_MAP_BEGIN' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtTalk(MID_SCENARIO_MAP_BEGIN_%s)\n' % map_id)
+                file_scripts.write('    EvtClearTalk\n')
             file_scripts.write('    EvtClearSkip\n')
             file_scripts.write('    EvtEnd\n')
             file_scripts.write('};\n\n')
@@ -959,6 +1010,32 @@ const u16 ChapterEnemyHeroNames[][14] = {
                         file_scripts.write('    EvtClearSkip\n')
                         file_scripts.write('    EvtEnd\n')
                         file_scripts.write('};\n\n')
+            # victory event
+            file_scripts_defs.write('extern const EventScr EventScr_%s_Victory;\n' % map_id)
+            file_scripts.write('const EventScr EventScr_%s_Victory = {\n' % map_id)
+            if 'MID_SCENARIO_MAP_END' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtTalk(MID_SCENARIO_MAP_END_%s)\n' % map_id)
+                file_scripts.write('    EvtClearTalk\n')
+            if 'MID_SCENARIO_ENDING_BGM' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtSetBgm(%s_MID_SCENARIO_ENDING_BGM)\n' % map_id)
+            if 'MID_SCENARIO_ENDING_IMAGE' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtFadeToBlack(16)\n')
+                file_scripts.write('    EvtExitMap\n')
+                file_scripts.write('    EvtBackground(BACKGROUND_%s)\n' % map_scenarios.get(map_id, {})['MID_SCENARIO_ENDING_IMAGE'])
+                file_scripts.write('    EvtFadeFromBlack(16)\n')
+                file_scripts.write('    EvtEnterMap\n')
+            if 'MID_SCENARIO_ENDING' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtTalk(MID_SCENARIO_ENDING_%s)\n' % map_id)
+                file_scripts.write('    EvtClearTalk\n')
+            file_scripts.write('    EvtNoSkip\n')
+            file_scripts.write('    EvtGiveMoney(100 * %s)\n' % map_id[-1])
+            file_scripts.write('    EvtSleep(64)\n')
+            file_scripts.write('    EvtNextChapter(CHAPTER_CH_%s)\n' % next_map_id)
+            file_scripts.write('    EvtSleep(1)\n')
+            file_scripts.write('    EvtKill\n')
+            file_scripts.write('    EvtClearSkip\n')
+            file_scripts.write('    EvtEnd\n')
+            file_scripts.write('};\n\n')
             # turn events list
             file_scripts_defs.write('extern const EventScr EventListScr_%s_Turn[];\n' % map_id)
             file_scripts.write('const EventListScr EventListScr_%s_Turn[] = {\n' % map_id)
@@ -971,6 +1048,8 @@ const u16 ChapterEnemyHeroNames[][14] = {
                             file_scripts.write('    EvtListTurn(0, EventScr_LoadUnits_%s, 1, %d, FACTION_RED)\n' % (red_units_label, count if count > 1 else 0))
                     else:
                         file_scripts.write('    EvtListTurn(0, EventScr_LoadUnits_%s, %d, %d, FACTION_RED)\n' % (red_units_label, turn + 1, (turn + count) if count > 1 else 0))
+            if map_configs[map_id]['turns_to_win'] + map_configs[map_id]['turns_to_defend'] > 0:
+                file_scripts.write('    EvtListTurn(0, EventScr_%s_Victory, %d + 1, 0, FACTION_BLUE)\n' % (map_id, map_configs[map_id]['turns_to_win'] + map_configs[map_id]['turns_to_defend']))
             file_scripts.write('    EvtListEnd\n')
             file_scripts.write('};\n\n')
             # enemy hero faces and names
@@ -996,18 +1075,28 @@ def make_map_events():
 #include "blueunitdefs.h"
 #include "redunitdefs.h"
 #include "eventinfo.h"
+#include "eventfunctions.h"
+#include "eventscript.h"
 #include "eventscripts.h"
+#include "chapterevents.h"
 #include "debugchapter.h"
 
 ''')
         for map_id in sorted(map_configs.keys()):
+            file.write('const EventListScr EventListScr_%s_Move[] = {\n' % map_id)
+            file.write('    EvtListFlag(0, EventScr_GameOver, FLAG_101)\n')
+            if map_configs[map_id]['turns_to_win'] + map_configs[map_id]['turns_to_defend'] <= 0:
+                file.write('    EvtListFunc(FLAG_3, EventScr_%s_Victory, func_fe6_0806C2F8)\n' % map_id)
+            file.write('    EvtListEnd\n')
+            file.write('};\n\n')
             file.write('const struct ChapterEventInfo ChapterEventInfo_%s = {\n' % map_id)
             file.write('    .event_list_turn = EventListScr_%s_Turn,\n' % map_id)
             file.write('    .event_list_talk = DummyEvent,\n')
             file.write('    .event_list_tile = DummyEvent,\n')
-            file.write('    .event_list_move = DummyEvent,\n')
+            file.write('    .event_list_move = EventListScr_%s_Move,\n' % map_id)
             file.write('    .units_red = %sRedUnits,\n' % map_id)
             file.write('    .units_blue = %sBlueUnits,\n' % map_id)
+            file.write('    .event_script_victory = EventScr_%s_Victory,\n' % map_id)
             file.write('};\n\n')
 
 if __name__ == '__main__':
@@ -1015,6 +1104,8 @@ if __name__ == '__main__':
     load_map_configs()
     print('Loaded %d maps' % len(map_configs))
     load_map_names()
+    load_map_scenarios()
+    print('Loaded %d map scenarios' % len(map_scenarios))
     load_terrain_configs()
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
@@ -1038,5 +1129,5 @@ if __name__ == '__main__':
     # print_max_enemy_hero_count()
     # make_blue_units()
     # make_red_unit_jobs()
-    # make_red_units()
-    # make_map_events()
+    make_red_units_and_event_scripts()
+    make_map_events()
