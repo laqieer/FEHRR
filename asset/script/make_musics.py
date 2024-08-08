@@ -155,7 +155,7 @@ def save_appeared_musics():
         elif filename in new_musics:
             music["source"] = new_musics[filename]
     with open("music/appeared_musics.json", "w", encoding="utf-8") as file:
-        json.dump(sorted([x | {"source": x["source"][0] if len(x["source"]) > 0 else None} for x in musics.values() if len(x.get("appearances", [])) > 0], key=lambda x: len(x["appearances"]), reverse=True), file, indent=4, ensure_ascii=False)
+        json.dump(sorted([x | {"source": (x["source"][0] if type(x["source"]) is list else x["source"] ) if len(x["source"]) > 0 else None} for x in musics.values() if len(x.get("appearances", [])) > 0], key=lambda x: len(x["appearances"]), reverse=True), file, indent=4, ensure_ascii=False)
 
 existed_musics = {}
 

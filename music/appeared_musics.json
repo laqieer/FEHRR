@@ -1031,7 +1031,7 @@
             "S0405_BGM"
         ],
         "titleId": "MID_MUSIC_NAME_BGM_MAP_FE06_01",
-        "source": "S"
+        "source": "0x0A"
     },
     {
         "title": "Precious Things",
@@ -1431,7 +1431,7 @@
             "S3053_BGM",
             "S3054_BGM"
         ],
-        "source": "S"
+        "source": "0x0D"
     },
     {
         "title": "Bearer of Hope",
@@ -1773,7 +1773,7 @@
             "S6043_BGM",
             "S6044_BGM"
         ],
-        "source": "S"
+        "source": "0x0F"
     },
     {
         "title": "Forest of Wandering",
@@ -1931,7 +1931,7 @@
             "S7083_BGM",
             "S7084_BGM"
         ],
-        "source": "S"
+        "source": "0x0B"
     },
     {
         "title": "Winds of Askr",
@@ -2043,7 +2043,7 @@
             "S4132_BGM",
             "S4133_BGM"
         ],
-        "source": "S"
+        "source": "0x0C"
     },
     {
         "title": "Going Forward",
@@ -2266,7 +2266,7 @@
             "S4134_MID_SCENARIO_ENDING_BGM",
             "S6064_MID_SCENARIO_ENDING_BGM"
         ],
-        "source": "S"
+        "source": "0x26"
     },
     {
         "title": "Archanean Overture",
@@ -2404,7 +2404,7 @@
         "appearances": [
             "S5055_MID_SCENARIO_OPENING_BGM"
         ],
-        "source": "S"
+        "source": "0x2E"
     },
     {
         "title": "Deity Hammer",
@@ -2448,7 +2448,7 @@
         "appearances": [
             "S7055_MID_SCENARIO_MAP_BEGIN_BGM"
         ],
-        "source": "S"
+        "source": "0x2C"
     },
     {
         "title": "Neutiquam Erro",
