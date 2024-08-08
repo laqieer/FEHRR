@@ -270,11 +270,7 @@ def make_source_file():
         file.write("#include \"music_trans_best_matches.h\"\n\n")
         file.write("const struct SongEnt newSongs[] = {\n")
         for filename in sorted([x for x in new_musics if len(musics[x].get('appearances', [])) > 0]):
-            priority = 0
-            for appearance in musics[filename].get("appearances", []):
-                if "MID_SCENARIO" not in appearance:
-                    priority = 1
-                    break
+            priority = 1
             file.write(f"    [{get_music_id_from_filename(filename)} - SONG_NEW] = {{&{filename[:-4]}, {priority}, {priority}}},\n")
         file.write("};\n\n")
     with open("source/soundroom.c", "w", encoding="utf-8") as file, open("baserom.gba", "rb") as rom:
