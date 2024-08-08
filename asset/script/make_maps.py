@@ -662,10 +662,10 @@ void const * const ChapterMapTerrains[] = {
 };
 
 void const * const ChapterMapChanges[] = {
-    [CHAPTER_CH_S0000 - CHAPTER_CH_NEW] = NULL,
 ''')
         for map_id in map_ids:
-            file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %s,\n' % (map_id, (map_id + 'MapChanges') if len(map_configs[map_id]['field']['changes']) > 0 else 'NULL'))
+            if len(map_configs[map_id]['field']['changes']) > 0:
+                file.write('    [CHAPTER_CH_%s - CHAPTER_CH_NEW] = %sMapChanges,\n' % (map_id, map_id))
         # map events
         file.write('''
 };
