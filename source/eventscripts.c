@@ -15,7 +15,11 @@
 #include "chapters.h"
 
 const EventScr EventScr_LoadUnits_S0001[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S0001)
     EvtClearTalk
     EvtLoadUnits(S0001BlueUnits)
@@ -49,7 +53,11 @@ const EventListScr EventListScr_S0001_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S0002[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S0002)
     EvtClearTalk
     EvtLoadUnits(S0002BlueUnits)
@@ -86,7 +94,11 @@ const EventListScr EventListScr_S0002_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S0101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S0101)
     EvtClearTalk
     EvtLoadUnits(S0101BlueUnits)
@@ -120,7 +132,11 @@ const EventListScr EventListScr_S0101_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S0102[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S0102)
     EvtClearTalk
     EvtLoadUnits(S0102BlueUnits)
@@ -157,7 +173,11 @@ const EventListScr EventListScr_S0102_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S0103[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S0103)
     EvtClearTalk
     EvtLoadUnits(S0103BlueUnits)
@@ -191,7 +211,11 @@ const EventListScr EventListScr_S0103_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S0201[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S0201)
     EvtClearTalk
     EvtLoadUnits(S0201BlueUnits)
@@ -1237,7 +1261,11 @@ const EventListScr EventListScr_S0905_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1001[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S1001)
     EvtClearTalk
     EvtLoadUnits(S1001BlueUnits)
@@ -1375,7 +1403,11 @@ const EventListScr EventListScr_S1005_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S1101)
     EvtClearTalk
     EvtLoadUnits(S1101BlueUnits)
@@ -1574,7 +1606,11 @@ const EventListScr EventListScr_S1105_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1201[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S1201)
     EvtClearTalk
     EvtLoadUnits(S1201BlueUnits)
@@ -1627,7 +1663,11 @@ const EventListScr EventListScr_S1202_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1203[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtLoadUnits(S1203BlueUnits)
     EvtLoadUnits(S1203RedUnits)
     EvtTalk(MID_SCENARIO_MAP_BEGIN_S1203)
@@ -1733,7 +1773,11 @@ const EventListScr EventListScr_S1205_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1301[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S1301)
     EvtClearTalk
     EvtLoadUnits(S1301BlueUnits)
@@ -1870,7 +1914,11 @@ const EventListScr EventListScr_S1305_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1401[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S1401)
     EvtClearTalk
     EvtLoadUnits(S1401BlueUnits)
@@ -2043,7 +2091,11 @@ const EventListScr EventListScr_S1405_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1501[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S1501)
     EvtClearTalk
     EvtLoadUnits(S1501BlueUnits)
@@ -2080,7 +2132,11 @@ const EventListScr EventListScr_S1501_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S1601[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_007_SnowDreaming)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S1601)
     EvtClearTalk
     EvtLoadUnits(S1601BlueUnits)
@@ -2116,7 +2172,11 @@ const EventListScr EventListScr_S1601_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2011[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2011)
     EvtClearTalk
     EvtLoadUnits(S2011BlueUnits)
@@ -2260,7 +2320,11 @@ const EventListScr EventListScr_S2015_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2021[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2021)
     EvtClearTalk
     EvtLoadUnits(S2021BlueUnits)
@@ -2409,7 +2473,11 @@ const EventListScr EventListScr_S2025_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2031[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_007_SnowDreaming)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2031)
     EvtClearTalk
     EvtLoadUnits(S2031BlueUnits)
@@ -2558,7 +2626,11 @@ const EventListScr EventListScr_S2035_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2041[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2041)
     EvtClearTalk
     EvtLoadUnits(S2041BlueUnits)
@@ -2730,7 +2802,11 @@ const EventListScr EventListScr_S2045_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2051[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_025_NiflPlain)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2051)
     EvtClearTalk
     EvtLoadUnits(S2051BlueUnits)
@@ -2910,7 +2986,11 @@ const EventListScr EventListScr_S2055_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2061[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_007_SnowDreaming)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2061)
     EvtClearTalk
     EvtLoadUnits(S2061BlueUnits)
@@ -3026,7 +3106,11 @@ const EventListScr EventListScr_S2064_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2065[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_025_NiflPlain)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2065)
     EvtClearTalk
     EvtLoadUnits(S2065BlueUnits)
@@ -3064,7 +3148,11 @@ const EventListScr EventListScr_S2065_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2071[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_007_SnowDreaming)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2071)
     EvtClearTalk
     EvtLoadUnits(S2071BlueUnits)
@@ -3170,7 +3258,11 @@ const EventListScr EventListScr_S2074_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2075[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_025_NiflPlain)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2075)
     EvtClearTalk
     EvtLoadUnits(S2075BlueUnits)
@@ -3379,7 +3471,11 @@ const EventListScr EventListScr_S2085_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2091[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_025_NiflPlain)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2091)
     EvtClearTalk
     EvtLoadUnits(S2091BlueUnits)
@@ -3493,7 +3589,11 @@ const EventListScr EventListScr_S2094_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2095[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_MuspelCastle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2095)
     EvtClearTalk
     EvtLoadUnits(S2095BlueUnits)
@@ -3552,7 +3652,11 @@ const EventListScr EventListScr_S2095_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_Muspel)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2101)
     EvtClearTalk
     EvtLoadUnits(S2101BlueUnits)
@@ -3707,7 +3811,11 @@ const EventListScr EventListScr_S2105_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2111[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_Muspel)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2111)
     EvtClearTalk
     EvtLoadUnits(S2111BlueUnits)
@@ -3830,7 +3938,11 @@ const EventListScr EventListScr_S2114_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2115[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_Muspel)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2115)
     EvtClearTalk
     EvtLoadUnits(S2115BlueUnits)
@@ -3870,7 +3982,11 @@ const EventListScr EventListScr_S2115_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2121[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_Muspel)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2121)
     EvtClearTalk
     EvtLoadUnits(S2121BlueUnits)
@@ -3994,7 +4110,11 @@ const EventListScr EventListScr_S2124_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2125[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_MuspelNightForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2125)
     EvtClearTalk
     EvtLoadUnits(S2125BlueUnits)
@@ -4040,7 +4160,11 @@ const EventListScr EventListScr_S2125_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2131[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_MuspelTemple)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2131)
     EvtClearTalk
     EvtLoadUnits(S2131BlueUnits)
@@ -4144,7 +4268,11 @@ const EventListScr EventListScr_S2133_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S2134[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_026_MuspelTemple)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S2134)
     EvtClearTalk
     EvtLoadUnits(S2134BlueUnits)
@@ -4231,7 +4359,11 @@ const EventListScr EventListScr_S2135_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3011[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_014_GaidenCastle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3011)
     EvtClearTalk
     EvtLoadUnits(S3011BlueUnits)
@@ -4339,7 +4471,11 @@ const EventListScr EventListScr_S3014_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3015[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_BraveHell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3015)
     EvtClearTalk
     EvtLoadUnits(S3015BlueUnits)
@@ -4376,7 +4512,11 @@ const EventListScr EventListScr_S3015_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3021[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Throne_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3021)
     EvtClearTalk
     EvtLoadUnits(S3021BlueUnits)
@@ -4485,7 +4625,11 @@ const EventListScr EventListScr_S3024_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3025[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_BraveHell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3025)
     EvtClearTalk
     EvtLoadUnits(S3025BlueUnits)
@@ -4544,7 +4688,11 @@ const EventListScr EventListScr_S3025_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3031[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3031)
     EvtClearTalk
     EvtLoadUnits(S3031BlueUnits)
@@ -4649,7 +4797,11 @@ const EventListScr EventListScr_S3034_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3035[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_BraveHell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3035)
     EvtClearTalk
     EvtLoadUnits(S3035BlueUnits)
@@ -4688,7 +4840,11 @@ const EventListScr EventListScr_S3035_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3041[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3041)
     EvtClearTalk
     EvtLoadUnits(S3041BlueUnits)
@@ -4803,7 +4959,11 @@ const EventListScr EventListScr_S3044_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3045[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3045)
     EvtClearTalk
     EvtLoadUnits(S3045BlueUnits)
@@ -4841,7 +5001,11 @@ const EventListScr EventListScr_S3045_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3051[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3051)
     EvtClearTalk
     EvtLoadUnits(S3051BlueUnits)
@@ -4954,7 +5118,11 @@ const EventListScr EventListScr_S3054_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3055[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter3_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3055)
     EvtClearTalk
     EvtLoadUnits(S3055BlueUnits)
@@ -5006,7 +5174,11 @@ const EventListScr EventListScr_S3055_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3061[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter3_Hell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3061)
     EvtClearTalk
     EvtLoadUnits(S3061BlueUnits)
@@ -5068,7 +5240,11 @@ const EventListScr EventListScr_S3062_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3063[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter3_Hell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3063)
     EvtClearTalk
     EvtLoadUnits(S3063BlueUnits)
@@ -5291,7 +5467,11 @@ const EventListScr EventListScr_S3074_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3075[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3075)
     EvtClearTalk
     EvtLoadUnits(S3075BlueUnits)
@@ -5322,7 +5502,11 @@ const EventListScr EventListScr_S3075_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3081[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3081)
     EvtClearTalk
     EvtLoadUnits(S3081BlueUnits)
@@ -5443,7 +5627,11 @@ const EventListScr EventListScr_S3084_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3085[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_005_Castle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3085)
     EvtClearTalk
     EvtLoadUnits(S3085BlueUnits)
@@ -5474,7 +5662,11 @@ const EventListScr EventListScr_S3085_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3091[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3091)
     EvtClearTalk
     EvtLoadUnits(S3091BlueUnits)
@@ -5586,7 +5778,11 @@ const EventListScr EventListScr_S3094_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3095[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_005_Castle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3095)
     EvtClearTalk
     EvtLoadUnits(S3095BlueUnits)
@@ -5624,7 +5820,11 @@ const EventListScr EventListScr_S3095_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_005_Castle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3101)
     EvtClearTalk
     EvtLoadUnits(S3101BlueUnits)
@@ -5729,7 +5929,11 @@ const EventListScr EventListScr_S3104_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3105[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_AngrbodaTemple)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3105)
     EvtClearTalk
     EvtLoadUnits(S3105BlueUnits)
@@ -5766,7 +5970,11 @@ const EventListScr EventListScr_S3105_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3111[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3111)
     EvtClearTalk
     EvtLoadUnits(S3111BlueUnits)
@@ -5885,7 +6093,11 @@ const EventListScr EventListScr_S3114_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3115[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3115)
     EvtClearTalk
     EvtLoadUnits(S3115BlueUnits)
@@ -5923,7 +6135,11 @@ const EventListScr EventListScr_S3115_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3121[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3121)
     EvtClearTalk
     EvtLoadUnits(S3121BlueUnits)
@@ -6077,7 +6293,11 @@ const EventListScr EventListScr_S3125_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3131[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter3_Hell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3131)
     EvtClearTalk
     EvtLoadUnits(S3131BlueUnits)
@@ -6176,7 +6396,11 @@ const EventListScr EventListScr_S3133_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S3134[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter3_Hell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S3134)
     EvtClearTalk
     EvtLoadUnits(S3134BlueUnits)
@@ -6256,7 +6480,11 @@ const EventListScr EventListScr_S3135_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4011[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Throne_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4011)
     EvtClearTalk
     EvtLoadUnits(S4011BlueUnits)
@@ -6364,7 +6592,11 @@ const EventListScr EventListScr_S4014_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4015[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4015)
     EvtClearTalk
     EvtLoadUnits(S4015BlueUnits)
@@ -6400,7 +6632,11 @@ const EventListScr EventListScr_S4015_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4021[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4021)
     EvtClearTalk
     EvtLoadUnits(S4021BlueUnits)
@@ -6551,7 +6787,11 @@ const EventListScr EventListScr_S4025_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4031[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim_Throne)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4031)
     EvtClearTalk
     EvtLoadUnits(S4031BlueUnits)
@@ -6710,7 +6950,11 @@ const EventListScr EventListScr_S4035_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4041[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4041)
     EvtClearTalk
     EvtLoadUnits(S4041BlueUnits)
@@ -6871,7 +7115,11 @@ const EventListScr EventListScr_S4045_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4051[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4051)
     EvtClearTalk
     EvtLoadUnits(S4051BlueUnits)
@@ -7032,7 +7280,11 @@ const EventListScr EventListScr_S4055_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4061[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4061)
     EvtClearTalk
     EvtLoadUnits(S4061BlueUnits)
@@ -7162,7 +7414,11 @@ const EventListScr EventListScr_S4064_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4065[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_BraveHell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4065)
     EvtClearTalk
     EvtLoadUnits(S4065BlueUnits)
@@ -7200,7 +7456,11 @@ const EventListScr EventListScr_S4065_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4071[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_BraveHell)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4071)
     EvtClearTalk
     EvtLoadUnits(S4071BlueUnits)
@@ -7322,7 +7582,11 @@ const EventListScr EventListScr_S4074_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4075[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_BraveTwilight)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4075)
     EvtClearTalk
     EvtLoadUnits(S4075BlueUnits)
@@ -7359,7 +7623,11 @@ const EventListScr EventListScr_S4075_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4081[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Svartalf)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4081)
     EvtClearTalk
     EvtLoadUnits(S4081BlueUnits)
@@ -7515,7 +7783,11 @@ const EventListScr EventListScr_S4085_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4091[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Svartalf)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4091)
     EvtClearTalk
     EvtLoadUnits(S4091BlueUnits)
@@ -7646,7 +7918,11 @@ const EventListScr EventListScr_S4094_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4095[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Svartalf)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4095)
     EvtClearTalk
     EvtLoadUnits(S4095BlueUnits)
@@ -7713,7 +7989,11 @@ const EventListScr EventListScr_S4095_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Svartalf)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4101)
     EvtClearTalk
     EvtLoadUnits(S4101BlueUnits)
@@ -7832,7 +8112,11 @@ const EventListScr EventListScr_S4104_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4105[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Svartalf)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4105)
     EvtClearTalk
     EvtLoadUnits(S4105BlueUnits)
@@ -7871,7 +8155,11 @@ const EventListScr EventListScr_S4105_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4111[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_BraveTwilight)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4111)
     EvtClearTalk
     EvtLoadUnits(S4111BlueUnits)
@@ -8045,7 +8333,11 @@ const EventListScr EventListScr_S4115_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4121[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Building)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4121)
     EvtClearTalk
     EvtLoadUnits(S4121BlueUnits)
@@ -8167,7 +8459,11 @@ const EventListScr EventListScr_S4124_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4125[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4125)
     EvtClearTalk
     EvtLoadUnits(S4125BlueUnits)
@@ -8205,7 +8501,11 @@ const EventListScr EventListScr_S4125_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4131[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4131)
     EvtClearTalk
     EvtLoadUnits(S4131BlueUnits)
@@ -8274,7 +8574,11 @@ const EventListScr EventListScr_S4132_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4133[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4133)
     EvtClearTalk
     EvtLoadUnits(S4133BlueUnits)
@@ -8310,7 +8614,11 @@ const EventListScr EventListScr_S4133_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4134[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4134)
     EvtClearTalk
     EvtLoadUnits(S4134BlueUnits)
@@ -8363,7 +8671,11 @@ const EventListScr EventListScr_S4134_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S4135[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_005_Castle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S4135)
     EvtClearTalk
     EvtLoadUnits(S4135BlueUnits)
@@ -8402,7 +8714,11 @@ const EventListScr EventListScr_S4135_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5011[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Opening)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5011)
     EvtClearTalk
     EvtLoadUnits(S5011BlueUnits)
@@ -8441,7 +8757,11 @@ const EventListScr EventListScr_S5011_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5012[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_Brave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5012)
     EvtClearTalk
     EvtLoadUnits(S5012BlueUnits)
@@ -8467,7 +8787,11 @@ const EventListScr EventListScr_S5012_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5013[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5013)
     EvtClearTalk
     EvtLoadUnits(S5013BlueUnits)
@@ -8551,7 +8875,11 @@ const EventListScr EventListScr_S5015_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5021[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilCastle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5021)
     EvtClearTalk
     EvtLoadUnits(S5021BlueUnits)
@@ -8665,7 +8993,11 @@ const EventListScr EventListScr_S5024_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5025[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Nisaveril)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5025)
     EvtClearTalk
     EvtLoadUnits(S5025BlueUnits)
@@ -8703,7 +9035,11 @@ const EventListScr EventListScr_S5025_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5031[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5031)
     EvtClearTalk
     EvtLoadUnits(S5031BlueUnits)
@@ -8823,7 +9159,11 @@ const EventListScr EventListScr_S5034_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5035[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5035)
     EvtClearTalk
     EvtLoadUnits(S5035BlueUnits)
@@ -8882,7 +9222,11 @@ const EventListScr EventListScr_S5035_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5041[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5041)
     EvtClearTalk
     EvtLoadUnits(S5041BlueUnits)
@@ -8969,7 +9313,11 @@ const EventListScr EventListScr_S5043_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5044[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5044)
     EvtClearTalk
     EvtLoadUnits(S5044BlueUnits)
@@ -9033,7 +9381,11 @@ const EventListScr EventListScr_S5045_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5051[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5051)
     EvtClearTalk
     EvtLoadUnits(S5051BlueUnits)
@@ -9096,7 +9448,11 @@ const EventListScr EventListScr_S5052_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5053[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5053)
     EvtClearTalk
     EvtLoadUnits(S5053BlueUnits)
@@ -9150,7 +9506,11 @@ const EventListScr EventListScr_S5054_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5055[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5055)
     EvtClearTalk
     EvtLoadUnits(S5055BlueUnits)
@@ -9187,7 +9547,11 @@ const EventListScr EventListScr_S5055_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5061[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Nisaveril)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5061)
     EvtClearTalk
     EvtLoadUnits(S5061BlueUnits)
@@ -9224,7 +9588,11 @@ const EventListScr EventListScr_S5061_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5062[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Nisaveril)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5062)
     EvtClearTalk
     EvtLoadUnits(S5062BlueUnits)
@@ -9313,7 +9681,11 @@ const EventListScr EventListScr_S5064_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5065[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilSaintForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5065)
     EvtClearTalk
     EvtLoadUnits(S5065BlueUnits)
@@ -9350,7 +9722,11 @@ const EventListScr EventListScr_S5065_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5071[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilSaintForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5071)
     EvtClearTalk
     EvtLoadUnits(S5071BlueUnits)
@@ -9378,7 +9754,11 @@ const EventListScr EventListScr_S5071_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5072[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilSaintForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5072)
     EvtClearTalk
     EvtLoadUnits(S5072BlueUnits)
@@ -9407,7 +9787,11 @@ const EventListScr EventListScr_S5072_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5073[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilSaintForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5073)
     EvtClearTalk
     EvtLoadUnits(S5073BlueUnits)
@@ -9445,7 +9829,11 @@ const EventListScr EventListScr_S5073_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5074[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_001_BraveGround)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5074)
     EvtClearTalk
     EvtLoadUnits(S5074BlueUnits)
@@ -9474,7 +9862,11 @@ const EventListScr EventListScr_S5074_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5075[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_001_BraveGround)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5075)
     EvtClearTalk
     EvtLoadUnits(S5075BlueUnits)
@@ -9519,7 +9911,11 @@ const EventListScr EventListScr_S5075_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5081[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_001_BraveGround)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5081)
     EvtClearTalk
     EvtLoadUnits(S5081BlueUnits)
@@ -9549,7 +9945,11 @@ const EventListScr EventListScr_S5081_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5082[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5082)
     EvtClearTalk
     EvtLoadUnits(S5082BlueUnits)
@@ -9636,7 +10036,11 @@ const EventListScr EventListScr_S5084_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5085[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_005_Castle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5085)
     EvtClearTalk
     EvtLoadUnits(S5085BlueUnits)
@@ -9671,7 +10075,11 @@ const EventListScr EventListScr_S5085_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5091[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Nisaveril)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5091)
     EvtClearTalk
     EvtLoadUnits(S5091BlueUnits)
@@ -9769,7 +10177,11 @@ const EventListScr EventListScr_S5093_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5094[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilTower)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5094)
     EvtClearTalk
     EvtLoadUnits(S5094BlueUnits)
@@ -9848,7 +10260,11 @@ const EventListScr EventListScr_S5095_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraOutside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5101)
     EvtClearTalk
     EvtLoadUnits(S5101BlueUnits)
@@ -9876,7 +10292,11 @@ const EventListScr EventListScr_S5101_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5102[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraOutside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5102)
     EvtClearTalk
     EvtLoadUnits(S5102BlueUnits)
@@ -10000,7 +10420,11 @@ const EventListScr EventListScr_S5105_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5111[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5111)
     EvtClearTalk
     EvtLoadUnits(S5111BlueUnits)
@@ -10031,7 +10455,11 @@ const EventListScr EventListScr_S5111_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5112[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilOutside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5112)
     EvtClearTalk
     EvtLoadUnits(S5112BlueUnits)
@@ -10109,7 +10537,11 @@ const EventListScr EventListScr_S5114_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5115[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilOutside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5115)
     EvtClearTalk
     EvtLoadUnits(S5115BlueUnits)
@@ -10146,7 +10578,11 @@ const EventListScr EventListScr_S5115_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5121[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilCorridor)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5121)
     EvtClearTalk
     EvtLoadUnits(S5121BlueUnits)
@@ -10200,7 +10636,11 @@ const EventListScr EventListScr_S5122_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5123[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilCastle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5123)
     EvtClearTalk
     EvtLoadUnits(S5123BlueUnits)
@@ -10302,7 +10742,11 @@ const EventListScr EventListScr_S5125_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5131[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilCastle)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5131)
     EvtClearTalk
     EvtLoadUnits(S5131BlueUnits)
@@ -10413,7 +10857,11 @@ const EventListScr EventListScr_S5133_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5134[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilSaintForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5134)
     EvtClearTalk
     EvtLoadUnits(S5134BlueUnits)
@@ -10444,7 +10892,11 @@ const EventListScr EventListScr_S5134_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S5135[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_NisaverilShrine)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S5135)
     EvtClearTalk
     EvtLoadUnits(S5135BlueUnits)
@@ -10487,7 +10939,11 @@ const EventListScr EventListScr_S5135_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6011[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6011)
     EvtClearTalk
     EvtLoadUnits(S6011BlueUnits)
@@ -10582,7 +11038,11 @@ const EventListScr EventListScr_S6013_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6014[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6014)
     EvtClearTalk
     EvtLoadUnits(S6014BlueUnits)
@@ -10610,7 +11070,11 @@ const EventListScr EventListScr_S6014_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6015[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6015)
     EvtClearTalk
     EvtLoadUnits(S6015BlueUnits)
@@ -10648,7 +11112,11 @@ const EventListScr EventListScr_S6015_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6021[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6021)
     EvtClearTalk
     EvtLoadUnits(S6021BlueUnits)
@@ -10767,7 +11235,11 @@ const EventListScr EventListScr_S6024_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6025[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraOutsideForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6025)
     EvtClearTalk
     EvtLoadUnits(S6025BlueUnits)
@@ -10805,7 +11277,11 @@ const EventListScr EventListScr_S6025_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6031[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraOutsideForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6031)
     EvtClearTalk
     EvtLoadUnits(S6031BlueUnits)
@@ -10977,7 +11453,11 @@ const EventListScr EventListScr_S6035_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6041[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraOutsideForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6041)
     EvtClearTalk
     EvtLoadUnits(S6041BlueUnits)
@@ -11041,7 +11521,11 @@ const EventListScr EventListScr_S6042_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6043[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraMountain)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6043)
     EvtClearTalk
     EvtLoadUnits(S6043BlueUnits)
@@ -11147,7 +11631,11 @@ const EventListScr EventListScr_S6045_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6051[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraOutsideForest)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6051)
     EvtClearTalk
     EvtLoadUnits(S6051BlueUnits)
@@ -11184,7 +11672,11 @@ const EventListScr EventListScr_S6051_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6052[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraMountain)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6052)
     EvtClearTalk
     EvtLoadUnits(S6052BlueUnits)
@@ -11322,7 +11814,11 @@ const EventListScr EventListScr_S6055_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6061[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraMountain)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6061)
     EvtClearTalk
     EvtLoadUnits(S6061BlueUnits)
@@ -11492,7 +11988,11 @@ const EventListScr EventListScr_S6065_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6071[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraOutside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6071)
     EvtClearTalk
     EvtLoadUnits(S6071BlueUnits)
@@ -11650,7 +12150,11 @@ const EventListScr EventListScr_S6075_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6081[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter8_EmbraDark)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6081)
     EvtClearTalk
     EvtLoadUnits(S6081BlueUnits)
@@ -11804,7 +12308,11 @@ const EventListScr EventListScr_S6085_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6091[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter8_EmbraDark)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6091)
     EvtClearTalk
     EvtLoadUnits(S6091BlueUnits)
@@ -11927,7 +12435,11 @@ const EventListScr EventListScr_S6094_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6095[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Chapter8_EmbraDark)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6095)
     EvtClearTalk
     EvtLoadUnits(S6095BlueUnits)
@@ -11965,7 +12477,11 @@ const EventListScr EventListScr_S6095_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_AskAnother)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6101)
     EvtClearTalk
     EvtLoadUnits(S6101BlueUnits)
@@ -12093,7 +12609,11 @@ const EventListScr EventListScr_S6104_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6105[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_YggdrasillAsk)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6105)
     EvtClearTalk
     EvtLoadUnits(S6105BlueUnits)
@@ -12132,7 +12652,11 @@ const EventListScr EventListScr_S6105_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6111[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraDarkOutside2)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6111)
     EvtClearTalk
     EvtLoadUnits(S6111BlueUnits)
@@ -12202,7 +12726,11 @@ const EventListScr EventListScr_S6112_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6113[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraDarkOutside2)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6113)
     EvtClearTalk
     EvtLoadUnits(S6113BlueUnits)
@@ -12312,7 +12840,11 @@ const EventListScr EventListScr_S6115_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6121[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraDarkOutside2)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6121)
     EvtClearTalk
     EvtLoadUnits(S6121BlueUnits)
@@ -12398,7 +12930,11 @@ const EventListScr EventListScr_S6123_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6124[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EmbraDarkOutside2)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6124)
     EvtClearTalk
     EvtLoadUnits(S6124BlueUnits)
@@ -12483,7 +13019,11 @@ const EventListScr EventListScr_S6125_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6131[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_BG_Blank_White)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6131)
     EvtClearTalk
     EvtLoadUnits(S6131BlueUnits)
@@ -12522,7 +13062,11 @@ const EventListScr EventListScr_S6131_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6132[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_BG_Blank_White)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6132)
     EvtClearTalk
     EvtLoadUnits(S6132BlueUnits)
@@ -12551,7 +13095,11 @@ const EventListScr EventListScr_S6132_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6133[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_BG_Blank_White)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6133)
     EvtClearTalk
     EvtLoadUnits(S6133BlueUnits)
@@ -12580,7 +13128,11 @@ const EventListScr EventListScr_S6133_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6134[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_BG_Blank_White)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6134)
     EvtClearTalk
     EvtLoadUnits(S6134BlueUnits)
@@ -12617,7 +13169,11 @@ const EventListScr EventListScr_S6134_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S6135[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_BG_Blank_White)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S6135)
     EvtClearTalk
     EvtLoadUnits(S6135BlueUnits)
@@ -12663,7 +13219,11 @@ const EventListScr EventListScr_S6135_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7011[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBG_OP_00_v0700a)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7011)
     EvtClearTalk
     EvtLoadUnits(S7011BlueUnits)
@@ -12800,7 +13360,11 @@ const EventListScr EventListScr_S7015_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7021[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_001_BraveInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7021)
     EvtClearTalk
     EvtLoadUnits(S7021BlueUnits)
@@ -12969,7 +13533,11 @@ const EventListScr EventListScr_S7025_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7031[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaThrone)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7031)
     EvtClearTalk
     EvtLoadUnits(S7031BlueUnits)
@@ -13105,7 +13673,11 @@ const EventListScr EventListScr_S7035_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7041[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaThrone)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7041)
     EvtClearTalk
     EvtLoadUnits(S7041BlueUnits)
@@ -13141,7 +13713,11 @@ const EventListScr EventListScr_S7041_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7042[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_EarthTempleEntrance)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7042)
     EvtClearTalk
     EvtLoadUnits(S7042BlueUnits)
@@ -13178,7 +13754,11 @@ const EventListScr EventListScr_S7042_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7043[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_044_EarthTemple)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7043)
     EvtClearTalk
     EvtLoadUnits(S7043BlueUnits)
@@ -13267,7 +13847,11 @@ const EventListScr EventListScr_S7045_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7051[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaThrone)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7051)
     EvtClearTalk
     EvtLoadUnits(S7051BlueUnits)
@@ -13378,7 +13962,11 @@ const EventListScr EventListScr_S7054_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7055[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_LightTemple)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7055)
     EvtClearTalk
     EvtLoadUnits(S7055BlueUnits)
@@ -13430,7 +14018,11 @@ const EventListScr EventListScr_S7055_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7061[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_LightTemplePast)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7061)
     EvtClearTalk
     EvtLoadUnits(S7061BlueUnits)
@@ -13467,7 +14059,11 @@ const EventListScr EventListScr_S7061_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7062[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaCave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7062)
     EvtClearTalk
     EvtLoadUnits(S7062BlueUnits)
@@ -13504,7 +14100,11 @@ const EventListScr EventListScr_S7062_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7063[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaCave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7063)
     EvtClearTalk
     EvtLoadUnits(S7063BlueUnits)
@@ -13541,7 +14141,11 @@ const EventListScr EventListScr_S7063_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7064[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaCave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7064)
     EvtClearTalk
     EvtLoadUnits(S7064BlueUnits)
@@ -13570,7 +14174,11 @@ const EventListScr EventListScr_S7064_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7065[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaPastAroundCave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7065)
     EvtClearTalk
     EvtLoadUnits(S7065BlueUnits)
@@ -13609,7 +14217,11 @@ const EventListScr EventListScr_S7065_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7071[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaPastAroundCave)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7071)
     EvtClearTalk
     EvtLoadUnits(S7071BlueUnits)
@@ -13671,7 +14283,11 @@ const EventListScr EventListScr_S7072_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7073[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaThronePast)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7073)
     EvtClearTalk
     EvtLoadUnits(S7073BlueUnits)
@@ -13725,7 +14341,11 @@ const EventListScr EventListScr_S7074_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7075[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaThronePast)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7075)
     EvtClearTalk
     EvtLoadUnits(S7075BlueUnits)
@@ -13762,7 +14382,11 @@ const EventListScr EventListScr_S7075_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7081[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_GullveigCastleInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7081)
     EvtClearTalk
     EvtLoadUnits(S7081BlueUnits)
@@ -13801,7 +14425,11 @@ const EventListScr EventListScr_S7081_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7082[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_GullveigCastleInside)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7082)
     EvtClearTalk
     EvtLoadUnits(S7082BlueUnits)
@@ -13917,7 +14545,11 @@ const EventListScr EventListScr_S7085_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7091[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_GoldenThreadUpperRiverPast)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7091)
     EvtClearTalk
     EvtLoadUnits(S7091BlueUnits)
@@ -13981,7 +14613,11 @@ const EventListScr EventListScr_S7092_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7093[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaNight)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7093)
     EvtClearTalk
     EvtLoadUnits(S7093BlueUnits)
@@ -14070,7 +14706,11 @@ const EventListScr EventListScr_S7095_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7101[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaFade)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7101)
     EvtClearTalk
     EvtLoadUnits(S7101BlueUnits)
@@ -14211,7 +14851,11 @@ const EventListScr EventListScr_S7105_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7111[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaFade)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7111)
     EvtClearTalk
     EvtLoadUnits(S7111BlueUnits)
@@ -14266,7 +14910,11 @@ const EventListScr EventListScr_S7112_Turn[] = {
 };
 
 const EventScr EventScr_LoadUnits_S7113[] = {
+    EvtFadeToBlack(16)
+    EvtExitMap
     EvtBackground(BACKGROUND_EvBg_VanaFade)
+    EvtFadeFromBlack(16)
+    EvtEnterMap
     EvtTalk(MID_SCENARIO_OPENING_S7113)
     EvtClearTalk
     EvtLoadUnits(S7113BlueUnits)

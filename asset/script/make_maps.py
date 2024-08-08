@@ -921,7 +921,11 @@ const u16 ChapterEnemyHeroNames[][14] = {
             # file_scripts_defs.write('extern const EventScr EventScr_LoadUnits_%s[];\n' % map_id)
             file_scripts.write('const EventScr EventScr_LoadUnits_%s[] = {\n' % map_id)
             if 'MID_SCENARIO_OPENING_IMAGE' in map_scenarios.get(map_id, {}):
+                file_scripts.write('    EvtFadeToBlack(16)\n')
+                file_scripts.write('    EvtExitMap\n')
                 file_scripts.write('    EvtBackground(BACKGROUND_%s)\n' % map_scenarios.get(map_id, {})['MID_SCENARIO_OPENING_IMAGE'])
+                file_scripts.write('    EvtFadeFromBlack(16)\n')
+                file_scripts.write('    EvtEnterMap\n')
             if 'MID_SCENARIO_OPENING' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtTalk(MID_SCENARIO_OPENING_%s)\n' % map_id)
                 file_scripts.write('    EvtClearTalk\n')
