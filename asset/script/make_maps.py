@@ -929,8 +929,8 @@ const u16 ChapterEnemyHeroNames[][14] = {
             if 'MID_SCENARIO_OPENING' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtTalk(MID_SCENARIO_OPENING_%s)\n' % map_id)
                 file_scripts.write('    EvtClearTalk\n')
-            file_scripts.write('    EvtLoadUnits(%sBlueUnits)\n' % map_id)
             file_scripts.write('    EvtLoadUnits(%sRedUnits)\n' % map_id)
+            file_scripts.write('    EvtLoadUnits(%sBlueUnits)\n' % map_id)
             if 'MID_SCENARIO_MAP_BEGIN_BGM' in map_scenarios.get(map_id, {}) and 'MID_SCENARIO_OPENING_BGM' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtSetBgm(%s_MID_SCENARIO_MAP_BEGIN_BGM)\n' % map_id)
             if 'MID_SCENARIO_MAP_BEGIN' in map_scenarios.get(map_id, {}):
