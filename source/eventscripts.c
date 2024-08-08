@@ -24,7 +24,7 @@ const EventScr EventScr_LoadUnits_S0001[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0001_Victory = {
+const EventScr EventScr_S0001_Victory[] = {
     EvtSetBgm(S0001_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -61,7 +61,7 @@ const EventScr EventScr_LoadUnits_S0002[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0002_Victory = {
+const EventScr EventScr_S0002_Victory[] = {
     EvtSetBgm(S0002_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -95,7 +95,7 @@ const EventScr EventScr_LoadUnits_S0101[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0101_Victory = {
+const EventScr EventScr_S0101_Victory[] = {
     EvtSetBgm(S0101_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -131,7 +131,7 @@ const EventScr EventScr_LoadUnits_S0102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0102_Victory = {
+const EventScr EventScr_S0102_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0102)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -166,7 +166,7 @@ const EventScr EventScr_LoadUnits_S0103[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0103_Victory = {
+const EventScr EventScr_S0103_Victory[] = {
     EvtSetBgm(S0103_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -202,7 +202,7 @@ const EventScr EventScr_LoadUnits_S0201[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0201_Victory = {
+const EventScr EventScr_S0201_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0201)
     EvtClearTalk
     EvtNoSkip
@@ -227,7 +227,7 @@ const EventScr EventScr_LoadUnits_S0202[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0202_Victory = {
+const EventScr EventScr_S0202_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -250,7 +250,7 @@ const EventScr EventScr_LoadUnits_S0203[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0203_Victory = {
+const EventScr EventScr_S0203_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -273,7 +273,7 @@ const EventScr EventScr_LoadUnits_S0204[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0204_Victory = {
+const EventScr EventScr_S0204_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -298,7 +298,7 @@ const EventScr EventScr_LoadUnits_S0205[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0205_Victory = {
+const EventScr EventScr_S0205_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0205)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -332,7 +332,7 @@ const EventScr EventScr_LoadUnits_S0301[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0301_Victory = {
+const EventScr EventScr_S0301_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0301)
     EvtClearTalk
     EvtNoSkip
@@ -357,7 +357,7 @@ const EventScr EventScr_LoadUnits_S0302[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0302_Victory = {
+const EventScr EventScr_S0302_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -380,7 +380,7 @@ const EventScr EventScr_LoadUnits_S0303[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0303_Victory = {
+const EventScr EventScr_S0303_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -403,7 +403,7 @@ const EventScr EventScr_LoadUnits_S0304[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0304_Victory = {
+const EventScr EventScr_S0304_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -428,7 +428,7 @@ const EventScr EventScr_LoadUnits_S0305[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0305_Victory = {
+const EventScr EventScr_S0305_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0305)
     EvtClearTalk
     EvtSetBgm(S0305_MID_SCENARIO_ENDING_BGM)
@@ -463,7 +463,7 @@ const EventScr EventScr_LoadUnits_S0401[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0401_Victory = {
+const EventScr EventScr_S0401_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0401)
     EvtClearTalk
     EvtNoSkip
@@ -488,7 +488,7 @@ const EventScr EventScr_LoadUnits_S0402[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0402_Victory = {
+const EventScr EventScr_S0402_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -511,7 +511,7 @@ const EventScr EventScr_LoadUnits_S0403[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0403_Victory = {
+const EventScr EventScr_S0403_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -534,7 +534,7 @@ const EventScr EventScr_LoadUnits_S0404[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0404_Victory = {
+const EventScr EventScr_S0404_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -559,7 +559,7 @@ const EventScr EventScr_LoadUnits_S0405[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0405_Victory = {
+const EventScr EventScr_S0405_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0405)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -593,7 +593,7 @@ const EventScr EventScr_LoadUnits_S0501[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0501_Victory = {
+const EventScr EventScr_S0501_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0501)
     EvtClearTalk
     EvtNoSkip
@@ -618,7 +618,7 @@ const EventScr EventScr_LoadUnits_S0502[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0502_Victory = {
+const EventScr EventScr_S0502_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -641,7 +641,7 @@ const EventScr EventScr_LoadUnits_S0503[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0503_Victory = {
+const EventScr EventScr_S0503_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -664,7 +664,7 @@ const EventScr EventScr_LoadUnits_S0504[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0504_Victory = {
+const EventScr EventScr_S0504_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -689,7 +689,7 @@ const EventScr EventScr_LoadUnits_S0505[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0505_Victory = {
+const EventScr EventScr_S0505_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0505)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -723,7 +723,7 @@ const EventScr EventScr_LoadUnits_S0601[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0601_Victory = {
+const EventScr EventScr_S0601_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0601)
     EvtClearTalk
     EvtNoSkip
@@ -748,7 +748,7 @@ const EventScr EventScr_LoadUnits_S0602[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0602_Victory = {
+const EventScr EventScr_S0602_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -771,7 +771,7 @@ const EventScr EventScr_LoadUnits_S0603[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0603_Victory = {
+const EventScr EventScr_S0603_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -794,7 +794,7 @@ const EventScr EventScr_LoadUnits_S0604[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0604_Victory = {
+const EventScr EventScr_S0604_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -819,7 +819,7 @@ const EventScr EventScr_LoadUnits_S0605[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0605_Victory = {
+const EventScr EventScr_S0605_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0605)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -853,7 +853,7 @@ const EventScr EventScr_LoadUnits_S0701[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0701_Victory = {
+const EventScr EventScr_S0701_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0701)
     EvtClearTalk
     EvtNoSkip
@@ -878,7 +878,7 @@ const EventScr EventScr_LoadUnits_S0702[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0702_Victory = {
+const EventScr EventScr_S0702_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -901,7 +901,7 @@ const EventScr EventScr_LoadUnits_S0703[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0703_Victory = {
+const EventScr EventScr_S0703_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -924,7 +924,7 @@ const EventScr EventScr_LoadUnits_S0704[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0704_Victory = {
+const EventScr EventScr_S0704_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -949,7 +949,7 @@ const EventScr EventScr_LoadUnits_S0705[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0705_Victory = {
+const EventScr EventScr_S0705_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0705)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -983,7 +983,7 @@ const EventScr EventScr_LoadUnits_S0801[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0801_Victory = {
+const EventScr EventScr_S0801_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0801)
     EvtClearTalk
     EvtNoSkip
@@ -1008,7 +1008,7 @@ const EventScr EventScr_LoadUnits_S0802[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0802_Victory = {
+const EventScr EventScr_S0802_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -1031,7 +1031,7 @@ const EventScr EventScr_LoadUnits_S0803[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0803_Victory = {
+const EventScr EventScr_S0803_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -1054,7 +1054,7 @@ const EventScr EventScr_LoadUnits_S0804[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0804_Victory = {
+const EventScr EventScr_S0804_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -1079,7 +1079,7 @@ const EventScr EventScr_LoadUnits_S0805[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0805_Victory = {
+const EventScr EventScr_S0805_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0805)
     EvtClearTalk
     EvtSetBgm(S0805_MID_SCENARIO_ENDING_BGM)
@@ -1114,7 +1114,7 @@ const EventScr EventScr_LoadUnits_S0901[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0901_Victory = {
+const EventScr EventScr_S0901_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0901)
     EvtClearTalk
     EvtNoSkip
@@ -1139,7 +1139,7 @@ const EventScr EventScr_LoadUnits_S0902[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0902_Victory = {
+const EventScr EventScr_S0902_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -1162,7 +1162,7 @@ const EventScr EventScr_LoadUnits_S0903[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0903_Victory = {
+const EventScr EventScr_S0903_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -1185,7 +1185,7 @@ const EventScr EventScr_LoadUnits_S0904[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0904_Victory = {
+const EventScr EventScr_S0904_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -1210,7 +1210,7 @@ const EventScr EventScr_LoadUnits_S0905[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S0905_Victory = {
+const EventScr EventScr_S0905_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0905)
     EvtClearTalk
     EvtSetBgm(S0905_MID_SCENARIO_ENDING_BGM)
@@ -1248,7 +1248,7 @@ const EventScr EventScr_LoadUnits_S1001[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1001_Victory = {
+const EventScr EventScr_S1001_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1001)
     EvtClearTalk
     EvtNoSkip
@@ -1273,7 +1273,7 @@ const EventScr EventScr_LoadUnits_S1002[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1002_Victory = {
+const EventScr EventScr_S1002_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -1296,7 +1296,7 @@ const EventScr EventScr_LoadUnits_S1003[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1003_Victory = {
+const EventScr EventScr_S1003_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -1321,7 +1321,7 @@ const EventScr EventScr_LoadUnits_S1004[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1004_Victory = {
+const EventScr EventScr_S1004_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1004)
     EvtClearTalk
     EvtNoSkip
@@ -1348,7 +1348,7 @@ const EventScr EventScr_LoadUnits_S1005[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1005_Victory = {
+const EventScr EventScr_S1005_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1005)
     EvtClearTalk
     EvtSetBgm(S1005_MID_SCENARIO_ENDING_BGM)
@@ -1398,7 +1398,7 @@ const EventScr EventScr_LoadUnits_S1101RedUnits_Turn_3_5[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1101_Victory = {
+const EventScr EventScr_S1101_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1101)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -1433,7 +1433,7 @@ const EventScr EventScr_LoadUnits_S1102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1102_Victory = {
+const EventScr EventScr_S1102_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -1464,7 +1464,7 @@ const EventScr EventScr_LoadUnits_S1103RedUnits_Turn_4_6[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1103_Victory = {
+const EventScr EventScr_S1103_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1103)
     EvtClearTalk
     EvtNoSkip
@@ -1515,7 +1515,7 @@ const EventScr EventScr_LoadUnits_S1104RedUnits_Turn_6_6[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1104_Victory = {
+const EventScr EventScr_S1104_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1104)
     EvtClearTalk
     EvtNoSkip
@@ -1547,7 +1547,7 @@ const EventScr EventScr_LoadUnits_S1105[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1105_Victory = {
+const EventScr EventScr_S1105_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1105)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -1585,7 +1585,7 @@ const EventScr EventScr_LoadUnits_S1201[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1201_Victory = {
+const EventScr EventScr_S1201_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1201)
     EvtClearTalk
     EvtNoSkip
@@ -1610,7 +1610,7 @@ const EventScr EventScr_LoadUnits_S1202[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1202_Victory = {
+const EventScr EventScr_S1202_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -1654,7 +1654,7 @@ const EventScr EventScr_LoadUnits_S1203RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1203_Victory = {
+const EventScr EventScr_S1203_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -1681,7 +1681,7 @@ const EventScr EventScr_LoadUnits_S1204[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1204_Victory = {
+const EventScr EventScr_S1204_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -1706,7 +1706,7 @@ const EventScr EventScr_LoadUnits_S1205[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1205_Victory = {
+const EventScr EventScr_S1205_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1205)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -1744,7 +1744,7 @@ const EventScr EventScr_LoadUnits_S1301[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1301_Victory = {
+const EventScr EventScr_S1301_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1301)
     EvtClearTalk
     EvtNoSkip
@@ -1769,7 +1769,7 @@ const EventScr EventScr_LoadUnits_S1302[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1302_Victory = {
+const EventScr EventScr_S1302_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -1793,7 +1793,7 @@ const EventScr EventScr_LoadUnits_S1303[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1303_Victory = {
+const EventScr EventScr_S1303_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -1817,7 +1817,7 @@ const EventScr EventScr_LoadUnits_S1304[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1304_Victory = {
+const EventScr EventScr_S1304_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -1843,7 +1843,7 @@ const EventScr EventScr_LoadUnits_S1305[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1305_Victory = {
+const EventScr EventScr_S1305_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1305)
     EvtClearTalk
     EvtSetBgm(S1305_MID_SCENARIO_ENDING_BGM)
@@ -1882,7 +1882,7 @@ const EventScr EventScr_LoadUnits_S1401[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1401_Victory = {
+const EventScr EventScr_S1401_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1401)
     EvtClearTalk
     EvtNoSkip
@@ -1907,7 +1907,7 @@ const EventScr EventScr_LoadUnits_S1402[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1402_Victory = {
+const EventScr EventScr_S1402_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -1962,7 +1962,7 @@ const EventScr EventScr_LoadUnits_S1403RedUnits_Turn_6_6[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1403_Victory = {
+const EventScr EventScr_S1403_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -1991,7 +1991,7 @@ const EventScr EventScr_LoadUnits_S1404[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1404_Victory = {
+const EventScr EventScr_S1404_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -2016,7 +2016,7 @@ const EventScr EventScr_LoadUnits_S1405[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1405_Victory = {
+const EventScr EventScr_S1405_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S1405)
     EvtClearTalk
     EvtSetBgm(S1405_MID_SCENARIO_ENDING_BGM)
@@ -2055,7 +2055,7 @@ const EventScr EventScr_LoadUnits_S1501[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1501_Victory = {
+const EventScr EventScr_S1501_Victory[] = {
     EvtSetBgm(S1501_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -2091,7 +2091,7 @@ const EventScr EventScr_LoadUnits_S1601[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S1601_Victory = {
+const EventScr EventScr_S1601_Victory[] = {
     EvtSetBgm(S1601_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -2127,7 +2127,7 @@ const EventScr EventScr_LoadUnits_S2011[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2011_Victory = {
+const EventScr EventScr_S2011_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2011)
     EvtClearTalk
     EvtNoSkip
@@ -2152,7 +2152,7 @@ const EventScr EventScr_LoadUnits_S2012[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2012_Victory = {
+const EventScr EventScr_S2012_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -2175,7 +2175,7 @@ const EventScr EventScr_LoadUnits_S2013[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2013_Victory = {
+const EventScr EventScr_S2013_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -2198,7 +2198,7 @@ const EventScr EventScr_LoadUnits_S2014[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2014_Victory = {
+const EventScr EventScr_S2014_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2014)
     EvtClearTalk
     EvtSetBgm(S2014_MID_SCENARIO_ENDING_BGM)
@@ -2233,7 +2233,7 @@ const EventScr EventScr_LoadUnits_S2015[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2015_Victory = {
+const EventScr EventScr_S2015_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2015)
     EvtClearTalk
     EvtSetBgm(S2015_MID_SCENARIO_ENDING_BGM)
@@ -2272,7 +2272,7 @@ const EventScr EventScr_LoadUnits_S2021[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2021_Victory = {
+const EventScr EventScr_S2021_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2021)
     EvtClearTalk
     EvtNoSkip
@@ -2297,7 +2297,7 @@ const EventScr EventScr_LoadUnits_S2022[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2022_Victory = {
+const EventScr EventScr_S2022_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -2320,7 +2320,7 @@ const EventScr EventScr_LoadUnits_S2023[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2023_Victory = {
+const EventScr EventScr_S2023_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -2343,7 +2343,7 @@ const EventScr EventScr_LoadUnits_S2024[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2024_Victory = {
+const EventScr EventScr_S2024_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -2386,7 +2386,7 @@ const EventScr EventScr_LoadUnits_S2025RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2025_Victory = {
+const EventScr EventScr_S2025_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2025)
     EvtClearTalk
     EvtNoSkip
@@ -2421,7 +2421,7 @@ const EventScr EventScr_LoadUnits_S2031[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2031_Victory = {
+const EventScr EventScr_S2031_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2031)
     EvtClearTalk
     EvtNoSkip
@@ -2448,7 +2448,7 @@ const EventScr EventScr_LoadUnits_S2032[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2032_Victory = {
+const EventScr EventScr_S2032_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -2473,7 +2473,7 @@ const EventScr EventScr_LoadUnits_S2033[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2033_Victory = {
+const EventScr EventScr_S2033_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -2498,7 +2498,7 @@ const EventScr EventScr_LoadUnits_S2034[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2034_Victory = {
+const EventScr EventScr_S2034_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2034)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -2530,7 +2530,7 @@ const EventScr EventScr_LoadUnits_S2035[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2035_Victory = {
+const EventScr EventScr_S2035_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2035)
     EvtClearTalk
     EvtSetBgm(S2035_MID_SCENARIO_ENDING_BGM)
@@ -2570,7 +2570,7 @@ const EventScr EventScr_LoadUnits_S2041[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2041_Victory = {
+const EventScr EventScr_S2041_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2041)
     EvtClearTalk
     EvtNoSkip
@@ -2597,7 +2597,7 @@ const EventScr EventScr_LoadUnits_S2042[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2042_Victory = {
+const EventScr EventScr_S2042_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -2622,7 +2622,7 @@ const EventScr EventScr_LoadUnits_S2043[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2043_Victory = {
+const EventScr EventScr_S2043_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -2647,7 +2647,7 @@ const EventScr EventScr_LoadUnits_S2044[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2044_Victory = {
+const EventScr EventScr_S2044_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2044)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -2699,7 +2699,7 @@ const EventScr EventScr_LoadUnits_S2045RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2045_Victory = {
+const EventScr EventScr_S2045_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2045)
     EvtClearTalk
     EvtSetBgm(S2045_MID_SCENARIO_ENDING_BGM)
@@ -2742,7 +2742,7 @@ const EventScr EventScr_LoadUnits_S2051[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2051_Victory = {
+const EventScr EventScr_S2051_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2051)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -2800,7 +2800,7 @@ const EventScr EventScr_LoadUnits_S2052RedUnits_Turn_5_5[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2052_Victory = {
+const EventScr EventScr_S2052_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2052)
     EvtClearTalk
     EvtNoSkip
@@ -2832,7 +2832,7 @@ const EventScr EventScr_LoadUnits_S2053[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2053_Victory = {
+const EventScr EventScr_S2053_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -2858,7 +2858,7 @@ const EventScr EventScr_LoadUnits_S2054[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2054_Victory = {
+const EventScr EventScr_S2054_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -2883,7 +2883,7 @@ const EventScr EventScr_LoadUnits_S2055[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2055_Victory = {
+const EventScr EventScr_S2055_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2055)
     EvtClearTalk
     EvtSetBgm(S2055_MID_SCENARIO_ENDING_BGM)
@@ -2922,7 +2922,7 @@ const EventScr EventScr_LoadUnits_S2061[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2061_Victory = {
+const EventScr EventScr_S2061_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2061)
     EvtClearTalk
     EvtNoSkip
@@ -2949,7 +2949,7 @@ const EventScr EventScr_LoadUnits_S2062[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2062_Victory = {
+const EventScr EventScr_S2062_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -2974,7 +2974,7 @@ const EventScr EventScr_LoadUnits_S2063[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2063_Victory = {
+const EventScr EventScr_S2063_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -2999,7 +2999,7 @@ const EventScr EventScr_LoadUnits_S2064[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2064_Victory = {
+const EventScr EventScr_S2064_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2064)
     EvtClearTalk
     EvtSetBgm(S2064_MID_SCENARIO_ENDING_BGM)
@@ -3037,7 +3037,7 @@ const EventScr EventScr_LoadUnits_S2065[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2065_Victory = {
+const EventScr EventScr_S2065_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2065)
     EvtClearTalk
     EvtSetBgm(S2065_MID_SCENARIO_ENDING_BGM)
@@ -3076,7 +3076,7 @@ const EventScr EventScr_LoadUnits_S2071[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2071_Victory = {
+const EventScr EventScr_S2071_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2071)
     EvtClearTalk
     EvtNoSkip
@@ -3103,7 +3103,7 @@ const EventScr EventScr_LoadUnits_S2072[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2072_Victory = {
+const EventScr EventScr_S2072_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -3128,7 +3128,7 @@ const EventScr EventScr_LoadUnits_S2073[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2073_Victory = {
+const EventScr EventScr_S2073_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -3153,7 +3153,7 @@ const EventScr EventScr_LoadUnits_S2074[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2074_Victory = {
+const EventScr EventScr_S2074_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -3203,7 +3203,7 @@ const EventScr EventScr_LoadUnits_S2075RedUnits_Turn_5_5[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2075_Victory = {
+const EventScr EventScr_S2075_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2075)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -3242,7 +3242,7 @@ const EventScr EventScr_LoadUnits_S2081[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2081_Victory = {
+const EventScr EventScr_S2081_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2081)
     EvtClearTalk
     EvtSetBgm(S2081_MID_SCENARIO_ENDING_BGM)
@@ -3277,7 +3277,7 @@ const EventScr EventScr_LoadUnits_S2082[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2082_Victory = {
+const EventScr EventScr_S2082_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -3302,7 +3302,7 @@ const EventScr EventScr_LoadUnits_S2083[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2083_Victory = {
+const EventScr EventScr_S2083_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -3327,7 +3327,7 @@ const EventScr EventScr_LoadUnits_S2084[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2084_Victory = {
+const EventScr EventScr_S2084_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -3352,7 +3352,7 @@ const EventScr EventScr_LoadUnits_S2085[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2085_Victory = {
+const EventScr EventScr_S2085_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2085)
     EvtClearTalk
     EvtSetBgm(S2085_MID_SCENARIO_ENDING_BGM)
@@ -3391,7 +3391,7 @@ const EventScr EventScr_LoadUnits_S2091[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2091_Victory = {
+const EventScr EventScr_S2091_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2091)
     EvtClearTalk
     EvtSetBgm(S2091_MID_SCENARIO_ENDING_BGM)
@@ -3426,7 +3426,7 @@ const EventScr EventScr_LoadUnits_S2092[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2092_Victory = {
+const EventScr EventScr_S2092_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -3451,7 +3451,7 @@ const EventScr EventScr_LoadUnits_S2093[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2093_Victory = {
+const EventScr EventScr_S2093_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -3476,7 +3476,7 @@ const EventScr EventScr_LoadUnits_S2094[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2094_Victory = {
+const EventScr EventScr_S2094_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -3522,7 +3522,7 @@ const EventScr EventScr_LoadUnits_S2095RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2095_Victory = {
+const EventScr EventScr_S2095_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2095)
     EvtClearTalk
     EvtSetBgm(S2095_MID_SCENARIO_ENDING_BGM)
@@ -3563,7 +3563,7 @@ const EventScr EventScr_LoadUnits_S2101[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2101_Victory = {
+const EventScr EventScr_S2101_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2101)
     EvtClearTalk
     EvtSetBgm(S2101_MID_SCENARIO_ENDING_BGM)
@@ -3598,7 +3598,7 @@ const EventScr EventScr_LoadUnits_S2102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2102_Victory = {
+const EventScr EventScr_S2102_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -3623,7 +3623,7 @@ const EventScr EventScr_LoadUnits_S2103[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2103_Victory = {
+const EventScr EventScr_S2103_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -3648,7 +3648,7 @@ const EventScr EventScr_LoadUnits_S2104[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2104_Victory = {
+const EventScr EventScr_S2104_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -3679,7 +3679,7 @@ const EventScr EventScr_LoadUnits_S2105RedUnits_Turn_1_1[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2105_Victory = {
+const EventScr EventScr_S2105_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2105)
     EvtClearTalk
     EvtSetBgm(S2105_MID_SCENARIO_ENDING_BGM)
@@ -3719,7 +3719,7 @@ const EventScr EventScr_LoadUnits_S2111[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2111_Victory = {
+const EventScr EventScr_S2111_Victory[] = {
     EvtSetBgm(S2111_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -3753,7 +3753,7 @@ const EventScr EventScr_LoadUnits_S2112[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2112_Victory = {
+const EventScr EventScr_S2112_Victory[] = {
     EvtSetBgm(S2112_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -3786,7 +3786,7 @@ const EventScr EventScr_LoadUnits_S2113[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2113_Victory = {
+const EventScr EventScr_S2113_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2113)
     EvtClearTalk
     EvtNoSkip
@@ -3813,7 +3813,7 @@ const EventScr EventScr_LoadUnits_S2114[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2114_Victory = {
+const EventScr EventScr_S2114_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -3842,7 +3842,7 @@ const EventScr EventScr_LoadUnits_S2115[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2115_Victory = {
+const EventScr EventScr_S2115_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2115)
     EvtClearTalk
     EvtSetBgm(S2115_MID_SCENARIO_ENDING_BGM)
@@ -3881,7 +3881,7 @@ const EventScr EventScr_LoadUnits_S2121[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2121_Victory = {
+const EventScr EventScr_S2121_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2121)
     EvtClearTalk
     EvtNoSkip
@@ -3908,7 +3908,7 @@ const EventScr EventScr_LoadUnits_S2122[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2122_Victory = {
+const EventScr EventScr_S2122_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -3933,7 +3933,7 @@ const EventScr EventScr_LoadUnits_S2123[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2123_Victory = {
+const EventScr EventScr_S2123_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2123)
     EvtClearTalk
     EvtSetBgm(S2123_MID_SCENARIO_ENDING_BGM)
@@ -3968,7 +3968,7 @@ const EventScr EventScr_LoadUnits_S2124[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2124_Victory = {
+const EventScr EventScr_S2124_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2124)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -4012,7 +4012,7 @@ const EventScr EventScr_LoadUnits_S2125RedUnits_Turn_1_1[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2125_Victory = {
+const EventScr EventScr_S2125_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2125)
     EvtClearTalk
     EvtSetBgm(S2125_MID_SCENARIO_ENDING_BGM)
@@ -4051,7 +4051,7 @@ const EventScr EventScr_LoadUnits_S2131[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2131_Victory = {
+const EventScr EventScr_S2131_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2131)
     EvtClearTalk
     EvtSetBgm(S2131_MID_SCENARIO_ENDING_BGM)
@@ -4086,7 +4086,7 @@ const EventScr EventScr_LoadUnits_S2132[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2132_Victory = {
+const EventScr EventScr_S2132_Victory[] = {
     EvtSetBgm(S2132_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -4119,7 +4119,7 @@ const EventScr EventScr_LoadUnits_S2133[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2133_Victory = {
+const EventScr EventScr_S2133_Victory[] = {
     EvtSetBgm(S2133_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -4156,7 +4156,7 @@ const EventScr EventScr_LoadUnits_S2134[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2134_Victory = {
+const EventScr EventScr_S2134_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2134)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -4202,7 +4202,7 @@ const EventScr EventScr_LoadUnits_S2135RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S2135_Victory = {
+const EventScr EventScr_S2135_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S2135)
     EvtClearTalk
     EvtSetBgm(S2135_MID_SCENARIO_ENDING_BGM)
@@ -4243,7 +4243,7 @@ const EventScr EventScr_LoadUnits_S3011[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3011_Victory = {
+const EventScr EventScr_S3011_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3011)
     EvtClearTalk
     EvtNoSkip
@@ -4268,7 +4268,7 @@ const EventScr EventScr_LoadUnits_S3012[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3012_Victory = {
+const EventScr EventScr_S3012_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -4293,7 +4293,7 @@ const EventScr EventScr_LoadUnits_S3013[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3013_Victory = {
+const EventScr EventScr_S3013_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3013)
     EvtClearTalk
     EvtNoSkip
@@ -4320,7 +4320,7 @@ const EventScr EventScr_LoadUnits_S3014[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3014_Victory = {
+const EventScr EventScr_S3014_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3014)
     EvtClearTalk
     EvtNoSkip
@@ -4350,7 +4350,7 @@ const EventScr EventScr_LoadUnits_S3015[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3015_Victory = {
+const EventScr EventScr_S3015_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3015)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -4387,7 +4387,7 @@ const EventScr EventScr_LoadUnits_S3021[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3021_Victory = {
+const EventScr EventScr_S3021_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3021)
     EvtClearTalk
     EvtSetBgm(S3021_MID_SCENARIO_ENDING_BGM)
@@ -4420,7 +4420,7 @@ const EventScr EventScr_LoadUnits_S3022[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3022_Victory = {
+const EventScr EventScr_S3022_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -4443,7 +4443,7 @@ const EventScr EventScr_LoadUnits_S3023[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3023_Victory = {
+const EventScr EventScr_S3023_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -4466,7 +4466,7 @@ const EventScr EventScr_LoadUnits_S3024[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3024_Victory = {
+const EventScr EventScr_S3024_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3024)
     EvtClearTalk
     EvtNoSkip
@@ -4514,7 +4514,7 @@ const EventScr EventScr_LoadUnits_S3025RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3025_Victory = {
+const EventScr EventScr_S3025_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3025)
     EvtClearTalk
     EvtSetBgm(S3025_MID_SCENARIO_ENDING_BGM)
@@ -4555,7 +4555,7 @@ const EventScr EventScr_LoadUnits_S3031[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3031_Victory = {
+const EventScr EventScr_S3031_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3031)
     EvtClearTalk
     EvtNoSkip
@@ -4582,7 +4582,7 @@ const EventScr EventScr_LoadUnits_S3032[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3032_Victory = {
+const EventScr EventScr_S3032_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -4607,7 +4607,7 @@ const EventScr EventScr_LoadUnits_S3033[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3033_Victory = {
+const EventScr EventScr_S3033_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -4632,7 +4632,7 @@ const EventScr EventScr_LoadUnits_S3034[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3034_Victory = {
+const EventScr EventScr_S3034_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -4661,7 +4661,7 @@ const EventScr EventScr_LoadUnits_S3035[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3035_Victory = {
+const EventScr EventScr_S3035_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3035)
     EvtClearTalk
     EvtSetBgm(S3035_MID_SCENARIO_ENDING_BGM)
@@ -4699,7 +4699,7 @@ const EventScr EventScr_LoadUnits_S3041[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3041_Victory = {
+const EventScr EventScr_S3041_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3041)
     EvtClearTalk
     EvtNoSkip
@@ -4726,7 +4726,7 @@ const EventScr EventScr_LoadUnits_S3042[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3042_Victory = {
+const EventScr EventScr_S3042_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -4751,7 +4751,7 @@ const EventScr EventScr_LoadUnits_S3043[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3043_Victory = {
+const EventScr EventScr_S3043_Victory[] = {
     EvtSetBgm(S3043_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -4784,7 +4784,7 @@ const EventScr EventScr_LoadUnits_S3044[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3044_Victory = {
+const EventScr EventScr_S3044_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3044)
     EvtClearTalk
     EvtNoSkip
@@ -4815,7 +4815,7 @@ const EventScr EventScr_LoadUnits_S3045[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3045_Victory = {
+const EventScr EventScr_S3045_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3045)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -4853,7 +4853,7 @@ const EventScr EventScr_LoadUnits_S3051[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3051_Victory = {
+const EventScr EventScr_S3051_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3051)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -4887,7 +4887,7 @@ const EventScr EventScr_LoadUnits_S3052[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3052_Victory = {
+const EventScr EventScr_S3052_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -4912,7 +4912,7 @@ const EventScr EventScr_LoadUnits_S3053[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3053_Victory = {
+const EventScr EventScr_S3053_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -4937,7 +4937,7 @@ const EventScr EventScr_LoadUnits_S3054[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3054_Victory = {
+const EventScr EventScr_S3054_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -4978,7 +4978,7 @@ const EventScr EventScr_LoadUnits_S3055RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3055_Victory = {
+const EventScr EventScr_S3055_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3055)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -5017,7 +5017,7 @@ const EventScr EventScr_LoadUnits_S3061[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3061_Victory = {
+const EventScr EventScr_S3061_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3061)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -5051,7 +5051,7 @@ const EventScr EventScr_LoadUnits_S3062[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3062_Victory = {
+const EventScr EventScr_S3062_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -5080,7 +5080,7 @@ const EventScr EventScr_LoadUnits_S3063[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3063_Victory = {
+const EventScr EventScr_S3063_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3063)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -5114,7 +5114,7 @@ const EventScr EventScr_LoadUnits_S3064[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3064_Victory = {
+const EventScr EventScr_S3064_Victory[] = {
     EvtSetBgm(S3064_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -5147,7 +5147,7 @@ const EventScr EventScr_LoadUnits_S3065[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3065_Victory = {
+const EventScr EventScr_S3065_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3065)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -5181,7 +5181,7 @@ const EventScr EventScr_LoadUnits_S3071[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3071_Victory = {
+const EventScr EventScr_S3071_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3071)
     EvtClearTalk
     EvtSetBgm(S3071_MID_SCENARIO_ENDING_BGM)
@@ -5216,7 +5216,7 @@ const EventScr EventScr_LoadUnits_S3072[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3072_Victory = {
+const EventScr EventScr_S3072_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -5241,7 +5241,7 @@ const EventScr EventScr_LoadUnits_S3073[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3073_Victory = {
+const EventScr EventScr_S3073_Victory[] = {
     EvtSetBgm(S3073_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -5274,7 +5274,7 @@ const EventScr EventScr_LoadUnits_S3074[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3074_Victory = {
+const EventScr EventScr_S3074_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -5303,7 +5303,7 @@ const EventScr EventScr_LoadUnits_S3075[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3075_Victory = {
+const EventScr EventScr_S3075_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3075)
     EvtClearTalk
     EvtNoSkip
@@ -5334,7 +5334,7 @@ const EventScr EventScr_LoadUnits_S3081[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3081_Victory = {
+const EventScr EventScr_S3081_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3081)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -5368,7 +5368,7 @@ const EventScr EventScr_LoadUnits_S3082[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3082_Victory = {
+const EventScr EventScr_S3082_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -5393,7 +5393,7 @@ const EventScr EventScr_LoadUnits_S3083[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3083_Victory = {
+const EventScr EventScr_S3083_Victory[] = {
     EvtSetBgm(S3083_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -5426,7 +5426,7 @@ const EventScr EventScr_LoadUnits_S3084[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3084_Victory = {
+const EventScr EventScr_S3084_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -5455,7 +5455,7 @@ const EventScr EventScr_LoadUnits_S3085[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3085_Victory = {
+const EventScr EventScr_S3085_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3085)
     EvtClearTalk
     EvtNoSkip
@@ -5485,7 +5485,7 @@ const EventScr EventScr_LoadUnits_S3091[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3091_Victory = {
+const EventScr EventScr_S3091_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3091)
     EvtClearTalk
     EvtNoSkip
@@ -5512,7 +5512,7 @@ const EventScr EventScr_LoadUnits_S3092[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3092_Victory = {
+const EventScr EventScr_S3092_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -5537,7 +5537,7 @@ const EventScr EventScr_LoadUnits_S3093[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3093_Victory = {
+const EventScr EventScr_S3093_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
@@ -5569,7 +5569,7 @@ const EventScr EventScr_LoadUnits_S3094[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3094_Victory = {
+const EventScr EventScr_S3094_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -5598,7 +5598,7 @@ const EventScr EventScr_LoadUnits_S3095[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3095_Victory = {
+const EventScr EventScr_S3095_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3095)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -5635,7 +5635,7 @@ const EventScr EventScr_LoadUnits_S3101[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3101_Victory = {
+const EventScr EventScr_S3101_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3101)
     EvtClearTalk
     EvtNoSkip
@@ -5662,7 +5662,7 @@ const EventScr EventScr_LoadUnits_S3102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3102_Victory = {
+const EventScr EventScr_S3102_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -5687,7 +5687,7 @@ const EventScr EventScr_LoadUnits_S3103[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3103_Victory = {
+const EventScr EventScr_S3103_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -5712,7 +5712,7 @@ const EventScr EventScr_LoadUnits_S3104[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3104_Victory = {
+const EventScr EventScr_S3104_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -5746,7 +5746,7 @@ const EventScr EventScr_LoadUnits_S3105RedUnits_Turn_2_2[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3105_Victory = {
+const EventScr EventScr_S3105_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3105)
     EvtClearTalk
     EvtNoSkip
@@ -5777,7 +5777,7 @@ const EventScr EventScr_LoadUnits_S3111[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3111_Victory = {
+const EventScr EventScr_S3111_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3111)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -5811,7 +5811,7 @@ const EventScr EventScr_LoadUnits_S3112[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3112_Victory = {
+const EventScr EventScr_S3112_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -5836,7 +5836,7 @@ const EventScr EventScr_LoadUnits_S3113[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3113_Victory = {
+const EventScr EventScr_S3113_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
@@ -5868,7 +5868,7 @@ const EventScr EventScr_LoadUnits_S3114[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3114_Victory = {
+const EventScr EventScr_S3114_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -5896,7 +5896,7 @@ const EventScr EventScr_LoadUnits_S3115[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3115_Victory = {
+const EventScr EventScr_S3115_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3115)
     EvtClearTalk
     EvtSetBgm(S3115_MID_SCENARIO_ENDING_BGM)
@@ -5934,7 +5934,7 @@ const EventScr EventScr_LoadUnits_S3121[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3121_Victory = {
+const EventScr EventScr_S3121_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3121)
     EvtClearTalk
     EvtSetBgm(S3121_MID_SCENARIO_ENDING_BGM)
@@ -5969,7 +5969,7 @@ const EventScr EventScr_LoadUnits_S3122[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3122_Victory = {
+const EventScr EventScr_S3122_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -5994,7 +5994,7 @@ const EventScr EventScr_LoadUnits_S3123[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3123_Victory = {
+const EventScr EventScr_S3123_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -6019,7 +6019,7 @@ const EventScr EventScr_LoadUnits_S3124[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3124_Victory = {
+const EventScr EventScr_S3124_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -6050,7 +6050,7 @@ const EventScr EventScr_LoadUnits_S3125RedUnits_Turn_2_2[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3125_Victory = {
+const EventScr EventScr_S3125_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3125)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -6088,7 +6088,7 @@ const EventScr EventScr_LoadUnits_S3131[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3131_Victory = {
+const EventScr EventScr_S3131_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3131)
     EvtClearTalk
     EvtNoSkip
@@ -6115,7 +6115,7 @@ const EventScr EventScr_LoadUnits_S3132[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3132_Victory = {
+const EventScr EventScr_S3132_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3132)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -6149,7 +6149,7 @@ const EventScr EventScr_LoadUnits_S3133[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3133_Victory = {
+const EventScr EventScr_S3133_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3133)
     EvtClearTalk
     EvtSetBgm(S3133_MID_SCENARIO_ENDING_BGM)
@@ -6188,7 +6188,7 @@ const EventScr EventScr_LoadUnits_S3134[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3134_Victory = {
+const EventScr EventScr_S3134_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3134)
     EvtClearTalk
     EvtNoSkip
@@ -6227,7 +6227,7 @@ const EventScr EventScr_LoadUnits_S3135RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S3135_Victory = {
+const EventScr EventScr_S3135_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S3135)
     EvtClearTalk
     EvtSetBgm(S3135_MID_SCENARIO_ENDING_BGM)
@@ -6268,7 +6268,7 @@ const EventScr EventScr_LoadUnits_S4011[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4011_Victory = {
+const EventScr EventScr_S4011_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4011)
     EvtClearTalk
     EvtNoSkip
@@ -6293,7 +6293,7 @@ const EventScr EventScr_LoadUnits_S4012[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4012_Victory = {
+const EventScr EventScr_S4012_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -6316,7 +6316,7 @@ const EventScr EventScr_LoadUnits_S4013[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4013_Victory = {
+const EventScr EventScr_S4013_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -6339,7 +6339,7 @@ const EventScr EventScr_LoadUnits_S4014[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4014_Victory = {
+const EventScr EventScr_S4014_Victory[] = {
     EvtSetBgm(S4014_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -6376,7 +6376,7 @@ const EventScr EventScr_LoadUnits_S4015[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4015_Victory = {
+const EventScr EventScr_S4015_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
@@ -6411,7 +6411,7 @@ const EventScr EventScr_LoadUnits_S4021[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4021_Victory = {
+const EventScr EventScr_S4021_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
@@ -6443,7 +6443,7 @@ const EventScr EventScr_LoadUnits_S4022[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4022_Victory = {
+const EventScr EventScr_S4022_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -6468,7 +6468,7 @@ const EventScr EventScr_LoadUnits_S4023[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4023_Victory = {
+const EventScr EventScr_S4023_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
@@ -6500,7 +6500,7 @@ const EventScr EventScr_LoadUnits_S4024[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4024_Victory = {
+const EventScr EventScr_S4024_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -6525,7 +6525,7 @@ const EventScr EventScr_LoadUnits_S4025[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4025_Victory = {
+const EventScr EventScr_S4025_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4025)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -6562,7 +6562,7 @@ const EventScr EventScr_LoadUnits_S4031[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4031_Victory = {
+const EventScr EventScr_S4031_Victory[] = {
     EvtSetBgm(S4031_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -6595,7 +6595,7 @@ const EventScr EventScr_LoadUnits_S4032[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4032_Victory = {
+const EventScr EventScr_S4032_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -6620,7 +6620,7 @@ const EventScr EventScr_LoadUnits_S4033[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4033_Victory = {
+const EventScr EventScr_S4033_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
@@ -6652,7 +6652,7 @@ const EventScr EventScr_LoadUnits_S4034[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4034_Victory = {
+const EventScr EventScr_S4034_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
@@ -6684,7 +6684,7 @@ const EventScr EventScr_LoadUnits_S4035[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4035_Victory = {
+const EventScr EventScr_S4035_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4035)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -6721,7 +6721,7 @@ const EventScr EventScr_LoadUnits_S4041[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4041_Victory = {
+const EventScr EventScr_S4041_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4041)
     EvtClearTalk
     EvtNoSkip
@@ -6748,7 +6748,7 @@ const EventScr EventScr_LoadUnits_S4042[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4042_Victory = {
+const EventScr EventScr_S4042_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
@@ -6780,7 +6780,7 @@ const EventScr EventScr_LoadUnits_S4043[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4043_Victory = {
+const EventScr EventScr_S4043_Victory[] = {
     EvtSetBgm(S4043_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -6813,7 +6813,7 @@ const EventScr EventScr_LoadUnits_S4044[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4044_Victory = {
+const EventScr EventScr_S4044_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Alfheim)
@@ -6845,7 +6845,7 @@ const EventScr EventScr_LoadUnits_S4045[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4045_Victory = {
+const EventScr EventScr_S4045_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4045)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -6883,7 +6883,7 @@ const EventScr EventScr_LoadUnits_S4051[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4051_Victory = {
+const EventScr EventScr_S4051_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4051)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -6917,7 +6917,7 @@ const EventScr EventScr_LoadUnits_S4052[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4052_Victory = {
+const EventScr EventScr_S4052_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
@@ -6949,7 +6949,7 @@ const EventScr EventScr_LoadUnits_S4053[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4053_Victory = {
+const EventScr EventScr_S4053_Victory[] = {
     EvtSetBgm(S4053_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -6982,7 +6982,7 @@ const EventScr EventScr_LoadUnits_S4054[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4054_Victory = {
+const EventScr EventScr_S4054_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -7007,7 +7007,7 @@ const EventScr EventScr_LoadUnits_S4055[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4055_Victory = {
+const EventScr EventScr_S4055_Victory[] = {
     EvtSetBgm(S4055_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7044,7 +7044,7 @@ const EventScr EventScr_LoadUnits_S4061[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4061_Victory = {
+const EventScr EventScr_S4061_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4061)
     EvtClearTalk
     EvtSetBgm(S4061_MID_SCENARIO_ENDING_BGM)
@@ -7079,7 +7079,7 @@ const EventScr EventScr_LoadUnits_S4062[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4062_Victory = {
+const EventScr EventScr_S4062_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -7104,7 +7104,7 @@ const EventScr EventScr_LoadUnits_S4063[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4063_Victory = {
+const EventScr EventScr_S4063_Victory[] = {
     EvtSetBgm(S4063_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7137,7 +7137,7 @@ const EventScr EventScr_LoadUnits_S4064[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4064_Victory = {
+const EventScr EventScr_S4064_Victory[] = {
     EvtSetBgm(S4064_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7174,7 +7174,7 @@ const EventScr EventScr_LoadUnits_S4065[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4065_Victory = {
+const EventScr EventScr_S4065_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4065)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -7212,7 +7212,7 @@ const EventScr EventScr_LoadUnits_S4071[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4071_Victory = {
+const EventScr EventScr_S4071_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4071)
     EvtClearTalk
     EvtSetBgm(S4071_MID_SCENARIO_ENDING_BGM)
@@ -7247,7 +7247,7 @@ const EventScr EventScr_LoadUnits_S4072[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4072_Victory = {
+const EventScr EventScr_S4072_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -7272,7 +7272,7 @@ const EventScr EventScr_LoadUnits_S4073[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4073_Victory = {
+const EventScr EventScr_S4073_Victory[] = {
     EvtSetBgm(S4073_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7305,7 +7305,7 @@ const EventScr EventScr_LoadUnits_S4074[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4074_Victory = {
+const EventScr EventScr_S4074_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -7333,7 +7333,7 @@ const EventScr EventScr_LoadUnits_S4075[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4075_Victory = {
+const EventScr EventScr_S4075_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4075)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -7371,7 +7371,7 @@ const EventScr EventScr_LoadUnits_S4081[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4081_Victory = {
+const EventScr EventScr_S4081_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4081)
     EvtClearTalk
     EvtSetBgm(S4081_MID_SCENARIO_ENDING_BGM)
@@ -7406,7 +7406,7 @@ const EventScr EventScr_LoadUnits_S4082[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4082_Victory = {
+const EventScr EventScr_S4082_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -7431,7 +7431,7 @@ const EventScr EventScr_LoadUnits_S4083[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4083_Victory = {
+const EventScr EventScr_S4083_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_Svartalf)
@@ -7463,7 +7463,7 @@ const EventScr EventScr_LoadUnits_S4084[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4084_Victory = {
+const EventScr EventScr_S4084_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -7488,7 +7488,7 @@ const EventScr EventScr_LoadUnits_S4085[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4085_Victory = {
+const EventScr EventScr_S4085_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4085)
     EvtClearTalk
     EvtSetBgm(S4085_MID_SCENARIO_ENDING_BGM)
@@ -7526,7 +7526,7 @@ const EventScr EventScr_LoadUnits_S4091[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4091_Victory = {
+const EventScr EventScr_S4091_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4091)
     EvtClearTalk
     EvtSetBgm(S4091_MID_SCENARIO_ENDING_BGM)
@@ -7561,7 +7561,7 @@ const EventScr EventScr_LoadUnits_S4092[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4092_Victory = {
+const EventScr EventScr_S4092_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -7586,7 +7586,7 @@ const EventScr EventScr_LoadUnits_S4093[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4093_Victory = {
+const EventScr EventScr_S4093_Victory[] = {
     EvtSetBgm(S4093_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7619,7 +7619,7 @@ const EventScr EventScr_LoadUnits_S4094[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4094_Victory = {
+const EventScr EventScr_S4094_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4094)
     EvtClearTalk
     EvtSetBgm(S4094_MID_SCENARIO_ENDING_BGM)
@@ -7682,7 +7682,7 @@ const EventScr EventScr_LoadUnits_S4095RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4095_Victory = {
+const EventScr EventScr_S4095_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4095)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -7724,7 +7724,7 @@ const EventScr EventScr_LoadUnits_S4101[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4101_Victory = {
+const EventScr EventScr_S4101_Victory[] = {
     EvtSetBgm(S4101_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7757,7 +7757,7 @@ const EventScr EventScr_LoadUnits_S4102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4102_Victory = {
+const EventScr EventScr_S4102_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -7782,7 +7782,7 @@ const EventScr EventScr_LoadUnits_S4103[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4103_Victory = {
+const EventScr EventScr_S4103_Victory[] = {
     EvtSetBgm(S4103_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7815,7 +7815,7 @@ const EventScr EventScr_LoadUnits_S4104[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4104_Victory = {
+const EventScr EventScr_S4104_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -7843,7 +7843,7 @@ const EventScr EventScr_LoadUnits_S4105[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4105_Victory = {
+const EventScr EventScr_S4105_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4105)
     EvtClearTalk
     EvtSetBgm(S4105_MID_SCENARIO_ENDING_BGM)
@@ -7882,7 +7882,7 @@ const EventScr EventScr_LoadUnits_S4111[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4111_Victory = {
+const EventScr EventScr_S4111_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4111)
     EvtClearTalk
     EvtSetBgm(S4111_MID_SCENARIO_ENDING_BGM)
@@ -7917,7 +7917,7 @@ const EventScr EventScr_LoadUnits_S4112[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4112_Victory = {
+const EventScr EventScr_S4112_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4112)
     EvtClearTalk
     EvtSetBgm(S4112_MID_SCENARIO_ENDING_BGM)
@@ -7952,7 +7952,7 @@ const EventScr EventScr_LoadUnits_S4113[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4113_Victory = {
+const EventScr EventScr_S4113_Victory[] = {
     EvtSetBgm(S4113_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -7985,7 +7985,7 @@ const EventScr EventScr_LoadUnits_S4114[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4114_Victory = {
+const EventScr EventScr_S4114_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4114)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -8019,7 +8019,7 @@ const EventScr EventScr_LoadUnits_S4115[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4115_Victory = {
+const EventScr EventScr_S4115_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4115)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -8057,7 +8057,7 @@ const EventScr EventScr_LoadUnits_S4121[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4121_Victory = {
+const EventScr EventScr_S4121_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4121)
     EvtClearTalk
     EvtNoSkip
@@ -8084,7 +8084,7 @@ const EventScr EventScr_LoadUnits_S4122[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4122_Victory = {
+const EventScr EventScr_S4122_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -8109,7 +8109,7 @@ const EventScr EventScr_LoadUnits_S4123[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4123_Victory = {
+const EventScr EventScr_S4123_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_005_Castle)
@@ -8141,7 +8141,7 @@ const EventScr EventScr_LoadUnits_S4124[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4124_Victory = {
+const EventScr EventScr_S4124_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4124)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -8178,7 +8178,7 @@ const EventScr EventScr_LoadUnits_S4125[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4125_Victory = {
+const EventScr EventScr_S4125_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4125)
     EvtClearTalk
     EvtSetBgm(S4125_MID_SCENARIO_ENDING_BGM)
@@ -8216,7 +8216,7 @@ const EventScr EventScr_LoadUnits_S4131[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4131_Victory = {
+const EventScr EventScr_S4131_Victory[] = {
     EvtSetBgm(S4131_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -8249,7 +8249,7 @@ const EventScr EventScr_LoadUnits_S4132[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4132_Victory = {
+const EventScr EventScr_S4132_Victory[] = {
     EvtSetBgm(S4132_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -8285,7 +8285,7 @@ const EventScr EventScr_LoadUnits_S4133[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4133_Victory = {
+const EventScr EventScr_S4133_Victory[] = {
     EvtSetBgm(S4133_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -8334,7 +8334,7 @@ const EventScr EventScr_LoadUnits_S4134RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4134_Victory = {
+const EventScr EventScr_S4134_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4134)
     EvtClearTalk
     EvtSetBgm(S4134_MID_SCENARIO_ENDING_BGM)
@@ -8375,7 +8375,7 @@ const EventScr EventScr_LoadUnits_S4135[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S4135_Victory = {
+const EventScr EventScr_S4135_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S4135)
     EvtClearTalk
     EvtSetBgm(S4135_MID_SCENARIO_ENDING_BGM)
@@ -8414,7 +8414,7 @@ const EventScr EventScr_LoadUnits_S5011[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5011_Victory = {
+const EventScr EventScr_S5011_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5011)
     EvtClearTalk
     EvtSetBgm(S5011_MID_SCENARIO_ENDING_BGM)
@@ -8450,7 +8450,7 @@ const EventScr EventScr_LoadUnits_S5012[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5012_Victory = {
+const EventScr EventScr_S5012_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -8476,7 +8476,7 @@ const EventScr EventScr_LoadUnits_S5013[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5013_Victory = {
+const EventScr EventScr_S5013_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -8499,7 +8499,7 @@ const EventScr EventScr_LoadUnits_S5014[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5014_Victory = {
+const EventScr EventScr_S5014_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -8524,7 +8524,7 @@ const EventScr EventScr_LoadUnits_S5015[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5015_Victory = {
+const EventScr EventScr_S5015_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5015)
     EvtClearTalk
     EvtSetBgm(S5015_MID_SCENARIO_ENDING_BGM)
@@ -8563,7 +8563,7 @@ const EventScr EventScr_LoadUnits_S5021[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5021_Victory = {
+const EventScr EventScr_S5021_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5021)
     EvtClearTalk
     EvtNoSkip
@@ -8590,7 +8590,7 @@ const EventScr EventScr_LoadUnits_S5022[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5022_Victory = {
+const EventScr EventScr_S5022_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -8615,7 +8615,7 @@ const EventScr EventScr_LoadUnits_S5023[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5023_Victory = {
+const EventScr EventScr_S5023_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -8640,7 +8640,7 @@ const EventScr EventScr_LoadUnits_S5024[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5024_Victory = {
+const EventScr EventScr_S5024_Victory[] = {
     EvtSetBgm(S5024_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -8676,7 +8676,7 @@ const EventScr EventScr_LoadUnits_S5025[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5025_Victory = {
+const EventScr EventScr_S5025_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5025)
     EvtClearTalk
     EvtSetBgm(S5025_MID_SCENARIO_ENDING_BGM)
@@ -8715,7 +8715,7 @@ const EventScr EventScr_LoadUnits_S5031[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5031_Victory = {
+const EventScr EventScr_S5031_Victory[] = {
     EvtSetBgm(S5031_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -8748,7 +8748,7 @@ const EventScr EventScr_LoadUnits_S5032[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5032_Victory = {
+const EventScr EventScr_S5032_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -8773,7 +8773,7 @@ const EventScr EventScr_LoadUnits_S5033[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5033_Victory = {
+const EventScr EventScr_S5033_Victory[] = {
     EvtSetBgm(S5033_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -8806,7 +8806,7 @@ const EventScr EventScr_LoadUnits_S5034[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5034_Victory = {
+const EventScr EventScr_S5034_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -8852,7 +8852,7 @@ const EventScr EventScr_LoadUnits_S5035RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5035_Victory = {
+const EventScr EventScr_S5035_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5035)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -8894,7 +8894,7 @@ const EventScr EventScr_LoadUnits_S5041[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5041_Victory = {
+const EventScr EventScr_S5041_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 1)
     EvtSleep(64)
@@ -8919,7 +8919,7 @@ const EventScr EventScr_LoadUnits_S5042[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5042_Victory = {
+const EventScr EventScr_S5042_Victory[] = {
     EvtSetBgm(S5042_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -8952,7 +8952,7 @@ const EventScr EventScr_LoadUnits_S5043[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5043_Victory = {
+const EventScr EventScr_S5043_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -8981,7 +8981,7 @@ const EventScr EventScr_LoadUnits_S5044[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5044_Victory = {
+const EventScr EventScr_S5044_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5044)
     EvtClearTalk
     EvtNoSkip
@@ -9008,7 +9008,7 @@ const EventScr EventScr_LoadUnits_S5045[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5045_Victory = {
+const EventScr EventScr_S5045_Victory[] = {
     EvtSetBgm(S5045_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -9045,7 +9045,7 @@ const EventScr EventScr_LoadUnits_S5051[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5051_Victory = {
+const EventScr EventScr_S5051_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 1)
     EvtSleep(64)
@@ -9070,7 +9070,7 @@ const EventScr EventScr_LoadUnits_S5052[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5052_Victory = {
+const EventScr EventScr_S5052_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5052)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -9108,7 +9108,7 @@ const EventScr EventScr_LoadUnits_S5053[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5053_Victory = {
+const EventScr EventScr_S5053_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -9133,7 +9133,7 @@ const EventScr EventScr_LoadUnits_S5054[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5054_Victory = {
+const EventScr EventScr_S5054_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -9161,7 +9161,7 @@ const EventScr EventScr_LoadUnits_S5055[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5055_Victory = {
+const EventScr EventScr_S5055_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5055)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -9199,7 +9199,7 @@ const EventScr EventScr_LoadUnits_S5061[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5061_Victory = {
+const EventScr EventScr_S5061_Victory[] = {
     EvtSetBgm(S5061_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -9236,7 +9236,7 @@ const EventScr EventScr_LoadUnits_S5062[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5062_Victory = {
+const EventScr EventScr_S5062_Victory[] = {
     EvtSetBgm(S5062_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -9269,7 +9269,7 @@ const EventScr EventScr_LoadUnits_S5063[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5063_Victory = {
+const EventScr EventScr_S5063_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5063)
     EvtClearTalk
     EvtNoSkip
@@ -9296,7 +9296,7 @@ const EventScr EventScr_LoadUnits_S5064[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5064_Victory = {
+const EventScr EventScr_S5064_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -9324,7 +9324,7 @@ const EventScr EventScr_LoadUnits_S5065[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5065_Victory = {
+const EventScr EventScr_S5065_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5065)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -9361,7 +9361,7 @@ const EventScr EventScr_LoadUnits_S5071[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5071_Victory = {
+const EventScr EventScr_S5071_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 1)
     EvtSleep(64)
@@ -9390,7 +9390,7 @@ const EventScr EventScr_LoadUnits_S5072[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5072_Victory = {
+const EventScr EventScr_S5072_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -9419,7 +9419,7 @@ const EventScr EventScr_LoadUnits_S5073[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5073_Victory = {
+const EventScr EventScr_S5073_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5073)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -9457,7 +9457,7 @@ const EventScr EventScr_LoadUnits_S5074[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5074_Victory = {
+const EventScr EventScr_S5074_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -9497,7 +9497,7 @@ const EventScr EventScr_LoadUnits_S5075RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5075_Victory = {
+const EventScr EventScr_S5075_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5075)
     EvtClearTalk
     EvtNoSkip
@@ -9530,7 +9530,7 @@ const EventScr EventScr_LoadUnits_S5081[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5081_Victory = {
+const EventScr EventScr_S5081_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5081)
     EvtClearTalk
     EvtNoSkip
@@ -9560,7 +9560,7 @@ const EventScr EventScr_LoadUnits_S5082[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5082_Victory = {
+const EventScr EventScr_S5082_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -9585,7 +9585,7 @@ const EventScr EventScr_LoadUnits_S5083[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5083_Victory = {
+const EventScr EventScr_S5083_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -9610,7 +9610,7 @@ const EventScr EventScr_LoadUnits_S5084[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5084_Victory = {
+const EventScr EventScr_S5084_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5084)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -9647,7 +9647,7 @@ const EventScr EventScr_LoadUnits_S5085[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5085_Victory = {
+const EventScr EventScr_S5085_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_UndergroundPrison_Brave)
@@ -9682,7 +9682,7 @@ const EventScr EventScr_LoadUnits_S5091[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5091_Victory = {
+const EventScr EventScr_S5091_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5091)
     EvtClearTalk
     EvtSetBgm(S5091_MID_SCENARIO_ENDING_BGM)
@@ -9717,7 +9717,7 @@ const EventScr EventScr_LoadUnits_S5092[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5092_Victory = {
+const EventScr EventScr_S5092_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -9742,7 +9742,7 @@ const EventScr EventScr_LoadUnits_S5093[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5093_Victory = {
+const EventScr EventScr_S5093_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5093)
     EvtClearTalk
     EvtSetBgm(S5093_MID_SCENARIO_ENDING_BGM)
@@ -9781,7 +9781,7 @@ const EventScr EventScr_LoadUnits_S5094[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5094_Victory = {
+const EventScr EventScr_S5094_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5094)
     EvtClearTalk
     EvtNoSkip
@@ -9820,7 +9820,7 @@ const EventScr EventScr_LoadUnits_S5095RedUnits_Turn_2_2[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5095_Victory = {
+const EventScr EventScr_S5095_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5095)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -9859,7 +9859,7 @@ const EventScr EventScr_LoadUnits_S5101[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5101_Victory = {
+const EventScr EventScr_S5101_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 1)
     EvtSleep(64)
@@ -9888,7 +9888,7 @@ const EventScr EventScr_LoadUnits_S5102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5102_Victory = {
+const EventScr EventScr_S5102_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5102)
     EvtClearTalk
     EvtNoSkip
@@ -9915,7 +9915,7 @@ const EventScr EventScr_LoadUnits_S5103[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5103_Victory = {
+const EventScr EventScr_S5103_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -9940,7 +9940,7 @@ const EventScr EventScr_LoadUnits_S5104[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5104_Victory = {
+const EventScr EventScr_S5104_Victory[] = {
     EvtSetBgm(S5104_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -9973,7 +9973,7 @@ const EventScr EventScr_LoadUnits_S5105[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5105_Victory = {
+const EventScr EventScr_S5105_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5105)
     EvtClearTalk
     EvtSetBgm(S5105_MID_SCENARIO_ENDING_BGM)
@@ -10012,7 +10012,7 @@ const EventScr EventScr_LoadUnits_S5111[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5111_Victory = {
+const EventScr EventScr_S5111_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5111)
     EvtClearTalk
     EvtNoSkip
@@ -10040,7 +10040,7 @@ const EventScr EventScr_LoadUnits_S5112[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5112_Victory = {
+const EventScr EventScr_S5112_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5112)
     EvtClearTalk
     EvtNoSkip
@@ -10067,7 +10067,7 @@ const EventScr EventScr_LoadUnits_S5113[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5113_Victory = {
+const EventScr EventScr_S5113_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -10092,7 +10092,7 @@ const EventScr EventScr_LoadUnits_S5114[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5114_Victory = {
+const EventScr EventScr_S5114_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -10120,7 +10120,7 @@ const EventScr EventScr_LoadUnits_S5115[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5115_Victory = {
+const EventScr EventScr_S5115_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5115)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -10158,7 +10158,7 @@ const EventScr EventScr_LoadUnits_S5121[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5121_Victory = {
+const EventScr EventScr_S5121_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 1)
     EvtSleep(64)
@@ -10183,7 +10183,7 @@ const EventScr EventScr_LoadUnits_S5122[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5122_Victory = {
+const EventScr EventScr_S5122_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -10209,7 +10209,7 @@ const EventScr EventScr_LoadUnits_S5123[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5123_Victory = {
+const EventScr EventScr_S5123_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5123)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -10243,7 +10243,7 @@ const EventScr EventScr_LoadUnits_S5124[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5124_Victory = {
+const EventScr EventScr_S5124_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -10274,7 +10274,7 @@ const EventScr EventScr_LoadUnits_S5125RedUnits_Turn_2_2[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5125_Victory = {
+const EventScr EventScr_S5125_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5125)
     EvtClearTalk
     EvtSetBgm(S5125_MID_SCENARIO_ENDING_BGM)
@@ -10314,7 +10314,7 @@ const EventScr EventScr_LoadUnits_S5131[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5131_Victory = {
+const EventScr EventScr_S5131_Victory[] = {
     EvtSetBgm(S5131_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -10359,7 +10359,7 @@ const EventScr EventScr_LoadUnits_S5132RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5132_Victory = {
+const EventScr EventScr_S5132_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5132)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -10396,7 +10396,7 @@ const EventScr EventScr_LoadUnits_S5133[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5133_Victory = {
+const EventScr EventScr_S5133_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -10425,7 +10425,7 @@ const EventScr EventScr_LoadUnits_S5134[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5134_Victory = {
+const EventScr EventScr_S5134_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5134)
     EvtClearTalk
     EvtNoSkip
@@ -10459,7 +10459,7 @@ const EventScr EventScr_LoadUnits_S5135RedUnits_Turn_2_2[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S5135_Victory = {
+const EventScr EventScr_S5135_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5135)
     EvtClearTalk
     EvtSetBgm(S5135_MID_SCENARIO_ENDING_BGM)
@@ -10499,7 +10499,7 @@ const EventScr EventScr_LoadUnits_S6011[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6011_Victory = {
+const EventScr EventScr_S6011_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6011)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -10533,7 +10533,7 @@ const EventScr EventScr_LoadUnits_S6012[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6012_Victory = {
+const EventScr EventScr_S6012_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -10558,7 +10558,7 @@ const EventScr EventScr_LoadUnits_S6013[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6013_Victory = {
+const EventScr EventScr_S6013_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_002_PlainForestInside)
@@ -10593,7 +10593,7 @@ const EventScr EventScr_LoadUnits_S6014[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6014_Victory = {
+const EventScr EventScr_S6014_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -10621,7 +10621,7 @@ const EventScr EventScr_LoadUnits_S6015[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6015_Victory = {
+const EventScr EventScr_S6015_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6015)
     EvtClearTalk
     EvtSetBgm(S6015_MID_SCENARIO_ENDING_BGM)
@@ -10659,7 +10659,7 @@ const EventScr EventScr_LoadUnits_S6021[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6021_Victory = {
+const EventScr EventScr_S6021_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 1)
     EvtSleep(64)
@@ -10684,7 +10684,7 @@ const EventScr EventScr_LoadUnits_S6022[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6022_Victory = {
+const EventScr EventScr_S6022_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -10709,7 +10709,7 @@ const EventScr EventScr_LoadUnits_S6023[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6023_Victory = {
+const EventScr EventScr_S6023_Victory[] = {
     EvtSetBgm(S6023_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -10742,7 +10742,7 @@ const EventScr EventScr_LoadUnits_S6024[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6024_Victory = {
+const EventScr EventScr_S6024_Victory[] = {
     EvtSetBgm(S6024_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -10778,7 +10778,7 @@ const EventScr EventScr_LoadUnits_S6025[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6025_Victory = {
+const EventScr EventScr_S6025_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6025)
     EvtClearTalk
     EvtSetBgm(S6025_MID_SCENARIO_ENDING_BGM)
@@ -10816,7 +10816,7 @@ const EventScr EventScr_LoadUnits_S6031[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6031_Victory = {
+const EventScr EventScr_S6031_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6031)
     EvtClearTalk
     EvtSetBgm(S6031_MID_SCENARIO_ENDING_BGM)
@@ -10852,7 +10852,7 @@ const EventScr EventScr_LoadUnits_S6032[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6032_Victory = {
+const EventScr EventScr_S6032_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -10877,7 +10877,7 @@ const EventScr EventScr_LoadUnits_S6033[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6033_Victory = {
+const EventScr EventScr_S6033_Victory[] = {
     EvtSetBgm(S6033_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -10910,7 +10910,7 @@ const EventScr EventScr_LoadUnits_S6034[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6034_Victory = {
+const EventScr EventScr_S6034_Victory[] = {
     EvtSetBgm(S6034_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -10949,7 +10949,7 @@ const EventScr EventScr_LoadUnits_S6035RedUnits_Turn_2_2[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6035_Victory = {
+const EventScr EventScr_S6035_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6035)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -10989,7 +10989,7 @@ const EventScr EventScr_LoadUnits_S6041[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6041_Victory = {
+const EventScr EventScr_S6041_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6041)
     EvtClearTalk
     EvtSetBgm(S6041_MID_SCENARIO_ENDING_BGM)
@@ -11024,7 +11024,7 @@ const EventScr EventScr_LoadUnits_S6042[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6042_Victory = {
+const EventScr EventScr_S6042_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -11053,7 +11053,7 @@ const EventScr EventScr_LoadUnits_S6043[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6043_Victory = {
+const EventScr EventScr_S6043_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6043)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -11087,7 +11087,7 @@ const EventScr EventScr_LoadUnits_S6044[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6044_Victory = {
+const EventScr EventScr_S6044_Victory[] = {
     EvtSetBgm(S6044_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11120,7 +11120,7 @@ const EventScr EventScr_LoadUnits_S6045[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6045_Victory = {
+const EventScr EventScr_S6045_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6045)
     EvtClearTalk
     EvtSetBgm(S6045_MID_SCENARIO_ENDING_BGM)
@@ -11159,7 +11159,7 @@ const EventScr EventScr_LoadUnits_S6051[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6051_Victory = {
+const EventScr EventScr_S6051_Victory[] = {
     EvtSetBgm(S6051_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11196,7 +11196,7 @@ const EventScr EventScr_LoadUnits_S6052[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6052_Victory = {
+const EventScr EventScr_S6052_Victory[] = {
     EvtSetBgm(S6052_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11229,7 +11229,7 @@ const EventScr EventScr_LoadUnits_S6053[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6053_Victory = {
+const EventScr EventScr_S6053_Victory[] = {
     EvtSetBgm(S6053_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11262,7 +11262,7 @@ const EventScr EventScr_LoadUnits_S6054[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6054_Victory = {
+const EventScr EventScr_S6054_Victory[] = {
     EvtSetBgm(S6054_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11295,7 +11295,7 @@ const EventScr EventScr_LoadUnits_S6055[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6055_Victory = {
+const EventScr EventScr_S6055_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6055)
     EvtClearTalk
     EvtSetBgm(S6055_MID_SCENARIO_ENDING_BGM)
@@ -11334,7 +11334,7 @@ const EventScr EventScr_LoadUnits_S6061[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6061_Victory = {
+const EventScr EventScr_S6061_Victory[] = {
     EvtSetBgm(S6061_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11367,7 +11367,7 @@ const EventScr EventScr_LoadUnits_S6062[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6062_Victory = {
+const EventScr EventScr_S6062_Victory[] = {
     EvtSetBgm(S6062_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11400,7 +11400,7 @@ const EventScr EventScr_LoadUnits_S6063[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6063_Victory = {
+const EventScr EventScr_S6063_Victory[] = {
     EvtSetBgm(S6063_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11433,7 +11433,7 @@ const EventScr EventScr_LoadUnits_S6064[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6064_Victory = {
+const EventScr EventScr_S6064_Victory[] = {
     EvtSetBgm(S6064_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11466,7 +11466,7 @@ const EventScr EventScr_LoadUnits_S6065[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6065_Victory = {
+const EventScr EventScr_S6065_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6065)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -11504,7 +11504,7 @@ const EventScr EventScr_LoadUnits_S6071[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6071_Victory = {
+const EventScr EventScr_S6071_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6071)
     EvtClearTalk
     EvtSetBgm(S6071_MID_SCENARIO_ENDING_BGM)
@@ -11539,7 +11539,7 @@ const EventScr EventScr_LoadUnits_S6072[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6072_Victory = {
+const EventScr EventScr_S6072_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -11564,7 +11564,7 @@ const EventScr EventScr_LoadUnits_S6073[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6073_Victory = {
+const EventScr EventScr_S6073_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -11589,7 +11589,7 @@ const EventScr EventScr_LoadUnits_S6074[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6074_Victory = {
+const EventScr EventScr_S6074_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6074)
     EvtClearTalk
     EvtSetBgm(S6074_MID_SCENARIO_ENDING_BGM)
@@ -11624,7 +11624,7 @@ const EventScr EventScr_LoadUnits_S6075[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6075_Victory = {
+const EventScr EventScr_S6075_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6075)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -11661,7 +11661,7 @@ const EventScr EventScr_LoadUnits_S6081[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6081_Victory = {
+const EventScr EventScr_S6081_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6081)
     EvtClearTalk
     EvtSetBgm(S6081_MID_SCENARIO_ENDING_BGM)
@@ -11696,7 +11696,7 @@ const EventScr EventScr_LoadUnits_S6082[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6082_Victory = {
+const EventScr EventScr_S6082_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -11721,7 +11721,7 @@ const EventScr EventScr_LoadUnits_S6083[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6083_Victory = {
+const EventScr EventScr_S6083_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -11746,7 +11746,7 @@ const EventScr EventScr_LoadUnits_S6084[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6084_Victory = {
+const EventScr EventScr_S6084_Victory[] = {
     EvtSetBgm(S6084_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11779,7 +11779,7 @@ const EventScr EventScr_LoadUnits_S6085[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6085_Victory = {
+const EventScr EventScr_S6085_Victory[] = {
     EvtSetBgm(S6085_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11815,7 +11815,7 @@ const EventScr EventScr_LoadUnits_S6091[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6091_Victory = {
+const EventScr EventScr_S6091_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6091)
     EvtClearTalk
     EvtSetBgm(S6091_MID_SCENARIO_ENDING_BGM)
@@ -11850,7 +11850,7 @@ const EventScr EventScr_LoadUnits_S6092[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6092_Victory = {
+const EventScr EventScr_S6092_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -11875,7 +11875,7 @@ const EventScr EventScr_LoadUnits_S6093[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6093_Victory = {
+const EventScr EventScr_S6093_Victory[] = {
     EvtSetBgm(S6093_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -11908,7 +11908,7 @@ const EventScr EventScr_LoadUnits_S6094[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6094_Victory = {
+const EventScr EventScr_S6094_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6094)
     EvtClearTalk
     EvtNoSkip
@@ -11938,7 +11938,7 @@ const EventScr EventScr_LoadUnits_S6095[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6095_Victory = {
+const EventScr EventScr_S6095_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6095)
     EvtClearTalk
     EvtSetBgm(S6095_MID_SCENARIO_ENDING_BGM)
@@ -11977,7 +11977,7 @@ const EventScr EventScr_LoadUnits_S6101[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6101_Victory = {
+const EventScr EventScr_S6101_Victory[] = {
     EvtSetBgm(S6101_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12010,7 +12010,7 @@ const EventScr EventScr_LoadUnits_S6102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6102_Victory = {
+const EventScr EventScr_S6102_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -12035,7 +12035,7 @@ const EventScr EventScr_LoadUnits_S6103[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6103_Victory = {
+const EventScr EventScr_S6103_Victory[] = {
     EvtSetBgm(S6103_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12068,7 +12068,7 @@ const EventScr EventScr_LoadUnits_S6104[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6104_Victory = {
+const EventScr EventScr_S6104_Victory[] = {
     EvtSetBgm(S6104_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12105,7 +12105,7 @@ const EventScr EventScr_LoadUnits_S6105[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6105_Victory = {
+const EventScr EventScr_S6105_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6105)
     EvtClearTalk
     EvtSetBgm(S6105_MID_SCENARIO_ENDING_BGM)
@@ -12144,7 +12144,7 @@ const EventScr EventScr_LoadUnits_S6111[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6111_Victory = {
+const EventScr EventScr_S6111_Victory[] = {
     EvtSetBgm(S6111_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12177,7 +12177,7 @@ const EventScr EventScr_LoadUnits_S6112[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6112_Victory = {
+const EventScr EventScr_S6112_Victory[] = {
     EvtSetBgm(S6112_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12214,7 +12214,7 @@ const EventScr EventScr_LoadUnits_S6113[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6113_Victory = {
+const EventScr EventScr_S6113_Victory[] = {
     EvtSetBgm(S6113_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12247,7 +12247,7 @@ const EventScr EventScr_LoadUnits_S6114[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6114_Victory = {
+const EventScr EventScr_S6114_Victory[] = {
     EvtSetBgm(S6114_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12286,7 +12286,7 @@ const EventScr EventScr_LoadUnits_S6115RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6115_Victory = {
+const EventScr EventScr_S6115_Victory[] = {
     EvtSetBgm(S6115_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12323,7 +12323,7 @@ const EventScr EventScr_LoadUnits_S6121[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6121_Victory = {
+const EventScr EventScr_S6121_Victory[] = {
     EvtSetBgm(S6121_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12356,7 +12356,7 @@ const EventScr EventScr_LoadUnits_S6122[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6122_Victory = {
+const EventScr EventScr_S6122_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -12381,7 +12381,7 @@ const EventScr EventScr_LoadUnits_S6123[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6123_Victory = {
+const EventScr EventScr_S6123_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -12410,7 +12410,7 @@ const EventScr EventScr_LoadUnits_S6124[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6124_Victory = {
+const EventScr EventScr_S6124_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -12453,7 +12453,7 @@ const EventScr EventScr_LoadUnits_S6125RedUnits_Turn_4_4[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6125_Victory = {
+const EventScr EventScr_S6125_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6125)
     EvtClearTalk
     EvtSetBgm(S6125_MID_SCENARIO_ENDING_BGM)
@@ -12495,7 +12495,7 @@ const EventScr EventScr_LoadUnits_S6131[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6131_Victory = {
+const EventScr EventScr_S6131_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6131)
     EvtClearTalk
     EvtSetBgm(S6131_MID_SCENARIO_ENDING_BGM)
@@ -12534,7 +12534,7 @@ const EventScr EventScr_LoadUnits_S6132[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6132_Victory = {
+const EventScr EventScr_S6132_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -12563,7 +12563,7 @@ const EventScr EventScr_LoadUnits_S6133[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6133_Victory = {
+const EventScr EventScr_S6133_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -12592,7 +12592,7 @@ const EventScr EventScr_LoadUnits_S6134[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6134_Victory = {
+const EventScr EventScr_S6134_Victory[] = {
     EvtSetBgm(S6134_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12635,7 +12635,7 @@ const EventScr EventScr_LoadUnits_S6135RedUnits_Turn_2_2[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S6135_Victory = {
+const EventScr EventScr_S6135_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S6135)
     EvtClearTalk
     EvtSetBgm(S6135_MID_SCENARIO_ENDING_BGM)
@@ -12674,7 +12674,7 @@ const EventScr EventScr_LoadUnits_S7011[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7011_Victory = {
+const EventScr EventScr_S7011_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7011)
     EvtClearTalk
     EvtNoSkip
@@ -12701,7 +12701,7 @@ const EventScr EventScr_LoadUnits_S7012[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7012_Victory = {
+const EventScr EventScr_S7012_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -12726,7 +12726,7 @@ const EventScr EventScr_LoadUnits_S7013[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7013_Victory = {
+const EventScr EventScr_S7013_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -12751,7 +12751,7 @@ const EventScr EventScr_LoadUnits_S7014[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7014_Victory = {
+const EventScr EventScr_S7014_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -12776,7 +12776,7 @@ const EventScr EventScr_LoadUnits_S7015[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7015_Victory = {
+const EventScr EventScr_S7015_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_EvBg_GullveigCastleInside)
@@ -12811,7 +12811,7 @@ const EventScr EventScr_LoadUnits_S7021[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7021_Victory = {
+const EventScr EventScr_S7021_Victory[] = {
     EvtSetBgm(S7021_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12844,7 +12844,7 @@ const EventScr EventScr_LoadUnits_S7022[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7022_Victory = {
+const EventScr EventScr_S7022_Victory[] = {
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_001_BraveForest)
@@ -12876,7 +12876,7 @@ const EventScr EventScr_LoadUnits_S7023[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7023_Victory = {
+const EventScr EventScr_S7023_Victory[] = {
     EvtSetBgm(S7023_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12909,7 +12909,7 @@ const EventScr EventScr_LoadUnits_S7024[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7024_Victory = {
+const EventScr EventScr_S7024_Victory[] = {
     EvtSetBgm(S7024_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -12942,7 +12942,7 @@ const EventScr EventScr_LoadUnits_S7025[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7025_Victory = {
+const EventScr EventScr_S7025_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7025)
     EvtClearTalk
     EvtSetBgm(S7025_MID_SCENARIO_ENDING_BGM)
@@ -12980,7 +12980,7 @@ const EventScr EventScr_LoadUnits_S7031[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7031_Victory = {
+const EventScr EventScr_S7031_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 1)
     EvtSleep(64)
@@ -13005,7 +13005,7 @@ const EventScr EventScr_LoadUnits_S7032[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7032_Victory = {
+const EventScr EventScr_S7032_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -13030,7 +13030,7 @@ const EventScr EventScr_LoadUnits_S7033[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7033_Victory = {
+const EventScr EventScr_S7033_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -13055,7 +13055,7 @@ const EventScr EventScr_LoadUnits_S7034[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7034_Victory = {
+const EventScr EventScr_S7034_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -13080,7 +13080,7 @@ const EventScr EventScr_LoadUnits_S7035[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7035_Victory = {
+const EventScr EventScr_S7035_Victory[] = {
     EvtSetBgm(S7035_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13116,7 +13116,7 @@ const EventScr EventScr_LoadUnits_S7041[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7041_Victory = {
+const EventScr EventScr_S7041_Victory[] = {
     EvtSetBgm(S7041_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13153,7 +13153,7 @@ const EventScr EventScr_LoadUnits_S7042[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7042_Victory = {
+const EventScr EventScr_S7042_Victory[] = {
     EvtSetBgm(S7042_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13189,7 +13189,7 @@ const EventScr EventScr_LoadUnits_S7043[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7043_Victory = {
+const EventScr EventScr_S7043_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7043)
     EvtClearTalk
     EvtNoSkip
@@ -13216,7 +13216,7 @@ const EventScr EventScr_LoadUnits_S7044[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7044_Victory = {
+const EventScr EventScr_S7044_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -13241,7 +13241,7 @@ const EventScr EventScr_LoadUnits_S7045[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7045_Victory = {
+const EventScr EventScr_S7045_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7045)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -13278,7 +13278,7 @@ const EventScr EventScr_LoadUnits_S7051[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7051_Victory = {
+const EventScr EventScr_S7051_Victory[] = {
     EvtSetBgm(S7051_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13311,7 +13311,7 @@ const EventScr EventScr_LoadUnits_S7052[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7052_Victory = {
+const EventScr EventScr_S7052_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -13336,7 +13336,7 @@ const EventScr EventScr_LoadUnits_S7053[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7053_Victory = {
+const EventScr EventScr_S7053_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -13361,7 +13361,7 @@ const EventScr EventScr_LoadUnits_S7054[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7054_Victory = {
+const EventScr EventScr_S7054_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -13402,7 +13402,7 @@ const EventScr EventScr_LoadUnits_S7055RedUnits_Turn_3_3[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7055_Victory = {
+const EventScr EventScr_S7055_Victory[] = {
     EvtSetBgm(S7055_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13442,7 +13442,7 @@ const EventScr EventScr_LoadUnits_S7061[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7061_Victory = {
+const EventScr EventScr_S7061_Victory[] = {
     EvtSetBgm(S7061_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13479,7 +13479,7 @@ const EventScr EventScr_LoadUnits_S7062[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7062_Victory = {
+const EventScr EventScr_S7062_Victory[] = {
     EvtSetBgm(S7062_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13516,7 +13516,7 @@ const EventScr EventScr_LoadUnits_S7063[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7063_Victory = {
+const EventScr EventScr_S7063_Victory[] = {
     EvtSetBgm(S7063_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13553,7 +13553,7 @@ const EventScr EventScr_LoadUnits_S7064[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7064_Victory = {
+const EventScr EventScr_S7064_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -13582,7 +13582,7 @@ const EventScr EventScr_LoadUnits_S7065[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7065_Victory = {
+const EventScr EventScr_S7065_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7065)
     EvtClearTalk
     EvtSetBgm(S7065_MID_SCENARIO_ENDING_BGM)
@@ -13620,7 +13620,7 @@ const EventScr EventScr_LoadUnits_S7071[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7071_Victory = {
+const EventScr EventScr_S7071_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7071)
     EvtClearTalk
     EvtFadeToBlack(16)
@@ -13654,7 +13654,7 @@ const EventScr EventScr_LoadUnits_S7072[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7072_Victory = {
+const EventScr EventScr_S7072_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -13683,7 +13683,7 @@ const EventScr EventScr_LoadUnits_S7073[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7073_Victory = {
+const EventScr EventScr_S7073_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -13708,7 +13708,7 @@ const EventScr EventScr_LoadUnits_S7074[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7074_Victory = {
+const EventScr EventScr_S7074_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -13736,7 +13736,7 @@ const EventScr EventScr_LoadUnits_S7075[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7075_Victory = {
+const EventScr EventScr_S7075_Victory[] = {
     EvtSetBgm(S7075_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap
@@ -13774,7 +13774,7 @@ const EventScr EventScr_LoadUnits_S7081[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7081_Victory = {
+const EventScr EventScr_S7081_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7081)
     EvtClearTalk
     EvtSetBgm(S7081_MID_SCENARIO_ENDING_BGM)
@@ -13813,7 +13813,7 @@ const EventScr EventScr_LoadUnits_S7082[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7082_Victory = {
+const EventScr EventScr_S7082_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -13838,7 +13838,7 @@ const EventScr EventScr_LoadUnits_S7083[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7083_Victory = {
+const EventScr EventScr_S7083_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7083)
     EvtClearTalk
     EvtNoSkip
@@ -13865,7 +13865,7 @@ const EventScr EventScr_LoadUnits_S7084[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7084_Victory = {
+const EventScr EventScr_S7084_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -13890,7 +13890,7 @@ const EventScr EventScr_LoadUnits_S7085[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7085_Victory = {
+const EventScr EventScr_S7085_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7085)
     EvtClearTalk
     EvtSetBgm(S7085_MID_SCENARIO_ENDING_BGM)
@@ -13929,7 +13929,7 @@ const EventScr EventScr_LoadUnits_S7091[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7091_Victory = {
+const EventScr EventScr_S7091_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7091)
     EvtClearTalk
     EvtSetBgm(S7091_MID_SCENARIO_ENDING_BGM)
@@ -13964,7 +13964,7 @@ const EventScr EventScr_LoadUnits_S7092[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7092_Victory = {
+const EventScr EventScr_S7092_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -13993,7 +13993,7 @@ const EventScr EventScr_LoadUnits_S7093[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7093_Victory = {
+const EventScr EventScr_S7093_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -14018,7 +14018,7 @@ const EventScr EventScr_LoadUnits_S7094[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7094_Victory = {
+const EventScr EventScr_S7094_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -14043,7 +14043,7 @@ const EventScr EventScr_LoadUnits_S7095[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7095_Victory = {
+const EventScr EventScr_S7095_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7095)
     EvtClearTalk
     EvtSetBgm(S7095_MID_SCENARIO_ENDING_BGM)
@@ -14082,7 +14082,7 @@ const EventScr EventScr_LoadUnits_S7101[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7101_Victory = {
+const EventScr EventScr_S7101_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7101)
     EvtClearTalk
     EvtNoSkip
@@ -14109,7 +14109,7 @@ const EventScr EventScr_LoadUnits_S7102[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7102_Victory = {
+const EventScr EventScr_S7102_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -14134,7 +14134,7 @@ const EventScr EventScr_LoadUnits_S7103[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7103_Victory = {
+const EventScr EventScr_S7103_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -14159,7 +14159,7 @@ const EventScr EventScr_LoadUnits_S7104[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7104_Victory = {
+const EventScr EventScr_S7104_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -14184,7 +14184,7 @@ const EventScr EventScr_LoadUnits_S7105[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7105_Victory = {
+const EventScr EventScr_S7105_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7105)
     EvtClearTalk
     EvtSetBgm(S7105_MID_SCENARIO_ENDING_BGM)
@@ -14222,7 +14222,7 @@ const EventScr EventScr_LoadUnits_S7111[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7111_Victory = {
+const EventScr EventScr_S7111_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S7111)
     EvtClearTalk
     EvtNoSkip
@@ -14249,7 +14249,7 @@ const EventScr EventScr_LoadUnits_S7112[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7112_Victory = {
+const EventScr EventScr_S7112_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 2)
     EvtSleep(64)
@@ -14278,7 +14278,7 @@ const EventScr EventScr_LoadUnits_S7113[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7113_Victory = {
+const EventScr EventScr_S7113_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 3)
     EvtSleep(64)
@@ -14303,7 +14303,7 @@ const EventScr EventScr_LoadUnits_S7114[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7114_Victory = {
+const EventScr EventScr_S7114_Victory[] = {
     EvtNoSkip
     EvtGiveMoney(100 * 4)
     EvtSleep(64)
@@ -14328,7 +14328,7 @@ const EventScr EventScr_LoadUnits_S7115[] = {
     EvtEnd
 };
 
-const EventScr EventScr_S7115_Victory = {
+const EventScr EventScr_S7115_Victory[] = {
     EvtSetBgm(S7115_MID_SCENARIO_ENDING_BGM)
     EvtFadeToBlack(16)
     EvtExitMap

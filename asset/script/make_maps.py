@@ -1011,8 +1011,8 @@ const u16 ChapterEnemyHeroNames[][14] = {
                         file_scripts.write('    EvtEnd\n')
                         file_scripts.write('};\n\n')
             # victory event
-            file_scripts_defs.write('extern const EventScr EventScr_%s_Victory;\n' % map_id)
-            file_scripts.write('const EventScr EventScr_%s_Victory = {\n' % map_id)
+            file_scripts_defs.write('extern const EventScr EventScr_%s_Victory[];\n' % map_id)
+            file_scripts.write('const EventScr EventScr_%s_Victory[] = {\n' % map_id)
             if 'MID_SCENARIO_MAP_END' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtTalk(MID_SCENARIO_MAP_END_%s)\n' % map_id)
                 file_scripts.write('    EvtClearTalk\n')
