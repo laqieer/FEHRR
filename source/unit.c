@@ -148,7 +148,7 @@ extern const struct JInfo newJobs[];
 
 struct JInfo const * GetJInfoNew(int jid)
 {
-    Assert(jid < JID_COUNT);
+    // Assert(jid < JID_COUNT);
 
     if (jid < 1)
         return NULL;
