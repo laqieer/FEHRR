@@ -40,7 +40,7 @@
 [MID_MUSIC_NAME_BGM_EVENT_PLAIN_04] = {
     [LANGUAGE_JAPANESE] = "平穏４",
     [LANGUAGE_ENGLISH] = "Plain 4",
-    [LANGUAGE_CHINESE] = "平静4" // "",
+    [LANGUAGE_CHINESE] = "平静4",
 },
 
 [MID_MUSIC_NAME_BGM_EVENT_SERIOUS_01] = {
@@ -154,7 +154,7 @@
 [MID_MUSIC_NAME_BGM_MAP_BRAVE_10] = {
     [LANGUAGE_JAPANESE] = "勇敢１０",
     [LANGUAGE_ENGLISH] = "Brave 10",
-    [LANGUAGE_CHINESE] = "英勇10" // "",
+    [LANGUAGE_CHINESE] = "英勇10",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE03_01] = {
@@ -208,19 +208,19 @@
 [MID_MUSIC_NAME_BGM_MAP_FE05_01] = {
     [LANGUAGE_JAPANESE] = "リーフ軍、勝利を求めて　ベース",
     [LANGUAGE_ENGLISH] = "Leif's Army, In Search of Victory - Base",
-    [LANGUAGE_CHINESE] = "利夫军，寻求胜利 基调",
+    [LANGUAGE_CHINESE] = "里弗军，寻求胜利 基调",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE05_03] = {
     [LANGUAGE_JAPANESE] = "リーフ軍,勝利を求めて 索敵",
     [LANGUAGE_ENGLISH] = "Leif's Army, In Search of Victory - Scout for Enemies",
-    [LANGUAGE_CHINESE] = "利夫军，寻求胜利 索敌",
+    [LANGUAGE_CHINESE] = "里弗军，寻求胜利 索敌",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE05_04] = {
     [LANGUAGE_JAPANESE] = "リーフ軍,勝利を求めて 進撃A",
     [LANGUAGE_ENGLISH] = "Leif's Army in Search of Victory - Advance A",
-    [LANGUAGE_CHINESE] = "利夫军，寻求胜利 进击A" // "雷夫的军队在寻找胜利-进阶A",
+    [LANGUAGE_CHINESE] = "里弗军，寻求胜利 进击A",
 },
 
 [MID_MUSIC_NAME_BGM_MAP_FE07_01] = {
