@@ -144,7 +144,7 @@ struct Unit * GetUnitToSelectAuto()
     return GetUnit(GetNextAvailableBlueUnitId(0));
 }
 
-extern const struct JInfo newJobs[];
+extern const struct JInfo JInfoTableNew[];
 
 struct JInfo const * GetJInfoNew(int jid)
 {
@@ -153,10 +153,7 @@ struct JInfo const * GetJInfoNew(int jid)
     if (jid < 1)
         return NULL;
 
-    if (jid >= MAX_JIDS)
-        return newJobs + (jid - MAX_JIDS);
-
-    return JInfoTable + (jid - 1);
+    return JInfoTableNew + (jid - 1);
 }
 
 struct JInfo const * GetJInfoOld(int jid)
