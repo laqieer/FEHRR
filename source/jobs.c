@@ -992,6 +992,8 @@ const struct JInfo JInfoTableNew[] =
         {
             [ITEM_KIND_STAFF] = WEXP_C,
             [ITEM_KIND_LIGHT] = WEXP_D,
+            [ITEM_KIND_ANIMA] = WEXP_E,
+            [ITEM_KIND_DARK] = WEXP_E,
         },
         .banim_info = BanimInfo_Bishop,
         .mov_table = MoveTable_Mages,
@@ -1039,6 +1041,8 @@ const struct JInfo JInfoTableNew[] =
         {
             [ITEM_KIND_STAFF] = WEXP_C,
             [ITEM_KIND_LIGHT] = WEXP_D,
+            [ITEM_KIND_ANIMA] = WEXP_E,
+            [ITEM_KIND_DARK] = WEXP_E,
         },
         .banim_info = BanimInfo_Bishop_F,
         .mov_table = MoveTable_Mages,
@@ -1085,6 +1089,8 @@ const struct JInfo JInfoTableNew[] =
         .wexp =
         {
             [ITEM_KIND_ANIMA] = WEXP_D,
+            [ITEM_KIND_LIGHT] = WEXP_E,
+            [ITEM_KIND_DARK] = WEXP_E,
         },
         .banim_info = BanimInfo_Mage,
         .mov_table = MoveTable_Mages,
@@ -1130,6 +1136,8 @@ const struct JInfo JInfoTableNew[] =
         .wexp =
         {
             [ITEM_KIND_ANIMA] = WEXP_D,
+            [ITEM_KIND_LIGHT] = WEXP_E,
+            [ITEM_KIND_DARK] = WEXP_E,
         },
         .banim_info = BanimInfo_Mage_F,
         .mov_table = MoveTable_Mages,
@@ -1176,6 +1184,8 @@ const struct JInfo JInfoTableNew[] =
         {
             [ITEM_KIND_STAFF] = WEXP_E,
             [ITEM_KIND_ANIMA] = WEXP_C,
+            [ITEM_KIND_LIGHT] = WEXP_D,
+            [ITEM_KIND_DARK] = WEXP_E,
         },
         .banim_info = BanimInfo_Sage,
         .mov_table = MoveTable_Mages,
@@ -1222,6 +1232,8 @@ const struct JInfo JInfoTableNew[] =
         {
             [ITEM_KIND_STAFF] = WEXP_E,
             [ITEM_KIND_ANIMA] = WEXP_C,
+            [ITEM_KIND_LIGHT] = WEXP_D,
+            [ITEM_KIND_DARK] = WEXP_E,
         },
         .banim_info = BanimInfo_Sage_F,
         .mov_table = MoveTable_Mages,
@@ -1267,6 +1279,8 @@ const struct JInfo JInfoTableNew[] =
         .wexp =
         {
             [ITEM_KIND_ELDER] = WEXP_D,
+            [ITEM_KIND_ANIMA] = WEXP_E,
+            [ITEM_KIND_LIGHT] = WEXP_E,
         },
         .banim_info = BanimInfo_Shaman,
         .mov_table = MoveTable_Mages,
@@ -1312,6 +1326,8 @@ const struct JInfo JInfoTableNew[] =
         .wexp =
         {
             [ITEM_KIND_ELDER] = WEXP_D,
+            [ITEM_KIND_ANIMA] = WEXP_E,
+            [ITEM_KIND_LIGHT] = WEXP_E,
         },
         .banim_info = BanimInfo_Shaman_F,
         .mov_table = MoveTable_Mages,
@@ -1358,6 +1374,8 @@ const struct JInfo JInfoTableNew[] =
         {
             [ITEM_KIND_STAFF] = WEXP_E,
             [ITEM_KIND_ELDER] = WEXP_C,
+            [ITEM_KIND_ANIMA] = WEXP_D,
+            [ITEM_KIND_LIGHT] = WEXP_E,
         },
         .banim_info = BanimInfo_Druid,
         .mov_table = MoveTable_Mages,
@@ -1404,6 +1422,8 @@ const struct JInfo JInfoTableNew[] =
         {
             [ITEM_KIND_STAFF] = WEXP_E,
             [ITEM_KIND_ELDER] = WEXP_C,
+            [ITEM_KIND_ANIMA] = WEXP_D,
+            [ITEM_KIND_LIGHT] = WEXP_E,
         },
         .banim_info = BanimInfo_Druid_F,
         .mov_table = MoveTable_Mages,
@@ -1675,6 +1695,8 @@ const struct JInfo JInfoTableNew[] =
         {
             [ITEM_KIND_STAFF] = WEXP_C,
             [ITEM_KIND_ANIMA] = WEXP_E,
+            [ITEM_KIND_LIGHT] = WEXP_E,
+            [ITEM_KIND_DARK] = WEXP_E,
         },
         .banim_info = BanimInfo_Valkyrie,
         .mov_table = MoveTable_BigHorsie,
