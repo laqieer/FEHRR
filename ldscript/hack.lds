@@ -42,3 +42,5 @@ INCLUDE ../ldscript/save_xmap.lds
 INCLUDE ../ldscript/worldmap.lds
 INCLUDE ../ldscript/song.lds
 INCLUDE ../ldscript/soundroom.lds
+INCLUDE ../ldscript/manim.lds
+INCLUDE ../ldscript/mu.lds

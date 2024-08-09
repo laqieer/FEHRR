@@ -14,6 +14,9 @@
 #include "ai_utility.h"
 #include "save_stats.h"
 #include "event.h"
+#include "gamedata.h"
+#include "jobs.h"
+#include "log.h"
 
 #include "constants/terrains.h"
 #include "constants/iids.h"
@@ -139,4 +142,51 @@ struct Unit * GetUnitToSelectAuto()
         return unit;
 
     return GetUnit(GetNextAvailableBlueUnitId(0));
+}
+
+extern const struct JInfo newJobs[];
+
+struct JInfo const * GetJInfoNew(int jid)
+{
+    Assert(jid < JID_COUNT);
+
+    if (jid < 1)
+        return NULL;
+
+    if (jid >= MAX_JIDS)
+        return newJobs + (jid - MAX_JIDS);
+
+    return JInfoTable + (jid - 1);
+}
+
+struct JInfo const * GetJInfoOld(int jid)
+{
+    return GetJInfoNew(jid);
+}
+
+void UnitInitFromInfoNew(struct Unit * unit, struct UnitInfo const * info)
+{
+    int i;
+
+    unit->pinfo = GetPInfo(info->pid);
+
+    if (info->jid != 0)
+        unit->jinfo = GetJInfoNew(info->jid);
+    else
+        unit->jinfo = GetJInfoNew(unit->pinfo->jid_default);
+
+    unit->level = info->level;
+
+    unit->x = info->x_move;
+    unit->y = info->y_move;
+
+    for (i = 0; (i < (int) ARRAY_COUNT(info->items)) && info->items[i]; ++i)
+        UnitAddItem(unit, CreateItem(info->items[i]));
+
+    UnitInitAiFromInfo(unit, info);
+}
+
+void UnitInitFromInfoOld(struct Unit * unit, struct UnitInfo const * info)
+{
+    UnitInitFromInfoNew(unit, info);
 }

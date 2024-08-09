@@ -22761,6 +22761,24 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "错误：未找到文本",
     },
 
+    [3807] = {
+        [LANGUAGE_JAPANESE] = "ハルバーディア",
+        [LANGUAGE_ENGLISH] = "Halberdier",
+        [LANGUAGE_CHINESE] = "枪斗士",
+    },
+
+    [3808] = {
+        [LANGUAGE_JAPANESE] = "百戦錬磨のソルジャーが昇格する"TEXT_CMD_NEWLINE"必殺の一撃で敵を倒す",
+        [LANGUAGE_ENGLISH] = "An honorific bestowed upon"TEXT_CMD_NEWLINE"the most experienced soldier",
+        [LANGUAGE_CHINESE] = "由久经沙场的士兵升进"TEXT_CMD_NEWLINE"一击必杀打倒敌人",
+    },
+
+    [3809] = {
+        [LANGUAGE_JAPANESE] = "シーフリーダー",
+        [LANGUAGE_ENGLISH] = "Thief Leader",
+        [LANGUAGE_CHINESE] = "盗贼头目",
+    },
+
     [TEXT_ID_TEST] = {
         [LANGUAGE_JAPANESE] = FaceTestText,
         [LANGUAGE_ENGLISH] = FaceTestText,

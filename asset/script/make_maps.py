@@ -791,7 +791,7 @@ promoted_jobs = {
     'JID_SOLDIER': 'JID_HALBERDIER',
     'JID_FIGHTER': 'JID_WARRIOR',
     'JID_ARCHER': 'JID_SNIPER',
-    'JID_THIEF': 'JID_ASSASSIN',
+    'JID_THIEF': 'JID_THIEF_LEADER',
     'JID_MAGE': 'JID_SAGE',
     'JID_SHAMAN': 'JID_DRUID',
     'JID_PRIEST': 'JID_BISHOP',
@@ -1131,7 +1131,7 @@ if __name__ == '__main__':
     load_move_type()
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
-    # make_blue_units()
-    # make_red_unit_jobs()
+    make_blue_units()
+    make_red_unit_jobs()
     make_red_units_and_event_scripts()
     make_map_events()

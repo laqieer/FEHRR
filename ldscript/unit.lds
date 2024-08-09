@@ -8,3 +8,7 @@
 .text.UnitAutolevelPlayerOld : {*(.text.UnitAutolevelPlayerOld)}
 . = UnitAutolevel - 1;
 .text.UnitAutolevelOld : {*(.text.UnitAutolevelOld)}
+. = GetJInfo - 1;
+.text.GetJInfoOld : {*(.text.GetJInfoOld)}
+. = UnitInitFromInfo - 1;
+.text.UnitInitFromInfoOld : {*(.text.UnitInitFromInfoOld)}
