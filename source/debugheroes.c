@@ -5,10 +5,12 @@
 #include "constants/iids.h"
 #include "constants/jids.h"
 
+#include "jobs.h"
+
 const struct UnitInfo DebugBlueUnits[] = {
     {
         .pid = PID_アルフォンス,
-        .jid = JID_アルフォンス,
+        .jid = JID_ROY_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -26,7 +28,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_シャロン,
-        .jid = JID_シャロン,
+        .jid = JID_HALBERDIER,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -44,7 +46,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_アンナ,
-        .jid = JID_アンナ,
+        .jid = JID_WARRIOR,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
