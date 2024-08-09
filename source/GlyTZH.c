@@ -443,15 +443,6 @@ const struct GlyphNew GlyTZH_E585AB = { /* 八 */
     .bitmap = GlyTZH_E585ABTiles,
 };
 
-const struct GlyphNew GlyTZH_E796A4 = { /* 疤 */
-    .next = &GlyTZH_E7BFB1,
-    .width = 12,
-    .utf_byte_2 = 0x96,
-    .utf_byte_3 = 0xa4,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E796A4Tiles,
-};
-
 const struct GlyphNew GlyTZH_E5B7B4 = { /* 巴 */
     .next = &GlyTZH_E585AB,
     .width = 12,
@@ -498,7 +489,7 @@ const struct GlyphNew GlyTZH_E99CB8 = { /* 霸 */
 };
 
 const struct GlyphNew GlyTZH_E7BDA2 = { /* 罢 */
-    .next = &GlyTZH_E796A4,
+    .next = &GlyTZH_E7BFB1,
     .width = 12,
     .utf_byte_2 = 0xbd,
     .utf_byte_3 = 0xa2,
@@ -1415,15 +1406,6 @@ const struct GlyphNew GlyTZH_E6908F = { /* 搏 */
     .bitmap = GlyTZH_E6908FTiles,
 };
 
-const struct GlyphNew GlyTZH_E99382 = { /* 铂 */
-    .next = &GlyTZH_E992B5,
-    .width = 12,
-    .utf_byte_2 = 0x93,
-    .utf_byte_3 = 0x82,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E99382Tiles,
-};
-
 const struct GlyphNew GlyTZH_E4BCAF = { /* 伯 */
     .next = &GlyTZH_E4BEBF,
     .width = 12,
@@ -1497,7 +1479,7 @@ const struct GlyphNew GlyTZH_E6ADA5 = { /* 步 */
 };
 
 const struct GlyphNew GlyTZH_E983A8 = { /* 部 */
-    .next = &GlyTZH_E99382,
+    .next = &GlyTZH_E992B5,
     .width = 12,
     .utf_byte_2 = 0x83,
     .utf_byte_3 = 0xa8,
@@ -3962,15 +3944,6 @@ const struct GlyphNew GlyTZH_E69D9C = { /* 杜 */
     .bitmap = GlyTZH_E69D9CTiles,
 };
 
-const struct GlyphNew GlyTZH_E99580 = { /* 镀 */
-    .next = &GlyTZH_E983BD,
-    .width = 12,
-    .utf_byte_2 = 0x95,
-    .utf_byte_3 = 0x80,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E99580Tiles,
-};
-
 const struct GlyphNew GlyTZH_E8829A = { /* 肚 */
     .next = &GlyTZH_E8B58C,
     .width = 12,
@@ -4026,7 +3999,7 @@ const struct GlyphNew GlyTZH_E79FAD = { /* 短 */
 };
 
 const struct GlyphNew GlyTZH_E994BB = { /* 锻 */
-    .next = &GlyTZH_E99580,
+    .next = &GlyTZH_E983BD,
     .width = 12,
     .utf_byte_2 = 0x94,
     .utf_byte_3 = 0xbb,
@@ -6599,15 +6572,6 @@ const struct GlyphNew GlyTZH_E5BFBD = { /* 忽 */
     .bitmap = GlyTZH_E5BFBDTiles,
 };
 
-const struct GlyphNew GlyTZH_E7919A = { /* 瑚 */
-    .next = &GlyTZH_E78CB4,
-    .width = 12,
-    .utf_byte_2 = 0x91,
-    .utf_byte_3 = 0x9a,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E7919ATiles,
-};
-
 const struct GlyphNew GlyTZH_E883A1 = { /* 胡 */
     .next = &GlyTZH_E8BDB0,
     .width = 12,
@@ -6627,7 +6591,7 @@ const struct GlyphNew GlyTZH_E89DB4 = { /* 蝴 */
 };
 
 const struct GlyphNew GlyTZH_E78B90 = { /* 狐 */
-    .next = &GlyTZH_E7919A,
+    .next = &GlyTZH_E78CB4,
     .width = 12,
     .utf_byte_2 = 0x8b,
     .utf_byte_3 = 0x90,
@@ -8030,17 +7994,8 @@ const struct GlyphNew GlyTZH_E9998D = { /* 降 */
     .bitmap = GlyTZH_E9998DTiles,
 };
 
-const struct GlyphNew GlyTZH_E7A481 = { /* 礁 */
-    .next = &GlyTZH_E7AEAD,
-    .width = 12,
-    .utf_byte_2 = 0xa4,
-    .utf_byte_3 = 0x81,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E7A481Tiles,
-};
-
 const struct GlyphNew GlyTZH_E784A6 = { /* 焦 */
-    .next = &GlyTZH_E7A481,
+    .next = &GlyTZH_E7AEAD,
     .width = 12,
     .utf_byte_2 = 0x84,
     .utf_byte_3 = 0xa6,
@@ -14816,15 +14771,6 @@ const struct GlyphNew GlyTZH_E595A5 = { /* 啥 */
     .bitmap = GlyTZH_E595A5Tiles,
 };
 
-const struct GlyphNew GlyTZH_E78F8A = { /* 珊 */
-    .next = &GlyTZH_E7A082,
-    .width = 12,
-    .utf_byte_2 = 0x8f,
-    .utf_byte_3 = 0x8a,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E78F8ATiles,
-};
-
 const struct GlyphNew GlyTZH_E69D89 = { /* 杉 */
     .next = &GlyTZH_E6B299,
     .width = 12,
@@ -14853,7 +14799,7 @@ const struct GlyphNew GlyTZH_E588A0 = { /* 删 */
 };
 
 const struct GlyphNew GlyTZH_E785BD = { /* 煽 */
-    .next = &GlyTZH_E78F8A,
+    .next = &GlyTZH_E7A082,
     .width = 12,
     .utf_byte_2 = 0x85,
     .utf_byte_3 = 0xbd,
@@ -15842,15 +15788,6 @@ const struct GlyphNew GlyTZH_E68195 = { /* 恕 */
     .bitmap = GlyTZH_E68195Tiles,
 };
 
-const struct GlyphNew GlyTZH_E588B7 = { /* 刷 */
-    .next = &GlyTZH_E5B19E,
-    .width = 12,
-    .utf_byte_2 = 0x88,
-    .utf_byte_3 = 0xb7,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E588B7Tiles,
-};
-
 const struct GlyphNew GlyTZH_E8808D = { /* 耍 */
     .next = &GlyTZH_E8BFB0,
     .width = 12,
@@ -15888,7 +15825,7 @@ const struct GlyphNew GlyTZH_E794A9 = { /* 甩 */
 };
 
 const struct GlyphNew GlyTZH_E5B885 = { /* 帅 */
-    .next = &GlyTZH_E588B7,
+    .next = &GlyTZH_E5B19E,
     .width = 12,
     .utf_byte_2 = 0xb8,
     .utf_byte_3 = 0x85,
@@ -18830,15 +18767,6 @@ const struct GlyphNew GlyTZH_E8B0A2 = { /* 谢 */
     .bitmap = GlyTZH_E8B0A2Tiles,
 };
 
-const struct GlyphNew GlyTZH_E9948C = { /* 锌 */
-    .next = &GlyTZH_E982AA,
-    .width = 12,
-    .utf_byte_2 = 0x94,
-    .utf_byte_3 = 0x8c,
-    .utf_byte_4 = 0x00,
-    .bitmap = GlyTZH_E9948CTiles,
-};
-
 const struct GlyphNew GlyTZH_E6ACA3 = { /* 欣 */
     .next = &GlyTZH_E6B384,
     .width = 12,
@@ -18948,7 +18876,7 @@ const struct GlyphNew GlyTZH_E8A18C = { /* 行 */
 };
 
 const struct GlyphNew GlyTZH_E98692 = { /* 醒 */
-    .next = &GlyTZH_E9948C,
+    .next = &GlyTZH_E982AA,
     .width = 12,
     .utf_byte_2 = 0x86,
     .utf_byte_3 = 0x92,
@@ -23825,8 +23753,17 @@ const struct GlyphNew GlyTZH_E5B2AC = { /* 岬 */
     .bitmap = GlyTZH_E5B2ACTiles,
 };
 
-const struct GlyphNew GlyTZH_E5BEA8 = { /* 徨 */
+const struct GlyphNew GlyTZH_E5BDB7 = { /* 彷 */
     .next = &GlyTZH_E5B2AC,
+    .width = 12,
+    .utf_byte_2 = 0xbd,
+    .utf_byte_3 = 0xb7,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_E5BDB7Tiles,
+};
+
+const struct GlyphNew GlyTZH_E5BEA8 = { /* 徨 */
+    .next = &GlyTZH_E5BDB7,
     .width = 12,
     .utf_byte_2 = 0xbe,
     .utf_byte_3 = 0xa8,
@@ -23924,8 +23861,17 @@ const struct GlyphNew GlyTZH_E6B28C = { /* 沌 */
     .bitmap = GlyTZH_E6B28CTiles,
 };
 
-const struct GlyphNew GlyTZH_E6B88E = { /* 渎 */
+const struct GlyphNew GlyTZH_E6B58F = { /* 浏 */
     .next = &GlyTZH_E6B28C,
+    .width = 12,
+    .utf_byte_2 = 0xb5,
+    .utf_byte_3 = 0x8f,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_E6B58FTiles,
+};
+
+const struct GlyphNew GlyTZH_E6B88E = { /* 渎 */
+    .next = &GlyTZH_E6B58F,
     .width = 12,
     .utf_byte_2 = 0xb8,
     .utf_byte_3 = 0x8e,
