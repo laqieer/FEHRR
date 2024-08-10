@@ -40,7 +40,7 @@
 #define JID_フリーズ JID_PALADIN
 #define JID_プルメリア JID_FALCONKNIGHT
 #define JID_スラシル JID_SAGE_F
-#define JID_グルヴェイグ JID_MANAKETE
+#define JID_グルヴェイグ JID_VALKYRIE
 #define JID_ネルトゥス JID_MANAKETE
 #define JID_マークス JID_PALADIN
 #define JID_スリーズ JID_VALKYRIE
