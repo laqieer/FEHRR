@@ -31,3 +31,6 @@ DebugChapterMapGraphicAnimation = 0x085C788C;
 ClearFirstMapMetaTile = func_fe6_080192E4;
 
 gPidStatsNew = gPidStats;
+
+MainSaveMenu_Tiles = gUnk_0832A29C;
+ExtraSaveMenu_Tiles = gUnk_0832B554;

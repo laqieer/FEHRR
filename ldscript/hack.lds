@@ -44,3 +44,4 @@ INCLUDE ../ldscript/song.lds
 INCLUDE ../ldscript/soundroom.lds
 INCLUDE ../ldscript/manim.lds
 INCLUDE ../ldscript/mu.lds
+INCLUDE ../ldscript/savemenu.lds
