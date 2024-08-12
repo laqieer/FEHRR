@@ -3,7 +3,11 @@
 #include "util.h"
 #include "textNew.h"
 
+#include "constants/videoalloc_global.h"
+
 #include "gfx_misc.h"
+
+#define OBCHR_TITLE_SCREEN_COPYRIGHT 192
 
 extern const unsigned int TitleScreenBG1_Tiles[];
 extern const unsigned int TitleScreenOBJ_Tiles[];
@@ -39,6 +43,7 @@ const ProcFunc pDecompressTitleScreenBG1_2 = decompressTitleScreenBG1;
 void decompressTitleScreenOBJ(ProcPtr proc) {
     func_fe6_0809B4A8(proc);
     Decompress(TitleScreenOBJTiles[GetLangNew()], OBJ_VRAM0);
+    Decompress(TitleScreenCopyrightTiles, OBJ_VRAM0 + OBCHR_TITLE_SCREEN_COPYRIGHT * CHR_SIZE);
 }
 
 const ProcFunc pDecompressTitleScreenOBJ_1 = decompressTitleScreenOBJ;
