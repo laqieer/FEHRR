@@ -10,3 +10,5 @@
 .text.ChapterIntro_BeginFastFadeToMapOld : {*(.text.ChapterIntro_BeginFastFadeToMapOld)}
 . = ChapterIntro_LoopFastFadeToMap - 1;
 .text.ChapterIntro_LoopFastFadeToMapOld : {*(.text.ChapterIntro_LoopFastFadeToMapOld)}
+. = ChapterIntro_Init - 1;
+.text.ChapterIntro_InitOld : {*(.text.ChapterIntro_InitOld)}

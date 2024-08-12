@@ -45,6 +45,8 @@
 #include "constants/chapters.h"
 #include "chapterNew.h"
 
+#include "gfx_misc.h"
+
 extern u16 gChapterIntroMotifTmBuf[];
 
 struct RescueTransferAnimProc
@@ -413,4 +415,90 @@ void GetPlayerInitialCursorPositionNew(int * x_out, int * y_out)
 void GetPlayerInitialCursorPositionOld(int * x_out, int * y_out)
 {
     GetPlayerInitialCursorPositionNew(x_out, y_out);
+}
+
+void PutChapterIntroMotif(void);
+void PutScreenFogEffect(void);
+
+void PutChapterIntroMotifNew(void)
+{
+    int ix, iy;
+    int tile = 0;
+
+    TmFill(gBg2Tm, 0);
+
+    // Decompress(Tm_ChapterIntroMotif, gChapterIntroMotifTmBuf);
+    Decompress(ChapterIntroMotifMap, gChapterIntroMotifTmBuf);
+
+    for (iy = 0; iy < 18; ++iy)
+        // for (ix = 0; ix < 24; ++ix)
+        for (ix = 0; ix < 12; ++ix)
+            // gBg2Tm[TM_OFFSET(3 + ix, 1 + iy)] = TILEREF(1 + gChapterIntroMotifTmBuf[tile++], BGPAL_CHAPTERINTRO_MOTIF);
+            gBg2Tm[TM_OFFSET(9 + ix, 1 + iy)] = TILEREF(1 + gChapterIntroMotifTmBuf[tile++], BGPAL_CHAPTERINTRO_MOTIF);
+}
+
+void ChapterIntro_InitNew(struct GenericProc * proc)
+{
+    InitBmBgLayers();
+
+    SetBgOffset(0, 0, 0);
+    SetBgOffset(1, 0, 0);
+    SetBgOffset(2, 0, 0);
+    SetBgOffset(3, 0, 0);
+
+    TmFill(gBg0Tm, 0);
+    TmFill(gBg1Tm, 0);
+    TmFill(gBg2Tm, 0);
+    TmFill(gBg3Tm, 0);
+
+    SetBgChrOffset(2, CHR_SIZE*BGCHR_CHAPTERINTRO_MOTIF);
+
+    SetWinEnable(1, 0, 0);
+
+    SetWin0Layers(1, 1, 1, 1, 1);
+    SetWOutLayers(0, 0, 1, 1, 1);
+
+    gDispIo.win_ct.win0_enable_blend = 1;
+    gDispIo.win_ct.wout_enable_blend = 1;
+
+    SetWin0Box(0, 0, 0, 0);
+
+    func_fe6_08070CB4(8, BGPAL_CHAPTERINTRO_0);
+    func_fe6_08070CB4(0, BGPAL_CHAPTERINTRO_1);
+
+    func_fe6_08070D78(BGCHR_CHAPTERINTRO_80);
+
+    func_fe6_08070D08(BGCHR_CHAPTERINTRO_100, func_fe6_08070E0C(&gPlaySt));
+
+    func_fe6_08070DE8(gBg1Tm + TM_OFFSET(0, 8), BGPAL_CHAPTERINTRO_0);
+    func_fe6_08070DA8(gBg0Tm + TM_OFFSET(3, 9), BGPAL_CHAPTERINTRO_1);
+
+    ColorFadeInit();
+    func_fe6_08001E68(BGPAL_CHAPTERINTRO_0, 2, 0x40, -1);
+    ColorFadeTick();
+
+    EnablePalSync();
+
+    Decompress(Img_ChapterIntroFog, (u8 *) VRAM + CHR_SIZE*BGCHR_CHAPTERINTRO_FOG);
+    ApplyPalette(Pal_ChapterIntroFog, BGPAL_CHAPTERINTRO_FOG);
+
+    // Decompress(Img_ChapterIntroMotif, (u8 *) VRAM + CHR_SIZE*(BGCHR_CHAPTERINTRO_MOTIF+1));
+    Decompress(ChapterIntroMotifTiles, (u8 *) VRAM + CHR_SIZE*(BGCHR_CHAPTERINTRO_MOTIF+1));
+    // ApplyPalette(Pal_ChapterIntroMotif, BGPAL_CHAPTERINTRO_MOTIF);
+    ApplyPalette(ChapterIntroMotifPal, BGPAL_CHAPTERINTRO_MOTIF);
+
+    SetBlankChr(BGCHR_CHAPTERINTRO_MOTIF);
+
+    gPal[0] = 0;
+
+    // PutChapterIntroMotif();
+    PutChapterIntroMotifNew();
+    PutScreenFogEffect();
+
+    EnableBgSync(BG0_SYNC_BIT + BG1_SYNC_BIT + BG2_SYNC_BIT + BG3_SYNC_BIT);
+}
+
+void ChapterIntro_InitOld(struct GenericProc * proc)
+{
+    ChapterIntro_InitNew(proc);
 }
