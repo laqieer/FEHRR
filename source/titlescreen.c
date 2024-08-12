@@ -26,6 +26,11 @@ const unsigned int * const TitleScreenOBJTiles[] = {
 void decompressTitleScreenBG1(ProcPtr proc) {
     func_fe6_0809B398(proc);
     Decompress(TitleScreenBG1Tiles[GetLangNew()], ((void *) VRAM) + GetBgChrOffset(0));
+    Decompress(TitleScreenMotifTiles, ((void *) VRAM) + GetBgChrOffset(0));
+    ApplyPalette(TitleScreenMotifPal, 0);
+    ApplyPalette(TitleScreenMotifPal, 5);
+    ApplyPalette(TitleScreenMotifPal, 6);
+    ApplyPalette(TitleScreenMotifPal, 7);
 }
 
 const ProcFunc pDecompressTitleScreenBG1_1 = decompressTitleScreenBG1;
