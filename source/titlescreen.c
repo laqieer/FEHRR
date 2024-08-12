@@ -7,6 +7,7 @@
 
 #include "gfx_misc.h"
 
+#define BGCHR_TITLE_SCREEN_GAME_SERIES 416
 #define OBCHR_TITLE_SCREEN_GAME_TITLE 64
 #define OBCHR_TITLE_SCREEN_COPYRIGHT 192
 
@@ -16,10 +17,9 @@ extern const unsigned int TitleScreenOBJ_Tiles[];
 void func_fe6_0809B398(ProcPtr proc);
 void func_fe6_0809B4A8(ProcPtr proc);
 
-const unsigned int * const TitleScreenBG1Tiles[] = {
-    [LANGUAGE_JAPANESE] = TitleScreenBG1_Tiles,
-    [LANGUAGE_ENGLISH] = TitleScreenBG1_EN_SoSTiles,
-    [LANGUAGE_CHINESE] = TitleScreenBG1_CNTiles,
+const unsigned int * const TitleScreenGameSeriesTiles[] = {
+    [LANGUAGE_ENGLISH] = TitleScreenGameSeries_ENTiles,
+    [LANGUAGE_CHINESE] = TitleScreenGameSeries_CNTiles,
 };
 
 const unsigned int * const TitleScreenGameTitleTiles[] = {
@@ -32,7 +32,8 @@ const unsigned int * const TitleScreenGameTitleTiles[] = {
 
 void decompressTitleScreenBG1(ProcPtr proc) {
     func_fe6_0809B398(proc);
-    Decompress(TitleScreenBG1Tiles[GetLangNew()], ((void *) VRAM) + GetBgChrOffset(0));
+    if (GetLangNew() != LANGUAGE_JAPANESE)
+        Decompress(TitleScreenGameSeriesTiles[GetLangNew()], ((void *) VRAM) + GetBgChrOffset(0) + BGCHR_TITLE_SCREEN_GAME_SERIES * CHR_SIZE);
     Decompress(TitleScreenMotifTiles, ((void *) VRAM) + GetBgChrOffset(0));
     ApplyPalette(TitleScreenMotifPal, 0);
     ApplyPalette(TitleScreenMotifPal, 5);
