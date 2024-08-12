@@ -34,3 +34,6 @@ gPidStatsNew = gPidStats;
 
 MainSaveMenu_Tiles = gUnk_0832A29C;
 ExtraSaveMenu_Tiles = gUnk_0832B554;
+
+TitleScreenOBJ_Tiles = gUnk_0835E6DC;
+TitleScreenBG1_Tiles = gUnk_0835CC90;
