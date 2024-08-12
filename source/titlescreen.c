@@ -13,13 +13,13 @@ void func_fe6_0809B4A8(ProcPtr proc);
 
 const unsigned int * const TitleScreenBG1Tiles[] = {
     [LANGUAGE_JAPANESE] = TitleScreenBG1_Tiles,
-    [LANGUAGE_ENGLISH] = TitleScreenBG1_EN_TBBTiles,
+    [LANGUAGE_ENGLISH] = TitleScreenBG1_EN_SoSTiles,
     [LANGUAGE_CHINESE] = TitleScreenBG1_CNTiles,
 };
 
 const unsigned int * const TitleScreenOBJTiles[] = {
     [LANGUAGE_JAPANESE] = TitleScreenOBJ_Tiles,
-    [LANGUAGE_ENGLISH] = TitleScreenOBJ_EN_TBBTiles,
+    [LANGUAGE_ENGLISH] = TitleScreenOBJ_ENTiles,
     [LANGUAGE_CHINESE] = TitleScreenOBJ_CNTiles,
 };
 
