@@ -7,6 +7,7 @@
 
 #include "gfx_misc.h"
 
+#define OBCHR_TITLE_SCREEN_GAME_TITLE 64
 #define OBCHR_TITLE_SCREEN_COPYRIGHT 192
 
 extern const unsigned int TitleScreenBG1_Tiles[];
@@ -21,11 +22,13 @@ const unsigned int * const TitleScreenBG1Tiles[] = {
     [LANGUAGE_CHINESE] = TitleScreenBG1_CNTiles,
 };
 
-const unsigned int * const TitleScreenOBJTiles[] = {
-    [LANGUAGE_JAPANESE] = TitleScreenOBJ_Tiles,
-    [LANGUAGE_ENGLISH] = TitleScreenOBJ_ENTiles,
-    [LANGUAGE_CHINESE] = TitleScreenOBJ_CNTiles,
+const unsigned int * const TitleScreenGameTitleTiles[] = {
+    [LANGUAGE_JAPANESE] = TitleScreenGameTitle_JATiles,
+    [LANGUAGE_ENGLISH] = TitleScreenGameTitle_ENTiles,
+    [LANGUAGE_CHINESE] = TitleScreenGameTitle_CNTiles,
 };
+
+#define TitleScreenGameTitlePal TitleScreenGameTitle_JAPal
 
 void decompressTitleScreenBG1(ProcPtr proc) {
     func_fe6_0809B398(proc);
@@ -42,7 +45,8 @@ const ProcFunc pDecompressTitleScreenBG1_2 = decompressTitleScreenBG1;
 
 void decompressTitleScreenOBJ(ProcPtr proc) {
     func_fe6_0809B4A8(proc);
-    Decompress(TitleScreenOBJTiles[GetLangNew()], OBJ_VRAM0);
+    Decompress(TitleScreenGameTitleTiles[GetLangNew()], OBJ_VRAM0 + OBCHR_TITLE_SCREEN_GAME_TITLE * CHR_SIZE);
+    ApplyObPalette(TitleScreenGameTitlePal, 3);
     Decompress(TitleScreenCopyrightTiles, OBJ_VRAM0 + OBCHR_TITLE_SCREEN_COPYRIGHT * CHR_SIZE);
 }
 
