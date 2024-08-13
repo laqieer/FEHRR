@@ -17,6 +17,10 @@
 #include "bas.h"
 #include "battleNew.h"
 
+#include "constants/chapters.h"
+#include "chapterNew.h"
+#include "bmNew.h"
+
 #include "log.h"
 
 #define VOICE_PRIORITY 0
@@ -87,10 +91,10 @@ void StopVoice(void)
 
 void StartHeroVoice(int hero_id, enum VoiceType voice_type)
 {
-    Debugf("hero_id: %d %s, voice_type: %s", hero_id, GetHeroName(hero_id), GetVoiceTypeName(voice_type));
-
-    if (hero_id == 0 || hero_id >= HERO_NUM)
+    if (hero_id == 0 || hero_id >= HERO_NUM || !IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
         return;
+
+    Debugf("hero_id: %d %s, voice_type: %s", hero_id, GetHeroName(hero_id), GetVoiceTypeName(voice_type));
 
     int chosen_voice = ChooseVoice(VoiceChoiceRangesByType[voice_type]);
 
