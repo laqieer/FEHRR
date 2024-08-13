@@ -292,7 +292,7 @@ void AddSaveMenuOptionsNew(struct SaveScreenProc *proc)
         AddExtraMenuOption(proc, EXTRA_MENU_OPTION_SOUND_ROOM);
     }
 
-    if (CheckHasCompletedSave())
+    // if (CheckHasCompletedSave())
     {
         AddExtraMenuOption(proc, EXTRA_MENU_OPTION_TRIAL_MAP);
     }
