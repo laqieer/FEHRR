@@ -4,10 +4,15 @@
 #include "redunitdefs.h"
 #include "event.h"
 #include "eventinfo.h"
+#include "eventfunctions.h"
 #include "eventscript.h"
 #include "faction.h"
 #include "backgrounds.h"
 #include "texts.h"
+#include "heroes.h"
+#include "constants/pids.h"
+#include "constants/iids.h"
+#include "constants/jids.h"
 #include "constants/songs.h"
 #include "songsNew.h"
 #include "constants/chapters.h"
@@ -586,6 +591,11 @@ const EventScr EventScr_LoadUnits_S0405[] = {
 const EventScr EventScr_S0405_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0405)
     EvtClearTalk
+    EvtNoSkip
+    EvtGiveItemTo(IID_BINDINGBLADE, PID_アルフォンス)
+    EvtSleep(64)
+    EvtFunc(func_fe6_0806D0E4)
+    EvtSleep(1280)
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_003_Volcano)

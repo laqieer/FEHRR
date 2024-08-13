@@ -902,10 +902,15 @@ const u16 ChapterEnemyHeroNames[][14] = {
 #include "redunitdefs.h"
 #include "event.h"
 #include "eventinfo.h"
+#include "eventfunctions.h"
 #include "eventscript.h"
 #include "faction.h"
 #include "backgrounds.h"
 #include "texts.h"
+#include "heroes.h"
+#include "constants/pids.h"
+#include "constants/iids.h"
+#include "constants/jids.h"
 #include "constants/songs.h"
 #include "songsNew.h"
 #include "constants/chapters.h"
@@ -1023,6 +1028,12 @@ const u16 ChapterEnemyHeroNames[][14] = {
             if 'MID_SCENARIO_MAP_END' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtTalk(MID_SCENARIO_MAP_END_%s)\n' % map_id)
                 file_scripts.write('    EvtClearTalk\n')
+            if map_id == 'S0405':
+                file_scripts.write('    EvtNoSkip\n')
+                file_scripts.write('    EvtGiveItemTo(IID_BINDINGBLADE, PID_アルフォンス)\n')
+                file_scripts.write('    EvtSleep(64)\n')
+                file_scripts.write('    EvtFunc(func_fe6_0806D0E4)\n')
+                file_scripts.write('    EvtSleep(1280)\n')
             if 'MID_SCENARIO_ENDING_BGM' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtSetBgm(%s_MID_SCENARIO_ENDING_BGM)\n' % map_id)
             if 'MID_SCENARIO_ENDING_IMAGE' in map_scenarios.get(map_id, {}):
