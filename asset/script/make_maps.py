@@ -917,6 +917,9 @@ const u16 ChapterEnemyHeroNames[][14] = {
         is_red_unit_promoted = False
         map_ids = sorted(map_configs.keys())
         for i, map_id in enumerate(map_ids):
+            if map_id.endswith('011'):
+                red_unit_lv = 0
+                is_red_unit_promoted = False
             next_map_id = map_ids[i + 1] if i + 1 < len(map_ids) else map_ids[0]
             # file_scripts_defs.write('extern const EventScr EventScr_LoadUnits_%s[];\n' % map_id)
             file_scripts.write('const EventScr EventScr_LoadUnits_%s[] = {\n' % map_id)
