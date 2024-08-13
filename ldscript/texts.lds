@@ -874,3 +874,9 @@
 .rodata.textId_max : {*(.rodata.textId_max)}
 . = gUnk_0835CA44;
 .rodata.text_835CA44 : {*(.rodata.text_835CA44)}
+. = gUnk_081C9FEC;
+.rodata.text_LvUp_Physic : {*(.rodata.text_LvUp_Physic)}
+. = gUnk_081CA014;
+.rodata.text_LvUp_Magic : {*(.rodata.text_LvUp_Magic)}
+. = gUnk_081CA04C;
+.rodata.text_LvUp_Lv : {*(.rodata.text_LvUp_Lv)}
