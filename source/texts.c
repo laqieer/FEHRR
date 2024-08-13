@@ -8386,9 +8386,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1397] = {
-        [LANGUAGE_JAPANESE] = "『理（ことわり）』の魔道を使う""\x01""守備の高い敵に強く　攻撃に弱い",
-        [LANGUAGE_ENGLISH] = "Students of Anima magic whose spells""\x01""penetrate even the toughest armor.",
-        [LANGUAGE_CHINESE] = "使用『理』魔法对守备力高的敌人""\x01""伤害大，对于物理攻击抵抗弱",
+        [LANGUAGE_JAPANESE] = "魔道を使う""\x01""守備の高い敵に強く　攻撃に弱い",
+        [LANGUAGE_ENGLISH] = "Students of magic whose spells""\x01""penetrate even the toughest armor.",
+        [LANGUAGE_CHINESE] = "使用魔法对守备力高的敌人""\x01""伤害大，对于物理攻击抵抗弱",
     },
 
     [1398] = {
@@ -8410,9 +8410,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1401] = {
-        [LANGUAGE_JAPANESE] = "いにしえの『闇』魔道をあやつる""\x01""攻撃は魔道士を超え　速さに劣る",
-        [LANGUAGE_ENGLISH] = "Students of dark magic.""\x01""Powerful, but very slow.",
-        [LANGUAGE_CHINESE] = "能够使用远古的『暗』魔法""\x01""攻击力超过魔道士，速度低下",
+        [LANGUAGE_JAPANESE] = "いにしえの魔道をあやつる""\x01""攻撃は魔道士を超え　速さに劣る",
+        [LANGUAGE_ENGLISH] = "Students of ancient magic.""\x01""Powerful, but very slow.",
+        [LANGUAGE_CHINESE] = "能够使用远古的魔法""\x01""攻击力超过魔道士，速度低下",
     },
 
     [1402] = {
@@ -8452,9 +8452,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1408] = {
-        [LANGUAGE_JAPANESE] = "経験をつんだシャーマンが昇格""\x01""高位の『闇』魔法をあやつる",
-        [LANGUAGE_ENGLISH] = "An honorific bestowed upon""\x01""true masters of dark arts.",
-        [LANGUAGE_CHINESE] = "由积累经验后的巫师升进""\x01""使用高级的『暗』魔法",
+        [LANGUAGE_JAPANESE] = "経験をつんだシャーマンが昇格""\x01""高位の古魔法をあやつる",
+        [LANGUAGE_ENGLISH] = "An honorific bestowed upon""\x01""true masters of ancient arts.",
+        [LANGUAGE_CHINESE] = "由积累经验后的巫师升进""\x01""使用高级的古代魔法",
     },
 
     [1409] = {
