@@ -20,6 +20,7 @@
 #include "constants/chapters.h"
 #include "chapterNew.h"
 #include "bmNew.h"
+#include "unitNew.h"
 
 #include "log.h"
 
@@ -132,22 +133,22 @@ void PrintCharacterDebugInfo(int hero_id, int hero_voice_id, int level)
 {
     DebugScreenInit();
 
-    int chibi_fid = GetPInfo(hero_id)->fid;
+    int chibi_fid = GetHeroPInfo(hero_id)->fid;
     if (!hasChibiFace(chibi_fid))
-        chibi_fid = FID_FACTION_CHIBI + GetPInfo(hero_id)->chibi_id;
+        chibi_fid = FID_FACTION_CHIBI + GetHeroPInfo(hero_id)->chibi_id;
 
     PutFaceChibi(chibi_fid, gBg2Tm + TM_OFFSET(0, 4), 0x270, 2, 0);
 
     DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 0), "PID: %d", hero_id);
-    DebugPutStr(gBg2Tm + TM_OFFSET(0, 1), GetFaceName(GetPInfo(hero_id)->fid));
+    DebugPutStr(gBg2Tm + TM_OFFSET(0, 1), GetFaceName(GetHeroPInfo(hero_id)->fid));
     DebugPutStr(gBg2Tm + TM_OFFSET(0, 2), GetVoiceName(GetVoiceId(hero_id, hero_voice_id)));
 
     DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 9), "LV %d", level);
-    int hp = GetPInfo(hero_id)->base_hp + GetPInfo(hero_id)->growth_hp * (level - 1) / 100;
-    int pow = GetPInfo(hero_id)->base_pow + GetPInfo(hero_id)->growth_pow * (level - 1) / 100;
-    int spd = GetPInfo(hero_id)->base_spd + GetPInfo(hero_id)->growth_spd * (level - 1) / 100;
-    int def = GetPInfo(hero_id)->base_def + GetPInfo(hero_id)->growth_def * (level - 1) / 100;
-    int res = GetPInfo(hero_id)->base_res + GetPInfo(hero_id)->growth_res * (level - 1) / 100;
+    int hp = GetHeroPInfo(hero_id)->base_hp + GetHeroPInfo(hero_id)->growth_hp * (level - 1) / 100;
+    int pow = GetHeroPInfo(hero_id)->base_pow + GetHeroPInfo(hero_id)->growth_pow * (level - 1) / 100;
+    int spd = GetHeroPInfo(hero_id)->base_spd + GetHeroPInfo(hero_id)->growth_spd * (level - 1) / 100;
+    int def = GetHeroPInfo(hero_id)->base_def + GetHeroPInfo(hero_id)->growth_def * (level - 1) / 100;
+    int res = GetHeroPInfo(hero_id)->base_res + GetHeroPInfo(hero_id)->growth_res * (level - 1) / 100;
     int total = hp + pow + spd + def + res;
     DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 11), "HP  %d", hp);
     DebugPutFmtNew(gBg2Tm + TM_OFFSET(0, 12), "POW %d", pow);
@@ -171,7 +172,7 @@ void VoiceDebug_OnInit(struct GenericProc * proc)
     PrintCharacterDebugInfo(hero_id, hero_voice_id, level);
 
     StartVoice(GetVoiceId(hero_id, hero_voice_id));
-    StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+    StartFace(0, GetHeroPInfo(hero_id)->fid, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
 }
 
 void VoiceDebug_OnIdle(struct GenericProc * proc)
@@ -221,7 +222,7 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
         proc->x = hero_id;
 
         EndFaceById(0);
-        StartFace(0, GetPInfo(hero_id)->fid, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
+        StartFace(0, GetHeroPInfo(hero_id)->fid, DISPLAY_WIDTH - NEW_FULL_FACE_WIDTH / 2, DISPLAY_HEIGHT - NEW_FULL_FACE_HEIGHT, 0);
 
         PrintCharacterDebugInfo(hero_id, hero_voice_id, level);
         StartVoice(GetVoiceId(hero_id, hero_voice_id));

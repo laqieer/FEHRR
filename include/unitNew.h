@@ -4,3 +4,4 @@
 #define PLAYER_UNIT_GRWOTH_FACTOR_LCK 2
 
 struct Unit * GetUnitToSelectAuto();
+struct PInfo const * GetHeroPInfo(int pid);

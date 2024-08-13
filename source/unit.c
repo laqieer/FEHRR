@@ -153,6 +153,17 @@ extern const struct PInfo heroes[];
 
 #define HERO_ID_LAST EID_ENEMY_HERO_7
 
+struct PInfo const * GetHeroPInfo(int pid)
+{
+    if (pid < 1)
+        return NULL;
+
+    if (pid <= HERO_ID_LAST)
+        return heroes + (pid - 1);
+
+    return PInfoTable + (pid - 1);;
+}
+
 struct PInfo const * GetPInfoNew(int pid)
 {
     if (pid < 1)
