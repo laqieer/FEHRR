@@ -29,7 +29,7 @@
 #define JID_ヘル JID_WYVERNLORD_F
 #define JID_エンブラ JID_MANAKETE
 #define JID_グスタフ JID_PALADIN
-#define JID_ユルグ JID_THIEF_LEADER_F
+#define JID_ユルグ JID_RIGHTEOUS_THIEF_F
 #define JID_ロキ JID_BISHOP_F
 #define JID_ノート JID_HALBERDIER
 #define JID_スカビオサ JID_FALCONKNIGHT

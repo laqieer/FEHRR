@@ -9,9 +9,9 @@
 
 #define MSG_NAME_HALBERDIER 3807
 #define MSG_HELP_HALBERDIER 3808
-#define MSG_NAME_THIEF_LEADER 3809
+#define MSG_NAME_RIGHTEOUS_THIEF 3809
 #define MSG_HELP_THIEF MSG_570
-#define MSG_HELP_THIEF_LEADER MSG_HELP_THIEF
+#define MSG_HELP_RIGHTEOUS_THIEF MSG_HELP_THIEF
 
 const struct JInfo JInfoTableNew[] =
 {
@@ -3071,11 +3071,11 @@ const struct JInfo JInfoTableNew[] =
         .res_terrain_table = TerrainResTable_Default,
     },
 
-    [JID_THIEF_LEADER - 1] =
+    [JID_RIGHTEOUS_THIEF - 1] =
     {
-        .id = JID_THIEF_LEADER,
-        .msg_name = MSG_NAME_THIEF_LEADER,
-        .msg_desc = MSG_HELP_THIEF_LEADER,
+        .id = JID_RIGHTEOUS_THIEF,
+        .msg_name = MSG_NAME_RIGHTEOUS_THIEF,
+        .msg_desc = MSG_HELP_RIGHTEOUS_THIEF,
         .jid_promote = JID_THIEF,
         .map_sprite = UNITSPRITE_THIEF,
         .walk_speed = UNIT_WALKSPEED_FAST,
@@ -3115,11 +3115,11 @@ const struct JInfo JInfoTableNew[] =
         .res_terrain_table = TerrainResTable_Default,
     },
 
-    [JID_THIEF_LEADER_F - 1] =
+    [JID_RIGHTEOUS_THIEF_F - 1] =
     {
-        .id = JID_THIEF_LEADER_F,
-        .msg_name = MSG_NAME_THIEF_LEADER,
-        .msg_desc = MSG_HELP_THIEF_LEADER,
+        .id = JID_RIGHTEOUS_THIEF_F,
+        .msg_name = MSG_NAME_RIGHTEOUS_THIEF,
+        .msg_desc = MSG_HELP_RIGHTEOUS_THIEF,
         .jid_promote = JID_THIEF_F,
         .map_sprite = UNITSPRITE_THIEF_F,
         .walk_speed = UNIT_WALKSPEED_FAST,

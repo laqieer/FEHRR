@@ -22774,9 +22774,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3809] = {
-        [LANGUAGE_JAPANESE] = "シーフリーダー",
-        [LANGUAGE_ENGLISH] = "Thief Leader",
-        [LANGUAGE_CHINESE] = "盗贼头目",
+        [LANGUAGE_JAPANESE] = "義賊",
+        [LANGUAGE_ENGLISH] = "Righteous Thief",
+        [LANGUAGE_CHINESE] = "义贼",
     },
 
     [TEXT_ID_TEST] = {

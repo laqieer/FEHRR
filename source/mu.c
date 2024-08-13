@@ -9,9 +9,9 @@ int getMuId(int jid)
     {
         case JID_HALBERDIER:
             return JID_SOLDIER;
-        case JID_THIEF_LEADER:
+        case JID_RIGHTEOUS_THIEF:
             return JID_THIEF;
-        case JID_THIEF_LEADER_F:
+        case JID_RIGHTEOUS_THIEF_F:
             return JID_THIEF_F;
         default:
             return jid;
