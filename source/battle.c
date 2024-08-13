@@ -165,6 +165,12 @@ void UnitPromoteNew(struct Unit * unit)
 {
     int i;
 
+    unit->level = 1;
+    unit->exp = 0;
+
+    if (UNIT_ATTRIBUTES(unit) & UNIT_ATTR_PROMOTED)
+        return;
+
     // substract to stats the bases of the previous jinfo
 
     // unit->max_hp -= unit->jinfo->base_hp;
@@ -203,9 +209,6 @@ void UnitPromoteNew(struct Unit * unit)
     }
 
     UnitCheckStatOverflow(unit);
-
-    unit->level = 1;
-    unit->exp = 0;
 }
 
 void UnitPromoteOld(struct Unit * unit)

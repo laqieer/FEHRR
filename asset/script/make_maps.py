@@ -1030,10 +1030,9 @@ const u16 ChapterEnemyHeroNames[][14] = {
                 file_scripts.write('    EvtClearTalk\n')
             if map_id == 'S0405':
                 file_scripts.write('    EvtNoSkip\n')
-                file_scripts.write('    EvtGiveItemTo(IID_BINDINGBLADE, PID_アルフォンス)\n')
-                file_scripts.write('    EvtSleep(64)\n')
+                file_scripts.write('    EvtSleep(60 * 1)\n')
                 file_scripts.write('    EvtFunc(func_fe6_0806D0E4)\n')
-                file_scripts.write('    EvtSleep(1280)\n')
+                file_scripts.write('    EvtSleep(60 * 16)\n')
             if 'MID_SCENARIO_ENDING_BGM' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtSetBgm(%s_MID_SCENARIO_ENDING_BGM)\n' % map_id)
             if 'MID_SCENARIO_ENDING_IMAGE' in map_scenarios.get(map_id, {}):

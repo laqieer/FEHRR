@@ -592,10 +592,9 @@ const EventScr EventScr_S0405_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0405)
     EvtClearTalk
     EvtNoSkip
-    EvtGiveItemTo(IID_BINDINGBLADE, PID_アルフォンス)
-    EvtSleep(64)
+    EvtSleep(60 * 1)
     EvtFunc(func_fe6_0806D0E4)
-    EvtSleep(1280)
+    EvtSleep(60 * 16)
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_003_Volcano)
@@ -15009,4 +15008,3 @@ const EventListScr EventListScr_S7115_Turn[] = {
     EvtListTurn(0, EventScr_LoadUnits_S7115, 1, 0, FACTION_BLUE)
     EvtListEnd
 };
-
