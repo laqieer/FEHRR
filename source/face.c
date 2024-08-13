@@ -649,4 +649,9 @@ void ClearNewFace(void)
 }
 
 // Target unit is at the right side when exchange items
-const int removeTargetUnitFaceWhenExchangeItemsInPrepScreen = 0;
+const u16 removeTargetUnitFaceWhenExchangeItemsInPrepScreenLoHword = 0;
+const u16 removeTargetUnitFaceWhenExchangeItemsInPrepScreenHiHword = 0;
+
+// Hide face in level up screen
+const u16 removeFaceWhenLvUpLoHword = 0;
+const u16 removeFaceWhenLvUpHiHword = 0;

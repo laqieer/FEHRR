@@ -11,4 +11,8 @@
 . = 0x80818F8;
 .rodata.fixFaceWhenDisacrdItemInPrepScreen : {*(.rodata.fixFaceWhenDisacrdItemInPrepScreen)}
 . = 0x807E496;
-.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreen : {*(.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreen)}
+.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreenLoHword : {*(.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreenLoHword)}
+.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreenHiHword : {*(.rodata.removeTargetUnitFaceWhenExchangeItemsInPrepScreenHiHword)}
+. = 0x805D9C2;
+.rodata.removeFaceWhenLvUpLoHword : {*(.rodata.removeFaceWhenLvUpLoHword)}
+.rodata.removeFaceWhenLvUpHiHword : {*(.rodata.removeFaceWhenLvUpHiHword)}
