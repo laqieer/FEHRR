@@ -37,3 +37,6 @@ ExtraSaveMenu_Tiles = gUnk_0832B554;
 
 TitleScreenOBJ_Tiles = gUnk_0835E6DC;
 TitleScreenBG1_Tiles = gUnk_0835CC90;
+
+StartShopScreen = func_fe6_08095E90;
+StartDefaultArmoryScreen = func_fe6_08095DF0;

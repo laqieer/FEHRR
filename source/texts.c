@@ -10330,9 +10330,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1721] = {
-        [LANGUAGE_JAPANESE] = "武器屋に行く",
-        [LANGUAGE_ENGLISH] = "Armory",
-        [LANGUAGE_CHINESE] = "武器店",
+        [LANGUAGE_JAPANESE] = "お店に行く",
+        [LANGUAGE_ENGLISH] = "Shop",
+        [LANGUAGE_CHINESE] = "商店",
     },
 
     [1722] = {
