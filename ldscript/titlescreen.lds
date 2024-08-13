@@ -6,3 +6,5 @@
 .rodata.pDecompressTitleScreenOBJ_1 : {*(.rodata.pDecompressTitleScreenOBJ_1)}
 . = 0x8692204;
 .rodata.pDecompressTitleScreenOBJ_2 : {*(.rodata.pDecompressTitleScreenOBJ_2)}
+. = 0x835F324;
+.rodata.TitleScreenCopyrightOBJTemplate : {*(.rodata.TitleScreenCopyrightOBJTemplate)}

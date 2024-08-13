@@ -53,3 +53,14 @@ void decompressTitleScreenOBJ(ProcPtr proc) {
 
 const ProcFunc pDecompressTitleScreenOBJ_1 = decompressTitleScreenOBJ;
 const ProcFunc pDecompressTitleScreenOBJ_2 = decompressTitleScreenOBJ;
+
+const u16 TitleScreenCopyrightOBJTemplate[] = {
+    // 7, // OBJ amount
+    0x4000, 0x4190, 0x20C0, // OBJ 0
+    0x4000, 0x41B0, 0x20C4, // OBJ 1
+    0x4000, 0x41D0, 0x20C8, // OBJ 2
+    0x4000, 0x41F0, 0x20CC, // OBJ 3
+    0x4000, 0x4010, 0x20D0, // OBJ 4
+    0x4000, 0x4030, 0x20D4, // OBJ 5
+    0x4000, 0x4050, 0x20D8 // OBJ 6
+};
