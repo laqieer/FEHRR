@@ -25,6 +25,11 @@
 #include "constants/icons.h"
 #include "constants/faces.h"
 
+#include "heroes.h"
+#include "enemies.h"
+#include "chapterNew.h"
+#include "bmNew.h"
+
 #include "voice.h"
 #include "unitNew.h"
 
@@ -144,6 +149,37 @@ struct Unit * GetUnitToSelectAuto()
     return GetUnit(GetNextAvailableBlueUnitId(0));
 }
 
+extern const struct PInfo heroes[];
+
+#define HERO_ID_LAST EID_ENEMY_HERO_7
+
+struct PInfo const * GetPInfoNew(int pid)
+{
+    if (pid < 1)
+        return NULL;
+
+    if (pid <= HERO_ID_LAST && IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
+        return heroes + (pid - 1);
+
+    return PInfoTable + (pid - 1);
+}
+
+struct PInfo const * GetPInfoOld(int pid)
+{
+    return GetPInfoNew(pid);
+}
+
+void func_fe6_08017764New(struct Unit * unit)
+{
+    if (UNIT_ATTRIBUTES(unit) & UNIT_ATTR_ALT_PINFO)
+        unit->pinfo = GetPInfoNew(unit->pinfo->id - 1);
+}
+
+void func_fe6_08017764Old(struct Unit * unit)
+{
+    func_fe6_08017764New(unit);
+}
+
 extern const struct JInfo JInfoTableNew[];
 
 struct JInfo const * GetJInfoNew(int jid)
@@ -165,7 +201,7 @@ void UnitInitFromInfoNew(struct Unit * unit, struct UnitInfo const * info)
 {
     int i;
 
-    unit->pinfo = GetPInfo(info->pid);
+    unit->pinfo = GetPInfoNew(info->pid);
 
     if (info->jid != 0)
         unit->jinfo = GetJInfoNew(info->jid);
