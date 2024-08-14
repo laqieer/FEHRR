@@ -1948,7 +1948,7 @@ const struct IInfo IInfoTableNew[] =
         .weight = 15,
         .crit = 5,
         .encoded_range = 0x12,
-        .cost_per_use = 1200,
+        .cost_per_use = 900,
         .required_wexp = WEXP_S,
         .icon = ICON_ITEM_78,
     },
