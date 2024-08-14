@@ -127,6 +127,14 @@ const u16 RankSWeapons[] = {
     IID_AUREOLA,
     IID_APOCALYPSE,
     IID_SAINTSSTAFF,
+    IID_BINDINGBLADE,
+    IID_ECKESACHS,
+    0,
+};
+
+const u16 DragonStones[] = {
+    IID_FIRESTONE,
+    IID_DIVINESTONE,
     0,
 };
 
@@ -177,11 +185,12 @@ const struct Shop ChapterPrepShops[] = {
     {SHOP_TYPE_VENDOR, ConsumableItems},
     {SHOP_TYPE_ARMORY, RankDWeapons},
     {SHOP_TYPE_ARMORY, RankCWeapons},
-    {SHOP_TYPE_VENDOR, CCItems},
+    {SHOP_TYPE_ARMORY, DragonStones},
     {SHOP_TYPE_ARMORY, RankBWeapons},
     {SHOP_TYPE_ARMORY, RankAWeapons},
     {SHOP_TYPE_SECRET_SHOP, DopingItems},
-    // {SHOP_TYPE_ARMORY, RankSWeapons},
+    {SHOP_TYPE_ARMORY, RankSWeapons},
+    {SHOP_TYPE_VENDOR, CCItems},
     {SHOP_TYPE_ARMORY, PoisonWeapons},
     {SHOP_TYPE_SECRET_SHOP, ShieldItems},
 };
