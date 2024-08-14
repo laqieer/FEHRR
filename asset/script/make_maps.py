@@ -50,6 +50,12 @@ def is_hero(unit):
 def is_hero_defined(unit):
     return unit['face_name'] is not None and hero_by_face.get(unit['face_name']) in hero_ids
 
+def normalize_hero_id_tag(id_tag):
+    id_tag = id_tag.replace('―', '_')
+    if id_tag.endswith('味方'):
+        id_tag = 'E' + id_tag[1:-2]
+    return id_tag
+
 def load_unit_data():
     for folder in (unit_data_person_path, unit_data_enemy_path):
         for root, dirs, files in os.walk(folder):
@@ -58,12 +64,23 @@ def load_unit_data():
                 with open(path, 'r', encoding='utf-8') as f:
                     units = json.load(f)
                     for unit in units:
-                        unit['id_tag'] = unit['id_tag'].replace('―', '_')
-                        if unit['id_tag'].endswith('味方'):
-                            unit['id_tag'] = 'E' + unit['id_tag'][1:-2]
+                        unit['id_tag'] = normalize_hero_id_tag(unit['id_tag'])
                         unit_data[unit['id_tag']] = unit
                         if unit['id_tag'] in hero_ids and hero_by_face.get(unit['face_name']) not in hero_ids:
                             hero_by_face[unit['face_name']] = unit['id_tag']
+
+def collect_unit_last_appearance():
+    for map_id, config in sorted(map_configs.items()):
+        for unit in config['units']:
+            unit['id_tag'] = normalize_hero_id_tag(unit['id_tag'])
+            if unit['id_tag'] in hero_ids:
+                unit_data[unit['id_tag']]['last_appearance'] = map_id
+    for unit in unit_data.values():
+        if 'last_appearance' in unit:
+            map_id = unit['last_appearance']
+            if 'last_appearances' not in map_configs[map_id]:
+                map_configs[map_id]['last_appearances'] = []
+            map_configs[map_id]['last_appearances'].append(unit['id_tag'])
 
 def load_weapon_type():
     with open(weapon_type_path, 'r', encoding='utf-8') as file:
@@ -765,6 +782,8 @@ def make_blue_units():
         file.write('#pragma once\n\n')
         for map_id in sorted(map_configs.keys()):
             file.write('extern const struct UnitInfo %sBlueUnits[];\n' % map_id)
+            if len(map_configs[map_id].get('last_appearances', [])) > 0:
+                file.write('extern const struct UnitInfo %sBlueUnitsLast[];\n' % map_id)
     with open('include/blueunits.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         for map_id in sorted(map_configs.keys()):
@@ -775,6 +794,14 @@ def make_blue_units():
                 file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (blue_hero_ids[i], blue_hero_ids[i][1:], x, y, x, y))
             file.write('    { 0 }, // end\n')
             file.write('};\n\n')
+            if len(map_configs[map_id].get('last_appearances', [])) > 0:
+                file.write('const struct UnitInfo %sBlueUnitsLast[] = {\n' % map_id)
+                for i, hero_id in enumerate(map_configs[map_id]['last_appearances']):
+                    x = 14
+                    y = i
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:], x, y, x, y))
+                file.write('    { 0 }, // end\n')
+                file.write('};\n\n')
 #             file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
 #             file.write('    EvtLoadUnits(%sBlueUnits)' % map_id)
 #             file.write('''
@@ -959,9 +986,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
             loaded_red_heroes = []
             red_unit_commander = "PID_NONE"
             for unit in map_configs[map_id]['units']:
-                unit['id_tag'] = unit['id_tag'].replace('―', '_')
-                if unit['id_tag'].endswith('味方'):
-                    unit['id_tag'] = 'E' + unit['id_tag'][1:-2]
+                unit['id_tag'] = normalize_hero_id_tag(unit['id_tag'])
                 if unit['spawn_turns'] not in red_units_by_turn_and_count:
                     red_units_by_turn_and_count[unit['spawn_turns']] = {}
                 if unit['spawn_count'] not in red_units_by_turn_and_count[unit['spawn_turns']]:
@@ -1045,6 +1070,8 @@ const u16 ChapterEnemyHeroNames[][14] = {
                 file_scripts.write('    EvtTalk(MID_SCENARIO_ENDING_%s)\n' % map_id)
                 file_scripts.write('    EvtClearTalk\n')
             file_scripts.write('    EvtNoSkip\n')
+            if len(map_configs[map_id].get('last_appearances', [])) > 0:
+                file_scripts.write('    EvtLoadUnits(%sBlueUnitsLast)\n' % map_id)
             file_scripts.write('    EvtGiveMoney(10 * (CHAPTER_CH_%s - CHAPTER_CH_NEW))\n' % map_id)
             file_scripts.write('    EvtSleep(64)\n')
             file_scripts.write('    EvtNextChapter(CHAPTER_CH_%s)\n' % next_map_id)
@@ -1144,6 +1171,7 @@ if __name__ == '__main__':
     load_move_type()
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
+    collect_unit_last_appearance()
     make_blue_units()
     make_red_unit_jobs()
     make_red_units_and_event_scripts()

@@ -4196,6 +4196,7 @@ const EventScr EventScr_S2131_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S2131)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S2131BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S2131 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S2132)
@@ -4304,6 +4305,7 @@ const EventScr EventScr_S2134_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S2134)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S2134BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S2134 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S2135)
@@ -4506,6 +4508,7 @@ const EventScr EventScr_S3015_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S3015)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S3015BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S3015 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S3021)
@@ -6390,6 +6393,7 @@ const EventScr EventScr_S3133_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S3133)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S3133BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S3133 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S3134)
@@ -7151,6 +7155,7 @@ const EventScr EventScr_S4051_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4051)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4051BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4051 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4052)
@@ -7274,6 +7279,7 @@ const EventScr EventScr_S4055_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4055)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4055BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4055 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4061)
@@ -7317,6 +7323,7 @@ const EventScr EventScr_S4061_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4061)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4061BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4061 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4062)
@@ -7450,6 +7457,7 @@ const EventScr EventScr_S4065_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4065)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4065BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4065 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4071)
@@ -7493,6 +7501,7 @@ const EventScr EventScr_S4071_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4071)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4071BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4071 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4072)
@@ -8148,6 +8157,7 @@ const EventScr EventScr_S4105_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4105)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4105BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4105 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4111)
@@ -8293,6 +8303,7 @@ const EventScr EventScr_S4114_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4114)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4114BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4114 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4115)
@@ -8453,6 +8464,7 @@ const EventScr EventScr_S4124_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4124)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4124BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4124 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4125)
@@ -8495,6 +8507,7 @@ const EventScr EventScr_S4125_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4125)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4125BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4125 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4131)
@@ -8663,6 +8676,7 @@ const EventScr EventScr_S4134_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4134)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4134BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4134 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4135)
@@ -8708,6 +8722,7 @@ const EventScr EventScr_S4135_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S4135)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S4135BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S4135 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5011)
@@ -8869,6 +8884,7 @@ const EventScr EventScr_S5015_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S5015)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S5015BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S5015 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5021)
@@ -9375,6 +9391,7 @@ const EventScr EventScr_S5045_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S5045)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S5045BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S5045 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5051)
@@ -9541,6 +9558,7 @@ const EventScr EventScr_S5055_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S5055)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S5055BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S5055 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5061)
@@ -9939,6 +9957,7 @@ const EventScr EventScr_S5081_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S5081)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S5081BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S5081 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5082)
@@ -10572,6 +10591,7 @@ const EventScr EventScr_S5115_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S5115)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S5115BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S5115 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5121)
@@ -10932,6 +10952,7 @@ const EventScr EventScr_S5135_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S5135)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S5135BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S5135 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S6011)
@@ -12144,6 +12165,7 @@ const EventScr EventScr_S6075_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S6075)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S6075BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S6075 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S6081)
@@ -12761,6 +12783,7 @@ const EventScr EventScr_S6113_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S6113)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S6113BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S6113 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S6114)
@@ -13212,6 +13235,7 @@ const EventScr EventScr_S6135_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S6135)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S6135BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S6135 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7011)
@@ -14009,6 +14033,7 @@ const EventScr EventScr_S7055_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S7055)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S7055BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S7055 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7061)
@@ -14252,6 +14277,7 @@ const EventScr EventScr_S7071_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S7071)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S7071BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S7071 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7072)
@@ -14539,6 +14565,7 @@ const EventScr EventScr_S7085_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S7085)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S7085BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S7085 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7091)
