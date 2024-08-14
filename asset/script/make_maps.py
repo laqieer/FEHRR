@@ -50,11 +50,18 @@ def is_hero(unit):
 def is_hero_defined(unit):
     return unit['face_name'] is not None and hero_by_face.get(unit['face_name']) in hero_ids
 
+specials = {
+    "PID_ブルーノ皇子": "EID_ブルーノ",
+    "EID_ヘイズ敵": "PID_神階ヘイズ",
+    "EID_ヘイズ敵0": "PID_神階ヘイズ",
+    "PID_ヘンリエッテ": "PID_愛の祭ヘンリエッテ",
+}
+
 def normalize_hero_id_tag(id_tag):
     id_tag = id_tag.replace('―', '_')
     if id_tag.endswith('味方'):
         id_tag = 'E' + id_tag[1:-2]
-    return id_tag
+    return specials.get(id_tag, id_tag)
 
 def load_unit_data():
     for folder in (unit_data_person_path, unit_data_enemy_path):
@@ -321,6 +328,16 @@ def load_map_scenarios():
                                 if '1st_appearances' not in map_configs[map_id]:
                                     map_configs[map_id]['1st_appearances'] = []
                                 map_configs[map_id]['1st_appearances'].append(hero_id)
+                        fids = re.findall(r',(ch.*?),', v)
+                        for fid in fids:
+                            if fid in hero_by_face:
+                                hero_id = hero_by_face[fid]
+                                hero_id = normalize_hero_id_tag(hero_id)
+                                if hero_id in hero_ids and '1st_appearance' not in unit_data[hero_id]:
+                                    unit_data[hero_id]['1st_appearance'] = map_id
+                                    if '1st_appearances' not in map_configs[map_id]:
+                                        map_configs[map_id]['1st_appearances'] = []
+                                    map_configs[map_id]['1st_appearances'].append(hero_id)
 
 def get_text_in_textarea(url):
     with sync_playwright() as playwright:
@@ -1158,6 +1175,14 @@ def make_map_events():
             file.write('    .event_script_victory = EventScr_%s_Victory,\n' % map_id)
             file.write('};\n\n')
 
+def print_unplayable_heroes():
+    print('Unplayable heroes:')
+    for hero_id in hero_ids:
+        assert hero_id in unit_data
+        unit = unit_data[hero_id]
+        if '1st_appearance' not in unit and 'last_appearance' not in unit and hero_id not in blue_hero_ids:
+            print(hero_id)
+
 if __name__ == '__main__':
     fetch_all_configs_from_wiki()
     load_map_configs()
@@ -1191,3 +1216,4 @@ if __name__ == '__main__':
     make_red_unit_jobs()
     make_red_units_and_event_scripts()
     make_map_events()
+    # print_unplayable_heroes()

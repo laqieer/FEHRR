@@ -469,6 +469,7 @@ extern const struct UnitInfo S7092BlueUnits[];
 extern const struct UnitInfo S7093BlueUnits[];
 extern const struct UnitInfo S7094BlueUnits[];
 extern const struct UnitInfo S7095BlueUnits[];
+extern const struct UnitInfo S7095BlueUnitsLast[];
 extern const struct UnitInfo S7101BlueUnits[];
 extern const struct UnitInfo S7102BlueUnits[];
 extern const struct UnitInfo S7103BlueUnits[];

@@ -1548,8 +1548,7 @@ const u16 ChapterEnemyHeroFaces[][7] = {
         FID_ch02_01_Fir_F_Bloom01, // 4: PID_開花フィル
     },
     [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = {
-        FID_ch00_49_Heith_F_Enemy00, // 1: EID_ヘイズ敵0
-        FID_ch19_00_Lueue_M_Normal, // 2: PID_リュール男
+        FID_ch19_00_Lueue_M_Normal, // 1: PID_リュール男
     },
     [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = {
         FID_ch19_11_Diamand_M_Normal, // 1: PID_ディアマンド
@@ -1564,10 +1563,9 @@ const u16 ChapterEnemyHeroFaces[][7] = {
         FID_ch19_16_Citrinica_F_Normal, // 3: PID_シトリニカ
     },
     [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = {
-        FID_ch00_49_Heith_F_Enemy01, // 1: EID_ヘイズ敵
-        FID_ch19_14_Staluke_M_Weapon01, // 2: PID_魔器スタルーク
-        FID_ch19_00_Lueue_M_Normal, // 3: PID_リュール男
-        FID_ch19_16_Citrinica_F_Normal, // 4: PID_シトリニカ
+        FID_ch19_14_Staluke_M_Weapon01, // 1: PID_魔器スタルーク
+        FID_ch19_00_Lueue_M_Normal, // 2: PID_リュール男
+        FID_ch19_16_Citrinica_F_Normal, // 3: PID_シトリニカ
     },
     [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = {
         FID_ch09_02_Senerio_M_ELECTION023, // 1: PID_総選挙セネリオ

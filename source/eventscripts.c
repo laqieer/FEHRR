@@ -14727,6 +14727,7 @@ const EventScr EventScr_S7095_Victory[] = {
     EvtTalk(MID_SCENARIO_ENDING_S7095)
     EvtClearTalk
     EvtNoSkip
+    EvtLoadUnits(S7095BlueUnitsLast)
     EvtGiveMoney(10 * (CHAPTER_CH_S7095 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7101)

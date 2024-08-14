@@ -1548,8 +1548,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
         MPID_開花フィル, MPID_H_開花フィル, // 4
     },
     [CHAPTER_CH_S7091 - CHAPTER_CH_NEW] = {
-        MEID_ヘイズ敵0, MEID_H_ヘイズ敵0, // 1
-        MPID_リュール男, MPID_H_リュール男, // 2
+        MPID_リュール男, MPID_H_リュール男, // 1
     },
     [CHAPTER_CH_S7092 - CHAPTER_CH_NEW] = {
         MPID_ディアマンド, MPID_H_ディアマンド, // 1
@@ -1564,10 +1563,9 @@ const u16 ChapterEnemyHeroNames[][14] = {
         MPID_シトリニカ, MPID_H_シトリニカ, // 3
     },
     [CHAPTER_CH_S7095 - CHAPTER_CH_NEW] = {
-        MEID_ヘイズ敵, MEID_H_ヘイズ敵, // 1
-        MPID_魔器スタルーク, MPID_H_魔器スタルーク, // 2
-        MPID_リュール男, MPID_H_リュール男, // 3
-        MPID_シトリニカ, MPID_H_シトリニカ, // 4
+        MPID_魔器スタルーク, MPID_H_魔器スタルーク, // 1
+        MPID_リュール男, MPID_H_リュール男, // 2
+        MPID_シトリニカ, MPID_H_シトリニカ, // 3
     },
     [CHAPTER_CH_S7101 - CHAPTER_CH_NEW] = {
         MPID_総選挙セネリオ, MPID_H_総選挙セネリオ, // 1

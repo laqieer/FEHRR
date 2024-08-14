@@ -2059,7 +2059,3 @@
 #define JID_ヴェロニカ洗脳2_PROMOTED JID_SAGE
 #define JID_ブルーノ素顔_UNPROMOTED JID_TROUBADOUR // MVID_騎馬 WID_青魔
 #define JID_ブルーノ素顔_PROMOTED JID_VALKYRIE
-#define JID_ヘイズ敵0_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ヘイズ敵0_PROMOTED JID_SAGE
-#define JID_ヘイズ敵_UNPROMOTED JID_MAGE // MVID_歩行 WID_緑魔
-#define JID_ヘイズ敵_PROMOTED JID_SAGE
