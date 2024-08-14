@@ -1045,7 +1045,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
                 file_scripts.write('    EvtTalk(MID_SCENARIO_ENDING_%s)\n' % map_id)
                 file_scripts.write('    EvtClearTalk\n')
             file_scripts.write('    EvtNoSkip\n')
-            file_scripts.write('    EvtGiveMoney(100 * %s)\n' % map_id[-1])
+            file_scripts.write('    EvtGiveMoney(10 * (CHAPTER_CH_%s - CHAPTER_CH_NEW))\n' % map_id)
             file_scripts.write('    EvtSleep(64)\n')
             file_scripts.write('    EvtNextChapter(CHAPTER_CH_%s)\n' % next_map_id)
             file_scripts.write('    EvtSleep(1)\n')
