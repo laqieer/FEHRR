@@ -8819,7 +8819,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [1469] = {
         [LANGUAGE_JAPANESE] = "ハルトムートの剣　守備魔防＋５",
-        [LANGUAGE_ENGLISH] = "Wielded by Hartmut. Increases Def and Res by 5 pts.",
+        [LANGUAGE_ENGLISH] = "Wielded by Hartmut, Def and Res + 5 pts.",
         [LANGUAGE_CHINESE] = "哈尔特穆德之剑 两防＋5",
     },
 
@@ -9413,7 +9413,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [1568] = {
         [LANGUAGE_JAPANESE] = "ハルトムートの剣　間接攻撃可能",
-        [LANGUAGE_ENGLISH] = "Wielded by Hartmut. Doubles as ranged attack.",
+        [LANGUAGE_ENGLISH] = "Wielded by Hartmut,doubles as ranged attack.",
         [LANGUAGE_CHINESE] = "哈尔特穆德之剑 可间接攻击",
     },
 
