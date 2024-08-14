@@ -83,7 +83,7 @@ struct ChapterInfoNew const newChapters[] = {
     },
     [CHAPTER_CH_S0101 - CHAPTER_CH_NEW] = {
         .debug_name = "S0101",
-        .has_prep = TRUE,
+        .has_prep = FALSE,
         .initial_x = 0,
         .initial_y = 3,
         .banim_terrain_id = BANIM_TERRAIN_DEFAULT,

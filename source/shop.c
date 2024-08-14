@@ -12,7 +12,7 @@
 #include "chapters.h"
 
 // 1st chapter has prep screen
-#define CHAPTER_CH_1st_Prep CHAPTER_CH_S0101
+#define CHAPTER_CH_1st_Prep CHAPTER_CH_S0102
 
 const u16 PoisonWeapons[] = {
     IID_POISONSWORD,

@@ -81,6 +81,8 @@ def collect_unit_last_appearance():
             if 'last_appearances' not in map_configs[map_id]:
                 map_configs[map_id]['last_appearances'] = []
             map_configs[map_id]['last_appearances'].append(unit['id_tag'])
+            if '1st_appearance' in unit_data[unit['id_tag']]:
+                map_configs[unit_data[unit['id_tag']]['1st_appearance']]['1st_appearances'].remove(unit['id_tag'])
 
 def load_weapon_type():
     with open(weapon_type_path, 'r', encoding='utf-8') as file:
@@ -281,6 +283,7 @@ def load_map_configs():
                         if not os.path.exists(os.path.join(wiki_config_save_path, map_id + '.txt')):
                             fetch_config_from_wiki(map_id)
                         load_map_from_wiki(map_id)
+    map_configs['S0101']['player_count'] = 3
 
 def load_map_names():
     for file_name in os.listdir(message_en_data_path):
@@ -306,7 +309,18 @@ def load_map_scenarios():
             with open(file_path, 'r', encoding="utf-8") as file:
                 kvs = json.load(file)
                 for kv in kvs:
-                    map_scenarios[map_id][kv['key']] = kv['value']
+                    k = kv['key']
+                    v = kv['value']
+                    map_scenarios[map_id][k] = v
+                    if not k.endswith('_BGM') and not k.endswith('_IMAGE'):
+                        pids = re.findall(r'\$WmM(.*?),', v)
+                        for hero_id in pids:
+                            hero_id = normalize_hero_id_tag(hero_id)
+                            if hero_id in hero_ids and '1st_appearance' not in unit_data[hero_id]:
+                                unit_data[hero_id]['1st_appearance'] = map_id
+                                if '1st_appearances' not in map_configs[map_id]:
+                                    map_configs[map_id]['1st_appearances'] = []
+                                map_configs[map_id]['1st_appearances'].append(hero_id)
 
 def get_text_in_textarea(url):
     with sync_playwright() as playwright:
@@ -773,9 +787,7 @@ def print_max_enemy_unit_count():
 def print_max_enemy_hero_count():
     print(max([len(set([u['id_tag'] for u in x['units'] if is_hero(unit_data[u['id_tag']]) and not is_hero_defined(unit_data[u['id_tag']])])) for x in map_configs.values()]))
 
-HERO_ID_MYUNIT = 'EID_フード'
-
-blue_hero_ids = hero_ids[:3] + [HERO_ID_MYUNIT]
+blue_hero_ids = ['PID_アンナ', 'EID_フード', 'PID_アルフォンス', 'PID_シャロン']
 
 def make_blue_units():
     with open('include/blueunitdefs.h', 'w', encoding='utf-8') as file:
@@ -788,10 +800,13 @@ def make_blue_units():
         file.write('#pragma once\n\n')
         for map_id in sorted(map_configs.keys()):
             file.write('const struct UnitInfo %sBlueUnits[] = {\n' % map_id)
+            first_appearances = map_configs[map_id].get('1st_appearances', [])
+            assert len(first_appearances) <= map_configs[map_id]['player_count']
             for i in range(map_configs[map_id]['player_count']):
                 x = 2 * map_configs[map_id]['player_pos'][i]['x']
                 y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
-                file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (blue_hero_ids[i], blue_hero_ids[i][1:], x, y, x, y))
+                hero_id = first_appearances[i] if i < len(first_appearances) else [x for x in blue_hero_ids if x not in first_appearances][i - len(first_appearances)]
+                file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, blue_hero_ids[i][1:], x, y, x, y))
             file.write('    { 0 }, // end\n')
             file.write('};\n\n')
             if len(map_configs[map_id].get('last_appearances', [])) > 0:
@@ -1148,8 +1163,6 @@ if __name__ == '__main__':
     load_map_configs()
     print('Loaded %d maps' % len(map_configs))
     load_map_names()
-    load_map_scenarios()
-    print('Loaded %d map scenarios' % len(map_scenarios))
     load_terrain_configs()
     print('Loaded %d terrains' % len(terrain_configs))
     # collect_terrain_1st_appearance()
@@ -1162,16 +1175,18 @@ if __name__ == '__main__':
     # make_map_changes()
     # make_common_map()
     # make_chapter_goals()
-    make_chapters()
     # print_max_enemy_unit_count()
     load_unit_data()
     print('Loaded %d units' % len(unit_data))
+    load_map_scenarios()
+    print('Loaded %d map scenarios' % len(map_scenarios))
+    collect_unit_last_appearance()
+    make_chapters()
     load_weapon_type()
     print('Loaded %d weapon types' % len(weapon_type))
     load_move_type()
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
-    collect_unit_last_appearance()
     make_blue_units()
     make_red_unit_jobs()
     make_red_units_and_event_scripts()
