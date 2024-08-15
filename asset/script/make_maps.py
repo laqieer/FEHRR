@@ -806,6 +806,17 @@ def print_max_enemy_hero_count():
 
 blue_hero_ids = ['PID_アンナ', 'EID_フード', 'PID_アルフォンス', 'PID_シャロン']
 
+manakete_heroes = []
+
+def find_manakete_heroes():
+    with open("include/hero_jobs.h", "r", encoding="utf-8") as file:
+        text = file.read()
+        jids = re.findall(r'#define J(\w+) JID_MANAKETE', text)
+        for jid in jids:
+            if not jid.endswith('_PROMOTED'):
+                manakete_heroes.append('E' + jid)
+                manakete_heroes.append('P' + jid)
+
 def make_blue_units():
     with open('include/blueunitdefs.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
@@ -840,7 +851,8 @@ def make_blue_units():
                     x = 2 * map_configs[map_id]['player_pos'][i + len(first_appearances)]['x']
                     y = 2 * (7 - map_configs[map_id]['player_pos'][i + len(first_appearances)]['y'])
                     hero_id = [x for x in blue_hero_ids if x not in first_appearances][i]
-                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), blue_unit_lv, x, y, x, y))
+                    level = 20 if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
             if len(first_appearances) > 0:
@@ -848,7 +860,8 @@ def make_blue_units():
                 for i, hero_id in enumerate(first_appearances):
                     x = 2 * map_configs[map_id]['player_pos'][i]['x']
                     y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
-                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), blue_unit_lv, x, y, x, y))
+                    level = 20 if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
             if len(map_configs[map_id].get('last_appearances', [])) > 0:
@@ -856,7 +869,8 @@ def make_blue_units():
                 for i, hero_id in enumerate(map_configs[map_id]['last_appearances']):
                     x = 14
                     y = i
-                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), blue_unit_lv, x, y, x, y))
+                    level = 20 if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
 #             file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
@@ -1084,6 +1098,8 @@ const u16 ChapterEnemyHeroNames[][14] = {
                         red_unit_job = 'J' + unit['id_tag'][1:]
                         if not is_hero_defined(unit_data[unit['id_tag']]):
                             red_unit_job += '_PROMOTED' if is_red_unit_promoted else '_UNPROMOTED'
+                        else:
+                            red_unit_job += '_PROMOTED' if is_red_unit_promoted else ''
                         red_unit_job_lv = red_unit_lv
                         if is_red_unit_promoted:
                                 red_unit_move = move_type[unit_data[unit['id_tag']]['move_type']]['id_tag']
@@ -1241,6 +1257,7 @@ if __name__ == '__main__':
     load_move_type()
     print('Loaded %d move types' % len(move_type))
     # print_max_enemy_hero_count()
+    find_manakete_heroes()
     make_blue_units()
     make_red_unit_jobs()
     make_red_units_and_event_scripts()

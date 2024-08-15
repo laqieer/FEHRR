@@ -3595,7 +3595,7 @@ const struct UnitInfo S7071BlueUnits[] = {
 };
 
 const struct UnitInfo S7071BlueUnitsLast[] = {
-    { EID_ネルトゥス, JID_ネルトゥス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ネルトゥス, JID_ネルトゥス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
