@@ -379,7 +379,7 @@ void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
 {
     struct Unit * unit;
 
-    Infof("Load unit: %d %s, job: %d %s, LV: %d, position: (%d, %d) -> (%d, %d)", info->pid, GetHeroName(info->pid), info->jid, GetMsg(GetJInfo(info->jid)->msg_name), info->level, info->x_load, info->y_load, info->x_move, info->y_move);
+    Infof("Loading unit by info at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d) -> (%d, %d)", info, info->pid, GetHeroName(info->pid), info->jid, GetMsg(GetJInfo(info->jid)->msg_name), info->level, info->x_load, info->y_load, info->x_move, info->y_move);
 
     if(IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
         Assert(gMapUnit[info->y_load][info->x_load] == 0 && gMapUnit[info->y_move][info->x_move] == 0);
@@ -392,8 +392,14 @@ void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
     else
         unit = NULL;
 
+    if(unit)
+        Infof("Unit already exists at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d)", unit, unit->pinfo->id, GetHeroName(unit->pinfo->id), unit->jinfo->id, GetMsg(GetJInfo(unit->jinfo->id)->msg_name), unit->level, unit->x, unit->y);
+
     if (!unit)
+    {
         unit = CreateUnit(info);
+        Infof("Created unit at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d)", unit, unit->pinfo->id, GetHeroName(unit->pinfo->id), unit->jinfo->id, GetMsg(GetJInfo(unit->jinfo->id)->msg_name), unit->level, unit->x, unit->y);
+    }
 
     if ((gPlaySt.flags & PLAY_FLAG_HARD) && info->faction_id == FACTION_ID_RED)
         UnitApplyBonusLevels(unit, GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->hard_bonus_levels);
