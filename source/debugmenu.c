@@ -106,8 +106,8 @@ fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
 
     if (gKeySt->repeated & (KEY_DPAD_LEFT | KEY_DPAD_RIGHT))
     {
-        DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), "        ");
-        DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), GetChapterInfo(mapEnt->mapId)->debug_name);
+        DebugPutStr(gBg0Tm + TM_OFFSET(7, 2), "        ");
+        DebugPutStr(gBg0Tm + TM_OFFSET(7, 2), GetChapterInfo(mapEnt->mapId)->debug_name);
 
         EnableBgSync(BG0_SYNC_BIT);
     }
@@ -535,7 +535,7 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
 
 fu8 InitDebugMapMenu(struct MenuProc * menu)
 {
-    DebugPutStr(gBg0Tm + TM_OFFSET(7, 3), GetChapterInfo(CHAPTER_1)->debug_name);
+    DebugPutStr(gBg0Tm + TM_OFFSET(7, 2), GetChapterInfo(CHAPTER_1)->debug_name);
     EnableBgSync(BG0_SYNC_BIT);
 
     return 0;
@@ -543,7 +543,7 @@ fu8 InitDebugMapMenu(struct MenuProc * menu)
 
 struct MenuInfo const MenuInfo_Debug_Map =
 {
-    .rect = { 1, 1, 20, 0 },
+    .rect = { 1, 0, 20, 0 },
     .entries = MenuEntInfo_Debug_Map,
     .on_init = InitDebugMapMenu,
     .on_b_press = func_fe6_0801A748,
