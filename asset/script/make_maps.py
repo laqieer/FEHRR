@@ -870,7 +870,7 @@ def make_blue_units():
                     x = 14
                     y = i
                     level = 20 if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
-                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
 #             file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
@@ -1146,6 +1146,8 @@ const u16 ChapterEnemyHeroNames[][14] = {
             file_scripts.write('    EvtNoSkip\n')
             if len(map_configs[map_id].get('last_appearances', [])) > 0:
                 file_scripts.write('    EvtLoadUnits(%sBlueUnitsLast)\n' % map_id)
+                for hero_id in map_configs[map_id]['last_appearances']:
+                    file_scripts.write('    EvtChangeFaction(%s, FACTION_BLUE)' % hero_id)
             file_scripts.write('    EvtGiveMoney(10 * (CHAPTER_CH_%s - CHAPTER_CH_NEW))\n' % map_id)
             file_scripts.write('    EvtSleep(64)\n')
             file_scripts.write('    EvtNextChapter(CHAPTER_CH_%s)\n' % next_map_id)
