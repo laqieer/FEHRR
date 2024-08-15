@@ -82,7 +82,7 @@ def make_debug_heroes(filename):
             f.write('    {\n')
             data = hero_data[hero]
             f.write('        .pid = %s,\n' % hero)
-            f.write('        .jid = J%s,\n' % hero[1:])
+            f.write('        .jid = J%s_PROMOTED,\n' % hero[1:])
             f.write('        .pid_lead = PID_アルフォンス,\n')
             f.write('        .level = DEBUG_BLUE_UNIT_LEVEL,\n')
             f.write('        .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,\n')
@@ -100,8 +100,6 @@ def make_debug_heroes(filename):
             else:
                 f.write('            IID_FIRESTONE,\n')
                 f.write('            IID_DIVINESTONE,\n')
-                f.write('            IID_DEMONSTONE,\n')
-                f.write('            IID_DARKBREATH,\n')
             f.write('        },\n')
             x = 2 * (i % 8)
             y = i // 8

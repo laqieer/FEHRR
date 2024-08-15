@@ -5,12 +5,10 @@
 #include "constants/iids.h"
 #include "constants/jids.h"
 
-#include "jobs.h"
-
 const struct UnitInfo DebugBlueUnits[] = {
     {
         .pid = PID_アルフォンス,
-        .jid = JID_ROY_PROMOTED,
+        .jid = JID_アルフォンス_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -28,7 +26,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_シャロン,
-        .jid = JID_HALBERDIER,
+        .jid = JID_シャロン_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -46,7 +44,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_アンナ,
-        .jid = JID_WARRIOR,
+        .jid = JID_アンナ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -64,7 +62,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ヴェロニカ,
-        .jid = JID_ヴェロニカ,
+        .jid = JID_ヴェロニカ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -82,7 +80,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_レギン,
-        .jid = JID_レギン,
+        .jid = JID_レギン_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -100,7 +98,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ブルーノ,
-        .jid = JID_ブルーノ,
+        .jid = JID_ブルーノ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -118,7 +116,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_神階ピアニー,
-        .jid = JID_神階ピアニー,
+        .jid = JID_神階ピアニー_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -136,7 +134,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_セイズ,
-        .jid = JID_セイズ,
+        .jid = JID_セイズ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -154,7 +152,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_フィヨルム,
-        .jid = JID_フィヨルム,
+        .jid = JID_フィヨルム_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -172,7 +170,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_神階エイル,
-        .jid = JID_神階エイル,
+        .jid = JID_神階エイル_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -190,7 +188,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_レティシア,
-        .jid = JID_レティシア,
+        .jid = JID_レティシア_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -208,7 +206,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_オッテル,
-        .jid = JID_オッテル,
+        .jid = JID_オッテル_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -226,7 +224,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ファフニール,
-        .jid = JID_ファフニール,
+        .jid = JID_ファフニール_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -244,15 +242,13 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_フレイヤ,
-        .jid = JID_フレイヤ,
+        .jid = JID_フレイヤ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
         .items = {
             IID_FIRESTONE,
             IID_DIVINESTONE,
-            IID_DEMONSTONE,
-            IID_DARKBREATH,
         },
         .x_load = 10,
         .x_move = 10,
@@ -262,7 +258,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_スルト,
-        .jid = JID_スルト,
+        .jid = JID_スルト_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -280,15 +276,13 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_アシュ,
-        .jid = JID_アシュ,
+        .jid = JID_アシュ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
         .items = {
             IID_FIRESTONE,
             IID_DIVINESTONE,
-            IID_DEMONSTONE,
-            IID_DARKBREATH,
         },
         .x_load = 14,
         .x_move = 14,
@@ -298,15 +292,13 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_神階アスク,
-        .jid = JID_神階アスク,
+        .jid = JID_神階アスク_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
         .items = {
             IID_FIRESTONE,
             IID_DIVINESTONE,
-            IID_DEMONSTONE,
-            IID_DARKBREATH,
         },
         .x_load = 0,
         .x_move = 0,
@@ -316,7 +308,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_リーヴ,
-        .jid = JID_リーヴ,
+        .jid = JID_リーヴ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -334,7 +326,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_レーギャルン,
-        .jid = JID_レーギャルン,
+        .jid = JID_レーギャルン_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -352,7 +344,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ダグ,
-        .jid = JID_ダグ,
+        .jid = JID_ダグ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -370,7 +362,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_エイトリ,
-        .jid = JID_エイトリ,
+        .jid = JID_エイトリ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -388,7 +380,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_レーヴァテイン,
-        .jid = JID_レーヴァテイン,
+        .jid = JID_レーヴァテイン_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -406,7 +398,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ヘル,
-        .jid = JID_ヘル,
+        .jid = JID_ヘル_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -424,15 +416,13 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_エンブラ,
-        .jid = JID_エンブラ,
+        .jid = JID_エンブラ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
         .items = {
             IID_FIRESTONE,
             IID_DIVINESTONE,
-            IID_DEMONSTONE,
-            IID_DARKBREATH,
         },
         .x_load = 14,
         .x_move = 14,
@@ -442,15 +432,13 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ネルトゥス,
-        .jid = JID_ネルトゥス,
+        .jid = JID_ネルトゥス_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
         .items = {
             IID_FIRESTONE,
             IID_DIVINESTONE,
-            IID_DEMONSTONE,
-            IID_DARKBREATH,
         },
         .x_load = 0,
         .x_move = 0,
@@ -460,7 +448,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_グスタフ,
-        .jid = JID_グスタフ,
+        .jid = JID_グスタフ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -478,7 +466,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_ユルグ,
-        .jid = JID_ユルグ,
+        .jid = JID_ユルグ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -496,7 +484,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_愛の祭ヘンリエッテ,
-        .jid = JID_愛の祭ヘンリエッテ,
+        .jid = JID_愛の祭ヘンリエッテ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -514,7 +502,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ロキ,
-        .jid = JID_ロキ,
+        .jid = JID_ロキ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -532,7 +520,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ノート,
-        .jid = JID_ノート,
+        .jid = JID_ノート_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -550,7 +538,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_スカビオサ,
-        .jid = JID_スカビオサ,
+        .jid = JID_スカビオサ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -568,15 +556,13 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_エルム,
-        .jid = JID_エルム,
+        .jid = JID_エルム_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
         .items = {
             IID_FIRESTONE,
             IID_DIVINESTONE,
-            IID_DEMONSTONE,
-            IID_DARKBREATH,
         },
         .x_load = 14,
         .x_move = 14,
@@ -586,7 +572,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_ヘルビンディ,
-        .jid = JID_ヘルビンディ,
+        .jid = JID_ヘルビンディ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -604,15 +590,13 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_フロージ,
-        .jid = JID_フロージ,
+        .jid = JID_フロージ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
         .items = {
             IID_FIRESTONE,
             IID_DIVINESTONE,
-            IID_DEMONSTONE,
-            IID_DARKBREATH,
         },
         .x_load = 2,
         .x_move = 2,
@@ -622,7 +606,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_神階ルピナス,
-        .jid = JID_神階ルピナス,
+        .jid = JID_神階ルピナス_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -640,7 +624,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_グルヴェイグ,
-        .jid = JID_グルヴェイグ,
+        .jid = JID_グルヴェイグ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -658,7 +642,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_フリーズ,
-        .jid = JID_フリーズ,
+        .jid = JID_フリーズ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -676,7 +660,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_プルメリア,
-        .jid = JID_プルメリア,
+        .jid = JID_プルメリア_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -694,7 +678,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_クワシル,
-        .jid = JID_クワシル,
+        .jid = JID_クワシル_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -712,7 +696,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_神階ヘイズ,
-        .jid = JID_神階ヘイズ,
+        .jid = JID_神階ヘイズ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -730,7 +714,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_スラシル,
-        .jid = JID_スラシル,
+        .jid = JID_スラシル_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -748,7 +732,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_マークス,
-        .jid = JID_マークス,
+        .jid = JID_マークス_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -766,7 +750,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = PID_スリーズ,
-        .jid = JID_スリーズ,
+        .jid = JID_スリーズ_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,
@@ -784,7 +768,7 @@ const struct UnitInfo DebugBlueUnits[] = {
 
     {
         .pid = EID_フード,
-        .jid = JID_フード,
+        .jid = JID_フード_PROMOTED,
         .pid_lead = PID_アルフォンス,
         .level = DEBUG_BLUE_UNIT_LEVEL,
         .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,

@@ -818,7 +818,20 @@ def make_blue_units():
                 file.write('extern const struct UnitInfo %sBlueUnitsLast[];\n' % map_id)
     with open('include/blueunits.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
+        blue_unit_lv = 0
+        is_blue_unit_promoted = False
         for map_id in sorted(map_configs.keys()):
+            if map_id.endswith('011'):
+                blue_unit_lv = 0
+                is_blue_unit_promoted = False
+            if blue_unit_lv <= 20:
+                blue_unit_lv += 1
+            if blue_unit_lv == 21:
+                if not is_blue_unit_promoted:
+                    is_blue_unit_promoted = True
+                    blue_unit_lv = 1
+                else:
+                    blue_unit_lv = 20
             first_appearances = map_configs[map_id].get('1st_appearances', [])
             assert len(first_appearances) <= map_configs[map_id]['player_count']
             if len(first_appearances) < map_configs[map_id]['player_count']:
@@ -827,7 +840,7 @@ def make_blue_units():
                     x = 2 * map_configs[map_id]['player_pos'][i + len(first_appearances)]['x']
                     y = 2 * (7 - map_configs[map_id]['player_pos'][i + len(first_appearances)]['y'])
                     hero_id = [x for x in blue_hero_ids if x not in first_appearances][i]
-                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:], x, y, x, y))
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), blue_unit_lv, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
             if len(first_appearances) > 0:
@@ -835,7 +848,7 @@ def make_blue_units():
                 for i, hero_id in enumerate(first_appearances):
                     x = 2 * map_configs[map_id]['player_pos'][i]['x']
                     y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
-                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:], x, y, x, y))
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), blue_unit_lv, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
             if len(map_configs[map_id].get('last_appearances', [])) > 0:
@@ -843,7 +856,7 @@ def make_blue_units():
                 for i, hero_id in enumerate(map_configs[map_id]['last_appearances']):
                     x = 14
                     y = i
-                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:], x, y, x, y))
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), blue_unit_lv, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
 #             file.write('const EventScr EventScr_LoadUnits_%sBlueUnits[] = {\n' % map_id)
