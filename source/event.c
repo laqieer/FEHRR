@@ -20,6 +20,7 @@
 #include "bmNew.h"
 #include "item.h"
 #include "unit.h"
+#include "unitNew.h"
 #include "map.h"
 #include "mapwork.h"
 #include "bmfx.h"
