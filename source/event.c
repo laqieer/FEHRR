@@ -38,6 +38,7 @@
 #include "ui.h"
 #include "mu.h"
 #include "eventinfo.h"
+#include "hero.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/videoalloc_wm.h"
@@ -377,6 +378,11 @@ void DisplayBackgroundOld(int background)
 void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
 {
     struct Unit * unit;
+
+    Infof("Load unit: %d %s, job: %d %s, LV: %d, position: (%d, %d) -> (%d, %d)", info->pid, GetHeroName(info->pid), info->jid, GetMsg(GetJInfo(info->jid)->msg_name), info->level, info->x_load, info->y_load, info->x_move, info->y_move);
+
+    if(IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
+        Assert(gMapUnit[info->y_load][info->x_load] == 0 && gMapUnit[info->y_move][info->x_move] == 0);
 
     if (UnitInfoRequiresNoMovement(info))
         return;
