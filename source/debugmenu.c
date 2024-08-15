@@ -447,6 +447,12 @@ fu8 MapDebugMenu_ChangeBGM_Select(struct MenuProc * menu, struct MenuEntProc * e
     return 0;
 }
 
+fu8 MapDebugMenu_ClearStage_Select(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    StartEvent(GetChapterEventInfo(GetChapterInPlaySt(&gPlayStNew))->event_script_victory);
+    return MENU_ACTION_NOCURSOR | MENU_ACTION_END | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
+}
+
 struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
 {
     {
@@ -492,6 +498,13 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
         .display = MapDebugMenu_Playthrough_Display,
         .on_select = func_fe6_0801AA70,
         .on_idle = MapDebugMenu_Playthrough_Idle,
+    },
+
+    {
+        .label = (char const *)3810, // クリアステージ
+        .msg_help = 3811,
+        .available = MenuEntryEnabled,
+        .on_select = MapDebugMenu_ClearStage_Select,
     },
 
     {
