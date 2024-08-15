@@ -92,6 +92,9 @@ fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
 {
     struct MapDebugMenuEntProc * mapEnt = (struct MapDebugMenuEntProc *)ent;
 
+    if (mapEnt->mapId == 0)
+        mapEnt->mapId = GetChapterInPlaySt(&gPlayStNew);
+
     if (gKeySt->repeated & KEY_DPAD_RIGHT)
         mapEnt->mapId++;
 
@@ -535,7 +538,7 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
 
 fu8 InitDebugMapMenu(struct MenuProc * menu)
 {
-    DebugPutStr(gBg0Tm + TM_OFFSET(7, 2), GetChapterInfo(CHAPTER_1)->debug_name);
+    DebugPutStr(gBg0Tm + TM_OFFSET(7, 2), GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->debug_name);
     EnableBgSync(BG0_SYNC_BIT);
 
     return 0;
