@@ -22791,6 +22791,12 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "达成胜利条件",
     },
 
+    [3812] = {
+        [LANGUAGE_JAPANESE] = "ー０１２３４５６７８９",
+        [LANGUAGE_ENGLISH] = "ー０１２３４５６７８９",
+        [LANGUAGE_CHINESE] = "ー０１２３４５６７８９",
+    },
+
     [TEXT_ID_TEST] = {
         [LANGUAGE_JAPANESE] = FaceTestText,
         [LANGUAGE_ENGLISH] = FaceTestText,

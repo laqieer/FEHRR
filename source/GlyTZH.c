@@ -24743,6 +24743,96 @@ const struct GlyphNew GlyTZH_E382AD = { /* キ */
     .bitmap = GlyTZH_E382ADTiles,
 };
 
+const struct GlyphNew GlyTZH_EFBC90 = { /* ０ */
+    .next = &GlyTZH_EFBC8B,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x90,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC90Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC91 = { /* １ */
+    .next = &GlyTZH_EFBC90,
+    .width = 9,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x91,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC91Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC92 = { /* ２ */
+    .next = &GlyTZH_EFBC91,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x92,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC92Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC93 = { /* ３ */
+    .next = &GlyTZH_EFBC92,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x93,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC93Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC94 = { /* ４ */
+    .next = &GlyTZH_EFBC93,
+    .width = 9,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x94,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC94Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC95 = { /* ５ */
+    .next = &GlyTZH_EFBC94,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x95,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC95Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC96 = { /* ６ */
+    .next = &GlyTZH_EFBC95,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x96,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC96Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC97 = { /* ７ */
+    .next = &GlyTZH_EFBC96,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x97,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC97Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC98 = { /* ８ */
+    .next = &GlyTZH_EFBC97,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x98,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC98Tiles,
+};
+
+const struct GlyphNew GlyTZH_EFBC99 = { /* ９ */
+    .next = &GlyTZH_EFBC98,
+    .width = 8,
+    .utf_byte_2 = 0xbc,
+    .utf_byte_3 = 0x99,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_EFBC99Tiles,
+};
+
 const struct GlyphNew GlyTZH_E383BC = { /* ー */
     .next = &GlyTZH_E382AD,
     .width = 8,
@@ -24753,7 +24843,7 @@ const struct GlyphNew GlyTZH_E383BC = { /* ー */
 };
 
 const struct GlyphNew GlyTZH_EFBC8F = { /* ／ */
-    .next = &GlyTZH_EFBC8B,
+    .next = &GlyTZH_EFBC99,
     .width = 9,
     .utf_byte_2 = 0xbc,
     .utf_byte_3 = 0x8f,
