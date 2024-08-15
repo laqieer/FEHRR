@@ -234,3 +234,24 @@ void UnitInitFromInfoOld(struct Unit * unit, struct UnitInfo const * info)
 {
     UnitInitFromInfoNew(unit, info);
 }
+
+struct Unit * GetBlueUnitByPid(int pid)
+{
+    int i;
+
+    for (i = 1; i < UNIT_AMOUNT_BLUE; ++i)
+    {
+        struct Unit * unit = GetUnit(i);
+
+        if (!unit)
+            continue;
+
+        if (!unit->pinfo)
+            continue;
+
+        if (unit->pinfo->id == pid)
+            return unit;
+    }
+
+    return NULL;
+}

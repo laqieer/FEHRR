@@ -385,7 +385,8 @@ void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
         return;
 
     if (info->faction_id == FACTION_ID_BLUE)
-        unit = GetUnitByPid(info->pid);
+        // unit = GetUnitByPid(info->pid);
+        unit = GetBlueUnitByPid(info->pid);
     else
         unit = NULL;
 

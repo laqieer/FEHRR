@@ -5,3 +5,4 @@
 
 struct Unit * GetUnitToSelectAuto();
 struct PInfo const * GetHeroPInfo(int pid);
+struct Unit * GetBlueUnitByPid(int pid);
