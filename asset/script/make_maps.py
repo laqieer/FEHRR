@@ -1146,8 +1146,6 @@ const u16 ChapterEnemyHeroNames[][14] = {
             file_scripts.write('    EvtNoSkip\n')
             if len(map_configs[map_id].get('last_appearances', [])) > 0:
                 file_scripts.write('    EvtLoadUnits(%sBlueUnitsLast)\n' % map_id)
-                for hero_id in map_configs[map_id]['last_appearances']:
-                    file_scripts.write('    EvtChangeFaction(%s, FACTION_BLUE)' % hero_id)
             file_scripts.write('    EvtGiveMoney(10 * (CHAPTER_CH_%s - CHAPTER_CH_NEW))\n' % map_id)
             file_scripts.write('    EvtSleep(64)\n')
             file_scripts.write('    EvtNextChapter(CHAPTER_CH_%s)\n' % next_map_id)

@@ -4199,7 +4199,7 @@ const EventScr EventScr_S2131_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S2131BlueUnitsLast)
-    EvtChangeFaction(EID_レーギャルン, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S2131 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S2131 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S2132)
     EvtSleep(1)
@@ -4308,7 +4308,7 @@ const EventScr EventScr_S2134_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S2134BlueUnitsLast)
-    EvtChangeFaction(EID_レーヴァテイン, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S2134 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S2134 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S2135)
     EvtSleep(1)
@@ -4512,7 +4512,7 @@ const EventScr EventScr_S3015_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S3015BlueUnitsLast)
-    EvtChangeFaction(PID_神階エイル, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S3015 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S3015 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S3021)
     EvtSleep(1)
@@ -6397,7 +6397,7 @@ const EventScr EventScr_S3133_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S3133BlueUnitsLast)
-    EvtChangeFaction(EID_リーヴ, FACTION_BLUE)    EvtChangeFaction(EID_スラシル, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S3133 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S3133 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S3134)
     EvtSleep(1)
@@ -7160,7 +7160,7 @@ const EventScr EventScr_S4051_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4051BlueUnitsLast)
-    EvtChangeFaction(EID_スルト, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4051 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4051 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4052)
     EvtSleep(1)
@@ -7284,7 +7284,7 @@ const EventScr EventScr_S4055_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4055BlueUnitsLast)
-    EvtChangeFaction(EID_ヘルビンディ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4055 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4055 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4061)
     EvtSleep(1)
@@ -7328,7 +7328,7 @@ const EventScr EventScr_S4061_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4061BlueUnitsLast)
-    EvtChangeFaction(EID_ヴェロニカ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4061 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4061 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4062)
     EvtSleep(1)
@@ -7462,7 +7462,7 @@ const EventScr EventScr_S4065_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4065BlueUnitsLast)
-    EvtChangeFaction(PID_マークス, FACTION_BLUE)    EvtChangeFaction(EID_ブルーノ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4065 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4065 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4071)
     EvtSleep(1)
@@ -7507,7 +7507,7 @@ const EventScr EventScr_S4071_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4071BlueUnitsLast)
-    EvtChangeFaction(EID_ヘル, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4071 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4071 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4072)
     EvtSleep(1)
@@ -8163,7 +8163,7 @@ const EventScr EventScr_S4105_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4105BlueUnitsLast)
-    EvtChangeFaction(EID_フロージ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4105 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4105 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4111)
     EvtSleep(1)
@@ -8309,7 +8309,7 @@ const EventScr EventScr_S4114_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4114BlueUnitsLast)
-    EvtChangeFaction(EID_プルメリア, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4114 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4114 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4115)
     EvtSleep(1)
@@ -8470,7 +8470,7 @@ const EventScr EventScr_S4124_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4124BlueUnitsLast)
-    EvtChangeFaction(EID_スカビオサ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4124 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4124 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4125)
     EvtSleep(1)
@@ -8513,7 +8513,7 @@ const EventScr EventScr_S4125_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4125BlueUnitsLast)
-    EvtChangeFaction(EID_フード, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4125 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4125 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4131)
     EvtSleep(1)
@@ -8682,7 +8682,7 @@ const EventScr EventScr_S4134_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4134BlueUnitsLast)
-    EvtChangeFaction(EID_フレイヤ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4134 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4134 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S4135)
     EvtSleep(1)
@@ -8728,7 +8728,7 @@ const EventScr EventScr_S4135_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S4135BlueUnitsLast)
-    EvtChangeFaction(EID_ロキ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S4135 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S4135 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5011)
     EvtSleep(1)
@@ -8890,7 +8890,7 @@ const EventScr EventScr_S5015_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S5015BlueUnitsLast)
-    EvtChangeFaction(PID_レギン, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S5015 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S5015 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5021)
     EvtSleep(1)
@@ -9397,7 +9397,7 @@ const EventScr EventScr_S5045_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S5045BlueUnitsLast)
-    EvtChangeFaction(EID_ダグ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S5045 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S5045 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5051)
     EvtSleep(1)
@@ -9564,7 +9564,7 @@ const EventScr EventScr_S5055_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S5055BlueUnitsLast)
-    EvtChangeFaction(EID_ノート, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S5055 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S5055 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5061)
     EvtSleep(1)
@@ -9963,7 +9963,7 @@ const EventScr EventScr_S5081_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S5081BlueUnitsLast)
-    EvtChangeFaction(EID_ファフニール, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S5081 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S5081 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5082)
     EvtSleep(1)
@@ -10597,7 +10597,7 @@ const EventScr EventScr_S5115_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S5115BlueUnitsLast)
-    EvtChangeFaction(EID_オッテル, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S5115 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S5115 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S5121)
     EvtSleep(1)
@@ -10958,7 +10958,7 @@ const EventScr EventScr_S5135_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S5135BlueUnitsLast)
-    EvtChangeFaction(EID_エイトリ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S5135 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S5135 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S6011)
     EvtSleep(1)
@@ -12172,7 +12172,7 @@ const EventScr EventScr_S6075_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S6075BlueUnitsLast)
-    EvtChangeFaction(EID_グスタフ, FACTION_BLUE)    EvtChangeFaction(EID_レティシア, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S6075 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S6075 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S6081)
     EvtSleep(1)
@@ -12791,7 +12791,7 @@ const EventScr EventScr_S6113_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S6113BlueUnitsLast)
-    EvtChangeFaction(EID_エルム, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S6113 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S6113 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S6114)
     EvtSleep(1)
@@ -13243,7 +13243,7 @@ const EventScr EventScr_S6135_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S6135BlueUnitsLast)
-    EvtChangeFaction(EID_エンブラ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S6135 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S6135 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7011)
     EvtSleep(1)
@@ -14042,7 +14042,7 @@ const EventScr EventScr_S7055_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S7055BlueUnitsLast)
-    EvtChangeFaction(EID_グルヴェイグ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S7055 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S7055 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7061)
     EvtSleep(1)
@@ -14286,7 +14286,7 @@ const EventScr EventScr_S7071_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S7071BlueUnitsLast)
-    EvtChangeFaction(EID_ネルトゥス, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S7071 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S7071 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7072)
     EvtSleep(1)
@@ -14574,7 +14574,7 @@ const EventScr EventScr_S7085_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S7085BlueUnitsLast)
-    EvtChangeFaction(EID_クワシル, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S7085 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S7085 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7091)
     EvtSleep(1)
@@ -14736,7 +14736,7 @@ const EventScr EventScr_S7095_Victory[] = {
     EvtClearTalk
     EvtNoSkip
     EvtLoadUnits(S7095BlueUnitsLast)
-    EvtChangeFaction(PID_神階ヘイズ, FACTION_BLUE)    EvtGiveMoney(10 * (CHAPTER_CH_S7095 - CHAPTER_CH_NEW))
+    EvtGiveMoney(10 * (CHAPTER_CH_S7095 - CHAPTER_CH_NEW))
     EvtSleep(64)
     EvtNextChapter(CHAPTER_CH_S7101)
     EvtSleep(1)
