@@ -810,22 +810,34 @@ def make_blue_units():
     with open('include/blueunitdefs.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         for map_id in sorted(map_configs.keys()):
-            file.write('extern const struct UnitInfo %sBlueUnits[];\n' % map_id)
+            if len(map_configs[map_id].get('1st_appearances', [])) < map_configs[map_id]['player_count']:
+                file.write('extern const struct UnitInfo %sBlueUnits[];\n' % map_id)
+            if len(map_configs[map_id].get('1st_appearances', [])) > 0:
+                file.write('extern const struct UnitInfo %sBlueUnits1st[];\n' % map_id)
             if len(map_configs[map_id].get('last_appearances', [])) > 0:
                 file.write('extern const struct UnitInfo %sBlueUnitsLast[];\n' % map_id)
     with open('include/blueunits.h', 'w', encoding='utf-8') as file:
         file.write('#pragma once\n\n')
         for map_id in sorted(map_configs.keys()):
-            file.write('const struct UnitInfo %sBlueUnits[] = {\n' % map_id)
             first_appearances = map_configs[map_id].get('1st_appearances', [])
             assert len(first_appearances) <= map_configs[map_id]['player_count']
-            for i in range(map_configs[map_id]['player_count']):
-                x = 2 * map_configs[map_id]['player_pos'][i]['x']
-                y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
-                hero_id = first_appearances[i] if i < len(first_appearances) else [x for x in blue_hero_ids if x not in first_appearances][i - len(first_appearances)]
-                file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, blue_hero_ids[i][1:], x, y, x, y))
-            file.write('    { 0 }, // end\n')
-            file.write('};\n\n')
+            if len(first_appearances) < map_configs[map_id]['player_count']:
+                file.write('const struct UnitInfo %sBlueUnits[] = {\n' % map_id)
+                for i in range(map_configs[map_id]['player_count'] - len(first_appearances)):
+                    x = 2 * map_configs[map_id]['player_pos'][i + len(first_appearances)]['x']
+                    y = 2 * (7 - map_configs[map_id]['player_pos'][i + len(first_appearances)]['y'])
+                    hero_id = [x for x in blue_hero_ids if x not in first_appearances][i]
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:], x, y, x, y))
+                file.write('    { 0 }, // end\n')
+                file.write('};\n\n')
+            if len(first_appearances) > 0:
+                file.write('const struct UnitInfo %sBlueUnits1st[] = {\n' % map_id)
+                for i, hero_id in enumerate(first_appearances):
+                    x = 2 * map_configs[map_id]['player_pos'][i]['x']
+                    y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
+                    file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, 1, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:], x, y, x, y))
+                file.write('    { 0 }, // end\n')
+                file.write('};\n\n')
             if len(map_configs[map_id].get('last_appearances', [])) > 0:
                 file.write('const struct UnitInfo %sBlueUnitsLast[] = {\n' % map_id)
                 for i, hero_id in enumerate(map_configs[map_id]['last_appearances']):
@@ -997,7 +1009,13 @@ const u16 ChapterEnemyHeroNames[][14] = {
                 file_scripts.write('    EvtTalk(MID_SCENARIO_OPENING_%s)\n' % map_id)
                 file_scripts.write('    EvtClearTalk\n')
             file_scripts.write('    EvtLoadUnits(%sRedUnits)\n' % map_id)
-            file_scripts.write('    EvtLoadUnits(%sBlueUnits)\n' % map_id)
+            if len(map_configs[map_id].get('1st_appearances', [])) < map_configs[map_id]['player_count']:
+                if map_configs[map_id]['player_count'] >= 4:
+                    file_scripts.write('    EvtLoadUnitsParty(%sBlueUnits)\n' % map_id)
+                else:
+                    file_scripts.write('    EvtLoadUnits(%sBlueUnits)\n' % map_id)
+            if len(map_configs[map_id].get('1st_appearances', [])) > 0:
+                file_scripts.write('    EvtLoadUnits(%sBlueUnits1st)\n' % map_id)
             if 'MID_SCENARIO_MAP_BEGIN_BGM' in map_scenarios.get(map_id, {}) and 'MID_SCENARIO_OPENING_BGM' in map_scenarios.get(map_id, {}):
                 file_scripts.write('    EvtSetBgm(%s_MID_SCENARIO_MAP_BEGIN_BGM)\n' % map_id)
             if 'MID_SCENARIO_MAP_BEGIN' in map_scenarios.get(map_id, {}):
@@ -1170,8 +1188,10 @@ def make_map_events():
             file.write('    .event_list_talk = DummyEvent,\n')
             file.write('    .event_list_tile = DummyEvent,\n')
             file.write('    .event_list_move = EventListScr_%s_Move,\n' % map_id)
-            file.write('    .units_red = %sRedUnits,\n' % map_id)
-            file.write('    .units_blue = %sBlueUnits,\n' % map_id)
+            if map_configs[map_id]['player_count'] >= 4:
+                file.write('    .units_red = %sRedUnits,\n' % map_id)
+                if len(map_configs[map_id].get('1st_appearances', [])) < map_configs[map_id]['player_count']:
+                    file.write('    .units_blue = %sBlueUnits,\n' % map_id)
             file.write('    .event_script_victory = EventScr_%s_Victory,\n' % map_id)
             file.write('};\n\n')
 
