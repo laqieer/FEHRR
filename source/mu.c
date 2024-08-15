@@ -4,7 +4,7 @@
 
 int getMuId(int jid)
 {
-    Assert(jid < JID_COUNT);
+    Assertf(jid < JID_COUNT, "jid=%d, JID_COUNT=%d", jid, JID_COUNT);
     switch (jid)
     {
         case JID_HALBERDIER:

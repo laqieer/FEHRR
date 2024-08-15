@@ -63,3 +63,4 @@
 #define Debugf(format, ...) LogDebugf("%s:%d(%s): "format, __FILENAME__, __LINE__, __func__, __VA_ARGS__)
 
 #define Assert(condition) if (!(condition)) { Fatal("Assertion failed: " #condition); }
+#define Assertf(condition, format, ...) if (!(condition)) { Fatalf("Assertion failed: " #condition ", Debug info: " format, __VA_ARGS__); }
