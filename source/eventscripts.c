@@ -593,10 +593,6 @@ const EventScr EventScr_LoadUnits_S0405[] = {
 const EventScr EventScr_S0405_Victory[] = {
     EvtTalk(MID_SCENARIO_MAP_END_S0405)
     EvtClearTalk
-    EvtNoSkip
-    EvtSleep(60 * 1)
-    EvtFunc(func_fe6_0806D0E4)
-    EvtSleep(60 * 16)
     EvtFadeToBlack(16)
     EvtExitMap
     EvtBackground(BACKGROUND_003_Volcano)

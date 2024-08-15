@@ -9304,9 +9304,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1550] = {
-        [LANGUAGE_JAPANESE] = "１０レベル以上の　傭兵・剣士・ソルジャー""\x01""戦士・山賊・海賊・盗賊が使います",
-        [LANGUAGE_ENGLISH] = "For mercenaries, myrmidons, soldier,""\x01""thief and axe fighters Lv. 10 and up.",
-        [LANGUAGE_CHINESE] = "等级10以上的佣兵、剑士、士兵、""\x01""战士、山贼、海贼、盗贼使用",
+        [LANGUAGE_JAPANESE] = "１０レベル以上の　ロード・傭兵・剣士・ソルジャー""\x01""戦士・山賊・海賊・盗賊が使います",
+        [LANGUAGE_ENGLISH] = "For lord, mercenaries, myrmidons, soldier,""\x01""thief and axe fighters Lv. 10 and up.",
+        [LANGUAGE_CHINESE] = "等级10以上的领主、佣兵、剑士、士兵、""\x01""战士、山贼、海贼、盗贼使用",
     },
 
     [1551] = {
@@ -10054,9 +10054,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1675] = {
-        [LANGUAGE_JAPANESE] = "傭兵　剣士　戦士　ソルジャー""\x01""山賊　海賊　盗賊を""\x01""クラスチェンジします",
-        [LANGUAGE_ENGLISH] = "Use this on a worthy""\x01""mercenary, myrmidon, soldier,""\x01""thief or wielder of axes.",
-        [LANGUAGE_CHINESE] = "佣兵 剑士 战士 士兵""\x01""山贼 海盗 盗贼""\x01""使用后转职",
+        [LANGUAGE_JAPANESE] = "ロード 傭兵　剣士　戦士""\x01""ソルジャー　山賊　海賊　盗賊を""\x01""クラスチェンジします",
+        [LANGUAGE_ENGLISH] = "Use this on a worthy""\x01""lord, mercenary, myrmidon, soldier,""\x01""thief or wielder of axes.",
+        [LANGUAGE_CHINESE] = "领主 佣兵 剑士 战士""\x01""士兵 山贼 海盗 盗贼""\x01""使用后转职",
     },
 
     [1676] = {

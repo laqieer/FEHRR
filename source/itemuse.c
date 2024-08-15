@@ -31,6 +31,7 @@
 #include "jobs.h"
 
 const u8 JList_HeroCrestPromotesNew[] = {
+    JID_ROY,
     JID_MERCENARY,
     JID_MERCENARY_F,
     JID_MYRMIDON,
