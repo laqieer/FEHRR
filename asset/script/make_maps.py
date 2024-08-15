@@ -1188,10 +1188,11 @@ def make_map_events():
             file.write('    .event_list_talk = DummyEvent,\n')
             file.write('    .event_list_tile = DummyEvent,\n')
             file.write('    .event_list_move = EventListScr_%s_Move,\n' % map_id)
-            if map_configs[map_id]['player_count'] >= 4:
-                file.write('    .units_red = %sRedUnits,\n' % map_id)
-                if len(map_configs[map_id].get('1st_appearances', [])) < map_configs[map_id]['player_count']:
-                    file.write('    .units_blue = %sBlueUnits,\n' % map_id)
+            file.write('    .units_red = %sRedUnits,\n' % map_id)
+            if len(map_configs[map_id].get('1st_appearances', [])) < map_configs[map_id]['player_count']:
+                file.write('    .units_blue = %sBlueUnits,\n' % map_id)
+            else:
+                file.write('    .units_blue = %sBlueUnits1st,\n' % map_id)
             file.write('    .event_script_victory = EventScr_%s_Victory,\n' % map_id)
             file.write('};\n\n')
 

@@ -20,6 +20,8 @@ const struct ChapterEventInfo ChapterEventInfo_S0001 = {
     .event_list_talk = DummyEvent,
     .event_list_tile = DummyEvent,
     .event_list_move = EventListScr_S0001_Move,
+    .units_red = S0001RedUnits,
+    .units_blue = S0001BlueUnits1st,
     .event_script_victory = EventScr_S0001_Victory,
 };
 
@@ -34,6 +36,8 @@ const struct ChapterEventInfo ChapterEventInfo_S0002 = {
     .event_list_talk = DummyEvent,
     .event_list_tile = DummyEvent,
     .event_list_move = EventListScr_S0002_Move,
+    .units_red = S0002RedUnits,
+    .units_blue = S0002BlueUnits,
     .event_script_victory = EventScr_S0002_Victory,
 };
 
@@ -48,6 +52,8 @@ const struct ChapterEventInfo ChapterEventInfo_S0101 = {
     .event_list_talk = DummyEvent,
     .event_list_tile = DummyEvent,
     .event_list_move = EventListScr_S0101_Move,
+    .units_red = S0101RedUnits,
+    .units_blue = S0101BlueUnits,
     .event_script_victory = EventScr_S0101_Victory,
 };
 
