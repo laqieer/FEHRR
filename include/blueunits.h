@@ -1083,7 +1083,7 @@ const struct UnitInfo S2131BlueUnits[] = {
 };
 
 const struct UnitInfo S2131BlueUnitsLast[] = {
-    { EID_レーギャルン, JID_レーギャルン_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_レーギャルン, JID_レーギャルン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1112,7 +1112,7 @@ const struct UnitInfo S2134BlueUnits[] = {
 };
 
 const struct UnitInfo S2134BlueUnitsLast[] = {
-    { EID_レーヴァテイン, JID_レーヴァテイン_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_レーヴァテイン, JID_レーヴァテイン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1169,7 +1169,7 @@ const struct UnitInfo S3015BlueUnits[] = {
 };
 
 const struct UnitInfo S3015BlueUnitsLast[] = {
-    { PID_神階エイル, JID_神階エイル, 0, TRUE, FACTION_ID_RED, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { PID_神階エイル, JID_神階エイル, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1638,8 +1638,8 @@ const struct UnitInfo S3133BlueUnits[] = {
 };
 
 const struct UnitInfo S3133BlueUnitsLast[] = {
-    { EID_リーヴ, JID_リーヴ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_スラシル, JID_スラシル_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 1, 14, 1, { 0 }, { 0 } },
+    { EID_リーヴ, JID_リーヴ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_スラシル, JID_スラシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1832,7 +1832,7 @@ const struct UnitInfo S4051BlueUnits[] = {
 };
 
 const struct UnitInfo S4051BlueUnitsLast[] = {
-    { EID_スルト, JID_スルト_PROMOTED, 0, TRUE, FACTION_ID_RED, 1, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_スルト, JID_スルト_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1869,7 +1869,7 @@ const struct UnitInfo S4055BlueUnits[] = {
 };
 
 const struct UnitInfo S4055BlueUnitsLast[] = {
-    { EID_ヘルビンディ, JID_ヘルビンディ_PROMOTED, 0, TRUE, FACTION_ID_RED, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ヘルビンディ, JID_ヘルビンディ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1882,7 +1882,7 @@ const struct UnitInfo S4061BlueUnits[] = {
 };
 
 const struct UnitInfo S4061BlueUnitsLast[] = {
-    { EID_ヴェロニカ, JID_ヴェロニカ_PROMOTED, 0, TRUE, FACTION_ID_RED, 6, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ヴェロニカ, JID_ヴェロニカ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1919,8 +1919,8 @@ const struct UnitInfo S4065BlueUnits[] = {
 };
 
 const struct UnitInfo S4065BlueUnitsLast[] = {
-    { PID_マークス, JID_マークス_PROMOTED, 0, TRUE, FACTION_ID_RED, 10, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_ブルーノ, JID_ブルーノ_PROMOTED, 0, TRUE, FACTION_ID_RED, 10, 14, 1, 14, 1, { 0 }, { 0 } },
+    { PID_マークス, JID_マークス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ブルーノ, JID_ブルーノ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1937,7 +1937,7 @@ const struct UnitInfo S4071BlueUnits1st[] = {
 };
 
 const struct UnitInfo S4071BlueUnitsLast[] = {
-    { EID_ヘル, JID_ヘル_PROMOTED, 0, TRUE, FACTION_ID_RED, 11, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ヘル, JID_ヘル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2094,7 +2094,7 @@ const struct UnitInfo S4105BlueUnits[] = {
 };
 
 const struct UnitInfo S4105BlueUnitsLast[] = {
-    { EID_フロージ, JID_フロージ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_フロージ, JID_フロージ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2131,7 +2131,7 @@ const struct UnitInfo S4114BlueUnits[] = {
 };
 
 const struct UnitInfo S4114BlueUnitsLast[] = {
-    { EID_プルメリア, JID_プルメリア_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_プルメリア, JID_プルメリア_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2176,7 +2176,7 @@ const struct UnitInfo S4124BlueUnits[] = {
 };
 
 const struct UnitInfo S4124BlueUnitsLast[] = {
-    { EID_スカビオサ, JID_スカビオサ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_スカビオサ, JID_スカビオサ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2189,7 +2189,7 @@ const struct UnitInfo S4125BlueUnits[] = {
 };
 
 const struct UnitInfo S4125BlueUnitsLast[] = {
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2226,7 +2226,7 @@ const struct UnitInfo S4134BlueUnits[] = {
 };
 
 const struct UnitInfo S4134BlueUnitsLast[] = {
-    { EID_フレイヤ, JID_フレイヤ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_フレイヤ, JID_フレイヤ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2239,7 +2239,7 @@ const struct UnitInfo S4135BlueUnits[] = {
 };
 
 const struct UnitInfo S4135BlueUnitsLast[] = {
-    { EID_ロキ, JID_ロキ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ロキ, JID_ロキ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2284,7 +2284,7 @@ const struct UnitInfo S5015BlueUnits[] = {
 };
 
 const struct UnitInfo S5015BlueUnitsLast[] = {
-    { PID_レギン, JID_レギン, 0, TRUE, FACTION_ID_RED, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { PID_レギン, JID_レギン, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2409,7 +2409,7 @@ const struct UnitInfo S5045BlueUnits[] = {
 };
 
 const struct UnitInfo S5045BlueUnitsLast[] = {
-    { EID_ダグ, JID_ダグ, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ダグ, JID_ダグ, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2454,7 +2454,7 @@ const struct UnitInfo S5055BlueUnits[] = {
 };
 
 const struct UnitInfo S5055BlueUnitsLast[] = {
-    { EID_ノート, JID_ノート_PROMOTED, 0, TRUE, FACTION_ID_RED, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ノート, JID_ノート_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2547,7 +2547,7 @@ const struct UnitInfo S5081BlueUnits[] = {
 };
 
 const struct UnitInfo S5081BlueUnitsLast[] = {
-    { EID_ファフニール, JID_ファフニール_PROMOTED, 0, TRUE, FACTION_ID_RED, 16, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ファフニール, JID_ファフニール_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2704,7 +2704,7 @@ const struct UnitInfo S5115BlueUnits[] = {
 };
 
 const struct UnitInfo S5115BlueUnitsLast[] = {
-    { EID_オッテル, JID_オッテル_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_オッテル, JID_オッテル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2789,7 +2789,7 @@ const struct UnitInfo S5135BlueUnits[] = {
 };
 
 const struct UnitInfo S5135BlueUnitsLast[] = {
-    { EID_エイトリ, JID_エイトリ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_エイトリ, JID_エイトリ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3078,8 +3078,8 @@ const struct UnitInfo S6075BlueUnits[] = {
 };
 
 const struct UnitInfo S6075BlueUnitsLast[] = {
-    { EID_グスタフ, JID_グスタフ_PROMOTED, 0, TRUE, FACTION_ID_RED, 15, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_レティシア, JID_レティシア_PROMOTED, 0, TRUE, FACTION_ID_RED, 15, 14, 1, 14, 1, { 0 }, { 0 } },
+    { EID_グスタフ, JID_グスタフ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_レティシア, JID_レティシア_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3232,7 +3232,7 @@ const struct UnitInfo S6113BlueUnits[] = {
 };
 
 const struct UnitInfo S6113BlueUnitsLast[] = {
-    { EID_エルム, JID_エルム_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_エルム, JID_エルム_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3333,7 +3333,7 @@ const struct UnitInfo S6135BlueUnits[] = {
 };
 
 const struct UnitInfo S6135BlueUnitsLast[] = {
-    { EID_エンブラ, JID_エンブラ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_エンブラ, JID_エンブラ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3542,7 +3542,7 @@ const struct UnitInfo S7055BlueUnits[] = {
 };
 
 const struct UnitInfo S7055BlueUnitsLast[] = {
-    { EID_グルヴェイグ, JID_グルヴェイグ_PROMOTED, 0, TRUE, FACTION_ID_RED, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_グルヴェイグ, JID_グルヴェイグ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3595,7 +3595,7 @@ const struct UnitInfo S7071BlueUnits[] = {
 };
 
 const struct UnitInfo S7071BlueUnitsLast[] = {
-    { EID_ネルトゥス, JID_ネルトゥス_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ネルトゥス, JID_ネルトゥス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3672,7 +3672,7 @@ const struct UnitInfo S7085BlueUnits[] = {
 };
 
 const struct UnitInfo S7085BlueUnitsLast[] = {
-    { EID_クワシル, JID_クワシル_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_クワシル, JID_クワシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3717,7 +3717,7 @@ const struct UnitInfo S7095BlueUnits[] = {
 };
 
 const struct UnitInfo S7095BlueUnitsLast[] = {
-    { PID_神階ヘイズ, JID_神階ヘイズ_PROMOTED, 0, TRUE, FACTION_ID_RED, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { PID_神階ヘイズ, JID_神階ヘイズ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
