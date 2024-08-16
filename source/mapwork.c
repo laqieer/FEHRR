@@ -12,6 +12,8 @@
 #include "action.h"
 #include "mu.h"
 
+#include "log.h"
+
 #include "constants/terrains.h"
 
 void RevertAndCvtToMoveScr(u8 * begin, u8 * end);
@@ -28,7 +30,7 @@ void AddUnitCompleteStaffRange(struct Unit * unit)
 {
     int ix, iy;
 
-    int magRange, reach = GetUnitStaffReach(gActiveUnit);
+    int magRange, reach = GetUnitStaffReach(unit);
 
     // MapFill(gMapRange, 0);
 
@@ -205,6 +207,8 @@ void GenerateDangerZoneRange(bool8 boolDisplayStaffRange)
     int i, enemyFaction;
     int hasMagicRank, prevHasMagicRank;
     u8 savedUnitId;
+
+    Info(boolDisplayStaffRange ? "staff range" : "attack range");
 
     prevHasMagicRank = -1;
 

@@ -233,8 +233,8 @@ void PlayerPhase_DisplayDangerZone() {
 
     PlaySe(0x68);
 
-    gBmSt.flags |= (1 << 3);
-    gBmSt.flags &= ~(1 << 1);
+    gBmSt.flags |= BM_FLAG_DANGER;
+    gBmSt.flags &= ~BM_FLAG_LIMITCURSOR;
 
     if (gBmSt.swap_action_range_count & 1) {
         StartLimitView(5);
@@ -243,6 +243,183 @@ void PlayerPhase_DisplayDangerZone() {
     }
 
     return;
+}
+
+int GetCombinedEnemyUseBits(void) {
+    int i, result = 0;
+
+    for (i = 0x81; i < 0xC0; ++i) {
+        struct Unit* unit = GetUnit(i);
+
+        if (unit && unit->pinfo)
+            result |= GetUnitUseBits(unit);
+    }
+
+    return result;
+}
+
+void PlayerPhase_MoveSelectLoopNew(ProcPtr proc)
+{
+    enum
+    {
+        ACT_FAIL,
+        ACT_MOVE,
+        ACT_CANCEL,
+        ACT_INFOSCREEN,
+        ACT_RESET_CURSOR,
+        ACT_EVENT,
+        ACT_SWAP_RANGES,
+    };
+
+    u8 act = -1;
+
+    HandlePlayerMapCursor();
+
+    if (gKeySt->pressed & KEY_BUTTON_A)
+    {
+        if (!gActiveUnit)
+        {
+            if (GetCombinedEnemyUseBits() == (UNIT_USEBIT_WEAPON | UNIT_USEBIT_STAFF))
+            {
+                act = ACT_SWAP_RANGES;
+            }
+            else
+            {
+                act = ACT_CANCEL;
+            }
+
+            goto do_act;
+        }
+
+        if (CheckAvailableMoveSelectConfirmEvent())
+        {
+            act = ACT_EVENT;
+            goto do_act;
+        }
+        else
+        {
+            if (GetPlayerSelectKind(gActiveUnit) != PLAYER_SELECT_CONTROL && !(gActiveUnit->flags & UNIT_FLAG_HAD_ACTION))
+            {
+                if (GetUnitUseBits(gActiveUnit) == (UNIT_USEBIT_WEAPON | UNIT_USEBIT_STAFF))
+                    act = ACT_SWAP_RANGES;
+                else
+                    act = ACT_CANCEL;
+
+                goto do_act;
+            }
+            else
+            {
+                if (!CanSelectMoveTo(gBmSt.cursor.x, gBmSt.cursor.y))
+                {
+                    act = ACT_FAIL;
+                    goto do_act;
+                }
+
+                act = ACT_MOVE;
+            }
+        }
+    }
+
+    if (gKeySt->pressed & KEY_BUTTON_B)
+    {
+        if (gActiveUnit->flags & UNIT_FLAG_HAD_ACTION)
+            act = ACT_FAIL;
+        else
+            act = ACT_CANCEL;
+    }
+    else if (gKeySt->pressed & KEY_BUTTON_R)
+    {
+        act = ACT_INFOSCREEN;
+    }
+    else if (gKeySt->pressed & KEY_BUTTON_L)
+    {
+        act = ACT_RESET_CURSOR;
+    }
+
+do_act:
+    switch (act)
+    {
+
+    case ACT_FAIL:
+        PlaySe(SONG_6C);
+        break;
+
+    case ACT_MOVE:
+        CameraMoveWatchPosition(proc, gActiveUnitMoveOrigin.x, gActiveUnitMoveOrigin.y);
+        EndLimitView();
+
+        Proc_Break(proc);
+        return;
+
+    case ACT_CANCEL:
+        EndAllMus();
+
+        gActiveUnit->flags &= ~UNIT_FLAG_HIDDEN;
+
+        if (UNIT_FACTION(gActiveUnit) == FACTION_BLUE)
+        {
+            CameraMoveWatchPosition(proc, gActiveUnitMoveOrigin.x, gActiveUnitMoveOrigin.y);
+            SetMapCursorPosition(gActiveUnitMoveOrigin.x, gActiveUnitMoveOrigin.y);
+        }
+
+        gBmSt.flags &= ~BM_FLAG_DANGER;
+
+        EndLimitView();
+
+        RefreshEntityMaps();
+        RefreshUnitSprites();
+
+        PlaySe(SONG_6B);
+
+        Proc_Goto(proc, L_PLAYERPHASE_IDLE);
+        return;
+
+    case ACT_INFOSCREEN:
+    {
+        u8 uid = gMapUnit[gBmSt.cursor.y][gBmSt.cursor.x];
+
+        if (gActiveUnitMoveOrigin.x == gBmSt.cursor.x && gActiveUnitMoveOrigin.y == gBmSt.cursor.y)
+            uid = gActiveUnit->id;
+
+        if (uid == 0)
+            break;
+
+        EndAllMus();
+        SetStatScreenExcludedUnitFlags(UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED | UNIT_FLAG_UNDER_ROOF | UNIT_FLAG_CONCEALED);
+
+        StartStatScreen(GetUnit(uid), proc);
+        Proc_Goto(proc, L_PLAYERPHASE_6);
+        return;
+    }
+
+    case ACT_RESET_CURSOR:
+        CameraMoveWatchPosition(proc, gActiveUnitMoveOrigin.x, gActiveUnitMoveOrigin.y);
+        SetMapCursorPosition(gActiveUnitMoveOrigin.x, gActiveUnitMoveOrigin.y);
+
+        PlaySe(SONG_6B);
+
+        break;
+
+    case ACT_EVENT:
+        // StartAvailableMoveSelectConfirmEvent();
+        break;
+
+    case ACT_SWAP_RANGES:
+        gBmSt.swap_action_range_count++;
+        EndLimitView();
+
+        if (gBmSt.flags & BM_FLAG_DANGER)
+            Proc_Goto(proc, L_PLAYERPHASE_DANGER_ZONE);
+        else
+            Proc_Goto(proc, L_PLAYERPHASE_SEE_RANGE);
+        break;
+
+    }
+
+    if (GetPlayerSelectKind(gActiveUnit) == PLAYER_SELECT_CONTROL)
+        RefreshMovePath();
+
+    PutMapCursor(gBmSt.cursor_sprite.x, gBmSt.cursor_sprite.y, MAP_CURSOR_REGULAR);
 }
 
 struct ProcScr const ProcScr_PlayerPhaseNew[] =
@@ -281,7 +458,8 @@ PROC_LABEL(L_PLAYERPHASE_MOVE),
     PROC_CALL(RefreshUnitSprites),
 
     PROC_CALL(PlayerPhase_BeginMoveSelect),
-    PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+    // PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+    PROC_REPEAT(PlayerPhase_MoveSelectLoopNew),
 
     PROC_CALL(PlayerPhase_BeginMove),
     PROC_REPEAT(PlayerPhase_WaitForMove),
@@ -341,13 +519,15 @@ PROC_LABEL(L_PLAYERPHASE_SEE_RANGE),
     PROC_WHILE(IsMapFadeActive),
 
     PROC_CALL(PlayerPhase_BeginSeeActionRange),
-    PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+    // PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+    PROC_REPEAT(PlayerPhase_MoveSelectLoopNew),
 
     PROC_GOTO(L_PLAYERPHASE_IDLE),
 
 PROC_LABEL(L_PLAYERPHASE_DANGER_ZONE),
     PROC_CALL(PlayerPhase_DisplayDangerZone),
-    PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+    // PROC_REPEAT(PlayerPhase_MoveSelectLoop),
+    PROC_REPEAT(PlayerPhase_MoveSelectLoopNew),
 
     PROC_GOTO(L_PLAYERPHASE_IDLE),
 

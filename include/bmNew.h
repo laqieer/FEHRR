@@ -3,6 +3,12 @@
 #include "prelude.h"
 #include "proc.h"
 
+#include "bm.h"
+
+enum {
+    BM_FLAG_DANGER = BM_FLAG_3,
+};
+
 struct PlayStNew
 {
     /* 00 */ u32 time_saved; // a time value
