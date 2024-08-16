@@ -117,21 +117,35 @@ int GetActiveMapSongOld(void)
 
 void BmMain_StartPhaseNew(ProcPtr proc)
 {
+    int state = CONTROL_MODE_NONE;
+
     switch (gPlaySt.faction)
     {
+        case FACTION_BLUE:
+            state = gPlayStNew.debug_control_blue;
+            break;
 
-    case FACTION_BLUE:
-        SpawnProcLocking(ProcScr_PlayerPhaseNew, proc);
-        break;
+        case FACTION_RED:
+            state = gPlaySt.debug_control_red;
+            break;
 
-    case FACTION_RED:
-        SpawnProcLocking(ProcScr_AiPhase, proc);
-        break;
+        case FACTION_GREEN:
+            state = gPlaySt.debug_control_green;
+            break;
+    }
 
-    case FACTION_GREEN:
-        SpawnProcLocking(ProcScr_AiPhase, proc);
-        break;
+    switch (state)
+    {
+        case CONTROL_MODE_PLAYER:
+            SpawnProcLocking(ProcScr_PlayerPhaseNew, proc);
+            break;
 
+        case CONTROL_MODE_AI:
+            SpawnProcLocking(ProcScr_AiPhase, proc);
+            break;
+
+        default:
+            break;
     }
 
     Proc_Break(proc);

@@ -51,8 +51,9 @@ void InitPlayConfigNew(int is_hard)
     gPlaySt.config_no_auto_end_turn = FALSE;
     gPlaySt.config_no_subtitle_help = FALSE;
     gPlaySt.config_battle_preview_kind = 0;
-    gPlaySt.debug_control_red = 0;
-    gPlaySt.debug_control_green = 0;
+    gPlayStNew.debug_control_blue = CONTROL_MODE_PLAYER;
+    gPlaySt.debug_control_red = CONTROL_MODE_AI;
+    gPlaySt.debug_control_green = CONTROL_MODE_AI;
     gPlaySt.unk_1C_1 = 0;
     gPlaySt.unk_1D_5 = 0;
 }

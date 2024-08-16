@@ -9,6 +9,12 @@ enum {
     BM_FLAG_DANGER = BM_FLAG_3,
 };
 
+enum {
+    CONTROL_MODE_AI = 0,
+    CONTROL_MODE_PLAYER,
+    CONTROL_MODE_NONE,
+};
+
 struct PlayStNew
 {
     /* 00 */ u32 time_saved; // a time value
@@ -49,7 +55,8 @@ struct PlayStNew
     /* bit 21 */ u32 unk_1E_6 : 1;
     /* bit 22 */ u32 debug_control_red : 2;
     /* bit 24 */ u32 debug_control_green : 2;
-    /* bit 26 */ u32 unk_1F_3 : 6;
+    /* bit 26 */ u32 debug_control_blue : 2;
+    /* bit 28 */ u32 unk_1F_5 : 4;
 };
 
 extern struct PlayStNew gPlayStNew;

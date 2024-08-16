@@ -48,6 +48,13 @@ enum
     DEBUG_WEATHER_COUNT,
 };
 
+enum
+{
+    DEBUG_CONTROL_FACTION_BLUE,
+    DEBUG_CONTROL_FACTION_RED,
+    DEBUG_CONTROL_FACTION_GREEN,
+};
+
 fu8 MapDebugMenu_Map_Select(struct MenuProc * menu, struct MenuEntProc * ent)
 {
     struct MapDebugMenuEntProc * mapEnt = (struct MapDebugMenuEntProc *)ent;
@@ -456,7 +463,7 @@ fu8 MapDebugMenu_ClearStage_Select(struct MenuProc * menu, struct MenuEntProc * 
     return MENU_ACTION_NOCURSOR | MENU_ACTION_END | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR;
 }
 
-struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Map[] =
+const struct MenuEntInfo MenuEntInfo_Debug_Map[] =
 {
     {
         .label = (char const *)3747, // マップ
@@ -565,6 +572,13 @@ fu8 MapMenu_Debug_Select(struct MenuProc * menu, struct MenuEntProc * ent)
     return MENU_ACTION_NOCURSOR;
 }
 
+char const * CpArmyNames[] =
+{
+    (char const *)3813,
+    (char const *)3346,
+    (char const *)3347,
+};
+
 char const * CpControlNames[] =
 {
     (char const *)3779,
@@ -575,16 +589,26 @@ char const * CpControlNames[] =
 u32 DebugCpControlMenu_Entry_DisplayNew(struct MenuProc * menu, struct MenuEntProc * ent)
 {
 
-    int state;
+    int state = CONTROL_MODE_NONE;
 
-    if (ent->id != 0)
-        state = gPlaySt.debug_control_green;
-    else
-        state = gPlaySt.debug_control_red;
+    switch (ent->id)
+    {
+        case DEBUG_CONTROL_FACTION_BLUE:
+            state = gPlayStNew.debug_control_blue;
+            break;
+
+        case DEBUG_CONTROL_FACTION_RED:
+            state = gPlaySt.debug_control_red;
+            break;
+
+        case DEBUG_CONTROL_FACTION_GREEN:
+            state = gPlaySt.debug_control_green;
+            break;
+    }
 
     ClearText(&ent->text);
 
-    Text_InsertDrawString(&ent->text, 8, TEXT_COLOR_SYSTEM_WHITE, (const char *)(ent->id != 0 ? 3347 : 3346));
+    Text_InsertDrawString(&ent->text, 8, TEXT_COLOR_SYSTEM_WHITE, CpArmyNames[ent->id]);
     Text_InsertDrawString(&ent->text, 32, TEXT_COLOR_SYSTEM_BLUE, CpControlNames[state]);
 
     PutText(&ent->text, gBg0Tm + TM_OFFSET(ent->x, ent->y));
@@ -596,12 +620,22 @@ fu8 DebugCpControlMenu_Entry_IdleNew(struct MenuProc * menu, struct MenuEntProc 
 {
     if (gKeySt->pressed & (KEY_BUTTON_A | KEY_DPAD_RIGHT | KEY_DPAD_LEFT))
     {
-        int state;
+        int state = CONTROL_MODE_NONE;
 
-        if (ent->id != 0)
-            state = gPlaySt.debug_control_green;
-        else
-            state = gPlaySt.debug_control_red;
+        switch (ent->id)
+        {
+            case DEBUG_CONTROL_FACTION_BLUE:
+                state = gPlayStNew.debug_control_blue;
+                break;
+
+            case DEBUG_CONTROL_FACTION_RED:
+                state = gPlaySt.debug_control_red;
+                break;
+
+            case DEBUG_CONTROL_FACTION_GREEN:
+                state = gPlaySt.debug_control_green;
+                break;
+        }
 
         if (gKeySt->pressed & KEY_DPAD_LEFT)
             state--;
@@ -615,10 +649,20 @@ fu8 DebugCpControlMenu_Entry_IdleNew(struct MenuProc * menu, struct MenuEntProc 
         if (state < 0)
             state = 0;
 
-        if (ent->id != 0)
-            gPlaySt.debug_control_green = state;
-        else
-            gPlaySt.debug_control_red = state;
+        switch (ent->id)
+        {
+            case DEBUG_CONTROL_FACTION_BLUE:
+                gPlayStNew.debug_control_blue = state;
+                break;
+
+            case DEBUG_CONTROL_FACTION_RED:
+                gPlaySt.debug_control_red = state;
+                break;
+
+            case DEBUG_CONTROL_FACTION_GREEN:
+                gPlaySt.debug_control_green = state;
+                break;
+        }
 
         DebugCpControlMenu_Entry_DisplayNew(menu, ent);
     }
@@ -626,8 +670,15 @@ fu8 DebugCpControlMenu_Entry_IdleNew(struct MenuProc * menu, struct MenuEntProc 
     return 0;
 }
 
-struct MenuEntInfo CONST_DATA MenuEntInfo_DebugCpControlNew[] =
+const struct MenuEntInfo MenuEntInfo_DebugCpControlNew[] =
 {
+    {
+        .label = (const char *)3813, // 青軍
+        .available = MenuEntryEnabled,
+        .display = DebugCpControlMenu_Entry_DisplayNew,
+        .on_idle = DebugCpControlMenu_Entry_IdleNew,
+    },
+
     {
         .label = (const char *)3346, // 赤軍
         .available = MenuEntryEnabled,
@@ -645,7 +696,7 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_DebugCpControlNew[] =
     { 0 }, // end
 };
 
-struct MenuInfo CONST_DATA MenuInfo_DebugCpControlNew =
+const struct MenuInfo MenuInfo_DebugCpControlNew =
 {
     .rect = { 1, 1, 11, 0 },
     .entries = MenuEntInfo_DebugCpControlNew,
@@ -674,7 +725,7 @@ fu8 DebugSaveMenu_Continue_Available(struct MenuEntInfo const * info, int id)
     return !IsValidSuspendSaveAlt(SAVE_SUSPEND_ALT) ? MENU_ENTRY_DISABLED : MENU_ENTRY_ENABLED;
 }
 
-struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Save[] =
+const struct MenuEntInfo MenuEntInfo_Debug_Save[] =
 {
     {
         .label = (const char *)3501, // 手中断
@@ -691,7 +742,7 @@ struct MenuEntInfo CONST_DATA MenuEntInfo_Debug_Save[] =
     { 0 }, // end
 };
 
-struct MenuInfo CONST_DATA MenuInfo_Debug_Save =
+const struct MenuInfo MenuInfo_Debug_Save =
 {
     .rect = { 1, 1, 8, 0 },
     .entries = MenuEntInfo_Debug_Save,
