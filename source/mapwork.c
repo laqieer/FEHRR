@@ -24,6 +24,182 @@ int GetNonActiveFaction(void) {
     return (gPlaySt.faction & FACTION_RED) ^ FACTION_RED;
 }
 
+void AddUnitCompleteStaffRange(struct Unit * unit)
+{
+    int ix, iy;
+
+    int magRange, reach = GetUnitStaffReach(gActiveUnit);
+
+    // MapFill(gMapRange, 0);
+
+    magRange = GetUnitMagRange(unit);
+
+    #define FOR_EACH_IN_MOVEMENT_RANGE(block) \
+        for (iy = gMapSize.y - 1; iy >= 0; --iy) \
+        { \
+            for (ix = gMapSize.x - 1; ix >= 0; --ix) \
+            { \
+                if (gMapMovement[iy][ix] > MAP_MOVEMENT_MAX) \
+                    continue; \
+                block \
+            } \
+        }
+
+    switch (reach)
+    {
+
+    case REACH_RANGE1:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 1);
+        })
+
+        break;
+
+    case REACH_RANGE1 | REACH_RANGE2:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 2);
+        })
+
+        break;
+
+    case REACH_TOMAG:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, magRange);
+        })
+
+        break;
+
+    }
+
+    #undef FOR_EACH_IN_MOVEMENT_RANGE
+}
+
+void AddUnitCompleteAttackRange(struct Unit * unit)
+{
+    int ix, iy;
+    int item;
+
+    // MapFill(gMapRange, 0);
+
+    #define FOR_EACH_IN_MOVEMENT_RANGE(block) \
+        for (iy = gMapSize.y - 1; iy >= 0; --iy) \
+        { \
+            for (ix = gMapSize.x - 1; ix >= 0; --ix) \
+            { \
+                if (gMapMovement[iy][ix] > MAP_MOVEMENT_MAX) \
+                    continue; \
+                if (gMapUnit[iy][ix]) \
+                    continue; \
+                block \
+            } \
+        }
+
+    switch (GetUnitWeaponReach(unit, -1))
+    {
+
+    case REACH_RANGE1:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 1);
+        })
+
+        break;
+
+    case REACH_RANGE1 | REACH_RANGE2:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 2);
+        })
+
+        break;
+
+    case REACH_RANGE1 | REACH_RANGE2 | REACH_RANGE3:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 3);
+        })
+
+        break;
+
+    case REACH_RANGE2:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 2, 2);
+        })
+
+        break;
+
+    case REACH_RANGE2 | REACH_RANGE3:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 2, 3);
+        })
+
+        break;
+
+    case REACH_RANGE3:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 3, 3);
+        })
+
+        break;
+
+    case REACH_RANGE3 | REACH_TO10:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 3, 10);
+        })
+
+        break;
+
+    case REACH_RANGE1 | REACH_RANGE3:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 1);
+            MapIncInBoundedRange(ix, iy, 3, 3);
+        })
+
+        break;
+
+    case REACH_RANGE1 | REACH_RANGE3 | REACH_TO10:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 1);
+            MapIncInBoundedRange(ix, iy, 3, 10);
+        })
+
+        break;
+
+    case REACH_RANGE1 | REACH_RANGE2 | REACH_RANGE3 | REACH_TO10:
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            MapIncInBoundedRange(ix, iy, 1, 10);
+        })
+
+        break;
+
+    }
+
+    if (UNIT_ATTRIBUTES(unit) & UNIT_ATTR_BALLISTA)
+    {
+        FOR_EACH_IN_MOVEMENT_RANGE(
+        {
+            item = GetBallistaItemAt(ix, iy);
+
+            if (item)
+                MapIncInBoundedRange(ix, iy, GetItemMinRange(item), GetItemMaxRange(item));
+        })
+    }
+
+    #undef FOR_EACH_IN_MOVEMENT_RANGE
+
+    SetWorkingMap(gMapMovement);
+}
+
 void GenerateDangerZoneRange(bool8 boolDisplayStaffRange)
 {
     int i, enemyFaction;
@@ -75,9 +251,11 @@ void GenerateDangerZoneRange(bool8 boolDisplayStaffRange)
         // Apply unit's range to range map
 
         if (boolDisplayStaffRange)
-            BuildUnitCompleteStaffRange(unit);
+            // BuildUnitCompleteStaffRange(unit);
+            AddUnitCompleteStaffRange(unit);
         else
-            BuildUnitCompleteAttackRange(unit);
+            // BuildUnitCompleteAttackRange(unit);
+            AddUnitCompleteAttackRange(unit);
 
         gMapUnit[unit->y][unit->x] = savedUnitId;
     }
