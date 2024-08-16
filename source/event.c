@@ -47,6 +47,8 @@
 #include "constants/terrains.h"
 #include "constants/songs.h"
 #include "constants/chapters.h"
+#include "constants/iids.h"
+#include "constants/jids.h"
 #include "chapterNew.h"
 
 #include "background.h"
@@ -376,6 +378,41 @@ void DisplayBackgroundOld(int background)
     DisplayBackgroundNew(background);
 }
 
+const u8 DefaultWeapons[] = {
+    [ITEM_KIND_SWORD] = IID_IRONSWORD,
+    [ITEM_KIND_LANCE] = IID_IRONLANCE,
+    [ITEM_KIND_AXE] = IID_IRONAXE,
+    [ITEM_KIND_BOW] = IID_IRONBOW,
+    [ITEM_KIND_STAFF] = IID_HEALSTAFF,
+    [ITEM_KIND_ANIMA] = IID_FIRE,
+    [ITEM_KIND_LIGHT] = IID_LIGHTNING,
+    [ITEM_KIND_ELDER] = IID_FLUX,
+};
+
+void GiveUnitDefaultWeapons(struct Unit * unit)
+{
+    Assert(unit && unit->pinfo && unit->jinfo && (unit->flags & UNIT_FLAG_DEAD) == 0);
+
+    switch (unit->jinfo->id)
+    {
+        case JID_MANAKETE:
+            UnitAddItem(unit, CreateItem(IID_FIRESTONE));
+            break;
+
+        case JID_MANAKETE_F:
+            UnitAddItem(unit, CreateItem(IID_DIVINESTONE));
+            break;
+
+        default:
+            for (int i = 0; i < UNIT_WEAPON_EXP_COUNT; ++i)
+            {
+                if(unit->wexp[i])
+                    UnitAddItem(unit, CreateItem(DefaultWeapons[i]));
+            }
+            break;
+    }
+}
+
 void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
 {
     struct Unit * unit;
@@ -397,6 +434,13 @@ void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
     if (!unit)
     {
         unit = CreateUnit(info);
+
+        // Give default weapons if unit has no items in new chapters
+        if(GetUnitItemCount(unit) == 0 && IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
+        {
+            GiveUnitDefaultWeapons(unit);
+        }
+
         Infof("Created unit at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d)", unit, unit->pinfo->id, GetHeroName(unit->pinfo->id), unit->jinfo->id, GetMsg(GetJInfo(unit->jinfo->id)->msg_name), unit->level, unit->x, unit->y);
     }
 
