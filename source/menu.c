@@ -236,6 +236,13 @@ struct MenuEntInfo const MenuEntInfo_MapNew[] =
     },
 
     {
+        .label = (const char *)3814, // 敵軍
+        .msg_help = 3815,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Enemy_SelectNew,
+    },
+
+    {
         .label = (const char *)3740, // 状況
         .msg_help = MSG_655,
         .available = MenuEntryEnabled,
@@ -289,7 +296,7 @@ struct MenuEntInfo const MenuEntInfo_MapNew[] =
 
 struct MenuInfo const MenuInfo_MapNew =
 {
-    .rect = { 1, 1, 6, 0 },
+    .rect = { 1, 0, 6, 0 },
     .entries = MenuEntInfo_MapNew,
     .on_b_press = MenuActionClose,
     .on_r_press = MenuActionHelpBox,

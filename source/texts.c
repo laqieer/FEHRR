@@ -22803,6 +22803,18 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "蓝军",
     },
 
+    [3814] = {
+        [LANGUAGE_JAPANESE] = "　敵軍",
+        [LANGUAGE_ENGLISH] = " Enemy",
+        [LANGUAGE_CHINESE] = "  敌军",
+    },
+
+    [3815] = {
+        [LANGUAGE_JAPANESE] = "マップ上にいる敵を" TEXT_CMD_NEWLINE "一覧表示します",
+        [LANGUAGE_ENGLISH] = "Display a chart of all" TEXT_CMD_NEWLINE "enemies on the field.",
+        [LANGUAGE_CHINESE] = "统一显示地图" TEXT_CMD_NEWLINE "上的敌人",
+    },
+
     [TEXT_ID_TEST] = {
         [LANGUAGE_JAPANESE] = FaceTestText,
         [LANGUAGE_ENGLISH] = FaceTestText,
