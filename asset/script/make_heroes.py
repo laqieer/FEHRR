@@ -100,7 +100,7 @@ def make_debug_heroes(filename):
             # else:
             #     f.write('            IID_FIRESTONE,\n')
             #     f.write('            IID_DIVINESTONE,\n')
-            f.write('        },\n')
+            # f.write('        },\n')
             x = 2 * (i % 8)
             y = i // 8
             f.write('        .x_load = %d,\n' % x)
