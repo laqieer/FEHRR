@@ -14,3 +14,5 @@
 .text.GetJInfoOld : {*(.text.GetJInfoOld)}
 . = UnitInitFromInfo - 1;
 .text.UnitInitFromInfoOld : {*(.text.UnitInitFromInfoOld)}
+. = CreateUnit - 1;
+.text.CreateUnitOld : {*(.text.CreateUnitOld)}

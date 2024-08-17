@@ -25,10 +25,12 @@
 #include "constants/icons.h"
 #include "constants/faces.h"
 
+#include "hero.h"
 #include "heroes.h"
 #include "enemies.h"
 #include "chapterNew.h"
 #include "bmNew.h"
+#include "msgNew.h"
 
 #include "voice.h"
 #include "unitNew.h"
@@ -254,4 +256,113 @@ struct Unit * GetBlueUnitByPid(int pid)
     }
 
     return NULL;
+}
+
+const u8 DefaultWeapons[] = {
+    [ITEM_KIND_SWORD] = IID_IRONSWORD,
+    [ITEM_KIND_LANCE] = IID_IRONLANCE,
+    [ITEM_KIND_AXE] = IID_IRONAXE,
+    [ITEM_KIND_BOW] = IID_IRONBOW,
+    [ITEM_KIND_STAFF] = IID_HEALSTAFF,
+    [ITEM_KIND_ANIMA] = IID_FIRE,
+    [ITEM_KIND_LIGHT] = IID_LIGHTNING,
+    [ITEM_KIND_ELDER] = IID_FLUX,
+};
+
+void GiveUnitDefaultWeapons(struct Unit * unit)
+{
+    Assert(unit && unit->pinfo && unit->jinfo && (unit->flags & UNIT_FLAG_DEAD) == 0);
+
+    switch (unit->jinfo->id)
+    {
+        case JID_MANAKETE:
+            UnitAddItem(unit, CreateItem(IID_FIRESTONE));
+            break;
+
+        case JID_MANAKETE_F:
+            UnitAddItem(unit, CreateItem(IID_DIVINESTONE));
+            break;
+
+        default:
+            for (int i = 0; i < UNIT_WEAPON_EXP_COUNT; ++i)
+            {
+                if(unit->wexp[i])
+                    UnitAddItem(unit, CreateItem(DefaultWeapons[i]));
+            }
+            break;
+    }
+}
+
+struct Unit * CreateUnitNew(struct UnitInfo const * info)
+{
+    struct Unit * unit;
+
+    switch (info->faction_id)
+    {
+
+    case FACTION_ID_BLUE:
+        unit = GetFreeUnit(FACTION_BLUE);
+        break;
+
+    case FACTION_ID_RED:
+        unit = GetFreeUnit(FACTION_RED);
+        break;
+
+    case FACTION_ID_GREEN:
+        unit = GetFreeUnit(FACTION_GREEN);
+        break;
+
+    default:
+        unit = NULL;
+        break;
+
+    }
+
+    if (unit == NULL)
+        return NULL;
+
+    ClearUnit(unit);
+
+    UnitInitFromInfoNew(unit, info);
+    UnitInitStatsNew(unit, unit->pinfo);
+
+    UnitHideIfUnderRoof(unit);
+
+    if (info->autolevel)
+    {
+        if (UNIT_FACTION(unit) == FACTION_BLUE)
+        {
+            UnitAutolevelPlayer(unit);
+            UnitAutolevelWeaponExp(unit, info);
+        }
+        else
+        {
+            UnitAutolevel(unit);
+            UnitAutolevelWeaponExp(unit, info);
+
+            SetUnitLeaderPid(unit, info->pid_lead);
+        }
+    }
+
+    func_fe6_08017764(unit);
+    UnitInitSupports(unit);
+
+    UnitCheckStatOverflow(unit);
+
+    unit->hp = GetUnitMaxHp(unit);
+
+    // Give default weapons if unit has no items in new chapters
+    if(GetUnitItemCount(unit) == 0 && IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
+    {
+        GiveUnitDefaultWeapons(unit);
+    }
+
+    Infof("Created unit at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d)", unit, unit->pinfo->id, GetHeroName(unit->pinfo->id), unit->jinfo->id, GetMsg(GetJInfo(unit->jinfo->id)->msg_name), unit->level, unit->x, unit->y);
+
+    return unit;
+}
+
+struct Unit * CreateUnitOld(struct UnitInfo const * info)
+{
+    return CreateUnitNew(info);
 }

@@ -378,41 +378,6 @@ void DisplayBackgroundOld(int background)
     DisplayBackgroundNew(background);
 }
 
-const u8 DefaultWeapons[] = {
-    [ITEM_KIND_SWORD] = IID_IRONSWORD,
-    [ITEM_KIND_LANCE] = IID_IRONLANCE,
-    [ITEM_KIND_AXE] = IID_IRONAXE,
-    [ITEM_KIND_BOW] = IID_IRONBOW,
-    [ITEM_KIND_STAFF] = IID_HEALSTAFF,
-    [ITEM_KIND_ANIMA] = IID_FIRE,
-    [ITEM_KIND_LIGHT] = IID_LIGHTNING,
-    [ITEM_KIND_ELDER] = IID_FLUX,
-};
-
-void GiveUnitDefaultWeapons(struct Unit * unit)
-{
-    Assert(unit && unit->pinfo && unit->jinfo && (unit->flags & UNIT_FLAG_DEAD) == 0);
-
-    switch (unit->jinfo->id)
-    {
-        case JID_MANAKETE:
-            UnitAddItem(unit, CreateItem(IID_FIRESTONE));
-            break;
-
-        case JID_MANAKETE_F:
-            UnitAddItem(unit, CreateItem(IID_DIVINESTONE));
-            break;
-
-        default:
-            for (int i = 0; i < UNIT_WEAPON_EXP_COUNT; ++i)
-            {
-                if(unit->wexp[i])
-                    UnitAddItem(unit, CreateItem(DefaultWeapons[i]));
-            }
-            break;
-    }
-}
-
 void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
 {
     struct Unit * unit;
@@ -420,7 +385,11 @@ void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
     Infof("Loading unit by info at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d) -> (%d, %d)", info, info->pid, GetHeroName(info->pid), info->jid, GetMsg(GetJInfo(info->jid)->msg_name), info->level, info->x_load, info->y_load, info->x_move, info->y_move);
 
     if (UnitInfoRequiresNoMovement(info))
+    {
+        unit = GetUnit(gMapUnit[info->y_load][info->x_load]);
+        Infof("Unit already exists at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d)", unit, unit->pinfo->id, GetHeroName(unit->pinfo->id), unit->jinfo->id, GetMsg(GetJInfo(unit->jinfo->id)->msg_name), unit->level, unit->x, unit->y);
         return;
+    }
 
     if (info->faction_id == FACTION_ID_BLUE)
         // unit = GetUnitByPid(info->pid);
@@ -432,17 +401,7 @@ void LoadUnitWrapperNew(struct UnitInfo const * info, ProcPtr parent)
         Infof("Unit already exists at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d)", unit, unit->pinfo->id, GetHeroName(unit->pinfo->id), unit->jinfo->id, GetMsg(GetJInfo(unit->jinfo->id)->msg_name), unit->level, unit->x, unit->y);
 
     if (!unit)
-    {
         unit = CreateUnit(info);
-
-        // Give default weapons if unit has no items in new chapters
-        if(GetUnitItemCount(unit) == 0 && IsChapterNew(GetChapterInPlaySt(&gPlayStNew)))
-        {
-            GiveUnitDefaultWeapons(unit);
-        }
-
-        Infof("Created unit at 0x%x: %d %s, job: %d %s, LV: %d, position: (%d, %d)", unit, unit->pinfo->id, GetHeroName(unit->pinfo->id), unit->jinfo->id, GetMsg(GetJInfo(unit->jinfo->id)->msg_name), unit->level, unit->x, unit->y);
-    }
 
     if ((gPlaySt.flags & PLAY_FLAG_HARD) && info->faction_id == FACTION_ID_RED)
         UnitApplyBonusLevels(unit, GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->hard_bonus_levels);
