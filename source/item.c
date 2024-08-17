@@ -1,7 +1,10 @@
 #include "item.h"
 #include "itemNew.h"
 
+#include "unit.h"
 #include "msgNew.h"
+
+#include "constants/iids.h"
 
 char const * GetItemRangeStringNew(int item)
 {
@@ -105,4 +108,51 @@ int GetItemReachNew(int item)
 int GetItemReachOld(int item)
 {
     return GetItemReachNew(item);
+}
+
+bool CanUnitUseWeaponNew(struct Unit * unit, int item)
+{
+    int required_wexp, unit_exp;
+
+    if (!item)
+        return FALSE;
+
+    if (!(GetItemAttributes(item) & ITEM_ATTR_WEAPON))
+        return FALSE;
+
+    if (GetItemAttributes(item) & ITEM_ATTR_LOCK_ANY)
+    {
+        if ((GetItemAttributes(item) & ITEM_ATTR_LOCK_ROY) && !(UNIT_ATTRIBUTES(unit) & UNIT_ATTR_LOCK_ROY))
+            return FALSE;
+
+        if ((GetItemAttributes(item) & ITEM_ATTR_LOCK_MYRM) && !(UNIT_ATTRIBUTES(unit) & UNIT_ATTR_LOCK_MYRM))
+            return FALSE;
+
+        if (GetItemAttributes(item) & ITEM_ATTR_LOCK_DRAGON)
+        {
+            if (!(UNIT_ATTRIBUTES(unit) & UNIT_ATTR_LOCK_DRAGON))
+                return FALSE;
+
+            return TRUE;
+        }
+
+        if ((GetItemAttributes(item) & ITEM_ATTR_LOCK_ZEPHIEL) && !(UNIT_ATTRIBUTES(unit) & UNIT_ATTR_LOCK_ZEPHIEL))
+            return FALSE;
+    }
+
+    if ((unit->status == UNIT_STATUS_SILENCED) && (GetItemAttributes(item) & ITEM_ATTR_MAGIC))
+        return FALSE;
+
+    if ((GetItemIid(item) == IID_BALLISTA || GetItemIid(item) == IID_LONGBALLISTA || GetItemIid(item) == IID_KILLERBALLISTA) && !(UNIT_ATTRIBUTES(unit) & UNIT_ATTR_BALLISTA))
+        return FALSE;
+
+    required_wexp = GetItemRequiredExp(item);
+    unit_exp = (unit->wexp[GetItemKind(item)]);
+
+    return (unit_exp >= required_wexp) ? TRUE : FALSE;
+}
+
+bool CanUnitUseWeaponOld(struct Unit * unit, int item)
+{
+    return CanUnitUseWeaponNew(unit, item);
 }
