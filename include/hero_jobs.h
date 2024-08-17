@@ -7,7 +7,7 @@
 #define JID_アルフォンス JID_ROY
 #define JID_シャロン JID_SOLDIER
 #define JID_アンナ JID_FIGHTER
-#define JID_ヴェロニカ JID_SHAMAN_F
+#define JID_ヴェロニカ JID_MAGE_F
 #define JID_レギン JID_CAVALIER
 #define JID_ブルーノ JID_TROUBADOUR
 #define JID_神階ピアニー JID_PEGASUSKNIGHT
@@ -52,7 +52,7 @@
 #define JID_アルフォンス_PROMOTED JID_ROY_PROMOTED
 #define JID_シャロン_PROMOTED JID_HALBERDIER
 #define JID_アンナ_PROMOTED JID_WARRIOR
-#define JID_ヴェロニカ_PROMOTED JID_DRUID_F
+#define JID_ヴェロニカ_PROMOTED JID_SAGE_F
 #define JID_レギン_PROMOTED JID_PALADIN
 #define JID_ブルーノ_PROMOTED JID_VALKYRIE
 #define JID_神階ピアニー_PROMOTED JID_FALCONKNIGHT
