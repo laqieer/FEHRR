@@ -74,16 +74,22 @@ void UnitBeginActionOld(struct Unit * unit)
     UnitBeginActionNew(unit);
 }
 
+// Enemy only characters don't have unique stats, so use job stats instead
+bool isEnemyOnly(u8 pid)
+{
+    return pid > HERO_NUM;
+}
+
 void UnitInitStatsNew(struct Unit * unit, struct PInfo const * pinfo)
 {
     int i;
 
-    unit->max_hp = pinfo->base_hp + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_hp);
-    unit->pow = pinfo->base_pow + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_pow);
+    unit->max_hp = pinfo->base_hp + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_hp);
+    unit->pow = pinfo->base_pow + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_pow);
     unit->skl = pinfo->base_skl + unit->jinfo->base_skl;
-    unit->spd = pinfo->base_spd + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_spd);
-    unit->def = pinfo->base_def + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_def);
-    unit->res = pinfo->base_res + ((UNIT_FACTION(unit) == FACTION_BLUE) ? 0 : unit->jinfo->base_res);
+    unit->spd = pinfo->base_spd + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_spd);
+    unit->def = pinfo->base_def + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_def);
+    unit->res = pinfo->base_res + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_res);
     unit->lck = pinfo->base_lck;
 
     unit->bonus_con = 0;
@@ -330,16 +336,19 @@ struct Unit * CreateUnitNew(struct UnitInfo const * info)
 
     if (info->autolevel)
     {
-        if (UNIT_FACTION(unit) == FACTION_BLUE)
+        if (isEnemyOnly(unit->pinfo->id))
         {
-            UnitAutolevelPlayer(unit);
-            UnitAutolevelWeaponExp(unit, info);
+            UnitAutolevel(unit);
         }
         else
         {
-            UnitAutolevel(unit);
-            UnitAutolevelWeaponExp(unit, info);
+            UnitAutolevelPlayer(unit);
+        }
 
+        UnitAutolevelWeaponExp(unit, info);
+
+        if (UNIT_FACTION(unit) != FACTION_BLUE)
+        {
             SetUnitLeaderPid(unit, info->pid_lead);
         }
     }
