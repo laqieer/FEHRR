@@ -20309,7 +20309,7 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
 
     [3384] = {
         [LANGUAGE_JAPANESE] = "杖",
-        [LANGUAGE_ENGLISH] = "Staff",
+        [LANGUAGE_ENGLISH] = "ST",
         [LANGUAGE_CHINESE] = "杖",
     },
 
