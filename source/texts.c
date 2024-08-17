@@ -22792,9 +22792,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3812] = {
-        [LANGUAGE_JAPANESE] = "ー０１２３４５６７８９～",
-        [LANGUAGE_ENGLISH] = "ー０１２３４５６７８９～",
-        [LANGUAGE_CHINESE] = "ー０１２３４５６７８９～",
+        [LANGUAGE_JAPANESE] = "ー０１２３４５６７８９～　",
+        [LANGUAGE_ENGLISH] = "ー０１２３４５６７８９～　",
+        [LANGUAGE_CHINESE] = "ー０１２３４５６７８９～　",
     },
 
     [3813] = {

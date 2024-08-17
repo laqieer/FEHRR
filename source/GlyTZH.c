@@ -24698,8 +24698,17 @@ const struct GlyphNew GlyTZH_E382A1 = { /* ァ */
     .bitmap = GlyTZH_E382A1Tiles,
 };
 
-const struct GlyphNew GlyTZH_E382A2 = { /* ア */
+const struct GlyphNew GlyTZH_E38080 = { /* 　 */
     .next = &GlyTZH_E382A1,
+    .width = 7,
+    .utf_byte_2 = 0x80,
+    .utf_byte_3 = 0x80,
+    .utf_byte_4 = 0x00,
+    .bitmap = GlyTZH_E38080Tiles,
+};
+
+const struct GlyphNew GlyTZH_E382A2 = { /* ア */
+    .next = &GlyTZH_E38080,
     .width = 9,
     .utf_byte_2 = 0x82,
     .utf_byte_3 = 0xa2,
