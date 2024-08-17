@@ -1115,6 +1115,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
                                 red_unit_items = 'IID_DIVINESTONE, 0, 0, 0'
                             else:
                                 red_unit_items = 'IID_FIRESTONE, 0, 0, 0'
+                        red_unit_items = '0'
                         file.write('    { %s, %s, %s, TRUE, FACTION_ID_RED, %d, %d, %d, %d, %d, { %s }, { 0 } },\n' % (red_unit_id, red_unit_job, "PID_NONE" if red_unit_id == red_unit_commander else red_unit_commander, red_unit_job_lv, x, y, x, y, red_unit_items))
                     file.write('    { 0 }, // end\n')
                     file.write('};\n\n')

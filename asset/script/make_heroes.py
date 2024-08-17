@@ -86,20 +86,20 @@ def make_debug_heroes(filename):
             f.write('        .pid_lead = PID_アルフォンス,\n')
             f.write('        .level = DEBUG_BLUE_UNIT_LEVEL,\n')
             f.write('        .autolevel = DEBUG_BLUE_UNIT_AUTOLEVEL,\n')
-            f.write('        .items = {\n')
-            if data['weapon_type'] <= 10:
-                f.write('            IID_IRONSWORD,\n')
-                f.write('            IID_IRONLANCE,\n')
-                f.write('            IID_IRONAXE,\n')
-                f.write('            IID_IRONBOW,\n')
-            elif data['weapon_type'] <= 15:
-                f.write('            IID_FIRE,\n')
-                f.write('            IID_LIGHTNING,\n')
-                f.write('            IID_FLUX,\n')
-                f.write('            IID_HEALSTAFF,\n')
-            else:
-                f.write('            IID_FIRESTONE,\n')
-                f.write('            IID_DIVINESTONE,\n')
+            # f.write('        .items = {\n')
+            # if data['weapon_type'] <= 10:
+            #     f.write('            IID_IRONSWORD,\n')
+            #     f.write('            IID_IRONLANCE,\n')
+            #     f.write('            IID_IRONAXE,\n')
+            #     f.write('            IID_IRONBOW,\n')
+            # elif data['weapon_type'] <= 15:
+            #     f.write('            IID_FIRE,\n')
+            #     f.write('            IID_LIGHTNING,\n')
+            #     f.write('            IID_FLUX,\n')
+            #     f.write('            IID_HEALSTAFF,\n')
+            # else:
+            #     f.write('            IID_FIRESTONE,\n')
+            #     f.write('            IID_DIVINESTONE,\n')
             f.write('        },\n')
             x = 2 * (i % 8)
             y = i // 8
