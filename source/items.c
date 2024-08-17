@@ -861,7 +861,8 @@ const struct IInfo IInfoTableNew[] =
         .hit = 70,
         .weight = 20,
         .encoded_range = 0x3A,
-        .required_wexp = WEXP_E,
+        .cost_per_use = 400,
+        .required_wexp = WEXP_C,
         .icon = ICON_ITEM_2E,
     },
 
@@ -878,7 +879,8 @@ const struct IInfo IInfoTableNew[] =
         .hit = 60,
         .weight = 20,
         .encoded_range = 0x3F,
-        .required_wexp = WEXP_E,
+        .cost_per_use = 600,
+        .required_wexp = WEXP_B,
         .icon = ICON_ITEM_2F,
     },
 
@@ -896,7 +898,8 @@ const struct IInfo IInfoTableNew[] =
         .weight = 20,
         .crit = 10,
         .encoded_range = 0x3A,
-        .required_wexp = WEXP_E,
+        .cost_per_use = 800,
+        .required_wexp = WEXP_A,
         .icon = ICON_ITEM_30,
     },
 

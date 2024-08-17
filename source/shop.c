@@ -82,6 +82,7 @@ const u16 RankCWeapons[] = {
     IID_BARRIERSTAFF,
     IID_STEELBLADE,
     IID_WYRMSLAYER,
+    IID_BALLISTA,
     0,
 };
 
@@ -98,6 +99,7 @@ const u16 RankBWeapons[] = {
     IID_SLEEPSTAFF,
     IID_BERSERKSTAFF,
     IID_SPEAR,
+    IID_LONGBALLISTA,
     0,
 };
 
@@ -115,6 +117,7 @@ const u16 RankAWeapons[] = {
     IID_SILVERBLADE,
     IID_RUNESWORD,
     IID_TOMAHAWK,
+    IID_KILLERBALLISTA,
     0,
 };
 
