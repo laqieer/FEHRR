@@ -44,7 +44,7 @@
 #define JID_ネルトゥス JID_MANAKETE_F
 #define JID_マークス JID_CAVALIER
 #define JID_スリーズ JID_TROUBADOUR
-#define JID_フード JID_PRIEST
+#define JID_フード JID_ARCHER
 #define JID_愛の祭ヘンリエッテ JID_SHAMAN_F
 #define JID_クワシル JID_TROUBADOUR
 #define JID_神階ヘイズ JID_MAGE_F
@@ -89,7 +89,7 @@
 #define JID_ネルトゥス_PROMOTED JID_ネルトゥス
 #define JID_マークス_PROMOTED JID_PALADIN
 #define JID_スリーズ_PROMOTED JID_VALKYRIE
-#define JID_フード_PROMOTED JID_SAGE
+#define JID_フード_PROMOTED JID_SNIPER
 #define JID_愛の祭ヘンリエッテ_PROMOTED JID_DRUID_F
 #define JID_クワシル_PROMOTED JID_VALKYRIE
 #define JID_神階ヘイズ_PROMOTED JID_SAGE_F
