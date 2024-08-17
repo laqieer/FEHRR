@@ -50,3 +50,4 @@ INCLUDE ../ldscript/itemuse.lds
 INCLUDE ../ldscript/shop.lds
 INCLUDE ../ldscript/items.lds
 INCLUDE ../ldscript/item.lds
+INCLUDE ../ldscript/mapwork.lds

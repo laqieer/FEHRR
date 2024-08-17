@@ -1,4 +1,5 @@
 #include "item.h"
+#include "itemNew.h"
 
 #include "msgNew.h"
 
@@ -61,4 +62,47 @@ char const * GetItemRangeStringNew(int item)
 char const * GetItemRangeStringOld(int item)
 {
     return GetItemRangeStringNew(item);
+}
+
+int GetItemReachNew(int item)
+{
+    switch (GetItemEncodedRange(item))
+    {
+
+    case 0x11:
+        return REACH_RANGE1;
+
+    case 0x12:
+        return REACH_RANGE1 | REACH_RANGE2;
+
+    case 0x13:
+        return REACH_RANGE1 | REACH_RANGE2 | REACH_RANGE3;
+
+    case 0x22:
+        return REACH_RANGE2;
+
+    case 0x23:
+        return REACH_RANGE2 | REACH_RANGE3;
+
+    case 0x33:
+        return REACH_RANGE3;
+
+    case 0x35:
+        return REACH_RANGE3 | REACH_TO5;
+
+    case 0x3A:
+        return REACH_RANGE3 | REACH_TO10;
+
+    case 0x3F:
+        return REACH_RANGE3 | REACH_TO15;
+
+    default:
+        return REACH_NONE;
+
+    }
+}
+
+int GetItemReachOld(int item)
+{
+    return GetItemReachNew(item);
 }
