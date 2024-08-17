@@ -84,12 +84,12 @@ void UnitInitStatsNew(struct Unit * unit, struct PInfo const * pinfo)
 {
     int i;
 
-    unit->max_hp = pinfo->base_hp + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_hp);
-    unit->pow = pinfo->base_pow + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_pow);
+    unit->max_hp = pinfo->base_hp + (isEnemyOnly(unit->pinfo->id) ? unit->jinfo->base_hp : 0);
+    unit->pow = pinfo->base_pow + (isEnemyOnly(unit->pinfo->id) ? unit->jinfo->base_pow : 0);
     unit->skl = pinfo->base_skl + unit->jinfo->base_skl;
-    unit->spd = pinfo->base_spd + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_spd);
-    unit->def = pinfo->base_def + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_def);
-    unit->res = pinfo->base_res + (isEnemyOnly(unit->pinfo->id) ? 0 : unit->jinfo->base_res);
+    unit->spd = pinfo->base_spd + (isEnemyOnly(unit->pinfo->id) ? unit->jinfo->base_spd : 0);
+    unit->def = pinfo->base_def + (isEnemyOnly(unit->pinfo->id) ? unit->jinfo->base_def : 0);
+    unit->res = pinfo->base_res + (isEnemyOnly(unit->pinfo->id) ? unit->jinfo->base_res : 0);
     unit->lck = pinfo->base_lck;
 
     unit->bonus_con = 0;
