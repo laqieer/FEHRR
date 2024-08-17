@@ -21,7 +21,7 @@
 #define JID_スルト JID_ARMOR
 #define JID_アシュ JID_MANAKETE
 #define JID_神階アスク JID_MANAKETE
-#define JID_リーヴ JID_ROY
+#define JID_リーヴ JID_MERCENARY
 #define JID_レーギャルン JID_WYVERNRIDER_F
 #define JID_ダグ JID_FIGHTER
 #define JID_エイトリ JID_MAGE
@@ -66,7 +66,7 @@
 #define JID_スルト_PROMOTED JID_GENERAL
 #define JID_アシュ_PROMOTED JID_アシュ
 #define JID_神階アスク_PROMOTED JID_神階アスク
-#define JID_リーヴ_PROMOTED JID_SWORDMASTER
+#define JID_リーヴ_PROMOTED JID_HERO
 #define JID_レーギャルン_PROMOTED JID_WYVERNLORD_F
 #define JID_ダグ_PROMOTED JID_WARRIOR
 #define JID_エイトリ_PROMOTED JID_SAGE
