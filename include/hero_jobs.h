@@ -7,7 +7,7 @@
 #define JID_アルフォンス JID_ROY
 #define JID_シャロン JID_SOLDIER
 #define JID_アンナ JID_FIGHTER
-#define JID_ヴェロニカ JID_MAGE_F
+#define JID_ヴェロニカ JID_SHAMAN_F
 #define JID_レギン JID_CAVALIER
 #define JID_ブルーノ JID_TROUBADOUR
 #define JID_神階ピアニー JID_PEGASUSKNIGHT
@@ -39,20 +39,20 @@
 #define JID_神階ルピナス JID_PEGASUSKNIGHT
 #define JID_フリーズ JID_CAVALIER
 #define JID_プルメリア JID_PEGASUSKNIGHT
-#define JID_スラシル JID_MAGE_F
+#define JID_スラシル JID_SHAMAN_F
 #define JID_グルヴェイグ JID_TROUBADOUR
 #define JID_ネルトゥス JID_MANAKETE_F
 #define JID_マークス JID_CAVALIER
 #define JID_スリーズ JID_TROUBADOUR
 #define JID_フード JID_ARCHER
-#define JID_愛の祭ヘンリエッテ JID_SHAMAN_F
+#define JID_愛の祭ヘンリエッテ JID_CLERIC
 #define JID_クワシル JID_TROUBADOUR
 #define JID_神階ヘイズ JID_MAGE_F
 
 #define JID_アルフォンス_PROMOTED JID_ROY_PROMOTED
 #define JID_シャロン_PROMOTED JID_HALBERDIER
 #define JID_アンナ_PROMOTED JID_WARRIOR
-#define JID_ヴェロニカ_PROMOTED JID_SAGE_F
+#define JID_ヴェロニカ_PROMOTED JID_DRUID_F
 #define JID_レギン_PROMOTED JID_PALADIN
 #define JID_ブルーノ_PROMOTED JID_VALKYRIE
 #define JID_神階ピアニー_PROMOTED JID_FALCONKNIGHT
@@ -84,12 +84,12 @@
 #define JID_神階ルピナス_PROMOTED JID_FALCONKNIGHT
 #define JID_フリーズ_PROMOTED JID_PALADIN
 #define JID_プルメリア_PROMOTED JID_FALCONKNIGHT
-#define JID_スラシル_PROMOTED JID_SAGE_F
+#define JID_スラシル_PROMOTED JID_DRUID_F
 #define JID_グルヴェイグ_PROMOTED JID_VALKYRIE
 #define JID_ネルトゥス_PROMOTED JID_ネルトゥス
 #define JID_マークス_PROMOTED JID_PALADIN
 #define JID_スリーズ_PROMOTED JID_VALKYRIE
 #define JID_フード_PROMOTED JID_SNIPER
-#define JID_愛の祭ヘンリエッテ_PROMOTED JID_DRUID_F
+#define JID_愛の祭ヘンリエッテ_PROMOTED JID_BISHOP_F
 #define JID_クワシル_PROMOTED JID_VALKYRIE
 #define JID_神階ヘイズ_PROMOTED JID_SAGE_F
