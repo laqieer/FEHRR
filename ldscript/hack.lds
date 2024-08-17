@@ -49,3 +49,4 @@ INCLUDE ../ldscript/titlescreen.lds
 INCLUDE ../ldscript/itemuse.lds
 INCLUDE ../ldscript/shop.lds
 INCLUDE ../ldscript/items.lds
+INCLUDE ../ldscript/item.lds

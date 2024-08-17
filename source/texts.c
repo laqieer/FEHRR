@@ -9004,9 +9004,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [1500] = {
-        [LANGUAGE_JAPANESE] = "３マス先の相手に攻撃できる弓",
+        [LANGUAGE_JAPANESE] = "３～５マス先の相手に攻撃できる弓",
         [LANGUAGE_ENGLISH] = "Extended attack range.",
-        [LANGUAGE_CHINESE] = "可以隔3格攻击敌人的弓",
+        [LANGUAGE_CHINESE] = "可以隔3~5格攻击敌人的弓",
     },
 
     [1501] = {
@@ -22792,9 +22792,9 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
     },
 
     [3812] = {
-        [LANGUAGE_JAPANESE] = "ー０１２３４５６７８９",
-        [LANGUAGE_ENGLISH] = "ー０１２３４５６７８９",
-        [LANGUAGE_CHINESE] = "ー０１２３４５６７８９",
+        [LANGUAGE_JAPANESE] = "ー０１２３４５６７８９～",
+        [LANGUAGE_ENGLISH] = "ー０１２３４５６７８９～",
+        [LANGUAGE_CHINESE] = "ー０１２３４５６７８９～",
     },
 
     [3813] = {
