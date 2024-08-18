@@ -1945,6 +1945,7 @@ const struct IInfo IInfoTableNew[] =
         .msg_desc = MSG_620,
         .kind = ITEM_KIND_SWORD,
         .attributes = ITEM_ATTR_WEAPON,
+        .effectiveness = JList_WyrmEffectiveness,
         .uses = 20,
         .might = 15,
         .hit = 90,
