@@ -206,32 +206,6 @@ void PutManaketeTotalImgNew(struct ProcEkrDragon * proc)
             break;
         }
     }
-    else
-    {
-        EfxTmCpyBG(gEkrTsaBuffer, GetTmOffsetById(3, 15, 0), 30 - 15, 22, 7, pos);
-
-        switch (gEkrDistanceType) {
-        case EKR_DISTANCE_CLOSE:
-            SetBgOffset(3, 0, 16);
-            break;
-
-        case EKR_DISTANCE_FAR:
-            EkrDragonMoveBg3(gEkrBgPosition + 48);
-            SetBgOffset(3, gEkrBgPosition + 48, 16);
-
-            if (gEkrBgPosition == 0)
-            {
-                FillBGRect(gBg3Tm, 2, 22, 240, 0);
-                FillBGRect(gBg3Tm + 2, 2, 22, 240, 0);
-            }
-            break;
-
-        case EKR_DISTANCE_FARFAR:
-            EkrDragonMoveBg3(16);
-            SetBgOffset(3, 16, 16);
-            break;
-        }
-    }
     EnableBgSync(BG3_SYNC_BIT);
 }
 
