@@ -3,7 +3,7 @@
 	url = https://github.com/laqieer/FE-Clib-Decomp.git
 [submodule "include/decomp"]
 	path = include/decomp
-	url = https://github.com/StanHash/fe6.git
+	url = https://github.com/FireEmblemUniverse/fireemblem6j.git
 [submodule "asset/json"]
 	path = asset/json
 	url = https://github.com/HertzDevil/feh-assets-json.git
