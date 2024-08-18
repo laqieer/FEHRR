@@ -23268,7 +23268,7 @@ const int textId_3732_0 = 3732;
 const int textId_3733_0 = 3733;
 const int textId_3734_0 = 3734;
 
-const char text_835CA44[] = "Ｇ";
+const char String_ShopGoldG_UTF8[] = "Ｇ";
 const char text_LvUp_Physic[] = "HP\0\0\0STR\0\0SKL\0\0SPD\0\0LUCK\0DEF\0\0RES\0\0CON";
 const char text_LvUp_Magic[] = "HP\0\0\0MAG\0\0SKL\0\0SPD\0\0LUCK\0DEF\0\0RES\0\0CON";
 const char text_LvUp_Lv[] = "LV";

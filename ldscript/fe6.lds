@@ -11,7 +11,7 @@ gBattleUnitPids = 0x203CD84;
 
 AgbMainPtr = 0x8000220;
 
-GetBasSubjectId = func_fe6_0804B6C4;
+GetBasSubjectId = GetAnimPosition;
 PlayBattleMusic = func_fe6_0805BD64;
 AddSaveMenuOptions = func_fe6_0808A524;
 IsTutorialAvailable = func_fe6_08084714;
@@ -38,5 +38,5 @@ ExtraSaveMenu_Tiles = gUnk_0832B554;
 TitleScreenOBJ_Tiles = gUnk_0835E6DC;
 TitleScreenBG1_Tiles = gUnk_0835CC90;
 
-StartShopScreen = func_fe6_08095E90;
-StartDefaultArmoryScreen = func_fe6_08095DF0;
+StartShopScreen = StartShopScreen;
+StartDefaultArmoryScreen = StartDefaultArmoryScreen;

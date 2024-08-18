@@ -2,8 +2,8 @@
 .text.func_fe6_08070E0COld : {*(.text.func_fe6_08070E0COld)}
 . = func_fe6_08070D08 - 1;
 .text.func_fe6_08070D08Old : {*(.text.func_fe6_08070D08Old)}
-. = func_fe6_08070E70 - 1;
-.text.func_fe6_08070E70Old : {*(.text.func_fe6_08070E70Old)}
+. = LoadHelpBoxGfx - 1;
+.text.LoadHelpBoxGfxOld : {*(.text.LoadHelpBoxGfxOld)}
 . = func_fe6_08070EEC - 1;
 .text.func_fe6_08070EECOld : {*(.text.func_fe6_08070EECOld)}
 . = func_fe6_080718FC - 1;

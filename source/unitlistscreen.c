@@ -136,7 +136,7 @@ void DrawEnemyUnitList(struct UnitListScreenProc * proc)
     }
 
     Decompress(gUnk_083198CC, OBJ_VRAM0 + OBCHR_UNITLIST_390 * CHR_SIZE);
-    ApplyPalettes(gUnk_08319E88, 0x10 + OBPAL_UNITLIST_1, 3);
+    ApplyPalettes(Pal_SpinningArrow, 0x10 + OBPAL_UNITLIST_1, 3);
 
     TmFill(gBg0Tm, 0);
     TmFill(gBg1Tm, 0);
@@ -215,7 +215,7 @@ void DrawEnemyUnitList(struct UnitListScreenProc * proc)
     gDispIo.bg3_ct.priority = 3;
 
     Decompress(gUnk_08320EEC, gBg1Tm + TM_OFFSET(0, 20));
-    ApplyPalette(gUnk_08319E88, BGPAL_UNITLIST_15);
+    ApplyPalette(Pal_SpinningArrow, BGPAL_UNITLIST_15);
 
     proc->sprites_proc = SpawnProc(ProcScr_UnitListScreenSprites, proc);
 
@@ -230,7 +230,7 @@ void DrawEnemyUnitList(struct UnitListScreenProc * proc)
         proc->unk_48 = StartMuralBackground(NULL, NULL, BGPAL_UNITLIST_10);
     }
 
-    func_fe6_08070E70(NULL, -1);
+    LoadHelpBoxGfx(NULL, -1);
 }
 
 void DrawEnemyUnitListWrapper(struct UnitListScreenProc * proc)

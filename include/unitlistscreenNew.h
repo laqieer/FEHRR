@@ -98,7 +98,7 @@ struct Unk_02016874
 extern struct Unk_02016874 gUnk_02016874;
 
 extern u8 const gUnk_083198CC[]; // img
-extern u16 const gUnk_08319E88[]; // pal
+extern u16 const Pal_SpinningArrow[]; // pal
 extern u8 const gUnk_083215B8[]; // img
 extern u16 const gUnk_08321EE4[]; // pal
 extern u8 const gUnk_083210A0[]; // tsa

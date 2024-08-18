@@ -320,7 +320,7 @@ int func_fe6_08070E0COld(struct PlayStNew * play_st)
 
 #define OBJCHR_HELPBOX_OFFSET (27 - OBCHR_HELPBOX_180)
 
-void func_fe6_08070E70New(void * vram, int pal)
+void LoadHelpBoxGfxNew(void * vram, int pal)
 {
     if (vram == NULL)
         vram = ((void *) VRAM) + 0x10000 + OBCHR_HELPBOX_180 * CHR_SIZE;
@@ -345,9 +345,9 @@ void func_fe6_08070E70New(void * vram, int pal)
     gUnk_0203D40C.unk_30 = OAM2_CHR(((uptr) vram) / CHR_SIZE) + OAM2_PAL(pal);
 }
 
-void func_fe6_08070E70Old(void * vram, int pal)
+void LoadHelpBoxGfxOld(void * vram, int pal)
 {
-    func_fe6_08070E70New(vram, pal);
+    LoadHelpBoxGfxNew(vram, pal);
 }
 
 void func_fe6_08070EECNew(void * vram, int pal)
@@ -382,7 +382,7 @@ void func_fe6_08070EECOld(void * vram, int pal)
 
 void func_fe6_080718FCNew(void * vram, int pal)
 {
-    // identical to func_fe6_08070E70
+    // identical to LoadHelpBoxGfx
     // except for gUnk_0203D460 instead of gUnk_0203D40C
 
     if (vram == NULL)

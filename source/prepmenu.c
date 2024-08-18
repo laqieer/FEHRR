@@ -19,6 +19,7 @@
 #include "statscreen.h"
 #include "helpbox.h"
 #include "unitlistscreen.h"
+#include "prepscreen.h"
 
 #include "constants/pids.h"
 #include "constants/chapters.h"
@@ -51,7 +52,7 @@
 extern u32 const gUnk_0831A268[]; // img(lz)
 extern u32 const gUnk_08320E18[]; // img(lz)
 extern u32 const gUnk_08326930[]; // img(lz)
-extern u16 const gUnk_08319E88[]; // pal
+extern u16 const Pal_SpinningArrow[]; // pal
 extern u16 const gUnk_0831AABC[]; // pal (x2)
 extern u16 const gUnk_08326E64[]; // pal (x4)
 extern u16 const gUnk_08327108[]; // pal
@@ -74,49 +75,6 @@ extern u8 gUnk_020104A4[]; // img buf
 
 extern u16 const gUnk_08320FCE[]; // tiles
 extern u16 const gUnk_08326EE6[]; // tiles
-
-enum
-{
-    PREPMENU_FLAG_MULTIARENA = 1 << 0,
-};
-
-struct PrepMenuProc
-{
-    /* 00 */ PROC_HEADER;
-    /* 29 */ u8 unk_29;
-    /* 2A */ u8 unk_2A;
-    /* 2B */ u8 unk_2B;
-    /* 2C */ u8 unk_2C;
-    /* 2D */ u8 unk_2D; // size of gUnk_0200E6D4?
-    /* 2E */ u8 unk_2E;
-    /* 2F */ u8 unk_2F;
-    /* 30 */ u8 unk_30; // id within gUnk_0200E6D4
-    /* 31 */ u8 unk_31;
-    /* 32 */ STRUCT_PAD(0x32, 0x33);
-    /* 33 */ u8 unk_33[2];
-    /* 35 */ u8 unk_35;
-    /* 36 */ i8 unk_36;
-    /* 37 */ u8 unk_37; // i8 also?
-    /* 38 */ u8 unk_38;
-    /* 39 */ u8 unk_39;
-    /* 3A */ u8 unk_3A;
-    /* 3B */ u8 unk_3B;
-    /* 3C */ u8 unk_3C;
-    /* 3D */ u8 unk_3D;
-    /* 3E */ u8 unk_3E;
-    /* 3F */ u8 unk_3F;
-    /* 40 */ u16 unk_40;
-    /* 42 */ u16 unk_42;
-    /* 44 */ u16 unk_44;
-    /* 46 */ STRUCT_PAD(0x46, 0x48);
-    /* 48 */ u32 unk_48;
-    /* 4C */ u32 unk_4C;
-    /* 50 */ struct UnkProc_PrepMenu_50 * unk_50;
-    /* 54 */ STRUCT_PAD(0x54, 0x58);
-    /* 58 */ ProcPtr unk_58;
-    /* 5C */ struct UnkProc_08678E18 * unk_5C;
-    /* 60 */ ProcPtr unk_60;
-};
 
 void func_fe6_0807A268(struct PrepMenuProc * proc);
 void func_fe6_0807A59C(struct PrepMenuProc * proc);
@@ -184,7 +142,7 @@ void func_fe6_0807A59COld(struct PrepMenuProc * proc)
     func_fe6_0807A59CNew(proc);
 }
 
-void func_fe6_0807A84CNew(struct PrepMenuProc * proc)
+void PrepMenu_InitExtNew(struct PrepMenuProc * proc)
 {
     int i;
 
@@ -214,7 +172,7 @@ void func_fe6_0807A84CNew(struct PrepMenuProc * proc)
     proc->unk_39 = 0;
     proc->unk_3A = 0;
     proc->unk_3B = 0;
-    proc->unk_3D = 0;
+    proc->do_help = 0;
     proc->unk_3C = 0;
     proc->unk_3E = 0;
 
@@ -228,15 +186,15 @@ void func_fe6_0807A84CNew(struct PrepMenuProc * proc)
     func_fe6_0807A59C(proc);
 
     int chapter = GetChapterInPlaySt(&gPlayStNew);
-    func_fe6_0807B8CC((proc->unk_50 = func_fe6_0807C508(proc)),
+    func_fe6_0807B8CC((proc->unk_50 = StartPrepMenuBmCursor(proc)),
         GetChapterInfo(chapter)->unk_41 * 8,
         GetChapterInfo(chapter)->unk_42 * 8,
         GetChapterInfo(chapter)->number_id);
 }
 
-void func_fe6_0807A84COld(struct PrepMenuProc * proc)
+void PrepMenu_InitExtOld(struct PrepMenuProc * proc)
 {
-    func_fe6_0807A84CNew(proc);
+    PrepMenu_InitExtNew(proc);
 }
 
 void func_fe6_0807A67CNew(struct PrepMenuProc * proc)
@@ -307,51 +265,51 @@ void func_fe6_0807A67COld(struct PrepMenuProc * proc)
     func_fe6_0807A67CNew(proc);
 }
 
-void func_fe6_08079424New(struct PrepMenuProc * proc)
+void InitPrepScreenMainMenuNew(struct PrepMenuProc * proc)
 {
-    func_fe6_0807CC34(func_fe6_0807C5B8, 0, MSG_6AE, 0, MSG_659, 0);
-    func_fe6_0807CC34(func_fe6_0807C7B8, 0, MSG_6AF, 0, MSG_65A, 1);
+    SetPrepScreenMenuItem(func_fe6_0807C5B8, 0, MSG_6AE, 0, MSG_659, 0);
+    SetPrepScreenMenuItem(func_fe6_0807C7B8, 0, MSG_6AF, 0, MSG_65A, 1);
 
     if (func_fe6_0808D0F8() != 0xFF && (proc->unk_2C & PREPMENU_FLAG_MULTIARENA) == 0 && (gPlaySt.flags & PLAY_FLAG_COMPLETE) == 0)
     {
-        func_fe6_0807CC34(func_fe6_0807CB08, 0, MSG_6B7, 0, MSG_6A3, 10);
+        SetPrepScreenMenuItem(func_fe6_0807CB08, 0, MSG_6B7, 0, MSG_6A3, 10);
     }
 
-    func_fe6_0807CC34(func_fe6_0807C884, 1, MSG_6B3, proc->unk_2D == 1 ? 1 : 0, MSG_65F, 5);
+    SetPrepScreenMenuItem(func_fe6_0807C884, 1, MSG_6B3, proc->unk_2D == 1 ? 1 : 0, MSG_65F, 5);
 
     if ((proc->unk_2C & PREPMENU_FLAG_MULTIARENA) == 0)
     {
         if ((gPlaySt.flags & PLAY_FLAG_COMPLETE) == 0)
         {
-            func_fe6_0807CC34(func_fe6_0807CB78, 0, MSG_6B1, 0, MSG_65C, 3);
+            SetPrepScreenMenuItem(func_fe6_0807CB78, 0, MSG_6B1, 0, MSG_65C, 3);
         }
 
-        func_fe6_0807CC34(func_fe6_0807CBB0, 0, MSG_6B2, 0, MSG_65D, 4);
-        func_fe6_0807CC34(func_fe6_0807C97C, 1, MSG_6B4, 0, MSG_660, 6);
+        SetPrepScreenMenuItem(func_fe6_0807CBB0, 0, MSG_6B2, 0, MSG_65D, 4);
+        SetPrepScreenMenuItem(func_fe6_0807C97C, 1, MSG_6B4, 0, MSG_660, 6);
     }
 
-    func_fe6_0807CC34(func_fe6_0807C9F4, 1, MSG_6B5, 0, MSG_661, 7);
-    func_fe6_0807CC34(func_fe6_0807CA48, 1, MSG_6B6, 0, MSG_662, 8);
+    SetPrepScreenMenuItem(func_fe6_0807C9F4, 1, MSG_6B5, 0, MSG_661, 7);
+    SetPrepScreenMenuItem(func_fe6_0807CA48, 1, MSG_6B6, 0, MSG_662, 8);
 
     if ((proc->unk_2C & PREPMENU_FLAG_MULTIARENA) == 0)
     {
         if ((gPlaySt.flags & (PLAY_FLAG_COMPLETE | PLAY_FLAG_HARD)) == 0 || ((gPlaySt.flags & PLAY_FLAG_COMPLETE) == 0 && IsChapterNew(GetChapterInPlaySt(&gPlayStNew))))
         {
-            func_fe6_0807CC34(func_fe6_0807CA9C, 1, MSG_6B9, 0, MSG_663, 9);
+            SetPrepScreenMenuItem(func_fe6_0807CA9C, 1, MSG_6B9, 0, MSG_663, 9);
         }
     }
 
     if ((proc->unk_2C & PREPMENU_FLAG_MULTIARENA) != 0)
     {
-        func_fe6_0807CC34(func_fe6_0807CBDC, 0, MSG_6B0, 0, MSG_6F1, 12);
+        SetPrepScreenMenuItem(func_fe6_0807CBDC, 0, MSG_6B0, 0, MSG_6F1, 12);
     }
     else
     {
-        func_fe6_0807CC34(func_fe6_0807CBDC, 0, MSG_6BA, 0, MSG_65E, 12);
+        SetPrepScreenMenuItem(func_fe6_0807CBDC, 0, MSG_6BA, 0, MSG_65E, 12);
     }
 }
 
-void func_fe6_08079424Old(struct PrepMenuProc * proc)
+void InitPrepScreenMainMenuOld(struct PrepMenuProc * proc)
 {
-    func_fe6_08079424New(proc);
+    InitPrepScreenMainMenuNew(proc);
 }

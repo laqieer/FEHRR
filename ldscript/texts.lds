@@ -872,8 +872,8 @@
 .rodata.textId_3734_0 : {*(.rodata.textId_3734_0)}
 . = 0x800CC74;
 .rodata.textId_max : {*(.rodata.textId_max)}
-. = gUnk_0835CA44;
-.rodata.text_835CA44 : {*(.rodata.text_835CA44)}
+. = String_ShopGoldG;
+.rodata.String_ShopGoldG_UTF8 : {*(.rodata.String_ShopGoldG_UTF8)}
 . = gUnk_081C9FEC;
 .rodata.text_LvUp_Physic : {*(.rodata.text_LvUp_Physic)}
 . = gUnk_081CA014;

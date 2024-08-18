@@ -22,6 +22,7 @@
 #include "mu.h"
 #include "eventinfo.h"
 #include "statscreen.h"
+#include "prepscreen.h"
 
 #include "constants/videoalloc_global.h"
 #include "constants/pids.h"

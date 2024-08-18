@@ -214,15 +214,15 @@ void StartAvailableTileEventNew(fi8 x, fi8 y)
             return;
 
         case TILE_COMMAND_ARMORY:
-            func_fe6_08095E10(gActiveUnit, info.script);
+            StartArmoryScreenOrphaned(gActiveUnit, info.script);
             return;
 
         case TILE_COMMAND_VENDOR:
-            func_fe6_08095E30(gActiveUnit, info.script);
+            StartVendorScreenOrphaned(gActiveUnit, info.script);
             return;
 
         case TILE_COMMAND_SECRET:
-            func_fe6_08095E50(gActiveUnit, info.script);
+            StartSecretShopScreenOrphaned(gActiveUnit, info.script);
             return;
     }
 }
