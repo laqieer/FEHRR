@@ -32,8 +32,7 @@ map_image_save_path = 'map/full_color/'
 map_image_decreased_color_save_path = 'map/decreased_color/'
 map_obj_img_save_path = 'gfx/map/'
 map_tsa_save_path = 'data/map/'
-map_terrain_uncompressed_save_path = 'map/uncompressed_terrain/'
-map_terrain_compressed_save_path = 'data/terrain/'
+map_terrain_save_path = 'data/terrain/'
 FEBuiderGBA = '..\\FEBuilderGBA\\FEBuilderGBA\\bin\\Debug\\FEBuilderGBA.exe --rom=baserom.gba'
 wiki_config_save_path = 'map/wiki_conf/'
 wiki_config_url = 'https://feheroes.fandom.com/wiki/%s?action=edit'
@@ -519,12 +518,10 @@ def make_map_terrains():
                         terrains[2 * (7 - change['y']) + 1][2 * change['x'] + 1] = base_terrain_id
                     if change['type'] == 'S': # left top
                         terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
-        map_terrain_uncompressed_path = os.path.join(map_terrain_uncompressed_save_path, map_id + 'T.bin')
-        with open(map_terrain_uncompressed_path, 'wb') as file:
+        map_terrain_path = os.path.join(map_terrain_save_path, map_id + 'T.raw')
+        with open(map_terrain_path, 'wb') as file:
             file.write(b'\x00')
             file.write(terrains.tobytes()[:-1])
-        map_terrain_compressed_path = os.path.join(map_terrain_compressed_save_path, map_id + 'T.bin')
-        os.system('gbalzss e %s %s' % (map_terrain_uncompressed_path, map_terrain_compressed_path))
 
 def make_map_tilesets():
     make_map_tsa()

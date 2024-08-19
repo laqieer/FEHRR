@@ -2,9 +2,15 @@
 .SUFFIXES:
 #---------------------------------------------------------------------------------
 
+ifeq ($(strip $(DEVKITPRO)),)
+$(error "Please set DEVKITPRO in your environment. export DEVKITPRO=<path to>devkitPro")
+endif
+
 ifeq ($(strip $(DEVKITARM)),)
 $(error "Please set DEVKITARM in your environment. export DEVKITARM=<path to>devkitARM")
 endif
+
+GBALZSS ?= $(DEVKITPRO)/tools/bin/gbalzss
 
 include $(DEVKITARM)/gba_rules
 
@@ -14,6 +20,7 @@ include $(DEVKITARM)/gba_rules
 # SOURCES is a list of directories containing source code
 # INCLUDES is a list of directories containing extra header files
 # DATA is a list of directories containing binary data
+# RAW_DATA is a list of directories containing uncompressed binary data to be compressed
 # GRAPHICS is a list of directories containing files to be processed by grit
 # SOUNDS is a list of directories containing files to be processed by se2m4a
 # BGMS is a list of directories containing files to be processed by midi2agb
@@ -26,7 +33,8 @@ TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
 SOURCES		:= source source/gba-hq-mixer source/music
 INCLUDES	:= include include/decomp/include
-DATA		:= data/map data/terrain
+DATA		:= data/map
+RAW_DATA	:= data/terrain
 MUSIC		:=
 LDSCRIPTS	:= ldscript
 GRAPHICS	:= gfx/face gfx/glyph/EN gfx/glyph/JA gfx/glyph/ZH gfx/background gfx/misc gfx/map
@@ -96,16 +104,18 @@ export OUTPUT	:=	$(CURDIR)/$(TARGET)
 
 export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir)) \
 			$(foreach dir,$(DATA),$(CURDIR)/$(dir)) \
+			$(foreach dir,$(RAW_DATA),$(CURDIR)/$(dir)) \
 			$(foreach dir,$(GRAPHICS),$(CURDIR)/$(dir)) \
 			$(foreach dir,$(SOUNDS),$(CURDIR)/$(dir)) \
 			$(foreach dir,$(BGMS),$(CURDIR)/$(dir))
 
 export DEPSDIR	:=	$(CURDIR)/$(BUILD)
 
-CFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.c)))
-CPPFILES	:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.cpp)))
-SFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.s)))
-BINFILES	:=	$(foreach dir,$(DATA),$(notdir $(wildcard $(dir)/*.*)))
+CFILES			:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.c)))
+CPPFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.cpp)))
+SFILES			:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.s)))
+RAWFILES		:=	$(foreach dir,$(RAW_DATA),$(notdir $(wildcard $(dir)/*.*)))
+BINFILES		:=	$(foreach dir,$(DATA),$(notdir $(wildcard $(dir)/*.*))) $(RAWFILES:.raw=.bin)
 
 ifneq ($(strip $(MUSIC)),)
 	export AUDIOFILES	:=	$(foreach dir,$(notdir $(wildcard $(MUSIC)/*.*)),$(CURDIR)/$(MUSIC)/$(dir))
@@ -203,6 +213,14 @@ soundbank.bin soundbank.h : $(AUDIOFILES)
 #---------------------------------------------------------------------------------
 	@echo $(notdir $<)
 	@$(bin2o)
+
+#---------------------------------------------------------------------------------
+# This rule compresses binary data with the .raw extension using lz77
+#---------------------------------------------------------------------------------
+%.bin :	%.raw
+#---------------------------------------------------------------------------------
+	@echo $(notdir $<)
+	@$(GBALZSS) e $< $@
 
 
 -include $(DEPSDIR)/*.d
