@@ -289,6 +289,10 @@ void GiveUnitDefaultWeapons(struct Unit * unit)
             UnitAddItem(unit, CreateItem(IID_DIVINESTONE));
             break;
 
+        case JID_DEMONDRAGON:
+            UnitAddItem(unit, CreateItem(IID_DARKBREATH));
+            break;
+
         default:
             for (int i = 0; i < UNIT_WEAPON_EXP_COUNT; ++i)
             {
