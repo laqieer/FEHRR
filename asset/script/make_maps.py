@@ -9,7 +9,6 @@ import warnings
 import urllib.parse
 from enum import Enum
 from PIL import Image
-from playwright.sync_api import sync_playwright
 
 MAX_UNIT_LEVEL = 30
 
@@ -83,7 +82,8 @@ def collect_unit_last_appearance():
             unit['id_tag'] = normalize_hero_id_tag(unit['id_tag'])
             if unit['id_tag'] in hero_ids:
                 unit_data[unit['id_tag']]['last_appearance'] = map_id
-    for unit in unit_data.values():
+    for unit_id in sorted(unit_data.keys()):
+        unit = unit_data[unit_id]
         if 'last_appearance' in unit:
             map_id = unit['last_appearance']
             if 'last_appearances' not in map_configs[map_id]:
@@ -309,7 +309,7 @@ def load_map_names():
         map_configs[map_id]['name'] = name
 
 def load_map_scenarios():
-    for file_name in os.listdir(message_en_scenario_path):
+    for file_name in sorted(os.listdir(message_en_scenario_path)):
         if re.match(r'S\d{4}.json', file_name):
             map_id = os.path.splitext(file_name)[0]
             map_scenarios[map_id] = {}
@@ -341,6 +341,7 @@ def load_map_scenarios():
                                     map_configs[map_id]['1st_appearances'].append(hero_id)
 
 def get_text_in_textarea(url):
+    from playwright.sync_api import sync_playwright
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         page = browser.new_page()

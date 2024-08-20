@@ -1638,8 +1638,8 @@ const struct UnitInfo S3133BlueUnits[] = {
 };
 
 const struct UnitInfo S3133BlueUnitsLast[] = {
-    { EID_リーヴ, JID_リーヴ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_スラシル, JID_スラシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 1, 14, 1, { 0 }, { 0 } },
+    { EID_スラシル, JID_スラシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_リーヴ, JID_リーヴ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1919,8 +1919,8 @@ const struct UnitInfo S4065BlueUnits[] = {
 };
 
 const struct UnitInfo S4065BlueUnitsLast[] = {
-    { PID_マークス, JID_マークス, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_ブルーノ, JID_ブルーノ, 0, TRUE, FACTION_ID_BLUE, 30, 14, 1, 14, 1, { 0 }, { 0 } },
+    { EID_ブルーノ, JID_ブルーノ, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
+    { PID_マークス, JID_マークス, 0, TRUE, FACTION_ID_BLUE, 30, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
