@@ -95,12 +95,18 @@ fu8 MapMenu_DebugMonitor_Available(struct MenuEntInfo const * info, int id)
     return FindProc(ProcScr_DebugMonitor) != NULL ? MENU_ENTRY_ENABLED : MENU_ENTRY_DISABLED;
 }
 
-fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
+fu8 MapDebugMenu_Map_SwitchIn(struct MenuProc * menu, struct MenuEntProc * ent)
 {
     struct MapDebugMenuEntProc * mapEnt = (struct MapDebugMenuEntProc *)ent;
 
-    if (mapEnt->mapId == 0)
-        mapEnt->mapId = GetChapterInPlaySt(&gPlayStNew);
+    mapEnt->mapId = GetChapterInPlaySt(&gPlayStNew);
+
+    return 0;
+}
+
+fu8 MapDebugMenu_Map_Idle(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    struct MapDebugMenuEntProc * mapEnt = (struct MapDebugMenuEntProc *)ent;
 
     if (gKeySt->repeated & KEY_DPAD_RIGHT)
         mapEnt->mapId++;
@@ -475,6 +481,7 @@ const struct MenuEntInfo MenuEntInfo_Debug_Map[] =
         .available = MenuEntryEnabled,
         .on_select = MapDebugMenu_Map_Select,
         .on_idle = MapDebugMenu_Map_Idle,
+        .on_switch_in = MapDebugMenu_Map_SwitchIn,
     },
 
     {
