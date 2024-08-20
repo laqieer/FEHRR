@@ -163,234 +163,234 @@ const struct UnitInfo S0405BlueUnits[] = {
 };
 
 const struct UnitInfo S0501BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 0, 8, 0, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 21, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 21, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 21, 8, 0, 8, 0, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 21, 4, 2, 4, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0502BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 22, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 22, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 22, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0503BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 6, 2, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 6, 6, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 8, 4, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 23, 2, 6, 2, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 23, 6, 6, 6, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 23, 4, 8, 4, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 23, 8, 8, 8, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0504BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 24, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 24, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 24, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 24, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0505BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 25, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 25, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0601BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 26, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 26, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 26, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 26, 10, 12, 10, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0602BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 0, 12, 0, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 0, 14, 0, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 27, 0, 12, 0, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 27, 0, 14, 0, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 27, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 27, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0603BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 6, 6, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 6, 8, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 8, 6, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 28, 6, 6, 6, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 28, 8, 6, 8, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 28, 6, 8, 6, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 28, 8, 8, 8, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0604BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 29, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 29, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 29, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 29, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0605BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 0, 0, 0, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 2, 0, 2, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 0, 4, 0, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 30, 0, 0, 0, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 30, 2, 0, 2, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 30, 4, 0, 4, 0, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 30, 6, 0, 6, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0701BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 4, 2, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 6, 2, 6, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 2, 4, 2, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 2, 6, 2, 6, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0702BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 2, 6, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0703BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0704BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 0, 12, 0, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 0, 14, 0, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 14, 2, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0705BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 4, 6, 4, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 8, 4, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 10, 6, 10, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0801BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 8, 8, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 10, 10, 10, 10, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0802BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 10, 0, 10, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 8, 2, 8, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 10, 4, 10, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 10, 6, 10, 6, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0803BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 0, 6, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 0, 8, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 10, 0, 10, 0, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 10, 2, 10, 2, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0804BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 0, 8, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 2, 8, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 2, 10, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 4, 10, 4, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0805BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 6, 6, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 8, 4, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 10, 6, 10, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0901BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 0, 12, 0, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 0, 14, 0, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 14, 4, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0902BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 0, 8, 0, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 2, 4, 2, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S0903BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 14, 6, 14, { 0 }, { 0 } },
     { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S0704BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 0, 12, 0, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 0, 14, 0, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 14, 2, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0705BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 4, 6, 4, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 8, 4, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 10, 6, 10, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0801BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 8, 8, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 10, 10, 10, 10, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0802BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 10, 0, 10, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 8, 2, 8, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 10, 4, 10, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 10, 6, 10, 6, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0803BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 0, 6, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 8, 0, 8, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 10, 0, 10, 0, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 10, 2, 10, 2, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0804BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 0, 8, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 2, 8, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 10, 2, 10, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 10, 4, 10, 4, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0805BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 6, 6, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 8, 4, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0901BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 12, 0, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 14, 0, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0902BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 0, 8, 0, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S0903BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
 const struct UnitInfo S0904BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 2, 6, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S0905BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1001BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 14, 0, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 14, 10, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 0, 14, 0, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 10, 14, 10, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1002BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 0, 0, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 2, 0, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 4, 0, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 6, 0, 6, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 0, 0, 0, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 0, 2, 0, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 0, 4, 0, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 0, 6, 0, 6, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1003BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 14, 0, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 0, 14, 0, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1004BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 4, 0, 4, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 6, 0, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 8, 0, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 4, 0, 4, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 6, 0, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 8, 0, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 10, 0, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -403,178 +403,178 @@ const struct UnitInfo S1005BlueUnits[] = {
 };
 
 const struct UnitInfo S1101BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 4, 4, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 4, 6, 4, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 4, 2, 4, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 4, 4, 4, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 4, 6, 4, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1102BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 0, 2, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 0, 8, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 2, 2, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 2, 8, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 2, 0, 2, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 8, 0, 8, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 2, 2, 2, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 8, 2, 8, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1103BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 4, 0, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 4, 4, 4, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 0, 4, 0, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 4, 4, 4, 4, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1104BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 6, 4, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 6, 6, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 8, 2, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 4, 6, 4, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 6, 6, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 8, 8, 8, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1105BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1201BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 4, 2, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 4, 4, 4, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 2, 4, 2, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 4, 4, 4, 4, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1202BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1203BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 4, 10, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 6, 10, 6, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 10, 4, 10, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 10, 6, 10, 6, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1204BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1205BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1301BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1302BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 12, 0, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 0, 12, 0, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1303BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1304BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 12, 10, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1305BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1401BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 12, 10, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1402BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1403BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1404BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 12, 10, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1405BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1501BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S1601BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -743,242 +743,242 @@ const struct UnitInfo S2045BlueUnits[] = {
 };
 
 const struct UnitInfo S2051BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 6, 4, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 6, 6, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 8, 4, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 8, 6, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 21, 4, 6, 4, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 21, 6, 6, 6, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 21, 4, 8, 4, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 21, 6, 8, 6, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2052BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 22, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 22, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 22, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2053BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 23, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 23, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 23, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 23, 8, 10, 8, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2054BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 24, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 24, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 24, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2055BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 4, 4, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 8, 4, 8, 4, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 25, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 25, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 25, 4, 4, 4, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 25, 8, 4, 8, 4, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2061BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 6, 8, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 10, 6, 10, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 8, 6, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 26, 8, 6, 8, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 26, 10, 6, 10, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 26, 6, 8, 6, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 26, 8, 8, 8, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2062BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 10, 6, 10, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 8, 8, 8, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 27, 10, 6, 10, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 27, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 27, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 27, 10, 10, 10, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2063BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 2, 8, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 4, 4, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 4, 6, 4, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 28, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 28, 8, 2, 8, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 28, 4, 4, 4, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 28, 6, 4, 6, 4, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2064BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 6, 10, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 8, 8, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 29, 10, 6, 10, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 29, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 29, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 29, 10, 10, 10, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2065BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2071BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 12, 6, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2072BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 12, 4, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2073BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 12, 8, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2074BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 2, 10, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 4, 8, 4, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 4, 10, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 6, 10, 6, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2075BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 4, 4, 4, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 4, 6, 4, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 8, 4, 8, 4, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2075BlueUnits1st[] = {
+    { PID_スリーズ, JID_スリーズ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 2, 4, 2, 4, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2081BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 12, 6, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2082BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2083BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2084BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S2085BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 8, 12, 8, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 12, 6, 12, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S2071BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 12, 6, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2072BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 12, 4, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2073BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 12, 8, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2074BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 2, 10, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 4, 8, 4, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 4, 10, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 6, 10, 6, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2075BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 4, 4, 4, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 4, 6, 4, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 8, 4, 8, 4, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2075BlueUnits1st[] = {
-    { PID_スリーズ, JID_スリーズ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 2, 4, 2, 4, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2081BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2082BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 14, 4, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2083BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2084BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S2085BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
 const struct UnitInfo S2091BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 8, 6, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 8, 6, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 8, 10, 8, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2091BlueUnits1st[] = {
-    { PID_ユルグ, JID_ユルグ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 8, 4, 8, { 0 }, { 0 } },
+    { PID_ユルグ, JID_ユルグ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 8, 4, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2092BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2093BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 6, 10, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 8, 8, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 10, 6, 10, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 10, 8, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2094BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2095BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2101BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2102BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2103BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 2, 10, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 4, 10, 4, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 6, 10, 6, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 10, 2, 10, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 10, 4, 10, 4, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 10, 6, 10, 6, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 10, 8, 10, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2104BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 0, 2, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 0, 8, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 2, 0, 2, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 0, 8, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 2, 6, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -991,136 +991,136 @@ const struct UnitInfo S2105BlueUnits[] = {
 };
 
 const struct UnitInfo S2111BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 12, 0, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 0, 12, 0, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 2, 14, 2, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2111BlueUnits1st[] = {
-    { PID_フリーズ, JID_フリーズ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 8, 0, 8, { 0 }, { 0 } },
+    { PID_フリーズ, JID_フリーズ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 0, 8, 0, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2112BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2113BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2114BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2115BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 2, 8, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 8, 2, 8, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2121BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2122BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 8, 0, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 8, 2, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 0, 8, 0, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 2, 10, 2, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2123BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2124BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2125BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2131BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 12, 0, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 0, 12, 0, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2131BlueUnitsLast[] = {
-    { EID_レーギャルン, JID_レーギャルン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_レーギャルン, JID_レーギャルン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2132BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2133BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2134BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2134BlueUnitsLast[] = {
-    { EID_レーヴァテイン, JID_レーヴァテイン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_レーヴァテイン, JID_レーヴァテイン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S2135BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1294,234 +1294,234 @@ const struct UnitInfo S3045BlueUnits[] = {
 };
 
 const struct UnitInfo S3051BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 8, 8, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 21, 8, 8, 8, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 21, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 21, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 21, 8, 10, 8, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3052BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 22, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 22, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 22, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3053BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 23, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 23, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 23, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 23, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3054BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 24, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 24, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 24, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3055BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 25, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 25, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 25, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 25, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3061BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 26, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 26, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 26, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 26, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3062BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 27, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 27, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 27, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 27, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3063BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 0, 8, 0, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 8, 2, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 0, 10, 0, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 28, 0, 8, 0, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 28, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 28, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 28, 2, 10, 2, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3064BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 29, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 29, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 29, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3065BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 30, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 30, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3071BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 0, 12, 0, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 0, 14, 0, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 0, 12, 0, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 0, 14, 0, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 2, 14, 2, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3072BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 0, 8, 0, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 8, 2, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 0, 10, 0, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 0, 8, 0, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 10, 2, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3073BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 6, 4, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 6, 8, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 8, 2, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 8, 6, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 6, 4, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 6, 8, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 8, 6, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3074BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 8, 8, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 8, 8, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 10, 8, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3075BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3081BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3082BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3083BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3084BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3085BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 12, 4, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3091BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3092BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3093BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3094BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 6, 2, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 8, 0, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 8, 2, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 6, 2, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 0, 8, 0, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 0, 10, 0, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3095BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 2, 6, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3101BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3102BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3103BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3104BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1534,128 +1534,128 @@ const struct UnitInfo S3105BlueUnits[] = {
 };
 
 const struct UnitInfo S3111BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3112BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 12, 0, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 0, 12, 0, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 2, 12, 2, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3113BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 2, 8, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 8, 2, 8, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3114BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3115BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3121BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3122BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 4, 12, 4, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3123BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3124BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3125BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3131BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3132BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3133BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3133BlueUnitsLast[] = {
-    { EID_リーヴ, JID_リーヴ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_スラシル, JID_スラシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 1, 14, 1, { 0 }, { 0 } },
+    { EID_リーヴ, JID_リーヴ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_スラシル, JID_スラシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3134BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S3135BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -1824,264 +1824,264 @@ const struct UnitInfo S4045BlueUnits[] = {
 };
 
 const struct UnitInfo S4051BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 21, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 21, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 21, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 21, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4051BlueUnitsLast[] = {
-    { EID_スルト, JID_スルト_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_スルト, JID_スルト, 0, TRUE, FACTION_ID_BLUE, 21, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4052BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 22, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 22, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 22, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4053BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 23, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 23, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 23, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 23, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4054BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 24, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 24, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 24, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4055BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 25, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 25, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4055BlueUnitsLast[] = {
-    { EID_ヘルビンディ, JID_ヘルビンディ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ヘルビンディ, JID_ヘルビンディ, 0, TRUE, FACTION_ID_BLUE, 25, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4061BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 0, 6, 0, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 2, 6, 2, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 0, 8, 0, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 26, 0, 6, 0, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 26, 2, 6, 2, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 26, 0, 8, 0, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 26, 2, 8, 2, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4061BlueUnitsLast[] = {
-    { EID_ヴェロニカ, JID_ヴェロニカ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ヴェロニカ, JID_ヴェロニカ, 0, TRUE, FACTION_ID_BLUE, 26, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4062BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 27, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 27, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 27, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 27, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4063BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 28, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 28, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 28, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 28, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4064BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 29, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 29, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 29, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4065BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4065BlueUnitsLast[] = {
-    { PID_マークス, JID_マークス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_ブルーノ, JID_ブルーノ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 14, 1, 14, 1, { 0 }, { 0 } },
+    { PID_マークス, JID_マークス, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ブルーノ, JID_ブルーノ, 0, TRUE, FACTION_ID_BLUE, 30, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4071BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4071BlueUnits1st[] = {
-    { PID_神階ルピナス, JID_神階ルピナス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_神階ルピナス, JID_神階ルピナス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 10, 4, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4071BlueUnitsLast[] = {
-    { EID_ヘル, JID_ヘル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ヘル, JID_ヘル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4072BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 0, 8, 0, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 8, 2, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 0, 10, 0, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 0, 8, 0, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 10, 2, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4073BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4074BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 4, 4, 4, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4075BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 8, 12, 8, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4081BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4082BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 8, 12, 8, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4083BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4084BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4085BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 8, 12, 8, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4091BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4092BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S4093BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 12, 8, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 10, 12, 10, 12, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 14, 6, 14, { 0 }, { 0 } },
     { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S4074BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 4, 4, 4, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4075BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 8, 12, 8, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4081BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4082BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 8, 12, 8, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4083BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4084BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 14, 4, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4085BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4091BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4092BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S4093BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
 const struct UnitInfo S4094BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 6, 10, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 8, 8, 8, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 6, 10, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 8, 8, 8, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 10, 10, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4095BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 6, 4, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 6, 6, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 8, 4, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 8, 6, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 6, 4, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 6, 6, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 8, 4, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 8, 6, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4101BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4102BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4103BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 8, 10, 8, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4104BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 2, 0, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 4, 0, 4, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 8, 0, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 2, 0, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 4, 0, 4, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 8, 0, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 0, 10, 0, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2094,152 +2094,152 @@ const struct UnitInfo S4105BlueUnits[] = {
 };
 
 const struct UnitInfo S4105BlueUnitsLast[] = {
-    { EID_フロージ, JID_フロージ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_フロージ, JID_フロージ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4111BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 4, 4, 4, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 4, 4, 4, 4, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4112BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4113BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 8, 0, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 12, 0, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 0, 8, 0, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 0, 12, 0, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 2, 12, 2, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4114BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 4, 12, 4, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4114BlueUnitsLast[] = {
-    { EID_プルメリア, JID_プルメリア_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_プルメリア, JID_プルメリア_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4115BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4121BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 6, 0, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 6, 2, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 8, 0, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 8, 2, 8, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 0, 6, 0, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 2, 6, 2, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 0, 8, 0, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 2, 8, 2, 8, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4122BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 6, 12, 6, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4123BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 12, 4, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4124BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 4, 0, 4, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 4, 2, 4, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 6, 0, 6, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 6, 2, 6, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 0, 4, 0, 4, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 2, 4, 2, 4, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 0, 6, 0, 6, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 2, 6, 2, 6, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4124BlueUnitsLast[] = {
-    { EID_スカビオサ, JID_スカビオサ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_スカビオサ, JID_スカビオサ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4125BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 2, 6, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4125BlueUnitsLast[] = {
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4131BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4132BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 12, 0, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 0, 12, 0, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4133BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 8, 4, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 8, 4, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4134BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 8, 2, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 10, 4, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 8, 2, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 10, 4, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4134BlueUnitsLast[] = {
-    { EID_フレイヤ, JID_フレイヤ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_フレイヤ, JID_フレイヤ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4135BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S4135BlueUnitsLast[] = {
-    { EID_ロキ, JID_ロキ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ロキ, JID_ロキ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2414,91 +2414,176 @@ const struct UnitInfo S5045BlueUnitsLast[] = {
 };
 
 const struct UnitInfo S5051BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 0, 4, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 21, 4, 0, 4, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 21, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 21, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 21, 6, 2, 6, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5052BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 0, 8, 0, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 0, 10, 0, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 0, 12, 0, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 22, 0, 8, 0, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 22, 0, 10, 0, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 22, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 22, 0, 12, 0, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5053BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 23, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 23, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 23, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 23, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5054BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 24, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 24, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 24, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 24, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5055BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 25, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 25, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5055BlueUnitsLast[] = {
-    { EID_ノート, JID_ノート_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_ノート, JID_ノート, 0, TRUE, FACTION_ID_BLUE, 25, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5061BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 26, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 26, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 26, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 26, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5062BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 27, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 27, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 27, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 27, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5063BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 2, 2, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 2, 8, 2, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 28, 2, 2, 2, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 28, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 28, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 28, 8, 2, 8, 2, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5064BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 4, 10, 4, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 6, 10, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 29, 10, 4, 10, 4, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 29, 10, 6, 10, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 29, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 29, 10, 10, 10, 10, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5065BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5071BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5072BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 12, 8, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5073BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5074BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 4, 10, 4, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 6, 10, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 8, 10, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 10, 10, 10, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5075BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 2, 0, 2, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 8, 2, 8, 2, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5081BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5081BlueUnitsLast[] = {
+    { EID_ファフニール, JID_ファフニール_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 14, 0, 14, 0, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5082BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5083BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5084BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5085BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 0, 2, 0, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 0, 4, 0, 4, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 2, 4, 2, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 0, 6, 0, 6, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S5091BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 12, 4, 12, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 12, 6, 12, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 14, 4, 14, { 0 }, { 0 } },
@@ -2506,152 +2591,67 @@ const struct UnitInfo S5071BlueUnits[] = {
     { 0 }, // end
 };
 
-const struct UnitInfo S5072BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 12, 8, 12, { 0 }, { 0 } },
+const struct UnitInfo S5092BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S5073BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 14, 8, 14, { 0 }, { 0 } },
+const struct UnitInfo S5093BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S5074BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 4, 10, 4, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 6, 10, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 8, 10, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 10, 10, 10, 10, { 0 }, { 0 } },
+const struct UnitInfo S5094BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S5075BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 2, 0, 2, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 8, 2, 8, 2, { 0 }, { 0 } },
+const struct UnitInfo S5095BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 2, 4, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 2, 6, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 4, 4, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 4, 6, 4, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S5081BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 14, 8, 14, { 0 }, { 0 } },
+const struct UnitInfo S5101BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S5081BlueUnitsLast[] = {
-    { EID_ファフニール, JID_ファフニール_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 14, 0, 14, 0, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5082BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 12, 6, 12, { 0 }, { 0 } },
+const struct UnitInfo S5102BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 10, 10, 10, 10, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S5083BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5084BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5085BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 2, 0, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 4, 0, 4, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 4, 2, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 6, 0, 6, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5091BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5092BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5093BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5094BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5095BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 2, 4, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 2, 6, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 4, 4, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 4, 6, 4, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5101BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S5102BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
 const struct UnitInfo S5103BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5104BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 10, 10, 10, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2664,132 +2664,132 @@ const struct UnitInfo S5105BlueUnits[] = {
 };
 
 const struct UnitInfo S5111BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5112BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5113BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 10, 2, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 2, 10, 2, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5114BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5115BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5115BlueUnitsLast[] = {
-    { EID_オッテル, JID_オッテル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_オッテル, JID_オッテル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5121BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5122BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5123BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 6, 0, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 6, 4, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 6, 6, 6, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 6, 10, 6, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 0, 6, 0, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 6, 4, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 6, 6, 6, 6, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 10, 6, 10, 6, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5124BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5125BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5131BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5132BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5133BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5134BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5135BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S5135BlueUnitsLast[] = {
-    { EID_エイトリ, JID_エイトリ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_エイトリ, JID_エイトリ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -2958,38 +2958,118 @@ const struct UnitInfo S6045BlueUnits[] = {
 };
 
 const struct UnitInfo S6051BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 21, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 21, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 21, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 21, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6052BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 22, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 22, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 22, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 22, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6053BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 23, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 23, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 23, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 23, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6054BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 24, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 24, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 24, 10, 12, 10, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6055BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 25, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 25, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6061BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 26, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 26, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 26, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 26, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6062BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 27, 0, 2, 0, 2, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 27, 2, 2, 2, 2, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 27, 0, 4, 0, 4, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 27, 2, 4, 2, 4, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6063BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 28, 0, 10, 0, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 28, 2, 10, 2, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 28, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 28, 4, 12, 4, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6064BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 29, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 29, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 29, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6065BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6071BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6072BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 12, 8, 12, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6053BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 14, 8, 14, { 0 }, { 0 } },
+const struct UnitInfo S6073BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 10, 4, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 10, 6, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 2, 12, 2, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6054BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 12, 10, 12, { 0 }, { 0 } },
+const struct UnitInfo S6074BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6055BlueUnits[] = {
+const struct UnitInfo S6075BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 12, 4, 12, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 12, 6, 12, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 14, 4, 14, { 0 }, { 0 } },
@@ -2997,39 +3077,45 @@ const struct UnitInfo S6055BlueUnits[] = {
     { 0 }, // end
 };
 
-const struct UnitInfo S6061BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S6075BlueUnitsLast[] = {
+    { EID_グスタフ, JID_グスタフ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_レティシア, JID_レティシア_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 1, 14, 1, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6062BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 0, 2, 0, 2, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 2, 2, 2, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 0, 4, 0, 4, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 4, 2, 4, { 0 }, { 0 } },
+const struct UnitInfo S6081BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 10, 12, 10, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6063BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 0, 10, 0, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 10, 2, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 12, 4, 12, { 0 }, { 0 } },
+const struct UnitInfo S6082BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6064BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S6083BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 0, 14, 0, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6065BlueUnits[] = {
+const struct UnitInfo S6084BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 12, 8, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6085BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 12, 4, 12, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 12, 6, 12, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 14, 4, 14, { 0 }, { 0 } },
@@ -3037,165 +3123,79 @@ const struct UnitInfo S6065BlueUnits[] = {
     { 0 }, // end
 };
 
-const struct UnitInfo S6071BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 8, 14, 8, 14, { 0 }, { 0 } },
+const struct UnitInfo S6091BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 14, 4, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6072BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S6091BlueUnits1st[] = {
+    { PID_神階アスク, JID_神階アスク_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6073BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 10, 4, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 10, 6, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 12, 2, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 8, 12, 8, 12, { 0 }, { 0 } },
+const struct UnitInfo S6092BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6074BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 14, 8, 14, { 0 }, { 0 } },
+const struct UnitInfo S6093BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6075BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 12, 6, 12, { 0 }, { 0 } },
+const struct UnitInfo S6094BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 12, 8, 12, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S6095BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 8, 12, 8, 12, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S6075BlueUnitsLast[] = {
-    { EID_グスタフ, JID_グスタフ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 14, 0, 14, 0, { 0 }, { 0 } },
-    { EID_レティシア, JID_レティシア_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 14, 1, 14, 1, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6081BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 10, 12, 10, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6082BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6083BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 0, 14, 0, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6084BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 12, 8, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 10, 12, 10, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6085BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6091BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6091BlueUnits1st[] = {
-    { PID_神階アスク, JID_神階アスク_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6092BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6093BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6094BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S6095BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
 const struct UnitInfo S6101BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6102BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6103BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6104BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3208,132 +3208,132 @@ const struct UnitInfo S6105BlueUnits[] = {
 };
 
 const struct UnitInfo S6111BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6112BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6113BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6113BlueUnitsLast[] = {
-    { EID_エルム, JID_エルム_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_エルム, JID_エルム_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6114BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6115BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 8, 12, 8, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6121BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 8, 10, 8, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 10, 8, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 10, 8, 10, 8, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 8, 10, 8, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 26, 10, 12, 10, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6122BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 27, 8, 12, 8, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6123BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 28, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6124BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 29, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6125BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6131BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6132BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 14, 0, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 0, 14, 0, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6133BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6134BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6135BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S6135BlueUnitsLast[] = {
-    { EID_エンブラ, JID_エンブラ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_エンブラ, JID_エンブラ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3502,51 +3502,136 @@ const struct UnitInfo S7045BlueUnits[] = {
 };
 
 const struct UnitInfo S7051BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 12, 6, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 21, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 21, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 21, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 21, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7052BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 22, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 22, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 22, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 22, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7053BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 10, 8, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 10, 10, 10, 10, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 23, 8, 10, 8, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 23, 10, 10, 10, 10, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 23, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 23, 10, 12, 10, 12, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7054BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 10, 12, 10, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 24, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 24, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 24, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 24, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7055BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 2, 0, 2, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 0, 4, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 0, 6, 0, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 8, 0, 8, 0, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 25, 2, 0, 2, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 25, 4, 0, 4, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 25, 6, 0, 6, 0, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 25, 8, 0, 8, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7055BlueUnitsLast[] = {
-    { EID_グルヴェイグ, JID_グルヴェイグ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 14, 0, 14, 0, { 0 }, { 0 } },
+    { EID_グルヴェイグ, JID_グルヴェイグ, 0, TRUE, FACTION_ID_BLUE, 25, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7061BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 26, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 26, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 26, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 26, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7062BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 27, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 27, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 27, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 27, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7063BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 28, 6, 10, 6, 10, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 28, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 28, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 28, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7064BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 29, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 29, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 29, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 29, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7065BlueUnits[] = {
+    { PID_アンナ, JID_アンナ, 0, TRUE, FACTION_ID_BLUE, 30, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード, 0, TRUE, FACTION_ID_BLUE, 30, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス, 0, TRUE, FACTION_ID_BLUE, 30, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン, 0, TRUE, FACTION_ID_BLUE, 30, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7071BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 1, 8, 14, 8, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7071BlueUnitsLast[] = {
+    { EID_ネルトゥス, JID_ネルトゥス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 30, 14, 0, 14, 0, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7072BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 2, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7073BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 3, 6, 14, 6, 14, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7074BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 0, 6, 0, 6, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 6, 2, 6, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 0, 8, 0, 8, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 4, 2, 8, 2, 8, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7075BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 2, 0, 2, 0, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 8, 0, 8, 0, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 4, 2, 4, 2, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 5, 6, 2, 6, 2, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7081BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 2, 14, 2, 14, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 6, 6, 14, 6, 14, { 0 }, { 0 } },
@@ -3554,31 +3639,31 @@ const struct UnitInfo S7061BlueUnits[] = {
     { 0 }, // end
 };
 
-const struct UnitInfo S7062BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S7082BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 7, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7063BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 10, 6, 10, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S7083BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 8, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7064BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S7084BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 12, 6, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 9, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7065BlueUnits[] = {
+const struct UnitInfo S7085BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 2, 14, 2, 14, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 6, 14, 6, 14, { 0 }, { 0 } },
@@ -3586,7 +3671,12 @@ const struct UnitInfo S7065BlueUnits[] = {
     { 0 }, // end
 };
 
-const struct UnitInfo S7071BlueUnits[] = {
+const struct UnitInfo S7085BlueUnitsLast[] = {
+    { EID_クワシル, JID_クワシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 10, 14, 0, 14, 0, { 0 }, { 0 } },
+    { 0 }, // end
+};
+
+const struct UnitInfo S7091BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 2, 14, 2, 14, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 11, 6, 14, 6, 14, { 0 }, { 0 } },
@@ -3594,60 +3684,60 @@ const struct UnitInfo S7071BlueUnits[] = {
     { 0 }, // end
 };
 
-const struct UnitInfo S7071BlueUnitsLast[] = {
-    { EID_ネルトゥス, JID_ネルトゥス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
+const struct UnitInfo S7092BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7072BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 12, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S7093BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 12, 4, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 14, 4, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7073BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 13, 6, 14, 6, 14, { 0 }, { 0 } },
+const struct UnitInfo S7094BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7074BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 0, 6, 0, 6, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 6, 2, 6, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 0, 8, 0, 8, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 14, 2, 8, 2, 8, { 0 }, { 0 } },
+const struct UnitInfo S7095BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7075BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 2, 0, 2, 0, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 8, 0, 8, 0, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 4, 2, 4, 2, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 6, 2, 6, 2, { 0 }, { 0 } },
+const struct UnitInfo S7095BlueUnitsLast[] = {
+    { PID_神階ヘイズ, JID_神階ヘイズ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 15, 14, 0, 14, 0, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7081BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 8, 14, 8, 14, { 0 }, { 0 } },
+const struct UnitInfo S7101BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 16, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7082BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 14, 4, 14, { 0 }, { 0 } },
+const struct UnitInfo S7102BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 17, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
-const struct UnitInfo S7083BlueUnits[] = {
+const struct UnitInfo S7103BlueUnits[] = {
     { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 2, 14, 2, 14, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 18, 6, 14, 6, 14, { 0 }, { 0 } },
@@ -3655,101 +3745,11 @@ const struct UnitInfo S7083BlueUnits[] = {
     { 0 }, // end
 };
 
-const struct UnitInfo S7084BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 12, 6, 12, { 0 }, { 0 } },
+const struct UnitInfo S7104BlueUnits[] = {
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 2, 14, 2, 14, { 0 }, { 0 } },
     { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 4, 14, 4, 14, { 0 }, { 0 } },
     { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 6, 14, 6, 14, { 0 }, { 0 } },
     { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 19, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7085BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7085BlueUnitsLast[] = {
-    { EID_クワシル, JID_クワシル_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7091BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7092BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7093BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7094BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7095BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7095BlueUnitsLast[] = {
-    { PID_神階ヘイズ, JID_神階ヘイズ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 14, 0, 14, 0, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7101BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7102BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7103BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { 0 }, // end
-};
-
-const struct UnitInfo S7104BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
@@ -3762,42 +3762,42 @@ const struct UnitInfo S7105BlueUnits[] = {
 };
 
 const struct UnitInfo S7111BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 12, 10, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 8, 12, 8, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 10, 12, 10, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 21, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7112BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 2, 14, 2, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 22, 8, 14, 8, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7113BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 0, 14, 0, 14, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 14, 2, 14, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 14, 8, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 10, 14, 10, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 0, 14, 0, 14, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 2, 14, 2, 14, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 8, 14, 8, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 23, 10, 14, 10, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7114BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 2, 12, 2, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 8, 12, 8, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 2, 12, 2, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 8, 12, 8, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 24, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
 const struct UnitInfo S7115BlueUnits[] = {
-    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 12, 4, 12, { 0 }, { 0 } },
-    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 12, 6, 12, { 0 }, { 0 } },
-    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 4, 14, 4, 14, { 0 }, { 0 } },
-    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 20, 6, 14, 6, 14, { 0 }, { 0 } },
+    { PID_アンナ, JID_アンナ_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 4, 12, 4, 12, { 0 }, { 0 } },
+    { EID_フード, JID_フード_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 12, 6, 12, { 0 }, { 0 } },
+    { PID_アルフォンス, JID_アルフォンス_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 4, 14, 4, 14, { 0 }, { 0 } },
+    { PID_シャロン, JID_シャロン_PROMOTED, 0, TRUE, FACTION_ID_BLUE, 25, 6, 14, 6, 14, { 0 }, { 0 } },
     { 0 }, // end
 };
 
