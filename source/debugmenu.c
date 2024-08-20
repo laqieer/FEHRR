@@ -428,6 +428,8 @@ fu8 MapDebugMenu_ChangeBGM_Idle(struct MenuProc * menu, struct MenuEntProc * ent
     {
         if (bgm >= 0)
             bgm--;
+        if (bgm < 0)
+            bgm = 0;
         if (bgm > MAX_MAP_BGM && bgm <= SONG_NEW)
             bgm = MAX_MAP_BGM;
     }
@@ -436,6 +438,8 @@ fu8 MapDebugMenu_ChangeBGM_Idle(struct MenuProc * menu, struct MenuEntProc * ent
     {
         if (bgm < SONG_MAX - 1)
             bgm++;
+        if (bgm == SONG_MAX - 1)
+            bgm = SONG_MAX - 1;
         if (bgm > MAX_MAP_BGM && bgm <= SONG_NEW)
             bgm = SONG_NEW + 1;
     }
