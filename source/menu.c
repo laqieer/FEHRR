@@ -48,6 +48,8 @@
 #include "log.h"
 #include "mapmenuNew.h"
 
+bool8 gDeveloperModeEnabled;
+
 void Menu_Redraw(struct MenuProc * proc)
 {
     int i;
@@ -138,7 +140,7 @@ fu8 DebugManim(struct MenuProc * menu, struct MenuEntProc * ent)
     return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A | MENU_ACTION_CLEAR | MENU_ACTION_ENDFACE;
 }
 
-struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
+struct MenuEntInfo const MenuEntInfo_Debug_StartUp_Developer[] =
 {
     {
         .label = (const char *)3726, // 表示言語切替
@@ -191,6 +193,60 @@ struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
     { 0 }, // end
 };
 
+struct MenuInfo const MenuInfo_Debug_StartUp_Developer =
+{
+    .rect = { 9, 3, 12, 0 },
+    .entries = MenuEntInfo_Debug_StartUp_Developer,
+    .on_init = func_fe6_0801AB64,
+    .on_end = func_fe6_0801ABE8,
+};
+
+void ShowStartupMenu();
+
+fu8 EnterDeveloperMode(struct MenuProc * menu, struct MenuEntProc * ent)
+{
+    gDeveloperModeEnabled = TRUE;
+    EndMenu(menu);
+    ShowStartupMenu();
+
+    return MENU_ACTION_NOCURSOR | MENU_ACTION_SE_6A;
+}
+
+struct MenuEntInfo const MenuEntInfo_Debug_StartUp[] =
+{
+    {
+        .label = (const char *)3726, // 表示言語切替
+        .available = MenuEntryEnabled,
+        .on_select = ChangeLanguage,
+    },
+
+    {
+        .label = (const char *)3498, // リリースエントリ
+        .available = MenuEntryEnabled,
+        .on_select = func_fe6_0801AEBC,
+    },
+
+    {
+        .label = (const char *)3499, // どこでも再開
+        .available = func_fe6_0801ADB4,
+        .on_select = func_fe6_0801ADCC,
+    },
+/*
+    {
+        .label = (const char *)3500, // 手再開
+        .available = func_fe6_0801AD6C,
+        .on_select = func_fe6_0801AD84,
+    },
+*/
+    {
+        .label = (const char *)3816, // Developer Mode
+        .available = MenuEntryEnabled,
+        .on_select = EnterDeveloperMode,
+    },
+
+    { 0 }, // end
+};
+
 struct MenuInfo const MenuInfo_Debug_StartUp =
 {
     .rect = { 9, 3, 12, 0 },
@@ -210,7 +266,8 @@ void StartMenu_Debug_StartUp(void)
 
     Assert(IsSramWorking());
 
-    StartMuralBackground(StartMenu(&MenuInfo_Debug_StartUp), (u8 *) BG_VRAM + CHR_SIZE * 0x580, -1);
+    struct MenuInfo const * info = gDeveloperModeEnabled ? &MenuInfo_Debug_StartUp_Developer : &MenuInfo_Debug_StartUp;
+    StartMuralBackground(StartMenu(info), (u8 *) BG_VRAM + CHR_SIZE * 0x580, -1);
 }
 
 fu8 MapMenu_Debug_Select(struct MenuProc * menu, struct MenuEntProc * ent);
@@ -219,7 +276,7 @@ fu8 MapMenu_CpControl_Select(struct MenuProc * menu, struct MenuEntProc * ent);
 
 fu8 MapMenu_Save_Select(struct MenuProc * menu, struct MenuEntProc * ent);
 
-struct MenuEntInfo const MenuEntInfo_MapNew[] =
+struct MenuEntInfo const MenuEntInfo_Map_Developer[] =
 {
     {
         .label = (const char *)3738, // 危険
@@ -294,10 +351,10 @@ struct MenuEntInfo const MenuEntInfo_MapNew[] =
     { 0 }, // end
 };
 
-struct MenuInfo const MenuInfo_MapNew =
+struct MenuInfo const MenuInfo_Map_Developer =
 {
     .rect = { 1, 0, 6, 0 },
-    .entries = MenuEntInfo_MapNew,
+    .entries = MenuEntInfo_Map_Developer,
     .on_b_press = MenuActionClose,
     .on_r_press = MenuActionHelpBox,
     .on_help_box = MenuHelpBoxRegular,

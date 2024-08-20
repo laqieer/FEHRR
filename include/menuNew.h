@@ -12,6 +12,7 @@ struct MapDebugMenuEntProc
     /* 3E */ u16 mapId;
 };
 
-extern struct MenuInfo const MenuInfo_MapNew;
+extern bool8 gDeveloperModeEnabled;
+extern struct MenuInfo const MenuInfo_Map_Developer;
 
 void StartMenu_Debug_StartUp(void);

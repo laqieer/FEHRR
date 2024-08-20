@@ -22815,6 +22815,12 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "统一显示地图" TEXT_CMD_NEWLINE "上的敌人",
     },
 
+    [3816] = {
+        [LANGUAGE_JAPANESE] = "　開発者モード",
+        [LANGUAGE_ENGLISH] = "    Developer Mode",
+        [LANGUAGE_CHINESE] = "  开发者模式",
+    },
+
     [TEXT_ID_TEST] = {
         [LANGUAGE_JAPANESE] = FaceTestText,
         [LANGUAGE_ENGLISH] = FaceTestText,
