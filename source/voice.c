@@ -213,7 +213,7 @@ void VoiceDebug_OnIdle(struct GenericProc * proc)
     if (hero_voice_id >= VOICE_NUM)
         hero_voice_id = 0;
 
-    level = max(1, min(level, UNIT_LEVEL_MAX * 2));
+    level = max(1, min(level, UNIT_LEVEL_MAX_NEW * 2));
 
     if (hero_id != proc->x)
     {

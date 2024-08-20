@@ -82,7 +82,7 @@ void CheckBattleUnitLevelUpNew(struct BattleUnit * bu)
         bu->unit.exp -= 100;
         bu->unit.level++;
 
-        if (bu->unit.level == UNIT_LEVEL_MAX)
+        if (bu->unit.level == UNIT_LEVEL_MAX_NEW)
         {
             bu->exp_gain -= bu->unit.exp;
             bu->unit.exp = 0xFF;

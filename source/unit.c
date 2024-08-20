@@ -102,7 +102,7 @@ void UnitInitStatsNew(struct Unit * unit, struct PInfo const * pinfo)
             unit->wexp[i] = unit->pinfo->wexp[i];
     }
 
-    if (UNIT_FACTION(unit) == FACTION_BLUE && (unit->level != UNIT_LEVEL_MAX))
+    if (UNIT_FACTION(unit) == FACTION_BLUE && (unit->level != UNIT_LEVEL_MAX_NEW))
         unit->exp = 0;
     else
         unit->exp = 0xFF;
@@ -115,7 +115,7 @@ void UnitInitStatsOld(struct Unit * unit, struct PInfo const * pinfo)
 
 void UnitAutolevelPlayerNew(struct Unit * unit)
 {
-    int i, levelCount = unit->level - unit->pinfo->base_level + ((UNIT_ATTRIBUTES(unit) & UNIT_ATTR_PROMOTED) ? UNIT_LEVEL_MAX : 0);
+    int i, levelCount = unit->level - unit->pinfo->base_level + ((UNIT_ATTRIBUTES(unit) & UNIT_ATTR_PROMOTED) ? UNIT_LEVEL_MAX_NEW : 0);
 
     for (i = 0; i < levelCount; ++i)
     {
@@ -137,7 +137,7 @@ void UnitAutolevelPlayerOld(struct Unit * unit)
 void UnitAutolevelNew(struct Unit * unit)
 {
     if (UNIT_ATTRIBUTES(unit) & UNIT_ATTR_PROMOTED)
-        UnitAutolevelCore(unit, unit->jinfo->jid_promote, unit->level + UNIT_LEVEL_MAX - 1);
+        UnitAutolevelCore(unit, unit->jinfo->jid_promote, unit->level + UNIT_LEVEL_MAX_NEW - 1);
 
     UnitAutolevelCore(unit, unit->jinfo->id, unit->level - 1);
 }

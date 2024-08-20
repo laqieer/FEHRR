@@ -11,6 +11,8 @@ from enum import Enum
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
+MAX_UNIT_LEVEL = 30
+
 map_configs = {}
 map_scenarios = {}
 
@@ -832,14 +834,14 @@ def make_blue_units():
             if map_id.endswith('011'):
                 blue_unit_lv = 0
                 is_blue_unit_promoted = False
-            if blue_unit_lv <= 20:
+            if blue_unit_lv <= MAX_UNIT_LEVEL:
                 blue_unit_lv += 1
-            if blue_unit_lv == 21:
+            if blue_unit_lv == MAX_UNIT_LEVEL + 1:
                 if not is_blue_unit_promoted:
                     is_blue_unit_promoted = True
                     blue_unit_lv = 1
                 else:
-                    blue_unit_lv = 20
+                    blue_unit_lv = MAX_UNIT_LEVEL
             first_appearances = map_configs[map_id].get('1st_appearances', [])
             assert len(first_appearances) <= map_configs[map_id]['player_count']
             if len(first_appearances) < map_configs[map_id]['player_count']:
@@ -848,7 +850,7 @@ def make_blue_units():
                     x = 2 * map_configs[map_id]['player_pos'][i + len(first_appearances)]['x']
                     y = 2 * (7 - map_configs[map_id]['player_pos'][i + len(first_appearances)]['y'])
                     hero_id = [x for x in blue_hero_ids if x not in first_appearances][i]
-                    level = 20 if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
+                    level = MAX_UNIT_LEVEL if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
                     file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
@@ -857,7 +859,7 @@ def make_blue_units():
                 for i, hero_id in enumerate(first_appearances):
                     x = 2 * map_configs[map_id]['player_pos'][i]['x']
                     y = 2 * (7 - map_configs[map_id]['player_pos'][i]['y'])
-                    level = 20 if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
+                    level = MAX_UNIT_LEVEL if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
                     file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
@@ -866,7 +868,7 @@ def make_blue_units():
                 for i, hero_id in enumerate(map_configs[map_id]['last_appearances']):
                     x = 14
                     y = i
-                    level = 20 if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
+                    level = MAX_UNIT_LEVEL if hero_id in manakete_heroes and is_blue_unit_promoted else blue_unit_lv
                     file.write('    { %s, J%s, 0, TRUE, FACTION_ID_BLUE, %d, %d, %d, %d, %d, { 0 }, { 0 } },\n' % (hero_id, hero_id[1:] + ('_PROMOTED' if is_blue_unit_promoted else ''), level, x, y, x, y))
                 file.write('    { 0 }, // end\n')
                 file.write('};\n\n')
@@ -1048,14 +1050,14 @@ const u16 ChapterEnemyHeroNames[][14] = {
             file_scripts.write('    EvtClearSkip\n')
             file_scripts.write('    EvtEnd\n')
             file_scripts.write('};\n\n')
-            if red_unit_lv <= 20:
+            if red_unit_lv <= MAX_UNIT_LEVEL:
                 red_unit_lv += 1
-            if red_unit_lv == 21:
+            if red_unit_lv == MAX_UNIT_LEVEL + 1:
                 if not is_red_unit_promoted:
                     is_red_unit_promoted = True
                     red_unit_lv = 1
                 else:
-                    red_unit_lv = 20
+                    red_unit_lv = MAX_UNIT_LEVEL
             red_units_by_turn_and_count = {}
             loaded_red_heroes = []
             red_unit_commander = "PID_NONE"
@@ -1103,7 +1105,7 @@ const u16 ChapterEnemyHeroNames[][14] = {
                                 red_unit_weapon = weapon_type[unit_data[unit['id_tag']]['weapon_type']]['id_tag']
                                 red_unit_job_unpromoted = guess_unit_job(unit, red_unit_move, red_unit_weapon)
                                 if red_unit_job_unpromoted not in promoted_jobs:
-                                    red_unit_job_lv = 20
+                                    red_unit_job_lv = MAX_UNIT_LEVEL
                         red_unit_items = 'IID_IRONSWORD, IID_IRONLANCE, IID_IRONAXE, IID_IRONBOW'
                         if unit_data[unit['id_tag']]['weapon_type'] > 10:
                             red_unit_items = 'IID_FIRE, IID_LIGHTNING, IID_FLUX, IID_HEALSTAFF'
@@ -1257,7 +1259,7 @@ if __name__ == '__main__':
     # print_max_enemy_hero_count()
     find_manakete_heroes()
     make_blue_units()
-    make_red_unit_jobs()
+    # make_red_unit_jobs()
     make_red_units_and_event_scripts()
     make_map_events()
     # print_unplayable_heroes()
