@@ -50,6 +50,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 55,
         .growth_def = 50,
         .growth_res = 40,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_アンナ - 1] = {
@@ -72,6 +74,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 65,
         .growth_def = 40,
         .growth_res = 50,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_ヴェロニカ - 1] = {
@@ -94,6 +98,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 40,
         .growth_def = 50,
         .growth_res = 35,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_レギン - 1] = {
@@ -116,6 +122,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 70,
         .growth_def = 50,
         .growth_res = 45,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_ブルーノ - 1] = {
@@ -160,6 +168,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 65,
         .growth_def = 30,
         .growth_res = 45,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_セイズ - 1] = {
@@ -182,6 +192,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 55,
         .growth_def = 30,
         .growth_res = 75,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_フィヨルム - 1] = {
@@ -204,6 +216,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 55,
         .growth_def = 50,
         .growth_res = 60,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_神階エイル - 1] = {
@@ -226,6 +240,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 65,
         .growth_def = 25,
         .growth_res = 55,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_レティシア - 1] = {
@@ -248,6 +264,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 30,
         .growth_def = 60,
         .growth_res = 60,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_オッテル - 1] = {
@@ -314,6 +332,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 75,
         .growth_def = 45,
         .growth_res = 35,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_スルト - 1] = {
@@ -358,6 +378,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 50,
         .growth_def = 70,
         .growth_res = 55,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_神階アスク - 1] = {
@@ -424,6 +446,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 60,
         .growth_def = 65,
         .growth_res = 30,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_ダグ - 1] = {
@@ -446,6 +470,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 70,
         .growth_def = 50,
         .growth_res = 45,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_エイトリ - 1] = {
@@ -490,6 +516,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 55,
         .growth_def = 60,
         .growth_res = 45,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_ヘル - 1] = {
@@ -512,6 +540,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 70,
         .growth_def = 60,
         .growth_res = 30,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_エンブラ - 1] = {
@@ -534,6 +564,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 75,
         .growth_def = 60,
         .growth_res = 45,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_ネルトゥス - 1] = {
@@ -556,6 +588,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 75,
         .growth_def = 60,
         .growth_res = 40,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_グスタフ - 1] = {
@@ -600,6 +634,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 65,
         .growth_def = 35,
         .growth_res = 35,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_愛の祭ヘンリエッテ - 1] = {
@@ -622,6 +658,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 30,
         .growth_def = 55,
         .growth_res = 70,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_ロキ - 1] = {
@@ -644,6 +682,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 60,
         .growth_def = 35,
         .growth_res = 50,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_ノート - 1] = {
@@ -666,6 +706,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 70,
         .growth_def = 50,
         .growth_res = 45,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_スカビオサ - 1] = {
@@ -688,6 +730,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 65,
         .growth_def = 30,
         .growth_res = 40,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_エルム - 1] = {
@@ -776,6 +820,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 30,
         .growth_def = 60,
         .growth_res = 65,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_グルヴェイグ - 1] = {
@@ -798,6 +844,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 75,
         .growth_def = 50,
         .growth_res = 35,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_フリーズ - 1] = {
@@ -842,6 +890,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 30,
         .growth_def = 30,
         .growth_res = 70,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_クワシル - 1] = {
@@ -864,6 +914,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 70,
         .growth_def = 30,
         .growth_res = 50,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_神階ヘイズ - 1] = {
@@ -886,6 +938,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 80,
         .growth_def = 55,
         .growth_res = 35,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_スラシル - 1] = {
@@ -908,6 +962,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 65,
         .growth_def = 40,
         .growth_res = 50,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [PID_マークス - 1] = {
@@ -952,6 +1008,8 @@ const struct PInfo heroes[] = {
         .growth_spd = 55,
         .growth_def = 30,
         .growth_res = 45,
+
+        .attributes = UNIT_ATTR_FEMALE,
     },
 
     [EID_フード - 1] = {
