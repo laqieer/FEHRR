@@ -13,6 +13,12 @@ int getMuId(int jid)
             return JID_THIEF;
         case JID_RIGHTEOUS_THIEF_F:
             return JID_THIEF_F;
+        case JID_MERCENARY_F:
+            return JID_MERCENARY;
+        case JID_CAVALIER_F:
+            return JID_CAVALIER;
+        case JID_PALADIN_F:
+            return JID_PALADIN;
         default:
             return jid;
     }
