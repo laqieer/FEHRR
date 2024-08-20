@@ -134,7 +134,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 18,
         .growth_res = 15,
         .growth_lck = 30,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_D,
@@ -225,7 +225,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 20,
         .growth_res = 10,
         .growth_lck = 25,
-        .attributes = UNIT_ATTR_PROMOTED,
+        .attributes = UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_C,
@@ -315,7 +315,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 15,
         .growth_res = 17,
         .growth_lck = 30,
-        .attributes = UNIT_ATTR_LOCK_MYRM,
+        .attributes = UNIT_ATTR_LOCK_MYRM | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_D,
@@ -405,7 +405,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 15,
         .growth_res = 12,
         .growth_lck = 25,
-        .attributes = UNIT_ATTR_CRITBONUS | UNIT_ATTR_PROMOTED | UNIT_ATTR_LOCK_MYRM,
+        .attributes = UNIT_ATTR_CRITBONUS | UNIT_ATTR_PROMOTED | UNIT_ATTR_LOCK_MYRM | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_C,
@@ -582,7 +582,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 28,
         .growth_res = 5,
         .growth_lck = 25,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_LANCE] = WEXP_D,
@@ -673,7 +673,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 23,
         .growth_res = 15,
         .growth_lck = 20,
-        .attributes = UNIT_ATTR_PROMOTED,
+        .attributes = UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_LANCE] = WEXP_C,
@@ -762,7 +762,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 15,
         .growth_res = 10,
         .growth_lck = 35,
-        .attributes = UNIT_ATTR_BALLISTA,
+        .attributes = UNIT_ATTR_BALLISTA | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_BOW] = WEXP_D,
@@ -852,7 +852,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 15,
         .growth_res = 15,
         .growth_lck = 30,
-        .attributes = UNIT_ATTR_BALLISTA | UNIT_ATTR_PROMOTED,
+        .attributes = UNIT_ATTR_BALLISTA | UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_BOW] = WEXP_C,
@@ -942,7 +942,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 8,
         .growth_res = 50,
         .growth_lck = 45,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_STAFF] = WEXP_D,
@@ -1037,7 +1037,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 8,
         .growth_res = 40,
         .growth_lck = 40,
-        .attributes = UNIT_ATTR_PROMOTED,
+        .attributes = UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_STAFF] = WEXP_C,
@@ -1133,7 +1133,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 5,
         .growth_res = 35,
         .growth_lck = 20,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_ANIMA] = WEXP_D,
@@ -1228,7 +1228,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 10,
         .growth_res = 25,
         .growth_lck = 15,
-        .attributes = UNIT_ATTR_PROMOTED,
+        .attributes = UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_STAFF] = WEXP_E,
@@ -1323,7 +1323,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 10,
         .growth_res = 37,
         .growth_lck = 20,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_ELDER] = WEXP_D,
@@ -1418,7 +1418,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 10,
         .growth_res = 27,
         .growth_lck = 20,
-        .attributes = UNIT_ATTR_PROMOTED,
+        .attributes = UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_STAFF] = WEXP_E,
@@ -1509,7 +1509,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 15,
         .growth_res = 12,
         .growth_lck = 30,
-        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_MOUNT_ICON,
+        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_MOUNT_ICON | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_D,
@@ -1601,7 +1601,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 12,
         .growth_res = 17,
         .growth_lck = 25,
-        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_PROMOTED | UNIT_ATTR_MOUNT_ICON,
+        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_PROMOTED | UNIT_ATTR_MOUNT_ICON | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_C,
@@ -1784,7 +1784,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 12,
         .growth_res = 15,
         .growth_lck = 30,
-        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_MOUNT_ICON,
+        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_MOUNT_ICON | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_BOW] = WEXP_D,
@@ -1875,7 +1875,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 15,
         .growth_res = 10,
         .growth_lck = 25,
-        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_PROMOTED | UNIT_ATTR_MOUNT_ICON,
+        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_PROMOTED | UNIT_ATTR_MOUNT_ICON | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_E,
@@ -2055,7 +2055,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 25,
         .growth_res = 10,
         .growth_lck = 25,
-        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_WYVERN_ICON,
+        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_WYVERN_ICON | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_LANCE] = WEXP_D,
@@ -2146,7 +2146,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 20,
         .growth_res = 7,
         .growth_lck = 20,
-        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_PROMOTED | UNIT_ATTR_WYVERN_ICON,
+        .attributes = UNIT_ATTR_MOUNTED | UNIT_ATTR_RE_MOVE | UNIT_ATTR_PROMOTED | UNIT_ATTR_WYVERN_ICON | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_E,
@@ -2409,7 +2409,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 5,
         .growth_res = 20,
         .growth_lck = 40,
-        .attributes = UNIT_ATTR_STEAL | UNIT_ATTR_THIEF,
+        .attributes = UNIT_ATTR_STEAL | UNIT_ATTR_THIEF | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_E,
@@ -2796,7 +2796,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 0,
         .growth_res = 0,
         .growth_lck = 0,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .mov_table = MoveTable_Civilian,
         .avo_terrain_table = TerrainAvoTable_Default,
         .def_terrain_table = TerrainDefTable_Default,
@@ -2860,7 +2860,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 0,
         .growth_res = 0,
         .growth_lck = 0,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .mov_table = MoveTable_Civilian,
         .avo_terrain_table = TerrainAvoTable_Default,
         .def_terrain_table = TerrainDefTable_Default,
@@ -3024,7 +3024,7 @@ const struct JInfo JInfoTableNew[] =
     {
         .id = JID_DISMOUNTED_F,
         .map_sprite = UNITSPRITE_DISMOUNTED_F,
-        .attributes = 0,
+        .attributes = UNIT_ATTR_FEMALE,
         .avo_terrain_table = TerrainAvoTable_Default,
         .def_terrain_table = TerrainDefTable_Default,
         .res_terrain_table = TerrainResTable_Default,
@@ -3152,7 +3152,7 @@ const struct JInfo JInfoTableNew[] =
         .growth_def = 5,
         .growth_res = 20,
         .growth_lck = 40,
-        .attributes = UNIT_ATTR_STEAL | UNIT_ATTR_THIEF | UNIT_ATTR_PROMOTED,
+        .attributes = UNIT_ATTR_STEAL | UNIT_ATTR_THIEF | UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
             [ITEM_KIND_SWORD] = WEXP_D,
