@@ -14,5 +14,6 @@ struct MapDebugMenuEntProc
 
 extern bool8 gDeveloperModeEnabled;
 extern struct MenuInfo const MenuInfo_Map_Developer;
+extern struct MenuInfo const MenuInfo_MapNew;
 
 void StartMenu_Debug_StartUp(void);

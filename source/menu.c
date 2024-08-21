@@ -359,3 +359,52 @@ struct MenuInfo const MenuInfo_Map_Developer =
     .on_r_press = MenuActionHelpBox,
     .on_help_box = MenuHelpBoxRegular,
 };
+
+struct MenuEntInfo const MenuEntInfo_MapNew[] =
+{
+    {
+        .label = (const char *)3739, // 部隊
+        .msg_help = MSG_654,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Unit_SelectNew,
+    },
+
+    {
+        .label = (const char *)3740, // 状況
+        .msg_help = MSG_655,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Status_Select,
+    },
+
+    {
+        .label = (const char *)3741, // 設定
+        .msg_help = MSG_656,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_Options_Select,
+    },
+
+    {
+        .label = (const char *)3742, // 中断
+        .msg_help = MSG_657,
+        .available = MapMenu_Suspend_Available,
+        .on_select = MapMenu_Suspend_Select,
+    },
+
+    {
+        .label = (const char *)3746, // 終了
+        .msg_help = MSG_658,
+        .available = MenuEntryEnabled,
+        .on_select = MapMenu_End_SelectNew,
+    },
+
+    { 0 }, // end
+};
+
+struct MenuInfo const MenuInfo_MapNew =
+{
+    .rect = { 1, 0, 6, 0 },
+    .entries = MenuEntInfo_MapNew,
+    .on_b_press = MenuActionClose,
+    .on_r_press = MenuActionHelpBox,
+    .on_help_box = MenuHelpBoxRegular,
+};

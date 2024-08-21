@@ -91,7 +91,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
                 gPlaySt.x_cursor = gBmSt.cursor.x;
                 gPlaySt.y_cursor = gBmSt.cursor.y;
 
-                StartAdjustedMenu(gDeveloperModeEnabled ? &MenuInfo_Map_Developer : &MenuInfo_Map, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
+                StartAdjustedMenu(gDeveloperModeEnabled ? &MenuInfo_Map_Developer : &MenuInfo_MapNew, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
                 StartAvailableMapMenuEvent();
 
                 Proc_Goto(proc, L_PLAYERPHASE_IDLE);
@@ -138,7 +138,7 @@ void PlayerPhase_IdleLoopNew(ProcPtr proc)
             }
             else
             {
-                StartAdjustedMenu(gDeveloperModeEnabled ? &MenuInfo_Map_Developer : &MenuInfo_Map, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
+                StartAdjustedMenu(gDeveloperModeEnabled ? &MenuInfo_Map_Developer : &MenuInfo_MapNew, gBmSt.cursor_sprite_target.x - gBmSt.camera.x, 1, 23);
                 StartAvailableMapMenuEvent();
             }
 
