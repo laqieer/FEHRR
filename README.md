@@ -12,7 +12,7 @@ Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](http
 
 ### Patch
 
-![GitHub Release](https://img.shields.io/github/v/release/laqieer/FEHRR)
+[![GitHub Release](https://img.shields.io/github/v/release/laqieer/FEHRR)](https://github.com/laqieer/FEHRR/releases/latest)
 
 ### Patcher
 
