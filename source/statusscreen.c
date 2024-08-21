@@ -45,16 +45,16 @@ extern struct StatusScreenSt gStatusScreenSt;
 
 void func_fe6_0807372CNew(struct StatusScreenProc * proc)
 {
-    Text_InsertDrawString(gStatusScreenSt.text + 1, 2, TEXT_COLOR_SYSTEM_WHITE, DecodeMsg(MSG_724));
+    Text_InsertDrawString(gStatusScreenSt.text + 1, 2, TEXT_COLOR_SYSTEM_WHITE, DecodeMsgNew(MSG_724));
     PutDrawText(gStatusScreenSt.text + 1, gBg0Tm + TM_OFFSET(1, 5), TEXT_COLOR_SYSTEM_BLUE, 25, 0,
-        DecodeMsg(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->msg_30));
+        DecodeMsgNew(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->msg_30));
 
-    Text_InsertDrawString(gStatusScreenSt.text + 2, 0, TEXT_COLOR_SYSTEM_WHITE, DecodeMsg(MSG_725));
+    Text_InsertDrawString(gStatusScreenSt.text + 2, 0, TEXT_COLOR_SYSTEM_WHITE, DecodeMsgNew(MSG_725));
     Text_SetParams(gStatusScreenSt.text + 2, 74, TEXT_COLOR_SYSTEM_BLUE);
     Text_DrawNumber(gStatusScreenSt.text + 2, gPlaySt.turn);
     PutText(gStatusScreenSt.text + 2, gBg0Tm + TM_OFFSET(18, 4));
 
-    Text_InsertDrawString(gStatusScreenSt.text + 3, 0, TEXT_COLOR_SYSTEM_WHITE, DecodeMsg(MSG_726));
+    Text_InsertDrawString(gStatusScreenSt.text + 3, 0, TEXT_COLOR_SYSTEM_WHITE, DecodeMsgNew(MSG_726));
     Text_InsertDrawString(gStatusScreenSt.text + 3, 82, TEXT_COLOR_SYSTEM_GOLD, GetMsg(MSG_ID_GOLD));
     Text_InsertDrawNumberOrBlank(gStatusScreenSt.text + 3, 74, 2, GetGold());
     PutText(gStatusScreenSt.text + 3, gBg0Tm + TM_OFFSET(18, 6));
@@ -70,11 +70,11 @@ void func_fe6_08073808New(struct StatusScreenProc * proc)
     char const * text_str;
     int x_text;
 
-    Text_InsertDrawString(gStatusScreenSt.text + 1, 2, TEXT_COLOR_SYSTEM_WHITE, DecodeMsg(MSG_724));
+    Text_InsertDrawString(gStatusScreenSt.text + 1, 2, TEXT_COLOR_SYSTEM_WHITE, DecodeMsgNew(MSG_724));
     PutDrawText(gStatusScreenSt.text + 1, gBg0Tm + TM_OFFSET(1, 6), TEXT_COLOR_SYSTEM_BLUE, 25, 0,
         func_fe6_080867FC(GetChapterInPlaySt(&gPlayStNew)));
 
-    Text_InsertDrawString(gStatusScreenSt.text + 2, 0, TEXT_COLOR_SYSTEM_WHITE, DecodeMsg(MSG_725));
+    Text_InsertDrawString(gStatusScreenSt.text + 2, 0, TEXT_COLOR_SYSTEM_WHITE, DecodeMsgNew(MSG_725));
     Text_SetParams(gStatusScreenSt.text + 2, 50, TEXT_COLOR_SYSTEM_BLUE);
     Text_DrawNumber(gStatusScreenSt.text + 2, gPlaySt.turn);
     PutText(gStatusScreenSt.text + 2, gBg0Tm + TM_OFFSET(21, 6));
@@ -97,6 +97,21 @@ void func_fe6_08073808Old(struct StatusScreenProc * proc)
     func_fe6_08073808New(proc);
 }
 
+char const * GetBlueLeaderUnit()
+{
+    struct Unit *unit = GetUnitByPid(PID_アルフォンス);
+    if (unit)
+        return DecodeMsgNew(unit->pinfo->msg_name);
+
+    FOR_UNITS_FACTION(FACTION_BLUE, unit,
+    {
+        if ((unit->flags & (UNIT_FLAG_HIDDEN | UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED)) == 0)
+            return DecodeMsgNew(unit->pinfo->msg_name);
+    })
+
+    return DecodeMsgNew(MSG_727);
+}
+
 char const * GetRedLeaderNameNew(void)
 {
     int chapter = GetChapterInPlaySt(&gPlayStNew);
@@ -105,17 +120,17 @@ char const * GetRedLeaderNameNew(void)
         FOR_UNITS_FACTION(FACTION_RED, unit,
         {
             if (unit->pinfo->id != EID_ENEMY_GENERIC)
-                return DecodeMsg(unit->pinfo->msg_name);
+                return DecodeMsgNew(unit->pinfo->msg_name);
         })
     }
 
     FOR_UNITS_FACTION(FACTION_RED, unit,
     {
         if ((UNIT_ATTRIBUTES(unit) & UNIT_ATTR_BOSS) != 0)
-            return DecodeMsg(unit->pinfo->msg_name);
+            return DecodeMsgNew(unit->pinfo->msg_name);
     })
 
-    return DecodeMsg(MSG_727);
+    return DecodeMsgNew(MSG_727);
 }
 
 char const * GetRedLeaderNameOld(void)
@@ -126,19 +141,19 @@ char const * GetRedLeaderNameOld(void)
 void func_fe6_080738FCNew(struct StatusScreenProc * proc)
 {
     Text_InsertDrawString(gStatusScreenSt.text + 4, 0, TEXT_COLOR_SYSTEM_WHITE,
-        DecodeMsg(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->msg_32));
+        DecodeMsgNew(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->msg_32));
     Text_SetParams(gStatusScreenSt.text + 4, 69, TEXT_COLOR_SYSTEM_BLUE);
     Text_DrawNumber(gStatusScreenSt.text + 4,
         CountFactionUnitsWithoutFlags(FACTION_BLUE, UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED));
 
     Text_InsertDrawString(gStatusScreenSt.text + 5, 0, TEXT_COLOR_SYSTEM_WHITE,
-        DecodeMsg(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->msg_34));
+        DecodeMsgNew(GetChapterInfo(GetChapterInPlaySt(&gPlayStNew))->msg_34));
     Text_SetParams(gStatusScreenSt.text + 5, 69, TEXT_COLOR_SYSTEM_BLUE);
     Text_DrawNumber(gStatusScreenSt.text + 5,
         CountFactionUnitsWithoutFlags(FACTION_RED, UNIT_FLAG_DEAD | UNIT_FLAG_NOT_DEPLOYED));
 
     Text_InsertDrawString(gStatusScreenSt.text + 6, 0, TEXT_COLOR_SYSTEM_WHITE,
-        DecodeMsg(GetUnitByPid(PID_ROY)->pinfo->msg_name));
+        GetBlueLeaderUnit());
 
     Text_InsertDrawString(gStatusScreenSt.text + 7, 0, TEXT_COLOR_SYSTEM_WHITE, GetRedLeaderNameNew());
 
