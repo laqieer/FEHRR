@@ -102,7 +102,8 @@ ProcPtr StartMuralBackgroundNew(ProcPtr parent, void * vram, int pal)
 
     tileref = ((((uptr) (vram - GetBgChrOffset(3))) / CHR_SIZE) & 0xFFF) + TILE_PAL_SAFE(pal);
 
-    if (IsNewFace(GetUnitFid(gStatScreenSt.unit)))
+    // if (IsNewFace(GetUnitFid(gStatScreenSt.unit)))
+    if (TRUE) // Mural background won't refresh when switching unit, so always assume new face may appear
     {
         // tiles from 0 to 0x160 are overwritten by full face
         for (i = 0; i < 0x120; i++)
