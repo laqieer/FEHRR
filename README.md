@@ -40,7 +40,7 @@ Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](http
 ![FEHRR-4](https://github.com/user-attachments/assets/48e45791-bd84-45a6-b9be-f88592104991)
 ![FEHRR-7](https://github.com/user-attachments/assets/a50609a5-5855-4860-9896-ba10b5f3cbe9)
 
-- Press A button twice → Simplified Chinese (简体中文)
+- Press A button twice (按2下A键) → Simplified Chinese (简体中文)
 
 ![FEHRR-5](https://github.com/user-attachments/assets/97a444a4-1276-41cf-948a-6250853fe799)
 ![FEHRR-8](https://github.com/user-attachments/assets/fdcee892-8442-417d-87ca-e26565b92705)
