@@ -53,7 +53,7 @@ If you find any new issue:
 
 1. Check [the issue list](https://github.com/laqieer/FEHRR?tab=readme-ov-file#known-issues)
 
-1. [Open an issue](https://github.com/laqieer/FEHRR/issues/new) with detailed repro steps, screenshots and save states. **DO NOT attach ROM!!!**
+1. [Open an issue](https://github.com/laqieer/FEHRR/issues/new/choose) with detailed repro steps, screenshots and save states. **DO NOT attach ROM!!!**
 
 ## Developer Guide
 
