@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-*Please check if it reproduces on latest patch and if it already exists in the issue list before report it!*
+*Please check if it reproduces on the latest patch and if it already exists in the issue list before report it!*
 
 **Describe the bug**
 A clear and concise description of what the bug is.
