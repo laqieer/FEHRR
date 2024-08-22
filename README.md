@@ -51,7 +51,7 @@ If you find any new issue:
 
 1. Ensure to use [the latest patch](https://github.com/laqieer/FEHRR?tab=readme-ov-file#patch)
 
-1. Check [the issue list](https://github.com/laqieer/FEHRR/edit/main/README.md#known-issues)
+1. Check [the issue list](https://github.com/laqieer/FEHRR?tab=readme-ov-file#known-issues)
 
 1. [Open an issue](https://github.com/laqieer/FEHRR/issues/new) with detailed repro steps, screenshots and save states. **DO NOT attach ROM!!!**
 
