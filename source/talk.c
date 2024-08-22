@@ -557,7 +557,7 @@ void PutTalkBubbleNew(int xAnchor, int yAnchor, int width, int height)
         tmp = xTail - width / 2;
 
         if (tmp <= 0)
-            x = 1;
+            x = 0;
         else
             x = tmp;
 
