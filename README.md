@@ -8,6 +8,8 @@ Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](http
 ![FEHRR-1](https://github.com/user-attachments/assets/ce0cc91a-ddf9-4795-a8b3-224b09251d35)
 ![FEHRR-2](https://github.com/user-attachments/assets/70ff90d6-331f-486d-9629-008e33801d68)
 
+[Sideline Story Remake](https://github.com/laqieer/FEHRG)
+
 ## User Guide
 
 ### Patch
