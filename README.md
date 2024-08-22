@@ -45,6 +45,16 @@ Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](http
 ![FEHRR-5](https://github.com/user-attachments/assets/97a444a4-1276-41cf-948a-6250853fe799)
 ![FEHRR-8](https://github.com/user-attachments/assets/fdcee892-8442-417d-87ca-e26565b92705)
 
+### [Known Issues](https://github.com/laqieer/FEHRR/labels/bug)
+
+If you find any new issue:
+
+1. Ensure to use [the latest patch](https://github.com/laqieer/FEHRR?tab=readme-ov-file#patch)
+
+1. Check [the issue list](https://github.com/laqieer/FEHRR/edit/main/README.md#known-issues)
+
+1. [Open an issue](https://github.com/laqieer/FEHRR/issues/new) with detailed repro steps, screenshots and save states. **DO NOT attach ROM!!!**
+
 ## Developer Guide
 
 ### Build
