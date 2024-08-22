@@ -47,7 +47,9 @@ Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](http
 ![FEHRR-5](https://github.com/user-attachments/assets/97a444a4-1276-41cf-948a-6250853fe799)
 ![FEHRR-8](https://github.com/user-attachments/assets/fdcee892-8442-417d-87ca-e26565b92705)
 
-### [Known Issues](https://github.com/laqieer/FEHRR/labels/bug)
+### Known Issues
+
+[![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3Alaqieer%2FFEHRR%20is%3Aopen%20label%3Abug)](https://github.com/laqieer/FEHRR/labels/bug)
 
 If you find any new issue:
 
