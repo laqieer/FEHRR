@@ -128,6 +128,8 @@
 .rodata.textId_3392_0 : {*(.rodata.textId_3392_0)}
 . = 0x8079f44;
 .rodata.textId_3393_0 : {*(.rodata.textId_3393_0)}
+. = 0x8079f48;
+.rodata.textId_3817_0 : {*(.rodata.textId_3817_0)}
 . = 0x807d6a8;
 .rodata.textId_3394_0 : {*(.rodata.textId_3394_0)}
 . = 0x807d6ac;

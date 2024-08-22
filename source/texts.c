@@ -22821,6 +22821,12 @@ const char * const gMsgTableNew[][LANGUAGE_NUM] = {
         [LANGUAGE_CHINESE] = "  开发者模式",
     },
 
+    [3817] = {
+        [LANGUAGE_JAPANESE] = "／",
+        [LANGUAGE_ENGLISH] = "/",
+        [LANGUAGE_CHINESE] = "/",
+    },
+
     [TEXT_ID_TEST] = {
         [LANGUAGE_JAPANESE] = FaceTestText,
         [LANGUAGE_ENGLISH] = FaceTestText,
@@ -23273,6 +23279,7 @@ const int textId_3731_0 = 3731;
 const int textId_3732_0 = 3732;
 const int textId_3733_0 = 3733;
 const int textId_3734_0 = 3734;
+const int textId_3817_0 = 3817;
 
 const char String_ShopGoldG_UTF8[] = "Ｇ";
 const char text_LvUp_Physic[] = "HP\0\0\0STR\0\0SKL\0\0SPD\0\0LUCK\0DEF\0\0RES\0\0CON";
