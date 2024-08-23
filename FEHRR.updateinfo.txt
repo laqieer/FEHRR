@@ -1,0 +1,40 @@
+//
+//This file is an automatic update file used to FEBuilderGBA work support.
+//It is used to automatically update to the latest version from the following menu.
+//MENU->Run->Work support
+//
+//Document: https://dw.ngmansion.xyz/doku.php?id=en:guid:febuildergba:work_support
+// View Results
+//https://docs.google.com/spreadsheets/d/1nG4OhYUs5uL3irGzxXsoroOh5JY71VmyCZI8l63HEMs/edit?usp=drive_web&ouid=104706871484152984133
+//
+//このファイルはFEBuilderGBAの作品支援で利用する自動アップデートファイルです。
+//以下のメニューから自動で最新版に更新するために利用されます。
+//MENU->実行->作品支援
+//
+//仕様書: https://dw.ngmansion.xyz/doku.php?id=guide:febuildergba:%E4%BD%9C%E5%93%81%E6%94%AF%E6%8F%B4
+//
+
+NAME=FEHRR
+AUTHOR=laqieer
+COMMUNITY_URL=https://github.com/laqieer/FEHRR
+LOGO_FILENAME=FEHRR.png
+
+//If you use auto-update, please provide details of the site where it will be distributed.
+CHECK_URL=https://nightly.link/laqieer/FEHRR/workflows/build/main/nightly-build
+CHECK_REGEX=
+
+UPDATE_URL=https://nightly.link/laqieer/FEHRR/workflows/build/main/nightly-build
+UPDATE_REGEX=
+
+AUTOFEEDBACK_URL=https://docs.google.com/forms/d/e/1FAIpQLScahQbQza0jLnj99BzLOIfmmLNeMruYfjcRlbeJT1WOHQL8Yw/formResponse
+AUTOFEEDBACK_POST_USERHASH=entry.472844841
+AUTOFEEDBACK_POST_VERSION=entry.1932423044
+AUTOFEEDBACK_POST_CHAPTER=entry.1798786849
+AUTOFEEDBACK_POST_DEADUNIT=entry.370946816
+AUTOFEEDBACK_POST_BASE64=entry.926226156
+
+//Enable AUTOFEEDBACK if you want to give benefits to players who have it enabled.
+//MapID:0x0 will enable Flag: 0x25
+//AUTOFEEDBACK_ENABLE_FLAG=0x25
+//AUTOFEEDBACK_ENABLE_FLAG_MAPID=0x0
+DISABLE_CHEAT=1
