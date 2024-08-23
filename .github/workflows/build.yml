@@ -20,9 +20,6 @@ jobs:
     - name: Add an exception for current directory
       run: git config --global --add safe.directory /__w/FEHRR/FEHRR
 
-    - name: Check git version
-      run: /usr/bin/git describe --abbrev=7 --dirty --always --tags
-
     - name: Install python dependencies
       run: apt-get update && apt-get install -y python3-pip && pip3 install numpy
 
