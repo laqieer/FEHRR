@@ -340,8 +340,20 @@ int TalkInterpretNew(ProcPtr proc)
             ClearTalkBubble();
 
         // StartFaceFadeOut(sTalkSt->faces[sTalkSt->active_talk_face]);
-        StartFaceFadeOutNew((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face]);
-        sTalkSt->faces[sTalkSt->active_talk_face] = NULL;
+        if (sTalkSt->active_talk_face != TALK_FACE_NONE)
+        {
+            Assertf(sTalkSt->active_talk_face < TALK_FACE_COUNT, "Invalid talk face: %d", sTalkSt->active_talk_face);
+
+            if (sTalkSt->faces[sTalkSt->active_talk_face] != NULL)
+            {
+                StartFaceFadeOutNew((struct FaceProcNew *)sTalkSt->faces[sTalkSt->active_talk_face]);
+                sTalkSt->faces[sTalkSt->active_talk_face] = NULL;
+            }
+            else
+            {
+                Warnf("Redundant face clear command at 0x%x: %s", sTalkSt->str, *sTalkSt->str);
+            }
+        }
 
         sTalkSt->str++;
 

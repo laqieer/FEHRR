@@ -453,6 +453,9 @@ void PutFace80x72Old(u16 * tm, int fid, int chr, int pal)
 
 void StartFaceFadeInNew(struct FaceProcNew * proc)
 {
+    Assert(proc != NULL);
+    Assertf(proc->slot >= 0 && proc->slot < FACE_SLOT_COUNT, "Invalid face slot: %d", proc->slot);
+
     if (IsNewFace(proc->fid))
     {
         struct FaceInfoNew const * info = GetFaceInfoNew(proc->fid);
@@ -480,6 +483,9 @@ void StartFaceFadeInNew(struct FaceProcNew * proc)
 
 void StartFaceFadeOutNew(struct FaceProcNew * proc)
 {
+    Assert(proc != NULL);
+    Assertf(proc->slot >= 0 && proc->slot < FACE_SLOT_COUNT, "Invalid face slot: %d", proc->slot);
+
     if (IsNewFace(proc->fid))
     {
         // struct FaceInfoNew const * info = GetFaceInfoNew(proc->fid);
