@@ -63,7 +63,7 @@ If you find any new issue:
 
 ### Build
 
-1. Put base ROM file named `baserom.gba` here
+1. Put base ROM file named `baserom.gba` here and run `./check_baserom.sh`
 
 1. Install [devkitPro](https://devkitpro.org/)
 
