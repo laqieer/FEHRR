@@ -23,8 +23,11 @@ jobs:
     - name: Build tools
       run: ./build_tools.sh
 
-    - name: Mock base ROM
-      run: head -c 8M /dev/urandom > baserom.gba
+    - name: Download, extract and check base ROM
+      env:
+        BASEROM_URL: ${{ secrets.BASEROM_URL }}
+      run: |
+        curl -LO "$BASEROM_URL" && unzip baserom.zip && ./check_baserom.sh
 
     - name: Run make
       run: make
