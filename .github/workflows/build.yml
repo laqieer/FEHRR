@@ -35,7 +35,14 @@ jobs:
     - name: Check ROM size
       run: apt-get install -y bc && ./check_rom_size.sh
 
+    - uses: actions/setup-go@v5
+      with:
+        go-version: '1.16'
+    - run: go get github.com/rameshvarun/ups && ./create_ups_patch.sh
+
     - uses: actions/upload-artifact@v3
       with:
-        name: linker-mapfile
-        path: FEHRR.map
+        name: nightly-build
+        path: |
+          FEHRR*.ups
+          FEHRR.map
