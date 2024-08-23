@@ -16,6 +16,8 @@ Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](http
 
 [![GitHub Release](https://img.shields.io/github/v/release/laqieer/FEHRR)](https://github.com/laqieer/FEHRR/releases/latest)
 
+<img src="https://raw.githubusercontent.com/oprypin/nightly.link/master/logo.svg" alt="Nightly Build" height="16" style="height: 16px; vertical-align: sub"> [Nightly Build](https://nightly.link/laqieer/FEHRR/workflows/build/main/nightly-build)
+
 ### Patcher
 
 [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/)
