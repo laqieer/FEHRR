@@ -109,7 +109,19 @@ def show_unit_face(matched):
         if unit not in exceptions:
             warnings.warn('Unit face not found: ' + unit)
         return ' TEXT_CMD_LEFT TEXT_CMD_CLEAR '
-    return ' TEXT_CMD_LEFT TEXT_CMD_CLEAR TEXT_CMD_LEFT TEXT_CMD_FACE %s ' % unit_infos[unit]['face_name']
+    return ' TEXT_CMD_LEFT TEXT_CMD_CLEAR TEXT_CMD_FACE %s ' % unit_infos[unit]['face_name']
+
+def handle_face_clear_commands(text):
+    # only one clear command follows a face command
+    result = ''
+    ss = text.split(' TEXT_CMD_LEFT TEXT_CMD_CLEAR ')
+    for i, s in enumerate(ss):
+        result += s
+        if i != len(ss) - 1:
+            result += ' TEXT_CMD_LEFT '
+        if 'TEXT_CMD_FACE' in s:
+            result += ' TEXT_CMD_CLEAR '
+    return result
 
 # FEH text format: https://feunites.fandom.com/wiki/Module:ScenarioArchiveToWiki
 def convert_text(language, text):
@@ -122,7 +134,7 @@ def convert_text(language, text):
     text = text.replace('\n\n', '" TEXT_CMD_NEWLINE "') # new line
     text = text.replace('\n', '" TEXT_CMD_NEWLINE "') # new line
     text = re.sub(r'\$WmM\S+?,ch90_\w+?,\w+\|', r'" TEXT_CMD_LEFT TEXT_CMD_CLEAR "', text) # generic face
-    text = re.sub(r'\$WmM\S+?,(\w+?),\w+\|', r'" TEXT_CMD_LEFT TEXT_CMD_CLEAR TEXT_CMD_LEFT TEXT_CMD_FACE \1 "', text) # face
+    text = re.sub(r'\$WmM\S+?,(\w+?),\w+\|', r'" TEXT_CMD_LEFT TEXT_CMD_CLEAR TEXT_CMD_FACE \1 "', text) # face
     text = text.replace('$k', '" TEXT_CMD_WAIT "') # wait key to be pressed
     text = text.replace('$p', '" TEXT_CMD_NEWLINE "') # scroll up text
     text = re.sub(r'\$nM(\S+?)\|', show_unit_face, text) # speaker name
@@ -144,9 +156,8 @@ def convert_text(language, text):
     text = re.sub(r'^""', '', text) # remove empty strings at the beginning
     text = re.sub(r'""$', '', text) # remove empty strings at the end
     text = re.sub(r'\\$', '\\""', text) # edge case: \""$
+    text = handle_face_clear_commands(text)
     text = text.strip() # remove leading and trailing spaces
-    if 'TEXT_CMD_FACE' in text:
-        text += ' TEXT_CMD_CLEAR'
     if '$' in text:
         warnings.warn('$ remains in text: ' + text)
     return text
