@@ -35,10 +35,11 @@ jobs:
     - name: Check ROM size
       run: apt-get install -y bc && ./check_rom_size.sh
 
-    - uses: actions/setup-go@v5
+    - name: Create UPS patch
+      uses: actions/setup-go@v5
       with:
         go-version: '1.16'
-    - run: go get github.com/rameshvarun/ups && ./create_ups_patch.sh
+    - run: git config --global --add safe.directory /__w/FEHRR/FEHRR && go get github.com/rameshvarun/ups && ./create_ups_patch.sh
 
     - uses: actions/upload-artifact@v3
       with:

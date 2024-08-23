@@ -19,7 +19,7 @@ fi
 
 # Create the UPS patch
 echo "Creating UPS patch..."
-ups diff -b "$baserom" -m "$fehrr" -o "$patch"
+ups diff --base "$baserom" --modified "$fehrr" --output "$patch"
 
 # Check if the patch was created successfully
 if [ $? -eq 0 ]; then
