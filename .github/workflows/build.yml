@@ -43,7 +43,7 @@ jobs:
 
     - uses: actions/upload-artifact@v3
       with:
-        name: ${{ github.repository }}-${{ github.event.repository.pushed_at }}-${{ github.run_id }}-${{ github.sha }}
+        name: ${{ github.event.repository.name }}-${{ github.event.repository.pushed_at }}-${{ github.run_id }}-${{ github.sha }}
         path: |
           FEHRR.ups
           FEHRR.map
