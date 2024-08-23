@@ -20,10 +20,10 @@ COMMUNITY_URL=https://github.com/laqieer/FEHRR
 LOGO_FILENAME=FEHRR.png
 
 //If you use auto-update, please provide details of the site where it will be distributed.
-CHECK_URL=https://nightly.link/laqieer/FEHRR/workflows/build/main/nightly-build
+CHECK_URL=https://nightly.link/laqieer/FEHRR/workflows/build/main/
 CHECK_REGEX=
 
-UPDATE_URL=https://nightly.link/laqieer/FEHRR/workflows/build/main/nightly-build
+UPDATE_URL=https://nightly.link/laqieer/FEHRR/workflows/build/main/
 UPDATE_REGEX=
 
 AUTOFEEDBACK_URL=https://docs.google.com/forms/d/e/1FAIpQLScahQbQza0jLnj99BzLOIfmmLNeMruYfjcRlbeJT1WOHQL8Yw/formResponse
