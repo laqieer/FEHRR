@@ -17,6 +17,9 @@ jobs:
       with:
         submodules: recursive
 
+    - name: Add an exception for current directory
+      run: git config --global --add safe.directory /__w/FEHRR/FEHRR
+
     - name: Check git version
       run: /usr/bin/git describe --abbrev=7 --dirty --always --tags
 
@@ -42,7 +45,7 @@ jobs:
       uses: actions/setup-go@v5
       with:
         go-version: '1.16'
-    - run: git config --global --add safe.directory /__w/FEHRR/FEHRR && go get github.com/rameshvarun/ups && ./create_ups_patch.sh
+    - run: go get github.com/rameshvarun/ups && ./create_ups_patch.sh
 
     - name: Store build timestamp
       run: echo "build_time=$(date +'%Y%m%d.%H%M')" >> "$GITHUB_ENV"
