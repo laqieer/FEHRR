@@ -18,7 +18,7 @@ jobs:
         submodules: recursive
 
     - name: Check git version
-      run: git describe --abbrev=7 --dirty --always --tags
+      run: /usr/bin/git describe --abbrev=7 --dirty --always --tags
 
     - name: Install python dependencies
       run: apt-get update && apt-get install -y python3-pip && pip3 install numpy
