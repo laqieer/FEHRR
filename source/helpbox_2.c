@@ -656,6 +656,12 @@ void func_fe6_08071274New(struct HelpBoxPrintProcNew * proc)
         break;
     }
 
+    if ((gKeySt->pressed & KEY_BUTTON_B) || (gKeySt->pressed & KEY_BUTTON_R))
+    {
+        Debug("quit help box");
+        Proc_Break(proc);
+    }
+
     SetTextFont(NULL);
 }
 
