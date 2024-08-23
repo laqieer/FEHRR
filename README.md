@@ -18,13 +18,6 @@ Remake [FEHR](https://github.com/laqieer/FEHR) on [Fire Emblem 6 (J) (GBA)](http
 
 <img src="https://raw.githubusercontent.com/oprypin/nightly.link/master/logo.svg" alt="Nightly Build" height="16" style="height: 16px; vertical-align: sub"> [Nightly Build](https://nightly.link/laqieer/FEHRR/workflows/build/main/)
 
-*FEBuillderGBA WorkSupport
-This work supports the FEBuilderGBA work support feature, which allows for automatic updates by playing with FEBuilderGBA.
-It also supports the automatic feedback function.
-Feedback can be given completely anonymously, using only the information in the game.
-Your feedback will help us improve the game, so please help us.
-You can change this setting at any time from "FEBuilderGBA Menu->Run->Work Support".
-
 ### Patcher
 
 [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/)

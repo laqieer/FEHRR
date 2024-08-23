@@ -3,7 +3,7 @@
 # Define the file paths
 baserom="baserom.gba"
 fehrr="FEHRR.gba"
-patch="FEHRR.ups"
+patch="FEHRR-$(date +'%Y%m%d.%H%M')-$(git rev-parse --short HEAD).ups"
 
 # Check if the baserom file exists
 if [ ! -f "$baserom" ]; then
