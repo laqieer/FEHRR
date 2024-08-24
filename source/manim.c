@@ -13,6 +13,7 @@
 #include "sound.h"
 #include "text.h"
 #include "face.h"
+#include "faceNew.h"
 #include "event.h"
 #include "msg.h"
 #include "util.h"
@@ -137,12 +138,47 @@ void ManimLevelUp_InitMainScreenNew(struct ManimLevelUpProc * proc)
     SetBgOffset(0, 0, proc->y_scroll_offset);
     SetBgOffset(1, 0, proc->y_scroll_offset);
 
-    StartFace(0, gManimSt.actor[proc->actor_id].unit->pinfo->fid, 184, 80, FACE_DISP_KIND(FACE_96x80) | FACE_DISP_HLAYER(1));
+    int fid = gManimSt.actor[proc->actor_id].unit->pinfo->fid;
+    StartFace(0, fid, 184, DISPLAY_HEIGHT - (IsNewFace(fid) ? NEW_FULL_FACE_HEIGHT : OLD_FULL_FACE_HEIGHT), FACE_DISP_KIND(FACE_96x80) | FACE_DISP_HLAYER(1));
     gFaces[0]->y_disp = -proc->y_scroll_offset;
 
     // TODO: constants
     // StartManimLevelUpStatGainLabels(BGCHR_MANIM_200, 3, 1, proc);
     StartManimLevelUpStatGainLabels(BGCHR_LVUP_NEW, 3, 1, proc);
+}
+
+void ManimLevelUp_ScrollInNew(struct ManimLevelUpProc * proc)
+{
+    proc->y_scroll_offset += 8;
+
+    SetBgOffset(0, 0, proc->y_scroll_offset);
+    SetBgOffset(1, 0, proc->y_scroll_offset);
+
+    // NOTE: this is inconsistent with math in ManimLevelUp_InitMainScreen
+    gFaces[0]->y_disp = 32 - proc->y_scroll_offset;
+
+    if (IsNewFace(((struct FaceProcNew *)gFaces[0])->fid))
+        gFaces[0]->y_disp -= NEW_FULL_FACE_HEIGHT - OLD_FULL_FACE_HEIGHT;
+
+    if (proc->y_scroll_offset >= -48)
+        Proc_Break(proc);
+}
+
+void ManimLevelUp_ScrollOutNew(struct ManimLevelUpProc * proc)
+{
+    proc->y_scroll_offset -= 8;
+
+    SetBgOffset(0, 0, proc->y_scroll_offset);
+    SetBgOffset(1, 0, proc->y_scroll_offset);
+
+    // NOTE: this is inconsistent with math in ManimLevelUp_InitMainScreen
+    gFaces[0]->y_disp = 32 - proc->y_scroll_offset;
+
+    if (IsNewFace(((struct FaceProcNew *)gFaces[0])->fid))
+        gFaces[0]->y_disp -= NEW_FULL_FACE_HEIGHT - OLD_FULL_FACE_HEIGHT;
+
+    if (proc->y_scroll_offset <= -144)
+        Proc_Break(proc);
 }
 
 struct ProcScr CONST_DATA ProcScr_ManimLevelUpNew[] =
@@ -160,13 +196,13 @@ struct ProcScr CONST_DATA ProcScr_ManimLevelUpNew[] =
     PROC_SLEEP(0),
     PROC_CALL(ManimLevelUp_InitMainScreenNew),
     PROC_SLEEP(0),
-    PROC_REPEAT(ManimLevelUp_ScrollIn),
+    PROC_REPEAT(ManimLevelUp_ScrollInNew),
     PROC_SLEEP(30),
     PROC_REPEAT(ManimLevelUp_PutStatGainLabels),
     PROC_SLEEP(60),
     PROC_CALL(EndManimLevelUpStatGainLabels),
     PROC_SLEEP(1),
-    PROC_REPEAT(ManimLevelUp_ScrollOut),
+    PROC_REPEAT(ManimLevelUp_ScrollOutNew),
     PROC_CALL(ClearManimLevelUpWindow),
     PROC_CALL(ClearTalk),
     PROC_SLEEP(4),

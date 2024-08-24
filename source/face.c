@@ -157,6 +157,8 @@ struct FaceProcNew * StartFaceNew(int slot, int fid, int x, int y, int disp)
 
     struct FaceProcNew * proc;
 
+    Debugf("face: %d %s, slot: %d, x: %d, y: %d", fid, GetFaceName(fid), slot, x, y);
+
     if (gFaces[slot] != NULL)
         return NULL;
 
