@@ -1,0 +1,11 @@
+MovieVersion BizHawk v2.0.0
+StartsFromSaveRam True
+Author laqieer
+emuVersion Version 2.9.1
+OriginalEmuVersion Version 2.9.1
+Platform GBA
+GameName Fehrr
+SHA1 208584ADCC79A504652F782E7388B1E1221A2B19
+GBA_Firmware_Bios 300C20DF6731A33952DED8C436F7F186D25D3492
+Core mGBA
+
