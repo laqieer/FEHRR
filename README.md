@@ -61,6 +61,12 @@ If you find any new issue:
 
 1. [Open an issue](https://github.com/laqieer/FEHRR/issues/new/choose) with detailed repro steps, screenshots and save states. **DO NOT attach ROM!!!**
 
+### [FAQ](https://github.com/laqieer/FEHRR/discussions/8)
+
+Pinned in [**Discussions**](https://github.com/laqieer/FEHRR/discussions).
+
+### [Wiki](https://github.com/laqieer/FEHRR/wiki/)
+
 ## Developer Guide
 
 ### Build
