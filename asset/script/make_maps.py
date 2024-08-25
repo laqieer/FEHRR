@@ -221,6 +221,26 @@ terrain_map = [
     },
     # 22-25: trench, not used in story maps, doc: https://feheroes.fandom.com/wiki/Trenches
     {
+        "index": 22,
+        "name": "Trench",
+        "terrain_id": None,
+    },
+    {
+        "index": 23,
+        "name": "Trench",
+        "terrain_id": None,
+    },
+    {
+        "index": 24,
+        "name": "Trench",
+        "terrain_id": None,
+    },
+    {
+        "index": 25,
+        "name": "Trench",
+        "terrain_id": None,
+    },
+    {
         "index": 26,
         "name": "Pool",
         "terrain_id": 0x16,
@@ -493,6 +513,11 @@ def make_map_tsa():
         # run FEBuilderGBA to make TSA: https://github.com/laqieer/FEBuilderGBA/commit/fabcd487abe9f31c0d4578c61e17e6caded2257b
         os.system('%s --convertmap1picture --in=%s --outImg=%s --outTSA=%s' % (FEBuiderGBA, image_map_decreased_color_path, map_obj_img_path, map_tsa_path))
 
+def is_terrain_fluid(terrain):
+    if terrain is None:
+        return False
+    return terrain in (4, 5, 6, 7, 26)
+
 def make_map_terrains():
     for map_id, config in map_configs.items():
         terrains = numpy.zeros((32, 32), dtype=numpy.uint8)
@@ -504,6 +529,16 @@ def make_map_terrains():
                 terrains[2 * y][2 * x + 1] = terrain_id
                 terrains[2 * y + 1][2 * x] = terrain_id
                 terrains[2 * y + 1][2 * x + 1] = terrain_id
+                if terrain == 15: # bridge
+                    terrain_left = config['field']['terrain'][7 - y][x - 1] if x > 0 else None
+                    terrain_right = config['field']['terrain'][7 - y][x + 1] if x < 5 else None
+                    terrain_top = config['field']['terrain'][7 - (y - 1)][x] if y > 0 else None
+                    terrain_bottom = config['field']['terrain'][7 - (y + 1)][x] if y < 7 else None
+                    if not is_terrain_fluid(terrain_left) and not is_terrain_fluid(terrain_right) and (is_terrain_fluid(terrain_top) or is_terrain_fluid(terrain_bottom)) and terrain_top != 15: # horizontal bridge, top is fluid
+                        terrain_fluid = terrain_top if is_terrain_fluid(terrain_top) else terrain_bottom
+                        assert is_terrain_fluid(terrain_fluid)
+                        terrains[2 * y][2 * x] = terrain_configs[terrain_fluid]['terrain_id']
+                        terrains[2 * y][2 * x + 1] = terrain_configs[terrain_fluid]['terrain_id']
         for change in config['field']['changes'].values():
             terrain = config['field']['terrain'][change['y']][change['x']]
             if is_breakable(terrain):
@@ -513,14 +548,24 @@ def make_map_terrains():
                 terrains[2 * (7 - change['y'])][2 * (change['x'] + 6) + 1] = base_terrain_id
                 terrains[2 * (7 - change['y']) + 1][2 * (change['x'] + 6)] = base_terrain_id
                 terrains[2 * (7 - change['y']) + 1][2 * (change['x'] + 6) + 1] = base_terrain_id
+                if base_terrain == 15: # wall on bridge
+                    terrain_left = config['field']['terrain'][7 - y][x - 1] if x > 0 else None
+                    terrain_right = config['field']['terrain'][7 - y][x + 1] if x < 5 else None
+                    terrain_top = config['field']['terrain'][7 - (y - 1)][x] if y > 0 else None
+                    terrain_bottom = config['field']['terrain'][7 - (y + 1)][x] if y < 7 else None
+                    if not is_terrain_fluid(terrain_left) and not is_terrain_fluid(terrain_right) and (is_terrain_fluid(terrain_top) or is_terrain_fluid(terrain_bottom)) and terrain_top != 15: # horizontal bridge, top is fluid
+                        terrain_fluid = terrain_top if is_terrain_fluid(terrain_top) else terrain_bottom
+                        assert is_terrain_fluid(terrain_fluid)
+                        terrains[2 * (7 - change['y'])][2 * (change['x'] + 6)] = terrain_configs[terrain_fluid]['terrain_id']
+                        terrains[2 * (7 - change['y'])][2 * (change['x'] + 6) + 1] = terrain_configs[terrain_fluid]['terrain_id']
                 if change['hp'] == '1':
                     if change['type'] in ('W', 'E', 'Pillar'):
-                        terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
-                        terrains[2 * (7 - change['y'])][2 * change['x'] + 1] = base_terrain_id
+                        terrains[2 * (7 - change['y'])][2 * change['x']] = terrains[2 * (7 - change['y'])][2 * (change['x'] + 6)]
+                        terrains[2 * (7 - change['y'])][2 * change['x'] + 1] = terrains[2 * (7 - change['y'])][2 * (change['x'] + 6) + 1]
                     if change['type'] == 'N': # right bottom
-                        terrains[2 * (7 - change['y']) + 1][2 * change['x'] + 1] = base_terrain_id
+                        terrains[2 * (7 - change['y']) + 1][2 * change['x'] + 1] = terrains[2 * (7 - change['y']) + 1][2 * (change['x'] + 6) + 1]
                     if change['type'] == 'S': # left top
-                        terrains[2 * (7 - change['y'])][2 * change['x']] = base_terrain_id
+                        terrains[2 * (7 - change['y'])][2 * change['x']] = terrains[2 * (7 - change['y'])][2 * (change['x'] + 6)]
         map_terrain_path = os.path.join(map_terrain_save_path, map_id + 'T.raw')
         with open(map_terrain_path, 'wb') as file:
             file.write(b'\x00')
@@ -1242,6 +1287,7 @@ if __name__ == '__main__':
     # print_map_anims()
     # make_map_images()
     # decrease_map_colors()
+    # make_map_terrains()
     # make_map_tilesets()
     # make_map_changes()
     # make_common_map()
