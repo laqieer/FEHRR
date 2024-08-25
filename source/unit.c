@@ -340,13 +340,13 @@ struct Unit * CreateUnitNew(struct UnitInfo const * info)
 
     if (info->autolevel)
     {
-        if (isEnemyOnly(unit->pinfo->id))
+        if (isEnemyOnly(unit->pinfo->id) || UNIT_FACTION(unit) != FACTION_BLUE)
         {
-            UnitAutolevel(unit);
+            UnitAutolevelNew(unit);
         }
         else
         {
-            UnitAutolevelPlayer(unit);
+            UnitAutolevelPlayerNew(unit);
         }
 
         UnitAutolevelWeaponExp(unit, info);
