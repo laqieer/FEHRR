@@ -2,6 +2,8 @@
 #include "jobs.h"
 #include "log.h"
 
+#include "gfx_misc.h"
+
 int getMuId(int jid)
 {
     Assertf(jid < JID_COUNT, "jid=%d, JID_COUNT=%d", jid, JID_COUNT);
@@ -26,6 +28,9 @@ int getMuId(int jid)
 
 u8 const * GetMuImgNew(struct MuProc * mu)
 {
+    if (mu->jid == JID_MERCENARY_F)
+        return Unit_Sprite_Mercenary_F_Axe_WalkTiles;
+
     return MuInfoTable[getMuId(mu->jid) - 1].img;
 }
 

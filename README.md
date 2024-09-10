@@ -110,3 +110,10 @@ Supported emulators:
 ### [References](.gitmodules)
 
 ### [Musics](music/appeared_musics.json)
+
+### Map Sprites
+
+Mercenary (F) Axe {Pushwall, Argo, Flasuban, ArcherBias}
+
+![Mercenary (F) Axe {Pushwall, Argo, Flasuban, ArcherBias}-stand.png](gfx/misc/Unit_Sprite_Mercenary_F_Axe_Stand.png)
+![Mercenary (F) Axe {Pushwall, Argo, Flasuban, ArcherBias}-walk.png](gfx/misc/Unit_Sprite_Mercenary_F_Axe_Walk.png)

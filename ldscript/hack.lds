@@ -53,3 +53,4 @@ INCLUDE ../ldscript/item.lds
 INCLUDE ../ldscript/mapwork.lds
 INCLUDE ../ldscript/banim_dragon.lds
 INCLUDE ../ldscript/banim_dragonfx_manakete.lds
+INCLUDE ../ldscript/unitsprites.lds
