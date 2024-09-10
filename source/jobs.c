@@ -137,9 +137,9 @@ const struct JInfo JInfoTableNew[] =
         .attributes = UNIT_ATTR_FEMALE,
         .wexp =
         {
-            [ITEM_KIND_SWORD] = WEXP_D,
+            [ITEM_KIND_AXE] = WEXP_D,
         },
-        .banim_info = BanimInfo_Mercenary,
+        .banim_info = BanimInfo_Hero_F,
         .mov_table = MoveTable_Footie,
         .avo_terrain_table = TerrainAvoTable_Default,
         .def_terrain_table = TerrainDefTable_Default,
@@ -228,8 +228,8 @@ const struct JInfo JInfoTableNew[] =
         .attributes = UNIT_ATTR_PROMOTED | UNIT_ATTR_FEMALE,
         .wexp =
         {
-            [ITEM_KIND_SWORD] = WEXP_C,
-            [ITEM_KIND_AXE] = WEXP_E,
+            [ITEM_KIND_SWORD] = WEXP_E,
+            [ITEM_KIND_AXE] = WEXP_C,
         },
         .banim_info = BanimInfo_Hero_F,
         .mov_table = MoveTable_BigFootie,
