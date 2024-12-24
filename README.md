@@ -95,10 +95,10 @@ Supported emulators:
 - Map debug menu
 
 ![FEHRR-12](https://github.com/user-attachments/assets/ffb65f04-b89a-4cfa-b0bf-0aef241afb7a)
-![FEHRR-15](https://github.com/user-attachments/assets/5fc75cfd-c13b-4eb6-be9a-dae766c9cb62)
+![FEHRR-13](https://github.com/user-attachments/assets/b3b7bff6-1c35-4d1b-a425-b82b7de365fc)
 
 ![FEHRR-14](https://github.com/user-attachments/assets/fd1c5c44-66e8-4bcc-a6e6-642cf781cf3e)
-![FEHRR-13](https://github.com/user-attachments/assets/b3b7bff6-1c35-4d1b-a425-b82b7de365fc)
+![FEHRR-15](https://github.com/user-attachments/assets/5fc75cfd-c13b-4eb6-be9a-dae766c9cb62)
 
 ![FEHRR-16](https://github.com/user-attachments/assets/c49d4530-e140-42e6-adf6-1acc8d861b1f)
 ![FEHRR-17](https://github.com/user-attachments/assets/2e8adc6c-2747-4441-80ff-318ef6a1a404)
