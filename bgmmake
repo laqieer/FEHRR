@@ -79,6 +79,8 @@ export OFILES   := $(addsuffix .o, $(basename $(BGMFILES)))
 
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
+	# if MPlayDef.s doesn't exist in BUILD, copy it from include to BUILD
+	@[ -f $(BUILD)/MPlayDef.s ] || cp include/MPlayDef.s $(BUILD)/
 	@make --no-print-directory -C $(BUILD) -f $(CURDIR)/bgmmake
 
 all : $(BUILD)
