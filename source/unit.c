@@ -279,28 +279,29 @@ void GiveUnitDefaultWeapons(struct Unit * unit)
 {
     Assert(unit && unit->pinfo && unit->jinfo && (unit->flags & UNIT_FLAG_DEAD) == 0);
 
-    switch (unit->jinfo->id)
-    {
-        case JID_MANAKETE:
-            UnitAddItem(unit, CreateItem(IID_FIRESTONE));
-            break;
+    // Dragon Stone is not included in the default weapon distribution because it is significantly overpowered and can easily cause progression blockers.
+    // switch (unit->jinfo->id)
+    // {
+    //     case JID_MANAKETE:
+    //         UnitAddItem(unit, CreateItem(IID_FIRESTONE));
+    //         break;
 
-        case JID_MANAKETE_F:
-            UnitAddItem(unit, CreateItem(IID_DIVINESTONE));
-            break;
+    //     case JID_MANAKETE_F:
+    //         UnitAddItem(unit, CreateItem(IID_DIVINESTONE));
+    //         break;
 
-        case JID_DEMONDRAGON:
-            UnitAddItem(unit, CreateItem(IID_DARKBREATH));
-            break;
+    //     case JID_DEMONDRAGON:
+    //         UnitAddItem(unit, CreateItem(IID_DARKBREATH));
+    //         break;
 
-        default:
+    //     default:
             for (int i = 0; i < UNIT_WEAPON_EXP_COUNT; ++i)
             {
                 if(unit->wexp[i])
                     UnitAddItem(unit, CreateItem(DefaultWeapons[i]));
             }
-            break;
-    }
+    //         break;
+    // }
 }
 
 struct Unit * CreateUnitNew(struct UnitInfo const * info)
