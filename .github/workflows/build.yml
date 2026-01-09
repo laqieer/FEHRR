@@ -47,7 +47,7 @@ jobs:
     - name: Store build timestamp
       run: echo "build_time=$(date +'%Y%m%d.%H%M')" >> "$GITHUB_ENV"
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: ${{ github.event.repository.name }}-${{ env.build_time }}-${{ github.run_id }}-${{ github.sha }}
         path: |
