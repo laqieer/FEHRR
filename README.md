@@ -75,6 +75,8 @@ Pinned in [**Discussions**](https://github.com/laqieer/FEHRR/discussions).
 
 1. Install [devkitPro](https://devkitpro.org/)
 
+1. `./build_tools.sh`
+
 1. `make`
 
 ### Logging
