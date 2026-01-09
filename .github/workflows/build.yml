@@ -21,7 +21,7 @@ jobs:
       run: git config --global --add safe.directory /__w/FEHRR/FEHRR
 
     - name: Install python dependencies
-      run: apt-get update && apt-get install -y python3-pip && pip3 install numpy
+      run: apt-get update && apt-get install -y python3-numpy
 
     - name: Build tools
       run: ./build_tools.sh
