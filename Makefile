@@ -52,6 +52,9 @@ CFLAGS	:=	-g -Wall -O2\
 
 CFLAGS	+=	$(INCLUDE)
 
+# Force-include bool_fix.h to work around bool typedef conflict in decomp submodule
+CFLAGS	+=	-include bool_fix.h
+
 CFLAGS	+=	-ffunction-sections -fdata-sections -fno-reorder-functions -fno-inline -fomit-frame-pointer -ffast-math -mlong-calls
 
 GIT_VERSION := "$(shell git describe --abbrev=7 --dirty --always --tags)"
